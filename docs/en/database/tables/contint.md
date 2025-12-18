@@ -37,7 +37,6 @@ ContInt list table. List-text of all valid contact interest types.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ContInt\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

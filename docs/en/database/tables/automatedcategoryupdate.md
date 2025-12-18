@@ -36,7 +36,6 @@ Info on how to autoupdate category when changing sale or leadstatus on person
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|automatedcategoryupdate\_id |PK |Clustered, Unique |
 |trigger\_type |Enum |Unique |
 
 ## Relationships

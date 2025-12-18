@@ -37,7 +37,6 @@ MDO List of tags for Service entities
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|tags\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

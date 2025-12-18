@@ -28,7 +28,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=totam
+GET /api/v1/List/ProductCategory/MDOItems?query=et
 ```
 
 

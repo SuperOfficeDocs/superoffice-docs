@@ -173,7 +173,7 @@ Implementation of the provider for the combined selection
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -819,7 +819,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectUdef/SuperOffice:9,NumberOfSales,appointment/appointmentUdef/SuperOffice:8,projectMember/personAddress/addressId,projectMember/correspondingAssociate/ejUserId
+GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectAssociate/isActive,document/associate/locationAddress,projectMember/personExtra/x_person_integer,projectMember/correspondingAssociate/mrMrs,projectMember/subscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

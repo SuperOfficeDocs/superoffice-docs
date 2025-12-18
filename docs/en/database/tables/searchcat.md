@@ -37,7 +37,6 @@ SearchCat list table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SearchCat\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

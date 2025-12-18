@@ -41,7 +41,6 @@ Stores the position and size of each window, so they can be shown in the same pl
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|WinPosSize\_id |PK |Clustered, Unique |
 |assoc\_id, owner |FK, String(254) |Index |
 
 ## Relationships

@@ -640,7 +640,7 @@ This is the archive Provider for the Configurable appointment Archive.
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -747,7 +747,7 @@ This is the archive Provider for the Configurable appointment Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=icon,contact/contactAssociate/title,sale/userGroup,sale/associate/contactDepartment,sale/saleUdef/SuperOffice:8
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=joinVideomeetUrl,person/useAsMailingAddress,appointmentUdef/SuperOffice:8,project/statusRank,project/projectPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

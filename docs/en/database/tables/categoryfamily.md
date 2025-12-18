@@ -36,7 +36,6 @@ Grouping table so that multiple company categories can be grouped under one term
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|categoryfamily\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

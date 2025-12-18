@@ -82,7 +82,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionCombinedV2?$select=lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/SelectionSelectionCombinedV2?$select=selectionAssociate/contactCategory,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

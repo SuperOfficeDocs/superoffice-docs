@@ -29,7 +29,6 @@ A log used for debugging, especially useful for bLogic/ejscript
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

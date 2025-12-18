@@ -34,7 +34,6 @@ Heading link table for SearchCat, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|searchcatheadinglink\_id |PK |Clustered, Unique |
 |searchcat\_id |FK |Index |
 |heading\_id |FK |Index |
 

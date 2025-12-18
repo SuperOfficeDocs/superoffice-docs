@@ -34,7 +34,6 @@ Heading link table for SubscriptionUnit, for MDO item headings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|subscriptionunitheadinglink\_id |PK |Clustered, Unique |
 |subscriptionunit\_id |FK |Index |
 |heading\_id |FK |Index |
 

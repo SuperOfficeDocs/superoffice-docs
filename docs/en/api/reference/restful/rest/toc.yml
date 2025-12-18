@@ -2790,6 +2790,32 @@ items:
     href: TicketMessage/v1TicketMessageEntity_SendTicketMessageSms.md
   - name: PUT TicketMessage/{id}
     href: TicketMessage/v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify.md
+- name: TicketRelation
+  href: TicketRelation/index.md
+  items:
+  - name: DEL TicketRelation/{id}
+    href: TicketRelation/v1TicketRelationEntity_DeleteTicketRelationEntity.md
+  - name: GET TicketRelation/default
+    href: TicketRelation/v1TicketRelationEntity_DefaultTicketRelationEntity.md
+  - name: POST TicketRelation
+    href: TicketRelation/v1TicketRelationEntity_PostTicketRelationEntity.md
+  - name: PUT TicketRelation/{id}
+    href: TicketRelation/v1TicketRelationEntity_PutTicketRelationEntity.md
+- name: TicketRelationDefinition
+  href: TicketRelationDefinition/index.md
+  items:
+  - name: DEL TicketRelationDefinition/{id}
+    href: TicketRelationDefinition/v1TicketRelationDefinitionEntity_DeleteTicketRelationDefinitionEntity.md
+  - name: GET TicketRelationDefinition/{id}
+    href: TicketRelationDefinition/v1TicketRelationDefinitionEntity_GetTicketRelationDefinitionEntity.md
+  - name: GET TicketRelationDefinition/default
+    href: TicketRelationDefinition/v1TicketRelationDefinitionEntity_DefaultTicketRelationDefinitionEntity.md
+  - name: PATCH TicketRelationDefinition/{id}
+    href: TicketRelationDefinition/v1TicketRelationDefinitionEntity_PatchTicketRelationDefinitionEntity.md
+  - name: POST TicketRelationDefinition
+    href: TicketRelationDefinition/v1TicketRelationDefinitionEntity_PostTicketRelationDefinitionEntity.md
+  - name: PUT TicketRelationDefinition/{id}
+    href: TicketRelationDefinition/v1TicketRelationDefinitionEntity_PutTicketRelationDefinitionEntity.md
 - name: TicketType
   href: TicketType/index.md
   items:

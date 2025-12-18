@@ -28,7 +28,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=ut
+GET /api/v1/List/SelectionCategory/MDOItems?query=saepe
 ```
 
 

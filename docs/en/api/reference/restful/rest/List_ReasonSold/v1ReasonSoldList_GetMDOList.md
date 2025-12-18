@@ -28,7 +28,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=eius
+GET /api/v1/List/ReasonSold/MDOItems?query=cum
 ```
 
 

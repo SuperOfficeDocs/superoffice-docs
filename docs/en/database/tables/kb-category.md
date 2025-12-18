@@ -40,7 +40,6 @@ Knowledge base folder hierarchy
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 |sort\_order |Int |Index |
 |created\_by |FK |Index |

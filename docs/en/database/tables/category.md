@@ -40,7 +40,6 @@ Category list table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Category\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

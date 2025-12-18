@@ -34,7 +34,6 @@ User group link table for Prob, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|probgrouplink\_id |PK |Clustered, Unique |
 |prob\_id |FK |Index |
 |group\_id |FK |Index |
 

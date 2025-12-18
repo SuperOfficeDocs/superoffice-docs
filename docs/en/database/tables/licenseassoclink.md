@@ -39,7 +39,6 @@ Link between ModuleLicense and Associate, for per-assoc licenses; this is how li
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|LicenseAssocLink\_id |PK |Clustered, Unique |
 |moduleLicenseId, assocId |FK, FK |Unique |
 
 ## Relationships

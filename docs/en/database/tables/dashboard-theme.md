@@ -38,7 +38,6 @@ A set of style rules for the Dashboard
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|dashboard\_theme\_id |PK |Clustered, Unique |
 
 ## Relationships
 

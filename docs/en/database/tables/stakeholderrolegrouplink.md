@@ -34,7 +34,6 @@ User group link table for StakeholderRole, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|stakeholderrolegrouplink\_id |PK |Clustered, Unique |
 |stakeholderrole\_id |FK |Index |
 |group\_id |FK |Index |
 

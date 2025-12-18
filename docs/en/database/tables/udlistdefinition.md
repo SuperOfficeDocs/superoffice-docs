@@ -38,7 +38,6 @@ List table that contains the list of user-defined lists, as well as system-defin
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UDListDefinition\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

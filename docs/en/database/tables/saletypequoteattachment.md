@@ -35,7 +35,6 @@ Default attachments to quotes linked to sales of this type
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|saletypequoteattachment\_id |PK |Clustered, Unique |
 
 ## Relationships
 

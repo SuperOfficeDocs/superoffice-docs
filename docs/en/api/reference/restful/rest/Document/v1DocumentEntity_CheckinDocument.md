@@ -33,8 +33,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Profit-focused regional forecast
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=consequatur,aut
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Expanded transitional standardization
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=dolorem,ipsam
 ```
 
 

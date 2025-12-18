@@ -27,7 +27,6 @@ Obsolete table for functionality that was never implemented
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

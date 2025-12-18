@@ -168,7 +168,7 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
-|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
@@ -772,7 +772,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/approvalRegisteredBy,alternative/version/extraField2,alternative/version/quote/sale/contact/saintDirection,alternative/version/quote/sale/associate/assocTooltip,alternative/version/quote/sale/project/projectUrl/URLAddress
+GET /api/v1/archive/FindQuoteLine?$select=alternative/version/quote/sale/saleStatus,alternative/version/quote/sale/soldReason,alternative/version/quote/sale/hasQuote,alternative/version/quote/sale/sale/description,alternative/version/quote/sale/person/personExtra/x_person_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

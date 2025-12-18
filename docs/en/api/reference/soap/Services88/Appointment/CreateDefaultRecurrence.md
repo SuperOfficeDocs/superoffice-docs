@@ -64,8 +64,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:CreateDefaultRecurrenceResponse>
    <Appointment:Response xsi:type="Appointment:RecurrenceInfo">
     <Appointment:RecurrenceId xsi:type="xsd:int">0</Appointment:RecurrenceId>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2025-11-26T12:06:40Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2025-11-26T12:06:40Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2025-12-18T01:29:28Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2025-12-18T01:29:28Z</Appointment:EndDate>
     <Appointment:RecurrenceEndType xsi:type="Appointment:RecurrenceEndType">Unknown</Appointment:RecurrenceEndType>
     <Appointment:Pattern xsi:type="Appointment:RecurrencePattern">Unknown</Appointment:Pattern>
     <Appointment:DayPattern xsi:type="Appointment:RecurrenceDayPattern">
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </Appointment:YearPattern>
     <Appointment:Dates xsi:type="Appointment:ArrayOfRecurrenceDate">
      <Appointment:RecurrenceDate xsi:type="Appointment:RecurrenceDate">
-      <Appointment:Date xsi:type="xsd:dateTime">2025-11-26T12:06:40Z</Appointment:Date>
+      <Appointment:Date xsi:type="xsd:dateTime">2025-12-18T01:29:28Z</Appointment:Date>
       <Appointment:IsConflict xsi:type="xsd:boolean">false</Appointment:IsConflict>
       <Appointment:Description xsi:type="xsd:string"></Appointment:Description>
       <Appointment:DescriptionStyleHint xsi:type="xsd:string"></Appointment:DescriptionStyleHint>

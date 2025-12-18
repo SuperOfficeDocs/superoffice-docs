@@ -29,7 +29,6 @@ Scripts to implement row-based access rules (sentry light)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

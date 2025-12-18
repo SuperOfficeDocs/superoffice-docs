@@ -43,7 +43,6 @@ Quote root level, at most one per Sale, always connected to one Sale
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quote\_id |PK |Clustered, Unique |
 
 ## Relationships
 

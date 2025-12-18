@@ -41,7 +41,6 @@ Configuration of quote lines - which fields are in use, rights, labels etc
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quotelineconfiguration\_id |PK |Clustered, Unique |
 
 ## Relationships
 

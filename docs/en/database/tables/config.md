@@ -56,7 +56,6 @@ This table contains certain system-wide configuration values.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

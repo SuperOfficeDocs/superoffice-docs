@@ -1188,6 +1188,71 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultTicketRelationEntity">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultTicketRelationEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketRelationEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="TicketRelationEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TicketRelationId" type="xs:int" />
+              <xs:element minOccurs="0" name="SourceTicketId" type="xs:int" />
+              <xs:element minOccurs="0" name="DestinationTicketId" type="xs:int" />
+              <xs:element minOccurs="0" name="RelationType" type="tns:TicketRelationType" />
+              <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="TicketRelationEntity" nillable="true" type="tns:TicketRelationEntity" />
+      <xs:simpleType name="TicketRelationType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Related" />
+          <xs:enumeration value="Parent" />
+          <xs:enumeration value="Child" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="TicketRelationType" nillable="true" type="tns:TicketRelationType" />
+      <xs:element name="SaveTicketRelationEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketRelationEntity" nillable="true" type="tns:TicketRelationEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveTicketRelationEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketRelationEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteTicketRelationEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketRelationEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteTicketRelationEntityResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetAttachmentEntity">
         <xs:complexType>
           <xs:sequence>
@@ -2490,6 +2555,57 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateDefaultTicketRelationEntityRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTicketRelationEntity" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTicketRelationEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTicketRelationEntityResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultTicketRelationEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultTicketRelationEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketRelationEntityRequest">
+    <wsdl:part name="parameters" element="tns:SaveTicketRelationEntity" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketRelationEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketRelationEntityResponse">
+    <wsdl:part name="parameters" element="tns:SaveTicketRelationEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveTicketRelationEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTicketRelationEntityRequest">
+    <wsdl:part name="parameters" element="tns:DeleteTicketRelationEntity" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTicketRelationEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTicketRelationEntityResponse">
+    <wsdl:part name="parameters" element="tns:DeleteTicketRelationEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTicketRelationEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetAttachmentEntityRequest">
     <wsdl:part name="parameters" element="tns:GetAttachmentEntity" />
   </wsdl:message>
@@ -3569,6 +3685,18 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntity" name="SaveTicketMessageEntityRequest" message="tns:SaveTicketMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketMessageEntityResponse" name="SaveTicketMessageEntityResponse" message="tns:SaveTicketMessageEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTicketRelationEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketRelationEntity" name="CreateDefaultTicketRelationEntityRequest" message="tns:CreateDefaultTicketRelationEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketRelationEntityResponse" name="CreateDefaultTicketRelationEntityResponse" message="tns:CreateDefaultTicketRelationEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTicketRelationEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketRelationEntity" name="SaveTicketRelationEntityRequest" message="tns:SaveTicketRelationEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketRelationEntityResponse" name="SaveTicketRelationEntityResponse" message="tns:SaveTicketRelationEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTicketRelationEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketRelationEntity" name="DeleteTicketRelationEntityRequest" message="tns:DeleteTicketRelationEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketRelationEntityResponse" name="DeleteTicketRelationEntityResponse" message="tns:DeleteTicketRelationEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetAttachmentEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentEntity" name="GetAttachmentEntityRequest" message="tns:GetAttachmentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetAttachmentEntityResponse" name="GetAttachmentEntityResponse" message="tns:GetAttachmentEntityResponse" />
@@ -3913,6 +4041,54 @@ content_type: reference
         <soap:header message="tns:SaveTicketMessageEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveTicketMessageEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveTicketMessageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultTicketRelationEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultTicketRelationEntity" style="document" />
+      <wsdl:input name="CreateDefaultTicketRelationEntityRequest">
+        <soap:header message="tns:CreateDefaultTicketRelationEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultTicketRelationEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultTicketRelationEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultTicketRelationEntityResponse">
+        <soap:header message="tns:CreateDefaultTicketRelationEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTicketRelationEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultTicketRelationEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultTicketRelationEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTicketRelationEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SaveTicketRelationEntity" style="document" />
+      <wsdl:input name="SaveTicketRelationEntityRequest">
+        <soap:header message="tns:SaveTicketRelationEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveTicketRelationEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveTicketRelationEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveTicketRelationEntityResponse">
+        <soap:header message="tns:SaveTicketRelationEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveTicketRelationEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveTicketRelationEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveTicketRelationEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTicketRelationEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DeleteTicketRelationEntity" style="document" />
+      <wsdl:input name="DeleteTicketRelationEntityRequest">
+        <soap:header message="tns:DeleteTicketRelationEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteTicketRelationEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteTicketRelationEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteTicketRelationEntityResponse">
+        <soap:header message="tns:DeleteTicketRelationEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteTicketRelationEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteTicketRelationEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteTicketRelationEntityResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

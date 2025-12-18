@@ -71,7 +71,7 @@ Sale archive provider for the Contact/Project card
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
@@ -1154,7 +1154,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=stageId,person/personAssociate/isActive,contact/restrictionAddress/state,contact/restrictionAddress/formattedAddress,saleStakeholder/person/correspondingAssociate/credentialDisplayValue
+GET /api/v1/archive/SaleFiltered?$select=person/email/emailId,person/correspondingAssociate/ejStatus,project/projectAssociate/isActiveText,project/LastCompletedActivity,saleStakeholder/person/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

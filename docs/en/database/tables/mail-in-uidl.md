@@ -32,7 +32,6 @@ This table is used to avoid spamming the system by importing the same message se
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |filter\_id |FK |Index |
 
 ## Relationships

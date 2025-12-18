@@ -72,7 +72,6 @@ Contains info about one shipment. The addresses are stored in s_shipment_addr
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |message\_id |FK |Index |
 |are\_statistics\_dirty, id |Bool, PK |Index |
 

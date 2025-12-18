@@ -34,7 +34,6 @@ User group link table for AmountClass, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|amountclassgrouplink\_id |PK |Clustered, Unique |
 |amountclass\_id |FK |Index |
 |group\_id |FK |Index |
 

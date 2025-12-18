@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | taskMenuId | int32 | **Required** The identity of the TaskMenu |
 
 ```http
-POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=115
+POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=438
 ```
 
 

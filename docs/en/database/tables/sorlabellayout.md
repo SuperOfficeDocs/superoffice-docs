@@ -45,7 +45,6 @@ SuperOffice reporter data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORLabelLayout\_id |PK |Clustered, Unique |
 |name |String(239) |Index |
 
 ## Relationships

@@ -38,7 +38,6 @@ Preference system. If deflevel is set to 5; the user may change the preferences
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|userpreference\_id |PK |Clustered, Unique |
 |deflevel |Enum |Index |
 |owner\_id |Id |Index |
 |prefsection |String(199) |Index |

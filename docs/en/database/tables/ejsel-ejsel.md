@@ -31,7 +31,6 @@ This table defines sources for complex selections in a many/many relationship
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent |FK |Index |
 |child |FK |Index |
 |operation |Int |Index |

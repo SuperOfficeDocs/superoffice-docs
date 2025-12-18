@@ -35,7 +35,6 @@ Global settings for the Erp Integration Server
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpconfiguration\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -49,7 +49,6 @@ This table contains email filters. These are the filters allowing you to do adva
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |new\_priority |FK |Index |
 |new\_category |FK |Index |
 |new\_owner |FK |Index |

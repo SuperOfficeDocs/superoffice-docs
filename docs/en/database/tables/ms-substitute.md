@@ -32,7 +32,6 @@ Regexp for extracting info from emails when they enter they system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ms\_filter\_id |FK |Index |
 
 ## Relationships

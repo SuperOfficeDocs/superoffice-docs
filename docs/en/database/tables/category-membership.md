@@ -31,7 +31,6 @@ This table connects users to categories (many-to-many).
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |category\_id |FK |Index |
 |user\_id |FK |Index |
 

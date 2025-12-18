@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | triggerScriptEntityId | int32 | **Required** The identity of the TriggerScriptEntity |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?triggerScriptEntityId=454
+POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?triggerScriptEntityId=513
 ```
 
 

@@ -33,7 +33,6 @@ This table contains log entries for the tickets.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |log\_code |Enum |Index |
 |log\_when |DateTime |Index |

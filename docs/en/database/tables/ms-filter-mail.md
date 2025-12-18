@@ -29,7 +29,6 @@ This table connects mail filters (ms_filter) to mailboxes (mail_in_filter).
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |mail\_sorter\_id |FK |Index |
 |mail\_in\_filter\_id |FK |Index |
 

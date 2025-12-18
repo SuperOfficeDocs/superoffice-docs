@@ -639,7 +639,7 @@ Shadow contact provider for the static appointment provider.
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 
 ## Supported Columns (cont.)
@@ -755,7 +755,7 @@ Shadow contact provider for the static appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowStaticSelectionV2?$select=intention,contact/country,contact/contactAssociate/title,person/personExtra/y_rental/x_contact,person/personAssociate/role
+GET /api/v1/archive/AppointmentShadowStaticSelectionV2?$select=person/personCategoryGroup,person/personExtra/y_rental/y_equipment/x_name,person/correspondingAssociate/usergroupId,project/registeredBy,sale/saleUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

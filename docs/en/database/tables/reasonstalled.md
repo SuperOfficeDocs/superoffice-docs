@@ -37,7 +37,6 @@ Why was the sale marked as stalled
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ReasonStalled\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

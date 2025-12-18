@@ -47,7 +47,6 @@ Preference description, drives the Preference GUI. Maintenance client - controls
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|PrefDesc\_id |PK |Clustered, Unique |
 |prefsection |String(199) |Index |
 |prefkey |String(199) |Index |
 

@@ -36,7 +36,6 @@ Deprecated. This table contains entries for the user profiles.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 
 ## Relationships

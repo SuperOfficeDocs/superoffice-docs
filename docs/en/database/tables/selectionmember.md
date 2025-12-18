@@ -32,7 +32,6 @@ Selection detail table  Each row in a selection is represented by one record in 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|selectionmember\_id |PK |Unique |
 |selection\_id |FK |Index |
 |person\_id |FK |Index |
 |contact\_id, person\_id |FK, FK |Index |

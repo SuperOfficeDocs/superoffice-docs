@@ -33,7 +33,6 @@ Currently logged-on users. This table contains encrypted license information.  C
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|activeuser\_id |PK |Clustered, Unique |
 
 ## Relationships
 

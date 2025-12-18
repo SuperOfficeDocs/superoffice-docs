@@ -41,7 +41,6 @@ This table stores the entries in a tree-explorer
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 |session\_key |String(255) |Index |
 |expand\_order |Int |Index |

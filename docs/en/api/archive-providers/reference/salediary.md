@@ -71,7 +71,7 @@ Sale archive provider for the Diary card
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
@@ -1154,7 +1154,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/retired,contact/associateId,project/projectAssociate/ejUserId,saleStakeholder/person/birthMonth,saleStakeholder/person/updatedByWorkflow
+GET /api/v1/archive/SaleDiary?$select=contact/category,associate/title,project/number,project/projectEvent/eventDate,saleStakeholder/person/whenUpdatedByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

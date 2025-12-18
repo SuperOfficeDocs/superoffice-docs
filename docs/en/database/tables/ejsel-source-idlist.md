@@ -28,7 +28,6 @@ This table stores id list source for selections
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

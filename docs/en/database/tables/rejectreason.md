@@ -37,7 +37,6 @@ Rejection reason (suggested) for bookings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|RejectReason\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

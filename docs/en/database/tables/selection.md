@@ -57,7 +57,6 @@ Selections
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|selection\_id |PK |Unique |
 |group\_idx |FK |Index |
 |name |String(219) |Index |
 |soundEx |String(9) |Index |

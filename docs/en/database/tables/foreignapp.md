@@ -33,7 +33,6 @@ Top level of Foreign Key system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|foreignapp\_id |PK |Clustered, Unique |
 
 ## Relationships
 

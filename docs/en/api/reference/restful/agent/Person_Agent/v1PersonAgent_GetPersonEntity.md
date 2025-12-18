@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPersonEntity?personEntityId=17
+POST /api/v1/Agents/Person/GetPersonEntity?personEntityId=940
 POST /api/v1/Agents/Person/GetPersonEntity?$select=name,department,category/id
 ```
 

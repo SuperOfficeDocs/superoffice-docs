@@ -34,7 +34,6 @@ Heading link table for QuoteDenyReason, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quotedenyreasonheadinglink\_id |PK |Clustered, Unique |
 |quotedenyreason\_id |FK |Index |
 |heading\_id |FK |Index |
 

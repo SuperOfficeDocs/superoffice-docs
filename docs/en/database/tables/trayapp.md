@@ -37,7 +37,6 @@ Tray application presence. SuperOffice CRM web extensions.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|TrayApp\_id |PK |Clustered, Unique |
 |associateId |FK |Index |
 |guid |String(253) |Unique |
 

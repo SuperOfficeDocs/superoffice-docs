@@ -31,7 +31,7 @@ Gets the value of the string(s) with a given name in all known languages.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}?isoLangCode=et
+GET /api/v1/String/{sr_id}?isoLangCode=itaque
 GET /api/v1/String/{sr_id}?ignoreOverrides=False
 ```
 

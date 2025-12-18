@@ -64,7 +64,6 @@ Companies and Organizations.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|contact\_id |PK |Clustered, Unique |
 |name |String(219) |Index |
 |kananame |String(219) |Index |
 |department |String(219) |Index |

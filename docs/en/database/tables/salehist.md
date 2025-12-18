@@ -69,7 +69,6 @@ Mirror image of the Sale table, providing a full transaction history. Every time
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|salehist\_id |PK |Clustered, Unique |
 |sale\_id |FK |Index |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |

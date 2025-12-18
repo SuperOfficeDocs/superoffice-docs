@@ -30,7 +30,6 @@ Knowledge base workflow steps
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |next |FK |Index |
 |previous |FK |Index |
 

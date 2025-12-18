@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | dashId | int32 | **Required** The identity of the Dash |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?dashId=86
+POST /api/v1/Agents/Dash/DeleteDash?dashId=400
 ```
 
 

@@ -31,7 +31,6 @@ DBI agent settings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

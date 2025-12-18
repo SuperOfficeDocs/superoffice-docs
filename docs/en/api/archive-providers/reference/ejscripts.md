@@ -48,7 +48,7 @@ Lists all CRM Scripts in the ejScript table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ejscripts?$select=registeredBy,type
+GET /api/v1/archive/Ejscripts?$select=getAllRows,registeredBy,type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type Table (542)
+# ticket\_type Table (543)
 
 A ticket (request) type
 
@@ -48,7 +48,6 @@ A ticket (request) type
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ticket\_type\_id |PK |Clustered, Unique |
 |name |String(4000) |Unique |
 |default\_status |FK |Index |
 |default\_priority |FK |Index |

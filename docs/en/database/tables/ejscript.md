@@ -49,7 +49,6 @@ ejscript
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |hierarchy\_id |FK |Index |
 |include\_id |String(255) |Index |
 |unique\_identifier |String(64) |Unique |

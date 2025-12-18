@@ -34,7 +34,6 @@ User group link table for ProductFamily, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|productfamilygrouplink\_id |PK |Clustered, Unique |
 |productfamily\_id |FK |Index |
 |group\_id |FK |Index |
 

@@ -37,7 +37,6 @@ Multi-language text items. Used for user-defined field labels. Must be assigned 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|LocaleText\_id |PK |Unique |
 |resourceId |Id |Index |
 |languageId, typeId, resourceId |Id, UShort, Id |Clustered, Unique |
 

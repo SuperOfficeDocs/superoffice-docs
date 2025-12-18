@@ -646,7 +646,7 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -749,7 +749,7 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/registeredBy,contact/postAddress/line3,contact/LastDoBySale,contact/saintAmountClass,person/createdByForm
+GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/contactUdef/SuperOffice:7,person/personDirectFax/description,person/searchPhone/description,person/personUdef/SuperOffice:3,person/personAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

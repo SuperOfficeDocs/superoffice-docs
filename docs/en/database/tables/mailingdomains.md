@@ -36,7 +36,6 @@ List of allowed domains used in a Mailing
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|mailingdomains\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

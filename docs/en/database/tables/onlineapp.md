@@ -37,7 +37,6 @@ Echo and track information about Online Apps and their usage
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|onlineapp\_id |PK |Clustered, Unique |
 |clientId |String(255) |Unique |
 
 ## Relationships

@@ -57,7 +57,6 @@ Country information
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|country\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 |english\_name |String(39) |Index |
 

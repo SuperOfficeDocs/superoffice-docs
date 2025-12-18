@@ -40,7 +40,6 @@ This table contains entries used for mapping an external table to an internal ta
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ext\_datasource |FK |Index |
 |parent\_table |FK |Index |
 |child\_table |FK |Index |

@@ -36,7 +36,6 @@ Configuration data for Audience core and webparts
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|AudienceConfig\_id |PK |Clustered, Unique |
 |audienceLayoutId |FK |Index |
 
 ## Relationships

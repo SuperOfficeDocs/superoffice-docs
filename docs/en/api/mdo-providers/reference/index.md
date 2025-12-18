@@ -89,7 +89,7 @@ envir: onsite, online
 | [attachment](attachment.md) ||
 | [business](business.md) |GenericMDOProvider reads MDO lists with default settings|
 | [category](category.md) |GenericMDOProvider reads MDO lists with default settings|
-| [categorygroup](categorygroup.md) |MDO provider for the WorkflowGoalType enum|
+| [categorygroup](categorygroup.md) |MDO provider for the CategoryGroup enum.|
 | [chartselection](chartselection.md) ||
 | [chatbot](chatbot.md) |List of all script folders that contain a script named like "%bot%register%"|
 | [chatchannel](chatchannel.md) ||
@@ -423,6 +423,7 @@ envir: onsite, online
 | [ticketpriority](ticketpriority.md) |MDO list provider for ticket priorities.|
 | [ticketpriorityescalateevent](ticketpriorityescalateevent.md) |MDO list provider for ticket Priority EscalateEvents enum.|
 | [ticketread](ticketread.md) ||
+| [ticketrelationdefinition](ticketrelationdefinition.md) |MDO list provider for ticket relation definitions.|
 | [ticketselectionwithstaticmenu](ticketselectionwithstaticmenu.md) |Provider for selecting ticket selections|
 | [ticketslevel](ticketslevel.md) |Ticket Security Level|
 | [ticketstatus](ticketstatus.md) |Ticket status values: Open, Closed, Inactive, Deleted, Connected|

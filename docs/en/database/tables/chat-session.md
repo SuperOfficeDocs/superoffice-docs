@@ -58,7 +58,6 @@ This table contains chat sessions.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |topic\_id |FK |Index |
 |user\_id |FK |Index |
 |customer\_id |FK |Index |

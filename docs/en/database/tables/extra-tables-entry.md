@@ -33,7 +33,6 @@ Hits/entries in result set of executed search in ejournal extra tables
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |extra\_tables\_result |FK |Index |
 
 ## Relationships

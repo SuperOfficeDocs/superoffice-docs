@@ -34,7 +34,6 @@ Heading link table for Prob, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|probheadinglink\_id |PK |Clustered, Unique |
 |prob\_id |FK |Index |
 |heading\_id |FK |Index |
 

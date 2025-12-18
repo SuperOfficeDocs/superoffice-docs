@@ -134,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personActiveErpLinks,personRegisteredDate,isProjectMember
+GET /api/v1/archive/RecyclePerson?$select=personHasInterests,personRegisteredDate,isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

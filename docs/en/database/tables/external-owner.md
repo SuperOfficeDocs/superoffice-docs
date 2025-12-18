@@ -37,7 +37,6 @@ Owner of external data imported into the system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|external\_owner\_id |PK |Clustered, Unique |
 |owner |Enum |Index |
 |sourceKey |String(512) |Index |
 

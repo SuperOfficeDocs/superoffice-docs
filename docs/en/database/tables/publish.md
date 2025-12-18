@@ -39,7 +39,6 @@ Publishing system for external users
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Publish\_id |PK |Clustered, Unique |
 |publishType |Enum |Index |
 |tableNumber, recordId, publishType |TableNumber, RecordId, Enum |Unique |
 

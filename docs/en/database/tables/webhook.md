@@ -42,7 +42,6 @@ Webhook URL to call when events occur in the client or in NetServer. Also tracks
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|webhook\_id |PK |Clustered, Unique |
 
 ## Relationships
 

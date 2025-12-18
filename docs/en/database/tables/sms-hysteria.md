@@ -29,7 +29,6 @@ Avoid sending too many sms messages in a short time interval to one person
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

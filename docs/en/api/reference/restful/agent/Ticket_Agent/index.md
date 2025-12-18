@@ -20,6 +20,12 @@ content_type: reference
 
 * [POST Agents/Ticket/GetTicketMessageWithOptions](v1TicketAgent_GetTicketMessageWithOptions.md)
 
+* [POST Agents/Ticket/CreateDefaultTicketRelationEntity](v1TicketAgent_CreateDefaultTicketRelationEntity.md)
+
+* [POST Agents/Ticket/SaveTicketRelationEntity](v1TicketAgent_SaveTicketRelationEntity.md)
+
+* [POST Agents/Ticket/DeleteTicketRelationEntity](v1TicketAgent_DeleteTicketRelationEntity.md)
+
 * [POST Agents/Ticket/GetTicketSummaries](v1TicketAgent_GetTicketSummaries.md)
 
 * [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)

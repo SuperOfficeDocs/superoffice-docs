@@ -37,7 +37,6 @@ Priority list table. Used with appointments; low, high.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Priority\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

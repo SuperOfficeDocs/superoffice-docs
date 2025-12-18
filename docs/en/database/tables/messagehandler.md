@@ -38,7 +38,6 @@ Presence and heartbeat of a message handler, should be updated once a minute. Ol
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|MessageHandler\_id |PK |Clustered, Unique |
 |uniqueIdentifier |String(39) |Unique |
 |machine |String(254) |Index |
 

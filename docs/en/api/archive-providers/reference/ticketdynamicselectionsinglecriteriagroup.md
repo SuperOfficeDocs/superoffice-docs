@@ -623,7 +623,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -792,7 +792,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=readByCustomer,ownedBy/assocTooltip,person/personUdef/SuperOffice:4,person/personExtra/x_person_request_relation,contact/contactAssociate/personId
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=realTimeToClose,ownedBy/contactCategory,person/personAssociate/ejStatus,contact/restrictionAddress/wgs84longitude,project/projectPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -48,7 +48,6 @@ Documents, this table is an extension of the Appointment table.  There is always
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|document\_id |PK |Clustered, Unique |
 |header |String(219) |Index |
 |our\_ref |String(99) |Index |
 |searchname |String(99) |Index |

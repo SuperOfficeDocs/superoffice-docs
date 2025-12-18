@@ -36,7 +36,6 @@ Webhook usage statistics - tracks call+error statistics. Same primary key as the
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|webhook\_usage\_id |PK |Clustered, Unique |
 
 ## Relationships
 

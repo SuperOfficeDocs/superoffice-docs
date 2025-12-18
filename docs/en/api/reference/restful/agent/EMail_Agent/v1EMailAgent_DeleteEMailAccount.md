@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | eMailAccountId | int32 | **Required** The identity of the EMailAccount |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=872
+POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=876
 ```
 
 

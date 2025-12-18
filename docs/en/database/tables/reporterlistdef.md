@@ -36,7 +36,6 @@ Reporter definitions
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ReporterListDef\_id |PK |Clustered, Unique |
 |oleViewId |FK |Index |
 |oleFieldKey |FK |Index |
 |oleFieldName |FK |Index |

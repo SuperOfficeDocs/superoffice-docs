@@ -664,7 +664,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |appointmentInstance/sale/saleNumber| *None* |Number: Number|  |
 |appointmentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
-|appointmentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
+|appointmentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale|  |
 |appointmentInstance/sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |appointmentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |appointmentInstance/sale/description| *None* |Description: The long description field on Sale|  |
@@ -1409,7 +1409,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |documentInstance/sale/saleNumber| *None* |Number: Number|  |
 |documentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
-|documentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
+|documentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale|  |
 |documentInstance/sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |documentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |documentInstance/sale/description| *None* |Description: The long description field on Sale|  |
@@ -1472,7 +1472,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/person/personExtra/x_person_hidden_integer,documentInstance/person/personExtra/y_rental/x_amount,documentInstance/contact/contactExtra/x_contact_contact,documentInstance/contact/LastActivity,documentInstance/project/projectAssociate/firstName
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/rawType,appointmentInstance/contact/contactUdef/SuperOffice:4,appointmentInstance/contact/LastDoByActivity,appointmentInstance/person/personDeletedDate,appointmentInstance/person/email/emailProtocol
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

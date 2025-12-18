@@ -41,7 +41,6 @@ Historical information about associates that have been deleted. Most references 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|associatehistory\_id |PK |Clustered, Unique |
 
 ## Relationships
 

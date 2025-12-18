@@ -170,7 +170,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
-|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
@@ -774,7 +774,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/quote/registeredDate,alternative/version/quote/sale/contact/postAddress/wgs84longitude,alternative/version/quote/sale/contact/postAddress/formattedMultiLineAddress,alternative/version/quote/sale/contact/contactAssociate/ejUserId,alternative/version/quote/sale/project/projectAssociate/isActiveText
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/approvedBy,alternative/version/quote/sale/person/contactId,alternative/version/quote/sale/person/restrictionAddress/city,alternative/version/quote/sale/person/personAssociate/assocTooltip,alternative/version/quote/sale/person/correspondingAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

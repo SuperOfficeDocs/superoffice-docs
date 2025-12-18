@@ -34,7 +34,6 @@ User group link table for Country, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|countrygrouplink\_id |PK |Clustered, Unique |
 |country\_id |FK |Index |
 |group\_id |FK |Index |
 

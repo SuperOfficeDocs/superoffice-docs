@@ -328,7 +328,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 
 ## Supported Columns (cont.)
@@ -1447,7 +1447,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=email/emailHasBounced,sourceRelation/who,targetRelation/personContactRelation,personExtra/x_person_longtext,personExtra/x_person_shorttext_list
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=document/subject,personSourceRelation/useAsMailingAddress,personTargetRelation/hasInfoText,workflowInstance/emailFlow/workflowDefinitionStatusId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

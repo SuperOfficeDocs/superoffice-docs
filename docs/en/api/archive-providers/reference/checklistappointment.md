@@ -641,7 +641,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -748,7 +748,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/country,contact/restrictionAddress/formattedAddress,contact/contactUdef/SuperOffice:8,contact/NumberOfTicketsInPeriod,person/restrictionAddress/city
+GET /api/v1/archive/ChecklistAppointment?$select=priority,contact/contactNoMail,contact/restrictionAddress/zip,person/personMobilePhone/description,person/personAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

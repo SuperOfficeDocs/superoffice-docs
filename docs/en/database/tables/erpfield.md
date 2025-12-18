@@ -53,7 +53,6 @@ Store the metadata describing the fields that belong to an actor/connection comb
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpfield\_id |PK |Clustered, Unique |
 |ErpConnectionActorTypeId, ErpFieldKey |FK, String(254) |Unique |
 
 ## Relationships

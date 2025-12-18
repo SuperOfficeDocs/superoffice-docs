@@ -36,7 +36,6 @@ Many-many link table between project type and status, similar to sale type-stage
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ProjectTypeStatusLink\_id |PK |Clustered, Unique |
 |projType\_id, projStatus\_id |FK, FK |Index |
 
 ## Relationships

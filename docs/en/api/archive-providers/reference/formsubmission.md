@@ -487,7 +487,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=person/personRegisteredByFullName,person/restrictionAddress/county,person/personAssociate/personEmail
+GET /api/v1/archive/FormSubmission?$select=person/personAssociateFullName,contact/streetAddress/city,contact/contactAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

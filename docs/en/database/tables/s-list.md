@@ -38,7 +38,6 @@ A list, dynamic or static
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |dbi\_agent\_id |FK |Index |
 |dbi\_key |String(255) |Index |
 |dbi\_last\_syncronized |DateTime |Index |

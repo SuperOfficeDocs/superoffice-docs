@@ -54,7 +54,6 @@ SuperOffice reporter data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORField\_id |PK |Clustered, Unique |
 |SORSection\_id |FK |Index |
 |fieldType |String(14) |Index |
 |visible |UShort |Index |

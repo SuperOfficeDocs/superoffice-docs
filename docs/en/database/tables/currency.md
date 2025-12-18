@@ -40,7 +40,6 @@ Currency list table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Currency\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

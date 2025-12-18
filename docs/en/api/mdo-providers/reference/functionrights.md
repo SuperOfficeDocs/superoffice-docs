@@ -54,6 +54,14 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
+|1|General Administrator||admin-all|
+|2|List Administrator||admin-lists|
+|3|User Administrator||admin-users|
+|8|Can override read-only fields||allow-readonly-override|
+|9|Hide Company screen||hide-company|
+|10|Hide Sale screen||hide-sale|
+|11|Hide Project screen||hide-project|
+|12|Hide Inbox screen||hide-inbox|
 |13|Hide Selection screen||hide-selection|
 |15|Can run Mail Merge||allow-bulk-mailmerge|
 |16|Can export data to file||allow-bulk-export|
@@ -67,14 +75,6 @@ foreach (var item in listProvider.RootItems) {
 |24|Can see users belonging to other companies||see-other-companies-associates|
 |26|Status Monitor Administrator (counters)||admin-saint-regeneration|
 |27|Status Monitor Administrator (statuses)||admin-saint-definition|
-|28|Can create and delete tables in the database||allow-dictionarySDK|
-|29|Field Administrator||admin-udef|
-|30|Import Administrator||admin-import|
-|31|Show only published projects||ext-need-publish-to-see-project|
-|32|Show only published follow-ups||ext-need-publish-to-see-appointment|
-|33|Show only published documents||ext-need-publish-to-see-document|
-|34|Show only published sales||ext-need-publish-to-see-sale|
-|35|Show projects marked as events||ext-see-event-projects|
 
 
 ## Related MDO Lists

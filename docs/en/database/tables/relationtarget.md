@@ -36,7 +36,6 @@ Definition of targets for a relation. Links a relation definition (RelDef) to so
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reltarget\_id |PK |Clustered, Unique |
 |reldef\_id |FK |Index |
 |source\_table |TableNumber |Index |
 |destination\_table |TableNumber |Index |

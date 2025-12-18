@@ -37,7 +37,6 @@ The list of payment terms, in the internal product register
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|paymentterms\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

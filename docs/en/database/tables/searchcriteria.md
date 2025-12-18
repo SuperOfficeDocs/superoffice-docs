@@ -40,7 +40,6 @@ Criteria storage for Selection and other Find mechanisms
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SearchCriteria\_id |PK |Clustered, Unique |
 |ownerId, ownerName, ownerGuiName |RecordId, String(254), String(254) |Index |
 |ownerId, ownerTable, ownerType, ownerGuiName |RecordId, TableNumber, Enum, String(254) |Index |
 

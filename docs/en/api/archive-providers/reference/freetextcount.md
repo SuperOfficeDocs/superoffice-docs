@@ -40,7 +40,7 @@ is an MDO provider for supported entities.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextCount?$select=count,entityLocalizedName
+GET /api/v1/archive/FreetextCount?$select=entityLocalizedName,count,entityLocalizedName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

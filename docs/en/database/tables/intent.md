@@ -37,7 +37,6 @@ Intent list for SAINT. More information regarding SuperOffice Sales Intelligence
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Intent\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

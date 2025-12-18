@@ -35,7 +35,6 @@ Actual attachments to a quote
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteversionattachment\_id |PK |Clustered, Unique |
 |QuoteVersionId, DocumentId |FK, FK |Unique |
 
 ## Relationships

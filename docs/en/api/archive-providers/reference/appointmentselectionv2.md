@@ -639,7 +639,7 @@ This is the archive Provider for the Selection appouintment archive.
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 
 ## Supported Columns (cont.)
@@ -756,7 +756,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionV2?$select=contact/searchPhone/formattedNumber,appointmentUdef/SuperOffice:4,appointmentUdef/SuperOffice:5,sale/registeredBy,sale/associate/fullName
+GET /api/v1/archive/AppointmentSelectionV2?$select=endTime,appointmentPublish/isPublished,person/correspondingAssociate/fullName,person/correspondingAssociate/associateDbId,person/correspondingAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

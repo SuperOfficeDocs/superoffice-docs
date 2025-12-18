@@ -211,7 +211,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=LastActivity,saintAmountClass,postAddress/formattedAddress
+GET /api/v1/archive/contactfavourites?$select=contactDeleted,entityIcon,contactUdef/SuperOffice:11,NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -36,7 +36,6 @@ Many-many link table between sale type and stage; and an anchor point for guide 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SaleTypeStageLink\_id |PK |Clustered, Unique |
 |saleType\_id, stageId |FK, FK |Index |
 
 ## Relationships

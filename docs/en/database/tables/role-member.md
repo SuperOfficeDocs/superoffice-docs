@@ -29,7 +29,6 @@ Users linked to a role. Deprecated.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |role |FK |Index |
 |ejuser |FK |Index |
 

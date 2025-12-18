@@ -34,7 +34,6 @@ User group link table for PersPos, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|persposgrouplink\_id |PK |Clustered, Unique |
 |perspos\_id |FK |Index |
 |group\_id |FK |Index |
 

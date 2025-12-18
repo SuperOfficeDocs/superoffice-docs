@@ -656,7 +656,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -763,7 +763,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=contact/contactId,contact/postAddress/wgs84latitude,contact/saintDirection,person/personExtra/y_car/id,person/personAssociate/assocName
+GET /api/v1/archive/FreetextAppointment?$select=projectId,appointmentUdef/SuperOffice:2,project/text,project/projectAssociate/ejStatus,appointment/titleHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

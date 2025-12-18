@@ -34,7 +34,6 @@ Heading link table for Reason, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reasonheadinglink\_id |PK |Clustered, Unique |
 |reason\_id |FK |Index |
 |heading\_id |FK |Index |
 

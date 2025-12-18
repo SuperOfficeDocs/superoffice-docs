@@ -34,7 +34,6 @@ Heading link table for PriceUnit, for MDO item headings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|priceunitheadinglink\_id |PK |Clustered, Unique |
 |priceunit\_id |FK |Index |
 |heading\_id |FK |Index |
 

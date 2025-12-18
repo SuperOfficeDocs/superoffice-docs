@@ -31,7 +31,6 @@ List items of lead status that is selectable for contacts and persons that have 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|leadstatus\_id |PK |Clustered, Unique |
 |name |String(4000) |Unique |
 
 ## Relationships

@@ -29,7 +29,6 @@ A connector between a message and attachments. One message can contain many atta
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 |message\_id |FK |Index |
 

@@ -326,7 +326,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 
@@ -783,7 +783,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=sourceRelation/companyCategoryRank,sale/associate/personId,appointment/endTime,personAddress/formattedMultiLineAddress,correspondingAssociate/contactDepartment
+GET /api/v1/archive/SaintPerson?$select=restrictionAddress/zip,contactAssociate/isLocation,sourceRelation/contactId,appointment/associate/otherGroups,document/documentUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

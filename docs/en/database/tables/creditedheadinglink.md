@@ -34,7 +34,6 @@ Heading link table for Credited, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|creditedheadinglink\_id |PK |Clustered, Unique |
 |credited\_id |FK |Index |
 |heading\_id |FK |Index |
 

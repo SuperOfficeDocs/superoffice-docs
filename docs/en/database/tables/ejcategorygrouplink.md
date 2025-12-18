@@ -34,7 +34,6 @@ User group link table for EjCategory, for mass handling ej_category members
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ej\_categorygrouplink\_id |PK |Clustered, Unique |
 |ej\_category\_id |FK |Index |
 |group\_id |FK |Index |
 

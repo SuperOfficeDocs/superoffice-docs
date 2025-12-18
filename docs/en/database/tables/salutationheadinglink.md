@@ -34,7 +34,6 @@ Heading link table for Salutation, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|salutationheadinglink\_id |PK |Clustered, Unique |
 |salutation\_id |FK |Index |
 |heading\_id |FK |Index |
 

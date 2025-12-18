@@ -331,7 +331,7 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/soldReason| *None* |Reason (sold: Reason (sold)| x |
 |sale/saleNumber| *None* |Number: Number| x |
 |sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -1449,7 +1449,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=categoryGroup,updatedByFullName,email/emailAddress,document/suggestedDocumentId,document/documentUdef/SuperOffice:4
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/locationAddress,contactExtra/x_contact_datetime,sourceRelation/name,targetRelation/registeredBy,sale/hasQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

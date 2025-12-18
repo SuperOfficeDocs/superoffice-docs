@@ -35,7 +35,6 @@ Stores specific configuration values for each data source
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|copilot\_data\_source\_setting\_id |PK |Clustered, Unique |
 
 ## Relationships
 

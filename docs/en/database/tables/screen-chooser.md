@@ -39,7 +39,6 @@ Screen choosers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |screen\_target |Int |Index |
 |unique\_identifier |String(64) |Unique |
 

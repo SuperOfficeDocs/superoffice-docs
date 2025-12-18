@@ -31,7 +31,6 @@ Knowledge base workflow access rights associated with a role
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |role |FK |Index |
 |workflow\_id |FK |Index |
 |crm\_role |FK |Index |

@@ -47,7 +47,6 @@ A message used in a shipment. Can be html and/or plain text
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

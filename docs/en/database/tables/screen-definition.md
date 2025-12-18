@@ -39,7 +39,6 @@ A configurable screen
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |hierarchy\_id |FK |Index |
 
 ## Relationships

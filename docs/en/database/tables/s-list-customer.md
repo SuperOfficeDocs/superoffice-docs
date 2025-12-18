@@ -29,7 +29,6 @@ Elements in a customer list.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |list\_id |FK |Index |
 |customer\_id |FK |Index |
 

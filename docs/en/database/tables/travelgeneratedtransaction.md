@@ -38,7 +38,6 @@ Record of all generated replication data files from this database (*.dwn files f
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|travelgeneratedtransaction\_id |PK |Clustered, Unique |
 |travel\_id |Id |Index |
 |transmissionnumber, travel\_id |UInt, Id |Index |
 

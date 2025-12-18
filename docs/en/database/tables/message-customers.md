@@ -30,7 +30,6 @@ This table contains all cutomers who are involved in a message
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |message\_id |FK |Index |
 |customer\_id |FK |Index |
 

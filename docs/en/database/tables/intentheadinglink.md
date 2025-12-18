@@ -34,7 +34,6 @@ Heading link table for Intent, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|intentheadinglink\_id |PK |Clustered, Unique |
 |intent\_id |FK |Index |
 |heading\_id |FK |Index |
 

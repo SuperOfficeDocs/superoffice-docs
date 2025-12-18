@@ -657,7 +657,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/soldReason|listAny|Reason (sold: Reason (sold)|  |
 |sale/saleNumber|string|Number: Number|  |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders|  |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled|  |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale|  |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?|  |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide|  |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -788,7 +788,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |soldReason|listAny|Reason (sold: Reason (sold)|  |
 |saleNumber|string|Number: Number|  |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders|  |
-|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled|  |
+|stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale|  |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?|  |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide|  |
 |description|string|Description: The long description field on Sale|  |
@@ -1529,7 +1529,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=personId,contact/postAddress/addressId,contact/postAddress/wgs84longitude,contact/contactAssociate/locationAddress,contact/contactExtra/x_contact_contact_relation
+GET /api/v1/archive/Links?$select=recordTypeText,contact/contactDeleted,contact/contactUdef/SuperOffice:7,person/personAssociate/userName,sale/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

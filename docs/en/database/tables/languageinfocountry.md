@@ -39,7 +39,6 @@ Many-many link between countries and languages, to give intelligent choices for 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|LanguageInfoCountry\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -35,7 +35,6 @@ Configuration of a multi-user diary view
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|DiaryViewRow\_id |PK |Clustered, Unique |
 |diaryViewId |FK |Index |
 
 ## Relationships

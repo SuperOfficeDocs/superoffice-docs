@@ -37,7 +37,6 @@ Academic title for Person
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Salutation\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

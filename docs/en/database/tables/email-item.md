@@ -57,7 +57,6 @@ Email data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_item\_id |PK |Clustered, Unique |
 |server\_id |Int |Index |
 |account\_id |FK |Index |
 |account\_id, server\_id |FK, Int |Index |

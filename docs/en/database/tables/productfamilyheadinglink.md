@@ -34,7 +34,6 @@ Heading link table for ProductFamily, for MDO item headings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|productfamilyheadinglink\_id |PK |Clustered, Unique |
 |productfamily\_id |FK |Index |
 |heading\_id |FK |Index |
 

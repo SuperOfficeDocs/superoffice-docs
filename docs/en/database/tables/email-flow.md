@@ -51,7 +51,6 @@ A set of properties related to the email workflow.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_flow\_id |PK |Clustered, Unique |
 |hierarchy\_id |FK |Index |
 
 ## Relationships

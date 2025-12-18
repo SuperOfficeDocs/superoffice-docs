@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | consentPersonId | int32 | **Required** The identity of the ConsentPerson |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=308
+POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=513
 ```
 
 

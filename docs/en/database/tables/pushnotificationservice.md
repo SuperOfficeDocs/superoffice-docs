@@ -45,7 +45,6 @@ Used for storing handles to user devices that should receive push notifications
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|pushnotificationservice\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -34,7 +34,6 @@ Heading link table for Priority, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|priorityheadinglink\_id |PK |Clustered, Unique |
 |priority\_id |FK |Index |
 |heading\_id |FK |Index |
 

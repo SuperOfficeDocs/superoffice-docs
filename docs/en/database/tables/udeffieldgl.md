@@ -35,7 +35,6 @@ User group link table for UDefField, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UDefFieldGL\_Id |PK |Clustered, Unique |
 |UDefFieldId |FK |Index |
 |group\_id |FK |Index |
 

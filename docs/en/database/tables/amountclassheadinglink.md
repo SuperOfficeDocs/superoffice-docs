@@ -34,7 +34,6 @@ Heading link table for AmountClass, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|amountclassheadinglink\_id |PK |Clustered, Unique |
 |amountclass\_id |FK |Index |
 |heading\_id |FK |Index |
 

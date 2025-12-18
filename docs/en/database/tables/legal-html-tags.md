@@ -28,7 +28,6 @@ This table is used as a list of all legal HTML tags. HTML tags not in this list 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

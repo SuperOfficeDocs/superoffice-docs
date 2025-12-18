@@ -33,7 +33,6 @@ Usage statistics for web applications
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|WebAppUsage\_id |PK |Clustered, Unique |
 |viewState, timestamp, assocId |String(254), DateTime, FK |Index |
 
 ## Relationships

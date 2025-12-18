@@ -37,7 +37,6 @@ Functional right definition
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|FunctionRight\_id |PK |Clustered, Unique |
 
 ## Relationships
 

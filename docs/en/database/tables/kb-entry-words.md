@@ -30,7 +30,6 @@ This table contains all the words and how many times the are refered            
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |word |String(63) |Index |
 
 ## Relationships

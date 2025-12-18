@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | resourceEntityId | int32 | **Required** The identity of the ResourceEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteResourceEntity?resourceEntityId=577
+POST /api/v1/Agents/List/DeleteResourceEntity?resourceEntityId=313
 ```
 
 

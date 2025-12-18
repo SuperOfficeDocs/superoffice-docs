@@ -32,7 +32,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=48
+PUT /api/v1/Project/{id}/ImageInfo?projectId=554
 ```
 
 

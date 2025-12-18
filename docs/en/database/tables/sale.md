@@ -70,7 +70,6 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|sale\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |saledate |DateTime |Index |

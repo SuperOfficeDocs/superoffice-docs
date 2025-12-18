@@ -216,7 +216,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=person/ticketPriority,contact/registeredBy,project/description
+GET /api/v1/archive/SaleHistory?$select=earning,person/personRegisteredByFullName,person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

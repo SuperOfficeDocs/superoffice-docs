@@ -34,7 +34,6 @@ Heading link table for SaleTypeCat, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|saletypecatheadinglink\_id |PK |Clustered, Unique |
 |saletypecat\_id |FK |Index |
 |heading\_id |FK |Index |
 

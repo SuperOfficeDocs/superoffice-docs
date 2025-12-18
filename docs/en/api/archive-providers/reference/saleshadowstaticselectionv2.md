@@ -71,7 +71,7 @@ Shadow contact provider for the static sale provider.
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
@@ -1346,7 +1346,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=sale/textId,salePublish/publishedBy,person/restrictionAddress/wgs84longitude,person/personExtra/x_person_hidden_integer,document/associate/otherGroups
+GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=person/withdrawnStoreConsent,contact/nameDepartment,contact/postAddress/state,contact/contactUdef/SuperOffice:11,appointment/associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

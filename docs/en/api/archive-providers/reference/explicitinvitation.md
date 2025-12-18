@@ -645,7 +645,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 | ---- | ----- | ------- | ------ |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -752,7 +752,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExplicitInvitation?$select=contact/nameDepartment,contact/contactAssociate/isLocation,person/personRegisteredBy,person/personAddress/wgs84longitude,person/personAssociate/contactDepartment
+GET /api/v1/archive/ExplicitInvitation?$select=contact/name,contact/deletedDate,contact/postAddress/city,project/projectAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

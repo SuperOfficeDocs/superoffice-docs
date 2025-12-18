@@ -36,7 +36,6 @@ The new (4.0) profile table. Contains profile for a single Html-element. Connect
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |screen\_definition\_element |FK |Index |
 |owned\_by\_user |FK |Index |
 

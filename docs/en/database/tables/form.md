@@ -46,7 +46,6 @@ A form which can be published on a webpage and submitted by visitors
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|form\_id |PK |Clustered, Unique |
 |script\_id |FK |Index |
 |response\_shipment\_id |FK |Index |
 |form\_key |String(32) |Index |

@@ -666,7 +666,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |appointmentInstance/sale/saleNumber|string|Number: Number| x |
 |appointmentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|appointmentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|appointmentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |appointmentInstance/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |appointmentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |appointmentInstance/sale/description|string|Description: The long description field on Sale|  |
@@ -773,7 +773,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/alarm,appointmentInstance/contact/contactExtra/x_contact_boolean,appointmentInstance/person/updatedByWorkflow,appointmentInstance/person/personAddress/formattedAddress,appointmentInstance/person/personUdef/SuperOffice:10
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/personId,appointmentInstance/contact/streetAddress/line2,appointmentInstance/person/mrMrs,appointmentInstance/project/saintIntention,appointmentInstance/sale/lossReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

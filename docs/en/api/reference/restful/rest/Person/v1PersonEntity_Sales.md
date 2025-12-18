@@ -76,11 +76,11 @@ GET /api/v1/Person/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Person/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Sales?$orderBy=name asc
 GET /api/v1/Person/{id}/Sales?$entities=officiis
-GET /api/v1/Person/{id}/Sales?$top=492
-GET /api/v1/Person/{id}/Sales?$skip=317
+GET /api/v1/Person/{id}/Sales?$top=1001
+GET /api/v1/Person/{id}/Sales?$skip=177
 GET /api/v1/Person/{id}/Sales?$mode=Full
 GET /api/v1/Person/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Sales?$context=neque
+GET /api/v1/Person/{id}/Sales?$context=quod
 GET /api/v1/Person/{id}/Sales?$format=JSON
 GET /api/v1/Person/{id}/Sales?$jsonSafe=False
 GET /api/v1/Person/{id}/Sales?$output=Display

@@ -34,7 +34,6 @@ Heading link table for Task, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|taskheadinglink\_id |PK |Clustered, Unique |
 |task\_id |FK |Index |
 |heading\_id |FK |Index |
 

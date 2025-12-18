@@ -43,7 +43,6 @@ SuperOffice reporter data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORPublish\_id |PK |Clustered, Unique |
 |SORTemplate\_id |FK |Index |
 |name |String(239) |Index |
 |associate\_id |FK |Index |

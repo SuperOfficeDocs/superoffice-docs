@@ -45,7 +45,6 @@ Task list table, activity types, like Phone, Meeting
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Task\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

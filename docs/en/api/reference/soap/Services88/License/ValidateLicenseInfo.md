@@ -49,11 +49,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       <License:SerialNr xsi:type="xsd:string"></License:SerialNr>
       <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
       <License:OwnerDescription xsi:type="xsd:string"></License:OwnerDescription>
-      <License:NextCheckDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:NextCheckDate>
-      <License:MaintenanceDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:MaintenanceDate>
-      <License:AdminWarningDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:AdminWarningDate>
-      <License:ExpiryDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:ExpiryDate>
-      <License:GraceDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:GraceDate>
+      <License:NextCheckDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:NextCheckDate>
+      <License:MaintenanceDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:MaintenanceDate>
+      <License:AdminWarningDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:AdminWarningDate>
+      <License:ExpiryDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:ExpiryDate>
+      <License:GraceDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:GraceDate>
       <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
       <License:LicenseUrl xsi:type="xsd:string"></License:LicenseUrl>
       <License:LicenseVersion xsi:type="xsd:string"></License:LicenseVersion>
@@ -81,8 +81,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       </License:ModuleLicenses>
       <License:PublicKey xsi:type="License:SignedPublicKey">
        <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
-       <License:SignDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:SignDate>
-       <License:ExpiryDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:ExpiryDate>
+       <License:SignDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:SignDate>
+       <License:ExpiryDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:ExpiryDate>
        <License:Key xsi:type="NetServerServices882:DSAParameters">
         <NetServerServices882:Counter xsi:type="xsd:int">0</NetServerServices882:Counter>
         <NetServerServices882:G xsi:type="xsd:base64Binary"></NetServerServices882:G>
@@ -101,11 +101,11 @@ Application tokens must be specified if calling an Online installation. Applicat
       <License:SerialNr xsi:type="xsd:string"></License:SerialNr>
       <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
       <License:OwnerDescription xsi:type="xsd:string"></License:OwnerDescription>
-      <License:NextCheckDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:NextCheckDate>
-      <License:MaintenanceDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:MaintenanceDate>
-      <License:AdminWarningDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:AdminWarningDate>
-      <License:ExpiryDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:ExpiryDate>
-      <License:GraceDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:GraceDate>
+      <License:NextCheckDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:NextCheckDate>
+      <License:MaintenanceDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:MaintenanceDate>
+      <License:AdminWarningDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:AdminWarningDate>
+      <License:ExpiryDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:ExpiryDate>
+      <License:GraceDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:GraceDate>
       <License:ExtraFlags xsi:type="xsd:int">0</License:ExtraFlags>
       <License:LicenseUrl xsi:type="xsd:string"></License:LicenseUrl>
       <License:LicenseVersion xsi:type="xsd:string"></License:LicenseVersion>
@@ -133,8 +133,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       </License:ModuleLicenses>
       <License:PublicKey xsi:type="License:SignedPublicKey">
        <License:OwnerName xsi:type="xsd:string"></License:OwnerName>
-       <License:SignDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:SignDate>
-       <License:ExpiryDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:ExpiryDate>
+       <License:SignDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:SignDate>
+       <License:ExpiryDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:ExpiryDate>
        <License:Key xsi:type="NetServerServices882:DSAParameters">
         <NetServerServices882:Counter xsi:type="xsd:int">0</NetServerServices882:Counter>
         <NetServerServices882:G xsi:type="xsd:base64Binary"></NetServerServices882:G>
@@ -192,7 +192,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:NumberOfLicensesTotal xsi:type="xsd:int">0</License:NumberOfLicensesTotal>
       </License:ExtendedModuleLicense>
      </License:ExtendedModuleLicenses>
-     <License:AccumulatedNextCheckDate xsi:type="xsd:dateTime">2025-11-26T12:07:52Z</License:AccumulatedNextCheckDate>
+     <License:AccumulatedNextCheckDate xsi:type="xsd:dateTime">2025-12-18T01:30:39Z</License:AccumulatedNextCheckDate>
     </License:LicenseInfo>
    </License:ValidateLicenseInfo>
 

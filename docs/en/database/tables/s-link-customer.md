@@ -34,7 +34,6 @@ A connection between a customer and a link. Registered customers are identified 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |customer\_id |FK |Index |
 |link\_id |FK |Index |
 |shipment\_id |FK |Index |

@@ -34,7 +34,6 @@ Heading link table for Comptr, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|comptrheadinglink\_id |PK |Clustered, Unique |
 |comptr\_id |FK |Index |
 |heading\_id |FK |Index |
 

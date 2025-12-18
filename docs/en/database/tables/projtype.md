@@ -41,7 +41,6 @@ ProjType list table. List of valid Project types.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ProjType\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

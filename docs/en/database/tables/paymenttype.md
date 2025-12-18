@@ -37,7 +37,6 @@ The list of payment types, in the internal product register
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|paymenttype\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

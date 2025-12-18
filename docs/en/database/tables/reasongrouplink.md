@@ -34,7 +34,6 @@ User group link table for Reason, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reasongrouplink\_id |PK |Clustered, Unique |
 |reason\_id |FK |Index |
 |group\_id |FK |Index |
 

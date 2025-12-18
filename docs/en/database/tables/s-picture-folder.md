@@ -36,7 +36,6 @@ This table contains all picture folders
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |folder\_type |Short |Index |
 |parent\_id, folder\_type |Int, Short |Index |
 

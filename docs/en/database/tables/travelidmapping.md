@@ -38,7 +38,6 @@ Mapping of primary keys between Travel databases and the mother database  All tr
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|travelidmapping\_id |PK |Clustered, Unique |
 |local\_id |Id |Index |
 |associate\_id, table\_number, parent\_id |FK, TableNumber, Id |Index |
 

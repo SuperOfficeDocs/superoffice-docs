@@ -30,7 +30,6 @@ Table that contains constraints on the access to the soap interface
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

@@ -1081,7 +1081,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=supportAssociateFullName,personDirectPhone/description,personAddress/state,personContact/contactSupportPerson/who,personContact/contactSupportPerson/personExtra/x_person_date
+GET /api/v1/archive/FreetextPerson?$select=restrictionAddress/wgs84longitude,correspondingAssociate/ejUserId,personContact/streetAddress/formattedMultiLineAddress,personContact/contactSupportPerson/hasCompany,request/ticketStatusName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

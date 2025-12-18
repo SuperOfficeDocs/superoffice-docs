@@ -30,7 +30,6 @@ This table links an email message id to an eJournal item
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |message\_id |String(255) |Index |
 |domain |Int |Index |
 |item\_id |Int |Index |

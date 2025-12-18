@@ -31,7 +31,7 @@ NsApiSlow threshold: 1000 ms.
 | serviceAuthId | int32 | **Required** The identity of the ServiceAuth |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?serviceAuthId=840
+POST /api/v1/Agents/User/DeleteServiceAuth?serviceAuthId=108
 ```
 
 

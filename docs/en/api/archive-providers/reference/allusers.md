@@ -91,7 +91,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_ten-salesservicemarketing,credentialDisplayValue,superoffice_outlook-synchronizer
+GET /api/v1/archive/AllUsers?$select=usergroup,superoffice_outlook-synchronizer,associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

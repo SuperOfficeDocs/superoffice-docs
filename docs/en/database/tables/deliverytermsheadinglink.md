@@ -34,7 +34,6 @@ Heading link table for DeliveryTerms, for MDO item headings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|deliverytermsheadinglink\_id |PK |Clustered, Unique |
 |deliveryterms\_id |FK |Index |
 |heading\_id |FK |Index |
 

@@ -20,6 +20,7 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [CollectWinUsageAsync](collectwinusageasync.md)
 * [FlushCachesAsync](flushcachesasync.md)
 * [FlushCachesByNameAsync](flushcachesbynameasync.md)
+* [GetAnalyticsDataAsync](getanalyticsdataasync.md)
 * [GetCacheInvalidationGenerationsAsync](getcacheinvalidationgenerationsasync.md)
 * [GetCacheNamesAsync](getcachenamesasync.md)
 * [GetCacheStateAsync](getcachestateasync.md)
@@ -37,5 +38,6 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [RemoveSystemMessageForAssociateAsync](removesystemmessageforassociateasync.md)
 * [ResyncUsersAsync](resyncusersasync.md)
 * [SendSystemMessageAsync](sendsystemmessageasync.md)
+* [TrackEventAsync](trackeventasync.md)
 * [WebAppUsageExistsInPeriodAsync](webappusageexistsinperiodasync.md)
 

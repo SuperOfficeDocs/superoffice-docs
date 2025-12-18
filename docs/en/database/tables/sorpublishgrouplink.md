@@ -34,7 +34,6 @@ Link table used for filtering reports by user group
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORPublishGroupLink\_id |PK |Clustered, Unique |
 |SORPublishId |FK |Index |
 |UserGroupId |FK |Index |
 

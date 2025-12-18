@@ -1031,6 +1031,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_FlushCaches.md
   - name: FlushCachesByName
     href: Diagnostics_Agent/v1DiagnosticsAgent_FlushCachesByName.md
+  - name: GetAnalyticsData
+    href: Diagnostics_Agent/v1DiagnosticsAgent_GetAnalyticsData.md
   - name: GetCacheInvalidationGenerations
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetCacheInvalidationGenerations.md
   - name: GetCacheNames
@@ -1065,6 +1067,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_ResyncUsers.md
   - name: SendSystemMessage
     href: Diagnostics_Agent/v1DiagnosticsAgent_SendSystemMessage.md
+  - name: TrackEvent
+    href: Diagnostics_Agent/v1DiagnosticsAgent_TrackEvent.md
   - name: WebAppUsageExistsInPeriod
     href: Diagnostics_Agent/v1DiagnosticsAgent_WebAppUsageExistsInPeriod.md
 - name: Document
@@ -1860,6 +1864,8 @@ items:
     href: List_Agent/v1ListAgent_CreateDefaultTicketCategoryEntity.md
   - name: CreateDefaultTicketPriorityEntity
     href: List_Agent/v1ListAgent_CreateDefaultTicketPriorityEntity.md
+  - name: CreateDefaultTicketRelationDefinitionEntity
+    href: List_Agent/v1ListAgent_CreateDefaultTicketRelationDefinitionEntity.md
   - name: CreateDefaultTicketStatusEntity
     href: List_Agent/v1ListAgent_CreateDefaultTicketStatusEntity.md
   - name: CreateDefaultTicketTypeEntity
@@ -1902,6 +1908,8 @@ items:
     href: List_Agent/v1ListAgent_DeleteTicketCategoryEntity.md
   - name: DeleteTicketPriorityEntity
     href: List_Agent/v1ListAgent_DeleteTicketPriorityEntity.md
+  - name: DeleteTicketRelationDefinitionEntity
+    href: List_Agent/v1ListAgent_DeleteTicketRelationDefinitionEntity.md
   - name: DeleteTicketStatusEntity
     href: List_Agent/v1ListAgent_DeleteTicketStatusEntity.md
   - name: DeleteTicketTypeEntity
@@ -2266,6 +2274,8 @@ items:
     href: List_Agent/v1ListAgent_GetTicketPriorityEntity.md
   - name: GetTicketPriorityList
     href: List_Agent/v1ListAgent_GetTicketPriorityList.md
+  - name: GetTicketRelationDefinitionEntity
+    href: List_Agent/v1ListAgent_GetTicketRelationDefinitionEntity.md
   - name: GetTicketStatusEntity
     href: List_Agent/v1ListAgent_GetTicketStatusEntity.md
   - name: GetTicketStatuses
@@ -2296,6 +2306,8 @@ items:
     href: List_Agent/v1ListAgent_MoveAllTickets.md
   - name: MoveListItem
     href: List_Agent/v1ListAgent_MoveListItem.md
+  - name: PerformNeededCategoryUpdate
+    href: List_Agent/v1ListAgent_PerformNeededCategoryUpdate.md
   - name: RebuildFullnames
     href: List_Agent/v1ListAgent_RebuildFullnames.md
   - name: SaveAllAutomatedCategoryUpdates
@@ -2368,6 +2380,8 @@ items:
     href: List_Agent/v1ListAgent_SaveTicketCategoryEntity.md
   - name: SaveTicketPriorityEntity
     href: List_Agent/v1ListAgent_SaveTicketPriorityEntity.md
+  - name: SaveTicketRelationDefinitionEntity
+    href: List_Agent/v1ListAgent_SaveTicketRelationDefinitionEntity.md
   - name: SaveTicketStatusEntity
     href: List_Agent/v1ListAgent_SaveTicketStatusEntity.md
   - name: SaveTicketTypeEntity
@@ -2406,6 +2420,8 @@ items:
     href: List_Agent/v1ListAgent_SetTicketCategoriesForUserGroup.md
   - name: SetTicketPrioritySortOrder
     href: List_Agent/v1ListAgent_SetTicketPrioritySortOrder.md
+  - name: SetTicketRelationDefinitionSortOrder
+    href: List_Agent/v1ListAgent_SetTicketRelationDefinitionSortOrder.md
   - name: SetTicketStatusSortOrder
     href: List_Agent/v1ListAgent_SetTicketStatusSortOrder.md
   - name: SetTicketTypeSortOrder
@@ -3464,12 +3480,16 @@ items:
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketEntity.md
   - name: CreateDefaultTicketMessageEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketMessageEntity.md
+  - name: CreateDefaultTicketRelationEntity
+    href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketRelationEntity.md
   - name: DeleteMessageHeaders
     href: Ticket_Agent/v1TicketAgent_DeleteMessageHeaders.md
   - name: DeleteTicketEntity
     href: Ticket_Agent/v1TicketAgent_DeleteTicketEntity.md
   - name: DeleteTicketMessageEntity
     href: Ticket_Agent/v1TicketAgent_DeleteTicketMessageEntity.md
+  - name: DeleteTicketRelationEntity
+    href: Ticket_Agent/v1TicketAgent_DeleteTicketRelationEntity.md
   - name: DoEscalating
     href: Ticket_Agent/v1TicketAgent_DoEscalating.md
   - name: GetAttachmentEntity
@@ -3550,6 +3570,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_SaveTicketMessageEntityWithNotify.md
   - name: SaveTicketMessageEntityWithOptions
     href: Ticket_Agent/v1TicketAgent_SaveTicketMessageEntityWithOptions.md
+  - name: SaveTicketRelationEntity
+    href: Ticket_Agent/v1TicketAgent_SaveTicketRelationEntity.md
   - name: SendTicketMessage
     href: Ticket_Agent/v1TicketAgent_SendTicketMessage.md
   - name: SendTicketMessageSms

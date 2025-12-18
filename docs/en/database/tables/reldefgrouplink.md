@@ -34,7 +34,6 @@ User group link table for RelDef, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reldefgrouplink\_id |PK |Clustered, Unique |
 |reldef\_id |FK |Index |
 |group\_id |FK |Index |
 

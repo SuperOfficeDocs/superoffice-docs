@@ -37,7 +37,6 @@ List for the ProductFamily field of the Product table (Quote Management)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|productfamily\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

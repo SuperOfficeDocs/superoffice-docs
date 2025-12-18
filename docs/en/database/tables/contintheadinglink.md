@@ -34,7 +34,6 @@ Heading link table for ContInt, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|contintheadinglink\_id |PK |Clustered, Unique |
 |contint\_id |FK |Index |
 |heading\_id |FK |Index |
 

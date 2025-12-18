@@ -34,7 +34,6 @@ This table contains FAQ groups. A group is a cluster of entries (potentially loc
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_category\_id |FK |Index |
 |dbi\_agent\_id |FK |Index |
 |dbi\_key |String(255) |Index |

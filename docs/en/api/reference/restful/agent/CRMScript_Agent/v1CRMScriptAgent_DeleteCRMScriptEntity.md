@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | cRMScriptEntityId | int32 | **Required** The identity of the CRMScriptEntity |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?cRMScriptEntityId=526
+POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?cRMScriptEntityId=765
 ```
 
 

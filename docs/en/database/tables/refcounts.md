@@ -38,7 +38,6 @@ Number counter for all tables that generate numbers, e.g. templates, contacts...
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|RefCounts\_id |PK |Clustered, Unique |
 |fieldId |FieldId |Index |
 |recordId |Id |Index |
 |fieldId, recordId |FieldId, Id |Index |

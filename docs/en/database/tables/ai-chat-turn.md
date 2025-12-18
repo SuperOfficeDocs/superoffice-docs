@@ -35,7 +35,6 @@ Contains AI Chatbot history - contains whole chat, not just what is sent to the 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ai\_chat\_turn\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 |timestamp |UtcDateTime |Index |
 |associate\_id, chat\_id, timestamp |FK, String(40), UtcDateTime |Index |

@@ -36,7 +36,6 @@ Link between an audience layout and some target grouping table - might be Role o
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|AudienceLayoutLink\_id |PK |Clustered, Unique |
 |audienceLayoutId |FK |Index |
 |targetTable, targetRecord |TableNumber, RecordId |Index |
 

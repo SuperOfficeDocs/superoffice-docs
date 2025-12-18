@@ -36,7 +36,6 @@ Shipment type list table. Classification of a mailing, allowing recipients to su
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ShipmentType\_id |PK |Clustered, Unique |
 
 ## Relationships
 

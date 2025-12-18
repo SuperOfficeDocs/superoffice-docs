@@ -33,7 +33,6 @@ This table connected the chat topics with the users (i.e. the membership).
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |topic\_id |FK |Index |
 

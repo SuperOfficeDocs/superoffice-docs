@@ -35,7 +35,6 @@ Field label override table, makes it possible to override internal string resour
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|FieldLabel\_id |PK |Clustered, Unique |
 |resourceId |Id |Index |
 
 ## Relationships

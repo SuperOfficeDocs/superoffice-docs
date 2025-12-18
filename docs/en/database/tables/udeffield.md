@@ -62,7 +62,6 @@ Definition table for user-defined fields; one row in this table corresponds to o
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UDefField\_Id |PK |Clustered, Unique |
 |ownerTable\_id |UShort |Index |
 
 ## Relationships

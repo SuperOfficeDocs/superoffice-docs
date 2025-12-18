@@ -70,7 +70,6 @@ Links in messages to measure success rate of a campaign.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |script\_id |FK |Index |
 |ticket\_category |FK |Index |
 |ticket\_priority |FK |Index |

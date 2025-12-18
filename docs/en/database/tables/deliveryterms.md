@@ -37,7 +37,6 @@ The list of Delivery terms, in the internal product register
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|deliveryterms\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

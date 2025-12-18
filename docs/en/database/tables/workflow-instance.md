@@ -43,7 +43,6 @@ A set of properties related to the workflow instance of one participant going th
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_instance\_id |PK |Clustered, Unique |
 |person\_id |FK |Index |
 |contact\_id |FK |Index |
 

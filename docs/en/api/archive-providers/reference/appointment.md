@@ -643,7 +643,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -750,7 +750,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=contact/registeredByFullName,contact/restrictionAddress/formattedMultiLineAddress,contact/contactAssociate/otherGroups,person/retired,person/personAssociate/assocName
+GET /api/v1/archive/Appointment?$select=recurring,contact/email/emailDescription,contact/streetAddress/line2,contact/contactUdef/SuperOffice:4,person/isStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

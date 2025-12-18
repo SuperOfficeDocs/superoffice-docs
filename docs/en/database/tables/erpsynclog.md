@@ -38,7 +38,6 @@ Record all field changes done by the Erp Sync
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpsynclog\_id |PK |Clustered, Unique |
 
 ## Relationships
 

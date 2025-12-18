@@ -34,7 +34,6 @@ Link table incidated whose data should be included in this area. If Include all 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|areauserinclusion\_id |PK |Unique |
 |area\_id |FK |Index |
 |associate\_id |FK |Clustered |
 

@@ -29,7 +29,6 @@ This table stores id references for selections id lists
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ref\_id |Int |Index |
 |list\_id |Int |Index |
 

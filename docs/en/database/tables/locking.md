@@ -37,7 +37,6 @@ Generic locking and error messages
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

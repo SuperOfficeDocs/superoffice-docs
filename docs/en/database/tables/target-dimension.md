@@ -37,7 +37,6 @@ Defining target dimension
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_dimension\_id |PK |Clustered, Unique |
 |entity\_type |Enum |Index |
 |selected\_dimensions |FKArray |Full text |
 

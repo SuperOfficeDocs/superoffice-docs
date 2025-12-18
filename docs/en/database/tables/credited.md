@@ -37,7 +37,6 @@ Credited list table. List of who is to be credited for the sale.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Credited\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

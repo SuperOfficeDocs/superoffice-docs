@@ -37,7 +37,6 @@ Access control for Erp Connections
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpconnectionaccess\_id |PK |Clustered, Unique |
 
 ## Relationships
 

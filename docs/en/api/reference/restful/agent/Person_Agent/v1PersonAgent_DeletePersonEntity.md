@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | personEntityId | int32 | **Required** The identity of the PersonEntity |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=815
+POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=589
 ```
 
 

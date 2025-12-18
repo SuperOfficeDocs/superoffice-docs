@@ -38,7 +38,6 @@ This table describes each picture in the database
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 
 ## Relationships

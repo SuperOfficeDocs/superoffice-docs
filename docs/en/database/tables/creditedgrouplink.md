@@ -34,7 +34,6 @@ User group link table for Credited, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|creditedgrouplink\_id |PK |Clustered, Unique |
 |credited\_id |FK |Index |
 |group\_id |FK |Index |
 

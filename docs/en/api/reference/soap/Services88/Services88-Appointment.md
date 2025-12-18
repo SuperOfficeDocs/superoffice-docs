@@ -103,6 +103,7 @@ content_type: reference
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="InternalNotes" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="TaskId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

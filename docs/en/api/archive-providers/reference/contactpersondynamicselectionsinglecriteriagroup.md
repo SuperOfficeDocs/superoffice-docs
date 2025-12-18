@@ -326,7 +326,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -1445,7 +1445,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=email/emailLastSent,streetAddress/wgs84longitude,contactAssociate/middleName,contactAssociate/contactDepartment,contactAssociate/assocName
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=NumberOfNotCompletedSales,SaintStatus2,targetRelation/activeErpLinks,sale/saleTypeCategory,appointment/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

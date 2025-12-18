@@ -30,7 +30,7 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=127
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=943
 ```
 
 

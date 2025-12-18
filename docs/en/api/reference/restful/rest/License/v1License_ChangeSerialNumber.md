@@ -29,8 +29,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Mante LLC
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=609978
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Collins, Hauck and Jakubowski
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=646939
 ```
 
 

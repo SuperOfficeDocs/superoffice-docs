@@ -36,7 +36,6 @@ User-defined fields for contact (long strings)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udcontactLarge\_id |PK |Clustered, Unique |
 |string41 |String(199) |Index |
 |string42 |String(199) |Index |
 |string43 |String(199) |Index |

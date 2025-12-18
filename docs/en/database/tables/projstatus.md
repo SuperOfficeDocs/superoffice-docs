@@ -37,7 +37,6 @@ ProjStatus list table. Project status
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ProjStatus\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

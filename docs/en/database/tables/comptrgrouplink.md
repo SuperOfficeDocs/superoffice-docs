@@ -34,7 +34,6 @@ User group link table for Comptr, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|comptrgrouplink\_id |PK |Clustered, Unique |
 |comptr\_id |FK |Index |
 |group\_id |FK |Index |
 

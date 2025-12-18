@@ -31,7 +31,6 @@ Result set of executed search in ejournal extra tables
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |login\_id |FK |Index |
 |extra\_table |FK |Index |
 

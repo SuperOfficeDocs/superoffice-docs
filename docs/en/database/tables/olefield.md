@@ -40,7 +40,6 @@ Control data table for the OLE DB Provider
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|OLEField\_id |PK |Clustered, Unique |
 |OLEView\_id |FK |Index |
 |fieldId |FieldId |Index |
 |OLEView\_id, fieldId |FK, FieldId |Index |

@@ -34,7 +34,6 @@ Heading link table for Currency, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|currencyheadinglink\_id |PK |Clustered, Unique |
 |currency\_id |FK |Index |
 |heading\_id |FK |Index |
 

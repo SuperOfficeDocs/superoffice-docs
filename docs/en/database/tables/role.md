@@ -39,7 +39,6 @@ User roles for role-based security, names and tooltips are in LocaleText. For mo
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Role\_id |PK |Clustered, Unique |
 
 ## Relationships
 

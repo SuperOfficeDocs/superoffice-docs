@@ -34,7 +34,6 @@ User group link table for ContInt, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|contintgrouplink\_id |PK |Clustered, Unique |
 |contint\_id |FK |Index |
 |group\_id |FK |Index |
 

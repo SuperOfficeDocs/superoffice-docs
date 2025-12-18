@@ -35,7 +35,6 @@ Control data table for the OLE DB Provider
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|OLEView\_id |PK |Clustered, Unique |
 |OLESubject\_id |FK |Index |
 
 ## Relationships

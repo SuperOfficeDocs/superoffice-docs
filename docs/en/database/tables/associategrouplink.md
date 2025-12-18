@@ -34,7 +34,6 @@ User group link table for Associate, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|associategrouplink\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 |group\_id |FK |Index |
 

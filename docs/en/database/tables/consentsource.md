@@ -38,7 +38,6 @@ Consent source for GDPR
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|consentsource\_id |PK |Clustered, Unique |
 |key |String(255) |Unique |
 
 ## Relationships

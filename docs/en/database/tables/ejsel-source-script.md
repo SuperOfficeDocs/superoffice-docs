@@ -28,7 +28,6 @@ This table stores a selection script source
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

@@ -34,7 +34,6 @@ Heading link table for PaymentTerms, for MDO item headings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|paymenttermsheadinglink\_id |PK |Clustered, Unique |
 |paymentterms\_id |FK |Index |
 |heading\_id |FK |Index |
 

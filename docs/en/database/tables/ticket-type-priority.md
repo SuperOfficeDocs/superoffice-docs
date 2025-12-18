@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type\_priority Table (543)
+# ticket\_type\_priority Table (544)
 
 Link table defining what Priorities are relevant to a particular Ticket type
 
@@ -34,7 +34,6 @@ Link table defining what Priorities are relevant to a particular Ticket type
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ticket\_type\_priority\_id |PK |Clustered, Unique |
 
 ## Relationships
 

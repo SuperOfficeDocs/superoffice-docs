@@ -34,7 +34,6 @@ Connect quick filter info from a specific provider to a dashboard
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quick\_filter\_info\_id |PK |Clustered, Unique |
 |dashboard\_id |FK |Index |
 
 ## Relationships

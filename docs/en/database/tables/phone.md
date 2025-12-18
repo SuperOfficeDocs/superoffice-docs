@@ -40,7 +40,6 @@ Contact and Person phonenumbers (+fax)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|phone\_id |PK |Clustered, Unique |
 |rank |UShort |Index |
 |owner\_id, ptype\_idx |Id, Enum |Index |
 |searchPhoneNumber |String(239) |Index |

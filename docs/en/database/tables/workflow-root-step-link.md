@@ -35,7 +35,6 @@ Link root steps to the workflow
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_root\_step\_link\_id |PK |Clustered, Unique |
 
 ## Relationships
 

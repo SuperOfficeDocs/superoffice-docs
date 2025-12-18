@@ -43,7 +43,6 @@ Information on license and owner of this SuperOffice database. This table should
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|company\_id |PK |Clustered, Unique |
 
 ## Relationships
 

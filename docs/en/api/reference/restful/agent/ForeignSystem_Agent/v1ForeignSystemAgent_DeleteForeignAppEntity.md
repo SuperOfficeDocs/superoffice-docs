@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | foreignAppEntityId | int32 | **Required** The identity of the ForeignAppEntity |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=865
+POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=483
 ```
 
 

@@ -173,7 +173,7 @@ This is the archive Provider for the Selection Project archive.
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -827,7 +827,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelection?$select=sale/saleUdef/SuperOffice:4,projectMember/personRegisteredBy,projectMember/correspondingAssociate/contactFullName,projectMember/updatedBy,projectMember/contactAssociate/lastName
+GET /api/v1/archive/ProjectSelection?$select=saintIntention,sale/associate/personEmail,document/registeredDate,document/associate/credentialType,projectMember/personCategoryRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

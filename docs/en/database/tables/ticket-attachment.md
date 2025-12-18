@@ -31,7 +31,6 @@ This table connects an attachment to a message. It references the entry in the a
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 |message\_id |FK |Index |
 

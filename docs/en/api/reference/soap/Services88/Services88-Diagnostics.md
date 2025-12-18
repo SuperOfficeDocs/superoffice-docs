@@ -14,7 +14,7 @@ content_type: reference
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xs:element name="FlushCaches">
+      <xs:element name="GetAnalyticsData">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -35,11 +35,100 @@ content_type: reference
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="FlushCachesResponse">
+      <xs:element name="GetAnalyticsDataResponse">
         <xs:complexType>
-          <xs:sequence />
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AnalyticsData" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:complexType name="AnalyticsData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AmplitudeApiKey" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserflowToken" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LicenseStatus" nillable="true" type="tns:UserAndInstallationLicenceStatus" />
+          <xs:element minOccurs="0" name="HasLicensce" nillable="true" type="tns:StringBoolDictionary" />
+          <xs:element minOccurs="0" name="SystemLicenseNames" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="UserSignedUpAt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NumContact" type="xs:int" />
+          <xs:element minOccurs="0" name="NumPerson" type="xs:int" />
+          <xs:element minOccurs="0" name="NumAppointment" type="xs:int" />
+          <xs:element minOccurs="0" name="NumSale" type="xs:int" />
+          <xs:element minOccurs="0" name="NumProject" type="xs:int" />
+          <xs:element minOccurs="0" name="NumSelection" type="xs:int" />
+          <xs:element minOccurs="0" name="NumEmailItem" type="xs:int" />
+          <xs:element minOccurs="0" name="NumTicketLogAction" type="xs:int" />
+          <xs:element minOccurs="0" name="NumDashboard" type="xs:int" />
+          <xs:element minOccurs="0" name="NumQuote" type="xs:int" />
+          <xs:element minOccurs="0" name="NumQuoteLine" type="xs:int" />
+          <xs:element minOccurs="0" name="NumDocument" type="xs:int" />
+          <xs:element minOccurs="0" name="NumTargetAssignmentInfo" type="xs:int" />
+          <xs:element minOccurs="0" name="NumMailing" type="xs:int" />
+          <xs:element minOccurs="0" name="NumForm" type="xs:int" />
+          <xs:element minOccurs="0" name="NumWorkflow" type="xs:int" />
+          <xs:element minOccurs="0" name="TotContact" type="xs:int" />
+          <xs:element minOccurs="0" name="TotPerson" type="xs:int" />
+          <xs:element minOccurs="0" name="TotAppointment" type="xs:int" />
+          <xs:element minOccurs="0" name="TotSale" type="xs:int" />
+          <xs:element minOccurs="0" name="TotProject" type="xs:int" />
+          <xs:element minOccurs="0" name="TotSelection" type="xs:int" />
+          <xs:element minOccurs="0" name="TotEmailItem" type="xs:int" />
+          <xs:element minOccurs="0" name="TotTicketLogAction" type="xs:int" />
+          <xs:element minOccurs="0" name="TotDashboard" type="xs:int" />
+          <xs:element minOccurs="0" name="TotQuote" type="xs:int" />
+          <xs:element minOccurs="0" name="TotQuoteLine" type="xs:int" />
+          <xs:element minOccurs="0" name="TotDocument" type="xs:int" />
+          <xs:element minOccurs="0" name="TotTargetAssignmentInfo" type="xs:int" />
+          <xs:element minOccurs="0" name="TotMailing" type="xs:int" />
+          <xs:element minOccurs="0" name="TotForm" type="xs:int" />
+          <xs:element minOccurs="0" name="TotWorkflow" type="xs:int" />
+          <xs:element minOccurs="0" name="UserRegisteredAgeDays" type="xs:int" />
+          <xs:element minOccurs="0" name="UserCountryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserCountryCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Preferences" nillable="true" type="tns:StringBoolDictionary" />
+          <xs:element minOccurs="0" name="TotWebUsers" type="xs:int" />
+          <xs:element minOccurs="0" name="GroupCountryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GroupCountryCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GroupRegisteredDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GroupRegisteredAgeDays" type="xs:int" />
+          <xs:element minOccurs="0" name="FeatureToggles" nillable="true" type="tns:StringBoolDictionary" />
+          <xs:element minOccurs="0" name="FileVersion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FileVersionNumber" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="AnalyticsData" nillable="true" type="tns:AnalyticsData" />
+      <xs:complexType name="UserAndInstallationLicenceStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AdminWarningDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GraceDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CompanyName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialNr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserLicenses" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="UserAndInstallationLicenceStatus" nillable="true" type="tns:UserAndInstallationLicenceStatus" />
+      <xs:complexType name="StringBoolDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringBoolKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" type="xs:boolean" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringBoolDictionary" nillable="true" type="tns:StringBoolDictionary" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -91,6 +180,16 @@ content_type: reference
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="FlushCaches">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="FlushCachesResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetCacheNames">
         <xs:complexType>
           <xs:sequence />
@@ -99,14 +198,14 @@ content_type: reference
       <xs:element name="GetCacheNamesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="FlushCachesByName">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CacheNames" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CacheNames" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -118,7 +217,7 @@ content_type: reference
       <xs:element name="GetCacheState">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CacheNames" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CacheNames" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -132,7 +231,7 @@ content_type: reference
       <xs:element name="GetCacheInvalidationGenerations">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Names" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Names" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -327,6 +426,37 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="ChangeLogSettingsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="TrackEvent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TrackEventName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="EventProperties" nillable="true" type="tns:StringDictionary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
+      <xs:element name="TrackEventResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -652,6 +782,23 @@ content_type: reference
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetAnalyticsDataRequest">
+    <wsdl:part name="parameters" element="tns:GetAnalyticsData" />
+  </wsdl:message>
+  <wsdl:message name="GetAnalyticsDataRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAnalyticsDataResponse">
+    <wsdl:part name="parameters" element="tns:GetAnalyticsDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAnalyticsDataResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="FlushCachesRequest">
     <wsdl:part name="parameters" element="tns:FlushCaches" />
   </wsdl:message>
@@ -800,6 +947,23 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:ChangeLogSettingsResponse" />
   </wsdl:message>
   <wsdl:message name="ChangeLogSettingsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="TrackEventRequest">
+    <wsdl:part name="parameters" element="tns:TrackEvent" />
+  </wsdl:message>
+  <wsdl:message name="TrackEventRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="TrackEventResponse">
+    <wsdl:part name="parameters" element="tns:TrackEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackEventResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1095,6 +1259,10 @@ content_type: reference
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
   <wsdl:portType name="Diagnostics">
+    <wsdl:operation name="GetAnalyticsData">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetAnalyticsData" name="GetAnalyticsDataRequest" message="tns:GetAnalyticsDataRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetAnalyticsDataResponse" name="GetAnalyticsDataResponse" message="tns:GetAnalyticsDataResponse" />
+    </wsdl:operation>
     <wsdl:operation name="FlushCaches">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCaches" name="FlushCachesRequest" message="tns:FlushCachesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCachesResponse" name="FlushCachesResponse" message="tns:FlushCachesResponse" />
@@ -1130,6 +1298,10 @@ content_type: reference
     <wsdl:operation name="ChangeLogSettings">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ChangeLogSettings" name="ChangeLogSettingsRequest" message="tns:ChangeLogSettingsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/ChangeLogSettingsResponse" name="ChangeLogSettingsResponse" message="tns:ChangeLogSettingsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackEvent">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/TrackEvent" name="TrackEventRequest" message="tns:TrackEventRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/TrackEventResponse" name="TrackEventResponse" message="tns:TrackEventResponse" />
     </wsdl:operation>
     <wsdl:operation name="CollectDataAdditions">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/CollectDataAdditions" name="CollectDataAdditionsRequest" message="tns:CollectDataAdditionsRequest" />
@@ -1202,6 +1374,22 @@ content_type: reference
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Diagnostics" type="tns:Diagnostics">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAnalyticsData">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetAnalyticsData" style="document" />
+      <wsdl:input name="GetAnalyticsDataRequest">
+        <soap:header message="tns:GetAnalyticsDataRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAnalyticsDataRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAnalyticsDataRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAnalyticsDataResponse">
+        <soap:header message="tns:GetAnalyticsDataResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAnalyticsDataResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAnalyticsDataResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAnalyticsDataResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="FlushCaches">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/FlushCaches" style="document" />
       <wsdl:input name="FlushCachesRequest">
@@ -1343,6 +1531,22 @@ content_type: reference
         <soap:header message="tns:ChangeLogSettingsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ChangeLogSettingsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ChangeLogSettingsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackEvent">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/TrackEvent" style="document" />
+      <wsdl:input name="TrackEventRequest">
+        <soap:header message="tns:TrackEventRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:TrackEventRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:TrackEventRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="TrackEventResponse">
+        <soap:header message="tns:TrackEventResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:TrackEventResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:TrackEventResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:TrackEventResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

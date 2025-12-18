@@ -29,7 +29,6 @@ Keys that makes sure a form is not posted twice
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |form\_key |String(40) |Index |
 
 ## Replication Flags

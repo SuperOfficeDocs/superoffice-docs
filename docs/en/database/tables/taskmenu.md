@@ -44,7 +44,6 @@ List items to merge into menues
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|taskmenu\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

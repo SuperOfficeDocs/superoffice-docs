@@ -41,7 +41,6 @@ Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|BinaryObject\_id |PK |Clustered, Unique |
 |conceptualType |String(254) |Index |
 |mimeType |String(254) |Index |
 |extraInfo |String(254) |Index |

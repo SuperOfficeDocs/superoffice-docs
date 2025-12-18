@@ -42,7 +42,6 @@ Outgoing emails with sending status and other info
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |message\_id |FK |Index |
 

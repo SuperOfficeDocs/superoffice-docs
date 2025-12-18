@@ -71,7 +71,7 @@ Shadow contact provider for the sale provider.
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
@@ -1346,7 +1346,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=amountInBaseCurrency,person/correspondingAssociate/ejStatus,contact/deletedDate,contact/contactUdef/SuperOffice:11,document/associate/ejUserId
+GET /api/v1/archive/SaleShadowSelectionV2?$select=updatedDate,person/correspondingAssociate/assocName,contact/postAddress/wgs84longitude,contact/streetAddress/wgs84latitude,project/projectAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

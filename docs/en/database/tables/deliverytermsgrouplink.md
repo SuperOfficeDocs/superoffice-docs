@@ -34,7 +34,6 @@ User group link table for DeliveryTerms, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|deliverytermsgrouplink\_id |PK |Clustered, Unique |
 |deliveryterms\_id |FK |Index |
 |group\_id |FK |Index |
 

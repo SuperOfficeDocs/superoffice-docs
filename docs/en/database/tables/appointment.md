@@ -83,7 +83,6 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|appointment\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |group\_idx |FK |Index |

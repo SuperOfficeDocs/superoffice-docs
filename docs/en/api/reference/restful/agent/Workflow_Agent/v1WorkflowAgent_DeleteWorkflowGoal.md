@@ -28,7 +28,7 @@ NsApiSlow threshold: 1500 ms.
 | workflowGoalId | int32 | **Required** The identity of the WorkflowGoal |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowGoal?workflowGoalId=69
+POST /api/v1/Agents/Workflow/DeleteWorkflowGoal?workflowGoalId=695
 ```
 
 

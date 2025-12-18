@@ -50,7 +50,6 @@ Information about this database and its place in the hierarchy
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|travelcurrent\_id |PK |Clustered, Unique |
 
 ## Relationships
 

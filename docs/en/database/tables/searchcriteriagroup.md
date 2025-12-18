@@ -38,7 +38,6 @@ Criteria storage for Selection and other Find mechanisms
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SearchCriteriaGroup\_id |PK |Clustered, Unique |
 |SearchCriteria\_id, rank |FK, UShort |Index |
 
 ## Relationships
