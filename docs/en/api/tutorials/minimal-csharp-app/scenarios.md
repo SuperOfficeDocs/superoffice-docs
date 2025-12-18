@@ -43,8 +43,6 @@ The second link uses a [system user token][3] to get a system user ticket, and t
 
 The preferred way to use a system user token is demonstrated in the [System Console project][4].
 
-![x][img2]
-
 <!-- Referenced links -->
 [1]: ../../authentication/online/auth-application/sign-system-user-token.md
 [2]: ../../authentication/online/validate-security-tokens.md
@@ -53,4 +51,3 @@ The preferred way to use a system user token is demonstrated in the [System Cons
 
 <!-- Referenced images -->
 [img1]: media/systemusersigninprocess.png
-[img2]: media/image017.jpg
