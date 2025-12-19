@@ -4,7 +4,7 @@ title: Save to SuperOffice
 description: Save to SuperOffice
 keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, send and archive, save attachment, SOFO
 author: Erik Lebiko, Bergfrid Dias
-date: 10.29.2024
+date: 12.18.2025
 version_sofo: 2024.8.12
 content_type: howto
 category: integration
@@ -25,6 +25,8 @@ redirect_from:
 ---
 
 # Save to SuperOffice
+
+[!include[Visible for drop-down condition](includes/note-visibility.md)]
 
 ## Archive email to SuperOffice
 

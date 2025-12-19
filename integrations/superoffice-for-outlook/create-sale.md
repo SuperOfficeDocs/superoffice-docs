@@ -4,7 +4,7 @@ title: Create sale
 description: Create sale
 keywords: SuperOffice for Outlook, Outlook, email, create sale, SOFO
 author: Erik Lebiko, Bergfrid Dias
-date: 10.29.2024
+date: 12.18.2025
 version_sofo: 2024.8.12
 content_type: howto
 category: integration
@@ -38,6 +38,10 @@ To create a [sale][1] in SuperOffice directly from Outlook, follow these steps:
     * **Project:** (Optional) Link the sale to an ongoing project if applicable.
     * **Type:** Choose the type of sale.
     * **Sale date:** Set the estimated date for the sale.
+    * **Visible for:** Choose who can see the sale — everyone, only the owner’s primary group, or only the owner.
+
+        [!include[Visible for drop-down condition](includes/note-visibility.md)]
+
     * **Notes:** (Optional) Enter a more detailed description of the sale.
 
 1. Once all fields are completed, click **Save**.
