@@ -1,9 +1,10 @@
 ---
+uid: iframe-idp-auth
 title: Unable to authenticate inside an iframe with IdP
-uid: iframe_idp_auth
 description: Unable to authenticate inside an iframe with IdP
-author: SuperOffice Product and Engineering
 keywords: authentication
+author: SuperOffice Product and Engineering
+date: 12.19.2025
 content_type: concept
 category: api
 deployment: online
@@ -26,6 +27,8 @@ at SuperOffice.SoContext.Authenticate(SecurityToken[] tokens)
 ```
 
 It could also be that your users see the input fields for user credentials but are unable to type into them. In other words, the authentication simply stops responding.
+
+Some websites (Google, Microsoft Azure, and others) use Content Security Policy (CSP) frame-ancestors directive response headers to ensure their sites are not hosted in an iframe in other websites. Doing so eliminates potential security risks associated with clickjacking. Therefore, integrations that use authentication with one of these identity providers must use a pop-up dialog to perform authentication, otherwise errors will occur.
 
 We recommend that you handle this proactively and do the authentication in a pop-up dialog. We are exploring other options.
 
