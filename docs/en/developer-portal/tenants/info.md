@@ -3,8 +3,8 @@ uid: dp-tenant-info
 title: Look up tenant info
 description: Look up tenant info
 keywords: Developer Portal, app, customer, tenant
-author: Bergfrid Dias
-date: 12.10.2024
+author: digitaldiina, MargretheR
+date: 12.19.2025
 version_devportal: 1.29
 content_type: howto
 deployment: online
@@ -18,6 +18,12 @@ The starting point for all these look-ups is the **Tenant listing** page.
 > Use the search boxes to quickly locate a specific tenant by ID or name, especially when you have many tenants listed.
 
 ![Tenants page in SuperOffice Developer portal -screenshot][img1]
+
+The **Excel Export** button on the tenant list page allows you to download the tenants currently shown in the list.
+
+The list can be filtered, so you can export either all tenants that have authorized one or more of your apps, or only those that have authorized a specific app.
+
+The export is limited to a maximum of 50 tenants per page.
 
 ## <a id="state" ></a>Tenant status
 
