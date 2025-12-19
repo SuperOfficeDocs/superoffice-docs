@@ -26,6 +26,8 @@ redirect_from:
 
 # Save to SuperOffice
 
+[!include[Visible for drop-down condition](includes/note-visibility.md)]
+
 ## Archive email to SuperOffice
 
 To archive information from an email in Outlook and save it to SuperOffice:
@@ -42,11 +44,6 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 ![SuperOffice for Outlook, archive email -screenshot][img1]
 
-> [!NOTE]
-> The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**][2].
-
-
 ## Save attachments to SuperOffice
 
 You can also save email attachments directly to SuperOffice by following these steps:
@@ -62,11 +59,7 @@ You can also save email attachments directly to SuperOffice by following these s
 1. To save another attachment, repeat steps 1-4.
 
 > [!NOTE]
->  * Previously saved attachments will be marked as "Attachment already saved."
-> 
->  * The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**][2].
-
+> Previously saved attachments will be marked as "Attachment already saved."
 
 ## Send and archive
 
@@ -89,13 +82,8 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 
 1. Click **Send** to both send the email and archive it to SuperOffice.
 
-> [!NOTE]
-> The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
-> For more details, see [**Admin - User Management - Visibility**][2].
-
 <!-- Referenced links -->
 [1]: get.md#open
-[2]: ../../docs/en/admin/user-management/index.md#visible
 
 <!-- Referenced images -->
 [img1]: media/outlook-save-to-superoffice.png
