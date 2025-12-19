@@ -4,7 +4,7 @@ title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 author: Bergfrid Dias
-date: 01.13.2026
+date: 10.16.2025
 version: 11.5
 content_type: release-note
 language: en
@@ -24,7 +24,6 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| [SuperOffice Service CompactMode][16] | Approaching end-of-life | January 13, 2026 (11.8) | Switch to [SuperOffice Mobile CRM][17]. |
 | [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Approaching end-of-life | September 1, 2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
 | [Pagebuilder][12] | No longer supported | The last supported version is 10.2.9 | Switch to [Screen Designer][22]. |
 | [Reporter Studio and reports][15] | Approaching end-of-life | December 4, 2024 | Switch to [dashboards][26] and [selections][27]. |
@@ -63,8 +62,6 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [13]: soap.md
 [14]: sharepoint-app.md
 [15]: reports.md
-[16]: service-compact-mode.md
-[17]: https://appstore.superoffice.com/superoffice-as/superoffice-mobile-crm
 [21]: ../../docs/en/email/inbox/learn/index.md
 [22]: ../../docs/en/customization/screen-designer/admin/index.md
 [23]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
