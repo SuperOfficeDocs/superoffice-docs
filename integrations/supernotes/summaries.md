@@ -21,9 +21,9 @@ Meeting summaries in Supernotes are generated automatically after your meeting e
 
 | Status     | Description                                            |
 | ---------- | ------------------------------------------------------ |
-| Processing | Meeting is being transcribed and analyzed              |
-| Ready      | AI-generated summary is complete and available to view |
-| Shared     | Summary has been shared via link or email              |
+| Processing | Meeting is being transcribed and analyzed.             |
+| Ready      | AI-generated summary is complete and available to view.|
+| Shared     | Summary has been shared via link or email.             |
 
 Once the summary is ready, you can review it, edit if needed, and share it with meeting participants or colleagues.
 
@@ -31,42 +31,42 @@ Once the summary is ready, you can review it, edit if needed, and share it with 
 
 Meeting summaries are generated based on the meeting type you've selected. A typical summary includes:
 
-- **Meeting Purpose** - Why the meeting was held
-- **Key Takeaways** - Main points and outcomes
-- **Topics Discussed** - Key discussion points covered
-- **Action Items** - Tasks identified with responsible parties
-- **Decisions** - Key decisions made during the meeting
-- **Next Steps** - Follow-up items and future plans
-- **Participants** - Who attended the meeting
+* **Meeting purpose:** why the meeting was held.
+* **Key takeaways:** main points and outcomes.
+* **Topics discussed:** key discussion points covered.
+* **Action items:** tasks identified with responsible parties.
+* **Decisions:** key decisions made during the meeting.
+* **Next steps:** follow-up items and future plans.
+* **Participants:** who attended the meeting.
 
 The specific sections and format depend on your selected meeting type (e.g., General, Customer Meeting, Internal Meeting, or custom templates you've created).
 
-You can customize what sections appear by creating custom meeting types in **Settings → Meeting Types**.
+You can customize what sections appear by creating custom meeting types in **Settings** > **Meeting Types**.
 
 ## How do I share meeting summaries with participants?
 
 To share a meeting summary:
 
-1. Go to the meeting's summary page
-2. Click **"Generate Summary Link"**
+1. Go to the meeting's summary page.
+2. Click **Generate Summary Link**.
 3. Copy the generated link to share manually, OR
-4. Click **"Send to all participants"** to email everyone
+4. Click **Send to all participants** to email everyone.
 
 ## What is included in a shareable link?
 
 When you share a meeting summary via a shareable link, the recipient gets full access to:
 
-### Included:
+### Included
 
-- Full meeting summary
-- Complete transcription
-- Speaker statistics (who spoke and for how long)
-- Sentiment analysis data
-- Meeting metadata (date, duration, participants)
+* Full meeting summary.
+* Complete transcription.
+* Speaker statistics (who spoke and for how long).
+* Sentiment analysis data.
+* Meeting metadata (date, duration, participants).
 
-### Not included:
+### Not included
 
-- Editing capabilities - recipients can view but not modify the summary
+* Editing capabilities - recipients can view but not modify the summary.
 
 Recipients can access all the same information you see, they just cannot make changes to the content.
 
@@ -74,31 +74,31 @@ Recipients can access all the same information you see, they just cannot make ch
 
 After a meeting ends, you can still use the chatbot to:
 
-- Ask questions about what was discussed
-- Find specific information in the transcript
-- Extract action items or decisions
-- Clarify what someone said about a topic
+* Ask questions about what was discussed.
+* Find specific information in the transcript.
+* Extract action items or decisions.
+* Clarify what someone said about a topic.
 
-### Example queries:
+### Example queries
 
-- "What decisions were made about the budget?"
-- "What did [person] say about [topic]?"
-- "What are the next steps for the project?"
+* "What decisions were made about the budget?"
+* "What did [person] say about [topic]?"
+* "What are the next steps for the project?"
 
 ## How do I view the full meeting transcript?
 
 To access the full transcript:
 
-1. Go to the meeting summary page
-2. Click on the **"Details & Recording"** tab
-3. Select **"Transcript"** from the sub-tabs
+1. Go to the meeting summary page.
+2. Click on the **Details & Recording** tab.
+3. Select **Transcript** from the sub-tabs.
 
-### In the transcript view, you can:
+### In the transcript view, you can
 
-- Search for specific words or phrases
-- See speaker names with initials
-- View timestamps for each segment
-- Copy transcript text
+* Search for specific words or phrases.
+* See speaker names with initials.
+* View timestamps for each segment.
+* Copy transcript text.
 
 ## What speaker statistics are available?
 
@@ -106,35 +106,35 @@ The Speakers tab shows detailed analytics for each participant:
 
 | Metric           | Description                          |
 | ---------------- | ------------------------------------ |
-| Speaking time    | Total time and percentage of meeting |
-| Word count       | Total words spoken                   |
-| Words per minute | Speaking pace                        |
-| Segments         | Number of speaking turns             |
+| Speaking time    | Total time and percentage of meeting.|
+| Word count       | Total words spoken.                  |
+| Words per minute | Speaking pace.                       |
+| Segments         | Number of speaking turns.            |
 
-### Additionally, you'll see engagement insights:
+### Additionally, you'll see engagement insights
 
-- **Speaking distribution** - who dominated vs. who was quiet
-- **Participation balance** - balanced, dominant speakers, or quiet participants
+* **Speaking distribution:** who dominated vs. who was quiet.
+* **Participation balance:** balanced, dominant speakers, or quiet participants.
 
 ## What is sentiment analysis and how does it work?
 
 Sentiment analysis uses AI to detect the emotional tone of the meeting.
 
-### Overall Sentiment:
+### Overall sentiment
 
 | Sentiment | Meaning                            |
 | --------- | ---------------------------------- |
-| Neutral   | Factual, objective discussion      |
-| Positive  | Agreement, enthusiasm, contentment |
-| Negative  | Disagreement, frustration, concern |
+| Neutral   | Factual, objective discussion.     |
+| Positive  | Agreement, enthusiasm, contentment.|
+| Negative  | Disagreement, frustration, concern.|
 
-### Emotion Categories:
+### Emotion categories
 
 More specific emotions detected, such as:
 
-- **Positive:** Contentment, enthusiasm
-- **Negative:** Confusion, frustration
-- **Neutral:** Neutrality, focus
+* **Positive:** Contentment, enthusiasm.
+* **Negative:** Confusion, frustration.
+* **Neutral:** Neutrality, focus.
 
 This helps identify contentious topics or areas of strong agreement.
 
@@ -142,43 +142,43 @@ This helps identify contentious topics or areas of strong agreement.
 
 Meeting types control how Supernotes formats summaries. To create a custom template:
 
-1. Go to **Settings → Meeting Types**
-2. Click **"Create new meeting type"**
-3. Enter a name and description
-4. Toggle **"Share with workspace"** if other users should use it
-5. Enter summary instructions in markdown format
-6. Add section headings as needed
-7. Click **"Create"**
+1. Go to **Settings** > **Meeting Types**.
+2. Click **Create new meeting type**.
+3. Enter a name and description.
+4. Toggle **Share with workspace** if other users should use it.
+5. Enter summary instructions in markdown format.
+6. Add section headings as needed.
+7. Click **Create**.
 
 ## How do meeting summary emails work?
 
 Meeting summary emails are sent after your meeting ends to keep you informed.
 
-### Each email contains:
+### Each email contains
 
-- The full meeting summary directly in the email
-- Key discussion points and action items
-- Link to view the complete transcription in the portal
+* The full meeting summary directly in the email.
+* Key discussion points and action items.
+* Link to view the complete transcription in the portal.
 
 > [!NOTE]
 > You can read the summary right from your inbox without needing to log in. For the full transcription and interactive features, click through to the portal.
 
-**To enable:** Go to **Settings → Email Preferences → Enable "Send email summary to me"**
+**To enable:** Go to **Settings** > **Email Preferences** > Enable **Send email summary to me**.
 
 ## Why didn't I receive my meeting summary email?
 
 If you didn't receive your meeting summary email, check these possible causes:
 
-- **Email setting disabled** - Go to Settings and ensure "Send email summary to me" is toggled ON
-- **Not the meeting owner** - Summary emails are primarily sent to the meeting owner/organizer
-- **Check your spam folder** - The email may have been filtered
-- **Still processing** - Large meetings may take longer to generate summaries
+* **Email setting disabled:** Go to Settings and ensure "Send email summary to me" is toggled ON.
+* **Not the meeting owner:** Summary emails are primarily sent to the meeting owner/organizer.
+* **Check your spam folder:** The email may have been filtered.
+* **Still processing:** Large meetings may take longer to generate summaries.
 
-### What to do:
+### What to do
 
-- Check your Supernotes portal - the summary should be there even if email fails
-- Verify your email settings are correctly configured
-- If the issue persists, contact support
+* Check your Supernotes portal - the summary should be there even if email fails.
+* Verify your email settings are correctly configured.
+* If the issue persists, contact support.
 
 > [!NOTE]
 > Even if you don't receive the email, your summary is always available in the Supernotes portal.
@@ -187,10 +187,10 @@ If you didn't receive your meeting summary email, check these possible causes:
 
 Creating a share link allows anyone with the link to view your meeting summary. Here's how to create one:
 
-1. Open the meeting summary you want to share
-2. Click the **"Share"** button in the meeting summary page
-3. A share link is automatically created
-4. Use **"Open Link"** to preview, or click the copy button to copy the URL to your clipboard
+1. Open the meeting summary you want to share.
+2. Click the **Share** button in the meeting summary page.
+3. A share link is automatically created.
+4. Use **Open Link** to preview, or click the copy button to copy the URL to your clipboard.
 
 > [!TIP]
 > Share links are public. Anyone with the link can view the summary, transcript, and speaker statistics. They cannot make any edits to the content.
@@ -199,12 +199,12 @@ Creating a share link allows anyone with the link to view your meeting summary. 
 
 After creating a share link, you can email the summary directly to meeting participants:
 
-1. Create a share link (see "How do I create a shareable link")
-2. In the share dialog, click **"Send to All"** under "Send to Participants"
-3. Select which participants should receive the email using the checkboxes
-4. Click **"Send to X"** to send the summary
+1. Create a share link (see "How do I create a shareable link").
+2. In the share dialog, click **Send to All** under "Send to Participants".
+3. Select which participants should receive the email using the checkboxes.
+4. Click **Send to X** to send the summary.
 
-### Tracking who received the email:
+### Tracking who received the email
 
 Participants who have already received the email are shown with a green checkmark and cannot be selected again.
 
@@ -215,20 +215,20 @@ Participants who have already received the email are shown with a green checkmar
 
 You can grant specific workspace members access to view or edit a meeting summary directly within Supernotes:
 
-1. Open the meeting summary
-2. Click **"Manage Access"** to open the access management dialog
-3. Switch to the **"Grant Access"** tab
-4. Search for and select workspace members using the checkboxes
-5. Choose an access level (View, Edit, or Admin)
-6. Click **"Grant Access"** to confirm
+1. Open the meeting summary.
+2. Click **Manage Access** to open the access management dialog.
+3. Switch to the **Grant Access** tab.
+4. Search for and select workspace members using the checkboxes.
+5. Choose an access level (View, Edit, or Admin).
+6. Click **Grant Access** to confirm.
 
-### Available access levels:
+### Available access levels
 
 | Level | Description                                  |
 | ----- | -------------------------------------------- |
-| View  | Can view the transcription and summary       |
-| Edit  | Can view and make edits to the transcription |
-| Admin | Can manage access for other users            |
+| View  | Can view the transcription and summary.      |
+| Edit  | Can view and make edits to the transcription.|
+| Admin | Can manage access for other users.           |
 
 In the "Current Access" tab, you can see everyone who has access, update their access level, or revoke access entirely.
 

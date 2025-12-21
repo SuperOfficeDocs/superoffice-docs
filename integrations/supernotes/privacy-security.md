@@ -1,6 +1,6 @@
 ---
 uid: supernotes-privacy-security
-title: Privacy & Security
+title: Privacy and security
 description: Common questions about data privacy and security in Supernotes
 keywords: Supernotes, privacy, security, GDPR, data, storage
 author: Brede Kristensen
@@ -11,7 +11,7 @@ topic: Supernotes
 language: en
 ---
 
-# Privacy & Security
+# Privacy and security
 
 Find answers to common questions about how Supernotes handles your data.
 
@@ -32,15 +32,15 @@ Supernotes is built with a "minimal access" approach:
 
 All data is handled within the EU/EEA region:
 
-- **Speech-to-text:** Processed by Gladia (France)
-- **AI summaries:** Generated via OpenAI through Azure (EU)
-- **Storage:** Encrypted and stored securely in EU
+* **Speech-to-text:** Processed by Gladia (France).
+* **AI summaries:** Generated via OpenAI through Azure (EU).
+* **Storage:** Encrypted and stored securely in EU.
 
-### Security measures:
+### Security measures
 
-- Fully encrypted in transit and at rest
-- PEN tested and approved by Telenor Cyber Defence, Google, and Microsoft
-- GDPR compliant
+* Fully encrypted in transit and at rest.
+* PEN tested and approved by Telenor Cyber Defence, Google, and Microsoft.
+* GDPR compliant.
 
 ## How long are recordings kept?
 
@@ -52,7 +52,7 @@ Recording retention depends on your settings:
 | Text transcriptions    | Stored as long as your account exists                                  |
 | Meeting summaries      | Stored as long as your account exists                                  |
 
-You can change retention settings in **Settings → Profile → Recording Retention**
+You can change retention settings in **Settings** > **Profile** > **Recording Retention**.
 
 ## Is my data used to train AI models?
 
@@ -60,23 +60,23 @@ You can change retention settings in **Settings → Profile → Recording Retent
 
 Supernotes uses AI services to process your meetings, but:
 
-- Your data is only used to provide the service to you
-- It is not shared with third parties for training
-- It is not used to improve AI models
-- Your conversations remain private and confidential
+* Your data is only used to provide the service to you.
+* It is not shared with third parties for training.
+* It is not used to improve AI models.
+* Your conversations remain private and confidential.
 
 ## What is Supernotes's environmental impact?
 
 Supernotes is developed with a focus on responsible and sustainable AI. Here's what you should know about the environmental footprint:
 
-### Energy Consumption
+### Energy consumption
 
 Transcription uses approximately 21 Wh (0.021 kWh) per hour of asynchronous transcription. To put this in perspective:
 
-- Equivalent to charging a mobile phone once
-- Same as running 2 LED light bulbs for 3 hours
+* Equivalent to charging a mobile phone once.
+* Same as running 2 LED light bulbs for 3 hours.
 
-### Carbon Footprint
+### Carbon footprint
 
 CO2 emissions per hour of transcription: 5-20 grams, depending on the data center's energy mix.
 
