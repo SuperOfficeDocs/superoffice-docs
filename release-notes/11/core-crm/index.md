@@ -21,6 +21,7 @@ audience_tooltip: SuperOffice CRM
 * [Dashboard - Tile details layout with chart type and dataset (11.7)][7]
 * [Dashboard - Funnel tile showing progression (11.7)][7]
 * [Dashboard - Show the Stage when closed (11.7)][7]
+* [Find - Search for Category group (11.7)][7]
 * [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column (11.7)][7]
 * [Selection of sales - Board view Setting for displaying days in stage (11.7)][7]
 * [Selection - Board view for company and contact (11.6)][6]

@@ -2,8 +2,8 @@
 uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
-author: SuperOffice AS – Product and Engineering
-date: 12.02.2025
+author: kirstiaa
+date: 01.13.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,7 +15,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest online release is [**version 11.7**][11] - 02.12.2025.
+The latest online release is [**version 11.8**][11] - 13.01.2026.
 
 Recent versions:
 
@@ -34,7 +34,7 @@ The latest onsite release is **10.5**. See the [version history][19] for details
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.4**][7] - 05.11.2025.
+The latest release is [**version 11.1.5**][7] - 07.01.2026.
 
 ## Product integrations
 
@@ -68,6 +68,7 @@ Different integration components are released on separate schedules. See the [in
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
+* [CSS Mode for Form styling][16] (available from 11.8 - 13.01.2026)
 * [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
@@ -98,7 +99,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [13]: ../integrations/superoffice-for-outlook/index.md
 [14]: ../docs/en/mobile/superoffice-mobile/index.md
 [15]: ../docs/en/learn/index.yml
-[16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
+[16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [19]: ../docs/en/onsite/version-history.md

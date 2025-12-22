@@ -3,8 +3,8 @@ uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
-author: SuperOffice AS – Product and Engineering
-date: 12.02.2025
+author: kirstiaa
+date: 01.13.2026
 version: 11
 content_type: release-note
 audience: person
@@ -23,6 +23,11 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
+### 11.8 (13.01.2026)
+
+* [Time zones - Agents with multiple time zones][23] in Service
+* [Workflow - Lead category automation][24] in Settings and maintenance
+
 ### 11.7 (25.11.2025)
 
 * [Dashboard - Quick filter in dashboard][21] in Core CRM and Sales
@@ -32,6 +37,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Dashboard - Tile details layout with chart type and dataset][21] in Core CRM and Sales
 * [Dashboard - Funnel tile showing progression][21] in Core CRM and Sales
 * [Dashboard - Show the Stage when closed][21] in Core CRM and Sales
+* [Find - Search for Category group][21] in Core CRM and Sales
 * [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
 * [Selection of sales - Board view Setting for displaying days in stage][21] in Core CRM and Sales
 * [Requests - Filter messages on comments or replies][22] in Service
@@ -125,6 +131,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [20]: admin/11.6-update.md
 [21]: core-crm/11.7-update.md
 [22]: service/11.7-update.md
+[23]: service/11.8-update.md
+[24]: admin/11.8-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
