@@ -41,7 +41,7 @@ See all the [new or updated apps][2]
 
 * [Fortnox by Syncify][36] from Syncify AB (18.12.2025)
 * [Business NXT by Syncify][37] from Syncify AB (18.12.2025)
-* [Microsoft Business Central][38] by Syncify from Syncify AB (18.12.2025)
+* [Microsoft Business Central][38] from Syncify AB (18.12.2025)
 * [SalesScreen Integration][34] from SalesScreen (12.12.2025)
 * [Oneflow for SuperOffice][33] from Oneflow AB (09.12.2025)
 * [Activity folders for SuperOffice][39] from SuperOffice AS (01.12.2025)
