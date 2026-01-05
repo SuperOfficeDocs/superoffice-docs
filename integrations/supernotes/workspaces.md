@@ -28,18 +28,18 @@ Every Supernotes user must be part of a workspace. This is enforced during onboa
 
 ## Why are workspaces so important?
 
-Workspaces solve a critical problem: preventing duplicate bots in meetings.
+Workspaces solve a critical problem: preventing duplicate assistants in meetings.
 
 ### Without workspaces
 
-* If five colleagues in the same meeting all have Supernotes enabled, five separate bots would join.
+* If five colleagues in the same meeting all have Supernotes enabled, five separate assistants would join.
 * This creates confusion for meeting participants.
 * Results in wasted resources and multiple duplicate summaries.
 
 ### With workspaces
 
 * Supernotes knows which users are colleagues.
-* Only one bot joins each meeting.
+* Only one assistant joins each meeting.
 * The summary is automatically shared with all workspace members who attended.
 
 This is why joining your workspace is the first and most important step during onboarding.
@@ -88,7 +88,7 @@ As a workspace administrator, you can:
 * **Invite new members:** by email.
 * **Remove members:** to revoke access.
 * **Enable/disable domain-based access:** allow anyone with your company email domain to join automatically.
-* **Configure branding:** and bot avatar.
+* **Configure branding:** and assistant avatar.
 * **View workspace usage.**
 
 ### To invite members
@@ -141,19 +141,30 @@ When you're in a workspace, certain things are shared with colleagues who attend
 > [!NOTE]
 > Your past meetings are NOT shared when you join a workspace. Only meetings that happen AFTER you join the workspace, where other workspace members are participants, are shared.
 
-## Why are multiple bots joining my meeting?
+## Why are multiple assistants joining my meeting?
 
-If multiple bots are joining your meeting, the participants aren't in the same workspace (or no workspace).
+If multiple assistants are joining your meeting, the participants aren't in the same workspace (or no workspace).
 
 ### To fix this
 
 1. Identify who has Supernotes but isn't in your workspace.
 2. Have your admin invite them to the workspace.
 3. They need to accept the invitation and join the shared workspace.
-4. Future meetings will only have one bot.
+4. Future meetings will only have one assistant.
 
 ### To prevent this issue
 
 * **Communicate before rollout:** let employees know about Supernotes before inviting them.
 * **Use bulk invites:** more efficient for large teams.
 * **Consider enabling domain-based access:** for your organization.
+
+## Related content
+
+* [Getting started][getting-started] - Setup and basic usage
+* [Teams][teams] - Organizing workspace members into teams
+* [Privacy and security][privacy-security] - Data handling and security
+
+<!-- Referenced links -->
+[getting-started]: getting-started.md
+[teams]: teams.md
+[privacy-security]: privacy-security.md

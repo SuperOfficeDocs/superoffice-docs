@@ -89,9 +89,20 @@ The default meeting type determines the template used for generating summaries:
 2. Find **Default Meeting Type**.
 3. Select from available templates.
 
-### Available types typically include
+### Available types
 
-* General.
-* Customer meeting.
-* Internal meeting.
-* Custom templates you've created.
+* General
+* Customer meeting
+* Internal meeting
+* Custom templates you've created
+
+## Related content
+
+* [Getting started][getting-started] - Setup and basic usage
+* [Summaries][summaries] - Meeting summaries and sharing
+* [Privacy and security][privacy-security] - Data handling and security
+
+<!-- Referenced links -->
+[getting-started]: getting-started.md
+[summaries]: summaries.md
+[privacy-security]: privacy-security.md

@@ -52,7 +52,7 @@ Recording retention depends on your settings:
 | Text transcriptions    | Stored as long as your account exists                                  |
 | Meeting summaries      | Stored as long as your account exists                                  |
 
-You can change retention settings in **Settings** > **Profile** > **Recording Retention**.
+For configuration options, see [What are the recording retention options?](settings.md#what-are-the-recording-retention-options)
 
 ## Is my data used to train AI models?
 
@@ -81,3 +81,14 @@ Transcription uses approximately 21 Wh (0.021 kWh) per hour of asynchronous tran
 CO2 emissions per hour of transcription: 5-20 grams, depending on the data center's energy mix.
 
 *Energy data provided by Gladia + MDPI 2025 study.*
+
+## Related content
+
+* [Getting started][getting-started] - Setup and basic usage
+* [Settings][settings] - Configuration options
+* [Workspaces][workspaces] - Team collaboration and workspace management
+
+<!-- Referenced links -->
+[getting-started]: getting-started.md
+[settings]: settings.md
+[workspaces]: workspaces.md

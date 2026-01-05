@@ -100,3 +100,14 @@ Only members of teams you belong to can see and use the prompt. Best for departm
 **Example:** If you're on the Sales team and create a "Customer Discovery Call" prompt, sharing it with your team means only Sales team members see it, while sharing with workspace means everyone including Engineering, Marketing, etc. can see it.
 
 **Recommendation:** Use team sharing when the prompt is only relevant to specific groups. Use workspace sharing for general-purpose prompts that everyone might find useful.
+
+## Related content
+
+* [Workspaces][workspaces] - Team collaboration and workspace management
+* [Settings][settings] - Configuration options
+* [Summaries][summaries] - Meeting summaries and sharing
+
+<!-- Referenced links -->
+[workspaces]: workspaces.md
+[settings]: settings.md
+[summaries]: summaries.md

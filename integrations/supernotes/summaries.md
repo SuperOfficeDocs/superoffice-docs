@@ -94,7 +94,7 @@ To access the full transcript:
 2. Click on the **Details & Recording** tab.
 3. Select **Transcript**.
 
-### In the transcript view, you can
+### Transcript view features
 
 * Search for specific words or phrases.
 * See speaker names with initials.
@@ -112,7 +112,7 @@ The Speakers tab shows detailed analytics for each participant:
 | Words per minute | Speaking pace.                       |
 | Segments         | Number of speaking turns.            |
 
-### Additionally, you'll see engagement insights
+### Engagement insights
 
 * **Speaking distribution:** who dominated vs. who was quiet.
 * **Participation balance:** balanced, dominant speakers, or quiet participants.
@@ -155,7 +155,7 @@ Meeting types control how Supernotes formats summaries. To create a custom templ
 
 Meeting summary emails are sent after your meeting ends to keep you informed.
 
-### Each email contains
+### Email contents
 
 * The full meeting summary directly in the email.
 * Key discussion points and action items.
@@ -184,26 +184,13 @@ If you didn't receive your meeting summary email, check these possible causes:
 > [!NOTE]
 > Even if you don't receive the email, your summary is always available in the Supernotes portal.
 
-## How do I create a shareable link for a meeting summary?
-
-Creating a share link allows anyone with the link to view your meeting summary. Here's how to create one:
-
-1. Open the meeting summary you want to share.
-2. Click the **Share** button in the meeting summary page.
-3. A share link is automatically created.
-4. Use **Open Link** to preview, or click the copy button to copy the URL to your clipboard.
-
-> [!TIP]
-> Share links are public. Anyone with the link can view the summary, transcript, and speaker statistics. They cannot make any edits to the content.
-
 ## How do I send a meeting summary to participants via email?
 
-After creating a share link, you can email the summary directly to meeting participants:
+After creating a share link (see [How do I share meeting summaries with participants?](#how-do-i-share-meeting-summaries-with-participants)), you can email it directly to meeting participants:
 
-1. Create a share link (see "How do I create a shareable link").
-2. In the share dialog, click **Send to All** under "Send to Participants".
-3. Select which participants should receive the email using the checkboxes.
-4. Click **Send to X** to send the summary.
+1. In the share dialog, click **Send to All** under "Send to Participants".
+2. Select which participants should receive the email using the checkboxes.
+3. Click **Send to X** to send the summary.
 
 ### Tracking who received the email
 
@@ -234,4 +221,15 @@ You can grant specific workspace members access to view or edit a meeting summar
 In the "Current Access" tab, you can see everyone who has access, update their access level, or revoke access entirely.
 
 > [!NOTE]
-> Only members of your workspace can be added this way. Use share links (see "How do I create a shareable link") to share with people outside your workspace.
+> Only members of your workspace can be added this way. Use share links (see [How do I share meeting summaries with participants?](#how-do-i-share-meeting-summaries-with-participants)) to share with people outside your workspace.
+
+## Related content
+
+* [Before meeting][before-meeting] - Pre-meeting features and preparation
+* [Settings][settings] - Configuration options
+* [Workspaces][workspaces] - Team collaboration and workspace management
+
+<!-- Referenced links -->
+[before-meeting]: before-meeting.md
+[settings]: settings.md
+[workspaces]: workspaces.md

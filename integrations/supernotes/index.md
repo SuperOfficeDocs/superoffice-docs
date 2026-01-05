@@ -15,35 +15,13 @@ language: en
 
 Supernotes is an AI-powered meeting assistant that integrates with SuperOffice to help you capture, transcribe, and summarize your meetings automatically.
 
-## What is Supernotes?
-
-Supernotes is used for:
-
-* **Meeting transcription and recording:** automatically join and record your video meetings.
-* **AI-powered meeting summaries:** get structured summaries with key takeaways, action items, and decisions.
-* **Meeting organization:** organize meetings in projects for shared context.
-* **Automatic detection:** identify action items and decisions during meetings.
-
-Supernotes is designed to free up time for professional discussions and reduce time spent writing meeting minutes and finding previous decisions. The goal is more effective meetings and higher quality work.
-
-## Supported platforms
-
-Supernotes currently supports the following meeting platforms:
-
-| Platform          | Status                            |
-| ----------------- | --------------------------------- |
-| Microsoft Teams   | Fully supported                   |
-| Google Meet       | Fully supported                   |
-| Zoom              | Fully supported                   |
-| Physical meetings | Supported (with recording device) |
-
 ## Key features
 
 * **Automatic joining:** Supernotes can automatically join your scheduled meetings.
 * **Live transcription:** real-time speech-to-text with speaker identification.
 * **Smart summaries:** AI-generated summaries tailored to your meeting type.
 * **Sharing:** easy sharing with participants via email or link.
-* **Workspaces:** collaborate with your team without duplicate bots.
+* **Workspaces:** collaborate with your team without duplicate assistants.
 * **Custom templates:** create meeting types for different use cases.
 
 ## Getting started
@@ -52,7 +30,7 @@ Supernotes currently supports the following meeting platforms:
 2. [Join or create a workspace][workspace]
 3. [Configure your settings][settings]
 
-## Documentation sections
+## Related content
 
 * [Getting started][getting-started] - Setup and basic usage
 * [Workspaces][workspaces] - Team collaboration and workspace management

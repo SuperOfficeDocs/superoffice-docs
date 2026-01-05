@@ -92,29 +92,17 @@ When you first access Supernotes, you'll go through a simple onboarding process:
 3. **Connect your calendar:** Connect your Google Calendar or Microsoft Calendar so Supernotes can see your upcoming meetings and automatically join them.
 
 > [!NOTE]
-> Always join your company's workspace first. This prevents duplicate note-takers from joining the same meeting when multiple colleagues have Supernotes enabled. Your past meetings are NOT shared when joining a workspace - only future meetings where workspace members participate together will be accessible to all participants.
+> Always join your company's workspace first to prevent duplicate note-takers in meetings. For more details, see [Workspaces](workspaces.md).
 
 ## How does the AI note taker work?
 
-Supernotes uses an AI-powered bot that joins your video meetings as a participant. The bot:
+Supernotes uses an AI-powered assistant that joins your video meetings as a participant. The assistant:
 
 * Appears with a branded avatar in your meeting.
 * Records audio from all participants.
 * Generates transcriptions and summaries after the meeting ends.
 
-There are two ways to have Supernotes join your meetings:
-
-### Option 1: Toggle from calendar (recommended)
-
-1. Go to the Home page in Supernotes.
-2. Find your meeting in the calendar on the left side.
-3. Click the toggle switch next to the meeting to enable the note taker.
-
-### Option 2: Manual join
-
-1. Copy your meeting link.
-2. Go to Supernotes and select **Send Supernotes to meeting**.
-3. Paste the meeting link.
+For details on enabling the note taker for specific meetings, see [How do I enable the note taker for a specific meeting?](before-meeting.md#how-do-i-enable-the-note-taker-for-a-specific-meeting)
 
 ## How do I record physical meetings?
 
@@ -136,7 +124,7 @@ Supernotes can also record in-person meetings where there's no video conference.
 * **Ensure phone is charged:** long meetings require sufficient battery.
 
 > [!NOTE]
-> Physical meetings follow the same limits as virtual meetings: maximum duration of 4 hours 15 minutes, and auto-stop after 45 minutes of silence.
+> Physical meetings follow the same limits as virtual meetings: maximum duration of 5 hours, and auto-stop after 45 minutes of silence.
 
 ## Can I use Supernotes on mobile?
 
@@ -216,12 +204,19 @@ Supernotes is designed to grow with your team without artificial restrictions.
 * **Number of users per workspace:** add your entire team.
 * **Transcription storage:** all your summaries are kept.
 
-### Technical limits that do apply
+### Technical limits
 
-| Parameter              | Limit                                  |
-| ---------------------- | -------------------------------------- |
-| Maximum meeting length | 5 hours                                |
-| Inactivity timeout     | 45 minutes (bot leaves if no activity) |
-| Document upload size   | 10MB per file                          |
+* **Document upload size:** 10MB per file.
 
-For details on meeting duration limits, see "What are the meeting duration limits?"
+For meeting duration limits, see [What are the meeting duration limits?](#what-are-the-meeting-duration-limits)
+
+## Related content
+
+* [Workspaces][workspaces] - Team collaboration and workspace management
+* [Before meeting][before-meeting] - Pre-meeting features and preparation
+* [Settings][settings] - Configuration options
+
+<!-- Referenced links -->
+[workspaces]: workspaces.md
+[before-meeting]: before-meeting.md
+[settings]: settings.md

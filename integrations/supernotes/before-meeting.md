@@ -26,7 +26,7 @@ Pre-meeting research emails are AI-powered briefings sent 5-10 minutes before yo
 * Non-private meetings (meetings marked as private/sensitive are skipped).
 * Not internal meetings (colleague-only meetings are skipped).
 
-### Each email includes
+### Email contents
 
 * **Company information:** logo, industry, size.
 * **Current job role:** and description.
@@ -61,7 +61,7 @@ For recurring meetings, Supernotes can send you the summary from the previous me
 * You must have access to the previous meeting's transcription.
 * The meeting must not be marked as private.
 
-### The email includes
+### Email contents
 
 * The full AI-generated summary from the last meeting.
 * A link to view the complete transcription.
@@ -82,10 +82,19 @@ There are multiple ways to enable Supernotes to join a specific meeting:
 
 ### Manual join
 
-1. Click **Send Supernotes to meeting** button in the top right corner of the dashboard.
-2. Paste the meeting link (Teams, Google Meet, etc.).
-3. Click **Send Supernotes to meeting**.
+See [How do I manually send Supernotes to a meeting?](getting-started.md#how-do-i-manually-send-supernotes-to-a-meeting)
 
 ### Auto schedule setting
 
 Enable **Auto Schedule** in **Settings** > **Profile** to have Supernotes automatically join all your meetings. You can then exclude individual meetings from the dashboard.
+
+## Related content
+
+* [Getting started][getting-started] - Setup and basic usage
+* [Summaries][summaries] - Meeting summaries and sharing
+* [Settings][settings] - Configuration options
+
+<!-- Referenced links -->
+[getting-started]: getting-started.md
+[summaries]: summaries.md
+[settings]: settings.md
