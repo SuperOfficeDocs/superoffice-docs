@@ -49,8 +49,9 @@ To share a meeting summary:
 
 1. Go to the meeting's summary page.
 2. Click **Generate Summary Link**.
-3. Copy the generated link to share manually, OR
-4. Click **Send to all participants** to email everyone.
+3. Do one of the following:
+    * Copy the generated link to share manually.
+    * Click **Send to all participants** to email everyone.
 
 ## What is included in a shareable link?
 
@@ -82,7 +83,7 @@ After a meeting ends, you can still use the chatbot to:
 ### Example queries
 
 * "What decisions were made about the budget?"
-* "What did [person] say about [topic]?"
+* "What did \[person\] say about \[topic\]?"
 * "What are the next steps for the project?"
 
 ## How do I view the full meeting transcript?
@@ -91,7 +92,7 @@ To access the full transcript:
 
 1. Go to the meeting summary page.
 2. Click on the **Details & Recording** tab.
-3. Select **Transcript** from the sub-tabs.
+3. Select **Transcript**.
 
 ### In the transcript view, you can
 
@@ -138,7 +139,7 @@ More specific emotions detected, such as:
 
 This helps identify contentious topics or areas of strong agreement.
 
-## How do I create custom meeting types/templates?
+## How do I create custom meeting types/templates? {#custom-meeting-types}
 
 Meeting types control how Supernotes formats summaries. To create a custom template:
 

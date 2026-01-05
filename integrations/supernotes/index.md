@@ -5,7 +5,7 @@ description: AI-powered meeting assistant for SuperOffice users
 keywords: Supernotes, AI, meetings, transcription, summaries, SuperOffice
 author: Brede Kristensen
 date: 12.15.2025
-content_type: overview
+content_type: concept
 category: integration
 topic: Supernotes
 language: en
@@ -60,7 +60,7 @@ Supernotes currently supports the following meeting platforms:
 * [Before meeting][before-meeting] - Pre-meeting features and preparation
 * [Summaries][summaries] - Meeting summaries and sharing
 * [Settings][settings] - Configuration options
-* [Privacy & Security][privacy-security] - Data handling and security
+* [Privacy and security][privacy-security] - Data handling and security
 
 ## Data and privacy
 
