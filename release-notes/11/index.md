@@ -36,10 +36,10 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Dashboard - Administrator options for a dashboard][21] in Core CRM and Sales
 * [Dashboard - Tile details layout with chart type and dataset][21] in Core CRM and Sales
 * [Dashboard - Funnel tile showing progression][21] in Core CRM and Sales
-* [Dashboard - Show the Stage when closed][21] in Core CRM and Sales
-* [Find - Search for Category group][21] in Core CRM and Sales
+* [Dashboard - Show the stage when closed][21] in Core CRM and Sales
+* [Find - Search for category group][21] in Core CRM and Sales
 * [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
-* [Selection of sales - Board view Setting for displaying days in stage][21] in Core CRM and Sales
+* [Selection of sales - Board view setting for displaying days in stage][21] in Core CRM and Sales
 * [Requests - Filter messages on comments or replies][22] in Service
 
 ### 11.6 (06.11.2025)
@@ -59,13 +59,13 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Lists - Contact - Lead status][20] in Settings and maintenance
 * [Lists - GUI Web panel - Option for always reload content on tab navigation][20] in Settings and maintenance
 * [CRMScript - Trigger for "Load request message" with message creation logic][20] in Settings and maintenance
-* [Preferences - Set Request preferences for system, group, or user][20] in Settings and maintenance
+* [Preferences - Set request preferences for system, group, or user][20] in Settings and maintenance
 
 ### 11.5 (16.10.2025)
 
 * [Marketing Form – Pre-populate fields linked from a mailing][14] in Marketing
 * [Request - Differentiate request types with icons][16] in Service
-* [Reply Tools - Add icon for FAQ/Reply Template underneath editor][16] in Service
+* [Reply Tools - Add icon for FAQ/Reply template underneath editor][16] in Service
 
 ### 11.4 (22.09.2025)
 
@@ -80,7 +80,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Notification - New company/contact assigned][6] in Core CRM and Sales
 * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
 * [Dashboard - Copy dashboard link][6] in Core CRM and Sales
-* [Side panel - Preview e-mail with attachments, recipients and reply/forward][6] in Core CRM and Sales
+* [Side panel - Preview email with attachments, recipients and reply/forward][6] in Core CRM and Sales
 * [Marketing Flow – distribute to owner step][7] in Marketing
 * [Request - Anonymise support agent][8] in Service and Settings and maintenance
 * [Preferences - Global preference to anonymise user on reply][9] in Settings and maintenance
