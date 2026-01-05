@@ -80,4 +80,4 @@ Transcription uses approximately 21 Wh (0.021 kWh) per hour of asynchronous tran
 
 CO2 emissions per hour of transcription: 5-20 grams, depending on the data center's energy mix.
 
-_Energy data provided by Gladia + MDPI 2025 study._
+*Energy data provided by Gladia + MDPI 2025 study.*
