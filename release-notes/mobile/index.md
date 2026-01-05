@@ -3,8 +3,8 @@ uid: release-notes-mobile-crm
 title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
-author: SuperOffice AS – Product and Engineering
-date: 10.15.2025
+author: kirstiaa
+date: 01.07.2026
 version: 11.1
 content_type: release-note
 platform: mobile
@@ -73,9 +73,6 @@ audience_tooltip: SuperOffice Mobile CRM
 * [Choose icons for Web.Admin for WebPanels (10.0.2)][2]
 * [SuperOffice has launched a new CRM app (10.0.1)][1]
 
-> [!TIP]
-> Check out our [documentation for SuperOffice Mobile CRM][50] to learn more about how to use our super application for mobile devices.
-
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
@@ -103,6 +100,5 @@ audience_tooltip: SuperOffice Mobile CRM
 [40]: 11.1.2-update.md
 [41]: 11.1.3-update.md
 [42]: 11.1.5-update.md
-[50]: ../../docs/en/mobile/overview.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
