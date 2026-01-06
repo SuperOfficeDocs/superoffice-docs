@@ -4,8 +4,8 @@ title: Firma kategori og kategorigruppe
 description: Opret eller opdater firmakategorier, tildel kategorigrupper, og aktivér sporing af leadstatus.
 keywords: firmakategori, kategorigruppe, leadstatus, potentiel kunde, lister
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -98,6 +98,7 @@ Kategorigrupper giver en måde at klassificere kategorier efter formål og forhi
 * [Potentielle kundekategorier][2]
 * [Aktivér lead-status for firmakategorier][1]
 * [Administrér lead-statuser][3]
+* [Automatiser leadkategorisering][5]
 * [Brugergruppefiltrering][4]
 
 <!-- Referenced links -->
@@ -105,6 +106,7 @@ Kategorigrupper giver en måde at klassificere kategorier efter formål og forhi
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md
+[5]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/add-company-category.png

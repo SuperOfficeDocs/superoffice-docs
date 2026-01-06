@@ -4,8 +4,8 @@ title: Firmenkategorie und Kategoriengruppe
 description: Erstellen oder aktualisieren Sie Firmenkategorien, weisen Sie Kategoriengruppen zu und aktivieren Sie die Lead-Status-Verfolgung.
 keywords: Firmenkategorie, Kategoriengruppe, Lead-Status, potenzieller Kunde, Listen
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -98,6 +98,7 @@ Kategoriengruppen bieten eine Möglichkeit, Kategorien nach Zweck zu klassifizie
 * [Kategorien für potenzielle Kunden][2]
 * [Lead-Status für Firmenkategorien aktivieren][1]
 * [Lead-Status verwalten][3]
+* [Lead-Kategorisierung automatisieren][5]
 * [Benutzergruppen-Filterung][4]
 
 <!-- Referenced links -->
@@ -105,6 +106,7 @@ Kategoriengruppen bieten eine Möglichkeit, Kategorien nach Zweck zu klassifizie
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md
+[5]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/add-company-category.png

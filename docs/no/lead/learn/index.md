@@ -4,8 +4,8 @@ title: Leadhåndtering
 description: Lær hvordan du forstår og arbeider med leads i SuperOffice CRM.
 keywords: leadstatus, lead, potensiell kunde, kvalifisering, mql, salgsprosess
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: concept
 category: sale
 topic: lead
@@ -111,6 +111,7 @@ Leadinformasjon vises flere steder i SuperOffice CRM, slik at det er enkelt å s
 * [Konfigurer leadhåndtering][3] - i Innstillinger og vedlikehold
 * [Konfigurer firmakategorier][1]
 * [Administrer leadstatuser][2]
+* [Automatiser lead-kategorisering][6]
 
 <!-- Referenced links -->
 [1]: ../admin/add-company-category.md
@@ -118,6 +119,7 @@ Leadinformasjon vises flere steder i SuperOffice CRM, slik at det er enkelt å s
 [3]: ../admin/index.md
 [4]: work-with-leads.md
 [5]: ../../marketing/utm/learn/index.md
+[6]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/company-lead-with-contacts-section-tab.png

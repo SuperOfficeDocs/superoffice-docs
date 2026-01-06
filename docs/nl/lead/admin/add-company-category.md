@@ -4,8 +4,8 @@ title: Bedrijfscategorie en categoriegroep
 description: Maak of werk bedrijfscategorieën bij, wijs categoriegroepen toe en schakel leadstatus-tracking in.
 keywords: bedrijfscategorie, categoriegroep, leadstatus, potentiële klant, lijsten
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -98,6 +98,7 @@ Categoriegroepen bieden een manier om categorieën in te delen naar doel en onge
 * [Categorien voor potentiële klanten][2]
 * [Lead-status voor bedrijfscategorieën inschakelen][1]
 * [Lead-statussen beheren][3]
+* [Lead-categorisatie automatiseren][5]
 * [Gebruikersgroepfiltering][4]
 
 <!-- Referenced links -->
@@ -105,6 +106,7 @@ Categoriegroepen bieden een manier om categorieën in te delen naar doel en onge
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md
+[5]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/add-company-category.png

@@ -4,8 +4,8 @@ title: Update a sale
 description: How to update existing sale information, change its stage (including marking it as stalled, sold, or lost), or delete a sale if it is no longer relevant.
 keywords: update sale, edit sale, delete sale, stalled, lost, sold, sale
 author: Bergfrid Dias
-date: 01.06.2025
-version: 10.5
+date: 01.13.2026
+version: 11.8
 content_type: howto
 license: salesessentials
 audience: person
@@ -101,11 +101,13 @@ If the sale has the status **Sold** or **Lost**, you can check the **Completed**
 * [Create a sale][2]
 * [Sales guides][1]
 * [Explanation of the fields][3]
+* [Automate lead categorization][4]
 
 <!-- Referenced links -->
 [1]: sales-guides.md
 [2]: create.md
 [3]: create.md#fields
+[4]: ../../lead/admin/category-automation.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

@@ -4,8 +4,8 @@ title: Company category and category group
 description: Create or update company categories, assign category groups, and enable lead status tracking.
 keywords: company category, category group, lead status, potential customer, list
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -98,6 +98,7 @@ Category groups provide a way to classify categories by purpose and prevent unwa
 * [Potential customer categories][2]
 * [Enable lead status for company categories][1]
 * [Manage lead statuses][3]
+* [Automate lead categorization][4]
 * [User group filtering][4]
 
 <!-- Referenced links -->

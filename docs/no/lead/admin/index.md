@@ -4,8 +4,8 @@ title: Konfigurer leadhåndtering
 description: Lær hvordan du aktiverer, konfigurerer og utvider leadhåndtering i SuperOffice CRM.
 keywords: leadhåndtering, leadoppsett, leadstatus, potensiell kunde, salgsprosess
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: concept
 category: sale
 topic: lead
@@ -48,7 +48,17 @@ Listen **Person – Leadstatus** definerer kvalifiseringsstadiene som brukes i o
 
 For detaljerte trinn, se [Administrer leadstatuser][2].
 
-## Trinn 3: (Valgfritt) Utvid med Marketing Premium
+## Trinn 3: (Valgfritt) Konfigurer kategoriautomatisering
+
+Kategoriautomatisering reduserer manuelt arbeid ved å oppdatere firmakategorier automatisk når salgsstatus endres eller leadstatus oppdateres. For eksempel kan du automatisk flytte en lead til *Kunde* når et salg er merket som vunnet.
+
+1. Gå til **Innstillinger og vedlikehold** > **Arbeidsflyt** > **Lead-kategorisering**.
+1. Aktiver automatiseringsreglene du vil bruke.
+1. For hver regel, spesifiser målkategorien og om brukerbekreftelse er nødvendig.
+
+For detaljerte trinn, se [Automatiser lead-kategorisering][6].
+
+## Trinn 4: (Valgfritt) Utvid med Marketing Premium
 
 Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
 
@@ -62,13 +72,15 @@ Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automa
 * [Oversikt over leadhåndtering][3]
 * [Firmakategori og kategorigruppe][1]
 * [Administrer leadstatuser][2]
+* [Automatiser lead-kategorisering][6]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
 [3]: ../learn/index.md
-[5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+[5]: ../../marketing/utm/admin/set-up.md
+[6]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/enable-lead-status.png

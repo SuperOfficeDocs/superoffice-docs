@@ -4,8 +4,8 @@ title: Leadbeheer instellen
 description: Leer hoe u leadbeheer in SuperOffice CRM activeert, configureert en uitbreidt.
 keywords: leadbeheer, leadinstelling, leadstatus, potentiële klant, verkoopproces
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: concept
 category: sale
 topic: lead
@@ -48,7 +48,17 @@ De lijst **Persoon – Leadstatus** definieert de kwalificatiestadia die in uw o
 
 Zie [Leadstatus beheren][2] voor gedetailleerde stappen.
 
-## Stap 3: (Optioneel) Uitbreiden met Marketing Premium
+## Stap 3: (Optioneel) Categorie-automatisering configureren
+
+Categorie-automatisering vermindert handmatig werk door bedrijfscategorieën automatisch bij te werken wanneer de verkoopstatus verandert of de leadstatus wordt bijgewerkt. Bijvoorbeeld, verplaats een lead automatisch naar *Klant* wanneer een verkoop als gewonnen wordt gemarkeerd.
+
+1. Ga naar **Instellingen en onderhoud** > **Workflow** > **Lead-categorisatie**.
+1. Schakel de automatiseringsregels in die u wilt gebruiken.
+1. Geef voor elke regel de doelcategorie op en of gebruikersbevestiging vereist is.
+
+Zie [Lead-categorisatie automatiseren][6] voor gedetailleerde stappen.
+
+## Stap 4: (Optioneel) Uitbreiden met Marketing Premium
 
 Als u Marketing Premium gebruikt, kunt u extra tracking- en automatiseringsfuncties benutten in uw leadproces:
 
@@ -62,13 +72,15 @@ Als u Marketing Premium gebruikt, kunt u extra tracking- en automatiseringsfunct
 * [Overzicht van leadbeheer][3]
 * [Bedrijfscategorie en categoriegroep][1]
 * [Leadstatus beheren][2]
+* [Lead-categorisatie automatiseren][6]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
 [3]: ../learn/index.md
-[5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+[5]: ../../marketing/utm/admin/set-up.md
+[6]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/enable-lead-status.png

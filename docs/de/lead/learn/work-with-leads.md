@@ -4,8 +4,8 @@ title: Mit Leads in SuperOffice arbeiten
 description: Erfahren Sie, wie Sie Leads in SuperOffice CRM anzeigen, aktualisieren und nachverfolgen.
 keywords: lead
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -115,6 +115,7 @@ Dynamische Selektionen von Firmen oder Personen können außerdem in der [Board-
 * [Übersicht Lead-Management][1]
 * [Dashboards zur Überwachung von Leads verwenden][4]
 * [Personeninformationen in großer Menge aktualisieren][9]
+* [Lead-Kategorisierung automatisieren][10]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -124,6 +125,7 @@ Dynamische Selektionen von Firmen oder Personen können außerdem in der [Board-
 [7]: ../../learn/section-tabs/contacts-tab.md
 [8]: ../../learn/section-tabs/filter.md
 [9]: ../../learn/basics/bulk-update.md
+[10]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/contact-card-open-lead.png

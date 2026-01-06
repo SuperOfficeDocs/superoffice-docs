@@ -4,8 +4,8 @@ title: Een verkoop bijwerken
 description: Hoe u bestaande verkoopinformatie kunt bijwerken, de fase kunt wijzigen (inclusief markeren als vastgelopen, verkocht of verloren), of een verkoop kunt verwijderen als deze niet langer relevant is.
 keywords: verkoop bijwerken, verkoop bewerken, verkoop verwijderen, vastgelopen, verloren, verkocht, verkoop
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 01.13.2026
+version: 11.8
 content_type: howto
 license: salesessentials
 audience: person
@@ -101,11 +101,13 @@ Als de verkoop de status **Verkocht** of **Verloren** heeft, kunt u het selectie
 * [Een verkoop registreren][2]
 * [Verkoopgidsen][1]
 * [Uitleg over de velden][3]
+* [Lead-categorisatie automatiseren][4]
 
 <!-- Referenced links -->
 [1]: sales-guides.md
 [2]: create.md
 [3]: create.md#fields
+[4]: ../../lead/admin/category-automation.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

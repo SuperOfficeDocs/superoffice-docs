@@ -4,8 +4,8 @@ title: Leadbeheer
 description: Leer hoe u leads in SuperOffice CRM begrijpt en ermee werkt.
 keywords: leadstatus, lead, potentiële klant, kwalificatie, mql, salesproces
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: concept
 category: sale
 topic: lead
@@ -111,6 +111,7 @@ Leadinformatie wordt op verschillende plaatsen in SuperOffice CRM weergegeven, w
 * [Leadbeheer instellen][3] - in Instellingen en onderhoud
 * [Bedrijfscategorieën configureren][1]
 * [Leadstatussen beheren][2]
+* [Lead-categorisatie automatiseren][6]
 
 <!-- Referenced links -->
 [1]: ../admin/add-company-category.md
@@ -118,6 +119,7 @@ Leadinformatie wordt op verschillende plaatsen in SuperOffice CRM weergegeven, w
 [3]: ../admin/index.md
 [4]: work-with-leads.md
 [5]: ../../marketing/utm/learn/index.md
+[6]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/company-lead-with-contacts-section-tab.png
