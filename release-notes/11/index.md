@@ -3,8 +3,8 @@ uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
-author: SuperOffice AS – Product and Engineering
-date: 12.02.2025
+author: kirstiaa
+date: 01.13.2026
 version: 11
 content_type: release-note
 audience: person
@@ -23,6 +23,11 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
+### 11.8 (13.01.2026)
+
+* [Time zones - Agents with multiple time zones][23] in Service
+* [Workflow - Lead category automation][24] in Settings and maintenance
+
 ### 11.7 (25.11.2025)
 
 * [Dashboard - Quick filter in dashboard][21] in Core CRM and Sales
@@ -31,9 +36,10 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Dashboard - Administrator options for a dashboard][21] in Core CRM and Sales
 * [Dashboard - Tile details layout with chart type and dataset][21] in Core CRM and Sales
 * [Dashboard - Funnel tile showing progression][21] in Core CRM and Sales
-* [Dashboard - Show the Stage when closed][21] in Core CRM and Sales
+* [Dashboard - Show the stage when closed][21] in Core CRM and Sales
+* [Find - Search for category group][21] in Core CRM and Sales
 * [Selection of companies/contacts - Board view grouped by Our contacts shows No selection column][21] in Core CRM and Sales
-* [Selection of sales - Board view Setting for displaying days in stage][21] in Core CRM and Sales
+* [Selection of sales - Board view setting for displaying days in stage][21] in Core CRM and Sales
 * [Requests - Filter messages on comments or replies][22] in Service
 
 ### 11.6 (06.11.2025)
@@ -53,13 +59,13 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Lists - Contact - Lead status][20] in Settings and maintenance
 * [Lists - GUI Web panel - Option for always reload content on tab navigation][20] in Settings and maintenance
 * [CRMScript - Trigger for "Load request message" with message creation logic][20] in Settings and maintenance
-* [Preferences - Set Request preferences for system, group, or user][20] in Settings and maintenance
+* [Preferences - Set request preferences for system, group, or user][20] in Settings and maintenance
 
 ### 11.5 (16.10.2025)
 
 * [Marketing Form – Pre-populate fields linked from a mailing][14] in Marketing
 * [Request - Differentiate request types with icons][16] in Service
-* [Reply Tools - Add icon for FAQ/Reply Template underneath editor][16] in Service
+* [Reply Tools - Add icon for FAQ/Reply template underneath editor][16] in Service
 
 ### 11.4 (22.09.2025)
 
@@ -74,7 +80,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Notification - New company/contact assigned][6] in Core CRM and Sales
 * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
 * [Dashboard - Copy dashboard link][6] in Core CRM and Sales
-* [Side panel - Preview e-mail with attachments, recipients and reply/forward][6] in Core CRM and Sales
+* [Side panel - Preview email with attachments, recipients and reply/forward][6] in Core CRM and Sales
 * [Marketing Flow – distribute to owner step][7] in Marketing
 * [Request - Anonymise support agent][8] in Service and Settings and maintenance
 * [Preferences - Global preference to anonymise user on reply][9] in Settings and maintenance
@@ -125,6 +131,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [20]: admin/11.6-update.md
 [21]: core-crm/11.7-update.md
 [22]: service/11.7-update.md
+[23]: service/11.8-update.md
+[24]: admin/11.8-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated

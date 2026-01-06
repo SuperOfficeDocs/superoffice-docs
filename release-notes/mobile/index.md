@@ -3,8 +3,8 @@ uid: release-notes-mobile-crm
 title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
-author: SuperOffice AS – Product and Engineering
-date: 10.15.2025
+author: kirstiaa
+date: 01.07.2026
 version: 11.1
 content_type: release-note
 platform: mobile
@@ -20,6 +20,9 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [New company - With company completion (11.1.5)][42]
+* [Company and Contact - Lead status (11.1.5)][42]
+* [Follow-up - Complete follow-up by long press (11.1.5)][42]
 * [Scan business card from the Create menu (11.1.3)][41]
 * [Follow-up - Create video meeting link (11.1.2)][40]
 * [Project - Display links (11.1.2)][40]
@@ -70,9 +73,6 @@ audience_tooltip: SuperOffice Mobile CRM
 * [Choose icons for Web.Admin for WebPanels (10.0.2)][2]
 * [SuperOffice has launched a new CRM app (10.0.1)][1]
 
-> [!TIP]
-> Check out our [documentation for SuperOffice Mobile CRM][50] to learn more about how to use our super application for mobile devices.
-
 <!-- Referenced links-->
 [1]: 10.0.1-update.md
 [2]: 10.0.2-update.md
@@ -99,6 +99,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [39]: 11.1.0-update.md
 [40]: 11.1.2-update.md
 [41]: 11.1.3-update.md
-[50]: ../../docs/en/mobile/overview.md
+[42]: 11.1.5-update.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
