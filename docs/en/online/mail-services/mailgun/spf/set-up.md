@@ -1,11 +1,13 @@
 ---
+uid: set-up-spf
 title: How to set up SPF Record
-uid: set_up_spf
-description: "How to set up an SPF Record."
+description: How to set up an SPF Record.
+keywords: SPF, email, DNS record, domain
 author: SuperOffice Product and Engineering
 date: 02.02.2022
-keywords: SPF, email, DNS record, domain
 content_type: howto
+category: email
+topic: mailgun
 deployment: online
 platform: web
 index: true
@@ -59,13 +61,13 @@ There are several tools available online to test your SPF record. Here we use [M
 
 3. The result should show that `_spf.online.superoffice.com` is included and pass the test for *allow*.
 
-### What’s the difference between ~all and -all?
+### What's the difference between ~all and -all?
 
-Given many receivers are not actively bouncing mail based on SPF pass/fail, there isn’t a strong argument for either -all or ~all in SPF records. For a while, Hotmail was advising that senders who published a -all record would have better delivery. This led to -all became a de-facto standard for a lot of ESPs and bulk senders. More recently, there does not seem to be any benefit to publishing -all even at Hotmail (Outlook.com, live.com, and similar).
+Given many receivers are not actively bouncing mail based on SPF pass/fail, there isn't a strong argument for either -all or ~all in SPF records. For a while, Hotmail was advising that senders who published a -all record would have better delivery. This led to -all became a de-facto standard for a lot of ESPs and bulk senders. More recently, there does not seem to be any benefit to publishing -all even at Hotmail (Outlook.com, live.com, and similar).
 
 What should I publish?
 
-We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There’s not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small user base. Many ISPs will check SPF before sending back a bounce and so an `-all` record can decrease the amount of blowback the domain owner has to deal with.
+We recommend "~all" (soft fail if no matches) vs "-all" (hard fail if no matches) as a conservative measure. A soft mail means that the message will be tagged with a header documenting the failure, but will still be accepted. If you prefer a hard failure, ie "-all", then feel free to use that instead. There's not a huge benefit to publishing -all and sometimes mail gets forwarded around. The one time we recommend an -all record is when a domain is getting forged into spam. Domain forgery can cause a lot of bounces. The number of bounces can be bad enough to take down a mail server, particularly those with a small user base. Many ISPs will check SPF before sending back a bounce and so an `-all` record can decrease the amount of blowback the domain owner has to deal with.
 
 <!-- Referenced links -->
 [1]: https://mxtoolbox.com/

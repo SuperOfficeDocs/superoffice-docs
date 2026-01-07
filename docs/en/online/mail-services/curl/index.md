@@ -8,6 +8,7 @@ date: 12.04.2025
 version: 11
 content_type: concept
 category: email
+topic: curl
 index: true
 redirect_from: /en/email/service/index
 language: en
@@ -298,8 +299,8 @@ When the user starts the authentication flow, the user initiates with an active 
 [5]: https://id.superoffice.com/identityprovider/register
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
-[8]: learn/create-mailbox.md
-[9]: ../inbox/index.md
+[8]: ../../../email/admin/mailbox/create-mailbox.md
+[9]: ../../../email/inbox/it/index.md
 
 <!-- Referenced images -->
 [img1]: media/320curl.jpg

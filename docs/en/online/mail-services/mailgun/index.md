@@ -2,10 +2,12 @@
 uid: mailgun
 title: Mailgun
 description: Learn about the alternatives for sending and receiving emails in SuperOffice and how to configure them.
-keywords: Mailgun, email, suocrm
+keywords: Mailgun, suocrm, send email, receive email, email service, mail service, mailings
 author: Frode B
 date: 06.20.2024
 content_type: concept
+category: email
+topic: mailgun
 deployment: online
 redirect_from:
   - /en/email/mailgun/index
@@ -31,13 +33,13 @@ Use the email address generated from SuperOffice Online and use this to directly
 
 Mail sent from SuperOffice Service / SuperOffice Mailings to your customer:
 
-![1-out-hi -screenshot][img1]
+![1-out-hi][img1]
 
 ### In
 
 Mail sent from your customer to your SuperOffice Service:
 
-![1-in-hi -screenshot][img2]
+![1-in-hi][img2]
 
 ### Pros
 
@@ -69,25 +71,25 @@ When using Mailgun as the sending email service, and sending it as someone else
 
  Mail sent from SuperOffice Service / SuperOffice Mailings to your customer, using your own domain as sender address:
 
-![2-out-nospf-hi -screenshot][img4]
+![2-out-nospf-hi][img4]
 
 ### Out (with SPF)
 
 Mail sent from SuperOffice Service / SuperOffice Mailings to your customer, using your own domain as the sender address, and have set up an SPF record:
 
-![2-out-spf-hi -screenshot][img5]
+![2-out-spf-hi][img5]
 
 ### Out (with DKIM)
 
 Mail sent from SuperOffice Service / SuperOffice Mailings to your customer, using your own domain as the sender address, and have set up a DKIM record:
 
-![2-out-dkim-hi -screenshot][img6]
+![2-out-dkim-hi][img6]
 
 ### In
 
 Mail sent from your customer to your SuperOffice Service:
 
-![2-in-hi -screenshot][img7]
+![2-in-hi][img7]
 
 ### Pros
 
@@ -156,7 +158,7 @@ It is a good idea to allow (whitelist) access to your own SMTP server from our O
 * Read [How to set up SPF?][1]
 * Read [How to order a DKIM key from SuperOffice, and how to set up DKIM?][2]
 
-![guidelines -screenshot][img8]
+![guidelines][img8]
 
 <!-- Referenced links -->
 [1]: spf/set-up.md

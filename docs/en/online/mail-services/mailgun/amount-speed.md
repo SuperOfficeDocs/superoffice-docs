@@ -1,10 +1,13 @@
 ---
+uid: mailgun-amount-speed
 title: Mailgun - amount and speed
-uid: mailgun_amount_speed
 description: Mailgun - amount and speed
+keywords: Mailgun, email performance, email speed, email volume, mailing, throughput
 author: SuperOffice Product and Engineering
-keywords:
+date: 01.07.2026
 content_type: concept
+category: email
+topic: mailgun
 index: true
 redirect_from: /en/email/mailgun/amount-speed
 language: en
@@ -30,9 +33,9 @@ Example: if you want to send out 160 000 emails, you should first divide them in
 
 However, we would recommend that our customers who need to send large volumes of emails per month (>50,000 per month) consider other, more specialized mailing services such as MailChimp, eMarketeer, or others.
 
-**Articles:**
+## Articles
 
-* [Successful Email Marketing – you’ll reap what you sow][2]
+* [Successful Email Marketing – you'll reap what you sow][2]
 * [Are you spamming your customers?][3]
 * [89% of Businesses Make the Same Email Marketing Mistake][4]
 

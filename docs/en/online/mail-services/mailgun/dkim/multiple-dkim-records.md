@@ -1,11 +1,13 @@
 ---
-title: Multiple DKIM records
 uid: dkim-multiple-records
+title: Multiple DKIM records
 description: Multiple DKIM records in Mailgun
+keywords: Mailgun, DKIM, DMARC, SMTP, bounce, consent
 author: Martin Pavlas
 date: 09.12.2023
-keywords: Mailgun, DKIM, online, email, DMARC, SMTP, bounce, consent
 content_type: howto
+category: email
+topic: mailgun
 deployment: online
 platform: web
 index: true

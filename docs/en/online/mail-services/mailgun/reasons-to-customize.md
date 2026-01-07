@@ -1,10 +1,13 @@
 ---
+uid: reasons-to-customize-mailgun
 title: Reasons to customize Mailgun
-uid: reasons_to_customize_mailgun
 description: Reasons to customize Mailgun
+keywords: Mailgun, customize, domain, sender, brand, DKIM, SPF
 author: SuperOffice Product and Engineering
-keywords:
+date: 01.07.2026
 content_type: concept
+category: email
+topic: mailgun
 index: true
 redirect_from: /en/email/mailgun/reasons-to-customize
 language: en
@@ -18,7 +21,7 @@ Feedback from customers that leads to the need for customization is related main
 
 ## Some customers question that data (emails) are stored temporarily in the US
 
-Most of our customers are located in Europe, and we use mailservers located in Europe when sending from the domain smtp.eu.mailgun.org.
+Most of our customers are located in Europe, and we use mail servers located in Europe when sending from the domain smtp.eu.mailgun.org.
 The default Mailgun service for customers is located in EU.
 
 > [!NOTE]
@@ -49,7 +52,7 @@ SPF does not provide 100% security for the authenticity of outgoing emails. It d
 
 What can we do to mitigate this?
 
-Let’s look at the possible ways we can change the setup to meet the arguments.
+Let's look at the possible ways we can change the setup to meet the arguments.
 
 ### Outgoing emails created by the mailings module in SuperOffice can be sent to another email-server than Mailgun
 
@@ -69,7 +72,7 @@ Using any mailing service always represents some kind of trade-off. Changing to 
 
 Why do we use a mass mailing service like Mailgun? What features and security does it provide? What benefits will disappear if a customer starts using his normal mail-service for mass mailing? It is important to take these qualities into considerations when discussing the issues with a customer. This is not a black and white situation with a silver bullet solution that solves everything. Both solutions have pros and cons – both related to cost, capacity, features, and security.
 
-Let’s remind ourselves and our customers why the Mailgun – service does a good job:
+Let's remind ourselves and our customers why the Mailgun – service does a good job:
 
 * Open to the internet.
     The customer has to make their mail-server available for SuperOffice Online. This will imply making the server open to the internet. This will inevitably represent a security risk.

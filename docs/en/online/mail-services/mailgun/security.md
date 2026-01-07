@@ -1,10 +1,13 @@
 ---
+uid: mailgun-security
 title: Security and best practices
-uid: mailgun_security
 description: Security and best practices for Mailgun
+keywords: email security, spam, DKIM, SPF, DMARC, blocklist, email authentication, spoofing
 author: SuperOffice Product and Engineering
-keywords: email
+date: 01.07.2026
 content_type: reference
+category: email
+topic: mailgun
 index: true
 redirect_from: /en/email/mailgun/security
 language: en
@@ -15,13 +18,14 @@ language: en
 Spam mail messages have been a plague since the Internet became popular and they kept growing more and more as the number of devices and people connected grew. Despite the numerous attempts of creation of anti-spam tools, there is still a high number of unwanted messages sent every day.
 
 Luckily, lately, it seems that something is changing with the adoption of three (relatively) new tools, which are starting to be widely used: SPF, DKIM, and DMARC.
+
 Prevent address forgery (spoofing) spammers can forge, or "spoof," your domain's 'From address' to make their spam look like it came from someone in your domain. To help prevent this, we recommend authenticating mail sent from your domain in two ways: by creating SPF records, and by adding a digital signature to your messages that conform to the Domain Keys Identified Mail (DKIM) standard.
 
 ## SPF
 
 SPF (Sender Policy Framework) is a DNS text entry, which shows a list of servers that should be considered, allowed to send mail for a specific domain. Incidentally, the fact that SPF is a DNS entry can also be considered as a way to enforce the fact that the list is authoritative for the domain since the owners/administrators are the only people allowed to add/change that main domain zone.
 
-Today, nearly all abusive email messages carry fake sender addresses. Spammers send email from their mail servers but with your ‘domain’ as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
+Today, nearly all abusive email messages carry fake sender addresses. Spammers send email from their mail servers but with your 'domain' as the sending email. The victims whose addresses are being abused often suffer from the consequences, because their reputation gets diminished and they have to disclaim liability for the abuse or waste their time sorting out misdirected bounce messages.
 
 The purpose of an SPF record is to prevent spammers from sending messages with forged From addresses at your domain. Recipients can refer to the SPF record to determine whether a message purporting to be from your domain comes from an authorized mail server. If your domain does not have an SPF record, some recipient domains may reject messages from your users because they cannot validate that the messages come from an authorized mail server.
 
@@ -66,9 +70,9 @@ Sender Reputation is used by email providers and filters to determine whether to
 
 ## Blacklist
 
-Commonly called Realtime blacklist, DNSBL, or RBL. An email blacklist is a real-time database that uses set criteria to determine if an IP is sending emails that could be considered spam. There are over 300 publicly available blacklists. Public blacklists are created by large, trustworthy companies, as well as small, independent networks. Since anyone can create a blacklist, they don’t all have the same impact on deliverability. Mailbox providers and filtering companies do not leverage inbox placement on every blacklist. They typically combine data from various public blacklists, as well as data from their own networks, to determine your credibility as a sender. This allows other mail servers to check if an email is from a server's IP address that might have possibly been flagged for sending spam in the past.
+Commonly called Realtime blacklist, DNSBL, or RBL. An email blacklist is a real-time database that uses set criteria to determine if an IP is sending emails that could be considered spam. There are over 300 publicly available blacklists. Public blacklists are created by large, trustworthy companies, as well as small, independent networks. Since anyone can create a blacklist, they don't all have the same impact on deliverability. Mailbox providers and filtering companies do not leverage inbox placement on every blacklist. They typically combine data from various public blacklists, as well as data from their own networks, to determine your credibility as a sender. This allows other mail servers to check if an email is from a server's IP address that might have possibly been flagged for sending spam in the past.
 
-It’s important to note that blacklist providers are not the ones blocking your mail—it’s the mailbox provider leveraging your blacklist status that blocks your mail. If a blacklist resulted in a block, focus on the potential causes for the listing. Blacklisting is most often caused by poor list quality and end-user complaints, but they all have their own criteria for accepting inbound mail and all can have a negative effect on your delivery rate.
+It's important to note that blacklist providers are not the ones blocking your mail—it's the mailbox provider leveraging your blacklist status that blocks your mail. If a blacklist resulted in a block, focus on the potential causes for the listing. Blacklisting is most often caused by poor list quality and end-user complaints, but they all have their own criteria for accepting inbound mail and all can have a negative effect on your delivery rate.
 
 There are two types of blacklists: IP address-based and domain-based.
 
@@ -84,7 +88,7 @@ Read more about blacklisting at [sendgrid.com][9].
 
 ## Blocklist
 
-A 'Blocklist' is a list the mail server owners have. A blocklist is a custom database of email addresses and domains from which server owners never want to receive emails from. To create this list, they may use their own blacklist (non-public), a public blacklist, and/or several blacklists as a source. It’s important to note that blacklist providers are not the ones blocking your mail—it’s the mailbox provider leveraging your blacklist status that blocks your mail. All blocking of mail is done on some server somewhere, and the blacklist doesn't control those servers. It is mail server owners blocking your email after all, not the blacklist. (even though many uses the term 'blacklist' and 'blocklist' interchangeably)
+A 'Blocklist' is a list the mail server owners have. A blocklist is a custom database of email addresses and domains from which server owners never want to receive emails from. To create this list, they may use their own blacklist (non-public), a public blacklist, and/or several blacklists as a source. It's important to note that blacklist providers are not the ones blocking your mail—it's the mailbox provider leveraging your blacklist status that blocks your mail. All blocking of mail is done on some server somewhere, and the blacklist doesn't control those servers. It is mail server owners blocking your email after all, not the blacklist. (even though many uses the term 'blacklist' and 'blocklist' interchangeably)
 
 Large freemail providers such as Gmail, Hotmail, and Yahoo maintain their own blocklists, and the process for getting delisted is not always clearly stated.
 
@@ -96,7 +100,7 @@ Typically this depends on whether the recipient has actively requested to be add
 
 Because there is no hard definition of "spam" it is also relatively easy to end up on a blocklist by mistake. A classic example is an email user who subscribes to a mailing list, forgets about it, and then hits the "spam" button instead of unsubscribing from the list. It is also easy to become listed if dumb autoresponders send out-of-office replies in response to spam messages with forged "from" addresses.
 
-In many cases, this can be caused by the fact that the recipient’s mail server sees your email address as spam, because the Sender domain is different from the actual domain being received from.
+In many cases, this can be caused by the fact that the recipient's mail server sees your email address as spam, because the Sender domain is different from the actual domain being received from.
 
 Creating a mailing in SuperOffice Online, you define a sender address ('from:'). You can use any email address for this, as there are no restrictions. Let's say you are using a sender email address, which has the domain (email ending)"@yourdomain.com". When the mailing reaches the recipient mail server it sees that the mailing is sent from `customer.suocrm.com` domain. This can cause your newsletter to be identified as Spam.
 
@@ -120,7 +124,7 @@ If an email service or ISP does not have a feedback loop set up, then any compla
 
 #### Mail classifications
 
-Mail classifications depend heavily on reports from users. Most users of the mail hosters, can mark and unmark messages as spam, and can move non-spam messages between inbox tabs. In both cases, mail vendors learn from user corrections and overtime automatically adjusts the classification to match users’ preferences.
+Mail classifications depend heavily on reports from users. Most users of the mail hosters, can mark and unmark messages as spam, and can move non-spam messages between inbox tabs. In both cases, mail vendors learn from user corrections and overtime automatically adjusts the classification to match users' preferences.
 
 #### Bounce rate
 
@@ -163,7 +167,7 @@ SPF is powerless with messages forged in a shared hosting scenario, as all the 
 
 ### For CRM Online
 
-Adding an SPF record to use CRM Online’s email service (com: mailgun.org, eu: eu.mailgun.org), will the policy only to all non-Mailgun email servers since there is at this point not possible to distinguish between users of this email service on IP address (they all users the same one). Do note, combining SPF with DKIM will be adequate to distinguish your domain, due to the fact each customer uses its own domain key.
+Adding an SPF record to use CRM Online's email service (com: mailgun.org, eu: eu.mailgun.org), will the policy only to all non-Mailgun email servers since there is at this point not possible to distinguish between users of this email service on IP address (they all users the same one). Do note, combining SPF with DKIM will be adequate to distinguish your domain, due to the fact each customer uses its own domain key.
 Again, this technology relies upon the receiver's email server to use the tools…
 
 ## Read more

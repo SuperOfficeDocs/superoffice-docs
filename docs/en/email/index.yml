@@ -151,9 +151,9 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: How to enable cURL
-            url: service/index.md#how-to-enable-curl
+            url: ../online/mail-services/curl/index.md#how-to-enable-curl
           - text: How to troubleshoot mail when using cURL
-            url: service/index.md#how-to-troubleshoot-mail-when-using-curl
+            url: ../online/mail-services/curl/index.md#how-to-troubleshoot-mail-when-using-curl
 
   - title: Mailgun
     linkLists:

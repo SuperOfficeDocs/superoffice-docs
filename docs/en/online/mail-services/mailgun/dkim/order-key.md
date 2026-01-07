@@ -1,11 +1,13 @@
 ---
+uid: order-dkim-key
 title: Request DKIM key for eu.mailgun.org
-uid: order_dkim_key
 description: How to request DKIM key for eu.mailgun.org
+keywords: mailgun, DKIM key
 author: SuperOffice Product and Engineering
 date: 09.12.2023
-keywords: mailgun
 content_type: howto
+category: email
+topic: mailgun
 deployment: online
 platform: web
 index: true

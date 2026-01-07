@@ -181,7 +181,7 @@ additionalContent:
       - title: More
         links:
         - text: Service and Marketing mail
-          url: ../email/service/index.md
+          url: ../online/mail-service/curl/index.md
         - text: Service log files
           url: ../onsite/debug/service-log-files.md
   # footer (optional)

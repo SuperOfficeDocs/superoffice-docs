@@ -1,8 +1,12 @@
 ---
-title: dkim
-description:
+uid: mailgun-dkim
+title: DKIM
+description: DKIM record for Mailgun
+keywords: DKIM, email, authentication, domain, DNS, record, security
 author: SuperOffice Product and Engineering
-keywords:
+date: 01.07.2026
+category: email
+topic: mailgun
 index: true
 redirect_from: /en/email/mailgun/dkim/index
 language: en

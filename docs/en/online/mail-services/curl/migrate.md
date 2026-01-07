@@ -1,10 +1,13 @@
 ---
+uid: migration-guide-mailboxes
 title: Migrate
-uid: migration_guide_mailboxes
 description: Migrate to SuperOffice CRM Online with Service mailboxes
+keywords: migration, mailbox, Service email address
 author: SuperOffice Product and Engineering
-keywords:
+date: 01.07.2026
 content_type: concept
+category: email
+topic: curl
 deployment: onsite
 index: true
 redirect_from: /en/email/service/migrate
@@ -47,7 +50,7 @@ v=spf1 include:_spf.online.superoffice.com ~all
 ```
 
 <!-- Referenced links -->
-[2]: learn/create-mailbox.md
+[2]: ../../../email/admin/mailbox/create-mailbox.md
 [3]: https://support.google.com/a/answer/33786?hl=en
 
 <!-- Referenced images -->
