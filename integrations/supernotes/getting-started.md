@@ -2,10 +2,10 @@
 uid: supernotes-getting-started
 title: Getting started
 description: Common questions about getting started with Supernotes
-keywords: Supernotes, AI, meetings, setup, calendar, transcription
+keywords: Supernotes, AI, meetings, setup, calendar, transcription, People Directory
 author: Brede Kristensen
 date: 12.15.2025
-content_type: reference
+content_type: howto
 category: integration
 topic: Supernotes
 language: en
@@ -53,7 +53,7 @@ Supernotes currently supports the following platforms:
 
 If Supernotes doesn't automatically join a meeting, you can manually send it:
 
-1. Click **Send Supernotes to meeting** button in the top right corner of the dashboard.
+1. Click the **Send Supernotes to meeting** button in the upper-right corner of the dashboard.
 2. Paste the meeting link (Teams, Google Meet, etc.).
 3. Click **Send Supernotes to meeting**.
 
@@ -111,9 +111,9 @@ Supernotes can also record in-person meetings where there's no video conference.
 ### How to record physical meetings
 
 1. Open Supernotes on your phone (via web browser).
-2. Log into your account.
+2. Log in to your account.
 3. Tap the large **Physical Meeting** button on the home screen.
-4. Place your phone in the center of the table.
+4. Place your phone at the center of the table.
 5. The phone's microphone will capture all voices.
 
 ### Best practices for physical meetings
@@ -153,7 +153,7 @@ People Directory is a feature that shows all contacts you've interacted with acr
 ### To access People Directory
 
 1. Go to **Calendar** in the main navigation.
-2. Click on the **People** tab.
+2. Select the **People** tab.
 
 ### What you can see for each contact
 

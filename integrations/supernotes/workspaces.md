@@ -50,7 +50,7 @@ There are two ways to join a workspace:
 
 ### Automatic workspace detection
 
-Supernotes automatically detects workspaces based on your email domain. If you sign up with john@acme.com and a workspace exists with domain acme.com, you'll be prompted to join that workspace.
+Supernotes automatically detects workspaces based on your email domain. If you sign up with `john@acme.com` and a workspace exists with domain acme.com, you'll be prompted to join that workspace.
 
 ### Invitation-based joining
 
@@ -105,7 +105,7 @@ As a workspace administrator, you can:
 
 When enabled, anyone with a matching email domain can join your workspace automatically without an invite.
 
-**Example:** If your workspace domain is acme.com, then jane@acme.com and bob@acme.com can join automatically, but external@gmail.com cannot join without an invite.
+**Example:** If your workspace domain is acme.com, then `jane@acme.com` and `bob@acme.com` can join automatically, but `external@gmail.com` cannot join without an invite.
 
 ### Advantages
 

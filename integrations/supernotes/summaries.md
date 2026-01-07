@@ -39,7 +39,7 @@ Meeting summaries are generated based on the meeting type you've selected. A typ
 * **Next steps:** follow-up items and future plans.
 * **Participants:** who attended the meeting.
 
-The specific sections and format depend on your selected meeting type (e.g., General, Customer Meeting, Internal Meeting, or custom templates you've created).
+The specific sections and format depend on your selected meeting type (General, Customer Meeting, Internal Meeting, or custom templates you've created).
 
 You can customize what sections appear by creating custom meeting types in **Settings** > **Meeting Types**.
 
