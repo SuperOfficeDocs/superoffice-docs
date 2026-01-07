@@ -5,4 +5,4 @@
 > Voer geen e-mailadres in het veld **Van-naam** in. Dit veld moet als een naam worden weergegeven (bijv. SuperOffice Support). Het gebruik van een e-mailadres in het **Van-naam**-veld kan ertoe leiden dat uw e-mail als spam wordt gemarkeerd vanwege conflicten met SPF-, DKIM- of DMARC-validatieregels.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/email/mailgun/spf/index.md
+[1]: ../../../../../../en/online/mail-services/mailgun/spf/index.md

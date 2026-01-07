@@ -103,7 +103,7 @@ Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du væ
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
 [6]: ../mailing/admin/add-domain.md
-[7]: ../../../en/email/mailgun/spf/index.md
+[7]: ../../../en/online/mail-services/mailgun/spf/index.md
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 

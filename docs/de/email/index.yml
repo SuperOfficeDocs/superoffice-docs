@@ -146,14 +146,14 @@ landingContent:
         typeDesc: concept
         links:
           - text: Was ist cURL-Mail?
-            url: ../../en/email/service/index.md
+            url: ../../en/online/mail-services/curl/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Wie man cURL aktiviert
-            url: ../../en/email/service/index.md#how-to-enable-curl
+            url: ../../en/online/mail-services/curl/index.md#how-to-enable-curl
           - text: Wie man E-Mail-Probleme mit cURL behebt
-            url: ../../en/email/service/index.md#how-to-troubleshoot-mail-when-using-curl
+            url: ../../en/online/mail-services/curl/index.md#how-to-troubleshoot-mail-when-using-curl
 
   - title: Mailgun
     linkLists:
@@ -161,15 +161,15 @@ landingContent:
         typeDesc: concept
         links:
           - text: Alternativen für Maildienste
-            url: ../../en/email/mailgun/index.md
+            url: ../../en/online/mail-services/mailgun/index.md
           - text: Gründe für Anpassungen
-            url: ../../en/email/mailgun/reasons-to-customize.md
+            url: ../../en/online/mail-services/mailgun/reasons-to-customize.md
           - text: Leistung
-            url: ../../en/email/mailgun/amount-speed.md
+            url: ../../en/online/mail-services/mailgun/amount-speed.md
           - text: Sicherheit
-            url: ../../en/email/mailgun/security.md
+            url: ../../en/online/mail-services/mailgun/security.md
           - text: Informationen zu Unterauftragsverarbeitern
-            url: ../../en/email/mailgun/sub-processor-info.md
+            url: ../../en/online/mail-services/mailgun/sub-processor-info.md
 
   - title: DKIM
     linkLists:
@@ -177,16 +177,16 @@ landingContent:
         typeDesc: concept
         links:
         - text: Was ist der Zweck eines DKIM-Eintrags?
-          url: ../../en/email/mailgun/dkim/index.md
+          url: ../../en/online/mail-services/mailgun/dkim/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: DKIM-Schlüssel für eu.mailgun.org anfordern
-          url: ../../en/email/mailgun/dkim/order-key.md
+          url: ../../en/online/mail-services/mailgun/dkim/order-key.md
         - text: Wie man einen DKIM-Eintrag einrichtet
-          url: ../../en/email/mailgun/dkim/set-up.md
+          url: ../../en/online/mail-services/mailgun/dkim/set-up.md
         - text: Wie man DKIM von USA auf EU umstellt
-          url: ../../en/email/mailgun/dkim/change-us-to-eu.md
+          url: ../../en/online/mail-services/mailgun/dkim/change-us-to-eu.md
 
   - title: SPF
     linkLists:
@@ -194,9 +194,9 @@ landingContent:
         typeDesc: concept
         links:
         - text: Was ist SPF?
-          url: ../../en/email/mailgun/spf/index.md
+          url: ../../en/online/mail-services/mailgun/spf/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Wie man einen SPF-Eintrag einrichtet
-            url: ../../en/email/mailgun/spf/set-up.md
+            url: ../../en/online/mail-services/mailgun/spf/set-up.md

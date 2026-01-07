@@ -38,6 +38,6 @@ When the global preference **Only use approved e-mail sending domains** is set t
 > You can set up an SPF record for your domain to ensure that your organization can send mailings with increased deliverability (ONLINE ONLY). If your environment is ONSITE, an SPF look-up will not be conducted. But you can still use the list to provide your users with pre-set domains for **From** and **Reply to** addresses.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/mailgun/spf/index.md
+[1]: ../../../../en/online/mail-services/mailgun/spf/index.md
 
 <!-- Referenced images -->
