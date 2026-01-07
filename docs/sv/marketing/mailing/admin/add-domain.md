@@ -38,6 +38,6 @@ När den globala inställningen **Använd endast godkända e-postutskicksdomäne
 > Du kan skapa en SPF-post för din domän för att öka chanserna för att organisationens utskick kommer fram (ENDAST ONLINE). Om din miljö är LOKAL görs ingen SPF-sökning. Du kan dock fortfarande använda listan förutsatt att du förser användarna med förkonfigurerade domäner för **Från**- och **Svar till**-adresser.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/mailgun/spf/index.md
+[1]: ../../../../en/online/mail-services/mailgun/spf/index.md
 
 <!-- Referenced images -->

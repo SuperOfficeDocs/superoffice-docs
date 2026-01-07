@@ -103,4 +103,4 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
-[5]: ../../../../en/email/service/index.md
+[5]: ../../../../en/online/mail-services/curl/index.md

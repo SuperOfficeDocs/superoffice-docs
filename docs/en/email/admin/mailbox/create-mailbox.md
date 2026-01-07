@@ -103,4 +103,4 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
-[5]: ../../../../en/email/service/index.md
+[5]: ../../../../en/online/mail-services/curl/index.md
