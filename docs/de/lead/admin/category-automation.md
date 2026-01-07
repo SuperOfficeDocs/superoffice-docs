@@ -110,4 +110,4 @@ Wenn jetzt ein Verkauf, der mit einer Firma in der Gruppe *Potenzieller Kunde* v
 [5]: ../../sale/learn/sales-guides.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/admin/admin-workflow-lead-categorization.png
+[img1]: ../../../media/loc/en/lead/lead-categorization.png

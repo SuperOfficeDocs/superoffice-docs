@@ -110,4 +110,4 @@ Nu, wanneer een verkoop die is gekoppeld aan een bedrijf in de groep *Potentiël
 [5]: ../../sale/learn/sales-guides.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/admin/admin-workflow-lead-categorization.png
+[img1]: ../../../media/loc/en/lead/lead-categorization.png
