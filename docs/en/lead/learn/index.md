@@ -4,8 +4,8 @@ title: Lead management
 description: Learn how to understand and work with leads in SuperOffice CRM.
 keywords: lead status, lead, potential customer, qualification, mql, sales process
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: concept
 category: sale
 topic: lead
@@ -111,6 +111,7 @@ Lead information is shown in several places in SuperOffice CRM, making it easy t
 * [Set up lead management][3] - in Settings and maintenance
 * [Configure company categories][1]
 * [Manage lead statuses][2]
+* [Automate lead categorization][6]
 
 <!-- Referenced links -->
 [1]: ../admin/add-company-category.md
@@ -118,6 +119,7 @@ Lead information is shown in several places in SuperOffice CRM, making it easy t
 [3]: ../admin/index.md
 [4]: work-with-leads.md
 [5]: ../../marketing/utm/learn/index.md
+[6]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/company-lead-with-contacts-section-tab.png

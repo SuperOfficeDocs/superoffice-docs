@@ -4,8 +4,8 @@ title: Arbeid med leads i SuperOffice
 description: Lær hvordan du viser, oppdaterer og følger opp leads i SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -115,6 +115,7 @@ Dynamiske utvalg av firmaer eller personer kan også åpnes i [Tavlevisning][6] 
 * [Oversikt over leadhåndtering][1]
 * [Bruk dashbord for å følge opp leads][4]
 * [Masseoppdater personinformasjon][9]
+* [Automatiser leadkategorisering][10]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -124,6 +125,7 @@ Dynamiske utvalg av firmaer eller personer kan også åpnes i [Tavlevisning][6] 
 [7]: ../../learn/section-tabs/contacts-tab.md
 [8]: ../../learn/section-tabs/filter.md
 [9]: ../../learn/basics/bulk-update.md
+[10]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/contact-card-open-lead.png

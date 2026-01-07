@@ -4,9 +4,9 @@ title: Set up lead management
 description: Learn how to enable, configure, and extend lead management in SuperOffice CRM.
 keywords: lead management, lead setup, lead status, potential customer, sales process
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
-content_type: overview
+date: 01.13.2026
+version: 11.8
+content_type: concept
 category: sale
 topic: lead
 license: salesessentials
@@ -50,28 +50,40 @@ The **Contact – Lead status** list defines the qualification stages used by yo
 
 For detailed steps, see [Manage lead statuses][2].
 
-## Step 3: (Optional) Extend with Marketing Premium
+## Step 3: (Optional) Configure category automation
+
+Category automation reduces manual work by updating company categories automatically when sale status changes or lead status is updated. For example, automatically move a lead to *Customer* when a sale is marked as sold.
+
+1. Go to **Settings and maintenance** > **Workflow** > **Lead categorization**.
+1. Enable the automation rules you want to use.
+1. For each rule, specify the target category and whether user confirmation is required.
+
+For detailed steps, see [Automate lead categorization][6].
+
+## Step 4: (Optional) Extend with Marketing Premium
 
 If you use Marketing Premium, you can leverage additional tracking and automation features in your lead process:
 
 * **UTM tracking:** Capture the source of new leads from online forms.
-  See [Track form UTM data][5].
+    See [Track form UTM data][5].
 
 * **Lead nurturing flow:** Distribute new leads automatically to associates.
-  See [Distribute new leads][4].
+    See [Distribute new leads][4].
 
 ## Related content
 
 * [Lead management overview][3]
 * [Company category and category group][1]
 * [Manage lead statuses][2]
+* [Automate lead categorization][6]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
 [3]: ../learn/index.md
-[5]: ../../marketing/utm/admin/set-up.md
 [4]: ../../marketing/flows/learn/define-flow-actions.md#distribute
+[5]: ../../marketing/utm/admin/set-up.md
+[6]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/enable-lead-status.png

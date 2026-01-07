@@ -4,8 +4,8 @@ title: Work with leads in SuperOffice
 description: Learn how to view, update, and follow up leads in SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -118,6 +118,7 @@ Dynamic selections of companies or contacts can also be opened in [Board view][6
 * [Lead management overview][1]
 * [Use dashboards to monitor leads][4]
 * [Bulk update contact information][9]
+* [Automate lead categorization][10]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -127,6 +128,7 @@ Dynamic selections of companies or contacts can also be opened in [Board view][6
 [7]: ../../learn/section-tabs/contacts-tab.md
 [8]: ../../learn/section-tabs/filter.md
 [9]: ../../learn/basics/bulk-update.md
+[10]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/contact-card-open-lead.png

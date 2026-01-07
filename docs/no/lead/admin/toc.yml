@@ -3,5 +3,7 @@ items:
   href: index.md
 - name: Firmakategori og kategorigruppe
   href: add-company-category.md
-- name: Administrer lead-statuser
+- name: Administrer leadstatuser
   href: add-lead-status.md
+- name: Automatiser leadkategorisering
+  href: category-automation.md

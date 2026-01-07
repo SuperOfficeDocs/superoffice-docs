@@ -4,8 +4,8 @@ title: Werken met leads in SuperOffice
 description: Leer hoe u leads bekijkt, bijwerkt en opvolgt in SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -115,6 +115,7 @@ Dynamische selecties van bedrijven of personen kunnen ook worden geopend in de [
 * [Overzicht leadbeheer][1]
 * [Dashboards gebruiken om leads te monitoren][4]
 * [Contactgegevens in bulk bijwerken][9]
+* [Lead-categorisatie automatiseren][10]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -124,6 +125,7 @@ Dynamische selecties van bedrijven of personen kunnen ook worden geopend in de [
 [7]: ../../learn/section-tabs/contacts-tab.md
 [8]: ../../learn/section-tabs/filter.md
 [9]: ../../learn/basics/bulk-update.md
+[10]: ../admin/category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/contact-card-open-lead.png

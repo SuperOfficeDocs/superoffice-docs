@@ -5,3 +5,5 @@ items:
   href: add-company-category.md
 - name: Lead-Status verwalten
   href: add-lead-status.md
+- name: Lead-Kategorisierung automatisieren
+  href: category-automation.md

@@ -4,8 +4,8 @@ title: Uppdatera en försäljning
 description: Hur du uppdaterar befintlig försäljningsinformation, ändrar dess fas (inklusive att markera den som pausad, vunnen eller förlorad) eller raderar en försäljning om den inte längre är relevant.
 keywords: uppdatera försäljning, redigera försäljning, radera försäljning, pausad, förlorad, vunnen, försäljning
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 01.13.2026
+version: 11.8
 content_type: howto
 license: salesessentials
 audience: person
@@ -101,11 +101,13 @@ Om försäljningen har statusen **Såld** eller **Förlorad** kan du markera **A
 * [Skapa en försäljning][2]
 * [Försäljningsguider][1]
 * [Förklaring av fälten][3]
+* [Automatisera lead-kategorisering][4]
 
 <!-- Refererade länkar -->
 [1]: sales-guides.md
 [2]: create.md
 [3]: create.md#fields
+[4]: ../../lead/admin/category-automation.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Refererade bilder -->

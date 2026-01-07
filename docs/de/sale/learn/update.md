@@ -4,8 +4,8 @@ title: Einen Verkauf aktualisieren
 description: So aktualisieren Sie bestehende Verkaufsinformationen, ändern die Verkaufsstufe (einschließlich Markierung als pausiert, gewonnen oder verloren) oder löschen einen Verkauf, wenn er nicht mehr relevant ist.
 keywords: Verkauf aktualisieren, Verkauf bearbeiten, Verkauf löschen, pausiert, verloren, gewonnen, Verkauf
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 01.13.2026
+version: 11.8
 content_type: howto
 license: salesessentials
 audience: person
@@ -101,11 +101,13 @@ Wenn der Verkauf den Status **Gewonnen** oder **Verloren** hat, können Sie das 
 * [Einen Verkauf erstellen][2]
 * [Verkaufsleitfäden][1]
 * [Erklärung der Felder][3]
+* [Lead-Kategorisierung automatisieren][4]
 
 <!-- Referenced links -->
 [1]: sales-guides.md
 [2]: create.md
 [3]: create.md#fields
+[4]: ../../lead/admin/category-automation.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

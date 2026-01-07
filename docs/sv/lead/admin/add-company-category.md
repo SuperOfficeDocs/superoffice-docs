@@ -4,8 +4,8 @@ title: Företagskategori och kategorigrupp
 description: Skapa eller uppdatera företagskategorier, tilldela kategorigrupper och aktivera spårning av leadstatus.
 keywords: företagskategori, kategorigrupp, leadstatus, potentiell kund, listor
 author: digitaldiina
-date: 12.11.2025
-version: 11.6
+date: 01.13.2026
+version: 11.8
 content_type: howto
 category: sale
 topic: lead
@@ -98,6 +98,7 @@ Kategorigrupper ger ett sätt att klassificera kategorier efter syfte och förhi
 * [Potentiella kundkategorier][2]
 * [Aktivera lead-status för företagskategorier][1]
 * [Hantera lead-statuser][3]
+* [Automatisera lead-kategorisering][5]
 * [Användargruppfiltrering][4]
 
 <!-- Referenced links -->
@@ -105,6 +106,7 @@ Kategorigrupper ger ett sätt att klassificera kategorier efter syfte och förhi
 [2]: ../learn/index.md
 [3]: add-lead-status.md
 [4]: ../../admin/lists/user-group-filtering.md
+[5]: category-automation.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/add-company-category.png

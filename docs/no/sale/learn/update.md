@@ -4,8 +4,8 @@ title: Oppdater et salg
 description: Hvordan oppdatere eksisterende salgsinformasjon, endre salgsfase (inkludert å merke det som utsatt, vunnet eller tapt), eller slette et salg hvis det ikke lenger er relevant.
 keywords: oppdatere salg, redigere salg, slette salg, satt på vent, utsatt, tapt, vunnet, salg
 author: Bergfrid Dias
-date: 02.03.2025
-version: 10.5.2
+date: 01.13.2026
+version: 11.8
 content_type: howto
 license: salesessentials
 audience: person
@@ -101,11 +101,13 @@ Hvis salget har status **Vunnet** eller **Tapt**, kan du merke av for **Fullfør
 * [Opprett et salg][2]
 * [Salgsguider][1]
 * [Forklaring av feltene][3]
+* [Automatiser leadkategorisering][4]
 
 <!-- Refererte lenker -->
 [1]: sales-guides.md
 [2]: create.md
 [3]: create.md#fields
+[4]: ../../lead/admin/category-automation.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Refererte bilder -->

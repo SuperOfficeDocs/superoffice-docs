@@ -101,11 +101,13 @@ Hvis salget er markeret som **Solgt** eller **Tabt**, kan du markere afkrydsning
 * [Opret et salg][2]
 * [Salgsguider][1]
 * [Forklaring af felterne][3]
+* [Automatiser leadkategorisering][4]
 
 <!-- Referenced links -->
 [1]: sales-guides.md
 [2]: create.md
 [3]: create.md#fields
+[4]: ../../lead/admin/category-automation.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
