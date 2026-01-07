@@ -20,13 +20,12 @@ language: de
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-Die Automatisierung von Firmen-Kategorie-Updates hilft, manuelle Arbeit zu reduzieren und stellt sicher, dass Ihre Daten genau bleiben. Wenn sich der Status eines Verkaufs ändert oder ein Lead-Status aktualisiert wird, kann die zugehörige Firma automatisch mit der richtigen Kategorie aktualisiert werden.
+Die Automatisierung von Firmen-Kategorie-Updates hilft, manuelle Arbeit zu reduzieren und stellt sicher, dass Ihre Daten genau bleiben. Wenn sich der [Status eines Verkaufs][6] ändert oder ein [Lead-Status][7] aktualisiert wird, kann die zugehörige Firma automatisch mit der richtigen Kategorie aktualisiert werden.
 
 Sie können die Automatisierung so konfigurieren, dass sie vollautomatisch läuft oder den Benutzer auffordert, die Änderung zu bestätigen, bevor sie angewendet wird.
 
 ## Voraussetzungen
 
-* Sie müssen über Administratorrechte verfügen, um auf **Einstellungen und Verwaltung** zugreifen zu können.
 * Die aktuelle Kategorie der Firma muss zur Gruppe **Potenzieller Kunde** gehören, um für automatische Updates berechtigt zu sein. Siehe [Firmenkategorie und Kategoriegruppe][1].
 * Für Lead-Status-basierte Automatisierung muss **Lead-Status** für die aktuelle Kategorie der Firma aktiviert sein.
 
@@ -36,10 +35,10 @@ Sie können eine oder alle der folgenden Automatisierungsregeln aktivieren:
 
 | Automatisierungsregel | Beschreibung |
 |---|---|
-| Kategorie aktualisieren, wenn ein Verkauf gewonnen wurde | Aktualisiert automatisch die Firmenkategorie, wenn ein Verkauf als **Gewonnen** markiert wird. |
-| Kategorie aktualisieren, wenn ein Verkauf verloren wurde | Aktualisiert automatisch die Firmenkategorie, wenn ein Verkauf als **Verloren** markiert wird. |
-| Kategorie aktualisieren, wenn ein Verkauf bei der Firma registriert wird | Aktualisiert automatisch die Firmenkategorie, wenn ein neuer Verkauf erstellt und mit der Firma verknüpft wird. |
-| Kategorie aktualisieren, wenn ein Lead-Status gesetzt wird auf | Aktualisiert automatisch die Firmenkategorie, wenn der Lead-Status eines Kontakts auf einen bestimmten Wert geändert wird, z. B. *Qualifiziert* oder *Disqualifiziert*. Erfordert, dass der Lead-Status für die Kategorie aktiviert ist. |
+| Kategorie aktualisieren, wenn ein Verkauf erfolgt ist | Aktualisiert automatisch die Firmenkategorie, wenn ein Verkauf als **Verkauft** markiert wird. |
+| Kategorie aktualisieren, wenn ein Verkauf verloren gegangen ist | Aktualisiert automatisch die Firmenkategorie, wenn ein Verkauf als **Verloren** markiert wird. |
+| Kategorie aktualisieren, wenn ein Verkauf für die Firma registriert wird | Aktualisiert automatisch die Firmenkategorie, wenn ein neuer Verkauf erstellt und mit der Firma verknüpft wird. |
+| Kategorie aktualisieren, wenn der Lead-Status eingestellt wird auf | Aktualisiert automatisch die Firmenkategorie, wenn der Lead-Status eines Kontakts auf einen bestimmten Wert geändert wird, z. B. *Qualifiziert* oder *Disqualifiziert*. Erfordert, dass der Lead-Status für die Kategorie aktiviert ist. |
 
 ### Schritte
 
@@ -47,7 +46,7 @@ Sie können eine oder alle der folgenden Automatisierungsregeln aktivieren:
 
 1. Wählen Sie im Navigator <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow**.
 
-1. Wählen Sie die Registerkarte **Lead-Kategorisierung**. Dieser Bildschirm zeigt Automatisierungsoptionen.
+1. Wählen Sie die Registerkarte **Lead-Kategorisierung**. Dieser Bildschirm zeigt die Automatisierungsoptionen.
 
     ![Admin-Workflow - Registerkarte Lead-Kategorisierung mit Automatisierungs-Schaltern -screenshot][img1]
 
@@ -67,14 +66,14 @@ Sie können eine oder alle der folgenden Automatisierungsregeln aktivieren:
 
 1. Klicken Sie auf **Speichern**, um Ihre Änderungen zu übernehmen, oder auf **Abbrechen**, um sie zu verwerfen.
 
-> [!NOTE]
-> Die Schaltfläche **Speichern** ist aktiviert erst nachdem Sie eine Kategorie im Feld **Kategorie festlegen auf** für alle aktivierten Schalter ausgewählt haben.
+    > [!NOTE]
+    > Die Schaltfläche **Speichern** ist aktiviert erst nachdem Sie eine Kategorie im Feld **Kategorie festlegen auf** für alle aktivierten Schalter ausgewählt haben.
 
 ## Wann Benutzerbestätigung verwendet werden sollte
 
 Entscheiden Sie basierend auf Ihren Geschäftsanforderungen, ob Kategorie-Updates automatisch sein sollten oder eine Benutzerbestätigung erfordern:
 
-* **Vollautomatisch:** Am besten für einfache Lead-zu-Kunde-Workflows, bei denen Kategorieänderungen vorhersehbar und konsistent sind. Zum Beispiel automatisches Verschieben eines Leads in die Kategorie *Kunde*, wenn ein Verkauf als gewonnen markiert wird.
+* **Vollautomatisch:** Am besten geeignet für einfache Lead-zu-Kunde-Workflows, bei denen Kategorieänderungen vorhersehbar und konsistent sind. Zum Beispiel automatisches Verschieben eines Leads in die Kategorie *Kunde*, wenn ein Verkauf als verkauft markiert wird.
 
 * **Benutzerbestätigung:** Empfohlen, wenn Kategorieänderungen Urteilsvermögen erfordern oder mehrere Kategorien zutreffen können. Wenn Sie beispielsweise mit mehreren Kundenstufen (VIP, A, B, C) arbeiten, stellt die Benutzeraufforderung sicher, dass die richtige Kategorie ausgewählt wird.
 
@@ -82,9 +81,9 @@ Wenn **Benutzerbestätigung vor Aktualisierung anfordern** aktiviert ist, sieht 
 
 ## Beispiel: Lead-zu-Kunde-Übergang automatisieren
 
-Ein häufiger Anwendungsfall besteht darin, einen Lead automatisch auf eine Kundenkategorie zu aktualisieren, wenn ein Verkauf gewonnen wird:
+Ein häufiger Anwendungsfall besteht darin, einen Lead automatisch in eine Kundenkategorie zu aktualisieren, wenn ein Verkauf verkauft wird:
 
-1. Aktivieren Sie **Kategorie aktualisieren, wenn ein Verkauf gewonnen wurde**.
+1. Aktivieren Sie **Kategorie aktualisieren, wenn ein Verkauf erfolgt ist**.
 
 1. Setzen Sie **Kategorie festlegen auf** = *Kunde*.
 
@@ -106,8 +105,10 @@ Wenn jetzt ein Verkauf, der mit einer Firma in der Gruppe *Potenzieller Kunde* v
 [1]: add-company-category.md
 [2]: add-lead-status.md
 [3]: ../learn/index.md
-[4]: ../../sale/learn/update.md
+[4]: ../learn/index.md#status
 [5]: ../../sale/learn/sales-guides.md
+[6]: ../../sale/learn/index.md
+[7]: ../../sale/learn/update.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/lead-categorization.png

@@ -52,27 +52,27 @@ For detaljerte trinn, se [Administrer leadstatuser][2].
 
 Kategoriautomatisering reduserer manuelt arbeid ved å oppdatere firmakategorier automatisk når salgsstatus endres eller leadstatus oppdateres. For eksempel kan du automatisk flytte en lead til *Kunde* når et salg er merket som vunnet.
 
-1. Gå til **Innstillinger og vedlikehold** > **Arbeidsflyt** > **Lead-kategorisering**.
+1. Gå til **Innstillinger og vedlikehold** > **Arbeidsflyt** > **Leadkategorisering**.
 1. Aktiver automatiseringsreglene du vil bruke.
 1. For hver regel, spesifiser målkategorien og om brukerbekreftelse er nødvendig.
 
-For detaljerte trinn, se [Automatiser lead-kategorisering][6].
+For detaljerte trinn, se [Automatiser leadkategorisering][6].
 
 ## Trinn 4: (Valgfritt) Utvid med Marketing Premium
 
 Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
 
 * **UTM-sporing:** Fange kilden til nye leads fra nettskjemaer.
-  Se [Spor skjema-UTM-data][5].
+    Se [Spor skjema-UTM-data][5].
 * **Lead-nurturing-flyt:** Fordel nye leads automatisk til brukere.
-  Se [Fordel nye leads][4].
+    Se [Fordel nye leads][4].
 
 ## Relatert innhold
 
 * [Oversikt over leadhåndtering][3]
 * [Firmakategori og kategorigruppe][1]
 * [Administrer leadstatuser][2]
-* [Automatiser lead-kategorisering][6]
+* [Automatiser leadkategorisering][6]
 
 <!-- Referenced links -->
 [1]: add-company-category.md

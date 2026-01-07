@@ -20,13 +20,12 @@ language: en
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-Automating company category updates helps reduce manual work and ensures your data stays accurate. When the status of a sale changes or a lead status is updated, the related company can automatically be updated with the correct category.
+Automating company category updates helps reduce manual work and ensures your data stays accurate. When the [status of a sale][6] changes or a [lead status][4] is updated, the related company can automatically be updated with the correct category.
 
 You can configure the automation to run fully automatically or ask the user to confirm the change before it is applied.
 
 ## Prerequisites
 
-* You must have admin rights to access **Settings and maintenance**.
 * The company's current category must belong to the **Potential customer** group to be eligible for automatic updates. See [Company category and category group][1].
 * For lead status-based automation, **Lead status** must be enabled for the company's current category.
 
@@ -47,7 +46,7 @@ You can enable any or all of the following automation rules:
 
 1. In the Navigator, select <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow**.
 
-1. Select the **Lead categorization** tab. This screen displays automation options.
+1. Select the **Lead categorization** tab. This screen displays the automation options.
 
     ![Admin workflow - Lead categorization tab showing automation toggles -screenshot][img1]
 
@@ -67,8 +66,8 @@ You can enable any or all of the following automation rules:
 
 1. Click **Save** to apply your changes, or click **Cancel** to discard them.
 
-> [!NOTE]
-> The **Save** button is enabled only after you have selected a category in the **Set category to** field for all enabled toggles.
+    > [!NOTE]
+    > The **Save** button is enabled only after you have selected a category in the **Set category to** field for all enabled toggles.
 
 ## When to use user confirmation
 
@@ -99,15 +98,17 @@ Now, whenever a sale linked to a company in the *Potential customer* group is ma
 * [Company category and category group][1]
 * [Lead management overview][3]
 * [Manage lead statuses][2]
-* [Update a sale][4]
+* [Update a sale][7]
 * [Sales guides][5]
 
 <!-- Referenced links -->
 [1]: add-company-category.md
 [2]: add-lead-status.md
 [3]: ../learn/index.md
-[4]: ../../sale/learn/update.md
+[4]: ../learn/index.md#status
 [5]: ../../sale/learn/sales-guides.md
+[6]: ../../sale/learn/index.md
+[7]: ../../sale/learn/update.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/lead/lead-categorization.png

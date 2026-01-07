@@ -115,7 +115,7 @@ Dynamiske utvalg av firmaer eller personer kan også åpnes i [Tavlevisning][6] 
 * [Oversikt over leadhåndtering][1]
 * [Bruk dashbord for å følge opp leads][4]
 * [Masseoppdater personinformasjon][9]
-* [Automatiser lead-kategorisering][10]
+* [Automatiser leadkategorisering][10]
 
 <!-- Referenced links -->
 [1]: index.md

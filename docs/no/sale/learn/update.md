@@ -101,7 +101,7 @@ Hvis salget har status **Vunnet** eller **Tapt**, kan du merke av for **Fullfør
 * [Opprett et salg][2]
 * [Salgsguider][1]
 * [Forklaring av feltene][3]
-* [Automatiser lead-kategorisering][4]
+* [Automatiser leadkategorisering][4]
 
 <!-- Refererte lenker -->
 [1]: sales-guides.md

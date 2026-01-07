@@ -57,7 +57,7 @@ Kategorigrupper gir en måte å klassifisere kategorier etter formål og forhind
 
 1. *(Valgfritt)* Skriv inn en beskrivelse for å klargjøre hvordan kategorien skal brukes.
 
-1. *(Valgfritt)* Velg **Aktiver lead-status for denne kategorien** hvis aktuelt.
+1. *(Valgfritt)* Velg **Aktiver leadstatus for denne kategorien** hvis aktuelt.
 
 1. Klikk **OK** for å lagre den nye kategorien eller **Avbryt** for å forkaste endringene.
 
@@ -67,7 +67,7 @@ Kategorigrupper gir en måte å klassifisere kategorier etter formål og forhind
 
 > [!NOTE]
 > Redigering eller sletting av kategorier som er i bruk kan føre til inkonsistente data.
-> Endring av kategorigruppe eller deaktivering av lead-status kan etterlate firmaer og kontakter med leadinformasjon som ikke lenger kan oppdateres.
+> Endring av kategorigruppe eller deaktivering av leadstatus kan etterlate firmaer og kontakter med leadinformasjon som ikke lenger kan oppdateres.
 > Gå nøye gjennom kategoriens bruk før du gjør endringer.
 
 1. Åpne listen **Firma – Kategori**.
@@ -75,7 +75,7 @@ Kategorigrupper gir en måte å klassifisere kategorier etter formål og forhind
 1. For å redigere:
 
     1. Dobbeltklikk en kategori for å åpne den.
-    1. Oppdater **Navn**, **Kategorigruppe** eller alternativen **Lead-status**.
+    1. Oppdater **Navn**, **Kategorigruppe** eller **Lead-status**.
     1. Klikk **OK** for å lagre.
 
 1. For å slette:
@@ -96,9 +96,9 @@ Kategorigrupper gir en måte å klassifisere kategorier etter formål og forhind
 ## Relatert innhold
 
 * [Potensielle kundekategorier][2]
-* [Aktiver lead-status for firmakategorier][1]
-* [Administrer lead-statuser][3]
-* [Automatiser lead-kategorisering][5]
+* [Aktiver leadstatus for firmakategorier][1]
+* [Administrer leadstatuser][3]
+* [Automatiser leadkategorisering][5]
 * [Brukergruppefiltrering][4]
 
 <!-- Referenced links -->

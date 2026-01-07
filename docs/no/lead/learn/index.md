@@ -111,7 +111,7 @@ Leadinformasjon vises flere steder i SuperOffice CRM, slik at det er enkelt å s
 * [Konfigurer leadhåndtering][3] - i Innstillinger og vedlikehold
 * [Konfigurer firmakategorier][1]
 * [Administrer leadstatuser][2]
-* [Automatiser lead-kategorisering][6]
+* [Automatiser leadkategorisering][6]
 
 <!-- Referenced links -->
 [1]: ../admin/add-company-category.md
