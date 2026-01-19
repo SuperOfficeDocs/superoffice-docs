@@ -14,6 +14,9 @@ redirect_from: /en/api/netserver/config/reporter
 
 Configuration values related to Reporter.
 
+> [!WARNING]
+> Reporter has been removed in SuperOffice version 11.10, therefore this section is obsolete from version 11.10.
+
 ```XML
 <Reporter>
   <add key="ExePath" value="bin\\Reporter" />
