@@ -39,7 +39,7 @@ Once you’ve outlined your privacy policy, you can configure your SuperOffice C
 In this video, we will show you how to set up privacy settings for GDPR in SuperOffice CRM. You will need to have the administrator’s rights to do this with the consent management features in SuperOffice CRM.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/1e0ZIUwX3IY]
+> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY]
 
 ## 8 GDPR privacy rights
 
