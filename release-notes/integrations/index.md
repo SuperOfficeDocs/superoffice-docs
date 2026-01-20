@@ -29,8 +29,8 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * [SharePoint Documents][25] 3.5 (12.02.2025)
 * [SuperOffice Copilot][27] 1.9 (11.09.2025)
 * [SuperOffice for Gmail][24] 2.10 (11.03.2024)
-* [SuperOffice for Outlook][23] 6.1.5 (09.12.2025)
-* [Video Meetings][22] 2.9 (21.08.2025)
+* [SuperOffice for Outlook][23] 6.1.7 (09.12.2025)?
+* [Video Meetings][22] 2.10 (21.08.2025)?
 * [WebTools for Mac][21] 13.2 (30.11.2025)
 * [WebTools for Windows][21] 13.1 (30.11.2025)
 * [Zapier][20] 3.5.4 (10.12.2025)
