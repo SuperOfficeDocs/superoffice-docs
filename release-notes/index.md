@@ -42,19 +42,14 @@ Different integration components are released on separate schedules. See the [in
 
 ## Developer Portal
 
+* 2.9 (17.12.2025): Refactored log section, Export list of tenants
 * 2.8 (17.11.2025): Refreshed and modernized user interface
-
 * 2.7 (04.11.2025): Improved categorization
-
 * 2.6 (30.09.2025): Dark mode
-
 * 2.5 (02.09.2025):
   * Role assignment, Simplified management, Improved security
-
 * 2.4 (20.08.2025): Bug fixing release
-
 * 2.3 (11.06.2025): Bug fixing release
-
 * 2.2 (07.05.2025):
   * [Publish Status widget][18] shows all pending requests to publish app configurations, partner profiles, and App Store information.
 

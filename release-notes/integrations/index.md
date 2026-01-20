@@ -29,8 +29,8 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * [SharePoint Documents][25] 3.5 (12.02.2025)
 * [SuperOffice Copilot][27] 1.9 (11.09.2025)
 * [SuperOffice for Gmail][24] 2.10 (11.03.2024)
-* [SuperOffice for Outlook][23] 6.1.7 (09.12.2025)?
-* [Video Meetings][22] 2.10 (21.08.2025)?
+* [SuperOffice for Outlook][23] 6.1.7 (31.01.2026)
+* [Video Meetings][22] 2.10 (31.01.2026)
 * [WebTools for Mac][21] 13.2 (30.11.2025)
 * [WebTools for Windows][21] 13.1 (30.11.2025)
 * [Zapier][20] 3.5.4 (10.12.2025)
@@ -39,9 +39,10 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 See all the [new or updated apps][2]
 
+* [Xledger by Syncify][40] from Syncify AB (05.01.2026)
 * [Fortnox by Syncify][36] from Syncify AB (18.12.2025)
 * [Business NXT by Syncify][37] from Syncify AB (18.12.2025)
-* [Microsoft Business Central][38] from Syncify AB (18.12.2025)
+* [Microsoft Business Central by Syncify][38] from Syncify AB (18.12.2025)
 * [SalesScreen Integration][34] from SalesScreen (12.12.2025)
 * [Oneflow for SuperOffice][33] from Oneflow AB (09.12.2025)
 * [Activity folders for SuperOffice][39] from SuperOffice AS (01.12.2025)
@@ -104,5 +105,6 @@ See all the [new or updated apps][2]
 [37]: https://appstore.superoffice.com/syncify-ab/business-nxt-by-syncify?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
 [38]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
 [39]: https://appstore.superoffice.com/superoffice-as/activity-folders-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
+[40]: https://appstore.superoffice.com/syncify-ab/xledger-by-syncify
 
 <!-- Referenced images -->
