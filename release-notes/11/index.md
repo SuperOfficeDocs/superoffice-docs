@@ -25,7 +25,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ### 11.9 (27.01.2026)
 
-* [Marketing - Add new google fonts to Form fonts][25] in Marketing
+* [Form - Use Google fonts in your forms][25] in Marketing
 * [Marketing - Add new google fonts to Form fonts][26] in Settings and maintenance
 
 ### 11.8 (13.01.2026)
