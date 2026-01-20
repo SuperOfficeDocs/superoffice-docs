@@ -20,6 +20,8 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [All day events in Diary (11.1.7)][43]
+* [Members on Project and Sales - Show person type icon (11.1.7)][43]
 * [New company - With company completion (11.1.5)][42]
 * [Company and Contact - Lead status (11.1.5)][42]
 * [Follow-up - Complete follow-up by long press (11.1.5)][42]
@@ -100,5 +102,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [40]: 11.1.2-update.md
 [41]: 11.1.3-update.md
 [42]: 11.1.5-update.md
+[43]: 11.1.7-update.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
