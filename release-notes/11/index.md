@@ -23,6 +23,11 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
+### 11.9 (27.01.2026)
+
+* [Marketing - Add new google fonts to Form fonts][25] in Marketing
+* [Marketing - Add new google fonts to Form fonts][26] in Settings and maintenance
+
 ### 11.8 (13.01.2026)
 
 * [Time zones - Agents with multiple time zones][23] in Service
@@ -133,6 +138,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [22]: service/11.7-update.md
 [23]: service/11.8-update.md
 [24]: admin/11.8-update.md
+[25]: marketing/11.9-update.md
+[26]: admin/11.9-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
