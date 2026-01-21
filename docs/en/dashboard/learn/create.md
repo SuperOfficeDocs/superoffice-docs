@@ -45,10 +45,6 @@ Watch this video or follow the steps below to learn how to create dashboards in 
 1. Click **Save**.
 
     The dashboard opens with no tiles. The **Edit dashboard tiles** sidebar is displayed so you can [add tiles][2] right away.
-
-> [!NOTE]
-> The person who creates the dashboard is automatically set as the **owner**. Ownership cannot be changed later.
-
 ## <a id="pin"></a>Share or pin a dashboard
 
 If you have the **Dashboard administrator** (or general administrator) functional right, you will also see these fields when creating or editing a dashboard:
