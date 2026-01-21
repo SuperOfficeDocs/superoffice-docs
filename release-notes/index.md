@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 01.13.2026
+date: 01.27.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -30,7 +30,7 @@ Older versions are listed in the table of contents.
 
 ### Onsite
 
-The latest onsite release is **10.5**. See the [version history][19] for details.
+The latest onsite release is **11.6** - 22.01.2026. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
