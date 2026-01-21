@@ -2,9 +2,9 @@
 uid: tested_client_os
 title: Tested client OS
 description: Tested client OS
-keywords: client operating system, Windows compatibility, MacOS compatibility, Sequoia, Sonoma, Windows 11
+keywords: client operating system, Windows compatibility, MacOS compatibility, Windows 11
 author: Martin Pavlas
-date: 10.07.2025
+date: 01.20.2026
 content_type: reference
 deployment: onsite
 ---
@@ -40,9 +40,10 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 
 | OS                 | 8.0, SR1, SR2 | 8.0 SR3 - 8.1 | 8.2 - 8.3 | 8.4 | 8.5 | 9 | 10 | 11 |
 |--------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| MacOS Tahoe        | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Sequoia      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
 | MacOS Sonoma       | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
-| MacOS Ventura      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
+| MacOS Ventura      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img3] |
 | MacOS Monterey     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img3] |
 | MacOS Big Sur      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img3] | ![i][img3] |
 | MacOS Catalina     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
