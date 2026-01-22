@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | saleStakeholderId | int32 | **Required** The identity of the SaleStakeholder |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleStakeholder?saleStakeholderId=739
+POST /api/v1/Agents/Sale/DeleteSaleStakeholder?saleStakeholderId=260
 ```
 
 

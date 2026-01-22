@@ -1380,9 +1380,11 @@ content_type: reference
           <xs:element minOccurs="0" name="InvitationStatus" type="q152:InvitationStatus" xmlns:q152="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExternallyOwnedType" type="q153:ExternallyOwnedType" xmlns:q153="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="ExternallyOwnedStatus" type="q154:ExternallyOwnedStatus" xmlns:q154="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ParticipantInfo" nillable="true" type="q153:ParticipantInfo" xmlns:q153="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ParticipantInfo" nillable="true" type="q155:ParticipantInfo" xmlns:q155="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="InvitationStatus">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -1439,7 +1441,27 @@ content_type: reference
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="InvitationStatus" nillable="true" type="q154:InvitationStatus" xmlns:q154="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="InvitationStatus" nillable="true" type="q156:InvitationStatus" xmlns:q156="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:simpleType name="ExternallyOwnedType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Organizer" />
+          <xs:enumeration value="Required" />
+          <xs:enumeration value="Optional" />
+          <xs:enumeration value="Resource" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="ExternallyOwnedType" nillable="true" type="q157:ExternallyOwnedType" xmlns:q157="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:simpleType name="ExternallyOwnedStatus">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="TentativelyAccepted" />
+          <xs:enumeration value="Accepted" />
+          <xs:enumeration value="Declined" />
+          <xs:enumeration value="NotResponded" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="ExternallyOwnedStatus" nillable="true" type="q158:ExternallyOwnedStatus" xmlns:q158="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="AssignmentStatus">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -1467,7 +1489,7 @@ content_type: reference
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="AssignmentStatus" nillable="true" type="q155:AssignmentStatus" xmlns:q155="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AssignmentStatus" nillable="true" type="q159:AssignmentStatus" xmlns:q159="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="BookingType">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -1476,15 +1498,15 @@ content_type: reference
           <xs:enumeration value="Participant" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="BookingType" nillable="true" type="q156:BookingType" xmlns:q156="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="BookingType" nillable="true" type="q160:BookingType" xmlns:q160="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TaskListItem">
         <xs:complexContent mixed="false">
-          <xs:extension base="q157:Carrier" xmlns:q157="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q161:Carrier" xmlns:q161="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="TaskListItemId" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Direction" type="q157:TaskDirection" />
-              <xs:element minOccurs="0" name="Type" type="q157:TaskType" />
+              <xs:element minOccurs="0" name="Direction" type="q161:TaskDirection" />
+              <xs:element minOccurs="0" name="Type" type="q161:TaskType" />
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="IntentId" type="xs:int" />
@@ -1492,13 +1514,13 @@ content_type: reference
               <xs:element minOccurs="0" name="IsDefaultAlldayEvent" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefaultFree" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefaultPublished" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ColorIndex" type="q157:ColorIndex" />
-              <xs:element minOccurs="0" name="DefaultVideomeetingStatus" type="q157:VideoMeetingStatus" />
+              <xs:element minOccurs="0" name="ColorIndex" type="q161:ColorIndex" />
+              <xs:element minOccurs="0" name="DefaultVideomeetingStatus" type="q161:VideoMeetingStatus" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TaskListItem" nillable="true" type="q158:TaskListItem" xmlns:q158="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TaskListItem" nillable="true" type="q162:TaskListItem" xmlns:q162="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TaskDirection">
         <xs:annotation>
           <xs:appinfo>
@@ -1512,7 +1534,7 @@ content_type: reference
           <xs:enumeration value="SaintAll" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TaskDirection" nillable="true" type="q159:TaskDirection" xmlns:q159="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TaskDirection" nillable="true" type="q163:TaskDirection" xmlns:q163="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TaskType">
         <xs:annotation>
           <xs:appinfo>
@@ -1533,7 +1555,7 @@ content_type: reference
           <xs:enumeration value="SaintAll" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TaskType" nillable="true" type="q160:TaskType" xmlns:q160="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TaskType" nillable="true" type="q164:TaskType" xmlns:q164="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ColorIndex">
         <xs:restriction base="xs:string">
           <xs:enumeration value="LightBlue" />
@@ -1563,7 +1585,7 @@ content_type: reference
           <xs:enumeration value="RedAlt3" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ColorIndex" nillable="true" type="q161:ColorIndex" xmlns:q161="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ColorIndex" nillable="true" type="q165:ColorIndex" xmlns:q165="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="VideoMeetingStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -1576,7 +1598,7 @@ content_type: reference
           <xs:enumeration value="VideoMeetingOff" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="VideoMeetingStatus" nillable="true" type="q162:VideoMeetingStatus" xmlns:q162="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="VideoMeetingStatus" nillable="true" type="q166:VideoMeetingStatus" xmlns:q166="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneData">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZLocationID" type="xs:int" />
@@ -1584,11 +1606,11 @@ content_type: reference
           <xs:element minOccurs="0" name="TZLocationCode" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="TZLocationCities" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="IsoNumber" type="xs:int" />
-          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q163:TimeZoneRuleDictionary" xmlns:q163="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q164:TimeZoneRuleDictionary" xmlns:q164="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q167:TimeZoneRuleDictionary" xmlns:q167="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q168:TimeZoneRuleDictionary" xmlns:q168="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneData" nillable="true" type="q165:TimeZoneData" xmlns:q165="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneData" nillable="true" type="q169:TimeZoneData" xmlns:q169="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRuleDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -1600,13 +1622,13 @@ content_type: reference
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Key" type="xs:dateTime" />
-                <xs:element name="Value" nillable="true" type="q166:TimeZoneRule" xmlns:q166="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+                <xs:element name="Value" nillable="true" type="q170:TimeZoneRule" xmlns:q170="http://www.superoffice.net/ws/crm/NetServer/Services88" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q167:TimeZoneRuleDictionary" xmlns:q167="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q171:TimeZoneRuleDictionary" xmlns:q171="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRule">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
@@ -1618,10 +1640,10 @@ content_type: reference
           <xs:element minOccurs="0" name="EndMonth" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRule" nillable="true" type="q168:TimeZoneRule" xmlns:q168="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRule" nillable="true" type="q172:TimeZoneRule" xmlns:q172="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Sale">
         <xs:complexContent mixed="false">
-          <xs:extension base="q169:Carrier" xmlns:q169="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q173:Carrier" xmlns:q173="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
@@ -1633,7 +1655,7 @@ content_type: reference
               <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Status" type="q169:SaleStatus" />
+              <xs:element minOccurs="0" name="Status" type="q173:SaleStatus" />
               <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
@@ -1644,7 +1666,7 @@ content_type: reference
               <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
               <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="q169:ActivityStatus" />
+              <xs:element minOccurs="0" name="Completed" type="q173:ActivityStatus" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
@@ -1652,7 +1674,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Sale" nillable="true" type="q170:Sale" xmlns:q170="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Sale" nillable="true" type="q174:Sale" xmlns:q174="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="SaleStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -1674,7 +1696,7 @@ content_type: reference
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="SaleStatus" nillable="true" type="q171:SaleStatus" xmlns:q171="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleStatus" nillable="true" type="q175:SaleStatus" xmlns:q175="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="AppointmentCautionWarning">
         <xs:annotation>
           <xs:appinfo>
@@ -1690,7 +1712,7 @@ content_type: reference
           <xs:enumeration value="ExternalParticipantsDateTimeMismatch" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="AppointmentCautionWarning" nillable="true" type="q172:AppointmentCautionWarning" xmlns:q172="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AppointmentCautionWarning" nillable="true" type="q176:AppointmentCautionWarning" xmlns:q176="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="AppointmentExternalOwner">
         <xs:annotation>
           <xs:appinfo>
@@ -1704,7 +1726,7 @@ content_type: reference
           <xs:enumeration value="Google" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="AppointmentExternalOwner" nillable="true" type="q173:AppointmentExternalOwner" xmlns:q173="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AppointmentExternalOwner" nillable="true" type="q177:AppointmentExternalOwner" xmlns:q177="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GenerateFollowUpsResponse">
         <xs:complexType>
           <xs:sequence />
@@ -1746,19 +1768,19 @@ content_type: reference
       <xs:element name="SetDuplicateRulesStatus">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Rules" nillable="true" type="q174:ArrayOfDuplicateRule" xmlns:q174="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Rules" nillable="true" type="q178:ArrayOfDuplicateRule" xmlns:q178="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfDuplicateRule">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="DuplicateRule" nillable="true" type="q175:DuplicateRule" xmlns:q175="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="DuplicateRule" nillable="true" type="q179:DuplicateRule" xmlns:q179="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfDuplicateRule" nillable="true" type="q176:ArrayOfDuplicateRule" xmlns:q176="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfDuplicateRule" nillable="true" type="q180:ArrayOfDuplicateRule" xmlns:q180="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="DuplicateRule">
         <xs:complexContent mixed="false">
-          <xs:extension base="q177:Carrier" xmlns:q177="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q181:Carrier" xmlns:q181="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
@@ -1768,7 +1790,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="DuplicateRule" nillable="true" type="q178:DuplicateRule" xmlns:q178="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DuplicateRule" nillable="true" type="q182:DuplicateRule" xmlns:q182="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SetDuplicateRulesStatusResponse">
         <xs:complexType>
           <xs:sequence />
@@ -1784,19 +1806,19 @@ content_type: reference
       <xs:element name="GetDuplicatesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q179:ArrayOfDuplicateEntry" xmlns:q179="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q183:ArrayOfDuplicateEntry" xmlns:q183="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfDuplicateEntry">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="DuplicateEntry" nillable="true" type="q180:DuplicateEntry" xmlns:q180="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="DuplicateEntry" nillable="true" type="q184:DuplicateEntry" xmlns:q184="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfDuplicateEntry" nillable="true" type="q181:ArrayOfDuplicateEntry" xmlns:q181="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfDuplicateEntry" nillable="true" type="q185:ArrayOfDuplicateEntry" xmlns:q185="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="DuplicateEntry">
         <xs:complexContent mixed="false">
-          <xs:extension base="q182:Carrier" xmlns:q182="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q186:Carrier" xmlns:q186="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="RuleName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SoPrimaryKey" type="xs:int" />
@@ -1807,7 +1829,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="DuplicateEntry" nillable="true" type="q183:DuplicateEntry" xmlns:q183="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DuplicateEntry" nillable="true" type="q187:DuplicateEntry" xmlns:q187="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetDuplicateRules">
         <xs:complexType>
           <xs:sequence />
@@ -1816,14 +1838,14 @@ content_type: reference
       <xs:element name="GetDuplicateRulesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q184:ArrayOfDuplicateRule" xmlns:q184="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q188:ArrayOfDuplicateRule" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateNewEntry">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Duplicate" nillable="true" type="q185:DuplicateEntry" xmlns:q185="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Duplicate" nillable="true" type="q189:DuplicateEntry" xmlns:q189="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1850,7 +1872,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q186:ArrayOfint" xmlns:q186="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q190:ArrayOfint" xmlns:q190="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1865,7 +1887,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="SelectionMemberIds" nillable="true" type="q187:ArrayOfint" xmlns:q187="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SelectionMemberIds" nillable="true" type="q191:ArrayOfint" xmlns:q191="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1878,7 +1900,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q188:ArrayOfint" xmlns:q188="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q192:ArrayOfint" xmlns:q192="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1933,7 +1955,7 @@ content_type: reference
       <xs:element name="CreateTemporarySelectionFromIds">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q189:ArrayOfint" xmlns:q189="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q193:ArrayOfint" xmlns:q193="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="TargetTableNumber" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
@@ -1941,7 +1963,7 @@ content_type: reference
       <xs:element name="CreateTemporarySelectionFromIdsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q190:SelectionEntity" xmlns:q190="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q194:SelectionEntity" xmlns:q194="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1950,7 +1972,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
             <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="TargetSelectionType" type="q191:SelectionType" xmlns:q191="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="TargetSelectionType" type="q195:SelectionType" xmlns:q195="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="CopyMembers" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1958,7 +1980,7 @@ content_type: reference
       <xs:element name="CreateSelectionFromSelectionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q192:SelectionEntity" xmlns:q192="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q196:SelectionEntity" xmlns:q196="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1973,7 +1995,7 @@ content_type: reference
       <xs:element name="CreateContactSelectionFromShadowSelectionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q193:SelectionEntity" xmlns:q193="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q197:SelectionEntity" xmlns:q197="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1999,7 +2021,7 @@ content_type: reference
       <xs:element name="GetParentCombinedSelectionsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q194:ArrayOfint" xmlns:q194="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q198:ArrayOfint" xmlns:q198="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2014,30 +2036,30 @@ content_type: reference
       <xs:element name="GetSelectionMembersArchiveRowsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q195:ArrayOfArchiveListItem" xmlns:q195="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q199:ArrayOfArchiveListItem" xmlns:q199="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfArchiveListItem">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveListItem" nillable="true" type="q196:ArchiveListItem" xmlns:q196="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveListItem" nillable="true" type="q200:ArchiveListItem" xmlns:q200="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfArchiveListItem" nillable="true" type="q197:ArrayOfArchiveListItem" xmlns:q197="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfArchiveListItem" nillable="true" type="q201:ArrayOfArchiveListItem" xmlns:q201="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArchiveListItem">
         <xs:complexContent mixed="false">
-          <xs:extension base="q198:Carrier" xmlns:q198="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q202:Carrier" xmlns:q202="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PrimaryKey" type="xs:int" />
-              <xs:element minOccurs="0" name="ColumnData" nillable="true" type="q198:ColumnDataDictionary" />
+              <xs:element minOccurs="0" name="ColumnData" nillable="true" type="q202:ColumnDataDictionary" />
               <xs:element minOccurs="0" name="LinkHint" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="StyleHint" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ArchiveListItem" nillable="true" type="q199:ArchiveListItem" xmlns:q199="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArchiveListItem" nillable="true" type="q203:ArchiveListItem" xmlns:q203="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ColumnDataDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -2049,13 +2071,13 @@ content_type: reference
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="q200:ArchiveColumnData" xmlns:q200="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+                <xs:element name="Value" nillable="true" type="q204:ArchiveColumnData" xmlns:q204="http://www.superoffice.net/ws/crm/NetServer/Services88" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ColumnDataDictionary" nillable="true" type="q201:ColumnDataDictionary" xmlns:q201="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ColumnDataDictionary" nillable="true" type="q205:ColumnDataDictionary" xmlns:q205="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArchiveColumnData">
         <xs:sequence>
           <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
@@ -2063,7 +2085,7 @@ content_type: reference
           <xs:element minOccurs="0" name="LinkHint" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArchiveColumnData" nillable="true" type="q202:ArchiveColumnData" xmlns:q202="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArchiveColumnData" nillable="true" type="q206:ArchiveColumnData" xmlns:q206="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetSelectionShadowMembersArchiveRows">
         <xs:complexType>
           <xs:sequence>
@@ -2075,7 +2097,7 @@ content_type: reference
       <xs:element name="GetSelectionShadowMembersArchiveRowsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q203:ArrayOfArchiveListItem" xmlns:q203="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q207:ArrayOfArchiveListItem" xmlns:q207="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2089,31 +2111,31 @@ content_type: reference
       <xs:element name="GetDynamicSelectionCriteriaResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q204:ArrayOfArchiveRestrictionInfo" xmlns:q204="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q208:ArrayOfArchiveRestrictionInfo" xmlns:q208="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfArchiveRestrictionInfo">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="q205:ArchiveRestrictionInfo" xmlns:q205="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="q209:ArchiveRestrictionInfo" xmlns:q209="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="q206:ArrayOfArchiveRestrictionInfo" xmlns:q206="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="q210:ArrayOfArchiveRestrictionInfo" xmlns:q210="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArchiveRestrictionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Values" nillable="true" type="q207:ArrayOfstring" xmlns:q207="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q208:ArrayOfstring" xmlns:q208="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="q209:ArchiveColumnInfo" xmlns:q209="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q211:ArrayOfstring" xmlns:q211="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q212:ArrayOfstring" xmlns:q212="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="q213:ArchiveColumnInfo" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
-          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="q210:ArrayOfArchiveRestrictionInfo" xmlns:q210="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="q214:ArrayOfArchiveRestrictionInfo" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="InterParenthesis" type="xs:int" />
-          <xs:element minOccurs="0" name="InterOperator" type="q211:InterRestrictionOperator" xmlns:q211="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="InterOperator" type="q215:InterRestrictionOperator" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="UniqueHash" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="q212:ArchiveRestrictionInfo" xmlns:q212="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="q216:ArchiveRestrictionInfo" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArchiveColumnInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
@@ -2131,7 +2153,7 @@ content_type: reference
           <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArchiveColumnInfo" nillable="true" type="q213:ArchiveColumnInfo" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArchiveColumnInfo" nillable="true" type="q217:ArchiveColumnInfo" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="InterRestrictionOperator">
         <xs:restriction base="xs:string">
           <xs:enumeration value="None" />
@@ -2139,19 +2161,19 @@ content_type: reference
           <xs:enumeration value="Or" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="InterRestrictionOperator" nillable="true" type="q214:InterRestrictionOperator" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="InterRestrictionOperator" nillable="true" type="q218:InterRestrictionOperator" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SetDynamicSelectionCriteria">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Criteria" nillable="true" type="q215:ArrayOfArchiveRestrictionInfo" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Criteria" nillable="true" type="q219:ArrayOfArchiveRestrictionInfo" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SetDynamicSelectionCriteriaResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q216:ArrayOfArchiveRestrictionInfo" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q220:ArrayOfArchiveRestrictionInfo" xmlns:q220="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2166,7 +2188,7 @@ content_type: reference
       <xs:element name="SetDynamicSelectionCriteria2Response">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q217:ArrayOfArchiveRestrictionInfo" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q221:ArrayOfArchiveRestrictionInfo" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2174,7 +2196,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Criteria" nillable="true" type="q218:ArrayOfArchiveRestrictionInfo" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Criteria" nillable="true" type="q222:ArrayOfArchiveRestrictionInfo" xmlns:q222="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="Filter" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -2182,7 +2204,7 @@ content_type: reference
       <xs:element name="SetDynamicSelectionCriteria3Response">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q219:ArrayOfArchiveRestrictionInfo" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q223:ArrayOfArchiveRestrictionInfo" xmlns:q223="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2208,37 +2230,37 @@ content_type: reference
       <xs:element name="GetDynamicSelectionCriteriaGroupsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q220:ArrayOfArchiveRestrictionGroup" xmlns:q220="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q224:ArrayOfArchiveRestrictionGroup" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfArchiveRestrictionGroup">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionGroup" nillable="true" type="q221:ArchiveRestrictionGroup" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionGroup" nillable="true" type="q225:ArchiveRestrictionGroup" xmlns:q225="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfArchiveRestrictionGroup" nillable="true" type="q222:ArrayOfArchiveRestrictionGroup" xmlns:q222="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfArchiveRestrictionGroup" nillable="true" type="q226:ArrayOfArchiveRestrictionGroup" xmlns:q226="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArchiveRestrictionGroup">
         <xs:sequence>
           <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Rank" type="xs:short" />
-          <xs:element minOccurs="0" name="Restrictions" nillable="true" type="q223:ArrayOfArchiveRestrictionInfo" xmlns:q223="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Restrictions" nillable="true" type="q227:ArrayOfArchiveRestrictionInfo" xmlns:q227="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArchiveRestrictionGroup" nillable="true" type="q224:ArchiveRestrictionGroup" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArchiveRestrictionGroup" nillable="true" type="q228:ArchiveRestrictionGroup" xmlns:q228="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SetDynamicSelectionCriteriaGroups">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Criteria" nillable="true" type="q225:ArrayOfArchiveRestrictionGroup" xmlns:q225="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Criteria" nillable="true" type="q229:ArrayOfArchiveRestrictionGroup" xmlns:q229="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SetDynamicSelectionCriteriaGroupsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q226:ArrayOfArchiveRestrictionGroup" xmlns:q226="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q230:ArrayOfArchiveRestrictionGroup" xmlns:q230="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2265,13 +2287,13 @@ content_type: reference
       <xs:element name="GetSelectionForFindResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q227:SelectionForFind" xmlns:q227="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q231:SelectionForFind" xmlns:q231="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="SelectionForFind">
         <xs:complexContent mixed="false">
-          <xs:extension base="q228:Carrier" xmlns:q228="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q232:Carrier" xmlns:q232="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
@@ -2283,27 +2305,27 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SelectionForFind" nillable="true" type="q229:SelectionForFind" xmlns:q229="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SelectionForFind" nillable="true" type="q233:SelectionForFind" xmlns:q233="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetSelectionSummaries">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SelectionIds" nillable="true" type="q230:ArrayOfint" xmlns:q230="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="SelectionIds" nillable="true" type="q234:ArrayOfint" xmlns:q234="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetSelectionSummariesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q231:ArrayOfSelectionSummaryItem" xmlns:q231="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q235:ArrayOfSelectionSummaryItem" xmlns:q235="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfSelectionSummaryItem">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectionSummaryItem" nillable="true" type="q232:SelectionSummaryItem" xmlns:q232="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectionSummaryItem" nillable="true" type="q236:SelectionSummaryItem" xmlns:q236="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfSelectionSummaryItem" nillable="true" type="q233:ArrayOfSelectionSummaryItem" xmlns:q233="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfSelectionSummaryItem" nillable="true" type="q237:ArrayOfSelectionSummaryItem" xmlns:q237="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SelectionSummaryItem">
         <xs:sequence>
           <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
@@ -2313,36 +2335,36 @@ content_type: reference
           <xs:element minOccurs="0" name="ProviderName" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SelectionSummaryItem" nillable="true" type="q234:SelectionSummaryItem" xmlns:q234="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SelectionSummaryItem" nillable="true" type="q238:SelectionSummaryItem" xmlns:q238="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="UpdateTypicalSearch">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Searches" nillable="true" type="q235:TypicalSearches" xmlns:q235="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Searches" nillable="true" type="q239:TypicalSearches" xmlns:q239="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="TypicalSearches">
         <xs:complexContent mixed="false">
-          <xs:extension base="q236:Carrier" xmlns:q236="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q240:Carrier" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="MasterVersion" type="xs:int" />
               <xs:element minOccurs="0" name="DeleteLeftovers" type="xs:boolean" />
-              <xs:element minOccurs="0" name="Searches" nillable="true" type="q236:ArrayOfTypicalSearch" />
+              <xs:element minOccurs="0" name="Searches" nillable="true" type="q240:ArrayOfTypicalSearch" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TypicalSearches" nillable="true" type="q237:TypicalSearches" xmlns:q237="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TypicalSearches" nillable="true" type="q241:TypicalSearches" xmlns:q241="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfTypicalSearch">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="TypicalSearch" nillable="true" type="q238:TypicalSearch" xmlns:q238="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TypicalSearch" nillable="true" type="q242:TypicalSearch" xmlns:q242="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfTypicalSearch" nillable="true" type="q239:ArrayOfTypicalSearch" xmlns:q239="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfTypicalSearch" nillable="true" type="q243:ArrayOfTypicalSearch" xmlns:q243="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TypicalSearch">
         <xs:complexContent mixed="false">
-          <xs:extension base="q240:Carrier" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q244:Carrier" xmlns:q244="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="TypicalSearchId" type="xs:int" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
@@ -2352,12 +2374,12 @@ content_type: reference
               <xs:element minOccurs="0" name="IncludePerson" type="xs:short" />
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="VersionNumber" type="xs:int" />
-              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="q240:ArrayOfArchiveRestrictionGroup" />
+              <xs:element minOccurs="0" name="RestrictionGroups" nillable="true" type="q244:ArrayOfArchiveRestrictionGroup" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TypicalSearch" nillable="true" type="q241:TypicalSearch" xmlns:q241="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TypicalSearch" nillable="true" type="q245:TypicalSearch" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="UpdateTypicalSearchResponse">
         <xs:complexType>
           <xs:sequence>

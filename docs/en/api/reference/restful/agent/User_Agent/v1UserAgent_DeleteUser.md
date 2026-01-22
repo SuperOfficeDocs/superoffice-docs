@@ -31,7 +31,7 @@ NsApiSlow threshold: 2000 ms.
 | userId | int32 | **Required** The identity of the User |
 
 ```http
-POST /api/v1/Agents/User/DeleteUser?userId=247
+POST /api/v1/Agents/User/DeleteUser?userId=471
 ```
 
 

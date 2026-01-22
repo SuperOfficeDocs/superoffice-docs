@@ -34,7 +34,6 @@ Templates for automatic and manual replies to emails/sms organized hierachically
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |name |String(255) |Index |
 |folder\_id |FK |Index |
 |owned\_by |FK |Index |

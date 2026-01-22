@@ -30,7 +30,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 

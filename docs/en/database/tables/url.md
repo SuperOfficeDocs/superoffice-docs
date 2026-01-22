@@ -41,7 +41,6 @@ Unified Resource Locators, URL to contacts, persons or projects.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|url\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |project\_id |FK |Index |

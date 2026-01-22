@@ -38,7 +38,6 @@ Traces of executed scripts
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|script\_trace\_run\_id |PK |Clustered, Unique |
 
 ## Relationships
 

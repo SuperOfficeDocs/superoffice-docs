@@ -38,7 +38,6 @@ This table contains documents.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |folder\_id |FK |Index |
 |attachment\_id |FK |Index |
 |title |String(255) |Index |

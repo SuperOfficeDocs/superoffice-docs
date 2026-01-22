@@ -12,6 +12,8 @@ content_type: reference
 
 
 
+* [POST Agents/Diagnostics/GetAnalyticsData](v1DiagnosticsAgent_GetAnalyticsData.md)
+
 * [POST Agents/Diagnostics/FlushCaches](v1DiagnosticsAgent_FlushCaches.md)
 
 * [POST Agents/Diagnostics/GetCacheNames](v1DiagnosticsAgent_GetCacheNames.md)
@@ -29,6 +31,10 @@ content_type: reference
 * [POST Agents/Diagnostics/LogViewState](v1DiagnosticsAgent_LogViewState.md)
 
 * [POST Agents/Diagnostics/ChangeLogSettings](v1DiagnosticsAgent_ChangeLogSettings.md)
+
+* [POST Agents/Diagnostics/TrackEvent](v1DiagnosticsAgent_TrackEvent.md)
+
+* [POST Agents/Diagnostics/TrackUser](v1DiagnosticsAgent_TrackUser.md)
 
 * [POST Agents/Diagnostics/CollectDataAdditions](v1DiagnosticsAgent_CollectDataAdditions.md)
 

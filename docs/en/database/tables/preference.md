@@ -34,7 +34,6 @@ Not quite obsolete preference table; historical info mostly. From 6.1 this table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|preference\_id |PK |Clustered, Unique |
 |type, preference\_id |ShortId, PK |Unique |
 
 ## Relationships

@@ -51,7 +51,6 @@ Employees, resources and other users - except for External persons
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|associate\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 |person\_id |FK |Index |
 |type |Enum |Index |
@@ -80,6 +79,7 @@ Employees, resources and other users - except for External persons
 |[AudienceLayoutLink](audiencelayoutlink.md)  |Link between an audience layout and some target grouping table - might be Role or Category |
 |[AudienceVisibility](audiencevisibility.md)  |How projects (or whatever) should be made visible in audience |
 |[AutomatedCategoryUpdate](automatedcategoryupdate.md)  |Info on how to autoupdate category when changing sale or leadstatus on person |
+|[available\_fonts](available-fonts.md)  |This table contains all fonts selected to be available for external usage |
 |[BaseTZLocation](basetzlocation.md)  |Time zone location for the database (how tz-related datetimes should be stored in the database) |
 |[BatchTask](batchtask.md)  |Batch task request details, corresponding to the message body of a batch request message |
 |[BatchTaskDefinition](batchtaskdefinition.md)  |Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute |

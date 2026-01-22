@@ -33,7 +33,6 @@ History lists for lists and searchable controls. Maintains history for Navigator
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|history\_id |PK |Clustered, Unique |
 |rank |UShort |Index |
 |associate\_id, table\_id, extra\_id |FK, TableNumber, Id |Index |
 

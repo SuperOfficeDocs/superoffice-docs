@@ -38,7 +38,6 @@ Heading items for all MDO lists, lists that are grouped and filtered.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|heading\_id |PK |Clustered, Unique |
 |name |String(239) |Index |
 |listTableId |TableNumber |Index |
 

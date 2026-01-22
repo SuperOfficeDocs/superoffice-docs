@@ -381,7 +381,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Description of the created document
+  summary: Text from the document details.
   example: []
   syntax:
     content: >-

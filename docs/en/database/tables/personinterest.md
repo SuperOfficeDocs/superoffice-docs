@@ -37,7 +37,6 @@ Note; If you add or remove rows in this table, you will need to update the inter
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|personinterest\_id |PK |Unique |
 |pinterest\_idx |FK |Index |
 |startDate |DateTime |Index |
 |endDate |DateTime |Index |

@@ -44,7 +44,6 @@ Instance of a relation, in principle between any two records, as long as they ar
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|relation\_id |PK |Clustered, Unique |
 |reldef\_id |FK |Index |
 |source\_table |TableNumber |Index |
 |source\_record |RecordId |Index |

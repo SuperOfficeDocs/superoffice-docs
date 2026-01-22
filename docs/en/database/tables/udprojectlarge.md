@@ -36,7 +36,6 @@ User-defined fields. During conversion of user defined fields the data is stored
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udprojectLarge\_id |PK |Clustered, Unique |
 |string41 |String(199) |Index |
 |string42 |String(199) |Index |
 |string43 |String(199) |Index |

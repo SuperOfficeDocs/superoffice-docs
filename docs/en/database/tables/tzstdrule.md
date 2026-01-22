@@ -37,7 +37,6 @@ Time zone rule for standard time
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|TZStdRule\_id |PK |Clustered, Unique |
 |TZLocationId |FK |Index |
 
 ## Relationships

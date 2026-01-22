@@ -31,7 +31,7 @@ NsApiSlow threshold: 1000 ms.
 | copilotEntityId | int32 | **Required** The identity of the CopilotEntity |
 
 ```http
-POST /api/v1/Agents/AI/DeleteCopilotEntity?copilotEntityId=958
+POST /api/v1/Agents/AI/DeleteCopilotEntity?copilotEntityId=978
 ```
 
 

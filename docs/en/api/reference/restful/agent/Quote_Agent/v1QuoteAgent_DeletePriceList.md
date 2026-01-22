@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | priceListId | int32 | **Required** The identity of the PriceList |
 
 ```http
-POST /api/v1/Agents/Quote/DeletePriceList?priceListId=635
+POST /api/v1/Agents/Quote/DeletePriceList?priceListId=307
 ```
 
 

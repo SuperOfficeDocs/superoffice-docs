@@ -30,7 +30,6 @@ This table controls the spam-protection system, ensuring that a single email rec
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

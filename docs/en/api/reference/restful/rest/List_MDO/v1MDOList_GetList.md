@@ -33,8 +33,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=accusamus
-GET /api/v1/MDOList/{listname}?query=et
+GET /api/v1/MDOList/{listname}?additional=saepe
+GET /api/v1/MDOList/{listname}?query=maxime
 ```
 
 

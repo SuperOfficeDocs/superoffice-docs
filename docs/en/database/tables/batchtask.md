@@ -45,7 +45,6 @@ Batch task request details, corresponding to the message body of a batch request
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|BatchTask\_id |PK |Clustered, Unique |
 |state |Int |Index |
 |BatchTaskDefinition\_id, state |FK, Int |Index |
 

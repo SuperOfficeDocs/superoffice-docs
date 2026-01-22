@@ -42,7 +42,6 @@ Time zone location
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|TZLocation\_id |PK |Clustered, Unique |
 |locationCode |String(29) |Unique |
 
 ## Relationships

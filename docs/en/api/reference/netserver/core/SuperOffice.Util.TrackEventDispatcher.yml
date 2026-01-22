@@ -5,9 +5,10 @@ items:
   id: TrackEventDispatcher
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  - SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
   - SuperOffice.Util.TrackEventDispatcher.GetInstance
   - SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String,System.ValueTuple{System.String,System.Object}[])
+  - SuperOffice.Util.TrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
   - SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   langs:
   - csharp
@@ -39,32 +40,32 @@ items:
   extensionMethods:
   - SuperOffice.Util.TrackEventDispatcher.EnumUtil.MapEnums``2
   - SuperOffice.Util.TrackEventDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
-  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
-  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})'
+- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})'
   parent: SuperOffice.Util.TrackEventDispatcher
   langs:
   - csharp
   - vb
-  name: TrackEventDispatcher(IAsyncQueue<TrackEvent>, ILogger<TrackEventDispatcher>)
-  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IAsyncQueue<TrackEvent>, ILogger<TrackEventDispatcher>)
-  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventDispatcher>)
+  name: TrackEventDispatcher(IAsyncQueue<TrackEventItem>, ILogger<TrackEventDispatcher>)
+  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IAsyncQueue<TrackEventItem>, ILogger<TrackEventDispatcher>)
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEventItem>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventDispatcher>)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public TrackEventDispatcher(IAsyncQueue<TrackEvent> queue, ILogger<TrackEventDispatcher> logger)
+    content: public TrackEventDispatcher(IAsyncQueue<TrackEventItem> queue, ILogger<TrackEventDispatcher> logger)
     parameters:
     - id: queue
-      type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+      type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem}
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
-    content.vb: Public Sub New(queue As IAsyncQueue(Of TrackEvent), logger As ILogger(Of TrackEventDispatcher))
+    content.vb: Public Sub New(queue As IAsyncQueue(Of TrackEventItem), logger As ILogger(Of TrackEventDispatcher))
   overload: SuperOffice.Util.TrackEventDispatcher.#ctor*
-  nameWithType.vb: TrackEventDispatcher.New(IAsyncQueue(Of TrackEvent), ILogger(Of TrackEventDispatcher))
-  fullName.vb: SuperOffice.Util.TrackEventDispatcher.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventDispatcher))
-  name.vb: New(IAsyncQueue(Of TrackEvent), ILogger(Of TrackEventDispatcher))
+  nameWithType.vb: TrackEventDispatcher.New(IAsyncQueue(Of TrackEventItem), ILogger(Of TrackEventDispatcher))
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEventItem), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventDispatcher))
+  name.vb: New(IAsyncQueue(Of TrackEventItem), ILogger(Of TrackEventDispatcher))
 - uid: SuperOffice.Util.TrackEventDispatcher.GetInstance
   commentId: M:SuperOffice.Util.TrackEventDispatcher.GetInstance
   id: GetInstance
@@ -131,20 +132,57 @@ items:
   summary: Posts event to background job that sends events to Amplitude and/or Userflow
   example: []
   syntax:
-    content: public void TrackEvent(string trackEvent, params (string argName, object argVal)[] args)
+    content: public long TrackEvent(string trackEventName, params (string argName, object argVal)[] args)
     parameters:
-    - id: trackEvent
+    - id: trackEventName
       type: System.String
-      description: "\"sale-completed\" or \"sale-sold\" etc"
     - id: args
       type: System.ValueTuple{System.String,System.Object}[]
-    content.vb: Public Sub TrackEvent(trackEvent As String, ParamArray args As (argName As String, argVal As Object)())
+      description: Key-value pairs of additional event properties.
+    return:
+      type: System.Int64
+    content.vb: Public Function TrackEvent(trackEventName As String, ParamArray args As (argName As String, argVal As Object)()) As Long
   overload: SuperOffice.Util.TrackEventDispatcher.TrackEvent*
   implements:
   - SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String,System.ValueTuple{System.String,System.Object}[])
   nameWithType.vb: TrackEventDispatcher.TrackEvent(String, ParamArray (argName As String, argVal As Object)())
   fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackEvent(String, ParamArray (argName As String, argVal As Object)())
   name.vb: TrackEvent(String, ParamArray (argName As String, argVal As Object)())
+- uid: SuperOffice.Util.TrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  id: TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrackUser(string, params (string argName, object argVal)[])
+  nameWithType: TrackEventDispatcher.TrackUser(string, params (string argName, object argVal)[])
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackUser(string, params (string argName, object argVal)[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Post identify event for user to background job that sends events to Amplitude
+  example: []
+  syntax:
+    content: public long TrackUser(string userId, params (string argName, object argVal)[] args)
+    parameters:
+    - id: userId
+      type: System.String
+      description: Cust1234.56
+    - id: args
+      type: System.ValueTuple{System.String,System.Object}[]
+      description: user and group properties - cust.xxx gets mapped to xxx on group
+    return:
+      type: System.Int64
+      description: ''
+    content.vb: Public Function TrackUser(userId As String, ParamArray args As (argName As String, argVal As Object)()) As Long
+  overload: SuperOffice.Util.TrackEventDispatcher.TrackUser*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  nameWithType.vb: TrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  name.vb: TrackUser(String, ParamArray (argName As String, argVal As Object)())
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -659,33 +697,33 @@ references:
 - uid: SuperOffice.Util.TrackEventDispatcher.#ctor*
   commentId: Overload:SuperOffice.Util.TrackEventDispatcher.#ctor
   isExternal: true
-  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_Util_TrackEvent__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_TrackEventDispatcher__
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_Util_TrackEventItem__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_TrackEventDispatcher__
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher.TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher
   nameWithType.vb: TrackEventDispatcher.New
   fullName.vb: SuperOffice.Util.TrackEventDispatcher.New
   name.vb: New
-- uid: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
-  commentId: T:SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
+- uid: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem}
+  commentId: T:SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.IAsyncQueue`1
-  href: SuperOffice.Util.TrackEvent.html
-  name: IAsyncQueue<TrackEvent>
-  nameWithType: IAsyncQueue<TrackEvent>
-  fullName: SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>
-  nameWithType.vb: IAsyncQueue(Of TrackEvent)
-  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent)
-  name.vb: IAsyncQueue(Of TrackEvent)
+  href: SuperOffice.Util.TrackEventItem.html
+  name: IAsyncQueue<TrackEventItem>
+  nameWithType: IAsyncQueue<TrackEventItem>
+  fullName: SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEventItem>
+  nameWithType.vb: IAsyncQueue(Of TrackEventItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEventItem)
+  name.vb: IAsyncQueue(Of TrackEventItem)
   spec.csharp:
   - uid: SuperOffice.Threading.IAsyncQueue`1
     name: IAsyncQueue
     isExternal: true
   - name: <
-  - uid: SuperOffice.Util.TrackEvent
-    name: TrackEvent
+  - uid: SuperOffice.Util.TrackEventItem
+    name: TrackEventItem
     isExternal: true
-    href: SuperOffice.Util.TrackEvent.html
+    href: SuperOffice.Util.TrackEventItem.html
   - name: '>'
   spec.vb:
   - uid: SuperOffice.Threading.IAsyncQueue`1
@@ -694,10 +732,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.Util.TrackEvent
-    name: TrackEvent
+  - uid: SuperOffice.Util.TrackEventItem
+    name: TrackEventItem
     isExternal: true
-    href: SuperOffice.Util.TrackEvent.html
+    href: SuperOffice.Util.TrackEventItem.html
   - name: )
 - uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
   commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher}
@@ -1151,4 +1189,115 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   - name: (
+  - name: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: SuperOffice.Util.TrackEventDispatcher.TrackUser*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.TrackUser
+  isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_TrackUser_System_String_System_ValueTuple_System_String_System_Object____
+  name: TrackUser
+  nameWithType: TrackEventDispatcher.TrackUser
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackUser
+- uid: SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackUser_System_String_System_ValueTuple_System_String_System_Object____
+  name: TrackUser(string, params (string argName, object argVal)[])
+  nameWithType: ITrackEventDispatcher.TrackUser(string, params (string argName, object argVal)[])
+  fullName: SuperOffice.Util.ITrackEventDispatcher.TrackUser(string, params (string argName, object argVal)[])
+  nameWithType.vb: ITrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  fullName.vb: SuperOffice.Util.ITrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  name.vb: TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  spec.csharp:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+    name: TrackUser
+    isExternal: true
+    href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackUser_System_String_System_ValueTuple_System_String_System_Object____
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argName
+    name: argName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argname
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argVal
+    name: argVal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argval
+  - name: )
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+    name: TrackUser
+    isExternal: true
+    href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackUser_System_String_System_ValueTuple_System_String_System_Object____
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.String,System.Object}.argName
+    name: argName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argname
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.Object}.argVal
+    name: argVal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.object-.argval
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: (
+  - name: )
   - name: )

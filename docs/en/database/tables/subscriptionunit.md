@@ -37,7 +37,6 @@ The list of Subscription units, in the internal product register (year/quarter/m
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|subscriptionunit\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

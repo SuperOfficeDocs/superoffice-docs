@@ -50,7 +50,6 @@ The definition of projects as events in Audience (or other Collaborative apps)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ExternalEvent\_id |PK |Clustered, Unique |
 |eventEnabled |Bool |Index |
 |eventDate |DateTime |Index |
 |parentTable |TableNumber |Index |

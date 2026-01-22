@@ -34,7 +34,6 @@ Heading link table for TaskMenu, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|taskmenuheadinglink\_id |PK |Clustered, Unique |
 |taskMenu\_id |FK |Index |
 |heading\_id |FK |Index |
 

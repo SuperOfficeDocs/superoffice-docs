@@ -29,7 +29,6 @@ The table is used by the hotlist to store the relationship between tickets and u
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |ticket\_id |FK |Index |
 

@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | targetDimensionId | int32 | **Required** The identity of the TargetDimension |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=452
+POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=617
 ```
 
 

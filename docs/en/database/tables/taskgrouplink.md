@@ -34,7 +34,6 @@ User group link table for Task, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|taskgrouplink\_id |PK |Clustered, Unique |
 |task\_id |FK |Index |
 |group\_id |FK |Index |
 

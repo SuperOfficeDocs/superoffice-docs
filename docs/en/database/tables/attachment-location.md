@@ -33,7 +33,6 @@ A location for storing attachments
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|attachment\_location\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -34,7 +34,6 @@ Favourite records (star-marking)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Favourite\_id |PK |Clustered, Unique |
 |record\_id, associate\_id, table\_id |RecordId, FK, TableNumber |Index |
 
 ## Relationships

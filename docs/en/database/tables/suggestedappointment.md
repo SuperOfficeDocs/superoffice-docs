@@ -45,7 +45,6 @@ Defines a suggested appointment for use in a Sale Guide or Project Guide
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SuggestedAppointment\_id |PK |Clustered, Unique |
 |name |String(239) |Index |
 |saleTypeStageLinkId |FK |Index |
 |projectTypeStatusLinkId |FK |Index |

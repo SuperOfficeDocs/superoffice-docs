@@ -36,7 +36,6 @@ Data about the configuration of one Erp Actor on one ErpConnection
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpconnectionactortype\_id |PK |Clustered, Unique |
 |ErpConnectionId, ActorTypeErp |FK, Enum |Unique |
 |ErpConnectionId, ActorTypeCrm |FK, Enum |Index |
 

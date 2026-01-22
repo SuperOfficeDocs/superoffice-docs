@@ -58,11 +58,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
 
       public class TableRight : GenericRight
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
 
       Public Class TableRight Inherits GenericRight
   inheritance:
@@ -89,7 +89,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
 - uid: SuperOffice.CRM.Security.TableRight._mask
   commentId: F:SuperOffice.CRM.Security.TableRight._mask
   id: _mask

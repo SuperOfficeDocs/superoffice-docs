@@ -40,7 +40,6 @@ This table contains entries for the user sessions.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |session\_key |String(32) |Index |
 |status |Int |Index |

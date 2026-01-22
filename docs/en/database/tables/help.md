@@ -36,7 +36,6 @@ This table contains the help pages.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 |module\_id |Int |Index |
 |application\_area\_id |Int |Index |

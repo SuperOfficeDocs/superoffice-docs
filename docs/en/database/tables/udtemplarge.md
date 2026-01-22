@@ -36,7 +36,6 @@ User-defined fields
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udtempLarge\_id |PK |Clustered, Unique |
 
 ## Replication Flags
 

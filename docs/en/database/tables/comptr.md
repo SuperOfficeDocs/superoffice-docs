@@ -37,7 +37,6 @@ Comptr list table. List of all possible competitors (sale).
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Comptr\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

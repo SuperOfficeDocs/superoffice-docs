@@ -36,7 +36,6 @@ SuperOffice reporter data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORSection\_id |PK |Clustered, Unique |
 |SORTemplate\_id |FK |Index |
 
 ## Relationships

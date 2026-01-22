@@ -40,7 +40,6 @@ One connection to an ERP connector, specifying Client and other required informa
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpconnection\_id |PK |Clustered, Unique |
 |ErpConnectorId |FK |Index |
 |ConnectionId |String(127) |Unique |
 

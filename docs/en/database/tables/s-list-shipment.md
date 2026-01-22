@@ -31,7 +31,6 @@ A connector between shipment and list so that one shipment can have many lists, 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |list\_id |FK |Index |
 |shipment\_id |FK |Index |
 

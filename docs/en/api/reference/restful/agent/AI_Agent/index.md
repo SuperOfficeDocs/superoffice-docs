@@ -66,6 +66,10 @@ content_type: reference
 
 * [POST Agents/AI/TranslateEntity](v1AIAgent_TranslateEntity.md)
 
+* [POST Agents/AI/ParseQueryIntoRestrictions](v1AIAgent_ParseQueryIntoRestrictions.md)
+
+* [POST Agents/AI/RemovePhotoBackground](v1AIAgent_RemovePhotoBackground.md)
+
 * [POST Agents/AI/Answer](v1AIAgent_Answer.md)
 
 * [POST Agents/AI/AnswerFeedback](v1AIAgent_AnswerFeedback.md)
@@ -75,6 +79,10 @@ content_type: reference
 * [POST Agents/AI/Search](v1AIAgent_Search.md)
 
 * [POST Agents/AI/StartRagIndexing](v1AIAgent_StartRagIndexing.md)
+
+* [POST Agents/AI/GetIndexingStatus](v1AIAgent_GetIndexingStatus.md)
+
+* [POST Agents/AI/CancelIndexing](v1AIAgent_CancelIndexing.md)
 
 * [POST Agents/AI/SummarizeTicket](v1AIAgent_SummarizeTicket.md)
 

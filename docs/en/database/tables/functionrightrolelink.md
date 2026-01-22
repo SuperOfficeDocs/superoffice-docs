@@ -35,7 +35,6 @@ Functional right definition
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|FunctionRightRoleLink\_id |PK |Clustered, Unique |
 |roleId |FK |Index |
 |functionRightId |FK |Index |
 |roleId, functionRightId |FK, FK |Index |

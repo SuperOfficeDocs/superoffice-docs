@@ -47,25 +47,25 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1000010|Customer Centre password policy||ccAuthentication|
 |1000007|Client||Client|
-|1000549|SuperOffice Copilot||Copilot|
+|1000551|SuperOffice Copilot||Copilot|
 |1000020|Statistics||DataCollection|
 |1000032|Default values||Defaults|
 |1000067|Diary||DiaryView|
+|1000325|Notifications for e-mail||emailNotification|
 |1000094|Filter Dialog||FilterDialog|
 |1000096|Freetext search||Freetext|
 |1000104|Functions||Functions|
-|1000544|In-app communication||InApp|
+|1000546|In-app communication||InApp|
 |1000159|E-mail||Mail|
 |1000222|Marketing||Mailing|
 |1000230|Grouped lists||MDOList|
-|1000541|Data mirroring||Mirroring|
+|1000543|Data mirroring||Mirroring|
 |1000301|Web Services||NetServices|
-|1000329|Notifications via popup||notification|
-|1000337|Notifications via e-mail||notificationEmail|
-|1000345|Notifications via SMS||notificationSms|
-|1000361|Contact||Person|
-|1000380|Mobile CRM||PocketTasks|
-|1000384|Request||request|
+|1000331|Notifications via popup||notification|
+|1000339|Notifications via e-mail||notificationEmail|
+|1000347|Notifications via SMS||notificationSms|
+|1000363|Contact||Person|
+|1000382|Mobile CRM||PocketTasks|
 
 
 ## Related MDO Lists

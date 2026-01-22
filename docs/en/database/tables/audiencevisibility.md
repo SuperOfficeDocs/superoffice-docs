@@ -39,7 +39,6 @@ How projects (or whatever) should be made visible in audience
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|AudienceVisibility\_id |PK |Clustered, Unique |
 |sourceTable, sourceRecord |TableNumber, RecordId |Index |
 |controllingTable, controllingRecord |TableNumber, RecordId |Index |
 

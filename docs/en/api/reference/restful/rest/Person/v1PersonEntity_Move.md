@@ -33,7 +33,7 @@ You must specify the date after which activities will be moved along with the pe
 | moveAfterDate | date-time | **Required** Move activites after this date. Activities before this date are left alone. |
 
 ```http
-POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=03/05/2020 13:09:16
+POST /api/v1/Person/{personId}/MoveTo/{destinationContactId}?moveAfterDate=05/30/2009 02:35:16
 ```
 
 

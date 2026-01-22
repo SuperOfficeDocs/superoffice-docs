@@ -35,7 +35,6 @@ Log of all updates made to the database, that need to be replicated.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|traveltransactionlog\_id |PK |Clustered, Unique |
 |ttime |DateTime |Index |
 |tablenumber, record\_id |TableNumber, RecordId |Index |
 |type, tablenumber, traveltransactionlog\_id |Enum, TableNumber, PK |Index |

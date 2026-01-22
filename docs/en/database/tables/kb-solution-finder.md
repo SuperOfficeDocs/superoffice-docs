@@ -30,7 +30,6 @@ Knowledge base problem solving wizard, categories and subcategories for drilling
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 
 ## Relationships

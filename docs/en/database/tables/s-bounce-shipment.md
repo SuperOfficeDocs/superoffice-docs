@@ -30,7 +30,6 @@ Email bounces from customers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |shipment\_id |FK |Index |
 |customer\_id |FK |Index |
 

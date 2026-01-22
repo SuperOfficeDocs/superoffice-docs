@@ -33,7 +33,6 @@ This table stores the link of entries in a tree-explorer
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
 |session\_key |String(255) |Index |
 

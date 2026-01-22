@@ -37,7 +37,6 @@ Secondary user groups
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UserGroup\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

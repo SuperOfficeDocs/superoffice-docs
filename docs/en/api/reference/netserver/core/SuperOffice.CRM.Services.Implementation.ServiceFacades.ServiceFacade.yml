@@ -5,7 +5,7 @@ items:
   id: ServiceFacade
   parent: SuperOffice.CRM.Services.Implementation.ServiceFacades
   children:
-  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(SuperOffice.Diagnostics.SoOperation)
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(SuperOffice.Diagnostics.SoOperation,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall(System.String,System.Object)
   langs:
@@ -34,30 +34,32 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(SuperOffice.Diagnostics.SoOperation)
-  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(SuperOffice.Diagnostics.SoOperation)
-  id: '#ctor(SuperOffice.Diagnostics.SoOperation)'
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(SuperOffice.Diagnostics.SoOperation,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(SuperOffice.Diagnostics.SoOperation,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})
+  id: '#ctor(SuperOffice.Diagnostics.SoOperation,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})'
   parent: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
   langs:
   - csharp
   - vb
-  name: ServiceFacade(SoOperation)
-  nameWithType: ServiceFacade.ServiceFacade(SoOperation)
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.ServiceFacade(SuperOffice.Diagnostics.SoOperation)
+  name: ServiceFacade(SoOperation, ILogger<ServiceFacade>)
+  nameWithType: ServiceFacade.ServiceFacade(SoOperation, ILogger<ServiceFacade>)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.ServiceFacade(SuperOffice.Diagnostics.SoOperation, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade>)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Services.Implementation.ServiceFacades
   syntax:
-    content: public ServiceFacade(SoOperation soOperation)
+    content: public ServiceFacade(SoOperation soOperation, ILogger<ServiceFacade> logger)
     parameters:
     - id: soOperation
       type: SuperOffice.Diagnostics.SoOperation
-    content.vb: Public Sub New(soOperation As SoOperation)
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade}
+    content.vb: Public Sub New(soOperation As SoOperation, logger As ILogger(Of ServiceFacade))
   overload: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor*
-  nameWithType.vb: ServiceFacade.New(SoOperation)
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.New(SuperOffice.Diagnostics.SoOperation)
-  name.vb: New(SoOperation)
+  nameWithType.vb: ServiceFacade.New(SoOperation, ILogger(Of ServiceFacade))
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.New(SuperOffice.Diagnostics.SoOperation, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade))
+  name.vb: New(SoOperation, ILogger(Of ServiceFacade))
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   id: CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -654,7 +656,7 @@ references:
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html#SuperOffice_CRM_Services_Implementation_ServiceFacades_ServiceFacade__ctor_SuperOffice_Diagnostics_SoOperation_
+  href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html#SuperOffice_CRM_Services_Implementation_ServiceFacades_ServiceFacade__ctor_SuperOffice_Diagnostics_SoOperation_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Services_Implementation_ServiceFacades_ServiceFacade__
   name: ServiceFacade
   nameWithType: ServiceFacade.ServiceFacade
   fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.ServiceFacade
@@ -669,6 +671,41 @@ references:
   name: SoOperation
   nameWithType: SoOperation
   fullName: SuperOffice.Diagnostics.SoOperation
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<ServiceFacade>
+  nameWithType: ILogger<ServiceFacade>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade>
+  nameWithType.vb: ILogger(Of ServiceFacade)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+  name.vb: ILogger(Of ServiceFacade)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: )
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true
@@ -696,6 +733,71 @@ references:
     name: Diagnostics
     isExternal: true
     href: SuperOffice.Diagnostics.html
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync
   isExternal: true

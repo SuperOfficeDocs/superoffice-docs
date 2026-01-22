@@ -86,6 +86,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Icon xsi:type="xsd:short">0</List:Icon>
      <List:AlwaysReloadOnShow xsi:type="xsd:boolean">false</List:AlwaysReloadOnShow>
      <List:NeverReloadOnCurrentChange xsi:type="xsd:boolean">false</List:NeverReloadOnCurrentChange>
+     <List:CustomObjectEntity xsi:type="xsd:string"></List:CustomObjectEntity>
     </List:WebPanelEntity>
    </List:Response>
   </List:GetAppWebPanelsResponse>

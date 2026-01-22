@@ -43,7 +43,6 @@ Status definitions. Name and description are in LocaleText for internationalizat
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|StatusDef\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -661,18 +661,18 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Sale
-  summary: Add a new quoteline to an existing alternative
+  summary: Create a new QuoteLineRow, for a given Alternative. Fully populate sentry lookups.
   example: []
   syntax:
-    content: public QuoteLineRow CreateQuoteLine(int quoteAlternativeId)
+    content: public Task<QuoteLineRow> CreateQuoteLine(int quoteAlternativeId)
     parameters:
     - id: quoteAlternativeId
       type: System.Int32
       description: Alternative to add new quote line to
     return:
-      type: SuperOffice.CRM.Rows.QuoteLineRow
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
       description: The blank, unsaved quote line
-    content.vb: Public Function CreateQuoteLine(quoteAlternativeId As Integer) As QuoteLineRow
+    content.vb: Public Function CreateQuoteLine(quoteAlternativeId As Integer) As Task(Of QuoteLineRow)
   overload: SuperOffice.CRM.Sale.QuoteData.CreateQuoteLine*
   implements:
   - SuperOffice.CRM.Sale.IQuoteData.CreateQuoteLine(System.Int32)
@@ -1426,7 +1426,7 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Sale
-  summary: ''
+  summary: Populate row from Info object, and /quietly skip/ inaccessesible fields
   example: []
   syntax:
     content: public QuoteLineRow PopulateQuoteLineRow(QuoteLineRow quoteLineRow, QuoteLineInfo quoteLine)
@@ -4392,14 +4392,41 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: SuperOffice.CRM.Rows.QuoteLineRow
-  commentId: T:SuperOffice.CRM.Rows.QuoteLineRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.QuoteLineRow.html
-  name: QuoteLineRow
-  nameWithType: QuoteLineRow
-  fullName: SuperOffice.CRM.Rows.QuoteLineRow
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteLineRow>
+  nameWithType: Task<QuoteLineRow>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.QuoteLineRow>
+  nameWithType.vb: Task(Of QuoteLineRow)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.QuoteLineRow)
+  name.vb: Task(Of QuoteLineRow)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.QuoteLineRow
+    name: QuoteLineRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteLineRow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.QuoteLineRow
+    name: QuoteLineRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuoteLineRow.html
+  - name: )
 - uid: SuperOffice.CRM.Sale.QuoteData
   commentId: T:SuperOffice.CRM.Sale.QuoteData
   isExternal: true
@@ -4591,41 +4618,6 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.QuoteLineRow}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<QuoteLineRow>
-  nameWithType: Task<QuoteLineRow>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.QuoteLineRow>
-  nameWithType.vb: Task(Of QuoteLineRow)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.QuoteLineRow)
-  name.vb: Task(Of QuoteLineRow)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Rows.QuoteLineRow
-    name: QuoteLineRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteLineRow.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.QuoteLineRow
-    name: QuoteLineRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteLineRow.html
   - name: )
 - uid: SuperOffice.CRM.Sale.QuoteData.CopyQuoteAlternativeAsync*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteData.CopyQuoteAlternativeAsync
@@ -5823,6 +5815,14 @@ references:
     name: QuoteLineInfo
     isExternal: true
   - name: )
+- uid: SuperOffice.CRM.Rows.QuoteLineRow
+  commentId: T:SuperOffice.CRM.Rows.QuoteLineRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuoteLineRow.html
+  name: QuoteLineRow
+  nameWithType: QuoteLineRow
+  fullName: SuperOffice.CRM.Rows.QuoteLineRow
 - uid: SuperOffice.CRM.QuoteVersionContextInfo
   commentId: T:SuperOffice.CRM.QuoteVersionContextInfo
   parent: SuperOffice.CRM

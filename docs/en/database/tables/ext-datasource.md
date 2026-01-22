@@ -48,7 +48,6 @@ This table contains external datasources, used for databaseintegration of custom
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -34,7 +34,6 @@ User group link table for SubscriptionUnit, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|subscriptionunitgrouplink\_id |PK |Clustered, Unique |
 |subscriptionunit\_id |FK |Index |
 |group\_id |FK |Index |
 

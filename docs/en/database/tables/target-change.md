@@ -36,7 +36,6 @@ A single field change.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_change\_id |PK |Clustered, Unique |
 |target\_revision\_id |FK |Index |
 
 ## Relationships

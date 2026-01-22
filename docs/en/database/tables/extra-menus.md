@@ -38,7 +38,6 @@ This table contains entries for the extra menus in the system.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |extra\_table |FK |Index |
 
 ## Relationships

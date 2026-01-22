@@ -44,7 +44,6 @@ Describes a dashboard
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|dashboard\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 
 ## Relationships

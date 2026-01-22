@@ -27,8 +27,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=laudantium
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=et
 ```
 
 

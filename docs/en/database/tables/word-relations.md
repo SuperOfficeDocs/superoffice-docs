@@ -31,7 +31,6 @@ This table shows which word are used in which FAQ entry, and how many times     
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |entry\_word\_id |FK |Index |
 |entry\_id |FK |Index |
 

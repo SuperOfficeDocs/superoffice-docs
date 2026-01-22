@@ -31,7 +31,7 @@ NsApiSlow threshold: 5000 ms.
 | erpSyncConnectorEntityId | int32 | **Required** The identity of the ErpSyncConnectorEntity |
 
 ```http
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?erpSyncConnectorEntityId=928
+POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?erpSyncConnectorEntityId=874
 ```
 
 

@@ -35,7 +35,6 @@ The internal (superoffice-facing) key related to a synchronized record
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpinternalkey\_id |PK |Clustered, Unique |
 |recordId, tableId |RecordId, TableNumber |Unique |
 
 ## Relationships

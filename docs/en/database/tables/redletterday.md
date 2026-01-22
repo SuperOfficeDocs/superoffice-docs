@@ -36,7 +36,6 @@ Red letter days for calendar (holidays, birthday of king etc)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|redletterday\_id |PK |Unique |
 |country\_id, reddate |FK, DateTime |Clustered |
 
 ## Relationships

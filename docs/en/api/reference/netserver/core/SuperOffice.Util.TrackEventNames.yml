@@ -1,0 +1,1158 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TrackEventNames
+  commentId: T:SuperOffice.Util.TrackEventNames
+  id: TrackEventNames
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TrackEventNames.#ctor
+  - SuperOffice.Util.TrackEventNames.AIAnswered
+  - SuperOffice.Util.TrackEventNames.AISearched
+  - SuperOffice.Util.TrackEventNames.AppointmentCreated
+  - SuperOffice.Util.TrackEventNames.BizCardScanned
+  - SuperOffice.Util.TrackEventNames.CompanyCreated
+  - SuperOffice.Util.TrackEventNames.CompanyEnriched
+  - SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
+  - SuperOffice.Util.TrackEventNames.DocumentCreated
+  - SuperOffice.Util.TrackEventNames.FAQsSearched
+  - SuperOffice.Util.TrackEventNames.PersonCreated
+  - SuperOffice.Util.TrackEventNames.ProjectCreated
+  - SuperOffice.Util.TrackEventNames.ProjectDone
+  - SuperOffice.Util.TrackEventNames.SaleCompleted
+  - SuperOffice.Util.TrackEventNames.SaleCreated
+  - SuperOffice.Util.TrackEventNames.SaleLost
+  - SuperOffice.Util.TrackEventNames.SaleSold
+  - SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
+  - SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
+  - SuperOffice.Util.TrackEventNames.TicketAnswered
+  langs:
+  - csharp
+  - vb
+  name: TrackEventNames
+  nameWithType: TrackEventNames
+  fullName: SuperOffice.Util.TrackEventNames
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Names used with <xref href="SuperOffice.Util.TrackEventDispatcher" data-throw-if-not-resolved="false"></xref> that are sent to Amplitude/Userflow.
+  example: []
+  syntax:
+    content: public class TrackEventNames
+    content.vb: Public Class TrackEventNames
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.TrackEventNames.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TrackEventNames.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Util.TrackEventNames.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.TrackEventNames)
+  - SuperOffice.Util.TrackEventNames.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Util.TrackEventNames.AIAnswered
+  commentId: F:SuperOffice.Util.TrackEventNames.AIAnswered
+  id: AIAnswered
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: AIAnswered
+  nameWithType: TrackEventNames.AIAnswered
+  fullName: SuperOffice.Util.TrackEventNames.AIAnswered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string AIAnswered = "AI Answered"
+    return:
+      type: System.String
+    content.vb: Public Const AIAnswered As String = "AI Answered"
+- uid: SuperOffice.Util.TrackEventNames.AISearched
+  commentId: F:SuperOffice.Util.TrackEventNames.AISearched
+  id: AISearched
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: AISearched
+  nameWithType: TrackEventNames.AISearched
+  fullName: SuperOffice.Util.TrackEventNames.AISearched
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string AISearched = "AI Searched"
+    return:
+      type: System.String
+    content.vb: Public Const AISearched As String = "AI Searched"
+- uid: SuperOffice.Util.TrackEventNames.AppointmentCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.AppointmentCreated
+  id: AppointmentCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: AppointmentCreated
+  nameWithType: TrackEventNames.AppointmentCreated
+  fullName: SuperOffice.Util.TrackEventNames.AppointmentCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string AppointmentCreated = "Appointment Created"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentCreated As String = "Appointment Created"
+- uid: SuperOffice.Util.TrackEventNames.BizCardScanned
+  commentId: F:SuperOffice.Util.TrackEventNames.BizCardScanned
+  id: BizCardScanned
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: BizCardScanned
+  nameWithType: TrackEventNames.BizCardScanned
+  fullName: SuperOffice.Util.TrackEventNames.BizCardScanned
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string BizCardScanned = "BizCard Scanned"
+    return:
+      type: System.String
+    content.vb: Public Const BizCardScanned As String = "BizCard Scanned"
+- uid: SuperOffice.Util.TrackEventNames.CompanyCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.CompanyCreated
+  id: CompanyCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CompanyCreated
+  nameWithType: TrackEventNames.CompanyCreated
+  fullName: SuperOffice.Util.TrackEventNames.CompanyCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CompanyCreated = "Company Created"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyCreated As String = "Company Created"
+- uid: SuperOffice.Util.TrackEventNames.CompanyEnriched
+  commentId: F:SuperOffice.Util.TrackEventNames.CompanyEnriched
+  id: CompanyEnriched
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CompanyEnriched
+  nameWithType: TrackEventNames.CompanyEnriched
+  fullName: SuperOffice.Util.TrackEventNames.CompanyEnriched
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CompanyEnriched = "Company Enriched"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyEnriched As String = "Company Enriched"
+- uid: SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
+  commentId: F:SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
+  id: CompanyEnrichmentSearch
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CompanyEnrichmentSearch
+  nameWithType: TrackEventNames.CompanyEnrichmentSearch
+  fullName: SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CompanyEnrichmentSearch = "Company Enrichment Search"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyEnrichmentSearch As String = "Company Enrichment Search"
+- uid: SuperOffice.Util.TrackEventNames.DocumentCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.DocumentCreated
+  id: DocumentCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: DocumentCreated
+  nameWithType: TrackEventNames.DocumentCreated
+  fullName: SuperOffice.Util.TrackEventNames.DocumentCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string DocumentCreated = "Document Created"
+    return:
+      type: System.String
+    content.vb: Public Const DocumentCreated As String = "Document Created"
+- uid: SuperOffice.Util.TrackEventNames.FAQsSearched
+  commentId: F:SuperOffice.Util.TrackEventNames.FAQsSearched
+  id: FAQsSearched
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: FAQsSearched
+  nameWithType: TrackEventNames.FAQsSearched
+  fullName: SuperOffice.Util.TrackEventNames.FAQsSearched
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string FAQsSearched = "FAQs Searched"
+    return:
+      type: System.String
+    content.vb: Public Const FAQsSearched As String = "FAQs Searched"
+- uid: SuperOffice.Util.TrackEventNames.PersonCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.PersonCreated
+  id: PersonCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: PersonCreated
+  nameWithType: TrackEventNames.PersonCreated
+  fullName: SuperOffice.Util.TrackEventNames.PersonCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string PersonCreated = "Person Created"
+    return:
+      type: System.String
+    content.vb: Public Const PersonCreated As String = "Person Created"
+- uid: SuperOffice.Util.TrackEventNames.ProjectCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.ProjectCreated
+  id: ProjectCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectCreated
+  nameWithType: TrackEventNames.ProjectCreated
+  fullName: SuperOffice.Util.TrackEventNames.ProjectCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string ProjectCreated = "Project Created"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectCreated As String = "Project Created"
+- uid: SuperOffice.Util.TrackEventNames.ProjectDone
+  commentId: F:SuperOffice.Util.TrackEventNames.ProjectDone
+  id: ProjectDone
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectDone
+  nameWithType: TrackEventNames.ProjectDone
+  fullName: SuperOffice.Util.TrackEventNames.ProjectDone
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string ProjectDone = "Project Done"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectDone As String = "Project Done"
+- uid: SuperOffice.Util.TrackEventNames.SaleCompleted
+  commentId: F:SuperOffice.Util.TrackEventNames.SaleCompleted
+  id: SaleCompleted
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: SaleCompleted
+  nameWithType: TrackEventNames.SaleCompleted
+  fullName: SuperOffice.Util.TrackEventNames.SaleCompleted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string SaleCompleted = "Sale Completed"
+    return:
+      type: System.String
+    content.vb: Public Const SaleCompleted As String = "Sale Completed"
+- uid: SuperOffice.Util.TrackEventNames.SaleCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.SaleCreated
+  id: SaleCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: SaleCreated
+  nameWithType: TrackEventNames.SaleCreated
+  fullName: SuperOffice.Util.TrackEventNames.SaleCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string SaleCreated = "Sale Created"
+    return:
+      type: System.String
+    content.vb: Public Const SaleCreated As String = "Sale Created"
+- uid: SuperOffice.Util.TrackEventNames.SaleLost
+  commentId: F:SuperOffice.Util.TrackEventNames.SaleLost
+  id: SaleLost
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: SaleLost
+  nameWithType: TrackEventNames.SaleLost
+  fullName: SuperOffice.Util.TrackEventNames.SaleLost
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string SaleLost = "Sale Lost"
+    return:
+      type: System.String
+    content.vb: Public Const SaleLost As String = "Sale Lost"
+- uid: SuperOffice.Util.TrackEventNames.SaleSold
+  commentId: F:SuperOffice.Util.TrackEventNames.SaleSold
+  id: SaleSold
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: SaleSold
+  nameWithType: TrackEventNames.SaleSold
+  fullName: SuperOffice.Util.TrackEventNames.SaleSold
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string SaleSold = "Sale Sold"
+    return:
+      type: System.String
+    content.vb: Public Const SaleSold As String = "Sale Sold"
+- uid: SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
+  commentId: F:SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
+  id: TicketAnswerAccepted
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TicketAnswerAccepted
+  nameWithType: TrackEventNames.TicketAnswerAccepted
+  fullName: SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TicketAnswerAccepted = "Ticket Answer Accepted"
+    return:
+      type: System.String
+    content.vb: Public Const TicketAnswerAccepted As String = "Ticket Answer Accepted"
+- uid: SuperOffice.Util.TrackEventNames.TicketAnswered
+  commentId: F:SuperOffice.Util.TrackEventNames.TicketAnswered
+  id: TicketAnswered
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TicketAnswered
+  nameWithType: TrackEventNames.TicketAnswered
+  fullName: SuperOffice.Util.TrackEventNames.TicketAnswered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TicketAnswered = "Ticket Answered"
+    return:
+      type: System.String
+    content.vb: Public Const TicketAnswered As String = "Ticket Answered"
+- uid: SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
+  commentId: F:SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
+  id: TicketAnswerFeedback
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TicketAnswerFeedback
+  nameWithType: TrackEventNames.TicketAnswerFeedback
+  fullName: SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TicketAnswerFeedback = "Ticket Answer Feedback"
+    return:
+      type: System.String
+    content.vb: Public Const TicketAnswerFeedback As String = "Ticket Answer Feedback"
+- uid: SuperOffice.Util.TrackEventNames.#ctor
+  commentId: M:SuperOffice.Util.TrackEventNames.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TrackEventNames()
+  nameWithType: TrackEventNames.TrackEventNames()
+  fullName: SuperOffice.Util.TrackEventNames.TrackEventNames()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public TrackEventNames()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Util.TrackEventNames.#ctor*
+  nameWithType.vb: TrackEventNames.New()
+  fullName.vb: SuperOffice.Util.TrackEventNames.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.Util.TrackEventDispatcher
+  commentId: T:SuperOffice.Util.TrackEventDispatcher
+  isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html
+  name: TrackEventDispatcher
+  nameWithType: TrackEventDispatcher
+  fullName: SuperOffice.Util.TrackEventDispatcher
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.TrackEventNames.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TrackEventNames, To>(TrackEventNames)
+  nameWithType: EnumUtil.MapEnums<TrackEventNames, To>(TrackEventNames)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventNames, To>(SuperOffice.Util.TrackEventNames)
+  nameWithType.vb: EnumUtil.MapEnums(Of TrackEventNames, To)(TrackEventNames)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventNames, To)(SuperOffice.Util.TrackEventNames)
+  name.vb: MapEnums(Of TrackEventNames, To)(TrackEventNames)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TrackEventNames)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TrackEventNames)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+- uid: SuperOffice.Util.TrackEventNames.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TrackEventNames, To>(TrackEventNames)
+  nameWithType: Converters.MapEnums<TrackEventNames, To>(TrackEventNames)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventNames, To>(SuperOffice.Util.TrackEventNames)
+  nameWithType.vb: Converters.MapEnums(Of TrackEventNames, To)(TrackEventNames)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventNames, To)(SuperOffice.Util.TrackEventNames)
+  name.vb: MapEnums(Of TrackEventNames, To)(TrackEventNames)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TrackEventNames)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TrackEventNames)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+- uid: SuperOffice.Util.TrackEventNames.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.TrackEventNames)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<TrackEventNames>(TrackEventNames, TrackEventNames)
+  nameWithType: ObjectExtensions.AssignByReflection<TrackEventNames>(TrackEventNames, TrackEventNames)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.TrackEventNames>(SuperOffice.Util.TrackEventNames, SuperOffice.Util.TrackEventNames)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TrackEventNames)(TrackEventNames, TrackEventNames)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.TrackEventNames)(SuperOffice.Util.TrackEventNames, SuperOffice.Util.TrackEventNames)
+  name.vb: AssignByReflection(Of TrackEventNames)(TrackEventNames, TrackEventNames)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.TrackEventNames,SuperOffice.Util.TrackEventNames)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.TrackEventNames,SuperOffice.Util.TrackEventNames)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+- uid: SuperOffice.Util.TrackEventNames.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<TrackEventNames>(TrackEventNames)
+  nameWithType: ObjectExtensions.GraphCopy<TrackEventNames>(TrackEventNames)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.TrackEventNames>(SuperOffice.Util.TrackEventNames)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TrackEventNames)(TrackEventNames)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.TrackEventNames)(SuperOffice.Util.TrackEventNames)
+  name.vb: GraphCopy(Of TrackEventNames)(TrackEventNames)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.TrackEventNames)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.TrackEventNames)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
+    isExternal: true
+    href: SuperOffice.Util.TrackEventNames.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.TrackEventNames.#ctor*
+  commentId: Overload:SuperOffice.Util.TrackEventNames.#ctor
+  isExternal: true
+  href: SuperOffice.Util.TrackEventNames.html#SuperOffice_Util_TrackEventNames__ctor
+  name: TrackEventNames
+  nameWithType: TrackEventNames.TrackEventNames
+  fullName: SuperOffice.Util.TrackEventNames.TrackEventNames
+  nameWithType.vb: TrackEventNames.New
+  fullName.vb: SuperOffice.Util.TrackEventNames.New
+  name.vb: New

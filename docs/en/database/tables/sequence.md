@@ -30,7 +30,6 @@ next_id to be used for each table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |TableName |String(255) |Unique |
 |TableNumber |Int |Unique |
 

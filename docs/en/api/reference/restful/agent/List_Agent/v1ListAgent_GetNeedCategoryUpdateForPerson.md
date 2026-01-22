@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetNeedCategoryUpdateForPerson
 ```
 
-Get the settings for an update when saving a sale
+Before saving a person with changed leadstatus, call this to see if we should ask for a userconfirmation to automatically update category on contact or person
 
 
 NsApiSlow threshold: 5000 ms.

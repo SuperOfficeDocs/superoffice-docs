@@ -45,7 +45,6 @@ This table contains entries for the extra tables in the system.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |hierarchy\_id |FK |Index |
 |display\_field |FK |Index |
 |parent\_field |FK |Index |

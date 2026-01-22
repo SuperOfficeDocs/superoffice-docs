@@ -34,7 +34,6 @@ User group link table for Source, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|sourcegrouplink\_id |PK |Clustered, Unique |
 |source\_id |FK |Index |
 |group\_id |FK |Index |
 

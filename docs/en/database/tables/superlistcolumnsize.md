@@ -44,7 +44,6 @@ Stores the relative size (in percent) or in characters of a column in a SuperLis
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SuperListColumnSize\_id |PK |Clustered, Unique |
 |assoc\_id, listOwner |FK, String(254) |Index |
 
 ## Relationships

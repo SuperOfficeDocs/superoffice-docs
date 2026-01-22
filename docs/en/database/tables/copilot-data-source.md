@@ -36,7 +36,6 @@ Stores data sources for each copilot
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|copilot\_data\_source\_id |PK |Clustered, Unique |
 
 ## Relationships
 

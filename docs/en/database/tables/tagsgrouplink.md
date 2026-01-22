@@ -34,7 +34,6 @@ User group link table for Tags, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|tagsgrouplink\_id |PK |Clustered, Unique |
 |tags\_id |FK |Index |
 |group\_id |FK |Index |
 

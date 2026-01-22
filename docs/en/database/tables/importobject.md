@@ -37,7 +37,6 @@ Import object types - see localetext for names.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ImportObject\_id |PK |Clustered, Unique |
 
 ## Relationships
 

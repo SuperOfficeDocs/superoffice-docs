@@ -34,7 +34,6 @@ Contains a block of a mailing message, that can be reused in a mailing
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|s\_messageblock\_id |PK |Clustered, Unique |
 
 ## Relationships
 

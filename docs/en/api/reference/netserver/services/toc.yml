@@ -69,6 +69,8 @@ items:
     name: AlarmData
   - uid: SuperOffice.CRM.Services.AmountClassEntity
     name: AmountClassEntity
+  - uid: SuperOffice.CRM.Services.AnalyticsData
+    name: AnalyticsData
   - uid: SuperOffice.CRM.Services.Appointment
     name: Appointment
   - uid: SuperOffice.CRM.Services.AppointmentAgent
@@ -1063,6 +1065,10 @@ items:
     name: TicketPriorityEntity
   - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     name: TicketPriorityEscalationLevelEntity
+  - uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+  - uid: SuperOffice.CRM.Services.TicketRelationEntity
+    name: TicketRelationEntity
   - uid: SuperOffice.CRM.Services.TicketStatusEntity
     name: TicketStatusEntity
   - uid: SuperOffice.CRM.Services.TicketSummaryItem

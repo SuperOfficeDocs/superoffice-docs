@@ -39,7 +39,6 @@ Link between License and Satellite, for per-database licenses
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|LicenseSatlLink\_id |PK |Clustered, Unique |
 |moduleLicenseId, satelliteId |FK, FK |Unique |
 
 ## Relationships

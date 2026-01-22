@@ -36,7 +36,6 @@ This table contains eab (email address book) entries, i.e. an alias (&amp;apos;O
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |folder\_id |FK |Index |
 |name |String(64) |Index |
 |dbi\_agent\_id |FK |Index |

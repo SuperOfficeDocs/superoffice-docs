@@ -34,7 +34,6 @@ User group link table for PersInt, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|persintgrouplink\_id |PK |Clustered, Unique |
 |persint\_id |FK |Index |
 |group\_id |FK |Index |
 

@@ -32,7 +32,6 @@ An action to perform for a certain button in an screen
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
 |ejscript |FK |Index |
 

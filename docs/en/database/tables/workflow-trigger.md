@@ -34,7 +34,6 @@ A set of triggers related to a workflow.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_trigger\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -42,7 +42,6 @@ GDPR purpose alternatives
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|consentpurpose\_id |PK |Clustered, Unique |
 |name |String(4000) |Unique |
 |key |String(255) |Unique |
 

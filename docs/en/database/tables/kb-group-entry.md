@@ -30,7 +30,6 @@ This table contains group entries for FAQ groups.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_group\_id |FK |Index |
 |kb\_entry\_id |FK |Index |
 

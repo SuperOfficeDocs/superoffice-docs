@@ -34,7 +34,6 @@ Link table for ReasonStalled, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reasonstalledgrouplink\_id |PK |Clustered, Unique |
 |reasonstalled\_id |FK |Index |
 |group\_id |FK |Index |
 

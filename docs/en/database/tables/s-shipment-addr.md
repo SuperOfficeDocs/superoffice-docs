@@ -46,7 +46,6 @@ Addresses that are ready to be sent in a shipment.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |shipment\_id |FK |Index |
 |address |String(255) |Index |
 |customer\_id |FK |Index |

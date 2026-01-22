@@ -15,8 +15,8 @@ Type of the relation (Related, Parent, Child)
 | Name | Value | Description |
 |------|-------|-------------|
 |Related|0|Tickets are related without a hierarchy|
-|Parent|1|Source is parent of the destination Ticket in this relation|
-|Child|2|Source is child of the destination Ticket in this relation|
+|Parent|1|Destination is parent of the source Ticket in this relation|
+|Child|2|Destination is child of the source Ticket in this relation|
 
 ## Usage
 

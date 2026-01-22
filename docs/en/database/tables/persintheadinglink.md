@@ -34,7 +34,6 @@ Heading link table for PersInt, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|persintheadinglink\_id |PK |Clustered, Unique |
 |persint\_id |FK |Index |
 |heading\_id |FK |Index |
 

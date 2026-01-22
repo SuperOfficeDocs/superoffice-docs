@@ -37,7 +37,6 @@ Corresponds to an email folder on a mail server
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_folder\_id |PK |Clustered, Unique |
 |account\_id |FK |Index |
 
 ## Relationships

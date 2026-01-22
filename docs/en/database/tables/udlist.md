@@ -38,7 +38,6 @@ List table for user-defined lists, contains all user-defined lists. Note - MDO m
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UDList\_id |PK |Clustered, Unique |
 |name |String(239) |Index |
 
 ## Relationships

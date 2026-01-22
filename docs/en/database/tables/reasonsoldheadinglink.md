@@ -34,7 +34,6 @@ Heading link table for ReasonSold, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reasonsoldheadinglink\_id |PK |Clustered, Unique |
 |reasonsold\_id |FK |Index |
 |heading\_id |FK |Index |
 

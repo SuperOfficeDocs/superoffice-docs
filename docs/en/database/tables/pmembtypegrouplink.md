@@ -34,7 +34,6 @@ User group link table for PMembType, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|pmembtypegrouplink\_id |PK |Clustered, Unique |
 |pmembtype\_id |FK |Index |
 |group\_id |FK |Index |
 

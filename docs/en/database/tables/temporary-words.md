@@ -30,7 +30,6 @@ This table is used as a temporary table, containing the words we want           
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |word |String(63) |Index |
 |word\_length |Int |Index |
 

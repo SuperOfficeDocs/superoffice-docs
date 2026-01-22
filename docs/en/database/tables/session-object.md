@@ -32,7 +32,6 @@ Generic session object, accessible from ejscript etc, typically xml or name=valu
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |login\_id |FK |Index |
 |name |String(255) |Index |
 

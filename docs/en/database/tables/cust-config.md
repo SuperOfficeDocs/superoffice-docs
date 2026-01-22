@@ -35,7 +35,6 @@ This table contains JSON structures used for customizing the customer center
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|cust\_config\_id |PK |Clustered, Unique |
 
 ## Relationships
 

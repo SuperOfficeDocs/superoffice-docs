@@ -30,7 +30,6 @@ Category membership associated with a role
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |role |FK |Index |
 |category |FK |Index |
 |crm\_role |FK |Index |

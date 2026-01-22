@@ -43,6 +43,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |0|SO Archive|||
+|1234|InMemoryDocumentPlugin|||
 
 
 ## Related MDO Lists

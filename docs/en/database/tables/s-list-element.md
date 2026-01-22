@@ -32,7 +32,6 @@ Elements in a static list.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |list\_id |FK |Index |
 |address |String(255) |Index |
 |sms |String(255) |Index |

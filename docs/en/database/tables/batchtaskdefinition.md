@@ -40,7 +40,6 @@ Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.Batc
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|BatchTaskDefinition\_id |PK |Clustered, Unique |
 |name |String(254) |Index |
 |name, assemblyVersion |String(254), String(49) |Index |
 

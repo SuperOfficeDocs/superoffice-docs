@@ -37,7 +37,6 @@ Number allocation system, for keeping track of ranges of numbers loaned out to t
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|RefCountRange\_id |PK |Clustered, Unique |
 |RefCounts\_id |FK |Index |
 |traveller\_id |UShort |Index |
 

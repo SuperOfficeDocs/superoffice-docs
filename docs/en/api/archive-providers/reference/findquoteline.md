@@ -168,7 +168,7 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
-|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
@@ -176,7 +176,7 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -772,7 +772,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/approvalRegisteredBy,alternative/version/extraField2,alternative/version/quote/sale/contact/saintDirection,alternative/version/quote/sale/associate/assocTooltip,alternative/version/quote/sale/project/projectUrl/URLAddress
+GET /api/v1/archive/FindQuoteLine?$select=status,alternative/version/reason,alternative/version/quote/sale/person/supportAssociate,alternative/version/quote/sale/person/personExtra/x_person_user_relation,alternative/version/quote/sale/contact/restrictionAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

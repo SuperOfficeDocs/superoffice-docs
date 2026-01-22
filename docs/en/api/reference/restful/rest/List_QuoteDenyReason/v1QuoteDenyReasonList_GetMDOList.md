@@ -28,7 +28,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=eius
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=deleniti
 ```
 
 

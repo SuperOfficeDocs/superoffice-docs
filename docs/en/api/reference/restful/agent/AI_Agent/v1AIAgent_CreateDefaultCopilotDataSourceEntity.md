@@ -56,7 +56,7 @@ OK
 | CopilotId | int32 | The associated copilot |
 | Description | string | Description of data source |
 | Name | string | Name of data source |
-| Settings | array | Collection of data source settings |
+| Settings | array | Collection of data source settings - each setting has key + value |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

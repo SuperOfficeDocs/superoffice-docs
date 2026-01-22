@@ -38,7 +38,6 @@ Foreign Key - enables storage of arbitrary extra key information for every table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|foreignkey\_id |PK |Clustered, Unique |
 |foreigndevice\_id |FK |Index |
 |record\_id |RecordId |Index |
 |seqno |Id |Index |

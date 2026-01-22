@@ -63,7 +63,6 @@ One Product, member of one price list
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|product\_id |PK |Clustered, Unique |
 |ERPProductKey |String(254) |Index |
 |PriceListId |FK |Index |
 

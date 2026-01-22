@@ -40,7 +40,6 @@ The recurrency pattern for a recurring event. Each recurring event has an appoin
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|RecurrenceRule\_id |PK |Clustered, Unique |
 
 ## Relationships
 

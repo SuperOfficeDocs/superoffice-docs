@@ -29,7 +29,6 @@ Knowledge base problem solving wizard, items in a category linking to a knowledg
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |solution\_finder |FK |Index |
 |kb\_entry |FK |Index |
 

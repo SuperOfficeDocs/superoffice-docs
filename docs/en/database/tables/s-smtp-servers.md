@@ -30,7 +30,6 @@ Contains the smtp server for a shipment
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |shipment\_id |FK |Index |
 
 ## Relationships

@@ -1338,6 +1338,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  summary: Actual cache loading method, to be implemented by derived class. Sentry is Ignored when this method is called
   example: []
   syntax:
     content: >-
@@ -1347,8 +1348,10 @@ items:
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: ''
     return:
       type: System.Threading.Tasks.Task
+      description: ''
     content.vb: >-
       <CreateSyncVersion(OmitNullableDirective:=True)>
 
@@ -1377,6 +1380,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  summary: Actual cache loading method, to be implemented by derived class. Sentry is Ignored when this method is called
   example: []
   syntax:
     content: protected override void OnLoad()

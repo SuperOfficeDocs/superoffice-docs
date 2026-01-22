@@ -28,7 +28,6 @@ Here are the words that can be excluded from Free Text Search by using the FreeT
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|freetextwords\_id |PK |Unique |
 |word |String(19) |Clustered |
 
 ## Replication Flags

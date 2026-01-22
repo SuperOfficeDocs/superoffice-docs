@@ -53,7 +53,6 @@ Visible for rights
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|CounterValue\_id |PK |Clustered, Unique |
 |contact\_id, record\_type |FK, Enum |Index |
 |contact\_id, sale\_status |FK, Enum |Index |
 |project\_id, record\_type |FK, Enum |Index |

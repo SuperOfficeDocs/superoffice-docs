@@ -34,7 +34,6 @@ Link table indicating which users actually reside in this area.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|areauserassignment\_id |PK |Unique |
 |area\_id |FK |Index |
 |associate\_id |FK |Clustered |
 

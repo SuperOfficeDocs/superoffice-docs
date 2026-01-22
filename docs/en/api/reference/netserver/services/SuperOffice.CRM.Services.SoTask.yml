@@ -46,11 +46,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0", Name = "Task")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0", Name = "Task")]
 
       public class SoTask : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0", Name:="Task")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0", Name:="Task")>
 
       Public Class SoTask Inherits Carrier
   seealso:
@@ -65,7 +65,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
     - name: Name
       type: System.String
       value: Task

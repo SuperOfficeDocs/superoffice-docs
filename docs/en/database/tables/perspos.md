@@ -37,7 +37,6 @@ PersPos list table. Contact person position list
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|PersPos\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

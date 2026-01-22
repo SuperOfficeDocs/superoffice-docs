@@ -318,11 +318,31 @@ content_type: reference
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CategoryGroup" type="tns:CategoryGroup" />
+              <xs:element minOccurs="0" name="EnableLeadStatus" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Category" nillable="true" type="tns:Category" />
+      <xs:simpleType name="CategoryGroup">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Customer" />
+          <xs:enumeration value="PotentialCustomer" />
+          <xs:enumeration value="Partner" />
+          <xs:enumeration value="Lost" />
+          <xs:enumeration value="Other" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="CategoryGroup" nillable="true" type="tns:CategoryGroup" />
       <xs:complexType name="Country">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -954,6 +974,7 @@ content_type: reference
               <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
               <xs:element minOccurs="0" name="UtmParameters" nillable="true" type="tns:SavedUtmParameters" />
               <xs:element minOccurs="0" name="LeadstatusId" type="xs:int" />
+              <xs:element minOccurs="0" name="Leadstatus" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />

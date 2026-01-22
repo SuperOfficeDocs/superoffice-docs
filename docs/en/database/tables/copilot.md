@@ -33,7 +33,6 @@ Contains all available copilots
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|copilot\_id |PK |Clustered, Unique |
 
 ## Relationships
 

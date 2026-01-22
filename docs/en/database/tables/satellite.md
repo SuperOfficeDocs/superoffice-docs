@@ -36,7 +36,6 @@ Definition of Satellites
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|satellite\_id |PK |Clustered, Unique |
 
 ## Relationships
 

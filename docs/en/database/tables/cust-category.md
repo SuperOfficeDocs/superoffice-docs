@@ -32,7 +32,6 @@ This table contains entries for categories exposed through a customer language.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |language\_id |FK |Index |
 |category\_id |FK |Index |
 |parent\_id |FK |Index |

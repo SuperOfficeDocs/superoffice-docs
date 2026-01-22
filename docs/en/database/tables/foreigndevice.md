@@ -38,7 +38,6 @@ Middle level of Foreign Key system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|foreigndevice\_id |PK |Clustered, Unique |
 |name |String(31) |Index |
 |device\_id |String(239) |Index |
 |foreignapp\_id |FK |Index |

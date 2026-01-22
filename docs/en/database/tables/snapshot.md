@@ -29,7 +29,6 @@ Snapshots taken of the system database and attachments via soap
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

@@ -34,7 +34,6 @@ Heading link table for Source, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|tagsheadinglink\_id |PK |Clustered, Unique |
 |tags\_id |FK |Index |
 |heading\_id |FK |Index |
 

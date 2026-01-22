@@ -40,7 +40,6 @@ Values for statuses
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|StatusValue\_id |PK |Clustered, Unique |
 |StatusDef\_id |FK |Index |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |

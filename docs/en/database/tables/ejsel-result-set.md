@@ -29,7 +29,6 @@ This table stores result set reference data, result sets for selections
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |meta\_result |FK |Index |
 |ref\_id |Int |Index |
 

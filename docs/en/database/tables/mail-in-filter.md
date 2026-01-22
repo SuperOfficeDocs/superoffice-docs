@@ -53,7 +53,6 @@ This table contains entries for the mailboxes the eJournal system is fetching ma
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |category\_id |FK |Index |
 |priority |FK |Index |
 |reply\_template\_id |FK |Index |

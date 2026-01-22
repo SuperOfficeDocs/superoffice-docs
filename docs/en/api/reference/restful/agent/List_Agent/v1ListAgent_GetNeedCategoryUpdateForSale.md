@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetNeedCategoryUpdateForSale
 ```
 
-Get the settings for an update when saving a sale
+Before saving a sale, call this to see if the current changes on the sale should result in a userconfirmation dialog asking to automatically update category on contact or person
 
 
 NsApiSlow threshold: 5000 ms.

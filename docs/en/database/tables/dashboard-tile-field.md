@@ -34,7 +34,6 @@ Describes the contents of a tile field
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|dashboard\_tile\_field\_id |PK |Clustered, Unique |
 |dashboard\_tile\_definition\_id |FK |Index |
 
 ## Relationships

@@ -48,7 +48,6 @@ Module licenses, belonging to one single owner
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ModuleLicense\_id |PK |Clustered, Unique |
 |moduleName, moduleVersion, ModuleOwner\_id |String(239), String(254), FK |Unique |
 
 ## Relationships

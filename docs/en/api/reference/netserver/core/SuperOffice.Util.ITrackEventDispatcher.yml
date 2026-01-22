@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String,System.ValueTuple{System.String,System.Object}[])
+  - SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
   - SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   langs:
   - csharp
@@ -38,17 +39,47 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: void TrackEvent(string trackEvent, params (string argName, object argVal)[] args)
+    content: long TrackEvent(string trackEvent, params (string argName, object argVal)[] args)
     parameters:
     - id: trackEvent
       type: System.String
     - id: args
       type: System.ValueTuple{System.String,System.Object}[]
-    content.vb: Sub TrackEvent(trackEvent As String, ParamArray args As (argName As String, argVal As Object)())
+    return:
+      type: System.Int64
+    content.vb: Function TrackEvent(trackEvent As String, ParamArray args As (argName As String, argVal As Object)()) As Long
   overload: SuperOffice.Util.ITrackEventDispatcher.TrackEvent*
   nameWithType.vb: ITrackEventDispatcher.TrackEvent(String, ParamArray (argName As String, argVal As Object)())
   fullName.vb: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(String, ParamArray (argName As String, argVal As Object)())
   name.vb: TrackEvent(String, ParamArray (argName As String, argVal As Object)())
+- uid: SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  commentId: M:SuperOffice.Util.ITrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  id: TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrackUser(string, params (string argName, object argVal)[])
+  nameWithType: ITrackEventDispatcher.TrackUser(string, params (string argName, object argVal)[])
+  fullName: SuperOffice.Util.ITrackEventDispatcher.TrackUser(string, params (string argName, object argVal)[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: long TrackUser(string userId, params (string argName, object argVal)[] args)
+    parameters:
+    - id: userId
+      type: System.String
+    - id: args
+      type: System.ValueTuple{System.String,System.Object}[]
+    return:
+      type: System.Int64
+    content.vb: Function TrackUser(userId As String, ParamArray args As (argName As String, argVal As Object)()) As Long
+  overload: SuperOffice.Util.ITrackEventDispatcher.TrackUser*
+  nameWithType.vb: ITrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  fullName.vb: SuperOffice.Util.ITrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
+  name.vb: TrackUser(String, ParamArray (argName As String, argVal As Object)())
 - uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
   id: WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
@@ -419,6 +450,17 @@ references:
   - name: )
   - name: (
   - name: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
 - uid: System
   commentId: N:System
   isExternal: true
@@ -426,6 +468,13 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.Util.ITrackEventDispatcher.TrackUser*
+  commentId: Overload:SuperOffice.Util.ITrackEventDispatcher.TrackUser
+  isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_TrackUser_System_String_System_ValueTuple_System_String_System_Object____
+  name: TrackUser
+  nameWithType: ITrackEventDispatcher.TrackUser
+  fullName: SuperOffice.Util.ITrackEventDispatcher.TrackUser
 - uid: SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync*
   commentId: Overload:SuperOffice.Util.ITrackEventDispatcher.WaitForTrackersToCompleteAsync
   isExternal: true

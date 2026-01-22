@@ -36,7 +36,6 @@ Info about a set of (sales, project, selection...) targets
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_group\_id |PK |Clustered, Unique |
 
 ## Relationships
 

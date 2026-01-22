@@ -29,7 +29,6 @@ Unused table that is ment to be used for active washing in spm v2
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |list\_id |FK |Index |
 
 ## Relationships

@@ -33,7 +33,6 @@ This table contains invoice entries, normally created when an invoice is sent to
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |customer\_id |FK |Index |
 |company\_id |FK |Index |
 

@@ -37,7 +37,6 @@ List for the ProductCategory field of the Product table (Quote Management)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|productcategory\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

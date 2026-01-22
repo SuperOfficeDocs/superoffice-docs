@@ -30,7 +30,6 @@ This table contains URL&amp;apos;s associated with a single FAQ entry.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
 
 ## Relationships

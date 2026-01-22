@@ -23,11 +23,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
 
       public abstract class RecurrencePatternBase : ICloneable
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
 
       Public MustInherit Class RecurrencePatternBase Implements ICloneable
   inheritance:
@@ -56,7 +56,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   id: CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)

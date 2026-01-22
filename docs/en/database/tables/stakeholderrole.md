@@ -37,7 +37,6 @@ Role a stakeholder has in a sale
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|StakeholderRole\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

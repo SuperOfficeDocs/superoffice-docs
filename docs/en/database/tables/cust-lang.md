@@ -36,7 +36,6 @@ This table contains entries for customer languages.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_root |FK |Index |
 
 ## Relationships

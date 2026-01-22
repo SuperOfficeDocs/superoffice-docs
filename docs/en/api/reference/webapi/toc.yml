@@ -384,6 +384,8 @@ items:
     name: AlarmData
   - uid: SuperOffice.WebApi.Data.AmountClassEntity
     name: AmountClassEntity
+  - uid: SuperOffice.WebApi.Data.AnalyticsData
+    name: AnalyticsData
   - uid: SuperOffice.WebApi.Data.Appointment
     name: Appointment
   - uid: SuperOffice.WebApi.Data.AppointmentCautionWarning
@@ -1464,6 +1466,8 @@ items:
     name: Diagnostics_FlushCachesByNameRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_FlushCachesRequest
     name: Diagnostics_FlushCachesRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_GetAnalyticsDataRequest
+    name: Diagnostics_GetAnalyticsDataRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
     name: Diagnostics_GetCacheInvalidationGenerationsRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheNamesRequest
@@ -1498,6 +1502,10 @@ items:
     name: Diagnostics_ResyncUsersRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_SendSystemMessageRequest
     name: Diagnostics_SendSystemMessageRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_TrackEventRequest
+    name: Diagnostics_TrackEventRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_TrackUserRequest
+    name: Diagnostics_TrackUserRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_WebAppUsageExistsInPeriodRequest
     name: Diagnostics_WebAppUsageExistsInPeriodRequest
   - uid: SuperOffice.WebApi.Data.DiaryViewEntity
@@ -2650,6 +2658,8 @@ items:
     name: List_MoveAllTicketsRequest
   - uid: SuperOffice.WebApi.Data.List_MoveListItemRequest
     name: List_MoveListItemRequest
+  - uid: SuperOffice.WebApi.Data.List_PerformNeededCategoryUpdateRequest
+    name: List_PerformNeededCategoryUpdateRequest
   - uid: SuperOffice.WebApi.Data.List_RebuildFullnamesRequest
     name: List_RebuildFullnamesRequest
   - uid: SuperOffice.WebApi.Data.List_SaveAllAutomatedCategoryUpdatesRequest
@@ -2722,6 +2732,8 @@ items:
     name: List_SetTicketCategoriesForUserGroupRequest
   - uid: SuperOffice.WebApi.Data.List_SetTicketPrioritySortOrderRequest
     name: List_SetTicketPrioritySortOrderRequest
+  - uid: SuperOffice.WebApi.Data.List_SetTicketRelationDefinitionSortOrderRequest
+    name: List_SetTicketRelationDefinitionSortOrderRequest
   - uid: SuperOffice.WebApi.Data.List_SetTicketStatusSortOrderRequest
     name: List_SetTicketStatusSortOrderRequest
   - uid: SuperOffice.WebApi.Data.List_SetTicketTypeSortOrderRequest
@@ -4050,6 +4062,12 @@ items:
     name: TicketPriorityStatus
   - uid: SuperOffice.WebApi.Data.TicketReadStatus
     name: TicketReadStatus
+  - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+  - uid: SuperOffice.WebApi.Data.TicketRelationEntity
+    name: TicketRelationEntity
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
   - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
     name: TicketSecurityLevel
   - uid: SuperOffice.WebApi.Data.TicketStatusEntity

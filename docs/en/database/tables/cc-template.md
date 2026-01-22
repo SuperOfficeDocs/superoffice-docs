@@ -35,7 +35,6 @@ This table contains templates for the customer center
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|cc\_template\_id |PK |Clustered, Unique |
 |key |String(255) |Index |
 
 ## Relationships

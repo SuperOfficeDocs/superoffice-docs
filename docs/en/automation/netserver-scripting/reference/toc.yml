@@ -14,6 +14,8 @@ items:
     href: aiagent/answerasync.md
   - name: AnswerFeedbackAsync
     href: aiagent/answerfeedbackasync.md
+  - name: CancelIndexingAsync
+    href: aiagent/cancelindexingasync.md
   - name: ClearChatbotTurnsAsync
     href: aiagent/clearchatbotturnsasync.md
   - name: CreateDefaultCopilotDataSourceEntityAsync
@@ -46,6 +48,8 @@ items:
     href: aiagent/getformdesignfromimageasync.md
   - name: GetFormDesignFromUrlAsync
     href: aiagent/getformdesignfromurlasync.md
+  - name: GetIndexingStatusAsync
+    href: aiagent/getindexingstatusasync.md
   - name: GetSummarizeContactPromptAsync
     href: aiagent/getsummarizecontactpromptasync.md
   - name: GetSummarizeSalePromptAsync
@@ -56,6 +60,10 @@ items:
     href: aiagent/gettrainingstatusasync.md
   - name: GuessCategoryAsync
     href: aiagent/guesscategoryasync.md
+  - name: ParseQueryIntoRestrictionsAsync
+    href: aiagent/parsequeryintorestrictionsasync.md
+  - name: RemovePhotoBackgroundAsync
+    href: aiagent/removephotobackgroundasync.md
   - name: RephraseTextAsync
     href: aiagent/rephrasetextasync.md
   - name: SaveCopilotDataSourceEntityAsync
@@ -962,6 +970,8 @@ items:
     href: diagnosticsagent/flushcachesasync.md
   - name: FlushCachesByNameAsync
     href: diagnosticsagent/flushcachesbynameasync.md
+  - name: GetAnalyticsDataAsync
+    href: diagnosticsagent/getanalyticsdataasync.md
   - name: GetCacheInvalidationGenerationsAsync
     href: diagnosticsagent/getcacheinvalidationgenerationsasync.md
   - name: GetCacheNamesAsync
@@ -996,6 +1006,10 @@ items:
     href: diagnosticsagent/resyncusersasync.md
   - name: SendSystemMessageAsync
     href: diagnosticsagent/sendsystemmessageasync.md
+  - name: TrackEventAsync
+    href: diagnosticsagent/trackeventasync.md
+  - name: TrackUserAsync
+    href: diagnosticsagent/trackuserasync.md
   - name: WebAppUsageExistsInPeriodAsync
     href: diagnosticsagent/webappusageexistsinperiodasync.md
 - name: DocumentAgent
@@ -1791,6 +1805,8 @@ items:
     href: listagent/createdefaultticketcategoryentityasync.md
   - name: CreateDefaultTicketPriorityEntityAsync
     href: listagent/createdefaultticketpriorityentityasync.md
+  - name: CreateDefaultTicketRelationDefinitionEntityAsync
+    href: listagent/createdefaultticketrelationdefinitionentityasync.md
   - name: CreateDefaultTicketStatusEntityAsync
     href: listagent/createdefaultticketstatusentityasync.md
   - name: CreateDefaultTicketTypeEntityAsync
@@ -1833,6 +1849,8 @@ items:
     href: listagent/deleteticketcategoryentityasync.md
   - name: DeleteTicketPriorityEntityAsync
     href: listagent/deleteticketpriorityentityasync.md
+  - name: DeleteTicketRelationDefinitionEntityAsync
+    href: listagent/deleteticketrelationdefinitionentityasync.md
   - name: DeleteTicketStatusEntityAsync
     href: listagent/deleteticketstatusentityasync.md
   - name: DeleteTicketTypeEntityAsync
@@ -2197,6 +2215,8 @@ items:
     href: listagent/getticketpriorityentityasync.md
   - name: GetTicketPriorityListAsync
     href: listagent/getticketprioritylistasync.md
+  - name: GetTicketRelationDefinitionEntityAsync
+    href: listagent/getticketrelationdefinitionentityasync.md
   - name: GetTicketStatusEntityAsync
     href: listagent/getticketstatusentityasync.md
   - name: GetTicketStatusesAsync
@@ -2227,6 +2247,8 @@ items:
     href: listagent/moveallticketsasync.md
   - name: MoveListItemAsync
     href: listagent/movelistitemasync.md
+  - name: PerformNeededCategoryUpdateAsync
+    href: listagent/performneededcategoryupdateasync.md
   - name: RebuildFullnamesAsync
     href: listagent/rebuildfullnamesasync.md
   - name: SaveAllAutomatedCategoryUpdatesAsync
@@ -2299,6 +2321,8 @@ items:
     href: listagent/saveticketcategoryentityasync.md
   - name: SaveTicketPriorityEntityAsync
     href: listagent/saveticketpriorityentityasync.md
+  - name: SaveTicketRelationDefinitionEntityAsync
+    href: listagent/saveticketrelationdefinitionentityasync.md
   - name: SaveTicketStatusEntityAsync
     href: listagent/saveticketstatusentityasync.md
   - name: SaveTicketTypeEntityAsync
@@ -2337,6 +2361,8 @@ items:
     href: listagent/setticketcategoriesforusergroupasync.md
   - name: SetTicketPrioritySortOrderAsync
     href: listagent/setticketprioritysortorderasync.md
+  - name: SetTicketRelationDefinitionSortOrderAsync
+    href: listagent/setticketrelationdefinitionsortorderasync.md
   - name: SetTicketStatusSortOrderAsync
     href: listagent/setticketstatussortorderasync.md
   - name: SetTicketTypeSortOrderAsync
@@ -2358,6 +2384,8 @@ items:
   items:
   - name: CalculateMailingStatisticsAsync
     href: marketingagent/calculatemailingstatisticsasync.md
+  - name: CreateDefaultAvailableFontAsync
+    href: marketingagent/createdefaultavailablefontasync.md
   - name: CreateDefaultFormEntityAsync
     href: marketingagent/createdefaultformentityasync.md
   - name: CreateDefaultFormSubmissionEntityAsync
@@ -2366,6 +2394,8 @@ items:
     href: marketingagent/createdefaultshipmentmessageblockentityasync.md
   - name: CreateDefaultShipmentMessageEntityAsync
     href: marketingagent/createdefaultshipmentmessageentityasync.md
+  - name: DeleteAvailableFontAsync
+    href: marketingagent/deleteavailablefontasync.md
   - name: DeleteFormEntityAsync
     href: marketingagent/deleteformentityasync.md
   - name: DeleteFormSubmissionEntityAsync
@@ -2376,6 +2406,8 @@ items:
     href: marketingagent/deleteshipmentmessageblockentityasync.md
   - name: DeleteShipmentMessageEntityAsync
     href: marketingagent/deleteshipmentmessageentityasync.md
+  - name: GetAvailableFontAsync
+    href: marketingagent/getavailablefontasync.md
   - name: GetFormEntityAsync
     href: marketingagent/getformentityasync.md
   - name: GetFormSubmissionEntityAsync
@@ -2394,6 +2426,8 @@ items:
     href: marketingagent/getuserblocksasync.md
   - name: RenameMailingByMessageIdAsync
     href: marketingagent/renamemailingbymessageidasync.md
+  - name: SaveAvailableFontAsync
+    href: marketingagent/saveavailablefontasync.md
   - name: SaveFormEntityAsync
     href: marketingagent/saveformentityasync.md
   - name: SaveFormSubmissionEntityAsync
@@ -2402,6 +2436,8 @@ items:
     href: marketingagent/saveshipmentmessageblockentityasync.md
   - name: SaveShipmentMessageEntityAsync
     href: marketingagent/saveshipmentmessageentityasync.md
+  - name: SetFontRankAsync
+    href: marketingagent/setfontrankasync.md
   - name: VerifyGoogleRecaptchaAsync
     href: marketingagent/verifygooglerecaptchaasync.md
 - name: MDOAgent
@@ -3385,12 +3421,16 @@ items:
     href: ticketagent/createdefaultticketentityasync.md
   - name: CreateDefaultTicketMessageEntityAsync
     href: ticketagent/createdefaultticketmessageentityasync.md
+  - name: CreateDefaultTicketRelationEntityAsync
+    href: ticketagent/createdefaultticketrelationentityasync.md
   - name: DeleteMessageHeadersAsync
     href: ticketagent/deletemessageheadersasync.md
   - name: DeleteTicketEntityAsync
     href: ticketagent/deleteticketentityasync.md
   - name: DeleteTicketMessageEntityAsync
     href: ticketagent/deleteticketmessageentityasync.md
+  - name: DeleteTicketRelationEntityAsync
+    href: ticketagent/deleteticketrelationentityasync.md
   - name: DoEscalatingAsync
     href: ticketagent/doescalatingasync.md
   - name: GetAttachmentEntityAsync
@@ -3471,6 +3511,8 @@ items:
     href: ticketagent/saveticketmessageentitywithnotifyasync.md
   - name: SaveTicketMessageEntityWithOptionsAsync
     href: ticketagent/saveticketmessageentitywithoptionsasync.md
+  - name: SaveTicketRelationEntityAsync
+    href: ticketagent/saveticketrelationentityasync.md
   - name: SendTicketMessageAsync
     href: ticketagent/sendticketmessageasync.md
   - name: SendTicketMessageSmsAsync

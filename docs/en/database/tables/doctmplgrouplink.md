@@ -34,7 +34,6 @@ User group link table for DocTmpl, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|doctmplgrouplink\_id |PK |Clustered, Unique |
 |doctmpl\_id |FK |Index |
 |group\_id |FK |Index |
 

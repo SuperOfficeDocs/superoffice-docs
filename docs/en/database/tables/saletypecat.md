@@ -37,7 +37,6 @@ Category for sale type
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SaleTypeCat\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

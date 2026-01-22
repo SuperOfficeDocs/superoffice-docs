@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type\_status Table (544)
+# ticket\_type\_status Table (545)
 
 Link table defining what Statuses are relevant to a particular Ticket type
 
@@ -34,7 +34,6 @@ Link table defining what Statuses are relevant to a particular Ticket type
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ticket\_type\_status\_id |PK |Clustered, Unique |
 
 ## Relationships
 

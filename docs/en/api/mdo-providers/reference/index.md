@@ -89,7 +89,7 @@ envir: onsite, online
 | [attachment](attachment.md) ||
 | [business](business.md) |GenericMDOProvider reads MDO lists with default settings|
 | [category](category.md) |GenericMDOProvider reads MDO lists with default settings|
-| [categorygroup](categorygroup.md) |MDO provider for the WorkflowGoalType enum|
+| [categorygroup](categorygroup.md) |MDO provider for the CategoryGroup enum.|
 | [chartselection](chartselection.md) ||
 | [chatbot](chatbot.md) |List of all script folders that contain a script named like "%bot%register%"|
 | [chatchannel](chatchannel.md) ||
@@ -186,6 +186,7 @@ envir: onsite, online
 | [filterfuturedate](filterfuturedate.md) |MDO provider for the hard-coded list of future date alternatives in the Filter dialog|
 | [filtergroups](filtergroups.md) |User groups, filtered according to the usergroups selected in the filter dialog.|
 | [findproduct](findproduct.md) |QuickSearch for the Add Quote Line dialog, where a single-line user input is passed to th|
+| [font](font.md) |List provider for availablefonts table.|
 | [fontsize](fontsize.md) |List of font types|
 | [fonttype](fonttype.md) |List of font types|
 | [form](form.md) |Get all forms with folder hierarchy|
@@ -221,7 +222,9 @@ envir: onsite, online
 | [intent](intent.md) |GenericMDOProvider reads MDO lists with default settings|
 | [invitationtemplatelanguage](invitationtemplatelanguage.md) ||
 | [iso639language](iso639language.md) ||
+| [kbaccesslevel](kbaccesslevel.md) |MDO provider for the KbAccessLevel enum|
 | [kbentry](kbentry.md) ||
+| [kbworkflow](kbworkflow.md) |MDO list provider for KB Workflow.|
 | [language](language.md) ||
 | [leadstatus](leadstatus.md) |List provider for LeadStatus|
 | [legalbase](legalbase.md) |MDO list provider for Legal base|
@@ -245,6 +248,7 @@ envir: onsite, online
 | [month](month.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [mrmrs](mrmrs.md) |GenericMDOProvider reads MDO lists with default settings|
 | [ofmonth](ofmonth.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
+| [onlinefontlibrary](onlinefontlibrary.md) |MDO provider for the available fonts from the Online Template Library.|
 | [ownercontact](ownercontact.md) |MDO provider for listing owner contacts.|
 | [paymentterms](paymentterms.md) |GenericMDOProvider reads MDO lists with default settings|
 | [paymenttype](paymenttype.md) |GenericMDOProvider reads MDO lists with default settings|
@@ -350,6 +354,7 @@ envir: onsite, online
 | [relationssearchlistprovidersalesaleactive](relationssearchlistprovidersalesaleactive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [relationssearchlistprovidersalesalepassive](relationssearchlistprovidersalesalepassive.md) |Serve the active and passive texts of relations, with a given table as source (active|
 | [replytemplate](replytemplate.md) ||
+| [replytemplateaccesslevel](replytemplateaccesslevel.md) |MDO provider for the ReplyTemplateAccessLevel enum|
 | [resource](resource.md) |MDO provider for resources (from the associate table)|
 | [resourcerestrictions](resourcerestrictions.md) |MDO provider for resources (from the associate table) that uses restrictions to includ|
 | [restrictionoperators](restrictionoperators.md) |This SoList provider will generate the operator list for a given search criterion data type. The data type i|
@@ -423,6 +428,8 @@ envir: onsite, online
 | [ticketpriority](ticketpriority.md) |MDO list provider for ticket priorities.|
 | [ticketpriorityescalateevent](ticketpriorityescalateevent.md) |MDO list provider for ticket Priority EscalateEvents enum.|
 | [ticketread](ticketread.md) ||
+| [ticketrelationdefinition](ticketrelationdefinition.md) |MDO list provider for ticket relation definitions.|
+| [ticketrelationtype](ticketrelationtype.md) |Ticket Relation Type|
 | [ticketselectionwithstaticmenu](ticketselectionwithstaticmenu.md) |Provider for selecting ticket selections|
 | [ticketslevel](ticketslevel.md) |Ticket Security Level|
 | [ticketstatus](ticketstatus.md) |Ticket status values: Open, Closed, Inactive, Deleted, Connected|

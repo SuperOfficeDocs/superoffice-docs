@@ -37,7 +37,6 @@ Business list table
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|business\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

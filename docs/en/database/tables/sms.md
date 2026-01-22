@@ -40,7 +40,6 @@ This table will hold outgoing sms messages when transmitted with WebServices
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |outbox\_id |FK |Index |
 |reference\_key |String(255) |Index |
 |session\_key |String(255) |Index |

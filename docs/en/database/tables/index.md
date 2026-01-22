@@ -39,6 +39,7 @@ envir: onsite, online
 | [AudienceVisibility](audiencevisibility.md) |How projects (or whatever) should be made visible in audience| 232 |
 | [AutomatedCategoryUpdate](automatedcategoryupdate.md) |Info on how to autoupdate category when changing sale or leadstatus on person| 541 |
 | [autosave](autosave.md) |Autosaved text clobs from ejscript and emarketeer messages| 402 |
+| [available\_fonts](available-fonts.md) |This table contains all fonts selected to be available for external usage| 542 |
 | [BaseTZLocation](basetzlocation.md) |Time zone location for the database (how tz-related datetimes should be stored in the database)| 248 |
 | [BatchTask](batchtask.md) |Batch task request details, corresponding to the message body of a batch request message| 243 |
 | [BatchTaskDefinition](batchtaskdefinition.md) |Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute| 244 |
@@ -493,14 +494,14 @@ envir: onsite, online
 | [ticket\_log\_action](ticket-log-action.md) |This table contains actions for the tickets.| 269 |
 | [ticket\_log\_change](ticket-log-change.md) |This table contains log entries for the tickets.| 268 |
 | [ticket\_priority](ticket-priority.md) |This table contains the ticket priorities.| 275 |
-| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition| 546 |
-| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets| 547 |
-| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition| 545 |
+| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition| 547 |
+| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets| 548 |
+| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition| 546 |
 | [ticket\_status](ticket-status.md) |This table user defined ticket status values.| 263 |
 | [ticket\_status\_history](ticket-status-history.md) |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved | 261 |
-| [ticket\_type](ticket-type.md) |A ticket (request) type| 542 |
-| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type| 543 |
-| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type| 544 |
+| [ticket\_type](ticket-type.md) |A ticket (request) type| 543 |
+| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type| 544 |
+| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type| 545 |
 | [time\_keeping](time-keeping.md) |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state| 501 |
 | [timestamps](timestamps.md) |Timestamp information| 300 |
 | [travelcurrent](travelcurrent.md) |Information about this database and its place in the hierarchy| 32 |

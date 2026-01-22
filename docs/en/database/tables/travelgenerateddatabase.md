@@ -38,7 +38,6 @@ Information about all databases generated from this database
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|travelgenerateddatabase\_id |PK |Clustered, Unique |
 
 ## Relationships
 

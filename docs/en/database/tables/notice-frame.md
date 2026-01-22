@@ -33,7 +33,6 @@ PID controller for automatic adjustment of pop up message check rate
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

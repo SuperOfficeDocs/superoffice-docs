@@ -52,7 +52,6 @@ ExtApp list table. Applications startable from SuperOffice
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ExtApp\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

@@ -35,7 +35,6 @@ Attachment info related to an email_item
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_attachment\_id |PK |Clustered, Unique |
 |email\_item\_id |FK |Index |
 
 ## Relationships

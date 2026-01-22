@@ -283,6 +283,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [RecyclePerson](RecyclePerson.md)
 * [RecycleTicket](RecycleTicket.md)
 * [RejectedInvitation](RejectedInvitation.md)
+* [RelatedTickets](RelatedTickets.md)
 * [Relation](Relation.md)
 * [ReportLabelLayout](ReportLabelLayout.md)
 * [RequestNotification](RequestNotification.md)

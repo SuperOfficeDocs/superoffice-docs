@@ -11513,6 +11513,8 @@
       href: Services88/AI/AnswerAccepted.md
     - name: AnswerFeedback
       href: Services88/AI/AnswerFeedback.md
+    - name: CancelIndexing
+      href: Services88/AI/CancelIndexing.md
     - name: ClearChatbotTurns
       href: Services88/AI/ClearChatbotTurns.md
     - name: CreateDefaultCopilotDataSourceEntity
@@ -11545,6 +11547,8 @@
       href: Services88/AI/GetFormDesignFromImage.md
     - name: GetFormDesignFromUrl
       href: Services88/AI/GetFormDesignFromUrl.md
+    - name: GetIndexingStatus
+      href: Services88/AI/GetIndexingStatus.md
     - name: GetSummarizeContactPrompt
       href: Services88/AI/GetSummarizeContactPrompt.md
     - name: GetSummarizeSalePrompt
@@ -11555,6 +11559,10 @@
       href: Services88/AI/GetTrainingStatus.md
     - name: GuessCategory
       href: Services88/AI/GuessCategory.md
+    - name: ParseQueryIntoRestrictions
+      href: Services88/AI/ParseQueryIntoRestrictions.md
+    - name: RemovePhotoBackground
+      href: Services88/AI/RemovePhotoBackground.md
     - name: RephraseText
       href: Services88/AI/RephraseText.md
     - name: SaveCopilotDataSourceEntity
@@ -12583,6 +12591,8 @@
       href: Services88/Diagnostics/FlushCaches.md
     - name: FlushCachesByName
       href: Services88/Diagnostics/FlushCachesByName.md
+    - name: GetAnalyticsData
+      href: Services88/Diagnostics/GetAnalyticsData.md
     - name: GetCacheInvalidationGenerations
       href: Services88/Diagnostics/GetCacheInvalidationGenerations.md
     - name: GetCacheNames
@@ -12617,6 +12627,10 @@
       href: Services88/Diagnostics/ResyncUsers.md
     - name: SendSystemMessage
       href: Services88/Diagnostics/SendSystemMessage.md
+    - name: TrackEvent
+      href: Services88/Diagnostics/TrackEvent.md
+    - name: TrackUser
+      href: Services88/Diagnostics/TrackUser.md
     - name: WebAppUsageExistsInPeriod
       href: Services88/Diagnostics/WebAppUsageExistsInPeriod.md
   - name: Document
@@ -13433,6 +13447,8 @@
       href: Services88/List/CreateDefaultTicketCategoryEntity.md
     - name: CreateDefaultTicketPriorityEntity
       href: Services88/List/CreateDefaultTicketPriorityEntity.md
+    - name: CreateDefaultTicketRelationDefinitionEntity
+      href: Services88/List/CreateDefaultTicketRelationDefinitionEntity.md
     - name: CreateDefaultTicketStatusEntity
       href: Services88/List/CreateDefaultTicketStatusEntity.md
     - name: CreateDefaultTicketTypeEntity
@@ -13475,6 +13491,8 @@
       href: Services88/List/DeleteTicketCategoryEntity.md
     - name: DeleteTicketPriorityEntity
       href: Services88/List/DeleteTicketPriorityEntity.md
+    - name: DeleteTicketRelationDefinitionEntity
+      href: Services88/List/DeleteTicketRelationDefinitionEntity.md
     - name: DeleteTicketStatusEntity
       href: Services88/List/DeleteTicketStatusEntity.md
     - name: DeleteTicketTypeEntity
@@ -13839,6 +13857,8 @@
       href: Services88/List/GetTicketPriorityEntity.md
     - name: GetTicketPriorityList
       href: Services88/List/GetTicketPriorityList.md
+    - name: GetTicketRelationDefinitionEntity
+      href: Services88/List/GetTicketRelationDefinitionEntity.md
     - name: GetTicketStatusEntity
       href: Services88/List/GetTicketStatusEntity.md
     - name: GetTicketStatuses
@@ -13869,6 +13889,8 @@
       href: Services88/List/MoveAllTickets.md
     - name: MoveListItem
       href: Services88/List/MoveListItem.md
+    - name: PerformNeededCategoryUpdate
+      href: Services88/List/PerformNeededCategoryUpdate.md
     - name: RebuildFullnames
       href: Services88/List/RebuildFullnames.md
     - name: SaveAllAutomatedCategoryUpdates
@@ -13941,6 +13963,8 @@
       href: Services88/List/SaveTicketCategoryEntity.md
     - name: SaveTicketPriorityEntity
       href: Services88/List/SaveTicketPriorityEntity.md
+    - name: SaveTicketRelationDefinitionEntity
+      href: Services88/List/SaveTicketRelationDefinitionEntity.md
     - name: SaveTicketStatusEntity
       href: Services88/List/SaveTicketStatusEntity.md
     - name: SaveTicketTypeEntity
@@ -13979,6 +14003,8 @@
       href: Services88/List/SetTicketCategoriesForUserGroup.md
     - name: SetTicketPrioritySortOrder
       href: Services88/List/SetTicketPrioritySortOrder.md
+    - name: SetTicketRelationDefinitionSortOrder
+      href: Services88/List/SetTicketRelationDefinitionSortOrder.md
     - name: SetTicketStatusSortOrder
       href: Services88/List/SetTicketStatusSortOrder.md
     - name: SetTicketTypeSortOrder
@@ -14000,6 +14026,8 @@
     items:
     - name: CalculateMailingStatistics
       href: Services88/Marketing/CalculateMailingStatistics.md
+    - name: CreateDefaultAvailableFont
+      href: Services88/Marketing/CreateDefaultAvailableFont.md
     - name: CreateDefaultFormEntity
       href: Services88/Marketing/CreateDefaultFormEntity.md
     - name: CreateDefaultFormSubmissionEntity
@@ -14008,6 +14036,8 @@
       href: Services88/Marketing/CreateDefaultShipmentMessageBlockEntity.md
     - name: CreateDefaultShipmentMessageEntity
       href: Services88/Marketing/CreateDefaultShipmentMessageEntity.md
+    - name: DeleteAvailableFont
+      href: Services88/Marketing/DeleteAvailableFont.md
     - name: DeleteFormEntity
       href: Services88/Marketing/DeleteFormEntity.md
     - name: DeleteFormSubmissionEntity
@@ -14018,6 +14048,8 @@
       href: Services88/Marketing/DeleteShipmentMessageBlockEntity.md
     - name: DeleteShipmentMessageEntity
       href: Services88/Marketing/DeleteShipmentMessageEntity.md
+    - name: GetAvailableFont
+      href: Services88/Marketing/GetAvailableFont.md
     - name: GetFormEntity
       href: Services88/Marketing/GetFormEntity.md
     - name: GetFormSubmissionEntity
@@ -14036,6 +14068,8 @@
       href: Services88/Marketing/GetUserBlocks.md
     - name: RenameMailingByMessageId
       href: Services88/Marketing/RenameMailingByMessageId.md
+    - name: SaveAvailableFont
+      href: Services88/Marketing/SaveAvailableFont.md
     - name: SaveFormEntity
       href: Services88/Marketing/SaveFormEntity.md
     - name: SaveFormSubmissionEntity
@@ -14044,6 +14078,8 @@
       href: Services88/Marketing/SaveShipmentMessageBlockEntity.md
     - name: SaveShipmentMessageEntity
       href: Services88/Marketing/SaveShipmentMessageEntity.md
+    - name: SetFontRank
+      href: Services88/Marketing/SetFontRank.md
     - name: VerifyGoogleRecaptcha
       href: Services88/Marketing/VerifyGoogleRecaptcha.md
   - name: MDO
@@ -15069,12 +15105,16 @@
       href: Services88/Ticket/CreateDefaultTicketEntity.md
     - name: CreateDefaultTicketMessageEntity
       href: Services88/Ticket/CreateDefaultTicketMessageEntity.md
+    - name: CreateDefaultTicketRelationEntity
+      href: Services88/Ticket/CreateDefaultTicketRelationEntity.md
     - name: DeleteMessageHeaders
       href: Services88/Ticket/DeleteMessageHeaders.md
     - name: DeleteTicketEntity
       href: Services88/Ticket/DeleteTicketEntity.md
     - name: DeleteTicketMessageEntity
       href: Services88/Ticket/DeleteTicketMessageEntity.md
+    - name: DeleteTicketRelationEntity
+      href: Services88/Ticket/DeleteTicketRelationEntity.md
     - name: DoEscalating
       href: Services88/Ticket/DoEscalating.md
     - name: GetAttachmentEntity
@@ -15155,6 +15195,8 @@
       href: Services88/Ticket/SaveTicketMessageEntityWithNotify.md
     - name: SaveTicketMessageEntityWithOptions
       href: Services88/Ticket/SaveTicketMessageEntityWithOptions.md
+    - name: SaveTicketRelationEntity
+      href: Services88/Ticket/SaveTicketRelationEntity.md
     - name: SendTicketMessage
       href: Services88/Ticket/SendTicketMessage.md
     - name: SendTicketMessageSms

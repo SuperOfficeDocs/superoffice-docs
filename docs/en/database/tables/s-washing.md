@@ -31,7 +31,6 @@ Register of all bounced mail to enabel washing
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

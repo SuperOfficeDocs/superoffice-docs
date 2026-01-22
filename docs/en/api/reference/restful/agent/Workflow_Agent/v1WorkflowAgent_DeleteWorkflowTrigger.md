@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | workflowTriggerId | int32 | **Required** The identity of the WorkflowTrigger |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?workflowTriggerId=980
+POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?workflowTriggerId=60
 ```
 
 

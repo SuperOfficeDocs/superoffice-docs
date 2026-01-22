@@ -34,7 +34,6 @@ Mapping between recipes in scil and chosen type of data (appliesToKey) to differ
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|configurablescreenappliesto\_id |PK |Clustered, Unique |
 
 ## Relationships
 

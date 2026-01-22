@@ -40,7 +40,6 @@ Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sal
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|AmountClass\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 |amountFrom |Double |Index |
 |amountTo |Double |Index |

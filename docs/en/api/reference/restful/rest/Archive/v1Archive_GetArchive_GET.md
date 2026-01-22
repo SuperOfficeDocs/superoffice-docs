@@ -141,16 +141,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=sit
-GET /api/v1/Archive/{archiveProviderName}?$top=159
-GET /api/v1/Archive/{archiveProviderName}?$skip=238
+GET /api/v1/Archive/{archiveProviderName}?$entities=blanditiis
+GET /api/v1/Archive/{archiveProviderName}?$top=12
+GET /api/v1/Archive/{archiveProviderName}?$skip=93
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=eos
+GET /api/v1/Archive/{archiveProviderName}?$context=voluptatum
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=deserunt
+GET /api/v1/Archive/{archiveProviderName}?$metadata=et
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 

@@ -101,6 +101,7 @@ items:
   - SuperOffice.CRM.Rows.AudienceVisibilityRows
   - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
   - SuperOffice.CRM.Rows.AutosaveRows
+  - SuperOffice.CRM.Rows.AvailableFontsRows
   - SuperOffice.CRM.Rows.BaseTZLocationRows
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRows
   - SuperOffice.CRM.Rows.BatchTaskRows

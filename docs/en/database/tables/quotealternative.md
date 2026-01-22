@@ -53,7 +53,6 @@ Quote Version is made up of one or more Alternatives. One of 1..n possible alter
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quotealternative\_id |PK |Clustered, Unique |
 |ERPQuoteAlternativeKey |String(254) |Index |
 |QuoteVersionId |FK |Index |
 

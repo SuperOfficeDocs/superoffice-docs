@@ -67,6 +67,10 @@ Application tokens must be specified if calling an Online installation. Applicat
     <List:Id xsi:type="xsd:int">0</List:Id>
     <List:Value xsi:type="xsd:string"></List:Value>
     <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
+    <List:CategoryGroup xsi:type="List:CategoryGroup">Unknown</List:CategoryGroup>
+    <List:EnableLeadStatus xsi:type="xsd:boolean">false</List:EnableLeadStatus>
+    <List:Rank xsi:type="xsd:short">0</List:Rank>
+    <List:Deleted xsi:type="xsd:boolean">false</List:Deleted>
    </List:Response>
   </List:GetCategoryResponse>
  </SOAP-ENV:Body>

@@ -33,7 +33,6 @@ This table stores info on installed packages in the system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ejpackage |FK |Index |
 |domain |Int |Index |
 |item\_id |Int |Index |

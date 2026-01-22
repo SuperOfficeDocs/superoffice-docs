@@ -51,7 +51,6 @@ SuperOffice specific info about a workflow
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 |visible\_for\_associates, visible\_for\_groups, remove\_from\_flows, block\_lists |FKArray, FKArray, FKArray, FKArray |Full text |
 

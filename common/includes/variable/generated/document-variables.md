@@ -6,7 +6,7 @@
 | Date | sdat | Date in short format, e.g. 10.12.01 |
 | DateLong | date | Date in long format, e.g. 10 December 2001 |
 | DateLongSpecial | dat1 | Date in special long format, e.g. 10 December 2001 |
-| Description | desc | Description of the created document |
+| Description | desc | Text from the document details. |
 | FileName | file | Name of the document, without the path (e.g. SUPER001.DOC) |
 | Header | head | The heading for the created document |
 | OurReference | oref | Our reference |

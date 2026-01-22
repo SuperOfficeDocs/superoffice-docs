@@ -40,7 +40,6 @@ Authentication for a service (imap, smtp...)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|service\_auth\_id |PK |Clustered, Unique |
 
 ## Relationships
 

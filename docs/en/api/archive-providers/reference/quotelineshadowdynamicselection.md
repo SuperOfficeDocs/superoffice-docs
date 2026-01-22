@@ -170,7 +170,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
-|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
@@ -178,7 +178,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -774,7 +774,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/erpDiscountPercent,alternative/version/quote/sale/associateId,alternative/version/quote/sale/hasStakeholders,alternative/version/quote/sale/hasGuide,alternative/version/quote/sale/person/personAssociate/ejDisplayName
+GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/quote/sale/stageName,alternative/version/quote/sale/hasQuote,alternative/version/quote/sale/person/personUpdatedByFullName,alternative/version/quote/sale/person/searchPhone/formattedNumber,alternative/version/quote/sale/person/personAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

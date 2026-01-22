@@ -29,7 +29,6 @@ This table connects FAQ entries to attachments.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
 |attachment\_id |FK |Index |
 

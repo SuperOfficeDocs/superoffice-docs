@@ -39,7 +39,6 @@ Parts of recipes in SCIL to insert or remove in given recipes
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|configurablescreendelta\_id |PK |Clustered, Unique |
 |recipeId |String(255) |Index |
 
 ## Relationships

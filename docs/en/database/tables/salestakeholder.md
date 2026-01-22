@@ -38,7 +38,6 @@ Stakeholders in the sale, very similar to project members
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|salestakeholder\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 

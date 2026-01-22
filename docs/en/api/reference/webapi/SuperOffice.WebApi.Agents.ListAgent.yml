@@ -31,6 +31,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTaskMenuAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketCategoryEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketPriorityEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketStatusEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketTypeEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.CreateDefaultWebPanelEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -52,6 +53,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.DeleteTaskMenuAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.DeleteTicketCategoryEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.DeleteTicketPriorityEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.DeleteTicketStatusEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.DeleteTicketTypeEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.DeleteWebPanelAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -234,6 +236,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.GetTicketPriorityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.GetTicketPriorityEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.GetTicketPriorityListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusesAsync(SuperOffice.WebApi.RequestOptions)
@@ -249,6 +252,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.GlobalChangeTicketTypeAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.MoveAllTicketsAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.MoveListItemAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.RebuildFullnamesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveAllAutomatedCategoryUpdatesAsync(SuperOffice.WebApi.Data.AutomatedCategoryUpdate[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveAllFromListDefinitionAsync(System.Int32,SuperOffice.WebApi.Data.ListItemEntity[],SuperOffice.WebApi.RequestOptions)
@@ -285,6 +289,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.SaveTaskMenuAsync(SuperOffice.WebApi.Data.TaskMenu,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveTicketCategoryEntityAsync(SuperOffice.WebApi.Data.TicketCategoryEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveTicketPriorityEntityAsync(SuperOffice.WebApi.Data.TicketPriorityEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveTicketStatusEntityAsync(SuperOffice.WebApi.Data.TicketStatusEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveTicketTypeEntityAsync(SuperOffice.WebApi.Data.TicketTypeEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SaveWebPanelEntityAsync(SuperOffice.WebApi.Data.WebPanelEntity,SuperOffice.WebApi.RequestOptions)
@@ -304,6 +309,7 @@ items:
   - SuperOffice.WebApi.Agents.ListAgent.SetRankOnSaleDocumentAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetTicketCategoriesForUserGroupAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetTicketPrioritySortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetTicketStatusSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetTicketTypeSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ListAgent.SetVisibleForUserGroupAsync(System.Int32,System.Int32,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -1698,6 +1704,104 @@ items:
   nameWithType.vb: ListAgent.DeleteTicketPriorityEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketPriorityEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: DeleteTicketPriorityEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketRelationDefinitionEntityAsync(RequestOptions)
+  nameWithType: ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new TicketRelationDefinitionEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: public Task<TicketRelationDefinitionEntity> CreateDefaultTicketRelationDefinitionEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationDefinitionEntity}
+      description: A blank TicketRelationDefinitionEntity
+    content.vb: Public Function CreateDefaultTicketRelationDefinitionEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationDefinitionEntity)
+  overload: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity, RequestOptions)
+  nameWithType: ListAgent.SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing TicketRelationDefinitionEntity or creates a new TicketRelationDefinitionEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<TicketRelationDefinitionEntity> SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity ticketRelationDefinitionEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketRelationDefinitionEntity
+      type: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+      description: The TicketRelationDefinitionEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationDefinitionEntity}
+      description: New or updated TicketRelationDefinitionEntity
+    content.vb: Public Function SaveTicketRelationDefinitionEntityAsync(ticketRelationDefinitionEntity As TicketRelationDefinitionEntity, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationDefinitionEntity)
+  overload: SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  nameWithType: ListAgent.DeleteTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes the TicketRelationDefinitionEntity
+  example: []
+  syntax:
+    content: public Task DeleteTicketRelationDefinitionEntityAsync(int ticketRelationDefinitionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketRelationDefinitionEntityId
+      type: System.Int32
+      description: The identity of the TicketRelationDefinitionEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteTicketRelationDefinitionEntityAsync(ticketRelationDefinitionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ListAgent.DeleteTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketStatusEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketStatusEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultTicketStatusEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -2071,14 +2175,14 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get the settings for an update when saving a sale
+  summary: Before saving a sale, call this to see if the current changes on the sale should result in a userconfirmation dialog asking to automatically update category on contact or person
   example: []
   syntax:
     content: public Task<AutomatedCategoryUpdate> GetNeedCategoryUpdateForSaleAsync(SaleStatus saleStatus, int saleId, int contactId, int personId, RequestOptions requestOptions = null)
     parameters:
     - id: saleStatus
       type: SuperOffice.WebApi.Data.SaleStatus
-      description: The saleEntity that might trigger the category update
+      description: The new salestatus that might trigger the category update
     - id: saleId
       type: System.Int32
       description: The sale id that might trigger the category update
@@ -2115,14 +2219,14 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get the settings for an update when saving a sale
+  summary: Before saving a person with changed leadstatus, call this to see if we should ask for a userconfirmation to automatically update category on contact or person
   example: []
   syntax:
     content: public Task<AutomatedCategoryUpdate> GetNeedCategoryUpdateForPersonAsync(int leadStatus, int personId, int contactId, int categoryId, RequestOptions requestOptions = null)
     parameters:
     - id: leadStatus
       type: System.Int32
-      description: The leadstatus that might trigger the category update
+      description: The new leadstatus that might trigger the category update
     - id: personId
       type: System.Int32
       description: The person id that might trigger the category update
@@ -2145,6 +2249,50 @@ items:
   nameWithType.vb: ListAgent.GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ListAgent.GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetNeedCategoryUpdateForPersonAsync(Integer, Integer, Integer, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+  id: PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformNeededCategoryUpdateAsync(int, int, int, AutomatedCategoryUpdate, RequestOptions)
+  nameWithType: ListAgent.PerformNeededCategoryUpdateAsync(int, int, int, AutomatedCategoryUpdate, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync(int, int, int, SuperOffice.WebApi.Data.AutomatedCategoryUpdate, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Does the actual update of the category. Ask the user first, if user confirmed yes, do automatically update category, this call will do that actual update
+  example: []
+  syntax:
+    content: public Task PerformNeededCategoryUpdateAsync(int personId, int contactId, int categoryId, AutomatedCategoryUpdate setting, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id that will get the resulting update
+    - id: contactId
+      type: System.Int32
+      description: The contact id that will get the resulting update
+    - id: categoryId
+      type: System.Int32
+      description: The category id person and contact will be updated to
+    - id: setting
+      type: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+      description: The setting that triggered the update
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function PerformNeededCategoryUpdateAsync(personId As Integer, contactId As Integer, categoryId As Integer, setting As AutomatedCategoryUpdate, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ListAgent.PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, AutomatedCategoryUpdate, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, SuperOffice.WebApi.Data.AutomatedCategoryUpdate, SuperOffice.WebApi.RequestOptions)
+  name.vb: PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, AutomatedCategoryUpdate, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetBusinessAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.GetBusinessAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetBusinessAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -10363,6 +10511,79 @@ items:
   nameWithType.vb: ListAgent.GetAllTicketPrioritiesAsync(Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ListAgent.GetAllTicketPrioritiesAsync(Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: GetAllTicketPrioritiesAsync(Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  nameWithType: ListAgent.GetTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific TicketRelationDefinitionEntity object.
+  example: []
+  syntax:
+    content: public Task<TicketRelationDefinitionEntity> GetTicketRelationDefinitionEntityAsync(int ticketRelationDefinitionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketRelationDefinitionEntityId
+      type: System.Int32
+      description: The identifier of the TicketRelationDefinitionEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationDefinitionEntity}
+      description: TicketRelationDefinitionEntity
+    content.vb: Public Function GetTicketRelationDefinitionEntityAsync(ticketRelationDefinitionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationDefinitionEntity)
+  overload: SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ListAgent.GetTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: SetTicketRelationDefinitionSortOrderAsync(int, int, RequestOptions)
+  nameWithType: ListAgent.SetTicketRelationDefinitionSortOrderAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync(int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: This method will set sort order of ticket relation definition in a list
+  example: []
+  syntax:
+    content: public Task SetTicketRelationDefinitionSortOrderAsync(int ticketRelationDefId, int sortOrder, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketRelationDefId
+      type: System.Int32
+      description: Id of ticket relation definition
+    - id: sortOrder
+      type: System.Int32
+      description: Indicates the sort order for this relation definition. 1 is first. Any records following this one will be renumbered automatically
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetTicketRelationDefinitionSortOrderAsync(ticketRelationDefId As Integer, sortOrder As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTicketStatusEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -14691,6 +14912,187 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_CreateDefaultTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultTicketRelationDefinitionEntityAsync
+  nameWithType: ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_CreateDefaultTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultTicketRelationDefinitionEntityAsync(RequestOptions)
+  nameWithType: IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_CreateDefaultTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_CreateDefaultTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationDefinitionEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationDefinitionEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationDefinitionEntity>
+  nameWithType: Task<TicketRelationDefinitionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketRelationDefinitionEntity>
+  nameWithType.vb: Task(Of TicketRelationDefinitionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketRelationDefinitionEntity)
+  name.vb: Task(Of TicketRelationDefinitionEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_SaveTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveTicketRelationDefinitionEntityAsync
+  nameWithType: ListAgent.SaveTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SaveTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity, RequestOptions)
+  nameWithType: IListAgent.SaveTicketRelationDefinitionEntityAsync(TicketRelationDefinitionEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SaveTicketRelationDefinitionEntityAsync(SuperOffice.WebApi.Data.TicketRelationDefinitionEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveTicketRelationDefinitionEntityAsync_SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+    name: TicketRelationDefinitionEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+- uid: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_DeleteTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteTicketRelationDefinitionEntityAsync
+  nameWithType: ListAgent.DeleteTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.DeleteTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  nameWithType: IListAgent.DeleteTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IListAgent.DeleteTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.DeleteTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_DeleteTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketStatusEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.CreateDefaultTicketStatusEntityAsync
   isExternal: true
@@ -15608,6 +16010,102 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_PerformNeededCategoryUpdateAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_AutomatedCategoryUpdate_SuperOffice_WebApi_RequestOptions_
+  name: PerformNeededCategoryUpdateAsync
+  nameWithType: ListAgent.PerformNeededCategoryUpdateAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.PerformNeededCategoryUpdateAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_PerformNeededCategoryUpdateAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_AutomatedCategoryUpdate_SuperOffice_WebApi_RequestOptions_
+  name: PerformNeededCategoryUpdateAsync(int, int, int, AutomatedCategoryUpdate, RequestOptions)
+  nameWithType: IListAgent.PerformNeededCategoryUpdateAsync(int, int, int, AutomatedCategoryUpdate, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(int, int, int, SuperOffice.WebApi.Data.AutomatedCategoryUpdate, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IListAgent.PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, AutomatedCategoryUpdate, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, SuperOffice.WebApi.Data.AutomatedCategoryUpdate, SuperOffice.WebApi.RequestOptions)
+  name.vb: PerformNeededCategoryUpdateAsync(Integer, Integer, Integer, AutomatedCategoryUpdate, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+    name: PerformNeededCategoryUpdateAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_PerformNeededCategoryUpdateAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_AutomatedCategoryUpdate_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AutomatedCategoryUpdate.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.PerformNeededCategoryUpdateAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.AutomatedCategoryUpdate,SuperOffice.WebApi.RequestOptions)
+    name: PerformNeededCategoryUpdateAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_PerformNeededCategoryUpdateAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_AutomatedCategoryUpdate_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+    name: AutomatedCategoryUpdate
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AutomatedCategoryUpdate.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  commentId: T:SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AutomatedCategoryUpdate.html
+  name: AutomatedCategoryUpdate
+  nameWithType: AutomatedCategoryUpdate
+  fullName: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetBusinessAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.GetBusinessAsync
   isExternal: true
@@ -32523,6 +33021,122 @@ references:
     href: SuperOffice.WebApi.Data.TicketPriorityEntity.html
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_GetTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationDefinitionEntityAsync
+  nameWithType: ListAgent.GetTicketRelationDefinitionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.GetTicketRelationDefinitionEntityAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_GetTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  nameWithType: IListAgent.GetTicketRelationDefinitionEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IListAgent.GetTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationDefinitionEntityAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_GetTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.GetTicketRelationDefinitionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketRelationDefinitionEntityAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_GetTicketRelationDefinitionEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html#SuperOffice_WebApi_Agents_ListAgent_SetTicketRelationDefinitionSortOrderAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetTicketRelationDefinitionSortOrderAsync
+  nameWithType: ListAgent.SetTicketRelationDefinitionSortOrderAsync
+  fullName: SuperOffice.WebApi.Agents.ListAgent.SetTicketRelationDefinitionSortOrderAsync
+- uid: SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SetTicketRelationDefinitionSortOrderAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetTicketRelationDefinitionSortOrderAsync(int, int, RequestOptions)
+  nameWithType: IListAgent.SetTicketRelationDefinitionSortOrderAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(int, int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetTicketRelationDefinitionSortOrderAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SetTicketRelationDefinitionSortOrderAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IListAgent.SetTicketRelationDefinitionSortOrderAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetTicketRelationDefinitionSortOrderAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SetTicketRelationDefinitionSortOrderAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ListAgent.GetTicketStatusEntityAsync

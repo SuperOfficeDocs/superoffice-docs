@@ -85,7 +85,7 @@ as well as before any ORDER BY, are applied.
 |soldReason|listAny|Reason (sold: Reason (sold)| x |
 |saleNumber|string|Number: Number| x |
 |hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |description|string|Description: The long description field on Sale|  |
@@ -93,7 +93,7 @@ as well as before any ORDER BY, are applied.
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|daysInStage|int|Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1168,7 +1168,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=completed,project/saintDirection,saleStakeholder/person/personRegisteredByFullName,saleStakeholder/person/personAssociate/role,quote/version/alternative/discountPercent
+GET /api/v1/archive/FreetextSale?$select=updatedDate,person/personCategory,contact/updatedBy,contact/postAddress/formattedMultiLineAddress,associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

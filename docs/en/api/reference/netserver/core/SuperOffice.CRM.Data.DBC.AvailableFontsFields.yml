@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  id: DBC.AvailableFontsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.AvailableFontsId
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.CssPath
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.DisplayName
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.FontFamily
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.Rank
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.Registered
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.Updated
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.AvailableFontsFields
+  nameWithType: DBC.AvailableFontsFields
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for AvailableFonts, This table contains all fonts selected to be available for external usage
+  example: []
+  syntax:
+    content: public static class DBC.AvailableFontsFields
+    content.vb: Public Module DBC.AvailableFontsFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.AvailableFontsId
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.AvailableFontsId
+  id: AvailableFontsId
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: AvailableFontsId
+  nameWithType: DBC.AvailableFontsFields.AvailableFontsId
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.AvailableFontsId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.AvailableFontsId: Primary key'
+  example: []
+  syntax:
+    content: public const string AvailableFontsId = "available_fonts_id"
+    return:
+      type: System.String
+    content.vb: Public Const AvailableFontsId As String = "available_fonts_id"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.DisplayName
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: DBC.AvailableFontsFields.DisplayName
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.DisplayName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.DisplayName: The display name of the font'
+  example: []
+  syntax:
+    content: public const string DisplayName = "display_name"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayName As String = "display_name"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.FontFamily
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.FontFamily
+  id: FontFamily
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: FontFamily
+  nameWithType: DBC.AvailableFontsFields.FontFamily
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.FontFamily
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.FontFamily: The font family name'
+  example: []
+  syntax:
+    content: public const string FontFamily = "font_family"
+    return:
+      type: System.String
+    content.vb: Public Const FontFamily As String = "font_family"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.CssPath
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.CssPath
+  id: CssPath
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: CssPath
+  nameWithType: DBC.AvailableFontsFields.CssPath
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.CssPath
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.CssPath: The path to the CSS for the font'
+  example: []
+  syntax:
+    content: public const string CssPath = "css_path"
+    return:
+      type: System.String
+    content.vb: Public Const CssPath As String = "css_path"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.AvailableFontsFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Rank
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.Rank: The rank of the font in the list'
+  example: []
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.AvailableFontsFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.AvailableFontsFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.AvailableFontsFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.AvailableFontsFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.AvailableFontsFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

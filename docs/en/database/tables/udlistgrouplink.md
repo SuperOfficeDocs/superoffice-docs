@@ -34,7 +34,6 @@ User group link table for UDList, for MDO item hiding. Note - MDO mode for userd
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udlistgrouplink\_id |PK |Clustered, Unique |
 |udlist\_id |FK |Index |
 |group\_id |FK |Index |
 

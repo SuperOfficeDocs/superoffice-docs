@@ -353,6 +353,7 @@ content_type: reference
               <xs:element minOccurs="0" name="Icon" type="xs:short" />
               <xs:element minOccurs="0" name="AlwaysReloadOnShow" type="xs:boolean" />
               <xs:element minOccurs="0" name="NeverReloadOnCurrentChange" type="xs:boolean" />
+              <xs:element minOccurs="0" name="CustomObjectEntity" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -452,6 +453,8 @@ content_type: reference
           <xs:enumeration value="ProjectCardTask" />
           <xs:enumeration value="TicketCard" />
           <xs:enumeration value="TicketMinicard" />
+          <xs:enumeration value="CustomObjectCard" />
+          <xs:enumeration value="CustomObjectArchive" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Navigation" nillable="true" type="q49:Navigation" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />

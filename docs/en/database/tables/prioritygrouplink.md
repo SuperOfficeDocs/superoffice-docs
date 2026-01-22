@@ -34,7 +34,6 @@ User group link table for Priority, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|prioritygrouplink\_id |PK |Clustered, Unique |
 |priority\_id |FK |Index |
 |group\_id |FK |Index |
 

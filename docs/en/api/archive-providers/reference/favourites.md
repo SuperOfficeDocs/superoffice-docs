@@ -79,7 +79,7 @@ Archive provider for the list of favourites
 |soldReason| *None* |Reason (sold: Reason (sold)|  |
 |saleNumber| *None* |Number: Number|  |
 |hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
-|stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
+|stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale|  |
 |hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
 |hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
 |description| *None* |Description: The long description field on Sale|  |
@@ -903,7 +903,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=salePublish/publishedBy,retired,personUdef/SuperOffice:3,project/completed,appointmentId
+GET /api/v1/archive/Favourites?$select=lossReason,salePublish/publishedBy,streetAddress/addressId,personAssociate/simultaneousEjUser,correspondingAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

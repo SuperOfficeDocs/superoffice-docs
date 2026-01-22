@@ -34,7 +34,6 @@ User group link table for ProjStatus, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|projstatusgrouplink\_id |PK |Clustered, Unique |
 |projstatus\_id |FK |Index |
 |group\_id |FK |Index |
 

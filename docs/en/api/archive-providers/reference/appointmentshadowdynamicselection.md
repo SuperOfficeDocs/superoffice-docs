@@ -646,7 +646,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -654,7 +654,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -749,7 +749,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/code,contact/email/emailAddress,contact/url/URLAddress,contact/contactExtra/x_contact_hidden_integer,person/personUdef/SuperOffice:2
+GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/companyCategoryRank,contact/registeredByFullName,contact/postAddress/zip,contact/streetAddress/formattedAddress,contact/LastDoByTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

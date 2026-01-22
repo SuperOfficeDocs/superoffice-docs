@@ -34,7 +34,6 @@ User group link table for PaymentTerms, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|paymenttermsgrouplink\_id |PK |Clustered, Unique |
 |paymentterms\_id |FK |Index |
 |group\_id |FK |Index |
 

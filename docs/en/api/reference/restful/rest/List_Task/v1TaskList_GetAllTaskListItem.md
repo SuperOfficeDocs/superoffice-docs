@@ -28,7 +28,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=True
+GET /api/v1/List/Task/Items?includeDeleted=False
 ```
 
 

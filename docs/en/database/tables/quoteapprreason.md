@@ -37,7 +37,6 @@ Predefined reasons for quote approval
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteapprreason\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

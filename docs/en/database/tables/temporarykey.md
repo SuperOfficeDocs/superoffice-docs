@@ -38,7 +38,6 @@ Temporary keys for lightweight authentications such as changing ones subscriptio
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|temporarykey\_id |PK |Clustered, Unique |
 
 ## Relationships
 

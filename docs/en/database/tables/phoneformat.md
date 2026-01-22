@@ -41,7 +41,6 @@ Formatting information for telephone numbers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|PhoneFormat\_id |PK |Clustered, Unique |
 |prefix, countryId |String(39), FK |Unique |
 
 ## Relationships

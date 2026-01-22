@@ -37,7 +37,6 @@ Preference description - multiple choice line - drives the Preference GUI. May b
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|PrefDescLine\_id |PK |Clustered, Unique |
 |PrefDesc\_id |FK |Index |
 |prefValue |String(99) |Index |
 

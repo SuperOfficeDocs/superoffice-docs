@@ -41,7 +41,6 @@ List of prices, cached from an ERP system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|pricelist\_id |PK |Clustered, Unique |
 |CurrencyId |FK |Index |
 |ValidFrom, ValidTo, IsActive, IsERPCopy |DateTime, DateTime, Bool, Bool |Index |
 

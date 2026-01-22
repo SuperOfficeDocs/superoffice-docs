@@ -37,7 +37,6 @@ Link-table between contact and interests in ContInt
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|contactinterest\_id |PK |Unique |
 |cinterest\_idx |FK |Index |
 |startDate |DateTime |Index |
 |endDate |DateTime |Index |

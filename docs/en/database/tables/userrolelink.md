@@ -36,7 +36,6 @@ Link between user role and user
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UserRoleLink\_id |PK |Clustered, Unique |
 
 ## Relationships
 

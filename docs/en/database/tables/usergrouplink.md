@@ -38,7 +38,6 @@ Link table between associate and usergroup, specifies secondary group membership
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UserGroupLink\_id |PK |Clustered, Unique |
 |assoc\_id |FK |Index |
 |UserGroup\_id |FK |Index |
 

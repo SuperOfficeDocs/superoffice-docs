@@ -1,0 +1,955 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  id: TicketRelationDefinitionEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.#ctor
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes
+  - SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for TicketRelationDefinitionEntity.
+
+    Ticket relation definition entity
+  example:
+  - >-
+    Get TicketRelationDefinitionEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new ListAgent(configuration);
+
+    var ticketRelationDefinitionEntity = agent.GetTicketRelationDefinitionEntity( 123 );</code></pre>
+  syntax:
+    content: 'public class TicketRelationDefinitionEntity : Carrier'
+    content.vb: Public Class TicketRelationDefinitionEntity Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefinitionEntity()
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefinitionEntity()
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefinitionEntity()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public TicketRelationDefinitionEntity()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.#ctor*
+  nameWithType.vb: TicketRelationDefinitionEntity.New()
+  fullName.vb: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId
+  id: TicketRelationDefId
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefId
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefId
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Primary key
+  example: []
+  syntax:
+    content: public virtual int TicketRelationDefId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketRelationDefId As Integer
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TicketRelationDefinitionEntity.Name
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The name of this Ticket relation
+  example: []
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TicketRelationDefinitionEntity.Description
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Tooltip or other description
+  example: []
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TicketRelationDefinitionEntity.Rank
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Rank order
+  example: []
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  id: RelationType_String
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationType_String
+  nameWithType: TicketRelationDefinitionEntity.RelationType_String
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Type of the relation (Related, Parent, Child)
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("RelationType")]
+
+      public string RelationType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("RelationType")>
+
+      Public Property RelationType_String As String
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+    commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RelationType
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  id: RelationType
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationType
+  nameWithType: TicketRelationDefinitionEntity.RelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Type of the relation (Related, Parent, Child)
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public TicketRelationType? RelationType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TicketRelationType}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property RelationType As TicketRelationType?
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+    commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: TicketRelationDefinitionEntity.IsBuiltIn
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Is this row part of SuperOffice priming data
+  example: []
+  syntax:
+    content: public virtual bool IsBuiltIn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBuiltIn As Boolean
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory
+  id: IsParentMandatory
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsParentMandatory
+  nameWithType: TicketRelationDefinitionEntity.IsParentMandatory
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Parent relation is mandatory when a new request is created
+  example: []
+  syntax:
+    content: public virtual bool IsParentMandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsParentMandatory As Boolean
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  id: IsCloseParentWithChild
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsCloseParentWithChild
+  nameWithType: TicketRelationDefinitionEntity.IsCloseParentWithChild
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Close parent when all children are closed
+  example: []
+  syntax:
+    content: public virtual bool IsCloseParentWithChild { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsCloseParentWithChild As Boolean
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent
+  id: IsPreventClosingParent
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsPreventClosingParent
+  nameWithType: TicketRelationDefinitionEntity.IsPreventClosingParent
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Prevent closing parent until all children are closed
+  example: []
+  syntax:
+    content: public virtual bool IsPreventClosingParent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPreventClosingParent As Boolean
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent
+  id: IsCloseWithParent
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: IsCloseWithParent
+  nameWithType: TicketRelationDefinitionEntity.IsCloseWithParent
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Offer to close all related when parent is closed
+  example: []
+  syntax:
+    content: public virtual bool IsCloseWithParent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsCloseWithParent As Boolean
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes
+  id: SourceTicketTypes
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.SourceTicketTypes
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Source ticket type(s) for this relation
+  example: []
+  syntax:
+    content: public virtual int[] SourceTicketTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property SourceTicketTypes As Integer()
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes*
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes
+  id: DestinationTicketTypes
+  parent: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.DestinationTicketTypes
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Destination ticket type(s) for this relation
+  example: []
+  syntax:
+    content: public virtual int[] DestinationTicketTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property DestinationTicketTypes As Integer()
+  overload: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes*
+references:
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ListAgent.html
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity__ctor
+  name: TicketRelationDefinitionEntity
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefinitionEntity
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefinitionEntity
+  nameWithType.vb: TicketRelationDefinitionEntity.New
+  fullName.vb: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_TicketRelationDefId
+  name: TicketRelationDefId
+  nameWithType: TicketRelationDefinitionEntity.TicketRelationDefId
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.TicketRelationDefId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_Name
+  name: Name
+  nameWithType: TicketRelationDefinitionEntity.Name
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_Description
+  name: Description
+  nameWithType: TicketRelationDefinitionEntity.Description
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Description
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_Rank
+  name: Rank
+  nameWithType: TicketRelationDefinitionEntity.Rank
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_RelationType
+  name: RelationType
+  nameWithType: TicketRelationDefinitionEntity.RelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_RelationType_String
+  name: RelationType_String
+  nameWithType: TicketRelationDefinitionEntity.RelationType_String
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  commentId: P:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_RelationType_String
+  name: RelationType_String
+  nameWithType: TicketRelationDefinitionEntity.RelationType_String
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType_String
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_RelationType
+  name: RelationType
+  nameWithType: TicketRelationDefinitionEntity.RelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.RelationType
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketRelationType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketRelationType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.TicketRelationType.html
+  name: TicketRelationType?
+  nameWithType: TicketRelationType?
+  fullName: SuperOffice.WebApi.Data.TicketRelationType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_IsBuiltIn
+  name: IsBuiltIn
+  nameWithType: TicketRelationDefinitionEntity.IsBuiltIn
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsBuiltIn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_IsParentMandatory
+  name: IsParentMandatory
+  nameWithType: TicketRelationDefinitionEntity.IsParentMandatory
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsParentMandatory
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_IsCloseParentWithChild
+  name: IsCloseParentWithChild
+  nameWithType: TicketRelationDefinitionEntity.IsCloseParentWithChild
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseParentWithChild
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_IsPreventClosingParent
+  name: IsPreventClosingParent
+  nameWithType: TicketRelationDefinitionEntity.IsPreventClosingParent
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsPreventClosingParent
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_IsCloseWithParent
+  name: IsCloseWithParent
+  nameWithType: TicketRelationDefinitionEntity.IsCloseWithParent
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.IsCloseWithParent
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_SourceTicketTypes
+  name: SourceTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.SourceTicketTypes
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.SourceTicketTypes
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.html#SuperOffice_WebApi_Data_TicketRelationDefinitionEntity_DestinationTicketTypes
+  name: DestinationTicketTypes
+  nameWithType: TicketRelationDefinitionEntity.DestinationTicketTypes
+  fullName: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity.DestinationTicketTypes

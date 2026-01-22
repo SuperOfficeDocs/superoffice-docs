@@ -36,7 +36,6 @@ Control data table for the OLE DB Provider
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|OLEFieldText\_id |PK |Clustered, Unique |
 |OLEField\_id |FK |Index |
 |languageId |Id |Index |
 |name |String(29) |Index |

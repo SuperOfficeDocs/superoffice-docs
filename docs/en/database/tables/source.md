@@ -37,7 +37,6 @@ Source list table. Source for sale (list)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Source\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

@@ -45,7 +45,8 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |0|Appointment||ProviderName=ConfigurableArchiveAppointment|
 |1|Document||ProviderName=Document|
-|2|Sale||ProviderName=Sale|
+|2|RelatedTickets||ProviderName=RelatedTickets|
+|3|Sale||ProviderName=Sale|
 
 
 ## Related MDO Lists

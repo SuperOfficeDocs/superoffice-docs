@@ -36,7 +36,6 @@ This table stores packages on the system.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |attachment\_id |FK |Index |
 |uploaded\_by |FK |Index |
 

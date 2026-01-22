@@ -49,7 +49,6 @@ Unique owner of a set of licensed modules
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ModuleOwner\_id |PK |Clustered, Unique |
 |ownerName |String(239) |Unique |
 
 ## Relationships

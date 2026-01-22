@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsageAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheStateAsync(System.String[],System.Threading.CancellationToken)
@@ -30,6 +31,8 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessageAsync(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync(SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriodAsync(System.Int32,System.String,System.DateTime,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -77,6 +80,32 @@ items:
       value: Diagnostics Agent
     - type: System.String
       value: Interface for the Diagnostics Agent. Diagnostics, usage data collection, caches and flushing
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  id: GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAnalyticsDataAsync(CancellationToken)
+  nameWithType: IDiagnosticsAgent.GetAnalyticsDataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieve analytics properties to be included in usage tracking.
+  example: []
+  syntax:
+    content: Task<AnalyticsData> GetAnalyticsDataAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AnalyticsData}
+      description: Description Analytics Data
+    content.vb: Function GetAnalyticsDataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AnalyticsData)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync(System.Threading.CancellationToken)
   id: FlushCachesAsync(System.Threading.CancellationToken)
@@ -362,6 +391,70 @@ items:
   nameWithType.vb: IDiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
   name.vb: ChangeLogSettingsAsync(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: TrackEventAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: TrackEventAsync(string, StringDictionary, CancellationToken)
+  nameWithType: IDiagnosticsAgent.TrackEventAsync(string, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Sends events to Amplitude and Userflow.
+  example: []
+  syntax:
+    content: Task<long> TrackEventAsync(string trackEventName, StringDictionary eventProperties, CancellationToken cancellationToken = default)
+    parameters:
+    - id: trackEventName
+      type: System.String
+      description: "\"Sale Completed\" or \"Sale Sold\" etc. See the TrackEventNames class for suitable string constants."
+    - id: eventProperties
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: 'key-value pairs of event properties. client is set from the application token. Special keys: app_version, platform, os_name, os_version, device_brand, device_manufacturer'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int64}
+      description: Amplitude Session id used to track the event. May be the same as passed in SO-AMPLITUDE header or ampSess cookie, or a fresh one if none defined.
+    content.vb: Function TrackEventAsync(trackEventName As String, eventProperties As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of Long)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync*
+  nameWithType.vb: IDiagnosticsAgent.TrackEventAsync(String, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: TrackEventAsync(String, StringDictionary, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync(SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync(SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: TrackUserAsync(SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: TrackUserAsync(StringDictionary, CancellationToken)
+  nameWithType: IDiagnosticsAgent.TrackUserAsync(StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync(SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Sends user identification to Amplitude and Userflow. Sets current rights, user licenses automatically. Additional properties can be specified in userProperties.
+  example: []
+  syntax:
+    content: Task<long> TrackUserAsync(StringDictionary userProperties, CancellationToken cancellationToken = default)
+    parameters:
+    - id: userProperties
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: 'Optional: Additional key-value pairs of user properties to set on the user. Special keys: app_version, platform, os_name, os_version, device_brand, device_manufacturer'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int64}
+      description: Amplitude Session id used to track the user. May be the same as passed in SO-AMPLITUDE header or ampSess cookie, or a fresh one if none defined.
+    content.vb: Function TrackUserAsync(userProperties As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of Long)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync(System.Threading.CancellationToken)
   id: CollectDataAdditionsAsync(System.Threading.CancellationToken)
@@ -929,13 +1022,13 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCachesAsync_System_Threading_CancellationToken_
-  name: FlushCachesAsync
-  nameWithType: IDiagnosticsAgent.FlushCachesAsync
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetAnalyticsDataAsync_System_Threading_CancellationToken_
+  name: GetAnalyticsDataAsync
+  nameWithType: IDiagnosticsAgent.GetAnalyticsDataAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetAnalyticsDataAsync
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -944,14 +1037,41 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AnalyticsData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AnalyticsData}
   parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AnalyticsData>
+  nameWithType: Task<AnalyticsData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AnalyticsData>
+  nameWithType.vb: Task(Of AnalyticsData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AnalyticsData)
+  name.vb: Task(Of AnalyticsData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.AnalyticsData
+    name: AnalyticsData
+    isExternal: true
+    href: SuperOffice.CRM.Services.AnalyticsData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.AnalyticsData
+    name: AnalyticsData
+    isExternal: true
+    href: SuperOffice.CRM.Services.AnalyticsData.html
+  - name: )
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -979,6 +1099,34 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
 - uid: System.Threading.Tasks
   commentId: N:System.Threading.Tasks
   isExternal: true
@@ -1016,6 +1164,21 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCachesAsync_System_Threading_CancellationToken_
+  name: FlushCachesAsync
+  nameWithType: IDiagnosticsAgent.FlushCachesAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNamesAsync
   isExternal: true
@@ -1061,34 +1224,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
-  - name: )
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
   - name: )
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByNameAsync
@@ -1304,6 +1439,60 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_TrackEventAsync_System_String_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: TrackEventAsync
+  nameWithType: IDiagnosticsAgent.TrackEventAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackEventAsync
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: System.Threading.Tasks.Task{System.Int64}
+  commentId: T:System.Threading.Tasks.Task{System.Int64}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<long>
+  nameWithType: Task<long>
+  fullName: System.Threading.Tasks.Task<long>
+  nameWithType.vb: Task(Of Long)
+  fullName.vb: System.Threading.Tasks.Task(Of Long)
+  name.vb: Task(Of Long)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: )
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_TrackUserAsync_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: TrackUserAsync
+  nameWithType: IDiagnosticsAgent.TrackUserAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.TrackUserAsync
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditionsAsync
   isExternal: true

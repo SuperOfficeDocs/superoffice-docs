@@ -38,7 +38,6 @@ Prob list table. Probability, used in  sales .
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Prob\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

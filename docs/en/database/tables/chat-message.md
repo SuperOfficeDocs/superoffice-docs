@@ -36,7 +36,6 @@ This table contains messages in a chat session.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |session\_id |FK |Index |
 
 ## Relationships

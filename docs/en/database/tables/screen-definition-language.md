@@ -31,7 +31,6 @@ Custom language variables used for screens
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
 
 ## Relationships

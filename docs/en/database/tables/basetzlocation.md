@@ -36,7 +36,6 @@ Time zone location for the database (how tz-related datetimes should be stored i
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|BaseTZLocation\_id |PK |Clustered, Unique |
 
 ## Relationships
 

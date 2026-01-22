@@ -34,7 +34,6 @@ User group link table for Business, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|businessgrouplink\_id |PK |Clustered, Unique |
 |business\_id |FK |Index |
 |group\_id |FK |Index |
 

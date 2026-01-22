@@ -27,8 +27,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=sequi
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=ullam
 ```
 
 

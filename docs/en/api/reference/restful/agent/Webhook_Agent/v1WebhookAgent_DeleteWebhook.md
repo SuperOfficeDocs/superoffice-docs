@@ -31,7 +31,7 @@ NsApiSlow threshold: 2000 ms.
 | webhookId | int32 | **Required** The identity of the Webhook |
 
 ```http
-POST /api/v1/Agents/Webhook/DeleteWebhook?webhookId=308
+POST /api/v1/Agents/Webhook/DeleteWebhook?webhookId=478
 ```
 
 

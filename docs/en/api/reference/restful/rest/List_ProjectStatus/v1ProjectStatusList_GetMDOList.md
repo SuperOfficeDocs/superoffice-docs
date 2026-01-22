@@ -28,7 +28,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=omnis
+GET /api/v1/List/ProjectStatus/MDOItems?query=commodi
 ```
 
 

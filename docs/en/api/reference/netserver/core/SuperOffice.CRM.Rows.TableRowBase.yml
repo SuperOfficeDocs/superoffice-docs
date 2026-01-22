@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.GetForeignKeyHelperAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TableRowBase.GetKnownFields
   - SuperOffice.CRM.Rows.TableRowBase.GetRelatedNestedPersist
+  - SuperOffice.CRM.Rows.TableRowBase.GetTableRight
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
@@ -38,6 +39,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Rows.TableRowBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.TableRowBase.OnSavedAsync(System.Boolean)
+  - SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
   - SuperOffice.CRM.Rows.TableRowBase.Reset
   - SuperOffice.CRM.Rows.TableRowBase.RowLoad
   - SuperOffice.CRM.Rows.TableRowBase.RowLoad(SuperOffice.CRM.Rows.ITableRowLoadHandler)
@@ -48,6 +50,7 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TableRowBase.SetDefaultsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TableRowBase.SetDirty(System.Int32,System.Object,System.Object)
+  - SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
   - SuperOffice.CRM.Rows.TableRowBase.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.TableRowBase.SetRowAsNew
   - SuperOffice.CRM.Rows.TableRowBase.SetSaveOwner(SuperOffice.Data.INestedPersist)
@@ -105,6 +108,7 @@ items:
   - SuperOffice.CRM.Rows.AudienceVisibilityRow
   - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
   - SuperOffice.CRM.Rows.AutosaveRow
+  - SuperOffice.CRM.Rows.AvailableFontsRow
   - SuperOffice.CRM.Rows.BaseTZLocationRow
   - SuperOffice.CRM.Rows.BatchTaskDefinitionRow
   - SuperOffice.CRM.Rows.BatchTaskRow
@@ -874,6 +878,26 @@ items:
   nameWithType.vb: TableRowBase.InternalSetValue(String, Object)
   fullName.vb: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(String, Object)
   name.vb: InternalSetValue(String, Object)
+- uid: SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+  id: GetTableRight
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  langs:
+  - csharp
+  - vb
+  name: GetTableRight()
+  nameWithType: TableRowBase.GetTableRight()
+  fullName: SuperOffice.CRM.Rows.TableRowBase.GetTableRight()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TableRight GetTableRight()
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public Function GetTableRight() As TableRight
+  overload: SuperOffice.CRM.Rows.TableRowBase.GetTableRight*
 - uid: SuperOffice.CRM.Rows.TableRowBase.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   id: GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
@@ -968,6 +992,33 @@ items:
   overload: SuperOffice.CRM.Rows.TableRowBase.IsGhostField*
   implements:
   - SuperOffice.CRM.Security.ISoDataLookup.IsGhostField(SuperOffice.Data.SQL.FieldInfo)
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  id: SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  langs:
+  - csharp
+  - vb
+  name: SetParentSentryLookups(ISoDataLookup)
+  nameWithType: TableRowBase.SetParentSentryLookups(ISoDataLookup)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Extract table information from the lookup, and use it to prepopulate QueryInfo for creating parent-row sentries.
+
+    This method must be overridden in Sentry classes that can make use of it; the base implementation is empty.
+  example: []
+  syntax:
+    content: public virtual void SetParentSentryLookups(ISoDataLookup lookup)
+    parameters:
+    - id: lookup
+      type: SuperOffice.CRM.Security.ISoDataLookup
+      description: Lookups to use
+    content.vb: Public Overridable Sub SetParentSentryLookups(lookup As ISoDataLookup)
+  overload: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups*
 - uid: SuperOffice.CRM.Rows.TableRowBase.RowLoad
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.RowLoad
   id: RowLoad
@@ -1030,6 +1081,46 @@ items:
     - name: OmitNullableDirective
       type: System.Boolean
       value: true
+- uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+  id: ReadbackRowForSentryRecalculations``1(``0)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  langs:
+  - csharp
+  - vb
+  name: ReadbackRowForSentryRecalculations<Idx>(Idx)
+  nameWithType: TableRowBase.ReadbackRowForSentryRecalculations<Idx>(Idx)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations<Idx>(Idx)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    In transitive sentries, that depend on (possibly a chain of) parent objects for their rights,
+
+    changing one of the controlling fields needs to trigger a complete re-evaluation.
+  remarks: >-
+    For rows that only depend on their own data, this is not a problem - just recalculate, and this is
+
+    done by generated code. But for sentries that need to fetch data from <b>other tables</b>,
+
+    this forces a database read and reload of the current row.
+  example: []
+  syntax:
+    content: 'public Task ReadbackRowForSentryRecalculations<Idx>(Idx idx) where Idx : IdxBase'
+    parameters:
+    - id: idx
+      type: '{Idx}'
+    typeParameters:
+    - id: Idx
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function ReadbackRowForSentryRecalculations(Of Idx As IdxBase)(idx As Idx) As Task
+  overload: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations*
+  nameWithType.vb: TableRowBase.ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  fullName.vb: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  name.vb: ReadbackRowForSentryRecalculations(Of Idx)(Idx)
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   id: OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
@@ -4099,6 +4190,21 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Rows.TableRowBase.GetTableRight*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_GetTableRight
+  name: GetTableRight
+  nameWithType: TableRowBase.GetTableRight
+  fullName: SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  href: SuperOffice.CRM.Security.TableRight.html
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
 - uid: SuperOffice.Data.SQL.PrivateSave.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.SQL.PrivateSave.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.Data.SQL.PrivateSave
@@ -4305,6 +4411,13 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  name: SetParentSentryLookups
+  nameWithType: TableRowBase.SetParentSentryLookups
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups
 - uid: SuperOffice.CRM.Rows.TableRowBase.RowLoad*
   commentId: Overload:SuperOffice.CRM.Rows.TableRowBase.RowLoad
   isExternal: true
@@ -4407,6 +4520,24 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  name: ReadbackRowForSentryRecalculations
+  nameWithType: TableRowBase.ReadbackRowForSentryRecalculations
+  fullName: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations
+- uid: '{Idx}'
+  commentId: '!:Idx'
+  definition: Idx
+  name: Idx
+  nameWithType: Idx
+  fullName: Idx
+- uid: Idx
+  commentId: '!:Idx'
+  name: Idx
+  nameWithType: Idx
+  fullName: Idx
 - uid: SuperOffice.Data.SoDataReader
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data

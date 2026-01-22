@@ -72,8 +72,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <AI:OrgNr xsi:type="xsd:string"></AI:OrgNr>
      <AI:Number1 xsi:type="xsd:string"></AI:Number1>
      <AI:Number2 xsi:type="xsd:string"></AI:Number2>
-     <AI:UpdatedDate xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:UpdatedDate>
-     <AI:CreatedDate xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:CreatedDate>
+     <AI:UpdatedDate xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:UpdatedDate>
+     <AI:CreatedDate xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:CreatedDate>
      <AI:Emails xsi:type="AI:ArrayOfEntityElement">
       <AI:EntityElement xsi:type="AI:EntityElement">
        <AI:Value xsi:type="xsd:string"></AI:Value>
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <AI:ColorBlock xsi:type="xsd:int">0</AI:ColorBlock>
        <AI:IconHint xsi:type="xsd:string"></AI:IconHint>
        <AI:Selected xsi:type="xsd:boolean">false</AI:Selected>
-       <AI:LastChanged xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:LastChanged>
+       <AI:LastChanged xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:LastChanged>
        <AI:ChildItems xsi:type="AI:ArrayOfSelectableMDOListItem">
         <AI:SelectableMDOListItem xsi:type="AI:SelectableMDOListItem">
          <AI:Id xsi:type="xsd:int">0</AI:Id>
@@ -104,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <AI:ColorBlock xsi:type="xsd:int">0</AI:ColorBlock>
          <AI:IconHint xsi:type="xsd:string"></AI:IconHint>
          <AI:Selected xsi:type="xsd:boolean">false</AI:Selected>
-         <AI:LastChanged xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:LastChanged>
+         <AI:LastChanged xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:LastChanged>
          <AI:ChildItems xsi:type="AI:ArrayOfSelectableMDOListItem">
           <AI:SelectableMDOListItem xsi:nil="true"></AI:SelectableMDOListItem>
          </AI:ChildItems>
@@ -229,6 +229,10 @@ Application tokens must be specified if calling an Online installation. Applicat
       <AI:Id xsi:type="xsd:int">0</AI:Id>
       <AI:Value xsi:type="xsd:string"></AI:Value>
       <AI:Tooltip xsi:type="xsd:string"></AI:Tooltip>
+      <AI:CategoryGroup xsi:type="AI:CategoryGroup">Unknown</AI:CategoryGroup>
+      <AI:EnableLeadStatus xsi:type="xsd:boolean">false</AI:EnableLeadStatus>
+      <AI:Rank xsi:type="xsd:short">0</AI:Rank>
+      <AI:Deleted xsi:type="xsd:boolean">false</AI:Deleted>
      </AI:Category>
      <AI:Country xsi:type="AI:Country">
       <AI:CountryId xsi:type="xsd:int">0</AI:CountryId>
@@ -339,9 +343,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      </AI:CustomerLanguage>
      <AI:Deleted xsi:type="xsd:short">0</AI:Deleted>
      <AI:DbiAgentId xsi:type="xsd:int">0</AI:DbiAgentId>
-     <AI:DbiLastSyncronized xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:DbiLastSyncronized>
+     <AI:DbiLastSyncronized xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:DbiLastSyncronized>
      <AI:DbiKey xsi:type="xsd:string"></AI:DbiKey>
-     <AI:DbiLastModified xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:DbiLastModified>
+     <AI:DbiLastModified xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:DbiLastModified>
      <AI:SupportPerson xsi:type="AI:Person">
       <AI:Position xsi:type="xsd:string"></AI:Position>
       <AI:PersonId xsi:type="xsd:int">0</AI:PersonId>
@@ -473,9 +477,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <AI:Lastname xsi:type="xsd:string"></AI:Lastname>
      <AI:Mrmrs xsi:type="xsd:string"></AI:Mrmrs>
      <AI:Title xsi:type="xsd:string"></AI:Title>
-     <AI:UpdatedDate xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:UpdatedDate>
-     <AI:CreatedDate xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:CreatedDate>
-     <AI:BirthDate xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:BirthDate>
+     <AI:UpdatedDate xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:UpdatedDate>
+     <AI:CreatedDate xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:CreatedDate>
+     <AI:BirthDate xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:BirthDate>
      <AI:CreatedBy xsi:type="AI:Associate">
       <AI:AssociateId xsi:type="xsd:int">0</AI:AssociateId>
       <AI:Name xsi:type="xsd:string"></AI:Name>
@@ -672,7 +676,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <AI:ColorBlock xsi:type="xsd:int">0</AI:ColorBlock>
        <AI:IconHint xsi:type="xsd:string"></AI:IconHint>
        <AI:Selected xsi:type="xsd:boolean">false</AI:Selected>
-       <AI:LastChanged xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:LastChanged>
+       <AI:LastChanged xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:LastChanged>
        <AI:ChildItems xsi:type="AI:ArrayOfSelectableMDOListItem">
         <AI:SelectableMDOListItem xsi:type="AI:SelectableMDOListItem">
          <AI:Id xsi:type="xsd:int">0</AI:Id>
@@ -684,7 +688,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <AI:ColorBlock xsi:type="xsd:int">0</AI:ColorBlock>
          <AI:IconHint xsi:type="xsd:string"></AI:IconHint>
          <AI:Selected xsi:type="xsd:boolean">false</AI:Selected>
-         <AI:LastChanged xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:LastChanged>
+         <AI:LastChanged xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:LastChanged>
          <AI:ChildItems xsi:type="AI:ArrayOfSelectableMDOListItem">
           <AI:SelectableMDOListItem xsi:nil="true"></AI:SelectableMDOListItem>
          </AI:ChildItems>
@@ -787,6 +791,10 @@ Application tokens must be specified if calling an Online installation. Applicat
       <AI:Id xsi:type="xsd:int">0</AI:Id>
       <AI:Value xsi:type="xsd:string"></AI:Value>
       <AI:Tooltip xsi:type="xsd:string"></AI:Tooltip>
+      <AI:CategoryGroup xsi:type="AI:CategoryGroup">Unknown</AI:CategoryGroup>
+      <AI:EnableLeadStatus xsi:type="xsd:boolean">false</AI:EnableLeadStatus>
+      <AI:Rank xsi:type="xsd:short">0</AI:Rank>
+      <AI:Deleted xsi:type="xsd:boolean">false</AI:Deleted>
      </AI:Category>
      <AI:Business xsi:type="AI:Business">
       <AI:Id xsi:type="xsd:int">0</AI:Id>
@@ -859,8 +867,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      </AI:CustomerLanguage>
      <AI:DbiAgentId xsi:type="xsd:int">0</AI:DbiAgentId>
      <AI:DbiKey xsi:type="xsd:string"></AI:DbiKey>
-     <AI:DbiLastModified xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:DbiLastModified>
-     <AI:DbiLastSyncronized xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:DbiLastSyncronized>
+     <AI:DbiLastModified xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:DbiLastModified>
+     <AI:DbiLastSyncronized xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:DbiLastSyncronized>
      <AI:SentInfo xsi:type="xsd:short">0</AI:SentInfo>
      <AI:ShowContactTickets xsi:type="xsd:short">0</AI:ShowContactTickets>
      <AI:UserInfo xsi:type="AI:UserInfo">
@@ -909,7 +917,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <AI:ColorBlock xsi:type="xsd:int">0</AI:ColorBlock>
        <AI:IconHint xsi:type="xsd:string"></AI:IconHint>
        <AI:Selected xsi:type="xsd:boolean">false</AI:Selected>
-       <AI:LastChanged xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:LastChanged>
+       <AI:LastChanged xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:LastChanged>
        <AI:ChildItems xsi:type="AI:ArrayOfSelectableMDOListItem">
         <AI:SelectableMDOListItem xsi:type="AI:SelectableMDOListItem">
          <AI:Id xsi:type="xsd:int">0</AI:Id>
@@ -921,7 +929,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <AI:ColorBlock xsi:type="xsd:int">0</AI:ColorBlock>
          <AI:IconHint xsi:type="xsd:string"></AI:IconHint>
          <AI:Selected xsi:type="xsd:boolean">false</AI:Selected>
-         <AI:LastChanged xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:LastChanged>
+         <AI:LastChanged xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:LastChanged>
          <AI:ChildItems xsi:type="AI:ArrayOfSelectableMDOListItem">
           <AI:SelectableMDOListItem xsi:nil="true"></AI:SelectableMDOListItem>
          </AI:ChildItems>
@@ -941,9 +949,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <AI:ConsentInfo xsi:type="AI:ConsentInfo">
        <AI:ConsentPersonId xsi:type="xsd:int">0</AI:ConsentPersonId>
        <AI:Comment xsi:type="xsd:string"></AI:Comment>
-       <AI:Registered xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:Registered>
+       <AI:Registered xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:Registered>
        <AI:RegisteredAssociateId xsi:type="xsd:int">0</AI:RegisteredAssociateId>
-       <AI:Updated xsi:type="xsd:dateTime">2025-11-26T12:06:30Z</AI:Updated>
+       <AI:Updated xsi:type="xsd:dateTime">2026-01-21T01:32:29Z</AI:Updated>
        <AI:UpdatedAssociateId xsi:type="xsd:int">0</AI:UpdatedAssociateId>
        <AI:LegalBaseId xsi:type="xsd:int">0</AI:LegalBaseId>
        <AI:LegalBaseKey xsi:type="xsd:string"></AI:LegalBaseKey>
@@ -977,6 +985,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <AI:ReferrerDomain xsi:type="xsd:string"></AI:ReferrerDomain>
      </AI:UtmParameters>
      <AI:LeadstatusId xsi:type="xsd:int">0</AI:LeadstatusId>
+     <AI:Leadstatus xsi:type="xsd:string"></AI:Leadstatus>
      <AI:UserDefinedFields xsi:type="AI:StringDictionary">
       <AI:StringKeyValuePair>
        <AI:Key xsi:type="xsd:string"></AI:Key>

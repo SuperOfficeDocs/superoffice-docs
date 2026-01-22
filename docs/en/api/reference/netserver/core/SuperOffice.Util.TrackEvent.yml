@@ -10,6 +10,7 @@ items:
   - SuperOffice.Util.TrackEvent.ContextIdentifier
   - SuperOffice.Util.TrackEvent.EventName
   - SuperOffice.Util.TrackEvent.EventProperties
+  - SuperOffice.Util.TrackEvent.IdentifyEventName
   - SuperOffice.Util.TrackEvent.UserId
   langs:
   - csharp
@@ -39,6 +40,25 @@ items:
   extensionMethods:
   - SuperOffice.Util.TrackEvent.EnumUtil.MapEnums``2
   - SuperOffice.Util.TrackEvent.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Util.TrackEvent.IdentifyEventName
+  commentId: F:SuperOffice.Util.TrackEvent.IdentifyEventName
+  id: IdentifyEventName
+  parent: SuperOffice.Util.TrackEvent
+  langs:
+  - csharp
+  - vb
+  name: IdentifyEventName
+  nameWithType: TrackEvent.IdentifyEventName
+  fullName: SuperOffice.Util.TrackEvent.IdentifyEventName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static readonly string IdentifyEventName
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly IdentifyEventName As String
 - uid: SuperOffice.Util.TrackEvent.#ctor(System.String)
   commentId: M:SuperOffice.Util.TrackEvent.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -682,16 +702,6 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util.TrackEvent.#ctor*
-  commentId: Overload:SuperOffice.Util.TrackEvent.#ctor
-  isExternal: true
-  href: SuperOffice.Util.TrackEvent.html#SuperOffice_Util_TrackEvent__ctor_System_String_
-  name: TrackEvent
-  nameWithType: TrackEvent.TrackEvent
-  fullName: SuperOffice.Util.TrackEvent.TrackEvent
-  nameWithType.vb: TrackEvent.New
-  fullName.vb: SuperOffice.Util.TrackEvent.New
-  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -703,6 +713,16 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.Util.TrackEvent.#ctor*
+  commentId: Overload:SuperOffice.Util.TrackEvent.#ctor
+  isExternal: true
+  href: SuperOffice.Util.TrackEvent.html#SuperOffice_Util_TrackEvent__ctor_System_String_
+  name: TrackEvent
+  nameWithType: TrackEvent.TrackEvent
+  fullName: SuperOffice.Util.TrackEvent.TrackEvent
+  nameWithType.vb: TrackEvent.New
+  fullName.vb: SuperOffice.Util.TrackEvent.New
+  name.vb: New
 - uid: System.ValueTuple{System.String,System.Object}[]
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.string

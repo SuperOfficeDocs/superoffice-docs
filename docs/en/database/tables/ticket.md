@@ -90,7 +90,6 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |connect\_id |FK |Index |
 |created\_at |DateTime |Index |
 |created\_by |FK |Index |

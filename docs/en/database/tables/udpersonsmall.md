@@ -137,7 +137,6 @@ User-defined fields
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udpersonSmall\_id |PK |Clustered, Unique |
 |long01 |Id |Index |
 |long02 |Id |Index |
 |long03 |Id |Index |
