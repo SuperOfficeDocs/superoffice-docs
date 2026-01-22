@@ -9,7 +9,6 @@ items:
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.DocFolderTableInfo
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.GetOwnerTableCandidates
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.GetUntypedMembers
-  - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
   langs:
   - csharp
   - vb
@@ -31,10 +30,11 @@ items:
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
   - System.Collections.IEnumerable
   inheritedMembers:
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}._visibleForTableInfo
   - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.GetTypedMembers
-  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
+  - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@,SuperOffice.Data.SQL.TableInfo[])
   - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
   - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.GetEnumerator
   - SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.ParentFields
@@ -97,37 +97,6 @@ items:
   nameWithType.vb: DocDocumentSentryQueryInfo.New(DocDocumentTableInfo)
   fullName.vb: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.New(SuperOffice.CRM.Data.DocDocumentTableInfo)
   name.vb: New(DocDocumentTableInfo)
-- uid: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  commentId: M:SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  id: UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  parent: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
-  langs:
-  - csharp
-  - vb
-  name: UpdateTypedMembers(PrivateSelect)
-  nameWithType: DocDocumentSentryQueryInfo.UpdateTypedMembers(PrivateSelect)
-  fullName: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  summary: >-
-    Method called by the base class to force the implementation 
-
-    to update typed instances of <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>.
-  remarks: >-
-    Implementations should use <xref href="SuperOffice.CRM.Security.SentryQueryInfo%601.UpdateRelatedTableInfo%60%601(SuperOffice.Data.SQL.PrivateSelect%2c%60%600%40)" data-throw-if-not-resolved="false"></xref> 
-                when updating the <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected override void UpdateTypedMembers(PrivateSelect sql)
-    parameters:
-    - id: sql
-      type: SuperOffice.Data.SQL.PrivateSelect
-      description: Query to use when updating the <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>s.
-    content.vb: Protected Overrides Sub UpdateTypedMembers(sql As PrivateSelect)
-  overridden: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  overload: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers*
 - uid: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.GetUntypedMembers
   commentId: M:SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.GetUntypedMembers
   id: GetUntypedMembers
@@ -313,6 +282,16 @@ references:
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}._visibleForTableInfo
+  commentId: F:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}._visibleForTableInfo
+  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1._visibleForTableInfo
+  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1__visibleForTableInfo
+  name: _visibleForTableInfo
+  nameWithType: SentryQueryInfo<DocDocumentTableInfo>._visibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DocDocumentTableInfo>._visibleForTableInfo
+  nameWithType.vb: SentryQueryInfo(Of DocDocumentTableInfo)._visibleForTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DocDocumentTableInfo)._visibleForTableInfo
 - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}
@@ -401,22 +380,22 @@ references:
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetTypedMembers
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,{T}@,SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
   parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}
-  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
-  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
-  name: UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
-  nameWithType: SentryQueryInfo<DocDocumentTableInfo>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DocDocumentTableInfo>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T)
-  nameWithType.vb: SentryQueryInfo(Of DocDocumentTableInfo).UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DocDocumentTableInfo).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T)
-  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
+  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__SuperOffice_Data_SQL_TableInfo___
+  name: UpdateRelatedTableInfo<T>(PrivateSelect, ref T, params TableInfo[])
+  nameWithType: SentryQueryInfo<DocDocumentTableInfo>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T, params TableInfo[])
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DocDocumentTableInfo>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T, params SuperOffice.Data.SQL.TableInfo[])
+  nameWithType.vb: SentryQueryInfo(Of DocDocumentTableInfo).UpdateRelatedTableInfo(Of T)(PrivateSelect, T, ParamArray TableInfo())
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DocDocumentTableInfo).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T, ParamArray SuperOffice.Data.SQL.TableInfo())
+  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T, ParamArray TableInfo())
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
     name: UpdateRelatedTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
+    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__SuperOffice_Data_SQL_TableInfo___
   - name: <
   - name: T
   - name: '>'
@@ -430,12 +409,22 @@ references:
   - name: ref
   - name: " "
   - name: T
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: '['
+  - name: ']'
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
     name: UpdateRelatedTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
+    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__SuperOffice_Data_SQL_TableInfo___
   - name: (
   - name: Of
   - name: " "
@@ -449,6 +438,16 @@ references:
   - name: ','
   - name: " "
   - name: T
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: (
+  - name: )
   - name: )
 - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
   commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
@@ -1027,6 +1026,15 @@ references:
     name: Collections
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1._visibleForTableInfo
+  commentId: F:SuperOffice.CRM.Security.SentryQueryInfo`1._visibleForTableInfo
+  isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1__visibleForTableInfo
+  name: _visibleForTableInfo
+  nameWithType: SentryQueryInfo<TMainTable>._visibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>._visibleForTableInfo
+  nameWithType.vb: SentryQueryInfo(Of TMainTable)._visibleForTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable)._visibleForTableInfo
 - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   isExternal: true
@@ -1112,21 +1120,21 @@ references:
     href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_GetTypedMembers
   - name: (
   - name: )
-- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
   isExternal: true
-  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
-  name: UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
-  nameWithType: SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T)
-  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T)
-  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T)
+  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__SuperOffice_Data_SQL_TableInfo___
+  name: UpdateRelatedTableInfo<T>(PrivateSelect, ref T, params TableInfo[])
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T, params TableInfo[])
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T, params SuperOffice.Data.SQL.TableInfo[])
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(PrivateSelect, T, ParamArray TableInfo())
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, T, ParamArray SuperOffice.Data.SQL.TableInfo())
+  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, T, ParamArray TableInfo())
   spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
     name: UpdateRelatedTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
+    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__SuperOffice_Data_SQL_TableInfo___
   - name: <
   - name: T
   - name: '>'
@@ -1140,12 +1148,22 @@ references:
   - name: ref
   - name: " "
   - name: T
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: '['
+  - name: ']'
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@,SuperOffice.Data.SQL.TableInfo[])
     name: UpdateRelatedTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__
+    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateRelatedTableInfo__1_SuperOffice_Data_SQL_PrivateSelect___0__SuperOffice_Data_SQL_TableInfo___
   - name: (
   - name: Of
   - name: " "
@@ -1159,6 +1177,16 @@ references:
   - name: ','
   - name: " "
   - name: T
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: (
+  - name: )
   - name: )
 - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
   commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
@@ -1551,121 +1579,6 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
-- uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  parent: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}
-  definition: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  name: UpdateTypedMembers(PrivateSelect)
-  nameWithType: SentryQueryInfo<DocDocumentTableInfo>.UpdateTypedMembers(PrivateSelect)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<SuperOffice.CRM.Data.DocDocumentTableInfo>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  nameWithType.vb: SentryQueryInfo(Of DocDocumentTableInfo).UpdateTypedMembers(PrivateSelect)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of SuperOffice.CRM.Data.DocDocumentTableInfo).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-    name: UpdateTypedMembers
-    isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  - name: (
-  - uid: SuperOffice.Data.SQL.PrivateSelect
-    name: PrivateSelect
-    isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo{SuperOffice.CRM.Data.DocDocumentTableInfo}.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-    name: UpdateTypedMembers
-    isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  - name: (
-  - uid: SuperOffice.Data.SQL.PrivateSelect
-    name: PrivateSelect
-    isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html
-  - name: )
-- uid: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers*
-  commentId: Overload:SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers
-  isExternal: true
-  href: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.html#SuperOffice_CRM_Security_DocDocumentSentryQueryInfo_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  name: UpdateTypedMembers
-  nameWithType: DocDocumentSentryQueryInfo.UpdateTypedMembers
-  fullName: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.UpdateTypedMembers
-- uid: SuperOffice.Data.SQL.PrivateSelect
-  commentId: T:SuperOffice.Data.SQL.PrivateSelect
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html
-  name: PrivateSelect
-  nameWithType: PrivateSelect
-  fullName: SuperOffice.Data.SQL.PrivateSelect
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  isExternal: true
-  href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  name: UpdateTypedMembers(PrivateSelect)
-  nameWithType: SentryQueryInfo<TMainTable>.UpdateTypedMembers(PrivateSelect)
-  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateTypedMembers(PrivateSelect)
-  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-    name: UpdateTypedMembers
-    isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  - name: (
-  - uid: SuperOffice.Data.SQL.PrivateSelect
-    name: PrivateSelect
-    isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
-    name: UpdateTypedMembers
-    isExternal: true
-    href: SuperOffice.CRM.Security.SentryQueryInfo-1.html#SuperOffice_CRM_Security_SentryQueryInfo_1_UpdateTypedMembers_SuperOffice_Data_SQL_PrivateSelect_
-  - name: (
-  - uid: SuperOffice.Data.SQL.PrivateSelect
-    name: PrivateSelect
-    isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html
-  - name: )
 - uid: SuperOffice.CRM.Security.Sentry
   commentId: T:SuperOffice.CRM.Security.Sentry
   parent: SuperOffice.CRM.Security
@@ -1705,6 +1618,43 @@ references:
   name: GetUntypedMembers
   nameWithType: DocDocumentSentryQueryInfo.GetUntypedMembers
   fullName: SuperOffice.CRM.Security.DocDocumentSentryQueryInfo.GetUntypedMembers
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
   commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
   isExternal: true

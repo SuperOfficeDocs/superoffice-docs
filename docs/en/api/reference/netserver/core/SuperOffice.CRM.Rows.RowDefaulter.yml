@@ -35,6 +35,8 @@ items:
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TableRowBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
@@ -546,6 +548,65 @@ items:
   nameWithType.vb: RowDefaulter.SetDefaultsAsync(PersonRow, Integer, DefaulterStrategy, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.PersonRow, Integer, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
   name.vb: SetDefaultsAsync(PersonRow, Integer, DefaulterStrategy, CancellationToken)
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.RowDefaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultsAsync(TicketRelationDefRow, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketRelationDefRow, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketRelationDefRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Task SetDefaultsAsync(TicketRelationDefRow row, CancellationToken cancellationToken = default)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TicketRelationDefRow
+      description: The row to set default values on.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketRelationDefRow, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.RowDefaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultsAsync(TicketRelationDefRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(TicketRelationDefRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketRelationDefRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketRelationDefRow" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Task SetDefaultsAsync(TicketRelationDefRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TicketRelationDefRow
+      description: The row to set default values on.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As TicketRelationDefRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
   id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketStatusRow,System.Threading.CancellationToken)
@@ -1798,6 +1859,14 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  name: TicketRelationDefRow
+  nameWithType: TicketRelationDefRow
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRow
 - uid: SuperOffice.CRM.Rows.TicketStatusRow
   commentId: T:SuperOffice.CRM.Rows.TicketStatusRow
   parent: SuperOffice.CRM.Rows

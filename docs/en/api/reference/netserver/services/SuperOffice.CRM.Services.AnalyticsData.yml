@@ -1,0 +1,2665 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AnalyticsData
+  commentId: T:SuperOffice.CRM.Services.AnalyticsData
+  id: AnalyticsData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AnalyticsData.#ctor
+  - SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey
+  - SuperOffice.CRM.Services.AnalyticsData.Company
+  - SuperOffice.CRM.Services.AnalyticsData.Email
+  - SuperOffice.CRM.Services.AnalyticsData.FeatureToggles
+  - SuperOffice.CRM.Services.AnalyticsData.FileVersion
+  - SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber
+  - SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode
+  - SuperOffice.CRM.Services.AnalyticsData.GroupCountryName
+  - SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays
+  - SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate
+  - SuperOffice.CRM.Services.AnalyticsData.HasLicensce
+  - SuperOffice.CRM.Services.AnalyticsData.LicenseStatus
+  - SuperOffice.CRM.Services.AnalyticsData.Name
+  - SuperOffice.CRM.Services.AnalyticsData.NumAppointment
+  - SuperOffice.CRM.Services.AnalyticsData.NumContact
+  - SuperOffice.CRM.Services.AnalyticsData.NumDashboard
+  - SuperOffice.CRM.Services.AnalyticsData.NumDocument
+  - SuperOffice.CRM.Services.AnalyticsData.NumEmailItem
+  - SuperOffice.CRM.Services.AnalyticsData.NumForm
+  - SuperOffice.CRM.Services.AnalyticsData.NumMailing
+  - SuperOffice.CRM.Services.AnalyticsData.NumPerson
+  - SuperOffice.CRM.Services.AnalyticsData.NumProject
+  - SuperOffice.CRM.Services.AnalyticsData.NumQuote
+  - SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine
+  - SuperOffice.CRM.Services.AnalyticsData.NumSale
+  - SuperOffice.CRM.Services.AnalyticsData.NumSelection
+  - SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo
+  - SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction
+  - SuperOffice.CRM.Services.AnalyticsData.NumWorkflow
+  - SuperOffice.CRM.Services.AnalyticsData.Preferences
+  - SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames
+  - SuperOffice.CRM.Services.AnalyticsData.ToString
+  - SuperOffice.CRM.Services.AnalyticsData.ToString(System.String)
+  - SuperOffice.CRM.Services.AnalyticsData.TotAppointment
+  - SuperOffice.CRM.Services.AnalyticsData.TotContact
+  - SuperOffice.CRM.Services.AnalyticsData.TotDashboard
+  - SuperOffice.CRM.Services.AnalyticsData.TotDocument
+  - SuperOffice.CRM.Services.AnalyticsData.TotEmailItem
+  - SuperOffice.CRM.Services.AnalyticsData.TotForm
+  - SuperOffice.CRM.Services.AnalyticsData.TotMailing
+  - SuperOffice.CRM.Services.AnalyticsData.TotPerson
+  - SuperOffice.CRM.Services.AnalyticsData.TotProject
+  - SuperOffice.CRM.Services.AnalyticsData.TotQuote
+  - SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine
+  - SuperOffice.CRM.Services.AnalyticsData.TotSale
+  - SuperOffice.CRM.Services.AnalyticsData.TotSelection
+  - SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo
+  - SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction
+  - SuperOffice.CRM.Services.AnalyticsData.TotWebUsers
+  - SuperOffice.CRM.Services.AnalyticsData.TotWorkflow
+  - SuperOffice.CRM.Services.AnalyticsData.UserCountryCode
+  - SuperOffice.CRM.Services.AnalyticsData.UserCountryName
+  - SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays
+  - SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt
+  - SuperOffice.CRM.Services.AnalyticsData.UserflowToken
+  langs:
+  - csharp
+  - vb
+  name: AnalyticsData
+  nameWithType: AnalyticsData
+  fullName: SuperOffice.CRM.Services.AnalyticsData
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Carrier object for AnalyticsData.
+
+    Services for the AnalyticsData Carrier is available from the <xref href="SuperOffice.CRM.Services.IDiagnosticsAgent?text=Diagnostics+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+
+      public class AnalyticsData
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+
+      Public Class AnalyticsData
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IDiagnosticsAgent
+    commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+- uid: SuperOffice.CRM.Services.AnalyticsData.#ctor
+  commentId: M:SuperOffice.CRM.Services.AnalyticsData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: AnalyticsData()
+  nameWithType: AnalyticsData.AnalyticsData()
+  fullName: SuperOffice.CRM.Services.AnalyticsData.AnalyticsData()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public AnalyticsData()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.AnalyticsData.#ctor*
+  nameWithType.vb: AnalyticsData.New()
+  fullName.vb: SuperOffice.CRM.Services.AnalyticsData.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.AnalyticsData.ToString
+  commentId: M:SuperOffice.CRM.Services.AnalyticsData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AnalyticsData.ToString()
+  fullName: SuperOffice.CRM.Services.AnalyticsData.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.AnalyticsData.ToString*
+- uid: SuperOffice.CRM.Services.AnalyticsData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.AnalyticsData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: AnalyticsData.ToString(string)
+  fullName: SuperOffice.CRM.Services.AnalyticsData.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.ToString*
+  nameWithType.vb: AnalyticsData.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.AnalyticsData.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey
+  id: AmplitudeApiKey
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: AmplitudeApiKey
+  nameWithType: AnalyticsData.AmplitudeApiKey
+  fullName: SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Amplitude API key for analytics integration
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string AmplitudeApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property AmplitudeApiKey As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserflowToken
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.UserflowToken
+  id: UserflowToken
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: UserflowToken
+  nameWithType: AnalyticsData.UserflowToken
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserflowToken
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Userflow authentication token
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string UserflowToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserflowToken As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.UserflowToken*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.Name
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AnalyticsData.Name
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Name
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: User full name. Only included in Sod
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.Email
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.Email
+  id: Email
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: AnalyticsData.Email
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Email
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: User email address. Only included in Sod
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Email As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.Email*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.Company
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.Company
+  id: Company
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: AnalyticsData.Company
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Company
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: User company name. Only included in Sod
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Company { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Company As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.Company*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.LicenseStatus
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.LicenseStatus
+  id: LicenseStatus
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: LicenseStatus
+  nameWithType: AnalyticsData.LicenseStatus
+  fullName: SuperOffice.CRM.Services.AnalyticsData.LicenseStatus
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Current license status of the user and installation
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual UserAndInstallationLicenceStatus LicenseStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LicenseStatus As UserAndInstallationLicenceStatus
+  overload: SuperOffice.CRM.Services.AnalyticsData.LicenseStatus*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.HasLicensce
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.HasLicensce
+  id: HasLicensce
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: HasLicensce
+  nameWithType: AnalyticsData.HasLicensce
+  fullName: SuperOffice.CRM.Services.AnalyticsData.HasLicensce
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Dictionary of license types and their status
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual StringBoolDictionary HasLicensce { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringBoolDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HasLicensce As StringBoolDictionary
+  overload: SuperOffice.CRM.Services.AnalyticsData.HasLicensce*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames
+  id: SystemLicenseNames
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: SystemLicenseNames
+  nameWithType: AnalyticsData.SystemLicenseNames
+  fullName: SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Names of system licenses assigned to the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string[] SystemLicenseNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SystemLicenseNames As String()
+  overload: SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt
+  id: UserSignedUpAt
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: UserSignedUpAt
+  nameWithType: AnalyticsData.UserSignedUpAt
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Date and time when the user signed up
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string UserSignedUpAt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserSignedUpAt As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumContact
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumContact
+  id: NumContact
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumContact
+  nameWithType: AnalyticsData.NumContact
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumContact
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of contacts associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumContact { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumContact As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumContact*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumPerson
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumPerson
+  id: NumPerson
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumPerson
+  nameWithType: AnalyticsData.NumPerson
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumPerson
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of persons associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumPerson { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumPerson As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumPerson*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumAppointment
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumAppointment
+  id: NumAppointment
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumAppointment
+  nameWithType: AnalyticsData.NumAppointment
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumAppointment
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of appointments for the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumAppointment { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumAppointment As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumAppointment*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumSale
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumSale
+  id: NumSale
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumSale
+  nameWithType: AnalyticsData.NumSale
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumSale
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of sales associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumSale { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumSale As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumSale*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumProject
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumProject
+  id: NumProject
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumProject
+  nameWithType: AnalyticsData.NumProject
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumProject
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of projects associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumProject { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumProject As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumProject*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumSelection
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumSelection
+  id: NumSelection
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumSelection
+  nameWithType: AnalyticsData.NumSelection
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumSelection
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of selections made by the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumSelection { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumSelection As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumSelection*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumEmailItem
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumEmailItem
+  id: NumEmailItem
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumEmailItem
+  nameWithType: AnalyticsData.NumEmailItem
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumEmailItem
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of email items associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumEmailItem { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumEmailItem As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumEmailItem*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction
+  id: NumTicketLogAction
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumTicketLogAction
+  nameWithType: AnalyticsData.NumTicketLogAction
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of ticket log actions performed by the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumTicketLogAction { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumTicketLogAction As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumDashboard
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumDashboard
+  id: NumDashboard
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumDashboard
+  nameWithType: AnalyticsData.NumDashboard
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumDashboard
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of dashboards available to the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumDashboard { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumDashboard As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumDashboard*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumQuote
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumQuote
+  id: NumQuote
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumQuote
+  nameWithType: AnalyticsData.NumQuote
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumQuote
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of quotes created by the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumQuote { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumQuote As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumQuote*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine
+  id: NumQuoteLine
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumQuoteLine
+  nameWithType: AnalyticsData.NumQuoteLine
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of quote lines associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumQuoteLine { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumQuoteLine As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumDocument
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumDocument
+  id: NumDocument
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumDocument
+  nameWithType: AnalyticsData.NumDocument
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumDocument
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of documents associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumDocument { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumDocument As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumDocument*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo
+  id: NumTargetAssignmentInfo
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumTargetAssignmentInfo
+  nameWithType: AnalyticsData.NumTargetAssignmentInfo
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of target assignment info records
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumTargetAssignmentInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumTargetAssignmentInfo As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumMailing
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumMailing
+  id: NumMailing
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumMailing
+  nameWithType: AnalyticsData.NumMailing
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumMailing
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of mailings sent by the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumMailing { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumMailing As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumMailing*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumForm
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumForm
+  id: NumForm
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumForm
+  nameWithType: AnalyticsData.NumForm
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumForm
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of forms created by the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumForm { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumForm As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumForm*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumWorkflow
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.NumWorkflow
+  id: NumWorkflow
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: NumWorkflow
+  nameWithType: AnalyticsData.NumWorkflow
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumWorkflow
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of workflows associated with the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumWorkflow { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumWorkflow As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.NumWorkflow*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotContact
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotContact
+  id: TotContact
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotContact
+  nameWithType: AnalyticsData.TotContact
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotContact
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of contacts in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotContact { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotContact As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotContact*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotPerson
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotPerson
+  id: TotPerson
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotPerson
+  nameWithType: AnalyticsData.TotPerson
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotPerson
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of persons in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotPerson { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotPerson As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotPerson*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotAppointment
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotAppointment
+  id: TotAppointment
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotAppointment
+  nameWithType: AnalyticsData.TotAppointment
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotAppointment
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of appointments in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotAppointment { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotAppointment As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotAppointment*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotSale
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotSale
+  id: TotSale
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotSale
+  nameWithType: AnalyticsData.TotSale
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotSale
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of sales in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotSale { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotSale As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotSale*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotProject
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotProject
+  id: TotProject
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotProject
+  nameWithType: AnalyticsData.TotProject
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotProject
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of projects in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotProject { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotProject As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotProject*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotSelection
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotSelection
+  id: TotSelection
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotSelection
+  nameWithType: AnalyticsData.TotSelection
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotSelection
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of selections in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotSelection { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotSelection As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotSelection*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotEmailItem
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotEmailItem
+  id: TotEmailItem
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotEmailItem
+  nameWithType: AnalyticsData.TotEmailItem
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotEmailItem
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of email items in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotEmailItem { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotEmailItem As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotEmailItem*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction
+  id: TotTicketLogAction
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotTicketLogAction
+  nameWithType: AnalyticsData.TotTicketLogAction
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of ticket log actions in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotTicketLogAction { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotTicketLogAction As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotDashboard
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotDashboard
+  id: TotDashboard
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotDashboard
+  nameWithType: AnalyticsData.TotDashboard
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotDashboard
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of dashboards in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotDashboard { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotDashboard As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotDashboard*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotQuote
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotQuote
+  id: TotQuote
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotQuote
+  nameWithType: AnalyticsData.TotQuote
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotQuote
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of quotes in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotQuote { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotQuote As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotQuote*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine
+  id: TotQuoteLine
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotQuoteLine
+  nameWithType: AnalyticsData.TotQuoteLine
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of quote lines in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotQuoteLine { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotQuoteLine As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotDocument
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotDocument
+  id: TotDocument
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotDocument
+  nameWithType: AnalyticsData.TotDocument
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotDocument
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of documents in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotDocument { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotDocument As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotDocument*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo
+  id: TotTargetAssignmentInfo
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotTargetAssignmentInfo
+  nameWithType: AnalyticsData.TotTargetAssignmentInfo
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of target assignment info records
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotTargetAssignmentInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotTargetAssignmentInfo As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotMailing
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotMailing
+  id: TotMailing
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotMailing
+  nameWithType: AnalyticsData.TotMailing
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotMailing
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of mailings in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotMailing { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotMailing As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotMailing*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotForm
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotForm
+  id: TotForm
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotForm
+  nameWithType: AnalyticsData.TotForm
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotForm
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of forms in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotForm { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotForm As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotForm*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotWorkflow
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotWorkflow
+  id: TotWorkflow
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotWorkflow
+  nameWithType: AnalyticsData.TotWorkflow
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotWorkflow
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of workflows in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotWorkflow { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotWorkflow As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotWorkflow*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays
+  id: UserRegisteredAgeDays
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: UserRegisteredAgeDays
+  nameWithType: AnalyticsData.UserRegisteredAgeDays
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of days since the user registered
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int UserRegisteredAgeDays { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserRegisteredAgeDays As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserCountryName
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.UserCountryName
+  id: UserCountryName
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: UserCountryName
+  nameWithType: AnalyticsData.UserCountryName
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserCountryName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Name of the user's country
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string UserCountryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserCountryName As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.UserCountryName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserCountryCode
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.UserCountryCode
+  id: UserCountryCode
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: UserCountryCode
+  nameWithType: AnalyticsData.UserCountryCode
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserCountryCode
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Country code of the user
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string UserCountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UserCountryCode As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.UserCountryCode*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.Preferences
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.Preferences
+  id: Preferences
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: Preferences
+  nameWithType: AnalyticsData.Preferences
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Preferences
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Array of user preferences (name and value)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual StringBoolDictionary Preferences { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringBoolDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Preferences As StringBoolDictionary
+  overload: SuperOffice.CRM.Services.AnalyticsData.Preferences*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotWebUsers
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.TotWebUsers
+  id: TotWebUsers
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: TotWebUsers
+  nameWithType: AnalyticsData.TotWebUsers
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotWebUsers
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Total number of web users in the system
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotWebUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotWebUsers As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.TotWebUsers*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupCountryName
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.GroupCountryName
+  id: GroupCountryName
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: GroupCountryName
+  nameWithType: AnalyticsData.GroupCountryName
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupCountryName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Name of the group's country
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string GroupCountryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property GroupCountryName As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.GroupCountryName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode
+  id: GroupCountryCode
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: GroupCountryCode
+  nameWithType: AnalyticsData.GroupCountryCode
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Country code of the group
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string GroupCountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property GroupCountryCode As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate
+  id: GroupRegisteredDate
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: GroupRegisteredDate
+  nameWithType: AnalyticsData.GroupRegisteredDate
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Date when the group was registered
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string GroupRegisteredDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property GroupRegisteredDate As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays
+  id: GroupRegisteredAgeDays
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: GroupRegisteredAgeDays
+  nameWithType: AnalyticsData.GroupRegisteredAgeDays
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of days since the group was registered
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int GroupRegisteredAgeDays { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property GroupRegisteredAgeDays As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.FeatureToggles
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.FeatureToggles
+  id: FeatureToggles
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: FeatureToggles
+  nameWithType: AnalyticsData.FeatureToggles
+  fullName: SuperOffice.CRM.Services.AnalyticsData.FeatureToggles
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Array of feature toggles (name and enabled status)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual StringBoolDictionary FeatureToggles { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringBoolDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FeatureToggles As StringBoolDictionary
+  overload: SuperOffice.CRM.Services.AnalyticsData.FeatureToggles*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.FileVersion
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.FileVersion
+  id: FileVersion
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: FileVersion
+  nameWithType: AnalyticsData.FileVersion
+  fullName: SuperOffice.CRM.Services.AnalyticsData.FileVersion
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Current file version as a string
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FileVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FileVersion As String
+  overload: SuperOffice.CRM.Services.AnalyticsData.FileVersion*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber
+  commentId: P:SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber
+  id: FileVersionNumber
+  parent: SuperOffice.CRM.Services.AnalyticsData
+  langs:
+  - csharp
+  - vb
+  name: FileVersionNumber
+  nameWithType: AnalyticsData.FileVersionNumber
+  fullName: SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Current file version as a number
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int FileVersionNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FileVersionNumber As Integer
+  overload: SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent
+  commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html
+  name: IDiagnosticsAgent
+  nameWithType: IDiagnosticsAgent
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AnalyticsData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData__ctor
+  name: AnalyticsData
+  nameWithType: AnalyticsData.AnalyticsData
+  fullName: SuperOffice.CRM.Services.AnalyticsData.AnalyticsData
+  nameWithType.vb: AnalyticsData.New
+  fullName.vb: SuperOffice.CRM.Services.AnalyticsData.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.AnalyticsData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_ToString
+  name: ToString
+  nameWithType: AnalyticsData.ToString
+  fullName: SuperOffice.CRM.Services.AnalyticsData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_AmplitudeApiKey
+  name: AmplitudeApiKey
+  nameWithType: AnalyticsData.AmplitudeApiKey
+  fullName: SuperOffice.CRM.Services.AnalyticsData.AmplitudeApiKey
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserflowToken*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.UserflowToken
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_UserflowToken
+  name: UserflowToken
+  nameWithType: AnalyticsData.UserflowToken
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserflowToken
+- uid: SuperOffice.CRM.Services.AnalyticsData.Name*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.Name
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_Name
+  name: Name
+  nameWithType: AnalyticsData.Name
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Name
+- uid: SuperOffice.CRM.Services.AnalyticsData.Email*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.Email
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_Email
+  name: Email
+  nameWithType: AnalyticsData.Email
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Email
+- uid: SuperOffice.CRM.Services.AnalyticsData.Company*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.Company
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_Company
+  name: Company
+  nameWithType: AnalyticsData.Company
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Company
+- uid: SuperOffice.CRM.Services.AnalyticsData.LicenseStatus*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.LicenseStatus
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_LicenseStatus
+  name: LicenseStatus
+  nameWithType: AnalyticsData.LicenseStatus
+  fullName: SuperOffice.CRM.Services.AnalyticsData.LicenseStatus
+- uid: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  commentId: T:SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus.html
+  name: UserAndInstallationLicenceStatus
+  nameWithType: UserAndInstallationLicenceStatus
+  fullName: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+- uid: SuperOffice.CRM.Services.AnalyticsData.HasLicensce*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.HasLicensce
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_HasLicensce
+  name: HasLicensce
+  nameWithType: AnalyticsData.HasLicensce
+  fullName: SuperOffice.CRM.Services.AnalyticsData.HasLicensce
+- uid: SuperOffice.CRM.Services.StringBoolDictionary
+  isExternal: true
+  name: StringBoolDictionary
+  nameWithType: StringBoolDictionary
+  fullName: SuperOffice.CRM.Services.StringBoolDictionary
+- uid: SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_SystemLicenseNames
+  name: SystemLicenseNames
+  nameWithType: AnalyticsData.SystemLicenseNames
+  fullName: SuperOffice.CRM.Services.AnalyticsData.SystemLicenseNames
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_UserSignedUpAt
+  name: UserSignedUpAt
+  nameWithType: AnalyticsData.UserSignedUpAt
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserSignedUpAt
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumContact*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumContact
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumContact
+  name: NumContact
+  nameWithType: AnalyticsData.NumContact
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumContact
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumPerson*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumPerson
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumPerson
+  name: NumPerson
+  nameWithType: AnalyticsData.NumPerson
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumPerson
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumAppointment*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumAppointment
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumAppointment
+  name: NumAppointment
+  nameWithType: AnalyticsData.NumAppointment
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumAppointment
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumSale*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumSale
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumSale
+  name: NumSale
+  nameWithType: AnalyticsData.NumSale
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumSale
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumProject*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumProject
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumProject
+  name: NumProject
+  nameWithType: AnalyticsData.NumProject
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumProject
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumSelection*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumSelection
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumSelection
+  name: NumSelection
+  nameWithType: AnalyticsData.NumSelection
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumSelection
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumEmailItem*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumEmailItem
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumEmailItem
+  name: NumEmailItem
+  nameWithType: AnalyticsData.NumEmailItem
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumEmailItem
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumTicketLogAction
+  name: NumTicketLogAction
+  nameWithType: AnalyticsData.NumTicketLogAction
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumTicketLogAction
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumDashboard*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumDashboard
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumDashboard
+  name: NumDashboard
+  nameWithType: AnalyticsData.NumDashboard
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumDashboard
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumQuote*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumQuote
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumQuote
+  name: NumQuote
+  nameWithType: AnalyticsData.NumQuote
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumQuote
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumQuoteLine
+  name: NumQuoteLine
+  nameWithType: AnalyticsData.NumQuoteLine
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumQuoteLine
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumDocument*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumDocument
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumDocument
+  name: NumDocument
+  nameWithType: AnalyticsData.NumDocument
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumDocument
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumTargetAssignmentInfo
+  name: NumTargetAssignmentInfo
+  nameWithType: AnalyticsData.NumTargetAssignmentInfo
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumTargetAssignmentInfo
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumMailing*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumMailing
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumMailing
+  name: NumMailing
+  nameWithType: AnalyticsData.NumMailing
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumMailing
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumForm*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumForm
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumForm
+  name: NumForm
+  nameWithType: AnalyticsData.NumForm
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumForm
+- uid: SuperOffice.CRM.Services.AnalyticsData.NumWorkflow*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.NumWorkflow
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_NumWorkflow
+  name: NumWorkflow
+  nameWithType: AnalyticsData.NumWorkflow
+  fullName: SuperOffice.CRM.Services.AnalyticsData.NumWorkflow
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotContact*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotContact
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotContact
+  name: TotContact
+  nameWithType: AnalyticsData.TotContact
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotContact
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotPerson*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotPerson
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotPerson
+  name: TotPerson
+  nameWithType: AnalyticsData.TotPerson
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotPerson
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotAppointment*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotAppointment
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotAppointment
+  name: TotAppointment
+  nameWithType: AnalyticsData.TotAppointment
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotAppointment
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotSale*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotSale
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotSale
+  name: TotSale
+  nameWithType: AnalyticsData.TotSale
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotSale
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotProject*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotProject
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotProject
+  name: TotProject
+  nameWithType: AnalyticsData.TotProject
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotProject
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotSelection*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotSelection
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotSelection
+  name: TotSelection
+  nameWithType: AnalyticsData.TotSelection
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotSelection
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotEmailItem*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotEmailItem
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotEmailItem
+  name: TotEmailItem
+  nameWithType: AnalyticsData.TotEmailItem
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotEmailItem
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotTicketLogAction
+  name: TotTicketLogAction
+  nameWithType: AnalyticsData.TotTicketLogAction
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotTicketLogAction
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotDashboard*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotDashboard
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotDashboard
+  name: TotDashboard
+  nameWithType: AnalyticsData.TotDashboard
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotDashboard
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotQuote*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotQuote
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotQuote
+  name: TotQuote
+  nameWithType: AnalyticsData.TotQuote
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotQuote
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotQuoteLine
+  name: TotQuoteLine
+  nameWithType: AnalyticsData.TotQuoteLine
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotQuoteLine
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotDocument*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotDocument
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotDocument
+  name: TotDocument
+  nameWithType: AnalyticsData.TotDocument
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotDocument
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotTargetAssignmentInfo
+  name: TotTargetAssignmentInfo
+  nameWithType: AnalyticsData.TotTargetAssignmentInfo
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotTargetAssignmentInfo
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotMailing*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotMailing
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotMailing
+  name: TotMailing
+  nameWithType: AnalyticsData.TotMailing
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotMailing
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotForm*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotForm
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotForm
+  name: TotForm
+  nameWithType: AnalyticsData.TotForm
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotForm
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotWorkflow*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotWorkflow
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotWorkflow
+  name: TotWorkflow
+  nameWithType: AnalyticsData.TotWorkflow
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotWorkflow
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_UserRegisteredAgeDays
+  name: UserRegisteredAgeDays
+  nameWithType: AnalyticsData.UserRegisteredAgeDays
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserRegisteredAgeDays
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserCountryName*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.UserCountryName
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_UserCountryName
+  name: UserCountryName
+  nameWithType: AnalyticsData.UserCountryName
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserCountryName
+- uid: SuperOffice.CRM.Services.AnalyticsData.UserCountryCode*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.UserCountryCode
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_UserCountryCode
+  name: UserCountryCode
+  nameWithType: AnalyticsData.UserCountryCode
+  fullName: SuperOffice.CRM.Services.AnalyticsData.UserCountryCode
+- uid: SuperOffice.CRM.Services.AnalyticsData.Preferences*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.Preferences
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_Preferences
+  name: Preferences
+  nameWithType: AnalyticsData.Preferences
+  fullName: SuperOffice.CRM.Services.AnalyticsData.Preferences
+- uid: SuperOffice.CRM.Services.AnalyticsData.TotWebUsers*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.TotWebUsers
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_TotWebUsers
+  name: TotWebUsers
+  nameWithType: AnalyticsData.TotWebUsers
+  fullName: SuperOffice.CRM.Services.AnalyticsData.TotWebUsers
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupCountryName*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.GroupCountryName
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_GroupCountryName
+  name: GroupCountryName
+  nameWithType: AnalyticsData.GroupCountryName
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupCountryName
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_GroupCountryCode
+  name: GroupCountryCode
+  nameWithType: AnalyticsData.GroupCountryCode
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupCountryCode
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_GroupRegisteredDate
+  name: GroupRegisteredDate
+  nameWithType: AnalyticsData.GroupRegisteredDate
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredDate
+- uid: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_GroupRegisteredAgeDays
+  name: GroupRegisteredAgeDays
+  nameWithType: AnalyticsData.GroupRegisteredAgeDays
+  fullName: SuperOffice.CRM.Services.AnalyticsData.GroupRegisteredAgeDays
+- uid: SuperOffice.CRM.Services.AnalyticsData.FeatureToggles*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.FeatureToggles
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_FeatureToggles
+  name: FeatureToggles
+  nameWithType: AnalyticsData.FeatureToggles
+  fullName: SuperOffice.CRM.Services.AnalyticsData.FeatureToggles
+- uid: SuperOffice.CRM.Services.AnalyticsData.FileVersion*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.FileVersion
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_FileVersion
+  name: FileVersion
+  nameWithType: AnalyticsData.FileVersion
+  fullName: SuperOffice.CRM.Services.AnalyticsData.FileVersion
+- uid: SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber*
+  commentId: Overload:SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber
+  isExternal: true
+  href: SuperOffice.CRM.Services.AnalyticsData.html#SuperOffice_CRM_Services_AnalyticsData_FileVersionNumber
+  name: FileVersionNumber
+  nameWithType: AnalyticsData.FileVersionNumber
+  fullName: SuperOffice.CRM.Services.AnalyticsData.FileVersionNumber

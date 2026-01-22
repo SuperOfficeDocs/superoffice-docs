@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
+  - SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
   langs:
   - csharp
   - vb
@@ -118,3 +119,10 @@ references:
   name: UdefPublishBatchPlugin
   nameWithType: UdefPublishBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin.html
+  name: UnitTestPlugin
+  nameWithType: UnitTestPlugin
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin

@@ -281,6 +281,7 @@ items:
   - SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider
   - SuperOffice.CRM.Lists.TicketPriorityListProvider
   - SuperOffice.CRM.Lists.TicketReadStatusProvider
+  - SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
   - SuperOffice.CRM.Lists.TicketSLevelProvider
   - SuperOffice.CRM.Lists.TicketStatusProvider
   - SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider
@@ -2116,6 +2117,13 @@ references:
   name: TicketReadStatusProvider
   nameWithType: TicketReadStatusProvider
   fullName: SuperOffice.CRM.Lists.TicketReadStatusProvider
+- uid: SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.TicketRelationDefinitionProvider.html
+  name: TicketRelationDefinitionProvider
+  nameWithType: TicketRelationDefinitionProvider
+  fullName: SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
 - uid: SuperOffice.CRM.Lists.TicketSLevelProvider
   commentId: T:SuperOffice.CRM.Lists.TicketSLevelProvider
   isExternal: true

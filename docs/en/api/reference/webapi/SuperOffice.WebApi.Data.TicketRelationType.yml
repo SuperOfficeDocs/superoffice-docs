@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketRelationType
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationType
+  id: TicketRelationType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketRelationType.Child
+  - SuperOffice.WebApi.Data.TicketRelationType.Parent
+  - SuperOffice.WebApi.Data.TicketRelationType.Related
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Type of relation between tickets
+
+    This Enum is used by:  ticket_relation_def.relation_type
+  example: []
+  syntax:
+    content: 'public enum TicketRelationType : short'
+    content.vb: Public Enum TicketRelationType As Short
+- uid: SuperOffice.WebApi.Data.TicketRelationType.Related
+  commentId: F:SuperOffice.WebApi.Data.TicketRelationType.Related
+  id: Related
+  parent: SuperOffice.WebApi.Data.TicketRelationType
+  langs:
+  - csharp
+  - vb
+  name: Related
+  nameWithType: TicketRelationType.Related
+  fullName: SuperOffice.WebApi.Data.TicketRelationType.Related
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Tickets are related without a hierarchy'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Related = 0
+    return:
+      type: SuperOffice.WebApi.Data.TicketRelationType
+    content.vb: >-
+      <EnumMember>
+
+      Related = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.TicketRelationType.Parent
+  commentId: F:SuperOffice.WebApi.Data.TicketRelationType.Parent
+  id: Parent
+  parent: SuperOffice.WebApi.Data.TicketRelationType
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: TicketRelationType.Parent
+  fullName: SuperOffice.WebApi.Data.TicketRelationType.Parent
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Source is parent of the destination Ticket in this relation'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Parent = 1
+    return:
+      type: SuperOffice.WebApi.Data.TicketRelationType
+    content.vb: >-
+      <EnumMember>
+
+      Parent = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.TicketRelationType.Child
+  commentId: F:SuperOffice.WebApi.Data.TicketRelationType.Child
+  id: Child
+  parent: SuperOffice.WebApi.Data.TicketRelationType
+  langs:
+  - csharp
+  - vb
+  name: Child
+  nameWithType: TicketRelationType.Child
+  fullName: SuperOffice.WebApi.Data.TicketRelationType.Child
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Source is child of the destination Ticket in this relation'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Child = 2
+    return:
+      type: SuperOffice.WebApi.Data.TicketRelationType
+    content.vb: >-
+      <EnumMember>
+
+      Child = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.TicketRelationType
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationType.html
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationType

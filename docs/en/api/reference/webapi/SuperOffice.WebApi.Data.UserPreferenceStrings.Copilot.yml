@@ -8,6 +8,8 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.AllowWebAccess
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.AutoGenerateReply
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceProcedure
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceSystemPrompt
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ShowAiReplyTool
   langs:
   - csharp
@@ -118,6 +120,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const AutoGenerateReply As String = "autoGenerateReply"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  id: ServiceSystemPrompt
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+  langs:
+  - csharp
+  - vb
+  name: ServiceSystemPrompt
+  nameWithType: UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Service Copilot system prompt
+  example: []
+  syntax:
+    content: public const string ServiceSystemPrompt = "systemPrompt"
+    return:
+      type: System.String
+    content.vb: Public Const ServiceSystemPrompt As String = "systemPrompt"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceProcedure
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceProcedure
+  id: ServiceProcedure
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot
+  langs:
+  - csharp
+  - vb
+  name: ServiceProcedure
+  nameWithType: UserPreferenceStrings.Copilot.ServiceProcedure
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.ServiceProcedure
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Service Copilot standard operating procedures
+  example: []
+  syntax:
+    content: public const string ServiceProcedure = "serviceProcedure"
+    return:
+      type: System.String
+    content.vb: Public Const ServiceProcedure As String = "serviceProcedure"
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data

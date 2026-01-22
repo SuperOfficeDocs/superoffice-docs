@@ -97,6 +97,7 @@ items:
   - SuperOffice.CRM.Lists.TicketAlertProvider
   - SuperOffice.CRM.Lists.TicketListProvider
   - SuperOffice.CRM.Lists.TicketPriorityListProvider
+  - SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
   - SuperOffice.CRM.Lists.TicketTicketStatusProvider
   - SuperOffice.CRM.Lists.TicketTypeProvider
   - SuperOffice.CRM.Lists.UserGroupProvider

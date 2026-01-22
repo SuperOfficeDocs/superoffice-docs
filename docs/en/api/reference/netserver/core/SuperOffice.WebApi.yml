@@ -6,8 +6,11 @@ items:
   children:
   - SuperOffice.WebApi.HttpContextItem
   - SuperOffice.WebApi.IOnlineAppRequestInfo
+  - SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  - SuperOffice.WebApi.ITrackingSessionInfo
   - SuperOffice.WebApi.OnlineAppRequestInfo
   - SuperOffice.WebApi.PartnerAppRequestInfo
+  - SuperOffice.WebApi.TrackingSessionInfo
   langs:
   - csharp
   - vb
@@ -25,6 +28,13 @@ references:
   name: HttpContextItem
   nameWithType: HttpContextItem
   fullName: SuperOffice.WebApi.HttpContextItem
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  commentId: T:SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  isExternal: true
+  href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  name: ISoHttpContextItemsAccessor
+  nameWithType: ISoHttpContextItemsAccessor
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor
 - uid: SuperOffice.WebApi.PartnerAppRequestInfo
   commentId: T:SuperOffice.WebApi.PartnerAppRequestInfo
   parent: SuperOffice.WebApi
@@ -48,6 +58,21 @@ references:
   name: OnlineAppRequestInfo
   nameWithType: OnlineAppRequestInfo
   fullName: SuperOffice.WebApi.OnlineAppRequestInfo
+- uid: SuperOffice.WebApi.ITrackingSessionInfo
+  commentId: T:SuperOffice.WebApi.ITrackingSessionInfo
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.ITrackingSessionInfo.html
+  name: ITrackingSessionInfo
+  nameWithType: ITrackingSessionInfo
+  fullName: SuperOffice.WebApi.ITrackingSessionInfo
+- uid: SuperOffice.WebApi.TrackingSessionInfo
+  commentId: T:SuperOffice.WebApi.TrackingSessionInfo
+  isExternal: true
+  href: SuperOffice.WebApi.TrackingSessionInfo.html
+  name: TrackingSessionInfo
+  nameWithType: TrackingSessionInfo
+  fullName: SuperOffice.WebApi.TrackingSessionInfo
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true

@@ -58,6 +58,7 @@ items:
   - SuperOffice.CRM.Services.Appointment.SaleName
   - SuperOffice.CRM.Services.Appointment.StartDate
   - SuperOffice.CRM.Services.Appointment.Task
+  - SuperOffice.CRM.Services.Appointment.TaskId
   - SuperOffice.CRM.Services.Appointment.TaskType
   - SuperOffice.CRM.Services.Appointment.Title
   - SuperOffice.CRM.Services.Appointment.ToString
@@ -98,11 +99,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
 
       public class Appointment : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
 
       Public Class Appointment Inherits Carrier
   seealso:
@@ -117,7 +118,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
 - uid: SuperOffice.CRM.Services.Appointment.#ctor
   commentId: M:SuperOffice.CRM.Services.Appointment.#ctor
   id: '#ctor'
@@ -2012,6 +2013,39 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.Appointment.TaskId
+  commentId: P:SuperOffice.CRM.Services.Appointment.TaskId
+  id: TaskId
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: TaskId
+  nameWithType: Appointment.TaskId
+  fullName: SuperOffice.CRM.Services.Appointment.TaskId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Link to task list
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TaskId As Integer
+  overload: SuperOffice.CRM.Services.Appointment.TaskId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
@@ -2592,3 +2626,10 @@ references:
   name: InternalNotes
   nameWithType: Appointment.InternalNotes
   fullName: SuperOffice.CRM.Services.Appointment.InternalNotes
+- uid: SuperOffice.CRM.Services.Appointment.TaskId*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.TaskId
+  isExternal: true
+  href: SuperOffice.CRM.Services.Appointment.html#SuperOffice_CRM_Services_Appointment_TaskId
+  name: TaskId
+  nameWithType: Appointment.TaskId
+  fullName: SuperOffice.CRM.Services.Appointment.TaskId

@@ -29,6 +29,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetAudienceVisibilityTableInfo
   - SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo
   - SuperOffice.Data.TablesInfo.GetAutosaveTableInfo
+  - SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo
   - SuperOffice.Data.TablesInfo.GetBaseTZLocationTableInfo
   - SuperOffice.Data.TablesInfo.GetBatchTaskDefinitionTableInfo
   - SuperOffice.Data.TablesInfo.GetBatchTaskTableInfo
@@ -14320,6 +14321,31 @@ items:
       type: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
     content.vb: Public Shared Function GetAutomatedCategoryUpdateTableInfo() As AutomatedCategoryUpdateTableInfo
   overload: SuperOffice.Data.TablesInfo.GetAutomatedCategoryUpdateTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo
+  id: GetAvailableFontsTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableFontsTableInfo()
+  nameWithType: TablesInfo.GetAvailableFontsTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of AvailableFontsTableInfo:
+
+    This table contains all fonts selected to be available for external usage
+  example: []
+  syntax:
+    content: public static AvailableFontsTableInfo GetAvailableFontsTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.AvailableFontsTableInfo
+    content.vb: Public Shared Function GetAvailableFontsTableInfo() As AvailableFontsTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   id: GetTicketTypeTableInfo
@@ -23030,6 +23056,21 @@ references:
   name: AutomatedCategoryUpdateTableInfo
   nameWithType: AutomatedCategoryUpdateTableInfo
   fullName: SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetAvailableFontsTableInfo
+  name: GetAvailableFontsTableInfo
+  nameWithType: TablesInfo.GetAvailableFontsTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetAvailableFontsTableInfo
+- uid: SuperOffice.CRM.Data.AvailableFontsTableInfo
+  commentId: T:SuperOffice.CRM.Data.AvailableFontsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html
+  name: AvailableFontsTableInfo
+  nameWithType: AvailableFontsTableInfo
+  fullName: SuperOffice.CRM.Data.AvailableFontsTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   isExternal: true

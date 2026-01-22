@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  commentId: T:SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  id: ISoHttpContextItemsAccessor
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set``1(System.String,``0)
+  - SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet``1(System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: ISoHttpContextItemsAccessor
+  nameWithType: ISoHttpContextItemsAccessor
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: Access HttpContext.Items from ASP.NET or ASP.NET Core or test-double.
+  remarks: >-
+    Use <xref href="Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor%60%601" data-throw-if-not-resolved="false"></xref>
+
+    to configure implementation of <xref href="SuperOffice.WebApi.ISoHttpContextItemsAccessor" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public interface ISoHttpContextItemsAccessor
+    content.vb: Public Interface ISoHttpContextItemsAccessor
+  extensionMethods:
+  - SuperOffice.WebApi.ISoHttpContextItemsAccessor.EnumUtil.MapEnums``2
+  - SuperOffice.WebApi.ISoHttpContextItemsAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set``1(System.String,``0)
+  commentId: M:SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set``1(System.String,``0)
+  id: Set``1(System.String,``0)
+  parent: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  langs:
+  - csharp
+  - vb
+  name: Set<T>(string, T)
+  nameWithType: ISoHttpContextItemsAccessor.Set<T>(string, T)
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set<T>(string, T)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: void Set<T>(string key, T item)
+    parameters:
+    - id: key
+      type: System.String
+    - id: item
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Sub [Set](Of T)(key As String, item As T)
+  overload: SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set*
+  nameWithType.vb: ISoHttpContextItemsAccessor.Set(Of T)(String, T)
+  fullName.vb: SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set(Of T)(String, T)
+  name.vb: Set(Of T)(String, T)
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet``1(System.String,``0@)
+  commentId: M:SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet``1(System.String,``0@)
+  id: TryGet``1(System.String,``0@)
+  parent: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  langs:
+  - csharp
+  - vb
+  name: TryGet<T>(string, out T)
+  nameWithType: ISoHttpContextItemsAccessor.TryGet<T>(string, out T)
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet<T>(string, out T)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: bool TryGet<T>(string key, out T item)
+    parameters:
+    - id: key
+      type: System.String
+    - id: item
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Function TryGet(Of T)(key As String, item As T) As Boolean
+  overload: SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet*
+  nameWithType.vb: ISoHttpContextItemsAccessor.TryGet(Of T)(String, T)
+  fullName.vb: SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet(Of T)(String, T)
+  name.vb: TryGet(Of T)(String, T)
+references:
+- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
+  isExternal: true
+  href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerCoreOptionsBuilder_UseHttpContextItemsAccessor__1
+  name: UseHttpContextItemsAccessor<T>()
+  nameWithType: NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor<T>()
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor<T>()
+  nameWithType.vb: NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor(Of T)()
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor(Of T)()
+  name.vb: UseHttpContextItemsAccessor(Of T)()
+  spec.csharp:
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
+    name: UseHttpContextItemsAccessor
+    isExternal: true
+    href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerCoreOptionsBuilder_UseHttpContextItemsAccessor__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
+    name: UseHttpContextItemsAccessor
+    isExternal: true
+    href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerCoreOptionsBuilder_UseHttpContextItemsAccessor__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  commentId: T:SuperOffice.WebApi.ISoHttpContextItemsAccessor
+  isExternal: true
+  href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  name: ISoHttpContextItemsAccessor
+  nameWithType: ISoHttpContextItemsAccessor
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISoHttpContextItemsAccessor, To>(ISoHttpContextItemsAccessor)
+  nameWithType: EnumUtil.MapEnums<ISoHttpContextItemsAccessor, To>(ISoHttpContextItemsAccessor)
+  fullName: EnumUtil.MapEnums<SuperOffice.WebApi.ISoHttpContextItemsAccessor, To>(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoHttpContextItemsAccessor, To)(ISoHttpContextItemsAccessor)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.WebApi.ISoHttpContextItemsAccessor, To)(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+  name.vb: MapEnums(Of ISoHttpContextItemsAccessor, To)(ISoHttpContextItemsAccessor)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: )
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISoHttpContextItemsAccessor, To>(ISoHttpContextItemsAccessor)
+  nameWithType: Converters.MapEnums<ISoHttpContextItemsAccessor, To>(ISoHttpContextItemsAccessor)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.WebApi.ISoHttpContextItemsAccessor, To>(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+  nameWithType.vb: Converters.MapEnums(Of ISoHttpContextItemsAccessor, To)(ISoHttpContextItemsAccessor)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.WebApi.ISoHttpContextItemsAccessor, To)(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+  name.vb: MapEnums(Of ISoHttpContextItemsAccessor, To)(ISoHttpContextItemsAccessor)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.WebApi.ISoHttpContextItemsAccessor)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+    isExternal: true
+    href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set*
+  commentId: Overload:SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set
+  isExternal: true
+  href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html#SuperOffice_WebApi_ISoHttpContextItemsAccessor_Set__1_System_String___0_
+  name: Set
+  nameWithType: ISoHttpContextItemsAccessor.Set
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor.Set
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet*
+  commentId: Overload:SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet
+  isExternal: true
+  href: SuperOffice.WebApi.ISoHttpContextItemsAccessor.html#SuperOffice_WebApi_ISoHttpContextItemsAccessor_TryGet__1_System_String___0__
+  name: TryGet
+  nameWithType: ISoHttpContextItemsAccessor.TryGet
+  fullName: SuperOffice.WebApi.ISoHttpContextItemsAccessor.TryGet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

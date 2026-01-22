@@ -29,6 +29,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AudienceVisibility
   - SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdate
   - SuperOffice.CRM.Data.DBC.Autosave
+  - SuperOffice.CRM.Data.DBC.AvailableFonts
   - SuperOffice.CRM.Data.DBC.BaseTZLocation
   - SuperOffice.CRM.Data.DBC.BatchTask
   - SuperOffice.CRM.Data.DBC.BatchTaskDefinition
@@ -11938,6 +11939,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const AutomatedCategoryUpdate As String = "AutomatedCategoryUpdate"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFonts
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFonts
+  id: AvailableFonts
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: AvailableFonts
+  nameWithType: DBC.AvailableFonts
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFonts
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts: This table contains all fonts selected to be available for external usage'
+  example: []
+  syntax:
+    content: public const string AvailableFonts = "available_fonts"
+    return:
+      type: System.String
+    content.vb: Public Const AvailableFonts As String = "available_fonts"
 - uid: SuperOffice.CRM.Data.DBC.TicketType
   commentId: F:SuperOffice.CRM.Data.DBC.TicketType
   id: TicketType

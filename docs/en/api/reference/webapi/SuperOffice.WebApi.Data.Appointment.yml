@@ -66,6 +66,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment.SaleName
   - SuperOffice.WebApi.Data.Appointment.StartDate
   - SuperOffice.WebApi.Data.Appointment.Task
+  - SuperOffice.WebApi.Data.Appointment.TaskId
   - SuperOffice.WebApi.Data.Appointment.TaskType
   - SuperOffice.WebApi.Data.Appointment.TaskType_String
   - SuperOffice.WebApi.Data.Appointment.Title
@@ -1965,6 +1966,29 @@ items:
       type: System.String
     content.vb: Public Overridable Property InternalNotes As String
   overload: SuperOffice.WebApi.Data.Appointment.InternalNotes*
+- uid: SuperOffice.WebApi.Data.Appointment.TaskId
+  commentId: P:SuperOffice.WebApi.Data.Appointment.TaskId
+  id: TaskId
+  parent: SuperOffice.WebApi.Data.Appointment
+  langs:
+  - csharp
+  - vb
+  name: TaskId
+  nameWithType: Appointment.TaskId
+  fullName: SuperOffice.WebApi.Data.Appointment.TaskId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Link to task list
+  example: []
+  syntax:
+    content: public virtual int TaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TaskId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment.TaskId*
 references:
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent
   commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
@@ -3167,3 +3191,10 @@ references:
   name: InternalNotes
   nameWithType: Appointment.InternalNotes
   fullName: SuperOffice.WebApi.Data.Appointment.InternalNotes
+- uid: SuperOffice.WebApi.Data.Appointment.TaskId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment.TaskId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Appointment.html#SuperOffice_WebApi_Data_Appointment_TaskId
+  name: TaskId
+  nameWithType: Appointment.TaskId
+  fullName: SuperOffice.WebApi.Data.Appointment.TaskId

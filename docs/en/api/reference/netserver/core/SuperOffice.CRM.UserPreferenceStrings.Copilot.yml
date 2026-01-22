@@ -8,6 +8,8 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.AllowWebAccess
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.AutoGenerateReply
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceProcedure
+  - SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.ShowAiReplyTool
   langs:
   - csharp
@@ -118,6 +120,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const AutoGenerateReply As String = "autoGenerateReply"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  id: ServiceSystemPrompt
+  parent: SuperOffice.CRM.UserPreferenceStrings.Copilot
+  langs:
+  - csharp
+  - vb
+  name: ServiceSystemPrompt
+  nameWithType: UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: Service Copilot system prompt
+  example: []
+  syntax:
+    content: public const string ServiceSystemPrompt = "systemPrompt"
+    return:
+      type: System.String
+    content.vb: Public Const ServiceSystemPrompt As String = "systemPrompt"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceProcedure
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceProcedure
+  id: ServiceProcedure
+  parent: SuperOffice.CRM.UserPreferenceStrings.Copilot
+  langs:
+  - csharp
+  - vb
+  name: ServiceProcedure
+  nameWithType: UserPreferenceStrings.Copilot.ServiceProcedure
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceProcedure
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: Service Copilot standard operating procedures
+  example: []
+  syntax:
+    content: public const string ServiceProcedure = "serviceProcedure"
+    return:
+      type: System.String
+    content.vb: Public Const ServiceProcedure As String = "serviceProcedure"
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM

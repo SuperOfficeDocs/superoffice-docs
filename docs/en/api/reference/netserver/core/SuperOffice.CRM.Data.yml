@@ -28,6 +28,7 @@ items:
   - SuperOffice.CRM.Data.AudienceVisibilityTableInfo
   - SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo
   - SuperOffice.CRM.Data.AutosaveTableInfo
+  - SuperOffice.CRM.Data.AvailableFontsTableInfo
   - SuperOffice.CRM.Data.BaseTZLocationTableInfo
   - SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
   - SuperOffice.CRM.Data.BatchTaskTableInfo
@@ -108,6 +109,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AudienceVisibilityFields
   - SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields
   - SuperOffice.CRM.Data.DBC.AutosaveFields
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields
   - SuperOffice.CRM.Data.DBC.BaseTZLocationFields
   - SuperOffice.CRM.Data.DBC.BatchTaskDefinitionFields
   - SuperOffice.CRM.Data.DBC.BatchTaskFields
@@ -1302,6 +1304,14 @@ references:
   name: AutosaveTableInfo
   nameWithType: AutosaveTableInfo
   fullName: SuperOffice.CRM.Data.AutosaveTableInfo
+- uid: SuperOffice.CRM.Data.AvailableFontsTableInfo
+  commentId: T:SuperOffice.CRM.Data.AvailableFontsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html
+  name: AvailableFontsTableInfo
+  nameWithType: AvailableFontsTableInfo
+  fullName: SuperOffice.CRM.Data.AvailableFontsTableInfo
 - uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
   commentId: T:SuperOffice.CRM.Data.BaseTZLocationTableInfo
   parent: SuperOffice.CRM.Data
@@ -16436,6 +16446,33 @@ references:
     name: AutomatedCategoryUpdateFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.AutomatedCategoryUpdateFields.html
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.AvailableFontsFields
+  nameWithType: DBC.AvailableFontsFields
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+    name: AvailableFontsFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.AvailableFontsFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+    name: AvailableFontsFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.AvailableFontsFields.html
 - uid: SuperOffice.CRM.Data.DBC.TicketTypeFields
   commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeFields
   isExternal: true

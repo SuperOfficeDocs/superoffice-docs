@@ -7,7 +7,6 @@ items:
   children:
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.ApiCluster
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.BackgroundService
-  - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.CrmWebCore
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.FilesetService
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.UseProcessName
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.WebClient
@@ -120,24 +119,6 @@ items:
   example: []
   syntax:
     content: UseProcessName = 4
-    return:
-      type: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
-- uid: SuperOffice.Configuration.ConfigFile.TelemetryRoleName.CrmWebCore
-  commentId: F:SuperOffice.Configuration.ConfigFile.TelemetryRoleName.CrmWebCore
-  id: CrmWebCore
-  parent: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
-  langs:
-  - csharp
-  - vb
-  name: CrmWebCore
-  nameWithType: ConfigFile.TelemetryRoleName.CrmWebCore
-  fullName: SuperOffice.Configuration.ConfigFile.TelemetryRoleName.CrmWebCore
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  syntax:
-    content: CrmWebCore = 5
     return:
       type: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
 references:

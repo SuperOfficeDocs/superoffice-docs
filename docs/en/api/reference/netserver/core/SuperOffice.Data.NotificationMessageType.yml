@@ -24,11 +24,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
 
       public enum NotificationMessageType
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.7.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
 
       Public Enum NotificationMessageType
   extensionMethods:
@@ -44,7 +44,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.7.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
 - uid: SuperOffice.Data.NotificationMessageType.Message
   commentId: F:SuperOffice.Data.NotificationMessageType.Message
   id: Message

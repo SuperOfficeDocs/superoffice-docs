@@ -63,6 +63,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AudienceVisibility_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BaseTZLocation_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BaseTZLocation_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BatchTaskDefinition_RegisteredAssociateId
@@ -19538,6 +19540,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AutomatedCategoryUpdateTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId As TargetedLeftOuterJoin(Of AutomatedCategoryUpdateTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  id: LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to AvailableFonts.<xref href="SuperOffice.CRM.Data.AvailableFontsTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<AvailableFontsTableInfo> LeftOuterJoin_AvailableFonts_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AvailableFontsTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_AvailableFonts_RegisteredAssociateId As TargetedLeftOuterJoin(Of AvailableFontsTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  id: LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to AvailableFonts.<xref href="SuperOffice.CRM.Data.AvailableFontsTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<AvailableFontsTableInfo> LeftOuterJoin_AvailableFonts_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AvailableFontsTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_AvailableFonts_UpdatedAssociateId As TargetedLeftOuterJoin(Of AvailableFontsTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   id: LeftOuterJoin_TicketType_RegisteredAssociateId
@@ -44818,6 +44866,69 @@ references:
   name: LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AutomatedCategoryUpdate_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AvailableFontsTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AvailableFontsTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html#SuperOffice_CRM_Data_AvailableFontsTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: AvailableFontsTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AvailableFontsTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  name: LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AvailableFontsTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AvailableFontsTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<AvailableFontsTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AvailableFontsTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AvailableFontsTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AvailableFontsTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AvailableFontsTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AvailableFontsTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AvailableFontsTableInfo
+    name: AvailableFontsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AvailableFontsTableInfo
+    name: AvailableFontsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.AvailableFontsTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AvailableFontsTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html#SuperOffice_CRM_Data_AvailableFontsTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: AvailableFontsTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AvailableFontsTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  name: LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_AvailableFonts_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   isExternal: true

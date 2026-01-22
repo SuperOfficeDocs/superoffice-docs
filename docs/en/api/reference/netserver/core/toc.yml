@@ -3153,6 +3153,8 @@ items:
     name: SaintRegenBatchPlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
     name: UdefPublishBatchPlugin
+  - uid: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
+    name: UnitTestPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Tasks
   name: SuperOffice.CRM.BatchProcessing.Tasks
   items:
@@ -3435,6 +3437,8 @@ items:
     name: AutomatedCategoryUpdateTableInfo
   - uid: SuperOffice.CRM.Data.AutosaveTableInfo
     name: AutosaveTableInfo
+  - uid: SuperOffice.CRM.Data.AvailableFontsTableInfo
+    name: AvailableFontsTableInfo
   - uid: SuperOffice.CRM.Data.BaseTZLocationTableInfo
     name: BaseTZLocationTableInfo
   - uid: SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
@@ -3595,6 +3599,8 @@ items:
     name: DBC.AutomatedCategoryUpdateFields
   - uid: SuperOffice.CRM.Data.DBC.AutosaveFields
     name: DBC.AutosaveFields
+  - uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+    name: DBC.AvailableFontsFields
   - uid: SuperOffice.CRM.Data.DBC.BaseTZLocationFields
     name: DBC.BaseTZLocationFields
   - uid: SuperOffice.CRM.Data.DBC.BatchTaskDefinitionFields
@@ -6773,6 +6779,8 @@ items:
     name: TicketPriorityListProvider
   - uid: SuperOffice.CRM.Lists.TicketReadStatusProvider
     name: TicketReadStatusProvider
+  - uid: SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
+    name: TicketRelationDefinitionProvider
   - uid: SuperOffice.CRM.Lists.TicketSLevelProvider
     name: TicketSLevelProvider
   - uid: SuperOffice.CRM.Lists.TicketStatusProvider
@@ -7488,6 +7496,20 @@ items:
     name: AutosaveRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.AutosaveRows.IdxIndexId
     name: AutosaveRows.IdxIndexId
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRecordData
+    name: AvailableFontsRecordData
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRecordDataExtensions
+    name: AvailableFontsRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow
+    name: AvailableFontsRow
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+    name: AvailableFontsRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+    name: AvailableFontsRow.IdxAvailableFontsId
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRows
+    name: AvailableFontsRows
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
+    name: AvailableFontsRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.BaseTZLocationRecordData
     name: BaseTZLocationRecordData
   - uid: SuperOffice.CRM.Rows.BaseTZLocationRecordDataExtensions
@@ -18992,6 +19014,8 @@ items:
     name: CacheBaseV2
   - uid: SuperOffice.Data.Cache.CacheBlockInformationCollector
     name: CacheBlockInformationCollector
+  - uid: SuperOffice.Data.Cache.CacheBlockLogger
+    name: CacheBlockLogger
   - uid: SuperOffice.Data.Cache.CacheFlusher
     name: CacheFlusher
   - uid: SuperOffice.Data.Cache.CacheInvalidationOperations
@@ -20392,6 +20416,8 @@ items:
     name: GlobalTestFlag
   - uid: SuperOffice.Util.HtmlHelper
     name: HtmlHelper
+  - uid: SuperOffice.Util.Http11EnforcingHandler
+    name: Http11EnforcingHandler
   - uid: SuperOffice.Util.HttpHelper
     name: HttpHelper
   - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
@@ -20512,6 +20538,10 @@ items:
     name: TrackEvent
   - uid: SuperOffice.Util.TrackEventDispatcher
     name: TrackEventDispatcher
+  - uid: SuperOffice.Util.TrackEventItem
+    name: TrackEventItem
+  - uid: SuperOffice.Util.TrackEventNames
+    name: TrackEventNames
   - uid: SuperOffice.Util.TrackEventSender
     name: TrackEventSender
   - uid: SuperOffice.Util.TwipsConverter
@@ -20563,10 +20593,16 @@ items:
     name: HttpContextItem
   - uid: SuperOffice.WebApi.IOnlineAppRequestInfo
     name: IOnlineAppRequestInfo
+  - uid: SuperOffice.WebApi.ISoHttpContextItemsAccessor
+    name: ISoHttpContextItemsAccessor
+  - uid: SuperOffice.WebApi.ITrackingSessionInfo
+    name: ITrackingSessionInfo
   - uid: SuperOffice.WebApi.OnlineAppRequestInfo
     name: OnlineAppRequestInfo
   - uid: SuperOffice.WebApi.PartnerAppRequestInfo
     name: PartnerAppRequestInfo
+  - uid: SuperOffice.WebApi.TrackingSessionInfo
+    name: TrackingSessionInfo
 - uid: System.Linq.SupportForNetstandard2_0
   name: System.Linq.SupportForNetstandard2_0
   items:

@@ -182,11 +182,14 @@ items:
   - SuperOffice.CRM.Rows.TableRowBase._sqlType
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.Int32,System.Object)
   - SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(SuperOffice.Data.Dictionary.SoField,System.Object)
+  - SuperOffice.CRM.Rows.TableRowBase.GetTableRight
   - SuperOffice.CRM.Rows.TableRowBase.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.TableRowBase.GetKnownFields
   - SuperOffice.CRM.Rows.TableRowBase.IsGhostField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
   - SuperOffice.CRM.Rows.TableRowBase.RowLoad
   - SuperOffice.CRM.Rows.TableRowBase.RowLoadAsync(SuperOffice.CRM.Rows.ITableRowLoadHandler,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1({Idx})
   - SuperOffice.CRM.Rows.TableRowBase.OnLoaded(SuperOffice.CRM.Rows.IdxBase)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.CRM.Rows.IdxBase,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Rows.TableRowBase.Load(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
@@ -3278,6 +3281,28 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_GetTableRight
+  name: GetTableRight()
+  nameWithType: TableRowBase.GetTableRight()
+  fullName: SuperOffice.CRM.Rows.TableRowBase.GetTableRight()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+    name: GetTableRight
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_GetTableRight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.GetTableRight
+    name: GetTableRight
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_GetTableRight
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.GetFieldValue(SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -3360,6 +3385,36 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  name: SetParentSentryLookups(ISoDataLookup)
+  nameWithType: TableRowBase.SetParentSentryLookups(ISoDataLookup)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+    name: SetParentSentryLookups
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISoDataLookup
+    name: ISoDataLookup
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISoDataLookup.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.SetParentSentryLookups(SuperOffice.CRM.Security.ISoDataLookup)
+    name: SetParentSentryLookups
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_SetParentSentryLookups_SuperOffice_CRM_Security_ISoDataLookup_
+  - name: (
+  - uid: SuperOffice.CRM.Security.ISoDataLookup
+    name: ISoDataLookup
+    isExternal: true
+    href: SuperOffice.CRM.Security.ISoDataLookup.html
+  - name: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.RowLoad
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.RowLoad
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -3423,6 +3478,41 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1({Idx})
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+  parent: SuperOffice.CRM.Rows.TableRowBase
+  definition: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  name: ReadbackRowForSentryRecalculations<Idx>(Idx)
+  nameWithType: TableRowBase.ReadbackRowForSentryRecalculations<Idx>(Idx)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations<Idx>(Idx)
+  nameWithType.vb: TableRowBase.ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  fullName.vb: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  name.vb: ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+    name: ReadbackRowForSentryRecalculations
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  - name: <
+  - name: Idx
+  - name: '>'
+  - name: (
+  - name: Idx
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+    name: ReadbackRowForSentryRecalculations
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Idx
+  - name: )
+  - name: (
+  - name: Idx
   - name: )
 - uid: SuperOffice.CRM.Rows.TableRowBase.OnLoaded(SuperOffice.CRM.Rows.IdxBase)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.OnLoaded(SuperOffice.CRM.Rows.IdxBase)
@@ -5337,6 +5427,40 @@ references:
     name: Security
     isExternal: true
     href: SuperOffice.CRM.Security.html
+- uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+  commentId: M:SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  name: ReadbackRowForSentryRecalculations<Idx>(Idx)
+  nameWithType: TableRowBase.ReadbackRowForSentryRecalculations<Idx>(Idx)
+  fullName: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations<Idx>(Idx)
+  nameWithType.vb: TableRowBase.ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  fullName.vb: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  name.vb: ReadbackRowForSentryRecalculations(Of Idx)(Idx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+    name: ReadbackRowForSentryRecalculations
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  - name: <
+  - name: Idx
+  - name: '>'
+  - name: (
+  - name: Idx
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowBase.ReadbackRowForSentryRecalculations``1(``0)
+    name: ReadbackRowForSentryRecalculations
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TableRowBase.html#SuperOffice_CRM_Rows_TableRowBase_ReadbackRowForSentryRecalculations__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Idx
+  - name: )
+  - name: (
+  - name: Idx
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true

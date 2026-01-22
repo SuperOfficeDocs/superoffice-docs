@@ -215,7 +215,7 @@ items:
     parameters: []
     return:
       type: SuperOffice.CRM.Data.VisibleForTableInfo
-    content.vb: Public MustOverride ReadOnly Property VisibleForTableInfo As VisibleForTableInfo
+    content.vb: Public MustOverride Property VisibleForTableInfo As VisibleForTableInfo
   overload: SuperOffice.CRM.Security.SentryQueryInfo.VisibleForTableInfo*
 - uid: SuperOffice.CRM.Security.SentryQueryInfo.ParentFields
   commentId: P:SuperOffice.CRM.Security.SentryQueryInfo.ParentFields
