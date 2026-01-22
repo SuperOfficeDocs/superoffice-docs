@@ -49,7 +49,6 @@ Email addresses for contacts, projects and persons
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |project\_id |FK |Index |

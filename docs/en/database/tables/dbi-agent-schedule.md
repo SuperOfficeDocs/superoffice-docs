@@ -33,7 +33,6 @@ DBI agent schedule settings
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |agent\_id |FK |Index |
 |script\_id |FK |Index |
 |schedule\_id |FK |Index |

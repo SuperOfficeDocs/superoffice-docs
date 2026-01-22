@@ -34,7 +34,6 @@ Heading link table for Business, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|businessheadinglink\_id |PK |Clustered, Unique |
 |business\_id |FK |Index |
 |heading\_id |FK |Index |
 

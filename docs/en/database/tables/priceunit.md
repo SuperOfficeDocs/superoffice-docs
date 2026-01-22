@@ -37,7 +37,6 @@ The list of price units, in the internal product register (meter, ton, bushel, m
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|priceunit\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

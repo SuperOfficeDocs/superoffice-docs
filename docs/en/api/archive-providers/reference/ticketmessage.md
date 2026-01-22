@@ -636,7 +636,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/soldReason|listAny|Request - Reason (sold): Reason (sold)| x |
 |ticket/sale/saleNumber|string|Request - Number: Number| x |
 |ticket/sale/hasStakeholders|bool|Request - Has stakeholders: Does this sale have stakeholders| x |
-|ticket/sale/stakeholdersEnabled|bool|Request - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|ticket/sale/stakeholdersEnabled|bool|Request - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |ticket/sale/hasQuote|bool|Request - Has quote?: Does the sale have a quote attached?| x |
 |ticket/sale/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
 |ticket/sale/description|string|Request - Description: The long description field on Sale|  |
@@ -648,7 +648,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
 |ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency: The gross sales total| x |
 |ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|ticket/sale/daysInStage| *None* |Request - Days in stage: Total number of days in this stage| x |
+|ticket/sale/daysInStage|int|Request - Days in stage: Total number of days in this stage| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
@@ -873,7 +873,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/ticketPriority/rank,ticket/person/isStakeholder,ticket/contact/postAddress/wgs84latitude,ticket/contact/contactAssociate/portraitThumbnail,ticket/contact/contactUdef/SuperOffice:5
+GET /api/v1/archive/TicketMessage?$select=header,ticket/createdBy/assocTooltip,ticket/person/position,ticket/person/withdrawnEmarketingConsent,ticket/contact/mainContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

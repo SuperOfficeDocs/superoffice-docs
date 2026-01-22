@@ -29,7 +29,6 @@ DBI agent fields
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |agent\_id |FK |Index |
 
 ## Relationships

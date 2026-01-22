@@ -29,7 +29,6 @@ The name of a hidden variable to keep for this screen
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
 
 ## Relationships

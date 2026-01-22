@@ -34,7 +34,6 @@ User group link table for PriceUnit, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|priceunitgrouplink\_id |PK |Clustered, Unique |
 |priceunit\_id |FK |Index |
 |group\_id |FK |Index |
 

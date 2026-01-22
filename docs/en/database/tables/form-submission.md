@@ -36,7 +36,6 @@ A form submission
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|form\_submission\_id |PK |Clustered, Unique |
 |form\_id |FK |Index |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |

@@ -30,7 +30,6 @@ Who and when, if somebody edits a knowledge base entry
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_entry\_id |FK |Index |
 |user\_id |FK |Index |
 

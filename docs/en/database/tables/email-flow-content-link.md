@@ -36,7 +36,6 @@ Links content to an email workflow
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_flow\_content\_link\_id |PK |Clustered, Unique |
 
 ## Relationships
 

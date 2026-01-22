@@ -34,7 +34,6 @@ Heading link table for ProjStatus, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|projstatusheadinglink\_id |PK |Clustered, Unique |
 |projstatus\_id |FK |Index |
 |heading\_id |FK |Index |
 

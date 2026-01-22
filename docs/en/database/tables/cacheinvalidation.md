@@ -32,7 +32,6 @@ Names and generation numbers for distributed invalidation of caches
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|cacheinvalidation\_id |PK |Clustered, Unique |
 |Name |String(255) |Unique |
 
 ## Replication Flags

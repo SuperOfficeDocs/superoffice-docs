@@ -55,7 +55,6 @@ This table contains the messages listed under tickets.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |created\_by |FK |Index |
 |message\_id |String(850) |Index |

@@ -35,7 +35,6 @@ Represents a temporary lock on a resource identified by table_id and key
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|temp\_db\_lock\_id |PK |Clustered, Unique |
 |table\_number |TableNumber |Index |
 |key |RecordId |Index |
 

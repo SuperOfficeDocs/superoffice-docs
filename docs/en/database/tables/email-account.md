@@ -43,7 +43,6 @@ Email account information
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|email\_account\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 |email\_address |String(255) |Index |
 

@@ -31,7 +31,6 @@ Autosaved text clobs from ejscript and emarketeer messages
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |index\_id |Int |Index |
 
 ## Replication Flags

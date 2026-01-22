@@ -36,7 +36,6 @@ This table contains folders used to group the extra tables in the system.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |domain |Int |Index |
 |parent\_id |FK |Index |
 |name |String(128) |Index |

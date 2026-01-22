@@ -34,7 +34,6 @@ User group link table for QuoteDenyReason, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quotedenyreasongrouplink\_id |PK |Clustered, Unique |
 |quotedenyreason\_id |FK |Index |
 |group\_id |FK |Index |
 

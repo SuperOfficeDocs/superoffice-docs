@@ -34,7 +34,6 @@ Heading link table for DocTmpl, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|doctmplheadinglink\_id |PK |Clustered, Unique |
 |doctmpl\_id |FK |Index |
 |heading\_id |FK |Index |
 

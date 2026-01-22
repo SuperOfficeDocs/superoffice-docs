@@ -34,7 +34,6 @@ User group link table for Intent, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|intentgrouplink\_id |PK |Clustered, Unique |
 |intent\_id |FK |Index |
 |group\_id |FK |Index |
 

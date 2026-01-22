@@ -35,7 +35,6 @@ An element in a configurable screen
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |screen\_definition |FK |Index |
 
 ## Relationships

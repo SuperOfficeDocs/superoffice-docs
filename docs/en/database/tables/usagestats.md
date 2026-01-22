@@ -36,7 +36,6 @@ Usage statistics
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|UsageStats\_id |PK |Clustered, Unique |
 |assoc\_id |FK |Index |
 
 ## Relationships

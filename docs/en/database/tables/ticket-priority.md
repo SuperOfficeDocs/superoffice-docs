@@ -53,7 +53,6 @@ This table contains the ticket priorities.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

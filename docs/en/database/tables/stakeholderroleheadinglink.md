@@ -34,7 +34,6 @@ Heading link table for StakeholderRole, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|stakeholderroleheadinglink\_id |PK |Clustered, Unique |
 |stakeholderrole\_id |FK |Index |
 |heading\_id |FK |Index |
 

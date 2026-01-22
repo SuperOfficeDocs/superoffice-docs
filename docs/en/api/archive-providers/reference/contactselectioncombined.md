@@ -329,7 +329,7 @@ Implementation of the provider for the combined selection
 |sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
 |sale/saleNumber| *None* |Number: Number|  |
 |sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
-|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled|  |
+|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -1260,7 +1260,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=contactUdef/SuperOffice:13,contactExtra/x_contact_time,sourceRelation/code,sale/who,sale/associate/userName
+GET /api/v1/archive/ContactSelectionCombined?$select=contactNoMail,contactInterestIds,contactUdef/SuperOffice:4,contactExtra/x_contact_float,LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

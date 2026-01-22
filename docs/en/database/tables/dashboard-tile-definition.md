@@ -49,7 +49,6 @@ Describes the contents of a tile
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|dashboard\_tile\_definition\_id |PK |Clustered, Unique |
 |entity\_type |Enum |Index |
 
 ## Relationships

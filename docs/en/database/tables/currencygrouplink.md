@@ -34,7 +34,6 @@ User group link table for Currency, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|currencygrouplink\_id |PK |Clustered, Unique |
 |currency\_id |FK |Index |
 |group\_id |FK |Index |
 

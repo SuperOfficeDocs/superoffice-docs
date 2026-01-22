@@ -37,7 +37,6 @@ Legal base for GDPR (Article 6)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|legalbase\_id |PK |Clustered, Unique |
 |key |String(255) |Unique |
 
 ## Relationships

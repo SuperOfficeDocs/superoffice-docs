@@ -33,7 +33,6 @@ Control data table for the OLE DB Provider
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|OLESubject\_id |PK |Clustered, Unique |
 
 ## Relationships
 

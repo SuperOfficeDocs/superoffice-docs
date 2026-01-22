@@ -35,7 +35,6 @@ Contains the body of the reply templates in different languages
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |reply\_template\_id |FK |Index |
 |language\_id |FK |Index |
 

@@ -49,7 +49,6 @@ Table for utm parameters collected from visits and formsubmissions
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|utm\_parameters\_id |PK |Clustered, Unique |
 |created\_person\_id |FK |Index |
 |created\_contact\_id |FK |Index |
 |form\_submission\_id |FK |Index |

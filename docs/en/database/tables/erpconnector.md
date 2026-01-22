@@ -36,7 +36,6 @@ One ERP Connector, known by its URL
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpconnector\_id |PK |Clustered, Unique |
 
 ## Relationships
 

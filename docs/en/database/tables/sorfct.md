@@ -43,7 +43,6 @@ SuperOffice reporter data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORFCT\_id |PK |Clustered, Unique |
 |SORSection\_id |FK |Index |
 |fieldType |Short |Index |
 

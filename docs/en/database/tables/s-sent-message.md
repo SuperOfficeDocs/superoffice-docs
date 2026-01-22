@@ -33,7 +33,6 @@ Emarketeer message control
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |shipment\_id |FK |Index |
 |message\_id |FK |Index |
 |customer\_id |FK |Index |

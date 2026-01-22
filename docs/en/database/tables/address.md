@@ -45,7 +45,6 @@ Contact and Person addresses
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|address\_id |PK |Clustered, Unique |
 |zipcode |String(11) |Index |
 |state |String(5) |Index |
 |owner\_id, atype\_idx |Id, Enum |Unique |

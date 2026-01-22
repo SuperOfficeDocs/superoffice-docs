@@ -36,7 +36,6 @@ Some steps can have optional child &apos;flows&apos;, a new series of steps
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_step\_option\_id |PK |Clustered, Unique |
 |key\_id |RecordId |Index |
 
 ## Relationships

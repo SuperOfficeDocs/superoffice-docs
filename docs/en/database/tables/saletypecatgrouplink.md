@@ -34,7 +34,6 @@ User group link table for SaleTypeCat, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|saletypecatgrouplink\_id |PK |Clustered, Unique |
 |saletypecat\_id |FK |Index |
 |group\_id |FK |Index |
 

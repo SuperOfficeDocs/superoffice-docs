@@ -34,7 +34,6 @@ Heading link table for Country, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|countryheadinglink\_id |PK |Clustered, Unique |
 |country\_id |FK |Index |
 |heading\_id |FK |Index |
 

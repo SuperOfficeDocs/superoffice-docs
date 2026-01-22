@@ -33,7 +33,6 @@ This table contains the history of a tickets statuses. Each time a ticket change
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |ticket\_status |FK |Index |
 

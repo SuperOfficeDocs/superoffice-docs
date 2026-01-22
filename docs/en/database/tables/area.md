@@ -39,7 +39,6 @@ Definition of an Area (database subset for satellite and travel)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|area\_id |PK |Clustered, Unique |
 |parent\_area\_id |FK |Index |
 
 ## Relationships

@@ -52,7 +52,6 @@ Generic scheduled tasked handling time scheduling, locking and error messages
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |after\_schedule\_id |FK |Index |
 
 ## Relationships

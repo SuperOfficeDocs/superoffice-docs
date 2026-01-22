@@ -34,7 +34,6 @@ User group link table for TaskMenu, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|taskmenugrouplink\_id |PK |Clustered, Unique |
 |taskMenu\_id |FK |Index |
 |group\_id |FK |Index |
 

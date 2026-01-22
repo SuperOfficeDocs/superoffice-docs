@@ -28,7 +28,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=et
+GET /api/v1/List/Business/MDOItems?query=nobis
 ```
 
 

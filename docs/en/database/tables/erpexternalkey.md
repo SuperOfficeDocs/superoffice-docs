@@ -37,7 +37,6 @@ The external (ERP-facing) key related to a synchronized record / connection
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erpexternalkey\_id |PK |Clustered, Unique |
 |ErpConnectionId, ErpInternalKeyId |FK, FK |Unique |
 |ErpConnectionId, ActorType, ErpKey |FK, Enum, String(254) |Unique |
 |ErpInternalKeyId |FK |Index |

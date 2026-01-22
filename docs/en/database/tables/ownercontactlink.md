@@ -34,7 +34,6 @@ Table specifying which contacts can own associates.  All contacts that have rows
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|OwnerContactLink\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 
 ## Relationships

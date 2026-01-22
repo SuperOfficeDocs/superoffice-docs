@@ -35,7 +35,6 @@ Order of tabs within a tab control, if configured by a user
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|TabOrder\_id |PK |Clustered, Unique |
 |associateId, tabName |FK, String(239) |Index |
 
 ## Relationships

@@ -29,7 +29,6 @@ This table allows several customers to be connected to several tickets (many-to-
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |customer\_id |FK |Index |
 |ticket\_id, customer\_id |FK, FK |Index |

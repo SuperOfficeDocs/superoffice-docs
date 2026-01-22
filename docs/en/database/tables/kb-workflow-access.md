@@ -30,7 +30,6 @@ Control of who can do what in a knowledge base workflow step
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_workflow |FK |Index |
 |user\_id |FK |Index |
 

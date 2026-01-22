@@ -36,7 +36,6 @@ Personal quick reply text fragments
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quick\_reply\_id |PK |Clustered, Unique |
 |rank |UShort |Index |
 
 ## Relationships

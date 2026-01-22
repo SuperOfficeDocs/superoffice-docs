@@ -36,7 +36,6 @@ This table contain all invoices, connected to a message
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |message\_id |FK |Index |
 |type |FK |Index |
 |date\_invoiced |DateTime |Index |

@@ -29,7 +29,6 @@ This table is used to connect attachments to reply templates (many-to-many).
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |entry\_id |FK |Index |
 |attachment\_id |FK |Index |
 

@@ -44,7 +44,6 @@ Scripts which should be traced
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|script\_trace\_id |PK |Clustered, Unique |
 
 ## Relationships
 

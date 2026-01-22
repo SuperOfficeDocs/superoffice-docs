@@ -30,7 +30,6 @@ A scheduled entry executing a script at certain times
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |script\_id |FK |Index |
 |schedule\_id |FK |Index |
 

@@ -32,7 +32,6 @@ This table contains entries for folders for reply templates.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 |name |String(64) |Index |
 

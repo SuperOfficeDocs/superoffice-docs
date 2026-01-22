@@ -34,7 +34,6 @@ User group link table for QuoteApprReason, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteapprreasongrouplink\_id |PK |Clustered, Unique |
 |quoteapprreason\_id |FK |Index |
 |group\_id |FK |Index |
 

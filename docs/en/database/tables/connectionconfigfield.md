@@ -36,7 +36,6 @@ Configuration data for Erp and Quote Connections
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|connectionconfigfield\_id |PK |Clustered, Unique |
 |ErpConnectionId |FK |Index |
 |QuoteConnectionId |FK |Index |
 

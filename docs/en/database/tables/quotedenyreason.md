@@ -37,7 +37,6 @@ Predefined reasons for quote denial
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quotedenyreason\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

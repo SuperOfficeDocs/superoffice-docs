@@ -38,7 +38,6 @@ Linking associate, company or user group target and other information with targe
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_assignment\_info\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 |contact\_id |FK |Index |
 |usergroup\_id |FK |Index |

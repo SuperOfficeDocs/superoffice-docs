@@ -34,7 +34,6 @@ A set of periods linked with target amounts for users/usergroups and the target 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_period\_id |PK |Clustered, Unique |
 
 ## Relationships
 

@@ -47,7 +47,6 @@ This table contains FAQ entries.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |category\_id |FK |Index |
 |created\_by |FK |Index |
 |sort\_order |Int |Index |

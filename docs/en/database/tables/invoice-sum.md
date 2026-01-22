@@ -32,7 +32,6 @@ This table is used temporarily when listing invoice statistics. It is used becau
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |login\_id |FK |Index |
 |customer\_id |FK |Index |
 |company\_id |FK |Index |

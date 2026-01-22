@@ -42,7 +42,6 @@ Visible for rights, who may see this appointment/document, sale,  salehist or se
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|VisibleFor\_id |PK |Clustered, Unique |
 |appointmentId |FK |Index |
 |saleId |FK |Index |
 |saleHistId |FK |Index |

@@ -30,7 +30,6 @@ Who and when, if somebody edits a knowledge base folder
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_category\_id |FK |Index |
 |user\_id |FK |Index |
 

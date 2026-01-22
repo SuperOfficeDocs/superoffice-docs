@@ -28,7 +28,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=sapiente
+GET /api/v1/List/Competitor/MDOItems?query=corrupti
 ```
 
 

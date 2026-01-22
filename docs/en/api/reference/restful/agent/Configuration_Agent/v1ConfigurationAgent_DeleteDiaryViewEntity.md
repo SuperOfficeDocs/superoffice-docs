@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | diaryViewEntityId | int32 | **Required** The identity of the DiaryViewEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?diaryViewEntityId=965
+POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?diaryViewEntityId=12
 ```
 
 

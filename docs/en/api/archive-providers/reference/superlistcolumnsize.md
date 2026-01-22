@@ -74,7 +74,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SuperListColumnSize?$select=configurationName,associate/associateDbId
+GET /api/v1/archive/SuperListColumnSize?$select=associate/ejStatus,configurationName,associate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

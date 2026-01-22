@@ -34,7 +34,6 @@ A set of steps related to a workflow.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_step\_id |PK |Clustered, Unique |
 
 ## Relationships
 

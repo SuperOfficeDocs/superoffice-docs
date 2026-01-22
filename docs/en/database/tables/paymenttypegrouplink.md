@@ -34,7 +34,6 @@ User group link table for PaymentType, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|paymenttypegrouplink\_id |PK |Clustered, Unique |
 |paymenttype\_id |FK |Index |
 |group\_id |FK |Index |
 

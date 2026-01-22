@@ -37,7 +37,6 @@ Info and status for safe email import
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |mail\_in\_filter |FK |Index |
 |locking\_id |FK |Index |
 |imported |DateTime |Index |

@@ -112,7 +112,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/associate/isActiveText,document/yourref,document/associate/firstName
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/yourref,document/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

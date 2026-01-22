@@ -59,7 +59,6 @@ DocTmpl list table. Describes templates available for writing new documents.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|DocTmpl\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | preferenceDescriptionId | int32 | **Required** The identity of the PreferenceDescription |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescription?preferenceDescriptionId=73
+POST /api/v1/Agents/Preference/DeletePreferenceDescription?preferenceDescriptionId=489
 ```
 
 

@@ -29,7 +29,6 @@ This table contains the alias&amp;apos;es for each mailbox, one-to-many-relation
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |filter\_id |FK |Index |
 
 ## Relationships

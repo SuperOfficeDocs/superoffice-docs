@@ -31,7 +31,6 @@ A invoiceable item category (a product or service) that provides default invoice
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

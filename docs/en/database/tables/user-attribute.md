@@ -30,7 +30,6 @@ This table is used for storing various attributes for users.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |att\_key |String(255) |Index |
 

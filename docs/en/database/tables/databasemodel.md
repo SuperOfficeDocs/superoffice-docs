@@ -30,7 +30,6 @@ New DatabaseModel used by Continuous Database
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|databasemodel\_id |PK |Clustered, Unique |
 
 ## Replication Flags
 

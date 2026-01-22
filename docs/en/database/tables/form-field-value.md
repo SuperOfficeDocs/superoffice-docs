@@ -42,7 +42,6 @@ Form field values saved in a searchable format
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|form\_field\_value\_id |PK |Clustered, Unique |
 |form\_submission\_id |FK |Index |
 |label |String(4000) |Index |
 |type |String(4000) |Index |

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_rel\_def\_ticket\_type Table (546)
+# ticket\_rel\_def\_ticket\_type Table (547)
 
 Link table defining what Ticket types are involved in this relation. Will have M;N rows for a single relation definition
 
@@ -30,7 +30,6 @@ Link table defining what Ticket types are involved in this relation. Will have M
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ticket\_rel\_def\_ticket\_type\_id |PK |Clustered, Unique |
 |ticket\_relation\_def\_id, source\_ticket\_type\_id, destination\_ticket\_type\_id |FK, FK, FK |Unique |
 
 ## Relationships

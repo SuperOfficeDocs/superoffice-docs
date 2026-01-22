@@ -40,7 +40,6 @@ SuperOffice reporter data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SORCriteria\_id |PK |Clustered, Unique |
 |SORPublish\_id |FK |Index |
 |SOROperators\_id |FK |Index |
 |useIt |UShort |Index |

@@ -36,7 +36,6 @@ This table contains information when debugging an ejscript
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

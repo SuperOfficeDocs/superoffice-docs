@@ -34,7 +34,6 @@ This table contains log entries for the tickets.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |message\_id |FK |Index |
 |action\_id |FK |Index |

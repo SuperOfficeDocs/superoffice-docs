@@ -44,7 +44,6 @@ Associates traveling out from this database
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|traveller\_id |PK |Clustered, Unique |
 
 ## Relationships
 

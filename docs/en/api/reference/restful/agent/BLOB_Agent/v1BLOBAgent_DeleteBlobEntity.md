@@ -28,7 +28,7 @@ NsApiSlow threshold: 3000 ms.
 | blobEntityId | int32 | **Required** The identity of the BlobEntity |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=450
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=57
 ```
 
 

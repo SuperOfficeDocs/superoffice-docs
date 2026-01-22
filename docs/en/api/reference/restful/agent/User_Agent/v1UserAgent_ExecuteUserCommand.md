@@ -24,20 +24,6 @@ NsApiSlow threshold: 2000 ms.
 
 
 
-## Query String Parameters
-
-| Parameter Name | Type |  Description |
-|----------------|------|--------------|
-| commandName | string | **Required**  |
-| actionResult | Enum: Implicit, Yes, Ok, No, Cancel | **Required**  |
-| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
-
-```http
-POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Hudson, Heathcote and Bednar
-POST /api/v1/Agents/User/ExecuteUserCommand?actionResult=Cancel
-POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
-```
-
 
 ## Request Headers
 
@@ -53,40 +39,15 @@ POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: user 
+## Request Body: request 
 
-SuperOffice User, with login credentials and an associated person.
-<para />
-Carrier object for User.
-Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. 
+CommandName, ActionResult, User 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| AssociateId | Integer | Primary key |
-| Name | String | Initials, UserId - also used as login name for on-site installations. Identifies user in archives. |
-| Rank | Integer | Rank order |
-| Tooltip | String | Tooltip or other description |
-| LicenseOwners | Array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| Role | Role | Users role for role-based security. Determines permissions and access rights for the user. |
-| UserGroup | UserGroup | The main user group that this user belongs to.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| OtherGroups | Array | The other groups this user is a member of, apart from the main user group.  <para>Use MDO List name "usergroup" to get list items.</para> |
-| Person | Person | The person associated with this user. Detailed information about the user  <para>Use MDO List name "person_new" to get list items.</para> |
-| Deleted | Boolean | If true, the user is retired and should have no rights, not appear in lists, etc. |
-| Lastlogin | String | Last login date |
-| Lastlogout | String | Last logout date |
-| EjUserId | Integer | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
-| RequestSignature | String | ej users request signature |
-| Type | String | User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate |
-| IsPersonRetired | Boolean | True if the user is retired and should have no rights, not appear in lists, etc. |
-| IsOnTravel | Boolean | True if the user is on travel. |
-| Credentials | Array | List of credentials registered for this user. i.e. valid authentication methods. |
-| UserName | String | User name, a.k.a. Login name. This might be an e-mail address. |
-| TicketCategories | Array | Request Ticket Categories assigned to the user.   <para>Use MDO List name "ejCategory" to get list items.</para> |
-| NickName | String | The unique nick name for this user. Used in Service as an alias, similar to Name/Initials. |
-| WaitingForApproval | Boolean | The user is waiting for an administrator to approve/grant her/him access. |
-| ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
-| CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| PostSaveCommands | Array | Post custom commands the client should execute after save has completed. |
+| CommandName | String |  |
+| ActionResult | String |  |
+| User | User | SuperOffice User, with login credentials and an associated person. <para /> Carrier object for User. Services for the User Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IUserAgent">User Agent</see>. |
 
 ## Response:
 

@@ -35,7 +35,6 @@ Link steps to other steps through step options
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_step\_option\_link\_id |PK |Clustered, Unique |
 
 ## Relationships
 

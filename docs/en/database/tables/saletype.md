@@ -53,7 +53,6 @@ Type of sale - large solution, incremental, whatever fits the organization
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SaleType\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

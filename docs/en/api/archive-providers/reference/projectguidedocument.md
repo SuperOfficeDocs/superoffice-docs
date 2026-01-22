@@ -686,7 +686,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |documentInstance/sale/saleNumber|string|Number: Number| x |
 |documentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|documentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|documentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |documentInstance/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |documentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |documentInstance/sale/description|string|Description: The long description field on Sale|  |
@@ -694,7 +694,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|documentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -749,7 +749,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/personRegisteredDate,documentInstance/person/personDeletedDate,documentInstance/person/personAssociate/firstName,documentInstance/person/consentSourceStore,documentInstance/project/projectAssociate/isActiveText
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/completed,documentInstance/person/leadstatusRank,documentInstance/person/personAssociate/contactName,documentInstance/person/hasStoreConsent,documentInstance/contact/contactNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

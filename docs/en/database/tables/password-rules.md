@@ -33,7 +33,6 @@ This table may contain one entry specifying rules for passwords.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Replication Flags
 

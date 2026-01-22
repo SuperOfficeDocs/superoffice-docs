@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCategory?categoryId=741
+POST /api/v1/Agents/List/GetCategory?categoryId=817
 POST /api/v1/Agents/List/GetCategory?$select=name,department,category/id
 ```
 
@@ -60,9 +60,13 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Id | int32 | The List Item Id |
-| Value | string | The List Item Value |
-| Tooltip | string | The List Item Tooltip |
+| Id | int32 | The category identifier |
+| Value | string | The category name |
+| Tooltip | string | The category description |
+| CategoryGroup | string | Enum of the group this category belongs to, static list of 5 groups |
+| EnableLeadStatus | bool | True if the category should enable lead status |
+| Rank | int32 | The rank of the category |
+| Deleted | bool | True if the category is deleted |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

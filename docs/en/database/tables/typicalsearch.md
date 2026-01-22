@@ -39,7 +39,6 @@ Owner of a set of predefined selection criteria
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|typicalsearch\_id |PK |Clustered, Unique |
 |EntityName, Source |String(255), String(255) |Index |
 
 ## Relationships

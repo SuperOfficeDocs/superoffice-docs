@@ -34,7 +34,6 @@ Heading link table for PMembType, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|pmembtypeheadinglink\_id |PK |Clustered, Unique |
 |pmembtype\_id |FK |Index |
 |heading\_id |FK |Index |
 

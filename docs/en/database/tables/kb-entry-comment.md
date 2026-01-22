@@ -37,7 +37,6 @@ Comments to entries in the knowledge base, typically made by customers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_entry\_id |FK |Index |
 |customer\_id |FK |Index |
 |dbi\_agent\_id |FK |Index |

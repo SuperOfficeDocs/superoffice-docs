@@ -38,7 +38,6 @@ Information about languages, from ISO standards and related information
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|LanguageInfo\_id |PK |Clustered, Unique |
 
 ## Relationships
 

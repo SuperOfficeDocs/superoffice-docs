@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_relation\_def Table (545)
+# ticket\_relation\_def Table (546)
 
 Ticket relation definition
 
@@ -41,7 +41,6 @@ Ticket relation definition
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ticket\_relation\_def\_id |PK |Clustered, Unique |
 |name |String(4000) |Unique |
 
 ## Relationships

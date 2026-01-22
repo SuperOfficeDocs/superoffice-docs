@@ -40,7 +40,6 @@ This table contains categories, in which tickets are categorized. The categories
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |parent\_id |FK |Index |
 |category\_master |FK |Index |
 |reply\_template |FK |Index |

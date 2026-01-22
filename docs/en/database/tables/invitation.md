@@ -41,7 +41,6 @@ Invitations to events
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|invitation\_id |PK |Clustered, Unique |
 |event\_uid |String(255) |Index |
 |appointment\_id |FK |Index |
 

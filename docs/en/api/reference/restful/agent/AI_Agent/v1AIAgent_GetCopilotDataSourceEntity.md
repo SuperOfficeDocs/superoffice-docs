@@ -32,7 +32,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/AI/GetCopilotDataSourceEntity?copilotDataSourceEntityId=502
+POST /api/v1/Agents/AI/GetCopilotDataSourceEntity?copilotDataSourceEntityId=182
 POST /api/v1/Agents/AI/GetCopilotDataSourceEntity?$select=name,department,category/id
 ```
 
@@ -68,7 +68,7 @@ OK
 | CopilotId | int32 | The associated copilot |
 | Description | string | Description of data source |
 | Name | string | Name of data source |
-| Settings | array | Collection of data source settings |
+| Settings | array | Collection of data source settings - each setting has key + value |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

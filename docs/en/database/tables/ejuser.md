@@ -73,7 +73,6 @@ This table contains entries for the users of the system.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |loginname |String(63) |Index |
 |usergroup |FK |Index |
 |username |String(63) |Index |

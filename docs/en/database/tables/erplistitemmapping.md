@@ -35,7 +35,6 @@ Defines a mapping of ERP to CRM fields, per connection and actor type
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|erplistitemmapping\_id |PK |Clustered, Unique |
 |ErpFieldId, ErpItemKey |FK, String(254) |Unique |
 
 ## Relationships

@@ -30,7 +30,6 @@ This table will hold user candidate secrets
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |person\_id |FK |Index |
 |secret\_key |String(255) |Index |
 

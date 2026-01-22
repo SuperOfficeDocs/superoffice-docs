@@ -65,7 +65,6 @@ There may be multiple Versions of a Quote, with one of them active
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteversion\_id |PK |Clustered, Unique |
 |ERPQuoteVersionKey |String(254) |Index |
 |QuoteId |FK |Index |
 

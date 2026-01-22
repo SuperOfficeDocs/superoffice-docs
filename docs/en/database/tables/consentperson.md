@@ -37,7 +37,6 @@ Link table that defines who has which consents
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|consentperson\_id |PK |Clustered, Unique |
 |legalBase\_id |FK |Index |
 |consentSource\_id |FK |Index |
 |person\_id, consentPurpose\_id |FK, FK |Unique |

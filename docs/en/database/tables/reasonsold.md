@@ -37,7 +37,6 @@ Why was the sale marked as sold (why did we succeed)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ReasonSold\_Id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

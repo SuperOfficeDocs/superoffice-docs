@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_relation Table (547)
+# ticket\_relation Table (548)
 
 A relation between 2 tickets
 
@@ -36,7 +36,6 @@ A relation between 2 tickets
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ticket\_relation\_id |PK |Clustered, Unique |
 |source\_ticket\_id |FK |Index |
 |destination\_ticket\_id |FK |Index |
 

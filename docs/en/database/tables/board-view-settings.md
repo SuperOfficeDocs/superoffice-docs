@@ -44,7 +44,6 @@ Settings for selection board view
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|board\_view\_settings\_id |PK |Clustered, Unique |
 |selection\_id, associate\_id, entity\_type |FK, FK, Enum |Index |
 
 ## Relationships

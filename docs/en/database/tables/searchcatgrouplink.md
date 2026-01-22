@@ -34,7 +34,6 @@ User group link table for SearchCat, for MDO item hiding
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|searchcatgrouplink\_id |PK |Clustered, Unique |
 |searchcat\_id |FK |Index |
 |group\_id |FK |Index |
 

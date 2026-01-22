@@ -33,7 +33,6 @@ Contains criterias for a dynamic list.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |list\_id |FK |Index |
 
 ## Relationships

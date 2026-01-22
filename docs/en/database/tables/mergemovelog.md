@@ -37,7 +37,6 @@ Log of merge and move operations (person, contact, project)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|MergeMoveLog\_id |PK |Clustered, Unique |
 |tableNumber |TableNumber |Index |
 |operation |UShort |Index |
 

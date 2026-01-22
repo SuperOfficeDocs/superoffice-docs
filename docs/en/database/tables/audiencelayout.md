@@ -34,7 +34,6 @@ One layout (of webparts and other stuff) for an audience instance
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|AudienceLayout\_id |PK |Clustered, Unique |
 |instanceName |String(239) |Unique |
 
 ## Relationships

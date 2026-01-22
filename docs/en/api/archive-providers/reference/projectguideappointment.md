@@ -666,7 +666,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |appointmentInstance/sale/saleNumber|string|Number: Number| x |
 |appointmentInstance/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|appointmentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|appointmentInstance/sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |appointmentInstance/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |appointmentInstance/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |appointmentInstance/sale/description|string|Description: The long description field on Sale|  |
@@ -674,7 +674,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|appointmentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|appointmentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |appointmentInstance/sale/visibleFor|listAny|Visible for|  |
 |appointmentInstance/sale/sale/textId|int|Text ID| x |
 |appointmentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -773,7 +773,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/alarm,appointmentInstance/contact/contactExtra/x_contact_boolean,appointmentInstance/person/updatedByWorkflow,appointmentInstance/person/personAddress/formattedAddress,appointmentInstance/person/personUdef/SuperOffice:10
+GET /api/v1/archive/ProjectGuideAppointment?$select=instanceItemText,appointmentInstance/appointmentPublish/publishedFrom,appointmentInstance/contact/contactUdef/SuperOffice:7,appointmentInstance/contact/contactExtra/x_contact_datetime,appointmentInstance/contact/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

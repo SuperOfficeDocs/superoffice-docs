@@ -37,7 +37,6 @@ MrMrs list table. List of salutations.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|MrMrs\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

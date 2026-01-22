@@ -38,7 +38,6 @@ Definition of a relation. This table defines the relations that can exist in the
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reldef\_id |PK |Clustered, Unique |
 
 ## Relationships
 

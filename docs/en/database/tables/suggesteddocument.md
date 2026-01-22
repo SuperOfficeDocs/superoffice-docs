@@ -41,7 +41,6 @@ Unique owner of a set of licensed modules
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SuggestedDocument\_id |PK |Clustered, Unique |
 |name |String(239) |Index |
 |saleTypeStageLinkId |FK |Index |
 |projectTypeStatusLinkId |FK |Index |

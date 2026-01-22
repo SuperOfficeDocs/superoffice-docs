@@ -73,6 +73,7 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
 |owned\_externally|Set if an external system owns this appointment.|Enum [AppointmentExternalOwner](enums/appointmentexternalowner.md)| |
+|external\_participants|Holds external participant information in JSON format.|Clob|&#x25CF;|
 
 
 ![appointment table relationship diagram](./media/appointment.png)
@@ -83,7 +84,6 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|appointment\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |group\_idx |FK |Index |

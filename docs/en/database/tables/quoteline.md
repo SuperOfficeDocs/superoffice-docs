@@ -77,7 +77,6 @@ One line in a QuoteAlternative. QuoteLines are mainly information copied from th
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteline\_id |PK |Clustered, Unique |
 |QuoteAlternativeId |FK |Index |
 
 ## Relationships

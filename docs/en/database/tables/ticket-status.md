@@ -33,7 +33,6 @@ This table user defined ticket status values.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |status |Enum |Index |
 
 ## Relationships

@@ -30,7 +30,6 @@ Language catalog for the ejournal dictionaries (automatic proof reading of messa
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 
 ## Relationships
 

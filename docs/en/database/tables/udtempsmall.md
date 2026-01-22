@@ -137,7 +137,6 @@ User-defined fields. During conversion of user defined fields the data is stored
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udtempSmall\_id |PK |Clustered, Unique |
 
 ## Replication Flags
 

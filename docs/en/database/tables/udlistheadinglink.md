@@ -34,7 +34,6 @@ Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|udlistheadinglink\_id |PK |Clustered, Unique |
 |udlist\_id |FK |Index |
 |heading\_id |FK |Index |
 

@@ -34,7 +34,6 @@ ShipmentTypes a person has reserved against. Note that the absense of a record h
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ShipmentTypeReservation\_id |PK |Clustered, Unique |
 |person\_id |FK |Index |
 |ShipmentType\_id, person\_id |FK, FK |Index |
 

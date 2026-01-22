@@ -34,7 +34,6 @@ Heading link table for ExtApp, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|extappheadinglink\_id |PK |Clustered, Unique |
 |extapp\_id |FK |Index |
 |heading\_id |FK |Index |
 

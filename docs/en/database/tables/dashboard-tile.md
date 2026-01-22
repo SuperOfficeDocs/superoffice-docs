@@ -37,7 +37,6 @@ Represents one tile in the dashboard
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|dashboard\_tile\_id |PK |Clustered, Unique |
 |dashboard\_id |FK |Index |
 
 ## Relationships

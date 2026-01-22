@@ -34,7 +34,6 @@ Heading link table for ProjType, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|projtypeheadinglink\_id |PK |Clustered, Unique |
 |projtype\_id |FK |Index |
 |heading\_id |FK |Index |
 

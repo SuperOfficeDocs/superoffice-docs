@@ -31,7 +31,6 @@ Zip codes and city names. Zip codes used during address entry. You will find mor
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ziptocity\_id |PK |Clustered, Unique |
 |city |String(79) |Index |
 |country\_id, zipcode |FK, String(11) |Index |
 

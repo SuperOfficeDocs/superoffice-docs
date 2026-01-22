@@ -34,7 +34,6 @@ A set of goals related to a workflow. Some goals will have search criterias asso
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_goal\_id |PK |Clustered, Unique |
 
 ## Relationships
 

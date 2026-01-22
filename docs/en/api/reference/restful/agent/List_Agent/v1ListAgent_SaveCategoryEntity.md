@@ -47,9 +47,9 @@ The CategoryEntity that is saved
 | CategoryGroup | String | Enum of the group this category belongs to, static list of 5 groups |
 | Tooltip | String | Tooltip of the category |
 | Rank | Integer | Rank of the category |
-| EnableLeadStatus | Boolean | True if the category should enable lead stage |
+| EnableLeadStatus | Boolean | True if the category should enable lead status |
 | CategoryFamilyId | Integer | Optional link to family, for grouping things like multiple kinds of customer category under family 'customer' |
-| Deleted | Boolean | true if the country is deleted |
+| Deleted | Boolean | true if the category is deleted |
 
 ## Response:
 
@@ -68,9 +68,9 @@ OK
 | CategoryGroup | string | Enum of the group this category belongs to, static list of 5 groups |
 | Tooltip | string | Tooltip of the category |
 | Rank | int32 | Rank of the category |
-| EnableLeadStatus | bool | True if the category should enable lead stage |
+| EnableLeadStatus | bool | True if the category should enable lead status |
 | CategoryFamilyId | int32 | Optional link to family, for grouping things like multiple kinds of customer category under family 'customer' |
-| Deleted | bool | true if the country is deleted |
+| Deleted | bool | true if the category is deleted |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

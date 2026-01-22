@@ -34,7 +34,6 @@ Heading link table for MrMrs, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|mrmrsheadinglink\_id |PK |Clustered, Unique |
 |mrmrs\_id |FK |Index |
 |heading\_id |FK |Index |
 

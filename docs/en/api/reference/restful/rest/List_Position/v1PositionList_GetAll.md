@@ -26,7 +26,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=False
+GET /api/v1/List/Position/Items?includeDeleted=True
 ```
 
 

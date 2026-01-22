@@ -33,7 +33,6 @@ This table contains entries mapping an external field to an internal field. Used
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ext\_table |FK |Index |
 
 ## Relationships

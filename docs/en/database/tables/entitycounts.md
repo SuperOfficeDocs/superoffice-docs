@@ -31,7 +31,6 @@ Number of different entities an associate has created for usage statistics
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|entitycounts\_id |PK |Clustered, Unique |
 |associate\_id, entity\_name |FK, String(255) |Unique |
 
 ## Relationships

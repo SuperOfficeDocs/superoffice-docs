@@ -38,7 +38,6 @@ Relations between import objects
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ImportRelation\_id |PK |Clustered, Unique |
 |source |FK |Index |
 |target |FK |Index |
 

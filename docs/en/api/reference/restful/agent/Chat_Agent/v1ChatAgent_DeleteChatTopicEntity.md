@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | chatTopicEntityId | int32 | **Required** The identity of the ChatTopicEntity |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatTopicEntity?chatTopicEntityId=900
+POST /api/v1/Agents/Chat/DeleteChatTopicEntity?chatTopicEntityId=854
 ```
 
 

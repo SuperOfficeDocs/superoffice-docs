@@ -556,10 +556,11 @@ envir: onsite, online
 |539| [utm\_parameters](utm-parameters.md) |Table for utm parameters collected from visits and formsubmissions|
 |540| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category|
 |541| [AutomatedCategoryUpdate](automatedcategoryupdate.md) |Info on how to autoupdate category when changing sale or leadstatus on person|
-|542| [ticket\_type](ticket-type.md) |A ticket (request) type|
-|543| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
-|544| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
-|545| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition|
-|546| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition|
-|547| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets|
+|542| [available\_fonts](available-fonts.md) |This table contains all fonts selected to be available for external usage|
+|543| [ticket\_type](ticket-type.md) |A ticket (request) type|
+|544| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
+|545| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
+|546| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition|
+|547| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition|
+|548| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets|
 

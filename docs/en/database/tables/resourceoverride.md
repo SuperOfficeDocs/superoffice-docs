@@ -36,7 +36,6 @@ Generic mechanism for overriding (or even defining new) text resources, in multi
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|resourceoverride\_id |PK |Unique |
 |ResourceName, Culture |String(254), String(9) |Clustered, Unique |
 
 ## Relationships

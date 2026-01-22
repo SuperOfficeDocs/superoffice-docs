@@ -39,7 +39,6 @@ This table stores selections, dynamic groups.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |include\_id |String(255) |Index |
 |hierarchy\_id |FK |Index |
 |source\_type |Int |Index |

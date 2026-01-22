@@ -87,6 +87,8 @@ envir: onsite, online
 |ProjectCardTask|70|In the project card, task button|
 |TicketCard|71|This application (type IntegratedHTML or IntegratedURL) appears as a tab in the Request card|
 |TicketMinicard|72|In the ticket minicard|
+|CustomObjectCard|73|This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Custom Object card|
+|CustomObjectArchive|74|This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Custom Object Archive|
 
 ## Usage
 

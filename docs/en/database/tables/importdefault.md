@@ -38,7 +38,6 @@ Defaults for import fields/objects
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ImportDefault\_id |PK |Clustered, Unique |
 |ImportObject\_id |FK |Index |
 
 ## Relationships

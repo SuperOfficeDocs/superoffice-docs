@@ -12,6 +12,16 @@ content_type: reference
 
 
 
+* [POST Agents/Marketing/CreateDefaultAvailableFont](v1MarketingAgent_CreateDefaultAvailableFont.md)
+
+* [POST Agents/Marketing/SaveAvailableFont](v1MarketingAgent_SaveAvailableFont.md)
+
+* [POST Agents/Marketing/DeleteAvailableFont](v1MarketingAgent_DeleteAvailableFont.md)
+
+* [POST Agents/Marketing/GetAvailableFont](v1MarketingAgent_GetAvailableFont.md)
+
+* [POST Agents/Marketing/SetFontRank](v1MarketingAgent_SetFontRank.md)
+
 * [POST Agents/Marketing/CreateDefaultFormEntity](v1MarketingAgent_CreateDefaultFormEntity.md)
 
 * [POST Agents/Marketing/SaveFormEntity](v1MarketingAgent_SaveFormEntity.md)

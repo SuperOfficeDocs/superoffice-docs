@@ -51,7 +51,6 @@ Projects
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|project\_id |PK |Clustered, Unique |
 |name |String(219) |Index |
 |project\_number |String(49) |Index |
 |soundEx |String(9) |Index |

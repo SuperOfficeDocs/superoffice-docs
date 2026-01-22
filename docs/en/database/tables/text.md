@@ -38,7 +38,6 @@ Long text fields from all over the system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|text\_id |PK |Clustered, Unique |
 |owner\_id, type |Id, Enum |Index |
 |text |String(4000) |Full text |
 

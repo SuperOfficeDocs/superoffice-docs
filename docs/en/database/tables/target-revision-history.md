@@ -39,7 +39,6 @@ Revision history info in case the original target group or assignment info was d
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_revision\_history\_id |PK |Clustered, Unique |
 |target\_assignment\_info\_id |FK |Index |
 |target\_group\_id |FK |Index |
 

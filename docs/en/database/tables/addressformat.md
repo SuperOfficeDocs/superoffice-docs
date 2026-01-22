@@ -88,7 +88,6 @@ Address formats for GUI and labels. See more information; Addressformat on http;
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|addressformat\_id |PK |Clustered, Unique |
 
 ## Relationships
 

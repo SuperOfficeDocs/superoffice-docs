@@ -43,7 +43,6 @@ Time zone rule for daylight saving time
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|TZDstRule\_id |PK |Clustered, Unique |
 |TZLocationId |FK |Index |
 
 ## Relationships

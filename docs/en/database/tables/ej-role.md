@@ -33,7 +33,6 @@ Define access rights, memberships and other properties for role user members
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_group |FK |Index |
 
 ## Relationships

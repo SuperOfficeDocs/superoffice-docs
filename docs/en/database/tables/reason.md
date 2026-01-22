@@ -37,7 +37,6 @@ Reason list table. Why we lost the sale (list)
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Reason\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

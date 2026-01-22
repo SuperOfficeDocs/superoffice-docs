@@ -43,7 +43,6 @@ This table will contain ticket escalation levels. A ticket will be escalated alo
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |priority |FK |Index |
 |delegate\_to |FK |Index |
 |script\_id |FK |Index |

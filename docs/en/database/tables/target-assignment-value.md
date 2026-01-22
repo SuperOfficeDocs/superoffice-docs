@@ -35,7 +35,6 @@ A set of values linked to assignment info and a period in a target group.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_assignment\_value\_id |PK |Clustered, Unique |
 
 ## Relationships
 

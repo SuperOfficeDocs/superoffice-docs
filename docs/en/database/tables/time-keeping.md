@@ -38,7 +38,6 @@ Time keeping for how much time a sale or project or other entity has spent in a 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|time\_keeping\_id |PK |Clustered, Unique |
 |ownerRecord, state\_id, time\_keeping\_type |RecordId, Int, Enum |Index |
 
 ## Relationships

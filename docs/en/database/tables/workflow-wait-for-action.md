@@ -35,7 +35,6 @@ Some steps wait for actions, this is info about those actions
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|workflow\_wait\_for\_action\_id |PK |Clustered, Unique |
 
 ## Relationships
 

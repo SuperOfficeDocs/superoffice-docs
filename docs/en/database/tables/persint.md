@@ -37,7 +37,6 @@ PersInt list table. List of Person interests.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|PersInt\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

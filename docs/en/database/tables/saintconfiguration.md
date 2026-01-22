@@ -40,7 +40,6 @@ Configuration information for the Saint system
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|saintconfiguration\_id |PK |Clustered, Unique |
 
 ## Relationships
 

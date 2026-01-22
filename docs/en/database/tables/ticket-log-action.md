@@ -36,7 +36,6 @@ This table contains actions for the tickets.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ticket\_id |FK |Index |
 |org\_ticket\_id |FK |Index |
 |message\_id |FK |Index |

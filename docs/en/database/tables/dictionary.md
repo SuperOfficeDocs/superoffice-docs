@@ -31,7 +31,6 @@ User added dictionary words
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |base\_id |FK |Index |
 |user\_id |FK |Index |
 |include |Int |Index |

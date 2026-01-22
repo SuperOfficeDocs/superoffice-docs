@@ -31,7 +31,6 @@ This table contains entries for emails which have been trashed by a filter, wait
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |mail\_sorter\_id |FK |Index |
 |mail\_in\_filter\_id |FK |Index |
 

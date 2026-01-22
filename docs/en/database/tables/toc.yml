@@ -47,6 +47,8 @@ items:
   href: automatedcategoryupdate.md
 - name: autosave
   href: autosave.md
+- name: available_fonts
+  href: available-fonts.md
 - name: BaseTZLocation
   href: basetzlocation.md
 - name: BatchTask

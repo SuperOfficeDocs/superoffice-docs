@@ -31,7 +31,6 @@ This table is a generic table for storing item configuration. It is only used by
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |domain |Int |Index |
 |item\_id |Int |Index |
 

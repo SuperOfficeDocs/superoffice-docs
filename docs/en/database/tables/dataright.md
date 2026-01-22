@@ -38,7 +38,6 @@ Data right definition
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|DataRight\_id |PK |Clustered, Unique |
 |roleId |FK |Index |
 |roleId, tableId, fieldId, relationToOwner |FK, TableNumber, FieldId, Enum |Unique |
 

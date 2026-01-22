@@ -327,7 +327,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/soldReason| *None* |Reason (sold: Reason (sold)| x |
 |sale/saleNumber| *None* |Number: Number| x |
 |sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
@@ -1258,7 +1258,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonStaticSelectionV2?$select=sale/associate/mrMrs,document/recordType,isProjectMember,personDirectFax/formattedNumber,personSourceRelation/retired
+GET /api/v1/archive/ContactPersonStaticSelectionV2?$select=activeErpLinks,streetAddress/addressId,contactAssociate/role,targetRelation/stop,document/date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -31,7 +31,6 @@ This table contains eab (email address book) folders, used for containing email 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |folder\_id |FK |Index |
 |name |String(64) |Index |
 

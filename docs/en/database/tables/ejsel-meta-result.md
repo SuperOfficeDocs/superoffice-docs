@@ -30,7 +30,6 @@ This table stores result meta data
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |ejselection |FK |Index |
 |owner |FK |Index |
 |created\_at |DateTime |Index |

@@ -38,7 +38,6 @@ System events, such as freetext rebuild, SAINT rebuild and such. Makes broadcast
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|SystemEvent\_id |PK |Clustered, Unique |
 |eventkey, scope, owner |String(254), Id, Id |Unique |
 
 ## Relationships

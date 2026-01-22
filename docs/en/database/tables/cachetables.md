@@ -31,7 +31,6 @@ Specifies which tables should be cached to local files (or otherwise), generally
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|CacheTabs\_id |PK |Clustered, Unique |
 |tableId |TableNumber |Index |
 
 ## Replication Flags

@@ -43,7 +43,6 @@ This table contains the pop-up messages displayed for users for various events, 
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |user\_id |FK |Index |
 |owner\_id |FK |Index |
 |ticket\_id |FK |Index |

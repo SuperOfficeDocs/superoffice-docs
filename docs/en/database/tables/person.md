@@ -84,7 +84,6 @@ Persons
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|person\_id |PK |Clustered, Unique |
 |contact\_id |FK |Index |
 |lastname |String(99) |Index |
 |firstname |String(99) |Index |

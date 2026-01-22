@@ -30,7 +30,6 @@ This table contains web-domains associated with a certain cust_company entry.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |company\_id |FK |Index |
 
 ## Relationships

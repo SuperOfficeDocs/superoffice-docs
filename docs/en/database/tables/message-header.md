@@ -33,7 +33,6 @@ This table contains small pieces of information which is listed over the body fo
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |message\_id |FK |Index |
 
 ## Relationships

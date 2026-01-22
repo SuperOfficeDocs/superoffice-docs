@@ -502,6 +502,90 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultAvailableFont">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultAvailableFontResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AvailableFont" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="AvailableFont">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AvailableFontsId" type="xs:int" />
+              <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FontFamily" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CssPath" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="AvailableFont" nillable="true" type="tns:AvailableFont" />
+      <xs:element name="SaveAvailableFont">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Font" nillable="true" type="tns:AvailableFont" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveAvailableFontResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AvailableFont" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteAvailableFont">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AvailableFontId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteAvailableFontResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAvailableFont">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AvailableFontId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAvailableFontResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:AvailableFont" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetFontRank">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AvailableFontId" type="xs:int" />
+            <xs:element minOccurs="0" name="Rank" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetFontRankResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetFormEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1027,6 +1111,91 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateDefaultAvailableFontRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultAvailableFont" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultAvailableFontRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultAvailableFontResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultAvailableFontResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultAvailableFontResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAvailableFontRequest">
+    <wsdl:part name="parameters" element="tns:SaveAvailableFont" />
+  </wsdl:message>
+  <wsdl:message name="SaveAvailableFontRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveAvailableFontResponse">
+    <wsdl:part name="parameters" element="tns:SaveAvailableFontResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAvailableFontResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteAvailableFontRequest">
+    <wsdl:part name="parameters" element="tns:DeleteAvailableFont" />
+  </wsdl:message>
+  <wsdl:message name="DeleteAvailableFontRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteAvailableFontResponse">
+    <wsdl:part name="parameters" element="tns:DeleteAvailableFontResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteAvailableFontResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAvailableFontRequest">
+    <wsdl:part name="parameters" element="tns:GetAvailableFont" />
+  </wsdl:message>
+  <wsdl:message name="GetAvailableFontRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAvailableFontResponse">
+    <wsdl:part name="parameters" element="tns:GetAvailableFontResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAvailableFontResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetFontRankRequest">
+    <wsdl:part name="parameters" element="tns:SetFontRank" />
+  </wsdl:message>
+  <wsdl:message name="SetFontRankRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetFontRankResponse">
+    <wsdl:part name="parameters" element="tns:SetFontRankResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetFontRankResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetFormEntityRequest">
     <wsdl:part name="parameters" element="tns:GetFormEntity" />
   </wsdl:message>
@@ -1280,6 +1449,26 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteShipmentMessageEntity" name="DeleteShipmentMessageEntityRequest" message="tns:DeleteShipmentMessageEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteShipmentMessageEntityResponse" name="DeleteShipmentMessageEntityResponse" message="tns:DeleteShipmentMessageEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultAvailableFont">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultAvailableFont" name="CreateDefaultAvailableFontRequest" message="tns:CreateDefaultAvailableFontRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultAvailableFontResponse" name="CreateDefaultAvailableFontResponse" message="tns:CreateDefaultAvailableFontResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAvailableFont">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveAvailableFont" name="SaveAvailableFontRequest" message="tns:SaveAvailableFontRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveAvailableFontResponse" name="SaveAvailableFontResponse" message="tns:SaveAvailableFontResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAvailableFont">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteAvailableFont" name="DeleteAvailableFontRequest" message="tns:DeleteAvailableFontRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteAvailableFontResponse" name="DeleteAvailableFontResponse" message="tns:DeleteAvailableFontResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableFont">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetAvailableFont" name="GetAvailableFontRequest" message="tns:GetAvailableFontRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetAvailableFontResponse" name="GetAvailableFontResponse" message="tns:GetAvailableFontResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetFontRank">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SetFontRank" name="SetFontRankRequest" message="tns:SetFontRankRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SetFontRankResponse" name="SetFontRankResponse" message="tns:SetFontRankResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetFormEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormEntity" name="GetFormEntityRequest" message="tns:GetFormEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormEntityResponse" name="GetFormEntityResponse" message="tns:GetFormEntityResponse" />
@@ -1520,6 +1709,86 @@ content_type: reference
         <soap:header message="tns:DeleteShipmentMessageEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteShipmentMessageEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteShipmentMessageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultAvailableFont">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/CreateDefaultAvailableFont" style="document" />
+      <wsdl:input name="CreateDefaultAvailableFontRequest">
+        <soap:header message="tns:CreateDefaultAvailableFontRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultAvailableFontRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultAvailableFontRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultAvailableFontResponse">
+        <soap:header message="tns:CreateDefaultAvailableFontResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultAvailableFontResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultAvailableFontResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultAvailableFontResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAvailableFont">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SaveAvailableFont" style="document" />
+      <wsdl:input name="SaveAvailableFontRequest">
+        <soap:header message="tns:SaveAvailableFontRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveAvailableFontRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveAvailableFontRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveAvailableFontResponse">
+        <soap:header message="tns:SaveAvailableFontResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveAvailableFontResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveAvailableFontResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveAvailableFontResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAvailableFont">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/DeleteAvailableFont" style="document" />
+      <wsdl:input name="DeleteAvailableFontRequest">
+        <soap:header message="tns:DeleteAvailableFontRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteAvailableFontRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteAvailableFontRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteAvailableFontResponse">
+        <soap:header message="tns:DeleteAvailableFontResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteAvailableFontResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteAvailableFontResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteAvailableFontResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableFont">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetAvailableFont" style="document" />
+      <wsdl:input name="GetAvailableFontRequest">
+        <soap:header message="tns:GetAvailableFontRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAvailableFontRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAvailableFontRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAvailableFontResponse">
+        <soap:header message="tns:GetAvailableFontResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAvailableFontResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAvailableFontResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAvailableFontResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetFontRank">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SetFontRank" style="document" />
+      <wsdl:input name="SetFontRankRequest">
+        <soap:header message="tns:SetFontRankRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetFontRankRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetFontRankRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetFontRankResponse">
+        <soap:header message="tns:SetFontRankResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetFontRankResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetFontRankResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetFontRankResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

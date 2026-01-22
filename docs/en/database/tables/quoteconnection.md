@@ -41,7 +41,6 @@ Primary key in the CRM database. Definition of a connection to an external syste
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteconnection\_id |PK |Clustered, Unique |
 
 ## Relationships
 

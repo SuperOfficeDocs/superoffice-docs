@@ -23,6 +23,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [CollectWinUsage](CollectWinUsage.md)
 * [FlushCaches](FlushCaches.md)
 * [FlushCachesByName](FlushCachesByName.md)
+* [GetAnalyticsData](GetAnalyticsData.md)
 * [GetCacheInvalidationGenerations](GetCacheInvalidationGenerations.md)
 * [GetCacheNames](GetCacheNames.md)
 * [GetCacheState](GetCacheState.md)
@@ -40,5 +41,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [RemoveSystemMessageForAssociate](RemoveSystemMessageForAssociate.md)
 * [ResyncUsers](ResyncUsers.md)
 * [SendSystemMessage](SendSystemMessage.md)
+* [TrackEvent](TrackEvent.md)
+* [TrackUser](TrackUser.md)
 * [WebAppUsageExistsInPeriod](WebAppUsageExistsInPeriod.md)
 

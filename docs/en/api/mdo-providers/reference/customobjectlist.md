@@ -42,7 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|6|Extra tables||parentId=-1|
+|6|Phone||parentId=6&tableName=y_phone|
+|5|Organization||parentId=6&tableName=y_organization|
+|4|CarBrand||parentId=6&tableName=y_carbrand|
+|3|Car||parentId=6&tableName=y_car|
 |2|Rental||parentId=-1&tableName=y_rental|
 |1|Equipment||parentId=-1&tableName=y_equipment|
 

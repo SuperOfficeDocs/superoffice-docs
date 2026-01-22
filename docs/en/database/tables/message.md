@@ -38,7 +38,6 @@ Definition of a message, corresponding to the header of a protocol
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Message\_id |PK |Clustered, Unique |
 |associateId, systemMessageId, onlineapp\_id |FK, String(255), FK |Unique |
 
 ## Relationships

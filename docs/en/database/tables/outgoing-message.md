@@ -36,7 +36,6 @@ Delivery of outgoing messages to messageplugins, updated with status asynchroneo
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |session\_key |String(255) |Index |
 |external\_message\_id |String(255) |Index |
 |registered\_associate\_id |FK |Index |

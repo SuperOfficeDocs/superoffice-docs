@@ -34,7 +34,6 @@ Heading link table for RelDef, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|reldefheadinglink\_id |PK |Clustered, Unique |
 |reldef\_id |FK |Index |
 |heading\_id |FK |Index |
 

@@ -29,7 +29,6 @@ This table contains all keywords for the faq entries
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |kb\_entry\_id |FK |Index |
 |keyword |String(255) |Index |
 

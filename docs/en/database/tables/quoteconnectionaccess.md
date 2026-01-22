@@ -35,7 +35,6 @@ Access control for Quote Connections
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|quoteconnectionaccess\_id |PK |Clustered, Unique |
 
 ## Relationships
 

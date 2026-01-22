@@ -2,14 +2,14 @@
 uid: categorygroup
 title: categorygroup
 keywords: mdoprovider mdo provider categorygroup
-description: MDO provider for the WorkflowGoalType enum
+description: MDO provider for the CategoryGroup enum.
 generated: true
 content_type: reference
 envir: onsite, online
 ---
 
 # "categorygroup" MDO List
-MDO provider for the WorkflowGoalType enum
+MDO provider for the CategoryGroup enum.
 
 
 

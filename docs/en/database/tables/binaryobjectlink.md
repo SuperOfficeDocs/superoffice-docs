@@ -38,7 +38,6 @@ Link table, connects a BinaryObject with one or more owners
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|BinaryObjectLink\_id |PK |Clustered, Unique |
 |ownerTable, ownerRecord, linkType, rank |TableNumber, RecordId, Enum, UShort |Index |
 
 ## Relationships

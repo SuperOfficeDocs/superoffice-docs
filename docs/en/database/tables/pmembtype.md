@@ -37,7 +37,6 @@ PMembType list table. List text of titles (member types) for project members.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|PMembType\_id |PK |Clustered, Unique |
 |name |String(239) |Unique |
 
 ## Relationships

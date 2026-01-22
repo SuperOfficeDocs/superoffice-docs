@@ -35,7 +35,6 @@ One batch of changes made to targets
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|target\_revision\_id |PK |Clustered, Unique |
 |assignment\_info\_id |FK |Index |
 
 ## Relationships

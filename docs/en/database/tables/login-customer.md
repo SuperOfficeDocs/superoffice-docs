@@ -36,7 +36,6 @@ This table contains entries for customer sessions. At first only used for Soap l
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |customer\_id |FK |Index |
 |session\_key |String(32) |Index |
 |origin |Int |Index |

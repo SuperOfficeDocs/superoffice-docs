@@ -112,7 +112,6 @@ This table contains chat topics.
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|id |PK |Clustered, Unique |
 |language\_id |FK |Index |
 
 ## Relationships

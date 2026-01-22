@@ -47,7 +47,6 @@ Alternative credentials
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|Credentials\_id |PK |Clustered, Unique |
 |searchName |String(254) |Index |
 |credentialType, personId |String(254), FK |Index |
 |credentialType, searchName |String(254), String(254) |Unique |

@@ -50,7 +50,7 @@ The CopilotDataSourceEntity that is saved
 | CopilotId | Integer | The associated copilot |
 | Description | String | Description of data source |
 | Name | String | Name of data source |
-| Settings | Array | Collection of data source settings |
+| Settings | Array | Collection of data source settings - each setting has key + value |
 
 ## Response:
 
@@ -69,7 +69,7 @@ OK
 | CopilotId | int32 | The associated copilot |
 | Description | string | Description of data source |
 | Name | string | Name of data source |
-| Settings | array | Collection of data source settings |
+| Settings | array | Collection of data source settings - each setting has key + value |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

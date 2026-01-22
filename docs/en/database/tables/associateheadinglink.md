@@ -34,7 +34,6 @@ Heading link table for associate for display only. Supportive table, used for gr
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|associateheadinglink\_id |PK |Clustered, Unique |
 |associate\_id |FK |Index |
 |heading\_id |FK |Index |
 

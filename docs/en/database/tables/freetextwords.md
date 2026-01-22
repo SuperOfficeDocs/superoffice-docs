@@ -29,7 +29,6 @@ This table contains the word list (automatically updated by the indexer) for the
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|freetextwords\_id |PK |Clustered, Unique |
 |word |String(19) |Index |
 |soundEx |String(9) |Index |
 

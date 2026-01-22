@@ -34,7 +34,6 @@ Heading link table for PersPos, for MDO headers
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|persposheadinglink\_id |PK |Clustered, Unique |
 |perspos\_id |FK |Index |
 |heading\_id |FK |Index |
 
