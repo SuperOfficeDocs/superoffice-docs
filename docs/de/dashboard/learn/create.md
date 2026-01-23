@@ -3,8 +3,8 @@ uid: help-de-dashboard-create
 title: Neues Dashboard erstellen
 description: Erstellen Sie mehrere Dashboards, um mehr Einblick in Ihre CRM-Daten zu erhalten. Diese Anleitung zeigt Ihnen, wie Sie neue Dashboards erstellen.
 keywords: dashboard erstellen, neues dashboard, dashboard hinzufügen, dashboard anheften, dashboard duplizieren, dashboard
-author: digitaldiina
-date: 11.21.2025
+author: digitaldiina, acdavidh
+date: 01.23.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -44,10 +44,9 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten, um 
 
 1. Klicken Sie auf **Speichern**.
 
-    Das neue Dashboard wird ohne Kacheln geöffnet. Die Seitenleiste **Dashboard-Kacheln bearbeiten** wird angezeigt, damit Sie direkt [Kacheln hinzufügen][2] können.
-
-> [!NOTE]
-> Die Person, die das Dashboard erstellt, wird automatisch als **Eigentümer** festgelegt. Die Eigentümerschaft kann später nicht geändert werden.
+    * Das neue Dashboard wird ohne Kacheln geöffnet.
+    * Die Seitenleiste **Dashboard-Kacheln bearbeiten** wird angezeigt, damit Sie direkt [Kacheln hinzufügen][2] können.
+    * Die Person, die das Dashboard erstellt, wird automatisch als **Eigentümer** festgelegt.
 
 ## <a id="pin"></a>Dashboard teilen oder anheften
 

@@ -3,8 +3,8 @@ uid: help-nl-dashboard-create
 title: Een nieuw dashboard maken
 description: Krijg meer inzicht in uw CRM-gegevens door meerdere dashboards te maken. Deze handleiding laat zien hoe u nieuwe dashboards maakt.
 keywords: dashboard maken, nieuw dashboard, dashboard toevoegen, dashboard vastmaken, dashboard dupliceren, dashboard
-author: digitaldiina
-date: 11.21.2025
+author: digitaldiina, acdavidh
+date: 01.23.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -44,10 +44,9 @@ Bekijk deze video of volg de stappen hieronder om dashboards te maken in SuperOf
 
 1. Klik op **Opslaan**.
 
-    Het nieuwe dashboard wordt geopend zonder tegels. De zijbalk **Dashboardtegels bewerken** wordt weergegeven zodat u direct [tegels kunt toevoegen][2].
-
-> [!NOTE]
-> De persoon die het dashboard maakt, wordt automatisch ingesteld als **eigenaar**. Eigenaarschap kan later niet worden gewijzigd.
+    * Het nieuwe dashboard wordt geopend zonder tegels.
+    * De zijbalk **Dashboardtegels bewerken** wordt weergegeven zodat u direct [tegels kunt toevoegen][2].
+    * De persoon die het dashboard maakt, wordt automatisch ingesteld als **eigenaar**.
 
 ## <a id="pin"></a>Dashboard delen of vastmaken
 

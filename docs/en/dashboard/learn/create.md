@@ -3,8 +3,8 @@ uid: help-en-dashboard-create
 title: Create a new dashboard
 description: Get more insight into your CRM data by creating several dashboards. Learn how to create new dashboards in this how-to-guide.
 keywords: create dashboard, add dashboard, new dashboard, pin dashboard, duplicate dashboard, dashboard
-author: digitaldiina
-date: 11.21.2025
+author: digitaldiina, acdavidh
+date: 01.23.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -44,10 +44,9 @@ Watch this video or follow the steps below to learn how to create dashboards in 
 
 1. Click **Save**.
 
-    The dashboard opens with no tiles. The **Edit dashboard tiles** sidebar is displayed so you can [add tiles][2] right away.
-
-> [!NOTE]
-> The person who creates the dashboard is automatically set as the **owner**. Ownership cannot be changed later.
+    * The dashboard opens with no tiles.
+    * The **Edit dashboard tiles** sidebar is displayed so you can [add tiles][2] right away.
+    * The person who creates the dashboard is automatically set as the **owner**.
 
 ## <a id="pin"></a>Share or pin a dashboard
 
