@@ -3,8 +3,8 @@ uid: help-sv-dashboard-create
 title: Skapa en ny dashboard
 description: Få bättre koll på dina CRM-data genom att skapa flera dashboards. I den här guiden får du lära dig hur du skapar nya dashboards.
 keywords: skapa dashboard, lägga till dashboard, ny dashboard, fäst dashboard, duplicera dashboard, dashboard
-author: digitaldiina
-date: 11.21.2025
+author: digitaldiina, acdavidh
+date: 01.23.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -44,10 +44,9 @@ Titta på den här videon eller följ stegen nedan för att lära dig hur du ska
 
 1. Klicka på **Spara**.
 
-    Den nya dashboarden öppnas utan paneler. Sidopanelen **Redigera dashboard-paneler** visas så att du kan [lägga till paneler][2] direkt.
-
-> [!NOTE]
-> Den som skapar dashboarden anges automatiskt som **ägare**. Detta kan inte ändras senare.
+    * Den nya dashboarden öppnas utan paneler.
+    * Sidopanelen **Redigera dashboard-paneler** visas så att du kan [lägga till paneler][2] direkt.
+    * Den som skapar dashboarden anges automatiskt som **ägare**.
 
 ## <a id="pin"></a>Dela eller fäst en dashboard
 

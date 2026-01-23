@@ -3,8 +3,8 @@ uid: help-da-dashboard-create
 title: Opret et nyt dashboard
 description: Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye dashboards.
 keywords: opret dashboard, tilføj dashboard, nyt dashboard, fastgør dashboard, duplikér dashboard, dashboard
-author: digitaldiina
-date: 11.21.2025
+author: digitaldiina, acdavidh
+date: 01.23.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -44,10 +44,9 @@ Se denne video, eller følg trinnene nedenfor for at lære, hvordan du opretter 
 
 1. Klik på **Gem**.
 
-    Dashboardet åbnes uden ruder. Sidepanelet **Rediger dashboardruder** vises, så du kan [tilføje ruder][2] med det samme.
-
-> [!NOTE]
-> Den person, der opretter dashboardet, bliver automatisk angivet som **ejer**. Ejerskab kan ikke ændres senere.
+    * Dashboardet åbnes uden ruder.
+    * Sidepanelet **Rediger dashboardruder** vises, så du kan [tilføje ruder][2] med det samme.
+    * Den person, der opretter dashboardet, bliver automatisk angivet som **ejer**.
 
 ## <a id="pin"></a>Del eller fastgør et dashboard
 

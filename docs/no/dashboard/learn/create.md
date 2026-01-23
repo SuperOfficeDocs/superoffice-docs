@@ -3,8 +3,8 @@ uid: help-no-dashboard-create
 title: Opprett et nytt dashbord
 description: Få mer innsikt i CRM-dataene dine ved å opprette flere dashbord. Denne veiledningen viser hvordan du oppretter nye dashbord.
 keywords: opprett dashbord, legg til dashbord, nytt dashbord, fest dashbord, dupliser dashbord, dashbord
-author: digitaldiina
-date: 11.21.2025
+author: digitaldiina, acdavidh
+date: 01.23.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -44,10 +44,9 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du opprette
 
 1. Klikk på **Lagre**.
 
-    Det nye dashbordet åpnes uten figurer. Sidepanelet **Rediger dashbordfigurer** vises slik at du kan [legge til figurer][2] med én gang.
-
-> [!NOTE]
-> Personen som oppretter dashbordet, blir automatisk satt som **eier**. Dette kan ikke endres senere.
+    * Det nye dashbordet åpnes uten figurer.
+    * Sidepanelet **Rediger dashbordfigurer** vises slik at du kan [legge til figurer][2] med én gang.
+    * Personen som oppretter dashbordet, blir automatisk satt som **eier**.
 
 ## <a id="pin"></a>Del eller fest et dashbord
 
