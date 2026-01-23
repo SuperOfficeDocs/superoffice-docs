@@ -21,7 +21,7 @@ audience_tooltip: SuperOffice Mobile CRM
 ## Version 11.1
 
 * [All day events in Diary (11.1.7)][43]
-* [Sections for Contacts - Show person type icon (11.1.7)][43]
+* [Sections for contacts - Show person type icon (11.1.7)][43]
 * [New company - With company completion (11.1.5)][42]
 * [Company and Contact - Lead status (11.1.5)][42]
 * [Follow-up - Complete follow-up by long press (11.1.5)][42]
