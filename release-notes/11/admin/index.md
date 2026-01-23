@@ -13,7 +13,7 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
-* [Marketing - Add new google fonts to Form fonts (11.9)][9]
+* [Marketing - Add new Google fonts to form fonts (11.9)][9]
 * [Workflow - Lead category automation (11.8)][8]
 * [Marketing - Conversion tracking with UTM data (11.6)][6]
 * [Lists - Company category with category group (11.6)][6]
