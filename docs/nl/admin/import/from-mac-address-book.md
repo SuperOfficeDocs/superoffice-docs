@@ -28,7 +28,7 @@ Het pictogram in Importeren wordt weergegeven als de gebruiker WebTools voor Mac
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Klik op het Mac-![pictogram][img2] onder **Een importbron selecteren**. Mac-adresboek wordt geopend en een dialoogvenster wordt weergegeven terwijl het exporteren vanuit Adresboek bezig is.
+2. Klik op het Mac-pictogram onder **Een importbron selecteren**. Mac-adresboek wordt geopend en een dialoogvenster wordt weergegeven terwijl het exporteren vanuit het adresboek bezig is.
 
     > [!NOTE]
     > De bedrijven/personen uit Outlook zullen nog niet in de SuperOffice-database geïmporteerd worden. SuperOffice uploadt alleen de bedrijven-/personenlijst van Outlook, zodat u de importinstellingen kunt opgeven.
@@ -37,7 +37,7 @@ Het pictogram in Importeren wordt weergegeven als de gebruiker WebTools voor Mac
 
 ### Wordt er een foutbericht weergegeven?
 
-[!include[WebTools](includes/missing-webtools.md)]
+U moet SuperOffice WebTools installeren en configureren om bedrijven uit Outlook te importeren. Ga in SuperOffice CRM naar **Bestand** > **Downloaden** > **SuperOffice WebTools**. Neem contact op met gebruikersondersteuning als u problemen ondervindt.
 
 ## Stel de import bij
 
@@ -50,8 +50,3 @@ Het pictogram in Importeren wordt weergegeven als de gebruiker WebTools voor Mac
 ## Het importeren voltooien
 
 [!include[Step: complete the import](includes/import-complete.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../media/icons/admin/import-outlook-small.png

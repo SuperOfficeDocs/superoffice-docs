@@ -28,7 +28,7 @@ Das Symbol in Importieren wird angezeigt, wenn der Benutzer WebTools für Mac in
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Klicken Sie auf das ![Symbol][img2] Mac unter **Importquelle auswählen**.  Das Mac Adressenbuch wird geöffnet und ein Dialogfeld angezeigt, während der Export aus dem Adressenbuch durchgeführt wird.
+2. Klicken Sie auf das Mac-Symbol unter **Importquelle auswählen**. Das Mac-Adressbuch wird geöffnet, und während des Exports aus dem Adressbuch wird ein Dialogfeld angezeigt.
 
     > [!NOTE]
     > Die Firmen/Personen aus Outlook werden noch nicht in die Datenbank von SuperOffice importiert. SuperOffice lädt lediglich die Firmen-/Personenliste aus Outlook hoch, damit Sie die Importeinstellungen festlegen können.
@@ -37,7 +37,7 @@ Das Symbol in Importieren wird angezeigt, wenn der Benutzer WebTools für Mac in
 
 ### Wird eine Fehlermeldung angezeigt?
 
-[!include[WebTools](includes/missing-webtools.md)]
+Sie müssen SuperOffice WebTools installieren und konfigurieren, um Firmen aus Outlook zu importieren. Rufen Sie in SuperOffice CRM **Datei** > **Herunterladen** > **SuperOffice WebTools** auf. Wenden Sie sich an den Benutzersupport, wenn Probleme auftreten.
 
 ## Importeinstellungen anpassen
 
@@ -50,8 +50,3 @@ Das Symbol in Importieren wird angezeigt, wenn der Benutzer WebTools für Mac in
 ## Import abschließen
 
 [!include[Step: complete the import](includes/import-complete.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../media/icons/admin/import-outlook-small.png

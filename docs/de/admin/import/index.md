@@ -4,15 +4,18 @@ title: Import
 description: Import
 keywords: Importieren
 author: SuperOffice Product and Engineering
-date: 02.22.2023
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: concept
 category: Settings and maintenance
 topic: Import
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-redirect_from: /de/admin/import/learn/index
+redirect_from:
+  - /de/admin/import/learn/index
+  - /de/admin/import/learn/import-from-outlook
+  - /de/admin/import/import-from-outlook
 language: de
 ---
 
@@ -34,12 +37,11 @@ In der Ansicht **Import** können Sie Firmen, Personen und Produkte in SuperOffi
 Die Importfunktion unterstützt das Importieren von Daten aus den folgenden Quellen:
 
 * [Excel][1]. Unter Verwendung des Excel-Formats können Sie Firmen, Personen und [Produkte][5] aus anderen Anwendungen und Formaten importieren.
-* [Outlook][2]. Importiert Firmen und Personen aus Microsoft Outlook.
 * [Gmail][3]. Importiert Firmen und Personen aus Google Gmail.
 * [ERP][4]. Importiert Akteure (Kunden, Lieferanten und Einzelpersonen) aus einem ERP-System.
 
-> [][7]
-> Um andere Daten wie Projekte, Verkäufer, Währungen, Postleitzahlen und gesetzliche Feiertage importieren zu können, müssen Sie die Funktion **Importieren** in den Einstellungen für den Windows-Client verwenden.
+> [!NOTE]
+> Der Import aus Microsoft Outlook wird nicht mehr unterstützt.
 
 ## In leere SuperOffice-Datenbank importieren
 
@@ -59,7 +61,6 @@ Wenn Ihnen viele Informationen über Kunden und Personen in SuperOffice fehlen, 
 
 <!-- Referenced links -->
 [1]: from-excel.md
-[2]: from-outlook.md
 [3]: from-gmail.md
 [4]: from-erp.md
 [5]: products-from-excel.md

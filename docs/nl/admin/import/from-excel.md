@@ -99,7 +99,6 @@ U moet alle verplichte SuperOffice-velden aan de bijbehorende kolommen koppelen 
 ## Gerelateerde inhoud
 
 * [Importinstellingen configureren][3]
-* [Importeren uit Outlook][4]
 * [Importeren vanuit Gmail][5]
 * [Importeren vanuit ERP][6]
 
@@ -107,7 +106,6 @@ U moet alle verplichte SuperOffice-velden aan de bijbehorende kolommen koppelen 
 [1]: create-spreadsheet.md
 [2]: index.md
 [3]: settings.md
-[4]: from-outlook.md
 [5]: from-gmail.md
 [6]: from-erp.md
 

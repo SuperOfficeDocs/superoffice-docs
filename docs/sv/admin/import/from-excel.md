@@ -99,7 +99,6 @@ Du m책ste koppla alla de obligatoriska SuperOffice-f채lten till varsin kolumn f�
 ## Relaterat inneh책ll
 
 * [Konfigurera importinst채llningar][3]
-* [Importera fr책n Outlook][4]
 * [Importera fr책n Gmail][5]
 * [Importera fr책n ERP][6]
 
@@ -107,7 +106,6 @@ Du m책ste koppla alla de obligatoriska SuperOffice-f채lten till varsin kolumn f�
 [1]: create-spreadsheet.md
 [2]: index.md
 [3]: settings.md
-[4]: from-outlook.md
 [5]: from-gmail.md
 [6]: from-erp.md
 

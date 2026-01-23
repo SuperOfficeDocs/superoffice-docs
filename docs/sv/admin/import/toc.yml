@@ -5,8 +5,6 @@ items:
     href: create-spreadsheet.md
   - name: Importera från Excel
     href: from-excel.md
-  - name: Importera från Outlook
-    href: from-outlook.md
   - name: Importera från Mac-adressbok
     href: from-mac-address-book.md
   - name: Importera från Gmail

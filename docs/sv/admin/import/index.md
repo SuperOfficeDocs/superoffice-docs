@@ -4,15 +4,18 @@ title: Import
 description: Import
 keywords: importera
 author: SuperOffice Product and Engineering
-date: 02.22.2023
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: concept
 category: Settings and maintenance
 topic: Import
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-redirect_from: /sv/admin/import/learn/index
+redirect_from:
+  - /sv/admin/import/learn/index
+  - /sv/admin/import/learn/import-from-outlook
+  - /sv/admin/import/import-from-outlook
 language: sv
 ---
 
@@ -34,12 +37,11 @@ I fönstret **Import** kan du importera företag, kontakter och produkter till S
 Importfunktionen stöder import från följande källor:
 
 * [Excel][1]. Via Excel-formatet kan du importera företag, kontakter och [produkter][5] från andra applikationer och format.
-* [Outlook][2]. Importera företag och kontakter från Microsoft Outlook.
 * [Gmail][3]. Importera företag och kontakter från Google Gmail.
 * [ERP][4]. Importerar aktörer (kunder, leverantörer och kontakter) från ett ERP-system.
 
 > [!NOTE]
-> Om du vill importera andra data, till exempel projekt, försäljningar, valutor, postnummer och röda dagar, måste du använda [importfunktionen][7] under Inställningar för Windows-klient.
+> Import från Microsoft Outlook stöds inte längre.
 
 ## Importera till tom SuperOffice-databas
 
@@ -59,7 +61,6 @@ Om du saknar mycket information om kunder och kontakter i SuperOffice kan du anv
 
 <!-- Referenced links -->
 [1]: from-excel.md
-[2]: from-outlook.md
 [3]: from-gmail.md
 [4]: from-erp.md
 [5]: products-from-excel.md

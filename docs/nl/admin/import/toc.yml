@@ -5,8 +5,6 @@ items:
     href: create-spreadsheet.md
   - name: Importeren vanuit Excel
     href: from-excel.md
-  - name: Importeren vanuit Outlook
-    href: from-outlook.md
   - name: Importeren vanuit Mac-adresboek
     href: from-mac-address-book.md
   - name: Importeren vanuit Gmail
