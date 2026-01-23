@@ -2,9 +2,9 @@
 uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
-keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
+keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution, form fonts, google fonts
 author: kirstiaa
-date: 01.13.2026
+date: 01.27.2026
 version: 11
 content_type: release-note
 audience: person
@@ -22,6 +22,11 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
 ## Feature updates
+
+### 11.9 (27.01.2026)
+
+* [Form - Use Google fonts in your forms][25] in Marketing
+* [Marketing - Add new Google fonts to form fonts][26] in Settings and maintenance
 
 ### 11.8 (13.01.2026)
 
@@ -133,6 +138,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [22]: service/11.7-update.md
 [23]: service/11.8-update.md
 [24]: admin/11.8-update.md
+[25]: marketing/11.9-update.md
+[26]: admin/11.9-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated

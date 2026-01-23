@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 01.13.2026
+date: 01.27.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,7 +15,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest online release is [**version 11.8**][11] - 13.01.2026.
+The latest online release is [**version 11.9**][11] - 27.01.2026.
 
 Recent versions:
 
@@ -30,11 +30,11 @@ Older versions are listed in the table of contents.
 
 ### Onsite
 
-The latest onsite release is **10.5**. See the [version history][19] for details.
+The latest onsite release is **11.6** - 22.01.2026. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.5**][7] - 07.01.2026.
+The latest release is [**version 11.1.7**][7] - 19.01.2026.
 
 ## Product integrations
 
@@ -42,19 +42,14 @@ Different integration components are released on separate schedules. See the [in
 
 ## Developer Portal
 
+* 2.9 (17.12.2025): Refactored log section, Export list of tenants
 * 2.8 (17.11.2025): Refreshed and modernized user interface
-
 * 2.7 (04.11.2025): Improved categorization
-
 * 2.6 (30.09.2025): Dark mode
-
 * 2.5 (02.09.2025):
   * Role assignment, Simplified management, Improved security
-
 * 2.4 (20.08.2025): Bug fixing release
-
 * 2.3 (11.06.2025): Bug fixing release
-
 * 2.2 (07.05.2025):
   * [Publish Status widget][18] shows all pending requests to publish app configurations, partner profiles, and App Store information.
 

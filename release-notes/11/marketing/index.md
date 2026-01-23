@@ -4,7 +4,7 @@ title: What's new in SuperOffice Marketing 11
 description: Release notes. What's new in SuperOffice Marketing 11
 keywords: lead management
 author: kirstiaa
-date: 11.06.2025
+date: 01.27.2026
 version: 11
 content_type: release-note
 category: marketing
@@ -14,6 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Marketing
 
+* [Form - Use Google fonts in your forms (11.9)][9]
 * [Settings and maintenance – Marketing screen with conversion tracking (UTM) (11.6)][6]
 * [Marketing Form - Use UTM tracking when publishing the form (11.6)][6]
 * [Dashboard – Lead management tiles (11.6)][6]
@@ -27,3 +28,4 @@ audience_tooltip: SuperOffice CRM
 [3]: 11.3-update.md
 [5]: 11.5-update.md
 [6]: 11.6-update.md
+[9]: 11.9-update.md
