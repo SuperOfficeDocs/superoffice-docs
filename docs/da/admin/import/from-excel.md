@@ -99,7 +99,6 @@ Du skal knytte alle de påkrævede SuperOffice-felter til hver sin kolonne for a
 ## Relateret indhold
 
 * [Konfiguration af importindstillinger][3]
-* [Importér fra Outlook][4]
 * [Import fra Gmail][5]
 * [Import fra ERP][6]
 
@@ -107,7 +106,6 @@ Du skal knytte alle de påkrævede SuperOffice-felter til hver sin kolonne for a
 [1]: create-spreadsheet.md
 [2]: index.md
 [3]: settings.md
-[4]: from-outlook.md
 [5]: from-gmail.md
 [6]: from-erp.md
 

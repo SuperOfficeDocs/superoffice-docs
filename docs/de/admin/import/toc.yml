@@ -3,8 +3,6 @@ items:
     href: index.md
   - name: Aus Excel importieren
     href: from-excel.md
-  - name: Aus Outlook importieren
-    href: from-outlook.md
   - name: Von Mac-Adressbuch importieren
     href: from-mac-address-book.md
   - name: Aus Gmail importieren

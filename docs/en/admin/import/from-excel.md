@@ -99,7 +99,6 @@ You must link all the required SuperOffice fields to their respective columns to
 ## Related content
 
 * [Configure import settings][3]
-* [Import from Outlook][4]
 * [Import from Gmail][5]
 * [Import from ERP][6]
 
@@ -107,7 +106,6 @@ You must link all the required SuperOffice fields to their respective columns to
 [1]: create-spreadsheet.md
 [2]: index.md
 [3]: settings.md
-[4]: from-outlook.md
 [5]: from-gmail.md
 [6]: from-erp.md
 

@@ -99,7 +99,6 @@ Sie müssen alle erforderlichen SuperOffice-Felder mit ihren jeweiligen Spalten 
 ## Verwandt
 
 * [Importeinstellungen konfigurieren][3]
-* [Aus Outlook importieren][4]
 * [Aus Gmail importieren][5]
 * [Aus ERP importieren][6]
 
@@ -107,7 +106,6 @@ Sie müssen alle erforderlichen SuperOffice-Felder mit ihren jeweiligen Spalten 
 [1]: create-spreadsheet.md
 [2]: index.md
 [3]: settings.md
-[4]: from-outlook.md
 [5]: from-gmail.md
 [6]: from-erp.md
 

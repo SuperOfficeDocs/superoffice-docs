@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/da/admin/import/from-outlook.html
+redirect_url: https://docs.superoffice.com/da/admin/import/index.html
 ---

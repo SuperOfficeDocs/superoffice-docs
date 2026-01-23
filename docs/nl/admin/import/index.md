@@ -4,15 +4,18 @@ title: Import
 description: Import
 keywords: import
 author: SuperOffice Product and Engineering
-date: 02.22.2023
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: concept
 category: Settings and maintenance
 topic: Import
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-redirect_from: /nl/admin/import/learn/index
+redirect_from:
+  - /nl/admin/import/learn/index
+  - /nl/admin/import/learn/import-from-outlook
+  - /nl/admin/import/import-from-outlook
 language: nl
 ---
 
@@ -34,12 +37,11 @@ In het scherm **Importeren** kunt u bedrijven, personen en producten importeren 
 De Importeren-functie ondersteunt imports van de volgende bronnen:
 
 * [Excel][1]. Met de Excel-indeling kunt u bedrijven, personen en [producten][5] van andere toepassingen en indelingen importeren.
-* [Outlook][2]. Importeert bedrijven en personen van Microsoft Outlook.
 * [Gmail][3]. Importeert bedrijven en personen van Google Gmail.
 * [ERP][4]. Actors (klanten, leveranciers en personen) importeren uit een ERP-systeem.
 
 > [!NOTE]
-> Om gegevens zoals projecten, valuta, postcodes en belangrijke dagen te importeren, dient u de functie [Importeren][7] in Instellingen van Windows-client te gebruiken.
+> Importeren uit Microsoft Outlook wordt niet langer ondersteund.
 
 ## Importeren in een legen SuperOffice-database
 
@@ -59,7 +61,6 @@ Als u veel informatie over klanten en contactpersonen in SuperOffice mist, gebru
 
 <!-- Referenced links -->
 [1]: from-excel.md
-[2]: from-outlook.md
 [3]: from-gmail.md
 [4]: from-erp.md
 [5]: products-from-excel.md

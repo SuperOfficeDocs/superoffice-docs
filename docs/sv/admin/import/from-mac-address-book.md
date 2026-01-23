@@ -28,7 +28,7 @@ Ikonen visas under Import om användaren har installerat WebTools for Mac och ö
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Klicka på ![ikon][img2] Mac-ikonen under **Välj en importkälla**. Mac-adressboken öppnas och en dialogruta visas medan exporten från adressboken pågår.
+2. Klicka på Mac-ikonen under **Välj en importkälla**. Mac-adressboken öppnas och en dialogruta visas medan exporten från adressboken pågår.
 
     > [!NOTE]
     > Företagen/kontakterna från Outlook importeras inte till SuperOffice-databasen än. SuperOffice läser bara in företags-/kontaktlistan från Outlook så att du kan ange importinställningar.
@@ -37,7 +37,7 @@ Ikonen visas under Import om användaren har installerat WebTools for Mac och ö
 
 ### Visas det ett felmeddelande?
 
-[!include[WebTools](includes/missing-webtools.md)]
+Du måste installera och konfigurera SuperOffice WebTools för att importera företag från Outlook. Gå till **Arkiv** > **Hämta** > **SuperOffice WebTools** i SuperOffice CRM. Kontakta användarsupport om du upplever problem.
 
 ## Anpassa importen
 
@@ -50,8 +50,3 @@ Ikonen visas under Import om användaren har installerat WebTools for Mac och ö
 ## Slutför importen
 
 [!include[Step: complete the import](includes/import-complete.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../media/icons/admin/import-outlook-small.png

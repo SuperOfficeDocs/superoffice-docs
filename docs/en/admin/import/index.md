@@ -4,15 +4,18 @@ title: Import
 description: Import
 keywords: import
 author: SuperOffice Product and Engineering
-date: 02.22.2023
-version: 10.5
+date: 11.12.2025
+version: 11.6
 content_type: concept
 category: Settings and maintenance
 topic: Import
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-redirect_from: /en/admin/import/learn/index
+redirect_from:
+  - /en/admin/import/learn/index
+  - /en/admin/import/learn/import-from-outlook
+  - /en/admin/import/import-from-outlook
 language: en
 ---
 
@@ -34,12 +37,11 @@ In the **Import** screen, you can import companies, contacts and products into S
 The Import function supports imports from the following sources:
 
 * [Excel][1]: Using the Excel format, you can import companies, contacts and [products][5] from other applications and formats.
-* [Outlook][2]: Imports companies and contacts from Microsoft Outlook.
 * [Gmail][3]: Imports companies and contacts from Google Gmail.
 * [ERP][4]: Imports actors (customers, suppliers and individuals) from an ERP system.
 
 > [!NOTE]
-> To import other data like projects, sales, currencies, post codes and red-letter days, you must use the [Import][7] feature in Windows Client settings.
+> Import from Microsoft Outlook is no longer supported.
 
 ## Import into empty SuperOffice database
 
@@ -64,7 +66,6 @@ If you are missing a lot of information about customers and contacts in SuperOff
 
 <!-- Referenced links -->
 [1]: from-excel.md
-[2]: from-outlook.md
 [3]: from-gmail.md
 [4]: from-erp.md
 [5]: products-from-excel.md

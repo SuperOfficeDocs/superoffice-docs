@@ -5,8 +5,6 @@ items:
     href: create-spreadsheet.md
   - name: Import from Excel
     href: from-excel.md
-  - name: Import from Outlook
-    href: from-outlook.md
   - name: Import from Mac address book
     href: from-mac-address-book.md
   - name: Import from Gmail

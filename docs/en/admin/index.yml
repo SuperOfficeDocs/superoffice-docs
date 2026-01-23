@@ -12,7 +12,7 @@ metadata:
   so.topic: landing-page
   author: Help and Learn
   so.author: Kirsti A.
-  so.date: 11.29.2022
+  so.date: 01.23.2026
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -85,8 +85,6 @@ landingContent:
           url: import/products-from-excel.md
         - text: Import from Gmail
           url: import/from-gmail.md
-        - text: Import from Outlook
-          url: import/from-outlook.md
         - text: Import from ERP
           url: import/from-erp.md
 
