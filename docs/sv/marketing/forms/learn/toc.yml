@@ -19,3 +19,5 @@ items:
   href: tutorial-contact-me.md
 - name: Guide - Anmälning till nyhetsbrev
   href: tutorial-sign-up.md
+- name: Hantera typsnitt för formulär
+  href: ../admin/manage-fonts.md

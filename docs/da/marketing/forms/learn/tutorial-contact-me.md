@@ -3,9 +3,9 @@ uid: help-da-forms-contact-me
 title: Sådan oprettes en kontakt-mig formular
 description: Denne vejledning vil forklare, hvordan du opretter en formular til kunder, der vil i kontakt med en supportmedarbejder.
 keywords: formular, kontakt mig
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -71,7 +71,15 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 ## Typografi
 
-1. Vælg **Typografi** fra venstremenuen for at definere formens udseende. Rediger layoutet, farverne, størrelsen og typografien på formularen. Overvej at involvere dine webdesignkolleger.
+1. Vælg **Typografi** fra venstremenuen for at definere formens udseende.
+
+1. Vælg en skrifttype fra rullemenuen. Denne skrifttype bruges til al tekst i formularen.
+
+1. Juster tekststørrelsen.
+
+1. Brug formateringsknapperne (**B** for fed, **I** for kursiv) til at formatere al tekst i formularen.
+
+1. Rediger layoutet, farverne, størrelsen og andre stilindstillinger efter behov. Overvej at involvere dine webdesignkolleger.
 
 1. Klik på **Anvend ny** for at gemme formularen og fortsætte med at redigere.
 

@@ -3,9 +3,9 @@ uid: help-no-form-create
 title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
 keywords: skjema, webskjema, nettskjema, påmelding
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -115,7 +115,7 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 11. Gjenta trinn 2–10 for å legge til et nytt felt. Du kan også klikke på **Dupliser felt** (<i class="ph ph-copy" aria-hidden="true"></i>) for å opprette en kopi av et felt.
 
-### Stil
+### <a id="style"></a>Stil
 
 Velg **Stil** fra venstremenyen for å definere utseendet til skjemaet. For eksempel, antall kolonner, plassering av feltnavn, kantlinjer, bakgrunn, skriftfarge/størrelse og skjemastørrelse.
 
@@ -123,6 +123,12 @@ Forhåndsvisningen til høyre oppdateres automatisk når du endrer innstillingen
 
 > [!TIP]
 > Du kan legge til en fremdriftsindikator i skjemaet, slik at brukeren kan se hvor mye som gjenstår å fylle ut. Klikk på avmerkingsboksen ved siden av **Fremdriftsindikator**, og velg en farge. Fremdriftsindikatoren vises nederst i skjemaet. Se også [Opprette skjemaer med flere sider](#multi-page).
+
+#### Velg skrifttype
+
+Velg en **skrifttype** fra rullegardinlisten for å bruke den på all tekst i skjemaet. De [tilgjengelige skrifttypene][9] administreres av administratorer i Innstillinger og vedlikehold.
+
+Den valgte skrifttypen gjelder for feltetiketter og alle andre tekstelementer i skjemaet. Du kan også bruke listen for skriftstørrelse og formateringsknappene for å style all tekst.
 
 ### Aktiver dobbel opt-in (valgfritt)
 
@@ -187,6 +193,7 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [3]: define-form-actions.md
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
+[9]: ../admin/manage-fonts.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

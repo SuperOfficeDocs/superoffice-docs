@@ -3,9 +3,9 @@ uid: help-no-forms-contact-me
 title: Veiledning - hvordan opprette et Kontakt meg skjema
 description: Denne veiledningen forklarer hvordan du oppretter et Kontakt meg skjema i SuperOffice Marketing.
 keywords: skjema, kontakt meg
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -71,7 +71,15 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 ## Stil
 
-1. Velg **Stil** fra venstremenyen for å definere utseendet til skjemaet. Redigerer oppsettet, fargene, størrelsen og skrifttypene i skjemaet. Vurder å involvere dine webdesignkolleger.
+1. Velg **Stil** fra venstremenyen for å definere utseendet til skjemaet.
+
+1. Velg en skrifttype fra listen. Denne skrifttypen vil bli brukt for all tekst i skjemaet.
+
+1. Juster tekststørrelsen.
+
+1. Bruk formateringsknappene (**B** for fet, **I** for kursiv) for å style all tekst i skjemaet.
+
+1. Redigerer oppsettet, fargene, størrelsen og skrifttypene i skjemaet. Vurder å involvere dine webdesignkolleger.
 
 1. Klikk **Bruk nå** for å lagre skjemaet og fortsette redigeringen.
 

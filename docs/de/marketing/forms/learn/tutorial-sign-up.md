@@ -3,9 +3,9 @@ uid: help-de-forms-sign-up
 title: Anleitung - Anmeldung zum Newsletter
 description: In dieser Anleitung erstellen wir ein Formular für Kunden, die sich für einen oder mehrere Newsletter anmelden möchten. Der Anmeldeprozess umfasst auch doppeltes Opt-In, um fehlerhafte oder gefälschte Abonnements zu eliminieren.
 keywords: Formulare, Anmeldung, Newsletter
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -68,7 +68,15 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 ## Stil
 
-1. Wählen Sie **Stil** im linken Menü, um das Aussehen und das Gefühl des Formulars zu definieren. Bearbeiten Sie das Layout, die Farben, die Größe und die Schriftarten für das Formular. Erwägen Sie, Ihre Webdesign-Kollegen einzubeziehen.
+1. Wählen Sie **Stil** im linken Menü, um das Aussehen und das Gefühl des Formulars zu definieren.
+
+1. Wählen Sie eine Schriftart aus dem Dropdown-Menü. Diese Schriftart wird für den gesamten Text im Formular verwendet.
+
+1. Passen Sie die Textgröße an.
+
+1. Verwenden Sie die Formatierungsschaltflächen (**B** für fett, **I** für kursiv), um den gesamten Text im Formular zu formatieren.
+
+1. Bearbeiten Sie das Layout, die Farben, die Größe und andere Stileinstellungen nach Bedarf. Erwägen Sie, Ihre Webdesign-Kollegen einzubeziehen.
 
 1. Klicken Sie auf **Aktivieren**, um das Formular zu speichern und die Bearbeitung fortzusetzen.
 

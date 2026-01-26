@@ -3,9 +3,9 @@ uid: help-de-form-create
 title: Ein neues Formular erstellen
 description: In dieser Anleitung lernen Sie, wie Sie ein Web-Formular erstellen können.
 keywords: Formular, Web-Formular, Opt-in
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -115,7 +115,7 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
 11. Wiederholen Sie Schritt 2-10, um weitere Felder hinzuzufügen. Sie können auch auf **Feld duplizieren** (<i class="ph ph-copy" aria-hidden="true"></i>) klicken, um eine Kopie eines Felds zu erstellen.
 
-### Stil
+### <a id="style"></a>Stil
 
 Wählen Sie **Stil** im linken Menü, um das Aussehen und das Gefühl des Formulars zu definieren. Zum Beispiel, die Anzahl der Spalten, die Anordnung von Feldnamen, Rahmen, Hintergrund, Schriftfarbe/-größe und Formulargröße einstellen.
 
@@ -123,6 +123,12 @@ Die Vorschau auf der rechten Seite wird automatisch aktualisiert, wenn Sie Einst
 
 > [!TIP]
 > Sie können eine Fortschrittsleiste zum Formular hinzufügen, damit der Benutzer sehen kann, wie viel noch ausgefüllt werden muss. Klicken Sie auf das Kontrollkästchen neben **Farbe der Fortschrittsleiste** und wählen Sie eine Farbe aus. Die Fortschrittsleiste wird unten auf dem Formular angezeigt. Siehe auch [Mehrseitige Formulare erstellen](#multi-page).
+
+#### Schriftart auswählen
+
+Wählen Sie eine **Schriftart** aus dem Dropdown-Menü aus, um sie auf den gesamten Text im Formular anzuwenden. Die [verfügbaren Schriftarten][9] werden von Administratoren in Einstellungen und Verwaltung verwaltet.
+
+Die gewählte Schriftart gilt für Feldbezeichnungen und alle anderen Textelemente im Formular. Sie können auch das Dropdown-Menü für die Schriftgröße und die Formatierungsschaltflächen verwenden, um den gesamten Text zu gestalten.
 
 ### Doppeltes Opt-in aktivieren
 
@@ -187,6 +193,7 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 [3]: define-form-actions.md
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
+[9]: ../admin/manage-fonts.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

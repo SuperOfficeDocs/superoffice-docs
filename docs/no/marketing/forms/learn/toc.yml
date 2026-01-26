@@ -19,3 +19,5 @@ items:
   href: tutorial-contact-me.md
 - name: Veiledning - Påmelding til nyhetsbrev
   href: tutorial-sign-up.md
+- name: Administrere skrifttyper for skjemaer
+  href: ../admin/manage-fonts.md

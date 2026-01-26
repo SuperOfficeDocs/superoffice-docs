@@ -3,9 +3,9 @@ uid: help-sv-forms-contact-me
 title: Guide - så här skapar du ett Kontakta mig formulär
 description: Denna guide kommer att förklara hur du kan skapa ett Kontakta mig formulär i SuperOffice Marketing
 keywords: formulär, kontakta mig
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -71,7 +71,15 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 ## Stil
 
-1. Välj **Stil** från vänstermenyn för att definiera utseendet. Redigera layouten, färgerna, storleken och typsnitten i formuläret. Överväg att involvera dina webbdesignkollegor.
+1. Välj **Stil** från vänstermenyn för att definiera utseendet.
+
+1. Välj ett typsnitt från rullgardinsmenyn. Detta typsnitt kommer att användas för all text i formuläret.
+
+1. Juster textstorleken.
+
+1. Använd formateringsknapparna (**B** för fet, **I** för kursiv) för att styla all text i formuläret.
+
+1. Redigera layouten, färgerna, storleken och typsnitten i formuläret. Överväg att involvera dina webbdesignkollegor.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 

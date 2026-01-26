@@ -3,9 +3,9 @@ uid: help-da-form-create
 title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
 keywords: formular, webformular
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -115,7 +115,7 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 11. Gentag trin 2-10 for at tilføje et andet felt. Du kan også klikke på **Dubler felt** (<i class="ph ph-copy" aria-hidden="true"></i>) for at oprette en kopi af et felt.
 
-### Stil
+### <a id="style"></a>Stil
 
 Vælg **Stil** fra venstremenuen for at definere formens udseende. For eksempel, antal kolonner, placeringen af feltnavne, kanter, baggrund, skriftfarve/størrelse og formularstørrelse.
 
@@ -123,6 +123,12 @@ Forhåndsvisningen til højre opdateres automatisk, når du ændrer indstillinge
 
 > [!TIP]
 > Du kan føje en statuslinje til formularen, så brugeren kan se, hvor meget der er tilbage at udfylde. Klik på afkrydsningsfeltet ud for **Statuslinjefarve**, og vælg en farve. Statuslinjen vises nederst i formularen. Se også [Oprette formularer med flere sider](#multi-page).
+
+#### Vælg skrifttype
+
+Vælg en **skrifttype** fra rullemenuen for at anvende den på al tekst i formularen. De [tilgængelige skrifttyper][9] administreres af administratorer i Indstillinger og vedligeholdelse.
+
+Den valgte skrifttype gælder for feltetiketter og alle andre tekstelementer i formularen. Du kan også bruge rullemenu for skriftstørrelse og formateringsknapper til at style al tekst.
 
 ### Aktivere dobbelt tilsagn (valgfrit)
 
@@ -187,6 +193,7 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [3]: define-form-actions.md
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
+[9]: ../admin/manage-fonts.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

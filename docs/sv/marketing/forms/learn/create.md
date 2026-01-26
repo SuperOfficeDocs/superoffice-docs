@@ -3,9 +3,9 @@ uid: help-sv-form-create
 title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -115,7 +115,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 11. Upprepa steg 2–10 om du vill lägga till fler fält. Du kan också klicka på **Duplicera fält** (<i class="ph ph-copy" aria-hidden="true"></i>) om du vill skapa en kopia av ett fält.
 
-### Stil
+### <a id="style"></a>Stil
 
 Välj **Stil** från vänstermenyn för att definiera utseendet och känslan av formuläret. Till exempel, antal kolumner, placering av fältnamn, kanter, bakgrund, typsnittsfärg/-storlek och formulärstorlek.
 
@@ -123,6 +123,12 @@ Förhandsgranskningen till höger uppdateras automatiskt när du ändrar någon 
 
 > [!TIP]
 > Du kan lägga till en förloppsindikator i formuläret så att användaren kan se hur mycket det är kvar att fylla i. Klicka på kryssrutan bredvid **Färg på förloppsindikator** och välj en färg. Förloppsindikatorn visas längst ner i formuläret. Se även [Skapa flersidiga formulär](#multi-page).
+
+#### Välj typsnitt
+
+Välj ett **typsnitt** från rullgardinsmenyn för att tillämpa det på all text i formuläret. De [tillgängliga typsnitten][9] hanteras av administratörer i Inställningar och underhåll.
+
+Det valda teckensnittet gäller för fältetiketter och alla andra textelement i formuläret. Du kan också använda rullgardinsmenyn för teckenstorlek och formateringsknapparna för att styla all text.
 
 ### Aktivera dubbel anmälan
 
@@ -187,6 +193,7 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [3]: define-form-actions.md
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
+[9]: ../admin/manage-fonts.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

@@ -19,3 +19,5 @@ items:
   href: tutorial-contact-me.md
 - name: Handleiding - Aanmelden nieuwsbrief
   href: tutorial-sign-up.md
+- name: Lettertypen voor formulieren beheren
+  href: ../admin/manage-fonts.md
