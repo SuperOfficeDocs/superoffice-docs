@@ -78,7 +78,7 @@ Auf der Registerkarte **Schriftarten für Formulare** können Sie jede aktiviert
 * Normal
 * Kursiv
 * Fett
-* Beispieltext: „Konsistente Typografie verbessert die Lesbarkeit und das Vertrauen."
+* Beispieltext: "Konsistente Typografie verbessert die Lesbarkeit und das Vertrauen."
 
 ## Verwandte Inhalte
 
