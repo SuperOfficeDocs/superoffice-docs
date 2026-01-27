@@ -19,3 +19,5 @@ items:
   href: tutorial-contact-me.md
 - name: Vejledning - Tilmelding til nyhedsbrev
   href: tutorial-sign-up.md
+- name: Administrere skrifttyper til formularer
+  href: ../admin/manage-fonts.md

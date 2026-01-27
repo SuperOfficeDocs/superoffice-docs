@@ -3,9 +3,9 @@ uid: help-nl-forms-sign-up
 title: Handleiding - Aanmelden nieuwsbrief
 description: In deze handleiding zullen we een formulier maken voor klanten die zich willen aanmelden voor een of meer nieuwsbrieven. Het aanmeldingsproces zal ook dubbele opt-in bevatten om foutieve of valse aanmeldingen te elimineren.
 keywords: formulier, aanmelden, nieuwsbrief
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -68,7 +68,15 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 ## Stijl
 
-1. Selecteer **Stijl** uit het linkermenu om het uiterlijk en gevoel van het formulier te definiëren. Bewerk de opmaak, kleuren, grootte en lettertypen van het formulier. Overweeg om uw webontwerpcollega's erbij te betrekken.
+1. Selecteer **Stijl** uit het linkermenu om het uiterlijk en gevoel van het formulier te definiëren.
+
+1. Kies een lettertype uit de vervolgkeuzelijst. Dit lettertype wordt gebruikt voor alle tekst in het formulier.
+
+1. Pas de tekstgrootte aan.
+
+1. Gebruik de opmaakknoppen (**B** voor vet, **I** voor cursief) om alle tekst in het formulier op te maken.
+
+1. Bewerk de opmaak, kleuren, grootte en lettertypen van het formulier. Overweeg om uw webontwerpcollega's erbij te betrekken.
 
 1. Klik op **Nu toepassen** om het formulier op te slaan en door te gaan met bewerken.
 

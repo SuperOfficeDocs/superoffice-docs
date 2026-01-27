@@ -3,9 +3,9 @@ uid: help-nl-form-create
 title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
 keywords: formulier, opt-in
-author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -115,7 +115,7 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 11. Herhaal stap 2-10 om een ander veld toe te voegen. U kunt ook klikken op **Veld dupliceren** (<i class="ph ph-copy" aria-hidden="true"></i>) om een kopie van een veld te maken.
 
-### Stijl
+### <a id="style"></a>Stijl
 
 Selecteer **Stijl** uit het linkermenu om het uiterlijk en gevoel van het formulier te definiëren. Bijvoorbeeld, het aantal kolommen, plaatsing van veldnamen, randen, achtergrond, letterkleur/-grootte en formuliergrootte instellen.
 
@@ -123,6 +123,12 @@ Het voorbeeld rechts wordt automatisch bijgewerkt wanneer u instellingen wijzigt
 
 > [!TIP]
 > U kunt een voortgangsbalk aan het formulier toevoegen, zodat de gebruiker kan zien hoeveel er nog moet worden ingevuld. Klik op het selectievakje naast **Kleur van voortgangsbalk** en selecteer een kleur. De voortgangsbalk wordt onder aan het formulier weergegeven. Zie ook [Formulieren met meerdere pagina's maken](#multi-page).
+
+#### Lettertype kiezen
+
+Selecteer een **lettertype** uit de vervolgkeuzelijst om het toe te passen op alle tekst in het formulier. De [beschikbare lettertypen][9] worden beheerd door beheerders in Instellingen en onderhoud.
+
+Het gekozen lettertype is van toepassing op veldlabels en alle andere tekstelementen in het formulier. U kunt ook de vervolgkeuzelijst voor de lettergrootte en de opmaakknoppen gebruiken om alle tekst op te maken.
 
 ### Dubbele opt-in activeren
 
@@ -187,6 +193,7 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [3]: define-form-actions.md
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
+[9]: ../admin/manage-fonts.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

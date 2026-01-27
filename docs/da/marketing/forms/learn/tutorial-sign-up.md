@@ -3,9 +3,9 @@ uid: help-da-forms-sign-up
 title: Sådan oprettes formularer (eksempler)
 description: Denne vejledning vil forklare, hvordan du opretter en formular hvor dine kunder kan tilmelde sig et eller flere nyhedsbreve
 keywords: formular, dobbelt tilmelding, tilmelding, nyhedsbrev
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -68,7 +68,15 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 ## Typografi
 
-1. Vælg **Typografi** fra venstremenuen for at definere formens udseende. Rediger layoutet, farverne, størrelsen og typografien på formularen i kategorien **Typografi**. Overvej at involvere dine webdesignkolleger.
+1. Vælg **Typografi** fra venstremenuen for at definere formens udseende.
+
+1. Vælg en skrifttype fra rullemenuen. Denne skrifttype bruges til al tekst i formularen.
+
+1. Juster tekststørrelsen.
+
+1. Brug formateringsknapperne (**B** for fed, **I** for kursiv) til at formatere al tekst i formularen.
+
+1. Rediger layoutet, farverne, størrelsen og andre stilindstillinger efter behov. Overvej at involvere dine webdesignkolleger.
 
 1. Klik på **Anvend ny** for at gemme formularen og fortsætte med at redigere.
 

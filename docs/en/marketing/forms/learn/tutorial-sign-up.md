@@ -3,9 +3,9 @@ uid: help-en-forms-sign-up
 title: How to create a newsletter sign-up form
 description: This tutorial walks you through how to create a newsletter sign-up form in SuperOffice Marketing.
 keywords: form, double opt-in, sign-up, newsletter
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -68,7 +68,15 @@ The example does not cover every field and option, but you can find comprehensiv
 
 ## Style
 
-1. Select **Style** from the left menu to define the look and feel of the form. Edit the layout, colors, size, and fonts of the form. Consider involving your web design colleagues.
+1. Select **Style** from the left menu to define the look and feel of the form.
+
+1. Choose a font from the dropdown. This font will be used for all text in the form.
+
+1. Adjust the text size.
+
+1. Use the formatting buttons (**B** for bold, **I** for italic) to style all text in the form.
+
+1. Edit the layout, colors, size, and other style settings as needed. Consider involving your web design colleagues.
 
 1. Click **Apply now** to save the form and continue editing.
 

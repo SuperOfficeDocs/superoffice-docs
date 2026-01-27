@@ -3,9 +3,9 @@ uid: help-nl-forms-contact-me
 title: Handleiding - Neem contact met mij op-formulier maken
 description: In dit handleiding laten we zien hoe u een kort formulier kunt maken voor klanten die in contact willen komen met een supportmedewerker. De formulierverzending zal leiden tot een nieuwe aanvraag voor uw supportafdeling.
 keywords: formulier, Neem contact met mij op
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 01.27.2026
+version: 11.9
 content_type: tutorial
 category: marketing
 topic: forms
@@ -71,7 +71,15 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 ## Stijl
 
-1. Selecteer **Stijl** uit het linkermenu om het uiterlijk en gevoel van het formulier te definiëren. Bewerk de opmaak, kleuren, grootte en lettertypen van het formulier. Overweeg om uw webontwerpcollega's erbij te betrekken.
+1. Selecteer **Stijl** uit het linkermenu om het uiterlijk en gevoel van het formulier te definiëren.
+
+1. Kies een lettertype uit de vervolgkeuzelijst. Dit lettertype wordt gebruikt voor alle tekst in het formulier.
+
+1. Pas de tekstgrootte aan.
+
+1. Gebruik de opmaakknoppen (**B** voor vet, **I** voor cursief) om alle tekst in het formulier op te maken.
+
+1. Bewerk de opmaak, kleuren, grootte en lettertypen van het formulier. Overweeg om uw webontwerpcollega's erbij te betrekken.
 
 1. Klik op **Nu toepassen** om het formulier op te slaan en door te gaan met bewerken.
 

@@ -4,8 +4,8 @@ title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
 keywords: form, form template, multi-page
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 01.27.2026
+version: 11.9
 content_type: howto
 category: marketing
 topic: forms
@@ -115,7 +115,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 11. Repeat steps 2-10 to add another field. You can also click **Duplicate field** (<i class="ph ph-copy" aria-hidden="true"></i>) to create a copy of a field.
 
-### Style
+### <a id="style"></a>Style
 
 Select **Style** from the left menu to define the look and feel of the form. For example, set the number of columns, placement of field names, borders, background, font color/size, and form size.
 
@@ -123,6 +123,12 @@ The preview on the right updates automatically when you change any settings. If 
 
 > [!TIP]
 > You can add a progress bar to the form, so the user can see how much is left to fill in. Click the check box next to **Progress bar color**, and select a color. The progress bar is displayed at the bottom of the form. See also [Create multi-page forms](#multi-page).
+
+#### Choose font
+
+Select a **font** from the dropdown to apply it to all text in the form. The [available fonts][9] are managed by administrators in Settings and maintenance.
+
+The chosen font applies to field labels and all other text elements within the form. You can also use the font size dropdown and formatting buttons to style all text.
 
 ### Activate double opt-in (optional)
 
@@ -185,6 +191,7 @@ Here you can [define what happens when someone submits a form response][3].
 [3]: define-form-actions.md
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
+[9]: ../admin/manage-fonts.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

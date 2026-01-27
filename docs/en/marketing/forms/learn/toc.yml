@@ -21,3 +21,5 @@ items:
   href: tutorial-contact-me.md
 - name: Tutorial - Newsletter sign-up
   href: tutorial-sign-up.md
+- name: Manage fonts for forms
+  href: ../admin/manage-fonts.md
