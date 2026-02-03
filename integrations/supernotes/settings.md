@@ -3,8 +3,8 @@ uid: supernotes-settings
 title: Settings
 description: Common questions about Supernotes settings and configuration
 keywords: Supernotes, settings, auto schedule, retention, vocabulary
-author: Brede Kristensen
-date: 12.15.2025
+author: BredeYabo
+date: 02.04.2026
 content_type: reference
 category: integration
 topic: Supernotes
@@ -19,10 +19,10 @@ Find answers to common questions about configuring Supernotes.
 
 This setting controls whether Supernotes automatically joins your meetings:
 
-| Setting  | Behavior                                                                                             |
-| -------- | ---------------------------------------------------------------------------------------------------- |
-| Enabled  | Supernotes automatically joins all meetings. You can exclude individual meetings from the dashboard. |
-| Disabled | Supernotes doesn't automatically join. You manually select which meetings Supernotes should attend.  |
+| Setting | Behavior |
+| --- | --- |
+| Enabled | Supernotes automatically joins all meetings. You can exclude individual meetings from the dashboard. |
+| Disabled | Supernotes doesn't automatically join. You manually select which meetings Supernotes should attend. |
 
 Find this in **Settings** > **Profile**.
 
@@ -42,15 +42,15 @@ In **Settings** > **Profile**, toggle **Auto Schedule** to control the default b
 
 Separately control whether Supernotes joins internal meetings (within your organization).
 
-## What are the recording retention options?
+## <a id="retention-options"></a>What are the recording retention options?
 
 Recording retention controls how long audio/video files are stored:
 
-| Option  | Description                                                   |
-| ------- | ------------------------------------------------------------- |
-| 30 days | Recordings stored for 30 days before automatic deletion.      |
-| 7 days  | Recordings stored for 7 days before automatic deletion.       |
-| 0 days  | Recordings deleted immediately after transcription processing.|
+| Option | Description |
+| --- | --- |
+| 30 days | Recordings stored for 30 days before automatic deletion. |
+| 7 days | Recordings stored for 7 days before automatic deletion. |
+| 0 days | Recordings deleted immediately after transcription processing. |
 
 > [!NOTE]
 > Text transcriptions are stored as long as your account exists, regardless of this setting.
@@ -59,10 +59,10 @@ Recording retention controls how long audio/video files are stored:
 
 The "Meeting Summary Email Preference" setting controls how summaries are distributed:
 
-| Option                         | Description                                                      |
-| ------------------------------ | ---------------------------------------------------------------- |
+| Option | Description |
+| --- | --- |
 | Send to all internal attendees | All internal participants receive email summaries automatically. |
-| Save only in Supernotes        | Summaries are stored in Supernotes but not automatically emailed.|
+| Save only in Supernotes | Summaries are stored in Supernotes but not automatically emailed. |
 
 You can always manually share summaries using the shareable link feature.
 
@@ -78,16 +78,16 @@ Custom vocabulary helps improve transcription accuracy for organization-specific
 ### To add custom vocabulary
 
 1. Go to **Settings** > **Custom Vocabulary**.
-2. Add your organization-specific terms.
-3. Supernotes will prioritize these spellings during transcription.
+1. Add your organization-specific terms.
+1. Supernotes will prioritize these spellings during transcription.
 
 ## How do I set my default meeting type?
 
 The default meeting type determines the template used for generating summaries:
 
 1. Go to **Settings** > **Profile**.
-2. Find **Default Meeting Type**.
-3. Select from available templates.
+1. Find **Default Meeting Type**.
+1. Select from available templates.
 
 ### Available types
 
@@ -98,11 +98,11 @@ The default meeting type determines the template used for generating summaries:
 
 ## Related content
 
-* [Getting started][getting-started] - Setup and basic usage
-* [Summaries][summaries] - Meeting summaries and sharing
-* [Privacy and security][privacy-security] - Data handling and security
+* [Getting started][1] - Setup and basic usage
+* [Summaries][2] - Meeting summaries and sharing
+* [Privacy and security][3] - Data handling and security
 
 <!-- Referenced links -->
-[getting-started]: getting-started.md
-[summaries]: summaries.md
-[privacy-security]: privacy-security.md
+[1]: getting-started.md
+[2]: summaries.md
+[3]: privacy-security.md

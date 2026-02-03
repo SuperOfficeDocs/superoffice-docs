@@ -3,8 +3,8 @@ uid: supernotes-before-meeting
 title: Before meeting
 description: Common questions about pre-meeting features in Supernotes
 keywords: Supernotes, meetings, preparation, emails, briefings
-author: Brede Kristensen
-date: 12.15.2025
+author: BredeYabo
+date: 02.04.2026
 content_type: reference
 category: integration
 topic: Supernotes
@@ -24,7 +24,7 @@ Pre-meeting research emails are AI-powered briefings sent 5-10 minutes before yo
 * Meetings with external attendees (people outside your organization).
 * When participants have discoverable professional profiles.
 * Non-private meetings (meetings marked as private/sensitive are skipped).
-* Not internal meetings (colleague-only meetings are skipped).
+* External meetings (colleague-only meetings are skipped).
 
 ### Email contents
 
@@ -51,8 +51,8 @@ For recurring meetings, Supernotes can send you the summary from the previous me
 ### How it works
 
 1. Supernotes automatically detects recurring meetings from your calendar.
-2. It finds the most recent summary from the same meeting series.
-3. The summary is emailed to you before the next meeting.
+1. It finds the most recent summary from the same meeting series.
+1. The summary is emailed to you before the next meeting.
 
 ### Requirements
 
@@ -70,19 +70,19 @@ For recurring meetings, Supernotes can send you the summary from the previous me
 > [!NOTE]
 > This feature uses the same "Pre-meeting Briefing" setting as pre-meeting research emails. Both are enabled together in **Settings** > **Profile**.
 
-## How do I enable the note taker for a specific meeting?
+## <a id="enable-for-selected-meeting"></a>How do I enable the note taker for a specific meeting?
 
 There are multiple ways to enable Supernotes to join a specific meeting:
 
 ### From the calendar (recommended)
 
 1. Go to the **Home** page in Supernotes.
-2. Find your meeting in the calendar on the left side.
-3. Click the toggle switch next to the meeting to enable the note taker.
+1. Find your meeting in the calendar on the left side.
+1. Click the toggle switch next to the meeting to enable the note taker.
 
 ### Manual join
 
-See [How do I manually send Supernotes to a meeting?](getting-started.md#how-do-i-manually-send-supernotes-to-a-meeting)
+See [How do I manually send Supernotes to a meeting?][4]
 
 ### Auto schedule setting
 
@@ -90,11 +90,12 @@ Enable **Auto Schedule** in **Settings** > **Profile** to have Supernotes automa
 
 ## Related content
 
-* [Getting started][getting-started] - Setup and basic usage
-* [Summaries][summaries] - Meeting summaries and sharing
-* [Settings][settings] - Configuration options
+* [Getting started][1] - Setup and basic usage
+* [Summaries][2] - Meeting summaries and sharing
+* [Settings][3] - Configuration options
 
 <!-- Referenced links -->
-[getting-started]: getting-started.md
-[summaries]: summaries.md
-[settings]: settings.md
+[1]: getting-started.md
+[2]: summaries.md
+[3]: settings.md
+[4]: getting-started.md#send-manually

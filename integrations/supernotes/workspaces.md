@@ -2,9 +2,9 @@
 uid: supernotes-workspaces
 title: Workspaces
 description: Common questions about workspaces in Supernotes
-keywords: Supernotes, workspaces, teams, collaboration, sharing
-author: Brede Kristensen
-date: 12.15.2025
+keywords: Supernotes, workspace, team, collaboration, sharing
+author: BredeYabo
+date: 02.04.2026
 content_type: reference
 category: integration
 topic: Supernotes
@@ -57,9 +57,9 @@ Supernotes automatically detects workspaces based on your email domain. If you s
 If domain-based access is disabled, you'll need an invitation:
 
 1. Your admin sends an invite to your email.
-2. You receive an email with a join link.
-3. Click the link and complete signup.
-4. You're automatically added to the workspace.
+1. You receive an email with a join link.
+1. Click the link and complete sign-up.
+1. You're automatically added to the workspace.
 
 > [!TIP]
 > If you see multiple workspace options (common for large organizations), choose the one that matches your actual team or department.
@@ -75,9 +75,9 @@ Create a new workspace when:
 ### Creation process
 
 1. During onboarding, select **Create new workspace**.
-2. Enter your workspace name (usually your company name).
-3. Configure initial settings like domain-based access and workspace branding.
-4. Complete your personal setup (calendar connection, etc.).
+1. Enter your workspace name (usually your company name).
+1. Configure initial settings like domain-based access and workspace branding.
+1. Complete your personal setup (calendar connection, and so on).
 
 When you create a workspace, you automatically become its administrator with full control over member management, workspace settings, and access policies.
 
@@ -94,9 +94,9 @@ As a workspace administrator, you can:
 ### To invite members
 
 1. Go to **Settings** > **Workspace**.
-2. Click **Invite Members**.
-3. Enter email addresses of people to invite.
-4. Click **Send Invite**.
+1. Click **Invite Members**.
+1. Enter email addresses of people to invite.
+1. Click **Send Invite**.
 
 > [!TIP]
 > For large teams, a bulk invite feature (CSV/Excel upload) is available for adding many users at once.
@@ -148,9 +148,9 @@ If multiple assistants are joining your meeting, the participants aren't in the 
 ### To fix this
 
 1. Identify who has Supernotes but isn't in your workspace.
-2. Have your admin invite them to the workspace.
-3. They need to accept the invitation and join the shared workspace.
-4. Future meetings will only have one assistant.
+1. Have your admin invite them to the workspace.
+1. They need to accept the invitation and join the shared workspace.
+1. Future meetings will only have one assistant.
 
 ### To prevent this issue
 
@@ -160,11 +160,11 @@ If multiple assistants are joining your meeting, the participants aren't in the 
 
 ## Related content
 
-* [Getting started][getting-started] - Setup and basic usage
-* [Teams][teams] - Organizing workspace members into teams
-* [Privacy and security][privacy-security] - Data handling and security
+* [Getting started][1] - Setup and basic usage
+* [Teams][2] - Organizing workspace members into teams
+* [Privacy and security][3] - Data handling and security
 
 <!-- Referenced links -->
-[getting-started]: getting-started.md
-[teams]: teams.md
-[privacy-security]: privacy-security.md
+[1]: getting-started.md
+[2]: teams.md
+[3]: privacy-security.md
