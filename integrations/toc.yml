@@ -13,6 +13,9 @@ items:
 - name: SharePoint documents
   href: sharepoint-documents/toc.yml
   topicHref: sharepoint-documents/index.md
+- name: Supernotes
+  href: supernotes/toc.yml
+  topicHref: supernotes/index.md
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/toc.yml
   topicHref: superoffice-for-outlook/index.md

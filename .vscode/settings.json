@@ -3,7 +3,7 @@
         "./blueprint-templates",
         "~/templates/superoffice/blueprint"
     ],
-    
+
     "cSpell.words": [
         "Archivepath",
         "Bergfrid",
@@ -23,6 +23,7 @@
         "soap",
         "SoSession",
         "superoffice",
+        "Supernotes",
         "Visma",
         "Watchcom",
         "web form",
