@@ -181,7 +181,7 @@ Implementation of the provider for the combined selection
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -819,7 +819,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=projectAssociate/ejUserId,saintAmountClass,sale/saleNumber,document/mailMergeDraft,projectMember/mrMrs
+GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=LastDoBySale,sale/saleUdef/SuperOffice:2,document/associate/contactName,projectMember/isMailingRecipient,projectMember/streetAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

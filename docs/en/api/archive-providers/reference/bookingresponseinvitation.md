@@ -658,7 +658,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -753,7 +753,7 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 ## Sample
 
 ```http!
-GET /api/v1/archive/BookingResponseInvitation?$select=updatedDate,contact/postAddress/zip,contact/contactAssociate/isActive,person/personPager/formattedNumber,project/imageThumbnail
+GET /api/v1/archive/BookingResponseInvitation?$select=contact/email/emailLastBounce,contact/contactUdef/SuperOffice:9,person/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | projectEntityId | int32 | **Required** The identity of the ProjectEntity |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEntity?projectEntityId=888
+POST /api/v1/Agents/Project/DeleteProjectEntity?projectEntityId=505
 ```
 
 

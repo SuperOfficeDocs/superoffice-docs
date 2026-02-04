@@ -30,7 +30,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=et
+GET /api/v1/Contact/Duplicates/{name}?department=quo
 ```
 
 

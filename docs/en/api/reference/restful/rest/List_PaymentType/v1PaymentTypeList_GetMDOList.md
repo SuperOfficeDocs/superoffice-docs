@@ -28,7 +28,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=quia
+GET /api/v1/List/PaymentType/MDOItems?query=omnis
 ```
 
 

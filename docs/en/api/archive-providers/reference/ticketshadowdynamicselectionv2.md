@@ -633,7 +633,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -794,7 +794,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=createdBy/assocType,person/rank,person/personUrl/URLDescription,person/personAssociate/lastName,person/correspondingAssociate/otherGroups
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=createdBy/isActive,person/leadStatus,person/createdByForm,person/personAddress/line1,person/personAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

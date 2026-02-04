@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | productId | int32 | **Required** The identity of the Product |
 
 ```http
-POST /api/v1/Agents/Quote/DeleteProduct?productId=127
+POST /api/v1/Agents/Quote/DeleteProduct?productId=600
 ```
 
 

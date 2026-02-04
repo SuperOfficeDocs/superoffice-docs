@@ -651,7 +651,7 @@ Shadow contact provider for the appointment provider.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -756,7 +756,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelection?$select=appointmentId,contact/email/emailProtocol,contact/restrictionAddress/formattedAddress,contact/contactInterestIds,contact/NumberOfNotCompletedTickets
+GET /api/v1/archive/AppointmentShadowSelection?$select=endDate,contact/contactAssociate/isLocation,contact/contactUdef/SuperOffice:7,project/LastCompletedActivity,sale/associate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

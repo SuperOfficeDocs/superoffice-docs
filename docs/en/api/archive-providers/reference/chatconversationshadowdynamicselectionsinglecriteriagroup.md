@@ -494,7 +494,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=contact/registeredDate,person/personAddress/formattedMultiLineAddress,person/personAssociate/portraitThumbnail
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=agent,person/restrictionAddress/formattedAddress,person/personUdef/SuperOffice:10,contact/orgnr,contact/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

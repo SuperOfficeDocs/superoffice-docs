@@ -28,7 +28,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=impedit
+GET /api/v1/List/Category/MDOItems?query=consectetur
 ```
 
 

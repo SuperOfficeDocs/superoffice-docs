@@ -499,7 +499,7 @@ Shadow contact provider for the ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=person/personBusiness,person/restrictionAddress/line1,person/personAssociate/userName
+GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=person/personDirectPhone/description,person/personExtra/x_person_boolean,person/restrictionAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

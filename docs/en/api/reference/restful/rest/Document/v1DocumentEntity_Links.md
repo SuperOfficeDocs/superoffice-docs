@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=exercitationem
-GET /api/v1/Document/{id}/Links?$top=95
-GET /api/v1/Document/{id}/Links?$skip=165
+GET /api/v1/Document/{id}/Links?$entities=incidunt
+GET /api/v1/Document/{id}/Links?$top=684
+GET /api/v1/Document/{id}/Links?$skip=219
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=minima
+GET /api/v1/Document/{id}/Links?$context=alias
 GET /api/v1/Document/{id}/Links?$format=JSON
-GET /api/v1/Document/{id}/Links?$jsonSafe=False
+GET /api/v1/Document/{id}/Links?$jsonSafe=True
 GET /api/v1/Document/{id}/Links?$output=Display
 ```
 

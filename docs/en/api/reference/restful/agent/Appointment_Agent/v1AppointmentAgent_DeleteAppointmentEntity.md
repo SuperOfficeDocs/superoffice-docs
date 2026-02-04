@@ -28,7 +28,7 @@ NsApiSlow threshold: 2000 ms.
 | appointmentEntityId | int32 | **Required** The identity of the AppointmentEntity |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=237
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=753
 ```
 
 

@@ -77,7 +77,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |visibleFor|listAny|Visible for|  |
@@ -136,7 +136,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=projectId,stageName,createdByWorkflow
+GET /api/v1/archive/salefavourites?$select=stageName,createdByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

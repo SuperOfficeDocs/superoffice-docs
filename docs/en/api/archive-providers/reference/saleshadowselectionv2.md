@@ -79,7 +79,7 @@ Shadow contact provider for the sale provider.
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1346,7 +1346,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=person/email/emailDescription,person/personUdef/SuperOffice:9,contact/contactAssociate/fullName,contact/contactAssociate/ejStatus,contact/saintSaleStatus
+GET /api/v1/archive/SaleShadowSelectionV2?$select=person/updatedByWorkflow,contact/contactUdef/SuperOffice:4,contact/contactUdef/SuperOffice:12,contact/contactExtra/x_contact_datetime,contact/saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

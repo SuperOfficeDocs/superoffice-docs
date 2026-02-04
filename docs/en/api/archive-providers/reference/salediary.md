@@ -79,7 +79,7 @@ Sale archive provider for the Diary card
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1154,7 +1154,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/personRegisteredDate,person/personActiveErpLinks,person/personExtra/x_person_boolean,contact/contactExtra/y_organization/x_name,contact/saintDirection
+GET /api/v1/archive/SaleDiary?$select=person/email/emailBounceCount,person/consentSourceEmarketing,contact/updatedByFullName,contact/contactSource,contact/contactAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

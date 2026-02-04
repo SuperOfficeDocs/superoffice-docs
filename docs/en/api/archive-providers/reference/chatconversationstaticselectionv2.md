@@ -497,7 +497,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=associate/userName,person/personPrivate/formattedNumber,contact/contactAssociate/simultaneousEjUser,contact/SaintStatus2,contact/saintActivityType
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=person/email/emailId,person/email/emailHasBounced,person/correspondingAssociate/usergroup,person/correspondingAssociate/portraitThumbnail,contact/contactAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

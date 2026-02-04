@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | dashThemeId | int32 | **Required** The identity of the DashTheme |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=975
+POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=388
 ```
 
 

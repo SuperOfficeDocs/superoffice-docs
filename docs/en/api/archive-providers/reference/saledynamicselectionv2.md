@@ -81,7 +81,7 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1343,7 +1343,7 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionV2?$select=lossReason,person/personCategoryGroup,person/personPager/description,person/personAssociate/contactId,contact/postAddress/wgs84latitude
+GET /api/v1/archive/SaleDynamicSelectionV2?$select=saleTypeCategory,person/retired,contact/postAddress/zip,contact/saintIntention,appointment/priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

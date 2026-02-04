@@ -79,7 +79,7 @@ Static archive Provider for the Selection sale archive.
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1346,7 +1346,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelectionV2?$select=person/personUpdatedDate,person/subscription,contact/registeredDate,contact/postAddress/formattedAddress,contact/contactAssociate/associateDbId
+GET /api/v1/archive/SaleStaticSelectionV2?$select=contact/contactUdef/SuperOffice:6,associate/associateDbId,appointment/associate/mrMrs,appointment/associate/personEmail,document/associate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

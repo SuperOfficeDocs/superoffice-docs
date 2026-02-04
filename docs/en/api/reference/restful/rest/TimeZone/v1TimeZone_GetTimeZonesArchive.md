@@ -40,12 +40,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=deleniti
-GET /api/v1/TimeZone?$top=694
-GET /api/v1/TimeZone?$skip=962
+GET /api/v1/TimeZone?$entities=nesciunt
+GET /api/v1/TimeZone?$top=311
+GET /api/v1/TimeZone?$skip=724
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=vel
+GET /api/v1/TimeZone?$context=veniam
 GET /api/v1/TimeZone?$format=JSON
 ```
 

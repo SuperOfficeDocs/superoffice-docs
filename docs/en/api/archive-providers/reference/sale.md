@@ -80,7 +80,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1155,7 +1155,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=daysInStage,person/correspondingAssociate/associateDbId,contact/email/emailDescription,contact/restrictionAddress/addressId,project/projectAssociate/lastName
+GET /api/v1/archive/Sale?$select=stage,person/email/emailAddress,contact/contactUdef/SuperOffice:2,contact/contactExtra/x_contact_integer,associate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

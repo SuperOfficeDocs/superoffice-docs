@@ -903,7 +903,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=lossReason,salePublish/publishedBy,streetAddress/addressId,personAssociate/simultaneousEjUser,correspondingAssociate/ejStatus
+GET /api/v1/archive/Favourites?$select=searchPhone/description,legalBaseEmarketing,endDate,ownedBy/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

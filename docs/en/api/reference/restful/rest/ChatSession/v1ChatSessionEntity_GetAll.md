@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=consequatur
-GET /api/v1/ChatSession?$top=768
-GET /api/v1/ChatSession?$skip=536
+GET /api/v1/ChatSession?$entities=quia
+GET /api/v1/ChatSession?$top=243
+GET /api/v1/ChatSession?$skip=30
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=odit
+GET /api/v1/ChatSession?$context=eum
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=True
 GET /api/v1/ChatSession?$output=Display

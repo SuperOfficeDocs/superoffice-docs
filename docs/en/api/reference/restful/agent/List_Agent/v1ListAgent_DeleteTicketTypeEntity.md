@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | ticketTypeEntityId | int32 | **Required** The identity of the TicketTypeEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketTypeEntity?ticketTypeEntityId=67
+POST /api/v1/Agents/List/DeleteTicketTypeEntity?ticketTypeEntityId=929
 ```
 
 

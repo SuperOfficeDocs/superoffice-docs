@@ -30,7 +30,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=637
+GET /api/v1/Contact/{contactId}/Summary?limit=513
 ```
 
 

@@ -32,7 +32,7 @@ Get a url to the document template
 
 ```http
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=quos
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=rem
 ```
 
 

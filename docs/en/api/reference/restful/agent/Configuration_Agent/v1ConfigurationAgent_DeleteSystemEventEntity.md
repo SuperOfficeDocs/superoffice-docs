@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | systemEventEntityId | int32 | **Required** The identity of the SystemEventEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=200
+POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=942
 ```
 
 

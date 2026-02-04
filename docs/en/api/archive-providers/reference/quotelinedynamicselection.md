@@ -178,7 +178,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -774,7 +774,7 @@ Quoteline selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelection?$select=alternative/version/number,alternative/version/quote/sale/person/personAssociate/isActive,alternative/version/quote/sale/contact/contactDeleted,alternative/version/quote/sale/contact/phone/formattedNumber,alternative/version/quote/sale/contact/streetAddress/formattedMultiLineAddress
+GET /api/v1/archive/QuoteLineDynamicSelection?$select=rowKind,alternative/version/quote/sale/person/personAddress/formattedMultiLineAddress,alternative/version/quote/sale/person/personExtra/y_car/id,alternative/version/quote/sale/contact/forceCompany,alternative/version/quote/sale/project/projectUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

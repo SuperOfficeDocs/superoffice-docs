@@ -75,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=quaerat
-GET /api/v1/Contact/{id}/Sales?$top=583
-GET /api/v1/Contact/{id}/Sales?$skip=776
+GET /api/v1/Contact/{id}/Sales?$entities=beatae
+GET /api/v1/Contact/{id}/Sales?$top=715
+GET /api/v1/Contact/{id}/Sales?$skip=213
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=sequi
+GET /api/v1/Contact/{id}/Sales?$context=doloremque
 GET /api/v1/Contact/{id}/Sales?$format=JSON
 GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
 GET /api/v1/Contact/{id}/Sales?$output=Display

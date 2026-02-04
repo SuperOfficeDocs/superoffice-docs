@@ -669,7 +669,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/nameDepartment,mailingAddr/contact/contactAssociate/credentialType,mailingAddr/person/personAssociate/userName,emailFlow/workflowAssociate/credentialDisplayValue
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/email/emailHasBounced,mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod,mailingAddr/person/birthYear,mailingAddr/person/hasStoreConsent,associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -79,7 +79,7 @@ Implementation of the provider for the combined selection
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1346,7 +1346,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionCombinedV2?$select=person/personRegisteredByFullName,person/personCategoryGroup,contact/contactUdef/SuperOffice:2,contact/contactExtra/x_contact_integer,associate/role
+GET /api/v1/archive/SaleShadowSelectionCombinedV2?$select=userGroup,saleType,person/personAddress/formattedAddress,person/personUdef/SuperOffice:9,person/personAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

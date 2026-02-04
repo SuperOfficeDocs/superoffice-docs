@@ -28,7 +28,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=repellendus
+GET /api/v1/List/LegalBase/MDOItems?query=expedita
 ```
 
 

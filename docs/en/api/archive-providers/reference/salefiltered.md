@@ -79,7 +79,7 @@ Sale archive provider for the Contact/Project card
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1154,7 +1154,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=projectId,person/personAssociate/portraitThumbnail,contact/saintTicketCategory,saleStakeholder/person/personRegisteredBy,saleStakeholder/contact/updatedBy
+GET /api/v1/archive/SaleFiltered?$select=person/personAssociate/contactCategory,contact/saintTicketCategory,saleStakeholder/person/personExtra/y_rental/x_start,saleStakeholder/contact/contactExtra/x_contact_request_relation,saleStakeholder/contact/NumberOfNotCompletedTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

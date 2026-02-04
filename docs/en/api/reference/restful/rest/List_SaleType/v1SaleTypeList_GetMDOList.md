@@ -27,8 +27,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=qui
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=vel
 ```
 
 

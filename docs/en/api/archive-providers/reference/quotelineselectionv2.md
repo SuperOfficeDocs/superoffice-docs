@@ -183,7 +183,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -779,7 +779,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/quote/connectionId,alternative/version/quote/sale/personId,alternative/version/quote/sale/earning,alternative/version/quote/sale/person/personUdef/SuperOffice:9,alternative/version/quote/sale/person/personAssociate/firstName
+GET /api/v1/archive/QuoteLineSelectionV2?$select=alternative/version/quote/sale/person/mrMrs,alternative/version/quote/sale/person/correspondingAssociate/contactCategory,alternative/version/quote/sale/contact/categoryGroup,alternative/version/quote/sale/contact/contactAssociate/firstName,alternative/version/quote/sale/associate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

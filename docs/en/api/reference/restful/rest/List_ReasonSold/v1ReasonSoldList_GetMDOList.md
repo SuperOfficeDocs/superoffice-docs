@@ -27,8 +27,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=True
-GET /api/v1/List/ReasonSold/MDOItems?query=molestiae
+GET /api/v1/List/ReasonSold/MDOItems?flat=False
+GET /api/v1/List/ReasonSold/MDOItems?query=et
 ```
 
 

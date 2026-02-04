@@ -183,7 +183,7 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -779,7 +779,7 @@ Shadow contact provider for the quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionV2?$select=alternative/version/quote/sale/person/phone/formattedNumber,alternative/version/quote/sale/person/personExtra/x_person_priority_relation,alternative/version/quote/sale/contact/contactExtra/x_contact_time,alternative/version/quote/sale/contact/LastSale,alternative/version/quote/sale/contact/SaintStatus2
+GET /api/v1/archive/QuoteLineShadowSelectionV2?$select=discountAmount,alternative/version/state,alternative/version/quote/sale/heading,alternative/version/quote/sale/person/kanaFirstName,alternative/version/quote/sale/person/isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
