@@ -1,0 +1,806 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.DatePart
+  commentId: T:SuperOffice.Data.SQL.DatePart
+  id: DatePart
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.DatePart.Day
+  - SuperOffice.Data.SQL.DatePart.Hour
+  - SuperOffice.Data.SQL.DatePart.Minute
+  - SuperOffice.Data.SQL.DatePart.Month
+  - SuperOffice.Data.SQL.DatePart.Quarter
+  - SuperOffice.Data.SQL.DatePart.Second
+  - SuperOffice.Data.SQL.DatePart.Year
+  langs:
+  - csharp
+  - vb
+  name: DatePart
+  nameWithType: DatePart
+  fullName: SuperOffice.Data.SQL.DatePart
+  type: Enum
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public enum DatePart
+    content.vb: Public Enum DatePart
+  extensionMethods:
+  - SuperOffice.Data.SQL.DatePart.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.DatePart.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.SQL.DatePart.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.DatePart)
+  - SuperOffice.Data.SQL.DatePart.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.String,System.Threading.CancellationToken)
+- uid: SuperOffice.Data.SQL.DatePart.Year
+  commentId: F:SuperOffice.Data.SQL.DatePart.Year
+  id: Year
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: DatePart.Year
+  fullName: SuperOffice.Data.SQL.DatePart.Year
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Year = 0
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DatePart.Quarter
+  commentId: F:SuperOffice.Data.SQL.DatePart.Quarter
+  id: Quarter
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Quarter
+  nameWithType: DatePart.Quarter
+  fullName: SuperOffice.Data.SQL.DatePart.Quarter
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Quarter = 1
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DatePart.Month
+  commentId: F:SuperOffice.Data.SQL.DatePart.Month
+  id: Month
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: DatePart.Month
+  fullName: SuperOffice.Data.SQL.DatePart.Month
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Month = 2
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DatePart.Day
+  commentId: F:SuperOffice.Data.SQL.DatePart.Day
+  id: Day
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: DatePart.Day
+  fullName: SuperOffice.Data.SQL.DatePart.Day
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Day = 3
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DatePart.Hour
+  commentId: F:SuperOffice.Data.SQL.DatePart.Hour
+  id: Hour
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Hour
+  nameWithType: DatePart.Hour
+  fullName: SuperOffice.Data.SQL.DatePart.Hour
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Hour = 4
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DatePart.Minute
+  commentId: F:SuperOffice.Data.SQL.DatePart.Minute
+  id: Minute
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Minute
+  nameWithType: DatePart.Minute
+  fullName: SuperOffice.Data.SQL.DatePart.Minute
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Minute = 5
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DatePart.Second
+  commentId: F:SuperOffice.Data.SQL.DatePart.Second
+  id: Second
+  parent: SuperOffice.Data.SQL.DatePart
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: DatePart.Second
+  fullName: SuperOffice.Data.SQL.DatePart.Second
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: Second = 6
+    return:
+      type: SuperOffice.Data.SQL.DatePart
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: SuperOffice.Data.SQL.DatePart.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<DatePart, To>(DatePart)
+  nameWithType: EnumUtil.MapEnums<DatePart, To>(DatePart)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.DatePart, To>(SuperOffice.Data.SQL.DatePart)
+  nameWithType.vb: EnumUtil.MapEnums(Of DatePart, To)(DatePart)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.DatePart, To)(SuperOffice.Data.SQL.DatePart)
+  name.vb: MapEnums(Of DatePart, To)(DatePart)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.DatePart)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.DatePart)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+- uid: SuperOffice.Data.SQL.DatePart.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<DatePart, To>(DatePart)
+  nameWithType: Converters.MapEnums<DatePart, To>(DatePart)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.DatePart, To>(SuperOffice.Data.SQL.DatePart)
+  nameWithType.vb: Converters.MapEnums(Of DatePart, To)(DatePart)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.DatePart, To)(SuperOffice.Data.SQL.DatePart)
+  name.vb: MapEnums(Of DatePart, To)(DatePart)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.DatePart)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.DatePart)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+- uid: SuperOffice.Data.SQL.DatePart.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.DatePart)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<DatePart>(DatePart, DatePart)
+  nameWithType: ObjectExtensions.AssignByReflection<DatePart>(DatePart, DatePart)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.DatePart>(SuperOffice.Data.SQL.DatePart, SuperOffice.Data.SQL.DatePart)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DatePart)(DatePart, DatePart)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.DatePart)(SuperOffice.Data.SQL.DatePart, SuperOffice.Data.SQL.DatePart)
+  name.vb: AssignByReflection(Of DatePart)(DatePart, DatePart)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.DatePart)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.DatePart)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+- uid: SuperOffice.Data.SQL.DatePart.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<DatePart>(DatePart)
+  nameWithType: ObjectExtensions.GraphCopy<DatePart>(DatePart)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.DatePart>(SuperOffice.Data.SQL.DatePart)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DatePart)(DatePart)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.DatePart)(SuperOffice.Data.SQL.DatePart)
+  name.vb: GraphCopy(Of DatePart)(DatePart)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.DatePart)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.DatePart)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DatePart.html
+  - name: )
+- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.RegistryExtensions
+  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  name: GetRegistryRowAsync(Enum, string, CancellationToken)
+  nameWithType: RegistryExtensions.GetRegistryRowAsync(Enum, string, CancellationToken)
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, string, System.Threading.CancellationToken)
+  nameWithType.vb: RegistryExtensions.GetRegistryRowAsync(Enum, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, String, System.Threading.CancellationToken)
+  name.vb: GetRegistryRowAsync(Enum, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  name: GetRegistryRowAsync(Enum, string, CancellationToken)
+  nameWithType: RegistryExtensions.GetRegistryRowAsync(Enum, string, CancellationToken)
+  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, string, System.Threading.CancellationToken)
+  nameWithType.vb: RegistryExtensions.GetRegistryRowAsync(Enum, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum, String, System.Threading.CancellationToken)
+  name.vb: GetRegistryRowAsync(Enum, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRowAsync(System.Enum,System.String,System.Threading.CancellationToken)
+    name: GetRegistryRowAsync
+    isExternal: true
+    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRowAsync_System_Enum_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.RegistryExtensions
+  commentId: T:SuperOffice.CRM.RegistryExtensions
+  parent: SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.CRM.RegistryExtensions.html
+  name: RegistryExtensions
+  nameWithType: RegistryExtensions
+  fullName: SuperOffice.CRM.RegistryExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: SuperOffice.Data.SQL.DatePart
+  commentId: T:SuperOffice.Data.SQL.DatePart
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DatePart.html
+  name: DatePart
+  nameWithType: DatePart
+  fullName: SuperOffice.Data.SQL.DatePart

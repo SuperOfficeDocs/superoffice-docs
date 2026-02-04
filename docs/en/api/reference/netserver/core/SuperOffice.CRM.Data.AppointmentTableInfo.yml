@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.EmailId
   - SuperOffice.CRM.Data.AppointmentTableInfo.EmailId_InnerJoin_Email
   - SuperOffice.CRM.Data.AppointmentTableInfo.EndDate
+  - SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants
   - SuperOffice.CRM.Data.AppointmentTableInfo.FreeBusy
   - SuperOffice.CRM.Data.AppointmentTableInfo.GroupIdx
   - SuperOffice.CRM.Data.AppointmentTableInfo.GroupIdx_InnerJoin_UserGroup
@@ -2935,6 +2936,32 @@ items:
       type: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
     content.vb: Public ReadOnly Property OwnedExternally As AppointmentExternalOwnerFieldInfo
   overload: SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally*
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants
+  id: ExternalParticipants
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternalParticipants
+  nameWithType: AppointmentTableInfo.ExternalParticipants
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'external_participants' in table 'appointment': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Holds external participant information in JSON format.
+  example: []
+  syntax:
+    content: public StringFieldInfo ExternalParticipants { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ExternalParticipants As StringFieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants*
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact
   id: ContactId_InnerJoin_Contact
@@ -5546,6 +5573,13 @@ references:
   name: AppointmentExternalOwnerFieldInfo
   nameWithType: AppointmentExternalOwnerFieldInfo
   fullName: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants
+  isExternal: true
+  href: SuperOffice.CRM.Data.AppointmentTableInfo.html#SuperOffice_CRM_Data_AppointmentTableInfo_ExternalParticipants
+  name: ExternalParticipants
+  nameWithType: AppointmentTableInfo.ExternalParticipants
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.ExternalParticipants
 - uid: SuperOffice.CRM.Data.ContactTableInfo
   commentId: T:SuperOffice.CRM.Data.ContactTableInfo
   parent: SuperOffice.CRM.Data

@@ -22,7 +22,6 @@ items:
   - SuperOffice.CRM.Workflow.IWorkflowUtil.NextStepIdAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddPersonsToWorkFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -547,34 +546,6 @@ items:
   nameWithType.vb: IWorkflowUtil.TryAddToSelectionAsync(Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.TryAddToSelectionAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: TryAddToSelectionAsync(Integer, Integer, Integer, CancellationToken)
-- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
-  id: VerifySmtpSetupAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Workflow.IWorkflowUtil
-  langs:
-  - csharp
-  - vb
-  name: VerifySmtpSetupAsync(int, CancellationToken)
-  nameWithType: IWorkflowUtil.VerifySmtpSetupAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.Workflow
-  syntax:
-    content: Task VerifySmtpSetupAsync(int shipmentId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: shipmentId
-      type: System.Int32
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function VerifySmtpSetupAsync(shipmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync*
-  nameWithType.vb: IWorkflowUtil.VerifySmtpSetupAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync(Integer, System.Threading.CancellationToken)
-  name.vb: VerifySmtpSetupAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Workflow
   commentId: N:SuperOffice.CRM.Workflow
@@ -1687,10 +1658,3 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync*
-  commentId: Overload:SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync
-  isExternal: true
-  href: SuperOffice.CRM.Workflow.IWorkflowUtil.html#SuperOffice_CRM_Workflow_IWorkflowUtil_VerifySmtpSetupAsync_System_Int32_System_Threading_CancellationToken_
-  name: VerifySmtpSetupAsync
-  nameWithType: IWorkflowUtil.VerifySmtpSetupAsync
-  fullName: SuperOffice.CRM.Workflow.IWorkflowUtil.VerifySmtpSetupAsync

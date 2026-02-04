@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
   - SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
   - SuperOffice.WebApi.Data.AI_AnswerRequest
+  - SuperOffice.WebApi.Data.AI_CancelIndexingRequest
   - SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
   - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
   - SuperOffice.WebApi.Data.AI_DetectLanguageRequest
@@ -19,11 +20,14 @@ items:
   - SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
+  - SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeTicketPromptRequest
   - SuperOffice.WebApi.Data.AI_GetTrainingStatusRequest
   - SuperOffice.WebApi.Data.AI_GuessCategoryRequest
+  - SuperOffice.WebApi.Data.AI_ParseQueryIntoRestrictionsRequest
+  - SuperOffice.WebApi.Data.AI_RemovePhotoBackgroundRequest
   - SuperOffice.WebApi.Data.AI_RephraseTextRequest
   - SuperOffice.WebApi.Data.AI_SearchRequest
   - SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
@@ -211,6 +215,7 @@ items:
   - SuperOffice.WebApi.Data.AttachmentPreview
   - SuperOffice.WebApi.Data.AttachmentValidationResult
   - SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  - SuperOffice.WebApi.Data.AvailableFont
   - SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
   - SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
   - SuperOffice.WebApi.Data.BLOB_ChangeProductImageRequest
@@ -460,6 +465,7 @@ items:
   - SuperOffice.WebApi.Data.CopilotDataSourceType
   - SuperOffice.WebApi.Data.CopilotEntity
   - SuperOffice.WebApi.Data.Country
+  - SuperOffice.WebApi.Data.CreatePhotoBackground
   - SuperOffice.WebApi.Data.Credential
   - SuperOffice.WebApi.Data.CredentialControlType
   - SuperOffice.WebApi.Data.CredentialType
@@ -891,6 +897,8 @@ items:
   - SuperOffice.WebApi.Data.ExtendedLicenseInfo
   - SuperOffice.WebApi.Data.ExtendedModuleLicense
   - SuperOffice.WebApi.Data.ExternalUserInfoModification
+  - SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  - SuperOffice.WebApi.Data.ExternallyOwnedType
   - SuperOffice.WebApi.Data.ExtraDataFieldType
   - SuperOffice.WebApi.Data.Favourite
   - SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
@@ -1253,12 +1261,17 @@ items:
   - SuperOffice.WebApi.Data.MailboxType
   - SuperOffice.WebApi.Data.MailingStatistics
   - SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
+  - SuperOffice.WebApi.Data.Marketing_CreateDefaultAvailableFontRequest
+  - SuperOffice.WebApi.Data.Marketing_DeleteAvailableFontRequest
   - SuperOffice.WebApi.Data.Marketing_DeleteMessageAndShipmentRequest
+  - SuperOffice.WebApi.Data.Marketing_GetAvailableFontRequest
   - SuperOffice.WebApi.Data.Marketing_GetFormSubmissionsCountRequest
   - SuperOffice.WebApi.Data.Marketing_GetPreviewMailingHeaderRequest
   - SuperOffice.WebApi.Data.Marketing_GetPreviewMailingRequest
   - SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
   - SuperOffice.WebApi.Data.Marketing_RenameMailingByMessageIdRequest
+  - SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
+  - SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
   - SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
   - SuperOffice.WebApi.Data.MassOperationResult
   - SuperOffice.WebApi.Data.MessageActionType
@@ -1276,6 +1289,7 @@ items:
   - SuperOffice.WebApi.Data.ModuleLicenseLink
   - SuperOffice.WebApi.Data.MrMrs
   - SuperOffice.WebApi.Data.MultiAlarmData
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch
   - SuperOffice.WebApi.Data.Navigation
   - SuperOffice.WebApi.Data.NavigatorCompany
   - SuperOffice.WebApi.Data.Navigator_GetNavigatorCompaniesRequest
@@ -1599,6 +1613,8 @@ items:
   - SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
   - SuperOffice.WebApi.Data.RagAnswer
   - SuperOffice.WebApi.Data.RagResult
+  - SuperOffice.WebApi.Data.RagStatus
+  - SuperOffice.WebApi.Data.RagStatusChunks
   - SuperOffice.WebApi.Data.RagType
   - SuperOffice.WebApi.Data.Rating
   - SuperOffice.WebApi.Data.Reason
@@ -2035,6 +2051,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DocPluginNames
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DocTemplateTypeMap
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DuplicateSystem
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
   - SuperOffice.WebApi.Data.UserPreferenceStrings.ExtraFields
   - SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
   - SuperOffice.WebApi.Data.UserPreferenceStrings.FieldReplication
@@ -14568,6 +14585,49 @@ references:
   name: OperationInfo
   nameWithType: OperationInfo
   fullName: SuperOffice.WebApi.Data.OperationInfo
+- uid: SuperOffice.WebApi.Data.AvailableFont
+  commentId: T:SuperOffice.WebApi.Data.AvailableFont
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AvailableFont.html
+  name: AvailableFont
+  nameWithType: AvailableFont
+  fullName: SuperOffice.WebApi.Data.AvailableFont
+- uid: SuperOffice.WebApi.Data.Marketing_CreateDefaultAvailableFontRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_CreateDefaultAvailableFontRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Marketing_CreateDefaultAvailableFontRequest.html
+  name: Marketing_CreateDefaultAvailableFontRequest
+  nameWithType: Marketing_CreateDefaultAvailableFontRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_CreateDefaultAvailableFontRequest
+- uid: SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest.html
+  name: Marketing_SaveAvailableFontRequest
+  nameWithType: Marketing_SaveAvailableFontRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
+- uid: SuperOffice.WebApi.Data.Marketing_DeleteAvailableFontRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_DeleteAvailableFontRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Marketing_DeleteAvailableFontRequest.html
+  name: Marketing_DeleteAvailableFontRequest
+  nameWithType: Marketing_DeleteAvailableFontRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_DeleteAvailableFontRequest
+- uid: SuperOffice.WebApi.Data.Marketing_GetAvailableFontRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_GetAvailableFontRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Marketing_GetAvailableFontRequest.html
+  name: Marketing_GetAvailableFontRequest
+  nameWithType: Marketing_GetAvailableFontRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_GetAvailableFontRequest
+- uid: SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Marketing_SetFontRankRequest.html
+  name: Marketing_SetFontRankRequest
+  nameWithType: Marketing_SetFontRankRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
 - uid: SuperOffice.WebApi.Data.FormEntity
   commentId: T:SuperOffice.WebApi.Data.FormEntity
   parent: SuperOffice.WebApi.Data
@@ -15875,6 +15935,35 @@ references:
   name: AI_TranslateEntityRequest
   nameWithType: AI_TranslateEntityRequest
   fullName: SuperOffice.WebApi.Data.AI_TranslateEntityRequest
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  commentId: T:SuperOffice.WebApi.Data.NaturalLanguageSearch
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch
+- uid: SuperOffice.WebApi.Data.AI_ParseQueryIntoRestrictionsRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_ParseQueryIntoRestrictionsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_ParseQueryIntoRestrictionsRequest.html
+  name: AI_ParseQueryIntoRestrictionsRequest
+  nameWithType: AI_ParseQueryIntoRestrictionsRequest
+  fullName: SuperOffice.WebApi.Data.AI_ParseQueryIntoRestrictionsRequest
+- uid: SuperOffice.WebApi.Data.CreatePhotoBackground
+  commentId: T:SuperOffice.WebApi.Data.CreatePhotoBackground
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CreatePhotoBackground.html
+  name: CreatePhotoBackground
+  nameWithType: CreatePhotoBackground
+  fullName: SuperOffice.WebApi.Data.CreatePhotoBackground
+- uid: SuperOffice.WebApi.Data.AI_RemovePhotoBackgroundRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_RemovePhotoBackgroundRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_RemovePhotoBackgroundRequest.html
+  name: AI_RemovePhotoBackgroundRequest
+  nameWithType: AI_RemovePhotoBackgroundRequest
+  fullName: SuperOffice.WebApi.Data.AI_RemovePhotoBackgroundRequest
 - uid: SuperOffice.WebApi.Data.RagAnswer
   commentId: T:SuperOffice.WebApi.Data.RagAnswer
   isExternal: true
@@ -15924,6 +16013,35 @@ references:
   name: AI_StartRagIndexingRequest
   nameWithType: AI_StartRagIndexingRequest
   fullName: SuperOffice.WebApi.Data.AI_StartRagIndexingRequest
+- uid: SuperOffice.WebApi.Data.RagStatus
+  commentId: T:SuperOffice.WebApi.Data.RagStatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagStatus.html
+  name: RagStatus
+  nameWithType: RagStatus
+  fullName: SuperOffice.WebApi.Data.RagStatus
+- uid: SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest.html
+  name: AI_GetIndexingStatusRequest
+  nameWithType: AI_GetIndexingStatusRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
+- uid: SuperOffice.WebApi.Data.AI_CancelIndexingRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_CancelIndexingRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_CancelIndexingRequest.html
+  name: AI_CancelIndexingRequest
+  nameWithType: AI_CancelIndexingRequest
+  fullName: SuperOffice.WebApi.Data.AI_CancelIndexingRequest
+- uid: SuperOffice.WebApi.Data.RagStatusChunks
+  commentId: T:SuperOffice.WebApi.Data.RagStatusChunks
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagStatusChunks.html
+  name: RagStatusChunks
+  nameWithType: RagStatusChunks
+  fullName: SuperOffice.WebApi.Data.RagStatusChunks
 - uid: SuperOffice.WebApi.Data.Summarizer
   commentId: T:SuperOffice.WebApi.Data.Summarizer
   isExternal: true
@@ -16542,6 +16660,22 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ExternallyOwnedType.html
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ExternallyOwnedStatus.html
+  name: ExternallyOwnedStatus
+  nameWithType: ExternallyOwnedStatus
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus
 - uid: SuperOffice.WebApi.Data.AppointmentPrivate
   commentId: T:SuperOffice.WebApi.Data.AppointmentPrivate
   parent: SuperOffice.WebApi.Data
@@ -19437,6 +19571,33 @@ references:
     name: SalesNotification
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.html
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
+  isExternal: true
+  href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  name: UserPreferenceStrings.EmailNotification
+  nameWithType: UserPreferenceStrings.EmailNotification
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
+    name: EmailNotification
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification.html
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
+    name: EmailNotification
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification.html
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
   commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.SystemNotification
   isExternal: true

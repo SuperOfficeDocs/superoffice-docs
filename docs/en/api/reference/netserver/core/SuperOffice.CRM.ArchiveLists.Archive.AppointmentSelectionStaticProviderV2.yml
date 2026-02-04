@@ -204,7 +204,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DisplayNamePrefix
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateDisplayValue
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateTooltipHint
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -5324,14 +5323,6 @@ references:
   name: PopulateTooltipHint
   nameWithType: ExtensibleColumnsBase.PopulateTooltipHint
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateTooltipHint
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_DebugXML
-  name: DebugXML
-  nameWithType: ExtensibleColumnsBase.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

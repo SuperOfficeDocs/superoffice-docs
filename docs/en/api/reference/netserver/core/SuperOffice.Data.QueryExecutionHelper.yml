@@ -58,21 +58,21 @@ items:
 
     appntQuery.ReturnFields.Add( appntInfo.ActiveDate, appntInfo.FreeBusy );
 
-    appntQuery.Restriction = appntInfo.AssociateId.Equal( S.Parameter( taskInfo._associateId ) ).
-    	And( appntInfo.ActiveDate.Between( S.Parameter( taskInfo._startDate ), S.Parameter( taskInfo._endDate ) ) ).
+    appntQuery.Restriction = appntInfo.AssociateId.Equal( taskInfo._associateId ).
+    	And( appntInfo.ActiveDate.Between( taskInfo._startDate, taskInfo._endDate ) ).
     	And( appntInfo.Type.In( 
-    		S.Parameter( AppointmentType.inDiary ), 
-    		S.Parameter( AppointmentType.inChecklist ),
-    		S.Parameter( AppointmentType.BookingForDiary ),
-    		S.Parameter( AppointmentType.BookingForChecklist ) ) );
+    		AppointmentType.inDiary, 
+    		AppointmentType.inChecklist,
+    		AppointmentType.BookingForDiary,
+    		AppointmentType.BookingForChecklist ) );
 
     using( QueryExecutionHelper qeh = new QueryExecutionHelper( appntQuery ) )
 
     {
     	while( qeh.Reader.Read() )
     	{
-    		ActivitySummary item = taskInfo._items[qeh.Reader.GetDateTime( appntInfo.ActiveDate ).Date];
-    		bool isFree = qeh.Reader.GetInt16( appntInfo.FreeBusy ) == 1;
+    		ActivitySummary item = taskInfo._items[appntInfo.ActiveDate[qeh.Reader].Date];
+    		bool isFree = appntInfo.FreeBusy[qeh.Reader] == 1;
     		if( isFree )
     			++item.NumFreeActivities;
     		else

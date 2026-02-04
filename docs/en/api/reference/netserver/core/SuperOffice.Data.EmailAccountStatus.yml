@@ -27,11 +27,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
 
       public enum EmailAccountStatus : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
 
       Public Enum EmailAccountStatus As Short
   extensionMethods:
@@ -47,7 +47,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
 - uid: SuperOffice.Data.EmailAccountStatus.Unknown
   commentId: F:SuperOffice.Data.EmailAccountStatus.Unknown
   id: Unknown

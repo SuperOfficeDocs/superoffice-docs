@@ -117,6 +117,8 @@ items:
   - SuperOffice.CRM.Lists.ImportProductFieldsProvider
   - SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
+  - SuperOffice.CRM.Lists.KbAccessLevelProvider
+  - SuperOffice.CRM.Lists.KbWorkflowProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.MailClientProvider
   - SuperOffice.CRM.Lists.MailingFavouriteListProvider
@@ -125,6 +127,7 @@ items:
   - SuperOffice.CRM.Lists.MergeTagsProvider
   - SuperOffice.CRM.Lists.MonthProvider
   - SuperOffice.CRM.Lists.OfMonthProvider
+  - SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   - SuperOffice.CRM.Lists.PeriodProvider
   - SuperOffice.CRM.Lists.PeriodsProvider
   - SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
@@ -153,6 +156,7 @@ items:
   - SuperOffice.CRM.Lists.RecipientFavoriteListProvider
   - SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider
   - SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider
+  - SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider
   - SuperOffice.CRM.Lists.ReplyTemplateProvider
   - SuperOffice.CRM.Lists.SaleCategoryListProvider
   - SuperOffice.CRM.Lists.SaleDoneProvider
@@ -180,6 +184,7 @@ items:
   - SuperOffice.CRM.Lists.TicketOriginProvider
   - SuperOffice.CRM.Lists.TicketPriorityEscalateEventsProvider
   - SuperOffice.CRM.Lists.TicketReadStatusProvider
+  - SuperOffice.CRM.Lists.TicketRelationTypeProvider
   - SuperOffice.CRM.Lists.TicketSLevelProvider
   - SuperOffice.CRM.Lists.TicketStatusProvider
   - SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider

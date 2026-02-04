@@ -19,6 +19,7 @@ items:
   - SuperOffice.Data.Dialect.OracleCommon.GetIsolationLevel(System.Data.IsolationLevel)
   - SuperOffice.Data.Dialect.OracleCommon.TimeToVarchar(System.String)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.Add)
+  - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.Equal)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.FieldTypeConvert)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.In)
@@ -618,6 +619,31 @@ items:
       description: The Order By sql-clause.
     content.vb: Protected Overrides Function ToSql(arg As OrderBy) As String
   overridden: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.OrderBy)
+  overload: SuperOffice.Data.Dialect.OracleCommon.ToSql*
+- uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  commentId: M:SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  id: ToSql(SuperOffice.Data.SQL.DateAdd)
+  parent: SuperOffice.Data.Dialect.OracleCommon
+  langs:
+  - csharp
+  - vb
+  name: ToSql(DateAdd)
+  nameWithType: OracleCommon.ToSql(DateAdd)
+  fullName: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  example: []
+  syntax:
+    content: protected override string ToSql(DateAdd arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.DateAdd
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function ToSql(arg As DateAdd) As String
+  overridden: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
   overload: SuperOffice.Data.Dialect.OracleCommon.ToSql*
 - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
   commentId: M:SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
@@ -6124,6 +6150,39 @@ references:
   name: OrderBy
   nameWithType: OrderBy
   fullName: SuperOffice.Data.SQL.OrderBy
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ToSql(DateAdd)
+  nameWithType: Dialect.ToSql(DateAdd)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+    name: ToSql
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+    name: ToSql
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.SQL.DateAdd
+  commentId: T:SuperOffice.Data.SQL.DateAdd
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateAdd.html
+  name: DateAdd
+  nameWithType: DateAdd
+  fullName: SuperOffice.Data.SQL.DateAdd
 - uid: SuperOffice.Data.Sql.WaitFor
   commentId: T:SuperOffice.Data.Sql.WaitFor
   parent: SuperOffice.Data.Sql

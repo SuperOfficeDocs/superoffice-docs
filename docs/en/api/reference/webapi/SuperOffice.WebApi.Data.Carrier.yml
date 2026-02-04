@@ -51,6 +51,7 @@ items:
   - SuperOffice.WebApi.Data.AttachmentEntity
   - SuperOffice.WebApi.Data.AttachmentPreview
   - SuperOffice.WebApi.Data.AutomatedCategoryUpdate
+  - SuperOffice.WebApi.Data.AvailableFont
   - SuperOffice.WebApi.Data.Batch
   - SuperOffice.WebApi.Data.BatchTaskInfo
   - SuperOffice.WebApi.Data.BlobEntity

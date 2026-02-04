@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Rows.AvailableFontsRow.AvailableFontsTableInfo
   - SuperOffice.CRM.Rows.AvailableFontsRow.CreateNew
   - SuperOffice.CRM.Rows.AvailableFontsRow.CssPath
+  - SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
   - SuperOffice.CRM.Rows.AvailableFontsRow.DisplayName
   - SuperOffice.CRM.Rows.AvailableFontsRow.FontFamily
   - SuperOffice.CRM.Rows.AvailableFontsRow.GetFromCustomSearch(SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch)
@@ -43,6 +44,7 @@ items:
   - SuperOffice.CRM.Rows.AvailableFontsRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.AvailableFontsRow._currentAvailableFontsId
   - SuperOffice.CRM.Rows.AvailableFontsRow._currentCssPath
+  - SuperOffice.CRM.Rows.AvailableFontsRow._currentDeleted
   - SuperOffice.CRM.Rows.AvailableFontsRow._currentDisplayName
   - SuperOffice.CRM.Rows.AvailableFontsRow._currentFontFamily
   - SuperOffice.CRM.Rows.AvailableFontsRow._currentRank
@@ -53,6 +55,7 @@ items:
   - SuperOffice.CRM.Rows.AvailableFontsRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.AvailableFontsRow._persistedAvailableFontsId
   - SuperOffice.CRM.Rows.AvailableFontsRow._persistedCssPath
+  - SuperOffice.CRM.Rows.AvailableFontsRow._persistedDeleted
   - SuperOffice.CRM.Rows.AvailableFontsRow._persistedDisplayName
   - SuperOffice.CRM.Rows.AvailableFontsRow._persistedFontFamily
   - SuperOffice.CRM.Rows.AvailableFontsRow._persistedRank
@@ -422,6 +425,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow._persistedDeleted
+  commentId: F:SuperOffice.CRM.Rows.AvailableFontsRow._persistedDeleted
+  id: _persistedDeleted
+  parent: SuperOffice.CRM.Rows.AvailableFontsRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedDeleted
+  nameWithType: AvailableFontsRow._persistedDeleted
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow._persistedDeleted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.AvailableFontsRow.Deleted" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedDeleted
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedDeleted As Short
 - uid: SuperOffice.CRM.Rows.AvailableFontsRow._currentAvailableFontsId
   commentId: F:SuperOffice.CRM.Rows.AvailableFontsRow._currentAvailableFontsId
   id: _currentAvailableFontsId
@@ -632,6 +656,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow._currentDeleted
+  commentId: F:SuperOffice.CRM.Rows.AvailableFontsRow._currentDeleted
+  id: _currentDeleted
+  parent: SuperOffice.CRM.Rows.AvailableFontsRow
+  langs:
+  - csharp
+  - vb
+  name: _currentDeleted
+  nameWithType: AvailableFontsRow._currentDeleted
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow._currentDeleted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.AvailableFontsRow.Deleted" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentDeleted
+    return:
+      type: System.Int16
+    content.vb: Protected _currentDeleted As Short
 - uid: SuperOffice.CRM.Rows.AvailableFontsRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.AvailableFontsRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -1703,6 +1748,37 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.CRM.Rows.AvailableFontsRow.UpdatedCount*
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
+  commentId: P:SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Rows.AvailableFontsRow
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: AvailableFontsRow.Deleted
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. True if font is deleted as available font'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Deleted As Short
+  overload: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted*
 references:
 - uid: SuperOffice.CRM.Rows.AvailableFontsRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.AvailableFontsRow.CreateNew
@@ -4870,6 +4946,13 @@ references:
   nameWithType.vb: Short
   fullName.vb: Short
   name.vb: Short
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
+  commentId: P:SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRow.html#SuperOffice_CRM_Rows_AvailableFontsRow_Deleted
+  name: Deleted
+  nameWithType: AvailableFontsRow.Deleted
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5849,3 +5932,10 @@ references:
   name: UpdatedCount
   nameWithType: AvailableFontsRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.AvailableFontsRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted*
+  commentId: Overload:SuperOffice.CRM.Rows.AvailableFontsRow.Deleted
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRow.html#SuperOffice_CRM_Rows_AvailableFontsRow_Deleted
+  name: Deleted
+  nameWithType: AvailableFontsRow.Deleted
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow.Deleted

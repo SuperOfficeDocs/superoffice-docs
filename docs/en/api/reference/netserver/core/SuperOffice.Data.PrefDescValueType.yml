@@ -38,11 +38,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
 
       public enum PrefDescValueType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
 
       Public Enum PrefDescValueType As Short
   extensionMethods:
@@ -58,7 +58,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
 - uid: SuperOffice.Data.PrefDescValueType.Unknown
   commentId: F:SuperOffice.Data.PrefDescValueType.Unknown
   id: Unknown

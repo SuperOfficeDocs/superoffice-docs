@@ -8,7 +8,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.AddExtender(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.Count
-  - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.ExtendersNeedQuery
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.ExtendersRestrictQuery
   - SuperOffice.CRM.ArchiveLists.ExtensibleHelper.ForceDisable
@@ -440,27 +439,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Count As Integer
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.Count*
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML
-  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML
-  id: DebugXML
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleHelper
-  langs:
-  - csharp
-  - vb
-  name: DebugXML
-  nameWithType: ExtensibleHelper.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public XmlDocument DebugXML { get; }
-    parameters: []
-    return:
-      type: System.Xml.XmlDocument
-    content.vb: Public ReadOnly Property DebugXML As XmlDocument
-  overload: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML*
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
@@ -1486,39 +1464,3 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.html#SuperOffice_CRM_ArchiveLists_ExtensibleHelper_DebugXML
-  name: DebugXML
-  nameWithType: ExtensibleHelper.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleHelper.DebugXML
-- uid: System.Xml.XmlDocument
-  commentId: T:System.Xml.XmlDocument
-  parent: System.Xml
-  isExternal: true
-  name: XmlDocument
-  nameWithType: XmlDocument
-  fullName: System.Xml.XmlDocument
-- uid: System.Xml
-  commentId: N:System.Xml
-  isExternal: true
-  name: System.Xml
-  nameWithType: System.Xml
-  fullName: System.Xml
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true

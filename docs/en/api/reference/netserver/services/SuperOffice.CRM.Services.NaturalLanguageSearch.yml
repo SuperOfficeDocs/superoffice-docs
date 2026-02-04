@@ -1,0 +1,715 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch
+  commentId: T:SuperOffice.CRM.Services.NaturalLanguageSearch
+  id: NaturalLanguageSearch
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.#ctor
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.Entity
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.Query
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.ToString
+  - SuperOffice.CRM.Services.NaturalLanguageSearch.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Natural language search results.
+
+    <p></p>
+
+    Carrier object for NaturalLanguageSearch.
+
+    Services for the NaturalLanguageSearch Carrier is available from the <xref href="SuperOffice.CRM.Services.IAIAgent?text=AI+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+
+      public class NaturalLanguageSearch
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+
+      Public Class NaturalLanguageSearch
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.#ctor
+  commentId: M:SuperOffice.CRM.Services.NaturalLanguageSearch.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: NaturalLanguageSearch()
+  nameWithType: NaturalLanguageSearch.NaturalLanguageSearch()
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.NaturalLanguageSearch()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public NaturalLanguageSearch()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.#ctor*
+  nameWithType.vb: NaturalLanguageSearch.New()
+  fullName.vb: SuperOffice.CRM.Services.NaturalLanguageSearch.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString
+  commentId: M:SuperOffice.CRM.Services.NaturalLanguageSearch.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NaturalLanguageSearch.ToString()
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString*
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.NaturalLanguageSearch.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: NaturalLanguageSearch.ToString(string)
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString*
+  nameWithType.vb: NaturalLanguageSearch.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.Query
+  commentId: P:SuperOffice.CRM.Services.NaturalLanguageSearch.Query
+  id: Query
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: NaturalLanguageSearch.Query
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.Query
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: User's query.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Query As String
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.Query*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown
+  commentId: P:SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown
+  id: ResponseMarkdown
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: ResponseMarkdown
+  nameWithType: NaturalLanguageSearch.ResponseMarkdown
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Markdown response from the AI.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ResponseMarkdown { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ResponseMarkdown As String
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.Entity
+  commentId: P:SuperOffice.CRM.Services.NaturalLanguageSearch.Entity
+  id: Entity
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: NaturalLanguageSearch.Entity
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.Entity
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Type of entity we are searching. e.g. 'contact', 'project' etc.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Entity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Entity As String
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.Entity*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery
+  commentId: P:SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery
+  id: ODataQuery
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: ODataQuery
+  nameWithType: NaturalLanguageSearch.ODataQuery
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Search criteria in ODATA format
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ODataQuery { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ODataQuery As String
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions
+  commentId: P:SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions
+  id: Restrictions
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: NaturalLanguageSearch.Restrictions
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Archive restrictions for the search query.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext
+  commentId: P:SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext
+  id: InternalContext
+  parent: SuperOffice.CRM.Services.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: InternalContext
+  nameWithType: NaturalLanguageSearch.InternalContext
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: AI internal context - opaque to callers.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string InternalContext { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property InternalContext As String
+  overload: SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch__ctor
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch.NaturalLanguageSearch
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.NaturalLanguageSearch
+  nameWithType.vb: NaturalLanguageSearch.New
+  fullName.vb: SuperOffice.CRM.Services.NaturalLanguageSearch.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_ToString
+  name: ToString
+  nameWithType: NaturalLanguageSearch.ToString
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.Query*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.Query
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_Query
+  name: Query
+  nameWithType: NaturalLanguageSearch.Query
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.Query
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_ResponseMarkdown
+  name: ResponseMarkdown
+  nameWithType: NaturalLanguageSearch.ResponseMarkdown
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ResponseMarkdown
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.Entity*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.Entity
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_Entity
+  name: Entity
+  nameWithType: NaturalLanguageSearch.Entity
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.Entity
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_ODataQuery
+  name: ODataQuery
+  nameWithType: NaturalLanguageSearch.ODataQuery
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.ODataQuery
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_Restrictions
+  name: Restrictions
+  nameWithType: NaturalLanguageSearch.Restrictions
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.Restrictions
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext*
+  commentId: Overload:SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html#SuperOffice_CRM_Services_NaturalLanguageSearch_InternalContext
+  name: InternalContext
+  nameWithType: NaturalLanguageSearch.InternalContext
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch.InternalContext

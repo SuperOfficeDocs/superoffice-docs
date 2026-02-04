@@ -1,0 +1,542 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.RagStatusChunks
+  commentId: T:SuperOffice.CRM.Services.RagStatusChunks
+  id: RagStatusChunks
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.RagStatusChunks.#ctor
+  - SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks
+  - SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments
+  - SuperOffice.CRM.Services.RagStatusChunks.ToString
+  - SuperOffice.CRM.Services.RagStatusChunks.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: RagStatusChunks
+  nameWithType: RagStatusChunks
+  fullName: SuperOffice.CRM.Services.RagStatusChunks
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    RAG namespace document index statistics
+
+    <p></p>
+
+    Carrier object for RagStatusChunks.
+
+    Services for the RagStatusChunks Carrier is available from the <xref href="SuperOffice.CRM.Services.IAIAgent?text=AI+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+
+      public class RagStatusChunks
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+
+      Public Class RagStatusChunks
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+- uid: SuperOffice.CRM.Services.RagStatusChunks.#ctor
+  commentId: M:SuperOffice.CRM.Services.RagStatusChunks.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.RagStatusChunks
+  langs:
+  - csharp
+  - vb
+  name: RagStatusChunks()
+  nameWithType: RagStatusChunks.RagStatusChunks()
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.RagStatusChunks()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public RagStatusChunks()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.RagStatusChunks.#ctor*
+  nameWithType.vb: RagStatusChunks.New()
+  fullName.vb: SuperOffice.CRM.Services.RagStatusChunks.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.RagStatusChunks.ToString
+  commentId: M:SuperOffice.CRM.Services.RagStatusChunks.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.RagStatusChunks
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RagStatusChunks.ToString()
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.RagStatusChunks.ToString*
+- uid: SuperOffice.CRM.Services.RagStatusChunks.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.RagStatusChunks.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.RagStatusChunks
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: RagStatusChunks.ToString(string)
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.RagStatusChunks.ToString*
+  nameWithType.vb: RagStatusChunks.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.RagStatusChunks.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks
+  commentId: P:SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks
+  id: NumberOfChunks
+  parent: SuperOffice.CRM.Services.RagStatusChunks
+  langs:
+  - csharp
+  - vb
+  name: NumberOfChunks
+  nameWithType: RagStatusChunks.NumberOfChunks
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: How many chunks stored in the database
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumberOfChunks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumberOfChunks As Integer
+  overload: SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments
+  commentId: P:SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments
+  id: NumberOfDocuments
+  parent: SuperOffice.CRM.Services.RagStatusChunks
+  langs:
+  - csharp
+  - vb
+  name: NumberOfDocuments
+  nameWithType: RagStatusChunks.NumberOfDocuments
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: How many documents stored in the database
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NumberOfDocuments { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NumberOfDocuments As Integer
+  overload: SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.RagStatusChunks.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.RagStatusChunks.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagStatusChunks.html#SuperOffice_CRM_Services_RagStatusChunks__ctor
+  name: RagStatusChunks
+  nameWithType: RagStatusChunks.RagStatusChunks
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.RagStatusChunks
+  nameWithType.vb: RagStatusChunks.New
+  fullName.vb: SuperOffice.CRM.Services.RagStatusChunks.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.RagStatusChunks.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.RagStatusChunks.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagStatusChunks.html#SuperOffice_CRM_Services_RagStatusChunks_ToString
+  name: ToString
+  nameWithType: RagStatusChunks.ToString
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks*
+  commentId: Overload:SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagStatusChunks.html#SuperOffice_CRM_Services_RagStatusChunks_NumberOfChunks
+  name: NumberOfChunks
+  nameWithType: RagStatusChunks.NumberOfChunks
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.NumberOfChunks
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments*
+  commentId: Overload:SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagStatusChunks.html#SuperOffice_CRM_Services_RagStatusChunks_NumberOfDocuments
+  name: NumberOfDocuments
+  nameWithType: RagStatusChunks.NumberOfDocuments
+  fullName: SuperOffice.CRM.Services.RagStatusChunks.NumberOfDocuments

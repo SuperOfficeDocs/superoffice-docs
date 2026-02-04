@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
   - SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
   - SuperOffice.CRM.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
+  - SuperOffice.CRM.UserPreferenceStrings.Associates.FirstLoginSession
   - SuperOffice.CRM.UserPreferenceStrings.Associates.ResourceSubListWeb
   - SuperOffice.CRM.UserPreferenceStrings.Associates.Section
   langs:
@@ -230,6 +231,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const DontAskAgainEmailInvitationDialog As String = "DontAskAgainEmailInvitationDialog"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Associates.FirstLoginSession
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Associates.FirstLoginSession
+  id: FirstLoginSession
+  parent: SuperOffice.CRM.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: FirstLoginSession
+  nameWithType: UserPreferenceStrings.Associates.FirstLoginSession
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Associates.FirstLoginSession
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: ''
+  example: []
+  syntax:
+    content: public const string FirstLoginSession = "FirstLoginSession"
+    return:
+      type: System.String
+    content.vb: Public Const FirstLoginSession As String = "FirstLoginSession"
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM

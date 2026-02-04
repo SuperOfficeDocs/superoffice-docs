@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.Security.Sentry.GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetMainRight
@@ -624,6 +625,29 @@ items:
       description: DateTime value, or DateTime.MinValue if not found
     content.vb: Public Function GetDateTimeField(field As FieldInfo) As Date
   overload: SuperOffice.CRM.Security.Sentry.GetDateTimeField*
+- uid: SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  id: GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetIntArrayField(FieldInfo)
+  nameWithType: Sentry.GetIntArrayField(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public int[] GetIntArrayField(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int32[]
+    content.vb: Public Function GetIntArrayField(field As FieldInfo) As Integer()
+  overload: SuperOffice.CRM.Security.Sentry.GetIntArrayField*
 - uid: SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
   id: GetStringField(SuperOffice.Data.SQL.FieldInfo)
@@ -2802,6 +2826,36 @@ references:
   nameWithType.vb: Date
   fullName.vb: Date
   name.vb: Date
+- uid: SuperOffice.CRM.Security.Sentry.GetIntArrayField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetIntArrayField
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetIntArrayField_SuperOffice_Data_SQL_FieldInfo_
+  name: GetIntArrayField
+  nameWithType: Sentry.GetIntArrayField
+  fullName: SuperOffice.CRM.Security.Sentry.GetIntArrayField
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Security.Sentry.GetStringField*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.GetStringField
   isExternal: true

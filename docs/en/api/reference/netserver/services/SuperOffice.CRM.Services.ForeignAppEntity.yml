@@ -53,11 +53,11 @@ items:
     var rows = archive.GetArchiveListByColumns2("ForeignKeys", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
 
       public class ForeignAppEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
 
       Public Class ForeignAppEntity Inherits Carrier
   seealso:
@@ -72,7 +72,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
 - uid: SuperOffice.CRM.Services.ForeignAppEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ForeignAppEntity.#ctor
   id: '#ctor'

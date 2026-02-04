@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.FreetextRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin

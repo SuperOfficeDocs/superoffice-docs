@@ -47,11 +47,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
 
       public class CategoryEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
 
       Public Class CategoryEntity Inherits Carrier
   seealso:
@@ -66,7 +66,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
 - uid: SuperOffice.CRM.Services.CategoryEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.CategoryEntity.#ctor
   id: '#ctor'
@@ -325,7 +325,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: True if the category should enable lead stage
+  summary: True if the category should enable lead status
   example: []
   syntax:
     content: >-
@@ -391,7 +391,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: true if the country is deleted
+  summary: true if the category is deleted
   example: []
   syntax:
     content: >-
@@ -535,7 +535,6 @@ references:
   nameWithType: CategoryEntity.CategoryGroup
   fullName: SuperOffice.CRM.Services.CategoryEntity.CategoryGroup
 - uid: SuperOffice.Data.CategoryGroup
-  commentId: '!:SuperOffice.Data.CategoryGroup'
   isExternal: true
   name: CategoryGroup
   nameWithType: CategoryGroup

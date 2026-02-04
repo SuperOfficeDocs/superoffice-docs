@@ -25,6 +25,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusURL
   - SuperOffice.CRM.UserPreferenceStrings.NetServices.TeaserURL
   - SuperOffice.CRM.UserPreferenceStrings.NetServices.TechSupportUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.TemplatesUrl
   - SuperOffice.CRM.UserPreferenceStrings.NetServices.UserPassportId
   - SuperOffice.CRM.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
   - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
@@ -281,7 +282,7 @@ items:
   summary: >-
     WWW Page URL - show when the Logo clicked in the client.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -412,7 +413,7 @@ items:
   summary: >-
     Status URL - returns XML or JSON with list of links to update NetServices preferences with.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -530,7 +531,7 @@ items:
   summary: >-
     WhatsNew URL - call this to get the URL to the latest news page.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -730,7 +731,7 @@ items:
   summary: >-
     Community URL - Link to the Customer Community homepage.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -759,7 +760,7 @@ items:
   summary: >-
     Feedback URL - Link to the Feedback form.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -788,7 +789,7 @@ items:
   summary: >-
     Tech Support URL - Link to the Tech Support page.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -817,7 +818,7 @@ items:
   summary: >-
     Help URL - Link to the context sensitive Help page.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -846,7 +847,7 @@ items:
   summary: >-
     Help Index URL - Link to the Help home page.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -875,7 +876,7 @@ items:
   summary: >-
     Resource Center URL - Link to the Resource Center home page.
 
-    Note that URL in this preference will have merge tags that need to 
+    Note that URL in this preference will have merge tags that need to
 
     be substituted before use.
 
@@ -908,6 +909,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const MeteredServicesUrl As String = "MeteredServicesUrl"
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.TemplatesUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.TemplatesUrl
+  id: TemplatesUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: TemplatesUrl
+  nameWithType: UserPreferenceStrings.NetServices.TemplatesUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.TemplatesUrl
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string TemplatesUrl = "TemplatesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const TemplatesUrl As String = "TemplatesUrl"
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM

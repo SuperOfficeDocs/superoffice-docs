@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.IAIAgent.AnswerAcceptedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotEntityAsync(System.Threading.CancellationToken)
@@ -26,11 +27,14 @@ items:
   - SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync(System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GuessCategoryAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.CRM.Services.NaturalLanguageSearch,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync(System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.RephraseTextAsync(System.String,SuperOffice.Data.AiTextStyle,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.CRM.Services.CopilotDataSourceEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.SaveCopilotEntityAsync(SuperOffice.CRM.Services.CopilotEntity,System.Threading.CancellationToken)
@@ -1128,6 +1132,83 @@ items:
   nameWithType.vb: IAIAgent.TranslateEntityAsync(String, Integer, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync(String, Integer, String, System.Threading.CancellationToken)
   name.vb: TranslateEntityAsync(String, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.CRM.Services.NaturalLanguageSearch,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.CRM.Services.NaturalLanguageSearch,System.Threading.CancellationToken)
+  id: ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.CRM.Services.NaturalLanguageSearch,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: ParseQueryIntoRestrictionsAsync(string, string, NaturalLanguageSearch, CancellationToken)
+  nameWithType: IAIAgent.ParseQueryIntoRestrictionsAsync(string, string, NaturalLanguageSearch, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync(string, string, SuperOffice.CRM.Services.NaturalLanguageSearch, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Return archive restrictions based on a natural language query.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<NaturalLanguageSearch> ParseQueryIntoRestrictionsAsync(string query, string currents, NaturalLanguageSearch previousQuery, CancellationToken cancellationToken = default)
+    parameters:
+    - id: query
+      type: System.String
+      description: What the user asked for.
+    - id: currents
+      type: System.String
+      description: Current context prompt. e.g. Current company name and id, what selection are we looking at?
+    - id: previousQuery
+      type: SuperOffice.CRM.Services.NaturalLanguageSearch
+      description: Previous query, if applicable. NULL if no previous query.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NaturalLanguageSearch}
+      description: Returns archive restrictions and columns for the query. Pass this result in as the previous query on the next call to continue the conversation.
+    content.vb: Function ParseQueryIntoRestrictionsAsync(query As String, currents As String, previousQuery As NaturalLanguageSearch, cancellationToken As CancellationToken = Nothing) As Task(Of NaturalLanguageSearch)
+  overload: SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync*
+  nameWithType.vb: IAIAgent.ParseQueryIntoRestrictionsAsync(String, String, NaturalLanguageSearch, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync(String, String, SuperOffice.CRM.Services.NaturalLanguageSearch, System.Threading.CancellationToken)
+  name.vb: ParseQueryIntoRestrictionsAsync(String, String, NaturalLanguageSearch, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync(System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync(System.IO.Stream,System.Threading.CancellationToken)
+  id: RemovePhotoBackgroundAsync(System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: RemovePhotoBackgroundAsync(Stream, CancellationToken)
+  nameWithType: IAIAgent.RemovePhotoBackgroundAsync(Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync(System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns an image with the background removed, leaving only the main subject
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<Stream> RemovePhotoBackgroundAsync(Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: image
+      type: System.IO.Stream
+      description: Image to be cleaned. JPG or PNG.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: Image with background removed
+    content.vb: Function RemovePhotoBackgroundAsync(image As Stream, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync*
 - uid: SuperOffice.CRM.Services.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   id: AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
@@ -1337,6 +1418,80 @@ items:
   nameWithType.vb: IAIAgent.StartRagIndexingAsync(String, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAIAgent.StartRagIndexingAsync(String, String, System.Threading.CancellationToken)
   name.vb: StartRagIndexingAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync(System.String,System.Threading.CancellationToken)
+  id: GetIndexingStatusAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetIndexingStatusAsync(string, CancellationToken)
+  nameWithType: IAIAgent.GetIndexingStatusAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Get the current status.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<RagStatus> GetIndexingStatusAsync(string namespaceName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Identifies the namespace to store content in.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RagStatus}
+      description: Status of the indexing run - may be cancelled if another run is in progress.
+    content.vb: Function GetIndexingStatusAsync(namespaceName As String, cancellationToken As CancellationToken = Nothing) As Task(Of RagStatus)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync*
+  nameWithType.vb: IAIAgent.GetIndexingStatusAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync(String, System.Threading.CancellationToken)
+  name.vb: GetIndexingStatusAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync(System.String,System.Threading.CancellationToken)
+  id: CancelIndexingAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: CancelIndexingAsync(string, CancellationToken)
+  nameWithType: IAIAgent.CancelIndexingAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Cancel the current re-indexing job on a given namespace. Leaves data in inconsistent state, because removal of old data is skipped.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<RagStatus> CancelIndexingAsync(string namespaceName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Identifies the namespace to stop indexing in.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RagStatus}
+      description: Status of the indexing run after cancellation.
+    content.vb: Function CancelIndexingAsync(namespaceName As String, cancellationToken As CancellationToken = Nothing) As Task(Of RagStatus)
+  overload: SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync*
+  nameWithType.vb: IAIAgent.CancelIndexingAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync(String, System.Threading.CancellationToken)
+  name.vb: CancelIndexingAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   id: SummarizeTicketAsync(System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
@@ -2418,6 +2573,98 @@ references:
   name: TranslateEntityAsync
   nameWithType: IAIAgent.TranslateEntityAsync
   fullName: SuperOffice.CRM.Services.IAIAgent.TranslateEntityAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_ParseQueryIntoRestrictionsAsync_System_String_System_String_SuperOffice_CRM_Services_NaturalLanguageSearch_System_Threading_CancellationToken_
+  name: ParseQueryIntoRestrictionsAsync
+  nameWithType: IAIAgent.ParseQueryIntoRestrictionsAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.ParseQueryIntoRestrictionsAsync
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch
+  commentId: T:SuperOffice.CRM.Services.NaturalLanguageSearch
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NaturalLanguageSearch}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.NaturalLanguageSearch}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NaturalLanguageSearch>
+  nameWithType: Task<NaturalLanguageSearch>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.NaturalLanguageSearch>
+  nameWithType.vb: Task(Of NaturalLanguageSearch)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.NaturalLanguageSearch)
+  name.vb: Task(Of NaturalLanguageSearch)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.NaturalLanguageSearch
+    name: NaturalLanguageSearch
+    isExternal: true
+    href: SuperOffice.CRM.Services.NaturalLanguageSearch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.NaturalLanguageSearch
+    name: NaturalLanguageSearch
+    isExternal: true
+    href: SuperOffice.CRM.Services.NaturalLanguageSearch.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_RemovePhotoBackgroundAsync_System_IO_Stream_System_Threading_CancellationToken_
+  name: RemovePhotoBackgroundAsync
+  nameWithType: IAIAgent.RemovePhotoBackgroundAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.RemovePhotoBackgroundAsync
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
 - uid: SuperOffice.CRM.Services.IAIAgent.AnswerAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAIAgent.AnswerAsync
   isExternal: true
@@ -2532,6 +2779,55 @@ references:
   name: StartRagIndexingAsync
   nameWithType: IAIAgent.StartRagIndexingAsync
   fullName: SuperOffice.CRM.Services.IAIAgent.StartRagIndexingAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetIndexingStatusAsync_System_String_System_Threading_CancellationToken_
+  name: GetIndexingStatusAsync
+  nameWithType: IAIAgent.GetIndexingStatusAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RagStatus}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.RagStatus}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RagStatus>
+  nameWithType: Task<RagStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.RagStatus>
+  nameWithType.vb: Task(Of RagStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.RagStatus)
+  name.vb: Task(Of RagStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RagStatus
+    name: RagStatus
+    isExternal: true
+    href: SuperOffice.CRM.Services.RagStatus.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RagStatus
+    name: RagStatus
+    isExternal: true
+    href: SuperOffice.CRM.Services.RagStatus.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_CancelIndexingAsync_System_String_System_Threading_CancellationToken_
+  name: CancelIndexingAsync
+  nameWithType: IAIAgent.CancelIndexingAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync
 - uid: SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SummarizeTicketAsync
   isExternal: true

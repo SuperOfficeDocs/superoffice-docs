@@ -21,6 +21,8 @@ items:
   - SuperOffice.Data.Navigation.ContactCard
   - SuperOffice.Data.Navigation.ContactSelectionMailingsTask
   - SuperOffice.Data.Navigation.CustomArchiveMiniCard
+  - SuperOffice.Data.Navigation.CustomObjectArchive
+  - SuperOffice.Data.Navigation.CustomObjectCard
   - SuperOffice.Data.Navigation.Dashboard
   - SuperOffice.Data.Navigation.DiaryArchive
   - SuperOffice.Data.Navigation.DiaryMinicard
@@ -95,11 +97,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
 
       public enum Navigation : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
 
       Public Enum Navigation As Short
   extensionMethods:
@@ -115,7 +117,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
 - uid: SuperOffice.Data.Navigation.Invisible
   commentId: F:SuperOffice.Data.Navigation.Invisible
   id: Invisible
@@ -2375,6 +2377,68 @@ items:
       <EnumMember>
 
       TicketMinicard = 72
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.Navigation.CustomObjectCard
+  commentId: F:SuperOffice.Data.Navigation.CustomObjectCard
+  id: CustomObjectCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectCard
+  nameWithType: Navigation.CustomObjectCard
+  fullName: SuperOffice.Data.Navigation.CustomObjectCard
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '73: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Custom Object card'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      CustomObjectCard = 73
+    return:
+      type: SuperOffice.Data.Navigation
+    content.vb: >-
+      <EnumMember>
+
+      CustomObjectCard = 73
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.Navigation.CustomObjectArchive
+  commentId: F:SuperOffice.Data.Navigation.CustomObjectArchive
+  id: CustomObjectArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectArchive
+  nameWithType: Navigation.CustomObjectArchive
+  fullName: SuperOffice.Data.Navigation.CustomObjectArchive
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '74: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Custom Object Archive'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      CustomObjectArchive = 74
+    return:
+      type: SuperOffice.Data.Navigation
+    content.vb: >-
+      <EnumMember>
+
+      CustomObjectArchive = 74
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

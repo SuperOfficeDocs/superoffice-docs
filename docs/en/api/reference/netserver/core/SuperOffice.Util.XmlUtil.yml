@@ -9,6 +9,7 @@ items:
   - SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode,System.String)
   - SuperOffice.Util.XmlUtil.GetValidXmlString(System.String)
   - SuperOffice.Util.XmlUtil.InnerMerge(System.Xml.XmlNode,System.Xml.XmlNode)
+  - SuperOffice.Util.XmlUtil.IsValidXmlName(System.String)
   - SuperOffice.Util.XmlUtil.Merge(System.Xml.XmlNode,System.Xml.XmlNode)
   - SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String)
   - SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String,System.String)
@@ -458,6 +459,40 @@ items:
   nameWithType.vb: XmlUtil.SafeGetAttributes(XmlNode, Boolean, ParamArray String())
   fullName.vb: SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode, Boolean, ParamArray String())
   name.vb: SafeGetAttributes(XmlNode, Boolean, ParamArray String())
+- uid: SuperOffice.Util.XmlUtil.IsValidXmlName(System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.IsValidXmlName(System.String)
+  id: IsValidXmlName(System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: IsValidXmlName(string)
+  nameWithType: XmlUtil.IsValidXmlName(string)
+  fullName: SuperOffice.Util.XmlUtil.IsValidXmlName(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Determines whether the specified string is a valid XML name according to XML naming rules.
+  remarks: >-
+    A valid XML name must conform to the rules defined by the XML specification,
+                including allowed characters and structure. This method does not check for reserved XML names or namespace
+                constraints.
+  example: []
+  syntax:
+    content: public static bool IsValidXmlName(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The string to validate as an XML name. Cannot be null or empty.
+    return:
+      type: System.Boolean
+      description: true if the input is a valid XML name; otherwise, false.
+    content.vb: Public Shared Function IsValidXmlName(input As String) As Boolean
+  overload: SuperOffice.Util.XmlUtil.IsValidXmlName*
+  nameWithType.vb: XmlUtil.IsValidXmlName(String)
+  fullName.vb: SuperOffice.Util.XmlUtil.IsValidXmlName(String)
+  name.vb: IsValidXmlName(String)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -1020,3 +1055,10 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Util.XmlUtil.IsValidXmlName*
+  commentId: Overload:SuperOffice.Util.XmlUtil.IsValidXmlName
+  isExternal: true
+  href: SuperOffice.Util.XmlUtil.html#SuperOffice_Util_XmlUtil_IsValidXmlName_System_String_
+  name: IsValidXmlName
+  nameWithType: XmlUtil.IsValidXmlName
+  fullName: SuperOffice.Util.XmlUtil.IsValidXmlName

@@ -6,7 +6,11 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.Category.#ctor
+  - SuperOffice.CRM.Services.Category.CategoryGroup
+  - SuperOffice.CRM.Services.Category.Deleted
+  - SuperOffice.CRM.Services.Category.EnableLeadStatus
   - SuperOffice.CRM.Services.Category.Id
+  - SuperOffice.CRM.Services.Category.Rank
   - SuperOffice.CRM.Services.Category.ToString
   - SuperOffice.CRM.Services.Category.ToString(System.String)
   - SuperOffice.CRM.Services.Category.Tooltip
@@ -42,11 +46,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
 
       public class Category : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.8.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
 
       Public Class Category Inherits Carrier
   seealso:
@@ -61,7 +65,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.8.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
 - uid: SuperOffice.CRM.Services.Category.#ctor
   commentId: M:SuperOffice.CRM.Services.Category.#ctor
   id: '#ctor'
@@ -155,20 +159,20 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The List Item Id
+  summary: The category identifier
   example: []
   syntax:
     content: >-
       [DataMember]
 
-      public int Id { get; set; }
+      public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
     content.vb: >-
       <DataMember>
 
-      Public Property Id As Integer
+      Public Overridable Property Id As Integer
   overload: SuperOffice.CRM.Services.Category.Id*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
@@ -188,20 +192,20 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The List Item Value
+  summary: The category name
   example: []
   syntax:
     content: >-
       [DataMember]
 
-      public string Value { get; set; }
+      public virtual string Value { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: >-
       <DataMember>
 
-      Public Property Value As String
+      Public Overridable Property Value As String
   overload: SuperOffice.CRM.Services.Category.Value*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
@@ -221,21 +225,153 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The List Item Tooltip
+  summary: The category description
   example: []
   syntax:
     content: >-
       [DataMember]
 
-      public string Tooltip { get; set; }
+      public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
     content.vb: >-
       <DataMember>
 
-      Public Property Tooltip As String
+      Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.Category.Tooltip*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Category.CategoryGroup
+  commentId: P:SuperOffice.CRM.Services.Category.CategoryGroup
+  id: CategoryGroup
+  parent: SuperOffice.CRM.Services.Category
+  langs:
+  - csharp
+  - vb
+  name: CategoryGroup
+  nameWithType: Category.CategoryGroup
+  fullName: SuperOffice.CRM.Services.Category.CategoryGroup
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Enum of the group this category belongs to, static list of 5 groups
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual CategoryGroup CategoryGroup { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.CategoryGroup
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CategoryGroup As CategoryGroup
+  overload: SuperOffice.CRM.Services.Category.CategoryGroup*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Category.EnableLeadStatus
+  commentId: P:SuperOffice.CRM.Services.Category.EnableLeadStatus
+  id: EnableLeadStatus
+  parent: SuperOffice.CRM.Services.Category
+  langs:
+  - csharp
+  - vb
+  name: EnableLeadStatus
+  nameWithType: Category.EnableLeadStatus
+  fullName: SuperOffice.CRM.Services.Category.EnableLeadStatus
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the category should enable lead status
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool EnableLeadStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EnableLeadStatus As Boolean
+  overload: SuperOffice.CRM.Services.Category.EnableLeadStatus*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Category.Rank
+  commentId: P:SuperOffice.CRM.Services.Category.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.Category
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Category.Rank
+  fullName: SuperOffice.CRM.Services.Category.Rank
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The rank of the category
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.Category.Rank*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Category.Deleted
+  commentId: P:SuperOffice.CRM.Services.Category.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.Category
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: Category.Deleted
+  fullName: SuperOffice.CRM.Services.Category.Deleted
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the category is deleted
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.Category.Deleted*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -364,3 +500,58 @@ references:
   name: Tooltip
   nameWithType: Category.Tooltip
   fullName: SuperOffice.CRM.Services.Category.Tooltip
+- uid: SuperOffice.CRM.Services.Category.CategoryGroup*
+  commentId: Overload:SuperOffice.CRM.Services.Category.CategoryGroup
+  isExternal: true
+  href: SuperOffice.CRM.Services.Category.html#SuperOffice_CRM_Services_Category_CategoryGroup
+  name: CategoryGroup
+  nameWithType: Category.CategoryGroup
+  fullName: SuperOffice.CRM.Services.Category.CategoryGroup
+- uid: SuperOffice.Data.CategoryGroup
+  isExternal: true
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.Data.CategoryGroup
+- uid: SuperOffice.CRM.Services.Category.EnableLeadStatus*
+  commentId: Overload:SuperOffice.CRM.Services.Category.EnableLeadStatus
+  isExternal: true
+  href: SuperOffice.CRM.Services.Category.html#SuperOffice_CRM_Services_Category_EnableLeadStatus
+  name: EnableLeadStatus
+  nameWithType: Category.EnableLeadStatus
+  fullName: SuperOffice.CRM.Services.Category.EnableLeadStatus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.Category.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.Category.Rank
+  isExternal: true
+  href: SuperOffice.CRM.Services.Category.html#SuperOffice_CRM_Services_Category_Rank
+  name: Rank
+  nameWithType: Category.Rank
+  fullName: SuperOffice.CRM.Services.Category.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Services.Category.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.Category.Deleted
+  isExternal: true
+  href: SuperOffice.CRM.Services.Category.html#SuperOffice_CRM_Services_Category_Deleted
+  name: Deleted
+  nameWithType: Category.Deleted
+  fullName: SuperOffice.CRM.Services.Category.Deleted

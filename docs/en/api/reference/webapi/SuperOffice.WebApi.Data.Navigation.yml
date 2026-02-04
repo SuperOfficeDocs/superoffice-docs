@@ -21,6 +21,8 @@ items:
   - SuperOffice.WebApi.Data.Navigation.ContactCard
   - SuperOffice.WebApi.Data.Navigation.ContactSelectionMailingsTask
   - SuperOffice.WebApi.Data.Navigation.CustomArchiveMiniCard
+  - SuperOffice.WebApi.Data.Navigation.CustomObjectArchive
+  - SuperOffice.WebApi.Data.Navigation.CustomObjectCard
   - SuperOffice.WebApi.Data.Navigation.Dashboard
   - SuperOffice.WebApi.Data.Navigation.DiaryArchive
   - SuperOffice.WebApi.Data.Navigation.DiaryMinicard
@@ -2355,6 +2357,68 @@ items:
       <EnumMember>
 
       TicketMinicard = 72
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.Navigation.CustomObjectCard
+  commentId: F:SuperOffice.WebApi.Data.Navigation.CustomObjectCard
+  id: CustomObjectCard
+  parent: SuperOffice.WebApi.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectCard
+  nameWithType: Navigation.CustomObjectCard
+  fullName: SuperOffice.WebApi.Data.Navigation.CustomObjectCard
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '73: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Custom Object card'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      CustomObjectCard = 73
+    return:
+      type: SuperOffice.WebApi.Data.Navigation
+    content.vb: >-
+      <EnumMember>
+
+      CustomObjectCard = 73
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.Navigation.CustomObjectArchive
+  commentId: F:SuperOffice.WebApi.Data.Navigation.CustomObjectArchive
+  id: CustomObjectArchive
+  parent: SuperOffice.WebApi.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectArchive
+  nameWithType: Navigation.CustomObjectArchive
+  fullName: SuperOffice.WebApi.Data.Navigation.CustomObjectArchive
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '74: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Custom Object Archive'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      CustomObjectArchive = 74
+    return:
+      type: SuperOffice.WebApi.Data.Navigation
+    content.vb: >-
+      <EnumMember>
+
+      CustomObjectArchive = 74
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

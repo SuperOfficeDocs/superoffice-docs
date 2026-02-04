@@ -23,6 +23,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.Done
   - SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ExternalParticipants
   - SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
   - SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
   - SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
@@ -1284,6 +1285,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const OwnedExternally As String = "owned_externally"
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ExternalParticipants
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ExternalParticipants
+  id: ExternalParticipants
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ExternalParticipants
+  nameWithType: DBC.AppointmentFields.ExternalParticipants
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ExternalParticipants
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Appointment.ExternalParticipants: Holds external participant information in JSON format.'
+  example: []
+  syntax:
+    content: public const string ExternalParticipants = "external_participants"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalParticipants As String = "external_participants"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

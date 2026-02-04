@@ -16,6 +16,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketHelper
   - SuperOffice.CRM.Ticket.TicketOwnerResolver
   - SuperOffice.CRM.Ticket.TicketPriorityResolver
+  - SuperOffice.CRM.Ticket.TicketRelationHelper
   - SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
   - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
   - SuperOffice.CRM.Ticket.WeekSchedule
@@ -153,6 +154,13 @@ references:
   name: TicketPriorityResolver
   nameWithType: TicketPriorityResolver
   fullName: SuperOffice.CRM.Ticket.TicketPriorityResolver
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper
+  commentId: T:SuperOffice.CRM.Ticket.TicketRelationHelper
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html
+  name: TicketRelationHelper
+  nameWithType: TicketRelationHelper
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper
 - uid: SuperOffice.CRM.Ticket.WeekSchedule
   commentId: T:SuperOffice.CRM.Ticket.WeekSchedule
   isExternal: true

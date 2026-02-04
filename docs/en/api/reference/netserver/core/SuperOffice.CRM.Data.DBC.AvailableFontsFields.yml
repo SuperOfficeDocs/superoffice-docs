@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Data.DBC.AvailableFontsFields.AvailableFontsId
   - SuperOffice.CRM.Data.DBC.AvailableFontsFields.CssPath
+  - SuperOffice.CRM.Data.DBC.AvailableFontsFields.Deleted
   - SuperOffice.CRM.Data.DBC.AvailableFontsFields.DisplayName
   - SuperOffice.CRM.Data.DBC.AvailableFontsFields.FontFamily
   - SuperOffice.CRM.Data.DBC.AvailableFontsFields.Rank
@@ -250,6 +251,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.AvailableFontsFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.AvailableFontsFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.AvailableFontsFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.AvailableFontsFields.Deleted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'AvailableFonts.Deleted: True if font is deleted as available font'
+  example: []
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

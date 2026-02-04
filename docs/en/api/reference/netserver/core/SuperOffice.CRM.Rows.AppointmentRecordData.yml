@@ -24,6 +24,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRecordData.Done
   - SuperOffice.CRM.Rows.AppointmentRecordData.EmailId
   - SuperOffice.CRM.Rows.AppointmentRecordData.EndDate
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ExternalParticipants
   - SuperOffice.CRM.Rows.AppointmentRecordData.FreeBusy
   - SuperOffice.CRM.Rows.AppointmentRecordData.GroupIdx
   - SuperOffice.CRM.Rows.AppointmentRecordData.HasAlarm
@@ -1302,6 +1303,27 @@ items:
     return:
       type: SuperOffice.Data.AppointmentExternalOwner
     content.vb: Public OwnedExternally As AppointmentExternalOwner
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ExternalParticipants
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ExternalParticipants
+  id: ExternalParticipants
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExternalParticipants
+  nameWithType: AppointmentRecordData.ExternalParticipants
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ExternalParticipants
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Holds external participant information in JSON format.
+  example: []
+  syntax:
+    content: public string ExternalParticipants
+    return:
+      type: System.String
+    content.vb: Public ExternalParticipants As String
 - uid: SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
   id: '#ctor'

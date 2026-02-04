@@ -11,6 +11,10 @@ items:
   - SuperOffice.WebApi.Data.ParticipantInfo.Description
   - SuperOffice.WebApi.Data.ParticipantInfo.EmailAddress
   - SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+  - SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  - SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  - SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  - SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
   - SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
   - SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
   - SuperOffice.WebApi.Data.ParticipantInfo.PersonId
@@ -310,6 +314,166 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.ParticipantInfo.Description*
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  id: ExternallyOwnedType_String
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedType_String
+  nameWithType: ParticipantInfo.ExternallyOwnedType_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The type of participant if the appointment is externally owned.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("ExternallyOwnedType")]
+
+      public string ExternallyOwnedType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("ExternallyOwnedType")>
+
+      Public Property ExternallyOwnedType_String As String
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+    commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ExternallyOwnedType
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  id: ExternallyOwnedType
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedType
+  nameWithType: ParticipantInfo.ExternallyOwnedType
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The type of participant if the appointment is externally owned.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public ExternallyOwnedType? ExternallyOwnedType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ExternallyOwnedType}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ExternallyOwnedType As ExternallyOwnedType?
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+    commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  id: ExternallyOwnedStatus_String
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedStatus_String
+  nameWithType: ParticipantInfo.ExternallyOwnedStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The status of the externally owned participant.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("ExternallyOwnedStatus")]
+
+      public string ExternallyOwnedStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("ExternallyOwnedStatus")>
+
+      Public Property ExternallyOwnedStatus_String As String
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+    commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ExternallyOwnedStatus
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  id: ExternallyOwnedStatus
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedStatus
+  nameWithType: ParticipantInfo.ExternallyOwnedStatus
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The status of the externally owned participant.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public ExternallyOwnedStatus? ExternallyOwnedStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ExternallyOwnedStatus}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property ExternallyOwnedStatus As ExternallyOwnedStatus?
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+    commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent
   commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
@@ -760,3 +924,99 @@ references:
   name: Description
   nameWithType: ParticipantInfo.Description
   fullName: SuperOffice.WebApi.Data.ParticipantInfo.Description
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedType
+  name: ExternallyOwnedType
+  nameWithType: ParticipantInfo.ExternallyOwnedType
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedType_String
+  name: ExternallyOwnedType_String
+  nameWithType: ParticipantInfo.ExternallyOwnedType_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedType_String
+  name: ExternallyOwnedType_String
+  nameWithType: ParticipantInfo.ExternallyOwnedType_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType_String
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedType
+  name: ExternallyOwnedType
+  nameWithType: ParticipantInfo.ExternallyOwnedType
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedType
+- uid: System.Nullable{SuperOffice.WebApi.Data.ExternallyOwnedType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ExternallyOwnedType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ExternallyOwnedType.html
+  name: ExternallyOwnedType?
+  nameWithType: ExternallyOwnedType?
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ExternallyOwnedType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ExternallyOwnedType.html
+  - name: '?'
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedStatus
+  name: ExternallyOwnedStatus
+  nameWithType: ParticipantInfo.ExternallyOwnedStatus
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedStatus_String
+  name: ExternallyOwnedStatus_String
+  nameWithType: ParticipantInfo.ExternallyOwnedStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedStatus_String
+  name: ExternallyOwnedStatus_String
+  nameWithType: ParticipantInfo.ExternallyOwnedStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus_String
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ParticipantInfo.html#SuperOffice_WebApi_Data_ParticipantInfo_ExternallyOwnedStatus
+  name: ExternallyOwnedStatus
+  nameWithType: ParticipantInfo.ExternallyOwnedStatus
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ExternallyOwnedStatus
+- uid: System.Nullable{SuperOffice.WebApi.Data.ExternallyOwnedStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ExternallyOwnedStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ExternallyOwnedStatus.html
+  name: ExternallyOwnedStatus?
+  nameWithType: ExternallyOwnedStatus?
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    name: ExternallyOwnedStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ExternallyOwnedStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    name: ExternallyOwnedStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ExternallyOwnedStatus.html
+  - name: '?'

@@ -6,7 +6,6 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.AnalyticsData.#ctor
-  - SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey
   - SuperOffice.WebApi.Data.AnalyticsData.Company
   - SuperOffice.WebApi.Data.AnalyticsData.Email
   - SuperOffice.WebApi.Data.AnalyticsData.FeatureToggles
@@ -58,7 +57,6 @@ items:
   - SuperOffice.WebApi.Data.AnalyticsData.UserCountryName
   - SuperOffice.WebApi.Data.AnalyticsData.UserRegisteredAgeDays
   - SuperOffice.WebApi.Data.AnalyticsData.UserSignedUpAt
-  - SuperOffice.WebApi.Data.AnalyticsData.UserflowToken
   langs:
   - csharp
   - vb
@@ -110,52 +108,6 @@ items:
   nameWithType.vb: AnalyticsData.New()
   fullName.vb: SuperOffice.WebApi.Data.AnalyticsData.New()
   name.vb: New()
-- uid: SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey
-  commentId: P:SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey
-  id: AmplitudeApiKey
-  parent: SuperOffice.WebApi.Data.AnalyticsData
-  langs:
-  - csharp
-  - vb
-  name: AmplitudeApiKey
-  nameWithType: AnalyticsData.AmplitudeApiKey
-  fullName: SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey
-  type: Property
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: Amplitude API key for analytics integration
-  example: []
-  syntax:
-    content: public virtual string AmplitudeApiKey { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Overridable Property AmplitudeApiKey As String
-  overload: SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey*
-- uid: SuperOffice.WebApi.Data.AnalyticsData.UserflowToken
-  commentId: P:SuperOffice.WebApi.Data.AnalyticsData.UserflowToken
-  id: UserflowToken
-  parent: SuperOffice.WebApi.Data.AnalyticsData
-  langs:
-  - csharp
-  - vb
-  name: UserflowToken
-  nameWithType: AnalyticsData.UserflowToken
-  fullName: SuperOffice.WebApi.Data.AnalyticsData.UserflowToken
-  type: Property
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: Userflow authentication token
-  example: []
-  syntax:
-    content: public virtual string UserflowToken { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Overridable Property UserflowToken As String
-  overload: SuperOffice.WebApi.Data.AnalyticsData.UserflowToken*
 - uid: SuperOffice.WebApi.Data.AnalyticsData.Name
   commentId: P:SuperOffice.WebApi.Data.AnalyticsData.Name
   id: Name
@@ -1621,13 +1573,13 @@ references:
   nameWithType.vb: AnalyticsData.New
   fullName.vb: SuperOffice.WebApi.Data.AnalyticsData.New
   name.vb: New
-- uid: SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey*
-  commentId: Overload:SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey
+- uid: SuperOffice.WebApi.Data.AnalyticsData.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.AnalyticsData.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.AnalyticsData.html#SuperOffice_WebApi_Data_AnalyticsData_AmplitudeApiKey
-  name: AmplitudeApiKey
-  nameWithType: AnalyticsData.AmplitudeApiKey
-  fullName: SuperOffice.WebApi.Data.AnalyticsData.AmplitudeApiKey
+  href: SuperOffice.WebApi.Data.AnalyticsData.html#SuperOffice_WebApi_Data_AnalyticsData_Name
+  name: Name
+  nameWithType: AnalyticsData.Name
+  fullName: SuperOffice.WebApi.Data.AnalyticsData.Name
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1639,20 +1591,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.WebApi.Data.AnalyticsData.UserflowToken*
-  commentId: Overload:SuperOffice.WebApi.Data.AnalyticsData.UserflowToken
-  isExternal: true
-  href: SuperOffice.WebApi.Data.AnalyticsData.html#SuperOffice_WebApi_Data_AnalyticsData_UserflowToken
-  name: UserflowToken
-  nameWithType: AnalyticsData.UserflowToken
-  fullName: SuperOffice.WebApi.Data.AnalyticsData.UserflowToken
-- uid: SuperOffice.WebApi.Data.AnalyticsData.Name*
-  commentId: Overload:SuperOffice.WebApi.Data.AnalyticsData.Name
-  isExternal: true
-  href: SuperOffice.WebApi.Data.AnalyticsData.html#SuperOffice_WebApi_Data_AnalyticsData_Name
-  name: Name
-  nameWithType: AnalyticsData.Name
-  fullName: SuperOffice.WebApi.Data.AnalyticsData.Name
 - uid: SuperOffice.WebApi.Data.AnalyticsData.Email*
   commentId: Overload:SuperOffice.WebApi.Data.AnalyticsData.Email
   isExternal: true

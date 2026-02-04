@@ -26,7 +26,7 @@ items:
   summary: >-
     Carrier object for CopilotDataSourceEntity.
 
-    Entity for Copilot data source
+    Copilot data source - contains a list of settings for this source
   example:
   - >-
     Get CopilotDataSourceEntity 123 using the WebApi client:
@@ -264,7 +264,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Collection of data source settings
+  summary: Collection of data source settings - each setting has key + value
   example: []
   syntax:
     content: public virtual CopilotDataSourceSetting[] Settings { get; set; }

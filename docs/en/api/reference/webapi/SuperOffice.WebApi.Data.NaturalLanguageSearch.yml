@@ -1,0 +1,574 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  commentId: T:SuperOffice.WebApi.Data.NaturalLanguageSearch
+  id: NaturalLanguageSearch
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.#ctor
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.Query
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown
+  - SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for NaturalLanguageSearch.
+
+    Natural language search results.
+  example: []
+  syntax:
+    content: public class NaturalLanguageSearch
+    content.vb: Public Class NaturalLanguageSearch
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.#ctor
+  commentId: M:SuperOffice.WebApi.Data.NaturalLanguageSearch.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: NaturalLanguageSearch()
+  nameWithType: NaturalLanguageSearch.NaturalLanguageSearch()
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.NaturalLanguageSearch()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public NaturalLanguageSearch()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.#ctor*
+  nameWithType.vb: NaturalLanguageSearch.New()
+  fullName.vb: SuperOffice.WebApi.Data.NaturalLanguageSearch.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.Query
+  commentId: P:SuperOffice.WebApi.Data.NaturalLanguageSearch.Query
+  id: Query
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: NaturalLanguageSearch.Query
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.Query
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: User's query.
+  example: []
+  syntax:
+    content: public virtual string Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Query As String
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.Query*
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown
+  commentId: P:SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown
+  id: ResponseMarkdown
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: ResponseMarkdown
+  nameWithType: NaturalLanguageSearch.ResponseMarkdown
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Markdown response from the AI.
+  example: []
+  syntax:
+    content: public virtual string ResponseMarkdown { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ResponseMarkdown As String
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown*
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity
+  commentId: P:SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity
+  id: Entity
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: NaturalLanguageSearch.Entity
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Type of entity we are searching. e.g. 'contact', 'project' etc.
+  example: []
+  syntax:
+    content: public virtual string Entity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Entity As String
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity*
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery
+  commentId: P:SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery
+  id: ODataQuery
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: ODataQuery
+  nameWithType: NaturalLanguageSearch.ODataQuery
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Search criteria in ODATA format
+  example: []
+  syntax:
+    content: public virtual string ODataQuery { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ODataQuery As String
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery*
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: NaturalLanguageSearch.Restrictions
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Archive restrictions for the search query.
+  example: []
+  syntax:
+    content: public virtual ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Overridable Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions*
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext
+  commentId: P:SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext
+  id: InternalContext
+  parent: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  langs:
+  - csharp
+  - vb
+  name: InternalContext
+  nameWithType: NaturalLanguageSearch.InternalContext
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: AI internal context - opaque to callers.
+  example: []
+  syntax:
+    content: public virtual string InternalContext { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InternalContext As String
+  overload: SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext*
+references:
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch__ctor
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch.NaturalLanguageSearch
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.NaturalLanguageSearch
+  nameWithType.vb: NaturalLanguageSearch.New
+  fullName.vb: SuperOffice.WebApi.Data.NaturalLanguageSearch.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.Query*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.Query
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch_Query
+  name: Query
+  nameWithType: NaturalLanguageSearch.Query
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.Query
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch_ResponseMarkdown
+  name: ResponseMarkdown
+  nameWithType: NaturalLanguageSearch.ResponseMarkdown
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.ResponseMarkdown
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch_Entity
+  name: Entity
+  nameWithType: NaturalLanguageSearch.Entity
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.Entity
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch_ODataQuery
+  name: ODataQuery
+  nameWithType: NaturalLanguageSearch.ODataQuery
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.ODataQuery
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch_Restrictions
+  name: Restrictions
+  nameWithType: NaturalLanguageSearch.Restrictions
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext*
+  commentId: Overload:SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html#SuperOffice_WebApi_Data_NaturalLanguageSearch_InternalContext
+  name: InternalContext
+  nameWithType: NaturalLanguageSearch.InternalContext
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch.InternalContext

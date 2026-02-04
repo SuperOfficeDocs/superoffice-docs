@@ -310,6 +310,8 @@ items:
     name: AI_AnswerFeedbackRequest
   - uid: SuperOffice.WebApi.Data.AI_AnswerRequest
     name: AI_AnswerRequest
+  - uid: SuperOffice.WebApi.Data.AI_CancelIndexingRequest
+    name: AI_CancelIndexingRequest
   - uid: SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
     name: AI_ClearChatbotTurnsRequest
   - uid: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
@@ -330,6 +332,8 @@ items:
     name: AI_GetFormDesignFromImageRequest
   - uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
     name: AI_GetFormDesignFromUrlRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
+    name: AI_GetIndexingStatusRequest
   - uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
     name: AI_GetSummarizeContactPromptRequest
   - uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
@@ -340,6 +344,10 @@ items:
     name: AI_GetTrainingStatusRequest
   - uid: SuperOffice.WebApi.Data.AI_GuessCategoryRequest
     name: AI_GuessCategoryRequest
+  - uid: SuperOffice.WebApi.Data.AI_ParseQueryIntoRestrictionsRequest
+    name: AI_ParseQueryIntoRestrictionsRequest
+  - uid: SuperOffice.WebApi.Data.AI_RemovePhotoBackgroundRequest
+    name: AI_RemovePhotoBackgroundRequest
   - uid: SuperOffice.WebApi.Data.AI_RephraseTextRequest
     name: AI_RephraseTextRequest
   - uid: SuperOffice.WebApi.Data.AI_SearchRequest
@@ -714,6 +722,8 @@ items:
     name: AttachmentValidationResult
   - uid: SuperOffice.WebApi.Data.AutomatedCategoryUpdate
     name: AutomatedCategoryUpdate
+  - uid: SuperOffice.WebApi.Data.AvailableFont
+    name: AvailableFont
   - uid: SuperOffice.WebApi.Data.BLOB_ChangeContactImageRequest
     name: BLOB_ChangeContactImageRequest
   - uid: SuperOffice.WebApi.Data.BLOB_ChangePersonImageRequest
@@ -1212,6 +1222,8 @@ items:
     name: CopilotEntity
   - uid: SuperOffice.WebApi.Data.Country
     name: Country
+  - uid: SuperOffice.WebApi.Data.CreatePhotoBackground
+    name: CreatePhotoBackground
   - uid: SuperOffice.WebApi.Data.Credential
     name: Credential
   - uid: SuperOffice.WebApi.Data.CredentialControlType
@@ -2074,6 +2086,10 @@ items:
     name: ExtendedModuleLicense
   - uid: SuperOffice.WebApi.Data.ExternalUserInfoModification
     name: ExternalUserInfoModification
+  - uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    name: ExternallyOwnedStatus
+  - uid: SuperOffice.WebApi.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
   - uid: SuperOffice.WebApi.Data.ExtraDataFieldType
     name: ExtraDataFieldType
   - uid: SuperOffice.WebApi.Data.Favourite
@@ -2798,8 +2814,14 @@ items:
     name: MailingStatistics
   - uid: SuperOffice.WebApi.Data.Marketing_CalculateMailingStatisticsRequest
     name: Marketing_CalculateMailingStatisticsRequest
+  - uid: SuperOffice.WebApi.Data.Marketing_CreateDefaultAvailableFontRequest
+    name: Marketing_CreateDefaultAvailableFontRequest
+  - uid: SuperOffice.WebApi.Data.Marketing_DeleteAvailableFontRequest
+    name: Marketing_DeleteAvailableFontRequest
   - uid: SuperOffice.WebApi.Data.Marketing_DeleteMessageAndShipmentRequest
     name: Marketing_DeleteMessageAndShipmentRequest
+  - uid: SuperOffice.WebApi.Data.Marketing_GetAvailableFontRequest
+    name: Marketing_GetAvailableFontRequest
   - uid: SuperOffice.WebApi.Data.Marketing_GetFormSubmissionsCountRequest
     name: Marketing_GetFormSubmissionsCountRequest
   - uid: SuperOffice.WebApi.Data.Marketing_GetPreviewMailingHeaderRequest
@@ -2810,6 +2832,10 @@ items:
     name: Marketing_GetUserBlocksRequest
   - uid: SuperOffice.WebApi.Data.Marketing_RenameMailingByMessageIdRequest
     name: Marketing_RenameMailingByMessageIdRequest
+  - uid: SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
+    name: Marketing_SaveAvailableFontRequest
+  - uid: SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
+    name: Marketing_SetFontRankRequest
   - uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
     name: Marketing_VerifyGoogleRecaptchaRequest
   - uid: SuperOffice.WebApi.Data.MassOperationResult
@@ -2844,6 +2870,8 @@ items:
     name: MrMrs
   - uid: SuperOffice.WebApi.Data.MultiAlarmData
     name: MultiAlarmData
+  - uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+    name: NaturalLanguageSearch
   - uid: SuperOffice.WebApi.Data.Navigation
     name: Navigation
   - uid: SuperOffice.WebApi.Data.NavigatorCompany
@@ -3490,6 +3518,10 @@ items:
     name: RagAnswer
   - uid: SuperOffice.WebApi.Data.RagResult
     name: RagResult
+  - uid: SuperOffice.WebApi.Data.RagStatus
+    name: RagStatus
+  - uid: SuperOffice.WebApi.Data.RagStatusChunks
+    name: RagStatusChunks
   - uid: SuperOffice.WebApi.Data.RagType
     name: RagType
   - uid: SuperOffice.WebApi.Data.Rating
@@ -4362,6 +4394,8 @@ items:
     name: UserPreferenceStrings.DocTemplateTypeMap
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DuplicateSystem
     name: UserPreferenceStrings.DuplicateSystem
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.EmailNotification
+    name: UserPreferenceStrings.EmailNotification
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.ExtraFields
     name: UserPreferenceStrings.ExtraFields
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels

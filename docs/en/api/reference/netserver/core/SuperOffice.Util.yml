@@ -29,7 +29,6 @@ items:
   - SuperOffice.Util.DurationTimeHelper
   - SuperOffice.Util.Encoding
   - SuperOffice.Util.EnumerableWriter
-  - SuperOffice.Util.ExpiringDictionary`2
   - SuperOffice.Util.ExpressionUtil
   - SuperOffice.Util.FileExtensionValidator
   - SuperOffice.Util.FileNameHelper
@@ -276,40 +275,6 @@ references:
   name: EnumerableWriter
   nameWithType: EnumerableWriter
   fullName: SuperOffice.Util.EnumerableWriter
-- uid: SuperOffice.Util.ExpiringDictionary`2
-  commentId: T:SuperOffice.Util.ExpiringDictionary`2
-  isExternal: true
-  href: SuperOffice.Util.ExpiringDictionary-2.html
-  name: ExpiringDictionary<TKey, TValue>
-  nameWithType: ExpiringDictionary<TKey, TValue>
-  fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>
-  nameWithType.vb: ExpiringDictionary(Of TKey, TValue)
-  fullName.vb: SuperOffice.Util.ExpiringDictionary(Of TKey, TValue)
-  name.vb: ExpiringDictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: SuperOffice.Util.ExpiringDictionary`2
-    name: ExpiringDictionary
-    isExternal: true
-    href: SuperOffice.Util.ExpiringDictionary-2.html
-  - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Util.ExpiringDictionary`2
-    name: ExpiringDictionary
-    isExternal: true
-    href: SuperOffice.Util.ExpiringDictionary-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: )
 - uid: SuperOffice.Util.ExpressionUtil
   commentId: T:SuperOffice.Util.ExpressionUtil
   isExternal: true

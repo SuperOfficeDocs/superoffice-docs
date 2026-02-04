@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Data.QueryExecutionHelper.ExecutionType.NonQuery
   - SuperOffice.Data.QueryExecutionHelper.ExecutionType.Reader
+  - SuperOffice.Data.QueryExecutionHelper.ExecutionType.Scalar
   langs:
   - csharp
   - vb
@@ -62,6 +63,24 @@ items:
   namespace: SuperOffice.Data
   syntax:
     content: NonQuery = 1
+    return:
+      type: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType.Scalar
+  commentId: F:SuperOffice.Data.QueryExecutionHelper.ExecutionType.Scalar
+  id: Scalar
+  parent: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+  langs:
+  - csharp
+  - vb
+  name: Scalar
+  nameWithType: QueryExecutionHelper.ExecutionType.Scalar
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecutionType.Scalar
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: Scalar = 2
     return:
       type: SuperOffice.Data.QueryExecutionHelper.ExecutionType
 references:

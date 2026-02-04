@@ -5,6 +5,7 @@ items:
   id: Zomp.SyncMethodGenerator
   children:
   - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  - Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
   langs:
   - csharp
   - vb
@@ -23,6 +24,13 @@ references:
   name: CreateSyncVersionAttribute
   nameWithType: CreateSyncVersionAttribute
   fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+- uid: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
+  commentId: T:Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
+  isExternal: true
+  href: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute.html
+  name: SkipSyncVersionAttribute
+  nameWithType: SkipSyncVersionAttribute
+  fullName: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
 - uid: Zomp.SyncMethodGenerator
   commentId: N:Zomp.SyncMethodGenerator
   isExternal: true

@@ -68,7 +68,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    If the minipanel is not locked, the userpref is empty. 
+    If the minipanel is not locked, the userpref is empty.
 
     If locked, the preference contains the soprotocol for the locked view.
   example: []

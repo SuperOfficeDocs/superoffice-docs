@@ -27,6 +27,7 @@ items:
   - SuperOffice.Data.SQL.Argument
   - SuperOffice.Data.SQL.ArgumentFunction
   derivedClasses:
+  - SuperOffice.Data.SQL.DateAdd
   - SuperOffice.Data.SQL.Day
   - SuperOffice.Data.SQL.Hour
   - SuperOffice.Data.SQL.Minute

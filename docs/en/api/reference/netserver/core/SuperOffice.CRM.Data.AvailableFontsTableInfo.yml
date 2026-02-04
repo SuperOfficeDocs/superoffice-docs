@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Data.AvailableFontsTableInfo.AvailableFontsId
   - SuperOffice.CRM.Data.AvailableFontsTableInfo.CssPath
   - SuperOffice.CRM.Data.AvailableFontsTableInfo.Definition
+  - SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted
   - SuperOffice.CRM.Data.AvailableFontsTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.AvailableFontsTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.AvailableFontsTableInfo.DisplayName
@@ -456,6 +457,32 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.AvailableFontsTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted
+  commentId: P:SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.AvailableFontsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: AvailableFontsTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'deleted' in table 'available_fonts': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    True if font is deleted as available font
+  example: []
+  syntax:
+    content: public UInt16FieldInfo Deleted { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Deleted As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted*
 - uid: SuperOffice.CRM.Data.AvailableFontsTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.AvailableFontsTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1536,6 +1563,13 @@ references:
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted*
+  commentId: Overload:SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted
+  isExternal: true
+  href: SuperOffice.CRM.Data.AvailableFontsTableInfo.html#SuperOffice_CRM_Data_AvailableFontsTableInfo_Deleted
+  name: Deleted
+  nameWithType: AvailableFontsTableInfo.Deleted
+  fullName: SuperOffice.CRM.Data.AvailableFontsTableInfo.Deleted
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data

@@ -262,7 +262,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    Always proposes archiving e-mail forwarded from SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you forward from CRM.web. 
+    Always proposes archiving e-mail forwarded from SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you forward from CRM.web.
 
     <p></p>Control type: Bool, access: Admin, Admin users, Wizard
   example: []
@@ -286,7 +286,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    Always proposes archiving replies to e-mails that are archived in SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you reply to from CRM.web. 
+    Always proposes archiving replies to e-mails that are archived in SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you reply to from CRM.web.
 
     <p></p>Control type: Bool, access: Admin, Admin users, Wizard
   example: []
@@ -310,7 +310,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    Always proposes archiving e-mail created in SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you create in CRM.web. 
+    Always proposes archiving e-mail created in SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you create in CRM.web.
 
     <p></p>Control type: Bool, access: Admin, Admin users, Wizard
   example: []
@@ -334,7 +334,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    Always proposes archiving e-mail created in a non-SuperOffice MailClient (Notes/Outlook). This means that, by default, you will be asked if you want to archive all e-mail you create in Outlook and Notes. 
+    Always proposes archiving e-mail created in a non-SuperOffice MailClient (Notes/Outlook). This means that, by default, you will be asked if you want to archive all e-mail you create in Outlook and Notes.
 
     Default: false
 
@@ -1129,7 +1129,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    The display name of the SuperOffice Mail Gateway's e-mail address 
+    The display name of the SuperOffice Mail Gateway's e-mail address
 
     <p></p>Control type: Text, access: Admin, Admin users, Wizard
   example: []
@@ -1153,7 +1153,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    The SuperOffice Mail Gateway's e-mail address 
+    The SuperOffice Mail Gateway's e-mail address
 
     <p></p>Control type: Text, access: Admin, Admin users, Wizard
   example: []

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.AvailableFontsRecordData.#ctor
   - SuperOffice.CRM.Rows.AvailableFontsRecordData.AvailableFontsId
   - SuperOffice.CRM.Rows.AvailableFontsRecordData.CssPath
+  - SuperOffice.CRM.Rows.AvailableFontsRecordData.Deleted
   - SuperOffice.CRM.Rows.AvailableFontsRecordData.DisplayName
   - SuperOffice.CRM.Rows.AvailableFontsRecordData.FontFamily
   - SuperOffice.CRM.Rows.AvailableFontsRecordData.Rank
@@ -268,6 +269,27 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.AvailableFontsRecordData.Deleted
+  commentId: F:SuperOffice.CRM.Rows.AvailableFontsRecordData.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Rows.AvailableFontsRecordData
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: AvailableFontsRecordData.Deleted
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRecordData.Deleted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: True if font is deleted as available font
+  example: []
+  syntax:
+    content: public short Deleted
+    return:
+      type: System.Int16
+    content.vb: Public Deleted As Short
 - uid: SuperOffice.CRM.Rows.AvailableFontsRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.AvailableFontsRecordData.#ctor
   id: '#ctor'

@@ -5,6 +5,7 @@ items:
   id: S.ArgumentFunctions
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.S.ArgumentFunctions.DateAdd(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.ArgumentFunctions.Day(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.ArgumentFunctions.Hour(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.ArgumentFunctions.Lower(SuperOffice.Data.SQL.Argument)
@@ -298,6 +299,33 @@ items:
       description: ''
     content.vb: Public Shared Function Soundex(arg As Argument) As Soundex
   overload: SuperOffice.Data.S.ArgumentFunctions.Soundex*
+- uid: SuperOffice.Data.S.ArgumentFunctions.DateAdd(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.DateAdd(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: DateAdd(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: DateAdd(DatePart, Argument, Argument)
+  nameWithType: S.ArgumentFunctions.DateAdd(DatePart, Argument, Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.DateAdd(SuperOffice.Data.SQL.DatePart, SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static DateAdd DateAdd(DatePart datePart, Argument number, Argument date)
+    parameters:
+    - id: datePart
+      type: SuperOffice.Data.SQL.DatePart
+    - id: number
+      type: SuperOffice.Data.SQL.Argument
+    - id: date
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.DateAdd
+    content.vb: Public Shared Function DateAdd(datePart As DatePart, number As Argument, [date] As Argument) As DateAdd
+  overload: SuperOffice.Data.S.ArgumentFunctions.DateAdd*
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -845,3 +873,26 @@ references:
   name: Soundex
   nameWithType: Soundex
   fullName: SuperOffice.Data.SQL.Soundex
+- uid: SuperOffice.Data.S.ArgumentFunctions.DateAdd*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.DateAdd
+  isExternal: true
+  href: SuperOffice.Data.S.ArgumentFunctions.html#SuperOffice_Data_S_ArgumentFunctions_DateAdd_SuperOffice_Data_SQL_DatePart_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
+  name: DateAdd
+  nameWithType: S.ArgumentFunctions.DateAdd
+  fullName: SuperOffice.Data.S.ArgumentFunctions.DateAdd
+- uid: SuperOffice.Data.SQL.DatePart
+  commentId: T:SuperOffice.Data.SQL.DatePart
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DatePart.html
+  name: DatePart
+  nameWithType: DatePart
+  fullName: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DateAdd
+  commentId: T:SuperOffice.Data.SQL.DateAdd
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateAdd.html
+  name: DateAdd
+  nameWithType: DateAdd
+  fullName: SuperOffice.Data.SQL.DateAdd

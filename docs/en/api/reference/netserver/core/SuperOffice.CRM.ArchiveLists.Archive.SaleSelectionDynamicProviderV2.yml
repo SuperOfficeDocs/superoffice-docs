@@ -79,7 +79,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.PageNumber
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.HaveReadToEnd
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers
-  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -1102,14 +1101,6 @@ references:
   name: Providers
   nameWithType: MultiQueryProviderBase.Providers
   fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers
-- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_DebugXML
-  name: DebugXML
-  nameWithType: MultiQueryProviderBase.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

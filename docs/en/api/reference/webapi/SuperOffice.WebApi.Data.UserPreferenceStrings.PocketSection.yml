@@ -92,7 +92,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    Time in minutes the application can be kept idle in the background before an automatically logout is performed. 
+    Time in minutes the application can be kept idle in the background before an automatically logout is performed.
 
     Default value = 0, means no timeout."
   example: []

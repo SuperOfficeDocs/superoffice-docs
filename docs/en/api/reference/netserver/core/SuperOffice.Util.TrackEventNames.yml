@@ -13,6 +13,7 @@ items:
   - SuperOffice.Util.TrackEventNames.CompanyCreated
   - SuperOffice.Util.TrackEventNames.CompanyEnriched
   - SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
+  - SuperOffice.Util.TrackEventNames.CopilotMessaged
   - SuperOffice.Util.TrackEventNames.DocumentCreated
   - SuperOffice.Util.TrackEventNames.FAQsSearched
   - SuperOffice.Util.TrackEventNames.PersonCreated
@@ -22,6 +23,8 @@ items:
   - SuperOffice.Util.TrackEventNames.SaleCreated
   - SuperOffice.Util.TrackEventNames.SaleLost
   - SuperOffice.Util.TrackEventNames.SaleSold
+  - SuperOffice.Util.TrackEventNames.TextSummarized
+  - SuperOffice.Util.TrackEventNames.TextTransformed
   - SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   - SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
   - SuperOffice.Util.TrackEventNames.TicketAnswered
@@ -184,10 +187,29 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public const string CompanyEnrichmentSearch = "Company Enrichment Search"
+    content: public const string CompanyEnrichmentSearch = "Company Enrichment Searched"
     return:
       type: System.String
-    content.vb: Public Const CompanyEnrichmentSearch As String = "Company Enrichment Search"
+    content.vb: Public Const CompanyEnrichmentSearch As String = "Company Enrichment Searched"
+- uid: SuperOffice.Util.TrackEventNames.CopilotMessaged
+  commentId: F:SuperOffice.Util.TrackEventNames.CopilotMessaged
+  id: CopilotMessaged
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CopilotMessaged
+  nameWithType: TrackEventNames.CopilotMessaged
+  fullName: SuperOffice.Util.TrackEventNames.CopilotMessaged
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CopilotMessaged = "Copilot Messaged"
+    return:
+      type: System.String
+    content.vb: Public Const CopilotMessaged As String = "Copilot Messaged"
 - uid: SuperOffice.Util.TrackEventNames.DocumentCreated
   commentId: F:SuperOffice.Util.TrackEventNames.DocumentCreated
   id: DocumentCreated
@@ -359,6 +381,44 @@ items:
     return:
       type: System.String
     content.vb: Public Const SaleSold As String = "Sale Sold"
+- uid: SuperOffice.Util.TrackEventNames.TextSummarized
+  commentId: F:SuperOffice.Util.TrackEventNames.TextSummarized
+  id: TextSummarized
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TextSummarized
+  nameWithType: TrackEventNames.TextSummarized
+  fullName: SuperOffice.Util.TrackEventNames.TextSummarized
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TextSummarized = "Text Summarized"
+    return:
+      type: System.String
+    content.vb: Public Const TextSummarized As String = "Text Summarized"
+- uid: SuperOffice.Util.TrackEventNames.TextTransformed
+  commentId: F:SuperOffice.Util.TrackEventNames.TextTransformed
+  id: TextTransformed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TextTransformed
+  nameWithType: TrackEventNames.TextTransformed
+  fullName: SuperOffice.Util.TrackEventNames.TextTransformed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TextTransformed = "Text Transformed"
+    return:
+      type: System.String
+    content.vb: Public Const TextTransformed As String = "Text Transformed"
 - uid: SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   commentId: F:SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   id: TicketAnswerAccepted
