@@ -32,7 +32,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=134
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=784
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 

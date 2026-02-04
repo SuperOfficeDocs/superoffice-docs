@@ -28,7 +28,7 @@ NsApiSlow threshold: 1000 ms.
 | workflowWaitForActionId | int32 | **Required** The identity of the WorkflowWaitForAction |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=341
+POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=320
 ```
 
 

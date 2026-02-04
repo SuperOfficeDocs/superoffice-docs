@@ -5,6 +5,8 @@ items:
   id: TaskHelper
   parent: SuperOffice.Threading
   children:
+  - SuperOffice.Threading.TaskHelper.GetAllRunningTasks
+  - SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks
   - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
   - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Threading.CancellationToken)
   - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)
@@ -234,6 +236,29 @@ items:
   nameWithType.vb: TaskHelper.RunInUserContext(Func(Of CancellationToken, Task), CancellationToken)
   fullName.vb: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.Task), System.Threading.CancellationToken)
   name.vb: RunInUserContext(Func(Of CancellationToken, Task), CancellationToken)
+- uid: SuperOffice.Threading.TaskHelper.GetAllRunningTasks
+  commentId: M:SuperOffice.Threading.TaskHelper.GetAllRunningTasks
+  id: GetAllRunningTasks
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAllRunningTasks()
+  nameWithType: TaskHelper.GetAllRunningTasks()
+  fullName: SuperOffice.Threading.TaskHelper.GetAllRunningTasks()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Get all currently running tasks
+  example: []
+  syntax:
+    content: public static Task[] GetAllRunningTasks()
+    return:
+      type: System.Threading.Tasks.Task[]
+      description: ''
+    content.vb: Public Shared Function GetAllRunningTasks() As Task()
+  overload: SuperOffice.Threading.TaskHelper.GetAllRunningTasks*
 - uid: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
   id: WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
@@ -260,6 +285,29 @@ items:
       description: ''
     content.vb: Public Shared Function WaitForAllRunningTasksAsync(cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync*
+- uid: SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks
+  commentId: M:SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks
+  id: IterativelyWaitForRunningTasks
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: IterativelyWaitForRunningTasks()
+  nameWithType: TaskHelper.IterativelyWaitForRunningTasks()
+  fullName: SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Wait for running tasks, iteratively, to try to catch tasks started after we first start waiting
+  example: []
+  syntax:
+    content: public static Task IterativelyWaitForRunningTasks()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Shared Function IterativelyWaitForRunningTasks() As Task
+  overload: SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks*
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
@@ -980,6 +1028,36 @@ references:
   - name: " "
   - name: TResult
   - name: )
+- uid: SuperOffice.Threading.TaskHelper.GetAllRunningTasks*
+  commentId: Overload:SuperOffice.Threading.TaskHelper.GetAllRunningTasks
+  isExternal: true
+  href: SuperOffice.Threading.TaskHelper.html#SuperOffice_Threading_TaskHelper_GetAllRunningTasks
+  name: GetAllRunningTasks
+  nameWithType: TaskHelper.GetAllRunningTasks
+  fullName: SuperOffice.Threading.TaskHelper.GetAllRunningTasks
+- uid: System.Threading.Tasks.Task[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task[]
+  nameWithType: Task[]
+  fullName: System.Threading.Tasks.Task[]
+  nameWithType.vb: Task()
+  fullName.vb: System.Threading.Tasks.Task()
+  name.vb: Task()
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: (
+  - name: )
 - uid: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync*
   commentId: Overload:SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync
   isExternal: true
@@ -987,3 +1065,10 @@ references:
   name: WaitForAllRunningTasksAsync
   nameWithType: TaskHelper.WaitForAllRunningTasksAsync
   fullName: SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync
+- uid: SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks*
+  commentId: Overload:SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks
+  isExternal: true
+  href: SuperOffice.Threading.TaskHelper.html#SuperOffice_Threading_TaskHelper_IterativelyWaitForRunningTasks
+  name: IterativelyWaitForRunningTasks
+  nameWithType: TaskHelper.IterativelyWaitForRunningTasks
+  fullName: SuperOffice.Threading.TaskHelper.IterativelyWaitForRunningTasks

@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | contactEntityId | int32 | **Required** The identity of the ContactEntity |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=660
+POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=281
 ```
 
 

@@ -76,11 +76,11 @@ GET /api/v1/Contact/{id}/Documents?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Documents?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Documents?$orderBy=name asc
 GET /api/v1/Contact/{id}/Documents?$entities=et
-GET /api/v1/Contact/{id}/Documents?$top=102
-GET /api/v1/Contact/{id}/Documents?$skip=330
+GET /api/v1/Contact/{id}/Documents?$top=321
+GET /api/v1/Contact/{id}/Documents?$skip=774
 GET /api/v1/Contact/{id}/Documents?$mode=Full
 GET /api/v1/Contact/{id}/Documents?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Documents?$context=illo
+GET /api/v1/Contact/{id}/Documents?$context=eligendi
 GET /api/v1/Contact/{id}/Documents?$format=JSON
 GET /api/v1/Contact/{id}/Documents?$jsonSafe=False
 GET /api/v1/Contact/{id}/Documents?$output=Display

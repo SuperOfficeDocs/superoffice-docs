@@ -859,7 +859,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=number,personAddress/formattedAddress,personSourceRelation/hasInfoText,personAssociate/userName,contactUdef/SuperOffice:9
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=countryId,personExtra/x_person_integer,personExtra/y_rental/x_contact,personSourceRelation/personUpdatedBy,contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

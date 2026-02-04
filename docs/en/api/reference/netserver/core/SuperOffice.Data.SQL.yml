@@ -55,6 +55,8 @@ items:
   - SuperOffice.Data.SQL.DatabaseFieldAttribute
   - SuperOffice.Data.SQL.DatabaseFunctions
   - SuperOffice.Data.SQL.DatabaseTableAttribute
+  - SuperOffice.Data.SQL.DateAdd
+  - SuperOffice.Data.SQL.DatePart
   - SuperOffice.Data.SQL.DateTimeFieldInfo
   - SuperOffice.Data.SQL.Day
   - SuperOffice.Data.SQL.Delete
@@ -1571,6 +1573,22 @@ references:
   name: Second
   nameWithType: Second
   fullName: SuperOffice.Data.SQL.Second
+- uid: SuperOffice.Data.SQL.DatePart
+  commentId: T:SuperOffice.Data.SQL.DatePart
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DatePart.html
+  name: DatePart
+  nameWithType: DatePart
+  fullName: SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DateAdd
+  commentId: T:SuperOffice.Data.SQL.DateAdd
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateAdd.html
+  name: DateAdd
+  nameWithType: DateAdd
+  fullName: SuperOffice.Data.SQL.DateAdd
 - uid: SuperOffice.Data.SQL.Delete
   commentId: T:SuperOffice.Data.SQL.Delete
   parent: SuperOffice.Data.SQL

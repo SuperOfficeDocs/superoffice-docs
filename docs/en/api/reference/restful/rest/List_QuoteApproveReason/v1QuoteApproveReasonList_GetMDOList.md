@@ -28,7 +28,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=natus
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=sunt
 ```
 
 

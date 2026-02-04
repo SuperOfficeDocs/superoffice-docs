@@ -181,7 +181,7 @@ Implementation of the provider for the combined selection
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -819,7 +819,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectPublish/publishedBy,projectAssociate/associateDbId,saintTicketStatus,sale/saleUdef/SuperOffice:3,appointment/suggestedAppointmentId
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectAssociate/contactDepartment,sale/associate/fullName,appointment/appointmentUdef/SuperOffice:6,appointment/associate/isLocation,document/associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -18,17 +18,17 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: 'Required dynamic load:  Add new preference section for NetServer only [RequiredDynamicLoad] name = regexp'
   remarks: >-
-    This mechanism is more general than [SentryAddonNames] - it applies to all dynamic loaded 
+    This mechanism is more general than [SentryAddonNames] - it applies to all dynamic loaded
 
-    assemblies in NetServer. 
+    assemblies in NetServer.
 
-    Missing any one these required assemblies will cause NetServer to fail. The regexp is used 
+    Missing any one these required assemblies will cause NetServer to fail. The regexp is used
 
-    to match against the loaded assemblies full names (including version and strongname). This 
+    to match against the loaded assemblies full names (including version and strongname). This
 
-    allows a preference to match more than one possible name. Using the full name allows a 
+    allows a preference to match more than one possible name. Using the full name allows a
 
-    preference to match a strong name, so that it is harder to fake out with a dummy 
+    preference to match a strong name, so that it is harder to fake out with a dummy
 
     replacement assembly.
   example: []

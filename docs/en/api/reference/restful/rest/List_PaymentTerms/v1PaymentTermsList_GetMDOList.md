@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=nam
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=at
 ```
 
 

@@ -648,7 +648,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
 |ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency: The gross sales total| x |
 |ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|ticket/sale/daysInStage|int|Request - Days in stage: Total number of days in this stage| x |
+|ticket/sale/daysInStage| *None* |Request - Days in stage: Total number of days in this stage| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
@@ -873,7 +873,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=header,ticket/createdBy/assocTooltip,ticket/person/position,ticket/person/withdrawnEmarketingConsent,ticket/contact/mainContact
+GET /api/v1/archive/TicketMessage?$select=ticket/contact/contactUdef/SuperOffice:6,ticket/contact/contactExtra/x_contact_default_integer,ticket/contact/NumberOfNotCompletedSalesInPeriod,ticket/project/projectAssociate/contactDepartment,person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

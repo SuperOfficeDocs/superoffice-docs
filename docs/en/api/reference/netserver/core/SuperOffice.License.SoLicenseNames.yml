@@ -128,6 +128,13 @@ items:
   - SuperOffice.License.SoLicenseNames.Stakeholder
   - SuperOffice.License.SoLicenseNames.StakeholderCal
   - SuperOffice.License.SoLicenseNames.Subscription
+  - SuperOffice.License.SoLicenseNames.Suite1Starter
+  - SuperOffice.License.SoLicenseNames.Suite2Core
+  - SuperOffice.License.SoLicenseNames.Suite3Growth
+  - SuperOffice.License.SoLicenseNames.Suite4Plus
+  - SuperOffice.License.SoLicenseNames.Suite5Super
+  - SuperOffice.License.SoLicenseNames.SuiteMarker
+  - SuperOffice.License.SoLicenseNames.SuiteUser
   - SuperOffice.License.SoLicenseNames.SuperLicenseAssistant
   - SuperOffice.License.SoLicenseNames.SuperLicenseComplete
   - SuperOffice.License.SoLicenseNames.SuperLicenseContactManager
@@ -5107,6 +5114,184 @@ items:
     return:
       type: System.String
     content.vb: Public Const UtmSaving As String = "superoffice.utm-saving"
+- uid: SuperOffice.License.SoLicenseNames.SuiteMarker
+  commentId: F:SuperOffice.License.SoLicenseNames.SuiteMarker
+  id: SuiteMarker
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuiteMarker
+  nameWithType: SoLicenseNames.SuiteMarker
+  fullName: SuperOffice.License.SoLicenseNames.SuiteMarker
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite : CRM Suite marker.
+
+    Site license. Hidden
+  example: []
+  syntax:
+    content: public const string SuiteMarker = "superoffice.suite"
+    return:
+      type: System.String
+    content.vb: Public Const SuiteMarker As String = "superoffice.suite"
+- uid: SuperOffice.License.SoLicenseNames.Suite1Starter
+  commentId: F:SuperOffice.License.SoLicenseNames.Suite1Starter
+  id: Suite1Starter
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Suite1Starter
+  nameWithType: SoLicenseNames.Suite1Starter
+  fullName: SuperOffice.License.SoLicenseNames.Suite1Starter
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite1 : CRM Suite 1 - Starter tier.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Suite1Starter = "superoffice.suite1"
+    return:
+      type: System.String
+    content.vb: Public Const Suite1Starter As String = "superoffice.suite1"
+- uid: SuperOffice.License.SoLicenseNames.Suite2Core
+  commentId: F:SuperOffice.License.SoLicenseNames.Suite2Core
+  id: Suite2Core
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Suite2Core
+  nameWithType: SoLicenseNames.Suite2Core
+  fullName: SuperOffice.License.SoLicenseNames.Suite2Core
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite2 : CRM Suite 1 - Core tier.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Suite2Core = "superoffice.suite2"
+    return:
+      type: System.String
+    content.vb: Public Const Suite2Core As String = "superoffice.suite2"
+- uid: SuperOffice.License.SoLicenseNames.Suite3Growth
+  commentId: F:SuperOffice.License.SoLicenseNames.Suite3Growth
+  id: Suite3Growth
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Suite3Growth
+  nameWithType: SoLicenseNames.Suite3Growth
+  fullName: SuperOffice.License.SoLicenseNames.Suite3Growth
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite3 : CRM Suite 3 - Growth tier.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Suite3Growth = "superoffice.suite3"
+    return:
+      type: System.String
+    content.vb: Public Const Suite3Growth As String = "superoffice.suite3"
+- uid: SuperOffice.License.SoLicenseNames.Suite4Plus
+  commentId: F:SuperOffice.License.SoLicenseNames.Suite4Plus
+  id: Suite4Plus
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Suite4Plus
+  nameWithType: SoLicenseNames.Suite4Plus
+  fullName: SuperOffice.License.SoLicenseNames.Suite4Plus
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite4 : CRM Suite 4 - Plus tier.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Suite4Plus = "superoffice.suite4"
+    return:
+      type: System.String
+    content.vb: Public Const Suite4Plus As String = "superoffice.suite4"
+- uid: SuperOffice.License.SoLicenseNames.Suite5Super
+  commentId: F:SuperOffice.License.SoLicenseNames.Suite5Super
+  id: Suite5Super
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Suite5Super
+  nameWithType: SoLicenseNames.Suite5Super
+  fullName: SuperOffice.License.SoLicenseNames.Suite5Super
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite5 : CRM Suite 5 - Super tier.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Suite5Super = "superoffice.suite5"
+    return:
+      type: System.String
+    content.vb: Public Const Suite5Super As String = "superoffice.suite5"
+- uid: SuperOffice.License.SoLicenseNames.SuiteUser
+  commentId: F:SuperOffice.License.SoLicenseNames.SuiteUser
+  id: SuiteUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuiteUser
+  nameWithType: SoLicenseNames.SuiteUser
+  fullName: SuperOffice.License.SoLicenseNames.SuiteUser
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.suite-user : CRM Suite user. User-plan license that enables per-user licenses. Actual content varies depending on suite tier.
+
+    User license.  Extra flags = 1 indicates this as a user-plan.
+  example: []
+  syntax:
+    content: >-
+      [UserLicense]
+
+      public const string SuiteUser = "superoffice.suite-user"
+    return:
+      type: System.String
+    content.vb: >-
+      <UserLicense>
+
+      Public Const SuiteUser As String = "superoffice.suite-user"
+  attributes:
+  - type: SuperOffice.License.UserLicenseAttribute
+    ctor: SuperOffice.License.UserLicenseAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License

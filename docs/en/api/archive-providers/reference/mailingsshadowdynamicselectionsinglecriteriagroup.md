@@ -669,7 +669,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingSubscriptionType,emailFlow/hierarchyFullpathIds,mailingAddr/contact/saintActivityType
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingEndDate,recordTypeText,mailingAddr/contact/contactId,mailingAddr/person/restrictionAddress/wgs84latitude,mailingAddr/person/personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

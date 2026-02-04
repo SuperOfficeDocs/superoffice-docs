@@ -693,7 +693,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|documentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -748,7 +748,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/rank,documentInstance/person/personUrl/URLAddress,documentInstance/person/correspondingAssociate/fullName,documentInstance/person/correspondingAssociate/personEmail,documentInstance/contact/contactAssociate/assocType
+GET /api/v1/archive/SaleGuideDocument?$select=stageId,documentInstance/person/restrictionAddress/formattedAddress,documentInstance/person/restrictionAddress/formattedMultiLineAddress,documentInstance/person/personAssociate/firstName,documentInstance/contact/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

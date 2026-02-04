@@ -183,7 +183,7 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -779,7 +779,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/description,alternative/version/quote/sale/person/kanaLastName,alternative/version/quote/sale/contact/restrictionAddress/line3,alternative/version/quote/sale/associate/lastName,alternative/version/quote/sale/project/NumberOfActivitiesInPeriod
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/quote/quoteId,alternative/version/quote/sale/person/personAssociate/contactName,alternative/version/quote/sale/contact/restrictionAddress/line1,alternative/version/quote/sale/contact/contactAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

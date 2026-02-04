@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | userDefinedFieldInfoId | int32 | **Required** The identity of the UserDefinedFieldInfo |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?userDefinedFieldInfoId=623
+POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?userDefinedFieldInfoId=914
 ```
 
 

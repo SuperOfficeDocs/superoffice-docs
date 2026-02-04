@@ -34,7 +34,7 @@ This archive provider enables access to the information regarding report label l
 ## Sample
 
 ```http!
-GET /api/v1/archive/ReportLabelLayout?$select=labelLayoutId,description
+GET /api/v1/archive/ReportLabelLayout?$select=orientation,labelLayoutId,description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -13,7 +13,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Close
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.ColumnHelper
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.CreateAndAddProvidersAsync(SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo[])
-  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableColumns
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetFinalRowCount
@@ -1083,27 +1082,6 @@ items:
   overload: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Providers*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider.Providers
-- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-  id: DebugXML
-  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
-  langs:
-  - csharp
-  - vb
-  name: DebugXML
-  nameWithType: MultiQueryProviderBase.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public XmlDocument DebugXML { get; }
-    parameters: []
-    return:
-      type: System.Xml.XmlDocument
-    content.vb: Public ReadOnly Property DebugXML As XmlDocument
-  overload: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML*
 references:
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
@@ -3086,39 +3064,3 @@ references:
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.IArchiveProvider.html
   - name: )
-- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_DebugXML
-  name: DebugXML
-  nameWithType: MultiQueryProviderBase.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.DebugXML
-- uid: System.Xml.XmlDocument
-  commentId: T:System.Xml.XmlDocument
-  parent: System.Xml
-  isExternal: true
-  name: XmlDocument
-  nameWithType: XmlDocument
-  fullName: System.Xml.XmlDocument
-- uid: System.Xml
-  commentId: N:System.Xml
-  isExternal: true
-  name: System.Xml
-  nameWithType: System.Xml
-  fullName: System.Xml
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true

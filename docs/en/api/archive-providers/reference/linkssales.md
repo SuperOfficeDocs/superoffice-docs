@@ -88,7 +88,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1164,7 +1164,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=sale/textId,person/birthYear,contact/mainContact,project/projectAssociate/locationAddress,saleStakeholder/person/personBusiness
+GET /api/v1/archive/LinksSales?$select=associate/usergroupId,associate/assocType,project/projectAssociate/locationAddress,saleStakeholder/person/personExtra/x_person_user_relation,saleStakeholder/person/personAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -183,7 +183,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -779,7 +779,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombined?$select=alternative/version/quote/sale/person/personAssociate/lastName,alternative/version/quote/sale/contact/contactExtra/x_contact_request_relation,alternative/version/quote/sale/project/projectId,alternative/version/quote/connection/erpName,alternative/version/quote/connection/erpConnection/registeredBy
+GET /api/v1/archive/QuoteLineSelectionCombined?$select=totalCost,alternative/version/quote/sale/reopenDate,alternative/version/quote/sale/contact/email/emailHasBounced,alternative/version/quote/sale/project/updatedBy,alternative/version/quote/sale/project/projectAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

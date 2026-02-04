@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | targetGroupId | int32 | **Required** The identity of the TargetGroup |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=913
+POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=937
 ```
 
 

@@ -17,11 +17,11 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    Doc Plugin Addons: [DocPluginNames] plugin-id = prog.id.  The prog.id is requred and 
+    Doc Plugin Addons: [DocPluginNames] plugin-id = prog.id.  The prog.id is requred and
 
     matches COM ProgId property of the document plugin class.
   remarks: >-
-    NetServer document plugins declare the plugin-id without having to actually be COM compatible. 
+    NetServer document plugins declare the plugin-id without having to actually be COM compatible.
 
     <p></p>
 

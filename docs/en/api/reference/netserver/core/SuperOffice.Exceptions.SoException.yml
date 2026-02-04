@@ -49,6 +49,7 @@ items:
   - SuperOffice.Exceptions.SoConsentException
   - SuperOffice.Exceptions.SoDbAccessException
   - SuperOffice.Exceptions.SoDuplicateException
+  - SuperOffice.Exceptions.SoFeatureToggleException
   - SuperOffice.Exceptions.SoFileNotFoundException
   - SuperOffice.Exceptions.SoFunctionRightException
   - SuperOffice.Exceptions.SoIllegalOperationException

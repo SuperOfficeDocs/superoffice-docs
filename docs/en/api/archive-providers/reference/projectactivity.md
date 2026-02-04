@@ -1167,7 +1167,7 @@ Activity archive provider for the Project card
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1266,7 +1266,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=getAllRows,mailingAddr/contact/postAddress/wgs84latitude,mailingAddr/contact/LastDoByActivity,associate/contactCategory,person/personExtra/y_rental/x_start
+GET /api/v1/archive/ProjectActivity?$select=mailingEndDate,mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/contactUdef/SuperOffice:13,mailingAddr/person/personCountry,mailingAddr/person/personInfo/infoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

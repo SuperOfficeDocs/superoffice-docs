@@ -183,7 +183,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -822,7 +822,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectMember/personExtra/y_rental/id,projectMember/correspondingAssociate/ejDisplayName,appointment/appointmentUdef/SuperOffice:3
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=number,NumberOfNotCompletedActivitiesInPeriod,appointment/appointmentPublish/publishedTo,projectMember/personUdef/SuperOffice:9,projectMember/contactUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

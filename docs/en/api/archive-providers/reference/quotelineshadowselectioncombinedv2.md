@@ -183,7 +183,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -779,7 +779,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=productCategoryKey,alternative/version/quote/sale/person/mrMrs,alternative/version/quote/sale/person/personNoMail,alternative/version/quote/sale/person/personAssociate/assocType,alternative/version/quote/sale/contact/deletedDate
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=vatInfo,alternative/vatInfo,alternative/version/quote/sale/competitor,alternative/version/quote/sale/person/personAddress/city,alternative/version/quote/sale/person/personAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

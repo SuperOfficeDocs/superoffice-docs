@@ -27,8 +27,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=recusandae
+GET /api/v1/List/Reason/MDOItems?flat=False
+GET /api/v1/List/Reason/MDOItems?query=consequatur
 ```
 
 

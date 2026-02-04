@@ -9,7 +9,9 @@ items:
   - SuperOffice.Data.SoConnection.BeginTransaction
   - SuperOffice.Data.SoConnection.BeginTransaction(System.Data.IsolationLevel)
   - SuperOffice.Data.SoConnection.Close
+  - SuperOffice.Data.SoConnection.ConnectionTrackingIdSource
   - SuperOffice.Data.SoConnection.CreateCommand
+  - SuperOffice.Data.SoConnection.CurrentTest
   - SuperOffice.Data.SoConnection.DigContextTrace
   - SuperOffice.Data.SoConnection.Dispose
   - SuperOffice.Data.SoConnection.InnerConnection
@@ -258,6 +260,48 @@ items:
   overload: SuperOffice.Data.SoConnection.Dispose*
   implements:
   - System.IDisposable.Dispose
+- uid: SuperOffice.Data.SoConnection.CurrentTest
+  commentId: P:SuperOffice.Data.SoConnection.CurrentTest
+  id: CurrentTest
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: CurrentTest
+  nameWithType: SoConnection.CurrentTest
+  fullName: SuperOffice.Data.SoConnection.CurrentTest
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static string CurrentTest { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CurrentTest As String
+  overload: SuperOffice.Data.SoConnection.CurrentTest*
+- uid: SuperOffice.Data.SoConnection.ConnectionTrackingIdSource
+  commentId: P:SuperOffice.Data.SoConnection.ConnectionTrackingIdSource
+  id: ConnectionTrackingIdSource
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: ConnectionTrackingIdSource
+  nameWithType: SoConnection.ConnectionTrackingIdSource
+  fullName: SuperOffice.Data.SoConnection.ConnectionTrackingIdSource
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static long ConnectionTrackingIdSource { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Shared ReadOnly Property ConnectionTrackingIdSource As Long
+  overload: SuperOffice.Data.SoConnection.ConnectionTrackingIdSource*
 - uid: SuperOffice.Data.SoConnection.OpenByCustAndAge
   commentId: P:SuperOffice.Data.SoConnection.OpenByCustAndAge
   id: OpenByCustAndAge
@@ -1010,6 +1054,31 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
   - name: (
   - name: )
+- uid: SuperOffice.Data.SoConnection.CurrentTest*
+  commentId: Overload:SuperOffice.Data.SoConnection.CurrentTest
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_CurrentTest
+  name: CurrentTest
+  nameWithType: SoConnection.CurrentTest
+  fullName: SuperOffice.Data.SoConnection.CurrentTest
+- uid: SuperOffice.Data.SoConnection.ConnectionTrackingIdSource*
+  commentId: Overload:SuperOffice.Data.SoConnection.ConnectionTrackingIdSource
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_ConnectionTrackingIdSource
+  name: ConnectionTrackingIdSource
+  nameWithType: SoConnection.ConnectionTrackingIdSource
+  fullName: SuperOffice.Data.SoConnection.ConnectionTrackingIdSource
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
 - uid: SuperOffice.Data.SoConnection.OpenByCustAndAge*
   commentId: Overload:SuperOffice.Data.SoConnection.OpenByCustAndAge
   isExternal: true

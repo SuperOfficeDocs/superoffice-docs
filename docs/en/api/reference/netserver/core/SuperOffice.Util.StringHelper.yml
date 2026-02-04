@@ -5,6 +5,7 @@ items:
   id: StringHelper
   parent: SuperOffice.Util
   children:
+  - SuperOffice.Util.StringHelper.CleanseString(System.String)
   - SuperOffice.Util.StringHelper.ConvertDoubledQuotesToBackslashQuote(System.String)
   - SuperOffice.Util.StringHelper.Deinternationalize(System.String)
   - SuperOffice.Util.StringHelper.IsNonEmptyStringMatch(System.String,System.String)
@@ -194,6 +195,37 @@ items:
   nameWithType.vb: StringHelper.PrettyChop(String, Integer)
   fullName.vb: SuperOffice.Util.StringHelper.PrettyChop(String, Integer)
   name.vb: PrettyChop(String, Integer)
+- uid: SuperOffice.Util.StringHelper.CleanseString(System.String)
+  commentId: M:SuperOffice.Util.StringHelper.CleanseString(System.String)
+  id: CleanseString(System.String)
+  parent: SuperOffice.Util.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: CleanseString(string)
+  nameWithType: StringHelper.CleanseString(string)
+  fullName: SuperOffice.Util.StringHelper.CleanseString(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Normalize spacing: collapse multiple spaces into one and 
+
+    remove whitespace around colon-quoted values (e.g., ': " Name "' -&gt; ':"Name"')
+  example: []
+  syntax:
+    content: public static string CleanseString(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CleanseString(value As String) As String
+  overload: SuperOffice.Util.StringHelper.CleanseString*
+  nameWithType.vb: StringHelper.CleanseString(String)
+  fullName.vb: SuperOffice.Util.StringHelper.CleanseString(String)
+  name.vb: CleanseString(String)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -527,3 +559,10 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.Util.StringHelper.CleanseString*
+  commentId: Overload:SuperOffice.Util.StringHelper.CleanseString
+  isExternal: true
+  href: SuperOffice.Util.StringHelper.html#SuperOffice_Util_StringHelper_CleanseString_System_String_
+  name: CleanseString
+  nameWithType: StringHelper.CleanseString
+  fullName: SuperOffice.Util.StringHelper.CleanseString

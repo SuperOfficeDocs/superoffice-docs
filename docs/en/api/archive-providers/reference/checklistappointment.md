@@ -653,7 +653,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -748,7 +748,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/streetAddress/zip,contact/contactExtra/x_contact_float,contact/NumberOfActivitiesInPeriod,contact/NumberOfTicketsInPeriod,person/personAssociate/simultaneousEjUser
+GET /api/v1/archive/ChecklistAppointment?$select=contact/restrictionAddress/line3,person/personUdef/SuperOffice:10,appointmentUdef/SuperOffice:3,project/projectAssociate/assocTooltip,project/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

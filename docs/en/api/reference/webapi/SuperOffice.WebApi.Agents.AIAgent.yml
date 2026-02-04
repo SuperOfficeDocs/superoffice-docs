@@ -12,6 +12,7 @@ items:
   - SuperOffice.WebApi.Agents.AIAgent.AnswerAcceptedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.ClearChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotDataSourceEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.CreateDefaultCopilotEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -28,11 +29,14 @@ items:
   - SuperOffice.WebApi.Agents.AIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetSummarizeContactPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetSummarizeSalePromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetSummarizeTicketPromptAsync(System.Int32,System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.GuessCategoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.RephraseTextAsync(System.String,SuperOffice.WebApi.Data.AiTextStyle,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.SaveCopilotDataSourceEntityAsync(SuperOffice.WebApi.Data.CopilotDataSourceEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AIAgent.SaveCopilotEntityAsync(SuperOffice.WebApi.Data.CopilotEntity,SuperOffice.WebApi.RequestOptions)
@@ -1159,6 +1163,85 @@ items:
   nameWithType.vb: AIAgent.TranslateEntityAsync(String, Integer, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.AIAgent.TranslateEntityAsync(String, Integer, String, SuperOffice.WebApi.RequestOptions)
   name.vb: TranslateEntityAsync(String, Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  id: ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: ParseQueryIntoRestrictionsAsync(string, string, NaturalLanguageSearch, RequestOptions)
+  nameWithType: AIAgent.ParseQueryIntoRestrictionsAsync(string, string, NaturalLanguageSearch, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync(string, string, SuperOffice.WebApi.Data.NaturalLanguageSearch, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Return archive restrictions based on a natural language query.
+  example: []
+  syntax:
+    content: public Task<NaturalLanguageSearch> ParseQueryIntoRestrictionsAsync(string query, string currents, NaturalLanguageSearch previousQuery, RequestOptions requestOptions = null)
+    parameters:
+    - id: query
+      type: System.String
+      description: What the user asked for.
+    - id: currents
+      type: System.String
+      description: Current context prompt. e.g. Current company name and id, what selection are we looking at?
+    - id: previousQuery
+      type: SuperOffice.WebApi.Data.NaturalLanguageSearch
+      description: Previous query, if applicable. NULL if no previous query.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NaturalLanguageSearch}
+      description: Returns archive restrictions and columns for the query. Pass this result in as the previous query on the next call to continue the conversation.
+    content.vb: Public Function ParseQueryIntoRestrictionsAsync(query As String, currents As String, previousQuery As NaturalLanguageSearch, requestOptions As RequestOptions = Nothing) As Task(Of NaturalLanguageSearch)
+  overload: SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.ParseQueryIntoRestrictionsAsync(String, String, NaturalLanguageSearch, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync(String, String, SuperOffice.WebApi.Data.NaturalLanguageSearch, SuperOffice.WebApi.RequestOptions)
+  name.vb: ParseQueryIntoRestrictionsAsync(String, String, NaturalLanguageSearch, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  id: RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: RemovePhotoBackgroundAsync(byte[], string, RequestOptions)
+  nameWithType: AIAgent.RemovePhotoBackgroundAsync(byte[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync(byte[], string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns an image with the background removed, leaving only the main subject
+  example: []
+  syntax:
+    content: public Task<byte[]> RemovePhotoBackgroundAsync(byte[] image, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: image
+      type: System.Byte[]
+      description: Image to be cleaned. JPG or PNG.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: Image with background removed
+    content.vb: Public Function RemovePhotoBackgroundAsync(image As Byte(), returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.RemovePhotoBackgroundAsync(Byte(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync(Byte(), String, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemovePhotoBackgroundAsync(Byte(), String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.AIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1358,6 +1441,76 @@ items:
   nameWithType.vb: AIAgent.StartRagIndexingAsync(String, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.AIAgent.StartRagIndexingAsync(String, String, SuperOffice.WebApi.RequestOptions)
   name.vb: StartRagIndexingAsync(String, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetIndexingStatusAsync(string, RequestOptions)
+  nameWithType: AIAgent.GetIndexingStatusAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the current status.
+  example: []
+  syntax:
+    content: public Task<RagStatus> GetIndexingStatusAsync(string namespaceName, RequestOptions requestOptions = null)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Identifies the namespace to store content in.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagStatus}
+      description: Status of the indexing run - may be cancelled if another run is in progress.
+    content.vb: Public Function GetIndexingStatusAsync(namespaceName As String, requestOptions As RequestOptions = Nothing) As Task(Of RagStatus)
+  overload: SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.GetIndexingStatusAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetIndexingStatusAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: CancelIndexingAsync(string, RequestOptions)
+  nameWithType: AIAgent.CancelIndexingAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Cancel the current re-indexing job on a given namespace. Leaves data in inconsistent state, because removal of old data is skipped.
+  example: []
+  syntax:
+    content: public Task<RagStatus> CancelIndexingAsync(string namespaceName, RequestOptions requestOptions = null)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Identifies the namespace to stop indexing in.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagStatus}
+      description: Status of the indexing run after cancellation.
+    content.vb: Public Function CancelIndexingAsync(namespaceName As String, requestOptions As RequestOptions = Nothing) As Task(Of RagStatus)
+  overload: SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AIAgent.CancelIndexingAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CancelIndexingAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.AIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AIAgent.SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: SummarizeTicketAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -4984,6 +5137,232 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_ParseQueryIntoRestrictionsAsync_System_String_System_String_SuperOffice_WebApi_Data_NaturalLanguageSearch_SuperOffice_WebApi_RequestOptions_
+  name: ParseQueryIntoRestrictionsAsync
+  nameWithType: AIAgent.ParseQueryIntoRestrictionsAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.ParseQueryIntoRestrictionsAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_ParseQueryIntoRestrictionsAsync_System_String_System_String_SuperOffice_WebApi_Data_NaturalLanguageSearch_SuperOffice_WebApi_RequestOptions_
+  name: ParseQueryIntoRestrictionsAsync(string, string, NaturalLanguageSearch, RequestOptions)
+  nameWithType: IAIAgent.ParseQueryIntoRestrictionsAsync(string, string, NaturalLanguageSearch, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(string, string, SuperOffice.WebApi.Data.NaturalLanguageSearch, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.ParseQueryIntoRestrictionsAsync(String, String, NaturalLanguageSearch, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(String, String, SuperOffice.WebApi.Data.NaturalLanguageSearch, SuperOffice.WebApi.RequestOptions)
+  name.vb: ParseQueryIntoRestrictionsAsync(String, String, NaturalLanguageSearch, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+    name: ParseQueryIntoRestrictionsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_ParseQueryIntoRestrictionsAsync_System_String_System_String_SuperOffice_WebApi_Data_NaturalLanguageSearch_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+    name: NaturalLanguageSearch
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.ParseQueryIntoRestrictionsAsync(System.String,System.String,SuperOffice.WebApi.Data.NaturalLanguageSearch,SuperOffice.WebApi.RequestOptions)
+    name: ParseQueryIntoRestrictionsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_ParseQueryIntoRestrictionsAsync_System_String_System_String_SuperOffice_WebApi_Data_NaturalLanguageSearch_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+    name: NaturalLanguageSearch
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+  commentId: T:SuperOffice.WebApi.Data.NaturalLanguageSearch
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch
+  fullName: SuperOffice.WebApi.Data.NaturalLanguageSearch
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NaturalLanguageSearch}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NaturalLanguageSearch}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NaturalLanguageSearch>
+  nameWithType: Task<NaturalLanguageSearch>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.NaturalLanguageSearch>
+  nameWithType.vb: Task(Of NaturalLanguageSearch)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.NaturalLanguageSearch)
+  name.vb: Task(Of NaturalLanguageSearch)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+    name: NaturalLanguageSearch
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.NaturalLanguageSearch
+    name: NaturalLanguageSearch
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NaturalLanguageSearch.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_RemovePhotoBackgroundAsync_System_Byte___System_String_SuperOffice_WebApi_RequestOptions_
+  name: RemovePhotoBackgroundAsync
+  nameWithType: AIAgent.RemovePhotoBackgroundAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.RemovePhotoBackgroundAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_RemovePhotoBackgroundAsync_System_Byte___System_String_SuperOffice_WebApi_RequestOptions_
+  name: RemovePhotoBackgroundAsync(byte[], string, RequestOptions)
+  nameWithType: IAIAgent.RemovePhotoBackgroundAsync(byte[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(byte[], string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.RemovePhotoBackgroundAsync(Byte(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(Byte(), String, SuperOffice.WebApi.RequestOptions)
+  name.vb: RemovePhotoBackgroundAsync(Byte(), String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: RemovePhotoBackgroundAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_RemovePhotoBackgroundAsync_System_Byte___System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.RemovePhotoBackgroundAsync(System.Byte[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: RemovePhotoBackgroundAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_RemovePhotoBackgroundAsync_System_Byte___System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: T:System.Threading.Tasks.Task{System.Byte[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<byte[]>
+  nameWithType: Task<byte[]>
+  fullName: System.Threading.Tasks.Task<byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
 - uid: SuperOffice.WebApi.Agents.AIAgent.AnswerAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.AnswerAsync
   isExternal: true
@@ -5411,6 +5790,145 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_GetIndexingStatusAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetIndexingStatusAsync
+  nameWithType: AIAgent.GetIndexingStatusAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.GetIndexingStatusAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetIndexingStatusAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetIndexingStatusAsync(string, RequestOptions)
+  nameWithType: IAIAgent.GetIndexingStatusAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.GetIndexingStatusAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetIndexingStatusAsync(String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetIndexingStatusAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetIndexingStatusAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetIndexingStatusAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetIndexingStatusAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagStatus}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.RagStatus}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RagStatus>
+  nameWithType: Task<RagStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.RagStatus>
+  nameWithType.vb: Task(Of RagStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.RagStatus)
+  name.vb: Task(Of RagStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.RagStatus
+    name: RagStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RagStatus.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.RagStatus
+    name: RagStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RagStatus.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html#SuperOffice_WebApi_Agents_AIAgent_CancelIndexingAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CancelIndexingAsync
+  nameWithType: AIAgent.CancelIndexingAsync
+  fullName: SuperOffice.WebApi.Agents.AIAgent.CancelIndexingAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CancelIndexingAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CancelIndexingAsync(string, RequestOptions)
+  nameWithType: IAIAgent.CancelIndexingAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAIAgent.CancelIndexingAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CancelIndexingAsync(String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: CancelIndexingAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CancelIndexingAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAIAgent.CancelIndexingAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: CancelIndexingAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_CancelIndexingAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
   - uid: System.String
     name: String
     isExternal: true

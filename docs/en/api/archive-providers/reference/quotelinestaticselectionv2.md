@@ -183,7 +183,7 @@ Static archive Provider for the Selection quoteline archive.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -779,7 +779,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=alternative/version/number,alternative/version/reason,alternative/version/quote/sale/person/useAsMailingAddress,alternative/version/quote/sale/person/personAssociate/contactName,alternative/version/quote/sale/contact/name
+GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=personId,alternative/version/quote/sale/person/personAddress/wgs84longitude,alternative/version/quote/sale/contact/streetAddress/formattedAddress,alternative/version/quote/sale/project/projectUrl/URLDescription,alternative/version/quote/sale/project/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

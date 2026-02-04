@@ -29,8 +29,8 @@ Search the strings using Q parameter.
 | isoLangCode | string |  ISO Language code. ("nb-no", "en-gb" etc) Defaults to English if nothing specified in the Accept-Language header. |
 
 ```http
-GET /api/v1/String?q=asperiores
-GET /api/v1/String?isoLangCode=nihil
+GET /api/v1/String?q=odit
+GET /api/v1/String?isoLangCode=assumenda
 ```
 
 

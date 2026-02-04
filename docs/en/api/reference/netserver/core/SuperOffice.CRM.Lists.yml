@@ -132,7 +132,9 @@ items:
   - SuperOffice.CRM.Lists.InterestMDOListItem
   - SuperOffice.CRM.Lists.InvitationTemplateLanguageProvider
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
+  - SuperOffice.CRM.Lists.KbAccessLevelProvider
   - SuperOffice.CRM.Lists.KbEntryListProvider
+  - SuperOffice.CRM.Lists.KbWorkflowProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.LeadStatusListProvider
   - SuperOffice.CRM.Lists.LegalBaseListProvider
@@ -170,6 +172,7 @@ items:
   - SuperOffice.CRM.Lists.MergeTagsProvider
   - SuperOffice.CRM.Lists.MonthProvider
   - SuperOffice.CRM.Lists.OfMonthProvider
+  - SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   - SuperOffice.CRM.Lists.OwnerContactProvider
   - SuperOffice.CRM.Lists.PeriodProvider
   - SuperOffice.CRM.Lists.PeriodsProvider
@@ -220,6 +223,7 @@ items:
   - SuperOffice.CRM.Lists.RelationListProvider
   - SuperOffice.CRM.Lists.RelationListProvider.RelationType
   - SuperOffice.CRM.Lists.RelationsSearchListProvider
+  - SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider
   - SuperOffice.CRM.Lists.ReplyTemplateProvider
   - SuperOffice.CRM.Lists.ResourceMDOProvider
   - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
@@ -282,6 +286,7 @@ items:
   - SuperOffice.CRM.Lists.TicketPriorityListProvider
   - SuperOffice.CRM.Lists.TicketReadStatusProvider
   - SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
+  - SuperOffice.CRM.Lists.TicketRelationTypeProvider
   - SuperOffice.CRM.Lists.TicketSLevelProvider
   - SuperOffice.CRM.Lists.TicketStatusProvider
   - SuperOffice.CRM.Lists.TicketStatusTimeCounterProvider
@@ -1288,6 +1293,13 @@ references:
   name: Iso6391LanguageProvider
   nameWithType: Iso6391LanguageProvider
   fullName: SuperOffice.CRM.Lists.Iso6391LanguageProvider
+- uid: SuperOffice.CRM.Lists.KbAccessLevelProvider
+  commentId: T:SuperOffice.CRM.Lists.KbAccessLevelProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.KbAccessLevelProvider.html
+  name: KbAccessLevelProvider
+  nameWithType: KbAccessLevelProvider
+  fullName: SuperOffice.CRM.Lists.KbAccessLevelProvider
 - uid: SuperOffice.CRM.Lists.KbEntryListProvider
   commentId: T:SuperOffice.CRM.Lists.KbEntryListProvider
   isExternal: true
@@ -1295,6 +1307,13 @@ references:
   name: KbEntryListProvider
   nameWithType: KbEntryListProvider
   fullName: SuperOffice.CRM.Lists.KbEntryListProvider
+- uid: SuperOffice.CRM.Lists.KbWorkflowProvider
+  commentId: T:SuperOffice.CRM.Lists.KbWorkflowProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.KbWorkflowProvider.html
+  name: KbWorkflowProvider
+  nameWithType: KbWorkflowProvider
+  fullName: SuperOffice.CRM.Lists.KbWorkflowProvider
 - uid: SuperOffice.CRM.Lists.LanguageProvider
   commentId: T:SuperOffice.CRM.Lists.LanguageProvider
   isExternal: true
@@ -1428,6 +1447,13 @@ references:
   name: MergeTagsProvider
   nameWithType: MergeTagsProvider
   fullName: SuperOffice.CRM.Lists.MergeTagsProvider
+- uid: SuperOffice.CRM.Lists.OnlineFontLibraryProvider
+  commentId: T:SuperOffice.CRM.Lists.OnlineFontLibraryProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.OnlineFontLibraryProvider.html
+  name: OnlineFontLibraryProvider
+  nameWithType: OnlineFontLibraryProvider
+  fullName: SuperOffice.CRM.Lists.OnlineFontLibraryProvider
 - uid: SuperOffice.CRM.Lists.OwnerContactProvider
   commentId: T:SuperOffice.CRM.Lists.OwnerContactProvider
   isExternal: true
@@ -1801,6 +1827,13 @@ references:
   name: RelationsSearchListProvider
   nameWithType: RelationsSearchListProvider
   fullName: SuperOffice.CRM.Lists.RelationsSearchListProvider
+- uid: SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider
+  commentId: T:SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider.html
+  name: ReplyTemplateAccessLevelProvider
+  nameWithType: ReplyTemplateAccessLevelProvider
+  fullName: SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider
 - uid: SuperOffice.CRM.Lists.ReplyTemplateProvider
   commentId: T:SuperOffice.CRM.Lists.ReplyTemplateProvider
   isExternal: true
@@ -2124,6 +2157,13 @@ references:
   name: TicketRelationDefinitionProvider
   nameWithType: TicketRelationDefinitionProvider
   fullName: SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
+- uid: SuperOffice.CRM.Lists.TicketRelationTypeProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketRelationTypeProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.TicketRelationTypeProvider.html
+  name: TicketRelationTypeProvider
+  nameWithType: TicketRelationTypeProvider
+  fullName: SuperOffice.CRM.Lists.TicketRelationTypeProvider
 - uid: SuperOffice.CRM.Lists.TicketSLevelProvider
   commentId: T:SuperOffice.CRM.Lists.TicketSLevelProvider
   isExternal: true

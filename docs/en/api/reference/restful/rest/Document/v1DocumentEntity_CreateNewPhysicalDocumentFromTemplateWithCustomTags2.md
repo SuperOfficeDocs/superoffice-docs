@@ -38,13 +38,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=298
-POST /api/v1/Document/{documentId}/Content?personId=822
-POST /api/v1/Document/{documentId}/Content?appointmentId=710
-POST /api/v1/Document/{documentId}/Content?saleId=305
-POST /api/v1/Document/{documentId}/Content?selectionId=383
-POST /api/v1/Document/{documentId}/Content?projectId=861
-POST /api/v1/Document/{documentId}/Content?uiCulture=nihil
+POST /api/v1/Document/{documentId}/Content?contactId=67
+POST /api/v1/Document/{documentId}/Content?personId=956
+POST /api/v1/Document/{documentId}/Content?appointmentId=479
+POST /api/v1/Document/{documentId}/Content?saleId=593
+POST /api/v1/Document/{documentId}/Content?selectionId=509
+POST /api/v1/Document/{documentId}/Content?projectId=881
+POST /api/v1/Document/{documentId}/Content?uiCulture=et
 ```
 
 

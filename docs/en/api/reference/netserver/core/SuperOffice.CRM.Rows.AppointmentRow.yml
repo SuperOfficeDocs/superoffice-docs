@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.Done
   - SuperOffice.CRM.Rows.AppointmentRow.EmailId
   - SuperOffice.CRM.Rows.AppointmentRow.EndDate
+  - SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
   - SuperOffice.CRM.Rows.AppointmentRow.FreeBusy
   - SuperOffice.CRM.Rows.AppointmentRow.GetAppointmentStatus(SuperOffice.Data.InvitationStatus,SuperOffice.Data.AssignmentStatus,SuperOffice.Data.ActivityStatus)
   - SuperOffice.CRM.Rows.AppointmentRow.GetAssignmentStatus(SuperOffice.Data.AppointmentStatus)
@@ -78,6 +79,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.OnDoneChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnEmailIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnEndDateChange
+  - SuperOffice.CRM.Rows.AppointmentRow.OnExternalParticipantsChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnFreeBusyChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnGroupIdxChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnHasAlarmChange
@@ -173,6 +175,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._currentDone
   - SuperOffice.CRM.Rows.AppointmentRow._currentEmailId
   - SuperOffice.CRM.Rows.AppointmentRow._currentEndDate
+  - SuperOffice.CRM.Rows.AppointmentRow._currentExternalParticipants
   - SuperOffice.CRM.Rows.AppointmentRow._currentFreeBusy
   - SuperOffice.CRM.Rows.AppointmentRow._currentGroupIdx
   - SuperOffice.CRM.Rows.AppointmentRow._currentHasAlarm
@@ -229,6 +232,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._onDoneChange
   - SuperOffice.CRM.Rows.AppointmentRow._onEmailIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onEndDateChange
+  - SuperOffice.CRM.Rows.AppointmentRow._onExternalParticipantsChange
   - SuperOffice.CRM.Rows.AppointmentRow._onFreeBusyChange
   - SuperOffice.CRM.Rows.AppointmentRow._onGroupIdxChange
   - SuperOffice.CRM.Rows.AppointmentRow._onHasAlarmChange
@@ -286,6 +290,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._persistedDone
   - SuperOffice.CRM.Rows.AppointmentRow._persistedEmailId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedEndDate
+  - SuperOffice.CRM.Rows.AppointmentRow._persistedExternalParticipants
   - SuperOffice.CRM.Rows.AppointmentRow._persistedFreeBusy
   - SuperOffice.CRM.Rows.AppointmentRow._persistedGroupIdx
   - SuperOffice.CRM.Rows.AppointmentRow._persistedHasAlarm
@@ -1673,6 +1678,27 @@ items:
     return:
       type: SuperOffice.Data.AppointmentExternalOwner
     content.vb: Protected _persistedOwnedExternally As AppointmentExternalOwner
+- uid: SuperOffice.CRM.Rows.AppointmentRow._persistedExternalParticipants
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedExternalParticipants
+  id: _persistedExternalParticipants
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedExternalParticipants
+  nameWithType: AppointmentRow._persistedExternalParticipants
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._persistedExternalParticipants
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedExternalParticipants
+    return:
+      type: System.String
+    content.vb: Protected _persistedExternalParticipants As String
 - uid: SuperOffice.CRM.Rows.AppointmentRow._currentAppointmentId
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentAppointmentId
   id: _currentAppointmentId
@@ -2870,6 +2896,27 @@ items:
     return:
       type: SuperOffice.Data.AppointmentExternalOwner
     content.vb: Protected _currentOwnedExternally As AppointmentExternalOwner
+- uid: SuperOffice.CRM.Rows.AppointmentRow._currentExternalParticipants
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentExternalParticipants
+  id: _currentExternalParticipants
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _currentExternalParticipants
+  nameWithType: AppointmentRow._currentExternalParticipants
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._currentExternalParticipants
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentExternalParticipants
+    return:
+      type: System.String
+    content.vb: Protected _currentExternalParticipants As String
 - uid: SuperOffice.CRM.Rows.AppointmentRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.AppointmentRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -5854,6 +5901,37 @@ items:
       type: SuperOffice.Data.AppointmentExternalOwner
     content.vb: Public Overridable Property OwnedExternally As AppointmentExternalOwner
   overload: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally*
+- uid: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
+  commentId: P:SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
+  id: ExternalParticipants
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: ExternalParticipants
+  nameWithType: AppointmentRow.ExternalParticipants
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Holds external participant information in JSON format.'
+  remarks: >-
+    Original type in dictionary:  Clob.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string ExternalParticipants { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExternalParticipants As String
+  overload: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants*
 - uid: SuperOffice.CRM.Rows.AppointmentRow._onContactIdChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onContactIdChange
   id: _onContactIdChange
@@ -7030,6 +7108,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
     content.vb: Protected Event _onOwnedExternallyChange As OnFieldChange(Of AppointmentExternalOwner)
+- uid: SuperOffice.CRM.Rows.AppointmentRow._onExternalParticipantsChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onExternalParticipantsChange
+  id: _onExternalParticipantsChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _onExternalParticipantsChange
+  nameWithType: AppointmentRow._onExternalParticipantsChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._onExternalParticipantsChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants" data-throw-if-not-resolved="false"></xref>; field is of .NET type string.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<string> _onExternalParticipantsChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Protected Event _onExternalParticipantsChange As OnFieldChange(Of String)
 - uid: SuperOffice.CRM.Rows.AppointmentRow.OnContactIdChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnContactIdChange
   id: OnContactIdChange
@@ -8206,6 +8305,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
     content.vb: Public Event OnOwnedExternallyChange As OnFieldChange(Of AppointmentExternalOwner)
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OnExternalParticipantsChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnExternalParticipantsChange
+  id: OnExternalParticipantsChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: OnExternalParticipantsChange
+  nameWithType: AppointmentRow.OnExternalParticipantsChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OnExternalParticipantsChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when ExternalParticipants is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<string> OnExternalParticipantsChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
+    content.vb: Public Event OnExternalParticipantsChange As OnFieldChange(Of String)
 - uid: SuperOffice.CRM.Rows.AppointmentRow.OnValueChanged
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnValueChanged
   id: OnValueChanged
@@ -11796,6 +11916,13 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
+  commentId: P:SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html#SuperOffice_CRM_Rows_AppointmentRow_ExternalParticipants
+  name: ExternalParticipants
+  nameWithType: AppointmentRow.ExternalParticipants
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -13205,6 +13332,13 @@ references:
   name: OwnedExternally
   nameWithType: AppointmentRow.OwnedExternally
   fullName: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally
+- uid: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AppointmentRow.html#SuperOffice_CRM_Rows_AppointmentRow_ExternalParticipants
+  name: ExternalParticipants
+  nameWithType: AppointmentRow.ExternalParticipants
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.ExternalParticipants
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

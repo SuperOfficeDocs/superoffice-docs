@@ -13,6 +13,7 @@ items:
   - SuperOffice.Exceptions.SoException
   - SuperOffice.Exceptions.SoExceptionInfo
   - SuperOffice.Exceptions.SoExceptionInfoParameters
+  - SuperOffice.Exceptions.SoFeatureToggleException
   - SuperOffice.Exceptions.SoFileNotFoundException
   - SuperOffice.Exceptions.SoFunctionRightException
   - SuperOffice.Exceptions.SoHttpResponseException
@@ -109,6 +110,13 @@ references:
   name: SoExceptionInfo
   nameWithType: SoExceptionInfo
   fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: SuperOffice.Exceptions.SoFeatureToggleException
+  commentId: T:SuperOffice.Exceptions.SoFeatureToggleException
+  isExternal: true
+  href: SuperOffice.Exceptions.SoFeatureToggleException.html
+  name: SoFeatureToggleException
+  nameWithType: SoFeatureToggleException
+  fullName: SuperOffice.Exceptions.SoFeatureToggleException
 - uid: SuperOffice.Exceptions.SoFunctionRightException
   commentId: T:SuperOffice.Exceptions.SoFunctionRightException
   isExternal: true

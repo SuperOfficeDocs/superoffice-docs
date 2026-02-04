@@ -1,0 +1,750 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.Data.ExternallyOwnedType
+  id: ExternallyOwnedType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ExternallyOwnedType.Optional
+  - SuperOffice.Data.ExternallyOwnedType.Organizer
+  - SuperOffice.Data.ExternallyOwnedType.Required
+  - SuperOffice.Data.ExternallyOwnedType.Resource
+  - SuperOffice.Data.ExternallyOwnedType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.Data.ExternallyOwnedType
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: Type of participant of an externally owned appointment
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+
+      public enum ExternallyOwnedType
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+
+      Public Enum ExternallyOwnedType
+  extensionMethods:
+  - SuperOffice.Data.ExternallyOwnedType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ExternallyOwnedType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.ExternallyOwnedType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExternallyOwnedType)
+  - SuperOffice.Data.ExternallyOwnedType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+- uid: SuperOffice.Data.ExternallyOwnedType.Unknown
+  commentId: F:SuperOffice.Data.ExternallyOwnedType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ExternallyOwnedType.Unknown
+  fullName: SuperOffice.Data.ExternallyOwnedType.Unknown
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '0: The participant type is unknown'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: SuperOffice.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ExternallyOwnedType.Organizer
+  commentId: F:SuperOffice.Data.ExternallyOwnedType.Organizer
+  id: Organizer
+  parent: SuperOffice.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Organizer
+  nameWithType: ExternallyOwnedType.Organizer
+  fullName: SuperOffice.Data.ExternallyOwnedType.Organizer
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1: The participant is the organizer'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Organizer = 1
+    return:
+      type: SuperOffice.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Organizer = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ExternallyOwnedType.Required
+  commentId: F:SuperOffice.Data.ExternallyOwnedType.Required
+  id: Required
+  parent: SuperOffice.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Required
+  nameWithType: ExternallyOwnedType.Required
+  fullName: SuperOffice.Data.ExternallyOwnedType.Required
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2: The participant is required'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Required = 2
+    return:
+      type: SuperOffice.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Required = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ExternallyOwnedType.Optional
+  commentId: F:SuperOffice.Data.ExternallyOwnedType.Optional
+  id: Optional
+  parent: SuperOffice.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: ExternallyOwnedType.Optional
+  fullName: SuperOffice.Data.ExternallyOwnedType.Optional
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '3: The participant is optional'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Optional = 3
+    return:
+      type: SuperOffice.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Optional = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ExternallyOwnedType.Resource
+  commentId: F:SuperOffice.Data.ExternallyOwnedType.Resource
+  id: Resource
+  parent: SuperOffice.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ExternallyOwnedType.Resource
+  fullName: SuperOffice.Data.ExternallyOwnedType.Resource
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '4: The participant is a resource'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Resource = 4
+    return:
+      type: SuperOffice.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Resource = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.ExternallyOwnedType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ExternallyOwnedType, To>(ExternallyOwnedType)
+  nameWithType: EnumUtil.MapEnums<ExternallyOwnedType, To>(ExternallyOwnedType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ExternallyOwnedType, To>(SuperOffice.Data.ExternallyOwnedType)
+  nameWithType.vb: EnumUtil.MapEnums(Of ExternallyOwnedType, To)(ExternallyOwnedType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ExternallyOwnedType, To)(SuperOffice.Data.ExternallyOwnedType)
+  name.vb: MapEnums(Of ExternallyOwnedType, To)(ExternallyOwnedType)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ExternallyOwnedType)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ExternallyOwnedType)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+- uid: SuperOffice.Data.ExternallyOwnedType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ExternallyOwnedType, To>(ExternallyOwnedType)
+  nameWithType: Converters.MapEnums<ExternallyOwnedType, To>(ExternallyOwnedType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ExternallyOwnedType, To>(SuperOffice.Data.ExternallyOwnedType)
+  nameWithType.vb: Converters.MapEnums(Of ExternallyOwnedType, To)(ExternallyOwnedType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ExternallyOwnedType, To)(SuperOffice.Data.ExternallyOwnedType)
+  name.vb: MapEnums(Of ExternallyOwnedType, To)(ExternallyOwnedType)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ExternallyOwnedType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ExternallyOwnedType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+- uid: SuperOffice.Data.ExternallyOwnedType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExternallyOwnedType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ExternallyOwnedType>(ExternallyOwnedType, ExternallyOwnedType)
+  nameWithType: ObjectExtensions.AssignByReflection<ExternallyOwnedType>(ExternallyOwnedType, ExternallyOwnedType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ExternallyOwnedType>(SuperOffice.Data.ExternallyOwnedType, SuperOffice.Data.ExternallyOwnedType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExternallyOwnedType)(ExternallyOwnedType, ExternallyOwnedType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ExternallyOwnedType)(SuperOffice.Data.ExternallyOwnedType, SuperOffice.Data.ExternallyOwnedType)
+  name.vb: AssignByReflection(Of ExternallyOwnedType)(ExternallyOwnedType, ExternallyOwnedType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExternallyOwnedType,SuperOffice.Data.ExternallyOwnedType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ExternallyOwnedType,SuperOffice.Data.ExternallyOwnedType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+- uid: SuperOffice.Data.ExternallyOwnedType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ExternallyOwnedType>(ExternallyOwnedType)
+  nameWithType: ObjectExtensions.GraphCopy<ExternallyOwnedType>(ExternallyOwnedType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ExternallyOwnedType>(SuperOffice.Data.ExternallyOwnedType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExternallyOwnedType)(ExternallyOwnedType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ExternallyOwnedType)(SuperOffice.Data.ExternallyOwnedType)
+  name.vb: GraphCopy(Of ExternallyOwnedType)(ExternallyOwnedType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ExternallyOwnedType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ExternallyOwnedType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
+    isExternal: true
+    href: SuperOffice.Data.ExternallyOwnedType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.Data.ExternallyOwnedType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ExternallyOwnedType.html
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.Data.ExternallyOwnedType

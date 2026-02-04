@@ -28,7 +28,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=quae
+GET /api/v1/List/Priority/MDOItems?query=iste
 ```
 
 

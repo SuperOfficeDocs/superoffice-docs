@@ -111,6 +111,8 @@ items:
     name: AudienceLayoutEntity
   - uid: SuperOffice.CRM.Services.AutomatedCategoryUpdate
     name: AutomatedCategoryUpdate
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
   - uid: SuperOffice.CRM.Services.BLOBAgent
     name: BLOBAgent
   - uid: SuperOffice.CRM.Services.Batch
@@ -233,6 +235,8 @@ items:
     name: CopilotEntity
   - uid: SuperOffice.CRM.Services.Country
     name: Country
+  - uid: SuperOffice.CRM.Services.CreatePhotoBackground
+    name: CreatePhotoBackground
   - uid: SuperOffice.CRM.Services.CreateSystemMessageList
     name: CreateSystemMessageList
   - uid: SuperOffice.CRM.Services.Credential
@@ -689,6 +693,8 @@ items:
     name: MrMrs
   - uid: SuperOffice.CRM.Services.MultiAlarmData
     name: MultiAlarmData
+  - uid: SuperOffice.CRM.Services.NaturalLanguageSearch
+    name: NaturalLanguageSearch
   - uid: SuperOffice.CRM.Services.NextAvailableTime
     name: NextAvailableTime
   - uid: SuperOffice.CRM.Services.NotificationEvent
@@ -853,6 +859,10 @@ items:
     name: RagAnswer
   - uid: SuperOffice.CRM.Services.RagResult
     name: RagResult
+  - uid: SuperOffice.CRM.Services.RagStatus
+    name: RagStatus
+  - uid: SuperOffice.CRM.Services.RagStatusChunks
+    name: RagStatusChunks
   - uid: SuperOffice.CRM.Services.Rating
     name: Rating
   - uid: SuperOffice.CRM.Services.Reason

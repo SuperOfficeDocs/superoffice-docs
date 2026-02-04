@@ -9,13 +9,15 @@ items:
   - SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   - SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(System.String)
   - SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(System.String,System.Boolean)
+  - SuperOffice.Util.RagAIHelper.CancelIndexing(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.DeleteNamespace(System.String)
   - SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage(System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetFormsDesignFromUrl(System.String,System.Threading.CancellationToken)
-  - SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String,System.String)
-  - SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String,System.String)
+  - SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String)
+  - SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String)
+  - SuperOffice.Util.RagAIHelper.IndexingStatus(System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.InitNamespace(System.String)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
@@ -221,66 +223,136 @@ items:
   nameWithType.vb: RagAIHelper.AnswerAcceptedAsync(String)
   fullName.vb: SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(String)
   name.vb: AnswerAcceptedAsync(String)
-- uid: SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String,System.String)
-  commentId: M:SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String,System.String)
-  id: IndexingStarted(System.String,System.String,System.String)
+- uid: SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.IndexingStarted(System.String,System.String)
+  id: IndexingStarted(System.String,System.String)
   parent: SuperOffice.Util.RagAIHelper
   langs:
   - csharp
   - vb
-  name: IndexingStarted(string, string, string)
-  nameWithType: RagAIHelper.IndexingStarted(string, string, string)
-  fullName: SuperOffice.Util.RagAIHelper.IndexingStarted(string, string, string)
+  name: IndexingStarted(string, string)
+  nameWithType: RagAIHelper.IndexingStarted(string, string)
+  fullName: SuperOffice.Util.RagAIHelper.IndexingStarted(string, string)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
+  summary: >-
+    Start the indexing process for a given source in a namespace.
+
+    Marks all new/updated documents with the indexTag.
+  example: []
   syntax:
-    content: public Task IndexingStarted(string namespaceName, string uid, string tag)
+    content: public Task IndexingStarted(string namespaceName, string indexTag)
     parameters:
     - id: namespaceName
       type: System.String
-    - id: uid
+      description: "\"ServiceCopilot\" or \"AllNames\""
+    - id: indexTag
       type: System.String
-    - id: tag
-      type: System.String
+      description: The unique id of the indexing run
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function IndexingStarted(namespaceName As String, uid As String, tag As String) As Task
+      description: ''
+    content.vb: Public Function IndexingStarted(namespaceName As String, indexTag As String) As Task
   overload: SuperOffice.Util.RagAIHelper.IndexingStarted*
-  nameWithType.vb: RagAIHelper.IndexingStarted(String, String, String)
-  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingStarted(String, String, String)
-  name.vb: IndexingStarted(String, String, String)
-- uid: SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String,System.String)
-  commentId: M:SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String,System.String)
-  id: IndexingFinished(System.String,System.String,System.String)
+  nameWithType.vb: RagAIHelper.IndexingStarted(String, String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingStarted(String, String)
+  name.vb: IndexingStarted(String, String)
+- uid: SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String)
+  commentId: M:SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String)
+  id: IndexingFinished(System.String,System.String)
   parent: SuperOffice.Util.RagAIHelper
   langs:
   - csharp
   - vb
-  name: IndexingFinished(string, string, string)
-  nameWithType: RagAIHelper.IndexingFinished(string, string, string)
-  fullName: SuperOffice.Util.RagAIHelper.IndexingFinished(string, string, string)
+  name: IndexingFinished(string, string)
+  nameWithType: RagAIHelper.IndexingFinished(string, string)
+  fullName: SuperOffice.Util.RagAIHelper.IndexingFinished(string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: >-
+    Ends the indexing process for a given source in a namespace.
+
+    Removes all documents NOT marked with the indexTag.
+  example: []
+  syntax:
+    content: public Task<NamespaceStatus> IndexingFinished(string namespaceName, string indexTag)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: "\"ServiceCopilot\" or \"AllNames\""
+    - id: indexTag
+      type: System.String
+      description: The unique id of the indexing run
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus}
+      description: ''
+    content.vb: Public Function IndexingFinished(namespaceName As String, indexTag As String) As Task(Of NamespaceStatus)
+  overload: SuperOffice.Util.RagAIHelper.IndexingFinished*
+  nameWithType.vb: RagAIHelper.IndexingFinished(String, String)
+  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingFinished(String, String)
+  name.vb: IndexingFinished(String, String)
+- uid: SuperOffice.Util.RagAIHelper.CancelIndexing(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.CancelIndexing(System.String,System.String,System.Threading.CancellationToken)
+  id: CancelIndexing(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: CancelIndexing(string, string, CancellationToken)
+  nameWithType: RagAIHelper.CancelIndexing(string, string, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.CancelIndexing(string, string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public Task IndexingFinished(string namespaceName, string uid, string tag)
+    content: public Task<NamespaceStatus> CancelIndexing(string namespaceName, string indexTag, CancellationToken cancellation)
     parameters:
     - id: namespaceName
       type: System.String
-    - id: uid
+    - id: indexTag
       type: System.String
-    - id: tag
-      type: System.String
+    - id: cancellation
+      type: System.Threading.CancellationToken
     return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function IndexingFinished(namespaceName As String, uid As String, tag As String) As Task
-  overload: SuperOffice.Util.RagAIHelper.IndexingFinished*
-  nameWithType.vb: RagAIHelper.IndexingFinished(String, String, String)
-  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingFinished(String, String, String)
-  name.vb: IndexingFinished(String, String, String)
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus}
+    content.vb: Public Function CancelIndexing(namespaceName As String, indexTag As String, cancellation As CancellationToken) As Task(Of NamespaceStatus)
+  overload: SuperOffice.Util.RagAIHelper.CancelIndexing*
+  nameWithType.vb: RagAIHelper.CancelIndexing(String, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.CancelIndexing(String, String, System.Threading.CancellationToken)
+  name.vb: CancelIndexing(String, String, CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.IndexingStatus(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.IndexingStatus(System.String,System.Threading.CancellationToken)
+  id: IndexingStatus(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: IndexingStatus(string, CancellationToken)
+  nameWithType: RagAIHelper.IndexingStatus(string, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.IndexingStatus(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<NamespaceStatus> IndexingStatus(string namespaceName, CancellationToken cancellationToken)
+    parameters:
+    - id: namespaceName
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus}
+    content.vb: Public Function IndexingStatus(namespaceName As String, cancellationToken As CancellationToken) As Task(Of NamespaceStatus)
+  overload: SuperOffice.Util.RagAIHelper.IndexingStatus*
+  nameWithType.vb: RagAIHelper.IndexingStatus(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.IndexingStatus(String, System.Threading.CancellationToken)
+  name.vb: IndexingStatus(String, CancellationToken)
 - uid: SuperOffice.Util.RagAIHelper.InitNamespace(System.String)
   commentId: M:SuperOffice.Util.RagAIHelper.InitNamespace(System.String)
   id: InitNamespace(System.String)
@@ -1682,17 +1754,64 @@ references:
 - uid: SuperOffice.Util.RagAIHelper.IndexingStarted*
   commentId: Overload:SuperOffice.Util.RagAIHelper.IndexingStarted
   isExternal: true
-  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingStarted_System_String_System_String_System_String_
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingStarted_System_String_System_String_
   name: IndexingStarted
   nameWithType: RagAIHelper.IndexingStarted
   fullName: SuperOffice.Util.RagAIHelper.IndexingStarted
 - uid: SuperOffice.Util.RagAIHelper.IndexingFinished*
   commentId: Overload:SuperOffice.Util.RagAIHelper.IndexingFinished
   isExternal: true
-  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingFinished_System_String_System_String_System_String_
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingFinished_System_String_System_String_
   name: IndexingFinished
   nameWithType: RagAIHelper.IndexingFinished
   fullName: SuperOffice.Util.RagAIHelper.IndexingFinished
+- uid: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NamespaceStatus>
+  nameWithType: Task<NamespaceStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus>
+  nameWithType.vb: Task(Of NamespaceStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus)
+  name.vb: Task(Of NamespaceStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus
+    name: NamespaceStatus
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ServiceCopilot.Client.Models.NamespaceStatus
+    name: NamespaceStatus
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Util.RagAIHelper.CancelIndexing*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.CancelIndexing
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_CancelIndexing_System_String_System_String_System_Threading_CancellationToken_
+  name: CancelIndexing
+  nameWithType: RagAIHelper.CancelIndexing
+  fullName: SuperOffice.Util.RagAIHelper.CancelIndexing
+- uid: SuperOffice.Util.RagAIHelper.IndexingStatus*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.IndexingStatus
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_IndexingStatus_System_String_System_Threading_CancellationToken_
+  name: IndexingStatus
+  nameWithType: RagAIHelper.IndexingStatus
+  fullName: SuperOffice.Util.RagAIHelper.IndexingStatus
 - uid: SuperOffice.Util.RagAIHelper.InitNamespace*
   commentId: Overload:SuperOffice.Util.RagAIHelper.InitNamespace
   isExternal: true

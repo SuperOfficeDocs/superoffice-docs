@@ -79,7 +79,7 @@ Shadow contact provider for the static sale provider.
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1346,7 +1346,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=updatedByFullName,stakeholdersEnabled,person/personRegisteredByFullName,person/correspondingAssociate/title,contact/searchPhone/formattedNumber
+GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=person/personRegisteredDate,person/personAssociate/assocTooltip,contact/streetAddress/zip,contact/restrictionAddress/line2,contact/contactExtra/x_contact_longtext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

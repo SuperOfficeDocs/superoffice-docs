@@ -29,8 +29,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 

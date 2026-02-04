@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedType
+  id: ExternallyOwnedType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExternallyOwnedType.Optional
+  - SuperOffice.WebApi.Data.ExternallyOwnedType.Organizer
+  - SuperOffice.WebApi.Data.ExternallyOwnedType.Required
+  - SuperOffice.WebApi.Data.ExternallyOwnedType.Resource
+  - SuperOffice.WebApi.Data.ExternallyOwnedType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Type of participant of an externally owned appointment
+  example: []
+  syntax:
+    content: public enum ExternallyOwnedType
+    content.vb: Public Enum ExternallyOwnedType
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ExternallyOwnedType.Unknown
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType.Unknown
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: The participant type is unknown'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType.Organizer
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedType.Organizer
+  id: Organizer
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Organizer
+  nameWithType: ExternallyOwnedType.Organizer
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType.Organizer
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: The participant is the organizer'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Organizer = 1
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Organizer = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType.Required
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedType.Required
+  id: Required
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Required
+  nameWithType: ExternallyOwnedType.Required
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType.Required
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: The participant is required'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Required = 2
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Required = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType.Optional
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedType.Optional
+  id: Optional
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: ExternallyOwnedType.Optional
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType.Optional
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: The participant is optional'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Optional = 3
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Optional = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType.Resource
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedType.Resource
+  id: Resource
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedType
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ExternallyOwnedType.Resource
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType.Resource
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: The participant is a resource'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Resource = 4
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedType
+    content.vb: >-
+      <EnumMember>
+
+      Resource = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ExternallyOwnedType.html
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedType

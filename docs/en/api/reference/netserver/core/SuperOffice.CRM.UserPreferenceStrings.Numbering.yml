@@ -147,7 +147,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    Default prefix for new counters on Satellite databases 
+    Default prefix for new counters on Satellite databases
 
     <p></p>Control type: Number, access: Wizard
   example: []

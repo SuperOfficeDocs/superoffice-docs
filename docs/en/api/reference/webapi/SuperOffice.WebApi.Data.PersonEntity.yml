@@ -42,6 +42,7 @@ items:
   - SuperOffice.WebApi.Data.PersonEntity.Kanafname
   - SuperOffice.WebApi.Data.PersonEntity.Kanalname
   - SuperOffice.WebApi.Data.PersonEntity.Lastname
+  - SuperOffice.WebApi.Data.PersonEntity.Leadstatus
   - SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
   - SuperOffice.WebApi.Data.PersonEntity.MiddleName
   - SuperOffice.WebApi.Data.PersonEntity.MobilePhones
@@ -1626,6 +1627,29 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property LeadstatusId As Integer
   overload: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId*
+- uid: SuperOffice.WebApi.Data.PersonEntity.Leadstatus
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Leadstatus
+  id: Leadstatus
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Leadstatus
+  nameWithType: PersonEntity.Leadstatus
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Leadstatus
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Name of leadstatus
+  example: []
+  syntax:
+    content: public virtual string Leadstatus { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Leadstatus As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Leadstatus*
 - uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2749,6 +2773,13 @@ references:
   name: LeadstatusId
   nameWithType: PersonEntity.LeadstatusId
   fullName: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
+- uid: SuperOffice.WebApi.Data.PersonEntity.Leadstatus*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Leadstatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PersonEntity.html#SuperOffice_WebApi_Data_PersonEntity_Leadstatus
+  name: Leadstatus
+  nameWithType: PersonEntity.Leadstatus
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Leadstatus
 - uid: SuperOffice.WebApi.Data.PersonEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.CustomFields
   isExternal: true

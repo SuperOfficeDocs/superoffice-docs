@@ -75,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=mollitia
-GET /api/v1/ChatTopic/{id}/Sessions?$top=225
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=580
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=quia
+GET /api/v1/ChatTopic/{id}/Sessions?$top=293
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=744
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
-GET /api/v1/ChatTopic/{id}/Sessions?$context=ipsum
+GET /api/v1/ChatTopic/{id}/Sessions?$context=vitae
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
 GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=False
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display

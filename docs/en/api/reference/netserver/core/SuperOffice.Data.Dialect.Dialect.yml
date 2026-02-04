@@ -97,6 +97,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Between)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Count)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.CountAll)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Day)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Distinct)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Divide)
@@ -2953,6 +2954,29 @@ items:
       type: System.String
       description: The parsed MIN string
     content.vb: Protected Overridable Function ToSql(arg As Min) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  id: ToSql(SuperOffice.Data.SQL.DateAdd)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(DateAdd)
+  nameWithType: Dialect.ToSql(DateAdd)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected virtual string ToSql(DateAdd arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.DateAdd
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function ToSql(arg As DateAdd) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
 - uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
   commentId: M:SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
@@ -6925,6 +6949,14 @@ references:
   name: Min
   nameWithType: Min
   fullName: SuperOffice.Data.SQL.Min
+- uid: SuperOffice.Data.SQL.DateAdd
+  commentId: T:SuperOffice.Data.SQL.DateAdd
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateAdd.html
+  name: DateAdd
+  nameWithType: DateAdd
+  fullName: SuperOffice.Data.SQL.DateAdd
 - uid: SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   parent: SuperOffice.Data.Dialect.Dialect

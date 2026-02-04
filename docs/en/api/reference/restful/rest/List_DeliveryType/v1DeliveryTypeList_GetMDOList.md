@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=quia
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=dolorum
 ```
 
 

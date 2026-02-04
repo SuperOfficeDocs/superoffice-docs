@@ -86,6 +86,7 @@ items:
   - SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.CRM.Security.Sentry.GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.ClearRights
   - SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
@@ -1266,6 +1267,36 @@ references:
     name: GetDateTimeField
     isExternal: true
     href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetDateTimeField_SuperOffice_Data_SQL_FieldInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetIntArrayField_SuperOffice_Data_SQL_FieldInfo_
+  name: GetIntArrayField(FieldInfo)
+  nameWithType: Sentry.GetIntArrayField(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+    name: GetIntArrayField
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetIntArrayField_SuperOffice_Data_SQL_FieldInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Sentry.GetIntArrayField(SuperOffice.Data.SQL.FieldInfo)
+    name: GetIntArrayField
+    isExternal: true
+    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_GetIntArrayField_SuperOffice_Data_SQL_FieldInfo_
   - name: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo

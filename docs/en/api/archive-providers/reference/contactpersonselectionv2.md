@@ -1449,7 +1449,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/contactName,sale/lossReason,appointment/booking,appointment/associate/credentialDisplayValue,personAddress/line2
+GET /api/v1/archive/ContactPersonSelectionV2?$select=mainContact,url/URLAddress,contactExtra/x_contact_date,NumberOfNotCompletedTicketsInPeriod,targetRelation/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

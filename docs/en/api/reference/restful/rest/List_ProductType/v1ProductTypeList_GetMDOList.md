@@ -28,7 +28,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=facere
+GET /api/v1/List/ProductType/MDOItems?query=inventore
 ```
 
 

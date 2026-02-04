@@ -71,7 +71,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Source is parent of the destination Ticket in this relation'
+  summary: '1: Destination is parent of the source Ticket in this relation'
   example: []
   syntax:
     content: >-
@@ -102,7 +102,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Source is child of the destination Ticket in this relation'
+  summary: '2: Destination is child of the source Ticket in this relation'
   example: []
   syntax:
     content: >-

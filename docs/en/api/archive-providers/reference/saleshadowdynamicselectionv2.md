@@ -81,7 +81,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage|int|Days in stage: Total number of days in this stage| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1343,7 +1343,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=who,stage,person/birthdate,person/retired,person/personAssociate/assocType
+GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=contact/registeredByFullName,contact/contactExtra/x_contact_request_relation,appointment/associate/assocType,saleStakeholder/person/personDirectFax/description,saleStakeholder/contact/contactUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -33,8 +33,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Ameliorated client-server process improvement
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=placeat,ipsam
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Fully-configurable contextually-based access
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=quis,aut
 ```
 
 

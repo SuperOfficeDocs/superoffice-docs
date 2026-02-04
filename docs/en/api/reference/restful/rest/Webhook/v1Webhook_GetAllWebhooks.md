@@ -30,8 +30,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=blanditiis
-GET /api/v1/Webhook?eventFilter=quibusdam
+GET /api/v1/Webhook?nameFilter=a
+GET /api/v1/Webhook?eventFilter=occaecati
 GET /api/v1/Webhook?statusFilter=Active
 ```
 

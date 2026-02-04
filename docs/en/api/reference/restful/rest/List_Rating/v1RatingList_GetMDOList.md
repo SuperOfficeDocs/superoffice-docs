@@ -27,8 +27,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=in
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=aliquid
 ```
 
 

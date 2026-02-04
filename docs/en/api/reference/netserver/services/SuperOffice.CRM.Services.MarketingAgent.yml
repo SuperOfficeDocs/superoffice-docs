@@ -5,18 +5,21 @@ items:
   id: MarketingAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatisticsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipmentAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.GetFormEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCountAsync(System.Int32,SuperOffice.Data.FormSubmissionStatus,System.Threading.CancellationToken)
@@ -26,10 +29,12 @@ items:
   - SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.GetUserBlocksAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -64,23 +69,25 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  commentId: M:SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+- uid: SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.MarketingAgent
   langs:
   - csharp
   - vb
-  name: MarketingAgent(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
-  nameWithType: MarketingAgent.MarketingAgent(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name: MarketingAgent(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
+  nameWithType: MarketingAgent.MarketingAgent(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public MarketingAgent(IFormEntityImplementation formEntityImplementation, IFormSubmissionEntityImplementation formSubmissionEntityImplementation, IMailingStatisticsImplementation mailingStatisticsImplementation, IPreviewMailingImplementation previewMailingImplementation, IPreviewMailingHeaderImplementation previewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation shipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation shipmentMessageEntityImplementation, ISoRequestItemsAccessor accessor)
+    content: public MarketingAgent(IAvailableFontImplementation availableFontImplementation, IFormEntityImplementation formEntityImplementation, IFormSubmissionEntityImplementation formSubmissionEntityImplementation, IMailingStatisticsImplementation mailingStatisticsImplementation, IPreviewMailingImplementation previewMailingImplementation, IPreviewMailingHeaderImplementation previewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation shipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation shipmentMessageEntityImplementation, ISoRequestItemsAccessor accessor)
     parameters:
+    - id: availableFontImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation
     - id: formEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation
     - id: formSubmissionEntityImplementation
@@ -97,28 +104,30 @@ items:
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation
     - id: accessor
       type: SuperOffice.Factory.ISoRequestItemsAccessor
-    content.vb: Public Sub New(formEntityImplementation As IFormEntityImplementation, formSubmissionEntityImplementation As IFormSubmissionEntityImplementation, mailingStatisticsImplementation As IMailingStatisticsImplementation, previewMailingImplementation As IPreviewMailingImplementation, previewMailingHeaderImplementation As IPreviewMailingHeaderImplementation, shipmentMessageBlockEntityImplementation As IShipmentMessageBlockEntityImplementation, shipmentMessageEntityImplementation As IShipmentMessageEntityImplementation, accessor As ISoRequestItemsAccessor)
+    content.vb: Public Sub New(availableFontImplementation As IAvailableFontImplementation, formEntityImplementation As IFormEntityImplementation, formSubmissionEntityImplementation As IFormSubmissionEntityImplementation, mailingStatisticsImplementation As IMailingStatisticsImplementation, previewMailingImplementation As IPreviewMailingImplementation, previewMailingHeaderImplementation As IPreviewMailingHeaderImplementation, shipmentMessageBlockEntityImplementation As IShipmentMessageBlockEntityImplementation, shipmentMessageEntityImplementation As IShipmentMessageEntityImplementation, accessor As ISoRequestItemsAccessor)
   overload: SuperOffice.CRM.Services.MarketingAgent.#ctor*
-  nameWithType.vb: MarketingAgent.New(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
-  name.vb: New(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+  nameWithType.vb: MarketingAgent.New(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.MarketingAgent
   langs:
   - csharp
   - vb
-  name: MarketingAgent(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: MarketingAgent.MarketingAgent(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: MarketingAgent(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: MarketingAgent.MarketingAgent(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public MarketingAgent(IFormEntityImplementation formEntityImplementation, IFormSubmissionEntityImplementation formSubmissionEntityImplementation, IMailingStatisticsImplementation mailingStatisticsImplementation, IPreviewMailingImplementation previewMailingImplementation, IPreviewMailingHeaderImplementation previewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation shipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation shipmentMessageEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public MarketingAgent(IAvailableFontImplementation availableFontImplementation, IFormEntityImplementation formEntityImplementation, IFormSubmissionEntityImplementation formSubmissionEntityImplementation, IMailingStatisticsImplementation mailingStatisticsImplementation, IPreviewMailingImplementation previewMailingImplementation, IPreviewMailingHeaderImplementation previewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation shipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation shipmentMessageEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
+    - id: availableFontImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation
     - id: formEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation
     - id: formSubmissionEntityImplementation
@@ -143,11 +152,180 @@ items:
       type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
     - id: onlineConfiguration
       type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(formEntityImplementation As IFormEntityImplementation, formSubmissionEntityImplementation As IFormSubmissionEntityImplementation, mailingStatisticsImplementation As IMailingStatisticsImplementation, previewMailingImplementation As IPreviewMailingImplementation, previewMailingHeaderImplementation As IPreviewMailingHeaderImplementation, shipmentMessageBlockEntityImplementation As IShipmentMessageBlockEntityImplementation, shipmentMessageEntityImplementation As IShipmentMessageEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(availableFontImplementation As IAvailableFontImplementation, formEntityImplementation As IFormEntityImplementation, formSubmissionEntityImplementation As IFormSubmissionEntityImplementation, mailingStatisticsImplementation As IMailingStatisticsImplementation, previewMailingImplementation As IPreviewMailingImplementation, previewMailingHeaderImplementation As IPreviewMailingHeaderImplementation, shipmentMessageBlockEntityImplementation As IShipmentMessageBlockEntityImplementation, shipmentMessageEntityImplementation As IShipmentMessageEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.MarketingAgent.#ctor*
-  nameWithType.vb: MarketingAgent.New(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: MarketingAgent.New(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormSubmissionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMailingStatisticsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewMailingHeaderImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageBlockEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IShipmentMessageEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IAvailableFontImplementation, IFormEntityImplementation, IFormSubmissionEntityImplementation, IMailingStatisticsImplementation, IPreviewMailingImplementation, IPreviewMailingHeaderImplementation, IShipmentMessageBlockEntityImplementation, IShipmentMessageEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+- uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  id: CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAvailableFontAsync(CancellationToken)
+  nameWithType: MarketingAgent.CreateDefaultAvailableFontAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Create an return an empty font
+  example: []
+  syntax:
+    content: public Task<AvailableFont> CreateDefaultAvailableFontAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+      description: Returns the created default font
+    content.vb: Public Function CreateDefaultAvailableFontAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  id: SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAvailableFontAsync(AvailableFont, CancellationToken)
+  nameWithType: MarketingAgent.SaveAvailableFontAsync(AvailableFont, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Saves the font and returns it with correct rank
+  example: []
+  syntax:
+    content: public Task<AvailableFont> SaveAvailableFontAsync(AvailableFont font, CancellationToken cancellationToken = default)
+    parameters:
+    - id: font
+      type: SuperOffice.CRM.Services.AvailableFont
+      description: The font to save
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+      description: Returns the saved font with correct rank
+    content.vb: Public Function SaveAvailableFontAsync(font As AvailableFont, cancellationToken As CancellationToken = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAvailableFontAsync(int, CancellationToken)
+  nameWithType: MarketingAgent.DeleteAvailableFontAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Delete the font with the provided id
+  example: []
+  syntax:
+    content: public Task<bool> DeleteAvailableFontAsync(int availableFontId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the font to delete
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the font was deleted
+    content.vb: Public Function DeleteAvailableFontAsync(availableFontId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: MarketingAgent.DeleteAvailableFontAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteAvailableFontAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableFontAsync(int, CancellationToken)
+  nameWithType: MarketingAgent.GetAvailableFontAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get an available font by id
+  example: []
+  syntax:
+    content: public Task<AvailableFont> GetAvailableFontAsync(int availableFontId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the font to retrieve
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+      description: Returns the requested font or null if it does not exist
+    content.vb: Public Function GetAvailableFontAsync(availableFontId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: MarketingAgent.GetAvailableFontAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAvailableFontAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SetFontRankAsync(int, int, CancellationToken)
+  nameWithType: MarketingAgent.SetFontRankAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Set the rank on the font and reorder the rest of the fonts accordingly
+  example: []
+  syntax:
+    content: public Task<bool> SetFontRankAsync(int availableFontId, int rank, CancellationToken cancellationToken = default)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the available font to set the rank on
+    - id: rank
+      type: System.Int32
+      description: The new rank to set on the font
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the new rank on the font and surrounding reranks went well
+    content.vb: Public Function SetFontRankAsync(availableFontId As Integer, rank As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: MarketingAgent.SetFontRankAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: SetFontRankAsync(Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
@@ -1255,13 +1433,21 @@ references:
 - uid: SuperOffice.CRM.Services.MarketingAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFormEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFormSubmissionEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IMailingStatisticsImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPreviewMailingImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPreviewMailingHeaderImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IShipmentMessageBlockEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IShipmentMessageEntityImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IAvailableFontImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFormEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IFormSubmissionEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IMailingStatisticsImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPreviewMailingImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IPreviewMailingHeaderImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IShipmentMessageBlockEntityImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IShipmentMessageEntityImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
   name: MarketingAgent
   nameWithType: MarketingAgent.MarketingAgent
   fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent
   nameWithType.vb: MarketingAgent.New
   fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New
   name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation.html
+  name: IAvailableFontImplementation
+  nameWithType: IAvailableFontImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAvailableFontImplementation
 - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation
   commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IFormEntityImplementation
   parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
@@ -1410,24 +1596,24 @@ references:
   name: IOnlineConfiguration
   nameWithType: ConfigFile.IOnlineConfiguration
   fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-- uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync
+- uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultFormEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultFormEntityAsync
-  nameWithType: MarketingAgent.CreateDefaultFormEntityAsync
-  fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultAvailableFontAsync_System_Threading_CancellationToken_
+  name: CreateDefaultAvailableFontAsync
+  nameWithType: MarketingAgent.CreateDefaultAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultAvailableFontAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultFormEntityAsync(CancellationToken)
-  nameWithType: IMarketingAgent.CreateDefaultFormEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  name: CreateDefaultAvailableFontAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultAvailableFontAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultFormEntityAsync
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+    name: CreateDefaultAvailableFontAsync
     isExternal: true
   - name: (
   - uid: System.Threading.CancellationToken
@@ -1436,8 +1622,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultFormEntityAsync
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+    name: CreateDefaultAvailableFontAsync
     isExternal: true
   - name: (
   - uid: System.Threading.CancellationToken
@@ -1453,27 +1639,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<FormEntity>
-  nameWithType: Task<FormEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormEntity>
-  nameWithType.vb: Task(Of FormEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormEntity)
-  name.vb: Task(Of FormEntity)
+  name: Task<AvailableFont>
+  nameWithType: Task<AvailableFont>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AvailableFont>
+  nameWithType.vb: Task(Of AvailableFont)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AvailableFont)
+  name.vb: Task(Of AvailableFont)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.FormEntity
-    name: FormEntity
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
     isExternal: true
-    href: SuperOffice.CRM.Services.FormEntity.html
+    href: SuperOffice.CRM.Services.AvailableFont.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -1483,10 +1669,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.FormEntity
-    name: FormEntity
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
     isExternal: true
-    href: SuperOffice.CRM.Services.FormEntity.html
+    href: SuperOffice.CRM.Services.AvailableFont.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -1580,6 +1766,337 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_SaveAvailableFontAsync_SuperOffice_CRM_Services_AvailableFont_System_Threading_CancellationToken_
+  name: SaveAvailableFontAsync
+  nameWithType: MarketingAgent.SaveAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.MarketingAgent.SaveAvailableFontAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveAvailableFontAsync(AvailableFont, CancellationToken)
+  nameWithType: IMarketingAgent.SaveAvailableFontAsync(AvailableFont, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+    name: SaveAvailableFontAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+    name: SaveAvailableFontAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.AvailableFont
+  commentId: T:SuperOffice.CRM.Services.AvailableFont
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AvailableFont.html
+  name: AvailableFont
+  nameWithType: AvailableFont
+  fullName: SuperOffice.CRM.Services.AvailableFont
+- uid: SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_DeleteAvailableFontAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteAvailableFontAsync
+  nameWithType: MarketingAgent.DeleteAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteAvailableFontAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteAvailableFontAsync(int, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteAvailableFontAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IMarketingAgent.DeleteAvailableFontAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteAvailableFontAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteAvailableFontAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteAvailableFontAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetAvailableFontAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAvailableFontAsync
+  nameWithType: MarketingAgent.GetAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetAvailableFontAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetAvailableFontAsync(int, CancellationToken)
+  nameWithType: IMarketingAgent.GetAvailableFontAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IMarketingAgent.GetAvailableFontAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAvailableFontAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetAvailableFontAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetAvailableFontAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_SetFontRankAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: SetFontRankAsync
+  nameWithType: MarketingAgent.SetFontRankAsync
+  fullName: SuperOffice.CRM.Services.MarketingAgent.SetFontRankAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SetFontRankAsync(int, int, CancellationToken)
+  nameWithType: IMarketingAgent.SetFontRankAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(int, int, System.Threading.CancellationToken)
+  nameWithType.vb: IMarketingAgent.SetFontRankAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: SetFontRankAsync(Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: SetFontRankAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: SetFontRankAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultFormEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultFormEntityAsync
+  nameWithType: MarketingAgent.CreateDefaultFormEntityAsync
+  fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultFormEntityAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultFormEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultFormEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultFormEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FormEntity>
+  nameWithType: Task<FormEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormEntity>
+  nameWithType.vb: Task(Of FormEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormEntity)
+  name.vb: Task(Of FormEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FormEntity
+    name: FormEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FormEntity
+    name: FormEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormEntity.html
+  - name: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveFormEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SaveFormEntityAsync
   isExternal: true
@@ -1683,17 +2200,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -1825,41 +2331,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: T:System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<bool>
-  nameWithType: Task<bool>
-  fullName: System.Threading.Tasks.Task<bool>
-  nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
-  name.vb: Task(Of Boolean)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntityAsync
   isExternal: true

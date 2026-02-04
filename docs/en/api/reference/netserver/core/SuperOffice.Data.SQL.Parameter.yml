@@ -304,7 +304,7 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: Initializes a new instance of the <xref href="SuperOffice.Data.SQL.Parameter" data-throw-if-not-resolved="false"></xref> class.
   remarks: >-
-    The actual data type, such as dbDateTimeLocal, will be overridden by the Compare class once the parameter is combined
+    The actual data type, such as dbExtendedDateTimeLocal, will be overridden by the Compare class once the parameter is combined
 
     with a field. Compare will transfer the type from the field to the parameter part of the comparison.
   example: []
@@ -335,7 +335,7 @@ items:
   namespace: SuperOffice.Data.SQL
   summary: Initializes a new instance of the <xref href="SuperOffice.Data.SQL.Parameter" data-throw-if-not-resolved="false"></xref> class.
   remarks: >-
-    The actual data type, such as dbDateTimeLocal, will be overridden by the Compare class once the parameter is combined
+    The actual data type, such as dbExtendedDateTimeLocal, will be overridden by the Compare class once the parameter is combined
 
     with a field. Compare will transfer the type from the field to the parameter part of the comparison.
   example: []

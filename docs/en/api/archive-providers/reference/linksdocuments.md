@@ -683,7 +683,7 @@ Link data provider for documents, handles both addressing by source or by destin
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -739,7 +739,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=sourceAppointmentRestrictionId,person/restrictionAddress/formattedMultiLineAddress,person/personAssociate/usergroup,contact/LastTicket,project/updatedBy
+GET /api/v1/archive/LinksDocuments?$select=person/personSource,person/personRegisteredByFullName,person/portraitThumbnail,person/personExtra/x_person_user_relation,person/personAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

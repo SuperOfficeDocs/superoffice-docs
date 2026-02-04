@@ -23,7 +23,7 @@ items:
   summary: >-
     Carrier object for CopilotDataSourceSetting.
 
-    Setting for Copilot data source
+    Setting for a Copilot data source (key + value)
   example: []
   syntax:
     content: 'public class CopilotDataSourceSetting : Carrier'

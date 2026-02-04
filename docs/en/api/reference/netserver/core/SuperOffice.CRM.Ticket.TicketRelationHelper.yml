@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper
+  commentId: T:SuperOffice.CRM.Ticket.TicketRelationHelper
+  id: TicketRelationHelper
+  parent: SuperOffice.CRM.Ticket
+  children:
+  - SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationHelper
+  nameWithType: TicketRelationHelper
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static class TicketRelationHelper
+    content.vb: Public Module TicketRelationHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(System.Int32,System.Threading.CancellationToken)
+  id: EvaluateTicketRelationActionsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
+  langs:
+  - csharp
+  - vb
+  name: EvaluateTicketRelationActionsAsync(int, CancellationToken)
+  nameWithType: TicketRelationHelper.EvaluateTicketRelationActionsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  summary: >-
+    Determines whether a ticket can be closed based on its related tickets and returns the IDs of any related
+
+    tickets that prevent or offer closure.
+
+    If the ticket can be closed, list of child tickets that offer closure is returned.
+
+    If the ticket can be closed, checking maybe it is the last not closed child of another ticket, which based on definition rules should be offered to be closed too.
+  example: []
+  syntax:
+    content: public static Task<(bool CanCloseTicket, List<int> Children, int TicketIdToClose)> EvaluateTicketRelationActionsAsync(int ticketId, CancellationToken cancellationToken)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: Ticket ID, 0 if ticket is new
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: A token to monitor for cancellation requests.
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}}
+      description: 'A tuple containing three elements: boolean which indicates whether the ticket can be closed, a list of child ticket IDs, and an ID of parent ticket if it should be closed.'
+    content.vb: Public Shared Function EvaluateTicketRelationActionsAsync(ticketId As Integer, cancellationToken As CancellationToken) As Task(Of (CanCloseTicket As Boolean, Children As List(Of Integer), TicketIdToClose As Integer))
+  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync*
+  nameWithType.vb: TicketRelationHelper.EvaluateTicketRelationActionsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: EvaluateTicketRelationActionsAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(System.Int32,System.Threading.CancellationToken)
+  id: IsParentRequiredAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
+  langs:
+  - csharp
+  - vb
+  name: IsParentRequiredAsync(int, CancellationToken)
+  nameWithType: TicketRelationHelper.IsParentRequiredAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task<bool> IsParentRequiredAsync(int ticketTypeId, CancellationToken cancellationToken)
+    parameters:
+    - id: ticketTypeId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function IsParentRequiredAsync(ticketTypeId As Integer, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync*
+  nameWithType.vb: TicketRelationHelper.IsParentRequiredAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(Integer, System.Threading.CancellationToken)
+  name.vb: IsParentRequiredAsync(Integer, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Ticket
+  commentId: N:SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Ticket
+  nameWithType: SuperOffice.CRM.Ticket
+  fullName: SuperOffice.CRM.Ticket
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket
+    name: Ticket
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_EvaluateTicketRelationActionsAsync_System_Int32_System_Threading_CancellationToken_
+  name: EvaluateTicketRelationActionsAsync
+  nameWithType: TicketRelationHelper.EvaluateTicketRelationActionsAsync
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool CanCloseTicket, List<int> Children, int TicketIdToClose)>
+  nameWithType: Task<(bool CanCloseTicket, List<int> Children, int TicketIdToClose)>
+  fullName: System.Threading.Tasks.Task<(bool CanCloseTicket, System.Collections.Generic.List<int> Children, int TicketIdToClose)>
+  nameWithType.vb: Task(Of (CanCloseTicket As Boolean, Children As List(Of Integer), TicketIdToClose As Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of (CanCloseTicket As Boolean, Children As System.Collections.Generic.List(Of Integer), TicketIdToClose As Integer))
+  name.vb: Task(Of (CanCloseTicket As Boolean, Children As List(Of Integer), TicketIdToClose As Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.CanCloseTicket
+    name: CanCloseTicket
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.cancloseticket
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.Children
+    name: Children
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.children
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.TicketIdToClose
+    name: TicketIdToClose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.ticketidtoclose
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.CanCloseTicket
+    name: CanCloseTicket
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.cancloseticket
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.Children
+    name: Children
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.children
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.TicketIdToClose
+    name: TicketIdToClose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.ticketidtoclose
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_IsParentRequiredAsync_System_Int32_System_Threading_CancellationToken_
+  name: IsParentRequiredAsync
+  nameWithType: TicketRelationHelper.IsParentRequiredAsync
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

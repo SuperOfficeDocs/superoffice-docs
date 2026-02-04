@@ -27,8 +27,8 @@ Get the MDO list items for "ReasonStalled" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonStalled/MDOItems?flat=False
-GET /api/v1/List/ReasonStalled/MDOItems?query=animi
+GET /api/v1/List/ReasonStalled/MDOItems?flat=True
+GET /api/v1/List/ReasonStalled/MDOItems?query=iste
 ```
 
 

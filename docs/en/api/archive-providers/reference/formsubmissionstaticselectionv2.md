@@ -490,7 +490,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=contact/contactUdef/SuperOffice:2,contact/contactExtra/x_contact_float,person/restrictionAddress/zip
+GET /api/v1/archive/FormSubmissionStaticSelectionV2?$select=person/personSource,person/portraitThumbnail,person/personInterestIds,person/personExtra/x_person_hidden_integer,contact/contactUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

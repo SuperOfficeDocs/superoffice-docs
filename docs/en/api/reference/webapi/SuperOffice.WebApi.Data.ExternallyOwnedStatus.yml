@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  id: ExternallyOwnedStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ExternallyOwnedStatus.Accepted
+  - SuperOffice.WebApi.Data.ExternallyOwnedStatus.Declined
+  - SuperOffice.WebApi.Data.ExternallyOwnedStatus.NotResponded
+  - SuperOffice.WebApi.Data.ExternallyOwnedStatus.TentativelyAccepted
+  - SuperOffice.WebApi.Data.ExternallyOwnedStatus.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ExternallyOwnedStatus
+  nameWithType: ExternallyOwnedStatus
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The status for a participant of an externally owned appointment
+  example: []
+  syntax:
+    content: public enum ExternallyOwnedStatus
+    content.vb: Public Enum ExternallyOwnedStatus
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ExternallyOwnedStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus.Unknown
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Unknown status'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus.TentativelyAccepted
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedStatus.TentativelyAccepted
+  id: TentativelyAccepted
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  langs:
+  - csharp
+  - vb
+  name: TentativelyAccepted
+  nameWithType: ExternallyOwnedStatus.TentativelyAccepted
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus.TentativelyAccepted
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: The appointment has been tentatively accepted by the participant'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      TentativelyAccepted = 1
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    content.vb: >-
+      <EnumMember>
+
+      TentativelyAccepted = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus.Accepted
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedStatus.Accepted
+  id: Accepted
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  langs:
+  - csharp
+  - vb
+  name: Accepted
+  nameWithType: ExternallyOwnedStatus.Accepted
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus.Accepted
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: The appointment has been accepted by the participant'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Accepted = 2
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    content.vb: >-
+      <EnumMember>
+
+      Accepted = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus.Declined
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedStatus.Declined
+  id: Declined
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  langs:
+  - csharp
+  - vb
+  name: Declined
+  nameWithType: ExternallyOwnedStatus.Declined
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus.Declined
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: The appointment has been declined by the participant'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Declined = 3
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    content.vb: >-
+      <EnumMember>
+
+      Declined = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus.NotResponded
+  commentId: F:SuperOffice.WebApi.Data.ExternallyOwnedStatus.NotResponded
+  id: NotResponded
+  parent: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  langs:
+  - csharp
+  - vb
+  name: NotResponded
+  nameWithType: ExternallyOwnedStatus.NotResponded
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus.NotResponded
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: The participant has not responded'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      NotResponded = 4
+    return:
+      type: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+    content.vb: >-
+      <EnumMember>
+
+      NotResponded = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ExternallyOwnedStatus.html
+  name: ExternallyOwnedStatus
+  nameWithType: ExternallyOwnedStatus
+  fullName: SuperOffice.WebApi.Data.ExternallyOwnedStatus

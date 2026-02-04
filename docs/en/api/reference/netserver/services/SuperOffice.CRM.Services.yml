@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.Services.AudienceConfigParameter
   - SuperOffice.CRM.Services.AudienceLayoutEntity
   - SuperOffice.CRM.Services.AutomatedCategoryUpdate
+  - SuperOffice.CRM.Services.AvailableFont
   - SuperOffice.CRM.Services.BLOBAgent
   - SuperOffice.CRM.Services.Batch
   - SuperOffice.CRM.Services.BatchAgent
@@ -96,6 +97,7 @@ items:
   - SuperOffice.CRM.Services.CopilotDataSourceSetting
   - SuperOffice.CRM.Services.CopilotEntity
   - SuperOffice.CRM.Services.Country
+  - SuperOffice.CRM.Services.CreatePhotoBackground
   - SuperOffice.CRM.Services.CreateSystemMessageList
   - SuperOffice.CRM.Services.Credential
   - SuperOffice.CRM.Services.CredentialType
@@ -324,6 +326,7 @@ items:
   - SuperOffice.CRM.Services.ModuleLicenseLink
   - SuperOffice.CRM.Services.MrMrs
   - SuperOffice.CRM.Services.MultiAlarmData
+  - SuperOffice.CRM.Services.NaturalLanguageSearch
   - SuperOffice.CRM.Services.NextAvailableTime
   - SuperOffice.CRM.Services.NotificationEvent
   - SuperOffice.CRM.Services.NumberAllocationAgent
@@ -406,6 +409,8 @@ items:
   - SuperOffice.CRM.Services.QuoteVersionWorkflowState
   - SuperOffice.CRM.Services.RagAnswer
   - SuperOffice.CRM.Services.RagResult
+  - SuperOffice.CRM.Services.RagStatus
+  - SuperOffice.CRM.Services.RagStatusChunks
   - SuperOffice.CRM.Services.Rating
   - SuperOffice.CRM.Services.Reason
   - SuperOffice.CRM.Services.ReasonSold
@@ -1257,6 +1262,14 @@ references:
   name: AutomatedCategoryUpdate
   nameWithType: AutomatedCategoryUpdate
   fullName: SuperOffice.CRM.Services.AutomatedCategoryUpdate
+- uid: SuperOffice.CRM.Services.AvailableFont
+  commentId: T:SuperOffice.CRM.Services.AvailableFont
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AvailableFont.html
+  name: AvailableFont
+  nameWithType: AvailableFont
+  fullName: SuperOffice.CRM.Services.AvailableFont
 - uid: SuperOffice.CRM.Services.Batch
   commentId: T:SuperOffice.CRM.Services.Batch
   isExternal: true
@@ -1627,6 +1640,13 @@ references:
   name: Country
   nameWithType: Country
   fullName: SuperOffice.CRM.Services.Country
+- uid: SuperOffice.CRM.Services.CreatePhotoBackground
+  commentId: T:SuperOffice.CRM.Services.CreatePhotoBackground
+  isExternal: true
+  href: SuperOffice.CRM.Services.CreatePhotoBackground.html
+  name: CreatePhotoBackground
+  nameWithType: CreatePhotoBackground
+  fullName: SuperOffice.CRM.Services.CreatePhotoBackground
 - uid: SuperOffice.CRM.Services.CreateSystemMessageList
   commentId: T:SuperOffice.CRM.Services.CreateSystemMessageList
   isExternal: true
@@ -2808,6 +2828,14 @@ references:
   name: MultiAlarmData
   nameWithType: MultiAlarmData
   fullName: SuperOffice.CRM.Services.MultiAlarmData
+- uid: SuperOffice.CRM.Services.NaturalLanguageSearch
+  commentId: T:SuperOffice.CRM.Services.NaturalLanguageSearch
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.NaturalLanguageSearch.html
+  name: NaturalLanguageSearch
+  nameWithType: NaturalLanguageSearch
+  fullName: SuperOffice.CRM.Services.NaturalLanguageSearch
 - uid: SuperOffice.CRM.Services.NextAvailableTime
   commentId: T:SuperOffice.CRM.Services.NextAvailableTime
   isExternal: true
@@ -3356,6 +3384,21 @@ references:
   name: RagResult
   nameWithType: RagResult
   fullName: SuperOffice.CRM.Services.RagResult
+- uid: SuperOffice.CRM.Services.RagStatus
+  commentId: T:SuperOffice.CRM.Services.RagStatus
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagStatus.html
+  name: RagStatus
+  nameWithType: RagStatus
+  fullName: SuperOffice.CRM.Services.RagStatus
+- uid: SuperOffice.CRM.Services.RagStatusChunks
+  commentId: T:SuperOffice.CRM.Services.RagStatusChunks
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagStatusChunks.html
+  name: RagStatusChunks
+  nameWithType: RagStatusChunks
+  fullName: SuperOffice.CRM.Services.RagStatusChunks
 - uid: SuperOffice.CRM.Services.Rating
   commentId: T:SuperOffice.CRM.Services.Rating
   parent: SuperOffice.CRM.Services

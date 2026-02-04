@@ -665,7 +665,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow|  |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
-|sale/daysInStage|int|Days in stage: Total number of days in this stage|  |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID|  |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field|  |
@@ -795,7 +795,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
-|daysInStage|int|Days in stage: Total number of days in this stage|  |
+|daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |sale/textId|int|Text ID|  |
 |salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1529,7 +1529,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/country,contact/postAddress/addressId,person/personUdef/SuperOffice:2,person/correspondingAssociate/locationAddress,project/projectEvent/hasSignOn
+GET /api/v1/archive/Links?$select=associateId,contact/hasInterests,contact/searchPhone/description,contact/contactAssociate/ejDisplayName,contact/contactAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

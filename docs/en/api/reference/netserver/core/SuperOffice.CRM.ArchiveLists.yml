@@ -683,6 +683,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.RecycleTicketProvider
   - SuperOffice.CRM.ArchiveLists.RejectedInvitationExtender
   - SuperOffice.CRM.ArchiveLists.RejectedInvitationProvider
+  - SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider
   - SuperOffice.CRM.ArchiveLists.RelationAssociateExtender
   - SuperOffice.CRM.ArchiveLists.RelationCCProvider
   - SuperOffice.CRM.ArchiveLists.RelationCPProvider
@@ -918,6 +919,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase
   - SuperOffice.CRM.ArchiveLists.TicketTicketExtender
   - SuperOffice.CRM.ArchiveLists.TicketTicketPriorityExtender
+  - SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
   - SuperOffice.CRM.ArchiveLists.TicketTicketStatusExtender
   - SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationExtender
   - SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
@@ -4399,6 +4401,13 @@ references:
   name: LastTicketsProvider
   nameWithType: LastTicketsProvider
   fullName: SuperOffice.CRM.ArchiveLists.LastTicketsProvider
+- uid: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.html
+  name: RelatedTicketsProvider
+  nameWithType: RelatedTicketsProvider
+  fullName: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider
 - uid: SuperOffice.CRM.ArchiveLists.TicketMessageProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketMessageProvider
   isExternal: true
@@ -8982,6 +8991,13 @@ references:
   name: TicketTicketPriorityExtender
   nameWithType: TicketTicketPriorityExtender
   fullName: SuperOffice.CRM.ArchiveLists.TicketTicketPriorityExtender
+- uid: SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender.html
+  name: TicketTicketRelationExtender
+  nameWithType: TicketTicketRelationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.TicketTicketStatusExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketTicketStatusExtender
   isExternal: true

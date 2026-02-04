@@ -7,6 +7,7 @@ items:
   children:
   - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
   - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective
+  - Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress
   langs:
   - csharp
   - vb
@@ -17,23 +18,21 @@ items:
   assemblies:
   - SoCore
   namespace: Zomp.SyncMethodGenerator
-  summary: An attribute that can be used to automatically generate a synchronous version of an async method. Must be used in a partial class.
+  summary: An attribute that can be used to automatically generate a synchronous version of an async method(s). Must be used in or on a partial type.
   remarks: >-
-    Copy pasted from the code generator Zomp.SyncMethodGenerator. The generator acts wonky when there are multiple attributes
+    This attribute can be applied to both methods and types.
 
-    across multiple projects combined with InternalVisibleTo. Defining it ourselves allow us to force that only a single copy
+    When applied to a containing type (class, struct, record, or interface), all eligible async methods will have their sync version generated
 
-    of the attribute exists in our source code, hence no buggy behavior.
-
-    https://github.com/zompinc/sync-method-generator/issues/76
+    unless <xref href="Zomp.SyncMethodGenerator.SkipSyncVersionAttribute" data-throw-if-not-resolved="false"></xref> is applied to the individual methods.
   example: []
   syntax:
     content: >-
-      [AttributeUsage(AttributeTargets.Method)]
+      [AttributeUsage(AttributeTargets.Class|AttributeTargets.Struct|AttributeTargets.Method|AttributeTargets.Interface, AllowMultiple = false, Inherited = false)]
 
       public class CreateSyncVersionAttribute : Attribute
     content.vb: >-
-      <AttributeUsage(AttributeTargets.Method)>
+      <AttributeUsage(AttributeTargets.ClassOrAttributeTargets.StructOrAttributeTargets.MethodOrAttributeTargets.Interface, AllowMultiple:=False, Inherited:=False)>
 
       Public Class CreateSyncVersionAttribute Inherits Attribute
   inheritance:
@@ -92,7 +91,14 @@ items:
     ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
     arguments:
     - type: System.AttributeTargets
-      value: 64
+      value: 1100
+    namedArguments:
+    - name: AllowMultiple
+      type: System.Boolean
+      value: false
+    - name: Inherited
+      type: System.Boolean
+      value: false
 - uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
   commentId: M:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
   id: '#ctor'
@@ -137,7 +143,37 @@ items:
       type: System.Boolean
     content.vb: Public Property OmitNullableDirective As Boolean
   overload: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.OmitNullableDirective*
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress
+  commentId: P:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress
+  id: PreserveProgress
+  parent: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+  langs:
+  - csharp
+  - vb
+  name: PreserveProgress
+  nameWithType: CreateSyncVersionAttribute.PreserveProgress
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: Zomp.SyncMethodGenerator
+  summary: Gets or sets a value indicating whether <xref href="System.IProgress%601" data-throw-if-not-resolved="false"></xref> parameters will be preserved in the generated code. False by default.
+  example: []
+  syntax:
+    content: public bool PreserveProgress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PreserveProgress As Boolean
+  overload: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress*
 references:
+- uid: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
+  commentId: T:Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
+  isExternal: true
+  href: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute.html
+  name: SkipSyncVersionAttribute
+  nameWithType: SkipSyncVersionAttribute
+  fullName: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
 - uid: Zomp.SyncMethodGenerator
   commentId: N:Zomp.SyncMethodGenerator
   isExternal: true
@@ -2440,3 +2476,38 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: System.IProgress`1
+  commentId: T:System.IProgress`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iprogress-1
+  name: IProgress<T>
+  nameWithType: IProgress<T>
+  fullName: System.IProgress<T>
+  nameWithType.vb: IProgress(Of T)
+  fullName.vb: System.IProgress(Of T)
+  name.vb: IProgress(Of T)
+  spec.csharp:
+  - uid: System.IProgress`1
+    name: IProgress
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iprogress-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IProgress`1
+    name: IProgress
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iprogress-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress*
+  commentId: Overload:Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress
+  isExternal: true
+  href: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.html#Zomp_SyncMethodGenerator_CreateSyncVersionAttribute_PreserveProgress
+  name: PreserveProgress
+  nameWithType: CreateSyncVersionAttribute.PreserveProgress
+  fullName: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.PreserveProgress

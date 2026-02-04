@@ -29,7 +29,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.CalculateOrderbyValue(System.String,SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ColumnHelper
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ConvertDbTypeToString(System.Object,SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding)
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DenyOrderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DisableSubtreeIfNoRestriction
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DisplayNamePrefix
@@ -3502,27 +3501,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property PopulateTooltipHint As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateTooltipHint*
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  id: DebugXML
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
-  langs:
-  - csharp
-  - vb
-  name: DebugXML
-  nameWithType: ExtensibleColumnsBase.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public XmlDocument DebugXML { get; }
-    parameters: []
-    return:
-      type: System.Xml.XmlDocument
-    content.vb: Public ReadOnly Property DebugXML As XmlDocument
-  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML*
 references:
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ColumnHelper
   commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ColumnHelper
@@ -6573,39 +6551,3 @@ references:
   name: PopulateTooltipHint
   nameWithType: ExtensibleColumnsBase.PopulateTooltipHint
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateTooltipHint
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_DebugXML
-  name: DebugXML
-  nameWithType: ExtensibleColumnsBase.DebugXML
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
-- uid: System.Xml.XmlDocument
-  commentId: T:System.Xml.XmlDocument
-  parent: System.Xml
-  isExternal: true
-  name: XmlDocument
-  nameWithType: XmlDocument
-  fullName: System.Xml.XmlDocument
-- uid: System.Xml
-  commentId: N:System.Xml
-  isExternal: true
-  name: System.Xml
-  nameWithType: System.Xml
-  fullName: System.Xml
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true

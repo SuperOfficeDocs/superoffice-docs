@@ -17,7 +17,7 @@ items:
   - SoCore
   namespace: SuperOffice.CRM
   summary: >-
-    DocTemplate Type Mapping: [DocTemplateTypeMap] .xyz = .docx  
+    DocTemplate Type Mapping: [DocTemplateTypeMap] .xyz = .docx
 
     <p></p>Maps a template's unknown file type to a know file type before tag-substitution logic
 

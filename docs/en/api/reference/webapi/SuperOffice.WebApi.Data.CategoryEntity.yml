@@ -263,7 +263,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True if the category should enable lead stage
+  summary: True if the category should enable lead status
   example: []
   syntax:
     content: public virtual bool EnableLeadStatus { get; set; }
@@ -309,7 +309,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: true if the country is deleted
+  summary: true if the category is deleted
   example: []
   syntax:
     content: public virtual bool Deleted { get; set; }

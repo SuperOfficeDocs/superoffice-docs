@@ -102,6 +102,8 @@ items:
   - SuperOffice.Data.EventHandlerType
   - SuperOffice.Data.ExecuteOnEvent
   - SuperOffice.Data.ExternalOwner
+  - SuperOffice.Data.ExternallyOwnedStatus
+  - SuperOffice.Data.ExternallyOwnedType
   - SuperOffice.Data.ExtraDataFieldType
   - SuperOffice.Data.ExtraFieldFlags
   - SuperOffice.Data.FieldAccess
@@ -142,6 +144,7 @@ items:
   - SuperOffice.Data.InboxStatus
   - SuperOffice.Data.InterRestrictionOperator
   - SuperOffice.Data.InvitationStatus
+  - SuperOffice.Data.KbAccessLevel
   - SuperOffice.Data.LayoutUnits
   - SuperOffice.Data.LicenceType
   - SuperOffice.Data.LocalizedTextType
@@ -380,6 +383,22 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.Data.ExternallyOwnedType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ExternallyOwnedType.html
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.Data.ExternallyOwnedType
+- uid: SuperOffice.Data.ExternallyOwnedStatus
+  commentId: T:SuperOffice.Data.ExternallyOwnedStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ExternallyOwnedStatus.html
+  name: ExternallyOwnedStatus
+  nameWithType: ExternallyOwnedStatus
+  fullName: SuperOffice.Data.ExternallyOwnedStatus
 - uid: SuperOffice.Data.AppointmentPrivate
   commentId: T:SuperOffice.Data.AppointmentPrivate
   parent: SuperOffice.Data
@@ -2076,6 +2095,14 @@ references:
   name: ReplyTemplateAccessLevel
   nameWithType: ReplyTemplateAccessLevel
   fullName: SuperOffice.Data.ReplyTemplateAccessLevel
+- uid: SuperOffice.Data.KbAccessLevel
+  commentId: T:SuperOffice.Data.KbAccessLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.KbAccessLevel.html
+  name: KbAccessLevel
+  nameWithType: KbAccessLevel
+  fullName: SuperOffice.Data.KbAccessLevel
 - uid: SuperOffice.Data.ReplyTemplateFlags
   commentId: T:SuperOffice.Data.ReplyTemplateFlags
   parent: SuperOffice.Data

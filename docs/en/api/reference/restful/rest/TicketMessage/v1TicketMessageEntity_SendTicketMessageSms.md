@@ -31,8 +31,8 @@ Send a message to recipients by sms
 | replyTemplateId | int32 |  Optional ID of reply template to merge message with. &lt;= 0 to skip. |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=cum,sit
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=872
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=ipsum,inventore
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=946
 ```
 
 

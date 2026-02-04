@@ -6,15 +6,18 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatisticsAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipmentAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCountAsync(System.Int32,SuperOffice.Data.FormSubmissionStatus,System.Threading.CancellationToken)
@@ -24,10 +27,12 @@ items:
   - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocksAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync(SuperOffice.CRM.Services.FormEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -75,6 +80,160 @@ items:
       value: Marketing Agent
     - type: System.String
       value: Interface for the Marketing Agent. Agent used for Marketing functions, such as Forms
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  id: CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAvailableFontAsync(CancellationToken)
+  nameWithType: IMarketingAgent.CreateDefaultAvailableFontAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Create an return an empty font
+  example: []
+  syntax:
+    content: Task<AvailableFont> CreateDefaultAvailableFontAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+      description: Returns the created default font
+    content.vb: Function CreateDefaultAvailableFontAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  id: SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAvailableFontAsync(AvailableFont, CancellationToken)
+  nameWithType: IMarketingAgent.SaveAvailableFontAsync(AvailableFont, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.CRM.Services.AvailableFont, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Saves the font and returns it with correct rank
+  example: []
+  syntax:
+    content: Task<AvailableFont> SaveAvailableFontAsync(AvailableFont font, CancellationToken cancellationToken = default)
+    parameters:
+    - id: font
+      type: SuperOffice.CRM.Services.AvailableFont
+      description: The font to save
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+      description: Returns the saved font with correct rank
+    content.vb: Function SaveAvailableFontAsync(font As AvailableFont, cancellationToken As CancellationToken = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAvailableFontAsync(int, CancellationToken)
+  nameWithType: IMarketingAgent.DeleteAvailableFontAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Delete the font with the provided id
+  example: []
+  syntax:
+    content: Task<bool> DeleteAvailableFontAsync(int availableFontId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the font to delete
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the font was deleted
+    content.vb: Function DeleteAvailableFontAsync(availableFontId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync*
+  nameWithType.vb: IMarketingAgent.DeleteAvailableFontAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteAvailableFontAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetAvailableFontAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableFontAsync(int, CancellationToken)
+  nameWithType: IMarketingAgent.GetAvailableFontAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get an available font by id
+  example: []
+  syntax:
+    content: Task<AvailableFont> GetAvailableFontAsync(int availableFontId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the font to retrieve
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+      description: Returns the requested font or null if it does not exist
+    content.vb: Function GetAvailableFontAsync(availableFontId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync*
+  nameWithType.vb: IMarketingAgent.GetAvailableFontAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetAvailableFontAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SetFontRankAsync(int, int, CancellationToken)
+  nameWithType: IMarketingAgent.SetFontRankAsync(int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Set the rank on the font and reorder the rest of the fonts accordingly
+  example: []
+  syntax:
+    content: Task<bool> SetFontRankAsync(int availableFontId, int rank, CancellationToken cancellationToken = default)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the available font to set the rank on
+    - id: rank
+      type: System.Int32
+      description: The new rank to set on the font
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the new rank on the font and surrounding reranks went well
+    content.vb: Function SetFontRankAsync(availableFontId As Integer, rank As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync*
+  nameWithType.vb: IMarketingAgent.SetFontRankAsync(Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(Integer, Integer, System.Threading.CancellationToken)
+  name.vb: SetFontRankAsync(Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultFormEntityAsync(System.Threading.CancellationToken)
@@ -854,13 +1013,13 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultFormEntityAsync
-  nameWithType: IMarketingAgent.CreateDefaultFormEntityAsync
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultAvailableFontAsync_System_Threading_CancellationToken_
+  name: CreateDefaultAvailableFontAsync
+  nameWithType: IMarketingAgent.CreateDefaultAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultAvailableFontAsync
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -869,27 +1028,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AvailableFont}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<FormEntity>
-  nameWithType: Task<FormEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormEntity>
-  nameWithType.vb: Task(Of FormEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormEntity)
-  name.vb: Task(Of FormEntity)
+  name: Task<AvailableFont>
+  nameWithType: Task<AvailableFont>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AvailableFont>
+  nameWithType.vb: Task(Of AvailableFont)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AvailableFont)
+  name.vb: Task(Of AvailableFont)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.FormEntity
-    name: FormEntity
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
     isExternal: true
-    href: SuperOffice.CRM.Services.FormEntity.html
+    href: SuperOffice.CRM.Services.AvailableFont.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -899,10 +1058,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.FormEntity
-    name: FormEntity
+  - uid: SuperOffice.CRM.Services.AvailableFont
+    name: AvailableFont
     isExternal: true
-    href: SuperOffice.CRM.Services.FormEntity.html
+    href: SuperOffice.CRM.Services.AvailableFont.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -996,28 +1155,28 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormEntityAsync_SuperOffice_CRM_Services_FormEntity_System_Threading_CancellationToken_
-  name: SaveFormEntityAsync
-  nameWithType: IMarketingAgent.SaveFormEntityAsync
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync
-- uid: SuperOffice.CRM.Services.FormEntity
-  commentId: T:SuperOffice.CRM.Services.FormEntity
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveAvailableFontAsync_SuperOffice_CRM_Services_AvailableFont_System_Threading_CancellationToken_
+  name: SaveAvailableFontAsync
+  nameWithType: IMarketingAgent.SaveAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveAvailableFontAsync
+- uid: SuperOffice.CRM.Services.AvailableFont
+  commentId: T:SuperOffice.CRM.Services.AvailableFont
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.FormEntity.html
-  name: FormEntity
-  nameWithType: FormEntity
-  fullName: SuperOffice.CRM.Services.FormEntity
-- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync
+  href: SuperOffice.CRM.Services.AvailableFont.html
+  name: AvailableFont
+  nameWithType: AvailableFont
+  fullName: SuperOffice.CRM.Services.AvailableFont
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteFormEntityAsync
-  nameWithType: IMarketingAgent.DeleteFormEntityAsync
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteAvailableFontAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteAvailableFontAsync
+  nameWithType: IMarketingAgent.DeleteAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteAvailableFontAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1029,46 +1188,6 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetFormEntityAsync
-  nameWithType: IMarketingAgent.GetFormEntityAsync
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync
-- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_VerifyGoogleRecaptchaAsync_System_String_System_String_System_Threading_CancellationToken_
-  name: VerifyGoogleRecaptchaAsync
-  nameWithType: IMarketingAgent.VerifyGoogleRecaptchaAsync
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: T:System.Threading.Tasks.Task{System.Boolean}
   parent: System.Threading.Tasks
@@ -1104,6 +1223,124 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetAvailableFontAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAvailableFontAsync
+  nameWithType: IMarketingAgent.GetAvailableFontAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetAvailableFontAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SetFontRankAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: SetFontRankAsync
+  nameWithType: IMarketingAgent.SetFontRankAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultFormEntityAsync
+  nameWithType: IMarketingAgent.CreateDefaultFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FormEntity>
+  nameWithType: Task<FormEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormEntity>
+  nameWithType.vb: Task(Of FormEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormEntity)
+  name.vb: Task(Of FormEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FormEntity
+    name: FormEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FormEntity
+    name: FormEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormEntityAsync_SuperOffice_CRM_Services_FormEntity_System_Threading_CancellationToken_
+  name: SaveFormEntityAsync
+  nameWithType: IMarketingAgent.SaveFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntityAsync
+- uid: SuperOffice.CRM.Services.FormEntity
+  commentId: T:SuperOffice.CRM.Services.FormEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormEntity.html
+  name: FormEntity
+  nameWithType: FormEntity
+  fullName: SuperOffice.CRM.Services.FormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteFormEntityAsync
+  nameWithType: IMarketingAgent.DeleteFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntityAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFormEntityAsync
+  nameWithType: IMarketingAgent.GetFormEntityAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntityAsync
+- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_VerifyGoogleRecaptchaAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: VerifyGoogleRecaptchaAsync
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptchaAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync
   isExternal: true

@@ -47,6 +47,7 @@ items:
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.Equal)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.UnEqual)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.OrderBy)
+  - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
   - SuperOffice.Data.Dialect.OracleCommon.DateToVarchar(System.String)
   - SuperOffice.Data.Dialect.OracleCommon.TimeToVarchar(System.String)
@@ -838,6 +839,34 @@ references:
   - name: (
   - uid: SuperOffice.Data.SQL.OrderBy
     name: OrderBy
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  commentId: M:SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  parent: SuperOffice.Data.Dialect.OracleCommon
+  isExternal: true
+  href: SuperOffice.Data.Dialect.OracleCommon.html#SuperOffice_Data_Dialect_OracleCommon_ToSql_SuperOffice_Data_SQL_DateAdd_
+  name: ToSql(DateAdd)
+  nameWithType: OracleCommon.ToSql(DateAdd)
+  fullName: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+    name: ToSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.OracleCommon.html#SuperOffice_Data_Dialect_OracleCommon_ToSql_SuperOffice_Data_SQL_DateAdd_
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+    name: ToSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.OracleCommon.html#SuperOffice_Data_Dialect_OracleCommon_ToSql_SuperOffice_Data_SQL_DateAdd_
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
     isExternal: true
   - name: )
 - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.Sql.WaitFor)

@@ -1472,7 +1472,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=isMilestone,appointmentInstance/contact/url/URLDescription,appointmentInstance/contact/contactAssociate/personEmail,appointmentInstance/person/birthYear,appointmentInstance/project/projectEvent/hasSignOff
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/registeredDate,appointmentInstance/contact/updatedByFullName,appointmentInstance/contact/restrictionAddress/line2,appointmentInstance/project/projectAssociate/role,appointmentInstance/project/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

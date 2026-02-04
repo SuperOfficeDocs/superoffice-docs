@@ -90,6 +90,8 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExecuteOnEvent@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExtraDataFieldType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExtraFieldFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FieldAccess@,SuperOffice.Data.SQL.FieldInfo)
@@ -115,6 +117,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ImportProductDuplicateMatch@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.InterRestrictionOperator@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.InvitationStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.KbAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LocalizedTextType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LogEvent@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.LoginFlags@,SuperOffice.Data.SQL.FieldInfo)
@@ -1015,6 +1018,62 @@ items:
   nameWithType.vb: RowValidator.ValidateField(AppointmentExternalOwner, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentExternalOwner, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(AppointmentExternalOwner, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ExternallyOwnedType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ExternallyOwnedType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ExternallyOwnedType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ExternallyOwnedType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ExternallyOwnedType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ExternallyOwnedType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ExternallyOwnedType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ExternallyOwnedType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedStatus@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedStatus@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ExternallyOwnedStatus@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ExternallyOwnedStatus, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ExternallyOwnedStatus, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ExternallyOwnedStatus, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ExternallyOwnedStatus field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ExternallyOwnedStatus
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ExternallyOwnedStatus, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ExternallyOwnedStatus, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedStatus, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ExternallyOwnedStatus, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
@@ -6951,6 +7010,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(ReplyTemplateAccessLevel, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateAccessLevel, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ReplyTemplateAccessLevel, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.KbAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.KbAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.KbAccessLevel@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref KbAccessLevel, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref KbAccessLevel, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.KbAccessLevel, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref KbAccessLevel field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.KbAccessLevel
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As KbAccessLevel, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(KbAccessLevel, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.KbAccessLevel, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(KbAccessLevel, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ReplyTemplateFlags@,SuperOffice.Data.SQL.FieldInfo)
@@ -9266,6 +9353,22 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.Data.ExternallyOwnedType
+  commentId: T:SuperOffice.Data.ExternallyOwnedType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ExternallyOwnedType.html
+  name: ExternallyOwnedType
+  nameWithType: ExternallyOwnedType
+  fullName: SuperOffice.Data.ExternallyOwnedType
+- uid: SuperOffice.Data.ExternallyOwnedStatus
+  commentId: T:SuperOffice.Data.ExternallyOwnedStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ExternallyOwnedStatus.html
+  name: ExternallyOwnedStatus
+  nameWithType: ExternallyOwnedStatus
+  fullName: SuperOffice.Data.ExternallyOwnedStatus
 - uid: SuperOffice.Data.AppointmentPrivate
   commentId: T:SuperOffice.Data.AppointmentPrivate
   parent: SuperOffice.Data
@@ -10961,6 +11064,14 @@ references:
   name: ReplyTemplateAccessLevel
   nameWithType: ReplyTemplateAccessLevel
   fullName: SuperOffice.Data.ReplyTemplateAccessLevel
+- uid: SuperOffice.Data.KbAccessLevel
+  commentId: T:SuperOffice.Data.KbAccessLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.KbAccessLevel.html
+  name: KbAccessLevel
+  nameWithType: KbAccessLevel
+  fullName: SuperOffice.Data.KbAccessLevel
 - uid: SuperOffice.Data.ReplyTemplateFlags
   commentId: T:SuperOffice.Data.ReplyTemplateFlags
   parent: SuperOffice.Data

@@ -6,15 +6,18 @@ items:
   parent: SuperOffice.WebApi.Agents
   children:
   - SuperOffice.WebApi.Agents.IMarketingAgent.CalculateMailingStatisticsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultShipmentMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.DeleteFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.DeleteMessageAndShipmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionsCountAsync(System.Int32,SuperOffice.WebApi.Data.FormSubmissionStatus,SuperOffice.WebApi.RequestOptions)
@@ -24,10 +27,12 @@ items:
   - SuperOffice.WebApi.Agents.IMarketingAgent.GetShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.GetUserBlocksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.RenameMailingByMessageIdAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.WebApi.Data.AvailableFont,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveFormEntityAsync(SuperOffice.WebApi.Data.FormEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -419,6 +424,165 @@ items:
   nameWithType.vb: IMarketingAgent.DeleteShipmentMessageEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteShipmentMessageEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: DeleteShipmentMessageEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultAvailableFontAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAvailableFontAsync(RequestOptions)
+  nameWithType: IMarketingAgent.CreateDefaultAvailableFontAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Create an return an empty font
+  example: []
+  syntax:
+    content: Task<AvailableFont> CreateDefaultAvailableFontAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AvailableFont}
+      description: Returns the created default font
+    content.vb: Function CreateDefaultAvailableFontAsync(requestOptions As RequestOptions = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync*
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.WebApi.Data.AvailableFont,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.WebApi.Data.AvailableFont,SuperOffice.WebApi.RequestOptions)
+  id: SaveAvailableFontAsync(SuperOffice.WebApi.Data.AvailableFont,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAvailableFontAsync(AvailableFont, RequestOptions)
+  nameWithType: IMarketingAgent.SaveAvailableFontAsync(AvailableFont, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync(SuperOffice.WebApi.Data.AvailableFont, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Saves the font and returns it with correct rank
+  example: []
+  syntax:
+    content: Task<AvailableFont> SaveAvailableFontAsync(AvailableFont font, RequestOptions requestOptions = null)
+    parameters:
+    - id: font
+      type: SuperOffice.WebApi.Data.AvailableFont
+      description: The font to save
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AvailableFont}
+      description: Returns the saved font with correct rank
+    content.vb: Function SaveAvailableFontAsync(font As AvailableFont, requestOptions As RequestOptions = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync*
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAvailableFontAsync(int, RequestOptions)
+  nameWithType: IMarketingAgent.DeleteAvailableFontAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Delete the font with the provided id
+  example: []
+  syntax:
+    content: Task<bool> DeleteAvailableFontAsync(int availableFontId, RequestOptions requestOptions = null)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the font to delete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the font was deleted
+    content.vb: Function DeleteAvailableFontAsync(availableFontId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync*
+  nameWithType.vb: IMarketingAgent.DeleteAvailableFontAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteAvailableFontAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAvailableFontAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableFontAsync(int, RequestOptions)
+  nameWithType: IMarketingAgent.GetAvailableFontAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get an available font by id
+  example: []
+  syntax:
+    content: Task<AvailableFont> GetAvailableFontAsync(int availableFontId, RequestOptions requestOptions = null)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the font to retrieve
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AvailableFont}
+      description: Returns the requested font or null if it does not exist
+    content.vb: Function GetAvailableFontAsync(availableFontId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AvailableFont)
+  overload: SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync*
+  nameWithType.vb: IMarketingAgent.GetAvailableFontAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAvailableFontAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetFontRankAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SetFontRankAsync(int, int, RequestOptions)
+  nameWithType: IMarketingAgent.SetFontRankAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync(int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Set the rank on the font and reorder the rest of the fonts accordingly
+  example: []
+  syntax:
+    content: Task<bool> SetFontRankAsync(int availableFontId, int rank, RequestOptions requestOptions = null)
+    parameters:
+    - id: availableFontId
+      type: System.Int32
+      description: The id of the available font to set the rank on
+    - id: rank
+      type: System.Int32
+      description: The new rank to set on the font
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the new rank on the font and surrounding reranks went well
+    content.vb: Function SetFontRankAsync(availableFontId As Integer, rank As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync*
+  nameWithType.vb: IMarketingAgent.SetFontRankAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetFontRankAsync(Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1373,31 +1537,70 @@ references:
   name: DeleteShipmentMessageEntityAsync
   nameWithType: IMarketingAgent.DeleteShipmentMessageEntityAsync
   fullName: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteShipmentMessageEntityAsync
-- uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_GetFormEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: GetFormEntityAsync
-  nameWithType: IMarketingAgent.GetFormEntityAsync
-  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync
-- uid: SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_CreateDefaultAvailableFontAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultAvailableFontAsync
+  nameWithType: IMarketingAgent.CreateDefaultAvailableFontAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.CreateDefaultAvailableFontAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AvailableFont}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AvailableFont}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AvailableFont>
+  nameWithType: Task<AvailableFont>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AvailableFont>
+  nameWithType.vb: Task(Of AvailableFont)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AvailableFont)
+  name.vb: Task(Of AvailableFont)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.AvailableFont
+    name: AvailableFont
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AvailableFont.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.AvailableFont
+    name: AvailableFont
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AvailableFont.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_VerifyGoogleRecaptchaAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
-  name: VerifyGoogleRecaptchaAsync
-  nameWithType: IMarketingAgent.VerifyGoogleRecaptchaAsync
-  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync
-- uid: System.String
-  commentId: T:System.String
-  parent: System
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_SaveAvailableFontAsync_SuperOffice_WebApi_Data_AvailableFont_SuperOffice_WebApi_RequestOptions_
+  name: SaveAvailableFontAsync
+  nameWithType: IMarketingAgent.SaveAvailableFontAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.SaveAvailableFontAsync
+- uid: SuperOffice.WebApi.Data.AvailableFont
+  commentId: T:SuperOffice.WebApi.Data.AvailableFont
+  parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  href: SuperOffice.WebApi.Data.AvailableFont.html
+  name: AvailableFont
+  nameWithType: AvailableFont
+  fullName: SuperOffice.WebApi.Data.AvailableFont
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_DeleteAvailableFontAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteAvailableFontAsync
+  nameWithType: IMarketingAgent.DeleteAvailableFontAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.DeleteAvailableFontAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
   commentId: T:System.Threading.Tasks.Task{System.Boolean}
   parent: System.Threading.Tasks
@@ -1433,6 +1636,45 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_GetAvailableFontAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetAvailableFontAsync
+  nameWithType: IMarketingAgent.GetAvailableFontAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.GetAvailableFontAsync
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_SetFontRankAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetFontRankAsync
+  nameWithType: IMarketingAgent.SetFontRankAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_GetFormEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetFormEntityAsync
+  nameWithType: IMarketingAgent.GetFormEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormEntityAsync
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_VerifyGoogleRecaptchaAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  name: VerifyGoogleRecaptchaAsync
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptchaAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync
   isExternal: true

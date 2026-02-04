@@ -371,6 +371,8 @@ items:
     name: UserPreferenceStrings.DocTemplateTypeMap
   - uid: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem
     name: UserPreferenceStrings.DuplicateSystem
+  - uid: SuperOffice.CRM.UserPreferenceStrings.EmailNotification
+    name: UserPreferenceStrings.EmailNotification
   - uid: SuperOffice.CRM.UserPreferenceStrings.ExtraFields
     name: UserPreferenceStrings.ExtraFields
   - uid: SuperOffice.CRM.UserPreferenceStrings.FieldLabels
@@ -1886,6 +1888,8 @@ items:
     name: RejectedInvitationExtender
   - uid: SuperOffice.CRM.ArchiveLists.RejectedInvitationProvider
     name: RejectedInvitationProvider
+  - uid: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider
+    name: RelatedTicketsProvider
   - uid: SuperOffice.CRM.ArchiveLists.RelationAssociateExtender
     name: RelationAssociateExtender
   - uid: SuperOffice.CRM.ArchiveLists.RelationCCProvider
@@ -2356,6 +2360,8 @@ items:
     name: TicketTicketExtender
   - uid: SuperOffice.CRM.ArchiveLists.TicketTicketPriorityExtender
     name: TicketTicketPriorityExtender
+  - uid: SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
+    name: TicketTicketRelationExtender
   - uid: SuperOffice.CRM.ArchiveLists.TicketTicketStatusExtender
     name: TicketTicketStatusExtender
   - uid: SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationExtender
@@ -3147,6 +3153,8 @@ items:
     name: ImportProductImageBatchPlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
     name: ProgressHandler
+  - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
+    name: RagUpdateAllNamesPlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
     name: RagUpdatePlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
@@ -6481,8 +6489,12 @@ items:
     name: InvitationTemplateLanguageProvider
   - uid: SuperOffice.CRM.Lists.Iso6391LanguageProvider
     name: Iso6391LanguageProvider
+  - uid: SuperOffice.CRM.Lists.KbAccessLevelProvider
+    name: KbAccessLevelProvider
   - uid: SuperOffice.CRM.Lists.KbEntryListProvider
     name: KbEntryListProvider
+  - uid: SuperOffice.CRM.Lists.KbWorkflowProvider
+    name: KbWorkflowProvider
   - uid: SuperOffice.CRM.Lists.LanguageProvider
     name: LanguageProvider
   - uid: SuperOffice.CRM.Lists.LeadStatusListProvider
@@ -6557,6 +6569,8 @@ items:
     name: MonthProvider
   - uid: SuperOffice.CRM.Lists.OfMonthProvider
     name: OfMonthProvider
+  - uid: SuperOffice.CRM.Lists.OnlineFontLibraryProvider
+    name: OnlineFontLibraryProvider
   - uid: SuperOffice.CRM.Lists.OwnerContactProvider
     name: OwnerContactProvider
   - uid: SuperOffice.CRM.Lists.PeriodProvider
@@ -6657,6 +6671,8 @@ items:
     name: RelationListProvider.RelationType
   - uid: SuperOffice.CRM.Lists.RelationsSearchListProvider
     name: RelationsSearchListProvider
+  - uid: SuperOffice.CRM.Lists.ReplyTemplateAccessLevelProvider
+    name: ReplyTemplateAccessLevelProvider
   - uid: SuperOffice.CRM.Lists.ReplyTemplateProvider
     name: ReplyTemplateProvider
   - uid: SuperOffice.CRM.Lists.ResourceMDOProvider
@@ -6781,6 +6797,8 @@ items:
     name: TicketReadStatusProvider
   - uid: SuperOffice.CRM.Lists.TicketRelationDefinitionProvider
     name: TicketRelationDefinitionProvider
+  - uid: SuperOffice.CRM.Lists.TicketRelationTypeProvider
+    name: TicketRelationTypeProvider
   - uid: SuperOffice.CRM.Lists.TicketSLevelProvider
     name: TicketSLevelProvider
   - uid: SuperOffice.CRM.Lists.TicketStatusProvider
@@ -17835,6 +17853,8 @@ items:
     name: TicketOwnerResolver
   - uid: SuperOffice.CRM.Ticket.TicketPriorityResolver
     name: TicketPriorityResolver
+  - uid: SuperOffice.CRM.Ticket.TicketRelationHelper
+    name: TicketRelationHelper
   - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
     name: TicketStatusRegistryHelper
   - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
@@ -18517,6 +18537,10 @@ items:
     name: ExecuteOnEvent
   - uid: SuperOffice.Data.ExternalOwner
     name: ExternalOwner
+  - uid: SuperOffice.Data.ExternallyOwnedStatus
+    name: ExternallyOwnedStatus
+  - uid: SuperOffice.Data.ExternallyOwnedType
+    name: ExternallyOwnedType
   - uid: SuperOffice.Data.ExtraDataFieldType
     name: ExtraDataFieldType
   - uid: SuperOffice.Data.ExtraFieldFlags
@@ -18597,6 +18621,8 @@ items:
     name: InterRestrictionOperator
   - uid: SuperOffice.Data.InvitationStatus
     name: InvitationStatus
+  - uid: SuperOffice.Data.KbAccessLevel
+    name: KbAccessLevel
   - uid: SuperOffice.Data.LayoutUnits
     name: LayoutUnits
   - uid: SuperOffice.Data.LicenceType
@@ -19237,6 +19263,10 @@ items:
     name: DatabaseFunctions
   - uid: SuperOffice.Data.SQL.DatabaseTableAttribute
     name: DatabaseTableAttribute
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+  - uid: SuperOffice.Data.SQL.DatePart
+    name: DatePart
   - uid: SuperOffice.Data.SQL.DateTimeFieldInfo
     name: DateTimeFieldInfo
   - uid: SuperOffice.Data.SQL.Day
@@ -19886,6 +19916,8 @@ items:
     name: SoExceptionInfo
   - uid: SuperOffice.Exceptions.SoExceptionInfoParameters
     name: SoExceptionInfoParameters
+  - uid: SuperOffice.Exceptions.SoFeatureToggleException
+    name: SoFeatureToggleException
   - uid: SuperOffice.Exceptions.SoFileNotFoundException
     name: SoFileNotFoundException
   - uid: SuperOffice.Exceptions.SoFunctionRightException
@@ -20404,8 +20436,6 @@ items:
     name: Encoding
   - uid: SuperOffice.Util.EnumerableWriter
     name: EnumerableWriter
-  - uid: SuperOffice.Util.ExpiringDictionary`2
-    name: ExpiringDictionary<TKey, TValue>
   - uid: SuperOffice.Util.ExpressionUtil
     name: ExpressionUtil
   - uid: SuperOffice.Util.FileExtensionValidator
@@ -20613,4 +20643,6 @@ items:
   items:
   - uid: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
     name: CreateSyncVersionAttribute
+  - uid: Zomp.SyncMethodGenerator.SkipSyncVersionAttribute
+    name: SkipSyncVersionAttribute
 memberLayout: SamePage

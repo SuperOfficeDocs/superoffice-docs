@@ -26,7 +26,7 @@ Gets all the SelectionCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items?includeDeleted=True
+GET /api/v1/List/SelectionCategory/Items?includeDeleted=False
 ```
 
 
