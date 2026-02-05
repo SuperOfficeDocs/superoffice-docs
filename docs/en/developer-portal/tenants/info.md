@@ -4,8 +4,8 @@ title: Look up tenant info
 description: Look up tenant info
 keywords: Developer Portal, app, customer, tenant
 author: digitaldiina, MargretheR
-date: 12.19.2025
-version_devportal: 1.29
+date: 02.05.2026
+version_devportal: 2.10.20
 content_type: howto
 deployment: online
 ---
@@ -15,15 +15,11 @@ deployment: online
 The starting point for all these look-ups is the **Tenant listing** page.
 
 > [!TIP]
-> Use the search boxes to quickly locate a specific tenant by ID or name, especially when you have many tenants listed.
+> Use the search boxes to quickly locate a specific tenant by ID or name. The list loads more tenants as you scroll. You can also click the **Load all** button to display all tenants at once.
 
 ![Tenants page in SuperOffice Developer portal -screenshot][img1]
 
-The **Excel Export** button on the tenant list page allows you to download the tenants currently shown in the list.
-
-The list can be filtered, so you can export either all tenants that have authorized one or more of your apps, or only those that have authorized a specific app.
-
-The export is limited to a maximum of 50 tenants per page.
+The **Excel Export** button on the tenant list page allows you to download the tenants currently shown in the list. If you filter the list by application or by one or more columns, the export will contain only the filtered results.
 
 ## <a id="state" ></a>Tenant status
 
@@ -50,7 +46,7 @@ The license information is presented in two columns on the **Tenant listing** pa
 
 ## Site licenses
 
-The list of [platform features][7] available to a tenant is shown in the **Tenant details** page.
+The list of [platform features][6] available to a tenant is shown in the **Tenant details** page.
 
 1. From the **Tenant listing** page, click on a specific tenant to open the **Tenant details** page.
 
@@ -69,7 +65,6 @@ The list of [platform features][7] available to a tenant is shown in the **Tenan
 [4]: ../best-practices/tenant-status/check-status.md
 [5]: ../best-practices/tenant-status/index.md
 [6]: ../../admin/license/index.md
-[7]: ../../admin/license/index.md
 
 <!-- Referenced images -->
 [img1]: media/tenants-page.png
