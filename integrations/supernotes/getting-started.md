@@ -1,46 +1,46 @@
 ---
 uid: supernotes-getting-started
 title: Getting started
-description: Common questions about getting started with Supernotes
-keywords: Supernotes, AI, meetings, setup, calendar, transcription, People Directory
+description: Common questions about getting started with SuperNotes
+keywords: SuperNotes, AI, meetings, setup, calendar, transcription, People Directory
 author: BredeYabo
 date: 02.04.2026
 content_type: howto
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 
 # Getting started
 
-Find answers to common questions about setting up and using Supernotes.
+Find answers to common questions about setting up and using SuperNotes.
 
-## What is Supernotes and what does it do?
+## What is SuperNotes and what does it do?
 
-Supernotes is an AI-powered meeting assistant. The solution is used for:
+SuperNotes is an AI-powered meeting assistant. The solution is used for:
 
 * **Meeting transcription and recording:** capture your meetings automatically.
 * **Creating AI-powered meeting summaries:** get structured summaries after each meeting.
 * **Organizing meetings in projects:** group related meetings for shared context.
 * **Detecting action items and decisions:** automatically identify key outcomes during meetings.
 
-Supernotes is designed to free up time for professional discussions and reduce time spent writing meeting minutes and finding previous decisions. The goal is more effective meetings and higher quality work.
+SuperNotes is designed to free up time for professional discussions and reduce time spent writing meeting minutes and finding previous decisions. The goal is more effective meetings and higher quality work.
 
-## <a id="connect-calendar"></a>How do I connect my calendar to Supernotes?
+## <a id="connect-calendar"></a>How do I connect my calendar to SuperNotes?
 
-To connect your calendar and enable Supernotes to join your meetings:
+To connect your calendar and enable SuperNotes to join your meetings:
 
 1. Go to **Settings** > **Calendar**.
 1. Click the connect button for your calendar provider.
 1. Select the account you use for your regular meeting calendar.
 1. Grant the necessary permissions.
-1. Verify that your upcoming meetings appear in Supernotes.
+1. Verify that your upcoming meetings appear in SuperNotes.
 
-Once connected, Supernotes will be able to see your meeting schedule and join meetings based on your settings.
+Once connected, SuperNotes will be able to see your meeting schedule and join meetings based on your settings.
 
-## What meeting platforms does Supernotes support?
+## What meeting platforms does SuperNotes support?
 
-Supernotes currently supports the following platforms:
+SuperNotes currently supports the following platforms:
 
 | Platform | Status |
 | --- | --- |
@@ -49,26 +49,26 @@ Supernotes currently supports the following platforms:
 | Zoom | Fully supported |
 | Physical meetings | Supported (with recording device) |
 
-## <a id="send-manually"></a>How do I manually send Supernotes to a meeting?
+## <a id="send-manually"></a>How do I manually send SuperNotes to a meeting?
 
-If Supernotes doesn't automatically join a meeting, you can manually send it:
+If SuperNotes doesn't automatically join a meeting, you can manually send it:
 
-1. Click the **Send Supernotes to meeting** button in the upper-right corner of the dashboard.
+1. Click the **Send SuperNotes to meeting** button in the upper-right corner of the dashboard.
 1. Paste the meeting link (Teams, Google Meet, or similar).
-1. Click **Send Supernotes to meeting**.
+1. Click **Send SuperNotes to meeting**.
 
-Supernotes will join the meeting and begin transcription once it's admitted.
+SuperNotes will join the meeting and begin transcription once it's admitted.
 
 ## <a id="meeting-duration-limits"></a>What are the meeting duration limits?
 
-Supernotes has the following time limits for meetings:
+SuperNotes has the following time limits for meetings:
 
 | Parameter | Limit |
 | --- | --- |
 | Maximum meeting length | 5 hours |
-| Inactivity timeout | 45 minutes (Supernotes leaves after 45 minutes of no activity) |
+| Inactivity timeout | 45 minutes (SuperNotes leaves after 45 minutes of no activity) |
 
-For meetings longer than 5 hours, you may need to restart Supernotes or split the meeting into sessions.
+For meetings longer than 5 hours, you may need to restart SuperNotes or split the meeting into sessions.
 
 ## How do I reconnect my calendar if settings changes aren't applying?
 
@@ -78,25 +78,25 @@ If your settings changes aren't being reflected in upcoming meetings, you may ne
 1. Select **Reconnect calendar**.
 1. Select the correct account (your usual meeting calendar).
 1. Complete the authorization steps.
-1. Verify Supernotes appears in your upcoming meetings.
+1. Verify SuperNotes appears in your upcoming meetings.
 
 > [!TIP]
 > After reconnecting, it may take a few minutes for all meetings to sync.
 
 ## What is the first-time setup process?
 
-When you first access Supernotes, you'll go through a simple onboarding process:
+When you first access SuperNotes, you'll go through a simple onboarding process:
 
 1. **Verify your identity:** Sign in using your Google or Microsoft account to verify your email domain and identity.
 1. **Join or create a workspace (required):** This is the most important step. If your company already has a workspace, you'll see an option to join it. If you're the first person from your company, you'll create a new workspace.
-1. **Connect your calendar:** Connect your Google Calendar or Microsoft Calendar so Supernotes can see your upcoming meetings and automatically join them.
+1. **Connect your calendar:** Connect your Google Calendar or Microsoft Calendar so SuperNotes can see your upcoming meetings and automatically join them.
 
 > [!NOTE]
 > Always join your company's workspace first to prevent duplicate note-takers in meetings. For more details, see [Workspaces][4].
 
 ## How does the AI note taker work?
 
-Supernotes uses an AI-powered assistant that joins your video meetings as a participant. The assistant:
+SuperNotes uses an AI-powered assistant that joins your video meetings as a participant. The assistant:
 
 * Appears with a branded avatar in your meeting.
 * Records audio from all participants.
@@ -106,11 +106,11 @@ For details on enabling the note taker for specific meetings, see [How do I enab
 
 ## How do I record physical meetings?
 
-Supernotes can also record in-person meetings where there's no video conference.
+SuperNotes can also record in-person meetings where there's no video conference.
 
 ### How to record physical meetings
 
-1. Open Supernotes on your phone (via web browser).
+1. Open SuperNotes on your phone (via web browser).
 1. Log in to your account.
 1. Tap the large **Physical Meeting** button on the home screen.
 1. Place your phone at the center of the table.
@@ -126,9 +126,9 @@ Supernotes can also record in-person meetings where there's no video conference.
 > [!NOTE]
 > Physical meetings follow the same limits as virtual meetings: maximum duration of 5 hours, and auto-stop after 45 minutes of silence.
 
-## Can I use Supernotes on mobile?
+## Can I use SuperNotes on mobile?
 
-Yes, Supernotes works on mobile devices through your web browser. While not a native app, the web experience is mobile-optimized.
+Yes, SuperNotes works on mobile devices through your web browser. While not a native app, the web experience is mobile-optimized.
 
 ### What you can do on mobile
 
@@ -175,14 +175,14 @@ People Directory is a feature that shows all contacts you've interacted with acr
 
 ## Can I upload my own files or audio recordings for transcription?
 
-Yes, Supernotes supports both audio file uploads and document uploads.
+Yes, SuperNotes supports both audio file uploads and document uploads.
 
 ### For audio recordings
 
 1. Go to the **Record** page from the main menu.
 1. You can record directly in your browser, or upload existing audio files.
 1. Supported formats include common audio types like MP3, WAV, and M4A.
-1. After upload, Supernotes transcribes the audio and generates a summary.
+1. After upload, SuperNotes transcribes the audio and generates a summary.
 
 ### For documents
 
@@ -192,11 +192,11 @@ Yes, Supernotes supports both audio file uploads and document uploads.
 1. Documents become available to the AI for context in that project.
 
 > [!TIP]
-> The Record page is particularly useful for uploading recordings from voice memos, external recording devices, or meetings that weren't captured live by Supernotes.
+> The Record page is particularly useful for uploading recordings from voice memos, external recording devices, or meetings that weren't captured live by SuperNotes.
 
 ## Are there any limitations on meetings or users?
 
-Supernotes is designed to grow with your team without artificial restrictions.
+SuperNotes is designed to grow with your team without artificial restrictions.
 
 ### What's unlimited
 

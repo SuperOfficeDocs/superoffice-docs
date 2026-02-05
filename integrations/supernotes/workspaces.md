@@ -1,30 +1,30 @@
 ---
 uid: supernotes-workspaces
 title: Workspaces
-description: Common questions about workspaces in Supernotes
-keywords: Supernotes, workspace, team, collaboration, sharing
+description: Common questions about workspaces in SuperNotes
+keywords: SuperNotes, workspace, team, collaboration, sharing
 author: BredeYabo
 date: 02.04.2026
 content_type: reference
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 
 # Workspaces
 
-Find answers to common questions about workspaces and team collaboration in Supernotes.
+Find answers to common questions about workspaces and team collaboration in SuperNotes.
 
 ## What is a workspace?
 
-A workspace is a shared environment that connects team members within Supernotes. Think of it as your company's private space where:
+A workspace is a shared environment that connects team members within SuperNotes. Think of it as your company's private space where:
 
 * **Meeting summaries are automatically shared:** with colleagues who attended.
 * **Only one AI note-taker joins each meeting:** no duplicates.
 * **Administrators can manage:** team access and settings.
 * **Usage is tracked collectively:** for billing purposes.
 
-Every Supernotes user must be part of a workspace. This is enforced during onboarding because it's critical for the product to work correctly.
+Every SuperNotes user must be part of a workspace. This is enforced during onboarding because it's critical for the product to work correctly.
 
 ## Why are workspaces so important?
 
@@ -32,13 +32,13 @@ Workspaces solve a critical problem: preventing duplicate assistants in meetings
 
 ### Without workspaces
 
-* If five colleagues in the same meeting all have Supernotes enabled, five separate assistants would join.
+* If five colleagues in the same meeting all have SuperNotes enabled, five separate assistants would join.
 * This creates confusion for meeting participants.
 * Results in wasted resources and multiple duplicate summaries.
 
 ### With workspaces
 
-* Supernotes knows which users are colleagues.
+* SuperNotes knows which users are colleagues.
 * Only one assistant joins each meeting.
 * The summary is automatically shared with all workspace members who attended.
 
@@ -50,7 +50,7 @@ There are two ways to join a workspace:
 
 ### Automatic workspace detection
 
-Supernotes automatically detects workspaces based on your email domain. If you sign up with `john@acme.com` and a workspace exists with domain acme.com, you'll be prompted to join that workspace.
+SuperNotes automatically detects workspaces based on your email domain. If you sign up with `john@acme.com` and a workspace exists with domain acme.com, you'll be prompted to join that workspace.
 
 ### Invitation-based joining
 
@@ -68,9 +68,9 @@ If domain-based access is disabled, you'll need an invitation:
 
 Create a new workspace when:
 
-* You're the first person from your company to use Supernotes.
+* You're the first person from your company to use SuperNotes.
 * Your team needs a separate workspace from other departments.
-* You're setting up Supernotes for a new client or project.
+* You're setting up SuperNotes for a new client or project.
 
 ### Creation process
 
@@ -147,14 +147,14 @@ If multiple assistants are joining your meeting, the participants aren't in the 
 
 ### To fix this
 
-1. Identify who has Supernotes but isn't in your workspace.
+1. Identify who has SuperNotes but isn't in your workspace.
 1. Have your admin invite them to the workspace.
 1. They need to accept the invitation and join the shared workspace.
 1. Future meetings will only have one assistant.
 
 ### To prevent this issue
 
-* **Communicate before rollout:** let employees know about Supernotes before inviting them.
+* **Communicate before rollout:** let employees know about SuperNotes before inviting them.
 * **Use bulk invites:** more efficient for large teams.
 * **Consider enabling domain-based access:** for your organization.
 

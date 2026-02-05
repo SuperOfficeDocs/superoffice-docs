@@ -1,13 +1,13 @@
 ---
 uid: supernotes-teams
 title: Teams
-description: Common questions about teams in Supernotes
-keywords: Supernotes, create team, team lead, collaboration, Share with Teams, Share with workspace
+description: Common questions about teams in SuperNotes
+keywords: SuperNotes, create team, team lead, collaboration, Share with Teams, Share with workspace
 author: BredeYabo
 date: 02.04.2026
 content_type: reference
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 

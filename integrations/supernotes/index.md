@@ -1,23 +1,23 @@
 ---
 uid: supernotes
-title: Supernotes
+title: SuperNotes
 description: AI-powered meeting assistant for SuperOffice users
-keywords: Supernotes, AI, meeting, transcript, summaries
+keywords: SuperNotes, AI, meeting, transcript, summaries
 author: BredeYabo
 date: 02.04.2026
 content_type: concept
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 
-# Supernotes
+# SuperNotes
 
-Supernotes is an AI-powered meeting assistant that integrates with SuperOffice to help you capture, transcribe, and summarize your meetings automatically.
+SuperNotes is an AI-powered meeting assistant that integrates with SuperOffice to help you capture, transcribe, and summarize your meetings automatically.
 
 ## Key features
 
-* **Automatic joining:** Supernotes can automatically join your scheduled meetings.
+* **Automatic joining:** SuperNotes can automatically join your scheduled meetings.
 * **Live transcription:** Real-time speech-to-text with speaker identification.
 * **Smart summaries:** AI-generated summaries tailored to your meeting type.
 * **Sharing:** Easy sharing with participants via email or link.

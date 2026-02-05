@@ -1,13 +1,13 @@
 ---
 uid: supernotes-summaries
 title: Summaries
-description: Common questions about meeting summaries and sharing in Supernotes
-keywords: Supernotes, summary, transcript, share meeting summary, speaker, sentiment
+description: Common questions about meeting summaries and sharing in SuperNotes
+keywords: SuperNotes, summary, transcript, share meeting summary, speaker, sentiment
 author: BredeYabo
 date: 02.04.2026
 content_type: reference
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 
@@ -17,7 +17,7 @@ Find answers to common questions about meeting summaries, transcripts, and shari
 
 ## What status options do meeting summaries have?
 
-Meeting summaries in Supernotes are generated automatically after your meeting ends. The summary goes through the following stages:
+Meeting summaries in SuperNotes are generated automatically after your meeting ends. The summary goes through the following stages:
 
 | Status | Description |
 | --- | --- |
@@ -141,7 +141,7 @@ This helps identify contentious topics or areas of strong agreement.
 
 ## How do I create custom meeting types/templates? {#custom-meeting-types}
 
-Meeting types control how Supernotes formats summaries. To create a custom template:
+Meeting types control how SuperNotes formats summaries. To create a custom template:
 
 1. Go to **Settings** > **Meeting Types**.
 1. Click **Create new meeting type**.
@@ -177,12 +177,12 @@ If you didn't receive your meeting summary email, check these possible causes:
 
 ### What to do
 
-* Check your Supernotes portal - the summary should be there even if email fails.
+* Check your SuperNotes portal - the summary should be there even if email fails.
 * Verify your email settings are correctly configured.
 * If the issue persists, contact support.
 
 > [!NOTE]
-> Even if you don't receive the email, your summary is always available in the Supernotes portal.
+> Even if you don't receive the email, your summary is always available in the SuperNotes portal.
 
 ## How do I send a meeting summary to participants via email?
 
@@ -197,11 +197,11 @@ After creating a share link (see [How do I share meeting summaries with particip
 Participants who have already received the email are shown with a green checkmark and cannot be selected again.
 
 > [!NOTE]
-> The email includes the full summary text plus a link to view it in Supernotes. You can send to up to 50 recipients at once.
+> The email includes the full summary text plus a link to view it in SuperNotes. You can send to up to 50 recipients at once.
 
 ## How do I share a meeting summary with specific workspace members?
 
-You can grant specific workspace members access to view or edit a meeting summary directly within Supernotes:
+You can grant specific workspace members access to view or edit a meeting summary directly within SuperNotes:
 
 1. Open the meeting summary.
 1. Click **Manage Access** to open the access management dialog.
