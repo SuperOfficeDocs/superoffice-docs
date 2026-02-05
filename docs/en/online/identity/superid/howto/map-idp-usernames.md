@@ -1,9 +1,10 @@
 ---
-title: Update SuperOffice username to match IdP
 uid: map_idp_usernames
+title: Update SuperOffice username to match IdP
 description: Update SuperOffice username to match IdP username
+keywords: IdP username
 author: SuperOffice Product and Engineering
-keywords:
+date: 02.05.2026
 content_type: tutorial
 deployment: online
 platform: web
@@ -29,26 +30,20 @@ The username you are going to map to is commonly (but not always) the **primary 
 
 You can find the username in the **admin>users** section.
 
-**For Microsoft:**
+* **For Microsoft:** Go to [https://admin.microsoft.com/AdminPortal/Home#/users][1]
 
-Go to [https://admin.microsoft.com/AdminPortal/Home#/users][1]
+* **For Google:** Go to  [https://admin.google.com/ac/users][2]
 
-![UPN Microsoft 365 -screenshot][img1]
-
-**For Google:**
-
-Go to  [https://admin.google.com/ac/users][2]
-
-![UPN Google -screenshot][img2]
-
-## Change username in SuperOffice Admin client
+## Change username in SuperOffice Settings and maintenance
 
 > [!NOTE]
-> You **need to map each username** in SuperOffice Admin to the federated ID.
+> You **need to map each username** in SuperOffice Settings and maintenance to the federated ID.
 
-1. Select **Users** from the navigator in the Admin client.
+1. Go to Settings and maintenance.
 
-2. For each user:
+1. Select **Users** from the navigator.
+
+1. For each user:
 
     1. Select the SuperOffice user to change.
     2. Enter the new username and click **Save**.
@@ -56,7 +51,3 @@ Go to  [https://admin.google.com/ac/users][2]
 <!-- Referenced links -->
 [1]: https://admin.microsoft.com/AdminPortal/Home#/users
 [2]: https://admin.google.com/ac/users
-
-<!-- Referenced images -->
-[img1]: media/upn-o365.png
-[img2]: media/upn-google.png
