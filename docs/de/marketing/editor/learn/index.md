@@ -4,8 +4,8 @@ title: Drag-and-Drop-Editor
 description: Drag-and-Drop-Editor
 keywords: Marketing, Editor, Vorlagenvariabel, Merge Tag
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -130,18 +130,6 @@ Der Text, den Sie eingeben, sieht folgendermaßen aus:
 
 "Sehr geehrte(r) **\[\[customer.firstname\]\]**, möchten Sie gerne mehr darüber erfahren, wie unser Produkt **\[\[company.name\]\]** bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie **\[\[company.ourSalesContact.name\]\]** bei SuperShop."
 
-## Zwei verschiedene Editoren
-
-Verwenden Sie den neuen Drag & Drop Editor oder die vorherige Version des Editors?
-
-Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop Editor") hinzu, der den alten (den "Editor") ersetzt. Der Mitteilungs-Editor wird beim Erstellen von E-Mail-Kampagnen und Formularantworten verwendet. Der alte Nachrichten-Editor steht weiterhin zum Bearbeiten von Nachrichten und Vorlagen zur Verfügung, die in der alten Version erstellt wurden. Alle neuen Kampagnen und Vorlagen werden den neuen Mitteilungs-Editor verwenden.
-
-### <a id="old"></a>Editor (alt)
-
-![Editor (alt) -screenshot][img13]
-
-[Informationen über den alten Editor][2]
-
 ## Verwandte Inhalte
 
 * [Inhalt hinzufügen][1]
@@ -158,7 +146,6 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: add-tracked-link-to-msg.md
-[2]: https://help.superoffice.com/Documentation/Help/DE/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
@@ -170,4 +157,3 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
 [img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
-[img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

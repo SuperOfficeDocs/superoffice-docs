@@ -4,8 +4,8 @@ title: Werken met de berichtsjablonen
 description: Het maken van een hoofd- (bedrijfs-)sjabloon is de beste manier om ervoor te zorgen dat al uw mailings er goed uitzien, hetzelfde ontwerp hebben en uw merk vertegenwoordigen.
 keywords: berichtsjablonen, sjabloon
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -133,7 +133,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
-[5]: ../editor/learn/index.md#old
+[5]: https://help.superoffice.com/Documentation/Help/NL/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->

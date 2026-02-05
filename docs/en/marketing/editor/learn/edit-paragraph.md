@@ -4,8 +4,8 @@ title: Edit a paragraph
 description: Edit a paragraph
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -23,7 +23,7 @@ language: en
 >
 > Select **Desktop** (<i class="ph ph-monitor" aria-hidden="true"></i>) or **Mobile** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) at the top of the side-panel to edit properties for a specific layout.
 
-## Edit text content (text blocks) in a message
+## Edit text content (paragraph blocks) in a message
 
 1. Go to the **Content** step in the mailing, or open a template for editing.
 

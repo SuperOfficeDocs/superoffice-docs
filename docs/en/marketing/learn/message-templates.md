@@ -4,8 +4,8 @@ title: Work with the message templates
 description: Creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
 keywords: marketing, template
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -133,7 +133,7 @@ In addition to the templates created by your and your colleagues, you have acces
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
-[5]: ../editor/learn/index.md#old
+[5]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->

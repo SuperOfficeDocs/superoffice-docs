@@ -4,8 +4,8 @@ title: Einen Absatz bearbeiten
 description: Einen Absatz bearbeiten
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -23,7 +23,7 @@ language: de
 >
 > Verwenden Sie **Desktop** und (<i class="ph ph-monitor" aria-hidden="true"></i>) und **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) oben in der Seitenleiste, um die Eigenschaften für die Desktop- und Mobil-Versionen der Mitteilung zu bearbeiten.
 
-## Inhalt (Textblöcke) in einer Mitteilung zu bearbeiten
+## Textinhalt (Absatzblöcke) in einer Mitteilung bearbeiten
 
 1. Gehen Sie zum Schritt **Inhalt** in der Kampagne oder öffnen Sie eine Vorlage zum Bearbeiten.
 

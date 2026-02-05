@@ -2,10 +2,10 @@
 uid: help-sv-marketing-add-content
 title: Lägg till innehåll
 description: Lägg till innehåll
-keywords: Marknadsföring, utskick, kolumn, textblock
+keywords: Marknadsföring, utskick, kolumn, styckeblock
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -21,21 +21,21 @@ Lägga till innehåll till ditt meddelande med hjälp av sidopanelen.
 > [!NOTE]
 > Om specifika egenskaper för enskilda avsnitt har definierats kommer de inte att åsidosättas av globala egenskaper.
 
-## Lägga till kolumner, textblock, bilder ![ikon][img1]
+## Lägga till kolumner, stycken, bilder ![ikon][img1]
 
-Från avsnittet **Innehåll** kan du lägga till alla typer av innehåll, såsom kolumner, textblock, bilder, menyer/knappar och SoME-länkar. Dra och släpp innehåll från det här avsnittet till meddelandet. Klicka på innehållet för att [redigera][2] det i sidopanelen.
+Från avsnittet **Innehåll** kan du lägga till alla typer av innehåll, såsom kolumner, stycken, bilder, menyer/knappar och SoME-länkar. Dra och släpp innehåll från det här avsnittet till meddelandet. Klicka på innehållet för att [redigera][2] det i sidopanelen.
 
 | Ikon | Namn | Funktion |
 |:-:|---|----------|
 | ![ikon][img2] | Kolumner | Använd kolumner för att strukturera meddelandet i kolumner och rader. |
 | ![ikon][img3] | Knapp | Använd knappar för att lägga till spårade länkar, vanliga webbadresser eller prenumerera på länkar. |
-| ![ikon][img4] | Linjer | Använd linjer för att avgränsa textblock och annat innehåll. |
+| ![ikon][img4] | Linjer | Använd linjer för att avgränsa styckeblock och annat innehåll. |
 | ![ikon][img5] | Rubrik | Lägg till en rubrik till ditt meddelande. |
 | ![ikon][img6] | HTML| Lägg till html-formaterad text i ditt meddelande. |
 | ![ikon][img7] | Bild | Lägg till meddelanden från SuperOffice-databasen eller ladda upp dina egna bilder. Lägg in bilder i meddelandet. |
 | ![ikon][img8] | Meny | Lägg till en meny med flera länkar. |
 | ![ikon][img9] | Social | Lägg till länkar i sociala medier. |
-| ![ikon][img10] | Textsträng | Lägg till textinnehåll. Se Redigera innehåll. |
+| ![ikon][img10] | Stycke | Lägg till textinnehåll. Se Redigera innehåll. |
 | ![ikon][img11] | Kvitto | Lägg till ett kvitto som visar informationen som mottagaren lade till i ett formulär. |
 
 ## Lägga till block ![ikon][img12]
@@ -82,7 +82,7 @@ Du kan också **lägga till speciallänkar** i ditt utskick. Beroende på vad du
 [img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
 [img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
 [img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-para.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

@@ -2,10 +2,10 @@
 uid: help-no-marketing-add-content
 title: Legg til innhold
 description: Legg til innhold
-keywords: Markedsføring, utsendelse, kolonne, Tekstblokk
+keywords: Markedsføring, utsendelse, kolonne, avsnitt
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -21,21 +21,21 @@ Legg til innhold i meldingen ved hjelp av sidepanelet.
 > [!NOTE]
 > Hvis bestemte egenskaper for individuelle seksjoner er definert, overstyres ikke disse av globale egenskaper.
 
-## Legge til kolonner, tekstblokker, bilder ![icon][img1]
+## Legge til kolonner, avsnitt, bilder ![icon][img1]
 
-Fra **Innhold**-seksjonen kan du legge til alle typer innhold, som kolonner, tekstblokker, bilder, menyer/knapper og SoMe-koblinger. Dra og slipp innhold fra denne seksjonen til meldingen. Klikk på innholdet for å [redigere][2] det i sidepanelet.
+Fra **Innhold**-seksjonen kan du legge til alle typer innhold, som kolonner, avsnitt, bilder, menyer/knapper og SoMe-koblinger. Dra og slipp innhold fra denne seksjonen til meldingen. Klikk på innholdet for å [redigere][2] det i sidepanelet.
 
 | Icon | Navn | Funksjon |
 |:-:|---|----------|
 | ![icon][img2] | Kolonner | Bruk kolonner til å strukturere meldingen i kolonner og rader. |
 | ![icon][img3] | Knapp | Bruk knapper for å legge til sporede koblinger, vanlige nettadresser eller abonnementskoblinger. |
-| ![icon][img4] | Skillestrek | Bruk skillestrek til å skille tekstblokker og annet innhold. |
+| ![icon][img4] | Skillestrek | Bruk skillestrek til å skille avsnittsblokker og annet innhold. |
 | ![icon][img5] | Overskrift | Legg til en overskrift i meldingen. |
 | ![icon][img6] | HTML| Legg til html-formatert tekst i meldingen. |
 | ![icon][img7] | Bilde | Legg til bilder fra SuperOffice-databasen eller last opp dine egne bilder. Sett inn bilder i meldingen. |
 | ![icon][img8] | Meny | Legg til en meny med flere koblinger. |
 | ![icon][img9] | Sosiale | Legg til koblinger i sosiale medier. |
-| ![icon][img10] | Tekst | Legge til tekstinnhold. Se Redigere innhold. |
+| ![icon][img10] | Avsnitt | Legge til tekstinnhold. Se Redigere innhold. |
 | ![icon][img11] | Kvittering | Legg til en kvittering som viser informasjonen som mottakeren har lagt til i et skjema. |
 
 ## Legge til blokker ![icon][img12]
@@ -82,7 +82,7 @@ Du kan også **legge til spesielle koblinger** til utsendelsen din. Avhengig av 
 [img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
 [img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
 [img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-para.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

@@ -4,8 +4,8 @@ title: Redigere et avsnitt
 description: Redigere et avsnitt
 keywords: Markedsføring
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -23,7 +23,7 @@ language: no
 >
 > Velg **Datamaskin** (<i class="ph ph-monitor" aria-hidden="true"></i>) eller **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) øverst på sidepanelet for å redigere egenskaper for en spesific layout.
 
-## Redigere tekstinnhold (tekstblokker) i en melding
+## Redigere tekstinnhold (avsnittsblokker) i en melding
 
 1. Gå til trinnet **Innhold** i utsendelsen eller åpne en mal for redigering.
 

@@ -4,8 +4,8 @@ title: Dra og slipp editor
 description: Dra og slipp editor
 keywords: markedsføring, redigeringsprogram, malvariabel, flettefelt
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -130,18 +130,6 @@ Teksten du skriver inn vil se slik ut:
 
 "Kjære **[[customer.firstname]]**. Vil du vite mer om hvordan produktet vårt kan bidra til **[[company.name]]** å vinne nye kunder? Ring **[[company.ourSalesContact.name]]** på SuperShop".
 
-## To forskjellige redigeringsprogrammer
-
-Bruker du det nye Dra og slipp-redigeringsprogrammet eller den forrige versjonen?
-
-Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra og slipp-redigeringsprogrammet") for å erstatte det gamle ("Redigeringsprogrammet"). Redigeringsprogrammet for meldinger brukes når du oppretter e-postutsendelser og skjemasvar. Det gamle redigeringsprogrammet for meldinger vil fortsatt være tilgjengelig for redigering av meldinger og maler som er opprettet i den gamle versjonen. Alle nye utsendelser og maler bruker det nye meldingsredigeringsprogrammet.
-
-### <a id="old"></a>Redigeringsprogram (gammelt)
-
-![Redigeringsprogram (gammelt) -screenshot][img13]
-
-[Les om det gamle redigeringsprogrammet][2]
-
 ## Relatert innhold
 
 * [Legg til innhold][1]
@@ -158,7 +146,6 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: add-tracked-link-to-msg.md
-[2]: https://help.superoffice.com/Documentation/Help/NO/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
@@ -170,4 +157,3 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
 [img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
-[img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png
