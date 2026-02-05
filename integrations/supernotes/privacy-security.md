@@ -1,23 +1,23 @@
 ---
 uid: supernotes-privacy-security
 title: Privacy and security
-description: Common questions about data privacy and security in Supernotes
-keywords: Supernotes, privacy, security, GDPR, data, storage
+description: Common questions about data privacy and security in SuperNotes
+keywords: SuperNotes, privacy, security, GDPR, data, storage
 author: BredeYabo
 date: 02.04.2026
 content_type: reference
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 
 # Privacy and security
 
-Find answers to common questions about how Supernotes handles your data.
+Find answers to common questions about how SuperNotes handles your data.
 
-## What data does Supernotes access?
+## What data does SuperNotes access?
 
-Supernotes is built with a "minimal access" approach:
+SuperNotes is built with a "minimal access" approach:
 
 | Data Type | Access |
 | --- | --- |
@@ -58,16 +58,16 @@ For configuration options, see [What are the recording retention options?][4]
 
 **No, your data is never used to train AI models.**
 
-Supernotes uses AI services to process your meetings, but:
+SuperNotes uses AI services to process your meetings, but:
 
 * Your data is only used to provide the service to you.
 * It is not shared with third parties for training.
 * It is not used to improve AI models.
 * Your conversations remain private and confidential.
 
-## What is Supernotes's environmental impact?
+## What is SuperNotes's environmental impact?
 
-Supernotes is developed with a focus on responsible and sustainable AI. Here's what you should know about the environmental footprint:
+SuperNotes is developed with a focus on responsible and sustainable AI. Here's what you should know about the environmental footprint:
 
 ### Energy consumption
 

@@ -1,38 +1,38 @@
 ---
 uid: supernotes-settings
 title: Settings
-description: Common questions about Supernotes settings and configuration
-keywords: Supernotes, settings, auto schedule, retention, vocabulary
+description: Common questions about SuperNotes settings and configuration
+keywords: SuperNotes, settings, auto schedule, retention, vocabulary
 author: BredeYabo
 date: 02.04.2026
 content_type: reference
 category: integration
-topic: Supernotes
+topic: SuperNotes
 language: en
 ---
 
 # Settings
 
-Find answers to common questions about configuring Supernotes.
+Find answers to common questions about configuring SuperNotes.
 
 ## What does "Auto Schedule" do?
 
-This setting controls whether Supernotes automatically joins your meetings:
+This setting controls whether SuperNotes automatically joins your meetings:
 
 | Setting | Behavior |
 | --- | --- |
-| Enabled | Supernotes automatically joins all meetings. You can exclude individual meetings from the dashboard. |
-| Disabled | Supernotes doesn't automatically join. You manually select which meetings Supernotes should attend. |
+| Enabled | SuperNotes automatically joins all meetings. You can exclude individual meetings from the dashboard. |
+| Disabled | SuperNotes doesn't automatically join. You manually select which meetings SuperNotes should attend. |
 
 Find this in **Settings** > **Profile**.
 
-## How do I control which meetings Supernotes joins?
+## How do I control which meetings SuperNotes joins?
 
 You have several options:
 
 ### Per-meeting toggle
 
-On any meeting card, use the **Supernotes is attending** toggle to include or exclude that specific meeting.
+On any meeting card, use the **SuperNotes is attending** toggle to include or exclude that specific meeting.
 
 ### Auto schedule setting
 
@@ -40,7 +40,7 @@ In **Settings** > **Profile**, toggle **Auto Schedule** to control the default b
 
 ### Internal meetings setting
 
-Separately control whether Supernotes joins internal meetings (within your organization).
+Separately control whether SuperNotes joins internal meetings (within your organization).
 
 ## <a id="retention-options"></a>What are the recording retention options?
 
@@ -62,7 +62,7 @@ The "Meeting Summary Email Preference" setting controls how summaries are distri
 | Option | Description |
 | --- | --- |
 | Send to all internal attendees | All internal participants receive email summaries automatically. |
-| Save only in Supernotes | Summaries are stored in Supernotes but not automatically emailed. |
+| Save only in SuperNotes | Summaries are stored in SuperNotes but not automatically emailed. |
 
 You can always manually share summaries using the shareable link feature.
 
@@ -79,7 +79,7 @@ Custom vocabulary helps improve transcription accuracy for organization-specific
 
 1. Go to **Settings** > **Custom Vocabulary**.
 1. Add your organization-specific terms.
-1. Supernotes will prioritize these spellings during transcription.
+1. SuperNotes will prioritize these spellings during transcription.
 
 ## How do I set my default meeting type?
 
