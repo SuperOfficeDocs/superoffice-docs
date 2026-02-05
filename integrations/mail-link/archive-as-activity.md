@@ -1,10 +1,10 @@
 ﻿---
 uid: mail-link-create-activity
-title: Create meeting or to-do from email
-description: Saving an email directly as a meeting or to-do in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
-keywords: archive email, create appointment in SuperOffice, create task in SuperOffice
-author: Bergfrid Dias
-date: 08.30.2023
+title: Create activity from email
+description: Saving an email directly in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
+keywords: archive email, create activity in SuperOffice
+author: digitaldiina
+date: 02.05.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -21,21 +21,17 @@ redirect_from:
 index: true
 ---
 
-# Create meeting or to-do from email
+# Create activity from email
 
 If you receive an email requesting you to take action, you can convert the email into a follow-up in SuperOffice CRM.
 
-![Use Mail link in Outlook to convert an email into a meeting or to-do in SuperOffice CRM -app-screen][img2]
-![Mail link: create meeting in SuperOffice CRM -app-screen][img3]
-![Mail link: create task in SuperOffice CRM -app-screen][img4]
-
-## Create meeting
+## Steps
 
 1. Select the emails you want to archive.
 
-2. Click the **Archive email** button on the toolbar, and select **Create appointment in SuperOffice**.
+2. Click the **Archive email** button on the toolbar, and select **Create activity**.
 
-3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog: "This sender's email address is not recognized. Click here to update SuperOffice with this email address". [How to handle unlisted senders][1]
+3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. [How to handle unlisted senders][1]
 
 4. In the **Company** field, starting typing to search for a company name and then select from the matches that appear.
 
@@ -58,19 +54,6 @@ If you receive an email requesting you to take action, you can convert the email
 
 12. Click **OK**. The selected emails are archived to SuperOffice CRM as meetings.
 
-## <a id="todo"></a>Create task (to-do)
-
-1. Select the emails you want to archive.
-
-2. Click the **Archive email** button on the toolbar, and select **Create task in SuperOffice**.
-
-3. Fill in the fields as described above for creating a meeting.
-
-    > [!NOTE]
-    > To-dos do not have time property, only date.
-
-4. Click **OK**.
-
 ## Related content
 
 * [Archive emails on companies/contacts][2]
@@ -82,8 +65,3 @@ If you receive an email requesting you to take action, you can convert the email
 [2]: archive-on-contact.md
 [3]: archive-attachment.md
 [4]: archive-as-request.md
-
-<!-- Referenced images -->
-[img2]: media/mail-link-actions.jpg
-[img3]: media/mail-link-create-apt.jpg
-[img4]: media/mail-link-create-task.jpg
