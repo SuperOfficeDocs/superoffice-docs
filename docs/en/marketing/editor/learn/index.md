@@ -4,8 +4,8 @@ title: Drag and drop editor
 description: Drag and drop editor
 keywords: marketing, editor, template variable, merge tag
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -130,18 +130,6 @@ The text you enter will look like this:
 
 "Dear **\[\[customer.firstname\]\]**. Would you like to know more about how our product can help **\[\[company.name\]\]** win new customers? Please call **\[\[company.ourSalesContact.name\]\]** at SuperShop."
 
-## Two different editors
-
-Are you using the new Drag & drop editor or the previous version of the editor?
-
-In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") to replace the old one (the "Editor"). The message editor is used when creating email mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates use the new message editor.
-
-### <a id="old"></a>Editor (old)
-
-![Editor (old) -screenshot][img13]
-
-The user guide for the old editor is located in the [SuperOffice version 10.1 help][2].
-
 ## Related content
 
 * [Add content][1]
@@ -158,7 +146,6 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: add-tracked-link-to-msg.md
-[2]: https://help.superoffice.com/Documentation/Help/EN/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
@@ -170,4 +157,3 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
 [img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
-[img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

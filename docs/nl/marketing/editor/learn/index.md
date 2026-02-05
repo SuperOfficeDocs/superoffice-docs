@@ -4,8 +4,8 @@ title: Editor slepen en neerzetten
 description: Editor slepen en neerzetten
 keywords: marketing, editor, sjabloonvariabele, variabelen
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -130,18 +130,6 @@ De ingevoerde tekst ziet er als volgt uit:
 
 "Beste **\[\[customer.firstname\]\]**. Wilt u meer weten over hoe ons product **\[\[company.name\]\]** kan helpen nieuwe klanten te winnen? Bel **\[\[company.ourSalesContact.name\]\]** op SuperShop."
 
-## Twee verschillende editors
-
-Gebruikt u de nieuwe Drag &drop-editor of de vorige versie van de editor?
-
-Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") toegevoegd ter vervanging van de oude (de "Editor"). De berichteditor wordt gebruikt bij het maken van e-mail-mailings en formulierantwoorden. De oude berichteditor is nog steeds beschikbaar om berichten en sjablonen die in de oude versie zijn gemaakt, te bewerken. Alle nieuwe mailings en sjablonen maken gebruik van de nieuwe berichteditor.
-
-### <a id="old"></a>Editor (oud)
-
-![Editor (oud) -screenshot][img13]
-
-[Lees meer over de oude editor][2]
-
 ## Gerelateerde inhoud
 
 * [Inhoud toevoegen][1]
@@ -158,7 +146,6 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: add-tracked-link-to-msg.md
-[2]: https://help.superoffice.com/Documentation/Help/NL/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
@@ -170,4 +157,3 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
 [img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
-[img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

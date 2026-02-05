@@ -2,10 +2,10 @@
 uid: help-de-marketing-add-content
 title: Inhalt hinzufügen
 description: Inhalt hinzufügen
-keywords: Marketing, Kampagne, Spalte, Textblock
+keywords: Marketing, Kampagne, Spalte, Absatzblock
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -21,21 +21,21 @@ Fügen Sie Ihrer Mitteilung Inhalte hinzu, indem Sie die Seitenleiste verwenden.
 > [!NOTE]
 > Wenn für einzelne Bereiche bestimmte Eigenschaften definiert wurden, werden diese von den globalen Eigenschaften nicht ersetzt.
 
-## Hinzufügen von Spalten, Textblöcken, Bildern ![Symbol][img1]
+## Hinzufügen von Spalten, Absätzen, Bildern ![Symbol][img1]
 
-Im Abschnitt **Inhalt** können Sie alle Inhaltstypen hinzufügen, z. B. Spalten, Textblöcke, Bilder, Menüs/Schaltflächen und SoMe-Links. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. Klicken Sie auf den Inhalt, um ihn in der Seitenleiste zu [bearbeiten][2].
+Im Abschnitt **Inhalt** können Sie alle Inhaltstypen hinzufügen, z. B. Spalten, Absätze, Bilder, Menüs/Schaltflächen und SoMe-Links. Ziehen und legen Sie Inhalte aus diesem Bereich in der Nachricht ab. Klicken Sie auf den Inhalt, um ihn in der Seitenleiste zu [bearbeiten][2].
 
 | Symbol | Name | Funktion |
 |:-:|---|----------|
 | ![Symbol][img2] | Spalten | Verwenden Sie Spalten, um Ihre Nachricht in Spalten und Zeilen zu strukturieren. |
 | ![Symbol][img3] | Schaltflächen | Verwenden Sie Schaltflächen, um überwachte Links, reguläre URLs oder Abonnementlinks hinzuzufügen. |
-| ![Symbol][img4] | Trennlinie | Verwenden Sie Trennlinien, um Textblöcke und andere Inhalte zu trennen. |
+| ![Symbol][img4] | Trennlinie | Verwenden Sie Trennlinien, um Absatzblöcke und andere Inhalte zu trennen. |
 | ![Symbol][img5] | Überschrift | Fügen Sie Ihrer Nachricht eine Überschrift hinzu. |
 | ![Symbol][img6] | HTML| Fügen Sie HTML-formatierten Text zu Ihrer Nachricht hinzu. |
 | ![Symbol][img7] | Bild | Fügen Sie Bilder aus der SuperOffice-Datenbank hinzu oder laden Sie eigene Bilder hoch. Bilder in die Mitteilung einfügen. |
 | ![Symbol][img8] | Menü | Fügen Sie ein Menü mit mehreren Links hinzu. |
 | ![Symbol][img9] | Soziale Medien | Fügen Sie Links zu sozialen Medien hinzu. |
-| ![Symbol][img10] | Langer | Textinhalte hinzufügen. Siehe Inhalt bearbeiten. |
+| ![Symbol][img10] | Absatz | Textinhalte hinzufügen. Siehe Inhalt bearbeiten. |
 | ![Symbol][img11] | Bestätigung | Fügen Sie eine Bestätigung mit den Informationen hinzu, die der Empfänger einem Formular hinzugefügt hat. |
 
 ## Hinzufügen von Blöcken ![Symbol][img12]
@@ -82,7 +82,7 @@ Sie können Ihrer Kampagne auch **spezielle Links hinzufügen**. Je nachdem, was
 [img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
 [img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
 [img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-para.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

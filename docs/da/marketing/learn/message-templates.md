@@ -4,8 +4,8 @@ title: Sådan arbejder du med meddelelser og skabeloner
 description: At udvikle en 'masterskabelon' (corporate) er den bedste måde til at sikre, at alle dine mailudsendelser ser godt ud, har det samme design og afspejler dit brand.
 keywords: meddelelsesskabelon, skabeloner, mailudsendelser
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -133,7 +133,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
-[5]: ../editor/learn/index.md#old
+[5]: https://help.superoffice.com/Documentation/Help/DA/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->

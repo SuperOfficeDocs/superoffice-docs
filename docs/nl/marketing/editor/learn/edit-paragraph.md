@@ -4,8 +4,8 @@ title: Een paragraaf bewerken
 description: Een paragraaf bewerken
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -23,7 +23,7 @@ language: nl
 >
 > Gebruik de **Desktop** (<i class="ph ph-monitor" aria-hidden="true"></i>) en **Mobiel** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) aan de bovenkant van het zijpaneel om eigenschappen voor versies het bericht te bewerken.
 
-## Tekstinhoud (tekstblokken) in een bericht bewerken
+## Tekstinhoud (alinea-blokken) in een bericht bewerken
 
 1. Ga naar de stap **Inhoud** in de mailing of open een sjabloon voor bewerking.
 

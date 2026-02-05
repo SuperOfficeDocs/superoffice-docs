@@ -4,8 +4,8 @@ title: Redigera ett avsnitt
 description: Redigera ett avsnitt
 keywords: Marknadsföring
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -23,7 +23,7 @@ language: sv
 >
 > Använd **Skrivbordet** (<i class="ph ph-monitor" aria-hidden="true"></i>) och **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) överst i sidopanelen för att redigera egenskaper för ulika versioner av meddelandena.
 
-## Redigera textinnehåll (textblock) i ett meddelande
+## Redigera textinnehåll (styckeblock) i ett meddelande
 
 1. Gå till steget **Innehåll** i utskicket eller öppna en mall för redigering.
 

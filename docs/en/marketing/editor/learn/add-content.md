@@ -2,10 +2,10 @@
 uid: help-en-marketing-add-content
 title: Add content
 description: Add content
-keywords: Marketing, mailing, column, text block
+keywords: Marketing, mailing, column, paragraph block
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -21,21 +21,21 @@ Add content to your message by using the side-panel.
 > [!NOTE]
 > If specific properties for individual sections are defined, these are not overridden by global properties.
 
-## Adding columns, text blocks, images ![icon][img1]
+## Adding columns, paragraphs, images ![icon][img1]
 
-From the **Content** section you can add all types of content, such as columns, text blocks, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to [edit][2] it in the side panel.
+From the **Content** section you can add all types of content, such as columns, paragraphs, images, menus/buttons and SoMe links. Drag and drop content from this section to the message. Click the content to [edit][2] it in the side panel.
 
 | Icon | Name | Function |
 |:-:|---|----------|
 | ![icon][img2] | Columns | Use columns to structure your message into columns and rows. |
 | ![icon][img3] | Button | Use buttons to add tracked links, regular URLs, or subscribe links. |
-| ![icon][img4] | Divider | Use divider lines to separate text blocks and other content. |
+| ![icon][img4] | Divider | Use divider lines to separate paragraph blocks and other content. |
 | ![icon][img5] | Heading | Add a heading to your message. |
 | ![icon][img6] | HTML| Add html formatted text to your message. |
 | ![icon][img7] | Image | Add images from the SuperOffice database or upload you own images. Insert images in the message. |
 | ![icon][img8] | Menu | Add a menu with multiple links. |
 | ![icon][img9] | Social | Add links to social media. |
-| ![icon][img10] | Text | Add text content. See Edit content. |
+| ![icon][img10] | Paragraph | Add text content. See Edit content. |
 | ![icon][img11] | Receipt | Add a receipt showing the information that the recipient added to a form. |
 
 ## Adding blocks ![icon][img12]
@@ -82,7 +82,7 @@ You can also **add special links** to your mailing. Depending on what you want t
 [img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
 [img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
 [img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-para.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png

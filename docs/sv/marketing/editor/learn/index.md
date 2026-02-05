@@ -4,8 +4,8 @@ title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
 keywords: marknadsföring, redigerare, mallvariabel, kopplingsfält
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -130,18 +130,6 @@ Den text du anger ser ut så här:
 
 "Hej **\[\[customer.firstname\]\]**! Vill du veta mer om hur vår produkt kan hjälpa **\[\[company.name\]\]** att skaffa nya kunder? Vänliga hälsningar **\[\[company.ourSalesContact.name\]\]**från oss på SuperShop."
 
-## Två olika redigerare
-
-Använder du den nya Dra och släpp-redigeraren eller den tidigare versionen av redigeraren?
-
-I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och släpp-redigeraren") för att ersätta den gamla ("Redigerare"). Meddelanderedigeraren används när du skapar e-postutskick och formulärsvar. Du kommer fortfarande att kunna använda den gamla meddelanderedigeraren för att redigera meddelanden och mallar som har skapats i den äldre versionen. Alla nya utskick och mallar använder sig av den nya meddelanderedigeraren.
-
-### <a id="old"></a>Redigerare (gammal)
-
-![Redigerare (gammal) -screenshot][img13]
-
-[Läs om den gamla redigeraren][2]
-
 ## Relaterat innehåll
 
 * [Lägg till innehåll][1]
@@ -158,7 +146,6 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: add-tracked-link-to-msg.md
-[2]: https://help.superoffice.com/Documentation/Help/SE/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
@@ -170,4 +157,3 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
 [img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
-[img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

@@ -4,8 +4,8 @@ title: Arbeide med meldingsmaler
 description: Å lage en hovedmal (bedriftsmal) er den beste måten å sikre at alle utsendelsene ser bra ut, har samme design og representerer varemerket deres.
 keywords: meldingsmal, mal, utsendelse
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -133,7 +133,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 [2]: ../editor/learn/edit-paragraph.md
 [3]: ../editor/learn/add-merge-tag.md
 [4]: add-images.md
-[5]: ../editor/learn/index.md#old
+[5]: https://help.superoffice.com/Documentation/Help/NO/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->

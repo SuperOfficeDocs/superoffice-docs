@@ -4,8 +4,8 @@ title: Træk og slip-editor
 description: Træk og slip-editor
 keywords: marketing, editor, skabelonvariabler, fletfelter
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -130,18 +130,6 @@ Teksten du skriver ser således ud:
 
 "Kære **\[\[customer.firstname\]\]**. Vil du vide mere om, hvordan vores produkt kan hjælpe **\[\[company.name\]\]** med at skaffe nye kunder? Ring venligst til os **\[\[company.ourSalesContact.name\]\]** i SuperShop."
 
-## To forskellige editorer
-
-Bruger du den nye Træk og slip-editor eller den tidligere version af editoren?
-
-I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og slip-editoren") som erstatning for den gamle ("Editoren"). Meddelelseseditoren bruges, når der oprettes e-mailudsendelser og formularsvar. Den gamle meddelelseseditor vil stadig være tilgængelig til at redigere meddelelser og skabeloner, der er oprettet i den gamle version. Alle nye udsendelser og skabeloner vil bruge den nye meddelelseseditor.
-
-### <a id="old"></a>Editor (gammel)
-
-![Editor (gammel) -screenshot][img13]
-
-[Læs om den gamle editor][2]
-
 ## Relateret indhold
 
 * [Tilføj indhold][1]
@@ -158,7 +146,6 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 [6]: insert-images-in-message.md
 [7]: add-merge-tag.md
 [8]: add-tracked-link-to-msg.md
-[2]: https://help.superoffice.com/Documentation/Help/NO/CRM/UserHelp/index.htm#t=Mailing%2FHelptopics%2Foldeditor%2FStep_3__Content_-_Formatted_e-mail.htm
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
@@ -170,4 +157,3 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
 [img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
-[img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

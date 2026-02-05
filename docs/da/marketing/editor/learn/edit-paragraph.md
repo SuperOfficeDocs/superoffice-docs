@@ -4,8 +4,8 @@ title: Redigere et afsnit
 description: Redigere et afsnit
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -23,7 +23,7 @@ language: da
 >
 > Brug **PC** (<i class="ph ph-monitor" aria-hidden="true"></i>) og **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) øverst i sidepanelet til at redigere egenskaber for ulige versioner af meddelelsen.
 
-## Rediger tekstindhold (tekstblokke) i en meddelelse
+## Rediger tekstindhold (afsnitsblokke) i en meddelelse
 
 1. Gå til trin **Indhold** i udsendelsen, eller åbn en skabelon til redigering.
 

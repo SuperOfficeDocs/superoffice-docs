@@ -2,10 +2,10 @@
 uid: help-da-marketing-add-content
 title: Tilføj indhold
 description: Tilføj indhold
-keywords: Marketing, udsendelse, kolonne, tekstblok
+keywords: Marketing, udsendelse, kolonne, afsnitsblok
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 02.05.2026
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
@@ -21,21 +21,21 @@ Føj indhold til din meddelelse ved hjælp af sidepanelet.
 > [!NOTE]
 > Hvis du har angivet bestemte egenskaber for enkelte afsnit, tilsidesættes disse ikke af globale egenskaber.
 
-## Tilføjelse af kolonner, tekstblokke, billeder ![ikon][img1]
+## Tilføjelse af kolonner, afsnit, billeder ![ikon][img1]
 
-Fra afsnittet **Indhold** kan du tilføje alle typer indhold, f.eks. kolonner, tekstblokke, billeder, menuer/knapper og SoMe-links. Træk og slip indhold fra dette afsnit til meddelelsen. Klik på indholdet for at [redigere][2] det i sidepanelet.
+Fra afsnittet **Indhold** kan du tilføje alle typer indhold, f.eks. kolonner, afsnit, billeder, menuer/knapper og SoMe-links. Træk og slip indhold fra dette afsnit til meddelelsen. Klik på indholdet for at [redigere][2] det i sidepanelet.
 
 | Ikon | Navn | Funktion |
 |:-:|---|----------|
 | ![ikon][img2] | Kolonner | Brug kolonner til at strukturere meddelelsen i kolonner og rækker. |
 | ![ikon][img3] | Knap | Brug knapper til at tilføje sporede links, almindelige URL'er eller abonnementslinks. |
-| ![ikon][img4] | Skillelinje | Brug skillelinjer til at adskille tekstblokke og andet indhold. |
+| ![ikon][img4] | Skillelinje | Brug skillelinjer til at adskille afsnitsblokke og andet indhold. |
 | ![ikon][img5] | Overskrift | Tilføj en overskrift til din besked. |
 | ![ikon][img6] | HTML| Føj HTML-formateret tekst til meddelelsen. |
 | ![ikon][img7] | Billede | Tilføj billeder fra SuperOffice-databasen, eller upload dine egne billeder. Indsæt billeder i meddelelsen. |
 | ![ikon][img8] | Menu | Tilføj en menu med flere links. |
 | ![ikon][img9] | Socialt | Føj links til sociale medier. |
-| ![ikon][img10] | Tekststreng | Tilføj tekstindhold. Se Rediger indhold. |
+| ![ikon][img10] | Afsnit | Tilføj tekstindhold. Se Rediger indhold. |
 | ![ikon][img11] | Kvittering | Tilføj en kvittering, der viser de oplysninger, som modtageren har føjet til en formular. |
 
 ## Tilføjelse af blokke ![ikon][img12]
@@ -82,7 +82,7 @@ Du kan også **tilføje særlige links** til din mailudsendelse. Afhængigt af h
 [img7]: ../../../../media/icons/marketing-and-forms/side-panel-content-image.png
 [img8]: ../../../../media/icons/marketing-and-forms/side-panel-content-menu.png
 [img9]: ../../../../media/icons/marketing-and-forms/side-panel-content-social.png
-[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png
+[img10]: ../../../../media/icons/marketing-and-forms/side-panel-content-para.png
 [img11]: ../../../../media/icons/marketing-and-forms/side-panel-content-receipt.png
 [img12]: ../../../../media/icons/marketing-and-forms/side-panel-blocks.png
 [img14]: ../../../../media/icons/marketing-and-forms/side-panel-body.png
