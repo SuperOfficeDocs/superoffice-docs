@@ -17,7 +17,7 @@ items:
   href: add-attachment.md
 - name: Archive on company or contact
   href: archive-on-contact.md
-- name: Create appointment/task
+- name: Create activity
   href: archive-as-activity.md
 - name: Create request
   href: archive-as-request.md
