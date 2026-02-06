@@ -63,7 +63,8 @@ Different integration components are released on separate schedules. See the [in
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
-* [CSS Mode for Form styling][16] (available from 11.8 - 13.01.2026)
+* [Synchronizer][16] (available from Synchronizer v.117 - 16.02.2026)
+* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026)
 * [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
