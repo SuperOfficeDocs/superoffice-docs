@@ -4,7 +4,7 @@ title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
 author: kirstiaa
-date: 01.27.2026
+date: 02.17.2026
 version: 11.1
 content_type: release-note
 platform: mobile
@@ -20,6 +20,8 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [Company - Country and Stop indicator (11.1.9)][44]
+* [Automatic lead category update on sale completion (11.1.9)][44]
 * [All day events in Diary (11.1.7)][43]
 * [Sections for contacts - Show person type icon (11.1.7)][43]
 * [New company - With company completion (11.1.5)][42]
@@ -103,5 +105,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [41]: 11.1.3-update.md
 [42]: 11.1.5-update.md
 [43]: 11.1.7-update.md
+[44]: 11.1.9-update.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
