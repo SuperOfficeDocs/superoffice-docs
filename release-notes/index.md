@@ -55,12 +55,13 @@ Different integration components are released on separate schedules. See the [in
 * [SuperOffice version 11 User guide][15] (available in six languages)
 * [SuperOffice for Outlook User guide][13] (English only)
 * [SuperOffice Mobile CRM User guide][14] (English only)
+* [SuperNotes integration][20] (English only)
 
 ## <a id="pilot"></a>Ongoing pilot programs
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
-* [Synchronizer][16] (available from Synchronizer v.117 - 16.02.2026)
+* [Synchronizer: attendee visibility + SuperOffice Diary][16] (available from Synchronizer v.117 - 16.02.2026)
 * [Forms - Custom styling][16] (available from 11.8 - 13.01.2026)
 * [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
@@ -97,6 +98,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [19]: ../docs/en/onsite/version-history.md
+[20]: ../integrations/supernotes/index.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
