@@ -3,9 +3,9 @@ uid: help-en-section-tab-requests
 title: Requests tab
 description: Learn how to view, add, and manage Service requests in SuperOffice CRM, helping you efficiently track customer interactions across companies and contacts.
 keywords: requests tab, section tab, request archive, ticket archive
-author: Bergfrid Skaara Dias
-date: 03.11.2025
-version: 10.5.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,20 @@ To edit a request directly from the **Requests** section tab:
 
 1. In the window that opens, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) to begin updating the request details.
 
+## <a id="relation"></a>Link requests
+
+You can create [relationships between requests][4] directly from the **Requests** section tab. This is useful for tracking connected issues, dependencies, or hierarchical relationships between requests.
+
+1. Right-click a request in the list and select **Relations**.
+
+1. Choose the relation type (related, parent, or child).
+
+1. Select an existing request to link to, or create a new one.
+
+1. Optionally, add a comment that describes the relationship.
+
+1. Click **Relate** to create the link.
+
 ## Additional tips
 
 * **Tracking requests:** Monitor open issues and ensure timely responses.
@@ -92,6 +106,7 @@ To edit a request directly from the **Requests** section tab:
 [1]: ../../request/learn/index.md
 [2]: ../../request/learn/create.md
 [3]: ../../request/learn/reply.md
+[4]: ../../request/learn/request-relations.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

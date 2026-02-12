@@ -3,9 +3,9 @@ uid: help-nl-company-contact-relations
 title: Bedrijfs- en persoonsrelaties in SuperOffice CRM
 description: Leer hoe u relaties tussen bedrijven en personen kunt bekijken, toevoegen en beheren in SuperOffice CRM, om complexe bedrijfsverbindingen en aangepaste relaties eenvoudiger bij te houden.
 keywords: relatie toevoegen, relatie verwijderen, relatie, verbinding, persoon, contact, bedrijf
-author: Bergfrid Skaara Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,6 +19,9 @@ redirect_from:
 ---
 
 # Bedrijfs- en persoonsrelaties in SuperOffice CRM
+
+> [!NOTE]
+> Deze pagina beschrijft relaties tussen bedrijven en personen. Om een verzoek aan een ander te koppelen, zie [Verzoekrelaties][5].
 
 Relaties in SuperOffice CRM maken het mogelijk om verbindingen tussen bedrijven en personen te leggen. Relaties bestaan altijd uit twee partijen: een actieve en een passieve. Bijvoorbeeld, "Bedrijf A bezit Bedrijf B," waarbij Bedrijf A de actieve partij is en Bedrijf B de passieve partij. Deze handleiding geeft een overzicht van hoe u deze relaties kunt bekijken, toevoegen en beheren, wat het eenvoudiger maakt om complexe structuren, samenwerkingen of aangepaste relaties van uw bedrijf bij te houden.
 
@@ -92,6 +95,7 @@ Om meer details te bekijken of om te bewerken, dubbelklik op een rij om het **Re
 [2]: deleting-elements.md
 [3]: ../../admin/lists/specialized-lists.md#relation
 [4]: ../../custom-objects/learn/extra-field.md#relation
+[5]: ../../request/learn/request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/relation.png

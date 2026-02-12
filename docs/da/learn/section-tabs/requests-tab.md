@@ -3,9 +3,9 @@ uid: help-da-section-tab-requests
 title: Sagsfanen
 description: Lær, hvordan du kan se, tilføje og administrere Service-sager i SuperOffice CRM, så du effektivt kan spore kundesamtaler på tværs af firmaer og personer.
 keywords: Sags-fanen, Sagsfanen, Sager-fanen, detaljekortet Sager, detaljekort, sagsarkiv, anmodning, forespørgsler, forespørgsel, sag
-author: Bergfrid Skaara Dias
-date: 03.11.2025
-version: 10.5.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,22 @@ For at redigere en sag direkte fra detaljekortet **Sager**:
 
 1. I vinduet, der åbnes, klik på **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) for at begynde at opdatere sagsdetaljerne.
 
+## <a id="link"></a>Tilknyt sager
+
+Du kan oprette [relationer mellem sager][4] direkte fra detaljekortet **Sager**. Dette er nyttigt til at spore tilknyttede problemer, afhængigheder eller hierarkiske relationer mellem sager.
+
+1. Højreklik på en sag i listen.
+
+1. Vælg **Relationer** fra menuen.
+
+1. Vælg relationstypen (relateret, overordnet eller underordnet).
+
+1. Vælg en eksisterende sag at tilknytte til, eller opret en ny.
+
+1. Tilføj eventuelt en kommentar, der beskriver relationen.
+
+1. Klik på **Tilknyt** for at oprette forbindelsen.
+
 ## Yderligere tips
 
 * **Sporing af sager:** Overvåg åbne sager og sørg for hurtige svar.
@@ -92,6 +108,7 @@ For at redigere en sag direkte fra detaljekortet **Sager**:
 [1]: ../../request/learn/index.md
 [2]: ../../request/learn/create.md
 [3]: ../../request/learn/reply.md
+[4]: ../../request/learn/request-relations.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

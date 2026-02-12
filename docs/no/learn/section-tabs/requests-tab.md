@@ -3,9 +3,9 @@ uid: help-no-section-tab-requests
 title: Saksfanen
 description: Lær hvordan du kan se, legge til og administrere Service-saker i SuperOffice CRM, slik at du effektivt kan spore kundeinteraksjoner på tvers av firmaer og personer.
 keywords: Saksfanen, Saker-fanen, detaljkortet Saker, detaljkort, saksarkiv, sak, henvendelse, forespørsel, forespørsler
-author: Bergfrid Skaara Dias
-date: 03.11.2025
-version: 10.5.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -62,7 +62,7 @@ Detaljkortet **Saker** inneholder følgende kolonner for å gi nøkkelinformasjo
 
 For å inkludere lukkede saker i listen, merk av i **Avsluttet**-boksen nederst i detaljkortet. Dette gir en fullstendig oversikt over både åpne og avsluttede saker tilknyttet enheten.
 
-## Opprette en sak
+## Oppretelaterteaker en sak
 
 1. I detaljkortet **Saker**, klikk på **Legg til** for å opprette en ny sak for personen.
 
@@ -78,6 +78,22 @@ For å redigere en sak direkte fra Saksfanen:
 
 1. I vinduet som åpnes, klikk **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) for å begynne å oppdatere saksdetaljene.
 
+## <a id="link"></a>Relater saker
+
+Du kan opprette [relasjoner mellom saker][4] direkte fra detaljkortet **Saker**. Dette er nyttig for å spore tilknyttede problemer, avhengigheter eller hierarkiske relasjoner mellom saker.
+
+1. Høyreklikk på en sak i listen.
+
+1. Velg **Relasjoner** fra kontekstmenyen.
+
+1. Velg relasjonstype (relatert, overordnet eller underordnet).
+
+1. Velg en eksisterende sak å koble til, eller opprett en ny.
+
+1. Legg eventuelt til en kommentar som beskriver relasjonen.
+
+1. Klikk **Knytt til** for å opprette koblingen.
+
 ## Ytterligere tips
 
 * **Sporing av saker:** Overvåk åpne saker og sørg for raske svar.
@@ -92,6 +108,7 @@ For å redigere en sak direkte fra Saksfanen:
 [1]: ../../request/learn/index.md
 [2]: ../../request/learn/create.md
 [3]: ../../request/learn/reply.md
+[4]: ../../request/learn/request-relations.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

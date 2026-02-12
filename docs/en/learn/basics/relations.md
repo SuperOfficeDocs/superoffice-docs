@@ -3,9 +3,9 @@ uid: help-en-company-contact-relations
 title: Company and contact relations in SuperOffice CRM
 description: Learn how to view, add, and manage relationships between companies and contacts in SuperOffice CRM, simplifying the tracking of complex business associations and custom connections.
 keywords: add relation, delete relation, relation, person, contact, company
-author: Bergfrid Skaara Dias
-date: 01.20.2025
-version: 10.5
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,6 +19,9 @@ redirect_from:
 ---
 
 # Company and contact relations in SuperOffice CRM
+
+> [!NOTE]
+> This page describes relations between companies and contacts. To link one request to another, see [Request relations][5].
 
 Relations in SuperOffice CRM allow you to establish connections between companies and contacts. Relations always consist of two parties: one active and one passive. For example, "Company A owns Company B," where Company A is the active party and Company B is the passive. This guide provides an overview of how to view, add, and manage these relationships, making it easier to track complex structures, associations, or any custom relationships your business requires.
 
@@ -92,6 +95,7 @@ To view more details or to edit, double-click a row to open the **Relation** dia
 [2]: deleting-elements.md
 [3]: ../../admin/lists/specialized-lists.md#relation
 [4]: ../../custom-objects/learn/extra-field.md#relation
+[5]: ../../request/learn/request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/relation.png
