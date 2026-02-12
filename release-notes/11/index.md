@@ -26,7 +26,10 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 ### 11.10 (17.02.2026)
 
 * [Request relations - better control and overview][27] in Service
+* [Dashboards – Visualising time spent in each Sales stage][29] in Core CRM and Sales
+* [Notifications for re‑assigned follow‑ups][29] in Core CRM and Sales
 * [Marketing - Subscription page styling][28] in Settings and maintenance
+* [Requests - Add Request relations][28] in Settings and maintenance
 
 ### 11.9 (27.01.2026)
 
@@ -147,6 +150,7 @@ Some features are available to selected customers as part of ongoing pilots. See
 [26]: admin/11.9-update.md
 [27]: service/11.11-update.md
 [28]: admin/11.10-update.md
+[29]: core-crm/11.10-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated

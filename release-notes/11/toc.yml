@@ -4,6 +4,8 @@ items:
 - name: Core CRM
   href: core-crm/index.md
   items:
+  - name: 11.10 update
+    href: core-crm/11.10-update.md
   - name: 11.7 update
     href: core-crm/11.7-update.md
   - name: 11.6 update
