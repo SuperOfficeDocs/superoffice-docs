@@ -3,9 +3,9 @@ uid: help-sv-company-contact-relations
 title: Företags- och kontaktrelationer i SuperOffice CRM
 description: Lär dig hur du visar, lägger till och hanterar relationer mellan företag och kontakter i SuperOffice CRM, för att underlätta uppföljning av komplexa affärsförbindelser och anpassade kopplingar.
 keywords: lägga till relation, ta bort relation, relation, person, kontakt, företag
-author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,6 +19,9 @@ redirect_from:
 ---
 
 # Företags- och kontaktrelationer i SuperOffice CRM
+
+> [!NOTE]
+> Denna sida beskriver relationer mellan företag och kontakter. För att länka ett ärende till ett annat, se [Ärendeelationer][5].
 
 Relationer i SuperOffice CRM gör det möjligt att skapa kopplingar mellan företag och kontakter. Relationer består alltid av två parter: en aktiv och en passiv. Till exempel, "Företag A äger Företag B," där Företag A är den aktiva parten och Företag B är den passiva parten. Denna guide ger en översikt över hur du visar, lägger till och hanterar dessa relationer, vilket gör det enklare att följa upp komplexa strukturer, samarbeten eller andra anpassade relationer som ditt företag behöver.
 
@@ -92,6 +95,7 @@ För att visa fler detaljer eller redigera, dubbelklicka på en rad för att öp
 [2]: deleting-elements.md
 [3]: ../../admin/lists/specialized-lists.md#relation
 [4]: ../../custom-objects/learn/extra-field.md#relation
+[5]: ../../request/learn/request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/relation.png

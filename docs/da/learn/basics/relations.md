@@ -3,9 +3,9 @@ uid: help-da-company-contact-relations
 title: Firma- og personrelationer i SuperOffice CRM
 description: Lær hvordan du kan se, tilføje og administrere relationer mellem firmaer og personer i SuperOffice CRM, så du nemmere kan holde styr på komplekse strukturer og tilpassede forbindelser.
 keywords: tilføje relation, slette relation, relation, person, kontakt, firma
-author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,6 +19,9 @@ redirect_from:
 ---
 
 # Firma- og personrelationer i SuperOffice CRM
+
+> [!NOTE]
+> Denne side beskriver relationer mellem firmaer og personer. For at tilknytte en sag til en anden, se [Sagsrelationer][5].
 
 Relationer i SuperOffice CRM giver dig mulighed for at etablere forbindelser mellem firmaer og personer. Relationer skal altid have to parter: en aktiv og en passiv. For eksempel, "Firma A ejer Firma B," hvor Firma A er den aktive part og Firma B er den passive. Denne vejledning giver en oversigt over, hvordan du kan se, tilføje og administrere disse relationer, hvilket gør det nemmere at holde styr på komplekse strukturer, samarbejder eller tilpassede relationer, som din virksomhed kræver.
 
@@ -92,6 +95,7 @@ For at se flere detaljer eller redigere, dobbeltklik på en række for at åbne 
 [2]: deleting-elements.md
 [3]: ../../admin/lists/specialized-lists.md#relation
 [4]: ../../custom-objects/learn/extra-field.md#relation
+[5]: ../../request/learn/request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/relation.png

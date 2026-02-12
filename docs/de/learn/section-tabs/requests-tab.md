@@ -3,9 +3,9 @@ uid: help-de-section-tab-requests
 title: Bereichsregisterkarte Anfragen
 description: Erfahren Sie, wie Sie Serviceanfragen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um Kundeninteraktionen effizient über Firmen und Personen hinweg zu verfolgen.
 keywords: requests tab, section tab, request archive, ticket archive
-author: Bergfrid Skaara Dias
-date: 03.11.2025
-version: 10.5.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,22 @@ Um eine Anfrage direkt aus der Bereichsregisterkarte **Anfragen** zu bearbeiten:
 
 1. Klicken Sie im sich öffnenden Fenster auf **Bearbeiten** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), um die Anfrage zu aktualisieren.
 
+## <a id="link"></a>Anfragen verknüpfen
+
+Sie können [Beziehungen zwischen Anfragen][4] direkt über die Bereichsregisterkarte **Anfragen** erstellen. Dies ist nützlich, um verbundene Probleme, Abhängigkeiten oder hierarchische Beziehungen zwischen Anfragen zu verfolgen.
+
+1. Klicken Sie mit der rechten Maustaste auf eine Anfrage in der Liste.
+
+1. Wählen Sie **Beziehungen** aus dem Kontextmenü.
+
+1. Wählen Sie den Beziehungstyp (verwandt, übergeordnet oder untergeordnet).
+
+1. Wählen Sie eine vorhandene Anfrage zum Verknüpfen aus oder erstellen Sie eine neue.
+
+1. Fügen Sie optional einen Kommentar hinzu, der die Beziehung beschreibt.
+
+1. Klicken Sie auf **Verknüpfen**, um die Verbindung zu erstellen.
+
 ## Zusätzliche Tipps
 
 * **Anfragen verfolgen:** Verfolgen Sie offene Probleme und stellen Sie sicher, dass rechtzeitig reagiert wird.
@@ -92,6 +108,7 @@ Um eine Anfrage direkt aus der Bereichsregisterkarte **Anfragen** zu bearbeiten:
 [1]: ../../request/learn/index.md
 [2]: ../../request/learn/create.md
 [3]: ../../request/learn/reply.md
+[4]: ../../request/learn/request-relations.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

@@ -3,9 +3,9 @@ uid: help-de-company-contact-relations
 title: Firmen- und Personenbeziehungen in SuperOffice CRM
 description: Erfahren Sie, wie Sie Beziehungen zwischen Firmen und Personen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um komplexe geschäftliche Verknüpfungen und benutzerdefinierte Verbindungen einfacher nachzuverfolgen.
 keywords: Beziehung hinzufügen, Beziehung löschen, Beziehung, Verbindung, Person, Firma
-author: Bergfrid Skaara Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -19,6 +19,9 @@ redirect_from:
 ---
 
 # Firmen- und Personenbeziehungen in SuperOffice CRM
+
+> [!NOTE]
+> Diese Seite beschreibt Beziehungen zwischen Firmen und Personen. Um eine Anfrage mit einer anderen zu verknüpfen, siehe [Anfragebeziehungen][5].
 
 Beziehungen in SuperOffice CRM ermöglichen es Ihnen, Verbindungen zwischen Firmen und Personen zu erstellen. Beziehungen bestehen immer aus zwei Parteien: einer aktiven und einer passiven. Zum Beispiel: "Firma A besitzt Firma B", wobei Firma A die aktive Partei ist und Firma B die passive Partei. Dieser Leitfaden bietet einen Überblick darüber, wie Sie diese Beziehungen anzeigen, hinzufügen und verwalten können, um komplexe Strukturen, Kooperationen oder benutzerdefinierte Beziehungen Ihrer Firma einfacher nachzuverfolgen.
 
@@ -92,6 +95,7 @@ Um mehr Details zu sehen oder Änderungen vorzunehmen, doppelklicken Sie auf ein
 [2]: deleting-elements.md
 [3]: ../../admin/lists/specialized-lists.md#relation
 [4]: ../../custom-objects/learn/extra-field.md#relation
+[5]: ../../request/learn/request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/relation.png

@@ -3,9 +3,9 @@ uid: help-nl-section-tab-requests
 title: Sectietabblad Verzoeken
 description: Leer hoe u Serviceverzoeken in SuperOffice CRM kunt bekijken, toevoegen en beheren, zodat u klantinteracties efficiënt kunt volgen tussen bedrijven en personen.
 keywords: sectietabblad Verzoeken, tabblad Verzoeken, sectietabblad
-author: Bergfrid Skaara Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,22 @@ Om een verzoek rechtstreeks vanuit het sectietabblad **Verzoeken** te bewerken:
 
 1. Klik in het venster dat wordt geopend op **Bewerken** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) om de details van het verzoek bij te werken.
 
+## <a id="link"></a>Verzoeken koppelen
+
+U kunt [relaties tussen verzoeken][4] rechtstreeks vanuit het sectietabblad **Verzoeken** creëren. Dit is handig voor het volgen van verbonden problemen, afhankelijkheden of hiërarchische relaties tussen verzoeken.
+
+1. Klik met de rechtermuisknop op een verzoek in de lijst.
+
+1. Selecteer **Relaties** in het contextmenu.
+
+1. Kies het relatietype (gerelateerd, bovenliggend of onderliggend).
+
+1. Selecteer een bestaand verzoek om te koppelen of maak een nieuw verzoek aan.
+
+1. Voeg optioneel een opmerking toe die de relatie beschrijft.
+
+1. Klik op **Koppelen** om de verbinding te maken.
+
 ## Aanvullende tips
 
 * **Verzoeken volgen:** Houd openstaande kwesties in de gaten en zorg voor tijdige reacties.
@@ -92,6 +108,7 @@ Om een verzoek rechtstreeks vanuit het sectietabblad **Verzoeken** te bewerken:
 [1]: ../../request/learn/index.md
 [2]: ../../request/learn/create.md
 [3]: ../../request/learn/reply.md
+[4]: ../../request/learn/request-relations.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

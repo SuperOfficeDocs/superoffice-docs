@@ -3,9 +3,9 @@ uid: help-sv-section-tab-requests
 title: Ärendenfliken
 description: Lär dig hur du kan visa, lägga till och hantera Service-ärenden i SuperOffice CRM, så att du effektivt kan spåra kundinteraktioner mellan företag och kontakter.
 keywords: Ärenden-fliken, Ärendenfliken, fliken Ärenden, detaljkortet Ärenden, detaljkort, ärendearkiv
-author: Bergfrid Skaara Dias
-date: 03.11.2025
-version: 10.5.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -78,6 +78,22 @@ För att redigera ett ärende direkt från detaljkortet **Ärenden**:
 
 1. I det fönster som öppnas, klicka på **Redigera** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) för att börja uppdatera ärendedetaljerna.
 
+## <a id="link"></a>Länka ärenden
+
+Du kan skapa [relationer mellan ärenden][4] direkt från detaljkortet **Ärenden**. Detta är användbart för att spåra anslutna problem, beroenden eller hierarkiska relationer mellan ärenden.
+
+1. Högerklicka på ett ärende i listan.
+
+1. Välj **Relationer** från menyn.
+
+1. Välj relationstyp (relaterad, överordnad eller underordnad).
+
+1. Välj ett befintligt ärende att länka till eller skapa ett nytt.
+
+1. Lägg till en kommentar som beskriver relationen (valfritt).
+
+1. Klicka på **Länka** för att skapa kopplingen.
+
 ## Ytterligare tips
 
 * **Spåra ärenden:** Övervaka öppna ärenden och säkerställ snabba svar.
@@ -92,6 +108,7 @@ För att redigera ett ärende direkt från detaljkortet **Ärenden**:
 [1]: ../../request/learn/index.md
 [2]: ../../request/learn/create.md
 [3]: ../../request/learn/reply.md
+[4]: ../../request/learn/request-relations.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
