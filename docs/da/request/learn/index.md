@@ -3,15 +3,15 @@ uid: help-da-request
 title: Sager
 description: Introduktion til sager i SuperOffice
 keywords: sag, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
-redirect_from: 
+redirect_from:
   - /da/request/learn/screen/index
   - /da/request/learn/screen/ticket-log
 ---
@@ -49,6 +49,7 @@ Skærmbilledet Sag har følgende sektioner:
 * Nedenunder headeren finder du en række knapper, som du kan bruge til at udføre opgaver, der er knyttet til sager, som for eksempel Svar, Svar til alle, Videresend og Tilføj kommentar.
 * Fanen **Meddelelser** viser meddelelser vedrørende sagen.
 * Fanen **Detaljer** indeholder en oversigt over de registrerede data for sagen.
+* Fanen **Relationer** viser [tilknyttede sager][21] (overordnet, underordnet eller relateret).
 * Fanen **Ændringslog** indeholder historikken for denne sag. Sagsloggen viser alt, hvad der er sket i denne sag, siden den blev registreret.
 
 ### Sagsoverskrift
@@ -241,6 +242,7 @@ Nogle indstillinger, der påvirker supportagenter, inkluderer:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md

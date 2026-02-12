@@ -21,6 +21,8 @@ items:
   href: forward.md
 - name: Svar til kunde
   href: reply.md
+- name: Sagsrelationer
+  href: request-relations.md
 - name: Tags
   href: tags.md
 - name: Hold styr på meddelelser

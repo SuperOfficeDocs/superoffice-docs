@@ -21,6 +21,8 @@ items:
   href: forward.md
 - name: Svare kunde
   href: reply.md
+- name: Saksrelasjoner
+  href: request-relations.md
 - name: Emneknagger
   href: tags.md
 - name: Holde oversikt over meldinger

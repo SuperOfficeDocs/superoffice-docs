@@ -3,15 +3,15 @@ uid: help-no-request
 title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
-redirect_from: 
+redirect_from:
   - /no/request/learn/screen/index
   - /no/request/learn/screen/ticket-log
 ---
@@ -49,6 +49,7 @@ Bildet Sak har følgende deler:
 * Under toppteksten er det en rad med knapper til oppgaver knyttet til saker, for eksempel Svar, Svar til alle, Videresend og Legg til kommentar.
 * Fanen **Meldinger** viser meldingene som er knyttet til saken.
 * Fanen **Detaljer** inneholder en oversikt over informasjonen som er registrert for saken.
+* Fanen **Relasjoner** viser [tilknyttede saker][21] (overordnet, underordnet eller relatert).
 * Fanen **Endringslogg** inneholder historikken for denne saken. Saksloggen viser alt som har skjedd i denne saken siden den ble registrert.
 
 ### Topptekst for sak
@@ -242,6 +243,7 @@ Noen innstillinger som påvirker kundestøtteagenter inkluderer:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md

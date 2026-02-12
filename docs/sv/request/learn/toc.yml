@@ -21,6 +21,8 @@ items:
   href: forward.md
 - name: Svara kund
   href: reply.md
+- name: Ärenderelationer
+  href: request-relations.md
 - name: Taggar
   href: tags.md
 - name: Hålla koll på meddelanden

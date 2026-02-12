@@ -3,15 +3,15 @@ uid: help-sv-request
 title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
-redirect_from: 
+redirect_from:
   - /sv/request/learn/screen/index
   - /sv/request/learn/screen/ticket-log
 ---
@@ -49,6 +49,7 @@ Fönstret Ärende har följande delar:
 * Under huvudet finns en rad med knappar som du kan använda för att utföra uppgifter kopplade till ärenden, som Svara, Svara alla, Vidarebefordra och Lägg till kommentar.
 * Fliken **Meddelanden** visar de meddelanden som är kopplade till ärendet.
 * På fliken **Detaljer** visas en översikt över den information som finns registrerad för ärendet.
+* Fliken **Relationer** visar [länkade ärenden][21] (överordnade, underordnade eller relaterade).
 * Fliken **Ändringslogg** innehåller historiken för detta ärende. Ärendeloggen visar allt som har skett i ärendet sedan det registrerades.
 
 ### Ärendehuvud
@@ -241,6 +242,7 @@ Några inställningar som påverkar supportagenter inkluderar:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md

@@ -3,15 +3,15 @@ uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
-redirect_from: 
+redirect_from:
   - /en/request/learn/screen/index
   - /en/request/learn/screen/ticket-log
 ---
@@ -49,6 +49,7 @@ The Request screen has the following sections:
 * Below the header is a row of buttons for performing tasks associated with requests, such as Reply, Reply all, Forward, and Add comment.
 * The **Messages** tab displays the messages related to the request.
 * The **Details** tab contains an overview of the data registered for the request.
+* The **Relations** tab shows [linked requests][21] (parent, child, or related).
 * The **Change log** tab contains the history of this request. The request log shows everything that has happened to this request since it was first registered.
 
 ### Request header
@@ -240,6 +241,7 @@ Some settings that affect support agents include:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md

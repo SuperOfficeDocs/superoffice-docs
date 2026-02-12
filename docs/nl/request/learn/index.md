@@ -3,15 +3,15 @@ uid: help-nl-request
 title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 keywords: verzoek, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 02.17.2026
+version: 11.10
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
-redirect_from: 
+redirect_from:
   - /nl/request/learn/screen/index
   - /nl/request/learn/screen/ticket-log
 ---
@@ -49,6 +49,7 @@ Het scherm Verzoeken bevat de volgende secties:
 * Onder de koptekst staat een rij knoppen voor het uitvoeren van taken met betrekking tot verzoeken, zoals Beantwoorden, Allen beantwoorden, Doorsturen en Opmerking toevoegen.
 * Het tabblad **Berichten** geeft de berichten weer met betrekking tot het verzoek.
 * Het tabblad **Details** bevat een overzicht van de gegevens die zijn geregistreerd voor het verzoek.
+* Het tabblad **Relaties** toont [gekoppelde verzoeken][21] (bovenliggend, onderliggend of gerelateerd).
 * Het tabblad **Logboek** bevat de historie van dit verzoek. In dit logboek zijn alle handelingen met betrekking tot het verzoek opgenomen sinds het voor de eerste keer werd geregistreerd.
 
 ### Koptekst van verzoek
@@ -241,6 +242,7 @@ Enkele instellingen die ondersteuningsagenten beïnvloeden zijn:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
