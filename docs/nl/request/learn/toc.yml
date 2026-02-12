@@ -21,6 +21,8 @@ items:
   href: forward.md
 - name: Klant beantwoorden
   href: reply.md
+- name: Verzoekrelaties
+  href: request-relations.md
 - name: Labels
   href: tags.md
 - name: Berichten bijhouden
