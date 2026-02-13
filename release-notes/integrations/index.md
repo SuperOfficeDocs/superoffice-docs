@@ -17,6 +17,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 ## Office integrations
 
+* [SuperNotes integration guide][43] (English only)
 * [Zapier - Breaking changes and improvements (3.5)][15]
 * [Video meetings - Set configurations - Prefer direct link to Microsoft Teams (2.9)][13]
 * [SuperOffice for Outlook update – Action required (6.0)][1]
@@ -110,5 +111,6 @@ See all the [new or updated apps][2]
 [40]: https://appstore.superoffice.com/syncify-ab/xledger-by-syncify
 [41]: https://appstore.superoffice.com/superoffice-as/supernotes
 [42]: https://appstore.superoffice.com/leadx/leadx-360
+[43]: ../../integrations/supernotes/index.md
 
 <!-- Referenced images -->

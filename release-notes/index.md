@@ -55,7 +55,6 @@ Different integration components are released on separate schedules. See the [in
 * [SuperOffice version 11 User guide][15] (available in six languages)
 * [SuperOffice for Outlook User guide][13] (English only)
 * [SuperOffice Mobile CRM User guide][14] (English only)
-* [SuperNotes integration][20] (English only)
 
 ## <a id="pilot"></a>Ongoing pilot programs
 
@@ -98,7 +97,6 @@ We use **pilot programs** to assess how well the features and functions meet our
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [19]: ../docs/en/onsite/version-history.md
-[20]: ../integrations/supernotes/index.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
