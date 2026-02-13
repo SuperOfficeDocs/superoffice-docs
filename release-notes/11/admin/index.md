@@ -13,6 +13,8 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [Marketing - Subscription page styling (11.10)][10]
+* [Requests - Add Request relations (11.10)][10]
 * [Marketing - Add new Google fonts to form fonts (11.9)][9]
 * [Workflow - Lead category automation (11.8)][8]
 * [Marketing - Conversion tracking with UTM data (11.6)][6]
@@ -31,3 +33,4 @@ audience_tooltip: Settings and maintenance
 [6]: 11.6-update.md
 [8]: 11.8-update.md
 [9]: 11.9-update.md
+[10]: 11.10-update.md

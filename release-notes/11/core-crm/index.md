@@ -15,6 +15,8 @@ language: en
 
 # New and improved Core CRM and Sales
 
+* [Dashboards – Visualising time spent in each Sales stage (11.10)][10]
+* [Notifications for re‑assigned follow‑ups (11.10)][10]
 * [Dashboard - Quick filter in dashboard (11.7)][7]
 * [Dashboard - Load a tile again on time outs (11.7)][7]
 * [Dashboard - Show all or none of the legend (11.7)][7]
@@ -45,3 +47,4 @@ language: en
 [4]: 11.4-update.md
 [6]: 11.6-update.md
 [7]: 11.7-update.md
+[10]: 11.10-update.md
