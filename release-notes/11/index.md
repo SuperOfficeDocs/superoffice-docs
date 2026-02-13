@@ -21,6 +21,8 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
+See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service & Integrations.
+
 ## Feature updates
 
 ### 11.10 (17.02.2026)
@@ -152,6 +154,7 @@ Some features are available to selected customers as part of ongoing pilots. See
 [28]: admin/11.10-update.md
 [29]: core-crm/11.10-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
+[31]: https://community.superoffice.com/en/product-releases/whats-new/product/product-roundup---2025-highlights/?utm_medium=docs&utm_source=release%20notes&utm_campaign=11
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
 
