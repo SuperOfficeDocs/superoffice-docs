@@ -21,13 +21,13 @@ Much of the work in this release has focused on cleaning up outdated and unneces
 
 At SuperOffice, relationships are at the heart of everything we do — and strong relationships begin with open, honest communication. That's why we're excited to share this new experience with you as we prepare to roll it out to our cloud customers.
 
-See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service & Integrations.
+See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service, and Integrations.
 
 ## Feature updates
 
 ### 11.10 (17.02.2026)
 
-* [Dashboards – Visualising time spent in each Sales stage][29] in Core CRM and Sales
+* [Dashboards – Visualize time spent in each sales stage][29] in Core CRM and Sales
 * [Notifications for re‑assigned follow‑ups][29] in Core CRM and Sales
 * [Marketing - Subscription page styling][28] in Settings and maintenance
 

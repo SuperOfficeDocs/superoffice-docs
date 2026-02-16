@@ -4,7 +4,7 @@ title: What's new in SuperOffice Core CRM 11
 description: Release notes. What's new in SuperOffice Core CRM 11
 keywords: new UI, lead management
 author: kirstiaa
-date: 12.02.2025
+date: 02.17.2026
 version: 11
 content_type: release-note
 category: core-crm
@@ -15,7 +15,7 @@ language: en
 
 # New and improved Core CRM and Sales
 
-* [Dashboards – Visualising time spent in each Sales stage (11.10)][10]
+* [Dashboards – Visualize time spent in each sales stage (11.10)][10]
 * [Notifications for re‑assigned follow‑ups (11.10)][10]
 * [Dashboard - Quick filter in dashboard (11.7)][7]
 * [Dashboard - Load a tile again on time outs (11.7)][7]

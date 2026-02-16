@@ -21,7 +21,6 @@ Recent versions:
 
 * [11.1 - 11.10][11]
 * [10.5][9]
-* [10.3][8]
 
 Older versions are listed in the table of contents.
 
@@ -86,7 +85,6 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 <!-- Referenced links-->
 [7]: mobile/index.md
-[8]: 10.3/index.md
 [9]: 10.5/index.md
 [11]: 11/index.md
 [12]: integrations/index.md

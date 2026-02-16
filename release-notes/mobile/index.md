@@ -20,7 +20,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
-* [Company - Country and Stop indicator (11.1.9)][44]
+* [Company - Indicators for country and stop (11.1.9)][44]
 * [Lead categorisation - Automatic update of category on sale sold or lost (11.1.9)][44]
 * [All day events in Diary (11.1.7)][43]
 * [Sections for contacts - Show person type icon (11.1.7)][43]
