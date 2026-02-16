@@ -12,7 +12,9 @@ items:
 - name: Link en webformular
   href: link-form.md
 - name: For administratorer
-  topicHref: ../admin/password-policy.md
+  topicHref: ../admin/style-subscription-page.md
   items:
+  - name: Styling af abonnementssiden
+    href: ../admin/style-subscription-page.md
   - name: Adgangskodepolitik for Customer Centre
     href: ../admin/password-policy.md

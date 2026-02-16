@@ -12,7 +12,9 @@ items:
 - name: Web-Formular verknüpfen
   href: link-form.md
 - name: Für Administratoren
-  topicHref: ../admin/password-policy.md
+  topicHref: ../admin/style-subscription-page.md
   items:
+  - name: Design der Abonnement-Seite
+    href: ../admin/style-subscription-page.md
   - name: Richtlinie für Customer Centre-Passwörter
     href: ../admin/password-policy.md

@@ -12,7 +12,9 @@ items:
 - name: Een webformulier koppelen
   href: link-form.md
 - name: Voor beheerders
-  topicHref: ../admin/password-policy.md
+  topicHref: ../admin/style-subscription-page.md
   items:
+  - name: Stijl van abonnementspagina
+    href: ../admin/style-subscription-page.md
   - name: Wachtwoordbeleid Customer Centre
     href: ../admin/password-policy.md
