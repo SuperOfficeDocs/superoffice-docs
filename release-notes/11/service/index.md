@@ -13,7 +13,6 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [Request relations - better control and overview (11.10)][10]
 * [Time zones - Agents with multiple time zones (11.8)][8]
 * [Requests - Filter messages on comments or replies (11.7)][7]
 * [Request - Differentiate request types with icons (11.5)][5]
@@ -33,4 +32,3 @@ audience_tooltip: SuperOffice Service
 [5]: 11.5-update.md
 [7]: 11.7-update.md
 [8]: 11.8-update.md
-[10]: 11.10-update.md
