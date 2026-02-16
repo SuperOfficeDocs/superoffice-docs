@@ -12,7 +12,9 @@ items:
 - name: Link a web form
   href: link-form.md
 - name: For administrators
-  topicHref: ../admin/password-policy.md
+  topicHref: ../admin/style-subscription-page.md
   items:
+  - name: Style the subscription page
+    href: ../admin/style-subscription-page.md
   - name: Customer Centre password policy
     href: ../admin/password-policy.md

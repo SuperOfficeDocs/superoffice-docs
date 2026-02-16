@@ -12,7 +12,9 @@ items:
 - name: Länka ett webbformulär
   href: link-form.md
 - name: För administratörer
-  topicHref: ../admin/password-policy.md
+  topicHref: ../admin/style-subscription-page.md
   items:
+  - name: Styling av prenumerationssida
+    href: ../admin/style-subscription-page.md
   - name: Lösenordspolicy för Kundcenter
     href: ../admin/password-policy.md

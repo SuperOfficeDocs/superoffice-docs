@@ -12,7 +12,9 @@ items:
 - name: Koble et webskjema
   href: link-form.md
 - name: For administratorer
-  topicHref: ../admin/password-policy.md
+  topicHref: ../admin/style-subscription-page.md
   items:
+  - name: Styling av abonnementssiden
+    href: ../admin/style-subscription-page.md
   - name: Passordregler for kundesenter
     href: ../admin/password-policy.md
