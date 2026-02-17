@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.WebApi.Data.ConfigType.Options
   - SuperOffice.WebApi.Data.ConfigType.Style
+  - SuperOffice.WebApi.Data.ConfigType.SubscriptionsOptions
+  - SuperOffice.WebApi.Data.ConfigType.SubscriptionsStyle
   langs:
   - csharp
   - vb
@@ -39,7 +41,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: The row contains style data'
+  summary: '0: The row contains customer center style data'
   example: []
   syntax:
     content: >-
@@ -70,7 +72,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: The row contains options data'
+  summary: '1: The row contains customer center options data'
   example: []
   syntax:
     content: >-
@@ -83,6 +85,68 @@ items:
       <EnumMember>
 
       Options = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ConfigType.SubscriptionsStyle
+  commentId: F:SuperOffice.WebApi.Data.ConfigType.SubscriptionsStyle
+  id: SubscriptionsStyle
+  parent: SuperOffice.WebApi.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionsStyle
+  nameWithType: ConfigType.SubscriptionsStyle
+  fullName: SuperOffice.WebApi.Data.ConfigType.SubscriptionsStyle
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '10: The row contains subscriptions style data'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SubscriptionsStyle = 10
+    return:
+      type: SuperOffice.WebApi.Data.ConfigType
+    content.vb: >-
+      <EnumMember>
+
+      SubscriptionsStyle = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ConfigType.SubscriptionsOptions
+  commentId: F:SuperOffice.WebApi.Data.ConfigType.SubscriptionsOptions
+  id: SubscriptionsOptions
+  parent: SuperOffice.WebApi.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionsOptions
+  nameWithType: ConfigType.SubscriptionsOptions
+  fullName: SuperOffice.WebApi.Data.ConfigType.SubscriptionsOptions
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '11: The row contains subscriptions options data'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SubscriptionsOptions = 11
+    return:
+      type: SuperOffice.WebApi.Data.ConfigType
+    content.vb: >-
+      <EnumMember>
+
+      SubscriptionsOptions = 11
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.DBC.ProjectMemberFields.ContactId
+  - SuperOffice.CRM.Data.DBC.ProjectMemberFields.EventParticipantStatus
   - SuperOffice.CRM.Data.DBC.ProjectMemberFields.MtypeIdx
   - SuperOffice.CRM.Data.DBC.ProjectMemberFields.PersonId
   - SuperOffice.CRM.Data.DBC.ProjectMemberFields.ProjectId
@@ -294,6 +295,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+- uid: SuperOffice.CRM.Data.DBC.ProjectMemberFields.EventParticipantStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectMemberFields.EventParticipantStatus
+  id: EventParticipantStatus
+  parent: SuperOffice.CRM.Data.DBC.ProjectMemberFields
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus
+  nameWithType: DBC.ProjectMemberFields.EventParticipantStatus
+  fullName: SuperOffice.CRM.Data.DBC.ProjectMemberFields.EventParticipantStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'ProjectMember.EventParticipantStatus: Reserved field for Lyyti event participants.'
+  example: []
+  syntax:
+    content: public const string EventParticipantStatus = "event_participant_status"
+    return:
+      type: System.String
+    content.vb: Public Const EventParticipantStatus As String = "event_participant_status"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

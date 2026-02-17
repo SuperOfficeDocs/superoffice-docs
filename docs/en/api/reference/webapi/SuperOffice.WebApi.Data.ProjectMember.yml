@@ -14,6 +14,8 @@ items:
   - SuperOffice.WebApi.Data.ProjectMember.EmailAddress
   - SuperOffice.WebApi.Data.ProjectMember.EmailAddressName
   - SuperOffice.WebApi.Data.ProjectMember.EmailId
+  - SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  - SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
   - SuperOffice.WebApi.Data.ProjectMember.Firstname
   - SuperOffice.WebApi.Data.ProjectMember.FullName
   - SuperOffice.WebApi.Data.ProjectMember.Lastname
@@ -633,6 +635,86 @@ items:
       type: System.DateTime
     content.vb: Public Overridable Property Updated As Date
   overload: SuperOffice.WebApi.Data.ProjectMember.Updated*
+- uid: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  commentId: P:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  id: EventParticipantStatus_String
+  parent: SuperOffice.WebApi.Data.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus_String
+  nameWithType: ProjectMember.EventParticipantStatus_String
+  fullName: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Reserved field for Lyyti event participants.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("EventParticipantStatus")]
+
+      public string EventParticipantStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("EventParticipantStatus")>
+
+      Public Property EventParticipantStatus_String As String
+  overload: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+    commentId: P:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EventParticipantStatus
+- uid: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  commentId: P:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  id: EventParticipantStatus
+  parent: SuperOffice.WebApi.Data.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus
+  nameWithType: ProjectMember.EventParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Reserved field for Lyyti event participants.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public ProjectMemberEventParticipantStatus? EventParticipantStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property EventParticipantStatus As ProjectMemberEventParticipantStatus?
+  overload: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+    commentId: P:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Agents.ProjectAgent
   commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
@@ -1156,3 +1238,79 @@ references:
   name: Updated
   nameWithType: ProjectMember.Updated
   fullName: SuperOffice.WebApi.Data.ProjectMember.Updated
+- uid: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  commentId: P:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMember.html#SuperOffice_WebApi_Data_ProjectMember_EventParticipantStatus
+  name: EventParticipantStatus
+  nameWithType: ProjectMember.EventParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+- uid: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMember.html#SuperOffice_WebApi_Data_ProjectMember_EventParticipantStatus_String
+  name: EventParticipantStatus_String
+  nameWithType: ProjectMember.EventParticipantStatus_String
+  fullName: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+- uid: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  commentId: P:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMember.html#SuperOffice_WebApi_Data_ProjectMember_EventParticipantStatus_String
+  name: EventParticipantStatus_String
+  nameWithType: ProjectMember.EventParticipantStatus_String
+  fullName: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus_String
+- uid: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMember.html#SuperOffice_WebApi_Data_ProjectMember_EventParticipantStatus
+  name: EventParticipantStatus
+  nameWithType: ProjectMember.EventParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ProjectMember.EventParticipantStatus
+- uid: System.Nullable{SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus?
+  nameWithType: ProjectMemberEventParticipantStatus?
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    name: ProjectMemberEventParticipantStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    name: ProjectMemberEventParticipantStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

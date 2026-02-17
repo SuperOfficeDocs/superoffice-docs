@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow.#ctor(SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase)
   - SuperOffice.CRM.Rows.ProjectMemberRow.ContactId
   - SuperOffice.CRM.Rows.ProjectMemberRow.CreateNew
+  - SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
   - SuperOffice.CRM.Rows.ProjectMemberRow.GetFromCustomSearch(SuperOffice.CRM.Rows.ProjectMemberRow.CustomSearch)
   - SuperOffice.CRM.Rows.ProjectMemberRow.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.ProjectMemberRow.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRow.GetFromIdxProjectmemberIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -23,6 +24,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow.Item(System.String)
   - SuperOffice.CRM.Rows.ProjectMemberRow.MtypeIdx
   - SuperOffice.CRM.Rows.ProjectMemberRow.OnContactIdChange
+  - SuperOffice.CRM.Rows.ProjectMemberRow.OnEventParticipantStatusChange
   - SuperOffice.CRM.Rows.ProjectMemberRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.ProjectMemberRow.OnMtypeIdxChange
   - SuperOffice.CRM.Rows.ProjectMemberRow.OnPersonIdChange
@@ -55,6 +57,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow.UpdatedCount
   - SuperOffice.CRM.Rows.ProjectMemberRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.ProjectMemberRow._currentContactId
+  - SuperOffice.CRM.Rows.ProjectMemberRow._currentEventParticipantStatus
   - SuperOffice.CRM.Rows.ProjectMemberRow._currentMtypeIdx
   - SuperOffice.CRM.Rows.ProjectMemberRow._currentPersonId
   - SuperOffice.CRM.Rows.ProjectMemberRow._currentProjectId
@@ -67,6 +70,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.ProjectMemberRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.ProjectMemberRow._onContactIdChange
+  - SuperOffice.CRM.Rows.ProjectMemberRow._onEventParticipantStatusChange
   - SuperOffice.CRM.Rows.ProjectMemberRow._onMtypeIdxChange
   - SuperOffice.CRM.Rows.ProjectMemberRow._onPersonIdChange
   - SuperOffice.CRM.Rows.ProjectMemberRow._onProjectIdChange
@@ -78,6 +82,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRow._onUpdatedChange
   - SuperOffice.CRM.Rows.ProjectMemberRow._onUpdatedCountChange
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedContactId
+  - SuperOffice.CRM.Rows.ProjectMemberRow._persistedEventParticipantStatus
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedMtypeIdx
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedPersonId
   - SuperOffice.CRM.Rows.ProjectMemberRow._persistedProjectId
@@ -492,6 +497,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _persistedUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow._persistedEventParticipantStatus
+  commentId: F:SuperOffice.CRM.Rows.ProjectMemberRow._persistedEventParticipantStatus
+  id: _persistedEventParticipantStatus
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedEventParticipantStatus
+  nameWithType: ProjectMemberRow._persistedEventParticipantStatus
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow._persistedEventParticipantStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected ProjectMemberEventParticipantStatus _persistedEventParticipantStatus
+    return:
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    content.vb: Protected _persistedEventParticipantStatus As ProjectMemberEventParticipantStatus
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow._currentProjectmemberId
   commentId: F:SuperOffice.CRM.Rows.ProjectMemberRow._currentProjectmemberId
   id: _currentProjectmemberId
@@ -744,6 +770,27 @@ items:
     return:
       type: System.Int16
     content.vb: Protected _currentUpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow._currentEventParticipantStatus
+  commentId: F:SuperOffice.CRM.Rows.ProjectMemberRow._currentEventParticipantStatus
+  id: _currentEventParticipantStatus
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: _currentEventParticipantStatus
+  nameWithType: ProjectMemberRow._currentEventParticipantStatus
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow._currentEventParticipantStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected ProjectMemberEventParticipantStatus _currentEventParticipantStatus
+    return:
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    content.vb: Protected _currentEventParticipantStatus As ProjectMemberEventParticipantStatus
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -1917,6 +1964,37 @@ items:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
     description: Thrown if the set method is accessed without having the Write access right to the field
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+  commentId: P:SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+  id: EventParticipantStatus
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberRow.EventParticipantStatus
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: ProjectMemberEventParticipantStatus. Reserved field for Lyyti event participants.'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual ProjectMemberEventParticipantStatus EventParticipantStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    content.vb: Public Overridable Property EventParticipantStatus As ProjectMemberEventParticipantStatus
+  overload: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus*
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow._onProjectIdChange
   commentId: E:SuperOffice.CRM.Rows.ProjectMemberRow._onProjectIdChange
   id: _onProjectIdChange
@@ -2148,6 +2226,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
     content.vb: Protected Event _onUpdatedCountChange As OnFieldChange(Of Short)
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow._onEventParticipantStatusChange
+  commentId: E:SuperOffice.CRM.Rows.ProjectMemberRow._onEventParticipantStatusChange
+  id: _onEventParticipantStatusChange
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: _onEventParticipantStatusChange
+  nameWithType: ProjectMemberRow._onEventParticipantStatusChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow._onEventParticipantStatusChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus" data-throw-if-not-resolved="false"></xref>; field is of .NET type short.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<ProjectMemberEventParticipantStatus> _onEventParticipantStatusChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ProjectMemberEventParticipantStatus}
+    content.vb: Protected Event _onEventParticipantStatusChange As OnFieldChange(Of ProjectMemberEventParticipantStatus)
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.OnProjectIdChange
   commentId: E:SuperOffice.CRM.Rows.ProjectMemberRow.OnProjectIdChange
   id: OnProjectIdChange
@@ -2379,6 +2478,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int16}
     content.vb: Public Event OnUpdatedCountChange As OnFieldChange(Of Short)
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.OnEventParticipantStatusChange
+  commentId: E:SuperOffice.CRM.Rows.ProjectMemberRow.OnEventParticipantStatusChange
+  id: OnEventParticipantStatusChange
+  parent: SuperOffice.CRM.Rows.ProjectMemberRow
+  langs:
+  - csharp
+  - vb
+  name: OnEventParticipantStatusChange
+  nameWithType: ProjectMemberRow.OnEventParticipantStatusChange
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.OnEventParticipantStatusChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when EventParticipantStatus is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<ProjectMemberEventParticipantStatus> OnEventParticipantStatusChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ProjectMemberEventParticipantStatus}
+    content.vb: Public Event OnEventParticipantStatusChange As OnFieldChange(Of ProjectMemberEventParticipantStatus)
 references:
 - uid: SuperOffice.CRM.Rows.ProjectMemberRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.ProjectMemberRow.CreateNew
@@ -5549,6 +5669,21 @@ references:
   name: UpdatedCount
   nameWithType: ProjectMemberRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ProjectMemberRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+  commentId: P:SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectMemberRow.html#SuperOffice_CRM_Rows_ProjectMemberRow_EventParticipantStatus
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberRow.EventParticipantStatus
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6560,6 +6695,13 @@ references:
   name: UpdatedCount
   nameWithType: ProjectMemberRow.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ProjectMemberRow.UpdatedCount
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectMemberRow.html#SuperOffice_CRM_Rows_ProjectMemberRow_EventParticipantStatus
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberRow.EventParticipantStatus
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow.EventParticipantStatus
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows
@@ -6692,4 +6834,37 @@ references:
     name: Date
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ProjectMemberEventParticipantStatus}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.ProjectMemberEventParticipantStatus}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  href: SuperOffice.CRM.Rows.OnFieldChange-1.html
+  name: OnFieldChange<ProjectMemberEventParticipantStatus>
+  nameWithType: OnFieldChange<ProjectMemberEventParticipantStatus>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.ProjectMemberEventParticipantStatus>
+  nameWithType.vb: OnFieldChange(Of ProjectMemberEventParticipantStatus)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.ProjectMemberEventParticipantStatus)
+  name.vb: OnFieldChange(Of ProjectMemberEventParticipantStatus)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    isExternal: true
+    href: SuperOffice.CRM.Rows.OnFieldChange-1.html
+  - name: <
+  - uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    name: ProjectMemberEventParticipantStatus
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    isExternal: true
+    href: SuperOffice.CRM.Rows.OnFieldChange-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    name: ProjectMemberEventParticipantStatus
+    isExternal: true
   - name: )

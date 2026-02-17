@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ContactRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DiaryViewRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DocumentRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
@@ -26,7 +27,6 @@ items:
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.ProjectRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SORLabelLayoutRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SaleRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
@@ -167,6 +167,33 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Shared Function SetDefaultsAsync(row As TicketPriorityRow, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
+- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DiaryViewRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DiaryViewRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  id: SetDefaultsAsync(SuperOffice.CRM.Rows.DiaryViewRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.RowDefaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultsAsync(DiaryViewRow, DefaulterStrategy, CancellationToken)
+  nameWithType: RowDefaulter.SetDefaultsAsync(DiaryViewRow, DefaulterStrategy, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.DiaryViewRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Task SetDefaultsAsync(DiaryViewRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.DiaryViewRow
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetDefaultsAsync(row As DiaryViewRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   id: SetDefaultsAsync(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
@@ -200,36 +227,6 @@ items:
     return:
       type: System.Threading.Tasks.Task
     content.vb: Public Shared Function SetDefaultsAsync(row As TicketPriorityRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
-- uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SORLabelLayoutRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SORLabelLayoutRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
-  id: SetDefaultsAsync(SuperOffice.CRM.Rows.SORLabelLayoutRow,SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Rows.RowDefaulter
-  langs:
-  - csharp
-  - vb
-  name: SetDefaultsAsync(SORLabelLayoutRow, DefaulterStrategy, CancellationToken)
-  nameWithType: RowDefaulter.SetDefaultsAsync(SORLabelLayoutRow, DefaulterStrategy, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.SORLabelLayoutRow, SuperOffice.CRM.Rows.DefaulterStrategy, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
-  syntax:
-    content: public static Task SetDefaultsAsync(SORLabelLayoutRow row, DefaulterStrategy strategy, CancellationToken cancellationToken = default)
-    parameters:
-    - id: row
-      type: SuperOffice.CRM.Rows.SORLabelLayoutRow
-      description: The row to set default values on.
-    - id: strategy
-      type: SuperOffice.CRM.Rows.DefaulterStrategy
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Shared Function SetDefaultsAsync(row As SORLabelLayoutRow, strategy As DefaulterStrategy, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync*
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaultsAsync(SuperOffice.CRM.Rows.AppointmentRow,System.Threading.CancellationToken)
@@ -1773,6 +1770,14 @@ references:
   name: TicketPriorityRow
   nameWithType: TicketPriorityRow
   fullName: SuperOffice.CRM.Rows.TicketPriorityRow
+- uid: SuperOffice.CRM.Rows.DiaryViewRow
+  commentId: T:SuperOffice.CRM.Rows.DiaryViewRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.DiaryViewRow.html
+  name: DiaryViewRow
+  nameWithType: DiaryViewRow
+  fullName: SuperOffice.CRM.Rows.DiaryViewRow
 - uid: SuperOffice.CRM.Rows.AppointmentRow
   commentId: T:SuperOffice.CRM.Rows.AppointmentRow
   parent: SuperOffice.CRM.Rows
@@ -1781,14 +1786,6 @@ references:
   name: AppointmentRow
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
-- uid: SuperOffice.CRM.Rows.SORLabelLayoutRow
-  commentId: T:SuperOffice.CRM.Rows.SORLabelLayoutRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.SORLabelLayoutRow.html
-  name: SORLabelLayoutRow
-  nameWithType: SORLabelLayoutRow
-  fullName: SuperOffice.CRM.Rows.SORLabelLayoutRow
 - uid: SuperOffice.Data.TaskType
   commentId: T:SuperOffice.Data.TaskType
   parent: SuperOffice.Data

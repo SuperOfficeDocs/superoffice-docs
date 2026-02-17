@@ -41,6 +41,7 @@ items:
   - SuperOffice.CRM.Entities.Contact.GetSatellitesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Contact.GetSelectionMembershipsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Contact.GetUrlsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Contact.Group
   - SuperOffice.CRM.Entities.Contact.Info
   - SuperOffice.CRM.Entities.Contact.IsDeleted
@@ -114,6 +115,7 @@ items:
   - SuperOffice.CRM.Entities.Contact._udefSmall
   - SuperOffice.CRM.Entities.Contact._updatedAssociate
   - SuperOffice.CRM.Entities.Contact._urls
+  - SuperOffice.CRM.Entities.Contact._utmParameters
   - SuperOffice.CRM.Entities.Contact.op_Explicit(SuperOffice.CRM.Rows.ContactRow)~SuperOffice.CRM.Entities.Contact
   langs:
   - csharp
@@ -834,6 +836,25 @@ items:
     return:
       type: SuperOffice.CRM.Rows.CompanyDomainRows
     content.vb: Protected _companyDomains As CompanyDomainRows
+- uid: SuperOffice.CRM.Entities.Contact._utmParameters
+  commentId: F:SuperOffice.CRM.Entities.Contact._utmParameters
+  id: _utmParameters
+  parent: SuperOffice.CRM.Entities.Contact
+  langs:
+  - csharp
+  - vb
+  name: _utmParameters
+  nameWithType: Contact._utmParameters
+  fullName: SuperOffice.CRM.Entities.Contact._utmParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected UtmParametersRows _utmParameters
+    return:
+      type: SuperOffice.CRM.Rows.UtmParametersRows
+    content.vb: Protected _utmParameters As UtmParametersRows
 - uid: SuperOffice.CRM.Entities.Contact.GetInterestHelperAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.Contact.GetInterestHelperAsync(System.Threading.CancellationToken)
   id: GetInterestHelperAsync(System.Threading.CancellationToken)
@@ -1589,6 +1610,29 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.CompanyDomainRows}
     content.vb: Public Function GetCompanyDomainsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CompanyDomainRows)
   overload: SuperOffice.CRM.Entities.Contact.GetCompanyDomainsAsync*
+- uid: SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync(System.Threading.CancellationToken)
+  id: GetUtmParametersAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.Contact
+  langs:
+  - csharp
+  - vb
+  name: GetUtmParametersAsync(CancellationToken)
+  nameWithType: Contact.GetUtmParametersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public Task<UtmParametersRows> GetUtmParametersAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UtmParametersRows}
+    content.vb: Public Function GetUtmParametersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of UtmParametersRows)
+  overload: SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync*
 - uid: SuperOffice.CRM.Entities.Contact.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.Contact.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   id: GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
@@ -4830,6 +4874,14 @@ references:
   name: CompanyDomainRows
   nameWithType: CompanyDomainRows
   fullName: SuperOffice.CRM.Rows.CompanyDomainRows
+- uid: SuperOffice.CRM.Rows.UtmParametersRows
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows
+  nameWithType: UtmParametersRows
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows
 - uid: SuperOffice.CRM.Entities.Contact.GetInterestHelperAsync*
   commentId: Overload:SuperOffice.CRM.Entities.Contact.GetInterestHelperAsync
   isExternal: true
@@ -5900,6 +5952,48 @@ references:
     name: CompanyDomainRows
     isExternal: true
     href: SuperOffice.CRM.Rows.CompanyDomainRows.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Contact.html#SuperOffice_CRM_Entities_Contact_GetUtmParametersAsync_System_Threading_CancellationToken_
+  name: GetUtmParametersAsync
+  nameWithType: Contact.GetUtmParametersAsync
+  fullName: SuperOffice.CRM.Entities.Contact.GetUtmParametersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UtmParametersRows}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UtmParametersRows}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UtmParametersRows>
+  nameWithType: Task<UtmParametersRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.UtmParametersRows>
+  nameWithType.vb: Task(Of UtmParametersRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.UtmParametersRows)
+  name.vb: Task(Of UtmParametersRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
   - name: )
 - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersistAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)

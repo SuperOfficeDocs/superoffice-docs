@@ -60,7 +60,6 @@ items:
   - SuperOffice.CRM.Security.QuoteVersionSentry
   - SuperOffice.CRM.Security.ReplyTemplateSentry
   - SuperOffice.CRM.Security.RoleRightsSentry`1
-  - SuperOffice.CRM.Security.SORPublishSentry
   - SuperOffice.CRM.Security.SatelliteSentry
   - SuperOffice.CRM.Security.TicketSentry
   - SuperOffice.CRM.Security.UDefFieldSentry

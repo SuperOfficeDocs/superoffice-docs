@@ -10,12 +10,14 @@ items:
   - SuperOffice.CRM.Services.Project.AssociateFullName
   - SuperOffice.CRM.Services.Project.AssociateId
   - SuperOffice.CRM.Services.Project.Description
+  - SuperOffice.CRM.Services.Project.EventId
   - SuperOffice.CRM.Services.Project.IsPublished
   - SuperOffice.CRM.Services.Project.Name
   - SuperOffice.CRM.Services.Project.ProjectId
   - SuperOffice.CRM.Services.Project.ProjectNumber
   - SuperOffice.CRM.Services.Project.PublishFrom
   - SuperOffice.CRM.Services.Project.PublishTo
+  - SuperOffice.CRM.Services.Project.StartDate
   - SuperOffice.CRM.Services.Project.Status
   - SuperOffice.CRM.Services.Project.StatusId
   - SuperOffice.CRM.Services.Project.TextId
@@ -57,11 +59,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public class Project : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Class Project Inherits Carrier
   seealso:
@@ -76,7 +78,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.Project.#ctor
   commentId: M:SuperOffice.CRM.Services.Project.#ctor
   id: '#ctor'
@@ -750,6 +752,72 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.Project.EventId
+  commentId: P:SuperOffice.CRM.Services.Project.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Services.Project
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: Project.EventId
+  fullName: SuperOffice.CRM.Services.Project.EventId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Reserved field for Lyyti event when project is linked to an event.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int EventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property EventId As Integer
+  overload: SuperOffice.CRM.Services.Project.EventId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Project.StartDate
+  commentId: P:SuperOffice.CRM.Services.Project.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Services.Project
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: Project.StartDate
+  fullName: SuperOffice.CRM.Services.Project.StartDate
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Reserved field for Lyyti event when project is linked to an event, is the event start date.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property StartDate As Date
+  overload: SuperOffice.CRM.Services.Project.StartDate*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.IProjectAgent
   commentId: T:SuperOffice.CRM.Services.IProjectAgent
@@ -1001,3 +1069,17 @@ references:
   name: ActiveErpLinks
   nameWithType: Project.ActiveErpLinks
   fullName: SuperOffice.CRM.Services.Project.ActiveErpLinks
+- uid: SuperOffice.CRM.Services.Project.EventId*
+  commentId: Overload:SuperOffice.CRM.Services.Project.EventId
+  isExternal: true
+  href: SuperOffice.CRM.Services.Project.html#SuperOffice_CRM_Services_Project_EventId
+  name: EventId
+  nameWithType: Project.EventId
+  fullName: SuperOffice.CRM.Services.Project.EventId
+- uid: SuperOffice.CRM.Services.Project.StartDate*
+  commentId: Overload:SuperOffice.CRM.Services.Project.StartDate
+  isExternal: true
+  href: SuperOffice.CRM.Services.Project.html#SuperOffice_CRM_Services_Project_StartDate
+  name: StartDate
+  nameWithType: Project.StartDate
+  fullName: SuperOffice.CRM.Services.Project.StartDate

@@ -49,13 +49,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{{RowType}}
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1
-  - SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentFavouritesProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider

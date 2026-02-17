@@ -38,6 +38,7 @@ items:
   inheritedMembers:
   - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
+  - SuperOffice.Data.Cache.CacheBaseV2.OnDispose
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   - SuperOffice.Data.Cache.CacheBaseV2.LoadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.Load
@@ -363,6 +364,28 @@ references:
     name: InstanceDispose
     isExternal: true
     href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_InstanceDispose
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.OnDispose
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnDispose
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnDispose
+  name: OnDispose()
+  nameWithType: CacheBaseV2.OnDispose()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.OnDispose()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnDispose
+    name: OnDispose
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnDispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.OnDispose
+    name: OnDispose
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnDispose
   - name: (
   - name: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate

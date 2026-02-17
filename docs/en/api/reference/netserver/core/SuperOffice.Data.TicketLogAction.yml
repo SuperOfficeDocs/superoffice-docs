@@ -66,6 +66,7 @@ items:
   - SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
   - SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
   - SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
+  - SuperOffice.Data.TicketLogAction.Ticket_Relation
   - SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
   - SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
   - SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
@@ -96,11 +97,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public enum TicketLogAction
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Enum TicketLogAction
   extensionMethods:
@@ -116,7 +117,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.Data.TicketLogAction.No_Logging
   commentId: F:SuperOffice.Data.TicketLogAction.No_Logging
   id: No_Logging
@@ -2407,6 +2408,37 @@ items:
       <EnumMember>
 
       Message_InlineImagesConverted = 10025
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketLogAction.Ticket_Relation
+  commentId: F:SuperOffice.Data.TicketLogAction.Ticket_Relation
+  id: Ticket_Relation
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: Ticket_Relation
+  nameWithType: TicketLogAction.Ticket_Relation
+  fullName: SuperOffice.Data.TicketLogAction.Ticket_Relation
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20001: Ticket_Relation action'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Ticket_Relation = 20001
+    return:
+      type: SuperOffice.Data.TicketLogAction
+    content.vb: >-
+      <EnumMember>
+
+      Ticket_Relation = 20001
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

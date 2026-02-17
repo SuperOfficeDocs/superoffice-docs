@@ -7,7 +7,6 @@ items:
   children:
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.#ctor
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Action)
-  - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func{System.Threading.Tasks.Task})
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   langs:
   - csharp
@@ -70,32 +69,6 @@ items:
       type: System.Action
     content.vb: Public Sub Execute(action As Action)
   overload: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute*
-- uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func{System.Threading.Tasks.Task})
-  commentId: M:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func{System.Threading.Tasks.Task})
-  id: Execute(System.Func{System.Threading.Tasks.Task})
-  parent: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-  langs:
-  - csharp
-  - vb
-  name: Execute(Func<Task>)
-  nameWithType: DocumentArchiveFileImpersonationContext.Execute(Func<Task>)
-  fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func<System.Threading.Tasks.Task>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Security.Util
-  syntax:
-    content: public Task Execute(Func<Task> action)
-    parameters:
-    - id: action
-      type: System.Func{System.Threading.Tasks.Task}
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function Execute(action As Func(Of Task)) As Task
-  overload: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute*
-  nameWithType.vb: DocumentArchiveFileImpersonationContext.Execute(Func(Of Task))
-  fullName.vb: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Func(Of System.Threading.Tasks.Task))
-  name.vb: Execute(Func(Of Task))
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   commentId: M:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   id: Execute``1(System.Func{``0})
@@ -864,114 +837,6 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
-- uid: System.Func{System.Threading.Tasks.Task}
-  commentId: T:System.Func{System.Threading.Tasks.Task}
-  parent: System
-  definition: System.Func`1
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<Task>
-  nameWithType: Func<Task>
-  fullName: System.Func<System.Threading.Tasks.Task>
-  nameWithType.vb: Func(Of Task)
-  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
-  name.vb: Func(Of Task)
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - uid: System.Threading.Tasks.Task
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  - name: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Threading.Tasks.Task
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  - name: )
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Func`1
-  commentId: T:System.Func`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<TResult>
-  nameWithType: Func<TResult>
-  fullName: System.Func<TResult>
-  nameWithType.vb: Func(Of TResult)
-  fullName.vb: System.Func(Of TResult)
-  name.vb: Func(Of TResult)
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
-  - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: System.Func{{T}}
   commentId: T:System.Func{`0}
   parent: System
@@ -1007,6 +872,34 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
 - uid: T
   name: T
   nameWithType: T

@@ -1,0 +1,1022 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  commentId: T:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  id: PrincipalStatePostAuthenticationPlugin
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.#ctor(SuperOffice.Data.Cache.ICacheManager)
+  - SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  - SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  langs:
+  - csharp
+  - vb
+  name: PrincipalStatePostAuthenticationPlugin
+  nameWithType: PrincipalStatePostAuthenticationPlugin
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: >-
+      [PostAuthenticationPlugin("PrincipalStatePostAuthenticationPlugin")]
+
+      public class PrincipalStatePostAuthenticationPlugin : IPostAuthenticationPlugin
+    content.vb: >-
+      <PostAuthenticationPlugin("PrincipalStatePostAuthenticationPlugin")>
+
+      Public Class PrincipalStatePostAuthenticationPlugin Implements IPostAuthenticationPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
+    ctor: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PrincipalStatePostAuthenticationPlugin
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.#ctor(SuperOffice.Data.Cache.ICacheManager)
+  commentId: M:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.#ctor(SuperOffice.Data.Cache.ICacheManager)
+  id: '#ctor(SuperOffice.Data.Cache.ICacheManager)'
+  parent: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  langs:
+  - csharp
+  - vb
+  name: PrincipalStatePostAuthenticationPlugin(ICacheManager)
+  nameWithType: PrincipalStatePostAuthenticationPlugin.PrincipalStatePostAuthenticationPlugin(ICacheManager)
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PrincipalStatePostAuthenticationPlugin(SuperOffice.Data.Cache.ICacheManager)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public PrincipalStatePostAuthenticationPlugin(ICacheManager cacheManager)
+    parameters:
+    - id: cacheManager
+      type: SuperOffice.Data.Cache.ICacheManager
+    content.vb: Public Sub New(cacheManager As ICacheManager)
+  overload: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.#ctor*
+  nameWithType.vb: PrincipalStatePostAuthenticationPlugin.New(ICacheManager)
+  fullName.vb: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.New(SuperOffice.Data.Cache.ICacheManager)
+  name.vb: New(ICacheManager)
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  commentId: M:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  id: PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  parent: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  langs:
+  - csharp
+  - vb
+  name: PostAuthenticateFail(ClaimsPrincipal, IEnumerable<ClaimsIdentity>, Exception)
+  nameWithType: PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(ClaimsPrincipal, IEnumerable<ClaimsIdentity>, Exception)
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.Exception)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Principal
+  summary: Method called after authentication fails
+  example: []
+  syntax:
+    content: public bool PostAuthenticateFail(ClaimsPrincipal principal, IEnumerable<ClaimsIdentity> identites, Exception ex)
+    parameters:
+    - id: principal
+      type: System.Security.Claims.ClaimsPrincipal
+      description: Principal successfully authenticated
+    - id: identites
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    - id: ex
+      type: System.Exception
+      description: Exception thrown as part of the authentication process
+    return:
+      type: System.Boolean
+      description: Return true to continue passing the failed autjhentication back to the user or return false to re-authenticate.
+    content.vb: Public Function PostAuthenticateFail(principal As ClaimsPrincipal, identites As IEnumerable(Of ClaimsIdentity), ex As Exception) As Boolean
+  overload: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail*
+  implements:
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  nameWithType.vb: PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
+  fullName.vb: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.Exception)
+  name.vb: PostAuthenticateFail(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  id: PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  parent: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  langs:
+  - csharp
+  - vb
+  name: PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable<ClaimsIdentity>)
+  nameWithType: PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Principal
+  example: []
+  syntax:
+    content: public bool PostAuthenticateSuccess(ClaimsPrincipal principal, IEnumerable<ClaimsIdentity> identites)
+    parameters:
+    - id: principal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: identites
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    return:
+      type: System.Boolean
+    content.vb: Public Function PostAuthenticateSuccess(principal As ClaimsPrincipal, identites As IEnumerable(Of ClaimsIdentity)) As Boolean
+  overload: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess*
+  implements:
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  nameWithType.vb: PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity))
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  commentId: T:SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.IPostAuthenticationPlugin.html
+  name: IPostAuthenticationPlugin
+  nameWithType: IPostAuthenticationPlugin
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<PrincipalStatePostAuthenticationPlugin, To>(PrincipalStatePostAuthenticationPlugin)
+  nameWithType: EnumUtil.MapEnums<PrincipalStatePostAuthenticationPlugin, To>(PrincipalStatePostAuthenticationPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin, To>(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of PrincipalStatePostAuthenticationPlugin, To)(PrincipalStatePostAuthenticationPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin, To)(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+  name.vb: MapEnums(Of PrincipalStatePostAuthenticationPlugin, To)(PrincipalStatePostAuthenticationPlugin)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: )
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<PrincipalStatePostAuthenticationPlugin, To>(PrincipalStatePostAuthenticationPlugin)
+  nameWithType: Converters.MapEnums<PrincipalStatePostAuthenticationPlugin, To>(PrincipalStatePostAuthenticationPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin, To>(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+  nameWithType.vb: Converters.MapEnums(Of PrincipalStatePostAuthenticationPlugin, To)(PrincipalStatePostAuthenticationPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin, To)(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+  name.vb: MapEnums(Of PrincipalStatePostAuthenticationPlugin, To)(PrincipalStatePostAuthenticationPlugin)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
+    isExternal: true
+    href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.#ctor
+  isExternal: true
+  href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html#SuperOffice_Security_Principal_PrincipalStatePostAuthenticationPlugin__ctor_SuperOffice_Data_Cache_ICacheManager_
+  name: PrincipalStatePostAuthenticationPlugin
+  nameWithType: PrincipalStatePostAuthenticationPlugin.PrincipalStatePostAuthenticationPlugin
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PrincipalStatePostAuthenticationPlugin
+  nameWithType.vb: PrincipalStatePostAuthenticationPlugin.New
+  fullName.vb: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.New
+  name.vb: New
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail*
+  commentId: Overload:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail
+  isExternal: true
+  href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html#SuperOffice_Security_Principal_PrincipalStatePostAuthenticationPlugin_PostAuthenticateFail_System_Security_Claims_ClaimsPrincipal_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__System_Exception_
+  name: PostAuthenticateFail
+  nameWithType: PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateFail
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+  parent: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: PostAuthenticateFail(ClaimsPrincipal, IEnumerable<ClaimsIdentity>, Exception)
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateFail(ClaimsPrincipal, IEnumerable<ClaimsIdentity>, Exception)
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.Exception)
+  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateFail(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
+  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.Exception)
+  name.vb: PostAuthenticateFail(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity), Exception)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+    name: PostAuthenticateFail
+    isExternal: true
+  - name: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Exception)
+    name: PostAuthenticateFail
+    isExternal: true
+  - name: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: System.Security.Claims.ClaimsPrincipal
+  commentId: T:System.Security.Claims.ClaimsPrincipal
+  parent: System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: ClaimsPrincipal
+  nameWithType: ClaimsPrincipal
+  fullName: System.Security.Claims.ClaimsPrincipal
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ClaimsIdentity>
+  nameWithType: IEnumerable<ClaimsIdentity>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
+  nameWithType.vb: IEnumerable(Of ClaimsIdentity)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity)
+  name.vb: IEnumerable(Of ClaimsIdentity)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Security.Claims
+  commentId: N:System.Security.Claims
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Claims
+  nameWithType: System.Security.Claims
+  fullName: System.Security.Claims
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Claims
+    name: Claims
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess*
+  commentId: Overload:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess
+  isExternal: true
+  href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html#SuperOffice_Security_Principal_PrincipalStatePostAuthenticationPlugin_PostAuthenticateSuccess_System_Security_Claims_ClaimsPrincipal_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__
+  name: PostAuthenticateSuccess
+  nameWithType: PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.PostAuthenticateSuccess
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  parent: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  name: PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable<ClaimsIdentity>)
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: PostAuthenticateSuccess(ClaimsPrincipal, IEnumerable(Of ClaimsIdentity))
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+    name: PostAuthenticateSuccess
+    isExternal: true
+  - name: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(System.Security.Claims.ClaimsPrincipal,System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+    name: PostAuthenticateSuccess
+    isExternal: true
+  - name: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: )
+  - name: )

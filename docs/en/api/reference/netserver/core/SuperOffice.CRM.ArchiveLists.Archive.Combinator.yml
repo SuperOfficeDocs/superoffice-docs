@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator.RightEnum
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._leftProvider
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
@@ -124,6 +125,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _options As String
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
+  id: _cancellationToken
+  parent: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+  langs:
+  - csharp
+  - vb
+  name: _cancellationToken
+  nameWithType: Combinator._cancellationToken
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: <xref href="System.Threading.CancellationToken" data-throw-if-not-resolved="false"></xref> for the getRows function
+  example: []
+  syntax:
+    content: protected CancellationToken _cancellationToken
+    return:
+      type: System.Threading.CancellationToken
+    content.vb: Protected _cancellationToken As CancellationToken
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   id: _duplicateList
@@ -1112,6 +1134,41 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
 - uid: System.Collections.Generic.List{System.Int64}
   commentId: T:System.Collections.Generic.List{System.Int64}
   parent: System.Collections.Generic
@@ -1368,14 +1425,6 @@ references:
   name: GetRowsAsync
   nameWithType: Combinator.GetRowsAsync
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator.GetRowsAsync
-- uid: System.Threading.CancellationToken
-  commentId: T:System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
   commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.Collections.Generic.IAsyncEnumerable`1
@@ -1405,33 +1454,6 @@ references:
     name: ArchiveRow
     isExternal: true
   - name: )
-- uid: System.Threading
-  commentId: N:System.Threading
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading
-  nameWithType: System.Threading
-  fullName: System.Threading
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
 - uid: System.Collections.Generic.IAsyncEnumerable`1
   isExternal: true
   name: IAsyncEnumerable<>

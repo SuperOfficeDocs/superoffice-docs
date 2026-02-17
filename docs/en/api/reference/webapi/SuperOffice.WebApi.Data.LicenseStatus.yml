@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
+  - SuperOffice.WebApi.Data.LicenseStatus.NewLicenseActivated
   - SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
   - SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
   - SuperOffice.WebApi.Data.LicenseStatus.Ok
@@ -210,6 +211,37 @@ items:
       <EnumMember>
 
       UseCustomMessageAndUrl = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.LicenseStatus.NewLicenseActivated
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewLicenseActivated
+  id: NewLicenseActivated
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: NewLicenseActivated
+  nameWithType: LicenseStatus.NewLicenseActivated
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.NewLicenseActivated
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '6: New license activated.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      NewLicenseActivated = 6
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: >-
+      <EnumMember>
+
+      NewLicenseActivated = 6
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

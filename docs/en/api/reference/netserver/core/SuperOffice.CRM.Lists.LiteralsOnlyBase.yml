@@ -138,6 +138,7 @@ items:
   - SuperOffice.CRM.Lists.PreferenceLineItemProvider
   - SuperOffice.CRM.Lists.PreferenceSectionProvider
   - SuperOffice.CRM.Lists.ProjectFavouriteListProvider
+  - SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
   - SuperOffice.CRM.Lists.QuoteAlternativeProvider
   - SuperOffice.CRM.Lists.QuoteApprovers
   - SuperOffice.CRM.Lists.QuoteConnections

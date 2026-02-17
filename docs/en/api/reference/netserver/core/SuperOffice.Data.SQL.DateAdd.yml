@@ -5,9 +5,9 @@ items:
   id: DateAdd
   parent: SuperOffice.Data.SQL
   children:
-  - SuperOffice.Data.SQL.DateAdd.#ctor(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.DateAdd.#ctor(SuperOffice.Data.SQL.DateAdd.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.DateAdd.Clone
-  - SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DatePart)
+  - SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DateAdd.DatePart)
   - SuperOffice.Data.SQL.DateAdd.LeftArg
   - SuperOffice.Data.SQL.DateAdd.Part
   - SuperOffice.Data.SQL.DateAdd.RightArg
@@ -25,14 +25,15 @@ items:
   summary: Argument function to add a specified interval to a date
   example: []
   syntax:
-    content: 'public class DateAdd : NonCoercedArgumentFunction, ICloneable'
-    content.vb: Public Class DateAdd Inherits NonCoercedArgumentFunction Implements ICloneable
+    content: 'public class DateAdd : DateTimeArgumentFunction, ICloneable'
+    content.vb: Public Class DateAdd Inherits DateTimeArgumentFunction Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.QueryElement
   - SuperOffice.Data.SQL.Argument
   - SuperOffice.Data.SQL.ArgumentFunction
   - SuperOffice.Data.SQL.NonCoercedArgumentFunction
+  - SuperOffice.Data.SQL.DateTimeArgumentFunction
   implements:
   - System.ICloneable
   inheritedMembers:
@@ -74,33 +75,33 @@ items:
   extensionMethods:
   - SuperOffice.Data.SQL.DateAdd.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.DateAdd.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.Data.SQL.DateAdd.#ctor(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
-  commentId: M:SuperOffice.Data.SQL.DateAdd.#ctor(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
-  id: '#ctor(SuperOffice.Data.SQL.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)'
+- uid: SuperOffice.Data.SQL.DateAdd.#ctor(SuperOffice.Data.SQL.DateAdd.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.DateAdd.#ctor(SuperOffice.Data.SQL.DateAdd.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
+  id: '#ctor(SuperOffice.Data.SQL.DateAdd.DatePart,SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)'
   parent: SuperOffice.Data.SQL.DateAdd
   langs:
   - csharp
   - vb
   name: DateAdd(DatePart, Argument, Argument)
-  nameWithType: DateAdd.DateAdd(DatePart, Argument, Argument)
-  fullName: SuperOffice.Data.SQL.DateAdd.DateAdd(SuperOffice.Data.SQL.DatePart, SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  nameWithType: DateAdd.DateAdd(DateAdd.DatePart, Argument, Argument)
+  fullName: SuperOffice.Data.SQL.DateAdd.DateAdd(SuperOffice.Data.SQL.DateAdd.DatePart, SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: public DateAdd(DatePart part, Argument number, Argument datetime)
+    content: public DateAdd(DateAdd.DatePart part, Argument number, Argument datetime)
     parameters:
     - id: part
-      type: SuperOffice.Data.SQL.DatePart
+      type: SuperOffice.Data.SQL.DateAdd.DatePart
     - id: number
       type: SuperOffice.Data.SQL.Argument
     - id: datetime
       type: SuperOffice.Data.SQL.Argument
-    content.vb: Public Sub New(part As DatePart, number As Argument, datetime As Argument)
+    content.vb: Public Sub New(part As DateAdd.DatePart, number As Argument, datetime As Argument)
   overload: SuperOffice.Data.SQL.DateAdd.#ctor*
-  nameWithType.vb: DateAdd.New(DatePart, Argument, Argument)
-  fullName.vb: SuperOffice.Data.SQL.DateAdd.New(SuperOffice.Data.SQL.DatePart, SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
+  nameWithType.vb: DateAdd.New(DateAdd.DatePart, Argument, Argument)
+  fullName.vb: SuperOffice.Data.SQL.DateAdd.New(SuperOffice.Data.SQL.DateAdd.DatePart, SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
   name.vb: New(DatePart, Argument, Argument)
 - uid: SuperOffice.Data.SQL.DateAdd.Clone
   commentId: M:SuperOffice.Data.SQL.DateAdd.Clone
@@ -149,28 +150,28 @@ items:
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: SuperOffice.Data.SQL.DateAdd.ToString*
-- uid: SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DatePart)
-  commentId: M:SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DatePart)
-  id: DatePartToString(SuperOffice.Data.SQL.DatePart)
+- uid: SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DateAdd.DatePart)
+  commentId: M:SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DateAdd.DatePart)
+  id: DatePartToString(SuperOffice.Data.SQL.DateAdd.DatePart)
   parent: SuperOffice.Data.SQL.DateAdd
   langs:
   - csharp
   - vb
   name: DatePartToString(DatePart)
-  nameWithType: DateAdd.DatePartToString(DatePart)
-  fullName: SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DatePart)
+  nameWithType: DateAdd.DatePartToString(DateAdd.DatePart)
+  fullName: SuperOffice.Data.SQL.DateAdd.DatePartToString(SuperOffice.Data.SQL.DateAdd.DatePart)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: public static string DatePartToString(DatePart part)
+    content: public static string DatePartToString(DateAdd.DatePart part)
     parameters:
     - id: part
-      type: SuperOffice.Data.SQL.DatePart
+      type: SuperOffice.Data.SQL.DateAdd.DatePart
     return:
       type: System.String
-    content.vb: Public Shared Function DatePartToString(part As DatePart) As String
+    content.vb: Public Shared Function DatePartToString(part As DateAdd.DatePart) As String
   overload: SuperOffice.Data.SQL.DateAdd.DatePartToString*
 - uid: SuperOffice.Data.SQL.DateAdd.Part
   commentId: P:SuperOffice.Data.SQL.DateAdd.Part
@@ -187,11 +188,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: public DatePart Part { get; }
+    content: public DateAdd.DatePart Part { get; }
     parameters: []
     return:
-      type: SuperOffice.Data.SQL.DatePart
-    content.vb: Public ReadOnly Property Part As DatePart
+      type: SuperOffice.Data.SQL.DateAdd.DatePart
+    content.vb: Public ReadOnly Property Part As DateAdd.DatePart
   overload: SuperOffice.Data.SQL.DateAdd.Part*
 - uid: SuperOffice.Data.SQL.DateAdd.LeftArg
   commentId: P:SuperOffice.Data.SQL.DateAdd.LeftArg
@@ -316,6 +317,14 @@ references:
   name: NonCoercedArgumentFunction
   nameWithType: NonCoercedArgumentFunction
   fullName: SuperOffice.Data.SQL.NonCoercedArgumentFunction
+- uid: SuperOffice.Data.SQL.DateTimeArgumentFunction
+  commentId: T:SuperOffice.Data.SQL.DateTimeArgumentFunction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeArgumentFunction.html
+  name: DateTimeArgumentFunction
+  nameWithType: DateTimeArgumentFunction
+  fullName: SuperOffice.Data.SQL.DateTimeArgumentFunction
 - uid: System.ICloneable
   commentId: T:System.ICloneable
   parent: System
@@ -1728,21 +1737,41 @@ references:
 - uid: SuperOffice.Data.SQL.DateAdd.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.DateAdd.#ctor
   isExternal: true
-  href: SuperOffice.Data.SQL.DateAdd.html#SuperOffice_Data_SQL_DateAdd__ctor_SuperOffice_Data_SQL_DatePart_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
+  href: SuperOffice.Data.SQL.DateAdd.html#SuperOffice_Data_SQL_DateAdd__ctor_SuperOffice_Data_SQL_DateAdd_DatePart_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   name: DateAdd
   nameWithType: DateAdd.DateAdd
   fullName: SuperOffice.Data.SQL.DateAdd.DateAdd
   nameWithType.vb: DateAdd.New
   fullName.vb: SuperOffice.Data.SQL.DateAdd.New
   name.vb: New
-- uid: SuperOffice.Data.SQL.DatePart
-  commentId: T:SuperOffice.Data.SQL.DatePart
+- uid: SuperOffice.Data.SQL.DateAdd.DatePart
+  commentId: T:SuperOffice.Data.SQL.DateAdd.DatePart
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DatePart.html
-  name: DatePart
-  nameWithType: DatePart
-  fullName: SuperOffice.Data.SQL.DatePart
+  href: SuperOffice.Data.SQL.DateAdd.html
+  name: DateAdd.DatePart
+  nameWithType: DateAdd.DatePart
+  fullName: SuperOffice.Data.SQL.DateAdd.DatePart
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.html
+  - name: .
+  - uid: SuperOffice.Data.SQL.DateAdd.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.DatePart.html
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.html
+  - name: .
+  - uid: SuperOffice.Data.SQL.DateAdd.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.DatePart.html
 - uid: SuperOffice.Data.SQL.QueryElement.Clone
   commentId: M:SuperOffice.Data.SQL.QueryElement.Clone
   parent: SuperOffice.Data.SQL.QueryElement
@@ -1817,7 +1846,7 @@ references:
 - uid: SuperOffice.Data.SQL.DateAdd.DatePartToString*
   commentId: Overload:SuperOffice.Data.SQL.DateAdd.DatePartToString
   isExternal: true
-  href: SuperOffice.Data.SQL.DateAdd.html#SuperOffice_Data_SQL_DateAdd_DatePartToString_SuperOffice_Data_SQL_DatePart_
+  href: SuperOffice.Data.SQL.DateAdd.html#SuperOffice_Data_SQL_DateAdd_DatePartToString_SuperOffice_Data_SQL_DateAdd_DatePart_
   name: DatePartToString
   nameWithType: DateAdd.DatePartToString
   fullName: SuperOffice.Data.SQL.DateAdd.DatePartToString

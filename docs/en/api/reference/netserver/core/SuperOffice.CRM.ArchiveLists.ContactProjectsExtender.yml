@@ -59,6 +59,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEndDate
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colImage
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colActiveErpLinks
+  - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+  - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.ProcessOrderBy
@@ -640,6 +642,22 @@ references:
   name: _colActiveErpLinks
   nameWithType: ProjectExtenderBase._colActiveErpLinks
   fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colActiveErpLinks
+- uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+  parent: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.html#SuperOffice_CRM_ArchiveLists_ProjectExtenderBase__colEventId
+  name: _colEventId
+  nameWithType: ProjectExtenderBase._colEventId
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+- uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
+  parent: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.html#SuperOffice_CRM_ArchiveLists_ProjectExtenderBase__colStartDate
+  name: _colStartDate
+  nameWithType: ProjectExtenderBase._colStartDate
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
 - uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase

@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ProjectFields.AssociateId
   - SuperOffice.CRM.Data.DBC.ProjectFields.Done
   - SuperOffice.CRM.Data.DBC.ProjectFields.EndDate
+  - SuperOffice.CRM.Data.DBC.ProjectFields.EventId
   - SuperOffice.CRM.Data.DBC.ProjectFields.GroupId
   - SuperOffice.CRM.Data.DBC.ProjectFields.Name
   - SuperOffice.CRM.Data.DBC.ProjectFields.NextMilestoneDate
@@ -21,6 +22,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ProjectFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.ProjectFields.SoundEx
   - SuperOffice.CRM.Data.DBC.ProjectFields.Source
+  - SuperOffice.CRM.Data.DBC.ProjectFields.StartDate
   - SuperOffice.CRM.Data.DBC.ProjectFields.StatusIdx
   - SuperOffice.CRM.Data.DBC.ProjectFields.TextId
   - SuperOffice.CRM.Data.DBC.ProjectFields.TypeIdx
@@ -580,6 +582,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const ActiveErpLinks As String = "activeErpLinks"
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.EventId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: DBC.ProjectFields.EventId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.EventId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Project.EventId: Reserved field for Lyyti event when project is linked to an event.'
+  example: []
+  syntax:
+    content: public const string EventId = "event_id"
+    return:
+      type: System.String
+    content.vb: Public Const EventId As String = "event_id"
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.StartDate
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: DBC.ProjectFields.StartDate
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.StartDate
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Project.StartDate: Reserved field for Lyyti event when project is linked to an event, is the event start date.'
+  example: []
+  syntax:
+    content: public const string StartDate = "startDate"
+    return:
+      type: System.String
+    content.vb: Public Const StartDate As String = "startDate"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

@@ -5,7 +5,7 @@ items:
   id: CalendarUtility
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.CalendarUtility.#ctor
+  - SuperOffice.Util.CalendarUtility.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility})
   - SuperOffice.Util.CalendarUtility.ConvertToCalDateTimeUTC(System.DateTime,System.Nullable{System.DateTime})
   - SuperOffice.Util.CalendarUtility.ConvertToUTC(System.DateTime)
   - SuperOffice.Util.CalendarUtility.CreateAttendeeFromAppointmentRowAsync(SuperOffice.CRM.Rows.AppointmentRow,System.String,System.String,System.Threading.CancellationToken)
@@ -59,8 +59,30 @@ items:
   extensionMethods:
   - SuperOffice.Util.CalendarUtility.EnumUtil.MapEnums``2
   - SuperOffice.Util.CalendarUtility.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Util.CalendarUtility.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.CalendarUtility)
-  - SuperOffice.Util.CalendarUtility.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Util.CalendarUtility.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility})
+  commentId: M:SuperOffice.Util.CalendarUtility.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility})'
+  parent: SuperOffice.Util.CalendarUtility
+  langs:
+  - csharp
+  - vb
+  name: CalendarUtility(ILogger<CalendarUtility>)
+  nameWithType: CalendarUtility.CalendarUtility(ILogger<CalendarUtility>)
+  fullName: SuperOffice.Util.CalendarUtility.CalendarUtility(Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.CalendarUtility>)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public CalendarUtility(ILogger<CalendarUtility> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility}
+    content.vb: Public Sub New(logger As ILogger(Of CalendarUtility))
+  overload: SuperOffice.Util.CalendarUtility.#ctor*
+  nameWithType.vb: CalendarUtility.New(ILogger(Of CalendarUtility))
+  fullName.vb: SuperOffice.Util.CalendarUtility.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.CalendarUtility))
+  name.vb: New(ILogger(Of CalendarUtility))
 - uid: SuperOffice.Util.CalendarUtility.CreateIcalFromAppointmentUpdateAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.CalendarUtility.CreateIcalFromAppointmentUpdateAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   id: CreateIcalFromAppointmentUpdateAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
@@ -882,27 +904,6 @@ items:
   nameWithType.vb: CalendarUtility.GetWeekdays(List(Of WeekDay))
   fullName.vb: SuperOffice.Util.CalendarUtility.GetWeekdays(System.Collections.Generic.List(Of Ical.Net.DataTypes.WeekDay))
   name.vb: GetWeekdays(List(Of WeekDay))
-- uid: SuperOffice.Util.CalendarUtility.#ctor
-  commentId: M:SuperOffice.Util.CalendarUtility.#ctor
-  id: '#ctor'
-  parent: SuperOffice.Util.CalendarUtility
-  langs:
-  - csharp
-  - vb
-  name: CalendarUtility()
-  nameWithType: CalendarUtility.CalendarUtility()
-  fullName: SuperOffice.Util.CalendarUtility.CalendarUtility()
-  type: Constructor
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  syntax:
-    content: public CalendarUtility()
-    content.vb: Public Sub New()
-  overload: SuperOffice.Util.CalendarUtility.#ctor*
-  nameWithType.vb: CalendarUtility.New()
-  fullName.vb: SuperOffice.Util.CalendarUtility.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -1275,112 +1276,6 @@ references:
     isExternal: true
     href: SuperOffice.Util.CalendarUtility.html
   - name: )
-- uid: SuperOffice.Util.CalendarUtility.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.CalendarUtility)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<CalendarUtility>(CalendarUtility, CalendarUtility)
-  nameWithType: ObjectExtensions.AssignByReflection<CalendarUtility>(CalendarUtility, CalendarUtility)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.CalendarUtility>(SuperOffice.Util.CalendarUtility, SuperOffice.Util.CalendarUtility)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CalendarUtility)(CalendarUtility, CalendarUtility)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.CalendarUtility)(SuperOffice.Util.CalendarUtility, SuperOffice.Util.CalendarUtility)
-  name.vb: AssignByReflection(Of CalendarUtility)(CalendarUtility, CalendarUtility)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.CalendarUtility,SuperOffice.Util.CalendarUtility)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.CalendarUtility,SuperOffice.Util.CalendarUtility)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: )
-- uid: SuperOffice.Util.CalendarUtility.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<CalendarUtility>(CalendarUtility)
-  nameWithType: ObjectExtensions.GraphCopy<CalendarUtility>(CalendarUtility)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.CalendarUtility>(SuperOffice.Util.CalendarUtility)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CalendarUtility)(CalendarUtility)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.CalendarUtility)(SuperOffice.Util.CalendarUtility)
-  name.vb: GraphCopy(Of CalendarUtility)(CalendarUtility)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.CalendarUtility)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.CalendarUtility)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.CalendarUtility
-    name: CalendarUtility
-    isExternal: true
-    href: SuperOffice.Util.CalendarUtility.html
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1483,88 +1378,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1602,6 +1415,116 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.CalendarUtility.#ctor*
+  commentId: Overload:SuperOffice.Util.CalendarUtility.#ctor
+  isExternal: true
+  href: SuperOffice.Util.CalendarUtility.html#SuperOffice_Util_CalendarUtility__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_CalendarUtility__
+  name: CalendarUtility
+  nameWithType: CalendarUtility.CalendarUtility
+  fullName: SuperOffice.Util.CalendarUtility.CalendarUtility
+  nameWithType.vb: CalendarUtility.New
+  fullName.vb: SuperOffice.Util.CalendarUtility.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.CalendarUtility}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<CalendarUtility>
+  nameWithType: ILogger<CalendarUtility>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.CalendarUtility>
+  nameWithType.vb: ILogger(Of CalendarUtility)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.CalendarUtility)
+  name.vb: ILogger(Of CalendarUtility)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Util.CalendarUtility
+    name: CalendarUtility
+    isExternal: true
+    href: SuperOffice.Util.CalendarUtility.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.CalendarUtility
+    name: CalendarUtility
+    isExternal: true
+    href: SuperOffice.Util.CalendarUtility.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.Util.CalendarUtility.CreateIcalFromAppointmentUpdateAsync*
   commentId: Overload:SuperOffice.Util.CalendarUtility.CreateIcalFromAppointmentUpdateAsync
   isExternal: true
@@ -4312,13 +4235,3 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.Util.CalendarUtility.#ctor*
-  commentId: Overload:SuperOffice.Util.CalendarUtility.#ctor
-  isExternal: true
-  href: SuperOffice.Util.CalendarUtility.html#SuperOffice_Util_CalendarUtility__ctor
-  name: CalendarUtility
-  nameWithType: CalendarUtility.CalendarUtility
-  fullName: SuperOffice.Util.CalendarUtility.CalendarUtility
-  nameWithType.vb: CalendarUtility.New
-  fullName.vb: SuperOffice.Util.CalendarUtility.New
-  name.vb: New

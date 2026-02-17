@@ -128,6 +128,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Max)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Min)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateDiff)
   - SuperOffice.Data.Dialect.Dialect.ConvertToDbParameterType(System.Object,SuperOffice.Data.FieldDataType)
   - SuperOffice.Data.Dialect.Dialect.ConvertToDbType(System.Object,SuperOffice.Data.FieldDataType)
   - SuperOffice.Data.Dialect.Dialect.ConvertFromDbType(System.Object,SuperOffice.Data.FieldDataType)
@@ -2937,6 +2938,31 @@ references:
   - name: (
   - uid: SuperOffice.Data.SQL.DateAdd
     name: DateAdd
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateDiff)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateDiff)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ToSql(DateDiff)
+  nameWithType: Dialect.ToSql(DateDiff)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateDiff)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateDiff)
+    name: ToSql
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateDiff)
+    name: ToSql
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
     isExternal: true
   - name: )
 - uid: SuperOffice.Data.Dialect.Dialect.ConvertToDbParameterType(System.Object,SuperOffice.Data.FieldDataType)

@@ -31,14 +31,28 @@ items:
     Carrier object for TicketRelationEntity.
 
     Services for the TicketRelationEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.ITicketAgent?text=Ticket+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  example:
+  - >-
+    Get TicketRelationEntity 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new TicketAgent();
+       var ticketRelationEntity = agent.GetTicketRelationEntity( 123 );
+    }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public class TicketRelationEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Class TicketRelationEntity Inherits Carrier
   seealso:
@@ -53,7 +67,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.TicketRelationEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketRelationEntity.#ctor
   id: '#ctor'

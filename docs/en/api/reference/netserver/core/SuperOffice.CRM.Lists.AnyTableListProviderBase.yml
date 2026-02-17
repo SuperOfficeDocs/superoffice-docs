@@ -59,6 +59,7 @@ items:
   - SuperOffice.CRM.Lists.AttachmentListProvider
   - SuperOffice.CRM.Lists.ConsentPurposeProvider
   - SuperOffice.CRM.Lists.ConsentSourceListProvider
+  - SuperOffice.CRM.Lists.ContIntProvider
   - SuperOffice.CRM.Lists.CustLangListProvider
   - SuperOffice.CRM.Lists.DashboardProvider
   - SuperOffice.CRM.Lists.DocumentListProvider
@@ -75,6 +76,7 @@ items:
   - SuperOffice.CRM.Lists.MailingDomainsProvider
   - SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider
   - SuperOffice.CRM.Lists.OwnerContactProvider
+  - SuperOffice.CRM.Lists.PersIntProvider
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider
   - SuperOffice.CRM.Lists.PersonPhoneProvider
   - SuperOffice.CRM.Lists.PersonUrlProvider

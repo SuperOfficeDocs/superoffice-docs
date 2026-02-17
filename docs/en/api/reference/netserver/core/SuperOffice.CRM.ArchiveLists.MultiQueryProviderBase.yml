@@ -72,7 +72,6 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase
-  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentProvider
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2

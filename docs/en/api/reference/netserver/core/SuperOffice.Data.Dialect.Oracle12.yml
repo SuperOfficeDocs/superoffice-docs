@@ -48,6 +48,7 @@ items:
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.UnEqual)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.OrderBy)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateAdd)
+  - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateDiff)
   - SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.Sql.WaitFor)
   - SuperOffice.Data.Dialect.OracleCommon.DateToVarchar(System.String)
   - SuperOffice.Data.Dialect.OracleCommon.TimeToVarchar(System.String)
@@ -867,6 +868,34 @@ references:
   - name: (
   - uid: SuperOffice.Data.SQL.DateAdd
     name: DateAdd
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateDiff)
+  commentId: M:SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateDiff)
+  parent: SuperOffice.Data.Dialect.OracleCommon
+  isExternal: true
+  href: SuperOffice.Data.Dialect.OracleCommon.html#SuperOffice_Data_Dialect_OracleCommon_ToSql_SuperOffice_Data_SQL_DateDiff_
+  name: ToSql(DateDiff)
+  nameWithType: OracleCommon.ToSql(DateDiff)
+  fullName: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateDiff)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateDiff)
+    name: ToSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.OracleCommon.html#SuperOffice_Data_Dialect_OracleCommon_ToSql_SuperOffice_Data_SQL_DateDiff_
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.SQL.DateDiff)
+    name: ToSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.OracleCommon.html#SuperOffice_Data_Dialect_OracleCommon_ToSql_SuperOffice_Data_SQL_DateDiff_
+  - name: (
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
     isExternal: true
   - name: )
 - uid: SuperOffice.Data.Dialect.OracleCommon.ToSql(SuperOffice.Data.Sql.WaitFor)

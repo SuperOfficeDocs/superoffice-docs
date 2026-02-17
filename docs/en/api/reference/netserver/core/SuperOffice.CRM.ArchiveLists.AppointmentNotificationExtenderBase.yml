@@ -49,7 +49,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender{SuperOffice.CRM.Data.AppointmentTableInfo}
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
   - SuperOffice.CRM.ArchiveLists.IArchiveExtender

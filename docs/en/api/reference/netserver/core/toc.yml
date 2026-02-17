@@ -556,18 +556,10 @@ items:
     name: AllUsersProvider
   - uid: SuperOffice.CRM.ArchiveLists.ApSmAppointmentExtender
     name: ApSmAppointmentExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
-    name: AppointmentAcceptedNotificationExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
-    name: AppointmentAcceptedNotificationSubProvider
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentAppointmentExtender
     name: AppointmentAppointmentExtender
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender
     name: AppointmentAssociateExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
-    name: AppointmentCancelledNotificationExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
-    name: AppointmentCancelledNotificationSubProvider
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentContactExtender
     name: AppointmentContactExtender
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentDocumentExtender
@@ -578,10 +570,6 @@ items:
     name: AppointmentExtenderBase.Features
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentFavouritesProvider
     name: AppointmentFavouritesProvider
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
-    name: AppointmentNewNotificationExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
-    name: AppointmentNewNotificationSubProvider
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
     name: AppointmentNotificationAggregatorExtender
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
@@ -592,10 +580,6 @@ items:
     name: AppointmentNotificationProvider
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
     name: AppointmentNotificationProvider.RowHistory
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
-    name: AppointmentNotificationSubAggregatorProvider
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
-    name: AppointmentNotificationSubExtenderBase
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentPersonExtender
     name: AppointmentPersonExtender
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentProjectExtender
@@ -606,10 +590,6 @@ items:
     name: AppointmentProviderBase<RootExtender>
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentPublishExtender
     name: AppointmentPublishExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
-    name: AppointmentRejectedNotificationExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
-    name: AppointmentRejectedNotificationSubProvider
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentSaleExtender
     name: AppointmentSaleExtender
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentTextExtender
@@ -618,10 +598,6 @@ items:
     name: AppointmentTooltipPluginConstants
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentUdefExtender
     name: AppointmentUdefExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
-    name: AppointmentUpdatedNotificationExtender
-  - uid: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
-    name: AppointmentUpdatedNotificationSubProvider
   - uid: SuperOffice.CRM.ArchiveLists.AppointmentVisibleForExtender
     name: AppointmentVisibleForExtender
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow
@@ -634,6 +610,8 @@ items:
     name: ArchiveColumnData
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+    name: ArchiveColumnInfoExtensions
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
     name: ArchiveConfigurationHelper
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveConfigurationProviderBase
@@ -4039,26 +4017,6 @@ items:
     name: DBC.NoticeFrameFields
   - uid: SuperOffice.CRM.Data.DBC.NotifyFields
     name: DBC.NotifyFields
-  - uid: SuperOffice.CRM.Data.DBC.OLEFieldFields
-    name: DBC.OLEFieldFields
-  - uid: SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-    name: DBC.OLEFieldTextFields
-  - uid: SuperOffice.CRM.Data.DBC.OLESubjectFields
-    name: DBC.OLESubjectFields
-  - uid: SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-    name: DBC.OLESubjectTextFields
-  - uid: SuperOffice.CRM.Data.DBC.OLEViewFields
-    name: DBC.OLEViewFields
-  - uid: SuperOffice.CRM.Data.DBC.OLEViewTextFields
-    name: DBC.OLEViewTextFields
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields
-    name: DBC.Obsolete1Fields
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete2Fields
-    name: DBC.Obsolete2Fields
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete3Fields
-    name: DBC.Obsolete3Fields
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete4Fields
-    name: DBC.Obsolete4Fields
   - uid: SuperOffice.CRM.Data.DBC.OnlineAppFields
     name: DBC.OnlineAppFields
   - uid: SuperOffice.CRM.Data.DBC.OutboxFields
@@ -4263,8 +4221,6 @@ items:
     name: DBC.ReplyTemplateFields
   - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateFolderFields
     name: DBC.ReplyTemplateFolderFields
-  - uid: SuperOffice.CRM.Data.DBC.ReporterListDefFields
-    name: DBC.ReporterListDefFields
   - uid: SuperOffice.CRM.Data.DBC.ResourceOverrideFields
     name: DBC.ResourceOverrideFields
   - uid: SuperOffice.CRM.Data.DBC.RoleCategoryFields
@@ -4301,24 +4257,8 @@ items:
     name: DBC.SMessageFields
   - uid: SuperOffice.CRM.Data.DBC.SMessageblockFields
     name: DBC.SMessageblockFields
-  - uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields
-    name: DBC.SORCriteriaFields
-  - uid: SuperOffice.CRM.Data.DBC.SORFCTFields
-    name: DBC.SORFCTFields
-  - uid: SuperOffice.CRM.Data.DBC.SORFieldFields
-    name: DBC.SORFieldFields
   - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields
     name: DBC.SORLabelLayoutFields
-  - uid: SuperOffice.CRM.Data.DBC.SOROperatorsFields
-    name: DBC.SOROperatorsFields
-  - uid: SuperOffice.CRM.Data.DBC.SORPublishFields
-    name: DBC.SORPublishFields
-  - uid: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-    name: DBC.SORPublishGroupLinkFields
-  - uid: SuperOffice.CRM.Data.DBC.SORSectionFields
-    name: DBC.SORSectionFields
-  - uid: SuperOffice.CRM.Data.DBC.SORTemplateFields
-    name: DBC.SORTemplateFields
   - uid: SuperOffice.CRM.Data.DBC.SPictureEntryFields
     name: DBC.SPictureEntryFields
   - uid: SuperOffice.CRM.Data.DBC.SPictureFolderFields
@@ -4977,26 +4917,6 @@ items:
     name: NoticeFrameTableInfo
   - uid: SuperOffice.CRM.Data.NotifyTableInfo
     name: NotifyTableInfo
-  - uid: SuperOffice.CRM.Data.OLEFieldTableInfo
-    name: OLEFieldTableInfo
-  - uid: SuperOffice.CRM.Data.OLEFieldTextTableInfo
-    name: OLEFieldTextTableInfo
-  - uid: SuperOffice.CRM.Data.OLESubjectTableInfo
-    name: OLESubjectTableInfo
-  - uid: SuperOffice.CRM.Data.OLESubjectTextTableInfo
-    name: OLESubjectTextTableInfo
-  - uid: SuperOffice.CRM.Data.OLEViewTableInfo
-    name: OLEViewTableInfo
-  - uid: SuperOffice.CRM.Data.OLEViewTextTableInfo
-    name: OLEViewTextTableInfo
-  - uid: SuperOffice.CRM.Data.Obsolete1TableInfo
-    name: Obsolete1TableInfo
-  - uid: SuperOffice.CRM.Data.Obsolete2TableInfo
-    name: Obsolete2TableInfo
-  - uid: SuperOffice.CRM.Data.Obsolete3TableInfo
-    name: Obsolete3TableInfo
-  - uid: SuperOffice.CRM.Data.Obsolete4TableInfo
-    name: Obsolete4TableInfo
   - uid: SuperOffice.CRM.Data.OnlineAppTableInfo
     name: OnlineAppTableInfo
   - uid: SuperOffice.CRM.Data.OutboxTableInfo
@@ -5201,8 +5121,6 @@ items:
     name: ReplyTemplateFolderTableInfo
   - uid: SuperOffice.CRM.Data.ReplyTemplateTableInfo
     name: ReplyTemplateTableInfo
-  - uid: SuperOffice.CRM.Data.ReporterListDefTableInfo
-    name: ReporterListDefTableInfo
   - uid: SuperOffice.CRM.Data.ResourceOverrideTableInfo
     name: ResourceOverrideTableInfo
   - uid: SuperOffice.CRM.Data.RoleCategoryTableInfo
@@ -5239,24 +5157,8 @@ items:
     name: SMessageTableInfo
   - uid: SuperOffice.CRM.Data.SMessageblockTableInfo
     name: SMessageblockTableInfo
-  - uid: SuperOffice.CRM.Data.SORCriteriaTableInfo
-    name: SORCriteriaTableInfo
-  - uid: SuperOffice.CRM.Data.SORFCTTableInfo
-    name: SORFCTTableInfo
-  - uid: SuperOffice.CRM.Data.SORFieldTableInfo
-    name: SORFieldTableInfo
   - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
     name: SORLabelLayoutTableInfo
-  - uid: SuperOffice.CRM.Data.SOROperatorsTableInfo
-    name: SOROperatorsTableInfo
-  - uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-    name: SORPublishGroupLinkTableInfo
-  - uid: SuperOffice.CRM.Data.SORPublishTableInfo
-    name: SORPublishTableInfo
-  - uid: SuperOffice.CRM.Data.SORSectionTableInfo
-    name: SORSectionTableInfo
-  - uid: SuperOffice.CRM.Data.SORTemplateTableInfo
-    name: SORTemplateTableInfo
   - uid: SuperOffice.CRM.Data.SPictureEntryTableInfo
     name: SPictureEntryTableInfo
   - uid: SuperOffice.CRM.Data.SPictureFolderTableInfo
@@ -6301,6 +6203,8 @@ items:
     name: ConsentPurposeProvider
   - uid: SuperOffice.CRM.Lists.ConsentSourceListProvider
     name: ConsentSourceListProvider
+  - uid: SuperOffice.CRM.Lists.ContIntProvider
+    name: ContIntProvider
   - uid: SuperOffice.CRM.Lists.ContactFavouriteListProvider
     name: ContactFavouriteListProvider
   - uid: SuperOffice.CRM.Lists.ContactPhoneProvider
@@ -6577,6 +6481,8 @@ items:
     name: PeriodProvider
   - uid: SuperOffice.CRM.Lists.PeriodsProvider
     name: PeriodsProvider
+  - uid: SuperOffice.CRM.Lists.PersIntProvider
+    name: PersIntProvider
   - uid: SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
     name: PersonContactFavouriteListProvider
   - uid: SuperOffice.CRM.Lists.PersonEmailAddressProvider
@@ -6611,6 +6517,8 @@ items:
     name: ProjectFavouriteListProvider
   - uid: SuperOffice.CRM.Lists.ProjectImageProvider
     name: ProjectImageProvider
+  - uid: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
+    name: ProjectMemberEventParticipantStatusProvider
   - uid: SuperOffice.CRM.Lists.ProjectStatusProvider
     name: ProjectStatusProvider
   - uid: SuperOffice.CRM.Lists.ProjectTypeFlatListProvider
@@ -11584,178 +11492,6 @@ items:
     name: NotifyRows.IdxUser2Id
   - uid: SuperOffice.CRM.Rows.NotifyRows.IdxUserId
     name: NotifyRows.IdxUserId
-  - uid: SuperOffice.CRM.Rows.OLEFieldRecordData
-    name: OLEFieldRecordData
-  - uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions
-    name: OLEFieldRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.OLEFieldRow
-    name: OLEFieldRow
-  - uid: SuperOffice.CRM.Rows.OLEFieldRow.CustomSearch
-    name: OLEFieldRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEFieldRow.IdxOLEFieldId
-    name: OLEFieldRow.IdxOLEFieldId
-  - uid: SuperOffice.CRM.Rows.OLEFieldRows
-    name: OLEFieldRows
-  - uid: SuperOffice.CRM.Rows.OLEFieldRows.CustomSearch
-    name: OLEFieldRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEFieldRows.IdxFieldId
-    name: OLEFieldRows.IdxFieldId
-  - uid: SuperOffice.CRM.Rows.OLEFieldRows.IdxOLEViewId
-    name: OLEFieldRows.IdxOLEViewId
-  - uid: SuperOffice.CRM.Rows.OLEFieldRows.IdxOLEViewIdFieldId
-    name: OLEFieldRows.IdxOLEViewIdFieldId
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRecordData
-    name: OLEFieldTextRecordData
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRecordDataExtensions
-    name: OLEFieldTextRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRow
-    name: OLEFieldTextRow
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRow.CustomSearch
-    name: OLEFieldTextRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRow.IdxOLEFieldTextId
-    name: OLEFieldTextRow.IdxOLEFieldTextId
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRows
-    name: OLEFieldTextRows
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRows.CustomSearch
-    name: OLEFieldTextRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRows.IdxLanguageId
-    name: OLEFieldTextRows.IdxLanguageId
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRows.IdxName
-    name: OLEFieldTextRows.IdxName
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRows.IdxOLEFieldId
-    name: OLEFieldTextRows.IdxOLEFieldId
-  - uid: SuperOffice.CRM.Rows.OLEFieldTextRows.IdxOLEFieldIdLanguageId
-    name: OLEFieldTextRows.IdxOLEFieldIdLanguageId
-  - uid: SuperOffice.CRM.Rows.OLESubjectRecordData
-    name: OLESubjectRecordData
-  - uid: SuperOffice.CRM.Rows.OLESubjectRecordDataExtensions
-    name: OLESubjectRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.OLESubjectRow
-    name: OLESubjectRow
-  - uid: SuperOffice.CRM.Rows.OLESubjectRow.CustomSearch
-    name: OLESubjectRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLESubjectRow.IdxOLESubjectId
-    name: OLESubjectRow.IdxOLESubjectId
-  - uid: SuperOffice.CRM.Rows.OLESubjectRows
-    name: OLESubjectRows
-  - uid: SuperOffice.CRM.Rows.OLESubjectRows.CustomSearch
-    name: OLESubjectRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRecordData
-    name: OLESubjectTextRecordData
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRecordDataExtensions
-    name: OLESubjectTextRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRow
-    name: OLESubjectTextRow
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRow.CustomSearch
-    name: OLESubjectTextRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRow.IdxOLESubjectTextId
-    name: OLESubjectTextRow.IdxOLESubjectTextId
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRows
-    name: OLESubjectTextRows
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRows.CustomSearch
-    name: OLESubjectTextRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRows.IdxLanguageId
-    name: OLESubjectTextRows.IdxLanguageId
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRows.IdxName
-    name: OLESubjectTextRows.IdxName
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRows.IdxOLESubjectId
-    name: OLESubjectTextRows.IdxOLESubjectId
-  - uid: SuperOffice.CRM.Rows.OLESubjectTextRows.IdxOLESubjectIdLanguageId
-    name: OLESubjectTextRows.IdxOLESubjectIdLanguageId
-  - uid: SuperOffice.CRM.Rows.OLEViewRecordData
-    name: OLEViewRecordData
-  - uid: SuperOffice.CRM.Rows.OLEViewRecordDataExtensions
-    name: OLEViewRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.OLEViewRow
-    name: OLEViewRow
-  - uid: SuperOffice.CRM.Rows.OLEViewRow.CustomSearch
-    name: OLEViewRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEViewRow.IdxOLEViewId
-    name: OLEViewRow.IdxOLEViewId
-  - uid: SuperOffice.CRM.Rows.OLEViewRows
-    name: OLEViewRows
-  - uid: SuperOffice.CRM.Rows.OLEViewRows.CustomSearch
-    name: OLEViewRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEViewRows.IdxOLESubjectId
-    name: OLEViewRows.IdxOLESubjectId
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRecordData
-    name: OLEViewTextRecordData
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRecordDataExtensions
-    name: OLEViewTextRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRow
-    name: OLEViewTextRow
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRow.CustomSearch
-    name: OLEViewTextRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRow.IdxOLEViewTextId
-    name: OLEViewTextRow.IdxOLEViewTextId
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRows
-    name: OLEViewTextRows
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRows.CustomSearch
-    name: OLEViewTextRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRows.IdxLanguageId
-    name: OLEViewTextRows.IdxLanguageId
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRows.IdxName
-    name: OLEViewTextRows.IdxName
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRows.IdxOLEViewId
-    name: OLEViewTextRows.IdxOLEViewId
-  - uid: SuperOffice.CRM.Rows.OLEViewTextRows.IdxOLEViewIdLanguageId
-    name: OLEViewTextRows.IdxOLEViewIdLanguageId
-  - uid: SuperOffice.CRM.Rows.Obsolete1RecordData
-    name: Obsolete1RecordData
-  - uid: SuperOffice.CRM.Rows.Obsolete1RecordDataExtensions
-    name: Obsolete1RecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.Obsolete1Row
-    name: Obsolete1Row
-  - uid: SuperOffice.CRM.Rows.Obsolete1Row.CustomSearch
-    name: Obsolete1Row.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete1Row.IdxTicketTypeId
-    name: Obsolete1Row.IdxTicketTypeId
-  - uid: SuperOffice.CRM.Rows.Obsolete1Rows
-    name: Obsolete1Rows
-  - uid: SuperOffice.CRM.Rows.Obsolete1Rows.CustomSearch
-    name: Obsolete1Rows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete2RecordData
-    name: Obsolete2RecordData
-  - uid: SuperOffice.CRM.Rows.Obsolete2RecordDataExtensions
-    name: Obsolete2RecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.Obsolete2Row
-    name: Obsolete2Row
-  - uid: SuperOffice.CRM.Rows.Obsolete2Row.CustomSearch
-    name: Obsolete2Row.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete2Row.IdxTicketRelationTypeId
-    name: Obsolete2Row.IdxTicketRelationTypeId
-  - uid: SuperOffice.CRM.Rows.Obsolete2Rows
-    name: Obsolete2Rows
-  - uid: SuperOffice.CRM.Rows.Obsolete2Rows.CustomSearch
-    name: Obsolete2Rows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete3RecordData
-    name: Obsolete3RecordData
-  - uid: SuperOffice.CRM.Rows.Obsolete3RecordDataExtensions
-    name: Obsolete3RecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.Obsolete3Row
-    name: Obsolete3Row
-  - uid: SuperOffice.CRM.Rows.Obsolete3Row.CustomSearch
-    name: Obsolete3Row.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete3Row.IdxTicketRelationActionId
-    name: Obsolete3Row.IdxTicketRelationActionId
-  - uid: SuperOffice.CRM.Rows.Obsolete3Rows
-    name: Obsolete3Rows
-  - uid: SuperOffice.CRM.Rows.Obsolete3Rows.CustomSearch
-    name: Obsolete3Rows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete4RecordData
-    name: Obsolete4RecordData
-  - uid: SuperOffice.CRM.Rows.Obsolete4RecordDataExtensions
-    name: Obsolete4RecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.Obsolete4Row
-    name: Obsolete4Row
-  - uid: SuperOffice.CRM.Rows.Obsolete4Row.CustomSearch
-    name: Obsolete4Row.CustomSearch
-  - uid: SuperOffice.CRM.Rows.Obsolete4Row.IdxTicketRelationId
-    name: Obsolete4Row.IdxTicketRelationId
-  - uid: SuperOffice.CRM.Rows.Obsolete4Rows
-    name: Obsolete4Rows
-  - uid: SuperOffice.CRM.Rows.Obsolete4Rows.CustomSearch
-    name: Obsolete4Rows.CustomSearch
   - uid: SuperOffice.CRM.Rows.OnFieldChange`1
     name: OnFieldChange<TValue>
   - uid: SuperOffice.CRM.Rows.OnRowLoad
@@ -12790,6 +12526,8 @@ items:
     name: ProjectMemberRows.IdxPersonId
   - uid: SuperOffice.CRM.Rows.ProjectMemberRows.IdxProjectId
     name: ProjectMemberRows.IdxProjectId
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRows.IdxProjectIdEventParticipantStatus
+    name: ProjectMemberRows.IdxProjectIdEventParticipantStatus
   - uid: SuperOffice.CRM.Rows.ProjectMemberRows.IdxProjectIdRank
     name: ProjectMemberRows.IdxProjectIdRank
   - uid: SuperOffice.CRM.Rows.ProjectRecordData
@@ -13606,26 +13344,6 @@ items:
     name: ReplyTemplateRows.IdxName
   - uid: SuperOffice.CRM.Rows.ReplyTemplateRows.IdxOwnedBy
     name: ReplyTemplateRows.IdxOwnedBy
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRecordData
-    name: ReporterListDefRecordData
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRecordDataExtensions
-    name: ReporterListDefRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRow
-    name: ReporterListDefRow
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRow.CustomSearch
-    name: ReporterListDefRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRow.IdxReporterListDefId
-    name: ReporterListDefRow.IdxReporterListDefId
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRows
-    name: ReporterListDefRows
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRows.CustomSearch
-    name: ReporterListDefRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRows.IdxOleFieldKey
-    name: ReporterListDefRows.IdxOleFieldKey
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRows.IdxOleFieldName
-    name: ReporterListDefRows.IdxOleFieldName
-  - uid: SuperOffice.CRM.Rows.ReporterListDefRows.IdxOleViewId
-    name: ReporterListDefRows.IdxOleViewId
   - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordData
     name: ResourceOverrideRecordData
   - uid: SuperOffice.CRM.Rows.ResourceOverrideRecordDataExtensions
@@ -14000,66 +13718,6 @@ items:
     name: SMessageblockRows
   - uid: SuperOffice.CRM.Rows.SMessageblockRows.CustomSearch
     name: SMessageblockRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
-    name: SORCriteriaRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRow
-    name: SORCriteriaRow
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRow.CustomSearch
-    name: SORCriteriaRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRow.IdxSORCriteriaId
-    name: SORCriteriaRow.IdxSORCriteriaId
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRows
-    name: SORCriteriaRows
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRows.CustomSearch
-    name: SORCriteriaRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRows.IdxSOROperatorsId
-    name: SORCriteriaRows.IdxSOROperatorsId
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRows.IdxSORPublishId
-    name: SORCriteriaRows.IdxSORPublishId
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRows.IdxUseIt
-    name: SORCriteriaRows.IdxUseIt
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRows.IdxWhereOrder
-    name: SORCriteriaRows.IdxWhereOrder
-  - uid: SuperOffice.CRM.Rows.SORFCTRecordData
-    name: SORFCTRecordData
-  - uid: SuperOffice.CRM.Rows.SORFCTRecordDataExtensions
-    name: SORFCTRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORFCTRow
-    name: SORFCTRow
-  - uid: SuperOffice.CRM.Rows.SORFCTRow.CustomSearch
-    name: SORFCTRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORFCTRow.IdxSORFCTId
-    name: SORFCTRow.IdxSORFCTId
-  - uid: SuperOffice.CRM.Rows.SORFCTRows
-    name: SORFCTRows
-  - uid: SuperOffice.CRM.Rows.SORFCTRows.CustomSearch
-    name: SORFCTRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORFCTRows.IdxFieldType
-    name: SORFCTRows.IdxFieldType
-  - uid: SuperOffice.CRM.Rows.SORFCTRows.IdxSORSectionId
-    name: SORFCTRows.IdxSORSectionId
-  - uid: SuperOffice.CRM.Rows.SORFieldRecordData
-    name: SORFieldRecordData
-  - uid: SuperOffice.CRM.Rows.SORFieldRecordDataExtensions
-    name: SORFieldRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORFieldRow
-    name: SORFieldRow
-  - uid: SuperOffice.CRM.Rows.SORFieldRow.CustomSearch
-    name: SORFieldRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORFieldRow.IdxSORFieldId
-    name: SORFieldRow.IdxSORFieldId
-  - uid: SuperOffice.CRM.Rows.SORFieldRows
-    name: SORFieldRows
-  - uid: SuperOffice.CRM.Rows.SORFieldRows.CustomSearch
-    name: SORFieldRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORFieldRows.IdxFieldType
-    name: SORFieldRows.IdxFieldType
-  - uid: SuperOffice.CRM.Rows.SORFieldRows.IdxSORSectionId
-    name: SORFieldRows.IdxSORSectionId
-  - uid: SuperOffice.CRM.Rows.SORFieldRows.IdxVisible
-    name: SORFieldRows.IdxVisible
   - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordData
     name: SORLabelLayoutRecordData
   - uid: SuperOffice.CRM.Rows.SORLabelLayoutRecordDataExtensions
@@ -14076,98 +13734,6 @@ items:
     name: SORLabelLayoutRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.SORLabelLayoutRows.IdxName
     name: SORLabelLayoutRows.IdxName
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRecordData
-    name: SOROperatorsRecordData
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRecordDataExtensions
-    name: SOROperatorsRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRow
-    name: SOROperatorsRow
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRow.CustomSearch
-    name: SOROperatorsRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRow.IdxSOROperatorsId
-    name: SOROperatorsRow.IdxSOROperatorsId
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRows
-    name: SOROperatorsRows
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRows.CustomSearch
-    name: SOROperatorsRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SOROperatorsRows.IdxOperatorType
-    name: SOROperatorsRows.IdxOperatorType
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordData
-    name: SORPublishGroupLinkRecordData
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRecordDataExtensions
-    name: SORPublishGroupLinkRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRow
-    name: SORPublishGroupLinkRow
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRow.CustomSearch
-    name: SORPublishGroupLinkRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRow.IdxSORPublishGoupLinkId
-    name: SORPublishGroupLinkRow.IdxSORPublishGoupLinkId
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRows
-    name: SORPublishGroupLinkRows
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRows.CustomSearch
-    name: SORPublishGroupLinkRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRows.IdxSORPublishId
-    name: SORPublishGroupLinkRows.IdxSORPublishId
-  - uid: SuperOffice.CRM.Rows.SORPublishGroupLinkRows.IdxUserGroupId
-    name: SORPublishGroupLinkRows.IdxUserGroupId
-  - uid: SuperOffice.CRM.Rows.SORPublishRecordData
-    name: SORPublishRecordData
-  - uid: SuperOffice.CRM.Rows.SORPublishRecordDataExtensions
-    name: SORPublishRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORPublishRow
-    name: SORPublishRow
-  - uid: SuperOffice.CRM.Rows.SORPublishRow.CustomSearch
-    name: SORPublishRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORPublishRow.IdxSORPublishId
-    name: SORPublishRow.IdxSORPublishId
-  - uid: SuperOffice.CRM.Rows.SORPublishRows
-    name: SORPublishRows
-  - uid: SuperOffice.CRM.Rows.SORPublishRows.CustomSearch
-    name: SORPublishRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORPublishRows.IdxAssociateId
-    name: SORPublishRows.IdxAssociateId
-  - uid: SuperOffice.CRM.Rows.SORPublishRows.IdxDefaultLabelLayout
-    name: SORPublishRows.IdxDefaultLabelLayout
-  - uid: SuperOffice.CRM.Rows.SORPublishRows.IdxForceDefault
-    name: SORPublishRows.IdxForceDefault
-  - uid: SuperOffice.CRM.Rows.SORPublishRows.IdxName
-    name: SORPublishRows.IdxName
-  - uid: SuperOffice.CRM.Rows.SORPublishRows.IdxSORTemplateId
-    name: SORPublishRows.IdxSORTemplateId
-  - uid: SuperOffice.CRM.Rows.SORSectionRecordData
-    name: SORSectionRecordData
-  - uid: SuperOffice.CRM.Rows.SORSectionRecordDataExtensions
-    name: SORSectionRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORSectionRow
-    name: SORSectionRow
-  - uid: SuperOffice.CRM.Rows.SORSectionRow.CustomSearch
-    name: SORSectionRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORSectionRow.IdxSORSectionId
-    name: SORSectionRow.IdxSORSectionId
-  - uid: SuperOffice.CRM.Rows.SORSectionRows
-    name: SORSectionRows
-  - uid: SuperOffice.CRM.Rows.SORSectionRows.CustomSearch
-    name: SORSectionRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORSectionRows.IdxSORTemplateId
-    name: SORSectionRows.IdxSORTemplateId
-  - uid: SuperOffice.CRM.Rows.SORTemplateRecordData
-    name: SORTemplateRecordData
-  - uid: SuperOffice.CRM.Rows.SORTemplateRecordDataExtensions
-    name: SORTemplateRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.SORTemplateRow
-    name: SORTemplateRow
-  - uid: SuperOffice.CRM.Rows.SORTemplateRow.CustomSearch
-    name: SORTemplateRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORTemplateRow.IdxSORTemplateId
-    name: SORTemplateRow.IdxSORTemplateId
-  - uid: SuperOffice.CRM.Rows.SORTemplateRows
-    name: SORTemplateRows
-  - uid: SuperOffice.CRM.Rows.SORTemplateRows.CustomSearch
-    name: SORTemplateRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.SORTemplateRows.IdxPublished
-    name: SORTemplateRows.IdxPublished
-  - uid: SuperOffice.CRM.Rows.SORTemplateRows.IdxSubject
-    name: SORTemplateRows.IdxSubject
   - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
     name: SPictureEntryRecordData
   - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
@@ -17616,10 +17182,6 @@ items:
     name: Rights<TKey, TValue>
   - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
     name: RoleRightsSentry<TMainTable>
-  - uid: SuperOffice.CRM.Security.SORPublishSentry
-    name: SORPublishSentry
-  - uid: SuperOffice.CRM.Security.SORPublishSentryQueryInfo
-    name: SORPublishSentryQueryInfo
   - uid: SuperOffice.CRM.Security.SaleSentry
     name: SaleSentry
   - uid: SuperOffice.CRM.Security.SaleSentryQueryInfo
@@ -17839,6 +17401,10 @@ items:
     name: LiveUiStatisticsHelper
   - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
     name: LiveUiStatisticsHelper.AccumulationType
+  - uid: SuperOffice.CRM.Ticket.MainTicketInfo
+    name: MainTicketInfo
+  - uid: SuperOffice.CRM.Ticket.RelatedTicketInfo
+    name: RelatedTicketInfo
   - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
     name: TicketAlertHelper
   - uid: SuperOffice.CRM.Ticket.TicketChangeData
@@ -17853,8 +17419,12 @@ items:
     name: TicketOwnerResolver
   - uid: SuperOffice.CRM.Ticket.TicketPriorityResolver
     name: TicketPriorityResolver
+  - uid: SuperOffice.CRM.Ticket.TicketRelationDefInfo
+    name: TicketRelationDefInfo
   - uid: SuperOffice.CRM.Ticket.TicketRelationHelper
     name: TicketRelationHelper
+  - uid: SuperOffice.CRM.Ticket.TicketRelationtData
+    name: TicketRelationtData
   - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
     name: TicketStatusRegistryHelper
   - uid: SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
@@ -18207,8 +17777,6 @@ items:
     name: ConfigFile.IOnlineConfiguration
   - uid: SuperOffice.Configuration.ConfigFile.IPocketConfiguration
     name: ConfigFile.IPocketConfiguration
-  - uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
-    name: ConfigFile.IReporterConfiguration
   - uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
     name: ConfigFile.IScriptingConfiguration
   - uid: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
@@ -18267,8 +17835,6 @@ items:
     name: ConfigFile.OnlineEnvironment
   - uid: SuperOffice.Configuration.ConfigFile.Pocket
     name: ConfigFile.Pocket
-  - uid: SuperOffice.Configuration.ConfigFile.Reporter
-    name: ConfigFile.Reporter
   - uid: SuperOffice.Configuration.ConfigFile.Scripting
     name: ConfigFile.Scripting
   - uid: SuperOffice.Configuration.ConfigFile.Security
@@ -18695,6 +18261,8 @@ items:
     name: PrefDescValueType
   - uid: SuperOffice.Data.PreferenceLevel
     name: PreferenceLevel
+  - uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    name: ProjectMemberEventParticipantStatus
   - uid: SuperOffice.Data.ProjectStatusConstants
     name: ProjectStatusConstants
   - uid: SuperOffice.Data.ProjectTypeConstants
@@ -19265,8 +18833,14 @@ items:
     name: DatabaseTableAttribute
   - uid: SuperOffice.Data.SQL.DateAdd
     name: DateAdd
-  - uid: SuperOffice.Data.SQL.DatePart
-    name: DatePart
+  - uid: SuperOffice.Data.SQL.DateAdd.DatePart
+    name: DateAdd.DatePart
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
+  - uid: SuperOffice.Data.SQL.DateDiff.DatePart
+    name: DateDiff.DatePart
+  - uid: SuperOffice.Data.SQL.DateTimeArgumentFunction
+    name: DateTimeArgumentFunction
   - uid: SuperOffice.Data.SQL.DateTimeFieldInfo
     name: DateTimeFieldInfo
   - uid: SuperOffice.Data.SQL.Day
@@ -19461,6 +19035,8 @@ items:
     name: PrivateSave
   - uid: SuperOffice.Data.SQL.PrivateSelect
     name: PrivateSelect
+  - uid: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+    name: ProjectMemberEventParticipantStatusFieldInfo
   - uid: SuperOffice.Data.SQL.PublishTypeFieldInfo
     name: PublishTypeFieldInfo
   - uid: SuperOffice.Data.SQL.QueryElement
@@ -20072,10 +19648,6 @@ items:
     name: ModuleLicenseLinkBase<TLinkRow>
   - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
     name: ModuleLicenseOwnerBase<TLink, TLinkRow>
-  - uid: SuperOffice.License.Product
-    name: Product
-  - uid: SuperOffice.License.ProductAttribute
-    name: ProductAttribute
   - uid: SuperOffice.License.ProductLicense
     name: ProductLicense
   - uid: SuperOffice.License.SatelliteModuleLicenseLink
@@ -20118,13 +19690,6 @@ items:
   items:
   - uid: SuperOffice.Plugins.CRM.Documents.IAssociateRename
     name: IAssociateRename
-- uid: SuperOffice.Products
-  name: SuperOffice.Products
-  items:
-  - uid: SuperOffice.Products.NetServerCore
-    name: NetServerCore
-  - uid: SuperOffice.Products.NetServerDataBase
-    name: NetServerDataBase
 - uid: SuperOffice.Security
   name: SuperOffice.Security
   items:
@@ -20217,6 +19782,8 @@ items:
     name: IPostAuthenticationPlugin
   - uid: SuperOffice.Security.Principal.IPostLoginPlugin
     name: IPostLoginPlugin
+  - uid: SuperOffice.Security.Principal.IPrincipalStateAccessor
+    name: IPrincipalStateAccessor
   - uid: SuperOffice.Security.Principal.ISoIdentityValidator
     name: ISoIdentityValidator
   - uid: SuperOffice.Security.Principal.ISoTimeZone
@@ -20235,6 +19802,10 @@ items:
     name: PostAuthenticationPluginAttribute
   - uid: SuperOffice.Security.Principal.PostLoginPluginAttribute
     name: PostLoginPluginAttribute
+  - uid: SuperOffice.Security.Principal.PrincipalCacheInvalidator
+    name: PrincipalCacheInvalidator
+  - uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+    name: PrincipalStatePostAuthenticationPlugin
   - uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor
     name: ProcessPrincipalAccessor
   - uid: SuperOffice.Security.Principal.ShortClaimNames

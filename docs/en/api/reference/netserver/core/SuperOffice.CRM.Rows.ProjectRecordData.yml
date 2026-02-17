@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRecordData.AssociateId
   - SuperOffice.CRM.Rows.ProjectRecordData.Done
   - SuperOffice.CRM.Rows.ProjectRecordData.EndDate
+  - SuperOffice.CRM.Rows.ProjectRecordData.EventId
   - SuperOffice.CRM.Rows.ProjectRecordData.GroupId
   - SuperOffice.CRM.Rows.ProjectRecordData.Name
   - SuperOffice.CRM.Rows.ProjectRecordData.NextMilestoneDate
@@ -22,6 +23,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.ProjectRecordData.SoundEx
   - SuperOffice.CRM.Rows.ProjectRecordData.Source
+  - SuperOffice.CRM.Rows.ProjectRecordData.StartDate
   - SuperOffice.CRM.Rows.ProjectRecordData.StatusIdx
   - SuperOffice.CRM.Rows.ProjectRecordData.TextId
   - SuperOffice.CRM.Rows.ProjectRecordData.TypeIdx
@@ -598,6 +600,48 @@ items:
     return:
       type: System.Int32
     content.vb: Public ActiveErpLinks As Integer
+- uid: SuperOffice.CRM.Rows.ProjectRecordData.EventId
+  commentId: F:SuperOffice.CRM.Rows.ProjectRecordData.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Rows.ProjectRecordData
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: ProjectRecordData.EventId
+  fullName: SuperOffice.CRM.Rows.ProjectRecordData.EventId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Reserved field for Lyyti event when project is linked to an event.
+  example: []
+  syntax:
+    content: public int EventId
+    return:
+      type: System.Int32
+    content.vb: Public EventId As Integer
+- uid: SuperOffice.CRM.Rows.ProjectRecordData.StartDate
+  commentId: F:SuperOffice.CRM.Rows.ProjectRecordData.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Rows.ProjectRecordData
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ProjectRecordData.StartDate
+  fullName: SuperOffice.CRM.Rows.ProjectRecordData.StartDate
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Reserved field for Lyyti event when project is linked to an event, is the event start date.
+  example: []
+  syntax:
+    content: public DateTime StartDate
+    return:
+      type: System.DateTime
+    content.vb: Public StartDate As Date
 - uid: SuperOffice.CRM.Rows.ProjectRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ProjectRecordData.#ctor
   id: '#ctor'

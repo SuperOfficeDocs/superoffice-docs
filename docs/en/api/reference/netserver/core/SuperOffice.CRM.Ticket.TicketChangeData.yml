@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
   - SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
   - SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+  - SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
   langs:
   - csharp
   - vb
@@ -121,6 +122,27 @@ items:
       type: System.Int32
     content.vb: Public Property TicketId As Integer
   overload: SuperOffice.CRM.Ticket.TicketChangeData.TicketId*
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
+  id: TicketTypeId
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: TicketTypeId
+  nameWithType: TicketChangeData.TicketTypeId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int TicketTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketTypeId As Integer
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId*
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -891,3 +913,10 @@ references:
   name: TicketId
   nameWithType: TicketChangeData.TicketId
   fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketId
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeData.html#SuperOffice_CRM_Ticket_TicketChangeData_TicketTypeId
+  name: TicketTypeId
+  nameWithType: TicketChangeData.TicketTypeId
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId

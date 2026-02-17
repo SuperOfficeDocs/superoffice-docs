@@ -138,6 +138,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.PrefDescAccessFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.PrefDescValueType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.PreferenceLevel@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ProjectMemberEventParticipantStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.PublishType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.QuoteVersionButtonAction@,SuperOffice.Data.SQL.FieldInfo)
@@ -1018,6 +1019,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(AppointmentExternalOwner, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentExternalOwner, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(AppointmentExternalOwner, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ConfigType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ConfigType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ConfigType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ConfigType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ConfigType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ConfigType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ConfigType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ConfigType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ExternallyOwnedType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6422,6 +6451,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(CategoryUpdateTrigger, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryUpdateTrigger, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(CategoryUpdateTrigger, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ProjectMemberEventParticipantStatus@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ProjectMemberEventParticipantStatus@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ProjectMemberEventParticipantStatus@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ProjectMemberEventParticipantStatus, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ProjectMemberEventParticipantStatus, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ProjectMemberEventParticipantStatus, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ProjectMemberEventParticipantStatus field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ProjectMemberEventParticipantStatus, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ProjectMemberEventParticipantStatus, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ProjectMemberEventParticipantStatus, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ProjectMemberEventParticipantStatus, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -7374,34 +7431,6 @@ items:
   nameWithType.vb: RowValidator.ValidateField(ChatStatus, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChatStatus, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ChatStatus, FieldInfo)
-- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
-  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
-  id: ValidateField(SuperOffice.Data.ConfigType@,SuperOffice.Data.SQL.FieldInfo)
-  parent: SuperOffice.CRM.Rows.RowValidator
-  langs:
-  - csharp
-  - vb
-  name: ValidateField(ref ConfigType, FieldInfo)
-  nameWithType: RowValidator.ValidateField(ref ConfigType, FieldInfo)
-  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ConfigType, SuperOffice.Data.SQL.FieldInfo)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  syntax:
-    content: public bool ValidateField(ref ConfigType field, FieldInfo fieldInfo)
-    parameters:
-    - id: field
-      type: SuperOffice.Data.ConfigType
-    - id: fieldInfo
-      type: SuperOffice.Data.SQL.FieldInfo
-    return:
-      type: System.Boolean
-    content.vb: Public Function ValidateField(field As ConfigType, fieldInfo As FieldInfo) As Boolean
-  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
-  nameWithType.vb: RowValidator.ValidateField(ConfigType, FieldInfo)
-  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ConfigType, SuperOffice.Data.SQL.FieldInfo)
-  name.vb: ValidateField(ConfigType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.FormType@,SuperOffice.Data.SQL.FieldInfo)
@@ -9353,6 +9382,14 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.Data.ConfigType
+  commentId: T:SuperOffice.Data.ConfigType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ConfigType.html
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: SuperOffice.Data.ConfigType
 - uid: SuperOffice.Data.ExternallyOwnedType
   commentId: T:SuperOffice.Data.ExternallyOwnedType
   parent: SuperOffice.Data
@@ -10896,6 +10933,14 @@ references:
   name: CategoryUpdateTrigger
   nameWithType: CategoryUpdateTrigger
   fullName: SuperOffice.Data.CategoryUpdateTrigger
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -11168,14 +11213,6 @@ references:
   name: ChatStatus
   nameWithType: ChatStatus
   fullName: SuperOffice.Data.ChatStatus
-- uid: SuperOffice.Data.ConfigType
-  commentId: T:SuperOffice.Data.ConfigType
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.ConfigType.html
-  name: ConfigType
-  nameWithType: ConfigType
-  fullName: SuperOffice.Data.ConfigType
 - uid: SuperOffice.Data.FormType
   commentId: T:SuperOffice.Data.FormType
   parent: SuperOffice.Data

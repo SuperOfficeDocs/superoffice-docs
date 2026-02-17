@@ -20,7 +20,6 @@ items:
   - SuperOffice.WebApi.Data.RagStatus.StatusProduct
   - SuperOffice.WebApi.Data.RagStatus.StatusTicket
   - SuperOffice.WebApi.Data.RagStatus.StatusWebpage
-  - SuperOffice.WebApi.Data.RagStatus.StatusWebsite
   langs:
   - csharp
   - vb
@@ -397,29 +396,6 @@ items:
       type: SuperOffice.WebApi.Data.RagStatusChunks
     content.vb: Public Overridable Property StatusWebpage As RagStatusChunks
   overload: SuperOffice.WebApi.Data.RagStatus.StatusWebpage*
-- uid: SuperOffice.WebApi.Data.RagStatus.StatusWebsite
-  commentId: P:SuperOffice.WebApi.Data.RagStatus.StatusWebsite
-  id: StatusWebsite
-  parent: SuperOffice.WebApi.Data.RagStatus
-  langs:
-  - csharp
-  - vb
-  name: StatusWebsite
-  nameWithType: RagStatus.StatusWebsite
-  fullName: SuperOffice.WebApi.Data.RagStatus.StatusWebsite
-  type: Property
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: How many documents/chunks of type Website are in the index
-  example: []
-  syntax:
-    content: public virtual RagStatusChunks StatusWebsite { get; set; }
-    parameters: []
-    return:
-      type: SuperOffice.WebApi.Data.RagStatusChunks
-    content.vb: Public Overridable Property StatusWebsite As RagStatusChunks
-  overload: SuperOffice.WebApi.Data.RagStatus.StatusWebsite*
 references:
 - uid: SuperOffice.WebApi.Agents.AIAgent
   commentId: T:SuperOffice.WebApi.Agents.AIAgent
@@ -851,10 +827,3 @@ references:
   name: StatusWebpage
   nameWithType: RagStatus.StatusWebpage
   fullName: SuperOffice.WebApi.Data.RagStatus.StatusWebpage
-- uid: SuperOffice.WebApi.Data.RagStatus.StatusWebsite*
-  commentId: Overload:SuperOffice.WebApi.Data.RagStatus.StatusWebsite
-  isExternal: true
-  href: SuperOffice.WebApi.Data.RagStatus.html#SuperOffice_WebApi_Data_RagStatus_StatusWebsite
-  name: StatusWebsite
-  nameWithType: RagStatus.StatusWebsite
-  fullName: SuperOffice.WebApi.Data.RagStatus.StatusWebsite

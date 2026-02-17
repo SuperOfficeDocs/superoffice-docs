@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow.CreateNew
   - SuperOffice.CRM.Rows.ProjectRow.Done
   - SuperOffice.CRM.Rows.ProjectRow.EndDate
+  - SuperOffice.CRM.Rows.ProjectRow.EventId
   - SuperOffice.CRM.Rows.ProjectRow.GetFromCustomSearch(SuperOffice.CRM.Rows.ProjectRow.CustomSearch)
   - SuperOffice.CRM.Rows.ProjectRow.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.ProjectRow.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectRow.GetFromIdxProjectIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -34,6 +35,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow.OnAssociateIdChange
   - SuperOffice.CRM.Rows.ProjectRow.OnDoneChange
   - SuperOffice.CRM.Rows.ProjectRow.OnEndDateChange
+  - SuperOffice.CRM.Rows.ProjectRow.OnEventIdChange
   - SuperOffice.CRM.Rows.ProjectRow.OnGroupIdChange
   - SuperOffice.CRM.Rows.ProjectRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.ProjectRow.OnNameChange
@@ -47,6 +49,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Rows.ProjectRow.OnSoundExChange
   - SuperOffice.CRM.Rows.ProjectRow.OnSourceChange
+  - SuperOffice.CRM.Rows.ProjectRow.OnStartDateChange
   - SuperOffice.CRM.Rows.ProjectRow.OnStatusIdxChange
   - SuperOffice.CRM.Rows.ProjectRow.OnTextIdChange
   - SuperOffice.CRM.Rows.ProjectRow.OnTypeIdxChange
@@ -68,6 +71,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow.SetRowAsNew
   - SuperOffice.CRM.Rows.ProjectRow.SoundEx
   - SuperOffice.CRM.Rows.ProjectRow.Source
+  - SuperOffice.CRM.Rows.ProjectRow.StartDate
   - SuperOffice.CRM.Rows.ProjectRow.StatusIdx
   - SuperOffice.CRM.Rows.ProjectRow.TableInfo
   - SuperOffice.CRM.Rows.ProjectRow.TextId
@@ -85,6 +89,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow._currentAssociateId
   - SuperOffice.CRM.Rows.ProjectRow._currentDone
   - SuperOffice.CRM.Rows.ProjectRow._currentEndDate
+  - SuperOffice.CRM.Rows.ProjectRow._currentEventId
   - SuperOffice.CRM.Rows.ProjectRow._currentGroupId
   - SuperOffice.CRM.Rows.ProjectRow._currentName
   - SuperOffice.CRM.Rows.ProjectRow._currentNextMilestoneDate
@@ -96,6 +101,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow._currentRegisteredAssociateId
   - SuperOffice.CRM.Rows.ProjectRow._currentSoundEx
   - SuperOffice.CRM.Rows.ProjectRow._currentSource
+  - SuperOffice.CRM.Rows.ProjectRow._currentStartDate
   - SuperOffice.CRM.Rows.ProjectRow._currentStatusIdx
   - SuperOffice.CRM.Rows.ProjectRow._currentTextId
   - SuperOffice.CRM.Rows.ProjectRow._currentTypeIdx
@@ -110,6 +116,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow._onAssociateIdChange
   - SuperOffice.CRM.Rows.ProjectRow._onDoneChange
   - SuperOffice.CRM.Rows.ProjectRow._onEndDateChange
+  - SuperOffice.CRM.Rows.ProjectRow._onEventIdChange
   - SuperOffice.CRM.Rows.ProjectRow._onGroupIdChange
   - SuperOffice.CRM.Rows.ProjectRow._onNameChange
   - SuperOffice.CRM.Rows.ProjectRow._onNextMilestoneDateChange
@@ -120,6 +127,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow._onRegisteredChange
   - SuperOffice.CRM.Rows.ProjectRow._onSoundExChange
   - SuperOffice.CRM.Rows.ProjectRow._onSourceChange
+  - SuperOffice.CRM.Rows.ProjectRow._onStartDateChange
   - SuperOffice.CRM.Rows.ProjectRow._onStatusIdxChange
   - SuperOffice.CRM.Rows.ProjectRow._onTextIdChange
   - SuperOffice.CRM.Rows.ProjectRow._onTypeIdxChange
@@ -134,6 +142,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow._persistedAssociateId
   - SuperOffice.CRM.Rows.ProjectRow._persistedDone
   - SuperOffice.CRM.Rows.ProjectRow._persistedEndDate
+  - SuperOffice.CRM.Rows.ProjectRow._persistedEventId
   - SuperOffice.CRM.Rows.ProjectRow._persistedGroupId
   - SuperOffice.CRM.Rows.ProjectRow._persistedName
   - SuperOffice.CRM.Rows.ProjectRow._persistedNextMilestoneDate
@@ -145,6 +154,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectRow._persistedRegisteredAssociateId
   - SuperOffice.CRM.Rows.ProjectRow._persistedSoundEx
   - SuperOffice.CRM.Rows.ProjectRow._persistedSource
+  - SuperOffice.CRM.Rows.ProjectRow._persistedStartDate
   - SuperOffice.CRM.Rows.ProjectRow._persistedStatusIdx
   - SuperOffice.CRM.Rows.ProjectRow._persistedTextId
   - SuperOffice.CRM.Rows.ProjectRow._persistedTypeIdx
@@ -830,6 +840,48 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedActiveErpLinks As Integer
+- uid: SuperOffice.CRM.Rows.ProjectRow._persistedEventId
+  commentId: F:SuperOffice.CRM.Rows.ProjectRow._persistedEventId
+  id: _persistedEventId
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedEventId
+  nameWithType: ProjectRow._persistedEventId
+  fullName: SuperOffice.CRM.Rows.ProjectRow._persistedEventId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.ProjectRow.EventId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedEventId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedEventId As Integer
+- uid: SuperOffice.CRM.Rows.ProjectRow._persistedStartDate
+  commentId: F:SuperOffice.CRM.Rows.ProjectRow._persistedStartDate
+  id: _persistedStartDate
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedStartDate
+  nameWithType: ProjectRow._persistedStartDate
+  fullName: SuperOffice.CRM.Rows.ProjectRow._persistedStartDate
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.ProjectRow.StartDate" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _persistedStartDate
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedStartDate As Date
 - uid: SuperOffice.CRM.Rows.ProjectRow._currentProjectId
   commentId: F:SuperOffice.CRM.Rows.ProjectRow._currentProjectId
   id: _currentProjectId
@@ -1355,6 +1407,48 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentActiveErpLinks As Integer
+- uid: SuperOffice.CRM.Rows.ProjectRow._currentEventId
+  commentId: F:SuperOffice.CRM.Rows.ProjectRow._currentEventId
+  id: _currentEventId
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: _currentEventId
+  nameWithType: ProjectRow._currentEventId
+  fullName: SuperOffice.CRM.Rows.ProjectRow._currentEventId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.ProjectRow.EventId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentEventId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentEventId As Integer
+- uid: SuperOffice.CRM.Rows.ProjectRow._currentStartDate
+  commentId: F:SuperOffice.CRM.Rows.ProjectRow._currentStartDate
+  id: _currentStartDate
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: _currentStartDate
+  nameWithType: ProjectRow._currentStartDate
+  fullName: SuperOffice.CRM.Rows.ProjectRow._currentStartDate
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.ProjectRow.StartDate" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _currentStartDate
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentStartDate As Date
 - uid: SuperOffice.CRM.Rows.ProjectRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ProjectRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2983,6 +3077,68 @@ items:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
     description: Thrown if the set method is accessed without having the Write access right to the field
+- uid: SuperOffice.CRM.Rows.ProjectRow.EventId
+  commentId: P:SuperOffice.CRM.Rows.ProjectRow.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: ProjectRow.EventId
+  fullName: SuperOffice.CRM.Rows.ProjectRow.EventId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Reserved field for Lyyti event when project is linked to an event.'
+  remarks: >-
+    Original type in dictionary:  Int.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int EventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EventId As Integer
+  overload: SuperOffice.CRM.Rows.ProjectRow.EventId*
+- uid: SuperOffice.CRM.Rows.ProjectRow.StartDate
+  commentId: P:SuperOffice.CRM.Rows.ProjectRow.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ProjectRow.StartDate
+  fullName: SuperOffice.CRM.Rows.ProjectRow.StartDate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: DateTime. Reserved field for Lyyti event when project is linked to an event, is the event start date.'
+  remarks: >-
+    Original type in dictionary:  DateTime.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As Date
+  overload: SuperOffice.CRM.Rows.ProjectRow.StartDate*
 - uid: SuperOffice.CRM.Rows.ProjectRow._onNameChange
   commentId: E:SuperOffice.CRM.Rows.ProjectRow._onNameChange
   id: _onNameChange
@@ -3487,6 +3643,48 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Protected Event _onActiveErpLinksChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.ProjectRow._onEventIdChange
+  commentId: E:SuperOffice.CRM.Rows.ProjectRow._onEventIdChange
+  id: _onEventIdChange
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: _onEventIdChange
+  nameWithType: ProjectRow._onEventIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectRow._onEventIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.ProjectRow.EventId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onEventIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onEventIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.ProjectRow._onStartDateChange
+  commentId: E:SuperOffice.CRM.Rows.ProjectRow._onStartDateChange
+  id: _onStartDateChange
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: _onStartDateChange
+  nameWithType: ProjectRow._onStartDateChange
+  fullName: SuperOffice.CRM.Rows.ProjectRow._onStartDateChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.ProjectRow.StartDate" data-throw-if-not-resolved="false"></xref>; field is of .NET type DateTime.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<DateTime> _onStartDateChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Protected Event _onStartDateChange As OnFieldChange(Of Date)
 - uid: SuperOffice.CRM.Rows.ProjectRow.OnNameChange
   commentId: E:SuperOffice.CRM.Rows.ProjectRow.OnNameChange
   id: OnNameChange
@@ -3991,6 +4189,48 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnActiveErpLinksChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.ProjectRow.OnEventIdChange
+  commentId: E:SuperOffice.CRM.Rows.ProjectRow.OnEventIdChange
+  id: OnEventIdChange
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: OnEventIdChange
+  nameWithType: ProjectRow.OnEventIdChange
+  fullName: SuperOffice.CRM.Rows.ProjectRow.OnEventIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when EventId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnEventIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnEventIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.ProjectRow.OnStartDateChange
+  commentId: E:SuperOffice.CRM.Rows.ProjectRow.OnStartDateChange
+  id: OnStartDateChange
+  parent: SuperOffice.CRM.Rows.ProjectRow
+  langs:
+  - csharp
+  - vb
+  name: OnStartDateChange
+  nameWithType: ProjectRow.OnStartDateChange
+  fullName: SuperOffice.CRM.Rows.ProjectRow.OnStartDateChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when StartDate is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<DateTime> OnStartDateChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
+    content.vb: Public Event OnStartDateChange As OnFieldChange(Of Date)
 references:
 - uid: SuperOffice.CRM.Rows.ProjectRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.ProjectRow.CreateNew
@@ -7274,6 +7514,20 @@ references:
   name: ActiveErpLinks
   nameWithType: ProjectRow.ActiveErpLinks
   fullName: SuperOffice.CRM.Rows.ProjectRow.ActiveErpLinks
+- uid: SuperOffice.CRM.Rows.ProjectRow.EventId
+  commentId: P:SuperOffice.CRM.Rows.ProjectRow.EventId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectRow.html#SuperOffice_CRM_Rows_ProjectRow_EventId
+  name: EventId
+  nameWithType: ProjectRow.EventId
+  fullName: SuperOffice.CRM.Rows.ProjectRow.EventId
+- uid: SuperOffice.CRM.Rows.ProjectRow.StartDate
+  commentId: P:SuperOffice.CRM.Rows.ProjectRow.StartDate
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectRow.html#SuperOffice_CRM_Rows_ProjectRow_StartDate
+  name: StartDate
+  nameWithType: ProjectRow.StartDate
+  fullName: SuperOffice.CRM.Rows.ProjectRow.StartDate
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -8365,6 +8619,20 @@ references:
   name: ActiveErpLinks
   nameWithType: ProjectRow.ActiveErpLinks
   fullName: SuperOffice.CRM.Rows.ProjectRow.ActiveErpLinks
+- uid: SuperOffice.CRM.Rows.ProjectRow.EventId*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectRow.EventId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectRow.html#SuperOffice_CRM_Rows_ProjectRow_EventId
+  name: EventId
+  nameWithType: ProjectRow.EventId
+  fullName: SuperOffice.CRM.Rows.ProjectRow.EventId
+- uid: SuperOffice.CRM.Rows.ProjectRow.StartDate*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectRow.StartDate
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectRow.html#SuperOffice_CRM_Rows_ProjectRow_StartDate
+  name: StartDate
+  nameWithType: ProjectRow.StartDate
+  fullName: SuperOffice.CRM.Rows.ProjectRow.StartDate
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.String}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.String}
   parent: SuperOffice.CRM.Rows

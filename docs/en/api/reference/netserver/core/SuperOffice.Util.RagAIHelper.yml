@@ -13,6 +13,8 @@ items:
   - SuperOffice.Util.RagAIHelper.DeleteNamespace(System.String)
   - SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl(System.String,System.String[],System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage(System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetFormsDesignFromUrl(System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.IndexingFinished(System.String,System.String)
@@ -585,6 +587,36 @@ items:
   nameWithType.vb: RagAIHelper.GetFormsDesignFromUrl(String, CancellationToken)
   fullName.vb: SuperOffice.Util.RagAIHelper.GetFormsDesignFromUrl(String, System.Threading.CancellationToken)
   name.vb: GetFormsDesignFromUrl(String, CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl(System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl(System.String,System.String[],System.Threading.CancellationToken)
+  id: GetFormsDesignCssFromUrl(System.String,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFormsDesignCssFromUrl(string, string[], CancellationToken)
+  nameWithType: RagAIHelper.GetFormsDesignCssFromUrl(string, string[], CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl(string, string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<DesignCssResult> GetFormsDesignCssFromUrl(string url, string[] classes, CancellationToken cancellationToken)
+    parameters:
+    - id: url
+      type: System.String
+    - id: classes
+      type: System.String[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.DesignCssResult}
+    content.vb: Public Function GetFormsDesignCssFromUrl(url As String, classes As String(), cancellationToken As CancellationToken) As Task(Of DesignCssResult)
+  overload: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl*
+  nameWithType.vb: RagAIHelper.GetFormsDesignCssFromUrl(String, String(), CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl(String, String(), System.Threading.CancellationToken)
+  name.vb: GetFormsDesignCssFromUrl(String, String(), CancellationToken)
 - uid: SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage(System.IO.Stream,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage(System.IO.Stream,System.Threading.CancellationToken)
   id: GetFormsDesignFromImage(System.IO.Stream,System.Threading.CancellationToken)
@@ -610,6 +642,36 @@ items:
       type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,System.String}}
     content.vb: Public Function GetFormsDesignFromImage(image As Stream, cancellationToken As CancellationToken) As Task(Of Dictionary(Of String, String))
   overload: SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage*
+- uid: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  id: GetFormsDesignCssFromImage(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFormsDesignCssFromImage(Stream, string[], CancellationToken)
+  nameWithType: RagAIHelper.GetFormsDesignCssFromImage(Stream, string[], CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage(System.IO.Stream, string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<DesignCssResult> GetFormsDesignCssFromImage(Stream image, string[] classes, CancellationToken cancellationToken)
+    parameters:
+    - id: image
+      type: System.IO.Stream
+    - id: classes
+      type: System.String[]
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.DesignCssResult}
+    content.vb: Public Function GetFormsDesignCssFromImage(image As Stream, classes As String(), cancellationToken As CancellationToken) As Task(Of DesignCssResult)
+  overload: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage*
+  nameWithType.vb: RagAIHelper.GetFormsDesignCssFromImage(Stream, String(), CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage(System.IO.Stream, String(), System.Threading.CancellationToken)
+  name.vb: GetFormsDesignCssFromImage(Stream, String(), CancellationToken)
 - uid: SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   commentId: P:SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   id: AllowedHostsValidator
@@ -2050,6 +2112,69 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   - name: )
+- uid: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_GetFormsDesignCssFromUrl_System_String_System_String___System_Threading_CancellationToken_
+  name: GetFormsDesignCssFromUrl
+  nameWithType: RagAIHelper.GetFormsDesignCssFromUrl
+  fullName: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromUrl
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.DesignCssResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.DesignCssResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DesignCssResult>
+  nameWithType: Task<DesignCssResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ServiceCopilot.Client.Models.DesignCssResult>
+  nameWithType.vb: Task(Of DesignCssResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ServiceCopilot.Client.Models.DesignCssResult)
+  name.vb: Task(Of DesignCssResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ServiceCopilot.Client.Models.DesignCssResult
+    name: DesignCssResult
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ServiceCopilot.Client.Models.DesignCssResult
+    name: DesignCssResult
+    isExternal: true
+  - name: )
 - uid: SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage*
   commentId: Overload:SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage
   isExternal: true
@@ -2057,6 +2182,13 @@ references:
   name: GetFormsDesignFromImage
   nameWithType: RagAIHelper.GetFormsDesignFromImage
   fullName: SuperOffice.Util.RagAIHelper.GetFormsDesignFromImage
+- uid: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_GetFormsDesignCssFromImage_System_IO_Stream_System_String___System_Threading_CancellationToken_
+  name: GetFormsDesignCssFromImage
+  nameWithType: RagAIHelper.GetFormsDesignCssFromImage
+  fullName: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage
 - uid: SuperOffice.Util.RagAIHelper.AllowedHostsValidator*
   commentId: Overload:SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   isExternal: true

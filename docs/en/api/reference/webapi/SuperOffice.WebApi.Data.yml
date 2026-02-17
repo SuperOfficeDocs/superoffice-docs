@@ -18,6 +18,8 @@ items:
   - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
   - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
   - SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
+  - SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
+  - SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
   - SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
@@ -1017,6 +1019,7 @@ items:
   - SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
   - SuperOffice.WebApi.Data.FreeText_SetMultiWordOperatorRequest
   - SuperOffice.WebApi.Data.FreeText_SetSingleWordOperatorRequest
+  - SuperOffice.WebApi.Data.FunctionRightStrings
   - SuperOffice.WebApi.Data.GeneratorEncoding
   - SuperOffice.WebApi.Data.GrantedModuleLicense
   - SuperOffice.WebApi.Data.HeadingEntity
@@ -1458,6 +1461,7 @@ items:
   - SuperOffice.WebApi.Data.ProjectEvent
   - SuperOffice.WebApi.Data.ProjectEventEntity
   - SuperOffice.WebApi.Data.ProjectMember
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
   - SuperOffice.WebApi.Data.ProjectStatus
   - SuperOffice.WebApi.Data.ProjectType
   - SuperOffice.WebApi.Data.ProjectTypeEntity
@@ -15900,6 +15904,20 @@ references:
   name: AI_GetFormDesignFromUrlRequest
   nameWithType: AI_GetFormDesignFromUrlRequest
   fullName: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
+- uid: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest.html
+  name: AI_GetFormDesignCssFromImageRequest
+  nameWithType: AI_GetFormDesignCssFromImageRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
+- uid: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest.html
+  name: AI_GetFormDesignCssFromUrlRequest
+  nameWithType: AI_GetFormDesignCssFromUrlRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
 - uid: SuperOffice.WebApi.Data.Sentiment
   commentId: T:SuperOffice.WebApi.Data.Sentiment
   isExternal: true
@@ -16660,6 +16678,14 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner
+- uid: SuperOffice.WebApi.Data.ConfigType
+  commentId: T:SuperOffice.WebApi.Data.ConfigType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ConfigType.html
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: SuperOffice.WebApi.Data.ConfigType
 - uid: SuperOffice.WebApi.Data.ExternallyOwnedType
   commentId: T:SuperOffice.WebApi.Data.ExternallyOwnedType
   parent: SuperOffice.WebApi.Data
@@ -17916,6 +17942,14 @@ references:
   name: CategoryUpdateTrigger
   nameWithType: CategoryUpdateTrigger
   fullName: SuperOffice.WebApi.Data.CategoryUpdateTrigger
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
 - uid: SuperOffice.WebApi.Data.EventHandlerType
   commentId: T:SuperOffice.WebApi.Data.EventHandlerType
   parent: SuperOffice.WebApi.Data
@@ -18124,14 +18158,6 @@ references:
   name: ChatSessionFlags
   nameWithType: ChatSessionFlags
   fullName: SuperOffice.WebApi.Data.ChatSessionFlags
-- uid: SuperOffice.WebApi.Data.ConfigType
-  commentId: T:SuperOffice.WebApi.Data.ConfigType
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ConfigType.html
-  name: ConfigType
-  nameWithType: ConfigType
-  fullName: SuperOffice.WebApi.Data.ConfigType
 - uid: SuperOffice.WebApi.Data.FormType
   commentId: T:SuperOffice.WebApi.Data.FormType
   parent: SuperOffice.WebApi.Data
@@ -19895,6 +19921,13 @@ references:
     name: Mailing
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing.html
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings
+  commentId: T:SuperOffice.WebApi.Data.FunctionRightStrings
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FunctionRightStrings.html
+  name: FunctionRightStrings
+  nameWithType: FunctionRightStrings
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter
   commentId: T:SuperOffice.WebApi.Data.CultureDataFormatter
   isExternal: true

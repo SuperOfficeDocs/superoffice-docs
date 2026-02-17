@@ -16,6 +16,7 @@ items:
   - SuperOffice.WebApi.Data.ProjectEntity.CustomFields
   - SuperOffice.WebApi.Data.ProjectEntity.Description
   - SuperOffice.WebApi.Data.ProjectEntity.EndDate
+  - SuperOffice.WebApi.Data.ProjectEntity.EventId
   - SuperOffice.WebApi.Data.ProjectEntity.ExtraFields
   - SuperOffice.WebApi.Data.ProjectEntity.HasImage
   - SuperOffice.WebApi.Data.ProjectEntity.ImageDescription
@@ -33,6 +34,7 @@ items:
   - SuperOffice.WebApi.Data.ProjectEntity.PublishEventDate
   - SuperOffice.WebApi.Data.ProjectEntity.PublishFrom
   - SuperOffice.WebApi.Data.ProjectEntity.PublishTo
+  - SuperOffice.WebApi.Data.ProjectEntity.StartDate
   - SuperOffice.WebApi.Data.ProjectEntity.UpdatedBy
   - SuperOffice.WebApi.Data.ProjectEntity.UpdatedDate
   - SuperOffice.WebApi.Data.ProjectEntity.Urls
@@ -675,6 +677,52 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActiveErpLinks As Integer
   overload: SuperOffice.WebApi.Data.ProjectEntity.ActiveErpLinks*
+- uid: SuperOffice.WebApi.Data.ProjectEntity.EventId
+  commentId: P:SuperOffice.WebApi.Data.ProjectEntity.EventId
+  id: EventId
+  parent: SuperOffice.WebApi.Data.ProjectEntity
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: ProjectEntity.EventId
+  fullName: SuperOffice.WebApi.Data.ProjectEntity.EventId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Reserved field for Lyyti event when project is linked to an event.
+  example: []
+  syntax:
+    content: public virtual int EventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EventId As Integer
+  overload: SuperOffice.WebApi.Data.ProjectEntity.EventId*
+- uid: SuperOffice.WebApi.Data.ProjectEntity.StartDate
+  commentId: P:SuperOffice.WebApi.Data.ProjectEntity.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.ProjectEntity
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ProjectEntity.StartDate
+  fullName: SuperOffice.WebApi.Data.ProjectEntity.StartDate
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Reserved field for Lyyti event when project is linked to an event, is the event start date.
+  example: []
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As Date
+  overload: SuperOffice.WebApi.Data.ProjectEntity.StartDate*
 - uid: SuperOffice.WebApi.Data.ProjectEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.ProjectEntity.UserDefinedFields
   id: UserDefinedFields
@@ -1530,6 +1578,20 @@ references:
   name: ActiveErpLinks
   nameWithType: ProjectEntity.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.ProjectEntity.ActiveErpLinks
+- uid: SuperOffice.WebApi.Data.ProjectEntity.EventId*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectEntity.EventId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEntity.html#SuperOffice_WebApi_Data_ProjectEntity_EventId
+  name: EventId
+  nameWithType: ProjectEntity.EventId
+  fullName: SuperOffice.WebApi.Data.ProjectEntity.EventId
+- uid: SuperOffice.WebApi.Data.ProjectEntity.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectEntity.StartDate
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectEntity.html#SuperOffice_WebApi_Data_ProjectEntity_StartDate
+  name: StartDate
+  nameWithType: ProjectEntity.StartDate
+  fullName: SuperOffice.WebApi.Data.ProjectEntity.StartDate
 - uid: SuperOffice.WebApi.Data.ProjectEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.ProjectEntity.CustomFields
   isExternal: true

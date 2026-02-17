@@ -49,7 +49,6 @@ items:
   - SuperOffice.Configuration.ConfigFile.IOidcLoginConfiguration
   - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
   - SuperOffice.Configuration.ConfigFile.IPocketConfiguration
-  - SuperOffice.Configuration.ConfigFile.IReporterConfiguration
   - SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   - SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
   - SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
@@ -79,7 +78,6 @@ items:
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration
   - SuperOffice.Configuration.ConfigFile.OnlineEnvironment
   - SuperOffice.Configuration.ConfigFile.Pocket
-  - SuperOffice.Configuration.ConfigFile.Reporter
   - SuperOffice.Configuration.ConfigFile.Scripting
   - SuperOffice.Configuration.ConfigFile.Security
   - SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
@@ -1592,60 +1590,6 @@ references:
     name: Pocket
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Pocket.html
-- uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IReporterConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IReporterConfiguration
-  nameWithType: ConfigFile.IReporterConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
-    name: IReporterConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IReporterConfiguration
-    name: IReporterConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IReporterConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.Reporter
-  commentId: T:SuperOffice.Configuration.ConfigFile.Reporter
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Reporter
-  nameWithType: ConfigFile.Reporter
-  fullName: SuperOffice.Configuration.ConfigFile.Reporter
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Reporter
-    name: Reporter
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Reporter.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Reporter
-    name: Reporter
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Reporter.html
 - uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   isExternal: true

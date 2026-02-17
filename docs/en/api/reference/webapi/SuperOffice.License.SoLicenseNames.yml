@@ -9,24 +9,34 @@ items:
   - SuperOffice.License.SoLicenseNames.AdAuth
   - SuperOffice.License.SoLicenseNames.AdminAnonymousUser
   - SuperOffice.License.SoLicenseNames.AdminExternUser
+  - SuperOffice.License.SoLicenseNames.AdminRole
   - SuperOffice.License.SoLicenseNames.AdminSystemUser
   - SuperOffice.License.SoLicenseNames.AiCategorization
   - SuperOffice.License.SoLicenseNames.AiChatbot
+  - SuperOffice.License.SoLicenseNames.AiCopilot
+  - SuperOffice.License.SoLicenseNames.AiNLQ
   - SuperOffice.License.SoLicenseNames.AiPlatform
+  - SuperOffice.License.SoLicenseNames.AiServiceCopilot
+  - SuperOffice.License.SoLicenseNames.AiSummarize
   - SuperOffice.License.SoLicenseNames.AiTextServices
+  - SuperOffice.License.SoLicenseNames.AiTranslate
   - SuperOffice.License.SoLicenseNames.AnonymousUser
   - SuperOffice.License.SoLicenseNames.AnonymousUserCal
   - SuperOffice.License.SoLicenseNames.AreaMgt
   - SuperOffice.License.SoLicenseNames.Audience
+  - SuperOffice.License.SoLicenseNames.BizCard
+  - SuperOffice.License.SoLicenseNames.BookMyCalendar
   - SuperOffice.License.SoLicenseNames.Chat
   - SuperOffice.License.SoLicenseNames.ChatCal
   - SuperOffice.License.SoLicenseNames.ChatFree
   - SuperOffice.License.SoLicenseNames.ConfigScreens
+  - SuperOffice.License.SoLicenseNames.CrmScript
   - SuperOffice.License.SoLicenseNames.CustomApps
   - SuperOffice.License.SoLicenseNames.CustomObjects
   - SuperOffice.License.SoLicenseNames.Dash
   - SuperOffice.License.SoLicenseNames.DashCal
   - SuperOffice.License.SoLicenseNames.DataBridge
+  - SuperOffice.License.SoLicenseNames.DatabridgePro
   - SuperOffice.License.SoLicenseNames.DbMirror
   - SuperOffice.License.SoLicenseNames.Devnet
   - SuperOffice.License.SoLicenseNames.Document
@@ -54,6 +64,8 @@ items:
   - SuperOffice.License.SoLicenseNames.EJournalStat
   - SuperOffice.License.SoLicenseNames.EJournalTicket
   - SuperOffice.License.SoLicenseNames.Engagement
+  - SuperOffice.License.SoLicenseNames.EnrichCont
+  - SuperOffice.License.SoLicenseNames.ErpConnect
   - SuperOffice.License.SoLicenseNames.ErpSync
   - SuperOffice.License.SoLicenseNames.Escalate
   - SuperOffice.License.SoLicenseNames.ExchangeSync
@@ -66,23 +78,35 @@ items:
   - SuperOffice.License.SoLicenseNames.Forms
   - SuperOffice.License.SoLicenseNames.FormsCal
   - SuperOffice.License.SoLicenseNames.FormsFree
+  - SuperOffice.License.SoLicenseNames.FreeConfigScreens
+  - SuperOffice.License.SoLicenseNames.FreeCustomObjects
   - SuperOffice.License.SoLicenseNames.FreeMailings
   - SuperOffice.License.SoLicenseNames.FreeProjects
+  - SuperOffice.License.SoLicenseNames.FreeReplicationServer
+  - SuperOffice.License.SoLicenseNames.FreeScim
   - SuperOffice.License.SoLicenseNames.FreeTrial
   - SuperOffice.License.SoLicenseNames.G9
   - SuperOffice.License.SoLicenseNames.GoogleApps
   - SuperOffice.License.SoLicenseNames.Guide
   - SuperOffice.License.SoLicenseNames.GuideCal
+  - SuperOffice.License.SoLicenseNames.GuideProject
+  - SuperOffice.License.SoLicenseNames.GuideSale
   - SuperOffice.License.SoLicenseNames.HugoAI
   - SuperOffice.License.SoLicenseNames.Import
   - SuperOffice.License.SoLicenseNames.InboxFilter
+  - SuperOffice.License.SoLicenseNames.LabelSubst
+  - SuperOffice.License.SoLicenseNames.LeadMgt
   - SuperOffice.License.SoLicenseNames.MailMergeCal
+  - SuperOffice.License.SoLicenseNames.Mailchimp
   - SuperOffice.License.SoLicenseNames.Maintenance
   - SuperOffice.License.SoLicenseNames.MarketingAutomation
   - SuperOffice.License.SoLicenseNames.MarketingAutomationCal
   - SuperOffice.License.SoLicenseNames.MarketingPlatform
   - SuperOffice.License.SoLicenseNames.MarketingT1
   - SuperOffice.License.SoLicenseNames.MarketingT2
+  - SuperOffice.License.SoLicenseNames.MobileRequest
+  - SuperOffice.License.SoLicenseNames.MsTeams
+  - SuperOffice.License.SoLicenseNames.MsTeamsChat
   - SuperOffice.License.SoLicenseNames.Nebula
   - SuperOffice.License.SoLicenseNames.NeedConsent
   - SuperOffice.License.SoLicenseNames.Office365
@@ -97,6 +121,7 @@ items:
   - SuperOffice.License.SoLicenseNames.ProjectCal
   - SuperOffice.License.SoLicenseNames.Publish
   - SuperOffice.License.SoLicenseNames.Quote
+  - SuperOffice.License.SoLicenseNames.QuoteApproval
   - SuperOffice.License.SoLicenseNames.QuoteCal
   - SuperOffice.License.SoLicenseNames.Relation
   - SuperOffice.License.SoLicenseNames.RelationCal
@@ -123,6 +148,7 @@ items:
   - SuperOffice.License.SoLicenseNames.Server
   - SuperOffice.License.SoLicenseNames.ServiceT1
   - SuperOffice.License.SoLicenseNames.ServiceT2
+  - SuperOffice.License.SoLicenseNames.SmartFilter
   - SuperOffice.License.SoLicenseNames.SmsMailings
   - SuperOffice.License.SoLicenseNames.Solo
   - SuperOffice.License.SoLicenseNames.Stakeholder
@@ -159,6 +185,7 @@ items:
   - SuperOffice.License.SoLicenseNames.SuperlicenseOnlineStd
   - SuperOffice.License.SoLicenseNames.SuperlicenseVismaNetPro
   - SuperOffice.License.SoLicenseNames.SyncServer
+  - SuperOffice.License.SoLicenseNames.Synchronizer
   - SuperOffice.License.SoLicenseNames.SynchronizerCal
   - SuperOffice.License.SoLicenseNames.SystemUser
   - SuperOffice.License.SoLicenseNames.SystemUserCal
@@ -184,8 +211,11 @@ items:
   - SuperOffice.License.SoLicenseNames.TenServiceMarketing
   - SuperOffice.License.SoLicenseNames.Test
   - SuperOffice.License.SoLicenseNames.TestDrive
+  - SuperOffice.License.SoLicenseNames.TicketLog
+  - SuperOffice.License.SoLicenseNames.TicketType
   - SuperOffice.License.SoLicenseNames.Travel
   - SuperOffice.License.SoLicenseNames.Udef
+  - SuperOffice.License.SoLicenseNames.UniSearch
   - SuperOffice.License.SoLicenseNames.User
   - SuperOffice.License.SoLicenseNames.UserManagement
   - SuperOffice.License.SoLicenseNames.UtmSaving
@@ -1150,7 +1180,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.License
   summary: >-
-    superoffice.ej-mod-rms: eJournal Login pages 
+    superoffice.ej-mod-rms: eJournal Login pages - Request Management System marker
 
     System License: Hidden
   example: []
@@ -1270,7 +1300,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.License
   summary: >-
-    superoffice.ej-mod-spm: eJournal eMarketing module 
+    superoffice.ej-mod-spm: eJournal eMarketing module - enables Mailings in navigator and all eMarketing functions (tracked links, images, ).
 
     System License: Hidden
   example: []
@@ -1937,6 +1967,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const VideoMeet As String = "superoffice.video-meet"
+- uid: SuperOffice.License.SoLicenseNames.Synchronizer
+  commentId: F:SuperOffice.License.SoLicenseNames.Synchronizer
+  id: Synchronizer
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Synchronizer
+  nameWithType: SoLicenseNames.Synchronizer
+  fullName: SuperOffice.License.SoLicenseNames.Synchronizer
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.synchronizer: Exchange synch login Allows user to use Exchange-sync site license
+
+    Site License:
+  example: []
+  syntax:
+    content: public const string Synchronizer = "superoffice.synchronizer"
+    return:
+      type: System.String
+    content.vb: Public Const Synchronizer As String = "superoffice.synchronizer"
 - uid: SuperOffice.License.SoLicenseNames.User
   commentId: F:SuperOffice.License.SoLicenseNames.User
   id: User
@@ -3419,7 +3473,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.License
   summary: >-
-    superoffice.mail-merge-cal: Can access mail merge function, subject to functional right restrictions.
+    superoffice.mail-merge-cal: Can access basic mail merge functions, subject to functional right restrictions. Enables mail merge button in navigator.
 
     User License.
   example: []
@@ -5292,6 +5346,702 @@ items:
   - type: SuperOffice.License.UserLicenseAttribute
     ctor: SuperOffice.License.UserLicenseAttribute.#ctor
     arguments: []
+- uid: SuperOffice.License.SoLicenseNames.AiCopilot
+  commentId: F:SuperOffice.License.SoLicenseNames.AiCopilot
+  id: AiCopilot
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AiCopilot
+  nameWithType: SoLicenseNames.AiCopilot
+  fullName: SuperOffice.License.SoLicenseNames.AiCopilot
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.ai-copilot: Enable SuperOffice AI Copilot features
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string AiCopilot = "superoffice.ai-copilot"
+    return:
+      type: System.String
+    content.vb: Public Const AiCopilot As String = "superoffice.ai-copilot"
+- uid: SuperOffice.License.SoLicenseNames.AiNLQ
+  commentId: F:SuperOffice.License.SoLicenseNames.AiNLQ
+  id: AiNLQ
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AiNLQ
+  nameWithType: SoLicenseNames.AiNLQ
+  fullName: SuperOffice.License.SoLicenseNames.AiNLQ
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.ai-nlq: Enable Natural Language Query features
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string AiNLQ = "superoffice.ai-nlq"
+    return:
+      type: System.String
+    content.vb: Public Const AiNLQ As String = "superoffice.ai-nlq"
+- uid: SuperOffice.License.SoLicenseNames.AiServiceCopilot
+  commentId: F:SuperOffice.License.SoLicenseNames.AiServiceCopilot
+  id: AiServiceCopilot
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AiServiceCopilot
+  nameWithType: SoLicenseNames.AiServiceCopilot
+  fullName: SuperOffice.License.SoLicenseNames.AiServiceCopilot
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.ai-servicecopilot: Enable SuperOffice Service Copilot feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string AiServiceCopilot = "superoffice.ai-servicecopilot"
+    return:
+      type: System.String
+    content.vb: Public Const AiServiceCopilot As String = "superoffice.ai-servicecopilot"
+- uid: SuperOffice.License.SoLicenseNames.AiTranslate
+  commentId: F:SuperOffice.License.SoLicenseNames.AiTranslate
+  id: AiTranslate
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AiTranslate
+  nameWithType: SoLicenseNames.AiTranslate
+  fullName: SuperOffice.License.SoLicenseNames.AiTranslate
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.ai-translate: Enable automatic ticket translation feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string AiTranslate = "superoffice.ai-translate"
+    return:
+      type: System.String
+    content.vb: Public Const AiTranslate As String = "superoffice.ai-translate"
+- uid: SuperOffice.License.SoLicenseNames.AiSummarize
+  commentId: F:SuperOffice.License.SoLicenseNames.AiSummarize
+  id: AiSummarize
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AiSummarize
+  nameWithType: SoLicenseNames.AiSummarize
+  fullName: SuperOffice.License.SoLicenseNames.AiSummarize
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.ai-summarize: Enable automatic ticket summary feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string AiSummarize = "superoffice.ai-summarize"
+    return:
+      type: System.String
+    content.vb: Public Const AiSummarize As String = "superoffice.ai-summarize"
+- uid: SuperOffice.License.SoLicenseNames.BizCard
+  commentId: F:SuperOffice.License.SoLicenseNames.BizCard
+  id: BizCard
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: BizCard
+  nameWithType: SoLicenseNames.BizCard
+  fullName: SuperOffice.License.SoLicenseNames.BizCard
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.bizcard: Enable Business card scanning feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string BizCard = "superoffice.bizcard"
+    return:
+      type: System.String
+    content.vb: Public Const BizCard As String = "superoffice.bizcard"
+- uid: SuperOffice.License.SoLicenseNames.BookMyCalendar
+  commentId: F:SuperOffice.License.SoLicenseNames.BookMyCalendar
+  id: BookMyCalendar
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: BookMyCalendar
+  nameWithType: SoLicenseNames.BookMyCalendar
+  fullName: SuperOffice.License.SoLicenseNames.BookMyCalendar
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.bookmycalendar: Enable Book my calendar feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string BookMyCalendar = "superoffice.bookmycalendar"
+    return:
+      type: System.String
+    content.vb: Public Const BookMyCalendar As String = "superoffice.bookmycalendar"
+- uid: SuperOffice.License.SoLicenseNames.DatabridgePro
+  commentId: F:SuperOffice.License.SoLicenseNames.DatabridgePro
+  id: DatabridgePro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: DatabridgePro
+  nameWithType: SoLicenseNames.DatabridgePro
+  fullName: SuperOffice.License.SoLicenseNames.DatabridgePro
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.databridge-pro: Enable Databridge Pro feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string DatabridgePro = "superoffice.databridge-pro"
+    return:
+      type: System.String
+    content.vb: Public Const DatabridgePro As String = "superoffice.databridge-pro"
+- uid: SuperOffice.License.SoLicenseNames.EnrichCont
+  commentId: F:SuperOffice.License.SoLicenseNames.EnrichCont
+  id: EnrichCont
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EnrichCont
+  nameWithType: SoLicenseNames.EnrichCont
+  fullName: SuperOffice.License.SoLicenseNames.EnrichCont
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.enrich-cont: Enable Enrich Company feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string EnrichCont = "superoffice.enrich-cont"
+    return:
+      type: System.String
+    content.vb: Public Const EnrichCont As String = "superoffice.enrich-cont"
+- uid: SuperOffice.License.SoLicenseNames.ErpConnect
+  commentId: F:SuperOffice.License.SoLicenseNames.ErpConnect
+  id: ErpConnect
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ErpConnect
+  nameWithType: SoLicenseNames.ErpConnect
+  fullName: SuperOffice.License.SoLicenseNames.ErpConnect
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.erpconnect: Enable ErpConnect feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string ErpConnect = "superoffice.erpconnect"
+    return:
+      type: System.String
+    content.vb: Public Const ErpConnect As String = "superoffice.erpconnect"
+- uid: SuperOffice.License.SoLicenseNames.GuideProject
+  commentId: F:SuperOffice.License.SoLicenseNames.GuideProject
+  id: GuideProject
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: GuideProject
+  nameWithType: SoLicenseNames.GuideProject
+  fullName: SuperOffice.License.SoLicenseNames.GuideProject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.guide-project: Enable Project Guide feature. Replaces superoffice.guide for projects.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string GuideProject = "superoffice.guide-project"
+    return:
+      type: System.String
+    content.vb: Public Const GuideProject As String = "superoffice.guide-project"
+- uid: SuperOffice.License.SoLicenseNames.GuideSale
+  commentId: F:SuperOffice.License.SoLicenseNames.GuideSale
+  id: GuideSale
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: GuideSale
+  nameWithType: SoLicenseNames.GuideSale
+  fullName: SuperOffice.License.SoLicenseNames.GuideSale
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.guide-sale: Enable Sale Guide feature. Replaces superoffice.guide for sales.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string GuideSale = "superoffice.guide-sale"
+    return:
+      type: System.String
+    content.vb: Public Const GuideSale As String = "superoffice.guide-sale"
+- uid: SuperOffice.License.SoLicenseNames.LabelSubst
+  commentId: F:SuperOffice.License.SoLicenseNames.LabelSubst
+  id: LabelSubst
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: LabelSubst
+  nameWithType: SoLicenseNames.LabelSubst
+  fullName: SuperOffice.License.SoLicenseNames.LabelSubst
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.labelsubst: Enable text label substitution feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string LabelSubst = "superoffice.labelsubst"
+    return:
+      type: System.String
+    content.vb: Public Const LabelSubst As String = "superoffice.labelsubst"
+- uid: SuperOffice.License.SoLicenseNames.LeadMgt
+  commentId: F:SuperOffice.License.SoLicenseNames.LeadMgt
+  id: LeadMgt
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: LeadMgt
+  nameWithType: SoLicenseNames.LeadMgt
+  fullName: SuperOffice.License.SoLicenseNames.LeadMgt
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.leadmgt: Enable lead management feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string LeadMgt = "superoffice.leadmgt"
+    return:
+      type: System.String
+    content.vb: Public Const LeadMgt As String = "superoffice.leadmgt"
+- uid: SuperOffice.License.SoLicenseNames.Mailchimp
+  commentId: F:SuperOffice.License.SoLicenseNames.Mailchimp
+  id: Mailchimp
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Mailchimp
+  nameWithType: SoLicenseNames.Mailchimp
+  fullName: SuperOffice.License.SoLicenseNames.Mailchimp
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.mailchimp: Enable Mailchimp integration feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Mailchimp = "superoffice.mailchimp"
+    return:
+      type: System.String
+    content.vb: Public Const Mailchimp As String = "superoffice.mailchimp"
+- uid: SuperOffice.License.SoLicenseNames.MobileRequest
+  commentId: F:SuperOffice.License.SoLicenseNames.MobileRequest
+  id: MobileRequest
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: MobileRequest
+  nameWithType: SoLicenseNames.MobileRequest
+  fullName: SuperOffice.License.SoLicenseNames.MobileRequest
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.mobilerequest: Enable Mobile request management feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string MobileRequest = "superoffice.mobilerequest"
+    return:
+      type: System.String
+    content.vb: Public Const MobileRequest As String = "superoffice.mobilerequest"
+- uid: SuperOffice.License.SoLicenseNames.MsTeams
+  commentId: F:SuperOffice.License.SoLicenseNames.MsTeams
+  id: MsTeams
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: MsTeams
+  nameWithType: SoLicenseNames.MsTeams
+  fullName: SuperOffice.License.SoLicenseNames.MsTeams
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.msteams: Enable MSTeams integration feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string MsTeams = "superoffice.msteams"
+    return:
+      type: System.String
+    content.vb: Public Const MsTeams As String = "superoffice.msteams"
+- uid: SuperOffice.License.SoLicenseNames.MsTeamsChat
+  commentId: F:SuperOffice.License.SoLicenseNames.MsTeamsChat
+  id: MsTeamsChat
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: MsTeamsChat
+  nameWithType: SoLicenseNames.MsTeamsChat
+  fullName: SuperOffice.License.SoLicenseNames.MsTeamsChat
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.msteamschat: Enable MSTeams chat integration/archiving feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string MsTeamsChat = "superoffice.msteamschat"
+    return:
+      type: System.String
+    content.vb: Public Const MsTeamsChat As String = "superoffice.msteamschat"
+- uid: SuperOffice.License.SoLicenseNames.QuoteApproval
+  commentId: F:SuperOffice.License.SoLicenseNames.QuoteApproval
+  id: QuoteApproval
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteApproval
+  nameWithType: SoLicenseNames.QuoteApproval
+  fullName: SuperOffice.License.SoLicenseNames.QuoteApproval
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.quote-approval: Enable quote approval feature. Without this license, quotes outside bounds cannot be sent.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string QuoteApproval = "superoffice.quote-approval"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteApproval As String = "superoffice.quote-approval"
+- uid: SuperOffice.License.SoLicenseNames.AdminRole
+  commentId: F:SuperOffice.License.SoLicenseNames.AdminRole
+  id: AdminRole
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AdminRole
+  nameWithType: SoLicenseNames.AdminRole
+  fullName: SuperOffice.License.SoLicenseNames.AdminRole
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.role: Enable admin roles feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string AdminRole = "superoffice.role"
+    return:
+      type: System.String
+    content.vb: Public Const AdminRole As String = "superoffice.role"
+- uid: SuperOffice.License.SoLicenseNames.SmartFilter
+  commentId: F:SuperOffice.License.SoLicenseNames.SmartFilter
+  id: SmartFilter
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SmartFilter
+  nameWithType: SoLicenseNames.SmartFilter
+  fullName: SuperOffice.License.SoLicenseNames.SmartFilter
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.smartfilter: Enable Smart Filter feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string SmartFilter = "superoffice.smartfilter"
+    return:
+      type: System.String
+    content.vb: Public Const SmartFilter As String = "superoffice.smartfilter"
+- uid: SuperOffice.License.SoLicenseNames.TicketLog
+  commentId: F:SuperOffice.License.SoLicenseNames.TicketLog
+  id: TicketLog
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: TicketLog
+  nameWithType: SoLicenseNames.TicketLog
+  fullName: SuperOffice.License.SoLicenseNames.TicketLog
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.ticketlog: Enable ticket change log feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string TicketLog = "superoffice.ticketlog"
+    return:
+      type: System.String
+    content.vb: Public Const TicketLog As String = "superoffice.ticketlog"
+- uid: SuperOffice.License.SoLicenseNames.TicketType
+  commentId: F:SuperOffice.License.SoLicenseNames.TicketType
+  id: TicketType
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: SoLicenseNames.TicketType
+  fullName: SuperOffice.License.SoLicenseNames.TicketType
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.tickettype: Enable ticket type feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string TicketType = "superoffice.tickettype"
+    return:
+      type: System.String
+    content.vb: Public Const TicketType As String = "superoffice.tickettype"
+- uid: SuperOffice.License.SoLicenseNames.UniSearch
+  commentId: F:SuperOffice.License.SoLicenseNames.UniSearch
+  id: UniSearch
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: UniSearch
+  nameWithType: SoLicenseNames.UniSearch
+  fullName: SuperOffice.License.SoLicenseNames.UniSearch
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.unisearch: Enable unified search feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string UniSearch = "superoffice.unisearch"
+    return:
+      type: System.String
+    content.vb: Public Const UniSearch As String = "superoffice.unisearch"
+- uid: SuperOffice.License.SoLicenseNames.CrmScript
+  commentId: F:SuperOffice.License.SoLicenseNames.CrmScript
+  id: CrmScript
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: CrmScript
+  nameWithType: SoLicenseNames.CrmScript
+  fullName: SuperOffice.License.SoLicenseNames.CrmScript
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.crmscript: Enable CRMScript editing feature. CRMScript execution is controlled separately by ej-mod-blogic
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string CrmScript = "superoffice.crmscript"
+    return:
+      type: System.String
+    content.vb: Public Const CrmScript As String = "superoffice.crmscript"
+- uid: SuperOffice.License.SoLicenseNames.FreeCustomObjects
+  commentId: F:SuperOffice.License.SoLicenseNames.FreeCustomObjects
+  id: FreeCustomObjects
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FreeCustomObjects
+  nameWithType: SoLicenseNames.FreeCustomObjects
+  fullName: SuperOffice.License.SoLicenseNames.FreeCustomObjects
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.free-custom-objects: Indicate free Custom Objects feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string FreeCustomObjects = "superoffice.free-custom-objects"
+    return:
+      type: System.String
+    content.vb: Public Const FreeCustomObjects As String = "superoffice.free-custom-objects"
+- uid: SuperOffice.License.SoLicenseNames.FreeConfigScreens
+  commentId: F:SuperOffice.License.SoLicenseNames.FreeConfigScreens
+  id: FreeConfigScreens
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FreeConfigScreens
+  nameWithType: SoLicenseNames.FreeConfigScreens
+  fullName: SuperOffice.License.SoLicenseNames.FreeConfigScreens
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.free-config-screens: Indicate free Configurable screens feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string FreeConfigScreens = "superoffice.free-config-screens"
+    return:
+      type: System.String
+    content.vb: Public Const FreeConfigScreens As String = "superoffice.free-config-screens"
+- uid: SuperOffice.License.SoLicenseNames.FreeReplicationServer
+  commentId: F:SuperOffice.License.SoLicenseNames.FreeReplicationServer
+  id: FreeReplicationServer
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FreeReplicationServer
+  nameWithType: SoLicenseNames.FreeReplicationServer
+  fullName: SuperOffice.License.SoLicenseNames.FreeReplicationServer
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.free-replication-server: Indicate free Replication server feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string FreeReplicationServer = "superoffice.free-replication-server"
+    return:
+      type: System.String
+    content.vb: Public Const FreeReplicationServer As String = "superoffice.free-replication-server"
+- uid: SuperOffice.License.SoLicenseNames.FreeScim
+  commentId: F:SuperOffice.License.SoLicenseNames.FreeScim
+  id: FreeScim
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FreeScim
+  nameWithType: SoLicenseNames.FreeScim
+  fullName: SuperOffice.License.SoLicenseNames.FreeScim
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.free-scim: Indicate free SCIM feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string FreeScim = "superoffice.free-scim"
+    return:
+      type: System.String
+    content.vb: Public Const FreeScim As String = "superoffice.free-scim"
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License

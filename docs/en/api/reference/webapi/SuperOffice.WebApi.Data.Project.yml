@@ -10,12 +10,14 @@ items:
   - SuperOffice.WebApi.Data.Project.AssociateFullName
   - SuperOffice.WebApi.Data.Project.AssociateId
   - SuperOffice.WebApi.Data.Project.Description
+  - SuperOffice.WebApi.Data.Project.EventId
   - SuperOffice.WebApi.Data.Project.IsPublished
   - SuperOffice.WebApi.Data.Project.Name
   - SuperOffice.WebApi.Data.Project.ProjectId
   - SuperOffice.WebApi.Data.Project.ProjectNumber
   - SuperOffice.WebApi.Data.Project.PublishFrom
   - SuperOffice.WebApi.Data.Project.PublishTo
+  - SuperOffice.WebApi.Data.Project.StartDate
   - SuperOffice.WebApi.Data.Project.Status
   - SuperOffice.WebApi.Data.Project.StatusId
   - SuperOffice.WebApi.Data.Project.TextId
@@ -500,6 +502,52 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActiveErpLinks As Integer
   overload: SuperOffice.WebApi.Data.Project.ActiveErpLinks*
+- uid: SuperOffice.WebApi.Data.Project.EventId
+  commentId: P:SuperOffice.WebApi.Data.Project.EventId
+  id: EventId
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: Project.EventId
+  fullName: SuperOffice.WebApi.Data.Project.EventId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Reserved field for Lyyti event when project is linked to an event.
+  example: []
+  syntax:
+    content: public virtual int EventId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EventId As Integer
+  overload: SuperOffice.WebApi.Data.Project.EventId*
+- uid: SuperOffice.WebApi.Data.Project.StartDate
+  commentId: P:SuperOffice.WebApi.Data.Project.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.Project
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: Project.StartDate
+  fullName: SuperOffice.WebApi.Data.Project.StartDate
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Reserved field for Lyyti event when project is linked to an event, is the event start date.
+  example: []
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As Date
+  overload: SuperOffice.WebApi.Data.Project.StartDate*
 references:
 - uid: SuperOffice.WebApi.Agents.ProjectAgent
   commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
@@ -986,3 +1034,17 @@ references:
   name: ActiveErpLinks
   nameWithType: Project.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.Project.ActiveErpLinks
+- uid: SuperOffice.WebApi.Data.Project.EventId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.EventId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Project.html#SuperOffice_WebApi_Data_Project_EventId
+  name: EventId
+  nameWithType: Project.EventId
+  fullName: SuperOffice.WebApi.Data.Project.EventId
+- uid: SuperOffice.WebApi.Data.Project.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Project.StartDate
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Project.html#SuperOffice_WebApi_Data_Project_StartDate
+  name: StartDate
+  nameWithType: Project.StartDate
+  fullName: SuperOffice.WebApi.Data.Project.StartDate

@@ -21,6 +21,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colCompleted
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colDesc
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEndDate
+  - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colHasGuide
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colHasInfo
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colIcon
@@ -32,6 +33,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colRegisteredBy
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colRegisteredByFullName
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colRegisteredDate
+  - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStatus
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStatusRank
   - SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colText
@@ -674,6 +676,44 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colActiveErpLinks As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+  id: _colEventId
+  parent: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colEventId
+  nameWithType: ProjectExtenderBase._colEventId
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colEventId
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colEventId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colEventId As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
+  id: _colStartDate
+  parent: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colStartDate
+  nameWithType: ProjectExtenderBase._colStartDate
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase._colStartDate
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colStartDate
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colStartDate As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.#ctor
   id: '#ctor'

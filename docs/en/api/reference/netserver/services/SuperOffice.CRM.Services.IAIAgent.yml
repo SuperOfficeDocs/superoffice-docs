@@ -25,6 +25,8 @@ items:
   - SuperOffice.CRM.Services.IAIAgent.GetChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetCopilotEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync(System.String,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromImageAsync(System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.GetIndexingStatusAsync(System.String,System.Threading.CancellationToken)
@@ -975,6 +977,86 @@ items:
   nameWithType.vb: IAIAgent.GetFormDesignFromUrlAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync(String, System.Threading.CancellationToken)
   name.vb: GetFormDesignFromUrlAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  id: GetFormDesignCssFromImageAsync(System.IO.Stream,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignCssFromImageAsync(Stream, string[], CancellationToken)
+  nameWithType: IAIAgent.GetFormDesignCssFromImageAsync(Stream, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync(System.IO.Stream, string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns Form Designer CSS based on the look of a picture
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<FormDesignCarrier> GetFormDesignCssFromImageAsync(Stream image, string[] cssClasses, CancellationToken cancellationToken = default)
+    parameters:
+    - id: image
+      type: System.IO.Stream
+      description: Image data to analyze for design
+    - id: cssClasses
+      type: System.String[]
+      description: List of CSS classes to generate styles for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormDesignCarrier}
+      description: Returns CSS rules and confidence score.
+    content.vb: Function GetFormDesignCssFromImageAsync(image As Stream, cssClasses As String(), cancellationToken As CancellationToken = Nothing) As Task(Of FormDesignCarrier)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync*
+  nameWithType.vb: IAIAgent.GetFormDesignCssFromImageAsync(Stream, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync(System.IO.Stream, String(), System.Threading.CancellationToken)
+  name.vb: GetFormDesignCssFromImageAsync(Stream, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync(System.String,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync(System.String,System.String[],System.Threading.CancellationToken)
+  id: GetFormDesignCssFromUrlAsync(System.String,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignCssFromUrlAsync(string, string[], CancellationToken)
+  nameWithType: IAIAgent.GetFormDesignCssFromUrlAsync(string, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync(string, string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns Form Designer properties based on the look of a web page
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<FormDesignCarrier> GetFormDesignCssFromUrlAsync(string url, string[] cssClasses, CancellationToken cancellationToken = default)
+    parameters:
+    - id: url
+      type: System.String
+      description: Url of the web page to extract style from.
+    - id: cssClasses
+      type: System.String[]
+      description: List of CSS classes to generate styles for.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormDesignCarrier}
+      description: Returns CSS rules and confidence score.
+    content.vb: Function GetFormDesignCssFromUrlAsync(url As String, cssClasses As String(), cancellationToken As CancellationToken = Nothing) As Task(Of FormDesignCarrier)
+  overload: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync*
+  nameWithType.vb: IAIAgent.GetFormDesignCssFromUrlAsync(String, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync(String, String(), System.Threading.CancellationToken)
+  name.vb: GetFormDesignCssFromUrlAsync(String, String(), CancellationToken)
 - uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync(System.String,System.Threading.CancellationToken)
   id: DetectLanguageAsync(System.String,System.Threading.CancellationToken)
@@ -2510,6 +2592,78 @@ references:
   name: GetFormDesignFromUrlAsync
   nameWithType: IAIAgent.GetFormDesignFromUrlAsync
   fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignFromUrlAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetFormDesignCssFromImageAsync_System_IO_Stream_System_String___System_Threading_CancellationToken_
+  name: GetFormDesignCssFromImageAsync
+  nameWithType: IAIAgent.GetFormDesignCssFromImageAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromImageAsync
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormDesignCarrier}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FormDesignCarrier}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FormDesignCarrier>
+  nameWithType: Task<FormDesignCarrier>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FormDesignCarrier>
+  nameWithType.vb: Task(Of FormDesignCarrier)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FormDesignCarrier)
+  name.vb: Task(Of FormDesignCarrier)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FormDesignCarrier
+    name: FormDesignCarrier
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormDesignCarrier.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FormDesignCarrier
+    name: FormDesignCarrier
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormDesignCarrier.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_GetFormDesignCssFromUrlAsync_System_String_System_String___System_Threading_CancellationToken_
+  name: GetFormDesignCssFromUrlAsync
+  nameWithType: IAIAgent.GetFormDesignCssFromUrlAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.GetFormDesignCssFromUrlAsync
 - uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectLanguageAsync
   isExternal: true

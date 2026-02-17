@@ -63,8 +63,6 @@ items:
   - SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo
   - SuperOffice.CRM.Security.Rights`2
   - SuperOffice.CRM.Security.RoleRightsSentry`1
-  - SuperOffice.CRM.Security.SORPublishSentry
-  - SuperOffice.CRM.Security.SORPublishSentryQueryInfo
   - SuperOffice.CRM.Security.SaleSentry
   - SuperOffice.CRM.Security.SaleSentryQueryInfo
   - SuperOffice.CRM.Security.SatelliteSentry
@@ -1011,21 +1009,6 @@ references:
   name: SentryQueryUpdater
   nameWithType: SentryQueryUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryUpdater
-- uid: SuperOffice.CRM.Security.SORPublishSentry
-  commentId: T:SuperOffice.CRM.Security.SORPublishSentry
-  isExternal: true
-  href: SuperOffice.CRM.Security.SORPublishSentry.html
-  name: SORPublishSentry
-  nameWithType: SORPublishSentry
-  fullName: SuperOffice.CRM.Security.SORPublishSentry
-- uid: SuperOffice.CRM.Security.SORPublishSentryQueryInfo
-  commentId: T:SuperOffice.CRM.Security.SORPublishSentryQueryInfo
-  parent: SuperOffice.CRM.Security
-  isExternal: true
-  href: SuperOffice.CRM.Security.SORPublishSentryQueryInfo.html
-  name: SORPublishSentryQueryInfo
-  nameWithType: SORPublishSentryQueryInfo
-  fullName: SuperOffice.CRM.Security.SORPublishSentryQueryInfo
 - uid: SuperOffice.CRM.Security.Rights`2
   commentId: T:SuperOffice.CRM.Security.Rights`2
   isExternal: true

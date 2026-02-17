@@ -1,0 +1,1944 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings
+  commentId: T:SuperOffice.WebApi.Data.FunctionRightStrings
+  id: FunctionRightStrings
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminAll
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminAudience
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminDashboard
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlow
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlowAssets
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminImport
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminLists
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminPreferences
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminProducts
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminQuote
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminReplication
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminRole
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintDefinition
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintRegeneration
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminScript
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminUdef
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminUsers
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminWebhooks
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AdminWorkflow
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkCopyMembers
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkDelete
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEdit
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEmail
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkExport
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkGenerateActivities
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkInterests
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkMailmerge
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkUserApplications
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowDictionarySDK
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowReadonlyOverride
+  - SuperOffice.WebApi.Data.FunctionRightStrings.AllowSendEMail
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSCategories
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSChangePref
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSChangeProfile
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSDocument
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSEditExtraTableContent
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSEditFaq
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOthers
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOwn
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSEditSelections
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSFaqAdmin
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSListExtraTableContent
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSListOthers
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSListOwn
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSPostToFacebook
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOthers
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOwn
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSReadSelections
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSStatistics
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CSSystem
+  - SuperOffice.WebApi.Data.FunctionRightStrings.CanApproveQuote
+  - SuperOffice.WebApi.Data.FunctionRightStrings.DefineNewTags
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeAppointment
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeDocument
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeProject
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeSale
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtSeeEventProjects
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseMyCompanyRights
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseSameProjectRights
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideCompany
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideInbox
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideMailings
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideProject
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideSale
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideSelection
+  - SuperOffice.WebApi.Data.FunctionRightStrings.HideService
+  - SuperOffice.WebApi.Data.FunctionRightStrings.LockUnlockTargetAssignment
+  - SuperOffice.WebApi.Data.FunctionRightStrings.MailingConsentOverride
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ManageEntities
+  - SuperOffice.WebApi.Data.FunctionRightStrings.ManagePersonConsent
+  - SuperOffice.WebApi.Data.FunctionRightStrings.SeeOtherCompaniesAssociates
+  - SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminAll
+  - SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminUser
+  - SuperOffice.WebApi.Data.FunctionRightStrings.TargetsAdminstrator
+  langs:
+  - csharp
+  - vb
+  name: FunctionRightStrings
+  nameWithType: FunctionRightStrings
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public static class FunctionRightStrings
+    content.vb: Public Module FunctionRightStrings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminAll
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminAll
+  id: AdminAll
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminAll
+  nameWithType: FunctionRightStrings.AdminAll
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminAll
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: General admin rights, gives access to all panels of the admin client
+  example: []
+  syntax:
+    content: public const string AdminAll = "admin-all"
+    return:
+      type: System.String
+    content.vb: Public Const AdminAll As String = "admin-all"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminLists
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminLists
+  id: AdminLists
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminLists
+  nameWithType: FunctionRightStrings.AdminLists
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminLists
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: List admin rights, gives access to the Lists panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminLists = "admin-lists"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLists As String = "admin-lists"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminUsers
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminUsers
+  id: AdminUsers
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminUsers
+  nameWithType: FunctionRightStrings.AdminUsers
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminUsers
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: User admin rights, gives access to the users panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminUsers = "admin-users"
+    return:
+      type: System.String
+    content.vb: Public Const AdminUsers As String = "admin-users"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminReplication
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminReplication
+  id: AdminReplication
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminReplication
+  nameWithType: FunctionRightStrings.AdminReplication
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminReplication
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Replication admin rights, gives access to the area and satellite panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminReplication = "admin-replication"
+    return:
+      type: System.String
+    content.vb: Public Const AdminReplication As String = "admin-replication"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminRole
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminRole
+  id: AdminRole
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminRole
+  nameWithType: FunctionRightStrings.AdminRole
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminRole
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Role admin rights, gives access to the Role panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminRole = "admin-role"
+    return:
+      type: System.String
+    content.vb: Public Const AdminRole As String = "admin-role"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminWorkflow
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminWorkflow
+  id: AdminWorkflow
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminWorkflow
+  nameWithType: FunctionRightStrings.AdminWorkflow
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminWorkflow
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Sale admin righst, gives access to the Sale panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminWorkflow = "admin-workflow"
+    return:
+      type: System.String
+    content.vb: Public Const AdminWorkflow As String = "admin-workflow"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminProducts
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminProducts
+  id: AdminProducts
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminProducts
+  nameWithType: FunctionRightStrings.AdminProducts
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminProducts
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Products admin righst, gives access to the Products panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminProducts = "admin-products"
+    return:
+      type: System.String
+    content.vb: Public Const AdminProducts As String = "admin-products"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminPreferences
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminPreferences
+  id: AdminPreferences
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminPreferences
+  nameWithType: FunctionRightStrings.AdminPreferences
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminPreferences
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Preferences admin righst, gives access to the Preferences panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminPreferences = "admin-preferences"
+    return:
+      type: System.String
+    content.vb: Public Const AdminPreferences As String = "admin-preferences"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminScript
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminScript
+  id: AdminScript
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminScript
+  nameWithType: FunctionRightStrings.AdminScript
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminScript
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Script admin righst, gives access to the Script panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminScript = "admin-script"
+    return:
+      type: System.String
+    content.vb: Public Const AdminScript As String = "admin-script"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminQuote
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminQuote
+  id: AdminQuote
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminQuote
+  nameWithType: FunctionRightStrings.AdminQuote
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminQuote
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Quote admin rights, gives access to the Quote panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminQuote = "admin-quote"
+    return:
+      type: System.String
+    content.vb: Public Const AdminQuote As String = "admin-quote"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminWebhooks
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminWebhooks
+  id: AdminWebhooks
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminWebhooks
+  nameWithType: FunctionRightStrings.AdminWebhooks
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminWebhooks
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Webhook admin rights, gives ability to save+delete+test webhooks
+  example: []
+  syntax:
+    content: public const string AdminWebhooks = "admin-webhooks"
+    return:
+      type: System.String
+    content.vb: Public Const AdminWebhooks As String = "admin-webhooks"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowReadonlyOverride
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowReadonlyOverride
+  id: AllowReadonlyOverride
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowReadonlyOverride
+  nameWithType: FunctionRightStrings.AllowReadonlyOverride
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowReadonlyOverride
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right is allowed to write to read-only udef fields
+  example: []
+  syntax:
+    content: public const string AllowReadonlyOverride = "allow-readonly-override"
+    return:
+      type: System.String
+    content.vb: Public Const AllowReadonlyOverride As String = "allow-readonly-override"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideCompany
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideCompany
+  id: HideCompany
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideCompany
+  nameWithType: FunctionRightStrings.HideCompany
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideCompany
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right will NOT see the company panel. This supersedes the corresponding 'Cripple' preference
+  example: []
+  syntax:
+    content: public const string HideCompany = "hide-company"
+    return:
+      type: System.String
+    content.vb: Public Const HideCompany As String = "hide-company"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideSale
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideSale
+  id: HideSale
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideSale
+  nameWithType: FunctionRightStrings.HideSale
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideSale
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right will NOT see the sale dialog. This supersedes the corresponding 'Cripple' preference
+  example: []
+  syntax:
+    content: public const string HideSale = "hide-sale"
+    return:
+      type: System.String
+    content.vb: Public Const HideSale As String = "hide-sale"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideProject
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideProject
+  id: HideProject
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideProject
+  nameWithType: FunctionRightStrings.HideProject
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideProject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right will NOT see the project panel. This supersedes the corresponding 'Cripple' preference
+  example: []
+  syntax:
+    content: public const string HideProject = "hide-project"
+    return:
+      type: System.String
+    content.vb: Public Const HideProject As String = "hide-project"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideInbox
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideInbox
+  id: HideInbox
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideInbox
+  nameWithType: FunctionRightStrings.HideInbox
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideInbox
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right will NOT see the inbox panel. This supersedes the corresponding 'Cripple' preference
+  example: []
+  syntax:
+    content: public const string HideInbox = "hide-inbox"
+    return:
+      type: System.String
+    content.vb: Public Const HideInbox As String = "hide-inbox"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideSelection
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideSelection
+  id: HideSelection
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideSelection
+  nameWithType: FunctionRightStrings.HideSelection
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideSelection
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right will NOT see the selection panel. This supersedes the corresponding 'Cripple' preference
+  example: []
+  syntax:
+    content: public const string HideSelection = "hide-selection"
+    return:
+      type: System.String
+    content.vb: Public Const HideSelection As String = "hide-selection"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideService
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideService
+  id: HideService
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideService
+  nameWithType: FunctionRightStrings.HideService
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideService
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right will NOT see the service (tickets). This supersedes the corresponding 'Cripple' preference
+  example: []
+  syntax:
+    content: public const string HideService = "hide-service"
+    return:
+      type: System.String
+    content.vb: Public Const HideService As String = "hide-service"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.HideMailings
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.HideMailings
+  id: HideMailings
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideMailings
+  nameWithType: FunctionRightStrings.HideMailings
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.HideMailings
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: ''
+  example: []
+  syntax:
+    content: public const string HideMailings = "hide-mailings"
+    return:
+      type: System.String
+    content.vb: Public Const HideMailings As String = "hide-mailings"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkMailmerge
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkMailmerge
+  id: AllowBulkMailmerge
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkMailmerge
+  nameWithType: FunctionRightStrings.AllowBulkMailmerge
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkMailmerge
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk mail merge based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkMailmerge = "allow-bulk-mailmerge"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkMailmerge As String = "allow-bulk-mailmerge"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkExport
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkExport
+  id: AllowBulkExport
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkExport
+  nameWithType: FunctionRightStrings.AllowBulkExport
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkExport
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk export based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkExport = "allow-bulk-export"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkExport As String = "allow-bulk-export"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkGenerateActivities
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkGenerateActivities
+  id: AllowBulkGenerateActivities
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkGenerateActivities
+  nameWithType: FunctionRightStrings.AllowBulkGenerateActivities
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkGenerateActivities
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk activity generation based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkGenerateActivities = "allow-bulk-generate-activities"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkGenerateActivities As String = "allow-bulk-generate-activities"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkCopyMembers
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkCopyMembers
+  id: AllowBulkCopyMembers
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkCopyMembers
+  nameWithType: FunctionRightStrings.AllowBulkCopyMembers
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkCopyMembers
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk member copy based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkCopyMembers = "allow-bulk-copy-members"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkCopyMembers As String = "allow-bulk-copy-members"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEdit
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEdit
+  id: AllowBulkEdit
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkEdit
+  nameWithType: FunctionRightStrings.AllowBulkEdit
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEdit
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk edit based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkEdit = "allow-bulk-edit"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkEdit As String = "allow-bulk-edit"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkDelete
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkDelete
+  id: AllowBulkDelete
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkDelete
+  nameWithType: FunctionRightStrings.AllowBulkDelete
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkDelete
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk delete based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkDelete = "allow-bulk-delete"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkDelete As String = "allow-bulk-delete"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkInterests
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkInterests
+  id: AllowBulkInterests
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkInterests
+  nameWithType: FunctionRightStrings.AllowBulkInterests
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkInterests
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk interest generation based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkInterests = "allow-bulk-interests"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkInterests As String = "allow-bulk-interests"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEmail
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEmail
+  id: AllowBulkEmail
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkEmail
+  nameWithType: FunctionRightStrings.AllowBulkEmail
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkEmail
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN do bulk email sending based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkEmail = "allow-bulk-email"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkEmail As String = "allow-bulk-email"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkUserApplications
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkUserApplications
+  id: AllowBulkUserApplications
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowBulkUserApplications
+  nameWithType: FunctionRightStrings.AllowBulkUserApplications
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowBulkUserApplications
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN use user-defined bulk tasks based on selections
+  example: []
+  syntax:
+    content: public const string AllowBulkUserApplications = "allow-bulk-user-applications"
+    return:
+      type: System.String
+    content.vb: Public Const AllowBulkUserApplications As String = "allow-bulk-user-applications"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.SeeOtherCompaniesAssociates
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.SeeOtherCompaniesAssociates
+  id: SeeOtherCompaniesAssociates
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: SeeOtherCompaniesAssociates
+  nameWithType: FunctionRightStrings.SeeOtherCompaniesAssociates
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.SeeOtherCompaniesAssociates
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN see associates belonging to other company cards than his own
+  example: []
+  syntax:
+    content: public const string SeeOtherCompaniesAssociates = "see-other-companies-associates"
+    return:
+      type: System.String
+    content.vb: Public Const SeeOtherCompaniesAssociates As String = "see-other-companies-associates"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintRegeneration
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintRegeneration
+  id: AdminSaintRegeneration
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminSaintRegeneration
+  nameWithType: FunctionRightStrings.AdminSaintRegeneration
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintRegeneration
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN regenerate saint counters and statuses in the admin client (global regeneration)
+  example: []
+  syntax:
+    content: public const string AdminSaintRegeneration = "admin-saint-regeneration"
+    return:
+      type: System.String
+    content.vb: Public Const AdminSaintRegeneration As String = "admin-saint-regeneration"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintDefinition
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintDefinition
+  id: AdminSaintDefinition
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminSaintDefinition
+  nameWithType: FunctionRightStrings.AdminSaintDefinition
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminSaintDefinition
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: /// A user who has this right, CAN define saint statuses
+  example: []
+  syntax:
+    content: public const string AdminSaintDefinition = "admin-saint-definition"
+    return:
+      type: System.String
+    content.vb: Public Const AdminSaintDefinition As String = "admin-saint-definition"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowDictionarySDK
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowDictionarySDK
+  id: AllowDictionarySDK
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowDictionarySDK
+  nameWithType: FunctionRightStrings.AllowDictionarySDK
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowDictionarySDK
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: A user who has this right, CAN use the dictionary SDK to programatically change the dictionary
+  example: []
+  syntax:
+    content: public const string AllowDictionarySDK = "allow-dictionarySDK"
+    return:
+      type: System.String
+    content.vb: Public Const AllowDictionarySDK As String = "allow-dictionarySDK"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminUdef
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminUdef
+  id: AdminUdef
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminUdef
+  nameWithType: FunctionRightStrings.AdminUdef
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminUdef
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Udef admin rights, gives access to the Udef (fields) panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminUdef = "admin-udef"
+    return:
+      type: System.String
+    content.vb: Public Const AdminUdef As String = "admin-udef"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminImport
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminImport
+  id: AdminImport
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminImport
+  nameWithType: FunctionRightStrings.AdminImport
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminImport
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Import admin rights, gives access to the Import panel of the admin client
+  example: []
+  syntax:
+    content: public const string AdminImport = "admin-import"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImport As String = "admin-import"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeProject
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeProject
+  id: ExtNeedPublishToSeeProject
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtNeedPublishToSeeProject
+  nameWithType: FunctionRightStrings.ExtNeedPublishToSeeProject
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeProject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: External users can only see published projects
+  example: []
+  syntax:
+    content: public const string ExtNeedPublishToSeeProject = "ext-need-publish-to-see-project"
+    return:
+      type: System.String
+    content.vb: Public Const ExtNeedPublishToSeeProject As String = "ext-need-publish-to-see-project"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeAppointment
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeAppointment
+  id: ExtNeedPublishToSeeAppointment
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtNeedPublishToSeeAppointment
+  nameWithType: FunctionRightStrings.ExtNeedPublishToSeeAppointment
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeAppointment
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: External users can only see published appointments
+  example: []
+  syntax:
+    content: public const string ExtNeedPublishToSeeAppointment = "ext-need-publish-to-see-appointment"
+    return:
+      type: System.String
+    content.vb: Public Const ExtNeedPublishToSeeAppointment As String = "ext-need-publish-to-see-appointment"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeDocument
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeDocument
+  id: ExtNeedPublishToSeeDocument
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtNeedPublishToSeeDocument
+  nameWithType: FunctionRightStrings.ExtNeedPublishToSeeDocument
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeDocument
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: External users can only see published documents
+  example: []
+  syntax:
+    content: public const string ExtNeedPublishToSeeDocument = "ext-need-publish-to-see-document"
+    return:
+      type: System.String
+    content.vb: Public Const ExtNeedPublishToSeeDocument As String = "ext-need-publish-to-see-document"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeSale
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeSale
+  id: ExtNeedPublishToSeeSale
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtNeedPublishToSeeSale
+  nameWithType: FunctionRightStrings.ExtNeedPublishToSeeSale
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtNeedPublishToSeeSale
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: External users can only see published sales
+  example: []
+  syntax:
+    content: public const string ExtNeedPublishToSeeSale = "ext-need-publish-to-see-sale"
+    return:
+      type: System.String
+    content.vb: Public Const ExtNeedPublishToSeeSale As String = "ext-need-publish-to-see-sale"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtSeeEventProjects
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtSeeEventProjects
+  id: ExtSeeEventProjects
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtSeeEventProjects
+  nameWithType: FunctionRightStrings.ExtSeeEventProjects
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtSeeEventProjects
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: External users can only see projects that have Events
+  example: []
+  syntax:
+    content: public const string ExtSeeEventProjects = "ext-see-event-projects"
+    return:
+      type: System.String
+    content.vb: Public Const ExtSeeEventProjects As String = "ext-see-event-projects"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseMyCompanyRights
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseMyCompanyRights
+  id: ExtUseMyCompanyRights
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtUseMyCompanyRights
+  nameWithType: FunctionRightStrings.ExtUseMyCompanyRights
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseMyCompanyRights
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: ''
+  example: []
+  syntax:
+    content: public const string ExtUseMyCompanyRights = "ext-use-my-company-rights"
+    return:
+      type: System.String
+    content.vb: Public Const ExtUseMyCompanyRights As String = "ext-use-my-company-rights"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseSameProjectRights
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseSameProjectRights
+  id: ExtUseSameProjectRights
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ExtUseSameProjectRights
+  nameWithType: FunctionRightStrings.ExtUseSameProjectRights
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ExtUseSameProjectRights
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: ''
+  example: []
+  syntax:
+    content: public const string ExtUseSameProjectRights = "ext-use-same-project-rights"
+    return:
+      type: System.String
+    content.vb: Public Const ExtUseSameProjectRights As String = "ext-use-same-project-rights"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminAudience
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminAudience
+  id: AdminAudience
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminAudience
+  nameWithType: FunctionRightStrings.AdminAudience
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminAudience
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Admin rights for audience
+  example: []
+  syntax:
+    content: public const string AdminAudience = "admin-audience"
+    return:
+      type: System.String
+    content.vb: Public Const AdminAudience As String = "admin-audience"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminAll
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminAll
+  id: SyncadminAll
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: SyncadminAll
+  nameWithType: FunctionRightStrings.SyncadminAll
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminAll
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: General admin rights for sync modules
+  example: []
+  syntax:
+    content: public const string SyncadminAll = "syncadmin-all"
+    return:
+      type: System.String
+    content.vb: Public Const SyncadminAll As String = "syncadmin-all"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminUser
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminUser
+  id: SyncadminUser
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: SyncadminUser
+  nameWithType: FunctionRightStrings.SyncadminUser
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.SyncadminUser
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: User admin rights for sync modules
+  example: []
+  syntax:
+    content: public const string SyncadminUser = "syncadmin-user"
+    return:
+      type: System.String
+    content.vb: Public Const SyncadminUser As String = "syncadmin-user"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ManageEntities
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ManageEntities
+  id: ManageEntities
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ManageEntities
+  nameWithType: FunctionRightStrings.ManageEntities
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ManageEntities
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Manage (i.e.,  copy, move or merge) entities, such as Contact, Person, Project
+  example: []
+  syntax:
+    content: public const string ManageEntities = "allow-manage-entities"
+    return:
+      type: System.String
+    content.vb: Public Const ManageEntities As String = "allow-manage-entities"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CanApproveQuote
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CanApproveQuote
+  id: CanApproveQuote
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CanApproveQuote
+  nameWithType: FunctionRightStrings.CanApproveQuote
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CanApproveQuote
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Approving of a quote
+  example: []
+  syntax:
+    content: public const string CanApproveQuote = "quote-can-approve"
+    return:
+      type: System.String
+    content.vb: Public Const CanApproveQuote As String = "quote-can-approve"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSListOwn
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSListOwn
+  id: CSListOwn
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSListOwn
+  nameWithType: FunctionRightStrings.CSListOwn
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSListOwn
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: List requests in own categories
+  example: []
+  syntax:
+    content: public const string CSListOwn = "cs-listown"
+    return:
+      type: System.String
+    content.vb: Public Const CSListOwn As String = "cs-listown"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOwn
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOwn
+  id: CSReadOwn
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSReadOwn
+  nameWithType: FunctionRightStrings.CSReadOwn
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOwn
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Read requests in own categories
+  example: []
+  syntax:
+    content: public const string CSReadOwn = "cs-readown"
+    return:
+      type: System.String
+    content.vb: Public Const CSReadOwn As String = "cs-readown"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOwn
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOwn
+  id: CSEditOwn
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSEditOwn
+  nameWithType: FunctionRightStrings.CSEditOwn
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOwn
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Edit requests in member categories
+  example: []
+  syntax:
+    content: public const string CSEditOwn = "cs-editown"
+    return:
+      type: System.String
+    content.vb: Public Const CSEditOwn As String = "cs-editown"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSListOthers
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSListOthers
+  id: CSListOthers
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSListOthers
+  nameWithType: FunctionRightStrings.CSListOthers
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSListOthers
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: List all requests
+  example: []
+  syntax:
+    content: public const string CSListOthers = "cs-listothers"
+    return:
+      type: System.String
+    content.vb: Public Const CSListOthers As String = "cs-listothers"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOthers
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOthers
+  id: CSReadOthers
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSReadOthers
+  nameWithType: FunctionRightStrings.CSReadOthers
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSReadOthers
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Read all requests
+  example: []
+  syntax:
+    content: public const string CSReadOthers = "cs-readothers"
+    return:
+      type: System.String
+    content.vb: Public Const CSReadOthers As String = "cs-readothers"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOthers
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOthers
+  id: CSEditOthers
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSEditOthers
+  nameWithType: FunctionRightStrings.CSEditOthers
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditOthers
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Edit all requests
+  example: []
+  syntax:
+    content: public const string CSEditOthers = "cs-editothers"
+    return:
+      type: System.String
+    content.vb: Public Const CSEditOthers As String = "cs-editothers"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSPostToFacebook
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSPostToFacebook
+  id: CSPostToFacebook
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSPostToFacebook
+  nameWithType: FunctionRightStrings.CSPostToFacebook
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSPostToFacebook
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Facebook
+  example: []
+  syntax:
+    content: public const string CSPostToFacebook = "cs-posttofacebook"
+    return:
+      type: System.String
+    content.vb: Public Const CSPostToFacebook As String = "cs-posttofacebook"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSDocument
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSDocument
+  id: CSDocument
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSDocument
+  nameWithType: FunctionRightStrings.CSDocument
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSDocument
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Knowledge Base
+  example: []
+  syntax:
+    content: public const string CSDocument = "cs-document"
+    return:
+      type: System.String
+    content.vb: Public Const CSDocument As String = "cs-document"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSListExtraTableContent
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSListExtraTableContent
+  id: CSListExtraTableContent
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSListExtraTableContent
+  nameWithType: FunctionRightStrings.CSListExtraTableContent
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSListExtraTableContent
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: List tables
+  example: []
+  syntax:
+    content: public const string CSListExtraTableContent = "cs-listextratablecontent"
+    return:
+      type: System.String
+    content.vb: Public Const CSListExtraTableContent As String = "cs-listextratablecontent"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditExtraTableContent
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSEditExtraTableContent
+  id: CSEditExtraTableContent
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSEditExtraTableContent
+  nameWithType: FunctionRightStrings.CSEditExtraTableContent
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditExtraTableContent
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Edit tables
+  example: []
+  syntax:
+    content: public const string CSEditExtraTableContent = "cs-editextratablecontent"
+    return:
+      type: System.String
+    content.vb: Public Const CSEditExtraTableContent As String = "cs-editextratablecontent"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditFaq
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSEditFaq
+  id: CSEditFaq
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSEditFaq
+  nameWithType: FunctionRightStrings.CSEditFaq
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditFaq
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Edit FAQ entries
+  example: []
+  syntax:
+    content: public const string CSEditFaq = "cs-editfaq"
+    return:
+      type: System.String
+    content.vb: Public Const CSEditFaq As String = "cs-editfaq"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSFaqAdmin
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSFaqAdmin
+  id: CSFaqAdmin
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSFaqAdmin
+  nameWithType: FunctionRightStrings.CSFaqAdmin
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSFaqAdmin
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Administrate FAQ
+  example: []
+  syntax:
+    content: public const string CSFaqAdmin = "cs-faqadmin"
+    return:
+      type: System.String
+    content.vb: Public Const CSFaqAdmin As String = "cs-faqadmin"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSStatistics
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSStatistics
+  id: CSStatistics
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSStatistics
+  nameWithType: FunctionRightStrings.CSStatistics
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSStatistics
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: View statistics
+  example: []
+  syntax:
+    content: public const string CSStatistics = "cs-statistics"
+    return:
+      type: System.String
+    content.vb: Public Const CSStatistics As String = "cs-statistics"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSReadSelections
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSReadSelections
+  id: CSReadSelections
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSReadSelections
+  nameWithType: FunctionRightStrings.CSReadSelections
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSReadSelections
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: View selections
+  example: []
+  syntax:
+    content: public const string CSReadSelections = "cs-readselections"
+    return:
+      type: System.String
+    content.vb: Public Const CSReadSelections As String = "cs-readselections"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditSelections
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSEditSelections
+  id: CSEditSelections
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSEditSelections
+  nameWithType: FunctionRightStrings.CSEditSelections
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSEditSelections
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Create selections
+  example: []
+  syntax:
+    content: public const string CSEditSelections = "cs-editselections"
+    return:
+      type: System.String
+    content.vb: Public Const CSEditSelections As String = "cs-editselections"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSChangePref
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSChangePref
+  id: CSChangePref
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSChangePref
+  nameWithType: FunctionRightStrings.CSChangePref
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSChangePref
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Change own properties
+  example: []
+  syntax:
+    content: public const string CSChangePref = "cs-changepref"
+    return:
+      type: System.String
+    content.vb: Public Const CSChangePref As String = "cs-changepref"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSChangeProfile
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSChangeProfile
+  id: CSChangeProfile
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSChangeProfile
+  nameWithType: FunctionRightStrings.CSChangeProfile
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSChangeProfile
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Change own profile
+  example: []
+  syntax:
+    content: public const string CSChangeProfile = "cs-changeprofile"
+    return:
+      type: System.String
+    content.vb: Public Const CSChangeProfile As String = "cs-changeprofile"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSCategories
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSCategories
+  id: CSCategories
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSCategories
+  nameWithType: FunctionRightStrings.CSCategories
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSCategories
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Category administration
+  example: []
+  syntax:
+    content: public const string CSCategories = "cs-categories"
+    return:
+      type: System.String
+    content.vb: Public Const CSCategories As String = "cs-categories"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.CSSystem
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.CSSystem
+  id: CSSystem
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSSystem
+  nameWithType: FunctionRightStrings.CSSystem
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.CSSystem
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Customer Service administration
+  example: []
+  syntax:
+    content: public const string CSSystem = "cs-system"
+    return:
+      type: System.String
+    content.vb: Public Const CSSystem As String = "cs-system"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.MailingConsentOverride
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.MailingConsentOverride
+  id: MailingConsentOverride
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: MailingConsentOverride
+  nameWithType: FunctionRightStrings.MailingConsentOverride
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.MailingConsentOverride
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can use mailing override
+  example: []
+  syntax:
+    content: public const string MailingConsentOverride = "mailing-consent-override"
+    return:
+      type: System.String
+    content.vb: Public Const MailingConsentOverride As String = "mailing-consent-override"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.ManagePersonConsent
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.ManagePersonConsent
+  id: ManagePersonConsent
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: ManagePersonConsent
+  nameWithType: FunctionRightStrings.ManagePersonConsent
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.ManagePersonConsent
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can mange consents for a person
+  example: []
+  syntax:
+    content: public const string ManagePersonConsent = "can-manage-person-consent"
+    return:
+      type: System.String
+    content.vb: Public Const ManagePersonConsent As String = "can-manage-person-consent"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.DefineNewTags
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.DefineNewTags
+  id: DefineNewTags
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: DefineNewTags
+  nameWithType: FunctionRightStrings.DefineNewTags
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.DefineNewTags
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can define new tags directly from user interface (as opposed to having to use List Admin)
+  example: []
+  syntax:
+    content: public const string DefineNewTags = "define-new-tags"
+    return:
+      type: System.String
+    content.vb: Public Const DefineNewTags As String = "define-new-tags"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminDashboard
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminDashboard
+  id: AdminDashboard
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminDashboard
+  nameWithType: FunctionRightStrings.AdminDashboard
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminDashboard
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can pin dashboards to others
+  example: []
+  syntax:
+    content: public const string AdminDashboard = "admin-dashboard"
+    return:
+      type: System.String
+    content.vb: Public Const AdminDashboard As String = "admin-dashboard"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.LockUnlockTargetAssignment
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.LockUnlockTargetAssignment
+  id: LockUnlockTargetAssignment
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: LockUnlockTargetAssignment
+  nameWithType: FunctionRightStrings.LockUnlockTargetAssignment
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.LockUnlockTargetAssignment
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can lock / unlock a target assignment
+  example: []
+  syntax:
+    content: public const string LockUnlockTargetAssignment = "lock-unlock-target-assignment"
+    return:
+      type: System.String
+    content.vb: Public Const LockUnlockTargetAssignment As String = "lock-unlock-target-assignment"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlow
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlow
+  id: AdminEmailFlow
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminEmailFlow
+  nameWithType: FunctionRightStrings.AdminEmailFlow
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlow
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can an create and save a flow, can edit a flow, can run a flow, can create, edit, delete flow assets, can cancel a flow.
+  example: []
+  syntax:
+    content: public const string AdminEmailFlow = "admin-email-flow"
+    return:
+      type: System.String
+    content.vb: Public Const AdminEmailFlow As String = "admin-email-flow"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlowAssets
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlowAssets
+  id: AdminEmailFlowAssets
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AdminEmailFlowAssets
+  nameWithType: FunctionRightStrings.AdminEmailFlowAssets
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AdminEmailFlowAssets
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Can create a new flow and save it. Edit button disabled, Run button disabled, cancel flow in task menu disabled. Can add, edit, delete flow assets..
+  example: []
+  syntax:
+    content: public const string AdminEmailFlowAssets = "admin-email-flow-assets"
+    return:
+      type: System.String
+    content.vb: Public Const AdminEmailFlowAssets As String = "admin-email-flow-assets"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.TargetsAdminstrator
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.TargetsAdminstrator
+  id: TargetsAdminstrator
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: TargetsAdminstrator
+  nameWithType: FunctionRightStrings.TargetsAdminstrator
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.TargetsAdminstrator
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Add, edit and remove target types
+  example: []
+  syntax:
+    content: public const string TargetsAdminstrator = "targets-administrator"
+    return:
+      type: System.String
+    content.vb: Public Const TargetsAdminstrator As String = "targets-administrator"
+- uid: SuperOffice.WebApi.Data.FunctionRightStrings.AllowSendEMail
+  commentId: F:SuperOffice.WebApi.Data.FunctionRightStrings.AllowSendEMail
+  id: AllowSendEMail
+  parent: SuperOffice.WebApi.Data.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: AllowSendEMail
+  nameWithType: FunctionRightStrings.AllowSendEMail
+  fullName: SuperOffice.WebApi.Data.FunctionRightStrings.AllowSendEMail
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Grants access to send e-mail
+  example: []
+  syntax:
+    content: public const string AllowSendEMail = "allow-send-email"
+    return:
+      type: System.String
+    content.vb: Public Const AllowSendEMail As String = "allow-send-email"
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

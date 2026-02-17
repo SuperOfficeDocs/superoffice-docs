@@ -48,14 +48,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RestrictionListName
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.RestrictionType
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.StringColumn(System.String,System.String,System.String)
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToString
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToString(System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.UpdatedByColumn
@@ -83,11 +75,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public sealed class ArchiveColumnInfo : ICloneable
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public NotInheritable Class ArchiveColumnInfo Implements ICloneable
   inheritance:
@@ -112,7 +104,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.__sourceCode
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.__sourceCode
   id: __sourceCode
@@ -882,286 +874,6 @@ items:
   nameWithType.vb: ArchiveColumnInfo.AddToExtraInfo(String, String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddToExtraInfo(String, String, String)
   name.vb: AddToExtraInfo(String, String, String)
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  id: ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameArray(params ArchiveColumnInfo[])
-  nameWithType: ArchiveColumnInfo.ToNameArray(params ArchiveColumnInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(params SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert an array of ArchiveColumnInfo into a string array containing the names only
-  example: []
-  syntax:
-    content: public static string[] ToNameArray(params ArchiveColumnInfo[] columnInfos)
-    parameters:
-    - id: columnInfos
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-      description: Column infos to extract names from
-    return:
-      type: System.String[]
-      description: Array of names, in original order
-    content.vb: Public Shared Function ToNameArray(ParamArray columnInfos As ArchiveColumnInfo()) As String()
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray*
-  nameWithType.vb: ArchiveColumnInfo.ToNameArray(ParamArray ArchiveColumnInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
-  name.vb: ToNameArray(ParamArray ArchiveColumnInfo())
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  id: ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameArray(Predicate<ArchiveColumnInfo>, params ArchiveColumnInfo[])
-  nameWithType: ArchiveColumnInfo.ToNameArray(Predicate<ArchiveColumnInfo>, params ArchiveColumnInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, params SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert an array of ArchiveColumnInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should
-
-    be included in the result.
-  example: []
-  syntax:
-    content: public static string[] ToNameArray(Predicate<ArchiveColumnInfo> condition, params ArchiveColumnInfo[] columnInfos)
-    parameters:
-    - id: condition
-      type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: >-
-        Predicate that takes an ArchiveColumnInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveColumnInfo should be included in the result.
-    - id: columnInfos
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-      description: Column infos to test and extract the name from
-    return:
-      type: System.String[]
-      description: Array of names of column infos that were chosen, in original order
-    content.vb: Public Shared Function ToNameArray(condition As Predicate(Of ArchiveColumnInfo), ParamArray columnInfos As ArchiveColumnInfo()) As String()
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray*
-  nameWithType.vb: ArchiveColumnInfo.ToNameArray(Predicate(Of ArchiveColumnInfo), ParamArray ArchiveColumnInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo), ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
-  name.vb: ToNameArray(Predicate(Of ArchiveColumnInfo), ParamArray ArchiveColumnInfo())
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  id: ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameArray(List<ArchiveColumnInfo>)
-  nameWithType: ArchiveColumnInfo.ToNameArray(List<ArchiveColumnInfo>)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert a list of ArchiveColumnInfo into a string array containing the names only
-  example: []
-  syntax:
-    content: public static string[] ToNameArray(List<ArchiveColumnInfo> columnInfos)
-    parameters:
-    - id: columnInfos
-      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Column infos to extract names from
-    return:
-      type: System.String[]
-      description: Array of names, in original order
-    content.vb: Public Shared Function ToNameArray(columnInfos As List(Of ArchiveColumnInfo)) As String()
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray*
-  nameWithType.vb: ArchiveColumnInfo.ToNameArray(List(Of ArchiveColumnInfo))
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
-  name.vb: ToNameArray(List(Of ArchiveColumnInfo))
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  id: ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameArray(Predicate<ArchiveColumnInfo>, List<ArchiveColumnInfo>)
-  nameWithType: ArchiveColumnInfo.ToNameArray(Predicate<ArchiveColumnInfo>, List<ArchiveColumnInfo>)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert a list of ArchiveColumnInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should
-
-    be included in the result.
-  example: []
-  syntax:
-    content: public static string[] ToNameArray(Predicate<ArchiveColumnInfo> condition, List<ArchiveColumnInfo> columnInfos)
-    parameters:
-    - id: condition
-      type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: >-
-        Predicate that takes an ArchiveColumnInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveColumnInfo should be included in the result.
-    - id: columnInfos
-      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Column infos to test and extract the name from
-    return:
-      type: System.String[]
-      description: Array of names of column infos that were chosen, in original order
-    content.vb: Public Shared Function ToNameArray(condition As Predicate(Of ArchiveColumnInfo), columnInfos As List(Of ArchiveColumnInfo)) As String()
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray*
-  nameWithType.vb: ArchiveColumnInfo.ToNameArray(Predicate(Of ArchiveColumnInfo), List(Of ArchiveColumnInfo))
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo), System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
-  name.vb: ToNameArray(Predicate(Of ArchiveColumnInfo), List(Of ArchiveColumnInfo))
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  id: ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameDictionary(params ArchiveColumnInfo[])
-  nameWithType: ArchiveColumnInfo.ToNameDictionary(params ArchiveColumnInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(params SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert an array of ArchiveColumnInfo into a string array containing the names only
-  example: []
-  syntax:
-    content: public static Dictionary<string, ArchiveColumnInfo> ToNameDictionary(params ArchiveColumnInfo[] columnInfos)
-    parameters:
-    - id: columnInfos
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-      description: Column infos to extract names from
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Array of names, in original order
-    content.vb: Public Shared Function ToNameDictionary(ParamArray columnInfos As ArchiveColumnInfo()) As Dictionary(Of String, ArchiveColumnInfo)
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary*
-  nameWithType.vb: ArchiveColumnInfo.ToNameDictionary(ParamArray ArchiveColumnInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
-  name.vb: ToNameDictionary(ParamArray ArchiveColumnInfo())
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  id: ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameDictionary(Predicate<ArchiveColumnInfo>, params ArchiveColumnInfo[])
-  nameWithType: ArchiveColumnInfo.ToNameDictionary(Predicate<ArchiveColumnInfo>, params ArchiveColumnInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, params SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert an array of ArchiveColumnInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should
-
-    be included in the result.
-  example: []
-  syntax:
-    content: public static Dictionary<string, ArchiveColumnInfo> ToNameDictionary(Predicate<ArchiveColumnInfo> condition, params ArchiveColumnInfo[] columnInfos)
-    parameters:
-    - id: condition
-      type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: >-
-        Predicate that takes an ArchiveColumnInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveColumnInfo should be included in the result.
-    - id: columnInfos
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-      description: Column infos to test and extract the name from
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Array of names of column infos that were chosen, in original order
-    content.vb: Public Shared Function ToNameDictionary(condition As Predicate(Of ArchiveColumnInfo), ParamArray columnInfos As ArchiveColumnInfo()) As Dictionary(Of String, ArchiveColumnInfo)
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary*
-  nameWithType.vb: ArchiveColumnInfo.ToNameDictionary(Predicate(Of ArchiveColumnInfo), ParamArray ArchiveColumnInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo), ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
-  name.vb: ToNameDictionary(Predicate(Of ArchiveColumnInfo), ParamArray ArchiveColumnInfo())
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  id: ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameDictionary(List<ArchiveColumnInfo>)
-  nameWithType: ArchiveColumnInfo.ToNameDictionary(List<ArchiveColumnInfo>)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert a list of ArchiveColumnInfo into a string array containing the names only
-  example: []
-  syntax:
-    content: public static Dictionary<string, ArchiveColumnInfo> ToNameDictionary(List<ArchiveColumnInfo> columnInfos)
-    parameters:
-    - id: columnInfos
-      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Column infos to extract names from
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Array of names, in original order
-    content.vb: Public Shared Function ToNameDictionary(columnInfos As List(Of ArchiveColumnInfo)) As Dictionary(Of String, ArchiveColumnInfo)
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary*
-  nameWithType.vb: ArchiveColumnInfo.ToNameDictionary(List(Of ArchiveColumnInfo))
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
-  name.vb: ToNameDictionary(List(Of ArchiveColumnInfo))
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  id: ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
-  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  langs:
-  - csharp
-  - vb
-  name: ToNameDictionary(Predicate<ArchiveColumnInfo>, List<ArchiveColumnInfo>)
-  nameWithType: ArchiveColumnInfo.ToNameDictionary(Predicate<ArchiveColumnInfo>, List<ArchiveColumnInfo>)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert a list of ArchiveColumnInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should
-
-    be included in the result.
-  example: []
-  syntax:
-    content: public static Dictionary<string, ArchiveColumnInfo> ToNameDictionary(Predicate<ArchiveColumnInfo> condition, List<ArchiveColumnInfo> columnInfos)
-    parameters:
-    - id: condition
-      type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: >-
-        Predicate that takes an ArchiveColumnInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveColumnInfo should be included in the result.
-    - id: columnInfos
-      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Column infos to test and extract the name from
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-      description: Array of names of column infos that were chosen, in original order
-    content.vb: Public Shared Function ToNameDictionary(condition As Predicate(Of ArchiveColumnInfo), columnInfos As List(Of ArchiveColumnInfo)) As Dictionary(Of String, ArchiveColumnInfo)
-  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary*
-  nameWithType.vb: ArchiveColumnInfo.ToNameDictionary(Predicate(Of ArchiveColumnInfo), List(Of ArchiveColumnInfo))
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo), System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
-  name.vb: ToNameDictionary(Predicate(Of ArchiveColumnInfo), List(Of ArchiveColumnInfo))
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName(System.String)
   id: ExtractBaseName(System.String)
@@ -2784,99 +2496,55 @@ references:
   name: AddToExtraInfo
   nameWithType: ArchiveColumnInfo.AddToExtraInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddToExtraInfo
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_ToNameArray_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo___
-  name: ToNameArray
-  nameWithType: ArchiveColumnInfo.ToNameArray
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameArray
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_ExtractBaseName_System_String_
+  name: ExtractBaseName
+  nameWithType: ArchiveColumnInfo.ExtractBaseName
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  name: ArchiveColumnInfo[]
-  nameWithType: ArchiveColumnInfo[]
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-  nameWithType.vb: ArchiveColumnInfo()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
-  name.vb: ArchiveColumnInfo()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    name: ArchiveColumnInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    name: ArchiveColumnInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  - name: (
-  - name: )
-- uid: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  commentId: T:System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  parent: System
-  definition: System.Predicate`1
-  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  name: Predicate<ArchiveColumnInfo>
-  nameWithType: Predicate<ArchiveColumnInfo>
-  fullName: System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
-  nameWithType.vb: Predicate(Of ArchiveColumnInfo)
-  fullName.vb: System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
-  name.vb: Predicate(Of ArchiveColumnInfo)
-  spec.csharp:
-  - uid: System.Predicate`1
-    name: Predicate
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    name: ArchiveColumnInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Predicate`1
-    name: Predicate
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    name: ArchiveColumnInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  - name: )
-- uid: System.Predicate`1
-  commentId: T:System.Predicate`1
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_NamePrefixDelimiter
+  name: NamePrefixDelimiter
+  nameWithType: ArchiveColumnInfo.NamePrefixDelimiter
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
-  spec.csharp:
-  - uid: System.Predicate`1
-    name: Predicate
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Predicate`1
-    name: Predicate
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_AddPrefixToName_System_String_System_String_
+  name: AddPrefixToName
+  nameWithType: ArchiveColumnInfo.AddPrefixToName
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_DisplayNamePrefixDelimiter
+  name: DisplayNamePrefixDelimiter
+  nameWithType: ArchiveColumnInfo.DisplayNamePrefixDelimiter
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_AddPrefixToDisplayName_System_String_System_String_
+  name: AddPrefixToDisplayName
+  nameWithType: ArchiveColumnInfo.AddPrefixToDisplayName
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_ExtractCompletePrefix_System_String_
+  name: ExtractCompletePrefix
+  nameWithType: ArchiveColumnInfo.ExtractCompletePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_NormalizeColumnPercentWidths_System_Collections_Generic_List_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo__
+  name: NormalizeColumnPercentWidths
+  nameWithType: ArchiveColumnInfo.NormalizeColumnPercentWidths
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
   commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
   parent: System.Collections.Generic
@@ -2977,143 +2645,6 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_ToNameDictionary_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo___
-  name: ToNameDictionary
-  nameWithType: ArchiveColumnInfo.ToNameDictionary
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ToNameDictionary
-- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, ArchiveColumnInfo>
-  nameWithType: Dictionary<string, ArchiveColumnInfo>
-  fullName: System.Collections.Generic.Dictionary<string, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
-  nameWithType.vb: Dictionary(Of String, ArchiveColumnInfo)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
-  name.vb: Dictionary(Of String, ArchiveColumnInfo)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    name: ArchiveColumnInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    name: ArchiveColumnInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  - name: )
-- uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_ExtractBaseName_System_String_
-  name: ExtractBaseName
-  nameWithType: ArchiveColumnInfo.ExtractBaseName
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractBaseName
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
-  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_NamePrefixDelimiter
-  name: NamePrefixDelimiter
-  nameWithType: ArchiveColumnInfo.NamePrefixDelimiter
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NamePrefixDelimiter
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_AddPrefixToName_System_String_System_String_
-  name: AddPrefixToName
-  nameWithType: ArchiveColumnInfo.AddPrefixToName
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToName
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
-  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_DisplayNamePrefixDelimiter
-  name: DisplayNamePrefixDelimiter
-  nameWithType: ArchiveColumnInfo.DisplayNamePrefixDelimiter
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayNamePrefixDelimiter
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_AddPrefixToDisplayName_System_String_System_String_
-  name: AddPrefixToDisplayName
-  nameWithType: ArchiveColumnInfo.AddPrefixToDisplayName
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.AddPrefixToDisplayName
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_ExtractCompletePrefix_System_String_
-  name: ExtractCompletePrefix
-  nameWithType: ArchiveColumnInfo.ExtractCompletePrefix
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.ExtractCompletePrefix
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_NormalizeColumnPercentWidths_System_Collections_Generic_List_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo__
-  name: NormalizeColumnPercentWidths
-  nameWithType: ArchiveColumnInfo.NormalizeColumnPercentWidths
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.NormalizeColumnPercentWidths
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Clone*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Clone
   isExternal: true

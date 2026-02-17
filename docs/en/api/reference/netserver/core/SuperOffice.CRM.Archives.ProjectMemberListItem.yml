@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Archives.ProjectMemberListItem.EmailAddressName
   - SuperOffice.CRM.Archives.ProjectMemberListItem.EmailId
   - SuperOffice.CRM.Archives.ProjectMemberListItem.EmailRank
+  - SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus
   - SuperOffice.CRM.Archives.ProjectMemberListItem.Initialize
   - SuperOffice.CRM.Archives.ProjectMemberListItem.Load(SuperOffice.CRM.Archives.ProjectMemberList.ProjectMemberListQuery,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Archives.ProjectMemberListItem.Mrmrs
@@ -657,6 +658,29 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property Comment As String
   overload: SuperOffice.CRM.Archives.ProjectMemberListItem.Comment*
+- uid: SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus
+  commentId: P:SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus
+  id: EventParticipantStatus
+  parent: SuperOffice.CRM.Archives.ProjectMemberListItem
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberListItem.EventParticipantStatus
+  fullName: SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: Reserved field for SuperOffice Lyyti event participants.
+  example: []
+  syntax:
+    content: public ProjectMemberEventParticipantStatus EventParticipantStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    content.vb: Public ReadOnly Property EventParticipantStatus As ProjectMemberEventParticipantStatus
+  overload: SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus*
 references:
 - uid: SuperOffice.CRM.Archives
   commentId: N:SuperOffice.CRM.Archives
@@ -1696,3 +1720,18 @@ references:
   name: Comment
   nameWithType: ProjectMemberListItem.Comment
   fullName: SuperOffice.CRM.Archives.ProjectMemberListItem.Comment
+- uid: SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus*
+  commentId: Overload:SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus
+  isExternal: true
+  href: SuperOffice.CRM.Archives.ProjectMemberListItem.html#SuperOffice_CRM_Archives_ProjectMemberListItem_EventParticipantStatus
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberListItem.EventParticipantStatus
+  fullName: SuperOffice.CRM.Archives.ProjectMemberListItem.EventParticipantStatus
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus

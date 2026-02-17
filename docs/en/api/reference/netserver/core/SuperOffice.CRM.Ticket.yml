@@ -9,6 +9,8 @@ items:
   - SuperOffice.CRM.Ticket.ITicketStatusRegistryHelperFactory
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  - SuperOffice.CRM.Ticket.MainTicketInfo
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo
   - SuperOffice.CRM.Ticket.TicketAlertHelper
   - SuperOffice.CRM.Ticket.TicketChangeData
   - SuperOffice.CRM.Ticket.TicketChangeNotificator
@@ -16,7 +18,9 @@ items:
   - SuperOffice.CRM.Ticket.TicketHelper
   - SuperOffice.CRM.Ticket.TicketOwnerResolver
   - SuperOffice.CRM.Ticket.TicketPriorityResolver
+  - SuperOffice.CRM.Ticket.TicketRelationDefInfo
   - SuperOffice.CRM.Ticket.TicketRelationHelper
+  - SuperOffice.CRM.Ticket.TicketRelationtData
   - SuperOffice.CRM.Ticket.TicketStatusRegistryHelper
   - SuperOffice.CRM.Ticket.TicketStatusRegistryHelperFactory
   - SuperOffice.CRM.Ticket.WeekSchedule
@@ -161,6 +165,34 @@ references:
   name: TicketRelationHelper
   nameWithType: TicketRelationHelper
   fullName: SuperOffice.CRM.Ticket.TicketRelationHelper
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  commentId: T:SuperOffice.CRM.Ticket.RelatedTicketInfo
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.RelatedTicketInfo.html
+  name: RelatedTicketInfo
+  nameWithType: RelatedTicketInfo
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo
+- uid: SuperOffice.CRM.Ticket.MainTicketInfo
+  commentId: T:SuperOffice.CRM.Ticket.MainTicketInfo
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.MainTicketInfo.html
+  name: MainTicketInfo
+  nameWithType: MainTicketInfo
+  fullName: SuperOffice.CRM.Ticket.MainTicketInfo
+- uid: SuperOffice.CRM.Ticket.TicketRelationDefInfo
+  commentId: T:SuperOffice.CRM.Ticket.TicketRelationDefInfo
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationDefInfo.html
+  name: TicketRelationDefInfo
+  nameWithType: TicketRelationDefInfo
+  fullName: SuperOffice.CRM.Ticket.TicketRelationDefInfo
+- uid: SuperOffice.CRM.Ticket.TicketRelationtData
+  commentId: T:SuperOffice.CRM.Ticket.TicketRelationtData
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationtData.html
+  name: TicketRelationtData
+  nameWithType: TicketRelationtData
+  fullName: SuperOffice.CRM.Ticket.TicketRelationtData
 - uid: SuperOffice.CRM.Ticket.WeekSchedule
   commentId: T:SuperOffice.CRM.Ticket.WeekSchedule
   isExternal: true

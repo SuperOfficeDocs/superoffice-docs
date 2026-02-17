@@ -57,6 +57,9 @@ items:
   - SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
   - SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
   - SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
+  - SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  - SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  - SuperOffice.Data.TicketLogFieldChange.Relation_Related
   - SuperOffice.Data.TicketLogFieldChange.RepliedAt
   - SuperOffice.Data.TicketLogFieldChange.SLevel
   - SuperOffice.Data.TicketLogFieldChange.SaleId
@@ -84,11 +87,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public enum TicketLogFieldChange
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Enum TicketLogFieldChange
   extensionMethods:
@@ -104,7 +107,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.Data.TicketLogFieldChange.CreatedAt
   commentId: F:SuperOffice.Data.TicketLogFieldChange.CreatedAt
   id: CreatedAt
@@ -2116,6 +2119,99 @@ items:
       <EnumMember>
 
       Message_DebugInfo = 10016
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  id: Relation_Child
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Relation_Child
+  nameWithType: TicketLogFieldChange.Relation_Child
+  fullName: SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20001: Ticket child relation changed'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Relation_Child = 20001
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: >-
+      <EnumMember>
+
+      Relation_Child = 20001
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketLogFieldChange.Relation_Related
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Relation_Related
+  id: Relation_Related
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Relation_Related
+  nameWithType: TicketLogFieldChange.Relation_Related
+  fullName: SuperOffice.Data.TicketLogFieldChange.Relation_Related
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20002: Ticket related relation changed'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Relation_Related = 20002
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: >-
+      <EnumMember>
+
+      Relation_Related = 20002
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  id: Relation_Parent
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Relation_Parent
+  nameWithType: TicketLogFieldChange.Relation_Parent
+  fullName: SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20003: Ticket parent relation changed'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Relation_Parent = 20003
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: >-
+      <EnumMember>
+
+      Relation_Parent = 20003
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

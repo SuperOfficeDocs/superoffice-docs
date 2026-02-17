@@ -25,6 +25,8 @@ items:
   - SuperOffice.WebApi.Agents.IAIAgent.GetChatbotTurnsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.GetCopilotDataSourceEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.GetCopilotEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync(System.Byte[],System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromImageAsync(System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.GetIndexingStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -862,6 +864,78 @@ items:
   nameWithType.vb: IAIAgent.GetFormDesignFromUrlAsync(String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync(String, SuperOffice.WebApi.RequestOptions)
   name.vb: GetFormDesignFromUrlAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync(System.Byte[],System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync(System.Byte[],System.String[],SuperOffice.WebApi.RequestOptions)
+  id: GetFormDesignCssFromImageAsync(System.Byte[],System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignCssFromImageAsync(byte[], string[], RequestOptions)
+  nameWithType: IAIAgent.GetFormDesignCssFromImageAsync(byte[], string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync(byte[], string[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns Form Designer CSS based on the look of a picture
+  example: []
+  syntax:
+    content: Task<FormDesignCarrier> GetFormDesignCssFromImageAsync(byte[] image, string[] cssClasses, RequestOptions requestOptions = null)
+    parameters:
+    - id: image
+      type: System.Byte[]
+      description: Image data to analyze for design
+    - id: cssClasses
+      type: System.String[]
+      description: List of CSS classes to generate styles for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormDesignCarrier}
+      description: Returns CSS rules and confidence score.
+    content.vb: Function GetFormDesignCssFromImageAsync(image As Byte(), cssClasses As String(), requestOptions As RequestOptions = Nothing) As Task(Of FormDesignCarrier)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync*
+  nameWithType.vb: IAIAgent.GetFormDesignCssFromImageAsync(Byte(), String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync(Byte(), String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetFormDesignCssFromImageAsync(Byte(), String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: GetFormDesignCssFromUrlAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormDesignCssFromUrlAsync(string, string[], RequestOptions)
+  nameWithType: IAIAgent.GetFormDesignCssFromUrlAsync(string, string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync(string, string[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns Form Designer properties based on the look of a web page
+  example: []
+  syntax:
+    content: Task<FormDesignCarrier> GetFormDesignCssFromUrlAsync(string url, string[] cssClasses, RequestOptions requestOptions = null)
+    parameters:
+    - id: url
+      type: System.String
+      description: Url of the web page to extract style from.
+    - id: cssClasses
+      type: System.String[]
+      description: List of CSS classes to generate styles for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormDesignCarrier}
+      description: Returns CSS rules and confidence score.
+    content.vb: Function GetFormDesignCssFromUrlAsync(url As String, cssClasses As String(), requestOptions As RequestOptions = Nothing) As Task(Of FormDesignCarrier)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync*
+  nameWithType.vb: IAIAgent.GetFormDesignCssFromUrlAsync(String, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync(String, String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetFormDesignCssFromUrlAsync(String, String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: DetectLanguageAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -2449,6 +2523,78 @@ references:
   name: GetFormDesignFromUrlAsync
   nameWithType: IAIAgent.GetFormDesignFromUrlAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignFromUrlAsync
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignCssFromImageAsync_System_Byte___System_String___SuperOffice_WebApi_RequestOptions_
+  name: GetFormDesignCssFromImageAsync
+  nameWithType: IAIAgent.GetFormDesignCssFromImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromImageAsync
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormDesignCarrier}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormDesignCarrier}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FormDesignCarrier>
+  nameWithType: Task<FormDesignCarrier>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FormDesignCarrier>
+  nameWithType.vb: Task(Of FormDesignCarrier)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FormDesignCarrier)
+  name.vb: Task(Of FormDesignCarrier)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.FormDesignCarrier
+    name: FormDesignCarrier
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FormDesignCarrier.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.FormDesignCarrier
+    name: FormDesignCarrier
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FormDesignCarrier.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_GetFormDesignCssFromUrlAsync_System_String_System_String___SuperOffice_WebApi_RequestOptions_
+  name: GetFormDesignCssFromUrlAsync
+  nameWithType: IAIAgent.GetFormDesignCssFromUrlAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.GetFormDesignCssFromUrlAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.DetectLanguageAsync
   isExternal: true

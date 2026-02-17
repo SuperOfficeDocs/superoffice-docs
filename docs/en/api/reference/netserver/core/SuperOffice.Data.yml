@@ -181,6 +181,7 @@ items:
   - SuperOffice.Data.PrefDescCacheExtensions
   - SuperOffice.Data.PrefDescValueType
   - SuperOffice.Data.PreferenceLevel
+  - SuperOffice.Data.ProjectMemberEventParticipantStatus
   - SuperOffice.Data.ProjectStatusConstants
   - SuperOffice.Data.ProjectTypeConstants
   - SuperOffice.Data.PublishType
@@ -383,6 +384,14 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.Data.ConfigType
+  commentId: T:SuperOffice.Data.ConfigType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ConfigType.html
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: SuperOffice.Data.ConfigType
 - uid: SuperOffice.Data.ExternallyOwnedType
   commentId: T:SuperOffice.Data.ExternallyOwnedType
   parent: SuperOffice.Data
@@ -1927,6 +1936,14 @@ references:
   name: CategoryUpdateTrigger
   nameWithType: CategoryUpdateTrigger
   fullName: SuperOffice.Data.CategoryUpdateTrigger
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -2199,14 +2216,6 @@ references:
   name: ChatStatus
   nameWithType: ChatStatus
   fullName: SuperOffice.Data.ChatStatus
-- uid: SuperOffice.Data.ConfigType
-  commentId: T:SuperOffice.Data.ConfigType
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.ConfigType.html
-  name: ConfigType
-  nameWithType: ConfigType
-  fullName: SuperOffice.Data.ConfigType
 - uid: SuperOffice.Data.FormType
   commentId: T:SuperOffice.Data.FormType
   parent: SuperOffice.Data
