@@ -67,7 +67,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TicketRelationEntity
+### Response body: TicketRelationEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,6 +78,7 @@ OK
 | Comment | string | Comment for relation |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
+| _Links | object |  |
 
 ## Sample request
 

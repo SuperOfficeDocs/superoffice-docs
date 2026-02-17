@@ -76,6 +76,7 @@ The ProjectMember to be saved.
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | Registered | String | The date and time when the project member was registered  in UTC. |
 | Updated | String | The date and time when the project member was last updated  in UTC. |
+| EventParticipantStatus | String | Reserved field for Lyyti event participants. |
 
 ## Response:
 
@@ -112,6 +113,7 @@ OK
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | Registered | date-time | The date and time when the project member was registered  in UTC. |
 | Updated | date-time | The date and time when the project member was last updated  in UTC. |
+| EventParticipantStatus | string | Reserved field for Lyyti event participants. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |

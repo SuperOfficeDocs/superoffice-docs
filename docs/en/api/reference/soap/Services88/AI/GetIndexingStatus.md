@@ -64,13 +64,13 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <AI:GetIndexingStatusResponse>
    <AI:Response xsi:type="AI:RagStatus">
-    <AI:StartedAt xsi:type="xsd:dateTime">2026-01-26T11:32:30Z</AI:StartedAt>
-    <AI:CompletedAt xsi:type="xsd:dateTime">2026-01-26T11:32:30Z</AI:CompletedAt>
+    <AI:StartedAt xsi:type="xsd:dateTime">2026-02-13T01:33:36Z</AI:StartedAt>
+    <AI:CompletedAt xsi:type="xsd:dateTime">2026-02-13T01:33:36Z</AI:CompletedAt>
     <AI:NamespaceName xsi:type="xsd:string"></AI:NamespaceName>
     <AI:CurrentRunTag xsi:type="xsd:string"></AI:CurrentRunTag>
     <AI:IsCompleted xsi:type="xsd:boolean">false</AI:IsCompleted>
     <AI:IsCancelled xsi:type="xsd:boolean">false</AI:IsCancelled>
-    <AI:LastIndexed xsi:type="xsd:dateTime">2026-01-26T11:32:30Z</AI:LastIndexed>
+    <AI:LastIndexed xsi:type="xsd:dateTime">2026-02-13T01:33:36Z</AI:LastIndexed>
     <AI:StatusAll xsi:type="AI:RagStatusChunks">
      <AI:NumberOfChunks xsi:type="xsd:int">0</AI:NumberOfChunks>
      <AI:NumberOfDocuments xsi:type="xsd:int">0</AI:NumberOfDocuments>
@@ -99,10 +99,6 @@ Application tokens must be specified if calling an Online installation. Applicat
      <AI:NumberOfChunks xsi:type="xsd:int">0</AI:NumberOfChunks>
      <AI:NumberOfDocuments xsi:type="xsd:int">0</AI:NumberOfDocuments>
     </AI:StatusWebpage>
-    <AI:StatusWebsite xsi:type="AI:RagStatusChunks">
-     <AI:NumberOfChunks xsi:type="xsd:int">0</AI:NumberOfChunks>
-     <AI:NumberOfDocuments xsi:type="xsd:int">0</AI:NumberOfDocuments>
-    </AI:StatusWebsite>
    </AI:Response>
   </AI:GetIndexingStatusResponse>
  </SOAP-ENV:Body>

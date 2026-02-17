@@ -62,8 +62,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Project:EmailAddressName xsi:type="xsd:string"></Project:EmailAddressName>
      <Project:Comment xsi:type="xsd:string"></Project:Comment>
      <Project:FullName xsi:type="xsd:string"></Project:FullName>
-     <Project:Registered xsi:type="xsd:dateTime">2026-01-26T11:34:12Z</Project:Registered>
-     <Project:Updated xsi:type="xsd:dateTime">2026-01-26T11:34:12Z</Project:Updated>
+     <Project:Registered xsi:type="xsd:dateTime">2026-02-13T01:35:22Z</Project:Registered>
+     <Project:Updated xsi:type="xsd:dateTime">2026-02-13T01:35:22Z</Project:Updated>
+     <Project:EventParticipantStatus xsi:type="Project:ProjectMemberEventParticipantStatus">NotAnEvent</Project:EventParticipantStatus>
     </Project:ProjectMember>
    </Project:SaveProjectMember>
 
@@ -109,8 +110,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:EmailAddressName xsi:type="xsd:string"></Project:EmailAddressName>
     <Project:Comment xsi:type="xsd:string"></Project:Comment>
     <Project:FullName xsi:type="xsd:string"></Project:FullName>
-    <Project:Registered xsi:type="xsd:dateTime">2026-01-26T11:34:12Z</Project:Registered>
-    <Project:Updated xsi:type="xsd:dateTime">2026-01-26T11:34:12Z</Project:Updated>
+    <Project:Registered xsi:type="xsd:dateTime">2026-02-13T01:35:22Z</Project:Registered>
+    <Project:Updated xsi:type="xsd:dateTime">2026-02-13T01:35:22Z</Project:Updated>
+    <Project:EventParticipantStatus xsi:type="Project:ProjectMemberEventParticipantStatus">NotAnEvent</Project:EventParticipantStatus>
    </Project:Response>
   </Project:SaveProjectMemberResponse>
  </SOAP-ENV:Body>

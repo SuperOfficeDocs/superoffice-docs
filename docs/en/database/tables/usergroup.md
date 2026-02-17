@@ -95,7 +95,6 @@ Secondary user groups
 |[SalutationGroupLink](salutationgrouplink.md)  |User group link table for Salutation, for MDO item hiding |
 |[SearchCatGroupLink](searchcatgrouplink.md)  |User group link table for SearchCat, for MDO item hiding |
 |[selection](selection.md)  |Selections |
-|[SORPublishGroupLink](sorpublishgrouplink.md)  |Link table used for filtering reports by user group |
 |[SourceGroupLink](sourcegrouplink.md)  |User group link table for Source, for MDO item hiding |
 |[StakeholderRoleGroupLink](stakeholderrolegrouplink.md)  |User group link table for StakeholderRole, for MDO item hiding |
 |[SubscriptionUnitGroupLink](subscriptionunitgrouplink.md)  |User group link table for SubscriptionUnit, for MDO item hiding |

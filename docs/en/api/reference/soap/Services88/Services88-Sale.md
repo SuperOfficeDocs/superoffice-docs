@@ -663,6 +663,8 @@ content_type: reference
               <xs:element minOccurs="0" name="URLName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProjectNumber" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="EventId" type="xs:int" />
+              <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

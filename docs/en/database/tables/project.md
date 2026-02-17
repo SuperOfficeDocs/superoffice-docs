@@ -41,6 +41,8 @@ Projects
 |nextMilestoneDate|Calculated date, reflects date of closest non-complete future milestone activity|DateTime|&#x25CF;|
 |nmdAppointment\_id|ID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0|FK [appointment](appointment.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
+|event\_id|Reserved field for Lyyti event when project is linked to an event.|Int|&#x25CF;|
+|startDate|Reserved field for Lyyti event when project is linked to an event, is the event start date.|DateTime|&#x25CF;|
 
 
 ![project table relationship diagram](./media/project.png)

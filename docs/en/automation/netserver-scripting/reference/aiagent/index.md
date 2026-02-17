@@ -32,6 +32,8 @@ Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger
 * [GetChatbotTurnsAsync](getchatbotturnsasync.md)
 * [GetCopilotDataSourceEntityAsync](getcopilotdatasourceentityasync.md)
 * [GetCopilotEntityAsync](getcopilotentityasync.md)
+* [GetFormDesignCssFromImageAsync](getformdesigncssfromimageasync.md)
+* [GetFormDesignCssFromUrlAsync](getformdesigncssfromurlasync.md)
 * [GetFormDesignFromImageAsync](getformdesignfromimageasync.md)
 * [GetFormDesignFromUrlAsync](getformdesignfromurlasync.md)
 * [GetIndexingStatusAsync](getindexingstatusasync.md)

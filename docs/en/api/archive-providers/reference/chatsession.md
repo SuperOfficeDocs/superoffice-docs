@@ -494,7 +494,7 @@ Archive provider for listing chat session and related data to a chat
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatSession?$select=recordTypeText,person/personAssociate/credentialDisplayValue,contact/contactUdef/SuperOffice:1,contact/SaintStatus2
+GET /api/v1/archive/ChatSession?$select=person/searchPhone/formattedNumber,person/restrictionAddress/addressId,person/correspondingAssociate/assocName,contact/restrictionAddress/wgs84latitude,contact/contactExtra/x_contact_longtext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

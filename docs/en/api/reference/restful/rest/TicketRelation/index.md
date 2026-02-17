@@ -16,6 +16,10 @@ content_type: reference
 
 * [POST TicketRelation](v1TicketRelationEntity_PostTicketRelationEntity.md)
 
+* [GET TicketRelation/{id}](v1TicketRelationEntity_GetTicketRelationEntity.md)
+
 * [PUT TicketRelation/{id}](v1TicketRelationEntity_PutTicketRelationEntity.md)
 
 * [DEL TicketRelation/{id}](v1TicketRelationEntity_DeleteTicketRelationEntity.md)
+
+* [PATCH TicketRelation/{id}](v1TicketRelationEntity_PatchTicketRelationEntity.md)

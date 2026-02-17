@@ -171,6 +171,20 @@ content_type: reference
         <xs:restriction base="xs:string">
           <xs:enumeration value="Style" />
           <xs:enumeration value="Options" />
+          <xs:enumeration value="SubscriptionsStyle">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">10</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SubscriptionsOptions">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">11</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="ConfigType" nillable="true" type="tns:ConfigType" />

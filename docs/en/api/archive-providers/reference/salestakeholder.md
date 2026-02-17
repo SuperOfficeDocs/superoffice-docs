@@ -437,7 +437,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/personHasInterests,person/personInfo/textId,person/personExtra/x_person_user_relation
+GET /api/v1/archive/SaleStakeholder?$select=contact/orgnr,contact/postAddress/formattedAddress,person/personExtra/x_person_user_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

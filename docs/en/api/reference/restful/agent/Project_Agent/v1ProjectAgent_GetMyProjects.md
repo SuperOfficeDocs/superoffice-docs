@@ -85,6 +85,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
+| EventId | int32 | Reserved field for Lyyti event when project is linked to an event. |
+| StartDate | date-time | Reserved field for Lyyti event when project is linked to an event, is the event start date. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

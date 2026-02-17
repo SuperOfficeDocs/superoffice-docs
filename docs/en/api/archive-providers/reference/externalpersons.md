@@ -377,7 +377,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -495,7 +495,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -542,6 +542,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
 |personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
-|personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
+|personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |personAppointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -726,7 +728,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personCategory,personSourceRelation/birthDay,personTargetRelation/personUpdatedBy,personTargetRelation/whenUpdatedByWorkflow,personAssociate/contactName
+GET /api/v1/archive/ExternalPersons?$select=personPager/description,personAddress/zip,personExtra/y_car/id,personSourceRelation/useAsMailingAddress,request/slevel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

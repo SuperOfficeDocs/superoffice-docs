@@ -584,6 +584,8 @@ Archive provider for the list of mailings
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -639,12 +641,12 @@ Archive provider for the list of mailings
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |project/LastActivity|date|Date of last activity|  |
 |project/LastCompletedActivity|date|Date of last completed activity|  |
 |project/LastDoByActivity|date|Date of last non-completed activity|  |
@@ -669,7 +671,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/email/emailHasBounced,mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod,mailingAddr/person/birthYear,mailingAddr/person/hasStoreConsent,associate/fullName
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/LastTicket,mailingAddr/person/personAssociate/isActive,emailFlow/workflowAssociate/isActiveText,project/projectAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

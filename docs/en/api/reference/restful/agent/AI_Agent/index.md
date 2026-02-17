@@ -58,6 +58,10 @@ content_type: reference
 
 * [POST Agents/AI/GetFormDesignFromUrl](v1AIAgent_GetFormDesignFromUrl.md)
 
+* [POST Agents/AI/GetFormDesignCssFromImage](v1AIAgent_GetFormDesignCssFromImage.md)
+
+* [POST Agents/AI/GetFormDesignCssFromUrl](v1AIAgent_GetFormDesignCssFromUrl.md)
+
 * [POST Agents/AI/DetectLanguage](v1AIAgent_DetectLanguage.md)
 
 * [POST Agents/AI/DetectSentiment](v1AIAgent_DetectSentiment.md)

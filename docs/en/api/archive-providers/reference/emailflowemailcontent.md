@@ -175,6 +175,8 @@ Lists all email flow message content
 |shipment/project/endDate|date|End date: End date of project| x |
 |shipment/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |shipment/project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|shipment/project/eventId|int|Project event ID: Project event ID| x |
+|shipment/project/startDate|date|Start date: Project start date| x |
 |shipment/project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |shipment/project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |shipment/project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -224,12 +226,12 @@ Lists all email flow message content
 |shipment/project/projectUdef/SuperOffice:4|date|projectdate| x |
 |shipment/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |shipment/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
-|shipment/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
-|shipment/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
+|shipment/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |shipment/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |shipment/project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |shipment/project/NumberOfActivities|int|Number of activities|  |
@@ -260,7 +262,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/registeredDate,shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowAssociate/isActive
+GET /api/v1/archive/EmailFlowEmailContent?$select=registeredBy,shipment/emailFlow/emailFlowId,shipment/project/projectAssociate/usergroup,shipment/project/saintAmountClass
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

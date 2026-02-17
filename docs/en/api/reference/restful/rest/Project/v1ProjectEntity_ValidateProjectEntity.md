@@ -64,6 +64,8 @@ Entity to be checked for errors.
 | NmdAppointmentId | Integer | ID of appointment that "caused" the nextMilestoneDate, can be 0 |
 | EndDate | String | Planned end date for project, inhertied from type and later editable |
 | ActiveErpLinks | Integer | The number of active erp links |
+| EventId | Integer | Reserved field for Lyyti event when project is linked to an event. |
+| StartDate | String | Reserved field for Lyyti event when project is linked to an event, is the event start date. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.ProjectEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ProjectEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ProjectEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |

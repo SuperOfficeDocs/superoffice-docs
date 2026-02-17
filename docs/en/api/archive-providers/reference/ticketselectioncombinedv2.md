@@ -30,7 +30,7 @@ Implementation of the provider for the combined selection
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
-|categoryId|int|Category ID: ID of ticket category in database| x |
+|categoryId|int|Category ID: ID of request category in database| x |
 |ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
@@ -148,7 +148,7 @@ Implementation of the provider for the combined selection
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -631,7 +631,7 @@ Implementation of the provider for the combined selection
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -707,6 +707,8 @@ Implementation of the provider for the combined selection
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -743,12 +745,12 @@ Implementation of the provider for the combined selection
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
@@ -797,7 +799,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombinedV2?$select=person/personCategoryGroup,person/restrictionAddress/zip,person/personAssociate/personId,contact/streetAddress/line2,contact/contactExtra/x_contact_short_dropdown
+GET /api/v1/archive/TicketSelectionCombinedV2?$select=timeSpentInternally,activated,person/personAssociate/usergroup,person/correspondingAssociate/contactDepartment,contact/contactUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

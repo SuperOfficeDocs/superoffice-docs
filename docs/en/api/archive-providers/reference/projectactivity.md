@@ -586,6 +586,8 @@ Activity archive provider for the Project card
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -641,12 +643,12 @@ Activity archive provider for the Project card
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
 |project/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |project/LastActivity|date|Date of last activity|  |
 |project/LastCompletedActivity|date|Date of last completed activity|  |
 |project/LastDoByActivity|date|Date of last non-completed activity|  |
@@ -745,12 +747,12 @@ Activity archive provider for the Project card
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
 |person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
-|person/createdByForm|listAny|Created by form: Created by form| x |
-|person/phone/formattedNumber|string|Phone : Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/createdByForm|listAny|Created by form: Created by form| x |
+|person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |person/personDirectPhone/description|string|Direct - Description: Phone number description| x |
 |person/personMobilePhone/formattedNumber|string|Mobile - Phone: Displays phone number|  |
@@ -849,12 +851,12 @@ Activity archive provider for the Project card
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|person/personAssociate/contactCategory|listAny|Category: Category| x |
-|person/personAssociate/role|listAny|Role : Role| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/contactCategory|listAny|Category: Category| x |
+|person/personAssociate/role|listAny|Role : Role| x |
 |person/personAssociate/assocName|associate|User ID : User ID| x |
 |person/personAssociate/assocTooltip|string|Description : Description|  |
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -953,12 +955,12 @@ Activity archive provider for the Project card
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|contact/email/emailAddress|string|E-mail| x |
-|contact/email/emailDescription|string|Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailAddress|string|E-mail| x |
+|contact/email/emailDescription|string|Description| x |
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
@@ -1057,12 +1059,12 @@ Activity archive provider for the Project card
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
-|contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
-|contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
+|contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
@@ -1161,13 +1163,13 @@ Activity archive provider for the Project card
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1266,7 +1268,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingEndDate,mailingAddr/contact/email/emailBounceCount,mailingAddr/contact/contactUdef/SuperOffice:13,mailingAddr/person/personCountry,mailingAddr/person/personInfo/infoText
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/hasInfoText,mailingAddr/contact/restrictionAddress/line2,mailingAddr/contact/contactExtra/x_contact_request_relation,mailingAddr/person/personNoMail,mailingAddr/person/isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

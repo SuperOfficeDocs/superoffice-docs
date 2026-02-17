@@ -35,6 +35,8 @@ Download [WSDL file for Services88/AI](../Services88-AI.md) if you need to gener
 * [GetChatbotTurns](GetChatbotTurns.md)
 * [GetCopilotDataSourceEntity](GetCopilotDataSourceEntity.md)
 * [GetCopilotEntity](GetCopilotEntity.md)
+* [GetFormDesignCssFromImage](GetFormDesignCssFromImage.md)
+* [GetFormDesignCssFromUrl](GetFormDesignCssFromUrl.md)
 * [GetFormDesignFromImage](GetFormDesignFromImage.md)
 * [GetFormDesignFromUrl](GetFormDesignFromUrl.md)
 * [GetIndexingStatus](GetIndexingStatus.md)

@@ -728,7 +728,7 @@ as well as before any ORDER BY, are applied.
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -846,7 +846,7 @@ as well as before any ORDER BY, are applied.
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -893,6 +893,8 @@ as well as before any ORDER BY, are applied.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -964,12 +966,12 @@ as well as before any ORDER BY, are applied.
 |projectMembers/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus|listAny|With status|  |
 |projectMembers/saintAmountClass|listAny|Amount class|  |
-|projectMembers/saintActivityType|listAny|SAINT type|  |
-|projectMembers/saintDirection|listAny|Direction|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintActivityType|listAny|SAINT type|  |
+|projectMembers/saintDirection|listAny|Direction|  |
 |projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
 |projectMembers/saintTicketCategory|listAny|Category|  |
@@ -1068,12 +1070,12 @@ as well as before any ORDER BY, are applied.
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
-|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
-|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 |personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
@@ -1081,7 +1083,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=lastName,personSourceRelation/isProjectMember,personTargetRelation/kanaFirstName,personContact/contactSupportAssociate/credentialType,personContact/contactExtra/x_contact_request_relation
+GET /api/v1/archive/FreetextPerson?$select=mrMrs,personDirectPhone/formattedNumber,personTargetRelation/fullName,correspondingAssociate/contactFullName,personContact/contactSupportPerson/rank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

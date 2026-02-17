@@ -83,7 +83,6 @@ OK
 | StatusProduct | RagStatusChunks | How many documents/chunks of type Product are in the index |
 | StatusTicket | RagStatusChunks | How many documents/chunks of type Ticket are in the index |
 | StatusWebpage | RagStatusChunks | How many documents/chunks of type Webpage are in the index |
-| StatusWebsite | RagStatusChunks | How many documents/chunks of type Website are in the index |
 
 ## Sample request
 

@@ -44,6 +44,10 @@ items:
     href: AI_Agent/v1AIAgent_GetCopilotDataSourceEntity.md
   - name: GetCopilotEntity
     href: AI_Agent/v1AIAgent_GetCopilotEntity.md
+  - name: GetFormDesignCssFromImage
+    href: AI_Agent/v1AIAgent_GetFormDesignCssFromImage.md
+  - name: GetFormDesignCssFromUrl
+    href: AI_Agent/v1AIAgent_GetFormDesignCssFromUrl.md
   - name: GetFormDesignFromImage
     href: AI_Agent/v1AIAgent_GetFormDesignFromImage.md
   - name: GetFormDesignFromUrl
@@ -3554,6 +3558,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetTicketMessageWithEmbeddedData.md
   - name: GetTicketMessageWithOptions
     href: Ticket_Agent/v1TicketAgent_GetTicketMessageWithOptions.md
+  - name: GetTicketRelationEntity
+    href: Ticket_Agent/v1TicketAgent_GetTicketRelationEntity.md
   - name: GetTickets
     href: Ticket_Agent/v1TicketAgent_GetTickets.md
   - name: GetTicketSummaries
