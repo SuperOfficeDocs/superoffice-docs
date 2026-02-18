@@ -494,7 +494,7 @@ table data; this will also pull in contact udef and related fields.
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -612,7 +612,7 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -659,6 +659,8 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -746,12 +748,12 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
-|personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
-|personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
+|personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
@@ -843,7 +845,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personSourceRelation/birthdate,personSourceRelation/supportAssociate,personSourceRelation/personCategoryRank,personTargetRelation/personUpdatedByFullName,correspondingAssociate/otherGroups
+GET /api/v1/archive/Person?$select=personContact/phone/formattedNumber,request/ownedBy/isActiveText,projectMembers/projectAssociate/contactName,projectMembers/projectUdef/SuperOffice:8,personAppointment/associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

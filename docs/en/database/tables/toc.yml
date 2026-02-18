@@ -479,26 +479,6 @@ items:
   href: notice-frame.md
 - name: notify
   href: notify.md
-- name: obsolete_1
-  href: obsolete-1.md
-- name: obsolete_2
-  href: obsolete-2.md
-- name: obsolete_3
-  href: obsolete-3.md
-- name: obsolete_4
-  href: obsolete-4.md
-- name: OLEField
-  href: olefield.md
-- name: OLEFieldText
-  href: olefieldtext.md
-- name: OLESubject
-  href: olesubject.md
-- name: OLESubjectText
-  href: olesubjecttext.md
-- name: OLEView
-  href: oleview.md
-- name: OLEViewText
-  href: oleviewtext.md
 - name: OnlineApp
   href: onlineapp.md
 - name: outbox
@@ -703,8 +683,6 @@ items:
   href: reply-template-body.md
 - name: reply_template_folder
   href: reply-template-folder.md
-- name: ReporterListDef
-  href: reporterlistdef.md
 - name: ResourceOverride
   href: resourceoverride.md
 - name: Role
@@ -845,24 +823,8 @@ items:
   href: snapshot.md
 - name: soap_access
   href: soap-access.md
-- name: SORCriteria
-  href: sorcriteria.md
-- name: SORFCT
-  href: sorfct.md
-- name: SORField
-  href: sorfield.md
 - name: SORLabelLayout
   href: sorlabellayout.md
-- name: SOROperators
-  href: soroperators.md
-- name: SORPublish
-  href: sorpublish.md
-- name: SORPublishGroupLink
-  href: sorpublishgrouplink.md
-- name: SORSection
-  href: sorsection.md
-- name: SORTemplate
-  href: sortemplate.md
 - name: Source
   href: source.md
 - name: SourceGroupLink
@@ -1251,6 +1213,8 @@ items:
     href: enums/prefdescvaluetype.md
   - name: PreferenceLevel
     href: enums/preferencelevel.md
+  - name: ProjectMemberEventParticipantStatus
+    href: enums/projectmembereventparticipantstatus.md
   - name: PublishType
     href: enums/publishtype.md
   - name: QuoteStatus

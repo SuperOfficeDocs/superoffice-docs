@@ -34,10 +34,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=01/01/2026 12:35:12
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=02/16/2023 12:35:12
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=798
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/05/2008 02:36:33
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=02/03/2020 02:36:33
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=208
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 

@@ -88,6 +88,7 @@ An enum indicating what kind of log-entry this is.
 |Message_OutboxMessage|10023|Message_OutboxMessage action|
 |Message_EditMessageFromSoap|10024|Message_EditMessageFromSoap action|
 |Message_InlineImagesConverted|10025|Message_InlineImagesConverted action|
+|Ticket_Relation|20001|Ticket_Relation action|
 
 ## Usage
 

@@ -340,7 +340,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -911,7 +911,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -1029,7 +1029,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -1076,6 +1076,8 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1160,12 +1162,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
 |personAppointment/recordType|string|Record type : Shows the record type| x |
-|personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
-|personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
+|personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 |personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
@@ -1264,12 +1266,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |formSubmission/formSubmissionId|int|Form submission ID: ID of the form submission record| x |
 |formSubmission/formSubmissionFormId|int|Id: Id of the form| x |
 |formSubmission/formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmission/formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmission/formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|formSubmission/formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmission/formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |formSubmission/icon| *None* |Category: Displays the icon for an activity type| x |
 |formSubmission/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |formSubmission/time| *None* |Time: Time|  |
@@ -1368,12 +1370,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
-|sale/quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
-|sale/quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
@@ -1447,7 +1449,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=sale/originalStage,sale/daysInStage,document/keywords,kanaFirstName,personEmail/emailDescription
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=streetAddress/city,restrictionAddress/line1,sale/recordType,sale/salePublish/publishedBy,sale/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

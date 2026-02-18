@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._leftProvider
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._rightProvider
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
+  - SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._rowComparer
   - SuperOffice.CRM.ArchiveLists.Archive.Combinator._pageSize
@@ -213,6 +214,14 @@ references:
   name: _options
   nameWithType: Combinator._options
   fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._options
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
+  parent: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.Archive.Combinator.html#SuperOffice_CRM_ArchiveLists_Archive_Combinator__cancellationToken
+  name: _cancellationToken
+  nameWithType: Combinator._cancellationToken
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator._cancellationToken
 - uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.Combinator._duplicateList
   parent: SuperOffice.CRM.ArchiveLists.Archive.Combinator

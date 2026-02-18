@@ -534,6 +534,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/endDate|date|End date: End date of project| x |
 |appointmentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |appointmentInstance/project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|appointmentInstance/project/eventId|int|Project event ID: Project event ID| x |
+|appointmentInstance/project/startDate|date|Start date: Project start date| x |
 |appointmentInstance/project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentInstance/project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointmentInstance/project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -541,12 +543,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |appointmentInstance/project/projectEvent/eventDate|date|Event date: Event date| x |
 |appointmentInstance/project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
-|appointmentInstance/project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
-|appointmentInstance/project/projectUrl/URLAddress|string|URL| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
+|appointmentInstance/project/projectUrl/URLAddress|string|URL| x |
 |appointmentInstance/project/projectUrl/URLDescription|string|Description| x |
 |appointmentInstance/project/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/project/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -645,12 +647,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/amount|decimal|Amount: The gross sales total| x |
 |appointmentInstance/sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |appointmentInstance/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
-|appointmentInstance/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-|appointmentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|appointmentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
 |appointmentInstance/sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |appointmentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |appointmentInstance/sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
@@ -674,7 +676,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|appointmentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|appointmentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |appointmentInstance/sale/visibleFor|listAny|Visible for|  |
 |appointmentInstance/sale/sale/textId|int|Text ID| x |
 |appointmentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -749,12 +751,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointmentInstance/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |appointmentInstance/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|appointmentInstance/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|appointmentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|appointmentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |appointmentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |appointmentInstance/associate/userName|string|User name: User name| x |
 |appointmentInstance/associate/personEmail|string|E-mail| x |
@@ -773,7 +775,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=milestone,suggestedItemId,appointmentInstance/contact/searchPhone/formattedNumber,appointmentInstance/contact/streetAddress/wgs84longitude,appointmentInstance/person/email/emailProtocol
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/isMilestone,appointmentInstance/contact/saintActivityType,appointmentInstance/person/leadstatusRank,appointmentInstance/person/personAssociate/isActive,appointmentInstance/project/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -911,7 +911,7 @@ Implementation of the provider for the combined selection
 |request/projectId| *None* |Project ID: Database ID of project record|  |
 |request/ticketStatusId| *None* |Status ID: Status|  |
 |request/priorityId| *None* |Priority ID: ID of priority in database|  |
-|request/categoryId| *None* |Category ID: ID of ticket category in database|  |
+|request/categoryId| *None* |Category ID: ID of request category in database|  |
 |request/ticketTypeName| *None* |Request type: Request type|  |
 |request/ticketStatusName| *None* |Status: Request status|  |
 |request/categoryFullName| *None* |Category: Request category|  |
@@ -1029,7 +1029,7 @@ Implementation of the provider for the combined selection
 |request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location|  |
 |request/ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID|  |
 |request/ticketStatus/name| *None* |Status - Name: Displays the name of the request status|  |
-|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list|  |
+|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the request status list|  |
 |request/ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority|  |
 |request/ticketPriority/name| *None* |Priority - Name: Displays the name of the priority|  |
 |request/ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list|  |
@@ -1076,6 +1076,8 @@ Implementation of the provider for the combined selection
 |projectMembers/endDate| *None* |End date: End date of project|  |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
+|projectMembers/eventId| *None* |Project event ID: Project event ID|  |
+|projectMembers/startDate| *None* |Start date: Project start date|  |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project|  |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1160,12 +1162,12 @@ Implementation of the provider for the combined selection
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type| *None* |Type: Displays the type of an activity|  |
 |personAppointment/recordType| *None* |Record type : Shows the record type|  |
-|personAppointment/text| *None* |Text: Displays a descriptive text for the item|  |
-|personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/text| *None* |Text: Displays a descriptive text for the item|  |
+|personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
 |personAppointment/contactId| *None* |Company ID: Database ID of company|  |
 |personAppointment/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAppointment/projectId| *None* |Project ID: Database ID of project record|  |
@@ -1260,7 +1262,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=selectionMemberId,postAddress/wgs84latitude,NumberOfNotCompletedSalesInPeriod,NumberOfTickets,sourceRelation/countryId
+GET /api/v1/archive/ContactSelectionCombined?$select=number,postAddress/line2,contactExtra/x_contact_datetime,NumberOfNotCompletedTicketsInPeriod,sourceRelation/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

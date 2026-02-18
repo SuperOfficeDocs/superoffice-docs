@@ -29,7 +29,7 @@ NsApiSlow threshold: 1000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=129
+POST /api/v1/Agents/Project/GetProject?projectId=867
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -78,6 +78,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
+| EventId | int32 | Reserved field for Lyyti event when project is linked to an event. |
+| StartDate | date-time | Reserved field for Lyyti event when project is linked to an event, is the event start date. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

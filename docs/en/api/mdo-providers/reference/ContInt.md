@@ -2,18 +2,18 @@
 uid: contint
 title: contint
 keywords: mdoprovider mdo provider contint
-description: GenericMDOProvider reads MDO lists with default settings
+description: MDO list provider for Interests
 generated: true
 content_type: reference
 envir: onsite, online
 ---
 
 # "contint" MDO List
-GenericMDOProvider reads MDO lists with default settings
+MDO list provider for Interests
 
 
 
-Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContIntProvider">ContIntProvider</see> class.
 The name of the MDO list is 'contint'.
 
 
@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Prestisjekunde|||
 |1|Referansekunde|||
+|2|Prestisjekunde|||
 |3|Storkunde|||
 
 

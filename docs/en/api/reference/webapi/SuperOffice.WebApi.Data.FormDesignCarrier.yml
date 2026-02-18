@@ -6,6 +6,9 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.FormDesignCarrier.#ctor
+  - SuperOffice.WebApi.Data.FormDesignCarrier.Confidence
+  - SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles
+  - SuperOffice.WebApi.Data.FormDesignCarrier.Notes
   langs:
   - csharp
   - vb
@@ -60,6 +63,75 @@ items:
   nameWithType.vb: FormDesignCarrier.New()
   fullName.vb: SuperOffice.WebApi.Data.FormDesignCarrier.New()
   name.vb: New()
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles
+  commentId: P:SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles
+  id: CssStyles
+  parent: SuperOffice.WebApi.Data.FormDesignCarrier
+  langs:
+  - csharp
+  - vb
+  name: CssStyles
+  nameWithType: FormDesignCarrier.CssStyles
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Generated CSS styles based on the analyzed design.
+  example: []
+  syntax:
+    content: public virtual string CssStyles { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CssStyles As String
+  overload: SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles*
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier.Confidence
+  commentId: P:SuperOffice.WebApi.Data.FormDesignCarrier.Confidence
+  id: Confidence
+  parent: SuperOffice.WebApi.Data.FormDesignCarrier
+  langs:
+  - csharp
+  - vb
+  name: Confidence
+  nameWithType: FormDesignCarrier.Confidence
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier.Confidence
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Confidence score (0-1) of the design analysis.
+  example: []
+  syntax:
+    content: public virtual double Confidence { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Confidence As Double
+  overload: SuperOffice.WebApi.Data.FormDesignCarrier.Confidence*
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier.Notes
+  commentId: P:SuperOffice.WebApi.Data.FormDesignCarrier.Notes
+  id: Notes
+  parent: SuperOffice.WebApi.Data.FormDesignCarrier
+  langs:
+  - csharp
+  - vb
+  name: Notes
+  nameWithType: FormDesignCarrier.Notes
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier.Notes
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Comments on the analysis
+  example: []
+  syntax:
+    content: public virtual string Notes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Notes As String
+  overload: SuperOffice.WebApi.Data.FormDesignCarrier.Notes*
 references:
 - uid: SuperOffice.WebApi.Agents.AIAgent
   commentId: T:SuperOffice.WebApi.Agents.AIAgent
@@ -352,3 +424,46 @@ references:
   nameWithType.vb: FormDesignCarrier.New
   fullName.vb: SuperOffice.WebApi.Data.FormDesignCarrier.New
   name.vb: New
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCarrier.html#SuperOffice_WebApi_Data_FormDesignCarrier_CssStyles
+  name: CssStyles
+  nameWithType: FormDesignCarrier.CssStyles
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier.CssStyles
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier.Confidence*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCarrier.Confidence
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCarrier.html#SuperOffice_WebApi_Data_FormDesignCarrier_Confidence
+  name: Confidence
+  nameWithType: FormDesignCarrier.Confidence
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier.Confidence
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: SuperOffice.WebApi.Data.FormDesignCarrier.Notes*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCarrier.Notes
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCarrier.html#SuperOffice_WebApi_Data_FormDesignCarrier_Notes
+  name: Notes
+  nameWithType: FormDesignCarrier.Notes
+  fullName: SuperOffice.WebApi.Data.FormDesignCarrier.Notes

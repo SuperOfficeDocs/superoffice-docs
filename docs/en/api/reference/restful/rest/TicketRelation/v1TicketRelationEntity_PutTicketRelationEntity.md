@@ -71,7 +71,7 @@ TicketRelationEntity updated.
 | 200 | TicketRelationEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-### Response body: TicketRelationEntity
+### Response body: TicketRelationEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -82,6 +82,7 @@ TicketRelationEntity updated.
 | Comment | string | Comment for relation |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
+| _Links | object |  |
 
 ## Sample request
 

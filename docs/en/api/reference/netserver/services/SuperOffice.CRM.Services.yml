@@ -2727,21 +2727,6 @@ references:
   name: ListItemEntity
   nameWithType: ListItemEntity
   fullName: SuperOffice.CRM.Services.ListItemEntity
-- uid: SuperOffice.CRM.Services.MDOListItem
-  commentId: T:SuperOffice.CRM.Services.MDOListItem
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html
-  name: MDOListItem
-  nameWithType: MDOListItem
-  fullName: SuperOffice.CRM.Services.MDOListItem
-- uid: SuperOffice.CRM.Services.SelectableMDOListItem
-  commentId: T:SuperOffice.CRM.Services.SelectableMDOListItem
-  isExternal: true
-  href: SuperOffice.CRM.Services.SelectableMDOListItem.html
-  name: SelectableMDOListItem
-  nameWithType: SelectableMDOListItem
-  fullName: SuperOffice.CRM.Services.SelectableMDOListItem
 - uid: SuperOffice.CRM.Services.LiveUiConfig
   commentId: T:SuperOffice.CRM.Services.LiveUiConfig
   isExternal: true
@@ -2799,6 +2784,14 @@ references:
   name: MassOperationResult
   nameWithType: MassOperationResult
   fullName: SuperOffice.CRM.Services.MassOperationResult
+- uid: SuperOffice.CRM.Services.MDOListItem
+  commentId: T:SuperOffice.CRM.Services.MDOListItem
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOListItem.html
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
 - uid: SuperOffice.CRM.Services.MetricPair
   commentId: T:SuperOffice.CRM.Services.MetricPair
   isExternal: true
@@ -3680,6 +3673,13 @@ references:
   name: Script
   nameWithType: Script
   fullName: SuperOffice.CRM.Services.Script
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem
+  commentId: T:SuperOffice.CRM.Services.SelectableMDOListItem
+  isExternal: true
+  href: SuperOffice.CRM.Services.SelectableMDOListItem.html
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem
 - uid: SuperOffice.CRM.Services.SelectionCategory
   commentId: T:SuperOffice.CRM.Services.SelectionCategory
   parent: SuperOffice.CRM.Services

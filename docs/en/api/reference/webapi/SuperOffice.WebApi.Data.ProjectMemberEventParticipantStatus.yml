@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  id: ProjectMemberEventParticipantStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NoShow
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotAnEvent
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotReacted
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedNo
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedYes
+  - SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.Show
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Enum for project member event participant status from Lyyti.
+
+    This Enum is used by:  projectmember.event_participant_status
+  example: []
+  syntax:
+    content: 'public enum ProjectMemberEventParticipantStatus : short'
+    content.vb: Public Enum ProjectMemberEventParticipantStatus As Short
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotAnEvent
+  commentId: F:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotAnEvent
+  id: NotAnEvent
+  parent: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  langs:
+  - csharp
+  - vb
+  name: NotAnEvent
+  nameWithType: ProjectMemberEventParticipantStatus.NotAnEvent
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotAnEvent
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Not an event'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      NotAnEvent = 0
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    content.vb: >-
+      <EnumMember>
+
+      NotAnEvent = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotReacted
+  commentId: F:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotReacted
+  id: NotReacted
+  parent: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  langs:
+  - csharp
+  - vb
+  name: NotReacted
+  nameWithType: ProjectMemberEventParticipantStatus.NotReacted
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NotReacted
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Not reacted yet'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      NotReacted = 1
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    content.vb: >-
+      <EnumMember>
+
+      NotReacted = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedNo
+  commentId: F:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedNo
+  id: ReactedNo
+  parent: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  langs:
+  - csharp
+  - vb
+  name: ReactedNo
+  nameWithType: ProjectMemberEventParticipantStatus.ReactedNo
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedNo
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Declined'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ReactedNo = 2
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    content.vb: >-
+      <EnumMember>
+
+      ReactedNo = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedYes
+  commentId: F:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedYes
+  id: ReactedYes
+  parent: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  langs:
+  - csharp
+  - vb
+  name: ReactedYes
+  nameWithType: ProjectMemberEventParticipantStatus.ReactedYes
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.ReactedYes
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Registered'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ReactedYes = 3
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    content.vb: >-
+      <EnumMember>
+
+      ReactedYes = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.Show
+  commentId: F:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.Show
+  id: Show
+  parent: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  langs:
+  - csharp
+  - vb
+  name: Show
+  nameWithType: ProjectMemberEventParticipantStatus.Show
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.Show
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: Attended'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Show = 4
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    content.vb: >-
+      <EnumMember>
+
+      Show = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NoShow
+  commentId: F:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NoShow
+  id: NoShow
+  parent: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  langs:
+  - csharp
+  - vb
+  name: NoShow
+  nameWithType: ProjectMemberEventParticipantStatus.NoShow
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.NoShow
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '5: No show'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      NoShow = 5
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    content.vb: >-
+      <EnumMember>
+
+      NoShow = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus

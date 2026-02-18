@@ -7,10 +7,8 @@ items:
   children:
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.CPUThreshold
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
-  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.MaxTasks
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.PollingInterval
-  - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ServiceName
   - SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
@@ -150,52 +148,6 @@ items:
       type: System.String
     content.vb: Property DiagnosticsWebUri As String
   overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri*
-- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-  id: ImpersonateReporterPlugin
-  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
-  langs:
-  - csharp
-  - vb
-  name: ImpersonateReporterPlugin
-  nameWithType: ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Returns true/false if the batch service should impersonate the reporter executor with the document identity.
-  example: []
-  syntax:
-    content: bool ImpersonateReporterPlugin { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Property ImpersonateReporterPlugin As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin*
-- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
-  commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
-  id: ReporterPath
-  parent: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
-  langs:
-  - csharp
-  - vb
-  name: ReporterPath
-  nameWithType: ConfigFile.IBatchServiceConfiguration.ReporterPath
-  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Returns the path to the reporter executer file. This can be left blank to try the default paths. If the batch service is located in the default location (same location as CRM.Web), there should be no need to change this value. Also note that CRM.Web has a similar field in it's configuration. This specific configuration field should only be used when CRM.Web and the Batch Service are located on different machines.
-  example: []
-  syntax:
-    content: string ReporterPath { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Property ReporterPath As String
-  overload: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath*
 - uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
   commentId: P:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
   id: TaskTimeout
@@ -572,31 +524,6 @@ references:
   name: DiagnosticsWebUri
   nameWithType: ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
   fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.DiagnosticsWebUri
-- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_ImpersonateReporterPlugin
-  name: ImpersonateReporterPlugin
-  nameWithType: ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ImpersonateReporterPlugin
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.html#SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_ReporterPath
-  name: ReporterPath
-  nameWithType: ConfigFile.IBatchServiceConfiguration.ReporterPath
-  fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.ReporterPath
 - uid: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.TaskTimeout
   isExternal: true
@@ -611,3 +538,14 @@ references:
   name: RunTasksInProcess
   nameWithType: ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
   fullName: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration.RunTasksInProcess
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

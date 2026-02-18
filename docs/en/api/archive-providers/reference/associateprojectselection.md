@@ -47,6 +47,8 @@ This is the archive Provider for the Selection Project archive.
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Project event ID: Project event ID| x |
+|startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -119,12 +121,12 @@ This is the archive Provider for the Selection Project archive.
 |saintAmountClass|listAny|Amount class|  |
 |saintActivityType|listAny|SAINT type|  |
 |saintDirection|listAny|Direction|  |
-|saintIntention|listAny|Intention|  |
-|saintTicketStatus|listAny|Status|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintIntention|listAny|Intention|  |
+|saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
@@ -181,7 +183,7 @@ This is the archive Provider for the Selection Project archive.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -223,12 +225,12 @@ This is the archive Provider for the Selection Project archive.
 |sale/associate/locationAddress|string|Location: Location| x |
 |sale/associate/isLocation|bool|Is a location: Is a location| x |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
-|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
-|sale/saleUdef/SuperOffice:3|int|salenumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:2|string|salelongtext| x |
+|sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
 |sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
@@ -327,12 +329,12 @@ This is the archive Provider for the Selection Project archive.
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/appointment/agenda|positiveString|Agenda| x |
-|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
-|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
@@ -421,6 +423,7 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/projectId|int|Project ID: Project ID| x |
 |projectMember/contactId|int|Company ID: Database ID of company| x |
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
+|projectMember/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMember/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
 |projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
@@ -430,13 +433,13 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
 |projectMember/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
-|projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
-|projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
+|projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/position|listAny|Position| x |
 |projectMember/personNumber|string|Number: Displays the contact's number| x |
@@ -534,13 +537,13 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |projectMember/personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
 |projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
-|projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
-|projectMember/personUdef/SuperOffice:4|date|contactdate| x |
-|projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
+|projectMember/personUdef/SuperOffice:4|date|contactdate| x |
+|projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
 |projectMember/personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |projectMember/personUdef/SuperOffice:8|decimal|contactdecimal| x |
@@ -638,13 +641,13 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/correspondingAssociate/locationAddress|string|Location: Location| x |
 |projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
-|projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/subscription|listAny|Subscription: Subscription for marketing| x |
 |projectMember/legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
@@ -742,13 +745,13 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/contactAssociate/locationAddress|string|Location: Location| x |
 |projectMember/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
-|projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
-|projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
-|projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
+|projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
+|projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
 |projectMember/contactUdef/SuperOffice:4|date|companydate| x |
 |projectMember/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/contactUdef/SuperOffice:6|bool|companycheckbox| x |
@@ -827,7 +830,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectSelection?$select=registeredDate,sale/saleType,appointment/recordType,appointment/associate/ejUserId,appointment/associate/isLocation
+GET /api/v1/archive/AssociateProjectSelection?$select=projectAssociate/ejStatus,appointment/completedDate,projectMember/personExtra/x_person_request_relation,projectMember/stop,projectMember/contactUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

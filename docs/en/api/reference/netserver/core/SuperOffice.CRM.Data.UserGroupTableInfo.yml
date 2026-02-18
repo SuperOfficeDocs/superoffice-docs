@@ -53,7 +53,6 @@ items:
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_RejectReasonGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_RelationDefinitionGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Relations_GroupIdx
-  - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SaleHist_GroupIdx
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SaleTypeCatGroupLink_GroupId
   - SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SaleTypeGroupLink_GroupId
@@ -779,29 +778,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SelectionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Selection_GroupIdx As TargetedLeftOuterJoin(Of SelectionTableInfo)
   overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_Selection_GroupIdx*
-- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  id: LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  parent: SuperOffice.CRM.Data.UserGroupTableInfo
-  langs:
-  - csharp
-  - vb
-  name: LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  nameWithType: UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key UserGroupId on this table, to SORPublishGroupLink.<xref href="SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.UserGroupId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public TargetedLeftOuterJoin<SORPublishGroupLinkTableInfo> LeftOuterJoin_SORPublishGroupLink_UserGroupId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo}
-    content.vb: Public ReadOnly Property LeftOuterJoin_SORPublishGroupLink_UserGroupId As TargetedLeftOuterJoin(Of SORPublishGroupLinkTableInfo)
-  overload: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId*
 - uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteConnectionAccess_UserGroupId
   commentId: P:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_QuoteConnectionAccess_UserGroupId
   id: LeftOuterJoin_QuoteConnectionAccess_UserGroupId
@@ -3658,55 +3634,6 @@ references:
     name: SelectionTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.SelectionTableInfo.html
-  - name: )
-- uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.UserGroupId
-  commentId: P:SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.UserGroupId
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.html#SuperOffice_CRM_Data_SORPublishGroupLinkTableInfo_UserGroupId
-  name: UserGroupId
-  nameWithType: SORPublishGroupLinkTableInfo.UserGroupId
-  fullName: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.UserGroupId
-- uid: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId*
-  commentId: Overload:SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  isExternal: true
-  href: SuperOffice.CRM.Data.UserGroupTableInfo.html#SuperOffice_CRM_Data_UserGroupTableInfo_LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  name: LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  nameWithType: UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-  fullName: SuperOffice.CRM.Data.UserGroupTableInfo.LeftOuterJoin_SORPublishGroupLink_UserGroupId
-- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo}
-  parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  name: TargetedLeftOuterJoin<SORPublishGroupLinkTableInfo>
-  nameWithType: TargetedLeftOuterJoin<SORPublishGroupLinkTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo>
-  nameWithType.vb: TargetedLeftOuterJoin(Of SORPublishGroupLinkTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo)
-  name.vb: TargetedLeftOuterJoin(Of SORPublishGroupLinkTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: <
-  - uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-    name: SORPublishGroupLinkTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-    name: SORPublishGroupLinkTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo.UserGroupId
   commentId: P:SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo.UserGroupId

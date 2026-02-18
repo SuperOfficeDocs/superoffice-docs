@@ -121,6 +121,7 @@ items:
   - SuperOffice.Data.SQL.PrefDescAccessFlagsFieldInfo
   - SuperOffice.Data.SQL.PrefDescValueTypeFieldInfo
   - SuperOffice.Data.SQL.PreferenceLevelFieldInfo
+  - SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
   - SuperOffice.Data.SQL.PublishTypeFieldInfo
   - SuperOffice.Data.SQL.QuoteStatusFieldInfo
   - SuperOffice.Data.SQL.QuoteVersionStateFieldInfo

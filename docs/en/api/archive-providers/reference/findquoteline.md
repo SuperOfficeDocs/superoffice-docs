@@ -176,7 +176,7 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -656,6 +656,8 @@ QuoteLine provider for Find
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedTo|date|Sale - Project - To date: End date for publishing. The record will not be visible after this date| x |
@@ -743,12 +745,12 @@ QuoteLine provider for Find
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
 |alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
-|alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
+|alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
@@ -772,7 +774,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/approvedBy,alternative/version/quote/orderComment,alternative/version/quote/sale/person/firstName,alternative/version/quote/sale/person/personCategoryRank,alternative/version/quote/sale/person/personUdef/SuperOffice:9
+GET /api/v1/archive/FindQuoteLine?$select=alternative/extraField1,alternative/version/quote/sale/person/personUdef/SuperOffice:5,alternative/version/quote/sale/associate/usergroupId,alternative/version/quote/connection/erpConnection/connector/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -11,8 +11,6 @@ items:
   - SuperOffice.CRM.Services.MDOListItem.Deleted
   - SuperOffice.CRM.Services.MDOListItem.ExtraInfo
   - SuperOffice.CRM.Services.MDOListItem.FullName
-  - SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(SuperOffice.CRM.Services.MDOListItem[])
-  - SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
   - SuperOffice.CRM.Services.MDOListItem.IconHint
   - SuperOffice.CRM.Services.MDOListItem.Id
   - SuperOffice.CRM.Services.MDOListItem.Name
@@ -39,11 +37,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public class MDOListItem : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Class MDOListItem Inherits Carrier
   seealso:
@@ -58,59 +56,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
-- uid: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(SuperOffice.CRM.Services.MDOListItem[])
-  commentId: M:SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(SuperOffice.CRM.Services.MDOListItem[])
-  id: GetFlattenedList(SuperOffice.CRM.Services.MDOListItem[])
-  parent: SuperOffice.CRM.Services.MDOListItem
-  langs:
-  - csharp
-  - vb
-  name: GetFlattenedList(MDOListItem[])
-  nameWithType: MDOListItem.GetFlattenedList(MDOListItem[])
-  fullName: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(SuperOffice.CRM.Services.MDOListItem[])
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public static IEnumerable<MDOListItem> GetFlattenedList(MDOListItem[] listToFlatten)
-    parameters:
-    - id: listToFlatten
-      type: SuperOffice.CRM.Services.MDOListItem[]
-    return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}
-    content.vb: Public Shared Function GetFlattenedList(listToFlatten As MDOListItem()) As IEnumerable(Of MDOListItem)
-  overload: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList*
-  nameWithType.vb: MDOListItem.GetFlattenedList(MDOListItem())
-  fullName.vb: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(SuperOffice.CRM.Services.MDOListItem())
-  name.vb: GetFlattenedList(MDOListItem())
-- uid: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
-  commentId: M:SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
-  id: GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
-  parent: SuperOffice.CRM.Services.MDOListItem
-  langs:
-  - csharp
-  - vb
-  name: GetFlattenedList(ICollection<MDOListItem>)
-  nameWithType: MDOListItem.GetFlattenedList(ICollection<MDOListItem>)
-  fullName: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(System.Collections.Generic.ICollection<SuperOffice.CRM.Services.MDOListItem>)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  syntax:
-    content: public static IEnumerable<MDOListItem> GetFlattenedList(ICollection<MDOListItem> listToFlatten)
-    parameters:
-    - id: listToFlatten
-      type: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
-    return:
-      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}
-    content.vb: Public Shared Function GetFlattenedList(listToFlatten As ICollection(Of MDOListItem)) As IEnumerable(Of MDOListItem)
-  overload: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList*
-  nameWithType.vb: MDOListItem.GetFlattenedList(ICollection(Of MDOListItem))
-  fullName.vb: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList(System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.MDOListItem))
-  name.vb: GetFlattenedList(ICollection(Of MDOListItem))
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.MDOListItem.#ctor
   commentId: M:SuperOffice.CRM.Services.MDOListItem.#ctor
   id: '#ctor'
@@ -650,199 +596,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList*
-  commentId: Overload:SuperOffice.CRM.Services.MDOListItem.GetFlattenedList
-  isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html#SuperOffice_CRM_Services_MDOListItem_GetFlattenedList_SuperOffice_CRM_Services_MDOListItem___
-  name: GetFlattenedList
-  nameWithType: MDOListItem.GetFlattenedList
-  fullName: SuperOffice.CRM.Services.MDOListItem.GetFlattenedList
-- uid: SuperOffice.CRM.Services.MDOListItem[]
-  isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html
-  name: MDOListItem[]
-  nameWithType: MDOListItem[]
-  fullName: SuperOffice.CRM.Services.MDOListItem[]
-  nameWithType.vb: MDOListItem()
-  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
-  name.vb: MDOListItem()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: (
-  - name: )
-- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.MDOListItem}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<MDOListItem>
-  nameWithType: IEnumerable<MDOListItem>
-  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Services.MDOListItem>
-  nameWithType.vb: IEnumerable(Of MDOListItem)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Services.MDOListItem)
-  name.vb: IEnumerable(Of MDOListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
-  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.ICollection`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  name: ICollection<MDOListItem>
-  nameWithType: ICollection<MDOListItem>
-  fullName: System.Collections.Generic.ICollection<SuperOffice.CRM.Services.MDOListItem>
-  nameWithType.vb: ICollection(Of MDOListItem)
-  fullName.vb: System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.MDOListItem)
-  name.vb: ICollection(Of MDOListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.MDOListItem
-    name: MDOListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: )
-- uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
 - uid: SuperOffice.CRM.Services.MDOListItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MDOListItem.#ctor
   isExternal: true
@@ -942,6 +695,29 @@ references:
   name: ChildItems
   nameWithType: MDOListItem.ChildItems
   fullName: SuperOffice.CRM.Services.MDOListItem.ChildItems
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOListItem.html
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.MDOListItem.IconHint*
   commentId: Overload:SuperOffice.CRM.Services.MDOListItem.IconHint
   isExternal: true

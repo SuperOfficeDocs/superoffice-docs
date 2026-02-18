@@ -173,6 +173,8 @@ Lists all email flow content
 |shipment/project/endDate| *None* |End date: End date of project|  |
 |shipment/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |shipment/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
+|shipment/project/eventId| *None* |Project event ID: Project event ID|  |
+|shipment/project/startDate| *None* |Start date: Project start date|  |
 |shipment/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |shipment/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |shipment/project/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -225,12 +227,12 @@ Lists all email flow content
 |shipment/project/projectUdef/SuperOffice:7| *None* |projectdropdownlistbox|  |
 |shipment/project/projectUdef/SuperOffice:8| *None* |projectdecimal|  |
 |shipment/project/projectUdef/SuperOffice:9| *None* |page1saleandmarketing|  |
-|shipment/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
-|shipment/project/NumberOfActivities| *None* |Number of activities|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
+|shipment/project/NumberOfActivities| *None* |Number of activities|  |
 |shipment/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
 |shipment/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
 |shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
@@ -261,7 +263,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingBounceRate,shipment/emailFlow/workflowEnrolledCount,shipment/emailFlow/workflowAssociate/otherGroups
+GET /api/v1/archive/EmailFlowContent?$select=getNoRows,emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowEnrolledCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

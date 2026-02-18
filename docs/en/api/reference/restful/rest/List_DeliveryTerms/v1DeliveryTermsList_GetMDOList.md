@@ -28,7 +28,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=et
+GET /api/v1/List/DeliveryTerm/MDOItems?query=eos
 ```
 
 

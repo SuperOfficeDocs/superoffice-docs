@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxContactIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(System.Int32,SuperOffice.Data.ProjectMemberEventParticipantStatus,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdRankAsync(System.Int32,System.Int16,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProjectMemberTableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProjectMemberRows.Item(System.Int32)
@@ -449,6 +450,48 @@ items:
   nameWithType.vb: ProjectMemberRows.GetFromIdxProjectIdRankAsync(Integer, Short, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdRankAsync(Integer, Short, System.Threading.CancellationToken)
   name.vb: GetFromIdxProjectIdRankAsync(Integer, Short, CancellationToken)
+- uid: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(System.Int32,SuperOffice.Data.ProjectMemberEventParticipantStatus,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(System.Int32,SuperOffice.Data.ProjectMemberEventParticipantStatus,System.Threading.CancellationToken)
+  id: GetFromIdxProjectIdEventParticipantStatusAsync(System.Int32,SuperOffice.Data.ProjectMemberEventParticipantStatus,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.ProjectMemberRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxProjectIdEventParticipantStatusAsync(int, ProjectMemberEventParticipantStatus, CancellationToken)
+  nameWithType: ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(int, ProjectMemberEventParticipantStatus, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(int, SuperOffice.Data.ProjectMemberEventParticipantStatus, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the ProjectMemberRow object, by querying the database table via the index 'IProj_idEvent_participant_status'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the ProjectMember table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.ProjectMemberRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static Task<ProjectMemberRows> GetFromIdxProjectIdEventParticipantStatusAsync(int projectId, ProjectMemberEventParticipantStatus eventParticipantStatus, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    - id: eventParticipantStatus
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ProjectMemberRows}
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxProjectIdEventParticipantStatusAsync(projectId As Integer, eventParticipantStatus As ProjectMemberEventParticipantStatus, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectMemberRows)
+  overload: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync*
+  nameWithType.vb: ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(Integer, ProjectMemberEventParticipantStatus, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync(Integer, SuperOffice.Data.ProjectMemberEventParticipantStatus, System.Threading.CancellationToken)
+  name.vb: GetFromIdxProjectIdEventParticipantStatusAsync(Integer, ProjectMemberEventParticipantStatus, CancellationToken)
 - uid: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProjectMemberTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.ProjectMemberRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProjectMemberTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProjectMemberTableInfo,System.Threading.CancellationToken)
@@ -3094,6 +3137,21 @@ references:
   nameWithType.vb: Short
   fullName.vb: Short
   name.vb: Short
+- uid: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ProjectMemberRows.html#SuperOffice_CRM_Rows_ProjectMemberRows_GetFromIdxProjectIdEventParticipantStatusAsync_System_Int32_SuperOffice_Data_ProjectMemberEventParticipantStatus_System_Threading_CancellationToken_
+  name: GetFromIdxProjectIdEventParticipantStatusAsync
+  nameWithType: ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRows.GetFromIdxProjectIdEventParticipantStatusAsync
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

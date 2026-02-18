@@ -51,6 +51,7 @@ Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can
 * [GetTicketMessageEntityAsync](getticketmessageentityasync.md)
 * [GetTicketMessageWithEmbeddedDataAsync](getticketmessagewithembeddeddataasync.md)
 * [GetTicketMessageWithOptionsAsync](getticketmessagewithoptionsasync.md)
+* [GetTicketRelationEntityAsync](getticketrelationentityasync.md)
 * [GetTicketsAsync](getticketsasync.md)
 * [GetTicketSummariesAsync](getticketsummariesasync.md)
 * [Html2TextAsync](html2textasync.md)

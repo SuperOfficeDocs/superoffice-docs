@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.Data.ConfigType.Options
   - SuperOffice.Data.ConfigType.Style
+  - SuperOffice.Data.ConfigType.SubscriptionsOptions
+  - SuperOffice.Data.ConfigType.SubscriptionsStyle
   langs:
   - csharp
   - vb
@@ -24,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public enum ConfigType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Enum ConfigType As Short
   extensionMethods:
@@ -44,7 +46,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.Data.ConfigType.Style
   commentId: F:SuperOffice.Data.ConfigType.Style
   id: Style
@@ -59,7 +61,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: The row contains style data'
+  summary: '0: The row contains customer center style data'
   example: []
   syntax:
     content: >-
@@ -90,7 +92,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: The row contains options data'
+  summary: '1: The row contains customer center options data'
   example: []
   syntax:
     content: >-
@@ -103,6 +105,68 @@ items:
       <EnumMember>
 
       Options = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ConfigType.SubscriptionsStyle
+  commentId: F:SuperOffice.Data.ConfigType.SubscriptionsStyle
+  id: SubscriptionsStyle
+  parent: SuperOffice.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionsStyle
+  nameWithType: ConfigType.SubscriptionsStyle
+  fullName: SuperOffice.Data.ConfigType.SubscriptionsStyle
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '10: The row contains subscriptions style data'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SubscriptionsStyle = 10
+    return:
+      type: SuperOffice.Data.ConfigType
+    content.vb: >-
+      <EnumMember>
+
+      SubscriptionsStyle = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ConfigType.SubscriptionsOptions
+  commentId: F:SuperOffice.Data.ConfigType.SubscriptionsOptions
+  id: SubscriptionsOptions
+  parent: SuperOffice.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionsOptions
+  nameWithType: ConfigType.SubscriptionsOptions
+  fullName: SuperOffice.Data.ConfigType.SubscriptionsOptions
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '11: The row contains subscriptions options data'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SubscriptionsOptions = 11
+    return:
+      type: SuperOffice.Data.ConfigType
+    content.vb: >-
+      <EnumMember>
+
+      SubscriptionsOptions = 11
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

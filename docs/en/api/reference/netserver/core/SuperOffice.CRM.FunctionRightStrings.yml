@@ -68,7 +68,6 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.HideInbox
   - SuperOffice.CRM.FunctionRightStrings.HideMailings
   - SuperOffice.CRM.FunctionRightStrings.HideProject
-  - SuperOffice.CRM.FunctionRightStrings.HideReporter
   - SuperOffice.CRM.FunctionRightStrings.HideSale
   - SuperOffice.CRM.FunctionRightStrings.HideSelection
   - SuperOffice.CRM.FunctionRightStrings.HideService
@@ -502,34 +501,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const HideMailings As String = "hide-mailings"
-- uid: SuperOffice.CRM.FunctionRightStrings.HideReporter
-  commentId: F:SuperOffice.CRM.FunctionRightStrings.HideReporter
-  id: HideReporter
-  parent: SuperOffice.CRM.FunctionRightStrings
-  langs:
-  - csharp
-  - vb
-  name: HideReporter
-  nameWithType: FunctionRightStrings.HideReporter
-  fullName: SuperOffice.CRM.FunctionRightStrings.HideReporter
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM
-  summary: >-
-    A user who has this right will NOT see the reporter panel. This supersedes the corresponding 'Cripple' preference.
-
-    NOTE: This right can be programmatically set if we are running in Azure.
-
-    It's injected into the FunctionRightCache by code in its OnLoad; if that happens then it will also not be visible in Admin.
-
-    If such programmatic setting is not triggered, ordinary settings through Admin still work.
-  example: []
-  syntax:
-    content: public const string HideReporter = "hide-reporter"
-    return:
-      type: System.String
-    content.vb: Public Const HideReporter As String = "hide-reporter"
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkMailmerge
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkMailmerge
   id: AllowBulkMailmerge

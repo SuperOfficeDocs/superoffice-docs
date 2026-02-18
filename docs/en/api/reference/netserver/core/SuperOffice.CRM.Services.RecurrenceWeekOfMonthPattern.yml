@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
+  - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   langs:
@@ -24,13 +25,13 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
-      public abstract class RecurrenceWeekOfMonthPattern : RecurrencePatternBase, ICloneable
+      public abstract class RecurrenceWeekOfMonthPattern : RecurrencePatternBase, ICloneable, IEquatable<RecurrenceWeekOfMonthPattern>
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
-      Public MustInherit Class RecurrenceWeekOfMonthPattern Inherits RecurrencePatternBase Implements ICloneable
+      Public MustInherit Class RecurrenceWeekOfMonthPattern Inherits RecurrencePatternBase Implements ICloneable, IEquatable(Of RecurrenceWeekOfMonthPattern)
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.RecurrencePatternBase
@@ -39,6 +40,7 @@ items:
   - SuperOffice.CRM.Services.RecurrenceYearPattern
   implements:
   - System.ICloneable
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
   inheritedMembers:
   - SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   - SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
@@ -59,7 +61,33 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
+- uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  id: Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+  langs:
+  - csharp
+  - vb
+  name: Equals(RecurrenceWeekOfMonthPattern)
+  nameWithType: RecurrenceWeekOfMonthPattern.Equals(RecurrenceWeekOfMonthPattern)
+  fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  example: []
+  syntax:
+    content: public bool Equals(RecurrenceWeekOfMonthPattern other)
+    parameters:
+    - id: other
+      type: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RecurrenceWeekOfMonthPattern) As Boolean
+  overload: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals*
+  implements:
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   id: CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
@@ -289,6 +317,41 @@ references:
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
+  commentId: T:System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RecurrenceWeekOfMonthPattern>
+  nameWithType: IEquatable<RecurrenceWeekOfMonthPattern>
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern>
+  nameWithType.vb: IEquatable(Of RecurrenceWeekOfMonthPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  name.vb: IEquatable(Of RecurrenceWeekOfMonthPattern)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
@@ -651,6 +714,34 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -783,6 +874,89 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals*
+  commentId: Overload:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Equals_SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_
+  name: Equals
+  nameWithType: RecurrenceWeekOfMonthPattern.Equals
+  fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  commentId: M:System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  parent: System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RecurrenceWeekOfMonthPattern)
+  nameWithType: IEquatable<RecurrenceWeekOfMonthPattern>.Equals(RecurrenceWeekOfMonthPattern)
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern>.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  nameWithType.vb: IEquatable(Of RecurrenceWeekOfMonthPattern).Equals(RecurrenceWeekOfMonthPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern).Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  spec.csharp:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+  commentId: T:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  name: RecurrenceWeekOfMonthPattern
+  nameWithType: RecurrenceWeekOfMonthPattern
+  fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   parent: SuperOffice.CRM.Services.RecurrencePatternBase

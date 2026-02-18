@@ -1263,11 +1263,6 @@ items:
   items:
   - uid: SuperOffice.ErpSync.Field.ErpFieldCache
     name: ErpFieldCache
-- uid: SuperOffice.Products
-  name: SuperOffice.Products
-  items:
-  - uid: SuperOffice.Products.NetServerLocalServices
-    name: NetServerLocalServices
 - uid: SuperOffice.Services
   name: SuperOffice.Services
   items:

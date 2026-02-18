@@ -517,6 +517,8 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -538,12 +540,12 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 |project/projectAssociate/associateDbId|associate|ID| x |
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
@@ -642,12 +644,12 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
-|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
-|sale/saleNumber|string|Number: Number| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
+|sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
 |sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
@@ -657,7 +659,7 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -746,13 +748,17 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId|int|Text ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=contact/country,contact/contactAssociate/contactFullName,person/legalBaseEmarketing,project/projectAssociate/lastName
+GET /api/v1/archive/SimpleInvitation?$select=contact/registeredByFullName,person/useAsMailingAddress,person/personUpdatedBy,person/email/emailLastBounce,person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

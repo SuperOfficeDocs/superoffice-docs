@@ -44,6 +44,10 @@ items:
     href: aiagent/getcopilotdatasourceentityasync.md
   - name: GetCopilotEntityAsync
     href: aiagent/getcopilotentityasync.md
+  - name: GetFormDesignCssFromImageAsync
+    href: aiagent/getformdesigncssfromimageasync.md
+  - name: GetFormDesignCssFromUrlAsync
+    href: aiagent/getformdesigncssfromurlasync.md
   - name: GetFormDesignFromImageAsync
     href: aiagent/getformdesignfromimageasync.md
   - name: GetFormDesignFromUrlAsync
@@ -3475,6 +3479,8 @@ items:
     href: ticketagent/getticketmessagewithembeddeddataasync.md
   - name: GetTicketMessageWithOptionsAsync
     href: ticketagent/getticketmessagewithoptionsasync.md
+  - name: GetTicketRelationEntityAsync
+    href: ticketagent/getticketrelationentityasync.md
   - name: GetTicketsAsync
     href: ticketagent/getticketsasync.md
   - name: GetTicketSummariesAsync

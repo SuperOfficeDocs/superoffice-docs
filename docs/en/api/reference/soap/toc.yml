@@ -11543,6 +11543,10 @@
       href: Services88/AI/GetCopilotDataSourceEntity.md
     - name: GetCopilotEntity
       href: Services88/AI/GetCopilotEntity.md
+    - name: GetFormDesignCssFromImage
+      href: Services88/AI/GetFormDesignCssFromImage.md
+    - name: GetFormDesignCssFromUrl
+      href: Services88/AI/GetFormDesignCssFromUrl.md
     - name: GetFormDesignFromImage
       href: Services88/AI/GetFormDesignFromImage.md
     - name: GetFormDesignFromUrl
@@ -15159,6 +15163,8 @@
       href: Services88/Ticket/GetTicketMessageWithEmbeddedData.md
     - name: GetTicketMessageWithOptions
       href: Services88/Ticket/GetTicketMessageWithOptions.md
+    - name: GetTicketRelationEntity
+      href: Services88/Ticket/GetTicketRelationEntity.md
     - name: GetTickets
       href: Services88/Ticket/GetTickets.md
     - name: GetTicketSummaries

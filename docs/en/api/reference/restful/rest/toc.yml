@@ -2795,8 +2795,12 @@ items:
   items:
   - name: DEL TicketRelation/{id}
     href: TicketRelation/v1TicketRelationEntity_DeleteTicketRelationEntity.md
+  - name: GET TicketRelation/{id}
+    href: TicketRelation/v1TicketRelationEntity_GetTicketRelationEntity.md
   - name: GET TicketRelation/default
     href: TicketRelation/v1TicketRelationEntity_DefaultTicketRelationEntity.md
+  - name: PATCH TicketRelation/{id}
+    href: TicketRelation/v1TicketRelationEntity_PatchTicketRelationEntity.md
   - name: POST TicketRelation
     href: TicketRelation/v1TicketRelationEntity_PostTicketRelationEntity.md
   - name: PUT TicketRelation/{id}

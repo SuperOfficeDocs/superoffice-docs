@@ -328,6 +328,10 @@ items:
     name: AI_GetChatbotResponseRequest
   - uid: SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
     name: AI_GetChatbotTurnsRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
+    name: AI_GetFormDesignCssFromImageRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
+    name: AI_GetFormDesignCssFromUrlRequest
   - uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
     name: AI_GetFormDesignFromImageRequest
   - uid: SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
@@ -2326,6 +2330,8 @@ items:
     name: FreeText_SetMultiWordOperatorRequest
   - uid: SuperOffice.WebApi.Data.FreeText_SetSingleWordOperatorRequest
     name: FreeText_SetSingleWordOperatorRequest
+  - uid: SuperOffice.WebApi.Data.FunctionRightStrings
+    name: FunctionRightStrings
   - uid: SuperOffice.WebApi.Data.GeneratorEncoding
     name: GeneratorEncoding
   - uid: SuperOffice.WebApi.Data.GrantedModuleLicense
@@ -3208,6 +3214,8 @@ items:
     name: ProjectEventEntity
   - uid: SuperOffice.WebApi.Data.ProjectMember
     name: ProjectMember
+  - uid: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+    name: ProjectMemberEventParticipantStatus
   - uid: SuperOffice.WebApi.Data.ProjectStatus
     name: ProjectStatus
   - uid: SuperOffice.WebApi.Data.ProjectType

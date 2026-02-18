@@ -79,7 +79,7 @@ Sale archive provider for the Contact/Project card
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|daysInStage|int|Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -563,6 +563,8 @@ Sale archive provider for the Contact/Project card
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -639,12 +641,12 @@ Sale archive provider for the Contact/Project card
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
-|project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row| x |
 |saleStakeholder/saleId|int|Stakeholder - Sale ID: The database ID of the sale record| x |
 |saleStakeholder/comment|string|Stakeholder - Sales role comment text: Sales role comment text| x |
 |saleStakeholder/salesRoleId|listAny|Stakeholder - Sales role: Sales role| x |
@@ -743,12 +745,12 @@ Sale archive provider for the Contact/Project card
 |saleStakeholder/person/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
 |saleStakeholder/person/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 |saleStakeholder/person/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
-|saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
-|saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
+|saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |saleStakeholder/person/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |saleStakeholder/person/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/person/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -847,12 +849,12 @@ Sale archive provider for the Contact/Project card
 |saleStakeholder/person/correspondingAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
-|saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
 |saleStakeholder/person/correspondingAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
@@ -951,12 +953,12 @@ Sale archive provider for the Contact/Project card
 |saleStakeholder/contact/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |saleStakeholder/contact/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude| x |
 |saleStakeholder/contact/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
-|saleStakeholder/contact/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
-|saleStakeholder/contact/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
+|saleStakeholder/contact/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/url/URLAddress|string|Stakeholder - URL| x |
 |saleStakeholder/contact/url/URLDescription|string|Stakeholder - Description| x |
 |saleStakeholder/contact/contactAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
@@ -1055,12 +1057,12 @@ Sale archive provider for the Contact/Project card
 |saleStakeholder/contact/saintTicketCategory|listAny|Stakeholder - Category|  |
 |quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
 |quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
-|quote/orderComment|string|Comment: Customer's comment| x |
-|quote/connectionId|int|DB-ID: Database ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/orderComment|string|Comment: Customer's comment| x |
+|quote/connectionId|int|DB-ID: Database ID| x |
 |quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/description|string|Description: Description of the quote version| x |
@@ -1154,7 +1156,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=person/personAssociate/contactCategory,contact/saintTicketCategory,saleStakeholder/person/personExtra/y_rental/x_start,saleStakeholder/contact/contactExtra/x_contact_request_relation,saleStakeholder/contact/NumberOfNotCompletedTicketsInPeriod
+GET /api/v1/archive/SaleFiltered?$select=userGroup,sale/description,person/personExtra/x_person_category_relation,person/personAssociate/usergroup,contact/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

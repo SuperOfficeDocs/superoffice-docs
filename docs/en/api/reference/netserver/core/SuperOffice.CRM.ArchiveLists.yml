@@ -17,45 +17,34 @@ items:
   - SuperOffice.CRM.ArchiveLists.AggregationProvider2Constants
   - SuperOffice.CRM.ArchiveLists.AllUsersProvider
   - SuperOffice.CRM.ArchiveLists.ApSmAppointmentExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentAssociateExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentContactExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentDocumentExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
   - SuperOffice.CRM.ArchiveLists.AppointmentFavouritesProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationProvider.RowHistory
-  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
   - SuperOffice.CRM.ArchiveLists.AppointmentPersonExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentProjectExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentProviderBase`1
   - SuperOffice.CRM.ArchiveLists.AppointmentPublishExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentSaleExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentTextExtender
   - SuperOffice.CRM.ArchiveLists.AppointmentTooltipPluginConstants
   - SuperOffice.CRM.ArchiveLists.AppointmentUdefExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
-  - SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentVisibleForExtender
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityLinksRow
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnComparer
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnData
   - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
   - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationHelper
   - SuperOffice.CRM.ArchiveLists.ArchiveConfigurationProviderBase
   - SuperOffice.CRM.ArchiveLists.ArchiveControlEventHandlerAttribute
@@ -1004,6 +993,13 @@ references:
   name: ArchiveColumnInfo
   nameWithType: ArchiveColumnInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.html
+  name: ArchiveColumnInfoExtensions
+  nameWithType: ArchiveColumnInfoExtensions
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveCriteriaRow
   isExternal: true
@@ -3279,91 +3275,6 @@ references:
   name: AppointmentNotificationExtenderBase
   nameWithType: AppointmentNotificationExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider.html
-  name: AppointmentNotificationSubAggregatorProvider
-  nameWithType: AppointmentNotificationSubAggregatorProvider
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubAggregatorProvider
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase.html
-  name: AppointmentNotificationSubExtenderBase
-  nameWithType: AppointmentNotificationSubExtenderBase
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationSubExtenderBase
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider.html
-  name: AppointmentNewNotificationSubProvider
-  nameWithType: AppointmentNewNotificationSubProvider
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender.html
-  name: AppointmentNewNotificationExtender
-  nameWithType: AppointmentNewNotificationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationExtender
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider.html
-  name: AppointmentUpdatedNotificationSubProvider
-  nameWithType: AppointmentUpdatedNotificationSubProvider
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender.html
-  name: AppointmentUpdatedNotificationExtender
-  nameWithType: AppointmentUpdatedNotificationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationExtender
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider.html
-  name: AppointmentCancelledNotificationSubProvider
-  nameWithType: AppointmentCancelledNotificationSubProvider
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender.html
-  name: AppointmentCancelledNotificationExtender
-  nameWithType: AppointmentCancelledNotificationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationExtender
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider.html
-  name: AppointmentAcceptedNotificationSubProvider
-  nameWithType: AppointmentAcceptedNotificationSubProvider
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender.html
-  name: AppointmentAcceptedNotificationExtender
-  nameWithType: AppointmentAcceptedNotificationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationExtender
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider.html
-  name: AppointmentRejectedNotificationSubProvider
-  nameWithType: AppointmentRejectedNotificationSubProvider
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender.html
-  name: AppointmentRejectedNotificationExtender
-  nameWithType: AppointmentRejectedNotificationExtender
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
 - uid: SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
   isExternal: true

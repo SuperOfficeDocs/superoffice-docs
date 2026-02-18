@@ -47,7 +47,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1000010|Customer Centre password policy||ccAuthentication|
 |1000007|Client||Client|
-|1000551|SuperOffice Copilot||Copilot|
+|1000549|SuperOffice Copilot||Copilot|
 |1000020|Statistics||DataCollection|
 |1000032|Default values||Defaults|
 |1000067|Diary||DiaryView|
@@ -55,11 +55,11 @@ foreach (var item in listProvider.RootItems) {
 |1000094|Filter Dialog||FilterDialog|
 |1000096|Freetext search||Freetext|
 |1000104|Functions||Functions|
-|1000546|In-app communication||InApp|
+|1000544|In-app communication||InApp|
 |1000159|E-mail||Mail|
 |1000222|Marketing||Mailing|
 |1000230|Grouped lists||MDOList|
-|1000543|Data mirroring||Mirroring|
+|1000541|Data mirroring||Mirroring|
 |1000301|Web Services||NetServices|
 |1000331|Notifications via popup||notification|
 |1000339|Notifications via e-mail||notificationEmail|

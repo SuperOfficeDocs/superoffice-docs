@@ -47,6 +47,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colProjectId
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colContactId
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colPersonId
+  - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colEventParticipantStatus
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colFunction
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colHasInfoText
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colRegistered
@@ -458,6 +459,14 @@ references:
   name: _colPersonId
   nameWithType: ProjectMemberExtenderBase._colPersonId
   fullName: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colPersonId
+- uid: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colEventParticipantStatus
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colEventParticipantStatus
+  parent: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.html#SuperOffice_CRM_ArchiveLists_ProjectMemberExtenderBase__colEventParticipantStatus
+  name: _colEventParticipantStatus
+  nameWithType: ProjectMemberExtenderBase._colEventParticipantStatus
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colEventParticipantStatus
 - uid: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colFunction
   commentId: F:SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colFunction
   parent: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase

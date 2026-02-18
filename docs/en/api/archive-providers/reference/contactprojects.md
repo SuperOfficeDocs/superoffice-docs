@@ -45,6 +45,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Project event ID: Project event ID| x |
+|startDate|date|Start date: Project start date| x |
 |contactId|int|Company ID: Database ID of company| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
 |saintActivityType|listAny|SAINT type|  |
-|saintDirection|listAny|Direction|  |
-|saintIntention|listAny|Intention|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintDirection|listAny|Direction|  |
+|saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
@@ -131,7 +133,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactProjects?$select=icon,projectUrl/URLAddress,projectAssociate/role
+GET /api/v1/archive/ContactProjects?$select=projectEvent/hasSignOff,projectAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

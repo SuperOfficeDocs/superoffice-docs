@@ -910,7 +910,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/projectId| *None* |Project ID: Database ID of project record| x |
 |request/ticketStatusId| *None* |Status ID: Status| x |
 |request/priorityId| *None* |Priority ID: ID of priority in database| x |
-|request/categoryId| *None* |Category ID: ID of ticket category in database| x |
+|request/categoryId| *None* |Category ID: ID of request category in database| x |
 |request/ticketTypeName| *None* |Request type: Request type| x |
 |request/ticketStatusName| *None* |Status: Request status| x |
 |request/categoryFullName| *None* |Category: Request category| x |
@@ -1028,7 +1028,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID| x |
 |request/ticketStatus/name| *None* |Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name| *None* |Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -1075,6 +1075,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/endDate| *None* |End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId| *None* |Project event ID: Project event ID| x |
+|projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1159,12 +1161,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type| *None* |Type: Displays the type of an activity| x |
 |personAppointment/recordType| *None* |Record type : Shows the record type| x |
-|personAppointment/text| *None* |Text: Displays a descriptive text for the item| x |
-|personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/text| *None* |Text: Displays a descriptive text for the item| x |
+|personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId| *None* |Company ID: Database ID of company| x |
 |personAppointment/personId| *None* |Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId| *None* |Project ID: Database ID of project record| x |
@@ -1261,7 +1263,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=streetAddress/wgs84latitude,contactAssociate/credentialDisplayValue,sourceRelation/countryId,sourceRelation/contactNoMail,personTargetRelation/fullName
+GET /api/v1/archive/ContactSelection?$select=selectionMemberId,contactFax/description,url/URLAddress,appointment/associate/assocType,document/ourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

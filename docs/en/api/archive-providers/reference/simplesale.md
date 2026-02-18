@@ -77,7 +77,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|daysInStage|int|Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -561,6 +561,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -637,12 +639,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/saintTicketStatus|listAny|Status|  |
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=saleNumber,person/personSource,person/birthDay,person/personInfo/textId,contact/contactSource
+GET /api/v1/archive/SimpleSale?$select=updatedBy,earningPercent,person/personRegisteredBy,person/portraitThumbnail,person/supportAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

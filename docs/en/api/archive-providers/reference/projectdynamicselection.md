@@ -49,6 +49,8 @@ Project selection archive using the selectionId as criterionmapping.
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Project event ID: Project event ID| x |
+|startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -119,12 +121,12 @@ Project selection archive using the selectionId as criterionmapping.
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
-|saintActivityType|listAny|SAINT type|  |
-|saintDirection|listAny|Direction|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintActivityType|listAny|SAINT type|  |
+|saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
@@ -183,7 +185,7 @@ Project selection archive using the selectionId as criterionmapping.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -223,12 +225,12 @@ Project selection archive using the selectionId as criterionmapping.
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
-|sale/associate/isLocation|bool|Is a location: Is a location| x |
-|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
@@ -327,12 +329,12 @@ Project selection archive using the selectionId as criterionmapping.
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
-|appointment/appointment/titleHtml| *None* |!!Title Html| x |
-|appointment/appointment/agenda|positiveString|Agenda| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
@@ -423,6 +425,7 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/projectId|int|Project ID: Project ID| x |
 |projectMember/contactId|int|Company ID: Database ID of company| x |
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
+|projectMember/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMember/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
 |projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
@@ -430,13 +433,13 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/textId|int|Text ID| x |
 |projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
-|projectMember/lastName|string|Last name: Displays the contact's last name| x |
-|projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/lastName|string|Last name: Displays the contact's last name| x |
+|projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
+|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -534,13 +537,13 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |projectMember/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |projectMember/personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
-|projectMember/personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
-|projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
-|projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
+|projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
+|projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
 |projectMember/personUdef/SuperOffice:4|date|contactdate| x |
 |projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
@@ -638,13 +641,13 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/correspondingAssociate/userName|string|User name: User name| x |
 |projectMember/correspondingAssociate/personEmail|string|E-mail| x |
 |projectMember/correspondingAssociate/locationAddress|string|Location: Location| x |
-|projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
-|projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
-|projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
+|projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
+|projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -742,13 +745,13 @@ Project selection archive using the selectionId as criterionmapping.
 |projectMember/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|projectMember/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|projectMember/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|projectMember/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|projectMember/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|projectMember/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |projectMember/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMember/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMember/contactAssociate/userName|string|User name: User name| x |
@@ -822,7 +825,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/contactName,projectUdef/SuperOffice:6,saintDirection,sale/userGroup,sale/amountInBaseCurrency
+GET /api/v1/archive/ProjectDynamicSelection?$select=icon,registeredByFullName,sale/updatedByFullName,sale/associate/contactId,document/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

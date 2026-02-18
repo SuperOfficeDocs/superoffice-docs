@@ -34,6 +34,7 @@ from the result.
 |projectId|int|Project ID: Project ID| x |
 |contactId|int|Company ID: Database ID of company| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
+|eventParticipantStatus|listAny|Event status: Event status| x |
 |function|listAny|Function: Displays the project member's function in the project| x |
 |hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
 |registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
@@ -63,6 +64,8 @@ from the result.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -124,13 +127,13 @@ from the result.
 |project/LastCompletedActivity|date|Date of last completed activity|  |
 |project/LastDoByActivity|date|Date of last non-completed activity|  |
 |project/NumberOfSales|int|Number of sales|  |
-|project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
+|project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
+|project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |project/LastSale|date|Date of last sale|  |
 |project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
@@ -228,13 +231,13 @@ from the result.
 |person/personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
 |person/personAddress/line3|string|Contact address - Address 3: Third line of the address| x |
 |person/personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
-|person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
+|person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -332,13 +335,13 @@ from the result.
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
+|person/correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
 |person/correspondingAssociate/assocName|associate|User ID : User ID| x |
 |person/correspondingAssociate/assocTooltip|string|Description : Description|  |
@@ -436,13 +439,13 @@ from the result.
 |contact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
 |contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|contact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
-|contact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
-|contact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
+|contact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
+|contact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |contact/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |contact/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -540,13 +543,13 @@ from the result.
 |contact/LastCompletedTicket|date|Date of last completed request|  |
 |contact/LastDoByTicket|date|Date of last non-completed request|  |
 |contact/SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
-|contact/saintSaleStatus|listAny|With status|  |
-|contact/saintAmountClass|listAny|Amount class|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
+|contact/saintSaleStatus|listAny|With status|  |
+|contact/saintAmountClass|listAny|Amount class|  |
 |contact/saintActivityType|listAny|SAINT type|  |
 |contact/saintDirection|listAny|Direction|  |
 |contact/saintIntention|listAny|Intention|  |
@@ -556,7 +559,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=person/personAssociate/fullName,person/personAssociate/userName,person/personDirectPhone/description
+GET /api/v1/archive/ProjectMember?$select=project/projectAssociate/ejStatus,contact/contactUdef/SuperOffice:2,person/phone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

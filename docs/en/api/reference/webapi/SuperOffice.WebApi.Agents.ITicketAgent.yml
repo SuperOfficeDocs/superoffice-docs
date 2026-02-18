@@ -44,6 +44,7 @@ items:
   - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageWithEmbeddedDataAsync(System.Int32,SuperOffice.WebApi.Data.ImageEmbedType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageWithOptionsAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.Html2TextAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -2551,6 +2552,39 @@ items:
   nameWithType.vb: ITicketAgent.GetTicketMessageWithOptionsAsync(Integer, Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageWithOptionsAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: GetTicketMessageWithOptionsAsync(Integer, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationEntityAsync(int, RequestOptions)
+  nameWithType: ITicketAgent.GetTicketRelationEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific TicketRelationEntity object.
+  example: []
+  syntax:
+    content: Task<TicketRelationEntity> GetTicketRelationEntityAsync(int ticketRelationEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketRelationEntityId
+      type: System.Int32
+      description: The identifier of the TicketRelationEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationEntity}
+      description: TicketRelationEntity
+    content.vb: Function GetTicketRelationEntityAsync(ticketRelationEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationEntity)
+  overload: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync*
+  nameWithType.vb: ITicketAgent.GetTicketRelationEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -4285,6 +4319,13 @@ references:
   name: GetTicketMessageWithOptionsAsync
   nameWithType: ITicketAgent.GetTicketMessageWithOptionsAsync
   fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageWithOptionsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationEntityAsync
+  nameWithType: ITicketAgent.GetTicketRelationEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationEntityAsync
 - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketSummariesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketSummariesAsync
   isExternal: true

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor
   - SuperOffice.CRM.Services.RecurrenceYearPattern.Clone
   - SuperOffice.CRM.Services.RecurrenceYearPattern.Cycle
+  - SuperOffice.CRM.Services.RecurrenceYearPattern.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
   - SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   langs:
   - csharp
@@ -23,20 +24,23 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
-      public class RecurrenceYearPattern : RecurrenceWeekOfMonthPattern, ICloneable
+      public class RecurrenceYearPattern : RecurrenceWeekOfMonthPattern, ICloneable, IEquatable<RecurrenceWeekOfMonthPattern>, IEquatable<RecurrenceYearPattern>
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
-      Public Class RecurrenceYearPattern Inherits RecurrenceWeekOfMonthPattern Implements ICloneable
+      Public Class RecurrenceYearPattern Inherits RecurrenceWeekOfMonthPattern Implements ICloneable, IEquatable(Of RecurrenceWeekOfMonthPattern), IEquatable(Of RecurrenceYearPattern)
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.RecurrencePatternBase
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   implements:
   - System.ICloneable
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}
   inheritedMembers:
+  - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
@@ -60,7 +64,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrenceYearPattern.#ctor
   id: '#ctor'
@@ -104,6 +108,32 @@ items:
     content.vb: Public Overrides Function Clone() As Object
   overridden: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   overload: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone*
+- uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  commentId: M:SuperOffice.CRM.Services.RecurrenceYearPattern.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  id: Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  parent: SuperOffice.CRM.Services.RecurrenceYearPattern
+  langs:
+  - csharp
+  - vb
+  name: Equals(RecurrenceYearPattern)
+  nameWithType: RecurrenceYearPattern.Equals(RecurrenceYearPattern)
+  fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  example: []
+  syntax:
+    content: public bool Equals(RecurrenceYearPattern other)
+    parameters:
+    - id: other
+      type: SuperOffice.CRM.Services.RecurrenceYearPattern
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RecurrenceYearPattern) As Boolean
+  overload: SuperOffice.CRM.Services.RecurrenceYearPattern.Equals*
+  implements:
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   commentId: P:SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   id: Pattern
@@ -244,6 +274,106 @@ references:
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
+  commentId: T:System.IEquatable{SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RecurrenceWeekOfMonthPattern>
+  nameWithType: IEquatable<RecurrenceWeekOfMonthPattern>
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern>
+  nameWithType.vb: IEquatable(Of RecurrenceWeekOfMonthPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  name.vb: IEquatable(Of RecurrenceWeekOfMonthPattern)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: )
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}
+  commentId: T:System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RecurrenceYearPattern>
+  nameWithType: IEquatable<RecurrenceYearPattern>
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceYearPattern>
+  nameWithType.vb: IEquatable(Of RecurrenceYearPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceYearPattern)
+  name.vb: IEquatable(Of RecurrenceYearPattern)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Equals_SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_
+  name: Equals(RecurrenceWeekOfMonthPattern)
+  nameWithType: RecurrenceWeekOfMonthPattern.Equals(RecurrenceWeekOfMonthPattern)
+  fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+    name: Equals
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Equals_SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Equals(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
+    name: Equals
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Equals_SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
+    name: RecurrenceWeekOfMonthPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   parent: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
@@ -736,6 +866,34 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1016,6 +1174,89 @@ references:
   name: Clone
   nameWithType: RecurrenceYearPattern.Clone
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Clone
+- uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Equals*
+  commentId: Overload:SuperOffice.CRM.Services.RecurrenceYearPattern.Equals
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html#SuperOffice_CRM_Services_RecurrenceYearPattern_Equals_SuperOffice_CRM_Services_RecurrenceYearPattern_
+  name: Equals
+  nameWithType: RecurrenceYearPattern.Equals
+  fullName: SuperOffice.CRM.Services.RecurrenceYearPattern.Equals
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  commentId: M:System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  parent: System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RecurrenceYearPattern)
+  nameWithType: IEquatable<RecurrenceYearPattern>.Equals(RecurrenceYearPattern)
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceYearPattern>.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  nameWithType.vb: IEquatable(Of RecurrenceYearPattern).Equals(RecurrenceYearPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceYearPattern).Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+  spec.csharp:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceYearPattern}.Equals(SuperOffice.CRM.Services.RecurrenceYearPattern)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+    name: RecurrenceYearPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceYearPattern
+  commentId: T:SuperOffice.CRM.Services.RecurrenceYearPattern
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
+  name: RecurrenceYearPattern
+  nameWithType: RecurrenceYearPattern
+  fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceYearPattern.Pattern
   isExternal: true

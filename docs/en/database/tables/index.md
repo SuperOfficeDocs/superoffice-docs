@@ -255,16 +255,6 @@ envir: onsite, online
 | [ms\_trashbin](ms-trashbin.md) |This table contains entries for emails which have been trashed by a filter, waiting for confirmation of deletion or import.| 312 |
 | [notice\_frame](notice-frame.md) |PID controller for automatic adjustment of pop up message check rate| 404 |
 | [notify](notify.md) |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc.| 301 |
-| [obsolete\_1](obsolete-1.md) |Obsolete table for functionality that was never implemented| 451 |
-| [obsolete\_2](obsolete-2.md) |Obsolete table for functionality that was never implemented| 452 |
-| [obsolete\_3](obsolete-3.md) |Obsolete table for functionality that was never implemented| 453 |
-| [obsolete\_4](obsolete-4.md) |Obsolete table for functionality that was never implemented| 454 |
-| [OLEField](olefield.md) |Control data table for the OLE DB Provider| 165 |
-| [OLEFieldText](olefieldtext.md) |Control data table for the OLE DB Provider| 166 |
-| [OLESubject](olesubject.md) |Control data table for the OLE DB Provider| 161 |
-| [OLESubjectText](olesubjecttext.md) |Control data table for the OLE DB Provider| 162 |
-| [OLEView](oleview.md) |Control data table for the OLE DB Provider| 163 |
-| [OLEViewText](oleviewtext.md) |Control data table for the OLE DB Provider| 164 |
 | [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage| 502 |
 | [outbox](outbox.md) |Outgoing emails with sending status and other info| 351 |
 | [outgoing\_message](outgoing-message.md) |Delivery of outgoing messages to messageplugins, updated with status asynchroneously| 407 |
@@ -367,7 +357,6 @@ envir: onsite, online
 | [reply\_template\_attachment](reply-template-attachment.md) |This table is used to connect attachments to reply templates (many-to-many).| 278 |
 | [reply\_template\_body](reply-template-body.md) |Contains the body of the reply templates in different languages| 279 |
 | [reply\_template\_folder](reply-template-folder.md) |This table contains entries for folders for reply templates.| 276 |
-| [ReporterListDef](reporterlistdef.md) |Reporter definitions| 170 |
 | [ResourceOverride](resourceoverride.md) |Generic mechanism for overriding (or even defining new) text resources, in multiple languages| 448 |
 | [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com| 191 |
 | [role\_category](role-category.md) |Category membership associated with a role| 325 |
@@ -438,15 +427,7 @@ envir: onsite, online
 | [sms\_hysteria](sms-hysteria.md) |Avoid sending too many sms messages in a short time interval to one person| 367 |
 | [snapshot](snapshot.md) |Snapshots taken of the system database and attachments via soap| 369 |
 | [soap\_access](soap-access.md) |Table that contains constraints on the access to the soap interface| 362 |
-| [SORCriteria](sorcriteria.md) |SuperOffice reporter data| 175 |
-| [SORFCT](sorfct.md) |SuperOffice reporter data| 178 |
-| [SORField](sorfield.md) |SuperOffice reporter data| 179 |
 | [SORLabelLayout](sorlabellayout.md) |SuperOffice reporter data| 180 |
-| [SOROperators](soroperators.md) |SuperOffice reporter data| 176 |
-| [SORPublish](sorpublish.md) |SuperOffice reporter data| 174 |
-| [SORPublishGroupLink](sorpublishgrouplink.md) |Link table used for filtering reports by user group| 25 |
-| [SORSection](sorsection.md) |SuperOffice reporter data| 177 |
-| [SORTemplate](sortemplate.md) |SuperOffice reporter data| 173 |
 | [Source](source.md) |Source list table. Source for sale (list)| 100 |
 | [SourceGroupLink](sourcegrouplink.md) |User group link table for Source, for MDO item hiding| 101 |
 | [SourceHeadingLink](sourceheadinglink.md) |Heading link table for Source, for MDO headers| 102 |

@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.RecurrenceInfo.Dates
   - SuperOffice.CRM.Services.RecurrenceInfo.DayPattern
   - SuperOffice.CRM.Services.RecurrenceInfo.EndDate
+  - SuperOffice.CRM.Services.RecurrenceInfo.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
   - SuperOffice.CRM.Services.RecurrenceInfo.IsRecurrence
   - SuperOffice.CRM.Services.RecurrenceInfo.MonthPattern
   - SuperOffice.CRM.Services.RecurrenceInfo.Pattern
@@ -34,17 +35,18 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
-      public class RecurrenceInfo : ICloneable
+      public class RecurrenceInfo : ICloneable, IEquatable<RecurrenceInfo>
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
-      Public Class RecurrenceInfo Implements ICloneable
+      Public Class RecurrenceInfo Implements ICloneable, IEquatable(Of RecurrenceInfo)
   inheritance:
   - System.Object
   implements:
   - System.ICloneable
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -65,7 +67,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.RecurrenceInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrenceInfo.#ctor
   id: '#ctor'
@@ -136,6 +138,32 @@ items:
   overload: SuperOffice.CRM.Services.RecurrenceInfo.Clone*
   implements:
   - System.ICloneable.Clone
+- uid: SuperOffice.CRM.Services.RecurrenceInfo.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  commentId: M:SuperOffice.CRM.Services.RecurrenceInfo.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  id: Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  parent: SuperOffice.CRM.Services.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(RecurrenceInfo)
+  nameWithType: RecurrenceInfo.Equals(RecurrenceInfo)
+  fullName: SuperOffice.CRM.Services.RecurrenceInfo.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  example: []
+  syntax:
+    content: public bool Equals(RecurrenceInfo other)
+    parameters:
+    - id: other
+      type: SuperOffice.CRM.Services.RecurrenceInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RecurrenceInfo) As Boolean
+  overload: SuperOffice.CRM.Services.RecurrenceInfo.Equals*
+  implements:
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
 - uid: SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceId
   commentId: P:SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceId
   id: RecurrenceId
@@ -629,6 +657,41 @@ references:
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}
+  commentId: T:System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RecurrenceInfo>
+  nameWithType: IEquatable<RecurrenceInfo>
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceInfo>
+  nameWithType.vb: IEquatable(Of RecurrenceInfo)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceInfo)
+  name.vb: IEquatable(Of RecurrenceInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceInfo
+    name: RecurrenceInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceInfo
+    name: RecurrenceInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceInfo.html
+  - name: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -1067,6 +1130,34 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -1365,6 +1456,89 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceInfo.Equals*
+  commentId: Overload:SuperOffice.CRM.Services.RecurrenceInfo.Equals
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceInfo.html#SuperOffice_CRM_Services_RecurrenceInfo_Equals_SuperOffice_CRM_Services_RecurrenceInfo_
+  name: Equals
+  nameWithType: RecurrenceInfo.Equals
+  fullName: SuperOffice.CRM.Services.RecurrenceInfo.Equals
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  commentId: M:System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  parent: System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RecurrenceInfo)
+  nameWithType: IEquatable<RecurrenceInfo>.Equals(RecurrenceInfo)
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceInfo>.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  nameWithType.vb: IEquatable(Of RecurrenceInfo).Equals(RecurrenceInfo)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceInfo).Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+  spec.csharp:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceInfo
+    name: RecurrenceInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceInfo}.Equals(SuperOffice.CRM.Services.RecurrenceInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceInfo
+    name: RecurrenceInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceInfo
+  commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceInfo.html
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo
+  fullName: SuperOffice.CRM.Services.RecurrenceInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceId*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceInfo.RecurrenceId
   isExternal: true
@@ -1611,14 +1785,3 @@ references:
   name: IsRecurrence
   nameWithType: RecurrenceInfo.IsRecurrence
   fullName: SuperOffice.CRM.Services.RecurrenceInfo.IsRecurrence
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean

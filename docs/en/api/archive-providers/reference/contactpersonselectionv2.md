@@ -913,7 +913,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/projectId| *None* |Project ID: Database ID of project record| x |
 |request/ticketStatusId| *None* |Status ID: Status| x |
 |request/priorityId| *None* |Priority ID: ID of priority in database| x |
-|request/categoryId| *None* |Category ID: ID of ticket category in database| x |
+|request/categoryId| *None* |Category ID: ID of request category in database| x |
 |request/ticketTypeName| *None* |Request type: Request type| x |
 |request/ticketStatusName| *None* |Status: Request status| x |
 |request/categoryFullName| *None* |Category: Request category| x |
@@ -1031,7 +1031,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID| x |
 |request/ticketStatus/name| *None* |Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name| *None* |Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -1078,6 +1078,8 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/endDate| *None* |End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId| *None* |Project event ID: Project event ID| x |
+|projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1162,12 +1164,12 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type| *None* |Type: Displays the type of an activity| x |
 |personAppointment/recordType| *None* |Record type : Shows the record type| x |
-|personAppointment/text| *None* |Text: Displays a descriptive text for the item| x |
-|personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/text| *None* |Text: Displays a descriptive text for the item| x |
+|personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId| *None* |Company ID: Database ID of company| x |
 |personAppointment/personId| *None* |Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId| *None* |Project ID: Database ID of project record| x |
@@ -1266,12 +1268,12 @@ This is the archive Provider for the Selection contact/person archive.
 |formSubmission/formSubmissionId| *None* |Form submission ID: ID of the form submission record| x |
 |formSubmission/formSubmissionFormId| *None* |Id: Id of the form| x |
 |formSubmission/formSubmissionName| *None* |Form name: Displays a descriptive text for the item| x |
-|formSubmission/formSubmissionStatus| *None* |Status: Status of the form submission record| x |
-|formSubmission/formSubmissionEmail| *None* |E-mail: The e-mail address of the person who submitted the form| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|formSubmission/formSubmissionStatus| *None* |Status: Status of the form submission record| x |
+|formSubmission/formSubmissionEmail| *None* |E-mail: The e-mail address of the person who submitted the form| x |
 |formSubmission/icon| *None* |Category: Displays the icon for an activity type| x |
 |formSubmission/date| *None* |Date: Displays start date of a follow-up / sale date of a sale| x |
 |formSubmission/time| *None* |Time: Time|  |
@@ -1370,12 +1372,12 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/approvedText| *None* |Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/approvedDate| *None* |Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/extraField1| *None* |Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
-|sale/quote/version/extraField2| *None* |Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
-|sale/quote/version/extraField3| *None* |Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/extraField2| *None* |Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
+|sale/quote/version/extraField3| *None* |Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField4| *None* |Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField5| *None* |Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/alternative/quoteAlternativeId| *None* |QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
@@ -1449,7 +1451,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=mainContact,url/URLAddress,contactExtra/x_contact_date,NumberOfNotCompletedTicketsInPeriod,targetRelation/updatedDate
+GET /api/v1/archive/ContactPersonSelectionV2?$select=targetRelation/hasInfoText,sale/soldReason,sale/salePublish/isPublished,sale/associate/ejStatus,document/yourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

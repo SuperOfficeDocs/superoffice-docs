@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.NSPrincipalAccessorBase.#ctor
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
   - SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignIn(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
   - SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignOut
@@ -166,14 +167,35 @@ items:
   summary: Get the current user-
   example: []
   syntax:
-    content: public virtual ClaimsPrincipal User { get; }
+    content: public ClaimsPrincipal User { get; }
     parameters: []
     return:
       type: System.Security.Claims.ClaimsPrincipal
-    content.vb: Public Overridable ReadOnly Property User As ClaimsPrincipal
+    content.vb: Public ReadOnly Property User As ClaimsPrincipal
   overload: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User*
   implements:
   - SuperOffice.Security.Principal.INSPrincipalAccessor.User
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+  commentId: P:SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+  id: InnerUser
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  langs:
+  - csharp
+  - vb
+  name: InnerUser
+  nameWithType: NSPrincipalAccessorBase.InnerUser
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: protected virtual ClaimsPrincipal InnerUser { get; }
+    parameters: []
+    return:
+      type: System.Security.Claims.ClaimsPrincipal
+    content.vb: Protected Overridable ReadOnly Property InnerUser As ClaimsPrincipal
+  overload: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser*
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -902,3 +924,10 @@ references:
   name: User
   nameWithType: INSPrincipalAccessor.User
   fullName: SuperOffice.Security.Principal.INSPrincipalAccessor.User
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser*
+  commentId: Overload:SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+  isExternal: true
+  href: SuperOffice.Security.Principal.NSPrincipalAccessorBase.html#SuperOffice_Security_Principal_NSPrincipalAccessorBase_InnerUser
+  name: InnerUser
+  nameWithType: NSPrincipalAccessorBase.InnerUser
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser

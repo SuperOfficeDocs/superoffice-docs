@@ -45,6 +45,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Project event ID: Project event ID| x |
+|startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -71,7 +73,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjects?$select=projectUrl/URLDescription,updatedByFullName,imageThumbnail
+GET /api/v1/archive/AssociateProjects?$select=updatedDate,activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

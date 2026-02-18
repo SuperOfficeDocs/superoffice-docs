@@ -1,0 +1,789 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  id: ArchiveColumnInfoExtensions
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnInfoExtensions
+  nameWithType: ArchiveColumnInfoExtensions
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static class ArchiveColumnInfoExtensions
+    content.vb: Public Module ArchiveColumnInfoExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  id: ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNameArray(ArchiveColumnInfo[])
+  nameWithType: ArchiveColumnInfoExtensions.ToNameArray(ArchiveColumnInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Utility method to convert an array of ArchiveColumnInfo into a string array containing the names only
+  example: []
+  syntax:
+    content: public static string[] ToNameArray(this ArchiveColumnInfo[] columnInfos)
+    parameters:
+    - id: columnInfos
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: Column infos to extract names from
+    return:
+      type: System.String[]
+      description: Array of names, in original order
+    content.vb: Public Shared Function ToNameArray(columnInfos As ArchiveColumnInfo()) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray*
+  nameWithType.vb: ArchiveColumnInfoExtensions.ToNameArray(ArchiveColumnInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: ToNameArray(ArchiveColumnInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  id: ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNameArray(ArchiveColumnInfo[], Predicate<ArchiveColumnInfo>)
+  nameWithType: ArchiveColumnInfoExtensions.ToNameArray(ArchiveColumnInfo[], Predicate<ArchiveColumnInfo>)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[], System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    Utility method to conditionally convert an array of ArchiveColumnInfo into a string array containing
+
+    the names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should
+
+    be included in the result.
+  example: []
+  syntax:
+    content: public static string[] ToNameArray(this ArchiveColumnInfo[] columnInfos, Predicate<ArchiveColumnInfo> condition)
+    parameters:
+    - id: columnInfos
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: Column infos to test and extract the name from
+    - id: condition
+      type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: >-
+        Predicate that takes an ArchiveColumnInfo and returns a bool. A value of true indicates
+                    that that particular ArchiveColumnInfo should be included in the result.
+    return:
+      type: System.String[]
+      description: Array of names of column infos that were chosen, in original order
+    content.vb: Public Shared Function ToNameArray(columnInfos As ArchiveColumnInfo(), condition As Predicate(Of ArchiveColumnInfo)) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray*
+  nameWithType.vb: ArchiveColumnInfoExtensions.ToNameArray(ArchiveColumnInfo(), Predicate(Of ArchiveColumnInfo))
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo(), System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
+  name.vb: ToNameArray(ArchiveColumnInfo(), Predicate(Of ArchiveColumnInfo))
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  id: ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNameArray(List<ArchiveColumnInfo>)
+  nameWithType: ArchiveColumnInfoExtensions.ToNameArray(List<ArchiveColumnInfo>)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Utility method to convert a list of ArchiveColumnInfo into a string array containing the names only
+  example: []
+  syntax:
+    content: public static string[] ToNameArray(this List<ArchiveColumnInfo> columnInfos)
+    parameters:
+    - id: columnInfos
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: Column infos to extract names from
+    return:
+      type: System.String[]
+      description: Array of names, in original order
+    content.vb: Public Shared Function ToNameArray(columnInfos As List(Of ArchiveColumnInfo)) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray*
+  nameWithType.vb: ArchiveColumnInfoExtensions.ToNameArray(List(Of ArchiveColumnInfo))
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
+  name.vb: ToNameArray(List(Of ArchiveColumnInfo))
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  id: ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo},System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNameArray(List<ArchiveColumnInfo>, Predicate<ArchiveColumnInfo>)
+  nameWithType: ArchiveColumnInfoExtensions.ToNameArray(List<ArchiveColumnInfo>, Predicate<ArchiveColumnInfo>)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>, System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    Utility method to conditionally convert a list of ArchiveColumnInfo into a string array containing
+
+    the names only. The given predicate is applied to each ArchiveColumnInfo to determine if its name should
+
+    be included in the result.
+  example: []
+  syntax:
+    content: public static string[] ToNameArray(this List<ArchiveColumnInfo> columnInfos, Predicate<ArchiveColumnInfo> condition)
+    parameters:
+    - id: columnInfos
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: Column infos to test and extract the name from
+    - id: condition
+      type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: >-
+        Predicate that takes an ArchiveColumnInfo and returns a bool. A value of true indicates
+                    that that particular ArchiveColumnInfo should be included in the result.
+    return:
+      type: System.String[]
+      description: Array of names of column infos that were chosen, in original order
+    content.vb: Public Shared Function ToNameArray(columnInfos As List(Of ArchiveColumnInfo), condition As Predicate(Of ArchiveColumnInfo)) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray*
+  nameWithType.vb: ArchiveColumnInfoExtensions.ToNameArray(List(Of ArchiveColumnInfo), Predicate(Of ArchiveColumnInfo))
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo), System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
+  name.vb: ToNameArray(List(Of ArchiveColumnInfo), Predicate(Of ArchiveColumnInfo))
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  id: ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNameDictionary(List<ArchiveColumnInfo>)
+  nameWithType: ArchiveColumnInfoExtensions.ToNameDictionary(List<ArchiveColumnInfo>)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Utility method to convert a list of ArchiveColumnInfo into a dictionary keyed on name
+  example: []
+  syntax:
+    content: public static Dictionary<string, ArchiveColumnInfo> ToNameDictionary(this List<ArchiveColumnInfo> columnInfos)
+    parameters:
+    - id: columnInfos
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: Column infos to extract names from
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: Dictionary keyed on name
+    content.vb: Public Shared Function ToNameDictionary(columnInfos As List(Of ArchiveColumnInfo)) As Dictionary(Of String, ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary*
+  nameWithType.vb: ArchiveColumnInfoExtensions.ToNameDictionary(List(Of ArchiveColumnInfo))
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
+  name.vb: ToNameDictionary(List(Of ArchiveColumnInfo))
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists
+    name: ArchiveLists
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfoExtensions_ToNameArray_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo___
+  name: ToNameArray
+  nameWithType: ArchiveColumnInfoExtensions.ToNameArray
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameArray
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: (
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System
+  definition: System.Predicate`1
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<ArchiveColumnInfo>
+  nameWithType: Predicate<ArchiveColumnInfo>
+  fullName: System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: Predicate(Of ArchiveColumnInfo)
+  fullName.vb: System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: Predicate(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: )
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ArchiveColumnInfo>
+  nameWithType: List<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: List(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: List(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.html#SuperOffice_CRM_ArchiveLists_ArchiveColumnInfoExtensions_ToNameDictionary_System_Collections_Generic_List_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo__
+  name: ToNameDictionary
+  nameWithType: ArchiveColumnInfoExtensions.ToNameDictionary
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfoExtensions.ToNameDictionary
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, ArchiveColumnInfo>
+  nameWithType: Dictionary<string, ArchiveColumnInfo>
+  fullName: System.Collections.Generic.Dictionary<string, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: Dictionary(Of String, ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: Dictionary(Of String, ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )

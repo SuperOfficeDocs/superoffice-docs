@@ -14,8 +14,10 @@ What kind of data is in this row
 
 | Name | Value | Description |
 |------|-------|-------------|
-|Style|0|The row contains style data|
-|Options|1|The row contains options data|
+|Style|0|The row contains customer center style data|
+|Options|1|The row contains customer center options data|
+|SubscriptionsStyle|10|The row contains subscriptions style data|
+|SubscriptionsOptions|11|The row contains subscriptions options data|
 
 ## Usage
 

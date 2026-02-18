@@ -26,7 +26,15 @@ items:
     Carrier object for TicketRelationEntity.
 
     Relationship between two tickets, as described by the TicketRelationDefinition.
-  example: []
+  example:
+  - >-
+    Get TicketRelationEntity 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new TicketAgent(configuration);
+
+    var ticketRelationEntity = agent.GetTicketRelationEntity( 123 );</code></pre>
   syntax:
     content: 'public class TicketRelationEntity : Carrier'
     content.vb: Public Class TicketRelationEntity Inherits Carrier

@@ -5,8 +5,9 @@ items:
   id: SoHttpResponseException
   parent: SuperOffice.Exceptions
   children:
-  - SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.Http.HttpResponseMessage,System.String)
   - SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.HttpStatusCode)
+  - SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage
   - SuperOffice.Exceptions.SoHttpResponseException.Response
   langs:
   - csharp
@@ -88,16 +89,16 @@ items:
   nameWithType.vb: SoHttpResponseException.New(HttpStatusCode)
   fullName.vb: SuperOffice.Exceptions.SoHttpResponseException.New(System.Net.HttpStatusCode)
   name.vb: New(HttpStatusCode)
-- uid: SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.Http.HttpResponseMessage)
-  commentId: M:SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.Http.HttpResponseMessage)
-  id: '#ctor(System.Net.Http.HttpResponseMessage)'
+- uid: SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.Http.HttpResponseMessage,System.String)
+  commentId: M:SuperOffice.Exceptions.SoHttpResponseException.#ctor(System.Net.Http.HttpResponseMessage,System.String)
+  id: '#ctor(System.Net.Http.HttpResponseMessage,System.String)'
   parent: SuperOffice.Exceptions.SoHttpResponseException
   langs:
   - csharp
   - vb
-  name: SoHttpResponseException(HttpResponseMessage)
-  nameWithType: SoHttpResponseException.SoHttpResponseException(HttpResponseMessage)
-  fullName: SuperOffice.Exceptions.SoHttpResponseException.SoHttpResponseException(System.Net.Http.HttpResponseMessage)
+  name: SoHttpResponseException(HttpResponseMessage, string)
+  nameWithType: SoHttpResponseException.SoHttpResponseException(HttpResponseMessage, string)
+  fullName: SuperOffice.Exceptions.SoHttpResponseException.SoHttpResponseException(System.Net.Http.HttpResponseMessage, string)
   type: Constructor
   assemblies:
   - SoCore
@@ -105,16 +106,18 @@ items:
   summary: Initializes a new instance of the HttpResponseException class.
   example: []
   syntax:
-    content: public SoHttpResponseException(HttpResponseMessage response)
+    content: public SoHttpResponseException(HttpResponseMessage response, string friendlyMessage = null)
     parameters:
     - id: response
       type: System.Net.Http.HttpResponseMessage
       description: The response message.
-    content.vb: Public Sub New(response As HttpResponseMessage)
+    - id: friendlyMessage
+      type: System.String
+    content.vb: Public Sub New(response As HttpResponseMessage, friendlyMessage As String = Nothing)
   overload: SuperOffice.Exceptions.SoHttpResponseException.#ctor*
-  nameWithType.vb: SoHttpResponseException.New(HttpResponseMessage)
-  fullName.vb: SuperOffice.Exceptions.SoHttpResponseException.New(System.Net.Http.HttpResponseMessage)
-  name.vb: New(HttpResponseMessage)
+  nameWithType.vb: SoHttpResponseException.New(HttpResponseMessage, String)
+  fullName.vb: SuperOffice.Exceptions.SoHttpResponseException.New(System.Net.Http.HttpResponseMessage, String)
+  name.vb: New(HttpResponseMessage, String)
 - uid: SuperOffice.Exceptions.SoHttpResponseException.Response
   commentId: P:SuperOffice.Exceptions.SoHttpResponseException.Response
   id: Response
@@ -138,6 +141,27 @@ items:
       type: System.Net.Http.HttpResponseMessage
     content.vb: Public ReadOnly Property Response As HttpResponseMessage
   overload: SuperOffice.Exceptions.SoHttpResponseException.Response*
+- uid: SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage
+  commentId: P:SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage
+  id: FriendlyMessage
+  parent: SuperOffice.Exceptions.SoHttpResponseException
+  langs:
+  - csharp
+  - vb
+  name: FriendlyMessage
+  nameWithType: SoHttpResponseException.FriendlyMessage
+  fullName: SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public string FriendlyMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FriendlyMessage As String
+  overload: SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage*
 references:
 - uid: System.Net.Http.HttpResponseMessage
   commentId: T:System.Net.Http.HttpResponseMessage
@@ -1360,6 +1384,17 @@ references:
     name: Net
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.net
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.Exceptions.SoHttpResponseException.Response*
   commentId: Overload:SuperOffice.Exceptions.SoHttpResponseException.Response
   isExternal: true
@@ -1367,3 +1402,10 @@ references:
   name: Response
   nameWithType: SoHttpResponseException.Response
   fullName: SuperOffice.Exceptions.SoHttpResponseException.Response
+- uid: SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage*
+  commentId: Overload:SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage
+  isExternal: true
+  href: SuperOffice.Exceptions.SoHttpResponseException.html#SuperOffice_Exceptions_SoHttpResponseException_FriendlyMessage
+  name: FriendlyMessage
+  nameWithType: SoHttpResponseException.FriendlyMessage
+  fullName: SuperOffice.Exceptions.SoHttpResponseException.FriendlyMessage

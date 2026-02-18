@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.ProcessPrincipalAccessor.#ctor
+  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser
   - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignIn(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.Security.Principal.ProcessPrincipalAccessor.SignOut
-  - SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
   langs:
   - csharp
   - vb
@@ -29,6 +29,7 @@ items:
   - SuperOffice.Security.Principal.INSPrincipalAccessor
   inheritedMembers:
   - SuperOffice.Security.Principal.NSPrincipalAccessorBase.SignInWithTemporaryUser(System.Security.Claims.ClaimsPrincipal,System.Boolean)
+  - SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -108,30 +109,29 @@ items:
   nameWithType.vb: ProcessPrincipalAccessor.New()
   fullName.vb: SuperOffice.Security.Principal.ProcessPrincipalAccessor.New()
   name.vb: New()
-- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
-  commentId: P:SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
-  id: User
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser
+  commentId: P:SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser
+  id: InnerUser
   parent: SuperOffice.Security.Principal.ProcessPrincipalAccessor
   langs:
   - csharp
   - vb
-  name: User
-  nameWithType: ProcessPrincipalAccessor.User
-  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  name: InnerUser
+  nameWithType: ProcessPrincipalAccessor.InnerUser
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser
   type: Property
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: Get the current user-
   example: []
   syntax:
-    content: public override ClaimsPrincipal User { get; }
+    content: protected override ClaimsPrincipal InnerUser { get; }
     parameters: []
     return:
       type: System.Security.Claims.ClaimsPrincipal
-    content.vb: Public Overrides ReadOnly Property User As ClaimsPrincipal
-  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
-  overload: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User*
+    content.vb: Protected Overrides ReadOnly Property InnerUser As ClaimsPrincipal
+  overridden: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+  overload: SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser*
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -242,6 +242,14 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  commentId: P:SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+  parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
+  isExternal: true
+  href: SuperOffice.Security.Principal.NSPrincipalAccessorBase.html#SuperOffice_Security_Principal_NSPrincipalAccessorBase_User
+  name: User
+  nameWithType: NSPrincipalAccessorBase.User
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -1042,18 +1050,18 @@ references:
   nameWithType.vb: ProcessPrincipalAccessor.New
   fullName.vb: SuperOffice.Security.Principal.ProcessPrincipalAccessor.New
   name.vb: New
-- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
-  commentId: P:SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
+- uid: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+  commentId: P:SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
   parent: SuperOffice.Security.Principal.NSPrincipalAccessorBase
   isExternal: true
-  href: SuperOffice.Security.Principal.NSPrincipalAccessorBase.html#SuperOffice_Security_Principal_NSPrincipalAccessorBase_User
-  name: User
-  nameWithType: NSPrincipalAccessorBase.User
-  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.User
-- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User*
-  commentId: Overload:SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  href: SuperOffice.Security.Principal.NSPrincipalAccessorBase.html#SuperOffice_Security_Principal_NSPrincipalAccessorBase_InnerUser
+  name: InnerUser
+  nameWithType: NSPrincipalAccessorBase.InnerUser
+  fullName: SuperOffice.Security.Principal.NSPrincipalAccessorBase.InnerUser
+- uid: SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser
   isExternal: true
-  href: SuperOffice.Security.Principal.ProcessPrincipalAccessor.html#SuperOffice_Security_Principal_ProcessPrincipalAccessor_User
-  name: User
-  nameWithType: ProcessPrincipalAccessor.User
-  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.User
+  href: SuperOffice.Security.Principal.ProcessPrincipalAccessor.html#SuperOffice_Security_Principal_ProcessPrincipalAccessor_InnerUser
+  name: InnerUser
+  nameWithType: ProcessPrincipalAccessor.InnerUser
+  fullName: SuperOffice.Security.Principal.ProcessPrincipalAccessor.InnerUser

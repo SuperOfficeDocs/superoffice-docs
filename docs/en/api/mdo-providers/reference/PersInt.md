@@ -2,18 +2,18 @@
 uid: persint
 title: persint
 keywords: mdoprovider mdo provider persint
-description: GenericMDOProvider reads MDO lists with default settings
+description: MDO list provider for PersInt (Person interests)
 generated: true
 content_type: reference
 envir: onsite, online
 ---
 
 # "persint" MDO List
-GenericMDOProvider reads MDO lists with default settings
+MDO list provider for PersInt (Person interests)
 
 
 
-Implemented by the <see cref="T:SuperOffice.CRM.Lists.GenericMDOProvider">GenericMDOProvider</see> class.
+Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersIntProvider">PersIntProvider</see> class.
 The name of the MDO list is 'persint'.
 
 
@@ -42,13 +42,18 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
+|1|Referanse person|||
+|2|Teknisk kontakt|||
 |3|Administrativ kontakt|||
 |4|Beslutningstaker|||
-|7|Prislister|||
-|6|Produkt nyheter|||
-|1|Referanse person|||
 |5|Salgskontakt|||
-|2|Teknisk kontakt|||
+|6|Produkt nyheter|||
+|7|Prislister|||
+|8|Pressemeldinger|||
+|9|Teknisk informasjon|||
+|10|Hilsen / Julekort|||
+|11|Invitasjon - Seminar|||
+|12|Invitasjon - Kurs|||
 
 
 ## Related MDO Lists

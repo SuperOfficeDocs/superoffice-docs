@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.ProjectTableInfo.Done
   - SuperOffice.CRM.Data.ProjectTableInfo.EndDate
+  - SuperOffice.CRM.Data.ProjectTableInfo.EventId
   - SuperOffice.CRM.Data.ProjectTableInfo.GroupId
   - SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
@@ -44,6 +45,7 @@ items:
   - SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
   - SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
   - SuperOffice.CRM.Data.ProjectTableInfo.Source
+  - SuperOffice.CRM.Data.ProjectTableInfo.StartDate
   - SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
   - SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   - SuperOffice.CRM.Data.ProjectTableInfo.TextId
@@ -885,6 +887,58 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ActiveErpLinks As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks*
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Data.ProjectTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: ProjectTableInfo.EventId
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'event_id' in table 'project': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Reserved field for Lyyti event when project is linked to an event.
+  example: []
+  syntax:
+    content: public Int32FieldInfo EventId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EventId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ProjectTableInfo.EventId*
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Data.ProjectTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ProjectTableInfo.StartDate
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'startDate' in table 'project': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Reserved field for Lyyti event when project is linked to an event, is the event start date.
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo StartDate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property StartDate As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ProjectTableInfo.StartDate*
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   id: TypeIdx_InnerJoin_ProjType
@@ -2641,6 +2695,20 @@ references:
   name: ActiveErpLinks
   nameWithType: ProjectTableInfo.ActiveErpLinks
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.EventId*
+  commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_EventId
+  name: EventId
+  nameWithType: ProjectTableInfo.EventId
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.EventId
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.StartDate*
+  commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_StartDate
+  name: StartDate
+  nameWithType: ProjectTableInfo.StartDate
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.StartDate
 - uid: SuperOffice.CRM.Data.ProjTypeTableInfo
   commentId: T:SuperOffice.CRM.Data.ProjTypeTableInfo
   parent: SuperOffice.CRM.Data

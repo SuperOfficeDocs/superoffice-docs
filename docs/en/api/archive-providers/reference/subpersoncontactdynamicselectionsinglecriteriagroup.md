@@ -595,7 +595,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -713,7 +713,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -760,6 +760,8 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -847,12 +849,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
-|personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
-|personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
+|personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
@@ -951,12 +953,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/contactId|listAny|Company ID: Database ID of company| x |
 |sale/personId|listAny|Contact ID: Database ID of the contact row| x |
 |sale/projectId|listAny|Project ID: Database ID of project record| x |
-|sale/saleId|int|Sale ID: The database ID of the sale record| x |
-|sale/userGroup|userGroup|User group : The user group that owns the record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleId|int|Sale ID: The database ID of the sale record| x |
+|sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |sale/who| *None* |Who: Contact and/or company|  |
 |sale/updatedBy|associate|Updated by: The user who last updated the data| x |
 |sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
@@ -999,7 +1001,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1055,12 +1057,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |sale/quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |sale/quote/version/description|string|Description: Description of the quote version| x |
-|sale/quote/version/number|string|Number: Reference number for the quote version| x |
-|sale/quote/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/number|string|Number: Reference number for the quote version| x |
+|sale/quote/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
 |sale/quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
 |sale/quote/version/state|listAny|State: The current state the quote is in| x |
 |sale/quote/version/status|listAny|Quote status: Status field showing the status of each line.| x |
@@ -1149,7 +1151,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=forceCompany,personUdef/SuperOffice:8,personTargetRelation/personActiveErpLinks,formSubmission/type,formSubmission/contactId
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=supportLanguage,personExtra/x_person_user_relation,personTargetRelation/restrictionContactId,personAssociate/usergroupId,postAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

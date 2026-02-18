@@ -6,6 +6,9 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.FormDesignCarrier.#ctor
+  - SuperOffice.CRM.Services.FormDesignCarrier.Confidence
+  - SuperOffice.CRM.Services.FormDesignCarrier.CssStyles
+  - SuperOffice.CRM.Services.FormDesignCarrier.Notes
   - SuperOffice.CRM.Services.FormDesignCarrier.ToString
   - SuperOffice.CRM.Services.FormDesignCarrier.ToString(System.String)
   langs:
@@ -29,11 +32,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
       public class FormDesignCarrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
       Public Class FormDesignCarrier
   seealso:
@@ -55,7 +58,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.FormDesignCarrier.#ctor
   commentId: M:SuperOffice.CRM.Services.FormDesignCarrier.#ctor
   id: '#ctor'
@@ -136,6 +139,105 @@ items:
   nameWithType.vb: FormDesignCarrier.ToString(String)
   fullName.vb: SuperOffice.CRM.Services.FormDesignCarrier.ToString(String)
   name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.FormDesignCarrier.CssStyles
+  commentId: P:SuperOffice.CRM.Services.FormDesignCarrier.CssStyles
+  id: CssStyles
+  parent: SuperOffice.CRM.Services.FormDesignCarrier
+  langs:
+  - csharp
+  - vb
+  name: CssStyles
+  nameWithType: FormDesignCarrier.CssStyles
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier.CssStyles
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Generated CSS styles based on the analyzed design.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string CssStyles { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CssStyles As String
+  overload: SuperOffice.CRM.Services.FormDesignCarrier.CssStyles*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FormDesignCarrier.Confidence
+  commentId: P:SuperOffice.CRM.Services.FormDesignCarrier.Confidence
+  id: Confidence
+  parent: SuperOffice.CRM.Services.FormDesignCarrier
+  langs:
+  - csharp
+  - vb
+  name: Confidence
+  nameWithType: FormDesignCarrier.Confidence
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier.Confidence
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Confidence score (0-1) of the design analysis.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual double Confidence { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Confidence As Double
+  overload: SuperOffice.CRM.Services.FormDesignCarrier.Confidence*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FormDesignCarrier.Notes
+  commentId: P:SuperOffice.CRM.Services.FormDesignCarrier.Notes
+  id: Notes
+  parent: SuperOffice.CRM.Services.FormDesignCarrier
+  langs:
+  - csharp
+  - vb
+  name: Notes
+  nameWithType: FormDesignCarrier.Notes
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier.Notes
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Comments on the analysis
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Notes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Notes As String
+  overload: SuperOffice.CRM.Services.FormDesignCarrier.Notes*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.IAIAgent
   commentId: T:SuperOffice.CRM.Services.IAIAgent
@@ -447,3 +549,35 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Services.FormDesignCarrier.CssStyles*
+  commentId: Overload:SuperOffice.CRM.Services.FormDesignCarrier.CssStyles
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormDesignCarrier.html#SuperOffice_CRM_Services_FormDesignCarrier_CssStyles
+  name: CssStyles
+  nameWithType: FormDesignCarrier.CssStyles
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier.CssStyles
+- uid: SuperOffice.CRM.Services.FormDesignCarrier.Confidence*
+  commentId: Overload:SuperOffice.CRM.Services.FormDesignCarrier.Confidence
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormDesignCarrier.html#SuperOffice_CRM_Services_FormDesignCarrier_Confidence
+  name: Confidence
+  nameWithType: FormDesignCarrier.Confidence
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier.Confidence
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: SuperOffice.CRM.Services.FormDesignCarrier.Notes*
+  commentId: Overload:SuperOffice.CRM.Services.FormDesignCarrier.Notes
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormDesignCarrier.html#SuperOffice_CRM_Services_FormDesignCarrier_Notes
+  name: Notes
+  nameWithType: FormDesignCarrier.Notes
+  fullName: SuperOffice.CRM.Services.FormDesignCarrier.Notes

@@ -338,7 +338,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -783,7 +783,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=number,streetAddress/line2,contactExtra/x_contact_dropdown,appointment/date,appointment/text
+GET /api/v1/archive/SaintContact?$select=phone/formattedNumber,targetRelation/name,sale/registeredDate,sale/associate/fullName,appointment/endTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -28,6 +28,7 @@ Project members. Link-table between person and project
 |updated|Last updated when|UtcDateTime| |
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
+|event\_participant\_status|Reserved field for Lyyti event participants.|Enum [ProjectMemberEventParticipantStatus](enums/projectmembereventparticipantstatus.md)| |
 
 
 ![projectmember table relationship diagram](./media/projectmember.png)
@@ -41,6 +42,7 @@ Project members. Link-table between person and project
 |contact\_id |FK |Index |
 |person\_id |FK |Index |
 |project\_id, rank |FK, UShort |Index |
+|project\_id, event\_participant\_status |FK, Enum |Index |
 
 ## Relationships
 

@@ -26,6 +26,8 @@ content_type: reference
 
 * [POST Agents/Ticket/DeleteTicketRelationEntity](v1TicketAgent_DeleteTicketRelationEntity.md)
 
+* [POST Agents/Ticket/GetTicketRelationEntity](v1TicketAgent_GetTicketRelationEntity.md)
+
 * [POST Agents/Ticket/GetTicketSummaries](v1TicketAgent_GetTicketSummaries.md)
 
 * [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)

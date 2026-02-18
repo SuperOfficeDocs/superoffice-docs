@@ -483,6 +483,8 @@ items:
   href: projectfavourite.md
 - name: Projectimage
   href: projectimage.md
+- name: Projectmembereventparticipantstatus
+  href: projectmembereventparticipantstatus.md
 - name: Projectmemberwithmail
   href: projectmemberwithmail.md
 - name: Projectstatus

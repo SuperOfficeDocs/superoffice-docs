@@ -5,8 +5,8 @@ items:
   id: SoClaimsPrincipal
   parent: SuperOffice.Security.Principal
   children:
-  - SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)
-  - SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,SuperOffice.Security.Principal.NSIdentityClaimValues)
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,System.Security.Claims.ClaimsIdentity)
   - SuperOffice.Security.Principal.SoClaimsPrincipal.Associate
   - SuperOffice.Security.Principal.SoClaimsPrincipal.AssociateId
   - SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
@@ -27,6 +27,7 @@ items:
   - SuperOffice.Security.Principal.SoClaimsPrincipal.Identity
   - SuperOffice.Security.Principal.SoClaimsPrincipal.IsPerson
   - SuperOffice.Security.Principal.SoClaimsPrincipal.PersonId
+  - SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired
   - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleDescription
   - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleId
   - SuperOffice.Security.Principal.SoClaimsPrincipal.RoleName
@@ -121,58 +122,62 @@ items:
   - System.Security.Claims.ClaimsPrincipal.SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.String,{TItem},System.Double)
   - System.Security.Claims.ClaimsPrincipal.SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.String,{TItem},System.TimeSpan)
   - System.Security.Claims.ClaimsPrincipal.SuperOffice.SoCoreClaimsPrincipalExtensions.TryGetCachedItem``1(System.String,{TItem}@)
-- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)
-  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)
-  id: '#ctor(SuperOffice.Security.Principal.IUserInfoService,System.Security.Claims.ClaimsIdentity)'
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,System.Security.Claims.ClaimsIdentity)
+  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,System.Security.Claims.ClaimsIdentity)
+  id: '#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,System.Security.Claims.ClaimsIdentity)'
   parent: SuperOffice.Security.Principal.SoClaimsPrincipal
   langs:
   - csharp
   - vb
-  name: SoClaimsPrincipal(IUserInfoService, ClaimsIdentity)
-  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal(IUserInfoService, ClaimsIdentity)
-  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal(SuperOffice.Security.Principal.IUserInfoService, System.Security.Claims.ClaimsIdentity)
+  name: SoClaimsPrincipal(IUserInfoService, IPrincipalStateAccessor, ClaimsIdentity)
+  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal(IUserInfoService, IPrincipalStateAccessor, ClaimsIdentity)
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.IPrincipalStateAccessor, System.Security.Claims.ClaimsIdentity)
   type: Constructor
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public SoClaimsPrincipal(IUserInfoService userInfo, ClaimsIdentity claimsIdentity)
+    content: public SoClaimsPrincipal(IUserInfoService userInfo, IPrincipalStateAccessor principalState, ClaimsIdentity claimsIdentity)
     parameters:
     - id: userInfo
       type: SuperOffice.Security.Principal.IUserInfoService
+    - id: principalState
+      type: SuperOffice.Security.Principal.IPrincipalStateAccessor
     - id: claimsIdentity
       type: System.Security.Claims.ClaimsIdentity
-    content.vb: Public Sub New(userInfo As IUserInfoService, claimsIdentity As ClaimsIdentity)
+    content.vb: Public Sub New(userInfo As IUserInfoService, principalState As IPrincipalStateAccessor, claimsIdentity As ClaimsIdentity)
   overload: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor*
-  nameWithType.vb: SoClaimsPrincipal.New(IUserInfoService, ClaimsIdentity)
-  fullName.vb: SuperOffice.Security.Principal.SoClaimsPrincipal.New(SuperOffice.Security.Principal.IUserInfoService, System.Security.Claims.ClaimsIdentity)
-  name.vb: New(IUserInfoService, ClaimsIdentity)
-- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)
-  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)
-  id: '#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.NSIdentityClaimValues)'
+  nameWithType.vb: SoClaimsPrincipal.New(IUserInfoService, IPrincipalStateAccessor, ClaimsIdentity)
+  fullName.vb: SuperOffice.Security.Principal.SoClaimsPrincipal.New(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.IPrincipalStateAccessor, System.Security.Claims.ClaimsIdentity)
+  name.vb: New(IUserInfoService, IPrincipalStateAccessor, ClaimsIdentity)
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,SuperOffice.Security.Principal.NSIdentityClaimValues)
+  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,SuperOffice.Security.Principal.NSIdentityClaimValues)
+  id: '#ctor(SuperOffice.Security.Principal.IUserInfoService,SuperOffice.Security.Principal.IPrincipalStateAccessor,SuperOffice.Security.Principal.NSIdentityClaimValues)'
   parent: SuperOffice.Security.Principal.SoClaimsPrincipal
   langs:
   - csharp
   - vb
-  name: SoClaimsPrincipal(IUserInfoService, NSIdentityClaimValues)
-  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal(IUserInfoService, NSIdentityClaimValues)
-  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.NSIdentityClaimValues)
+  name: SoClaimsPrincipal(IUserInfoService, IPrincipalStateAccessor, NSIdentityClaimValues)
+  nameWithType: SoClaimsPrincipal.SoClaimsPrincipal(IUserInfoService, IPrincipalStateAccessor, NSIdentityClaimValues)
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.IPrincipalStateAccessor, SuperOffice.Security.Principal.NSIdentityClaimValues)
   type: Constructor
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public SoClaimsPrincipal(IUserInfoService userInfo, NSIdentityClaimValues nsIdentityClaimValues)
+    content: public SoClaimsPrincipal(IUserInfoService userInfo, IPrincipalStateAccessor principalState, NSIdentityClaimValues nsIdentityClaimValues)
     parameters:
     - id: userInfo
       type: SuperOffice.Security.Principal.IUserInfoService
+    - id: principalState
+      type: SuperOffice.Security.Principal.IPrincipalStateAccessor
     - id: nsIdentityClaimValues
       type: SuperOffice.Security.Principal.NSIdentityClaimValues
-    content.vb: Public Sub New(userInfo As IUserInfoService, nsIdentityClaimValues As NSIdentityClaimValues)
+    content.vb: Public Sub New(userInfo As IUserInfoService, principalState As IPrincipalStateAccessor, nsIdentityClaimValues As NSIdentityClaimValues)
   overload: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor*
-  nameWithType.vb: SoClaimsPrincipal.New(IUserInfoService, NSIdentityClaimValues)
-  fullName.vb: SuperOffice.Security.Principal.SoClaimsPrincipal.New(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.NSIdentityClaimValues)
-  name.vb: New(IUserInfoService, NSIdentityClaimValues)
+  nameWithType.vb: SoClaimsPrincipal.New(IUserInfoService, IPrincipalStateAccessor, NSIdentityClaimValues)
+  fullName.vb: SuperOffice.Security.Principal.SoClaimsPrincipal.New(SuperOffice.Security.Principal.IUserInfoService, SuperOffice.Security.Principal.IPrincipalStateAccessor, SuperOffice.Security.Principal.NSIdentityClaimValues)
+  name.vb: New(IUserInfoService, IPrincipalStateAccessor, NSIdentityClaimValues)
 - uid: SuperOffice.Security.Principal.SoClaimsPrincipal.GetLicenses
   commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.GetLicenses
   id: GetLicenses
@@ -247,6 +252,26 @@ items:
   nameWithType.vb: SoClaimsPrincipal.HasLicense(String, String)
   fullName.vb: SuperOffice.Security.Principal.SoClaimsPrincipal.HasLicense(String, String)
   name.vb: HasLicense(String, String)
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired
+  commentId: M:SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired
+  id: ResetIfExpired
+  parent: SuperOffice.Security.Principal.SoClaimsPrincipal
+  langs:
+  - csharp
+  - vb
+  name: ResetIfExpired()
+  nameWithType: SoClaimsPrincipal.ResetIfExpired()
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Resets the cached data if the principal state has expired.
+  example: []
+  syntax:
+    content: public void ResetIfExpired()
+    content.vb: Public Sub ResetIfExpired()
+  overload: SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired*
 - uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
   commentId: P:SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
   id: ClaimsIdentity
@@ -4521,7 +4546,7 @@ references:
 - uid: SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor*
   commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.#ctor
   isExternal: true
-  href: SuperOffice.Security.Principal.SoClaimsPrincipal.html#SuperOffice_Security_Principal_SoClaimsPrincipal__ctor_SuperOffice_Security_Principal_IUserInfoService_System_Security_Claims_ClaimsIdentity_
+  href: SuperOffice.Security.Principal.SoClaimsPrincipal.html#SuperOffice_Security_Principal_SoClaimsPrincipal__ctor_SuperOffice_Security_Principal_IUserInfoService_SuperOffice_Security_Principal_IPrincipalStateAccessor_System_Security_Claims_ClaimsIdentity_
   name: SoClaimsPrincipal
   nameWithType: SoClaimsPrincipal.SoClaimsPrincipal
   fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.SoClaimsPrincipal
@@ -4536,6 +4561,14 @@ references:
   name: IUserInfoService
   nameWithType: IUserInfoService
   fullName: SuperOffice.Security.Principal.IUserInfoService
+- uid: SuperOffice.Security.Principal.IPrincipalStateAccessor
+  commentId: T:SuperOffice.Security.Principal.IPrincipalStateAccessor
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.IPrincipalStateAccessor.html
+  name: IPrincipalStateAccessor
+  nameWithType: IPrincipalStateAccessor
+  fullName: SuperOffice.Security.Principal.IPrincipalStateAccessor
 - uid: System.Security.Claims.ClaimsIdentity
   commentId: T:System.Security.Claims.ClaimsIdentity
   parent: System.Security.Claims
@@ -4688,6 +4721,13 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired*
+  commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired
+  isExternal: true
+  href: SuperOffice.Security.Principal.SoClaimsPrincipal.html#SuperOffice_Security_Principal_SoClaimsPrincipal_ResetIfExpired
+  name: ResetIfExpired
+  nameWithType: SoClaimsPrincipal.ResetIfExpired
+  fullName: SuperOffice.Security.Principal.SoClaimsPrincipal.ResetIfExpired
 - uid: SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity*
   commentId: Overload:SuperOffice.Security.Principal.SoClaimsPrincipal.ClaimsIdentity
   isExternal: true

@@ -54,6 +54,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Project event ID: Project event ID| x |
+|startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfSales|int|Number of sales|  |
 |NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|LastSale|date|Date of last sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+|LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
 |LastDoBySale|date|Date of last non-completed sale|  |
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
@@ -140,7 +142,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksProject?$select=projectPublish/publishedBy,projectAssociate/usergroupId
+GET /api/v1/archive/LinksProject?$select=projectPublish/publishedTo,projectAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

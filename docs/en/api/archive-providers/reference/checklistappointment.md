@@ -513,6 +513,8 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -536,12 +538,12 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|project/projectAssociate/contactCategory|listAny|Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
 |project/projectAssociate/assocTooltip|string|Description : Description|  |
@@ -640,12 +642,12 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -653,7 +655,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -748,7 +750,7 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/restrictionAddress/line3,person/personUdef/SuperOffice:10,appointmentUdef/SuperOffice:3,project/projectAssociate/assocTooltip,project/NumberOfActivities
+GET /api/v1/archive/ChecklistAppointment?$select=registeredBy,person/firstName,person/personMobilePhone/formattedNumber,person/personAddress/line3,person/personExtra/x_person_datetime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

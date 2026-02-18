@@ -56,7 +56,10 @@ items:
   - SuperOffice.Data.SQL.DatabaseFunctions
   - SuperOffice.Data.SQL.DatabaseTableAttribute
   - SuperOffice.Data.SQL.DateAdd
-  - SuperOffice.Data.SQL.DatePart
+  - SuperOffice.Data.SQL.DateAdd.DatePart
+  - SuperOffice.Data.SQL.DateDiff
+  - SuperOffice.Data.SQL.DateDiff.DatePart
+  - SuperOffice.Data.SQL.DateTimeArgumentFunction
   - SuperOffice.Data.SQL.DateTimeFieldInfo
   - SuperOffice.Data.SQL.Day
   - SuperOffice.Data.SQL.Delete
@@ -154,6 +157,7 @@ items:
   - SuperOffice.Data.SQL.PreferenceLevelFieldInfo
   - SuperOffice.Data.SQL.PrivateSave
   - SuperOffice.Data.SQL.PrivateSelect
+  - SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
   - SuperOffice.Data.SQL.PublishTypeFieldInfo
   - SuperOffice.Data.SQL.QueryElement
   - SuperOffice.Data.SQL.QuoteStatusFieldInfo
@@ -290,6 +294,14 @@ references:
   name: AppointmentExternalOwnerFieldInfo
   nameWithType: AppointmentExternalOwnerFieldInfo
   fullName: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+- uid: SuperOffice.Data.SQL.ConfigTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ConfigTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ConfigTypeFieldInfo.html
+  name: ConfigTypeFieldInfo
+  nameWithType: ConfigTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.ConfigTypeFieldInfo
 - uid: SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   commentId: T:SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1074,6 +1086,14 @@ references:
   name: CategoryUpdateTriggerFieldInfo
   nameWithType: CategoryUpdateTriggerFieldInfo
   fullName: SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
+- uid: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo.html
+  name: ProjectMemberEventParticipantStatusFieldInfo
+  nameWithType: ProjectMemberEventParticipantStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1266,14 +1286,6 @@ references:
   name: ChatStatusFieldInfo
   nameWithType: ChatStatusFieldInfo
   fullName: SuperOffice.Data.SQL.ChatStatusFieldInfo
-- uid: SuperOffice.Data.SQL.ConfigTypeFieldInfo
-  commentId: T:SuperOffice.Data.SQL.ConfigTypeFieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.ConfigTypeFieldInfo.html
-  name: ConfigTypeFieldInfo
-  nameWithType: ConfigTypeFieldInfo
-  fullName: SuperOffice.Data.SQL.ConfigTypeFieldInfo
 - uid: SuperOffice.Data.SQL.FormTypeFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormTypeFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1525,6 +1537,14 @@ references:
   name: NonCoercedArgumentFunction
   nameWithType: NonCoercedArgumentFunction
   fullName: SuperOffice.Data.SQL.NonCoercedArgumentFunction
+- uid: SuperOffice.Data.SQL.DateTimeArgumentFunction
+  commentId: T:SuperOffice.Data.SQL.DateTimeArgumentFunction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeArgumentFunction.html
+  name: DateTimeArgumentFunction
+  nameWithType: DateTimeArgumentFunction
+  fullName: SuperOffice.Data.SQL.DateTimeArgumentFunction
 - uid: SuperOffice.Data.SQL.Year
   commentId: T:SuperOffice.Data.SQL.Year
   parent: SuperOffice.Data.SQL
@@ -1573,14 +1593,6 @@ references:
   name: Second
   nameWithType: Second
   fullName: SuperOffice.Data.SQL.Second
-- uid: SuperOffice.Data.SQL.DatePart
-  commentId: T:SuperOffice.Data.SQL.DatePart
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.DatePart.html
-  name: DatePart
-  nameWithType: DatePart
-  fullName: SuperOffice.Data.SQL.DatePart
 - uid: SuperOffice.Data.SQL.DateAdd
   commentId: T:SuperOffice.Data.SQL.DateAdd
   parent: SuperOffice.Data.SQL
@@ -1589,6 +1601,70 @@ references:
   name: DateAdd
   nameWithType: DateAdd
   fullName: SuperOffice.Data.SQL.DateAdd
+- uid: SuperOffice.Data.SQL.DateAdd.DatePart
+  commentId: T:SuperOffice.Data.SQL.DateAdd.DatePart
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateAdd.html
+  name: DateAdd.DatePart
+  nameWithType: DateAdd.DatePart
+  fullName: SuperOffice.Data.SQL.DateAdd.DatePart
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.html
+  - name: .
+  - uid: SuperOffice.Data.SQL.DateAdd.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.DatePart.html
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.DateAdd
+    name: DateAdd
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.html
+  - name: .
+  - uid: SuperOffice.Data.SQL.DateAdd.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateAdd.DatePart.html
+- uid: SuperOffice.Data.SQL.DateDiff
+  commentId: T:SuperOffice.Data.SQL.DateDiff
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateDiff.html
+  name: DateDiff
+  nameWithType: DateDiff
+  fullName: SuperOffice.Data.SQL.DateDiff
+- uid: SuperOffice.Data.SQL.DateDiff.DatePart
+  commentId: T:SuperOffice.Data.SQL.DateDiff.DatePart
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateDiff.html
+  name: DateDiff.DatePart
+  nameWithType: DateDiff.DatePart
+  fullName: SuperOffice.Data.SQL.DateDiff.DatePart
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateDiff.html
+  - name: .
+  - uid: SuperOffice.Data.SQL.DateDiff.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateDiff.DatePart.html
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.DateDiff
+    name: DateDiff
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateDiff.html
+  - name: .
+  - uid: SuperOffice.Data.SQL.DateDiff.DatePart
+    name: DatePart
+    isExternal: true
+    href: SuperOffice.Data.SQL.DateDiff.DatePart.html
 - uid: SuperOffice.Data.SQL.Delete
   commentId: T:SuperOffice.Data.SQL.Delete
   parent: SuperOffice.Data.SQL

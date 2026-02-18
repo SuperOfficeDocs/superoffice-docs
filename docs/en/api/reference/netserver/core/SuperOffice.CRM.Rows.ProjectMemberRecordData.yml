@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.#ctor
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.ContactId
+  - SuperOffice.CRM.Rows.ProjectMemberRecordData.EventParticipantStatus
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.MtypeIdx
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.PersonId
   - SuperOffice.CRM.Rows.ProjectMemberRecordData.ProjectId
@@ -312,6 +313,27 @@ items:
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.ProjectMemberRecordData.EventParticipantStatus
+  commentId: F:SuperOffice.CRM.Rows.ProjectMemberRecordData.EventParticipantStatus
+  id: EventParticipantStatus
+  parent: SuperOffice.CRM.Rows.ProjectMemberRecordData
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberRecordData.EventParticipantStatus
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRecordData.EventParticipantStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Reserved field for Lyyti event participants.
+  example: []
+  syntax:
+    content: public ProjectMemberEventParticipantStatus EventParticipantStatus
+    return:
+      type: SuperOffice.Data.ProjectMemberEventParticipantStatus
+    content.vb: Public EventParticipantStatus As ProjectMemberEventParticipantStatus
 - uid: SuperOffice.CRM.Rows.ProjectMemberRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ProjectMemberRecordData.#ctor
   id: '#ctor'
@@ -1238,6 +1260,41 @@ references:
   nameWithType.vb: Date
   fullName.vb: Date
   name.vb: Date
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows.ProjectMemberRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.ProjectMemberRecordData.#ctor
   isExternal: true

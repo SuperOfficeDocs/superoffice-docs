@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.Lists.ColorIndexProvider
   - SuperOffice.CRM.Lists.ConsentPurposeProvider
   - SuperOffice.CRM.Lists.ConsentSourceListProvider
+  - SuperOffice.CRM.Lists.ContIntProvider
   - SuperOffice.CRM.Lists.ContactFavouriteListProvider
   - SuperOffice.CRM.Lists.ContactPhoneProvider
   - SuperOffice.CRM.Lists.Country2Provider
@@ -176,6 +177,7 @@ items:
   - SuperOffice.CRM.Lists.OwnerContactProvider
   - SuperOffice.CRM.Lists.PeriodProvider
   - SuperOffice.CRM.Lists.PeriodsProvider
+  - SuperOffice.CRM.Lists.PersIntProvider
   - SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider
   - SuperOffice.CRM.Lists.PersonFavouriteListProvider
@@ -193,6 +195,7 @@ items:
   - SuperOffice.CRM.Lists.ProjectAssociateMDOProvider
   - SuperOffice.CRM.Lists.ProjectFavouriteListProvider
   - SuperOffice.CRM.Lists.ProjectImageProvider
+  - SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
   - SuperOffice.CRM.Lists.ProjectStatusProvider
   - SuperOffice.CRM.Lists.ProjectTypeFlatListProvider
   - SuperOffice.CRM.Lists.ProjectTypeProvider
@@ -727,6 +730,13 @@ references:
   name: SaleListProviderOrg
   nameWithType: SaleListProviderOrg
   fullName: SuperOffice.CRM.Lists.SaleListProviderOrg
+- uid: SuperOffice.CRM.Lists.ContIntProvider
+  commentId: T:SuperOffice.CRM.Lists.ContIntProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ContIntProvider.html
+  name: ContIntProvider
+  nameWithType: ContIntProvider
+  fullName: SuperOffice.CRM.Lists.ContIntProvider
 - uid: SuperOffice.CRM.Lists.CountryProvider
   commentId: T:SuperOffice.CRM.Lists.CountryProvider
   parent: SuperOffice.CRM.Lists
@@ -1475,6 +1485,13 @@ references:
   name: PeriodProvider
   nameWithType: PeriodProvider
   fullName: SuperOffice.CRM.Lists.PeriodProvider
+- uid: SuperOffice.CRM.Lists.PersIntProvider
+  commentId: T:SuperOffice.CRM.Lists.PersIntProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.PersIntProvider.html
+  name: PersIntProvider
+  nameWithType: PersIntProvider
+  fullName: SuperOffice.CRM.Lists.PersIntProvider
 - uid: SuperOffice.CRM.Lists.PersonEmailAddressProvider
   commentId: T:SuperOffice.CRM.Lists.PersonEmailAddressProvider
   isExternal: true
@@ -1588,6 +1605,13 @@ references:
   name: ProjectImageProvider
   nameWithType: ProjectImageProvider
   fullName: SuperOffice.CRM.Lists.ProjectImageProvider
+- uid: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider.html
+  name: ProjectMemberEventParticipantStatusProvider
+  nameWithType: ProjectMemberEventParticipantStatusProvider
+  fullName: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
 - uid: SuperOffice.CRM.Lists.ProjectStatusProvider
   commentId: T:SuperOffice.CRM.Lists.ProjectStatusProvider
   isExternal: true

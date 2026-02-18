@@ -52,7 +52,6 @@ SuperOffice reporter data
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[SORPublish](sorpublish.md)  |SuperOffice reporter data |
 
 
 ## Replication Flags

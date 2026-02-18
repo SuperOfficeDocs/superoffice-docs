@@ -43,7 +43,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/projectId|int|Request - Project ID: Database ID of project record| x |
 |ticket/ticketStatusId|int|Request - Status ID: Status| x |
 |ticket/priorityId|int|Request - Priority ID: ID of priority in database| x |
-|ticket/categoryId|int|Request - Category ID: ID of ticket category in database| x |
+|ticket/categoryId|int|Request - Category ID: ID of request category in database| x |
 |ticket/ticketTypeName|listAny|Request - Request type: Request type| x |
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
 |ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
@@ -161,7 +161,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/ownedBy/isLocation|bool|Request - Owner - Is a location: Is a location| x |
 |ticket/ticketStatus/ticketStatusId|int|Request - Status - ID: Displays request status ID| x |
 |ticket/ticketStatus/name|string|Request - Status - Name: Displays the name of the request status| x |
-|ticket/ticketStatus/rank|int|Request - Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticket/ticketStatus/rank|int|Request - Status - Status rank: Sort order of the status in the request status list| x |
 |ticket/ticketPriority/ticketPriorityId|int|Request - Priority - ID: Displays the ID of the priority| x |
 |ticket/ticketPriority/name|string|Request - Priority - Name: Displays the name of the priority| x |
 |ticket/ticketPriority/rank|int|Request - Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -648,7 +648,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
 |ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency: The gross sales total| x |
 |ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|ticket/sale/daysInStage| *None* |Request - Days in stage: Total number of days in this stage| x |
+|ticket/sale/daysInStage|int|Request - Days in stage: Total number of days in this stage| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
@@ -720,6 +720,8 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/endDate|date|Request - End date: End date of project| x |
 |ticket/project/imageThumbnail| *None* |Request - Thumbnail: Scaled-down image of project image|  |
 |ticket/project/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
+|ticket/project/eventId|int|Request - Project event ID: Project event ID| x |
+|ticket/project/startDate|date|Request - Start date: Project start date| x |
 |ticket/project/projectPublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
 |ticket/project/projectPublish/publishedFrom|date|Request - From date: Start date for publishing. The record will not be visible prior to this date| x |
 |ticket/project/projectPublish/publishedTo|date|Request - To date: End date for publishing. The record will not be visible after this date| x |
@@ -743,12 +745,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
 |ticket/project/projectAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
 |ticket/project/projectAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
-|ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
-|ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
+|ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
 |ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
 |ticket/project/projectAssociate/assocName|associate|Request - User ID: User ID| x |
 |ticket/project/projectAssociate/assocTooltip|string|Request - Description: Description|  |
@@ -847,12 +849,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/personCategoryRank|int|Contact - !!Category rank| x |
 |person/personBusiness|listAny|Contact - Business| x |
 |person/leadStatus|listAny|Contact - Lead status| x |
-|person/leadstatusRank|int|Contact - !!Lead status RANK| x |
-|person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/leadstatusRank|int|Contact - !!Lead status RANK| x |
+|person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
@@ -873,7 +875,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/contact/contactUdef/SuperOffice:6,ticket/contact/contactExtra/x_contact_default_integer,ticket/contact/NumberOfNotCompletedSalesInPeriod,ticket/project/projectAssociate/contactDepartment,person/portraitThumbnail
+GET /api/v1/archive/TicketMessage?$select=ticket/readByOwner,ticket/ownedBy/contactId,ticket/person/personDirectPhone/formattedNumber,ticket/person/correspondingAssociate/ejDisplayName,ticket/sale/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

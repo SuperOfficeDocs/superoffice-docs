@@ -520,6 +520,8 @@ Link data provider for appointments, handles both addressing by source or by des
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -535,12 +537,12 @@ Link data provider for appointments, handles both addressing by source or by des
 |project/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |project/projectAssociate/associateDbId|associate|ID| x |
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -639,12 +641,12 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
-|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
-|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -660,7 +662,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -743,12 +745,12 @@ Link data provider for appointments, handles both addressing by source or by des
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
-|appointment/title|positiveString|Title| x |
-|appointment/titleHtml| *None* |!!Title Html| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/title|positiveString|Title| x |
+|appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
@@ -760,7 +762,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=suggestedAppointmentId,contact/streetAddress/wgs84longitude,contact/contactUdef/SuperOffice:1,person/birthMonth,associate/usergroup
+GET /api/v1/archive/LinksAppointments?$select=date,contact/restrictionAddress/state,contact/contactAssociate/assocTooltip,person/birthDay,person/personInfo/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

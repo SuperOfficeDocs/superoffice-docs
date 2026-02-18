@@ -513,6 +513,8 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/endDate|date|End date: End date of project| x |
 |documentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |documentInstance/project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|documentInstance/project/eventId|int|Project event ID: Project event ID| x |
+|documentInstance/project/startDate|date|Start date: Project start date| x |
 |documentInstance/project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |documentInstance/project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |documentInstance/project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -540,12 +542,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |documentInstance/project/projectAssociate/role|listAny|Role : Role| x |
 |documentInstance/project/projectAssociate/assocName|associate|User ID : User ID| x |
-|documentInstance/project/projectAssociate/assocTooltip|string|Description : Description|  |
-|documentInstance/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectAssociate/assocTooltip|string|Description : Description|  |
+|documentInstance/project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |documentInstance/project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |documentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |documentInstance/project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
@@ -644,12 +646,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/text|positiveString|Text: Displays a descriptive text for the item| x |
 |documentInstance/sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |documentInstance/sale/contactId|listAny|Company ID: Database ID of company| x |
-|documentInstance/sale/personId|listAny|Contact ID: Database ID of the contact row| x |
-|documentInstance/sale/projectId|listAny|Project ID: Database ID of project record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/sale/personId|listAny|Contact ID: Database ID of the contact row| x |
+|documentInstance/sale/projectId|listAny|Project ID: Database ID of project record| x |
 |documentInstance/sale/saleId|int|Sale ID: The database ID of the sale record| x |
 |documentInstance/sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |documentInstance/sale/who| *None* |Who: Contact and/or company|  |
@@ -694,7 +696,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|documentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -749,7 +751,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/contact/contactAssociate/assocTooltip,documentInstance/documentUdef/SuperOffice:7,documentInstance/sale/hasQuote
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/registeredBy,documentInstance/subject,documentInstance/person/personDirectFax/formattedNumber,documentInstance/person/correspondingAssociate/credentialDisplayValue,documentInstance/person/withdrawnEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

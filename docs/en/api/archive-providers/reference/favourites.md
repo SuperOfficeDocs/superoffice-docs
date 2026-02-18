@@ -518,6 +518,8 @@ Archive provider for the list of favourites
 |nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
 |endDate| *None* |End date: End date of project|  |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
+|eventId| *None* |Project event ID: Project event ID|  |
+|startDate| *None* |Start date: Project start date|  |
 |project/textId| *None* |Text ID|  |
 |project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |selectionId| *None* |Selection ID: The database ID of the selection|  |
@@ -543,12 +545,12 @@ Archive provider for the list of favourites
 |selectionAssociate/associateDbId| *None* |ID|  |
 |selectionAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |selectionAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|selectionAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|selectionAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|selectionAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
+|selectionAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |selectionAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |selectionAssociate/contactCategory| *None* |Category: Category|  |
 |selectionAssociate/role| *None* |Role : Role|  |
@@ -611,6 +613,8 @@ Archive provider for the list of favourites
 |project/endDate| *None* |End date: End date of project|  |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
+|project/eventId| *None* |Project event ID: Project event ID|  |
+|project/startDate| *None* |Start date: Project start date|  |
 |project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |project/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -645,14 +649,14 @@ Archive provider for the list of favourites
 |project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
+|project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
+|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |project/projectAssociate/userName| *None* |User name: User name|  |
 |project/projectAssociate/personEmail| *None* |E-mail|  |
@@ -749,14 +753,14 @@ Archive provider for the list of favourites
 |appointmentUdef/SuperOffice:6| *None* |followupcheckbox|  |
 |appointmentUdef/SuperOffice:7| *None* |followupdropdownlistbox|  |
 |appointmentUdef/SuperOffice:8| *None* |followupdecimal|  |
-|appointment/description| *None* |Text: Displays the text entered in the description field|  |
-|appointment/title| *None* |Title|  |
-|appointment/titleHtml| *None* |!!Title Html|  |
-|appointment/agenda| *None* |Agenda|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/description| *None* |Text: Displays the text entered in the description field|  |
+|appointment/title| *None* |Title|  |
+|appointment/titleHtml| *None* |!!Title Html|  |
+|appointment/agenda| *None* |Agenda|  |
 |appointment/agendaHtml| *None* |!!Agenda Html|  |
 |appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId| *None* |Text ID|  |
@@ -764,7 +768,7 @@ Archive provider for the list of favourites
 |appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 |ticketStatusId| *None* |Status ID: Status|  |
 |priorityId| *None* |Priority ID: ID of priority in database|  |
-|categoryId| *None* |Category ID: ID of ticket category in database|  |
+|categoryId| *None* |Category ID: ID of request category in database|  |
 |ticketTypeName| *None* |Request type: Request type|  |
 |ticketStatusName| *None* |Status: Request status|  |
 |categoryFullName| *None* |Category: Request category|  |
@@ -853,14 +857,14 @@ Archive provider for the list of favourites
 |ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
 |ownedBy/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
-|ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
-|ownedBy/contactCategory| *None* |Owner - Category: Category|  |
-|ownedBy/role| *None* |Owner - Role: Role|  |
-|ownedBy/assocName| *None* |Owner - User ID: User ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
+|ownedBy/contactCategory| *None* |Owner - Category: Category|  |
+|ownedBy/role| *None* |Owner - Role: Role|  |
+|ownedBy/assocName| *None* |Owner - User ID: User ID|  |
 |ownedBy/assocTooltip| *None* |Owner - Description: Description|  |
 |ownedBy/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
 |ownedBy/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
@@ -879,7 +883,7 @@ Archive provider for the list of favourites
 |ownedBy/isLocation| *None* |Owner - Is a location: Is a location|  |
 |ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID|  |
 |ticketStatus/name| *None* |Status - Name: Displays the name of the request status|  |
-|ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list|  |
+|ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the request status list|  |
 |ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority|  |
 |ticketPriority/name| *None* |Priority - Name: Displays the name of the priority|  |
 |ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list|  |
@@ -903,7 +907,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=searchPhone/description,legalBaseEmarketing,endDate,ownedBy/otherGroups
+GET /api/v1/archive/Favourites?$select=associate/personId,contactAssociate/associateDbId,favouritePersonAssociateId,correspondingAssociate/contactDepartment,lastMembershipChange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

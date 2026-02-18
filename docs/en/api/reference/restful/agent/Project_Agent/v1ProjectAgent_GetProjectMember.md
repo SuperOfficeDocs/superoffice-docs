@@ -29,7 +29,7 @@ NsApiSlow threshold: 2000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=224
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=895
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -83,6 +83,7 @@ OK
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
 | Registered | date-time | The date and time when the project member was registered  in UTC. |
 | Updated | date-time | The date and time when the project member was last updated  in UTC. |
+| EventParticipantStatus | string | Reserved field for Lyyti event participants. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

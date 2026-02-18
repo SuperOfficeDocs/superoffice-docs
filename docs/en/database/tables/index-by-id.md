@@ -40,7 +40,6 @@ envir: onsite, online
 |22| [preference](preference.md) |Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp.|
 |23| [selection](selection.md) |Selections|
 |24| [selectionmember](selectionmember.md) |Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id.|
-|25| [SORPublishGroupLink](sorpublishgrouplink.md) |Link table used for filtering reports by user group|
 |26| [QuoteConnection](quoteconnection.md) |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system.|
 |27| [QuoteConnectionAccess](quoteconnectionaccess.md) |Access control for Quote Connections|
 |28| [activeuser](activeuser.md) |Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use: for determining who is logged on, at what location, etc.|
@@ -176,25 +175,11 @@ envir: onsite, online
 |158| [udsalesmall](udsalesmall.md) |User-defined fields|
 |159| [udsalelarge](udsalelarge.md) |User-defined fields|
 |160| [SaleTypeStageLink](saletypestagelink.md) |Many-many link table between sale type and stage; and an anchor point for guide items|
-|161| [OLESubject](olesubject.md) |Control data table for the OLE DB Provider|
-|162| [OLESubjectText](olesubjecttext.md) |Control data table for the OLE DB Provider|
-|163| [OLEView](oleview.md) |Control data table for the OLE DB Provider|
-|164| [OLEViewText](oleviewtext.md) |Control data table for the OLE DB Provider|
-|165| [OLEField](olefield.md) |Control data table for the OLE DB Provider|
-|166| [OLEFieldText](olefieldtext.md) |Control data table for the OLE DB Provider|
 |167| [OwnerContactLink](ownercontactlink.md) |Table specifying which contacts can own associates.  All contacts that have rows in this table (i.e. rows with contact_id pointing to them) will be offered as associate owners in the maintenance client and as candidate Satellite owners. Such contacts have restrictions on editing and deletion to protect database consistency. |
 |168| [FieldLabel](fieldlabel.md) |Field label override table, makes it possible to override internal string resources. Define your own text for the panels in SuperOffice, e.g. rename Project to Cars in SOAdmin - System Options - Labels  This table contains controlling data for the string substitution mechanism. There is one row in this table for each label or string that can be substituted; the active field indicates whether the string is actually being substituted or not. Initially, all rows have this field set to 0. The table is loaded with initial data during database setup.  Only SuperOffice Development has the necessary expertise to safely add rows to this table.  If a row has active = 1, the table LocaleText should contain one or more rows pointing back to this table, with the actual text to be used. |
 |169| [LocaleText](localetext.md) |Multi-language text items. Used for user-defined field labels. Must be assigned correct name to match the language they start SuperOffice in.  This table should be viewed in conjunction with FieldLabel. If a row in FieldLable has active = 1 this table will need to contain at least one row with the same resourceId as the FieldLabel row. The language id can be either 0 or one of the Windows language ID&apos;s; SuperOffice will pick the correct language on startup according to the user settings. If a label cannot be found with the given language and also not with language 0, it will not be substituted. |
-|170| [ReporterListDef](reporterlistdef.md) |Reporter definitions|
 |171| [RefCounts](refcounts.md) |Number counter for all tables that generate numbers, e.g. templates, contacts...   This table is used for the number allocation system and should not be confused with sequence, used for allocating internal ID&apos;s. This table is replicated during generation of satellites and during local update for travellers, using special logic. By default it contains rows for the SuperOffice standard counters, including one row for each DocTemplate record.  It is permissible to add new rows to this table, and such records are maintainable through the Maintenance client.  Changing the contents of the standard records is not recommended. |
 |172| [RefCountRange](refcountrange.md) |Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases|
-|173| [SORTemplate](sortemplate.md) |SuperOffice reporter data|
-|174| [SORPublish](sorpublish.md) |SuperOffice reporter data|
-|175| [SORCriteria](sorcriteria.md) |SuperOffice reporter data|
-|176| [SOROperators](soroperators.md) |SuperOffice reporter data|
-|177| [SORSection](sorsection.md) |SuperOffice reporter data|
-|178| [SORFCT](sorfct.md) |SuperOffice reporter data|
-|179| [SORField](sorfield.md) |SuperOffice reporter data|
 |180| [SORLabelLayout](sorlabellayout.md) |SuperOffice reporter data|
 |181| [foreignapp](foreignapp.md) |Top level of Foreign Key system|
 |182| [foreigndevice](foreigndevice.md) |Middle level of Foreign Key system|
@@ -466,10 +451,6 @@ envir: onsite, online
 |448| [ResourceOverride](resourceoverride.md) |Generic mechanism for overriding (or even defining new) text resources, in multiple languages|
 |449| [ErpConfiguration](erpconfiguration.md) |Global settings for the Erp Integration Server|
 |450| [EjCategoryGroupLink](ejcategorygrouplink.md) |User group link table for EjCategory, for mass handling ej_category members|
-|451| [obsolete\_1](obsolete-1.md) |Obsolete table for functionality that was never implemented|
-|452| [obsolete\_2](obsolete-2.md) |Obsolete table for functionality that was never implemented|
-|453| [obsolete\_3](obsolete-3.md) |Obsolete table for functionality that was never implemented|
-|454| [obsolete\_4](obsolete-4.md) |Obsolete table for functionality that was never implemented|
 |455| [Favourite](favourite.md) |Favourite records (star-marking)|
 |456| [DatabaseModel](databasemodel.md) |New DatabaseModel used by Continuous Database|
 |458| [SaintConfiguration](saintconfiguration.md) |Configuration information for the Saint system|

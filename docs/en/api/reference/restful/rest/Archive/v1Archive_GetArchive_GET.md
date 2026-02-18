@@ -141,14 +141,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=voluptatem
-GET /api/v1/Archive/{archiveProviderName}?$top=814
-GET /api/v1/Archive/{archiveProviderName}?$skip=311
+GET /api/v1/Archive/{archiveProviderName}?$entities=architecto
+GET /api/v1/Archive/{archiveProviderName}?$top=236
+GET /api/v1/Archive/{archiveProviderName}?$skip=911
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=incidunt
+GET /api/v1/Archive/{archiveProviderName}?$context=nihil
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=nesciunt
+GET /api/v1/Archive/{archiveProviderName}?$metadata=quam
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display

@@ -78,6 +78,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Project event ID: Project event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|project/projectAssociate/userName|string|User name: User name| x |
-|project/projectAssociate/personEmail|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/userName|string|User name: User name| x |
+|project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectAssociate/locationAddress|string|Location: Location| x |
 |project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
@@ -163,7 +165,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=project/status,project/projectAssociate/isActiveText,project/text
+GET /api/v1/archive/mailingfavourites?$select=project/projectEvent/hasSignOn,project/projectAssociate/title,project/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

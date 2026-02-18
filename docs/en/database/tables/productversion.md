@@ -37,7 +37,6 @@ Version information for code modules. Owner + code module must be unique
 
 | Fields | Types | Description |
 |--------|-------|-------------|
-|ownerName, codeName, version |String(254), String(254), String(254) |Unique |
 
 ## Relationships
 

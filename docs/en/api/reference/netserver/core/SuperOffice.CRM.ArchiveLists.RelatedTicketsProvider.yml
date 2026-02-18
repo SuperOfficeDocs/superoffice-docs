@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.#ctor
   - SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.Name
+  - SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery
   - SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   langs:
   - csharp
@@ -48,7 +49,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketProvider.TicketEntityDisplayClosed
   - SuperOffice.CRM.ArchiveLists.TicketProvider.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.TicketProvider.InnerMapFieldsAsync(System.Threading.CancellationToken)
-  - SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
   - SuperOffice.CRM.ArchiveLists.TicketProvider.GetEntityName(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.TypedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.TicketTicketExtender}.HandleDynamicExtenders(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
   - SuperOffice.CRM.ArchiveLists.TypedQueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.ArchiveLists.TicketTicketExtender}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -299,6 +299,34 @@ items:
   nameWithType.vb: RelatedTicketsProvider.SetRestriction(ParamArray ArchiveRestrictionInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
   name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery
+  id: PostProcessQuery
+  parent: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider
+  langs:
+  - csharp
+  - vb
+  name: PostProcessQuery()
+  nameWithType: RelatedTicketsProvider.PostProcessQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    This method is called after ModifyQuery has been called on all extenders, but before the query is
+
+    executed. It is used for processing that needs the query to be 'complete' from the extenders,
+
+    and gives the opportunity to tweak it, for instance by adding return fields needed for some
+
+    particular functionality.
+  example: []
+  syntax:
+    content: public override void PostProcessQuery()
+    content.vb: Public Overrides Sub PostProcessQuery()
+  overridden: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
+  overload: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery*
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
@@ -622,28 +650,6 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
-  parent: SuperOffice.CRM.ArchiveLists.TicketProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.TicketProvider.html#SuperOffice_CRM_ArchiveLists_TicketProvider_PostProcessQuery
-  name: PostProcessQuery()
-  nameWithType: TicketProvider.PostProcessQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
-    name: PostProcessQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketProvider.html#SuperOffice_CRM_ArchiveLists_TicketProvider_PostProcessQuery
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
-    name: PostProcessQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketProvider.html#SuperOffice_CRM_ArchiveLists_TicketProvider_PostProcessQuery
-  - name: (
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.TicketProvider.GetEntityName(SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketProvider.GetEntityName(SuperOffice.Data.SoDataReader)
@@ -7432,3 +7438,32 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
+  parent: SuperOffice.CRM.ArchiveLists.TicketProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketProvider.html#SuperOffice_CRM_ArchiveLists_TicketProvider_PostProcessQuery
+  name: PostProcessQuery()
+  nameWithType: TicketProvider.PostProcessQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
+    name: PostProcessQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TicketProvider.html#SuperOffice_CRM_ArchiveLists_TicketProvider_PostProcessQuery
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.TicketProvider.PostProcessQuery
+    name: PostProcessQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.TicketProvider.html#SuperOffice_CRM_ArchiveLists_TicketProvider_PostProcessQuery
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.html#SuperOffice_CRM_ArchiveLists_RelatedTicketsProvider_PostProcessQuery
+  name: PostProcessQuery
+  nameWithType: RelatedTicketsProvider.PostProcessQuery
+  fullName: SuperOffice.CRM.ArchiveLists.RelatedTicketsProvider.PostProcessQuery

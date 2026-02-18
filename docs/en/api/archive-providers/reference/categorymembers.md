@@ -70,7 +70,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=ejUserId,personEmail,mrMrs
+GET /api/v1/archive/CategoryMembers?$select=contactCategory,mrMrs,contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

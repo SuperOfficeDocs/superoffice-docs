@@ -28,7 +28,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
-|categoryId|int|Category ID: ID of ticket category in database| x |
+|categoryId|int|Category ID: ID of request category in database| x |
 |ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
@@ -150,7 +150,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -174,7 +174,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=firstReadByUser,createdBy/personEmail,ownedBy/lastName
+GET /api/v1/archive/ticketfavourites?$select=createdBy/personId,ownedBy/ejDisplayName,content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

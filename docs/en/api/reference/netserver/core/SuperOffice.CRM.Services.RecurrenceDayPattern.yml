@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Services.RecurrenceDayPattern.#ctor
   - SuperOffice.CRM.Services.RecurrenceDayPattern.Clone
   - SuperOffice.CRM.Services.RecurrenceDayPattern.Cycle
+  - SuperOffice.CRM.Services.RecurrenceDayPattern.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
   - SuperOffice.CRM.Services.RecurrenceDayPattern.Pattern
   langs:
   - csharp
@@ -23,18 +24,19 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")]
 
-      public class RecurrenceDayPattern : RecurrencePatternBase, ICloneable
+      public class RecurrenceDayPattern : RecurrencePatternBase, ICloneable, IEquatable<RecurrenceDayPattern>
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.10.0.0")>
 
-      Public Class RecurrenceDayPattern Inherits RecurrencePatternBase Implements ICloneable
+      Public Class RecurrenceDayPattern Inherits RecurrencePatternBase Implements ICloneable, IEquatable(Of RecurrenceDayPattern)
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.RecurrencePatternBase
   implements:
   - System.ICloneable
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}
   inheritedMembers:
   - SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   - System.Object.ToString
@@ -56,7 +58,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.10.0.0
 - uid: SuperOffice.CRM.Services.RecurrenceDayPattern.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrenceDayPattern.#ctor
   id: '#ctor'
@@ -100,6 +102,32 @@ items:
     content.vb: Public Overrides Function Clone() As Object
   overridden: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   overload: SuperOffice.CRM.Services.RecurrenceDayPattern.Clone*
+- uid: SuperOffice.CRM.Services.RecurrenceDayPattern.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  commentId: M:SuperOffice.CRM.Services.RecurrenceDayPattern.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  id: Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  parent: SuperOffice.CRM.Services.RecurrenceDayPattern
+  langs:
+  - csharp
+  - vb
+  name: Equals(RecurrenceDayPattern)
+  nameWithType: RecurrenceDayPattern.Equals(RecurrenceDayPattern)
+  fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Services
+  example: []
+  syntax:
+    content: public bool Equals(RecurrenceDayPattern other)
+    parameters:
+    - id: other
+      type: SuperOffice.CRM.Services.RecurrenceDayPattern
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RecurrenceDayPattern) As Boolean
+  overload: SuperOffice.CRM.Services.RecurrenceDayPattern.Equals*
+  implements:
+  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
 - uid: SuperOffice.CRM.Services.RecurrenceDayPattern.Pattern
   commentId: P:SuperOffice.CRM.Services.RecurrenceDayPattern.Pattern
   id: Pattern
@@ -235,6 +263,41 @@ references:
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}
+  commentId: T:System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RecurrenceDayPattern>
+  nameWithType: IEquatable<RecurrenceDayPattern>
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceDayPattern>
+  nameWithType.vb: IEquatable(Of RecurrenceDayPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceDayPattern)
+  name.vb: IEquatable(Of RecurrenceDayPattern)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RecurrenceDayPattern
+    name: RecurrenceDayPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceDayPattern.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RecurrenceDayPattern
+    name: RecurrenceDayPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceDayPattern.html
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
@@ -703,6 +766,34 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -983,6 +1074,89 @@ references:
   name: Clone
   nameWithType: RecurrenceDayPattern.Clone
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.Clone
+- uid: SuperOffice.CRM.Services.RecurrenceDayPattern.Equals*
+  commentId: Overload:SuperOffice.CRM.Services.RecurrenceDayPattern.Equals
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceDayPattern.html#SuperOffice_CRM_Services_RecurrenceDayPattern_Equals_SuperOffice_CRM_Services_RecurrenceDayPattern_
+  name: Equals
+  nameWithType: RecurrenceDayPattern.Equals
+  fullName: SuperOffice.CRM.Services.RecurrenceDayPattern.Equals
+- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  commentId: M:System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  parent: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RecurrenceDayPattern)
+  nameWithType: IEquatable<RecurrenceDayPattern>.Equals(RecurrenceDayPattern)
+  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceDayPattern>.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  nameWithType.vb: IEquatable(Of RecurrenceDayPattern).Equals(RecurrenceDayPattern)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceDayPattern).Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+  spec.csharp:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceDayPattern
+    name: RecurrenceDayPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceDayPattern.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDayPattern}.Equals(SuperOffice.CRM.Services.RecurrenceDayPattern)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: SuperOffice.CRM.Services.RecurrenceDayPattern
+    name: RecurrenceDayPattern
+    isExternal: true
+    href: SuperOffice.CRM.Services.RecurrenceDayPattern.html
+  - name: )
+- uid: SuperOffice.CRM.Services.RecurrenceDayPattern
+  commentId: T:SuperOffice.CRM.Services.RecurrenceDayPattern
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RecurrenceDayPattern.html
+  name: RecurrenceDayPattern
+  nameWithType: RecurrenceDayPattern
+  fullName: SuperOffice.CRM.Services.RecurrenceDayPattern
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceDayPattern.Pattern*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDayPattern.Pattern
   isExternal: true
