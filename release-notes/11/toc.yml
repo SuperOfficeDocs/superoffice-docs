@@ -75,7 +75,7 @@ items:
     - name: SuperOffice WebApi Changes
       href: api/11.10/11.10-webapi-update.md
     - name: Database changes 11.10
-      href: ../database/changes-11.8.705.md
+      href: ../database/changes-11.10.705.md
   - name: 11.9 update
     href: api/11.9/11.9-update.md
     items:
