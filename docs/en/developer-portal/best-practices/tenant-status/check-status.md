@@ -12,6 +12,10 @@ platform: web
 
 # Check tenant status
 
+Integrations that connect to SuperOffice Online must always resolve the tenant’s current environment dynamically. The tenant’s operational location—such as state and subdomain—can change at any time as part of normal platform operations. Because of this, your integration **cannot rely on stored or hard‑coded URLs**.
+
+The Tenant Status API provides the authoritative, up‑to‑date information about where a tenant currently lives. By checking status regularly, your integration automatically follows the tenant if it is moved or it's currently offline.
+
 The following parameters are required to send a request to the state API:
 
 * Set `ENVIR` to [sod, stage or online][1] depending on where your application runs.
@@ -32,17 +36,17 @@ GET https://online.superoffice.com/api/state/Cust12345
 ```json
 {
     "ContextIdentifier": "Cust12345",
-    "Endpoint": "https://online.superoffice.com/Cust12345",
+    "Endpoint": "https://online2.superoffice.com/Cust12345",
     "State": "Running",
     "IsRunning": true,
-    "ValidUntil": "2020-10-05T09:52:01.9342965Z",
-    "Api": "https://online.superoffice.com/Cust12345/api"
+    "ValidUntil": "2026-02-23T09:52:01.9342965Z",
+    "Api": "https://online2.superoffice.com/Cust12345/api"
 }
 ```
 
 #### ContextIdentifier
 
-Context identifier, for example, Cust00000
+Context identifier, for example, Cust12345
 
 #### Endpoint
 
@@ -50,7 +54,7 @@ The root path of customer installation.
 
 This path **will change** routinely to balance the load. Changes may also occur under special circumstances such as incidents.
 
-For example, `https://``**sod2**``.superoffice.com:443/Cust00000` may shift to `https://``**sod3**``.superoffice.com:443/Cust00000`.
+For example, `https://``**sod2**``.superoffice.com/Cust12345` may shift to `https://``**app**``.superoffice.com/Cust12345`.
 
 > [!NOTE]
 > From November 17. 2023, calls to the wrong public endpoint return **HTTP status code 421 - Misdirected request** with an additional error description saying "Wrong subdomain used to access tenant". Subdomains without a number identifier, such as `sod.superoffice.com` and `online.superoffice.com`, are reserved for authentication. Use the tenant-specific endpoint (with a number) for API calls. For example, `sod2.superoffice.com` or `online3.superoffice.com`. Because the subdomain part of the endpoint changes, and the application should respond to these changes, we recommend that you do not hardcode the path.
