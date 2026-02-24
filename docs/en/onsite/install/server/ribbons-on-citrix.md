@@ -1,25 +1,25 @@
 ---
+uid: deploy-ribbons-citrix
 title: Deploy Ribbons
-uid: deploy_ribbons_on_citrix
 description: Deploy Ribbons in a Citrix or Terminal Server environment
-author: SuperOffice Product and Engineering
 keywords: ribbons deploy citrix terminal
+author: SuperOffice Product and Engineering
+date: 02.24.2026
 content_type: howto
 deployment: onsite
 ---
 
 # Deployment of SuperOffice Ribbons in a Citrix or Terminal Server environment
 
-When installing SuperOffice in a Citrix environment, consider this to avoid problems when the customer starts to use our software.
+When installing SuperOffice in a Citrix or Terminal Server environment, review this information to prevent issues after deployment.
 
-## Ribbons on Citrix or Terminal server
+Before you continue, clarify the following: Will SuperOffice Ribbons be deployed to all users in the Citrix or Terminal Server environment?
 
-Ask: Will the customer deploy Ribbons to ALL users running in the Citrix/Terminal Server environment?
-
-**If all users want Ribbons, you can skip reading this document.**
+* If Ribbons will be deployed to all users, no additional configuration is required.
+* If Ribbons will be deployed to selected users only, follow the guidance below.
 
 > [!NOTE]
-> We’re not using the Shadow key system in the registry anymore.
+> We're not using the Shadow key system in the registry anymore.
 
 ## Ribbons deployment
 
