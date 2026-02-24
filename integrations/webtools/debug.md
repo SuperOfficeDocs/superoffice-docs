@@ -2,9 +2,9 @@
 uid: webtools-debug
 title: Debugging WebTools
 description: How to debug WebTools
-keywords: debug WebTools, WebTools Connectivity diagnostics, DocLink
+keywords: debug WebTools, DocLink
 author: Jostein K, Bergfrid Dias
-date: 01.23.2024
+date: 02.24.2026
 content_type: howto
 category: integration
 topic: WebTools
@@ -15,20 +15,9 @@ redirect_from: /en/document/webtools/debug
 
 # Debugging WebTools
 
-The Web Extension depends on a constant connection to the CRM Server to work properly. If you are having connectivity issues, there are a few things you may do to troubleshoot.
+The Web Extension depends on a constant connection to the CRM Server to work properly. If you are having connectivity issues, turn on logging to troubleshoot.
 
-## Open the WebTools Connectivity diagnostics page
-
-This is available on the same URL as your CRM web client, typically `http://socrm.myorganization.com/SuperOffice/WebToolsDiagnostics.aspx`.
-
-From 8.0 SR1 and CRM Online 8.0 R14, we check the last active computer and open the document there.
-
-> [!NOTE]
-> If you are using SuperOffice Onsite and have **not yet upgraded to SuperOffice 8.0 SR1 or higher**: If the same user is connected more than once, via different computers, then we don't know which one to open the document on. This means that if you have been working from your home computer, but you are now connected from your office computer, the document you just asked to open may have been opened at home instead.
-
-## Turn on logging
-
-### LogFile
+## LogFile
 
 > [!TIP]
 > This is the file support usually will ask for.
@@ -41,7 +30,7 @@ From 8.0 SR1 and CRM Online 8.0 R14, we check the last active computer and open 
 
 ![WebTools LogFile -screenshot][img1]
 
-### Get a WebTools for Mac log file
+## Get a WebTools for Mac log file
 
 1. Click **Go** then **Library**.
 
