@@ -1,25 +1,25 @@
 ---
+uid: deploy-maillink-webextensions-citrix
 title: Deploy WebTools
-uid: deploy_maillink_webextensions_on_citrix
 description: Deploy WebTools in a Citrix or Terminal Server environment
-author: SuperOffice Product and Engineering
 keywords: maillink deploy citrix terminal webtools
+author: SuperOffice Product and Engineering
+date: 02.24.2026
 content_type: howto
 deployment: onsite
 ---
 
 # Deployment of WebTools in a Citrix or Terminal Server environment
 
-When installing SuperOffice in a Citrix environment, consider this to avoid problems when the customer starts to use our software.
+When installing SuperOffice in a Citrix or Terminal Server environment, review this information to prevent issues after deployment.
 
-## WebTools on Citrix or Terminal server
+Before you continue, clarify the following: Will WebTools be deployed to all users in the Citrix or Terminal Server environment?
 
-Ask: Will the customer deploy WebTools to ALL users running in the Citrix/Terminal Server environment?
-
-**If all users want WebTools, you can skip reading this document.**
+* If WebTools will be deployed to all users, no additional configuration is required.
+* If WebTools will be deployed to selected users only, follow the guidance below.
 
 > [!NOTE]
-> We’re not using the Shadow key system in the registry anymore.
+> We're not using the Shadow key system in the registry anymore.
 
 ## MailLink deployment
 
