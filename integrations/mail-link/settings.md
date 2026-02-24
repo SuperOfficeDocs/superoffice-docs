@@ -4,7 +4,7 @@ title: SuperOffice CRM options dialog
 description: The SuperOffice CRM options dialog allows you to set archive, general and account options and show version information about SuperOffice Mail Link.
 keywords: Mail Link settings, SuperOffice CRM options dialog
 author: SuperOffice Product and Engineering
-date: 06.29.2022
+date: 02.23.2026
 content_type: reference
 category: integration
 topic: Mail Link
@@ -113,8 +113,7 @@ These options appear in the **SuperOffice account** pane of the **SuperOffice CR
 
 | Option | Description |
 |---|---|
-| Preferred SuperOffice client | Which SuperOffice client to use when [searching for senders][3]: **SuperOffice CRM** (Windows client), **SuperOffice CRM** (Web client) or **Service**. |
-| User name | Enter your user name for the selected client and click **Test connection** to confirm that you can log in to the client in question, and consequently that the connection between the mail client and the SuperOffice client works. |
+| User name | Enter your user name and click **Test connection** to confirm that you can log in to SuperOffice CRM, and consequently that the connection between the mail client and SuperOffice CRM works. |
 
 ## Advanced settings
 
@@ -132,7 +131,6 @@ The **About** pane of the dialog contains information about the current version 
 
 <!-- Referenced links -->
 [2]: index.md
-[3]: manage-senders.md
 [4]: create-in-superoffice.md
 [5]: archive.md
 
