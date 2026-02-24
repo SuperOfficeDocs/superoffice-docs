@@ -4,7 +4,7 @@ title: Manage senders
 description: Manage senders
 keywords: search for sender, save email address
 author: SuperOffice Product and Engineering
-date: 06.29.2022
+date: 02.23.2026
 content_type: howto, sender
 category: integration
 topic: Mail Link
@@ -27,7 +27,7 @@ When you archive an email or an attachment, SuperOffice CRM performs a search to
 
 ## Searching for the sender of an email
 
-You can use the **Search for sender** button to search for the precise email address of the sender in your [preferred SuperOffice client][4].
+You can use the **Search for sender** button to search for the precise email address of the sender in SuperOffice CRM.
 
 1. Select the email in the mail client inbox (you can select only one) whose sender you'd like to search for in SuperOffice.
 
@@ -100,6 +100,5 @@ If you do not want to add the email address to SuperOffice CRM, simply do not cl
 [1]: archive-on-contact.md
 [2]: archive-as-activity.md
 [3]: archive-attachment.md
-[4]: settings.md
 
 <!-- Referenced images -->
