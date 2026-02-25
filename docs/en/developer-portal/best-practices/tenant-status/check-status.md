@@ -12,7 +12,7 @@ platform: web
 
 # Check tenant status
 
-Integrations that connect to SuperOffice Online must always resolve the tenant’s current environment dynamically. The tenant’s operational location—such as state and subdomain—can change at any time as part of normal platform operations. Because of this, your integration **cannot rely on stored or hard‑coded URLs**.
+Integrations that connect to SuperOffice Online must always resolve the tenant's current environment dynamically. The tenant's operational location, such as state and subdomain, can change at any time as part of normal platform operations. Because of this, your integration **cannot rely on stored or hard‑coded URLs**.
 
 The Tenant Status API provides the authoritative, up‑to‑date information about where a tenant currently lives. By checking status regularly, your integration automatically follows the tenant if it is moved or it's currently offline.
 
