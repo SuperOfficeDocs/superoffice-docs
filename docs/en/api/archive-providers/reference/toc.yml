@@ -9,10 +9,6 @@ items:
   href: allusers.md
 - name: Appointment
   href: appointment.md
-- name: AppointmentAcceptedNotification
-  href: appointmentacceptednotification.md
-- name: AppointmentCancelledNotification
-  href: appointmentcancellednotification.md
 - name: AppointmentDynamicSelection
   href: appointmentdynamicselection.md
 - name: AppointmentDynamicSelectionSingleCriteriaGroup
@@ -23,14 +19,10 @@ items:
   href: appointmentfavourites.md
 - name: AppointmenthadowSelectionCombined
   href: appointmenthadowselectioncombined.md
-- name: AppointmentNewNotification
-  href: appointmentnewnotification.md
 - name: AppointmentNotification
   href: appointmentnotification.md
 - name: AppointmentNotificationAggregator
   href: appointmentnotificationaggregator.md
-- name: AppointmentRejectedNotification
-  href: appointmentrejectednotification.md
 - name: AppointmentSelection
   href: appointmentselection.md
 - name: AppointmentSelectionCombined
@@ -59,8 +51,6 @@ items:
   href: appointmentstaticselection.md
 - name: AppointmentStaticSelectionV2
   href: appointmentstaticselectionv2.md
-- name: AppointmentUpdatedNotification
-  href: appointmentupdatednotification.md
 - name: AssignResponseInvitation
   href: assignresponseinvitation.md
 - name: AssociateProjectDynamicSelection
