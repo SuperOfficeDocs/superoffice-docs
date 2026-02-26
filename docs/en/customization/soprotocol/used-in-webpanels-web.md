@@ -10,6 +10,7 @@ category: customization
 topic: soprotocol
 redirect_from: /en/ui/soprotocol/used-in-webpanels-web
 language: en
+index: true
 ---
 
 # SOProtocol and web panels - web

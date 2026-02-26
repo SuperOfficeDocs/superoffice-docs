@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 01.02.2024
 keywords: CRMScript, best practices, performance
 content_type: reference
+index: true
 ---
 
 # CRMScript best practices

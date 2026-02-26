@@ -13,6 +13,7 @@ license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
+index: true
 ---
 
 # Set up UTM tracking

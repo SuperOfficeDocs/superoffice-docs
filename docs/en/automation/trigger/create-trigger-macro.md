@@ -6,6 +6,7 @@ author: Simen Mostuen Iversen
 date: 06.06.2019
 keywords: automation
 content_type: howto
+index: true
 ---
 
 # Creating a trigger :: Macro

@@ -11,8 +11,9 @@ category: Marketing
 topic: SMS
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /en/service/sms/index
 language: en
+index: true
+redirect_from: /en/service/sms/index
 ---
 
 # SMS connectors

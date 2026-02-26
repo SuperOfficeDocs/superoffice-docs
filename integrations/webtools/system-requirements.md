@@ -10,6 +10,7 @@ category: integration
 topic: WebTools
 deployment: onsite
 language: en
+index: true
 redirect_from: /en/document/webtools/system-requirements
 ---
 

@@ -11,6 +11,7 @@ category: customization
 topic: soprotocol
 redirect_from: /en/ui/soprotocol/index
 language: en
+index: true
 ---
 
 # SoProtocol

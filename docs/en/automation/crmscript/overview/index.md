@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 02.02.2022
 keywords: CRMScript
 content_type: concept
+index: true
 ---
 
 # What is CRMScript?

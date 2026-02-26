@@ -6,6 +6,7 @@ keywords: CRMScript
 author: Bergfrid Dias
 date: 04.15.2024
 content_type: concept
+index: true
 ---
 
 # Getting started with CRMScript

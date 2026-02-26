@@ -10,6 +10,7 @@ category: integration
 topic: Zapier
 platform: Zapier
 language: en
+index: true
 redirect_from: /en/automation/zapier/reference
 ---
 

@@ -9,6 +9,7 @@ content_type: howto
 category: integration
 topic: SuperNotes
 language: en
+index: true
 ---
 
 # Getting started

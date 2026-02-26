@@ -11,6 +11,7 @@ license: salespremium, servicepremium, marketingessentials
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from:
   - /en/project/learn/project-guide/deactivate
   - /en/project/learn/project-guide/edit

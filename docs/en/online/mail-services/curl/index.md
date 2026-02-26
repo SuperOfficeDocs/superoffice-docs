@@ -9,9 +9,8 @@ version: 11
 content_type: concept
 category: email
 topic: curl
-index: true
-redirect_from: /en/email/service/index
 language: en
+redirect_from: /en/email/service/index
 ---
 
 # Email in Service and Marketing

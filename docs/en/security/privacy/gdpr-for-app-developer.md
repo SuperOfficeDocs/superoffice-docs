@@ -7,6 +7,7 @@ keywords:
 content_type: tutorial
 deployment: online
 platform: web
+index: true
 ---
 
 # GDPR for app developers

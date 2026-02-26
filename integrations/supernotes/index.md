@@ -9,6 +9,7 @@ content_type: concept
 category: integration
 topic: SuperNotes
 language: en
+index: true
 ---
 
 # SuperNotes

@@ -9,6 +9,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from: /en/admin/preferences/learn/global-preferences/password
 ---
 
