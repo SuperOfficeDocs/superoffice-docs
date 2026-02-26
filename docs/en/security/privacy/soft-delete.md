@@ -6,6 +6,7 @@ author: Marek Vokáč, Eivind Fasting
 date: 09.25.2024
 keywords:
 content_type: concept
+index: true
 ---
 
 # Soft delete

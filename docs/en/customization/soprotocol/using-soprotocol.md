@@ -12,6 +12,7 @@ platform: web
 deployment: onsite
 redirect_from: /en/ui/soprotocol/using-soprotocol
 language: en
+index: true
 ---
 
 # Using SoProtocol

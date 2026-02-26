@@ -10,6 +10,7 @@ category: customization
 topic: soprotocol
 redirect_from: /en/ui/soprotocol/in-crmscript
 language: en
+index: true
 ---
 
 # Using SOProtocol in CRMScript

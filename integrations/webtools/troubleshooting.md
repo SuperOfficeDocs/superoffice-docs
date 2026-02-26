@@ -9,6 +9,7 @@ content_type: howto
 category: integration
 topic: WebTools
 language: en
+index: true
 redirect_from: /en/document/webtools/troubleshooting
 ---
 

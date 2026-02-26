@@ -11,6 +11,8 @@ category: Marketing
 topic: SMS
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
+index: true
 redirect_from: 
   - /en/service/sms/cm
   - /en/service/sms/compaya
@@ -19,7 +21,6 @@ redirect_from:
   - /en/service/sms/smsteknik
   - /en/service/sms/twilio
   - /en/service/sms/txtlocal
-language: en
 ---
 
 # Configure outgoing SMS connector

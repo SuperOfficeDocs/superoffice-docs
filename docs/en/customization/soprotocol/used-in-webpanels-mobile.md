@@ -11,6 +11,7 @@ topic: soprotocol
 platform: mobile
 redirect_from: /en/ui/soprotocol/used-in-webpanels-mobile
 language: en
+index: true
 ---
 
 # SOProtocol and web panels - mobile

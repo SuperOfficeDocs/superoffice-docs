@@ -9,6 +9,7 @@ content_type: reference
 category: integration
 topic: SuperNotes
 language: en
+index: true
 ---
 
 # Workspaces

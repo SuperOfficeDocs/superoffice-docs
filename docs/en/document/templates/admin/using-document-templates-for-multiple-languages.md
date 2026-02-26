@@ -10,6 +10,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 deployment: onsite
 language: en
+index: true
 redirect_from: 
   - /en/onsite/win-client/learn/using-document-templates-for-multiple-languages
 ---
