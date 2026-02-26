@@ -90,7 +90,7 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 <!-- Referenced links -->
 [1]: ../guide.md
 [2]: ../service/index.md
-[3]: ../../../mobile/pocket-crm/deploy.md
+[3]: ../../pocket-crm/deploy.md
 [4]: ../../security/secure-deployment-guide.md
 [5]: ../iis/index.md
 [6]: ../../../api/config/documents.md

@@ -89,8 +89,8 @@ See: [.NET system requirements][13]
 [1]: crm-server.md
 [2]: web-client.md
 [3]: iis.md
-[4]: ../../mobile/pocket-crm/system-requirements.md
-[5]: ../../mobile/pocket-crm/client-requirements.md
+[4]: ../pocket-crm/system-requirements.md
+[5]: ../pocket-crm/client-requirements.md
 [6]: ../../mobile/superoffice-mobile/client-requirements.md
 [7]: ../compatibility/server-os.md
 [8]: ../compatibility/client-os.md

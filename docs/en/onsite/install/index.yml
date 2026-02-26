@@ -133,7 +133,7 @@ landingContent:
         text: Web client
       - url: ../../../../integrations/webtools/system-requirements.md
         text: WebTools
-      - url: ../../mobile/pocket-crm/system-requirements.md
+      - url: ../pocket-crm/system-requirements.md
         text: Pocket CRM
 
   # Card
@@ -202,7 +202,7 @@ landingContent:
         - text: Deploy WebTools
           url: ../../../../integrations/webtools/deploy.md
         - text: Deploy Pocket CRM
-          url: ../../mobile/pocket-crm/deploy.md
+          url: ../pocket-crm/deploy.md
         - text: Set up Active Directory authentication
           url: ../../online/identity/ad/set-up-ad-auth.md
       - itemType: library_books

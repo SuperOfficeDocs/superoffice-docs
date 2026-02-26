@@ -89,7 +89,7 @@ items:
             href: install/server/ribbons-on-citrix.md
           - name: MailLink and Ribbons language
             href: install/server/addins-language.md
-            
+
     - name: Install Win client
       href: install/win-client/index.md
       items:
@@ -213,6 +213,9 @@ items:
       href: automated-tasks/importmail.md
     - name: upgrade
       href: automated-tasks/upgrade.md
+  - name: Pocket CRM
+    href: pocket-crm/toc.yml
+    topicHref: pocket-crm/index.md
   - name: Travel
     href: travel/toc.yml
   - name: Windows client settings
