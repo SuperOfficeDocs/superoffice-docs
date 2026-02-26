@@ -6,6 +6,7 @@ author: Michel Krohn-Dale
 date: 11.11.2021
 keywords: CRMScript, trigger, automation, event
 content_type: concept
+index: true
 ---
 
 # Triggers

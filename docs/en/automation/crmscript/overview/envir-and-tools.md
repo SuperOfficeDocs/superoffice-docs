@@ -6,6 +6,7 @@ keywords: CRMScript, interpreter, run script, execute script, CRMScript editor
 author: Bergfrid Dias
 date: 04.15.2024
 content_type: howto
+index: true
 ---
 
 # How do I create and run CRMScripts?

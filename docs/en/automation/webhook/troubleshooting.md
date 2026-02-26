@@ -8,6 +8,7 @@ keywords: automation
 content_type: howto
 audience: api
 audience_tooltip: Troubleshooting webhooks
+index: true
 ---
 
 <!-- markdownlint-disable-file MD013 -->

@@ -8,6 +8,7 @@ keywords: automation, API, integration point, scripting, Jscript, Javascript, VB
 content_type: concept
 deployment: online, onsite
 platform: web, win, service
+index: true
 ---
 
 # Automation

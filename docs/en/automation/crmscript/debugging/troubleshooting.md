@@ -5,6 +5,7 @@ author:
 date:
 keywords:
 content_type: concept
+index: true
 ---
 
 # Basic troubleshooting

@@ -6,6 +6,7 @@ author: Bergfrid Skaara Dias
 date: 12.02.2022
 keywords: CRMScript, performance, security
 content_type: concept
+index: true
 ---
 
 # What can I do with CRMScript?
