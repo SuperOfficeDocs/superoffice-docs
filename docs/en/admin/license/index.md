@@ -12,7 +12,7 @@ topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-redirect_from: 
+redirect_from:
   - /en/admin/license/learn/screen/index
   - /en/admin/license/learn/index
   - /en/admin/overview
@@ -188,8 +188,8 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../database/tables/ModuleOwner.md
-[12]: ../../database/tables/ModuleLicense.md
-[13]: ../../database/tables/LicenseAssocLink.md
+[11]: ../../../en/database/tables/ModuleOwner.md
+[12]: ../../../en/database/tables/ModuleLicense.md
+[13]: ../../../en/database/tables/LicenseAssocLink.md
 
 <!-- Referenced images -->

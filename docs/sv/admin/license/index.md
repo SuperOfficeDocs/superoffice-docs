@@ -13,7 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 language: sv
-redirect_from: 
+redirect_from:
   - /sv/admin/license/learn/screen/index
   - /sv/admin/license/learn/index
   - /sv/learn/administration
@@ -186,6 +186,6 @@ Samma undantag gäller för SCIM: räkna antalet aktiva användarplaner – inte
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../database/tables/ModuleOwner.md
-[12]: ../../database/tables/ModuleLicense.md
-[13]: ../../database/tables/LicenseAssocLink.md
+[11]: ../../../en/database/tables/ModuleOwner.md
+[12]: ../../../en/database/tables/ModuleLicense.md
+[13]: ../../../en/database/tables/LicenseAssocLink.md
