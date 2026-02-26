@@ -4,7 +4,7 @@ title: CrmSetup and CrmTask utilities
 description: CrmSetup.exe and CrmTask.exe utilities
 keywords: crmsetup, crmsetup.exe, crmtask, crmtask.exe
 author: pavlas77
-date: 12.01.2025
+date: 02.26.2026
 version: 11
 content_type: concept
 deployment: onsite
@@ -19,9 +19,9 @@ Document templates are installed when creating new and upgrading current install
 
 **CrmTask** is for scheduling regeneration of freetext index, Saint counters and Status monitors, and running ERP sync.
 
-*CrmSetup* and *CrmTask* are commandline tools - argument files can be made and reused to make the work easier, just copy them into the CrmSetup folder. You can <a href="../../../assets/downloads/so11config_example_argument_files.zip" download>download example argument files</a>. The first commented-out line in the example file has the full command for copy-paste into cmd. Remember to change all necessary values.
+*CrmSetup* and *CrmTask* are commandline tools - argument files can be made and reused to make the work easier, just copy them into the CrmSetup folder. You can <a href="../../../../assets/downloads/so11config_example_argument_files.zip" download>download example argument files</a>. The first commented-out line in the example file has the full command for copy-paste into cmd. Remember to change all necessary values.
 
-You can also use <a href="../../../assets/downloads/so11config_generators.zip" download>HTML-based argument generators</a>. The zip file contains two HTML files, each for one utility. Just unzip them and run locally.
+You can also use <a href="../../../../assets/downloads/so11config_generators.zip" download>HTML-based argument generators</a>. The zip file contains two HTML files, each for one utility. Just unzip them and run locally.
 
 ## CrmSetup
 
@@ -83,27 +83,27 @@ Example argument file for a new installation.
 # replace the values
 new-installation
 --database-server SQL-server
---database-name SOnew11.6 
---db-user crm7 
---db-password xxx 
---table-prefix crm7 
+--database-name SOnew11.6
+--db-user crm7
+--db-password xxx
+--table-prefix crm7
 --odbc-dsn SO116
 --so-arc C:\soserver\SO_ARC
 --email-client Outlook2007
 --company-name Super ASA
 --serial-number 161xxxxxxx
---license-url https://license.superoffice.com/LicenseSvc/LicenseService.svc 
-#--license-from-file c:\temp\license.xml 
---first-name Admin 
---last-name User 
---user-id au 
+--license-url https://license.superoffice.com/LicenseSvc/LicenseService.svc
+#--license-from-file c:\temp\license.xml
+--first-name Admin
+--last-name User
+--user-id au
 --user-name SOadmin@socrm.mailinator.com
---password au 
---user-plan ten-salesservicemarketing 
---system-user crm8 
---system-password xxx 
+--password au
+--user-plan ten-salesservicemarketing
+--system-user crm8
+--system-password xxx
 --language NO
---country NO  
+--country NO
 ```
 
 ### Upgrade existing database
@@ -129,18 +129,18 @@ Example argument file for a database upgrade.
 upgrade-existing
 --database-server SQL-server
 --database-name SO85
---db-user crm7 
---db-password xxx 
---table-prefix crm7 
+--db-user crm7
+--db-password xxx
+--table-prefix crm7
 --so-arc C:\soserver\SO_ARC
 --email-client Outlook2007
---company-name Super 85 
+--company-name Super 85
 --serial-number 161xxxxxxx
---license-url https://license.superoffice.com/LicenseSvc/LicenseService.svc 
---system-user crm8 
---system-password xxx 
+--license-url https://license.superoffice.com/LicenseSvc/LicenseService.svc
+--system-user crm8
+--system-password xxx
 --language NO
---country NO 
+--country NO
 ```
 
 ### Inspect database
@@ -161,9 +161,9 @@ Example argument file for a database inspection.
 # replace the values
 inspect-database
 --database-server SQL-server
---database-name SO85 
---db-user crm7 
---db-password xxx 
+--database-name SO85
+--db-user crm7
+--db-password xxx
 --table-prefix crm7
 ```
 
@@ -178,8 +178,8 @@ Kills an existing SuperOffice database. It will remove the database content, not
 kill-database
 --database-server SQL-server
 --database-name SO10Kill
---db-user crm7 
---db-password xxx 
+--db-user crm7
+--db-password xxx
 --table-prefix crm7
 ```
 
@@ -191,10 +191,10 @@ The `import-file` option imports an IMP data file to the database.
 # crmsetup --arg-file CRMSetupImportFile.txt
 # replace the values
 import-file
---database-server SQL-server 
+--database-server SQL-server
 --database-name SO_11
---db-user crm7 
---db-password xxx 
+--db-user crm7
+--db-password xxx
 --table-prefix crm7
 --import-filename I_TestCurrency.imp
 ```
@@ -209,8 +209,8 @@ During export, an *.sdb* file is created in the same folder as **CrmSetup.exe**.
 export-database
 --database-server SQL-server
 --database-name SO_10
---db-user crm7 
---db-password xxx 
+--db-user crm7
+--db-password xxx
 --table-prefix crm7
 --target-file ExportDB.sdb
 ```
@@ -223,10 +223,10 @@ The `import-database` option imports a database from a file, overwriting any exi
 # crmsetup --arg-file CRMSetupImport.txt
 # replace the values
 import-database
---database-server SQL-server 
---database-name SO10_import 
---db-user crm7 
---db-password xxx 
+--database-server SQL-server
+--database-name SO10_import
+--db-user crm7
+--db-password xxx
 --table-prefix crm7
 --source-file ImportDB.sdb
 ```
@@ -239,15 +239,15 @@ The `transfer-database` option transfers data from a source to a destination dat
 # crmsetup --arg-file CRMSetupTransfer.txt
 # replace the values
 transfer-database
---source-database-server SQL-server 
+--source-database-server SQL-server
 --source-database-name SO10
---source-db-user crm7 
---source-db-password xxx 
+--source-db-user crm7
+--source-db-password xxx
 --source-table-prefix crm7
 --target-database-server SQL-server
 --target-database-name SOTransfer
---target-db-user crm7 
---target-db-password xxx 
+--target-db-user crm7
+--target-db-password xxx
 --target-table-prefix crm7
 ```
 
@@ -286,8 +286,8 @@ Example argument file for Saint counters regeneration:
 regenerate-saint-counters
 --database-server SQL-server
 --database-name SO11.6
---db-user crm7 
---db-password xxx 
+--db-user crm7
+--db-password xxx
 --table-prefix crm7
 --system-user crm8
 --system-password xxx
