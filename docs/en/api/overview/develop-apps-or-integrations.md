@@ -199,7 +199,8 @@ Before your app goes live, it needs a check-up.
 
 You’ll get a go/no-go in the Developer Portal when your app is ready for production.
 
-> [!NOTE] All applications must be tested in SOD or a [production sandbox][26] before going live. This is a requirement for both standard and custom apps.
+> [!NOTE]
+> All applications must be tested in SOD or a [production sandbox][26] before going live. This is a requirement for both standard and custom apps.
 
 ---
 
@@ -276,6 +277,6 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [26]: ../../online/sandbox/index.md
 [27]: https://www.telenorcyberdefence.com/
 
-<!-- Referenced images 
+<!-- Referenced images
 [img1]: media/online-app-development.png
 -->
