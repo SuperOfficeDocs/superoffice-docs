@@ -62,23 +62,6 @@ landingContent:
           url: superoffice-mobile/document/index.md
 
   # Card
-  - title: Pocket CRM (v. 8 and older)
-    linkLists:
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Install
-          url: pocket-crm/install.md
-        - text: Deployment guide
-          url: pocket-crm/deploy.md
-        - text: Config
-          url: pocket-crm/configure.md
-        - text: Upgrade to 8
-          url: pocket-crm/upgrade-to-8.md
-        - text: ZIP compression on REST API
-          url: pocket-crm/compression.md
-
-  # Card
   - title: Configuration
     linkLists:
       - itemType: library_books
@@ -108,6 +91,6 @@ landingContent:
         - text: Mobile CRM client requirements
           url: superoffice-mobile/client-requirements.md
         - text: Pocket client requirements
-          url: pocket-crm/client-requirements.md
+          url: ../onsite/pocket-crm/client-requirements.md
         - text: Pocket system requirements
-          url: pocket-crm/system-requirements.md
+          url: ../onsite/pocket-crm/system-requirements.md
