@@ -18,15 +18,19 @@ language: en
 
 # How to work with Requests using SoProtocol
 
+The soprotocol should be on the format: ```soprotocol:ticket.new?<optional list of arguments>```
+
+Refer to the [request arguments](#request-arguments) for full list of available properties/args.
+
 ## Open new ticket filled with the person selected
 
-```http
+```
 default.aspx?ticket.new?person_id=1
 ```
 
 ## Opening a Request from a trigger
 
-```http
+```
 EventData eventData = getEventData();
 
 // open existing ticket
@@ -42,7 +46,7 @@ eventData.setNavigateTo("soprotocol:ticket.new?person_id=1756");
 
 ## Showing a ticket list for a company or person
 
-```http
+```
 
 // show all tickets for a company
 
@@ -53,3 +57,13 @@ default.aspx?contact.main.ticketarchive?contact_id=1520
 default.aspx?person.main.ticketarchive?person_id=1756
 
 ```
+
+## Request arguments
+
+The following arguments are supported when creating a new request
+
+| Property              | Description                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------|
+| `title`               | Request title                                                                                   |
+| `person_id`           | ID of a main contact person                                                                     |
+| `x_...`               | Value of a custom field. Simple values (number, text, etc.) and links to other entities supported. Any number of custom field values can be added.  |
