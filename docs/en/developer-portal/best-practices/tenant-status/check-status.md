@@ -2,9 +2,9 @@
 uid: tenant-status-check
 title: Check tenant status
 description: How to check a tenant's state to ensure your application remains stable and responds accordingly.
-author: Eivind Fasting
-date: 05.08.2024
 keywords: tenant, status, state API
+author: ejfasting, MargretheR
+date: 02.27.2026
 content_type: howto
 deployment: online
 platform: web
