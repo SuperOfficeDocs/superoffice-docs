@@ -202,7 +202,7 @@ conceptualContent:
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
-  sections: 
+  sections:
     - title: "" # < 60 chars (optional)
       summary: "" # < 160 chars (optional)
       items:
@@ -212,7 +212,7 @@ additionalContent:
         - text: CRM Online
           url: ../online/security.md
         - text: SuperOffice Mobile
-          url: ../mobile/superoffice-mobile/security.md
+          url: ../mobile/security.md
         - text: Mailgun
           url: ../email/mailgun/security.md
         - text: Web application

@@ -45,7 +45,7 @@ highlightedContent:
     - title: "SuperOffice mobile"
       itemType: school
       typeDesc: learn
-      url: ../mobile/index.yml
+      url: ../mobile/index.md
     # Card
     - title: "Release notes"
       itemType: new_releases
@@ -120,7 +120,7 @@ conceptualContent:
           - url: upgrade/to-11/index.md
             itemType: list
             typeDesc: how-to-guide
-            text: To version 11            
+            text: To version 11
           - url: upgrade/to-9/index.md
             itemType: list
             typeDesc: how-to-guide
@@ -152,7 +152,7 @@ conceptualContent:
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
-  sections: 
+  sections:
     - title: Resources # < 60 chars (optional)
       summary: "System requirements, compatibility, config, and debug" # < 160 chars (optional)
       items:

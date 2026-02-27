@@ -40,7 +40,7 @@ highlightedContent:
     - title: "SuperOffice mobile"
       itemType: school
       typeDesc: learn
-      url: ../mobile/index.yml
+      url: ../mobile/index.md
     # Card
     - title: "Video meetings"
       itemType: school
@@ -177,7 +177,7 @@ conceptualContent:
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
-  sections: 
+  sections:
     - title: "You may also be interested in" # < 60 chars (optional)
       summary: "" # < 160 chars (optional)
       items:
@@ -195,7 +195,7 @@ additionalContent:
         links:
           - text: What's new in latest release
             url: ../../../release-notes/index.md
-          - text: Current release schedule 
+          - text: Current release schedule
             url: https://community.superoffice.com/en/product-releases/release-notes/
       # Card
       - title: Reference

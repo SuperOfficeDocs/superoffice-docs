@@ -94,5 +94,5 @@ For the built-in mail client, the following ports must be opened between the Onl
 <!-- Referenced links-->
 [1]: https://www3.superoffice.com/DownloadService/
 [2]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
-[4]: ../mobile/superoffice-mobile/client-requirements.md
+[4]: ../mobile/client-requirements.md
 [5]: ../../../integrations/webtools/system-requirements.md

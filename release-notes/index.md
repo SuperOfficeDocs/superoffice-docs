@@ -89,7 +89,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [11]: 11/index.md
 [12]: integrations/index.md
 [13]: ../integrations/superoffice-for-outlook/index.md
-[14]: ../docs/en/mobile/superoffice-mobile/index.md
+[14]: ../docs/en/mobile/index.md
 [15]: ../docs/en/learn/index.yml
 [16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/

@@ -310,7 +310,7 @@ Assistance and guidance are available:
 [28]: ../archive-providers/index.md
 [29]: ../mdo-providers/reference/index.md
 [30]: ../../custom-objects/learn/extra-table.md
-[31]: ../../mobile/index.yml
+[31]: ../../mobile/index.md
 [32]: netserver.md#domain-level-apis-netserver-core
 [33]: ../config/services.md
 [34]: ../../automation/webhook/overview.md

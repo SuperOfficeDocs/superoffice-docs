@@ -1,4 +1,3 @@
 ---
-uid: mobile-crm-login-redirect
-redirect_ur: https://docs.superoffice.com/en/mobile/superoffice-mobile/login.html
+redirect_url: https://docs.superoffice.com/en/mobile/login.html
 ---
