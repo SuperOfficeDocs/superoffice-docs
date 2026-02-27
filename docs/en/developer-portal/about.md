@@ -127,6 +127,9 @@ and one or more app-specific product pages shown in the SuperOffice App Store.
 
 If your company develops custom applications only, you can ignore the **App Store information** section. Likewise, this section is hidden on the app page of all custom apps.
 
+The **App Store information** section is visible only if your partner account has created at least one standard application.
+If no standard application exists, the section will not appear in the portal. This ensures that App Store configuration is shown only when it is relevant and actionable.
+
 [Read more about App Store information.][5]
 
 ### Environments: SOD, Stage, Production
