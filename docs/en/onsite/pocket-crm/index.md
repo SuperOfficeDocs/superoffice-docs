@@ -23,4 +23,4 @@ With one of our mobile applications, you can access the SuperOffice database whe
 > When you upgrade from versions 8.5 or lower to version 9, you will be prompted inside Pocket CRM to update the app and switch to Mobile CRM.
 
 <!-- Referenced links -->
-[1]: ../../mobile/superoffice-mobile/index.md
+[1]: ../../mobile/index.md

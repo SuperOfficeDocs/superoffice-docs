@@ -61,7 +61,7 @@ highlightedContent:
     - title: Mobile
       itemType: /media/common/device-mobile.png
       isImage: "true"
-      url: ../../en/mobile/superoffice-mobile/index.md
+      url: ../../en/mobile/index.md
 
 # conceptualContent section (optional)
 conceptualContent:

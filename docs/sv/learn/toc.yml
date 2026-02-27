@@ -56,7 +56,7 @@ items:
     topicHref: ../lead/learn/index.md
 
   - name: Mobile CRM
-    href: ../mobile/superoffice-mobile/index.md
+    href: ../mobile/index.md
 
   - name: Kunskapsbas
     href: ../knowledge-base/learn/toc.yml
