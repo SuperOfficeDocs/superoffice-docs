@@ -3,8 +3,8 @@ uid: sop-request-management
 title: How to work with Requests
 description: How to work with Requests with SoProtocol
 keywords: soprotocol, requests
-author: Tony Yates
-date: 9.4.2023
+author: Tony Yates, Egidijus Mazeika
+date: 2.27.2026
 content_type: howto
 category: customization
 topic: soprotocol
@@ -41,21 +41,16 @@ eventData.setNavigateTo("soprotocol:ticket.new");
 
 // create new with specific person
 eventData.setNavigateTo("soprotocol:ticket.new?person_id=1756");
-
 ```
 
 ## Showing a ticket list for a company or person
 
 ```
-
 // show all tickets for a company
-
 default.aspx?contact.main.ticketarchive?contact_id=1520
 
 // show all tickets for a person
-
 default.aspx?person.main.ticketarchive?person_id=1756
-
 ```
 
 ## Request arguments
