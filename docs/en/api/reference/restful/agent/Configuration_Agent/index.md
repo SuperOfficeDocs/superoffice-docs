@@ -84,6 +84,8 @@ content_type: reference
 
 * [POST Agents/Configuration/GetAllFeatureToggles](v1ConfigurationAgent_GetAllFeatureToggles.md)
 
+* [POST Agents/Configuration/GetCsCgiUrl](v1ConfigurationAgent_GetCsCgiUrl.md)
+
 * [POST Agents/Configuration/CreateDefaultDiaryViewEntity](v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)
 
 * [POST Agents/Configuration/SaveDiaryViewEntity](v1ConfigurationAgent_SaveDiaryViewEntity.md)

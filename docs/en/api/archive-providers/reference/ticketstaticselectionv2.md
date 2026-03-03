@@ -799,7 +799,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelectionV2?$select=readStatus,person/supportAssociate,person/personAssociate/title,sale/stakeholdersEnabled,project/projectPublish/publishedBy
+GET /api/v1/archive/TicketStaticSelectionV2?$select=timeToReply,createdBy/contactCategory,ownedBy/simultaneousEjUser,person/restrictionAddress/formattedMultiLineAddress,person/legalBaseStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

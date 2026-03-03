@@ -1343,7 +1343,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=person/personCategory,person/restrictionAddress/wgs84latitude,person/personUdef/SuperOffice:9,person/correspondingAssociate/firstName,contact/contactUdef/SuperOffice:12
+GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=stageName,person/personPrivate/description,person/personAddress/state,person/personAssociate/isActiveText,person/correspondingAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

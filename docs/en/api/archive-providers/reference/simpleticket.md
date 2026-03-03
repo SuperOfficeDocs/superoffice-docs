@@ -792,7 +792,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleTicket?$select=createdBy/mrMrs,createdBy/isActive,person/mrMrs,person/personExtra/x_person_user_relation,contact/restrictionAddress/line1
+GET /api/v1/archive/SimpleTicket?$select=person/restrictionAddress/formattedMultiLineAddress,person/personUdef/SuperOffice:2,person/correspondingAssociate/ejStatus,contact/category,contact/contactAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

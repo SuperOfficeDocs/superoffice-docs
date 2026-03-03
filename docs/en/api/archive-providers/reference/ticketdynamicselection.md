@@ -796,7 +796,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelection?$select=person/email/emailId,person/correspondingAssociate/usergroup,project/saintActivityType
+GET /api/v1/archive/TicketDynamicSelection?$select=createdBy/ejDisplayName,ticketPriority/name,person/personNumber,contact/restrictionAddress/zip,contact/contactExtra/x_contact_float
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

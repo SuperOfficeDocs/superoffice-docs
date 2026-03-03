@@ -774,7 +774,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/extraField1,alternative/version/quote/sale/person/personUdef/SuperOffice:5,alternative/version/quote/sale/associate/usergroupId,alternative/version/quote/connection/erpConnection/connector/updatedBy
+GET /api/v1/archive/FindQuoteLine?$select=quoteAlternativeId,alternative/version/number,alternative/version/deliveryTerms,alternative/version/quote/sale/person/personUpdatedBy,alternative/version/quote/sale/contact/contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

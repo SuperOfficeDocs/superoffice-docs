@@ -799,7 +799,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionCombined?$select=createdBy/assocName,ownedBy/simultaneousEjUser,ticketStatus/name,person/personAddress/wgs84longitude,person/personExtra/x_person_time
+GET /api/v1/archive/TicketShadowSelectionCombined?$select=realTimeToReply,person/hasCompany,person/personDirectPhone/formattedNumber,person/personExtra/y_rental/y_equipment/x_name,sale/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

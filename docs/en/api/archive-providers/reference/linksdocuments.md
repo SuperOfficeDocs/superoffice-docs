@@ -741,7 +741,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/mrMrs,person/personDeletedDate,person/personAssociate/isActiveText,contact/contactPhone/description,contact/url/URLAddress
+GET /api/v1/archive/LinksDocuments?$select=documentPublish/publishedFrom,person/personHasInterests,person/personAssociate/isActiveText,person/correspondingAssociate/assocTooltip,contact/email/emailId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

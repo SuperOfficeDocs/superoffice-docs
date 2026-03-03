@@ -671,7 +671,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/person/personCategoryRank,emailFlow/workflowSuccessRate,emailFlow/hierarchyParentId,project/saintIntention
+GET /api/v1/archive/Mailings?$select=mailingSentTo,updatedDate,mailingAddr/contact/contactExtra/x_contact_datetime,mailingAddr/contact/NumberOfActivitiesInPeriod,mailingAddr/person/isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

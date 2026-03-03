@@ -774,7 +774,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/vatAmount,alternative/version/quote/sale/person/personExtra/x_person_time,alternative/version/quote/sale/contact/postAddress/formattedMultiLineAddress,alternative/version/quote/sale/contact/restrictionAddress/wgs84longitude,alternative/version/quote/sale/contact/contactAssociate/mrMrs
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/quote/sale/currencyId,alternative/version/quote/sale/person/personExtra/x_person_request_relation,alternative/version/quote/sale/person/personAssociate/fullName,alternative/version/quote/sale/person/personAssociate/usergroupId,alternative/version/quote/sale/person/correspondingAssociate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

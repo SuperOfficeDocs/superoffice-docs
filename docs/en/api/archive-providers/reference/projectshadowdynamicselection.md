@@ -825,7 +825,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=sale/associate/mrMrs,appointment/suggestedAppointmentId,document/associate/assocName,projectMember/personAddress/line1,projectMember/personAddress/state
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=sale/saleUdef/SuperOffice:3,projectMember/updated,projectMember/birthDay,projectMember/isProjectMember,projectMember/personAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -673,7 +673,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/contactExtra/x_contact_contact,mailingAddr/person/personCountryId,project/projectEvent/hasSignOn
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/contactUdef/SuperOffice:13,mailingAddr/contact/contactExtra/x_contact_dropdown,mailingAddr/person/personUdef/SuperOffice:3,associate/userName,project/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

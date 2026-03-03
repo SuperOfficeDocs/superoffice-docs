@@ -1449,7 +1449,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=streetAddress/city,restrictionAddress/line1,sale/recordType,sale/salePublish/publishedBy,sale/associate/contactName
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=streetAddress/county,contactAssociate/credentialType,sourceRelation/number,sale/stage,sale/stakeholdersEnabled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

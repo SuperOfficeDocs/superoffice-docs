@@ -499,7 +499,7 @@ This is the archive Provider for the Selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationSelectionV2?$select=person/personActiveErpLinks,person/hasEmarketingConsent,contact/postAddress/formattedAddress,contact/contactUdef/SuperOffice:3,contact/LastCompletedSale
+GET /api/v1/archive/ChatConversationSelectionV2?$select=person/personUdef/SuperOffice:9,person/personExtra/x_person_longtext,person/correspondingAssociate/usergroupId,contact/code,contact/contactAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

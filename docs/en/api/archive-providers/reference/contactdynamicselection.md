@@ -1259,7 +1259,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactDynamicSelection?$select=email/emailLastSent,restrictionAddress/formattedMultiLineAddress,appointment/completedDate,appointment/appointmentPublish/publishedBy,personExtra/x_person_contact_relation
+GET /api/v1/archive/ContactDynamicSelection?$select=LastCompletedActivity,appointment/completed,personTargetRelation/birthdate,personAssociate/ejStatus,personAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

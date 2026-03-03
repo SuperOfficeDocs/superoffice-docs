@@ -792,7 +792,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleTicket?$select=timeSpentInternally,createdBy/isLocation,contact/saintActivityType,extra/x_ticket_longtext
+GET /api/v1/archive/RecycleTicket?$select=createdBy/contactFullName,ownedBy/ejStatus,person/personNoMail,person/leadstatusRank,sale/saleTypeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

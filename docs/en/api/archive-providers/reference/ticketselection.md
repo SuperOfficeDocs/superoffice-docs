@@ -799,7 +799,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelection?$select=person/kanaFirstName,contact/stop,contact/registeredBy,contact/contactUdef/SuperOffice:9,sale/competitor
+GET /api/v1/archive/TicketSelection?$select=person/createdByForm,person/personExtra/x_person_date,person/correspondingAssociate/userName,contact/contactAssociate/usergroup,sale/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -830,7 +830,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionV2?$select=appointment/updatedByFullName,projectMember/personAssociate/ejDisplayName,appointment/appointmentUdef/SuperOffice:5
+GET /api/v1/archive/ProjectSelectionV2?$select=appointment/cautionWarning,document/who,projectMember/personMobilePhone/formattedNumber,projectMember/personExtra/x_person_shorttext_list,projectMember/contactAssociate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

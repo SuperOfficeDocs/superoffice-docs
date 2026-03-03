@@ -799,7 +799,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=ownedBy/usergroupId,person/personAssociateId,person/restrictionAddress/zip,contact/number,contact/contactAssociate/fullName
+GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=ownedBy/firstName,contact/email/emailLastBounce,contact/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

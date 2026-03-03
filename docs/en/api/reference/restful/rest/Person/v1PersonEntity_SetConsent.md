@@ -33,9 +33,9 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=quaerat
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=repellendus
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=ut
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=cum
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=id
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=accusamus
 ```
 
 

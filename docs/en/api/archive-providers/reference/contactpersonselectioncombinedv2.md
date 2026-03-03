@@ -1262,7 +1262,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=contactAssociate/portraitThumbnail,sourceRelation/restrictionContactId,sale/completed,sale/earning,sale/reopenDate
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=restrictionAddress/state,contactExtra/x_contact_request_relation,appointment/associate/credentialType,document/contactId,personEmail/emailId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

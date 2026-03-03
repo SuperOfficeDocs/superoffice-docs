@@ -492,7 +492,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleChatSession?$select=person/mrMrs,person/birthYear,person/personAssociate/usergroup,person/correspondingAssociate/portraitThumbnail,contact/contactAssociate/assocType
+GET /api/v1/archive/SimpleChatSession?$select=registeredDate,person/position,person/personUpdatedDate,person/personMobilePhone/formattedNumber,person/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

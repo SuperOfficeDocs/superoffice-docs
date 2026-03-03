@@ -1451,7 +1451,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=targetRelation/hasInfoText,sale/soldReason,sale/salePublish/isPublished,sale/associate/ejStatus,document/yourref
+GET /api/v1/archive/ContactPersonSelectionV2?$select=LastCompletedTicket,targetRelation/registeredDate,sale/heading,sale/associate/personId,document/isMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

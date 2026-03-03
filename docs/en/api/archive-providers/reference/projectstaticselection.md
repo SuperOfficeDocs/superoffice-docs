@@ -820,7 +820,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectStaticSelection?$select=projectUdef/SuperOffice:4,LastDoBySale,sale/nextDueDate,sale/associate/assocTooltip,appointment/userGroup
+GET /api/v1/archive/ProjectStaticSelection?$select=saintIntention,projectMember/personAssociate/fullName,projectMember/personAssociate/ejStatus,projectMember/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

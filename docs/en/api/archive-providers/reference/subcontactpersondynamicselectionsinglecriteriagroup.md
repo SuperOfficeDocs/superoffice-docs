@@ -1259,7 +1259,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=nameDepartment,postAddress/line3,contactExtra/x_contact_default_integer,saintIntention,sourceRelation/categoryGroup
+GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=registeredDate,sale/probPercent,document/associate/contactName,personExtra/x_person_hidden_integer,projectMembers/projectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

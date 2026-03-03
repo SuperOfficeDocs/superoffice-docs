@@ -630,6 +630,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_GetCRMUrl.md
   - name: GetCSAuthUrl
     href: Configuration_Agent/v1ConfigurationAgent_GetCSAuthUrl.md
+  - name: GetCsCgiUrl
+    href: Configuration_Agent/v1ConfigurationAgent_GetCsCgiUrl.md
   - name: GetCsCgiUrlInternal
     href: Configuration_Agent/v1ConfigurationAgent_GetCsCgiUrlInternal.md
   - name: GetCsProgramUrl
