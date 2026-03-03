@@ -391,6 +391,7 @@ items:
   - SuperOffice.WebApi.Data.Configuration_GetConfigurableScreenDeltasByDeltaRequest
   - SuperOffice.WebApi.Data.Configuration_GetConfigurableScreenDeltasByQueryRequest
   - SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlInternalRequest
+  - SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlRequest
   - SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
   - SuperOffice.WebApi.Data.Configuration_GetCustomerUrlRequest
   - SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest
@@ -9066,6 +9067,13 @@ references:
   name: Configuration_GetAllFeatureTogglesRequest
   nameWithType: Configuration_GetAllFeatureTogglesRequest
   fullName: SuperOffice.WebApi.Data.Configuration_GetAllFeatureTogglesRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlRequest.html
+  name: Configuration_GetCsCgiUrlRequest
+  nameWithType: Configuration_GetCsCgiUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlRequest
 - uid: SuperOffice.WebApi.Data.DeltaQuery
   commentId: T:SuperOffice.WebApi.Data.DeltaQuery
   parent: SuperOffice.WebApi.Data

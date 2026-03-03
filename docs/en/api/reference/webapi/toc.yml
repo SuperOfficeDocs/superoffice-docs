@@ -1074,6 +1074,8 @@ items:
     name: Configuration_GetConfigurableScreenDeltasByQueryRequest
   - uid: SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlInternalRequest
     name: Configuration_GetCsCgiUrlInternalRequest
+  - uid: SuperOffice.WebApi.Data.Configuration_GetCsCgiUrlRequest
+    name: Configuration_GetCsCgiUrlRequest
   - uid: SuperOffice.WebApi.Data.Configuration_GetCsProgramUrlRequest
     name: Configuration_GetCsProgramUrlRequest
   - uid: SuperOffice.WebApi.Data.Configuration_GetCustomerUrlRequest

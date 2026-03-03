@@ -26,6 +26,7 @@ items:
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlInternalAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsProgramUrlAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ConfigurationAgent.GetCustomerUrlAsync(SuperOffice.WebApi.RequestOptions)
@@ -1605,6 +1606,35 @@ items:
   overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetAllFeatureTogglesAsync*
   implements:
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetAllFeatureTogglesAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCsCgiUrlAsync(RequestOptions)
+  nameWithType: ConfigurationAgent.GetCsCgiUrlAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: This method will get the host name for external CS
+  example: []
+  syntax:
+    content: public Task<string> GetCsCgiUrlAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Will get the host name for where CS Customer Center is installed
+    content.vb: Public Function GetCsCgiUrlAsync(requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ConfigurationAgent.GetDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -5806,6 +5836,43 @@ references:
     name: StringBoolDictionary
     isExternal: true
     href: SuperOffice.WebApi.Data.StringBoolDictionary.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ConfigurationAgent.html#SuperOffice_WebApi_Agents_ConfigurationAgent_GetCsCgiUrlAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetCsCgiUrlAsync
+  nameWithType: ConfigurationAgent.GetCsCgiUrlAsync
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent.GetCsCgiUrlAsync
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_GetCsCgiUrlAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetCsCgiUrlAsync(RequestOptions)
+  nameWithType: IConfigurationAgent.GetCsCgiUrlAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetCsCgiUrlAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_GetCsCgiUrlAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetCsCgiUrlAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_GetCsCgiUrlAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.ConfigurationAgent.GetDiaryViewEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ConfigurationAgent.GetDiaryViewEntityAsync

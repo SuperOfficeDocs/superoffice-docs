@@ -83,10 +83,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string FriendlyName = "SuperOffice CRM Online 11.10 Build {1}"
+    content: public const string FriendlyName = "SuperOffice CRM OnSite 11.10 {1}"
     return:
       type: System.String
-    content.vb: Public Const FriendlyName As String = "SuperOffice CRM Online 11.10 Build {1}"
+    content.vb: Public Const FriendlyName As String = "SuperOffice CRM OnSite 11.10 {1}"
 - uid: SuperOffice.NetServerVersion.MajorMinor
   commentId: F:SuperOffice.NetServerVersion.MajorMinor
   id: MajorMinor
