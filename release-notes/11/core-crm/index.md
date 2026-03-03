@@ -15,6 +15,7 @@ language: en
 
 # New and improved Core CRM and Sales
 
+* [User setup to configure e-mail and document management (11.11)][11]
 * [Dashboards – Visualize time spent in each sales stage (11.10)][10]
 * [Notifications for re‑assigned follow‑ups (11.10)][10]
 * [Dashboard - Quick filter in dashboard (11.7)][7]
@@ -48,3 +49,4 @@ language: en
 [6]: 11.6-update.md
 [7]: 11.7-update.md
 [10]: 11.10-update.md
+[11]: 11.11-update.md

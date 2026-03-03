@@ -25,6 +25,13 @@ See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service,
 
 ## Feature updates
 
+### 11.11 (17.03.2026)
+
+* [User setup to configure e-mail and document management (11.11)][36]
+* [Forms - Custom styling of your form (11.11)][37]
+* [Requests - Created date to use in columns and criteria (11.11)][38]
+* [Subscription page styling - Change text Unsubscribe and Confirmations pages (11.11)][39]
+
 ### 11.10 (17.02.2026)
 
 * [Dashboards – Visualize time spent in each sales stage][29] in Core CRM and Sales
@@ -154,5 +161,9 @@ Some features are available to selected customers as part of ongoing pilots. See
 [31]: https://community.superoffice.com/en/product-releases/whats-new/product/product-roundup---2025-highlights/?utm_medium=docs&utm_source=release%20notes&utm_campaign=11
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
+[36]: core-crm/11.11-update.md
+[37]: marketing/11.11-update.md
+[38]: service/11.11-update.md
+[39]: admin/11.11-update.md
 
 <!-- Referenced images -->

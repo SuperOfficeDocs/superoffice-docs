@@ -13,6 +13,7 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [Subscription page styling - Change text Unsubscribe and Confirmations pages (11.11)][11]
 * [Marketing - Subscription page styling (11.10)][10]
 * [Marketing - Add new Google fonts to form fonts (11.9)][9]
 * [Workflow - Lead category automation (11.8)][8]
@@ -33,3 +34,4 @@ audience_tooltip: Settings and maintenance
 [8]: 11.8-update.md
 [9]: 11.9-update.md
 [10]: 11.10-update.md
+[11]: 11.11-update.md
