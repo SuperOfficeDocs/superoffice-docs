@@ -1263,7 +1263,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=selectionMemberId,contactFax/description,url/URLAddress,appointment/associate/assocType,document/ourref
+GET /api/v1/archive/ContactSelection?$select=streetAddress/zip,contactAssociate/locationAddress,sale/time,sale/saleUdef/SuperOffice:6,personDirectFax/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

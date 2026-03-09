@@ -1257,7 +1257,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=sourceRelation/stop,sourceRelation/activeErpLinks,sale/associate/contactCategory,appointment/associate/userName,appointment/appointment/agendaHtml
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=streetAddress/wgs84longitude,NumberOfNotCompletedActivities,sourceRelation/csRelation,appointment/appointmentPublish/publishedBy,appointment/associate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

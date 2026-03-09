@@ -1343,7 +1343,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/birthMonth,person/createdByForm,contact/updatedByFullName,contact/restrictionAddress/county,associate/personEmail
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=updatedBy,person/personUdef/SuperOffice:2,appointment/associate/credentialType,appointment/appointment/title,document/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

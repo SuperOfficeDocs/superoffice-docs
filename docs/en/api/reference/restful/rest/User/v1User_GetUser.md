@@ -38,7 +38,7 @@ NsApiSlow threshold: 2000 ms.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 

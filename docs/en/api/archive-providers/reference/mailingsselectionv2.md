@@ -676,7 +676,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/contactPhone/description,mailingAddr/contact/saintIntention,mailingAddr/person/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/registeredByFullName,mailingAddr/contact/saintSaleStatus,mailingAddr/person/birthYear,mailingAddr/person/phone/formattedNumber,mailingAddr/person/personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

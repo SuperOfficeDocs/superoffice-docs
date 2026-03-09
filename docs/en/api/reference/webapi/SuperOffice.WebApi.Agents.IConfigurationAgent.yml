@@ -24,6 +24,7 @@ items:
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetConfigurableScreenDeltasByDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetConfigurableScreenDeltasByQueryAsync(SuperOffice.WebApi.Data.DeltaQuery,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlInternalAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsProgramUrlAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetCustomerUrlAsync(SuperOffice.WebApi.RequestOptions)
@@ -1415,6 +1416,33 @@ items:
       description: The feature toggles with their state (on/off)
     content.vb: Function GetAllFeatureTogglesAsync(requestOptions As RequestOptions = Nothing) As Task(Of StringBoolDictionary)
   overload: SuperOffice.WebApi.Agents.IConfigurationAgent.GetAllFeatureTogglesAsync*
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCsCgiUrlAsync(RequestOptions)
+  nameWithType: IConfigurationAgent.GetCsCgiUrlAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: This method will get the host name for external CS
+  example: []
+  syntax:
+    content: Task<string> GetCsCgiUrlAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Will get the host name for where CS Customer Center is installed
+    content.vb: Function GetCsCgiUrlAsync(requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync*
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -2710,6 +2738,13 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.StringBoolDictionary.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_GetCsCgiUrlAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetCsCgiUrlAsync
+  nameWithType: IConfigurationAgent.GetCsCgiUrlAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetCsCgiUrlAsync
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetDiaryViewEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.GetDiaryViewEntityAsync
   isExternal: true

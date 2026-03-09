@@ -823,7 +823,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectEvent/hasSignOn,sale/time,sale/associate/title,sale/associate/personEmail,sale/associate/locationAddress
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectAssociate/usergroupId,appointment/associate/simultaneousEjUser,projectMember/retired,projectMember/correspondingAssociate/contactId,projectMember/nameDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

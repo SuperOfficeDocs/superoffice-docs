@@ -799,7 +799,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombinedV2?$select=timeSpentInternally,activated,person/personAssociate/usergroup,person/correspondingAssociate/contactDepartment,contact/contactUdef/SuperOffice:4
+GET /api/v1/archive/TicketSelectionCombinedV2?$select=createdByWorkflow,ownedBy/title,person/personDirectPhone/description,contact/contactSource,contact/postAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

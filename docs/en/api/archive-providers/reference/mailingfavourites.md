@@ -165,7 +165,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=project/projectEvent/hasSignOn,project/projectAssociate/title,project/text
+GET /api/v1/archive/mailingfavourites?$select=mailingSentTo,updatedDate,project/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

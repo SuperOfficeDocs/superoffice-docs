@@ -380,7 +380,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactSupportAssociate/firstName,contactSupportPerson/personExtra/x_person_request_relation,contactAssociate/usergroup
+GET /api/v1/archive/FreetextContact?$select=contactExtra/x_contact_hidden_integer,contactAssociate/usergroup,contactSupportPerson/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

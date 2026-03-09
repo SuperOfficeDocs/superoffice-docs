@@ -1067,7 +1067,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=lastName,personAddress/line1,personUdef/SuperOffice:3,personSourceRelation/mrMrs,personSourceRelation/birthdate
+GET /api/v1/archive/SimplePerson?$select=firstName,correspondingAssociate/associateDbId,personContact/hasInterests,personContact/countryId,personContact/contactSupportPerson/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

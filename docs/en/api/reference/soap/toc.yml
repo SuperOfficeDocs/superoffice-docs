@@ -12178,6 +12178,8 @@
       href: Services88/Configuration/GetCRMUrl.md
     - name: GetCSAuthUrl
       href: Services88/Configuration/GetCSAuthUrl.md
+    - name: GetCsCgiUrl
+      href: Services88/Configuration/GetCsCgiUrl.md
     - name: GetCsCgiUrlInternal
       href: Services88/Configuration/GetCsCgiUrlInternal.md
     - name: GetCsProgramUrl

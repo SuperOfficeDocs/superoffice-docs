@@ -1083,7 +1083,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=mrMrs,personDirectPhone/formattedNumber,personTargetRelation/fullName,correspondingAssociate/contactFullName,personContact/contactSupportPerson/rank
+GET /api/v1/archive/FreetextPerson?$select=personSourceRelation/useAsMailingAddress,personAssociate/lastName,personContact/registeredBy,personContact/restrictionPostalAddress/addressId,personContact/contactAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -30,7 +30,7 @@ Saves a ticket and performs any user notifications
 | notify | bool |  If true, then the notifications will be sent |
 
 ```http
-PUT /api/v1/Ticket/{id}?notify=False
+PUT /api/v1/Ticket/{id}?notify=True
 ```
 
 

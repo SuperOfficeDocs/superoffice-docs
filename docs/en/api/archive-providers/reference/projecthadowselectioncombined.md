@@ -822,7 +822,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombined?$select=activeErpLinks,LastDoByActivity,sale/icon,document/who,document/associate/otherGroups
+GET /api/v1/archive/ProjecthadowSelectionCombined?$select=projectEvent/hasSignOn,appointment/createdByWorkflow,appointment/appointmentPublish/isPublished,document/associate/mrMrs,document/associate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

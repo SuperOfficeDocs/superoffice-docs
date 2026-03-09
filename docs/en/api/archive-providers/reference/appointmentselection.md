@@ -758,7 +758,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=date,registeredDate,contact/registeredBy,contact/contactUdef/SuperOffice:10,contact/LastCompletedSale
+GET /api/v1/archive/AppointmentSelection?$select=contact/searchPhone/formattedNumber,contact/contactAssociate/contactFullName,person/personAddress/wgs84latitude,person/personAssociate/credentialType,project/NumberOfNotCompletedActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

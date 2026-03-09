@@ -33,7 +33,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=196
+GET /api/v1/User/Default?personId=250
 ```
 
 

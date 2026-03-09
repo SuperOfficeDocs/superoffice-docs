@@ -32,6 +32,7 @@ Download [WSDL file for Services88/Configuration](../Services88-Configuration.md
 * [GetConfigurableScreenDeltasByQuery](GetConfigurableScreenDeltasByQuery.md)
 * [GetCRMUrl](GetCRMUrl.md)
 * [GetCSAuthUrl](GetCSAuthUrl.md)
+* [GetCsCgiUrl](GetCsCgiUrl.md)
 * [GetCsCgiUrlInternal](GetCsCgiUrlInternal.md)
 * [GetCsProgramUrl](GetCsProgramUrl.md)
 * [GetCSRegistryValue](GetCSRegistryValue.md)

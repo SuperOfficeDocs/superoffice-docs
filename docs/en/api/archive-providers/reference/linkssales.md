@@ -1170,7 +1170,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=sourceAppointmentRestrictionId,userGroup,person/personExtra/y_rental/x_start,person/personAssociate/contactFullName,person/hasStoreConsent
+GET /api/v1/archive/LinksSales?$select=linkId,saleTypeCategory,person/ticketPriority,person/personAssociate/contactDepartment,contact/NumberOfSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

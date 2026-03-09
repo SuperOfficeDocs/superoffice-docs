@@ -970,6 +970,18 @@ content_type: reference
         </xs:sequence>
       </xs:complexType>
       <xs:element name="StringBoolDictionary" nillable="true" type="tns:StringBoolDictionary" />
+      <xs:element name="GetCsCgiUrl">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCsCgiUrlResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDiaryViewEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1924,6 +1936,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetCsCgiUrlRequest">
+    <wsdl:part name="parameters" element="tns:GetCsCgiUrl" />
+  </wsdl:message>
+  <wsdl:message name="GetCsCgiUrlRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCsCgiUrlResponse">
+    <wsdl:part name="parameters" element="tns:GetCsCgiUrlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCsCgiUrlResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDiaryViewEntityRequest">
     <wsdl:part name="parameters" element="tns:GetDiaryViewEntity" />
   </wsdl:message>
@@ -2279,6 +2308,10 @@ content_type: reference
     <wsdl:operation name="GetAllFeatureToggles">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetAllFeatureToggles" name="GetAllFeatureTogglesRequest" message="tns:GetAllFeatureTogglesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetAllFeatureTogglesResponse" name="GetAllFeatureTogglesResponse" message="tns:GetAllFeatureTogglesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCsCgiUrl">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetCsCgiUrl" name="GetCsCgiUrlRequest" message="tns:GetCsCgiUrlRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetCsCgiUrlResponse" name="GetCsCgiUrlResponse" message="tns:GetCsCgiUrlResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDiaryViewEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntity" name="GetDiaryViewEntityRequest" message="tns:GetDiaryViewEntityRequest" />
@@ -2996,6 +3029,22 @@ content_type: reference
         <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetAllFeatureTogglesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCsCgiUrl">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetCsCgiUrl" style="document" />
+      <wsdl:input name="GetCsCgiUrlRequest">
+        <soap:header message="tns:GetCsCgiUrlRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCsCgiUrlRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCsCgiUrlRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCsCgiUrlResponse">
+        <soap:header message="tns:GetCsCgiUrlResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCsCgiUrlResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCsCgiUrlResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCsCgiUrlResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

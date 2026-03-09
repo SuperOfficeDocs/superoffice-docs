@@ -780,7 +780,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/isStakeholder,person/personAssociate/assocName,person/withdrawnStoreConsent,contact/email/emailBounceCount,contact/contactAssociate/ejUserId
+GET /api/v1/archive/Activity?$select=person/personExtra/x_person_boolean,contact/restrictionAddress/wgs84latitude,contact/contactExtra/x_contact_dropdown,project/projectPublish/publishedTo,appointmentUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
