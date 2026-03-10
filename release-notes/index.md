@@ -15,7 +15,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest online release is [**version 11.10**][11] - 17.02.2026.
+The latest online release is [**version 11.11**][11] - 17.03.2026.
 
 Recent versions:
 
@@ -26,7 +26,7 @@ Older versions are listed in the table of contents.
 
 ### Onsite
 
-The latest onsite release is **11.6** - 22.01.2026. See the [version history][19] for details.
+The latest onsite release is **11.10** - 02.03.2026. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
