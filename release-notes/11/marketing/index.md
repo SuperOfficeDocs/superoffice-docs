@@ -4,7 +4,7 @@ title: What's new in SuperOffice Marketing 11
 description: Release notes. What's new in SuperOffice Marketing 11
 keywords: lead management
 author: kirstiaa
-date: 01.27.2026
+date: 03.17.2026
 version: 11
 content_type: release-note
 category: marketing
