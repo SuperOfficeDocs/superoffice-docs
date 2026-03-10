@@ -1,10 +1,10 @@
 ﻿---
 uid: mail-link-create-crm
-title: Creating emails from SuperOffice CRM
+title: Creating emails from SuperOffice CRM (LEGACY)
 description: Creating emails from SuperOffice CRM
 keywords: create email, write email, email body template, send as email
-author: SuperOffice Product and Engineering
-date: 06.29.2022
+author: digitaldiina
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -19,13 +19,18 @@ redirect_from:
   - /no/email/mail-link/learn/create-in-superoffice
   - /sv/email/mail-link/learn/create-in-superoffice
 index: true
+legacy: yes
 ---
 
-# Creating emails from SuperOffice CRM
+# Creating emails from SuperOffice CRM (LEGACY)
+
+[!include[Caution - behavior will change](includes/legacy-maillink-compose.md)]
 
 There are two ways of creating an email from SuperOffice CRM. You can use the **Email** toolbar button at the bottom of the SuperOffice CRM window. This works more or less the same way as described in [Creating emails from Microsoft Outlook][1], except that you can use predefined email body templates.
 
 You can, however, also use the **Write** toolbar button.
+
+## Steps
 
 1. Click the **Write** toolbar button at the bottom of the SuperOffice CRM window.
 2. In the **Type** field at the top of the **Document** dialog, select an email template.
