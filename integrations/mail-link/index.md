@@ -1,10 +1,10 @@
 ﻿---
 uid: mail-link
-title: MailLink
+title: Mail Link
 description: SuperOffice Mail Link is a plug-in that links the Microsoft Outlook mail client with SuperOffice CRM.
-keywords: MailLink, email plugin, email add-on, email extension
-author: SuperOffice Product and Engineering
-date: 02.23.2026
+keywords: Mail Link, MailLink, email plugin, email add-on, email extension
+author: digitaldiina
+date: 03.17.2026
 content_type: concept
 category: integration
 topic: Mail Link
@@ -21,7 +21,7 @@ redirect_from:
 index: true
 ---
 
-# MailLink
+# Mail Link
 
 SuperOffice Mail Link is a plug-in that links the Microsoft Outlook mail client with SuperOffice CRM and/or SuperOffice Service. This means that among other things, you can:
 
@@ -29,7 +29,6 @@ SuperOffice Mail Link is a plug-in that links the Microsoft Outlook mail client 
 * Archive an email as a document or a task in SuperOffice CRM.
 * Archive an email as a request in SuperOffice Service.
 * Search for the sender of an email.
-* Set functions for default archiving.
 * Use SuperOffice templates or predefined email body templates when creating emails.
 * Update the information about companies and contacts in SuperOffice CRM based on emails you receive.
 
@@ -39,27 +38,27 @@ These buttons appear on the Microsoft Outlook toolbar:
 
 | Button | Function |
 |:-:|---|
-| ![icon][img4] | Archiving emails to SuperOffice CRM |
-| ![icon][img5] | Searching for the sender of an email |
+| ![icon][img4] | [Archive emails to SuperOffice CRM][2] |
+| ![icon][img5] | [Search for the sender of an email][3] |
 | ![icon][img3] | Click the small arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. |
 
 ## Compatibility
 
-SuperOffice MailLink (latest version) is compatible with SuperOffice CRM Online and SuperOffice CRM Onsite Web version 8.3 or newer.
+SuperOffice Mail Link (latest version) is compatible with SuperOffice CRM Online and SuperOffice CRM Onsite Web version 8.3 or newer.
 
-**MailLink will only exist in one version: The latest version.**
+**Mail Link will only exist in one version: The latest version.**
 
 ## Related content
 
-* [Archive emails to SuperOffice CRM][2]
-* [Create emails from SuperOffice CRM][5]
+* [Archive emails on companies and contacts][7]
 * [Create emails from Microsoft Outlook][6]
-* [Search for the sender of an email][3]
+* [Create emails from SuperOffice CRM (legacy)][5]
 * [Set options][4]
 
 <!-- Referenced links -->
 [2]: archive.md
 [3]: manage-senders.md
+[7]: archive-on-contact.md
 [4]: settings.md
 [5]: create-in-superoffice.md
 [6]: create-in-outlook.md
