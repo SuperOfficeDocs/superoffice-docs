@@ -23,19 +23,21 @@ index: true
 
 # Create email from Microsoft Outlook
 
-There are two ways of creating an email from Microsoft Outlook. You can use SuperOffice templates, or you can use standard Outlook functionality.
+There are two ways of creating an email from Microsoft Outlook. You can use SuperOffice templates, or you can use standard Outlook functionality. When using a SuperOffice template, the email is automatically archived as a SuperOffice document. For standard Outlook emails, archiving depends on the **Archive email by default when: created from email client** setting in the [SuperOffice CRM options dialog][5].
 
 ## Create a standard Outlook email
 
 1. Click the **New email** button on the Microsoft Outlook toolbar.
 
-2. In the email window in the **To** field, enter the email addresses of the recipients. You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
+1. In the email window in the **To** field, enter the email addresses of the recipients. You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
 
-3. Write the message.
+1. Write the message.
 
-4. Add any attachments you would like to include. You can also [add documents from SuperOffice CRM][3].
+1. Add any attachments you want to include. You can also [add documents from SuperOffice CRM][3].
 
-5. Click **Send** to send the message to the specified recipient(s).
+1. Click **Send** to send the message to the specified recipient(s).
+
+    The email is archived if **Archive email by default when: created from email client** is enabled in the [SuperOffice CRM options dialog][5].
 
 ## Create an email with SuperOffice templates
 
@@ -59,13 +61,25 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 1. Click **OK** in the **New SuperOffice email** dialog. A new email window opens.
 
-1. In the **To** field, enter the email address of any other recipients you would like to add. You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
+1. In the **To** field, enter the email address of any other recipients you want to add. You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
 
 1. Write the message.
 
-1. Add any attachments you would like to include. You can also [add documents from SuperOffice CRM][3].
+1. Add any attachments you want to include. You can also [add documents from SuperOffice CRM][3].
 
 1. Click **Send** to send the message to the specified recipient(s).
+
+    Because you selected a SuperOffice template, the email is automatically archived to SuperOffice CRM.
+
+## <a id="archive"></a>Archive to SuperOffice
+
+* To archive all sent emails by default, enable **Archive email by default when: created from email client** in the [SuperOffice CRM options dialog][5].
+
+* To enable or disable archiving for an individual email, click the **Archive is ON/OFF** button in the email window before sending.
+
+## Related content
+
+* [Archive email to SuperOffice][6]
 
 ## Buttons in the email window
 
@@ -80,6 +94,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 [2]: select-recipients.md
 [3]: add-attachment.md
 [5]: settings.md
+[6]: archive.md
 
 <!-- referenced images -->
 [img1]: media/archive-is-on.png
