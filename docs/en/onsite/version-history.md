@@ -168,3 +168,5 @@ It does not contain Red Alerts or CRM Online release versions.
 | 10.5.2 | (Onsite skipped) | | |
 | 10.5.3 | (Onsite skipped) | | |
 | 10.5.4 | | 30.04.2025 | 2025.04.29-03 |
+| 11.6 | | 22.01.2026 | 2026.01.29-01 |
+| 11.10 | | 02.03.2026 | 2026.03.02-01 |
