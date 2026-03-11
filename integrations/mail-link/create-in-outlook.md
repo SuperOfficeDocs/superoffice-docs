@@ -77,10 +77,6 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 * To enable or disable archiving for an individual email, click the **Archive is ON/OFF** button in the email window before sending.
 
-## Related content
-
-* [Archive email to SuperOffice][6]
-
 ## Buttons in the email window
 
 | Button | Function | Description |Read more |
@@ -89,6 +85,10 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 | ![icon][img3] | Add recipient | Opens the **Select recipients** dialog. | [Select recipients][2] |
 | ![icon][img4] | Attach document | Opens the **Include attachments** dialog. | [Add SuperOffice documents as attachments][3] |
 | ![icon][img5] | | Click the arrow to the right of the **SuperOffice** button to open the **SuperOffice CRM options** dialog. | [SuperOffice CRM options dialog][5] |
+
+## Related content
+
+* [Archive email to SuperOffice][6]
 
 <!-- Referenced links -->
 [2]: select-recipients.md
