@@ -3,8 +3,8 @@ uid: webtools-configure
 title: Configure WebTools
 description: How to configure WebTools.
 keywords: configure WebTools, SiteInfo, registry
-author: H.O. Waaler, Jostein K, Bergfrid Dias
-date: 01.23.2024
+author: Jostein K, digitaldiina
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: WebTools
@@ -51,42 +51,31 @@ The following registry entries in *HKCU\Software\SuperOffice\DocLink* are availa
 
 ## Proxy
 
-Both Mail Link and Web Extensions support connection via proxy server. It automatically inherits proxy settings from Internet Explorer. If the proxy server doesn't require authentication no changes to the configuration are required.
+Web Extensions supports connection via proxy server. It automatically inherits proxy settings from Internet Explorer. If the proxy server doesn't require authentication, no changes to the configuration are required.
 
 ### Log in with Windows credentials
 
-If the proxy server requires a user to log in with their Windows credentials, you can instruct both Mail Link and Web Extensions to do so.
+If the proxy server requires a user to log in with their Windows credentials, you can instruct Web Extensions to do so.
 
-Add this key (type dword) with value 1:
-
-**For Web Extensions (TrayApp):**
+Add this key (type dword) with value 1:
 
 `HKCU\Software\SuperOffice\DocLink\ProxyUsesDefaultCredentials`
 
-**For Mail Link:**
-
-`HKCU\Software\SuperOffice\MailLink\ProxyUsesDefaultCredentials`
-
-By setting ProxyUsesDefaultCredentials to 1 will WebTools authenticate with the credentials of the currently logged-on user.
+Setting `ProxyUsesDefaultCredentials` to 1 makes WebTools authenticate with the credentials of the currently logged-on user.
 
 ### Support for forced authentication type
 
-Since SuperOffice 8.0.6110 (8.0 SR4) we support proxy authentication with specified authentication type. Both Web Extensions and Mail Link support forcing a credential type for the proxy authentication.
+Since SuperOffice 8.0.6110 (8.0 SR4), Web Extensions supports proxy authentication with a specified authentication type.
 
-There are 2 new registry entries - one for Mail Link and one for Web Extensions:
+Setting `HKCU\Software\SuperOffice\DocLink\ProxyCredentialType` (type string) to either Windows, Ntlm, Digest, or Basic will use the corresponding authentication scheme.
 
-Setting `HKCU\Software\SuperOffice\{DocLink|MailLink}\ProxyCredentialType` (type string) to either Windows, Ntlm, Digest, or Basic will use the corresponding authentication schemes.
+The setting `HKCU\Software\SuperOffice\DocLink\ProxyUsesDefaultCredentials` should be set to 1 if `ProxyCredentialType` is set.
 
-The setting `HKCU\Software\SuperOffice\{DocLink|MailLink}\ProxyUsesDefaultCredentials` should be set to 1 if ProxyCredentialType is set.
-
-For Windows authentication type, add this key (type string) with value *Windows*:
-
-**For Web Extensions (TrayApp):**
+For Windows authentication type, add this key (type string) with value *Windows*:
 
 `HKCU\Software\SuperOffice\DocLink\ProxyCredentialType`
 
-**For Mail Link:**
-
-`HKCU\Software\SuperOffice\MailLink\ProxyCredentialType`
+> [!NOTE]
+> For SuperOffice 11.10 and older (with MailLink), equivalent keys exist under `HKCU\Software\SuperOffice\MailLink\` for `ProxyUsesDefaultCredentials` and `ProxyCredentialType`.
 
 <!-- Referenced links -->
