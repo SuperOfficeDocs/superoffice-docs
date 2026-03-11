@@ -3,14 +3,17 @@ uid: webtools-troubleshooting
 title: Troubleshooting
 description: Troubleshooting WebTools
 keywords: WebTools, troubleshooting
-author: Jostein K, Bergfrid Dias
-date: 10.02.2025
+author: Jostein K, digitaldiina
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: WebTools
 language: en
 index: true
-redirect_from: /en/document/webtools/troubleshooting
+redirect_from:
+  - /en/document/webtools/troubleshooting
+  - /en/document/webtools/debug
+  - /integrations/webtools/debug
 ---
 
 # Troubleshooting WebTools
@@ -23,16 +26,7 @@ Using single sign-on delegates the authentication to your domain controller (or 
 
 ## The document dialog opens instead of WebTools when I select document in archive
 
-This is often caused by WebTools not being properly configured. Note that earlier versions of 8.0 had stability issues. The web page *WebToolsDiagnostics.aspx* can give indicators on which clients are registered with the logged-in user.
-
-## Which types of debugging utilities are available for WebTools diagnostics?
-
-*WebToolsDiagnostics.aspx* is, as the name suggests, a tool to give hints on the current connectivity state between SuperOffice WebTools and the browser. Information such as the version and the machine name of WebTools are displayed along with which signals clients are connected.
-
-The registry key `LogFile` enables logging of the main actions.
-
-> [!NOTE]
-> A restart of WebTools is often necessary for applying the registry settings.
+This is often caused by WebTools not being properly configured. [Enable logging](#logging) to gather diagnostic information.
 
 ## Alarms are not working as expected
 
@@ -43,15 +37,56 @@ If the option **Show alarm for all appointments *n* minutes before** is enabled 
 To change this:
 
 1. Right-click the WebTools icon in the system tray.
+
 1. Select **Preferences**.
+
 1. Adjust or disable the **Show alarm for all appointments** setting.
 
-## Related content
+## <a id="logging"></a>Logging
 
-* [What to do when SuperOffice archiving button has disappeared from Outlook?][13] - FAQ
+Web Extensions depends on a constant connection to the CRM Server to work properly. If you are having connectivity issues, turn on logging to troubleshoot.
+
+### Windows
+
+> [!TIP]
+> This is the file support usually will ask for.
+
+1. Open the Registry. The user needs a write permission to the file.
+
+1. Add a new String value under *HKCU\Software\SuperOffice\DocLink*:
+
+    * Value name = **LogFile**
+    * Value data = The full path to a log file where it should write diagnostics. User running WebTools needs to have write permission to this file and folder.
+
+> [!NOTE]
+> A restart of WebTools is often necessary for applying the registry settings.
+
+![WebTools LogFile -screenshot][img1]
+
+### Mac
+
+1. Click **Go** then **Library**.
+
+    ![WebTools for Mac log file -screenshot][img4]
+
+1. Navigate to *Application Support* folder then *SuperOffice WebTools*. Then create a new text file without an extension, call it *debug* and move it to the folder *SuperOffice WebTools*. Restart WebTools.
+
+    ![WebTools for Mac log file -screenshot][img5]
+
+1. Open a **Console**
+
+    ![WebTools for Mac log file -screenshot][img6]
+
+1. In the console dialog search field fill in **SuperOffice** and click **Save**. The information should be saved in the debugging file. If it doesn't, select all the entries and right-click and click copy then paste it in the debugging file.
+
+    ![WebTools for Mac log file -screenshot][img7]
 
 <!-- Referenced links -->
 [1]: ../../docs/en/diary/learn/set-alarm.md
-[13]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 
 <!-- Referenced images -->
+[img1]: media/webtoolslog.png
+[img4]: media/imagewukx.png
+[img5]: media/imagew1mo6.png
+[img6]: media/imagelzq97.png
+[img7]: media/imagedo4c.png
