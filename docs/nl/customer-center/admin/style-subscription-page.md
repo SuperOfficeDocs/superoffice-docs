@@ -2,10 +2,10 @@
 uid: help-nl-customer-center-subscription-page-styling
 title: Stijl van abonnementspagina
 description: Hoe u het ontwerp en de tekst van de abonnementspagina kunt aanpassen om het af te stemmen op uw merkidentiteit.
-keywords: abonnementspagina
+keywords: abonnementspagina, uitschrijven, bevestigingspagina
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 03.17.2026
+version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud
@@ -31,7 +31,7 @@ U kunt het ontwerp en de tekst van de abonnementspagina aanpassen om het af te s
 1. Breng uw wijzigingen aan in de sectie **Stijl** of **Opties**.
 1. Klik op **Opslaan**.
 
-U kunt wijzigingen aanbrengen in twee secties: **Styling** en **Opties**. Een voorbeeld wordt aan de rechterkant weergegeven.
+U kunt wijzigingen aanbrengen in twee secties: **Styling** en **Opties**. Een voorbeeld wordt aan de rechterkant weergegeven. Gebruik het vervolgkeuzemenu **Voorbeeld kiezen** om te controleren hoe uw wijzigingen eruit zien op de pagina's Abonnementen beheren, Uitschrijven, Bevestiging opgeslagen en Bevestiging geannuleerd.
 
 ![Stijl abonnementspagina in Instellingen en onderhoud -screenshot][img1]
 
@@ -68,11 +68,9 @@ Gebruik de sectie **Opties** om tekst voor elke ondersteunde taal aan te passen.
 
 1. Selecteer een taal uit de lijst.
 
-1. Bewerk de volgende velden:
+1. Selecteer de pagina die u wilt bijwerken. Een voorbeeld verschijnt automatisch aan de rechterkant.
 
-    * **Koptekst**
-    * **Instructies**
-    * **Instemmingstekst**
+1. Bewerk de beschikbare tekstvelden.
 
 ![Abonnementspagina gelokaliseerde tekstopties in Instellingen en onderhoud -screenshot][img2]
 

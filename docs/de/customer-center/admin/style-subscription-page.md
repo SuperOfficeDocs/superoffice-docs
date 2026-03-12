@@ -2,10 +2,10 @@
 uid: help-de-customer-center-subscription-page-styling
 title: Design der Abonnement-Seite
 description: So passen Sie das Design und den Text der Abonnementseite an Ihre Markenidentität an.
-keywords: Abonnementseite
+keywords: Abonnementseite, Abmelden, Bestätigungsseite
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 03.17.2026
+version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
@@ -31,7 +31,7 @@ Sie können das Design und den Text der Abonnementseite anpassen, um sie mit Ihr
 1. Nehmen Sie Ihre Änderungen im Abschnitt **Stil** oder **Optionen** vor.
 1. Klicken Sie auf **Speichern**.
 
-Sie können Änderungen in zwei Abschnitten vornehmen: **Design** und **Optionen**. Eine Vorschau wird auf der rechten Seite angezeigt.
+Sie können Änderungen in zwei Abschnitten vornehmen: **Design** und **Optionen**. Eine Vorschau wird auf der rechten Seite angezeigt. Verwenden Sie das Dropdown **Vorschau auswählen**, um zu sehen, wie Ihre Änderungen auf den Seiten Abonnements verwalten, Abmelden, Bestätigung gespeichert und Bestätigung abgebrochen aussehen.
 
 ![Stil der Abonnementseite in Einstellungen und Verwaltung -screenshot][img1]
 
@@ -68,11 +68,9 @@ Verwenden Sie den Abschnitt **Optionen**, um Text für jede unterstützte Sprach
 
 1. Wählen Sie eine Sprache aus der Liste.
 
-1. Bearbeiten Sie die folgenden Felder:
+1. Wählen Sie die Seite aus, die Sie aktualisieren möchten. Eine Vorschau wird automatisch auf der rechten Seite angezeigt.
 
-    * **Überschrift**
-    * **Anweisungen**
-    * **Zustimmungstext**
+1. Bearbeiten Sie die verfügbaren Textfelder.
 
 ![Abonnementseite lokalisierte Textoptionen in Einstellungen und Verwaltung -screenshot][img2]
 
