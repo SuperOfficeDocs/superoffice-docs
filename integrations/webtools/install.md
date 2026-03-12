@@ -11,7 +11,7 @@ topic: WebTools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-redirect_from: 
+redirect_from:
   - /en/document/webtools/install
   - /en/document/webtools/learn/install
   - /da/document/webtools/learn/install
