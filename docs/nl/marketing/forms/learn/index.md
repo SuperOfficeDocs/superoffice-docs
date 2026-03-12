@@ -3,9 +3,9 @@ uid: help-nl-forms
 title: Werken met formulieren
 description: SuperOffice-webformulieren zijn een geweldige manier om klantinformatie en feedback te verzamelen. Met webformulieren kunnen de mensen die uw website bezoeken contact met u opnemen en hun contactgegevens achterlaten.
 keywords: formulier, formulierverzending, dubbele opt-in
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.11
 content_type: concept
 category: marketing
 topic: forms

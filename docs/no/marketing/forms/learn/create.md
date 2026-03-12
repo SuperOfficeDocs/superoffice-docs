@@ -4,8 +4,8 @@ title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
 keywords: skjema, webskjema, nettskjema, påmelding
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: howto
 category: marketing
 topic: forms
@@ -130,6 +130,19 @@ Velg en **skrifttype** fra rullegardinlisten for å bruke den på all tekst i sk
 
 Den valgte skrifttypen gjelder for feltetiketter og alle andre tekstelementer i skjemaet. Du kan også bruke listen for skriftstørrelse og formateringsknappene for å style all tekst.
 
+#### <a id="custom-style"></a>Egendefinert utseende
+
+For full kontroll over hvordan skjemaet ditt ser ut, kan du skrive CSS i feltet **Egendefinert utseende**. Dette lar deg gå utover standardredigeringsalternativene og matche retningslinjene for merkevarebygging nøyaktig.
+
+![Skjemaredigering - egendefinert styling med CSS -screenshot][img16]
+
+* **For erfarne brukere:** Skriv eller lim inn CSS-koden direkte i feltet.
+* **For mindre avanserte brukere:** Velg en CSS-klasse fra listen, og legg til koden din. Denne fremgangsmåten gjør styling mindre overveldende og gir deg bedre kontroll over hva du endrer.
+
+Følgende CSS-klasser er tilgjengelige:
+
+[!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
+
 ### Aktiver dobbel opt-in (valgfritt)
 
 Dobbel opt-in (bekreftelse) er et ekstra trinn i skjemainnsendingsprosessen som vil garantere at folk sender inn riktig e-postadresse.
@@ -197,3 +210,4 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
