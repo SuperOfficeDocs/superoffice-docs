@@ -9,6 +9,7 @@ content_type: release-note
 category: service
 audience: person
 audience_tooltip: SuperOffice Service
+language: en
 ---
 
 # New and improved Service

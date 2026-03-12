@@ -9,6 +9,7 @@ content_type: release-note
 category: Settings and maintenance
 audience: settings
 audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # New and improved Settings and maintenance

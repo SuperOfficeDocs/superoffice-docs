@@ -22,7 +22,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 * [Request - Summarize messages (11.1.10)][45]
 * [Company - Indicators for country and stop (11.1.9)][44]
-* [Lead categorisation - Automatic update of category on sale sold or lost (11.1.9)][44]
+* [Lead categorization - Automatic update of category on sale sold or lost (11.1.9)][44]
 * [All day events in Diary (11.1.7)][43]
 * [Sections for contacts - Show person type icon (11.1.7)][43]
 * [New company - With company completion (11.1.5)][42]

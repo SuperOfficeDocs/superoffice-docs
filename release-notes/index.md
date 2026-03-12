@@ -7,6 +7,7 @@ date: 03.17.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # What's new in SuperOffice
@@ -38,7 +39,7 @@ Different integration components are released on separate schedules. See the [in
 
 ## Developer Portal
 
-* 12.11 (25.02.206): App Store information visible with a standard application, Required Partner profile feedback before publish to stage
+* 12.11 (25.02.2026): App Store information visible with a standard application, Required Partner profile feedback before publish to stage
 * 2.9 (17.12.2025): Refactored log section, Export list of tenants
 * 2.8 (17.11.2025): Refreshed and modernized user interface
 * 2.7 (04.11.2025): Improved categorization
@@ -63,7 +64,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 * [Synchronizer: See attendees and don't lose edits][16] (available from Synchronizer v.117 - 16.02.2026)
 * [SuperOffice Online Replication: Stream CRM data to own infrastructure][16] (available from 13.02.2026)
-* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - General available from 11.11 (17.03.2026))
+* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
 * [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
