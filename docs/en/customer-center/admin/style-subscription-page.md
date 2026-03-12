@@ -2,10 +2,10 @@
 uid: help-en-customer-center-subscription-page-styling
 title: Style the subscription page
 description: How to customize the design and text of the subscription page to align it with your brand identity.
-keywords: subscription page
+keywords: subscription page, unsubscribe, confirmation page
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 03.17.2026
+version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -31,7 +31,7 @@ You can customize the design and text of the subscription page to align it with 
 1. Make your changes in the **Styling** or **Options** section.
 1. Click **Save**.
 
-You can make changes in two sections: **Styling** and **Options**. A preview is shown on the right-hand side.
+You can make changes in two sections: **Styling** and **Options**. A preview is shown on the right-hand side. Use the **Choose preview** dropdown to check how your changes look on the Manage subscriptions, Unsubscribe, Confirmation saved, and Confirmation cancelled pages.
 
 ![Subscription page styling in Settings and maintenance -screenshot][img1]
 
@@ -68,13 +68,11 @@ Use the **Options** section to customize text for each supported language.
 
 1. Select a language from the list.
 
-1. Edit the following fields:
+1. Select the page you want to update. A preview appears automatically on the right.
 
-    * **Header**
-    * **Instructions**
-    * **Consent text**
+1. Edit the available text fields.
 
-![Subscription page localized text options in Settings and maintenance -screenshot][img2]
+![Subscription page Options tab in Settings and maintenance -screenshot][img2]
 
 If you clear a field, the default SuperOffice text is restored automatically.
 
