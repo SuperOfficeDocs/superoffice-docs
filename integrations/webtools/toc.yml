@@ -18,5 +18,3 @@ items:
     href: upgrade.md
 - name: Troubleshooting
   href: troubleshooting.md
-- name: Debug
-  href: debug.md
