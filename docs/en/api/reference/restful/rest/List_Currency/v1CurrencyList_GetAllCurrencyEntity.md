@@ -28,7 +28,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 

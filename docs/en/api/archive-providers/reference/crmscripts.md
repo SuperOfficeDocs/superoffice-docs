@@ -49,7 +49,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/CRMScripts?$select=name,registeredDate,includeId
+GET /api/v1/archive/CRMScripts?$select=registeredDate,includeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

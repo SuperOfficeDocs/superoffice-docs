@@ -918,6 +918,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketId| *None* |ID: Displays request ID| x |
 |request/title| *None* |Title: Displays the request title| x |
 |request/createdAt| *None* |Created: Displays when the request was created| x |
+|request/createdDate| *None* |Created date: Created date| x |
 |request/lastChanged| *None* |Last changed: Displays when the request was last changed| x |
 |request/author| *None* |Author: Displays the author of the request| x |
 |request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner| x |
@@ -951,11 +952,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy| *None* |Created by: Created by| x |
 |request/content| *None* |Content: Search for content in messages related to requests| x |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
-|request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
 |request/createdByWorkflow| *None* |Created by flow: Created by flow| x |
@@ -1055,11 +1056,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/status| *None* |Status: Displays the project's status| x |
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId| *None* |ID: Displays login ID of the associate who owns the project| x |
-|projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text| *None* |Text: Displays a descriptive text for the item| x |
 |projectMembers/description| *None* |Description : Description| x |
@@ -1077,6 +1078,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/eventId| *None* |Project event ID: Project event ID| x |
 |projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus| *None* |Event status: Event status| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date| x |
@@ -1158,12 +1160,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type| x |
 |personAppointment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
-|personAppointment/type| *None* |Type: Displays the type of an activity| x |
-|personAppointment/recordType| *None* |Record type : Shows the record type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/type| *None* |Type: Displays the type of an activity| x |
+|personAppointment/recordType| *None* |Record type : Shows the record type| x |
 |personAppointment/text| *None* |Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId| *None* |Company ID: Database ID of company| x |
@@ -1260,7 +1262,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonStaticSelectionV2?$select=contactAssociate/ejUserId,appointment/associate/contactId,personUdef/SuperOffice:11,personTargetRelation/personNoMail
+GET /api/v1/archive/ContactPersonStaticSelectionV2?$select=contactAssociate/otherGroups,contactUdef/SuperOffice:3,NumberOfSales,sourceRelation/companyCategoryRank,targetRelation/country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

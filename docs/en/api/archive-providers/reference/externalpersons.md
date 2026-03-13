@@ -386,6 +386,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
 |request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
 |request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/associateDbId|associate|Created by - ID| x |
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
@@ -534,17 +535,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
-|projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |projectMembers/eventId|int|Project event ID: Project event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
-|personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
 |personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -728,7 +730,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=isStakeholder,personSourceRelation/personUpdatedDate,personSourceRelation/personPersonRelation,request/messageLanguage,projectMembers/NumberOfSalesInPeriod
+GET /api/v1/archive/ExternalPersons?$select=personSourceRelation/personCategory,personSourceRelation/personPersonRelation,correspondingAssociate/ejUserId,request/createdBy/credentialDisplayValue,projectMembers/projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

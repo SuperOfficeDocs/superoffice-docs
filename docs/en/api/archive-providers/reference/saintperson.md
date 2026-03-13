@@ -783,7 +783,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=email/emailProtocol,streetAddress/formattedAddress,targetRelation/registeredDate,sale/registeredBy,sale/stageName
+GET /api/v1/archive/SaintPerson?$select=email/emailProtocol,SaintStatus2,sale/salePublish/publishedFrom,sale/associate/credentialDisplayValue,appointment/recordType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

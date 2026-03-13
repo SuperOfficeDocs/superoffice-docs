@@ -772,7 +772,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/contact/contactExtra/x_contact_request_relation,appointmentInstance/person/position,appointmentInstance/project/projectAssociate/assocTooltip,appointmentInstance/sale/date
+GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/contact/LastTicket,appointmentInstance/person/isProjectMember,appointmentInstance/person/searchPhone/formattedNumber,appointmentInstance/person/personAddress/addressId,appointmentInstance/person/personAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

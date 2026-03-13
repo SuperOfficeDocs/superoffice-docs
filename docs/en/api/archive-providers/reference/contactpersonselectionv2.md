@@ -922,6 +922,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/ticketId| *None* |ID: Displays request ID| x |
 |request/title| *None* |Title: Displays the request title| x |
 |request/createdAt| *None* |Created: Displays when the request was created| x |
+|request/createdDate| *None* |Created date: Created date| x |
 |request/lastChanged| *None* |Last changed: Displays when the request was last changed| x |
 |request/author| *None* |Author: Displays the author of the request| x |
 |request/readByOwner| *None* |Read by owner: Displays when the request was read by the owner| x |
@@ -955,11 +956,11 @@ This is the archive Provider for the Selection contact/person archive.
 |request/createdBy| *None* |Created by: Created by| x |
 |request/content| *None* |Content: Search for content in messages related to requests| x |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
-|request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
 |request/createdByWorkflow| *None* |Created by flow: Created by flow| x |
@@ -1059,11 +1060,11 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/status| *None* |Status: Displays the project's status| x |
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId| *None* |ID: Displays login ID of the associate who owns the project| x |
-|projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text| *None* |Text: Displays a descriptive text for the item| x |
 |projectMembers/description| *None* |Description : Description| x |
@@ -1081,6 +1082,7 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/eventId| *None* |Project event ID: Project event ID| x |
 |projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus| *None* |Event status: Event status| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date| x |
@@ -1162,12 +1164,12 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type| x |
 |personAppointment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
-|personAppointment/type| *None* |Type: Displays the type of an activity| x |
-|personAppointment/recordType| *None* |Record type : Shows the record type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/type| *None* |Type: Displays the type of an activity| x |
+|personAppointment/recordType| *None* |Record type : Shows the record type| x |
 |personAppointment/text| *None* |Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId| *None* |Company ID: Database ID of company| x |
@@ -1266,12 +1268,12 @@ This is the archive Provider for the Selection contact/person archive.
 |linkClicked/linkId| *None* |Link ID: Link ID|  |
 |linkClicked/shipmentId| *None* |ID: Displays the ID of the mailing|  |
 |formSubmission/formSubmissionId| *None* |Form submission ID: ID of the form submission record| x |
-|formSubmission/formSubmissionFormId| *None* |Id: Id of the form| x |
-|formSubmission/formSubmissionName| *None* |Form name: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|formSubmission/formSubmissionFormId| *None* |Id: Id of the form| x |
+|formSubmission/formSubmissionName| *None* |Form name: Displays a descriptive text for the item| x |
 |formSubmission/formSubmissionStatus| *None* |Status: Status of the form submission record| x |
 |formSubmission/formSubmissionEmail| *None* |E-mail: The e-mail address of the person who submitted the form| x |
 |formSubmission/icon| *None* |Category: Displays the icon for an activity type| x |
@@ -1370,12 +1372,12 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/approvedBy| *None* |Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/approvalRegisteredBy| *None* |Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.| x |
 |sale/quote/version/approvedText| *None* |Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|sale/quote/version/approvedDate| *None* |Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|sale/quote/version/extraField1| *None* |Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/approvedDate| *None* |Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
+|sale/quote/version/extraField1| *None* |Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField2| *None* |Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField3| *None* |Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField4| *None* |Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
@@ -1451,7 +1453,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=LastCompletedTicket,targetRelation/registeredDate,sale/heading,sale/associate/personId,document/isMail
+GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/city,contactAssociate/ejDisplayName,sale/associate/usergroupId,appointment/contactId,personEmail/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

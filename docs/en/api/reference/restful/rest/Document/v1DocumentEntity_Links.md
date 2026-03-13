@@ -75,9 +75,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=eum
-GET /api/v1/Document/{id}/Links?$top=625
-GET /api/v1/Document/{id}/Links?$skip=210
+GET /api/v1/Document/{id}/Links?$entities=molestias
+GET /api/v1/Document/{id}/Links?$top=541
+GET /api/v1/Document/{id}/Links?$skip=707
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
 GET /api/v1/Document/{id}/Links?$context=et

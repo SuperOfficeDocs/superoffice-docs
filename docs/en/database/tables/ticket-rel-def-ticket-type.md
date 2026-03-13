@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_rel\_def\_ticket\_type Table (547)
+# ticket\_rel\_def\_ticket\_type Table (548)
 
 Link table defining what Ticket types are involved in this relation. Will have M;N rows for a single relation definition
 

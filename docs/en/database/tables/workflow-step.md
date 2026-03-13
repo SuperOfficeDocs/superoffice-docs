@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# workflow\_step Table (521)
+# workflow\_step Table (522)
 
 A set of steps related to a workflow.
 

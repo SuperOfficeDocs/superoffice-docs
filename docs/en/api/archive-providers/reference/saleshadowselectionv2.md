@@ -1348,7 +1348,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=person/personUdef/SuperOffice:6,person/correspondingAssociate/fullName,person/consentSourceEmarketing,contact/searchPhone/description,contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/SaleShadowSelectionV2?$select=person/personNumber,person/personCountryId,person/birthdate,person/restrictionAddress/line1,person/restrictionAddress/formattedAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

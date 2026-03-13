@@ -496,7 +496,7 @@ ChatConversation selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=chatSessionId,person/personAssociate/portraitThumbnail,contact/associateId,contact/contactAssociate/contactId,contact/contactAssociate/credentialDisplayValue
+GET /api/v1/archive/ChatConversationDynamicSelectionV2?$select=person/mrMrs,person/email/emailProtocol,person/restrictionAddress/line1,contact/restrictionAddress/line3,contact/contactAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

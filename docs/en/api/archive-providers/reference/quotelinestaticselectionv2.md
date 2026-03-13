@@ -781,7 +781,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=alternative/version/quote/sale/hasQuote,alternative/version/quote/sale/person/personUrl/URLAddress,alternative/version/quote/sale/person/personAssociate/contactId,alternative/version/quote/sale/contact/contactDeleted,alternative/version/quote/sale/contact/contactUdef/SuperOffice:2
+GET /api/v1/archive/QuoteLineStaticSelectionV2?$select=alternative/version/quote/sale/person/personAddress/formattedMultiLineAddress,alternative/version/quote/sale/person/personExtra/x_person_boolean,alternative/version/quote/sale/contact/updatedDate,alternative/version/quote/sale/contact/LastCompletedSale,alternative/version/quote/sale/project/eventId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

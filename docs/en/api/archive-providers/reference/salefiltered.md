@@ -1156,7 +1156,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=visibleFor,person/personBusiness,person/correspondingAssociate/title,contact/hasInfoText,contact/category
+GET /api/v1/archive/SaleFiltered?$select=person/personCategoryRank,person/email/emailDescription,project/projectAssociate/simultaneousEjUser,saleStakeholder/saleStakeholderId,saleStakeholder/person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1194,6 +1194,34 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetProjectEntityWithoutMembers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetProjectEntityWithoutMembersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q98:ProjectEntity" xmlns:q98="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveProjectEntityWithoutMembers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProjectEntity" nillable="true" type="q99:ProjectEntity" xmlns:q99="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveProjectEntityWithoutMembersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q100:ProjectEntity" xmlns:q100="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetProjectEvent">
         <xs:complexType>
           <xs:sequence>
@@ -1204,13 +1232,13 @@ content_type: reference
       <xs:element name="GetProjectEventResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q98:ProjectEvent" xmlns:q98="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q101:ProjectEvent" xmlns:q101="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ProjectEvent">
         <xs:complexContent mixed="false">
-          <xs:extension base="q99:Carrier" xmlns:q99="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q102:Carrier" xmlns:q102="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
@@ -1238,7 +1266,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ProjectEvent" nillable="true" type="q100:ProjectEvent" xmlns:q100="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ProjectEvent" nillable="true" type="q103:ProjectEvent" xmlns:q103="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetProjectEventOnPerson">
         <xs:complexType>
           <xs:sequence>
@@ -1250,7 +1278,7 @@ content_type: reference
       <xs:element name="GetProjectEventOnPersonResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q101:ProjectEvent" xmlns:q101="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q104:ProjectEvent" xmlns:q104="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1264,7 +1292,7 @@ content_type: reference
       <xs:element name="GetProjectEventEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q102:ProjectEventEntity" xmlns:q102="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q105:ProjectEventEntity" xmlns:q105="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1278,7 +1306,7 @@ content_type: reference
       <xs:element name="GetProjectEventEntityFromProjectIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q103:ProjectEventEntity" xmlns:q103="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q106:ProjectEventEntity" xmlns:q106="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1297,23 +1325,23 @@ content_type: reference
       <xs:element name="GetProjectEventList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectEventIds" nillable="true" type="q104:ArrayOfint" xmlns:q104="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectEventIds" nillable="true" type="q107:ArrayOfint" xmlns:q107="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectEventListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q105:ArrayOfProjectEvent" xmlns:q105="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q108:ArrayOfProjectEvent" xmlns:q108="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfProjectEvent">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ProjectEvent" nillable="true" type="q106:ProjectEvent" xmlns:q106="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ProjectEvent" nillable="true" type="q109:ProjectEvent" xmlns:q109="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfProjectEvent" nillable="true" type="q107:ArrayOfProjectEvent" xmlns:q107="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfProjectEvent" nillable="true" type="q110:ArrayOfProjectEvent" xmlns:q110="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetMyProjectEvents">
         <xs:complexType>
           <xs:sequence />
@@ -1322,7 +1350,7 @@ content_type: reference
       <xs:element name="GetMyProjectEventsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q108:ArrayOfProjectEvent" xmlns:q108="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q111:ArrayOfProjectEvent" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1336,30 +1364,30 @@ content_type: reference
       <xs:element name="GetProjectEventsOnPersonResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q109:ArrayOfProjectEvent" xmlns:q109="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q112:ArrayOfProjectEvent" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectIds" nillable="true" type="q110:ArrayOfint" xmlns:q110="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectIds" nillable="true" type="q113:ArrayOfint" xmlns:q113="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q111:ArrayOfProject" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q114:ArrayOfProject" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfProject">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Project" nillable="true" type="q112:Project" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Project" nillable="true" type="q115:Project" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfProject" nillable="true" type="q113:ArrayOfProject" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfProject" nillable="true" type="q116:ArrayOfProject" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetMyProjects">
         <xs:complexType>
           <xs:sequence>
@@ -1370,7 +1398,7 @@ content_type: reference
       <xs:element name="GetMyProjectsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q114:ArrayOfProject" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q117:ArrayOfProject" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1382,7 +1410,7 @@ content_type: reference
       <xs:element name="GetMyMemberProjectsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q115:ArrayOfProject" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q118:ArrayOfProject" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1396,7 +1424,7 @@ content_type: reference
       <xs:element name="GetProjectsFromPersonResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q116:ArrayOfProject" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q119:ArrayOfProject" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1410,7 +1438,7 @@ content_type: reference
       <xs:element name="GetProjectsFromContactResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q117:ArrayOfProject" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q120:ArrayOfProject" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1424,21 +1452,21 @@ content_type: reference
       <xs:element name="GetPublishedProjectResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q118:Project" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q121:Project" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetPublishedProjects">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectIds" nillable="true" type="q119:ArrayOfint" xmlns:q119="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectIds" nillable="true" type="q122:ArrayOfint" xmlns:q122="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetPublishedProjectsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q120:ArrayOfProject" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q123:ArrayOfProject" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1450,7 +1478,7 @@ content_type: reference
       <xs:element name="GetMyPublishedProjectsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q121:ArrayOfProject" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q124:ArrayOfProject" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1464,7 +1492,7 @@ content_type: reference
       <xs:element name="GetPublishedProjectsOnPersonIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:ArrayOfProject" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q125:ArrayOfProject" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1478,7 +1506,7 @@ content_type: reference
       <xs:element name="GetProjectMemberResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q123:ProjectMember" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q126:ProjectMember" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1486,7 +1514,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
-            <xs:element minOccurs="0" name="ProjectMembers" nillable="true" type="q124:ArrayOfProjectMember" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ProjectMembers" nillable="true" type="q127:ArrayOfProjectMember" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1505,42 +1533,42 @@ content_type: reference
       <xs:element name="GetProjectMembersResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q125:ArrayOfProjectMember" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q128:ArrayOfProjectMember" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateProjectMember">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectMember" nillable="true" type="q126:ProjectMember" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ProjectMember" nillable="true" type="q129:ProjectMember" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateProjectMemberResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q127:ProjectMember" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q130:ProjectMember" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectMembersById">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q128:ArrayOfint" xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q131:ArrayOfint" xmlns:q131="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectMembersByIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q129:ArrayOfProjectMember" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q132:ArrayOfProjectMember" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveProjectMembersFunctionAndComment">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q130:ArrayOfint" xmlns:q130="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q133:ArrayOfint" xmlns:q133="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="RoleId" type="xs:int" />
             <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
           </xs:sequence>
@@ -2095,6 +2123,40 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetProjectEntityWithoutMembersRequest">
+    <wsdl:part name="parameters" element="tns:GetProjectEntityWithoutMembers" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectEntityWithoutMembersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectEntityWithoutMembersResponse">
+    <wsdl:part name="parameters" element="tns:GetProjectEntityWithoutMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectEntityWithoutMembersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveProjectEntityWithoutMembersRequest">
+    <wsdl:part name="parameters" element="tns:SaveProjectEntityWithoutMembers" />
+  </wsdl:message>
+  <wsdl:message name="SaveProjectEntityWithoutMembersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveProjectEntityWithoutMembersResponse">
+    <wsdl:part name="parameters" element="tns:SaveProjectEntityWithoutMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveProjectEntityWithoutMembersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetProjectEventRequest">
     <wsdl:part name="parameters" element="tns:GetProjectEvent" />
   </wsdl:message>
@@ -2602,6 +2664,14 @@ content_type: reference
     <wsdl:operation name="SetCompleted">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SetCompleted" name="SetCompletedRequest" message="tns:SetCompletedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SetCompletedResponse" name="SetCompletedResponse" message="tns:SetCompletedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectEntityWithoutMembers">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectEntityWithoutMembers" name="GetProjectEntityWithoutMembersRequest" message="tns:GetProjectEntityWithoutMembersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectEntityWithoutMembersResponse" name="GetProjectEntityWithoutMembersResponse" message="tns:GetProjectEntityWithoutMembersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveProjectEntityWithoutMembers">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SaveProjectEntityWithoutMembers" name="SaveProjectEntityWithoutMembersRequest" message="tns:SaveProjectEntityWithoutMembersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SaveProjectEntityWithoutMembersResponse" name="SaveProjectEntityWithoutMembersResponse" message="tns:SaveProjectEntityWithoutMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEvent">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectEvent" name="GetProjectEventRequest" message="tns:GetProjectEventRequest" />
@@ -3159,6 +3229,38 @@ content_type: reference
         <soap:header message="tns:SetCompletedResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetCompletedResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetCompletedResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectEntityWithoutMembers">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectEntityWithoutMembers" style="document" />
+      <wsdl:input name="GetProjectEntityWithoutMembersRequest">
+        <soap:header message="tns:GetProjectEntityWithoutMembersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetProjectEntityWithoutMembersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetProjectEntityWithoutMembersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetProjectEntityWithoutMembersResponse">
+        <soap:header message="tns:GetProjectEntityWithoutMembersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetProjectEntityWithoutMembersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetProjectEntityWithoutMembersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetProjectEntityWithoutMembersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveProjectEntityWithoutMembers">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SaveProjectEntityWithoutMembers" style="document" />
+      <wsdl:input name="SaveProjectEntityWithoutMembersRequest">
+        <soap:header message="tns:SaveProjectEntityWithoutMembersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveProjectEntityWithoutMembersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveProjectEntityWithoutMembersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveProjectEntityWithoutMembersResponse">
+        <soap:header message="tns:SaveProjectEntityWithoutMembersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveProjectEntityWithoutMembersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveProjectEntityWithoutMembersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveProjectEntityWithoutMembersResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

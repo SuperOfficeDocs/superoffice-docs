@@ -721,6 +721,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -742,11 +743,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
 |request/timeSpent|timeSpan|Time spent: Time spent| x |
 |request/timeToReply|timeSpan|Time to reply: Time to reply| x |
-|request/timeToClose|timeSpan|Time to close: Time to close| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
 |request/realTimeToClose|timeSpan|Real time to close: Real time to close| x |
 |request/repliedAt|datetime|Replied at: Replied at| x |
@@ -846,11 +847,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
-|request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |request/extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
@@ -880,6 +881,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/eventId|int|Project event ID: Project event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -949,12 +951,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/LastDoBySale|date|Date of last non-completed sale|  |
 |projectMembers/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |projectMembers/saintSaleStatus|listAny|With status|  |
-|projectMembers/saintAmountClass|listAny|Amount class|  |
-|projectMembers/saintActivityType|listAny|SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintAmountClass|listAny|Amount class|  |
+|projectMembers/saintActivityType|listAny|SAINT type|  |
 |projectMembers/saintDirection|listAny|Direction|  |
 |projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
@@ -1053,12 +1055,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
-|personAppointment/appointment/agenda|positiveString|Agenda| x |
-|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointment/agenda|positiveString|Agenda| x |
+|personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
 |personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
@@ -1067,7 +1069,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=firstName,correspondingAssociate/associateDbId,personContact/hasInterests,personContact/countryId,personContact/contactSupportPerson/middleName
+GET /api/v1/archive/SimplePerson?$select=firstName,retired,birthYear,correspondingAssociate/isActiveText,personContact/restrictionPostalAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -40,6 +40,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
+|createdDate|date|Created date: Created date| x |
 |lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |author|string|Author: Displays the author of the request| x |
 |readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -120,11 +121,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |ownedBy/associateDbId|associate|Owner - ID| x |
 |ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
-|ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
@@ -224,11 +225,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |person/email/emailAddress|string|E-mail| x |
-|person/email/emailDescription|string|Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailDescription|string|Description| x |
 |person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
@@ -328,11 +329,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
 |person/personAssociate/locationAddress|string|Location: Location| x |
-|person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -432,11 +433,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
 |contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
@@ -536,11 +537,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
@@ -640,11 +641,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -744,11 +745,11 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -795,7 +796,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=messageLanguage,person/personExtra/x_person_request_relation,contact/code,sale/registeredByFullName,sale/stageName
+GET /api/v1/archive/FreetextTicket?$select=createdBy/associateDbId,person/correspondingAssociate/otherGroups,contact/contactFax/formattedNumber,sale/sale/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

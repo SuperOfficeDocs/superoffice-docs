@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# workflow\_root\_step\_link Table (528)
+# workflow\_root\_step\_link Table (529)
 
 Link root steps to the workflow
 

@@ -671,7 +671,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/postAddress/line3,mailingAddr/person/kanaLastName,emailFlow/emailFlowHierarchyId
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/restrictionAddress/formattedMultiLineAddress,mailingAddr/contact/contactAssociate/mrMrs,mailingAddr/contact/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

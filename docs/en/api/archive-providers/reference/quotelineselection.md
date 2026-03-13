@@ -781,7 +781,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=alternative/version/quote/sale/amount,alternative/version/quote/sale/saleTypeId,alternative/version/quote/sale/person/ticketPriority,alternative/version/quote/sale/contact/contactUdef/SuperOffice:7,alternative/version/quote/sale/contact/LastActivity
+GET /api/v1/archive/QuoteLineSelection?$select=personId,alternative/version/quote/sale/person/personExtra/x_person_request_relation,alternative/version/quote/sale/contact/categoryGroup,alternative/version/quote/connection/extraData,alternative/version/quote/connection/erpConnection/connector/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

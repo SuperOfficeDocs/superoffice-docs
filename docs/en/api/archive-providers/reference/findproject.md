@@ -823,7 +823,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=updatedByFullName,LastActivity,appointment/associate/simultaneousEjUser,projectMember/personId,projectMember/personActiveErpLinks
+GET /api/v1/archive/FindProject?$select=NumberOfNotCompletedActivitiesInPeriod,sale/salePublish/publishedTo,appointment/projectId,document/icon,document/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

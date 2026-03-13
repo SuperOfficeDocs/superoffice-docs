@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment?$select=name,department,category/id
 GET /api/v1/Appointment?$filter=name begins 'S'
 GET /api/v1/Appointment?$orderBy=name asc
-GET /api/v1/Appointment?$entities=aut
-GET /api/v1/Appointment?$top=815
-GET /api/v1/Appointment?$skip=958
+GET /api/v1/Appointment?$entities=facilis
+GET /api/v1/Appointment?$top=644
+GET /api/v1/Appointment?$skip=282
 GET /api/v1/Appointment?$mode=Full
 GET /api/v1/Appointment?$options=GrandTotal=true
-GET /api/v1/Appointment?$context=sint
+GET /api/v1/Appointment?$context=repudiandae
 GET /api/v1/Appointment?$format=JSON
 GET /api/v1/Appointment?$jsonSafe=False
 GET /api/v1/Appointment?$output=Display

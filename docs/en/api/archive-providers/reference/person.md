@@ -503,6 +503,7 @@ table data; this will also pull in contact udef and related fields.
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -539,11 +540,11 @@ table data; this will also pull in contact udef and related fields.
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -643,11 +644,11 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
-|projectMembers/description|string|Description : Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/description|string|Description : Description| x |
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMembers/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -662,6 +663,7 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/eventId|int|Project event ID: Project event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -746,12 +748,12 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
 |personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
-|personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 |personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -845,7 +847,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=retired,personMobilePhone/description,searchPhone/formattedNumber,personAddress/city,personAddress/formattedMultiLineAddress
+GET /api/v1/archive/Person?$select=personContact/contactAssociate/ejDisplayName,personAppointment/endDate,personAppointment/associate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

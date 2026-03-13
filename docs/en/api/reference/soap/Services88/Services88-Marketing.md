@@ -615,6 +615,49 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SetAllFormFieldRestrictions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="FormFieldRestrictions" nillable="true" type="tns:ArrayOfFormFieldRestriction" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfFormFieldRestriction">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="FormFieldRestriction" nillable="true" type="tns:FormFieldRestriction" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfFormFieldRestriction" nillable="true" type="tns:ArrayOfFormFieldRestriction" />
+      <xs:complexType name="FormFieldRestriction">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FormFieldRestrictionId" type="xs:int" />
+              <xs:element minOccurs="0" name="FieldIdentifier" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FieldRestriction" type="tns:FormFieldRestrictionType" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FormFieldRestriction" nillable="true" type="tns:FormFieldRestriction" />
+      <xs:simpleType name="FormFieldRestrictionType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="NotSet" />
+          <xs:enumeration value="ReadOnly" />
+          <xs:enumeration value="DoNotShow" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="FormFieldRestrictionType" nillable="true" type="tns:FormFieldRestrictionType" />
+      <xs:element name="SetAllFormFieldRestrictionsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetFormSubmissionEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1230,6 +1273,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SetAllFormFieldRestrictionsRequest">
+    <wsdl:part name="parameters" element="tns:SetAllFormFieldRestrictions" />
+  </wsdl:message>
+  <wsdl:message name="SetAllFormFieldRestrictionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetAllFormFieldRestrictionsResponse">
+    <wsdl:part name="parameters" element="tns:SetAllFormFieldRestrictionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetAllFormFieldRestrictionsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetFormSubmissionEntityRequest">
     <wsdl:part name="parameters" element="tns:GetFormSubmissionEntity" />
   </wsdl:message>
@@ -1476,6 +1536,10 @@ content_type: reference
     <wsdl:operation name="VerifyGoogleRecaptcha">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/VerifyGoogleRecaptcha" name="VerifyGoogleRecaptchaRequest" message="tns:VerifyGoogleRecaptchaRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/VerifyGoogleRecaptchaResponse" name="VerifyGoogleRecaptchaResponse" message="tns:VerifyGoogleRecaptchaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetAllFormFieldRestrictions">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SetAllFormFieldRestrictions" name="SetAllFormFieldRestrictionsRequest" message="tns:SetAllFormFieldRestrictionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SetAllFormFieldRestrictionsResponse" name="SetAllFormFieldRestrictionsResponse" message="tns:SetAllFormFieldRestrictionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetFormSubmissionEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/GetFormSubmissionEntity" name="GetFormSubmissionEntityRequest" message="tns:GetFormSubmissionEntityRequest" />
@@ -1821,6 +1885,22 @@ content_type: reference
         <soap:header message="tns:VerifyGoogleRecaptchaResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:VerifyGoogleRecaptchaResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:VerifyGoogleRecaptchaResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAllFormFieldRestrictions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Marketing/SetAllFormFieldRestrictions" style="document" />
+      <wsdl:input name="SetAllFormFieldRestrictionsRequest">
+        <soap:header message="tns:SetAllFormFieldRestrictionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetAllFormFieldRestrictionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetAllFormFieldRestrictionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetAllFormFieldRestrictionsResponse">
+        <soap:header message="tns:SetAllFormFieldRestrictionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetAllFormFieldRestrictionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetAllFormFieldRestrictionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetAllFormFieldRestrictionsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

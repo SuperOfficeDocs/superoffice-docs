@@ -28,7 +28,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=quis
+GET /api/v1/List/ConsentSource/MDOItems?query=quas
 ```
 
 

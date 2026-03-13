@@ -11543,6 +11543,10 @@
       href: Services88/AI/GetCopilotDataSourceEntity.md
     - name: GetCopilotEntity
       href: Services88/AI/GetCopilotEntity.md
+    - name: GetFirstFormDesignCssFromImage
+      href: Services88/AI/GetFirstFormDesignCssFromImage.md
+    - name: GetFirstFormDesignCssFromUrl
+      href: Services88/AI/GetFirstFormDesignCssFromUrl.md
     - name: GetFormDesignCssFromImage
       href: Services88/AI/GetFormDesignCssFromImage.md
     - name: GetFormDesignCssFromUrl
@@ -11553,6 +11557,8 @@
       href: Services88/AI/GetFormDesignFromUrl.md
     - name: GetIndexingStatus
       href: Services88/AI/GetIndexingStatus.md
+    - name: GetNextFormDesignCss
+      href: Services88/AI/GetNextFormDesignCss.md
     - name: GetSummarizeContactPrompt
       href: Services88/AI/GetSummarizeContactPrompt.md
     - name: GetSummarizeSalePrompt
@@ -14084,6 +14090,8 @@
       href: Services88/Marketing/SaveShipmentMessageBlockEntity.md
     - name: SaveShipmentMessageEntity
       href: Services88/Marketing/SaveShipmentMessageEntity.md
+    - name: SetAllFormFieldRestrictions
+      href: Services88/Marketing/SetAllFormFieldRestrictions.md
     - name: SetFontRank
       href: Services88/Marketing/SetFontRank.md
     - name: VerifyGoogleRecaptcha
@@ -14468,6 +14476,8 @@
       href: Services88/Project/GetProject.md
     - name: GetProjectEntity
       href: Services88/Project/GetProjectEntity.md
+    - name: GetProjectEntityWithoutMembers
+      href: Services88/Project/GetProjectEntityWithoutMembers.md
     - name: GetProjectEvent
       href: Services88/Project/GetProjectEvent.md
     - name: GetProjectEventEntity
@@ -14512,6 +14522,8 @@
       href: Services88/Project/OfferAutoNextStatusOnApppointmentCompleted.md
     - name: SaveProjectEntity
       href: Services88/Project/SaveProjectEntity.md
+    - name: SaveProjectEntityWithoutMembers
+      href: Services88/Project/SaveProjectEntityWithoutMembers.md
     - name: SaveProjectEventEntity
       href: Services88/Project/SaveProjectEventEntity.md
     - name: SaveProjectMember

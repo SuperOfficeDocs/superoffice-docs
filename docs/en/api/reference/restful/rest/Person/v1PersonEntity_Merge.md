@@ -35,7 +35,7 @@ The destination person will remain. You must specify the date after which activi
 | replaceEmptyFieldsOnDestination | bool |  If true, empty fields on destination will be replaced by values from source. |
 
 ```http
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=11/17/1999 21:49:52
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=07/19/2004 02:31:50
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=False
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyFieldsOnDestination=False
 ```

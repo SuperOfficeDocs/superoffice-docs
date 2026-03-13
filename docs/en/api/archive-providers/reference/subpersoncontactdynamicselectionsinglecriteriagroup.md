@@ -604,6 +604,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -640,11 +641,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -744,11 +745,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
-|projectMembers/description|string|Description : Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/description|string|Description : Description| x |
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMembers/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -763,6 +764,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/eventId|int|Project event ID: Project event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -847,12 +849,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
 |personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
-|personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 |personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -951,12 +953,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/text|positiveString|Text: Displays a descriptive text for the item| x |
 |sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |sale/contactId|listAny|Company ID: Database ID of company| x |
-|sale/personId|listAny|Contact ID: Database ID of the contact row| x |
-|sale/projectId|listAny|Project ID: Database ID of project record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/personId|listAny|Contact ID: Database ID of the contact row| x |
+|sale/projectId|listAny|Project ID: Database ID of project record| x |
 |sale/saleId|int|Sale ID: The database ID of the sale record| x |
 |sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |sale/who| *None* |Who: Contact and/or company|  |
@@ -1055,12 +1057,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/orderComment|string|Comment: Customer's comment| x |
 |sale/quote/connectionId|int|DB-ID: Database ID| x |
 |sale/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
-|sale/quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
-|sale/quote/version/description|string|Description: Description of the quote version| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
+|sale/quote/version/description|string|Description: Description of the quote version| x |
 |sale/quote/version/number|string|Number: Reference number for the quote version| x |
 |sale/quote/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
 |sale/quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
@@ -1151,7 +1153,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=phone/formattedNumber,who,personEmail/emailHasBounced,correspondingAssociate/credentialDisplayValue,streetAddress/state
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=department,personAddress/line2,correspondingAssociate/role,request/suggestedCategory,request/extra/x_ticket_short_text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

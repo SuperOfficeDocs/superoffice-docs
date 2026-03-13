@@ -28,7 +28,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=et
+GET /api/v1/List/ProjectType/MDOItems?query=maiores
 ```
 
 

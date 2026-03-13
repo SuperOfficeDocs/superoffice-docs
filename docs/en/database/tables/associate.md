@@ -173,6 +173,7 @@ Employees, resources and other users - except for External persons
 |[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
 |[foreignkey](foreignkey.md)  |Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables. |
 |[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+|[form\_field\_restriction](form-field-restriction.md)  |This table contains all form fields restrictions |
 |[form\_field\_value](form-field-value.md)  |Form field values saved in a searchable format |
 |[FunctionRight](functionright.md)  |Functional right definition |
 |[FunctionRightRoleLink](functionrightrolelink.md)  |Functional right definition |

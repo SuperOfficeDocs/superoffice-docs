@@ -822,7 +822,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=appointment/appointmentUdef/SuperOffice:1,appointment/appointmentUdef/SuperOffice:8,document/completed,projectMember/restrictionAddress/formattedAddress,projectMember/personExtra/y_rental/y_equipment/x_name
+GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=projectAssociate/assocTooltip,projectUdef/SuperOffice:6,saintTicketCategory,projectMember/contactId,projectMember/personAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
