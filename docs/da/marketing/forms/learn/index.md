@@ -3,9 +3,9 @@ uid: help-da-forms
 title: Arbejde med formularer
 description: SuperOffice webformularer er en fantastisk måde at indsamle kundeoplysninger og feedback på. Webformularer giver de personer, der besøger dit websted, mulighed for at komme i kontakt med dig og efterlade deres kontaktoplysninger.
 keywords: formular, formularindsendelse, dobbelt tilsagn
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.11
 content_type: concept
 category: marketing
 topic: forms

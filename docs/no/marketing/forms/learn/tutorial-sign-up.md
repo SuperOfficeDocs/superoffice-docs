@@ -4,8 +4,8 @@ title: Veiledning - hvordan opprette skjema for påmelding til nyhetsbrev
 description: Denne veiledningen forklarer hvordan du oppretter et påmeldingsskjema i SuperOffice Marketing.
 keywords: skjema, dobbel opt-in, påmelding, nyhetsbrev
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: tutorial
 category: marketing
 topic: forms

@@ -4,8 +4,8 @@ title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
 keywords: formular, webformular
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: howto
 category: marketing
 topic: forms
@@ -130,6 +130,19 @@ Vælg en **skrifttype** fra rullemenuen for at anvende den på al tekst i formul
 
 Den valgte skrifttype gælder for feltetiketter og alle andre tekstelementer i formularen. Du kan også bruge rullemenu for skriftstørrelse og formateringsknapper til at style al tekst.
 
+#### <a id="custom-style"></a>Tilpasset styling
+
+For fuld kontrol over, hvordan din formular ser ud, kan du skrive CSS i feltet **Tilpasset styling**. Det giver dig mulighed for at gå ud over standardeditorindstillingerne og matche dine brandretningslinjer præcist.
+
+![Formularredigering - tilpasset styling med CSS -screenshot][img16]
+
+* **For erfarne brugere:** Skriv eller indsæt din CSS-kode direkte i feltet.
+* **For mindre avancerede brugere:** Vælg en CSS-klasse fra listen, og tilføj din kode. Denne fremgangsmåde gør styling mindre overvældende og giver dig bedre kontrol over, hvad du ændrer.
+
+Følgende CSS-klasser er tilgængelige:
+
+[!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
+
 ### Aktivere dobbelt tilsagn (valgfrit)
 
 Dobbelt tilsagn (opt-in) er et ekstra trin i formularindsendelsesprocessen, der garanterer, at folk indsender den korrekte e-mailadresse.
@@ -197,3 +210,4 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png

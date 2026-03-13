@@ -4,8 +4,8 @@ title: Ein neues Formular erstellen
 description: In dieser Anleitung lernen Sie, wie Sie ein Web-Formular erstellen können.
 keywords: Formular, Web-Formular, Opt-in
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: howto
 category: marketing
 topic: forms
@@ -130,6 +130,19 @@ Wählen Sie eine **Schriftart** aus dem Dropdown-Menü aus, um sie auf den gesam
 
 Die gewählte Schriftart gilt für Feldbezeichnungen und alle anderen Textelemente im Formular. Sie können auch das Dropdown-Menü für die Schriftgröße und die Formatierungsschaltflächen verwenden, um den gesamten Text zu gestalten.
 
+#### <a id="custom-style"></a>Benutzerdefinierte Designs
+
+Für die vollständige Kontrolle über das Aussehen Ihres Formulars können Sie CSS im Feld **Benutzerdefinierte Designs** schreiben. Damit gehen Sie über die Standardeditor-Optionen hinaus und können Ihre Markenrichtlinien präzise umsetzen.
+
+![Formular-Editor - benutzerdefiniertes Styling mit CSS -screenshot][img16]
+
+* **Für erfahrene Benutzer:** Geben Sie Ihren CSS-Code direkt in das Feld ein oder fügen Sie ihn ein.
+* **Für weniger erfahrene Benutzer:** Wählen Sie eine CSS-Klasse aus der Liste aus und fügen Sie Ihren Code hinzu. Dieser Ansatz macht das Styling weniger überwältigend und gibt Ihnen bessere Kontrolle darüber, was Sie ändern.
+
+Folgende CSS-Klassen sind verfügbar:
+
+[!include[CSS-Klassen](../../../../../common/includes/list-of-form-css-classes.md)]
+
 ### Doppeltes Opt-in aktivieren
 
 Double Opt-in ist ein zusätzlicher Schritt im Formularübermittlungsprozess, der sicherstellt, dass Personen die korrekte E-Mail-Adresse eingeben.
@@ -197,3 +210,4 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
