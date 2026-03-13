@@ -2,10 +2,10 @@
 uid: help-no-customer-center-subscription-page-styling
 title: Styling av abonnementssiden
 description: Hvordan tilpasse design og tekst på abonnementssiden slik at den samsvarer med din merkevareidentitet.
-keywords: abonnementsside
+keywords: abonnementsside, avmelding, bekreftelsesside
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 03.17.2026
+version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
@@ -31,7 +31,7 @@ Du kan tilpasse design og tekst på abonnementssiden slik at den samsvarer med d
 1. Gjør endringene dine i seksjonen **Stil** eller **Alternativer**.
 1. Klikk på **Lagre**.
 
-Du kan gjøre endringer i to seksjoner: **Stil** og **Alternativer**. En forhåndsvisning vises på høyre side.
+Du kan gjøre endringer i to seksjoner: **Stil** og **Alternativer**. En forhåndsvisning vises på høyre side. Bruk rullegardinmenyen **Velg forhåndsvisning** for å kontrollere hvordan endringene dine ser ut på sidene Administrer abonnement, Avmelding, Bekreftelse lagret og Bekreftelse avbrutt.
 
 ![Stil abonnementsside i Innstillinger og vedlikehold -screenshot][img1]
 
@@ -68,11 +68,9 @@ Bruk seksjonen **Alternativer** til å tilpasse tekst for hvert støttet språk.
 
 1. Velg et språk fra listen.
 
-1. Rediger følgende felter:
+1. Velg siden du vil oppdatere. En forhåndsvisning vises automatisk til høyre.
 
-    * **Overskrift**
-    * **Instruksjoner**
-    * **Samtykkestekst**
+1. Rediger de tilgjengelige tekstfeltene.
 
 ![Abonnementsside lokalisert tekst alternativer i Innstillinger og vedlikehold -screenshot][img2]
 

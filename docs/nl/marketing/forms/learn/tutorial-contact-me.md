@@ -4,8 +4,8 @@ title: Handleiding - Neem contact met mij op-formulier maken
 description: In dit handleiding laten we zien hoe u een kort formulier kunt maken voor klanten die in contact willen komen met een supportmedewerker. De formulierverzending zal leiden tot een nieuwe aanvraag voor uw supportafdeling.
 keywords: formulier, Neem contact met mij op
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: tutorial
 category: marketing
 topic: forms

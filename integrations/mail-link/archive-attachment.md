@@ -1,10 +1,10 @@
 ﻿---
 uid: mail-link-archive-attachment
 title: Archive attachments
-description: If you would like to save an email attachment but not the email itself in SuperOffice CRM, you can archive the attachment as a document.
+description: If you want to save an email attachment but not the email itself in SuperOffice CRM, you can archive the attachment as a document.
 keywords: archive email, archive attachment
-author: SuperOffice Product and Engineering
-date: 06.29.2022
+author: digitaldiina
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -23,7 +23,7 @@ index: true
 
 # Archive attachments
 
-If the attachment is the only part of the email you would like to keep for future reference, it is possible to archive an attachment to an email in your mail client inbox to SuperOffice CRM. Follow these steps:
+If the attachment is the only part of the email you want to keep for future reference, it is possible to archive an attachment to an email in your mail client inbox to SuperOffice CRM. Follow these steps:
 
 ![Use Mail Link in Outlook to archive an email attachment in your inbox to SuperOffice CRM -screenshot][img1]
 
@@ -31,33 +31,31 @@ If the attachment is the only part of the email you would like to keep for futur
 
 1. Select the email that contains the attachment(s) you want to archive.
 
-2. Click the **Archive email** button on the toolbar, and **Archive attachment(s)** from the dropdown.
+1. Click the **Archive email** button on the toolbar, and **Archive attachment(s)** from the dropdown.
 
-3. One of the following situations occurs:
+1. One of the following situations occurs:
 
     * If there is only one attachment, the **Archive attachment** dialog opens immediately.
     * If there is more than one attachment, a dialog appears listing the attachments. Select the required attachment and click **OK** to archive it. The **Archive attachment** dialog then opens, and the procedure below is repeated for each attachment.
 
-4. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. [How to handle unlisted senders][1].
+1. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. [How to handle unlisted senders][1].
 
-5. In the **Subject** field, the file name of the attachment is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
+1. In the **Subject** field, the attachment file name is automatically inserted. Edit it to change how it appears in the **Activities** section tab.
 
-6. In the **Company** field, you may search for a company by starting to type the company name and then select from the matches that appear.
+1. In the **Company** field, start typing to search for a company and select from the matches.
 
-7. In the **Contact** field, you may use the dropdown to select one of the contacts belonging to the company you selected in the previous step. You can also search by starting to type the contact name.
+1. In the **Contact** field, select a contact from the company, or start typing to search.
 
-8. If you would like to link the attachment to a certain project, you may select the project in the **Project** field.
+1. Optionally, select a **Project** and/or **Sale** to link the attachment to.
 
-9. If you would like to link the attachment to a certain sale, you may select the sale in the **Sale** field.
+1. In the **Type** dropdown, select a document template.
 
-10. In the **Type** dropdown, you may select one of the available document templates.
-
-11. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the attachment should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+1. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the attachment should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is available only if this right is assigned to you in Settings and maintenance.
 
-12. Click **OK**. The selected attachment is archived to SuperOffice CRM as a new document. You can then open the document by double-clicking it in the **Activities** section tab.
+1. Click **OK**. The selected attachment is archived to SuperOffice CRM as a new document. You can then open the document by double-clicking it in the **Activities** section tab.
 
 ## Related content
 

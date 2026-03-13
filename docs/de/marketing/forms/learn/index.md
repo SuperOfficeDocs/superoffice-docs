@@ -3,9 +3,9 @@ uid: help-de-forms
 title: Mit Formularen arbeiten
 description: SuperOffice Web-Formulare sind eine großartige Möglichkeit, Kundeninformationen und Rückmeldungen zu sammeln. Über Web-Formulare können die Besucher Ihrer Website mit Ihnen in Kontakt treten und ihre Personendetails hinterlassen.
 keywords: Formular, Formularübermittlung, doppeltes Opt-in
-author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.11
 content_type: concept
 category: marketing
 topic: forms

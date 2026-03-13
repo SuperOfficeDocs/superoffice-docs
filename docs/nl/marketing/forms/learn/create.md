@@ -4,8 +4,8 @@ title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
 keywords: formulier, opt-in
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: howto
 category: marketing
 topic: forms
@@ -130,6 +130,19 @@ Selecteer een **lettertype** uit de vervolgkeuzelijst om het toe te passen op al
 
 Het gekozen lettertype is van toepassing op veldlabels en alle andere tekstelementen in het formulier. U kunt ook de vervolgkeuzelijst voor de lettergrootte en de opmaakknoppen gebruiken om alle tekst op te maken.
 
+#### <a id="custom-style"></a>Aangepaste stijlen
+
+Voor volledige controle over hoe uw formulier eruitziet, kunt u CSS schrijven in het veld **Aangepaste stijlen**. Hiermee gaat u verder dan de standaard editoropties en kunt u uw merkrichtlijnen nauwkeurig afstemmen.
+
+![Formulier-editor - aangepaste styling met CSS -screenshot][img16]
+
+* **Voor ervaren gebruikers:** Typ of plak uw CSS-code rechtstreeks in het veld.
+* **Voor minder gevorderde gebruikers:** Selecteer een CSS-klasse uit de lijst en voeg uw code toe. Deze aanpak maakt styling minder overweldigend en geeft u meer controle over wat u wijzigt.
+
+De volgende CSS-klassen zijn beschikbaar:
+
+[!include[CSS-klassen](../../../../../common/includes/list-of-form-css-classes.md)]
+
 ### Dubbele opt-in activeren
 
 Dubbele opt-in is een extra stap in het proces voor het indienen van formulieren die garandeert dat mensen het juiste e-mailadres indienen.
@@ -197,3 +210,4 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png

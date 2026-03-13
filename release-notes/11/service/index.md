@@ -3,16 +3,18 @@ uid: news-service-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Service 11
 author: kirstiaa
-date: 01.13.2026
+date: 03.17.2026
 version: 11
 content_type: release-note
 category: service
 audience: person
 audience_tooltip: SuperOffice Service
+language: en
 ---
 
 # New and improved Service
 
+* [Requests - Created date to use in columns and criteria (11.11)][11]
 * [Time zones - Agents with multiple time zones (11.8)][8]
 * [Requests - Filter messages on comments or replies (11.7)][7]
 * [Request - Differentiate request types with icons (11.5)][5]
@@ -32,3 +34,4 @@ audience_tooltip: SuperOffice Service
 [5]: 11.5-update.md
 [7]: 11.7-update.md
 [8]: 11.8-update.md
+[11]: 11.11-update.md

@@ -4,8 +4,8 @@ title: Anleitung - Anmeldung zum Newsletter
 description: In dieser Anleitung erstellen wir ein Formular für Kunden, die sich für einen oder mehrere Newsletter anmelden möchten. Der Anmeldeprozess umfasst auch doppeltes Opt-In, um fehlerhafte oder gefälschte Abonnements zu eliminieren.
 keywords: Formulare, Anmeldung, Newsletter
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: tutorial
 category: marketing
 topic: forms

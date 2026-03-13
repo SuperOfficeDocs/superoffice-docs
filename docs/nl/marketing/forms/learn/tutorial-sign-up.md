@@ -4,8 +4,8 @@ title: Handleiding - Aanmelden nieuwsbrief
 description: In deze handleiding zullen we een formulier maken voor klanten die zich willen aanmelden voor een of meer nieuwsbrieven. Het aanmeldingsproces zal ook dubbele opt-in bevatten om foutieve of valse aanmeldingen te elimineren.
 keywords: formulier, aanmelden, nieuwsbrief
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: howto
 category: marketing
 topic: forms

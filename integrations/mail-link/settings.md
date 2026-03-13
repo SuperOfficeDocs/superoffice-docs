@@ -3,8 +3,8 @@ uid: mail-link-settings
 title: SuperOffice CRM options dialog
 description: The SuperOffice CRM options dialog allows you to set archive, general and account options and show version information about SuperOffice Mail Link.
 keywords: Mail Link settings, SuperOffice CRM options dialog
-author: SuperOffice Product and Engineering
-date: 02.23.2026
+author: digitaldiina
+date: 03.17.2026
 content_type: reference
 category: integration
 topic: Mail Link
@@ -47,25 +47,26 @@ index: true
 
 # SuperOffice CRM options dialog
 
-Open the **SuperOffice CRM options** dialog by clicking the small arrow to the right of the **SuperOffice** button in the email window or the inbox.
-
-Alternatively, you may select **SuperOffice CRM Options** on the **Tools** menu in Outlook or the **Actions** menu in Notes.
+Open the **SuperOffice CRM options** dialog by clicking the small arrow to the right of the **SuperOffice** button in the email window or the inbox. You can also select **SuperOffice CRM Options** on the **Tools** menu in Outlook.
 
 This dialog allows you to set archive, general and account options and show version information about SuperOffice Mail Link.
 
+> [!NOTE]
+> Options marked with <i class="ph ph-warning" aria-label="Legacy"></i> apply only when emails are composed in SuperOffice CRM using Mail Link. This behavior is being phased out for SuperOffice Online 11.11 and later. See [Install Mail Link][6] for details.
+
 ## Archive options
 
-| Option | Description |
-|---|---|
-| Archive email by default when | For each checked option, **Archive is ON** is set by default for the situation the option refers to. If you uncheck an option, **Archive is OFF** is set by default. |
-| Created from SuperOffice CRM | When you send an email, it is archived in SuperOffice CRM by default. |
-| Written to associates from SuperOffice CRM | If selected, *all* outgoing emails written to associates are archived. Otherwise, emails to people registered as associates in SuperOffice CRM are *not* be archived by default. This option only applies to [emails composed in SuperOffice CRM][4] and if the **created from SuperOffice CRM** box is checked. |
-| Created from email client | [Enables default archiving][5] of emails you compose in your mail client by clicking the **New email** button. When you send an email, it is archived in SuperOffice CRM by default. If you select **Archive is OFF** in the email window of the mail client, the email will not be archived to SuperOffice CRM. |
-| Replying to emails from SuperOffice CRM | Enable default archiving of emails you reply to in SuperOffice CRM. |
-| Forwarding emails from SuperOffice CRM | Enable default archiving of emails you forward in SuperOffice CRM. |
-| Sending appointments from SuperOffice CRM | By default, archive follow-ups sent as emails from SuperOffice CRM. |
-| Sending documents from SuperOffice CRM | Archive documents sent as emails from SuperOffice CRM. |
-| Default template when archiving email | In these two dropdowns you may select the default incoming and outgoing email template. |
+| Option | Description | Legacy |
+|---|---|:-:|
+| Archive email by default when | For each checked option, **Archive is ON** is set by default for the situation the option refers to. If you uncheck an option, **Archive is OFF** is set by default. | |
+| Created from email client | [Enables default archiving][5] of emails you compose in your mail client by clicking the **New email** button. When you send an email, it is archived in SuperOffice CRM by default. If you select **Archive is OFF** in the email window of the mail client, the email will not be archived to SuperOffice CRM. | |
+| Default template when archiving email | In these two dropdowns you can select the default incoming and outgoing email template. | |
+| Created from SuperOffice CRM | When you send an email, it is archived in SuperOffice CRM by default. | <i class="ph ph-warning" aria-label="Legacy"></i> |
+| Written to associates from SuperOffice CRM | If selected, *all* outgoing emails written to associates are archived. Otherwise, emails to people registered as associates in SuperOffice CRM are *not* be archived by default. This option only applies to [emails composed in SuperOffice CRM][4] and if the **created from SuperOffice CRM** box is checked. | <i class="ph ph-warning" aria-label="Legacy"></i> |
+| Replying to emails from SuperOffice CRM | Enable default archiving of emails you reply to in SuperOffice CRM. | <i class="ph ph-warning" aria-label="Legacy"></i> |
+| Forwarding emails from SuperOffice CRM | Enable default archiving of emails you forward in SuperOffice CRM. | <i class="ph ph-warning" aria-label="Legacy"></i> |
+| Sending appointments from SuperOffice CRM | By default, archive follow-ups sent as emails from SuperOffice CRM. | <i class="ph ph-warning" aria-label="Legacy"></i> |
+| Sending documents from SuperOffice CRM | Archive documents sent as emails from SuperOffice CRM. | <i class="ph ph-warning" aria-label="Legacy"></i> |
 
 You can override the default options by using the [buttons in your mail client][2].
 
@@ -77,18 +78,18 @@ These options determine how SuperOffice CRM and the mail client behave in respon
 
 | Option | Description |
 |---|---|
-| Close email after archiving to SuperOffice CRM | Check this box if you want the email window in the mail client to close automatically after you archive the email to SuperOffice CRM. |
-| Delete the email after it has been archived to SuperOffice CRM | Check this box to remove the selected emails from the mail client inbox after they are archived in SuperOffice CRM. The emails are moved to the **Deleted items** folder. |
+| Close email after archiving to SuperOffice CRM | Select this option to close the email window in the mail client automatically after archiving the email to SuperOffice CRM. |
+| Delete the email after it has been archived to SuperOffice CRM | Select this option to remove the selected emails from the mail client inbox after they are archived in SuperOffice CRM. The emails are moved to the **Deleted items** folder. |
 
 > [!NOTE]
 > If the sender of the email is not listed as a company/contact in SuperOffice CRM, the email(s) will still be moved to the **Deleted items** folder.
 
 ### Settings for new emails
 
-| Option | Description |
-|---|---|
-| Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. To use this template, select this option. |
-| Use default body from email client | If you would like to use the default body from the mail client, you may select this option. |
+| Option | Description | Legacy |
+|---|---|:-:|
+| Use default body from email client | To use the default body from the mail client, select this option. | |
+| Use SuperOffice email body | You can predefine an email body that uses data from SuperOffice CRM. To use this template, select this option. | <i class="ph ph-warning" aria-label="Legacy"></i> |
 
 ### Warnings
 
@@ -96,8 +97,8 @@ These options determine when you receive warnings.
 
 | Option | Description |
 |---|---|
-| Warn me when an email is larger than (in KB): | If you check this box, you will receive a warning whenever you try to archive an email or attachment larger than a given size. Enter the size (in KB) in the field to the right. |
-| Check for duplicates when an email is opened | If you check this box and open an email that has already been [archived][5], the **Archive email** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the email was archived. |
+| Warn me when an email is larger than (in KB): | Select this option to receive a warning whenever you try to archive an email or attachment larger than a given size. Enter the size (in KB) in the field to the right. |
+| Check for duplicates when an email is opened | If you select this option and open an email that has already been [archived][5], the **Archive email** button will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the email was archived. |
 
 ## Invitations
 
@@ -133,5 +134,4 @@ The **About** pane of the dialog contains information about the current version 
 [2]: index.md
 [4]: create-in-superoffice.md
 [5]: archive.md
-
-<!-- Referenced images -->
+[6]: install.md

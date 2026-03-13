@@ -4,8 +4,8 @@ title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: howto
 category: marketing
 topic: forms
@@ -130,6 +130,19 @@ Välj ett **typsnitt** från rullgardinsmenyn för att tillämpa det på all tex
 
 Det valda teckensnittet gäller för fältetiketter och alla andra textelement i formuläret. Du kan också använda rullgardinsmenyn för teckenstorlek och formateringsknapparna för att styla all text.
 
+#### <a id="custom-style"></a>Anpassad formatering
+
+För full kontroll över hur ditt formulär ser ut kan du skriva CSS i fältet **Anpassad formatering**. Det låter dig gå bortom standardredigerarens alternativ och matcha dina varumärkesriktlinjer exakt.
+
+![Formulärredigerare - anpassad styling med CSS -screenshot][img16]
+
+* **För erfarna användare:** Skriv eller klistra in din CSS-kod direkt i fältet.
+* **För mindre avancerade användare:** Välj en CSS-klass från listan och lägg till din kod. Det här tillvägagångssättet gör styling mindre överväldigande och ger dig bättre kontroll över vad du ändrar.
+
+Följande CSS-klasser är tillgängliga:
+
+[!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
+
 ### Aktivera dubbel anmälan
 
 Dubbel anmälan (opt-in) är ett extra steg i processen för formulärinlämning som garanterar att personer skickar in rätt e-postadress.
@@ -197,3 +210,4 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png

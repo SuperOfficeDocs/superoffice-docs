@@ -4,8 +4,8 @@ title: Anleitung - ein "Kontaktieren"-Formular erstellen
 description: In dieser Anleitung wird erläutert, wie Sie ein kurzes Formular für Kunden erstellen können, die sich an einen Supportmitarbeiter wenden wollen. Die Formularübermittlung löst eine neue Anfrage für Ihre Supportabteilung aus.
 keywords: Formular, Feld, Kontaktieren
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: tutorial
 category: marketing
 topic: forms

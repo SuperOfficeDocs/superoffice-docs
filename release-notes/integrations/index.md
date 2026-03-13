@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice integrations
 keywords: integration, app, appstore
 author: kirstiaa
-date: 02.17.2026
+date: 03.17.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -29,7 +29,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 * [SharePoint Documents][25] 3.5 (12.02.2025)
 * [SuperOffice Copilot][27] 1.9 (11.09.2025)
-* [SuperOffice for Gmail][24] 2.10 (08.03.2024)
+* [SuperOffice for Gmail][24] 3.0 (24.02.2026)
 * [SuperOffice for Outlook][23] 6.1.7 (26.01.2026)
 * [Video Meetings][22] 2.10 (26.01.2026)
 * [WebTools for Mac][21] 13.2 (30.11.2025)
@@ -40,6 +40,10 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 See all the [new or updated apps][2]
 
+* [ConnectERP for Fortnox from SuperOffice AS][44] (01.03.2026)
+* [ConnectERP for Business NXT][17] from SuperOffice AS (24.02.2026)
+* [ConnectERP for Tripletex][19] from SuperOffice AS (24.02.2026)
+* [ConnectERP for Visma Net][16] from SuperOffice AS (24.02.2026)
 * [SuperNotes][41] from SuperOffice AS (04.02.2026)
 * [LeadX 360 AI][42] from LeadX Software GmbH (01.02.2026)
 * [Xledger by Syncify][40] from Syncify AB (05.01.2026)
@@ -112,5 +116,6 @@ See all the [new or updated apps][2]
 [41]: https://appstore.superoffice.com/superoffice-as/supernotes
 [42]: https://appstore.superoffice.com/leadx/leadx-360
 [43]: ../../integrations/supernotes/index.md
+[44]: https://appstore.superoffice.com/superoffice-as/connecterp-for-fortnox
 
 <!-- Referenced images -->
