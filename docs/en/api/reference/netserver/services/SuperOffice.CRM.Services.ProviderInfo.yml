@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ProviderInfo
+  commentId: T:SuperOffice.CRM.Services.ProviderInfo
+  id: ProviderInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ProviderInfo.#ctor
+  - SuperOffice.CRM.Services.ProviderInfo.Name
+  - SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats
+  - SuperOffice.CRM.Services.ProviderInfo.SupportsConfig
+  - SuperOffice.CRM.Services.ProviderInfo.ToString
+  - SuperOffice.CRM.Services.ProviderInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ProviderInfo
+  nameWithType: ProviderInfo
+  fullName: SuperOffice.CRM.Services.ProviderInfo
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Information about a provider plugin
+
+    <p></p>
+
+    Carrier object for ProviderInfo.
+
+    Services for the ProviderInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.IMessagingAgent?text=Messaging+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.11.0.0")]
+
+      public class ProviderInfo : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.11.0.0")>
+
+      Public Class ProviderInfo Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IMessagingAgent
+    commentId: T:SuperOffice.CRM.Services.IMessagingAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.11.0.0
+- uid: SuperOffice.CRM.Services.ProviderInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.ProviderInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ProviderInfo
+  langs:
+  - csharp
+  - vb
+  name: ProviderInfo()
+  nameWithType: ProviderInfo.ProviderInfo()
+  fullName: SuperOffice.CRM.Services.ProviderInfo.ProviderInfo()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public ProviderInfo()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.ProviderInfo.#ctor*
+  nameWithType.vb: ProviderInfo.New()
+  fullName.vb: SuperOffice.CRM.Services.ProviderInfo.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.ProviderInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.ProviderInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ProviderInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProviderInfo.ToString()
+  fullName: SuperOffice.CRM.Services.ProviderInfo.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.ProviderInfo.ToString*
+- uid: SuperOffice.CRM.Services.ProviderInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ProviderInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ProviderInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: ProviderInfo.ToString(string)
+  fullName: SuperOffice.CRM.Services.ProviderInfo.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ProviderInfo.ToString*
+  nameWithType.vb: ProviderInfo.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.ProviderInfo.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.ProviderInfo.Name
+  commentId: P:SuperOffice.CRM.Services.ProviderInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ProviderInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProviderInfo.Name
+  fullName: SuperOffice.CRM.Services.ProviderInfo.Name
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Unique name of the provider plugin
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ProviderInfo.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats
+  commentId: P:SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats
+  id: SupportedMessagingFormats
+  parent: SuperOffice.CRM.Services.ProviderInfo
+  langs:
+  - csharp
+  - vb
+  name: SupportedMessagingFormats
+  nameWithType: ProviderInfo.SupportedMessagingFormats
+  fullName: SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: This value can typically be "sms/160", "sms/mms", "smtp/rfc822"
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string[] SupportedMessagingFormats { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SupportedMessagingFormats As String()
+  overload: SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.ProviderInfo.SupportsConfig
+  commentId: P:SuperOffice.CRM.Services.ProviderInfo.SupportsConfig
+  id: SupportsConfig
+  parent: SuperOffice.CRM.Services.ProviderInfo
+  langs:
+  - csharp
+  - vb
+  name: SupportsConfig
+  nameWithType: ProviderInfo.SupportsConfig
+  fullName: SuperOffice.CRM.Services.ProviderInfo.SupportsConfig
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if it supports the config parameters to the sending methods
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool SupportsConfig { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SupportsConfig As Boolean
+  overload: SuperOffice.CRM.Services.ProviderInfo.SupportsConfig*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IMessagingAgent
+  commentId: T:SuperOffice.CRM.Services.IMessagingAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMessagingAgent.html
+  name: IMessagingAgent
+  nameWithType: IMessagingAgent
+  fullName: SuperOffice.CRM.Services.IMessagingAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ProviderInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ProviderInfo.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProviderInfo.html#SuperOffice_CRM_Services_ProviderInfo__ctor
+  name: ProviderInfo
+  nameWithType: ProviderInfo.ProviderInfo
+  fullName: SuperOffice.CRM.Services.ProviderInfo.ProviderInfo
+  nameWithType.vb: ProviderInfo.New
+  fullName.vb: SuperOffice.CRM.Services.ProviderInfo.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.ProviderInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ProviderInfo.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProviderInfo.html#SuperOffice_CRM_Services_ProviderInfo_ToString
+  name: ToString
+  nameWithType: ProviderInfo.ToString
+  fullName: SuperOffice.CRM.Services.ProviderInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.ProviderInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ProviderInfo.Name
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProviderInfo.html#SuperOffice_CRM_Services_ProviderInfo_Name
+  name: Name
+  nameWithType: ProviderInfo.Name
+  fullName: SuperOffice.CRM.Services.ProviderInfo.Name
+- uid: SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats*
+  commentId: Overload:SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProviderInfo.html#SuperOffice_CRM_Services_ProviderInfo_SupportedMessagingFormats
+  name: SupportedMessagingFormats
+  nameWithType: ProviderInfo.SupportedMessagingFormats
+  fullName: SuperOffice.CRM.Services.ProviderInfo.SupportedMessagingFormats
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.ProviderInfo.SupportsConfig*
+  commentId: Overload:SuperOffice.CRM.Services.ProviderInfo.SupportsConfig
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProviderInfo.html#SuperOffice_CRM_Services_ProviderInfo_SupportsConfig
+  name: SupportsConfig
+  nameWithType: ProviderInfo.SupportsConfig
+  fullName: SuperOffice.CRM.Services.ProviderInfo.SupportsConfig
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

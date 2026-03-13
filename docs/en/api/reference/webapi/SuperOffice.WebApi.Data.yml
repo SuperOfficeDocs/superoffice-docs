@@ -18,11 +18,14 @@ items:
   - SuperOffice.WebApi.Data.AI_GetChatbotPromptSuggestionsRequest
   - SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
   - SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
+  - SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromImageRequest
+  - SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromUrlRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignFromImageRequest
   - SuperOffice.WebApi.Data.AI_GetFormDesignFromUrlRequest
   - SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
+  - SuperOffice.WebApi.Data.AI_GetNextFormDesignCssRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
   - SuperOffice.WebApi.Data.AI_GetSummarizeTicketPromptRequest
@@ -1006,7 +1009,10 @@ items:
   - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignDeviceRequest
   - SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest
   - SuperOffice.WebApi.Data.FormDesignCarrier
+  - SuperOffice.WebApi.Data.FormDesignCss
   - SuperOffice.WebApi.Data.FormEntity
+  - SuperOffice.WebApi.Data.FormFieldRestriction
+  - SuperOffice.WebApi.Data.FormFieldRestrictionType
   - SuperOffice.WebApi.Data.FormSubmissionEntity
   - SuperOffice.WebApi.Data.FormSubmissionStatus
   - SuperOffice.WebApi.Data.FormType
@@ -1275,6 +1281,7 @@ items:
   - SuperOffice.WebApi.Data.Marketing_GetUserBlocksRequest
   - SuperOffice.WebApi.Data.Marketing_RenameMailingByMessageIdRequest
   - SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
+  - SuperOffice.WebApi.Data.Marketing_SetAllFormFieldRestrictionsRequest
   - SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
   - SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
   - SuperOffice.WebApi.Data.MassOperationResult
@@ -1480,6 +1487,7 @@ items:
   - SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest
   - SuperOffice.WebApi.Data.Project_GetNextMilestoneRequest
   - SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
+  - SuperOffice.WebApi.Data.Project_GetProjectEntityWithoutMembersRequest
   - SuperOffice.WebApi.Data.Project_GetProjectEventEntityFromProjectIdRequest
   - SuperOffice.WebApi.Data.Project_GetProjectEventOnPersonRequest
   - SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
@@ -1496,6 +1504,7 @@ items:
   - SuperOffice.WebApi.Data.Project_IsNumberValidRequest
   - SuperOffice.WebApi.Data.Project_MergeRequest
   - SuperOffice.WebApi.Data.Project_OfferAutoNextStatusOnApppointmentCompletedRequest
+  - SuperOffice.WebApi.Data.Project_SaveProjectEntityWithoutMembersRequest
   - SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
   - SuperOffice.WebApi.Data.Project_SetCompletedRequest
   - SuperOffice.WebApi.Data.Project_SetDuplicateRulesStatusRequest
@@ -5008,6 +5017,20 @@ references:
   name: Project_SetCompletedRequest
   nameWithType: Project_SetCompletedRequest
   fullName: SuperOffice.WebApi.Data.Project_SetCompletedRequest
+- uid: SuperOffice.WebApi.Data.Project_GetProjectEntityWithoutMembersRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetProjectEntityWithoutMembersRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Project_GetProjectEntityWithoutMembersRequest.html
+  name: Project_GetProjectEntityWithoutMembersRequest
+  nameWithType: Project_GetProjectEntityWithoutMembersRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectEntityWithoutMembersRequest
+- uid: SuperOffice.WebApi.Data.Project_SaveProjectEntityWithoutMembersRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_SaveProjectEntityWithoutMembersRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Project_SaveProjectEntityWithoutMembersRequest.html
+  name: Project_SaveProjectEntityWithoutMembersRequest
+  nameWithType: Project_SaveProjectEntityWithoutMembersRequest
+  fullName: SuperOffice.WebApi.Data.Project_SaveProjectEntityWithoutMembersRequest
 - uid: SuperOffice.WebApi.Data.ProjectEvent
   commentId: T:SuperOffice.WebApi.Data.ProjectEvent
   isExternal: true
@@ -14655,6 +14678,20 @@ references:
   name: Marketing_VerifyGoogleRecaptchaRequest
   nameWithType: Marketing_VerifyGoogleRecaptchaRequest
   fullName: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction
+  commentId: T:SuperOffice.WebApi.Data.FormFieldRestriction
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html
+  name: FormFieldRestriction
+  nameWithType: FormFieldRestriction
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction
+- uid: SuperOffice.WebApi.Data.Marketing_SetAllFormFieldRestrictionsRequest
+  commentId: T:SuperOffice.WebApi.Data.Marketing_SetAllFormFieldRestrictionsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Marketing_SetAllFormFieldRestrictionsRequest.html
+  name: Marketing_SetAllFormFieldRestrictionsRequest
+  nameWithType: Marketing_SetAllFormFieldRestrictionsRequest
+  fullName: SuperOffice.WebApi.Data.Marketing_SetAllFormFieldRestrictionsRequest
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity
   commentId: T:SuperOffice.WebApi.Data.FormSubmissionEntity
   parent: SuperOffice.WebApi.Data
@@ -15926,6 +15963,34 @@ references:
   name: AI_GetFormDesignCssFromUrlRequest
   nameWithType: AI_GetFormDesignCssFromUrlRequest
   fullName: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
+- uid: SuperOffice.WebApi.Data.FormDesignCss
+  commentId: T:SuperOffice.WebApi.Data.FormDesignCss
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCss.html
+  name: FormDesignCss
+  nameWithType: FormDesignCss
+  fullName: SuperOffice.WebApi.Data.FormDesignCss
+- uid: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromImageRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromImageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromImageRequest.html
+  name: AI_GetFirstFormDesignCssFromImageRequest
+  nameWithType: AI_GetFirstFormDesignCssFromImageRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromImageRequest
+- uid: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromUrlRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromUrlRequest.html
+  name: AI_GetFirstFormDesignCssFromUrlRequest
+  nameWithType: AI_GetFirstFormDesignCssFromUrlRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromUrlRequest
+- uid: SuperOffice.WebApi.Data.AI_GetNextFormDesignCssRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_GetNextFormDesignCssRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_GetNextFormDesignCssRequest.html
+  name: AI_GetNextFormDesignCssRequest
+  nameWithType: AI_GetNextFormDesignCssRequest
+  fullName: SuperOffice.WebApi.Data.AI_GetNextFormDesignCssRequest
 - uid: SuperOffice.WebApi.Data.Sentiment
   commentId: T:SuperOffice.WebApi.Data.Sentiment
   isExternal: true
@@ -17958,6 +18023,14 @@ references:
   name: ProjectMemberEventParticipantStatus
   nameWithType: ProjectMemberEventParticipantStatus
   fullName: SuperOffice.WebApi.Data.ProjectMemberEventParticipantStatus
+- uid: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.WebApi.Data.FormFieldRestrictionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType
 - uid: SuperOffice.WebApi.Data.EventHandlerType
   commentId: T:SuperOffice.WebApi.Data.EventHandlerType
   parent: SuperOffice.WebApi.Data

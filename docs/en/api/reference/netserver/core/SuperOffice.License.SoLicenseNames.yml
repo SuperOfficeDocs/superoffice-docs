@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.License
   children:
   - SuperOffice.License.SoLicenseNames.AI
+  - SuperOffice.License.SoLicenseNames.ActivityBoard
   - SuperOffice.License.SoLicenseNames.AdAuth
   - SuperOffice.License.SoLicenseNames.AdminAnonymousUser
   - SuperOffice.License.SoLicenseNames.AdminExternUser
@@ -30,6 +31,7 @@ items:
   - SuperOffice.License.SoLicenseNames.ChatCal
   - SuperOffice.License.SoLicenseNames.ChatFree
   - SuperOffice.License.SoLicenseNames.ConfigScreens
+  - SuperOffice.License.SoLicenseNames.ContractManager
   - SuperOffice.License.SoLicenseNames.CrmScript
   - SuperOffice.License.SoLicenseNames.CustomApps
   - SuperOffice.License.SoLicenseNames.CustomObjects
@@ -99,6 +101,7 @@ items:
   - SuperOffice.License.SoLicenseNames.MailMergeCal
   - SuperOffice.License.SoLicenseNames.Mailchimp
   - SuperOffice.License.SoLicenseNames.Maintenance
+  - SuperOffice.License.SoLicenseNames.Map4You
   - SuperOffice.License.SoLicenseNames.MarketingAutomation
   - SuperOffice.License.SoLicenseNames.MarketingAutomationCal
   - SuperOffice.License.SoLicenseNames.MarketingPlatform
@@ -5505,7 +5508,7 @@ items:
   - SoCore
   namespace: SuperOffice.License
   summary: >-
-    superoffice.bookmycalendar: Enable Book my calendar feature
+    superoffice.bookmycalendar: Enable iCentrum Book my calendar feature
 
     Site license.
   example: []
@@ -5514,6 +5517,78 @@ items:
     return:
       type: System.String
     content.vb: Public Const BookMyCalendar As String = "superoffice.bookmycalendar"
+- uid: SuperOffice.License.SoLicenseNames.ContractManager
+  commentId: F:SuperOffice.License.SoLicenseNames.ContractManager
+  id: ContractManager
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ContractManager
+  nameWithType: SoLicenseNames.ContractManager
+  fullName: SuperOffice.License.SoLicenseNames.ContractManager
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.contractmanager: Enable iCentrum Contract Manager feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string ContractManager = "superoffice.contractmanager"
+    return:
+      type: System.String
+    content.vb: Public Const ContractManager As String = "superoffice.contractmanager"
+- uid: SuperOffice.License.SoLicenseNames.ActivityBoard
+  commentId: F:SuperOffice.License.SoLicenseNames.ActivityBoard
+  id: ActivityBoard
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ActivityBoard
+  nameWithType: SoLicenseNames.ActivityBoard
+  fullName: SuperOffice.License.SoLicenseNames.ActivityBoard
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.activityboard : Enable iCentrum Activity Board feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string ActivityBoard = "superoffice.activityboard"
+    return:
+      type: System.String
+    content.vb: Public Const ActivityBoard As String = "superoffice.activityboard"
+- uid: SuperOffice.License.SoLicenseNames.Map4You
+  commentId: F:SuperOffice.License.SoLicenseNames.Map4You
+  id: Map4You
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Map4You
+  nameWithType: SoLicenseNames.Map4You
+  fullName: SuperOffice.License.SoLicenseNames.Map4You
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.map4you: Enable iCentrum map4you feature
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string Map4You = "superoffice.map4you"
+    return:
+      type: System.String
+    content.vb: Public Const Map4You As String = "superoffice.map4you"
 - uid: SuperOffice.License.SoLicenseNames.DatabridgePro
   commentId: F:SuperOffice.License.SoLicenseNames.DatabridgePro
   id: DatabridgePro

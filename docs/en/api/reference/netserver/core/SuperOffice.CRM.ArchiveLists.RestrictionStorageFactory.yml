@@ -28,10 +28,22 @@ items:
     SuperOffice.CRM.Services.Implementation.DCF.ArchiveLists.IRestrictionStorage and return
 
     a provider for a particular storage type on request.
+  remarks: >-
+    After the demise of Reporter, we only have one set of RestrictionStorage mechanisms. However, because the
+
+    whole storage should be drastically refactored and simplified (use JSON serialization of criteria, save a couple of
+
+    tables, and drop most of the validation), we leave the architecture in place as-is.  2026-02-27 (mv)
   example: []
   syntax:
-    content: public static class RestrictionStorageFactory
-    content.vb: Public Module RestrictionStorageFactory
+    content: >-
+      [SoInject("Database")]
+
+      public class RestrictionStorageFactory
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public Class RestrictionStorageFactory
   inheritance:
   - System.Object
   inheritedMembers:
@@ -42,6 +54,15 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String,System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String,System.String)
   id: GetProvider(System.String,System.String)
@@ -59,7 +80,7 @@ items:
   summary: Return a singleton restriction storage provider for the given storageType, or null if no provider exists.
   example: []
   syntax:
-    content: public static IRestrictionStorage GetProvider(string storageType, string context)
+    content: public IRestrictionStorage GetProvider(string storageType, string context)
     parameters:
     - id: storageType
       type: System.String
@@ -71,7 +92,7 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
       description: Storage provider, or null
-    content.vb: Public Shared Function GetProvider(storageType As String, context As String) As IRestrictionStorage
+    content.vb: Public Function GetProvider(storageType As String, context As String) As IRestrictionStorage
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider*
   nameWithType.vb: RestrictionStorageFactory.GetProvider(String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(String, String)
@@ -91,13 +112,13 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public static IRestrictionStorage GetProvider(string storageType)
+    content: public IRestrictionStorage GetProvider(string storageType)
     parameters:
     - id: storageType
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-    content.vb: Public Shared Function GetProvider(storageType As String) As IRestrictionStorage
+    content.vb: Public Function GetProvider(storageType As String) As IRestrictionStorage
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider*
   nameWithType.vb: RestrictionStorageFactory.GetProvider(String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(String)
@@ -117,7 +138,7 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public static ArchiveRestrictionInfo[] GetRestrictionViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey)
+    content: public ArchiveRestrictionInfo[] GetRestrictionViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey)
     parameters:
     - id: restrictions
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -131,7 +152,7 @@ items:
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-    content.vb: Public Shared Function GetRestrictionViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String) As ArchiveRestrictionInfo()
+    content.vb: Public Function GetRestrictionViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String) As ArchiveRestrictionInfo()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage*
   nameWithType.vb: RestrictionStorageFactory.GetRestrictionViaStorage(ArchiveRestrictionInfo(), String, String, String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String, String, String, String)
@@ -151,7 +172,7 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public static ArchiveRestrictionInfo[] GetRestrictionViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey, string context)
+    content: public ArchiveRestrictionInfo[] GetRestrictionViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey, string context)
     parameters:
     - id: restrictions
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -167,7 +188,7 @@ items:
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-    content.vb: Public Shared Function GetRestrictionViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String, context As String) As ArchiveRestrictionInfo()
+    content.vb: Public Function GetRestrictionViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String, context As String) As ArchiveRestrictionInfo()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage*
   nameWithType.vb: RestrictionStorageFactory.GetRestrictionViaStorage(ArchiveRestrictionInfo(), String, String, String, String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String, String, String, String, String)
@@ -187,7 +208,7 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public static ArchiveRestrictionInfo[][] GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey)
+    content: public ArchiveRestrictionInfo[][] GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey)
     parameters:
     - id: restrictions
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -201,7 +222,7 @@ items:
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[][]
-    content.vb: Public Shared Function GetRestrictionFromAllGroupsViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String) As ArchiveRestrictionInfo()()
+    content.vb: Public Function GetRestrictionFromAllGroupsViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String) As ArchiveRestrictionInfo()()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage*
   nameWithType.vb: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo(), String, String, String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String, String, String, String)
@@ -221,7 +242,7 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public static ArchiveRestrictionInfo[][] GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey, string context)
+    content: public ArchiveRestrictionInfo[][] GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey, string context)
     parameters:
     - id: restrictions
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -237,7 +258,7 @@ items:
       type: System.String
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[][]
-    content.vb: Public Shared Function GetRestrictionFromAllGroupsViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String, context As String) As ArchiveRestrictionInfo()()
+    content.vb: Public Function GetRestrictionFromAllGroupsViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String, context As String) As ArchiveRestrictionInfo()()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage*
   nameWithType.vb: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo(), String, String, String, String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String, String, String, String, String)
@@ -259,7 +280,7 @@ items:
   summary: Return the criterion mapping information - if any - for the given combination of storage type and provider name
   example: []
   syntax:
-    content: public static Dictionary<string, Dictionary<string, string>> GetMapping(string storageType, string xPath)
+    content: public Dictionary<string, Dictionary<string, string>> GetMapping(string storageType, string xPath)
     parameters:
     - id: storageType
       type: System.String
@@ -271,7 +292,7 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
       description: Mapping information, typically an XML string
-    content.vb: Public Shared Function GetMapping(storageType As String, xPath As String) As Dictionary(Of String, Dictionary(Of String, String))
+    content.vb: Public Function GetMapping(storageType As String, xPath As String) As Dictionary(Of String, Dictionary(Of String, String))
   overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping*
   nameWithType.vb: RestrictionStorageFactory.GetMapping(String, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping(String, String)
@@ -544,6 +565,112 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<RestrictionStorageFactory, To>(RestrictionStorageFactory)
+  nameWithType: EnumUtil.MapEnums<RestrictionStorageFactory, To>(RestrictionStorageFactory)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory, To>(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+  nameWithType.vb: EnumUtil.MapEnums(Of RestrictionStorageFactory, To)(RestrictionStorageFactory)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory, To)(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+  name.vb: MapEnums(Of RestrictionStorageFactory, To)(RestrictionStorageFactory)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<RestrictionStorageFactory, To>(RestrictionStorageFactory)
+  nameWithType: Converters.MapEnums<RestrictionStorageFactory, To>(RestrictionStorageFactory)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory, To>(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+  nameWithType.vb: Converters.MapEnums(Of RestrictionStorageFactory, To)(RestrictionStorageFactory)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory, To)(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+  name.vb: MapEnums(Of RestrictionStorageFactory, To)(RestrictionStorageFactory)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+    name: RestrictionStorageFactory
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -551,6 +678,138 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider
   isExternal: true

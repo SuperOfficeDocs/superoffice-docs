@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
   - SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender.SetJoin
+  - SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender._colEventParticipantStatus
   - SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender._colFunction
   langs:
   - csharp
@@ -216,6 +217,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colFunction As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender._colEventParticipantStatus
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender._colEventParticipantStatus
+  id: _colEventParticipantStatus
+  parent: SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender
+  langs:
+  - csharp
+  - vb
+  name: _colEventParticipantStatus
+  nameWithType: PersonProjectsFindExtender._colEventParticipantStatus
+  fullName: SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender._colEventParticipantStatus
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colEventParticipantStatus
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colEventParticipantStatus As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonProjectsFindExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)
   id: '#ctor(SuperOffice.CRM.ArchiveLists.ProjectExtenderBase.Features)'

@@ -328,6 +328,10 @@ items:
     name: AI_GetChatbotResponseRequest
   - uid: SuperOffice.WebApi.Data.AI_GetChatbotTurnsRequest
     name: AI_GetChatbotTurnsRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromImageRequest
+    name: AI_GetFirstFormDesignCssFromImageRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetFirstFormDesignCssFromUrlRequest
+    name: AI_GetFirstFormDesignCssFromUrlRequest
   - uid: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromImageRequest
     name: AI_GetFormDesignCssFromImageRequest
   - uid: SuperOffice.WebApi.Data.AI_GetFormDesignCssFromUrlRequest
@@ -338,6 +342,8 @@ items:
     name: AI_GetFormDesignFromUrlRequest
   - uid: SuperOffice.WebApi.Data.AI_GetIndexingStatusRequest
     name: AI_GetIndexingStatusRequest
+  - uid: SuperOffice.WebApi.Data.AI_GetNextFormDesignCssRequest
+    name: AI_GetNextFormDesignCssRequest
   - uid: SuperOffice.WebApi.Data.AI_GetSummarizeContactPromptRequest
     name: AI_GetSummarizeContactPromptRequest
   - uid: SuperOffice.WebApi.Data.AI_GetSummarizeSalePromptRequest
@@ -2304,8 +2310,14 @@ items:
     name: ForeignSystem_SaveForeignKeyRequest
   - uid: SuperOffice.WebApi.Data.FormDesignCarrier
     name: FormDesignCarrier
+  - uid: SuperOffice.WebApi.Data.FormDesignCss
+    name: FormDesignCss
   - uid: SuperOffice.WebApi.Data.FormEntity
     name: FormEntity
+  - uid: SuperOffice.WebApi.Data.FormFieldRestriction
+    name: FormFieldRestriction
+  - uid: SuperOffice.WebApi.Data.FormFieldRestrictionType
+    name: FormFieldRestrictionType
   - uid: SuperOffice.WebApi.Data.FormSubmissionEntity
     name: FormSubmissionEntity
   - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
@@ -2842,6 +2854,8 @@ items:
     name: Marketing_RenameMailingByMessageIdRequest
   - uid: SuperOffice.WebApi.Data.Marketing_SaveAvailableFontRequest
     name: Marketing_SaveAvailableFontRequest
+  - uid: SuperOffice.WebApi.Data.Marketing_SetAllFormFieldRestrictionsRequest
+    name: Marketing_SetAllFormFieldRestrictionsRequest
   - uid: SuperOffice.WebApi.Data.Marketing_SetFontRankRequest
     name: Marketing_SetFontRankRequest
   - uid: SuperOffice.WebApi.Data.Marketing_VerifyGoogleRecaptchaRequest
@@ -3252,6 +3266,8 @@ items:
     name: Project_GetNextMilestoneRequest
   - uid: SuperOffice.WebApi.Data.Project_GetNextProjectStatusRequest
     name: Project_GetNextProjectStatusRequest
+  - uid: SuperOffice.WebApi.Data.Project_GetProjectEntityWithoutMembersRequest
+    name: Project_GetProjectEntityWithoutMembersRequest
   - uid: SuperOffice.WebApi.Data.Project_GetProjectEventEntityFromProjectIdRequest
     name: Project_GetProjectEventEntityFromProjectIdRequest
   - uid: SuperOffice.WebApi.Data.Project_GetProjectEventOnPersonRequest
@@ -3284,6 +3300,8 @@ items:
     name: Project_MergeRequest
   - uid: SuperOffice.WebApi.Data.Project_OfferAutoNextStatusOnApppointmentCompletedRequest
     name: Project_OfferAutoNextStatusOnApppointmentCompletedRequest
+  - uid: SuperOffice.WebApi.Data.Project_SaveProjectEntityWithoutMembersRequest
+    name: Project_SaveProjectEntityWithoutMembersRequest
   - uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
     name: Project_SaveProjectMembersFunctionAndCommentRequest
   - uid: SuperOffice.WebApi.Data.Project_SetCompletedRequest

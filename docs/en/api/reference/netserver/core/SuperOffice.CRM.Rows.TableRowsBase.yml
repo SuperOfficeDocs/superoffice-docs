@@ -239,6 +239,7 @@ items:
   - SuperOffice.CRM.Rows.ForeignAppRows
   - SuperOffice.CRM.Rows.ForeignDeviceRows
   - SuperOffice.CRM.Rows.ForeignKeyRows
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRows
   - SuperOffice.CRM.Rows.FormFieldValueRows
   - SuperOffice.CRM.Rows.FormKeysRows
   - SuperOffice.CRM.Rows.FormRows

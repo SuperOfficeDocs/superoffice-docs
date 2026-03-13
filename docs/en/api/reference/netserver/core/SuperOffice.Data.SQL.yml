@@ -94,6 +94,7 @@ items:
   - SuperOffice.Data.SQL.FieldInfoCollection
   - SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
   - SuperOffice.Data.SQL.FieldTypeConvert
+  - SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
   - SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   - SuperOffice.Data.SQL.FormTypeFieldInfo
   - SuperOffice.Data.SQL.FreeBusyFieldInfo
@@ -1094,6 +1095,14 @@ references:
   name: ProjectMemberEventParticipantStatusFieldInfo
   nameWithType: ProjectMemberEventParticipantStatusFieldInfo
   fullName: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+- uid: SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo.html
+  name: FormFieldRestrictionTypeFieldInfo
+  nameWithType: FormFieldRestrictionTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL

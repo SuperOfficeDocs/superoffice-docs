@@ -1553,6 +1553,14 @@ items:
   - SuperOffice.CRM.Rows.ForeignKeyRows.IdxSeqno
   - SuperOffice.CRM.Rows.ForeignKeyRows.IdxSubkey
   - SuperOffice.CRM.Rows.ForeignKeyRows.IdxSubvalue
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRow
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRows
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
   - SuperOffice.CRM.Rows.FormFieldValueRecordData
   - SuperOffice.CRM.Rows.FormFieldValueRecordDataExtensions
   - SuperOffice.CRM.Rows.FormFieldValueRow
@@ -2742,12 +2750,9 @@ items:
   - SuperOffice.CRM.Rows.ProductVersionRecordDataExtensions
   - SuperOffice.CRM.Rows.ProductVersionRow
   - SuperOffice.CRM.Rows.ProductVersionRow.CustomSearch
-  - SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
   - SuperOffice.CRM.Rows.ProductVersionRow.IdxProductVersionId
   - SuperOffice.CRM.Rows.ProductVersionRows
   - SuperOffice.CRM.Rows.ProductVersionRows.CustomSearch
-  - SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-  - SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
   - SuperOffice.CRM.Rows.ProfileRecordData
   - SuperOffice.CRM.Rows.ProfileRecordDataExtensions
   - SuperOffice.CRM.Rows.ProfileRow
@@ -35012,6 +35017,148 @@ references:
   name: FormRecordDataExtensions
   nameWithType: FormRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.FormRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRows.html
+  name: FormFieldRestrictionRows
+  nameWithType: FormFieldRestrictionRows
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRows
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRows.html
+  name: FormFieldRestrictionRows.CustomSearch
+  nameWithType: FormFieldRestrictionRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows
+    name: FormFieldRestrictionRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows
+    name: FormFieldRestrictionRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  name: FormFieldRestrictionRow
+  nameWithType: FormFieldRestrictionRow
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  name: FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  nameWithType: FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+    name: IdxFormFieldRestrictionId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+    name: IdxFormFieldRestrictionId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId.html
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  name: FormFieldRestrictionRow.IdxFieldIdentifier
+  nameWithType: FormFieldRestrictionRow.IdxFieldIdentifier
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+    name: IdxFieldIdentifier
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+    name: IdxFieldIdentifier
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier.html
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  name: FormFieldRestrictionRow.CustomSearch
+  nameWithType: FormFieldRestrictionRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  name: FormFieldRestrictionRecordData
+  nameWithType: FormFieldRestrictionRecordData
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html
+  name: FormFieldRestrictionRecordDataExtensions
+  nameWithType: FormFieldRestrictionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.FormFieldValueRows
   commentId: T:SuperOffice.CRM.Rows.FormFieldValueRows
   parent: SuperOffice.CRM.Rows
@@ -57099,60 +57246,6 @@ references:
   name: ProductVersionRows
   nameWithType: ProductVersionRows
   fullName: SuperOffice.CRM.Rows.ProductVersionRows
-- uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-  commentId: T:SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProductVersionRows.html
-  name: ProductVersionRows.IdxOwnerName
-  nameWithType: ProductVersionRows.IdxOwnerName
-  fullName: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows
-    name: ProductVersionRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-    name: IdxOwnerName
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows
-    name: ProductVersionRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-    name: IdxOwnerName
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName.html
-- uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
-  commentId: T:SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProductVersionRows.html
-  name: ProductVersionRows.IdxOwnerNameCodeName
-  nameWithType: ProductVersionRows.IdxOwnerNameCodeName
-  fullName: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows
-    name: ProductVersionRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
-    name: IdxOwnerNameCodeName
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows
-    name: ProductVersionRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
-    name: IdxOwnerNameCodeName
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName.html
 - uid: SuperOffice.CRM.Rows.ProductVersionRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.ProductVersionRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -57216,33 +57309,6 @@ references:
     name: IdxProductVersionId
     isExternal: true
     href: SuperOffice.CRM.Rows.ProductVersionRow.IdxProductVersionId.html
-- uid: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
-  commentId: T:SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProductVersionRow.html
-  name: ProductVersionRow.IdxOwnerNameCodeNameVersion
-  nameWithType: ProductVersionRow.IdxOwnerNameCodeNameVersion
-  fullName: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRow
-    name: ProductVersionRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
-    name: IdxOwnerNameCodeNameVersion
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProductVersionRow
-    name: ProductVersionRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
-    name: IdxOwnerNameCodeNameVersion
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion.html
 - uid: SuperOffice.CRM.Rows.ProductVersionRow.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.ProductVersionRow.CustomSearch
   parent: SuperOffice.CRM.Rows

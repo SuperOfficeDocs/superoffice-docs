@@ -10,11 +10,13 @@ items:
   - SuperOffice.Util.TrackEventNames.AISearched
   - SuperOffice.Util.TrackEventNames.AppointmentCreated
   - SuperOffice.Util.TrackEventNames.BizCardScanned
+  - SuperOffice.Util.TrackEventNames.BootstrapperStart
   - SuperOffice.Util.TrackEventNames.CompanyCreated
   - SuperOffice.Util.TrackEventNames.CompanyEnriched
   - SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
   - SuperOffice.Util.TrackEventNames.CopilotMessaged
   - SuperOffice.Util.TrackEventNames.DocumentCreated
+  - SuperOffice.Util.TrackEventNames.EmailLogin
   - SuperOffice.Util.TrackEventNames.FAQsSearched
   - SuperOffice.Util.TrackEventNames.PersonCreated
   - SuperOffice.Util.TrackEventNames.ProjectCreated
@@ -28,6 +30,9 @@ items:
   - SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   - SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
   - SuperOffice.Util.TrackEventNames.TicketAnswered
+  - SuperOffice.Util.TrackEventNames.TicketClosed
+  - SuperOffice.Util.TrackEventNames.TicketCreated
+  - SuperOffice.Util.TrackEventNames.TicketRelationDeleted
   langs:
   - csharp
   - vb
@@ -134,6 +139,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const BizCardScanned As String = "BizCard Scanned"
+- uid: SuperOffice.Util.TrackEventNames.BootstrapperStart
+  commentId: F:SuperOffice.Util.TrackEventNames.BootstrapperStart
+  id: BootstrapperStart
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: BootstrapperStart
+  nameWithType: TrackEventNames.BootstrapperStart
+  fullName: SuperOffice.Util.TrackEventNames.BootstrapperStart
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string BootstrapperStart = "Start"
+    return:
+      type: System.String
+    content.vb: Public Const BootstrapperStart As String = "Start"
 - uid: SuperOffice.Util.TrackEventNames.CompanyCreated
   commentId: F:SuperOffice.Util.TrackEventNames.CompanyCreated
   id: CompanyCreated
@@ -248,6 +272,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const FAQsSearched As String = "FAQs Searched"
+- uid: SuperOffice.Util.TrackEventNames.EmailLogin
+  commentId: F:SuperOffice.Util.TrackEventNames.EmailLogin
+  id: EmailLogin
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: EmailLogin
+  nameWithType: TrackEventNames.EmailLogin
+  fullName: SuperOffice.Util.TrackEventNames.EmailLogin
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string EmailLogin = "Email Login"
+    return:
+      type: System.String
+    content.vb: Public Const EmailLogin As String = "Email Login"
 - uid: SuperOffice.Util.TrackEventNames.PersonCreated
   commentId: F:SuperOffice.Util.TrackEventNames.PersonCreated
   id: PersonCreated
@@ -476,6 +519,63 @@ items:
     return:
       type: System.String
     content.vb: Public Const TicketAnswerFeedback As String = "Ticket Answer Feedback"
+- uid: SuperOffice.Util.TrackEventNames.TicketRelationDeleted
+  commentId: F:SuperOffice.Util.TrackEventNames.TicketRelationDeleted
+  id: TicketRelationDeleted
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDeleted
+  nameWithType: TrackEventNames.TicketRelationDeleted
+  fullName: SuperOffice.Util.TrackEventNames.TicketRelationDeleted
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TicketRelationDeleted = "Ticket Relation Deleted"
+    return:
+      type: System.String
+    content.vb: Public Const TicketRelationDeleted As String = "Ticket Relation Deleted"
+- uid: SuperOffice.Util.TrackEventNames.TicketCreated
+  commentId: F:SuperOffice.Util.TrackEventNames.TicketCreated
+  id: TicketCreated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TicketCreated
+  nameWithType: TrackEventNames.TicketCreated
+  fullName: SuperOffice.Util.TrackEventNames.TicketCreated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TicketCreated = "Ticket Created"
+    return:
+      type: System.String
+    content.vb: Public Const TicketCreated As String = "Ticket Created"
+- uid: SuperOffice.Util.TrackEventNames.TicketClosed
+  commentId: F:SuperOffice.Util.TrackEventNames.TicketClosed
+  id: TicketClosed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TicketClosed
+  nameWithType: TrackEventNames.TicketClosed
+  fullName: SuperOffice.Util.TrackEventNames.TicketClosed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TicketClosed = "Ticket Closed"
+    return:
+      type: System.String
+    content.vb: Public Const TicketClosed As String = "Ticket Closed"
 - uid: SuperOffice.Util.TrackEventNames.#ctor
   commentId: M:SuperOffice.Util.TrackEventNames.#ctor
   id: '#ctor'
