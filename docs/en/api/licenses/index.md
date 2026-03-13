@@ -12,7 +12,7 @@ content_type: concept
 When you buy a user plan, you are buying a set of licenses. Most of these licenses are hidden from the users view - they just pick a user-plan and go.
 The code cannot deal with userplans - they change from version to version, and are re-packaged whenever mercury is in retrograde.
 
-So the code deals with module licenses, not [user-plans][1]. [Module license names][2] are static and kept in [SoLicenseNames][2].
+So the code deals with module licenses, not [user-plans][1]. Module license names are static and kept in [SoLicenseNames][2].
 
 The pricelist will change - so we want to avoid hard-coding references to it into the application.
 Instead of checking for a userplan identifier like "Sales-PREMIUM", we want to check for a feature identifier like "SALE-CAL", and have the license server handle the mapping between the pricelist and the features.
@@ -52,14 +52,79 @@ Similarly new licenses for "escalate" , "inbox-filter", and "request-batch" were
 
 ## Checking for Licenses
 
-The [LicenseAgent.GetUserLicenses][4] Agent API and the [/api/v1/License/ownername/modulename][5] REST API support checking license status.
+The [LicenseAgent.GetUserLicenses][4] Agent API and the REST API [/api/v1/License/ownername/modulename][5] support checking license status.
 
-The `/api/v1/License/ownername/modulename` endpoint will tell you if the license exists or not, but will not tell you if the license is assigned to the user.
+The `/api/v1/License/ownername/modulename` endpoint will tell you if the license exists or not, but will not tell you if the license is assigned to the user. It is therefore mostly useful for checking for global system licenses like `sale`, `project` or `quote`, not user-specific licenses like `sale-cal` or `quote-cal`.
 
 The current user principal will give you a list of the current user's assigned licenses:
 
 [`GET User/currentPrincipal`][6] will return a list of licenses the current user has.
 
+```json
+{
+  "UserType": "InternalAssociate",
+  "Associate": "HugoBoss",
+  "AssociateId": 3456,
+  "IsPerson": true,
+  "PersonId": 321,
+  "CountryId": 578,
+  "HomeCountryId": 578,
+  "ContactId": 3,
+  "GroupId": 10,
+  "ContactOwner": 1234,
+  "RoleId": 50331659,
+  "RoleName": "Standard",
+  "RoleType": "Employee",
+  "Licenses": [
+    {
+      "OwnerName": "SUPEROFFICE",
+      "OwnerDescription": "SuperOffice AS",
+      "Name": "server",
+      "Description": "SuperOffice Server",
+      "Version": "11.11",
+      "LicenseType": "SiteLicense",
+      "ExtraFlags": 0,
+      "ExtraInfo": "",
+      "LicenseNumber": 1,
+      "IsHidden": true,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2026-06-11T00:00:00",
+    },
+    {
+      "OwnerName": "SUPEROFFICE",
+      "OwnerDescription": "SuperOffice AS",
+      "Name": "guide-cal",
+      "Description": "Guides",
+      "Version": "11.11",
+      "LicenseType": "UserLicense",
+      "ExtraFlags": 0,
+      "ExtraInfo": "",
+      "LicenseNumber": 1600,
+      "IsHidden": true,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2026-06-11T00:00:00",
+    },
+    {
+      "OwnerName": "SUPEROFFICE",
+      "OwnerDescription": "SuperOffice AS",
+      "Name": "ten-salesservicemarketing",
+      "Description": "SalesPremiumServicePremiumMarketingPremium",
+      "Version": "11.11",
+      "LicenseType": "UserLicense",
+      "ExtraFlags": 1,
+      "ExtraInfo": "set=user,web,pocket-crm-cal,selection-cal,relation-cal,report-cal,project-cal,guide-cal,saint-cal,selection-combined-cal,mail-merge-cal,chat-cal,forms-cal,ej-client,t2,dash-cal,sale-cal,target-cal,quote-cal,stakeholder-cal,ej-mod-spm-cal,mktg-auto-cal",
+      "LicenseNumber": 700,
+      "IsHidden": false,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2026-06-11T00:00:00",
+    },
+  ...
+```
+
+So from this we can see we have a `superoffice.server` site license, and the current user has been assigned a `superoffice.guide-cal` user license, courtesy of their `superoffice.ten-salesservicemarketing` user-plan license.
+Note that user-licenses that are not assigned to the user do not appear in the payload - so if you want to know if the license exists use the `/api/v1/License/ownername/modulename` endpoint to check.
+
+The currentPricipal also has useful information like the role function-rights.
 
 
 <!-- Referenced links-->

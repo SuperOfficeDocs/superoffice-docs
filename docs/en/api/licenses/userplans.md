@@ -38,9 +38,10 @@ If this is all we have, we get issued the following licenses:
 | `ten-sales` | user | user plan license, defines which user licenses are enabled for the user |
 
 The CAL licenses are per-user licenses - they must be assigned to a specific user in order to work.
-The user-plan license is flagged with ExtraFlag = 1, and ExtraInfo = list of user licenses to activate.
+The user-plan license is flagged with ExtraFlag = 1, and [ExtraInfo = list of user licenses to activate][2].
 
-The licenses that are automatically enabled are hidden, so they don't appear in the license panel.
+The licenses that are automatically enabled by the user-plan are [hidden][1], so they don't appear in the license panel.
+
 
 # User-plans in version 8-9
 
@@ -70,10 +71,14 @@ User plans come in five flavors: Sales, Service, Marketing, and Complete, plus a
 | `sales-t1` | system |marker to indicate sales-essentials |
 | `superlicense-contact-manager` | user | user plan license, defines which user licenses are enabled for the user |
 
-Again, the user plan license has extra flags = 1, and a list of licenses to enable automatically stored in extra info.
+Again, the user plan license has [extra flags = 1][2], and a list of licenses to enable automatically stored in extra info.
 
 Note that this user-plan includes projects, but the sales-essential user-plan does not. Projects are a premium feature in the 10-11 user-plans.
 Standard CRM user does not have sales access, but the sales-essential user-plan does.
+
+So checking for the user-plan means more work when the pricelist changes.
+Checking the module licenses means everything just keeps working as before.
+
 
 # User plans in version 6 and 7
 
@@ -94,3 +99,11 @@ Back then we didn't have so many module licenses, so life was a little easier.
 | `visible-for` |user | to allow users to use confidential appointments |
 
 These user licenses would be manually enabled for each user in admin.
+
+![Nested series of checkboxes][img3]
+
+<!-- References -->
+[1]: hiddenlicenses.md
+[2]: modulelicenses.md
+
+[img3]: media\licenses-prereq.png
