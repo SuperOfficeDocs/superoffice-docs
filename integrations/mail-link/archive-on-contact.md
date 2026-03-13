@@ -1,10 +1,10 @@
 ﻿---
 uid: mail-link-archive-on-contact
 title: Archiving emails on companies/contacts
-description: Archiving emails on companies/contacts
+description: Learn how to archive emails on companies and contacts in SuperOffice CRM using Mail Link.
 keywords: archive email
-author: SuperOffice Product and Engineering
-date: 02.10.2023
+author: digitaldiina
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -31,32 +31,30 @@ It is possible to archive an email (including any attachments) in your mail clie
 
 1. Select the email(s) you would like to archive.
 
-2. Click the **Archive email** button on the toolbar, and **Archive email** from the dropdown. If you select more than one email, the procedure below is repeated for each email.
+1. Click the **Archive email** button on the toolbar, and **Archive email** from the dropdown. If you select more than one email, the procedure below is repeated for each email.
 
-3. If the [sender of the email is not listed in SuperOffice][1], a warning will appear at the top of the dialog for archiving email: "This sender's email address is not recognized. Click here to update SuperOffice with this email address".
+1. If the [sender of the email is not listed in SuperOffice][1], a warning will appear at the top of the dialog for archiving email: "This sender's email address is not recognized. Click here to update SuperOffice with this email address".
 
-4. In the **Subject** field, the subject from the email is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
+1. In the **Subject** field, the email subject is automatically inserted. Edit it to change how it appears in the **Activities** section tab.
 
-5. In the mandatory **Company** field, you may search for a company by starting to type the company name and then select from the matches that appear.
+1. In the **Company** field (mandatory), start typing to search for a company and select from the matches.
 
-6. In the **Contact** field, you may use the dropdown to select one of the contacts belonging to the company you selected in the previous step. You can also search by starting to type the contact name.
+1. In the **Contact** field, select a contact from the company, or start typing to search.
 
-7. If you would like to archive the email to a certain project, you may select the project in the **Project** field.
+1. Optionally, select a **Project** and/or **Sale** to link the email to.
 
-8. If you would like to archive the email to a certain sale, you may select the sale in the **Sale** field.
+1. In the **Type** dropdown, select a document type.
 
-9. In the **Type** dropdown, you may select one of the available document types.
-
-10. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+1. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is only available if this right is assigned to you in Settings and maintenance.
 
-11. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it is successfully archived in SuperOffice CRM.
+1. Check the **Remove from inbox** box to remove the email from the inbox and move it to the **Deleted items** folder after it is successfully archived.
 
-12. Check the **Include attachments** box if you would like to archive the email including attachments. If you uncheck this option, the email is saved without any attachments.
+1. Check the **Include attachments** box to archive the email including attachments. Uncheck to save without attachments.
 
-13. Click **OK**. The selected email(s) and any attachments are archived to SuperOffice CRM as new documents. You can then double-click any of these documents in the **Activities** section tab to open the email in your mail client.
+1. Click **OK**. The selected email(s) and any attachments are archived to SuperOffice CRM as new documents. You can then double-click any of these documents in the **Activities** section tab to open the email in your mail client.
 
 ## Related content
 

@@ -1,10 +1,10 @@
 ﻿---
 uid: mail-link-create-crm
-title: Creating emails from SuperOffice CRM
-description: Creating emails from SuperOffice CRM
+title: Creating emails from SuperOffice CRM (LEGACY)
+description: Learn how to create emails from SuperOffice CRM using Mail Link. This behavior is being phased out for SuperOffice Online 11.11 and later.
 keywords: create email, write email, email body template, send as email
-author: SuperOffice Product and Engineering
-date: 06.29.2022
+author: digitaldiina
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -19,13 +19,22 @@ redirect_from:
   - /no/email/mail-link/learn/create-in-superoffice
   - /sv/email/mail-link/learn/create-in-superoffice
 index: true
+legacy: yes
 ---
 
-# Creating emails from SuperOffice CRM
+# Creating emails from SuperOffice CRM (LEGACY)
+
+> [!CAUTION]
+> This page describes legacy behavior that will be phased out. Whether it applies to you depends on your version and deployment:
+>
+> * **SuperOffice Online (version 11.11 or later):** When the *NewEmailConnectivity* feature toggle is active, SuperOffice no longer opens an external email client. Email is composed directly in SuperOffice using a lightweight compose dialog. SuperOffice Mail Link will not be installed or upgraded.
+> * **SuperOffice Onsite (version 11.10 or older):** This behavior remains unchanged. SuperOffice Mail Link will still be installed and upgraded as needed.
 
 There are two ways of creating an email from SuperOffice CRM. You can use the **Email** toolbar button at the bottom of the SuperOffice CRM window. This works more or less the same way as described in [Creating emails from Microsoft Outlook][1], except that you can use predefined email body templates.
 
 You can, however, also use the **Write** toolbar button.
+
+## Steps
 
 1. Click the **Write** toolbar button at the bottom of the SuperOffice CRM window.
 2. In the **Type** field at the top of the **Document** dialog, select an email template.
@@ -62,6 +71,17 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 
 * You can send a document as an email by right-clicking it in the **Activities** section tab in SuperOffice CRM and selecting **Send as email** or by clicking <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> > **Send as email** in the **Document** dialog. A new email window containing the document will then open in your mail client.
 
+## <a id="archive"></a>Archive to SuperOffice
+
+How an email is archived depends on how it was created:
+
+* **Write button:** The **Document** dialog opens automatically. The email is treated as a SuperOffice document and archived.
+
+* **Email button:** The **Document** dialog does not open. Archiving depends on the **Archive email by default when: created from SuperOffice CRM** setting in the [SuperOffice CRM options dialog][7].
+
+> [!NOTE]
+> The same behavior applies if you click an email address in SuperOffice CRM, send an email from the **Contacts** section tab, or reply to or forward an email from the **Activities** section tab.
+
 ## Related content
 
 * [General settings][7]
@@ -71,5 +91,3 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 [4]: select-recipients.md
 [5]: add-attachment.md
 [7]: settings.md
-
-<!-- Referenced images -->

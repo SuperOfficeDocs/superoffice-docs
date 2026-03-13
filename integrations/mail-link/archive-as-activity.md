@@ -4,7 +4,7 @@ title: Create activity from email
 description: Saving an email directly in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
 keywords: archive email, create activity in SuperOffice
 author: digitaldiina
-date: 02.05.2026
+date: 03.17.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -29,30 +29,30 @@ If you receive an email requesting you to take action, you can convert the email
 
 1. Select the emails you want to archive.
 
-2. Click the **Archive email** button on the toolbar, and select **Create activity**.
+1. Click the **Archive email** button on the toolbar, and select **Create activity**.
 
-3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. [How to handle unlisted senders][1]
+1. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog. [How to handle unlisted senders][1]
 
-4. In the **Company** field, starting typing to search for a company name and then select from the matches that appear.
+1. In the **Company** field, start typing to search for a company and select from the matches.
 
-5. In the **Contact** field, select one of the contacts belonging to the company you selected in step 4. You can also start typing to search for the contact name.
+1. In the **Contact** field, select a contact from the selected company, or start typing to search.
 
-6. Optionally, select a project and/or sale that you want to link the follow-up to.
+1. Optionally, select a project and/or sale that you want to link the follow-up to.
 
-7. Use the **Type** dropdown menu to select a follow-up type.
+1. Use the **Type** dropdown menu to select a follow-up type.
 
-8. Click to select a **Date** and enter a **Time** of day. Today's date is automatically inserted, but can be changed.
+1. Click to select a **Date** and enter a **Time** of day. Today's date is automatically inserted, but can be changed.
 
-9. In the **Visible for** field, click the arrow next to the field. From the list, choose if the activity should be visible to all users, private (visible only to the user defined as owner), or visible to all users in the user group that the owner belongs to.
+1. In the **Visible for** field, click the arrow next to the field. From the list, choose if the activity should be visible to all users, private (visible only to the user defined as owner), or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
     > The **Visible for** field is available only if this right is assigned to you in Settings and maintenance.
 
-10. In the **Description** field, the subject and message body is automatically inserted. However, you may enter any text that you would like to be shown in SuperOffice CRM.
+1. In the **Description** field, the email subject and body are automatically inserted. Edit the text as needed.
 
-11. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it was archived successfully in SuperOffice CRM.
+1. Check the **Remove from inbox** box to remove the email from the inbox and move it to the **Deleted items** folder after it is successfully archived.
 
-12. Click **OK**. The selected emails are archived to SuperOffice CRM as meetings.
+1. Click **OK**. The selected emails are archived to SuperOffice CRM as meetings.
 
 ## Related content
 
