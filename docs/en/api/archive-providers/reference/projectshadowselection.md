@@ -830,7 +830,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelection?$select=projectAssociate/portraitThumbnail,saintSaleStatus,sale/saleStatus,appointment/associate/portraitThumbnail,projectMember/contactAssociate/assocType
+GET /api/v1/archive/ProjectShadowSelection?$select=projectUdef/SuperOffice:5,appointment/booking,projectMember/personAssociate/userName,projectMember/correspondingAssociate/userName,projectMember/correspondingAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

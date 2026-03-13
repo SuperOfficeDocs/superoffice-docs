@@ -3861,6 +3861,8 @@ items:
     name: DBC.ForeignDeviceFields
   - uid: SuperOffice.CRM.Data.DBC.ForeignKeyFields
     name: DBC.ForeignKeyFields
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+    name: DBC.FormFieldRestrictionFields
   - uid: SuperOffice.CRM.Data.DBC.FormFieldValueFields
     name: DBC.FormFieldValueFields
   - uid: SuperOffice.CRM.Data.DBC.FormFields
@@ -4759,6 +4761,8 @@ items:
     name: ForeignDeviceTableInfo
   - uid: SuperOffice.CRM.Data.ForeignKeyTableInfo
     name: ForeignKeyTableInfo
+  - uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+    name: FormFieldRestrictionTableInfo
   - uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
     name: FormFieldValueTableInfo
   - uid: SuperOffice.CRM.Data.FormKeysTableInfo
@@ -6315,6 +6319,8 @@ items:
     name: FontSizeProvider
   - uid: SuperOffice.CRM.Lists.FontTypeProvider
     name: FontTypeProvider
+  - uid: SuperOffice.CRM.Lists.FormFieldsProvider
+    name: FormFieldsProvider
   - uid: SuperOffice.CRM.Lists.FormFolderProvider
     name: FormFolderProvider
   - uid: SuperOffice.CRM.Lists.FormMailingsProvider
@@ -9996,6 +10002,22 @@ items:
     name: ForeignKeyRows.IdxSubkey
   - uid: SuperOffice.CRM.Rows.ForeignKeyRows.IdxSubvalue
     name: ForeignKeyRows.IdxSubvalue
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+    name: FormFieldRestrictionRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+    name: FormFieldRestrictionRow
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.CustomSearch
+    name: FormFieldRestrictionRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFieldIdentifier
+    name: FormFieldRestrictionRow.IdxFieldIdentifier
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow.IdxFormFieldRestrictionId
+    name: FormFieldRestrictionRow.IdxFormFieldRestrictionId
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows
+    name: FormFieldRestrictionRows
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRows.CustomSearch
+    name: FormFieldRestrictionRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.FormFieldValueRecordData
     name: FormFieldValueRecordData
   - uid: SuperOffice.CRM.Rows.FormFieldValueRecordDataExtensions
@@ -12374,18 +12396,12 @@ items:
     name: ProductVersionRow
   - uid: SuperOffice.CRM.Rows.ProductVersionRow.CustomSearch
     name: ProductVersionRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.ProductVersionRow.IdxOwnerNameCodeNameVersion
-    name: ProductVersionRow.IdxOwnerNameCodeNameVersion
   - uid: SuperOffice.CRM.Rows.ProductVersionRow.IdxProductVersionId
     name: ProductVersionRow.IdxProductVersionId
   - uid: SuperOffice.CRM.Rows.ProductVersionRows
     name: ProductVersionRows
   - uid: SuperOffice.CRM.Rows.ProductVersionRows.CustomSearch
     name: ProductVersionRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerName
-    name: ProductVersionRows.IdxOwnerName
-  - uid: SuperOffice.CRM.Rows.ProductVersionRows.IdxOwnerNameCodeName
-    name: ProductVersionRows.IdxOwnerNameCodeName
   - uid: SuperOffice.CRM.Rows.ProfileRecordData
     name: ProfileRecordData
   - uid: SuperOffice.CRM.Rows.ProfileRecordDataExtensions
@@ -18117,6 +18133,8 @@ items:
     name: FieldDataType
   - uid: SuperOffice.Data.FieldMetadataType
     name: FieldMetadataType
+  - uid: SuperOffice.Data.FormFieldRestrictionType
+    name: FormFieldRestrictionType
   - uid: SuperOffice.Data.FormSubmissionStatus
     name: FormSubmissionStatus
   - uid: SuperOffice.Data.FormType
@@ -18909,6 +18927,8 @@ items:
     name: FieldMetadataTypeFieldInfo
   - uid: SuperOffice.Data.SQL.FieldTypeConvert
     name: FieldTypeConvert
+  - uid: SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
+    name: FormFieldRestrictionTypeFieldInfo
   - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
     name: FormSubmissionStatusFieldInfo
   - uid: SuperOffice.Data.SQL.FormTypeFieldInfo

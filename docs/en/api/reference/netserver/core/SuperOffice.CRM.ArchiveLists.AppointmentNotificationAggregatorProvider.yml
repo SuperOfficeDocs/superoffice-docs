@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.AcceptRow(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.PostProcessRow(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.ProviderName
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities(System.String[])
   langs:
   - csharp
   - vb
@@ -79,7 +80,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetPagingInfo(System.Int32,System.Int32)
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.ConvertToTypedRowsAsync(System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow})
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.GetAvailableEntities
-  - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.PrimaryKey
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.InhibitTwoPhaseQuery
@@ -301,6 +301,34 @@ items:
     content.vb: Protected Overrides Function AcceptRow(reader As SoDataReader) As Boolean
   overridden: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.AcceptRow(SuperOffice.Data.SoDataReader)
   overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.AcceptRow*
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities(System.String[])
+  id: SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredEntities(params string[])
+  nameWithType: AppointmentNotificationAggregatorProvider.SetDesiredEntities(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities(params string[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Set the desired entities
+  example: []
+  syntax:
+    content: public override void SetDesiredEntities(params string[] entities)
+    parameters:
+    - id: entities
+      type: System.String[]
+      description: Names of desired entities
+    content.vb: Public Overrides Sub SetDesiredEntities(ParamArray entities As String())
+  overridden: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
+  overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities*
+  nameWithType.vb: AppointmentNotificationAggregatorProvider.SetDesiredEntities(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities(ParamArray String())
+  name.vb: SetDesiredEntities(ParamArray String())
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.PostProcessRow(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.PostProcessRow(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   id: PostProcessRow(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -1558,47 +1586,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_GetAvailableEntities
   - name: (
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
-  parent: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}
-  definition: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
-  href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
-  name: SetDesiredEntities(params string[])
-  nameWithType: QueryProviderBase<ArchiveActivityRow>.SetDesiredEntities(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveActivityRow>.SetDesiredEntities(params string[])
-  nameWithType.vb: QueryProviderBase(Of ArchiveActivityRow).SetDesiredEntities(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.QueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveActivityRow).SetDesiredEntities(ParamArray String())
-  name.vb: SetDesiredEntities(ParamArray String())
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
-    name: SetDesiredEntities
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
-  - name: (
-  - name: params
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
-    name: SetDesiredEntities
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
-  - name: (
-  - name: ParamArray
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
@@ -6771,46 +6758,6 @@ references:
     href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_GetAvailableEntities
   - name: (
   - name: )
-- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
-  name: SetDesiredEntities(params string[])
-  nameWithType: QueryProviderBase<RowType>.SetDesiredEntities(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBase<RowType>.SetDesiredEntities(params string[])
-  nameWithType.vb: QueryProviderBase(Of RowType).SetDesiredEntities(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.QueryProviderBase(Of RowType).SetDesiredEntities(ParamArray String())
-  name.vb: SetDesiredEntities(ParamArray String())
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
-    name: SetDesiredEntities
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
-  - name: (
-  - name: params
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
-    name: SetDesiredEntities
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
-  - name: (
-  - name: ParamArray
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   isExternal: true
@@ -7463,6 +7410,117 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}
+  definition: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
+  href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
+  name: SetDesiredEntities(params string[])
+  nameWithType: QueryProviderBase<ArchiveActivityRow>.SetDesiredEntities(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveActivityRow>.SetDesiredEntities(params string[])
+  nameWithType.vb: QueryProviderBase(Of ArchiveActivityRow).SetDesiredEntities(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.QueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveActivityRow).SetDesiredEntities(ParamArray String())
+  name.vb: SetDesiredEntities(ParamArray String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationAggregatorProvider_SetDesiredEntities_System_String___
+  name: SetDesiredEntities
+  nameWithType: AppointmentNotificationAggregatorProvider.SetDesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider.SetDesiredEntities
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
+  name: SetDesiredEntities(params string[])
+  nameWithType: QueryProviderBase<RowType>.SetDesiredEntities(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBase<RowType>.SetDesiredEntities(params string[])
+  nameWithType.vb: QueryProviderBase(Of RowType).SetDesiredEntities(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.QueryProviderBase(Of RowType).SetDesiredEntities(ParamArray String())
+  name.vb: SetDesiredEntities(ParamArray String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase`1.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.QueryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_QueryProviderBase_1_SetDesiredEntities_System_String___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.PostProcessRow(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}.PostProcessRow(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveActivityRow}

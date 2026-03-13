@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# EntityCounts Table (538)
+# EntityCounts Table (539)
 
 Number of different entities an associate has created for usage statistics
 

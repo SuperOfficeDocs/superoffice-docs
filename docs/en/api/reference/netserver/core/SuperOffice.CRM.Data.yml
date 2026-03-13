@@ -247,6 +247,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ForeignAppFields
   - SuperOffice.CRM.Data.DBC.ForeignDeviceFields
   - SuperOffice.CRM.Data.DBC.ForeignKeyFields
+  - SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
   - SuperOffice.CRM.Data.DBC.FormFieldValueFields
   - SuperOffice.CRM.Data.DBC.FormFields
   - SuperOffice.CRM.Data.DBC.FormKeysFields
@@ -696,6 +697,7 @@ items:
   - SuperOffice.CRM.Data.ForeignAppTableInfo
   - SuperOffice.CRM.Data.ForeignDeviceTableInfo
   - SuperOffice.CRM.Data.ForeignKeyTableInfo
+  - SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
   - SuperOffice.CRM.Data.FormFieldValueTableInfo
   - SuperOffice.CRM.Data.FormKeysTableInfo
   - SuperOffice.CRM.Data.FormSubmissionTableInfo
@@ -14518,6 +14520,33 @@ references:
     name: FormSubmissionFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.FormSubmissionFields.html
+- uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.FormFieldRestrictionFields
+  nameWithType: DBC.FormFieldRestrictionFields
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+    name: FormFieldRestrictionFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+    name: FormFieldRestrictionFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields.html
 - uid: SuperOffice.CRM.Data.DBC.EmailAccountFields
   commentId: T:SuperOffice.CRM.Data.DBC.EmailAccountFields
   isExternal: true
@@ -16668,6 +16697,14 @@ references:
   name: FormTableInfo
   nameWithType: FormTableInfo
   fullName: SuperOffice.CRM.Data.FormTableInfo
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  name: FormFieldRestrictionTableInfo
+  nameWithType: FormFieldRestrictionTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
 - uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
   commentId: T:SuperOffice.CRM.Data.FormFieldValueTableInfo
   parent: SuperOffice.CRM.Data

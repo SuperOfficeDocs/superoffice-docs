@@ -9,6 +9,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.BackgroundService
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.FilesetService
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.UseProcessName
+  - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.WebApi
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName.WebClient
   langs:
   - csharp
@@ -119,6 +120,24 @@ items:
   example: []
   syntax:
     content: UseProcessName = 4
+    return:
+      type: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+- uid: SuperOffice.Configuration.ConfigFile.TelemetryRoleName.WebApi
+  commentId: F:SuperOffice.Configuration.ConfigFile.TelemetryRoleName.WebApi
+  id: WebApi
+  parent: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
+  langs:
+  - csharp
+  - vb
+  name: WebApi
+  nameWithType: ConfigFile.TelemetryRoleName.WebApi
+  fullName: SuperOffice.Configuration.ConfigFile.TelemetryRoleName.WebApi
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: WebApi = 5
     return:
       type: SuperOffice.Configuration.ConfigFile.TelemetryRoleName
 references:

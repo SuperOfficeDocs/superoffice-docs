@@ -190,6 +190,7 @@ envir: onsite, online
 | [fontsize](fontsize.md) |List of font types|
 | [fonttype](fonttype.md) |List of font types|
 | [form](form.md) |Get all forms with folder hierarchy|
+| [formfields](formfields.md) |List of customizable fields for forms|
 | [formfolder](formfolder.md) |FormFolderProvider creates a flat or tree list based on the table: s_picture_folder|
 | [formmailings](formmailings.md) ||
 | [formratingdice](formratingdice.md) ||

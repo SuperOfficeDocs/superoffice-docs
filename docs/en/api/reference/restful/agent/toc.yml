@@ -44,6 +44,10 @@ items:
     href: AI_Agent/v1AIAgent_GetCopilotDataSourceEntity.md
   - name: GetCopilotEntity
     href: AI_Agent/v1AIAgent_GetCopilotEntity.md
+  - name: GetFirstFormDesignCssFromImage
+    href: AI_Agent/v1AIAgent_GetFirstFormDesignCssFromImage.md
+  - name: GetFirstFormDesignCssFromUrl
+    href: AI_Agent/v1AIAgent_GetFirstFormDesignCssFromUrl.md
   - name: GetFormDesignCssFromImage
     href: AI_Agent/v1AIAgent_GetFormDesignCssFromImage.md
   - name: GetFormDesignCssFromUrl
@@ -54,6 +58,8 @@ items:
     href: AI_Agent/v1AIAgent_GetFormDesignFromUrl.md
   - name: GetIndexingStatus
     href: AI_Agent/v1AIAgent_GetIndexingStatus.md
+  - name: GetNextFormDesignCss
+    href: AI_Agent/v1AIAgent_GetNextFormDesignCss.md
   - name: GetSummarizeContactPrompt
     href: AI_Agent/v1AIAgent_GetSummarizeContactPrompt.md
   - name: GetSummarizeSalePrompt
@@ -2511,6 +2517,8 @@ items:
     href: Marketing_Agent/v1MarketingAgent_SaveShipmentMessageBlockEntity.md
   - name: SaveShipmentMessageEntity
     href: Marketing_Agent/v1MarketingAgent_SaveShipmentMessageEntity.md
+  - name: SetAllFormFieldRestrictions
+    href: Marketing_Agent/v1MarketingAgent_SetAllFormFieldRestrictions.md
   - name: SetFontRank
     href: Marketing_Agent/v1MarketingAgent_SetFontRank.md
   - name: VerifyGoogleRecaptcha
@@ -2542,6 +2550,21 @@ items:
     href: MDO_Agent/v1MDOAgent_GetSimpleList.md
   - name: SetSelected
     href: MDO_Agent/v1MDOAgent_SetSelected.md
+- name: Messaging
+  href: Messaging_Agent/index.md
+  items:
+  - name: CreateMessage
+    href: Messaging_Agent/v1MessagingAgent_CreateMessage.md
+  - name: GetDeliveryStatus
+    href: Messaging_Agent/v1MessagingAgent_GetDeliveryStatus.md
+  - name: GetPlugins
+    href: Messaging_Agent/v1MessagingAgent_GetPlugins.md
+  - name: SendMessages
+    href: Messaging_Agent/v1MessagingAgent_SendMessages.md
+  - name: SendMessagesWithConfig
+    href: Messaging_Agent/v1MessagingAgent_SendMessagesWithConfig.md
+  - name: SetDeliveryStatus
+    href: Messaging_Agent/v1MessagingAgent_SetDeliveryStatus.md
 - name: Navigator
   href: Navigator_Agent/index.md
   items:
@@ -2876,6 +2899,8 @@ items:
     href: Project_Agent/v1ProjectAgent_GetProject.md
   - name: GetProjectEntity
     href: Project_Agent/v1ProjectAgent_GetProjectEntity.md
+  - name: GetProjectEntityWithoutMembers
+    href: Project_Agent/v1ProjectAgent_GetProjectEntityWithoutMembers.md
   - name: GetProjectEvent
     href: Project_Agent/v1ProjectAgent_GetProjectEvent.md
   - name: GetProjectEventEntity
@@ -2920,6 +2945,8 @@ items:
     href: Project_Agent/v1ProjectAgent_OfferAutoNextStatusOnApppointmentCompleted.md
   - name: SaveProjectEntity
     href: Project_Agent/v1ProjectAgent_SaveProjectEntity.md
+  - name: SaveProjectEntityWithoutMembers
+    href: Project_Agent/v1ProjectAgent_SaveProjectEntityWithoutMembers.md
   - name: SaveProjectEventEntity
     href: Project_Agent/v1ProjectAgent_SaveProjectEventEntity.md
   - name: SaveProjectMember

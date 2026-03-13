@@ -267,6 +267,8 @@ items:
   href: fonttype.md
 - name: Form
   href: form.md
+- name: Formfields
+  href: formfields.md
 - name: Formfolder
   href: formfolder.md
 - name: Formmailings

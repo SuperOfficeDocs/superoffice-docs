@@ -780,7 +780,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContact?$select=targetRelation/restrictionContactId,document/completed,document/associate/contactName,document/associate/assocType,personAddress/addressId
+GET /api/v1/archive/FindContact?$select=searchPhone/description,contactAssociate/usergroupId,sale/salePublish/publishedFrom,sale/associate/isActiveText,appointment/cautionWarning
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

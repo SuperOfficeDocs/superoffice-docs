@@ -10,6 +10,8 @@ items:
   - SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(System.String)
   - SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(System.String,System.Boolean)
   - SuperOffice.Util.RagAIHelper.CancelIndexing(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.DeleteNamespace(System.String)
   - SuperOffice.Util.RagAIHelper.EnrichmentSearchAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
@@ -24,7 +26,8 @@ items:
   - SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
-  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  - SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule(System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   - SuperOffice.Util.RagAIHelper.ServiceCopilotNS
   - SuperOffice.Util.RagAIHelper._sharedHttpClient
   langs:
@@ -407,24 +410,26 @@ items:
   nameWithType.vb: RagAIHelper.DeleteNamespace(String)
   fullName.vb: SuperOffice.Util.RagAIHelper.DeleteNamespace(String)
   name.vb: DeleteNamespace(String)
-- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
-  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
-  id: PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   parent: SuperOffice.Util.RagAIHelper
   langs:
   - csharp
   - vb
-  name: PutDocument(string, string, string, RagType, Dictionary<string, object>)
-  nameWithType: RagAIHelper.PutDocument(string, string, string, RagType, Dictionary<string, object>)
-  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
+  name: PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
+  nameWithType: RagAIHelper.PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
+  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public Task PutDocument(string namespaceName, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
+    content: public Task PutDocument(string namespaceName, string indexRunTag, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
     parameters:
     - id: namespaceName
+      type: System.String
+    - id: indexRunTag
       type: System.String
     - id: id
       type: System.String
@@ -436,11 +441,11 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.Object}
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function PutDocument(namespaceName As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
+    content.vb: Public Function PutDocument(namespaceName As String, indexRunTag As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
   overload: SuperOffice.Util.RagAIHelper.PutDocument*
-  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, RagType, Dictionary(Of String, Object))
-  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
-  name.vb: PutDocument(String, String, String, RagType, Dictionary(Of String, Object))
+  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
+  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
 - uid: SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   commentId: M:SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   id: Markdownize(System.Boolean,System.String)
@@ -672,6 +677,108 @@ items:
   nameWithType.vb: RagAIHelper.GetFormsDesignCssFromImage(Stream, String(), CancellationToken)
   fullName.vb: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage(System.IO.Stream, String(), System.Threading.CancellationToken)
   name.vb: GetFormsDesignCssFromImage(Stream, String(), CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl(System.String,System.String,System.Threading.CancellationToken)
+  id: CreateFormsDesignSessionFromUrl(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateFormsDesignSessionFromUrl(string, string, CancellationToken)
+  nameWithType: RagAIHelper.CreateFormsDesignSessionFromUrl(string, string, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: Starts forms analysis
+  example: []
+  syntax:
+    content: public Task<CssGenerationApiResponse> CreateFormsDesignSessionFromUrl(string url, string cssClass, CancellationToken cancellationToken)
+    parameters:
+    - id: url
+      type: System.String
+      description: URL of webpage to fetch
+    - id: cssClass
+      type: System.String
+      description: 'Starting CSS class to return: ".foo"'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: cancel?
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse}
+      description: CSS rule + internal state blob. Fetch next class by calling NextSessionCssRule with the state argument and another CSS class name
+    content.vb: Public Function CreateFormsDesignSessionFromUrl(url As String, cssClass As String, cancellationToken As CancellationToken) As Task(Of CssGenerationApiResponse)
+  overload: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl*
+  nameWithType.vb: RagAIHelper.CreateFormsDesignSessionFromUrl(String, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl(String, String, System.Threading.CancellationToken)
+  name.vb: CreateFormsDesignSessionFromUrl(String, String, CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  id: CreateFormsDesignSessionFromImage(System.IO.Stream,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateFormsDesignSessionFromImage(Stream, string, CancellationToken)
+  nameWithType: RagAIHelper.CreateFormsDesignSessionFromImage(Stream, string, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage(System.IO.Stream, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: ''
+  example: []
+  syntax:
+    content: public Task<CssGenerationApiResponse> CreateFormsDesignSessionFromImage(Stream image, string cssClass, CancellationToken cancellationToken)
+    parameters:
+    - id: image
+      type: System.IO.Stream
+      description: Image stream
+    - id: cssClass
+      type: System.String
+      description: 'Starting CSS class to return: ".foo"'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: cancel?
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse}
+      description: CSS rule + internal state blob. Fetch next class by calling NextSessionCssRule with the state argument and another CSS class name
+    content.vb: Public Function CreateFormsDesignSessionFromImage(image As Stream, cssClass As String, cancellationToken As CancellationToken) As Task(Of CssGenerationApiResponse)
+  overload: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage*
+  nameWithType.vb: RagAIHelper.CreateFormsDesignSessionFromImage(Stream, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage(System.IO.Stream, String, System.Threading.CancellationToken)
+  name.vb: CreateFormsDesignSessionFromImage(Stream, String, CancellationToken)
+- uid: SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule(System.String,System.String,System.Threading.CancellationToken)
+  id: NextFormsDesignSessionCssRule(System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: NextFormsDesignSessionCssRule(string, string, CancellationToken)
+  nameWithType: RagAIHelper.NextFormsDesignSessionCssRule(string, string, CancellationToken)
+  fullName: SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<CssGenerationApiResponse> NextFormsDesignSessionCssRule(string cssClass, string state, CancellationToken cancellationToken)
+    parameters:
+    - id: cssClass
+      type: System.String
+    - id: state
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse}
+    content.vb: Public Function NextFormsDesignSessionCssRule(cssClass As String, state As String, cancellationToken As CancellationToken) As Task(Of CssGenerationApiResponse)
+  overload: SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule*
+  nameWithType.vb: RagAIHelper.NextFormsDesignSessionCssRule(String, String, CancellationToken)
+  fullName.vb: SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule(String, String, System.Threading.CancellationToken)
+  name.vb: NextFormsDesignSessionCssRule(String, String, CancellationToken)
 - uid: SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   commentId: P:SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   id: AllowedHostsValidator
@@ -1891,7 +1998,7 @@ references:
 - uid: SuperOffice.Util.RagAIHelper.PutDocument*
   commentId: Overload:SuperOffice.Util.RagAIHelper.PutDocument
   isExternal: true
-  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
   name: PutDocument
   nameWithType: RagAIHelper.PutDocument
   fullName: SuperOffice.Util.RagAIHelper.PutDocument
@@ -2189,6 +2296,60 @@ references:
   name: GetFormsDesignCssFromImage
   nameWithType: RagAIHelper.GetFormsDesignCssFromImage
   fullName: SuperOffice.Util.RagAIHelper.GetFormsDesignCssFromImage
+- uid: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_CreateFormsDesignSessionFromUrl_System_String_System_String_System_Threading_CancellationToken_
+  name: CreateFormsDesignSessionFromUrl
+  nameWithType: RagAIHelper.CreateFormsDesignSessionFromUrl
+  fullName: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromUrl
+- uid: System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CssGenerationApiResponse>
+  nameWithType: Task<CssGenerationApiResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse>
+  nameWithType.vb: Task(Of CssGenerationApiResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse)
+  name.vb: Task(Of CssGenerationApiResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse
+    name: CssGenerationApiResponse
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.ServiceCopilot.Client.Models.CssGenerationApiResponse
+    name: CssGenerationApiResponse
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_CreateFormsDesignSessionFromImage_System_IO_Stream_System_String_System_Threading_CancellationToken_
+  name: CreateFormsDesignSessionFromImage
+  nameWithType: RagAIHelper.CreateFormsDesignSessionFromImage
+  fullName: SuperOffice.Util.RagAIHelper.CreateFormsDesignSessionFromImage
+- uid: SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule*
+  commentId: Overload:SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule
+  isExternal: true
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_NextFormsDesignSessionCssRule_System_String_System_String_System_Threading_CancellationToken_
+  name: NextFormsDesignSessionCssRule
+  nameWithType: RagAIHelper.NextFormsDesignSessionCssRule
+  fullName: SuperOffice.Util.RagAIHelper.NextFormsDesignSessionCssRule
 - uid: SuperOffice.Util.RagAIHelper.AllowedHostsValidator*
   commentId: Overload:SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   isExternal: true

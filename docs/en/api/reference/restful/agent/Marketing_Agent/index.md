@@ -32,6 +32,8 @@ content_type: reference
 
 * [POST Agents/Marketing/VerifyGoogleRecaptcha](v1MarketingAgent_VerifyGoogleRecaptcha.md)
 
+* [POST Agents/Marketing/SetAllFormFieldRestrictions](v1MarketingAgent_SetAllFormFieldRestrictions.md)
+
 * [POST Agents/Marketing/CreateDefaultFormSubmissionEntity](v1MarketingAgent_CreateDefaultFormSubmissionEntity.md)
 
 * [POST Agents/Marketing/SaveFormSubmissionEntity](v1MarketingAgent_SaveFormSubmissionEntity.md)

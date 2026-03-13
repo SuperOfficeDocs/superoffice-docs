@@ -37,6 +37,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedAt
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedByWorkflow
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colDeadline
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colFirstReadByOwner
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colFirstReadByUser
@@ -664,6 +665,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colCreatedAt As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
+  id: _colCreatedDate
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colCreatedDate
+  nameWithType: TicketExtenderBase._colCreatedDate
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCreatedDate
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCreatedDate As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLastChanged
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLastChanged
   id: _colLastChanged

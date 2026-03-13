@@ -258,6 +258,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ForeignDevice_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ForeignKey_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ForeignKey_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldValue_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldValue_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_RegisteredAssociateId
@@ -16450,6 +16452,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Form_UpdatedAssociateId As TargetedLeftOuterJoin(Of FormTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  id: LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to FormFieldRestriction.<xref href="SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<FormFieldRestrictionTableInfo> LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldRestrictionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId As TargetedLeftOuterJoin(Of FormFieldRestrictionTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  id: LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to FormFieldRestriction.<xref href="SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<FormFieldRestrictionTableInfo> LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldRestrictionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId As TargetedLeftOuterJoin(Of FormFieldRestrictionTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_EmailAccount_AssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_EmailAccount_AssociateId
   id: LeftOuterJoin_EmailAccount_AssociateId
@@ -40055,6 +40103,69 @@ references:
   name: LeftOuterJoin_Form_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_Form_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html#SuperOffice_CRM_Data_FormFieldRestrictionTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: FormFieldRestrictionTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  name: LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldRestrictionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.FormFieldRestrictionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<FormFieldRestrictionTableInfo>
+  nameWithType: TargetedLeftOuterJoin<FormFieldRestrictionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.FormFieldRestrictionTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of FormFieldRestrictionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.FormFieldRestrictionTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of FormFieldRestrictionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+    name: FormFieldRestrictionTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+    name: FormFieldRestrictionTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html#SuperOffice_CRM_Data_FormFieldRestrictionTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: FormFieldRestrictionTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  name: LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_FormFieldRestriction_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId
   isExternal: true

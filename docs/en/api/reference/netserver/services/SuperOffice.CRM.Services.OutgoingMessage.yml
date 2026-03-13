@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.OutgoingMessage
+  commentId: T:SuperOffice.CRM.Services.OutgoingMessage
+  id: OutgoingMessage
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.OutgoingMessage.#ctor
+  - SuperOffice.CRM.Services.OutgoingMessage.Content
+  - SuperOffice.CRM.Services.OutgoingMessage.Format
+  - SuperOffice.CRM.Services.OutgoingMessage.From
+  - SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId
+  - SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey
+  - SuperOffice.CRM.Services.OutgoingMessage.To
+  - SuperOffice.CRM.Services.OutgoingMessage.ToString
+  - SuperOffice.CRM.Services.OutgoingMessage.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: OutgoingMessage
+  nameWithType: OutgoingMessage
+  fullName: SuperOffice.CRM.Services.OutgoingMessage
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Details about a message to be sent
+
+    <p></p>
+
+    Carrier object for OutgoingMessage.
+
+    Services for the OutgoingMessage Carrier is available from the <xref href="SuperOffice.CRM.Services.IMessagingAgent?text=Messaging+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.11.0.0")]
+
+      public class OutgoingMessage : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.11.0.0")>
+
+      Public Class OutgoingMessage Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IMessagingAgent
+    commentId: T:SuperOffice.CRM.Services.IMessagingAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.11.0.0
+- uid: SuperOffice.CRM.Services.OutgoingMessage.#ctor
+  commentId: M:SuperOffice.CRM.Services.OutgoingMessage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: OutgoingMessage()
+  nameWithType: OutgoingMessage.OutgoingMessage()
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.OutgoingMessage()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public OutgoingMessage()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.OutgoingMessage.#ctor*
+  nameWithType.vb: OutgoingMessage.New()
+  fullName.vb: SuperOffice.CRM.Services.OutgoingMessage.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.OutgoingMessage.ToString
+  commentId: M:SuperOffice.CRM.Services.OutgoingMessage.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: OutgoingMessage.ToString()
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.ToString*
+- uid: SuperOffice.CRM.Services.OutgoingMessage.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.OutgoingMessage.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: OutgoingMessage.ToString(string)
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.ToString*
+  nameWithType.vb: OutgoingMessage.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.OutgoingMessage.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.OutgoingMessage.From
+  commentId: P:SuperOffice.CRM.Services.OutgoingMessage.From
+  id: From
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: OutgoingMessage.From
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.From
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property From As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.From*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.OutgoingMessage.To
+  commentId: P:SuperOffice.CRM.Services.OutgoingMessage.To
+  id: To
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: OutgoingMessage.To
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.To
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Address of the recipient. This can be in the form of phone number or email.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string To { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property [To] As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.To*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.OutgoingMessage.Content
+  commentId: P:SuperOffice.CRM.Services.OutgoingMessage.Content
+  id: Content
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: OutgoingMessage.Content
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.Content
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Content, or body, of the message.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Content As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.Content*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.OutgoingMessage.Format
+  commentId: P:SuperOffice.CRM.Services.OutgoingMessage.Format
+  id: Format
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: OutgoingMessage.Format
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.Format
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Format of content
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Format As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.Format*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId
+  commentId: P:SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId
+  id: ParentMessagingId
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: ParentMessagingId
+  nameWithType: OutgoingMessage.ParentMessagingId
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Id to the previous outgoing message related to this one. Used from message threading.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int ParentMessagingId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ParentMessagingId As Integer
+  overload: SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey
+  commentId: P:SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey
+  id: SuggestedSessionKey
+  parent: SuperOffice.CRM.Services.OutgoingMessage
+  langs:
+  - csharp
+  - vb
+  name: SuggestedSessionKey
+  nameWithType: OutgoingMessage.SuggestedSessionKey
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string SuggestedSessionKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SuggestedSessionKey As String
+  overload: SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IMessagingAgent
+  commentId: T:SuperOffice.CRM.Services.IMessagingAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMessagingAgent.html
+  name: IMessagingAgent
+  nameWithType: IMessagingAgent
+  fullName: SuperOffice.CRM.Services.IMessagingAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.OutgoingMessage.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage__ctor
+  name: OutgoingMessage
+  nameWithType: OutgoingMessage.OutgoingMessage
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.OutgoingMessage
+  nameWithType.vb: OutgoingMessage.New
+  fullName.vb: SuperOffice.CRM.Services.OutgoingMessage.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.OutgoingMessage.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_ToString
+  name: ToString
+  nameWithType: OutgoingMessage.ToString
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.OutgoingMessage.From*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.From
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_From
+  name: From
+  nameWithType: OutgoingMessage.From
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.From
+- uid: SuperOffice.CRM.Services.OutgoingMessage.To*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.To
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_To
+  name: To
+  nameWithType: OutgoingMessage.To
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.To
+- uid: SuperOffice.CRM.Services.OutgoingMessage.Content*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.Content
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_Content
+  name: Content
+  nameWithType: OutgoingMessage.Content
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.Content
+- uid: SuperOffice.CRM.Services.OutgoingMessage.Format*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.Format
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_Format
+  name: Format
+  nameWithType: OutgoingMessage.Format
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.Format
+- uid: SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_ParentMessagingId
+  name: ParentMessagingId
+  nameWithType: OutgoingMessage.ParentMessagingId
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.ParentMessagingId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey*
+  commentId: Overload:SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html#SuperOffice_CRM_Services_OutgoingMessage_SuggestedSessionKey
+  name: SuggestedSessionKey
+  nameWithType: OutgoingMessage.SuggestedSessionKey
+  fullName: SuperOffice.CRM.Services.OutgoingMessage.SuggestedSessionKey

@@ -5,8 +5,6 @@ items:
   id: ConfigFile.IDataExplicitConfiguration
   parent: SuperOffice.Configuration
   children:
-  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
   - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
   - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
   - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.EmployeeAllowed
@@ -102,29 +100,6 @@ items:
       type: System.Boolean
     content.vb: Property SystemAllowed As Boolean
   overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed*
-- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  id: AnonymousAllowed
-  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
-  langs:
-  - csharp
-  - vb
-  name: AnonymousAllowed
-  nameWithType: ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: 'Is anonymous access allowed: [True|False]'
-  example: []
-  syntax:
-    content: bool AnonymousAllowed { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Property AnonymousAllowed As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed*
 - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
   commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
   id: DBUser
@@ -171,29 +146,6 @@ items:
       type: System.String
     content.vb: Property DBPassword As String
   overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword*
-- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
-  commentId: P:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
-  id: CommonDBConnection
-  parent: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
-  langs:
-  - csharp
-  - vb
-  name: CommonDBConnection
-  nameWithType: ConfigFile.IDataExplicitConfiguration.CommonDBConnection
-  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Use the same connection string for all users, applying the common User and Password from this section, vs. using the one provided elsewhere.
-  example: []
-  syntax:
-    content: bool CommonDBConnection { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Property CommonDBConnection As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection*
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
@@ -499,13 +451,6 @@ references:
   name: SystemAllowed
   nameWithType: ConfigFile.IDataExplicitConfiguration.SystemAllowed
   fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.SystemAllowed
-- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_AnonymousAllowed
-  name: AnonymousAllowed
-  nameWithType: ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
-  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.AnonymousAllowed
 - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBUser
   isExternal: true
@@ -531,10 +476,3 @@ references:
   name: DBPassword
   nameWithType: ConfigFile.IDataExplicitConfiguration.DBPassword
   fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.DBPassword
-- uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataExplicitConfiguration_CommonDBConnection
-  name: CommonDBConnection
-  nameWithType: ConfigFile.IDataExplicitConfiguration.CommonDBConnection
-  fullName: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.CommonDBConnection

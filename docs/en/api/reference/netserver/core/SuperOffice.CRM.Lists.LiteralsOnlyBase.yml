@@ -99,6 +99,7 @@ items:
   - SuperOffice.CRM.Lists.FindProduct
   - SuperOffice.CRM.Lists.FontSizeProvider
   - SuperOffice.CRM.Lists.FontTypeProvider
+  - SuperOffice.CRM.Lists.FormFieldsProvider
   - SuperOffice.CRM.Lists.FormMailingsProvider
   - SuperOffice.CRM.Lists.FormProvider
   - SuperOffice.CRM.Lists.FormSubmissionStatusProvider

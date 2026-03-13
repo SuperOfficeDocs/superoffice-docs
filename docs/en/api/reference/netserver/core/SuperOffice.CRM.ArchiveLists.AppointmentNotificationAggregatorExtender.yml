@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.AddOriginatorFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusForOwner
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusForParticipant
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetLinkhintId(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetRowTypeForAppointmentStatus(SuperOffice.Data.SoDataReader,SuperOffice.Data.AppointmentStatus)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.InnerModifyQuery
@@ -19,6 +20,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsBookingOwnerNotAssociate(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsBookingRowOwner(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.IsSystemUserAssignment(SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities(System.String[])
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetJoin
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   langs:
@@ -265,6 +267,30 @@ items:
   nameWithType.vb: AppointmentNotificationAggregatorExtender.SetRestriction(ParamArray ArchiveRestrictionInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
   name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities(System.String[])
+  id: SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredEntities(params string[])
+  nameWithType: AppointmentNotificationAggregatorExtender.SetDesiredEntities(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities(params string[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetDesiredEntities(params string[] entityNames)
+    parameters:
+    - id: entityNames
+      type: System.String[]
+    content.vb: Public Sub SetDesiredEntities(ParamArray entityNames As String())
+  overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities*
+  nameWithType.vb: AppointmentNotificationAggregatorExtender.SetDesiredEntities(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities(ParamArray String())
+  name.vb: SetDesiredEntities(ParamArray String())
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.InnerModifyQuery
   id: InnerModifyQuery
@@ -577,6 +603,26 @@ items:
       type: SuperOffice.Data.AppointmentStatus[]
     content.vb: Public Shared Function GetAppointmentStatusForParticipant() As AppointmentStatus()
   overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusForParticipant*
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities
+  id: GetAppointmentStatusesOfDesiredEntities
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentStatusesOfDesiredEntities()
+  nameWithType: AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public AppointmentStatus[] GetAppointmentStatusesOfDesiredEntities()
+    return:
+      type: SuperOffice.Data.AppointmentStatus[]
+    content.vb: Public Function GetAppointmentStatusesOfDesiredEntities() As AppointmentStatus()
+  overload: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities*
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetRowTypeForAppointmentStatus(SuperOffice.Data.SoDataReader,SuperOffice.Data.AppointmentStatus)
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetRowTypeForAppointmentStatus(SuperOffice.Data.SoDataReader,SuperOffice.Data.AppointmentStatus)
   id: GetRowTypeForAppointmentStatus(SuperOffice.Data.SoDataReader,SuperOffice.Data.AppointmentStatus)
@@ -5959,6 +6005,36 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationAggregatorExtender_SetDesiredEntities_System_String___
+  name: SetDesiredEntities
+  nameWithType: AppointmentNotificationAggregatorExtender.SetDesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.SetDesiredEntities
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
   isExternal: true
@@ -6365,6 +6441,13 @@ references:
   name: GetAppointmentStatusForParticipant
   nameWithType: AppointmentNotificationAggregatorExtender.GetAppointmentStatusForParticipant
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusForParticipant
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.html#SuperOffice_CRM_ArchiveLists_AppointmentNotificationAggregatorExtender_GetAppointmentStatusesOfDesiredEntities
+  name: GetAppointmentStatusesOfDesiredEntities
+  nameWithType: AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetAppointmentStatusesOfDesiredEntities
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetRowTypeForAppointmentStatus*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorExtender.GetRowTypeForAppointmentStatus
   isExternal: true

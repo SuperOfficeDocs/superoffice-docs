@@ -42,6 +42,7 @@ Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you
 * [SaveFormSubmissionEntity](SaveFormSubmissionEntity.md)
 * [SaveShipmentMessageBlockEntity](SaveShipmentMessageBlockEntity.md)
 * [SaveShipmentMessageEntity](SaveShipmentMessageEntity.md)
+* [SetAllFormFieldRestrictions](SetAllFormFieldRestrictions.md)
 * [SetFontRank](SetFontRank.md)
 * [VerifyGoogleRecaptcha](VerifyGoogleRecaptcha.md)
 

@@ -31,7 +31,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=accusamus
+GET /api/v1/MDOList/{listname}/selectable?additional=non
 GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 

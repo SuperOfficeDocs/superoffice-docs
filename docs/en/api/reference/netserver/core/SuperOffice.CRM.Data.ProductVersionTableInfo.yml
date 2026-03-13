@@ -10,8 +10,6 @@ items:
   - SuperOffice.CRM.Data.ProductVersionTableInfo.Definition
   - SuperOffice.CRM.Data.ProductVersionTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.ProductVersionTableInfo.DictionaryTableNumber
-  - SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName(System.String)
-  - SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName(System.String,System.String)
   - SuperOffice.CRM.Data.ProductVersionTableInfo.OwnerName
   - SuperOffice.CRM.Data.ProductVersionTableInfo.ProductVersionId
   - SuperOffice.CRM.Data.ProductVersionTableInfo.Registered
@@ -112,70 +110,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "ProductVersion"
-- uid: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName(System.String)
-  commentId: M:SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName(System.String)
-  id: IdxOwnerName(System.String)
-  parent: SuperOffice.CRM.Data.ProductVersionTableInfo
-  langs:
-  - csharp
-  - vb
-  name: IdxOwnerName(string)
-  nameWithType: ProductVersionTableInfo.IdxOwnerName(string)
-  fullName: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName(string)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index OwnerName, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">OwnerName</td><td class="description">Owner of code module</td></tr></tbody></table>
-  example: []
-  syntax:
-    content: public Restriction IdxOwnerName(string ownerName)
-    parameters:
-    - id: ownerName
-      type: System.String
-    return:
-      type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxOwnerName(ownerName As String) As Restriction
-  overload: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName*
-  nameWithType.vb: ProductVersionTableInfo.IdxOwnerName(String)
-  fullName.vb: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName(String)
-  name.vb: IdxOwnerName(String)
-- uid: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName(System.String,System.String)
-  commentId: M:SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName(System.String,System.String)
-  id: IdxOwnerNameCodeName(System.String,System.String)
-  parent: SuperOffice.CRM.Data.ProductVersionTableInfo
-  langs:
-  - csharp
-  - vb
-  name: IdxOwnerNameCodeName(string, string)
-  nameWithType: ProductVersionTableInfo.IdxOwnerNameCodeName(string, string)
-  fullName: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName(string, string)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index OwnerNameCodeName, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">OwnerName</td><td class="description">Owner of code module</td></tr><tr><td class="term">CodeName</td><td class="description">The name of the code module, which is not the same as a license module</td></tr></tbody></table>
-  example: []
-  syntax:
-    content: public Restriction IdxOwnerNameCodeName(string ownerName, string codeName)
-    parameters:
-    - id: ownerName
-      type: System.String
-    - id: codeName
-      type: System.String
-    return:
-      type: SuperOffice.Data.SQL.Restriction
-    content.vb: Public Function IdxOwnerNameCodeName(ownerName As String, codeName As String) As Restriction
-  overload: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName*
-  nameWithType.vb: ProductVersionTableInfo.IdxOwnerNameCodeName(String, String)
-  fullName.vb: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName(String, String)
-  name.vb: IdxOwnerNameCodeName(String, String)
 - uid: SuperOffice.CRM.Data.ProductVersionTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.ProductVersionTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -1420,28 +1354,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName*
-  commentId: Overload:SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName
-  isExternal: true
-  href: SuperOffice.CRM.Data.ProductVersionTableInfo.html#SuperOffice_CRM_Data_ProductVersionTableInfo_IdxOwnerName_System_String_
-  name: IdxOwnerName
-  nameWithType: ProductVersionTableInfo.IdxOwnerName
-  fullName: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerName
-- uid: SuperOffice.Data.SQL.Restriction
-  commentId: T:SuperOffice.Data.SQL.Restriction
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
-  name: Restriction
-  nameWithType: Restriction
-  fullName: SuperOffice.Data.SQL.Restriction
-- uid: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName*
-  commentId: Overload:SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName
-  isExternal: true
-  href: SuperOffice.CRM.Data.ProductVersionTableInfo.html#SuperOffice_CRM_Data_ProductVersionTableInfo_IdxOwnerNameCodeName_System_String_System_String_
-  name: IdxOwnerNameCodeName
-  nameWithType: ProductVersionTableInfo.IdxOwnerNameCodeName
-  fullName: SuperOffice.CRM.Data.ProductVersionTableInfo.IdxOwnerNameCodeName
 - uid: SuperOffice.CRM.Data.ProductVersionTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.ProductVersionTableInfo.DictionaryTableNumber
   isExternal: true

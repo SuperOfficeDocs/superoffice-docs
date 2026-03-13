@@ -1157,7 +1157,7 @@ Archive provider for Sale type activities. This provider can be used on its own,
 ## Sample
 
 ```http!
-GET /api/v1/archive/Sale?$select=person/personAssociate/simultaneousEjUser,person/correspondingAssociate/associateDbId,contact/restrictionAddress/city,project/name,quote/version/alternative/quoteline/earningPercent
+GET /api/v1/archive/Sale?$select=person/personNumber,person/correspondingAssociate/assocType,contact/nameDepartment,contact/contactUdef/SuperOffice:2,contact/contactUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

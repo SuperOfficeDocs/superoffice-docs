@@ -485,8 +485,12 @@ items:
     name: ForeignSystemAgent
   - uid: SuperOffice.CRM.Services.FormDesignCarrier
     name: FormDesignCarrier
+  - uid: SuperOffice.CRM.Services.FormDesignCss
+    name: FormDesignCss
   - uid: SuperOffice.CRM.Services.FormEntity
     name: FormEntity
+  - uid: SuperOffice.CRM.Services.FormFieldRestriction
+    name: FormFieldRestriction
   - uid: SuperOffice.CRM.Services.FormSubmissionEntity
     name: FormSubmissionEntity
   - uid: SuperOffice.CRM.Services.FreeText
@@ -569,6 +573,8 @@ items:
     name: IMDOAgent
   - uid: SuperOffice.CRM.Services.IMarketingAgent
     name: IMarketingAgent
+  - uid: SuperOffice.CRM.Services.IMessagingAgent
+    name: IMessagingAgent
   - uid: SuperOffice.CRM.Services.INumberAllocationAgent
     name: INumberAllocationAgent
   - uid: SuperOffice.CRM.Services.IPersonAgent
@@ -633,6 +639,8 @@ items:
     name: ImportErpData
   - uid: SuperOffice.CRM.Services.ImportLine
     name: ImportLine
+  - uid: SuperOffice.CRM.Services.IncomingMessage
+    name: IncomingMessage
   - uid: SuperOffice.CRM.Services.Installation
     name: Installation
   - uid: SuperOffice.CRM.Services.KbCategory
@@ -685,6 +693,10 @@ items:
     name: MarketingAgent
   - uid: SuperOffice.CRM.Services.MassOperationResult
     name: MassOperationResult
+  - uid: SuperOffice.CRM.Services.MessageDeliveryStatus
+    name: MessageDeliveryStatus
+  - uid: SuperOffice.CRM.Services.MessagingAgent
+    name: MessagingAgent
   - uid: SuperOffice.CRM.Services.MetricPair
     name: MetricPair
   - uid: SuperOffice.CRM.Services.ModuleLicenseLink
@@ -705,6 +717,8 @@ items:
     name: OperationInfo
   - uid: SuperOffice.CRM.Services.OperationResult
     name: OperationResult
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
   - uid: SuperOffice.CRM.Services.ParticipantSyncData
     name: ParticipantSyncData
   - uid: SuperOffice.CRM.Services.PaymentTerm
@@ -809,6 +823,8 @@ items:
     name: ProjectTypeEntity
   - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink
     name: ProjectTypeStatusLink
+  - uid: SuperOffice.CRM.Services.ProviderInfo
+    name: ProviderInfo
   - uid: SuperOffice.CRM.Services.QuickFilterInfo
     name: QuickFilterInfo
   - uid: SuperOffice.CRM.Services.QuickReply

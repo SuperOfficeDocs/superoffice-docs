@@ -26,7 +26,7 @@ Gets all the ReasonSold items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonSold/Items?includeDeleted=True
+GET /api/v1/List/ReasonSold/Items?includeDeleted=False
 ```
 
 

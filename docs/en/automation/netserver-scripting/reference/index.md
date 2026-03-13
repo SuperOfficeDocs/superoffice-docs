@@ -40,6 +40,7 @@ The following endpoint interfaces define all web service methods that serve even
 * [ListAgent](listagent/index.md)
 * [MarketingAgent](marketingagent/index.md)
 * [MDOAgent](mdoagent/index.md)
+* [MessagingAgent](messagingagent/index.md)
 * [NumberAllocationAgent](numberallocationagent/index.md)
 * [PersonAgent](personagent/index.md)
 * [PhoneListAgent](phonelistagent/index.md)

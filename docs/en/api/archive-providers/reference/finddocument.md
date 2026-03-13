@@ -731,7 +731,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/personAddress/zip,contact/email/emailId,project/projectAssociate/role,sale/projectId
+GET /api/v1/archive/FindDocument?$select=person/personPager/description,person/personAddress/county,person/personExtra/x_person_boolean,person/personExtra/y_rental/x_contact,contact/email/emailId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

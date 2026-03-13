@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.CRM.Services.FormSubmissionEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.CRM.Services.ShipmentMessageBlockEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.CRM.Services.ShipmentMessageEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.CRM.Services.FormFieldRestriction[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
@@ -388,6 +389,38 @@ items:
   nameWithType.vb: IMarketingAgent.VerifyGoogleRecaptchaAsync(String, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptchaAsync(String, String, System.Threading.CancellationToken)
   name.vb: VerifyGoogleRecaptchaAsync(String, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.CRM.Services.FormFieldRestriction[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.CRM.Services.FormFieldRestriction[],System.Threading.CancellationToken)
+  id: SetAllFormFieldRestrictionsAsync(SuperOffice.CRM.Services.FormFieldRestriction[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAllFormFieldRestrictionsAsync(FormFieldRestriction[], CancellationToken)
+  nameWithType: IMarketingAgent.SetAllFormFieldRestrictionsAsync(FormFieldRestriction[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.CRM.Services.FormFieldRestriction[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: 'Sets the list of form field restrictions. Note: This list is the conclusion of what should exist in the table. Restrictions that already exists in the table are edited, new ones are added, and if they are not in this list, they will be deleted'
+  example: []
+  syntax:
+    content: Task SetAllFormFieldRestrictionsAsync(FormFieldRestriction[] formFieldRestrictions, CancellationToken cancellationToken = default)
+    parameters:
+    - id: formFieldRestrictions
+      type: SuperOffice.CRM.Services.FormFieldRestriction[]
+      description: All the restrictions to set. Restrictions not included, will be deleted
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetAllFormFieldRestrictionsAsync(formFieldRestrictions As FormFieldRestriction(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync*
+  nameWithType.vb: IMarketingAgent.SetAllFormFieldRestrictionsAsync(FormFieldRestriction(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.CRM.Services.FormFieldRestriction(), System.Threading.CancellationToken)
+  name.vb: SetAllFormFieldRestrictionsAsync(FormFieldRestriction(), CancellationToken)
 - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultFormSubmissionEntityAsync(System.Threading.CancellationToken)
@@ -1341,6 +1374,36 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SetAllFormFieldRestrictionsAsync_SuperOffice_CRM_Services_FormFieldRestriction___System_Threading_CancellationToken_
+  name: SetAllFormFieldRestrictionsAsync
+  nameWithType: IMarketingAgent.SetAllFormFieldRestrictionsAsync
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SetAllFormFieldRestrictionsAsync
+- uid: SuperOffice.CRM.Services.FormFieldRestriction[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormFieldRestriction.html
+  name: FormFieldRestriction[]
+  nameWithType: FormFieldRestriction[]
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction[]
+  nameWithType.vb: FormFieldRestriction()
+  fullName.vb: SuperOffice.CRM.Services.FormFieldRestriction()
+  name.vb: FormFieldRestriction()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.FormFieldRestriction
+    name: FormFieldRestriction
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormFieldRestriction.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.FormFieldRestriction
+    name: FormFieldRestriction
+    isExternal: true
+    href: SuperOffice.CRM.Services.FormFieldRestriction.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntityAsync
   isExternal: true

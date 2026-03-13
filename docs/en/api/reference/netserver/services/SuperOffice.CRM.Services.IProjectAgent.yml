@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatusAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -48,6 +49,7 @@ items:
   - SuperOffice.CRM.Services.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
@@ -839,6 +841,67 @@ items:
   nameWithType.vb: IProjectAgent.SetCompletedAsync(Integer, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(Integer, Boolean, System.Threading.CancellationToken)
   name.vb: SetCompletedAsync(Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProjectEntityWithoutMembersAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEntityWithoutMembersAsync(int, CancellationToken)
+  nameWithType: IProjectAgent.GetProjectEntityWithoutMembersAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get a project entity with no project members. Project members property is always an empty array.
+  example: []
+  syntax:
+    content: Task<ProjectEntity> GetProjectEntityWithoutMembersAsync(int projectId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
+      description: Project entity with the specified id. The project members property is always an empty array.
+    content.vb: Function GetProjectEntityWithoutMembersAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync*
+  nameWithType.vb: IProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetProjectEntityWithoutMembersAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
+  id: SaveProjectEntityWithoutMembersAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEntityWithoutMembersAsync(ProjectEntity, CancellationToken)
+  nameWithType: IProjectAgent.SaveProjectEntityWithoutMembersAsync(ProjectEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.CRM.Services.ProjectEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Save a project entity, the project members are ignored.
+  example: []
+  syntax:
+    content: Task<ProjectEntity> SaveProjectEntityWithoutMembersAsync(ProjectEntity projectEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.CRM.Services.ProjectEntity
+      description: The project entity to save. Any set project members are ignored.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
+      description: The saved project entity without any project members. The project members property is always an empty array.
+    content.vb: Function SaveProjectEntityWithoutMembersAsync(projectEntity As ProjectEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync*
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
@@ -2528,6 +2591,20 @@ references:
   name: SetCompletedAsync
   nameWithType: IProjectAgent.SetCompletedAsync
   fullName: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_GetProjectEntityWithoutMembersAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetProjectEntityWithoutMembersAsync
+  nameWithType: IProjectAgent.GetProjectEntityWithoutMembersAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityWithoutMembersAsync
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SaveProjectEntityWithoutMembersAsync_SuperOffice_CRM_Services_ProjectEntity_System_Threading_CancellationToken_
+  name: SaveProjectEntityWithoutMembersAsync
+  nameWithType: IProjectAgent.SaveProjectEntityWithoutMembersAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync
   isExternal: true

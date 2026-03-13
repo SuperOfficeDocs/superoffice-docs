@@ -109,6 +109,7 @@ items:
   - SuperOffice.Data.FieldAccess
   - SuperOffice.Data.FieldDataType
   - SuperOffice.Data.FieldMetadataType
+  - SuperOffice.Data.FormFieldRestrictionType
   - SuperOffice.Data.FormSubmissionStatus
   - SuperOffice.Data.FormType
   - SuperOffice.Data.FormsRecaptchaMode
@@ -1944,6 +1945,14 @@ references:
   name: ProjectMemberEventParticipantStatus
   nameWithType: ProjectMemberEventParticipantStatus
   fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
+- uid: SuperOffice.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.Data.FormFieldRestrictionType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.Data.FormFieldRestrictionType
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data

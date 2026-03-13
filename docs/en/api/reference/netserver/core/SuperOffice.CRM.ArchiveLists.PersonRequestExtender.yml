@@ -58,6 +58,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTitle
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedAt
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLastChanged
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colAuthor
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colReadByOwner
@@ -657,6 +658,14 @@ references:
   name: _colCreatedAt
   nameWithType: TicketExtenderBase._colCreatedAt
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedAt
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketExtenderBase__colCreatedDate
+  name: _colCreatedDate
+  nameWithType: TicketExtenderBase._colCreatedDate
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedDate
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLastChanged
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLastChanged
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase

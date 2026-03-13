@@ -7,9 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Ticket.TicketChangeData.#ctor
   - SuperOffice.CRM.Ticket.TicketChangeData.CategoryId
+  - SuperOffice.CRM.Ticket.TicketChangeData.NumReplies
+  - SuperOffice.CRM.Ticket.TicketChangeData.Origin
   - SuperOffice.CRM.Ticket.TicketChangeData.OwnerEjUserId
+  - SuperOffice.CRM.Ticket.TicketChangeData.Status
   - SuperOffice.CRM.Ticket.TicketChangeData.TicketId
   - SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
+  - SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose
   langs:
   - csharp
   - vb
@@ -143,6 +147,90 @@ items:
       type: System.Int32
     content.vb: Public Property TicketTypeId As Integer
   overload: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId*
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.Origin
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.Origin
+  id: Origin
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: TicketChangeData.Origin
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.Origin
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public TicketOrigin Origin { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketOrigin
+    content.vb: Public Property Origin As TicketOrigin
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.Origin*
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.Status
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.Status
+  id: Status
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TicketChangeData.Status
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.Status
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public TicketBaseStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketBaseStatus
+    content.vb: Public Property Status As TicketBaseStatus
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.Status*
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose
+  id: TimeToClose
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: TimeToClose
+  nameWithType: TicketChangeData.TimeToClose
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int TimeToClose { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TimeToClose As Integer
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose*
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.NumReplies
+  commentId: P:SuperOffice.CRM.Ticket.TicketChangeData.NumReplies
+  id: NumReplies
+  parent: SuperOffice.CRM.Ticket.TicketChangeData
+  langs:
+  - csharp
+  - vb
+  name: NumReplies
+  nameWithType: TicketChangeData.NumReplies
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.NumReplies
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int NumReplies { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumReplies As Integer
+  overload: SuperOffice.CRM.Ticket.TicketChangeData.NumReplies*
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -920,3 +1008,74 @@ references:
   name: TicketTypeId
   nameWithType: TicketChangeData.TicketTypeId
   fullName: SuperOffice.CRM.Ticket.TicketChangeData.TicketTypeId
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.Origin*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.Origin
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeData.html#SuperOffice_CRM_Ticket_TicketChangeData_Origin
+  name: Origin
+  nameWithType: TicketChangeData.Origin
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.Origin
+- uid: SuperOffice.Data.TicketOrigin
+  commentId: T:SuperOffice.Data.TicketOrigin
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketOrigin.html
+  name: TicketOrigin
+  nameWithType: TicketOrigin
+  fullName: SuperOffice.Data.TicketOrigin
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.Status*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.Status
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeData.html#SuperOffice_CRM_Ticket_TicketChangeData_Status
+  name: Status
+  nameWithType: TicketChangeData.Status
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.Status
+- uid: SuperOffice.Data.TicketBaseStatus
+  commentId: T:SuperOffice.Data.TicketBaseStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketBaseStatus.html
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.Data.TicketBaseStatus
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeData.html#SuperOffice_CRM_Ticket_TicketChangeData_TimeToClose
+  name: TimeToClose
+  nameWithType: TicketChangeData.TimeToClose
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.TimeToClose
+- uid: SuperOffice.CRM.Ticket.TicketChangeData.NumReplies*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeData.NumReplies
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketChangeData.html#SuperOffice_CRM_Ticket_TicketChangeData_NumReplies
+  name: NumReplies
+  nameWithType: TicketChangeData.NumReplies
+  fullName: SuperOffice.CRM.Ticket.TicketChangeData.NumReplies

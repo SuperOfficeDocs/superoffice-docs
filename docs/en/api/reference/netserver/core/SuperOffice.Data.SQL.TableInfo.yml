@@ -215,6 +215,7 @@ items:
   - SuperOffice.CRM.Data.ForeignAppTableInfo
   - SuperOffice.CRM.Data.ForeignDeviceTableInfo
   - SuperOffice.CRM.Data.ForeignKeyTableInfo
+  - SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
   - SuperOffice.CRM.Data.FormFieldValueTableInfo
   - SuperOffice.CRM.Data.FormKeysTableInfo
   - SuperOffice.CRM.Data.FormSubmissionTableInfo
