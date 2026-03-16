@@ -4,8 +4,8 @@ title: Microsoft 365-integration som din løsning
 description: Sådan forbinder du din Microsoft 365 e-mailkonto, dokumenter og kalender til SuperOffice.
 keywords: Microsoft 365, SharePoint, Outlook, e-mail, document, kalender, invitation
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: da
 ---
 
 # Microsoft 365-integration som din løsning
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Med Microsoft 365 som din løsning er der flere måder at forbinde din e-mailkonto, dokumenter og kalender til SuperOffice.
 

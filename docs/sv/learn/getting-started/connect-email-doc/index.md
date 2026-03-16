@@ -3,9 +3,9 @@ uid: help-sv-connect-email-doc-cal
 title: Anslut e-post, dokument och kalender
 description: Lär dig vilka integrationsalternativ du behöver baserat på ditt operativsystem, din e-postklient och de dokumentprogram du använder i den här guiden.
 keywords: e-post, dokoment, kalender, inbjudning
-author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: sv
 ---
 
 # Anslut e-post, dokument och kalender
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Genom att ansluta din e-post, dina dokument och din kalender till SuperOffice kan du arbeta mer effektivt och göra det lättare att samarbeta med dina kollegor. Det låter dig:
 

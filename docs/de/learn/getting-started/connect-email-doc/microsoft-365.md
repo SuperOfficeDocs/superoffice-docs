@@ -3,9 +3,9 @@ uid: help-de-connect-microsoft-365
 title: Microsoft 365-Integration als Ihre Lösung
 description: So verbinden Sie Ihr  Microsoft 365 E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice.
 keywords: Microsoft 365, SharePoint, Outlook, E-Mail, Dokument, Kalender, Einladung
-author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: de
 ---
 
 # Microsoft 365-Integration als Ihre Lösung
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Mit Microsoft 365 als Lösung gibt es mehrere Möglichkeiten, Ihr E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice zu verbinden.
 

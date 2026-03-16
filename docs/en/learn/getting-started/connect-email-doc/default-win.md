@@ -4,8 +4,8 @@ title: SuperOffice as your solution (Windows)
 description: How to connect your email account, documents, and calendar to SuperOffice on Windows.
 keywords: email, document, diary, invitation, Windows
 author: Kirsti Aakerholt
-date: 05.28.2025
-version: 10.5
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: en
 ---
 
 # SuperOffice as your solution (Windows)
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 ## Intro
 

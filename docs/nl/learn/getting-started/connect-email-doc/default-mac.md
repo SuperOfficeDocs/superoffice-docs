@@ -3,9 +3,9 @@ uid: help-nl-connect-email-doc-cal-default-mac
 title: SuperOffice als jouw oplossing (macOS)
 description: Hoe je je e-mailaccount, documenten en agenda verbindt met SuperOffice op macOS.
 keywords: e-mail, document, agenda, uitnodigingen, mac
-author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: nl
 ---
 
 # SuperOffice als jouw oplossing (macOS)
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Dit is de standaardmanier om je e-mailaccount, documenten en agenda te verbinden met SuperOffice op macOS.
 

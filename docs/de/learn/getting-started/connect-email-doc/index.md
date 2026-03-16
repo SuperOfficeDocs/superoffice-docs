@@ -3,9 +3,9 @@ uid: help-de-connect-email-doc-cal
 title: E-Mail, Dokumente und Kalender verbinden
 description: Erfahren Sie in diesem Leitfaden, welche Integrationsoptionen Sie basierend auf Ihrem Betriebssystem, E-Mail-Client und den von Ihnen verwendeten Dokumentprogrammen benötigen.
 keywords: E-Mail, Dokument, Kalender, Einladung
-author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: concept
 language: de
 audience: person
@@ -13,6 +13,8 @@ audience_tooltip: SuperOffice CRM
 ---
 
 # E-Mail, Dokumente und Kalender verbinden
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Das Verbinden Ihrer E-Mails, Dokumente und Ihres Kalenders mit SuperOffice hilft Ihnen, effizienter zu arbeiten und erleichtert die Zusammenarbeit mit Ihren Kollegen. Es ermöglicht Ihnen:
 

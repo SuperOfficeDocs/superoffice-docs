@@ -4,8 +4,8 @@ title: Tilslut e-mail, dokumenter og kalender
 description: Lær hvilke integrationsmuligheder du har brug for, baseret på dit operativsystem, din e-mailklient og de dokumentprogrammer, du bruger, i denne vejledning.
 keywords: e-mail, document, kalender, invitation
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 03.17.2026
+version: 11.10
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: da
 ---
 
 # Tilslut e-mail, dokumenter og kalender
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Tilslutning af dine e-mails, dokumenter og kalender til SuperOffice vil hjælpe dig med at arbejde mere effektivt og gøre det nemmere at samarbejde med dine kolleger. Det giver dig mulighed for at:
 
