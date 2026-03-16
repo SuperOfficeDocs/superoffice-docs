@@ -5,8 +5,6 @@ items:
   id: ConfigFile.Data.Explicit
   parent: SuperOffice.Configuration
   children:
-  - SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
-  - SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
   - SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
   - SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
   - SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
@@ -106,29 +104,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property SystemAllowed As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed*
-- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
-  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
-  id: AnonymousAllowed
-  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
-  langs:
-  - csharp
-  - vb
-  name: AnonymousAllowed
-  nameWithType: ConfigFile.Data.Explicit.AnonymousAllowed
-  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: 'Is anonymous access allowed: [True|False]'
-  example: []
-  syntax:
-    content: public static bool AnonymousAllowed { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Property AnonymousAllowed As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed*
 - uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
   commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
   id: DBUser
@@ -175,29 +150,6 @@ items:
       type: System.String
     content.vb: Public Shared Property DBPassword As String
   overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword*
-- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
-  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
-  id: CommonDBConnection
-  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
-  langs:
-  - csharp
-  - vb
-  name: CommonDBConnection
-  nameWithType: ConfigFile.Data.Explicit.CommonDBConnection
-  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Use the same connection string for all users, applying the common User and Password from this section, vs. using the one provided elsewhere.
-  example: []
-  syntax:
-    content: public static bool CommonDBConnection { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Property CommonDBConnection As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection*
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
@@ -495,13 +447,6 @@ references:
   name: SystemAllowed
   nameWithType: ConfigFile.Data.Explicit.SystemAllowed
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
-- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Data.Explicit.html#SuperOffice_Configuration_ConfigFile_Data_Explicit_AnonymousAllowed
-  name: AnonymousAllowed
-  nameWithType: ConfigFile.Data.Explicit.AnonymousAllowed
-  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
 - uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
   isExternal: true
@@ -527,10 +472,3 @@ references:
   name: DBPassword
   nameWithType: ConfigFile.Data.Explicit.DBPassword
   fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
-- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Data.Explicit.html#SuperOffice_Configuration_ConfigFile_Data_Explicit_CommonDBConnection
-  name: CommonDBConnection
-  nameWithType: ConfigFile.Data.Explicit.CommonDBConnection
-  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection

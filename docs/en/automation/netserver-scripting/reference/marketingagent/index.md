@@ -39,6 +39,7 @@ Service methods defined on <see cref='T:IMarketingAgent'>MarketingAgent</see> th
 * [SaveFormSubmissionEntityAsync](saveformsubmissionentityasync.md)
 * [SaveShipmentMessageBlockEntityAsync](saveshipmentmessageblockentityasync.md)
 * [SaveShipmentMessageEntityAsync](saveshipmentmessageentityasync.md)
+* [SetAllFormFieldRestrictionsAsync](setallformfieldrestrictionsasync.md)
 * [SetFontRankAsync](setfontrankasync.md)
 * [VerifyGoogleRecaptchaAsync](verifygooglerecaptchaasync.md)
 

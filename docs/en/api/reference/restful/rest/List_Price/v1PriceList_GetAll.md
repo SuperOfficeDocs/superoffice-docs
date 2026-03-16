@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=cupiditate
-GET /api/v1/Pricelist?$top=479
-GET /api/v1/Pricelist?$skip=204
+GET /api/v1/Pricelist?$entities=officiis
+GET /api/v1/Pricelist?$top=477
+GET /api/v1/Pricelist?$skip=374
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=nulla
+GET /api/v1/Pricelist?$context=debitis
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display

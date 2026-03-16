@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction
+  commentId: T:SuperOffice.WebApi.Data.FormFieldRestriction
+  id: FormFieldRestriction
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FormFieldRestriction.#ctor
+  - SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier
+  - SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  - SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  - SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestriction
+  nameWithType: FormFieldRestriction
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for FormFieldRestriction.
+
+    Carrier for FormFieldRestriction
+  example: []
+  syntax:
+    content: 'public class FormFieldRestriction : Carrier'
+    content.vb: Public Class FormFieldRestriction Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MarketingAgent
+    commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FormFieldRestriction.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestriction()
+  nameWithType: FormFieldRestriction.FormFieldRestriction()
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestriction()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public FormFieldRestriction()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.FormFieldRestriction.#ctor*
+  nameWithType.vb: FormFieldRestriction.New()
+  fullName.vb: SuperOffice.WebApi.Data.FormFieldRestriction.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId
+  commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId
+  id: FormFieldRestrictionId
+  parent: SuperOffice.WebApi.Data.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestrictionId
+  nameWithType: FormFieldRestriction.FormFieldRestrictionId
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Primary key
+  example: []
+  syntax:
+    content: public virtual int FormFieldRestrictionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FormFieldRestrictionId As Integer
+  overload: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId*
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier
+  commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier
+  id: FieldIdentifier
+  parent: SuperOffice.WebApi.Data.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FieldIdentifier
+  nameWithType: FormFieldRestriction.FieldIdentifier
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: the identifier for the field
+  example: []
+  syntax:
+    content: public virtual string FieldIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldIdentifier As String
+  overload: SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier*
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  id: FieldRestriction_String
+  parent: SuperOffice.WebApi.Data.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FieldRestriction_String
+  nameWithType: FormFieldRestriction.FieldRestriction_String
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The restriction set on the field
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("FieldRestriction")]
+
+      public string FieldRestriction_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("FieldRestriction")>
+
+      Public Property FieldRestriction_String As String
+  overload: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+    commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: FieldRestriction
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  id: FieldRestriction
+  parent: SuperOffice.WebApi.Data.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FieldRestriction
+  nameWithType: FormFieldRestriction.FieldRestriction
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The restriction set on the field
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public FormFieldRestrictionType? FieldRestriction { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FormFieldRestrictionType}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property FieldRestriction As FormFieldRestrictionType?
+  overload: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+    commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.MarketingAgent.html
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FormFieldRestriction.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction__ctor
+  name: FormFieldRestriction
+  nameWithType: FormFieldRestriction.FormFieldRestriction
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestriction
+  nameWithType.vb: FormFieldRestriction.New
+  fullName.vb: SuperOffice.WebApi.Data.FormFieldRestriction.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId*
+  commentId: Overload:SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction_FormFieldRestrictionId
+  name: FormFieldRestrictionId
+  nameWithType: FormFieldRestriction.FormFieldRestrictionId
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FormFieldRestrictionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction_FieldIdentifier
+  name: FieldIdentifier
+  nameWithType: FormFieldRestriction.FieldIdentifier
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction_FieldRestriction
+  name: FieldRestriction
+  nameWithType: FormFieldRestriction.FieldRestriction
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String*
+  commentId: Overload:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction_FieldRestriction_String
+  name: FieldRestriction_String
+  nameWithType: FormFieldRestriction.FieldRestriction_String
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  commentId: P:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction_FieldRestriction_String
+  name: FieldRestriction_String
+  nameWithType: FormFieldRestriction.FieldRestriction_String
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction_String
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction*
+  commentId: Overload:SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html#SuperOffice_WebApi_Data_FormFieldRestriction_FieldRestriction
+  name: FieldRestriction
+  nameWithType: FormFieldRestriction.FieldRestriction
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction.FieldRestriction
+- uid: System.Nullable{SuperOffice.WebApi.Data.FormFieldRestrictionType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.FormFieldRestrictionType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType?
+  nameWithType: FormFieldRestrictionType?
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.FormFieldRestrictionType
+    name: FormFieldRestrictionType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FormFieldRestrictionType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.FormFieldRestrictionType
+    name: FormFieldRestrictionType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FormFieldRestrictionType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

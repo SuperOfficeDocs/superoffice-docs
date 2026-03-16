@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=adipisci
-GET /api/v1/CRMScript?$top=312
-GET /api/v1/CRMScript?$skip=61
+GET /api/v1/CRMScript?$entities=quidem
+GET /api/v1/CRMScript?$top=920
+GET /api/v1/CRMScript?$skip=461
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=quaerat
+GET /api/v1/CRMScript?$context=nihil
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=False
+GET /api/v1/CRMScript?$jsonSafe=True
 GET /api/v1/CRMScript?$output=Display
 ```
 

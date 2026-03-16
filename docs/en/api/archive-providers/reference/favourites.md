@@ -776,6 +776,7 @@ Archive provider for the list of favourites
 |ownedBy| *None* |Owner: The owner of the request|  |
 |ticketId| *None* |ID: Displays request ID|  |
 |createdAt| *None* |Created: Displays when the request was created|  |
+|createdDate| *None* |Created date: Created date|  |
 |lastChanged| *None* |Last changed: Displays when the request was last changed|  |
 |author| *None* |Author: Displays the author of the request|  |
 |readByOwner| *None* |Read by owner: Displays when the request was read by the owner|  |
@@ -856,11 +857,11 @@ Archive provider for the list of favourites
 |ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
-|ownedBy/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
 |ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |ownedBy/contactCategory| *None* |Owner - Category: Category|  |
 |ownedBy/role| *None* |Owner - Role: Role|  |
@@ -907,7 +908,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=salePublish/publishedBy,contactFax/description,postAddress/county,restrictionAddress/state,personActiveErpLinks
+GET /api/v1/archive/Favourites?$select=getNoRows,associate/lastName,associate/assocName,streetAddress/state,contactUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -16,7 +16,9 @@ items:
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
   - SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
   - SuperOffice.Configuration.VersionPropertyNames.DisconnectDatabaseDuringFlush
+  - SuperOffice.Configuration.VersionPropertyNames.ForceSqlRecompile
   - SuperOffice.Configuration.VersionPropertyNames.ReportEndpointUsage
+  - SuperOffice.Configuration.VersionPropertyNames.SampleInAllRequests
   - SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   langs:
   - csharp
@@ -193,6 +195,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SampleInCustomCrmScript As String = "SampleInCustomCrmScript"
+- uid: SuperOffice.Configuration.VersionPropertyNames.SampleInAllRequests
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.SampleInAllRequests
+  id: SampleInAllRequests
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: SampleInAllRequests
+  nameWithType: VersionPropertyNames.SampleInAllRequests
+  fullName: SuperOffice.Configuration.VersionPropertyNames.SampleInAllRequests
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Set to true to disable sampling to all request telemetry. All request telemetry will be sent to Application Insights. Default value is false.
+  example: []
+  syntax:
+    content: public const string SampleInAllRequests = "SampleInAllRequests"
+    return:
+      type: System.String
+    content.vb: Public Const SampleInAllRequests As String = "SampleInAllRequests"
 - uid: SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
   id: AggregateApisInSnapshot
@@ -327,6 +350,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const DisconnectDatabaseDuringFlush As String = "DisconnectDatabaseDuringFlush"
+- uid: SuperOffice.Configuration.VersionPropertyNames.ForceSqlRecompile
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.ForceSqlRecompile
+  id: ForceSqlRecompile
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: ForceSqlRecompile
+  nameWithType: VersionPropertyNames.ForceSqlRecompile
+  fullName: SuperOffice.Configuration.VersionPropertyNames.ForceSqlRecompile
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Use the <b>OPTION (RECOMPILE)</b> on matching Sql, as a way to force new query plans. Only valid on Sql Server until further notice
+  example: []
+  syntax:
+    content: public const string ForceSqlRecompile = "ForceSqlRecompile"
+    return:
+      type: System.String
+    content.vb: Public Const ForceSqlRecompile As String = "ForceSqlRecompile"
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration

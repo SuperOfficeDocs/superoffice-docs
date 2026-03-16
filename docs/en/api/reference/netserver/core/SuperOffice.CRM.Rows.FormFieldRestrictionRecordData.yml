@@ -1,0 +1,1208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  id: FormFieldRestrictionRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.#ctor
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldIdentifier
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldRestriction
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FormFieldRestrictionId
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Registered
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Updated
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestrictionRecordData
+  nameWithType: FormFieldRestrictionRecordData
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
+
+    to a row from the form_field_restriction table.
+  remarks: >-
+    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.FormFieldRestrictionRow" data-throw-if-not-resolved="false"></xref> object when
+
+    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
+
+    since they carry the corresponding <xref href="SuperOffice.CRM.Data.FormFieldRestrictionTableInfo" data-throw-if-not-resolved="false"></xref> object, which
+
+    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
+  example: []
+  syntax:
+    content: public class FormFieldRestrictionRecordData
+    content.vb: Public Class FormFieldRestrictionRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FormFieldRestrictionId
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FormFieldRestrictionId
+  id: FormFieldRestrictionId
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestrictionId
+  nameWithType: FormFieldRestrictionRecordData.FormFieldRestrictionId
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FormFieldRestrictionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Primary key
+  example: []
+  syntax:
+    content: public int FormFieldRestrictionId
+    return:
+      type: System.Int32
+    content.vb: Public FormFieldRestrictionId As Integer
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldIdentifier
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldIdentifier
+  id: FieldIdentifier
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FieldIdentifier
+  nameWithType: FormFieldRestrictionRecordData.FieldIdentifier
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldIdentifier
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: the identifier for the field
+  example: []
+  syntax:
+    content: public string FieldIdentifier
+    return:
+      type: System.String
+    content.vb: Public FieldIdentifier As String
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldRestriction
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldRestriction
+  id: FieldRestriction
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FieldRestriction
+  nameWithType: FormFieldRestrictionRecordData.FieldRestriction
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FieldRestriction
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The restriction set on the field
+  example: []
+  syntax:
+    content: public FormFieldRestrictionType FieldRestriction
+    return:
+      type: SuperOffice.Data.FormFieldRestrictionType
+    content.vb: Public FieldRestriction As FormFieldRestrictionType
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: FormFieldRestrictionRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Registered when in UTC.
+  example: []
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: FormFieldRestrictionRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Registered by whom
+  example: []
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: FormFieldRestrictionRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Last updated when in UTC.
+  example: []
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: FormFieldRestrictionRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Last updated by whom
+  example: []
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: FormFieldRestrictionRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Number of updates made to this record
+  example: []
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestrictionRecordData()
+  nameWithType: FormFieldRestrictionRecordData.FormFieldRestrictionRecordData()
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FormFieldRestrictionRecordData()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public FormFieldRestrictionRecordData()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.#ctor*
+  nameWithType.vb: FormFieldRestrictionRecordData.New()
+  fullName.vb: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRow.html
+  name: FormFieldRestrictionRow
+  nameWithType: FormFieldRestrictionRow
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRow
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  name: FormFieldRestrictionTableInfo
+  nameWithType: FormFieldRestrictionTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<FormFieldRestrictionRecordData, To>(FormFieldRestrictionRecordData)
+  nameWithType: EnumUtil.MapEnums<FormFieldRestrictionRecordData, To>(FormFieldRestrictionRecordData)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, To>(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  nameWithType.vb: EnumUtil.MapEnums(Of FormFieldRestrictionRecordData, To)(FormFieldRestrictionRecordData)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, To)(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  name.vb: MapEnums(Of FormFieldRestrictionRecordData, To)(FormFieldRestrictionRecordData)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormFieldRestrictionRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(FormFieldRestrictionRecordData, CancellationToken)
+  nameWithType: FormFieldRestrictionRecordDataExtensions.ToInsertAsync(FormFieldRestrictionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormFieldRestrictionRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormFieldRestrictionRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<FormFieldRestrictionRecordData, To>(FormFieldRestrictionRecordData)
+  nameWithType: Converters.MapEnums<FormFieldRestrictionRecordData, To>(FormFieldRestrictionRecordData)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, To>(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  nameWithType.vb: Converters.MapEnums(Of FormFieldRestrictionRecordData, To)(FormFieldRestrictionRecordData)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, To)(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  name.vb: MapEnums(Of FormFieldRestrictionRecordData, To)(FormFieldRestrictionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<FormFieldRestrictionRecordData>(FormFieldRestrictionRecordData, FormFieldRestrictionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<FormFieldRestrictionRecordData>(FormFieldRestrictionRecordData, FormFieldRestrictionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.FormFieldRestrictionRecordData>(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormFieldRestrictionRecordData)(FormFieldRestrictionRecordData, FormFieldRestrictionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  name.vb: AssignByReflection(Of FormFieldRestrictionRecordData)(FormFieldRestrictionRecordData, FormFieldRestrictionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<FormFieldRestrictionRecordData>(FormFieldRestrictionRecordData)
+  nameWithType: ObjectExtensions.GraphCopy<FormFieldRestrictionRecordData>(FormFieldRestrictionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.FormFieldRestrictionRecordData>(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormFieldRestrictionRecordData)(FormFieldRestrictionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+  name.vb: GraphCopy(Of FormFieldRestrictionRecordData)(FormFieldRestrictionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: )
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormFieldRestrictionRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync(FormFieldRestrictionRecordData, CancellationToken)
+  nameWithType: FormFieldRestrictionRecordDataExtensions.ToInsertAsync(FormFieldRestrictionRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormFieldRestrictionRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.FormFieldRestrictionRecordData,System.Threading.CancellationToken)
+    name: ToInsertAsync
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_FormFieldRestrictionRecordData_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData
+    name: FormFieldRestrictionRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions.html
+  name: FormFieldRestrictionRecordDataExtensions
+  nameWithType: FormFieldRestrictionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.Data.FormFieldRestrictionType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.Data.FormFieldRestrictionType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.html#SuperOffice_CRM_Rows_FormFieldRestrictionRecordData__ctor
+  name: FormFieldRestrictionRecordData
+  nameWithType: FormFieldRestrictionRecordData.FormFieldRestrictionRecordData
+  fullName: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.FormFieldRestrictionRecordData
+  nameWithType.vb: FormFieldRestrictionRecordData.New
+  fullName.vb: SuperOffice.CRM.Rows.FormFieldRestrictionRecordData.New
+  name.vb: New

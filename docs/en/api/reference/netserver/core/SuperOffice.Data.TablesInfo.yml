@@ -167,6 +167,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetForeignAppTableInfo
   - SuperOffice.Data.TablesInfo.GetForeignDeviceTableInfo
   - SuperOffice.Data.TablesInfo.GetForeignKeyTableInfo
+  - SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
   - SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
   - SuperOffice.Data.TablesInfo.GetFormKeysTableInfo
   - SuperOffice.Data.TablesInfo.GetFormSubmissionTableInfo
@@ -12552,6 +12553,31 @@ items:
       type: SuperOffice.CRM.Data.FormSubmissionTableInfo
     content.vb: Public Shared Function GetFormSubmissionTableInfo() As FormSubmissionTableInfo
   overload: SuperOffice.Data.TablesInfo.GetFormSubmissionTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+  id: GetFormFieldRestrictionTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetFormFieldRestrictionTableInfo()
+  nameWithType: TablesInfo.GetFormFieldRestrictionTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of FormFieldRestrictionTableInfo:
+
+    This table contains all form fields restrictions
+  example: []
+  syntax:
+    content: public static FormFieldRestrictionTableInfo GetFormFieldRestrictionTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+    content.vb: Public Shared Function GetFormFieldRestrictionTableInfo() As FormFieldRestrictionTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   id: GetEmailAccountTableInfo
@@ -21512,6 +21538,21 @@ references:
   name: FormSubmissionTableInfo
   nameWithType: FormSubmissionTableInfo
   fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetFormFieldRestrictionTableInfo
+  name: GetFormFieldRestrictionTableInfo
+  nameWithType: TablesInfo.GetFormFieldRestrictionTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  name: FormFieldRestrictionTableInfo
+  nameWithType: FormFieldRestrictionTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   isExternal: true

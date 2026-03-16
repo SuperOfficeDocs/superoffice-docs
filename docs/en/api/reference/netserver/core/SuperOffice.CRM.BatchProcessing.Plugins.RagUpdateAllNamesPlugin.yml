@@ -7,7 +7,7 @@ items:
   children:
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.BatchProcessing.IBatchTaskFactory,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin})
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.PluginName
-  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -155,16 +155,16 @@ items:
   nameWithType.vb: RagUpdateAllNamesPlugin.RunAsync(String, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAsync(String, String, System.Threading.CancellationToken)
   name.vb: RunAsync(String, String, CancellationToken)
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  id: RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  id: RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
   langs:
   - csharp
   - vb
-  name: RunAllNamesIndexing(BatchTaskInfo, CancellationToken)
-  nameWithType: RagUpdateAllNamesPlugin.RunAllNamesIndexing(BatchTaskInfo, CancellationToken)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
+  name: RunAllNamesIndexing(BatchTaskInfo, string, CancellationToken)
+  nameWithType: RagUpdateAllNamesPlugin.RunAllNamesIndexing(BatchTaskInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoBatchProcessing
@@ -172,18 +172,23 @@ items:
   summary: Re-index content in the RAG system.
   example: []
   syntax:
-    content: protected Task RunAllNamesIndexing(BatchTaskInfo bti, CancellationToken cancellationToken = default)
+    content: protected Task RunAllNamesIndexing(BatchTaskInfo bti, string indexRunTag, CancellationToken cancellationToken = default)
     parameters:
     - id: bti
       type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: indexRunTag
+      type: System.String
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Protected Function RunAllNamesIndexing(bti As BatchTaskInfo, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Protected Function RunAllNamesIndexing(bti As BatchTaskInfo, indexRunTag As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing*
+  nameWithType.vb: RagUpdateAllNamesPlugin.RunAllNamesIndexing(BatchTaskInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, String, System.Threading.CancellationToken)
+  name.vb: RunAllNamesIndexing(BatchTaskInfo, String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins
   commentId: N:SuperOffice.CRM.BatchProcessing.Plugins
@@ -1673,7 +1678,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdateAllNamesPlugin_RunAllNamesIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdateAllNamesPlugin_RunAllNamesIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_String_System_Threading_CancellationToken_
   name: RunAllNamesIndexing
   nameWithType: RagUpdateAllNamesPlugin.RunAllNamesIndexing
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.RunAllNamesIndexing

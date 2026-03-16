@@ -781,7 +781,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombined?$select=productFamilyKey,alternative/version/quote/sale/person/personUdef/SuperOffice:3,alternative/version/quote/sale/contact/contactId,alternative/version/quote/sale/contact/country,alternative/version/quote/sale/contact/contactFax/formattedNumber
+GET /api/v1/archive/QuoteLineSelectionCombined?$select=alternative/extraField2,alternative/version/quote/sale/amount,alternative/version/quote/sale/person/correspondingAssociate/mrMrs,alternative/version/quote/sale/person/correspondingAssociate/otherGroups,alternative/version/quote/sale/associate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

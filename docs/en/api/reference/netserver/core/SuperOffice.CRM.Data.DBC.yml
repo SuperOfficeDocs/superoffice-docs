@@ -168,6 +168,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ForeignDevice
   - SuperOffice.CRM.Data.DBC.ForeignKey
   - SuperOffice.CRM.Data.DBC.Form
+  - SuperOffice.CRM.Data.DBC.FormFieldRestriction
   - SuperOffice.CRM.Data.DBC.FormFieldValue
   - SuperOffice.CRM.Data.DBC.FormKeys
   - SuperOffice.CRM.Data.DBC.FormSubmission
@@ -10450,6 +10451,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const FormSubmission As String = "form_submission"
+- uid: SuperOffice.CRM.Data.DBC.FormFieldRestriction
+  commentId: F:SuperOffice.CRM.Data.DBC.FormFieldRestriction
+  id: FormFieldRestriction
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestriction
+  nameWithType: DBC.FormFieldRestriction
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldRestriction
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'FormFieldRestriction: This table contains all form fields restrictions'
+  example: []
+  syntax:
+    content: public const string FormFieldRestriction = "form_field_restriction"
+    return:
+      type: System.String
+    content.vb: Public Const FormFieldRestriction As String = "form_field_restriction"
 - uid: SuperOffice.CRM.Data.DBC.EmailAccount
   commentId: F:SuperOffice.CRM.Data.DBC.EmailAccount
   id: EmailAccount

@@ -920,6 +920,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -953,11 +954,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
-|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
 |request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
@@ -1057,11 +1058,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/status|listAny|Status: Displays the project's status| x |
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
 |projectMembers/description|string|Description : Description| x |
@@ -1079,6 +1080,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/eventId|int|Project event ID: Project event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -1160,12 +1162,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
-|personAppointment/type|listAny|Type: Displays the type of an activity| x |
-|personAppointment/recordType|string|Record type : Shows the record type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/type|listAny|Type: Displays the type of an activity| x |
+|personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
@@ -1264,12 +1266,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |linkClicked/linkId|int|Link ID: Link ID|  |
 |linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
 |formSubmission/formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmission/formSubmissionFormId|int|Id: Id of the form| x |
-|formSubmission/formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|formSubmission/formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmission/formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
 |formSubmission/formSubmissionStatus|listAny|Status: Status of the form submission record| x |
 |formSubmission/formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |formSubmission/icon| *None* |Category: Displays the icon for an activity type| x |
@@ -1368,12 +1370,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/approvedBy|associate|Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/approvalRegisteredBy|associate|Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.| x |
 |sale/quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|sale/quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|sale/quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
+|sale/quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
@@ -1449,7 +1451,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=streetAddress/county,contactAssociate/credentialType,sourceRelation/number,sale/stage,sale/stakeholdersEnabled
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactExtra/x_contact_dropdown,sourceRelation/registeredByFullName,targetRelation/number,sale/updatedByFullName,sale/competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

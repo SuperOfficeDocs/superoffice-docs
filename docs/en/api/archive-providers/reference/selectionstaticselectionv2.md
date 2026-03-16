@@ -82,7 +82,7 @@ Static archive Provider for a Selection of selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/usergroup,lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/SelectionStaticSelectionV2?$select=kind,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

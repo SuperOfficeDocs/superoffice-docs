@@ -415,6 +415,7 @@ content_type: reference
           <xs:enumeration value="NewSerialAvailable" />
           <xs:enumeration value="UseCustomMessage" />
           <xs:enumeration value="UseCustomMessageAndUrl" />
+          <xs:enumeration value="NewLicenseActivated" />
           <xs:enumeration value="ProblemWithLicense">
             <xs:annotation>
               <xs:appinfo>

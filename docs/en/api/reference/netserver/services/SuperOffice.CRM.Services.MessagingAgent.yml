@@ -1,0 +1,1393 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.MessagingAgent
+  commentId: T:SuperOffice.CRM.Services.MessagingAgent
+  id: MessagingAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: MessagingAgent
+  nameWithType: MessagingAgent
+  fullName: SuperOffice.CRM.Services.MessagingAgent
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Proxy class for the Messaging Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+
+    <p></p>
+
+    <b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: 'public class MessagingAgent : IMessagingAgent, IAgent'
+    content.vb: Public Class MessagingAgent Implements IMessagingAgent, IAgent
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor)
+  nameWithType: MessagingAgent.MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.MessagingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public MessagingAgent(IIncomingMessageImplementation incomingMessageImplementation, IMessageDeliveryStatusImplementation messageDeliveryStatusImplementation, IOutgoingMessageImplementation outgoingMessageImplementation, IProviderInfoImplementation providerInfoImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: incomingMessageImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation
+    - id: messageDeliveryStatusImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation
+    - id: outgoingMessageImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation
+    - id: providerInfoImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(incomingMessageImplementation As IIncomingMessageImplementation, messageDeliveryStatusImplementation As IMessageDeliveryStatusImplementation, outgoingMessageImplementation As IOutgoingMessageImplementation, providerInfoImplementation As IProviderInfoImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.MessagingAgent.#ctor*
+  nameWithType.vb: MessagingAgent.New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: MessagingAgent.MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.MessagingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public MessagingAgent(IIncomingMessageImplementation incomingMessageImplementation, IMessageDeliveryStatusImplementation messageDeliveryStatusImplementation, IOutgoingMessageImplementation outgoingMessageImplementation, IProviderInfoImplementation providerInfoImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    parameters:
+    - id: incomingMessageImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation
+    - id: messageDeliveryStatusImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation
+    - id: outgoingMessageImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation
+    - id: providerInfoImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(incomingMessageImplementation As IIncomingMessageImplementation, messageDeliveryStatusImplementation As IMessageDeliveryStatusImplementation, outgoingMessageImplementation As IOutgoingMessageImplementation, providerInfoImplementation As IProviderInfoImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+  overload: SuperOffice.CRM.Services.MessagingAgent.#ctor*
+  nameWithType.vb: MessagingAgent.New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+- uid: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+  id: CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateMessageAsync(IncomingMessage, CancellationToken)
+  nameWithType: MessagingAgent.CreateMessageAsync(IncomingMessage, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Create a new message and insert it in the message queue. (inbox)
+  example: []
+  syntax:
+    content: public Task CreateMessageAsync(IncomingMessage incomingMessage, CancellationToken cancellationToken = default)
+    parameters:
+    - id: incomingMessage
+      type: SuperOffice.CRM.Services.IncomingMessage
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function CreateMessageAsync(incomingMessage As IncomingMessage, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeliveryStatusAsync(int[], CancellationToken)
+  nameWithType: MessagingAgent.GetDeliveryStatusAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync(int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get delivery status
+  example: []
+  syntax:
+    content: public Task<MessageDeliveryStatus[]> GetDeliveryStatusAsync(int[] messagingIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: messagingIds
+      type: System.Int32[]
+      description: Array of messaging ids.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MessageDeliveryStatus[]}
+      description: ''
+    content.vb: Public Function GetDeliveryStatusAsync(messagingIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of MessageDeliveryStatus())
+  overload: SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: MessagingAgent.GetDeliveryStatusAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetDeliveryStatusAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  id: SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDeliveryStatusAsync(string, string, int, string, CancellationToken)
+  nameWithType: MessagingAgent.SetDeliveryStatusAsync(string, string, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync(string, string, int, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Set or change the delivery status on an outgoing messsage.
+  example: []
+  syntax:
+    content: public Task SetDeliveryStatusAsync(string plugin, string externalMessageId, int status, string statusDescription, CancellationToken cancellationToken = default)
+    parameters:
+    - id: plugin
+      type: System.String
+      description: Name of plugin
+    - id: externalMessageId
+      type: System.String
+      description: External message id known to plugin.
+    - id: status
+      type: System.Int32
+      description: Delivery status
+    - id: statusDescription
+      type: System.String
+      description: String describing delivery status.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function SetDeliveryStatusAsync(plugin As String, externalMessageId As String, status As Integer, statusDescription As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: MessagingAgent.SetDeliveryStatusAsync(String, String, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync(String, String, Integer, String, System.Threading.CancellationToken)
+  name.vb: SetDeliveryStatusAsync(String, String, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  id: SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: SendMessagesAsync(string, OutgoingMessage[], CancellationToken)
+  nameWithType: MessagingAgent.SendMessagesAsync(string, OutgoingMessage[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync(string, SuperOffice.CRM.Services.OutgoingMessage[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Send an array of messages
+  example: []
+  syntax:
+    content: public Task<MessageDeliveryStatus[]> SendMessagesAsync(string plugin, OutgoingMessage[] outgoingMessages, CancellationToken cancellationToken = default)
+    parameters:
+    - id: plugin
+      type: System.String
+      description: Name of plugin to use.
+    - id: outgoingMessages
+      type: SuperOffice.CRM.Services.OutgoingMessage[]
+      description: Array of outgoing messages you want to send.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MessageDeliveryStatus[]}
+      description: Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
+    content.vb: Public Function SendMessagesAsync(plugin As String, outgoingMessages As OutgoingMessage(), cancellationToken As CancellationToken = Nothing) As Task(Of MessageDeliveryStatus())
+  overload: SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  nameWithType.vb: MessagingAgent.SendMessagesAsync(String, OutgoingMessage(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync(String, SuperOffice.CRM.Services.OutgoingMessage(), System.Threading.CancellationToken)
+  name.vb: SendMessagesAsync(String, OutgoingMessage(), CancellationToken)
+- uid: SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  id: SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: SendMessagesWithConfigAsync(string, OutgoingMessage[], StringDictionary, CancellationToken)
+  nameWithType: MessagingAgent.SendMessagesWithConfigAsync(string, OutgoingMessage[], StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync(string, SuperOffice.CRM.Services.OutgoingMessage[], SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Send an array of messages using given config
+  example: []
+  syntax:
+    content: public Task<MessageDeliveryStatus[]> SendMessagesWithConfigAsync(string plugin, OutgoingMessage[] outgoingMessages, StringDictionary config, CancellationToken cancellationToken = default)
+    parameters:
+    - id: plugin
+      type: System.String
+      description: Name of plugin to use.
+    - id: outgoingMessages
+      type: SuperOffice.CRM.Services.OutgoingMessage[]
+      description: Array of outgoing messages you want to send.
+    - id: config
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Config values used by the plugin.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MessageDeliveryStatus[]}
+      description: Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
+    content.vb: Public Function SendMessagesWithConfigAsync(plugin As String, outgoingMessages As OutgoingMessage(), config As StringDictionary, cancellationToken As CancellationToken = Nothing) As Task(Of MessageDeliveryStatus())
+  overload: SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  nameWithType.vb: MessagingAgent.SendMessagesWithConfigAsync(String, OutgoingMessage(), StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync(String, SuperOffice.CRM.Services.OutgoingMessage(), SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: SendMessagesWithConfigAsync(String, OutgoingMessage(), StringDictionary, CancellationToken)
+- uid: SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  id: GetPluginsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.MessagingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPluginsAsync(CancellationToken)
+  nameWithType: MessagingAgent.GetPluginsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: ''
+  example: []
+  syntax:
+    content: public Task<ProviderInfo[]> GetPluginsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProviderInfo[]}
+      description: ''
+    content.vb: Public Function GetPluginsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ProviderInfo())
+  overload: SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync*
+  implements:
+  - SuperOffice.CRM.Services.IMessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Services.IMessagingAgent
+  commentId: T:SuperOffice.CRM.Services.IMessagingAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMessagingAgent.html
+  name: IMessagingAgent
+  nameWithType: IMessagingAgent
+  fullName: SuperOffice.CRM.Services.IMessagingAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.MessagingAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_IIncomingMessageImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IMessageDeliveryStatusImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IOutgoingMessageImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IProviderInfoImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: MessagingAgent
+  nameWithType: MessagingAgent.MessagingAgent
+  fullName: SuperOffice.CRM.Services.MessagingAgent.MessagingAgent
+  nameWithType.vb: MessagingAgent.New
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation.html
+  name: IIncomingMessageImplementation
+  nameWithType: IIncomingMessageImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation.html
+  name: IMessageDeliveryStatusImplementation
+  nameWithType: IMessageDeliveryStatusImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation.html
+  name: IOutgoingMessageImplementation
+  nameWithType: IOutgoingMessageImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation.html
+  name: IProviderInfoImplementation
+  nameWithType: IProviderInfoImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent_CreateMessageAsync_SuperOffice_CRM_Services_IncomingMessage_System_Threading_CancellationToken_
+  name: CreateMessageAsync
+  nameWithType: MessagingAgent.CreateMessageAsync
+  fullName: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync
+- uid: SuperOffice.CRM.Services.IMessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMessagingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateMessageAsync(IncomingMessage, CancellationToken)
+  nameWithType: IMessagingAgent.CreateMessageAsync(IncomingMessage, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+    name: CreateMessageAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.IncomingMessage
+    name: IncomingMessage
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
+    name: CreateMessageAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.IncomingMessage
+    name: IncomingMessage
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.IncomingMessage
+  commentId: T:SuperOffice.CRM.Services.IncomingMessage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IncomingMessage.html
+  name: IncomingMessage
+  nameWithType: IncomingMessage
+  fullName: SuperOffice.CRM.Services.IncomingMessage
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent_GetDeliveryStatusAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetDeliveryStatusAsync
+  nameWithType: MessagingAgent.GetDeliveryStatusAsync
+  fullName: SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync
+- uid: SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMessagingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetDeliveryStatusAsync(int[], CancellationToken)
+  nameWithType: IMessagingAgent.GetDeliveryStatusAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: IMessagingAgent.GetDeliveryStatusAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetDeliveryStatusAsync(Integer(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetDeliveryStatusAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetDeliveryStatusAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MessageDeliveryStatus[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MessageDeliveryStatus[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MessageDeliveryStatus[]>
+  nameWithType: Task<MessageDeliveryStatus[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MessageDeliveryStatus[]>
+  nameWithType.vb: Task(Of MessageDeliveryStatus())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MessageDeliveryStatus())
+  name.vb: Task(Of MessageDeliveryStatus())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.MessageDeliveryStatus
+    name: MessageDeliveryStatus
+    isExternal: true
+    href: SuperOffice.CRM.Services.MessageDeliveryStatus.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.MessageDeliveryStatus
+    name: MessageDeliveryStatus
+    isExternal: true
+    href: SuperOffice.CRM.Services.MessageDeliveryStatus.html
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent_SetDeliveryStatusAsync_System_String_System_String_System_Int32_System_String_System_Threading_CancellationToken_
+  name: SetDeliveryStatusAsync
+  nameWithType: MessagingAgent.SetDeliveryStatusAsync
+  fullName: SuperOffice.CRM.Services.MessagingAgent.SetDeliveryStatusAsync
+- uid: SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMessagingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SetDeliveryStatusAsync(string, string, int, string, CancellationToken)
+  nameWithType: IMessagingAgent.SetDeliveryStatusAsync(string, string, int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(string, string, int, string, System.Threading.CancellationToken)
+  nameWithType.vb: IMessagingAgent.SetDeliveryStatusAsync(String, String, Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(String, String, Integer, String, System.Threading.CancellationToken)
+  name.vb: SetDeliveryStatusAsync(String, String, Integer, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+    name: SetDeliveryStatusAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.SetDeliveryStatusAsync(System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
+    name: SetDeliveryStatusAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent_SendMessagesAsync_System_String_SuperOffice_CRM_Services_OutgoingMessage___System_Threading_CancellationToken_
+  name: SendMessagesAsync
+  nameWithType: MessagingAgent.SendMessagesAsync
+  fullName: SuperOffice.CRM.Services.MessagingAgent.SendMessagesAsync
+- uid: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMessagingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SendMessagesAsync(string, OutgoingMessage[], CancellationToken)
+  nameWithType: IMessagingAgent.SendMessagesAsync(string, OutgoingMessage[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(string, SuperOffice.CRM.Services.OutgoingMessage[], System.Threading.CancellationToken)
+  nameWithType.vb: IMessagingAgent.SendMessagesAsync(String, OutgoingMessage(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(String, SuperOffice.CRM.Services.OutgoingMessage(), System.Threading.CancellationToken)
+  name.vb: SendMessagesAsync(String, OutgoingMessage(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+    name: SendMessagesAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Threading.CancellationToken)
+    name: SendMessagesAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.OutgoingMessage[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.OutgoingMessage.html
+  name: OutgoingMessage[]
+  nameWithType: OutgoingMessage[]
+  fullName: SuperOffice.CRM.Services.OutgoingMessage[]
+  nameWithType.vb: OutgoingMessage()
+  fullName.vb: SuperOffice.CRM.Services.OutgoingMessage()
+  name.vb: OutgoingMessage()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    isExternal: true
+    href: SuperOffice.CRM.Services.OutgoingMessage.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    isExternal: true
+    href: SuperOffice.CRM.Services.OutgoingMessage.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent_SendMessagesWithConfigAsync_System_String_SuperOffice_CRM_Services_OutgoingMessage___SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: SendMessagesWithConfigAsync
+  nameWithType: MessagingAgent.SendMessagesWithConfigAsync
+  fullName: SuperOffice.CRM.Services.MessagingAgent.SendMessagesWithConfigAsync
+- uid: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMessagingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SendMessagesWithConfigAsync(string, OutgoingMessage[], StringDictionary, CancellationToken)
+  nameWithType: IMessagingAgent.SendMessagesWithConfigAsync(string, OutgoingMessage[], StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(string, SuperOffice.CRM.Services.OutgoingMessage[], SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  nameWithType.vb: IMessagingAgent.SendMessagesWithConfigAsync(String, OutgoingMessage(), StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(String, SuperOffice.CRM.Services.OutgoingMessage(), SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: SendMessagesWithConfigAsync(String, OutgoingMessage(), StringDictionary, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: SendMessagesWithConfigAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.SendMessagesWithConfigAsync(System.String,SuperOffice.CRM.Services.OutgoingMessage[],SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: SendMessagesWithConfigAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    isExternal: true
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.MessagingAgent.html#SuperOffice_CRM_Services_MessagingAgent_GetPluginsAsync_System_Threading_CancellationToken_
+  name: GetPluginsAsync
+  nameWithType: MessagingAgent.GetPluginsAsync
+  fullName: SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync
+- uid: SuperOffice.CRM.Services.IMessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IMessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IMessagingAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetPluginsAsync(CancellationToken)
+  nameWithType: IMessagingAgent.GetPluginsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IMessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+    name: GetPluginsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IMessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
+    name: GetPluginsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProviderInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProviderInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ProviderInfo[]>
+  nameWithType: Task<ProviderInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProviderInfo[]>
+  nameWithType.vb: Task(Of ProviderInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProviderInfo())
+  name.vb: Task(Of ProviderInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ProviderInfo
+    name: ProviderInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProviderInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ProviderInfo
+    name: ProviderInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProviderInfo.html
+  - name: (
+  - name: )
+  - name: )

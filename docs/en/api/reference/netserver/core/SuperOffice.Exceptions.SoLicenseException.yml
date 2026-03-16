@@ -101,15 +101,15 @@ items:
   - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
-    content: public SoLicenseException(string moduleOwner, string module, bool logAsException = true)
+    content: public SoLicenseException(string licenseName, string explanation, bool logAsException = true)
     parameters:
-    - id: moduleOwner
+    - id: licenseName
       type: System.String
-    - id: module
+    - id: explanation
       type: System.String
     - id: logAsException
       type: System.Boolean
-    content.vb: Public Sub New(moduleOwner As String, [module] As String, logAsException As Boolean = True)
+    content.vb: Public Sub New(licenseName As String, explanation As String, logAsException As Boolean = True)
   overload: SuperOffice.Exceptions.SoLicenseException.#ctor*
   nameWithType.vb: SoLicenseException.New(String, String, Boolean)
   fullName.vb: SuperOffice.Exceptions.SoLicenseException.New(String, String, Boolean)

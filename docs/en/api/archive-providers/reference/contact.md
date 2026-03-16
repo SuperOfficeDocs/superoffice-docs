@@ -366,7 +366,7 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=contactDeleted,restrictionPostalAddress/county,restrictionPostalAddress/city,streetAddress/county,restrictionAddress/addressId
+GET /api/v1/archive/Contact?$select=contactSupportPerson/personId,contactSupportPerson/isMailingRecipient,contactAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# PushNotificationService Table (503)
+# PushNotificationService Table (504)
 
 Used for storing handles to user devices that should receive push notifications
 

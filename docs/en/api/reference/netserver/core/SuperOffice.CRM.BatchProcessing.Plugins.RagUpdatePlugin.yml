@@ -8,9 +8,9 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.BatchProcessing.IBatchTaskFactory,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,SuperOffice.CRM.Services.ISelectionAgent,Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin},SuperOffice.CRM.Services.IAIAgent)
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.PluginName
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
-  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -161,16 +161,16 @@ items:
   nameWithType.vb: RagUpdatePlugin.RunAsync(String, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunAsync(String, String, System.Threading.CancellationToken)
   name.vb: RunAsync(String, String, CancellationToken)
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  id: RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  id: RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   langs:
   - csharp
   - vb
-  name: RunNamespaceIndexing(BatchTaskInfo, CancellationToken)
-  nameWithType: RagUpdatePlugin.RunNamespaceIndexing(BatchTaskInfo, CancellationToken)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
+  name: RunNamespaceIndexing(BatchTaskInfo, string, CancellationToken)
+  nameWithType: RagUpdatePlugin.RunNamespaceIndexing(BatchTaskInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo, string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoBatchProcessing
@@ -178,28 +178,33 @@ items:
   summary: Re-index Document + Ticket Selections content in the RAG system.
   example: []
   syntax:
-    content: protected Task RunNamespaceIndexing(BatchTaskInfo bti, CancellationToken cancellationToken = default)
+    content: protected Task RunNamespaceIndexing(BatchTaskInfo bti, string indexRunTag, CancellationToken cancellationToken = default)
     parameters:
     - id: bti
       type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: indexRunTag
+      type: System.String
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Protected Function RunNamespaceIndexing(bti As BatchTaskInfo, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Protected Function RunNamespaceIndexing(bti As BatchTaskInfo, indexRunTag As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing*
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  id: RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  nameWithType.vb: RagUpdatePlugin.RunNamespaceIndexing(BatchTaskInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing(SuperOffice.CRM.Services.BatchTaskInfo, String, System.Threading.CancellationToken)
+  name.vb: RunNamespaceIndexing(BatchTaskInfo, String, CancellationToken)
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  id: RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   langs:
   - csharp
   - vb
-  name: RunReplyTemplatesIndexing(BatchTaskInfo, CancellationToken)
-  nameWithType: RagUpdatePlugin.RunReplyTemplatesIndexing(BatchTaskInfo, CancellationToken)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
+  name: RunReplyTemplatesIndexing(BatchTaskInfo, string, CancellationToken)
+  nameWithType: RagUpdatePlugin.RunReplyTemplatesIndexing(BatchTaskInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoBatchProcessing
@@ -207,28 +212,33 @@ items:
   summary: Re-index Reply Templates and FAQ content in the RAG system.
   example: []
   syntax:
-    content: protected Task RunReplyTemplatesIndexing(BatchTaskInfo bti, CancellationToken cancellationToken = default)
+    content: protected Task RunReplyTemplatesIndexing(BatchTaskInfo bti, string indexRunTag, CancellationToken cancellationToken = default)
     parameters:
     - id: bti
       type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: indexRunTag
+      type: System.String
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Protected Function RunReplyTemplatesIndexing(bti As BatchTaskInfo, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Protected Function RunReplyTemplatesIndexing(bti As BatchTaskInfo, indexRunTag As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing*
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
-  id: RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.Threading.CancellationToken)
+  nameWithType.vb: RagUpdatePlugin.RunReplyTemplatesIndexing(BatchTaskInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, String, System.Threading.CancellationToken)
+  name.vb: RunReplyTemplatesIndexing(BatchTaskInfo, String, CancellationToken)
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
+  id: RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   langs:
   - csharp
   - vb
-  name: RunWebSitesIndexing(BatchTaskInfo, CancellationToken)
-  nameWithType: RagUpdatePlugin.RunWebSitesIndexing(BatchTaskInfo, CancellationToken)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, System.Threading.CancellationToken)
+  name: RunWebSitesIndexing(BatchTaskInfo, string, CancellationToken)
+  nameWithType: RagUpdatePlugin.RunWebSitesIndexing(BatchTaskInfo, string, CancellationToken)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoBatchProcessing
@@ -236,18 +246,23 @@ items:
   summary: Re-index Web content in the RAG system.
   example: []
   syntax:
-    content: protected Task RunWebSitesIndexing(BatchTaskInfo bti, CancellationToken cancellationToken = default)
+    content: protected Task RunWebSitesIndexing(BatchTaskInfo bti, string indexRunTag, CancellationToken cancellationToken = default)
     parameters:
     - id: bti
       type: SuperOffice.CRM.Services.BatchTaskInfo
+    - id: indexRunTag
+      type: System.String
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Protected Function RunWebSitesIndexing(bti As BatchTaskInfo, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Protected Function RunWebSitesIndexing(bti As BatchTaskInfo, indexRunTag As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing*
+  nameWithType.vb: RagUpdatePlugin.RunWebSitesIndexing(BatchTaskInfo, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing(SuperOffice.CRM.Services.BatchTaskInfo, String, System.Threading.CancellationToken)
+  name.vb: RunWebSitesIndexing(BatchTaskInfo, String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins
   commentId: N:SuperOffice.CRM.BatchProcessing.Plugins
@@ -1788,7 +1803,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdatePlugin_RunNamespaceIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdatePlugin_RunNamespaceIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_String_System_Threading_CancellationToken_
   name: RunNamespaceIndexing
   nameWithType: RagUpdatePlugin.RunNamespaceIndexing
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunNamespaceIndexing
@@ -1810,14 +1825,14 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdatePlugin_RunReplyTemplatesIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdatePlugin_RunReplyTemplatesIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_String_System_Threading_CancellationToken_
   name: RunReplyTemplatesIndexing
   nameWithType: RagUpdatePlugin.RunReplyTemplatesIndexing
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunReplyTemplatesIndexing
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdatePlugin_RunWebSitesIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_RagUpdatePlugin_RunWebSitesIndexing_SuperOffice_CRM_Services_BatchTaskInfo_System_String_System_Threading_CancellationToken_
   name: RunWebSitesIndexing
   nameWithType: RagUpdatePlugin.RunWebSitesIndexing
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.RunWebSitesIndexing

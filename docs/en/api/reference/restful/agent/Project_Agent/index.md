@@ -58,6 +58,10 @@ content_type: reference
 
 * [POST Agents/Project/SetCompleted](v1ProjectAgent_SetCompleted.md)
 
+* [POST Agents/Project/GetProjectEntityWithoutMembers](v1ProjectAgent_GetProjectEntityWithoutMembers.md)
+
+* [POST Agents/Project/SaveProjectEntityWithoutMembers](v1ProjectAgent_SaveProjectEntityWithoutMembers.md)
+
 * [POST Agents/Project/GetProjectEvent](v1ProjectAgent_GetProjectEvent.md)
 
 * [POST Agents/Project/GetProjectEventOnPerson](v1ProjectAgent_GetProjectEventOnPerson.md)

@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.WebApi.Data.FormFieldRestrictionType
+  id: FormFieldRestrictionType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FormFieldRestrictionType.DoNotShow
+  - SuperOffice.WebApi.Data.FormFieldRestrictionType.NotSet
+  - SuperOffice.WebApi.Data.FormFieldRestrictionType.ReadOnly
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Possible restriction for fields used in forms
+
+    This Enum is used by:  form_field_restriction.field_restriction
+  example: []
+  syntax:
+    content: 'public enum FormFieldRestrictionType : short'
+    content.vb: Public Enum FormFieldRestrictionType As Short
+- uid: SuperOffice.WebApi.Data.FormFieldRestrictionType.NotSet
+  commentId: F:SuperOffice.WebApi.Data.FormFieldRestrictionType.NotSet
+  id: NotSet
+  parent: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  langs:
+  - csharp
+  - vb
+  name: NotSet
+  nameWithType: FormFieldRestrictionType.NotSet
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType.NotSet
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Not set'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      NotSet = 0
+    return:
+      type: SuperOffice.WebApi.Data.FormFieldRestrictionType
+    content.vb: >-
+      <EnumMember>
+
+      NotSet = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.FormFieldRestrictionType.ReadOnly
+  commentId: F:SuperOffice.WebApi.Data.FormFieldRestrictionType.ReadOnly
+  id: ReadOnly
+  parent: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: FormFieldRestrictionType.ReadOnly
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType.ReadOnly
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Deny overwrite'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ReadOnly = 1
+    return:
+      type: SuperOffice.WebApi.Data.FormFieldRestrictionType
+    content.vb: >-
+      <EnumMember>
+
+      ReadOnly = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.FormFieldRestrictionType.DoNotShow
+  commentId: F:SuperOffice.WebApi.Data.FormFieldRestrictionType.DoNotShow
+  id: DoNotShow
+  parent: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  langs:
+  - csharp
+  - vb
+  name: DoNotShow
+  nameWithType: FormFieldRestrictionType.DoNotShow
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType.DoNotShow
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Do not show in forms'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DoNotShow = 2
+    return:
+      type: SuperOffice.WebApi.Data.FormFieldRestrictionType
+    content.vb: >-
+      <EnumMember>
+
+      DoNotShow = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.WebApi.Data.FormFieldRestrictionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.WebApi.Data.FormFieldRestrictionType

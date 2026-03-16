@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnUniqueIdentifier
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colAccessKey
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colDescription
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colEjscriptId
@@ -80,7 +81,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAvailableColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetAvailableColumns
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderByMapping(System.String,System.String[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderByMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
@@ -757,6 +757,40 @@ items:
     content.vb: Protected Overrides Sub InnerPopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
   overridden: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.EjscriptTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   overload: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.InnerPopulateRowFromReader*
+- uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns(System.String[])
+  id: SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredColumns(params string[])
+  nameWithType: EjscriptExtenderBase.SetDesiredColumns(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns(params string[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    Set the list of desired columns. This method sets the desired columns of this provider,
+
+    as well as invoking the same call on all known extenders. Recursion will take it to the bottom. 
+
+    Any column name overrides
+
+    are processed, i.e., replaced with the original inner names, so that the inner providers do not see the overrides.
+  example: []
+  syntax:
+    content: public override void SetDesiredColumns(params string[] columns)
+    parameters:
+    - id: columns
+      type: System.String[]
+    content.vb: Public Overrides Sub SetDesiredColumns(ParamArray columns As String())
+  overridden: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  overload: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns*
+  nameWithType.vb: EjscriptExtenderBase.SetDesiredColumns(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns(ParamArray String())
+  name.vb: SetDesiredColumns(ParamArray String())
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
@@ -1225,47 +1259,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_GetAvailableColumns
   - name: (
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_SetDesiredColumns_System_String___
-  name: SetDesiredColumns(params string[])
-  nameWithType: ExtensibleColumnsBase.SetDesiredColumns(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(params string[])
-  nameWithType.vb: ExtensibleColumnsBase.SetDesiredColumns(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(ParamArray String())
-  name.vb: SetDesiredColumns(ParamArray String())
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-    name: SetDesiredColumns
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_SetDesiredColumns_System_String___
-  - name: (
-  - name: params
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-    name: SetDesiredColumns
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_SetDesiredColumns_System_String___
-  - name: (
-  - name: ParamArray
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -5587,3 +5580,74 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_SetDesiredColumns_System_String___
+  name: SetDesiredColumns(params string[])
+  nameWithType: ExtensibleColumnsBase.SetDesiredColumns(params string[])
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(params string[])
+  nameWithType.vb: ExtensibleColumnsBase.SetDesiredColumns(ParamArray String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(ParamArray String())
+  name.vb: SetDesiredColumns(ParamArray String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_SetDesiredColumns_System_String___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_SetDesiredColumns_System_String___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.html#SuperOffice_CRM_ArchiveLists_EjscriptExtenderBase_SetDesiredColumns_System_String___
+  name: SetDesiredColumns
+  nameWithType: EjscriptExtenderBase.SetDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.SetDesiredColumns
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

@@ -104,6 +104,7 @@ items:
   - SuperOffice.Data.SQL.ExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.FieldAccessFieldInfo
   - SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
+  - SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
   - SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   - SuperOffice.Data.SQL.FormTypeFieldInfo
   - SuperOffice.Data.SQL.FreeBusyFieldInfo

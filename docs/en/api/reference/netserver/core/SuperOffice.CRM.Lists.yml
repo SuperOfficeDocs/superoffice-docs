@@ -94,6 +94,7 @@ items:
   - SuperOffice.CRM.Lists.FindProduct
   - SuperOffice.CRM.Lists.FontSizeProvider
   - SuperOffice.CRM.Lists.FontTypeProvider
+  - SuperOffice.CRM.Lists.FormFieldsProvider
   - SuperOffice.CRM.Lists.FormFolderProvider
   - SuperOffice.CRM.Lists.FormMailingsProvider
   - SuperOffice.CRM.Lists.FormProvider
@@ -1133,6 +1134,13 @@ references:
   name: FontTypeProvider
   nameWithType: FontTypeProvider
   fullName: SuperOffice.CRM.Lists.FontTypeProvider
+- uid: SuperOffice.CRM.Lists.FormFieldsProvider
+  commentId: T:SuperOffice.CRM.Lists.FormFieldsProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.FormFieldsProvider.html
+  name: FormFieldsProvider
+  nameWithType: FormFieldsProvider
+  fullName: SuperOffice.CRM.Lists.FormFieldsProvider
 - uid: SuperOffice.CRM.Lists.FormFolderProvider
   commentId: T:SuperOffice.CRM.Lists.FormFolderProvider
   isExternal: true

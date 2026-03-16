@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FormDesignCss
+  commentId: T:SuperOffice.WebApi.Data.FormDesignCss
+  id: FormDesignCss
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FormDesignCss.#ctor
+  - SuperOffice.WebApi.Data.FormDesignCss.CssClass
+  - SuperOffice.WebApi.Data.FormDesignCss.CssRule
+  - SuperOffice.WebApi.Data.FormDesignCss.State
+  langs:
+  - csharp
+  - vb
+  name: FormDesignCss
+  nameWithType: FormDesignCss
+  fullName: SuperOffice.WebApi.Data.FormDesignCss
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for FormDesignCss.
+
+    Forms Design CSS class analysis result. Contains the CSS properties for a single named CSS class.
+  example: []
+  syntax:
+    content: public class FormDesignCss
+    content.vb: Public Class FormDesignCss
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.FormDesignCss.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FormDesignCss.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FormDesignCss
+  langs:
+  - csharp
+  - vb
+  name: FormDesignCss()
+  nameWithType: FormDesignCss.FormDesignCss()
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.FormDesignCss()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public FormDesignCss()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.FormDesignCss.#ctor*
+  nameWithType.vb: FormDesignCss.New()
+  fullName.vb: SuperOffice.WebApi.Data.FormDesignCss.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.FormDesignCss.CssClass
+  commentId: P:SuperOffice.WebApi.Data.FormDesignCss.CssClass
+  id: CssClass
+  parent: SuperOffice.WebApi.Data.FormDesignCss
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: FormDesignCss.CssClass
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.CssClass
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The CSS Class requested. e.g. '.foo'
+  example: []
+  syntax:
+    content: public virtual string CssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CssClass As String
+  overload: SuperOffice.WebApi.Data.FormDesignCss.CssClass*
+- uid: SuperOffice.WebApi.Data.FormDesignCss.CssRule
+  commentId: P:SuperOffice.WebApi.Data.FormDesignCss.CssRule
+  id: CssRule
+  parent: SuperOffice.WebApi.Data.FormDesignCss
+  langs:
+  - csharp
+  - vb
+  name: CssRule
+  nameWithType: FormDesignCss.CssRule
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.CssRule
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "Generated CSS style based on the analyzed design. e.g. 'background: goldenrod; border-width: 12px; '"
+  example: []
+  syntax:
+    content: public virtual string CssRule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CssRule As String
+  overload: SuperOffice.WebApi.Data.FormDesignCss.CssRule*
+- uid: SuperOffice.WebApi.Data.FormDesignCss.State
+  commentId: P:SuperOffice.WebApi.Data.FormDesignCss.State
+  id: State
+  parent: SuperOffice.WebApi.Data.FormDesignCss
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: FormDesignCss.State
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.State
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Internal state of the AI analyzer. Pass along in the next call to GetNextFormDesignCss. No user-maintainable parts inside. Do not eat.
+  example: []
+  syntax:
+    content: public virtual string State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property State As String
+  overload: SuperOffice.WebApi.Data.FormDesignCss.State*
+references:
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FormDesignCss.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCss.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCss.html#SuperOffice_WebApi_Data_FormDesignCss__ctor
+  name: FormDesignCss
+  nameWithType: FormDesignCss.FormDesignCss
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.FormDesignCss
+  nameWithType.vb: FormDesignCss.New
+  fullName.vb: SuperOffice.WebApi.Data.FormDesignCss.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.FormDesignCss.CssClass*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCss.CssClass
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCss.html#SuperOffice_WebApi_Data_FormDesignCss_CssClass
+  name: CssClass
+  nameWithType: FormDesignCss.CssClass
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.CssClass
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.FormDesignCss.CssRule*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCss.CssRule
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCss.html#SuperOffice_WebApi_Data_FormDesignCss_CssRule
+  name: CssRule
+  nameWithType: FormDesignCss.CssRule
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.CssRule
+- uid: SuperOffice.WebApi.Data.FormDesignCss.State*
+  commentId: Overload:SuperOffice.WebApi.Data.FormDesignCss.State
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormDesignCss.html#SuperOffice_WebApi_Data_FormDesignCss_State
+  name: State
+  nameWithType: FormDesignCss.State
+  fullName: SuperOffice.WebApi.Data.FormDesignCss.State

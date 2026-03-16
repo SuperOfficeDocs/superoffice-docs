@@ -32,6 +32,7 @@ items:
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.WebApi.Data.FormFieldRestriction[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.SetFontRankAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   langs:
@@ -652,6 +653,39 @@ items:
   nameWithType.vb: IMarketingAgent.VerifyGoogleRecaptchaAsync(String, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IMarketingAgent.VerifyGoogleRecaptchaAsync(String, String, SuperOffice.WebApi.RequestOptions)
   name.vb: VerifyGoogleRecaptchaAsync(String, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.WebApi.Data.FormFieldRestriction[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.WebApi.Data.FormFieldRestriction[],SuperOffice.WebApi.RequestOptions)
+  id: SetAllFormFieldRestrictionsAsync(SuperOffice.WebApi.Data.FormFieldRestriction[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAllFormFieldRestrictionsAsync(FormFieldRestriction[], RequestOptions)
+  nameWithType: IMarketingAgent.SetAllFormFieldRestrictionsAsync(FormFieldRestriction[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.WebApi.Data.FormFieldRestriction[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: 'Sets the list of form field restrictions. Note: This list is the conclusion of what should exist in the table. Restrictions that already exists in the table are edited, new ones are added, and if they are not in this list, they will be deleted'
+  example: []
+  syntax:
+    content: Task SetAllFormFieldRestrictionsAsync(FormFieldRestriction[] formFieldRestrictions, RequestOptions requestOptions = null)
+    parameters:
+    - id: formFieldRestrictions
+      type: SuperOffice.WebApi.Data.FormFieldRestriction[]
+      description: All the restrictions to set. Restrictions not included, will be deleted
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetAllFormFieldRestrictionsAsync(formFieldRestrictions As FormFieldRestriction(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync*
+  nameWithType.vb: IMarketingAgent.SetAllFormFieldRestrictionsAsync(FormFieldRestriction(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync(SuperOffice.WebApi.Data.FormFieldRestriction(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetAllFormFieldRestrictionsAsync(FormFieldRestriction(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1675,6 +1709,36 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IMarketingAgent.html#SuperOffice_WebApi_Agents_IMarketingAgent_SetAllFormFieldRestrictionsAsync_SuperOffice_WebApi_Data_FormFieldRestriction___SuperOffice_WebApi_RequestOptions_
+  name: SetAllFormFieldRestrictionsAsync
+  nameWithType: IMarketingAgent.SetAllFormFieldRestrictionsAsync
+  fullName: SuperOffice.WebApi.Agents.IMarketingAgent.SetAllFormFieldRestrictionsAsync
+- uid: SuperOffice.WebApi.Data.FormFieldRestriction[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.FormFieldRestriction.html
+  name: FormFieldRestriction[]
+  nameWithType: FormFieldRestriction[]
+  fullName: SuperOffice.WebApi.Data.FormFieldRestriction[]
+  nameWithType.vb: FormFieldRestriction()
+  fullName.vb: SuperOffice.WebApi.Data.FormFieldRestriction()
+  name.vb: FormFieldRestriction()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.FormFieldRestriction
+    name: FormFieldRestriction
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FormFieldRestriction.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.FormFieldRestriction
+    name: FormFieldRestriction
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FormFieldRestriction.html
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMarketingAgent.GetFormSubmissionEntityAsync
   isExternal: true

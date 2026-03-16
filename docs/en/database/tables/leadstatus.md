@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# leadstatus Table (540)
+# leadstatus Table (541)
 
 List items of lead status that is selectable for contacts and persons that have specific category
 

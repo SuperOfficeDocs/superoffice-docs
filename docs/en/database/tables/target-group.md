@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_group Table (507)
+# target\_group Table (508)
 
 Info about a set of (sales, project, selection...) targets
 

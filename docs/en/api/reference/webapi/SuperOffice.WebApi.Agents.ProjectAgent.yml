@@ -28,6 +28,7 @@ items:
   - SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -50,6 +51,7 @@ items:
   - SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1191,6 +1193,73 @@ items:
   nameWithType.vb: ProjectAgent.SetCompletedAsync(Integer, Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: SetCompletedAsync(Integer, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEntityWithoutMembersAsync(int, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEntityWithoutMembersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get a project entity with no project members. Project members property is always an empty array.
+  example: []
+  syntax:
+    content: public Task<ProjectEntity> GetProjectEntityWithoutMembersAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: Project entity with the specified id. The project members property is always an empty array.
+    content.vb: Public Function GetProjectEntityWithoutMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectEntityWithoutMembersAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEntityWithoutMembersAsync(ProjectEntity, RequestOptions)
+  nameWithType: ProjectAgent.SaveProjectEntityWithoutMembersAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Save a project entity, the project members are ignored.
+  example: []
+  syntax:
+    content: public Task<ProjectEntity> SaveProjectEntityWithoutMembersAsync(ProjectEntity projectEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.WebApi.Data.ProjectEntity
+      description: The project entity to save. Any set project members are ignored.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: The saved project entity without any project members. The project members property is always an empty array.
+    content.vb: Public Function SaveProjectEntityWithoutMembersAsync(projectEntity As ProjectEntity, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -5372,6 +5441,107 @@ references:
     name: Boolean
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ProjectAgent.html#SuperOffice_WebApi_Agents_ProjectAgent_GetProjectEntityWithoutMembersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetProjectEntityWithoutMembersAsync
+  nameWithType: ProjectAgent.GetProjectEntityWithoutMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityWithoutMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectEntityWithoutMembersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetProjectEntityWithoutMembersAsync(int, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEntityWithoutMembersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectEntityWithoutMembersAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEntityWithoutMembersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectEntityWithoutMembersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetProjectEntityWithoutMembersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectEntityWithoutMembersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ProjectAgent.html#SuperOffice_WebApi_Agents_ProjectAgent_SaveProjectEntityWithoutMembersAsync_SuperOffice_WebApi_Data_ProjectEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveProjectEntityWithoutMembersAsync
+  nameWithType: ProjectAgent.SaveProjectEntityWithoutMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SaveProjectEntityWithoutMembersAsync_SuperOffice_WebApi_Data_ProjectEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveProjectEntityWithoutMembersAsync(ProjectEntity, RequestOptions)
+  nameWithType: IProjectAgent.SaveProjectEntityWithoutMembersAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectEntityWithoutMembersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SaveProjectEntityWithoutMembersAsync_SuperOffice_WebApi_Data_ProjectEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ProjectEntity.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+    name: SaveProjectEntityWithoutMembersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SaveProjectEntityWithoutMembersAsync_SuperOffice_WebApi_Data_ProjectEntity_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.ProjectEntity.html
   - name: ','
   - name: " "
   - uid: SuperOffice.WebApi.RequestOptions

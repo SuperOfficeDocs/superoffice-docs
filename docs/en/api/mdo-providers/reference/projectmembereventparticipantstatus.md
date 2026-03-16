@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Not an event|||
+|0|Unknown|||
 |1|Not reacted|||
 |2|Declined|||
 |3|Registered|||

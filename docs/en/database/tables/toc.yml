@@ -325,6 +325,8 @@ items:
   href: foreignkey.md
 - name: form
   href: form.md
+- name: form_field_restriction
+  href: form-field-restriction.md
 - name: form_field_value
   href: form-field-value.md
 - name: form_keys
@@ -1177,6 +1179,8 @@ items:
     href: enums/fieldaccess.md
   - name: FieldMetadataType
     href: enums/fieldmetadatatype.md
+  - name: FormFieldRestrictionType
+    href: enums/formfieldrestrictiontype.md
   - name: FormSubmissionStatus
     href: enums/formsubmissionstatus.md
   - name: FormType

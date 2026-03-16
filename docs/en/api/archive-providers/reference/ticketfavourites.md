@@ -37,6 +37,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
+|createdDate|date|Created date: Created date| x |
 |lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |author|string|Author: Displays the author of the request| x |
 |readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
 |ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
 |ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |ownedBy/associateDbId|associate|Owner - ID| x |
 |ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
@@ -174,7 +175,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=content,createdBy/role
+GET /api/v1/archive/ticketfavourites?$select=createdBy/contactName,ticketStatus/rank,content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

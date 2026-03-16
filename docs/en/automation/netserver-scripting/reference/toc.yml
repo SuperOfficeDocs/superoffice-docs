@@ -44,6 +44,10 @@ items:
     href: aiagent/getcopilotdatasourceentityasync.md
   - name: GetCopilotEntityAsync
     href: aiagent/getcopilotentityasync.md
+  - name: GetFirstFormDesignCssFromImageAsync
+    href: aiagent/getfirstformdesigncssfromimageasync.md
+  - name: GetFirstFormDesignCssFromUrlAsync
+    href: aiagent/getfirstformdesigncssfromurlasync.md
   - name: GetFormDesignCssFromImageAsync
     href: aiagent/getformdesigncssfromimageasync.md
   - name: GetFormDesignCssFromUrlAsync
@@ -54,6 +58,8 @@ items:
     href: aiagent/getformdesignfromurlasync.md
   - name: GetIndexingStatusAsync
     href: aiagent/getindexingstatusasync.md
+  - name: GetNextFormDesignCssAsync
+    href: aiagent/getnextformdesigncssasync.md
   - name: GetSummarizeContactPromptAsync
     href: aiagent/getsummarizecontactpromptasync.md
   - name: GetSummarizeSalePromptAsync
@@ -2440,6 +2446,8 @@ items:
     href: marketingagent/saveshipmentmessageblockentityasync.md
   - name: SaveShipmentMessageEntityAsync
     href: marketingagent/saveshipmentmessageentityasync.md
+  - name: SetAllFormFieldRestrictionsAsync
+    href: marketingagent/setallformfieldrestrictionsasync.md
   - name: SetFontRankAsync
     href: marketingagent/setfontrankasync.md
   - name: VerifyGoogleRecaptchaAsync
@@ -2471,6 +2479,21 @@ items:
     href: mdoagent/getsimplelistasync.md
   - name: SetSelectedAsync
     href: mdoagent/setselectedasync.md
+- name: MessagingAgent
+  href: messagingagent/index.md
+  items:
+  - name: CreateMessageAsync
+    href: messagingagent/createmessageasync.md
+  - name: GetDeliveryStatusAsync
+    href: messagingagent/getdeliverystatusasync.md
+  - name: GetPluginsAsync
+    href: messagingagent/getpluginsasync.md
+  - name: SendMessagesAsync
+    href: messagingagent/sendmessagesasync.md
+  - name: SendMessagesWithConfigAsync
+    href: messagingagent/sendmessageswithconfigasync.md
+  - name: SetDeliveryStatusAsync
+    href: messagingagent/setdeliverystatusasync.md
 - name: NumberAllocationAgent
   href: numberallocationagent/index.md
   items:
@@ -2795,6 +2818,8 @@ items:
     href: projectagent/getprojectasync.md
   - name: GetProjectEntityAsync
     href: projectagent/getprojectentityasync.md
+  - name: GetProjectEntityWithoutMembersAsync
+    href: projectagent/getprojectentitywithoutmembersasync.md
   - name: GetProjectEventAsync
     href: projectagent/getprojecteventasync.md
   - name: GetProjectEventEntityAsync
@@ -2839,6 +2864,8 @@ items:
     href: projectagent/offerautonextstatusonapppointmentcompletedasync.md
   - name: SaveProjectEntityAsync
     href: projectagent/saveprojectentityasync.md
+  - name: SaveProjectEntityWithoutMembersAsync
+    href: projectagent/saveprojectentitywithoutmembersasync.md
   - name: SaveProjectEventEntityAsync
     href: projectagent/saveprojectevententityasync.md
   - name: SaveProjectMemberAsync

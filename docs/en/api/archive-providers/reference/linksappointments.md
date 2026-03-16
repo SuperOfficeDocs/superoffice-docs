@@ -762,7 +762,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/orgnr,contact/updatedByFullName,contact/contactAssociate/mrMrs,person/middleName,person/birthMonth
+GET /api/v1/archive/LinksAppointments?$select=person/personPrivate/formattedNumber,person/correspondingAssociate/assocName,person/correspondingAssociate/ejDisplayName,project/name,project/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -14,8 +14,6 @@ items:
   - SuperOffice.CRM.Rows.ProductVersionRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.ProductVersionRow})
   - SuperOffice.CRM.Rows.ProductVersionRows.ForEach(System.Action{SuperOffice.CRM.Rows.ProductVersionRow})
   - SuperOffice.CRM.Rows.ProductVersionRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.ProductVersionRows.CustomSearch,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync(System.String,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProductVersionRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProductVersionTableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.ProductVersionRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.ProductVersionRows.Remove(SuperOffice.CRM.Rows.ProductVersionRow)
@@ -285,88 +283,6 @@ items:
       description: A new instance of the ProductVersionRows object, reflecting the result of the query.
     content.vb: Public Shared Function GetFromCustomSearchAsync(query As ProductVersionRows.CustomSearch, cancellationToken As CancellationToken = Nothing) As Task(Of ProductVersionRows)
   overload: SuperOffice.CRM.Rows.ProductVersionRows.GetFromCustomSearchAsync*
-- uid: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync(System.String,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync(System.String,System.Threading.CancellationToken)
-  id: GetFromIdxOwnerNameAsync(System.String,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Rows.ProductVersionRows
-  langs:
-  - csharp
-  - vb
-  name: GetFromIdxOwnerNameAsync(string, CancellationToken)
-  nameWithType: ProductVersionRows.GetFromIdxOwnerNameAsync(string, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync(string, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the ProductVersionRow object, by querying the database table via the index 'IOwnerNameCodeNameVersion'.
-
-    This method is intended to make it easy to use efficient queries that match a database index.
-  remarks: >-
-    This method represents one of the unique indexes on the ProductVersion table. Non-unique indexes have corresponding inner classes
-
-    and methods in the <xref href="SuperOffice.CRM.Rows.ProductVersionRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
-  example: []
-  syntax:
-    content: public static Task<ProductVersionRows> GetFromIdxOwnerNameAsync(string ownerName, CancellationToken cancellationToken = default)
-    parameters:
-    - id: ownerName
-      type: System.String
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ProductVersionRows}
-      description: >-
-        Row object that represents the result of the search. IsNew will be true if 
-                    the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxOwnerNameAsync(ownerName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ProductVersionRows)
-  overload: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync*
-  nameWithType.vb: ProductVersionRows.GetFromIdxOwnerNameAsync(String, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync(String, System.Threading.CancellationToken)
-  name.vb: GetFromIdxOwnerNameAsync(String, CancellationToken)
-- uid: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(System.String,System.String,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(System.String,System.String,System.Threading.CancellationToken)
-  id: GetFromIdxOwnerNameCodeNameAsync(System.String,System.String,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Rows.ProductVersionRows
-  langs:
-  - csharp
-  - vb
-  name: GetFromIdxOwnerNameCodeNameAsync(string, string, CancellationToken)
-  nameWithType: ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(string, string, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(string, string, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the ProductVersionRow object, by querying the database table via the index 'IOwnerNameCodeNameVersion'.
-
-    This method is intended to make it easy to use efficient queries that match a database index.
-  remarks: >-
-    This method represents one of the unique indexes on the ProductVersion table. Non-unique indexes have corresponding inner classes
-
-    and methods in the <xref href="SuperOffice.CRM.Rows.ProductVersionRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
-  example: []
-  syntax:
-    content: public static Task<ProductVersionRows> GetFromIdxOwnerNameCodeNameAsync(string ownerName, string codeName, CancellationToken cancellationToken = default)
-    parameters:
-    - id: ownerName
-      type: System.String
-    - id: codeName
-      type: System.String
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.ProductVersionRows}
-      description: >-
-        Row object that represents the result of the search. IsNew will be true if 
-                    the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxOwnerNameCodeNameAsync(ownerName As String, codeName As String, cancellationToken As CancellationToken = Nothing) As Task(Of ProductVersionRows)
-  overload: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync*
-  nameWithType.vb: ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(String, String, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync(String, String, System.Threading.CancellationToken)
-  name.vb: GetFromIdxOwnerNameCodeNameAsync(String, String, CancellationToken)
 - uid: SuperOffice.CRM.Rows.ProductVersionRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProductVersionTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.ProductVersionRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProductVersionTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProductVersionTableInfo,System.Threading.CancellationToken)
@@ -2962,31 +2878,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync*
-  commentId: Overload:SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProductVersionRows.html#SuperOffice_CRM_Rows_ProductVersionRows_GetFromIdxOwnerNameAsync_System_String_System_Threading_CancellationToken_
-  name: GetFromIdxOwnerNameAsync
-  nameWithType: ProductVersionRows.GetFromIdxOwnerNameAsync
-  fullName: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameAsync
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync*
-  commentId: Overload:SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProductVersionRows.html#SuperOffice_CRM_Rows_ProductVersionRows_GetFromIdxOwnerNameCodeNameAsync_System_String_System_String_System_Threading_CancellationToken_
-  name: GetFromIdxOwnerNameCodeNameAsync
-  nameWithType: ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync
-  fullName: SuperOffice.CRM.Rows.ProductVersionRows.GetFromIdxOwnerNameCodeNameAsync
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true
@@ -3261,6 +3152,17 @@ references:
   name: ToString
   nameWithType: ProductVersionRows.ToString
   fullName: SuperOffice.CRM.Rows.ProductVersionRows.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.Rows.ProductVersionRows.Item*
   commentId: Overload:SuperOffice.CRM.Rows.ProductVersionRows.Item
   isExternal: true

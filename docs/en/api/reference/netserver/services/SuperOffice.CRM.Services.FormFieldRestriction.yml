@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FormFieldRestriction
+  commentId: T:SuperOffice.CRM.Services.FormFieldRestriction
+  id: FormFieldRestriction
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FormFieldRestriction.#ctor
+  - SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier
+  - SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction
+  - SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId
+  - SuperOffice.CRM.Services.FormFieldRestriction.ToString
+  - SuperOffice.CRM.Services.FormFieldRestriction.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestriction
+  nameWithType: FormFieldRestriction
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Carrier for FormFieldRestriction
+
+    <p></p>
+
+    Carrier object for FormFieldRestriction.
+
+    Services for the FormFieldRestriction Carrier is available from the <xref href="SuperOffice.CRM.Services.IMarketingAgent?text=Marketing+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.11.0.0")]
+
+      public class FormFieldRestriction : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.11.0.0")>
+
+      Public Class FormFieldRestriction Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IMarketingAgent
+    commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.11.0.0
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.#ctor
+  commentId: M:SuperOffice.CRM.Services.FormFieldRestriction.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestriction()
+  nameWithType: FormFieldRestriction.FormFieldRestriction()
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestriction()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public FormFieldRestriction()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.FormFieldRestriction.#ctor*
+  nameWithType.vb: FormFieldRestriction.New()
+  fullName.vb: SuperOffice.CRM.Services.FormFieldRestriction.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.ToString
+  commentId: M:SuperOffice.CRM.Services.FormFieldRestriction.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FormFieldRestriction.ToString()
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.FormFieldRestriction.ToString*
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FormFieldRestriction.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: FormFieldRestriction.ToString(string)
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.FormFieldRestriction.ToString*
+  nameWithType.vb: FormFieldRestriction.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.FormFieldRestriction.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId
+  commentId: P:SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId
+  id: FormFieldRestrictionId
+  parent: SuperOffice.CRM.Services.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FormFieldRestrictionId
+  nameWithType: FormFieldRestriction.FormFieldRestrictionId
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Primary key
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int FormFieldRestrictionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FormFieldRestrictionId As Integer
+  overload: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier
+  commentId: P:SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier
+  id: FieldIdentifier
+  parent: SuperOffice.CRM.Services.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FieldIdentifier
+  nameWithType: FormFieldRestriction.FieldIdentifier
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: the identifier for the field
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FieldIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FieldIdentifier As String
+  overload: SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction
+  commentId: P:SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction
+  id: FieldRestriction
+  parent: SuperOffice.CRM.Services.FormFieldRestriction
+  langs:
+  - csharp
+  - vb
+  name: FieldRestriction
+  nameWithType: FormFieldRestriction.FieldRestriction
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The restriction set on the field
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual FormFieldRestrictionType FieldRestriction { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FormFieldRestrictionType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FieldRestriction As FormFieldRestrictionType
+  overload: SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IMarketingAgent
+  commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IMarketingAgent.html
+  name: IMarketingAgent
+  nameWithType: IMarketingAgent
+  fullName: SuperOffice.CRM.Services.IMarketingAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FormFieldRestriction.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormFieldRestriction.html#SuperOffice_CRM_Services_FormFieldRestriction__ctor
+  name: FormFieldRestriction
+  nameWithType: FormFieldRestriction.FormFieldRestriction
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestriction
+  nameWithType.vb: FormFieldRestriction.New
+  fullName.vb: SuperOffice.CRM.Services.FormFieldRestriction.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FormFieldRestriction.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormFieldRestriction.html#SuperOffice_CRM_Services_FormFieldRestriction_ToString
+  name: ToString
+  nameWithType: FormFieldRestriction.ToString
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId*
+  commentId: Overload:SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormFieldRestriction.html#SuperOffice_CRM_Services_FormFieldRestriction_FormFieldRestrictionId
+  name: FormFieldRestrictionId
+  nameWithType: FormFieldRestriction.FormFieldRestrictionId
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FormFieldRestrictionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormFieldRestriction.html#SuperOffice_CRM_Services_FormFieldRestriction_FieldIdentifier
+  name: FieldIdentifier
+  nameWithType: FormFieldRestriction.FieldIdentifier
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FieldIdentifier
+- uid: SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction*
+  commentId: Overload:SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction
+  isExternal: true
+  href: SuperOffice.CRM.Services.FormFieldRestriction.html#SuperOffice_CRM_Services_FormFieldRestriction_FieldRestriction
+  name: FieldRestriction
+  nameWithType: FormFieldRestriction.FieldRestriction
+  fullName: SuperOffice.CRM.Services.FormFieldRestriction.FieldRestriction
+- uid: SuperOffice.Data.FormFieldRestrictionType
+  commentId: '!:SuperOffice.Data.FormFieldRestrictionType'
+  isExternal: true
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.Data.FormFieldRestrictionType

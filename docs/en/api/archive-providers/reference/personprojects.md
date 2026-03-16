@@ -48,6 +48,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |eventId|int|Project event ID: Project event ID| x |
 |startDate|date|Start date: Project start date| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
+|eventParticipantStatus|listAny|Event status: Event status| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
-|saintActivityType|listAny|SAINT type|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintActivityType|listAny|SAINT type|  |
 |saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
@@ -133,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonProjects?$select=projectEvent/hasSignOff,projectAssociate/contactCategory
+GET /api/v1/archive/PersonProjects?$select=getNoRows,personId,projectPublish/publishedBy,projectUdef/SuperOffice:1,projectUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

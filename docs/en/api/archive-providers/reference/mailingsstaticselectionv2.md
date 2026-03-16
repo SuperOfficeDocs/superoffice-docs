@@ -676,7 +676,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/mailingAddrId,mailingAddr/contact/category,mailingAddr/contact/email/emailLastBounce,mailingAddr/contact/contactAssociate/fullName,mailingAddr/contact/contactAssociate/personEmail
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/associateId,mailingAddr/contact/restrictionAddress/line3,mailingAddr/person/personAssociate/contactId,emailFlow/hierarchyId,project/projectAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -97,6 +97,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FieldAccess@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FieldDataType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FieldMetadataType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormFieldRestrictionType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormSubmissionStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormsRecaptchaMode@,SuperOffice.Data.SQL.FieldInfo)
@@ -6479,6 +6480,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(ProjectMemberEventParticipantStatus, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ProjectMemberEventParticipantStatus, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ProjectMemberEventParticipantStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormFieldRestrictionType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormFieldRestrictionType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.FormFieldRestrictionType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref FormFieldRestrictionType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref FormFieldRestrictionType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.FormFieldRestrictionType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref FormFieldRestrictionType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.FormFieldRestrictionType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As FormFieldRestrictionType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(FormFieldRestrictionType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormFieldRestrictionType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(FormFieldRestrictionType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -10941,6 +10970,14 @@ references:
   name: ProjectMemberEventParticipantStatus
   nameWithType: ProjectMemberEventParticipantStatus
   fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
+- uid: SuperOffice.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.Data.FormFieldRestrictionType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.Data.FormFieldRestrictionType
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data

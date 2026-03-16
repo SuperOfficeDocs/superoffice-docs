@@ -750,7 +750,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/type,documentInstance/person/middleName,documentInstance/person/personUdef/SuperOffice:2,documentInstance/person/personExtra/x_person_longtext,documentInstance/associate/ejUserId
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/contact/mainContact,documentInstance/contact/contactUdef/SuperOffice:7,documentInstance/project/projectAssociate/ejStatus,documentInstance/sale/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# TypicalSearch Table (499)
+# TypicalSearch Table (500)
 
 Owner of a set of predefined selection criteria
 
