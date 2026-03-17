@@ -19,8 +19,6 @@ These options are fundamentally different, proactive vs reactive, and its up to 
 > [!NOTE]
 > If your application receives **HTTP 421 (Misdirected Request)**, it usually means you are calling the **wrong endpoint for the customer’s location**.  
 > For example:  Using `https://online.superoffice.com/cust123` when the tenant actually resides on `https://online3.superoffice.com/cust123`, or `https://app.superoffice.com/cust123`.  
-
-
 ## Checking tenant status (Pull)
 
 This is a proactive means to determine the current status of a tenant. Your application precedes each API request with a [call to the state endpoint][1] to ensure the tenant is in a **Running** state.
