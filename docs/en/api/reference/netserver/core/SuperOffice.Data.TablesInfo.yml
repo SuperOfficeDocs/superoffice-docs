@@ -515,7 +515,6 @@ items:
   - SuperOffice.Data.TablesInfo.GetUDefFieldGLTableInfo
   - SuperOffice.Data.TablesInfo.GetUDefFieldTableInfo
   - SuperOffice.Data.TablesInfo.GetURLTableInfo
-  - SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
   - SuperOffice.Data.TablesInfo.GetUserAttributeTableInfo
   - SuperOffice.Data.TablesInfo.GetUserCandidateTableInfo
   - SuperOffice.Data.TablesInfo.GetUserGroupLinkTableInfo
@@ -5153,31 +5152,6 @@ items:
       type: SuperOffice.CRM.Data.ImportDefaultTableInfo
     content.vb: Public Shared Function GetImportDefaultTableInfo() As ImportDefaultTableInfo
   overload: SuperOffice.Data.TablesInfo.GetImportDefaultTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-  id: GetUsageStatsTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetUsageStatsTableInfo()
-  nameWithType: TablesInfo.GetUsageStatsTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of UsageStatsTableInfo:
-
-    Usage statistics
-  example: []
-  syntax:
-    content: public static UsageStatsTableInfo GetUsageStatsTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.UsageStatsTableInfo
-    content.vb: Public Shared Function GetUsageStatsTableInfo() As UsageStatsTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetRoleTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetRoleTableInfo
   id: GetRoleTableInfo
@@ -17098,21 +17072,6 @@ references:
   name: ImportDefaultTableInfo
   nameWithType: ImportDefaultTableInfo
   fullName: SuperOffice.CRM.Data.ImportDefaultTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetUsageStatsTableInfo
-  name: GetUsageStatsTableInfo
-  nameWithType: TablesInfo.GetUsageStatsTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-- uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-  commentId: T:SuperOffice.CRM.Data.UsageStatsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.UsageStatsTableInfo.html
-  name: UsageStatsTableInfo
-  nameWithType: UsageStatsTableInfo
-  fullName: SuperOffice.CRM.Data.UsageStatsTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetRoleTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetRoleTableInfo
   isExternal: true

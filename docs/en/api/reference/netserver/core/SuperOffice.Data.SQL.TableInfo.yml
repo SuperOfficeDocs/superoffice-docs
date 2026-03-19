@@ -559,7 +559,6 @@ items:
   - SuperOffice.CRM.Data.UDefFieldGLTableInfo
   - SuperOffice.CRM.Data.UDefFieldTableInfo
   - SuperOffice.CRM.Data.URLTableInfo
-  - SuperOffice.CRM.Data.UsageStatsTableInfo
   - SuperOffice.CRM.Data.UserAttributeTableInfo
   - SuperOffice.CRM.Data.UserCandidateTableInfo
   - SuperOffice.CRM.Data.UserGroupLinkTableInfo

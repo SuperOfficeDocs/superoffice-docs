@@ -5,6 +5,7 @@ items:
   id: IBatchDataTicketExtensions
   parent: SuperOffice.ExportArchive
   children:
+  - SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
   - SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
   - SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
   langs:
@@ -82,6 +83,32 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
     content.vb: Public Shared Function CreateTicketBatchReplyTaskAsync(batchData As IBatchData, settings As TicketBatchReplyData) As Task(Of Integer)
   overload: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync*
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  id: CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
+  isExtensionMethod: true
+  parent: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateTicketBatchCloseTaskAsync(IBatchData, TicketBatchReplyData)
+  nameWithType: IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(IBatchData, TicketBatchReplyData)
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.TicketBatchReplyData)
+  type: Method
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.ExportArchive
+  syntax:
+    content: public static Task<int> CreateTicketBatchCloseTaskAsync(this IBatchData batchData, TicketBatchReplyData settings)
+    parameters:
+    - id: batchData
+      type: SuperOffice.CRM.BatchProcessing.IBatchData
+    - id: settings
+      type: SuperOffice.CRM.Services.TicketBatchReplyData
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Shared Function CreateTicketBatchCloseTaskAsync(batchData As IBatchData, settings As TicketBatchReplyData) As Task(Of Integer)
+  overload: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync*
 references:
 - uid: SuperOffice.ExportArchive
   commentId: N:SuperOffice.ExportArchive
@@ -578,3 +605,10 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync*
+  commentId: Overload:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync
+  isExternal: true
+  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
+  name: CreateTicketBatchCloseTaskAsync
+  nameWithType: IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync

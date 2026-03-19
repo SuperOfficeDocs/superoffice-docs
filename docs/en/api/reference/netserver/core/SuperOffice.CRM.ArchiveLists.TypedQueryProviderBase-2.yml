@@ -149,7 +149,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketNewNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TicketProvider
   - SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
-  - SuperOffice.CRM.ArchiveLists.UsageStatsProvider
   - SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider
   - SuperOffice.CRM.ArchiveLists.UsersProviderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
