@@ -656,7 +656,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
 |alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -774,7 +774,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/erpDiscountAmount,alternative/version/quote/sale/person/personUdef/SuperOffice:5,alternative/version/quote/sale/contact/contactAssociate/fullName,alternative/version/quote/sale/contact/contactAssociate/contactFullName,alternative/version/quote/sale/project/NumberOfNotCompletedActivities
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/person/personUdef/SuperOffice:1,alternative/version/quote/sale/associate/usergroupId,alternative/version/quote/sale/associate/isActiveText,alternative/version/quote/sale/project/projectAssociate/credentialDisplayValue,alternative/version/quote/connection/erpConnection/connector/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

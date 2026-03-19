@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=iste
-GET /api/v1/TriggerScript?$top=355
-GET /api/v1/TriggerScript?$skip=124
+GET /api/v1/TriggerScript?$entities=exercitationem
+GET /api/v1/TriggerScript?$top=659
+GET /api/v1/TriggerScript?$skip=982
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=quae
+GET /api/v1/TriggerScript?$context=deserunt
 GET /api/v1/TriggerScript?$format=JSON
-GET /api/v1/TriggerScript?$jsonSafe=True
+GET /api/v1/TriggerScript?$jsonSafe=False
 GET /api/v1/TriggerScript?$output=Display
 ```
 

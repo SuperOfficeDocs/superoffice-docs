@@ -572,7 +572,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1170,7 +1170,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=credited,stageName,project/endDate,saleStakeholder/person/kanaFirstName,saleStakeholder/contact/contactId
+GET /api/v1/archive/LinksSales?$select=person/restrictionAddress/formattedAddress,person/personExtra/x_person_category_relation,contact/department,contact/contactAssociate/title,contact/contactAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

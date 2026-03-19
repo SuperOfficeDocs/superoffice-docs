@@ -89,7 +89,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=jumpToFinish,updatedBy,workflowAssociate/title
+GET /api/v1/archive/EmailFlows?$select=workflowAssociate/simultaneousEjUser,updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

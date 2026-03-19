@@ -494,7 +494,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -780,7 +780,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=updatedDate,person/personExtra/x_person_shorttext,person/hasEmarketingConsent,contact/companyCategoryRank,contact/postAddress/formattedAddress
+GET /api/v1/archive/Activity?$select=person/email/emailProtocol,contact/contactUdef/SuperOffice:6,contact/NumberOfTicketsInPeriod,project/projectUdef/SuperOffice:2,project/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

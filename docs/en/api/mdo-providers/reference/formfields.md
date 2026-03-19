@@ -42,27 +42,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|24|Company - Department|||
-|22|Company - Interests|||
-|16|Company - Name|||
-|17|Company - VAT no.|||
-|15|Company - Phone|||
-|13|Contact - Consent|||
-|11|Contact - Academic title|||
-|26|Contact - Birthday |||
-|9|Contact - Country|||
-|8|Contact - Direct phone|||
-|5|Contact - E-mail|||
-|2|Contact - First name|||
-|23|Contact - Interests |||
-|25|Contact - Preferred language|||
-|4|Contact - Last name|||
-|3|Contact - Middle name|||
-|7|Contact - Mobile|||
-|10|Contact - Mr/Mrs|||
-|1|Contact - Name|||
-|12|Contact - Position|||
-|6|Contact - Title|||
+|21|Company -  Business|||
+|56|Company -  companycheckbox||fieldType=company_SuperOffice:6|
+|54|Company -  companydate||fieldType=company_SuperOffice:4|
+|58|Company -  companydecimal||fieldType=company_SuperOffice:8|
+|57|Company -  companydropdownlistbox||fieldType=company_SuperOffice:7&listName=task|
+|52|Company -  companylongtext||textLength=40&fieldType=company_SuperOffice:2|
+|53|Company -  companynumber||fieldType=company_SuperOffice:3|
+|51|Company -  companyshorttext||textLength=20&fieldType=company_SuperOffice:1|
+|55|Company -  companyunlimiteddate||fieldType=company_SuperOffice:5|
+|49|Company -  Extra boolean||fieldType=company_x_contact_boolean|
+|47|Company -  Extra date||fieldType=company_x_contact_date|
+|48|Company -  Extra DateTime||fieldType=company_x_contact_datetime|
+|44|Company -  Extra Default Integer||fieldType=company_x_contact_default_integer|
+|45|Company -  Extra Float||fieldType=company_x_contact_float|
+|43|Company -  Extra Integer||fieldType=company_x_contact_integer|
+|46|Company -  Extra LongText||fieldType=company_x_contact_longtext|
+|50|Company -  Extra short text||fieldType=company_x_contact_shorttext|
+|61|Company -  page1adminonly||textLength=20&fieldType=company_SuperOffice:11|
+|60|Company -  page1marketingonly||textLength=20&fieldType=company_SuperOffice:10|
+|59|Company -  page1saleonly||textLength=20&fieldType=company_SuperOffice:9|
+|62|Company -  Udlist one||fieldType=company_SuperOffice:12&listName=udlist_28|
 
 
 ## Related MDO Lists

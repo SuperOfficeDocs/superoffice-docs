@@ -532,7 +532,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/project/endDate| *None* |End date: End date of project|  |
 |appointmentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |appointmentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/project/eventId| *None* |Project event ID: Project event ID|  |
+|appointmentInstance/project/eventId| *None* |Event ID: Event ID|  |
 |appointmentInstance/project/startDate| *None* |Start date: Project start date|  |
 |appointmentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1238,7 +1238,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/endDate| *None* |End date: End date of project|  |
 |documentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |documentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/project/eventId| *None* |Project event ID: Project event ID|  |
+|documentInstance/project/eventId| *None* |Event ID: Event ID|  |
 |documentInstance/project/startDate| *None* |Start date: Project start date|  |
 |documentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |documentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1476,7 +1476,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/appointmentPublish/publishedFrom,appointmentInstance/contact/streetAddress/addressId,appointmentInstance/contact/contactAssociate/firstName,appointmentInstance/contact/NumberOfActivities,appointmentInstance/person/personDirectPhone/formattedNumber
+GET /api/v1/archive/SaleGuide?$select=appointmentInstance/associateId,appointmentInstance/contact/contactAssociate/credentialDisplayValue,appointmentInstance/contact/contactExtra/x_contact_default_integer,appointmentInstance/person/hasInterests,appointmentInstance/person/personExtra/y_rental/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

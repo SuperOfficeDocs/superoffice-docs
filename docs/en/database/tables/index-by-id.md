@@ -190,7 +190,6 @@ envir: onsite, online
 |187| [ImportField](importfield.md) |Import object types - see localetext for names|
 |188| [ImportRelation](importrelation.md) |Relations between import objects|
 |189| [ImportDefault](importdefault.md) |Defaults for import fields/objects|
-|190| [UsageStats](usagestats.md) |Usage statistics|
 |191| [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com|
 |192| [UserRoleLink](userrolelink.md) |Link between user role and user|
 |193| [FunctionRight](functionright.md) |Functional right definition|

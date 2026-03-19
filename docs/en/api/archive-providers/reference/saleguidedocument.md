@@ -512,7 +512,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/endDate|date|End date: End date of project| x |
 |documentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |documentInstance/project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|documentInstance/project/eventId|int|Project event ID: Project event ID| x |
+|documentInstance/project/eventId|int|Event ID: Event ID| x |
 |documentInstance/project/startDate|date|Start date: Project start date| x |
 |documentInstance/project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |documentInstance/project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -750,7 +750,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/contact/mainContact,documentInstance/contact/contactUdef/SuperOffice:7,documentInstance/project/projectAssociate/ejStatus,documentInstance/sale/hasGuide
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/personInfo/textId,documentInstance/person/correspondingAssociate/credentialType,documentInstance/project/projectAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

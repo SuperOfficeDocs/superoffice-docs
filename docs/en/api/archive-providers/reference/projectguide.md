@@ -535,7 +535,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/project/endDate| *None* |End date: End date of project|  |
 |appointmentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |appointmentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/project/eventId| *None* |Project event ID: Project event ID|  |
+|appointmentInstance/project/eventId| *None* |Event ID: Event ID|  |
 |appointmentInstance/project/startDate| *None* |Start date: Project start date|  |
 |appointmentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1241,7 +1241,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/endDate| *None* |End date: End date of project|  |
 |documentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |documentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/project/eventId| *None* |Project event ID: Project event ID|  |
+|documentInstance/project/eventId| *None* |Event ID: Event ID|  |
 |documentInstance/project/startDate| *None* |Start date: Project start date|  |
 |documentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |documentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1479,7 +1479,7 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuide?$select=appointmentInstance/visibleInDiary,appointmentInstance/contact/searchPhone/description,appointmentInstance/person/correspondingAssociate/usergroup,appointmentInstance/project/projectPublish/publishedTo,appointmentInstance/project/projectAssociate/isActiveText
+GET /api/v1/archive/ProjectGuide?$select=projectId,appointmentInstance/contact/postAddress/state,appointmentInstance/contact/LastTicket,appointmentInstance/person/personUdef/SuperOffice:11,appointmentInstance/project/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

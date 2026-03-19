@@ -520,7 +520,6 @@ envir: onsite, online
 | [udtempLarge](udtemplarge.md) |User-defined fields| 145 |
 | [udtempSmall](udtempsmall.md) |User-defined fields. During conversion of user defined fields the data is stored in this table.| 144 |
 | [URL](url.md) |Unified Resource Locators, URL to contacts, persons or projects.| 54 |
-| [UsageStats](usagestats.md) |Usage statistics| 190 |
 | [user\_attribute](user-attribute.md) |This table is used for storing various attributes for users.| 403 |
 | [user\_candidate](user-candidate.md) |This table will hold user candidate secrets| 389 |
 | [UserGroup](usergroup.md) |Secondary user groups| 59 |
