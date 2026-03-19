@@ -44,6 +44,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnTicketId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnTicketType
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnStatus
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnTicketStatus
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnConnectId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColCategoryFullName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnOwnedBy
@@ -615,6 +616,14 @@ references:
   name: ColumnStatus
   nameWithType: TicketExtenderBase.ColumnStatus
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnStatus
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnTicketStatus
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnTicketStatus
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketExtenderBase_ColumnTicketStatus
+  name: ColumnTicketStatus
+  nameWithType: TicketExtenderBase.ColumnTicketStatus
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnTicketStatus
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnConnectId
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ColumnConnectId
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase

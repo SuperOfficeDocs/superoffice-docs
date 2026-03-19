@@ -926,9 +926,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.UdefRetryState
   - SuperOffice.CRM.ArchiveLists.UnassignedTicketsProvider
   - SuperOffice.CRM.ArchiveLists.UrlExtenderBase
-  - SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
-  - SuperOffice.CRM.ArchiveLists.UsageStatsProvider
-  - SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender
   - SuperOffice.CRM.ArchiveLists.UserOpenTicketsProvider
   - SuperOffice.CRM.ArchiveLists.UserPreferenceArchiveHelper
   - SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
@@ -4362,13 +4359,6 @@ references:
   name: TimeZonesProvider
   nameWithType: TimeZonesProvider
   fullName: SuperOffice.CRM.ArchiveLists.TimeZonesProvider
-- uid: SuperOffice.CRM.ArchiveLists.UsageStatsProvider
-  commentId: T:SuperOffice.CRM.ArchiveLists.UsageStatsProvider
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.UsageStatsProvider.html
-  name: UsageStatsProvider
-  nameWithType: UsageStatsProvider
-  fullName: SuperOffice.CRM.ArchiveLists.UsageStatsProvider
 - uid: SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
   commentId: T:SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
   parent: SuperOffice.CRM.ArchiveLists
@@ -6716,14 +6706,6 @@ references:
   name: URLLinkExtender
   nameWithType: URLLinkExtender
   fullName: SuperOffice.CRM.ArchiveLists.URLLinkExtender
-- uid: SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
-  commentId: T:SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase.html
-  name: UsageStatsExterderBase
-  nameWithType: UsageStatsExterderBase
-  fullName: SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
 - uid: SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -8966,13 +8948,6 @@ references:
   name: URLURLExtender
   nameWithType: URLURLExtender
   fullName: SuperOffice.CRM.ArchiveLists.URLURLExtender
-- uid: SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender
-  commentId: T:SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender.html
-  name: UsageStatsUsageStatsExtender
-  nameWithType: UsageStatsUsageStatsExtender
-  fullName: SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender
 - uid: SuperOffice.CRM.ArchiveLists.UserPreferenceUserPreferenceExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.UserPreferenceUserPreferenceExtender
   isExternal: true

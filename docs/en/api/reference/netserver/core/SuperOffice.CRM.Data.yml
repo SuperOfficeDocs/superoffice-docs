@@ -590,7 +590,6 @@ items:
   - SuperOffice.CRM.Data.DBC.UDefFieldFields
   - SuperOffice.CRM.Data.DBC.UDefFieldGLFields
   - SuperOffice.CRM.Data.DBC.URLFields
-  - SuperOffice.CRM.Data.DBC.UsageStatsFields
   - SuperOffice.CRM.Data.DBC.UserAttributeFields
   - SuperOffice.CRM.Data.DBC.UserCandidateFields
   - SuperOffice.CRM.Data.DBC.UserGroupFields
@@ -1041,7 +1040,6 @@ items:
   - SuperOffice.CRM.Data.UDefFieldGLTableInfo
   - SuperOffice.CRM.Data.UDefFieldTableInfo
   - SuperOffice.CRM.Data.URLTableInfo
-  - SuperOffice.CRM.Data.UsageStatsTableInfo
   - SuperOffice.CRM.Data.UserAttributeTableInfo
   - SuperOffice.CRM.Data.UserCandidateTableInfo
   - SuperOffice.CRM.Data.UserGroupLinkTableInfo
@@ -6528,33 +6526,6 @@ references:
     name: ImportDefaultFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.ImportDefaultFields.html
-- uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-  commentId: T:SuperOffice.CRM.Data.DBC.UsageStatsFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.UsageStatsFields
-  nameWithType: DBC.UsageStatsFields
-  fullName: SuperOffice.CRM.Data.DBC.UsageStatsFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-    name: UsageStatsFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.UsageStatsFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-    name: UsageStatsFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.UsageStatsFields.html
 - uid: SuperOffice.CRM.Data.DBC.RoleFields
   commentId: T:SuperOffice.CRM.Data.DBC.RoleFields
   isExternal: true
@@ -19440,14 +19411,6 @@ references:
   name: URLTableInfo
   nameWithType: URLTableInfo
   fullName: SuperOffice.CRM.Data.URLTableInfo
-- uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-  commentId: T:SuperOffice.CRM.Data.UsageStatsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.UsageStatsTableInfo.html
-  name: UsageStatsTableInfo
-  nameWithType: UsageStatsTableInfo
-  fullName: SuperOffice.CRM.Data.UsageStatsTableInfo
 - uid: SuperOffice.CRM.Data.UserAttributeTableInfo
   commentId: T:SuperOffice.CRM.Data.UserAttributeTableInfo
   parent: SuperOffice.CRM.Data
