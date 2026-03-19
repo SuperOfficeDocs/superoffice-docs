@@ -750,7 +750,7 @@ Shadow contact provider for the sale provider.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1348,7 +1348,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=person/personNumber,person/personCountryId,person/birthdate,person/restrictionAddress/line1,person/restrictionAddress/formattedAddress
+GET /api/v1/archive/SaleShadowSelectionV2?$select=originalStage,amountInBaseCurrency,person/lastName,person/personUrl/URLAddress,person/personUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

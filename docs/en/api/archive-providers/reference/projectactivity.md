@@ -586,7 +586,7 @@ Activity archive provider for the Project card
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1268,7 +1268,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/streetAddress/city,mailingAddr/contact/contactAssociate/contactId,mailingAddr/person/lastName,mailingAddr/person/personUdef/SuperOffice:1,associate/role
+GET /api/v1/archive/ProjectActivity?$select=mailingClickRate,mailingAddr/contact/restrictionAddress/addressId,mailingAddr/contact/restrictionAddress/county,mailingAddr/contact/restrictionAddress/wgs84latitude,mailingAddr/contact/contactExtra/x_contact_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

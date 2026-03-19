@@ -709,7 +709,7 @@ Ticket provider for Find
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -796,7 +796,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=person/mrMrs,person/personMobilePhone/description,person/withdrawnStoreConsent,contact/streetAddress/city,contact/restrictionAddress/addressId
+GET /api/v1/archive/FindTicket?$select=person/personExtra/x_person_time,person/personExtra/x_person_shorttext_list,person/personAssociate/portraitThumbnail,person/correspondingAssociate/role,contact/restrictionAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -28,7 +28,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=sunt
+GET /api/v1/List/Country/MDOItems?query=aut
 ```
 
 

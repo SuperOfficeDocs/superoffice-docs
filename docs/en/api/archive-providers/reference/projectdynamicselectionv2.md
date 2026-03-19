@@ -49,7 +49,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|eventId|int|Project event ID: Project event ID| x |
+|eventId|int|Event ID: Event ID| x |
 |startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -825,7 +825,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=projectAssociate/lastName,LastActivity,sale/associate/locationAddress,sale/saleUdef/SuperOffice:8,document/text
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=startDate,sale/hasQuote,projectMember/useAsMailingAddress,projectMember/personExtra/x_person_user_relation,projectMember/correspondingAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -1009,8 +1009,6 @@ items:
   href: udtempsmall.md
 - name: URL
   href: url.md
-- name: UsageStats
-  href: usagestats.md
 - name: user_attribute
   href: user-attribute.md
 - name: user_candidate

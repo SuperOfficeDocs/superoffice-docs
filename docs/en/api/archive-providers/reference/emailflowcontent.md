@@ -173,7 +173,7 @@ Lists all email flow content
 |shipment/project/endDate| *None* |End date: End date of project|  |
 |shipment/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |shipment/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|shipment/project/eventId| *None* |Project event ID: Project event ID|  |
+|shipment/project/eventId| *None* |Event ID: Event ID|  |
 |shipment/project/startDate| *None* |Start date: Project start date|  |
 |shipment/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |shipment/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -263,7 +263,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/project/projectUdef/SuperOffice:5,shipment/project/saintAmountClass,shipment/emailFlow/workflowEnrolledCount
+GET /api/v1/archive/EmailFlowContent?$select=shipment/personId,shipment/emailFlow/workflowAssociate/ejUserId,shipment/emailFlow/hierarchyFullname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

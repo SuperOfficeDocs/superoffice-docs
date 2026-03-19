@@ -28,7 +28,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=a
+GET /api/v1/List/MrMrs/MDOItems?query=harum
 ```
 
 

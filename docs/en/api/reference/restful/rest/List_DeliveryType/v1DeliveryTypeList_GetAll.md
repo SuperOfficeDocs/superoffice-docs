@@ -26,7 +26,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=False
+GET /api/v1/List/DeliveryType/Items?includeDeleted=True
 ```
 
 

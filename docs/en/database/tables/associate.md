@@ -396,7 +396,6 @@ Employees, resources and other users - except for External persons
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[UDListHeadingLink](udlistheadinglink.md)  |Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
-|[UsageStats](usagestats.md)  |Usage statistics |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[UserPreference](userpreference.md)  |Preference system. If deflevel is set to 5; the user may change the preferences |

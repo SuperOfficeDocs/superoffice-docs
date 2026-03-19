@@ -28,7 +28,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=ut
+GET /api/v1/List/Rating/MDOItems?query=accusantium
 ```
 
 

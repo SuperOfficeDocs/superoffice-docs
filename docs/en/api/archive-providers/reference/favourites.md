@@ -518,7 +518,7 @@ Archive provider for the list of favourites
 |nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
 |endDate| *None* |End date: End date of project|  |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|eventId| *None* |Project event ID: Project event ID|  |
+|eventId| *None* |Event ID: Event ID|  |
 |startDate| *None* |Start date: Project start date|  |
 |project/textId| *None* |Text ID|  |
 |project/infoText| *None* |Information: Displays the text entered in the description field|  |
@@ -613,7 +613,7 @@ Archive provider for the list of favourites
 |project/endDate| *None* |End date: End date of project|  |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|project/eventId| *None* |Project event ID: Project event ID|  |
+|project/eventId| *None* |Event ID: Event ID|  |
 |project/startDate| *None* |Start date: Project start date|  |
 |project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -908,7 +908,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=getNoRows,associate/lastName,associate/assocName,streetAddress/state,contactUdef/SuperOffice:1
+GET /api/v1/archive/Favourites?$select=contactAssociate/credentialDisplayValue,personAssociate/credentialType,memberCount,documentUdef/SuperOffice:5,document/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

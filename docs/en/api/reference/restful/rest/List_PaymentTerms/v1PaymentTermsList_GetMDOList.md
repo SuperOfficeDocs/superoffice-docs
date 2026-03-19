@@ -28,7 +28,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=qui
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptate
 ```
 
 

@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TicketMessage?$select=name,department,category/id
 GET /api/v1/TicketMessage?$filter=name begins 'S'
 GET /api/v1/TicketMessage?$orderBy=name asc
-GET /api/v1/TicketMessage?$entities=ad
-GET /api/v1/TicketMessage?$top=147
-GET /api/v1/TicketMessage?$skip=133
+GET /api/v1/TicketMessage?$entities=modi
+GET /api/v1/TicketMessage?$top=121
+GET /api/v1/TicketMessage?$skip=1000
 GET /api/v1/TicketMessage?$mode=Full
 GET /api/v1/TicketMessage?$options=GrandTotal=true
-GET /api/v1/TicketMessage?$context=nemo
+GET /api/v1/TicketMessage?$context=aut
 GET /api/v1/TicketMessage?$format=JSON
-GET /api/v1/TicketMessage?$jsonSafe=False
+GET /api/v1/TicketMessage?$jsonSafe=True
 GET /api/v1/TicketMessage?$output=Display
 ```
 

@@ -26,7 +26,7 @@ Gets all the Reason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Reason/Items?includeDeleted=False
+GET /api/v1/List/Reason/Items?includeDeleted=True
 ```
 
 

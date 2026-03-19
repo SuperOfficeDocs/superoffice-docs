@@ -28,7 +28,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=voluptates
+GET /api/v1/List/SaleType/MDOItems?query=tempore
 ```
 
 

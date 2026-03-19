@@ -26,7 +26,7 @@ Gets all the MrMrs items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/MrMrs/Items?includeDeleted=False
+GET /api/v1/List/MrMrs/Items?includeDeleted=True
 ```
 
 
