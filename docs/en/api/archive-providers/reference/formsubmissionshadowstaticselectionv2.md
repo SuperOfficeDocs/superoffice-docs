@@ -492,7 +492,7 @@ Shadow contact provider for the static FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowStaticSelectionV2?$select=associate/fullName,person/personExtra/x_person_shorttext,contact/code,contact/contactUdef/SuperOffice:9
+GET /api/v1/archive/FormSubmissionShadowStaticSelectionV2?$select=personId,person/retired,contact/streetAddress/formattedMultiLineAddress,contact/contactUdef/SuperOffice:13,contact/NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

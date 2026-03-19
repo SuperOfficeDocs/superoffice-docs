@@ -76,11 +76,11 @@ GET /api/v1/Sale/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Guide?$orderBy=name asc
 GET /api/v1/Sale/{id}/Guide?$entities=et
-GET /api/v1/Sale/{id}/Guide?$top=587
-GET /api/v1/Sale/{id}/Guide?$skip=470
+GET /api/v1/Sale/{id}/Guide?$top=955
+GET /api/v1/Sale/{id}/Guide?$skip=531
 GET /api/v1/Sale/{id}/Guide?$mode=Full
 GET /api/v1/Sale/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Guide?$context=possimus
+GET /api/v1/Sale/{id}/Guide?$context=impedit
 GET /api/v1/Sale/{id}/Guide?$format=JSON
 GET /api/v1/Sale/{id}/Guide?$jsonSafe=False
 GET /api/v1/Sale/{id}/Guide?$output=Display

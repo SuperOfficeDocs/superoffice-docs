@@ -1079,7 +1079,7 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/endDate| *None* |End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
-|projectMembers/eventId| *None* |Project event ID: Project event ID| x |
+|projectMembers/eventId| *None* |Event ID: Event ID| x |
 |projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
 |projectMembers/eventParticipantStatus| *None* |Event status: Event status| x |
@@ -1453,7 +1453,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/city,contactAssociate/ejDisplayName,sale/associate/usergroupId,appointment/contactId,personEmail/emailDescription
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/lastName,contactAssociate/associateDbId,sale/stageName,appointment/associate/contactDepartment,document/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

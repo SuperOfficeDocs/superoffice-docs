@@ -492,7 +492,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=person/isStakeholder,contact/contactPhone/description,contact/postAddress/state,contact/contactUdef/SuperOffice:2,contact/contactExtra/x_contact_datetime
+GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=associate/usergroup,person/useAsMailingAddress,person/personUpdatedByFullName,person/restrictionAddress/county,person/personAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

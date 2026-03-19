@@ -28,7 +28,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=cum
+GET /api/v1/List/Currency/MDOItems?query=ut
 ```
 
 

@@ -28,7 +28,7 @@ Calls the List agent service GetAllSaleStageEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Rating/Items?includeDeleted=False
+GET /api/v1/List/Rating/Items?includeDeleted=True
 ```
 
 

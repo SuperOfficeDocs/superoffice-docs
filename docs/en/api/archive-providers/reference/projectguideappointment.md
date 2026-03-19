@@ -534,7 +534,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/project/endDate|date|End date: End date of project| x |
 |appointmentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |appointmentInstance/project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|appointmentInstance/project/eventId|int|Project event ID: Project event ID| x |
+|appointmentInstance/project/eventId|int|Event ID: Event ID| x |
 |appointmentInstance/project/startDate|date|Start date: Project start date| x |
 |appointmentInstance/project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointmentInstance/project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -775,7 +775,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=stageId,appointmentInstance/location,appointmentInstance/contact/postAddress/addressId,appointmentInstance/person/personInterestIds,appointmentInstance/project/projectId
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/saleId,appointmentInstance/contact/email/emailAddress,appointmentInstance/person/personPrivate/formattedNumber,appointmentInstance/project/name,appointmentInstance/sale/associate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

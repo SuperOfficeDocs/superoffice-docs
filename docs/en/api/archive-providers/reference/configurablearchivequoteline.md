@@ -656,7 +656,7 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
 |alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -774,7 +774,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/quote/sale/person/personCountryId,alternative/version/quote/sale/person/ticketPriority,alternative/version/quote/sale/person/searchPhone/formattedNumber,alternative/version/quote/sale/contact/contactAssociate/contactId,alternative/version/quote/sale/contact/contactExtra/x_contact_timespan
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/quote/sale/person/restrictionAddress/city,alternative/version/quote/sale/contact/contactUdef/SuperOffice:6,alternative/version/quote/sale/associate/credentialDisplayValue,alternative/version/quote/sale/project/projectAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

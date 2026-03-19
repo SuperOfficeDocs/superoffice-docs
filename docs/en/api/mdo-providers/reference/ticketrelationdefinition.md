@@ -42,9 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Related||description=[SR_TICKETREL_RELDEF_TOOLTIP1]&relationType=0&isParentMandatory=0&isCloseParentWithChild=0&isPreventClosingParent=0&isCloseWithParent=0&isBuiltIn=1|
-|2|Parent||description=[SR_TICKETREL_RELDEF_TOOLTIP2]&relationType=1&isParentMandatory=0&isCloseParentWithChild=0&isPreventClosingParent=0&isCloseWithParent=0&isBuiltIn=1|
-|3|Child||description=[SR_TICKETREL_RELDEF_TOOLTIP3]&relationType=2&isParentMandatory=0&isCloseParentWithChild=0&isPreventClosingParent=0&isCloseWithParent=0&isBuiltIn=1|
+| 2 | Example | | |
 
 
 ## Related MDO Lists

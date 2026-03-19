@@ -28,7 +28,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=aspernatur
+GET /api/v1/List/Reason/MDOItems?query=veniam
 ```
 
 
