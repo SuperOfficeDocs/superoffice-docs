@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketData
   - SuperOffice.CRM.Ticket.TicketHelper
   - SuperOffice.CRM.Ticket.TicketOwnerResolver
+  - SuperOffice.CRM.Ticket.TicketParentRelationtData
   - SuperOffice.CRM.Ticket.TicketPriorityResolver
   - SuperOffice.CRM.Ticket.TicketRelationDefInfo
   - SuperOffice.CRM.Ticket.TicketRelationHelper
@@ -186,6 +187,13 @@ references:
   name: TicketRelationDefInfo
   nameWithType: TicketRelationDefInfo
   fullName: SuperOffice.CRM.Ticket.TicketRelationDefInfo
+- uid: SuperOffice.CRM.Ticket.TicketParentRelationtData
+  commentId: T:SuperOffice.CRM.Ticket.TicketParentRelationtData
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketParentRelationtData.html
+  name: TicketParentRelationtData
+  nameWithType: TicketParentRelationtData
+  fullName: SuperOffice.CRM.Ticket.TicketParentRelationtData
 - uid: SuperOffice.CRM.Ticket.TicketRelationtData
   commentId: T:SuperOffice.CRM.Ticket.TicketRelationtData
   isExternal: true

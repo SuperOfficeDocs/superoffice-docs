@@ -1,0 +1,17 @@
+<Assembly Name="SuperOffice.Services.Implementation, Version=11.12.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Modified">
+  <Module Name="SuperOffice.Services.Implementation.dll" DiffType="Modified">
+    <DeclarationDiffs>
+      <AssemblyReference Name="MailKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b" DiffType="Deleted" />
+      <AssemblyReference Name="MimeKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814" DiffType="Deleted" />
+      <AssemblyReference Name="SoBatchProcessing, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SoCore, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SoDataBase, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SoDataBase.BusinessLogic, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SoMail, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SuperOffice.CD.DSL.Database, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SuperOffice.CD.DSL.Implementation, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SuperOffice.CRMScript.RTE.Client, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SuperOffice.Services, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+    </DeclarationDiffs>
+  </Module>
+</Assembly>

@@ -108,7 +108,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase
   - SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
   - SuperOffice.CRM.ArchiveLists.UrlExtenderBase
-  - SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
   - SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
   - SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase

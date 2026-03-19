@@ -1,0 +1,45 @@
+<Assembly Name="SoDataBase, Version=11.12.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Modified">
+  <Module Name="SoDataBase.dll" DiffType="Modified">
+    <DeclarationDiffs>
+      <AssemblyReference Name="MimeKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814" DiffType="Deleted" />
+      <AssemblyReference Name="SoCore, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SoLicense, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SoMail, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SuperOffice.CD.DSL.Database, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+      <AssemblyReference Name="SuperOffice.CD.DSL.Implementation, Version=11.11.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Deleted" />
+    </DeclarationDiffs>
+    <Type Name="SuperOffice.CRM.Data.AssociateTableInfo" DiffType="Modified">
+      <Property Name="LeftOuterJoin_UsageStats_AssocId" DiffType="Deleted" />
+    </Type>
+    <Type Name="SuperOffice.CRM.Data.DBC" DiffType="Modified">
+      <Field Name="UsageStats" DiffType="Deleted" />
+      <Type Name=".UsageStatsFields" DiffType="Deleted" />
+    </Type>
+    <Type Name="SuperOffice.CRM.Data.UsageStatsTableInfo" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Rows.PrivateFactory.PrivateUsageStatsRowFactory" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Rows.PrivateFactory.PrivateUsageStatsRowsFactory" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Rows.UsageStatsRecordData" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Rows.UsageStatsRow" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Rows.UsageStatsRows" DiffType="Deleted" />
+    <Type Name="SuperOffice.CRM.Ticket.TicketData" DiffType="Modified">
+      <Property Name="Slevel" DiffType="New" />
+    </Type>
+    <Type Name="SuperOffice.CRM.Ticket.TicketParentRelationtData" DiffType="New" />
+    <Type Name="SuperOffice.CRM.Ticket.TicketRelationHelper" DiffType="Modified">
+      <Method Name="CheckExistingRelationAsync(Int32, Int32, Int32, CancellationToken)" DiffType="New" />
+      <Method Name="CheckIfRelationDefinitionForTicketTypesExistsAsync(Int32, Int32, Int32, TicketRelationType, CancellationToken)" DiffType="New" />
+      <Method Name="EvaluateTicketRelationActionsAsync(Int32, CancellationToken)" DiffType="Modified">
+        <DeclarationDiffs>
+          <DiffItem DiffType="Modified">Member type changed from Task&lt;ValueTuple&lt;Boolean, List&lt;Int32&gt;, Int32&gt;&gt; to Task&lt;ValueTuple&lt;Boolean, List&lt;TicketData&gt;, Int32&gt;&gt;.</DiffItem>
+        </DeclarationDiffs>
+      </Method>
+      <Method Name="GetParentRelationInfo(Int32, CancellationToken)" DiffType="Deleted" />
+      <Method Name="GetTicketParentRelationDataAsync(Int32, CancellationToken)" DiffType="New" />
+      <Method Name="ResolveParentId(Int32, ValueTuple&lt;Int32, Int32, Int32&gt;)" DiffType="Deleted" />
+    </Type>
+    <Type Name="SuperOffice.Data.TablesInfo" DiffType="Modified">
+      <Method Name="GetUsageStatsTableInfo()" DiffType="Deleted" />
+    </Type>
+  </Module>
+</Assembly>

@@ -1,0 +1,46 @@
+<Assembly Name="SoCore, Version=11.12.0.0, Culture=neutral, PublicKeyToken=bdda2d694ae22a86" DiffType="Modified">
+  <Module Name="SoCore.dll" DiffType="Modified">
+    <DeclarationDiffs>
+      <AssemblyReference Name="MimeKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814" DiffType="Deleted" />
+    </DeclarationDiffs>
+    <Type Name="SuperOffice.Globalization.RC" DiffType="Modified">
+      <Field Name="SR_ADMIN_AS_PARENT_TO" DiffType="New" />
+      <Field Name="SR_ADMIN_BEHAVIOR" DiffType="New" />
+      <Field Name="SR_ADMIN_CONDITION" DiffType="New" />
+      <Field Name="SR_ADMIN_DEFINE_AUTOMATIC_BEHAVIOR" DiffType="New" />
+      <Field Name="SR_ADMIN_DEFINE_AUTOMATIC_BEHAVIOUR" DiffType="New" />
+      <Field Name="SR_ADMIN_DESCRIPTION" DiffType="New" />
+      <Field Name="SR_ADMIN_EXPLAIN_THE_RULE" DiffType="New" />
+      <Field Name="SR_ADMIN_FROM_SOURCE" DiffType="New" />
+      <Field Name="SR_ADMIN_HAS_AN_UNKNOWN_RELATION_TO" DiffType="New" />
+      <Field Name="SR_ADMIN_HELP" DiffType="New" />
+      <Field Name="SR_ADMIN_IS_SET_AS_CHILD_TO" DiffType="New" />
+      <Field Name="SR_ADMIN_IS_SET_AS_PARENT_TO" DiffType="New" />
+      <Field Name="SR_ADMIN_IS_SET_AS_RELATED_TO" DiffType="New" />
+      <Field Name="SR_ADMIN_OFFER_TO_CLOSE_CHILDREN_WHEN_PARENT_IS_CLOSED" DiffType="New" />
+      <Field Name="SR_ADMIN_OFFER_TO_CLOSE_PARENT_WHEN_ALL_CHILDREN_ARE_CLOSED" DiffType="New" />
+      <Field Name="SR_ADMIN_ON_CLOSE" DiffType="New" />
+      <Field Name="SR_ADMIN_ON_CREATION" DiffType="New" />
+      <Field Name="SR_ADMIN_PREVENT_PARENT_CLOSURE" DiffType="New" />
+      <Field Name="SR_ADMIN_RELATION" DiffType="New" />
+      <Field Name="SR_ADMIN_RELATION_RULES" DiffType="New" />
+      <Field Name="SR_ADMIN_REQUIRE_PARENT_TO_BE_SET" DiffType="New" />
+      <Field Name="SR_ADMIN_ROLE_NO_ROLE_CHANGES" DiffType="New" />
+      <Field Name="SR_ADMIN_RULE_NAME" DiffType="New" />
+      <Field Name="SR_ADMIN_RULE_SET_APPLIES" DiffType="New" />
+      <Field Name="SR_ADMIN_RULES_TRIGGER_AUTOMATIC_ACTIONS" DiffType="New" />
+      <Field Name="SR_ADMIN_THESE_RULES_APPLY_WHEN_REQUEST" DiffType="New" />
+      <Field Name="SR_ADMIN_TITLE" DiffType="New" />
+      <Field Name="SR_ADMIN_TO_TARGET" DiffType="New" />
+      <Field Name="SR_SMC_OPTIONS_HEADING" DiffType="New" />
+      <Field Name="SR_TICKET_BULKCLOSE_CLOSE" DiffType="New" />
+      <Field Name="SR_TICKET_BULKCLOSE_SEND_CLOSE" DiffType="New" />
+      <Field Name="SR_TICKET_BULKCLOSE_SEND_MESSAGE" DiffType="New" />
+      <Field Name="SR_TICKET_BULKCLOSE_SHOW_RECIPIENTS" DiffType="New" />
+      <Field Name="SR_TICKET_BULKCLOSE_TICKETCOUNT" DiffType="New" />
+      <Field Name="SR_TICKET_RELATED_WILL_NOT_BE_RELATED" DiffType="New" />
+      <Field Name="SR_TICKET_RELATION_RELATION_ALREADY_EXISTS_REASON" DiffType="New" />
+      <Field Name="SR_TICKET_RELATION_TEXT" DiffType="New" />
+    </Type>
+  </Module>
+</Assembly>
