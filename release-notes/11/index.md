@@ -25,12 +25,17 @@ See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service,
 
 ## Feature updates
 
+### 11.12 (07.04.2026)
+
+* [Request relations - better control and overview][40]
+* [Marketing - Form field restrictions][40]
+
 ### 11.11 (17.03.2026)
 
-* [User setup to configure e-mail and document management (11.11)][36]
-* [Forms - Custom styling of your form (11.11)][37]
-* [Requests - Created date to use in columns and criteria (11.11)][38]
-* [Subscription page styling - Change text Unsubscribe and Confirmations pages (11.11)][39]
+* [User setup to configure e-mail and document management][36]
+* [Forms - Custom styling of your form][37]
+* [Requests - Created date to use in columns and criteria][38]
+* [Subscription page styling - Change text Unsubscribe and Confirmations pages][39]
 
 ### 11.10 (17.02.2026)
 
@@ -165,5 +170,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [37]: marketing/11.11-update.md
 [38]: service/11.11-update.md
 [39]: admin/11.11-update.md
+[40]: admin/11.12-update.md
+[41]: service/11.12-update.md
+[42]: marketing/11.12-update.md
 
 <!-- Referenced images -->
