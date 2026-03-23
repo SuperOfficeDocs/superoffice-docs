@@ -3,9 +3,9 @@ uid: help-nl-connect-google-workspace
 title: Google Workspace als jouw oplossing
 description: Hoe je je Google Workspace e-mailaccount, documenten en agenda verbindt met SuperOffice.
 keywords: Google Workspace, Gmail, e-mail, document, agenda, uitnodigingen
-author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: nl
 ---
 
 # Google Workspace als jouw oplossing
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Met Google Workspace als jouw oplossing zijn er verschillende manieren om je e-mailaccount, documenten en agenda te verbinden met SuperOffice.
 

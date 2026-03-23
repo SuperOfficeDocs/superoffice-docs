@@ -3,9 +3,9 @@ uid: help-sv-connect-email-doc-cal-default-mac
 title: SuperOffice som din lösning (macOS)
 description: Hur du ansluter ditt e-postkonto, dokument och kalender till SuperOffice på macOS.
 keywords: e-post, dokoment, kalender, inbjudning, mac
-author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: sv
 ---
 
 # SuperOffice som din lösning (macOS)
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Detta är det standardmässiga sättet att ansluta ditt e-postkonto, dokument och kalender till SuperOffice på macOS.
 

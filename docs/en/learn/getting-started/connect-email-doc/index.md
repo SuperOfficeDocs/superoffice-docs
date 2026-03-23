@@ -4,13 +4,15 @@ title: Connect email, document, and calendar
 description: Learn which integration options you need based on your operating system, email client, and the document programs you use in this how-to guide.
 keywords: email, document, diary, invitation
 author: Kirsti Aakerholt
-date: 07.18.2023
+date: 03.17.2026
+version: 11.10
 content_type: concept
-version: 10
 language: en
 ---
 
 # Connect email, document, and calendar
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Connecting your emails, documents, and calendar to SuperOffice will help you work more efficiently and make it easier to collaborate with your colleagues. It lets you:
 

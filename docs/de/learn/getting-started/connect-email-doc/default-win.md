@@ -3,9 +3,9 @@ uid: help-de-connect-email-doc-cal-default-win
 title: SuperOffice als Ihre Lösung (Windows)
 description: So verbinden Sie Ihr E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice auf Windows.
 keywords: E-Mail, Dokument, Kalender, Einladung, Windows
-author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: de
 ---
 
 # SuperOffice als Ihre Lösung (Windows)
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Dies ist die Standardmethode, um Ihr E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice zu verbinden.
 

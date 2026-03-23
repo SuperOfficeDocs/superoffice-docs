@@ -3,9 +3,9 @@ uid: help-no-connect-email-doc-cal
 title: Koble til e-post, dokumenter og kalender
 description: Lær hvilke integrasjonsalternativer du trenger basert på operativsystemet ditt, e-postklienten og dokumentprogrammene du bruker, i denne veiledningen.
 keywords: epost, dokument, kalender, invitasjon
-author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 language: no
 audience: person
@@ -13,6 +13,8 @@ audience_tooltip: SuperOffice CRM
 ---
 
 # Koble til e-post, dokumenter og kalender
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Ved å koble e-post, dokumenter og kalender til SuperOffice, kan du jobbe mer effektivt og gjøre det enklere å samarbeide med kollegaer. Dette lar deg:
 

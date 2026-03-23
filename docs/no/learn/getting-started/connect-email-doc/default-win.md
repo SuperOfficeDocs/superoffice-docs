@@ -3,9 +3,9 @@ uid: help-no-connect-email-doc-cal-default-win
 title: SuperOffice som din løsning (Windows)
 description: Slik kobler du e-postkontoen, dokumenter og kalenderen til SuperOffice på Windows.
 keywords: epost, dokument, kalender, invitasjon, Windows
-author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: no
 ---
 
 # SuperOffice som din løsning (Windows)
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Dette er standardmåten for å koble e-postkontoen, dokumenter og kalenderen til SuperOffice.
 

@@ -3,9 +3,9 @@ uid: help-nl-connect-email-doc-cal
 title: E-mail, document en agenda koppelen
 description: Leer welke integratie-opties je nodig hebt op basis van je besturingssysteem, e-mailclient en de documentprogramma's die je gebruikt in deze handleiding.
 keywords: e-mail, document, agenda, uitnodigingen
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.17.2026
+version: 11.10
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: nl
 ---
 
 # E-mail, document en agenda koppelen
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 Door je e-mails, documenten en agenda aan SuperOffice te koppelen, kun je efficiënter werken en wordt het gemakkelijker om samen te werken met je collega's. Hiermee kun je:
 

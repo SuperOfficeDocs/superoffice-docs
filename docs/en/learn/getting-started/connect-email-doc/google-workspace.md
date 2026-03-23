@@ -4,8 +4,8 @@ title: Google Workspace as your solution
 description: How to connect your Google Workspace email account, documents, and calendar to SuperOffice.
 keywords: Google Workspace, email, Gmail, document, diary, invitation
 author: Kirsti Aakerholt
-date: 05.28.2025
-version: 10.5
+date: 03.17.2026
+version: 11.10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: en
 ---
 
 # Google Workspace as your solution
+
+[!include[Legacy version note](includes/legacy-version-note.md)]
 
 ## Intro
 
