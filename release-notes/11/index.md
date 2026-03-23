@@ -2,9 +2,9 @@
 uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
-keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution, form fonts, google fonts
+keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution, form fonts, google fonts, form restrictions, request relations, related requests
 author: kirstiaa
-date: 03.17.2026
+date: 04.07.2026
 version: 11
 content_type: release-note
 audience: person
@@ -27,15 +27,16 @@ See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service,
 
 ### 11.12 (07.04.2026)
 
-* [Request relations - better control and overview][40]
-* [Marketing - Form field restrictions][40]
+* [Request relations - better control and overview][41] in Service
+* [Requests - Add Relation rules][40] in Settings and maintenance
+* [Marketing - Form field restrictions][40] in Settings and maintenance
 
 ### 11.11 (17.03.2026)
 
-* [User setup to configure e-mail and document management][36]
-* [Forms - Custom styling of your form][37]
-* [Requests - Created date to use in columns and criteria][38]
-* [Subscription page styling - Change text Unsubscribe and Confirmations pages][39]
+* [User setup to configure e-mail and document management][36] in Service
+* [Forms - Custom styling of your form][37] in Service
+* [Requests - Created date to use in columns and criteria][38] in Service
+* [Subscription page styling - Change text Unsubscribe and Confirmations pages][39] in Settings and maintenance
 
 ### 11.10 (17.02.2026)
 
