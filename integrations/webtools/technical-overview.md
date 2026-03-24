@@ -3,8 +3,8 @@ uid: webtools-technical-overview
 title: Technical overview
 description: Technical overview of SuperOffice WebTools
 keywords: WebTools
-author: Jostein, Bergfrid, H.O. Waaler
-date: 01.23.2024
+author: Jostein, digitaldiina
+date: 03.24.2026
 content_type: concept
 category: integration
 topic: WebTools
@@ -18,11 +18,11 @@ The interaction between SuperOffice WebTools and SuperOffice CRM depends heavily
 
 We currently use a custom protocol to communicate between SuperOffice in the browser and WebTools running on the user's desktop. The previous generation used SignalR-technology.
 
-WebTools consists of 3 components installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
+WebTools consists of 2 components (3 for SuperOffice 11.10 and older) installed server-side along with SuperOffice CRM and access the SuperOffice database through NetServer APIs. (Yes, the same APIs that are available to partners).
 
 * The installed component on the user's computer
 * TrayApp2.svc (WCF)
-* MailLinkService.svc (WCF)
+* MailLinkService.svc (WCF) — SuperOffice 11.10 and older
 
 Check out the [system requirements][2].
 
@@ -69,6 +69,9 @@ After version 8.1, WebTools and MacLink are no longer bundled with the actual in
 * Hosts downloads like WebTools and MacLink
 * Implements and applies rules concerning compatibility between WebTools/MacLink and Web
 * Offers advice about WebTools and MacLink upgrades available to the Web users
+
+> [!NOTE]
+> Starting with SuperOffice 11.11, the WebTools for Windows download no longer includes MailLink. Customers on SuperOffice 11.10 and older will continue to receive the combined installer.
 
 <!-- Referenced links -->
 [1]: ../../docs/en/onsite/install/iis/index.md

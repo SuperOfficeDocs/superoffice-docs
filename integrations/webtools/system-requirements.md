@@ -3,8 +3,8 @@ uid: webtools-system-requirements
 title: System requirements for WebTools
 description: System requirements for WebTools
 keywords: requirements for WebTools, compatibility, system requirements
-author: SuperOffice Product and Engineering
-date: 01.23.2024
+author: digitaldiina
+date: 03.24.2026
 content_type: reference
 category: integration
 topic: WebTools
@@ -25,10 +25,6 @@ redirect_from: /en/document/webtools/system-requirements
 
 ## Folders on Citrix/Terminal server
 
-### MailLink
-
-MailLink stores its configuration in the *%appdata%* folder under *SuperOffice\MailLink*. This folder is part of a roaming profile so the MailLink configuration is not forgotten when the user signs out and back in again.
-
 ### Web Extensions
 
 It is necessary to make sure Web Extensions is set to automatically start when a user signs in.
@@ -38,12 +34,20 @@ To store Web Extensions configuration, we use folder *%localappdata%\SuperOffice
 > [!NOTE]
 > The installation of the WebTools does not require administrative privileges, but the prerequisites do. For more information, see the [WebTools installation documentation][2].
 
+### MailLink (SuperOffice 11.10 and older)
+
+MailLink stores its configuration in the *%appdata%* folder under *SuperOffice\MailLink*. This folder is part of a roaming profile so the MailLink configuration is not forgotten when the user signs out and back in again.
+
 ## Version compatibility
 
-### SuperOffice 8.2 R06 (8.2.6689) and newer
+### SuperOffice 11.11 and newer
 
-* SuperOffice Windows users can install the latest WebTools from the [Download Service][4] without worrying about compatibility.
-* Both Windows and Web installations use a new build of WebTools that ships **without** NetServer.
+SuperOffice Online users can install the latest WebTools for Windows from the [Download Service][4]. Starting with SuperOffice 11.11, this version no longer includes MailLink.
+
+### SuperOffice 8.2 R06 (8.2.6689) to 11.10
+
+* SuperOffice Windows users can install WebTools from the [Download Service][4]. The correct version is served automatically.
+* Both Windows and Web installations use a build of WebTools that ships **without** NetServer.
 
 ### SuperOffice 8.1 and SuperOffice 8.2 up to 8.2 R04 (8.2.6642)
 
@@ -53,7 +57,7 @@ SuperOffice Windows users are advised to stay on the same version of MailLink as
 
 Normally they will be offered to download WebTools from the 8.1/8.2 release channel from the Download Service. If any are published, updates will also be provided from this channel.
 
-But let’s say there is a problem/bug that is fixed in the 8.3 release. The customer can then install the latest WebTools (without NetServer) through manual download from the [Download Service][4]. When this is done a few things changes:
+But let's say there is a problem/bug that is fixed in the 8.3 release. The customer can then install the latest WebTools (without NetServer) through manual download from the [Download Service][4]. When this is done a few things changes:
 
 * Windows support will no longer be available (which is not an issue for pure Web users).
 * The Download Service will NOT say this is an incompatible version for SuperOffice 8.1/8.2.
@@ -63,4 +67,4 @@ But let’s say there is a problem/bug that is fixed in the 8.3 release. The cus
 [1]: https://www.microsoft.com/en-US/download/details.aspx?id=40779
 [2]: deploy.md
 [3]: https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2
-[4]: https://www3.superoffice.com/DownloadService/
+[4]: https://downloadservice.superoffice.com/

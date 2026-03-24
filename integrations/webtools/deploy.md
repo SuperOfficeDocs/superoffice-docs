@@ -3,8 +3,8 @@ uid: webtools-deploy
 title: WebTools deployment in a restricted environment
 description: WebTools deployment in a restricted environment
 keywords: deploy WebTools, SoConfig
-author: SuperOffice Product and Engineering
-date: 01.23.2024
+author: digitaldiina
+date: 03.24.2026
 content_type: howto
 category: integration
 topic: WebTools
@@ -26,19 +26,21 @@ If WebTools are already installed, or if you for other reasons wish to configure
 When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up WebTools for the user. The site will not be added again if it has already been added.
 
 > [!NOTE]
-> If you are not the administrator, you get WebTools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:\Program files*, you need to be the local administrator.
+> If you are not the administrator, you get WebTools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:\Program files*, you need to be the local administrator.
 
 ## Overview
 
 1. Extract required files from the WebTools installer.
-2. Distribute the MSI files (using GPO or SCCM tools) to all machines that are going to use WebTools.
-3. Auto-configure the URL and Settings using a script.
+1. Distribute the MSI files (using GPO or SCCM tools) to all machines that are going to use WebTools.
+1. Auto-configure the URL and settings using a script.
 
 The following MSI files must be deployed to every SuperOffice user (AD group all SuperOffice users):
 
-* SoCrossTableInstaller.msi (component for viewing cross-table reports)
-* SuperOffice.MailLink.Setup.msi (add-in for Microsoft Outlook)
-* SuperOffice.Web.Extensions.msi (document-handling plugin for SuperOffice)
+| MSI file | WebTools 13.1.80 and older | WebTools 13.2.3 and newer |
+|---|---|---|
+| SuperOffice.Web.Extensions.msi (document plugin) | Yes | Yes |
+| SuperOffice.MailLink.Setup.msi (Outlook add-in) | Yes | No |
+| SoCrossTableInstaller.msi (cross-table reports) | Yes | No |
 
 ## Pre-requisites
 
@@ -49,63 +51,51 @@ The following MSI files must be deployed to every SuperOffice user (AD group all
 * Blocking applications must be closed.
 * [Libraries][5] must be installed **before any SuperOffice plugins are installed**.
 
-## Blocking applications
+## Steps
 
-There are several applications that need to be closed when MailLink and Web Extensions are being installed. Make sure all of these are switched off when you deploy WebTools.
+Select your WebTools version to see the deployment steps:
+
+<!-- markdownlint-disable-file MD051 -->
+### [WebTools 13.1.80 and older](#tab/old)
 
 > [!WARNING]
 > Do not run Outlook.exe as administrator (then you do not run it as "your own local user") and that will not work for MailLink.
 
-**For MailLink, close:**
+Before you begin, close the following applications:
 
-* Outlook
-* SuperOffice CRM Win client
-* SoEventServer
+| Application | Required for |
+|---|---|
+| SuperOffice TrayApp Client | Web Extensions |
+| Outlook | MailLink |
+| SuperOffice CRM Win client | MailLink |
+| SoEventServer | MailLink |
 
-**For Web Extensions, close:**
+#### Step 1: Extract required files
 
-* SuperOffice TrayApp Client
+You need *SoCrossTableInstaller.msi*, *SuperOffice.MailLink.Setup.msi*, and *SuperOffice.Web.Extensions.msi*.
 
-## Step 1: Extract required files from the WebTools installer
+1. Download the WebTools installer from the [Download Service][3] or from inside the SuperOffice CRM **Download** menu.
 
-You need to extract *SoCrossTableInstaller.msi*, *SuperOffice.MailLink.Setup.msi*, and *SuperOffice.Web.Extensions.msi*.
+    > [!TIP]
+    > Because MailLink is a separate downloadable installer available on the Download Service, customers wishing to upgrade or extract MSI only MailLink can do so.
 
-1. Download the WebTools installer from the [Download Service][3] or from inside the SuperOffice CRM **Download** menu.
-
-2. Extract Mail Link and Web Extensions installers out of WebTools installer:
+1. Extract the installers out of the WebTools installer:
 
     `SuperOffice.Web.Tools.exe /k /d C:\Temp`
 
-3. Run `SuperOffice.MailLink.Setup.exe` but don't finish the installation. While keeping the installer on-screen:
+1. Run `SuperOffice.MailLink.Setup.exe` but do not finish the installation. While keeping the installer on-screen:
 
     1. Go to the *%temp%* folder.
     2. Locate a folder where the installer unpacked the MailLink files.
-    3. Copy the *SuperOffice.MailLink.Setup.msi* file out of it.
+    3. Copy the *SuperOffice.MailLink.Setup.msi* file out of it.
 
-4. Run `SuperOffice.Web.Extensions.exe` as above to obtain *SuperOffice.Web.Extensions.msi*.
+1. Run `SuperOffice.Web.Extensions.exe` as above to obtain *SuperOffice.Web.Extensions.msi*.
 
-5. To get *SoCrossTableInstaller.msi*, download CrossTable viewer from inside the SuperOffice Web **Download** menu and follow the same procedure as with MailLink to get the MSI from the *%temp%* folder during CrossTable viewer installation.
+1. To get *SoCrossTableInstaller.msi*, download CrossTable viewer from inside the SuperOffice Web **Download** menu and follow the same procedure to extract the MSI from the *%temp%* folder.
 
-> [!TIP]
-> Because MailLink is a separate downloadable installer (the latest version) available on the Download Service, customers wishing to upgrade or extract MSI only MailLink can do so.
+#### Steps 2-3: Deploy and configure MSI files
 
-## Steps 2-3: Deploy and configure MSI files
-
-1. Install all MSI packages with a help of the **InstallWebTools.cmd** script (see below). It also copies the **SuperOfficeWebToolConfiguration.cmd** script to the **Start** menu for all users and removes the default Web Extensions link.
-
-2. Edit *SuperOfficeWebToolConfiguration.cmd* with correct settings:
-
-    ```bat
-    set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
-    set SuperOfficeServiceURL=https://socrm.myorganization.com/service
-    set SuperOfficeOwnerContactName=Licence owner name
-    ```
-
-3. Restart the target computer.
-
-### InstallWebTools.cmd
-
-Copy the below code-lines to Notepad or another text editor and save as *InstallWebTools.cmd*.
+1. Copy the below code-lines to Notepad or another text editor and save as *InstallWebTools.cmd*:
 
 ```powershell
 @echo off
@@ -116,9 +106,7 @@ xcopy SuperOfficeWebToolConfiguration.cmd "%ALLUSERSPROFILE%\Microsoft\Windows\S
 del "%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup\SuperOffice CRM.Web Extensions.lnk"
 ```
 
-### SuperOfficeWebToolConfiguration.cmd
-
-Copy the below code-lines to Notepad or another text editor and save as *SuperOfficeWebToolConfiguration.cmd*.
+1. Copy the below code-lines to Notepad or another text editor and save as *SuperOfficeWebToolConfiguration.cmd*:
 
 ```powershell
 @echo off
@@ -180,9 +168,112 @@ GOTO END
 exit
 ```
 
+1. Install all MSI packages using the **InstallWebTools.cmd** script. It also copies the **SuperOfficeWebToolConfiguration.cmd** script to the **Start** menu for all users and removes the default Web Extensions link.
+
+1. Edit *SuperOfficeWebToolConfiguration.cmd* with correct settings:
+
+    ```bat
+    set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
+    set SuperOfficeServiceURL=https://socrm.myorganization.com/service
+    set SuperOfficeOwnerContactName=Licence owner name
+    ```
+
+1. Restart the target computer.
+
+### [WebTools 13.2.3 and newer](#tab/new)
+
+Before you begin, close **SuperOffice TrayApp Client** (required for Web Extensions).
+
+#### Step 1: Extract required files
+
+You need *SuperOffice.Web.Extensions.msi* only.
+
+1. Download the WebTools installer from the [Download Service][3] or from inside the SuperOffice CRM **Download** menu.
+
+1. Extract the installer out of the WebTools installer:
+
+    `SuperOffice.Web.Tools.exe /k /d C:\Temp`
+
+1. Run `SuperOffice.Web.Extensions.exe` but do not finish the installation. While keeping the installer on-screen:
+
+    1. Go to the *%temp%* folder.
+    2. Locate a folder where the installer unpacked its files.
+    3. Copy the *SuperOffice.Web.Extensions.msi* file out of it.
+
+#### Steps 2-3: Deploy and configure MSI files
+
+1. Copy the below code-lines to Notepad or another text editor and save as *InstallWebTools.cmd*:
+
+```powershell
+@echo off
+msiexec /i SuperOffice.Web.Extensions.msi /qn /norestart
+xcopy SuperOfficeWebToolConfiguration.cmd "%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup" /Y
+del "%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup\SuperOffice CRM.Web Extensions.lnk"
+```
+
+1. Copy the below code-lines to Notepad or another text editor and save as *SuperOfficeWebToolConfiguration.cmd*:
+
+```powershell
+@echo off
+
+set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
+set SuperOfficeOwnerContactName=Licence owner name
+
+IF NOT EXIST "%appdata%\soconfig\" (
+GOTO CREATEDIR
+)
+
+IF EXIST "%appdata%\soconfig\" (
+GOTO SOCONFIG
+)
+
+:CREATEDIR
+mkdir "%appdata%\soconfig"
+GOTO SOCONFIG
+
+:SOCONFIG
+IF NOT EXIST "%appdata%\soconfig\config.SoConfig" (
+@echo {>> "%appdata%\soconfig\config.SoConfig"
+@echo "WebsiteUrl": "%SuperOfficeWebUrl%",>> "%appdata%\soconfig\config.SoConfig"
+@echo "UserName": "%USERNAME%",>> "%appdata%\soconfig\config.SoConfig"
+@echo "CompanyName": "%SuperOfficeOwnerContactName%">> "%appdata%\soconfig\config.SoConfig"
+@echo }>> "%appdata%\soconfig\config.SoConfig"
+GOTO STARTWEBTOOL
+) else (
+GOTO STARTWEBTOOL
+)
+
+:STARTWEBTOOL
+IF "%PROCESSOR_ARCHITECTURE%"=="x86" (
+start "" "%Programfiles%\SuperOffice\SuperOffice Web Extensions\SuperOffice.TrayApp.Client.exe"
+) else (
+start "" "%Programfiles(x86)%\SuperOffice\SuperOffice Web Extensions\SuperOffice.TrayApp.Client.exe"
+)
+GOTO END
+
+:END
+exit
+```
+
+1. Install all MSI packages using the **InstallWebTools.cmd** script. It also copies the **SuperOfficeWebToolConfiguration.cmd** script to the **Start** menu for all users and removes the default Web Extensions link.
+
+1. Edit *SuperOfficeWebToolConfiguration.cmd* with correct settings:
+
+    ```bat
+    set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
+    set SuperOfficeOwnerContactName=Licence owner name
+    ```
+
+    > [!TIP]
+    > For SuperOffice Online, set `SuperOfficeWebUrl` to your CRM Online URL (for example, `https://online.superoffice.com/Cust12345` or `https://online.superoffice.com/login`).
+
+1. Restart the target computer.
+
+***
+
 <!-- Referenced links -->
 [2]: upgrade.md
-[3]: https://www3.superoffice.com/DownloadService/
+[3]: https://downloadservice.superoffice.com/
 [4]: install.md
 [5]: system-requirements.md
 
