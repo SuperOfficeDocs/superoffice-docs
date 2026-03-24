@@ -4,7 +4,7 @@ title: Configure WebTools
 description: How to configure WebTools.
 keywords: configure WebTools, SiteInfo, registry
 author: Jostein K, digitaldiina
-date: 03.17.2026
+date: 03.24.2026
 content_type: howto
 category: integration
 topic: WebTools

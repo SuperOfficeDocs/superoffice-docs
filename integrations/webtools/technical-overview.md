@@ -4,7 +4,7 @@ title: Technical overview
 description: Technical overview of SuperOffice WebTools
 keywords: WebTools
 author: Jostein, digitaldiina
-date: 03.17.2026
+date: 03.24.2026
 content_type: concept
 category: integration
 topic: WebTools

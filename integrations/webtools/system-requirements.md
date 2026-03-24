@@ -4,7 +4,7 @@ title: System requirements for WebTools
 description: System requirements for WebTools
 keywords: requirements for WebTools, compatibility, system requirements
 author: digitaldiina
-date: 03.17.2026
+date: 03.24.2026
 content_type: reference
 category: integration
 topic: WebTools

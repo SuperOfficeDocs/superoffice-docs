@@ -4,7 +4,7 @@ title: WebTools deployment in a restricted environment
 description: WebTools deployment in a restricted environment
 keywords: deploy WebTools, SoConfig
 author: digitaldiina
-date: 03.17.2026
+date: 03.24.2026
 content_type: howto
 category: integration
 topic: WebTools
@@ -36,7 +36,7 @@ When deploying through GPO or other alternatives, executing the *SoConfig* file 
 
 The following MSI files must be deployed to every SuperOffice user (AD group all SuperOffice users):
 
-| MSI file | WebTools 13.1.80 and older | WebTools 13.1.84 and newer |
+| MSI file | WebTools 13.1.80 and older | WebTools 13.2.3 and newer |
 |---|---|---|
 | SuperOffice.Web.Extensions.msi (document plugin) | Yes | Yes |
 | SuperOffice.MailLink.Setup.msi (Outlook add-in) | Yes | No |
@@ -180,7 +180,7 @@ exit
 
 1. Restart the target computer.
 
-### [WebTools 13.1.84 and newer](#tab/new)
+### [WebTools 13.2.3 and newer](#tab/new)
 
 Before you begin, close **SuperOffice TrayApp Client** (required for Web Extensions).
 
