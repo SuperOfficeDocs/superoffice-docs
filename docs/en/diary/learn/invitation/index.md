@@ -3,9 +3,9 @@ uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
 keywords: invitation, invite, meeting, associate, attendee, participant, diary, follow-up, appointment, calendar
-author: Bergfrid Dias
-date: 01.13.2025
-version: 10.5
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -37,6 +37,12 @@ The users you chose to link to a follow-up will be notified of this on their scr
 | <i class="ph ph-x" aria-label="Red X"></i> | Invitation is declined. |
 | <i class="ph ph-eye" aria-label="Eye"></i> | Invitation is seen but not answered. |
 | unmarked | Invitation has not been seen. |
+
+**Attendee statuses vary by sync direction:**
+
+* **Meetings created in Outlook or Gmail** (shown in SuperOffice): Attendee statuses include Accepted, Declined, Viewed, and Resource. Attendees are displayed exactly as they appear in Outlook or Gmail.
+
+* **Meetings created in SuperOffice** (shown in Outlook/Gmail): Attendee statuses include accepted, declined, tentative, and no response.
 
 ## Resources
 

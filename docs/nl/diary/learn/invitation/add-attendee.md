@@ -3,9 +3,9 @@ uid: help-nl-invitation-add-attendee
 title: Deelnemers toevoegen aan vervolgactiviteiten
 description: Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen.
 keywords: persoon uitnodigen, medewerker uitnodigen, deelnemer toevoegen, bronnen toevoegen, vergadering, uitnodiging, deelnemer, agenda, vervolgactiviteit
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -14,16 +14,16 @@ language: nl
 redirect_from: /nl/diary/learn/invitation/add-participant
 ---
 
-# Deelnemers en bronnen toevoegen aan afspraken
+# Deelnemers en hulpmiddelen toevoegen aan vervolgactiviteiten
 
 Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft, kunt u de betrokken personen als deelnemers aan de vervolgactiviteit toevoegen. U kunt ook een vergaderruimte en apparatuur reserveren. Mensen die beschikbaar zijn als deelnemers worden gedefinieerd in Instellingen en onderhoud.
 
 ## Stappen
 
 > [!NOTE]
-> Alleen de eigenaar van de opvolging kan deelnemers toevoegen (en verwijderen).
+> Alleen de eigenaar van de vervolgactiviteit kan deelnemers toevoegen (en verwijderen).
 
-1. [Open of maak een opvolging][3].
+1. [Open of maak een vervolgactiviteit][3].
 
 1. Klik op de **Uitnodigen**-knop. Dit breidt het dialoogvenster uit.
 
@@ -31,7 +31,7 @@ Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft,
 
     ![Opvolgingsdialog, uitgebreid -screenshot][img15]
 
-1. Klik op het vak **Deltakere toevoegen**. Kies vervolgens een of meer personen uit de lijst.
+1. Klik op het vak **Deelnemers toevoegen**. Kies vervolgens een of meer personen uit de lijst.
 
     * Begin met typen om te zoeken naar een persoon in heel SuperOffice.
     * Selecteer een persoon uit de historielijst (<i class="ph ph-clock" aria-hidden="true"></i>) of je favorieten (<i class="ph ph-star" aria-hidden="true"></i>).
@@ -47,7 +47,10 @@ Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft,
 
     Als een deelnemer niet beschikbaar is, wordt er een uitroepteken weergegeven naast hun naam. Kies een van de voorgestelde tijdvakken of klik op **Beschikbaarheid controleren** om een geschiktere tijd te vinden.
 
-1. Optioneel, voeg locaties, kamers en/of middelen toe.
+    > [!NOTE]
+    > Voor vergaderingen die zijn gemaakt in Outlook of Gmail en gesynchroniseerd met SuperOffice, worden deelnemers exact weergegeven zoals ze in het externe kalendersysteem verschijnen.
+
+1. Optioneel, voeg locaties, kamers en/of hulpmiddelen toe.
 
 1. Optioneel, selecteer **Stuur e-mailuitnodiging naar deelnemers**. (Dit wijzigt de **Opslaan**-knop naar **Opslaan en versturen**.)
 
@@ -65,14 +68,14 @@ De planningsassistent maakt deel uit van de **Vervolgactiviteit**-dialoog. De ge
 
     Als alternatief kunt u de geselecteerde datum en tijd bovenaan in het dialoogvenster bijwerken.
 
-1. Voeg optioneel deelnemers en middelen toe of verwijder ze. Overweeg de tijd opnieuw aan te passen als er een conflict is.
+1. Voeg optioneel deelnemers en hulpmiddelen toe of verwijder ze. Overweeg de tijd opnieuw aan te passen als er een conflict is.
 
 1. Klik op **OK** wanneer je klaar bent.
 1. Klik op **Opslaan** om alle wijzigingen op te slaan.
 
 ### <a id="preview"></a>Voorbeeld en bijwerken van de uitnodigingse-mail
 
-Wanneer je op **Opslaan en verzenden** klikt, wordt er een voorbeeld van de e-mail getoond op basis van de titel en agenda. Eventuele interne notities toegevoegd aan de fvervolgactiviteit worden uitgesloten.
+Wanneer je op **Opslaan en verzenden** klikt, wordt er een voorbeeld van de e-mail getoond op basis van de titel en agenda. Eventuele interne notities toegevoegd aan de vervolgactiviteit worden uitgesloten.
 
 ![Vervolgactiviteit dialog, voorbeeld e-mailuitnodiging -screenshot][img13]
 
@@ -98,6 +101,14 @@ Externe deelnemers krijgen een bericht via e-mail (als u dit alternatief hebt ge
 Als u handmatig een uitnodiging namens iemand wilt accepteren of weigeren, selecteert u de naam in de lijst en klikt u vervolgens eenmaal op de knop **Status in-/uitschakelen** om een groen vinkje te plaatsen dat een geaccepteerde uitnodiging aangeeft of klikt u tweemaal om een rood kruisje te plaatsen voor een geweigerde uitnodiging.
 
 ## Troubleshooting
+
+### Waarom kan ik geen deelnemers toevoegen of verwijderen?
+
+Als u geen deelnemers aan een vergadering kunt toevoegen of verwijderen, controleer dan het volgende:
+
+* **U bent niet de eigenaar:** Alleen de eigenaar van de vervolgactiviteit kan deelnemers toevoegen of verwijderen.
+
+* **Vergadering gemaakt in Outlook of Gmail:** Als de vergadering is gemaakt in Outlook of Gmail en via Synchronizer is gesynchroniseerd met SuperOffice, is deze alleen-lezen in SuperOffice (behalve SuperOffice-specifieke velden zoals Type, Bedrijf, Verkoop, Project). Om deelnemers toe te voegen of te verwijderen, bewerkt u de vergadering in het kalendersysteem waar deze oorspronkelijk is gemaakt.
 
 ### Waarom gebeurt er niets wanneer ik op E-mailuitnodiging klik?
 

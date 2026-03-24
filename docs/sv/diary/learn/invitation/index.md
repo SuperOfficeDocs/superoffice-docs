@@ -3,9 +3,9 @@ uid: help-sv-invitation
 title: Skapa händelser med dina medarbetare
 description: Skapa händelser med dina medarbetare
 keywords: kalender, händelse, inbjudan, möte
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -15,13 +15,13 @@ language: sv
 
 # Bjuda in andra medarbetare till en händelse
 
-Inbjudningar skapas när du kallar till möten eller andra arrangemang mellan olika medlemmar i ett företag. Du bjuder in flera kollegor eller resurser att delta. När en inbjudan accepteras kommer den att visas i användarens kalender.
+Inbjudningar skapas när du kallar till händelser eller andra arrangemang mellan olika medlemmar i ett företag. Du bjuder in flera kollegor eller resurser att delta. När en inbjudan accepteras kommer den att visas i användarens kalender.
 
-Om du vill avsätta tid för ett möte med en eller flera medarbetare går du till fliken **Översikt** i Kalender-fönstret. Här kan du öppna dina medarbetares kalendrar för att se när de är tillgängliga för ett möte. Du kan också välja att visa resurser som konferensrum, se när de är lediga och skapa en gemensam bokning för alla från din egen kalender.
+Om du vill avsätta tid för en händelse med en eller flera medarbetare går du till fliken **Översikt** i Kalender-fönstret. Här kan du öppna dina medarbetares kalendrar för att se när de är tillgängliga för en händelse. Du kan också välja att visa resurser som konferensrum, se när de är lediga och skapa en gemensam bokning för alla från din egen kalender.
 
 Händelser med medarbetare skapas genom att de kopplas till händelsen som deltagare.
 
-När vi sparar mötet läggs en inbjudan till den person vi bjudit in och visas i personens kalender på rätt datum och tid. Detta sker endast om den inbjudna personen också är en kollega. Du kan även bjuda in personer som tillhör andra företag; dessa kommer inte ha en egen kalender där mötet visas, men det kommer istället att visas i detaljkortet **Aktiviteter** på deras kontaktkort.
+När vi sparar händelsen läggs en inbjudan till den person vi bjudit in och visas i personens kalender på rätt datum och tid. Detta sker endast om den inbjudna personen också är en kollega. Du kan även bjuda in personer som tillhör andra företag; dessa kommer inte ha en egen kalender där händelsen visas, men det kommer istället att visas i detaljkortet **Aktiviteter** på deras kontaktkort.
 
 ## <a id="status"></a>Status
 
@@ -34,6 +34,12 @@ Användarna du väljer att koppla till en händelse får ett meddelande om detta
 | <i class="ph ph-eye" aria-label="Eye"></i> | Förfrågan har mottagits men inte besvarats. |
 | ingen symbol | Förfrågningen har inte tagits emot. |
 
+**Deltagarstatusar varierar efter synkroniseringsriktning:**
+
+* **Händelser som skapats i Outlook eller Gmail** (visas i SuperOffice): Deltagarstatusar inkluderar Accepterad, Avböjd, Sedd och Resurs. Deltagare visas exakt som de visas i Outlook eller Gmail.
+
+* **Händelser som skapats i SuperOffice** (visas i Outlook/Gmail): Deltagarstatusar inkluderar accepterad, avböjd, preliminär och inget svar.
+
 ## Resurser
 
 När du kopplar resurser ändras statusen till *Accepterad* eftersom en resurs inte kan svara på förfrågan.
@@ -44,7 +50,7 @@ Resurser kan dubbelbokas. Om en resurs inte är ledig på den aktuella tidpunkte
 
 När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja den.
 
-* Om mottagaren avböjer förfrågan får du en Inbjudan avvisades-avisering. Klicka på **Jag förstår** för att bekräfta. Om så önskas, hitta en ny lämplig tid och ändra tidpunkten för händelse, eller omfördela uppföljningen.
+* Om mottagaren avböjer förfrågan får du en Inbjudan avvisades-avisering. Klicka på **Jag förstår** för att bekräfta. Om så önskas, hitta en ny lämplig tid och ändra tidpunkten för händelse, eller omfördela händelsen.
 
 * Om kontakten godtar förfrågan registreras den som vanligt i SuperOffice CRM.
 

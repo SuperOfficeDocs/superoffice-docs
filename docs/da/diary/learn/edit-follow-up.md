@@ -3,9 +3,9 @@ uid: help-da-follow-up-edit
 title: Rediger opfølgning
 description: Sådan åbner, redigerer eller sletter du en opfølgning. Rediger sluttidspunkt for en opfølgning i dagbogen. Rediger eller slet en invitation. Rediger gentagen opfølgning.
 keywords: rediger opfølgning, opdater opfølgning, forlæng møde, forkort møde, ændr kun denne forekomst, slet opfølgning, annuller møde, dagbog, opfølgning, aftale, møde, opgave, telefonopkald, invitation
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -29,6 +29,8 @@ Hvis du redigerer tidspunkt, dato eller sted for en opfølgning – eller slette
 2. [Foretag de nødvendige ændringer i dialogen.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
+
+    **Bruger Synchronizer:** Hvis mødet oprettes i Outlook eller Gmail og synkroniseres til SuperOffice via Synchronizer, er de fleste felter skrivebeskyttede. Du kan kun redigere disse SuperOffice-specifikke felter: **Alarm**, **Type**, **Firma**, **Optaget/Fri**, **Salg**, **Projekt**, **Interne noter**, **Prioritet** og **Udført**. Alt andet forbliver skrivebeskyttet for at undgå, at ændringer overskrives under næste synkronisering.
 
 3. Klik på **Gem**.
 
@@ -76,6 +78,9 @@ Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mø
 1. Vælg den opfølgning, du vil slette.
 1. Højreklik, og vælg **Slet**.
 1. Bekræft eller annuller sletningen i bekræftelsesdialogboksen.
+
+> [!NOTE]
+> Du kan slette møder oprettet i Outlook eller Gmail i SuperOffice, når de er mere end 7 dage gamle.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

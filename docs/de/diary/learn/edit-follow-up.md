@@ -3,9 +3,9 @@ uid: help-de-follow-up-edit
 title: Folgeaufgabe bearbeiten
 description: So öffnen, bearbeiten oder löschen Sie eine Folgeaufgabe. Ändern Sie die Endzeit einer Folgeaufgabe im Kalender. Einladung bearbeiten oder löschen. Wiederkehrende Folgeaufgabe bearbeiten.
 keywords: Folgeaufgabe bearbeiten, Folgeaufgabe aktualisieren, Meeting verlängern, Meeting verkürzen, nur diese Instanz ändern, Folgeaufgabe löschen, Meeting absagen, Kalender, Folgeaufgabe, Termin, Meeting, Aufgabe, To-do, Anruf, Einladung
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -29,6 +29,8 @@ Wenn Sie die Zeit, das Datum oder den Ort einer Folgeaufgabe ändern – oder ei
 2. [Nehmen Sie die gewünschten Änderungen im Dialogfeld vor.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
+
+    **Verwendung von Synchronizer:** Wenn die Besprechung in Outlook oder Gmail erstellt und über Synchronizer mit SuperOffice synchronisiert wurde, sind die meisten Felder schreibgeschützt. Sie können nur diese SuperOffice-spezifischen Felder bearbeiten: **Alarm**, **Typ**, **Firma**, **Beschäftigt/Frei**, **Verkauf**, **Projekt**, **Interne Notizen**, **Priorität** und **Abgeschlossen**. Alles andere bleibt schreibgeschützt, um zu vermeiden, dass Änderungen bei der nächsten Synchronisation überschrieben werden.
 
 3. Klicken Sie auf **Speichern**.
 
@@ -76,6 +78,9 @@ Wenn Sie die Startzeit für eine einzelne Instanz ändern, bleibt die Regel unbe
 1. Wählen Sie die gewünschte Folgeaufgabe aus.
 1. Klicken Sie mit der rechten Maustaste und wählen Sie **Löschen**.
 1. Wählen Sie **Ja**, um die Löschung zu bestätigen, oder **Nein**, um die Folgeaufgabe beizubehalten.
+
+> [!NOTE]
+> Sie können Besprechungen, die in Outlook oder Gmail erstellt wurden, in SuperOffice löschen, sobald sie älter als 7 Tage sind.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

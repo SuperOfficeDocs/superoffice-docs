@@ -3,9 +3,9 @@ uid: help-de-diary
 title: Kalender
 description: Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Diese Anleitungen helfen Ihnen, sich im Kalender zurechtzufinden und effizient mit ihm zu arbeiten.
 keywords: Kalender öffnen, Kalenderansicht, Aktivitäten-Registerkarte, Aufgabenliste, To-do-Liste, Folgeaufgabe, Kalender
-author: Bergfrid Dias
-date: 09.17.2025
-version: 11.3
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -3,9 +3,9 @@ uid: help-da-invitation
 title: Oprettelse af opfølgninger med dine medarbejdere
 description: Oprettelse af opfølgninger med dine medarbejdere
 keywords: dagbog, opfølgning, invitation, møde
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -33,6 +33,12 @@ De brugere, du har valgt at knytte til en opfølgning, får en meddelelse om det
 | <i class="ph ph-x" aria-label="Red X"></i> | Invitation afvises |
 | <i class="ph ph-eye" aria-label="Eye"></i> | Invitationen er set, men ikke besvaret. |
 | ikke markeret | Invitationen er ikke læst. |
+
+**Deltagerstatusser varierer efter synkroniseringsretning:**
+
+* **Møder oprettet i Outlook eller Gmail** (vist i SuperOffice): Deltagerstatusser inkluderer Accepteret, Afvist, Set og Ressource. Deltagere vises nøjagtigt, som de vises i Outlook eller Gmail.
+
+* **Møder oprettet i SuperOffice** (vist i Outlook/Gmail): Deltagerstatusser inkluderer accepteret, afvist, tentativ og ingen svar.
 
 ## Ressourcer
 

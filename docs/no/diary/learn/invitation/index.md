@@ -3,9 +3,9 @@ uid: help-no-invitation
 title: Opprette oppfølginger med medarbeiderne dine
 description: Opprette oppfølginger med medarbeiderne dine
 keywords: dagbok, oppfølging, invitasjon, møte, deltager, kalender
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -33,6 +33,12 @@ Brukerne du har valgt å knytte til en oppfølging, får melding om dette på sk
 | <i class="ph ph-x" aria-label="Red X"></i> | Invitasjonen er avslått. |
 | <i class="ph ph-eye" aria-label="Eye"></i> | Invitasjon er sett, men ikke besvart. |
 | umerket | Invitasjonen er ikke sett. |
+
+**Deltakerstatuser varierer etter synkroniseringsretning:**
+
+* **Møter opprettet i Outlook eller Gmail** (vist i SuperOffice): Deltakerstatuser inkluderer Godtatt, Avslått, Sett og Ressurs. Deltakere vises nøyaktig slik de vises i Outlook eller Gmail.
+
+* **Møter opprettet i SuperOffice** (vist i Outlook/Gmail): Deltakerstatuser inkluderer godtatt, avslått, tentativ og ingen respons.
 
 ## Ressurser
 

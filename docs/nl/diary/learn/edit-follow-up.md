@@ -3,9 +3,9 @@ uid: help-nl-follow-up-edit
 title: Vervolgactiviteiten bewerken
 description: Openen, bewerken of verwijderen van een vervolgactiviteit; de eindtijd van een vervolgactiviteit in de agenda wijzigen; uitnodiging bewerken of verwijderen; herhalende vervolgactiviteit bewerken
 keywords: vervolgactiviteit bewerken, afspraak bijwerken, vergadering verlengen, vergadering inkorten, alleen deze instantie wijzigen, vervolgactiviteit verwijderen, vergadering annuleren, agenda, vervolgactiviteit, afspraak, vergadering, taak, takenlijst, telefoongesprek, uitnodiging
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -29,6 +29,8 @@ Als u een uitnodiging die u hebt aangemaakt en verzonden verwijdert of als u de 
 2. [Breng de gewenste wijzigingen aan in het dialoogvenster.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
+
+    **Synchronizer gebruiken:** Als de vergadering is gemaakt in Outlook of Gmail en via Synchronizer is gesynchroniseerd met SuperOffice, zijn de meeste velden alleen-lezen. U kunt alleen deze SuperOffice-specifieke velden bewerken: **Alarm**, **Type**, **Bedrijf**, **Bezet/vrij**, **Verkoop**, **Project**, **Interne notities**, **Prioriteit** en **Voltooid**. Al het andere blijft alleen-lezen om te voorkomen dat wijzigingen worden overschreven tijdens de volgende synchronisatie.
 
 3. Klik op **Opslaan**.
 
@@ -76,6 +78,9 @@ Als u de starttijd van een enkele vergadering wijzigt, heeft dit geen invloed op
 1. Selecteer de gewenste vervolgactiviteit.
 2. Klik met de rechtermuisknop en kies **Verwijderen**.
 3. Kies **Ja** om de verwijdering te bevestigen of **Nee** om de vervolgactiviteit te behouden.
+
+> [!NOTE]
+> U kunt vergaderingen die zijn gemaakt in Outlook of Gmail in SuperOffice verwijderen zodra ze meer dan 7 dagen oud zijn.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

@@ -3,9 +3,9 @@ uid: help-no-follow-up-edit
 title: Redigere oppfølging
 description: Hvordan åpne, redigere eller slette en oppfølging; endre sluttidspunktet for en oppfølging i dagboken; redigere eller slette invitasjon; redigere repeterende oppfølging.
 keywords: redigere oppfølging, oppdatere oppfølging, forlenge møte, forkorte møte, endre kun denne forekomsten, slette oppfølging, avlyse møte, dagbok, oppfølging, avtale, møte, oppgave, gjøremål, samtale, telefon, invitasjon, gjenta
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -29,6 +29,8 @@ Hvis du redigerer tid, dato eller sted for en oppfølging – eller sletter en i
 2. [Gjør ønskede endringer i dialogboksen.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
+
+    **Bruker Synchronizer:** Hvis møtet er opprettet i Outlook eller Gmail og synkronisert til SuperOffice via Synchronizer, er de fleste felt skrivebeskyttet. Du kan bare redigere disse SuperOffice-spesifikke feltene: **Alarm**, **Type**, **Firma**, **Opptatt/Fri**, **Salg**, **Prosjekt**, **Interne notater**, **Prioritet** og **Utført**. Alt annet forblir skrivebeskyttet for å unngå at endringer overskrives under neste synkronisering.
 
 3. Klikk på **Lagre**.
 
@@ -72,6 +74,9 @@ Hvis du endrer starttidspunktet for ett møte, påvirkes ikke regelen. Møtet be
 1. Velg ønsket oppfølging.
 2. Høyreklikk og velg **Slett**.
 3. Klikk **Ja** for å bekrefte slettingen eller **Nei** for å beholde oppfølgingen.
+
+> [!NOTE]
+> Du kan slette møter opprettet i Outlook eller Gmail i SuperOffice når de er mer enn 7 dager gamle.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

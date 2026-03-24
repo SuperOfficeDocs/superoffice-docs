@@ -3,9 +3,9 @@ uid: help-de-invitation
 title: Folgeaufgaben bei anderen Mitarbeitern eintragen
 description: Folgeaufgaben bei anderen Mitarbeitern eintragen
 keywords: Kalender, Folgeaufgabe, Einladung, Besprechung, Teilnehmer, einladen
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -33,6 +33,12 @@ Den Benutzern, die Sie mit einer Folgeaufgabe verknüpfen möchten, wird dies au
 | <i class="ph ph-x" aria-label="Red X"></i> | Einladung abgelehnt. |
 | <i class="ph ph-eye" aria-label="Eye"></i> | Einladung wurde gesehen, aber nicht beantwortet. |
 | Keine Markierung | Einladung wurde nicht gelesen. |
+
+**Teilnehmerstatus variiert je nach Synchronisationsrichtung:**
+
+* **Besprechungen, die in Outlook oder Gmail erstellt wurden** (angezeigt in SuperOffice): Teilnehmerstatus umfasst Akzeptiert, Abgelehnt, Gesehen und Ressource. Teilnehmer werden genau so angezeigt, wie sie in Outlook oder Gmail erscheinen.
+
+* **Besprechungen, die in SuperOffice erstellt wurden** (angezeigt in Outlook/Gmail): Teilnehmerstatus umfasst akzeptiert, abgelehnt, tentativ und keine Antwort.
 
 ## Ressourcen
 

@@ -3,9 +3,9 @@ uid: help-da-diary
 title: Dagbog
 description: SuperOffice Dagbog er hjertet i dit CRM-system. Disse vejledninger hjælper dig med at navigere i og arbejde med dagbogen.
 keywords: åbn Dagbog, skærmbilledet Dagbog, kalender, detaljekortet Aktiviteter, aktivitet, opgaveliste, to-do-liste, opfølgning, dagbog
-author: Bergfrid Dias
-date: 09.17.2025
-version: 11.3
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

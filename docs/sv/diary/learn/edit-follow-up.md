@@ -3,9 +3,9 @@ uid: help-sv-follow-up-edit
 title: Redigera händelse
 description: Hur du öppnar, redigerar eller tar bort en händelse. Ändra sluttid för en händelse i kalendern. Redigera eller ta bort en inbjudan. Redigera återkommande händelse.
 keywords: redigera händelse, uppdatera händelse, förläng möte, förkorta möte, ändra endast denna förekomst, ta bort händelse, avboka möte, kalender, händelse, bokning, möte, uppgift, att göra, samtal, telefon, inbjudan
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -29,6 +29,8 @@ Om du redigerar tid, datum eller plats för en händelse – eller tar bort en i
 2. [Gör de nödvändiga ändringarna i dialogrutan.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
+
+    **Med Synchronizer:** Om händelsen skapades i Outlook eller Gmail och synkroniserades till SuperOffice via Synchronizer är de flesta fält skrivskyddade. Du kan bara redigera dessa SuperOffice-specifika fält: **Alarm**, **Typ**, **Företag**, **Upptagen/ledig**, **Försäljning**, **Projekt**, **Interna anteckningar**, **Prioritet** och **Utförd**. Allt annat förblir skrivskyddat för att undvika att ändringar skrivs över under nästa synkronisering.
 
 3. Klicka på **Spara**.
 
@@ -76,6 +78,9 @@ Om du ändrar starttiden för ett enskilt möte påverkas inte återkomstregeln.
 1. Välj den händelse du vill ta bort.
 1. Högerklicka och välj **Ta bort**.
 1. Bekräfta borttagningen genom att välja **Ja**, eller välj **Nej** för att behålla händelsen.
+
+> [!NOTE]
+> Du kan ta bort möten som skapats i Outlook eller Gmail i SuperOffice när de är mer än 7 dagar gamla.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

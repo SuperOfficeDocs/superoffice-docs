@@ -3,9 +3,9 @@ uid: help-nl-invitation
 title: Vervolgactiviteiten met andere medewerkers maken
 description: Vervolgactiviteiten met andere medewerkers maken
 keywords: agenda, vervolgactiviteit, uitnodiging, weergegeven
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -33,6 +33,12 @@ De gebruikers die u hebt gekozen voor koppeling aan een vervolgactiviteit, ontva
 | <i class="ph ph-x" aria-label="Red X"></i> | Uitnodiging is afgewezen. |
 | <i class="ph ph-eye" aria-label="Eye"></i> | Uitnodiging is gelezen, maar nog niet beantwoord. |
 | geen symbool | De uitnodiging is nog niet gelezen. |
+
+**Deelnemersstatus varieert per synchronisatierichting:**
+
+* **Vergaderingen gemaakt in Outlook of Gmail** (weergegeven in SuperOffice): Deelnemersstatus omvat Geaccepteerd, Afgewezen, Bekeken en Bron. Deelnemers worden exact weergegeven zoals ze in Outlook of Gmail verschijnen.
+
+* **Vergaderingen gemaakt in SuperOffice** (weergegeven in Outlook/Gmail): Deelnemersstatus omvat geaccepteerd, afgewezen, voorlopig en geen reactie.
 
 ## Bronnen
 
