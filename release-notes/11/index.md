@@ -29,7 +29,6 @@ See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service,
 
 * [Request relations - better control and overview][41] in Service
 * [Requests - Add Relation rules][40] in Settings and maintenance
-* [Marketing - Form field restrictions][40] in Settings and maintenance
 
 ### 11.11 (17.03.2026)
 
@@ -173,6 +172,5 @@ Some features are available to selected customers as part of ongoing pilots. See
 [39]: admin/11.11-update.md
 [40]: admin/11.12-update.md
 [41]: service/11.12-update.md
-[42]: marketing/11.12-update.md
 
 <!-- Referenced images -->
