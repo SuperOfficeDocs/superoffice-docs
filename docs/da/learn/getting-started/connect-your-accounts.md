@@ -22,9 +22,6 @@ Som ny bruger, eller når du opsætter en ny computer, bør du tilslutte din e-m
 * Sende mødeforslagsindkaldelser til eksterne modtagere og modtage invitationer fra andre.
 * Oprette, åbne og redigere dokumenter direkte fra SuperOffice.
 
-> [!TIP]
-> Hvis din organisation bruger Microsoft Entra ID, registrerer og tilslutter SuperOffice dine konti automatisk. Du behøver ikke at fuldføre guiden manuelt.
-
 ## Åbn guiden
 
 1. Klik på <i class="ph ph-user-circle" aria-label="Personlige indstillinger"></i> **Personlige indstillinger** øverst til højre.

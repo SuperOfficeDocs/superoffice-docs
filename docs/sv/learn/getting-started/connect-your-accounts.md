@@ -22,9 +22,6 @@ Som ny användare, eller när du konfigurerar en ny dator, bör du ansluta ditt 
 * Skicka mötesinbjudningar till externa mottagare och ta emot inbjudningar från andra.
 * Skapa, öppna och redigera dokument direkt från SuperOffice.
 
-> [!TIP]
-> Om din organisation använder Microsoft Entra ID identifierar och ansluter SuperOffice dina konton automatiskt. Du behöver inte genomföra guiden manuellt.
-
 ## Öppna guiden
 
 1. Klicka på <i class="ph ph-user-circle" aria-label="Personliga inställningar"></i> **Personliga inställningar** längst upp till höger.

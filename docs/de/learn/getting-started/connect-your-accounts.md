@@ -22,9 +22,6 @@ Als neuer Benutzer oder beim Einrichten eines neuen Computers sollten Sie Ihr E-
 * Besprechungseinladungen an externe Empfänger zu senden und Einladungen von anderen zu empfangen.
 * Dokumente direkt aus SuperOffice zu erstellen, öffnen und bearbeiten.
 
-> [!TIP]
-> Wenn Ihre Organisation Microsoft Entra ID verwendet, erkennt und verbindet SuperOffice Ihre Konten automatisch. Sie müssen den Assistenten nicht manuell durchlaufen.
-
 ## Den Assistenten öffnen
 
 1. Klicken Sie auf <i class="ph ph-user-circle" aria-label="Persönliche Einstellungen"></i> **Persönliche Einstellungen** oben rechts.

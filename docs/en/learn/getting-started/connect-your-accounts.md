@@ -22,9 +22,6 @@ As a new user, or when setting up a new computer, you should connect your email 
 * Send meeting invitations to external recipients and receive invitations from others.
 * Create, open, and edit documents directly from SuperOffice.
 
-> [!TIP]
-> If your organization uses Microsoft Entra ID, SuperOffice detects and connects your accounts automatically. You do not need to complete the wizard manually.
-
 ## Open the wizard
 
 1. Click <i class="ph ph-user-circle" aria-label="Personal settings"></i> **Personal settings** in the upper-right corner.

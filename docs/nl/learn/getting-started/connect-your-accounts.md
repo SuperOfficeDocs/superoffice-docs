@@ -22,9 +22,6 @@ Als nieuwe gebruiker, of bij het instellen van een nieuwe computer, moet je je e
 * Vergaderuitnodigingen sturen naar externe ontvangers en uitnodigingen van anderen ontvangen.
 * Documenten rechtstreeks vanuit SuperOffice aanmaken, openen en bewerken.
 
-> [!TIP]
-> Als je organisatie Microsoft Entra ID gebruikt, detecteert en koppelt SuperOffice je accounts automatisch. Je hoeft de wizard niet handmatig te doorlopen.
-
 ## De wizard openen
 
 1. Klik op <i class="ph ph-user-circle" aria-label="Persoonlijke instellingen"></i> **Persoonlijke instellingen** rechtsboven.
