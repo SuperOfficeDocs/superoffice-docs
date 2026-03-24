@@ -35,6 +35,6 @@ After certification, your application is ready to be published in the App Store!
 
 <!-- Referenced links -->
 [1]: checklist.md
-[3]: initial-security-eval
+[3]: initial-security-eval.md
 [4]: ../publish.md
 [5]: ../../create-app/request-to-publish.md
