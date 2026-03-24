@@ -22,9 +22,6 @@ Som ny bruker, eller når du setter opp en ny datamaskin, bør du koble e-postko
 * Sende møteinvitasjoner til eksterne mottakere og motta invitasjoner fra andre.
 * Opprette, åpne og redigere dokumenter direkte fra SuperOffice.
 
-> [!TIP]
-> Hvis organisasjonen din bruker Microsoft Entra ID, oppdager og kobler SuperOffice til kontoene dine automatisk. Du trenger ikke å fullføre veiviseren manuelt.
-
 ## Åpne veiviseren
 
 1. Klikk på <i class="ph ph-user-circle" aria-label="Personlige innstillinger"></i> **Personlige innstillinger** øverst til høyre.
