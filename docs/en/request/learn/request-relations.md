@@ -176,12 +176,14 @@ The **Remove relation** button is only active when you have selected exactly one
 * [Merge requests][1]
 * [Requests section tab][3]
 * [Company and contact relations][4]
+* [Relation rules][5] (Settings and maintenance)
 
 <!-- Referenced links -->
 [1]: merge.md
 [2]: split-request.md
 [3]: ../../learn/section-tabs/requests-tab.md
 [4]: ../../learn/basics/relations.md
+[5]: ../admin/relation-rules.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-relations-list.png

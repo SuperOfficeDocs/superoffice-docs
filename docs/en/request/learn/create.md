@@ -3,9 +3,9 @@ uid: help-en-request-create
 title: Create a request
 description: Create a request
 keywords: create request, add request, new request, request properties, request details, message, request, ticket
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -34,7 +34,7 @@ A request can arrive in the system via an email from the customer, or you can re
     * Select **Request type**, **Status**, **Owner**, **Category**, **Priority**, and other properties.
 
     > [!NOTE]
-    > The request type affects default values and available statuses and priorities.
+    > The request type affects default values and available statuses and priorities. If a [relation rule][20] requires a parent to be set for this type, you must specify a parent request before saving.
 
 1. Go to the **Messages** tab to compose the request message:
 
@@ -153,6 +153,7 @@ The autosave feature is activated by default when you view and edit requests and
 * [Using tags in requests][4]
 * [Reply template variables][18]
 * [Create reply template][19]
+* [Request relations][21]
 
 <!-- Referenced links -->
 [2]: reply.md#reply-templ
@@ -164,6 +165,8 @@ The autosave feature is activated by default when you view and edit requests and
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md
 [19]: ../../knowledge-base/learn/reply-templates/index.md
+[20]: ../admin/relation-rules.md
+[21]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png

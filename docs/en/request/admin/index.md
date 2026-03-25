@@ -4,8 +4,8 @@ title: System settings
 description: System settings
 keywords: Service
 author: digitaldiina
-date: 03.25.2026
-version: 10.5
+date: 04.08.2026
+version: 11.12
 content_type: reference
 license: serviceessentials
 audience: settings
@@ -17,11 +17,12 @@ index: true
 
 # Different settings for Service
 
-In this section, you can configure the settings for Service to tailor it to your organisation's needs. Which options are displayed and what you can do depend on the rights assigned in your user profile. Rights are assigned under **Users**.
+In this section, you can configure the settings for Service to tailor it to your organization's needs. Which options are displayed and what you can do depend on the rights assigned in your user profile. Rights are assigned under **Users**.
 
 ## What would you like to find out more about?
 
 * [Request types][9]
+* [Relation rules][17]
 * [Roles][12]
 * [Users][13]
 * [Availability status][7]
@@ -56,5 +57,6 @@ In this section, you can configure the settings for Service to tailor it to your
 [21]: ../../customer-center/learn/index.md
 [22]: ../../email/admin/mailbox/index.md
 [23]: ../../chat/admin/index.md
+[17]: relation-rules.md
 
 <!-- Referenced images -->
