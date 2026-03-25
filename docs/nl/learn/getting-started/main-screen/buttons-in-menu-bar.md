@@ -3,7 +3,7 @@ uid: help-nl-ui-top-bar
 title: Knoppen in de menubalk
 description: Knoppen in de menubalk
 keywords: menubalk, bovenste balk, knop, Persoonlijke instellingen menu, Hoofdmenu-opties
-author: Product and Engineering, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 11.3
 content_type: reference

@@ -3,7 +3,7 @@ uid: help-da-request-assign
 title: Tildelingsmetoder
 description: Tildelingsmetoder for sager
 keywords: automatisk fordeling, fordelingsmetode, tildelingsmetode, tildel sag, sag
-author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5.2
 content_type: howto

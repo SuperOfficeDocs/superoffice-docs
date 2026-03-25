@@ -3,7 +3,7 @@ uid: help-nl-request-assign
 title: Toewijzingsmethoden
 description: Toewijzingsmethoden voor verzoeken
 keywords: automatische toewijzing, toewijzingsmethode, verzoek toewijzen, verzoek
-author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5.2
 content_type: howto

@@ -3,7 +3,7 @@ uid: help-de-request-category-create
 title: Anfragekategorie erstellen
 description: Anfragekategorie erstellen
 keywords: Anfragekategorie hinzufügen, Anfragekategorie erstellen, neue Anfragekategorie, Anfragekategorie, Kategorien-Registerkarte, Anfrage, Kategorie
-author: Hanne Gunnarsson, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 11.7
 content_type: howto

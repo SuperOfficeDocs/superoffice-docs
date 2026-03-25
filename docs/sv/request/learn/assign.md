@@ -3,7 +3,7 @@ uid: help-sv-request-assign
 title: Tilldelningsmetoder
 description: Tilldelningsmetoder för ärenden
 keywords: automatisk tilldelning, tilldelningsmetod, tilldela ärende, ärende
-author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5.2
 content_type: howto

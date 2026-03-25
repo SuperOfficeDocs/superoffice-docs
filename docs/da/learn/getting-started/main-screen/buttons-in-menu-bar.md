@@ -3,7 +3,7 @@ uid: help-da-ui-top-bar
 title: Knapper på toplinjen
 description: Knapper på toplinjen
 keywords: toplinje, knap, personlige indstillinger, menulinjen, hovedmenu
-author: Kirsti Aakerholt, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 11.3
 content_type: reference

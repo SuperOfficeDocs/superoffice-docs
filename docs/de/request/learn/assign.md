@@ -3,7 +3,7 @@ uid: help-de-request-assign
 title: Zuordnungsmethoden
 description: Zuordnungsmethoden für Anfragen
 keywords: automatische Zuordnung, Zuordnungsmethode, Anfrage zuweisen, Anfrage
-author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5
 content_type: howto

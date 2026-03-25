@@ -70,7 +70,7 @@ index: true
 
     * **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
 
-    * **Reassign requests on new message if user is not present:** Reassigns requests when a new message arrives on a request and the user is not available.
+    * **Reassign requests on new message if user is not present**: Reassigns requests when a new message arrives on a request and the user is not available.
 
     * **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
 

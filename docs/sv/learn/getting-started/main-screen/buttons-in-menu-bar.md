@@ -3,7 +3,7 @@ uid: help-sv-ui-top-bar
 title: Knappar på toppraden
 description: Knappar på toppraden
 keywords: toppraden, knapp, personliga inställningar, huvudmeny, menyfält
-author: SuperOffice Product and Engineering, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 11.3
 content_type: reference

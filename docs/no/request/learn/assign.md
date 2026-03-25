@@ -3,7 +3,7 @@ uid: help-no-request-assign
 title: Fordelingsmetode
 description: Fordelingsmetoder for saker
 keywords: sak
-author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5
 content_type: howto
