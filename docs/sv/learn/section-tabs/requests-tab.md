@@ -4,7 +4,7 @@ title: Ärendenfliken
 description: Lär dig hur du kan visa, lägga till och hantera Service-ärenden i SuperOffice CRM, så att du effektivt kan spåra kundinteraktioner mellan företag och kontakter.
 keywords: Ärenden-fliken, Ärendenfliken, fliken Ärenden, detaljkortet Ärenden, detaljkort, ärendearkiv
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person

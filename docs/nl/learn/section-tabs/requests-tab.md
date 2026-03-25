@@ -4,7 +4,7 @@ title: Sectietabblad Verzoeken
 description: Leer hoe u Serviceverzoeken in SuperOffice CRM kunt bekijken, toevoegen en beheren, zodat u klantinteracties efficiënt kunt volgen tussen bedrijven en personen.
 keywords: sectietabblad Verzoeken, tabblad Verzoeken, sectietabblad
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person

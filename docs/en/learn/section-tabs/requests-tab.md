@@ -4,7 +4,7 @@ title: Requests tab
 description: Learn how to view, add, and manage Service requests in SuperOffice CRM, helping you efficiently track customer interactions across companies and contacts.
 keywords: requests tab, section tab, request archive, ticket archive
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person

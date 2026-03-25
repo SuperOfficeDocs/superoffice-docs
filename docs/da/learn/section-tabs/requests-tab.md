@@ -4,7 +4,7 @@ title: Sagsfanen
 description: Lær, hvordan du kan se, tilføje og administrere Service-sager i SuperOffice CRM, så du effektivt kan spore kundesamtaler på tværs af firmaer og personer.
 keywords: Sags-fanen, Sagsfanen, Sager-fanen, detaljekortet Sager, detaljekort, sagsarkiv, anmodning, forespørgsler, forespørgsel, sag
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person

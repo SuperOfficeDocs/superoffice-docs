@@ -4,7 +4,7 @@ title: Saksfanen
 description: Lær hvordan du kan se, legge til og administrere Service-saker i SuperOffice CRM, slik at du effektivt kan spore kundeinteraksjoner på tvers av firmaer og personer.
 keywords: Saksfanen, Saker-fanen, detaljkortet Saker, detaljkort, saksarkiv, sak, henvendelse, forespørsel, forespørsler
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person

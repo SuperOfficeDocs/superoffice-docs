@@ -4,7 +4,7 @@ title: Firma- og personrelasjoner i SuperOffice CRM
 description: Lær hvordan du kan se, legge til og administrere relasjoner mellom firmaer og personer i SuperOffice CRM, slik at du enklere kan holde oversikt over komplekse strukturer og tilpassede tilkoblinger.
 keywords: legge til relasjon, slette relasjon, relasjon, person, kontakt, firma, forbindelse
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person

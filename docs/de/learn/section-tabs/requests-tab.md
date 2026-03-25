@@ -4,7 +4,7 @@ title: Bereichsregisterkarte Anfragen
 description: Erfahren Sie, wie Sie Serviceanfragen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um Kundeninteraktionen effizient über Firmen und Personen hinweg zu verfolgen.
 keywords: requests tab, section tab, request archive, ticket archive
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 audience: person
