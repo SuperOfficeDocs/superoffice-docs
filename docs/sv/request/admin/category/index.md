@@ -3,8 +3,8 @@ uid: help-sv-request-category
 title: Ärendekategorier
 description: Ärendekategorier
 keywords: ärende, kategori
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5.2
 content_type: concept
 license: serviceessentials
@@ -35,7 +35,7 @@ Användare kan läggas till som kategorimedlemmar individuellt eller via de anv�
 
 * I Inställningar och underhåll, välj **Ärenden** i navigatorn och sedan fliken **Kategorier**.
 
-Kategorierna är organiserade i en trädstruktur.
+Kategorierna är organiserade i en trädstruktur. För att hitta ID:t för en kategori håller du muspekaren över kategorinamnet i listan. ID:t visas i ett verktygstips.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
