@@ -35,7 +35,7 @@ language: no
 | **Preferanser** | Rediger [personlige preferanser][6], som standardverdier og visuelle innstillinger. |
 | **Rediger personlig signatur** | Rediger [e-postsignaturen][7] brukt i utgående e-poster eller saker. |
 | **E-postalternativer** | Konfigurer innboksinnstillinger. |
-| **Din tilgjengelighetsstatus** | Velg om du skal være tilgjengelig for automatisk tildeling av saker og personer. Hvis du setter statusen til *Ikke til stede*, vil nye saker ikke bli tildelt deg, og fraværsmeldingen din vises ved navnet ditt når noen manuelt tildeler en sak. Se [Din tilgjengelighetsstatus][18]. |
+| **Din tilgjengelighetsstatus** | Velg om du skal være [tilgjengelig for automatisk tildeling av saker og personer][18]. Hvis du setter statusen til *Ikke til stede*, vil nye saker ikke bli tildelt deg, og fraværsmeldingen din vises ved navnet ditt når noen manuelt tildeler en sak. |
 | **Vis kontaktinformasjonen min** | Åpne personkortet ditt for å redigere detaljer som telefonnummer eller stilling. |
 | **Lokale innstillinger** | Endre språk, tall/dato-format, og e-postklientinnstillinger. |
 | **Mobile CRM-innstillinger** | Konfigurer innstillinger for SuperOffice Mobile CRM-appen. |

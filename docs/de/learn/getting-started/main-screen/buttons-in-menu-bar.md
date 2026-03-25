@@ -36,7 +36,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 | **Voreinstellungen** | Bearbeiten Sie [persönliche Voreinstellungen][6], wie Standardwerte oder visuelle Layouts. |
 | **Persönliche Signatur bearbeiten** | Bearbeiten Sie die [E-Mail-Signatur][7] für ausgehende E-Mails und Anfragen. |
 | **E-Mail-Optionen** | Konfigurieren Sie die Einstellungen für das Postfach. |
-| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie für die automatische Zuweisung von Anfragen und Personen verfügbar sind. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. Siehe [Ihr Verfügbarkeitsstatus][18]. |
+| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie [für die automatische Zuweisung von Anfragen und Personen verfügbar sind][18]. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. |
 | **Meine Kontaktdaten anzeigen** | Öffnen Sie Ihre Personenkarte, um Details wie Telefonnummer oder Titel zu ändern. |
 | **Lokale Einstellungen** | Ändern Sie Sprache, Zahlen-/Datumsformat und E-Mail-Client-Einstellungen. |
 | **Mobile App holen** | Konfigurieren Sie Einstellungen für die SuperOffice Mobile CRM-App. |

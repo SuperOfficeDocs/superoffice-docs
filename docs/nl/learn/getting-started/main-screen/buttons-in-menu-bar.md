@@ -36,7 +36,7 @@ De **bovenste balk** bevat essentiële tools voor navigatie in SuperOffice CRM. 
 | **Voorkeuren** | Pas [persoonlijke voorkeuren][6] aan, zoals standaardwaarden, sortering en visuele effecten. |
 | **Persoonlijke handtekening bewerken** | Bewerk de [e-mailhandtekening][7] die wordt gebruikt in uitgaande e-mails of verzoeken. |
 | **E-mailopties** | Configureer postvakinstellingen. |
-| **Uw beschikbaarheidsstatus** | Kies of u beschikbaar bent voor automatische toewijzing van verzoeken en contactpersonen. Als u uw status instelt op *Afwezig*, worden er geen nieuwe verzoeken aan u toegewezen en wordt uw afwezigheidsmelding naast uw naam weergegeven wanneer iemand handmatig een item toewijst. Zie [Uw beschikbaarheidsstatus][18]. |
+| **Uw beschikbaarheidsstatus** | Kies of u [beschikbaar bent voor automatische toewijzing van verzoeken en contactpersonen][18]. Als u uw status instelt op *Afwezig*, worden er geen nieuwe verzoeken aan u toegewezen en wordt uw afwezigheidsmelding naast uw naam weergegeven wanneer iemand handmatig een item toewijst. |
 | **Mijn personeninformatie weergeven** | Open uw persoonskaart om gegevens zoals telefoonnummers of functietitel te bewerken. |
 | **Lokale instellingen** | Wijzig de applicatietaal, nummer-/datumindeling en e-mailclientinstellingen. |
 | **De mobiele app downloaden** | Configureer instellingen voor SuperOffice Mobile CRM. |
