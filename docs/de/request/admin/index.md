@@ -3,8 +3,8 @@ uid: help-de-service-settings
 title: Systemeinstellungen
 description: Systemeinstellungen
 keywords: Service
-author: Bergfrid Dias
-date: 02.14.2025
+author: Bergfrid Dias, digitaldiina
+date: 03.25.2026
 version: 10.5.2
 content_type: reference
 license: serviceessentials
@@ -24,6 +24,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 * [Anfragetypen][9]
 * [Rollen][12]
 * [Benutzer][13]
+* [Verfügbarkeitsstatus][7]
 * [Kategorien][4]
 * [Prioritäten][5]
 * [Anfragestatus][6]
@@ -47,6 +48,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
+[7]: ../learn/index.md#available
 [14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md

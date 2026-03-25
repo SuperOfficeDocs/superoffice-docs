@@ -4,7 +4,7 @@ title: Create request category
 description: Create request category
 keywords: add request category, create request category, new request category, request category, Categories tab, request, category
 author: digitaldiina
-date: 12.02.2025
+date: 03.25.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
@@ -70,7 +70,7 @@ index: true
 
     * **Assign to category administrator if no one is available**: Assigns requests to the category manager if no other users are available.
 
-    * **Reassign requests on new message if user is not present**: Reassigns requests when a new message arrives on a request and the user is not available.
+    * **Reassign requests on new message if user is not present:** Reassigns requests when a new message arrives on a request and the user is not available.
 
     * **Assign to our service contact if available**: If the relevant company or contact has a request handler specified as **Our contact**, and this user is available, the request is assigned to this user. If **Our contact** is not specified, or the user is not available, the request is assigned in accordance with the usual assignment rules.
 
@@ -81,9 +81,11 @@ index: true
 ## Related content
 
 * [How to set up Get next request in queue][3]
+* [Availability status][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
+[4]: ../../learn/index.md#available
 
 <!-- Referenced images -->

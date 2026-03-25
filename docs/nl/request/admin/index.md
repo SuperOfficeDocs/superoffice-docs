@@ -3,8 +3,8 @@ uid: help-nl-service-settings
 title: Systeeminstellingen
 description: Systeeminstellingen
 keywords: Service
-author: Bergfrid Dias
-date: 03.14.2025
+author: Bergfrid Dias, digitaldiina
+date: 03.25.2026
 version: 10.5.2
 content_type: reference
 license: serviceessentials
@@ -24,6 +24,7 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 * [Verzoektypes][9]
 * [Rollen][12]
 * [Gebruikers][13]
+* [Beschikbaarheidsstatus][7]
 * [Categorieën][4]
 * [Prioriteiten][5]
 * [Verzoekstatus][6]
@@ -47,6 +48,7 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
+[7]: ../learn/index.md#available
 [14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md

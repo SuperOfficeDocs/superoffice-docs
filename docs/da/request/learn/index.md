@@ -3,8 +3,8 @@ uid: help-da-request
 title: Sager
 description: Introduktion til sager i SuperOffice
 keywords: sag, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: concept
 license: serviceessentials
@@ -198,6 +198,20 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
     * Sag eskaleret.
 
 1. Klik på **Gem** for at anvende dine ændringer.
+
+## <a id="available"></a>Din tilgængelighedsstatus
+
+Din tilgængelighedsstatus bestemmer, om du modtager sager via automatisk tildeling. Den påvirker også tildelingen af personer.
+
+Klik på <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** i topmenuen, og vælg **Din tilgængelighedsstatus** for at opdatere din status.
+
+* **Til stede:** Du er tilgængelig for automatisk tildeling af sager og personer.
+* **Ikke til stede:** Nye sager tildeles ikke til dig. Din fraværsbesked vises ved dit navn, når nogen manuelt tildeler en sag.
+
+> [!TIP]
+> Hvis en sagsbehandler glemmer at opdatere sin status eller er uventet fraværende, kan en administrator ændre sagsbehandlerens tilgængelighedsstatus på vedkommendes vegne i **Indstillinger og vedligeholdelse** > **Brugere**.
+
+Hvordan sager fordeles igen, når en bruger ikke er til stede, afhænger af den [fordelingsregel][6], der er konfigureret for kategorien.
 
 ## Globale præferencer
 

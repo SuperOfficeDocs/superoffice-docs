@@ -3,8 +3,8 @@ uid: help-de-ui-top-bar
 title: Schaltflächen in der oberen Leiste
 description: Schaltflächen in der oberen Leiste
 keywords: Obere Leiste, Schaltfläche, Persönliche Einstellungen, Hauptmenü
-author: Bergfrid Dias
-date: 09.17.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: reference
 audience: person
@@ -36,7 +36,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 | **Voreinstellungen** | Bearbeiten Sie [persönliche Voreinstellungen][6], wie Standardwerte oder visuelle Layouts. |
 | **Persönliche Signatur bearbeiten** | Bearbeiten Sie die [E-Mail-Signatur][7] für ausgehende E-Mails und Anfragen. |
 | **E-Mail-Optionen** | Konfigurieren Sie die Einstellungen für das Postfach. |
-| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie für die automatische Zuweisung von Anfragen und Personen verfügbar sind. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. |
+| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie für die automatische Zuweisung von Anfragen und Personen verfügbar sind. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. Siehe [Ihr Verfügbarkeitsstatus][18]. |
 | **Meine Kontaktdaten anzeigen** | Öffnen Sie Ihre Personenkarte, um Details wie Telefonnummer oder Titel zu ändern. |
 | **Lokale Einstellungen** | Ändern Sie Sprache, Zahlen-/Datumsformat und E-Mail-Client-Einstellungen. |
 | **Mobile App holen** | Konfigurieren Sie Einstellungen für die SuperOffice Mobile CRM-App. |
@@ -93,5 +93,6 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available
 
 <!-- Referenced images -->

@@ -3,8 +3,8 @@ uid: help-en-ui-top-bar
 title: Buttons on the top bar
 description: Buttons on the top bar
 keywords: top bar, button, Personal settings menu, Main menu options
-author: Kirsti Aakerholt, Bergfrid Dias
-date: 09.17.2025
+author: Kirsti Aakerholt, digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: reference
 audience: person
@@ -36,7 +36,7 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 | **Preferences** | Adjust [personal preferences][6], such as default values, sorting, and visual effects. |
 | **Edit personal signature** | Edit the [email signature][7] used in outgoing emails or requests. |
 | **Email options** | Configure inbox settings. |
-| **Your availability status** | Choose whether you are available for automatic assignment of requests and contacts. If you set your status to *Not present*, new requests will not be assigned to you, and your out of office message will be shown next to your name when someone manually assigns an item. |
+| **Your availability status** | Choose whether you are [available for automatic assignment of requests and contacts][18]. If you set your status to *Not present*, new requests will not be assigned to you, and your out of office message will be shown next to your name when someone manually assigns an item. |
 | **Show my contact info** | Open your contact card to edit details like phone numbers or title. |
 | **Local settings** | Change app language, number/date format, and email client settings. |
 | **Get the mobile app** | Configure settings for SuperOffice Mobile CRM. |
@@ -94,5 +94,6 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available
 
 <!-- Referenced images -->

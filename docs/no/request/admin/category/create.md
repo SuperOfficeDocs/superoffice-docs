@@ -4,7 +4,7 @@ title: Opprett sakskategori
 description: Opprett sakskategori
 keywords: legg til sakskategori, opprett sakskategori, ny sakskategori, sakskategori, fanen Kategorier, sak, kategori
 author: digitaldiina
-date: 12.02.2025
+date: 03.25.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
@@ -81,9 +81,11 @@ index: true
 ## Relatert innhold
 
 * [Slik setter du opp Hent neste sak i køen][3]
+* [Tilgjengelighetsstatus][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
+[4]: ../../learn/index.md#available
 
 <!-- Referenced images -->

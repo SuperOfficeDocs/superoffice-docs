@@ -3,8 +3,8 @@ uid: help-en-service-settings
 title: System settings
 description: System settings
 keywords: Service
-author: Bergfrid Dias
-date: 09.03.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5
 content_type: reference
 license: serviceessentials
@@ -24,6 +24,7 @@ In this section, you can configure the settings for Service to tailor it to your
 * [Request types][9]
 * [Roles][12]
 * [Users][13]
+* [Availability status][7]
 * [Categories][4]
 * [Priorities][5]
 * [Request status][6]
@@ -43,6 +44,7 @@ In this section, you can configure the settings for Service to tailor it to your
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[7]: ../learn/index.md#available
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md

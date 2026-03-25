@@ -3,8 +3,8 @@ uid: help-de-request
 title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
-author: Bergfrid Dias
-date: 09.01.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: concept
 license: serviceessentials
@@ -197,6 +197,20 @@ Sie können Anfragen an Ihren Arbeitsablauf anpassen:
     * Anfrage eskaliert.
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu übernehmen.
+
+## <a id="available"></a>Ihr Verfügbarkeitsstatus
+
+Ihr Verfügbarkeitsstatus bestimmt, ob Sie Anfragen über die automatische Zuweisung erhalten. Er wirkt sich auch auf die Zuweisung von Personen aus.
+
+Um Ihren Status zu aktualisieren, klicken Sie in der Symbolleiste auf <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** und wählen Sie **Ihr Verfügbarkeitsstatus**.
+
+* **Anwesend:** Sie sind für die automatische Zuweisung von Anfragen und Personen verfügbar.
+* **Nicht anwesend:** Neue Anfragen werden Ihnen nicht zugewiesen. Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn jemand einen Eintrag manuell zuweist.
+
+> [!TIP]
+> Wenn ein Bearbeiter vergisst, seinen Status zu aktualisieren, oder unerwartet abwesend ist, kann ein Administrator den Verfügbarkeitsstatus des Bearbeiters in **Einstellungen und Wartung** > **Benutzer** ändern.
+
+Wie Anfragen neu verteilt werden, wenn ein Benutzer nicht anwesend ist, hängt von der für die Kategorie konfigurierten [Zuweisungsmethode][6] ab.
 
 ## Globale Einstellungen
 
