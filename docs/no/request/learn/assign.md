@@ -3,8 +3,8 @@ uid: help-no-request-assign
 title: Fordelingsmetode
 description: Fordelingsmetoder for saker
 keywords: sak
-author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-date: 02.04.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
@@ -96,6 +96,7 @@ La oss si at firmaet ditt har opprettet én kategori for hver avdeling i firmaet
 * [Godta en sak][4]
 * [Be en annen saksbehandler om hjelp (overføring)][5]
 * [Hvordan sette opp 'Hent neste sak i køen'][6]
+* [Tilgjengelighetsstatus][7]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -104,6 +105,7 @@ La oss si at firmaet ditt har opprettet én kategori for hver avdeling i firmaet
 [5]: transfer.md
 [6]: ../admin/next-in-queue.md
 [3]: ../admin/category/create.md
+[7]: index.md#available
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/assign-requests.png

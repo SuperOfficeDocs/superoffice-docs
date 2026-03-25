@@ -3,8 +3,8 @@ uid: help-no-ui-top-bar
 title: Knapper i menylinjen
 description: Knapper i menylinjen
 keywords: topprad, knapp, menylinje, toppfelt
-author: Bergfrid Dias
-date: 09.17.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: reference
 audience: person
@@ -35,7 +35,7 @@ language: no
 | **Preferanser** | Rediger [personlige preferanser][6], som standardverdier og visuelle innstillinger. |
 | **Rediger personlig signatur** | Rediger [e-postsignaturen][7] brukt i utgående e-poster eller saker. |
 | **E-postalternativer** | Konfigurer innboksinnstillinger. |
-| **Din tilgjengelighetsstatus** | Velg om du skal være tilgjengelig for automatisk tildeling av saker og personer. Hvis du setter statusen til *Ikke til stede*, vil nye saker ikke bli tildelt deg, og fraværsmeldingen din vises ved navnet ditt når noen manuelt tildeler en sak. |
+| **Din tilgjengelighetsstatus** | Velg om du skal være [tilgjengelig for automatisk tildeling av saker og personer][18]. Hvis du setter statusen til *Ikke til stede*, vil nye saker ikke bli tildelt deg, og fraværsmeldingen din vises ved navnet ditt når noen manuelt tildeler en sak. |
 | **Vis kontaktinformasjonen min** | Åpne personkortet ditt for å redigere detaljer som telefonnummer eller stilling. |
 | **Lokale innstillinger** | Endre språk, tall/dato-format, og e-postklientinnstillinger. |
 | **Mobile CRM-innstillinger** | Konfigurer innstillinger for SuperOffice Mobile CRM-appen. |
@@ -91,5 +91,6 @@ language: no
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available
 
 <!-- Referenced images -->

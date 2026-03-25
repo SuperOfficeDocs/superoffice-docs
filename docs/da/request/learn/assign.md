@@ -3,8 +3,8 @@ uid: help-da-request-assign
 title: Tildelingsmetoder
 description: Tildelingsmetoder for sager
 keywords: automatisk fordeling, fordelingsmetode, tildelingsmetode, tildel sag, sag
-author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-date: 03.07.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
@@ -96,6 +96,7 @@ Lad os sige, at din virksomhed har oprettet én kategori for hver afdeling i vir
 * [Acceptér en sag][4]
 * [Bed en anden sagsbehandler om hjælp (overførsel)][5]
 * [Sådan konfigurerer du Hent næste sag i køen][6]
+* [Tilgængelighedsstatus][7]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -104,6 +105,7 @@ Lad os sige, at din virksomhed har oprettet én kategori for hver afdeling i vir
 [4]: accept.md
 [5]: transfer.md
 [6]: ../admin/next-in-queue.md
+[7]: index.md#available
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/assign-requests.png

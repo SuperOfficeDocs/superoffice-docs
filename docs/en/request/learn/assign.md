@@ -3,8 +3,8 @@ uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
 keywords: automatic assignment, assignment method, assign request, request
-author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-date: 01.15.2025
+author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
+date: 03.25.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
@@ -96,9 +96,11 @@ Imagine that your company has created a category for each department in the comp
 * [Accept a request][4]
 * [Ask another request handler for help (transfer)][5]
 * [How to set up Get next request in queue][6]
+* [Availability status][7]
 
 <!-- Referenced links -->
 [1]: index.md
+[7]: index.md#available
 [2]: create.md
 [4]: accept.md
 [5]: transfer.md

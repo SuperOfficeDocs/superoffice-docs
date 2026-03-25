@@ -3,8 +3,8 @@ uid: help-nl-request-assign
 title: Toewijzingsmethoden
 description: Toewijzingsmethoden voor verzoeken
 keywords: automatische toewijzing, toewijzingsmethode, verzoek toewijzen, verzoek
-author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5.2
 content_type: howto
 audience: person
@@ -94,6 +94,7 @@ Stel dat uw bedrijf een categorie heeft gemaakt voor elke afdeling binnen het be
 * [Een verzoek maken][2]
 * [Een verzoek accepteren][4]
 * [Andere verzoekbehandelaar om hulp vragen (overbrengen)][5]
+* [Beschikbaarheidsstatus][7]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -101,6 +102,7 @@ Stel dat uw bedrijf een categorie heeft gemaakt voor elke afdeling binnen het be
 [3]: ../admin/category/create.md
 [4]: accept.md
 [5]: transfer.md
+[7]: index.md#available
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/assign-requests.png

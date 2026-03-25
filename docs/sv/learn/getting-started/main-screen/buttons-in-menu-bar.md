@@ -3,8 +3,8 @@ uid: help-sv-ui-top-bar
 title: Knappar på toppraden
 description: Knappar på toppraden
 keywords: toppraden, knapp, personliga inställningar, huvudmeny, menyfält
-author: SuperOffice Product and Engineering
-date: 09.17.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: reference
 audience: person
@@ -36,7 +36,7 @@ language: sv
 | **Inställningar** | Justera [personliga inställningar][6], såsom standardvärden, sortering och visuella effekter. |
 | **Redigera personlig e-postsignatur** | Redigera [e-postsignaturen][7] som används i utgående e-post eller ärenden. |
 | **E-postalternativ** | Konfigurera inkorgsinställningar. |
-| **Din tillgänglighetsstatus** | Välj om du ska vara tillgänglig för automatisk tilldelning av ärenden och kontakter. Om du sätter din status till *Ej närvarande* tilldelas inga nya ärenden till dig, och ditt frånvaromeddelande visas bredvid ditt namn när någon manuellt tilldelar ett objekt. |
+| **Din tillgänglighetsstatus** | Välj om du ska vara [tillgänglig för automatisk tilldelning av ärenden och kontakter][18]. Om du sätter din status till *Ej närvarande* tilldelas inga nya ärenden till dig, och ditt frånvaromeddelande visas bredvid ditt namn när någon manuellt tilldelar ett objekt. |
 | **Visa min kontaktinformation** | Öppna ditt kontaktkort för att redigera telefonnummer eller titel. |
 | **Lokala inställningar** | Ändra appens språk, nummer-/datumformat och e-postklientinställningar. |
 | **Hämta mobilappen** | Konfigurera inställningar för SuperOffice Mobile CRM. |
@@ -94,3 +94,4 @@ language: sv
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available

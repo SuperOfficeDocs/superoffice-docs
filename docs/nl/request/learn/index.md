@@ -3,8 +3,8 @@ uid: help-nl-request
 title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 keywords: verzoek, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: concept
 license: serviceessentials
@@ -198,6 +198,20 @@ U kunt verzoeken aanpassen aan uw workflow:
     * Verzoek geëscaleerd.
 
 1. Klik op **Opslaan** om je wijzigingen toe te passen.
+
+## <a id="available"></a>Uw beschikbaarheidsstatus
+
+Uw beschikbaarheidsstatus bepaalt of u verzoeken ontvangt via automatische toewijzing. Dit heeft ook invloed op de toewijzing van personen.
+
+Klik in de werkbalk op <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** en selecteer **Uw beschikbaarheidsstatus** om uw status bij te werken.
+
+* **Aanwezig:** U bent beschikbaar voor automatische toewijzing van verzoeken en personen.
+* **Afwezig:** Er worden geen nieuwe verzoeken aan u toegewezen. Uw afwezigheidsmelding wordt naast uw naam weergegeven wanneer iemand handmatig een item toewijst.
+
+> [!TIP]
+> Als een medewerker vergeet de status bij te werken of onverwacht afwezig is, kan een beheerder de beschikbaarheidsstatus namens de medewerker wijzigen in **Instellingen en onderhoud** > **Gebruikers**.
+
+Hoe verzoeken worden herverdeeld wanneer een gebruiker afwezig is, hangt af van de [toewijzingsmethode][6] die voor de categorie is geconfigureerd.
 
 ## Globale voorkeuren
 

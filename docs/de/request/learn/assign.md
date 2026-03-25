@@ -3,8 +3,8 @@ uid: help-de-request-assign
 title: Zuordnungsmethoden
 description: Zuordnungsmethoden für Anfragen
 keywords: automatische Zuordnung, Zuordnungsmethode, Anfrage zuweisen, Anfrage
-author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
@@ -97,6 +97,7 @@ Angenommen, Ihre Firma hat für jede Abteilung der Firma eine Kategorie erstellt
 * [Anfrage annehmen][4]
 * [Nächste Anfrage in der Warteschlange anzeigen einrichten][6]
 * [Anderen Bearbeiter um Hilfe bitten (Übergeben)][5]
+* [Verfügbarkeitsstatus][7]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -105,6 +106,7 @@ Angenommen, Ihre Firma hat für jede Abteilung der Firma eine Kategorie erstellt
 [5]: transfer.md
 [6]: ../admin/next-in-queue.md
 [3]: ../admin/category/create.md
+[7]: index.md#available
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/assign-requests.png

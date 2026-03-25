@@ -3,8 +3,8 @@ uid: help-da-service-settings
 title: Systemindstillinger
 description: Systemindstillinger
 keywords: Tjeneste
-author: Bergfrid Dias
-date: 01.15.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5
 content_type: reference
 license: serviceessentials
@@ -24,6 +24,7 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 * [Sagstyper][9]
 * [Roller][12]
 * [Brugere][13]
+* [Tilgængelighedsstatus][7]
 * [Kategorier][4]
 * [Prioriteter][5]
 * [Sagsstatus][6]
@@ -47,6 +48,7 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
+[7]: ../learn/index.md#available
 [14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md

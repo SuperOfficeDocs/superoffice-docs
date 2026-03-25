@@ -3,8 +3,8 @@ uid: help-no-service-settings
 title: System settings
 description: System settings
 keywords: Service
-author: Bergfrid Dias
-date: 02.04.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5
 content_type: reference
 license: serviceessentials
@@ -24,6 +24,7 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 * [Sakstyper][9]
 * [Roller][12]
 * [Brukere][13]
+* [Tilgjengelighetsstatus][7]
 * [Kategorier][4]
 * [Prioriteter][5]
 * [Saksstatus][6]
@@ -47,6 +48,7 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
+[7]: ../learn/index.md#available
 [14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md

@@ -3,8 +3,8 @@ uid: help-no-request
 title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, service
-author: Bergfrid Dias
-date: 09.01.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: concept
 license: serviceessentials
@@ -199,6 +199,20 @@ Du kan tilpasse saker slik at de passer din arbeidsflyt:
     * Sak eskalert.
 
 1. Klikk **Lagre** for å bruke endringene.
+
+## <a id="available"></a>Din tilgjengelighetsstatus
+
+Din tilgjengelighetsstatus bestemmer om du mottar saker via automatisk tildeling. Den påvirker også tildelingen av personer.
+
+Klikk på <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** i topmenyen, og velg **Din tilgjengelighetsstatus** for å oppdatere statusen din.
+
+* **Til stede:** Du er tilgjengelig for automatisk tildeling av saker og personer.
+* **Ikke til stede:** Nye saker tildeles ikke til deg. Fraværsmeldingen din vises ved navnet ditt når noen manuelt tildeler en sak.
+
+> [!TIP]
+> Hvis en saksbehandler glemmer å oppdatere statusen sin eller er uventet fraværende, kan en administrator endre saksbehandlerens tilgjengelighetsstatus på vedkommendes vegne i **Innstillinger og vedlikehold** > **Brukere**.
+
+Hvordan saker fordeles på nytt når en bruker ikke er til stede, avhenger av [fordelingsmetoden][6] som er konfigurert for kategorien.
 
 ## Globale preferanser
 

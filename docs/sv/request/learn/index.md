@@ -3,8 +3,8 @@ uid: help-sv-request
 title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: concept
 license: serviceessentials
@@ -198,6 +198,20 @@ Du kan anpassa ärenden så att de passar ditt arbetsflöde:
     * Ärende eskalerat.
 
 1. Klicka på **Spara** för att tillämpa dina ändringar.
+
+## <a id="available"></a>Din tillgänglighetsstatus
+
+Din tillgänglighetsstatus avgör om du tar emot ärenden via automatisk tilldelning. Den påverkar även tilldelningen av kontakter.
+
+Klicka på <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** i verktygsfältet och välj **Din tillgänglighetsstatus** för att uppdatera din status.
+
+* **Tillgänglig:** Du är tillgänglig för automatisk tilldelning av ärenden och kontakter.
+* **Ej närvarande:** Inga nya ärenden tilldelas till dig. Ditt frånvaromeddelande visas bredvid ditt namn när någon manuellt tilldelar ett objekt.
+
+> [!TIP]
+> Om en handläggare glömmer att uppdatera sin status eller är oväntat frånvarande kan en administratör ändra handläggarens tillgänglighetsstatus för dennes räkning i **Inställningar och underhåll** > **Användare**.
+
+Hur ärenden omfördelas när en användare inte är tillgänglig beror på den [tilldelningsmetod][6] som har konfigurerats för kategorin.
 
 ## Globala inställningar
 

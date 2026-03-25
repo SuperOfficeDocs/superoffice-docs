@@ -3,8 +3,8 @@ uid: help-sv-service-settings
 title: Systeminställningar
 description: Systeminställningar
 keywords: systeminställningar, service
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 03.25.2026
 version: 10.5.2
 content_type: reference
 audience: settings
@@ -23,6 +23,7 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 * [Ärendetyper][9]
 * [Roller][12]
 * [Användare][13]
+* [Tillgänglighetsstatus][7]
 * [Kategorier][4]
 * [Prioriteter][5]
 * [Ärendestatus][6]
@@ -46,6 +47,7 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
+[7]: ../learn/index.md#available
 [14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md

@@ -3,15 +3,15 @@ uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
+author: digitaldiina
+date: 03.25.2026
 version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
-redirect_from: 
+redirect_from:
   - /en/request/learn/screen/index
   - /en/request/learn/screen/ticket-log
 ---
@@ -20,7 +20,7 @@ redirect_from:
 
 Our ticketing system allows you to efficiently handle incoming requests and helps you offer outstanding customer service every day. This selection of how-to guides contains guidelines to help you keep track of, answer and analyze all incoming questions and inquiries using SuperOffice Service. No matter whether they come in by phone, email, chat, web form, or other channels.
 
-**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Click the **Requests** button (<i class="ph ph-ticket" aria-hidden="true"></i>) to open the Requests screen or click the **Requests** text to open the navigator options with search, history and favourites.
+**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Click the **Requests** button (<i class="ph ph-ticket" aria-hidden="true"></i>) to open the Requests screen or click the **Requests** text to open the navigator options with search, history and favorites.
 
 Each question and query can be defined as a request. These questions range from support issues, questions about the product and services, or questions about invoices. Whenever a request comes in, you want to handle them as quickly and efficiently as possible and professional customer service.
 
@@ -198,6 +198,20 @@ You can customize requests to suit your workflow:
     * Request escalated.
 
 1. Click **Save** to apply your changes.
+
+## <a id="available"></a>Your availability status
+
+Your availability status determines whether you receive requests through automatic assignment. It also affects the assignment of contacts.
+
+To update your status, click <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** in the top bar and select **Your availability status**.
+
+* **Present:** You are available for automatic assignment of requests and contacts.
+* **Not present:** New requests will not be assigned to you. Your out-of-office message will be shown next to your name when someone manually assigns an item.
+
+> [!TIP]
+> If an agent forgets to update their status or is unexpectedly absent, an administrator can change the agent's availability status on their behalf in **Settings and maintenance** > **Users**.
+
+How requests are redistributed when a user is not present depends on the [assignment method][6] configured for the category.
 
 ## Global preferences
 
