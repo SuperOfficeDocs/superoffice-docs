@@ -34,12 +34,6 @@ De gebruikers die u hebt gekozen voor koppeling aan een vervolgactiviteit, ontva
 | <i class="ph ph-eye" aria-label="Eye"></i> | Uitnodiging is gelezen, maar nog niet beantwoord. |
 | geen symbool | De uitnodiging is nog niet gelezen. |
 
-**Deelnemersstatus varieert per synchronisatierichting:**
-
-* **Vergaderingen gemaakt in Outlook of Gmail** (weergegeven in SuperOffice): Deelnemersstatus omvat Geaccepteerd, Afgewezen, Bekeken en Bron. Deelnemers worden exact weergegeven zoals ze in Outlook of Gmail verschijnen.
-
-* **Vergaderingen gemaakt in SuperOffice** (weergegeven in Outlook/Gmail): Deelnemersstatus omvat geaccepteerd, afgewezen, voorlopig en geen reactie.
-
 ## Bronnen
 
 Wanneer u bronnen koppelt, wordt de status ingesteld op *geaccepteerd* omdat een bron de uitnodiging zelf niet kan beantwoorden.

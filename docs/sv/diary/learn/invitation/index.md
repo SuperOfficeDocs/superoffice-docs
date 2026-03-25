@@ -34,12 +34,6 @@ Användarna du väljer att koppla till en händelse får ett meddelande om detta
 | <i class="ph ph-eye" aria-label="Eye"></i> | Förfrågan har mottagits men inte besvarats. |
 | ingen symbol | Förfrågningen har inte tagits emot. |
 
-**Deltagarstatusar varierar efter synkroniseringsriktning:**
-
-* **Händelser som skapats i Outlook eller Gmail** (visas i SuperOffice): Deltagarstatusar inkluderar Accepterad, Avböjd, Sedd och Resurs. Deltagare visas exakt som de visas i Outlook eller Gmail.
-
-* **Händelser som skapats i SuperOffice** (visas i Outlook/Gmail): Deltagarstatusar inkluderar accepterad, avböjd, preliminär och inget svar.
-
 ## Resurser
 
 När du kopplar resurser ändras statusen till *Accepterad* eftersom en resurs inte kan svara på förfrågan.

@@ -38,12 +38,6 @@ The users you chose to link to a follow-up will be notified of this on their scr
 | <i class="ph ph-eye" aria-label="Eye"></i> | Invitation is seen but not answered. |
 | unmarked | Invitation has not been seen. |
 
-**Attendee statuses vary by sync direction:**
-
-* **Meetings created in Outlook or Gmail** (shown in SuperOffice): Attendee statuses include Accepted, Declined, Viewed, and Resource. Attendees are displayed exactly as they appear in Outlook or Gmail.
-
-* **Meetings created in SuperOffice** (shown in Outlook/Gmail): Attendee statuses include accepted, declined, tentative, and no response.
-
 ## Resources
 
 When you link resources, the status is set to *accepted* because a resource cannot answer the invitation itself.

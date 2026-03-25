@@ -34,12 +34,6 @@ Den Benutzern, die Sie mit einer Folgeaufgabe verknüpfen möchten, wird dies au
 | <i class="ph ph-eye" aria-label="Eye"></i> | Einladung wurde gesehen, aber nicht beantwortet. |
 | Keine Markierung | Einladung wurde nicht gelesen. |
 
-**Teilnehmerstatus variiert je nach Synchronisationsrichtung:**
-
-* **Besprechungen, die in Outlook oder Gmail erstellt wurden** (angezeigt in SuperOffice): Teilnehmerstatus umfasst Akzeptiert, Abgelehnt, Gesehen und Ressource. Teilnehmer werden genau so angezeigt, wie sie in Outlook oder Gmail erscheinen.
-
-* **Besprechungen, die in SuperOffice erstellt wurden** (angezeigt in Outlook/Gmail): Teilnehmerstatus umfasst akzeptiert, abgelehnt, tentativ und keine Antwort.
-
 ## Ressourcen
 
 Wenn Sie Ressourcen verknüpfen, wird der Status auf *akzeptiert* festgelegt, da eine Ressource die Einladung selbst nicht beantworten kann.

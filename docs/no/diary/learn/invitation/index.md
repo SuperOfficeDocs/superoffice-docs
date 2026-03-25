@@ -34,12 +34,6 @@ Brukerne du har valgt å knytte til en oppfølging, får melding om dette på sk
 | <i class="ph ph-eye" aria-label="Eye"></i> | Invitasjon er sett, men ikke besvart. |
 | umerket | Invitasjonen er ikke sett. |
 
-**Deltakerstatuser varierer etter synkroniseringsretning:**
-
-* **Møter opprettet i Outlook eller Gmail** (vist i SuperOffice): Deltakerstatuser inkluderer Godtatt, Avslått, Sett og Ressurs. Deltakere vises nøyaktig slik de vises i Outlook eller Gmail.
-
-* **Møter opprettet i SuperOffice** (vist i Outlook/Gmail): Deltakerstatuser inkluderer godtatt, avslått, tentativ og ingen respons.
-
 ## Ressurser
 
 Når du kobler sammen ressurser, settes statusen til *godtatt*, siden en ressurs ikke kan besvare invitasjonen selv.

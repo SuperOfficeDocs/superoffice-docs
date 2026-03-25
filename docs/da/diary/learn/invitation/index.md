@@ -34,12 +34,6 @@ De brugere, du har valgt at knytte til en opfølgning, får en meddelelse om det
 | <i class="ph ph-eye" aria-label="Eye"></i> | Invitationen er set, men ikke besvaret. |
 | ikke markeret | Invitationen er ikke læst. |
 
-**Deltagerstatusser varierer efter synkroniseringsretning:**
-
-* **Møder oprettet i Outlook eller Gmail** (vist i SuperOffice): Deltagerstatusser inkluderer Accepteret, Afvist, Set og Ressource. Deltagere vises nøjagtigt, som de vises i Outlook eller Gmail.
-
-* **Møder oprettet i SuperOffice** (vist i Outlook/Gmail): Deltagerstatusser inkluderer accepteret, afvist, tentativ og ingen svar.
-
 ## Ressourcer
 
 Når du sammenkæder ressourcer, angives status til *accepteret* fordi en ressource ikke kan besvare selve invitationen.
