@@ -4,7 +4,7 @@ title: Verzoekrelaties
 description: Leer hoe u gerelateerde verzoeken kunt koppelen met behulp van bovenliggende, onderliggende en gerelateerde relaties om verbonden problemen in SuperOffice Service beter te volgen en te beheren.
 keywords: verzoekrelaties, verzoeken koppelen, bovenliggend verzoek, onderliggend verzoek, gerelateerde verzoeken
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 category: service
@@ -52,11 +52,11 @@ Wanneer één verzoek moet worden opgelost voordat een ander kan worden voltooid
 
 ## Verzoekrelaties weergeven
 
-Wanneer een verzoek een of meer relaties heeft, kunt u deze zien op het tabblad **Relaties** in het verzoekscherm.
+Wanneer een verzoek een of meer relaties heeft, kunt u deze zien op het tabblad **Gerelateerde verzoeken** in het verzoekscherm.
 
 ### Archiefweergave
 
-De standaardweergave toont relaties als een lijst met de volgende kolommen:
+Klik op <i class="ph ph-list" aria-label="Lijstweergave"></i> om relaties als een lijst weer te geven (standaard). De archiefweergave toont de volgende kolommen:
 
 * Verzoek-ID
 * Titel
@@ -64,26 +64,25 @@ De standaardweergave toont relaties als een lijst met de volgende kolommen:
 * Eigenaar
 * Status
 * Relatietype
+* Opmerking
 
 ![Verzoekrelaties in lijstweergave -screenshot][img1]
 
 ### Boomstructuurweergave
 
-Klik op **Boomstructuurweergave** om relaties in een hiërarchische structuur weer te geven, waardoor bovenliggende-onderliggende relaties gemakkelijker te visualiseren zijn:
+Klik op <i class="ph ph-graph" aria-label="Boomstructuurweergave"></i> om relaties in een hiërarchische structuur weer te geven, waardoor bovenliggende-onderliggende relaties gemakkelijker te visualiseren zijn:
 
 ![Verzoekrelaties in boomstructuurweergave -screenshot][img2]
 
 > [!TIP]
-> Het tabblad **Relaties** toont een oranje indicator wanneer het verzoek een of meer relaties heeft, waardoor gekoppelde verzoeken in één oogopslag gemakkelijk te identificeren zijn.
+> Het tabblad **Gerelateerde verzoeken** toont een oranje indicator wanneer het verzoek een of meer relaties heeft, waardoor gekoppelde verzoeken in één oogopslag gemakkelijk te identificeren zijn.
 
 ### Verschillende perspectieven
 
 Relaties zijn bidirectioneel. Beide verzoeken in de relatie tonen de verbinding:
 
-* Als Verzoek A **bovenliggend** is van Verzoek B, zal Verzoek B Verzoek A als zijn bovenliggende verzoek weergeven
-* Als Verzoek A **gerelateerd** is aan Verzoek B, zal Verzoek B weergeven dat het gerelateerd is aan Verzoek A
-
-![Dezelfde relatie bekeken vanuit het gerelateerde verzoek -screenshot][img3]
+* Als Verzoek A **bovenliggend** is van Verzoek B, zal Verzoek B Verzoek A als zijn bovenliggende verzoek weergeven.
+* Als Verzoek A **gerelateerd** is aan Verzoek B, zal Verzoek B weergeven dat het gerelateerd is aan Verzoek A.
 
 ## <a id="add"></a>Verzoekrelatie toevoegen
 
@@ -93,7 +92,7 @@ U kunt een relatie toevoegen vanaf de volgende locaties:
 
 1. Open het verzoek dat u wilt koppelen.
 
-1. Selecteer het tabblad **Relaties**.
+1. Selecteer het tabblad **Gerelateerde verzoeken**.
 
 1. Klik op **Nieuwe relatie**.
 
@@ -107,7 +106,7 @@ U kunt een relatie toevoegen vanaf de volgende locaties:
 
 1. Voeg optioneel een opmerking toe die de relatie uitlegt.
 
-1. Klik op **Koppelen** om de verbinding te maken.
+1. Klik op **Relateren** om de verbinding te maken.
 
 ### Vanuit het sectietabblad Verzoeken
 
@@ -117,11 +116,11 @@ U kunt een relatie toevoegen vanaf de volgende locaties:
 
 1. Klik met de rechtermuisknop op het verzoek waarvan u een relatie wilt maken.
 
-1. Selecteer **Relaties** in het contextmenu.
+1. Selecteer **Relateren** in het contextmenu.
 
 1. Volg stappen 4-9 hierboven om de relatie te voltooien.
 
-![Contextmenu met optie Relaties -screenshot][img4]
+![Contextmenu met optie Relateren -screenshot][img4]
 
 ## Nieuw verzoek als relatie maken
 
@@ -133,11 +132,11 @@ In plaats van te koppelen aan een bestaand verzoek, kunt u een nieuw verzoek mak
 
 1. Vul de verzoekdetails in.
 
-1. Klik op **Koppelen** om zowel het nieuwe verzoek als de verbinding tegelijkertijd te maken.
+1. Klik op **Relateren** om zowel het nieuwe verzoek als de verbinding tegelijkertijd te maken.
 
 ## <a id="delete"></a>Verzoekrelatie verwijderen
 
-1. Open het verzoek en selecteer het tabblad **Relaties**.
+1. Open het verzoek en selecteer het tabblad **Gerelateerde verzoeken**.
 
 1. Zoek de relatie die u wilt verwijderen.
 
@@ -185,7 +184,6 @@ De knop **Relatie verwijderen** is alleen actief wanneer u precies één relatie
 [4]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-relations-archive.png
+[img1]: ../../../media/loc/en/request/request-relations-list.png
 [img2]: ../../../media/loc/en/request/request-relations-tree.png
-[img3]: ../../../media/loc/en/request/request-relations-perspective.png
 [img4]: ../../../media/loc/en/request/request-relations-context-menu.png

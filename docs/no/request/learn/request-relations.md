@@ -4,7 +4,7 @@ title: Saksrelasjoner
 description: Lær hvordan du kan koble relaterte saker ved hjelp av overordnede, underordnede og relaterte relasjoner for bedre å spore og administrere tilknyttede problemer i SuperOffice Service.
 keywords: saksrelasjoner, koble saker, overordnet sak, underordnet sak, relaterte saker
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 category: service
@@ -52,11 +52,11 @@ Når en sak må løses før en annen kan fullføres, kobler du dem ved hjelp av 
 
 ## Vis saksrelasjoner
 
-Når en sak har en eller flere relasjoner, kan du se dem i fanen **Relasjoner** på saksskjermbildet.
+Når en sak har en eller flere relasjoner, kan du se dem i fanen **Relaterte saker** på saksskjermbildet.
 
 ### Listevisning
 
-Standardvisningen viser relasjoner som en liste med følgende kolonner:
+Klikk på <i class="ph ph-list" aria-label="Listevisning"></i> for å vise relasjoner som en liste (standard). Listevisningen viser følgende kolonner:
 
 * Saks-ID
 * Tittel
@@ -64,26 +64,25 @@ Standardvisningen viser relasjoner som en liste med følgende kolonner:
 * Eier
 * Status
 * Relasjonstype
+* Kommentar
 
 ![Saksrelasjoner i listevisning -screenshot][img1]
 
 ### Trevisning
 
-Klikk på **Trevisning** for å vise relasjoner i en hierarkisk struktur, noe som gjør overordnede og underordnede relasjoner lettere å visualisere:
+Klikk på <i class="ph ph-graph" aria-label="Trevisning"></i> for å vise relasjoner i en hierarkisk struktur, noe som gjør overordnede og underordnede relasjoner lettere å visualisere:
 
 ![Saksrelasjoner i trevisning -screenshot][img2]
 
 > [!TIP]
-> Fanen **Relasjoner** viser en oransje indikator når saken har en eller flere relasjoner, noe som gjør det enkelt å identifisere koblede saker med et blikk.
+> Fanen **Relaterte saker** viser en oransje indikator når saken har en eller flere relasjoner, noe som gjør det enkelt å identifisere koblede saker med et blikk.
 
 ### Ulike perspektiver
 
 Relasjoner er toveisorienterte. Begge saker i relasjonen viser forbindelsen:
 
-* Hvis Sak A er **overordnet** for Sak B, vil Sak B vise Sak A som sin overordnede
-* Hvis Sak A er **relatert** til Sak B, vil Sak B vise at den er relatert til Sak A
-
-![Samme relasjon sett fra den relaterte saken -screenshot][img3]
+* Hvis Sak A er **overordnet** for Sak B, vil Sak B vise Sak A som sin overordnede.
+* Hvis Sak A er **relatert** til Sak B, vil Sak B vise at den er relatert til Sak A.
 
 ## <a id="add"></a>Legg til saksrelasjon
 
@@ -93,7 +92,7 @@ Du kan legge til en relasjon fra følgende steder:
 
 1. Åpne saken du vil koble.
 
-1. Velg fanen **Relasjoner**.
+1. Velg fanen **Relaterte saker**.
 
 1. Klikk på **Ny relasjon**.
 
@@ -117,11 +116,11 @@ Du kan legge til en relasjon fra følgende steder:
 
 1. Høyreklikk på saken du vil opprette en relasjon fra.
 
-1. Velg **Relasjoner** fra kontekstmenyen.
+1. Velg **Relater** fra kontekstmenyen.
 
 1. Følg trinn 4-9 ovenfor for å fullføre relasjonen.
 
-![Kontekstmeny med alternativ for Relasjoner -screenshot][img4]
+![Kontekstmeny med alternativ for Relater -screenshot][img4]
 
 ## Opprett ny sak som relasjon
 
@@ -137,7 +136,7 @@ I stedet for å koble til en eksisterende sak, kan du opprette en ny sak mens du
 
 ## <a id="delete"></a>Fjern saksrelasjon
 
-1. Åpne saken og velg fanen **Relasjoner**.
+1. Åpne saken og velg fanen **Relaterte saker**.
 
 1. Finn relasjonen du vil fjerne.
 
@@ -185,7 +184,6 @@ Knappen **Fjern relasjon** er kun aktiv når du har valgt nøyaktig én relasjon
 [4]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-relations-archive.png
+[img1]: ../../../media/loc/en/request/request-relations-list.png
 [img2]: ../../../media/loc/en/request/request-relations-tree.png
-[img3]: ../../../media/loc/en/request/request-relations-perspective.png
 [img4]: ../../../media/loc/en/request/request-relations-context-menu.png

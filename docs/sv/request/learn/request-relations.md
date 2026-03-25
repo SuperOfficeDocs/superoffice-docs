@@ -4,7 +4,7 @@ title: Ärenderelationer
 description: Lär dig hur du kan länka relaterade ärenden med hjälp av överordnade, underordnade och relaterade relationer för att bättre spåra och hantera sammankopplade problem i SuperOffice Service.
 keywords: ärenderelationer, länka ärenden, överordnat ärende, underordnat ärende, relaterade ärenden
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 category: service
@@ -52,11 +52,11 @@ När ett ärende måste lösas innan ett annat kan slutföras, länka dem med en
 
 ## Visa ärenderelationer
 
-När ett ärende har en eller flera relationer kan du se dem på fliken **Relationer** på ärendeskärmen.
+När ett ärende har en eller flera relationer kan du se dem på fliken **Relaterade ärenden** på ärendeskärmen.
 
 ### Listvy
 
-Standardvyn visar relationer som en lista med följande kolumner:
+Klicka på <i class="ph ph-list" aria-label="Listvy"></i> för att visa relationer som en lista (standard). Listvyn visar följande kolumner:
 
 * Ärende-ID
 * Titel
@@ -64,26 +64,25 @@ Standardvyn visar relationer som en lista med följande kolumner:
 * Ägare
 * Status
 * Relationstyp
+* Kommentar
 
 ![Ärenderelationer i listvy -screenshot][img1]
 
 ### Trädvy
 
-Klicka på **Trädvy** för att visa relationer i en hierarkisk struktur, vilket gör överordnade och underordnade relationer lättare att visualisera:
+Klicka på <i class="ph ph-graph" aria-label="Trädvy"></i> för att visa relationer i en hierarkisk struktur, vilket gör överordnade och underordnade relationer lättare att visualisera:
 
 ![Ärenderelationer i trädvy -screenshot][img2]
 
 > [!TIP]
-> Fliken **Relationer** visar en orange indikator när ärendet har en eller flera relationer, vilket gör det enkelt att identifiera länkade ärenden snabbt.
+> Fliken **Relaterade ärenden** visar en orange indikator när ärendet har en eller flera relationer, vilket gör det enkelt att identifiera länkade ärenden snabbt.
 
 ### Olika perspektiv
 
 Relationer är dubbelriktade. Båda ärenden i relationen visar anslutningen:
 
-* Om Ärende A är **överordnat** för Ärende B, kommer Ärende B att visa Ärende A som sitt överordnade ärende
-* Om Ärende A är **relaterat** till Ärende B, kommer Ärende B att visa att det är relaterat till Ärende A
-
-![Samma relation sedd från det relaterade ärendet -screenshot][img3]
+* Om Ärende A är **överordnat** för Ärende B, kommer Ärende B att visa Ärende A som sitt överordnade ärende.
+* Om Ärende A är **relaterat** till Ärende B, kommer Ärende B att visa att det är relaterat till Ärende A.
 
 ## <a id="add"></a>Lägg till ärenderelation
 
@@ -93,7 +92,7 @@ Du kan lägga till en relation från följande platser:
 
 1. Öppna det ärende du vill länka.
 
-1. Välj fliken **Relationer**.
+1. Välj fliken **Relaterade ärenden**.
 
 1. Klicka på **Ny relation**.
 
@@ -117,11 +116,11 @@ Du kan lägga till en relation från följande platser:
 
 1. Högerklicka på det ärende du vill skapa en relation från.
 
-1. Välj **Relationer** från kontextmenyn.
+1. Välj **Relatera** från kontextmenyn.
 
 1. Följ steg 4-9 ovan för att slutföra relationen.
 
-![Kontextmeny med alternativ för Relationer -screenshot][img4]
+![Kontextmeny med alternativ för Relatera -screenshot][img4]
 
 ## Skapa nytt ärende som relation
 
@@ -137,7 +136,7 @@ Istället för att länka till ett befintligt ärende kan du skapa ett nytt äre
 
 ## <a id="delete"></a>Ta bort ärenderelation
 
-1. Öppna ärendet och välj fliken **Relationer**.
+1. Öppna ärendet och välj fliken **Relaterade ärenden**.
 
 1. Hitta relationen du vill ta bort.
 
@@ -185,7 +184,6 @@ Knappen **Ta bort relation** är endast aktiv när du har valt exakt en relation
 [4]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-relations-archive.png
+[img1]: ../../../media/loc/en/request/request-relations-list.png
 [img2]: ../../../media/loc/en/request/request-relations-tree.png
-[img3]: ../../../media/loc/en/request/request-relations-perspective.png
 [img4]: ../../../media/loc/en/request/request-relations-context-menu.png

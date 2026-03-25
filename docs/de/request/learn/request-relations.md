@@ -4,7 +4,7 @@ title: Anfragebeziehungen
 description: Erfahren Sie, wie Sie verwandte Anfragen mithilfe von übergeordneten, untergeordneten und verknüpften Beziehungen verknüpfen können, um verbundene Probleme in SuperOffice Service besser zu verfolgen und zu verwalten.
 keywords: Anfragebeziehungen, Anfragen verknüpfen, übergeordnete Anfrage, untergeordnete Anfrage, verknüpfte Anfragen
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 category: service
@@ -52,11 +52,11 @@ Wenn eine Anfrage gelöst werden muss, bevor eine andere abgeschlossen werden ka
 
 ## Anfragebeziehungen anzeigen
 
-Wenn eine Anfrage eine oder mehrere Beziehungen hat, können Sie diese auf der Registerkarte **Beziehungen** im Anfragebild sehen.
+Wenn eine Anfrage eine oder mehrere Beziehungen hat, können Sie diese auf der Registerkarte **Verknüpfte Anfragen** im Anfragebild sehen.
 
-### Archivansicht
+### Listenansicht
 
-Die Standardansicht zeigt Beziehungen als Liste mit den folgenden Spalten an:
+Klicken Sie auf <i class="ph ph-list" aria-label="Listenansicht"></i> um Beziehungen als Liste anzuzeigen (Standard). Die Archivansicht zeigt die folgenden Spalten an:
 
 * Anfrage-ID
 * Titel
@@ -64,26 +64,25 @@ Die Standardansicht zeigt Beziehungen als Liste mit den folgenden Spalten an:
 * Eigentümer
 * Status
 * Beziehungstyp
+* Kommentar
 
 ![Anfragebeziehungen in Listenansicht -screenshot][img1]
 
 ### Baumansicht
 
-Klicken Sie auf **Baumansicht**, um Beziehungen in einer hierarchischen Struktur anzuzeigen, was übergeordnete und untergeordnete Beziehungen einfacher zu visualisieren macht:
+Klicken Sie auf <i class="ph ph-graph" aria-label="Baumansicht"></i> um Beziehungen in einer hierarchischen Struktur anzuzeigen, was übergeordnete und untergeordnete Beziehungen einfacher zu visualisieren macht:
 
 ![Anfragebeziehungen in Baumansicht -screenshot][img2]
 
 > [!TIP]
-> Die Registerkarte **Beziehungen** zeigt einen orangefarbenen Indikator an, wenn die Anfrage eine oder mehrere Beziehungen hat, sodass verknüpfte Anfragen auf einen Blick leicht zu erkennen sind.
+> Die Registerkarte **Verknüpfte Anfragen** zeigt einen orangefarbenen Indikator an, wenn die Anfrage eine oder mehrere Beziehungen hat, sodass verknüpfte Anfragen auf einen Blick leicht zu erkennen sind.
 
 ### Verschiedene Perspektiven
 
 Beziehungen sind bidirektional. Beide Anfragen in der Beziehung zeigen die Verbindung an:
 
-* Wenn Anfrage A **übergeordnet** von Anfrage B ist, zeigt Anfrage B Anfrage A als ihre übergeordnete Anfrage an
-* Wenn Anfrage A **verknüpft** mit Anfrage B ist, zeigt Anfrage B an, dass sie mit Anfrage A verknüpft ist
-
-![Dieselbe Beziehung aus der verknüpften Anfrage betrachtet -screenshot][img3]
+* Wenn Anfrage A **übergeordnet** von Anfrage B ist, zeigt Anfrage B Anfrage A als ihre übergeordnete Anfrage an.
+* Wenn Anfrage A **verknüpft** mit Anfrage B ist, zeigt Anfrage B an, dass sie mit Anfrage A verknüpft ist.
 
 ## <a id="add"></a>Anfragebeziehung hinzufügen
 
@@ -93,7 +92,7 @@ Sie können eine Beziehung an den folgenden Stellen hinzufügen:
 
 1. Öffnen Sie die Anfrage, die Sie verknüpfen möchten.
 
-1. Wählen Sie die Registerkarte **Beziehungen**.
+1. Wählen Sie die Registerkarte **Verknüpfte Anfragen**.
 
 1. Klicken Sie auf **Neue Beziehung**.
 
@@ -117,11 +116,11 @@ Sie können eine Beziehung an den folgenden Stellen hinzufügen:
 
 1. Klicken Sie mit der rechten Maustaste auf die Anfrage, von der aus Sie eine Beziehung erstellen möchten.
 
-1. Wählen Sie **Beziehungen** aus dem Kontextmenü.
+1. Wählen Sie **Verknüpfen** aus dem Kontextmenü.
 
 1. Befolgen Sie die Schritte 4-9 oben, um die Beziehung abzuschließen.
 
-![Kontextmenü mit Beziehungen-Option -screenshot][img4]
+![Kontextmenü mit Verknüpfen-Option -screenshot][img4]
 
 ## Neue Anfrage als Beziehung erstellen
 
@@ -137,7 +136,7 @@ Anstatt eine Verknüpfung zu einer vorhandenen Anfrage herzustellen, können Sie
 
 ## <a id="delete"></a>Anfragebeziehung entfernen
 
-1. Öffnen Sie die Anfrage und wählen Sie die Registerkarte **Beziehungen**.
+1. Öffnen Sie die Anfrage und wählen Sie die Registerkarte **Verknüpfte Anfragen**.
 
 1. Finden Sie die Beziehung, die Sie entfernen möchten.
 
@@ -185,7 +184,6 @@ Die Schaltfläche **Beziehung entfernen** ist nur aktiv, wenn Sie genau eine Bez
 [4]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-relations-archive.png
+[img1]: ../../../media/loc/en/request/request-relations-list.png
 [img2]: ../../../media/loc/en/request/request-relations-tree.png
-[img3]: ../../../media/loc/en/request/request-relations-perspective.png
 [img4]: ../../../media/loc/en/request/request-relations-context-menu.png

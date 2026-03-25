@@ -4,7 +4,7 @@ title: Request relations
 description: Learn how to link related requests together using parent, child, and related relationships to better track and manage connected issues in SuperOffice Service.
 keywords: request relations, link requests, parent request, child request, related requests, Add relation
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 category: service
@@ -52,11 +52,11 @@ When one request must be resolved before another can be completed, link them usi
 
 ## View request relations
 
-When a request has one or more relations, you can view them on the **Relations** tab of the Request screen.
+When a request has one or more relations, you can view them on the **Related requests** tab of the Request screen.
 
-### List view (archive)
+### List view
 
-The default view shows relations as a list with the following columns:
+Click <i class="ph ph-list" aria-label="List view"></i> to display relations as a list (default). The list view shows the following columns:
 
 * Request ID
 * Title
@@ -64,26 +64,25 @@ The default view shows relations as a list with the following columns:
 * Owner
 * Status
 * Relation type
+* Comment
 
 ![Request relations in list view -screenshot][img1]
 
 ### Tree view
 
-Click **Tree view** to display relations in a hierarchical structure, making parent-child relationships easier to visualize:
+Click <i class="ph ph-graph" aria-label="Tree view"></i> to display relations in a hierarchical structure, making parent-child relationships easier to visualize:
 
 ![Request relations in tree view -screenshot][img2]
 
 > [!TIP]
-> The **Relations** tab displays an orange indicator when the request has one or more relations, making it easy to identify linked requests at a glance.
+> The **Related requests** tab displays an orange indicator when the request has one or more relations, making it easy to identify linked requests at a glance.
 
 ### Different perspectives
 
 Relations are bidirectional. Both requests in the relation display the connection:
 
-* If Request A is a **parent** of Request B, then Request B will show Request A as its parent
-* If Request A is **related** to Request B, then Request B will show it is related to Request A
-
-![Same relation viewed from the related request -screenshot][img3]
+* If Request A is a **parent** of Request B, then Request B will show Request A as its parent.
+* If Request A is **related** to Request B, then Request B will show it is related to Request A.
 
 ## <a id="add"></a>Add request relation
 
@@ -93,9 +92,9 @@ You can add a relation from the following locations:
 
 1. Open the request you want to link.
 
-1. Select the **Relations** tab.
+1. Select the **Related requests** tab.
 
-1. Click **New relation**.
+1. Click **Add relation**.
 
 1. In the **Relation type** field, select **Related**, **Parent**, or **Child**.
 
@@ -117,11 +116,11 @@ You can add a relation from the following locations:
 
 1. Right-click the request you want to create a relation from.
 
-1. Select **Relations** from the context menu.
+1. Select **Relate** from the context menu.
 
 1. Follow steps 4-9 above to complete the relation.
 
-![Context menu showing Relations option -screenshot][img4]
+![Context menu showing Relate option -screenshot][img4]
 
 ## Create new request as relation
 
@@ -137,7 +136,7 @@ Instead of linking to an existing request, you can create a new request while es
 
 ## <a id="delete"></a>Remove request relation
 
-1. Open the request and select the **Relations** tab.
+1. Open the request and select the **Related requests** tab.
 
 1. Find the relation you want to remove.
 
@@ -185,7 +184,6 @@ The **Remove relation** button is only active when you have selected exactly one
 [4]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-relations-archive.png
+[img1]: ../../../media/loc/en/request/request-relations-list.png
 [img2]: ../../../media/loc/en/request/request-relations-tree.png
-[img3]: ../../../media/loc/en/request/request-relations-perspective.png
 [img4]: ../../../media/loc/en/request/request-relations-context-menu.png

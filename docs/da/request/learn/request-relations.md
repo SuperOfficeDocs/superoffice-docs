@@ -4,7 +4,7 @@ title: Sagsrelationer
 description: Lær hvordan du kan sammenkæde relaterede sager ved hjælp af overordnede, underordnede og relaterede relationer for bedre at spore og administrere forbundne problemer i SuperOffice Service.
 keywords: sagsrelationer, sammenkæde sager, overordnet sag, underordnet sag, relaterede sager
 author: digitaldiina
-date: 04.07.2026
+date: 04.08.2026
 version: 11.12
 content_type: howto
 category: service
@@ -52,11 +52,11 @@ Når en sag skal løses, før en anden kan afsluttes, skal du sammenkæde dem ve
 
 ## Vis sagsrelationer
 
-Når en sag har en eller flere relationer, kan du se dem i fanen **Relationer** på sagsskærmbilledet.
+Når en sag har en eller flere relationer, kan du se dem i fanen **Relaterede sager** på sagsskærmbilledet.
 
-### Arkivvisning
+### Listevisning
 
-Standardvisningen viser relationer som en liste med følgende kolonner:
+Klik på <i class="ph ph-list" aria-label="Listevisning"></i> for at vise relationer som en liste (standard). Arkivvisningen viser følgende kolonner:
 
 * Sags-id
 * Titel
@@ -64,26 +64,25 @@ Standardvisningen viser relationer som en liste med følgende kolonner:
 * Ejer
 * Status
 * Relationstype
+* Kommentar
 
 ![Sagsrelationer i listevisning -screenshot][img1]
 
 ### Trævisning
 
-Klik på **Trævisning** for at vise relationer i en hierarkisk struktur, så overordnede og underordnede relationer bliver lettere at visualisere:
+Klik på <i class="ph ph-graph" aria-label="Trævisning"></i> for at vise relationer i en hierarkisk struktur, så overordnede og underordnede relationer bliver lettere at visualisere:
 
 ![Sagsrelationer i trævisning -screenshot][img2]
 
 > [!TIP]
-> Fanen **Relationer** viser en orange indikator, når sagen har en eller flere relationer, så det er nemt at identificere linkede sager med et blik.
+> Fanen **Relaterede sager** viser en orange indikator, når sagen har en eller flere relationer, så det er nemt at identificere linkede sager med et blik.
 
 ### Forskellige perspektiver
 
 Relationer er tovejs. Begge sager i relationen viser forbindelsen:
 
-* Hvis Sag A er **overordnet** for Sag B, vil Sag B vise Sag A som sin overordnede
-* Hvis Sag A er **relateret** til Sag B, vil Sag B vise, at den er relateret til Sag A
-
-![Den samme relation set fra den relaterede sag -screenshot][img3]
+* Hvis Sag A er **overordnet** for Sag B, vil Sag B vise Sag A som sin overordnede.
+* Hvis Sag A er **relateret** til Sag B, vil Sag B vise, at den er relateret til Sag A.
 
 ## <a id="add"></a>Tilføj sagsrelation
 
@@ -93,7 +92,7 @@ Du kan tilføje en relation fra følgende placeringer:
 
 1. Åbn den sag, du vil sammenkæde.
 
-1. Vælg fanen **Relationer**.
+1. Vælg fanen **Relaterede sager**.
 
 1. Klik på **Ny relation**.
 
@@ -117,11 +116,11 @@ Du kan tilføje en relation fra følgende placeringer:
 
 1. Højreklik på den sag, du vil oprette en relation fra.
 
-1. Vælg **Relationer** fra kontekstmenuen.
+1. Vælg **Relater** fra kontekstmenuen.
 
 1. Følg trin 4-9 ovenfor for at fuldføre relationen.
 
-![Kontekstmenu med tilvalg for Relationer -screenshot][img4]
+![Kontekstmenu med tilvalg for Relater -screenshot][img4]
 
 ## Opret ny sag som relation
 
@@ -137,7 +136,7 @@ I stedet for at sammenkæde til en eksisterende sag kan du oprette en ny sag, me
 
 ## <a id="delete"></a>Fjern sagsrelation
 
-1. Åbn sagen og vælg fanen **Relationer**.
+1. Åbn sagen og vælg fanen **Relaterede sager**.
 
 1. Find den relation, du vil fjerne.
 
@@ -185,7 +184,6 @@ Knappen **Fjern relation** er kun aktiv, når du har valgt nøjagtigt én relati
 [4]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/request/request-relations-archive.png
+[img1]: ../../../media/loc/en/request/request-relations-list.png
 [img2]: ../../../media/loc/en/request/request-relations-tree.png
-[img3]: ../../../media/loc/en/request/request-relations-perspective.png
 [img4]: ../../../media/loc/en/request/request-relations-context-menu.png
