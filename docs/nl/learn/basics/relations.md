@@ -4,8 +4,8 @@ title: Bedrijfs- en persoonsrelaties in SuperOffice CRM
 description: Leer hoe u relaties tussen bedrijven en personen kunt bekijken, toevoegen en beheren in SuperOffice CRM, om complexe bedrijfsverbindingen en aangepaste relaties eenvoudiger bij te houden.
 keywords: relatie toevoegen, relatie verwijderen, relatie, verbinding, persoon, contact, bedrijf
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 04.07.2026
+version: 11.12
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

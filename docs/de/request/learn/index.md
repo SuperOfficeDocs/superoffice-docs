@@ -4,8 +4,8 @@ title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: digitaldiina
-date: 03.25.2026
-version: 11.10
+date: 04.07.2026
+version: 11.12
 content_type: concept
 license: serviceessentials
 audience: person

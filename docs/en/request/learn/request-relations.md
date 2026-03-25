@@ -4,8 +4,8 @@ title: Request relations
 description: Learn how to link related requests together using parent, child, and related relationships to better track and manage connected issues in SuperOffice Service.
 keywords: request relations, link requests, parent request, child request, related requests, Add relation
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 04.07.2026
+version: 11.12
 content_type: howto
 category: service
 topic: request

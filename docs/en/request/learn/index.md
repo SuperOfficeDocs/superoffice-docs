@@ -4,8 +4,8 @@ title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
 author: digitaldiina
-date: 03.25.2026
-version: 11.10
+date: 04.07.2026
+version: 11.12
 content_type: concept
 license: serviceessentials
 audience: person
