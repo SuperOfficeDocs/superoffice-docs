@@ -3,7 +3,7 @@ uid: help-da-service-settings
 title: Systemindstillinger
 description: Systemindstillinger
 keywords: Tjeneste
-author: Bergfrid Dias, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5
 content_type: reference

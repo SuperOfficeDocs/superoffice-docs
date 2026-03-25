@@ -3,7 +3,7 @@ uid: help-nl-service-settings
 title: Systeeminstellingen
 description: Systeeminstellingen
 keywords: Service
-author: Bergfrid Dias, digitaldiina
+author: digitaldiina
 date: 03.25.2026
 version: 10.5.2
 content_type: reference
