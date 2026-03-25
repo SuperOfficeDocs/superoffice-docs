@@ -79,8 +79,7 @@ Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mø
 1. Højreklik, og vælg **Slet**.
 1. Bekræft eller annuller sletningen i bekræftelsesdialogboksen.
 
-> [!NOTE]
-> Du kan slette møder oprettet i Outlook eller Gmail i SuperOffice, når de er mere end 7 dage gamle.
+Du kan slette møder oprettet i Outlook eller Gmail i SuperOffice, når de er mere end 7 dage gamle.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

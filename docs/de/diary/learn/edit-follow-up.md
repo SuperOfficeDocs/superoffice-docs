@@ -79,8 +79,7 @@ Wenn Sie die Startzeit für eine einzelne Instanz ändern, bleibt die Regel unbe
 1. Klicken Sie mit der rechten Maustaste und wählen Sie **Löschen**.
 1. Wählen Sie **Ja**, um die Löschung zu bestätigen, oder **Nein**, um die Folgeaufgabe beizubehalten.
 
-> [!NOTE]
-> Sie können Besprechungen, die in Outlook oder Gmail erstellt wurden, in SuperOffice löschen, sobald sie älter als 7 Tage sind.
+Sie können Besprechungen, die in Outlook oder Gmail erstellt wurden, in SuperOffice löschen, sobald sie älter als 7 Tage sind.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

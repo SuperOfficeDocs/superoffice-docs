@@ -79,8 +79,7 @@ If you change the start time for a single meeting, the rule is not affected. The
 1. Right-click and choose **Delete**.
 1. Choose **Yes** to confirm the deletion or **No** to keep the follow-up in the confirmation dialog.
 
-> [!NOTE]
-> You can delete meetings created in Outlook or Gmail in SuperOffice once they are more than 7 days old.
+You can delete meetings created in Outlook or Gmail in SuperOffice once they are more than 7 days old.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

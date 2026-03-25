@@ -79,8 +79,7 @@ Om du ändrar starttiden för ett enskilt möte påverkas inte återkomstregeln.
 1. Högerklicka och välj **Ta bort**.
 1. Bekräfta borttagningen genom att välja **Ja**, eller välj **Nej** för att behålla händelsen.
 
-> [!NOTE]
-> Du kan ta bort möten som skapats i Outlook eller Gmail i SuperOffice när de är mer än 7 dagar gamla.
+Du kan ta bort möten som skapats i Outlook eller Gmail i SuperOffice när de är mer än 7 dagar gamla.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

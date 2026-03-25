@@ -79,8 +79,7 @@ Als u de starttijd van een enkele vergadering wijzigt, heeft dit geen invloed op
 2. Klik met de rechtermuisknop en kies **Verwijderen**.
 3. Kies **Ja** om de verwijdering te bevestigen of **Nee** om de vervolgactiviteit te behouden.
 
-> [!NOTE]
-> U kunt vergaderingen die zijn gemaakt in Outlook of Gmail in SuperOffice verwijderen zodra ze meer dan 7 dagen oud zijn.
+U kunt vergaderingen die zijn gemaakt in Outlook of Gmail in SuperOffice verwijderen zodra ze meer dan 7 dagen oud zijn.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
