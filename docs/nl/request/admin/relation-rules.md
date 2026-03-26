@@ -28,14 +28,6 @@ Een relatieregel bestaat uit:
 * **Voorwaarde:** voor welke verzoektypen de regel van toepassing is (bron en ontvanger).
 * **Gedrag:** wat er automatisch gebeurt wanneer overeenkomende verzoeken worden aangemaakt of gesloten.
 
-## Voorbeeld: Incidentbeheer
-
-Een grote servicestoring genereert meerdere individuele probleemmeldingen van getroffen klanten. Elk klantrapport wordt geregistreerd als een onderliggend verzoek, gekoppeld aan een gedeeld incident als het bovenliggende verzoek.
-
-* **Voorkomen dat bovenliggende wordt gesloten als nog niet alle onderliggende verzoeken zijn gesloten** — houdt het incident open totdat elke probleemmelding is afgehandeld, zodat niets over het hoofd wordt gezien.
-* **Aanbieden om bovenliggende te sluiten als alle onderliggende verzoeken worden gesloten** — wanneer de laatste probleemmelding is opgelost, wordt de agent gevraagd ook het incident te sluiten.
-* **Aanbieden om onderliggende verzoeken te sluiten en bericht te sturen als bovenliggende wordt gesloten** — wanneer het incident is opgelost, kan de agent alle resterende onderliggende verzoeken tegelijk sluiten en elke getroffen klant rechtstreeks antwoorden dat het probleem is verholpen.
-
 ## Waar vind ik relatieregels?
 
 Selecteer in **Instellingen en onderhoud** de optie **Verzoeken** in de navigator en ga naar het tabblad **Relatieregels**.
@@ -102,6 +94,16 @@ De samenvattingsregel onder de voorwaarde bevestigt de volledige reikwijdte van 
 1. Selecteer in het tabblad **Relatieregels** de regel in de lijst aan de linkerkant.
 
 1. Klik op de knop **Verwijderen** onderaan de lijst.
+
+## Voorbeeld: Incidentbeheer
+
+Een grote servicestoring genereert meerdere individuele probleemmeldingen van getroffen klanten. Elk klantrapport wordt geregistreerd als een onderliggend verzoek, gekoppeld aan een gedeeld incident als het bovenliggende verzoek.
+
+* **Voorkomen dat bovenliggende wordt gesloten als nog niet alle onderliggende verzoeken zijn gesloten:** houdt het incident open totdat elke probleemmelding is afgehandeld, zodat niets over het hoofd wordt gezien.
+
+* **Aanbieden om bovenliggende te sluiten als alle onderliggende verzoeken worden gesloten:** wanneer de laatste probleemmelding is opgelost, wordt de agent gevraagd ook het incident te sluiten.
+
+* **Aanbieden om onderliggende verzoeken te sluiten en bericht te sturen als bovenliggende wordt gesloten:** wanneer het incident is opgelost, kan de agent alle resterende onderliggende verzoeken tegelijk sluiten en elke getroffen klant rechtstreeks antwoorden dat het probleem is verholpen.
 
 ## Gerelateerde inhoud
 

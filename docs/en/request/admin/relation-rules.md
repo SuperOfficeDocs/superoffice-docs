@@ -28,14 +28,6 @@ A relation rule consists of:
 * **Condition:** which request types the rule applies to (source and target).
 * **Behaviors:** what happens automatically when matched requests are created or closed.
 
-## Example: Incident management
-
-A major service outage generates multiple individual problem reports from affected customers. Each customer report is registered as a child request linked to a shared incident as the parent.
-
-* **Prevent parent closure until all child requests are closed** — keeps the incident open until every problem report has been handled, ensuring nothing is overlooked.
-* **Offer to close parent when all child requests are closed** — when the last problem report is resolved, the agent is prompted to close the incident.
-* **Offer to close children and send message when parent is closed** — when the incident is resolved, the agent can close all remaining child requests at once and reply to each affected customer directly, informing them the issue has been fixed.
-
 ## Where to find relation rules
 
 In Settings and maintenance, select **Requests** in the navigator and go to the **Relation rules** tab.
@@ -102,6 +94,16 @@ The summary line below the condition confirms the full scope of the rule in plai
 1. In the **Relation rules** tab, select the rule in the list on the left.
 
 1. Click the **Delete** button at the bottom of the list.
+
+## Example: Incident management
+
+A major service outage generates multiple individual problem reports from affected customers. Each customer report is registered as a child request linked to a shared incident as the parent.
+
+* **Prevent parent closure until all child requests are closed:** keeps the incident open until every problem report has been handled, ensuring nothing is overlooked.
+
+* **Offer to close parent when all child requests are closed:** when the last problem report is resolved, the agent is prompted to close the incident.
+
+* **Offer to close children and send message when parent is closed:** when the incident is resolved, the agent can close all remaining child requests at once and reply to each affected customer directly, informing them the issue has been fixed.
 
 ## Related content
 

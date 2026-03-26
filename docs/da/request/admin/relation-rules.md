@@ -28,14 +28,6 @@ En relationsregel består af:
 * **Betingelse:** hvilke sagstyper reglen gælder for (kilde og mål).
 * **Adfærd:** hvad der sker automatisk, når matchende sager oprettes eller lukkes.
 
-## Eksempel: Hændelsesstyring
-
-Et stort serviceudfald genererer flere individuelle problemrapporter fra berørte kunder. Hver kunderapport registreres som en underordnet sag knyttet til en fælles hændelse som den overordnede sag.
-
-* **Bloker for lukning af overordnet sag, indtil alle underordnede er lukket** — holder hændelsen åben, indtil alle problemrapporter er håndteret, og sikrer, at intet overses.
-* **Tilbyd at lukke overordnet sag, når alle underordnede lukkes** — når den sidste problemrapport løses, opfordres agenten til at lukke hændelsen.
-* **Tilbyd at lukke underordnede sager og sende besked, når overordnet lukkes** — når hændelsen er løst, kan agenten lukke alle resterende underordnede sager på én gang og sende et svar til hver berørt kunde om, at problemet er løst.
-
 ## Hvor finder jeg relationsregler?
 
 Gå til **Indstillinger og vedligeholdelse**, vælg **Sager** i navigatoren, og gå til fanen **Relationsregler**.
@@ -102,6 +94,16 @@ Opsummeringslinjen nedenfor betingelsen bekræfter regelens fulde omfang på kla
 1. I fanen **Relationsregler** skal du vælge reglen på listen til venstre.
 
 1. Klik på knappen **Slet** nederst på listen.
+
+## Eksempel: Hændelsesstyring
+
+Et stort serviceudfald genererer flere individuelle problemrapporter fra berørte kunder. Hver kunderapport registreres som en underordnet sag knyttet til en fælles hændelse som den overordnede sag.
+
+* **Bloker for lukning af overordnet sag, indtil alle underordnede er lukket:** holder hændelsen åben, indtil alle problemrapporter er håndteret, og sikrer, at intet overses.
+
+* **Tilbyd at lukke overordnet sag, når alle underordnede lukkes:** når den sidste problemrapport løses, opfordres agenten til at lukke hændelsen.
+
+* **Tilbyd at lukke underordnede sager og sende besked, når overordnet lukkes:** når hændelsen er løst, kan agenten lukke alle resterende underordnede sager på én gang og sende et svar til hver berørt kunde om, at problemet er løst.
 
 ## Relateret indhold
 

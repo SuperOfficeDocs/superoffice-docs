@@ -28,14 +28,6 @@ En relasjonsregel består av:
 * **Betingelse:** hvilke sakstyper regelen gjelder for (kilde og mål).
 * **Atferd:** hva som skjer automatisk når saker som oppfyller betingelsen opprettes eller lukkes.
 
-## Eksempel: Insidenthåndtering
-
-Et stort serviceavbrudd genererer flere individuelle problemrapporter fra berørte kunder. Hver kunderapport registreres som en underordnet sak knyttet til en felles insiden som den overordnede saken.
-
-* **Forhindre at den overordnede saken lukkes før alle underordnede saker er lukket** — holder insidenten åpen til alle problemrapporter er håndtert, og sikrer at ingenting overses.
-* **Tilby å lukke overordnet sak når alle underordnede saker lukkes** — når den siste problemrapporten er løst, oppfordres agenten til å lukke insidenten.
-* **Tilby å lukke underordnede saker og sende melding når overordnet sak lukkes** — når insidenten er løst, kan agenten lukke alle gjenværende underordnede saker på én gang og svare direkte til hver berørte kunde om at problemet er løst.
-
 ## Hvor finner jeg relasjonsregler?
 
 Velg **Saker** i navigatoren i **Innstillinger og vedlikehold**, og gå til fanen **Relasjonsregler**.
@@ -102,6 +94,16 @@ Oppsummeringslinjen under betingelsen bekrefter regelens fulle omfang på et kla
 1. I fanen **Relasjonsregler** velger du regelen i listen til venstre.
 
 1. Klikk på knappen **Slett** nederst i listen.
+
+## Eksempel: Insidenthåndtering
+
+Et stort serviceavbrudd genererer flere individuelle problemrapporter fra berørte kunder. Hver kunderapport registreres som en underordnet sak knyttet til en felles insiden som den overordnede saken.
+
+* **Forhindre at den overordnede saken lukkes før alle underordnede saker er lukket:** holder insidenten åpen til alle problemrapporter er håndtert, og sikrer at ingenting overses.
+
+* **Tilby å lukke overordnet sak når alle underordnede saker lukkes:** når den siste problemrapporten er løst, oppfordres agenten til å lukke insidenten.
+
+* **Tilby å lukke underordnede saker og sende melding når overordnet sak lukkes:** når insidenten er løst, kan agenten lukke alle gjenværende underordnede saker på én gang og svare direkte til hver berørte kunde om at problemet er løst.
 
 ## Relatert innhold
 

@@ -28,14 +28,6 @@ En regel för relation består av:
 * **Villkor:** vilka ärendetyper regeln gäller för (källa och mål).
 * **Beteende:** vad som händer automatiskt när matchande ärenden skapas eller stängs.
 
-## Exempel: Incidenthantering
-
-Ett stort serviceavbrott genererar flera enskilda problemrapporter från berörda kunder. Varje kundrapport registreras som ett child-ärende kopplat till en gemensam incident som parent-ärende.
-
-* **Förhindra stängning av parent tills alla underordnade ärenden har stängts** — håller incidenten öppen tills varje problemrapport har hanterats och säkerställer att ingenting förbises.
-* **Erbjudande om att stänga parent när alla underordnade ärenden (child) stängs** — när den sista problemrapporten är löst uppmanas agenten att stänga incidenten.
-* **Erbjudande om att stänga underordnade (child) ärenden och skicka meddelande när parent stängs** — när incidenten är löst kan agenten stänga alla återstående child-ärenden på en gång och svara direkt till varje berörd kund om att problemet är åtgärdat.
-
 ## Var hittar jag regler för relation?
 
 Välj **Ärenden** i navigatorn i **Inställningar och underhåll** och gå till fliken **Regler för relation**.
@@ -102,6 +94,16 @@ Sammanfattningsraden nedanför villkoret bekräftar regelns fulla omfång på et
 1. I fliken **Regler för relation** väljer du regeln i listan till vänster.
 
 1. Klicka på knappen **Ta bort** längst ned i listan.
+
+## Exempel: Incidenthantering
+
+Ett stort serviceavbrott genererar flera enskilda problemrapporter från berörda kunder. Varje kundrapport registreras som ett child-ärende kopplat till en gemensam incident som parent-ärende.
+
+* **Förhindra stängning av parent tills alla underordnade ärenden har stängts:** håller incidenten öppen tills varje problemrapport har hanterats och säkerställer att ingenting förbises.
+
+* **Erbjudande om att stänga parent när alla underordnade ärenden (child) stängs:** när den sista problemrapporten är löst uppmanas agenten att stänga incidenten.
+
+* **Erbjudande om att stänga underordnade (child) ärenden och skicka meddelande när parent stängs:** när incidenten är löst kan agenten stänga alla återstående child-ärenden på en gång och svara direkt till varje berörd kund om att problemet är åtgärdat.
 
 ## Relaterat innehåll
 

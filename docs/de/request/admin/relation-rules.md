@@ -28,14 +28,6 @@ Eine Beziehungsregel besteht aus:
 * **Bedingung:** Für welche Anfragetypen die Regel gilt (Quelle und Empfänger).
 * **Reaktion:** Was automatisch passiert, wenn passende Anfragen erstellt oder geschlossen werden.
 
-## Beispiel: Vorfallverwaltung
-
-Ein größerer Dienstausfall generiert mehrere einzelne Problemberichte von betroffenen Kunden. Jeder Kundenbericht wird als untergeordnete Anfrage erfasst, die mit einem gemeinsamen Vorfall als übergeordnete Anfrage verknüpft ist.
-
-* **Schließen des übergeordneten Objekts verhindern, bis alle untergeordneten Objekte geschlossen sind** — hält den Vorfall offen, bis jeder Problembericht bearbeitet wurde, und stellt sicher, dass nichts übersehen wird.
-* **Schließen des übergeordneten Objekts anbieten, wenn alle untergeordneten Objekte (Child) geschlossen werden** — wenn der letzte Problembericht gelöst ist, wird der Agent aufgefordert, den Vorfall zu schließen.
-* **Schließen der untergeordneten Objekte (Child) anbieten und Nachricht senden, wenn das übergeordnete Objekt geschlossen wird** — wenn der Vorfall gelöst ist, kann der Agent alle noch offenen untergeordneten Anfragen auf einmal schließen und eine Antwortnachricht zu jeder hinzufügen, die an die jeweiligen Empfänger gesendet wird.
-
 ## Wo finde ich Beziehungsregeln?
 
 Wählen Sie **Anfragen** im Navigator in **Einstellungen und Verwaltung** und wechseln Sie zur Registerkarte **Beziehungsregeln**.
@@ -102,6 +94,16 @@ Die Zusammenfassungszeile unterhalb der Bedingung bestätigt den vollständigen 
 1. In der Registerkarte **Beziehungsregeln** wählen Sie die Regel in der Liste auf der linken Seite.
 
 1. Klicken Sie auf die Schaltfläche **Löschen** am unteren Ende der Liste.
+
+## Beispiel: Vorfallverwaltung
+
+Ein größerer Dienstausfall generiert mehrere einzelne Problemberichte von betroffenen Kunden. Jeder Kundenbericht wird als untergeordnete Anfrage erfasst, die mit einem gemeinsamen Vorfall als übergeordnete Anfrage verknüpft ist.
+
+* **Schließen des übergeordneten Objekts verhindern, bis alle untergeordneten Objekte geschlossen sind:** hält den Vorfall offen, bis jeder Problembericht bearbeitet wurde, und stellt sicher, dass nichts übersehen wird.
+
+* **Schließen des übergeordneten Objekts anbieten, wenn alle untergeordneten Objekte (Child) geschlossen werden:** wenn der letzte Problembericht gelöst ist, wird der Agent aufgefordert, den Vorfall zu schließen.
+
+* **Schließen der untergeordneten Objekte (Child) anbieten und Nachricht senden, wenn das übergeordnete Objekt geschlossen wird:** wenn der Vorfall gelöst ist, kann der Agent alle noch offenen untergeordneten Anfragen auf einmal schließen und eine Antwortnachricht zu jeder hinzufügen, die an die jeweiligen Empfänger gesendet wird.
 
 ## Verwandte Inhalte
 
