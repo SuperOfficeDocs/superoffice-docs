@@ -10,6 +10,8 @@ items:
     href: type/create.md
   - name: Slett sakstype
     href: type/delete.md
+- name: Relasjonsregler
+  href: relation-rules.md
 - name: Kategorier
   topicHref: category/index.md
   items:

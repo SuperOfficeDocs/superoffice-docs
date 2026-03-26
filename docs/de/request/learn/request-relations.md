@@ -52,7 +52,7 @@ Wenn eine Anfrage gelöst werden muss, bevor eine andere abgeschlossen werden ka
 
 ## Anfragebeziehungen anzeigen
 
-Wenn eine Anfrage eine oder mehrere Beziehungen hat, können Sie diese auf der Registerkarte **Verknüpfte Anfragen** im Anfragebild sehen.
+Wenn eine Anfrage eine oder mehrere Beziehungen hat, können Sie diese auf der Registerkarte **Verknüpfte Anfragen** im Anfragebildschirm sehen.
 
 ### Listenansicht
 
@@ -88,7 +88,7 @@ Beziehungen sind bidirektional. Beide Anfragen in der Beziehung zeigen die Verbi
 
 Sie können eine Beziehung an den folgenden Stellen hinzufügen:
 
-### Vom Anfragebild aus
+### Vom Anfragebildschirm aus
 
 1. Öffnen Sie die Anfrage, die Sie verknüpfen möchten.
 

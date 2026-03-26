@@ -10,6 +10,8 @@ items:
     href: type/create.md
   - name: Ta bort ärendetyp
     href: type/delete.md
+- name: Regler för relation
+  href: relation-rules.md
 - name: Kategorier
   topicHref: category/index.md
   items:

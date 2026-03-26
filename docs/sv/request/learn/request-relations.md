@@ -52,7 +52,7 @@ När ett ärende måste lösas innan ett annat kan slutföras, länka dem med en
 
 ## Visa ärenderelationer
 
-När ett ärende har en eller flera relationer kan du se dem på fliken **Relaterade ärenden** på ärendeskärmen.
+När ett ärende har en eller flera relationer kan du se dem på fliken **Relaterade ärenden** på ärendeskärmbilden.
 
 ### Listvy
 
@@ -88,7 +88,7 @@ Relationer är dubbelriktade. Båda ärenden i relationen visar anslutningen:
 
 Du kan lägga till en relation från följande platser:
 
-### Från ärendeskärmen
+### Från ärendeskärmbilden
 
 1. Öppna det ärende du vill länka.
 
