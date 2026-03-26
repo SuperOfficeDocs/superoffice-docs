@@ -70,7 +70,7 @@ Klik på <i class="ph ph-list" aria-label="Listevisning"></i> for at vise relati
 
 ### Trævisning
 
-Klik på <i class="ph ph-graph" aria-label="Trævisning"></i> for at vise relationer i en hierarkisk struktur, så overordnede og underordnede relationer bliver lettere at visualisere:
+Klik på <i class="ph ph-tree-structure" aria-label="Trævisning"></i> for at vise relationer i en hierarkisk struktur, så overordnede og underordnede relationer bliver lettere at visualisere:
 
 ![Sagsrelationer i trævisning -screenshot][img2]
 

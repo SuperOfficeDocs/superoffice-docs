@@ -70,7 +70,7 @@ Click <i class="ph ph-list" aria-label="List view"></i> to display relations as 
 
 ### Tree view
 
-Click <i class="ph ph-graph" aria-label="Tree view"></i> to display relations in a hierarchical structure, making parent-child relationships easier to visualize:
+Click <i class="ph ph-tree-structure" aria-label="Tree view"></i> to display relations in a hierarchical structure, making parent-child relationships easier to visualize:
 
 ![Request relations in tree view -screenshot][img2]
 

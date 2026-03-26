@@ -70,7 +70,7 @@ Klicka på <i class="ph ph-list" aria-label="Listvy"></i> för att visa relation
 
 ### Trädvy
 
-Klicka på <i class="ph ph-graph" aria-label="Trädvy"></i> för att visa relationer i en hierarkisk struktur, vilket gör överordnade och underordnade relationer lättare att visualisera:
+Klicka på <i class="ph ph-tree-structure" aria-label="Trädvy"></i> för att visa relationer i en hierarkisk struktur, vilket gör överordnade och underordnade relationer lättare att visualisera:
 
 ![Ärenderelationer i trädvy -screenshot][img2]
 

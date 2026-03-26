@@ -70,7 +70,7 @@ Klicken Sie auf <i class="ph ph-list" aria-label="Listenansicht"></i> um Beziehu
 
 ### Baumansicht
 
-Klicken Sie auf <i class="ph ph-graph" aria-label="Baumansicht"></i> um Beziehungen in einer hierarchischen Struktur anzuzeigen, was übergeordnete und untergeordnete Beziehungen einfacher zu visualisieren macht:
+Klicken Sie auf <i class="ph ph-tree-structure" aria-label="Baumansicht"></i> um Beziehungen in einer hierarchischen Struktur anzuzeigen, was übergeordnete und untergeordnete Beziehungen einfacher zu visualisieren macht:
 
 ![Anfragebeziehungen in Baumansicht -screenshot][img2]
 

@@ -70,7 +70,7 @@ Klik op <i class="ph ph-list" aria-label="Lijstweergave"></i> om relaties als ee
 
 ### Boomstructuurweergave
 
-Klik op <i class="ph ph-graph" aria-label="Boomstructuurweergave"></i> om relaties in een hiërarchische structuur weer te geven, waardoor bovenliggende-onderliggende relaties gemakkelijker te visualiseren zijn:
+Klik op <i class="ph ph-tree-structure" aria-label="Boomstructuurweergave"></i> om relaties in een hiërarchische structuur weer te geven, waardoor bovenliggende-onderliggende relaties gemakkelijker te visualiseren zijn:
 
 ![Verzoekrelaties in boomstructuurweergave -screenshot][img2]
 
