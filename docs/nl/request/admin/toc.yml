@@ -10,6 +10,8 @@ items:
     href: type/create.md
   - name: Verzoektype verwijderen
     href: type/delete.md
+- name: Relatieregels
+  href: relation-rules.md
 - name: Categorieën
   topicHref: category/index.md
   items:

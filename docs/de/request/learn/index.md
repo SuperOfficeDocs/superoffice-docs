@@ -4,14 +4,14 @@ title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: digitaldiina
-date: 03.25.2026
-version: 11.3
+date: 04.08.2026
+version: 11.12
 content_type: concept
 license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
-redirect_from: 
+redirect_from:
   - /de/request/learn/screen/index
   - /de/request/learn/screen/ticket-log
 ---
@@ -49,6 +49,7 @@ Der Ansicht Anfrage enthält folgende Abschnitte:
 * Unter der Kopfzeile befindet sich eine Zeile mit Schaltflächen für Aufgaben im Zusammenhang mit Anfragen, wie Antworten, Allen antworten, Weiterleiten und Kommentar hinzufügen.
 * Auf der Registerkarte **Nachrichten** werden die mit der Anfrage verknüpften Nachrichten angezeigt.
 * Die Registerkarte **Details** enthält eine Übersicht über die für die Anfrage erfassten Daten.
+* Die Registerkarte **Beziehungen** zeigt [verknüpfte Anfragen][21] (übergeordnet, untergeordnet oder verwandt).
 * Die Registerkarte **Änderungsprotokoll** enthält den Verlauf dieser Anfrage. Das Anfrageprotokoll zeigt den Verlauf dieser Anfrage seit der ersten Erfassung.
 
 ### Kopfzeile der Anfrage
@@ -254,6 +255,7 @@ Einige Einstellungen, die Support-Agenten betreffen, umfassen:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md

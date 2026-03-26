@@ -3,9 +3,9 @@ uid: help-en-request-type
 title: Request type
 description: Request type
 keywords: request type, Request types tab, type, request
-author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: concept
 license: servicepremium
 audience: settings
@@ -54,6 +54,7 @@ The finance team utilizes requests to manage incoming invoice claims, necessitat
 
 * [Create request type][1]
 * [Delete request type][2]
+* [Relation rules][6]
 
 <!-- Referenced links -->
 [1]: create.md
@@ -61,5 +62,6 @@ The finance team utilizes requests to manage incoming invoice claims, necessitat
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md
+[6]: ../relation-rules.md
 
 <!-- Referenced images -->

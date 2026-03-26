@@ -3,9 +3,9 @@ uid: help-no-request-create
 title: Opprette en sak
 description: Opprette en sak
 keywords: opprett sak, legg til sak, ny sak, saksdetaljer, melding, sak
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -34,7 +34,7 @@ En sak kan komme inn i systemet via en e-post fra kunden, eller du kan registrer
     * Velg **Sakstype**, **Status**, **Eier**, **Kategori**, **Prioritet** og andre egenskaper.
 
     > [!NOTE]
-    > Sakstypen påvirker standardverdier, samt tilgjengelige statuser og prioriteringer.
+    > Sakstypen påvirker standardverdier, samt tilgjengelige statuser og prioriteringer. Hvis en [relasjonsregel][20] krever at en overordnet sak er angitt for denne typen, må du angi en overordnet sak før du lagrer.
 
 1. Gå til fanen **Meldinger** for å skrive inn saksmeldingen:
 
@@ -154,6 +154,7 @@ Autolagringsfunksjonen aktiveres som standard når du viser og redigerer saker o
 * [Bruke emneknagger i saker][4]
 * [Malvariabler][18]
 * [Opprette svarmal][19]
+* [Saksrelasjoner][21]
 
 <!-- Refererte lenker -->
 [2]: reply.md#reply-templ
@@ -165,6 +166,8 @@ Autolagringsfunksjonen aktiveres som standard når du viser og redigerer saker o
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md
 [19]: ../../knowledge-base/learn/reply-templates/index.md
+[20]: ../admin/relation-rules.md
+[21]: request-relations.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/request/create-request.png

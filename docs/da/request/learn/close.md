@@ -3,9 +3,9 @@ uid: help-da-request-close
 title: Luk en sag
 description: Sådan lukker du en eller flere sager i SuperOffice.
 keywords: luk sag, indstil status lukket, lukket, masseopdatering, sag
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina, kirstiaa
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -21,6 +21,9 @@ At lukke en sag betyder at ændre dens [status][5] til *Lukket*.
 ## Luk en enkelt sag
 
 Efter at have [besvaret sagen][3], skal du vælge **Lukket** i feltet **Status** i egenskabspanelet.
+
+> [!NOTE]
+> Hvis en relationsregel gælder for denne sagstype, kan lukning være blokeret eller udløse yderligere prompter — f.eks. ved at forhindre lukning, indtil alle undersager er løst, eller ved at tilbyde at lukke [relaterede sager][7] og svare til deres kontaktpersoner.
 
 ## Luk flere sager med masseopdatering
 
@@ -71,6 +74,7 @@ Du kan hurtigt lukke flere sager ved at indstille feltet **Status** til *Lukket*
 [4]: find.md
 [5]: ../admin/status/index.md
 [6]: ../../search-options/selection/learn/create.md
+[7]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

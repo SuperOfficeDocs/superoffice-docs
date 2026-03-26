@@ -3,9 +3,9 @@ uid: help-de-request-type
 title: Anfragetyp
 description: Anfragetyp
 keywords: Anfragetyp, Anfragetypliste, Typ, Anfrage
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: concept
 license: servicepremium
 audience: settings
@@ -54,10 +54,12 @@ Das Finanzteam nutzt Anfragen zur Verwaltung eingehender Rechnungsansprüche und
 
 * [Anfragetyp erstellen][1]
 * [Anfragetyp löschen][2]
+* [Beziehungsregeln][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

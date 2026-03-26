@@ -21,6 +21,8 @@ items:
   href: forward.md
 - name: Antwort an Kunde
   href: reply.md
+- name: Anfragebeziehungen
+  href: request-relations.md
 - name: Tags
   href: tags.md
 - name: Nachrichten nachverfolgen

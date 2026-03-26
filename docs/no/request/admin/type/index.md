@@ -3,9 +3,9 @@ uid: help-no-request-type
 title: Sakstype
 description: Sakstype
 keywords: sakstype, fanen Sakstyper, type, sak
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: concept
 license: servicepremium
 audience: settings
@@ -54,10 +54,12 @@ Hovedfordelen med sakstyper er effektiv kundestøtte. En spesifikk sakstype tilp
 
 * [Legg til sakstype][1]
 * [Slett sakstype][2]
+* [Relasjonsregler][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

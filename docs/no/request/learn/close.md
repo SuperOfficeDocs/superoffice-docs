@@ -3,9 +3,9 @@ uid: help-no-request-close
 title: Avslutte en sak
 description: Hvordan avslutte én eller flere saker i SuperOffice.
 keywords: avslutte sak, lukke sak, sett status til avsluttet, lukket, masseredigering, sak
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.2
+author: digitaldiina, kirstiaa
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -21,6 +21,9 @@ redirect_from: /no/request/learn/howto/close
 ## Avslutte én sak
 
 Etter at du har [svart på saken][3], velger du **Avsluttet** i **Status**-feltet i sidepanelet **Egenskaper for sak**.
+
+> [!NOTE]
+> Hvis en relasjonsregel gjelder for denne sakstypen, kan lukking være blokkert eller utløse ytterligere meldinger — for eksempel ved å forhindre lukking til alle underordnede saker er løst, eller ved å tilby å lukke [relaterte saker][7] og svare til deres kontakter.
 
 ## Avslutte flere saker med masseredigering
 
@@ -71,6 +74,7 @@ Du kan raskt avslutte flere saker samtidig ved å sette **Status**-feltet til *A
 [4]: find.md
 [5]: ../admin/status/index.md
 [6]: ../../search-options/selection/learn/create.md
+[7]: request-relations.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

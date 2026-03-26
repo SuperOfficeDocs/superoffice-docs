@@ -4,8 +4,8 @@ title: Systemeinstellungen
 description: Systemeinstellungen
 keywords: Service
 author: digitaldiina
-date: 03.25.2026
-version: 10.5.2
+date: 04.08.2026
+version: 11.12
 content_type: reference
 license: serviceessentials
 audience: settings
@@ -22,6 +22,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 ## Worüber möchten Sie mehr erfahren?
 
 * [Anfragetypen][9]
+* [Beziehungsregeln][17]
 * [Rollen][12]
 * [Benutzer][13]
 * [Verfügbarkeitsstatus][7]
@@ -44,6 +45,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[17]: relation-rules.md
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md

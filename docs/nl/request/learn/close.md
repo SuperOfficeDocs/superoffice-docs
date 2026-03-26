@@ -3,9 +3,9 @@ uid: help-nl-request-close
 title: Een verzoek sluiten
 description: Hoe u één of meerdere verzoeken in SuperOffice kunt sluiten.
 keywords: verzoek sluiten, status instellen op gesloten, gesloten, bulk update, verzoek
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina, kirstiaa
+date: 04.08.2026
+version: 11.12
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -20,6 +20,9 @@ Een verzoek sluiten betekent de [status][5] wijzigen naar *Gesloten*.
 ## Eén verzoek sluiten
 
 Na het [beantwoorden van het verzoek][3], selecteert u **Gesloten** in het veld **Status** in de zijbalk.
+
+> [!NOTE]
+> Als er een relatieregel van toepassing is op dit verzoektype, kan het sluiten worden geblokkeerd of aanvullende meldingen activeren — bijvoorbeeld door sluiting te voorkomen totdat alle onderliggende verzoeken zijn opgelost, of door aan te bieden [gerelateerde verzoeken][7] te sluiten en te antwoorden aan hun contactpersonen.
 
 ## Meerdere verzoeken sluiten met Bulk update
 
@@ -70,6 +73,7 @@ U kunt meerdere verzoeken snel sluiten door de **Status** in de **Bulk update**-
 [4]: find.md
 [5]: ../admin/status/index.md
 [6]: ../../search-options/selection/learn/create.md
+[7]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

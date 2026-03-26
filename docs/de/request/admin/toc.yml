@@ -10,6 +10,8 @@ items:
     href: type/create.md
   - name: Anfragetyp löschen
     href: type/delete.md
+- name: Beziehungsregeln
+  href: relation-rules.md
 - name: Kategorien
   topicHref: category/index.md
   items:
