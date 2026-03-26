@@ -3,9 +3,9 @@ uid: help-de-request-close
 title: Anfrage schließen
 description: So schließen Sie eine oder mehrere Anfragen in SuperOffice.
 keywords: Anfrage schließen, Status auf geschlossen setzen, geschlossen, Massenaktualisierung, Anfrage
-author: Bergfrid Dias, kirstiaa
-date: 02.14.2025
-version: 10.5.1
+author: digitaldiina, kirstiaa
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -21,6 +21,9 @@ Eine Anfrage zu schließen bedeutet, ihren [Status][5] auf *Geschlossen* zu setz
 ## Eine Anfrage schließen
 
 Nachdem Sie [auf die Anfrage geantwortet haben][3], wählen Sie im **Status**-Feld in den Seiteneigenschaften **Geschlossen** aus.
+
+> [!NOTE]
+> Wenn eine Beziehungsregel für diesen Anfragetyp gilt, kann das Schließen blockiert sein oder zusätzliche Aufforderungen auslösen — zum Beispiel, indem das Schließen verhindert wird, bis alle untergeordneten Anfragen gelöst sind, oder indem angeboten wird, [verknüpfte Anfragen][7] zu schließen und deren Kontakten zu antworten.
 
 ## Mehrere Anfragen mit Massenaktualisierung schließen
 
@@ -71,6 +74,7 @@ Sie können mehrere Anfragen schnell schließen, indem Sie im Dialog **Massenakt
 [4]: find.md
 [5]: ../admin/status/index.md
 [6]: ../../search-options/selection/learn/create.md
+[7]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

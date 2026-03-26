@@ -3,9 +3,9 @@ uid: help-sv-request-create
 title: Skapa ett ärende
 description: Skapa ett ärende
 keywords: skapa ärende, nytt ärende, ärende
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -34,7 +34,7 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
     * Välj **Ärendetyp**, **Status**, **Ägare**, **Kategori**, **Prioritet** och andra egenskaper.
 
     > [!NOTE]
-    > Ärendetypen påverkar standardvärden och tillgängliga statusar och prioriteringar.
+    > Ärendetypen påverkar standardvärden och tillgängliga statusar och prioriteringar. Om en [regel för relation][20] kräver att en parent har angetts för den här typen måste du ange ett parent-ärende innan du sparar.
 
 1. Gå till panelen **Meddelanden** för att skriva meddelandet för ärendet:
 
@@ -154,6 +154,7 @@ Funktionen autospara aktiveras som standard när du visar och redigerar ärenden
 * [Använda taggar i ärenden][4]
 * [Mallvariabler för svarsmallar][18]
 * [Skapa svarsmall][19]
+* [Ärenderelationer][21]
 
 <!-- Referenced links -->
 [2]: reply.md#reply-templ
@@ -165,6 +166,8 @@ Funktionen autospara aktiveras som standard när du visar och redigerar ärenden
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md
 [19]: ../../knowledge-base/learn/reply-templates/index.md
+[20]: ../admin/relation-rules.md
+[21]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png

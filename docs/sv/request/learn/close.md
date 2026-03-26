@@ -3,9 +3,9 @@ uid: help-sv-request-close
 title: Stänga ett ärende
 description: Så här stänger du ett eller flera ärenden i SuperOffice.
 keywords: stäng ärende, sätt status stängt, stängt, massuppdatering, ärende
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina, kirstiaa
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -21,6 +21,9 @@ Att stänga ett ärende innebär att ändra dess [status][5] till **Stängt**.
 ## Stäng ett enskilt ärende
 
 Efter att du har [svarat på ärendet][3] väljer du **Stängt** i fältet **Status** i sidopanelen.
+
+> [!NOTE]
+> Om en regel för relation gäller för den här ärendetypen kan stängning vara blockerad eller utlösa ytterligare uppmaningar — till exempel genom att förhindra stängning tills alla underordnade ärenden är lösta, eller genom att erbjuda att stänga [relaterade ärenden][7] och svara till deras kontakter.
 
 ## Stäng flera ärenden med massuppdatering
 
@@ -71,6 +74,7 @@ Du kan snabbt stänga flera ärenden genom att ställa in fältet **Status** på
 [4]: find.md
 [5]: ../admin/status/index.md
 [6]: ../../search-options/selection/learn/create.md
+[7]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

@@ -3,9 +3,9 @@ uid: help-da-request-create
 title: Opret en sag
 description: Lær, hvordan du opretter en ny sag i SuperOffice.
 keywords: opret sag, ny sag, sagsdetaljer, sagsegenskaber, meddelelse, sagsbehandling
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -34,7 +34,7 @@ En sag kan komme ind i systemet via en e-mail fra kunden, eller du kan registrer
     * Vælg **Sagstype**, **Status**, **Ejer**, **Kategori**, **Prioritet** og andre egenskaber.
 
     > [!NOTE]
-    > Sagstypen påvirker standardværdier og tilgængelige statusser og prioriteter.
+    > Sagstypen påvirker standardværdier og tilgængelige statusser og prioriteter. Hvis en [relationsregel][20] kræver, at en overordnet sag er angivet for denne type, skal du angive en overordnet sag, inden du gemmer.
 
 1. Gå til fanen **Meddelelser** for at skrive selve sagen:
 
@@ -154,6 +154,7 @@ Funktionen er som standard aktiveret ved visning og redigering af sager samt ved
 * [Brug af tags i sager][4]
 * [Svarskabelon-variabler][18]
 * [Opret svarskabelon][19]
+* [Sagsrelationer][21]
 
 <!-- Referenced links -->
 [2]: reply.md#reply-templ
@@ -165,6 +166,8 @@ Funktionen er som standard aktiveret ved visning og redigering af sager samt ved
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md
 [19]: ../../knowledge-base/learn/reply-templates/index.md
+[20]: ../admin/relation-rules.md
+[21]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png

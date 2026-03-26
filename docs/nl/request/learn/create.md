@@ -3,9 +3,9 @@ uid: help-nl-request-create
 title: Een verzoek maken
 description: Een verzoek maken
 keywords: verzoek aanmaken, verzoek toevoegen, nieuw verzoek, verzoek eigenschappen, verzoekdetails, bericht
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: howto
 license: serviceessentials
 audience: person
@@ -34,7 +34,7 @@ Een verzoek kan in het systeem worden ontvangen via een e-mail van de klant, of 
     * Selecteer **Verzoektype**, **Status**, **Eigenaar**, **Categorie**, **Prioriteit** en andere eigenschappen.
 
     > [!NOTE]
-    > Het verzoektype bepaalt de standaardwaarden en beschikbare statussen en prioriteiten.
+    > Het verzoektype bepaalt de standaardwaarden en beschikbare statussen en prioriteiten. Als een [relatieregel][20] vereist dat er een bovenliggend verzoek is ingesteld voor dit type, moet u een bovenliggend verzoek opgeven voordat u opslaat.
 
 1. Ga naar het tabblad **Berichten** om het verzoekbericht op te stellen:
 
@@ -154,6 +154,7 @@ De functie Automatisch opslaan is standaard geactiveerd wanneer u verzoeken beki
 * [Labels gebruiken in verzoeken][4]
 * [Sjabloonvariabelen voor antwoordsjablonen][18]
 * [Antwoordsjabloon maken][19]
+* [Verzoekrelaties][21]
 
 <!-- Referenced links -->
 [2]: reply.md#reply-templ
@@ -165,6 +166,8 @@ De functie Automatisch opslaan is standaard geactiveerd wanneer u verzoeken beki
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md
 [19]: ../../knowledge-base/learn/reply-templates/index.md
+[20]: ../admin/relation-rules.md
+[21]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png
