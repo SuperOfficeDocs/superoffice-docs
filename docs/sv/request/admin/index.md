@@ -4,8 +4,8 @@ title: Systeminställningar
 description: Systeminställningar
 keywords: systeminställningar, service
 author: digitaldiina
-date: 03.25.2026
-version: 10.5.2
+date: 04.08.2026
+version: 11.12
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -21,6 +21,7 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 ## Vad vill du veta mer om?
 
 * [Ärendetyper][9]
+* [Regler för relation][17]
 * [Roller][12]
 * [Användare][13]
 * [Tillgänglighetsstatus][7]
@@ -43,6 +44,7 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[17]: relation-rules.md
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md

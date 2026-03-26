@@ -4,8 +4,8 @@ title: System settings
 description: System settings
 keywords: Service
 author: digitaldiina
-date: 03.25.2026
-version: 10.5
+date: 04.08.2026
+version: 11.12
 content_type: reference
 license: serviceessentials
 audience: settings
@@ -22,6 +22,7 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 ## Hva vil du lære mer om?
 
 * [Sakstyper][9]
+* [Relasjonsregler][17]
 * [Roller][12]
 * [Brukere][13]
 * [Tilgjengelighetsstatus][7]
@@ -44,6 +45,7 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[17]: relation-rules.md
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md

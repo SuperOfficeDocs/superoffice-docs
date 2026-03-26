@@ -176,12 +176,14 @@ Die Schaltfläche **Beziehung entfernen** ist nur aktiv, wenn Sie genau eine Bez
 * [Anfragen zusammenführen][1]
 * [Bereichsregisterkarte Anfragen][3]
 * [Firmen- und Personenbeziehungen][4]
+* [Beziehungsregeln][5] (Einstellungen und Verwaltung)
 
 <!-- Referenced links -->
 [1]: merge.md
 [2]: split-request.md
 [3]: ../../learn/section-tabs/requests-tab.md
 [4]: ../../learn/basics/relations.md
+[5]: ../admin/relation-rules.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-relations-list.png

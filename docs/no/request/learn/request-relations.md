@@ -176,12 +176,14 @@ Knappen **Fjern relasjon** er kun aktiv når du har valgt nøyaktig én relasjon
 * [Slå sammen saker][1]
 * [Detaljkort for Saker][3]
 * [Firma- og personrelasjoner][4]
+* [Relasjonsregler][5] (Innstillinger og vedlikehold)
 
 <!-- Referenced links -->
 [1]: merge.md
 [2]: split-request.md
 [3]: ../../learn/section-tabs/requests-tab.md
 [4]: ../../learn/basics/relations.md
+[5]: ../admin/relation-rules.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-relations-list.png

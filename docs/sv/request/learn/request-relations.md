@@ -176,12 +176,14 @@ Knappen **Ta bort relation** är endast aktiv när du har valt exakt en relation
 * [Slå samman ärenden][1]
 * [Detaljkort för Ärenden][3]
 * [Företags- och personrelationer][4]
+* [Regler för relation][5] (Inställningar och underhåll)
 
 <!-- Referenced links -->
 [1]: merge.md
 [2]: split-request.md
 [3]: ../../learn/section-tabs/requests-tab.md
 [4]: ../../learn/basics/relations.md
+[5]: ../admin/relation-rules.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-relations-list.png

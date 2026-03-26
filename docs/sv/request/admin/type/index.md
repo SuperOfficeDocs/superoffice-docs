@@ -3,9 +3,9 @@ uid: help-sv-request-type
 title: Ärendetyp
 description: Lär dig mer om ärendetyper i SuperOffice Service.
 keywords: ärendetyp, ärendetyper, fliken Ärendetyper, typ, ärende
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 04.08.2026
+version: 11.12
 content_type: concept
 license: servicepremium
 audience: settings
@@ -54,10 +54,12 @@ Finansteamet använder ärenden för att hantera inkommande fakturakrav och krä
 
 * [Skapa ärendetyp][1]
 * [Ta bort ärendetyp][2]
+* [Regler för relation][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

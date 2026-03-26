@@ -4,8 +4,8 @@ title: Systeeminstellingen
 description: Systeeminstellingen
 keywords: Service
 author: digitaldiina
-date: 03.25.2026
-version: 10.5.2
+date: 04.08.2026
+version: 11.12
 content_type: reference
 license: serviceessentials
 audience: settings
@@ -22,6 +22,7 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 ## Gerelateerde inhoud
 
 * [Verzoektypes][9]
+* [Relatieregels][17]
 * [Rollen][12]
 * [Gebruikers][13]
 * [Beschikbaarheidsstatus][7]
@@ -44,6 +45,7 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[17]: relation-rules.md
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
