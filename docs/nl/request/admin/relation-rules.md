@@ -111,7 +111,7 @@ De samenvattingsregel onder de voorwaarde bevestigt de volledige reikwijdte van 
 <!-- Referenced links -->
 [1]: ../learn/request-relations.md
 [2]: type/index.md
-[3]: ../../../customization/screen-designer/admin/index.md
+[3]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/relation-rules.png

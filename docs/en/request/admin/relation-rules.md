@@ -111,7 +111,7 @@ The summary line below the condition confirms the full scope of the rule in plai
 <!-- Referenced links -->
 [1]: ../learn/request-relations.md
 [2]: type/index.md
-[3]: ../../../customization/screen-designer/admin/index.md
+[3]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/relation-rules.png

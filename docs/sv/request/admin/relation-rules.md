@@ -111,7 +111,7 @@ Sammanfattningsraden nedanför villkoret bekräftar regelns fulla omfång på et
 <!-- Referenced links -->
 [1]: ../learn/request-relations.md
 [2]: type/index.md
-[3]: ../../../customization/screen-designer/admin/index.md
+[3]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/relation-rules.png
