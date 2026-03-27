@@ -136,7 +136,7 @@ items:
     parameters: []
     return:
       type: CRMScript.Global.Integer
-      description: "What sort of data does this field contain. See <xref href=\"CRMScript.NetServer.FieldMetadataType\" data-throw-if-not-resolved=\"false\"></xref>."
+      description: "What sort of data does this field contain. See <xref href=\"CRMScript.NetServer.CustomFieldType\" data-throw-if-not-resolved=\"false\"></xref>."
   example: 
   - "\n<pre><code>NSFieldInfoBase thing;\nInteger fieldType = thing.GetFieldType();</code></pre>\n"
 - uid: CRMScript.NetServer.NSFieldInfoBase.GetHideField()
@@ -415,7 +415,7 @@ items:
     parameters:
     - id: fieldType
       type: CRMScript.Global.Integer
-      description: "What sort of data does this field contain. See <xref href=\"CRMScript.NetServer.FieldMetadataType\" data-throw-if-not-resolved=\"false\"></xref>."
+      description: "What sort of data does this field contain. See <xref href=\"CRMScript.NetServer.CustomFieldType\" data-throw-if-not-resolved=\"false\"></xref>."
     return:
       type: CRMScript.Global.Void
   example: 
@@ -658,9 +658,9 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.NetServer.FieldMetadataType
-  commentId: T:CRMScript.NetServer.FieldMetadataType
+- uid: CRMScript.NetServer.CustomFieldType
+  commentId: T:CRMScript.NetServer.CustomFieldType
   isExternal: true
-  name: FieldMetadataType
-  nameWithType: FieldMetadataType
-  fullName: CRMScript.NetServer.FieldMetadataType
+  name: CustomFieldType
+  nameWithType: CustomFieldType
+  fullName: CRMScript.NetServer.CustomFieldType
