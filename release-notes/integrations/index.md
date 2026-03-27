@@ -1,10 +1,10 @@
 ---
 uid: release-notes-integrations
 title: Product integration updates
-description: Release notes. What's new in SuperOffice integrations
+description: Release notes. What's new in SuperOffice Integrations
 keywords: integration, app, appstore
 author: kirstiaa
-date: 03.17.2026
+date: 04.08.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -40,7 +40,11 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 See all the [new or updated apps][2]
 
-* [ConnectERP for Fortnox from SuperOffice AS][44] (01.03.2026)
+* [Synchronizer for SuperOffice][47] from SuperOffice AS (11.03.2026)
+* [SharePoint Documents][46] from SuperOffice AS (19.03.2026)
+* [DataBridge for SuperOffice][45] from SuperOffice AS (16.03.2026)
+* [Oneflow for SuperOffice][33] from Oneflow AB (04.03.2026)
+* [ConnectERP for Fortnox][44] from SuperOffice AS (01.03.2026)
 * [ConnectERP for Business NXT][17] from SuperOffice AS (24.02.2026)
 * [ConnectERP for Tripletex][19] from SuperOffice AS (24.02.2026)
 * [ConnectERP for Visma Net][16] from SuperOffice AS (24.02.2026)
@@ -51,7 +55,6 @@ See all the [new or updated apps][2]
 * [Business NXT by Syncify][37] from Syncify AB (18.12.2025)
 * [Microsoft Business Central by Syncify][38] from Syncify AB (18.12.2025)
 * [SalesScreen Integration][34] from SalesScreen (12.12.2025)
-* [Oneflow for SuperOffice][33] from Oneflow AB (09.12.2025)
 * [Activity folders for SuperOffice][39] from SuperOffice AS (01.12.2025)
 * [Panels for SuperOffice][35] from SuperOffice AS (01.12.2025)
 * [Exact for SuperOffice][31] from All-CRM (25.11.2025)
@@ -117,5 +120,8 @@ See all the [new or updated apps][2]
 [42]: https://appstore.superoffice.com/leadx/leadx-360
 [43]: ../../integrations/supernotes/index.md
 [44]: https://appstore.superoffice.com/superoffice-as/connecterp-for-fortnox
+[45]: https://appstore.superoffice.com/superoffice-as/databridge-for-superoffice
+[46]: https://appstore.superoffice.com/superoffice-as/sharepoint-documents
+[47]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 
 <!-- Referenced images -->
