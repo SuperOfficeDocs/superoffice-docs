@@ -161,7 +161,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `RecalculateDays(Int32)`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
