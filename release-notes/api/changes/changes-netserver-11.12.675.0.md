@@ -76,7 +76,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_TICKET_RELATION_SAME_SOURCE_DESTINATION`
   * Field `SR_TICKET_RELATION_TEXT`
 
-
 ### Assembly: SoDatabase
 
 ### Deleted Types
