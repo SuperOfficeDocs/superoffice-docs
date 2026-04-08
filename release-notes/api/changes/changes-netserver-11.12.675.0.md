@@ -128,7 +128,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Deleted items
   * Method `GetUsageStatsTableInfo()`
 
-
 ### Assembly: SoDatabase.BusinessLogic
 
 ### Deleted Types
