@@ -15,4 +15,3 @@ The following represent changes to the core Web API assembly.
 
 The following represent changes to Web API authorization assemblies.
 
-
