@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.ExportArchive
   children:
   - SuperOffice.ExportArchive.TicketBatchPluginBase.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.ExportArchive.TicketBatchPluginBase})
+  - SuperOffice.ExportArchive.TicketBatchPluginBase.PluginNameClose
   - SuperOffice.ExportArchive.TicketBatchPluginBase.PluginNameForward
   - SuperOffice.ExportArchive.TicketBatchPluginBase.PluginNameReply
   langs:
@@ -95,6 +96,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const PluginNameReply As String = "TicketReply"
+- uid: SuperOffice.ExportArchive.TicketBatchPluginBase.PluginNameClose
+  commentId: F:SuperOffice.ExportArchive.TicketBatchPluginBase.PluginNameClose
+  id: PluginNameClose
+  parent: SuperOffice.ExportArchive.TicketBatchPluginBase
+  langs:
+  - csharp
+  - vb
+  name: PluginNameClose
+  nameWithType: TicketBatchPluginBase.PluginNameClose
+  fullName: SuperOffice.ExportArchive.TicketBatchPluginBase.PluginNameClose
+  type: Field
+  assemblies:
+  - SoBatchProcessing
+  namespace: SuperOffice.ExportArchive
+  syntax:
+    content: public const string PluginNameClose = "TicketClose"
+    return:
+      type: System.String
+    content.vb: Public Const PluginNameClose As String = "TicketClose"
 - uid: SuperOffice.ExportArchive.TicketBatchPluginBase.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.ExportArchive.TicketBatchPluginBase})
   commentId: M:SuperOffice.ExportArchive.TicketBatchPluginBase.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.ExportArchive.TicketBatchPluginBase})
   id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.ExportArchive.TicketBatchPluginBase})'

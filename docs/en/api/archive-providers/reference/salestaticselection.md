@@ -750,7 +750,7 @@ Static archive Provider for the Selection sale archive.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1348,7 +1348,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelection?$select=person/personRegisteredDate,person/personInterestIds,person/correspondingAssociate/lastName,contact/contactUdef/SuperOffice:5,contact/NumberOfNotCompletedTickets
+GET /api/v1/archive/SaleStaticSelection?$select=currencyId,competitor,hasStakeholders,activeErpLinks,person/personPrivate/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -512,7 +512,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -749,7 +749,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=cautionWarning,contact/email/emailDescription,contact/contactExtra/x_contact_hidden_integer,person/personDirectPhone/description,person/restrictionAddress/city
+GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=contact/postAddress/formattedMultiLineAddress,contact/NumberOfNotCompletedSales,person/personAddress/formattedAddress,person/restrictionAddress/line2,person/restrictionAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

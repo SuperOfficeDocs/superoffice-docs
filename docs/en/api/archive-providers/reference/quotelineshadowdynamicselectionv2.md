@@ -658,7 +658,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
 |alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -776,7 +776,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/description,alternative/reason,alternative/version/sent,alternative/version/quote/sale/person/birthdate,alternative/version/quote/sale/person/isStakeholder
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/quoteAlternativeId,alternative/version/quote/poNumber,alternative/version/quote/sale/person/personAssociate/fullName,alternative/version/quote/sale/contact/streetAddress/city,alternative/version/quote/sale/project/project/infoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

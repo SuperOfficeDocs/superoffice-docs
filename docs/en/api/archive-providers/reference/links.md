@@ -525,7 +525,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/endDate|date|End date: End date of project|  |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
-|project/eventId|int|Project event ID: Project event ID|  |
+|project/eventId|int|Event ID: Event ID|  |
 |project/startDate|date|Start date: Project start date|  |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1329,7 +1329,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
 |nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone|  |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|eventId|int|Project event ID: Project event ID|  |
+|eventId|int|Event ID: Event ID|  |
 |startDate|date|Start date: Project start date|  |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -1533,7 +1533,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=person/mrMrs,person/personActiveErpLinks,person/personCategory,person/personDirectPhone/description,person/email/emailHasBounced
+GET /api/v1/archive/Links?$select=contact/postAddress/line2,contact/contactAssociate/title,contact/contactExtra/x_contact_dropdown,contact/LastSale,person/supportLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

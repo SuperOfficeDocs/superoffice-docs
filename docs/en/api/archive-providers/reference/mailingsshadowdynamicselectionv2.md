@@ -586,7 +586,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -673,7 +673,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/person/personAddress/line1,mailingAddr/person/personAssociate/contactId,emailFlow/workflowAssociate/credentialDisplayValue,project/projectAssociate/credentialType
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/contact/restrictionAddress/line2,mailingAddr/person/email/emailProtocol,mailingAddr/person/personAssociate/ejUserId,emailFlow/workflowSuccessRate,emailFlow/workflowAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

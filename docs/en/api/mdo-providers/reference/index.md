@@ -112,7 +112,7 @@ envir: onsite, online
 | [contact_and_person_freetextsearch_hierarchical](contact_and_person_freetextsearch_hierarchical.md) ||
 | [contact_freetextsearch](contact_freetextsearch.md) |Provider for selecting a Contact - without person search|
 | [contact_new](contact_new.md) |Provider for selecting a Contact - without person search|
-| [contint](contint.md) |MDO list provider for Interests|
+| [contint](contint.md) |GenericMDOProvider reads MDO lists with default settings|
 | [country2](country2.md) |Same as CountryProvider, but with icon hints based on the countrys name.|
 | [createdocumenttemplateplugin](createdocumenttemplateplugin.md) |List of document plugins that can create document templates.|
 | [credentialgroup](credentialgroup.md) |List of user groups supported by a named creditial plugin, sorted by group name.|
@@ -255,7 +255,7 @@ envir: onsite, online
 | [paymenttype](paymenttype.md) |GenericMDOProvider reads MDO lists with default settings|
 | [period](period.md) |Period values: Day, Week, Month, Quarter, Year|
 | [periods](periods.md) |Period values: Day, Week, Month, Quarter, Year|
-| [persint](persint.md) |MDO list provider for PersInt (Person interests)|
+| [persint](persint.md) |GenericMDOProvider reads MDO lists with default settings|
 | [person](person.md) |List of persons from the Archive provider|
 | [personcontactfavourite](personcontactfavourite.md) |MDO list provider for Favourites|
 | [personcontact_freetextsearch](personcontact_freetextsearch.md) |Provider for selecting a Person - with contact search|

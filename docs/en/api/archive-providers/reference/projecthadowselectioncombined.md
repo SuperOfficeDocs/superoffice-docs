@@ -47,7 +47,7 @@ Implementation of the provider for the combined selection
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|eventId|int|Project event ID: Project event ID| x |
+|eventId|int|Event ID: Event ID| x |
 |startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -822,7 +822,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombined?$select=appointment/associateId,projectMember/contactAssociate/firstName,projectMember/contactExtra/x_contact_contact_relation
+GET /api/v1/archive/ProjecthadowSelectionCombined?$select=sale/amountInBaseCurrency,selectionId,appointment/appointmentUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

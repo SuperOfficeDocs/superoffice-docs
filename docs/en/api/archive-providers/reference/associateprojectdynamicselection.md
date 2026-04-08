@@ -47,7 +47,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|eventId|int|Project event ID: Project event ID| x |
+|eventId|int|Event ID: Event ID| x |
 |startDate|date|Start date: Project start date| x |
 |projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -88,7 +88,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectDynamicSelection?$select=registeredDate,projectAssociate/fullName
+GET /api/v1/archive/AssociateProjectDynamicSelection?$select=projectAssociate/contactDepartment,projectAssociate/assocName,registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

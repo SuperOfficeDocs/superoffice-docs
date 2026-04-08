@@ -590,7 +590,6 @@ items:
   - SuperOffice.CRM.Rows.UDefFieldGLRow
   - SuperOffice.CRM.Rows.UDefFieldRow
   - SuperOffice.CRM.Rows.URLRow
-  - SuperOffice.CRM.Rows.UsageStatsRow
   - SuperOffice.CRM.Rows.UserAttributeRow
   - SuperOffice.CRM.Rows.UserCandidateRow
   - SuperOffice.CRM.Rows.UserGroupLinkRow

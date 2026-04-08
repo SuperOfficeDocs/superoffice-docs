@@ -2374,12 +2374,6 @@ items:
     name: UnassignedTicketsProvider
   - uid: SuperOffice.CRM.ArchiveLists.UrlExtenderBase
     name: UrlExtenderBase
-  - uid: SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
-    name: UsageStatsExterderBase
-  - uid: SuperOffice.CRM.ArchiveLists.UsageStatsProvider
-    name: UsageStatsProvider
-  - uid: SuperOffice.CRM.ArchiveLists.UsageStatsUsageStatsExtender
-    name: UsageStatsUsageStatsExtender
   - uid: SuperOffice.CRM.ArchiveLists.UserOpenTicketsProvider
     name: UserOpenTicketsProvider
   - uid: SuperOffice.CRM.ArchiveLists.UserPreferenceArchiveHelper
@@ -4547,8 +4541,6 @@ items:
     name: DBC.UDefFieldGLFields
   - uid: SuperOffice.CRM.Data.DBC.URLFields
     name: DBC.URLFields
-  - uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-    name: DBC.UsageStatsFields
   - uid: SuperOffice.CRM.Data.DBC.UserAttributeFields
     name: DBC.UserAttributeFields
   - uid: SuperOffice.CRM.Data.DBC.UserCandidateFields
@@ -5449,8 +5441,6 @@ items:
     name: UDefFieldTableInfo
   - uid: SuperOffice.CRM.Data.URLTableInfo
     name: URLTableInfo
-  - uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-    name: UsageStatsTableInfo
   - uid: SuperOffice.CRM.Data.UserAttributeTableInfo
     name: UserAttributeTableInfo
   - uid: SuperOffice.CRM.Data.UserCandidateTableInfo
@@ -6207,8 +6197,6 @@ items:
     name: ConsentPurposeProvider
   - uid: SuperOffice.CRM.Lists.ConsentSourceListProvider
     name: ConsentSourceListProvider
-  - uid: SuperOffice.CRM.Lists.ContIntProvider
-    name: ContIntProvider
   - uid: SuperOffice.CRM.Lists.ContactFavouriteListProvider
     name: ContactFavouriteListProvider
   - uid: SuperOffice.CRM.Lists.ContactPhoneProvider
@@ -6487,8 +6475,6 @@ items:
     name: PeriodProvider
   - uid: SuperOffice.CRM.Lists.PeriodsProvider
     name: PeriodsProvider
-  - uid: SuperOffice.CRM.Lists.PersIntProvider
-    name: PersIntProvider
   - uid: SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
     name: PersonContactFavouriteListProvider
   - uid: SuperOffice.CRM.Lists.PersonEmailAddressProvider
@@ -16572,22 +16558,6 @@ items:
     name: URLRows.IdxReservedId2
   - uid: SuperOffice.CRM.Rows.URLRows.IdxUrlAddress
     name: URLRows.IdxUrlAddress
-  - uid: SuperOffice.CRM.Rows.UsageStatsRecordData
-    name: UsageStatsRecordData
-  - uid: SuperOffice.CRM.Rows.UsageStatsRecordDataExtensions
-    name: UsageStatsRecordDataExtensions
-  - uid: SuperOffice.CRM.Rows.UsageStatsRow
-    name: UsageStatsRow
-  - uid: SuperOffice.CRM.Rows.UsageStatsRow.CustomSearch
-    name: UsageStatsRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.UsageStatsRow.IdxUsageStatsId
-    name: UsageStatsRow.IdxUsageStatsId
-  - uid: SuperOffice.CRM.Rows.UsageStatsRows
-    name: UsageStatsRows
-  - uid: SuperOffice.CRM.Rows.UsageStatsRows.CustomSearch
-    name: UsageStatsRows.CustomSearch
-  - uid: SuperOffice.CRM.Rows.UsageStatsRows.IdxAssocId
-    name: UsageStatsRows.IdxAssocId
   - uid: SuperOffice.CRM.Rows.UserAttributeRecordData
     name: UserAttributeRecordData
   - uid: SuperOffice.CRM.Rows.UserAttributeRecordDataExtensions
@@ -17433,6 +17403,8 @@ items:
     name: TicketHelper
   - uid: SuperOffice.CRM.Ticket.TicketOwnerResolver
     name: TicketOwnerResolver
+  - uid: SuperOffice.CRM.Ticket.TicketParentRelationtData
+    name: TicketParentRelationtData
   - uid: SuperOffice.CRM.Ticket.TicketPriorityResolver
     name: TicketPriorityResolver
   - uid: SuperOffice.CRM.Ticket.TicketRelationDefInfo

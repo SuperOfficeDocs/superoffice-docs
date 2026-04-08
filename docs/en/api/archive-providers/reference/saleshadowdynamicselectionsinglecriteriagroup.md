@@ -750,7 +750,7 @@ Shadow contact provider for the dynamic sale provider.
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1343,7 +1343,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=person/personDirectPhone/formattedNumber,person/personPrivate/description,person/personUrl/URLDescription,person/correspondingAssociate/role,contact/LastCompletedTicket
+GET /api/v1/archive/SaleShadowDynamicSelectionSingleCriteriaGroup?$select=date,lossReason,person/personCountryId,person/birthMonth,person/kanaFirstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

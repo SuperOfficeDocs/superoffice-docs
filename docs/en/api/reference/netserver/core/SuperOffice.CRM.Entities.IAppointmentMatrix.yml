@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.BookingType
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.CurrentAppointmentRow
@@ -471,6 +472,40 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Function CalculateDaysAsync(cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync*
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: CalculateDaysAsync(int, CancellationToken)
+  nameWithType: IAppointmentMatrix.CalculateDaysAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Calculate the days according the the recurrence pattern described.  
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: Task CalculateDaysAsync(int maxDates, CancellationToken cancellationToken = default)
+    parameters:
+    - id: maxDates
+      type: System.Int32
+      description: The maximum calculated days the pattern will generate. Limit of 1000.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function CalculateDaysAsync(maxDates As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync*
+  nameWithType.vb: IAppointmentMatrix.CalculateDaysAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CalculateDaysAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   id: CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)

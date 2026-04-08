@@ -30,7 +30,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 | includeStandard | bool |  Include standard fields in result. Default false. |
 
 ```http
-GET /api/v1/Schema/{tableName}?includeStandard=False
+GET /api/v1/Schema/{tableName}?includeStandard=True
 ```
 
 

@@ -210,7 +210,7 @@ Sale histories. Contains all changes to the sale records over time.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
@@ -218,7 +218,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=person/birthdate,associate/assocType,person/birthdate
+GET /api/v1/archive/SaleHistory?$select=type,person/personCategoryGroup,associate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

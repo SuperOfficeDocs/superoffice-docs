@@ -26,7 +26,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
 ```
 
 

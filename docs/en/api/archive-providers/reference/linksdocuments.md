@@ -502,7 +502,7 @@ Link data provider for documents, handles both addressing by source or by destin
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -741,7 +741,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/contactId,contact/postAddress/state,project/LastSale,sale/source,sale/stageName
+GET /api/v1/archive/LinksDocuments?$select=contact/contactPhone/formattedNumber,contact/contactAssociate/contactCategory,contact/contactAssociate/isActive,documentUdef/SuperOffice:5,sale/userGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

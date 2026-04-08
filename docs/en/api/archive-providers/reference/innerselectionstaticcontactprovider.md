@@ -679,7 +679,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=streetAddress/line2,sale/associate/role,appointment/priority,personUdef/SuperOffice:8
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactAssociate/personId,SaintStatus2,targetRelation/who,sale/associate/role,appointment/associate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

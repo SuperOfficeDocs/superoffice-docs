@@ -512,7 +512,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=updatedBy,contact/countryId,contact/contactFax/formattedNumber,contact/contactAssociate/otherGroups,contact/contactExtra/x_contact_timespan
+GET /api/v1/archive/EmailFlowInstances?$select=person/correspondingAssociate/role,contact/email/emailHasBounced,person/personAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

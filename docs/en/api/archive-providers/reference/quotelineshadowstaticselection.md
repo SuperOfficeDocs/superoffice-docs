@@ -663,7 +663,7 @@ Shadow contact provider for the static quoteline provider.
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
 |alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -781,7 +781,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/quote/sale/person/personExtra/x_person_priority_relation,alternative/version/quote/sale/person/correspondingAssociate/ejUserId,alternative/version/quote/sale/contact/registeredByFullName,alternative/version/quote/sale/contact/restrictionAddress/city,alternative/version/quote/sale/project/NumberOfNotCompletedSales
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/quoteVersionId,alternative/version/approvalRegisteredBy,alternative/version/quote/sale/competitor,alternative/version/quote/sale/person/correspondingAssociate/assocTooltip,alternative/version/quote/sale/person/correspondingAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

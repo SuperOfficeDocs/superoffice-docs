@@ -1077,7 +1077,7 @@ Implementation of the provider for the combined selection
 |projectMembers/endDate| *None* |End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
-|projectMembers/eventId| *None* |Project event ID: Project event ID| x |
+|projectMembers/eventId| *None* |Event ID: Event ID| x |
 |projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
 |projectMembers/eventParticipantStatus| *None* |Event status: Event status| x |
@@ -1264,7 +1264,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=updatedBy,appointment/associate/ejUserId,document/document/textId,personCountryId,personAssociateId
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=phone/formattedNumber,LastDoByTicket,sale/associate/locationAddress,appointment/icon,appointment/appointmentUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
