@@ -171,4 +171,3 @@ The following represent changes to SuperOffice database schema.
 
 * `SuperOffice.CD.DSL.Database.T_UsageStats`
 
-
