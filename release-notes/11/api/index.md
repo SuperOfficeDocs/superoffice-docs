@@ -25,7 +25,6 @@ Version 11 of the API reference includes many changes from the v10.5.5 release, 
 * [(11.9)][9]
 * [(11.10)][10]
 * [(11.11)][11]
-
 * [(11.12)][12]
 
 <!-- Referenced links-->
