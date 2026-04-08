@@ -57,7 +57,7 @@ The [learn section][1] contains additional conceptual information and instructio
 [4]: rest-update-custom-object-row.md
 [5]: rest-delete-custom-object-row.md
 [6]: custom-objects-search.md
-[10]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/environmentSettings/src/CustomObjects.http
+[10]: https://github.com/SuperOffice/RESTful-HTTP-Queries/blob/main/src/CustomObjects.http
 
 [11]: set-udef-listitem-value.md
 [12]: get-udef-list-and-values.md
