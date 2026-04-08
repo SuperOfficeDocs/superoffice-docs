@@ -14,7 +14,7 @@ language: en
 
 # New and improved Settings and maintenance
 
-* [Requests - Add Relation rules (11.12)][12]
+* [Requests - Add relation rules (11.12)][12]
 * [Subscription page styling - Change text Unsubscribe and Confirmations pages (11.11)][11]
 * [Marketing - Subscription page styling (11.10)][10]
 * [Marketing - Add new Google fonts to form fonts (11.9)][9]
