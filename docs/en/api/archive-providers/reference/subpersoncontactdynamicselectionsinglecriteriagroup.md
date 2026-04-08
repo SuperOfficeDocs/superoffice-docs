@@ -761,7 +761,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
@@ -1153,7 +1153,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=department,personAddress/line2,correspondingAssociate/role,request/suggestedCategory,request/extra/x_ticket_short_text
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personUrl/URLDescription,personUdef/SuperOffice:10,personExtra/y_rental/y_equipment/x_name,personSourceRelation/personUpdatedBy,correspondingAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

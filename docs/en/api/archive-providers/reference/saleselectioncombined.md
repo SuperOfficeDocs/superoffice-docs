@@ -750,7 +750,7 @@ Implementation of the provider for the combined selection
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1348,7 +1348,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombined?$select=contact/contactAssociate/role,appointment/completedDate,project/projectAssociate/title,saleStakeholder/contact/url/URLDescription,saleStakeholder/contact/contactAssociate/role
+GET /api/v1/archive/SaleSelectionCombined?$select=reopenDate,contact/contactSource,contact/contactExtra/x_contact_request_relation,contact/LastSale,appointment/appointmentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

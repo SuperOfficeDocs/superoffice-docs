@@ -710,7 +710,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -797,7 +797,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=personId,realTimeSpentInternally,person/restrictionAddress/line1,person/correspondingAssociate/locationAddress,contact/restrictionAddress/line2
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=ticketStatusId,messageLanguage,person/updatedByWorkflow,person/restrictionAddress/state,person/personAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

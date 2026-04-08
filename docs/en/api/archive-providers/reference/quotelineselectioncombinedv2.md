@@ -663,7 +663,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
 |alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -781,7 +781,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/person/personAddress/formattedAddress,alternative/version/quote/sale/person/personAssociate/personId,alternative/version/quote/sale/person/personAssociate/contactDepartment,alternative/version/quote/sale/project/projectAssociate/associateDbId
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=alternative/version/quote/sale/contact/hasInfoText,alternative/version/quote/sale/contact/number,alternative/version/quote/sale/person/personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -412,7 +412,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=targetPeriod,targetAssignmentId,contact/restrictionPostalAddress/state,contact/contactSupportAssociate/isActive
+GET /api/v1/archive/TargetValue?$select=associate/usergroupId,contact/contactAssociate/usergroupId,contact/contactSupportPerson/hasStoreConsent,contact/contactSupportPerson/legalBaseEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

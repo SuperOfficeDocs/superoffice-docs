@@ -31,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 

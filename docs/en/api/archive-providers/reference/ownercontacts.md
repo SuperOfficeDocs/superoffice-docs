@@ -368,7 +368,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=streetAddress/city,contactAssociate/usergroup,contactSupportPerson/personId
+GET /api/v1/archive/OwnerContacts?$select=contactSupportAssociate/isActiveText,contactSupportPerson/personNumber,contactSupportPerson/who,contactExtra/x_contact_datetime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

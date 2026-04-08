@@ -495,7 +495,7 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -733,7 +733,7 @@ Document shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=person/restrictionAddress/line2,contact/deletedDate,contact/postAddress/county,contact/contactAssociate/assocName,contact/LastDoByActivity
+GET /api/v1/archive/DocumentShadowDynamicSelectionV2?$select=rowKind,contactId,person/personRegisteredBy,person/personAddress/line2,person/personAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

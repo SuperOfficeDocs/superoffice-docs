@@ -660,7 +660,7 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
@@ -847,7 +847,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personContact/contactAssociate/ejDisplayName,personAppointment/endDate,personAppointment/associate/contactDepartment
+GET /api/v1/archive/Person?$select=lastName,personSourceRelation/hasCompany,personContact/contactAssociate/middleName,personContact/contactAssociate/portraitThumbnail,projectMembers/projectAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

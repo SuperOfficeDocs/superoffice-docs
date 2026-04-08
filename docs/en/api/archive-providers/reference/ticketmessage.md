@@ -721,7 +721,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/endDate|date|Request - End date: End date of project| x |
 |ticket/project/imageThumbnail| *None* |Request - Thumbnail: Scaled-down image of project image|  |
 |ticket/project/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/project/eventId|int|Request - Project event ID: Project event ID| x |
+|ticket/project/eventId|int|Request - Event ID: Event ID| x |
 |ticket/project/startDate|date|Request - Start date: Project start date| x |
 |ticket/project/projectPublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
 |ticket/project/projectPublish/publishedFrom|date|Request - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -876,7 +876,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/person/personAssociate/assocName,ticket/person/correspondingAssociate/lastName,ticket/contact/contactAssociate/contactDepartment,ticket/contact/contactAssociate/usergroup,ticket/sale/stakeholdersEnabled
+GET /api/v1/archive/TicketMessage?$select=ticket/person/personUpdatedBy,ticket/person/correspondingAssociate/middleName,ticket/person/correspondingAssociate/contactName,ticket/person/correspondingAssociate/credentialType,ticket/contact/contactAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

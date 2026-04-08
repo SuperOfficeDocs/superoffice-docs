@@ -663,7 +663,7 @@ Shadow contact provider for the static quoteline prov ider.
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/project/eventId|int|Sale - Project - Project event ID: Project event ID| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
 |alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -781,7 +781,7 @@ Shadow contact provider for the static quoteline prov ider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/version/quote/sale/amountWeighted,alternative/version/quote/sale/stakeholdersEnabled,alternative/version/quote/sale/person/personUpdatedByFullName,alternative/version/quote/sale/person/restrictionAddress/wgs84latitude,alternative/version/quote/sale/contact/name
+GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/version/quote/sale/person/hasInfoText,alternative/version/quote/sale/person/personAssociateFullName,alternative/version/quote/sale/person/correspondingAssociate/contactName,alternative/version/quote/sale/person/withdrawnEmarketingConsent,alternative/version/quote/sale/contact/contactExtra/x_contact_time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -28,7 +28,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=omnis
+GET /api/v1/List/ProductFamily/MDOItems?query=sit
 ```
 
 

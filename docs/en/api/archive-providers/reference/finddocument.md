@@ -493,7 +493,7 @@ Archive provider for finding documents
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -731,7 +731,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/personPager/description,person/personAddress/county,person/personExtra/x_person_boolean,person/personExtra/y_rental/x_contact,contact/email/emailId
+GET /api/v1/archive/FindDocument?$select=person/correspondingAssociate/usergroupId,contact/code,contact/forceCompany,contact/contactUdef/SuperOffice:3,project/saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

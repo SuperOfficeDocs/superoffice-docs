@@ -28,7 +28,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=iusto
+GET /api/v1/List/DocumentTemplate/MDOItems?query=sunt
 ```
 
 

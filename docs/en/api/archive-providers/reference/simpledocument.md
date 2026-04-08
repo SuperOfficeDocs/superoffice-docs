@@ -491,7 +491,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -729,7 +729,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleDocument?$select=person/personUdef/SuperOffice:3,person/personExtra/x_person_time,person/correspondingAssociate/title,person/correspondingAssociate/usergroup,person/correspondingAssociate/isActive
+GET /api/v1/archive/SimpleDocument?$select=person/restrictionAddress/line2,person/correspondingAssociate/title,contact/streetAddress/formattedAddress,contact/contactAssociate/ejUserId,contact/contactExtra/x_contact_contact_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

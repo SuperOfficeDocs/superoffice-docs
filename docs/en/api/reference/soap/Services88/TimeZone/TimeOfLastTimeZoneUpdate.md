@@ -60,7 +60,7 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:TimeZone="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <TimeZone:TimeOfLastTimeZoneUpdateResponse>
-   <TimeZone:Response xsi:type="xsd:dateTime">2026-03-11T01:31:22Z</TimeZone:Response>
+   <TimeZone:Response xsi:type="xsd:dateTime">2026-03-26T12:17:29Z</TimeZone:Response>
   </TimeZone:TimeOfLastTimeZoneUpdateResponse>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

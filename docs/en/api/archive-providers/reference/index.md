@@ -375,7 +375,6 @@ This is a list of all the valid provider names, and the associated column names 
 * [TicketTransferredNotification](TicketTransferredNotification.md)
 * [TimeZones](TimeZones.md)
 * [UnassignedTickets](UnassignedTickets.md)
-* [UsageStats](UsageStats.md)
 * [UserOpenTickets](UserOpenTickets.md)
 * [UserPreferences](UserPreferences.md)
 * [UserPreferenceTable](UserPreferenceTable.md)

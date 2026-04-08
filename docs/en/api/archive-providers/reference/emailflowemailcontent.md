@@ -175,7 +175,7 @@ Lists all email flow message content
 |shipment/project/endDate|date|End date: End date of project| x |
 |shipment/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |shipment/project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|shipment/project/eventId|int|Project event ID: Project event ID| x |
+|shipment/project/eventId|int|Event ID: Event ID| x |
 |shipment/project/startDate|date|Start date: Project start date| x |
 |shipment/project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |shipment/project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -262,7 +262,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/projectUdef/SuperOffice:2,shipment/project/LastDoBySale,shipment/emailFlow/workflowDefinitionStatusId
+GET /api/v1/archive/EmailFlowEmailContent?$select=registeredDate,shipment/mailingSelectionId,shipment/emailFlow/emailFlowHierarchyId,shipment/emailFlow/workflowName,shipment/emailFlow/workflowAssociate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

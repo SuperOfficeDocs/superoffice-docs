@@ -1075,7 +1075,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
@@ -1449,7 +1449,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactAssociate/role,sale/createdByWorkflow,appointment/priority,appointment/associate/assocTooltip,appointment/associate/portraitThumbnail
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=countryId,activeErpLinks,contactAssociate/contactCategory,sourceRelation/companyCategoryRank,sourceRelation/deletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

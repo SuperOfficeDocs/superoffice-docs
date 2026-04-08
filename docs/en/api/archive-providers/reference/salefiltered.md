@@ -563,7 +563,7 @@ Sale archive provider for the Contact/Project card
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -1156,7 +1156,7 @@ Sale archive provider for the Contact/Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleFiltered?$select=person/personCategoryRank,person/email/emailDescription,project/projectAssociate/simultaneousEjUser,saleStakeholder/saleStakeholderId,saleStakeholder/person/portraitThumbnail
+GET /api/v1/archive/SaleFiltered?$select=person/rank,contact/contactAssociate/associateDbId,contact/contactAssociate/userName,contact/contactExtra/x_contact_boolean,saleUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

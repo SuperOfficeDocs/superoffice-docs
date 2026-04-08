@@ -894,7 +894,7 @@ as well as before any ORDER BY, are applied.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|projectMembers/eventId|int|Project event ID: Project event ID| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
@@ -1085,7 +1085,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=mrMrs,personContact/category,personContact/restrictionAddress/wgs84longitude,personContact/contactSupportPerson/lastName,personContact/contactSupportPerson/withdrawnEmarketingConsent
+GET /api/v1/archive/FreetextPerson?$select=personActiveErpLinks,restrictionAddress/city,personTargetRelation/useAsMailingAddress,personTargetRelation/leadstatusRank,personTargetRelation/personPersonRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

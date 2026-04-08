@@ -49,7 +49,7 @@ Project selection archive using the selectionId as criterionmapping.
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|eventId|int|Project event ID: Project event ID| x |
+|eventId|int|Event ID: Event ID| x |
 |startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -825,7 +825,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/fullName,sale/registeredByFullName,projectMember/personNoMail,projectMember/correspondingAssociate/credentialDisplayValue,projectMember/deletedDate
+GET /api/v1/archive/ProjectDynamicSelection?$select=appointment/appointmentUdef/SuperOffice:6,projectMember/birthMonth,projectMember/personAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -49,7 +49,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|eventId|int|Project event ID: Project event ID| x |
+|eventId|int|Event ID: Event ID| x |
 |startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -825,7 +825,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectAssociate/credentialType,sale/date,appointment/associate/portraitThumbnail,projectMember/searchPhone/formattedNumber,projectMember/personExtra/x_person_hidden_integer
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=appointment/appointmentPublish/isPublished,document/updatedByFullName,projectMember/personAssociate/firstName,projectMember/name,projectMember/LastActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

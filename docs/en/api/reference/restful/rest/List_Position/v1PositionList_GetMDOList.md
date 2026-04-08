@@ -28,7 +28,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=sit
+GET /api/v1/List/Position/MDOItems?query=dolor
 ```
 
 

@@ -708,7 +708,7 @@ Shadow contact provider for the ticket provider.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|project/eventId|int|Project event ID: Project event ID| x |
+|project/eventId|int|Event ID: Event ID| x |
 |project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -800,7 +800,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionV2?$select=tags,ownedBy/assocTooltip,person/useAsMailingAddress,person/correspondingAssociate/userName,contact/department
+GET /api/v1/archive/TicketShadowSelectionV2?$select=realTimeToClose,person/searchPhone/formattedNumber,person/email/emailHasBounced,person/personExtra/x_person_timespan,person/personAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
