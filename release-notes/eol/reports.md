@@ -199,16 +199,9 @@ Here is how to preview and fine-tune your reports:
 
 These changes are part of our ongoing effort to modernize the SuperOffice user interface and technology, ensuring you have the best tools for your business needs, and allows us to focus on delivering modern, dynamic reporting options that offer more flexibility and better performance.
 
-## Related information
-
-* Help - [Reports][7]
-* Help - [Reporter studio][6]
-
 <!-- Referenced links -->
 [1]: ../../docs/en/search-options/selection/learn/index.md
 [2]: ../../docs/en/dashboard/learn/index.md
 [3]: ../../docs/en/search-options/selection/learn/howto/print-labels.md
 [4]: ../../docs/en/learn/section-tabs/configure-columns.md#calculate
 [5]: ../../docs/en/learn/basics/print.md
-[6]: https://help.superoffice.com/Documentation/Help/EN/ReporterStudio/7.1/WebHelp/Index.htm
-[7]: https://help.superoffice.com/Documentation/Help/EN/CRM/10.0/UserHelp/index.htm#t=StandardCRM%2Fchap09%2FReports.htm
