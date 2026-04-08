@@ -510,7 +510,6 @@ items:
   - SuperOffice.CRM.Data.DBC.UDefField
   - SuperOffice.CRM.Data.DBC.UDefFieldGL
   - SuperOffice.CRM.Data.DBC.URL
-  - SuperOffice.CRM.Data.DBC.UsageStats
   - SuperOffice.CRM.Data.DBC.UserAttribute
   - SuperOffice.CRM.Data.DBC.UserCandidate
   - SuperOffice.CRM.Data.DBC.UserGroup
@@ -4235,27 +4234,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const ImportDefault As String = "ImportDefault"
-- uid: SuperOffice.CRM.Data.DBC.UsageStats
-  commentId: F:SuperOffice.CRM.Data.DBC.UsageStats
-  id: UsageStats
-  parent: SuperOffice.CRM.Data.DBC
-  langs:
-  - csharp
-  - vb
-  name: UsageStats
-  nameWithType: DBC.UsageStats
-  fullName: SuperOffice.CRM.Data.DBC.UsageStats
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'UsageStats: Usage statistics'
-  example: []
-  syntax:
-    content: public const string UsageStats = "UsageStats"
-    return:
-      type: System.String
-    content.vb: Public Const UsageStats As String = "UsageStats"
 - uid: SuperOffice.CRM.Data.DBC.Role
   commentId: F:SuperOffice.CRM.Data.DBC.Role
   id: Role

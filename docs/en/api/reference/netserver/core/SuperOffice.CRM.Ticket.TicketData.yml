@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketData.CustId
   - SuperOffice.CRM.Ticket.TicketData.FromAddress
   - SuperOffice.CRM.Ticket.TicketData.OwnedBy
+  - SuperOffice.CRM.Ticket.TicketData.Slevel
   - SuperOffice.CRM.Ticket.TicketData.TicketId
   - SuperOffice.CRM.Ticket.TicketData.TicketTypeId
   - SuperOffice.CRM.Ticket.TicketData.Title
@@ -253,6 +254,27 @@ items:
       type: System.String
     content.vb: Public Property FromAddress As String
   overload: SuperOffice.CRM.Ticket.TicketData.FromAddress*
+- uid: SuperOffice.CRM.Ticket.TicketData.Slevel
+  commentId: P:SuperOffice.CRM.Ticket.TicketData.Slevel
+  id: Slevel
+  parent: SuperOffice.CRM.Ticket.TicketData
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: TicketData.Slevel
+  fullName: SuperOffice.CRM.Ticket.TicketData.Slevel
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public TicketSecurityLevel Slevel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketSecurityLevel
+    content.vb: Public Property Slevel As TicketSecurityLevel
+  overload: SuperOffice.CRM.Ticket.TicketData.Slevel*
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -1087,3 +1109,45 @@ references:
   name: FromAddress
   nameWithType: TicketData.FromAddress
   fullName: SuperOffice.CRM.Ticket.TicketData.FromAddress
+- uid: SuperOffice.CRM.Ticket.TicketData.Slevel*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketData.Slevel
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketData.html#SuperOffice_CRM_Ticket_TicketData_Slevel
+  name: Slevel
+  nameWithType: TicketData.Slevel
+  fullName: SuperOffice.CRM.Ticket.TicketData.Slevel
+- uid: SuperOffice.Data.TicketSecurityLevel
+  commentId: T:SuperOffice.Data.TicketSecurityLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketSecurityLevel.html
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.Data.TicketSecurityLevel
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html

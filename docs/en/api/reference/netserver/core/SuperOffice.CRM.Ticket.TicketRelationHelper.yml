@@ -5,15 +5,16 @@ items:
   id: TicketRelationHelper
   parent: SuperOffice.CRM.Ticket
   children:
+  - SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetChildTicketIdsToCloseAsync(System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationDataAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationDefId(System.Int32,System.Int32,SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.InverseRelation(SuperOffice.Data.TicketRelationType)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId(System.Int32,System.ValueTuple{System.Int32,System.Int32,System.Int32})
   - SuperOffice.CRM.Ticket.TicketRelationHelper.UpdateTicketRelationDefIdForTicketRelationAsync(System.Int32)
   langs:
   - csharp
@@ -62,7 +63,7 @@ items:
     If the ticket can be closed, checking maybe it is the last not closed child of another ticket, which based on definition rules should be offered to be closed too.
   example: []
   syntax:
-    content: public static Task<(bool CanCloseTicket, List<int> Children, int TicketIdToClose)> EvaluateTicketRelationActionsAsync(int ticketId, CancellationToken cancellationToken)
+    content: public static Task<(bool CanCloseTicket, List<TicketData> Children, int TicketIdToClose)> EvaluateTicketRelationActionsAsync(int ticketId, CancellationToken cancellationToken)
     parameters:
     - id: ticketId
       type: System.Int32
@@ -71,9 +72,9 @@ items:
       type: System.Threading.CancellationToken
       description: A token to monitor for cancellation requests.
     return:
-      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}}
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}}
       description: 'A tuple containing three elements: boolean which indicates whether the ticket can be closed, a list of child ticket IDs, and an ID of parent ticket if it should be closed.'
-    content.vb: Public Shared Function EvaluateTicketRelationActionsAsync(ticketId As Integer, cancellationToken As CancellationToken) As Task(Of (CanCloseTicket As Boolean, Children As List(Of Integer), TicketIdToClose As Integer))
+    content.vb: Public Shared Function EvaluateTicketRelationActionsAsync(ticketId As Integer, cancellationToken As CancellationToken) As Task(Of (CanCloseTicket As Boolean, Children As List(Of TicketData), TicketIdToClose As Integer))
   overload: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync*
   nameWithType.vb: TicketRelationHelper.EvaluateTicketRelationActionsAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.EvaluateTicketRelationActionsAsync(Integer, System.Threading.CancellationToken)
@@ -134,62 +135,6 @@ items:
   nameWithType.vb: TicketRelationHelper.GetChildTicketIdsToCloseAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetChildTicketIdsToCloseAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetChildTicketIdsToCloseAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo(System.Int32,System.Threading.CancellationToken)
-  id: GetParentRelationInfo(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
-  langs:
-  - csharp
-  - vb
-  name: GetParentRelationInfo(int, CancellationToken)
-  nameWithType: TicketRelationHelper.GetParentRelationInfo(int, CancellationToken)
-  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Ticket
-  syntax:
-    content: public static Task<(int RelationId, int SourceTicketId, int DestinationTicketId)> GetParentRelationInfo(int ticketId, CancellationToken cancellationToken)
-    parameters:
-    - id: ticketId
-      type: System.Int32
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.Int32,System.Int32}}
-    content.vb: Public Shared Function GetParentRelationInfo(ticketId As Integer, cancellationToken As CancellationToken) As Task(Of (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
-  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo*
-  nameWithType.vb: TicketRelationHelper.GetParentRelationInfo(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo(Integer, System.Threading.CancellationToken)
-  name.vb: GetParentRelationInfo(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId(System.Int32,System.ValueTuple{System.Int32,System.Int32,System.Int32})
-  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId(System.Int32,System.ValueTuple{System.Int32,System.Int32,System.Int32})
-  id: ResolveParentId(System.Int32,System.ValueTuple{System.Int32,System.Int32,System.Int32})
-  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
-  langs:
-  - csharp
-  - vb
-  name: ResolveParentId(int, (int RelationId, int SourceTicketId, int DestinationTicketId))
-  nameWithType: TicketRelationHelper.ResolveParentId(int, (int RelationId, int SourceTicketId, int DestinationTicketId))
-  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId(int, (int RelationId, int SourceTicketId, int DestinationTicketId))
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Ticket
-  syntax:
-    content: public static int ResolveParentId(int ticketId, (int RelationId, int SourceTicketId, int DestinationTicketId) parentData)
-    parameters:
-    - id: ticketId
-      type: System.Int32
-    - id: parentData
-      type: System.ValueTuple{System.Int32,System.Int32,System.Int32}
-    return:
-      type: System.Int32
-    content.vb: Public Shared Function ResolveParentId(ticketId As Integer, parentData As (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer)) As Integer
-  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId*
-  nameWithType.vb: TicketRelationHelper.ResolveParentId(Integer, (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
-  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId(Integer, (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
-  name.vb: ResolveParentId(Integer, (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
 - uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   id: GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -333,6 +278,100 @@ items:
   nameWithType.vb: TicketRelationHelper.GetTicketRelationDataAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationDataAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetTicketRelationDataAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: CheckExistingRelationAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckExistingRelationAsync(int, int, int, CancellationToken)
+  nameWithType: TicketRelationHelper.CheckExistingRelationAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task<bool> CheckExistingRelationAsync(int ticketRelationId, int sourceTicketId, int destinationTicketId, CancellationToken cancellationToken)
+    parameters:
+    - id: ticketRelationId
+      type: System.Int32
+    - id: sourceTicketId
+      type: System.Int32
+    - id: destinationTicketId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Shared Function CheckExistingRelationAsync(ticketRelationId As Integer, sourceTicketId As Integer, destinationTicketId As Integer, cancellationToken As CancellationToken) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync*
+  nameWithType.vb: TicketRelationHelper.CheckExistingRelationAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: CheckExistingRelationAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketParentRelationDataAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketParentRelationDataAsync(int, CancellationToken)
+  nameWithType: TicketRelationHelper.GetTicketParentRelationDataAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task<TicketParentRelationtData> GetTicketParentRelationDataAsync(int ticketId, CancellationToken cancellationToken)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketParentRelationtData}
+    content.vb: Public Shared Function GetTicketParentRelationDataAsync(ticketId As Integer, cancellationToken As CancellationToken) As Task(Of TicketParentRelationtData)
+  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync*
+  nameWithType.vb: TicketRelationHelper.GetTicketParentRelationDataAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTicketParentRelationDataAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  id: CheckIfRelationDefinitionForTicketTypesExistsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketRelationHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckIfRelationDefinitionForTicketTypesExistsAsync(int, int, int, TicketRelationType, CancellationToken)
+  nameWithType: TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(int, int, int, TicketRelationType, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(int, int, int, SuperOffice.Data.TicketRelationType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task<(bool Exists, string ExistingName)> CheckIfRelationDefinitionForTicketTypesExistsAsync(int ticketRelationDefId, int sourceTicketTypeId, int destinationTicketTypeId, TicketRelationType relationType, CancellationToken cancellationToken)
+    parameters:
+    - id: ticketRelationDefId
+      type: System.Int32
+    - id: sourceTicketTypeId
+      type: System.Int32
+    - id: destinationTicketTypeId
+      type: System.Int32
+    - id: relationType
+      type: SuperOffice.Data.TicketRelationType
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+    content.vb: Public Shared Function CheckIfRelationDefinitionForTicketTypesExistsAsync(ticketRelationDefId As Integer, sourceTicketTypeId As Integer, destinationTicketTypeId As Integer, relationType As TicketRelationType, cancellationToken As CancellationToken) As Task(Of (Exists As Boolean, ExistingName As String))
+  overload: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync*
+  nameWithType.vb: TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(Integer, Integer, Integer, TicketRelationType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync(Integer, Integer, Integer, SuperOffice.Data.TicketRelationType, System.Threading.CancellationToken)
+  name.vb: CheckIfRelationDefinitionForTicketTypesExistsAsync(Integer, Integer, Integer, TicketRelationType, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -634,17 +673,17 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}}
-  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}}
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<(bool CanCloseTicket, List<int> Children, int TicketIdToClose)>
-  nameWithType: Task<(bool CanCloseTicket, List<int> Children, int TicketIdToClose)>
-  fullName: System.Threading.Tasks.Task<(bool CanCloseTicket, System.Collections.Generic.List<int> Children, int TicketIdToClose)>
-  nameWithType.vb: Task(Of (CanCloseTicket As Boolean, Children As List(Of Integer), TicketIdToClose As Integer))
-  fullName.vb: System.Threading.Tasks.Task(Of (CanCloseTicket As Boolean, Children As System.Collections.Generic.List(Of Integer), TicketIdToClose As Integer))
-  name.vb: Task(Of (CanCloseTicket As Boolean, Children As List(Of Integer), TicketIdToClose As Integer))
+  name: Task<(bool CanCloseTicket, List<TicketData> Children, int TicketIdToClose)>
+  nameWithType: Task<(bool CanCloseTicket, List<TicketData> Children, int TicketIdToClose)>
+  fullName: System.Threading.Tasks.Task<(bool CanCloseTicket, System.Collections.Generic.List<SuperOffice.CRM.Ticket.TicketData> Children, int TicketIdToClose)>
+  nameWithType.vb: Task(Of (CanCloseTicket As Boolean, Children As List(Of TicketData), TicketIdToClose As Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of (CanCloseTicket As Boolean, Children As System.Collections.Generic.List(Of SuperOffice.CRM.Ticket.TicketData), TicketIdToClose As Integer))
+  name.vb: Task(Of (CanCloseTicket As Boolean, Children As List(Of TicketData), TicketIdToClose As Integer))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -657,10 +696,10 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.CanCloseTicket
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}.CanCloseTicket
     name: CanCloseTicket
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.cancloseticket
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-superoffice.crm.ticket.ticketdata-,system.int32-.cancloseticket
   - name: ','
   - name: " "
   - uid: System.Collections.Generic.List`1
@@ -668,16 +707,16 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: System.Int32
-    name: int
+  - uid: SuperOffice.CRM.Ticket.TicketData
+    name: TicketData
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+    href: SuperOffice.CRM.Ticket.TicketData.html
   - name: '>'
   - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.Children
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}.Children
     name: Children
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.children
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-superoffice.crm.ticket.ticketdata-,system.int32-.children
   - name: ','
   - name: " "
   - uid: System.Int32
@@ -685,10 +724,10 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.TicketIdToClose
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}.TicketIdToClose
     name: TicketIdToClose
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.ticketidtoclose
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-superoffice.crm.ticket.ticketdata-,system.int32-.ticketidtoclose
   - name: )
   - name: '>'
   spec.vb:
@@ -700,10 +739,10 @@ references:
   - name: Of
   - name: " "
   - name: (
-  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.CanCloseTicket
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}.CanCloseTicket
     name: CanCloseTicket
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.cancloseticket
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-superoffice.crm.ticket.ticketdata-,system.int32-.cancloseticket
   - name: " "
   - name: As
   - name: " "
@@ -713,10 +752,10 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: ','
   - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.Children
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}.Children
     name: Children
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.children
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-superoffice.crm.ticket.ticketdata-,system.int32-.children
   - name: " "
   - name: As
   - name: " "
@@ -727,17 +766,17 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: System.Int32
-    name: Integer
+  - uid: SuperOffice.CRM.Ticket.TicketData
+    name: TicketData
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+    href: SuperOffice.CRM.Ticket.TicketData.html
   - name: )
   - name: ','
   - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{System.Int32},System.Int32}.TicketIdToClose
+  - uid: System.ValueTuple{System.Boolean,System.Collections.Generic.List{SuperOffice.CRM.Ticket.TicketData},System.Int32}.TicketIdToClose
     name: TicketIdToClose
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-system.int32-,system.int32-.ticketidtoclose
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.collections.generic.list-superoffice.crm.ticket.ticketdata-,system.int32-.ticketidtoclose
   - name: " "
   - name: As
   - name: " "
@@ -937,229 +976,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
   - name: )
-- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo
-  isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_GetParentRelationInfo_System_Int32_System_Threading_CancellationToken_
-  name: GetParentRelationInfo
-  nameWithType: TicketRelationHelper.GetParentRelationInfo
-  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetParentRelationInfo
-- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.Int32,System.Int32}}
-  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Int32,System.Int32,System.Int32}}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<(int RelationId, int SourceTicketId, int DestinationTicketId)>
-  nameWithType: Task<(int RelationId, int SourceTicketId, int DestinationTicketId)>
-  fullName: System.Threading.Tasks.Task<(int RelationId, int SourceTicketId, int DestinationTicketId)>
-  nameWithType.vb: Task(Of (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
-  fullName.vb: System.Threading.Tasks.Task(Of (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
-  name.vb: Task(Of (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer))
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.RelationId
-    name: RelationId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.relationid
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.SourceTicketId
-    name: SourceTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.sourceticketid
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.DestinationTicketId
-    name: DestinationTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.destinationticketid
-  - name: )
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: (
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.RelationId
-    name: RelationId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.relationid
-  - name: " "
-  - name: As
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.SourceTicketId
-    name: SourceTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.sourceticketid
-  - name: " "
-  - name: As
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.DestinationTicketId
-    name: DestinationTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.destinationticketid
-  - name: " "
-  - name: As
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  - name: )
-- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId
-  isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_ResolveParentId_System_Int32_System_ValueTuple_System_Int32_System_Int32_System_Int32__
-  name: ResolveParentId
-  nameWithType: TicketRelationHelper.ResolveParentId
-  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.ResolveParentId
-- uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}
-  commentId: T:System.ValueTuple{System.Int32,System.Int32,System.Int32}
-  parent: System
-  definition: System.ValueTuple`3
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: (int RelationId, int SourceTicketId, int DestinationTicketId)
-  nameWithType: (int RelationId, int SourceTicketId, int DestinationTicketId)
-  fullName: (int RelationId, int SourceTicketId, int DestinationTicketId)
-  nameWithType.vb: (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer)
-  fullName.vb: (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer)
-  name.vb: (RelationId As Integer, SourceTicketId As Integer, DestinationTicketId As Integer)
-  spec.csharp:
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.RelationId
-    name: RelationId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.relationid
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.SourceTicketId
-    name: SourceTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.sourceticketid
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.DestinationTicketId
-    name: DestinationTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.destinationticketid
-  - name: )
-  spec.vb:
-  - name: (
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.RelationId
-    name: RelationId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.relationid
-  - name: " "
-  - name: As
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.SourceTicketId
-    name: SourceTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.sourceticketid
-  - name: " "
-  - name: As
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.DestinationTicketId
-    name: DestinationTicketId
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.destinationticketid
-  - name: " "
-  - name: As
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.ValueTuple`3
-  commentId: T:System.ValueTuple`3
-  name: (T1, T2, T3)
-  nameWithType: (T1, T2, T3)
-  fullName: (T1, T2, T3)
-  spec.csharp:
-  - name: (
-  - name: T1
-  - name: ','
-  - name: " "
-  - name: T2
-  - name: ','
-  - name: " "
-  - name: T3
-  - name: )
-  spec.vb:
-  - name: (
-  - name: T1
-  - name: ','
-  - name: " "
-  - name: T2
-  - name: ','
-  - name: " "
-  - name: T3
-  - name: )
 - uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync
   isExternal: true
@@ -1342,4 +1158,111 @@ references:
     name: TicketRelationtData
     isExternal: true
     href: SuperOffice.CRM.Ticket.TicketRelationtData.html
+  - name: )
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_CheckExistingRelationAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: CheckExistingRelationAsync
+  nameWithType: TicketRelationHelper.CheckExistingRelationAsync
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckExistingRelationAsync
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_GetTicketParentRelationDataAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTicketParentRelationDataAsync
+  nameWithType: TicketRelationHelper.GetTicketParentRelationDataAsync
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketParentRelationtData}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.TicketParentRelationtData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketParentRelationtData>
+  nameWithType: Task<TicketParentRelationtData>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Ticket.TicketParentRelationtData>
+  nameWithType.vb: Task(Of TicketParentRelationtData)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Ticket.TicketParentRelationtData)
+  name.vb: Task(Of TicketParentRelationtData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Ticket.TicketParentRelationtData
+    name: TicketParentRelationtData
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketParentRelationtData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Ticket.TicketParentRelationtData
+    name: TicketParentRelationtData
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.TicketParentRelationtData.html
+  - name: )
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_CheckIfRelationDefinitionForTicketTypesExistsAsync_System_Int32_System_Int32_System_Int32_SuperOffice_Data_TicketRelationType_System_Threading_CancellationToken_
+  name: CheckIfRelationDefinitionForTicketTypesExistsAsync
+  nameWithType: TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.CheckIfRelationDefinitionForTicketTypesExistsAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.Boolean,System.String}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(bool, string)>
+  nameWithType: Task<(bool, string)>
+  fullName: System.Threading.Tasks.Task<(bool, string)>
+  nameWithType.vb: Task(Of (Boolean, String))
+  fullName.vb: System.Threading.Tasks.Task(Of (Boolean, String))
+  name.vb: Task(Of (Boolean, String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
   - name: )

@@ -38,7 +38,6 @@ items:
   - SuperOffice.CRM.Lists.ColorIndexProvider
   - SuperOffice.CRM.Lists.ConsentPurposeProvider
   - SuperOffice.CRM.Lists.ConsentSourceListProvider
-  - SuperOffice.CRM.Lists.ContIntProvider
   - SuperOffice.CRM.Lists.ContactFavouriteListProvider
   - SuperOffice.CRM.Lists.ContactPhoneProvider
   - SuperOffice.CRM.Lists.Country2Provider
@@ -178,7 +177,6 @@ items:
   - SuperOffice.CRM.Lists.OwnerContactProvider
   - SuperOffice.CRM.Lists.PeriodProvider
   - SuperOffice.CRM.Lists.PeriodsProvider
-  - SuperOffice.CRM.Lists.PersIntProvider
   - SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
   - SuperOffice.CRM.Lists.PersonEmailAddressProvider
   - SuperOffice.CRM.Lists.PersonFavouriteListProvider
@@ -731,13 +729,6 @@ references:
   name: SaleListProviderOrg
   nameWithType: SaleListProviderOrg
   fullName: SuperOffice.CRM.Lists.SaleListProviderOrg
-- uid: SuperOffice.CRM.Lists.ContIntProvider
-  commentId: T:SuperOffice.CRM.Lists.ContIntProvider
-  isExternal: true
-  href: SuperOffice.CRM.Lists.ContIntProvider.html
-  name: ContIntProvider
-  nameWithType: ContIntProvider
-  fullName: SuperOffice.CRM.Lists.ContIntProvider
 - uid: SuperOffice.CRM.Lists.CountryProvider
   commentId: T:SuperOffice.CRM.Lists.CountryProvider
   parent: SuperOffice.CRM.Lists
@@ -1493,13 +1484,6 @@ references:
   name: PeriodProvider
   nameWithType: PeriodProvider
   fullName: SuperOffice.CRM.Lists.PeriodProvider
-- uid: SuperOffice.CRM.Lists.PersIntProvider
-  commentId: T:SuperOffice.CRM.Lists.PersIntProvider
-  isExternal: true
-  href: SuperOffice.CRM.Lists.PersIntProvider.html
-  name: PersIntProvider
-  nameWithType: PersIntProvider
-  fullName: SuperOffice.CRM.Lists.PersIntProvider
 - uid: SuperOffice.CRM.Lists.PersonEmailAddressProvider
   commentId: T:SuperOffice.CRM.Lists.PersonEmailAddressProvider
   isExternal: true

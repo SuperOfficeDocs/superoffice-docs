@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.Clear
   - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.GetCachedKeys(System.String)
   - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.IdsCached
+  - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose
   - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.QueriesCached
   - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.SetCachedKeys(System.String,System.String,System.Collections.Generic.List{System.Int32})
   langs:
@@ -76,6 +77,25 @@ items:
   nameWithType.vb: PhaseOneQueryCacher.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose
+  commentId: M:SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose
+  id: InstanceDispose
+  parent: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher
+  langs:
+  - csharp
+  - vb
+  name: InstanceDispose()
+  nameWithType: PhaseOneQueryCacher.InstanceDispose()
+  fullName: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public void InstanceDispose()
+    content.vb: Public Sub InstanceDispose()
+  overload: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose*
 - uid: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.GetCachedKeys(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.GetCachedKeys(System.String)
   id: GetCachedKeys(System.String)
@@ -941,6 +961,13 @@ references:
   nameWithType.vb: PhaseOneQueryCacher.New
   fullName.vb: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.New
   name.vb: New
+- uid: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.html#SuperOffice_CRM_ArchiveLists_PhaseOneQueryCacher_InstanceDispose
+  name: InstanceDispose
+  nameWithType: PhaseOneQueryCacher.InstanceDispose
+  fullName: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.InstanceDispose
 - uid: SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.GetCachedKeys*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher.GetCachedKeys
   isExternal: true

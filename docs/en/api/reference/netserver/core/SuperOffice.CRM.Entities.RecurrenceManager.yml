@@ -47,6 +47,7 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(System.Boolean,System.Boolean)
   - SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
+  - SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(System.Int32)
   - SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
@@ -322,6 +323,50 @@ items:
     content: public void RecalculateDays()
     content.vb: Public Sub RecalculateDays()
   overload: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(System.Int32)
+  id: RecalculateDays(System.Int32)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: RecalculateDays(int)
+  nameWithType: RecurrenceManager.RecalculateDays(int)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(int)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Re-calculate the days in the containing <xref href="SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Make some modifications to the  object.
+
+    recurrenceManager.RecalculateDays();
+
+    RecurrenceDate[] newDates = recurrenceManager.Days;</code></pre>
+  syntax:
+    content: public void RecalculateDays(int maxDates)
+    parameters:
+    - id: maxDates
+      type: System.Int32
+      attributes:
+      - type: System.ComponentModel.DataAnnotations.RangeAttribute
+        ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+        arguments:
+        - type: System.Int32
+          value: 1
+        - type: System.Int32
+          value: 1000
+        namedArguments:
+        - name: ErrorMessage
+          type: System.String
+          value: Max dates should be between 1 and 1000.
+    content.vb: Public Sub RecalculateDays(maxDates As Integer)
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays*
+  nameWithType.vb: RecurrenceManager.RecalculateDays(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(Integer)
+  name.vb: RecalculateDays(Integer)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   id: GetEstimatedCount

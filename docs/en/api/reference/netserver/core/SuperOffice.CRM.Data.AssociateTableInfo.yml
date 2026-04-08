@@ -732,7 +732,6 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UDefField_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_URL_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_URL_UpdatedAssociateId
-  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UserGroupLink_AssocId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UserGroupLink_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UserGroupLink_UpdatedAssociateId
@@ -9483,29 +9482,6 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ImportDefaultTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ImportDefault_UpdatedAssociateId As TargetedLeftOuterJoin(Of ImportDefaultTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ImportDefault_UpdatedAssociateId*
-- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-  id: LeftOuterJoin_UsageStats_AssocId
-  parent: SuperOffice.CRM.Data.AssociateTableInfo
-  langs:
-  - csharp
-  - vb
-  name: LeftOuterJoin_UsageStats_AssocId
-  nameWithType: AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key AssociateId on this table, to UsageStats.<xref href="SuperOffice.CRM.Data.UsageStatsTableInfo.AssocId" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: public TargetedLeftOuterJoin<UsageStatsTableInfo> LeftOuterJoin_UsageStats_AssocId { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UsageStatsTableInfo}
-    content.vb: Public ReadOnly Property LeftOuterJoin_UsageStats_AssocId As TargetedLeftOuterJoin(Of UsageStatsTableInfo)
-  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Role_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Role_RegisteredAssociateId
   id: LeftOuterJoin_Role_RegisteredAssociateId
@@ -30786,55 +30762,6 @@ references:
   name: LeftOuterJoin_ImportDefault_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_ImportDefault_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ImportDefault_UpdatedAssociateId
-- uid: SuperOffice.CRM.Data.UsageStatsTableInfo.AssocId
-  commentId: P:SuperOffice.CRM.Data.UsageStatsTableInfo.AssocId
-  isExternal: true
-  href: SuperOffice.CRM.Data.UsageStatsTableInfo.html#SuperOffice_CRM_Data_UsageStatsTableInfo_AssocId
-  name: AssocId
-  nameWithType: UsageStatsTableInfo.AssocId
-  fullName: SuperOffice.CRM.Data.UsageStatsTableInfo.AssocId
-- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId*
-  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-  isExternal: true
-  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_UsageStats_AssocId
-  name: LeftOuterJoin_UsageStats_AssocId
-  nameWithType: AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UsageStats_AssocId
-- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UsageStatsTableInfo}
-  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UsageStatsTableInfo}
-  parent: SuperOffice.Data.SQL
-  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  name: TargetedLeftOuterJoin<UsageStatsTableInfo>
-  nameWithType: TargetedLeftOuterJoin<UsageStatsTableInfo>
-  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.UsageStatsTableInfo>
-  nameWithType.vb: TargetedLeftOuterJoin(Of UsageStatsTableInfo)
-  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.UsageStatsTableInfo)
-  name.vb: TargetedLeftOuterJoin(Of UsageStatsTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: <
-  - uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-    name: UsageStatsTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.UsageStatsTableInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-    name: TargetedLeftOuterJoin
-    isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-    name: UsageStatsTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.UsageStatsTableInfo.html
-  - name: )
 - uid: SuperOffice.CRM.Data.RoleTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.RoleTableInfo.RegisteredAssociateId
   isExternal: true
