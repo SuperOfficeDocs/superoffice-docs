@@ -4,7 +4,7 @@ title: Lägg till webbpanel
 description: Så lägger du till objekt i webbpanellistan i Inställningar och underhåll.
 keywords: webbpanel, listan GUI - Webbpanel
 author: digitaldiina
-date: 11.04.2025
+date: 04.13.2026
 version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -88,6 +88,10 @@ När posten har sparats kan du:
 
 Om du lägger till en webbadress kan det vara användbart att använda mallvariabler för det aktiva företaget, till exempel för att hämta information från andra applikationer via en URL. Webbadressen måste ange parametrar, som i detta fiktiva exempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn är här mallvariabeln för organisationsnumret, men andra variabler som företagsnamn &lt;name&gt;, företagstelefonnummer &lt;cpho&gt;, kontaktnamn &lt;attn&gt; kan också användas.
 
+För att säkerställa att dina anpassningar fortsätter att fungera även om SuperOffice ändrar underdomäner eller strukturen i Online-miljön bör URL:er som refererar till Service-skärmar eller skript använda mallvariabler som `<csbl>?action=...` i stället för hårdkodade bas-URL:er. Dessa variabler matchas automatiskt mot rätt kundmiljö, vilket gör konfigurationen mer robust och minimerar behovet av framtida uppdateringar.
+
+En fullständig lista över tillgängliga mallvariabler finns i [Variabler för Service][9].
+
 ## Lägg till webbpanel i Service (föråldrad)
 
 I Service kallas webbpaneler för **extra webbläsarflikar**. Du kan lägga till samma typ av innehåll som för [extra menyer][4].
@@ -115,5 +119,6 @@ I Service kallas webbpaneler för **extra webbläsarflikar**. Du kan lägga till
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
+[9]: ../../../document/templates/variables/for-service.md
 
 <!-- Referenced images -->

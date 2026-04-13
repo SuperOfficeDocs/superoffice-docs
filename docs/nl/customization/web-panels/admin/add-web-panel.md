@@ -4,7 +4,7 @@ title: Webpaneel toevoegen
 description: Hoe items toe te voegen aan de webpaneellijst in Instellingen en onderhoud.
 keywords: webpaneel, lijst GUI - Webpaneel
 author: digitaldiina
-date: 11.04.2025
+date: 04.13.2026
 version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -86,6 +86,10 @@ Zodra het item is opgeslagen, kunt u:
 
 Als u een URL-adres toevoegt, kan het nuttig zijn om sjabloonvariabelen te gebruiken voor het actieve bedrijf, bijvoorbeeld om informatie uit andere toepassingen op te halen via een URL. Het URL-adres moet parameters specificeren, zoals in dit fictieve voorbeeld: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn is hier de sjabloonvariabele voor het organisatienummer, maar andere variabelen zoals bedrijfsnaam &lt;name&gt;, bedrijfstelefoon &lt;cpho&gt;, contactnaam &lt;attn&gt; kunnen ook worden gebruikt.
 
+Om ervoor te zorgen dat uw aanpassingen blijven werken, zelfs als SuperOffice subdomeinen of de structuur van de Online-omgeving wijzigt, moeten URL's die verwijzen naar Service-schermen of -scripts sjabloonvariabelen gebruiken, zoals `<csbl>?action=...`, in plaats van hardgecodeerde basis-URL's. Deze variabelen worden automatisch omgezet naar de juiste klantomgeving, waardoor uw configuratie robuuster wordt en het later bijwerken tot een minimum wordt beperkt.
+
+Zie [Variabelen voor Service][9] voor een volledige lijst met beschikbare sjabloonvariabelen.
+
 ## Webpaneel in toevoegen Service (verouderd)
 
 In Service worden webpanelen **extra browsertabs** genoemd. Je kunt hetzelfde type inhoud toevoegen als bij [extra menu's][4].
@@ -113,5 +117,6 @@ In Service worden webpanelen **extra browsertabs** genoemd. Je kunt hetzelfde ty
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
+[9]: ../../../document/templates/variables/for-service.md
 
 <!-- Referenced images -->

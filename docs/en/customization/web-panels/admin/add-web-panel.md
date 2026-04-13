@@ -4,7 +4,7 @@ title: Add web panel
 description: How to add items to the web panel list in Settings and maintenance.
 keywords: web panel, GUI - Web panel list
 author: digitaldiina
-date: 11.04.2025
+date: 04.13.2026
 version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -13,7 +13,7 @@ topic: web panel
 content_type: howto
 language: en
 index: true
-redirect_from: 
+redirect_from:
   - /en/admin/lists/learn/web-panel-add-item
   - /en/ui/web-panels/add-web-panel
 ---
@@ -88,6 +88,10 @@ Once the item is saved, you can:
 
 If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via an URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
 
+To ensure that your customizations continue to work even if SuperOffice changes subdomains or the structure of the Online environment, URLs with references to Service screens or scripts should use template variables such as `<csbl>?action=...` instead of hardcoded base URLs. These variables automatically resolve to the correct customer environment, making your configuration more robust and minimizing the need for updates later.
+
+For a full list of available template variables, see [Variables for Service][9].
+
 ## Add web panel in Service (legacy)
 
 In Service, web panels are called **extra browser tabs**. You can add the same type of content as for [extra menus][4].
@@ -115,5 +119,6 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
+[9]: ../../../document/templates/variables/for-service.md
 
 <!-- Referenced images -->

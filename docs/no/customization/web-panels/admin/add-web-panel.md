@@ -4,7 +4,7 @@ title: Legg til webpanel
 description: Slik legger du til elementer i webpanellisten i Innstillinger og vedlikehold.
 keywords: webpanel, listen GUI - Webpanel
 author: digitaldiina
-date: 11.04.2025
+date: 04.13.2026
 version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -86,6 +86,10 @@ Når elementet er lagret, kan du:
 
 Hvis du legger til en URL-adresse, kan det være nyttig å bruke malvariabler for det aktive firmaet, for eksempel for å hente informasjon fra andre applikasjoner via en URL. URL-adressen må spesifisere parametere, som i dette fiktive eksempelet: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er her malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt;, kontaktnavn &lt;attn&gt; kan også brukes.
 
+For å sikre at tilpasningene dine fortsetter å fungere selv om SuperOffice endrer underdomener eller strukturen i Online-miljøet, bør URL-er som refererer til Service-skjermer eller skript bruke malvariabler som `<csbl>?action=...` i stedet for hardkodede basis-URL-er. Disse variablene løses automatisk til riktig kundemiljø, noe som gjør konfigurasjonen din mer robust og minimerer behovet for fremtidige oppdateringer.
+
+For en fullstendig liste over tilgjengelige malvariabler, se [Variabler for Service][9].
+
 ## Legg til webpanel i Service (utdatert)
 
 I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samme type innhold som for [ekstra menyer][4].
@@ -113,5 +117,6 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
+[9]: ../../../document/templates/variables/for-service.md
 
 <!-- Referenced images -->
