@@ -4,8 +4,8 @@ title: Tilføj webpanel
 description: Sådan tilføjer du elementer til webpanellisten i Indstillinger og vedligeholdelse.
 keywords: webpanel, listen GUI - Webpanel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 04.13.2026
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -86,6 +86,10 @@ Når elementet er gemt, kan du:
 
 Når du tilføjer en URL-adresse, kan det være nyttigt at bruge skabelonvariabler for det aktive firma, for eksempel til at hente oplysninger fra andre programmer via en URL. URL-adressen skal angive parametre som i dette fiktive eksempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er skabelonvariablen for organisationsnummer, men andre variabler, såsom firmanavn &lt;name&gt;, firmaets telefonnummer &lt;cpho&gt; eller personnavn &lt;attn&gt; kan også anvendes.
 
+For at sikre, at dine tilpasninger fortsat fungerer, selvom SuperOffice ændrer underdomæner eller strukturen i Online-miljøet, bør URL-adresser med referencer til Service-skærmbilleder eller scripts bruge skabelonvariabler som f.eks. `<csbl>?action=...` i stedet for hardkodede basis-URL'er. Disse variabler løses automatisk til det korrekte kundemiljø, hvilket gør konfigurationen mere robust og minimerer behovet for opdateringer.
+
+Du kan finde en komplet liste over tilgængelige skabelonvariabler her: [Variable for Service][9].
+
 ## Tilføj webpanel i Service (forældet)
 
 I Service kaldes webpaneler for **ekstra browsertabs**. Du kan tilføje den samme type indhold som for [ekstra menuer][5].
@@ -113,5 +117,6 @@ I Service kaldes webpaneler for **ekstra browsertabs**. Du kan tilføje den samm
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
+[9]: ../../../document/templates/variables/for-service.md
 
 <!-- Referenced images -->

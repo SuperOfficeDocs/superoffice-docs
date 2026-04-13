@@ -4,7 +4,7 @@ title: Web-Bildschirm hinzufügen
 description: So fügen Sie Elemente zur Web-Bildschirm-Liste in Einstellungen und Verwaltung hinzu.
 keywords: Web-Bildschirm, Liste GUI - Web-Bildschirm
 author: digitaldiina
-date: 11.04.2025
+date: 04.13.2026
 version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -86,6 +86,10 @@ Sobald das Objekt gespeichert ist, können Sie:
 
 Wenn Sie eine URL-Adresse hinzufügen, kann es nützlich sein, Template-Variablen für das aktive Unternehmen zu verwenden, um beispielsweise Informationen von anderen Anwendungen über eine URL abzurufen. Die URL-Adresse muss Parameter angeben, wie in diesem fiktiven Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist hier die Template-Variable für die Organisationsnummer, aber auch andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt;, Kontaktname &lt;attn&gt; können verwendet werden.
 
+Um sicherzustellen, dass Ihre Anpassungen auch dann funktionieren, wenn SuperOffice Subdomains oder die Struktur der Online-Umgebung ändert, sollten URLs mit Verweisen auf Service-Bildschirme oder -Skripte Vorlagenvariablen wie `<csbl>?action=...` anstelle von fest codierten Basis-URLs verwenden. Diese Variablen werden automatisch zur richtigen Kundenumgebung aufgelöst, wodurch Ihre Konfiguration robuster wird und der spätere Aktualisierungsbedarf minimiert wird.
+
+Eine vollständige Liste der verfügbaren Vorlagenvariablen finden Sie unter [Variablen für Service][9].
+
 ## Web-Bildschirm in Service hinzufügen (veraltet)
 
 In Service werden Web-Bildschirme als **zusätzliche Browser-Tabs** bezeichnet. Sie können denselben Inhaltstyp hinzufügen wie bei [zusätzlichen Menüs][4].
@@ -113,5 +117,6 @@ In Service werden Web-Bildschirme als **zusätzliche Browser-Tabs** bezeichnet. 
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
+[9]: ../../../document/templates/variables/for-service.md
 
 <!-- Referenced images -->
