@@ -9,3 +9,15 @@ items:
   href: change-user-plan.md
 - name: Expander services
   href: expander-services.md
+- name: Technical details
+  href: api/
+  topicHrf: api/index.md
+  items:
+  - name: User plans
+    href: api/user-plans.md
+  - name: Module licenses
+    href: api/modulelicenses.md
+  - name: Hidden licenses
+    href: api/hiddenlicenses.md
+  - name: Partner licenses
+    href: api/partnerlicenses.md

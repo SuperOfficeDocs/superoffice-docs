@@ -3,7 +3,7 @@ title: Module Licenses
 description: ModuleLicense details
 author: xt1
 date: 12.03.2026
-keywords: License, modulelicense
+keywords: License, modulelicense, 
 content_type: concept
 ---
 
@@ -25,7 +25,7 @@ content_type: concept
 
 Module licenses all have an owner - usually "SuperOffice" for us - but partners can define their own licenses, and run their own license servers.
 
-Module license names are usually "superoffice.something", but the ModuleName is just "something".
+Module license names are often written "superoffice.something", but the ModuleName is just "something". The owner name is prefixed to distinguish licenses from different owners.
 
 The full list of licenses are in [SoLicenseNames][2].
 
@@ -106,8 +106,7 @@ You could not enable the windows license without first checking the user license
 The travel license is unrestricted, so it does not have a counter to disable it.
 
 <!-- Referenced links-->
-[1]: userplans.md
 [2]: @SuperOffice.License.SoLicenseNames
 [3]: hiddenlicenses.md
 
-[img3]: media\licenses-prereq.png
+[img3]: media/licenses-prereq.png

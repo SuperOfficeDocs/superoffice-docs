@@ -1,6 +1,6 @@
 ---
-title: Licenses
-description: Overview of licenses.
+title: License Technical Overview
+description: Overview of the SuperOffice licensing system.
 author: xt1
 date: 12.03.2026
 keywords: License 
@@ -124,7 +124,7 @@ The current user principal will give you a list of the current user's assigned l
 So from this we can see we have a `superoffice.server` site license, and the current user has been assigned a `superoffice.guide-cal` user license, courtesy of their `superoffice.ten-salesservicemarketing` user-plan license.
 Note that user-licenses that are not assigned to the user do not appear in the payload - so if you want to know if the license exists use the `/api/v1/License/ownername/modulename` endpoint to check.
 
-The currentPricipal also has useful information like the role function-rights.
+The currentPrincipal also has useful information like the role function-rights.
 
 
 <!-- Referenced links-->
@@ -137,4 +137,4 @@ The currentPricipal also has useful information like the role function-rights.
 
 
 <!-- Referenced images -->
-[img1]: media\licenses-admin.png
+[img1]: media/licenses-admin.png

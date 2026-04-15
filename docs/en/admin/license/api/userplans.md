@@ -1,13 +1,14 @@
 ---
-title: User plans
-description: User plans and licenses
+title: How user plans are constructed
+uid: userplanconstruction
+description: How user plans are put together from module licenses.
 author: xt1
 date: 12.03.2026
 keywords: License, user-plan 
 content_type: concept
 ---
 
-# User-plans in version 10-11
+# User plans in version 10-11
 
 User plans come in two tiers: Essential and Premium
 User plans come in three flavors: Sales, Service and Marketing. Flavors can be combined.
@@ -38,12 +39,11 @@ If this is all we have, we get issued the following licenses:
 | `ten-sales` | user | user plan license, defines which user licenses are enabled for the user |
 
 The CAL licenses are per-user licenses - they must be assigned to a specific user in order to work.
-The user-plan license is flagged with ExtraFlag = 1, and [ExtraInfo = list of user licenses to activate][2].
+The user-plan license is flagged with `ExtraFlag` = 1, and [ExtraInfo = list of user licenses to activate][2].
 
 The licenses that are automatically enabled by the user-plan are [hidden][1], so they don't appear in the license panel.
 
-
-# User-plans in version 8-9
+# User plans in version 8-9
 
 User plans come in one tier.
 User plans come in five flavors: Sales, Service, Marketing, and Complete, plus a reduced Standard CRM User.
@@ -106,4 +106,4 @@ These user licenses would be manually enabled for each user in admin.
 [1]: hiddenlicenses.md
 [2]: modulelicenses.md
 
-[img3]: media\licenses-prereq.png
+[img3]: media/licenses-prereq.png

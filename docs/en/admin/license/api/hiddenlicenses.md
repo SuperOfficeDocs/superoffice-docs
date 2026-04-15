@@ -98,6 +98,6 @@ The ModuleNames can be referenced from [SoLicenseNames][2].
 [3]: modulelicenses.md
 
 <!-- Referenced images -->
-[img1]: media\licenses-admin.png
-[img2]: media\licenses-list.png
+[img1]: media/licenses-admin.png
+[img2]: media/licenses-list.png
 
