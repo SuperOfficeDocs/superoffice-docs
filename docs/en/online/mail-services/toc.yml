@@ -9,3 +9,5 @@ items:
   items:
   - name: Migrate mailboxes
     href: curl/migrate.md
+  - name: OAuth 2.0 with Microsoft 365
+    href: curl/oauth-microsoft365.md
