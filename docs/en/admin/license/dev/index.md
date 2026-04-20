@@ -1,10 +1,15 @@
 ---
-title: License Technical Overview
+uid: license-technical-overview
+title: License technical overview
 description: Overview of the SuperOffice licensing system.
 author: xt1
-date: 12.03.2026
-keywords: License 
+date: 04.20.2026
+version: 11.12
+keywords: license
 content_type: concept
+audience: settings
+audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Licenses

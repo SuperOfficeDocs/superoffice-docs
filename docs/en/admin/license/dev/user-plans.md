@@ -1,11 +1,15 @@
 ---
+uid: license-user-plans
 title: How user plans are constructed
-uid: userplanconstruction
 description: How user plans are put together from module licenses.
 author: xt1
-date: 12.03.2026
-keywords: License, user-plan 
+date: 04.20.2026
+version: 11.12
+keywords: license, user plan
 content_type: concept
+audience: settings
+audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # User plans in version 10-11

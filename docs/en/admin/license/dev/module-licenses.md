@@ -1,10 +1,15 @@
 ---
-title: Module Licenses
-description: ModuleLicense details
+uid: license-module
+title: Module licenses
+description: Module license fields and types.
 author: xt1
-date: 12.03.2026
-keywords: License, modulelicense, 
+date: 04.20.2026
+version: 11.12
+keywords: license, module license
 content_type: concept
+audience: settings
+audience_tooltip: Settings and maintenance
+language: en
 ---
 
 # Module Licenses
