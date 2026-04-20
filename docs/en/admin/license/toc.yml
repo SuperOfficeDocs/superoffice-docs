@@ -10,14 +10,15 @@ items:
 - name: Expander services
   href: expander-services.md
 - name: Technical details
-  href: api/
-  topicHrf: api/index.md
+  topicHref: dev/index.md
   items:
+  - name: License overview
+    href: dev/index.md
   - name: User plans
-    href: api/user-plans.md
+    href: dev/user-plans.md
   - name: Module licenses
-    href: api/modulelicenses.md
+    href: dev/module-licenses.md
   - name: Hidden licenses
-    href: api/hiddenlicenses.md
+    href: dev/hidden-licenses.md
   - name: Partner licenses
-    href: api/partnerlicenses.md
+    href: dev/partner-licenses.md

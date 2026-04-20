@@ -103,7 +103,7 @@ These user licenses would be manually enabled for each user in admin.
 ![Nested series of checkboxes][img3]
 
 <!-- References -->
-[1]: hiddenlicenses.md
-[2]: modulelicenses.md
+[1]: hidden-licenses.md
+[2]: module-licenses.md
 
-[img3]: media/licenses-prereq.png
+[img3]: ../../../../media/loc/en/admin/licenses-prereq.png

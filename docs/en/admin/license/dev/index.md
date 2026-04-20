@@ -128,13 +128,13 @@ The currentPrincipal also has useful information like the role function-rights.
 
 
 <!-- Referenced links-->
-[1]: userplans.md
+[1]: user-plans.md
 [2]: @SuperOffice.License.SoLicenseNames
-[3]: hiddenlicenses.md
+[3]: hidden-licenses.md
 [4]: @v1LicenseAgent_GetUserLicenses
 [5]: @v1License_GetThirdPartyLicenseAssignments
 [6]: @v1User_GetCurrentPrincipal
 
 
 <!-- Referenced images -->
-[img1]: media/licenses-admin.png
+[img1]: ../../../../media/loc/en/admin/licenses-admin.png

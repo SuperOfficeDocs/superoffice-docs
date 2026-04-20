@@ -107,6 +107,6 @@ The travel license is unrestricted, so it does not have a counter to disable it.
 
 <!-- Referenced links-->
 [2]: @SuperOffice.License.SoLicenseNames
-[3]: hiddenlicenses.md
+[3]: hidden-licenses.md
 
-[img3]: media/licenses-prereq.png
+[img3]: ../../../../media/loc/en/admin/licenses-prereq.png
