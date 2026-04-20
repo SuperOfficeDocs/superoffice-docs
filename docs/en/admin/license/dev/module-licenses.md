@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Module Licenses
+# Module licenses
 
 | field | description |
 |-------|-------------|
@@ -36,7 +36,7 @@ The full list of licenses are in [SoLicenseNames][2].
 
 This list is included in the webApi client package, and is used on the license server (via Nuget package) for consistency.
 
-## License Type
+## License type
 
 * **Site** licenses are global - apply to all users, do not require assignment.
 * **Satellite** licenses are database specific - useful when you have multiple sites, and a feature is only licensed to specific locations. 
@@ -67,13 +67,13 @@ The `visible-for` license is unrestricted - since we do not charge extra for con
 
 The `quote-cal` license is restricted, because we do charge extra for user access to quotes. Back when licenses were sold individually, you could buy 10 user licenses, and only 3 quote-cals. These days quote-cals are packaged into the user-plan, so the need for separately controllable licenses is 
 
-## Extra Flags
+## Extra flags
 
 0 for most licenses.
 1 for user-plans - user licenses that enable hidden user licenses.
 2 for site-level markers that mark user-plan descriptions.
 
-## Extra Info
+## Extra info
 
 For a user-plan (extra flag = 1), the extra info will most likely be "set=user,web,quote-cal,project-cal,etc,etc".
 The "set=" is a command, and the rest is a list of hidden user-licenses to assign to the user when this user-plan is selected.

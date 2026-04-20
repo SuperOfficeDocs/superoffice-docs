@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Licenses
+# License technical overview
 
 When you buy a user plan, you are buying a set of licenses. Most of these licenses are hidden from the users view - they just pick a user-plan and go.
 The code cannot deal with userplans - they change from version to version, and are re-packaged whenever mercury is in retrograde.
@@ -24,7 +24,7 @@ Instead of checking for a userplan identifier like "Sales-PREMIUM", we want to c
 
 If the pricelist changes, we don't have to update all the checks - just update the license server.
 
-## Visible vs Hidden licenses
+## Visible vs hidden licenses
 
 The user sees a set of licenses in the admin panel, but the license server delivers a set of [hidden licenses][3] containing feature-specific licenses.
 
@@ -42,7 +42,7 @@ The navigator will check if the `feature` system license is present.
 The edit button will check if the `feature-cal` user license is on. If the user doesn't have it, the edit button will be disabled.
 The admin client will check if the `feature` system license is present, and hide the corresponding admin page if missing.
 
-## Sub-Features
+## Sub-features
 
 Sometimes an existing feature will be split into pieces in order for parts to be sold as part of a premium package.
 
@@ -55,7 +55,7 @@ For example:
 
 Similarly new licenses for "escalate" , "inbox-filter", and "request-batch" were added to help differentiate the essential and premium layers of service user plans. The code checks for "escalate", not the user plan, so that we can easily change the licenses in a particular userplan without updating the client.
 
-## Checking for Licenses
+## Checking for licenses
 
 The [LicenseAgent.GetUserLicenses][4] Agent API and the REST API [/api/v1/License/ownername/modulename][5] support checking license status.
 

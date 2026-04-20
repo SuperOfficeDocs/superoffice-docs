@@ -47,12 +47,12 @@ The user-plan license is flagged with `ExtraFlag` = 1, and [ExtraInfo = list of 
 
 The licenses that are automatically enabled by the user-plan are [hidden][1], so they don't appear in the license panel.
 
-# User plans in version 8-9
+## User plans in version 8-9
 
 User plans come in one tier.
 User plans come in five flavors: Sales, Service, Marketing, and Complete, plus a reduced Standard CRM User.
 
-## Standard CRM user
+### Standard CRM user
 
 | name | type | description |
 |------|------|-------------|
@@ -84,7 +84,7 @@ So checking for the user-plan means more work when the pricelist changes.
 Checking the module licenses means everything just keeps working as before.
 
 
-# User plans in version 6 and 7
+## User plans in version 6 and 7
 
 User plans did not exist. 
 Licenses were sold individually and you could mix and match.

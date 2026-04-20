@@ -13,7 +13,7 @@ language: en
 ---
 
 
-# Visible vs Hidden licenses
+# Hidden licenses
 
 The user sees a set of licenses in the admin panel, including [user-plans][1] and markers of purchased add-ons:
 

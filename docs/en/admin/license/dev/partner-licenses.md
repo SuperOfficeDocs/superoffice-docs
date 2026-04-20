@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Partner Licenses
+# Partner licenses
 
 Partners can host their own license server and install their own licenses alongside the SuperOffice licenses.
 
