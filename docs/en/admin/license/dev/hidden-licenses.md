@@ -12,16 +12,15 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-
 # Hidden licenses
 
 The user sees a set of licenses in the admin panel, including [user-plans][1] and markers of purchased add-ons:
 
-![Admin Licenses page][img1]
+![Admin licenses page -screenshot][img1]
 
 The actual license contains many more licenses than shown in the admin screen:
 
-![Licenses list][img2]
+![Licenses list -screenshot][img2]
 
 These include the licenses shown to the user like `service-t2` (site license) and `ten-service` (user plan license), as well as the hidden module licenses like the `stakeholder` site license, and the `stakeholder-cal` user license.
 
@@ -105,4 +104,3 @@ The ModuleNames can be referenced from [SoLicenseNames][2].
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/admin/licenses-admin.png
 [img2]: ../../../../media/loc/en/admin/licenses-list.png
-

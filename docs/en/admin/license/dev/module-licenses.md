@@ -15,7 +15,7 @@ language: en
 # Module licenses
 
 | field | description |
-|-------|-------------|
+| --- | --- |
 | ModuleName | code name: the "user" part of "superoffice.user" |
 | ModuleDescription | Display name - shown in admin |
 | ModuleTooltip | tooltip shown in admin |
@@ -39,7 +39,7 @@ This list is included in the webApi client package, and is used on the license s
 ## License type
 
 * **Site** licenses are global - apply to all users, do not require assignment.
-* **Satellite** licenses are database specific - useful when you have multiple sites, and a feature is only licensed to specific locations. 
+* **Satellite** licenses are database specific - useful when you have multiple sites, and a feature is only licensed to specific locations.
   Satellites was a thing we used to have, but has now gone away as we moved on-line.
 * **User** licenses are user-specific - and need to be assigned to a particular user.
 
@@ -65,7 +65,7 @@ If the unrestricted flag is true, then there is no restriction, and the admin ca
 
 The `visible-for` license is unrestricted - since we do not charge extra for confidential appointments.
 
-The `quote-cal` license is restricted, because we do charge extra for user access to quotes. Back when licenses were sold individually, you could buy 10 user licenses, and only 3 quote-cals. These days quote-cals are packaged into the user-plan, so the need for separately controllable licenses is 
+The `quote-cal` license is restricted, because we do charge extra for user access to quotes. Back when licenses were sold individually, you could buy 10 user licenses, and only 3 quote-cals. These days quote-cals are packaged into the user-plan, so the need for separately controllable licenses is
 
 ## Extra flags
 
@@ -83,28 +83,18 @@ The "set=" is a command, and the rest is a list of hidden user-licenses to assig
 In 7.x the licenses were sold loosely, so a web user required a user license in order to be activated.
 
 | licenses | number | unrestricted | prereq |
-|----------|--------|----------|------|
-| user     |  10 |       |         |
-| web      |  5   |      | user    |
-| windows  | 7    |      |  user    |
-| travel   | 7    | true | windows |
-| remote-travel | 5 |    | travel |
-| pocket-cal |  9  |     | user    |
-| quote-cal |   3  |     | user    |
+| --- | --- | --- | --- |
+| user | 10 | | |
+| web | 5 | | user |
+| windows | 7 | | user |
+| travel | 7 | true | windows |
+| remote-travel | 5 | | travel |
+| pocket-cal | 9 | | user |
+| quote-cal | 3 | | user |
 
 Which would render in the user license panel as a series of nested checkboxes:
 
-![Nested series of checkboxes][img3]
-
-<!--
-<input type="checkbox" name="user" checked /> User     (6 / 10)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="web" disabled /> Web (5 / 5)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="win" checked /> Windows (6 / 7)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="trav" checked /> Travel <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="travr" checked /> Remote Travel (3 / 5)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="mobr" checked /> Mobile (6 / 9)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="quot"  /> Quote (0 / 3)<br/>
--->
+![Nested series of checkboxes -screenshot][img1]
 
 You could not enable the windows license without first checking the user license.
 
@@ -114,4 +104,4 @@ The travel license is unrestricted, so it does not have a counter to disable it.
 [2]: @SuperOffice.License.SoLicenseNames
 [3]: hidden-licenses.md
 
-[img3]: ../../../../media/loc/en/admin/licenses-prereq.png
+[img1]: ../../../../media/loc/en/admin/licenses-prereq.png

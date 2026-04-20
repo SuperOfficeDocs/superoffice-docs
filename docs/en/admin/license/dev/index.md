@@ -131,7 +131,6 @@ Note that user-licenses that are not assigned to the user do not appear in the p
 
 The currentPrincipal also has useful information like the role function-rights.
 
-
 <!-- Referenced links-->
 [1]: user-plans.md
 [2]: @SuperOffice.License.SoLicenseNames
@@ -140,6 +139,4 @@ The currentPrincipal also has useful information like the role function-rights.
 [5]: @v1License_GetThirdPartyLicenseAssignments
 [6]: @v1User_GetCurrentPrincipal
 
-
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/admin/licenses-admin.png

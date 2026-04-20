@@ -25,7 +25,7 @@ At the most complex we get the *Sales-Premium-Service-Premium-Marketing-Premium*
 If this is all we have, we get issued the following licenses:
 
 | name | type | description |
-|------|------|-----------|
+| --- | --- | --- |
 | `server` | system | Required for system to work. |
 | `user` | user | to log in |
 | `web` | user |to log in to web |
@@ -55,17 +55,17 @@ User plans come in five flavors: Sales, Service, Marketing, and Complete, plus a
 ### Standard CRM user
 
 | name | type | description |
-|------|------|-------------|
+| --- | --- | --- |
 | `server` | system | Required for system to work. |
 | `user` | user | to log in |
-| `web` | user |to log in to web |
-| `pocket-crm-cal` |user | to log in to mobile |
-| `visible-for` |user | to allow users to use confidential appointments |
-| `import` | system |enables the import functionality in admin |
-| `dash` | system |enables the dashboard functionality |
-| `document` | system |enables document creation/editing |
-| `selection` |system | enables selection panel |
-| `selection-cal` |user | allows user to create/edit selections |
+| `web` | user | to log in to web |
+| `pocket-crm-cal` | user | to log in to mobile |
+| `visible-for` | user | to allow users to use confidential appointments |
+| `import` | system | enables the import functionality in admin |
+| `dash` | system | enables the dashboard functionality |
+| `document` | system | enables document creation/editing |
+| `selection` | system | enables selection panel |
+| `selection-cal` | user | allows user to create/edit selections |
 | `selection-combined-cal` |user | enables combination selection type for user |
 | `relation` |system | enables relations archive |
 | `relation-cal` | user |allows user to create/edit relations |
@@ -83,10 +83,9 @@ Standard CRM user does not have sales access, but the sales-essential user-plan 
 So checking for the user-plan means more work when the pricelist changes.
 Checking the module licenses means everything just keeps working as before.
 
-
 ## User plans in version 6 and 7
 
-User plans did not exist. 
+User plans did not exist.
 Licenses were sold individually and you could mix and match.
 
 You could buy 10 user licenses, 7 web licenses, 5 windows licenses, and let some users log in via web, some via windows app, and two lucky people could do both.
@@ -94,20 +93,20 @@ You could buy 10 user licenses, 7 web licenses, 5 windows licenses, and let some
 Back then we didn't have so many module licenses, so life was a little easier.
 
 | name | type | description |
-|------|------|-------------|
+| --- | --- | --- |
 | `server` | system | Required for system to work. |
 | `user` | user | to log in |
-| `web` | user |to log in to web |
-| `pocket-crm-server` |system | to enable mobile |
-| `pocket-crm-cal` |user | to log in to mobile |
-| `visible-for` |user | to allow users to use confidential appointments |
+| `web` | user | to log in to web |
+| `pocket-crm-server` | system | to enable mobile |
+| `pocket-crm-cal` | user | to log in to mobile |
+| `visible-for` | user | to allow users to use confidential appointments |
 
 These user licenses would be manually enabled for each user in admin.
 
-![Nested series of checkboxes][img3]
+![Nested series of checkboxes -screenshot][img1]
 
 <!-- References -->
 [1]: hidden-licenses.md
 [2]: module-licenses.md
 
-[img3]: ../../../../media/loc/en/admin/licenses-prereq.png
+[img1]: ../../../../media/loc/en/admin/licenses-prereq.png
