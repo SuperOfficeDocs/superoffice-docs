@@ -14,7 +14,7 @@ topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-language: no
+language: en
 ---
 
 # SuperOffice user plans and subscriptions

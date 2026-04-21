@@ -180,6 +180,8 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 * [Buy and activate licences][1]
 * [Licences in earlier versions of SuperOffice][7]
 * [System events][3]
+* [Module licenses][14]
+* [Hidden licenses][15]
 
 <!-- Referenced links -->
 [1]: activate.md
@@ -191,5 +193,7 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 [11]: ../../../en/database/tables/ModuleOwner.md
 [12]: ../../../en/database/tables/ModuleLicense.md
 [13]: ../../../en/database/tables/LicenseAssocLink.md
+[14]: dev/module-licenses.md
+[15]: dev/hidden-licenses.md
 
 <!-- Referenced images -->
