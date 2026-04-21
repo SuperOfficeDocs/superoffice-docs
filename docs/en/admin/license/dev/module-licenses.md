@@ -1,34 +1,37 @@
 ---
-uid: license-module
+uid: module-licenses-technical-details
 title: Module licenses
 description: Module license fields and types.
+keywords: module license, license
 author: xt1
 date: 04.20.2026
 version: 11.12
-keywords: license, module license
 content_type: concept
+category: Settings and maintenance
+topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: en
 ---
 
 # Module licenses
 
-| field | description |
+| Field | Description |
 | --- | --- |
-| ModuleName | code name: the "user" part of "superoffice.user" |
-| ModuleDescription | Display name - shown in admin |
-| ModuleTooltip | tooltip shown in admin |
-| ModuleVersion | product version license was issued to: "10.1" |
-| LicenseType | system/site/user |
-| NumberOfLicenses | quantity |
-| Unrestricted | do we care if the number is exceeded or not |
-| IsHidden | true/false - show the license in admin? |
-| ExtraInfo | licenses that are implied by this license. |
+| ModuleName | Code name: the "user" part of "superoffice.user" |
+| ModuleDescription | Display name, shown in admin |
+| ModuleTooltip | Tooltip shown in admin |
+| ModuleVersion | Product version license was issued to: "10.1" |
+| LicenseType | System/site/user |
+| NumberOfLicenses | Quantity |
+| Unrestricted | Do we care if the number is exceeded or not |
+| IsHidden | True/false - show the license in admin? |
+| ExtraInfo | Licenses that are implied by this license. |
 | ExtraFlags | 1 for user plans, 0 for everything else. |
-| PrerequisiteModuleName | you must have this module on before you can activate this license. |
+| PrerequisiteModuleName | You must have this module on before you can activate this license. |
 
-Module licenses all have an owner - usually "SuperOffice" for us - but partners can define their own licenses, and run their own license servers.
+Module licenses all have an owner, usually "SuperOffice" for us, but partners can define their own licenses, and run their own license servers.
 
 Module license names are often written "superoffice.something", but the ModuleName is just "something". The owner name is prefixed to distinguish licenses from different owners.
 
@@ -45,44 +48,45 @@ This list is included in the webApi client package, and is used on the license s
 
 ## Hidden
 
-Modules that are hidden are not shown in the admin panel.
-The licenses still exist and can be checked for, they just aren't visible in admin.
+Modules that are hidden are not shown in the admin panel. The licenses still exist and can be checked for, they just aren't visible in admin.
 
 Hidden site licenses still apply to everyone.
 
-Hidden user licenses need to be assigned. This is handled by the userplan license having [a list of the hidden user licenses to assign][3] to the user listed in the ExtraInfo field.
+Hidden user licenses need to be assigned. This is handled by the user-plan license having [a list of the hidden user licenses to assign][3] to the user listed in the ExtraInfo field.
 
 ## Number of licenses
 
 How many licenses has the user actually purchased.
+
 This number is never 0, even when the Unrestricted flag is true.
 
 ## Unrestricted
 
-User and Satellite licenses are usually restricted - in other words, admins are not allowed to assign more than the paid-for number of licenses.
+User and Satellite licenses are usually restricted. In other words, admins are not allowed to assign more than the paid-for number of licenses.
 
 If the unrestricted flag is true, then there is no restriction, and the admin can assign as many as they want, even if the number of licenses is 1.
 
-The `visible-for` license is unrestricted - since we do not charge extra for confidential appointments.
+The **visible-for** license is unrestricted, since we do not charge extra for confidential appointments.
 
-The `quote-cal` license is restricted, because we do charge extra for user access to quotes. Back when licenses were sold individually, you could buy 10 user licenses, and only 3 quote-cals. These days quote-cals are packaged into the user-plan, so the need for separately controllable licenses is
+The **quote-cal** license is restricted, because we do charge extra for user access to quotes. Back when licenses were sold individually, you could buy 10 user licenses, and only 3 quote-cals. These days quote-cals are packaged into the user plan, so the need for separately controllable licenses is
 
 ## Extra flags
 
-0 for most licenses.
-1 for user-plans - user licenses that enable hidden user licenses.
-2 for site-level markers that mark user-plan descriptions.
+* 0 for most licenses.
+* 1 for user-plans - user licenses that enable hidden user licenses.
+* 2 for site-level markers that mark user-plan descriptions.
 
 ## Extra info
 
 For a user-plan (extra flag = 1), the extra info will most likely be "set=user,web,quote-cal,project-cal,etc,etc".
+
 The "set=" is a command, and the rest is a list of hidden user-licenses to assign to the user when this user-plan is selected.
 
 ## Prerequisites
 
 In 7.x the licenses were sold loosely, so a web user required a user license in order to be activated.
 
-| licenses | number | unrestricted | prereq |
+| Licenses | Number | Unrestricted | Prereq |
 | --- | --- | --- | --- |
 | user | 10 | | |
 | web | 5 | | user |
@@ -101,7 +105,7 @@ You could not enable the windows license without first checking the user license
 The travel license is unrestricted, so it does not have a counter to disable it.
 
 <!-- Referenced links-->
-[2]: @SuperOffice.License.SoLicenseNames
+[2]: <xref:SuperOffice.License.SoLicenseNames>
 [3]: hidden-licenses.md
 
 [img1]: ../../../../media/loc/en/admin/licenses-prereq.png

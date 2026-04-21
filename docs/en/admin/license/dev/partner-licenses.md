@@ -1,14 +1,17 @@
 ---
-uid: license-partner
+uid: partner-licenses-technical-details
 title: Partner licenses
 description: Partners can issue their own licenses.
+keywords: partner license, license
 author: xt1
 date: 04.20.2026
 version: 11.12
-keywords: license, partner license
 content_type: concept
+category: Settings and maintenance
+topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: en
 ---
 

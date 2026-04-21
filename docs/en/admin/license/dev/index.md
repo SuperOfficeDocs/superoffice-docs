@@ -2,27 +2,29 @@
 uid: license-technical-overview
 title: License technical overview
 description: Overview of the SuperOffice licensing system.
+keywords: license server, license, LicenseAgent, Client Access Licenses
 author: xt1
 date: 04.20.2026
 version: 11.12
-keywords: license
 content_type: concept
+category: Settings and maintenance
+topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: en
 ---
 
 # License technical overview
 
-When you buy a user plan, you are buying a set of licenses. Most of these licenses are hidden from the users view - they just pick a user-plan and go.
-The code cannot deal with userplans - they change from version to version, and are re-packaged whenever mercury is in retrograde.
+When you buy a user plan, you are buying a set of licenses. Most of these licenses are hidden from the users view - they just pick a user-plan and go. The code cannot deal with user plans - they change from version to version, and are re-packaged whenever mercury is in retrograde.
 
 So the code deals with module licenses, not [user-plans][1]. Module license names are static and kept in [SoLicenseNames][2].
 
-The pricelist will change - so we want to avoid hard-coding references to it into the application.
-Instead of checking for a userplan identifier like "Sales-PREMIUM", we want to check for a feature identifier like "SALE-CAL", and have the license server handle the mapping between the pricelist and the features.
+The price list will change - so we want to avoid hard-coding references to it into the application.
+Instead of checking for a user plan identifier like "Sales-PREMIUM", we want to check for a feature identifier like "SALE-CAL", and have the license server handle the mapping between the price list and the features.
 
-If the pricelist changes, we don't have to update all the checks - just update the license server.
+If the price list changes, we don't have to update all the checks - just update the license server.
 
 ## Visible vs hidden licenses
 
@@ -34,12 +36,14 @@ In the olden days we sold CALs (Client Access Licenses) directly. To use the web
 
 These days we follow the same principle. Feature licenses are split into two parts:
 
-* `feature` - a system license to indicate that the feature is present and activated.
+* **feature:** a system license to indicate that the feature is present and activated.
   Often a user without a CAL should still be able to view the feature in read-only mode.
-* `feature-cal` - a user license to indicate that the user has edit rights on the feature.
+* **feature-cal:** a user license to indicate that the user has edit rights on the feature.
 
 The navigator will check if the `feature` system license is present.
+
 The edit button will check if the `feature-cal` user license is on. If the user doesn't have it, the edit button will be disabled.
+
 The admin client will check if the `feature` system license is present, and hide the corresponding admin page if missing.
 
 ## Sub-features
@@ -48,12 +52,12 @@ Sometimes an existing feature will be split into pieces in order for parts to be
 
 For example:
 
-* `selection` - system license that controls the selection panel visibility.
-* `selection-cal` - user license that controls selection edit button.
-* `selection-combined-cal` - user license that controls access to creating combined selections.
-  The "combined-cal" license was added later to .
+* **selection:** system license that controls the selection panel visibility.
+* **selection-cal:** user license that controls selection edit button.
+* **selection-combined-cal:** user license that controls access to creating combined selections.
+  The "combined-cal" license was added later to.
 
-Similarly new licenses for "escalate" , "inbox-filter", and "request-batch" were added to help differentiate the essential and premium layers of service user plans. The code checks for "escalate", not the user plan, so that we can easily change the licenses in a particular userplan without updating the client.
+Similarly new licenses for "escalate" , "inbox-filter", and "request-batch" were added to help differentiate the essential and premium layers of service user plans. The code checks for "escalate", not the user plan, so that we can easily change the licenses in a particular user plan without updating the client.
 
 ## Checking for licenses
 
@@ -127,16 +131,18 @@ The current user principal will give you a list of the current user's assigned l
 ```
 
 So from this we can see we have a `superoffice.server` site license, and the current user has been assigned a `superoffice.guide-cal` user license, courtesy of their `superoffice.ten-salesservicemarketing` user-plan license.
-Note that user-licenses that are not assigned to the user do not appear in the payload - so if you want to know if the license exists use the `/api/v1/License/ownername/modulename` endpoint to check.
 
-The currentPrincipal also has useful information like the role function-rights.
+> [!NOTE]
+> User licenses that are not assigned to the user do not appear in the payload. So if you want to know if the license exists, use the `/api/v1/License/ownername/modulename` endpoint to check.
+
+The `currentPrincipal` also has useful information like the role function-rights.
 
 <!-- Referenced links-->
 [1]: user-plans.md
-[2]: @SuperOffice.License.SoLicenseNames
+[2]: <xref:SuperOffice.License.SoLicenseNames>
 [3]: hidden-licenses.md
-[4]: @v1LicenseAgent_GetUserLicenses
-[5]: @v1License_GetThirdPartyLicenseAssignments
-[6]: @v1User_GetCurrentPrincipal
+[4]: ../../../api/reference/restful/agent/License_Agent/v1LicenseAgent_GetUserLicenses.md
+[5]: ../../../api/reference/restful/agent/License_Agent/v1License_GetThirdPartyLicenseAssignments.md
+[6]: ../../../api/reference/restful/agent/License_Agent/v1User_GetCurrentPrincipal.md
 
 <!-- Referenced images -->
