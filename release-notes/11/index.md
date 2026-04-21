@@ -33,7 +33,7 @@ See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service,
 ### 11.11 (17.03.2026)
 
 * [User setup to configure e-mail and document management][36] in Service
-* [Forms - Custom styling of your form][37] in Service
+* [Forms - Custom styling of your form][37] in Marketing
 * [Requests - Created date to use in columns and criteria][38] in Service
 * [Subscription page styling - Change text Unsubscribe and Confirmations pages][39] in Settings and maintenance
 

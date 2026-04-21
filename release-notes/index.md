@@ -64,10 +64,10 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 * [Synchronizer: See attendees and don't lose edits][16] (available from Synchronizer v.117 - 16.02.2026)
 * [SuperOffice Online Replication: Stream CRM data to own infrastructure][16] (available from 13.02.2026)
-* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
-* [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
-* [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
+* [SuperOffice Service - Custom objects][22] (available from 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][21] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
+* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
 
 ## How to navigate this content
 
@@ -100,6 +100,8 @@ We use **pilot programs** to assess how well the features and functions meet our
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [19]: ../docs/en/onsite/version-history.md
 [20]: ../integrations/supernotes/index.md
+[21]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/ai-lab/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
+[22]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/custom-objects/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
