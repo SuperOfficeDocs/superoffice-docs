@@ -26,6 +26,8 @@ items:
 - name: Settings and Maintenance
   href: admin/index.md
   items:
+  - name: 11.13 update
+    href: admin/11.13-update.md
   - name: 11.12 update
     href: admin/11.12-update.md
   - name: 11.11 update
@@ -66,6 +68,8 @@ items:
 - name: Marketing
   href: marketing/index.md
   items:
+  - name: 11.13 update
+    href: marketing/11.13-update.md
   - name: 11.11 update
     href: marketing/11.11-update.md
   - name: 11.9 update
