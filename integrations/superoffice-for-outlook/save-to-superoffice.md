@@ -3,9 +3,9 @@ uid: sofo-save-to-superoffice
 title: Save to SuperOffice
 description: Save to SuperOffice
 keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, send and archive, save attachment, SOFO
-author: Erik Lebiko, Bergfrid Dias
-date: 12.18.2025
-version_sofo: 2024.8.12
+author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
+date: 04.16.2026
+version_sofo: 6.2.0
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
@@ -36,11 +36,18 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 1. [Open SuperOffice for Outlook][1] (if not pinned)​.
 
+1. The SuperOffice sidebar will attempt to match the sender to a contact. If the email address is associated with multiple contacts in SuperOffice, you will be prompted to select the correct contact. The Company and Contact fields will then populate when you select your action.
+
 1. Choose the appropriate action in the SuperOffice sidebar.
 
 1. Make any necessary changes to the fields.
 
+1. By default, **Include attachments** is selected. Uncheck it if you want to archive the email without its attachments.
+
 1. Click **Save** to archive the email.
+
+> [!NOTE]
+> Attachments are included by default. Uncheck **Include attachments** only if you want to store the email body without the attached files.
 
 ![SuperOffice for Outlook, archive email -screenshot][img1]
 
@@ -67,16 +74,17 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 
 1. Select **New mail** in Outlook.
 
-1. [Open SuperOffice for Outlook][1] (if not pinned)​.
+1. [Open SuperOffice for Outlook][1].
 
-1. Turn **Archive email in SuperOffice** on.
+1. The **Archive email in SuperOffice** toggle is turned on by default. Turn it 
+   off if you do not want this email archived in SuperOffice.
 
     ![SuperOffice for Outlook, send and archive -screenshot][img2]
 
     > [!NOTE]
     > Bcc to **SuperOffice Mail Archive** is required to ensure the email is archived in SuperOffice.
 
-1. Add recipients to the **To** field. If their email is known to SuperOffice, the Company and Contact fields will auto-fill.
+1. Add recipients to the **To** field. If their email is known to SuperOffice, the Company and Contact fields will auto-fill. If the email address is associated with multiple contacts in SuperOffice, you will be prompted to select the correct one before the fields populate.
 
 1. Fill in any missing information or make adjustments as needed.
 
