@@ -14,6 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Marketing
 
+* [Forms - Add custom contact and company fields (11.13)][13]
 * [Forms - Custom styling of your form (11.11)][11]
 * [Form - Use Google fonts in your forms (11.9)][9]
 * [Settings and maintenance – Marketing screen with conversion tracking (UTM) (11.6)][6]
@@ -31,3 +32,4 @@ audience_tooltip: SuperOffice CRM
 [6]: 11.6-update.md
 [9]: 11.9-update.md
 [11]: 11.11-update.md
+[13]: 11.13-update.md
