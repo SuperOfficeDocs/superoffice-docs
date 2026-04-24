@@ -25,7 +25,9 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 > [!NOTE]
 > **Zapier - Breaking changes:** Starting from version 3.5, the API response structure changes because id, body, and attachments are now moved under the new message property.
 
-### [Current released versions][6]
+### Product releases
+
+[Current released versions][6]
 
 * [ConnectERP][6] 156.0 (13.04.2026)
 * [DataBridge][6] 156.0 (13.04.2026)
