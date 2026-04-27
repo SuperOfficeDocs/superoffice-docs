@@ -14,7 +14,7 @@ language: en
 
 # New and improved Settings and maintenance
 
-* [Marketing - Form fields restrictions (11.13)][13]
+* [Marketing - Form field restrictions (11.13)][13]
 * [Requests - Add relation rules (11.12)][12]
 * [Subscription page styling - Change text Unsubscribe and Confirmations pages (11.11)][11]
 * [Marketing - Subscription page styling (11.10)][10]

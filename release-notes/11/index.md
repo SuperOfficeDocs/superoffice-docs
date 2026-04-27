@@ -9,6 +9,7 @@ version: 11
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # What's new in SuperOffice 11
@@ -27,8 +28,8 @@ See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service,
 
 ### 11.13 (28.04.2026)
 
-* [Forms - Add custom contact and company fields][41] in Marketing
-* [Marketing - Form fields restrictions][40] in Settings and maintenance
+* [Forms - Add custom contact and company fields][42] in Marketing
+* [Marketing - Form field restrictions][43] in Settings and maintenance
 
 ### 11.12 (07.04.2026)
 
@@ -177,5 +178,7 @@ Some features are available to selected customers as part of ongoing pilots. See
 [39]: admin/11.11-update.md
 [40]: admin/11.12-update.md
 [41]: service/11.12-update.md
+[42]: marketing/11.13-update.md
+[43]: admin/11.13-update.md
 
 <!-- Referenced images -->

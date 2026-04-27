@@ -10,6 +10,7 @@ content_type: release-note
 category: marketing
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # New and improved Marketing
