@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 04.08.2026
+date: 04.28.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,22 +16,22 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest online release is [**version 11.12**][11] - 08.04.2026.
+The latest SuperOffice Online release is [**version 11.13**][11] - 04.05.2026.
 
 Recent versions:
 
-* [11.1 - 11.10][11]
-* [10.5][9]
+* [11.1 - 11.13][11]
+* [10.5][10]
 
 Older versions are listed in the table of contents.
 
-### Onsite
+### SuperOffice Onsite
 
-The latest onsite release is **11.10** - 02.03.2026. See the [version history][19] for details.
+The latest onsite release is **11.13** - 13.05.2026. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.10**][7] - 18.03.2026.
+The latest release is [**version 11.1.11**][7] - 17.04.2026.
 
 ## Product integrations
 
@@ -64,10 +64,10 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 * [Synchronizer: See attendees and don't lose edits][16] (available from Synchronizer v.117 - 16.02.2026)
 * [SuperOffice Online Replication: Stream CRM data to own infrastructure][16] (available from 13.02.2026)
-* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
-* [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
-* [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
+* [SuperOffice Service - Custom objects][22] (available from 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][21] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
+* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
 
 ## How to navigate this content
 
@@ -89,7 +89,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 <!-- Referenced links-->
 [7]: mobile/index.md
-[9]: 10.5/index.md
+[10]: 10.5/index.md
 [11]: 11/index.md
 [12]: integrations/index.md
 [13]: ../integrations/superoffice-for-outlook/index.md
@@ -100,6 +100,8 @@ We use **pilot programs** to assess how well the features and functions meet our
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [19]: ../docs/en/onsite/version-history.md
 [20]: ../integrations/supernotes/index.md
+[21]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/ai-lab/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
+[22]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/custom-objects/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

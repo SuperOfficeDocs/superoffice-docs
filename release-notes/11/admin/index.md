@@ -3,7 +3,7 @@ uid: news-admin-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Settings and maintenance 11
 author: kirstiaa
-date: 04.08.2026
+date: 05.04.2026
 version: 11
 content_type: release-note
 category: Settings and maintenance
@@ -14,6 +14,7 @@ language: en
 
 # New and improved Settings and maintenance
 
+* [Marketing - Form field restrictions (11.13)][13]
 * [Requests - Add relation rules (11.12)][12]
 * [Subscription page styling - Change text Unsubscribe and Confirmations pages (11.11)][11]
 * [Marketing - Subscription page styling (11.10)][10]
@@ -38,3 +39,4 @@ language: en
 [10]: 11.10-update.md
 [11]: 11.11-update.md
 [12]: 11.12-update.md
+[13]: 11.13-update.md
