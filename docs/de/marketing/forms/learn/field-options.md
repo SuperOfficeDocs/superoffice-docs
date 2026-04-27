@@ -4,8 +4,8 @@ title: Feldoptionen
 description: Feldoptionen
 keywords: Formular, Feld, Feldoption, Formularelement, Ansichtselement
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: marketing
 topic: forms
@@ -21,7 +21,7 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 
 ## SuperOffice-Elemente
 
-* **Ersetzen:** Wählen Sie diese Option, um einen in SuperOffice vorhandenen Wert durch den Wert im Formular zu ersetzen. Dies ist für Angaben wie Land, Titel und Anrede (Herr/Frau) relevant.
+* **Überschreiben von vorhandenen Daten erlauben:** Wählen Sie diese Option, um einen vorhandenen SuperOffice-Wert durch den im Formular übermittelten Wert zu ersetzen. Wenn Sie diese Option aktivieren, wird eine Warnung angezeigt. Wenn diese Option für ein Feld nicht verfügbar ist, wurde es möglicherweise von einem Administrator eingeschränkt. Weitere Informationen finden Sie unter [Einschränkungen für Formularfelder][5].
 
 * **Person - Einwilligung**
 
@@ -95,3 +95,4 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/admin/add-purpose.md
+[5]: ../admin/form-field-restrictions.md

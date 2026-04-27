@@ -21,3 +21,5 @@ items:
   href: tutorial-sign-up.md
 - name: Administrere skrifttyper til formularer
   href: ../admin/manage-fonts.md
+- name: Begrænsninger for formularfelter
+  href: ../admin/form-field-restrictions.md

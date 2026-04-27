@@ -21,3 +21,5 @@ items:
   href: tutorial-sign-up.md
 - name: Lettertypen voor formulieren beheren
   href: ../admin/manage-fonts.md
+- name: Restricties voor formuliervelden
+  href: ../admin/form-field-restrictions.md

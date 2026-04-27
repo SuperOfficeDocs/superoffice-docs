@@ -4,8 +4,8 @@ title: Ein neues Formular erstellen
 description: In dieser Anleitung lernen Sie, wie Sie ein Web-Formular erstellen können.
 keywords: Formular, Web-Formular, Opt-in
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
@@ -85,13 +85,13 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
 3. Wählen Sie im Fenster **Element hinzufügen** eine der folgenden Feldkategorien aus:
 
-    * **SuperOffice-Elemente**: Diese Felder sind mit SuperOffice-Daten wie dem Namen, dem Land, der E-Mail-Adresse der Person usw. verknüpft. Je nach Feldtyp können Werte aus übermittelten Formularen vorhandene Werte (wie Land oder Titel) ersetzen oder zum betreffenden SuperOffice-Feld hinzugefügt werden (wie die Mobilfunknummer).
+    * **SuperOffice-Elemente**: Diese Felder sind mit SuperOffice-Daten wie dem Namen, dem Land, der E-Mail-Adresse der Person usw. verknüpft. Standard- und benutzerdefinierte Felder sind verfügbar. Je nach Feldtyp können Werte aus übermittelten Formularen vorhandene Werte überschreiben oder zum betreffenden SuperOffice-Feld hinzugefügt werden. Wenn Sie das Überschreiben für ein Feld aktivieren, wird eine Warnung angezeigt. Wenn ein Feld fehlt oder die Option zum Überschreiben nicht verfügbar ist, wurde es möglicherweise von einem Administrator mit einer [Feldeinschränkung][10] belegt.
 
     * **Formularelemente**: Diese Felder dienen zur Eingabe von Text oder Datum, zum Auswählen von Werten (Listen, Kontrollkästchen und Optionsfelder) und zum Hochladen von Dateien.
 
     * **Ansichtselemente**: Bereiche, Texte und Bilder. Mit Bereichen können Sie [mehrseitige Formulare erstellen](#multi-page).
 
-4. Wählen Sie ein Feld aus der Liste aus.
+4. Wählen Sie ein Feld aus der Liste aus. Wenn die Liste lang ist, können Sie das Suchfeld verwenden, um ein Feld nach Name zu suchen.
 
 5. Klicken Sie auf **Hinzufügen**. Das Fenster wird geschlossen und das Feld wird zum Formular und zur Formularvorschau hinzugefügt.
 
@@ -207,6 +207,7 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

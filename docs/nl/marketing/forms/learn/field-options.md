@@ -4,8 +4,8 @@ title: Veldopties
 description: Veldopties
 keywords: formulier, veld, veldoptie, formulierelement
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: marketing
 topic: forms
@@ -21,7 +21,7 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 
 ## SuperOffice-elementen
 
-* **Vervangen:** Selecteer deze optie om een bestaande waarde in SuperOffice te vervangen door de waarde in het formulier. Dit is relevant voor land, functie en Dhr./Mw.
+* **Overschrijven van bestaande gegevens toestaan:** Selecteer deze optie om een bestaande waarde in SuperOffice te vervangen door de waarde die is ingediend via het formulier. Er wordt een waarschuwing weergegeven wanneer u deze optie inschakelt. Als deze optie niet beschikbaar is voor een veld, heeft een beheerder dit mogelijk beperkt. Zie [restricties voor formuliervelden][5].
 
 * **Persoon - toestemming**
 
@@ -95,3 +95,4 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/admin/add-purpose.md
+[5]: ../admin/form-field-restrictions.md

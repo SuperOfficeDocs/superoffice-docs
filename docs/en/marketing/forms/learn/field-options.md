@@ -4,8 +4,8 @@ title: Field options
 description: List of fields (and their options) you can add to a SuperOffice Marketing form.
 keywords: form, field, form element, view element, reCAPTCHA
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: marketing
 topic: forms
@@ -21,7 +21,7 @@ This is an overview of special options in some of the available fields.
 
 ## SuperOffice elements
 
-* **Replace:** Select this option to replace an existing value in SuperOffice with the value in the form. This is relevant for country, title and mr/mrs.
+* **Allow overwrite of existing data:** Select this option to replace an existing value in SuperOffice with the value submitted in the form. A warning is displayed when you enable this option. If this option is not available for a field, an administrator may have restricted it. See [form field restrictions][5].
 
 * **Contact - consent**
 
@@ -95,5 +95,6 @@ This is an overview of special options in some of the available fields.
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/admin/add-purpose.md
+[5]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->

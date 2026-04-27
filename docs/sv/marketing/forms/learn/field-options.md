@@ -4,8 +4,8 @@ title: Fältalternativ
 description: Fältalternativ
 keywords: formulär fält, formulärpost, fältalternativ, reCAPTCHA
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: marketing
 topic: forms
@@ -21,7 +21,7 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 
 ## SuperOffice-poster
 
-* **Ersätt:** Välj det här alternativet om du vill ersätta ett befintligt värde i SuperOffice med ett värde i formuläret. Detta gäller för land, rubrik och herr/fru.
+* **Tillåt överskrivning av befintliga data:** Välj det här alternativet om du vill ersätta ett befintligt värde i SuperOffice med värdet som skickades i formuläret. En varning visas när du aktiverar det här alternativet. Om det här alternativet inte är tillgängligt för ett fält kan en administratör ha begränsat det. Se [begränsningar för formulärfält][5].
 
 * **Kontakt – medgivande**
 
@@ -95,3 +95,4 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/admin/add-purpose.md
+[5]: ../admin/form-field-restrictions.md

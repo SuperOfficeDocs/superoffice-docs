@@ -4,8 +4,8 @@ title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
 keywords: formulier, opt-in
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
@@ -85,13 +85,13 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 3. Selecteer in het venster **Element toevoegen** een van de volgende veldcategorieën:
 
-    * **SuperOffice-elementen**: Velden die zijn gekoppeld aan SuperOffice-gegevens, zoals naam van persoon, land, e-mailadres enzovoort. Afhankelijk van het type veld, kunnen waarden van ingediende formulieren zowel bestaande waarden vervangen (zoals land of functie) of worden toegevoegd aan het relevante SuperOffice-veld (zoals mobiel nummer).
+    * **SuperOffice-elementen**: Velden die zijn gekoppeld aan SuperOffice-gegevens, zoals naam van persoon, land, e-mailadres enzovoort. Standaard- en aangepaste velden zijn beschikbaar. Afhankelijk van het type veld, kunnen waarden van ingediende formulieren bestaande waarden overschrijven of worden toegevoegd aan het relevante SuperOffice-veld. Wanneer u overschrijven voor een veld inschakelt, wordt een waarschuwing weergegeven. Als een veld ontbreekt of de overschrijfoptie niet beschikbaar is, heeft een beheerder mogelijk een [veldrestrictie][10] toegepast.
 
     * **Formulierelementen**: Velden om tekst of datum in te voeren, velden om waarden te selecteren (lijsten, selectievakjes en keuzerondjes) en velden om bestanden te uploaden.
 
     * **Elementen weergeven**: Paragrafen, teksten en afbeeldingen. Gebruik secties om [formulieren met meerdere pagina's te maken](#multi-page).
 
-4. Selecteer een veld uit de lijst.
+4. Selecteer een veld uit de lijst. Als de lijst lang is, gebruikt u het zoekvak om een veld op naam te vinden.
 
 5. Klik op **Toevoegen**. Het venster wordt gesloten en het veld wordt toegevoegd aan het formulier en het formuliervoorbeeld.
 
@@ -207,6 +207,7 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
