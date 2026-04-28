@@ -4,8 +4,8 @@ title: Konten verbinden
 description: So verwenden Sie den Assistenten Benutzereinrichtung, um Ihr E-Mail-Konto und Ihre Dokumentenverwaltung mit SuperOffice CRM zu verbinden.
 keywords: Benutzereinrichtung, E-Mail-Verbindung, Dokumentenverwaltung, WebTools, E-Mail verbinden, E-Mail-Konto, Assistent, persönliche Einstellungen
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,7 @@ language: de
 
 # Konten verbinden
 
-*Verfügbar für neue Kunden ab 11.11, für alle Kunden ab 11.13.*
+*Verfügbar für neue SuperOffice Online-Kunden ab 11.11. Wird ab 11.13 schrittweise für alle SuperOffice Online-Kunden eingeführt. Nicht verfügbar für Onsite-Installationen.*
 
 Als neuer Benutzer oder beim Einrichten eines neuen Computers sollten Sie Ihr E-Mail-Konto und Ihre Dokumentenverwaltung mit SuperOffice verbinden. Dies ermöglicht Ihnen:
 

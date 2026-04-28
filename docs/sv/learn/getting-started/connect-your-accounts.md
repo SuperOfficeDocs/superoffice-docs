@@ -4,8 +4,8 @@ title: Anslut dina konton
 description: Hur du använder guiden Användarinställningar för att ansluta ditt e-postkonto och dokumenthantering till SuperOffice CRM.
 keywords: användarinställningar, e-postanslutning, dokumenthantering, WebTools, anslut e-post, e-postkonto, guide, personliga inställningar
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,7 @@ language: sv
 
 # Anslut dina konton
 
-*Tillgänglig för nya kunder från 11.11, tillgänglig för alla kunder från 11.13.*
+*Tillgänglig för nya SuperOffice Online-kunder från 11.11. Rullas ut gradvis till alla SuperOffice Online-kunder från 11.13. Inte tillgänglig för onsite-installationer.*
 
 Som ny användare, eller när du konfigurerar en ny dator, bör du ansluta ditt e-postkonto och din dokumenthantering till SuperOffice. Det gör att du kan:
 

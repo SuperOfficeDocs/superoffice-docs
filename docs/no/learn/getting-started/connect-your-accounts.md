@@ -4,8 +4,8 @@ title: Koble til kontoene dine
 description: Slik bruker du veiviseren Brukeroppsett til å koble e-postkontoen og dokumenthåndteringen din til SuperOffice CRM.
 keywords: brukeroppsett, e-posttilkobling, dokumenthåndtering, WebTools, koble til e-post, e-postkonto, veiviser, personlige innstillinger
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,7 @@ language: no
 
 # Koble til kontoene dine
 
-*Tilgjengelig for nye kunder fra 11.11, tilgjengelig for alle kunder fra 11.13.*
+*Tilgjengelig for nye SuperOffice Online-kunder fra 11.11. Rulles gradvis ut til alle SuperOffice Online-kunder fra 11.13. Ikke tilgjengelig for onsite-installasjoner.*
 
 Som ny bruker, eller når du setter opp en ny datamaskin, bør du koble e-postkontoen og dokumenthåndteringen din til SuperOffice. Dette lar deg:
 

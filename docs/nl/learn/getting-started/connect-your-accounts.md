@@ -4,8 +4,8 @@ title: Accounts koppelen
 description: Hoe je de wizard Gebruikersinstellingen gebruikt om je e-mailaccount en documentbeheer te koppelen aan SuperOffice CRM.
 keywords: gebruikersinstellingen, e-mailverbinding, documentbeheer, WebTools, e-mail koppelen, e-mailaccount, wizard, persoonlijke instellingen
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,7 @@ language: nl
 
 # Accounts koppelen
 
-*Beschikbaar voor nieuwe klanten vanaf 11.11, beschikbaar voor alle klanten vanaf 11.13.*
+*Beschikbaar voor nieuwe SuperOffice Online-klanten vanaf 11.11. Wordt geleidelijk uitgerold naar alle SuperOffice Online-klanten vanaf 11.13. Niet beschikbaar voor onsite-installaties.*
 
 Als nieuwe gebruiker, of bij het instellen van een nieuwe computer, moet je je e-mailaccount en documentbeheer koppelen aan SuperOffice. Hiermee kun je:
 

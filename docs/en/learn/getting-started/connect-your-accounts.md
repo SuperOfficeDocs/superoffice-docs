@@ -4,8 +4,8 @@ title: Connect your accounts
 description: How to use the User setup wizard to connect your email account and document handler to SuperOffice CRM.
 keywords: user setup, email connectivity, document handler, WebTools, connect email, email account, wizard, personal settings
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,7 @@ language: en
 
 # Connect your accounts
 
-*Available for new customers from 11.11, available for all customers from 11.13.*
+*Available for new SuperOffice Online customers from 11.11. Rolling out gradually to all SuperOffice Online customers from 11.13. Not available for onsite installations.*
 
 As a new user, or when setting up a new computer, you should connect your email account and document handler to SuperOffice. This lets you:
 
