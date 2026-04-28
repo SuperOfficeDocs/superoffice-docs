@@ -4,8 +4,8 @@ title: Tilslut dine konti
 description: Sådan bruger du guiden Brugeropsætning til at tilslutte din e-mailkonto og dokumenthåndtering til SuperOffice CRM.
 keywords: brugeropsætning, e-mailforbindelse, dokumenthåndtering, WebTools, tilslut e-mail, e-mailkonto, guide, personlige indstillinger
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,7 @@ language: da
 
 # Tilslut dine konti
 
-*Tilgængelig for nye kunder fra 11.11, tilgængelig for alle kunder fra 11.13.*
+*Tilgængelig for nye SuperOffice Online-kunder fra 11.11. Rulles gradvist ud til alle SuperOffice Online-kunder fra 11.13. Ikke tilgængelig for onsite-installationer.*
 
 Som ny bruger, eller når du opsætter en ny computer, bør du tilslutte din e-mailkonto og dokumenthåndtering til SuperOffice. Det giver dig mulighed for at:
 

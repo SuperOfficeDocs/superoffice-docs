@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
-> Denne side gælder for version 11.10 og tidligere. Hvis du bruger **SuperOffice Online 11.11 eller nyere**, skal du bruge guiden [Brugeropsætning][1] under **Personlige indstillinger** til at tilslutte dine konti.
+> Denne side gælder for version 11.10 og tidligere og for onsite-installationer. Hvis du er **SuperOffice Online**-kunde, skal du bruge guiden [Brugeropsætning][1] under **Personlige indstillinger** i stedet — tilgængelig for nye kunder fra 11.11, rulles gradvist ud til alle online-kunder fra 11.13.
 
 <!-- Referenced links -->
 [1]: ../../connect-your-accounts.md

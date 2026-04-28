@@ -4,7 +4,7 @@ title: Install Mail Link
 description: Learn how to download, install, and configure SuperOffice Mail Link with Microsoft Outlook.
 keywords: install Mail Link, connect Outlook to SuperOffice, configure Mail Link
 author: digitaldiina
-date: 03.17.2026
+date: 05.04.2026
 content_type: howto
 category: integration
 topic: Mail Link
@@ -26,7 +26,7 @@ index: true
 Mail Link connects Microsoft Outlook to SuperOffice CRM. It is a stand-alone installer and is not part of SuperOffice WebTools.
 
 > [!NOTE]
-> From **SuperOffice Online 11.11** with the *NewEmailConnectivity* feature toggle active in your tenant, SuperOffice CRM will not use Mail Link to send emails or invitations — even if Mail Link is installed. Email is handled directly in SuperOffice.
+> From **SuperOffice Online 11.13**, SuperOffice CRM does not use Mail Link to send emails or invitations when the new email connectivity has been enabled in your tenant — even if Mail Link is installed. This rollout started for new online customers in 11.11 and continues gradually for all online customers from 11.13. Onsite installations are not affected.
 
 ## Download and install
 
