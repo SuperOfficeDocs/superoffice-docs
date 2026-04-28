@@ -4,7 +4,7 @@ title: Benutzereinstellungen für SuperOffice Service
 description: Globale Einstellungen für Benutzereinstellungen für SuperOffice Service
 keywords: Service Einstellungen
 author: digitaldiina
-date: 10.17.2025
+date: 04.28.2026
 version: 11.5
 content_type: reference
 category: Settings and maintenance
@@ -40,7 +40,15 @@ Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einst
 
 * **Standardabsender**: Die Absenderadresse der Standard-E-Mail des Systems. Diese Adresse wird normalerweise durch die Adressen ersetzt, die für die Postfächer eingegeben wurden. Hierbei muss es sich um eine E-Mail-Adresse handeln, die in SuperOffice Service importiert wurde. Zum Beispiel, `<support@company.com>`.
 
-* **E-Mail-Tag**: Aus diesem E-Mail-Tag und der Anfragenummer wird eine eindeutige Kennung in der Betreffzeile von E-Mails erzeugt, die mit SuperOffice Service gesendet werden. Ändern Sie diesen Wert nur, wenn Sie mit den Auswirkungen vertraut sind. Eine Änderung kann zur Folge haben, dass erhaltene E-Mails vorhandenen Anfragen nicht richtig verknüpft werden.
+* **E-Mail-Tag**: Der Name, der als Tag-Schlüssel in der Betreffzeile ausgehender E-Mails verwendet wird. Der Standardwert ist `ejTag`. In Kombination mit der Anfragenummer wird eine eindeutige Kennung erstellt — zum Beispiel `ejTag: 12345` —, die Service verwendet, um eingehende Antworten der richtigen Anfrage zuzuordnen.
+
+    Wenn eine E-Mail eingeht, prüft Service zuerst den Standard-E-Mail-Header `In-Reply-To`, um sie einer vorhandenen Anfrage zuzuordnen. Der E-Mail-Tag in der Betreffzeile wird als Fallback verwendet. Ändern Sie diesen Wert nur, wenn Sie die Konsequenzen verstehen — eine Änderung des Namens unterbricht die Zuordnung für E-Mails, die noch den alten Tag referenzieren.
+
+    > [!NOTE]
+    > Zwei Registrierungseinstellungen ändern dieses Verhalten:
+    >
+    > * **reg_id=72** (Wert `1`): Service durchsucht nur den E-Mail-Header (Betreffzeile) nach dem Tag, nicht den Nachrichtentext.
+    > * **reg_id=175** (Wert `1`): Service prüft die Betreffzeile auf den E-Mail-Tag *bevor* der `In-Reply-To`-Header geprüft wird, was die Standardpriorität umkehrt.
 
 * **Systemzeit**: Wählen Sie, ob ein 24-Stunden-Format und ein 12-Stunden-Format (am/pm) verwendet werden soll. Benutzerspezifische Zeitangaben (zum Beispiel die Anzeige von Anfragen) werden durch die Einstellungen des jeweiligen Benutzers und nicht durch diesen Wert gesteuert.
 

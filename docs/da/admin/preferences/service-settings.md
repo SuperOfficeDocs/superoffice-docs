@@ -4,7 +4,7 @@ title: SuperOffice Service-systemindstillinger
 description: Globale præferencer for SuperOffice Service-systemindstillinger
 keywords: Service indstillinger, globale præferencer
 author: digitaldiina
-date: 10.17.2025
+date: 04.28.2026
 version: 11.5
 content_type: reference
 category: Settings and maintenance
@@ -40,7 +40,15 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigat
 
 * **Standardafsender**: Systemets standardafsenderadresse til e-mails. Denne adresse tilsidesættes normalt af adresserne angivet i e-mailkonti. Der skal være tale om en e-mailadresse, som er importeret til SuperOffice Service. For eksempel, `<support@company.com>`.
 
-* **E-mailkode**: Den e-mailkode, der sammen med sagsnummeret danner en unik nøgle for emnet i e-mails, der udsendes fra SuperOffice Service. Du må ikke ændre denne værdi, medmindre du ved, hvad du gør! Hvis denne værdi ændres, vil modtagne e-mails ikke blive linket korrekt til eksisterende sager.
+* **E-mailkode**: Det navn, der bruges som kodenøgle i emnelinjen for udgående e-mails. Standardværdien er `ejTag`. Kombineret med sagsnummeret danner det en unik identifikator — for eksempel `ejTag: 12345` — som Service bruger til at matche indgående svar med den rigtige sag.
+
+    Når en e-mail modtages, kontrollerer Service først standardheaderen `In-Reply-To` for at matche den med en eksisterende sag. E-mailkoden i emnelinjen bruges som reserve. Undlad at ændre denne værdi, medmindre du forstår konsekvenserne — hvis du ændrer navnet, brydes matchingen for e-mails, der stadig refererer til den gamle kode.
+
+    > [!NOTE]
+    > To registerindstillinger ændrer denne adfærd:
+    >
+    > * **reg_id=72** (værdi `1`): Service søger kun i e-mailheaderen (emnelinjen) efter koden, ikke i brødteksten.
+    > * **reg_id=175** (værdi `1`): Service kontrollerer emnelinjen for e-mailkoden *før* den kontrollerer `In-Reply-To`-headeren, hvilket vender standardprioriteten om.
 
 * **Format for klokkeslæt i systemet**: Vælg, om du vil bruge et 24-timers eller 12-timers (AM/PM) ur i systemet. Brugerspecifikke ure (f.eks. visning af sager) styres af den enkelte brugers indstillinger og ikke af denne værdi.
 

@@ -4,7 +4,7 @@ title: SuperOffice Service system settings
 description: Global preferences for SuperOffice Service system settings
 keywords: Service settings
 author: digitaldiina
-date: 10.17.2025
+date: 04.28.2026
 version: 11.5
 content_type: reference
 category: Settings and maintenance
@@ -40,7 +40,15 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 
 * **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, `support@company.com`.
 
-* **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in emails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received emails will not be correctly linked to existing requests.
+* **Email tag**: The name used as the tag key in outbound email subjects. The default value is `ejTag`. Combined with the request number, it creates a unique identifier — for example, `ejTag: 12345` — that Service uses to match incoming replies to the correct request.
+
+    When an email arrives, Service first checks the standard `In-Reply-To` email header to match it to an existing request. The email tag in the subject line is used as a fallback. Do not change this value unless you understand the consequences — changing the name breaks the match for any emails that still reference the old tag.
+
+    > [!NOTE]
+    > Two registry settings modify this behavior:
+    >
+    > * **reg_id=72** (value `1`): Service searches only the email header (subject) for the tag, not the message body.
+    > * **reg_id=175** (value `1`): Service checks the subject for the email tag *before* checking the `In-Reply-To` header, reversing the default priority.
 
 * **System clock**: Select if to use a 24-hour or 12-hour (am/pm) clock in the system. User-specific clocks (for example, display of requests) are controlled by each individual user's settings, and not by this value.
 
