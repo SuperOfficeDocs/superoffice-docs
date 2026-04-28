@@ -23,3 +23,5 @@ items:
   href: tutorial-sign-up.md
 - name: Manage fonts for forms
   href: ../admin/manage-fonts.md
+- name: Form field restrictions
+  href: ../admin/form-field-restrictions.md

@@ -4,8 +4,8 @@ title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
 keywords: form, form template, multi-page, custom styling, css
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
@@ -85,13 +85,13 @@ In the **Fields** category you add the fields that should be included in the for
 
 3. In the **Add element** window, select one of the following field categories:
 
-    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
+    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Standard and custom fields are available. Depending on the type of field, values from submitted forms can either overwrite existing values or be added to the relevant SuperOffice field. When you enable overwrite for a field, a warning is displayed. If a field is missing or the overwrite option is unavailable, an administrator may have applied a [field restriction][10].
 
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
 
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).
 
-4. Select a field in the list.
+4. Select a field in the list. If the list is long, use the search box to find a field by name.
 
 5. Click **Add**. The window closes and the field is added to the form and the form preview.
 
@@ -239,6 +239,7 @@ Here you can [define what happens when someone submits a form response][3].
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

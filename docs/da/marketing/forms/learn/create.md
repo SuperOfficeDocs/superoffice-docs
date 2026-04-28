@@ -4,8 +4,8 @@ title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
 keywords: formular, webformular
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
@@ -85,13 +85,13 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 3. Vælg en af de følgende feltkategorier i vinduet **Tilføj element**:
 
-    * **SuperOffice-elementer**: Felter, der er knyttet til SuperOffice data, som f.eks. personnavn, land, e-mailadresse osv. Afhængig af felttypen kan værdier fra indsendte formularer enten erstatte eksisterende værdier (f. eks. land eller titel) eller føjes til det relevante SuperOffice-felt (f.eks. mobiltelefon).
+    * **SuperOffice-elementer**: Felter, der er knyttet til SuperOffice-data, som f.eks. personnavn, land, e-mailadresse osv. Standard- og brugerdefinerede felter er tilgængelige. Afhængig af felttypen kan værdier fra indsendte formularer enten overskrive eksisterende værdier eller føjes til det relevante SuperOffice-felt. Når du aktiverer overskrivning for et felt, vises en advarsel. Hvis et felt mangler, eller overskrivningsindstillingen ikke er tilgængelig, kan en administrator have anvendt en [feltbegrænsning][10].
 
     * **Formularelementer**: Felter til indtastning af tekst eller dato, felter til valg af værdier (lister, afkrydsningsfelter og alternativknapper) og filupload-felter.
 
     * **Visningselementer**: Sektioner, tekster og billeder. Brug sektioner til at [oprette formularer](#multi-page) med flere sider.
 
-4. Vælg et felt på listen.
+4. Vælg et felt på listen. Hvis listen er lang, kan du bruge søgefeltet til at finde et felt ved navn.
 
 5. Klik på **Tilføj**. Vinduet lukkes, og feltet føjes til formularen og dens forhåndsvisning.
 
@@ -207,6 +207,7 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

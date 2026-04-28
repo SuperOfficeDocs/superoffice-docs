@@ -21,3 +21,5 @@ items:
   href: tutorial-sign-up.md
 - name: Schriftarten für Formulare verwalten
   href: ../admin/manage-fonts.md
+- name: Einschränkungen für Formularfelder
+  href: ../admin/form-field-restrictions.md

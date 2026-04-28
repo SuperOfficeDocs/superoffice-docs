@@ -21,3 +21,5 @@ items:
   href: tutorial-sign-up.md
 - name: Hantera typsnitt för formulär
   href: ../admin/manage-fonts.md
+- name: Begränsningar för formulärfält
+  href: ../admin/form-field-restrictions.md

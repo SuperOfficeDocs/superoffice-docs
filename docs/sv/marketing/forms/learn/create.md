@@ -4,8 +4,8 @@ title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
@@ -85,13 +85,13 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 3. Välj en av följande fältkategorier i fönstret **Lägg till post**:
 
-    * **SuperOffice-poster**: Fält som är länkade till SuperOffice-data, till exempel kontaktnamn, land, e-postadress och så vidare. Beroende på typ av fält kan värden från inlämnade formulär antingen ersätta befintliga värden (t.ex. land eller titel) eller läggas till i relevant SuperOffice-fält (t.ex. mobiltelefon).
+    * **SuperOffice-poster**: Fält som är länkade till SuperOffice-data, till exempel kontaktnamn, land, e-postadress och så vidare. Standard- och anpassade fält är tillgängliga. Beroende på typ av fält kan värden från inlämnade formulär antingen skriva över befintliga värden eller läggas till i relevant SuperOffice-fält. En varning visas när du aktiverar överskrivning för ett fält. Om ett fält saknas eller överskrivningsalternativet inte är tillgängligt kan en administratör ha tillämpat en [fältbegränsning][10].
 
     * **Formulärposter**: Fält där text eller datum, fält för att välja värden (listor, kryssrutor och alternativknappar) och filöverföringsfält anges.
 
     * **Visa poster**: Avsnitt, texter och bilder. Använd avsnitt för att [skapa flersidiga formulär](#multi-page).
 
-4. Välj ett fält i listan.
+4. Välj ett fält i listan. Om listan är lång kan du använda sökrutan för att hitta ett fält med namn.
 
 5. Klicka på **Lägg till**. Fönstret stängs och fältet läggs till i formuläret och i formulärförhandsvisningen.
 
@@ -207,6 +207,7 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

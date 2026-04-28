@@ -4,8 +4,8 @@ title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
 keywords: skjema, webskjema, nettskjema, påmelding
 author: digitaldiina
-date: 03.17.2026
-version: 11.11
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
@@ -85,13 +85,13 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 3. I vinduet **Legg til element** velger du en av følgende feltkategorier:
 
-    * **SuperOffice-elementer**: Felt som er koblet til SuperOffice-data, for eksempel personnavn, land, e-postadresse og så videre. Avhengig av felttypen kan verdier fra innsendte skjemaer enten erstatte eksisterende verdier (for eksempel land eller tittel) eller legges til det relevante SuperOffice-feltet (for eksempel mobiltelefon).
+    * **SuperOffice-elementer**: Felt som er koblet til SuperOffice-data, for eksempel personnavn, land, e-postadresse og så videre. Standard- og egendefinerte felt er tilgjengelige. Avhengig av felttypen kan verdier fra innsendte skjemaer enten overskrive eksisterende verdier eller legges til det relevante SuperOffice-feltet. Når du aktiverer overskriving for et felt, vises det en advarsel. Hvis et felt mangler eller overskrivingsalternativet ikke er tilgjengelig, kan en administrator ha brukt en [feltbegrensning][10].
 
     * **Skjemaelementer**: Felt for å angi tekst eller dato, felt for å velge verdier (lister, avmerkingsbokser og alternativknapper) og felt for opplasting av filer.
 
     * **Visningselementer**: Seksjoner, tekster og bilder. Bruk seksjoner til å opprette [skjemaer med flere sider](#multi-page).
 
-4. Velg et felt fra listen.
+4. Velg et felt fra listen. Hvis listen er lang, kan du bruke søkeboksen til å finne et felt ved navn.
 
 5. Klikk på **Legg til**. Vinduet lukkes, og feltet legges til skjemaet og forhåndsvisningen av skjemaet.
 
@@ -207,6 +207,7 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
