@@ -4,7 +4,7 @@ title: Systeminnstillinger for SuperOffice Service
 description: Globale preferanser for systeminnstillinger for SuperOffice Service
 keywords: Service preferanser
 author: digitaldiina
-date: 10.17.2025
+date: 04.28.2026
 version: 11.5
 content_type: reference
 category: Settings and maintenance
@@ -40,7 +40,15 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigato
 
 * **Standardavsender**: Systemets standard avsenderadresse for e-post. Denne adressen vil normalt overstyres av adressene som legges inn i e-postkasser. Dette må være en e-postadresse som importeres i SuperOffice Service. For eksempel `<support@company.com>`.
 
-* **E-postkode**: E-postkoden som sammen med saksnummeret danner en unik nøkkel for emnet i e-postmeldinger som sendes ut fra SuperOffice Service. Du må ikke endre denne verdien med mindre du vet hva du gjør! Hvis denne verdien endres, vil ikke e-postmeldinger som mottas, kobles riktig til eksisterende saker.
+* **E-postkode**: Det navnet som brukes som kodenøkkel i emnefeltet for utgående e-postmeldinger. Standardverdien er `ejTag`. Kombinert med saksnummeret danner det en unik identifikator — for eksempel `ejTag: 12345` — som Service bruker til å matche innkommende svar med riktig sak.
+
+    Når en e-postmelding kommer inn, kontrollerer Service først standard-headeren `In-Reply-To` for å matche den med en eksisterende sak. E-postkoden i emnefeltet brukes som reserve. Ikke endre denne verdien med mindre du forstår konsekvensene — endring av navnet bryter matchingen for e-postmeldinger som fortsatt refererer til den gamle koden.
+
+    > [!NOTE]
+    > To registerinnstillinger endrer denne oppførselen:
+    >
+    > * **reg_id=72** (verdi `1`): Service søker bare i e-postheaderen (emnefeltet) etter koden, ikke i brødteksten.
+    > * **reg_id=175** (verdi `1`): Service kontrollerer emnefeltet for e-postkoden *før* den kontrollerer `In-Reply-To`-headeren, noe som reverserer standardprioriteten.
 
 * **Systemklokke**: Velg om du ønsker 24 timers klokke eller 12 timers klokke (am/pm) for systemet. Brukerspesifikke klokkeslett (for eksempel visning av saker) styres av hver enkelt brukers innstillinger, og ikke av denne verdien.
 
