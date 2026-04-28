@@ -3,9 +3,9 @@ uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 keywords: open Diary, Diary screen, calendar, Activities section tab, activities, to-do list, task list, follow-up, diary
-author: Bergfrid Dias
-date: 09.17.2025
-version: 11.3
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

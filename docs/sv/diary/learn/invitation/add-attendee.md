@@ -3,9 +3,9 @@ uid: help-sv-invitation-add-attendee
 title: Lägga till deltagare i händelser
 description: Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning.
 keywords: bjud in kontakt, bjud in kollega, lägg till deltagare, lägg till resurs, möte, inbjudan, deltagare, dagbok, kalender, händelse, förfrågan
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -21,7 +21,7 @@ När du skapar en händelse som omfattar flera kontakter kan du koppla personern
 ## Steg
 
 > [!NOTE]
-> Endast ägaren av uppföljningen kan lägga till (och ta bort) deltagare.
+> Endast ägaren av händelsen kan lägga till (och ta bort) deltagare.
 
 1. [Öppna eller skapa en händelse][3].
 
@@ -46,6 +46,9 @@ När du skapar en händelse som omfattar flera kontakter kan du koppla personern
     ![Händelsesdialog, deltagare tillagda -screenshot][img16]
 
     Om en deltagare inte är tillgänglig visas ett utropstecken bredvid deras namn. Välj ett av de föreslagna tidsluckorna eller klicka på **Kontrollera tillgänglighet** för att hitta en bättre tid.
+
+    > [!NOTE]
+    > För bokningar som skapats i Outlook eller Gmail och synkroniserats till SuperOffice visas deltagare exakt som de visas i det externa kalendersystemet.
 
 1. Valfritt, lägg till platser, rum och/eller resurser.
 
@@ -98,6 +101,14 @@ Externa deltagare meddelas via e-post (om du har valt detta alternativn). E-post
 Om du manuellt vill tacka ja eller nej till en förfrågan för någon annans räkning väljer du namnet i listan och klickar en gång på knappen **Byt status** för att infoga en grön bock, som visar att förfrågan har godtagits, eller två gånger för att infoga ett rött kryss som visar att förfrågan har avböjts.
 
 ## Felsökning
+
+### Varför kan jag inte lägga till eller ta bort deltagare?
+
+Om du inte kan lägga till eller ta bort deltagare från en bokning, kontrollera följande:
+
+* **Du är inte ägaren:** Endast ägaren av händelsen kan lägga till eller ta bort deltagare.
+
+* **Bokning skapad i Outlook eller Gmail:** Om händelsen skapades i Outlook eller Gmail och synkroniserades till SuperOffice via Synchronizer är den skrivskyddad i SuperOffice (förutom SuperOffice-specifika fält som Typ, Företag, Försäljning, Projekt). För att lägga till eller ta bort deltagare, redigera händelsen i det kalendersystem där den ursprungligen skapades.
 
 ### Varför händer ingenting när jag klickar på E-postförfrågan?
 

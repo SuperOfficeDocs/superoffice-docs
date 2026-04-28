@@ -3,9 +3,9 @@ uid: help-de-invitation-add-attendee
 title: Teilnehmer zu Folgeaufgaben hinzufügen
 description: Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen.
 keywords: Teilnehmer einladen, Person einladen, Kollege einladen, Teilnehmer hinzufügen, Ressource hinzufügen, Kalender, Folgeaufgabe, Einladung, Teilnehmer, Besprechung
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -21,9 +21,9 @@ Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie
 ## Schritte
 
 > [!NOTE]
-> Nur der Besitzer der Foleaufgabe kann Teilnehmer hinzufügen (und entfernen).
+> Nur der Besitzer der Folgeaufgabe kann Teilnehmer hinzufügen (und entfernen).
 
-1. [Öffnen oder erstellen Sie eine Folgeafugabe][3].
+1. [Öffnen oder erstellen Sie eine Folgeaufgabe][3].
 
 1. Klicken Sie auf die **Einladen**-Schaltfläche. Dadurch wird der Dialog erweitert.
 
@@ -45,6 +45,9 @@ Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie
 
     Wenn ein Teilnehmer nicht verfügbar ist, wird ein Ausrufezeichen neben seinem Namen angezeigt. Wählen Sie einen der vorgeschlagenen Zeitfenster aus oder klicken Sie auf **Verfügbarkeit überprüfen**, um eine bessere Zeit zu finden.
 
+    > [!NOTE]
+    > Für Besprechungen, die in Outlook oder Gmail erstellt und mit SuperOffice synchronisiert wurden, werden Teilnehmer genau so angezeigt, wie sie im externen Kalendersystem erscheinen.
+
     ![Folgeaufgabedialog, hinzugefügte Teilnehmer -screenshot][img16]
 
 1. Optional, fügen Sie Standorte, Räume und/oder Ressourcen hinzu.
@@ -59,7 +62,7 @@ Der Terminassistent ist Teil den **Folgeaufgabe**-Dialog. Der detaillierte Kalen
 
 ![Folgeaufgabedialog, Terminassistent -screenshot][img18]
 
-1. Im **Folgeaufabe**-Dialog klicken Sie auf **Verfügbarkeit prüfen.**
+1. Im **Folgeaufgabe**-Dialog klicken Sie auf **Verfügbarkeit prüfen.**
 
 1. Klicken Sie und ziehen Sie den Zeiger nach links oder rechts, um eine Besprechungszeit auszuwählen. Zum Beispiel von 13.30 bis 15:00, wie in diesem Bildschirmfoto grün dargestellt. Verwenden Sie die Scrollleiste, um zwischen den Tagen zu wechseln.
 
@@ -80,6 +83,7 @@ Wenn Sie auf **Speichern und senden** klicken, wird eine Vorschau der E-Mail bas
 
     > [!NOTE]
     > Alle Änderungen, die in der Vorschau vorgenommen werden, werden **nicht** zurück in die Folgeaufgabe gespeichert.
+
 1. Wenn Sie bereit sind, klicken Sie auf **Senden**.
 
 ## Was passiert als nächstes
@@ -97,6 +101,14 @@ Externe Teilnehmer werden per E-Mail benachrichtigt (wenn Sie diese Alternative 
 Wenn Sie eine Einladung im Namen einer anderen Person manuell akzeptieren oder ablehnen wollen, wählen Sie den Namen in der Liste aus und klicken einmal auf die Schaltfläche **Status ein-/ausblenden**, um ein grünes Häkchen einzufügen. Klicken Sie zweimal, um ein rotes Kreuz einzufügen, wenn die Einladung abgelehnt werden soll.
 
 ## Fehlerbehebung
+
+### Warum kann ich keine Teilnehmer hinzufügen oder entfernen?
+
+Wenn Sie keine Teilnehmer zu einer Besprechung hinzufügen oder entfernen können, überprüfen Sie Folgendes:
+
+* **Sie sind nicht der Eigentümer:** Nur der Eigentümer der Folgeaufgabe kann Teilnehmer hinzufügen oder entfernen.
+
+* **Besprechung in Outlook oder Gmail erstellt:** Wenn die Besprechung in Outlook oder Gmail erstellt und über Synchronizer mit SuperOffice synchronisiert wurde, ist sie in SuperOffice schreibgeschützt (außer SuperOffice-spezifische Felder wie Typ, Firma, Verkauf, Projekt). Um Teilnehmer hinzuzufügen oder zu entfernen, bearbeiten Sie die Besprechung in dem Kalendersystem, in dem sie ursprünglich erstellt wurde.
 
 ### Warum passiert nichts, wenn ich auf E-Mail-Einladung klicke?
 

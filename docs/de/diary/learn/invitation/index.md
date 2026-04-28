@@ -3,9 +3,9 @@ uid: help-de-invitation
 title: Folgeaufgaben bei anderen Mitarbeitern eintragen
 description: Folgeaufgaben bei anderen Mitarbeitern eintragen
 keywords: Kalender, Folgeaufgabe, Einladung, Besprechung, Teilnehmer, einladen
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

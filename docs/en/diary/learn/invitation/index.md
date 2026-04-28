@@ -3,9 +3,9 @@ uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
 keywords: invitation, invite, meeting, associate, attendee, participant, diary, follow-up, appointment, calendar
-author: Bergfrid Dias
-date: 01.13.2025
-version: 10.5
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

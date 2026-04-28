@@ -3,9 +3,9 @@ uid: help-da-invitation-add-attendee
 title: Tilføjelse af deltagere i opfølgninger
 description: Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale.
 keywords: lägg till deltagare, tilføj deltagere, vælg deltagere, lägg till ressourc, dagbog, opfølgning, invitation, deltager, tjek tilgængelighed, inviter
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,6 +46,9 @@ Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan d
     ![Opfølgingsdialog, deltagere tilføjet -screenshot][img16]
 
     Hvis en deltager ikke er tilgængelig, vises et udråbstegn ved siden af deres navn. Vælg en af de foreslåede tidspunkter eller klik på **Tjek tilgængelighed** for at finde et bedre tidspunkt.
+
+    > [!NOTE]
+    > For møder oprettet i Outlook eller Gmail, der er synkroniseret til SuperOffice, vises deltagere nøjagtigt som de fremstår i det eksterne kalendersystem.
 
 1. Valgfrit, tilføj steder, rum og/eller ressourcer.
 
@@ -102,6 +105,14 @@ Eksterne deltagere bliver påmindet via e-mail (hvis du har valgt denne indstill
 Hvis du vil acceptere eller afvise en invitation på vegne af en anden, skal du vælge navnet på listen og klikke én gang på knappen **Skift status** for at indsætte en grøn markering, som viser, at invitationen er accepteret, eller klikke to gange for at sætte et rødt kryds, som viser, at invitationen er afvist.
 
 ## Fejlfinding
+
+### Hvorfor kan jeg ikke tilføje eller fjerne deltagere?
+
+Hvis du ikke kan tilføje eller fjerne deltagere fra et møde, skal du tjekke følgende:
+
+* **Du er ikke ejeren:** Kun ejeren af opfølgningen kan tilføje eller fjerne deltagere.
+
+* **Møde oprettet i Outlook eller Gmail:** Hvis mødet blev oprettet i Outlook eller Gmail og synkroniseret til SuperOffice via Synchronizer, er det skrivebeskyttet i SuperOffice (undtagen SuperOffice-specifikke felter som Type, Firma, Salg, Projekt). For at tilføje eller fjerne deltagere skal du redigere mødet i det kalendersystem, hvor det oprindeligt blev oprettet.
 
 ### Hvorfor sker der ikke noget, når jeg klikker på E-mailinvitation?
 

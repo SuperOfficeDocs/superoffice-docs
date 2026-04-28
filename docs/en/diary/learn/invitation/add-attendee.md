@@ -3,9 +3,9 @@ uid: help-en-invitation-add-attendee
 title: Add attendees and resources to follow-up
 description: This how-to guide will show how you to add attendees to a follow-up.
 keywords: invite contact, invite associate, add attendee, add resource, meeting, invitation, participant, attendee, diary, follow-up
-author: Bergfrid Dias
-date: 01.13.2025
-version: 10.5
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,6 +46,9 @@ When you create a follow-up that concerns other people, you can add them as atte
     ![Follow-up dialog, attendees added -screenshot][img16]
 
     If an attendee is unavailable, an exclamation mark is shown next to their name. Choose one of the suggested time slots or click **Check availability** to find a better time.
+
+    > [!NOTE]
+    > For meetings created in Outlook or Gmail that are synced to SuperOffice, attendees are shown exactly as they appear in the external calendar system.
 
 1. Optionally, add locations, rooms, and/or resources.
 
@@ -98,6 +101,14 @@ External attendees are notified via email (if you selected this option). Invitat
 To manually accept or decline an invitation on behalf of someone, select their name in the list and click the **Toggle Status** button one time to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
 
 ## Troubleshooting
+
+### Why can I not add or remove attendees?
+
+If you are unable to add or remove attendees from a meeting, check the following:
+
+* **You are not the owner:** Only the owner of the follow-up can add or remove attendees.
+
+* **Meeting was created in Outlook or Gmail:** If the meeting was created in Outlook or Gmail and synced to SuperOffice via Synchronizer, it is read-only in SuperOffice. To add or remove attendees, edit the meeting in the calendar system where it was originally created.
 
 ### Why does nothing happen when I click Email Invitation?
 

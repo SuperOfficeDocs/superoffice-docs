@@ -3,9 +3,9 @@ uid: help-no-invitation-add-attendee
 title: Legge til deltakere i oppfølginger
 description: Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale.
 keywords: inviter deltaker, inviter person, inviter kollega, legg til deltaker, legg til ressurs, dagbok, oppfølging, invitasjon, deltaker, møte
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,6 +46,9 @@ Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte 
     ![Oppfølgingsdialog, deltakere lagt til -screenshot][img16]
 
     Hvis en deltaker er utilgjengelig, vises et utropstegn ved siden av navnet deres. Velg en av de foreslåtte tidspunktene eller klikk på **Sjekk tilgjengelighet** for å finne en bedre tid.
+
+    > [!NOTE]
+    > For møter opprettet i Outlook eller Gmail som er synkronisert til SuperOffice, vises deltakere nøyaktig slik de vises i det eksterne kalendersystemet.
 
 1. Valgfritt, legg til steder, rom og/eller ressurser.
 
@@ -98,6 +101,14 @@ Eksterne deltakere blir varslet via e-post (hvis du valgte dette alternativet). 
 Hvis du vil godta eller avslå en invitasjon på vegne av noen, velger du navnet i listen og klikker på **Bytt status**-knappen for å sette inn en grønn hake som viser at invitasjonen er godtatt, eller klikk to ganger for å sette inn et rødt kryss som viser at invitasjonen er avslått.
 
 ## Feilsøking
+
+### Hvorfor kan jeg ikke legge til eller fjerne deltakere?
+
+Hvis du ikke kan legge til eller fjerne deltakere fra en oppfølging, kontroller følgende:
+
+* **Du er ikke eieren:** Bare eieren av oppfølgingen kan legge til eller fjerne deltakere.
+
+* **Møte opprettet i Outlook eller Gmail:** Hvis møtet ble opprettet i Outlook eller Gmail og synkronisert til SuperOffice via Synchronizer, er det skrivebeskyttet i SuperOffice (bortsett fra SuperOffice-spesifikke felt som Type, Firma, Salg, Prosjekt). For å legge til eller fjerne deltakere, rediger møtet i kalendersystemet der det opprinnelig ble opprettet.
 
 ### Hvorfor skjer det ikke noe når jeg klikker på E-postinvitasjon?
 

@@ -3,9 +3,9 @@ uid: help-nl-invitation
 title: Vervolgactiviteiten met andere medewerkers maken
 description: Vervolgactiviteiten met andere medewerkers maken
 keywords: agenda, vervolgactiviteit, uitnodiging, weergegeven
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

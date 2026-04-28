@@ -3,9 +3,9 @@ uid: help-en-follow-up-edit
 title: Edit follow-up
 description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation; Edit repeating follow-up
 keywords: edit follow-up, update follow-up, extend meeting, shorten meeting, change only this instance, delete follow-up, cancel meeting, diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
-author: Bergfrid Dias
-date: 01.10.2025
-version: 10.5
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -29,6 +29,8 @@ If you edit the time, date, or location of a follow-up - or delete an invitation
 2. [Make the required changes in the dialog.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
+
+    **Using Synchronizer:** If the meeting originates in Outlook or Gmail and is synced to SuperOffice via Synchronizer, most fields are read-only. You can edit only these SuperOffice-specific fields: **Alarm**, **Type**, **Company**, **Busy/Free**, **Sale**, **Project**, **Internal notes**, **Priority**, and **Completed**. Everything else stays read-only to avoid changes being overwritten during the next sync.
 
 3. Click **Save**.
 
@@ -71,11 +73,13 @@ If you change the start time for a single meeting, the rule is not affected. The
 ## <a id="delete"></a>Delete follow-up using the Diary
 
 * If you delete a follow-up you are invited to, the follow-up is removed from your Diary only.
-* If you Delete an invitation that you own from your Diary, this follow-up also disappears from the invitees' diaries.
+* If you delete an invitation that you own from your Diary, this follow-up also disappears from the invitees' diaries.
 
 1. Select the required follow-up.
 1. Right-click and choose **Delete**.
 1. Choose **Yes** to confirm the deletion or **No** to keep the follow-up in the confirmation dialog.
+
+You can delete meetings created in Outlook or Gmail in SuperOffice once they are more than 7 days old.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 

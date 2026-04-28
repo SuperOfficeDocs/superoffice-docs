@@ -3,9 +3,9 @@ uid: help-da-invitation
 title: Oprettelse af opfølgninger med dine medarbejdere
 description: Oprettelse af opfølgninger med dine medarbejdere
 keywords: dagbog, opfølgning, invitation, møde
-author: Bergfrid Dias
-date: 02.21.2025
-version: 10.5.2
+author: digitaldiina
+date: 03.27.2026
+version: 11.11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
