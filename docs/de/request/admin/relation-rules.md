@@ -116,5 +116,5 @@ Ein größerer Dienstausfall generiert mehrere einzelne Problemberichte von betr
 [3]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/request/relation-rules.png
-[img2]: ../../../../media/loc/en/request/add-relation-rule.png
+[img1]: ../../../media/loc/en/request/relation-rules.png
+[img2]: ../../../media/loc/en/request/add-relation-rule.png

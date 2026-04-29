@@ -31,4 +31,4 @@ Andre støttede filtyper:
 Se også støtte for [Open Document Format][1].
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/library/it/odf.md
+[1]: https://docs.superoffice.com/en/document/library/it/odf.html

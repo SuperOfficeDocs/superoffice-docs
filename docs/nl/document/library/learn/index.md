@@ -50,7 +50,7 @@ Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Onli
 * [Configureer SharePoint documentbibliotheek (5-stappen wizard)][5]
 
 <!-- Referenced links -->
-[2]: ../../../../en/document/library/it/index.md
+[2]: https://docs.superoffice.com/en/document/library/it/index.html
 [3]: https://docs.superoffice.com/integrations/sharepoint-documents/requirements.html
 [4]: https://docs.superoffice.com/integrations/sharepoint-documents/set-up.html
 [5]: https://docs.superoffice.com/integrations/sharepoint-documents/configure-superoffice.html

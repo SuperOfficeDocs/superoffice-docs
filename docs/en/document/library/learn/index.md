@@ -50,7 +50,7 @@ This integration allows you to store all documents and emails in SharePoint Onli
 * [Configure SharePoint document library (5-step wizard)][5]
 
 <!-- Referenced links -->
-[2]: ../../../../en/document/library/it/index.md
+[2]: https://docs.superoffice.com/en/document/library/it/index.html
 [3]: https://docs.superoffice.com/integrations/sharepoint-documents/requirements.html
 [4]: https://docs.superoffice.com/integrations/sharepoint-documents/set-up.html
 [5]: https://docs.superoffice.com/integrations/sharepoint-documents/configure-superoffice.html
