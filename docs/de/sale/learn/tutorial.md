@@ -5,7 +5,7 @@ description: Arbeiten mit einem Verkaufsleitfaden
 keywords: Verkaufsleitfaden, Beispiel
 author: SuperOffice RnD
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

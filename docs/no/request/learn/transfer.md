@@ -5,7 +5,7 @@ description: Be en annen saksbehandler om hjelp
 keywords: overføre sak, tildele sak, endre sakseier, delegere, Egenskaper for sak, saksbehandler, sak
 author: Bergfrid Dias
 date: 02.04.2025
-version: 10.5.1
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

@@ -5,7 +5,7 @@ description: So zeigen Sie E-Mails in der SuperOffice Inbox an, markieren, versc
 keywords: E-Mail öffnen, E-Mail anzeigen, Vorschau, E-Mail verschieben, als gelesen markieren, drucken, E-Mail, SuperOffice Inbox
 author: Bergfrid Dias
 date: 05.23.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

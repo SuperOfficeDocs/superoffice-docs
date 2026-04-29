@@ -5,7 +5,7 @@ description: How to reply to or forward an email from the Activities section tab
 keywords: company
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 language: en
 audience: person

@@ -5,7 +5,7 @@ description: Organiser svarmaler, FAQ-oppføringer, e-postadresser og eksterne d
 keywords: kunnskapsbasemappe, malmappe, FAQ-mappe, opprett mappe, slett mappe
 author: Bergfrid Dias
 date: 07.16.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

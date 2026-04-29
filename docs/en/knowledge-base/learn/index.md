@@ -5,7 +5,7 @@ description: Knowledge Base
 keywords: knowledge base
 author: Kirsti Aakerholt
 date: 07.05.2023
-version: 10.5
+version: 11
 content_type: reference
 category: service
 topic: knowledge base

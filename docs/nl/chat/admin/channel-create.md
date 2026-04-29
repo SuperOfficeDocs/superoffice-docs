@@ -5,7 +5,7 @@ description: Een chatkanaal maken
 keywords: chatkanaal, opmaak van chat-widget, agent toevoegen, offline formulier, formulier voor chat, formulier na chat, transcript inschakelen
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

@@ -5,7 +5,7 @@ description: Priorität erstellen
 keywords: Anfragepriorität erstellen, Anfragepriorität hinzufügen, neue Anfragepriorität, Anfragepriorität, Prioritäten-Registerkarte, Eskalationsereignisse, Eskalationskette, Eskalationssequenz, Anfrage, Priorität
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

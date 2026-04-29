@@ -5,7 +5,7 @@ description: Skærmbilledet Person giver et øjebliksbillede af al kommunikation
 keywords: skærmbilledet Person, kontaktperson, person
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: A link that you include in a mailing can be used to track responses
 keywords: Marketing, mailing, tracked link, Google Analytics
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 topic: mailing

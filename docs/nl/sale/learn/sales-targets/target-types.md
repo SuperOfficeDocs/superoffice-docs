@@ -5,7 +5,7 @@ description: Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u par
 keywords: verkooptarget, dimensie
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium, Unlimited sales targets
 functional_right: Targets administrator

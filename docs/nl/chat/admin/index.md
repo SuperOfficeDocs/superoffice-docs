@@ -5,7 +5,7 @@ description: Live Chat is een populaire manier voor uw klanten en prospects om c
 keywords: chatbot, connector, AI
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

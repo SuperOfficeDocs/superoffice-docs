@@ -5,7 +5,7 @@ description: Lær, hvordan du redigerer eller deaktiverer projektguider i SuperO
 keywords: rediger projektguide, opdater projektguide, deaktiver projektguide, projektguide, guide, workflow, projekt
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Projektleitfäden in SuperOffice CRM bearbeit
 keywords: Projektleitfaden bearbeiten, Projektleitfaden aktualisieren, Projektleitfaden deaktivieren, Projektleitfaden, Leitfaden, Workflow, Projekt
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

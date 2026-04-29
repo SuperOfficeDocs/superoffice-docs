@@ -5,7 +5,7 @@ description: Lär dig hur du slår ihop dubbletter av kontakter i SuperOffice CR
 keywords: slå ihop kontakter, underhåll kontakter, kontakt, person
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

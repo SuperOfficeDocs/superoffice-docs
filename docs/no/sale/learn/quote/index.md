@@ -5,7 +5,7 @@ description: Lær hvordan du oppretter, administrerer og sender tilbud i SuperOf
 keywords: Tilbud-detaljkort, Tilbud-fane, salg, forslag, tilbudsalternativ, tilbud-til-ordre, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: person

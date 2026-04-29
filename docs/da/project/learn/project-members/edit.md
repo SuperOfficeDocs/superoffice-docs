@@ -5,7 +5,7 @@ description: Sådan redigerer eller sletter du en projektdeltager i SuperOffice.
 keywords: rediger projektdeltager, opdater projektdeltager, slet projektdeltager, dialogboksen Tilføj/rediger projektdeltagere, projektdeltager, projekt
 author: Bergfrid Dias
 date: 11.19.2024
-version: 10.3.12
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

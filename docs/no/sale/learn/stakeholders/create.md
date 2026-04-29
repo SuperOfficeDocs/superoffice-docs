@@ -5,7 +5,7 @@ description: Slik knytter du et salg til en interessent (firma eller person) i S
 keywords: legg til interessent, ny interessent, rediger interessent, Legg til/rediger interessenter, tildel rolle, Interessenter-detaljkortet, detaljkortet Interessenter, interessent, salg
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

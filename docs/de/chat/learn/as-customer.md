@@ -5,7 +5,7 @@ description: Chat-Funktion aus Kundenperspektive
 keywords: chat starten, chat beenden, eingehender chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

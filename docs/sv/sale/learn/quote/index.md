@@ -5,7 +5,7 @@ description: Lär dig hur du skapar, hanterar och skickar offerter i SuperOffice
 keywords: Offert-detaljkort, Offert-flik, försäljning, förslag, offertalternativ, offert-till-order, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: person

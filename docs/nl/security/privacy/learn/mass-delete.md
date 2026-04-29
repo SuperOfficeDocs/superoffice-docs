@@ -5,7 +5,7 @@ description: In overeenstemming met de AVG-vereisten moet u een wettelijke basis
 keywords: Massaverwijdering, persoonlijke gegevens verwijderen
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

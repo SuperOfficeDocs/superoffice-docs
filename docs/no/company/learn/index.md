@@ -5,7 +5,7 @@ description: All informasjon knyttet til et firma – enten kunden, partneren el
 keywords: Firmakort, Firmabildet, firma, kunde, partner, leverandør
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5.1
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

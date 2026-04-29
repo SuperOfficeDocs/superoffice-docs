@@ -5,7 +5,7 @@ description: Opprette en chatkanal
 keywords: chatkanal, utseende av chat-widget, legg til agent, offline skjema, skjema før chat, skjema etter chat, aktiver transkripsjon
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

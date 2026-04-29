@@ -4,7 +4,7 @@ title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
 date: 01.17.2025
-version: 10.5
+version: 11
 keywords: aktivitet
 content_type: concept
 audience: person

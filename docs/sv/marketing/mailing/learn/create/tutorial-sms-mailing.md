@@ -4,7 +4,7 @@ title: Handledning - SMS-utskick
 description: I den här instruktionsguiden lär du dig att skapa ett SMS-utskick.
 keywords: sms utskick
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

@@ -5,7 +5,7 @@ description: Spam complaints
 keywords: Marketing, mailing, recipient, subscriber, spam, junk, complaint, suppressed
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 topic: mailing

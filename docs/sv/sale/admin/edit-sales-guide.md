@@ -5,7 +5,7 @@ description: Lär dig hur du redigerar eller inaktiverar en säljguide i SuperOf
 keywords: redigera säljguide, uppdatera säljguide, inaktivera säljguide, säljguide, guide, arbetsflöde, försäljning
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

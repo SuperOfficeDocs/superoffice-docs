@@ -5,7 +5,7 @@ description: Hold kundebasen ryddig og effektiv ved å slå sammen dupliserte fi
 keywords: slå sammen firmaer, administrer firmaer, identiske personer, firma
 author: Bergfrid Dias
 date: 01.23.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Introduksjon til salgsguider i SuperOffice. Hvordan strukturere og 
 keywords: salgsguide, guide, arbeidsflyt, detaljkortet Salgsguide, salg
 author: Bergfrid Dias
 date: 02.03.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 audience: person

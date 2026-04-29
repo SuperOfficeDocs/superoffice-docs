@@ -5,7 +5,7 @@ description: Oppdatere aktivitetsovervåking
 keywords: SAINT, aktivitetsovervåking, standard oppfølgingstype, slette statusovervåking, gjenopprette statusovervåking, kriterier, regenerere statusovervåking, regenerere teller
 author: SuperOffice Product and Engineering
 date: 09.22.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold

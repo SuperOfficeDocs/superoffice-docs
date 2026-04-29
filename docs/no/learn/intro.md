@@ -5,7 +5,7 @@ description: Startside for SuperOffice CRM-veiledninger
 keywords: brukerveiledning, hjelp, SuperOffice CRM, kjernefunksjoner
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5.1
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

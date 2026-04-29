@@ -5,7 +5,7 @@ description: Organisera svars­mallar, FAQ-poster, e-postadresser och externa do
 keywords: kunskapsbanksmapp, mallmapp, FAQ-mapp, skapa mapp, ta bort mapp
 author: Bergfrid Dias
 date: 07.16.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

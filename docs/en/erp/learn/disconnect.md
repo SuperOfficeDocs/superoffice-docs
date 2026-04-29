@@ -5,7 +5,7 @@ description: Disable ERP synchronization
 keywords: disconnect ERP, ERP tab, disconnect, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

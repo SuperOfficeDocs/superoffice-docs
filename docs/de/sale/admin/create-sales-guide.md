@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen Verkaufsleitfaden in SuperOffice erstel
 keywords: Verkaufsleitfaden erstellen, neuer Verkaufsleitfaden, Verkaufsleitfaden, Leitfaden, Vertriebsprozess, Workflow, Verkauf
 author: SuperOffice RnD
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

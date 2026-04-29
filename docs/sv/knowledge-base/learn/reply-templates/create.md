@@ -5,7 +5,7 @@ description: Lär dig hur du skapar en svarsmall i denna steg-för-steg-guide.
 keywords: skapa svarsmall, ny svarsmall, kopiera svarsmall, svarsmallsegenskaper, ny mall
 author: SuperOffice Product and Engineering
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

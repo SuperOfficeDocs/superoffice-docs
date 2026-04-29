@@ -5,7 +5,7 @@ description: Alle informatie met betrekking tot een bedrijf – of het nu uw kla
 keywords: Bedrijfskaart, Bedrijfsscherm, bedrijf, klant, partner, leverancier
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,7 +4,7 @@ title: Tutorial - Formularantwort-Kampagne
 description: In diesem Tutorial erfahren Sie, wie Sie eine Formularantwort erstellen.
 keywords: formularantwort, kampagne
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

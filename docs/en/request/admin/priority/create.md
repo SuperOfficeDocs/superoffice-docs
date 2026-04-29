@@ -5,7 +5,7 @@ description: Create priority
 keywords: create request priority, add request priority, new request priority, request priority, Priorities tab, Escalation events, escalation chain, request, priority
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

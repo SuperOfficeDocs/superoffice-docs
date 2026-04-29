@@ -5,7 +5,7 @@ description: Learn how to control which fields appear in the Add/edit product di
 keywords: Configure product dialog, Add/edit product dialog, configure product, product dialog, product field, product, quote
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

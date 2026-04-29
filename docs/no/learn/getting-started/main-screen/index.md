@@ -5,7 +5,7 @@ description: Hovedskjerm
 keywords: brukergrensesnitt, hovedskjerm, navigator, topprad, kort, sidepanel, detaljkort, oppgavemeny, kom i gang
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5.1
+version: 11
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM

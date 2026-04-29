@@ -5,7 +5,7 @@ description: Importinställningar
 keywords: importinställningar
 author: SuperOffice Product and Engineering
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

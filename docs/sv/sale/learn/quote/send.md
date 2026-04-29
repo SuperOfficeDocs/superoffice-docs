@@ -5,7 +5,7 @@ description: Lär dig hur du skickar, godkänner och versionerar offerter i Supe
 keywords: skicka offert, godkänna offert, redigera skickad offert, skicka, publicera, godkännande, offertversion, fliken Bilagor, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

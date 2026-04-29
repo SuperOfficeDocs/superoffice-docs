@@ -5,7 +5,7 @@ description: The goal of your mailing will determine your target audience. After
 keywords: Marketing, mailing
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

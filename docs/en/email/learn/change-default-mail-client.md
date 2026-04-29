@@ -5,7 +5,7 @@ description: How to change default email client in SuperOffice
 keywords: email setup, preferred email client, default email client, mail client, e-mail client, email client settings
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

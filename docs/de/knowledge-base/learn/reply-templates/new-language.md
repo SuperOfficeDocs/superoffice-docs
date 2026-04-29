@@ -5,7 +5,7 @@ description: Neue Sprachversion der Antwortvorlage erstellen
 keywords: Antwortvorlage übersetzen, Neue Sprachversion, Antwortvorlage, Vorlage
 author: SuperOffice Product and Engineering
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

@@ -5,7 +5,7 @@ description: Delete request status
 keywords: delete request status, transfer request status to, request status, request, status
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

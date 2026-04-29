@@ -5,7 +5,7 @@ description: Redigera eller ta bort svarsmallar i SuperOffice. Hantera egenskape
 keywords: redigera svarsmall, ta bort svarsmall, svarsmall, färdig text, kunskapsbas
 author: SuperOffice Product and Engineering
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

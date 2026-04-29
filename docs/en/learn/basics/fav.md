@@ -5,7 +5,7 @@ description: This guide will help you understand how to use favorites effectivel
 keywords: favorites, favourites
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 01.20.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

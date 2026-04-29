@@ -5,7 +5,7 @@ description: Houd uw budgetten bij door verkooptargets in te stellen. Dit helpt 
 keywords: verkooptargets
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium
 deployment: online

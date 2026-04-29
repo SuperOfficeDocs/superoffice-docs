@@ -5,7 +5,7 @@ description: Lær, hvordan du redigerer en salgsguide i SuperOffice CRM, opdater
 keywords: rediger salgsguide, opdater salgsguide, deaktiver salgsguide, salgsguide, guide, workflow, salg
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

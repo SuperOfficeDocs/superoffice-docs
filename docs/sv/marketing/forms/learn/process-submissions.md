@@ -5,7 +5,7 @@ description: I den här guiden lär du dig hur du bearbetar formulärinlämninga
 keywords: formulär, formulärinlämning, avsändar, inlämnad, data från formulär, formulärdat
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

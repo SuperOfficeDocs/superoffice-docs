@@ -5,7 +5,7 @@ description: I den h채r guiden l채r du dig hur du anv채nder l채nkar i utskick f�
 keywords: utskikt, l채nk책tg채rd, automatisera
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

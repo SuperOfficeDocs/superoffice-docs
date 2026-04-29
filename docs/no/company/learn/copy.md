@@ -5,7 +5,7 @@ description: Trinn for å kopiere et firma
 keywords: kopiere firma, administrer firmaer
 author: Bergfrid Dias
 date: 01.23.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

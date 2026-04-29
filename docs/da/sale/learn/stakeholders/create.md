@@ -5,7 +5,7 @@ description: Sådan knyttes et salg til en interessent (firma eller person) i Su
 keywords: Tilføj interessent, ny interessent, Tilføj/rediger interessenter-dialog, Interessent fanen, interessent, salg
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

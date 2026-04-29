@@ -5,7 +5,7 @@ description: Indtjekning/udtjekning af dokumenter
 keywords: dokument, indtjek, udtjek, tilbage til gemt version, redigeringstilstand, læsetilstand, spørg før redigering eller læsning
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

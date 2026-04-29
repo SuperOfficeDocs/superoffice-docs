@@ -5,7 +5,7 @@ description: Att hålla koll på dina försäljningsmål kan vara stressande. Me
 keywords: försäljningsmål, dimension
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium, Unlimited sales targets
 functional_right: Targets administrator

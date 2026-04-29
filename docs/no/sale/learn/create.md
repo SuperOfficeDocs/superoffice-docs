@@ -5,7 +5,7 @@ description: Registrer salg i SuperOffice Salg for å ha alle muligheter og kund
 keywords: opprett salg, nytt salg, legg til salg, registrer salg, salg
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: person

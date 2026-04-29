@@ -5,7 +5,7 @@ description: Favoritter
 keywords: Favoritter
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 11.29.2024
-version: 10.3
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

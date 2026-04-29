@@ -5,7 +5,7 @@ description: With template variables you can personalize and automate the input 
 keywords: document, template, variable
 author: Bergfrid Dias
 date: 12.10.2024
-version: 10.3
+version: 11
 content_type: concept
 language: en
 redirect_from: /en/document/learn/template-variables

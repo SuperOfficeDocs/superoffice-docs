@@ -5,7 +5,7 @@ description: Sådan tilføjes og fjernes firmaer fra fanen Vores firmaer
 keywords: vores firmaer
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

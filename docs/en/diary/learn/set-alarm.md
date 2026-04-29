@@ -5,7 +5,7 @@ description: How to sett an alarm for a follow-up in SuperOffice.
 keywords: set alarm, no alarm, follow-up, meeting, alarm, notification, reminder, alert, diary
 author: Bergfrid Dias
 date: 01.10.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

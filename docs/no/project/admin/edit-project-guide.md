@@ -5,7 +5,7 @@ description: Lær hvordan du redigerer pg deaktiverer prosjektguider i SuperOffi
 keywords: redigere prosjektguide, oppdatere prosjektguide, deaktivere prosjektguide, prosjektguide, guide, arbeidsflyt, prosjekt
 author: Bergfrid Dias
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

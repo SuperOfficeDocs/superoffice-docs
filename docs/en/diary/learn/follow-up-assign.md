@@ -5,7 +5,7 @@ description: Assign a follow-up to someone else
 keywords: assign follow-up, delegate follow-up, diary, follow-up, assign, delegate
 author: Bergfrid Dias
 date: 01.10.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

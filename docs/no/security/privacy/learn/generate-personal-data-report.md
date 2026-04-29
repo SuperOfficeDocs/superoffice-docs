@@ -5,7 +5,7 @@ description: Generer persondatarapport
 keywords: persondatarapport, personvernrapport
 author: SuperOffice Product and Engineering
 date: 06.29.2022
-version: 10.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

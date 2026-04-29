@@ -5,7 +5,7 @@ description: Utføre brevfletting på prosjekter
 keywords: opprett dokumentutsendelse, ny dokumentutsendelse, prosjekt, deltaker, utsendelse, dokument
 author: SuperOffice RnD
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

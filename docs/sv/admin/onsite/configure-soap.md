@@ -5,7 +5,7 @@ description: Konfigurera SOAP-gränssnitt
 keywords: Service, SOAP, gränssnitt, IP-adress, port, konfigurera
 author: SuperOffice Product and Engineering
 date: 07.10.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: soap

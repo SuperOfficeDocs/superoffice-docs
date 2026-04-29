@@ -4,7 +4,7 @@ title: Eskaleringsnivåer
 description: Eskaleringsnivåer
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 keywords: eskaleringsnivå, lägg till eskaleringsnivå, ny nivå, eskalera, fliken Eskaleringsnivåer, ärendeprioritet, ärende, prioritet
 content_type: howto
 audience: settings

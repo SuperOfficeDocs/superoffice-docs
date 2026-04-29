@@ -5,7 +5,7 @@ description: Lär dig hur du redigerar eller inaktiverar projektguider i SuperOf
 keywords: redigera projektguide, uppdatera projektguide, inaktivera projektguide, projektguide, guide, arbetsflöde, projekt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

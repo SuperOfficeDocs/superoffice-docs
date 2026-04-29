@@ -5,7 +5,7 @@ description: Assignment methods for requests
 keywords: automatic assignment, assignment method, assign request, request
 author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
 date: 03.25.2026
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

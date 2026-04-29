@@ -5,7 +5,7 @@ description: Spåra formulärinlämningar och visa statistik
 keywords: Formulär
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

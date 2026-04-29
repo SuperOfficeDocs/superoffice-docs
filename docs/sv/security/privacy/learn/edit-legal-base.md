@@ -5,7 +5,7 @@ description: I den här guiden får du lära dig mer om GDPR-funktionerna i Supe
 keywords: redigera integritetsinställning, Rättslig grund
 author: SuperOffice Product and Engineering
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

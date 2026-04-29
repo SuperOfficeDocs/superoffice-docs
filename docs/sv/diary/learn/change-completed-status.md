@@ -4,7 +4,7 @@ title: Ändra Slutfört-status för en aktivitet
 description: Ändra Slutfört-status för en aktivitet
 author: SuperOffice RnD
 date: 05.21.2024
-version: 10.3.6
+version: 11
 keywords: kalender, händelse, slutfört
 content_type: howto
 language: sv

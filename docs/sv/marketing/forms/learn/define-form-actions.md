@@ -5,7 +5,7 @@ description: Definer formuläråtgärder
 keywords: formulär, automatisera, formuläråtgärd, formulärinlämning
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

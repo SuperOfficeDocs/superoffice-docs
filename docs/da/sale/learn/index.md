@@ -5,7 +5,7 @@ description: SuperOffice Salg hjælper salgsteams med at bevare kontrollen over 
 keywords: salg, salgskort, salgsskærmbillede, tilbud, kundeemne
 author: SuperOffice RnD
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: concept
 license: salesessentials
 audience: person

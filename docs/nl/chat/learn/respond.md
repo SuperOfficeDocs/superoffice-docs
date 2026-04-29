@@ -5,7 +5,7 @@ description: Wanneer een klant een vraag verstuurt via de chatwidget op de websi
 keywords: chat, reageren op chat, volgende chat in wachtrij, binnenkomende chat, aanwezigheid
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

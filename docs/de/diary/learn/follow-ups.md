@@ -5,7 +5,7 @@ description: Folgeaufgaben – Besprechung, Aufgabe, Anruf
 keywords: Folgeaufgabe, Termin, Besprechung, Aufgabe, Zu erledigen, To-do, Telefon, Anruf, Teilnehmer, Kalender
 author: Bergfrid Dias
 date: 02.1.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

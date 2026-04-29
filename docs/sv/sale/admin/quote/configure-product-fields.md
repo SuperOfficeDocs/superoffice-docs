@@ -5,7 +5,7 @@ description: Lär dig hur du styr vilka fält som visas i dialogrutan Lägg till
 keywords: Konfigurera produktdialog, Lägg till/redigera produktdialog, konfigurera produkt, produktdialog, produktfält, ledtext, produkt, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

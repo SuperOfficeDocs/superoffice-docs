@@ -5,7 +5,7 @@ description: Die Gruppenansicht in der Kalenderansicht; So erstellen Sie Gruppen
 keywords: Gruppenansicht hinzufügen, neue Gruppenansicht, Gruppenansicht bearbeiten, Registerkarte Übersicht, Kalender, Folgeaufgabe, Gruppenansicht
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

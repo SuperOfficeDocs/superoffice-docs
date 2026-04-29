@@ -5,7 +5,7 @@ description: Externe Anwendungen zur Liste Anwendung hinzufügen
 keywords: Externe Anwendungen, Liste GUI - Anwendung
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: customization
 audience: settings

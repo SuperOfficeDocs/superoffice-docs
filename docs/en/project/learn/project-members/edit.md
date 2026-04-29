@@ -5,7 +5,7 @@ description: How to edit or remove a project member in SuperOffice.
 keywords: edit project member, update project member, delete project member, Add/edit project members dialog, project member, project
 author: Bergfrid Dias
 date: 11.19.2024
-version: 10.3.12
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

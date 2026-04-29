@@ -5,7 +5,7 @@ description: When you send a mailing, it is required to give recipients the opti
 keywords: marketing, mailing, GDPR, unsubscribe, interest
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

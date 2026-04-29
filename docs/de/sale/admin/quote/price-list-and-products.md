@@ -5,7 +5,7 @@ description: Lernen Sie, wie Sie Preislisten und Produkte im SuperOffice-Produkt
 keywords: Preisliste, Produkt hinzufügen, Produkt konfigurieren, Produktbild, Produkt deaktivieren, Produkt, Angebot
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Create a new document directly in SuperOffice CRM or upload existin
 keywords: document, SharePoint, create document, upload document, online text-editing
 author: Bergfrid Dias
 date: 01.17.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

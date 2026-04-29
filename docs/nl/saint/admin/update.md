@@ -5,7 +5,7 @@ description: Activiteitsmonitoring bijwerken
 keywords: SAINT, activiteitsmonitoring, standaard vervolgactiviteit, statusmonitoring verwijderen, statusmonitoring herstellen, criteria
 author: SuperOffice Product and Engineering
 date: 09.22.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud

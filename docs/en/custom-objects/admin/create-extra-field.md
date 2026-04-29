@@ -5,7 +5,7 @@ description: How to define extra fields in SuperOffice
 keywords: extra field, custom field, field properties
 author: Bergfrid Dias
 date: 04.09.2024
-version: 10.3.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Bereichsregisterkarte Aktivitäten in Sup
 keywords: Bereichsregisterkarte Aktivitäten, Bereichsregisterkarte
 author: Bergfrid Skaara Dias
 date: 04.08.2025
-version: 10.5.4
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

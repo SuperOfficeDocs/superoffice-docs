@@ -5,7 +5,7 @@ description: Knytte til ERP
 keywords: knytte til ERP, knytte firma til ERP, knytte person til ERP, knytte prosjekt til ERP, ingen treff i ERP, opprett i ERP, opprette aktør, ERP-aktør, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

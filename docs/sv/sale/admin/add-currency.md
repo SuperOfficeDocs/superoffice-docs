@@ -5,7 +5,7 @@ description: Lägga till poster i listan Valuta
 keywords: listan Allmänt – Valuta, valuta
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: sale
 license: salesessentials

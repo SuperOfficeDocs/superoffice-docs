@@ -5,7 +5,7 @@ description: Het scherm Persoon biedt een overzicht van alle communicatie en int
 keywords: scherm Persoon, persoon, contactpersoon
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Slett sakstype
 keywords: slett sakstype, bruk som standard, overfør sakstype til, sakstype, sak
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: howto
 license: servicepremium
 audience: settings

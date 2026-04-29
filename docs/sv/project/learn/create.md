@@ -5,7 +5,7 @@ description: Så här skapar du ett projekt och organiserar ditt arbete ännu b�
 keywords: skapa projekt, nytt projekt, lägga till projekt, projekt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

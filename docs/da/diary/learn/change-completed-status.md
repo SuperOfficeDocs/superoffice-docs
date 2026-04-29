@@ -4,7 +4,7 @@ title: Ændring af status Udført for en aktivitet
 description: Ændring af status Udført for en aktivitet
 author: SuperOffice RnD
 date: 05.21.2024
-version: 10.3.6
+version: 11
 keywords: dagbog, opfølgning
 content_type: howto
 language: da

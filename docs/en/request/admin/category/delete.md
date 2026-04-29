@@ -5,7 +5,7 @@ description: Delete request category
 keywords: delete request category, Transfer requests to, request category, request, category
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

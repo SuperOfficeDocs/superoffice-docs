@@ -5,7 +5,7 @@ description: Sådan opretter du en ny projektguide i SuperOffice
 keywords: projekt, guide, workflow
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

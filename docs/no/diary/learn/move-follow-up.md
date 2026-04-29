@@ -5,7 +5,7 @@ description: Hvordan flytte en oppfølging
 keywords: flytt oppfølging, flytt møte, endre møtetid, møtetidspunkt, møte, dagbok, oppfølging
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

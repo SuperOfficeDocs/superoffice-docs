@@ -5,7 +5,7 @@ description: Sending documents that are stored in SuperOffice CRM as attachments
 keywords: document, email, attachment
 author: SuperOffice RnD
 date: 01.17.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

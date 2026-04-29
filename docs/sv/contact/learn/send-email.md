@@ -5,7 +5,7 @@ description: Att skicka e-post via SuperOffice CRM gör det enklare att dela och
 keywords: skicka e-post, e-postkontakt, e-postmeddelande, e-mail
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

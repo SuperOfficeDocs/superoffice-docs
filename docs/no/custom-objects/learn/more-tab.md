@@ -5,7 +5,7 @@ description: Lær hvordan du bruker Mer-fanen i SuperOffice CRM for å vise og a
 keywords: Mer-fane, udef, brukerdefinert felt, ekstra felt, tilpasset felt
 author: Bergfrid Skaara Dias
 date: 11.29.2024
-version: 10.3.11
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

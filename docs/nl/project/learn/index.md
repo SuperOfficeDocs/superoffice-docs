@@ -5,7 +5,7 @@ description: Deze how-to gids laat u zien hoe u projecten kunt maken en gebruike
 keywords: Projectkaart, Projectscherm, tabblad Afbeelding, project
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person

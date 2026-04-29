@@ -5,7 +5,7 @@ description: Arbeide med salgsguide
 keywords: salgsguide
 author: SuperOffice RnD
 date: 02.03.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

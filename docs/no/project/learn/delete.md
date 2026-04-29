@@ -5,7 +5,7 @@ description: Slik sletter du et prosjekt og tilhørende data i SuperOffice
 keywords: slette prosjekt, prosjektadministrasjon, prosjekt
 author: Bergfrid Dias
 date: 01.30.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

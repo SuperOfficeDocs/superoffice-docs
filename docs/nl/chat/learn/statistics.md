@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u chatstatistieken kunt bekijken, z
 keywords: chatstatistieken, chatdashboard
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

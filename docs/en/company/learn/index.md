@@ -5,7 +5,7 @@ description: All information related to a company – be it your customer, partn
 keywords: Company card, Company screen, company, customer, partner, supplier
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

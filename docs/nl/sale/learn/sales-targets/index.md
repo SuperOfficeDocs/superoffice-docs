@@ -5,7 +5,7 @@ description: De mogelijkheid om uw verkoopkansen te volgen is een van de belangr
 keywords: verkooptargets
 author: SuperOffice Product and Engineering
 date: 09.17.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 deployment: online

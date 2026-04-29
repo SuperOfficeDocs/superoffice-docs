@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in SuperOffice Service basierend auf einer E-
 keywords: Anfrage erstellen, Posteingang, Service, Ticket, Kundenservice, E-Mail, Anfrage
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

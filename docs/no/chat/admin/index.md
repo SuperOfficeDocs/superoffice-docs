@@ -4,7 +4,7 @@ title: Chatadministrasjon
 description: Live Chat er en populær måte for kunder og potensielle kunder å komme i kontakt med deg når de besøker websiden din. Denne veiledningen viser hvordan du konfigurerer chatwidgeten og deretter legger den til på websiden din.
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 keywords: chatbot, connector, AI
 content_type: concept
 audience: settings

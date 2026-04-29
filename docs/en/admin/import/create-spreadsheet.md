@@ -5,7 +5,7 @@ description: In this how-to guide you will learn how to create an import file us
 keywords: import, Excel, company, contact, product, spreadsheet
 author: digitaldiina
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

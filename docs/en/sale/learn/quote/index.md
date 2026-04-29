@@ -5,7 +5,7 @@ description: Learn how to create, manage, and send quotes in SuperOffice CRM to 
 keywords: Quote section tab, Quote tab, sales, proposal, quote alternative, quote-to-order, quote
 author: Bergfrid Dias
 date: 04.25.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: person

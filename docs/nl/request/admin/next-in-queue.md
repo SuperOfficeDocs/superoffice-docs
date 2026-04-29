@@ -5,7 +5,7 @@ description: Volgend verzoek in de wachtrij ophalen
 keywords: verzoek, wachtrij, volgende verzoek
 author: Hanne Gunnarsson
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

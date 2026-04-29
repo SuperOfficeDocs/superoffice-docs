@@ -5,7 +5,7 @@ description: Lær, hvordan du arbejder med en salgsguide i SuperOffice CRM.
 keywords: salgsguide, eksempel
 author: SuperOffice RnD
 date: 01.07.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium
 audience: person

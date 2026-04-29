@@ -5,7 +5,7 @@ description: Introduksjon til konfigurasjon av synkronisering mellom SuperOffice
 keywords: ERP-fane, ERP-system, ERP-aktør, Sync Connector, ERP-kobling, synk, connector, kobling, Tilbud/Sync-bildet, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: concept
 license: development-tools
 audience: settings

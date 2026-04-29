@@ -5,7 +5,7 @@ description: Lägg till externa applikationer i applikationslistan
 keywords: externa applikationer, listan GUI – Applikation
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: customization
 audience: settings

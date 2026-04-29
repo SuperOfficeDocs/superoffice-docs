@@ -5,7 +5,7 @@ description: Leer hoe u projecten kunt bekijken, toevoegen en beheren met behulp
 keywords: sectietabblad Projecten, Projecten-sectietabblad, Projecten-tabblad, tabblad Projecten, sectietabblad
 author: Bergfrid Skaara Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

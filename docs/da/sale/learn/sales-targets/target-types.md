@@ -5,7 +5,7 @@ description: Det kan være stressende at holde styr på dine salgsmål. Men hvis
 keywords: salgsmål, dimension
 author: SuperOffice Product and Engineering
 date: 09.17.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, Unlimited sales targets
 functional_right: Targets administrator

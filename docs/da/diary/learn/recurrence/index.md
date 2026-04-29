@@ -5,7 +5,7 @@ description: Gentagne opfølgninger
 keywords: gentagen opfølgning, repeterende opfølgning, repeterende møde, repeterende aftale, tilbagevendende, repeter, gentag, mødefrekvens, opfølgningsmønster, mødeserie, dagbog, opfølgning, frekvens
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

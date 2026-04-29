@@ -5,7 +5,7 @@ description: Deze handleiding laat u zien hoe u documenten kunt maken en opslaan
 keywords: document
 author: SuperOffice RnD
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

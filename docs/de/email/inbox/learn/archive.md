@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie E-Mails und Anhänge aus dem SuperOffice-Post
 keywords: Archivieren-Schaltfläche, E-Mail speichern, Anhang speichern, Posteingang, somail, Dokumentdialog, E-Mail-Anhang, eingehende E-Mail, ausgehende E-Mail, E-Mail, Archiv
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

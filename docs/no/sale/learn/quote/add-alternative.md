@@ -5,7 +5,7 @@ description: Lær hvordan du oppretter og administrerer alternativer i tilbud i 
 keywords: tilbud, tilbudsalternativ
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

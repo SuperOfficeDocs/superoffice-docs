@@ -5,7 +5,7 @@ description: Export archives
 keywords: section tab, archive
 author: SuperOffice RnD
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

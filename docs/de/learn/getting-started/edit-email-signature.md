@@ -5,7 +5,7 @@ description: So bearbeiten Sie E-Mail-Signaturen und Anfrage-Signaturen
 keywords: Signatur bearbeiten, E-Mail-Signatur, Anfrage-Signatur, Persönliche Signatur, Signatur
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

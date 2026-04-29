@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u al uw prospects, klanten en hun c
 keywords: import, Excel, bedrijf, contactpersoon, spreadsheet
 author: digitaldiina
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

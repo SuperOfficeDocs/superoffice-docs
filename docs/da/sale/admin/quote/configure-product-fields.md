@@ -5,7 +5,7 @@ description: Lær, hvordan du styrer, hvilke felter der vises i Tilføj/rediger 
 keywords: Konfigurer produktdialog, Tilføj/rediger produkt, konfigurer produkt, produktdialog, produktfelt, ledetekst, produkt, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

@@ -5,7 +5,7 @@ description: Skapa en chattkanal
 keywords: chattkanal, layout för chattwidget, lägg till handläggare, frånkopplat formulär, startformulär för chatt, slutformulär för chatt, aktivera avskrift
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

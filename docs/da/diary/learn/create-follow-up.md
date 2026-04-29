@@ -5,7 +5,7 @@ description: Tilføje eller kopiere møde, opgave, samtale i SuperOffice
 keywords: dagbog, opfølgning, ring til, telefon, møde, aftale, telefonopkal
 author: Bergfrid Dias
 date: 03.06.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

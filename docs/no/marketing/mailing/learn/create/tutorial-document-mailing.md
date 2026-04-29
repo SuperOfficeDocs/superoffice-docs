@@ -4,7 +4,7 @@ title: Opplæring - utsendelse av dokumenter
 description: I denne opplæringen lærer du å opprette et dokumentutsendelse.
 keywords: dokumentutsendelse
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een nieuwe gebruiker toevoegt in 
 keywords: gebruiker toevoegen, medewerker
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

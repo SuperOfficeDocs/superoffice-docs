@@ -5,7 +5,7 @@ description: Lær hvordan du opretter og administrerer prislister og produkter i
 keywords: prisliste, tilføj produkt, konfigurer produkt, produktbillede, deaktivér produkt, produkt, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

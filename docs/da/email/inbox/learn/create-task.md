@@ -5,7 +5,7 @@ description: Lær, hvordan du opretter en opgave i SuperOffice CRM baseret på e
 keywords: arkiver e-mail, indbakke, opret opgave, opfølgning fra e-mail, opgave, opfølgning, e-mail
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

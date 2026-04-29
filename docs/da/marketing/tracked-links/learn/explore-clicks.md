@@ -5,7 +5,7 @@ description: Arbejde med sporede links efter udsendelsen
 keywords: Marketing, udsendelse, sporede links
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

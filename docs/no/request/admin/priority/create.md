@@ -5,7 +5,7 @@ description: Opprett saksprioritet
 keywords: opprett saksprioritet, legg til saksprioritet, ny saksprioritet, ny prioritet, saksprioritet, eskalering, sak, prioritet
 author: Hanne Gunnarsson
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

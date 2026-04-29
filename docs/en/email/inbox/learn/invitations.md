@@ -5,7 +5,7 @@ description: Learn how to accept calendar invitations in SuperOffice Inbox and a
 keywords: invitation, ical, ics, calendar, diary, accept meeting, accept and notify, inbox, follow-up
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

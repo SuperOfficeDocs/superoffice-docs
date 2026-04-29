@@ -5,7 +5,7 @@ description: Hoe een verzoek accepteren om te voorkomen dat iemand anders het te
 keywords: verzoek accepteren, accept, verantwoordelijkheid, verzoek eigenaar, volgend in wachtrij, verzoek
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

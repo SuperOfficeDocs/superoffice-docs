@@ -5,7 +5,7 @@ description: In dieser Anleitung erfahren Sie, wie Sie einen Chat an einen ander
 keywords: Chat übertragen, Übergabe akzeptieren, Übergabe ablehnen
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

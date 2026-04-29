@@ -5,7 +5,7 @@ description: Leer hoe u SuperOffice Postvak IN instelt en inlogt. Deze functie i
 keywords: SuperOffice Postvak IN, postvak instellen, e-mailinstellingen, IMAP, e-mailverbinding
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

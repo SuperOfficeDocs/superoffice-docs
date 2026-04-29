@@ -5,7 +5,7 @@ description: Wenn ein Kunde eine Anfrage über das Chat-Widget auf der Website s
 keywords: Chat beantworten, nächster Chat in Warteschlange, eingehender Chat, Anwesenheit
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

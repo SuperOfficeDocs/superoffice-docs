@@ -5,7 +5,7 @@ description: Adding, editing, and removing user-defined lists
 keywords: user-defined list, create list, delete list, edit list
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

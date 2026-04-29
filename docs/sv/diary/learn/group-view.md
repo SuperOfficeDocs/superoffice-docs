@@ -5,7 +5,7 @@ description: Gruppöversikten i kalendern gör det möjligt att visa och hantera
 keywords: lägg till gruppöversikt, ny gruppöversikt, redigera gruppöversikt, fliken Översikt, kalender, händelse, gruppöversikt, gruppvy, kalendervy
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

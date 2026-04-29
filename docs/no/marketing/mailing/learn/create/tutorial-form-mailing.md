@@ -4,7 +4,7 @@ title: Opplæring - utsendelse av skjemarespons
 description: I denne opplæringen lærer du å opprette en utsendelse av skjemarespons.
 keywords: skjemarespons, skjemautsendelse
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

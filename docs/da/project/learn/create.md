@@ -5,7 +5,7 @@ description: Sådan opretter du et projekt, så du kan holde endnu bedre styr p�
 keywords: opret projekt, nyt projekt, tilføj projekt, projekt
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

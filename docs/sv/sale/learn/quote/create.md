@@ -5,7 +5,7 @@ description: Lär dig hur du skapar en offert i SuperOffice CRM, inklusive hur d
 keywords: skapa offert, kopiera offert, lägg till produkt, Lägg till/redigera produkt-dialogruta, dialogrutan Redigera offert, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Leer hoe u in SuperOffice CRM alternatieven voor offertes maakt en 
 keywords: offerte, offerte-alternatief
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

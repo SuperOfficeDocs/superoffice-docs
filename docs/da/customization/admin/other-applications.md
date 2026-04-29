@@ -5,7 +5,7 @@ description: Tilføjelse af eksterne programmer til programlisten
 keywords: eksterne programmer, listen GUI – Applikation
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: customization
 audience: settings

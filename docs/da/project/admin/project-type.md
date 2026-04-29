@@ -5,7 +5,7 @@ description: Lær, hvordan du opretter en ny projekttype i SuperOffice CRM. Defi
 keywords: tilføj projekttype, projekttype, projekt, listen Projekt - Type status
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

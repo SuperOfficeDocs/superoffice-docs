@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u formulierverzendingen handmatig k
 keywords: formulier, formulierverzending, formulierinzending, indiener, inzender, ingediend, gegevens van formulier, formuliergegevens
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

@@ -5,7 +5,7 @@ description: Flytning af opfølgninger
 keywords: flyt opfølgning, flyt møde, ændr mødetid, mødetidspunkt, møde, dagbog, opfølgning
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: ERP-synchronisatie uitschakelen
 keywords: ERP verbreken, ERP-tabblad, verbinding verbreken, verbreken, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

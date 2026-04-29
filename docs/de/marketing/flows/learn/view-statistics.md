@@ -5,7 +5,7 @@ description: Analysieren Sie die Ergebnisse Ihres Flows
 keywords: Marketing, Flow, Ergebniss, Statistik
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: flows

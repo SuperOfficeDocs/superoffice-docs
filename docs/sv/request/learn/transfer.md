@@ -5,7 +5,7 @@ description: Be en annan ärendehandläggare om hjälp
 keywords: ärende, delegera, be om hjälp, överföra
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

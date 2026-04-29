@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan du kan importere alle produk
 keywords: importere, produkt, Excel
 author: digitaldiina
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

@@ -5,7 +5,7 @@ description: Mit Vorlagenvariablen können Sie die Eingabe von Kundendaten perso
 keywords: Vorlagenvariablen, Dokument, Vorlage, Variable
 author: Bergfrid Dias
 date: 12.10.2024
-version: 10.3
+version: 11
 content_type: concept
 language: de
 redirect_from: /de/document/learn/template-variables

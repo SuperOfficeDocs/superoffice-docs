@@ -5,7 +5,7 @@ description: Herhalende vervolgactiviteit stoppen
 keywords: stop herhaling, stop repetitie, onderbreek herhaling, vergaderreeks, terugkerende vervolgactiviteit, terugkerende vergadering, agenda, vervolgactiviteit, herhalen, toekomstige instances, terugkeren
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

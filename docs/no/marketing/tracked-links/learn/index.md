@@ -5,7 +5,7 @@ description: En kobling som du inkluderer i en utsendelse, kan brukes til å spo
 keywords: Markedsføring, utsendelse, sporet kobling, Google Analytics
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

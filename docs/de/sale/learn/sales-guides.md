@@ -5,7 +5,7 @@ description: Einführung in Verkaufsleitfäden in SuperOffice CRM.
 keywords: Verkaufsleitfaden, Leitfaden, Workflow, Bereichsregisterkarte Verkaufsleitfaden, Verkaufsprozess, Vertriebsprozess, Stufe, automatische Fortschreibung, Verkauf
 author: Bergfrid Dias
 date: 11.02.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

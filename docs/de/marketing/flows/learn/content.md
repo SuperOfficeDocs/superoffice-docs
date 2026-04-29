@@ -5,7 +5,7 @@ description: Inhalt des Flows
 keywords: Marketing, Flow, Flow-Inhalt, Inhalt des Flows, Inhalt, E-Mail, Verfassen
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: flows

@@ -5,7 +5,7 @@ description: Instead of recording these meetings one at a time, you can schedule
 keywords: set recurrence pattern, repeating follow-up, repeat, recur, frequency, schedule, pattern, diary, follow-up, 
 author: Bergfrid Dias
 date: 01.13.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

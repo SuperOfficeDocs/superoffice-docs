@@ -5,7 +5,7 @@ description: Een projectlid toevoegen in SuperOffice
 keywords: projectlid toevoegen, nieuw projectlid, dialoogvenster Projectleden toevoegen/bewerken, projectlid, lid, project
 author: Bergfrid Dias
 date: 11.19.2024
-version: 10.3.12
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

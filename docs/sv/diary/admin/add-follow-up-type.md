@@ -5,7 +5,7 @@ description: Lägga till poster i listan Händelse – Typ
 keywords: händelsetyp, listan Händelse – Typ
 author: digitaldiina
 date: 10.27.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll

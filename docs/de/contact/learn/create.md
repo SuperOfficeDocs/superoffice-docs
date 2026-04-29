@@ -5,7 +5,7 @@ description: So erstellen Sie eine neue Person in SuperOffice.
 keywords: Person erstellen, Interessen hinzufügen, Registerkarte Interessen, Kontaktbild, bevorzugte Sprache, Rechtsgrundlage, Person, Kontaktperson
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

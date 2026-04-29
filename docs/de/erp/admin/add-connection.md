@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie eine Sync-App installieren, einen Sync Connec
 keywords: ERP-Synchronisation einrichten, Sync Connector hinzufügen, ERP-Verbindung hinzufügen, ERP-Verbindung testen, ERP-Verbindung, Connector, Synchronisation, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

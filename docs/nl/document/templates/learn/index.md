@@ -5,7 +5,7 @@ description: Documentsjabloon
 keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias
 date: 07.16.2024
-version: 10.3
+version: 11
 content_type: concept
 language: nl
 redirect_from: /nl/admin/lists/learn/document-template

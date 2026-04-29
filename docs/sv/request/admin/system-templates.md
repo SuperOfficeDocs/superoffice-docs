@@ -5,7 +5,7 @@ description: Systemmallar
 keywords: systemmallar, systemmallar-fliken, ärende
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

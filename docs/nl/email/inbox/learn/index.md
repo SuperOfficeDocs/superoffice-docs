@@ -5,7 +5,7 @@ description: Leer hoe u SuperOffice Postvak IN gebruikt om e-mail te lezen, verz
 keywords: SuperOffice Postvak IN, e-mail lezen, e-mail verzenden, e-mailclient, inbox, e-mail
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

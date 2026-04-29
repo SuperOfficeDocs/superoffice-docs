@@ -4,7 +4,7 @@ title: De status Voltooid voor een activiteit wijzigen
 description: De status Voltooid voor een activiteit wijzigen
 author: SuperOffice RnD
 date: 05.21.2024
-version: 10.3.6
+version: 11
 keywords: agenda, vervolgactiviteit, voltooid
 content_type: howto
 language: nl

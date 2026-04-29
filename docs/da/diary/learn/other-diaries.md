@@ -5,7 +5,7 @@ description: Du kan skifte til en anden brugers eller en ressources dagbog for a
 keywords: dagbogsejer, skift dagbogsejer, se en anden dagbog, se en ressources dagbog, dagbog, opfølgning, ressource, ejer, dagbogsejerlisten
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Introduksjon til prosjektguider i SuperOffice.
 keywords: prosjektguide, guide, arbeidsflyt, prosessstyring, livssyklus, prosjektleder, detaljkortet Prosjektguide, prosjekt
 author: Bergfrid Dias
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person

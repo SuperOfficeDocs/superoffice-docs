@@ -5,7 +5,7 @@ description: Inleiding tot het configureren van synchronisatie tussen SuperOffic
 keywords: ERP-tabblad, ERP-systeem, ERP-actor, Sync Connector, ERP-verbinding, synchronisatie, connector, verbinding, Offerte/Synchroniseren-scherm, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: concept
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Etter at du har håndtert de returnerte e-postene, er det lurt å s
 keywords: resend mailing, recipients
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

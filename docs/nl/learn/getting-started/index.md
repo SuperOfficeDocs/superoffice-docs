@@ -5,7 +5,7 @@ description: Leer hoe u uw gebruikersaccount activeert, uw e-mail en documenten 
 keywords: CRM, aan de slag
 author: Bergfrid Dias, Kirsti Aakerholt
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

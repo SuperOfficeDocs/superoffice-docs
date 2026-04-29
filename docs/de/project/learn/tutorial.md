@@ -5,7 +5,7 @@ description: Ein Überblick über die Arbeit mit Projektleitfäden.
 keywords: Projektleitfaden, Leitfaden, Workflow, Projekt
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person

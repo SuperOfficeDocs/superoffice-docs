@@ -5,7 +5,7 @@ description: How to preview, move, mark, and print email messages in SuperOffice
 keywords: open email, view email, preview, move email, mark as read, print, email, e-mail, SuperOffice Inbox
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

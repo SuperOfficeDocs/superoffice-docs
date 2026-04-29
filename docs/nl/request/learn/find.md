@@ -5,7 +5,7 @@ description: In deze gids leert u hoe u aanvragen kunt vinden in SuperOffice
 keywords: verzoek, zoeken, zoeken
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

@@ -5,7 +5,7 @@ description: Lær hvordan du kan se, tilføje og administrere projekter ved hjæ
 keywords: fanen Projekter, Projektfanen, Projekter-fanen, detaljekort, projektarkiv
 author: Bergfrid Skaara Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

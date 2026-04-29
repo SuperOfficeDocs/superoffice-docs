@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du finder sager i SuperOffice
 keywords: find sag, lokalisere sag, seneste sager, egne aktive sager, ufordelte sager, vis kun egne kategorier, søg, finde, sag
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

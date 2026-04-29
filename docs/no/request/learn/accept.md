@@ -5,7 +5,7 @@ description: Hvordan overta en sak for å unngå at andre svarer på den samtidi
 keywords: overta sak, godta, ansvar, saksbehandler, neste i køen, sak
 author: Bergfrid Dias
 date: 02.04.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

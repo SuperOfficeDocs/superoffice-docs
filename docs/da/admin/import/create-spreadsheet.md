@@ -5,7 +5,7 @@ description: I denne guide lærer du, hvordan du opretter en importfil ved hjæl
 keywords: importer, Excel, firma, contact, produkt, regneark
 author: digitaldiina
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

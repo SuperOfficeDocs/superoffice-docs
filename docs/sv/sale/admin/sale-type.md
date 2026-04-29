@@ -5,7 +5,7 @@ description: Så här lägger du till och hanterar försäljningstyper i SuperOf
 keywords: lägg till försäljningstyp, Försäljning - Typ Faser Offert lista, Försäljning - Kategori lista, Offertbilagor, Standardvärden för offert, Offertgodkännande, försäljningstyp, försäljning, offert
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

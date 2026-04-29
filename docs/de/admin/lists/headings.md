@@ -5,7 +5,7 @@ description: Verwenden Sie Überschriften, um Elemente in langen Listen unter Ei
 keywords: Überschrift, Liste organisieren
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: reference
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung

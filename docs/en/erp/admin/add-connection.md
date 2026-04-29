@@ -5,7 +5,7 @@ description: Learn how to install a sync app, add a sync connector, and create E
 keywords: set up ERP sync, add sync connector, sync connector, add ERP connection, test ERP connection, ERP connection, connector, sync, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

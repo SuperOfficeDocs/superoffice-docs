@@ -5,7 +5,7 @@ description: Lær, hvordan du arkiverer e-mailbeskeder og vedhæftede filer fra 
 keywords: Arkiver-knap, gem e-mail, gem vedhæftet fil, indbakke, somail, dokumentdialog, e-mailvedhæftning, indgående e-mail, udgående e-mail, e-mail, arkiv
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

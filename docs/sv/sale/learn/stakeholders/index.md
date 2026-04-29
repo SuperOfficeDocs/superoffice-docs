@@ -5,7 +5,7 @@ description: Intressenter
 keywords: försäljning, intressent
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Hent neste sak i køen
 keywords: hent neste sak i køen, sak
 author: Hanne Gunnarsson
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

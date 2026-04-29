@@ -5,7 +5,7 @@ description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmes
 keywords: svar på chat, næste chat i kø, indgående chat, tilstedeværelse
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

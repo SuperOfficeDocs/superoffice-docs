@@ -5,7 +5,7 @@ description: Kommunisere med og hjelpe eksisterende eller potensielle kunder ved
 keywords: chat, pågående chats
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 audience: person
 content_type: concept
 audience_tooltip: SuperOffice CRM

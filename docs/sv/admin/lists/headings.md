@@ -5,7 +5,7 @@ description: Använd rubriker för att gruppera poster i långa listor under Ins
 keywords: rubrik, organisera lista
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: reference
 audience: settings
 audience_tooltip: Inställningar och underhåll

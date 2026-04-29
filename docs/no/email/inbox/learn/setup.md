@@ -5,7 +5,7 @@ description: Lær hvordan du konfigurerer og logger på SuperOffice-innboksen. D
 keywords: SuperOffice-innboks, konfigurer innboks, e-postoppsett, IMAP, e-posttilkobling
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

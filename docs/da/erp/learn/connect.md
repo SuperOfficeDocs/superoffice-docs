@@ -5,7 +5,7 @@ description: Knyt til ERP
 keywords: knyt til ERP, knyt firma til ERP, knyt person til ERP, knyt projekt til ERP, ingen hits i ERP, opret i ERP, opret aktør, ERP-aktør, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

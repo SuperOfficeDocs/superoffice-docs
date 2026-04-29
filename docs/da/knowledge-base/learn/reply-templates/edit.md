@@ -5,7 +5,7 @@ description: Rediger eller slet svarskabeloner i SuperOffice Service. Lær, hvor
 keywords: skabelon
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

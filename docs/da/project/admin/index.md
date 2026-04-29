@@ -5,7 +5,7 @@ description: Lær, hvordan du administrerer projektarbejdsgange i SuperOffice CR
 keywords: projektguide, projektstatus, projekttype, arbejdsgang, projekt
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

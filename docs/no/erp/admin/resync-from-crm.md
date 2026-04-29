@@ -5,7 +5,7 @@ description: Synkroniser på nytt fra CRM
 keywords: synkroniser på nytt fra CRM, resync ERP, push CRM-data til ERP, synk, ERP-kobling, connector, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

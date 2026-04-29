@@ -5,7 +5,7 @@ description: Et ekstrafelt er et tilpasset felt som du legger til i en eksistere
 keywords: ekstrafelt, tilpasset felt
 author: Bergfrid Dias
 date: 06.11.2024
-version: 10.3.7
+version: 11
 content_type: concept
 language: no
 audience: user

@@ -5,7 +5,7 @@ description: Anfragetyp erstellen
 keywords: Anfragetyp erstellen, neuer Anfragetyp, Anfragetyp hinzufügen, Anfragetyp, Anfragetypliste, Typ, Anfrage
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: servicepremium
 audience: settings

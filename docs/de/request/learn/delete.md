@@ -5,7 +5,7 @@ description: Wie man eine Anfrage in SuperOffice löscht
 keywords: Anfrage löschen, Anfrage, SuperOffice Anfrage löschen
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 functional_right: Service Verwaltung, Allgemeiner Administrator
 license: serviceessentials

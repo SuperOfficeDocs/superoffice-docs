@@ -5,7 +5,7 @@ description: Leer hoe u een quote connector configureert en ERP-verbindingen maa
 keywords: quote connector instellen, quote connector toevoegen, ERP-verbinding toevoegen, ERP-verbinding testen, ERP-verbinding, quote verbinding, quote connector, connector, offerte
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

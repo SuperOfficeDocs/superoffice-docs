@@ -5,7 +5,7 @@ description: Konfigurer synkronisering mellom SuperOffice CRM og ERP-systemet ve
 keywords: ERP-kobling, konfigurere synk, felttilordning, listetilordning, standardverdier, ranger ERP-felter, angi synkprioritet, redigere ERP-kobling, SuperOffice ERP-integrasjon, ERP-fane, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

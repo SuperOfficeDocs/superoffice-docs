@@ -5,7 +5,7 @@ description: Een sjabloondocument maken
 keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 language: nl
 redirect_from: /nl/admin/lists/learn/creating-template-document

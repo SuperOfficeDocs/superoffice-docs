@@ -5,7 +5,7 @@ description: Logga ut användare
 keywords: logga ut, Logga ut användaren, Inloggad på Windowsklient
 author: SuperOffice Product and Engineering
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

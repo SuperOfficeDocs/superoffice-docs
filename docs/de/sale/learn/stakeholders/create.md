@@ -5,7 +5,7 @@ description: Wie man einen Verkauf mit einem Beteiligten (Firma oder Person) in 
 keywords: Beteiligten hinzufügen, neuer Beteiligter, Beteiligten bearbeiten, Beteiligte hinzufügen/bearbeiten, Rolle zuweisen, Bereichsregisterkarte Beteiligte, Beteiligter, Verkauf
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

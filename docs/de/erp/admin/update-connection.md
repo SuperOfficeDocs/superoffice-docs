@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie den Namen, Geltungsbereich oder die Konfigura
 keywords: ERP-Verbindung bearbeiten, ERP-Einstellungen ändern, Sync Connector, ERP-Konfiguration, SuperOffice Sync
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

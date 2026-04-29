@@ -5,7 +5,7 @@ description: Wie man die Datenschutzeinstellungen für Ihre Firma einrichtet.
 keywords: Datenschutzeinstellung, Zweck hinzufügen, externe Datenschutzerklärung
 author: SuperOffice Product and Engineering
 date: 09.01.2025
-version: 10.5
+version: 11
 content_type: howto
 functional_right: list administrator, general administrator
 category: privacy

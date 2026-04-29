@@ -5,7 +5,7 @@ description: I den här guiden lär du dig hur SAINT kan utveckla dina försälj
 keywords: SAINT
 author: SuperOffice Product and Engineering
 date: 09.23.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

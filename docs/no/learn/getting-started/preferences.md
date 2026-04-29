@@ -5,7 +5,7 @@ description: Oversikt over personlige omgivelser og hvordan du endrer dem.
 keywords: preferanse, innstilling
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

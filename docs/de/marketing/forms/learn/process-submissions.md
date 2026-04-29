@@ -5,7 +5,7 @@ description: In dieser Anleitung lernen Sie, wie Sie Formularübermittlungen man
 keywords: Formular, Formularübermittlung, Formulareinsendung, verknüpfen, Übermittler, übermittelt, Daten aus Formular, Formulardaten
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

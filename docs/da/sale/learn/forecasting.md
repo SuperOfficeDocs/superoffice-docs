@@ -5,7 +5,7 @@ description: Sådan overvåger du din salgspipeline og forudsiger dit salg ved h
 keywords: salg, prognose, pipeline
 author: Bergfrid Dias
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: person

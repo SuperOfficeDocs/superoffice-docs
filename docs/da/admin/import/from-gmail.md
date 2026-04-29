@@ -5,7 +5,7 @@ description: Import fra Gmail
 keywords: Indstillinger og vedligeholdelse, importer
 author: SuperOffice Product and Engineering
 date: 06.29.2022
-version: 10.5
+version: 11
 content_type: howto
 index: true
 redirect_from: /da/admin/import/learn/import-from-gmail

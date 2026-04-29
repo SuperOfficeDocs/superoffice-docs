@@ -5,7 +5,7 @@ description: Een alarm instellen voor een vervolgactiviteit in SuperOffice.
 keywords: alarm instellen, geen alarm, vervolgactiviteit, vergadering, alarm, melding, herinnering, waarschuwing, agenda
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

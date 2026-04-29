@@ -5,7 +5,7 @@ description: Dokumentmall
 keywords: dokumentmall, dokument, mall
 author: Bergfrid Dias
 date: 07.16.2024
-version: 10.3
+version: 11
 content_type: concept
 language: sv
 redirect_from: /sv/admin/lists/learn/document-template

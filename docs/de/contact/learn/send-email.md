@@ -5,7 +5,7 @@ description: Das Senden von E-Mails über SuperOffice CRM erleichtert das Teilen
 keywords: E-Mail senden, new E-Mail, E-Mail, Mail, Empfänger, Mitteilung, Senden, Senden und archivieren
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

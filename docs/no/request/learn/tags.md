@@ -5,7 +5,7 @@ description: Finn ut hvordan du oppretter og redigerer emneknagger, i denne veil
 keywords: emneknagg, legg til emneknagg, ny emneknagg, fjern emneknagg, sak
 author: Bergfrid Dias
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

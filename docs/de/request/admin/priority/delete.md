@@ -5,7 +5,7 @@ description: Priorität löschen
 keywords: Anfragepriorität löschen, Anfragepriorität, Anfrage, Priorität, Gelöschte Objekte anzeigen
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

@@ -5,7 +5,7 @@ description: Het koppelen in SuperOffice van een verkoop aan een belanghebbende 
 keywords: verkoop, belanghebbend, aandeelhouder, stakeholder, Belanghebbende toevoegen, nieuwe belanghebbende, Belanghebbenden toevoegen/bewerken dialoog, Belanghebbenden sectietabblad, belanghebbende
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

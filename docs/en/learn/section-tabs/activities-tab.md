@@ -5,7 +5,7 @@ description: Learn how to use the Activities tab in SuperOffice CRM to view, man
 keywords: Activities tab, section tab, activity archive
 author: Bergfrid Skaara Dias
 date: 04.08.2025
-version: 10.5.4
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,7 +4,7 @@ title: Handleidingen voor SuperOffice CRM
 description: Startpagina voor SuperOffice CRM-handleidingen
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 keywords: gebruikershandleiding, help, SuperOffice CRM, kernfuncties
 content_type: concept
 audience: person

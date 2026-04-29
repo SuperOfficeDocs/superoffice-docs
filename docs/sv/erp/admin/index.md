@@ -5,7 +5,7 @@ description: Introduktion till att konfigurera synkronisering mellan SuperOffice
 keywords: ERP-flik, ERP-system, ERP-aktör, Sync Connector, ERP-koppling, synk, connector, anslutning, Offert/Synk-fönstret, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: concept
 license: development-tools
 audience: settings

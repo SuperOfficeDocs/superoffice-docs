@@ -5,7 +5,7 @@ description: SuperOffice Sales hjälper säljteam att hålla koll på sina förs
 keywords: fönstret Försäljning, försäljningskort, försäljningsskärm, försäljning, affärsmöjlighet, sälj
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: concept
 license: salesessentials
 audience: person

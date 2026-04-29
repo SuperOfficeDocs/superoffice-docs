@@ -5,7 +5,7 @@ description: Denne veiledningen vil forklare hvordan du kan spore resultater fra
 keywords: Marketing, markedsføring, utsendelse, Google Analytics, sporing, sporingslenke, UTM, kampanje, nyhetsbrev
 author: Alex Pelan
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

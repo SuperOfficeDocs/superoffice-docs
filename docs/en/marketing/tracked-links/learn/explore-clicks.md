@@ -5,7 +5,7 @@ description: How you can work with tracked links after the mailing is sent.
 keywords: Marketing, mailing, tracked link, clicker
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

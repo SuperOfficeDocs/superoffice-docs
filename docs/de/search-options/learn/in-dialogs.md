@@ -5,7 +5,7 @@ description: Schnellsuche in Dialogfeldern verwenden im SuperOffice
 keywords: suche, Schnellsuche, dialog
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

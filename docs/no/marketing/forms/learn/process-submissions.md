@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan du behandler skjemainnsendin
 keywords: skjema, skjemainnsending, data fra skjema, skjemadata, innsender, innsendt, sendt inn
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

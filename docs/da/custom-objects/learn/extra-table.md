@@ -5,7 +5,7 @@ description: Ekstra tabeller
 keywords: ekstra tabel, brugerdefinerede objekter
 author: Bergfrid Dias
 date: 08.27.2024
-version: 10.3.8
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

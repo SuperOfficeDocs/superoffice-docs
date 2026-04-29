@@ -5,7 +5,7 @@ description: Fordelingsmetoder for saker
 keywords: sak
 author: digitaldiina
 date: 03.25.2026
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

@@ -5,7 +5,7 @@ description: Create request status
 keywords: create request status, add request status, new request status, request status, Internal status, Queue status, track time, request, status
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

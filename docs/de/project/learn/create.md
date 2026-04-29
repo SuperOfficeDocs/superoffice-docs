@@ -5,7 +5,7 @@ description: Wie man ein Projekt erstellt und bei der Arbeit noch besser organis
 keywords: Projekt erstellen, neues Projekt, Projekt hinzufügen, Registerkarte Projekt, Projekt
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

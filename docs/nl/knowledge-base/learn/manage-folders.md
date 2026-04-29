@@ -5,7 +5,7 @@ description: Organiseer antwoordsjablonen, FAQ-items, e-mailadressen en externe 
 keywords: kennisbankmap, sjabloonmap, FAQ-map, map maken, map verwijderen
 author: Bergfrid Dias
 date: 07.16.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

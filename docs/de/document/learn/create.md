@@ -5,7 +5,7 @@ description: Erstellen Sie ein neues Dokument direkt in SuperOffice CRM oder lad
 keywords: neues Dokument, Dokument hinzufügen, Dokument erstellen, WebTools, SharePoint, Dokument
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

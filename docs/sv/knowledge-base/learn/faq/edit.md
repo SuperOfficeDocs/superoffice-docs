@@ -5,7 +5,7 @@ description: Redigera eller ta bort FAQ-poster
 keywords: FAQ redigera, FAQ ta bort
 author: SuperOffice Product and Engineering
 date: 07.15.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: faq

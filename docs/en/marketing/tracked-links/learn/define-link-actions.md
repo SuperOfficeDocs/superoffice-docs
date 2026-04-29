@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to use links in mailings t
 keywords: link action, tracked link, call-to-action
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

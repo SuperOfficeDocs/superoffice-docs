@@ -5,7 +5,7 @@ description: Sådan opretter du en salgsguide i SuperOffice.
 keywords: opret salgsguide, ny salgsguide, salgsguide, guide, workflow, salg
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

@@ -5,7 +5,7 @@ description: How to delete a project and associated data in SuperOffice
 keywords: delete project, project management, project
 author: Bergfrid Dias
 date: 12.20.2024
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

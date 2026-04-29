@@ -5,7 +5,7 @@ description: Rapport met persoonlijke gegevens genereren
 keywords: Rapport met persoonlijke gegevens, privacyrapport
 author: SuperOffice Product and Engineering
 date: 06.29.2022
-version: 10.3
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

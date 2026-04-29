@@ -5,7 +5,7 @@ description: Introduktion till projektguider i SuperOffice.
 keywords: projektguide, guide, arbetsflöde, detaljkortet Projektguide, projekt, processhantering, projektledare, arbetsmetod
 author: Bergfrid
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person

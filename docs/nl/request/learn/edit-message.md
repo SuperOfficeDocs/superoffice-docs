@@ -5,7 +5,7 @@ description: Hoe u een bericht in een verzoek in SuperOffice kunt bewerken
 keywords: bericht bewerken, verzoek, bericht wijzigen, verzoek bijwerken
 author: Hanne Gunnarsson, Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 functional_right: general administrator
 audience: person

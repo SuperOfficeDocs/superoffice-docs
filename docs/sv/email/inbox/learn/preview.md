@@ -5,7 +5,7 @@ description: Läs om hur du förhandsgranskar, flyttar, markerar och skriver ut 
 keywords: öppna e-post, visa e-post, förhandsgranska, flytta e-post, markera som läst, skriv ut, e-post, SuperOffice Inkorg, inkorg
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

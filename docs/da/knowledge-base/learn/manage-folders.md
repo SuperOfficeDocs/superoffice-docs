@@ -5,7 +5,7 @@ description: Organiser svarskabeloner, FAQ-poster, e-mailadresser og eksterne do
 keywords: vidensbasemappe, skabelonmappe, FAQ-mappe, oprette mappe, slette mappe
 author: Bergfrid Dias
 date: 07.16.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

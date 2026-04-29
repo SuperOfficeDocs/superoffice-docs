@@ -5,7 +5,7 @@ description: Introduction to sales guides in SuperOffice.
 keywords: sales guide, guide, workflow, Sales guide section tab, sale
 author: Bergfrid Dias
 date: 01.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

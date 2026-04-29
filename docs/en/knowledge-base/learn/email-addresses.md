@@ -5,7 +5,7 @@ description: Work with email addresses
 keywords: email address
 author: Bergfrid Dias
 date: 03.16.2023
-version: 10.5
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

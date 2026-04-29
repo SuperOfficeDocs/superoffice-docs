@@ -5,7 +5,7 @@ description: "In dieser Anleitung lernen Sie, wie Sie alle Ihre Interessenten, K
 keywords: Importieren, Excel, Firma, Person, Tabellenkalkulation
 author: digitaldiina
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

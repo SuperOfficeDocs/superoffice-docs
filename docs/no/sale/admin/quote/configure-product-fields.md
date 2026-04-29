@@ -5,7 +5,7 @@ description: Lær hvordan du kontrollerer hvilke felter som vises i Legg til/red
 keywords: Konfigurer produktdialog, Legg til/rediger produkt, konfigurer produkt, produktdialog, produktfelt, ledetekst, produkt, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

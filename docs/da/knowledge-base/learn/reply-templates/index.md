@@ -5,7 +5,7 @@ description: Organiser svarskabeloner ved hjælp af en tilpasselig mappestruktur
 keywords: vis svarskabelon, find svarskabelon, svarskabelon, færdig tekst, vidensbase
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

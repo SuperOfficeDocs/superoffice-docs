@@ -5,7 +5,7 @@ description: Ontdek hoe u de privacylijsten in deze handleiding kunt wijzigen.
 keywords: Privacy bron lijst, Privacy bron toevoegen
 author: SuperOffice Product and Engineering
 date: 09.02.2025
-version: 10.3
+version: 11
 content_type: howto
 functional_right: list administrator, general administrator
 category: privacy

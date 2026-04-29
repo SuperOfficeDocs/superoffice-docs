@@ -5,7 +5,7 @@ description: Formålet med din mailudsendelse er bestemmende for din målgruppe.
 keywords: Marketing, udsendelse
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

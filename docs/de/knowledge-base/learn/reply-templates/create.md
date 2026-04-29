@@ -5,7 +5,7 @@ description: In dieser Anleitung erfahren Sie, wie Sie eine Antwortvorlage erste
 keywords: Antwortvorlage erstellen, neue Antwortvorlage, Antwortvorlage kopieren, Antwortvorlageneigenschaften, Antwortvorlage, Vorlage, vorbereiteter Text, Wissensdatenbank
 author: SuperOffice Product and Engineering
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

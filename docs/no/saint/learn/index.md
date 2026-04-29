@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan SAINT kan utvikle salgs- og 
 keywords: SAINT, statusovervåking
 author: SuperOffice Product and Engineering
 date: 09.23.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

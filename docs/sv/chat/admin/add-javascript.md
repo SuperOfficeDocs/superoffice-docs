@@ -5,7 +5,7 @@ description: Livechatt är ett populärt sätt för dina kunder och prospekt att
 keywords: chatt JavaScript
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

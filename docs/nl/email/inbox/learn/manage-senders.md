@@ -5,7 +5,7 @@ description: Leer hoe u onbekende afzenders kunt registreren of koppelen in Supe
 keywords: onbekende afzender, afzender, contact toevoegen, e-mailkop, e-mailadres, SuperOffice Postvak IN, postvak
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

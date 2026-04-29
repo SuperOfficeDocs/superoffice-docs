@@ -5,7 +5,7 @@ description: Lär dig hur du tar bort en ärendetyp i SuperOffice Service.
 keywords: ta bort ärendetyp, använd som standard, överför ärendetyp till, ärendetyp, ärende
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: servicepremium
 audience: settings

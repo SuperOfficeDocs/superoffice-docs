@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du oppretter en sak i SuperOffice 
 keywords: opprett sak, kan ikke løse via chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

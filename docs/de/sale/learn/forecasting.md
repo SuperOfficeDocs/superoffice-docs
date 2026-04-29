@@ -5,7 +5,7 @@ description: Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe 
 keywords: Verkauf, Prognose, Pipeline
 author: Bergfrid Dias
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: person

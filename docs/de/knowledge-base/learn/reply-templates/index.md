@@ -5,7 +5,7 @@ description: Mit Antwortvorlagen arbeiten
 keywords: Antwortvorlage anzeigen, Antwortvorlage finden, Antwortvorlage, vorgefertigter Text, Wissensdatenbank
 author: SuperOffice Product and Engineering
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

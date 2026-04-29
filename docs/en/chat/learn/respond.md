@@ -5,7 +5,7 @@ description: When a customer sends a query via the chat widget on the website, i
 keywords: respond to chat, next chat in queue, incoming chat, presence, quick reply
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

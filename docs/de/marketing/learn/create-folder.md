@@ -5,7 +5,7 @@ description: Wie man einen Ordner in Marketing erstellt
 keywords: Ordner, Unterordner, Ordner hinzufügen
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

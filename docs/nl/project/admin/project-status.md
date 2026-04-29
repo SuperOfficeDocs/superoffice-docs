@@ -5,7 +5,7 @@ description: Leer hoe u een nieuwe projectstatus toevoegt in SuperOffice CRM. Ma
 keywords: projectstatus toevoegen, projectstatus, lijst Project - Status, project
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

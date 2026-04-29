@@ -5,7 +5,7 @@ description: Send privacy confirmation email
 keywords: privacy confirmation email, email confirmations
 author: SuperOffice Product and Engineering
 date: 02.21.2023
-version: 10.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

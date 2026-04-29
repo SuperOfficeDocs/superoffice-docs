@@ -5,7 +5,7 @@ description: Learn how to manage and interact with contact information linked to
 keywords: contacts tab, section tab, contact archive, enable middle name
 author: Bergfrid Skaara Dias
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

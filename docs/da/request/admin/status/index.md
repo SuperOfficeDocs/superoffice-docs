@@ -5,7 +5,7 @@ description: Alle sager i SuperOffice har en status, såsom Åben, Lukket eller 
 keywords: sagsstatus, status, sager, statusindstillinger
 author: Hanne Gunnarsson
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

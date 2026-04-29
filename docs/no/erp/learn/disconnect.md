@@ -5,7 +5,7 @@ description: Deaktiver ERP-synkronisering
 keywords: koble fra ERP, ERP-fane, koble fra, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

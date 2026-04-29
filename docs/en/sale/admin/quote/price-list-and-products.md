@@ -5,7 +5,7 @@ description: Learn how to create and manage price lists and products in the Supe
 keywords: price list, add product, configure product, product image, deactivate product, product, quote
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

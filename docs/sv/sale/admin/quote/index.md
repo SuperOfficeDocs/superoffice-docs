@@ -5,7 +5,7 @@ description: Lär dig hur offerter, quote connectors och ERP-integration fungera
 keywords: quote connector, ERP-koppling, offertinställningar, prislista, produkt, Offert/Synk, ERP-inställningar, quote connector-inställningar, offertintegration, försäljningskonfiguration, offert, synk
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: settings

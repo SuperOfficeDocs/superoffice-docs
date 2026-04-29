@@ -5,7 +5,7 @@ description: Leer hoe u antwoordsjablonen kunt bekijken, zoeken en beheren in Su
 keywords: antwoordsjabloon, kennisdatabase
 author: SuperOffice Product and Engineering
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

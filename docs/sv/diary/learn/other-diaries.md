@@ -5,7 +5,7 @@ description: Växla till en annan användares eller resursens kalender för att 
 keywords: kalenderägare, byt kalenderägare, visa en annan kalender, visa en resurskalender, kalender, händelse, resurs, ägare, kalenderägarlistan
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

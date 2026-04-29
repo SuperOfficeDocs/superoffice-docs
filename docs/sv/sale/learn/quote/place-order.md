@@ -5,7 +5,7 @@ description: Lär dig hur du registrerar en order i SuperOffice CRM.
 keywords: registrera order, skapa order, order baserad på offertversion, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

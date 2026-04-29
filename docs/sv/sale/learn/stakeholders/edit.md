@@ -5,7 +5,7 @@ description: Så här redigerar eller tar du bort intressenter i en försäljnin
 keywords: Uppdatera intressent, redigera intressent, ta bort intressent, Lägg till/redigera intressenter-dialog, Intressent-detaljkort, intressent, försäljning
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

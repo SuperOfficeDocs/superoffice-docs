@@ -5,7 +5,7 @@ description: Volg deze stappen om de gegevens van een bedrijf te bewerken.
 keywords: bedrijf bewerken, bedrijf bijwerken, bedrijfsgegevens wijzigen, bedrijf
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

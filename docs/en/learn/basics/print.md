@@ -5,7 +5,7 @@ description: This guide provides an overview of how to print records such as com
 keywords: print
 author: Bergfrid Dias
 date: 01.20.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

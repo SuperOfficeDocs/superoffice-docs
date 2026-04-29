@@ -5,7 +5,7 @@ description: Leer hoe u offertes maakt, beheert en verzendt in SuperOffice CRM o
 keywords: Offerte-sectietabblad, Offerte-tabblad, verkoop, voorstel, offertealternatief, offerte-naar-order, offerte
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Een volledig overzicht van alle deelnemers binnen de flow.
 keywords: Marketing, flow, deelnemer, inschrijvin, actief
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: flows

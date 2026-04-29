@@ -5,7 +5,7 @@ description: Legg til sakstype
 keywords: opprett sakstype, ny sakstype, legg til sakstype, sakstype, fanen Sakstyper, type, sak
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: howto
 license: servicepremium
 audience: settings

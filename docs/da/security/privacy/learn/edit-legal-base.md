@@ -5,7 +5,7 @@ description: I denne vejledning lærer du om GDPR-funktionerne i SuperOffice Mar
 keywords: redigere privacy-indstilling, retsgrundlag
 author: SuperOffice Product and Engineering
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

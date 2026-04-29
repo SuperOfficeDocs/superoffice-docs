@@ -5,7 +5,7 @@ description: SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Ve
 keywords: Verkaufskarte, Verkaufsansicht, Verkauf, Lead
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: concept
 license: salesessentials
 audience: person

@@ -5,7 +5,7 @@ description: Hoe maak je een map in Marketing
 keywords: map toevoegen, mapstructuur
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

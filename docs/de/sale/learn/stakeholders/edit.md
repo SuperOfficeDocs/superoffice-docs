@@ -5,7 +5,7 @@ description: Wie man Beteiligte in einem Verkauf in SuperOffice bearbeitet oder 
 keywords: Beteiligten bearbeiten, Beteiligte hinzufügen/bearbeiten, Rolle zuweisen, Bereichsregisterkarte Beteiligte, Beteiligter, Verkaufsrolle, Verkauf
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

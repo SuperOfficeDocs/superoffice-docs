@@ -5,7 +5,7 @@ description: Funktionerne til administration af abonnementer i SuperOffice CRM g
 keywords: marketing
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 topic: mailing

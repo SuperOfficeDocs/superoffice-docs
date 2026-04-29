@@ -5,7 +5,7 @@ description: Ta bort företag och tillhörande data
 keywords: ta bort företag, radera företag, företag
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

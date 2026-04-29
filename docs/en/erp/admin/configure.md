@@ -5,7 +5,7 @@ description: Configure synchronization between SuperOffice CRM and your ERP syst
 keywords: ERP connection, configure sync, field mapping, list mapping, default values, rank ERP fields, set sync priority, edit ERP connection, SuperOffice ERP integration, ERP tab, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

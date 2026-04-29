@@ -5,7 +5,7 @@ description: Lær, hvordan du kan se, tilføje og administrere relationer mellem
 keywords: Relationer-fanen, Relationsfanen, fanen Relationer, detaljekortet Relationer, detaljekort, relation
 author: Bergfrid Skaara Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

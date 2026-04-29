@@ -5,7 +5,7 @@ description: Skapa ett malldokument
 keywords: dokumentmall, dokument, mall
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 language: sv
 redirect_from: /sv/admin/lists/learn/creating-template-document

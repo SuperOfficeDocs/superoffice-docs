@@ -5,7 +5,7 @@ description: Leer hoe u een nieuw projecttype maakt in SuperOffice CRM. Definiee
 keywords: projecttype toevoegen, projecttype, lijst Project - Type status, project
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

@@ -5,7 +5,7 @@ description: U kunt wisselen naar de agenda van een andere gebruiker of bron om 
 keywords: agenda-eigenaar, agenda wisselen, andere agenda bekijken, agenda bron bekijken, agenda, vervolgactiviteit, bron, eigenaar, lijst met agenda-eigenaars
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

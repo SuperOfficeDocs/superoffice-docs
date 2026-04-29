@@ -5,7 +5,7 @@ description: Slik oppretter du en ny person i SuperOffice CRM.
 keywords: opprett person, interesser, Interesser-fanen, personbilde, foretrukket språk, hjemmel, person, kontakt
 author: Bergfrid Dias
 date: 01.27.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

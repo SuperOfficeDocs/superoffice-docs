@@ -5,7 +5,7 @@ description: Bedste praksis
 keywords: Marketing, marketingkampagne, udsendelse, tjekliste
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

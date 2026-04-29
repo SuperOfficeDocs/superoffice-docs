@@ -4,7 +4,7 @@ title: Tutorial - document mailing
 description: In this tutorial, you will learn to create a document mailing.
 keywords: document mailing
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

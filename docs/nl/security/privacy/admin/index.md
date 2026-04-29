@@ -5,7 +5,7 @@ description: Voordat u begint met het configureren van uw SuperOffice CRM-databa
 keywords: GDPR, toestemming, privacy-instellingen
 author: Bergfrid Dias
 date: 02.21.2023
-version: 10.3
+version: 11
 content_type: concept
 category: privacy
 audience: settings

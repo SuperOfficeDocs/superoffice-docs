@@ -5,7 +5,7 @@ description: Using the chat function from the customer's perspective
 keywords: start chat, end chat, incoming chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

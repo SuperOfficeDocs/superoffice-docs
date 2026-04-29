@@ -5,7 +5,7 @@ description: Den här guiden visar hur du skapar och använder projekt för att 
 keywords: projektkort, projekt-fönstret, fliken bild, projekt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person

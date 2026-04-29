@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan du finner saker i SuperOffic
 keywords: siste saker, egne aktive saker, ufordelte saker, vis bare egne kategorier, sak, søk, finne
 author: Bergfrid Dias
 date: 02.04.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

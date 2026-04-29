@@ -5,7 +5,7 @@ description: Learn how to create a quote in SuperOffice CRM, including how to ad
 keywords: create quote, copy quote, add product, Add/edit product dialog, quote
 author: Bergfrid Dias
 date: 04.09.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

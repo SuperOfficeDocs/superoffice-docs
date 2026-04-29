@@ -5,7 +5,7 @@ description: Leer hoe u een projectgids in SuperOffice CRM kunt bewerken of deac
 keywords: projectgids bewerken, projectgids bijwerken, projectgids deactiveren, projectgids, gids, workflow, project
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

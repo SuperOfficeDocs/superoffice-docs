@@ -5,7 +5,7 @@ description: Skicka e-postbekräftelse om personskydd
 keywords: e-postbekräftelse, personskydd, integritetsbekräftelse
 author: SuperOffice Product and Engineering
 date: 02.21.2023
-version: 10.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

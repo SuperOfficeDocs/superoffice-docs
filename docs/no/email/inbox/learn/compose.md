@@ -5,7 +5,7 @@ description: Lær hvordan du skriver og sender e-post ved hjelp av SuperOffice-i
 keywords: ny e-post, skriv melding, skriv e-post, e-postmelding
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

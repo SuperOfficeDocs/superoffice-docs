@@ -5,7 +5,7 @@ description: Verbinding maken met ERP
 keywords: verbinding met ERP, bedrijf koppelen aan ERP, contactpersoon koppelen aan ERP, project koppelen aan ERP, kan geen overeenkomst vinden in ERP, maken in ERP, actor maken, ERP-actor, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

@@ -5,7 +5,7 @@ description: Legge til elementer i forhåndsdefinerte og brukerdefinerte lister
 keywords: legg til forekomst, legg til element, legg til i liste, listeelememnt, listeforekomst
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

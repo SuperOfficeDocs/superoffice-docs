@@ -5,7 +5,7 @@ description: Items toevoegen aan de lijst Vervolgactiviteit - Type
 keywords: Vervolgactiviteittypen, lijst Vervolgactiviteit - Type
 author: digitaldiina
 date: 10.27.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

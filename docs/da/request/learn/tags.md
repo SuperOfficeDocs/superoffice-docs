@@ -5,7 +5,7 @@ description: Få flere oplysninger om, hvordan du opretter og redigerer sagstags
 keywords: tag sag, tilføj tag, fjern tag, tagging, tag, sag
 author: Bergfrid Dias
 date: 07.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

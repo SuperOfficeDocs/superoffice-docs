@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in SuperOffice CRM einen neuen Projekttyp ers
 keywords: Projekttyp hinzufügen, Projekttyp erstellen, neuen Projekttyp, Projekttyp, Liste Projekt - Typ Status, Projekt
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

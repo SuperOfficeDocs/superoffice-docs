@@ -5,7 +5,7 @@ description: Checka in/ut dokument
 keywords: dokument, checka in, lås dokument, redigeringsläge, läsläge, begär redigering eller läsning, återgå till sparad version
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

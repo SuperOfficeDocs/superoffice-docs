@@ -5,7 +5,7 @@ description: Een voorbeeld van werken met een verkoopgids in SuperOffice.
 keywords: verkoopgids, voorbeeld, verkoop
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

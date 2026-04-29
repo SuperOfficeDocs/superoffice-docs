@@ -5,7 +5,7 @@ description: Resync from CRM
 keywords: resync from CRM, resync ERP, push CRM data to ERP, sync, ERP connection, connector, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

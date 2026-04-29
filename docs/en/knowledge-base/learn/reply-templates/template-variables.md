@@ -5,7 +5,7 @@ description: Template variables
 keywords: reply template variable, template variable
 author: SuperOffice Product and Engineering
 date: 06.29.2022
-version: 10.5
+version: 11
 content_type: reference
 category: service
 topic: knowledge base

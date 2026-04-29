@@ -4,7 +4,7 @@ title: Zelfstudie - formulier antwoordmailing
 description: In deze zelfstudie leert u een formulier voor antwoordmailing te maken.
 keywords: formuliermailing, antwoordmailing
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

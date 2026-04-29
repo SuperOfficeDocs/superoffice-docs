@@ -5,7 +5,7 @@ description: Lær hvordan du endrer navn, omfang eller konfigurasjon for en eksi
 keywords: rediger ERP-kobling, oppdater ERP-innstillinger, endre ERP-kobling, sync connector, ERP-konfigurasjon, SuperOffice sync
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Lär dig hur du vidarebefordrar ett ärende i den här guiden.
 keywords: vidarebefordra ärende, ärende, extern kontakt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

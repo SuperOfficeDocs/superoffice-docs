@@ -5,7 +5,7 @@ description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här g
 keywords: blockerade e-postadresser, studsar, för många returer, returnerade e-postmeddelanden
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

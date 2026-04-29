@@ -5,7 +5,7 @@ description: Lär dig hur du hanterar och ser försäljningsinformation i detalj
 keywords: Försäljning-fliken, Försäljningsfliken, fliken Försäljning, detaljkortet Försäljning, detaljkort
 author: Bergfrid Skaara Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

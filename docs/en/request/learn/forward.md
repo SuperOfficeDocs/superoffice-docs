@@ -5,7 +5,7 @@ description: Learn how to forward a request in this how-to guide.
 keywords: forward request, request
 author: Bergfrid Dias
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

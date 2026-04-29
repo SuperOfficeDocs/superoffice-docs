@@ -5,7 +5,7 @@ description: Deze gids gaat over de AVG-functies in SuperOffice Marketing die u 
 keywords: Privacy-instellingen bewerken, rechtsgrondslag bewerken
 author: SuperOffice Product and Engineering
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

@@ -5,7 +5,7 @@ description: Inleiding tot waar documenten worden opgeslagen (SO_Arc of SharePoi
 keywords: documentbibliotheek, document, SharePoint, SO_Arc
 author: Bergfrid Dias
 date: 08.02.2024
-version: 10.3
+version: 11
 content_type: concept
 language: nl
 redirect_from:

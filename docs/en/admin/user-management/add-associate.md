@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to add a new user in Super
 keywords: user, associate
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Egenskaper for pakke
 keywords: pakke egenskaper
 author: SuperOffice Product and Engineering
 date: 07.10.2025
-version: 10.5
+version: 11
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

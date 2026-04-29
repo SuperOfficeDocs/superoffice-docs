@@ -5,7 +5,7 @@ description: An extra field is a custom field that you add to an existing SuperO
 keywords: extra field, custom field, field types
 author: Bergfrid Dias
 date: 06.11.2024
-version: 10.3.7
+version: 11
 content_type: concept
 language: en
 audience: person

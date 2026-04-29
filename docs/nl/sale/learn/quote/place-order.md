@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een order plaatst op basis van ee
 keywords: order plaatsen, bestelling maken, offerteversie, offerte, SuperOffice CRM
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

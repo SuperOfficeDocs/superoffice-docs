@@ -5,7 +5,7 @@ description: To keep your customer database clean and efficient, merge duplicate
 keywords: Merge companies, Manage companies, Merge identical contacts, company
 author: Bergfrid Dias
 date: 12.16.2024
-version: 10.3.8
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

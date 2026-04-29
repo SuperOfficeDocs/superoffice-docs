@@ -5,7 +5,7 @@ description: Leer hoe u een projectgids in SuperOffice CRM kunt maken. Definieer
 keywords: projectgids maken, nieuwe projectgids, projectgids, gids, workflow, project
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

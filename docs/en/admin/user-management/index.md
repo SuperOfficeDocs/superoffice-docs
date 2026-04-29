@@ -5,7 +5,7 @@ description: Learn how to add new users, how to assign the right user roles and 
 keywords: Users screen, user, associate, our companies, visibility, visible for, available
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Opprette ny språkversjon av svarmal
 keywords: oversett svarmal, ny språkversjon, svarmal, mal
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

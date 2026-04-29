@@ -5,7 +5,7 @@ description: Show follow-ups you are invited to; accept or decline an invitation
 keywords: accept invitation, decline invitation, Notifications panel, diary, follow-up, invitation
 author: Bergfrid Dias
 date: 01.13.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Saksstatus
 keywords: saksstatus, Saksstatus-fanen, sak, status
 author: Hanne Gunnarsson
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: concept
 license: serviceessentials
 audience: settings

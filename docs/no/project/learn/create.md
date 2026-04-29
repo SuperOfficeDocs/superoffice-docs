@@ -5,7 +5,7 @@ description: Slik oppretter du et prosjekt for bedre organisering i arbeidet dit
 keywords: opprette prosjekt, nytt prosjekt, legg til prosjekt, prosjekt
 author: Bergfrid Dias
 date: 01.30.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Så lägger du till en projektdeltagare i SuperOffice
 keywords: lägg till projektdeltagare, ny projektdeltagare, dialogrutan Lägg till/redigera projektdeltagare, projektdeltagare, projekt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

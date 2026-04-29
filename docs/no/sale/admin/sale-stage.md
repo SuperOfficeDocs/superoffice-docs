@@ -5,7 +5,7 @@ description: Legge til en salgsfase
 keywords: legg til salgsfase, ny salgsfase, listen Salg – Fase, salgsfase, fase, salg
 author: Bergfrid Dias
 date: 02.03.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

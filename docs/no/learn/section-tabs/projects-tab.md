@@ -5,7 +5,7 @@ description: Lær hvordan du kan se, legge til og administrere prosjekter ved hj
 keywords: Prosjektfanen, Prosjekter-fanen, detaljkortet Prosjekter, detaljkort, prosjektarkiv
 author: Bergfrid Skaara Dias
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

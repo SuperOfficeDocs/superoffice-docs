@@ -5,7 +5,7 @@ description: Når du sender e-post via SuperOffice CRM, blir det enklere å dele
 keywords: e-post, send e-post, send og arkiver, person, kontakt
 author: Bergfrid Dias
 date: 01.27.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

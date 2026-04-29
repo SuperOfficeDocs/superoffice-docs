@@ -5,7 +5,7 @@ description: Skapa ett offertdokument för ditt förslag i SuperOffice Quote som
 keywords: skapa offertdokument, ändra offertdokument, offertdokument, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

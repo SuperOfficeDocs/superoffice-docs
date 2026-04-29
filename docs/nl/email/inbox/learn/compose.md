@@ -5,7 +5,7 @@ description: Leer hoe u een e-mail opstelt en verzendt met SuperOffice Postvak I
 keywords: e-mailbericht schrijven, nieuwe e-mail, nieuw e-mailbericht
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

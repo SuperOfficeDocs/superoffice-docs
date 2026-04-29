@@ -5,7 +5,7 @@ description: Denne veiledningen viser deg hvordan du oppretter og bruker prosjek
 keywords: prosjektkort, Prosjekt-bilde, prosjekt
 author: Bergfrid Dias
 date: 01.30.2025
-version: 10.3.11
+version: 11
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person

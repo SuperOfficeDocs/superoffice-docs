@@ -5,7 +5,7 @@ description: Lær, hvordan du opretter en sag i SuperOffice Service baseret på 
 keywords: opret sag, indbakke, service, ticket, kundeservice, e-mail, sag
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

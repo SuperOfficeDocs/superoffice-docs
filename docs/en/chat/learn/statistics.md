@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to view chat statistics bo
 keywords: chat statistics, chat dashboard
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

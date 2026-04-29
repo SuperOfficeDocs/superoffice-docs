@@ -5,7 +5,7 @@ description: Maak een offertedocument voor uw SuperOffice-offertevoorstel dat u 
 keywords: offertedocument maken, offertedocument wijzigen, offertedocument, offerte
 author: Bergfrid Dias
 date: 04.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

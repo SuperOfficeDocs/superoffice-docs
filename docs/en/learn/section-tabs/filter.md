@@ -5,7 +5,7 @@ description: How to use filters in the section tabs.
 keywords: section tab, filter
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

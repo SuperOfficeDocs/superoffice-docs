@@ -5,7 +5,7 @@ description: Leer hoe u verzoeken kunt samenvoegen in SuperOffice.
 keywords: verzoek, samenvoegen
 author: Hanne Gunnarsson
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

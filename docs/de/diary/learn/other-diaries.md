@@ -5,7 +5,7 @@ description: Sie können den Kalender eines anderen Benutzers oder einer Ressour
 keywords: Kalenderbesitzer, Kalender wechseln, anderen Kalender anzeigen, Ressourcenkalender anzeigen, Kalender, Folgeaufgabe, Ressource, Besitzer
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

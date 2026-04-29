@@ -5,7 +5,7 @@ description: Sådan tilføjer du en salgstype i SuperOffice CRM og konfigurerer 
 keywords: tilføj salgstype, Salg – Type Faser Tilbud, Salg – Kategori, Tilbudsvedhæftninger, Tilbudsstandarder, Tilbudsgodkendelse, salgstype, salg, tilbud
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

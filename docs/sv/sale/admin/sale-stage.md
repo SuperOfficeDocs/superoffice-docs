@@ -5,7 +5,7 @@ description: Så här lägger du till en försäljningsfas i SuperOffice CRM. De
 keywords: lägg till försäljningsfas, ny försäljningsfas, Försäljning - Fas lista, försäljningsfas, fas, försäljning
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

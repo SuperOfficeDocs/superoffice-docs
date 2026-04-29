@@ -5,7 +5,7 @@ description: So löschen Sie eine Person in SuperOffice CRM.
 keywords: Person löschen, Person entfernen, ehemalige Mitarbeiter, Ausgeschiedener Mitarbeiter, Personenverwaltung, doppelte Einträge, Duplikat
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

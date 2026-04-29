@@ -5,7 +5,7 @@ description: Jobba med spårade länkar efter utskicket
 keywords: Marknadsföring, spårade länkar, utskikt, e-postmeddeland
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

@@ -5,7 +5,7 @@ description: Anfragestatus löschen
 keywords: Anfragestatus löschen, Anfragestatus verschieben nach, Anfragestatus, Anfrage, Status
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

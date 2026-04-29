@@ -5,7 +5,7 @@ description: Introduktion til salgsguider i SuperOffice.
 keywords: salgsguide, guide, workflow, detaljekortet Salgsguide, salg
 author: SuperOffice RnD
 date: 04.03.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Legge til eller kopiere møte, oppgave, samtale i SuperOffice
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
 author: Bergfrid Dias
 date: 03.06.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

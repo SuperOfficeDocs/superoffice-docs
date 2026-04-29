@@ -5,7 +5,7 @@ description: En trinvis vejledning i brug af projektguider i SuperOffice CRM.
 keywords: projektguide, guide, workflow, projekt
 author: SuperOffice RnD
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
 audience: person

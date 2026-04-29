@@ -5,7 +5,7 @@ description: Prosjektdeltakere
 keywords: prosjektdeltake, detaljkortet Prosjektdeltakere, prosjekt, deltaker
 author: SuperOffice RnD
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

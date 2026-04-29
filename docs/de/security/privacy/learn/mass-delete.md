@@ -5,7 +5,7 @@ description: Gemäß den Anforderungen der DSGVO müssen Sie eine Rechtsgrundlag
 keywords: Massenlöschung, personenbezogene Daten löschen
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

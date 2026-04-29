@@ -5,7 +5,7 @@ description: You can group a list on one or more data types to get a better over
 keywords: section tab, archive, filter
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

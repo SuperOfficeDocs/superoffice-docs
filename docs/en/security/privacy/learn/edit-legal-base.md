@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn about the GDPR features in Sup
 keywords: edit privacy settings, edit legal base
 author: SuperOffice Product and Engineering
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

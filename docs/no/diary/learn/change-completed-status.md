@@ -4,7 +4,7 @@ title: Endre Utført-status for en aktivitet
 description: Endre Utført-status for en aktivitet
 author: SuperOffice RnD
 date: 05.21.2024
-version: 10.3.6
+version: 11
 keywords: dagbok, oppfølging, utført
 content_type: howto
 language: no

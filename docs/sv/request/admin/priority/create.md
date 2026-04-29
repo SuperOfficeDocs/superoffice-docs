@@ -5,7 +5,7 @@ description: Skapa prioritet
 keywords: skapa ärendeprioritet, lägg till prioritet, ny prioritet, ärendeprioritet, Prioriteter-fliken, eskaleringshändelser, eskaleringskedja, ärende, prioritet
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Arbeta med e-postadresser
 keywords: kunskapsbas
 author: SuperOffice Product and Engineering
 date: 02.25.2025
-version: 10.5
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

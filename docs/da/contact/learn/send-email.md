@@ -5,7 +5,7 @@ description: At sende e-mails via SuperOffice CRM gør det nemmere at dele og ge
 keywords: e-mail person, send e-mail, e-mail, mail
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

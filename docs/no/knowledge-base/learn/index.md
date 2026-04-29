@@ -5,7 +5,7 @@ description: Kunnskapsbase
 keywords: sak, kunnskapsbase
 author: SuperOffice Product and Engineering
 date: 03.24.2023
-version: 10.5
+version: 11
 content_type: reference
 category: service
 topic: knowledge base

@@ -5,7 +5,7 @@ description: Met sjabloonvariabelen kunt u de invoer van klantgegevens personali
 keywords: document, sjabloon, variable
 author: Bergfrid Dias
 date: 12.10.2024
-version: 10.3
+version: 11
 content_type: concept
 language: nl
 redirect_from: /nl/document/learn/template-variables

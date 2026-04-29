@@ -5,7 +5,7 @@ description: Du kan konfigurere dine links på to måder. Du kan enten bruge et 
 keywords: Marketing, mailudsendelse
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

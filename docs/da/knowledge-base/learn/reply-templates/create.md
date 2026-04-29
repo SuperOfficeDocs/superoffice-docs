@@ -5,7 +5,7 @@ description: Lær, hvordan du opretter en svarskabelon, i denne vejledning.
 keywords: opret svarskabelon, ny svarskabelon, kopiér svarskabelon, svarskabelon egenskaber, skabelon
 author: Bergfrid Dias
 date: 03.04.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

@@ -5,7 +5,7 @@ description: Lær hvordan du søker etter og finner data i SuperOffice CRM med b
 keywords: søk, finn
 author: Bergfrid Dias
 date: 01.30.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Log ind for at aktivere din SuperOffice CRM-konto ved hjælp af en 
 keywords: CRM, log ind, login, adgangskode
 author: Bergfrid Skaara Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

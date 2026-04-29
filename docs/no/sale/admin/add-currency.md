@@ -5,7 +5,7 @@ description: Legge til forekomster på Valuta-listen
 keywords: valuta, listen Generelt – Valuta
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: sale
 license: salesessentials

@@ -5,7 +5,7 @@ description: Lær hvordan du godtar kalenderinvitasjoner i SuperOffice-innboksen
 keywords: invitasjon, ical, ics, kalender, dagbok, godta møte, godta og varsle, innboks, oppfølging
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

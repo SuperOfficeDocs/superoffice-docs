@@ -5,7 +5,7 @@ description: Leer hoe u met slechts een paar klikken gegevens kunt zoeken en vin
 keywords: zoeken
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Interessenter
 keywords: Detaljkortet Interessenter, Vis interessenter, Denne salgstypen har interessenter, interessent, salg
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 audience: person

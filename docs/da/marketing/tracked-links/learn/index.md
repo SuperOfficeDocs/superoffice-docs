@@ -5,7 +5,7 @@ description: Et link, der sættes ind i en mailudsendelse, kan bruges til at spo
 keywords: Marketing
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 topic: mailing

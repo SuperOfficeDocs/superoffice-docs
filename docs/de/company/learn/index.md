@@ -5,7 +5,7 @@ description: Alle Informationen bezüglich einer Firma – egal, ob Kunde, Partn
 keywords: Firmenkarte, Firmenansicht, Firmenkunden, Kunde, Partner, Lieferant, Firma
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

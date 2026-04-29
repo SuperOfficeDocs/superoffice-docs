@@ -5,7 +5,7 @@ description: Overview of personal setting and how to change them.
 keywords: personal settings, preference, setting
 author: Bergfrid Dias
 date: 01.17.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

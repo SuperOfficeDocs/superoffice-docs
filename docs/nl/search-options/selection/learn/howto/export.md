@@ -5,7 +5,7 @@ description: Een selectie exporteren naar Excel of een bestand.
 keywords: exporteren naar Excel, exporteren naar bestand, selectie, exporteren, Excel
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

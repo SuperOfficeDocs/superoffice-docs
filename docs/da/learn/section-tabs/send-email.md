@@ -5,7 +5,7 @@ description: Besvare eller videresende e-mail fra detaljekortet Aktiviteter
 keywords: besvare e-mail, videresende e-mail
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Läs hur du arkiverar e-postmeddelanden och bilagor från inkorgen 
 keywords: Arkiv-knapp, spara e-post, spara bilaga, inkorg, somail, dokumentdialogruta, e-postbilaga, inkommande e-post, utgående e-post, e-post, arkivera
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

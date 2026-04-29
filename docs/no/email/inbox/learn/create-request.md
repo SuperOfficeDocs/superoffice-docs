@@ -5,7 +5,7 @@ description: Lær hvordan du oppretter en sak i SuperOffice Service basert på e
 keywords: opprett sak, innboks, service, sak, kundeservice, e-post, forespørsel
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

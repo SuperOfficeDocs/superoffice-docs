@@ -5,7 +5,7 @@ description: Med malvariabler kan du tilpasse og automatisere inntasting av kund
 keywords: document, mal, variabel, malvariabler
 author: Bergfrid Dias
 date: 12.10.2024
-version: 10.3
+version: 11
 content_type: concept
 language: no
 redirect_from: /no/document/learn/template-variables

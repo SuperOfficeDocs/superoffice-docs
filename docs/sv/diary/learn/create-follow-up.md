@@ -5,7 +5,7 @@ description: Lägga till eller kopiera möter, uppgifter och samtal i SuperOffic
 keywords: kalender, händelse, ringa upp, telefon, möte, bokning, samtal, att göra, uppgift
 author: Bergfrid Dias
 date: 03.06.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

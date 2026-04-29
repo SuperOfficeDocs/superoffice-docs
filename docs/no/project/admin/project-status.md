@@ -5,7 +5,7 @@ description: Finn ut hvordan du legger til en ny prosjektstatus i SuperOffice CR
 keywords: legg til prosjektstatus, prosjektstatus, prosjekt, listen Prosjekt - Status
 author: Bergfrid Dias
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

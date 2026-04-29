@@ -5,7 +5,7 @@ description: Request categories
 keywords: request category, Categories tab, request, category
 author: digitaldiina
 date: 03.25.2026
-version: 10.5
+version: 11
 content_type: concept
 license: serviceessentials
 audience: settings

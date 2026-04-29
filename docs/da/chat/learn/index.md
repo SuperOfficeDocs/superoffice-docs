@@ -5,7 +5,7 @@ description: Kommuniker med og hjælp eksisterende eller potentielle kunder via 
 keywords: chat, ongoing chats
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: concept
 license: cep
 category: Service

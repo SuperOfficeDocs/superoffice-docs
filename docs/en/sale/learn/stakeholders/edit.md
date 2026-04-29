@@ -5,7 +5,7 @@ description: How to edit or remove stakeholders in a sale in SuperOffice.
 keywords: update stakeholder, edit stakeholder, remove stakeholder, Add/edit stakeholders dialog, Stakeholders section tab, stakeholder, sale
 author: Bergfrid Dias
 date: 01.08.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium
 audience: person

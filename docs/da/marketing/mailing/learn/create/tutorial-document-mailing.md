@@ -4,7 +4,7 @@ title: Selvstudium - dokumentudsendelse
 description: I dette selvstudium lærer du at oprette en dokumentudsendelse.
 keywords: dokumentudsendelse
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

@@ -5,7 +5,7 @@ description: In this guide you will learn how SAINT can progress your sales and 
 keywords: SAINT, Sales Intelligence, activity monitor, status monitor
 author: SuperOffice Product and Engineering
 date: 09.22.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

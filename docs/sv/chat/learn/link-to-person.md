@@ -5,7 +5,7 @@ description: När en kund skickar en fråga via chattwidgeten på webbplatsen ä
 keywords: koppla chatt till kontakt, föreslagen kontakt, skapa ny kontakt
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

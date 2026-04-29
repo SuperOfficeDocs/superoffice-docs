@@ -5,7 +5,7 @@ description: Stappen om de gegevens van een contactpersoon te bewerken.
 keywords: contact bewerken, persoon bewerken, medewerker bewerken, contactgegevens wijzigen
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

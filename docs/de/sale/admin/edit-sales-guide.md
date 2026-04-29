@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen Verkaufsleitfaden in SuperOffice CRM be
 keywords: Verkaufsleitfaden bearbeiten, Verkaufsleitfaden aktualisieren, Verkaufsleitfaden deaktivieren, Verkaufsleitfaden, Leitfaden, Workflow, Verkauf
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

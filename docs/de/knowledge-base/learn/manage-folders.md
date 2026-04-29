@@ -5,7 +5,7 @@ description: Organisieren Sie Antwortvorlagen, FAQ-Einträge, E-Mail-Adressen un
 keywords: wissensdatenbankordner, vorlagenordner, FAQ-Ordner, ordner erstellen, ordner löschen
 author: Bergfrid Dias
 date: 07.16.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

@@ -5,7 +5,7 @@ description: Läs hur du skapar ett ärende i SuperOffice Service baserat på et
 keywords: skapa ärende, inkorg, ärendehantering, kundservice, service, e-post, ärende
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

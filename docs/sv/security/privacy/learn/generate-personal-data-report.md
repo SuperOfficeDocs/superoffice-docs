@@ -5,7 +5,7 @@ description: Generera personuppgiftsrapport
 keywords: personuppgiftsrapport, integritetsrapport
 author: SuperOffice Product and Engineering
 date: 06.29.2022
-version: 10.3
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

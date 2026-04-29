@@ -5,7 +5,7 @@ description: Lær, hvordan du registrerer eller matcher ukendte afsendere i Supe
 keywords: ukendt afsender, afsender, tilføj person, e-mailheader, e-mailadresse, SuperOffice Indbakke, indbakke
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Hur du tar över ett ärende för att undvika att någon annan besv
 keywords: ta över ärende, acceptera, ansvar, ärendeägare, hämta nästa i kön, ärende
 author: SuperOffice RnD
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

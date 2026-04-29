@@ -5,7 +5,7 @@ description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutze
 keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

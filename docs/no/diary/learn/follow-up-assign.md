@@ -5,7 +5,7 @@ description: Overføre en oppfølging til noen andre
 keywords: dagbok, oppfølging, delegere, tilordne, invitasjon, medarbeider
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

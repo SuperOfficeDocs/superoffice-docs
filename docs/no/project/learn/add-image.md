@@ -5,7 +5,7 @@ description: Legg til eller endre et prosjektbilde
 keywords: legg til bilde, prosjektbilde, prosjekt, fanen Bilde
 author: Bergfrid Dias
 date: 01.30.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Sådan redigerer du et firmas oplysninger.
 keywords: rediger firma, opdater firma, firma
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

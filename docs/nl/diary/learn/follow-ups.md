@@ -5,7 +5,7 @@ description: Vervolgactiviteiten - vergadering, taak, gesprek
 keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprek
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

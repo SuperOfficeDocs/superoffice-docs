@@ -5,7 +5,7 @@ description: Wie man Listen bearbeitet
 keywords: Liste
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

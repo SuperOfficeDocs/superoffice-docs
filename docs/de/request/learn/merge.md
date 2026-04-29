@@ -5,7 +5,7 @@ description: Wie man Anfragen in SuperOffice zusammenführt
 keywords: Anfragen zusammenführen, Anfrage, Ticket, Service
 author: Hanne Gunnarsson
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

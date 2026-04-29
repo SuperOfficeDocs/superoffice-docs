@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u uw bezoekers kunt volgen.
 keywords: Marketing, koppelingen, Google Analytics, mailing, volgen
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

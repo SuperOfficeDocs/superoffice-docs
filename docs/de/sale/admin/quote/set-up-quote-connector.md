@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen Quote Connector konfigurieren und ERP-V
 keywords: quote connector einrichten, quote connector hinzufügen, ERP-Verbindung hinzufügen, ERP-Verbindung testen, ERP-Verbindung, quote connector, connector, Angebot
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

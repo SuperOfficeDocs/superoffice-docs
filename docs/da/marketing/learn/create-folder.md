@@ -5,7 +5,7 @@ description: Sådan oprettes en mappe i Markedsføring
 keywords: tilføj mappe
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

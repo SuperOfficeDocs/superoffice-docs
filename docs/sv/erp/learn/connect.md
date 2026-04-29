@@ -5,7 +5,7 @@ description: Koppla till ERP
 keywords: koppla till ERP, koppla företag till ERP, koppla kontakt till ERP, koppla projekt till ERP, ingen träff i ERP, skapa aktör, skapa i ERP, ERP-aktör, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

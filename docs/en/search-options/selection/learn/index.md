@@ -5,7 +5,7 @@ description: Selection
 keywords: dynamic selection, static selection, combined selection, selection member, Selection screen, selection member, selection
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

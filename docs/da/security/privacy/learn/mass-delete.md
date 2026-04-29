@@ -5,7 +5,7 @@ description: I overensstemmelse med GDPR-kravene skal du have et retsgrundlag fo
 keywords: Masseslet, slette personoplysninger
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

@@ -5,7 +5,7 @@ description: Lær, hvordan du bruger SuperOffice Indbakke til at læse, sende og
 keywords: SuperOffice Indbakke, læs e-mail, send e-mail, e-mailklient, indbakke, e-mail
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

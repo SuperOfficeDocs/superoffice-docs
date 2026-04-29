@@ -5,7 +5,7 @@ description: Lees hoe u labelvervanging inschakelt en veldlabels in SuperOffice 
 keywords: labels, labelvervanging, veldlabel aanpassen, veld hernoemen, label vertalen, meertalig, terminologie
 author: Bergfrid Dias
 date: 10.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: options

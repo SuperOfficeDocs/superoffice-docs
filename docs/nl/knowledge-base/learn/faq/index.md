@@ -5,7 +5,7 @@ description: Werken met items in Veelgestelde vragen
 keywords: Veelgestelde vragen, kennisdatabase
 author: Bergfrid Dias
 date: 07.15.2025
-version: 10.5
+version: 11
 content_type: concept
 category: service
 topic: faq

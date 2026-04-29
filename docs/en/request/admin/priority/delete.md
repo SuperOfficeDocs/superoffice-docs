@@ -5,7 +5,7 @@ description: Delete priority
 keywords: delete request priority, request priority, request, priority
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

@@ -5,7 +5,7 @@ description: Använda chattfunktionen från kundens perspektiv
 keywords: starta chatt, avsluta chatt, inkommande chatt
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

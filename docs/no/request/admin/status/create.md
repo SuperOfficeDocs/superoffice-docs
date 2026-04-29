@@ -5,7 +5,7 @@ description: Opprette saksstatus
 keywords: opprett saksstatus, legg til saksstatus, ny saksstatus, saksstatus, intern status, køstatus, registrer tid, sak, status
 author: Hanne Gunnarsson
 date: 02.05.2025
-version: 10.5.1
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

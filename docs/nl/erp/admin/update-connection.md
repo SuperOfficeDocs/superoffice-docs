@@ -5,7 +5,7 @@ description: Lees hoe u de naam, reikwijdte of configuratie van een bestaande ER
 keywords: ERP-verbinding bewerken, ERP-instellingen wijzigen, ERP-configuratie, sync connector, SuperOffice synchronisatie
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

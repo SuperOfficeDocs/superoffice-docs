@@ -5,7 +5,7 @@ description: Meer informatie over het instellen van de privacyinstellingen voor 
 keywords: privacyinstelling, doel toevoegen, externe privacyverklaring
 author: SuperOffice Product and Engineering
 date: 09.01.2025
-version: 10.5
+version: 11
 content_type: howto
 category: privacy
 audience: settings

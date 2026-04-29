@@ -5,7 +5,7 @@ description: Learn how to archive email messages and attachments from the SuperO
 keywords: Archive button, save email, save attachment, inbox, somail, document dialog, email attachment, incoming email, outgoing email, email, archive
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

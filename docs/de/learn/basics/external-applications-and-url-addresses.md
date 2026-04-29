@@ -5,7 +5,7 @@ description: Externe Anwendungen und URL-Adressen
 keywords: URL, Shortcut
 author: SuperOffice RnD
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 language: de
 ---

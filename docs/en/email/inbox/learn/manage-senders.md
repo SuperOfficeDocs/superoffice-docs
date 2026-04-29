@@ -5,7 +5,7 @@ description: Learn how to register or match unknown senders in SuperOffice CRM
 keywords: unknown sender, sender, add contact, email header, email address, SuperOffice Inbox, inbox
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

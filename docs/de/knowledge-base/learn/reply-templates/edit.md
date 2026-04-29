@@ -5,7 +5,7 @@ description: Antwortvorlagen bearbeiten oder löschen
 keywords: Antwortvorlage bearbeiten, Antwortvorlage löschen, Antwortvorlage, Vorlage
 author: SuperOffice Product and Engineering
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

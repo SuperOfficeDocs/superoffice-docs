@@ -5,7 +5,7 @@ description: Läs om hur du konfigurerar och loggar in på inkorgen i SuperOffic
 keywords: SuperOffice Inkorg, inkorgen i SuperOffice, konfigurera inkorg, e-postinställningar, IMAP, e-postanslutning
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

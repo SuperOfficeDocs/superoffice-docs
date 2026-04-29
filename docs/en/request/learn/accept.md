@@ -5,7 +5,7 @@ description: How to accept a request to avoid someone else answering the request
 keywords: accept request, accept, responsibility, request owner, next in queue, request
 author: SuperOffice RnD
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

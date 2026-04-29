@@ -5,7 +5,7 @@ description: Lær hvordan du oppretter et tilbud i SuperOffice CRM, inkludert hv
 keywords: opprette tilbud, kopiere tilbud, legge til produkt, dialogboksen Legg til/rediger produkt, dialogboksen Rediger tilbud, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

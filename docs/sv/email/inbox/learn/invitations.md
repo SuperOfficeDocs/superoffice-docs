@@ -5,7 +5,7 @@ description: Läs om hur du accepterar kalenderförfrågningar i SuperOffice Ink
 keywords: förfrågan, inbjudan, ical, ics, kalender, acceptera möte, acceptera och meddela, inkorg, händelse
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

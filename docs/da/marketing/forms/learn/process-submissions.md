@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du behandler formularindsende
 keywords: formular, formularindsendelse, indsendelse, indsendt, indsender, formulardata, data fra formular
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: forms

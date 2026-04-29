@@ -5,7 +5,7 @@ description: Introduktion til hvor dokumenter gemmes (SO_Arc eller SharePoint).
 keywords: dokumentbibliotek, dokument, SharePoint, SO_Arc
 author: Bergfrid Dias
 date: 08.02.2024
-version: 10.3
+version: 11
 content_type: concept
 language: da
 redirect_from:

@@ -5,7 +5,7 @@ description: När en kund skickar en fråga via chattwidgeten på webbplatsen ä
 keywords: svara på chatt, nästa chatt i kö, inkommande chatt, närvaro
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

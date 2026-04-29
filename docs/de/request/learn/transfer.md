@@ -5,7 +5,7 @@ description: Einen anderen Bearbeiter um Hilfe bitten
 keywords: Anfrage, delegieren
 author: Bergfrid Dias
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

@@ -5,7 +5,7 @@ description: Meer informatie over het toevoegen van variabelen aan uw mailing
 keywords: Marketing, variabelen, bericht
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

@@ -5,7 +5,7 @@ description: In dieser Anleitung erfahren Sie, wie Sie eine Anfrage in SuperOffi
 keywords: anfrage erstellen, nicht über chat lösen
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

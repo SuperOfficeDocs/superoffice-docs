@@ -5,7 +5,7 @@ description: Aktivitäten in SuperOffice CRM
 keywords: aktivität
 author: SuperOffice RnD
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

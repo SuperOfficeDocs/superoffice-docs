@@ -5,7 +5,7 @@ description: Leer hoe u e-mails en bijlagen archiveert vanuit het SuperOffice Po
 keywords: Archiveren-knop, e-mail opslaan, bijlage opslaan, postvak in, somail, documentendialoogvenster, e-mailbijlage, inkomende e-mail, uitgaande e-mail, e-mail, archiveren
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

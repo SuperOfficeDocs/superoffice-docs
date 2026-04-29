@@ -5,7 +5,7 @@ description: The Group view; How to creating diary views; The New group view dia
 keywords: add group view, new group view, edit group view, View tab, diary, follow-up, group view
 author: Bergfrid Dias
 date: 01.10.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

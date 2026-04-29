@@ -5,7 +5,7 @@ description: In deze gids staat hoe SAINT uw verkoop- en klantprocessen kan verb
 keywords: SAINT, statuscontroles
 author: SuperOffice Product and Engineering
 date: 09.23.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

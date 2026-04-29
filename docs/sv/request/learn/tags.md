@@ -5,7 +5,7 @@ description: Lär dig hur du skapar och redigerar ärendetaggar i den här guide
 keywords: tagga ärende, lägga till tagg, ta bort tagg, taggning, tagg, ärende
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

@@ -5,7 +5,7 @@ description: Konfigurera synkronisering mellan SuperOffice CRM och ditt ERP-syst
 keywords: ERP-koppling, konfigurera synk, fältmappning, listmappning, standardvärden, ordna ERP-fält, ange synk-prioritet, redigera ERP-koppling, SuperOffice ERP-integration, ERP-flik, synk-connector
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

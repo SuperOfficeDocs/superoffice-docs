@@ -5,7 +5,7 @@ description: Hvordan kjøre, pause, gjenoppta, avslutte og slette en SuperOffice
 keywords: flyt, markedsføring, automatisering, kjøre flyt, kjørende, pause flyt, gjenoppta flyt, avslutte flyt, slette flyt, flytstatus
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: flows

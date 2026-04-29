@@ -5,7 +5,7 @@ description: Het bewerken en verwijderen van belanghebbenden in een verkoop in S
 keywords: Belanghebbende bijwerken, belanghebbende bewerken, belanghebbende verwijderen, Belanghebbenden toevoegen/bewerken dialoog, Belanghebbenden sectietabblad, belanghebbende, verkoop, belanghebbend, aandeelhouder, stakeholder
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Denna guide kommer att förklara hur du kan spåra resultat från e
 keywords: Marketing, marknadsföring, utskikt, Google Analytics, spårning, spårningslänk, UTM, kampanj, nyhetsbrev
 author: Alex Pelan
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

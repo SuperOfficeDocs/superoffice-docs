@@ -5,7 +5,7 @@ description: You can switch to another user's or resource's diary to check their
 keywords: diary owner, switch diary owner, view another diary, view a resource's diary, diary, follow-up, resource, owner
 author: Bergfrid Dias
 date: 01.10.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

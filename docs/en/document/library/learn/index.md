@@ -5,7 +5,7 @@ description: Introduction to where documents are stored (SO_Arc or SharePoint).
 keywords: document library, document, SharePoint, SO_Arc
 author: Bergfrid Dias
 date: 07.19.2024
-version: 10.3
+version: 11
 content_type: concept
 language: en
 redirect_from:

@@ -5,7 +5,7 @@ description: Leer hoe u het sectietabblad Activiteiten in SuperOffice CRM kunt g
 keywords: sectietabblad Activiteiten, tabblad Activiteiten, sectietabblad, activiteiten
 author: Bergfrid Skaara Dias
 date: 04.08.2025
-version: 10.5.4
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

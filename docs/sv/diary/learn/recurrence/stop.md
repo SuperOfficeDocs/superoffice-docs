@@ -5,7 +5,7 @@ description: Stoppa återkommande händelse
 keywords: stoppa upprepning, stoppa repetition, avbryt repetition, mötesserie, återkommande händelse, återkommande möte, kalender, händelse, upprepa, framtida förekomster, återkomma
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

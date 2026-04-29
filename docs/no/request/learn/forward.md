@@ -5,7 +5,7 @@ description: Lær hvordan du videresender en sak i denne veiledningen.
 keywords: videresend sak, sak
 author: Bergfrid Dias
 date: 02.04.2025
-version: 10.5.1
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

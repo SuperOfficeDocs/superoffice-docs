@@ -5,7 +5,7 @@ description: Stoppe repeterende oppfølging
 keywords: stopp gjentakelse, stopp repetisjon, avbryt repetisjon, møteserie, repeterende oppfølging, repeterende møte, dagbok, oppfølging, gjenta, fremtidige instanser
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Redigere eller deaktivere en salgsguide i SuperOffice.
 keywords: redigere salgsguide, oppdatere salgsguide, deaktivere salgsguide, Salg – Salgstype (for faser), salgsguide, guide, arbeidsflyt, salg
 author: Bergfrid Dias
 date: 02.03.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

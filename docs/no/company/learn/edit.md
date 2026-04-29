@@ -5,7 +5,7 @@ description: Følg disse trinnene for å redigere firmadetaljer.
 keywords: redigere firma, oppdatere firma, firma
 author: Bergfrid Dias
 date: 01.21.2025
-version: 10.5.1
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

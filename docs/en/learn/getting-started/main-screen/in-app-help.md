@@ -5,7 +5,7 @@ description: Using in-app help in SuperOffice CRM
 keywords: help, inapp, in-app, F1, Resource centre
 author: Kirsti Aakerholt
 date: 01.25.2023
-version: 10.3.9
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

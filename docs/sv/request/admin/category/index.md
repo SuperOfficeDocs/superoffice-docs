@@ -5,7 +5,7 @@ description: Ärendekategorier
 keywords: ärende, kategori
 author: digitaldiina
 date: 03.25.2026
-version: 10.5.2
+version: 11
 content_type: concept
 license: serviceessentials
 audience: settings

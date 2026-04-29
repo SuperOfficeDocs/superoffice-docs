@@ -5,7 +5,7 @@ description: Lär dig hur du använder Mer-fliken i SuperOffice CRM för att vis
 keywords: Mer-flik, fliken Mer, udef, användardefinierat fält, extra fält, anpassat fält
 author: Bergfrid Skaara Dias
 date: 11.29.2024
-version: 10.3.11
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

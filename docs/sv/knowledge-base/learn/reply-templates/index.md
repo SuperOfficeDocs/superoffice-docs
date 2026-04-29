@@ -5,7 +5,7 @@ description: Arbeta med svarsmallar i SuperOffice. Visa, hitta och sök efter sv
 keywords: visa svarsmall, hitta svarsmall, svarsmall, färdig text, kunskapsbas
 author: SuperOffice Product and Engineering
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

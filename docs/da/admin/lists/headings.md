@@ -5,7 +5,7 @@ description: Brug overskrifter til at gruppere elementer i lange lister i Indsti
 keywords: overskrift, organisere liste
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

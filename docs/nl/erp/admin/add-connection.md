@@ -5,7 +5,7 @@ description: Leer hoe u een synchronisatie-app installeert, een Sync Connector t
 keywords: ERP-synchronisatie instellen, sync connector toevoegen, ERP-verbinding toevoegen, ERP-verbinding testen, connector, ERP, synchroniseren
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

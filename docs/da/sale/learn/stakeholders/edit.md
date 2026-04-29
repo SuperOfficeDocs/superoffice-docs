@@ -5,7 +5,7 @@ description: Sådan redigerer eller fjerner du interessenter i et salg i SuperOf
 keywords: Opdater interessent, rediger interessent, fjern interessent, Tilføj/rediger interessenter-dialog, Interessent fanen, interessent, salg
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Skjermbildet Person gir et øyeblikksbilde av all kommunikasjon og 
 keywords: Person-bildet, person, kontakt
 author: Bergfrid Dias
 date: 01.28.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Learn how to configure a quote connector and create ERP connections
 keywords: set up quote connector, add quote connector, add ERP connection, test ERP connection, ERP connection, quote connection, quote connector, connector, quote
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Angebote, Quote Connectors und ERP-Integration in
 keywords: quote connector, ERP-Verbindung, Angebotseinstellungen, Preisliste, Produkt, Angebot/Sync, ERP-Einrichtung, quote connector-Einstellungen, Angebotsintegration, Vertriebskonfiguration, Angebot, Sync
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: settings

@@ -5,7 +5,7 @@ description: Så här skapar du en ny säljguide i SuperOffice
 keywords: skapa säljguide, ny säljguide, säljguide, guide, arbetsflöde, försäljning
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

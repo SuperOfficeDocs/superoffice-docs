@@ -5,7 +5,7 @@ description: Lær om nøglebegreberne i SuperOffice SAINT, herunder kriterier, b
 keywords: SAINT, aktivitetsovervågning, statusovervågning
 author: SuperOffice Product and Engineering
 date: 09.23.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

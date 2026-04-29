@@ -5,7 +5,7 @@ description: Hur du skapar en ny projektguide i SuperOffice
 keywords: skapa projektguide, ny projektguide, projektguide, guide, arbetsflöde, projekt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

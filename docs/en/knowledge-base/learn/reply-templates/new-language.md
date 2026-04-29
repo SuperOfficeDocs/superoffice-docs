@@ -5,7 +5,7 @@ description: Create new language version of reply template
 keywords: translate reply template, new language version, reply template language
 author: Bergfrid Dias
 date: 01.13.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

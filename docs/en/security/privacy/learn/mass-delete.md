@@ -5,7 +5,7 @@ description: In line with the GDPR requirements, you need to have a legal basis 
 keywords: mass delete, delete personal data
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

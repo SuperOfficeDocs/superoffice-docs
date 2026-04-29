@@ -5,7 +5,7 @@ description: Lär dig hur du installerar en synk-app, lägger till en Sync Conne
 keywords: konfigurera ERP-synk, lägga till sync connector, lägga till ERP-koppling, testa ERP-koppling, ERP-koppling, synk, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

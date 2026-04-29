@@ -5,7 +5,7 @@ description: In dieser Anleitung lernen Sie, wie SAINT Ihre Vertriebs- und Kunde
 keywords: SAINT, Statuskontrollen
 author: SuperOffice Product and Engineering
 date: 09.23.2025
-version: 10.5
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

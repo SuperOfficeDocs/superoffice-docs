@@ -5,7 +5,7 @@ description: Leer hoe u offertes verzendt, goedkeurt en versies beheert in Super
 keywords: offerte verzenden, offerte goedkeuren, verzonden offerte bewerken, verzenden, publiceren, goedkeuring, offerteversie, tabblad Bijlagen, offerte
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

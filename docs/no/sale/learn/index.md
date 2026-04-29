@@ -5,7 +5,7 @@ description: SuperOffice Salg hjelper salgsteam med å holde kontroll over salgs
 keywords: salg, salgskort, salgsskjerm
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: concept
 license: salesessentials
 audience: person

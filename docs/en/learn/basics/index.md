@@ -5,7 +5,7 @@ description: Basic tasks for beginners in SuperOffice CRM.
 keywords: basics, introduction, intro, overview, refresh, tooltip
 author: Bergfrid Dias
 date: 01.20.2025
-version: 10.5
+version: 11
 content_type: concept
 language: en
 ---

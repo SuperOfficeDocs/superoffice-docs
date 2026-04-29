@@ -5,7 +5,7 @@ description: Hur du redigerar e-postsignatur och ärendesignatur
 keywords: e-postsignatur, ärendesignatur, e-post, signatur
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

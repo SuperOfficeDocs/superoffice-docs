@@ -5,7 +5,7 @@ description: Lær hvordan du arbeider med svarmaler.
 keywords: vis svarmal, finn svarmal, svarmal, ferdig tekst, kunnskapsbase
 author: Bergfrid Dias
 date: 02.04.2025
-version: 10.5.1
+version: 11
 content_type: concept
 category: service
 topic: knowledge base

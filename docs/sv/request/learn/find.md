@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du söker efter ärenden i Supe
 keywords: söka efter ärende, hitta ärende, senaste ärenden, egna öppna ärenden, otilldelade ärenden, visa bara egna kategorier, sökning, sök, hitta, ärende
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

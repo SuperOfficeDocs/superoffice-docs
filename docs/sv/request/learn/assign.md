@@ -5,7 +5,7 @@ description: Tilldelningsmetoder för ärenden
 keywords: automatisk tilldelning, tilldelningsmetod, tilldela ärende, ärende
 author: digitaldiina
 date: 03.25.2026
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

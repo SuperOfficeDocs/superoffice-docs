@@ -5,7 +5,7 @@ description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersro
 keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven, zichtbaarheid, beschikbaar
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

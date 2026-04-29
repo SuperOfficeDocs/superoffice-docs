@@ -5,7 +5,7 @@ description: Funktionerna för marknadsföring inkluderar utskick och webbformul
 keywords: Marknadsföring
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 license: marketingessentials

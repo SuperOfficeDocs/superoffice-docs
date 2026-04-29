@@ -5,7 +5,7 @@ description: Faser i arbeidsflyt
 keywords: FAQ arbeidsflyt
 author: SuperOffice Product and Engineering
 date: 07.15.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: faq

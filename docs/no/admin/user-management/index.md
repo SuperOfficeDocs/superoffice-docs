@@ -5,7 +5,7 @@ description: Finn ut hvordan du legger til nye brukere, hvordan du tilordner de 
 keywords: Skjermbildet Brukere, bruker, medarbeider, våre firmaer, synlighet, tilgjengelig
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

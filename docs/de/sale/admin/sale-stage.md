@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie eine neue Verkaufsstufe in SuperOffice CRM hi
 keywords: Verkaufsstufe hinzufügen, neue Verkaufsstufe, Verkauf - Stufe Liste, Verkaufsstufe, Stufe, Verkauf
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du om GDPR-funksjonene i SuperOffice Ma
 keywords: redigere personverninnstilling, redigere rettslig grunnlag, rediger hjemmel
 author: SuperOffice Product and Engineering
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy

@@ -5,7 +5,7 @@ description: Adding external applications to the Application list
 keywords: external application, GUI - Application list
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: customization
 audience: settings

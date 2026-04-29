@@ -5,7 +5,7 @@ description: Registreer verkopen in SuperOffice Sales om al uw verkoopkansen en 
 keywords: verkoop aanmaken, nieuwe verkoop, verkoop toevoegen, verkoop registreren, verkoop
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: person

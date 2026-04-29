@@ -5,7 +5,7 @@ description: Möjligheten att hålla koll på dina försäljningsmöjligheter ä
 keywords: försäljningsmål
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salespremium
 deployment: online

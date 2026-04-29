@@ -5,7 +5,7 @@ description: Når en kunde sender en forespørsel via chatwidgetten på nettsted
 keywords: link chat til person, foreslått person, opprett ny person
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

@@ -5,7 +5,7 @@ description: Het verzenden van documenten die zijn opgeslagen in SuperOffice CRM
 keywords: document, e-mail, bijlage
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM

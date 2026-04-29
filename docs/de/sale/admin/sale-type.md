@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie einen neuen Verkaufstyp in SuperOffice CRM hi
 keywords: neue Verkaufstyp, Verkaufstyp hinzufügen, Verkauf - Typ Stufen Angebot Liste, Verkauf - Kategorie Liste, Verkaufstypkonfiguration, Angebotsanhänge Registerkarte, Angebotsstandards, Angebotsgenehmigung, Verkaufstyp, Verkauf, Angebot
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

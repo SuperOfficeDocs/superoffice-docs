@@ -5,7 +5,7 @@ description: Externe toepassingen toevoegen aan de lijst Toepassing
 keywords: externe toepassingen, lijst GUI - Toepassing
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: customization
 audience: settings

@@ -5,7 +5,7 @@ description: Introduktion till säljguider i SuperOffice.
 keywords: säljguide, guide, arbetsflöde, detaljkortet Säljguide, försäljningsprocessen, försäljningspipeline, försäljning, fas, föreslagna händelser, föreslagna dokument
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

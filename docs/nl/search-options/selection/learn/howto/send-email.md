@@ -5,7 +5,7 @@ description: E-mail tegelijkertijd verzenden naar verschillende ontvangers
 keywords: selectie, e-mail
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

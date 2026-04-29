@@ -5,7 +5,7 @@ description: Mit ERP verbinden
 keywords: mit ERP verbinden, Firma mit ERP verbinden, Person mit ERP verbinden, Projekt mit ERP verbinden, kein Treffer in ERP gefunden, in ERP erstellen, Akteur erstellen, ERP-Akteur, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

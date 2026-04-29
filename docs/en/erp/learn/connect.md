@@ -5,7 +5,7 @@ description: Connect to ERP
 keywords: connect to ERP, connect company to ERP, connect contact to ERP, connect project to ERP, can't find match in ERP, create in ERP, create actor, ERP actor, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

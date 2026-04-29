@@ -5,7 +5,7 @@ description: Hent næste sag i køen
 keywords: hent næste sag i køen, sag
 author: Hanne Gunnarsson
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

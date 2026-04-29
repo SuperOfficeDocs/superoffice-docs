@@ -5,7 +5,7 @@ description: Utvalg
 keywords: dynamisk utvalg, statisk utvalg, kombinert utvalg, kombinasjonsutvalg, Utvalg-skjermbildet, utvalgsmedlemmer, utvalg
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

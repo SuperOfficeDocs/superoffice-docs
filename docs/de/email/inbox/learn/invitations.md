@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Kalendereinladungen im SuperOffice Posteingan
 keywords: Einladung, ical, ics, Kalender, Tagebuch, Besprechung annehmen, Benachrichtigung, Posteingang, Folgeaufgabe
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

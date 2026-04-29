@@ -5,7 +5,7 @@ description: Split message
 keywords: split message, request, message
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

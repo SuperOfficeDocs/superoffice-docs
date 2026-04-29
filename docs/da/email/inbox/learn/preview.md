@@ -5,7 +5,7 @@ description: Sådan forhåndsvises, flyttes, markeres og udskrives e-mailmeddele
 keywords: åbn e-mail, vis e-mail, forhåndsvisning, flyt e-mail, marker som læst, udskriv, e-mail, SuperOffice Indbakke
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

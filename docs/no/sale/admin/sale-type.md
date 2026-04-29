@@ -5,7 +5,7 @@ description: Legge til salgstype
 keywords: legge til salgstype, Salg - Type Faser Tilbud, Salg - Kategori, tilbudsvedlegg, standardverdi for tilbud, Tilbudsgodkjenning, fanen Faser, Faser-fanen, salgstype, salg, tilbud
 author: Bergfrid Dias
 date: 02.03.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

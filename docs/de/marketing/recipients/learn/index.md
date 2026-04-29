@@ -5,7 +5,7 @@ description: Das Ziel Ihrer Kampagne bestimmt Ihre Zielaudience. Nachdem Sie wis
 keywords: Marketing, Kampagne
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

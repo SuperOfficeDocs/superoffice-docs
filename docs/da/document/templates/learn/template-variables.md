@@ -5,7 +5,7 @@ description: Med skabelonvariabler kan du tilpasse og automatisere indtastningen
 keywords: dokument, skabelon, variable
 author: Bergfrid Dias
 date: 12.10.2024
-version: 10.3
+version: 11
 content_type: concept
 language: da
 redirect_from: /da/document/learn/template-variables

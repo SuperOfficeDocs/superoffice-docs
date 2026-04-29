@@ -5,7 +5,7 @@ description: Lag et tilbudsdokument for tilbudet i SuperOffice, som kan sendes t
 keywords: opprette tilbudsdokument, endre tilbudsdokument, tilbudsdokument, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: person

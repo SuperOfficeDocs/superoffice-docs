@@ -5,7 +5,7 @@ description: Lär dig hur du konfigurerar en quote connector och skapar ERP-kopp
 keywords: konfigurera quote connector, lägga till quote connector, lägga till ERP-koppling, testa ERP-koppling, ERP-koppling, quote connector, connector, offert
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

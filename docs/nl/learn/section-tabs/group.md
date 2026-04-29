@@ -5,7 +5,7 @@ description: U kunt een lijst groeperen op een of meer gegevenstypen om een bete
 keywords: sectietabblad, archief
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

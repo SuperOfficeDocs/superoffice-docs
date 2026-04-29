@@ -5,7 +5,7 @@ description: I denne veiledningen lærer du hvordan du lager et kombinasjonsutva
 keywords: kombiner utvalg, kombinasjonsutvalg, utvalg
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

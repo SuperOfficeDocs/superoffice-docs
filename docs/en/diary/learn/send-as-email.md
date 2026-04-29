@@ -4,7 +4,7 @@ title: Send a follow-up as an email
 description: Sending follow-ups
 keywords: diary, follow-up
 date: 01.10.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till nya användare, tilldelar rätt använ
 keywords: Fönstret Användare, användare, medarbetare, våra företag, synlighet, tillgängligt
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

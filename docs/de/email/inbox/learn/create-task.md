@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in SuperOffice CRM basierend auf einer E-Mail
 keywords: Aufgabe, Folgeaufgabe, E-Mail archivieren, Posteingang, Aufgabe erstellen, Aufgabe aus E-Mail, E-Mail
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

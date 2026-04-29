@@ -5,7 +5,7 @@ description: Hvordan forhåndsvise, flytte, merke og skrive ut e-postmeldinger i
 keywords: åpne e-post, vise e-post, forhåndsvisning, flytte e-post, merk som lest, skriv ut, e-post, e-postklient, SuperOffice-innboks
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

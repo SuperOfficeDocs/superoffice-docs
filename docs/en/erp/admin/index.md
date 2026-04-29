@@ -5,7 +5,7 @@ description: Introduction to configuring synchronization between SuperOffice CRM
 keywords: ERP tab, ERP system, ERP actor, Sync connector, ERP connection, sync, connector, connection, Quote/Sync screen, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: concept
 license: development-tools
 audience: settings

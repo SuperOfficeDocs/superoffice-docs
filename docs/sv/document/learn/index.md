@@ -5,7 +5,7 @@ description: Den här guiden visar hur du skapar och sparar dokument i SuperOffi
 keywords: dokument
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

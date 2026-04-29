@@ -5,7 +5,7 @@ description: How to add a project member in SuperOffice
 keywords: add project member, new project member, Add/edit project members dialog, project member, project
 author: Bergfrid Dias
 date: 01.06.2025
-version: 10.3.12
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

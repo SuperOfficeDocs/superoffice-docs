@@ -5,7 +5,7 @@ description: Leer hoe u prijslijsten en producten maakt en beheert in het SuperO
 keywords: prijslijst, product toevoegen, product configureren, productafbeelding, product deactiveren, product, offerte
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

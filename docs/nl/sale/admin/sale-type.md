@@ -5,7 +5,7 @@ description: Leer hoe u verkooptypen kunt toevoegen en beheren in SuperOffice CR
 keywords: verkooptype toevoegen, verkooptype, verkoop, offerte, fase, verkoopgids, lijst Verkoop - Type Fasen Offerte
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

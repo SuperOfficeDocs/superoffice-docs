@@ -5,7 +5,7 @@ description: Live Chat er en populær måde for dine kunder og kundeemner at kom
 keywords: chat JavaScript
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

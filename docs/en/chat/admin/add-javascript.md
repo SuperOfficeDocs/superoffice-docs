@@ -5,7 +5,7 @@ description: Live Chat is a popular way for your customers and prospects to get 
 keywords: chat JavaScript
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

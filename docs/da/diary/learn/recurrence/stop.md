@@ -5,7 +5,7 @@ description: Stop gentagen opfølgning
 keywords: stop gentagelse, afbryd gentagelse, mødeserie, repeterende opfølgning, repeterende møde, dagbog, opfølgning, gentag, fremtidige forekomster, gentages
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

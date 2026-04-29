@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Angebote in SuperOffice CRM erstellen, verwal
 keywords: Angebots-Registerkarte, Bereichsregisterkarte Angebot, Vorschlag, Angebotsalternative, Angebotsprozess, Angebot-zu-Auftrag, Angebot, Verkauf
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: person

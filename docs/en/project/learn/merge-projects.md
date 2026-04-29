@@ -5,7 +5,7 @@ description: How to merge project in SuperOffice
 keywords: merge projects, project management, project
 author: Bergfrid Dias
 date: 10.29.2024
-version: 10.3.11
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

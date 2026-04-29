@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du tilføjer en ny bruger til
 keywords: tilføj bruger, medarbejder
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

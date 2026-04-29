@@ -5,7 +5,7 @@ description: Importera från ERP
 keywords: importera från ERP
 author: digitaldiina
 date: 04.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

@@ -5,7 +5,7 @@ description: Lernen Sie, wie Sie Daten in SuperOffice CRM mit nur wenigen Klicks
 keywords: Suchen
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

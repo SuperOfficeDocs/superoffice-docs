@@ -5,7 +5,7 @@ description: Hvordan slå sammen, slette og gjenopprette elementer.
 keywords: slette, gjenopprette, papirkurv
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

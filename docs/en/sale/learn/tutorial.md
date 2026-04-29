@@ -5,7 +5,7 @@ description: Working with sales guide
 keywords: sales guide, example
 author: SuperOffice RnD
 date: 01.07.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium
 audience: person

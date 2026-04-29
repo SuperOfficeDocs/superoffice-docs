@@ -5,7 +5,7 @@ description: Lær hvordan du redigerer eller sletter en svarmal.
 keywords: rediger svarmal, slett svarmal, svarmal, mal
 author: Bergfrid Dias
 date: 02.04.2025
-version: 10.5.1
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

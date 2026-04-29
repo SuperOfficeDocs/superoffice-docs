@@ -5,7 +5,7 @@ description: Synchronisation zwischen SuperOffice CRM und Ihrem ERP-System konfi
 keywords: ERP-Verbindung, Synchronisation konfigurieren, Feldzuordnung, Listenzuordnung, Standardwerte, ERP-Felder sortieren, Sync-Priorität festlegen, ERP-Verbindung aktivieren, ERP-Verbindung bearbeiten, SuperOffice ERP-Integration, ERP-Registerkarte, Sync Connector
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

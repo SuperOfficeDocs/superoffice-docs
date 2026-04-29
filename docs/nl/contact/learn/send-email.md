@@ -5,7 +5,7 @@ description: Het verzenden van e-mails via SuperOffice CRM maakt het eenvoudiger
 keywords: e-mail contactpersoon, e-mail verzenden, e-mail, mailen
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

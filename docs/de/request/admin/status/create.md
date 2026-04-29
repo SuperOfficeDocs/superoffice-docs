@@ -5,7 +5,7 @@ description: Anfragestatus erstellen
 keywords: Anfragestatus erstellen, Anfragestatus hinzufügen, neuer Anfragestatus, Anfragestatus, interner Status, Warteschlangenstatus, Zeitnachverfolgung, Anfrage, Status
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

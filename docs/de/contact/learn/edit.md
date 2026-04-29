@@ -5,7 +5,7 @@ description: So bearbeiten Sie die Informationen einer Person.
 keywords: Person bearbeiten, Personendaten, Person
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

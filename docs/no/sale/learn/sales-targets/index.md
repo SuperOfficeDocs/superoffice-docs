@@ -5,7 +5,7 @@ description: Muligheten til å holde oversikt over salgsmulighetene dine er en a
 keywords: salgsmål
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salespremium
 deployment: online

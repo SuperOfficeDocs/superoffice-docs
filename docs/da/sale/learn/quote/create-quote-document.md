@@ -5,7 +5,7 @@ description: Opret et tilbudsdokument i SuperOffice Quote, som du kan sende til 
 keywords: opret tilbudsdokument, ændr tilbudsdokument, tilbudsdokument, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

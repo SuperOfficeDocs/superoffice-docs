@@ -5,7 +5,7 @@ description: Learn how to use SuperOffice Inbox to read, send, and manage email 
 keywords: SuperOffice Inbox, read email, send email, email client, inbox, email
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

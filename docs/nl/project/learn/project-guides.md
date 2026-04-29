@@ -5,7 +5,7 @@ description: Inleiding tot projectgidsen in SuperOffice.
 keywords: projectgids, gids, workflow, projectgids-sectietabblad, project
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person

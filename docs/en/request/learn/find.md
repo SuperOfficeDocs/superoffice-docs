@@ -5,7 +5,7 @@ description: In this how-to guide you will learn how to find requests in SuperOf
 keywords: find request, locate request, last requests, own open requests, unassigned requests, show only own categories, search, find, request,
 author: Bergfrid Dias
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

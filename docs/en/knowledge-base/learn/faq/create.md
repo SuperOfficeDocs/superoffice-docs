@@ -5,7 +5,7 @@ description: Create FAQ entries
 keywords: create FAQ
 author: Bergfrid Dias
 date: 03.14.2023
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: faq

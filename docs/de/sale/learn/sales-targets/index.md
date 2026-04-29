@@ -5,7 +5,7 @@ description: Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu beha
 keywords: Vertriebsziele
 author: SuperOffice Product and Engineering
 date: 09.17.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 deployment: online

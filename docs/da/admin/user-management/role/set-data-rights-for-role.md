@@ -5,7 +5,7 @@ description: Angiv datarettigheder for rolle
 keywords: brugerstyring, rolle, adgang, rettigheder
 author: digitaldiina
 date: 03.27.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

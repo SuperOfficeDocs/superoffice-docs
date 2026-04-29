@@ -5,7 +5,7 @@ description: Chat-Kanal erstellen
 keywords: Chat-Kanal, Layout des Chat-Widgets, Mitarbeiter hinzufügen, Offline-Formular, Formular vor Chat, Formular nach Chat, Transkript aktivieren
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

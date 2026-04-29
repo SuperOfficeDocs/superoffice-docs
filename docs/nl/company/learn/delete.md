@@ -5,7 +5,7 @@ description: Een bedrijf en bijbehorende gegevens verwijderen
 keywords: bedrijf verwijderen, bedrijf verwijderen uit systeem, bedrijf
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

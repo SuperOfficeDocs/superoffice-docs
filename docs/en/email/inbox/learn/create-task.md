@@ -5,7 +5,7 @@ description: Learn how to create a task in SuperOffice CRM based on an email mes
 keywords: todo, follow-up, archive email, inbox, create task, task, follow-up from email, email
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

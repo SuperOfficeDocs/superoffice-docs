@@ -5,7 +5,7 @@ description: Sådan tilføjer eller ændrer du et projektbillede
 keywords: projekt
 author: Bergfrid Dias
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

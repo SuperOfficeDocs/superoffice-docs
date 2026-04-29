@@ -5,7 +5,7 @@ description: Legge til, redirere og fjerne brukerdefinerte lister
 keywords: brukerdefinert liste, opprett lista, rediger lista, slett lista
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold

@@ -5,7 +5,7 @@ description: Create a chat channel
 keywords: chat channel, chat widget layout, add agent, offline form, pre-chat form, post-chat form, enable transcript
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

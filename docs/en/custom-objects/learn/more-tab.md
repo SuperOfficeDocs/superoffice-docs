@@ -5,7 +5,7 @@ description: Learn how to use the More tab in SuperOffice CRM to view and manage
 keywords: More tab, udef, user-defined field, extra field, custom field
 author: Bergfrid Skaara Dias
 date: 11.29.2024
-version: 10.3.11
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

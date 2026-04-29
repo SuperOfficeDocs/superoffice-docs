@@ -5,7 +5,7 @@ description: Lær, hvordan tilbud, Quote Connectors og ERP-integration fungerer 
 keywords: quote connector, ERP-link, tilbudsindstillinger, prisliste, produkt, Tilbud/Sync, ERP-opsætning, quote connector-indstillinger, tilbudsintegration, salgsopsætning, tilbud, sync
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: concept
 license: salespremium
 audience: settings

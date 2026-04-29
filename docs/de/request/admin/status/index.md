@@ -5,7 +5,7 @@ description: Anfragestatus
 keywords: Anfragestatus, Anfragestatus-Registerkarte, Anfrage, Status
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: serviceessentials
 audience: settings

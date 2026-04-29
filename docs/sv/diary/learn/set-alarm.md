@@ -5,7 +5,7 @@ description: Så ställer du in ett alarm för en händelse i SuperOffice.
 keywords: ställ in alarm, inget alarm, händelse, möte, alarm, avisering, påminnelse, varning, kalender
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

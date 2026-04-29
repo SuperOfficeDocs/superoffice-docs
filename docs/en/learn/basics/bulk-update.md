@@ -5,7 +5,7 @@ description: Bulk update allows you to change details for a large group of conta
 keywords: bulk update
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

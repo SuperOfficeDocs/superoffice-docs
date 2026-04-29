@@ -5,7 +5,7 @@ description: Leer hoe u een verkoopgids kunt bewerken of deactiveren in SuperOff
 keywords: verkoopgids, verkoophandleiding, workflow, verkoop
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

@@ -5,7 +5,7 @@ description: Så redigerar eller tar du bort projektdeltagare i SuperOffice.
 keywords: redigera projektdeltagare, uppdatera projektdeltagare, ta bort projektdeltagare, dialogrutan Lägg till/redigera projektdeltagare, projektdeltagare, projekt
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

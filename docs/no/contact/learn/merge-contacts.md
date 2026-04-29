@@ -5,7 +5,7 @@ description: Lær hvordan du slår sammen dubletter i SuperOffice CRM for å sam
 keywords: slå sammen personer, administrer personer, vedlikehold personer, dublet, tidligere ansatt, person
 author: Bergfrid Dias
 date: 01.27.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -5,7 +5,7 @@ description: Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets
 keywords: Vertriebsziele
 author: SuperOffice Product and Engineering
 date: 09.17.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium
 deployment: online

@@ -5,7 +5,7 @@ description: Redigere dokument
 keywords: dokument
 author: Bergfrid Dias
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

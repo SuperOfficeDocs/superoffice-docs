@@ -5,7 +5,7 @@ description: Oversigt over personlige indstillinger og hvordan du ændrer dem.
 keywords: præference, indstilling
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

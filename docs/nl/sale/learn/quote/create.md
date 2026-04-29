@@ -5,7 +5,7 @@ description: In deze gids leert u hoe u een offerte kunt maken, een product in d
 keywords: een offerte maken, offerte kopiëren, product toevoegen, dialoogvenster Product toevoegen/bewerken, dialoogvenster Offerte bewerken, offerte
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Lær, hvordan du opretter en ny salgsfase i SuperOffice CRM. Define
 keywords: tilføj salgsfase, ny salgsfase, Salg – Fase-liste, salgsfase, fase, salg
 author: SuperOffice RnD
 date: 03.07.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: settings

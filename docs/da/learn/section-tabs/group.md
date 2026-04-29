@@ -5,7 +5,7 @@ description: Du kan gruppere en liste på en eller flere datatyper for at få et
 keywords: detaljekort, arkiv
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

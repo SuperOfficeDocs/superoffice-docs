@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit dem SuperOffice Posteingang E-Mails schre
 keywords: E-Mail verfassen, Neue E-Mail, E-Mail-Nachricht
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

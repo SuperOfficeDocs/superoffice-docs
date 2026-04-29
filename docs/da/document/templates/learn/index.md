@@ -5,7 +5,7 @@ description: Dokumentskabeloner
 keywords: dokumentskabelon, dokument, skabelon
 author: Bergfrid Dias
 date: 07.16.2024
-version: 10.3
+version: 11
 content_type: concept
 language: da
 redirect_from: /da/admin/lists/learn/document-template

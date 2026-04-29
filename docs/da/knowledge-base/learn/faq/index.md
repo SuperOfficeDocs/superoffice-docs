@@ -5,7 +5,7 @@ description: Arbejde med FAQ-poster
 keywords: FAQ, vidensbase
 author: Bergfrid Dias
 date: 07.15.2025
-version: 10.5
+version: 11
 content_type: concept
 category: service
 topic: faq

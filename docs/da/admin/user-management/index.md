@@ -5,7 +5,7 @@ description: Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette
 keywords: Skærmbilledet Brugere, Brugere, medarbejder, vores virksomheder, synlighed, tilgængelig
 author: digitaldiina
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

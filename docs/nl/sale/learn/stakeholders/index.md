@@ -5,7 +5,7 @@ description: Belanghebbenden
 keywords: verkoop, belanghebbende
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 audience: person

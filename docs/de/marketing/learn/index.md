@@ -5,7 +5,7 @@ description: Zu den Funktionen für das Marketing gehören Kampagnen und Web-For
 keywords: Marketing
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 license: marketingessentials

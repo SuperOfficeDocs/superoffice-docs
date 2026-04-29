@@ -5,7 +5,7 @@ description: SuperOffice Benutzerpläne und Abonnements
 keywords: benutzerplan, lizenz, essential, premium
 author: Christian Mogensen, Bergfrid Dias
 date: 04.23.2024
-version: 10.3.5
+version: 11
 content_type: concept
 deployment: online
 platform: web

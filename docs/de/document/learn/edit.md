@@ -5,7 +5,7 @@ description: Dokumente bearbeiten
 keywords: Dokument bearbeiten, Dokumenteigenschaften, Dokument
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

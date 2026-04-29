@@ -5,7 +5,7 @@ description: Läs om hur du registrerar eller matchar okända avsändare i Super
 keywords: okänd avsändare, avsändare, lägg till kontakt, e-posthuvud, e-postadress, SuperOffice Inkorg, inkorg
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

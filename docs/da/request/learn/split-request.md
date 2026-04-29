@@ -5,7 +5,7 @@ description: Lær, hvordan du opdeler en sag i SuperOffice.
 keywords: opdel sag, sag
 author: Hanne Gunnarsson
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

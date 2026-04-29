@@ -5,7 +5,7 @@ description: In this how-to guide you will learn how you can import all your pro
 keywords: import, product, Excel
 author: digitaldiina
 date: 02.22.2023
-version: 10.5
+version: 11
 content_type: howto
 category: Settings and maintenance
 topic: Import

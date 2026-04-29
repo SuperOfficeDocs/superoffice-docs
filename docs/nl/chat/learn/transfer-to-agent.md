@@ -5,7 +5,7 @@ description: In deze handleiding leert u hoe u een chat overbrengt naar een ande
 keywords: chat overdragen, overdracht accepteren, overdracht afwijzen
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

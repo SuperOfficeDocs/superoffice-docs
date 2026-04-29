@@ -5,7 +5,7 @@ description: Erfassen Sie Verkäufe in SuperOffice Sales, um alle Verkaufschance
 keywords: Verkauf erstellen, neuer Verkauf, Verkauf hinzufügen, Verkauf erfassen, Verkauf
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: person

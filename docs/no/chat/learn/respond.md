@@ -5,7 +5,7 @@ description: Når en kunde sender en forespørsel via chatwidgeten på websiden,
 keywords: svare på chat, neste chat i kø, innkommende chat, tilstedeværelse
 author: Bergfrid Dias
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

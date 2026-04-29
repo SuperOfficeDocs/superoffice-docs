@@ -5,7 +5,7 @@ description: Att använda noga utvalda bilder i dina utskick kan påverka ditt r
 keywords: Marknadsföring, bild
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 license: marketingessentials

@@ -5,7 +5,7 @@ description: Staying on top of your sales targets can be stressful. But if you d
 keywords: sales target, dimension
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium, Unlimited sales targets
 functional_right: Targets administrator

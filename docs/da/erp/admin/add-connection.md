@@ -5,7 +5,7 @@ description: Lær, hvordan du installerer en sync-app, tilføjer en Sync Connect
 keywords: opsæt ERP-synk, tilføj Sync Connector, Sync Connector, tilføj ERP-forbindelse, test ERP-forbindelse, ERP-forbindelse, connector, synk, ERP
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

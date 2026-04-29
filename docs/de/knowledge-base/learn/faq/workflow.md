@@ -5,7 +5,7 @@ description: Workflowstufen
 keywords: FAQ
 author: SuperOffice RnD
 date: 07.15.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: faq

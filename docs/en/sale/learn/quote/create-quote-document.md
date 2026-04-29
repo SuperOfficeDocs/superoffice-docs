@@ -5,7 +5,7 @@ description: Create a quote document for your SuperOffice Quote proposal to send
 keywords: create quote document, change quote document, quote document, quote
 author: Bergfrid Dias
 date: 04.09.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

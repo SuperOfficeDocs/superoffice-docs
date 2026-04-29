@@ -5,7 +5,7 @@ description: Systemvorlagen
 keywords: Systemvorlagen-Registerkarte, Systemvorlagen, Anfrage
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: reference
 license: serviceessentials
 audience: settings

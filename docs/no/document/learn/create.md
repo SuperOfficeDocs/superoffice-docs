@@ -5,7 +5,7 @@ description: Opprett et nytt dokument direkte i SuperOffice CRM, eller last opp 
 keywords: nytt dokument, legg til dokument, opprett dokument, WebTools, SharePoint, dokument
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

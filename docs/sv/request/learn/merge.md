@@ -5,7 +5,7 @@ description: Slå ihop ärenden i SuperOffice Service.
 keywords: slå ihop ärenden, ärende, sammanfoga ärenden
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

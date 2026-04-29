@@ -5,7 +5,7 @@ description: Konfigurering af SOAP-grænseflade
 keywords: SOAP
 author: SuperOffice Product and Engineering
 date: 07.10.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: soap

@@ -5,7 +5,7 @@ description: In this tutorial, you will learn how to set up a Google Analytics a
 keywords: Marketing, mailing, Google Analytics, track
 author: Alex Pelan
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: tutorial
 category: marketing
 topic: mailing

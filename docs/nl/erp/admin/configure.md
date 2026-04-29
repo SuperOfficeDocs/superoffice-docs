@@ -5,7 +5,7 @@ description: Configureer de synchronisatie tussen SuperOffice CRM en uw ERP-syst
 keywords: ERP-verbinding, synchronisatie configureren, veldtoewijzing, lijsttoewijzing, standaardwaarden, ERP-velden rangschikken, synchronisatieprioriteit instellen, ERP-verbinding bewerken, SuperOffice ERP-integratie, ERP-tabblad, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Update activity monitors
 keywords: SAINT, activity monitor, default follow-up type, delete status monitor, restore status monitor, regenerate status monitor, regenerate counter
 author: SuperOffice Product and Engineering
 date: 09.22.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

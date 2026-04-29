@@ -5,7 +5,7 @@ description: Beteiligte
 keywords: Bereichsregisterkarte Beteiligte, Beteiligte anzeigen, Dieser Verkaufstyp hat Beteiligte, Beteiligter, Verkauf
 author: SuperOffice RnD
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salespremium
 audience: person

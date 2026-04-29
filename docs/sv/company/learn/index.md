@@ -5,7 +5,7 @@ description: All information som hör samman med ett företag – oavsett om det
 keywords: företagskort, företagsskärm, företag, fönstret Företag, kund, partner, leverantör
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

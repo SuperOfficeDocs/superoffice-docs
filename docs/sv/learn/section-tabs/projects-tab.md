@@ -5,7 +5,7 @@ description: Lär dig hur du kan visa, lägga till och hantera projekt med hjäl
 keywords: Projekt-fliken, Projektfliken, fliken Projekt, detaljkortet Projekt, detaljkort, projektarkiv
 author: Bergfrid Skaara Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

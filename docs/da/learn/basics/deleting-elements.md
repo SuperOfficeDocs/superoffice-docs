@@ -5,7 +5,7 @@ description: Sådan flettes, slettes og gendannes elementer.
 keywords: slette, genoprette, papirkurv
 author: Bergfrid Skaara Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

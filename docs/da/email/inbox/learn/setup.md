@@ -5,7 +5,7 @@ description: Lær, hvordan du opsætter og logger ind i SuperOffice Indbakke. De
 keywords: SuperOffice Indbakke, opsæt indbakke, e-mailopsætning, IMAP, e-mailforbindelse
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

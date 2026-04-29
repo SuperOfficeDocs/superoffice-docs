@@ -5,7 +5,7 @@ description: Ablaufsteuerung - Aufteilen
 keywords: Marketing, Flow, Ablaufsteuerung, Aufteilen, Zweig, Pfad, differenzierenm, alle anderen
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: flows

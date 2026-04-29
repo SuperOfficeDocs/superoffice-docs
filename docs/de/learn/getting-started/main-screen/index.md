@@ -4,7 +4,7 @@ title: Hauptbildschirm
 description: Hauptbildschirm
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 keywords: Benutzeroberfläche, Hauptbildschirm, Hauptansicht, Navigator, obere Leiste, Hauptkarte, Seitenleiste, Bereichsregisterkarte, Aufgabenmenü
 content_type: reference
 audience: person

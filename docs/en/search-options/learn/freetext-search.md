@@ -5,7 +5,7 @@ description: How to use the free-text search to find any text that users have en
 keywords: free-text, search
 author: Bergfrid dias
 date: 01.20.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

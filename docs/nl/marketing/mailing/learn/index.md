@@ -5,7 +5,7 @@ description: Werken met mailings
 keywords: Marketing, mailings, e-mailcampagne, E-maillevering
 author: SuperOffice Product and Engineering, Jeanette Small Strøm
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: concept
 category: marketing
 topic: mailing

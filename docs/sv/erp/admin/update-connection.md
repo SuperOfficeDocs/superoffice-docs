@@ -5,7 +5,7 @@ description: Läs hur du ändrar namn, omfång eller konfiguration för en befin
 keywords: redigera ERP-koppling, uppdatera ERP-inställningar, ändra ERP-koppling, sync connector, ERP-konfiguration, SuperOffice synk
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

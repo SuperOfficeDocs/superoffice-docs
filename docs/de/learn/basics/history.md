@@ -5,7 +5,7 @@ description: Verlaufsliste verwenden
 author: SuperOffice RnD
 keywords: Suchen, Verlaufsliste, Verlauf
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

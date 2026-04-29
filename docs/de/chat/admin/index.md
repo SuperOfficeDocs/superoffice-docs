@@ -5,7 +5,7 @@ description: Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Inter
 keywords: chatbot, connector, AI
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: concept
 license: cep
 category: Service

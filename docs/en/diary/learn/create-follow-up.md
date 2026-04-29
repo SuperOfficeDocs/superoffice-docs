@@ -5,7 +5,7 @@ description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
 keywords: add follow-up, new follow-up, book meeting, schedule meeting, add to-do, add call, follow-up, appointment, meeting, task, to-do, call, phone, diary
 author: Bergfrid Dias
 date: 03.06.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

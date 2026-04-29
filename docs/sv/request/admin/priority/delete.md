@@ -5,7 +5,7 @@ description: Ta bort prioritet
 keywords: ta bort prioritet, ärendeprioritet, prioritet
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

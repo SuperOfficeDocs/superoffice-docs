@@ -5,7 +5,7 @@ description: In dieser Anleitung lernen Sie, wie Sie Anfragen in SuperOffice fin
 keywords: Anfrage suchen, Anfrage finden, letzte Anfragen, eigene offene Anfragen, nicht zugeordnete Anfragen, nur eigene Kategorien anzeigen, Suche, Anfragen suchen
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

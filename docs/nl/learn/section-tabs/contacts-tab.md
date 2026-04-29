@@ -5,7 +5,7 @@ description: Leer hoe u contactinformatie kunt beheren en ermee kunt interactere
 keywords: tabblad Personen, Sectietabblad Personen, sectietabblad, tussenvoegsel inschakeln
 author: Bergfrid Skaara Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

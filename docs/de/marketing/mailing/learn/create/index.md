@@ -5,7 +5,7 @@ description: Um ein Marketingkampagnen zu versenden, müssen Sie nur fünf einfa
 keywords: Kampagne erstellen
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

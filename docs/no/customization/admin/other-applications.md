@@ -5,7 +5,7 @@ description: Legge til eksterne applikasjoner på listen Applikasjon
 keywords: eksterne applikasjoner, listen GUI - Applikasjon
 author: digitaldiina
 date: 10.28.2025
-version: 10.5
+version: 11
 content_type: howto
 category: customization
 audience: settings

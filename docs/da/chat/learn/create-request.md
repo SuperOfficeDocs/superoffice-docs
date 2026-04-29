@@ -5,7 +5,7 @@ description: I denne vejledning lærer du, hvordan du opretter en sag i SuperOff
 keywords: opret sag, kan ikke løse via chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

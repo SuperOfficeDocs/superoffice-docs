@@ -5,7 +5,7 @@ description: Bruk denne veiledningen til å finne ut hvordan du endrer personver
 keywords: Personvern kilde liste, Legg til personvern kilde
 author: SuperOffice Product and Engineering
 date: 09.02.2025
-version: 10.3
+version: 11
 content_type: howto
 functional_right: list administrator, general administrator
 category: privacy

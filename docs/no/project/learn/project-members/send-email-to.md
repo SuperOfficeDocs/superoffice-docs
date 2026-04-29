@@ -5,7 +5,7 @@ description: Slik sender du e-post til interessenter eller prosjektdeltakere i S
 keywords: send e-post, prosjektdeltaker, prosjekt, deltaker, interessent, e-post
 author: SuperOffice RnD
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

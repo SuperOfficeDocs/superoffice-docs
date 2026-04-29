@@ -5,7 +5,7 @@ description: Verzoekprioriteiten
 keywords: verzoek, prioriteit, escaleren
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Lær, hvordan du sender, godkender og versionerer tilbud i SuperOff
 keywords: sende tilbud, godkende tilbud, redigere sendt tilbud, send, publicer, godkendelse, tilbudsversion, fanen Vedhæftede filer, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

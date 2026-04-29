@@ -5,7 +5,7 @@ description: Preference section Pocket Tasks
 author: SuperOffice Product and Engineering
 keywords: database
 topic: reference
-version: 10.0.3
+version: 11
 date: 01.20.2022
 ---
 

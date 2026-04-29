@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du overfører en chatsamtale til e
 keywords: overføre chat, godta overføring, avvis overføring
 author: SuperOffice Product and Engineering
 date: 09.25.2025
-version: 10.5
+version: 11
 content_type: howto
 license: cep
 category: Service

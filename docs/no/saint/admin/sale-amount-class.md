@@ -5,7 +5,7 @@ description: Legge til salgsbeløpsklasse
 keywords: salg, beløp
 author: SuperOffice Product and Engineering
 date: 09.23.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Learn how to handle bounced emails in SuperOffice Marketing.
 keywords: mailing, bounce, blocked, undelivered, recipient
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: mailing

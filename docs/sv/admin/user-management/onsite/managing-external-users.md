@@ -5,7 +5,7 @@ description: Lägga till och ta bort externa användare i Inställningar och und
 keywords: extern användare
 author: SuperOffice Product and Engineering
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 functional_right: Allow administration of external users
 audience: settings

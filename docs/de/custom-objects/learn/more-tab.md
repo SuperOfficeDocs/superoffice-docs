@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Registerkarte Mehr in SuperOffice CRM ver
 keywords: Registerkarte Mehr, Mehr-Registerkarte, udef, benutzerdefiniertes Feld, zusätzliches Feld, kundenspezifisches Feld
 author: Bergfrid Skaara Dias
 date: 11.29.2024
-version: 10.3.11
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

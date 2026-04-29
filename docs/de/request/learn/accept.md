@@ -5,7 +5,7 @@ description: So nehmen Sie eine Anfrage an, um zu vermeiden, dass mehrere Person
 keywords: Anfrage annehmen, übernehmen, Verantwortung, Anfrageeigentümer, nächste in Warteschlange, Anfrage, beantworten, annehmen, übernehment
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

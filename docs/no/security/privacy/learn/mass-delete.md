@@ -5,7 +5,7 @@ description: I tråd med GDPR-kravene må du ha hjemmel for å lagre dataene til
 keywords: Masseslett, slette personopplysninger
 author: Bergfrid Dias
 date: 03.21.2025
-version: 10.5.3
+version: 11
 content_type: howto
 category: privacy
 audience: person

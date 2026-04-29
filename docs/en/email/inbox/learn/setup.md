@@ -5,7 +5,7 @@ description: Learn how to set up and log in to the SuperOffice Inbox. This featu
 keywords: SuperOffice Inbox, set up inbox, email setup, IMAP, email connection
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

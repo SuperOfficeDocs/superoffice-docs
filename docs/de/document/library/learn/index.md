@@ -5,7 +5,7 @@ description: Einführung in den Speicherort von Dokumenten (SO_Arc oder SharePoi
 keywords: dokumentenbibliothek, dokument, SharePoint, SO_Arc
 author: Bergfrid Dias
 date: 08.02.2024
-version: 10.3
+version: 11
 content_type: concept
 language: de
 redirect_from:

@@ -5,7 +5,7 @@ description: Lär dig hur du skapar en ärendestatus i den här steg-för-steg-g
 keywords: skapa ärendestatus, ny ärendestatus, lägga till ärendestatus, ärendestatus, intern status, köstatus, registrera tid, ärende, status
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

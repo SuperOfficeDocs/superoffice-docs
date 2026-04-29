@@ -5,7 +5,7 @@ description: Check in/out documents
 keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
 date: 01.17.2025
-version: 10.5.1
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

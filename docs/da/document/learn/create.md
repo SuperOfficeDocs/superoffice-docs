@@ -5,7 +5,7 @@ description: Opret et nyt dokument direkte i SuperOffice CRM eller upload eksist
 keywords: dokument
 author: Bergfrid Dias
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

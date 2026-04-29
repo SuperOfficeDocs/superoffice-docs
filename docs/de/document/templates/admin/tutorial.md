@@ -5,7 +5,7 @@ description: Bestellbestätigungsvorlage anpassen
 keywords: Angebot, Angebotsvorlage, Vorlage, Angebotsdokument, Bestellbestätigung
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: tutorial
 language: de
 audience: settings

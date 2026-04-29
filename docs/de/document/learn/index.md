@@ -5,7 +5,7 @@ description: Diese Anleitung zeigt Ihnen, wie Sie Dokumente in SuperOffice CRM e
 keywords: Dokument
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

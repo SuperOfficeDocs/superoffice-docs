@@ -5,7 +5,7 @@ description: Lær hvordan du registrerer eller kobler ukjente avsendere i SuperO
 keywords: ukjent avsender, avsender, legg til person, e-posthode, e-postadresse, SuperOffice-innboks, innboks
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

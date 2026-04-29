@@ -5,7 +5,7 @@ description: Lær, hvordan du ændrer navn, omfang eller konfiguration for et ek
 keywords: rediger ERP-link, opdater ERP-indstillinger, ændre ERP-link, sync connector, ERP-konfiguration, SuperOffice sync
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

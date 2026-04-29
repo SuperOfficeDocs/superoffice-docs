@@ -5,7 +5,7 @@ description: Lær, hvordan du konfigurerer en quote connector og opretter ERP-li
 keywords: konfigurere quote connector, tilføj quote connector, tilføj ERP-link, test ERP-link, ERP-link, quote connector, connector, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Register sales in SuperOffice Sales to have all your opportunities 
 keywords: create sale, new sale, add sale, register sale, sale
 author: Bergfrid Dias
 date: 06.26.2025
-version: 10.5.5
+version: 11
 content_type: howto
 license: salesessentials
 audience: person

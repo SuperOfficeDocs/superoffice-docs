@@ -5,7 +5,7 @@ description: Hold oversikt over budsjettene dine ved å sette opp salgsmål. Det
 keywords: salgsmål
 author: SuperOffice Product and Engineering
 date: 09.19.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium
 deployment: online

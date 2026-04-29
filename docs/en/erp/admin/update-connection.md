@@ -5,7 +5,7 @@ description: Learn how to change the name, scope, or configuration of an existin
 keywords: edit ERP connection, update ERP connection, change ERP settings, sync connector, ERP config, SuperOffice sync
 author: Bergfrid Dias
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: settings

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie in SuperOffice CRM einen neuen Projektstatus 
 keywords: Projektstatus hinzufügen, Projektstatus, Projekt
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

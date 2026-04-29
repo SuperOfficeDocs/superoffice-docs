@@ -5,7 +5,7 @@ description: Leer hoe u een verzoek kunt splitsen in SuperOffice.
 keywords: verzoek, splitsen, eigenschappen nieuw verzoek
 author: Hanne Gunnarsson
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

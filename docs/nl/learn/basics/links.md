@@ -5,7 +5,7 @@ description: Koppelingen
 keywords: Koppeling toevoegen, tabblad Koppelingen, Koppeling
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

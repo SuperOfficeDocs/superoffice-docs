@@ -5,7 +5,7 @@ description: Filters gebruiken op de sectietabbladen.
 keywords: sectietabblad, filter
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

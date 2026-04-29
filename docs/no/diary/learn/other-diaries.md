@@ -5,7 +5,7 @@ description: Du kan bytte til en annen brukers eller en ressurs sin dagbok for √
 keywords: dagbokeier, bytte dagbokeier, se en annen dagbok, se en ressurs sin dagbok, dagbok, oppf√∏lging, ressurs, eier
 author: Bergfrid Dias
 date: 02.05.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

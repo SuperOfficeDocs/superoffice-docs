@@ -5,7 +5,7 @@ description: Learn how to send, approve, and version quotes in SuperOffice CRM.
 keywords: send quote, approve quote, edit sent quote, send, publish, approval, quote version, Attachments tab, quote
 author: Bergfrid Dias
 date: 04.09.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

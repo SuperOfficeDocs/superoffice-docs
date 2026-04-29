@@ -5,7 +5,7 @@ description: Extra tabellen
 keywords: extra tabel, Scherm Tabellen
 author: Bergfrid Dias
 date: 08.27.2024
-version: 10.3.8
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

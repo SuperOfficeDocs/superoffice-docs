@@ -5,7 +5,7 @@ description: Introduction to documents and document handling in SuperOffice.
 keywords: document, activity, activities
 author: Bergfrid Dias
 date: 10.08.2024
-version: 10.3.10
+version: 11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

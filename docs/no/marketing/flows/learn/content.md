@@ -5,7 +5,7 @@ description: Hvordan opprette og administrere flytinnhold i SuperOffice Marketin
 keywords: flyt, markedsføring, flytinnhold, innholdsopprettelse, innholdsproduksjon
 author: Bergfrid Dias
 date: 09.26.2025
-version: 10.5
+version: 11
 content_type: howto
 category: marketing
 topic: flows

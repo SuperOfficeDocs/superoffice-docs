@@ -5,7 +5,7 @@ description: Slå sammen saker
 keywords: slå sammen saker, sak
 author: Hanne Gunnarsson
 date: 01.15.2025
-version: 10.5
+version: 11
 content_type: howto
 license: serviceessentials
 audience: person

@@ -5,7 +5,7 @@ description: Inaktivera ERP-synkronisering
 keywords: koppla från ERP, ERP-flik, koppla från, ERP
 author: SuperOffice RnD
 date: 03.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: development-tools
 audience: person

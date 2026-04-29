@@ -5,7 +5,7 @@ description: Organize reply templates, FAQ entries, external documents, and emai
 keywords: knowledge base folder, template folder, FAQ folder, create folder, delete folder
 author: Bergfrid Dias
 date: 07.16.2025
-version: 10.5
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

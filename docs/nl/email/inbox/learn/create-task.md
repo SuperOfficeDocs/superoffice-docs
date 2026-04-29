@@ -5,7 +5,7 @@ description: Leer hoe u een taak maakt in SuperOffice CRM op basis van een e-mai
 keywords: taak, vervolgactiviteit, e-mail archiveren, postvak in, taak maken, vervolgactiviteit van e-mail, e-mail
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

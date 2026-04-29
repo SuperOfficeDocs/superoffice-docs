@@ -5,7 +5,7 @@ description: Oprettelse af et skabelondokument
 keywords: document template, document, template
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 02.25.2025
-version: 10.5.2
+version: 11
 content_type: howto
 language: da
 redirect_from: /da/admin/lists/learn/creating-template-document

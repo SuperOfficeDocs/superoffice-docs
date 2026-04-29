@@ -5,7 +5,7 @@ description: Stappen om een nieuw bedrijf te maken
 keywords: nieuw bedrijf, bedrijf maken, bedrijfsinteresses, bedrijf
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

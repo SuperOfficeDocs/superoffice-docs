@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how place an order.
 keywords: place order, create order based on quote version, quote
 author: Bergfrid Dias
 date: 04.09.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

@@ -5,7 +5,7 @@ description: Gruppevisningen i Dagbogen giver dig mulighed for at se og administ
 keywords: tilføj gruppevisning, ny gruppevisning, rediger gruppevisning, fanen Oversigt, dagbog, opfølgning, gruppevisning
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Prioriteit maken
 keywords: verzoek, prioriteit
 author: Bergfrid Dias
 date: 03.14.2025
-version: 10.5.2
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

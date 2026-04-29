@@ -5,7 +5,7 @@ description: Lær, hvordan du registrerer en ordre i SuperOffice CRM.
 keywords: registrer ordre, opret ordre, ordre baseret på tilbudsversion, tilbud
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: person

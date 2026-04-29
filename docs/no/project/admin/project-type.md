@@ -5,7 +5,7 @@ description: Finn ut hvordan du oppretter en ny prosjekttype i SuperOffice CRM. 
 keywords: legg til prosjekttype, prosjekttype, listen Prosjekt - Type, status, prosjekt
 author: Bergfrid Dias
 date: 01.31.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings

@@ -5,7 +5,7 @@ description: Leer hoe u agenda-uitnodigingen accepteert in SuperOffice Postvak I
 keywords: uitnodiging, ical, ics, agenda, dagboek, vergadering accepteren, accepteren en melden, postvak, vervolgactiviteit
 author: Bergfrid Dias
 date: 05.28.2025
-version: 10.5
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Wie man einen Alarm für eine Folgeaufgabe in SuperOffice einrichte
 keywords: Alarm setzen, Kalender, Folgeaufgabe, Alarm, Folgeaufgabe-Erinnerungen, Benachrichtigung, Vorlaufzeitpunkt
 author: Bergfrid Dias
 date: 02.11.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

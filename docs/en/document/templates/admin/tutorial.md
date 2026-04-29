@@ -5,7 +5,7 @@ description: Customize order confirmation template
 keywords: document template, document, template, quote, order confirmation
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: tutorial
 language: en
 audience: settings

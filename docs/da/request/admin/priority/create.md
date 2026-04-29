@@ -5,7 +5,7 @@ description: Opret prioritet
 keywords: sag, prioritet, opret prioritet, tilføj prioritet, ny prioritet, eskaleringshændelser, eskaleringskæde
 author: Hanne Gunnarsson
 date: 03.07.2025
-version: 10.5.2
+version: 11
 content_type: howto
 license: serviceessentials
 audience: settings

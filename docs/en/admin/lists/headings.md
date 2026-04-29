@@ -5,7 +5,7 @@ description: Use headings to group items in long lists in Settings and maintenan
 keywords: heading, organize list
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

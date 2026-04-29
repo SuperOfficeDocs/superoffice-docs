@@ -5,7 +5,7 @@ description: Zusatztabellen
 keywords: Zusatztabelle
 author: Bergfrid Dias
 date: 08.27.2024
-version: 10.3.8
+version: 11
 content_type: howto
 audience: user
 audience_tooltip: SuperOffice CRM

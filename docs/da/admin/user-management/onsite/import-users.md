@@ -5,7 +5,7 @@ description: Import af brugere fra Active Directory
 keywords: importer bruger, Active Directory, Tilføj brugere til firma
 author: SuperOffice Product and Engineering
 date: 10.24.2025
-version: 10.4
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie steuern, welche Felder im Dialogfeld Produkt 
 keywords: Produktdialog konfigurieren, Dialog Produkt hinzufügen/bearbeiten, Produkt konfigurieren, Produktdialog, Produktfeld, Produkt, Angebot
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5.4
+version: 11
 content_type: howto
 license: salespremium
 audience: settings

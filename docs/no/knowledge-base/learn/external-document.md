@@ -5,7 +5,7 @@ description: Arbeide med eksterne dokumenter
 keywords: sak, dokument
 author: Bergfrid Dias
 date: 10.29.2023
-version: 10.3.11
+version: 11
 content_type: howto
 category: service
 topic: knowledge base

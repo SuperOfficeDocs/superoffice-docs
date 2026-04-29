@@ -5,7 +5,7 @@ description: Lägg till poster i fördefinierade och användardefinierade listor
 keywords: lista, legg till post
 author: digitaldiina
 date: 10.29.2025
-version: 10.5
+version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll

@@ -5,7 +5,7 @@ description: Terugkerende vervolgactiviteiten
 keywords: terugkerende vervolgactiviteit, terugkerende vergadering, terugkerende afspraak, herhaal, herhalen, vergaderfrequentie, vervolgpatroon, vergaderreeks, agenda, vervolgactiviteit, herhalen, terugkeren, plan, regelmatig, frequentie
 author: Bergfrid Dias
 date: 02.21.2025
-version: 10.5.2
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

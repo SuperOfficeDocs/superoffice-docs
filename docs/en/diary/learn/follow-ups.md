@@ -5,7 +5,7 @@ description: Follow-ups - meeting, to-do, call
 keywords: follow-up, appointment, meeting, task, to-do, phone, call, attendee, participant, diary
 author: Bergfrid Dias
 date: 01.10.2025
-version: 10.5
+version: 11
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -5,7 +5,7 @@ description: Main screen
 keywords: user interface, main screen, navigator, top bar, card, side panel, section tab, task menu, getting started
 author: Bergfrid Dias
 date: 01.17.2025
-version: 10.5
+version: 11
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
