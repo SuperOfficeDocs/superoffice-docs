@@ -5,6 +5,7 @@ items:
   id: S.FieldExpression
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.S.FieldExpression.Case
   - SuperOffice.Data.S.FieldExpression.Count(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.FieldExpression.CountAll(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.FieldExpression.Distinct(SuperOffice.Data.SQL.FieldInfo)
@@ -337,6 +338,34 @@ items:
   nameWithType.vb: S.FieldExpression.JsonValue(FieldInfo, String)
   fullName.vb: SuperOffice.Data.S.FieldExpression.JsonValue(SuperOffice.Data.SQL.FieldInfo, String)
   name.vb: JsonValue(FieldInfo, String)
+- uid: SuperOffice.Data.S.FieldExpression.Case
+  commentId: M:SuperOffice.Data.S.FieldExpression.Case
+  id: Case
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Case()
+  nameWithType: S.FieldExpression.Case()
+  fullName: SuperOffice.Data.S.FieldExpression.Case()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Create a CASE expression. Add branches with <code>.When(condition, result)</code> and optionally <code>.Else(result)</code>.
+
+    <pre><code class="lang-csharp">S.FieldExpression.Case()
+        .When(condition1, result1)
+        .When(condition2, result2)
+        .Else(elseResult);</code></pre>
+  example: []
+  syntax:
+    content: public static Case Case()
+    return:
+      type: SuperOffice.Data.SQL.Case
+    content.vb: Public Shared Function [Case]() As [Case]
+  overload: SuperOffice.Data.S.FieldExpression.Case*
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -827,3 +856,18 @@ references:
   name: JsonValue
   nameWithType: JsonValue
   fullName: SuperOffice.Data.SQL.JsonValue
+- uid: SuperOffice.Data.S.FieldExpression.Case*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Case
+  isExternal: true
+  href: SuperOffice.Data.S.FieldExpression.html#SuperOffice_Data_S_FieldExpression_Case
+  name: Case
+  nameWithType: S.FieldExpression.Case
+  fullName: SuperOffice.Data.S.FieldExpression.Case
+- uid: SuperOffice.Data.SQL.Case
+  commentId: T:SuperOffice.Data.SQL.Case
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Case.html
+  name: Case
+  nameWithType: Case
+  fullName: SuperOffice.Data.SQL.Case

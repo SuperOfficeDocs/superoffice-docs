@@ -76,5 +76,6 @@ Service methods defined on <see cref='T:IPersonAgent'>PersonAgent</see> that can
 * [SetUtmCreatedPersonContactForFormSubmissionAsync](setutmcreatedpersoncontactforformsubmissionasync.md)
 * [TryAddPersonsToEmailFlowAsync](tryaddpersonstoemailflowasync.md)
 * [UndeleteAsync](undeleteasync.md)
+* [UpdateInterestsAsync](updateinterestsasync.md)
 * [ValidatePersonEntityAsync](validatepersonentityasync.md)
 

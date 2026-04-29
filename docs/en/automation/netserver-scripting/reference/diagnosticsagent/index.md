@@ -33,6 +33,7 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [PerformTasksAfterCustomObjectTableCreatedAsync](performtasksaftercustomobjecttablecreatedasync.md)
 * [PerformTasksAfterCustomObjectTableDeletedAsync](performtasksaftercustomobjecttabledeletedasync.md)
 * [PerformTasksAfterUpgradeAsync](performtasksafterupgradeasync.md)
+* [RegisterClosedTicketsUsageAsync](registerclosedticketsusageasync.md)
 * [RemoveExpiredSystemMessagesAsync](removeexpiredsystemmessagesasync.md)
 * [RemoveSystemMessageAsync](removesystemmessageasync.md)
 * [RemoveSystemMessageForAssociateAsync](removesystemmessageforassociateasync.md)

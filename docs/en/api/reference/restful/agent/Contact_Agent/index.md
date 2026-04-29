@@ -72,6 +72,8 @@ content_type: reference
 
 * [POST Agents/Contact/EnrichContactEntity](v1ContactAgent_EnrichContactEntity.md)
 
+* [POST Agents/Contact/UpdateInterests](v1ContactAgent_UpdateInterests.md)
+
 * [POST Agents/Contact/GetContactList](v1ContactAgent_GetContactList.md)
 
 * [POST Agents/Contact/GetMyContacts](v1ContactAgent_GetMyContacts.md)

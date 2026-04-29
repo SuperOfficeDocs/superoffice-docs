@@ -774,7 +774,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=alternative/version/paymentType,alternative/version/quote/sale/updatedByFullName,alternative/version/quote/sale/activeErpLinks,alternative/version/quote/sale/person/subscription,alternative/version/quote/sale/contact/streetAddress/county
+GET /api/v1/archive/FindQuoteLine?$select=vatInfo,alternative/version/extraField4,alternative/version/quote/sale/person/personUdef/SuperOffice:5,alternative/version/quote/sale/person/personAssociate/lastName,alternative/version/quote/sale/person/personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

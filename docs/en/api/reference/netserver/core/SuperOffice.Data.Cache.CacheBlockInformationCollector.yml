@@ -29,7 +29,10 @@ items:
 
     This class is used to collect information on relevant events to try to find out wtf is the root cause.
 
-    The information is visible and easy-to-find in dumps
+    The information is visible and easy-to-find in dumps.
+
+
+    This code is currently <b>dormant</b>, not being used. We keep it in case the problem crops up again
   example: []
   syntax:
     content: public class CacheBlockInformationCollector

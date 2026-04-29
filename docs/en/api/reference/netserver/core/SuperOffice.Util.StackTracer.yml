@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.StackTracer.FormatTrace(SuperOffice.Util.StackTracer)
+  - SuperOffice.Util.StackTracer.GetSanitizedCallstack(System.String)
   - SuperOffice.Util.StackTracer.GetStack
   - SuperOffice.Util.StackTracer.GetStack(System.Int32)
   - SuperOffice.Util.StackTracer.GetStack(System.Int32,System.Int32)
@@ -183,6 +184,40 @@ items:
       description: ''
     content.vb: Public Shared Function GetToLastSuperOffice() As String
   overload: SuperOffice.Util.StackTracer.GetToLastSuperOffice*
+- uid: SuperOffice.Util.StackTracer.GetSanitizedCallstack(System.String)
+  commentId: M:SuperOffice.Util.StackTracer.GetSanitizedCallstack(System.String)
+  id: GetSanitizedCallstack(System.String)
+  parent: SuperOffice.Util.StackTracer
+  langs:
+  - csharp
+  - vb
+  name: GetSanitizedCallstack(string)
+  nameWithType: StackTracer.GetSanitizedCallstack(string)
+  fullName: SuperOffice.Util.StackTracer.GetSanitizedCallstack(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Obtain a stack trace, without async/await frames, up to the first frame above the top SuperOffice frame. Don't call on a hot path since this
+
+    method causes multiple allocations
+  remarks: This method does not check the Diagnostics.EnableStackTracing master switch, by design
+  example: []
+  syntax:
+    content: public static string GetSanitizedCallstack(string lineSeparator = "\n")
+    parameters:
+    - id: lineSeparator
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: Stack trace as a single string, containing multiple lines
+    content.vb: Public Shared Function GetSanitizedCallstack(lineSeparator As String = vbLf) As String
+  overload: SuperOffice.Util.StackTracer.GetSanitizedCallstack*
+  nameWithType.vb: StackTracer.GetSanitizedCallstack(String)
+  fullName.vb: SuperOffice.Util.StackTracer.GetSanitizedCallstack(String)
+  name.vb: GetSanitizedCallstack(String)
 - uid: SuperOffice.Util.StackTracer.ToString
   commentId: M:SuperOffice.Util.StackTracer.ToString
   id: ToString
@@ -785,6 +820,13 @@ references:
   name: GetToLastSuperOffice
   nameWithType: StackTracer.GetToLastSuperOffice
   fullName: SuperOffice.Util.StackTracer.GetToLastSuperOffice
+- uid: SuperOffice.Util.StackTracer.GetSanitizedCallstack*
+  commentId: Overload:SuperOffice.Util.StackTracer.GetSanitizedCallstack
+  isExternal: true
+  href: SuperOffice.Util.StackTracer.html#SuperOffice_Util_StackTracer_GetSanitizedCallstack_System_String_
+  name: GetSanitizedCallstack
+  nameWithType: StackTracer.GetSanitizedCallstack
+  fullName: SuperOffice.Util.StackTracer.GetSanitizedCallstack
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

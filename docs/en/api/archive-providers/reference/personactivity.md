@@ -1294,7 +1294,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=associateId,contact/registeredByFullName,contact/restrictionAddress/state,contact/saintAmountClass,mailingAddr/contact/contactPhone/formattedNumber
+GET /api/v1/archive/PersonActivity?$select=person/isProjectMember,person/createdByForm,person/personMobilePhone/formattedNumber,person/personAssociate/credentialType,contact/department
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

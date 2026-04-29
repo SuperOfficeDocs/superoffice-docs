@@ -76,11 +76,11 @@ GET /api/v1/Appointment/{id}/Links?$select=name,department,category/id
 GET /api/v1/Appointment/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Appointment/{id}/Links?$orderBy=name asc
 GET /api/v1/Appointment/{id}/Links?$entities=asperiores
-GET /api/v1/Appointment/{id}/Links?$top=960
-GET /api/v1/Appointment/{id}/Links?$skip=83
+GET /api/v1/Appointment/{id}/Links?$top=29
+GET /api/v1/Appointment/{id}/Links?$skip=87
 GET /api/v1/Appointment/{id}/Links?$mode=Full
 GET /api/v1/Appointment/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Appointment/{id}/Links?$context=dolores
+GET /api/v1/Appointment/{id}/Links?$context=hic
 GET /api/v1/Appointment/{id}/Links?$format=JSON
 GET /api/v1/Appointment/{id}/Links?$jsonSafe=False
 GET /api/v1/Appointment/{id}/Links?$output=Display

@@ -28,7 +28,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=accusantium
+GET /api/v1/List/Credited/MDOItems?query=optio
 ```
 
 

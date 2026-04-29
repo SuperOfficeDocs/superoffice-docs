@@ -58,6 +58,7 @@ items:
   derivedClasses:
   - SuperOffice.Data.SQL.Aggregation
   - SuperOffice.Data.SQL.ArgumentFunction
+  - SuperOffice.Data.SQL.Case
   - SuperOffice.Data.SQL.DatabaseFunctions
   - SuperOffice.Data.SQL.FieldInfo
   - SuperOffice.Data.SQL.MathematicalExpression

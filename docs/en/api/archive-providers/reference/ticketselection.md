@@ -800,7 +800,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelection?$select=person/personUdef/SuperOffice:1,contact/streetAddress/wgs84latitude,contact/contactAssociate/ejDisplayName,contact/contactUdef/SuperOffice:3,sale/icon
+GET /api/v1/archive/TicketSelection?$select=ownedBy/associateDbId,person/correspondingAssociate/ejUserId,contact/number,contact/postAddress/city,contact/streetAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

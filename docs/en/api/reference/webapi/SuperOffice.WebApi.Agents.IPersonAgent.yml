@@ -67,6 +67,7 @@ items:
   - SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -1978,6 +1979,45 @@ items:
   nameWithType.vb: IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateInterestsAsync(int, int[], int[], RequestOptions)
+  nameWithType: IPersonAgent.UpdateInterestsAsync(int, int[], int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(int, int[], int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Update interests on person. Will throw exception if id is in both arrays
+  example: []
+  syntax:
+    content: Task UpdateInterestsAsync(int personId, int[] enableInterestIds, int[] disableInterestIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id to update interests for
+    - id: enableInterestIds
+      type: System.Int32[]
+      description: The interest ids to set on the person. This will set these interests to true and not touch any other interests.
+    - id: disableInterestIds
+      type: System.Int32[]
+      description: The interest ids to diable on the person. This will set these interests to false and not touch any other interests.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function UpdateInterestsAsync(personId As Integer, enableInterestIds As Integer(), disableInterestIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync*
+  nameWithType.vb: IPersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -3806,6 +3846,13 @@ references:
   name: SetUtmCreatedPersonContactForFormSubmissionAsync
   nameWithType: IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
   fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: UpdateInterestsAsync
+  nameWithType: IPersonAgent.UpdateInterestsAsync
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync
 - uid: SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPersonAgent.GetPersonListAsync
   isExternal: true

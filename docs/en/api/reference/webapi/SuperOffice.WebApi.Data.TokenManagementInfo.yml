@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.TokenManagementInfo.#ctor
   - SuperOffice.WebApi.Data.TokenManagementInfo.AccessToken
+  - SuperOffice.WebApi.Data.TokenManagementInfo.Claims
   - SuperOffice.WebApi.Data.TokenManagementInfo.Provider
   - SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
   langs:
@@ -80,7 +81,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The provider these tokens belong to
+  summary: The provider the access and refresh token belong to.
   example: []
   syntax:
     content: public virtual string Provider { get; set; }
@@ -103,7 +104,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Access token
+  summary: Access token (Provider)
   example: []
   syntax:
     content: public virtual string AccessToken { get; set; }
@@ -126,7 +127,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Refresh token
+  summary: Refresh token (Provider)
   example: []
   syntax:
     content: public virtual string RefreshToken { get; set; }
@@ -135,6 +136,29 @@ items:
       type: System.String
     content.vb: Public Overridable Property RefreshToken As String
   overload: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken*
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.Claims
+  commentId: P:SuperOffice.WebApi.Data.TokenManagementInfo.Claims
+  id: Claims
+  parent: SuperOffice.WebApi.Data.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: Claims
+  nameWithType: TokenManagementInfo.Claims
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.Claims
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: JSON serialized dictionary of claims from the AG id_token
+  example: []
+  syntax:
+    content: public virtual string Claims { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Claims As String
+  overload: SuperOffice.WebApi.Data.TokenManagementInfo.Claims*
 references:
 - uid: SuperOffice.WebApi.Agents.UserAgent
   commentId: T:SuperOffice.WebApi.Agents.UserAgent
@@ -483,3 +507,10 @@ references:
   name: RefreshToken
   nameWithType: TokenManagementInfo.RefreshToken
   fullName: SuperOffice.WebApi.Data.TokenManagementInfo.RefreshToken
+- uid: SuperOffice.WebApi.Data.TokenManagementInfo.Claims*
+  commentId: Overload:SuperOffice.WebApi.Data.TokenManagementInfo.Claims
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TokenManagementInfo.html#SuperOffice_WebApi_Data_TokenManagementInfo_Claims
+  name: Claims
+  nameWithType: TokenManagementInfo.Claims
+  fullName: SuperOffice.WebApi.Data.TokenManagementInfo.Claims

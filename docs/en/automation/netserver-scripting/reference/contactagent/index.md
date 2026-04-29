@@ -47,5 +47,6 @@ Service methods defined on <see cref='T:IContactAgent'>ContactAgent</see> that c
 * [SaveQuoteVersionAddressAsync](savequoteversionaddressasync.md)
 * [SetDuplicateRulesStatusAsync](setduplicaterulesstatusasync.md)
 * [UndeleteAsync](undeleteasync.md)
+* [UpdateInterestsAsync](updateinterestsasync.md)
 * [ValidateContactEntityAsync](validatecontactentityasync.md)
 

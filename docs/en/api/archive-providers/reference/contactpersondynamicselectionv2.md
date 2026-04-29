@@ -1080,7 +1080,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/eventId|int|Event ID: Event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
-|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
+|projectMembers/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -1451,7 +1451,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=countryId,contactAssociate/contactFullName,targetRelation/companyCategoryRank,appointment/appointmentUdef/SuperOffice:6,document/associate/isActive
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=LastCompletedSale,targetRelation/updatedDate,sale/associate/ejDisplayName,appointment/endTime,appointment/appointmentPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

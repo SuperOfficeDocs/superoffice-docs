@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Util.AccessGateway.TokenManagementInfo.#ctor
   - SuperOffice.Util.AccessGateway.TokenManagementInfo.AccessToken
+  - SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims
   - SuperOffice.Util.AccessGateway.TokenManagementInfo.RefreshToken
   - SuperOffice.Util.AccessGateway.TokenManagementInfo.TokenProvider
   langs:
@@ -121,6 +122,30 @@ items:
       type: System.String
     content.vb: Public Property AccessToken As String
   overload: SuperOffice.Util.AccessGateway.TokenManagementInfo.AccessToken*
+- uid: SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims
+  commentId: P:SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims
+  id: Claims
+  parent: SuperOffice.Util.AccessGateway.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: Claims
+  nameWithType: AccessGateway.TokenManagementInfo.Claims
+  fullName: SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Claims extracted from the AG id_token, not related to the third party tokens
+  remarks: Will contain 'email' and 'preferred_username' as a JSON dictionary
+  example: []
+  syntax:
+    content: public string Claims { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Claims As String
+  overload: SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims*
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -854,3 +879,10 @@ references:
   name: AccessToken
   nameWithType: AccessGateway.TokenManagementInfo.AccessToken
   fullName: SuperOffice.Util.AccessGateway.TokenManagementInfo.AccessToken
+- uid: SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims*
+  commentId: Overload:SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims
+  isExternal: true
+  href: SuperOffice.Util.AccessGateway.TokenManagementInfo.html#SuperOffice_Util_AccessGateway_TokenManagementInfo_Claims
+  name: Claims
+  nameWithType: AccessGateway.TokenManagementInfo.Claims
+  fullName: SuperOffice.Util.AccessGateway.TokenManagementInfo.Claims

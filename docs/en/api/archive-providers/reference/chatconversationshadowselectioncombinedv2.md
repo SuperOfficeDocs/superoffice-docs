@@ -499,7 +499,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=getAllRows,associate/title,person/correspondingAssociate/associateDbId,contact/contactId
+GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=person/kanaLastName,person/personAssociate/isActiveText,contact/nameDepartment,contact/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

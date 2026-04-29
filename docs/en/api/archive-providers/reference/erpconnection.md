@@ -48,7 +48,7 @@ Archive of ERP Connections, used by the ERP Integration Server
 ## Sample
 
 ```http!
-GET /api/v1/archive/ErpConnection?$select=mostRecent,updatedBy
+GET /api/v1/archive/ErpConnection?$select=active,mostRecent,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

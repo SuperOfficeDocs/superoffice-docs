@@ -749,7 +749,7 @@ This is the archive Provider for the Configurable appointment Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=duration,person/restrictionAddress/formattedAddress,project/registeredDate,project/projectAssociate/contactId,project/NumberOfActivities
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=person/personInfo/infoText,person/personAddress/wgs84latitude,project/LastDoByActivity,project/saintTicketCategory,associate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

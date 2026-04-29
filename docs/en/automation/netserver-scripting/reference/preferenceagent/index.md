@@ -39,6 +39,7 @@ Service methods defined on <see cref='T:IPreferenceAgent'>PreferenceAgent</see> 
 * [GetTabOrderAsync](gettaborderasync.md)
 * [GetTabOrdersAsync](gettabordersasync.md)
 * [GetXsrfPathsAsync](getxsrfpathsasync.md)
+* [GetXsrfValueAsync](getxsrfvalueasync.md)
 * [SaveFromSectionAndKeyAsync](savefromsectionandkeyasync.md)
 * [SavePreferenceAsync](savepreferenceasync.md)
 * [SavePreferenceDescriptionAsync](savepreferencedescriptionasync.md)
@@ -50,5 +51,6 @@ Service methods defined on <see cref='T:IPreferenceAgent'>PreferenceAgent</see> 
 * [SaveTabOrderAsync](savetaborderasync.md)
 * [SaveTabOrdersAsync](savetabordersasync.md)
 * [SetXsrfPathsAsync](setxsrfpathsasync.md)
+* [SetXsrfValueAsync](setxsrfvalueasync.md)
 * [UpdateNetServicesStatusAsync](updatenetservicesstatusasync.md)
 

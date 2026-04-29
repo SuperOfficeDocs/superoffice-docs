@@ -12,6 +12,8 @@ content_type: reference
 
 
 
+* [POST Agents/Person/NormalizeRanks](v1PersonAgent_NormalizeRanks.md)
+
 * [POST Agents/Person/CreateDefaultConsentPerson](v1PersonAgent_CreateDefaultConsentPerson.md)
 
 * [POST Agents/Person/SaveConsentPerson](v1PersonAgent_SaveConsentPerson.md)
@@ -114,6 +116,8 @@ content_type: reference
 
 * [POST Agents/Person/SetUtmCreatedPersonContactForFormSubmission](v1PersonAgent_SetUtmCreatedPersonContactForFormSubmission.md)
 
+* [POST Agents/Person/UpdateInterests](v1PersonAgent_UpdateInterests.md)
+
 * [POST Agents/Person/CreateDefaultPersonImage](v1PersonAgent_CreateDefaultPersonImage.md)
 
 * [POST Agents/Person/GetPersonList](v1PersonAgent_GetPersonList.md)
@@ -135,5 +139,3 @@ content_type: reference
 * [POST Agents/Person/ChangePersonRank](v1PersonAgent_ChangePersonRank.md)
 
 * [POST Agents/Person/SetPersonRank](v1PersonAgent_SetPersonRank.md)
-
-* [POST Agents/Person/NormalizeRanks](v1PersonAgent_NormalizeRanks.md)

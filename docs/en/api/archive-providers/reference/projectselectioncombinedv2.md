@@ -423,11 +423,11 @@ Implementation of the provider for the combined selection
 |projectMember/projectId|int|Project ID: Project ID| x |
 |projectMember/contactId|int|Company ID: Database ID of company| x |
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
-|projectMember/eventParticipantStatus|listAny|Event status: Event status| x |
-|projectMember/function|listAny|Function: Displays the project member's function in the project| x |
-|projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
-|projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
-|projectMember/updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
+|projectMember/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
+|projectMember/function|listAny|Project member - Function: Displays the project member's function in the project| x |
+|projectMember/hasInfoText|bool|Project member - Has info text: Displays an icon indicating that there is additional information available for the project member| x |
+|projectMember/registered|datetime|Project member - Registered date: The date/time the data was registered in UTC.| x |
+|projectMember/updated|datetime|Project member - Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/textId|int|Text ID| x |
 |projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
@@ -822,7 +822,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectAssociate/lastName,sale/stakeholdersEnabled,document/associate/ejDisplayName,projectMember/birthdate,projectMember/restrictionAddress/state
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectUrl/URLDescription,sale/time,sale/saleStatus,appointment/appointmentUdef/SuperOffice:1,appointment/associate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

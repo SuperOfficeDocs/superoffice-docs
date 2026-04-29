@@ -14,6 +14,88 @@ content_type: reference
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xs:element name="IsNickNameUnique">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            <xs:element minOccurs="0" name="NickName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
+      <xs:complexType name="SoCredentials">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Ticket" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoCredentials" nillable="true" type="tns:SoCredentials" />
+      <xs:element name="Credentials" nillable="true" type="tns:SoCredentials" />
+      <xs:complexType name="SoTimeZone">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SoTimeZoneId" type="xs:int" />
+          <xs:element minOccurs="0" name="SoTimeZoneLocationCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
+      <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
+      <xs:element name="IsNickNameUniqueResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SoExceptionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExceptionInfoParameters">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExtraInfo">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="Succeeded" type="xs:boolean" />
       <xs:element name="ValidateUser">
         <xs:complexType>
           <xs:sequence>
@@ -417,22 +499,6 @@ content_type: reference
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="CommandAction" nillable="true" type="tns:CommandAction" />
-      <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
-      <xs:complexType name="SoCredentials">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Ticket" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoCredentials" nillable="true" type="tns:SoCredentials" />
-      <xs:element name="Credentials" nillable="true" type="tns:SoCredentials" />
-      <xs:complexType name="SoTimeZone">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="SoTimeZoneId" type="xs:int" />
-          <xs:element minOccurs="0" name="SoTimeZoneLocationCode" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="ValidateUserResponse">
         <xs:complexType>
           <xs:sequence>
@@ -440,57 +506,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="SoExceptionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExceptionInfoParameters">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExtraInfo">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="Succeeded" type="xs:boolean" />
       <xs:element name="GetUserPresenceStatus">
         <xs:complexType>
           <xs:sequence>
@@ -1071,6 +1086,24 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="ExchangeCodeAndSaveTokens">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Provider" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AuthorizationCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Nonce" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PkceVerifier" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RedirectUri" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExchangeCodeAndSaveTokensResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="SaveCredential">
         <xs:complexType>
           <xs:sequence>
@@ -1484,6 +1517,7 @@ content_type: reference
               <xs:element minOccurs="0" name="Provider" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AccessToken" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="RefreshToken" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Claims" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -2256,21 +2290,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="IsNickNameUnique">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
-            <xs:element minOccurs="0" name="NickName" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="IsNickNameUniqueResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -2328,6 +2347,23 @@ content_type: reference
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="IsNickNameUniqueRequest">
+    <wsdl:part name="parameters" element="tns:IsNickNameUnique" />
+  </wsdl:message>
+  <wsdl:message name="IsNickNameUniqueRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="IsNickNameUniqueResponse">
+    <wsdl:part name="parameters" element="tns:IsNickNameUniqueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsNickNameUniqueResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="ValidateUserRequest">
     <wsdl:part name="parameters" element="tns:ValidateUser" />
   </wsdl:message>
@@ -2765,6 +2801,23 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:CheckAccessGatewayRegistrationResponse" />
   </wsdl:message>
   <wsdl:message name="CheckAccessGatewayRegistrationResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExchangeCodeAndSaveTokensRequest">
+    <wsdl:part name="parameters" element="tns:ExchangeCodeAndSaveTokens" />
+  </wsdl:message>
+  <wsdl:message name="ExchangeCodeAndSaveTokensRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExchangeCodeAndSaveTokensResponse">
+    <wsdl:part name="parameters" element="tns:ExchangeCodeAndSaveTokensResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExchangeCodeAndSaveTokensResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -3943,24 +3996,11 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="IsNickNameUniqueRequest">
-    <wsdl:part name="parameters" element="tns:IsNickNameUnique" />
-  </wsdl:message>
-  <wsdl:message name="IsNickNameUniqueRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="IsNickNameUniqueResponse">
-    <wsdl:part name="parameters" element="tns:IsNickNameUniqueResponse" />
-  </wsdl:message>
-  <wsdl:message name="IsNickNameUniqueResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="User">
+    <wsdl:operation name="IsNickNameUnique">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUnique" name="IsNickNameUniqueRequest" message="tns:IsNickNameUniqueRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUniqueResponse" name="IsNickNameUniqueResponse" message="tns:IsNickNameUniqueResponse" />
+    </wsdl:operation>
     <wsdl:operation name="ValidateUser">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ValidateUser" name="ValidateUserRequest" message="tns:ValidateUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ValidateUserResponse" name="ValidateUserResponse" message="tns:ValidateUserResponse" />
@@ -4064,6 +4104,10 @@ content_type: reference
     <wsdl:operation name="CheckAccessGatewayRegistration">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistration" name="CheckAccessGatewayRegistrationRequest" message="tns:CheckAccessGatewayRegistrationRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/CheckAccessGatewayRegistrationResponse" name="CheckAccessGatewayRegistrationResponse" message="tns:CheckAccessGatewayRegistrationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExchangeCodeAndSaveTokens">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ExchangeCodeAndSaveTokens" name="ExchangeCodeAndSaveTokensRequest" message="tns:ExchangeCodeAndSaveTokensRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ExchangeCodeAndSaveTokensResponse" name="ExchangeCodeAndSaveTokensResponse" message="tns:ExchangeCodeAndSaveTokensResponse" />
     </wsdl:operation>
     <wsdl:operation name="SaveCredential">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/SaveCredential" name="SaveCredentialRequest" message="tns:SaveCredentialRequest" />
@@ -4341,13 +4385,25 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDefaultAssociateUserName" name="GetDefaultAssociateUserNameRequest" message="tns:GetDefaultAssociateUserNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/GetDefaultAssociateUserNameResponse" name="GetDefaultAssociateUserNameResponse" message="tns:GetDefaultAssociateUserNameResponse" />
     </wsdl:operation>
-    <wsdl:operation name="IsNickNameUnique">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUnique" name="IsNickNameUniqueRequest" message="tns:IsNickNameUniqueRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUniqueResponse" name="IsNickNameUniqueResponse" message="tns:IsNickNameUniqueResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_User" type="tns:User">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="IsNickNameUnique">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUnique" style="document" />
+      <wsdl:input name="IsNickNameUniqueRequest">
+        <soap:header message="tns:IsNickNameUniqueRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:IsNickNameUniqueRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:IsNickNameUniqueRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="IsNickNameUniqueResponse">
+        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="ValidateUser">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ValidateUser" style="document" />
       <wsdl:input name="ValidateUserRequest">
@@ -4761,6 +4817,22 @@ content_type: reference
         <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CheckAccessGatewayRegistrationResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExchangeCodeAndSaveTokens">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/ExchangeCodeAndSaveTokens" style="document" />
+      <wsdl:input name="ExchangeCodeAndSaveTokensRequest">
+        <soap:header message="tns:ExchangeCodeAndSaveTokensRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExchangeCodeAndSaveTokensRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExchangeCodeAndSaveTokensRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExchangeCodeAndSaveTokensResponse">
+        <soap:header message="tns:ExchangeCodeAndSaveTokensResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExchangeCodeAndSaveTokensResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExchangeCodeAndSaveTokensResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExchangeCodeAndSaveTokensResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -5865,22 +5937,6 @@ content_type: reference
         <soap:header message="tns:GetDefaultAssociateUserNameResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetDefaultAssociateUserNameResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetDefaultAssociateUserNameResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="IsNickNameUnique">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/User/IsNickNameUnique" style="document" />
-      <wsdl:input name="IsNickNameUniqueRequest">
-        <soap:header message="tns:IsNickNameUniqueRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:IsNickNameUniqueRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:IsNickNameUniqueRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="IsNickNameUniqueResponse">
-        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:IsNickNameUniqueResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

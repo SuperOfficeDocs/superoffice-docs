@@ -800,7 +800,7 @@ Shadow contact provider for the static ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=realTimeSpentQueue,person/retired,person/personAssociate/middleName,contact/contactSource,contact/contactFax/formattedNumber
+GET /api/v1/archive/TicketShadowStaticSelectionV2?$select=origin,createdBy/firstName,createdBy/isLocation,person/middleName,contact/contactAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

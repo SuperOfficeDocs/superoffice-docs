@@ -1,0 +1,1127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.AsyncQueueTracker
+  commentId: T:SuperOffice.Threading.AsyncQueueTracker
+  id: AsyncQueueTracker
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.AsyncQueueTracker.#ctor
+  - SuperOffice.Threading.AsyncQueueTracker.GetAll
+  - SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueTracker
+  nameWithType: AsyncQueueTracker
+  fullName: SuperOffice.Threading.AsyncQueueTracker
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Singleton registry that tracks all <xref href="SuperOffice.Threading.IAsyncQueueInstance" data-throw-if-not-resolved="false"></xref> instances created by the DI container.
+  remarks: >-
+    Each <xref href="SuperOffice.Threading.AsyncQueueBase%601" data-throw-if-not-resolved="false"></xref> self-registers with this tracker upon construction,
+
+    making it possible to enumerate all concrete queue instances at runtime even though they
+
+    are registered as open generics.
+  example: []
+  syntax:
+    content: public class AsyncQueueTracker
+    content.vb: Public Class AsyncQueueTracker
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Threading.AsyncQueueTracker.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.AsyncQueueTracker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Threading.AsyncQueueTracker.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.AsyncQueueTracker)
+  - SuperOffice.Threading.AsyncQueueTracker.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Threading.AsyncQueueTracker.GetAll
+  commentId: M:SuperOffice.Threading.AsyncQueueTracker.GetAll
+  id: GetAll
+  parent: SuperOffice.Threading.AsyncQueueTracker
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: AsyncQueueTracker.GetAll()
+  fullName: SuperOffice.Threading.AsyncQueueTracker.GetAll()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Get all registered queue instances.
+  example: []
+  syntax:
+    content: public IReadOnlyCollection<IAsyncQueueInstance> GetAll()
+    return:
+      type: System.Collections.Generic.IReadOnlyCollection{SuperOffice.Threading.IAsyncQueueInstance}
+      description: A snapshot of all tracked queue instances.
+    content.vb: Public Function GetAll() As IReadOnlyCollection(Of IAsyncQueueInstance)
+  overload: SuperOffice.Threading.AsyncQueueTracker.GetAll*
+- uid: SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync(System.Threading.CancellationToken)
+  id: WaitForAllQueuesAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueTracker
+  langs:
+  - csharp
+  - vb
+  name: WaitForAllQueuesAsync(CancellationToken)
+  nameWithType: AsyncQueueTracker.WaitForAllQueuesAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: Iteratively wait for all tracked queues to be fully drained.
+  remarks: >-
+    Draining one queue may cause items to be enqueued in another queue, so this method
+
+    repeats until every queue reports <xref href="SuperOffice.Threading.IAsyncQueueInstance.HasItemsInTheQueue" data-throw-if-not-resolved="false"></xref> as false.
+  example: []
+  syntax:
+    content: public Task WaitForAllQueuesAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function WaitForAllQueuesAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync*
+- uid: SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  id: WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueTracker
+  langs:
+  - csharp
+  - vb
+  name: WaitForInFlightItemsAsync(CancellationToken)
+  nameWithType: AsyncQueueTracker.WaitForInFlightItemsAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: >-
+    Wait for items that are currently being processed (in-flight) across all tracked queues.
+
+    Does NOT wait for items still sitting in queues, making it safe to call after processors
+
+    have been stopped.
+  example: []
+  syntax:
+    content: public Task WaitForInFlightItemsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function WaitForInFlightItemsAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync*
+- uid: SuperOffice.Threading.AsyncQueueTracker.#ctor
+  commentId: M:SuperOffice.Threading.AsyncQueueTracker.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.AsyncQueueTracker
+  langs:
+  - csharp
+  - vb
+  name: AsyncQueueTracker()
+  nameWithType: AsyncQueueTracker.AsyncQueueTracker()
+  fullName: SuperOffice.Threading.AsyncQueueTracker.AsyncQueueTracker()
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public AsyncQueueTracker()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Threading.AsyncQueueTracker.#ctor*
+  nameWithType.vb: AsyncQueueTracker.New()
+  fullName.vb: SuperOffice.Threading.AsyncQueueTracker.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.Threading.IAsyncQueueInstance
+  commentId: T:SuperOffice.Threading.IAsyncQueueInstance
+  parent: SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueInstance.html
+  name: IAsyncQueueInstance
+  nameWithType: IAsyncQueueInstance
+  fullName: SuperOffice.Threading.IAsyncQueueInstance
+- uid: SuperOffice.Threading.AsyncQueueBase`1
+  commentId: T:SuperOffice.Threading.AsyncQueueBase`1
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueBase-1.html
+  name: AsyncQueueBase<TItem>
+  nameWithType: AsyncQueueBase<TItem>
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>
+  nameWithType.vb: AsyncQueueBase(Of TItem)
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem)
+  name.vb: AsyncQueueBase(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueBase`1
+    name: AsyncQueueBase
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueBase-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueBase`1
+    name: AsyncQueueBase
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueTracker.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AsyncQueueTracker, To>(AsyncQueueTracker)
+  nameWithType: EnumUtil.MapEnums<AsyncQueueTracker, To>(AsyncQueueTracker)
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncQueueTracker, To>(SuperOffice.Threading.AsyncQueueTracker)
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncQueueTracker, To)(AsyncQueueTracker)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncQueueTracker, To)(SuperOffice.Threading.AsyncQueueTracker)
+  name.vb: MapEnums(Of AsyncQueueTracker, To)(AsyncQueueTracker)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncQueueTracker)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncQueueTracker)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueTracker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AsyncQueueTracker, To>(AsyncQueueTracker)
+  nameWithType: Converters.MapEnums<AsyncQueueTracker, To>(AsyncQueueTracker)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncQueueTracker, To>(SuperOffice.Threading.AsyncQueueTracker)
+  nameWithType.vb: Converters.MapEnums(Of AsyncQueueTracker, To)(AsyncQueueTracker)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncQueueTracker, To)(SuperOffice.Threading.AsyncQueueTracker)
+  name.vb: MapEnums(Of AsyncQueueTracker, To)(AsyncQueueTracker)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncQueueTracker)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncQueueTracker)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueTracker.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.AsyncQueueTracker)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<AsyncQueueTracker>(AsyncQueueTracker, AsyncQueueTracker)
+  nameWithType: ObjectExtensions.AssignByReflection<AsyncQueueTracker>(AsyncQueueTracker, AsyncQueueTracker)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.AsyncQueueTracker>(SuperOffice.Threading.AsyncQueueTracker, SuperOffice.Threading.AsyncQueueTracker)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AsyncQueueTracker)(AsyncQueueTracker, AsyncQueueTracker)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.AsyncQueueTracker)(SuperOffice.Threading.AsyncQueueTracker, SuperOffice.Threading.AsyncQueueTracker)
+  name.vb: AssignByReflection(Of AsyncQueueTracker)(AsyncQueueTracker, AsyncQueueTracker)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.AsyncQueueTracker,SuperOffice.Threading.AsyncQueueTracker)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.AsyncQueueTracker,SuperOffice.Threading.AsyncQueueTracker)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueTracker.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<AsyncQueueTracker>(AsyncQueueTracker)
+  nameWithType: ObjectExtensions.GraphCopy<AsyncQueueTracker>(AsyncQueueTracker)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.AsyncQueueTracker>(SuperOffice.Threading.AsyncQueueTracker)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AsyncQueueTracker)(AsyncQueueTracker)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.AsyncQueueTracker)(SuperOffice.Threading.AsyncQueueTracker)
+  name.vb: GraphCopy(Of AsyncQueueTracker)(AsyncQueueTracker)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Threading.AsyncQueueTracker)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Threading.AsyncQueueTracker)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueTracker.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Threading.AsyncQueueTracker.GetAll*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueTracker.GetAll
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueTracker.html#SuperOffice_Threading_AsyncQueueTracker_GetAll
+  name: GetAll
+  nameWithType: AsyncQueueTracker.GetAll
+  fullName: SuperOffice.Threading.AsyncQueueTracker.GetAll
+- uid: System.Collections.Generic.IReadOnlyCollection{SuperOffice.Threading.IAsyncQueueInstance}
+  commentId: T:System.Collections.Generic.IReadOnlyCollection{SuperOffice.Threading.IAsyncQueueInstance}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<IAsyncQueueInstance>
+  nameWithType: IReadOnlyCollection<IAsyncQueueInstance>
+  fullName: System.Collections.Generic.IReadOnlyCollection<SuperOffice.Threading.IAsyncQueueInstance>
+  nameWithType.vb: IReadOnlyCollection(Of IAsyncQueueInstance)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of SuperOffice.Threading.IAsyncQueueInstance)
+  name.vb: IReadOnlyCollection(Of IAsyncQueueInstance)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - uid: SuperOffice.Threading.IAsyncQueueInstance
+    name: IAsyncQueueInstance
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueInstance.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.IAsyncQueueInstance
+    name: IAsyncQueueInstance
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueInstance.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyCollection`1
+  commentId: T:System.Collections.Generic.IReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<T>
+  nameWithType: IReadOnlyCollection<T>
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>
+  nameWithType.vb: IReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T)
+  name.vb: IReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Threading.IAsyncQueueInstance.HasItemsInTheQueue
+  commentId: P:SuperOffice.Threading.IAsyncQueueInstance.HasItemsInTheQueue
+  parent: SuperOffice.Threading.IAsyncQueueInstance
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueInstance.html#SuperOffice_Threading_IAsyncQueueInstance_HasItemsInTheQueue
+  name: HasItemsInTheQueue
+  nameWithType: IAsyncQueueInstance.HasItemsInTheQueue
+  fullName: SuperOffice.Threading.IAsyncQueueInstance.HasItemsInTheQueue
+- uid: SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueTracker.html#SuperOffice_Threading_AsyncQueueTracker_WaitForAllQueuesAsync_System_Threading_CancellationToken_
+  name: WaitForAllQueuesAsync
+  nameWithType: AsyncQueueTracker.WaitForAllQueuesAsync
+  fullName: SuperOffice.Threading.AsyncQueueTracker.WaitForAllQueuesAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueTracker.html#SuperOffice_Threading_AsyncQueueTracker_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
+  name: WaitForInFlightItemsAsync
+  nameWithType: AsyncQueueTracker.WaitForInFlightItemsAsync
+  fullName: SuperOffice.Threading.AsyncQueueTracker.WaitForInFlightItemsAsync
+- uid: SuperOffice.Threading.AsyncQueueTracker.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncQueueTracker.#ctor
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueTracker.html#SuperOffice_Threading_AsyncQueueTracker__ctor
+  name: AsyncQueueTracker
+  nameWithType: AsyncQueueTracker.AsyncQueueTracker
+  fullName: SuperOffice.Threading.AsyncQueueTracker.AsyncQueueTracker
+  nameWithType.vb: AsyncQueueTracker.New
+  fullName.vb: SuperOffice.Threading.AsyncQueueTracker.New
+  name.vb: New

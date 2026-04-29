@@ -36,6 +36,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [PerformTasksAfterCustomObjectTableCreated](PerformTasksAfterCustomObjectTableCreated.md)
 * [PerformTasksAfterCustomObjectTableDeleted](PerformTasksAfterCustomObjectTableDeleted.md)
 * [PerformTasksAfterUpgrade](PerformTasksAfterUpgrade.md)
+* [RegisterClosedTicketsUsage](RegisterClosedTicketsUsage.md)
 * [RemoveExpiredSystemMessages](RemoveExpiredSystemMessages.md)
 * [RemoveSystemMessage](RemoveSystemMessage.md)
 * [RemoveSystemMessageForAssociate](RemoveSystemMessageForAssociate.md)

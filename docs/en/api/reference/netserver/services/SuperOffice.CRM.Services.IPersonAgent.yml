@@ -69,6 +69,7 @@ items:
   - SuperOffice.CRM.Services.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.UndeleteAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -1983,6 +1984,44 @@ items:
   nameWithType.vb: IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  id: UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  nameWithType: IPersonAgent.UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync(int, int[], int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Update interests on person. Will throw exception if id is in both arrays
+  example: []
+  syntax:
+    content: Task UpdateInterestsAsync(int personId, int[] enableInterestIds, int[] disableInterestIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id to update interests for
+    - id: enableInterestIds
+      type: System.Int32[]
+      description: The interest ids to set on the person. This will set these interests to true and not touch any other interests.
+    - id: disableInterestIds
+      type: System.Int32[]
+      description: The interest ids to diable on the person. This will set these interests to false and not touch any other interests.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function UpdateInterestsAsync(personId As Integer, enableInterestIds As Integer(), disableInterestIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync*
+  nameWithType.vb: IPersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
 - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
   id: CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
@@ -3742,6 +3781,13 @@ references:
   name: SetUtmCreatedPersonContactForFormSubmissionAsync
   nameWithType: IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
   fullName: SuperOffice.CRM.Services.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
+- uid: SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___System_Threading_CancellationToken_
+  name: UpdateInterestsAsync
+  nameWithType: IPersonAgent.UpdateInterestsAsync
+  fullName: SuperOffice.CRM.Services.IPersonAgent.UpdateInterestsAsync
 - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync
   isExternal: true

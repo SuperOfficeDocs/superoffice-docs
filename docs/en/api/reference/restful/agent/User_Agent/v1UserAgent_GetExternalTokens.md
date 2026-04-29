@@ -69,9 +69,10 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Provider | string | The provider these tokens belong to |
-| AccessToken | string | Access token |
-| RefreshToken | string | Refresh token |
+| Provider | string | The provider the access and refresh token belong to. |
+| AccessToken | string | Access token (Provider) |
+| RefreshToken | string | Refresh token (Provider) |
+| Claims | string | JSON serialized dictionary of claims from the AG id_token |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

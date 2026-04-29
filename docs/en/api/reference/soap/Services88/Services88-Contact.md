@@ -1428,10 +1428,24 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="UpdateInterests">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+            <xs:element minOccurs="0" name="EnableInterestIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DisableInterestIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateInterestsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetContactList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ContactIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ContactIds" nillable="true" type="q8:ArrayOfint" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2099,6 +2113,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="UpdateInterestsRequest">
+    <wsdl:part name="parameters" element="tns:UpdateInterests" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInterestsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInterestsResponse">
+    <wsdl:part name="parameters" element="tns:UpdateInterestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInterestsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetContactListRequest">
     <wsdl:part name="parameters" element="tns:GetContactList" />
   </wsdl:message>
@@ -2308,6 +2339,10 @@ content_type: reference
     <wsdl:operation name="EnrichContactEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/EnrichContactEntity" name="EnrichContactEntityRequest" message="tns:EnrichContactEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/EnrichContactEntityResponse" name="EnrichContactEntityResponse" message="tns:EnrichContactEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInterests">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/UpdateInterests" name="UpdateInterestsRequest" message="tns:UpdateInterestsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/UpdateInterestsResponse" name="UpdateInterestsResponse" message="tns:UpdateInterestsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/GetContactList" name="GetContactListRequest" message="tns:GetContactListRequest" />
@@ -2825,6 +2860,22 @@ content_type: reference
         <soap:header message="tns:EnrichContactEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:EnrichContactEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:EnrichContactEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInterests">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Contact/UpdateInterests" style="document" />
+      <wsdl:input name="UpdateInterestsRequest">
+        <soap:header message="tns:UpdateInterestsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateInterestsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateInterestsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateInterestsResponse">
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

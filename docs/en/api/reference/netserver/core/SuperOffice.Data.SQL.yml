@@ -31,6 +31,7 @@ items:
   - SuperOffice.Data.SQL.BlobLinkTypeFieldInfo
   - SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
   - SuperOffice.Data.SQL.Bool
+  - SuperOffice.Data.SQL.Case
   - SuperOffice.Data.SQL.CategoryGroupFieldInfo
   - SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
   - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
@@ -1506,6 +1507,14 @@ references:
   name: Bool
   nameWithType: Bool
   fullName: SuperOffice.Data.SQL.Bool
+- uid: SuperOffice.Data.SQL.Case
+  commentId: T:SuperOffice.Data.SQL.Case
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Case.html
+  name: Case
+  nameWithType: Case
+  fullName: SuperOffice.Data.SQL.Case
 - uid: SuperOffice.Data.SQL.Compare
   commentId: T:SuperOffice.Data.SQL.Compare
   parent: SuperOffice.Data.SQL

@@ -594,6 +594,37 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetXsrfValue">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetXsrfValueResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:XsrfValue" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="XsrfValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastUpdated" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="XsrfValue" nillable="true" type="tns:XsrfValue" />
+      <xs:element name="SetXsrfValue">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="XsrfValue" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetXsrfValueResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPreferenceDescription">
         <xs:complexType>
           <xs:sequence>
@@ -1275,6 +1306,40 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetXsrfValueRequest">
+    <wsdl:part name="parameters" element="tns:GetXsrfValue" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfValueRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfValueResponse">
+    <wsdl:part name="parameters" element="tns:GetXsrfValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetXsrfValueResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfValueRequest">
+    <wsdl:part name="parameters" element="tns:SetXsrfValue" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfValueRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfValueResponse">
+    <wsdl:part name="parameters" element="tns:SetXsrfValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetXsrfValueResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPreferenceDescriptionRequest">
     <wsdl:part name="parameters" element="tns:GetPreferenceDescription" />
   </wsdl:message>
@@ -1679,6 +1744,14 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfPaths" name="SetXsrfPathsRequest" message="tns:SetXsrfPathsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfPathsResponse" name="SetXsrfPathsResponse" message="tns:SetXsrfPathsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetXsrfValue">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetXsrfValue" name="GetXsrfValueRequest" message="tns:GetXsrfValueRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetXsrfValueResponse" name="GetXsrfValueResponse" message="tns:GetXsrfValueResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetXsrfValue">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfValue" name="SetXsrfValueRequest" message="tns:SetXsrfValueRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfValueResponse" name="SetXsrfValueResponse" message="tns:SetXsrfValueResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetPreferenceDescription">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescription" name="GetPreferenceDescriptionRequest" message="tns:GetPreferenceDescriptionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetPreferenceDescriptionResponse" name="GetPreferenceDescriptionResponse" message="tns:GetPreferenceDescriptionResponse" />
@@ -2075,6 +2148,38 @@ content_type: reference
         <soap:header message="tns:SetXsrfPathsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetXsrfPathsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetXsrfPathsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXsrfValue">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/GetXsrfValue" style="document" />
+      <wsdl:input name="GetXsrfValueRequest">
+        <soap:header message="tns:GetXsrfValueRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetXsrfValueRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetXsrfValueRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetXsrfValueResponse">
+        <soap:header message="tns:GetXsrfValueResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetXsrfValueResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetXsrfValueResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetXsrfValueResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetXsrfValue">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Preference/SetXsrfValue" style="document" />
+      <wsdl:input name="SetXsrfValueRequest">
+        <soap:header message="tns:SetXsrfValueRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetXsrfValueRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetXsrfValueRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetXsrfValueResponse">
+        <soap:header message="tns:SetXsrfValueResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetXsrfValueResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetXsrfValueResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetXsrfValueResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

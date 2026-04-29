@@ -18,7 +18,7 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Lists
-  summary: 'Ticket status values: Open, Closed, Inactive, Deleted, Connected'
+  summary: 'Ticket status values: Open, Closed, Inactive, Deleted, Connected and Spam (if enabled).'
   example: []
   syntax:
     content: >-

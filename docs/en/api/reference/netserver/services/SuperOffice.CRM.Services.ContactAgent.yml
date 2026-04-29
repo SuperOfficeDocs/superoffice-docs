@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddressAsync(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatusAsync(SuperOffice.CRM.Services.DuplicateRule[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.UndeleteAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.ValidateContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -1217,6 +1218,47 @@ items:
   nameWithType.vb: ContactAgent.EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, String, System.Threading.CancellationToken)
   name.vb: EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  id: UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  nameWithType: ContactAgent.UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(int, int[], int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Update interests on contact. Will throw exception if id is in both arrays
+  example: []
+  syntax:
+    content: public Task UpdateInterestsAsync(int contactId, int[] enableInterestIds, int[] disableInterestIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id to update interests for
+    - id: enableInterestIds
+      type: System.Int32[]
+      description: The interest ids to set on the contact. This will set these interests to true and not touch any other interests.
+    - id: disableInterestIds
+      type: System.Int32[]
+      description: The interest ids to diable on the contact. This will set these interests to false and not touch any other interests.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function UpdateInterestsAsync(contactId As Integer, enableInterestIds As Integer(), disableInterestIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: ContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
   id: GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
@@ -4221,6 +4263,88 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactAgent.html#SuperOffice_CRM_Services_ContactAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___System_Threading_CancellationToken_
+  name: UpdateInterestsAsync
+  nameWithType: ContactAgent.UpdateInterestsAsync
+  fullName: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync
+- uid: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  nameWithType: IContactAgent.UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(int, int[], int[], System.Threading.CancellationToken)
+  nameWithType.vb: IContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+    name: UpdateInterestsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+    name: UpdateInterestsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken
