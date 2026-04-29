@@ -1,6 +1,4 @@
 items:
-- name: Oversikt
-  href: ../index.yml
 - name: Introduksjon
   href: index.md
 - name: Opprett nytt firma

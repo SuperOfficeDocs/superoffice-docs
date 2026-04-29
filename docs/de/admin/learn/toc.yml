@@ -1,6 +1,4 @@
 items:
-- name: Überblick
-  href: ../index.yml
 - name: Erste Schritte
   href: ../getting-started.md
 - name: Ansichten anpassen

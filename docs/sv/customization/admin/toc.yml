@@ -1,6 +1,4 @@
 items:
-- name: Översikt
-  href: ../index.yml
 - name: Skärmdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md

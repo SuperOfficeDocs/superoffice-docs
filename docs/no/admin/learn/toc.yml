@@ -1,6 +1,4 @@
 items:
-- name: Oversikt
-  href: ../index.yml
 - name: Komme i gang
   href: ../getting-started.md
 - name: Juster visninger

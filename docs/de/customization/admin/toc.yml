@@ -1,6 +1,4 @@
 items:
-- name: Überblick
-  href: ../index.yml
 - name: Ansichtsdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md

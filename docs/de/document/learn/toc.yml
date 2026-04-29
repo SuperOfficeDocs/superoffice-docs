@@ -1,6 +1,4 @@
 items:
-- name: Überblick
-  href: ../index.yml
 - name: Einführung
   href: index.md
 - name: Dokumentbibliothek

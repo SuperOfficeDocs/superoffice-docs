@@ -1,6 +1,4 @@
 items:
-- name: Overview
-  href: ../index.yml
 - name: Introduction
   href: index.md
 - name: Appointment, task, phone call
@@ -34,5 +32,3 @@ items:
 - name: For administrators
   href: ../admin/toc.yml
   topicHref: ../admin/add-follow-up-type.md
-- name: Technical reference
-  href: ../dev/index.md

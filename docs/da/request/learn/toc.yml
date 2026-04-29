@@ -1,6 +1,4 @@
 items:
-- name: Oversigt
-  href: ../index.yml
 - name: Introduktion
   href: index.md
 - name: Håndter sager med AI
