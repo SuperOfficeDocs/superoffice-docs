@@ -77,7 +77,7 @@ items:
 
   - name: Anpassning
     href: ../customization/admin/toc.yml
-    topicHref: ../customization/index.yml
+    topicHref: ../customization/admin/index.md
 
   - name: Inställningar och underhåll
     href: ../admin/learn/toc.yml

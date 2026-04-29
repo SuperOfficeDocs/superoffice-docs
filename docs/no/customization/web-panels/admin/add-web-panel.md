@@ -113,7 +113,7 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
-[5]: ../../../../en/ui/blogic/url-parameters.md
+[5]: https://docs.superoffice.com/en/ui/blogic/url-parameters.html
 [6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md

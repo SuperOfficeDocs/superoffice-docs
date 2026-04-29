@@ -53,8 +53,8 @@ By [adding extra tables and fields][1] to SuperOffice you can save a variety of 
 [3]: ../../../customization/macros-and-scripts/admin/index.md
 [4]: ../../../customization/macros-and-scripts/admin/trigger.md
 [5]: ../../../customization/macros-and-scripts/admin/schedule-task.md
-[6]: ../../../automation/crmscript/debugging/built-in-debugger.md
-[7]: ../../../automation/crmscript/debugging/using-trace.md
+[6]: https://docs.superoffice.com/en/automation/crmscript/debugging/built-in-debugger.html
+[7]: https://docs.superoffice.com/en/automation/crmscript/debugging/using-trace.html
 [8]: screen-properties.md
 [9]: screen-chooser.md
 [11]: extra-menus/index.md
