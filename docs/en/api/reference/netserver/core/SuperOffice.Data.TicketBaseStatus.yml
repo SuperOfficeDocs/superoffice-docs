@@ -18,6 +18,7 @@ items:
   - SuperOffice.Data.TicketBaseStatus.PostponedMonth
   - SuperOffice.Data.TicketBaseStatus.PostponedSpecific
   - SuperOffice.Data.TicketBaseStatus.PostponedWeek
+  - SuperOffice.Data.TicketBaseStatus.Spam
   - SuperOffice.Data.TicketBaseStatus.Unknown
   langs:
   - csharp
@@ -36,11 +37,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.12.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")]
 
       public enum TicketBaseStatus : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.12.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")>
 
       Public Enum TicketBaseStatus As Short
   extensionMethods:
@@ -56,7 +57,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.12.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.13.0.0
 - uid: SuperOffice.Data.TicketBaseStatus.Unknown
   commentId: F:SuperOffice.Data.TicketBaseStatus.Unknown
   id: Unknown
@@ -239,6 +240,37 @@ items:
       <EnumMember>
 
       Merged = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketBaseStatus.Spam
+  commentId: F:SuperOffice.Data.TicketBaseStatus.Spam
+  id: Spam
+  parent: SuperOffice.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: Spam
+  nameWithType: TicketBaseStatus.Spam
+  fullName: SuperOffice.Data.TicketBaseStatus.Spam
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '6: Request has been marked as spam'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Spam = 6
+    return:
+      type: SuperOffice.Data.TicketBaseStatus
+    content.vb: >-
+      <EnumMember>
+
+      Spam = 6
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

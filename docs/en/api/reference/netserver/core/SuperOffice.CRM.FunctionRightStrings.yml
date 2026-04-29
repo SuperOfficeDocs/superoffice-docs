@@ -49,6 +49,7 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.CSListExtraTableContent
   - SuperOffice.CRM.FunctionRightStrings.CSListOthers
   - SuperOffice.CRM.FunctionRightStrings.CSListOwn
+  - SuperOffice.CRM.FunctionRightStrings.CSMarkAsSpam
   - SuperOffice.CRM.FunctionRightStrings.CSPostToFacebook
   - SuperOffice.CRM.FunctionRightStrings.CSReadOthers
   - SuperOffice.CRM.FunctionRightStrings.CSReadOwn
@@ -1467,6 +1468,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const CSSystem As String = "cs-system"
+- uid: SuperOffice.CRM.FunctionRightStrings.CSMarkAsSpam
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.CSMarkAsSpam
+  id: CSMarkAsSpam
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: CSMarkAsSpam
+  nameWithType: FunctionRightStrings.CSMarkAsSpam
+  fullName: SuperOffice.CRM.FunctionRightStrings.CSMarkAsSpam
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: Can mark requests as Spam
+  example: []
+  syntax:
+    content: public const string CSMarkAsSpam = "cs-markasspam"
+    return:
+      type: System.String
+    content.vb: Public Const CSMarkAsSpam As String = "cs-markasspam"
 - uid: SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   commentId: F:SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   id: MailingConsentOverride

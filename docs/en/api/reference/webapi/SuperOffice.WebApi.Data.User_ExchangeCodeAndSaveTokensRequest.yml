@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  commentId: T:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  id: User_ExchangeCodeAndSaveTokensRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.#ctor
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  langs:
+  - csharp
+  - vb
+  name: User_ExchangeCodeAndSaveTokensRequest
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public class User_ExchangeCodeAndSaveTokensRequest
+    content.vb: Public Class User_ExchangeCodeAndSaveTokensRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: User_ExchangeCodeAndSaveTokensRequest()
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.User_ExchangeCodeAndSaveTokensRequest()
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.User_ExchangeCodeAndSaveTokensRequest()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_ExchangeCodeAndSaveTokensRequest()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.#ctor*
+  nameWithType.vb: User_ExchangeCodeAndSaveTokensRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider
+  commentId: P:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider
+  id: Provider
+  parent: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.Provider
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Provider As String
+  overload: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider*
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  commentId: P:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  id: AuthorizationCode
+  parent: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationCode
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string AuthorizationCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AuthorizationCode As String
+  overload: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode*
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce
+  commentId: P:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce
+  id: Nonce
+  parent: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.Nonce
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Nonce As String
+  overload: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce*
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  commentId: P:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  id: PkceVerifier
+  parent: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: PkceVerifier
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string PkceVerifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PkceVerifier As String
+  overload: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier*
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  commentId: P:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  id: RedirectUri
+  parent: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  langs:
+  - csharp
+  - vb
+  name: RedirectUri
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string RedirectUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RedirectUri As String
+  overload: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri*
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html#SuperOffice_WebApi_Data_User_ExchangeCodeAndSaveTokensRequest__ctor
+  name: User_ExchangeCodeAndSaveTokensRequest
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.User_ExchangeCodeAndSaveTokensRequest
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.User_ExchangeCodeAndSaveTokensRequest
+  nameWithType.vb: User_ExchangeCodeAndSaveTokensRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html#SuperOffice_WebApi_Data_User_ExchangeCodeAndSaveTokensRequest_Provider
+  name: Provider
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.Provider
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Provider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html#SuperOffice_WebApi_Data_User_ExchangeCodeAndSaveTokensRequest_AuthorizationCode
+  name: AuthorizationCode
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.AuthorizationCode
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html#SuperOffice_WebApi_Data_User_ExchangeCodeAndSaveTokensRequest_Nonce
+  name: Nonce
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.Nonce
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.Nonce
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html#SuperOffice_WebApi_Data_User_ExchangeCodeAndSaveTokensRequest_PkceVerifier
+  name: PkceVerifier
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.PkceVerifier
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html#SuperOffice_WebApi_Data_User_ExchangeCodeAndSaveTokensRequest_RedirectUri
+  name: RedirectUri
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest.RedirectUri
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.RedirectUri

@@ -68,6 +68,8 @@ items:
   - SuperOffice.CRM.Services.ITicketAgent.SendTicketMessageSmsAsync(System.Int32,System.Int32,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.SetDeletedStatusByIdsAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.SetDeletedStatusByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.SetTicketMessageImportantAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.SetTicketReadByOwnerAsync(System.Int32,SuperOffice.Data.TicketReadStatus,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.SplitTicketAsync(System.Int32,System.Int32,System.DateTime,System.Int32[],SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
@@ -1425,6 +1427,73 @@ items:
   nameWithType.vb: ITicketAgent.AcceptTicketsAsync(Integer(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync(Integer(), System.Threading.CancellationToken)
   name.vb: AcceptTicketsAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: SetSpamStatusByIdsAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetSpamStatusByIdsAsync(int[], CancellationToken)
+  nameWithType: ITicketAgent.SetSpamStatusByIdsAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync(int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Sets tickets' status to SPAM. After a grace period these tickets will be deleted by a background job.
+  example: []
+  syntax:
+    content: Task<int[]> SetSpamStatusByIdsAsync(int[] ticketIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: Ids of tickets to be set for SPAM.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Ids of tickets set for SPAM.
+    content.vb: Function SetSpamStatusByIdsAsync(ticketIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync*
+  nameWithType.vb: ITicketAgent.SetSpamStatusByIdsAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: SetSpamStatusByIdsAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Threading.CancellationToken)
+  id: SetSpamStatusByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetSpamStatusByProviderAsync(string, ArchiveRestrictionInfo[], CancellationToken)
+  nameWithType: ITicketAgent.SetSpamStatusByProviderAsync(string, ArchiveRestrictionInfo[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Sets tickets' status to SPAM. After a grace period these tickets will be deleted by a background job.
+  example: []
+  syntax:
+    content: Task<int[]> SetSpamStatusByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, CancellationToken cancellationToken = default)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of the provider that returns ticket rows.
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Ids of tickets set for deletion.
+    content.vb: Function SetSpamStatusByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), cancellationToken As CancellationToken = Nothing) As Task(Of Integer())
+  overload: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync*
+  nameWithType.vb: ITicketAgent.SetSpamStatusByProviderAsync(String, ArchiveRestrictionInfo(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Threading.CancellationToken)
+  name.vb: SetSpamStatusByProviderAsync(String, ArchiveRestrictionInfo(), CancellationToken)
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTicketMessageAsync(System.Int32,System.Threading.CancellationToken)
@@ -3581,6 +3650,20 @@ references:
   name: AcceptTicketsAsync
   nameWithType: ITicketAgent.AcceptTicketsAsync
   fullName: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync
+- uid: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SetSpamStatusByIdsAsync_System_Int32___System_Threading_CancellationToken_
+  name: SetSpamStatusByIdsAsync
+  nameWithType: ITicketAgent.SetSpamStatusByIdsAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByIdsAsync
+- uid: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SetSpamStatusByProviderAsync_System_String_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_Threading_CancellationToken_
+  name: SetSpamStatusByProviderAsync
+  nameWithType: ITicketAgent.SetSpamStatusByProviderAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SetSpamStatusByProviderAsync
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync
   isExternal: true

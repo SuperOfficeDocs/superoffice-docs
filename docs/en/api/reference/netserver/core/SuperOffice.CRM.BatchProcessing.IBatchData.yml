@@ -27,7 +27,6 @@ items:
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.IBatchData.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BatchProcessing.IBatchData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.BatchProcessing.IBatchData.SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.Services.TicketBatchReplyData)
   - SuperOffice.CRM.BatchProcessing.IBatchData.SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.Services.TicketBatchReplyData)
   - SuperOffice.CRM.BatchProcessing.IBatchData.SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
 - uid: SuperOffice.CRM.BatchProcessing.IBatchData.GetBatchTaskInfoAsync(System.Int32,System.Threading.CancellationToken)
@@ -361,46 +360,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.BatchProcessing.IBatchData.html
   - name: )
-- uid: SuperOffice.CRM.BatchProcessing.IBatchData.SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.Services.TicketBatchReplyData)
-  commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-  parent: SuperOffice.ExportArchive.IBatchDataTicketExtensions
-  definition: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
-  name: CreateTicketBatchCloseTaskAsync(IBatchData, TicketBatchReplyData)
-  nameWithType: IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(IBatchData, TicketBatchReplyData)
-  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.TicketBatchReplyData)
-  spec.csharp:
-  - uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-    name: CreateTicketBatchCloseTaskAsync
-    isExternal: true
-    href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchData
-    name: IBatchData
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.IBatchData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TicketBatchReplyData
-    name: TicketBatchReplyData
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-    name: CreateTicketBatchCloseTaskAsync
-    isExternal: true
-    href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchData
-    name: IBatchData
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.IBatchData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TicketBatchReplyData
-    name: TicketBatchReplyData
-    isExternal: true
-  - name: )
 - uid: SuperOffice.CRM.BatchProcessing.IBatchData.SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.Services.TicketBatchReplyData)
   commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
   parent: SuperOffice.ExportArchive.IBatchDataTicketExtensions
@@ -578,53 +537,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-  commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-  isExternal: true
-  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
-  name: CreateTicketBatchCloseTaskAsync(IBatchData, TicketBatchReplyData)
-  nameWithType: IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(IBatchData, TicketBatchReplyData)
-  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.TicketBatchReplyData)
-  spec.csharp:
-  - uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-    name: CreateTicketBatchCloseTaskAsync
-    isExternal: true
-    href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchData
-    name: IBatchData
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.IBatchData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TicketBatchReplyData
-    name: TicketBatchReplyData
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchCloseTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
-    name: CreateTicketBatchCloseTaskAsync
-    isExternal: true
-    href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html#SuperOffice_ExportArchive_IBatchDataTicketExtensions_CreateTicketBatchCloseTaskAsync_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_TicketBatchReplyData_
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.IBatchData
-    name: IBatchData
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.IBatchData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TicketBatchReplyData
-    name: TicketBatchReplyData
-    isExternal: true
-  - name: )
-- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions
-  commentId: T:SuperOffice.ExportArchive.IBatchDataTicketExtensions
-  parent: SuperOffice.ExportArchive
-  isExternal: true
-  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html
-  name: IBatchDataTicketExtensions
-  nameWithType: IBatchDataTicketExtensions
-  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions
 - uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
   commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketBatchReplyTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.TicketBatchReplyData)
   isExternal: true
@@ -664,6 +576,14 @@ references:
     name: TicketBatchReplyData
     isExternal: true
   - name: )
+- uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  commentId: T:SuperOffice.ExportArchive.IBatchDataTicketExtensions
+  parent: SuperOffice.ExportArchive
+  isExternal: true
+  href: SuperOffice.ExportArchive.IBatchDataTicketExtensions.html
+  name: IBatchDataTicketExtensions
+  nameWithType: IBatchDataTicketExtensions
+  fullName: SuperOffice.ExportArchive.IBatchDataTicketExtensions
 - uid: SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
   commentId: M:SuperOffice.ExportArchive.IBatchDataTicketExtensions.CreateTicketForwarTaskAsync(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.ExportArchive.TicketBatchPluginBase.TicketForwardSettings)
   isExternal: true

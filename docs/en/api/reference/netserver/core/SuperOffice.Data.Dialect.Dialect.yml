@@ -95,6 +95,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.And)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Between)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Count)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.CountAll)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
@@ -3001,6 +3002,29 @@ items:
     return:
       type: System.String
     content.vb: Protected Overridable Function ToSql(arg As DateDiff) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  id: ToSql(SuperOffice.Data.SQL.Case)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(Case)
+  nameWithType: Dialect.ToSql(Case)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected virtual string ToSql(Case arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Case
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function ToSql(arg As [Case]) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
 - uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
   commentId: M:SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
@@ -6989,6 +7013,14 @@ references:
   name: DateDiff
   nameWithType: DateDiff
   fullName: SuperOffice.Data.SQL.DateDiff
+- uid: SuperOffice.Data.SQL.Case
+  commentId: T:SuperOffice.Data.SQL.Case
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Case.html
+  name: Case
+  nameWithType: Case
+  fullName: SuperOffice.Data.SQL.Case
 - uid: SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   parent: SuperOffice.Data.Dialect.Dialect

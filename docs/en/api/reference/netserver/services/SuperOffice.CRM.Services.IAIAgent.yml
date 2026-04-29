@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.IAIAgent.AnswerAcceptedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync(System.String,System.String,SuperOffice.CRM.Services.RagContextIds,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.CancelIndexingAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.ClearChatbotTurnsAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAIAgent.CreateDefaultCopilotDataSourceEntityAsync(System.Threading.CancellationToken)
@@ -1537,6 +1538,55 @@ items:
   nameWithType.vb: IAIAgent.AnswerAcceptedAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAIAgent.AnswerAcceptedAsync(String, System.Threading.CancellationToken)
   name.vb: AnswerAcceptedAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync(System.String,System.String,SuperOffice.CRM.Services.RagContextIds,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync(System.String,System.String,SuperOffice.CRM.Services.RagContextIds,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
+  id: AnswerUsingContextAsync(System.String,System.String,SuperOffice.CRM.Services.RagContextIds,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnswerUsingContextAsync(string, string, RagContextIds, RagType, int, CancellationToken)
+  nameWithType: IAIAgent.AnswerUsingContextAsync(string, string, RagContextIds, RagType, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync(string, string, SuperOffice.CRM.Services.RagContextIds, SuperOffice.Data.RagType, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns an answer based on the query, and provided context.
+
+    <p></p>
+
+    <b>Experimental:</b> The operation is experimental, subject to change, and not intended for partners.
+  example: []
+  syntax:
+    content: Task<RagAnswer> AnswerUsingContextAsync(string namespaceName, string query, RagContextIds contextIds, RagType type, int top, CancellationToken cancellationToken = default)
+    parameters:
+    - id: namespaceName
+      type: System.String
+      description: Defines the search domain used for generating answer. e.g. 'ServiceCopilot'
+    - id: query
+      type: System.String
+      description: Question. The search query to answer.
+    - id: contextIds
+      type: SuperOffice.CRM.Services.RagContextIds
+      description: The IDs of the current context for contact, person, project, sale, and ticket.
+    - id: type
+      type: SuperOffice.Data.RagType
+      description: 'Filter results based on content type. Default: None = no filtering'
+    - id: top
+      type: System.Int32
+      description: Max Number of results to use in generating answer.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RagAnswer}
+      description: Generated answer based on query.
+    content.vb: Function AnswerUsingContextAsync(namespaceName As String, query As String, contextIds As RagContextIds, type As RagType, top As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RagAnswer)
+  overload: SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync*
+  nameWithType.vb: IAIAgent.AnswerUsingContextAsync(String, String, RagContextIds, RagType, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync(String, String, SuperOffice.CRM.Services.RagContextIds, SuperOffice.Data.RagType, Integer, System.Threading.CancellationToken)
+  name.vb: AnswerUsingContextAsync(String, String, RagContextIds, RagType, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IAIAgent.SearchAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAIAgent.SearchAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   id: SearchAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
@@ -3059,6 +3109,21 @@ references:
   name: AnswerAcceptedAsync
   nameWithType: IAIAgent.AnswerAcceptedAsync
   fullName: SuperOffice.CRM.Services.IAIAgent.AnswerAcceptedAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html#SuperOffice_CRM_Services_IAIAgent_AnswerUsingContextAsync_System_String_System_String_SuperOffice_CRM_Services_RagContextIds_SuperOffice_Data_RagType_System_Int32_System_Threading_CancellationToken_
+  name: AnswerUsingContextAsync
+  nameWithType: IAIAgent.AnswerUsingContextAsync
+  fullName: SuperOffice.CRM.Services.IAIAgent.AnswerUsingContextAsync
+- uid: SuperOffice.CRM.Services.RagContextIds
+  commentId: T:SuperOffice.CRM.Services.RagContextIds
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagContextIds.html
+  name: RagContextIds
+  nameWithType: RagContextIds
+  fullName: SuperOffice.CRM.Services.RagContextIds
 - uid: SuperOffice.CRM.Services.IAIAgent.SearchAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAIAgent.SearchAsync
   isExternal: true

@@ -152,6 +152,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider
   - SuperOffice.CRM.ArchiveLists.UsersProviderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
+  - SuperOffice.CRM.ArchiveLists.WebhookProvider
   - SuperOffice.CRM.ModuleLicenceProvider
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping

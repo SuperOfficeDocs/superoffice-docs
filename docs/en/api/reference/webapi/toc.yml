@@ -310,6 +310,8 @@ items:
     name: AI_AnswerFeedbackRequest
   - uid: SuperOffice.WebApi.Data.AI_AnswerRequest
     name: AI_AnswerRequest
+  - uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+    name: AI_AnswerUsingContextRequest
   - uid: SuperOffice.WebApi.Data.AI_CancelIndexingRequest
     name: AI_CancelIndexingRequest
   - uid: SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
@@ -1220,6 +1222,8 @@ items:
     name: Contact_SetDuplicateRulesStatusRequest
   - uid: SuperOffice.WebApi.Data.Contact_UndeleteRequest
     name: Contact_UndeleteRequest
+  - uid: SuperOffice.WebApi.Data.Contact_UpdateInterestsRequest
+    name: Contact_UpdateInterestsRequest
   - uid: SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
     name: Contact_ValidateContactEntityRequest
   - uid: SuperOffice.WebApi.Data.ControlInfo
@@ -1516,6 +1520,8 @@ items:
     name: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
     name: Diagnostics_PerformTasksAfterUpgradeRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_RegisterClosedTicketsUsageRequest
+    name: Diagnostics_RegisterClosedTicketsUsageRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
     name: Diagnostics_RemoveExpiredSystemMessagesRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
@@ -3048,6 +3054,8 @@ items:
     name: Person_TryAddPersonsToEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Person_UndeleteRequest
     name: Person_UndeleteRequest
+  - uid: SuperOffice.WebApi.Data.Person_UpdateInterestsRequest
+    name: Person_UpdateInterestsRequest
   - uid: SuperOffice.WebApi.Data.Person_ValidatePersonEntityRequest
     name: Person_ValidatePersonEntityRequest
   - uid: SuperOffice.WebApi.Data.PhoneListItem
@@ -3162,6 +3170,8 @@ items:
     name: Preference_GetTabOrdersRequest
   - uid: SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
     name: Preference_GetXsrfPathsRequest
+  - uid: SuperOffice.WebApi.Data.Preference_GetXsrfValueRequest
+    name: Preference_GetXsrfValueRequest
   - uid: SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
     name: Preference_SaveFromSectionAndKeyRequest
   - uid: SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
@@ -3180,6 +3190,8 @@ items:
     name: Preference_SaveTabOrdersRequest
   - uid: SuperOffice.WebApi.Data.Preference_SetXsrfPathsRequest
     name: Preference_SetXsrfPathsRequest
+  - uid: SuperOffice.WebApi.Data.Preference_SetXsrfValueRequest
+    name: Preference_SetXsrfValueRequest
   - uid: SuperOffice.WebApi.Data.Preference_UpdateNetServicesStatusRequest
     name: Preference_UpdateNetServicesStatusRequest
   - uid: SuperOffice.WebApi.Data.PreferredTimeZone
@@ -3544,6 +3556,8 @@ items:
     name: Quote_ValidateQuoteVersionRequest
   - uid: SuperOffice.WebApi.Data.RagAnswer
     name: RagAnswer
+  - uid: SuperOffice.WebApi.Data.RagContextIds
+    name: RagContextIds
   - uid: SuperOffice.WebApi.Data.RagResult
     name: RagResult
   - uid: SuperOffice.WebApi.Data.RagStatus
@@ -4140,6 +4154,8 @@ items:
     name: TicketType
   - uid: SuperOffice.WebApi.Data.TicketTypeEntity
     name: TicketTypeEntity
+  - uid: SuperOffice.WebApi.Data.TicketUsage
+    name: TicketUsage
   - uid: SuperOffice.WebApi.Data.Ticket_AcceptTicketsRequest
     name: Ticket_AcceptTicketsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_AddAttachmentsRequest
@@ -4236,6 +4252,10 @@ items:
     name: Ticket_SetDeletedStatusByIdsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
     name: Ticket_SetDeletedStatusByProviderRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByIdsRequest
+    name: Ticket_SetSpamStatusByIdsRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByProviderRequest
+    name: Ticket_SetSpamStatusByProviderRequest
   - uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
     name: Ticket_SetTicketMessageImportantRequest
   - uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
@@ -4562,6 +4582,8 @@ items:
     name: User_DeleteUserFromNameRequest
   - uid: SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
     name: User_DeleteUserGroupRequest
+  - uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+    name: User_ExchangeCodeAndSaveTokensRequest
   - uid: SuperOffice.WebApi.Data.User_FindCredentialUsersRequest
     name: User_FindCredentialUsersRequest
   - uid: SuperOffice.WebApi.Data.User_FindCredentialsGroupsRequest
@@ -4868,4 +4890,6 @@ items:
     name: Workflow_TryAddPersonsToEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Workflow_UpdateFormSubmissionsRequest
     name: Workflow_UpdateFormSubmissionsRequest
+  - uid: SuperOffice.WebApi.Data.XsrfValue
+    name: XsrfValue
 memberLayout: SamePage

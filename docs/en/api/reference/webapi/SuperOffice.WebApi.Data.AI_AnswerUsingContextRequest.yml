@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  id: AI_AnswerUsingContextRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: AI_AnswerUsingContextRequest
+  nameWithType: AI_AnswerUsingContextRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public class AI_AnswerUsingContextRequest
+    content.vb: Public Class AI_AnswerUsingContextRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_AnswerUsingContextRequest()
+  nameWithType: AI_AnswerUsingContextRequest.AI_AnswerUsingContextRequest()
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.AI_AnswerUsingContextRequest()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_AnswerUsingContextRequest()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.#ctor*
+  nameWithType.vb: AI_AnswerUsingContextRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName
+  commentId: P:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName
+  id: NamespaceName
+  parent: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  langs:
+  - csharp
+  - vb
+  name: NamespaceName
+  nameWithType: AI_AnswerUsingContextRequest.NamespaceName
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string NamespaceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NamespaceName As String
+  overload: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName*
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query
+  commentId: P:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query
+  id: Query
+  parent: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: AI_AnswerUsingContextRequest.Query
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Query As String
+  overload: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query*
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds
+  commentId: P:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds
+  id: ContextIds
+  parent: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  langs:
+  - csharp
+  - vb
+  name: ContextIds
+  nameWithType: AI_AnswerUsingContextRequest.ContextIds
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public RagContextIds ContextIds { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RagContextIds
+    content.vb: Public Property ContextIds As RagContextIds
+  overload: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds*
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: AI_AnswerUsingContextRequest.Type
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public RagType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RagType
+    content.vb: Public Property Type As RagType
+  overload: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type*
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top
+  commentId: P:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top
+  id: Top
+  parent: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: AI_AnswerUsingContextRequest.Top
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public int Top { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Top As Integer
+  overload: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top*
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html#SuperOffice_WebApi_Data_AI_AnswerUsingContextRequest__ctor
+  name: AI_AnswerUsingContextRequest
+  nameWithType: AI_AnswerUsingContextRequest.AI_AnswerUsingContextRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.AI_AnswerUsingContextRequest
+  nameWithType.vb: AI_AnswerUsingContextRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html#SuperOffice_WebApi_Data_AI_AnswerUsingContextRequest_NamespaceName
+  name: NamespaceName
+  nameWithType: AI_AnswerUsingContextRequest.NamespaceName
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.NamespaceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html#SuperOffice_WebApi_Data_AI_AnswerUsingContextRequest_Query
+  name: Query
+  nameWithType: AI_AnswerUsingContextRequest.Query
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Query
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html#SuperOffice_WebApi_Data_AI_AnswerUsingContextRequest_ContextIds
+  name: ContextIds
+  nameWithType: AI_AnswerUsingContextRequest.ContextIds
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.ContextIds
+- uid: SuperOffice.WebApi.Data.RagContextIds
+  commentId: T:SuperOffice.WebApi.Data.RagContextIds
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html
+  name: RagContextIds
+  nameWithType: RagContextIds
+  fullName: SuperOffice.WebApi.Data.RagContextIds
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html#SuperOffice_WebApi_Data_AI_AnswerUsingContextRequest_Type
+  name: Type
+  nameWithType: AI_AnswerUsingContextRequest.Type
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Type
+- uid: SuperOffice.WebApi.Data.RagType
+  commentId: T:SuperOffice.WebApi.Data.RagType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagType.html
+  name: RagType
+  nameWithType: RagType
+  fullName: SuperOffice.WebApi.Data.RagType
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html#SuperOffice_WebApi_Data_AI_AnswerUsingContextRequest_Top
+  name: Top
+  nameWithType: AI_AnswerUsingContextRequest.Top
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.Top
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

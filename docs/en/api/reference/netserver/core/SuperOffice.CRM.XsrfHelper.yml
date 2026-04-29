@@ -7,7 +7,9 @@ items:
   children:
   - SuperOffice.CRM.XsrfHelper.#ctor
   - SuperOffice.CRM.XsrfHelper.GetXsrfPathsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.XsrfHelper.SetXsrfPathsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -96,6 +98,65 @@ items:
   nameWithType.vb: XsrfHelper.SetXsrfPathsAsync(String, String(), CancellationToken)
   fullName.vb: SuperOffice.CRM.XsrfHelper.SetXsrfPathsAsync(String, String(), System.Threading.CancellationToken)
   name.vb: SetXsrfPathsAsync(String, String(), CancellationToken)
+- uid: SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync(System.Threading.CancellationToken)
+  id: GetXsrfValueAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.XsrfHelper
+  langs:
+  - csharp
+  - vb
+  name: GetXsrfValueAsync(CancellationToken)
+  nameWithType: XsrfHelper.GetXsrfValueAsync(CancellationToken)
+  fullName: SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM
+  summary: Returns the XSRF value and the last update time. If the value does not exist, it returns empty string and DateTime.MinValue.
+  example: []
+  syntax:
+    content: public static Task<(string, DateTime)> GetXsrfValueAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: A cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.DateTime}}
+      description: XSRF value and last update time in UTC
+    content.vb: Public Shared Function GetXsrfValueAsync(cancellationToken As CancellationToken = Nothing) As Task(Of (String, Date))
+  overload: SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync*
+- uid: SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
+  id: SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.XsrfHelper
+  langs:
+  - csharp
+  - vb
+  name: SetXsrfValueAsync(string, CancellationToken)
+  nameWithType: XsrfHelper.SetXsrfValueAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM
+  summary: Sets the XSRF value for the current user. If the user is not authenticated, it does nothing.
+  example: []
+  syntax:
+    content: public static Task SetXsrfValueAsync(string xsrfValue, CancellationToken cancellationToken = default)
+    parameters:
+    - id: xsrfValue
+      type: System.String
+      description: The XSRF value to set.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: A cancellation token.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function SetXsrfValueAsync(xsrfValue As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync*
+  nameWithType.vb: XsrfHelper.SetXsrfValueAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync(String, System.Threading.CancellationToken)
+  name.vb: SetXsrfValueAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.XsrfHelper.#ctor
   commentId: M:SuperOffice.CRM.XsrfHelper.#ctor
   id: '#ctor'
@@ -1030,6 +1091,71 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync*
+  commentId: Overload:SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.XsrfHelper.html#SuperOffice_CRM_XsrfHelper_GetXsrfValueAsync_System_Threading_CancellationToken_
+  name: GetXsrfValueAsync
+  nameWithType: XsrfHelper.GetXsrfValueAsync
+  fullName: SuperOffice.CRM.XsrfHelper.GetXsrfValueAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.DateTime}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.DateTime}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(string, DateTime)>
+  nameWithType: Task<(string, DateTime)>
+  fullName: System.Threading.Tasks.Task<(string, System.DateTime)>
+  nameWithType.vb: Task(Of (String, Date))
+  fullName.vb: System.Threading.Tasks.Task(Of (String, Date))
+  name.vb: Task(Of (String, Date))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync*
+  commentId: Overload:SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.XsrfHelper.html#SuperOffice_CRM_XsrfHelper_SetXsrfValueAsync_System_String_System_Threading_CancellationToken_
+  name: SetXsrfValueAsync
+  nameWithType: XsrfHelper.SetXsrfValueAsync
+  fullName: SuperOffice.CRM.XsrfHelper.SetXsrfValueAsync
 - uid: SuperOffice.CRM.XsrfHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.XsrfHelper.#ctor
   isExternal: true

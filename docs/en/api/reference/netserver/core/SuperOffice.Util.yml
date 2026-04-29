@@ -88,6 +88,7 @@ items:
   - SuperOffice.Util.TargetHelper
   - SuperOffice.Util.TemporaryConfigOverride
   - SuperOffice.Util.TemporaryFeatureToggle
+  - SuperOffice.Util.TemporaryValue`1
   - SuperOffice.Util.TextEncodingHelper
   - SuperOffice.Util.TimeConverter
   - SuperOffice.Util.TimeConverterData
@@ -818,6 +819,34 @@ references:
     name: TypeAction
     isExternal: true
     href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+- uid: SuperOffice.Util.TemporaryValue`1
+  commentId: T:SuperOffice.Util.TemporaryValue`1
+  isExternal: true
+  href: SuperOffice.Util.TemporaryValue-1.html
+  name: TemporaryValue<T>
+  nameWithType: TemporaryValue<T>
+  fullName: SuperOffice.Util.TemporaryValue<T>
+  nameWithType.vb: TemporaryValue(Of T)
+  fullName.vb: SuperOffice.Util.TemporaryValue(Of T)
+  name.vb: TemporaryValue(Of T)
+  spec.csharp:
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: SuperOffice.Util.TextEncodingHelper
   commentId: T:SuperOffice.Util.TextEncodingHelper
   isExternal: true

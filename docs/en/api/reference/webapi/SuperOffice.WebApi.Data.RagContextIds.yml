@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RagContextIds
+  commentId: T:SuperOffice.WebApi.Data.RagContextIds
+  id: RagContextIds
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RagContextIds.#ctor
+  - SuperOffice.WebApi.Data.RagContextIds.AppointmentId
+  - SuperOffice.WebApi.Data.RagContextIds.ContactId
+  - SuperOffice.WebApi.Data.RagContextIds.DocumentId
+  - SuperOffice.WebApi.Data.RagContextIds.PersonId
+  - SuperOffice.WebApi.Data.RagContextIds.ProjectId
+  - SuperOffice.WebApi.Data.RagContextIds.SaleId
+  - SuperOffice.WebApi.Data.RagContextIds.SelectionId
+  - SuperOffice.WebApi.Data.RagContextIds.TicketId
+  langs:
+  - csharp
+  - vb
+  name: RagContextIds
+  nameWithType: RagContextIds
+  fullName: SuperOffice.WebApi.Data.RagContextIds
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for RagContextIds.
+
+    Parameters specifying contact/person/project/sale/ticket ids for populating context.
+  example: []
+  syntax:
+    content: public class RagContextIds
+    content.vb: Public Class RagContextIds
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AIAgent
+    commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.RagContextIds.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RagContextIds.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: RagContextIds()
+  nameWithType: RagContextIds.RagContextIds()
+  fullName: SuperOffice.WebApi.Data.RagContextIds.RagContextIds()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public RagContextIds()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.RagContextIds.#ctor*
+  nameWithType.vb: RagContextIds.New()
+  fullName.vb: SuperOffice.WebApi.Data.RagContextIds.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.RagContextIds.ContactId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: RagContextIds.ContactId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.ContactId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for a contact
+  example: []
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.ContactId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.PersonId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: RagContextIds.PersonId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.PersonId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for a person
+  example: []
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.PersonId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: RagContextIds.ProjectId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.ProjectId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for a project
+  example: []
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.ProjectId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: RagContextIds.SelectionId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.SelectionId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for a selection
+  example: []
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.SelectionId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: RagContextIds.AppointmentId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.AppointmentId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for an appointment
+  example: []
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.AppointmentId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: RagContextIds.DocumentId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.DocumentId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for a document
+  example: []
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.DocumentId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.SaleId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: RagContextIds.SaleId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.SaleId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for a sale
+  example: []
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.SaleId*
+- uid: SuperOffice.WebApi.Data.RagContextIds.TicketId
+  commentId: P:SuperOffice.WebApi.Data.RagContextIds.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.RagContextIds
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: RagContextIds.TicketId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.TicketId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Identifier for ticket/request
+  example: []
+  syntax:
+    content: public virtual int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.RagContextIds.TicketId*
+references:
+- uid: SuperOffice.WebApi.Agents.AIAgent
+  commentId: T:SuperOffice.WebApi.Agents.AIAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AIAgent.html
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.WebApi.Agents.AIAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RagContextIds.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds__ctor
+  name: RagContextIds
+  nameWithType: RagContextIds.RagContextIds
+  fullName: SuperOffice.WebApi.Data.RagContextIds.RagContextIds
+  nameWithType.vb: RagContextIds.New
+  fullName.vb: SuperOffice.WebApi.Data.RagContextIds.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.RagContextIds.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.ContactId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_ContactId
+  name: ContactId
+  nameWithType: RagContextIds.ContactId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Data.RagContextIds.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.PersonId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_PersonId
+  name: PersonId
+  nameWithType: RagContextIds.PersonId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.PersonId
+- uid: SuperOffice.WebApi.Data.RagContextIds.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.ProjectId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_ProjectId
+  name: ProjectId
+  nameWithType: RagContextIds.ProjectId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.ProjectId
+- uid: SuperOffice.WebApi.Data.RagContextIds.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.SelectionId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_SelectionId
+  name: SelectionId
+  nameWithType: RagContextIds.SelectionId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.SelectionId
+- uid: SuperOffice.WebApi.Data.RagContextIds.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.AppointmentId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_AppointmentId
+  name: AppointmentId
+  nameWithType: RagContextIds.AppointmentId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.AppointmentId
+- uid: SuperOffice.WebApi.Data.RagContextIds.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.DocumentId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_DocumentId
+  name: DocumentId
+  nameWithType: RagContextIds.DocumentId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.DocumentId
+- uid: SuperOffice.WebApi.Data.RagContextIds.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.SaleId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_SaleId
+  name: SaleId
+  nameWithType: RagContextIds.SaleId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.SaleId
+- uid: SuperOffice.WebApi.Data.RagContextIds.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.RagContextIds.TicketId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html#SuperOffice_WebApi_Data_RagContextIds_TicketId
+  name: TicketId
+  nameWithType: RagContextIds.TicketId
+  fullName: SuperOffice.WebApi.Data.RagContextIds.TicketId

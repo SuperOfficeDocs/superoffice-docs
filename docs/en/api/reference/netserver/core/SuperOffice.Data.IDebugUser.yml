@@ -16,6 +16,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
+  summary: Fetch the DebugUser VersionProperty and, in a safe manner, check if it matches the current use
+  example: []
   syntax:
     content: public interface IDebugUser
     content.vb: Public Interface IDebugUser
@@ -36,6 +38,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
+  summary: Fetch the DebugUser VersionProperty and, in a safe manner, check if it matches the current use
+  example: []
   syntax:
     content: bool IsOnForCurrentUser()
     return:
