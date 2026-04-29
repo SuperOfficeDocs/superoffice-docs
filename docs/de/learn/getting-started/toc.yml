@@ -8,9 +8,7 @@ items:
   href: login.md
 - name: Einstellungen
   href: preferences.md
-- name: Konten verbinden (11.11 und höher)
-  href: connect-your-accounts.md
-- name: E-Mails und Dokumente verbinden (11.10 und früher)
+- name: E-Mails und Dokumente verbinden
   href: connect-email-doc/toc.yml
   topicHref: connect-email-doc/index.md
 - name: E-Mail-Signatur bearbeiten

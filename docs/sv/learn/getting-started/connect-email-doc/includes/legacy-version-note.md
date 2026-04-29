@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
-> Den här sidan gäller för version 11.10 och tidigare samt för onsite-installationer. Om du är **SuperOffice Online**-kund använder du guiden [Användarinställningar][1] i **Personliga inställningar** i stället — tillgänglig för nya kunder från 11.11, rullas ut gradvis till alla onlinekunder från 11.13.
+> Om du kör **SuperOffice 11.13 eller senare** med funktionen *NewEmailConnectivity*, använder du guiden [Användarinställningar][1] i **Personliga inställningar** i stället.
 
 <!-- Referenced links -->
-[1]: ../../connect-your-accounts.md
+[1]: https://docs.superoffice.com/en/learn/getting-started/connect-your-accounts.html

@@ -8,9 +8,7 @@ items:
   href: login.md
 - name: Preferanser
   href: preferences.md
-- name: Koble til kontoene dine (11.11 og nyere)
-  href: connect-your-accounts.md
-- name: Koble sammen e-post og dokumenter (11.10 og eldre)
+- name: Koble sammen e-post og dokumenter
   href: connect-email-doc/toc.yml
   topicHref: connect-email-doc/index.md
 - name: Redigere e-postsignatur

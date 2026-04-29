@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
-> Deze pagina is van toepassing op versie 11.10 en eerder, en op onsite-installaties. Als je een **SuperOffice Online**-klant bent, gebruik dan de wizard [Gebruikersinstellingen][1] in **Persoonlijke instellingen** in plaats daarvan — beschikbaar voor nieuwe klanten vanaf 11.11, geleidelijk uitgerold naar alle online klanten vanaf 11.13.
+> Als je **SuperOffice 11.13 of later** gebruikt met de *NewEmailConnectivity*-functie, gebruik dan de wizard [Gebruikersinstellingen][1] in **Persoonlijke instellingen** in plaats daarvan.
 
 <!-- Referenced links -->
-[1]: ../../connect-your-accounts.md
+[1]: https://docs.superoffice.com/en/learn/getting-started/connect-your-accounts.html

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
-> This page applies to version 11.10 and earlier, and to onsite installations. If you are a **SuperOffice Online** customer, use the [User setup][1] wizard in **Personal settings** instead — available for new customers from 11.11, rolling out gradually to all online customers from 11.13.
+> If you are running **SuperOffice 11.13 or later** with the *NewEmailConnectivity* feature toggle, use the [User setup][1] wizard in **Personal settings** instead.
 
 <!-- Referenced links -->
-[1]: ../../connect-your-accounts.md
+[1]: https://docs.superoffice.com/en/learn/getting-started/connect-your-accounts.html
