@@ -79,5 +79,6 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [SetUtmCreatedPersonContactForFormSubmission](SetUtmCreatedPersonContactForFormSubmission.md)
 * [TryAddPersonsToEmailFlow](TryAddPersonsToEmailFlow.md)
 * [Undelete](Undelete.md)
+* [UpdateInterests](UpdateInterests.md)
 * [ValidatePersonEntity](ValidatePersonEntity.md)
 

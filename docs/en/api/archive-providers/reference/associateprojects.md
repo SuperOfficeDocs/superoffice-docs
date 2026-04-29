@@ -73,7 +73,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjects?$select=projectUdef/SuperOffice:3,projectUdef/SuperOffice:9,updatedDate
+GET /api/v1/archive/AssociateProjects?$select=updatedDate,activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

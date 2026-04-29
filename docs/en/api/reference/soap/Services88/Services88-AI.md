@@ -2312,12 +2312,43 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="AnswerUsingContext">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="NamespaceName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Query" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="ContextIds" nillable="true" type="q239:RagContextIds" xmlns:q239="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Type" type="q240:RagType" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Top" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="RagContextIds">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+          <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+          <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
+          <xs:element minOccurs="0" name="AppointmentId" type="xs:int" />
+          <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+          <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+          <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="RagContextIds" nillable="true" type="q241:RagContextIds" xmlns:q241="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AnswerUsingContextResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q242:RagAnswer" xmlns:q242="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="Search">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="NamespaceName" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="Query" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Type" type="q239:RagType" xmlns:q239="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Type" type="q243:RagType" xmlns:q243="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="Top" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
@@ -2325,7 +2356,7 @@ content_type: reference
       <xs:element name="SearchResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q240:ArrayOfRagResult" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q244:ArrayOfRagResult" xmlns:q244="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2354,7 +2385,7 @@ content_type: reference
       <xs:element name="GetIndexingStatusResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q241:RagStatus" xmlns:q241="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q245:RagStatus" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2367,23 +2398,23 @@ content_type: reference
           <xs:element minOccurs="0" name="IsCompleted" type="xs:boolean" />
           <xs:element minOccurs="0" name="IsCancelled" type="xs:boolean" />
           <xs:element minOccurs="0" name="LastIndexed" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="StatusAll" nillable="true" type="q242:RagStatusChunks" xmlns:q242="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="StatusDocuments" nillable="true" type="q243:RagStatusChunks" xmlns:q243="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="StatusFAQ" nillable="true" type="q244:RagStatusChunks" xmlns:q244="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="StatusNone" nillable="true" type="q245:RagStatusChunks" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="StatusProduct" nillable="true" type="q246:RagStatusChunks" xmlns:q246="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="StatusTicket" nillable="true" type="q247:RagStatusChunks" xmlns:q247="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="StatusWebpage" nillable="true" type="q248:RagStatusChunks" xmlns:q248="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusAll" nillable="true" type="q246:RagStatusChunks" xmlns:q246="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusDocuments" nillable="true" type="q247:RagStatusChunks" xmlns:q247="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusFAQ" nillable="true" type="q248:RagStatusChunks" xmlns:q248="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusNone" nillable="true" type="q249:RagStatusChunks" xmlns:q249="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusProduct" nillable="true" type="q250:RagStatusChunks" xmlns:q250="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusTicket" nillable="true" type="q251:RagStatusChunks" xmlns:q251="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="StatusWebpage" nillable="true" type="q252:RagStatusChunks" xmlns:q252="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RagStatus" nillable="true" type="q249:RagStatus" xmlns:q249="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RagStatus" nillable="true" type="q253:RagStatus" xmlns:q253="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RagStatusChunks">
         <xs:sequence>
           <xs:element minOccurs="0" name="NumberOfChunks" type="xs:int" />
           <xs:element minOccurs="0" name="NumberOfDocuments" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RagStatusChunks" nillable="true" type="q250:RagStatusChunks" xmlns:q250="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RagStatusChunks" nillable="true" type="q254:RagStatusChunks" xmlns:q254="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="CancelIndexing">
         <xs:complexType>
           <xs:sequence>
@@ -2394,7 +2425,7 @@ content_type: reference
       <xs:element name="CancelIndexingResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q251:RagStatus" xmlns:q251="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q255:RagStatus" xmlns:q255="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2427,7 +2458,7 @@ content_type: reference
       <xs:element name="GetSummarizeTicketPromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q252:ChatbotTurn" xmlns:q252="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q256:ChatbotTurn" xmlns:q256="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2460,7 +2491,7 @@ content_type: reference
       <xs:element name="GetSummarizeContactPromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q253:ChatbotTurn" xmlns:q253="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q257:ChatbotTurn" xmlns:q257="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2493,7 +2524,7 @@ content_type: reference
       <xs:element name="GetSummarizeSalePromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q254:ChatbotTurn" xmlns:q254="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q258:ChatbotTurn" xmlns:q258="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3177,6 +3208,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="AnswerUsingContextRequest">
+    <wsdl:part name="parameters" element="tns:AnswerUsingContext" />
+  </wsdl:message>
+  <wsdl:message name="AnswerUsingContextRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="AnswerUsingContextResponse">
+    <wsdl:part name="parameters" element="tns:AnswerUsingContextResponse" />
+  </wsdl:message>
+  <wsdl:message name="AnswerUsingContextResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="SearchRequest">
     <wsdl:part name="parameters" element="tns:Search" />
   </wsdl:message>
@@ -3495,6 +3543,10 @@ content_type: reference
     <wsdl:operation name="AnswerAccepted">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerAccepted" name="AnswerAcceptedRequest" message="tns:AnswerAcceptedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerAcceptedResponse" name="AnswerAcceptedResponse" message="tns:AnswerAcceptedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AnswerUsingContext">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerUsingContext" name="AnswerUsingContextRequest" message="tns:AnswerUsingContextRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerUsingContextResponse" name="AnswerUsingContextResponse" message="tns:AnswerUsingContextResponse" />
     </wsdl:operation>
     <wsdl:operation name="Search">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/Search" name="SearchRequest" message="tns:SearchRequest" />
@@ -4128,6 +4180,22 @@ content_type: reference
         <soap:header message="tns:AnswerAcceptedResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:AnswerAcceptedResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:AnswerAcceptedResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnswerUsingContext">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/AI/AnswerUsingContext" style="document" />
+      <wsdl:input name="AnswerUsingContextRequest">
+        <soap:header message="tns:AnswerUsingContextRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:AnswerUsingContextRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:AnswerUsingContextRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="AnswerUsingContextResponse">
+        <soap:header message="tns:AnswerUsingContextResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:AnswerUsingContextResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:AnswerUsingContextResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:AnswerUsingContextResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -72,11 +72,11 @@ GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
 GET /api/v1/BatchTask?$entities=rerum
-GET /api/v1/BatchTask?$top=9
-GET /api/v1/BatchTask?$skip=613
+GET /api/v1/BatchTask?$top=921
+GET /api/v1/BatchTask?$skip=268
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=ratione
+GET /api/v1/BatchTask?$context=nihil
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display

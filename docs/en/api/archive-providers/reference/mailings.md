@@ -671,7 +671,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/mailingAddrId,mailingAddr/contact/updatedDate,mailingAddr/contact/restrictionAddress/line2,mailingAddr/contact/contactExtra/x_contact_short_dropdown,mailingAddr/person/contactId
+GET /api/v1/archive/Mailings?$select=mailingAddr/contact/email/emailBounceCount,mailingAddr/person/correspondingAssociate/mrMrs,mailingAddr/person/correspondingAssociate/assocTooltip,mailingAddr/person/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

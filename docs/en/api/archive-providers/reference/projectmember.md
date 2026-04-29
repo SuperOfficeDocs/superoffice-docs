@@ -34,11 +34,11 @@ from the result.
 |projectId|int|Project ID: Project ID| x |
 |contactId|int|Company ID: Database ID of company| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
-|eventParticipantStatus|listAny|Event status: Event status| x |
-|function|listAny|Function: Displays the project member's function in the project| x |
-|hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
-|registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
-|updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
+|eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
+|function|listAny|Project member - Function: Displays the project member's function in the project| x |
+|hasInfoText|bool|Project member - Has info text: Displays an icon indicating that there is additional information available for the project member| x |
+|registered|datetime|Project member - Registered date: The date/time the data was registered in UTC.| x |
+|updated|datetime|Project member - Updated: The date/time the data was last updated in UTC.| x |
 |textId|int|Text ID| x |
 |infoText|positiveString|Information: Displays the text entered in the description field| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
@@ -559,7 +559,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=person/personPrivate/formattedNumber,person/personExtra/x_person_request_relation,contact/department,contact/restrictionAddress/wgs84latitude,contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/ProjectMember?$select=project/status,project/LastActivity,contact/restrictionAddress/wgs84longitude,contact/LastActivity,contact/NumberOfTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -26,7 +26,7 @@ Saves a ticket and performs any user notifications
 | notify | bool |  If true, then the notifications will be sent |
 
 ```http
-POST /api/v1/Ticket?notify=False
+POST /api/v1/Ticket?notify=True
 ```
 
 

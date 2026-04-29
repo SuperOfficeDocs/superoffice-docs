@@ -17,6 +17,7 @@ Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger
 * [AnswerAcceptedAsync](answeracceptedasync.md)
 * [AnswerAsync](answerasync.md)
 * [AnswerFeedbackAsync](answerfeedbackasync.md)
+* [AnswerUsingContextAsync](answerusingcontextasync.md)
 * [CancelIndexingAsync](cancelindexingasync.md)
 * [ClearChatbotTurnsAsync](clearchatbotturnsasync.md)
 * [CreateDefaultCopilotDataSourceEntityAsync](createdefaultcopilotdatasourceentityasync.md)

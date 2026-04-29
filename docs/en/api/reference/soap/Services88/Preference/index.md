@@ -42,6 +42,7 @@ Download [WSDL file for Services88/Preference](../Services88-Preference.md) if y
 * [GetTabOrder](GetTabOrder.md)
 * [GetTabOrders](GetTabOrders.md)
 * [GetXsrfPaths](GetXsrfPaths.md)
+* [GetXsrfValue](GetXsrfValue.md)
 * [SaveFromSectionAndKey](SaveFromSectionAndKey.md)
 * [SavePreference](SavePreference.md)
 * [SavePreferenceDescription](SavePreferenceDescription.md)
@@ -53,5 +54,6 @@ Download [WSDL file for Services88/Preference](../Services88-Preference.md) if y
 * [SaveTabOrder](SaveTabOrder.md)
 * [SaveTabOrders](SaveTabOrders.md)
 * [SetXsrfPaths](SetXsrfPaths.md)
+* [SetXsrfValue](SetXsrfValue.md)
 * [UpdateNetServicesStatus](UpdateNetServicesStatus.md)
 

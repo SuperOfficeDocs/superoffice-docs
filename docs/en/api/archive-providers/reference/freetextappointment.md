@@ -765,7 +765,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=person/birthYear,sale/associate/lastName,person/contactId
+GET /api/v1/archive/FreetextAppointment?$select=contact/deletedDate,contact/saintActivityType,person/personAssociate/otherGroups,person/personAssociate/isLocation,sale/sale/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

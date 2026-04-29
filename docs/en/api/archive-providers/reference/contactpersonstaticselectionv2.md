@@ -1078,7 +1078,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/eventId| *None* |Event ID: Event ID| x |
 |projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
-|projectMembers/eventParticipantStatus| *None* |Event status: Event status| x |
+|projectMembers/eventParticipantStatus| *None* |Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date| x |
@@ -1262,7 +1262,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonStaticSelectionV2?$select=postAddress/county,NumberOfNotCompletedTicketsInPeriod,sourceRelation/number,targetRelation/mainContact,sale/associate/assocType
+GET /api/v1/archive/ContactPersonStaticSelectionV2?$select=postAddress/line2,contactAssociate/contactName,NumberOfSales,sale/associate/ejStatus,document/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

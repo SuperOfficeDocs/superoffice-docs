@@ -12,6 +12,10 @@ content_type: reference
 
 
 
+* [POST Agents/Ticket/GetDefaultMessageContent](v1TicketAgent_GetDefaultMessageContent.md)
+
+* [POST Agents/Ticket/GetDefaultMessageContentFull](v1TicketAgent_GetDefaultMessageContentFull.md)
+
 * [POST Agents/Ticket/GetDefaultMessageContentWithOptions](v1TicketAgent_GetDefaultMessageContentWithOptions.md)
 
 * [POST Agents/Ticket/GetTicketMessageWithEmbeddedData](v1TicketAgent_GetTicketMessageWithEmbeddedData.md)
@@ -108,6 +112,10 @@ content_type: reference
 
 * [POST Agents/Ticket/AcceptTickets](v1TicketAgent_AcceptTickets.md)
 
+* [POST Agents/Ticket/SetSpamStatusByIds](v1TicketAgent_SetSpamStatusByIds.md)
+
+* [POST Agents/Ticket/SetSpamStatusByProvider](v1TicketAgent_SetSpamStatusByProvider.md)
+
 * [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
 
 * [POST Agents/Ticket/CreateDefaultTicketMessageEntity](v1TicketAgent_CreateDefaultTicketMessageEntity.md)
@@ -151,7 +159,3 @@ content_type: reference
 * [POST Agents/Ticket/SaveTicketMessageEntityWithNotify](v1TicketAgent_SaveTicketMessageEntityWithNotify.md)
 
 * [POST Agents/Ticket/SaveTicketMessageEntityWithOptions](v1TicketAgent_SaveTicketMessageEntityWithOptions.md)
-
-* [POST Agents/Ticket/GetDefaultMessageContent](v1TicketAgent_GetDefaultMessageContent.md)
-
-* [POST Agents/Ticket/GetDefaultMessageContentFull](v1TicketAgent_GetDefaultMessageContentFull.md)

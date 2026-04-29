@@ -800,7 +800,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelection?$select=getNoRows,ownedBy/contactDepartment,person/personCategoryGroup,person/restrictionAddress/line3,sale/type
+GET /api/v1/archive/TicketShadowSelection?$select=person/personBusiness,person/email/emailProtocol,contact/countryId,contact/streetAddress/wgs84latitude,contact/streetAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

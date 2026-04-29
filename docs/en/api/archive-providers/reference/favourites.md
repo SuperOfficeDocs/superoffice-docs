@@ -908,7 +908,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=contactAssociate/usergroup,contactAssociate/isActiveText,contactAssociate/userName,contactInterestIds,personAddress/county
+GET /api/v1/archive/Favourites?$select=earning,contactInterestIds,contactUdef/SuperOffice:5,contactUdef/SuperOffice:11,LastDoByTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -764,7 +764,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/eventId|int|Event ID: Event ID| x |
 |projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
-|projectMembers/eventParticipantStatus|listAny|Event status: Event status| x |
+|projectMembers/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -1153,7 +1153,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personUrl/URLDescription,personUdef/SuperOffice:10,personExtra/y_rental/y_equipment/x_name,personSourceRelation/personUpdatedBy,correspondingAssociate/fullName
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personPrivate/formattedNumber,personSourceRelation/supportLanguage,contactAssociate/credentialDisplayValue,request/createdBy/locationAddress,request/createdBy/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

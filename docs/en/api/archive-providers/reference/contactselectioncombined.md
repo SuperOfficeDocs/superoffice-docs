@@ -1080,7 +1080,7 @@ Implementation of the provider for the combined selection
 |projectMembers/eventId| *None* |Event ID: Event ID|  |
 |projectMembers/startDate| *None* |Start date: Project start date|  |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project|  |
-|projectMembers/eventParticipantStatus| *None* |Event status: Event status|  |
+|projectMembers/eventParticipantStatus| *None* |Project member - Event status: Project member - Event status|  |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |projectMembers/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -1264,7 +1264,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=nameDepartment,who,LastCompletedTicket,appointment/recordTypeText,document/associate/personEmail
+GET /api/v1/archive/ContactSelectionCombined?$select=streetAddress/zip,contactExtra/x_contact_contact_relation,targetRelation/contactDeleted,appointment/recurrenceRuleId,personExtra/y_rental/x_end
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

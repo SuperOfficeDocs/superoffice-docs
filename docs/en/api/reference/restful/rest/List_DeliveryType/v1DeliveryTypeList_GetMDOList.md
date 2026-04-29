@@ -28,7 +28,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=ipsam
+GET /api/v1/List/DeliveryType/MDOItems?query=dolores
 ```
 
 

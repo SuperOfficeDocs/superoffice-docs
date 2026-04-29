@@ -679,6 +679,18 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="RegisterClosedTicketsUsage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RegisterClosedTicketsUsageResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="AddWebAppUsage">
         <xs:complexType>
           <xs:sequence>
@@ -794,6 +806,12 @@ content_type: reference
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
+      <xs:complexType name="ArrayOfint">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="int" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="GetAnalyticsDataRequest">
@@ -1238,6 +1256,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="RegisterClosedTicketsUsageRequest">
+    <wsdl:part name="parameters" element="tns:RegisterClosedTicketsUsage" />
+  </wsdl:message>
+  <wsdl:message name="RegisterClosedTicketsUsageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="RegisterClosedTicketsUsageResponse">
+    <wsdl:part name="parameters" element="tns:RegisterClosedTicketsUsageResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterClosedTicketsUsageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="AddWebAppUsageRequest">
     <wsdl:part name="parameters" element="tns:AddWebAppUsage" />
   </wsdl:message>
@@ -1393,6 +1428,10 @@ content_type: reference
     <wsdl:operation name="PerformTasksAfterCustomObjectTableDeleted">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterCustomObjectTableDeleted" name="PerformTasksAfterCustomObjectTableDeletedRequest" message="tns:PerformTasksAfterCustomObjectTableDeletedRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterCustomObjectTableDeletedResponse" name="PerformTasksAfterCustomObjectTableDeletedResponse" message="tns:PerformTasksAfterCustomObjectTableDeletedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterClosedTicketsUsage">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RegisterClosedTicketsUsage" name="RegisterClosedTicketsUsageRequest" message="tns:RegisterClosedTicketsUsageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RegisterClosedTicketsUsageResponse" name="RegisterClosedTicketsUsageResponse" message="tns:RegisterClosedTicketsUsageResponse" />
     </wsdl:operation>
     <wsdl:operation name="AddWebAppUsage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/AddWebAppUsage" name="AddWebAppUsageRequest" message="tns:AddWebAppUsageRequest" />
@@ -1822,6 +1861,22 @@ content_type: reference
         <soap:header message="tns:PerformTasksAfterCustomObjectTableDeletedResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:PerformTasksAfterCustomObjectTableDeletedResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:PerformTasksAfterCustomObjectTableDeletedResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterClosedTicketsUsage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/RegisterClosedTicketsUsage" style="document" />
+      <wsdl:input name="RegisterClosedTicketsUsageRequest">
+        <soap:header message="tns:RegisterClosedTicketsUsageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:RegisterClosedTicketsUsageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:RegisterClosedTicketsUsageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RegisterClosedTicketsUsageResponse">
+        <soap:header message="tns:RegisterClosedTicketsUsageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:RegisterClosedTicketsUsageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:RegisterClosedTicketsUsageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:RegisterClosedTicketsUsageResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

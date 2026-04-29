@@ -86,6 +86,8 @@ content_type: reference
 
 * [POST Agents/AI/AnswerAccepted](v1AIAgent_AnswerAccepted.md)
 
+* [POST Agents/AI/AnswerUsingContext](v1AIAgent_AnswerUsingContext.md)
+
 * [POST Agents/AI/Search](v1AIAgent_Search.md)
 
 * [POST Agents/AI/StartRagIndexing](v1AIAgent_StartRagIndexing.md)

@@ -962,6 +962,7 @@ content_type: reference
           <xs:enumeration value="Postponed" />
           <xs:enumeration value="Deleted" />
           <xs:enumeration value="Merged" />
+          <xs:enumeration value="Spam" />
           <xs:enumeration value="PostponedSpecific">
             <xs:annotation>
               <xs:appinfo>

@@ -40,6 +40,10 @@ content_type: reference
 
 * [POST Agents/Preference/SetXsrfPaths](v1PreferenceAgent_SetXsrfPaths.md)
 
+* [POST Agents/Preference/GetXsrfValue](v1PreferenceAgent_GetXsrfValue.md)
+
+* [POST Agents/Preference/SetXsrfValue](v1PreferenceAgent_SetXsrfValue.md)
+
 * [POST Agents/Preference/CreateDefaultPreferenceDescription](v1PreferenceAgent_CreateDefaultPreferenceDescription.md)
 
 * [POST Agents/Preference/SavePreferenceDescription](v1PreferenceAgent_SavePreferenceDescription.md)

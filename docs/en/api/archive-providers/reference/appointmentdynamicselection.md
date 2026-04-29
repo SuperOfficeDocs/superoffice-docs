@@ -755,7 +755,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelection?$select=contact/contactDeleted,contact/contactAssociate/isActiveText,contact/contactExtra/x_contact_time,contact/saintActivityType,sale/registeredByFullName
+GET /api/v1/archive/AppointmentDynamicSelection?$select=visibleFor,person/searchPhone/description,project/LastActivity,sale/date,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

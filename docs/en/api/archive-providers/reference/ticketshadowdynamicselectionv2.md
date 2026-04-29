@@ -797,7 +797,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=ticketStatusId,messageLanguage,person/updatedByWorkflow,person/restrictionAddress/state,person/personAssociate/lastName
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=person/personCategoryGroup,person/personAssociate/simultaneousEjUser,sale/associate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

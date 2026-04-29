@@ -50,5 +50,6 @@ Download [WSDL file for Services88/Contact](../Services88-Contact.md) if you nee
 * [SaveQuoteVersionAddress](SaveQuoteVersionAddress.md)
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [Undelete](Undelete.md)
+* [UpdateInterests](UpdateInterests.md)
 * [ValidateContactEntity](ValidateContactEntity.md)
 

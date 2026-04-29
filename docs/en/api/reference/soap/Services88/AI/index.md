@@ -20,6 +20,7 @@ Download [WSDL file for Services88/AI](../Services88-AI.md) if you need to gener
 * [Answer](Answer.md)
 * [AnswerAccepted](AnswerAccepted.md)
 * [AnswerFeedback](AnswerFeedback.md)
+* [AnswerUsingContext](AnswerUsingContext.md)
 * [CancelIndexing](CancelIndexing.md)
 * [ClearChatbotTurns](ClearChatbotTurns.md)
 * [CreateDefaultCopilotDataSourceEntity](CreateDefaultCopilotDataSourceEntity.md)

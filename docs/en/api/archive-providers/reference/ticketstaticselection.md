@@ -800,7 +800,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelection?$select=suggestedCategory,person/leadstatusRank,person/personExtra/x_person_time
+GET /api/v1/archive/TicketStaticSelection?$select=createdBy/contactCategory,contact/searchPhone/description,contact/restrictionAddress/addressId,sale/amountWeighted,project/projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
