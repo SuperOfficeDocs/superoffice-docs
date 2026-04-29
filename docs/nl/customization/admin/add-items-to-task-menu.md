@@ -60,7 +60,7 @@ Als u een URL-adres toevoegt, kan het handig zijn meerdere sjabloonvariabelen te
 [3]: ../../admin/lists/specialized-lists.md
 [4]: ../web-panels/admin/url-encoding.md
 [5]: ../macros-and-scripts/admin/index.md
-[6]: ../../../en/customization/soprotocol/index.md
+[6]: https://docs.superoffice.com/en/customization/soprotocol/index.html
 [7]: ../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->

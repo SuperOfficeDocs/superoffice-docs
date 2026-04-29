@@ -89,6 +89,6 @@ Web panels dynamically load content based on CRM context and the URL defined for
 
 <!-- Referenced links -->
 [1]: add-web-panel.md
-[2]: ../../../../en/customization/web-panels/dev/index.md
+[2]: https://docs.superoffice.com/en/customization/web-panels/dev/index.html
 
 <!-- Referenced images -->

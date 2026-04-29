@@ -61,5 +61,5 @@ Hvis du ikke har licens til konfigurerbare skærme, skal du bruge rangen af de f
 [2]: extra-field.md
 [3]: extra-table.md
 [5]: ../../customization/screen-designer/admin/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
+[6]: https://docs.superoffice.com/en/ui/blogic/custom-screens/index.html
 [12]: more-tab.md

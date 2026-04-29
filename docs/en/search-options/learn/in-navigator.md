@@ -38,7 +38,7 @@ The Navigator FastSearcher runs two parallel searches:
 
 <!-- Referenced links -->
 [1]: ../../learn/basics/history.md
-[2]: ../../../en/api/osql/soundx.md
+[2]: https://docs.superoffice.com/en/api/osql/soundx.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png

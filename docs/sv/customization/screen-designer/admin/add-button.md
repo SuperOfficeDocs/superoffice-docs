@@ -137,7 +137,7 @@ Vissa inställningar beror på vilken åtgärd som valts.
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/from-company-card.md
 [2]: https://docs.superoffice.com/en/automation/crmscript/overview/index.html
-[3]: ../../../../en/customization/soprotocol/index.md
+[3]: https://docs.superoffice.com/en/customization/soprotocol/index.html
 [4]: edit-layout.md
 
 <!-- Referenced images -->

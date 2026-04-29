@@ -103,7 +103,7 @@ To adjust mobile-specific settings for a message, select a section in the messag
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
 [6]: ../mailing/admin/add-domain.md
-[7]: ../../../en/online/mail-services/mailgun/spf/index.md
+[7]: https://docs.superoffice.com/en/online/mail-services/mailgun/spf/index.html
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 

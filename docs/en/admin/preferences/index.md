@@ -134,6 +134,6 @@ You can sort the rows in the columns by clicking on the required column heading.
 [6]: ../../customer-center/admin/password-policy.md
 [8]: ../../diary/learn/video-meetings.md
 [9]: ../../document/library/learn/index.md
-[15]: ../../../en/online/mirroring/mirroring-task.md#options
+[15]: https://docs.superoffice.com/en/online/mirroring/mirroring-task.html#options
 
 <!-- Referenced images -->

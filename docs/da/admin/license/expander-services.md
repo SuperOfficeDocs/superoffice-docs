@@ -167,10 +167,10 @@ Når dine behov vokser, kan funktionaliteten i din CRM-løsning følge med.
 [3]: https://docs.superoffice.com/en/automation/trigger/create-trigger-macro.html
 [4]: ../../custom-objects/learn/extra-table.md
 [5]: ../../customization/screen-designer/admin/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
-[7]: ../../../en/online/sandbox/index.md
-[8]: ../../../en/online/identity/scim/index.yml
-[9]: ../../../en/online/mirroring/index.yml
+[6]: https://docs.superoffice.com/en/ui/blogic/custom-screens/index.html
+[7]: https://docs.superoffice.com/en/online/sandbox/index.html
+[8]: https://docs.superoffice.com/en/online/identity/scim/index.html
+[9]: https://docs.superoffice.com/en/online/mirroring/index.html
 [13]: https://docs.superoffice.com/en/developer-portal/getting-started/get-access-to-sod.html
 [16]: https://docs.superoffice.com/en/developer-portal/custom-app/index.html
 [17]: https://docs.superoffice.com/en/developer-portal/standard-app/index.html
