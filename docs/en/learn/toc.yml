@@ -55,8 +55,6 @@ items:
     href: ../lead/learn/toc.yml
     topicHref: ../lead/learn/index.md
 
-  - name: Mobile CRM
-    topicHref: ../mobile/index.md
 
   - name: Knowledge base
     href: ../knowledge-base/learn/toc.yml

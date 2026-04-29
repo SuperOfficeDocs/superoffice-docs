@@ -98,10 +98,10 @@ Når du klikker på et script eller en makro i fanen **Makro**, åbnes skærmbil
 <!-- Referenced links -->
 [2]: trigger.md
 [3]: schedule-task.md
-[4]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
-[5]: ../../../../en/automation/crmscript/debugging/using-trace.md
-[6]: ../../../../en/automation/crmscript/overview/index.md
-[7]: ../../../../en/automation/crmscript/reference/index.md
+[4]: https://docs.superoffice.com/en/automation/crmscript/debugging/built-in-debugger.html
+[5]: https://docs.superoffice.com/en/automation/crmscript/debugging/using-trace.html
+[6]: https://docs.superoffice.com/en/automation/crmscript/overview/index.html
+[7]: https://docs.superoffice.com/en/automation/crmscript/reference/index.html
 [8]: create-script.md
 [9]: create-macro.md
 [10]: create-script.md#folder

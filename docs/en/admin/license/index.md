@@ -190,9 +190,9 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
-[13]: ../../../en/database/tables/LicenseAssocLink.md
+[11]: https://docs.superoffice.com/en/database/tables/ModuleOwner.html
+[12]: https://docs.superoffice.com/en/database/tables/ModuleLicense.html
+[13]: https://docs.superoffice.com/en/database/tables/LicenseAssocLink.html
 [14]: dev/module-licenses.md
 [15]: dev/hidden-licenses.md
 

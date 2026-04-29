@@ -49,12 +49,12 @@ Door [extra tabellen en velden toe te voegen][1] aan SuperOffice kunt u een vers
 
 <!-- Referenced links -->
 [1]: ../../../custom-objects/learn/extra-table.md
-[2]: ../../../../en/automation/crmscript/overview/index.md
+[2]: https://docs.superoffice.com/en/automation/crmscript/overview/index.html
 [3]: ../../../customization/macros-and-scripts/admin/index.md
 [4]: ../../../customization/macros-and-scripts/admin/trigger.md
 [5]: ../../../customization/macros-and-scripts/admin/schedule-task.md
-[6]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
-[7]: ../../../../en/automation/crmscript/debugging/using-trace.md
+[6]: https://docs.superoffice.com/en/automation/crmscript/debugging/built-in-debugger.html
+[7]: https://docs.superoffice.com/en/automation/crmscript/debugging/using-trace.html
 [8]: screen-properties.md
 [9]: screen-chooser.md
 [11]: extra-menus/index.md

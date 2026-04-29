@@ -145,8 +145,8 @@ Når du installerer WebTools, blir e-post og dokumenter integrert i SuperOffice.
 [7]: ../document/templates/learn/index.md
 [8]: ../security/privacy/admin/index.md
 [9]: preferences/index.md
-[12]: ../../../integrations/webtools/install.md
-[13]: ../../../integrations/webtools/index.md
+[12]: https://docs.superoffice.com/integrations/webtools/install.html
+[13]: https://docs.superoffice.com/integrations/webtools/index.html
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/admin/project-guide.png

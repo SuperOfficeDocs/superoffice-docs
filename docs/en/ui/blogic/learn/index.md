@@ -49,7 +49,7 @@ By [adding extra tables and fields][1] to SuperOffice you can save a variety of 
 
 <!-- Referenced links -->
 [1]: ../../../custom-objects/admin/create-extra-field.md
-[2]: ../../../../en/automation/crmscript/overview/index.md
+[2]: https://docs.superoffice.com/en/automation/crmscript/overview/index.html
 [3]: ../../../customization/macros-and-scripts/admin/index.md
 [4]: ../../../customization/macros-and-scripts/admin/trigger.md
 [5]: ../../../customization/macros-and-scripts/admin/schedule-task.md

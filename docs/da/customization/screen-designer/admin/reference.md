@@ -325,12 +325,12 @@ For detaljer om værdien af hvert felt, se [databasereferencen][23].
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
-[2]: ../../../../en/database/tables/contact.md
-[3]: ../../../../en/database/tables/person.md
-[4]: ../../../../en/database/tables/sale.md
-[5]: ../../../../en/database/tables/project.md
-[6]: ../../../../en/database/tables/ticket.md
-[7]: ../../../../en/database/tables/appointment.md
+[2]: https://docs.superoffice.com/en/database/tables/contact.html
+[3]: https://docs.superoffice.com/en/database/tables/person.html
+[4]: https://docs.superoffice.com/en/database/tables/sale.html
+[5]: https://docs.superoffice.com/en/database/tables/project.html
+[6]: https://docs.superoffice.com/en/database/tables/ticket.html
+[7]: https://docs.superoffice.com/en/database/tables/appointment.html
 [11]: ../../../../en/sale/dev/index.md
 [10]: ../../../../en/project/dev/index.md
 [13]: ../../../request/admin/type/index.md
@@ -342,5 +342,5 @@ For detaljer om værdien af hvert felt, se [databasereferencen][23].
 [20]: ../../../../en/api/localization/address/index.md
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
-[23]: ../../../../en/database/tables/document.md
+[23]: https://docs.superoffice.com/en/database/tables/document.html
 [24]: ../../../marketing/utm/learn/index.md

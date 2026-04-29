@@ -117,8 +117,8 @@ Prefix säkerställer att det du skapar inte kommer i konflikt med framtida Supe
 [2]: ../admin/create-extra-table.md
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
-[5]: ../../../en/automation/trigger/create-trigger-script.md
-[6]: ../../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesLoadCustomObject
+[5]: https://docs.superoffice.com/en/automation/trigger/create-trigger-script.html
+[6]: https://docs.superoffice.com/en/automation/trigger/reference/CRMScript.Event.Trigger.html#CRMScript_Event_Trigger_SalesLoadCustomObject
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/automation/custom-object-dashboard.png

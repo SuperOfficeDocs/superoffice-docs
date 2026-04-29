@@ -163,18 +163,18 @@ Wenn Ihre Anforderungen wachsen, kann sich Ihre CRM-Lösung mitentwickeln.
 
 <!-- Referenced links -->
 [1]: user-plans.md
-[2]: ../../../en/automation/crmscript/overview/index.md
-[3]: ../../../en/automation/trigger/create-trigger-macro.md
+[2]: https://docs.superoffice.com/en/automation/crmscript/overview/index.html
+[3]: https://docs.superoffice.com/en/automation/trigger/create-trigger-macro.html
 [4]: ../../custom-objects/learn/extra-table.md
 [5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [7]: ../../../en/online/sandbox/index.md
 [8]: ../../../en/online/identity/scim/index.yml
 [9]: ../../../en/online/mirroring/index.yml
-[13]: ../../../en/developer-portal/getting-started/get-access-to-sod.md
-[16]: ../../../en/developer-portal/custom-app/index.md
-[17]: ../../../en/developer-portal/standard-app/index.md
-[19]: ../../../en/developer-portal/getting-started/index.md#tenant
+[13]: https://docs.superoffice.com/en/developer-portal/getting-started/get-access-to-sod.html
+[16]: https://docs.superoffice.com/en/developer-portal/custom-app/index.html
+[17]: https://docs.superoffice.com/en/developer-portal/standard-app/index.html
+[19]: https://docs.superoffice.com/en/developer-portal/getting-started/index.html#tenant
 [20]: https://www.superoffice.com/pricing/
 [21]: https://online.superoffice.com/appstore/
 [22]: https://www.nuget.org/profiles/SuperOffice

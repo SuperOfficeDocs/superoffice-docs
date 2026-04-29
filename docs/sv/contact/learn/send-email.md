@@ -59,7 +59,7 @@ Du kan skicka e-post till kontakter från både fönstret **Kontakt** och fönst
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md#fields
 [2]: ../../email/inbox/learn/archive.md
-[3]: ../../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+[3]: https://docs.superoffice.com/integrations/superoffice-for-outlook/save-to-superoffice.html
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/contact/send-email.png

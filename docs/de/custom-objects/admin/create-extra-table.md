@@ -70,7 +70,7 @@ In SuperOffice können Sie Web-Bildschirme erstellen, die Tabelleninformationen 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../en/automation/webhook/overview.md
+[2]: https://docs.superoffice.com/en/automation/webhook/overview.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

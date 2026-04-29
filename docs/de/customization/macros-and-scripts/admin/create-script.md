@@ -81,8 +81,8 @@ Wenn Sie einen Ordner löschen, wird der gesamte Inhalt (wie Selektionen, FAQ-Ei
 * [Skripts verfolgen][3]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/index.yml
-[2]: ../../../../en/automation/crmscript/debugging/built-in-debugger.md
-[3]: ../../../../en/automation/crmscript/debugging/using-trace.md
+[1]: https://docs.superoffice.com/en/automation/index.html
+[2]: https://docs.superoffice.com/en/automation/crmscript/debugging/built-in-debugger.html
+[3]: https://docs.superoffice.com/en/automation/crmscript/debugging/using-trace.html
 
 <!-- Referenced images -->

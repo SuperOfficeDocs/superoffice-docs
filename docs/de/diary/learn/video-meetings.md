@@ -99,14 +99,14 @@ Klicken Sie auf den Besprechung in Ihrem SuperOffice-Kalender, um dessen Details
 Um über die Anzeige Vorschau an der Videokonferenz teilzunehmen, müssen Sie nur auf die Schaltfläche **An Konferenz teilnehmen** klicken. Nachdem Sie sie angeklickt haben, wird die Videokonferenz automatisch gestartet.
 
 <!-- Referenced links -->
-[1]: ../../../../integrations/video-meetings/howto/connect-provider.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/howto/connect-provider.html
 [2]: invitation/add-attendee.md
-[3]: ../../../../integrations/video-meetings/index.md
-[4]: ../../../../integrations/video-meetings/zoom/index.md
-[5]: ../../../../integrations/video-meetings/ms-teams/index.md
-[6]: ../../../../integrations/video-meetings/google-meet/index.md
-[7]: ../../../../integrations/video-meetings/webex/index.md
-[8]: ../../../../integrations/video-meetings/jitsi/index.md
+[3]: https://docs.superoffice.com/integrations/video-meetings/index.html
+[4]: https://docs.superoffice.com/integrations/video-meetings/zoom/index.html
+[5]: https://docs.superoffice.com/integrations/video-meetings/ms-teams/index.html
+[6]: https://docs.superoffice.com/integrations/video-meetings/google-meet/index.html
+[7]: https://docs.superoffice.com/integrations/video-meetings/webex/index.html
+[8]: https://docs.superoffice.com/integrations/video-meetings/jitsi/index.html
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

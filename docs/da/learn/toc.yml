@@ -55,8 +55,6 @@ items:
     href: ../lead/learn/toc.yml
     topicHref: ../lead/learn/index.md
 
-  - name: Mobile CRM
-    href: ../mobile/index.md
 
   - name: Vidensbase
     href: ../knowledge-base/learn/toc.yml

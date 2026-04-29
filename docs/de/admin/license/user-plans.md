@@ -197,4 +197,4 @@ Diese Flexibilität sollten Sie bei der Integration und Preisgestaltung berücks
 [5]: expander-services.md
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
-[8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[8]: https://docs.superoffice.com/release-notes/9.2/cep/9.2-R01-update.html

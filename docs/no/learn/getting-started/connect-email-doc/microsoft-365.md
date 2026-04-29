@@ -47,4 +47,4 @@ Velg et av følgende alternativer:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[3]: ../../../../../integrations/sharepoint-documents/set-up.md
+[3]: https://docs.superoffice.com/integrations/sharepoint-documents/set-up.html

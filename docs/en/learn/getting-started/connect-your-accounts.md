@@ -86,11 +86,11 @@ Synchronizing your calendar is not part of the wizard. If you want to keep appoi
 <!-- Referenced links -->
 [1]: connect-email-doc/index.md
 [2]: ../../email/inbox/learn/setup.md
-[3]: ../../../../integrations/superoffice-for-outlook/index.md
-[4]: ../../../../integrations/gmail-link/index.md
-[5]: ../../../../integrations/sharepoint-documents/set-up.md
-[6]: ../../../../integrations/g-suite/index.md
-[7]: ../../../../integrations/webtools/install.md
+[3]: https://docs.superoffice.com/integrations/superoffice-for-outlook/index.html
+[4]: https://docs.superoffice.com/integrations/gmail-link/index.html
+[5]: https://docs.superoffice.com/integrations/sharepoint-documents/set-up.html
+[6]: https://docs.superoffice.com/integrations/g-suite/index.html
+[7]: https://docs.superoffice.com/integrations/webtools/install.html
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 
 <!-- Referenced images -->

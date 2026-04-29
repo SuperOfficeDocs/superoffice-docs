@@ -158,8 +158,8 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 [4]: send-as-email.md
 [5]: ../templates/learn/index.md
 [6]: ../templates/admin/link-template.md
-[7]: ../../../../integrations/webtools/install.md
-[8]: ../../../../integrations/mail-link/archive.md
+[7]: https://docs.superoffice.com/integrations/webtools/install.html
+[8]: https://docs.superoffice.com/integrations/mail-link/archive.html
 [9]: ../../learn/basics/links.md
 [10]: ../../custom-objects/learn/udef.md
 

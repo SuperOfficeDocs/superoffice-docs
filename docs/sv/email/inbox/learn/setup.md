@@ -108,7 +108,7 @@ Du kan koppla bort det aktuella e-postkontot och valfritt ansluta ett nytt konto
 <!-- Referenced links -->
 [1]: ../../../contact/learn/index.md
 [8]: ../../learn/change-default-mail-client.md
-[9]: ../../../../../integrations/webtools/index.md
+[9]: https://docs.superoffice.com/integrations/webtools/index.html
 [11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
 [12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 

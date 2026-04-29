@@ -68,4 +68,4 @@ Klicken Sie in der Liste auf eine Aufgabe, um deren Eigenschaften zu bearbeiten,
 * [Beste Praktiken für CRMScript][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
+[1]: https://docs.superoffice.com/en/automation/crmscript/code-quality/best-practices.html

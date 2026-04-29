@@ -81,8 +81,8 @@ SAINT **values** are simple binary values (on or off) that determine the look an
 [5]: counter-settings.md
 [7]: update.md
 [8]: update.md#regen
-[13]: ../../../en/database/tables/countervalue.md
-[14]: ../../../en/database/tables/statusvalue.md
+[13]: https://docs.superoffice.com/en/database/tables/countervalue.html
+[14]: https://docs.superoffice.com/en/database/tables/statusvalue.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

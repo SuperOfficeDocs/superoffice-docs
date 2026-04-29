@@ -99,14 +99,14 @@ Klik op de Vergadering in uw SuperOffice-agendaom de details ervan te bekijken i
 Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon op de knop **Deelnemen aan vergadering**. Nadat u erop hebt geklikt, wordt uw videovergadering automatisch gestart.
 
 <!-- Referenced links -->
-[1]: ../../../../integrations/video-meetings/howto/connect-provider.md
+[1]: https://docs.superoffice.com/integrations/video-meetings/howto/connect-provider.html
 [2]: invitation/add-attendee.md
-[3]: ../../../../integrations/video-meetings/index.md
-[4]: ../../../../integrations/video-meetings/zoom/index.md
-[5]: ../../../../integrations/video-meetings/ms-teams/index.md
-[6]: ../../../../integrations/video-meetings/google-meet/index.md
-[7]: ../../../../integrations/video-meetings/webex/index.md
-[8]: ../../../../integrations/video-meetings/jitsi/index.md
+[3]: https://docs.superoffice.com/integrations/video-meetings/index.html
+[4]: https://docs.superoffice.com/integrations/video-meetings/zoom/index.html
+[5]: https://docs.superoffice.com/integrations/video-meetings/ms-teams/index.html
+[6]: https://docs.superoffice.com/integrations/video-meetings/google-meet/index.html
+[7]: https://docs.superoffice.com/integrations/video-meetings/webex/index.html
+[8]: https://docs.superoffice.com/integrations/video-meetings/jitsi/index.html
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png
