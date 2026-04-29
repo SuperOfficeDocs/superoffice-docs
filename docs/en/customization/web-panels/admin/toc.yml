@@ -5,8 +5,3 @@ items:
   href: add-web-panel.md
 - name: Url encoding
   href: url-encoding.md
-- name: For consultants
-  topicHref: ../dev/index.md
-  items:
-  - name: Link to and pass data
-    href: ../dev/index.md

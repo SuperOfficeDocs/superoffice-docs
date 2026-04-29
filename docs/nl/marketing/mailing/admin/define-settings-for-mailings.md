@@ -57,6 +57,6 @@ Als u de instellingen wilt testen, voert u een mobiel telefoonnummer en een will
 Zie [SMS][1] voor informatie over extra modules.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/sms/it/set-up.md
+[1]: https://docs.superoffice.com/en/marketing/sms/it/set-up.html
 
 <!-- Referenced images -->

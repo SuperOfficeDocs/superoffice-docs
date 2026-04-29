@@ -57,6 +57,6 @@ Hvis du vil teste indstillingerne, skal du angive et mobiltelefonnummer og noget
 For information om yderligere moduler, se [SMS.][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/sms/it/set-up.md
+[1]: https://docs.superoffice.com/en/marketing/sms/it/set-up.html
 
 <!-- Referenced images -->

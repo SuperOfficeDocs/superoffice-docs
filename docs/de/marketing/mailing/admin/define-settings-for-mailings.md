@@ -57,6 +57,6 @@ Zum Testen der Einstellungen geben Sie eine Mobilfunknummer und etwas Text ein u
 Informationen über zusätzliche Module finden Sie unter [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/sms/it/set-up.md
+[1]: https://docs.superoffice.com/en/marketing/sms/it/set-up.html
 
 <!-- Referenced images -->
