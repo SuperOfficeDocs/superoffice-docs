@@ -12,14 +12,6 @@ items:
 - name: Options
   href: ../options/toc.yml
   topicHref: ../options/index.md
-- name: User preferences
-  topicHref: ../user-preferences/index.md
-  items:
-  - name: Introduction
-    href: ../user-preferences/index.md
-  - name: Reference
-    href: ../user-preferences/reference/toc.yml
-    topicHref: ../user-preferences/reference/appointment-dialog.md
 - name: Lists
   href: ../lists/toc.yml
   topicHref: ../lists/index.md
