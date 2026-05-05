@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-form-create
 title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
@@ -139,6 +139,14 @@ För full kontroll över hur ditt formulär ser ut kan du skriva CSS i fältet *
 * **För erfarna användare:** Skriv eller klistra in din CSS-kod direkt i fältet.
 * **För mindre avancerade användare:** Välj en CSS-klass från listan och lägg till din kod. Det här tillvägagångssättet gör styling mindre överväldigande och ger dig bättre kontroll över vad du ändrar.
 
+Om [AI Lab][11] är aktiverat för din organisation kan du automatiskt extrahera CSS från en befintlig webbplats i stället för att skriva det manuellt.
+
+![Formulärredigerare - extrahera stilar med AI -screenshot][img17]
+
+1. Ange URL-adressen till webbsidan vars stil du vill tillämpa.
+1. Välj **Extrahera stilar med AI**. Den extraherade CSS-koden infogas i fältet.
+1. Granska och justera den genererade CSS-koden efter behov.
+
 Följande CSS-klasser är tillgängliga:
 
 [!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
@@ -207,7 +215,9 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

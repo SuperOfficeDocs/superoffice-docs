@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-form-create
 title: Ein neues Formular erstellen
 description: In dieser Anleitung lernen Sie, wie Sie ein Web-Formular erstellen können.
@@ -139,6 +139,14 @@ Für die vollständige Kontrolle über das Aussehen Ihres Formulars können Sie 
 * **Für erfahrene Benutzer:** Geben Sie Ihren CSS-Code direkt in das Feld ein oder fügen Sie ihn ein.
 * **Für weniger erfahrene Benutzer:** Wählen Sie eine CSS-Klasse aus der Liste aus und fügen Sie Ihren Code hinzu. Dieser Ansatz macht das Styling weniger überwältigend und gibt Ihnen bessere Kontrolle darüber, was Sie ändern.
 
+Wenn [AI Lab][11] für Ihre Organisation aktiviert ist, können Sie CSS automatisch von einer vorhandenen Website extrahieren, anstatt es manuell zu schreiben.
+
+![Formular-Editor - Stile mit AI extrahieren -screenshot][img17]
+
+1. Geben Sie die URL der Webseite ein, deren Stil Sie anwenden möchten.
+1. Wählen Sie **Stile mit AI extrahieren**. Das extrahierte CSS wird in das Feld eingefügt.
+1. Überprüfen und passen Sie das generierte CSS nach Bedarf an.
+
 Folgende CSS-Klassen sind verfügbar:
 
 [!include[CSS-Klassen](../../../../../common/includes/list-of-form-css-classes.md)]
@@ -207,7 +215,9 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

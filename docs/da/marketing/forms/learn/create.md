@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-form-create
 title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
@@ -139,6 +139,14 @@ For fuld kontrol over, hvordan din formular ser ud, kan du skrive CSS i feltet *
 * **For erfarne brugere:** Skriv eller indsæt din CSS-kode direkte i feltet.
 * **For mindre avancerede brugere:** Vælg en CSS-klasse fra listen, og tilføj din kode. Denne fremgangsmåde gør styling mindre overvældende og giver dig bedre kontrol over, hvad du ændrer.
 
+Hvis din organisation har [AI Lab][11] aktiveret, kan du automatisk udtrække CSS fra et eksisterende websted i stedet for at skrive det manuelt.
+
+![Formularredigering - udtræk stilarter med AI -screenshot][img17]
+
+1. Indtast URL-adressen på den webside, hvis styling du vil anvende.
+1. Vælg **Udtræk stilarter med AI**. Den udtrukne CSS indsættes i feltet.
+1. Gennemse og juster den genererede CSS efter behov.
+
 Følgende CSS-klasser er tilgængelige:
 
 [!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
@@ -207,7 +215,9 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

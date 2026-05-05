@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-form-create
 title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
@@ -139,6 +139,14 @@ For full kontroll over hvordan skjemaet ditt ser ut, kan du skrive CSS i feltet 
 * **For erfarne brukere:** Skriv eller lim inn CSS-koden direkte i feltet.
 * **For mindre avanserte brukere:** Velg en CSS-klasse fra listen, og legg til koden din. Denne fremgangsmåten gjør styling mindre overveldende og gir deg bedre kontroll over hva du endrer.
 
+Hvis [AI Lab][11] er aktivert for organisasjonen din, kan du automatisk hente ut CSS fra et eksisterende nettsted i stedet for å skrive det manuelt.
+
+![Skjemaredigering - hent stiler med AI -screenshot][img17]
+
+1. Skriv inn URL-en til nettsiden du vil hente stilen fra.
+1. Velg **Hent stiler med AI**. Den hentede CSS settes inn i feltet.
+1. Se gjennom og juster den genererte CSS etter behov.
+
 Følgende CSS-klasser er tilgjengelige:
 
 [!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
@@ -207,7 +215,9 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png
