@@ -21,7 +21,16 @@ Document templates are installed when creating new and upgrading current install
 
 *CrmSetup* and *CrmTask* are commandline tools - argument files can be made and reused to make the work easier, just copy them into the CrmSetup folder. You can <a href="../../../../assets/downloads/so11config_example_argument_files.zip" download>download example argument files</a>. The first commented-out line in the example file has the full command for copy-paste into cmd. Remember to change all necessary values.
 
-You can also use <a href="../../../../assets/downloads/so11config_generators.zip" download>HTML-based argument generators</a>. The zip file contains two HTML files, each for one utility. Just unzip them and run locally.
+## Online argument generators
+
+The HTML-based argument generators are also available online – no download required:
+
+- [CrmSetup argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmsetup.html)
+- [CrmTask argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmtask.html)
+
+Open the link, fill in your values, and copy the generated argument file content directly - or generate argument files for the command line tool.
+
+You can also use <a href="../../../../assets/downloads/so11config_generators.zip" download><a href="../../../../assets/downloads/so11config_generators.zip" download>local HTML-based argument generators</a>. The zip file contains two HTML files, one for each utility. Just unzip them and run locally.
 
 ## CrmSetup
 
