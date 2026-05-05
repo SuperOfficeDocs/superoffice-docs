@@ -4,7 +4,7 @@ title: Save to SuperOffice
 description: Save to SuperOffice
 keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, send and archive, save attachment, SOFO
 author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
-date: 04.16.2026
+date: 05.05.2026
 version_sofo: 6.2.0
 content_type: howto
 category: integration
@@ -51,6 +51,22 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 ![SuperOffice for Outlook, archive email -screenshot][img1]
 
+## Archive email from a shared mailbox
+
+If you have access to a shared mailbox in Outlook, you can archive emails from that mailbox to SuperOffice in the same way as emails from your personal mailbox.
+
+> [!NOTE]
+> The shared mailbox must already be available to you in Outlook. Access to shared mailboxes is managed in Microsoft 365.
+
+1. Open the shared mailbox in Outlook.
+1. Select the email you want to archive.
+1. Open SuperOffice for Outlook.
+1. Choose the action you want to perform, such as archiving the email, saving attachments, creating a request, or adding the message to an existing request.
+1. Check the company, contact, sale, project, or request details.
+1. Choose whether to include attachments.
+1. Select whether to remove the email from the inbox after archiving, if this option is available.
+1. Select **Save**.
+
 ## Save attachments to SuperOffice
 
 You can also save email attachments directly to SuperOffice by following these steps:
@@ -89,6 +105,26 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 1. Fill in any missing information or make adjustments as needed.
 
 1. Click **Send** to both send the email and archive it to SuperOffice.
+
+## Send and archive from a shared mailbox
+
+You can compose a new email from a shared mailbox and archive it to SuperOffice while sending.
+
+Before sending, make sure the correct sender address is selected in the Outlook **From** field. If the **From** field is not visible, enable it in Outlook first. This is standard Outlook functionality.
+
+> [!TIP]
+> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+
+> [!CAUTION]
+> Always check the **From** address before sending from a shared mailbox.
+
+1. Select **New mail** in Outlook.
+1. Open and, if needed, pin SuperOffice for Outlook.
+1. In Outlook, select the shared mailbox address in the **From** field.
+1. Add recipients and write the email.
+1. In SuperOffice for Outlook, keep **Archive email in SuperOffice** turned on if the email should be archived.
+1. Check or adjust the SuperOffice fields.
+1. Select **Send**.
 
 <!-- Referenced links -->
 [1]: get.md#open
