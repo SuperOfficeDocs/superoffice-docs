@@ -3,9 +3,9 @@ uid: eol
 title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
-author: Bergfrid Dias
-date: 01.13.2026
-version: 11.8
+author: digitaldiina
+date: 05.05.2026
+version: 11.13
 content_type: release-note
 language: en
 ---
@@ -24,22 +24,22 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| [SuperOffice Service CompactMode][16] | Approaching end-of-life | January 13, 2026 (11.8) | Switch to [SuperOffice Mobile CRM][17]. |
-| [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Approaching end-of-life | September 1, 2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
+| [SuperOffice Service CompactMode][16] | No longer supported | January 13, 2026 (11.8) | Switch to [SuperOffice Mobile CRM][17]. |
 | [Pagebuilder][12] | No longer supported | The last supported version is 10.2.9 | Switch to [Screen Designer][22]. |
-| [Reporter Studio and reports][15] | Approaching end-of-life | December 4, 2024 | Switch to [dashboards][26] and [selections][27]. |
 
 ## Upcoming end-of-life notices
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
-| [SOAP proxy client and web service endpoints][13] | Phase-out initiated | Version 12 | Switch to [SuperOffice.WebApi][23] (REST). |
+| [SOAP proxy client and web service endpoints][13] | Phase-out initiated | Version 13 | Switch to [SuperOffice.WebApi][23] (REST). |
 | Exchange Online Synchronizer (onsite) | Phase-out initiated | Version 3.x | Switch to [Synchronizer for SuperOffice][6] (REST). |
 
 ## Archived end-of-life notices
 
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
+| [Reporter Studio and reports][15] | Deprecated | Not supported from December 4, 2024 | Switch to [dashboards][26] and [selections][27]. |
+| [Microsoft 365 Document Integration (Sharepoint v1.0)][14] | Deprecated | Not supported from September 1, 2024 | Switch to [Super ID][24] and [SharePoint Documents][25]. |
 | [Lotus Notes Link][11] | Deprecated | Not supported from January 1, 2024 | Switch to [SuperOffice Inbox][21]. |
 | Pagebuilder extensibility | Deprecated | Not supported on SuperOffice 10.x and newer. | [WebCustomizations breaking changes][5] |
 | SOAP interface of SuperOffice Service | Deprecated | Not supported in SuperOffice Online version 10.x and newer. | Switch to [SuperOffice.WebApi][23] (REST). |

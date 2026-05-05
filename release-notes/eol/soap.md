@@ -4,7 +4,7 @@ title: End of life - Future of SuperOffice.NetServer.Services package and SOAP w
 description: An important update regarding our SOAP support (SuperOffice.NetServer.Services package and SOAP web services)
 keywords: SuperOffice.NetServer.Services, SOAP, EOL
 author: Tony Yates
-date: 12.13.2023
+date: 05.05.2026
 content_type: release-note
 deployment: onsite
 language: en
@@ -34,7 +34,7 @@ We are pleased to inform you that all SuperOffice applications have either compl
 
 ## Eliminating SOAP support
 
-As part of our ongoing efforts, we have a strong **desire to completely eliminate our SOAP offering when SuperOffice reaches version 12**. While we acknowledge that this transition may not be immediate for all partners and integration customers, it represents our vision for the future of our platform where we would like to offer services in alignment with current trends.
+As part of our ongoing efforts, we have a strong **desire to completely eliminate our SOAP offering when SuperOffice reaches version 13**. While we acknowledge that this transition may not be immediate for all partners and integration customers, it represents our vision for the future of our platform where we would like to offer services in alignment with current trends.
 
 Your input and feedback are of great importance to us, and we believe in fostering a collaborative environment where your insights help shape our decisions. We understand that change can be challenging, and we are committed to supporting you throughout this transition.
 
