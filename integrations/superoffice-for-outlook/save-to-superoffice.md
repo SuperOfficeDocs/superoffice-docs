@@ -55,6 +55,9 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 If you have access to a shared mailbox in Outlook, you can archive emails from that mailbox to SuperOffice in the same way as emails from your personal mailbox.
 
+> [!IMPORTANT]
+> The first time you use SuperOffice for Outlook with a shared mailbox, you may be asked to approve additional Microsoft permissions. If you do not have sufficient rights to approve these yourself, contact your Microsoft 365 administrator. See [SuperOffice for Outlook: Authorisation guide](https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/) for details.
+
 > [!NOTE]
 > The shared mailbox must already be available to you in Outlook. Access to shared mailboxes is managed in Microsoft 365.
 
