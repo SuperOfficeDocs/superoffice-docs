@@ -4,8 +4,8 @@ title: Centralized deployment
 description: How to deploy SuperOffice for Outlook through the Microsoft 365 Admin Center or PowerShell.
 keywords: SuperOffice for Outlook, Outlook, email, deploy, add-in, PowerShell, Microsoft 365 Admin Center, SOFO
 author: Frode B, Martin Pavlas
-date: 03.14.2025
-version_sofo: 2024.8.12
+date: 05.05.2026
+version_sofo: 6.2.0
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
@@ -31,6 +31,24 @@ You can perform centralized deployment through the Microsoft 365 Admin Center.
 
 To deploy SuperOffice for Outlook using the Microsoft 365 admin center, see [Microsoft's documentation][3].
 
+## Approve shared mailbox permissions for users
+
+Shared mailbox support requires additional Microsoft 365 permissions. A Microsoft 365 Global Administrator must grant consent for the add-in before users can access shared mailbox features.
+
+Consent can be granted in three ways:
+
+* Using a generic authorisation URL (recommended - can be done before users encounter any prompts)
+* Using a URL that a user copies from the permission dialog they encounter
+* Directly from the add-in in Outlook, using a Global Administrator account
+
+If a user does not have admin rights, they can select "Return to the application without granting consent" in the dialog, then copy a link to share with their Microsoft 365 Global Administrator.
+
+> [!NOTE]
+> When an update to an add-in increases the scope of data access, Microsoft may require the update to be re-approved before it is deployed.
+
+For full step-by-step instructions, see [SuperOffice for Outlook: Authorisation guide][6].
+
 <!-- Referenced links -->
 [3]: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
 [5]: get.md
+[6]: https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/
