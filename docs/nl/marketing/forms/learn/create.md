@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-form-create
 title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
@@ -139,6 +139,14 @@ Voor volledige controle over hoe uw formulier eruitziet, kunt u CSS schrijven in
 * **Voor ervaren gebruikers:** Typ of plak uw CSS-code rechtstreeks in het veld.
 * **Voor minder gevorderde gebruikers:** Selecteer een CSS-klasse uit de lijst en voeg uw code toe. Deze aanpak maakt styling minder overweldigend en geeft u meer controle over wat u wijzigt.
 
+Als [AI Lab][11] is ingeschakeld voor uw organisatie, kunt u automatisch CSS extraheren uit een bestaande website in plaats van dit handmatig te schrijven.
+
+![Formulier-editor - stijlen extraheren met AI -screenshot][img17]
+
+1. Voer de URL in van de webpagina waarvan u de stijl wilt toepassen.
+1. Selecteer **Stijlen extraheren met AI**. De geëxtraheerde CSS wordt ingevoegd in het veld.
+1. Controleer en pas de gegenereerde CSS aan indien nodig.
+
 De volgende CSS-klassen zijn beschikbaar:
 
 [!include[CSS-klassen](../../../../../common/includes/list-of-form-css-classes.md)]
@@ -208,7 +216,9 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
 [10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png
