@@ -32,12 +32,12 @@ redirect_from:
 
 To archive information from an email in Outlook and save it to SuperOffice:
 
-1. Open or select the email you want to archive.
-
-1. [Open SuperOffice for Outlook][1] (if not pinned)​.
-
 > [!TIP]
 > You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+
+1. Open or select the email you want to archive.
+
+1. [Open SuperOffice for Outlook][1] (if not pinned).
 
 1. The SuperOffice sidebar will attempt to match the sender to a contact. If the email address is associated with multiple contacts in SuperOffice, you will be prompted to select the correct contact. The Company and Contact fields will then populate when you select your action.
 
@@ -45,12 +45,9 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 1. Make any necessary changes to the fields.
 
-1. By default, **Include attachments** is selected. Uncheck it if you want to archive the email without its attachments.
+1. If the email has attachments, a **Do not archive attachments** checkbox will appear. Check it if you want to archive the email without its attachments.
 
 1. Click **Save** to archive the email.
-
-> [!NOTE]
-> Attachments are included by default. Uncheck **Include attachments** only if you want to store the email body without the attached files.
 
 ![SuperOffice for Outlook, archive email -screenshot][img1]
 
@@ -64,14 +61,24 @@ If you have access to a shared mailbox in Outlook, you can archive emails from t
 > [!NOTE]
 > The shared mailbox must already be available to you in Outlook. Access to shared mailboxes is managed in Microsoft 365.
 
-1. Open the shared mailbox in Outlook.
-1. Select the email you want to archive.
-1. Open SuperOffice for Outlook.
-1. Choose the action you want to perform, such as archiving the email, saving attachments, creating a request, or adding the message to an existing request.
-1. Check the company, contact, sale, project, or request details.
-1. Choose whether to include attachments.
+1. Open the shared mailbox in Outlook and select the email you want to archive.
+
+1. [Open SuperOffice for Outlook][1] (if not pinned).
+
+1. The SuperOffice sidebar will attempt to match the sender to a contact. If the email address is associated with multiple contacts in SuperOffice, you will be prompted to select the correct contact. The Company and Contact fields will then populate when you select your action.
+
+1. Choose the appropriate action in the SuperOffice sidebar.
+
+1. Make any necessary changes to the fields.
+
+1. If the email has attachments, a **Do not archive attachments** checkbox will appear. Check it if you want to archive the email without its attachments.
+
 1. Select whether to remove the email from the inbox after archiving, if this option is available.
-1. Select **Save**.
+
+1. Click **Save** to archive the email.
+
+> [!TIP]
+> You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
 
 ## Save attachments to SuperOffice
 
@@ -94,12 +101,12 @@ You can also save email attachments directly to SuperOffice by following these s
 
 To send an email and automatically archive it to SuperOffice, follow these steps:
 
+> [!TIP]
+> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+
 1. Select **New mail** in Outlook.
 
 1. [Open SuperOffice for Outlook][1].
-
-> [!TIP]
-> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
 
 1. The **Archive email in SuperOffice** toggle is turned on by default. Turn it 
    off if you do not want this email archived in SuperOffice.
