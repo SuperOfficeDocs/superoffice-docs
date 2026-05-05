@@ -36,6 +36,9 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 1. [Open SuperOffice for Outlook][1] (if not pinned)​.
 
+> [!TIP]
+> You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+
 1. The SuperOffice sidebar will attempt to match the sender to a contact. If the email address is associated with multiple contacts in SuperOffice, you will be prompted to select the correct contact. The Company and Contact fields will then populate when you select your action.
 
 1. Choose the appropriate action in the SuperOffice sidebar.
@@ -94,6 +97,9 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 1. Select **New mail** in Outlook.
 
 1. [Open SuperOffice for Outlook][1].
+
+> [!TIP]
+> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
 
 1. The **Archive email in SuperOffice** toggle is turned on by default. Turn it 
    off if you do not want this email archived in SuperOffice.
