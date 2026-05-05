@@ -5,7 +5,7 @@ description: How to install SuperOffice for Outlook for your account (1 user).
 keywords: SuperOffice for Outlook, Outlook, email, get add-in, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
 date: 05.05.2026
-version_sofo: 6.2.0
+version_sofo: 6.3.0
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
