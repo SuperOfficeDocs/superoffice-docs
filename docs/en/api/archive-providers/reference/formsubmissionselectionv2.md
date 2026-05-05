@@ -492,7 +492,7 @@ This is the archive Provider for the Selection FormSubmission archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionV2?$select=contactId,person/personAddress/formattedMultiLineAddress,person/personAssociate/locationAddress,contact/contactAssociate/usergroup,contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/FormSubmissionSelectionV2?$select=person/restrictionAddress/zip,person/correspondingAssociate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -940,6 +940,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
   - SuperOffice.CRM.ArchiveLists.WebAppUsageWebAppUsageExtender
+  - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  - SuperOffice.CRM.ArchiveLists.WebhookProvider
+  - SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+  - SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+  - SuperOffice.CRM.ArchiveLists.WebhookWebhookExtender
+  - SuperOffice.CRM.ArchiveLists.WebhookWebhookUsageExtender
   - SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase.Features
@@ -4438,6 +4444,13 @@ references:
   name: WebAppUsageProvider
   nameWithType: WebAppUsageProvider
   fullName: SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
+- uid: SuperOffice.CRM.ArchiveLists.WebhookProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.WebhookProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookProvider.html
+  name: WebhookProvider
+  nameWithType: WebhookProvider
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookProvider
 - uid: SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.EmailFlowContentProvider
   isExternal: true
@@ -6738,6 +6751,50 @@ references:
   name: WebAppUsageExtenderBase
   nameWithType: WebAppUsageExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.html
+  name: WebhookExtenderBase
+  nameWithType: WebhookExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.html
+  name: WebhookUsageExtenderBase
+  nameWithType: WebhookUsageExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+  commentId: T:SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.html
+  name: WebhookUsageExtenderBase.WebhookDisplayStatus
+  nameWithType: WebhookUsageExtenderBase.WebhookDisplayStatus
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+    name: WebhookUsageExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+    name: WebhookDisplayStatus
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+    name: WebhookUsageExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+    name: WebhookDisplayStatus
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus.html
 - uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -8969,6 +9026,20 @@ references:
   name: WebAppUsageWebAppUsageExtender
   nameWithType: WebAppUsageWebAppUsageExtender
   fullName: SuperOffice.CRM.ArchiveLists.WebAppUsageWebAppUsageExtender
+- uid: SuperOffice.CRM.ArchiveLists.WebhookWebhookExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.WebhookWebhookExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookWebhookExtender.html
+  name: WebhookWebhookExtender
+  nameWithType: WebhookWebhookExtender
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookWebhookExtender
+- uid: SuperOffice.CRM.ArchiveLists.WebhookWebhookUsageExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.WebhookWebhookUsageExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookWebhookUsageExtender.html
+  name: WebhookWebhookUsageExtender
+  nameWithType: WebhookWebhookUsageExtender
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookWebhookUsageExtender
 - uid: SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
   isExternal: true

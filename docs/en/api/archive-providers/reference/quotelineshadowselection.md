@@ -781,7 +781,7 @@ Shadow contact provider for the quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelection?$select=alternative/version/extraField5,alternative/version/quote/sale/completed,alternative/version/quote/sale/credited,alternative/version/quote/sale/person/personAssociate/ejUserId,alternative/version/quote/sale/person/personAssociate/personEmail
+GET /api/v1/archive/QuoteLineShadowSelection?$select=alternative/version/deliveryTerms,alternative/version/quote/sale/person/kanaFirstName,alternative/version/quote/sale/person/correspondingAssociate/contactCategory,alternative/version/quote/sale/associate/personId,alternative/version/quote/sale/project/projectAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

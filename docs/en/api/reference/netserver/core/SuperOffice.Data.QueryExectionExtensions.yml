@@ -5,6 +5,7 @@ items:
   id: QueryExectionExtensions
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   - SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
@@ -90,6 +91,75 @@ items:
   nameWithType.vb: QueryExectionExtensions.ExecuteReaderAsync(SqlCommand, Boolean, CancellationToken)
   fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, System.Threading.CancellationToken)
   name.vb: ExecuteReaderAsync(SqlCommand, Boolean, CancellationToken)
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  id: ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Data.QueryExectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, bool, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Execute a SELECT statement <b>in batches</b> against the database and return the results as an IAsyncEnumerable, suitable for linq expressions and iteration.
+
+    This is a specialized method intended for very long-running queries (&gt; 60 minutes). Use with care, when needed!
+  remarks: >-
+    A fundamental requirement is that the query is <b>quick to (re)start</b>. In other words, restrictions and orderby must be
+
+    on well-indexed fields. For every batch, the reader will be closed and a new SELECT executed, so if it takes a lot of work
+
+    for the database to find the first row of the result set, performance will suffer badly. The code does not validate
+
+    this requirement.
+
+    <br />
+
+    The command must satisfy all of the following conditions (validated on entry):
+
+    <ul><li>Must be a simple <code>Select</code> (<xref href="SuperOffice.Data.SQL.PrivateSelect" data-throw-if-not-resolved="false"></xref>), not a Union or other compound query.</li><li>Must have at least one top-level ReturnField whose table is defined.</li><li>Must not contain any <code>RightOuterJoin</code> restrictions.</li><li>Must not contain any <xref href="SuperOffice.Data.SQL.Aggregation" data-throw-if-not-resolved="false"></xref> return fields (Count, Sum, etc.).</li><li>OrderBy, if specified, must be a single <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> that is either the primary key or an <code>int</code>/<code>intId</code> field.
+            If no OrderBy is specified, the primary key ascending is used by default.</li></ul>
+    <p></p>
+
+    The method clones the original select for each batch and appends a key-boundary restriction
+
+    (<code>&gt;=</code> or <code>&lt;=</code>, depending on sort direction) to iterate through the data.
+
+    <ul><li>When ordering by primary key, each batch contains at most <code class="paramref">batchSize</code> rows.</li><li>When ordering by a non-PK int field, each batch contains <em>at least</em> <code class="paramref">batchSize</code> rows;
+            the batch boundary is extended until the ordering field changes value, so actual batch size may be larger.</li></ul>
+  example: []
+  syntax:
+    content: public static IAsyncEnumerable<ISoDataRecord> ExecuteBatchedReaderAsync(this SqlCommand command, bool ignoreSentry = false, int batchSize = 20000, CancellationToken cancellationToken = default)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: >-
+        The SELECT query to execute in batches. Must be a <xref href="SuperOffice.Data.SQL.PrivateSelect" data-throw-if-not-resolved="false"></xref>
+                    with no <code>RightOuterJoin</code> restrictions and no <xref href="SuperOffice.Data.SQL.Aggregation" data-throw-if-not-resolved="false"></xref> return fields.
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Whether to ignore sentry when executing the batch queries.
+    - id: batchSize
+      type: System.Int32
+      description: >-
+        Maximum number of rows per batch (default 20,000). Actual batch size may exceed
+                    this value when ordering by a non-PK field, as the boundary aligns with value changes.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token, passed down to the database server.
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.ISoDataRecord}
+    content.vb: Public Shared Function ExecuteBatchedReaderAsync(command As SqlCommand, ignoreSentry As Boolean = False, batchSize As Integer = 20000, cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of ISoDataRecord)
+  overload: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync*
+  nameWithType.vb: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Integer, System.Threading.CancellationToken)
+  name.vb: ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   id: ExecuteScalarAsync``1(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
@@ -743,6 +813,48 @@ references:
   - name: " "
   - name: ''
   - name: )
+- uid: SuperOffice.Data.SQL.PrivateSelect
+  commentId: T:SuperOffice.Data.SQL.PrivateSelect
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.PrivateSelect.html
+  name: PrivateSelect
+  nameWithType: PrivateSelect
+  fullName: SuperOffice.Data.SQL.PrivateSelect
+- uid: SuperOffice.Data.SQL.Aggregation
+  commentId: T:SuperOffice.Data.SQL.Aggregation
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Aggregation.html
+  name: Aggregation
+  nameWithType: Aggregation
+  fullName: SuperOffice.Data.SQL.Aggregation
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync*
+  commentId: Overload:SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  name: ExecuteBatchedReaderAsync
+  nameWithType: QueryExectionExtensions.ExecuteBatchedReaderAsync
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync*
   commentId: Overload:SuperOffice.Data.QueryExectionExtensions.ExecuteScalarAsync
   isExternal: true
@@ -901,14 +1013,6 @@ references:
   name: QueryExecutionHelper
   nameWithType: QueryExecutionHelper
   fullName: SuperOffice.Data.QueryExecutionHelper
-- uid: SuperOffice.Data.SQL.FieldInfo
-  commentId: T:SuperOffice.Data.SQL.FieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.CRM.Security.FieldProperty
   commentId: T:SuperOffice.CRM.Security.FieldProperty
   parent: SuperOffice.CRM.Security
@@ -1085,14 +1189,3 @@ references:
   name: ExecuteNonQuery
   nameWithType: QueryExectionExtensions.ExecuteNonQuery
   fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer

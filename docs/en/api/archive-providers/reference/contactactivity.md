@@ -1294,7 +1294,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/fullName,person/personAddress/addressId,person/personUdef/SuperOffice:2,person/correspondingAssociate/firstName,person/consentSourceStore
+GET /api/v1/archive/ContactActivity?$select=firstMessage,person/personExtra/y_rental/x_start,project/projectAssociate/isLocation,formSubmissionStatus,appointmentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

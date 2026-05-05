@@ -12,6 +12,8 @@ content_type: reference
 
 
 
+* [POST Agents/User/GetUserFromEjUserId](v1UserAgent_GetUserFromEjUserId.md)
+
 * [POST Agents/User/SetPasswordFromName](v1UserAgent_SetPasswordFromName.md)
 
 * [POST Agents/User/SetPassword](v1UserAgent_SetPassword.md)
@@ -85,6 +87,8 @@ content_type: reference
 * [POST Agents/User/RegisterWithAccessGateway](v1UserAgent_RegisterWithAccessGateway.md)
 
 * [POST Agents/User/CheckAccessGatewayRegistration](v1UserAgent_CheckAccessGatewayRegistration.md)
+
+* [POST Agents/User/ExchangeCodeAndSaveTokens](v1UserAgent_ExchangeCodeAndSaveTokens.md)
 
 * [POST Agents/User/SaveCredential](v1UserAgent_SaveCredential.md)
 
@@ -201,5 +205,3 @@ content_type: reference
 * [POST Agents/User/CreateDefaultUserFromUserTypeAndPersonId](v1UserAgent_CreateDefaultUserFromUserTypeAndPersonId.md)
 
 * [POST Agents/User/CreateDefaultUserFromUserType](v1UserAgent_CreateDefaultUserFromUserType.md)
-
-* [POST Agents/User/GetUserFromEjUserId](v1UserAgent_GetUserFromEjUserId.md)

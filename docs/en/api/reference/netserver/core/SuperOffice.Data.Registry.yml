@@ -100,6 +100,7 @@ items:
   - SuperOffice.Data.Registry.DefaultTicketStatusDeleted
   - SuperOffice.Data.Registry.DefaultTicketStatusInactive
   - SuperOffice.Data.Registry.DefaultTicketStatusOpen
+  - SuperOffice.Data.Registry.DefaultTicketStatusSpam
   - SuperOffice.Data.Registry.DefaultTimeToReplyOnNewTicket
   - SuperOffice.Data.Registry.DefaultTrackAllLinks
   - SuperOffice.Data.Registry.DelayMailboxImport
@@ -398,11 +399,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.12.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")]
 
       public enum Registry
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.12.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")>
 
       Public Enum Registry
   extensionMethods:
@@ -418,7 +419,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.12.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.13.0.0
 - uid: SuperOffice.Data.Registry.RegistryEntry_End
   commentId: F:SuperOffice.Data.Registry.RegistryEntry_End
   id: RegistryEntry_End
@@ -11358,6 +11359,37 @@ items:
       <EnumMember>
 
       TimeKeepingSyncNextRun = 362
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.Registry.DefaultTicketStatusSpam
+  commentId: F:SuperOffice.Data.Registry.DefaultTicketStatusSpam
+  id: DefaultTicketStatusSpam
+  parent: SuperOffice.Data.Registry
+  langs:
+  - csharp
+  - vb
+  name: DefaultTicketStatusSpam
+  nameWithType: Registry.DefaultTicketStatusSpam
+  fullName: SuperOffice.Data.Registry.DefaultTicketStatusSpam
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '363: Default ticket status: spam'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DefaultTicketStatusSpam = 363
+    return:
+      type: SuperOffice.Data.Registry
+    content.vb: >-
+      <EnumMember>
+
+      DefaultTicketStatusSpam = 363
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

@@ -1082,7 +1082,7 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/eventId| *None* |Event ID: Event ID| x |
 |projectMembers/startDate| *None* |Start date: Project start date| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
-|projectMembers/eventParticipantStatus| *None* |Event status: Event status| x |
+|projectMembers/eventParticipantStatus| *None* |Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date| x |
@@ -1453,7 +1453,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=sourceRelation/countryId,sale/saleType,sale/associate/assocName,document/recordTypeText,document/associate/usergroupId
+GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/credentialType,LastSale,sourceRelation/country,sale/associate/contactCategory,document/attention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

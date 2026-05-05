@@ -14,6 +14,8 @@ items:
     href: AI_Agent/v1AIAgent_AnswerAccepted.md
   - name: AnswerFeedback
     href: AI_Agent/v1AIAgent_AnswerFeedback.md
+  - name: AnswerUsingContext
+    href: AI_Agent/v1AIAgent_AnswerUsingContext.md
   - name: CancelIndexing
     href: AI_Agent/v1AIAgent_CancelIndexing.md
   - name: ClearChatbotTurns
@@ -783,6 +785,8 @@ items:
     href: Contact_Agent/v1ContactAgent_SetDuplicateRulesStatus.md
   - name: Undelete
     href: Contact_Agent/v1ContactAgent_Undelete.md
+  - name: UpdateInterests
+    href: Contact_Agent/v1ContactAgent_UpdateInterests.md
   - name: ValidateContactEntity
     href: Contact_Agent/v1ContactAgent_ValidateContactEntity.md
 - name: CRMScript
@@ -1077,6 +1081,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md
   - name: PerformTasksAfterUpgrade
     href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterUpgrade.md
+  - name: RegisterClosedTicketsUsage
+    href: Diagnostics_Agent/v1DiagnosticsAgent_RegisterClosedTicketsUsage.md
   - name: RemoveExpiredSystemMessages
     href: Diagnostics_Agent/v1DiagnosticsAgent_RemoveExpiredSystemMessages.md
   - name: RemoveSystemMessage
@@ -2718,6 +2724,8 @@ items:
     href: Person_Agent/v1PersonAgent_TryAddPersonsToEmailFlow.md
   - name: Undelete
     href: Person_Agent/v1PersonAgent_Undelete.md
+  - name: UpdateInterests
+    href: Person_Agent/v1PersonAgent_UpdateInterests.md
   - name: ValidatePersonEntity
     href: Person_Agent/v1PersonAgent_ValidatePersonEntity.md
 - name: PhoneList
@@ -2825,6 +2833,8 @@ items:
     href: Preference_Agent/v1PreferenceAgent_GetTabOrders.md
   - name: GetXsrfPaths
     href: Preference_Agent/v1PreferenceAgent_GetXsrfPaths.md
+  - name: GetXsrfValue
+    href: Preference_Agent/v1PreferenceAgent_GetXsrfValue.md
   - name: SaveFromSectionAndKey
     href: Preference_Agent/v1PreferenceAgent_SaveFromSectionAndKey.md
   - name: SavePreference
@@ -2847,6 +2857,8 @@ items:
     href: Preference_Agent/v1PreferenceAgent_SaveTabOrders.md
   - name: SetXsrfPaths
     href: Preference_Agent/v1PreferenceAgent_SetXsrfPaths.md
+  - name: SetXsrfValue
+    href: Preference_Agent/v1PreferenceAgent_SetXsrfValue.md
   - name: UpdateNetServicesStatus
     href: Preference_Agent/v1PreferenceAgent_UpdateNetServicesStatus.md
 - name: Previews
@@ -3635,6 +3647,10 @@ items:
     href: Ticket_Agent/v1TicketAgent_SetDeletedStatusByIds.md
   - name: SetDeletedStatusByProvider
     href: Ticket_Agent/v1TicketAgent_SetDeletedStatusByProvider.md
+  - name: SetSpamStatusByIds
+    href: Ticket_Agent/v1TicketAgent_SetSpamStatusByIds.md
+  - name: SetSpamStatusByProvider
+    href: Ticket_Agent/v1TicketAgent_SetSpamStatusByProvider.md
   - name: SetTicketMessageImportant
     href: Ticket_Agent/v1TicketAgent_SetTicketMessageImportant.md
   - name: SetTicketReadByOwner
@@ -3738,6 +3754,8 @@ items:
     href: User_Agent/v1UserAgent_DeleteUserFromName.md
   - name: DeleteUserGroup
     href: User_Agent/v1UserAgent_DeleteUserGroup.md
+  - name: ExchangeCodeAndSaveTokens
+    href: User_Agent/v1UserAgent_ExchangeCodeAndSaveTokens.md
   - name: ExecuteUserCommand
     href: User_Agent/v1UserAgent_ExecuteUserCommand.md
   - name: FindCredentialsGroups

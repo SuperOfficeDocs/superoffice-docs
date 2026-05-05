@@ -28,6 +28,7 @@ items:
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1036,6 +1037,41 @@ items:
   nameWithType.vb: DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, SuperOffice.WebApi.RequestOptions)
   name.vb: PerformTasksAfterCustomObjectTableDeletedAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RegisterClosedTicketsUsageAsync(int[], RequestOptions)
+  nameWithType: DiagnosticsAgent.RegisterClosedTicketsUsageAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync(int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Logs and registers resolved ticket count to the metering service
+  example: []
+  syntax:
+    content: public Task RegisterClosedTicketsUsageAsync(int[] ticketIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: IDs of closed tickets
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function RegisterClosedTicketsUsageAsync(ticketIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DiagnosticsAgent.RegisterClosedTicketsUsageAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RegisterClosedTicketsUsageAsync(Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
   id: AddWebAppUsageAsync(SuperOffice.WebApi.Data.WebAppUsage[],SuperOffice.WebApi.RequestOptions)
@@ -4166,6 +4202,85 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_RegisterClosedTicketsUsageAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: RegisterClosedTicketsUsageAsync
+  nameWithType: DiagnosticsAgent.RegisterClosedTicketsUsageAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.RegisterClosedTicketsUsageAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RegisterClosedTicketsUsageAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: RegisterClosedTicketsUsageAsync(int[], RequestOptions)
+  nameWithType: IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(int[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: RegisterClosedTicketsUsageAsync(Integer(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: RegisterClosedTicketsUsageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RegisterClosedTicketsUsageAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: RegisterClosedTicketsUsageAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_RegisterClosedTicketsUsageAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
   - name: )
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.AddWebAppUsageAsync

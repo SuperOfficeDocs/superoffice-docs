@@ -1348,7 +1348,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=type,person/personAssociate/assocType,contact/contactUdef/SuperOffice:1,contact/NumberOfActivities,associate/isActiveText
+GET /api/v1/archive/SaleSelectionV2?$select=activeErpLinks,person/birthdate,person/kanaFirstName,person/personCategory,person/personCategoryGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

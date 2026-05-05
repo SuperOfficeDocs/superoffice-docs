@@ -68,6 +68,8 @@ items:
   - SuperOffice.WebApi.Agents.ITicketAgent.SendTicketMessageSmsAsync(System.Int32,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.SetDeletedStatusByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.SetDeletedStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.SetTicketMessageImportantAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.SetTicketReadByOwnerAsync(System.Int32,SuperOffice.WebApi.Data.TicketReadStatus,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ITicketAgent.SplitTicketAsync(System.Int32,System.Int32,System.DateTime,System.Int32[],SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
@@ -1601,6 +1603,75 @@ items:
   nameWithType.vb: ITicketAgent.AcceptTicketsAsync(Integer(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(Integer(), SuperOffice.WebApi.RequestOptions)
   name.vb: AcceptTicketsAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: SetSpamStatusByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetSpamStatusByIdsAsync(int[], RequestOptions)
+  nameWithType: ITicketAgent.SetSpamStatusByIdsAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync(int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Sets tickets' status to SPAM. After a grace period these tickets will be deleted by a background job.
+  example: []
+  syntax:
+    content: Task<int[]> SetSpamStatusByIdsAsync(int[] ticketIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: Ids of tickets to be set for SPAM.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Ids of tickets set for SPAM.
+    content.vb: Function SetSpamStatusByIdsAsync(ticketIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync*
+  nameWithType.vb: ITicketAgent.SetSpamStatusByIdsAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetSpamStatusByIdsAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  id: SetSpamStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetSpamStatusByProviderAsync(string, ArchiveRestrictionInfo[], RequestOptions)
+  nameWithType: ITicketAgent.SetSpamStatusByProviderAsync(string, ArchiveRestrictionInfo[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync(string, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Sets tickets' status to SPAM. After a grace period these tickets will be deleted by a background job.
+  example: []
+  syntax:
+    content: Task<int[]> SetSpamStatusByProviderAsync(string providerName, ArchiveRestrictionInfo[] restrictions, RequestOptions requestOptions = null)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of the provider that returns ticket rows.
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Query restrictions to be added to provider. Fixed providers, such as LastTicketsProvider, FavouriteTicketsProvider etc. already have mandatory restrictions setup - in such case extra restrictions will be combined, however for general use case for fixed providers you can pass an empty array and provider will return default results. For selection providers generally you should pass selectionId as a restriction.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: Ids of tickets set for deletion.
+    content.vb: Function SetSpamStatusByProviderAsync(providerName As String, restrictions As ArchiveRestrictionInfo(), requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync*
+  nameWithType.vb: ITicketAgent.SetSpamStatusByProviderAsync(String, ArchiveRestrictionInfo(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync(String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetSpamStatusByProviderAsync(String, ArchiveRestrictionInfo(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -3895,6 +3966,20 @@ references:
   name: AcceptTicketsAsync
   nameWithType: ITicketAgent.AcceptTicketsAsync
   fullName: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_SetSpamStatusByIdsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: SetSpamStatusByIdsAsync
+  nameWithType: ITicketAgent.SetSpamStatusByIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByIdsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_SetSpamStatusByProviderAsync_System_String_SuperOffice_WebApi_Data_ArchiveRestrictionInfo___SuperOffice_WebApi_RequestOptions_
+  name: SetSpamStatusByProviderAsync
+  nameWithType: ITicketAgent.SetSpamStatusByProviderAsync
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.SetSpamStatusByProviderAsync
 - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketMessageAsync
   isExternal: true

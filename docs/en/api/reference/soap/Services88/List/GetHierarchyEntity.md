@@ -97,21 +97,21 @@ Application tokens must be specified if calling an Online installation. Applicat
           <List:UpdatedAssociateId xsi:nil="true"></List:UpdatedAssociateId>
          </List:HierarchyEntity>
         </List:Children>
-        <List:Registered xsi:type="xsd:dateTime">2026-03-26T12:16:42Z</List:Registered>
+        <List:Registered xsi:type="xsd:dateTime">2026-04-28T11:03:27Z</List:Registered>
         <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-        <List:Updated xsi:type="xsd:dateTime">2026-03-26T12:16:42Z</List:Updated>
+        <List:Updated xsi:type="xsd:dateTime">2026-04-28T11:03:27Z</List:Updated>
         <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
        </List:HierarchyEntity>
       </List:Children>
-      <List:Registered xsi:type="xsd:dateTime">2026-03-26T12:16:42Z</List:Registered>
+      <List:Registered xsi:type="xsd:dateTime">2026-04-28T11:03:27Z</List:Registered>
       <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-      <List:Updated xsi:type="xsd:dateTime">2026-03-26T12:16:42Z</List:Updated>
+      <List:Updated xsi:type="xsd:dateTime">2026-04-28T11:03:27Z</List:Updated>
       <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
      </List:HierarchyEntity>
     </List:Children>
-    <List:Registered xsi:type="xsd:dateTime">2026-03-26T12:16:42Z</List:Registered>
+    <List:Registered xsi:type="xsd:dateTime">2026-04-28T11:03:27Z</List:Registered>
     <List:RegisteredAssociateId xsi:type="xsd:int">0</List:RegisteredAssociateId>
-    <List:Updated xsi:type="xsd:dateTime">2026-03-26T12:16:42Z</List:Updated>
+    <List:Updated xsi:type="xsd:dateTime">2026-04-28T11:03:27Z</List:Updated>
     <List:UpdatedAssociateId xsi:type="xsd:int">0</List:UpdatedAssociateId>
    </List:Response>
   </List:GetHierarchyEntityResponse>

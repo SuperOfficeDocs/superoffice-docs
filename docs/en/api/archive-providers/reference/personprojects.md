@@ -48,7 +48,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |eventId|int|Event ID: Event ID| x |
 |startDate|date|Start date: Project start date| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
-|eventParticipantStatus|listAny|Event status: Event status| x |
+|eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -134,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonProjects?$select=projectEvent/hasSignOn,projectAssociate/contactCategory
+GET /api/v1/archive/PersonProjects?$select=projectAssociate/assocType,projectUdef/SuperOffice:4,projectEvent/hasSignOn
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

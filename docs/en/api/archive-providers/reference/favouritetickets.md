@@ -795,7 +795,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=person/personAssociate/contactName,person/consentSourceStore,contact/email/emailBounceCount
+GET /api/v1/archive/FavouriteTickets?$select=ownedBy/userName,person/personNoMail,person/personAddress/zip,person/personExtra/x_person_hidden_integer,person/personExtra/x_person_time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

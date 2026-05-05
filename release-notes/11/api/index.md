@@ -27,6 +27,8 @@ Version 11 of the API reference includes many changes from the v10.5.5 release, 
 * [(11.11)][11]
 * [(11.12)][12]
 
+* [(11.13)][13]
+
 <!-- Referenced links-->
 [1]: 11.1/11.1-update.md
 [2]: 11.2/11.2-update.md
@@ -40,4 +42,5 @@ Version 11 of the API reference includes many changes from the v10.5.5 release, 
 [10]: 11.10/11.10-update.md
 [11]: 11.11/11.11-update.md
 [12]: 11.12/11.12-update.md
+[13]: 11.13/11.13-update.md
 

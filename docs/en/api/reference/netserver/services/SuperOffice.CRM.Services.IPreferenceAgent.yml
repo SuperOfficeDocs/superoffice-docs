@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrderAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrdersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfPathsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceAsync(SuperOffice.CRM.Services.Preference,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.CRM.Services.PreferenceDescription,System.Threading.CancellationToken)
@@ -43,6 +44,7 @@ items:
   - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.CRM.Services.TabOrder,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.CRM.Services.TabOrder[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -541,6 +543,64 @@ items:
   nameWithType.vb: IPreferenceAgent.SetXsrfPathsAsync(String, String(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPathsAsync(String, String(), System.Threading.CancellationToken)
   name.vb: SetXsrfPathsAsync(String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync(System.Threading.CancellationToken)
+  id: GetXsrfValueAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetXsrfValueAsync(CancellationToken)
+  nameWithType: IPreferenceAgent.GetXsrfValueAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the XSRF token value and last update time for the current user
+  example: []
+  syntax:
+    content: Task<XsrfValue> GetXsrfValueAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.XsrfValue}
+      description: The XSRF token value and timestamp
+    content.vb: Function GetXsrfValueAsync(cancellationToken As CancellationToken = Nothing) As Task(Of XsrfValue)
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync*
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
+  id: SetXsrfValueAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetXsrfValueAsync(string, CancellationToken)
+  nameWithType: IPreferenceAgent.SetXsrfValueAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Sets the XSRF token value for the current user
+  example: []
+  syntax:
+    content: Task SetXsrfValueAsync(string xsrfValue, CancellationToken cancellationToken = default)
+    parameters:
+    - id: xsrfValue
+      type: System.String
+      description: The XSRF value to store
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetXsrfValueAsync(xsrfValue As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync*
+  nameWithType.vb: IPreferenceAgent.SetXsrfValueAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync(String, System.Threading.CancellationToken)
+  name.vb: SetXsrfValueAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
   id: CreateDefaultPreferenceDescriptionAsync(System.Threading.CancellationToken)
@@ -1824,6 +1884,55 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_GetXsrfValueAsync_System_Threading_CancellationToken_
+  name: GetXsrfValueAsync
+  nameWithType: IPreferenceAgent.GetXsrfValueAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetXsrfValueAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.XsrfValue}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.XsrfValue}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<XsrfValue>
+  nameWithType: Task<XsrfValue>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.XsrfValue>
+  nameWithType.vb: Task(Of XsrfValue)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.XsrfValue)
+  name.vb: Task(Of XsrfValue)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.XsrfValue
+    name: XsrfValue
+    isExternal: true
+    href: SuperOffice.CRM.Services.XsrfValue.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.XsrfValue
+    name: XsrfValue
+    isExternal: true
+    href: SuperOffice.CRM.Services.XsrfValue.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPreferenceAgent.html#SuperOffice_CRM_Services_IPreferenceAgent_SetXsrfValueAsync_System_String_System_Threading_CancellationToken_
+  name: SetXsrfValueAsync
+  nameWithType: IPreferenceAgent.SetXsrfValueAsync
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfValueAsync
 - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
   isExternal: true

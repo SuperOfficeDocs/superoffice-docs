@@ -1533,7 +1533,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/postAddress/line2,contact/contactAssociate/title,contact/contactExtra/x_contact_dropdown,contact/LastSale,person/supportLanguage
+GET /api/v1/archive/Links?$select=contact/hasInterests,contact/postAddress/wgs84latitude,contact/contactAssociate/firstName,contact/contactUdef/SuperOffice:4,contact/contactUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

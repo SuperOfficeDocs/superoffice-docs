@@ -32,9 +32,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=amet
-GET /api/v1/MDOList/{listname}?query=consequatur
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=fugiat
+GET /api/v1/MDOList/{listname}?query=architecto
 ```
 
 

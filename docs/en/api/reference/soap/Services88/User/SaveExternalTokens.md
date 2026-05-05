@@ -44,6 +44,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:Provider xsi:type="xsd:string"></User:Provider>
      <User:AccessToken xsi:type="xsd:string"></User:AccessToken>
      <User:RefreshToken xsi:type="xsd:string"></User:RefreshToken>
+     <User:Claims xsi:type="xsd:string"></User:Claims>
     </User:TokenManagementInfo>
    </User:SaveExternalTokens>
 

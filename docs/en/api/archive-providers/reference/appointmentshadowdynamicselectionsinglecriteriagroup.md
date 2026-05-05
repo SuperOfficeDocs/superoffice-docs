@@ -749,7 +749,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=projectId,contact/postAddress/line3,contact/postAddress/formattedMultiLineAddress,contact/contactUdef/SuperOffice:6,contact/contactExtra/x_contact_hidden_integer
+GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=suggestedAppointmentId,contact/contactFax/formattedNumber,contact/streetAddress/county,person/birthYear,person/personExtra/x_person_request_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

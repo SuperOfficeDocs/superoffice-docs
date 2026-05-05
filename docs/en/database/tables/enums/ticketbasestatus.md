@@ -20,6 +20,7 @@ The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/dele
 |Postponed|3|Request has been postponed|
 |Deleted|4|Request has been deleted|
 |Merged|5|Request has been merged with another request|
+|Spam|6|Request has been marked as spam|
 |PostponedSpecific|1001|Should only be used for UI, when saved to DB it will be converted to Postponed|
 |Postponed1Hour|1002|Should only be used for UI, when saved to DB it will be converted to Postponed|
 |Postponed2Hours|1003|Should only be used for UI, when saved to DB it will be converted to Postponed|

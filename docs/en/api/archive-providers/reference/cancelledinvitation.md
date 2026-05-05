@@ -758,7 +758,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/CancelledInvitation?$select=contact/contactAssociate/assocTooltip,contact/saintSaleStatus,person/restrictionAddress/county,person/personAssociate/assocType
+GET /api/v1/archive/CancelledInvitation?$select=contact/phone/formattedNumber,contact/contactUdef/SuperOffice:9,person/supportAssociate,person/personAddress/line3,person/correspondingAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

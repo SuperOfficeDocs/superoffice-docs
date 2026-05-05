@@ -2402,6 +2402,18 @@ items:
     name: WebAppUsageProvider
   - uid: SuperOffice.CRM.ArchiveLists.WebAppUsageWebAppUsageExtender
     name: WebAppUsageWebAppUsageExtender
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+    name: WebhookExtenderBase
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookProvider
+    name: WebhookProvider
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
+    name: WebhookUsageExtenderBase
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase.WebhookDisplayStatus
+    name: WebhookUsageExtenderBase.WebhookDisplayStatus
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookWebhookExtender
+    name: WebhookWebhookExtender
+  - uid: SuperOffice.CRM.ArchiveLists.WebhookWebhookUsageExtender
+    name: WebhookWebhookUsageExtender
   - uid: SuperOffice.CRM.ArchiveLists.WorkflowAssociateExtender
     name: WorkflowAssociateExtender
   - uid: SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
@@ -5511,6 +5523,8 @@ items:
     name: ContactDomainDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactDuplicateRulePluginAttribute
     name: ContactDuplicateRulePluginAttribute
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactFreetextDuplicateRule
+    name: ContactFreetextDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule
     name: ContactNameDepartmentDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDuplicateRule
@@ -5541,12 +5555,16 @@ items:
     name: ISelectionDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectDuplicateRulePluginAttribute
     name: ProjectDuplicateRulePluginAttribute
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectFreetextDuplicateRule
+    name: ProjectFreetextDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectNameDuplicateRule
     name: ProjectNameDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
     name: ProjectSoundexDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.SelectionDuplicateRulePluginAttribute
     name: SelectionDuplicateRulePluginAttribute
+  - uid: SuperOffice.CRM.Data.Util.Duplicates.SelectionFreetextDuplicateRule
+    name: SelectionFreetextDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.SelectionNameDuplicateRule
     name: SelectionNameDuplicateRule
   - uid: SuperOffice.CRM.Data.Util.Duplicates.SelectionSoundexDuplicateRule
@@ -18773,6 +18791,8 @@ items:
     name: BoardViewEntityTypeFieldInfo
   - uid: SuperOffice.Data.SQL.Bool
     name: Bool
+  - uid: SuperOffice.Data.SQL.Case
+    name: Case
   - uid: SuperOffice.Data.SQL.CategoryGroupFieldInfo
     name: CategoryGroupFieldInfo
   - uid: SuperOffice.Data.SQL.CategoryUpdateTriggerFieldInfo
@@ -19884,6 +19904,8 @@ items:
     name: AsyncQueueProcessItemAsync<TItem>
   - uid: SuperOffice.Threading.AsyncQueueProcessor`2
     name: AsyncQueueProcessor<TQueue, TItem>
+  - uid: SuperOffice.Threading.AsyncQueueTracker
+    name: AsyncQueueTracker
   - uid: SuperOffice.Threading.AsyncQueue`1
     name: AsyncQueue<TItem>
   - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1
@@ -19894,6 +19916,8 @@ items:
     name: DelayedItem<TItem>
   - uid: SuperOffice.Threading.IAsyncQueueBase`1
     name: IAsyncQueueBase<TItem>
+  - uid: SuperOffice.Threading.IAsyncQueueInstance
+    name: IAsyncQueueInstance
   - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
     name: IAsyncQueueProcessItemContext<TItem>
   - uid: SuperOffice.Threading.IAsyncQueue`1
@@ -20117,6 +20141,8 @@ items:
     name: TemporaryConfigOverride
   - uid: SuperOffice.Util.TemporaryFeatureToggle
     name: TemporaryFeatureToggle
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue<T>
   - uid: SuperOffice.Util.TextEncodingHelper
     name: TextEncodingHelper
   - uid: SuperOffice.Util.TimeConverter

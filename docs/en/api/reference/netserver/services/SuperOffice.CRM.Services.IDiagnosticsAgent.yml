@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociateAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
@@ -876,6 +877,38 @@ items:
   nameWithType.vb: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, System.Threading.CancellationToken)
   name.vb: PerformTasksAfterCustomObjectTableDeletedAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(System.Int32[],System.Threading.CancellationToken)
+  id: RegisterClosedTicketsUsageAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: RegisterClosedTicketsUsageAsync(int[], CancellationToken)
+  nameWithType: IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Logs and registers resolved ticket count to the metering service
+  example: []
+  syntax:
+    content: Task RegisterClosedTicketsUsageAsync(int[] ticketIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: IDs of closed tickets
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function RegisterClosedTicketsUsageAsync(ticketIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync*
+  nameWithType.vb: IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: RegisterClosedTicketsUsageAsync(Integer(), CancellationToken)
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
   id: AddWebAppUsageAsync(SuperOffice.CRM.Services.WebAppUsage[],System.Threading.CancellationToken)
@@ -1692,6 +1725,36 @@ references:
   name: PerformTasksAfterCustomObjectTableDeletedAsync
   nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RegisterClosedTicketsUsageAsync_System_Int32___System_Threading_CancellationToken_
+  name: RegisterClosedTicketsUsageAsync
+  nameWithType: IDiagnosticsAgent.RegisterClosedTicketsUsageAsync
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RegisterClosedTicketsUsageAsync
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsageAsync
   isExternal: true

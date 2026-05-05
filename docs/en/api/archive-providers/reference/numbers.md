@@ -77,7 +77,7 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=unique,updated_associate/contactId,updated_associate/assocType,updated_associate/personEmail
+GET /api/v1/archive/Numbers?$select=updated_associate/contactFullName,updated_associate/assocTooltip,field
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

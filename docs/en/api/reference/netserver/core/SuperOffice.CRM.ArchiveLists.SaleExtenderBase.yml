@@ -7,12 +7,14 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features,System.String)
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ColSaleType
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.MainTableName
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ProcessOrderBy
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.TableToExtend
@@ -72,8 +74,8 @@ items:
     fields like Text, and generally handles all things Sale-related.
   example: []
   syntax:
-    content: 'public abstract class SaleExtenderBase : ActivityExtenderBase<SaleTableInfo>, IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible'
-    content.vb: Public MustInherit Class SaleExtenderBase Inherits ActivityExtenderBase(Of SaleTableInfo) Implements IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible
+    content: 'public abstract class SaleExtenderBase : ActivityExtenderBase<SaleTableInfo>, IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IArchiveProviderExtenderAccept'
+    content.vb: Public MustInherit Class SaleExtenderBase Inherits ActivityExtenderBase(Of SaleTableInfo) Implements IArchiveProviderQueryMapping, IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IArchiveProviderExtenderAccept
   inheritance:
   - System.Object
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -100,6 +102,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}._colCompleted
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}._colIcon
@@ -997,6 +1000,59 @@ items:
   nameWithType.vb: SaleExtenderBase.New(SaleExtenderBase.Features, String)
   fullName.vb: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.New(SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features, String)
   name.vb: New(Features, String)
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
+  id: AcceptRow(SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: AcceptRow(SoDataReader)
+  nameWithType: SaleExtenderBase.AcceptRow(SoDataReader)
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: Possibility for the extenders to have an AcceptRow(). Alternatively implement this on Extender base class...
+  remarks: Method is invoked on child extenders and stops at the first one returning false.
+  example: []
+  syntax:
+    content: public virtual bool AcceptRow(SoDataReader reader)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+      description: ''
+    return:
+      type: System.Boolean
+      description: The reader from which to get row data. Remember to make sure the data is there when asked for, you should perhaps ask for it in InnerModifyQuery()
+    content.vb: Public Overridable Function AcceptRow(reader As SoDataReader) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields
+  id: RequiredPhaseOneFields
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: RequiredPhaseOneFields()
+  nameWithType: SaleExtenderBase.RequiredPhaseOneFields()
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public FieldInfo[] RequiredPhaseOneFields()
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Public Function RequiredPhaseOneFields() As FieldInfo()
+  overload: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.RequiredPhaseOneFields
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   id: ModifyQuery
@@ -1392,6 +1448,14 @@ references:
   name: IArchiveProviderExtensible
   nameWithType: IArchiveProviderExtensible
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html
+  name: IArchiveProviderExtenderAccept
+  nameWithType: IArchiveProviderExtenderAccept
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
 - uid: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}._colCompleted
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}._colCompleted
   parent: SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}
@@ -6422,6 +6486,139 @@ references:
     name: Features
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features.html
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase_AcceptRow_SuperOffice_Data_SoDataReader_
+  name: AcceptRow
+  nameWithType: SaleExtenderBase.AcceptRow
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderExtenderAccept_AcceptRow_SuperOffice_Data_SoDataReader_
+  name: AcceptRow(SoDataReader)
+  nameWithType: IArchiveProviderExtenderAccept.AcceptRow(SoDataReader)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
+    name: AcceptRow
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderExtenderAccept_AcceptRow_SuperOffice_Data_SoDataReader_
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
+    name: AcceptRow
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderExtenderAccept_AcceptRow_SuperOffice_Data_SoDataReader_
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.SoDataReader.html
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase_RequiredPhaseOneFields
+  name: RequiredPhaseOneFields
+  nameWithType: SaleExtenderBase.RequiredPhaseOneFields
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.RequiredPhaseOneFields
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.RequiredPhaseOneFields
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderExtenderAccept_RequiredPhaseOneFields
+  name: RequiredPhaseOneFields()
+  nameWithType: IArchiveProviderExtenderAccept.RequiredPhaseOneFields()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.RequiredPhaseOneFields()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.RequiredPhaseOneFields
+    name: RequiredPhaseOneFields
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderExtenderAccept_RequiredPhaseOneFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.RequiredPhaseOneFields
+    name: RequiredPhaseOneFields
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderExtenderAccept_RequiredPhaseOneFields
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.FieldInfo[]
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
+  name: FieldInfo[]
+  nameWithType: FieldInfo[]
+  fullName: SuperOffice.Data.SQL.FieldInfo[]
+  nameWithType.vb: FieldInfo()
+  fullName.vb: SuperOffice.Data.SQL.FieldInfo()
+  name.vb: FieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}.ModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}.ModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleTableInfo}
@@ -6617,33 +6814,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System.ValueTuple`2
   commentId: T:System.ValueTuple`2
   name: (T1, T2)
@@ -6802,14 +6972,6 @@ references:
   name: InnerPopulateRowFromReader
   nameWithType: SaleExtenderBase.InnerPopulateRowFromReader
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerPopulateRowFromReader
-- uid: SuperOffice.Data.SoDataReader
-  commentId: T:SuperOffice.Data.SoDataReader
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
-  name: SoDataReader
-  nameWithType: SoDataReader
-  fullName: SuperOffice.Data.SoDataReader
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
   parent: SuperOffice.CRM.ArchiveLists

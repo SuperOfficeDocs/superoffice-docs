@@ -69,6 +69,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -2188,6 +2189,47 @@ items:
   nameWithType.vb: PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateInterestsAsync(int, int[], int[], RequestOptions)
+  nameWithType: PersonAgent.UpdateInterestsAsync(int, int[], int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync(int, int[], int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Update interests on person. Will throw exception if id is in both arrays
+  example: []
+  syntax:
+    content: public Task UpdateInterestsAsync(int personId, int[] enableInterestIds, int[] disableInterestIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id to update interests for
+    - id: enableInterestIds
+      type: System.Int32[]
+      description: The interest ids to set on the person. This will set these interests to true and not touch any other interests.
+    - id: disableInterestIds
+      type: System.Int32[]
+      description: The interest ids to diable on the person. This will set these interests to false and not touch any other interests.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function UpdateInterestsAsync(personId As Integer, enableInterestIds As Integer(), disableInterestIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: PersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -8138,6 +8180,90 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html#SuperOffice_WebApi_Agents_PersonAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: UpdateInterestsAsync
+  nameWithType: PersonAgent.UpdateInterestsAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.UpdateInterestsAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: UpdateInterestsAsync(int, int[], int[], RequestOptions)
+  nameWithType: IPersonAgent.UpdateInterestsAsync(int, int[], int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(int, int[], int[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: UpdateInterestsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: UpdateInterestsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
   - name: ','
   - name: " "
   - uid: SuperOffice.WebApi.RequestOptions

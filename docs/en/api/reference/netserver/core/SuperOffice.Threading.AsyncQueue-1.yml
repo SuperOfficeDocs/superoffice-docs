@@ -5,7 +5,7 @@ items:
   id: AsyncQueue`1
   parent: SuperOffice.Threading
   children:
-  - SuperOffice.Threading.AsyncQueue`1.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}})
+  - SuperOffice.Threading.AsyncQueue`1.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}},SuperOffice.Threading.AsyncQueueTracker)
   - SuperOffice.Threading.AsyncQueue`1.GetInnerQueueCompletionTasks
   - SuperOffice.Threading.AsyncQueue`1.HasItemsInTheQueue
   - SuperOffice.Threading.AsyncQueue`1.InnerEnqueue(SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
@@ -38,15 +38,16 @@ items:
     throught the CancellationToken it was set up with.
   example: []
   syntax:
-    content: 'public class AsyncQueue<TItem> : AsyncQueueBase<TItem>, IAsyncQueue<TItem>, IAsyncQueueBase<TItem>'
+    content: 'public class AsyncQueue<TItem> : AsyncQueueBase<TItem>, IAsyncQueueInstance, IAsyncQueue<TItem>, IAsyncQueueBase<TItem>'
     typeParameters:
     - id: TItem
       description: Item to add and process in the queue
-    content.vb: Public Class AsyncQueue(Of TItem) Inherits AsyncQueueBase(Of TItem) Implements IAsyncQueue(Of TItem), IAsyncQueueBase(Of TItem)
+    content.vb: Public Class AsyncQueue(Of TItem) Inherits AsyncQueueBase(Of TItem) Implements IAsyncQueueInstance, IAsyncQueue(Of TItem), IAsyncQueueBase(Of TItem)
   inheritance:
   - System.Object
   - SuperOffice.Threading.AsyncQueueBase{{TItem}}
   implements:
+  - SuperOffice.Threading.IAsyncQueueInstance
   - SuperOffice.Threading.IAsyncQueue{{TItem}}
   - SuperOffice.Threading.IAsyncQueueBase{{TItem}}
   inheritedMembers:
@@ -60,6 +61,7 @@ items:
   - SuperOffice.Threading.AsyncQueueBase{{TItem}}.ProcessItemsAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{{TItem}},System.Threading.CancellationToken)
   - SuperOffice.Threading.AsyncQueueBase{{TItem}}.SignalProcessingCanceled
   - SuperOffice.Threading.AsyncQueueBase{{TItem}}.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueBase{{TItem}}.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
   - SuperOffice.Threading.AsyncQueueBase{{TItem}}.EnterQueueItemContext(SuperOffice.Threading.AsyncQueueBase{{TItem}}.AsyncQueueItem)
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -74,32 +76,34 @@ items:
   nameWithType.vb: AsyncQueue(Of TItem)
   fullName.vb: SuperOffice.Threading.AsyncQueue(Of TItem)
   name.vb: AsyncQueue(Of TItem)
-- uid: SuperOffice.Threading.AsyncQueue`1.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}})
-  commentId: M:SuperOffice.Threading.AsyncQueue`1.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}})
-  id: '#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}})'
+- uid: SuperOffice.Threading.AsyncQueue`1.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}},SuperOffice.Threading.AsyncQueueTracker)
+  commentId: M:SuperOffice.Threading.AsyncQueue`1.#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}},SuperOffice.Threading.AsyncQueueTracker)
+  id: '#ctor(SuperOffice.Security.Principal.INSPrincipalAccessor,Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue{`0}},SuperOffice.Threading.AsyncQueueTracker)'
   parent: SuperOffice.Threading.AsyncQueue`1
   langs:
   - csharp
   - vb
-  name: AsyncQueue(INSPrincipalAccessor, ILogger<AsyncQueue<TItem>>)
-  nameWithType: AsyncQueue<TItem>.AsyncQueue(INSPrincipalAccessor, ILogger<AsyncQueue<TItem>>)
-  fullName: SuperOffice.Threading.AsyncQueue<TItem>.AsyncQueue(SuperOffice.Security.Principal.INSPrincipalAccessor, Microsoft.Extensions.Logging.ILogger<SuperOffice.Threading.AsyncQueue<TItem>>)
+  name: AsyncQueue(INSPrincipalAccessor, ILogger<AsyncQueue<TItem>>, AsyncQueueTracker)
+  nameWithType: AsyncQueue<TItem>.AsyncQueue(INSPrincipalAccessor, ILogger<AsyncQueue<TItem>>, AsyncQueueTracker)
+  fullName: SuperOffice.Threading.AsyncQueue<TItem>.AsyncQueue(SuperOffice.Security.Principal.INSPrincipalAccessor, Microsoft.Extensions.Logging.ILogger<SuperOffice.Threading.AsyncQueue<TItem>>, SuperOffice.Threading.AsyncQueueTracker)
   type: Constructor
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: public AsyncQueue(INSPrincipalAccessor principalAccessor, ILogger<AsyncQueue<TItem>> logger)
+    content: public AsyncQueue(INSPrincipalAccessor principalAccessor, ILogger<AsyncQueue<TItem>> logger, AsyncQueueTracker tracker)
     parameters:
     - id: principalAccessor
       type: SuperOffice.Security.Principal.INSPrincipalAccessor
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Threading.AsyncQueue`1}
-    content.vb: Public Sub New(principalAccessor As INSPrincipalAccessor, logger As ILogger(Of AsyncQueue(Of TItem)))
+    - id: tracker
+      type: SuperOffice.Threading.AsyncQueueTracker
+    content.vb: Public Sub New(principalAccessor As INSPrincipalAccessor, logger As ILogger(Of AsyncQueue(Of TItem)), tracker As AsyncQueueTracker)
   overload: SuperOffice.Threading.AsyncQueue`1.#ctor*
-  nameWithType.vb: AsyncQueue(Of TItem).New(INSPrincipalAccessor, ILogger(Of AsyncQueue(Of TItem)))
-  fullName.vb: SuperOffice.Threading.AsyncQueue(Of TItem).New(SuperOffice.Security.Principal.INSPrincipalAccessor, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Threading.AsyncQueue(Of TItem)))
-  name.vb: New(INSPrincipalAccessor, ILogger(Of AsyncQueue(Of TItem)))
+  nameWithType.vb: AsyncQueue(Of TItem).New(INSPrincipalAccessor, ILogger(Of AsyncQueue(Of TItem)), AsyncQueueTracker)
+  fullName.vb: SuperOffice.Threading.AsyncQueue(Of TItem).New(SuperOffice.Security.Principal.INSPrincipalAccessor, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Threading.AsyncQueue(Of TItem)), SuperOffice.Threading.AsyncQueueTracker)
+  name.vb: New(INSPrincipalAccessor, ILogger(Of AsyncQueue(Of TItem)), AsyncQueueTracker)
 - uid: SuperOffice.Threading.AsyncQueue`1.InnerEnqueue(SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
   commentId: M:SuperOffice.Threading.AsyncQueue`1.InnerEnqueue(SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
   id: InnerEnqueue(SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
@@ -493,6 +497,14 @@ references:
   - name: " "
   - name: TItem
   - name: )
+- uid: SuperOffice.Threading.IAsyncQueueInstance
+  commentId: T:SuperOffice.Threading.IAsyncQueueInstance
+  parent: SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueInstance.html
+  name: IAsyncQueueInstance
+  nameWithType: IAsyncQueueInstance
+  fullName: SuperOffice.Threading.IAsyncQueueInstance
 - uid: SuperOffice.Threading.IAsyncQueue{{TItem}}
   commentId: T:SuperOffice.Threading.IAsyncQueue{`0}
   parent: SuperOffice.Threading
@@ -771,6 +783,38 @@ references:
     name: WaitForItemsInQueueToBeProcessedAsync
     isExternal: true
     href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForItemsInQueueToBeProcessedAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueBase{{TItem}}.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueBase{`0}.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueBase{{TItem}}
+  definition: SuperOffice.Threading.AsyncQueueBase`1.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
+  name: WaitForInFlightItemsAsync(CancellationToken)
+  nameWithType: AsyncQueueBase<TItem>.WaitForInFlightItemsAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueBase(Of TItem).WaitForInFlightItemsAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueBase{`0}.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+    name: WaitForInFlightItemsAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueBase{`0}.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+    name: WaitForInFlightItemsAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
   - name: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
@@ -1393,6 +1437,37 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.Threading.AsyncQueueBase`1.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueBase`1.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
+  name: WaitForInFlightItemsAsync(CancellationToken)
+  nameWithType: AsyncQueueBase<TItem>.WaitForInFlightItemsAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueBase<TItem>.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueBase(Of TItem).WaitForInFlightItemsAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueBase(Of TItem).WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueBase`1.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+    name: WaitForInFlightItemsAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueBase`1.WaitForInFlightItemsAsync(System.Threading.CancellationToken)
+    name: WaitForInFlightItemsAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueBase-1.html#SuperOffice_Threading_AsyncQueueBase_1_WaitForInFlightItemsAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.Threading.AsyncQueueBase`1.EnterQueueItemContext(SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
   commentId: M:SuperOffice.Threading.AsyncQueueBase`1.EnterQueueItemContext(SuperOffice.Threading.AsyncQueueBase{`0}.AsyncQueueItem)
   isExternal: true
@@ -1559,7 +1634,7 @@ references:
 - uid: SuperOffice.Threading.AsyncQueue`1.#ctor*
   commentId: Overload:SuperOffice.Threading.AsyncQueue`1.#ctor
   isExternal: true
-  href: SuperOffice.Threading.AsyncQueue-1.html#SuperOffice_Threading_AsyncQueue_1__ctor_SuperOffice_Security_Principal_INSPrincipalAccessor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Threading_AsyncQueue__0___
+  href: SuperOffice.Threading.AsyncQueue-1.html#SuperOffice_Threading_AsyncQueue_1__ctor_SuperOffice_Security_Principal_INSPrincipalAccessor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Threading_AsyncQueue__0___SuperOffice_Threading_AsyncQueueTracker_
   name: AsyncQueue
   nameWithType: AsyncQueue<TItem>.AsyncQueue
   fullName: SuperOffice.Threading.AsyncQueue<TItem>.AsyncQueue
@@ -1617,6 +1692,14 @@ references:
   - name: TItem
   - name: )
   - name: )
+- uid: SuperOffice.Threading.AsyncQueueTracker
+  commentId: T:SuperOffice.Threading.AsyncQueueTracker
+  parent: SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueTracker.html
+  name: AsyncQueueTracker
+  nameWithType: AsyncQueueTracker
+  fullName: SuperOffice.Threading.AsyncQueueTracker
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true

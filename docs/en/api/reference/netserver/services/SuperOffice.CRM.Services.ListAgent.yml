@@ -10166,7 +10166,10 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Updates category memberships
+  summary: >-
+    Updates category memberships
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, AdminLists, CSSystem</p>
   example: []
   syntax:
     content: public Task UpdateCategoryMembershipsAsync(int ticketCategoryId, TicketCategoryMembershipEntity[] membershipsToAdd, TicketCategoryMembershipEntity[] membershipsToUpdate, TicketCategoryMembershipEntity[] membershipsToDelete, CancellationToken cancellationToken = default)

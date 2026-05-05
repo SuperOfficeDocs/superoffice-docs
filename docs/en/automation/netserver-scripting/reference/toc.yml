@@ -14,6 +14,8 @@ items:
     href: aiagent/answerasync.md
   - name: AnswerFeedbackAsync
     href: aiagent/answerfeedbackasync.md
+  - name: AnswerUsingContextAsync
+    href: aiagent/answerusingcontextasync.md
   - name: CancelIndexingAsync
     href: aiagent/cancelindexingasync.md
   - name: ClearChatbotTurnsAsync
@@ -708,6 +710,8 @@ items:
     href: contactagent/setduplicaterulesstatusasync.md
   - name: UndeleteAsync
     href: contactagent/undeleteasync.md
+  - name: UpdateInterestsAsync
+    href: contactagent/updateinterestsasync.md
   - name: ValidateContactEntityAsync
     href: contactagent/validatecontactentityasync.md
 - name: CRMScriptAgent
@@ -1006,6 +1010,8 @@ items:
     href: diagnosticsagent/performtasksaftercustomobjecttabledeletedasync.md
   - name: PerformTasksAfterUpgradeAsync
     href: diagnosticsagent/performtasksafterupgradeasync.md
+  - name: RegisterClosedTicketsUsageAsync
+    href: diagnosticsagent/registerclosedticketsusageasync.md
   - name: RemoveExpiredSystemMessagesAsync
     href: diagnosticsagent/removeexpiredsystemmessagesasync.md
   - name: RemoveSystemMessageAsync
@@ -2642,6 +2648,8 @@ items:
     href: personagent/tryaddpersonstoemailflowasync.md
   - name: UndeleteAsync
     href: personagent/undeleteasync.md
+  - name: UpdateInterestsAsync
+    href: personagent/updateinterestsasync.md
   - name: ValidatePersonEntityAsync
     href: personagent/validatepersonentityasync.md
 - name: PhoneListAgent
@@ -2749,6 +2757,8 @@ items:
     href: preferenceagent/gettabordersasync.md
   - name: GetXsrfPathsAsync
     href: preferenceagent/getxsrfpathsasync.md
+  - name: GetXsrfValueAsync
+    href: preferenceagent/getxsrfvalueasync.md
   - name: SaveFromSectionAndKeyAsync
     href: preferenceagent/savefromsectionandkeyasync.md
   - name: SavePreferenceAsync
@@ -2771,6 +2781,8 @@ items:
     href: preferenceagent/savetabordersasync.md
   - name: SetXsrfPathsAsync
     href: preferenceagent/setxsrfpathsasync.md
+  - name: SetXsrfValueAsync
+    href: preferenceagent/setxsrfvalueasync.md
   - name: UpdateNetServicesStatusAsync
     href: preferenceagent/updatenetservicesstatusasync.md
 - name: ProjectAgent
@@ -3554,6 +3566,10 @@ items:
     href: ticketagent/setdeletedstatusbyidsasync.md
   - name: SetDeletedStatusByProviderAsync
     href: ticketagent/setdeletedstatusbyproviderasync.md
+  - name: SetSpamStatusByIdsAsync
+    href: ticketagent/setspamstatusbyidsasync.md
+  - name: SetSpamStatusByProviderAsync
+    href: ticketagent/setspamstatusbyproviderasync.md
   - name: SetTicketMessageImportantAsync
     href: ticketagent/setticketmessageimportantasync.md
   - name: SetTicketReadByOwnerAsync
@@ -3652,6 +3668,8 @@ items:
     href: useragent/deleteuserfromnameasync.md
   - name: DeleteUserGroupAsync
     href: useragent/deleteusergroupasync.md
+  - name: ExchangeCodeAndSaveTokensAsync
+    href: useragent/exchangecodeandsavetokensasync.md
   - name: ExecuteUserCommandAsync
     href: useragent/executeusercommandasync.md
   - name: FindCredentialsGroupsAsync

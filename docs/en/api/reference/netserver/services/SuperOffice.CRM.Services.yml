@@ -416,6 +416,7 @@ items:
   - SuperOffice.CRM.Services.QuoteVersionValidated
   - SuperOffice.CRM.Services.QuoteVersionWorkflowState
   - SuperOffice.CRM.Services.RagAnswer
+  - SuperOffice.CRM.Services.RagContextIds
   - SuperOffice.CRM.Services.RagResult
   - SuperOffice.CRM.Services.RagStatus
   - SuperOffice.CRM.Services.RagStatusChunks
@@ -531,6 +532,7 @@ items:
   - SuperOffice.CRM.Services.TicketSummaryItem
   - SuperOffice.CRM.Services.TicketType
   - SuperOffice.CRM.Services.TicketTypeEntity
+  - SuperOffice.CRM.Services.TicketUsage
   - SuperOffice.CRM.Services.TimeZoneAgent
   - SuperOffice.CRM.Services.TokenManagementInfo
   - SuperOffice.CRM.Services.TriggerScriptEntity
@@ -596,6 +598,7 @@ items:
   - SuperOffice.CRM.Services.WorkflowTrigger
   - SuperOffice.CRM.Services.WorkflowWaitForAction
   - SuperOffice.CRM.Services.WorkflowWaitForActionInfo
+  - SuperOffice.CRM.Services.XsrfValue
   langs:
   - csharp
   - vb
@@ -3429,6 +3432,14 @@ references:
   name: RagAnswer
   nameWithType: RagAnswer
   fullName: SuperOffice.CRM.Services.RagAnswer
+- uid: SuperOffice.CRM.Services.RagContextIds
+  commentId: T:SuperOffice.CRM.Services.RagContextIds
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RagContextIds.html
+  name: RagContextIds
+  nameWithType: RagContextIds
+  fullName: SuperOffice.CRM.Services.RagContextIds
 - uid: SuperOffice.CRM.Services.RagResult
   commentId: T:SuperOffice.CRM.Services.RagResult
   isExternal: true
@@ -4208,6 +4219,13 @@ references:
   name: TicketTypeEntity
   nameWithType: TicketTypeEntity
   fullName: SuperOffice.CRM.Services.TicketTypeEntity
+- uid: SuperOffice.CRM.Services.TicketUsage
+  commentId: T:SuperOffice.CRM.Services.TicketUsage
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketUsage.html
+  name: TicketUsage
+  nameWithType: TicketUsage
+  fullName: SuperOffice.CRM.Services.TicketUsage
 - uid: SuperOffice.CRM.Services.TokenManagementInfo
   commentId: T:SuperOffice.CRM.Services.TokenManagementInfo
   parent: SuperOffice.CRM.Services
@@ -4633,6 +4651,13 @@ references:
   name: WorkflowWaitForActionInfo
   nameWithType: WorkflowWaitForActionInfo
   fullName: SuperOffice.CRM.Services.WorkflowWaitForActionInfo
+- uid: SuperOffice.CRM.Services.XsrfValue
+  commentId: T:SuperOffice.CRM.Services.XsrfValue
+  isExternal: true
+  href: SuperOffice.CRM.Services.XsrfValue.html
+  name: XsrfValue
+  nameWithType: XsrfValue
+  fullName: SuperOffice.CRM.Services.XsrfValue
 - uid: SuperOffice.CRM.Services.UserHelper
   commentId: T:SuperOffice.CRM.Services.UserHelper
   parent: SuperOffice.CRM.Services

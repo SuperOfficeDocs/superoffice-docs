@@ -32,6 +32,7 @@ items:
   - SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
@@ -43,6 +44,7 @@ items:
   - SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
@@ -718,6 +720,66 @@ items:
   nameWithType.vb: IPreferenceAgent.SetXsrfPathsAsync(String, String(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(String, String(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetXsrfPathsAsync(String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetXsrfValueAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetXsrfValueAsync(RequestOptions)
+  nameWithType: IPreferenceAgent.GetXsrfValueAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns the XSRF token value and last update time for the current user
+  example: []
+  syntax:
+    content: Task<XsrfValue> GetXsrfValueAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.XsrfValue}
+      description: The XSRF token value and timestamp
+    content.vb: Function GetXsrfValueAsync(requestOptions As RequestOptions = Nothing) As Task(Of XsrfValue)
+  overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync*
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetXsrfValueAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetXsrfValueAsync(string, RequestOptions)
+  nameWithType: IPreferenceAgent.SetXsrfValueAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Sets the XSRF token value for the current user
+  example: []
+  syntax:
+    content: Task SetXsrfValueAsync(string xsrfValue, RequestOptions requestOptions = null)
+    parameters:
+    - id: xsrfValue
+      type: System.String
+      description: The XSRF value to store
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetXsrfValueAsync(xsrfValue As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync*
+  nameWithType.vb: IPreferenceAgent.SetXsrfValueAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetXsrfValueAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -2106,6 +2168,55 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetXsrfValueAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetXsrfValueAsync
+  nameWithType: IPreferenceAgent.GetXsrfValueAsync
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfValueAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.XsrfValue}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.XsrfValue}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<XsrfValue>
+  nameWithType: Task<XsrfValue>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.XsrfValue>
+  nameWithType.vb: Task(Of XsrfValue)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.XsrfValue)
+  name.vb: Task(Of XsrfValue)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.XsrfValue
+    name: XsrfValue
+    isExternal: true
+    href: SuperOffice.WebApi.Data.XsrfValue.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.XsrfValue
+    name: XsrfValue
+    isExternal: true
+    href: SuperOffice.WebApi.Data.XsrfValue.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SetXsrfValueAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: SetXsrfValueAsync
+  nameWithType: IPreferenceAgent.SetXsrfValueAsync
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfValueAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync
   isExternal: true

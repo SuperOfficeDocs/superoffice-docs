@@ -75,6 +75,8 @@ Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can
 * [SendTicketMessageSmsAsync](sendticketmessagesmsasync.md)
 * [SetDeletedStatusByIdsAsync](setdeletedstatusbyidsasync.md)
 * [SetDeletedStatusByProviderAsync](setdeletedstatusbyproviderasync.md)
+* [SetSpamStatusByIdsAsync](setspamstatusbyidsasync.md)
+* [SetSpamStatusByProviderAsync](setspamstatusbyproviderasync.md)
 * [SetTicketMessageImportantAsync](setticketmessageimportantasync.md)
 * [SetTicketReadByOwnerAsync](setticketreadbyownerasync.md)
 * [SplitTicketAsync](splitticketasync.md)

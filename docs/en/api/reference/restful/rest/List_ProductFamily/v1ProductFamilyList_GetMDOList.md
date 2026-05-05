@@ -27,8 +27,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=sit
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=consequatur
 ```
 
 

@@ -40,6 +40,7 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [DeleteUser](DeleteUser.md)
 * [DeleteUserFromName](DeleteUserFromName.md)
 * [DeleteUserGroup](DeleteUserGroup.md)
+* [ExchangeCodeAndSaveTokens](ExchangeCodeAndSaveTokens.md)
 * [ExecuteUserCommand](ExecuteUserCommand.md)
 * [FindCredentialsGroups](FindCredentialsGroups.md)
 * [FindCredentialUsers](FindCredentialUsers.md)

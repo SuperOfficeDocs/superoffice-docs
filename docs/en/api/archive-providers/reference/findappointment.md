@@ -749,7 +749,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=registeredDate,contact/contactAssociate/assocTooltip,person/portraitThumbnail,person/ticketPriority,person/personAssociate/simultaneousEjUser
+GET /api/v1/archive/FindAppointment?$select=contact/searchPhone/formattedNumber,contact/postAddress/county,contact/streetAddress/county,person/position,person/personInfo/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

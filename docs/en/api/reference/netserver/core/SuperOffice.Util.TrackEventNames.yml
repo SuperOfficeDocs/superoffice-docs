@@ -9,24 +9,34 @@ items:
   - SuperOffice.Util.TrackEventNames.AIAnswered
   - SuperOffice.Util.TrackEventNames.AISearched
   - SuperOffice.Util.TrackEventNames.AppointmentCreated
+  - SuperOffice.Util.TrackEventNames.BackgroundRemoved
   - SuperOffice.Util.TrackEventNames.BizCardScanned
   - SuperOffice.Util.TrackEventNames.BootstrapperStart
+  - SuperOffice.Util.TrackEventNames.CategorizerTrained
+  - SuperOffice.Util.TrackEventNames.CategoryGuessed
   - SuperOffice.Util.TrackEventNames.CompanyCreated
   - SuperOffice.Util.TrackEventNames.CompanyEnriched
   - SuperOffice.Util.TrackEventNames.CompanyEnrichmentSearch
+  - SuperOffice.Util.TrackEventNames.CompanyPhotographed
   - SuperOffice.Util.TrackEventNames.CopilotMessaged
   - SuperOffice.Util.TrackEventNames.DocumentCreated
   - SuperOffice.Util.TrackEventNames.EmailLogin
   - SuperOffice.Util.TrackEventNames.FAQsSearched
+  - SuperOffice.Util.TrackEventNames.FormDesigned
+  - SuperOffice.Util.TrackEventNames.LanguageDetected
   - SuperOffice.Util.TrackEventNames.PersonCreated
+  - SuperOffice.Util.TrackEventNames.PersonPhotographed
   - SuperOffice.Util.TrackEventNames.ProjectCreated
   - SuperOffice.Util.TrackEventNames.ProjectDone
+  - SuperOffice.Util.TrackEventNames.ProjectPhotographed
   - SuperOffice.Util.TrackEventNames.SaleCompleted
   - SuperOffice.Util.TrackEventNames.SaleCreated
   - SuperOffice.Util.TrackEventNames.SaleLost
   - SuperOffice.Util.TrackEventNames.SaleSold
+  - SuperOffice.Util.TrackEventNames.SentimentAnalyzed
   - SuperOffice.Util.TrackEventNames.TextSummarized
   - SuperOffice.Util.TrackEventNames.TextTransformed
+  - SuperOffice.Util.TrackEventNames.TextTranslated
   - SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   - SuperOffice.Util.TrackEventNames.TicketAnswerFeedback
   - SuperOffice.Util.TrackEventNames.TicketAnswered
@@ -120,6 +130,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const AppointmentCreated As String = "Appointment Created"
+- uid: SuperOffice.Util.TrackEventNames.BackgroundRemoved
+  commentId: F:SuperOffice.Util.TrackEventNames.BackgroundRemoved
+  id: BackgroundRemoved
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: BackgroundRemoved
+  nameWithType: TrackEventNames.BackgroundRemoved
+  fullName: SuperOffice.Util.TrackEventNames.BackgroundRemoved
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string BackgroundRemoved = "Background Removed"
+    return:
+      type: System.String
+    content.vb: Public Const BackgroundRemoved As String = "Background Removed"
 - uid: SuperOffice.Util.TrackEventNames.BizCardScanned
   commentId: F:SuperOffice.Util.TrackEventNames.BizCardScanned
   id: BizCardScanned
@@ -158,6 +187,44 @@ items:
     return:
       type: System.String
     content.vb: Public Const BootstrapperStart As String = "Start"
+- uid: SuperOffice.Util.TrackEventNames.CategoryGuessed
+  commentId: F:SuperOffice.Util.TrackEventNames.CategoryGuessed
+  id: CategoryGuessed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CategoryGuessed
+  nameWithType: TrackEventNames.CategoryGuessed
+  fullName: SuperOffice.Util.TrackEventNames.CategoryGuessed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CategoryGuessed = "Category Guessed"
+    return:
+      type: System.String
+    content.vb: Public Const CategoryGuessed As String = "Category Guessed"
+- uid: SuperOffice.Util.TrackEventNames.CategorizerTrained
+  commentId: F:SuperOffice.Util.TrackEventNames.CategorizerTrained
+  id: CategorizerTrained
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CategorizerTrained
+  nameWithType: TrackEventNames.CategorizerTrained
+  fullName: SuperOffice.Util.TrackEventNames.CategorizerTrained
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CategorizerTrained = "Categorizer Trained"
+    return:
+      type: System.String
+    content.vb: Public Const CategorizerTrained As String = "Categorizer Trained"
 - uid: SuperOffice.Util.TrackEventNames.CompanyCreated
   commentId: F:SuperOffice.Util.TrackEventNames.CompanyCreated
   id: CompanyCreated
@@ -177,6 +244,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const CompanyCreated As String = "Company Created"
+- uid: SuperOffice.Util.TrackEventNames.CompanyPhotographed
+  commentId: F:SuperOffice.Util.TrackEventNames.CompanyPhotographed
+  id: CompanyPhotographed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: CompanyPhotographed
+  nameWithType: TrackEventNames.CompanyPhotographed
+  fullName: SuperOffice.Util.TrackEventNames.CompanyPhotographed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string CompanyPhotographed = "Company Photographed"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyPhotographed As String = "Company Photographed"
 - uid: SuperOffice.Util.TrackEventNames.CompanyEnriched
   commentId: F:SuperOffice.Util.TrackEventNames.CompanyEnriched
   id: CompanyEnriched
@@ -272,6 +358,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const FAQsSearched As String = "FAQs Searched"
+- uid: SuperOffice.Util.TrackEventNames.FormDesigned
+  commentId: F:SuperOffice.Util.TrackEventNames.FormDesigned
+  id: FormDesigned
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: FormDesigned
+  nameWithType: TrackEventNames.FormDesigned
+  fullName: SuperOffice.Util.TrackEventNames.FormDesigned
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string FormDesigned = "Form Designed"
+    return:
+      type: System.String
+    content.vb: Public Const FormDesigned As String = "Form Designed"
 - uid: SuperOffice.Util.TrackEventNames.EmailLogin
   commentId: F:SuperOffice.Util.TrackEventNames.EmailLogin
   id: EmailLogin
@@ -291,6 +396,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const EmailLogin As String = "Email Login"
+- uid: SuperOffice.Util.TrackEventNames.LanguageDetected
+  commentId: F:SuperOffice.Util.TrackEventNames.LanguageDetected
+  id: LanguageDetected
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: LanguageDetected
+  nameWithType: TrackEventNames.LanguageDetected
+  fullName: SuperOffice.Util.TrackEventNames.LanguageDetected
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string LanguageDetected = "Language Detected"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageDetected As String = "Language Detected"
 - uid: SuperOffice.Util.TrackEventNames.PersonCreated
   commentId: F:SuperOffice.Util.TrackEventNames.PersonCreated
   id: PersonCreated
@@ -310,6 +434,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const PersonCreated As String = "Person Created"
+- uid: SuperOffice.Util.TrackEventNames.PersonPhotographed
+  commentId: F:SuperOffice.Util.TrackEventNames.PersonPhotographed
+  id: PersonPhotographed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: PersonPhotographed
+  nameWithType: TrackEventNames.PersonPhotographed
+  fullName: SuperOffice.Util.TrackEventNames.PersonPhotographed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string PersonPhotographed = "Person Photographed"
+    return:
+      type: System.String
+    content.vb: Public Const PersonPhotographed As String = "Person Photographed"
 - uid: SuperOffice.Util.TrackEventNames.ProjectCreated
   commentId: F:SuperOffice.Util.TrackEventNames.ProjectCreated
   id: ProjectCreated
@@ -348,6 +491,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProjectDone As String = "Project Done"
+- uid: SuperOffice.Util.TrackEventNames.ProjectPhotographed
+  commentId: F:SuperOffice.Util.TrackEventNames.ProjectPhotographed
+  id: ProjectPhotographed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectPhotographed
+  nameWithType: TrackEventNames.ProjectPhotographed
+  fullName: SuperOffice.Util.TrackEventNames.ProjectPhotographed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string ProjectPhotographed = "Project Photographed"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectPhotographed As String = "Project Photographed"
 - uid: SuperOffice.Util.TrackEventNames.SaleCompleted
   commentId: F:SuperOffice.Util.TrackEventNames.SaleCompleted
   id: SaleCompleted
@@ -424,6 +586,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const SaleSold As String = "Sale Sold"
+- uid: SuperOffice.Util.TrackEventNames.SentimentAnalyzed
+  commentId: F:SuperOffice.Util.TrackEventNames.SentimentAnalyzed
+  id: SentimentAnalyzed
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: SentimentAnalyzed
+  nameWithType: TrackEventNames.SentimentAnalyzed
+  fullName: SuperOffice.Util.TrackEventNames.SentimentAnalyzed
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string SentimentAnalyzed = "Sentiment Analyzed"
+    return:
+      type: System.String
+    content.vb: Public Const SentimentAnalyzed As String = "Sentiment Analyzed"
 - uid: SuperOffice.Util.TrackEventNames.TextSummarized
   commentId: F:SuperOffice.Util.TrackEventNames.TextSummarized
   id: TextSummarized
@@ -462,6 +643,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const TextTransformed As String = "Text Transformed"
+- uid: SuperOffice.Util.TrackEventNames.TextTranslated
+  commentId: F:SuperOffice.Util.TrackEventNames.TextTranslated
+  id: TextTranslated
+  parent: SuperOffice.Util.TrackEventNames
+  langs:
+  - csharp
+  - vb
+  name: TextTranslated
+  nameWithType: TrackEventNames.TextTranslated
+  fullName: SuperOffice.Util.TrackEventNames.TextTranslated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string TextTranslated = "Text Translated"
+    return:
+      type: System.String
+    content.vb: Public Const TextTranslated As String = "Text Translated"
 - uid: SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   commentId: F:SuperOffice.Util.TrackEventNames.TicketAnswerAccepted
   id: TicketAnswerAccepted

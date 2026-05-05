@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
   - SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
   - SuperOffice.WebApi.Data.AI_AnswerRequest
+  - SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
   - SuperOffice.WebApi.Data.AI_CancelIndexingRequest
   - SuperOffice.WebApi.Data.AI_ClearChatbotTurnsRequest
   - SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
@@ -464,6 +465,7 @@ items:
   - SuperOffice.WebApi.Data.Contact_SaveQuoteVersionAddressRequest
   - SuperOffice.WebApi.Data.Contact_SetDuplicateRulesStatusRequest
   - SuperOffice.WebApi.Data.Contact_UndeleteRequest
+  - SuperOffice.WebApi.Data.Contact_UpdateInterestsRequest
   - SuperOffice.WebApi.Data.Contact_ValidateContactEntityRequest
   - SuperOffice.WebApi.Data.ControlInfo
   - SuperOffice.WebApi.Data.CopilotDataSourceEntity
@@ -612,6 +614,7 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableCreatedRequest
   - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+  - SuperOffice.WebApi.Data.Diagnostics_RegisterClosedTicketsUsageRequest
   - SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
   - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
   - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageRequest
@@ -1378,6 +1381,7 @@ items:
   - SuperOffice.WebApi.Data.Person_SetUtmCreatedPersonContactForFormSubmissionRequest
   - SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
   - SuperOffice.WebApi.Data.Person_UndeleteRequest
+  - SuperOffice.WebApi.Data.Person_UpdateInterestsRequest
   - SuperOffice.WebApi.Data.Person_ValidatePersonEntityRequest
   - SuperOffice.WebApi.Data.PhoneListItem
   - SuperOffice.WebApi.Data.PhoneListPreferences
@@ -1435,6 +1439,7 @@ items:
   - SuperOffice.WebApi.Data.Preference_GetTabOrderRequest
   - SuperOffice.WebApi.Data.Preference_GetTabOrdersRequest
   - SuperOffice.WebApi.Data.Preference_GetXsrfPathsRequest
+  - SuperOffice.WebApi.Data.Preference_GetXsrfValueRequest
   - SuperOffice.WebApi.Data.Preference_SaveFromSectionAndKeyRequest
   - SuperOffice.WebApi.Data.Preference_SavePreferenceDescriptionLinesRequest
   - SuperOffice.WebApi.Data.Preference_SavePreferenceEntitiesRequest
@@ -1444,6 +1449,7 @@ items:
   - SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest
   - SuperOffice.WebApi.Data.Preference_SaveTabOrdersRequest
   - SuperOffice.WebApi.Data.Preference_SetXsrfPathsRequest
+  - SuperOffice.WebApi.Data.Preference_SetXsrfValueRequest
   - SuperOffice.WebApi.Data.Preference_UpdateNetServicesStatusRequest
   - SuperOffice.WebApi.Data.PreferredTimeZone
   - SuperOffice.WebApi.Data.PreviewContact
@@ -1626,6 +1632,7 @@ items:
   - SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
   - SuperOffice.WebApi.Data.Quote_ValidateQuoteVersionRequest
   - SuperOffice.WebApi.Data.RagAnswer
+  - SuperOffice.WebApi.Data.RagContextIds
   - SuperOffice.WebApi.Data.RagResult
   - SuperOffice.WebApi.Data.RagStatus
   - SuperOffice.WebApi.Data.RagStatusChunks
@@ -1924,6 +1931,7 @@ items:
   - SuperOffice.WebApi.Data.TicketSummaryItem
   - SuperOffice.WebApi.Data.TicketType
   - SuperOffice.WebApi.Data.TicketTypeEntity
+  - SuperOffice.WebApi.Data.TicketUsage
   - SuperOffice.WebApi.Data.Ticket_AcceptTicketsRequest
   - SuperOffice.WebApi.Data.Ticket_AddAttachmentsRequest
   - SuperOffice.WebApi.Data.Ticket_BatchForwardRequest
@@ -1972,6 +1980,8 @@ items:
   - SuperOffice.WebApi.Data.Ticket_SendTicketMessageSmsRequest
   - SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByIdsRequest
   - SuperOffice.WebApi.Data.Ticket_SetDeletedStatusByProviderRequest
+  - SuperOffice.WebApi.Data.Ticket_SetSpamStatusByIdsRequest
+  - SuperOffice.WebApi.Data.Ticket_SetSpamStatusByProviderRequest
   - SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
   - SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
   - SuperOffice.WebApi.Data.Ticket_SplitTicketMessageRequest
@@ -2135,6 +2145,7 @@ items:
   - SuperOffice.WebApi.Data.User_DeleteRoleRequest
   - SuperOffice.WebApi.Data.User_DeleteUserFromNameRequest
   - SuperOffice.WebApi.Data.User_DeleteUserGroupRequest
+  - SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
   - SuperOffice.WebApi.Data.User_FindCredentialUsersRequest
   - SuperOffice.WebApi.Data.User_FindCredentialsGroupsRequest
   - SuperOffice.WebApi.Data.User_FindRolesWithFunctionalRightRequest
@@ -2288,6 +2299,7 @@ items:
   - SuperOffice.WebApi.Data.Workflow_SetStatusOnWorkflowRequest
   - SuperOffice.WebApi.Data.Workflow_TryAddPersonsToEmailFlowRequest
   - SuperOffice.WebApi.Data.Workflow_UpdateFormSubmissionsRequest
+  - SuperOffice.WebApi.Data.XsrfValue
   langs:
   - csharp
   - vb
@@ -4076,6 +4088,13 @@ references:
   name: Contact_EnrichContactEntityRequest
   nameWithType: Contact_EnrichContactEntityRequest
   fullName: SuperOffice.WebApi.Data.Contact_EnrichContactEntityRequest
+- uid: SuperOffice.WebApi.Data.Contact_UpdateInterestsRequest
+  commentId: T:SuperOffice.WebApi.Data.Contact_UpdateInterestsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Contact_UpdateInterestsRequest.html
+  name: Contact_UpdateInterestsRequest
+  nameWithType: Contact_UpdateInterestsRequest
+  fullName: SuperOffice.WebApi.Data.Contact_UpdateInterestsRequest
 - uid: SuperOffice.WebApi.Data.Contact_GetMyContactsRequest
   commentId: T:SuperOffice.WebApi.Data.Contact_GetMyContactsRequest
   isExternal: true
@@ -4443,6 +4462,13 @@ references:
   name: Person_SetUtmCreatedPersonContactForFormSubmissionRequest
   nameWithType: Person_SetUtmCreatedPersonContactForFormSubmissionRequest
   fullName: SuperOffice.WebApi.Data.Person_SetUtmCreatedPersonContactForFormSubmissionRequest
+- uid: SuperOffice.WebApi.Data.Person_UpdateInterestsRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_UpdateInterestsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Person_UpdateInterestsRequest.html
+  name: Person_UpdateInterestsRequest
+  nameWithType: Person_UpdateInterestsRequest
+  fullName: SuperOffice.WebApi.Data.Person_UpdateInterestsRequest
 - uid: SuperOffice.WebApi.Data.PersonImage
   commentId: T:SuperOffice.WebApi.Data.PersonImage
   isExternal: true
@@ -9607,6 +9633,20 @@ references:
   name: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   nameWithType: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   fullName: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
+- uid: SuperOffice.WebApi.Data.TicketUsage
+  commentId: T:SuperOffice.WebApi.Data.TicketUsage
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketUsage.html
+  name: TicketUsage
+  nameWithType: TicketUsage
+  fullName: SuperOffice.WebApi.Data.TicketUsage
+- uid: SuperOffice.WebApi.Data.Diagnostics_RegisterClosedTicketsUsageRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_RegisterClosedTicketsUsageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Diagnostics_RegisterClosedTicketsUsageRequest.html
+  name: Diagnostics_RegisterClosedTicketsUsageRequest
+  nameWithType: Diagnostics_RegisterClosedTicketsUsageRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_RegisterClosedTicketsUsageRequest
 - uid: SuperOffice.WebApi.Data.WebAppUsage
   commentId: T:SuperOffice.WebApi.Data.WebAppUsage
   isExternal: true
@@ -12158,6 +12198,20 @@ references:
   name: Preference_SetXsrfPathsRequest
   nameWithType: Preference_SetXsrfPathsRequest
   fullName: SuperOffice.WebApi.Data.Preference_SetXsrfPathsRequest
+- uid: SuperOffice.WebApi.Data.Preference_GetXsrfValueRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_GetXsrfValueRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Preference_GetXsrfValueRequest.html
+  name: Preference_GetXsrfValueRequest
+  nameWithType: Preference_GetXsrfValueRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetXsrfValueRequest
+- uid: SuperOffice.WebApi.Data.Preference_SetXsrfValueRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_SetXsrfValueRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Preference_SetXsrfValueRequest.html
+  name: Preference_SetXsrfValueRequest
+  nameWithType: Preference_SetXsrfValueRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SetXsrfValueRequest
 - uid: SuperOffice.WebApi.Data.PreferenceDescription
   commentId: T:SuperOffice.WebApi.Data.PreferenceDescription
   parent: SuperOffice.WebApi.Data
@@ -12309,6 +12363,13 @@ references:
   name: TabOrder
   nameWithType: TabOrder
   fullName: SuperOffice.WebApi.Data.TabOrder
+- uid: SuperOffice.WebApi.Data.XsrfValue
+  commentId: T:SuperOffice.WebApi.Data.XsrfValue
+  isExternal: true
+  href: SuperOffice.WebApi.Data.XsrfValue.html
+  name: XsrfValue
+  nameWithType: XsrfValue
+  fullName: SuperOffice.WebApi.Data.XsrfValue
 - uid: SuperOffice.WebApi.Data.CheckLicenseStatusResult
   commentId: T:SuperOffice.WebApi.Data.CheckLicenseStatusResult
   isExternal: true
@@ -12581,6 +12642,13 @@ references:
   name: User_CheckAccessGatewayRegistrationRequest
   nameWithType: User_CheckAccessGatewayRegistrationRequest
   fullName: SuperOffice.WebApi.Data.User_CheckAccessGatewayRegistrationRequest
+- uid: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  commentId: T:SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest.html
+  name: User_ExchangeCodeAndSaveTokensRequest
+  nameWithType: User_ExchangeCodeAndSaveTokensRequest
+  fullName: SuperOffice.WebApi.Data.User_ExchangeCodeAndSaveTokensRequest
 - uid: SuperOffice.WebApi.Data.Credential
   commentId: T:SuperOffice.WebApi.Data.Credential
   parent: SuperOffice.WebApi.Data
@@ -15258,6 +15326,20 @@ references:
   name: Ticket_AcceptTicketsRequest
   nameWithType: Ticket_AcceptTicketsRequest
   fullName: SuperOffice.WebApi.Data.Ticket_AcceptTicketsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SetSpamStatusByIdsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByIdsRequest.html
+  name: Ticket_SetSpamStatusByIdsRequest
+  nameWithType: Ticket_SetSpamStatusByIdsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByIdsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByProviderRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_SetSpamStatusByProviderRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByProviderRequest.html
+  name: Ticket_SetSpamStatusByProviderRequest
+  nameWithType: Ticket_SetSpamStatusByProviderRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_SetSpamStatusByProviderRequest
 - uid: SuperOffice.WebApi.Data.TicketMessage
   commentId: T:SuperOffice.WebApi.Data.TicketMessage
   isExternal: true
@@ -16083,6 +16165,21 @@ references:
   name: AI_AnswerAcceptedRequest
   nameWithType: AI_AnswerAcceptedRequest
   fullName: SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
+- uid: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest.html
+  name: AI_AnswerUsingContextRequest
+  nameWithType: AI_AnswerUsingContextRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnswerUsingContextRequest
+- uid: SuperOffice.WebApi.Data.RagContextIds
+  commentId: T:SuperOffice.WebApi.Data.RagContextIds
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RagContextIds.html
+  name: RagContextIds
+  nameWithType: RagContextIds
+  fullName: SuperOffice.WebApi.Data.RagContextIds
 - uid: SuperOffice.WebApi.Data.RagResult
   commentId: T:SuperOffice.WebApi.Data.RagResult
   isExternal: true

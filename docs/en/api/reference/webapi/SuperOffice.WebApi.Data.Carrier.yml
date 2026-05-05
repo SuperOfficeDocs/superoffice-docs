@@ -359,6 +359,7 @@ items:
   - SuperOffice.WebApi.Data.TicketStatusEntity
   - SuperOffice.WebApi.Data.TicketType
   - SuperOffice.WebApi.Data.TicketTypeEntity
+  - SuperOffice.WebApi.Data.TicketUsage
   - SuperOffice.WebApi.Data.TokenManagementInfo
   - SuperOffice.WebApi.Data.Tooltips
   - SuperOffice.WebApi.Data.TriggerScriptEntity

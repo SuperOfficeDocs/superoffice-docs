@@ -30,7 +30,7 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items?includeDeleted=True
 ```
 
 

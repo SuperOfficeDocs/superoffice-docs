@@ -873,6 +873,8 @@ items:
     name: QuoteVersionWorkflowState
   - uid: SuperOffice.CRM.Services.RagAnswer
     name: RagAnswer
+  - uid: SuperOffice.CRM.Services.RagContextIds
+    name: RagContextIds
   - uid: SuperOffice.CRM.Services.RagResult
     name: RagResult
   - uid: SuperOffice.CRM.Services.RagStatus
@@ -1103,6 +1105,8 @@ items:
     name: TicketType
   - uid: SuperOffice.CRM.Services.TicketTypeEntity
     name: TicketTypeEntity
+  - uid: SuperOffice.CRM.Services.TicketUsage
+    name: TicketUsage
   - uid: SuperOffice.CRM.Services.TimeZoneAgent
     name: TimeZoneAgent
   - uid: SuperOffice.CRM.Services.TokenManagementInfo
@@ -1233,6 +1237,8 @@ items:
     name: WorkflowWaitForAction
   - uid: SuperOffice.CRM.Services.WorkflowWaitForActionInfo
     name: WorkflowWaitForActionInfo
+  - uid: SuperOffice.CRM.Services.XsrfValue
+    name: XsrfValue
 - uid: SuperOffice.ErpSync
   name: SuperOffice.ErpSync
   items:

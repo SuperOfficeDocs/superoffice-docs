@@ -124,6 +124,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Sum)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Max)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Min)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
   - SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
   - SuperOffice.Data.Dialect.Dialect.ConvertToDbType(System.Object,SuperOffice.Data.FieldDataType)
   - SuperOffice.Data.Dialect.Dialect.ConvertFromDbType(System.Object,SuperOffice.Data.FieldDataType)
@@ -2826,6 +2827,31 @@ references:
   - name: (
   - uid: SuperOffice.Data.SQL.Min
     name: Min
+    isExternal: true
+  - name: )
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ToSql(Case)
+  nameWithType: Dialect.ToSql(Case)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+    name: ToSql
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.Case
+    name: Case
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+    name: ToSql
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Data.SQL.Case
+    name: Case
     isExternal: true
   - name: )
 - uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)

@@ -65,6 +65,8 @@ items:
     href: Archive/v1Archive_GetArchive_GET.md
   - name: GET Archive/{archiveProviderName}/$metadata
     href: Archive/v1Archive_GetArchiveMetadata.md
+  - name: POST Archive/{archiveProviderName}
+    href: Archive/v1Archive_PostArchive.md
 - name: Attachment
   href: Attachment/index.md
   items:

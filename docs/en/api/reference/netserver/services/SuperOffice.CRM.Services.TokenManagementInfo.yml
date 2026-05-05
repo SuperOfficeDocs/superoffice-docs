@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.TokenManagementInfo.#ctor
   - SuperOffice.CRM.Services.TokenManagementInfo.AccessToken
+  - SuperOffice.CRM.Services.TokenManagementInfo.Claims
   - SuperOffice.CRM.Services.TokenManagementInfo.Provider
   - SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken
   - SuperOffice.CRM.Services.TokenManagementInfo.ToString
@@ -32,11 +33,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.12.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")]
 
       public class TokenManagementInfo : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.12.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")>
 
       Public Class TokenManagementInfo Inherits Carrier
   seealso:
@@ -51,7 +52,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.12.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.13.0.0
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.TokenManagementInfo.#ctor
   id: '#ctor'
@@ -145,7 +146,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The provider these tokens belong to
+  summary: The provider the access and refresh token belong to.
   example: []
   syntax:
     content: >-
@@ -178,7 +179,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Access token
+  summary: Access token (Provider)
   example: []
   syntax:
     content: >-
@@ -211,7 +212,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Refresh token
+  summary: Refresh token (Provider)
   example: []
   syntax:
     content: >-
@@ -226,6 +227,39 @@ items:
 
       Public Overridable Property RefreshToken As String
   overload: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TokenManagementInfo.Claims
+  commentId: P:SuperOffice.CRM.Services.TokenManagementInfo.Claims
+  id: Claims
+  parent: SuperOffice.CRM.Services.TokenManagementInfo
+  langs:
+  - csharp
+  - vb
+  name: Claims
+  nameWithType: TokenManagementInfo.Claims
+  fullName: SuperOffice.CRM.Services.TokenManagementInfo.Claims
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: JSON serialized dictionary of claims from the AG id_token
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Claims { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Claims As String
+  overload: SuperOffice.CRM.Services.TokenManagementInfo.Claims*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -343,3 +377,10 @@ references:
   name: RefreshToken
   nameWithType: TokenManagementInfo.RefreshToken
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken
+- uid: SuperOffice.CRM.Services.TokenManagementInfo.Claims*
+  commentId: Overload:SuperOffice.CRM.Services.TokenManagementInfo.Claims
+  isExternal: true
+  href: SuperOffice.CRM.Services.TokenManagementInfo.html#SuperOffice_CRM_Services_TokenManagementInfo_Claims
+  name: Claims
+  nameWithType: TokenManagementInfo.Claims
+  fullName: SuperOffice.CRM.Services.TokenManagementInfo.Claims

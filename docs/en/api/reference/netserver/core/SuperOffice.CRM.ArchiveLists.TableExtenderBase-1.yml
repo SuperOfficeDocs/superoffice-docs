@@ -112,6 +112,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
   - SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
+  - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  - SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
   - SuperOffice.CRM.ArchiveLists.WorkflowInstanceExtenderBase
   implements:

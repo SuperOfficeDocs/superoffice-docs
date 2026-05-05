@@ -434,7 +434,7 @@ envir: onsite, online
 | [ticketrelationtype](ticketrelationtype.md) |Ticket Relation Type|
 | [ticketselectionwithstaticmenu](ticketselectionwithstaticmenu.md) |Provider for selecting ticket selections|
 | [ticketslevel](ticketslevel.md) |Ticket Security Level|
-| [ticketstatus](ticketstatus.md) |Ticket status values: Open, Closed, Inactive, Deleted, Connected|
+| [ticketstatus](ticketstatus.md) |Ticket status values: Open, Closed, Inactive, Deleted, Connected and Spam (if enabled).|
 | [ticketstatustimecounter](ticketstatustimecounter.md) |Ticket status timer count values: None, Internall, Externally, Queue|
 | [ticketstatuswithoutpostpone](ticketstatuswithoutpostpone.md) ||
 | [ticketstatuswithpostpone](ticketstatuswithpostpone.md) ||

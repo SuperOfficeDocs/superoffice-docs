@@ -1,0 +1,788 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TemporaryValue`1
+  commentId: T:SuperOffice.Util.TemporaryValue`1
+  id: TemporaryValue`1
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TemporaryValue`1.#ctor(System.Func{`0},System.Action{`0},`0)
+  - SuperOffice.Util.TemporaryValue`1.Dispose
+  langs:
+  - csharp
+  - vb
+  name: TemporaryValue<T>
+  nameWithType: TemporaryValue<T>
+  fullName: SuperOffice.Util.TemporaryValue<T>
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Temporarily sets a value and restores the original when disposed.
+
+    Use within a <code>using</code> block to ensure the original value is restored.
+  example: []
+  syntax:
+    content: 'public sealed class TemporaryValue<T> : IDisposable'
+    typeParameters:
+    - id: T
+      description: The type of the value being temporarily changed.
+    content.vb: Public NotInheritable Class TemporaryValue(Of T) Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  extensionMethods:
+  - SuperOffice.Util.TemporaryValue`1.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TemporaryValue`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: TemporaryValue(Of T)
+  fullName.vb: SuperOffice.Util.TemporaryValue(Of T)
+  name.vb: TemporaryValue(Of T)
+- uid: SuperOffice.Util.TemporaryValue`1.#ctor(System.Func{`0},System.Action{`0},`0)
+  commentId: M:SuperOffice.Util.TemporaryValue`1.#ctor(System.Func{`0},System.Action{`0},`0)
+  id: '#ctor(System.Func{`0},System.Action{`0},`0)'
+  parent: SuperOffice.Util.TemporaryValue`1
+  langs:
+  - csharp
+  - vb
+  name: TemporaryValue(Func<T>, Action<T>, T)
+  nameWithType: TemporaryValue<T>.TemporaryValue(Func<T>, Action<T>, T)
+  fullName: SuperOffice.Util.TemporaryValue<T>.TemporaryValue(System.Func<T>, System.Action<T>, T)
+  type: Constructor
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Captures the current value via <code class="paramref">getter</code>, then applies <code class="paramref">temporaryValue</code> using <code class="paramref">setter</code>.
+  example: []
+  syntax:
+    content: public TemporaryValue(Func<T> getter, Action<T> setter, T temporaryValue)
+    parameters:
+    - id: getter
+      type: System.Func{{T}}
+      description: A function that returns the current value.
+    - id: setter
+      type: System.Action{{T}}
+      description: An action that sets the value.
+    - id: temporaryValue
+      type: '{T}'
+      description: The temporary value to apply until this instance is disposed.
+    content.vb: Public Sub New(getter As Func(Of T), setter As Action(Of T), temporaryValue As T)
+  overload: SuperOffice.Util.TemporaryValue`1.#ctor*
+  nameWithType.vb: TemporaryValue(Of T).New(Func(Of T), Action(Of T), T)
+  fullName.vb: SuperOffice.Util.TemporaryValue(Of T).New(System.Func(Of T), System.Action(Of T), T)
+  name.vb: New(Func(Of T), Action(Of T), T)
+- uid: SuperOffice.Util.TemporaryValue`1.Dispose
+  commentId: M:SuperOffice.Util.TemporaryValue`1.Dispose
+  id: Dispose
+  parent: SuperOffice.Util.TemporaryValue`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: TemporaryValue<T>.Dispose()
+  fullName: SuperOffice.Util.TemporaryValue<T>.Dispose()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Restores the original value that was captured at construction time.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: SuperOffice.Util.TemporaryValue`1.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: TemporaryValue(Of T).Dispose()
+  fullName.vb: SuperOffice.Util.TemporaryValue(Of T).Dispose()
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.TemporaryValue`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<TemporaryValue<T>, To>(TemporaryValue<T>)
+  nameWithType: EnumUtil.MapEnums<TemporaryValue<T>, To>(TemporaryValue<T>)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TemporaryValue<T>, To>(SuperOffice.Util.TemporaryValue<T>)
+  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryValue(Of T), To)(TemporaryValue(Of T))
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TemporaryValue(Of T), To)(SuperOffice.Util.TemporaryValue(Of T))
+  name.vb: MapEnums(Of TemporaryValue(Of T), To)(TemporaryValue(Of T))
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TemporaryValue{`0})
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.TemporaryValue{`0})
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: SuperOffice.Util.TemporaryValue`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<TemporaryValue<T>, To>(TemporaryValue<T>)
+  nameWithType: Converters.MapEnums<TemporaryValue<T>, To>(TemporaryValue<T>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TemporaryValue<T>, To>(SuperOffice.Util.TemporaryValue<T>)
+  nameWithType.vb: Converters.MapEnums(Of TemporaryValue(Of T), To)(TemporaryValue(Of T))
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TemporaryValue(Of T), To)(SuperOffice.Util.TemporaryValue(Of T))
+  name.vb: MapEnums(Of TemporaryValue(Of T), To)(TemporaryValue(Of T))
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TemporaryValue{`0})
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.TemporaryValue{`0})
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.TemporaryValue`1
+    name: TemporaryValue
+    isExternal: true
+    href: SuperOffice.Util.TemporaryValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.TemporaryValue`1.#ctor*
+  commentId: Overload:SuperOffice.Util.TemporaryValue`1.#ctor
+  isExternal: true
+  href: SuperOffice.Util.TemporaryValue-1.html#SuperOffice_Util_TemporaryValue_1__ctor_System_Func__0__System_Action__0___0_
+  name: TemporaryValue
+  nameWithType: TemporaryValue<T>.TemporaryValue
+  fullName: SuperOffice.Util.TemporaryValue<T>.TemporaryValue
+  nameWithType.vb: TemporaryValue(Of T).New
+  fullName.vb: SuperOffice.Util.TemporaryValue(Of T).New
+  name.vb: New
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Util.TemporaryValue`1.Dispose*
+  commentId: Overload:SuperOffice.Util.TemporaryValue`1.Dispose
+  isExternal: true
+  href: SuperOffice.Util.TemporaryValue-1.html#SuperOffice_Util_TemporaryValue_1_Dispose
+  name: Dispose
+  nameWithType: TemporaryValue<T>.Dispose
+  fullName: SuperOffice.Util.TemporaryValue<T>.Dispose
+  nameWithType.vb: TemporaryValue(Of T).Dispose
+  fullName.vb: SuperOffice.Util.TemporaryValue(Of T).Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

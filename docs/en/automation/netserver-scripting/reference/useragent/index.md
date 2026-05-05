@@ -37,6 +37,7 @@ Service methods defined on <see cref='T:IUserAgent'>UserAgent</see> that can tri
 * [DeleteUserAsync](deleteuserasync.md)
 * [DeleteUserFromNameAsync](deleteuserfromnameasync.md)
 * [DeleteUserGroupAsync](deleteusergroupasync.md)
+* [ExchangeCodeAndSaveTokensAsync](exchangecodeandsavetokensasync.md)
 * [ExecuteUserCommandAsync](executeusercommandasync.md)
 * [FindCredentialsGroupsAsync](findcredentialsgroupsasync.md)
 * [FindCredentialUsersAsync](findcredentialusersasync.md)

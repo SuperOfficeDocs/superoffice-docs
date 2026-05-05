@@ -78,6 +78,8 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [SendTicketMessageSms](SendTicketMessageSms.md)
 * [SetDeletedStatusByIds](SetDeletedStatusByIds.md)
 * [SetDeletedStatusByProvider](SetDeletedStatusByProvider.md)
+* [SetSpamStatusByIds](SetSpamStatusByIds.md)
+* [SetSpamStatusByProvider](SetSpamStatusByProvider.md)
 * [SetTicketMessageImportant](SetTicketMessageImportant.md)
 * [SetTicketReadByOwner](SetTicketReadByOwner.md)
 * [SplitTicket](SplitTicket.md)
