@@ -65,6 +65,10 @@ Shared mailbox access is controlled by Microsoft 365. If a shared mailbox does n
 
 See also: [SuperOffice for Outlook: Authorisation guide](https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/)
 
+## Attachment size limit
+
+Attachments saved to SuperOffice from SuperOffice for Outlook cannot exceed 28 MB. Attachments larger than this limit cannot be saved.
+
 ## Requirements for centralized deployment
 
 Learn more about the requirements for [Centralized Deployment][5] from Microsoft.
