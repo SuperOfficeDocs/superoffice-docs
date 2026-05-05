@@ -3,9 +3,9 @@ uid: sofo
 title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 keywords: email, SuperOffice for Outlook, Outlook, SOFO
-author: Bergfrid Dias
-date: 10.29.2024
-version_sofo: 2024.8.12
+author: Andrea Schilde
+date: 05.05.2026
+version_sofo: 6.2.0
 content_type: concept
 category: integration
 topic: SuperOffice for Outlook
