@@ -5,7 +5,7 @@ description: The SuperOffice for Outlook add-in lets you work effortlessly betwe
 keywords: email, SuperOffice for Outlook, Outlook, SOFO
 author: Andrea Schilde
 date: 05.05.2026
-version_sofo: 6.2.0
+version_sofo: 6.3.0
 content_type: concept
 category: integration
 topic: SuperOffice for Outlook
