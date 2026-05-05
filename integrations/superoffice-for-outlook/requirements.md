@@ -55,9 +55,15 @@ The latest version of the following browsers are supported for Outlook on the we
 * Mozilla Firefox
 * Apple Safari (macOS)
 
-## Limitations
+## Shared mailbox support
 
-SuperOffice for Outlook works only with the main account. Shared mailboxes are not supported.
+SuperOffice for Outlook supports shared mailboxes when the mailbox is available to the user in Outlook and the required Microsoft 365 permissions have been granted.
+
+Users may be asked to approve additional Microsoft permissions the first time they use SuperOffice for Outlook with a shared mailbox. In some organizations, an administrator must approve these permissions on behalf of all users before shared mailbox features can be used.
+
+Shared mailbox access is controlled by Microsoft 365. If a shared mailbox does not appear in Outlook, or if you cannot send from it, contact your Microsoft 365 administrator.
+
+See also: [SuperOffice for Outlook: Authorisation guide](https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/)
 
 ## Requirements for centralized deployment
 
