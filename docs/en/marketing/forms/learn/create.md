@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-create
 title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
@@ -139,6 +139,14 @@ For full control over how your form looks, you can write CSS in the **Custom sty
 * **For experienced users:** Type or paste your CSS code directly in the field.
 * **For less advanced users:** Select a CSS class from the list, then add your code. This approach makes styling less overwhelming and gives you better control over what you are changing.
 
+If your organization has [AI Lab][11] enabled, you can automatically extract CSS from an existing website instead of writing it manually.
+
+![Form editor - extract styles with AI -screenshot][img17]
+
+1. Enter the URL of the web page whose styling you want to apply.
+1. Select **Extract styles with AI**. The extracted CSS is inserted into the field.
+1. Review and adjust the generated CSS as needed.
+
 The following CSS classes are available:
 
 | Class | Description |
@@ -240,7 +248,9 @@ Here you can [define what happens when someone submits a form response][3].
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
 [10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png
