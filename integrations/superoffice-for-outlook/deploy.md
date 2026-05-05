@@ -5,7 +5,7 @@ description: How to deploy SuperOffice for Outlook through the Microsoft 365 Adm
 keywords: SuperOffice for Outlook, Outlook, email, deploy, add-in, PowerShell, Microsoft 365 Admin Center, SOFO
 author: Frode B, Martin Pavlas
 date: 05.05.2026
-version_sofo: 6.2.0
+version_sofo: 6.3.0
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
