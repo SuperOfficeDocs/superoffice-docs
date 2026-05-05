@@ -97,6 +97,9 @@ You can also save email attachments directly to SuperOffice by following these s
 > [!NOTE]
 > Previously saved attachments will be marked as "Attachment already saved."
 
+> [!NOTE]
+> The maximum attachment size is 28 MB. Attachments larger than this limit cannot be saved to SuperOffice.
+
 ## Send and archive
 
 To send an email and automatically archive it to SuperOffice, follow these steps:
