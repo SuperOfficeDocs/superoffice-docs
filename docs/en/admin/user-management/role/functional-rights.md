@@ -63,7 +63,6 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 | Hide Inbox screen | Do not display the Inbox button and screen. | |
 | Hide Marketing screen | Do not display the Marketing button and screen. | |
 | Hide Project screen | Do not display the Project button and screen or project-related fields. | |
-| Hide Reports screen | Do not display the Reports button and screen. | (ONSITE ONLY) |
 | Hide Sale screen | Do not display the Sale button and screen. | |
 | Hide Selection screen | Do not display the Selection button and screen. | |
 | Hide Service screen | Do not display the Service button and screen. | |

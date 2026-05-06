@@ -75,7 +75,7 @@ landingContent:
         - text: Knyt skabelon (i Indstillinger og vedligeholdelse)
           url: templates/admin/link-template.md
         - text: Dokumentskabeloner på flere sprog
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/da/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:

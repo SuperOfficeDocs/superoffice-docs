@@ -14,7 +14,6 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 language: da
-redirect_from: /da/email/service/learn/create-mailbox
 ---
 
 # Oprettelse af e-mailkonti
@@ -24,7 +23,7 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 > [!NOTE]
 > Før du opsætter en e-mailkonto, skal du sørge for, at der ikke ligger gamle meddelelser på denne e-mailkonto på e-mailserveren. SuperOffice Service importerer alle e-mails, der ligger på e-mailkontoen, og du risikerer derfor at sende kvitteringer til alle de personer, der har sendt e-mails til denne e-mailadresse. Hvis du vil importere disse gamle e-mailmeddelelser, bør du deaktivere funktionen for automatisk afsendelse af kvittering. Dette gælder først og fremmest funktionerne **Send ikke automatisk svar** i skærmbilledet **Egenskaber for e-mailkonto** og **Send ikke e-mail til nye personer** på fanen **Indstillinger** i skærmbilledet **System** i SuperOffice Service.
 
-## Sådan opretter du en ny e-mailkonto - online
+## Trin
 
 1. [!include[Go to email](includes/goto-email.md)]
 
@@ -37,15 +36,25 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 
 1. Vælg kategori, prioritet, og sagstype:
 
-    [!include[Select category and priority](includes/step-select-category-priority.md)]
+    * På listen **Kategori** skal du vælge, hvilken kategori meddelelserne i denne e-mailkonto skal tilhøre.
+
+    * I rullelisten **Prioritet** skal du vælge, hvilken prioritet sager fra denne e-mailkonto skal have.
+
+    * I rullelisten **Sagstype** skal du vælge den type beskeder, der hører til i denne postkasse.
 
 1. [!include[Set customer language](includes/step-set-language.md)]
 
 1. Angiv svar:
 
-    [!include[Common steps](includes/step-set-reply.md)]
+    1. Marker **Send ikke automatisk svar**, hvis du vil deaktivere funktionen for automatisk svar. Se noten øverst i dette emne.
 
-1. [!include[Import stuff](includes/step-import.md)]
+    1. I feltet **E-mailfelt** kan du tilføje en kommasepareret liste med e-mailfelter (hovedfelter), der skal vises i sagsmeddelelsen. Eksempler på sådanne felter er Til og Kopi.
+
+    1. På listen **Svarskabelon til svar til kunde** skal du vælge, hvilken svarskabelon der skal bruges ved automatisk besvarelse til kunden.
+
+    1. **Foreslå FAQ-poster fra**: Hvis du markerer denne valgmulighed, foreslår systemet FAQ-poster ud fra teksten i indgående e-mail-meddelelser. De foreslåede FAQ-poster er tilgængelige som skabelonvariabler og kan derfor gentages i den valgte svarskabelon. Du kan også angive, hvilken gren af FAQ-træet der skal søges i, ved at angive den ønskede mappe.
+
+1. **Importér autosvar og systemmeddelelser**: Som standard importeres e-mails, der indeholder fraværsmeddelelser, systemmeddelelser og andre irrelevante meddelelser, ikke. Hvis du ønsker at importere sådanne e-mails, kan du markere denne mulighed.
 
 1. **AI-tjenester**: Her kan du vælge følgende indstillinger for kategorisering og tekstanalyse ved hjælp af [AI][4]:
 
@@ -54,49 +63,11 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 
 1. Klik på **OK**. E-mailkontoen oprettes.
 
-## Sådan opretter du en ny e-mailkonto - onsite
-
-1. [!include[Go to email](includes/goto-email.md)]
-
-1. Klik på **Ny mailboks**. Skærmbilledet **Egenskaber for e-mailkonto** vises med fanen **Egenskaber** åben.
-
-1. I feltet **Adresse** skal du indtaste den e-mailadresse, du vil bruge til e-mailkontoen.
-
-    > [!NOTE]
-    > Konfigurer videresendelse til denne e-mail-konto, hvis du vil bruge din virksomheds e-mailadresse (f.eks. `info@company.com`). Brug **Videresendelsesadresse** i skærmbilledet**E-mail-konti**.
-
-1. I rullemenuen **Protokol** skal du vælge, hvilken protokol der skal bruges til at kommunikere med e-mailserveren. Nogle af protokollerne kan kræve yderligere konfiguration.
-
-1. I feltet **E-mailserver** skal du indtaste værtsnavnet (hostname) på e-mailserveren.
-
-1. I felterne **Brugernavn** og **Adgangskode** skal du indtaste hhv. brugernavnet og adgangskoden til e-mailkontoen.
-
-1. I feltet **Mappe** skal du indtaste mappenavnet på e-mailkontoen på serveren.
-
-1. I feltet **Port** kan du eventuelt ændre den foreslåede standardport for den valgte protokol.
-
-1. Vælg kategori, prioritet, og sagstype:
-
-    [!include[Select category and priority](includes/step-select-category-priority.md)]
-
-1. På listen **Interval** skal du vælge, hvor ofte SuperOffice Service skal tjekke for meddelelser i denne e-mailkonto.
-
-1. [!include[Set customer language](includes/step-set-language.md)]
-
-1. Angiv svar:
-
-    [!include[Common steps](includes/step-set-reply.md)]
-
-1. Gå til fanen **Alias**. Her kan du indtaste ethvert e-mail-alias for en postkasse (for eksempel hvis `sales@company.com` og `sale@company.com` gå til den samme postkasse). Du tilføjer et alias ved at indtaste en e-mailadresse og derefter klikke på **+**.
-
-1. [!include[Import stuff](includes/step-import.md)]
-
-1. Klik på **OK**. E-mailkontoen oprettes.
-
 ## Relateret indhold
 
 * [Sletning af e-mail-konti][1]
 * [E-mail i Service og Marketing][5]
+* [Opret e-mailkonto (onsite)][6]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
@@ -104,3 +75,4 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
 [5]: ../../../../en/online/mail-services/curl/index.md
+[6]: https://help.superoffice.com/docs/11/da/email/admin/mailbox/create-mailbox.html

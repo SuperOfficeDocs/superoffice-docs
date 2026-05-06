@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/document/templates/admin/using-document-templates-for-multiple-languages.html
+redirect_url: https://help.superoffice.com/docs/11/sv/document/templates/admin/using-document-templates-for-multiple-languages.html
 ---

@@ -24,14 +24,6 @@ Using the free-text search function in SuperOffice CRM, users can search for tex
 
 You can define exactly how this will work in SuperOffice CRM using the **Freetext search** tab in Settings and maintenance.
 
-## Deactivate free-text search (onsite)
-
-1. [!include[Go to free-text search tab](includes/goto-freetext.md)]
-
-1. Uncheck **Enable freetext search**.
-
-By default, free-text search is enabled, but if your organization wishes to avoid the system overheads in time and space caused by the free-text index update when new entries are added to the database, you can uncheck **Enable freetext search**. This disables the free-text search field in SuperOffice CRM onsite. Free-text search can not be deactivated for online/cloud versions.
-
 ## Specify search criteria for a free-text search
 
 You can specify search criteria for both individual words (for example *Peter*) and phrases consisting of several words (for example *Oliver Peter Nielsen*).
@@ -60,10 +52,8 @@ You can specify search criteria for both individual words (for example *Peter*) 
 ## Related content
 
 * [Add stopwords][3]
-* [Regenerate a free-text index][4]
 
 <!-- Referenced links -->
 [3]: stopwords.md
-[4]: regenerate-index.md
 
 <!-- Referenced images -->

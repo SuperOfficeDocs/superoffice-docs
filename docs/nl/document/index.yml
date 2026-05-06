@@ -75,7 +75,7 @@ landingContent:
         - text: Sjabloon koppelen (in Instellingen en onderhoud)
           url: templates/admin/link-template.md
         - text: Documentsjablonen in meerdere talen
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/nl/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:

@@ -31,18 +31,9 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigato
 
 Du kan teste innstillingene ved å skrive inn et mobiltelefonnummer og noe tekst, og deretter klikke på **Test**.
 
-## Tilgjengelige felt for opprinnelig Intelecom (bare ONSITE)
+## Relatert innhold
 
-* **SMS-endepunkt**: Dette feltet skal inneholde kode som gjør det mulig for SuperOffice Service å gjenkjenne en innkommende SMS.
-* **Bruk nettjeneste**: Hvis du merker av dette, sendes SMS-er via en webtjeneste i stedet for via e-post. Dette er den foretrukne metoden, siden den gjør mer funksjonalitet tilgjengelig. Dette krever at en eventuell brannmur godtar utgående trafikk mot SMS-gateway.
-* **Leveringsbekreftelse**: Hvis du merker av for dette, støttes leveringsbekreftelse for SMS-er i SuperOffice Service. Det betyr at du kan se om en SMS ble levert til den aktuelle mobiltelefonen. Dette krever også konfigurering hos leverandøren.
-* **Tjeneste-ID**: Tjeneste-ID for SMS-tjenesten. Denne oppgis av SuperOffice AS.
-* **Brukernavn**: Her skriver du inn brukernavnet du har fått tildelt fra Intelecom.
-* **Passord**: Her skriver du inn passordet du har fått fra Intelecom.
-* **SMS-prioritet**: Her angir du enten 1, 2 eller 3. Tallene angir hvor raskt SMS-meldingene sendes ut.
+* [SMS-konfigurasjon for Intelecom og PsWinCom (onsite)][1]
 
-## Tilgjengelige felt for opprinnelig PsWinCom (bare ONSITE)
-
-* **SMS-endepunkt**: Dette feltet skal inneholde kode som gjør det mulig for SuperOffice Service å gjenkjenne en innkommende SMS.
-* **Brukernavn**: Her skriver du inn brukernavnet du har fått tildelt fra PsWinCom.
-* **Passord**: Her skriver du inn passordet du har fått tildelt fra PsWinCom.
+<!-- Referenced links -->
+[1]: https://help.superoffice.com/docs/11/no/admin/preferences/sms.html

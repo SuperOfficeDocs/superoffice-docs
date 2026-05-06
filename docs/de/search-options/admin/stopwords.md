@@ -26,9 +26,6 @@ Die als Stoppwörter für Volltextsuchen definierten Wörter werden in der Ansic
 
 1. Stellen Sie bei lokalen Installationen sicher, dass die Option **Freetext-Suche aktivieren** ausgewählt ist. In CRM Online ist diese Option immer aktiviert.
 
-> [!TIP]
-> Wenn Sie möchten, dass Ihre Änderungen einen rückwirkenden Effekt haben, müssen Sie den [Volltextindex erneuern][3]. Tun Sie dies, nachdem Sie Stoppwörter hinzugefügt haben, nachdem das System Stoppwörter vorgeschlagen hat oder nachdem Sie eine große Textmenge importiert haben.
-
 ## Stoppwörter hinzufügen
 
 1. Klicken Sie unter der Stoppwortliste auf die Schaltfläche **Hinzu**.
@@ -60,8 +57,5 @@ Stoppwörter werden gelöscht, damit sie nach dem Ausschließen doch in die Voll
 1. Wählen Sie das gewünschte Stoppwort.
 
 1. Klicken Sie unter der Firmenliste auf die Schaltfläche **Löschen**.
-
-<!-- Referenced links -->
-[3]: regenerate-index.md
 
 <!-- Referenced images -->

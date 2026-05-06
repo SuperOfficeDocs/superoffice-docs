@@ -79,26 +79,22 @@ Geef de volgende informatie op op het tabblad **Details**:
 
 1. Geef in het veld **Richting** op of de sjabloon uitgaand of binnenkomend is door te klikken op <i class="ph ph-caret-down" aria-label="Chevron"></i> en een keuze te maken in de keuzelijst.
 
-2. Kies in het veld **Documenttype** de optie **Document** of **Fax** als sjabloontype.
+1. Kies in het veld **Documenttype** de optie **Document** of **Fax** als sjabloontype.
 
-3. In het veld **Document opgeslagen in** kunt u kiezen om het document op een andere plaats dan op de standaardplaats op te slaan.
+1. In het veld **Document opgeslagen in** kunt u kiezen om het document op een andere plaats dan op de standaardplaats op te slaan.
 
-4. Klik in het veld **Intentie** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer een van de vooraf gedefinieerde opties in de lijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][4]).
+1. Klik in het veld **Intentie** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer een van de vooraf gedefinieerde opties in de lijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][4]).
 
     > [!TIP]
     > U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
 
-5. Lokaal: Schakel de optie **Publiceren** in als u in het Dialoogvenster Document wilt kunnen opgeven dat de desbetreffende documentsjabloon beschikbaar moet zijn voor externe gebruikers.
-
-6. Lokaal: Schakel de optie **Opslaan in database** in om op te geven of documenten die u maakt met deze sjabloon, worden opgeslagen in de documentdatabase. Als u deze optie hebt ingeschakeld, wordt het document weergegeven op het sectietabblad **Activiteiten**. Zo niet, wordt het document niet weergegeven in SuperOffice CRM nadat u het hebt gemaakt en kan het niet via het programma worden geopend.
-
-7. Schakel de optie **Type offertedocument** in als het document beschikbaar moet zijn als een [offertesjabloon][2] of opdrachtbevestigingssjabloon. U selecteert het gewenste type offertedocument in de lijst hieronder.
+1. Schakel de optie **Type offertedocument** in als het document beschikbaar moet zijn als een [offertesjabloon][2] of opdrachtbevestigingssjabloon. U selecteert het gewenste type offertedocument in de lijst hieronder.
 
     ![Item in lijst bewerken -screenshot][img8]
 
-8. Geef met behulp van de sjabloonvariabelen de standaardinstelling op voor het veld **Onze referentie (standaard)** (5), bijvoorbeeld *auteur* voor de voor- en achternaam van de afzender, of {oref}
+1. Geef met behulp van de sjabloonvariabelen de standaardinstelling op voor het veld **Onze referentie (standaard)** (5), bijvoorbeeld *auteur* voor de voor- en achternaam van de afzender, of {oref}
 
-9. Typ zo nodig een beschrijving voor de sjabloon in het veld **Beschrijving**.
+1. Typ zo nodig een beschrijving voor de sjabloon in het veld **Beschrijving**.
 
     > [!TIP]
     > U kunt de sjabloon rechtstreeks bewerken vanuit het dialoogvenster Item in lijst **bewerken** door te klikken op de knop **Bewerken**.

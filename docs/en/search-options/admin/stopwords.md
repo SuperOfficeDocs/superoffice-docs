@@ -26,9 +26,6 @@ The words defined as stopwords for free-text searches are listed in the **Stopwo
 
 1. In onsite installations, make sure the **Enable freetext search** option is selected. In CRM Online, this option is always enabled.
 
-> [!TIP]
-> To apply stopword changes to existing content, you must [regenerate the free-text index][3]. Do this after you add stopwords, after the system suggests stopwords, or after importing a large quantity of text.
-
 ## Add stopword
 
 1. Click the **Add** button below the stopword list.
@@ -60,8 +57,5 @@ The object of deleting stopwords is to include them in free-text searches after 
 1. Select the required stopword.
 
 1. Click the **Delete** button below the stopword list.
-
-<!-- Referenced links -->
-[3]: regenerate-index.md
 
 <!-- Referenced images -->

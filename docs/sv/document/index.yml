@@ -75,7 +75,7 @@ landingContent:
         - text: Länka mall (i Inställningar och underhåll)
           url: templates/admin/link-template.md
         - text: Dokumentmallar på flera språk
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/sv/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:

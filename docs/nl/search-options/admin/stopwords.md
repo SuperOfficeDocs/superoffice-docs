@@ -26,9 +26,6 @@ De woorden die zijn gedefinieerd als stopwoorden voor vrije-tekstzoekbewerkingen
 
 1. Zorg er bij on-premises installaties voor dat de optie **Freetekst zoeken inschakelen** is geselecteerd. In CRM Online is deze optie altijd ingeschakeld.
 
-> [!TIP]
-> Als u wilt dat de wijzigingen wel een terugwerkende kracht hebben, moet u [de vrije-tekstindex opnieuw genereren][3]. Doe dit nadat u stopwoorden hebt toegevoegd, nadat het systeem stopwoorden heeft voorgesteld of nadat u een grote hoeveelheid tekst hebt geïmporteerd.
-
 ## Stopwoord toevoegen
 
 1. Klik op de knop **Toevoegen** onder de lijst met stopwoorden.
@@ -60,8 +57,5 @@ U verwijdert stopwoorden als u ze bij nader inzien toch wilt gebruiken voor vrij
 1. Selecteer het gewenste stopwoord.
 
 1. Klik op de knop **Verwijderen** onder de lijst met stopwoorden.
-
-<!-- Referenced links -->
-[3]: regenerate-index.md
 
 <!-- Referenced images -->

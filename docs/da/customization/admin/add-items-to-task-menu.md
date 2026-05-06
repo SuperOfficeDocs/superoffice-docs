@@ -45,10 +45,6 @@ language: da
 
 Når du tilføjer en URL-adresse, kan det være nyttigt at bruge f.eks. skabelonvariablen for aktivt firma til at hente oplysninger fra andre programmer via en URL. URL-adressen skal angive parametre som i dette fiktive eksempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er skabelonvariablen for organisationsnummer, men andre variabler, såsom firmanavn &lt;name&gt;, firmaets telefonnummer &lt;cpho&gt; eller personnavn &lt;attn&gt; kan også anvendes.
 
-## Er SuperOffice CRM for Web installeret på et https-websted? (Onsite)
-
-[!include[HTTPS restriction](../includes/web-panels-and-https.md)]
-
 ## Relateret indhold
 
 * [Tilføjelse af et webpanelelement][1]

@@ -24,14 +24,6 @@ Mit der Funktion Volltextsuche in SuperOffice CRM können Benutzer die gesamte A
 
 Über die Registerkarte **Volltextsuche** in Einstellungen und Verwaltung können Sie die Volltextsuche in SuperOffice CRM genau steuern.
 
-## Deaktivieren Sie die Volltextsuche (Vor Ort)
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Deaktivieren Sie das Kontrollkästchen **Volltextsuche ermöglichen**.
-
-Standardmäßig ist die Volltextsuche aktiviert. Wenn Ihr Unternehmen Systemressourcen sparen möchte, die für die Aktualisierung des Volltextindex bei neuen Einträgen verwendet werden, können Sie das Kontrollkästchen **Volltextsuche aktiviert** deaktivieren. Dadurch wird das Feld für die Volltextsuche in SuperOffice CRM onsite deaktiviert. Die Freitextsuche kann nicht für online-/cloud-Versionen deaktiviert werden.
-
 ## Legen Sie Suchkriterien für eine Volltextsuche fest
 
 Sie können Suchkriterien für Einzelwörter (zum Beispiel *Peter*) und Phrasen aus mehreren Wörtern (zum Beispiel *Oliver Peter Gruber*) festlegen.
@@ -60,10 +52,8 @@ Sie können Suchkriterien für Einzelwörter (zum Beispiel *Peter*) und Phrasen 
 ## Verwandte Inhalte
 
 * [Stoppwörter hinzufügen][3]
-* [Volltextindex neu generieren][4]
 
 <!-- Referenced links -->
 [3]: stopwords.md
-[4]: regenerate-index.md
 
 <!-- Referenced images -->

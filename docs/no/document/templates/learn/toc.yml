@@ -25,7 +25,5 @@ items:
   href: ../admin/link-template.md
 - name: Redigere mal
   href: ../admin/update-template.md
-- name: Dokumentmaler på flere språk
-  href: ../admin/using-document-templates-for-multiple-languages.md
 - name: Standardverdier for nye dokumentmaler
   href: ../admin/document-template-defaults.md

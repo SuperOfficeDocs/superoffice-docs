@@ -25,7 +25,5 @@ items:
   href: ../admin/link-template.md
 - name: Vorlage bearbeiten
   href: ../admin/update-template.md
-- name: Dokumentvorlagen in mehreren Sprachen
-  href: ../admin/using-document-templates-for-multiple-languages.md
 - name: Standardwerte für neue Dokumentvorlagen
   href: ../admin/document-template-defaults.md

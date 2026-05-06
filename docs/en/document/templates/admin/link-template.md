@@ -80,26 +80,22 @@ Enter the following information in the **Details** tab:
 
 1. In the **Direction** field, specify if the template is outgoing or incoming, by clicking <i class="ph ph-caret-down" aria-label="Chevron"></i> and choosing from the list box.
 
-2. In the **Document type** field, choose either **Document** or **Fax** as the template type.
+1. In the **Document type** field, choose either **Document** or **Fax** as the template type.
 
-3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
+1. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
+1. In the **Intention** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
-5. Onsite: Check the **Publish** option if you want it to be possible to specify, in the Document dialog, that the document template in question should be made available to external users.
-
-6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
-
-7. Check the **Quote document type** option (4) if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
+1. Check the **Quote document type** option (4) if the document should be available as a [quote template][2] or order confirmation template. You select the quote document type in the list below.
 
     ![Reference list item -screenshot][img8]
 
-8. Specify the default setting for the **Our reference (default)** field (5) using the template variables, for example *auth* for the sender's first and last names, or {oref}
+1. Specify the default setting for the **Our reference (default)** field (5) using the template variables, for example *auth* for the sender's first and last names, or {oref}
 
-9. Optionally, type in a description of the template in the **Description** field.
+1. Optionally, type in a description of the template in the **Description** field.
 
     > [!TIP]
     > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog.

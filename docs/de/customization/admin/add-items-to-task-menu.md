@@ -45,10 +45,6 @@ language: de
 
 Wenn Sie eine URL-Adresse hinzufügen, könnte es nützlich sein, Vorlagenvariablen für die aktive Firma zu verwenden, um zum Beispiel über eine URL Informationen von anderen Anwendungen abzurufen. Es müssen die URL-Adresse Parameter angegeben werden, wie in folgendem Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist die Vorlagenvariable für die Organisationsnummer, andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt; und Personenname &lt;attn&gt; können ebenfalls verwendet werden.
 
-## Ist SuperOffice CRM for Web auf einer https-Seite installiert? (Vor Ort)
-
-[!include[HTTPS restriction](../includes/web-panels-and-https.md)]
-
 ## Verwandte Themen
 
 * [Web-Bildschirm-Objekt hinzufügen][1]

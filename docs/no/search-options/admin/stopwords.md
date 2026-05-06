@@ -26,9 +26,6 @@ De ordene som er definert som stoppord for fritekstsøk, vises i tabellen under 
 
 1. I lokale installasjoner må du kontrollere at alternativet **Aktiver fritekstsøk** er valgt. I CRM Online er dette alternativet alltid aktivert.
 
-> [!TIP]
-> Hvis du vil at endringene dine skal ha tilbakevirkende kraft, må du [generere fritekstindeksen på nytt][3]. Gjør dette etter at du har lagt til stoppord, etter at systemet har foreslått stoppord, eller etter at du har importert en stor mengde tekst.
-
 ## Legge til stoppord
 
 1. Klikk på **Legg til**-knappen under stoppordlisten.
@@ -60,8 +57,5 @@ Hensikten med å slette stoppord er å inkludere dem i fritekstsøk likevel, ett
 1. Merk ønsket stoppord.
 
 1. Klikk på **Slett**-knappen under stoppordlisten.
-
-<!-- Referenced links -->
-[3]: regenerate-index.md
 
 <!-- Referenced images -->
