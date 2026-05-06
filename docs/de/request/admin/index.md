@@ -35,7 +35,6 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 * [Kundensprachen][10]
 * [Kundenzentrum-Konfiguration und Quelldateien][21]
 * [Chat][23]
-* [SOAP][14] (nur VOR ORT)
 * [Systemdesign][15]
 * [Profil][16] – Änderungen hier werden nirgendwo im SuperOffice CRM-Modul angezeigt (nur im Service-Modul)
 
@@ -51,7 +50,6 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
 [7]: ../learn/index.md#available
-[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

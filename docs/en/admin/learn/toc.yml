@@ -31,6 +31,3 @@ items:
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md
-- name: Onsite
-  href: ../onsite/toc.yml
-  topicHref: ../onsite/data-exchange.md

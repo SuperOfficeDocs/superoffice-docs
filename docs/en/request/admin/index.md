@@ -35,7 +35,6 @@ In this section, you can configure the settings for Service to tailor it to your
 * [Customer languages][10]
 * [Customer centre configuration and source files][21]
 * [Chat][23]
-* [SOAP][14] (ONSITE only)
 * [System design][15]
 * [Profile][16] - changes here will not show anywhere in SuperOffice CRM module (only in the Service module)
 
@@ -50,7 +49,6 @@ In this section, you can configure the settings for Service to tailor it to your
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
-[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

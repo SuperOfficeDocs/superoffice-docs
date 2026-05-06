@@ -18,7 +18,12 @@ redirect_from: /en/service/soap/ports/index
 * [customer port][2]
 * [ticket port][3]
 
+## Related content
+
+* [Configure SOAP ports][4]
+
 <!-- Referenced links -->
 [1]: admin/index.md
 [2]: customer/index.md
 [3]: ticket/index.md
+[4]: https://help.superoffice.com/docs/11/en/admin/onsite/configure-soap.html

@@ -60,6 +60,6 @@ Genom att [lägga till extratabeller och fält][1] i SuperOffice kan du spara en
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../customization/admin/package-properties.md
-[14]: ../../../admin/onsite/data-exchange.md
+[14]: https://help.superoffice.com/docs/11/sv/admin/onsite/data-exchange.html
 
 <!-- Referenced images -->

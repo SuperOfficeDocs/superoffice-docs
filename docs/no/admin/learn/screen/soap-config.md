@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/no/admin/onsite/configure-soap.html
+redirect_url: https://help.superoffice.com/docs/11/no/admin/onsite/configure-soap.html
 ---

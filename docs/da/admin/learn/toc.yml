@@ -23,6 +23,3 @@ items:
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md
-- name: Lokalt
-  href: ../onsite/toc.yml
-  topicHref: ../onsite/data-exchange.md

@@ -60,4 +60,4 @@ By [adding extra tables and fields][1] to SuperOffice you can save a variety of 
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../customization/admin/package-properties.md
-[14]: ../../../admin/onsite/data-exchange.md
+[14]: https://help.superoffice.com/docs/11/en/admin/onsite/data-exchange.html

@@ -192,7 +192,7 @@ Samme SCIM-unntak gjelder: tell antall brukte brukerplaner, ikke totalen som er 
 <!-- Referenced links -->
 [1]: activate.md
 [2]: ../../saint/learn/index.md
-[3]: ../onsite/add-system-event.md
+[3]: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm

@@ -35,7 +35,6 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 * [Kundesprog][10]
 * [Kundecenterkonfiguration og kildefiler][21]
 * [Chat][23]
-* [SOAP][14] (kun på stedet)
 * [Systemdesign][15]
 * [Profil][16] – ændringer her vises ingen steder i SuperOffice CRM-modulet (kun i Servicemodulet)
 
@@ -51,7 +50,6 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
 [7]: ../learn/index.md#available
-[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

@@ -23,6 +23,3 @@ items:
 - name: Importieren
   href: ../import/toc.yml
   topicHref: ../import/index.md
-- name: Vor Ort
-  href: ../onsite/toc.yml
-  topicHref: ../onsite/data-exchange.md
