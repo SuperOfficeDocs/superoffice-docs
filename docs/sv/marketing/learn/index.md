@@ -94,10 +94,6 @@ För att dra nytta av marknadsföringsfunktioner i SuperOffice behöver du ha en
 | Cross-sell och up-sell-främjande | | x |
 | Marknadsföring/försäljning-anpassning | x | x |
 
-## Skillnader mellan lokala installationer och onlineinstallationer
-
-SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett lokalt program (installerat hos kunden). Det finns mindre skillnader mellan de två programmen. Specifika funktionsskillnader anges med ikonerna i själva procedurerna eller i avsnittsrubrikerna.
-
 ## Detaljkort SuperOffice Marknadsföring
 
 | Flik | Beskrivning | Läs mer |

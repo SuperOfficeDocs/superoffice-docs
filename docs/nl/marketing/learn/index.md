@@ -93,10 +93,6 @@ Om te profiteren van de marketingfuncties van SuperOffice, hebt u een basiskenni
 | Cross-sell en up-sell enablement​ | | x |
 | Marketing/verkoop afstemming​ | x | x |
 
-## Verschillen tussen lokale en online installaties
-
-SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) en als lokale toepassing (geïnstalleerd op locatie bij de klant). Er zijn een paar kleine verschillen tussen deze twee. Specifieke functionele verschillen worden aangegeven door de pictogrammen in de procedures of in de titels van de onderwerpen.
-
 ## Tabbladen SuperOffice Marketing
 
 | Tabblad | Beschrijving | Lees meer |

@@ -94,10 +94,6 @@ For at få gavn af SuperOffice marketingfunktioner skal du have en basisviden om
 | Cross-sell og up-sell-fremme​ | | x |
 | Marketing/salg-tilpasning​ | x | x |
 
-## Forskelle mellem installationer online og onsite
-
-SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som en onsite-applikation (installeret hos kunden). Der er mindre forskelle mellem de to typer. Specifikke funktionsmæssige forskelle er angivet med ikoner i selve procedurerne eller i emnetitlerne.
-
 ## Fanerne i SuperOffice Marketing
 
 | Fane | Beskrivelse | Læs mere |

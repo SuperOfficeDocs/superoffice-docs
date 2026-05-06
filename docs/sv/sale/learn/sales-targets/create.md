@@ -31,9 +31,6 @@ Det är valfritt att lägga till företagets mål och att ha användarspecifika 
 
 ## Krav
 
-> [!NOTE]
-> Endast för **ONLINE**-kunder. (Inte tillgängligt för Onsite-kunder.)
-
 Om du bara har en Sales Premium-licens kan du lägga till en grupp för måltypen **Alla försäljningar – Belopp**. För att lägga till mer än en användargrupp behöver du även licensen *Obegränsade försäljningsmål*.
 
 ## Innan du börjar

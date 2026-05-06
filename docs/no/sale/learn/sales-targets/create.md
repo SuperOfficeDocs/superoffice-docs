@@ -31,9 +31,6 @@ Det er valgfritt å legge til firmamålet og ha brukerspesifikke mål (gå til M
 
 ## Krav
 
-> [!NOTE]
-> Kun **ONLINE**-kunder. (Ikke tilgjengelig for onsite-kunder.)
-
 Hvis du bare har en Sales Premium-lisens, kan du legge til en gruppe for måltypen **Alle salg – beløp**. For å legge til mer enn en brukergruppe, trenger du også lisensen Unlimited sales targets.
 
 ## Før du begynner

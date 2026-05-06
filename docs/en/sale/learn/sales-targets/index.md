@@ -17,8 +17,6 @@ language: en
 # Sales targets
 
 > [!NOTE]
-> Only available for Online customers. (Not available for Onsite customers.)
->
 > This feature requires the Sales Premium licence. To be able to add new target types, you have to have the Sales Targets unlimited license. See details below.
 
 The possibility to keep track of your sales opportunities is one of the key functionalities in SuperOffice CRM. With the help of our sales target functionality, you can compare your actual sales to your targets.

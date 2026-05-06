@@ -92,10 +92,6 @@ For å kunne dra nytte av markedsføringsfunksjonene i SuperOffice trenger du en
 | Kryss-salg og opp-salg​ | | x |
 | Markedsføring/salg samarbeid​ | x | x |
 
-## Forskjeller mellom installasjoner på stedet og på nettet
-
-SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lokalt program (installert hos kunden). Det finnes mindre forskjeller mellom de to. Spesifikke funksjonsforskjeller er markert med ikonene i selve fremgangsmåtene eller i emnetitler.
-
 ## Faner i SuperOffice Marketing
 
 | Fane | Beskrivelse | Les mer |

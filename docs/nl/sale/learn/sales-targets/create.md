@@ -31,9 +31,6 @@ Het is optioneel om het bedrijfstarget toe te voegen en om gebruikersspecifieke 
 
 ## Vereisten
 
-> [!NOTE]
-> Alleen voor **ONLINE**-klanten. (Niet beschikbaar voor Onsite-klanten.)
-
 Als u alleen een Sales Premium-licentie heeft, kunt u één groep toevoegen voor het targettype **Alle verkopen – Bedrag**. Om meer dan één gebruikersgroep toe te voegen, heeft u ook de licentie Unlimited sales targets nodig.
 
 ## Voor u begint

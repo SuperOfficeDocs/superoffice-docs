@@ -17,8 +17,6 @@ language: da
 # Salgsmål
 
 > [!NOTE]
-> Kun tilgængelig for onlinekunder. (Ikke tilgængelig for kunder på stedet.)
->
 > Denne funktion kræver Sales Premium-licensen. For at kunne tilføje nye måltyper skal du have den ubegrænsede licens til salgsmål. Se detaljer nedenunder.
 
 Muligheden for at holde styr på dine salgsmuligheder er en af nøglefunktionerne i SuperOffice CRM. Ved hjælp af vores salgsmålfunktion kan du sammenligne dit faktiske salg med dine mål.

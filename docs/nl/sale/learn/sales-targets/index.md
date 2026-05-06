@@ -17,8 +17,6 @@ language: nl
 # Verkooptargets
 
 > [!NOTE]
-> Alleen beschikbaar voor Online klanten. (Niet beschikbaar voor Onsite-klanten.)
->
 > Voor deze functie is de licentie Sales Premium vereist. Om nieuwe targettypen toe te kunnen voegen, moet u de Sales Targets unlimited hebben. Zie details hieronder.
 
 De mogelijkheid om uw verkoopkansen te volgen is een van de belangrijkste functionaliteiten in SuperOffice CRM. Met behulp van onze functies voor verkooptargets kunt u uw werkelijke verkopen vergelijken met uw targets.

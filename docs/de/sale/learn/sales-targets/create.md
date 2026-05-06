@@ -31,9 +31,6 @@ Es ist optional, ob Sie das Unternehmensziel hinzufügen und benutzerspezifische
 
 ## Anforderungen
 
-> [!NOTE]
-> Nur für **ONLINE**-Kunden. (Nicht verfügbar für Onsite-Kunden.)
-
 ## Bevor Sie beginnen
 
 Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Verwaltung einige Dinge konfigurieren:

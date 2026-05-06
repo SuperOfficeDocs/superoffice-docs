@@ -31,8 +31,6 @@ Det er valgfrit at tilføje virksomhedens mål og have brugerspecifikke mål (g�
 
 ## Krav
 
-> [!NOTE]
-> Kun **ONLINE**-kunder. (Ikke tilgængelig for kunder på stedet.)
 
 Hvis du kun har en Sales Premium-licens, kan du tilføje én gruppe for måltypen **Alle salg – Beløb**. For at tilføje mere end én brugergruppe skal du også have licensen Ubegrænsede salgsmål.
 

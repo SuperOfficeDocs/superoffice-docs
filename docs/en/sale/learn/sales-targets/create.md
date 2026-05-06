@@ -31,9 +31,6 @@ It is optional to add the company target and to have user specific targets (go t
 
 ## Requirements
 
-> [!NOTE]
-> **ONLINE** customers only. (Not available to Onsite customers.)
-
 If you only have a Sales Premium license, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the Unlimited sales targets license.
 
 ## Before you start

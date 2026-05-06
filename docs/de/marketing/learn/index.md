@@ -92,10 +92,6 @@ Um von den Marketingfunktionen von SuperOffice profitieren zu können, benötige
 | Cross-Selling und Up-Selling | | x |
 | Marketing/Sales-Alignment | x | x |
 
-## Unterschiede zwischen Vor-Ort- und Online-Installationen
-
-SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-Anwendung (am Kundenstandort installiert) verfügbar. Zwischen den beiden Versionen gibt es einige kleine Unterschiede. Auf spezifische Funktionsunterschiede wird durch die Symbole in den Überschriften der Themen hingewiesen.
-
 ## Registerkarte SuperOffice Marketing
 
 | Registerkarte | Beschreibung | Weiterlesen |

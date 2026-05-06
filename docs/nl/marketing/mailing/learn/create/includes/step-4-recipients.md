@@ -70,7 +70,6 @@ Wanneer u een lijst met namen en e-mailadressen importeert, probeert SuperOffice
     > [!NOTE]
     > U kunt ook alleen het e-mailadres opgeven. De naam is dan echter niet beschikbaar als een sjabloonvariabele.
 
-* Lokaal: Elke ontvanger (rij) kan ook een mobiel telefoonnummer bevatten (na het e-mailadres) in het geval u mailings via SMS wilt maken. Bijvoorbeeld: "Henk Jansen, john@company.com, 99999999". Vereist de Marketing SMS-licentie.
 
 > [!NOTE]
 > Wanneer u alleen het mobiele telefoonnummer hebt en een SMS wilt sturen, kunt u het volgende invoeren: " , , 99887766".
