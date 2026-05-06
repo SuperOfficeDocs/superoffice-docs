@@ -46,7 +46,7 @@ Hvis du vil ha detaljer om de registrerte e-postadressene, går du til <i class=
 
 1. I feltet **E-postadresse** skriver du inn personens e-postadresse.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klikk på **OK**. E-postadressen legges til i den angitte mappen og er tilgjengelig neste gang du vil sende en e-post.
 

@@ -46,7 +46,7 @@ Om du vill ha detaljerad information om registrerade e-postadresser går du till
 
 1. I fältet **E-postadress** anger du personens e-postadress.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klicka på **OK**. E-postadressen läggs in i den valda mappen och är tillgänglig nästa gång du ska skicka e-post.
 

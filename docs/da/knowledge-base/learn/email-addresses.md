@@ -46,7 +46,7 @@ Hvis du vil have oplysninger om de registrerede e-mailadresser, skal du gå til 
 
 1. I feltet **E-mailadresse** skal du indtaste denne persons e-mailadresse.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klik på **OK**. E-mailadressen tilføjes til den angivne mappe og vil være tilgængelig, næste gang du skal sende e-mails.
 

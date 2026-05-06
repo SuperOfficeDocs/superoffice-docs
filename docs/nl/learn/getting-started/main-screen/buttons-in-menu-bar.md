@@ -26,7 +26,7 @@ De **bovenste balk** bevat essentiële tools voor navigatie in SuperOffice CRM. 
 | <i class="ph ph-bell" aria-label="Bel pictogram"></i> | [**Uitnodigingen**][9] | Bekijk nieuwe meldingen zoals uitnodigingen, toegewezen verzoeken en goedgekeurde verkopen. Klik op een melding om het bijbehorende record te openen. |
 | <i class="ph ph-user-circle" aria-label="Contact pictogram"></i> | **Persoonlijke instellingen** | Bewerk voorkeuren, e-mailhandtekeningen en wachtwoorden. Toont uw profielfoto als deze is toegevoegd aan uw persoonskaart. |
 | <i class="ph ph-list" aria-label="Hoofdmenu pictogram"></i> | **Hoofdmenu** | Toegang tot algemene systeeminstellingen, wisselen tussen modules of andere applicaties openen. |
-| <i class="ph ph-lightbulb" aria-label="Gloeilamp pictogram"></i> | **In-app Kenniscentrum** | Open rondleidingen, handleidingen en inspiratiebronnen (alleen online). |
+| <i class="ph ph-lightbulb" aria-label="Gloeilamp pictogram"></i> | **In-app Kenniscentrum** | Open rondleidingen, handleidingen en inspiratiebronnen |
 | **Help** | **Help** | Open gebruikershandleidingen en informatie afgestemd op de huidige taak of module. |
 
 ## Opties in het menu Persoonlijke instellingen

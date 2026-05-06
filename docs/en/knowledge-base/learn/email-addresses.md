@@ -46,7 +46,7 @@ If you want details of the registered email addresses, go to <i class="ph ph-lis
 
 1. In the **Email address** field, enter the person's email address.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Click **OK**. The email address is added to the specified folder and available the next time you want to send an email.
 

@@ -72,17 +72,10 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 
 * **Track all links**: Check here to track all links in mailings.
 
-* **Internal URL**: The base address for access to the SuperOffice Service system. (ONSITE only)
+## Related content
 
-* **External URL**: The base address for external access to the SuperOffice Service system. (ONSITE only)
-
-* **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*. (ONSITE only)
-
-* **Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS). (ONSITE only)
-
-* **Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS). (ONSITE only)
-
-* **Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online. (ONSITE only)
+* [Service settings (onsite)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/en/admin/preferences/service-settings.html

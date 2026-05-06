@@ -39,7 +39,6 @@ I fanen **E-postkasser** finner du en oversikt over de installerte e-postkassene
 * **Kategori**: Saker fra e-postkassen tilordnes til denne kategorien.
 * **Prioritet**: Prioriteten som nye saker tilordnes når de registreres fra denne e-postkassen.
 * **Videresendingsadresse**: Hvis du ikke bruker e-postfunksjonene i SuperOffice, videresendes e-poster til denne adressen.
-* **Protokoll**: Protokollen som e-postkassen bruker.
 
 ### <a id="email-in"></a>Innboks for e-post
 

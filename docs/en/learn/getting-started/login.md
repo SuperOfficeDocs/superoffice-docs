@@ -24,7 +24,7 @@ To use SuperOffice CRM, you must be assigned a user account that is unique for y
 
 ## What is my user ID?
 
-For online and web users, the user ID is your email address.
+The user ID is your email address.
 
 Windows users must use their assigned user name.
 
@@ -116,11 +116,11 @@ If your SuperOffice installation uses SuperID authentication, check your inbox f
 
 Still cannot log in for the first time? Contact your SuperOffice administration and ask them to confirm that when your [user was created][3], a user plan was selected and that your contact card has the same email address as your user card in Settings and maintenance.
 
-### If you were able to log in to SuperOffice Online earlier
+### If you were able to log in to SuperOffice earlier
 
 1. First, make sure you did not make any spelling mistakes, CapsLock is not On, and NumLock is on if you used numbers in your password.
 
-1. Try to log in to SuperOffice Online using a different browser. If that works, you need to [delete cookies of the browser you usually use][12].
+1. Try to log in to SuperOffice using a different browser. If that works, you need to [delete cookies of the browser you usually use][12].
 
 1. Does your contact have more than one email address in the contact card? Try to delete the email address you do NOT use to log in.
 

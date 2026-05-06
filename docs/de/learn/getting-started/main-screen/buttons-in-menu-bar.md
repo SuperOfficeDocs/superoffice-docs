@@ -26,7 +26,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 | <i class="ph ph-bell" aria-label="Bell icon"></i> | [**Benachrichtigungen**][9] | Sehen Sie neue Benachrichtigungen wie Einladungen, zugewiesene Anfragen oder genehmigte Verkäufe. Klicken Sie auf eine Benachrichtigung, um den zugehörigen Eintrag zu öffnen. |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **Persönliche Einstellungen** | Bearbeiten Sie Voreinstellungen und E-Mail-Signaturen. Ihr Profilbild wird angezeigt, wenn es in Ihrer Personenkarte hinterlegt ist. |
 | <i class="ph ph-list" aria-label="Main menu"></i> | **Hauptmenü** | Greifen Sie auf allgemeine Systemeinstellungen zu, wechseln Sie zwischen Modulen oder starten Sie andere Anwendungen. |
-| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-App-Resource-Center** | Öffnen Sie geführte Touren, Benutzerhandbücher und Inspiration (nur online verfügbar). |
+| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-App-Resource-Center** | Öffnen Sie geführte Touren, Benutzerhandbücher und Inspiration |
 | **Hilfe** | **Hilfe** | Erhalten Sie kontextbezogene Anleitungen zur Nutzung von SuperOffice CRM, passend zu Ihrer aktuellen Aufgabe oder dem jeweiligen Modul. |
 
 ## Optionen im Menü Persönliche Einstellungen

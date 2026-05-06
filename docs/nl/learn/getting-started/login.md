@@ -25,7 +25,7 @@ Als u SuperOffice CRM wilt gebruiken, moet aan u een gebruikersaccount zijn toeg
 
 ## Wat is mijn gebruikers-ID?
 
-Voor online- en webgebruikers is de gebruikers-ID uw e-mailadres.
+Uw gebruikers-ID is uw e-mailadres.
 
 Windows-gebruikers moeten hun toegewezen gebruikersnaam gebruiken.
 

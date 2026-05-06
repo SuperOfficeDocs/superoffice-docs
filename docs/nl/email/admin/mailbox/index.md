@@ -39,7 +39,6 @@ Het tabblad **Postbussen** bevat een lijst met geïnstalleerde postbussen. Deze 
 * **Categorie**: Verzoeken van de postbus worden aan deze categorie toegewezen.
 * **Prioriteit**: De prioriteit die wordt toegewezen aan nieuwe verzoeken die vanuit deze postbus worden geregistreerd.
 * **Doorstuuradres**: Wanneer u de e-mailfuncties in SuperOffice niet gebruikt, wordt het e-mailbericht naar dit adres doorgestuurd.
-* **Protocol**: Het protocol dat door de postbus wordt gebruikt.
 
 ### <a id="email-in"></a>Postvak IN voor e-mail
 

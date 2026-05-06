@@ -24,7 +24,7 @@ For å bruke SuperOffice CRM må du være tilordnet en brukerkonto som er unik f
 
 ## Hva er bruker-ID-en min?
 
-For nett- og nettbrukere er bruker-ID-en din e-postadressen.
+Bruker-ID-en din er e-postadressen din.
 
 Windows-brukere må bruke det brukernavnet de har fått tilordnet.
 

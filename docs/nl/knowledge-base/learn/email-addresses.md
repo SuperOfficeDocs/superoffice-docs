@@ -46,7 +46,7 @@ Als u meer informatie wilt over de geregistreerde e-mailadressen, gaat u naar <i
 
 1. Voer in het veld **E-mailadres** zijn/haar e-mailadres in.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klik op **OK**. Het e-mailadres wordt toegevoegd aan de opgegeven map en is de volgende keer beschikbaar als u een e-mailbericht wilt verzenden.
 

@@ -20,13 +20,9 @@ Een stopwoord is een woord dat niet is geïndexeerd (niet opgenomen in een vrije
 
 De woorden die zijn gedefinieerd als stopwoorden voor vrije-tekstzoekbewerkingen, worden weergegeven in de tabel **Lijst met stopwoorden** op het tabblad **Vrije-tekstzoekbewerking** in het scherm Opties.
 
-## Voordat u begint
+## Stopwoord toevoegen
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Zorg er bij on-premises installaties voor dat de optie **Freetekst zoeken inschakelen** is geselecteerd. In CRM Online is deze optie altijd ingeschakeld.
-
-## Stopwoord toevoegen
 
 1. Klik op de knop **Toevoegen** onder de lijst met stopwoorden.
 

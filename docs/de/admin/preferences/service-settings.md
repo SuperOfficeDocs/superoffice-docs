@@ -72,17 +72,10 @@ Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einst
 
 * **Alle Links überwachen**: Schauen Sie hier, um alle Links in Kampagnen zu überwachen.
 
-* **Interne URL**: Die Basisadresse für den Zugriff auf das SuperOffice Service-System. (nur VOR ORT)
+## Verwandte Inhalte
 
-* **Externe URL**: Die Basisadresse für den externen Zugriff auf das SuperOffice Service-System. (nur VOR ORT)
-
-* **Cgi-Bin-Pfad**: Der Pfad des Ordners, in dem sich die Cgi-Bin-Anwendungsdateien von SuperOffice Service befinden. Der Pfad muss mit einem Trennzeichen (Schrägstrich) eingeleitet werden, darf aber nicht mit einem Trennzeichen enden. Zum Beispiel: */bin* oder */Scripts*. (nur VOR ORT)
-
-* **Benutzerauthentifizierung über Webserver**: Wenn diese Option aktiviert ist, gestattet SuperOffice Service die Benutzerauthentifizierung vom Web-Server (Microsoft IIS). (nur VOR ORT)
-
-* **Kundenauthentifizierung über Webserver**: Wenn diese Option aktiviert ist, gestattet SuperOffice Service die Benutzerauthentifizierung vom Web-Server des Kundenzentrums (Microsoft IIS). (nur VOR ORT)
-
-* **Online im Internet**: Aktivieren Sie diese Option, wenn SuperOffice Service im Internet verfügbar ist. Damit steuern Sie Teile der in SuperOffice Service verfügbaren Funktionen, weil für einige Funktionen das System online sein muss. (nur VOR ORT)
+* [Service-Einstellungen (vor Ort)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/de/admin/preferences/service-settings.html

@@ -24,7 +24,7 @@ Um SuperOffice CRM nutzen zu können, muss Ihnen ein eindeutiges Benutzerkonto z
 
 ## Wie lautet meine Benutzer-ID?
 
-Für Online- und Web-Benutzer ist die Benutzer-ID ihre E-Mail-Adresse.
+Die Benutzer-ID ist Ihre E-Mail-Adresse.
 
 Windows-Benutzer müssen ihren zugewiesenen Benutzernamen verwenden.
 

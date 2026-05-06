@@ -25,7 +25,7 @@ For at bruge SuperOffice CRM skal du have tildelt en brugerkonto, der er unik fo
 
 ## Hvad er mit bruger-id?
 
-For brugere og internetbrugere, der er logget på, er bruger-ID'et det samme som din e-mailadresse.
+Dit bruger-ID er din e-mailadresse.
 
 Windows-brugere skal anvende det brugernavn, de er blevet tildelt.
 

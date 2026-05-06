@@ -102,7 +102,7 @@ Watch this demo to see how you can add a new user in SuperOffice CRM.
 
 ## Troubleshooting
 
-### A newly created user cannot log in to SuperOffice ONLINE
+### A newly created user cannot log in to SuperOffice
 
 There are two common situations when a new user cannot log in:
 

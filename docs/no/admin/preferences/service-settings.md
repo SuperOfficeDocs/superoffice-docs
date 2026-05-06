@@ -72,17 +72,10 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigato
 
 * **Spor alle koblinger**: Sjekk her for å spore alle koblinger i utsendelser.
 
-* **Intern URL**: Baseadressen for tilgang til SuperOffice Service-systemet. (Bare ONSITE)
+## Relatert innhold
 
-* **Ekstern URL**: Basisadressen for ekstern tilgang til SuperOffice Service-systemet. (Bare ONSITE)
-
-* **Cgi-Bin-bane**: Banen til mappen hvor SuperOffice Services Cgi-Bin-applikasjonsfiler ligger. Denne banen må ha med innledende mappeskilletegn (skråstrek), men ikke avsluttende. For eksempel */bin* eller */Scripts*. (Bare ONSITE)
-
-* **Bruk brukergodkjenning fra webserveren**: Hvis du merker av her, godtar SuperOffice Service brukergodkjenning som stammer fra webserveren (Microsoft IIS). (Bare ONSITE)
-
-* **Bruk kundegodkjenning fra webserveren**: Hvis du merker av her, godtar SuperOffice Service brukergodkjenning som stammer fra webserveren på kundesenteret (Microsoft IIS). (Bare ONSITE)
-
-* **Tilgjengelig på Internett**: Merk av her dersom SuperOffice Service er tilgjengelig på Internett. Dette vil styre deler av funksjonaliteten som er tilgjengelig i SuperOffice Service, siden noe av funksjonaliteten krever at løsningen faktisk er tilgjengelig på Internett. (Bare ONSITE)
+* [Service-innstillinger (onsite)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/no/admin/preferences/service-settings.html

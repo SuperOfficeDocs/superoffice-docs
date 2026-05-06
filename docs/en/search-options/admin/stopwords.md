@@ -20,13 +20,9 @@ A stopword is a word that is not indexed (not included in a free-text search). T
 
 The words defined as stopwords for free-text searches are listed in the **Stopword list** table in the **Freetext search** tab of the Options screen.
 
-## Before you begin
+## Add stopword
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. In onsite installations, make sure the **Enable freetext search** option is selected. In CRM Online, this option is always enabled.
-
-## Add stopword
 
 1. Click the **Add** button below the stopword list.
 

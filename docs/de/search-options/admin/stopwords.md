@@ -20,13 +20,9 @@ Ein Stoppwort ist ein Wort, das nicht indiziert ist (d.h. nicht in eine Volltext
 
 Die als Stoppwörter für Volltextsuchen definierten Wörter werden in der Ansicht Optionen auf der Registerkarte **Volltextsuche** in der Tabelle unter **Stoppwortliste** angezeigt.
 
-## Bevor Sie beginnen
+## Stoppwörter hinzufügen
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Stellen Sie bei lokalen Installationen sicher, dass die Option **Freetext-Suche aktivieren** ausgewählt ist. In CRM Online ist diese Option immer aktiviert.
-
-## Stoppwörter hinzufügen
 
 1. Klicken Sie unter der Stoppwortliste auf die Schaltfläche **Hinzu**.
 

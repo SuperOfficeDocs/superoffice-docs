@@ -25,7 +25,7 @@ För att kunna använda SuperOffice CRM måste du ha tilldelats ett användarkon
 
 ## Vad är mitt användar-ID?
 
-För inloggade användare och Internet-användare används e-postadressen som användar-ID.
+Ditt användar-ID är din e-postadress.
 
 Windows-användare måste använda det användarnamn de har tilldelats.
 

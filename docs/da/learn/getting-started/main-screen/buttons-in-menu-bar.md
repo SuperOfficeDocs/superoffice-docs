@@ -26,7 +26,7 @@ language: da
 | <i class="ph ph-bell" aria-label="Klokke ikon"></i> | [**Notifikationer**][9] | Se nye notifikationer, såsom invitationer, tildelte sager og godkendte salg. Klik på en notifikation for at åbne den tilhørende post. |
 | <i class="ph ph-user-circle" aria-label="Kontakt ikon"></i> | **Personlige indstillinger** | Rediger præferencer, e-mailsignatur og adgangskoder. Viser dit profilbillede, hvis det er tilføjet til dit personkort. |
 | <i class="ph ph-list" aria-label="Hovedmenu"></i> | **Hovedmenu** | Få adgang til generelle systemindstillinger, skift mellem moduler eller åbn andre applikationer. |
-| <i class="ph ph-lightbulb" aria-label="Pære ikon"></i> | **In-app Resource Center** | Åbn vejledninger, brugervejledning og inspirationsressourcer (kun online). |
+| <i class="ph ph-lightbulb" aria-label="Pære ikon"></i> | **In-app Resource Center** | Åbn vejledninger, brugervejledning og inspirationsressourcer |
 | **Hjælp** | **Hjælp** | Få adgang til brugervejledninger og information tilpasset den aktuelle opgave eller det aktuelle modul. |
 
 ## Menuen Personlige indstillinger

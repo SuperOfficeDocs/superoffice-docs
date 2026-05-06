@@ -39,7 +39,6 @@ På fliken **E-postlådor** visas en översikt över installerade e-postlådor. 
 * **Kategori**: Ärenden från e-postlådan placeras i denna kategori.
 * **Prioritet**: Prioritet som nya ärenden får när de registreras från den här brevlådan.
 * **Adress för vidarebefordran**: Om du inte använder e-postfunktionerna i SuperOffice vidarebefordras e-postmeddelanden till denna adress.
-* **Protokoll**: Det protokoll som brevlådan använder.
 
 ### <a id="email-in"></a>Inkorg för e-post
 

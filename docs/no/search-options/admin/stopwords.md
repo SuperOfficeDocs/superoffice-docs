@@ -20,13 +20,9 @@ Et stoppord er et ord som ikke indekseres (ikke inkluderes i fritekstsøk). Dett
 
 De ordene som er definert som stoppord for fritekstsøk, vises i tabellen under **Stoppordliste** i fanen **Fritekstsøk** i Systemvalg-bildet.
 
-## Før du begynner
+## Legge til stoppord
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. I lokale installasjoner må du kontrollere at alternativet **Aktiver fritekstsøk** er valgt. I CRM Online er dette alternativet alltid aktivert.
-
-## Legge til stoppord
 
 1. Klikk på **Legg til**-knappen under stoppordlisten.
 
