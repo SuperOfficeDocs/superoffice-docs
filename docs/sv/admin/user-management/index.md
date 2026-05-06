@@ -52,7 +52,7 @@ Om du vill aktivera den här licensen lokaliserar du önskad användare, klickar
 
 * **Medarbetare**: SuperOffice CRM-användare (i ditt företag)
 
-* **Andra användare**: Anonyma användare och systemanvändare (endast lokalt)
+* **Andra användare**: Anonyma användare och systemanvändare
 
 * **Anonyma användare**: Användare med begränsad behörighet, som definieras av [rollen för anonyma användare][4]. Anonyma användare kan till exempel få tillgång till webbsidor. På så sätt kan säljare publicera relevant information från SuperOffice CRM på en webbplats som inte kräver inloggning där kunderna enkelt får tillgång till den.
 
@@ -168,10 +168,6 @@ I användaröversikten finns olika flikar:
 * **Licenser** – extra licensinformation som **Konfidentiella aktiviteter** som användaren kan använda för att ange **synlig för** för händelser, dokument och urval.
 * **Mer** – fliken visar om det finns extrafält för en person.
 
-### <a id="other-users"></a>Andra användare (lokalt)
-
-På fliken **Andra användare** i fönstret Användare kan du redigera inloggningsrättigheter för och lägga till anonyma användare och systemanvändare.
-
 ### <a id="our-companies"></a>Våra företag
 
 Syftet med företagslistan på fliken **Våra företag** är att specificera följande:
@@ -212,7 +208,7 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 <!-- Referenced links -->
 [2]: add-associate.md
 [3]: user-groups.md
-[4]: onsite/other-users.md#rights
+[4]: https://help.superoffice.com/docs/11/sv/admin/user-management/onsite/other-users.html#rights
 [6]: role/index.md
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md

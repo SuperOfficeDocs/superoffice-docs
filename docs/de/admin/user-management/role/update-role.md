@@ -20,15 +20,11 @@ language: de
 
 # Rolle aktualisieren
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
-Um eine [Rolle][3] zu bearbeiten oder zu löschen, wählen Sie die Rolle zuerst auf der Registerkarte **Mitarbeiter** oder **Externe** aus.
+Um eine [Rolle][3] zu bearbeiten oder zu löschen, wählen Sie die Rolle zuerst auf der Registerkarte **Mitarbeiter** aus.
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Wählen Sie die Registerkarte **Mitarbeiter** oder **Extern**.
-
-    [Wie man die Rolle für anonyme Benutzer bearbeitet.][1]
+1. Wählen Sie die Registerkarte **Mitarbeiter**.
 
 1. Doppelklicken Sie in der Liste auf die Rolle, die Sie bearbeiten möchten.
 
@@ -38,7 +34,7 @@ Um eine [Rolle][3] zu bearbeiten oder zu löschen, wählen Sie die Rolle zuerst 
 
 1. [Bearbeiten Sie die Rechte der Rolle.][4]
 
-1. Beim Bearbeiten von Rollen für Mitarbeiter: Wechseln Sie zur Registerkarte **Funktionelle Rechte** und bearbeiten Sie die funktionellen Rechte der Rolle.
+1. Wechseln Sie zur Registerkarte **Funktionelle Rechte** und bearbeiten Sie die funktionellen Rechte der Rolle.
 
     [!include[How to set functional rights](../includes/add-remove-right.md)]
 
@@ -64,6 +60,6 @@ Wenn Sie eine Rolle löschen, müssen Sie die Benutzer mit dieser Rolle in eine 
     * Die Rolle wird aus der Liste entfernt.
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [3]: index.md
 [4]: set-data-rights-for-role.md

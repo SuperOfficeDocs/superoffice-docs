@@ -47,12 +47,12 @@ Um Kollegen zusammenzufassen und ihnen Zugriff auf CRM-Daten auf Grundlage diese
 ## Verwandte Inhalte
 
 * [SuperOffice-Benutzer hinzufügen][1]
-* [Benutzer aus AD importieren][2] (vor Ort)
+
 * [Konfigurieren Sie, auf welche Informationen die Benutzer unseres Unternehmens in SuperOffice CRM zugreifen können][3]
 
 <!-- Referenced links -->
 [1]: add-associate.md
-[2]: onsite/import-users.md
+
 [3]: role/index.md
 [4]: ../../request/admin/category/index.md
 

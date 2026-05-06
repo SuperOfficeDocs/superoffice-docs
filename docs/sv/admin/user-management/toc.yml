@@ -12,6 +12,3 @@ items:
   - name: Roll
     href: role/toc.yml
     topicHref: role/index.md
-  - name: Lokala användare
-    href: onsite/toc.yml
-    topicHref: onsite/other-users.md

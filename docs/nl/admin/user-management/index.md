@@ -52,7 +52,7 @@ Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op he
 
 * **Medewerkers**: SuperOffice CRM-gebruikers (in uw bedrijf)
 
-* **Andere gebruikers**: Anonieme gebruikers en systeemgebruikers (alleen op locatie)
+* **Andere gebruikers**: Anonieme gebruikers en systeemgebruikers
 
 * **Anonieme gebruikers**: Gebruikers met beperkte rechten die worden gedefinieerd door de [rol voor anonieme gebruikers][4]. Anonieme gebruikers kunnen bijvoorbeeld worden gebruikt om toegang tot webpagina's te bieden. Zo kunnen verkoopmedewerkers relevante gegevens uit SuperOffice CRM beschikbaar stellen op een website waarvoor geen aanmelding nodig is, zodat klanten hier gemakkelijk toegang toe kunnen krijgen.
 
@@ -168,10 +168,6 @@ Er zijn verschillende tabbladen in het gebruikersoverzicht:
 * **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor vervolgactiviteiten, documenten en selecties .
 * **Meer** - het tabblad laat zien of er extra velden op een persoon zijn.
 
-### <a id="other-users"></a>Andere gebruikers (lokaal)
-
-Op het tabblad **Andere gebruikers** in het scherm Gebruikers kunt u aanmeldrechten voor en anonieme gebruikers en systeemgebruikers toevoegen.
-
 ### <a id="our-companies"></a>Onze bedrijven
 
 Via de bedrijvenlijst op het tabblad **Onze bedrijven** in het scherm Gebruikers kunt u het volgende opgeven:
@@ -212,7 +208,7 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 <!-- Referenced links -->
 [2]: add-associate.md
 [3]: user-groups.md
-[4]: onsite/other-users.md#rights
+[4]: https://help.superoffice.com/docs/11/nl/admin/user-management/onsite/other-users.html#rights
 [6]: role/index.md
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md

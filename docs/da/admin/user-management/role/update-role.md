@@ -20,15 +20,11 @@ language: da
 
 # Opdater rolle
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
-Hvis du vil opdatere eller slette en [rolle][3], skal du starte med at vælge rollen under fanen **Medarbejdere** eller **Eksterne**.
+Hvis du vil opdatere eller slette en [rolle][3], skal du starte med at vælge rollen under fanen **Medarbejdere**.
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Vælg fanen **Medarbejdere** eller **Ekstern** .
-
-    [Sådan redigerer du rollen for anonyme brugere.][1]
+1. Vælg fanen **Medarbejdere**.
 
 1. Dobbeltklik på den rolle du vil redigere, på listen.
 
@@ -38,7 +34,7 @@ Hvis du vil opdatere eller slette en [rolle][3], skal du starte med at vælge ro
 
 1. [Rediger rollens rettigheder.][4]
 
-1. Hvis du redigerer roller til medarbejdere: Gå til fanen **Funktionelle rettigheder** og rediger rollens funktionelle rettigheder.
+1. Gå til fanen **Funktionelle rettigheder** og rediger rollens funktionelle rettigheder.
 
     [!include[How to set functional rights](../includes/add-remove-right.md)]
 
@@ -64,6 +60,6 @@ Når du sletter en rolle, skal du flytte brugerne med denne rolle til en anden r
     Rollen fjernes fra listen.
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [3]: index.md
 [4]: set-data-rights-for-role.md

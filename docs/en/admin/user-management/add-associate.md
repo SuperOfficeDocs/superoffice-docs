@@ -25,7 +25,7 @@ Administrators are responsible for providing new users with a user plan, a usern
 > [!NOTE]
 > If you provided information on users when you ordered SuperOffice CRM, you do not have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and maintenance.
 >
-> This procedure describes how to add one user at a time. To add multiple users onsite, see [Import users][1].
+> This procedure describes how to add one user at a time.
 
 ## Steps
 
@@ -127,40 +127,23 @@ There are two common situations when a new user cannot log in:
 
 1. Make sure that the user has followed the [instructions on how to log in to SuperOffice CRM][7].
 
-## A newly created user cannot log in to SuperOffice ONSITE
-
-Onsite, if a new user cannot log in, the most common cause is that a SuperOffice licence was no properly assigned during the creation process.
-
-### SuperOffice 9
-
-1. Confirm that the user has a licence assigned and **Can log in** is enabled.
-
-1. If that looks OK, try to remove the licence, **Save** the user. Then re-assign a licence and toggle login again.
-
-![Assign licence to user -screenshot][img4]
-
-> [!NOTE]
-> If a new user still cannot log in, you can try to [update the SuperOffice CRM license][9] (FAQ).
-
 ## Related content
 
-* [Add anonymous or system user (onsite)][5]
 * [Edit user / associate][6]
+* [Onsite user management][10]
 
 <!-- Referenced links -->
-[1]: onsite/import-users.md
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
-[5]: onsite/other-users.md
 [6]: update-user.md
 [7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
 [9]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113003
+[10]: https://help.superoffice.com/docs/11/en/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/select-user-login.png
 [img2]: ../../../media/loc/en/admin/filled-in-email.png
 [img3]: ../../../media/loc/en/admin/activation-email.png
-[img4]: ../../../media/loc/en/admin/give-licence-9.png
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

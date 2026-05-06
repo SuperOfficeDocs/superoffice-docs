@@ -18,17 +18,14 @@ language: da
 
 # Oprettelse af en rolle
 
-[!include[Requirement](../includes/note-anon-req.md)]
+> [!NOTE]
+> Der findes kun én rolle til anonyme brugere, og du kan ikke oprette nye.
+
+## Trin
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Vælg en af følgende faner:
-
-    * **Medarbejdere**: Her kan du tilføje roller til ansatte i firmaet.
-    * **Eksternt**:  Her kan du tilføje roller til eksterne brugere (kun onsite).
-
-    > [!NOTE]
-    > Der findes kun én rolle til anonyme brugere, og du kan ikke oprette nye. Se [Redigering af rettigheder for anonyme brugere][8].
+1. Vælg fanen **Medarbejdere**.
 
 1. Klik på **Tilføj** under listen.
 
@@ -47,7 +44,7 @@ language: da
 
 1. [Angiv datarettighederne under fanen **Datarettigheder**][7].
 
-1. Hvis du opretter roller til medarbejdere: Klik på fanen **Funktionelle rettigheder**.
+1. Klik på fanen **Funktionelle rettigheder**.
 
     Under denne fane kan du bestemme, hvilke funktioner som skal være tilgængelige for rollen, for eksempel brevfletning, udgivelse, eksport af udvalg og administratoradgang i Indstillinger og vedligeholdelse.
 
@@ -70,4 +67,3 @@ language: da
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-[8]: ../onsite/other-users.md#rights

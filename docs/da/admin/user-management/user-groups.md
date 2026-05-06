@@ -47,12 +47,12 @@ For at gruppere kolleger sammen og give dem adgang til CRM-data baseret på denn
 ## Relateret indhold
 
 * [Tilføj SuperOffice-bruger][1]
-* [Importér brugere fra AD][2] (onsite)
+
 * [Konfigurér, hvilke oplysninger brugerne i virksomheden kan få adgang til i SuperOffice CRM.][3]
 
 <!-- Referenced links -->
 [1]: add-associate.md
-[2]: onsite/import-users.md
+
 [3]: role/index.md
 [4]: ../../request/admin/category/index.md
 

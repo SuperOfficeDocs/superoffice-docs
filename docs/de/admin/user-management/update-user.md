@@ -52,9 +52,3 @@ Um einen Benutzer (Mitarbeiter) zu aktualisieren, zu verschieben oder zu lösche
 
 1. Klicken Sie auf **OK**. Klicken Sie auf eine Option, um eine Beschreibung der Folgen des Löschvorgangs anzuzeigen.
 
-## Verwandte Inhalte
-
-* [Anonymen Benutzer oder Systembenutzer bearbeiten oder löschen (vor Ort)][1]
-
-<!-- Referenced links -->
-[1]: onsite/other-users.md

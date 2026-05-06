@@ -18,17 +18,14 @@ language: en
 
 # Create a role
 
-[!include[Requirement](../includes/note-anon-req.md)]
+> [!NOTE]
+> There is only a single role for anonymous users and you cannot create a new one.
+
+## Steps
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Select one of the following tabs:
-
-    * **Associates**: Here you can add roles for employees in your company.
-    * **External**:  Here you can add roles for external users (onsite only).
-
-    > [!NOTE]
-    > There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users][8].
+1. Select the **Associates** tab.
 
 1. Click **Add** under the list.
 
@@ -47,7 +44,7 @@ language: en
 
 1. [Enter the data rights in the **Data rights** tab][7].
 
-1. If you are creating roles for associates: Click the **Functional rights** tab.
+1. Click the **Functional rights** tab.
 
     In this tab you can determine which functions will be available for the role, for example, mail merge, publishing, exporting selections and administrator access in Settings and maintenance.
 
@@ -70,4 +67,3 @@ language: en
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-[8]: ../onsite/other-users.md#rights

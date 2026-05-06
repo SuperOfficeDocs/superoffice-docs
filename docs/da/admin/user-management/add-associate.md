@@ -25,7 +25,7 @@ Administratorer er ansvarlige for at give nye brugere en brugerplan, et brugerna
 > [!NOTE]
 > Hvis du gav oplysninger om brugere, da du bestilte SuperOffice CRM, behøver du ikke tilføje brugere. Brugere vil have modtaget logonoplysninger fra SuperOffice via e-mail. Kontroller, om brugerne er i systemet i menuen Brugere i Indstillinger og vedligeholdelse.
 >
-> Denne procedure beskriver, hvordan du tilføjer en bruger ad gangen. Hvis du vil tilføje flere brugere, kan du se [Import af brugere][1].
+> Denne procedure beskriver, hvordan du tilføjer en bruger ad gangen.
 
 ## Trin
 
@@ -102,17 +102,17 @@ Se denne demo for at se, hvordan du kan tilføje en ny bruger i SuperOffice CRM.
 
 ## Relateret indhold
 
-* [Tilføjelse af anonym bruger eller systembruger (onsite)][5]
 * [Redigering af bruger/medarbejder][6]
+* [Onsite-brugerstyring][10]
 
 <!-- Referenced links -->
-[1]: onsite/import-users.md
+
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
-[5]: onsite/other-users.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
+[10]: https://help.superoffice.com/docs/11/da/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

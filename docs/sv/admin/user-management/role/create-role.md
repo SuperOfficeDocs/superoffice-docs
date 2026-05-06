@@ -18,17 +18,14 @@ language: sv
 
 # Skapa en roll
 
-[!include[Requirement](../includes/note-anon-req.md)]
+> [!NOTE]
+> Det finns bara en roll för anonyma användare och du kan inte skapa nya.
+
+## Steg
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Välj någon av följande flikar:
-
-    * **Medarbetare**: Här kan du lägga till roller för anställda vid ditt företag.
-    * **Externt**:  Här kan du lägga till roller för externa användare (endast lokalt).
-
-    > [!NOTE]
-    > Det finns bara en roll för anonyma användare och du kan inte skapa nya. Se [Redigera behörigheter för anonyma användare][8].
+1. Välj fliken **Medarbetare**.
 
 1. Klicka på **Lägg till** under listan.
 
@@ -47,7 +44,7 @@ language: sv
 
 1. [Ange databehörigheter på fliken **Databehörigheter**][7].
 
-1. Om du skapar roller för medarbetare: Klicka på fliken **Funktionella behörigheter**.
+1. Klicka på fliken **Funktionella behörigheter**.
 
     Här kan du bestämma vilka funktioner som ska vara tillgängliga för rollen, till exempel dokumentkoppling, publicering, export av urval och administratörsbehörighet under Inställningar och underhåll.
 
@@ -70,4 +67,3 @@ language: sv
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-[8]: ../onsite/other-users.md#rights

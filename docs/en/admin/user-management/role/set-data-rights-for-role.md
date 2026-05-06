@@ -18,17 +18,13 @@ language: en
 
 # Set data rights for a role
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
 You can set rights for data objects based on who owns the object. All users who belong to this [role][2] will be assigned rights based on the settings you make here.
 
 ## Steps
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Choose the **Associates** tab or the **External** tab (onsite).
-
-    [How to edit the role for anonymous users.][1]
+1. Choose the **Associates** tab.
 
 1. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
 
@@ -52,26 +48,20 @@ You can set rights for data objects based on who owns the object. All users who 
 |---|---|---|---|---|
 | My own | Created by you | Owner field applies | Responsible field applies | You are "Our contact" |
 | Primary group (A) | Created by your primary group (department) | Owner field applies | Responsible field applies | "Our contact" is an associate in your primary group |
-| My Company (E)<br />ONSITE only | Created by an external user's company | Owner field applies | Responsible field applies | "Our contact" applies |
 | Other groups (A) | Created by a user group you belong to | Owner field applies | Responsible field applies | "Our contact" is an associate from a user group you belong to |
-| Same project (E)<br />ONSITE only | Created in a project an external user belongs to | Owner field applies | Responsible field applies | "Our contact" applies |
 | Other associates | Created by other associates in the company | Owner field applies | Responsible field applies | "Our contact" is an associate that you do not share a user group with |
-| External user | Created by external users (Audience users) | Owner field applies | Responsible field applies | "Our contact" applies |
 | Anonymous | Created by anonymous users | Not applicable | Not applicable | Not applicable |
 
-**A** = Associates, **E** = External
+**A** = Associates
 
 On the Contact card, the **Our contact** field always pulls the associate from the Company card that the contact belongs to.
-
-## How do I display data objects for external users?
-
-If the data objects (companies, projects, documents and so on) to make accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice.
 
 ## Related content
 
 * [Functional rights][3]
+* [Onsite data rights][4]
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
 [2]: index.md
 [3]: functional-rights.md
+[4]: https://help.superoffice.com/docs/11/en/admin/user-management/role/set-data-rights-for-role.html

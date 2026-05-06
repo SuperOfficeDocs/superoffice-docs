@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/da/admin/user-management/onsite/other-users.html#rights
+redirect_url: https://help.superoffice.com/docs/11/da/admin/user-management/onsite/other-users.html#rights
 ---

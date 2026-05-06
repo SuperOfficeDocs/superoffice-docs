@@ -52,9 +52,3 @@ Om een gebruiker (medewerker) bij te werken, te verplaatsen of te verwijderen, s
 
 1. Klik op **OK**.
 
-## Gerelateerde inhoud
-
-* [Anonieme gebruikers of systeemgebruikers bewerken of verwijderen (lokaal)][1]
-
-<!-- Referenced links -->
-[1]: onsite/other-users.md
