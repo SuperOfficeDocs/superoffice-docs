@@ -43,10 +43,10 @@ Consent can be granted in three ways:
 
 If a user does not have admin rights, they can select "Return to the application without granting consent" in the dialog, then copy a link to share with their Microsoft 365 Global Administrator.
 
+For full step-by-step instructions, see [SuperOffice for Outlook: Authorisation guide][6].
+
 > [!NOTE]
 > When an update to an add-in increases the scope of data access, Microsoft may require the update to be re-approved before it is deployed.
-
-For full step-by-step instructions, see [SuperOffice for Outlook: Authorisation guide][6].
 
 <!-- Referenced links -->
 [3]: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide
