@@ -65,6 +65,17 @@ Shared mailbox access is controlled by Microsoft 365. If a shared mailbox does n
 
 See also: [SuperOffice for Outlook: Authorisation guide](https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/)
 
+> [!NOTE]
+SuperOffice for Outlook requires a Microsoft 365 or Exchange account. 
+This is a Microsoft limitation - SuperOffice for Outlook uses Microsoft's 
+Graph API, which only supports work or school accounts within Microsoft 365 
+or Exchange. Consumer email accounts from providers such as Gmail, Yahoo, 
+Hotmail, iCloud, and AOL are not supported.
+
+> [!TIP]
+> If you use Gmail, SuperOffice offers a separate integration. 
+> See [SuperOffice for Gmail](https://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link).
+
 ## Attachment size limit
 
 Attachments saved to SuperOffice from SuperOffice for Outlook cannot exceed 28 MB. Attachments larger than this limit cannot be saved.
