@@ -30,8 +30,8 @@ To send and receive emails in Mobile CRM, your email account must be connected t
 
 ## Connect your email account
 
-1. In the SuperOffice **web client**, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Email options**.
-2. Follow the steps in our [email, calendar, and document integration tutorial][5].
+1. In the SuperOffice **web client**, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **User setup**.
+2. Follow the steps in [Connect your accounts][5] to connect your email account.
 3. When you're done, [log out][3] of Mobile CRM and log back in.
 
 ## Manage email settings in the app
@@ -63,7 +63,7 @@ Once your account is connected:
 [1]: settings.md#email-settings
 [2]: send-email-sms.md
 [3]: login.md#log-out
-[5]: ../learn/getting-started/connect-email-doc/index.md
+[5]: ../learn/getting-started/connect-your-accounts.md
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/mobile/no-email-account.png

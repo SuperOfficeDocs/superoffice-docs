@@ -39,28 +39,20 @@ SuperOffice CRM er delt inn i flere nøkkelområder:
 
 Lær hvordan du navigerer mellom disse områdene ved hjelp av [navigatoren][1] eller generelle knapper.
 
-## SuperOffice: lokalt vs. online
-
-SuperOffice CRM er tilgjengelig som en skybasert nettapplikasjon eller som en lokal installasjon. Kjernen er den samme, men enkelte funksjoner, som import og skripting, er kun tilgjengelige i den lokale [Windows-administrasjonsklienten][20].
-
-> [!NOTE]
-> Bruker du en annen CRM-versjon? Trykk **F1** i systemet ditt for hjelp tilpasset din versjon og ditt språk.
-
 ## Sett opp systemet for telefon, faks og e-post
 
 SuperOffice CRM integreres med sertifiserte e-postsystemer og gjør det mulig å ringe, sende fakser eller e-poster direkte fra applikasjonen. Sørg for at systemet er riktig konfigurert for å bruke disse funksjonene.
 
 ## Klar til å utforske?
 
-Oppdag hele potensialet til SuperOffice CRM. Bruk våre veiledninger for å komme i gang, eller gå til et spesifikt emne i menyen for å lære mer.
+Oppdag hele potensialet til SuperOffice CRM. Bruk våre veiledninger for å komme i gang, eller gå til et spesifikt emne i menyen for å lære mer. Trykk på **F1** i systemet ditt for hjelp tilpasset din versjon og ditt språk.
 
 ## Relatert innhold
 
-* [Systemkrav (lokalt)][21]
 * [Logge på og aktivere SuperOffice CRM][6]
 * [Angi dine personlige preferanser][7]
 * [Slik konfigurerer du kontoen din med riktig språk][15]
-* [Koble e-post, dokumenter og dagbok med SuperOffice CRM][8]
+* [Koble til kontoene dine][8]
 * [Hovedskjermbildet][2]
 * [Søk og finn data][14]
 * [Favoritter][11]
@@ -72,15 +64,13 @@ Oppdag hele potensialet til SuperOffice CRM. Bruk våre veiledninger for å komm
 [2]: main-screen/index.md
 [6]: login.md
 [7]: preferences.md
-[8]: connect-email-doc/index.md
+[8]: connect-your-accounts.md
 [9]: ../../../en/mobile/index.md
 
 [11]: ../basics/fav.md
 [13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: change-language.md
-[20]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/index.html
-[21]: ../../../en/onsite/requirements/index.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/learn/getstarted-personalsettings.png

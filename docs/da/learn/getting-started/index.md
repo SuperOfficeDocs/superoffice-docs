@@ -41,28 +41,20 @@ SuperOffice CRM er opdelt i flere centrale områder:
 
 Lær, hvordan du navigerer mellem disse områder med [Navigatoren][1] eller de globale knapper.
 
-## SuperOffice: onsite vs. online
-
-SuperOffice CRM findes som en cloud-baseret onlineapplikation eller som en onsite-installation. Mens kernefunktionaliteten er den samme, er visse funktioner – såsom import og scripting – kun tilgængelige i den Windows-baserede administrationsklient. For adgang til SOLoader, avanceret import, replikering, Travel og scripting, se [Windows-klientindstillinger][20].
-
-> [!NOTE]
-> Hvis du bruger en anden CRM-version, kan du trykke på **F1** i dit system for at få hjælp tilpasset din version og dit sprog.
-
 ## Opsæt dit system til telefon, fax og e-mail
 
 SuperOffice CRM integrerer med certificerede e-mailsystemer og giver dig mulighed for at ringe, faxe eller sende e-mails direkte fra applikationen. Sørg for, at dit system er korrekt konfigureret for at bruge disse funktioner.
 
 ## Klar til at udforske?
 
-Opdag det fulde potentiale af SuperOffice CRM. Brug vores trin-for-trin vejledninger til at komme i gang, eller spring direkte til et specifikt emne i menuen for at lære mere.
+Opdag det fulde potentiale af SuperOffice CRM. Brug vores trin-for-trin vejledninger til at komme i gang, eller spring direkte til et specifikt emne i menuen for at lære mere. Tryk på **F1** i dit system for at få hjælp tilpasset din version og dit sprog.
 
 ## Relateret indhold
 
-* [Systemkrav (onsite)][21]
 * [Log ind og aktiver SuperOffice CRM][6]
 * [Angiv dine personlige præferencer][7]
 * [Sådan opsætter du din konto med det rigtige sprog][15]
-* [Forbind din e-mail, dokumenter og dagbog med SuperOffice CRM][8]
+* [Tilslut dine konti][8]
 * [Hovedskærmbilledet][2]
 * [Søg og find data][14]
 * [Foretrukne][11]
@@ -74,15 +66,13 @@ Opdag det fulde potentiale af SuperOffice CRM. Brug vores trin-for-trin vejledni
 [2]: main-screen/index.md
 [6]: login.md
 [7]: preferences.md
-[8]: connect-email-doc/index.md
+[8]: connect-your-accounts.md
 [9]: ../../../en/mobile/index.md
 
 [11]: ../basics/fav.md
 [13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: change-language.md
-[20]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/index.html
-[21]: ../../../en/onsite/requirements/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/learn/contact-screen-with-week.png

@@ -82,6 +82,6 @@ I SuperOffice CRM kan du nemt oprette dokumentskabeloner til Word, E-mail, Excel
 [4]: edit.md
 [5]: send-as-email.md
 [7]: lock.md
-[9]: ../../learn/getting-started/connect-email-doc/index.md
+[9]: ../../learn/getting-started/connect-your-accounts.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md

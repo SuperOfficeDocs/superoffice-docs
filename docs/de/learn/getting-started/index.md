@@ -39,28 +39,20 @@ SuperOffice CRM ist in mehrere Hauptbereiche unterteilt:
 
 Erfahren Sie, wie Sie auf diese Bereiche über den [Navigator][1] oder die globalen Schaltflächen zugreifen.
 
-## SuperOffice: Vor-Ort- vs. Online-Version
-
-SuperOffice CRM ist als cloudbasierte Online-Anwendung oder als Vor-Ort-Installation verfügbar. Während die Kernfunktionen gleich sind, gibt es einige Unterschiede: Funktionen wie erweiterter Import und Scripting sind nur in der Vor-Ort-Version über den [Windows-Administrationsclient][1] verfügbar. Weitere Informationen zu SOLoader, erweitertem Import, Replikation, Travel und Scripting finden Sie unter [Windows-Client-Einstellungen][20].
-
-> [!NOTE]
-> Falls Sie eine andere CRM-Version verwenden, drücken Sie **F1** in Ihrem System, um hilfespezifische Inhalte für Ihre Version und Sprache zu erhalten.
-
 ## Einrichtung für Telefon, Fax und E-Mail
 
 SuperOffice CRM unterstützt zertifizierte E-Mail-Systeme und ermöglicht es Ihnen, direkt aus der Anwendung zu telefonieren, Faxe zu senden oder E-Mails zu verschicken. Stellen Sie sicher, dass Ihr System korrekt konfiguriert ist, um diese Funktionen zu nutzen.
 
 ## Bereit für den Einstieg?
 
-Entdecken Sie das volle Potenzial von SuperOffice CRM! Nutzen Sie unsere Anleitungen, um sich schnell mit dem System vertraut zu machen, oder springen Sie direkt zu einem bestimmten Thema im Menü.
+Entdecken Sie das volle Potenzial von SuperOffice CRM! Nutzen Sie unsere Anleitungen, um sich schnell mit dem System vertraut zu machen, oder springen Sie direkt zu einem bestimmten Thema im Menü. Drücken Sie **F1** in Ihrem System, um Hilfe zu erhalten, die auf Ihre Version und Sprache zugeschnitten ist.
 
 ## Verwandte Inhalte
 
-* [Systemanforderungen (On-Premises)][21]
 * [Anmelden und SuperOffice CRM aktivieren][6]
 * [Persönliche Einstellungen festlegen][7]
 * [Wie Sie Ihr Konto mit der richtigen Sprache einrichten][15]
-* [E-Mail, Dokumente und Kalender mit SuperOffice CRM verknüpfen][8]
+* [Konten verbinden][8]
 * [Der Hauptbildschirm][2]
 * [Daten suchen und finden][14]
 * [Favoriten][11]
@@ -72,15 +64,13 @@ Entdecken Sie das volle Potenzial von SuperOffice CRM! Nutzen Sie unsere Anleitu
 [2]: main-screen/index.md
 [6]: login.md
 [7]: preferences.md
-[8]: connect-email-doc/index.md
+[8]: connect-your-accounts.md
 [9]: ../../../en/mobile/index.md
 
 [11]: ../basics/fav.md
 [13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: change-language.md
-[20]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/index.html
-[21]: ../../../en/onsite/requirements/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/learn/contact-screen-with-week.png

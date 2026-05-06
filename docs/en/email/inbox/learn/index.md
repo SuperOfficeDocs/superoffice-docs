@@ -46,7 +46,7 @@ The inbox screen is split into two panes:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Refresh the message list. |
 
 > [!NOTE]
-> Even if a folder is subscribed and refreshed, only the most recent emails are shown. By default, SuperOffice downloads emails from the past 30 days (Online) or 180 days (Onsite). Contact support to change this limit if needed.
+> Even if a folder is subscribed and refreshed, only the most recent emails are shown. By default, SuperOffice downloads emails from the past 30 days. Contact support to change this limit if needed.
 
 ## Related content
 

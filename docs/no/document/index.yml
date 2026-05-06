@@ -32,8 +32,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Koble e-post, dokumenter og dagbok
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Koble til kontoene dine
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: WebTools
           url: ../../../integrations/webtools/index.md
         - text: Hvordan opprette et dokument

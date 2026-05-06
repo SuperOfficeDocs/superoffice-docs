@@ -46,7 +46,7 @@ Inkorgens skärmbild är uppdelad i två delar:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Uppdatera meddelandelistan. |
 
 > [!NOTE]
-> Även om en mapp är prenumererad och uppdaterad visas endast de senaste meddelandena. Som standard hämtar SuperOffice e-post från de senaste 30 dagarna (Online) eller 180 dagarna (Onsite). Kontakta support om du vill ändra denna gräns.
+> Även om en mapp är prenumererad och uppdaterad visas endast de senaste meddelandena. Som standard hämtar SuperOffice e-post från de senaste 30 dagarna. Kontakta support om du vill ändra denna gräns.
 
 ## Relaterat innehåll
 

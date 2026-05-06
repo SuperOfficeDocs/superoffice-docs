@@ -46,7 +46,7 @@ Innboks-skjermbildet er delt inn i to ruter:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Oppdater meldingslisten. |
 
 > [!NOTE]
-> Selv om en mappe er abonnert på og oppdatert, vises bare de nyeste e-postene. Som standard lastes e-poster fra de siste 30 dagene (Online) eller 180 dagene (Onsite) ned. Kontakt kundestøtte for å endre denne grensen hvis nødvendig.
+> Selv om en mappe er abonnert på og oppdatert, vises bare de nyeste e-postene. Som standard lastes e-poster fra de siste 30 dagene ned. Kontakt kundestøtte for å endre denne grensen hvis nødvendig.
 
 ## Relatert innhold
 

@@ -26,8 +26,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Connect email, documents and diary
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Connect your accounts
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: Change default email client
           url: learn/change-default-mail-client.md
 

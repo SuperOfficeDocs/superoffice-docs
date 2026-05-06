@@ -46,7 +46,7 @@ Die Ansicht des Posteingangs ist in zwei Bereiche unterteilt:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Aktualisiert die Nachrichtenliste. |
 
 > [!NOTE]
-> Auch wenn ein Ordner abonniert und aktualisiert ist, werden nur die neuesten E-Mails angezeigt. Standardmäßig lädt SuperOffice E-Mails der letzten 30 Tage (Online) bzw. 180 Tage (Onsite) herunter. Wenden Sie sich an den Support, um diese Grenze bei Bedarf zu ändern.
+> Auch wenn ein Ordner abonniert und aktualisiert ist, werden nur die neuesten E-Mails angezeigt. Standardmäßig lädt SuperOffice E-Mails der letzten 30 Tage herunter. Wenden Sie sich an den Support, um diese Grenze bei Bedarf zu ändern.
 
 ## Verwandte Inhalte
 

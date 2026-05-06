@@ -84,7 +84,7 @@ Die Kalendersynchronisierung ist nicht Teil des Assistenten. Wenn Sie Termine un
 * [WebTools installieren][7]
 
 <!-- Referenced links -->
-[1]: connect-email-doc/index.md
+[1]: https://help.superoffice.com/docs/11/de/learn/getting-started/connect-email-doc/index.html
 [2]: ../../email/inbox/learn/setup.md
 [3]: ../../../../integrations/superoffice-for-outlook/index.md
 [4]: ../../../../integrations/gmail-link/index.md

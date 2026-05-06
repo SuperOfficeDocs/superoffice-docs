@@ -82,6 +82,6 @@ Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor de do
 [4]: edit.md
 [5]: send-as-email.md
 [7]: lock.md
-[9]: ../../learn/getting-started/connect-email-doc/index.md
+[9]: ../../learn/getting-started/connect-your-accounts.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md

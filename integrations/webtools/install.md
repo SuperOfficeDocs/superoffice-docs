@@ -147,13 +147,8 @@ The full command given to *SuperOffice.TrayApp.Client.exe* in this example is:
 
 `SuperOffice.TrayApp.Client.exe /autoconfig:"SuperOffice.Web.Tools--u=https%3a%2f%2fsuperoffice%3a443%2fSuperOffice%2f&cn=SuperOffice&un=souser--.exe"`
 
-## Related content
-
-* [Connect your email, document and diary][2]
-
 <!-- Referenced links -->
 [1]: ../../docs/en/email/inbox/learn/setup.md
-[2]: ../../docs/en/learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
 [img2]: media/download-webtools.png

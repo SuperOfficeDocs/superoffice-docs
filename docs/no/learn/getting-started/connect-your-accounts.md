@@ -84,7 +84,7 @@ Kalendersynkronisering er ikke en del av veiviseren. Hvis du ønsker å holde av
 * [Installer WebTools][7]
 
 <!-- Referenced links -->
-[1]: connect-email-doc/index.md
+[1]: https://help.superoffice.com/docs/11/no/learn/getting-started/connect-email-doc/index.html
 [2]: ../../email/inbox/learn/setup.md
 [3]: ../../../../integrations/superoffice-for-outlook/index.md
 [4]: ../../../../integrations/gmail-link/index.md

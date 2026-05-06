@@ -46,7 +46,7 @@ Skærmbilledet for indbakken er opdelt i to ruder:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Opdater meddelelseslisten. |
 
 > [!NOTE]
-> Selv om en mappe er abonneret og opdateret, vises kun de nyeste e-mails. Som standard downloader SuperOffice e-mails fra de seneste 30 dage (Online) eller 180 dage (Onsite). Kontakt support, hvis du vil ændre denne grænse.
+> Selv om en mappe er abonneret og opdateret, vises kun de nyeste e-mails. Som standard downloader SuperOffice e-mails fra de seneste 30 dage. Kontakt support, hvis du vil ændre denne grænse.
 
 ## Relateret indhold
 

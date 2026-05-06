@@ -8,11 +8,8 @@ items:
   href: login.md
 - name: Præferencer
   href: preferences.md
-- name: Tilslut dine konti (11.11 og nyere)
+- name: Tilslut dine konti
   href: connect-your-accounts.md
-- name: Tilknyt e-mail og dokumenter (11.10 og ældre)
-  href: connect-email-doc/toc.yml
-  topicHref: connect-email-doc/index.md
 - name: Rediger e-mailsignatur
   href: edit-email-signature.md
 - name: Skift aktivt sprog

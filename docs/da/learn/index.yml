@@ -94,10 +94,10 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         url: getting-started/preferences.md
-      - text: Tilknyt e-mail og dokumenter
+      - text: Tilslut dine konti
         itemType: list
         typeDesc: how-to-guide
-        url: getting-started/connect-email-doc/index.md
+        url: getting-started/connect-your-accounts.md
       - text: Rediger e-mailsignatur
         itemType: list
         typeDesc: how-to-guide

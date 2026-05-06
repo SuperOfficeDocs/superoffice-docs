@@ -32,8 +32,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Koppla e-post, dokument och kalender
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Anslut dina konton
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: WebTools
           url: ../../../integrations/webtools/index.md
         - text: Hur du skapar ett dokument

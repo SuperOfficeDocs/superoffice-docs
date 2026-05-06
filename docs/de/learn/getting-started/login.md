@@ -91,9 +91,6 @@ Wenn Sie SuperOffice Einstellungen und Verwaltung starten, wird ein Anmeldefenst
 
 * Geben Sie Ihre Benutzer-ID und das Passwort ein, und klicken Sie auf **OK**.
 
-> [!NOTE]
-> Vor Ort: Wenn Sie Einstellungen und Verwaltung zum ersten Mal nutzen, wird ein Dialogfenster mit einem Zusatz zu den Geschäftsbedingungen des Service eingeblendet. Bitte lesen Sie diese wichtige Informationen und klicken Sie auf **Annehmen** und **OK**, um mit der Nutzung von Einstellungen und Verwaltung fortzufahren. Diese Dialogseite wird nicht mehr angezeigt.
-
 Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen Login-Rechte für Einstellungen und Verwaltung gibt. Benutzer-IDs, Passwörter und Benutzerebenen werden alle in der [Ansicht Benutzer][2] festgelegt.
 
 > [!TIP]
@@ -113,19 +110,13 @@ Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen 
 
 ### <a id="forgot-password"></a>Passwort vergessen?
 
-Die Benutzer vergessen oft ihre Anmeldedaten, insbesondere ihr Passwort. Daher ist es nützlich, wenn Sie wissen, wie Sie Ihr SuperOffice CRM-Passwort ändern oder zurücksetzen können. Folgen Sie den Anweisungen für Ihre Version von SuperOffice, um Ihr Passwort zu ändern.
-
-#### Online
+Die Benutzer vergessen oft ihre Anmeldedaten, insbesondere ihr Passwort. Daher ist es nützlich, wenn Sie wissen, wie Sie Ihr SuperOffice CRM-Passwort ändern oder zurücksetzen können.
 
 1. Klicken Sie auf den Link **Passwort vergessen?**
-2. Geben Sie Ihre E-Mail-Adresse ein.
-3. Klicken Sie auf **Passwort zurücksetzen**.
+1. Geben Sie Ihre E-Mail-Adresse ein.
+1. Klicken Sie auf **Passwort zurücksetzen**.
 
 Sie erhalten dann eine E-Mail, die es Ihnen ermöglicht, Ihr Passwort zu ändern.
-
-#### Vor Ort
-
-Wenden Sie sich an ihren SuperOffice-Administrator, um ein neues Passwort zu erhalten.
 
 ## Zugehörige Inhalte
 

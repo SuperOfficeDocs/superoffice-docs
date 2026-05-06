@@ -91,13 +91,8 @@ To connect your email account, follow these steps: [Set up your email account in
 * Use *System default* if you just need to send a quick message.
 * Use *SuperOffice* if you want to share and archive communication with your team.
 
-## Related content
-
-* [Connect an email client to SuperOffice CRM][2]
-
 <!-- Referenced links -->
 [1]: set-up-email.md
-[2]: ../../en/learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/mobile/contact.png

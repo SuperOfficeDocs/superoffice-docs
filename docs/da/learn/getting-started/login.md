@@ -92,9 +92,6 @@ Når du starter Indstillinger og vedligeholdelse, får du vist en logonskærmbil
 
 * Indtast bruger-ID og adgangskode **OK**.
 
-> [!NOTE]
-> Onsite: Første gang du kører Indstillinger og vedligeholdelse, vises en dialogboks med en ændring af servicevilkårene. Læs disse vigtige oplysninger, og klik på **Acceptér** og **OK** for at fortsætte med at bruge Indstillinger og vedligeholdelse. Denne dialog vises ikke igen.
-
 Du skal tilhøre rollen *Brugerniveau 0* eller en rolle, der giver dig rettigheder til at logge på Indstillinger og vedligeholdelse. Bruger-ID'er, adgangskoder og brugerniveauer defineres alle i [skærmbilledet Brugere][2].
 
 > [!TIP]
@@ -114,19 +111,13 @@ Du skal tilhøre rollen *Brugerniveau 0* eller en rolle, der giver dig rettighed
 
 ### <a id="forgot-password"></a>Har du glemt din adgangskode?
 
-Folk glemmer ofte deres adgangsoplysninger, især deres adgangskode. Derfor kan det være nyttigt at vide, hvordan du ændrer eller nulstiller din SuperOffice CRM-adgangskode. Følg instruktionerne for din version af SuperOffice for at ændre din adgangskode.
-
-#### Online
+Folk glemmer ofte deres adgangsoplysninger, især deres adgangskode. Derfor kan det være nyttigt at vide, hvordan du ændrer eller nulstiller din SuperOffice CRM-adgangskode.
 
 1. Klik på linket **Glemt adgangskoden?**.
-2. Indtast din e-mailadresse.
-3. Klik på **Nulstil adgangskode**.
+1. Indtast din e-mailadresse.
+1. Klik på **Nulstil adgangskode**.
 
 Du modtager en e-mail, der giver mulighed for at ændre adgangskode.
-
-#### Onsite
-
-Kontakt SuperOffice-administratoren for at få en ny adgangskode.
 
 ## Relateret indhold
 

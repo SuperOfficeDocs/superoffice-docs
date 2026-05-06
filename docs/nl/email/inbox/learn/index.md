@@ -46,7 +46,7 @@ Het scherm van het postvak IN is verdeeld in twee vensters:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Vernieuwt de berichtenlijst. |
 
 > [!NOTE]
-> Zelfs als een map is gesynchroniseerd en vernieuwd, worden alleen de meest recente e-mails weergegeven. Standaard haalt SuperOffice e-mails op van de afgelopen 30 dagen (Online) of 180 dagen (Onsite). Neem contact op met support om dit limiet aan te passen indien nodig.
+> Zelfs als een map is gesynchroniseerd en vernieuwd, worden alleen de meest recente e-mails weergegeven. Standaard haalt SuperOffice e-mails op van de afgelopen 30 dagen. Neem contact op met support om dit limiet aan te passen indien nodig.
 
 ## Gerelateerde inhoud
 

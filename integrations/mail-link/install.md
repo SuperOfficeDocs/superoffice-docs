@@ -81,7 +81,7 @@ Mail Link connects Microsoft Outlook to SuperOffice CRM. It is a stand-alone ins
 
 <!-- Referenced links -->
 [1]: ../superoffice-for-outlook/get.md
-[5]: ../../docs/en/learn/getting-started/connect-email-doc/index.md
+[5]: https://help.superoffice.com/docs/11/en/learn/getting-started/connect-email-doc/index.html
 [8]: https://downloadservice.superoffice.com/
 
 <!-- Referenced images -->

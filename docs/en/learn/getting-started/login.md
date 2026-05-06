@@ -91,9 +91,6 @@ When you start Settings and maintenance, you will see a login screen where you m
 
 * Enter your user ID and password and click **OK**.
 
-> [!NOTE]
-> Onsite: The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again.
-
 You must belong to the *User level 0* role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
 
 > [!TIP]
@@ -129,24 +126,18 @@ Still cannot log in for the first time? Contact your SuperOffice administration 
 
 ### <a id="forgot-password"></a>Forgot your password?
 
-People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password. Follow the instructions for your version of SuperOffice to change your password.
-
-#### Online
+People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password.
 
 1. Click the **Forgot your password?** link in the Login screen.
-2. Enter you email address.
-3. Click **Reset Password**.
+1. Enter you email address.
+1. Click **Reset Password**.
 
 You will receive an email that allows you to change your password.
 
 > [!NOTE]
 > When **Microsoft** is in charge of your password, it has to be reset via the [Microsoft password reset service][10].
 > When **Google** is in charge of your password, it has to be reset via the [Google password reset service][11].
-> If you do not know, which identity provider you use please contact your IT responsible.
-
-#### Onsite
-
-Contact your SuperOffice administrator to receive a new password.
+> If you do not know which identity provider you use, please contact your IT responsible.
 
 ## Related content
 

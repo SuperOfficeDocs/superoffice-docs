@@ -83,7 +83,7 @@ Klicken Sie auf eine E-Mail in der [Bereichsregisterkarte Aktivitäten][14], um 
 [9]: ../../../../integrations/mail-link/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
-[13]: ../../learn/getting-started/connect-email-doc/index.md
+[13]: ../../learn/getting-started/connect-your-accounts.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [15]: ../../learn/getting-started/main-screen/side-panel.md
 
