@@ -63,7 +63,6 @@ Sommige voorkeuren kunnen alleen op algemeen niveau worden ingesteld:
 * Targets
 * [Gegevens spiegelen][15]
 * [SMS-configuratie][5]
-* [SMTP][2] (alleen LOKAAL)
 * [Wachtwoordbeleid Customer Centre][6]
 
 ### Algemene voorkeuren wijzigen
@@ -127,7 +126,6 @@ U kunt de rijen in de kolommen sorteren door op de gewenste kolomkop te klikken.
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md

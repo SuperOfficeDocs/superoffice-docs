@@ -7,5 +7,3 @@ items:
   href: service-settings.md
 - name: SMS-configuratie
   href: sms.md
-- name: SMTP (LOKAAL)
-  href: smtp.md

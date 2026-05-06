@@ -63,7 +63,6 @@ Noen preferanser kan bare angis på et globalt nivå:
 * Mål
 * [Dataspeiling][15]
 * [SMS-konfigurasjon][5]
-* [SMTP][2] (bare ONSITE)
 * [Passordregler for kundesenter][6]
 
 ### Endre globale preferanser
@@ -127,7 +126,6 @@ Du kan sortere radene i kolonnene ved å klikke på ønsket kolonneoverskrift. K
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md

@@ -63,7 +63,6 @@ Vissa inställningar kan bara göras på global nivå:
 * Mål
 * [Dataspegling][15]
 * [SMS-konfiguration][5]
-* [SMTP][2] (endast LOKALT)
 * [Lösenordspolicy för Kundcenter][6]
 
 ### Ändra globala inställningar
@@ -127,7 +126,6 @@ Du kan sortera raderna i kolumnerna genom att klicka på önskad kolumnrubrik. K
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md
