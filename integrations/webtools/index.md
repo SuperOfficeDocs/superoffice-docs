@@ -4,7 +4,8 @@ title: SuperOffice WebTools
 description: Introduction to SuperOffice WebTools
 keywords: WebTools
 author: digitaldiina
-date: 03.24.2026
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: integration
 topic: WebTools

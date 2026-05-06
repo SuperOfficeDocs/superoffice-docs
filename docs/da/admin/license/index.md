@@ -4,8 +4,8 @@ title: SuperOffice og licenser
 description: SuperOffice og licenser
 keywords: licens, forbrugstjeneste, databaseejer, fanen status
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: licenses

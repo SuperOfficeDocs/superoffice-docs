@@ -4,8 +4,8 @@ title: Voorkeuren
 description: Beheerders kunnen voorkeuren instellen voor verschillende functies in het systeem voor specifieke gebruikers, gebruikersgroepen of voor de gehele SuperOffice CRM (algemene voorkeuren).
 keywords: instellingen, voorkeuren
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: preferences

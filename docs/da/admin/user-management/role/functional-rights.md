@@ -4,8 +4,8 @@ title: Functional rights in SuperOffice
 description: What are all available functional rights in SuperOffice and what each of them mean?
 keywords: user management, role, access, rights
 author: PhilipYates, digitaldiina
-date: 10.24.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

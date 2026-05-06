@@ -4,8 +4,8 @@ title: SuperOffice-innboks
 description: Lær hvordan du bruker SuperOffice-innboksen til å lese, sende og administrere e-post i SuperOffice CRM
 keywords: SuperOffice-innboks, lese e-post, sende e-post, e-postklient, innboks, e-post
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

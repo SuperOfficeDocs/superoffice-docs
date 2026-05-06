@@ -4,8 +4,8 @@ title: Inkorgen i SuperOffice
 description: Läs om hur du använder inkorgen i SuperOffice för att läsa, skicka och hantera e-post i SuperOffice CRM
 keywords: Inkorgen i SuperOffice, läsa e-post, skicka e-post, e-postklient, inkorg, e-post
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

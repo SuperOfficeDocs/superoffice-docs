@@ -4,8 +4,8 @@ title: Mit E-Mail-Adressen arbeiten
 description: Mit E-Mail-Adressen arbeiten
 keywords: Wissensdatenbank
 author: SuperOffice Product and Engineering
-date: 03.16.2023
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: service
 topic: knowledge base

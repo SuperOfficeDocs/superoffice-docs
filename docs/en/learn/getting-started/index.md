@@ -4,8 +4,8 @@ title: Getting started
 description: Learn how to activating your user account, connect your email and documents, and set your personal preferences.
 keywords: CRM
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 01.17.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

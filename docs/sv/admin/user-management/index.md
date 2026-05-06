@@ -4,8 +4,8 @@ title: Användare
 description: Lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools.
 keywords: Fönstret Användare, användare, medarbetare, våra företag, synlighet, tillgängligt
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

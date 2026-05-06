@@ -3,7 +3,8 @@ uid: help-de-sign-in-to-superoffice
 title: Einloggen
 description: Loggen Sie sich ein, um Ihr SuperOffice CRM-Konto mit einem SuperOffice CRM-Passwort oder einer Anmelde-Option zu aktivieren.
 author: SuperOffice RnD
-date: 08.28.2023
+date: 05.04.2026
+version: 11.13
 keywords: CRM, Anmelden, Login, Passwort
 content_type: howto
 audience: person

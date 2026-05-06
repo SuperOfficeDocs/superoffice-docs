@@ -4,8 +4,8 @@ title: E-mail
 description: Met SuperOffice CRM kunt u ervoor kiezen om uw e-mails op verschillende manieren op te slaan en te delen, waardoor u en uw team productiever kunnen werken.
 keywords: e-mail, postvak IN
 author: SuperOffice Product and Engineering
-date: 09.16.2025
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

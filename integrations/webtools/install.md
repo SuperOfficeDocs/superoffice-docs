@@ -4,7 +4,8 @@ title: Install WebTools
 description: How to install WebTools per user.
 keywords: WebTools, TrayApp, Web Extensions, macOS
 author: Kirsti Aakerholt, digitaldiina
-date: 03.24.2026
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: integration
 topic: WebTools

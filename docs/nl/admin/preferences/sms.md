@@ -4,8 +4,8 @@ title: SMS
 description: SMS
 keywords: SMS instellingen
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences

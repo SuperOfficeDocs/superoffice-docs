@@ -4,8 +4,8 @@ title: Oprettelse af e-mailkonti
 description: Oprettelse af e-mailkonti
 keywords: e-mail
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: email
 topic: Service mailbox

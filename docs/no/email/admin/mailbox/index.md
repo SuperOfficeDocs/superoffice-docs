@@ -4,8 +4,8 @@ title: Service-e-poster
 description: Service-e-poster
 author: digitaldiina
 keywords: e-postkasse
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: email
 topic: Service mailbox

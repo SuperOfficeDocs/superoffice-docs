@@ -4,8 +4,8 @@ title: Objekte zur Liste Menü Aufgabe hinzufügen
 description: Objekte zur Liste Menü Aufgabe hinzufügen
 keywords: Aufgabenmenü
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: customization
 audience: settings

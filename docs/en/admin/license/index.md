@@ -4,8 +4,8 @@ title: CRM and licences
 description: CRM and licences
 keywords: license, licence, user plan, metered service, database owner, status tab
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: licenses

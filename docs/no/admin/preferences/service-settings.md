@@ -4,8 +4,8 @@ title: Systeminnstillinger for SuperOffice Service
 description: Globale preferanser for systeminnstillinger for SuperOffice Service
 keywords: Service preferanser
 author: digitaldiina
-date: 04.28.2026
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences

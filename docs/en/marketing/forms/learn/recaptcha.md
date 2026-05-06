@@ -4,8 +4,8 @@ title: Google reCAPTCHA in Forms
 description: Google reCAPTCHA in Forms. Note - this page is NOT translated.
 keywords: reCAPTCHA, reCAPTCHA profile, form, Google reCAPTCHA, I'm not a robot, site key, secret key
 author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms

@@ -4,8 +4,8 @@ title: Försäljningsmål
 description: Möjligheten att hålla koll på dina försäljningsmöjligheter är en av de viktigaste funktionerna i SuperOffice CRM. Med hjälp av vår funktion för försäljningsmål kan du jämföra din faktiska försäljning med dina mål.
 keywords: försäljningsmål
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salespremium
 deployment: online

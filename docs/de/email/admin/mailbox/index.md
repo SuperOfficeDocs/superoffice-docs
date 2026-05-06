@@ -4,8 +4,8 @@ title: Service-E-Mails
 description: Service-E-Mails
 author: digitaldiina
 keywords: postfach
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: email
 topic: Service mailbox

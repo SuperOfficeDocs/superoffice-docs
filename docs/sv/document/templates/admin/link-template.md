@@ -4,8 +4,8 @@ title: Lägga till en dokumentmall
 description: I den här guiden förklarar vi hur du lägger till en ny dokumentmall i SuperOffice CRM.
 keywords: dokument, mall, lista
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

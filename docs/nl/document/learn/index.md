@@ -4,8 +4,8 @@ title: Werken met documenten
 description: Deze handleiding laat u zien hoe u documenten kunt maken en opslaan in SuperOffice CRM en hoe u documenten rechtstreeks in uw CRM-oplossing kunt verzenden en ontvangen.
 keywords: document
 author: SuperOffice RnD
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

@@ -3,8 +3,8 @@ uid: help-de-service-mailbox-create
 title: Postfächer erstellen
 description: Postfächer erstellen
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 keywords: E-Mail
 content_type: howto
 category: email

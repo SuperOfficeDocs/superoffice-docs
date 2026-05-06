@@ -4,8 +4,8 @@ title: Add items to the Task menu list
 description: Add items to the Task menu list
 keywords: Task menu
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: customization
 audience: settings

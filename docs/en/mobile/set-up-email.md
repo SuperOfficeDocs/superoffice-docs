@@ -4,8 +4,8 @@ title: Set up email account
 description: How to connect and manage your email account in SuperOffice Mobile CRM.
 keywords: mobile, email, send, receive, signature
 author: digitaldiina
-date: 02.26.2026
-version: 11.1
+date: 05.04.2026
+version: 11.13
 content_type: howto
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/set-up-email

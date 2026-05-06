@@ -4,8 +4,8 @@ title: Link a document template
 description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
 keywords: document, template, list
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 language: en
 audience: settings

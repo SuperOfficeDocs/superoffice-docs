@@ -4,8 +4,8 @@ title: Send messages (email or SMS)
 description: How to send email and SMS from SuperOffice Mobile CRM.
 keywords: mobile, email, SMS, message
 author: digitaldiina
-date: 02.26.2026
-version: 11.1
+date: 05.04.2026
+version: 11.13
 content_type: howto
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/send-email-sms

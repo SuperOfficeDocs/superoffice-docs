@@ -4,8 +4,8 @@ title: Kom godt i gang
 description: Lær, hvordan du aktiverer din brugerkonto, forbinder din e-mail og dokumenter, samt angiver dine personlige præferencer.
 keywords: CRM
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 07.03.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,8 +4,8 @@ title: Ställ in försäljningsmål
 description: Håll koll på dina budgetar genom att ställa in försäljningsmål. Det hjälper dig att skapa rätt förväntningar, planera tillväxt, öka motivationen och spara tid.
 keywords: försäljningsmål
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: salespremium
 deployment: online

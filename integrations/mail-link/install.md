@@ -5,6 +5,7 @@ description: Learn how to download, install, and configure SuperOffice Mail Link
 keywords: install Mail Link, connect Outlook to SuperOffice, configure Mail Link
 author: digitaldiina
 date: 05.04.2026
+version: 11.13
 content_type: howto
 category: integration
 topic: Mail Link

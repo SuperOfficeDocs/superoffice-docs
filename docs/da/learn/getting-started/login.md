@@ -4,8 +4,8 @@ title: Sådan logger du ind
 description: Log ind for at aktivere din SuperOffice CRM-konto ved hjælp af en SuperOffice CRM-adgangskode eller en single sign-on-indstilling.
 keywords: CRM, log ind, login, adgangskode
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

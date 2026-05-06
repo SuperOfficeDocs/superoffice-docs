@@ -4,8 +4,8 @@ title: Legge til en dokumentmal
 description: I denne veiledningen lærer du hvordan du legger til en ny dokumentmal i SuperOffice CRM.
 keywords: dokument, mal, liste
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 language: no
 index: true

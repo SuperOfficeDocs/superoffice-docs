@@ -4,8 +4,8 @@ title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
 keywords: systeminställningar
 author: digitaldiina
-date: 04.28.2026
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences

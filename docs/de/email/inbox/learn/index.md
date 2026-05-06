@@ -4,8 +4,8 @@ title: SuperOffice Posteingang
 description: Erfahren Sie, wie Sie den SuperOffice Posteingang zum Lesen, Versenden und Verwalten von E-Mails in SuperOffice CRM verwenden
 keywords: SuperOffice Posteingang, E-Mail lesen, E-Mail senden, E-Mail-Client, Posteingang, E-Mail
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

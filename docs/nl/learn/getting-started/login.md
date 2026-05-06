@@ -4,8 +4,8 @@ title: Aanmelden
 description: Meld u aan om uw SuperOffice CRM-account te activeren met een SuperOffice CRM-wachtwoord of een optie voor eenmalige aanmelding.
 keywords: CRM, aanmelden, aanmelden, wachtwoord
 author: SuperOffice RnD
-date: 03.14.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

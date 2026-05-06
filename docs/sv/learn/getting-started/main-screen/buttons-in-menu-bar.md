@@ -4,8 +4,8 @@ title: Knappar på toppraden
 description: Knappar på toppraden
 keywords: toppraden, knapp, personliga inställningar, huvudmeny, menyfält
 author: digitaldiina
-date: 03.25.2026
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM

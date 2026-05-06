@@ -4,8 +4,8 @@ title: SuperOffice Service-systeeminstellingen
 description: Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
 keywords: Service instellingen, systeeminstellingen, Algemene voorkeuren
 author: digitaldiina
-date: 04.28.2026
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences

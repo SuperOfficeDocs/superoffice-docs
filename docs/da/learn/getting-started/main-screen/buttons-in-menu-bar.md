@@ -4,8 +4,8 @@ title: Knapper på toplinjen
 description: Knapper på toplinjen
 keywords: toplinje, knap, personlige indstillinger, menulinjen, hovedmenu
 author: digitaldiina
-date: 03.25.2026
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM

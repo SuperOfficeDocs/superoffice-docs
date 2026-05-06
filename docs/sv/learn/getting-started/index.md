@@ -4,8 +4,8 @@ title: Komma igång
 description: Lär dig hur du aktiverar ditt användarkonto, ansluter e-post och dokument och gör personliga inställningar.
 keywords: CRM, komma igång
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

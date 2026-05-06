@@ -4,8 +4,8 @@ title: Logga in
 description: Logga in för att aktivera ditt SuperOffice CRM-konto med ett SuperOffice CRM-lösenord eller ett alternativ för enkel inloggning.
 keywords: CRM, logga in, logga in, lösenord
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

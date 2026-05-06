@@ -4,8 +4,8 @@ title: Add mailing domains
 description: Add items to the Mailing Domain list
 keywords: mailing, domain, SPF
 author: digitaldiina
-date: 10.28.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: marketingessentials
 category: Marketing

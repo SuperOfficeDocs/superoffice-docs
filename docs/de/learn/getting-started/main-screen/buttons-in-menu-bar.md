@@ -4,8 +4,8 @@ title: Schaltflächen in der oberen Leiste
 description: Schaltflächen in der oberen Leiste
 keywords: Obere Leiste, Schaltfläche, Persönliche Einstellungen, Hauptmenü
 author: digitaldiina
-date: 03.25.2026
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,8 +4,8 @@ title: Komme i gang
 description: Finn ut hvordan du aktiverer brukerkontoen din, kobler til e-post og dokumenter og angir personlige preferanser.
 keywords: CRM
 author: Bergfrid Dias
-date: 01.29.2025
-version: 10.5.1
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

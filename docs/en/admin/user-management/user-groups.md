@@ -4,8 +4,8 @@ title: Manage user groups
 description: How to create and delete user groups
 keywords: user group
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

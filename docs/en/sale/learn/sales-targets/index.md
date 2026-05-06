@@ -4,8 +4,8 @@ title: Sales targets
 description: The possibility to keep track of your sales opportunities is one of the key functionalities in SuperOffice CRM. With the help of our sales target functionality, you can compare your actual sales to your targets.
 keywords: sales targets
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salespremium
 deployment: online

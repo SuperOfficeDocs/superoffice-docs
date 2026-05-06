@@ -3,8 +3,8 @@ uid: help-no-service-mailbox-create
 title: Opprette e-postkasser
 description: Opprette e-postkasser
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 keywords: e-post
 content_type: howto
 category: email

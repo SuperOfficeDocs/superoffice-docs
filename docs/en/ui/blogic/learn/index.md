@@ -3,7 +3,8 @@ uid: help-en-system-design-screen
 title: System design
 description: System design
 author: SuperOffice RnD
-date: 02.23.2023
+date: 05.04.2026
+version: 11.13
 keywords: System design
 content_type: concept
 audience: settings

@@ -4,8 +4,8 @@ title: SuperOffice und Lizenzen
 description: CRM und Lizenzen
 keywords: Lizenz, Benutzerplan, gemessene Dienstleistung, Datenbankbesitzer, Registerkarte Status
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: licenses

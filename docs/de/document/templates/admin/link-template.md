@@ -4,8 +4,8 @@ title: Eine Dokumentvorlage hinzufügen
 description: In dieser Anleitung lernen Sie, wie Sie eine neue Dokumentvorlage zu SuperOffice CRM hinzufügen.
 keywords: Dokument, Vorlage, Listen
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 language: de
 audience: settings

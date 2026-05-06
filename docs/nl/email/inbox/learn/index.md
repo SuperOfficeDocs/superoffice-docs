@@ -4,8 +4,8 @@ title: SuperOffice Postvak IN
 description: Leer hoe u SuperOffice Postvak IN gebruikt om e-mail te lezen, verzenden en beheren in SuperOffice CRM
 keywords: SuperOffice Postvak IN, e-mail lezen, e-mail verzenden, e-mailclient, inbox, e-mail
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

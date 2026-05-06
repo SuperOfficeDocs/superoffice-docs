@@ -4,8 +4,8 @@ title: Opsæt salgsmål
 description: Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil hjælpe dig med at sætte de rigtige forventninger, planlægge din vækst, øge motivationen og spare tid.
 keywords: salgsmål
 author: SuperOffice Product and Engineering
-date: 09.17.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: salespremium
 deployment: online

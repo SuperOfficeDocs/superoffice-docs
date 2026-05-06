@@ -4,8 +4,8 @@ title: Email
 description: With SuperOffice CRM you can choose to save and share your emails in various ways that will make you and your team work more productively.
 keywords: email, inbox
 author: SuperOffice Product and Engineering
-date: 09.16.2025
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

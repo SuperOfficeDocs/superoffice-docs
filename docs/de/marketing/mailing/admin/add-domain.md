@@ -4,8 +4,8 @@ title: Kampagne-Domäne hinzufügen
 description: Objekte zur Liste Kampagne-Domäne hinzufügen
 keywords: Kampagne, Domäne, SPF
 author: digitaldiina
-date: 10.28.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: marketingessentials
 category: Marketing

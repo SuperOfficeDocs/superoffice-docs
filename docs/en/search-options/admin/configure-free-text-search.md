@@ -4,8 +4,8 @@ title: Configure free-text search
 description: Configure free-text search
 keywords: free-text search
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

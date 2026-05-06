@@ -4,8 +4,8 @@ title: Systeminställningar
 description: Systeminställningar
 keywords: systeminställningar, service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

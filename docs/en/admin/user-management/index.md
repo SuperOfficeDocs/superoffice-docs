@@ -4,8 +4,8 @@ title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
 keywords: Users screen, user, associate, our companies, visibility, visible for, available
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

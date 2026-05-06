@@ -4,8 +4,8 @@ title: Arbeide med e-postadresser
 description: Arbeide med e-postadresser
 keywords: Kunnskapsbase
 author: Bergfrid Dias
-date: 03.16.2023
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: service
 topic: knowledge base

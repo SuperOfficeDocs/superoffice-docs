@@ -3,7 +3,8 @@ uid: help-en-sign-in-to-superoffice
 title: Log in
 description: Log in to activate your SuperOffice CRM account using a SuperOffice CRM password or a single sign-on option.
 author: SuperOffice RnD
-date: 08.28.2023
+date: 05.04.2026
+version: 11.13
 keywords: CRM, sign in, login, password, single sign-on
 content_type: howto
 audience: person

@@ -4,8 +4,8 @@ title: System settings
 description: System settings
 keywords: Service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 05.04.2026
+version: 11.13
 content_type: reference
 license: serviceessentials
 audience: settings
