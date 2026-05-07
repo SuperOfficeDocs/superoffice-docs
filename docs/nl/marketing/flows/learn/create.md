@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-flow-create
 title: Een nieuwe flow maken
 description: Hoe een nieuwe flow te maken en de flowinstellingen te definiëren in SuperOffice Marketing
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

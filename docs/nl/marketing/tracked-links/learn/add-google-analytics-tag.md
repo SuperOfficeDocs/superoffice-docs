@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-add-google-analytics
 title: Uw Google Analytics-tag toevoegen aan een mailing
 description: In deze handleiding leert u hoe u uw bezoekers kunt volgen.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

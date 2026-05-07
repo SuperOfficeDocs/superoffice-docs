@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-add-merge-tags
 title: Voeg variabelen toe aan uw bericht
 description: Meer informatie over het toevoegen van variabelen aan uw mailing
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

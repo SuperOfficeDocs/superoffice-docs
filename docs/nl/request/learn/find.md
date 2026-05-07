@@ -8,6 +8,7 @@ date: 03.14.2025
 version: 10.5.2
 content_type: howto
 license: serviceessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

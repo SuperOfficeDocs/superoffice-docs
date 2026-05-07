@@ -11,6 +11,7 @@ category: email
 topic: Service mailbox
 functional_right:
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-open-in-browser
 title: Een koppeling toevoegen om het bericht weer te geven in een browser
 description: Een koppeling toevoegen om het bericht weer te geven in een browser
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

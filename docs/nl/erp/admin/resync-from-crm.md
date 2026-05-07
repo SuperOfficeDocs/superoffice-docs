@@ -8,6 +8,7 @@ date: 03.31.2025
 version: 10.5
 content_type: howto
 license: development-tools
+tier: growth
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl

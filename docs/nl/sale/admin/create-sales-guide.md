@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: howto
 audience: settings
 audience_tooltip: Settings and Maintenance
+tier: core
 language: nl
 redirect_from: /nl/sale/learn/sales-guide/create
 index: true

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-flow-step-settings
 title: Stap instellingen
 description: Overzicht van instellingen voor de verschillende flowstappen.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

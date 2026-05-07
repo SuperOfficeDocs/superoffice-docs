@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-manage-subscriptions
 title: E-mailabonnementen beheren
 description: Met de functies voor abonnementsbeheer in SuperOffice CRM kunt u documenteren welk type inhoud uw contactpersonen van u willen ontvangen.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

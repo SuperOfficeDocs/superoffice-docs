@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-form-submissions-process
 title: Formulierverzendingen verwerken
 description: In deze handleiding leert u hoe u formulierverzendingen handmatig kunt verwerken.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/forms/learn/submissions/process

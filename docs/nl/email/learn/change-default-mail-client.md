@@ -5,6 +5,7 @@ description: De standaard e-mailclient wijzigen in SuperOffice
 keywords: e-mail, instellingen, mailclient
 author: SuperOffice RnD
 date: 06.29.2022
+tier: starter
 language: nl
 content_type: howto
 ---

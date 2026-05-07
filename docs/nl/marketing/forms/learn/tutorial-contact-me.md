@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-forms-contact-me
 title: Handleiding - Neem contact met mij op-formulier maken
 description: In dit handleiding laten we zien hoe u een kort formulier kunt maken voor klanten die in contact willen komen met een supportmedewerker. De formulierverzending zal leiden tot een nieuwe aanvraag voor uw supportafdeling.
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

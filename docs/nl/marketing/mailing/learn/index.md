@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing
 title: Werken met mailings
 description: Werken met mailings
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/mailing/learn/follow-up/index

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-forms-sign-up
 title: Handleiding - Aanmelden nieuwsbrief
 description: In deze handleiding zullen we een formulier maken voor klanten die zich willen aanmelden voor een of meer nieuwsbrieven. Het aanmeldingsproces zal ook dubbele opt-in bevatten om foutieve of valse aanmeldingen te elimineren.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

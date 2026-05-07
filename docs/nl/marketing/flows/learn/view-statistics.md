@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-flow-view-statistics
 title: Statistieken weergeven
 description: Analyseer de resultaten van je flow
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

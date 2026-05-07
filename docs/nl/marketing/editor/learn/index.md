@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-marketing-editor
 title: Editor slepen en neerzetten
 description: Editor slepen en neerzetten
@@ -9,6 +9,7 @@ version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/learn/editor

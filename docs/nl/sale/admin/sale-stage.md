@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: nl
 redirect_from:
   - /nl/admin/lists/learn/sale-stage

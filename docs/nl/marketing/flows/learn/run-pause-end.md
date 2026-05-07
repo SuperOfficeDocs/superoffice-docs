@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-flow-run-pause-end
 title: Flow uitvoeren, pauzeren en beëindigen
 description: Hoe u een SuperOffice Marketing-automatiseringsflow start, pauzeert, hervat, beëindigt en verwijdert.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
