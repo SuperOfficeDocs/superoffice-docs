@@ -9,6 +9,7 @@ version: 10.5
 audience: person
 content_type: concept
 audience_tooltip: SuperOffice CRM
+tier: growth
 language: no
 redirect_from: /no/chat/learn/screen/index
 ---

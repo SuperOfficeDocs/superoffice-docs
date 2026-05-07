@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
+tier: growth
 category: customization
 topic: screen designer
 language: no

@@ -8,6 +8,7 @@ version: 10.5.1
 keywords: slett sakskategori, overfør saker til, sakskategori, sak, kategori
 content_type: howto
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

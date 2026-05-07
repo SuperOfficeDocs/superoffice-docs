@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-tutorial-sms-mailing
 title: Opplæring - SMS-utsendelse
 description: I denne opplæringen lærer du å opprette en SMS-utsendelse.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

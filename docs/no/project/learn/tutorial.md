@@ -8,6 +8,7 @@ date: 01.31.2025
 version: 10
 content_type: tutorial
 license: salespremium, servicepremium, marketingessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

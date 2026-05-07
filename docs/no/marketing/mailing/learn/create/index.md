@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-create
 title: Opprette ny utsendelse
 description: For å sende en markedsføringsutsendelse trenger du bare å følge fem enkle trinn. Å sette opp en utsendelse innebærer å opprette utsendelsen, fylle ut grunnleggende informasjon og deretter velge en mal.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

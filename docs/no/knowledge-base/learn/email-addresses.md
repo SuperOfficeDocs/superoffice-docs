@@ -10,6 +10,7 @@ content_type: concept
 category: service
 topic: knowledge base
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

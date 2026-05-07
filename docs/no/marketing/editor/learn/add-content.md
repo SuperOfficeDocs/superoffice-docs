@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-marketing-add-content
 title: Legg til innhold
 description: Legg til innhold
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

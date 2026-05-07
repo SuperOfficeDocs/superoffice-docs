@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-flow-view-statistics
 title: Analyser resultatene for flyt
 description: Analyser resultatene for flyt
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

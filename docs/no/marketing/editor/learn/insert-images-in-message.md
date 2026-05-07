@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-add-image
 title: Sette inn bilder i meldingen
 description: Bruk av nøye utvalgte bilder i utsendelsene dine kan ha stor innvirkning på resultatene. Du kan laste opp dine egne bilder, eller bruke ett av flere millioner bilder som leveres av Unsplash, Pexels, Pixabay i det elektroniske bildebiblioteket.
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

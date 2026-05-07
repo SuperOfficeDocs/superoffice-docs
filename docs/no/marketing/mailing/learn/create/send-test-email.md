@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-send-test
 title: Teste utsendelsen ved å sende en test-e-post
 description: I denne veiledningen lærer du hvordan du sender en testutsendelse.
@@ -9,6 +9,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 language: no
 ---
 

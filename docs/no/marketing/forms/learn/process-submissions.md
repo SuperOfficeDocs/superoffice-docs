@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-form-submissions-process
 title: Behandle skjemainnsendinger
 description: I denne veiledningen lærer du hvordan du behandler skjemainnsendinger manuelt.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/forms/learn/submissions/process

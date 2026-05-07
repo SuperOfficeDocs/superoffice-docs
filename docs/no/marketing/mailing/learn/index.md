@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing
 title: Arbeide med utsendelser
 description: Arbeide med utsendelser
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/mailing/learn/follow-up/index

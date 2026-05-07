@@ -8,6 +8,7 @@ date: 02.04.2025
 version: 10.5.1
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-marketing-editor
 title: Dra og slipp editor
 description: Dra og slipp editor
@@ -9,6 +9,7 @@ version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/editor

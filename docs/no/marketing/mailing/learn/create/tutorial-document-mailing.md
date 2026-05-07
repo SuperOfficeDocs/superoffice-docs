@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-tutorial-document-mailing
 title: Opplæring - utsendelse av dokumenter
 description: I denne opplæringen lærer du å opprette et dokumentutsendelse.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

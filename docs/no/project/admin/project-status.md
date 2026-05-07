@@ -8,6 +8,7 @@ date: 01.31.2025
 version: 10.5
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
+tier: core
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

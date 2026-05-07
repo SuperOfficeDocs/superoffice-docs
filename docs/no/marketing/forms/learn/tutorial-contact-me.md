@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-forms-contact-me
 title: Veiledning - hvordan opprette et Kontakt meg skjema
 description: Denne veiledningen forklarer hvordan du oppretter et Kontakt meg skjema i SuperOffice Marketing.
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

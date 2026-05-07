@@ -8,6 +8,7 @@ version: 10.5.1
 keywords: sakskategori, fanen Kategorier, sak, kategori
 content_type: concept
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

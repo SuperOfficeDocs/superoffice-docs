@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-marketing-add-images
 title: Legg til bilder
 description: Legg til bilder
@@ -8,6 +8,7 @@ date: 09.26.2025
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

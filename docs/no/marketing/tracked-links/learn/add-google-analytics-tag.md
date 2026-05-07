@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-add-google-analytics
 title: Slik legger du til emneknaggen Google Analytics i en utsendelse
 description: I denne veiledningen lærer du hvordan du sporer de besøkende.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

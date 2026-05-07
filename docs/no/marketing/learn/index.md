@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-marketing
 title: SuperOffice Marketing
 description: Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet.
@@ -9,6 +9,7 @@ version: 11.13
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/screen/index

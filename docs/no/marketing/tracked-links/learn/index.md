@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-tracked-links
 title: Sporede koblinger
 description: En kobling som du inkluderer i en utsendelse, kan brukes til å spore svar fra kunder og potensielle kunder. Når mottakerne av utsendelsen klikker på koblingen, utløses det en handling.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/tracked-links/learn/examples

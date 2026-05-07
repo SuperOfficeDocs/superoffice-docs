@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-marketing-create-folder
 title: Slik oppretter du en mappe i Markedsføring
 description: Slik oppretter du en mappe i Markedsføring
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

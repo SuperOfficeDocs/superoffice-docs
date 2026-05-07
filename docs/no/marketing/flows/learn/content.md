@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-flow-content
 title: Flytinnhold
 description: Hvordan opprette og administrere flytinnhold i SuperOffice Marketing
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

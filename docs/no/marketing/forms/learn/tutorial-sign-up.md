@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-forms-sign-up
 title: Veiledning - hvordan opprette skjema for påmelding til nyhetsbrev
 description: Denne veiledningen forklarer hvordan du oppretter et påmeldingsskjema i SuperOffice Marketing.
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

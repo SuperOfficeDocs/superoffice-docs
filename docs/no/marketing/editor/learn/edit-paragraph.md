@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-edit-paragraph
 title: Redigere et avsnitt
 description: Redigere et avsnitt
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

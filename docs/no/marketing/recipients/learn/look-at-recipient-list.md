@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-recipient-list
 title: Arbeide med mottakerlisten i etterkant av utsendelsen
 description: Arbeide med mottakerlisten i etterkant av utsendelsen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

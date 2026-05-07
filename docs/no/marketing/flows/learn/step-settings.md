@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-flow-step-settings
 title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

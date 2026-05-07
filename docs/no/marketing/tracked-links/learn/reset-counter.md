@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-tracked-links-reset
 title: Nullstille tellere for koblinger
 description: Nullstille tellere for koblinger
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
