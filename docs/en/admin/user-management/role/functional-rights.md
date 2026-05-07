@@ -7,6 +7,7 @@ author: PhilipYates, digitaldiina
 date: 05.04.2026
 version: 11.13
 content_type: reference
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management

@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 06.29.2022
 version: 10.5
 content_type: howto
+tier: starter
 index: true
 redirect_from: /en/admin/import/learn/import-from-mac-address-book
 language: en

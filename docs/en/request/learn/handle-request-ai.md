@@ -6,6 +6,7 @@ keywords: request, AI, efficient
 author: Kirsti Aakerholt
 date: 04.19.2023
 content_type: concept
+tier: core
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

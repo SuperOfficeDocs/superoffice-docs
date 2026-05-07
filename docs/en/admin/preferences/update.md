@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.17.2025
 version: 11.5
 content_type: howto
+tier: starter
 category: Settings and maintenance
 topic: preferences
 audience: settings

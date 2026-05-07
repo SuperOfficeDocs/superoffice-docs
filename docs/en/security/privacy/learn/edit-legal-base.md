@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 05.04.2026
 version: 11.13
 content_type: howto
+tier: starter
 functional_right: Can update consent for contact
 category: privacy
 audience: person

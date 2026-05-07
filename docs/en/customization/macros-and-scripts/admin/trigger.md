@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-automation-trigger
 title: Triggers
 description: Triggers
@@ -7,6 +7,7 @@ author: digitaldiina
 date: 11.26.2025
 version: 11.6
 content_type: howto
+tier: core
 category: automation
 topic: CRMScript
 audience: settings

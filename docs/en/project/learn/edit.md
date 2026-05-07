@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 12.20.2024
 version: 10
 content_type: howto
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

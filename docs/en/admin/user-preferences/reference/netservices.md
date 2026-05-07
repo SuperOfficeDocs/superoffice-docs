@@ -5,6 +5,7 @@ description: Preference section NetServices
 keywords: database
 author: SuperOffice Product and Engineering
 content_type: reference
+tier: starter
 ---
 
 # Preference section: NetServices

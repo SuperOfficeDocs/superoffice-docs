@@ -7,6 +7,7 @@ author: Kirsti Aakerholt, digitaldiina
 date: 05.04.2026
 version: 11.13
 content_type: reference
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

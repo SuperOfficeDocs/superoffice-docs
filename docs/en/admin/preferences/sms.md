@@ -7,6 +7,7 @@ author: digitaldiina
 date: 05.04.2026
 version: 11.13
 content_type: reference
+tier: starter
 category: Settings and maintenance
 topic: preferences
 audience: settings

@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.13.2025
 version: 11.5
 content_type: concept
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization

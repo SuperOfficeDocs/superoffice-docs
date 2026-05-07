@@ -7,6 +7,7 @@ author: digitaldiina
 date: 11.12.2025
 version: 11.6
 content_type: reference
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

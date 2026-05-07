@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.22.2025
 version: 11.5
 content_type: howto
+tier: starter
 deployment: online
 platform: web
 category: Settings and maintenance

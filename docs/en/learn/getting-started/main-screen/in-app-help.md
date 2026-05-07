@@ -7,6 +7,7 @@ author: Kirsti Aakerholt
 date: 01.25.2023
 version: 10.3.9
 content_type: concept
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

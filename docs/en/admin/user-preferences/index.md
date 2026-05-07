@@ -6,6 +6,7 @@ keywords: user preference, setting
 author: SuperOffice Product and Engineering
 date: 10.14.2025
 content_type: concept
+tier: starter
 audience: admin
 audience_tooltip: Settings and maintenance
 category: settings

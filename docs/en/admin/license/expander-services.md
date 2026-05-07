@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.22.2025
 version: 11.5
 content_type: concept
+tier: starter
 category: customization
 deployment: online
 platform: web

@@ -6,6 +6,7 @@ keywords: System templates tab, request
 author: Hanne Gunnarsson
 date: 03.29.2023
 content_type: reference
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
