@@ -13,6 +13,7 @@ category: identity management
 topic: user
 index: true
 redirect_from: /nl/admin/user-management/learn/add-associate
+tier: starter
 language: nl
 ---
 

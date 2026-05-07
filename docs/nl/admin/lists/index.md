@@ -13,6 +13,7 @@ redirect_from:
   - /nl/admin/lists/learn/index
   - /nl/admin/lists/learn/items
   - /nl/admin/lists/learn/duplicates
+tier: starter
 language: nl
 ---
 

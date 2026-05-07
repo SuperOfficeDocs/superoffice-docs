@@ -9,6 +9,7 @@ version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud
+tier: core
 language: nl
 index: true
 ---

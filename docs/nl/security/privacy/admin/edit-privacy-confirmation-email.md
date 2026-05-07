@@ -10,6 +10,7 @@ date: 12.19.2024
 version: 10
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: nl
 index: true
 redirect_from: /nl/security/privacy/learn/edit-privacy-confirmation-email

@@ -15,6 +15,7 @@ index: true
 redirect_from:
   - /nl/admin/options/learn/number-allocation/index
   - /nl/admin/options/learn/number-allocation/configure
+tier: starter
 language: nl
 ---
 

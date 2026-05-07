@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
 topic: web panel
+tier: core
 language: nl
 index: true
 ---

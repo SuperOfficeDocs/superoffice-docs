@@ -10,6 +10,7 @@ content_type: howto
 category: privacy
 audience: settings
 audience_tooltip: Instellingen en onderhoud
+tier: starter
 language: nl
 index: true
 redirect_from: /nl/security/privacy/learn/admin/add-consent-purpose

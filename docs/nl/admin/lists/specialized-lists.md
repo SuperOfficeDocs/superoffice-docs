@@ -15,6 +15,7 @@ redirect_from:
   - /nl/admin/lists/learn/adding-items-to-relation-list
   - /nl/admin/lists/learn/add-items-to-country-list
   - /nl/admin/lists/learn/country
+tier: starter
 language: nl
 ---
 

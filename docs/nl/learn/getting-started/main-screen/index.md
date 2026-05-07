@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: nl
 ---
 

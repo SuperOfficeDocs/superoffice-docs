@@ -12,6 +12,7 @@ audience_tooltip: SuperOffice CRM
 category: localization
 topic: language
 redirect_from: /nl/admin/options/learn/custlang/index
+tier: starter
 language: nl
 ---
 

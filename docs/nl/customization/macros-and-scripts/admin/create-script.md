@@ -14,6 +14,7 @@ audience_tooltip: Settings and maintenance
 redirect_from:
   - /nl/automation/crmscript/learn/create-folder
   - /nl/automation/crmscript/learn/create-script
+tier: core
 language: nl
 index: true
 ---

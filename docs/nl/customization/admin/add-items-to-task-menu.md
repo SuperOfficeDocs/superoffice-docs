@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /nl/admin/lists/learn/add-items-to-task-menu
+tier: core
 language: nl
 ---
 

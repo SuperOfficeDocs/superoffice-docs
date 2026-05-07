@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: nl
 redirect_from: /nl/request/learn/screen/system-templates
 index: true

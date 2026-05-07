@@ -9,6 +9,7 @@ version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: nl
 redirect_from: /nl/admin/lists/learn/add-template
 index: true

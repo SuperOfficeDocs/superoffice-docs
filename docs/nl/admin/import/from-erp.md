@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /nl/quote/learn/admin/sync/sync-import-from-erp
+tier: starter
 language: nl
 ---
 

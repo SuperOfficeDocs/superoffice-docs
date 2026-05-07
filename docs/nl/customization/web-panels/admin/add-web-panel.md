@@ -11,6 +11,7 @@ audience_tooltip: Settings and maintenance
 category: customization
 topic: web panel
 content_type: howto
+tier: core
 language: nl
 index: true
 redirect_from: /nl/admin/lists/learn/web-panel-add-item
