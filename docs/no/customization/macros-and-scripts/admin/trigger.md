@@ -12,6 +12,7 @@ topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /no/automation/crmscript/learn/trigger
+tier: core
 language: no
 index: true
 ---

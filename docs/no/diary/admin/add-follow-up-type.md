@@ -13,6 +13,7 @@ index: true
 redirect_from:
   - /no/admin/lists/learn/follow-up-type
   - /no/admin/lists/learn/adding-items-to-follow-up-type-list
+tier: starter
 language: no
 ---
 

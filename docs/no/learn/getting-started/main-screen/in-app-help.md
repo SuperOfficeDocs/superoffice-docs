@@ -6,6 +6,7 @@ author: SuperOffice RnD
 date: 01.25.2023
 keywords: hjelp, i appen, i appen
 content_type: concept
+tier: starter
 language: no
 ---
 

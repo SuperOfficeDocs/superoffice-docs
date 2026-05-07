@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: no
 redirect_from:
   - /no/diary/learn/linking-documents-to-follow-ups

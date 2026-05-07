@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /no/admin/lists/learn/organize/deleted-items-and-headings
+tier: starter
 language: no
 ---
 

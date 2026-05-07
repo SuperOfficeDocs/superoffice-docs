@@ -15,6 +15,7 @@ redirect_from:
   - /no/admin/lists/learn/add-email-template
   - /no/admin/lists/learn/create-email-template
   - /no/email/admin/index
+tier: starter
 language: no
 ---
 

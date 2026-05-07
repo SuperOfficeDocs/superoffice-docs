@@ -13,6 +13,7 @@ redirect_from:
   - /no/admin/lists/learn/index
   - /no/admin/lists/learn/items
   - /no/admin/lists/learn/duplicates
+tier: starter
 language: no
 ---
 

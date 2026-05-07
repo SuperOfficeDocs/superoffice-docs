@@ -9,6 +9,7 @@ version: 10.5.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: no
 redirect_from: /no/search-options/selection/learn/create/combine
 ---

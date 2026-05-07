@@ -9,6 +9,7 @@ keywords: CRM, logge på, pålogging, passord
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: no
 ---
 

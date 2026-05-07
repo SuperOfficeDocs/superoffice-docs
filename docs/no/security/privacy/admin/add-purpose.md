@@ -11,6 +11,7 @@ functional_right: list administrator, general administrator
 category: privacy
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
+tier: starter
 language: no
 index: true
 redirect_from: /no/security/privacy/learn/admin/add-consent-purpose

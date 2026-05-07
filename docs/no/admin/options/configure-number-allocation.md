@@ -15,6 +15,7 @@ index: true
 redirect_from:
   - /no/admin/options/learn/number-allocation/index
   - /no/admin/options/learn/number-allocation/configure
+tier: starter
 language: no
 ---
 

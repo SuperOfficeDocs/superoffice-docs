@@ -16,6 +16,7 @@ redirect_from:
   - /no/admin/lists/learn/organize/adding-headings
   - /no/admin/lists/learn/organize/headings-editing-and-deleting
   - /no/admin/lists/learn/organize/grouping-items-under-headings
+tier: starter
 language: no
 ---
 

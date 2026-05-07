@@ -12,6 +12,7 @@ topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /no/admin/options/learn/custlang/external-categories
+tier: core
 language: no
 index: true
 ---

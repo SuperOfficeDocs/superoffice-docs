@@ -9,6 +9,7 @@ version: 10.5.4
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: no
 redirect_from:
   - /no/company/learn/screen/activities-tab

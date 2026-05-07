@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
 redirect_from: /no/admin/options/learn/index
+tier: starter
 language: no
 ---
 
