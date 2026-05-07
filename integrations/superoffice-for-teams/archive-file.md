@@ -3,7 +3,7 @@ uid: teams-archive-file
 title: Save a file from a Teams channel
 description: How to save a file from a standard Teams channel to SuperOffice.
 keywords: SuperOffice for Teams, Teams, archive, file, channel, save file
-author:
+author: Andrea Schilde
 date: 07.05.2026
 version:
 content_type: howto
@@ -12,33 +12,28 @@ topic: SuperOffice for Teams
 language: en
 ---
 
-# Save a file from a Teams channel
+# Saving a file from a channel message
 
-When you are in a standard channel, you can save a single file to SuperOffice alongside or instead of a conversation archive. File saving is not available in chat contexts.
+When you're in a standard channel, you can also save a single file. How the file option becomes available depends on how you started the archive:
 
-> [!NOTE]
-> See [Archive a conversation][1] for instructions on opening the archive window.
+* **Started from a message** – the Save File button is enabled if that specific message contains a file.
+* **Started from the compose bar** – the Save File button is enabled if the channel contains any files. Use the file picker to select which files to archive.
 
-## How the Save File option becomes available
+The file picker lists files found based on the above, each with a status icon:
 
-* **Started from a message** – the **Save File** button is enabled if that specific message contains a file.
-* **Started from the compose bar** – the **Save File** button is enabled if the channel contains any files. Use the file picker to select which file to archive.
+* **Green check** – Already archived to SuperOffice. Shows when and by whom.
+* **File icon** – Not yet archived. Ready to save.
+* **Red warning** – File is too large to archive.
 
-## File picker status icons
+![The file picker showing files with their status icons – a green check mark on an already-archived file, a standard file icon on a new file, and a red warning triangle on an oversized file][img1]
 
-| Icon | Meaning |
-|---|---|
-| Green check | Already archived to SuperOffice. Shows when and by whom. |
-| File icon | Not yet archived. Ready to save. |
-| Red warning | File is too large to archive. |
+The file picker is single-select – you can choose one file at a time. Saving a file with the same name always creates a new document in SuperOffice (overwriting is not supported yet).
 
-![The file picker showing a green check on an archived file, a file icon on a new file, and a red warning on an oversized file][img1]
+There is a file size limit of 94 MB.
 
-## Limitations
+## Choosing where it goes in SuperOffice
 
-* The file picker is single-select. You can save one file at a time.
-* Saving a file with the same name always creates a new document in SuperOffice. Overwriting is not supported.
-* The maximum supported file size is 94 MB.
+Whether you're saving a chat or a file, you'll fill in a few details so the archive lands in the right place. See [Archive a conversation][1] for a full description of these fields.
 
 <!-- Referenced links -->
 [1]: archive-conversation.md
