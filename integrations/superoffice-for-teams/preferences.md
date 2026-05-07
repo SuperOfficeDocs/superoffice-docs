@@ -3,7 +3,7 @@ uid: teams-preferences
 title: Preferences in SuperOffice for Teams
 description: How to set your default archiving options in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, preferences, defaults, settings
-author:
+author: Andrea Schilde
 date: 07.05.2026
 version:
 content_type: reference
@@ -12,27 +12,21 @@ topic: SuperOffice for Teams
 language: en
 ---
 
-# Preferences
+# Setting your preferences
 
-Each user can set default options that pre-fill the archive form. You can always override these defaults on a per-save basis.
+Each user can set default options that prefill the archive forms. You can always change them per save.
 
-## Access preferences
+Click the **Preferences** button in the bottom-left of the pop-up window to access your defaults:
 
-Click the **Preferences** button in the bottom-left corner of the archive pop-up window.
+* Default document template for chats.
+* Default document template for files.
+* Include deleted message notices (yes or no).
+* Include emoji reactions (yes or no).
+* Include files – attach to .EML (yes or no).
+* Mark as completed by default.
+* Generate AI summary by default (requires AI Labs).
 
 ![The Preferences screen showing all available default settings][img1]
-
-## Available settings
-
-| Setting | Description |
-|---|---|
-| Default document template for chats | The template applied automatically when archiving chat messages. |
-| Default document template for files | The template applied automatically when saving files. |
-| Include deleted message notices | Whether to include placeholders for deleted messages by default. |
-| Include emoji reactions | Whether to capture emoji reactions by default. |
-| Include files – attach to .EML | Whether to attach files to the email archive by default. Only applies in standard channels. |
-| Mark as completed by default | Whether to mark the archived activity as completed. |
-| Generate AI summary by default | Whether to generate an AI summary by default. Requires AI Labs. |
 
 <!-- Referenced links -->
 
