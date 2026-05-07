@@ -9,6 +9,7 @@ version: 11.13
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: sv
 redirect_from: /sv/request/learn/admin/index
 index: true

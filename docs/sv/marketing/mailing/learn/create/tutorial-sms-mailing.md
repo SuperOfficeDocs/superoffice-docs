@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-tutorial-sms-mailing
 title: Handledning - SMS-utskick
 description: I den här instruktionsguiden lär du dig att skapa ett SMS-utskick.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

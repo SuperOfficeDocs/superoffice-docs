@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailing-tracked-links
 title: Spårade länkar
 description: En länk som du inkluderar i ett utskick kan användas för att spåra svar från dina befintliga och potentiella kunder. När mottagarna av ditt utskick klickar på länken utförs en åtgärd.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/tracked-links/learn/examples

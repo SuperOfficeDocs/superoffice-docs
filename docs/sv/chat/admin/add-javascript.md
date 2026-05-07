@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: sv
 redirect_from: /sv/chat/learn/admin/add-javascript
 index: true

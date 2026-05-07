@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailing-create
 title: Skapa nytt utskick
 description: För att skicka ett marknadsföringsutskick behöver du bara följa fem enkla steg. Att ställa in ett utskick innebär att skapa utskicket, fylla i grundläggande information och sedan välja en mall.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

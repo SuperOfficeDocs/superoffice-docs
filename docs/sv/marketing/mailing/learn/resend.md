@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailings-resend
 title: Skicka ditt utskick på nytt
 description: När du har hanterat de returnerade e-postmeddelandena är det en bra idé att skicka ditt utskick på nytt.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

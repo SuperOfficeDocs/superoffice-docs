@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-tutorial-document-mailing
 title: Handledning - dokumentutskick
 description: I den här instruktionsguiden lär du dig att skapa ett dokumentutskick.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

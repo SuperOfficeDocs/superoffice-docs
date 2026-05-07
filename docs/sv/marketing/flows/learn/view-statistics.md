@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-flow-view-statistics
 title: Analysera dina flödesresultat
 description: Analysera dina flödesresultat
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

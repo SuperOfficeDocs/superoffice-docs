@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-tracked-links-view
 title: Jobba med spårade länkar efter utskicket
 description: Jobba med spårade länkar efter utskicket
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

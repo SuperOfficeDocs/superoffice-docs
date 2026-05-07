@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailing-send-test
 title: Testa utskick genom att skicka ett testmejl
 description: I den här guiden förklarar vi hur du skickar ett testutskick.
@@ -9,6 +9,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 language: sv
 ---
 

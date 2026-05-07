@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-flow-participants
 title: Flödesdeltagare
 description: Flödesdeltagare
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

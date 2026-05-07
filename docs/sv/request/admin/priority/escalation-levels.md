@@ -9,6 +9,7 @@ keywords: eskaleringsnivå, lägg till eskaleringsnivå, ny nivå, eskalera, fli
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: sv
 redirect_from: /sv/request/learn/priority/escalation-levels
 index: true

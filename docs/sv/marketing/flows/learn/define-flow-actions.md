@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-flow-actions
 title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

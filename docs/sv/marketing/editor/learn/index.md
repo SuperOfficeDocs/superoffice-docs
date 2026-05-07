@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-marketing-editor
 title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/learn/editor

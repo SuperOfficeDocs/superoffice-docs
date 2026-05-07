@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailing-view-statistics
 title: Visa statistik för utskick
 description: Visa statistik för utskick
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/mailing/learn/follow-up/view-statistics

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-marketing-best-practices
 title: Bästa praxis
 description: Bästa praxis
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/learn/customize-for-mobile

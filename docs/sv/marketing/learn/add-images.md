@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-marketing-add-images
 title: Lägga till bilder
 description: Lägga till bilder
@@ -8,6 +8,7 @@ date: 09.26.2025
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

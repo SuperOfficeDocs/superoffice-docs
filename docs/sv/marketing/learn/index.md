@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-marketing
 title: SuperOffice Marknadsföring
 description: Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet.
@@ -9,6 +9,7 @@ version: 11.13
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/learn/screen/index

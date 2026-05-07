@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-forms-contact-me
 title: Guide - så här skapar du ett Kontakta mig formulär
 description: Denna guide kommer att förklara hur du kan skapa ett Kontakta mig formulär i SuperOffice Marketing
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
