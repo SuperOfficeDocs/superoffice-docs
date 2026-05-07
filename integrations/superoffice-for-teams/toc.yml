@@ -18,3 +18,7 @@ items:
   href: preferences.md
 - name: Permissions and security
   href: security.md
+- name: Troubleshooting
+  href: troubleshooting.md
+- name: Known limitations
+  href: known-limitations.md
