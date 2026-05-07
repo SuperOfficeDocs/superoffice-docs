@@ -10,6 +10,7 @@ content_type: howto
 category: email
 topic: Service mailbox
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

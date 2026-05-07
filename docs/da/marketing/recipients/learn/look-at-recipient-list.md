@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-recipient-list
 title: Arbejde med modtagerlisten efter udsendelsen
 description: Arbejde med modtagerlisten efter udsendelsen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

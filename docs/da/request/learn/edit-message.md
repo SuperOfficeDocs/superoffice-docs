@@ -8,6 +8,7 @@ date: 03.07.2025
 version: 10.5.2
 content_type: howto
 license: serviceessentials
+tier: core
 functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service

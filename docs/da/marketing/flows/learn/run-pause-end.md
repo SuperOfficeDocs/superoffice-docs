@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-flow-run-pause-end
 title: Køre, pause og afslutte flow
 description: Sådan kører, pauser, genoptager, afslutter og sletter en SuperOffice Marketing automation-strøm.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

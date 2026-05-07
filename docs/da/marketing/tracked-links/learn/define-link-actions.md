@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-define-link-actions
 title: Definer automatiserede linkhandlinger
 description: I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

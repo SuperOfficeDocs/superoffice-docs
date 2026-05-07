@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-manage-subscriptions
 title: Administrere e-mail-abonnementer
 description: Funktionerne til administration af abonnementer i SuperOffice CRM giver dig mulighed for at dokumentere, hvilken type indhold dine kontakter ønsker at modtage fra dig.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

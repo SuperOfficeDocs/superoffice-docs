@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-create-tracked-link
 title: Oprette sporede links
 description: Oprette sporede links i SuperOffice. Disse links vil derefter være tilgængelige, når du og andre brugere redigerer indholdet af dine udsendelser. Dette muliggør effektiv sporing af brugerinteraktion med e-mails.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

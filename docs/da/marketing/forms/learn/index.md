@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-forms
 title: Arbejde med formularer
 description: SuperOffice webformularer er en fantastisk måde at indsamle kundeoplysninger og feedback på. Webformularer giver de personer, der besøger dit websted, mulighed for at komme i kontakt med dig og efterlade deres kontaktoplysninger.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: 

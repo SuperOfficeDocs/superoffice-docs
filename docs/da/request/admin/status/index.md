@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: da
 redirect_from: /da/request/learn/status/index
 index: true

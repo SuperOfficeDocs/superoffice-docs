@@ -8,6 +8,7 @@ date: 03.25.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

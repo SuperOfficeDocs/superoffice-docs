@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-forms-contact-me
 title: Sådan oprettes en kontakt-mig formular
 description: Denne vejledning vil forklare, hvordan du opretter en formular til kunder, der vil i kontakt med en supportmedarbejder.
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

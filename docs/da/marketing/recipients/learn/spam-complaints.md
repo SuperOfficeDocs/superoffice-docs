@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-spam
 title: Spam-klager
 description: Spam-klager
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-tracked-links-reset
 title: Nulstilling af tællere efter links
 description: Nulstilling af tællere efter links
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

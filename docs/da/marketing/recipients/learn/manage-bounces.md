@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-blocked-email-addresses
 title: Blokerede e-mailadresser
 description: Lær mere om, hvordan du håndterer afviste mails, i denne vejledning.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/mailing/learn/follow-up/manage-bounces

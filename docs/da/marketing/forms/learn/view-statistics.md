@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-form-view-statistics
 title: Sporing af formularindsendelser og visning af statistik
 description: Sporing af formularindsendelser og visning af statistik
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/forms/learn/submissions/track
