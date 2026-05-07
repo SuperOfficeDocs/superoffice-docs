@@ -30,7 +30,6 @@ If your admin has uploaded and approved SuperOffice for Teams but hasn't pushed 
 
 You can come back to this dialog at any time to add SuperOffice for Teams to more channels.
 
-![The "Let's go" dialog showing the "Open" button for personal scope and the channel selector below it][img1]
 
 ### Add SuperOffice for Teams to a channel later
 
@@ -45,7 +44,6 @@ If you've already installed the app for your personal chats and want to add it t
 
 Once added, SuperOffice for Teams becomes available in the channel you previously selected.
 
-![The "+" menu inside a channel, showing the "Apps" option][img2]
 
 ## Already have the app?
 
