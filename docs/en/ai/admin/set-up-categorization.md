@@ -8,6 +8,7 @@ date: 10.15.2025
 version: 11.5
 content_type: tutorial
 license: aiplatform, categorization
+tier: core
 category: automation
 topic: ai
 deployment: online

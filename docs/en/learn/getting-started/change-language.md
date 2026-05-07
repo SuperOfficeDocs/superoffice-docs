@@ -10,6 +10,7 @@ content_type: howto
 category: localization
 topic: language
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 redirect_from: /en/globalization-and-localization/learn/change-language
