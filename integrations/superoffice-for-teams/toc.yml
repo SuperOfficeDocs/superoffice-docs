@@ -1,0 +1,20 @@
+### YamlMime:TableOfContents
+items:
+- name: SuperOffice for Teams
+  href: index.md
+- name: Requirements
+  href: requirements.md
+- name: Deploy (administrators)
+  href: deploy.md
+- name: Get (users)
+  href: get.md
+- name: Archive a conversation
+  href: archive-conversation.md
+- name: Save a file from a channel
+  href: archive-file.md
+- name: AI summaries
+  href: ai-summary.md
+- name: Preferences
+  href: preferences.md
+- name: Permissions and security
+  href: security.md
