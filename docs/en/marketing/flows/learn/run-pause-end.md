@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-flow-run-pause-end
 title: Run, pause, and end flow
 description: How to run, pause, resume, end, and delete a SuperOffice Marketing automation flow.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

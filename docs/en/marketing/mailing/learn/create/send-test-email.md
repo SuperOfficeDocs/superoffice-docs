@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-send-test
 title: Test mailing by sending a test email
 description: In this how-to guide you will learn how to send a test mailing.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-templates
 title: Work with form templates
 description: Work with form templates
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

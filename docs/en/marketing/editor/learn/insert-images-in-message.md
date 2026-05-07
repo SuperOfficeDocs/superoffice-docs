@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-add-image
 title: Insert images in the message
 description: Using carefully chosen images in your mailings can make a powerful impact on your results. You can upload your own images, or use one of the millions of images powered by Unsplash, Pexels, Pixabay in the online image library.
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

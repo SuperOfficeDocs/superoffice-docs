@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-tracked-links-reset
 title: Reset counters for links
 description: Reset counters for links
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

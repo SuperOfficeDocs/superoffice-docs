@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-edit-paragraph
 title: Edit a paragraph
 description: Edit a paragraph
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

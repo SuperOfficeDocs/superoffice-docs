@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-field-options
 title: Field options
 description: List of fields (and their options) you can add to a SuperOffice Marketing form.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

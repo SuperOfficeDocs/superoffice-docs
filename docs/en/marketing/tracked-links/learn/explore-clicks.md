@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-tracked-links-view
 title: Work with tracked links after the mailing
 description: How you can work with tracked links after the mailing is sent.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

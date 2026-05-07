@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-marketing-add-content
 title: Add content
 description: Add content
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

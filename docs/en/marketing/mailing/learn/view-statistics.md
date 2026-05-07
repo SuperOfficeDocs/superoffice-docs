@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-view-statistics
 title: View statistics for mailing
 description: View statistics for mailing
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/follow-up/view-statistics

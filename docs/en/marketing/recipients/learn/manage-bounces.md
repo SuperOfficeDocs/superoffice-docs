@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-blocked-email-addresses
 title: Manage bounces
 description: Learn how to handle bounced emails in SuperOffice Marketing.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/follow-up/manage-bounces
