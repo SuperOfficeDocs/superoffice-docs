@@ -6,6 +6,7 @@ author: SuperOffice RnD
 date: 02.10.2023
 keywords: Dokument, E-Mail, Anlage
 content_type: howto
+tier: starter
 language: de
 ---
 

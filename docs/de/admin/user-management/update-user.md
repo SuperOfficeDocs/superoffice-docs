@@ -15,6 +15,7 @@ index: true
 redirect_from: 
   - /de/admin/user-management/learn/delete-user
   - /de/admin/user-management/learn/update-user
+tier: starter
 language: de
 ---
 

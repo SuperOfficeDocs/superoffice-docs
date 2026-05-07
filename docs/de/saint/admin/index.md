@@ -9,6 +9,7 @@ version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: de
 index: true
 redirect_from: /de/sale/saint/learn/admin/index

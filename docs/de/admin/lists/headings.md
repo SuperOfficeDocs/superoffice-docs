@@ -16,6 +16,7 @@ redirect_from:
   - /de/admin/lists/learn/organize/adding-headings
   - /de/admin/lists/learn/organize/headings-editing-and-deleting
   - /de/admin/lists/learn/organize/grouping-items-under-headings
+tier: starter
 language: de
 ---
 

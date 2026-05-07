@@ -9,6 +9,7 @@ version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 ---
 

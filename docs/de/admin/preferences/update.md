@@ -12,6 +12,7 @@ topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: de
 redirect_from: /de/admin/preferences/learn/update-preferences
 ---

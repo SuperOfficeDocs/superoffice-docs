@@ -16,6 +16,7 @@ redirect_from:
   - /de/admin/options/learn/labels/index
   - /de/admin/options/learn/labels/change
   - /de/admin/options/learn/labels/reset
+tier: starter
 language: de
 ---
 

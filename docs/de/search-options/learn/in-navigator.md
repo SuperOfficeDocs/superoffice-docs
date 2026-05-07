@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 05.25.2023
 keywords: suche, Schnellsuche
 content_type: howto
+tier: starter
 language: de
 ---
 

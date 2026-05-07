@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 03.16.2023
 keywords: FAQ, Kundenzentrum
 content_type: howto
+tier: growth
 language: de
 ---
 

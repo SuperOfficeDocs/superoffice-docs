@@ -10,6 +10,7 @@ content_type: concept
 category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 ---
 

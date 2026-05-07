@@ -6,6 +6,7 @@ author: SuperOffice RnD
 date: 03.16.2023
 keywords: Service, Kundenzentrum, CEP
 content_type: howto
+tier: growth
 language: de
 ---
 

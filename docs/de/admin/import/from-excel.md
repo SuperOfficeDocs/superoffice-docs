@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /de/admin/import/learn/import-from-excel
+tier: starter
 language: de
 ---
 

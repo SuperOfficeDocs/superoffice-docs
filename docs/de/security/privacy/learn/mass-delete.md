@@ -10,6 +10,7 @@ content_type: howto
 category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 redirect_from: /de/search-options/selection/learn/howto/mass-delete
 ---
