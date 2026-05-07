@@ -4,8 +4,8 @@ title: Lägga till en dokumentmall
 description: I den här guiden förklarar vi hur du lägger till en ny dokumentmall i SuperOffice CRM.
 keywords: dokument, mall, lista
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -79,26 +79,22 @@ Ange följande information på fliken **Detaljer**:
 
 1. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja ett alternativ i listrutan.
 
-2. I fältet **Dokumenttyp** väljer du **Dokument** eller **Fax** som malltyp.
+1. I fältet **Dokumenttyp** väljer du **Dokument** eller **Fax** som malltyp.
 
-3. I fältet **Dokument sparat i** kan du välja att spara dokumentet på en annan plats än standardalternativet.
+1. I fältet **Dokument sparat i** kan du välja att spara dokumentet på en annan plats än standardalternativet.
 
-4. Gå till fältet **Syfte**, klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][4]).
+1. Gå till fältet **Syfte**, klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][4]).
 
     > [!TIP]
     >Du kan skapa nya alternativ förutom de fördefinierade genom att lägga till poster i listan **Händelse – Syfte** i Inställningar och underhåll.
 
-5. Lokalt: Markera alternativet **Publicera** om du vill att dokumentmallen ska kunna göras tillgänglig för externa användare i dialogrutan Dokument.
-
-6. Lokalt: Markera alternativet **Spara i databasen** om du vill att de dokument som du skapar med den här mallen ska sparas i dokumentdatabasen. Om du markerar det här alternativet visas dokumentet på detaljkortet **Aktiviteter**. Om du inte markerar det visas inte dokumentet i SuperOffice CRM när du har skapat det, och du kommer inte åt det via programmet.
-
-7. Markera alternativet **Offertdokumenttyp** om dokumentet ska vara tillgängligt som [offertmall][2] eller orderbekräftelsemall. Du väljer offertdokumenttyp i listan nedan.
+1. Markera alternativet **Offertdokumenttyp** om dokumentet ska vara tillgängligt som [offertmall][2] eller orderbekräftelsemall. Du väljer offertdokumenttyp i listan nedan.
 
     ![Reference list item -screenshot][img8]
 
-8. Ange standardinställningen för fältet **Vår ref (standard)** med hjälp av mallvariablerna, till exempel *auth* för avsändarens för- och efternamn.
+1. Ange standardinställningen för fältet **Vår ref (standard)** med hjälp av mallvariablerna, till exempel *auth* för avsändarens för- och efternamn.
 
-9. Skriv eventuellt en beskrivning av mallen i fältet **Beskrivning**.
+1. Skriv eventuellt en beskrivning av mallen i fältet **Beskrivning**.
 
     > [!TIP]
     > Du kan öppna mallen för redigering direkt från dialogrutan **Redigera post** genom att klicka på **Redigera**-knappen.

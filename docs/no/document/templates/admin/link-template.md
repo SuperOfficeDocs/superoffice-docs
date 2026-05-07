@@ -4,8 +4,8 @@ title: Legge til en dokumentmal
 description: I denne veiledningen lærer du hvordan du legger til en ny dokumentmal i SuperOffice CRM.
 keywords: dokument, mal, liste
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 language: no
 index: true
@@ -79,26 +79,22 @@ Angi følgende informasjon i fanen **Detaljer**:
 
 1. I feltet **Retning** angir du om malen er utgående eller innkommende ved å klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge fra listeboksen.
 
-2. I feltet **Dokumenttype** velger du enten **Dokument** eller **Faks** som maltype.
+1. I feltet **Dokumenttype** velger du enten **Dokument** eller **Faks** som maltype.
 
-3. I feltet **Dokument lagret i** kan du velge å lagre dokumentet et annet sted enn standardalternativet.
+1. I feltet **Dokument lagret i** kan du velge å lagre dokumentet et annet sted enn standardalternativet.
 
-4. I **Hensikt**-feltet klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger et av de forhåndsdefinerte alternativene fra listen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][4]).
+1. I **Hensikt**-feltet klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger et av de forhåndsdefinerte alternativene fra listen. Disse elementene brukes i forbindelse med statusovervåking (krever lisens for [Sales Intelligence][4]).
 
     > [!TIP]
     > Du kan opprette nye alternativer i tillegg til de forhåndsdefinerte ved å legge til forekomster på listen **Oppfølging - Hensikt** i Innstillinger og vedlikehold.
 
-5. Onsite: Merk av for alternativet **Publiser** på dialogboksen Dokument hvis du vil at det skal være mulig å angi at den aktuelle dokumentmalen skal gjøres tilgjengelig for eksterne brukere.
-
-6. Onsite: Merk av for valget **Lagre i database** for å angi at dokumenter du oppretter ved hjelp av denne malen, skal lagres i dokumentdatabasen. Hvis du merket av for dette alternativet, vises dokumentet på detaljkortet **Aktiviteter**. Hvis du ikke merker av for dette alternativet, vises ikke dokumentet i SuperOffice etter at du har opprettet det, og du får ikke tilgang til det via programmet.
-
-7. Merk av for alternativet **Tilbudsdokument-type** (4) hvis dokumentet skal være tilgjengelig som [tilbudsmal][2] eller bekreftelsesdokument. Du velger typen tilbudsdokument i listen nedenfor.
+1. Merk av for alternativet **Tilbudsdokument-type** (4) hvis dokumentet skal være tilgjengelig som [tilbudsmal][2] eller bekreftelsesdokument. Du velger typen tilbudsdokument i listen nedenfor.
 
     ![Dialogboksen Rediger forekomst -screenshot][img8]
 
-8. Angi standardoppsett for feltet **Vår ref (standard)** (5) ved hjelp av malvariabler, for eksempel *auth* for avsenderens fornavn og etternavn, eller {oref}.
+1. Angi standardoppsett for feltet **Vår ref (standard)** (5) ved hjelp av malvariabler, for eksempel *auth* for avsenderens fornavn og etternavn, eller {oref}.
 
-9. Legg eventuelt inn en beskrivelse av malen i feltet **Beskrivelse**.
+1. Legg eventuelt inn en beskrivelse av malen i feltet **Beskrivelse**.
 
     > [!TIP]
     > Du kan åpne malen for redigering direkte fra dialogboksen **Rediger forekomst** ved å klikke på **Rediger**-knappen øverst.

@@ -4,8 +4,8 @@ title: Opsæt salgsmål
 description: Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil hjælpe dig med at sætte de rigtige forventninger, planlægge din vækst, øge motivationen og spare tid.
 keywords: salgsmål
 author: SuperOffice Product and Engineering
-date: 09.17.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: salespremium
 deployment: online
@@ -31,8 +31,6 @@ Det er valgfrit at tilføje virksomhedens mål og have brugerspecifikke mål (g�
 
 ## Krav
 
-> [!NOTE]
-> Kun **ONLINE**-kunder. (Ikke tilgængelig for kunder på stedet.)
 
 Hvis du kun har en Sales Premium-licens, kan du tilføje én gruppe for måltypen **Alle salg – Beløb**. For at tilføje mere end én brugergruppe skal du også have licensen Ubegrænsede salgsmål.
 

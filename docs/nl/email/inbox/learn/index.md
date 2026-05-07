@@ -4,8 +4,8 @@ title: SuperOffice Postvak IN
 description: Leer hoe u SuperOffice Postvak IN gebruikt om e-mail te lezen, verzenden en beheren in SuperOffice CRM
 keywords: SuperOffice Postvak IN, e-mail lezen, e-mail verzenden, e-mailclient, inbox, e-mail
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,7 +46,7 @@ Het scherm van het postvak IN is verdeeld in twee vensters:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Vernieuwt de berichtenlijst. |
 
 > [!NOTE]
-> Zelfs als een map is gesynchroniseerd en vernieuwd, worden alleen de meest recente e-mails weergegeven. Standaard haalt SuperOffice e-mails op van de afgelopen 30 dagen (Online) of 180 dagen (Onsite). Neem contact op met support om dit limiet aan te passen indien nodig.
+> Zelfs als een map is gesynchroniseerd en vernieuwd, worden alleen de meest recente e-mails weergegeven. Standaard haalt SuperOffice e-mails op van de afgelopen 30 dagen. Neem contact op met support om dit limiet aan te passen indien nodig.
 
 ## Gerelateerde inhoud
 

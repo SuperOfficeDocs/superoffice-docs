@@ -84,7 +84,7 @@ Het synchroniseren van je agenda maakt geen deel uit van de wizard. Als je afspr
 * [WebTools installeren][7]
 
 <!-- Referenced links -->
-[1]: connect-email-doc/index.md
+[1]: https://help.superoffice.com/docs/11/nl/learn/getting-started/connect-email-doc/index.html
 [2]: ../../email/inbox/learn/setup.md
 [3]: ../../../../integrations/superoffice-for-outlook/index.md
 [4]: ../../../../integrations/gmail-link/index.md

@@ -84,7 +84,7 @@ Synchronizing your calendar is not part of the wizard. If you want to keep appoi
 * [Connect email, document, and calendar (version 11.10 and earlier)][1]
 
 <!-- Referenced links -->
-[1]: connect-email-doc/index.md
+[1]: https://help.superoffice.com/docs/11/en/learn/getting-started/connect-email-doc/index.html
 [2]: ../../email/inbox/learn/setup.md
 [3]: ../../../../integrations/superoffice-for-outlook/index.md
 [4]: ../../../../integrations/gmail-link/index.md

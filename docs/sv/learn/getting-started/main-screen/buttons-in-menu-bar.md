@@ -4,8 +4,8 @@ title: Knappar på toppraden
 description: Knappar på toppraden
 keywords: toppraden, knapp, personliga inställningar, huvudmeny, menyfält
 author: digitaldiina
-date: 03.25.2026
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -26,7 +26,7 @@ language: sv
 | <i class="ph ph-bell" aria-label="Klockikon"></i> | [**Aviseringar**][9] | Visa nya aviseringar, såsom inbjudningar, tilldelade ärenden och godkända försäljningar. Klicka på en avisering för att öppna den. |
 | <i class="ph ph-user-circle" aria-label="Kontaktikon"></i> | **Personliga inställningar** | Redigera inställningar, e-postsignaturer och lösenord. Visar din profilbild om den är tillagd i ditt kontaktkort. |
 | <i class="ph ph-list" aria-label="Huvudmeny"></i> | **Huvudmeny** | Få åtkomst till systeminställningar, växla mellan moduler eller öppna andra applikationer. |
-| <i class="ph ph-lightbulb" aria-label="Glödlampa"></i> | **Resurscenter i appen** | Öppna guidade turer, användarguide och inspirationsresurser (endast online). |
+| <i class="ph ph-lightbulb" aria-label="Glödlampa"></i> | **Resurscenter i appen** | Öppna guidade turer, användarguide och inspirationsresurser |
 | **Hjälp** | **Hjälp** | Få tillgång till användarguider och information anpassad till aktuell uppgift eller modul. |
 
 ## Alternativ i menyn Personliga inställningar

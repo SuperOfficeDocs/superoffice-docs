@@ -25,7 +25,5 @@ items:
   href: ../admin/link-template.md
 - name: Sjabloon bewerken
   href: ../admin/update-template.md
-- name: Documentsjablonen in meerdere talen
-  href: ../admin/using-document-templates-for-multiple-languages.md
 - name: Standaardwaarden voor nieuwe documentsjablonen
   href: ../admin/document-template-defaults.md

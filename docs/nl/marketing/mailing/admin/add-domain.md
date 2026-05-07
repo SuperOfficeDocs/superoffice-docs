@@ -4,8 +4,8 @@ title: Mailingdomein toevoegen
 description: Items toevoegen aan mailingdomeinlijst
 keywords: mailing, domein, SPF
 author: digitaldiina
-date: 10.28.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: marketingessentials
 category: Marketing
@@ -35,7 +35,7 @@ Wanneer de algemene voorkeur **Alleen goedgekeurde domeinen voor het verzenden v
 1. Als het domein de SPF-zoekopdracht doorstaat, wordt het toegevoegd aan de lijst met goedgekeurde domeinen en kunnen gebruikers mailings verzenden vanuit dit domein.
 
 > [!NOTE]
-> U kunt een SPF-record instellen voor uw domein om ervoor te zorgen dat uw organisatie mailings kan verzenden met een betere afleverbaarheid (ALLEEN ONLINE). Als uw omgeving LOKAAL is, wordt er geen SPF-zoekopdracht uitgevoerd. Maar u kunt de lijst nog steeds gebruiken om uw gebruikers vooraf ingestelde domeinen te bieden voor **Van** en **Antwoorden aan**-adressen.
+> U kunt een SPF-record instellen voor uw domein om ervoor te zorgen dat uw organisatie mailings kan verzenden met een betere afleverbaarheid.
 
 <!-- Referenced links -->
 [1]: ../../../../en/online/mail-services/mailgun/spf/index.md

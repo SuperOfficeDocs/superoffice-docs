@@ -7,5 +7,3 @@ items:
   href: service-settings.md
 - name: SMS-konfigurasjon
   href: sms.md
-- name: SMTP (ONSITE)
-  href: smtp.md

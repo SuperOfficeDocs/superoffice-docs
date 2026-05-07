@@ -4,8 +4,8 @@ title: Items toevoegen aan de lijst Taakmenu
 description: Items toevoegen aan de lijst Taakmenu
 keywords: Taakmenu
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: customization
 audience: settings
@@ -44,10 +44,6 @@ language: nl
 ## Sjabloonvariabelen gebruiken
 
 Als u een URL-adres toevoegt, kan het handig zijn meerdere sjabloonvariabelen te gebruiken voor het actieve bedrijf, bijvoorbeeld om informatie van andere toepassingen via een URL op te halen.  Het URL-adres moet bepaalde parameters bevatten, zoals in dit fictieve voorbeeld: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn is hier de sjabloonvariabele voor het organisatienummer, maar andere variabelen zoals bedrijfsnaam &lt;name&gt;, bedrijfstelefoonnummer &lt;cpho&gt;, persoonsnaam &lt;attn&gt;, kunnen ook gebruikt worden.
-
-## Is SuperOffice CRM for Web geïnstalleerd op een HTTPS-site? (Lokaal)
-
-[!include[HTTPS restriction](../includes/web-panels-and-https.md)]
 
 ## Gerelateerde inhoud
 

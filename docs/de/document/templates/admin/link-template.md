@@ -4,8 +4,8 @@ title: Eine Dokumentvorlage hinzufügen
 description: In dieser Anleitung lernen Sie, wie Sie eine neue Dokumentvorlage zu SuperOffice CRM hinzufügen.
 keywords: Dokument, Vorlage, Listen
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 language: de
 audience: settings
@@ -79,26 +79,22 @@ Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 
 1. Legen Sie im Feld **Richtung** fest, ob die Vorlage eingehend oder ausgehend ist, indem Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken und im Listenfeld eine Option auswählen.
 
-2. Wählen Sie im Feld **Dokumenttyp** entweder **Dokument** oder **Fax** als Vorlagentyp aus.
+1. Wählen Sie im Feld **Dokumenttyp** entweder **Dokument** oder **Fax** als Vorlagentyp aus.
 
-3. Im Feld **Dokument gespeichert unter** können Sie einen von der Standardoption abweichenden Speicherort angeben.
+1. Im Feld **Dokument gespeichert unter** können Sie einen von der Standardoption abweichenden Speicherort angeben.
 
-4. Klicken Sie im Feld **Zweck** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie eine der vordefinierten Optionen aus der Liste aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][4]-Lizenz erforderlich ist).
+1. Klicken Sie im Feld **Zweck** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie eine der vordefinierten Optionen aus der Liste aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][4]-Lizenz erforderlich ist).
 
     > [!TIP]
     > Zusätzlich zu den vordefinierten Optionen können Sie neue Optionen erstellen, indem Sie sie zur Liste **Folgeaufgabe - Zweck** in Einstellungen und Verwaltung hinzufügen.
 
-5. Vor Ort: Aktivieren Sie die Option **Veröffentlichen**, damit Sie im Dialogfeld Dokument festlegen können, dass die betreffende Dokumentvorlage für externe Benutzer verfügbar sein soll.
-
-6. Vor Ort: Aktivieren Sie die Option **In Datenbank speichern**, wenn mit dieser Vorlage erstellte Dokumente in der Dokumentdatenbank gespeichert werden sollen. Wenn Sie diese Option aktivieren, wird das Dokument auf der Bereichsregisterkarte **Aktivitäten** in SuperOffice CRM angezeigt. Andernfalls wird das Dokument nach der Erstellung nicht in SuperOffice CRM angezeigt, und Sie können vom Programm aus nicht darauf zugreifen.
-
-7. Aktivieren Sie die Option **Typ des Angebotsdokuments**, (4) wenn das Dokument als [Angebotsvorlage][2] oder Auftragsbestätigungsvorlage verfügbar sein sollte. Den gewünschten Typ des Angebotsdokuments wählen Sie in der Liste unten aus.
+1. Aktivieren Sie die Option **Typ des Angebotsdokuments**, (4) wenn das Dokument als [Angebotsvorlage][2] oder Auftragsbestätigungsvorlage verfügbar sein sollte. Den gewünschten Typ des Angebotsdokuments wählen Sie in der Liste unten aus.
 
     ![Listenobjekt bearbeiten -screenshot][img8]
 
-8. Geben Sie eine Standardeinstellung in das Feld **Unser Zeichen (Standard)** ein, indem Sie Vorlagenvariablen verwenden, z. B. *verf* für den Vor- und Nachnamen des Absenders, oder {oref}.
+1. Geben Sie eine Standardeinstellung in das Feld **Unser Zeichen (Standard)** ein, indem Sie Vorlagenvariablen verwenden, z. B. *verf* für den Vor- und Nachnamen des Absenders, oder {oref}.
 
-9. Geben Sie optional in das Feld Beschreibung eine **Beschreibung** für die Vorlage ein.
+1. Geben Sie optional in das Feld Beschreibung eine **Beschreibung** für die Vorlage ein.
 
     > [!TIP]
     > Sie können die Vorlage direkt im Dialogfeld **Listenobjekt bearbeiten** öffnen und bearbeiten, indem Sie auf die Schaltfläche **Bearbeiten** klicken.

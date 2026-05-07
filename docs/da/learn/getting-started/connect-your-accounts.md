@@ -84,7 +84,7 @@ Synkronisering af din kalender er ikke en del af guiden. Hvis du ønsker at hold
 * [Installer WebTools][7]
 
 <!-- Referenced links -->
-[1]: connect-email-doc/index.md
+[1]: https://help.superoffice.com/docs/11/da/learn/getting-started/connect-email-doc/index.html
 [2]: ../../email/inbox/learn/setup.md
 [3]: ../../../../integrations/superoffice-for-outlook/index.md
 [4]: ../../../../integrations/gmail-link/index.md

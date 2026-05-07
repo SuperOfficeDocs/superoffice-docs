@@ -1,7 +1,0 @@
-items:
-- name: Gegevensuitwisseling
-  href: data-exchange.md
-- name: SOAP-interface configureren
-  href: configure-soap.md
-- name: Systeemgebeurtenis toevoegen
-  href: add-system-event.md

@@ -4,8 +4,8 @@ title: Edit legal base for a contact
 description: In this how-to guide, you will learn about the GDPR features in SuperOffice Marketing that help you ensure that your marketing efforts are GDPR-compliant.
 keywords: edit privacy settings, edit legal base
 author: SuperOffice Product and Engineering
-date: 10.08.2024
-version: 10.3.10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 functional_right: Can update consent for contact
 category: privacy
@@ -74,6 +74,9 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 
 If you import or store a lot of data in your SuperOffice CRM, you can do a bulk update to help you get this data GDPR-ready.
 
+> [!CAUTION]
+> **Bulk updates cannot be undone.**
+
 In the following example, we create a selection of all contacts registered today and then fill the *Purpose* field.
 
 1. Click **Find** (1) and select **Find Contact** (2) to start your search.
@@ -111,9 +114,6 @@ In the following example, we create a selection of all contacts registered today
 
     ![Confirm bulk update -screenshot][img7]
 
-> [!NOTE]
-> **Bulk updates cannot be undone.** That is why we recommend [creating a database backup][3] before making any large data updates ONSITE. Backups of SuperOffice CRM ONLINE are created automatically.
-
 ## Related content
 
 * [Learn more about GDPR, privacy and consent management in SuperOffice][1]
@@ -121,7 +121,6 @@ In the following example, we create a selection of all contacts registered today
 <!-- Referenced links -->
 [1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
-[3]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111362
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/security/legal-basisi.png

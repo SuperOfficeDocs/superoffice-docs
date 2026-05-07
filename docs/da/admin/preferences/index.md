@@ -4,8 +4,8 @@ title: Præferencer
 description: Administratorer kan indstille præferencer for forskellige funktioner i systemet for bestemte brugere, brugergrupper eller for hele SuperOffice CRM (globale præferencer).
 keywords: indstillinger, præferencer, globale præferencer
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: preferences
@@ -63,7 +63,6 @@ Nogle præferencer kan kun indstilles på globalt niveau:
 * Mål
 * [Spejling af data][15]
 * [SMS-konfiguration][5]
-* [SMTP][2] (kun onsite)
 * [Adgangskodepolitik for Customer Centre][6]
 
 ### Ændring af globale præferencer
@@ -127,7 +126,6 @@ Du kan sortere rækkerne i kolonnerne ved at klikke på den ønskede kolonneover
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md

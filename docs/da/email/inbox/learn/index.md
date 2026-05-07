@@ -4,8 +4,8 @@ title: SuperOffice Indbakke
 description: Lær, hvordan du bruger SuperOffice Indbakke til at læse, sende og administrere e-mails i SuperOffice CRM
 keywords: SuperOffice Indbakke, læs e-mail, send e-mail, e-mailklient, indbakke, e-mail
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,7 +46,7 @@ Skærmbilledet for indbakken er opdelt i to ruder:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Opdater meddelelseslisten. |
 
 > [!NOTE]
-> Selv om en mappe er abonneret og opdateret, vises kun de nyeste e-mails. Som standard downloader SuperOffice e-mails fra de seneste 30 dage (Online) eller 180 dage (Onsite). Kontakt support, hvis du vil ændre denne grænse.
+> Selv om en mappe er abonneret og opdateret, vises kun de nyeste e-mails. Som standard downloader SuperOffice e-mails fra de seneste 30 dage. Kontakt support, hvis du vil ændre denne grænse.
 
 ## Relateret indhold
 

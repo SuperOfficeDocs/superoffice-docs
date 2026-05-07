@@ -1,7 +1,0 @@
-items:
-- name: Data Exchange
-  href: data-exchange.md
-- name: Konfigurer SOAP-grænseflade
-  href: configure-soap.md
-- name: Tilføj systemhændelse
-  href: add-system-event.md

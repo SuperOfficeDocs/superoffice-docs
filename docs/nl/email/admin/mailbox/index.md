@@ -4,8 +4,8 @@ title: Service-e-mails
 description: Service-e-mails
 author: digitaldiina
 keywords: postbus
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: email
 topic: Service mailbox
@@ -39,7 +39,6 @@ Het tabblad **Postbussen** bevat een lijst met geïnstalleerde postbussen. Deze 
 * **Categorie**: Verzoeken van de postbus worden aan deze categorie toegewezen.
 * **Prioriteit**: De prioriteit die wordt toegewezen aan nieuwe verzoeken die vanuit deze postbus worden geregistreerd.
 * **Doorstuuradres**: Wanneer u de e-mailfuncties in SuperOffice niet gebruikt, wordt het e-mailbericht naar dit adres doorgestuurd.
-* **Protocol**: Het protocol dat door de postbus wordt gebruikt.
 
 ### <a id="email-in"></a>Postvak IN voor e-mail
 

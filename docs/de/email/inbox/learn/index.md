@@ -4,8 +4,8 @@ title: SuperOffice Posteingang
 description: Erfahren Sie, wie Sie den SuperOffice Posteingang zum Lesen, Versenden und Verwalten von E-Mails in SuperOffice CRM verwenden
 keywords: SuperOffice Posteingang, E-Mail lesen, E-Mail senden, E-Mail-Client, Posteingang, E-Mail
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,7 +46,7 @@ Die Ansicht des Posteingangs ist in zwei Bereiche unterteilt:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Aktualisiert die Nachrichtenliste. |
 
 > [!NOTE]
-> Auch wenn ein Ordner abonniert und aktualisiert ist, werden nur die neuesten E-Mails angezeigt. Standardmäßig lädt SuperOffice E-Mails der letzten 30 Tage (Online) bzw. 180 Tage (Onsite) herunter. Wenden Sie sich an den Support, um diese Grenze bei Bedarf zu ändern.
+> Auch wenn ein Ordner abonniert und aktualisiert ist, werden nur die neuesten E-Mails angezeigt. Standardmäßig lädt SuperOffice E-Mails der letzten 30 Tage herunter. Wenden Sie sich an den Support, um diese Grenze bei Bedarf zu ändern.
 
 ## Verwandte Inhalte
 

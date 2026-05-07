@@ -4,8 +4,8 @@ title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
 keywords: Users screen, user, associate, our companies, visibility, visible for, available
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -52,7 +52,7 @@ To set this license, find the wanted user, click the **Licences** tab and then m
 
 * **Associates**: SuperOffice CRM users (in your company)
 
-* **Other users**: Anonymous users and system users (onsite only)
+* **Other users**: Anonymous users and system users
 
 * **Anonymous users**: Users with limited rights defined by the [role for anonymous users][4]. Anonymous users can be used, for instance, to provide access to web pages. In this way, salespersons can make relevant information from SuperOffice CRM available on a website that does not require a login, to give customers easy access to it.
 
@@ -168,10 +168,6 @@ There are different tabs in the User overview:
 * **Licences** - extra license information like **Condfidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
 * **More** - the tab shows if there are any extra fields on person.
 
-### <a id="other-users"></a>Other users (Onsite)
-
-On the **Other users** tab in the Users screen, you can edit login rights for and add anonymous users and System users.
-
 ### <a id="our-companies"></a>Our companies
 
 The object of the company list in the **Our companies** tab in the Users screen is to specify:
@@ -212,7 +208,7 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 <!-- Referenced links -->
 [2]: add-associate.md
 [3]: user-groups.md
-[4]: onsite/other-users.md#rights
+[4]: https://help.superoffice.com/docs/11/en/admin/user-management/onsite/other-users.html#rights
 [6]: role/index.md
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md

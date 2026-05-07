@@ -4,8 +4,8 @@ title: Tilføj udsendelsesdomæner
 description: Tilføjelse af forekomster til listen Udsendelsesdomæner
 keywords: udsendelse, domæne, SPF
 author: digitaldiina
-date: 10.28.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: marketingessentials
 category: Marketing
@@ -35,7 +35,7 @@ Når den globale indstilling **Brug kun godkendte domæner til afsendelse af e-m
 1. Hvis domænet består SPF-opslaget, føjes det til listen over godkendte domæner, og brugerne kan sende udsendelser fra dette domæne.
 
 > [!NOTE]
-> Du kan konfigurere en SPF-post for dit domæne for at sikre, at din organisation kan sende udsendelser med bedre levering (KUN ONLINE). Hvis dit miljø er ONSITE, udføres der ikke et SPF-opslag. Men du kan stadig bruge listen til at give dine brugere forudindstillede domæner til **Fra-** og **Svar til**-adresser.
+> Du kan konfigurere en SPF-post for dit domæne for at sikre, at din organisation kan sende udsendelser med bedre levering.
 
 <!-- Referenced links -->
 [1]: ../../../../en/online/mail-services/mailgun/spf/index.md

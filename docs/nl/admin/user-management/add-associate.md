@@ -4,8 +4,8 @@ title: Gebruiker toevoegen
 description: In deze handleiding leert u hoe u een nieuwe gebruiker toevoegt in SuperOffice CRM.
 keywords: gebruiker toevoegen, medewerker
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met 
 > [!NOTE]
 > Als u informatie over gebruikers hebt opgegeven toen u SuperOffice CRM bestelde, hoeft u geen gebruikers toe te voegen. Gebruikers hebben aanmeldingsgegevens van SuperOffice per e-mail ontvangen. Controleer of gebruikers zich in het systeem bevinden in het menu Gebruikers in Instellingen en onderhoud.
 >
-> Deze procedure beschrijft hoe u één gebruiker tegelijk kunt toevoegen. Zie [Gebruikers importeren][1] om meerdere gebruikers toe te voegen.
+> Deze procedure beschrijft hoe u één gebruiker tegelijk kunt toevoegen.
 
 ## Stappen
 
@@ -102,17 +102,17 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 
 ## Gerelateerde inhoud
 
-* [Anonieme gebruikers of systeemgebruikers toevoegen (lokaal)][5]
 * [Gebruiker / medewerker bewerken][6]
+* [Onsite-gebruikersbeheer][10]
 
 <!-- Referenced links -->
-[1]: onsite/import-users.md
+
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
-[5]: onsite/other-users.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
+[10]: https://help.superoffice.com/docs/11/nl/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

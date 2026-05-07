@@ -32,8 +32,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Koppla e-post, dokument och kalender
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Anslut dina konton
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: WebTools
           url: ../../../integrations/webtools/index.md
         - text: Hur du skapar ett dokument
@@ -75,7 +75,7 @@ landingContent:
         - text: Länka mall (i Inställningar och underhåll)
           url: templates/admin/link-template.md
         - text: Dokumentmallar på flera språk
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/sv/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:

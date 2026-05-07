@@ -4,8 +4,8 @@ title: Benutzer
 description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
 keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -52,7 +52,7 @@ Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf d
 
 * **Mitarbeiter**: SuperOffice CRM-Benutzer (in Ihrer Firma)
 
-* **Andere Benutzer**: Anonyme und Systembenutzer (nur Vor Ort)
+* **Andere Benutzer**: Anonyme und Systembenutzer
 
 * **Anonyme Benutzer**: Benutzer mit eingeschränkten Rechten, die durch die [Rolle für anonyme Benutzer][4] definiert werden. Anhand von anonymen Benutzern kann z.B. Zugriff auf Webseiten erteilt werden. Auf diese Weise können Vertriebsmitarbeiter z.B. wichtige Informationen über SuperOffice CRM auf einer Website zur Verfügung stellen, für die keine Anmeldung erforderlich ist. Kunden erhalten so leicht Zugriff auf die Informationen.
 
@@ -168,10 +168,6 @@ In der Übersicht Benutzer gibt es verschiedene Registerkarten:
 * **Lizenzen** - Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Folgeaufgabe, Dokumente und Selektionen **sichtbar zu machen**.
 * **Mehr** - Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
 
-### <a id="other-users"></a>Andere Benutzer (vor Ort)
-
-Auf der Registerkarte **Andere Benutzer** auf der Ansicht Benutzer können Login-Rechte für anonyme Benutzer und Systembenutzer bearbeiten und hinzufügen.
-
 ### <a id="our-companies"></a>Unsere Firmen
 
 Die Firmenliste auf der Registerkarte **Unsere Firma** in der Ansicht Benutzer soll folgendes angeben:
@@ -212,7 +208,7 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 <!-- Referenced links -->
 [2]: add-associate.md
 [3]: user-groups.md
-[4]: onsite/other-users.md#rights
+[4]: https://help.superoffice.com/docs/11/de/admin/user-management/onsite/other-users.html#rights
 [6]: role/index.md
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md

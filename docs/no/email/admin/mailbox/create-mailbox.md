@@ -3,8 +3,8 @@ uid: help-no-service-mailbox-create
 title: Opprette e-postkasser
 description: Opprette e-postkasser
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 keywords: e-post
 content_type: howto
 category: email
@@ -14,7 +14,6 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 language: no
-redirect_from: /no/email/service/learn/create-mailbox
 ---
 
 # Opprette e-postkasser
@@ -24,7 +23,7 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 > [!NOTE]
 > Før du konfigurerer en postboks, må du kontrollere at det ikke er gamle meldinger i denne postboksen på e-postserveren. SuperOffice Service importerer all e-post i postkassen, og du risikerer å sende automatiske svar til alle personer som har sendt e-post til denne adressen. For å importere disse gamle e-postene, bør du deaktivere autosvarfunksjonen. Fremfor alt gjelder dette alternativet **Ikke autosvar** på skjermbildet **E-postkasse egenskaper** og alternativet **Ikke send e-post til nye personer** i fanen **Innstillinger** på **System**-skjermbildet i SuperOffice Service.
 
-## Slik oppretter du en ny postboks – tilkoblet
+## Trinn
 
 1. [!include[Go to email](includes/goto-email.md)]
 
@@ -37,15 +36,25 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 
 1. Velg kategori, prioritet, og sakstype:
 
-    [!include[Select category and priority](includes/step-select-category-priority.md)]
+    * I **Kategori**-listeboksen velger du kategorien meldingene i denne e-postkassen tilhører.
+
+    * I **Prioritet**-listeboksen velger du prioriteten for å gi saker fra denne postboksen.
+
+    * I **Sakstype**-listeboksen velger du typen meldinger som tilhører denne postkassen.
 
 1. [!include[Set customer language](includes/step-set-language.md)]
 
 1. Angi svar:
 
-    [!include[Common steps](includes/step-set-reply.md)]
+    1. Velg **Ikke send automatisk svar** hvis du vil deaktivere funksjonen for automatisk svar. Se merknaden øverst i dette emnet.
 
-1. [!include[Import stuff](includes/step-import.md)]
+    1. I feltet **E-postfelt** kan du angi en kommadelt liste over e-postfelt (overskrifter) som skal vises i sakssmeldingen, for eksempel Til og Kopi til.
+
+    1. I listeboksen **Svarmal for svar til kunde** velger du hvilken svarmal som skal brukes når det sendes automatisk svar til kunden.
+
+    1. **Foreslå FAQ-oppføringer fra**: Hvis avmerket, vil systemet foreslå FAQ-oppføringer basert på teksten i innkommende e-poster. De foreslåtte FAQ-oppføringene er tilgjengelige som malvariabler, og kan derfor gjentas i den valgte svarmalen. Du kan også angi hvilken gren av FAQ-treet det skal søkes i, ved å angi ønsket mappe.
+
+1. **Importer automatiske svar og systemmeldinger**: Som standard importeres ikke e-postmeldinger som inneholder "ute av kontoret"-meldinger, systemmeldinger og andre irrelevante meldinger. Hvis du vil importere slike e-poster, kan du velge dette alternativet.
 
 1. **AI-tjenester**: Her kan du velge følgende alternativer for kategorisering og tekstanalyse ved hjelp av [AI:][4]
 
@@ -54,49 +63,11 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 
 1. Klikk på **OK**. E-postkassen opprettes.
 
-## Slik oppretter du en ny postboks – på stedet
-
-1. [!include[Go to email](includes/goto-email.md)]
-
-1. Klikk på **Ny e-postkasse**. Skjermbildet **Egenskaper for e-postkasse** vises med fanen **Egenskaper** åpen.
-
-1. I **Adresse**-feltet skriver du inn e-postadressen du vil bruke for postboksen.
-
-    > [!NOTE]
-    > Konfigurer videresending til denne e-postkasseadressen hvis du skal bruke firmaets e-postadresse (for eksempel `info@company.com`). Bruk **Videresendingsadresse** på skjermbildet **E-postkasser**.
-
-1. I listeboksen **Protokoll** velger du hvilken protokoll som skal brukes til å kommunisere med e-postserveren. Noen av protokollene kan kreve ytterligere konfigurasjon.
-
-1. I feltet **E-postserver** skriver du inn serverens vertsnavn.
-
-1. I feltene **Brukernavn** og **Passord** skriver du inn henholdsvis brukernavnet og passordet til e-postkassen.
-
-1. I feltet **Mappe** skriver du inn mappenavnet til e-postkassen på serveren.
-
-1. I feltet **Port** kan du eventuelt endre foreslått standardport for valgt protokoll.
-
-1. Velg kategori, prioritet, og sakstype:
-
-    [!include[Select category and priority](includes/step-select-category-priority.md)]
-
-1. I **Intervall**-listen velger du hvor ofte SuperOffice Service ser etter meldinger i denne postkassen.
-
-1. [!include[Set customer language](includes/step-set-language.md)]
-
-1. Angi svar:
-
-    [!include[Common steps](includes/step-set-reply.md)]
-
-1. Gå til fanen **Alias**. Her kan du skrive inn et hvilket som helst e-postalias for en postkasse (for eksempel hvis `sales@company.com` og `sale@company.com` går til samme e-postkasse). Du legger til et alias ved å skrive inn en e-postadresse og deretter klikke **+**.
-
-1. [!include[Import stuff](includes/step-import.md)]
-
-1. Klikk på **OK**. E-postkassen opprettes.
-
 ## Relatert innhold
 
 * [Slette e-postkasser][1]
 * [E-post i Service og Marketing][5]
+* [Opprette e-postkasse (onsite)][6]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
@@ -104,3 +75,4 @@ Du kan opprette en postkasse som skal brukes til å importere e-post til SuperOf
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
 [5]: ../../../../en/online/mail-services/curl/index.md
+[6]: https://help.superoffice.com/docs/11/no/email/admin/mailbox/create-mailbox.html

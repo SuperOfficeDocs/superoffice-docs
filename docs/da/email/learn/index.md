@@ -4,8 +4,8 @@ title: E-mail
 description: Med SuperOffice CRM kan du vælge at gemme og dele dine mails på forskellige måder, der får dig og dit team til at arbejde mere produktivt.
 keywords: e-mail, indbakke
 author: SuperOffice Product and Engineering
-date: 09.16.2025
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -83,7 +83,7 @@ Klik på en e-mail i [detaljekortet Aktiviteter][14] for at se dens detaljer i [
 [9]: ../../../../integrations/mail-link/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
-[13]: ../../learn/getting-started/connect-email-doc/index.md
+[13]: ../../learn/getting-started/connect-your-accounts.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [15]: ../../learn/getting-started/main-screen/side-panel.md
 

@@ -4,8 +4,8 @@ title: Legge til elementer i Oppgave-menylisten
 description: Legge til elementer i Oppgave-menylisten
 keywords: Oppgave-meny
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: customization
 audience: settings
@@ -44,10 +44,6 @@ language: no
 ## Bruke malvariabler
 
 Når du legger til en URL-adresse, kan det være nyttig å bruke for eksempel malvariabelen for aktivt firma til å hente ut informasjon fra andre applikasjoner via URL. URL-adressen må angi parametere, for eksempel slik: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. org.nr. her er malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt; og navn på personen &lt;attn&gt;, kan også brukes.
-
-## Er SuperOffice CRM for Web installert på en https-webside? (Onsite)
-
-[!include[HTTPS restriction](../includes/web-panels-and-https.md)]
 
 ## Aktuelt innhold
 

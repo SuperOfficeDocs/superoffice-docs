@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/nl/search-options/admin/regenerate-index.html
+redirect_url: https://help.superoffice.com/docs/11/nl/search-options/admin/regenerate-index.html
 ---

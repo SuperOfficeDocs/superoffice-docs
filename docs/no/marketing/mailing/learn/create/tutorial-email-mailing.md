@@ -3,8 +3,8 @@ uid: help-no-tutorial-email-mailing
 title: Opplæring - sende e-post
 description: Når du har fullført de nødvendige forberedelsene, som inkluderer å opprette mållisten og klargjøre malen for utsendelse, er du klar til å opprette en ny utsendelse i SuperOffice CRM. I denne opplæringen lærer du å opprette en e-postutsendelse.
 keywords: e-postutsendelse
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: tutorial
 category: marketing
 topic: mailing
@@ -56,7 +56,7 @@ Det første trinnet når du skal lage en utsendelse for e-post, kalles **Oppsett
 
 1. Klikk på **Neste** for å gå til neste trinn.
 
-### Validering av e-postdomene (KUN PÅ NETT)
+### Validering av e-postdomene
 
 Hvis administratoren har aktivert [global preferanse][2] Du må bare bruke godkjente e-postdomener**, **Fra-adresse**-feltet vil være delt, og du må velge domenet du vil sende fra, i nedtrekksmenyen med godkjente domener.
 Forsøk på å sende fra et domene som ikke har en gyldig SPF-oppføring, vil utløse en advarsel, og du vil ikke kunne sende fra det domenet. Dette gjelder for alle e-postdomener, selv om valideringspreferansen ikke er aktivert.

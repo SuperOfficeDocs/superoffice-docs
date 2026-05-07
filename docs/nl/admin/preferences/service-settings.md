@@ -4,8 +4,8 @@ title: SuperOffice Service-systeeminstellingen
 description: Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
 keywords: Service instellingen, systeeminstellingen, Algemene voorkeuren
 author: digitaldiina
-date: 04.28.2026
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences
@@ -72,17 +72,10 @@ Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navig
 
 * **Alle links traceren**: schakel in om alle links in mailings te traceren.
 
-* **Interne URL**: Het basisadres voor toegang tot het SuperOffice Service-systeem. (ALLEEN ter plaatse)
+## Gerelateerde inhoud
 
-* **Externe URL**: Het basisadres voor externe toegang tot het SuperOffice Service-systeem. (ALLEEN ter plaatse)
-
-* **Cgi-bin-pad**: Het pad naar de map waar de Cgi-bin-toepassingsbestanden van SuperOffice Service zich bevinden. Dit pad moet beginnen met een slash maar mag niet eindigen met een slash. Bijvoorbeeld */bin* of */Scripts*. (ALLEEN ter plaatse)
-
-* **Gebruikers verifiëren vanaf webserver**: Wanneer deze optie is ingeschakeld, accepteert SuperOffice Service de verificatiegegevens voor gebruikers van de webserver (Microsoft IIS). (ALLEEN ter plaatse)
-
-* **Klanten verifiëren vanaf webserver**: Wanneer deze optie is ingeschakeld, accepteert SuperOffice Service de verificatiegegevens voor gebruikers van de webserver van het klantencentrum (Microsoft IIS). (ALLEEN ter plaatse)
-
-* **Online op internet**: Schakel deze optie in als SuperOffice Service op internet beschikbaar is. Hiermee worden onderdelen van de beschikbare functionaliteit van SuperOffice Service aangestuurd, aangezien voor sommige functies de oplossing online moet zijn. (ALLEEN ter plaatse)
+* [Service-instellingen (lokaal)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/nl/admin/preferences/service-settings.html

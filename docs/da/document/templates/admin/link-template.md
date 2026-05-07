@@ -4,8 +4,8 @@ title: Tilføjelse af dokumentskabelon
 description: I denne vejledning lærer du, hvordan du tilføjer en ny dokumentskabelon til SuperOffice CRM.
 keywords: dokument, skabelon, liste
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -79,26 +79,22 @@ Angiv følgende information på fanen **Detaljer**:
 
 1. I feltet **Retning** angiver du, om skabelonen skal være udgående eller indgående ved at klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge fra rullemenuen.
 
-2. I feltet **Dokumenttype** skal du vælge enten **Dokument** eller **Fax** som skabelontype.
+1. I feltet **Dokumenttype** skal du vælge enten **Dokument** eller **Fax** som skabelontype.
 
-3. I feltet **Dokument gemt i** kan du vælge at gemme dokumentet et andet sted end standardindstillingen.
+1. I feltet **Dokument gemt i** kan du vælge at gemme dokumentet et andet sted end standardindstillingen.
 
-4. I feltet **Hensigt** skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en af de foruddefinerede valgmuligheder fra listen. Disse forekomster bruges i forbindelse med statusovervågning (kræver licens til [Sales Intelligence][4]).
+1. I feltet **Hensigt** skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en af de foruddefinerede valgmuligheder fra listen. Disse forekomster bruges i forbindelse med statusovervågning (kræver licens til [Sales Intelligence][4]).
 
     > [!TIP]
     > Du kan oprette nye indstillinger, ud over de foruddefinerede indstillinger, ved at tilføje forekomster på listen **Opfølgning - Hensigt** i Indstillinger og vedligeholdelse.
 
-5. Onsite: Marker alternativet **Udgiv**, hvis det skal være muligt at angive i dialogboksen Dokument, at den aktuelle dokumentskabelon skal være tilgængelig for eksterne brugere.
-
-6. Onsite: Marker indstillingen **Gem i database** for at angive, at dokumenter, du opretter med denne skabelon, skal gemmes i dokumentdatabasen. Hvis du markerer denne indstilling, vises dokumentet på detaljekortet **Aktiviteter**. Hvis du ikke markerer denne indstilling, vises dokumentet ikke i SuperOffice, efter at du har oprettet det, og du får ikke adgang til det via programmet.
-
-7. Marker indstillingen **Tilbudsdokumenttype** (4), hvis dokumentet skal være tilgængeligt som [tilbudsskabelon][2] eller ordrebekræftelsesskabelon. Du vælger typen tilbudsdokument på listen nedenfor.
+1. Marker indstillingen **Tilbudsdokumenttype** (4), hvis dokumentet skal være tilgængeligt som [tilbudsskabelon][2] eller ordrebekræftelsesskabelon. Du vælger typen tilbudsdokument på listen nedenfor.
 
     ![Reference list item -screenshot][img8]
 
-8. Angiv standardindstillingen for feltet **Vores reference (standard)** (5)ved at anvende [skabelonvariablerne][2], eksempelvis *auth* for afsenderens for- og efternavne, eller {oref}.
+1. Angiv standardindstillingen for feltet **Vores reference (standard)** (5)ved at anvende [skabelonvariablerne][2], eksempelvis *auth* for afsenderens for- og efternavne, eller {oref}.
 
-9. Angiv eventuelt en beskrivelse af skabelonen i feltet **Beskrivelse**.
+1. Angiv eventuelt en beskrivelse af skabelonen i feltet **Beskrivelse**.
 
     > [!TIP]
     > Du kan åbne skabelonen til redigering direkte ved at klikke på knappen **Rediger** øverst i dialogboksen **Rediger forekomst**.

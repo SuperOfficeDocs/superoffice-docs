@@ -4,8 +4,8 @@ title: Dokument
 description: Introduksjon til dokumenter og dokumenthåndtering i SuperOffice.
 keywords: dokument
 author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -82,7 +82,7 @@ I [fanen **Mer**][12] finner du brukerdefinerte felt for dokumentet.
 [4]: edit.md
 [5]: send-as-email.md
 [7]: lock.md
-[9]: ../../learn/getting-started/connect-email-doc/index.md
+[9]: ../../learn/getting-started/connect-your-accounts.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 

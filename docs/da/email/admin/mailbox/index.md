@@ -4,8 +4,8 @@ title: Administration af e-mailkonti
 description: Administration af e-mailkonti
 keywords: e-mail-konto, e-mail
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: email
 topic: Service mailbox
@@ -39,7 +39,6 @@ På fanen **E-mail-konti** finder du en oversigt over de installerede e-mail-kon
 * **Kategori**: Sager fra e-mailkontoen vil blive tildelt til denne kategori.
 * **Prioritet**: Den prioritet, som nye sager får, når de registreres fra denne e-mail-konto.
 * **Videresendelsesadresse**: Hvis du ikke bruger e-mailfunktionerne i SuperOffice, videresendes e-mails til denne adresse.
-* **Protokol**: Den protokol, som e-mail-kontoen bruger.
 
 ### <a id="email-in"></a>Indbakke til e-mail
 

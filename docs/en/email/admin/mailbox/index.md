@@ -4,8 +4,8 @@ title: Mailbox administration
 description: Mailbox administration
 keywords: mailbox, email
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: email
 topic: Service mailbox
@@ -38,8 +38,7 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 * **Address**: The mailbox's sending address.
 * **Category**: Requests from the mailbox are assigned to this category.
 * **Priority**: The priority that new requests are assigned when registered from this mailbox.
-* **Forwarding address**: <!-- online -->If you are not using the email functions in SuperOffice, emails are forwarded to this address.
-* **Protocol**: <!-- onsite -->The protocol that the mailbox uses.
+* **Forwarding address**: If you are not using the email functions in SuperOffice, emails are forwarded to this address.
 
 ### <a id="email-in"></a>Inbox for email
 

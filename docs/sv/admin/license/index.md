@@ -4,8 +4,8 @@ title: SuperOffice och licenser
 description: SuperOffice och licenser
 keywords: licens, mätt tjänst, databasägare, fliken Status
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -182,7 +182,7 @@ Samma undantag gäller för SCIM: räkna antalet aktiva användarplaner – inte
 <!-- Referenced links -->
 [1]: activate.md
 [2]: ../../saint/learn/index.md
-[3]: ../onsite/add-system-event.md
+[3]: https://help.superoffice.com/docs/11/sv/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm

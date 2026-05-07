@@ -4,8 +4,8 @@ title: Legg til domener for utsendelser
 description: Legge til elementer i listen over domene for utsendelser
 keywords: utsendelse, domene, SPF
 author: digitaldiina
-date: 10.28.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: marketingessentials
 category: Marketing
@@ -35,7 +35,7 @@ Når den globale preferansen **Bruk bare godkjente domener for sending av e-post
 1. Hvis domenet består SPF-oppslaget, legges det til i listen over godkjente domener, og brukere kan sende utsendelser fra dette domenet.
 
 > [!NOTE]
-> Du kan konfigurere en SPF-oppføring for domenet for å sikre at organisasjonen kan sende utsendelser som blir levert (BARE PÅ NETT). Hvis miljøet ditt er ONSITE, utføres ikke et SPF-oppslag. Du kan imidlertid fortsatt bruke listen til å gi brukerne forhåndsinnstilte domener for **Fra**- og **Svar til**-adresser.
+> Du kan konfigurere en SPF-oppføring for domenet for å sikre at organisasjonen kan sende utsendelser som blir levert.
 
 <!-- Referenced links -->
 [1]: ../../../../en/online/mail-services/mailgun/spf/index.md

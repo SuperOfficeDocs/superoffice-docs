@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/no/admin/onsite/add-system-event.html
+redirect_url: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html
 ---

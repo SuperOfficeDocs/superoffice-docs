@@ -4,8 +4,8 @@ title: Logga in
 description: Logga in för att aktivera ditt SuperOffice CRM-konto med ett SuperOffice CRM-lösenord eller ett alternativ för enkel inloggning.
 keywords: CRM, logga in, logga in, lösenord
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -25,7 +25,7 @@ För att kunna använda SuperOffice CRM måste du ha tilldelats ett användarkon
 
 ## Vad är mitt användar-ID?
 
-För inloggade användare och Internet-användare används e-postadressen som användar-ID.
+Ditt användar-ID är din e-postadress.
 
 Windows-användare måste använda det användarnamn de har tilldelats.
 
@@ -92,9 +92,6 @@ När du startar Inställningar och underhåll visas ett inloggningsfönster där
 
 * Ange användar-ID och lösenord och klicka på **OK**.
 
-> [!NOTE]
-> Lokalt: Första gången du kör Inställningar och underhåll visas en dialogruta med en ändring av användarvillkoren. Läs den här viktiga informationen och klicka på **Acceptera** och **OK** för att fortsätta använda Inställningar och underhåll. Den här dialogrutan visas inte igen.
-
 Du måste ha *Behörighet 0* eller en roll som ger dig behörighet att logga in i Inställningar för Windows-klient. Användar-ID, lösenord och behörighetsnivå definieras i fönstret *Användare* i Inställningar och underhåll
 
 > [!TIP]
@@ -114,19 +111,13 @@ Du måste ha *Behörighet 0* eller en roll som ger dig behörighet att logga in 
 
 ### <a id="forgot-password"></a>Glömt ditt lösenord?
 
-Människor glömmer ofta sina referenser framför allt sina lösenord. Därför kan det vara praktiskt att veta hur du ändrar eller återställer SuperOffice CRM-lösenordet. Följ instruktionerna för din version av SuperOffice för att ändra ditt lösenord.
-
-#### Online
+Människor glömmer ofta sina referenser framför allt sina lösenord. Därför kan det vara praktiskt att veta hur du ändrar eller återställer SuperOffice CRM-lösenordet.
 
 1. Klicka på länken **Har du glömt lösenordet?**.
-2. Ange din e-postadress.
-3. Klicka på **Återställ lösenord**.
+1. Ange din e-postadress.
+1. Klicka på **Återställ lösenord**.
 
 Du får ett e-postmeddelande som ger dig möjlighet att ändra lösenordet.
-
-#### Lokalt
-
-Kontakta SuperOffice-administratören för att få ett nytt lösenord.
 
 ## Relaterat innehåll
 

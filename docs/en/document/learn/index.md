@@ -4,8 +4,8 @@ title: Document
 description: Introduction to documents and document handling in SuperOffice.
 keywords: document, activity, activities
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -70,7 +70,7 @@ The [More tab][12] displays custom fields for the document.
 
 ## Related content
 
-* [Connect email, documents and diary][9]
+* [Connect your accounts][9]
 * [Create new documents][3]
 * [Edit or delete documents][4]
 * [Check in/out documents][7]
@@ -81,7 +81,7 @@ The [More tab][12] displays custom fields for the document.
 [4]: edit.md
 [5]: send-as-email.md
 [7]: lock.md
-[9]: ../../learn/getting-started/connect-email-doc/index.md
+[9]: ../../learn/getting-started/connect-your-accounts.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 

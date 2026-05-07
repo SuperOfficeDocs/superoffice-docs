@@ -25,7 +25,5 @@ items:
   href: ../admin/link-template.md
 - name: Rediger skabelon
   href: ../admin/update-template.md
-- name: Dokumentskabeloner på flere sprog
-  href: ../admin/using-document-templates-for-multiple-languages.md
 - name: Standardværdier for nye dokumentskabeloner
   href: ../admin/document-template-defaults.md

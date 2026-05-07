@@ -3,7 +3,8 @@ uid: help-en-sign-in-to-superoffice
 title: Log in
 description: Log in to activate your SuperOffice CRM account using a SuperOffice CRM password or a single sign-on option.
 author: SuperOffice RnD
-date: 08.28.2023
+date: 05.04.2026
+version: 11.13
 keywords: CRM, sign in, login, password, single sign-on
 content_type: howto
 audience: person
@@ -24,7 +25,7 @@ To use SuperOffice CRM, you must be assigned a user account that is unique for y
 
 ## What is my user ID?
 
-For online and web users, the user ID is your email address.
+The user ID is your email address.
 
 Windows users must use their assigned user name.
 
@@ -91,9 +92,6 @@ When you start Settings and maintenance, you will see a login screen where you m
 
 * Enter your user ID and password and click **OK**.
 
-> [!NOTE]
-> Onsite: The first time you run Settings and maintenance, a dialog displays an amendment to the Terms of Service. Please read this important information and click **Accept** and **OK** to continue using Settings and maintenance. This dialog will not be displayed again.
-
 You must belong to the *User level 0* role or another role that gives you login rights for Settings and maintenance. User IDs, passwords and user levels are all defined in the [Users screen][2].
 
 > [!TIP]
@@ -119,34 +117,28 @@ If your SuperOffice installation uses SuperID authentication, check your inbox f
 
 Still cannot log in for the first time? Contact your SuperOffice administration and ask them to confirm that when your [user was created][3], a user plan was selected and that your contact card has the same email address as your user card in Settings and maintenance.
 
-### If you were able to log in to SuperOffice Online earlier
+### If you were able to log in to SuperOffice earlier
 
 1. First, make sure you did not make any spelling mistakes, CapsLock is not On, and NumLock is on if you used numbers in your password.
 
-1. Try to log in to SuperOffice Online using a different browser. If that works, you need to [delete cookies of the browser you usually use][12].
+1. Try to log in to SuperOffice using a different browser. If that works, you need to [delete cookies of the browser you usually use][12].
 
 1. Does your contact have more than one email address in the contact card? Try to delete the email address you do NOT use to log in.
 
 ### <a id="forgot-password"></a>Forgot your password?
 
-People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password. Follow the instructions for your version of SuperOffice to change your password.
-
-#### Online
+People often forget their credentials, especially their password. Therefore, it might come in handy to know how to change or reset your SuperOffice CRM password.
 
 1. Click the **Forgot your password?** link in the Login screen.
-2. Enter you email address.
-3. Click **Reset Password**.
+1. Enter you email address.
+1. Click **Reset Password**.
 
 You will receive an email that allows you to change your password.
 
 > [!NOTE]
 > When **Microsoft** is in charge of your password, it has to be reset via the [Microsoft password reset service][10].
 > When **Google** is in charge of your password, it has to be reset via the [Google password reset service][11].
-> If you do not know, which identity provider you use please contact your IT responsible.
-
-#### Onsite
-
-Contact your SuperOffice administrator to receive a new password.
+> If you do not know which identity provider you use, please contact your IT responsible.
 
 ## Related content
 

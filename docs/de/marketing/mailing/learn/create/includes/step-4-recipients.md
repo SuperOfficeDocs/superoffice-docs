@@ -70,7 +70,6 @@ Wenn Sie eine Liste mit Namen und E-Mail-Adressen importieren, versucht SuperOff
     > [!NOTE]
     > Außerdem können Sie auch nur die E-Mail-Adresse angeben. Dann ist der Name jedoch nicht als Vorlagenvariable verfügbar.
 
-* Vor Ort: Jeder Empfänger (Zeile) kann auch eine Mobilfunknummer beinhalten (hinter der E-Mail-Adresse), wenn Sie SMS-Kampagnen erstellen. Zum Beispiel: "John Smith, john@company.com, 99999999". Erfordert die Marketing-SMS-Lizenz.
 
 > [!NOTE]
 > Wenn Sie nur die Mobilfunknummer haben und eine SMS senden möchten, können Sie Folgendes eingeben: " , , 99887766".

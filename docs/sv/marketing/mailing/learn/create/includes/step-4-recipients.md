@@ -70,7 +70,6 @@ När du importerar en lista med namn och e-postadresser kommer SuperOffice Markn
     > [!NOTE]
     > Du kan även ange endast e-postadressen. Namnet kommer då inte att finnas tillgängligt som mallvariabel.
 
-* Lokalt: Varje mottagare (rad) kan även innehålla ett mobiltelefonnummer (efter e-postadressen) om du skapar SMS-utskick. Till exempel: "John Smith, john@company.com, 99999999". Kräver SMS-licens för marknadsföring.
 
 > [!NOTE]
 > Om du bara har mobiltelefonnumret och vill skicka SMS-utskick kan du skriva så här: " , , 99887766".

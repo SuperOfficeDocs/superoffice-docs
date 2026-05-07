@@ -170,11 +170,6 @@ landingContent:
           url: ../../en/api/reference/soap/Services88/Ticket/index.md
         - text: SOAP (ticket-port)
           url: ../../en/api/reference/soap/customer-service/ports/ticket/index.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Konfigurera SOAP-portar
-          url: ../admin/onsite/configure-soap.md
 
   - title: Databastabeller
     linkLists:

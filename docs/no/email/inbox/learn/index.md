@@ -4,8 +4,8 @@ title: SuperOffice-innboks
 description: Lær hvordan du bruker SuperOffice-innboksen til å lese, sende og administrere e-post i SuperOffice CRM
 keywords: SuperOffice-innboks, lese e-post, sende e-post, e-postklient, innboks, e-post
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -46,7 +46,7 @@ Innboks-skjermbildet er delt inn i to ruter:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Oppdater meldingslisten. |
 
 > [!NOTE]
-> Selv om en mappe er abonnert på og oppdatert, vises bare de nyeste e-postene. Som standard lastes e-poster fra de siste 30 dagene (Online) eller 180 dagene (Onsite) ned. Kontakt kundestøtte for å endre denne grensen hvis nødvendig.
+> Selv om en mappe er abonnert på og oppdatert, vises bare de nyeste e-postene. Som standard lastes e-poster fra de siste 30 dagene ned. Kontakt kundestøtte for å endre denne grensen hvis nødvendig.
 
 ## Relatert innhold
 

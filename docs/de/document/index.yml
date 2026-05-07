@@ -32,8 +32,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: E-Mail, Dokumente und Kalender verbinden
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Konten verbinden
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: WebTools
           url: ../../../integrations/webtools/index.md
         - text: Wie man ein Dokument erstellt
@@ -75,7 +75,7 @@ landingContent:
         - text: Vorlage verknüpfen (in Einstellungen und Verwaltung)
           url: templates/admin/link-template.md
         - text: Dokumentvorlagen in mehreren Sprachen
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/de/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:

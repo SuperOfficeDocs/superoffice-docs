@@ -70,7 +70,6 @@ Når du importerer en liste over navne og e-mailadresser, forsøger SuperOffice 
     > [!NOTE]
     > Du kan også nøjes med at angive e-mailadressen. I så fald vil navnet ikke være tilgængeligt som skabelonvariabel.
 
-* Onsite: Den enkelte modtager(række) kan også indeholde et mobiltelefonnummer (efter e-mailadressen), hvis du opsætter sms-udsendelser. For eksempel: "John Smith, john@company.com, 99999999". Kræver licens til Marketing SMS.
 
 > [!NOTE]
 > Hvis du kun har mobiltelefonnummeret og skal sende en SMS, kan du angive følgende:

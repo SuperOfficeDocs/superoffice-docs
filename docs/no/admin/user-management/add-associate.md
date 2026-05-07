@@ -4,8 +4,8 @@ title: Legge til bruker
 description: I denne guiden lærer du hvordan du legger til en ny bruker i SuperOffice CRM.
 keywords: Legg til bruker, medarbeider
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Administratorer har ansvaret for å gi nye brukere en brukerplan, et brukernavn,
 > [!NOTE]
 > Hvis du oppga informasjon om brukerne da du bestilte SuperOffice CRM, trenger du ikke å legge til brukere. Brukerne skal ha fått påloggingsinformasjon fra SuperOffice via e-post. Kontroller om brukerne er i systemet ved hjelp av menyen Brukere i Innstillinger og vedlikehold.
 >
-> Denne prosedyren beskriver hvordan du legger til én bruker om gangen. Hvis du vil legge til flere brukere onsite, kan du se [Importere brukere][1].
+> Denne prosedyren beskriver hvordan du legger til én bruker om gangen.
 
 ## Trinn
 
@@ -102,17 +102,17 @@ Se denne demoen for å se hvordan du legger til en ny bruker i SuperOffice CRM.
 
 ## Relatert innhold
 
-* [Legge til anonym bruker eller systembruker (onsite)][5]
 * [Rediger bruker/medarbeider][6]
+* [Onsite-brukeradministrasjon][10]
 
 <!-- Referenced links -->
-[1]: onsite/import-users.md
+
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
-[5]: onsite/other-users.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
+[10]: https://help.superoffice.com/docs/11/no/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

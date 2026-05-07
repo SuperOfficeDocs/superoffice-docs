@@ -70,7 +70,6 @@ Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Mark
     > [!NOTE]
     >Du kan også angi bare e-postadressen. Navnet vil deretter ikke være tilgjengelig som malvariabel.
 
-* Onsite: Hver mottaker (rad) kan også inneholde et mobiltelefonnummer (etter e-postadressen) hvis du oppretter SMS-utsendelser. For eksempel: "Jon Sørensen, john@company.com, 99999999". Krever markedsføringslisens for SMS.
 
 > [!NOTE]
 > Hvis du bare har mobiltelefonnummeret og skal sende SMS, kan du angi følgende: " , , 99887766".

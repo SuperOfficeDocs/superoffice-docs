@@ -170,11 +170,6 @@ landingContent:
           url: ../api/reference/soap/Services88/Ticket/index.md
         - text: SOAP (ticket port)
           url: ../api/reference/soap/customer-service/ports/ticket/index.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Configure SOAP ports
-          url: ../admin/onsite/configure-soap.md
 
   - title: Database tables
     linkLists:

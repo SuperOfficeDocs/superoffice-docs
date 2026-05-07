@@ -4,8 +4,8 @@ title: System settings
 description: System settings
 keywords: Service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 05.04.2026
+version: 11.13
 content_type: reference
 license: serviceessentials
 audience: settings
@@ -35,7 +35,6 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 * [Kundespråk][10]
 * [Konfigurasjon av kundesenter og kildefiler][21]
 * [Chat][23]
-* [SOAP][14] (bare ONSITE)
 * [Systemdesign][15]
 * [Profil][16] – endringer her vises ikke noe sted i SuperOffice CRM-modulen (kun i Service-modulen)
 
@@ -51,7 +50,6 @@ I denne delen kan du konfigurere innstillingene for Service for å skreddersy sy
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
 [7]: ../learn/index.md#available
-[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

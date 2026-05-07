@@ -4,8 +4,8 @@ title: Functional rights in SuperOffice
 description: What are all available functional rights in SuperOffice and what each of them mean?
 keywords: user management, role, access, rights
 author: PhilipYates, digitaldiina
-date: 10.24.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -63,7 +63,6 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 | Hide Inbox screen | Do not display the Inbox button and screen. | |
 | Hide Marketing screen | Do not display the Marketing button and screen. | |
 | Hide Project screen | Do not display the Project button and screen or project-related fields. | |
-| Hide Reports screen | Do not display the Reports button and screen. | (ONSITE ONLY) |
 | Hide Sale screen | Do not display the Sale button and screen. | |
 | Hide Selection screen | Do not display the Selection button and screen. | |
 | Hide Service screen | Do not display the Service button and screen. | |

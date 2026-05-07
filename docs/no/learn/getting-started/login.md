@@ -3,7 +3,8 @@ uid: help-no-sign-in-to-superoffice
 title: Pålogging
 description: Logg på for å aktivere SuperOffice CRM-kontoen med et SuperOffice CRM-passord eller et alternativ for enkel pålogging.
 author: SuperOffice RnD
-date: 08.28.2023
+date: 05.04.2026
+version: 11.13
 keywords: CRM, logge på, pålogging, passord
 content_type: howto
 audience: person
@@ -24,7 +25,7 @@ For å bruke SuperOffice CRM må du være tilordnet en brukerkonto som er unik f
 
 ## Hva er bruker-ID-en min?
 
-For nett- og nettbrukere er bruker-ID-en din e-postadressen.
+Bruker-ID-en din er e-postadressen din.
 
 Windows-brukere må bruke det brukernavnet de har fått tilordnet.
 
@@ -91,9 +92,6 @@ Når du starter Innstillinger og vedlikehold, får du opp et påloggingsbilde de
 
 * Skriv inn bruker-ID og passord, og klikk på **OK**.
 
-> [!NOTE]
-> Lokalt: Første gang du kjører Innstillinger og vedlikehold, vises en dialogboks med endringer i tjenestevilkårene. Les denne viktige informasjonen og klikk på **Godta** og **OK** for å fortsette med å bruke Innstillinger og vedlikehold. Denne dialogboksen vises ikke igjen.
-
 Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggingsrettigheter for Innstillinger og vedlikehold. Bruker-ID-er, passord og brukernivåer er alle definert på skjermbildet [Brukere][2].
 
 > [!TIP]
@@ -113,19 +111,13 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 
 ### <a id="forgot-password"></a>Har du glemt passordet?
 
-Folk glemmer ofte legitimasjonen sin, spesielt passordet. Derfor kan det være nyttig å vite hvordan du endrer eller tilbakestiller SuperOffice CRM-passordet. Følg instruksjonene for din versjon av SuperOffice for å endre passordet.
-
-#### Pålogget
+Folk glemmer ofte legitimasjonen sin, spesielt passordet. Derfor kan det være nyttig å vite hvordan du endrer eller tilbakestiller SuperOffice CRM-passordet.
 
 1. Klikk på koblingen **Glemt passordet?**.
-2. Skriv inn e-postadressen din.
-3. Klikk på **Tilbakestill passord**.
+1. Skriv inn e-postadressen din.
+1. Klikk på **Tilbakestill passord**.
 
 Du vil motta en e-post som lar deg endre passordet ditt.
-
-#### Lokalt
-
-Kontakt SuperOffice-administratoren for å få et nytt passord.
 
 ## Aktuelt innhold
 

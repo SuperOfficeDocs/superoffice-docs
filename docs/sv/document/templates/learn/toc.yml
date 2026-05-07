@@ -25,7 +25,5 @@ items:
   href: ../admin/link-template.md
 - name: Redigera mall
   href: ../admin/update-template.md
-- name: Dokumentmallar på flera språk
-  href: ../admin/using-document-templates-for-multiple-languages.md
 - name: Standardvärden för nya dokumentmallar
   href: ../admin/document-template-defaults.md

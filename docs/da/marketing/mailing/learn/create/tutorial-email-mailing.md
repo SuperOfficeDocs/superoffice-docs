@@ -3,8 +3,8 @@ uid: help-da-tutorial-email-mailing
 title: Selvstudium - e-mail-udsendelse
 description: Når du har gennemført de nødvendige forberedelser, som inkluderer oprettelse af din målliste og forberedelse af din mailskabelon, så er du klar til at oprette en ny udsendelse i SuperOffice CRM. I dette selvstudium lærer du at oprette en e-mail-udsendelse.
 keywords: e-mail-udsendelse
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: tutorial
 category: marketing
 topic: mailing
@@ -56,7 +56,7 @@ Det første trin i oprettelse af en e-mailudsendelse kaldes **Opsætning**. Her 
 
 1. Klik på **Næste** for at gå til det næste trin.
 
-### Validering af e-mail-domæne (KUN ONLINE)
+### Validering af e-mail-domæne
 
 Hvis din administrator har aktiveret [generelle indstillinger][2] i form af **Brug kun godkendte e-mail-domæner**, vil feltet **Fra-adresse** blive delt op, og du skal vælge det domæne, du vil sende fra, i rullelisten over godkendte domæner.
 Hvis du forsøger at sende fra et domæne, der ikke har en gyldig SPF-registrering, får du vist en advarsel, og du kan ikke sende fra det domæne. Det gælder for alle e-maildomæner, også selvom valideringspræferencen ikke er aktiveret.

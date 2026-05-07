@@ -4,8 +4,8 @@ title: Verkooptargets instellen
 description: Houd uw budgetten bij door verkooptargets in te stellen. Dit helpt u om de juiste verwachtingen te scheppen, uw groei te plannen, de motivatie te vergroten en tijd te besparen.
 keywords: verkooptargets
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: salespremium
 deployment: online
@@ -30,9 +30,6 @@ De targetslijst kan de volgende onderdelen bevatten:
 Het is optioneel om het bedrijfstarget toe te voegen en om gebruikersspecifieke targets te hebben (ga naar Targetinstellingen om te wijzigen). De som van alle targets in één gebruikersgroep is niet bewerkbaar. Het toont de som voor alle gebruikers in één gebruikersgroep en is een richtlijn om het gemakkelijker te maken om het target voor de hele gebruikersgroep in te stellen. U kunt het bedrijfstarget toevoegen en bewerken, omdat het target voor het hele bedrijf niet noodzakelijkerwijs hetzelfde is als de som van alle gebruikersgroepen.
 
 ## Vereisten
-
-> [!NOTE]
-> Alleen voor **ONLINE**-klanten. (Niet beschikbaar voor Onsite-klanten.)
 
 Als u alleen een Sales Premium-licentie heeft, kunt u één groep toevoegen voor het targettype **Alle verkopen – Bedrag**. Om meer dan één gebruikersgroep toe te voegen, heeft u ook de licentie Unlimited sales targets nodig.
 

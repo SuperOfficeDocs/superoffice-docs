@@ -4,8 +4,8 @@ title: Work with email addresses
 description: Work with email addresses
 keywords: email address
 author: Bergfrid Dias
-date: 03.16.2023
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: service
 topic: knowledge base
@@ -46,7 +46,7 @@ If you want details of the registered email addresses, go to <i class="ph ph-lis
 
 1. In the **Email address** field, enter the person's email address.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Click **OK**. The email address is added to the specified folder and available the next time you want to send an email.
 

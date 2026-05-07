@@ -3,8 +3,8 @@ uid: help-sv-tutorial-email-mailing
 title: Handledning - e-postutskick
 description: När du har slutfört de nödvändiga förberedelserna, vilket inkluderar att skapa din mållista och förbereda din utskicksmall, är du redo att skapa ett nytt utskick i SuperOffice CRM. I den här instruktionsguiden lär du dig att skapa ett e-postutskick.
 keywords: e-postutskick
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: tutorial
 category: marketing
 topic: mailing
@@ -56,7 +56,7 @@ Det första steget för att skapa ett e-postutskick är att **konfigurera** utsk
 
 1. Klicka på **Nästa** när du vill gå vidare till nästa steg.
 
-### Validering av e-postdomän (ENDAST ONLINE)
+### Validering av e-postdomän
 
 Om administratören har aktiverat den [globala inställningen][2] **Använd endast godkända e-postdomäner** delas fältet **Från adress** upp och du måste välja den domän du vill skicka från i listrutan över godkända domäner.
 Om du försöker skicka från en domän som inte har en giltig SPF-post visas en varning och du kan inte skicka från den domänen. Detta gäller för alla e-postdomäner även om valideringsinställningen inte är aktiverad.

@@ -4,8 +4,8 @@ title: Redigere brukerinformasjon
 description: Redigere medarbeider
 keywords: bruker, medarbeider
 author: digitaldiina
-date: 10.24.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -52,9 +52,3 @@ For å oppdatere, flytte eller slette en bruker (assosiert), må du først velge
 
 1. Klikk på **OK**.
 
-## Relatert innhold
-
-* [Redigere eller slette anonym bruker eller systembruker (onsite)][1]
-
-<!-- Referenced links -->
-[1]: onsite/other-users.md

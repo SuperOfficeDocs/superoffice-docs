@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/da/admin/onsite/data-exchange.html
+redirect_url: https://help.superoffice.com/docs/11/da/admin/onsite/data-exchange.html
 ---

@@ -4,8 +4,8 @@ title: Postbussen maken
 description: Postbussen maken
 keywords: e-mail
 author: digitaldiina
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: email
 topic: Service mailbox
@@ -14,7 +14,6 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 language: nl
-redirect_from: /nl/email/service/learn/create-mailbox
 ---
 
 # Postbussen maken
@@ -24,7 +23,7 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 > [!NOTE]
 > Voordat u een postbus instelt, moet u ervoor zorgen dat er geen oude berichten in deze postbus op de e-mailserver staan. SuperOffice Service importeert alle e-mailberichten in de postbus, hierdoor worden er mogelijk automatische antwoorden verzonden naar alle personen die e-mailberichten naar dit adres hebben gestuurd. Om deze oude e-mails te importeren, moet u de functie voor automatisch beantwoorden uitschakelen. Het gaat om de optie **Niet automatisch antwoorden** in het scherm **Postbuseigenschappen** en de optie **Geen e-mail naar nieuwe personen verzenden** op het tabblad **Instellingen** in het scherm **Systeem** in SuperOffice Service.
 
-## Een nieuw postvak maken - online
+## Stappen
 
 1. [!include[Go to email](includes/goto-email.md)]
 
@@ -37,15 +36,25 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 
 1. Selecteer categorie, prioriteit, en verzoektype:
 
-    [!include[Select category and priority](includes/step-select-category-priority.md)]
+    * In de keuzelijst **Categorie** selecteert u tot welke categorie de berichten in deze postbus behoren.
+
+    * Selecteer in de keuzelijst **Prioriteit** de prioriteit om verzoeken uit deze postbus te geven.
+
+    * Selecteer in de keuzelijst **Verzoektype** het type berichten dat bij deze postbus hoort.
 
 1. [!include[Set customer language](includes/step-set-language.md)]
 
 1. Stel antwoord in:
 
-    [!include[Common steps](includes/step-set-reply.md)]
+    1. Selecteer **Niet automatisch antwoorden** om de functie voor automatisch antwoorden uit te schakelen. Zie de opmerking boven aan dit onderwerp.
 
-1. [!include[Import stuff](includes/step-import.md)]
+    1. In het veld **E-mailvelden** kunt u een door komma's gescheiden lijst met e-mailvelden (kopteksten) invoeren die u in het verzoekbericht wilt weergeven (bijvoorbeeld Aan en Cc).
+
+    1. In de keuzelijst **Antwoordsjabloon voor antwoord aan contactpersoon** selecteert u de antwoordsjabloon die u wilt gebruiken voor het verzenden van automatische antwoorden naar de klant.
+
+    1. **Items uit Veelgestelde vragen voorstellen vanuit**: Wanneer u deze optie inschakelt, zal het systeem op basis van de tekst in het inkomende e-mailbericht items voor Veelgestelde vragen voorstellen. De voorgestelde items in Veelgestelde vragen zijn beschikbaar als sjabloonvariabelen en kunnen dus worden hergebruikt in de geselecteerde antwoordsjabloon. U kunt ook aangeven in welke tak van de boomstructuur voor Veelgestelde vragen moet worden gezocht door de map op te geven.
+
+1. **Automatische antwoorden en systeemberichten importeren**: Standaard worden e-mails die niet-aanwezigheidsberichten, systeemberichten en andere irrelevante berichten bevatten, niet geïmporteerd. Als u dergelijke e-mails wilt importeren, kunt u deze optie aanvinken.
 
 1. **AI-diensten**: Hier kunt u de volgende opties selecteren voor categorisering en tekstanalyse met behulp van [AI][4]:
 
@@ -54,49 +63,11 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 
 1. Klik op **OK**. De postbus wordt gemaakt.
 
-## Een nieuw postvak maken - lokaal
-
-1. [!include[Go to email](includes/goto-email.md)]
-
-1. Klik op **Nieuwe postbus**. Het scherm **Postbuseigenschappen** wordt weergegeven met het geopende tabblad **Eigenschappen**.
-
-1. Voer in het veld **Adres** het e-mailadres in dat u wilt gebruiken voor de postbus.
-
-    > [!NOTE]
-    > Stel doorsturen in naar dit postbusadres als u het e-mailadres van uw bedrijf gaat gebruiken (bijvoorbeeld `info@company.com`). Gebruik **Doorstuuradres** in het scherm **Postbussen**.
-
-1. Selecteer in de keuzelijst **Protocol** het protocol dat moet worden gebruikt voor communicatie met de e-mailserver. Voor sommige protocollen is mogelijk verdere configuratie vereist.
-
-1. Voer in het veld **E-mailserver** de hostnaam van de server in.
-
-1. Voer in de velden **Gebruikersnaam** en **Wachtwoord** de gebruikersnaam en het wachtwoord voor de postbus in.
-
-1. Typ in het veld **Map** de mapnaam voor de postbus op de server.
-
-1. In het veld **Poort** kunt u de voorgestelde standaardpoort voor het geselecteerde protocol wijzigen.
-
-1. Selecteer categorie, prioriteit, en verzoektype:
-
-    [!include[Select category and priority](includes/step-select-category-priority.md)]
-
-1. In de keuzelijst **Interval** kunt u selecteren hoe vaak SuperOffice Service berichten moet ophalen voor deze postbus.
-
-1. [!include[Set customer language](includes/step-set-language.md)]
-
-1. Stel antwoord in:
-
-    [!include[Common steps](includes/step-set-reply.md)]
-
-1. Ga naar het tabblad **Alias**. Hier kunt u elke e-mailalias voor een postvak invoeren (bijvoorbeeld als `sales@company.com` en `sale@company.com` ga naar hetzelfde postvak). U voegt een alias toe door een e-mailadres in te vullen en vervolgens op **+** te klikken.
-
-1. [!include[Import stuff](includes/step-import.md)]
-
-1. Klik op **OK**. De postbus wordt gemaakt.
-
 ## Gerelateerde inhoud
 
 * [Postbussen verwijderen][1]
 * [E-mail in Service en Marketing][5]
+* [Postbus maken (lokaal)][6]
 
 <!-- Referenced links -->
 [1]: delete-mailbox.md
@@ -104,3 +75,4 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
 [5]: ../../../../en/online/mail-services/curl/index.md
+[6]: https://help.superoffice.com/docs/11/nl/email/admin/mailbox/create-mailbox.html

@@ -4,8 +4,8 @@ title: Systeminställningar
 description: Systeminställningar
 keywords: systeminställningar, service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -34,7 +34,6 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 * [Kundspråk][10]
 * [Konfigurering av kundcenter och källfiler][21]
 * [Chatt][23]
-* [SOAP][14] (endast LOKALT)
 * [Systemdesign][15]
 * [Profil][16] – ändringar här visas inte någonstans i SuperOffice CRM-modulen (endast i Service-modulen)
 
@@ -50,7 +49,6 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
 [7]: ../learn/index.md#available
-[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

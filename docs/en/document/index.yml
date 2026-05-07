@@ -32,8 +32,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Connect email, documents and diary
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Connect your accounts
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: WebTools
           url: webtools/index.md
         - text: How to create a document
@@ -75,7 +75,7 @@ landingContent:
         - text: Link template (in Settings and maintenance)
           url: templates/admin/link-template.md
         - text: Document templates in multiple languages
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/en/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:

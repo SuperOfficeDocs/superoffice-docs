@@ -4,8 +4,8 @@ title: Systeeminstellingen
 description: Systeeminstellingen
 keywords: Service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 05.04.2026
+version: 11.13
 content_type: reference
 license: serviceessentials
 audience: settings
@@ -35,7 +35,6 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 * [Klanttalen][10]
 * [Configuratie klantportaal en bronbestanden][21]
 * [Chatten][23]
-* [SOAP][14] (ALLEEN ter plaatse)
 * [Systeemontwerp][15]
 * [Profiel][16] - wijzigingen hier verschijnen nergens in de SuperOffice CRM-module (alleen in de servicemodule)
 
@@ -51,7 +50,6 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
 [7]: ../learn/index.md#available
-[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

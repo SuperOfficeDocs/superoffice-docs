@@ -4,8 +4,8 @@ title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
 keywords: systeminställningar
 author: digitaldiina
-date: 04.28.2026
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences
@@ -72,17 +72,10 @@ Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navi
 
 * **Spåra alla länkar**: Klicka i den här rutan för att spåra alla länkar i utskick.
 
-* **Intern URL**: Huvudadress för åtkomst till SuperOffice Service-systemet. (endast LOKALT)
+## Relaterat innehåll
 
-* **Extern URL**: Huvudadress för extern åtkomst till SuperOffice Service-systemet. (endast LOKALT)
-
-* **Cgi-Bin-mapp**: Sökväg till den mapp där SuperOffice Service Cgi-Bin-applikationsfiler ligger. Sökvägen måste ha ett inledande mappavgränsare (snedstreck) men inget avslutande tecken. Exempel: */bin* eller */Scripts*. (endast LOKALT)
-
-* **Använd användargodkännande från webbservern**: Om du markerar det här alternativet accepterar SuperOffice Service användarautentisering från webbservern (Microsoft IIS). (endast LOKALT)
-
-* **Använd kundgodkännande från webbservern**: Om du markerar det här alternativet accepterar SuperOffice Service användarautentisering från kundcentrets webbserver (Microsoft IIS). (endast LOKALT)
-
-* **Tillgänglig på Internet**: Markera det här alternativet om SuperOffice Service är tillgängligt på Internet. Detta styr delar av den funktionalitet som finns tillgänglig i SuperOffice Service eftersom en del funktioner kräver att lösningen är online. (endast LOKALT)
+* [Service-inställningar (lokalt)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/sv/admin/preferences/service-settings.html

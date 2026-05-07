@@ -4,8 +4,8 @@ title: Lägg till poster i listan Uppgiftsmeny
 description: Lägg till poster i listan Uppgiftsmeny
 keywords: Uppgiftsmeny
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: customization
 audience: settings
@@ -44,10 +44,6 @@ language: sv
 ## Använda mallvariabler
 
 När du lägger till en webbadress kan det vara praktiskt att använda till exempel mallvariabeln för aktivt företag för att hämta information från andra applikationer via webbadressen. Webbadressen måste innehålla parametrar som i det här fiktiva exemplet: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn är mallvariabeln för organisationsnummer, men andra variabler, t.ex. företagsnamn &lt;name&gt;, företagets telefonnummer &lt;cpho&gt; och kontaktnamn &lt;attn&gt;, kan också användas.
-
-## Är SuperOffice CRM for Web installerat på en HTTPS-sida? (Lokalt)
-
-[!include[HTTPS restriction](../includes/web-panels-and-https.md)]
 
 ## Relaterat innehåll
 

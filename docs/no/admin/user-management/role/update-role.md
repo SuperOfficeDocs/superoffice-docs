@@ -4,8 +4,8 @@ title: Oppdatere rolle
 description: Slik redigerer du en rolle.
 keywords: rolle, brukeradministrasjon
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,15 +20,11 @@ language: no
 
 # Oppdatere rolle
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
-For å oppdatere eller slette en [rolle][3], må du først velge rollen i fanen **Medarbeidere** eller **Eksterne**.
+For å oppdatere eller slette en [rolle][3], må du først velge rollen i fanen **Medarbeidere**.
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Velg fanen **Medarbeidere** eller **Eksterne**.
-
-    [Slik redigerer du rollen for anonyme brukere.][1]
+1. Velg fanen **Medarbeidere**.
 
 1. I listen, dobbeltklikk på rollen du ønsker å redigere.
 
@@ -38,7 +34,7 @@ For å oppdatere eller slette en [rolle][3], må du først velge rollen i fanen 
 
 1. [Rediger eventuelt rettighetene til rollen.][4]
 
-1. Hvis du redigerer roller for medarbeidere: Gå eventuelt til fanen **Funksjonelle rettigheter**, og rediger de funksjonelle rettighetene til rollen.
+1. Gå eventuelt til fanen **Funksjonelle rettigheter**, og rediger de funksjonelle rettighetene til rollen.
 
     [!include[How to set functional rights](../includes/add-remove-right.md)]
 
@@ -64,6 +60,6 @@ Når du sletter en rolle, må du flytte brukerne som har rollen du sletter, til 
     * Rollen fjernes fra listen.
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [3]: index.md
 [4]: set-data-rights-for-role.md

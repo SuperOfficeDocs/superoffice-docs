@@ -94,10 +94,10 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         url: getting-started/preferences.md
-      - text: E-Mails und Dokumente verbinden
+      - text: Konten verbinden
         itemType: list
         typeDesc: how-to-guide
-        url: getting-started/connect-email-doc/index.md
+        url: getting-started/connect-your-accounts.md
       - text: E-Mail-Signatur bearbeiten
         itemType: list
         typeDesc: how-to-guide

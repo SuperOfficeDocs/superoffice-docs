@@ -4,8 +4,8 @@ title: Benutzerinformationen bearbeiten
 description: Mitarbeiter bearbeiten
 keywords: user, Mitarbeiter
 author: digitaldiina
-date: 10.24.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -52,9 +52,3 @@ Um einen Benutzer (Mitarbeiter) zu aktualisieren, zu verschieben oder zu lösche
 
 1. Klicken Sie auf **OK**. Klicken Sie auf eine Option, um eine Beschreibung der Folgen des Löschvorgangs anzuzeigen.
 
-## Verwandte Inhalte
-
-* [Anonymen Benutzer oder Systembenutzer bearbeiten oder löschen (vor Ort)][1]
-
-<!-- Referenced links -->
-[1]: onsite/other-users.md

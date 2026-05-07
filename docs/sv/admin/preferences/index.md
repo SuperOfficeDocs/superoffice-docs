@@ -4,8 +4,8 @@ title: Inställningar
 description: Administratörer kan ange inställningar för olika funktioner i systemet för olika användare och användargrupper eller för hela SuperOffice CRM (globala inställningar).
 keywords: inställningar, globala inställningar, preferens
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: preferences
@@ -63,7 +63,6 @@ Vissa inställningar kan bara göras på global nivå:
 * Mål
 * [Dataspegling][15]
 * [SMS-konfiguration][5]
-* [SMTP][2] (endast LOKALT)
 * [Lösenordspolicy för Kundcenter][6]
 
 ### Ändra globala inställningar
@@ -127,7 +126,6 @@ Du kan sortera raderna i kolumnerna genom att klicka på önskad kolumnrubrik. K
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md

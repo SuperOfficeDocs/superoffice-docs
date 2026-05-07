@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -93,10 +93,6 @@ For at få gavn af SuperOffice marketingfunktioner skal du have en basisviden om
 | Automatisering af kunderejser​ | | x |
 | Cross-sell og up-sell-fremme​ | | x |
 | Marketing/salg-tilpasning​ | x | x |
-
-## Forskelle mellem installationer online og onsite
-
-SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som en onsite-applikation (installeret hos kunden). Der er mindre forskelle mellem de to typer. Specifikke funktionsmæssige forskelle er angivet med ikoner i selve procedurerne eller i emnetitlerne.
 
 ## Fanerne i SuperOffice Marketing
 

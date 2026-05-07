@@ -4,8 +4,8 @@ title: E-post
 description: Med SuperOffice CRM kan du velge å lagre og dele e-postene dine på ulike måter som får deg og teamet ditt til å jobbe mer produktivt.
 keywords: e-post, innboks
 author: SuperOffice Product and Engineering
-date: 09.16.2025
-version: 11.3
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -83,7 +83,7 @@ Klikk på en e-post i [detaljkortet Aktiviteter][14] for å se detaljene i [side
 [9]: ../../../../integrations/mail-link/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
-[13]: ../../learn/getting-started/connect-email-doc/index.md
+[13]: ../../learn/getting-started/connect-your-accounts.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [15]: ../../learn/getting-started/main-screen/side-panel.md
 

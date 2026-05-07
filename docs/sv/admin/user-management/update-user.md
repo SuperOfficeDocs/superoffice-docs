@@ -4,8 +4,8 @@ title: Uppdatera användare
 description: Redigera medarbetare
 keywords: user, medarbetare
 author: digitaldiina
-date: 10.24.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -52,9 +52,3 @@ För att uppdatera, flytta eller ta bort en användare (anställd) börjar du me
 
 1. Klicka på **OK**.
 
-## Relaterat innhåll
-
-* [Redigera eller ta bort anonyma användare eller systemanvändare (lokalt)][1]
-
-<!-- Referenced links -->
-[1]: onsite/other-users.md

@@ -4,8 +4,8 @@ title: Benutzergruppen verwalten
 description: Wie man Benutzergruppen erstellt und löscht
 keywords: Benutzergruppe
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -47,12 +47,12 @@ Um Kollegen zusammenzufassen und ihnen Zugriff auf CRM-Daten auf Grundlage diese
 ## Verwandte Inhalte
 
 * [SuperOffice-Benutzer hinzufügen][1]
-* [Benutzer aus AD importieren][2] (vor Ort)
+
 * [Konfigurieren Sie, auf welche Informationen die Benutzer unseres Unternehmens in SuperOffice CRM zugreifen können][3]
 
 <!-- Referenced links -->
 [1]: add-associate.md
-[2]: onsite/import-users.md
+
 [3]: role/index.md
 [4]: ../../request/admin/category/index.md
 

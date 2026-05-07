@@ -8,11 +8,8 @@ items:
   href: login.md
 - name: Voorkeuren
   href: preferences.md
-- name: Accounts koppelen (11.11 of hoger)
+- name: Accounts koppelen
   href: connect-your-accounts.md
-- name: E-mail en documenten verbinden (11.10 en eerder)
-  href: connect-email-doc/toc.yml
-  topicHref: connect-email-doc/index.md
 - name: E-mail-handtekening bewerken
   href: edit-email-signature.md
 - name: Actieve taal wijzigen

@@ -4,8 +4,8 @@ title: SuperOffice und Lizenzen
 description: CRM und Lizenzen
 keywords: Lizenz, Benutzerplan, gemessene Dienstleistung, Datenbankbesitzer, Registerkarte Status
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -192,7 +192,7 @@ Dasselbe gilt bei SCIM: Zähle die genutzten Benutzerpläne, nicht die Gesamtanz
 <!-- Referenced links -->
 [1]: activate.md
 [2]: ../../saint/learn/index.md
-[3]: ../onsite/add-system-event.md
+[3]: https://help.superoffice.com/docs/11/de/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm

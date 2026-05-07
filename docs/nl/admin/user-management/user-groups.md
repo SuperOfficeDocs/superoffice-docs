@@ -4,8 +4,8 @@ title: Gebruikersgroepen beheren
 description: Gebruikersgroepen maken en verwijderen
 keywords: gebruikersgroep
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -47,12 +47,12 @@ Om collega's te groeperen en hen toegang te geven tot CRM-gegevens op basis van 
 ## Gerelateerde inhoud
 
 * [Een SuperOffice-gebruiker toevoegen][1]
-* [Gebruikers importeren uit AD][2] (onsite)
+
 * [Configureer welke informatie de gebruikers van ons bedrijf kunnen raadplegen in SuperOffice CRM][3]
 
 <!-- Referenced links -->
 [1]: add-associate.md
-[2]: onsite/import-users.md
+
 [3]: role/index.md
 [4]: ../../request/admin/category/index.md
 

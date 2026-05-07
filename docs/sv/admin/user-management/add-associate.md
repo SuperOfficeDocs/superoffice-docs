@@ -4,8 +4,8 @@ title: Lägg till användare
 description: I den här guiden förklarar vi hur du lägger till en ny användare i SuperOffice CRM.
 keywords: lägg till användare, medarbetare
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Administratörerna ansvarar för att ge nya användare en användarplan, ett anv
 > [!NOTE]
 > Om du har lämnade information om dina användare när du beställde SuperOffice CRM behöver du inte lägga till användare. Användarna ska ha fått inloggningsuppgifter från SuperOffice via e-post. Kontrollera om användarna ligger inne i systemet på menyn Användare under Inställningar och underhåll.
 >
-> Den här proceduren beskriver hur du lägger till en användare i taget. Om du vill lägga till flera användare onsite kan du se [Importera användare][1].
+> Den här proceduren beskriver hur du lägger till en användare i taget.
 
 ## Steg
 
@@ -102,17 +102,17 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 
 ## Relaterat innhåll
 
-* [Lägg till anonyma användare eller systemanvändare (lokalt)][5]
 * [Redigera användare/medarbetare][6]
+* [Onsite-användarhantering][10]
 
 <!-- Referenced links -->
-[1]: onsite/import-users.md
+
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
-[5]: onsite/other-users.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
+[10]: https://help.superoffice.com/docs/11/sv/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

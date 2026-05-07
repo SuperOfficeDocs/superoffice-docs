@@ -4,8 +4,8 @@ title: Update role
 description: How to edit a role.
 keywords: role, user management
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,15 +20,11 @@ language: en
 
 # Update role
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
-To update or delete a [role][3], start by selecting the role from the **Associates** or **External** tab.
+To update or delete a [role][3], start by selecting the role from the **Associates** tab.
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Choose the **Associates** or **External** tab.
-
-    [How to edit the role for anonymous users.][1]
+1. Choose the **Associates** tab.
 
 1. In the list, double-click the role you want to edit.
 
@@ -38,7 +34,7 @@ To update or delete a [role][3], start by selecting the role from the **Associat
 
 1. [Edit the role's rights.][4]
 
-1. If you are editing roles for associates: Go to the **Functional rights** tab and edit the role's functional rights.
+1. Go to the **Functional rights** tab and edit the role's functional rights.
 
     [!include[How to set functional rights](../includes/add-remove-right.md)]
 
@@ -64,6 +60,5 @@ When you delete a role, you must move the users with this role to another role. 
     * The role is removed from the list.
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
 [3]: index.md
 [4]: set-data-rights-for-role.md

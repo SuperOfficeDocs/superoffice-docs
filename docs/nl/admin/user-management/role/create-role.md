@@ -4,8 +4,8 @@ title: Rol maken
 description: Rol maken
 keywords: rol, gebruikersbeheer
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -18,17 +18,14 @@ language: nl
 
 # Een rol maken
 
-[!include[Requirement](../includes/note-anon-req.md)]
+> [!NOTE]
+> Er is slechts een enkele rol voor anonieme gebruikers en u kunt geen nieuwe rol maken.
+
+## Stappen
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Selecteer een van de volgende tabbladen:
-
-    * **Medewerkers**: hier kunt u rollen toevoegen voor medewerkers binnen uw bedrijf.
-    * **Extern**:  Hier kunt u rollen toevoegen voor externe gebruikers (alleen lokaal).
-
-    > [!NOTE]
-    > Er is slechts een enkele rol voor anonieme gebruikers en u kunt geen nieuwe rol maken. Zie [Rechten voor anonieme gebruikers bewerken][8].
+1. Selecteer het tabblad **Medewerkers**.
 
 1. Klik op **Toevoegen** onder de lijst.
 
@@ -47,7 +44,7 @@ language: nl
 
 1. [Voer de gegevensrechten in op het tabblad **Gegevensrechten**][7].
 
-1. Rollen maken voor medewerkers: Klik op het tabblad **Functionele rechten**.
+1. Klik op het tabblad **Functionele rechten**.
 
     Via dit tabblad kunt u bepalen welke functies beschikbaar moeten zijn voor de rol, bijvoorbeeld samenvoegbewerkingen, publiceren, selecties exporteren en beheerdersrechten in Instellingen en onderhoud.
 
@@ -70,4 +67,3 @@ language: nl
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-[8]: ../onsite/other-users.md#rights

@@ -4,8 +4,8 @@ title: Mit E-Mail-Adressen arbeiten
 description: Mit E-Mail-Adressen arbeiten
 keywords: Wissensdatenbank
 author: SuperOffice Product and Engineering
-date: 03.16.2023
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: service
 topic: knowledge base
@@ -46,7 +46,7 @@ Wenn Sie Details zu den registrierten E-Mail-Adressen möchten, müssen Sie zum 
 
 1. Geben Sie im Feld **E-Mail-Adresse** die E-Mail-Adresse dieser Person ein.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klicken Sie auf **OK**. Die E-Mail-Adresse wird dem festgelegten Ordner hinzugefügt und steht Ihnen ab sofort beim Senden einer E-Mail zur Verfügung.
 

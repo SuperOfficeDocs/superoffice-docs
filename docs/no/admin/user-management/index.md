@@ -4,8 +4,8 @@ title: Brukere
 description: Finn ut hvordan du legger til nye brukere, hvordan du tilordner de riktige brukerrollene og -gruppene, og hvordan du hjelper brukerne med oppsett og WebTools.
 keywords: Skjermbildet Brukere, bruker, medarbeider, våre firmaer, synlighet, tilgjengelig
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -52,7 +52,7 @@ For å angi denne lisensen finner du ønsket bruker, klikker på fanen **Lisense
 
 * **Medarbeidere**: SuperOffice CRM-brukere (i ditt firma)
 
-* **Andre brukere**: Anonyme brukere og systembrukere (kun Onsite)
+* **Andre brukere**: Anonyme brukere og systembrukere
 
 * **Anonyme brukere**: Brukere med begrensede rettigheter definert av [rollen for anonyme brukere][4]. Anonyme brukere kan for eksempel brukes til å gi tilgang til websider. Slik kan for eksempel selgere gjøre relevant informasjon fra SuperOffice CRM tilgjengelig på en webside som ikke krever pålogging, slik at kunder lett kan få tilgang til denne informasjonen.
 
@@ -168,10 +168,6 @@ Det er forskjellige faner i brukeroversikten:
 * **Lisen** – ekstra lisensinformasjon, for eksempel **Konfidensielle aktiviteter**, som gir brukeren muligheten til å velge **synlig for** for oppfølginger, dokumenter og utvalg.
 * **Mer** – fanen viser om det finnes ekstrafelt for personen.
 
-### <a id="other-users"></a>Andre brukere (Onsite)
-
-I fanen **Andre brukere** i Brukere-bildet kan du redigere påloggingsrettigheter for og legge til anonyme brukere og systembrukere.
-
 ### <a id="our-companies"></a>Våre firmaer
 
 Hensikten med firmalisten i fanen **Våre firmaer** i Brukere-bildet er å angi:
@@ -212,7 +208,7 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 <!-- Referenced links -->
 [2]: add-associate.md
 [3]: user-groups.md
-[4]: onsite/other-users.md#rights
+[4]: https://help.superoffice.com/docs/11/no/admin/user-management/onsite/other-users.html#rights
 [6]: role/index.md
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md

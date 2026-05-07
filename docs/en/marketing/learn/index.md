@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: The features for marketing includes mailings and web forms, and help users to gather information and to communicate better with prospects and customers. Combined, they can help you generate more leads, sell more to existing customers, and build customer loyalty.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -91,10 +91,6 @@ To benefit from SuperOffice marketing features, you need a basic understanding o
 | Customer journey automation​ | | x |
 | Cross-sell and up-sell enablement​ | | x |
 | Marketing/sales alignment​ | x | x |
-
-## Differences between onsite and online installations
-
-SuperOffice Marketing is offered as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
 
 ## SuperOffice Marketing tabs
 

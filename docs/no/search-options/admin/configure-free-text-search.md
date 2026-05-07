@@ -4,8 +4,8 @@ title: Konfigurer fritekstsøk
 description: Konfigurer fritekstsøk
 keywords: fritekstsøk
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,14 +23,6 @@ redirect_from:
 Ved hjelp av funksjonen for fritekstsøk i SuperOffice CRM kan brukerne søke etter tekst i hele applikasjonen. Dette gjelder tekst de selv har lagt inn i databasen, for eksempel firmanavn, avdelinger og tekst fra bildene Person og Dokument.
 
 Du kan definere nøyaktig hvordan dette skal fungere i SuperOffice CRM fra fanen **Fritekstsøk** i Innstillinger og vedlikehold.
-
-## Deaktiver fritekstsøk (onsite)
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Fjern avmerkingen for **Aktiver fritekstsøk**.
-
-Fritekstsøk er aktivert som standard, men hvis organisasjonen ønsker å spare systemressurser som brukes til å oppdatere fritekstindeksen ved nye data, kan du fjerne avmerkingen på **Gjør fritekstsøk tilgjengelig**. Da deaktiveres feltet for fritekstsøk i SuperOffice CRM onsite. Merk: fritekstsøk kan ikke deaktiveres for online-/cloud-versjoner.
 
 ## Angi søkekriterier for et fritekstsøk
 
@@ -60,10 +52,8 @@ Du kan angi søkekriterier for både enkeltord (for eksempel *Petter*) og fraser
 ## Relatert innhold
 
 * [Legge til stoppord][3]
-* [Bygge fritekstindeks][4]
 
 <!-- Referenced links -->
 [3]: stopwords.md
-[4]: regenerate-index.md
 
 <!-- Referenced images -->

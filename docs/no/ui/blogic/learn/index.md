@@ -3,7 +3,8 @@ uid: help-no-system-design-screen
 title: Systemdesign
 description: Systemdesign
 author: SuperOffice RnD
-date: 02.23.2023
+date: 05.04.2026
+version: 11.13
 keywords: Systemdesign
 content_type: concept
 audience: settings
@@ -61,6 +62,6 @@ Ved å [legge til ekstra tabeller og felt][1] i SuperOffice kan du lagre en meng
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../customization/admin/package-properties.md
-[14]: ../../../admin/onsite/data-exchange.md
+[14]: https://help.superoffice.com/docs/11/no/admin/onsite/data-exchange.html
 
 <!-- Referenced images -->

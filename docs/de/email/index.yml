@@ -26,8 +26,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: E-Mail, Dokumente und Kalender verbinden
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Konten verbinden
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: Standard-E-Mail-Client ändern
           url: learn/change-default-mail-client.md
 

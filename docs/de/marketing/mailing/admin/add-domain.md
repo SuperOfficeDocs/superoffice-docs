@@ -4,8 +4,8 @@ title: Kampagne-Domäne hinzufügen
 description: Objekte zur Liste Kampagne-Domäne hinzufügen
 keywords: Kampagne, Domäne, SPF
 author: digitaldiina
-date: 10.28.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: marketingessentials
 category: Marketing
@@ -35,7 +35,7 @@ Wenn die globale Präferenz **Nur genehmigte E-Mail-Absenderdomänen verwenden**
 1. Wenn die SPF-Suche der Domäne erfolgreich abgeschlossen wird, wird sie in die Liste der genehmigten Domänen aufgenommen und die Benutzer können Kampagnen von dieser Domäne senden.
 
 > [!NOTE]
-> Sie können einen SPF-Eintrag für Ihre Domäne festlegen, um sicherzustellen, dass Ihre Organisation Kampagnen mit erhöhter Zustellbarkeit senden kann (NUR ONLINE). Wenn Ihre Umgebung eine VOR-ORT-Umgebung ist, wird keine SPF-Suche durchgeführt. Sie können die Liste jedoch weiterhin verwenden, um Ihren Benutzern voreingestellte Domänen für **Absender-** und **Antwortadressen** zur Verfügung zu stellen.
+> Sie können einen SPF-Eintrag für Ihre Domäne festlegen, um sicherzustellen, dass Ihre Organisation Kampagnen mit erhöhter Zustellbarkeit senden kann.
 
 <!-- Referenced links -->
 [1]: ../../../../en/online/mail-services/mailgun/spf/index.md

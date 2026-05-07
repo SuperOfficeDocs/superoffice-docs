@@ -4,8 +4,8 @@ title: Verkaufsziele festlegen
 description: Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Dies wird Ihnen helfen, die richtigen Erwartungen zu setzen, Ihr Wachstum zu planen, die Motivation zu steigern und Zeit zu sparen.
 keywords: Vertriebsziele
 author: SuperOffice Product and Engineering
-date: 09.17.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 license: salespremium
 deployment: online
@@ -30,9 +30,6 @@ Die Zielliste kann folgende Abschnitte enthalten:
 Es ist optional, ob Sie das Unternehmensziel hinzufügen und benutzerspezifische Ziele haben (gehen Sie zu Zieleinstellungen, um sie zu ändern). Die Summe aller Ziele für eine Benutzergruppe  ist nicht bearbeitbar. Es zeigt die Summe für alle Benutzer in einer Benutzergruppe an und dient als Richtlinie, um das Einrichten des Ziels für die gesamte Benutzergruppe zu erleichtern. Sie können das Unternehmensziel hinzufügen und bearbeiten, da das Ziel für das gesamte Unternehmen nicht unbedingt mit der Summe aller Benutzergruppen identisch ist.
 
 ## Anforderungen
-
-> [!NOTE]
-> Nur für **ONLINE**-Kunden. (Nicht verfügbar für Onsite-Kunden.)
 
 ## Bevor Sie beginnen
 

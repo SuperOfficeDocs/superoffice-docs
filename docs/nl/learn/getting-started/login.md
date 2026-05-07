@@ -4,8 +4,8 @@ title: Aanmelden
 description: Meld u aan om uw SuperOffice CRM-account te activeren met een SuperOffice CRM-wachtwoord of een optie voor eenmalige aanmelding.
 keywords: CRM, aanmelden, aanmelden, wachtwoord
 author: SuperOffice RnD
-date: 03.14.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -25,7 +25,7 @@ Als u SuperOffice CRM wilt gebruiken, moet aan u een gebruikersaccount zijn toeg
 
 ## Wat is mijn gebruikers-ID?
 
-Voor online- en webgebruikers is de gebruikers-ID uw e-mailadres.
+Uw gebruikers-ID is uw e-mailadres.
 
 Windows-gebruikers moeten hun toegewezen gebruikersnaam gebruiken.
 
@@ -92,9 +92,6 @@ Wanneer u Instellingen en onderhoud start, verschijnt er een aanmeldscherm waari
 
 * Voer uw gebruikers-ID en wachtwoord in en klik op **OK**.
 
-> [!NOTE]
-> Lokaal: De eerste maal dat u Instellingen en onderhoud uitvoert, verschijnt een dialoogscherm met de wijzigingen van de Servicevoorwaarden. Leest u alstublieft deze belangrijke informatie en klik op **Accepteren** en **OK** om verder te gaan met het gebruik van Instellingen en onderhoud. Dit dialoogvenster wordt niet meer weergegeven.
-
 Hiervoor dient u een rol op *Gebruikersniveau 0* te hebben, of een andere rol waarmee u aanmeldrechten heeft voor Instellingen en onderhoud. Gebruikers-ID's, wachtwoorden en gebruikersniveaus worden gedefinieerd via het scherm [Gebruikers][2].
 
 > [!TIP]
@@ -114,19 +111,13 @@ Hiervoor dient u een rol op *Gebruikersniveau 0* te hebben, of een andere rol wa
 
 ### <a id="forgot-password"></a>Wachtwoord vergeten?
 
-Mensen vergeten vaak hun aanmeldreferenties, vooral hun wachtwoord. Daarom kan het handig zijn om te weten hoe u uw SuperOffice CRM-wachtwoord kunt wijzigen of opnieuw kunt instellen. Volg de instructies voor uw versie van SuperOffice om uw wachtwoord te wijzigen.
-
-#### Online
+Mensen vergeten vaak hun aanmeldreferenties, vooral hun wachtwoord. Daarom kan het handig zijn om te weten hoe u uw SuperOffice CRM-wachtwoord kunt wijzigen of opnieuw kunt instellen.
 
 1. Klik op de koppeling **Wachtwoord vergeten?**
-2. Voer uw e-mailadres in.
-3. Klik op **Reset wachtwoord**.
+1. Voer uw e-mailadres in.
+1. Klik op **Reset wachtwoord**.
 
 U ontvangt een e-mail waarmee u uw wachtwoord kunt wijzigen.
-
-#### Lokaal
-
-Neem contact op met uw SuperOffice-beheerder om een nieuw wachtwoord te ontvangen.
 
 ## Gerelateerde inhoud
 

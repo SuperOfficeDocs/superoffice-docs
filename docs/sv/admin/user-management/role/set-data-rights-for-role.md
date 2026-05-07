@@ -4,8 +4,8 @@ title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
 keywords: administrera användare, roll, åtkomst, behörigheter
 author: digitaldiina
-date: 03.27.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -18,17 +18,13 @@ language: sv
 
 # Ange behörighet för roll
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
 Du kan ange behörigheter för dataobjekt baserat på vem som äger objekten. Alla användare som tillhör den här [rollen][2] tilldelas behörigheter baserat på inställningarna du gör här.
 
 ## Steg
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Gå till fliken **Medarbetare** eller **Externa** (lokalt).
-
-    [Så redigerar du rollen för anonyma användare.][1]
+1. Gå till fliken **Medarbetare**.
 
 1. Markera önskad roll i listan **Roller**. Behörigheterna för den valda rollen visas på fliken **Databehörigheter**.
 
@@ -52,26 +48,21 @@ Du kan ange behörigheter för dataobjekt baserat på vem som äger objekten. Al
 |---|---|---|---|---|
 | Min egen | Skapad av dig | Ägarfält används | Ansvarlig-fält används | Du är "Vår kontakt" |
 | Primärgrupp (M) | Skapad av din primärgrupp (avdelning) | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" är en medarbetare i din primärgrupp |
-| Mitt företag (E)<br />Endast ONSITE | Skapad av en extern användares företag | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" används |
 | Andra grupper (M) | Skapad av en användargrupp som du tillhör | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" är en medarbetare i en grupp du tillhör |
-| Samma projekt (E)<br />Endast ONSITE | Skapad i ett projekt som en extern användare tillhör | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" används |
 | Andra medarbetare | Skapad av andra medarbetare i företaget | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" är en medarbetare som inte tillhör samma grupp som du |
-| Extern användare | Skapad av externa användare (Audience-användare) | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" används |
 | Anonym | Skapad av anonyma användare | Inte tillämpligt | Inte tillämpligt | Inte tillämpligt |
 
-**M** = medarbetare, **E** = extern
+**M** = medarbetare
 
 I kontaktkortet hämtas fältet **Vår kontakt** alltid från företagskortet som kontakten tillhör.
-
-## Hur visar jag dataobjekt för externa användare?
-
-Om dataobjekten (företag, projekt, dokument etc.) ska vara tillgängliga för externa användare (Audience-användare) räcker det inte att bara tilldela läsbehörighet (eller högre) till externa användare. Dataobjekten måste också publiceras i SuperOffice.
 
 ## Relaterat innhåll
 
 * [Databehörigheter][3]
+* [Onsite-databehörigheter][4]
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [2]: index.md
 [3]: functional-rights.md
+[4]: https://help.superoffice.com/docs/11/sv/admin/user-management/role/set-data-rights-for-role.html

@@ -4,7 +4,8 @@ title: SuperOffice WebTools
 description: Introduction to SuperOffice WebTools
 keywords: WebTools
 author: digitaldiina
-date: 03.24.2026
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: integration
 topic: WebTools
@@ -91,7 +92,6 @@ How it works is detailed in the [technical overview][1].
 
 ## Related content
 
-* [Connect email, documents and diary][8]
 * [Create a document in SuperOffice CRM][5]
 * [Documents – safer collaboration, easier uploading][19]
 
@@ -100,7 +100,6 @@ How it works is detailed in the [technical overview][1].
 [2]: install.md
 [3]: ../mail-link/install.md
 [5]: ../../docs/en/document/learn/create.md
-[8]: ../../docs/en/learn/getting-started/connect-email-doc/index.md
 [9]: ../../docs/en/customization/soprotocol/index.md
 [12]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112136
 [15]: https://downloadservice.superoffice.com/

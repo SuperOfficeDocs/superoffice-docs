@@ -3,7 +3,8 @@ uid: help-en-system-design-screen
 title: System design
 description: System design
 author: SuperOffice RnD
-date: 02.23.2023
+date: 05.04.2026
+version: 11.13
 keywords: System design
 content_type: concept
 audience: settings
@@ -60,4 +61,4 @@ By [adding extra tables and fields][1] to SuperOffice you can save a variety of 
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../customization/admin/package-properties.md
-[14]: ../../../admin/onsite/data-exchange.md
+[14]: https://help.superoffice.com/docs/11/en/admin/onsite/data-exchange.html

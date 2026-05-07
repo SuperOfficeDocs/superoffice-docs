@@ -3,7 +3,8 @@ uid: help-nl-system-design-screen
 title: Systeemontwerp
 description: Systeemontwerp
 author: SuperOffice RnD
-date: 02.23.2023
+date: 05.04.2026
+version: 11.13
 keywords: Systeemontwerp
 content_type: concept
 audience: settings
@@ -60,6 +61,6 @@ Door [extra tabellen en velden toe te voegen][1] aan SuperOffice kunt u een vers
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../customization/admin/package-properties.md
-[14]: ../../../admin/onsite/data-exchange.md
+[14]: https://help.superoffice.com/docs/11/nl/admin/onsite/data-exchange.html
 
 <!-- Referenced images -->

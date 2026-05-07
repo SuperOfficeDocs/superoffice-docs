@@ -4,8 +4,8 @@ title: Rol bijwerken
 description: Een rol bewerken.
 keywords: rol, gebruikersbeheer
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,15 +20,11 @@ language: nl
 
 # Rol bijwerken
 
-[!include[Requirement](../includes/note-anon-req.md)]
-
-Om een [rol][3] bij te werken of te verwijderen, selecteer je eerst de rol op het tabblad **Medewerkers** of **Externe**.
+Om een [rol][3] bij te werken of te verwijderen, selecteer je eerst de rol op het tabblad **Medewerkers**.
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Kies het tabblad **Medewerkers** of **Extern**.
-
-    [De rol voor anonieme gebruikers bewerken.][1]
+1. Kies het tabblad **Medewerkers**.
 
 1. Dubbelklik in de lijst op de rol die u wilt bewerken.
 
@@ -38,7 +34,7 @@ Om een [rol][3] bij te werken of te verwijderen, selecteer je eerst de rol op he
 
 1. [Bewerk de rechten van de rol.][4]
 
-1. Rollen bewerken voor medewerkers: ga naar het tabblad **Functionele rechten** en bewerk de functionele rechten van de rol.
+1. Ga naar het tabblad **Functionele rechten** en bewerk de functionele rechten van de rol.
 
     [!include[How to set functional rights](../includes/add-remove-right.md)]
 
@@ -64,6 +60,6 @@ Wanneer u een rol verwijdert, moet u de gebruikers met die rol verplaatsen naar 
     * De rol wordt verwijderd uit de lijst.
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [3]: index.md
 [4]: set-data-rights-for-role.md

@@ -4,8 +4,8 @@ title: Preferanser
 description: Administratorer kan angi preferanser for ulike funksjoner i systemet for bestemte brukere, brukergrupper eller for hele SuperOffice CRM (globale preferanser).
 keywords: innstillinger, preferanser, globale preferanser
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: preferences
@@ -63,7 +63,6 @@ Noen preferanser kan bare angis på et globalt nivå:
 * Mål
 * [Dataspeiling][15]
 * [SMS-konfigurasjon][5]
-* [SMTP][2] (bare ONSITE)
 * [Passordregler for kundesenter][6]
 
 ### Endre globale preferanser
@@ -127,7 +126,6 @@ Du kan sortere radene i kolonnene ved å klikke på ønsket kolonneoverskrift. K
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md

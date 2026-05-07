@@ -4,8 +4,8 @@ title: Objekte zur Liste Menü Aufgabe hinzufügen
 description: Objekte zur Liste Menü Aufgabe hinzufügen
 keywords: Aufgabenmenü
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: customization
 audience: settings
@@ -44,10 +44,6 @@ language: de
 ## Verwenden von Template-Variablen
 
 Wenn Sie eine URL-Adresse hinzufügen, könnte es nützlich sein, Vorlagenvariablen für die aktive Firma zu verwenden, um zum Beispiel über eine URL Informationen von anderen Anwendungen abzurufen. Es müssen die URL-Adresse Parameter angegeben werden, wie in folgendem Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist die Vorlagenvariable für die Organisationsnummer, andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt; und Personenname &lt;attn&gt; können ebenfalls verwendet werden.
-
-## Ist SuperOffice CRM for Web auf einer https-Seite installiert? (Vor Ort)
-
-[!include[HTTPS restriction](../includes/web-panels-and-https.md)]
 
 ## Verwandte Themen
 

@@ -4,8 +4,8 @@ title: Voreinstellungen
 description: Administratoren können Einstellungen für verschiedene Funktionen im System für bestimmte Benutzer, Benutzergruppen oder für das gesamte SuperOffice CRM festlegen (Globale Einstellungen).
 keywords: globale Einstellungen, Einstellungen
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: Settings and maintenance
 topic: preferences
@@ -63,7 +63,6 @@ Manche Einstellungen können nur global vorgenommen werden:
 * Ziele
 * [Datenspiegelung][15]
 * [SMS-Konfiguration][5]
-* [SMTP][2] (nur VOR ORT)
 * [Richtlinie für Customer Centre-Passwörter][6]
 
 ### Globale Einstellungen ändern
@@ -127,7 +126,6 @@ Sie können die Zeilen in den Spalten sortieren, indem Sie auf die einzelnen Spa
 
 <!-- Referenced links -->
 [1]: service-settings.md
-[2]: smtp.md
 [3]: update.md
 [4]: update.md#personal
 [5]: sms.md

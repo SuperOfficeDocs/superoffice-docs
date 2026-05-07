@@ -32,8 +32,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Forbind e-mail, dokumenter og dagbog
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Tilslut dine konti
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: WebTools
           url: ../../../integrations/webtools/index.md
         - text: Sådan opretter du et dokument
@@ -75,7 +75,7 @@ landingContent:
         - text: Knyt skabelon (i Indstillinger og vedligeholdelse)
           url: templates/admin/link-template.md
         - text: Dokumentskabeloner på flere sprog
-          url: templates/admin/using-document-templates-for-multiple-languages.md
+          url: https://help.superoffice.com/docs/11/da/document/templates/admin/using-document-templates-for-multiple-languages.html
       - itemType: video_library
         typeDesc: video
         links:
