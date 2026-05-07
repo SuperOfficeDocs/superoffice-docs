@@ -63,7 +63,7 @@ Users may be asked to approve additional Microsoft permissions the first time th
 
 Shared mailbox access is controlled by Microsoft 365. If a shared mailbox does not appear in Outlook, or if you cannot send from it, contact your Microsoft 365 administrator.
 
-See also: [SuperOffice for Outlook: Authorisation guide](https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/)
+See also: See also: [SuperOffice for Outlook: Authorisation guide][1]
 
 > [!NOTE]
 SuperOffice for Outlook requires a Microsoft 365 or Exchange account. 
@@ -74,7 +74,7 @@ Hotmail, iCloud, and AOL are not supported.
 
 > [!TIP]
 > If you use Gmail, SuperOffice offers a separate integration. 
-> See [SuperOffice for Gmail](https://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link).
+> See [SuperOffice for Gmail][4].
 
 ## Attachment size limit
 
@@ -87,6 +87,8 @@ Learn more about the requirements for [Centralized Deployment][5] from Microsof
 If an add-in update significantly increases the scope of data access, you must re-approve it before the update is deployed.
 
 <!-- Referenced links -->
+[1]: https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
+[4]: https://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link
 [5]: https://aka.ms/centralized-deployment-guidance
