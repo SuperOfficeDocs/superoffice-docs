@@ -6,6 +6,7 @@ author: SuperOffice RnD
 date: 05.25.2023
 keywords: fritekst, søge
 content_type: howto
+tier: starter
 language: da
 ---
 

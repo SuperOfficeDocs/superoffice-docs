@@ -9,6 +9,7 @@ keywords: udef, tilpasset felt, brugerdefinered felt
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: da
 index: true
 ---

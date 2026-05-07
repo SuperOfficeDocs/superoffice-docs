@@ -15,6 +15,7 @@ index: true
 redirect_from: 
   - /da/quote/learn/admin/sync/sync-import-from-erp
   - /da/admin/import/learn/import-from-erp
+tier: starter
 language: da
 ---
 

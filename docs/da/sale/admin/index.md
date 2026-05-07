@@ -9,6 +9,7 @@ version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
+tier: core
 language: da
 index: true
 ---

@@ -9,6 +9,7 @@ keywords: udef, brugerdefineret, tilpasset felt
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: da
 redirect_from: /da/custom-objects/learn/udef/add
 index: true

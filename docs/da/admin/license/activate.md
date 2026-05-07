@@ -12,6 +12,7 @@ topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: da
 redirect_from: /da/admin/license/learn/activate
 ---

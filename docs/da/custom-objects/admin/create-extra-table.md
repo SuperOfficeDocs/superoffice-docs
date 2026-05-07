@@ -9,6 +9,7 @@ keywords: ekstratabel, systemdesign
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: da
 redirect_from: /da/custom-objects/learn/extra-table/create
 index: true

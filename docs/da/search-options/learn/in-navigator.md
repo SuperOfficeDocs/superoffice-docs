@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 06.29.2022
 keywords: søge, FastSearcher, navigator
 content_type: howto
+tier: starter
 language: da
 ---
 

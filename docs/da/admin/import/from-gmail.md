@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 index: true
 redirect_from: /da/admin/import/learn/import-from-gmail
+tier: starter
 language: da
 ---
 

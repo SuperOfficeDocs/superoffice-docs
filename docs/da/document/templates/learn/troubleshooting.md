@@ -6,6 +6,7 @@ keywords: dokumentskabelon, skabelonvariabel, dokument
 author: Bergfrid Dias
 date: 07.16.2024
 content_type: howto
+tier: starter
 language: da
 ---
 

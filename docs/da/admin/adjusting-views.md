@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /da/admin/learn/adjusting-views
+tier: starter
 language: da
 ---
 

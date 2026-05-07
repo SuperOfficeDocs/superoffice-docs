@@ -14,6 +14,7 @@ redirect_from:
   - /da/admin/lists/learn/adding-user-defined-lists
   - /da/admin/lists/learn/deleting-user-defined-lists
   - /da/admin/lists/learn/editing-lists-name-and-description
+tier: starter
 language: da
 ---
 

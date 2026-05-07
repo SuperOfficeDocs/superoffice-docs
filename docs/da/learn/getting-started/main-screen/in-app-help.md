@@ -6,6 +6,7 @@ author: SuperOffice RnD
 date: 01.25.2023
 keywords: hjælp, inapp, in-app
 content_type: concept
+tier: starter
 language: da
 ---
 
