@@ -33,7 +33,7 @@ redirect_from:
 To archive information from an email in Outlook and save it to SuperOffice:
 
 > [!TIP]
-> You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+> You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook][2].
 
 1. Open or select the email you want to archive.
 
@@ -56,7 +56,7 @@ To archive information from an email in Outlook and save it to SuperOffice:
 If you have access to a shared mailbox in Outlook, you can archive emails from that mailbox to SuperOffice in the same way as emails from your personal mailbox.
 
 > [!IMPORTANT]
-> The first time you use SuperOffice for Outlook with a shared mailbox, you may be asked to approve additional Microsoft permissions. If you do not have sufficient rights to approve these yourself, contact your Microsoft 365 administrator. See [SuperOffice for Outlook: Authorisation guide](https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/) for details.
+> The first time you use SuperOffice for Outlook with a shared mailbox, you may be asked to approve additional Microsoft permissions. If you do not have sufficient rights to approve these yourself, contact your Microsoft 365 administrator. See [SuperOffice for Outlook: Authorisation guide][3] for details.
 
 > [!NOTE]
 > The shared mailbox must already be available to you in Outlook. Access to shared mailboxes is managed in Microsoft 365.
@@ -78,7 +78,7 @@ If you have access to a shared mailbox in Outlook, you can archive emails from t
 1. Click **Save** to archive the email.
 
 > [!TIP]
-> You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+> You can pin the SuperOffice for Outlook panel to keep it visible while you work. See [Pin or unpin SuperOffice for Outlook][2].
 
 ## Save attachments to SuperOffice
 
@@ -105,7 +105,7 @@ You can also save email attachments directly to SuperOffice by following these s
 To send an email and automatically archive it to SuperOffice, follow these steps:
 
 > [!TIP]
-> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook][2].
 
 1. Select **New mail** in Outlook.
 
@@ -132,7 +132,7 @@ You can compose a new email from a shared mailbox and archive it to SuperOffice 
 Before sending, make sure the correct sender address is selected in the Outlook **From** field. If the **From** field is not visible, enable it in Outlook first. This is standard Outlook functionality.
 
 > [!TIP]
-> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook](get.md#pin-or-unpin-superoffice-for-outlook).
+> You can pin the SuperOffice for Outlook panel while composing to keep it visible as you write. See [Pin or unpin SuperOffice for Outlook][2].
 
 > [!CAUTION]
 > Always check the **From** address before sending from a shared mailbox.
@@ -147,6 +147,8 @@ Before sending, make sure the correct sender address is selected in the Outlook 
 
 <!-- Referenced links -->
 [1]: get.md#open
+[2]: get.md#pin-or-unpin-superoffice-for-outlook
+[3]: https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/
 
 <!-- Referenced images -->
 [img1]: media/outlook-save-to-superoffice.png
