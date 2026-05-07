@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-flow-step-settings
 title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

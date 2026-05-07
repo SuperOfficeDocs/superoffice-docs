@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-form-submissions-process
 title: Formularübermittlungen verarbeiten
 description: In dieser Anleitung lernen Sie, wie Sie Formularübermittlungen manuell verarbeiten können.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/forms/learn/submissions/process

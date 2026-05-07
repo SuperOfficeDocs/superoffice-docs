@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-settings
 title: Einstellungen für Kampagnen festlegen
 description: Einstellungen für Kampagnen festlegen
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/mailing/learn/admin/define-settings-for-mailings

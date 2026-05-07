@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-marketing-add-images
 title: Bilder hinzufügen
 description: Bilder hinzufügen
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

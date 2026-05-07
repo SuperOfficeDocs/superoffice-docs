@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-form-publish
 title: Formulare veröffentlichen
 description: Formulare veröffentlichen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

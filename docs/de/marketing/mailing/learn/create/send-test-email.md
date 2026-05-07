@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-send-test
 title: Testkampagne durch Versenden einer Test-E-Mail
 description: In dieser Anleitung lernen Sie, wie Sie eine Testkampagne senden.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

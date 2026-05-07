@@ -8,6 +8,7 @@ date: 03.25.2026
 version: 10.5.2
 content_type: concept
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

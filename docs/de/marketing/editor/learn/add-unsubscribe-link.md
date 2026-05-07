@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-add-unsubscribe-link
 title: Einen Abmeldelink hinzufügen
 description: Wenn Sie eine Kampagne versenden, müssen Sie den Empfängern die Möglichkeit geben, sich abzumelden. Erfahren Sie in dieser Anleitung, wie Sie Ihrer Kampagne einen Abmeldelink hinzufügen können.
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

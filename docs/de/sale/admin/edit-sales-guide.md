@@ -8,6 +8,7 @@ date: 02.11.2025
 version: 10.5.2
 content_type: howto
 license: salespremium
+tier: core
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

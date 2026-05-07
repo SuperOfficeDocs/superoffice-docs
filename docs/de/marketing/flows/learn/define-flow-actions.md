@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-flow-actions
 title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

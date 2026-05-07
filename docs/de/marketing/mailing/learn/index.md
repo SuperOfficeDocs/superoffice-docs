@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing
 title: Mit Kampagnen arbeiten
 description: Mit Kampagnen arbeiten
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/mailing/learn/follow-up/index

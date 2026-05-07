@@ -8,6 +8,7 @@ date: 10.29.2023
 version: 10.3.11
 content_type: howto
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

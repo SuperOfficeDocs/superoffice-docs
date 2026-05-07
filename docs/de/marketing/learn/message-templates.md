@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-marketing-message-templates
 title: Mit den Nachrichtenvorlagen arbeiten
 description: Durch das Erstellen einer Master-(Unternehmens-)Vorlage können Sie am besten sicherstellen, dass alle Ihre Kampagnen gut aussehen, das gleiche Design haben und Ihre Marke repräsentieren.
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/learn/work-with-messages-and-templates

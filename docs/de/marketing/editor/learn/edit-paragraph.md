@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-edit-paragraph
 title: Einen Absatz bearbeiten
 description: Einen Absatz bearbeiten
@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
