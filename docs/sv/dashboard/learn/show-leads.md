@@ -11,6 +11,7 @@ category: sale
 topic: lead
 audience: person
 audience_tooltip: SuperOffice Sales
+tier: core
 language: sv
 ---
 

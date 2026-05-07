@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 09.21.2023
 keywords: företag
 content_type: howto
+tier: starter
 language: sv
 audience: person
 audience_tooltip: SuperOffice CRM

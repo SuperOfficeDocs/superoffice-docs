@@ -9,6 +9,7 @@ version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
+tier: growth
 language: sv
 index: true
 redirect_from: /sv/customer-center/admin/index

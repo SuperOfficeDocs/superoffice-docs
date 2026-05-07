@@ -9,6 +9,7 @@ keywords: udef, anpassa fält
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: sv
 index: true
 ---

@@ -15,6 +15,7 @@ index: true
 redirect_from:
   - /sv/admin/options/learn/number-allocation/index
   - /sv/admin/options/learn/number-allocation/configure
+tier: starter
 language: sv
 ---
 

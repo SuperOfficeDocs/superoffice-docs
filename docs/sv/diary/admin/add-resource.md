@@ -13,6 +13,7 @@ index: true
 redirect_from:
   - /sv/admin/lists/learn/resource
   - /sv/admin/lists/learn/adding-items-to-resource-list
+tier: starter
 language: sv
 ---
 

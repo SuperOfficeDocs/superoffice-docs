@@ -9,6 +9,7 @@ version: 11.7
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: core
 language: sv
 redirect_from: /sv/dashboard/learn/delete
 ---

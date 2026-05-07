@@ -16,6 +16,7 @@ redirect_from:
   - /sv/admin/lists/learn/organize/adding-headings
   - /sv/admin/lists/learn/organize/headings-editing-and-deleting
   - /sv/admin/lists/learn/organize/grouping-items-under-headings
+tier: starter
 language: sv
 ---
 

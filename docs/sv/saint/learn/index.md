@@ -9,6 +9,7 @@ version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: growth
 language: sv
 redirect_from:
   - /sv/sale/saint/learn/index

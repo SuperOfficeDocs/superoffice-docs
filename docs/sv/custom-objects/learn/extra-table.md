@@ -9,6 +9,7 @@ version: 10.3.8
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: growth
 language: sv
 redirect_from: /sv/custom-objects/learn/extra-table/index
 ---

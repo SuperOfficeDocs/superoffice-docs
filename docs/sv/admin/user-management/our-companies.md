@@ -16,6 +16,7 @@ index: true
 redirect_from: 
   - /sv/admin/user-management/learn/move-user
   - /sv/admin/user-management/learn/our-companies
+tier: starter
 language: sv
 ---
 

@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 08.02.2024
 version: 10.3
 content_type: concept
+tier: starter
 language: sv
 redirect_from:
   - /sv/admin/preferences/learn/document-library/change-to-sharepoint

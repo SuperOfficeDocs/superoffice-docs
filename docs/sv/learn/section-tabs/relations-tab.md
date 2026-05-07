@@ -9,6 +9,7 @@ version: 10
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: sv
 redirect_from:
   - /sv/company/learn/screen/relations-tab
