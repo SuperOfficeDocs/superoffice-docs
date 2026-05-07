@@ -8,6 +8,7 @@ date: 11.28.2025
 version: 11.7
 content_type: howto
 license: serviceessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

@@ -8,6 +8,7 @@ date: 01.15.2025
 version: 10.5
 content_type: concept
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

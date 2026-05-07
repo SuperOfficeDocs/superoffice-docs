@@ -8,6 +8,7 @@ date: 04.08.2026
 version: 11.12
 content_type: concept
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
