@@ -1,6 +1,9 @@
 items:
 - name: Introduction
   href: index.md
+- name: SuperOffice 12
+  href: 12/toc.yml
+  topicHref: 12/index.md
 - name: SuperOffice 11
   href: 11/toc.yml
   topicHref: 11/index.md

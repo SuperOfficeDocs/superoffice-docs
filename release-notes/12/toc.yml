@@ -1,0 +1,33 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Core CRM
+  href: core-crm/index.md
+  items:
+  - name: 12.x update
+    href: core-crm/12.x-update.md
+#- name: Sales
+#  href: sale/index.md
+#  items:
+#  - name: 12.x update
+#    href: sale/12.x-update.md
+- name: Service
+  href: service/index.md
+  items:
+  - name: 12.x update
+    href: service/12.x-update.md
+- name: Marketing
+  href: marketing/index.md
+  items:
+  - name: 12.x update
+    href: marketing/12.x-update.md
+- name: Settings and Maintenance
+  href: admin/index.md
+  items:
+  - name: 12.x update
+    href: admin/12.x-update.md
+#- name: API
+#  href: api/index.md
+#  items:
+#  - name: 12.x update
+#    href: api/12.x-update.md
