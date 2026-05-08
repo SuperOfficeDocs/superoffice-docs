@@ -10,6 +10,7 @@ content_type: concept
 category: sale
 topic: lead
 license: salesessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 redirect_from: /sv/lead/index

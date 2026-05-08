@@ -8,6 +8,7 @@ date: 09.17.2025
 version: 10.5.2
 content_type: howto
 license: salespremium, Unlimited sales targets
+tier: growth
 functional_right: Targets administrator
 deployment: online
 audience: person

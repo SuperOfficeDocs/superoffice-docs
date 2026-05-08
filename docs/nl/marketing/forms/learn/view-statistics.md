@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-form-view-statistics
 title: Formulierverzendingen traceren en statistieken weergeven
 description: Formulierverzendingen traceren en statistieken weergeven
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/forms/learn/submissions/track

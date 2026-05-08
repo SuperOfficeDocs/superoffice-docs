@@ -13,6 +13,7 @@ redirect_from:
   - /sv/admin/lists/learn/index
   - /sv/admin/lists/learn/items
   - /sv/admin/lists/learn/duplicates
+tier: starter
 language: sv
 ---
 

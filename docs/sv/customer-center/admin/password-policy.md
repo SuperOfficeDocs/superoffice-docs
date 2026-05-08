@@ -8,6 +8,7 @@ date: 02.25.2025
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: sv
 redirect_from: /sv/admin/preferences/learn/global-preferences/password
 ---

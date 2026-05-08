@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 redirect_from: /de/admin/lists/learn/adding-items
+tier: starter
 language: de
 ---
 

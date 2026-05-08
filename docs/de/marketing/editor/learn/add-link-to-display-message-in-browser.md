@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-open-in-browser
 title: Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen
 description: Einen Link hinzufügen, um die Nachricht in einem Browser anzuzeigen
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

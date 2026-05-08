@@ -15,6 +15,7 @@ index: true
 redirect_from: 
   - /sv/admin/user-management/learn/delete-user
   - /sv/admin/user-management/learn/update-user
+tier: starter
 language: sv
 ---
 

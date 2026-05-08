@@ -8,6 +8,7 @@ date: 04.08.2026
 version: 11.12
 content_type: concept
 license: serviceessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

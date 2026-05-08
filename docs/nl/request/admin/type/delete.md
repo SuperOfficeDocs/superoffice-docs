@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: nl
 redirect_from: /nl/request/learn/type/delete
 index: true

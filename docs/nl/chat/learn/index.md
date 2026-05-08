@@ -9,6 +9,7 @@ version: 10.5
 audience: person
 content_type: concept
 license: cep
+tier: growth
 category: Service
 topic: chat
 audience_tooltip: SuperOffice CRM

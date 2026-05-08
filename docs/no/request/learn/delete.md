@@ -9,6 +9,7 @@ version: 10.5.1
 content_type: howto
 functional_right: Service-administrasjon, Generell administrator
 license: serviceessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-spam
 title: Spam-Beschwerden
 description: Spam-Beschwerden
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

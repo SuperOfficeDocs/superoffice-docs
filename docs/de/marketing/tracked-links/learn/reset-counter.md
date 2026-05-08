@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-tracked-links-reset
 title: Zähler für Links zurückstellen
 description: Zähler für Links zurückstellen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

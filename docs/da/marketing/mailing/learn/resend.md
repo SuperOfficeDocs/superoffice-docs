@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailings-resend
 title: Genudsende din mailing
 description: Når du har håndteret de afviste e-mails, er det en god ide at genudsende din e-mailudsendelse.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

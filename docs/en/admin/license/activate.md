@@ -7,6 +7,7 @@ author: digitaldiina, xt1
 date: 10.22.2025
 version: 11.5
 content_type: howto
+tier: starter
 category: Settings and maintenance
 topic: licenses
 audience: settings

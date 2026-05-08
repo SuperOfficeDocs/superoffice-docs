@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 11.12.2025
 version: 11.6
 content_type: concept
+tier: starter
 category: Settings and maintenance
 topic: Import
 audience: settings

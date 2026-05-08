@@ -10,6 +10,7 @@ content_type: concept
 category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: sv
 index: true
 redirect_from: /sv/security/privacy/learn/implementation-guide

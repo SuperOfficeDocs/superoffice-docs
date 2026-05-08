@@ -12,6 +12,7 @@ topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /da/admin/options/learn/custlang/update
+tier: starter
 language: da
 index: true
 ---

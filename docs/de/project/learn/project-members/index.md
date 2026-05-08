@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: core
 language: de
 redirect_from: /de/project/learn/screen/project-members-tab
 ---

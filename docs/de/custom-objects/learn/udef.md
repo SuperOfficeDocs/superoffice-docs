@@ -9,6 +9,7 @@ version: 10.3.1
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
+tier: core
 language: de
 redirect_from: /de/custom-objects/learn/udef/index
 ---

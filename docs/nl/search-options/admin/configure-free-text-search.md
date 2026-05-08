@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: nl
 redirect_from:
   - /nl/admin/options/learn/freetext-search/enable

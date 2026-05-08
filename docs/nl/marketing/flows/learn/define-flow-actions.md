@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-flow-actions
 title: Definieer flowacties
 description: Definieer flowacties
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

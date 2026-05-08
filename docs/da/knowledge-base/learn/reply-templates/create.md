@@ -10,6 +10,7 @@ content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
+tier: core
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

@@ -16,6 +16,7 @@ redirect_from:
   - /sv/admin/options/learn/labels/index
   - /sv/admin/options/learn/labels/change
   - /sv/admin/options/learn/labels/reset
+tier: starter
 language: sv
 ---
 

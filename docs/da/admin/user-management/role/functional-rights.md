@@ -13,6 +13,7 @@ category: identity management
 topic: role
 index: true
 redirect_from: /da/admin/user-management/learn/role/functional-rights
+tier: starter
 language: da
 ---
 

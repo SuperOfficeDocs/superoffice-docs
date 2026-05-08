@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-view-statistics
 title: Statistieken voor mailings weergeven
 description: Statistieken voor mailings weergeven
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/mailing/learn/follow-up/view-statistics

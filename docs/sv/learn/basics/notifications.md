@@ -8,6 +8,7 @@ date: 08.25.2025
 version: 11.3
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

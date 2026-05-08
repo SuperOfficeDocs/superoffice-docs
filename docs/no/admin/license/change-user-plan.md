@@ -15,6 +15,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /no/admin/user-management/learn/change-user-plan
+tier: starter
 language: no
 ---
 

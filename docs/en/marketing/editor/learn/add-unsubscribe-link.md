@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-add-subscription-links
 title: Add subscription links
 description: When you send a mailing, it is required to give recipients the option of unsubscribing. Learn how.
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

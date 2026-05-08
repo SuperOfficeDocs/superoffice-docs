@@ -15,6 +15,7 @@ redirect_from:
   - /de/automation/crmscript/learn/macro-script
   - /de/automation/crmscript/learn/screen/index
   - /de/automation/crmscript/learn/index
+tier: core
 language: de
 index: true
 ---

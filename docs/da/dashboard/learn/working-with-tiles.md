@@ -9,6 +9,7 @@ version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: core
 language: da
 redirect_from:
   - /da/dashboard/learn/add-tile

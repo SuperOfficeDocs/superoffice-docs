@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-targets
 title: Opprette en målliste
 description: Målet med utsendelsen din vil bestemme målgruppen din. Når du vet hva du vil oppnå med utsendelsen, må du opprette en bestemt målliste.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

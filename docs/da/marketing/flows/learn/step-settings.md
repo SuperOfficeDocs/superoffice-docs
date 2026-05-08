@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-flow-step-settings
 title: Trinindstillinger
 description: Gennemgang af indstillingerne for de forskellige flowtrin.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

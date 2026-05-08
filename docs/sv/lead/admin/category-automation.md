@@ -10,6 +10,7 @@ content_type: howto
 category: sale
 topic: lead
 license: salespremium
+tier: growth
 audience: settings
 audience_tooltip: Inställningar och underhåll
 index: true

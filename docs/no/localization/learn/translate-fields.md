@@ -10,6 +10,7 @@ content_type: howto
 category: localization
 topic: language
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 redirect_from: /no/globalization-and-localization/learn/translate-fields

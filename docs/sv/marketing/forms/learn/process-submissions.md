@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-form-submissions-process
 title: Behandla formulärinlämningar
 description: I den här guiden lär du dig hur du bearbetar formulärinlämningar manuellt.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/forms/learn/submissions/process

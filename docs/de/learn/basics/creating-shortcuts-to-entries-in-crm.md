@@ -9,6 +9,7 @@ version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 redirect_from: /de/onsite/win-client/learn/creating-shortcuts-to-entries-in-crm
 ---

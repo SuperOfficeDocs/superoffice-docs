@@ -10,6 +10,7 @@ content_type: howto
 category: sale
 topic: lead
 license: salesessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

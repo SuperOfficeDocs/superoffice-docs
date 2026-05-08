@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailings-resend
 title: Uw mailing opnieuw verzenden
 description: Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed idee om uw mailing opnieuw te verzenden.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

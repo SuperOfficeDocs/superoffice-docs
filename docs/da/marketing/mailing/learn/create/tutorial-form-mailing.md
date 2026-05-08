@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-tutorial-form-mailing
 title: Selvstudium - udsendelse af formularsvar
 description: I dette selvstudium lærer du, hvordan du opretter en formularsvarudsendelse.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

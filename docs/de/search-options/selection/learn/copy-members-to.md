@@ -9,6 +9,7 @@ version: 10.5.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 redirect_from: /de/search-options/selection/learn/update/copy-members-to
 ---

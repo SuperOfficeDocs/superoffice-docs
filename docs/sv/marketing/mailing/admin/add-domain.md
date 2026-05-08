@@ -8,6 +8,7 @@ date: 05.04.2026
 version: 11.13
 content_type: howto
 license: marketingessentials
+tier: growth
 category: Marketing
 topic: mailing
 audience: settings

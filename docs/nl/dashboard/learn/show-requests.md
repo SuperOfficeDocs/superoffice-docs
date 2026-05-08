@@ -9,6 +9,7 @@ version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
+tier: core
 language: nl
 ---
 

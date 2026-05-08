@@ -7,6 +7,7 @@ author: xt1
 date: 04.20.2026
 version: 11.12
 content_type: concept
+tier: starter
 category: Settings and maintenance
 topic: licenses
 audience: settings

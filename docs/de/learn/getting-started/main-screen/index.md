@@ -9,6 +9,7 @@ keywords: Benutzeroberfläche, Hauptbildschirm, Hauptansicht, Navigator, obere L
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 ---
 

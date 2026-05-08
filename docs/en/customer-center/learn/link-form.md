@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 03.20.2023
 keywords: form, Customer Center
 content_type: howto
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

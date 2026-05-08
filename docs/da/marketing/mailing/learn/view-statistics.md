@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-view-statistics
 title: Se statistik for udsendelser
 description: Se statistik for udsendelser
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/mailing/learn/follow-up/view-statistics

@@ -14,6 +14,7 @@ audience_tooltip: Settings and maintenance
 redirect_from: 
   - /da/admin/options/learn/time-zones/enable
   - /da/localization/admin/index
+tier: starter
 language: da
 index: true
 ---

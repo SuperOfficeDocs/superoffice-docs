@@ -8,6 +8,7 @@ date: 09.19.2025
 version: 10.5
 content_type: howto
 license: salesessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

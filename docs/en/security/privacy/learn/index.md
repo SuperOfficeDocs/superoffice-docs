@@ -7,6 +7,7 @@ author: digitaldiina
 date: 11.06.2025
 version: 11.6
 content_type: concept
+tier: starter
 category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM

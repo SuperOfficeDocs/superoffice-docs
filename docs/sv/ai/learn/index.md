@@ -8,6 +8,7 @@ date: 12.02.2025
 version: 11.7
 content_type: concept
 license: aiplatform
+tier: core
 category: automation
 topic: ai
 deployment: online

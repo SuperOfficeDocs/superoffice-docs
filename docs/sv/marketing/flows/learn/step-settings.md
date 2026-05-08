@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-flow-step-settings
 title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

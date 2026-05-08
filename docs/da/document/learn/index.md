@@ -8,6 +8,7 @@ date: 05.04.2026
 version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

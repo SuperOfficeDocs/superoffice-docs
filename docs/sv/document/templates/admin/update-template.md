@@ -9,6 +9,7 @@ version: 10
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: sv
 redirect_from:
   - /sv/admin/lists/learn/replace-existing-template

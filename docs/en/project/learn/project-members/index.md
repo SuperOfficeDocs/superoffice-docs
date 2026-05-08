@@ -7,6 +7,7 @@ author: SuperOffice RnD
 date: 02.25.2025
 version: 10.5.2
 content_type: concept
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

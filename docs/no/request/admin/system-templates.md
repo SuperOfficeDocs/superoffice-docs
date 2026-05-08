@@ -9,6 +9,7 @@ version: 10.5.1
 content_type: reference
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
+tier: core
 language: no
 redirect_from: /no/request/learn/screen/system-templates
 index: true

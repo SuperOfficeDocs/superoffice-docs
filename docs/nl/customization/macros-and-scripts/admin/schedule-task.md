@@ -12,6 +12,7 @@ topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /nl/automation/crmscript/learn/schedule-task
+tier: core
 language: nl
 index: true
 ---

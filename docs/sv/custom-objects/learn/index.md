@@ -9,6 +9,7 @@ keywords: egendefinierade objekt, användardefinierade fält, extratabell, extra
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: sv
 ---
 

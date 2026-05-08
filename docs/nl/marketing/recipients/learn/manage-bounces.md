@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-blocked-email-addresses
 title: Geblokkeerde e-mailadressen
 description: Leer hoe u teruggestuurde e-mails kunt verwerken in deze handleiding.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/mailing/learn/follow-up/manage-bounces

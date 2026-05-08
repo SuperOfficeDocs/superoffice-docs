@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-marketing-editor
 title: Træk og slip-editor
 description: Træk og slip-editor
@@ -9,6 +9,7 @@ version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/learn/editor

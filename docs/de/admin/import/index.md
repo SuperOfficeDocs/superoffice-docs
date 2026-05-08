@@ -16,6 +16,7 @@ redirect_from:
   - /de/admin/import/learn/index
   - /de/admin/import/learn/import-from-outlook
   - /de/admin/import/import-from-outlook
+tier: starter
 language: de
 ---
 

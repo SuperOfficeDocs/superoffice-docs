@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-flow-step-settings
 title: Step settings
 description: Overview of settings for the various flow steps.
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

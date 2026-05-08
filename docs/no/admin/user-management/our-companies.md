@@ -16,6 +16,7 @@ index: true
 redirect_from: 
   - /no/admin/user-management/learn/move-user
   - /no/admin/user-management/learn/our-companies
+tier: starter
 language: no
 ---
 

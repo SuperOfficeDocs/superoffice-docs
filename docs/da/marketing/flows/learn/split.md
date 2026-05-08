@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-flow-split
 title: Flowkontrol - opdeling
 description: Flowkontrol - opdeling
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

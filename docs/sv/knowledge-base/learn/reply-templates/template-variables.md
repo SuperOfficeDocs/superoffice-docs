@@ -11,6 +11,7 @@ category: service
 topic: knowledge base
 audience: person
 audience_tooltip: SuperOffice Service
+tier: core
 language: sv
 redirect_from: /sv/request/reply-templates/learn/template-variables
 ---

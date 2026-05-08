@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-google-analytics-tutorial
 title: Anleitung - einfaches Google Analytics E-Mail-Tracking
 description: Diese Anleitung wird erklären, wie Sie die Ergebnisse eines Mailings mit SuperOffice verfolgen und diese in Google Analytics zusammen mit all Ihren anderen Daten nachschlagen können.
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

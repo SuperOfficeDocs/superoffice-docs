@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-blocked-email-addresses
 title: Gesperrte E-Mail-Adressen
 description: In dieser Anleitung lernen Sie, wie Sie mit unzustellbaren E-Mails umgehen.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/mailing/learn/follow-up/manage-bounces

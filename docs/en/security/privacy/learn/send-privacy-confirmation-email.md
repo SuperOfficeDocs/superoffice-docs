@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 02.21.2023
 version: 10.3
 content_type: howto
+tier: starter
 category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM

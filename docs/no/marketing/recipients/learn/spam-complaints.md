@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-spam
 title: Klager på søppelpost
 description: Klager på søppelpost
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

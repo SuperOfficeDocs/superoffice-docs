@@ -9,6 +9,7 @@ version: 10.5.1
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
+tier: core
 language: no
 redirect_from: /no/request/learn/next-in-queue
 index: true

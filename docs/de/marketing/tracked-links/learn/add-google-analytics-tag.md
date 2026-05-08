@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-add-google-analytics
 title: Wie man Ihr Google Analytics-Tag zu einer Kampagne hinzufügt
 description: In dieser Anleitung lernen Sie, wie Sie Ihre Besucher nachverfolgen können.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

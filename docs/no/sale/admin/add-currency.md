@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: sale
 license: salesessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

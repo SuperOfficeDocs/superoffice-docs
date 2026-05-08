@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-forms-sign-up
 title: Sådan oprettes formularer (eksempler)
 description: Denne vejledning vil forklare, hvordan du opretter en formular hvor dine kunder kan tilmelde sig et eller flere nyhedsbreve
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

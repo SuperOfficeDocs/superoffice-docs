@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 index: true
 redirect_from: /no/admin/lists/learn/add-items-to-task-menu
+tier: core
 language: no
 ---
 

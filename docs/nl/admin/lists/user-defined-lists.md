@@ -14,6 +14,7 @@ redirect_from:
   - /nl/admin/lists/learn/adding-user-defined-lists
   - /nl/admin/lists/learn/deleting-user-defined-lists
   - /nl/admin/lists/learn/editing-lists-name-and-description
+tier: starter
 language: nl
 ---
 

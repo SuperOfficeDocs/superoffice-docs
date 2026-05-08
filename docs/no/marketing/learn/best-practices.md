@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-marketing-best-practices
 title: Beste praksis
 description: Beste praksis
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/customize-for-mobile

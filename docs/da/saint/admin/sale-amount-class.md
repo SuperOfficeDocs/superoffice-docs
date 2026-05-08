@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: da
 index: true
 redirect_from: /da/admin/lists/learn/sale-amount-class

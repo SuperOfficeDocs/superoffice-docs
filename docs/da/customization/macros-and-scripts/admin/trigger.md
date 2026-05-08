@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-automation-trigger
 title: Triggere
 description: Triggere
@@ -12,6 +12,7 @@ topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /da/automation/crmscript/learn/trigger
+tier: core
 language: da
 index: true
 ---

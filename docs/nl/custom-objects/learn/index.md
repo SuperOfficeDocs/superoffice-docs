@@ -9,6 +9,7 @@ version: 10
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: growth
 language: nl
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-submissions-process
 title: Process form submissions
 description: In this how-to guide you will learn how to process form submissions manually.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/forms/learn/submissions/process

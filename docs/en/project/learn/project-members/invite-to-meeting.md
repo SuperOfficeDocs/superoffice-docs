@@ -7,6 +7,7 @@ author: SuperOffice RnD
 date: 01.06.2025
 version: 10
 content_type: howto
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

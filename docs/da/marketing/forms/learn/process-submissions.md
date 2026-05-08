@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-form-submissions-process
 title: Behandling af formularindsendelser
 description: I denne vejledning lærer du, hvordan du behandler formularindsendelser manuelt.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/forms/learn/submissions/process

@@ -11,6 +11,7 @@ category: customization
 deployment: online
 platform: web
 index: true
+tier: starter
 language: no
 ---
 

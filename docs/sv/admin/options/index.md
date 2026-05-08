@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
 redirect_from: /sv/admin/options/learn/index
+tier: starter
 language: sv
 ---
 

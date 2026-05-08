@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-tracked-links-reset
 title: Nollställa räknare för länkar
 description: Nollställa räknare för länkar
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

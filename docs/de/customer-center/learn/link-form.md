@@ -8,6 +8,7 @@ keywords: Formular, Kundenzentrum
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: de
 ---
 

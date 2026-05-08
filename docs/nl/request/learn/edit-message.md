@@ -10,6 +10,7 @@ content_type: howto
 functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service
+tier: core
 language: nl
 redirect_from: /nl/request/learn/howto/edit-message
 ---

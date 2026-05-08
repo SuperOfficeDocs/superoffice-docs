@@ -12,6 +12,7 @@ topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /nl/admin/options/learn/custlang/update
+tier: starter
 language: nl
 index: true
 ---

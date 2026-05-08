@@ -9,6 +9,7 @@ keywords: extratabell
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: sv
 redirect_from: /sv/custom-objects/learn/extra-table/create
 index: true

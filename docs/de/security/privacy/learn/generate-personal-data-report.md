@@ -11,6 +11,7 @@ functional_right: Can update consent for contact
 category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 ---
 

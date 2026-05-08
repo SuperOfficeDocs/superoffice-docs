@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-recaptcha
 title: Google reCAPTCHA in Forms
 description: Google reCAPTCHA in Forms. Note - this page is NOT translated.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from:

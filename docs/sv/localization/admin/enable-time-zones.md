@@ -14,6 +14,7 @@ audience_tooltip: Settings and maintenance
 redirect_from: 
   - /sv/admin/options/learn/time-zones/enable
   - /sv/localization/admin/index
+tier: starter
 language: sv
 index: true
 ---

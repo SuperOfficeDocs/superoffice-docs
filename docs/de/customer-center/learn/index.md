@@ -6,6 +6,7 @@ author: SuperOffice RnD
 date: 03.16.2023
 keywords: Kundenzentrum
 content_type: concept
+tier: growth
 language: de
 ---
 

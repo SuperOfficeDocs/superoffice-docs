@@ -9,6 +9,7 @@ keywords: chatbot, connector, AI
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: no
 redirect_from: /no/chat/learn/admin/index
 index: true

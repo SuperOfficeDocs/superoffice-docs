@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-form-view-statistics
 title: Track form submissions and view statistics
 description: Track form submissions and view statistics
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/forms/learn/submissions/track

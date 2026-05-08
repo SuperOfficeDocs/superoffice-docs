@@ -9,6 +9,7 @@ version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud
+tier: growth
 language: nl
 index: true
 redirect_from: /nl/customer-center/admin/index

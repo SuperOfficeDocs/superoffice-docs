@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-flow-update
 title: Flow bewerken
 description: Flow bewerken
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

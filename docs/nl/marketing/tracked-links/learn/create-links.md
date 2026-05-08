@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-create-tracked-link
 title: Gevolgde links maken
 description: Gevolgde links maken
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

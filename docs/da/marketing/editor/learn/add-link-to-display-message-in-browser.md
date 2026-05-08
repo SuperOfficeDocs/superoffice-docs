@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-open-in-browser
 title: Tilføje et link til at vise meddelelsen i en browser
 description: Tilføje et link til at vise meddelelsen i en browser
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

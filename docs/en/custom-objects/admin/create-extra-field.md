@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 04.09.2024
 version: 10.3.4
 content_type: howto
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

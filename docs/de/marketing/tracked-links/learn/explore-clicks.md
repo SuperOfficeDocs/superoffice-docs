@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-tracked-links-view
 title: Nach der Kampagne mit überwachten Links arbeiten
 description: Nach der Kampagne mit überwachten Links arbeiten
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

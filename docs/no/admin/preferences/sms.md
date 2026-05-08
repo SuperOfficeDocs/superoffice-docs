@@ -12,6 +12,7 @@ topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: no
 redirect_from: /no/admin/preferences/learn/global-preferences/sms
 ---

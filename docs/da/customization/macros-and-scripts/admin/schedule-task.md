@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-automation-schedule-task
 title: Planlagte opgaver
 description: Planlagte opgaver
@@ -12,6 +12,7 @@ topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /da/automation/crmscript/learn/schedule-task
+tier: core
 language: da
 index: true
 ---

@@ -8,6 +8,7 @@ date: 02.25.2025
 version: 10.5.2
 content_type: concept
 license: salespremium
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

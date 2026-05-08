@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-form-templates
 title: Werken met formuliersjablonen
 description: Werken met formuliersjablonen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

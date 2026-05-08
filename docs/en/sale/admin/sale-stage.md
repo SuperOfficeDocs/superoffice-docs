@@ -8,6 +8,7 @@ date: 01.03.2025
 version: 10.5
 content_type: howto
 license: salesessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

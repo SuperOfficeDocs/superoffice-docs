@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-tutorial-document-mailing
 title: Tutorial - document mailing
 description: In this tutorial, you will learn to create a document mailing.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

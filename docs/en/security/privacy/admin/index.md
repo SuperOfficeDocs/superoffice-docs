@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 02.21.2023
 version: 10.3
 content_type: concept
+tier: starter
 category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance

@@ -8,6 +8,7 @@ date: 01.13.2026
 version: 11.8
 content_type: howto
 license: salesessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

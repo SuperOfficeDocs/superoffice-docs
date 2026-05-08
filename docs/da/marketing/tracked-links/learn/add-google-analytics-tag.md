@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-mailing-add-google-analytics
 title: Sådan tilføjer du tags fra Google Analytics til en mailudsendelse
 description: I denne vejledning lærer du, hvordan du sporer dine besøgende.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

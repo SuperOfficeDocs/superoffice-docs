@@ -8,6 +8,7 @@ keywords: Service, Einstellungen
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: de
 redirect_from: /de/admin/preferences/learn/global-preferences/password
 ---

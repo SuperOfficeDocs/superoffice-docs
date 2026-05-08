@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.29.2025
 version: 10.5
 content_type: howto
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

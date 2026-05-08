@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing
 title: Work with mailings
 description: Work with mailings
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/follow-up/index

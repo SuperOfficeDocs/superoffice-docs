@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 03.16.2023
 keywords: Customer Center, CEP
 content_type: howto
+tier: growth
 language: en
 ---
 

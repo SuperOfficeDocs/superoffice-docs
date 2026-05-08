@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-manage-subscriptions
 title: Manage email subscriptions
 description: SuperOffice CRM's Subscription Management features empower your contacts to specify the content they wish to receive. This is tied to Consent Management
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

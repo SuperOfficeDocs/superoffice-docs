@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-forms-sign-up
 title: Guide - formulär för anmälning till nyhetsbrev
 description: Denna guide kommer att förklara hur du kan skapa ett formulär för anmälning till nyhetsbrev
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

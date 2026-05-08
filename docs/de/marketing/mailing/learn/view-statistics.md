@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-view-statistics
 title: Statistiken für Kampagne anzeigen
 description: Statistiken für Kampagne anzeigen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/mailing/learn/follow-up/view-statistics

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-form-actions
 title: Definer formularhandlinger
 description: Definer formularhandlinger
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-automation-macro-create
 title: Opret en makro - eksempel fra SuperOffice
 description: Eksempel på, hvordan du opretter en makro i SuperOffice.
@@ -12,6 +12,7 @@ topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /da/automation/crmscript/learn/create-macro
+tier: core
 language: da
 index: true
 ---

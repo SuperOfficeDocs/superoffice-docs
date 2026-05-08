@@ -15,6 +15,7 @@ redirect_from:
   - /no/globalization-and-localization/learn/time-zones
   - /no/localization/learn/index
   - /no/localization/index
+tier: starter
 language: no
 ---
 

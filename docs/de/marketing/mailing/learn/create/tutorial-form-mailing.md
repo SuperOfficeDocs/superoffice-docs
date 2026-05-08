@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-tutorial-form-mailing
 title: Tutorial - Formularantwort-Kampagne
 description: In diesem Tutorial erfahren Sie, wie Sie eine Formularantwort erstellen.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

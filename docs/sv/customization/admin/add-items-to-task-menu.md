@@ -12,6 +12,7 @@ audience: settings
 audience_tooltip: Inställningar och underhåll
 index: true
 redirect_from: /sv/admin/lists/learn/add-items-to-task-menu
+tier: core
 language: sv
 ---
 

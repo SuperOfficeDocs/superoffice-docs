@@ -9,6 +9,7 @@ version: 11.12
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: da
 redirect_from:
   - /da/company/learn/screen/requests-tab

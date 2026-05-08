@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /de/admin/lists/learn/organize/user-group-filtering
+tier: starter
 language: de
 ---
 

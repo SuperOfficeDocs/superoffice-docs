@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-google-analytics-tutorial
 title: Tutorial - simple Google Analytics email tracking
 description: In this tutorial, you will learn how to set up a Google Analytics account, create Links and Tracked Links in SuperOffice that will post results to Google Analytics, and display these results in Google Analytics.
@@ -10,6 +10,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

@@ -7,6 +7,7 @@ author: digitaldiina
 date: 04.08.2026
 version: 11.12
 content_type: howto
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

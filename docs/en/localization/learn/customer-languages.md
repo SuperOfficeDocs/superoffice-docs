@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.09.2025
 version: 11.5
 content_type: concept
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 category: localization

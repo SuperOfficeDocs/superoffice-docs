@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailings-resend
 title: Resend your mailing
 description: How to resend a mailing in SuperOffice Marketing.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

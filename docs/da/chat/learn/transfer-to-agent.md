@@ -8,6 +8,7 @@ date: 09.25.2025
 version: 10.5
 content_type: howto
 license: cep
+tier: growth
 category: Service
 topic: chat
 audience: person

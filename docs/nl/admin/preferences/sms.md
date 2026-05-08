@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /nl/admin/preferences/learn/global-preferences/sms
+tier: starter
 language: nl
 ---
 

@@ -16,6 +16,7 @@ redirect_from:
   - /sv/admin/import/learn/index
   - /sv/admin/import/learn/import-from-outlook
   - /sv/admin/import/import-from-outlook
+tier: starter
 language: sv
 ---
 

@@ -11,6 +11,7 @@ functional_right: list administrator, general administrator
 category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: da
 index: true
 redirect_from: /da/security/privacy/learn/edit-privacy-confirmation-email

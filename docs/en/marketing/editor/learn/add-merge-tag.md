@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-add-merge-tags
 title: Add merge tags to your message
 description: Learn how to add merge tags to your mailing
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

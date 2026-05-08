@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: sv
 redirect_from: /sv/admin/options/learn/freetext-search/stopwords
 ---

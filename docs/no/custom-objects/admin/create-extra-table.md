@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: no
 redirect_from: /no/custom-objects/learn/extra-table/create
 index: true

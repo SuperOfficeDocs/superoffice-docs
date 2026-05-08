@@ -9,6 +9,7 @@ version: 11.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: nl
 index: true
 redirect_from: 

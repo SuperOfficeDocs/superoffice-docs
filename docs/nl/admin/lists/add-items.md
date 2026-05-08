@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /nl/admin/lists/learn/adding-items
+tier: starter
 language: nl
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-form-view-statistics
 title: Spore skjemainnsendinger og vise statistikk
 description: Spore skjemainnsendinger og vise statistikk
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/forms/learn/submissions/track

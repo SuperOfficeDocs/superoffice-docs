@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-open-in-browser
 title: Legge til en kobling for å vise meldingen i en nettleser
 description: Legge til en kobling for å vise meldingen i en nettleser
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

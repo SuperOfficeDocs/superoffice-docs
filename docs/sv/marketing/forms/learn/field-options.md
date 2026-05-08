@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-form-field-options
 title: Fältalternativ
 description: Fältalternativ
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

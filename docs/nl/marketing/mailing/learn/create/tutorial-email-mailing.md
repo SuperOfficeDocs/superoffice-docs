@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-tutorial-email-mailing
 title: Zelfstudie - e-mailmailing
 description: Wanneer u de nodige voorbereidingen hebt getroffen, waaronder het maken van uw doellijst en het voorbereiden van uw mailingsjabloon, bent u klaar om een nieuwe mailing te maken in SuperOffice CRM. In deze zelfstudie leert u een e-mailmailing te maken.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

@@ -17,6 +17,7 @@ redirect_from:
   - /sv/admin/user-management/learn/screen/index
   - /sv/admin/user-management/learn/visibility
   - /sv/admin/user-management/learn/associates-filter-group
+tier: starter
 language: sv
 ---
 

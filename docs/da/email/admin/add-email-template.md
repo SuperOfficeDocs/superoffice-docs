@@ -15,6 +15,7 @@ redirect_from:
   - /da/admin/lists/learn/add-email-template
   - /da/admin/lists/learn/create-email-template
   - /da/email/admin/index
+tier: starter
 language: da
 ---
 

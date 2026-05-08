@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-targets
 title: Zielliste erstellen
 description: Das Ziel Ihrer Kampagne bestimmt Ihre Zielaudience. Nachdem Sie wissen, was Sie mit Ihrer Kampagne erreichen wollen, müssen Sie eine spezifische Zielliste erstellen.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

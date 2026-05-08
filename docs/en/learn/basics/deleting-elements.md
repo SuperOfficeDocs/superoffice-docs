@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 06.26.2025
 version: 10.5.5
 content_type: howto
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

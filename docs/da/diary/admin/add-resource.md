@@ -13,6 +13,7 @@ index: true
 redirect_from:
   - /da/admin/lists/learn/resource
   - /da/admin/lists/learn/adding-items-to-resource-list
+tier: starter
 language: da
 ---
 

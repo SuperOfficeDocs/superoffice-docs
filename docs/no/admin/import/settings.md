@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /no/admin/import/learn/configure-import-settings
+tier: starter
 language: no
 ---
 

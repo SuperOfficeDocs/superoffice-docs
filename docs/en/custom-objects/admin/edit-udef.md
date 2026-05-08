@@ -6,6 +6,7 @@ keywords: udef, user-defiend field, custom field, field type
 author: Bergfrid Dias
 date: 01.16.2024
 content_type: howto
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

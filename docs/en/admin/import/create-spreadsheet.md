@@ -7,6 +7,7 @@ author: digitaldiina
 date: 02.22.2023
 version: 10.5
 content_type: howto
+tier: starter
 category: Settings and maintenance
 topic: Import
 audience: settings

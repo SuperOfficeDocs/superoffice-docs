@@ -7,6 +7,7 @@ author: digitaldiina
 date: 11.20.2025
 version: 11.6
 content_type: howto
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

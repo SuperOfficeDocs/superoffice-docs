@@ -8,6 +8,7 @@ keywords: Tjeneste, innstillinger
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: no
 redirect_from: /no/admin/preferences/learn/global-preferences/password
 ---

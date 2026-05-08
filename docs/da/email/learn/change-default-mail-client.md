@@ -5,6 +5,7 @@ description: Skift standard e-mailklient i SuperOffice
 keywords: e-mail, indstillinger, e-mailklient
 author: SuperOffice RnD
 date: 06.29.2022
+tier: starter
 language: da
 content_type: howto
 ---

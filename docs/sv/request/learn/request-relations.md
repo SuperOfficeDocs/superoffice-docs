@@ -10,6 +10,7 @@ content_type: howto
 category: service
 topic: request
 license: serviceessentials
+tier: core
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

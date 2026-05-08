@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-flow-create
 title: Create a new flow
 description: How to create new flow and define flow setting in SuperOffice Marketing
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

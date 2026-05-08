@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 11.21.2025
 version: 11.6
 content_type: howto
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

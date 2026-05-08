@@ -7,6 +7,7 @@ date: 05.21.2024
 version: 10.3.6
 keywords: kalender, händelse, slutfört
 content_type: howto
+tier: starter
 language: sv
 ---
 

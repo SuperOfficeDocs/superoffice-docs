@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-flow-participants
 title: Flow participants
 description: A complete view of all participants within the flow.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

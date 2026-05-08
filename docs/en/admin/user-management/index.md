@@ -7,6 +7,7 @@ author: digitaldiina
 date: 05.04.2026
 version: 11.13
 content_type: concept
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management

@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 09.23.2025
 version: 10.5
 content_type: concept
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

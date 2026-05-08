@@ -8,6 +8,7 @@ date: 02.05.2025
 version: 10.5.1
 content_type: howto
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

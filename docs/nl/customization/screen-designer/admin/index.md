@@ -8,6 +8,7 @@ date: 11.20.2025
 version: 11.6
 content_type: concept
 license: development-tools
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization

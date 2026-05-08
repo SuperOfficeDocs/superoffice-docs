@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: nl
 redirect_from:
   - /nl/company/learn/screen/projects-tab

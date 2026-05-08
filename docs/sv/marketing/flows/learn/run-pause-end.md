@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-flow-run-pause-end
 title: Kör, pausa och avsluta flöde
 description: Kör, pausa och avsluta flöde
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

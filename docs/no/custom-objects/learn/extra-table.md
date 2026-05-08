@@ -9,6 +9,7 @@ version: 10.3.8
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
+tier: growth
 language: no
 redirect_from: /no/custom-objects/learn/extra-table/index
 ---

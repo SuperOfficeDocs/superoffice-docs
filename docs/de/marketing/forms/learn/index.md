@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-forms
 title: Mit Formularen arbeiten
 description: SuperOffice Web-Formulare sind eine großartige Möglichkeit, Kundeninformationen und Rückmeldungen zu sammeln. Über Web-Formulare können die Besucher Ihrer Website mit Ihnen in Kontakt treten und ihre Personendetails hinterlassen.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: 

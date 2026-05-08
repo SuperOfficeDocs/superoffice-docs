@@ -7,6 +7,7 @@ author: digitaldiina, xt1
 date: 05.04.2026
 version: 11.13
 content_type: concept
+tier: starter
 category: Settings and maintenance
 topic: licenses
 audience: settings

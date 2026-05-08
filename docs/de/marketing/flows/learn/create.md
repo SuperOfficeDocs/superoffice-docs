@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-flow-create
 title: Neuen Flow erstellen
 description: Neuen Flow erstellen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

@@ -8,6 +8,7 @@ date: 03.29.2023
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: da
 redirect_from: /da/request/learn/screen/system-templates
 index: true

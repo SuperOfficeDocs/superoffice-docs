@@ -17,6 +17,7 @@ redirect_from:
   - /no/admin/user-management/learn/screen/index
   - /no/admin/user-management/learn/visibility
   - /no/admin/user-management/learn/associates-filter-group
+tier: starter
 language: no
 ---
 

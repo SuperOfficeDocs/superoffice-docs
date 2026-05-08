@@ -14,6 +14,7 @@ index: true
 redirect_from: 
   - /sv/admin/lists/learn/applications
   - /sv/admin/lists/learn/adding-external-applications-to-application-list
+tier: core
 language: sv
 ---
 

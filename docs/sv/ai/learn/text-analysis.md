@@ -8,6 +8,7 @@ date: 10.15.2025
 version: 11.5
 content_type: concept
 license: aiplatform, textservices
+tier: core
 category: automation
 topic: ai
 audience: person

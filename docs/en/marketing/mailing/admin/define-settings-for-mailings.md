@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-settings
 title: Define settings for mailings
 description: Define settings for mailings
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/admin/define-settings-for-mailings

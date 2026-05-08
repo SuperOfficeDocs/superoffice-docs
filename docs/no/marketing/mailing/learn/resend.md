@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailings-resend
 title: Sende utsendelsen på nytt
 description: Etter at du har håndtert de returnerte e-postene, er det lurt å sende utsendelsen på nytt.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

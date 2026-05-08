@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-flow-view-statistics
 title: Analysieren Sie die Ergebnisse Ihres Flows
 description: Analysieren Sie die Ergebnisse Ihres Flows
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

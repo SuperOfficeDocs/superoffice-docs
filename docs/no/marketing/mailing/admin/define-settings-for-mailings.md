@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-mailing-settings
 title: Angi innstillinger for utsendelser
 description: Angi innstillinger for utsendelser
@@ -10,6 +10,7 @@ content_type: reference
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/mailing/learn/admin/define-settings-for-mailings

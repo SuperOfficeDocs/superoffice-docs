@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 02.25.2025
 version: 10.5.2
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 content_type: howto

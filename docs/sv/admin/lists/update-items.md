@@ -13,6 +13,7 @@ index: true
 redirect_from:
   - /sv/admin/lists/learn/editing-items
   - /sv/admin/lists/learn/deleting-items
+tier: starter
 language: sv
 ---
 

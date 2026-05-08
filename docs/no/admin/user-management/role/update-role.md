@@ -15,6 +15,7 @@ index: true
 redirect_from: 
   - /no/admin/user-management/learn/role/editing-role
   - /no/admin/user-management/learn/role/deleting-role
+tier: starter
 language: no
 ---
 

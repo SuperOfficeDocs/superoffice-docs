@@ -6,6 +6,7 @@ keywords: FAQ, Kundecenter
 author: Bergfrid Dias
 date: 03.16.2023
 content_type: howto
+tier: growth
 language: da
 ---
 

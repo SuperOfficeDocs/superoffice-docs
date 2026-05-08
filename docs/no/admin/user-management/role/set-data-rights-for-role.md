@@ -13,6 +13,7 @@ category: identity management
 topic: role
 index: true
 redirect_from: /no/admin/user-management/learn/role/set-data-rights-for-role
+tier: starter
 language: no
 ---
 

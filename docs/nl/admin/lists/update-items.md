@@ -13,6 +13,7 @@ index: true
 redirect_from:
   - /nl/admin/lists/learn/editing-items
   - /nl/admin/lists/learn/deleting-items
+tier: starter
 language: nl
 ---
 

@@ -10,6 +10,7 @@ content_type: concept
 category: sale
 topic: lead
 license: salesessentials
+tier: core
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 index: true

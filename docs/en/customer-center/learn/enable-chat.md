@@ -6,6 +6,7 @@ author: Bergfrid Dias
 date: 02.22.2023
 keywords: chat, customer center
 content_type: howto
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

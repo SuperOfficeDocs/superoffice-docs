@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-automation-script-create
 title: Opret eller rediger et script
 description: Opret et script
@@ -14,6 +14,7 @@ audience_tooltip: Settings and maintenance
 redirect_from:
   - /da/automation/crmscript/learn/create-folder
   - /da/automation/crmscript/learn/create-script
+tier: core
 language: da
 index: true
 ---

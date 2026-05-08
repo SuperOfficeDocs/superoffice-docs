@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-flows
 title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

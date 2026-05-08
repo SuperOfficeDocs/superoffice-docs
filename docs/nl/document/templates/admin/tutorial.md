@@ -9,6 +9,7 @@ version: 10.5.4
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: nl
 index: true
 ---

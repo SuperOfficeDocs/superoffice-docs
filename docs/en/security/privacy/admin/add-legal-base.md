@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 09.02.2025
 version: 10.3
 content_type: howto
+tier: starter
 functional_right: list administrator, general administrator
 category: privacy
 audience: settings

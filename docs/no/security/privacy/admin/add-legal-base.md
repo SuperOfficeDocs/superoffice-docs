@@ -11,6 +11,7 @@ functional_right: list administrator, general administrator
 category: privacy
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 language: no
 index: true
 redirect_from: /no/admin/lists/learn/privacy-legal-base-add

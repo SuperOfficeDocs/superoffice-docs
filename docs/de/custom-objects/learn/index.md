@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 01.30.2024
 version: 10
 content_type: concept
+tier: growth
 language: de
 audience: user
 audience_tooltip: SuperOffice CRM

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-da-tutorial-sms-mailing
 title: Selvstudium - SMS-udsendelse
 description: I dette selvstudium lærer du at oprette en SMS-udsendelse.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

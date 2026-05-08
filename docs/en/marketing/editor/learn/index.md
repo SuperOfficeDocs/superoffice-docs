@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-marketing-editor
 title: Drag and drop editor
 description: Drag and drop editor
@@ -9,6 +9,7 @@ version: 11
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/learn/editor

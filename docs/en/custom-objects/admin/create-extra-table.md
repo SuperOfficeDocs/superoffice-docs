@@ -7,6 +7,7 @@ author: Bergfrid Dias, Eivind Fasting
 date: 12.10.2025
 version: 11
 content_type: howto
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

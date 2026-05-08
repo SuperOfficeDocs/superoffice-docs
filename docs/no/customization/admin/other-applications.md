@@ -14,6 +14,7 @@ index: true
 redirect_from: 
   - /no/admin/lists/learn/applications
   - /no/admin/lists/learn/adding-external-applications-to-application-list
+tier: core
 language: no
 ---
 

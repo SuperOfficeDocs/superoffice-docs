@@ -6,6 +6,7 @@ keywords: document template, template variable, document
 author: Bergfrid Dias
 date: 07.11.2024
 content_type: howto
+tier: starter
 language: en
 redirect_from: /en/document/templates/troubleshooting
 ---

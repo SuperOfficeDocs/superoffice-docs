@@ -15,6 +15,7 @@ redirect_from:
   - /sv/globalization-and-localization/learn/time-zones
   - /sv/localization/learn/index
   - /sv/localization/index
+tier: starter
 language: sv
 ---
 

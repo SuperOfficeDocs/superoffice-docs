@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /de/marketing/forms/admin/

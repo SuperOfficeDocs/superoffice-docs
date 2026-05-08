@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-mailing-open-in-browser
 title: Add a link to display the message in a browser
 description: Add a link to display the message in a browser
@@ -9,6 +9,7 @@ version: 10.5
 content_type: howto
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

@@ -9,6 +9,7 @@ version: 11.12
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: nl
 redirect_from: /nl/request/learn/type/index
 index: true

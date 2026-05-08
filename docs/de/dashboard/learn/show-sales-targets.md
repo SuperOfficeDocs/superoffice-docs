@@ -8,6 +8,7 @@ date: 11.21.2025
 version: 11.6
 content_type: howto
 license: salespremium
+tier: growth
 deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM

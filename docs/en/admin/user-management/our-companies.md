@@ -7,6 +7,7 @@ author: digitaldiina
 date: 10.24.2025
 version: 10.4
 content_type: howto
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management

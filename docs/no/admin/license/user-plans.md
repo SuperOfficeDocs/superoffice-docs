@@ -14,6 +14,7 @@ topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: no
 ---
 

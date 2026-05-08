@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-form-view-statistics
 title: Spåra formulärinlämningar och visa statistik
 description: Spåra formulärinlämningar och visa statistik
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/forms/learn/submissions/track

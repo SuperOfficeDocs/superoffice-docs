@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 03.14.2025
 content_type: howto
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

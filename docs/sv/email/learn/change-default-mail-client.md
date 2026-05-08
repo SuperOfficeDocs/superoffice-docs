@@ -5,6 +5,7 @@ description: Så ändrar du standardklienten för e-post i SuperOffice
 keywords: e-post, inställningar, e-postklient
 author: SuperOffice RnD
 date: 02.25.2025
+tier: starter
 language: sv
 content_type: howto
 ---

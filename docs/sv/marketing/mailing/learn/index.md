@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailing
 title: Arbeta med utskick
 description: Arbeta med utskick
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/mailing/learn/follow-up/index

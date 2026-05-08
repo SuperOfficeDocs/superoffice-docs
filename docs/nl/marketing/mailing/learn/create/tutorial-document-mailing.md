@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-tutorial-document-mailing
 title: Zelfstudie - documentmailing maken
 description: In deze zelfstudie leert u een documentmailing te maken.
@@ -9,6 +9,7 @@ content_type: tutorial
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

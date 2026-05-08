@@ -15,6 +15,7 @@ index: true
 redirect_from: 
   - /sv/admin/user-management/learn/role/editing-role
   - /sv/admin/user-management/learn/role/deleting-role
+tier: starter
 language: sv
 ---
 

@@ -7,6 +7,7 @@ author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
 date: 07.31.2024
 version: 10
 content_type: howto
+tier: starter
 language: no
 redirect_from: /no/admin/lists/learn/creating-template-document
 ---

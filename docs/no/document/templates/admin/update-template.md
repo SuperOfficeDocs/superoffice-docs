@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 07.11.2024
 version: 10
 content_type: howto
+tier: starter
 language: no
 index: true
 audience: settings

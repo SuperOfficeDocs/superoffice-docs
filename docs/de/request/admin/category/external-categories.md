@@ -12,6 +12,7 @@ topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /de/admin/options/learn/custlang/external-categories
+tier: core
 language: de
 index: true
 ---

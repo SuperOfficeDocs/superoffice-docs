@@ -15,6 +15,7 @@ redirect_from:
   - /no/admin/lists/learn/adding-items-to-relation-list
   - /no/admin/lists/learn/add-items-to-country-list
   - /no/admin/lists/learn/country
+tier: starter
 language: no
 ---
 

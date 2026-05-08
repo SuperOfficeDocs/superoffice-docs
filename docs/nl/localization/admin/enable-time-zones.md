@@ -14,6 +14,7 @@ audience_tooltip: Settings and maintenance
 redirect_from: 
   - /nl/admin/options/learn/time-zones/enable
   - /nl/localization/admin/index
+tier: starter
 language: nl
 index: true
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-form-view-statistics
 title: Formularübermittlungen überwachen und Statistiken anzeigen
 description: Formularübermittlungen überwachen und Statistiken anzeigen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/forms/learn/submissions/track

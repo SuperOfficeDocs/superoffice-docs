@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-create
 title: Nieuwe mailing maken
 description: Om een marketing mailing te versturen hoeft u slechts vijf eenvoudige stappen te volgen. Het opzetten van een mailing omvat het maken van de mailing, het invullen van basisinformatie en vervolgens het kiezen van een sjabloon.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

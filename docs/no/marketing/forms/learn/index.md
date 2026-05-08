@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-forms
 title: Arbeide med skjemaer
 description: SuperOffice-webskjemaer er en flott måte å samle kundeinformasjon og tilbakemeldinger på. Med webskjemaer kan personer som besøker websiden din, komme i kontakt med deg og legge igjen kontaktinformasjonen sin.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: 

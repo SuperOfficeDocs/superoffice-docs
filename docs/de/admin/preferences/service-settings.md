@@ -10,6 +10,7 @@ content_type: reference
 category: Settings and maintenance
 topic: preferences
 license: serviceessentials
+tier: core
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance

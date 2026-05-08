@@ -7,6 +7,7 @@ author: digitaldiina
 date: 11.18.2025
 version: 11.6
 content_type: howto
+tier: core
 category: sale
 topic: lead
 audience: person

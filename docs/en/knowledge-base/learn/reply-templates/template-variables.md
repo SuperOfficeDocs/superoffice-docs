@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 06.29.2022
 version: 10.5
 content_type: reference
+tier: core
 category: service
 topic: knowledge base
 audience: person

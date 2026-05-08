@@ -7,6 +7,7 @@ date: 03.14.2025
 version: 10.5.2
 keywords: zoeken, Snel zoeken, navigator
 content_type: howto
+tier: starter
 language: nl
 ---
 

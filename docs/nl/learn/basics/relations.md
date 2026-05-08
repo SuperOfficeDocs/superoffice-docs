@@ -9,6 +9,7 @@ version: 11.12
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: nl
 redirect_from:
   - /nl/admin/lists/learn/relation

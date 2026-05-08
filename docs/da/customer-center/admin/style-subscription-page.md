@@ -9,6 +9,7 @@ version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
+tier: growth
 language: da
 index: true
 redirect_from: /da/customer-center/admin/index

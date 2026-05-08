@@ -9,6 +9,7 @@ version: 10.5.2
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: nl
 redirect_from: /nl/request/learn/priority/create
 index: true

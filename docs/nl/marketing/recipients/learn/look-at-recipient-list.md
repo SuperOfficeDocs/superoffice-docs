@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-mailing-recipient-list
 title: Werken met de ontvangerslijst na de mailing
 description: Werken met de ontvangerslijst na de mailing
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

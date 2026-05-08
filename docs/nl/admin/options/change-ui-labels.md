@@ -16,6 +16,7 @@ redirect_from:
   - /nl/admin/options/learn/labels/index
   - /nl/admin/options/learn/labels/change
   - /nl/admin/options/learn/labels/reset
+tier: starter
 language: nl
 ---
 

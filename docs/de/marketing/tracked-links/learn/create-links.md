@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-de-mailing-create-tracked-link
 title: Überwachte Links erstellen
 description: Überwachte Links erstellen
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de

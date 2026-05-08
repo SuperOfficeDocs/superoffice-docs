@@ -9,6 +9,7 @@ version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
+tier: core
 language: sv
 index: true
 ---

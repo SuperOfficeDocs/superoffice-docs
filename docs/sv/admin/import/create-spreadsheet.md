@@ -13,6 +13,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from: /sv/admin/import/learn/create-import-file
+tier: starter
 language: sv
 ---
 

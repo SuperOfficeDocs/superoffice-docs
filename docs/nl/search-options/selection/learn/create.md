@@ -9,6 +9,7 @@ version: 10.5.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: nl
 redirect_from:
   - /nl/sale/saint/learn/using-status-monitors-in-dynamic-selections

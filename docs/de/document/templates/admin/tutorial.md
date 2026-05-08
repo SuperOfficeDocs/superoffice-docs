@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 04.28.2025
 version: 10.5.4
 content_type: tutorial
+tier: starter
 language: de
 audience: settings
 audience_tooltip: Settings and maintenance

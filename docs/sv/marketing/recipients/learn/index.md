@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-mailing-targets
 title: Skapa en mållista
 description: Målet med ditt utskick avgör vilken din målgrupp är. När du vet vad du vill uppnå med ditt utskick måste du skapa en specifik mållista.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

@@ -13,6 +13,7 @@ category: identity management
 topic: user
 index: true
 redirect_from: /da/admin/user-management/learn/user-groups
+tier: starter
 language: da
 ---
 

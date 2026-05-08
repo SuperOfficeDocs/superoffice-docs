@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-no-flow-participants
 title: Flytdeltakere
 description: En fullstendig oversikt over alle flytdeltakere.
@@ -10,6 +10,7 @@ content_type: concept
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no

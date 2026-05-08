@@ -9,6 +9,7 @@ keywords: udef, anpassa fält, användardefinierad fält
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: core
 language: sv
 redirect_from: /sv/custom-objects/learn/udef/index
 ---

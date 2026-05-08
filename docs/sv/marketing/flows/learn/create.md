@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-flow-create
 title: Skapa ett nytt flöde
 description: Hur man skapar ett nytt flöde och definierar flödesinställningar i SuperOffice Marketing
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

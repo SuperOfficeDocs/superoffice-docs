@@ -12,6 +12,7 @@ topic: time zone
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /nl/admin/options/learn/time-zones/select
+tier: starter
 language: nl
 index: true
 ---

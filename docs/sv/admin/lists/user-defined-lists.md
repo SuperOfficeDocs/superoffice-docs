@@ -14,6 +14,7 @@ redirect_from:
   - /sv/admin/lists/learn/adding-user-defined-lists
   - /sv/admin/lists/learn/deleting-user-defined-lists
   - /sv/admin/lists/learn/editing-lists-name-and-description
+tier: starter
 language: sv
 ---
 

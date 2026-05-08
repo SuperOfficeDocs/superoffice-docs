@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-en-define-link-actions
 title: Define automatic link actions
 description: In this how-to guide, you will learn how to use links in mailings to automate actions.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

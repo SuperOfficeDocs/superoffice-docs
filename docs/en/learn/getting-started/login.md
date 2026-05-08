@@ -7,6 +7,7 @@ date: 05.04.2026
 version: 11.13
 keywords: CRM, sign in, login, password, single sign-on
 content_type: howto
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

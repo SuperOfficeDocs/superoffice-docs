@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
 index: true
+tier: core
 language: de
 redirect_from: 
   - /de/admin/learn/screen/package-properties

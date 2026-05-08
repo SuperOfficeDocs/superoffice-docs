@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-sv-blocked-email-addresses
 title: Blockerade e-postadresser
 description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här guiden.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/mailing/learn/follow-up/manage-bounces

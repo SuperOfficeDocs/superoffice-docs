@@ -1,4 +1,4 @@
-﻿---
+---
 uid: help-nl-define-link-actions
 title: Geautomatiseerde linkacties definiëren
 description: In deze handleiding leert u hoe u links in mailings kunt gebruiken om acties te automatiseren.
@@ -10,6 +10,7 @@ content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

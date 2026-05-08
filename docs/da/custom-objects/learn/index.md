@@ -9,6 +9,7 @@ keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede 
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: growth
 language: da
 ---
 

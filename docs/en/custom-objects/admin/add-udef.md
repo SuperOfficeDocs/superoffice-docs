@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 11.29.2024
 version: 10
 content_type: howto
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
