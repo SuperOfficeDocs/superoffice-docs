@@ -3,20 +3,22 @@ uid: saint-sql-search-values
 title: Search values
 description: How to search on SAINT values in raw SQL.
 keywords: sale, SAINT, API, SQL, counterValue, totalReg, totalRegInPeriod, notCompleted, notCompletedInPeriod
-author: Bergfrid Skaara Dias
-date: 06.09.2023
+author: digitaldiina
+date: 05.11.2026
 version: 10
 content_type: howto
+tier: growth
 redirect_from:
   - /en/sale/saint/howto/sql/search-saint-values
   - /en/api/netserver/sql/howto/saint/search-saint-values
+language: en
 ---
 
 # Searches on SAINT values
 
 Each [counterValue][1] row points to the `contact_id` or `project_id` it is linked to.  The counter values themselves are stored in the `totalReg`, `totalRegInPeriod`, `notCompleted`, `notCompletedInPeriod`, and so on fields.
 
-[!include[ALT](../../../../../../common/includes/note-req-saint.md)]
+[!include[Requirement](../../../../includes/note-req-saint.md)]
 
 Here are some of the counter values for a project:
 

@@ -4,7 +4,7 @@ title: SOAP Web services
 description: SOAP reference
 author: Bergfrid Dias
 date: 11.17.2021
-topic: reference
+content_type: reference
 keywords: web services, SOAP, API, WCF, WSDL
 ---
 

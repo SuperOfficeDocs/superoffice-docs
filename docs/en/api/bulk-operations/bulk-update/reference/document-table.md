@@ -5,7 +5,7 @@ description: Bulk update document table
 author: Tony Yates
 date: 06.23.2017
 keywords: bulk update, document
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

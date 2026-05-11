@@ -3,17 +3,19 @@ uid: project-howto-sql
 title: Project SQL howto
 description: Working with projects in raw SQL.
 keywords: project, project management, API, SQL, ProjType, type_idx, ProjStatus, status_idx
-author: Bergfrid Skaara Dias
-date: 05.31.2023
+author: digitaldiina
+date: 05.11.2026
 content_type: howto
+tier: core
 redirect_from:
   - /en/project/howto/sql/index
   - /en/api/netserver/sql/howto/project/index
+language: en
 ---
 
 # Howto
 
-[!include[License requirement](../../../../../../common/includes/req-for-project-mgt.md)]
+[!include[License requirement](../../../../includes/note-req-project-mgt.md)]
 
 The [project table][5] contains the name and IDs of some of the other items.
 

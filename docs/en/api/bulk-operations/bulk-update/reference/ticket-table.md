@@ -1,19 +1,23 @@
 ---
-title: Ticket table
 uid: bulkupdate_ticket_table
+title: Ticket table
 description: Bulk update ticket table
-author: Bergfrid Skaara Dias
-date: 01.27.2022
 keywords: bulk update, ticket
-topic: reference
+author: Bergfrid Skaara Dias
+date: 05.11.2026
+tier: starter
+content_type: reference
 envir: cloud
 client: online
+language: en
 ---
 
 
 # Ticket table
 
 Ticket fields. Key constants are in `BulkUpdateSystem.TicketFieldValueKeys`.
+
+[!include[License requirement](../../../../includes/req-starter-transition-service.md)]
 
 <!-- markdownlint-disable-file MD033 -->
 <table>
