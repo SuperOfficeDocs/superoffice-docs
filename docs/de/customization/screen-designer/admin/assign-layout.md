@@ -4,11 +4,11 @@ title: Layout zu Gruppe, Typ oder Vorlage zuweisen
 description: So weisen Sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung ein Layout einer Gruppe, Verkaufstyp, Projekttyp oder Anfrageart zu.
 keywords: Bildschirmlayout, Layout zuweisen, Layout
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /de/customization/screen-designer/assign-layout
 
 # Layout zu Gruppe, Typ oder Vorlage zuweisen
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 ## Schritte
 

@@ -4,11 +4,11 @@ title: Layout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 keywords: Layout hinzufügen, neues Layout, Bildschirmlayout, Layouts zuweisen zu
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Layout hinzufügen
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 Egal, ob Sie eine personalisierte Ansicht für eine ausgewählte Benutzergruppe hinzufügen oder ein Layout optimieren, das für bestimmte Projekte, Verkäufe, Anfragen, Folgeaufgaben oder Dokumentvorlagen ausgelegt ist – beginnen Sie damit, ein neues Layout für einen Bildschirm im Ansichtsdesigner hinzuzufügen.
 

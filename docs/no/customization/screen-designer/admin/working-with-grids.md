@@ -4,13 +4,13 @@ title: Arbeide med rutenett
 description: Slik legger du til og fyller ut rutenett i et oppsett ved hjelp av Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: skjermoppsett, rutenett, tabell-layout
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: no
@@ -20,7 +20,7 @@ redirect_from: /no/customization/screen-designer/working-with-grids
 
 # Arbeide med rutenett
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Hvis du har mange felt, kan du bruke et rutenett for å plassere dem mer nøyaktig. Dette er et alternativ til å plassere basert på sorteringsrekkefølge og kolonner.
 

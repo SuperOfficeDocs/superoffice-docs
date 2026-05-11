@@ -4,11 +4,11 @@ title: Lägg till en knapp eller länk
 description: Hur du lägger till en knapp eller länk i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: lägg till knapp, ny knapp, lägg till länk, ny länk, etikett
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /sv/customization/screen-designer/add-button
 
 # Lägg till en knapp eller länk
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Anpassade knappar och länkar läggs till i **Förhandsgranskning**-panelen när du redigerar en layout. URL:en används för att öppna en webbsida i aktuell eller ny flik, köra ett CRMScript från skärmen eller navigera till andra delar av SuperOffice med hjälp av [SoProtocol][3].
 

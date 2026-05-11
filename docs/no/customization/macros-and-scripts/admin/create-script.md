@@ -4,7 +4,7 @@ title: Opprette eller redigere et skript
 description: Opprette et skript
 keywords: skript, makro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -20,6 +20,8 @@ index: true
 ---
 
 # Opprette eller redigere et skript
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

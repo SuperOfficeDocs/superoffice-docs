@@ -4,11 +4,11 @@ title: Arbejde med gittere
 description: Sådan tilføjer og udfylder du gittere i et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: skærmlayout, gitter, tabellayout
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /da/customization/screen-designer/working-with-grids
 
 # Arbejde med gittere
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Hvis du har mange felter, kan du bruge et gitterelement til at placere dem mere præcist. Dette er et alternativ til positionering baseret på sorteringsrækkefølge og kolonner.
 

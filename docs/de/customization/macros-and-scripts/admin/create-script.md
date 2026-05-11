@@ -4,7 +4,7 @@ title: Skript erstellen oder bearbeiten
 description: Ein Skript erstellen
 keywords: Skript, Makro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -20,6 +20,8 @@ index: true
 ---
 
 # Skript erstellen oder bearbeiten
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

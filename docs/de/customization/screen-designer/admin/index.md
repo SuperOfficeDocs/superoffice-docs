@@ -4,11 +4,11 @@ title: Ansichtsdesigner
 description: In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfigurieren.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, anpassen
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: concept
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization

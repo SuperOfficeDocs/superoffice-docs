@@ -4,7 +4,7 @@ title: Een macro maken - voorbeeld van SuperOffice
 description: Voorbeeld van het maken van een macro in SuperOffice.
 keywords: script, macro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -18,6 +18,8 @@ index: true
 ---
 
 # Een macro maken - voorbeeld van SuperOffice
+
+[!include[License requirement](../../../includes/req-core.md)]
 
 Veel bedrijven krijgen vaak verzoeken met betrekking tot facturering. Dergelijke verzoeken moeten rechtstreeks naar de boekhouding gaan. In plaats van elk verzoek te bewerken en de categorie en gebruiker te wijzigen, kunnen we een macro maken die al deze acties uitvoert. De macro kan worden toegewezen aan de knop **Taak** in het scherm Verzoek. Factuurvragen kunnen dus met slechts één klik aan de boekhouding worden gedelegeerd.
 
