@@ -3,11 +3,11 @@ uid: help-en-extra-field
 title: Extra fields
 description: An extra field is a custom field that you add to an existing SuperOffice database table in Service.
 keywords: extra field, custom field, field types
-author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: concept
-tier: growth
+tier: core
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,7 +16,7 @@ redirect_from: /en/custom-objects/extra-field/index
 
 # Extra fields
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 An *extra field* is a custom field that you add to an existing SuperOffice database table. You can extend the following entities:
 

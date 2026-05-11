@@ -4,7 +4,7 @@ title: Mer-fliken
 description: Lär dig hur du använder Mer-fliken i SuperOffice CRM för att visa och hantera användardefinierade fält för företag, kontakter, försäljning, projekt, händelse och dokument.
 keywords: Mer-flik, fliken Mer, udef, användardefinierat fält, extra fält, anpassat fält
 author: Bergfrid Skaara Dias
-date: 11.29.2024
+date: 05.11.2026
 version: 10.3.11
 content_type: howto
 audience: person
@@ -53,7 +53,7 @@ Klicka på <i class="ph ph-pencil-simple" aria-label="Edit"></i> för att redige
 
 ## Ytterligare tips
 
-* **Anpassa fält**: Att lägga till användardefinierade fält eller justera layout kräver administrativ tillgång och i vissa fall en licens för Development Tools.
+* **Anpassa fält**: Att lägga till användardefinierade fält eller justera layout kräver administrativ tillgång och i vissa fall en licens för Development Tools / **Core**-planen.
 
 ## Relaterat innehåll
 

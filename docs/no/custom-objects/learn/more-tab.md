@@ -4,7 +4,7 @@ title: Mer-fanen
 description: Lær hvordan du bruker Mer-fanen i SuperOffice CRM for å vise og administrere brukerdefinerte felt for firmaer, personer, salg, prosjekter, oppfølginger og dokumenter.
 keywords: Mer-fane, udef, brukerdefinert felt, ekstra felt, tilpasset felt
 author: Bergfrid Skaara Dias
-date: 11.29.2024
+date: 05.11.2026
 version: 10.3.11
 content_type: howto
 audience: person
@@ -53,7 +53,7 @@ Klikk <i class="ph ph-pencil-simple" aria-label="Edit"></i> for å redigere info
 
 ## Ytterligere tips
 
-* **Tilpass feltene**: Å legge til brukerdefinerte felt eller justere oppsett krever administrativ tilgang og i noen tilfeller en lisens for Development Tools.
+* **Tilpass feltene**: Å legge til brukerdefinerte felt eller justere oppsett krever administrativ tilgang og i noen tilfeller en lisens for Development Tools / **Core**-planen.
 
 ## Relaterte emner
 

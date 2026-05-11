@@ -4,7 +4,7 @@ title: Benutzeroberfläche anpassen
 description: Benutzeroberfläche anpassen
 keywords: udef, benutzerdefiniertes Feld, layout, Seite-1-Felder, anpassen, ausrichten
 author: Bergfrid Dias
-date: 01.30.2024
+date: 05.11.2026
 version: 10
 content_type: howto
 audience: settings
@@ -16,7 +16,7 @@ index: true
 
 # Benutzeroberfläche anpassen
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 SuperOffice Version 10 (veröffentlicht im Oktober 2021) führte [Ansichtsdesigner][1] ein, mit anpassbaren Ansichtlayouts für bestimmte Benutzergruppen. Jegliche benutzerdefinierten Ansichtlayouts, die den Ansichtsdesigner verwenden, können die unten beschriebenen Einstellungen außer Kraft setzen.
 

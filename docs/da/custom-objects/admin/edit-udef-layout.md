@@ -3,7 +3,7 @@ uid: help-da-udef-layout
 title: Placering af felter
 description: Placering af felter
 author: Bergfrid Dias
-date: 01.26.2024
+date: 05.11.2026
 version: 9
 keywords: udef, tilpasset felt
 content_type: howto
@@ -16,7 +16,7 @@ index: true
 
 # Placering af felter
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 SuperOffice version 10 (udgivet i oktober 2021) introducerede [Skærmdesigner][1] med tilpasselige skærmlayouts for specifikke brugergrupper. Eventuelle brugerdefinerede skærmlayouts ved hjælp af skærmdesigneren kan tilsidesætte de nedenfor beskrevne indstillinger.
 

@@ -4,7 +4,7 @@ title: Grensesnitttilpasning
 description: Grensesnitttilpasning
 keywords: udef, egendefinert felt, side-1, TAB-rekkefølge, justere felt
 author: Bergfrid Dias
-date: 01.29.2024
+date: 05.11.2026
 version: 10
 content_type: howto
 audience: settings
@@ -16,7 +16,7 @@ index: true
 
 # Grensesnitttilpasning
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 SuperOffice versjon 10 (utgitt oktober 2021) introduserte [Skjermdesigner][1] med skjermlayouter som kan tilpasses for bestemte brukergrupper. Eventuelle egendefinerte skjermlayouter som bruker skjermdesigner kan overstyre innstillingene som er beskrevet nedenfor.
 

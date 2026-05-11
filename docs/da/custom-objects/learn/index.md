@@ -2,14 +2,14 @@
 uid: help-da-custom-objects
 title: Brugerdefinerede objekter og felter
 description: Brugerdefinerede objekter
-author: Bergfrid Dias
-date: 01.29.2024
-version: 10
 keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
+author: Bergfrid Dias
+date: 05.11.2026
+version: 10
 content_type: concept
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
 language: da
 ---
 
@@ -29,27 +29,15 @@ SuperOffice CRM og Service var engang to separate applikationer med forskellige 
 
 ## Krav
 
-| Tilpasning | Licens | Kommentar |
-|---|---|---|
-| Tilføj/fjern brugerdefineret felt | Ingen | Vises automatisk på [fanen Mere][12]. Kræver Development Tools for at tilpasse placeringen. |
-| Tilpas layoutet for fanen Mere | Development Tools | |
-| Administrer side 1-felter | Development Tools | |
-| Ekstra felt | Development Tools | |
-| Ekstra tabel | Development Tools | |
-| [Skærmdesigner][5] | Development Tools | SuperOffice version 10 og nyere. |
-| [Brugerdefinerede skærme][6] | Development Tools, Service | Opret nye skærme i Service. |
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
+
+Felter vises automatisk på [fanen Mere][12], når de er tilføjet.
 
 ## Layout (placering af felter)
 
-UI-tilpasning af enhver art kræver en Development Tools-licens. Eventuelle brugerdefinerede skærmlayouts (oprettet i Skærmdesigneren) kan tilsidesætte indstillingerne for individuelle brugerdefinerede felter.
+Eventuelle brugerdefinerede skærmlayouts (oprettet i Skærmdesigneren) kan tilsidesætte indstillingerne for individuelle brugerdefinerede felter.
 
-Hvis du ikke har en Development Tools-licens, skal du bruge rækkefølgen af de forskellige felter for at sortere dem på fanen **Mere**.
-
-## Placering
-
-Alle brugerdefinerede skærmlayout (oprettet i Skærmdesigner) ved hjælp af skærmdesigner kan tilsidesætte de indstillinger, der er beskrevet nedenfor.
-
-Hvis du ikke har licens til konfigurerbare skærme, skal du bruge rangen af de forskellige felter.
+Hvis du ikke har **Core**-planen, skal du bruge rækkefølgen af de forskellige felter for at sortere dem på fanen **Mere**.
 
 ## Relateret indhold
 

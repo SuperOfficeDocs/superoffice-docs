@@ -2,20 +2,22 @@
 uid: custom-objects-reference
 title: Database customizations
 description: There are 3 ways to customize the database schema - user-defined fields; extra fields; extra tables
-author: Bergfrid Dias
-date: 01.18.2024
-version: 10
 keywords: custom object, custom field, udef, extra table, extra field, user-defined field, UDefField, updatedCount, udefidentity
-topic: reference
+author: Bergfrid Dias
+date: 05.11.2026
+version: 10
+content_type: reference
+tier: core
 audience: api
 audience_tooltip: SuperOffice APIs and database
 redirect_from: /en/custom-objects/overview
 index: true
+language: en
 ---
 
 # Working with custom objects and fields in API
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Via the APIs, it is possible to create and manage user-defined fields only. Extra fields and tables must be managed in Settings and maintenance. However, all custom object data is accessible via the APIs.
 
@@ -312,7 +314,7 @@ The **prog ID** is used to identify user-defined fields for an entity. The forma
 
 ## Requirements
 
-* Development Tools license
+* Development Tools license (legacy) or the **Core** plan
 * SuperOffice 8.1 or newer
 * NetServer must be restarted every time you change the schema
   * If Travel is activated, a new Travel database must also be generated
