@@ -3,9 +3,9 @@ uid: sofo
 title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 keywords: email, SuperOffice for Outlook, Outlook, SOFO
-author: Bergfrid Dias
-date: 10.29.2024
-version_sofo: 2024.8.12
+author: Andrea Schilde
+date: 05.05.2026
+version_sofo: 6.3.0
 content_type: concept
 category: integration
 topic: SuperOffice for Outlook
@@ -27,7 +27,7 @@ redirect_from:
 
 [View in the SuperOffice App Store][11]
 
-The **SuperOffice for Outlook** add-in helps you work effortlessly between Microsoft 365 and SuperOffice CRM. With this integration, you can manage key CRM tasks directly from your email without switching between systems, saving you time and helping you stay productive.
+The **SuperOffice for Outlook** add-in helps you work effortlessly between Microsoft 365 and SuperOffice CRM. SuperOffice for Outlook works with your personal mailbox and, when your Microsoft 365 permissions allow it, shared mailboxes that you access in Outlook. With this integration, you can manage key CRM tasks directly from your email without switching between systems, saving you time and helping you stay productive.
 
 ## Why SuperOffice for Outlook?
 
@@ -54,6 +54,7 @@ The SuperOffice for Outlook add-in lets you:
 * [Create requests][5]
 * [Add messages to request​][5]
 * [Add CRM data to calendar events][6] (Requires [Synchronizer for SuperOffice][12])
+* Work with emails from shared mailboxes, including archiving emails, saving attachments, removing archived emails from the inbox, and composing new emails from a shared mailbox
 
 Everything you need is integrated into your inbox, making your workflow smoother and more efficient.
 
