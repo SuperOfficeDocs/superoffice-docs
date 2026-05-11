@@ -57,6 +57,8 @@ Before you save, you can decide what gets included.
 
 **Include files (attach to .EML)** – Attaches files from the selected date range to the email file. This option is only available in standard channels.
 
+![Archive window showing options for deleted message notices, emoji reactions, file attachments, and AI summary][img5]
+
 ## Choosing where it goes in SuperOffice
 
 Whether you're saving a chat or a file, you'll fill in a few details so the archive lands in the right place.
@@ -87,3 +89,4 @@ When you're ready, click **Create**. After a successful save, SuperOffice for Te
 [img2]: media/teams-compose-bar-picker.png
 [img3]: media/teams-archive-form.png
 [img4]: media/teams-archive-success.png
+[img5]: media/tearms-archive-what-to-include.png
