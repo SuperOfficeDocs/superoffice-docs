@@ -3,14 +3,18 @@ uid: crmscript-sale-stakeholder
 title: Stakeholders
 description: Working with sale stakeholders in CRMScript.
 keywords: sale, stakeholder
-author: Bergfrid Dias
-date: 06.09.2023
+author: digitaldiina
+date: 05.11.2026
 version: 10
 content_type: howto
+tier: growth
 redirect_from: /en/sale/howto/crmscript/stakeholders
+language: en
 ---
 
 # Stakeholders
+
+[!include[License requirement](../../../../includes/req-growth-transition-sales.md)]
 
 ## Organizations as stakeholders
 
