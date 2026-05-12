@@ -4,9 +4,10 @@ title: Mobile CRM interface guide
 description: Learn how to use the navigation wheel, action bar, and other core features in SuperOffice Mobile CRM.
 keywords: mobile interface, menu, navigation, navigation wheel, thumb wheel, fan menu, action bar, user interface, UI
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: reference
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/interface-guide
 language: en

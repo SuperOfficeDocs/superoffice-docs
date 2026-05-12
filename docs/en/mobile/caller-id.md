@@ -4,9 +4,10 @@ title: Enable caller ID
 description: How to enable caller ID in SuperOffice Mobile CRM.
 keywords: mobile, caller ID, call identification, phone number
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: howto
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/caller-id
 language: en

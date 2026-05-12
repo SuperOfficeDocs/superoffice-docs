@@ -4,9 +4,10 @@ title: Create request
 description: How to create (open) requests in SuperOffice Mobile CRM.
 keywords: create request, open request, new request, register request, request, ticket, customer
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: howto
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/request/create
 language: en
