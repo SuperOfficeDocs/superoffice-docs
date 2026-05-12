@@ -28,7 +28,7 @@ SuperOffice for Teams has to be added to a team (channel) to work. If the applic
 
 ## SuperOffice for Teams is missing from the message menu
 
-Teams blocks app usage in certain contexts, including private channels, shared channels, and 1:1 chats with unmanaged personal accounts.  [compatibility overview][1] to confirm whether SuperOffice for Teams is supported in the conversation you are using.
+Teams blocks app usage in certain contexts, including private channels, shared channels, and 1:1 chats with unmanaged personal accounts. Check the [compatibility overview][1] to confirm whether SuperOffice for Teams is supported in the conversation you are using.
 
 SuperOffice for Teams can also be hidden from the message menu when a message was sent as a reply to both a thread and the channel. If you right-click that message from the channel view, SuperOffice for Teams may not appear. This happens because the message is technically stored as a child message in the thread, not as a standalone channel message.
 
