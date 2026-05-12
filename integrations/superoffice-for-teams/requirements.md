@@ -18,7 +18,7 @@ Before you start, make sure the following requirements are met:
 
 * Microsoft Teams (desktop or web).
 * A SuperOffice Online user account with permission to create activities and documents.
-* A registered tenant and granted admin consent. This is usually handled once by a Microsoft 365 or SuperOffice administrator.
+* A registered tenant and admin permnissions. This is usually handled once by a Microsoft 365 or SuperOffice administrator.
 
 See [Deploy SuperOffice for Teams][1] for the full setup steps.
 
