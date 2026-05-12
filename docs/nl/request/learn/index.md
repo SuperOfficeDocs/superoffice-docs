@@ -103,7 +103,6 @@ Het tabblad **Details** bevat een overzicht van alle velden voor het verzoek.
 > [!NOTE]
 > Voor het logboek is een **Service Premium**-licentie of het **Growth**-plan vereist.
 
-
 Dit scherm bevat het logboek voor dit verzoek. Alle gebeurtenissen worden vastgelegd, inclusief het tijdstip, wat er is gebeurd en wie dit heeft gedaan.
 
 ![Het logboek van een verzoek toont alle verschillende wijzigingen die op het verzoek zijn aangebracht -screenshot][img2]

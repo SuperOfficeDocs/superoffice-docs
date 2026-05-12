@@ -57,7 +57,7 @@ These tiles highlight which sources generate qualified leads and which result in
 
 ## Example tiles for marketing handover
 
-If you use UTM tracking (requires **Marketing Premium** (legacy) or the **Growth** plan), additional tiles help you evaluate channel and campaign performance for lead acquisition.
+If you use UTM tracking (requires **Marketing Premium** or the **Growth** plan), additional tiles help you evaluate channel and campaign performance for lead acquisition.
 
 * **New leads by lead creation source YTD:** Shows which channels create new leads, such as Google, LinkedIn, Facebook, newsletters, or other tracked sources.
 

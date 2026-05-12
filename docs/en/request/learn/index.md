@@ -103,7 +103,6 @@ The **Details** tab contains an overview of all the fields for the request.
 > [!NOTE]
 > The Change log requires a **Service Premium** license or the **Growth** plan.
 
-
 This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
 
 ![The change log on a requests shows all the different changes done on the request -screenshot][img2]

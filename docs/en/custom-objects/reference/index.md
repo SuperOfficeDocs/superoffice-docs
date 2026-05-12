@@ -314,7 +314,7 @@ The **prog ID** is used to identify user-defined fields for an entity. The forma
 
 ## Requirements
 
-* Development Tools license (legacy) or the **Core** plan
+* Development Tools license or the **Core** plan
 * SuperOffice 8.1 or newer
 * NetServer must be restarted every time you change the schema
   * If Travel is activated, a new Travel database must also be generated

@@ -103,7 +103,6 @@ Fanen **Detaljer** inneholder en oversikt over alle feltene for saken.
 > [!NOTE]
 > Endringslogg krever en **Service Premium**-lisens eller **Growth**-planen.
 
-
 Dette bildet viser loggen for denne saken. Alle hendelser registreres, inkludert når de oppstod, hva som skjedde, og hvem som var ansvarlig.
 
 ![Endringsloggen på en sak viser alle de forskjellige endringene som er gjort på saken -screenshot][img2]

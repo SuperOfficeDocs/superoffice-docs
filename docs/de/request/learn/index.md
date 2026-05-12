@@ -103,7 +103,6 @@ Die Registerkarte **Details** enthält eine Übersicht über alle Felder für di
 > [!NOTE]
 > Das Änderungsprotokoll erfordert eine **Service Premium**-Lizenz oder den **Growth**-Plan.
 
-
 In dieser Ansicht werden die Protokolleinträge für die Anfrage angezeigt. Zu sämtlichen Ereignissen werden der Zeitpunkt, die durchgeführte Aktion und der zuständige Benutzer eingetragen.
 
 ![Das Änderungsprotokoll für eine Anfrage zeigt alle verschiedenen Änderungen an, die an der Anfrage vorgenommen wurden -screenshot][img2]

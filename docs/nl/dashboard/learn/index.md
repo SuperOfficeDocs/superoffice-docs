@@ -172,8 +172,8 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen.
 | Alle CRM-plannen | Status-dashboard met standaardtegels | Grafieken, lijsten, grote getallen |
 | **Service** | Verzoeken-dashboard | Verzoekgerelateerde tegels |
 | **Marketing** (Essentials of hoger) | – | Mailings, formulierinzendingen, chats |
-| **Sales Premium** | – | Prognoses, KPI's, verkoopdoelen, offertes |
-| **Sales of Service Premium** | – | Activiteitsmonitoren (SAINT) |
+| **Sales Premium** of **Growth** | – | Prognoses, KPI's, verkoopdoelen, offertes |
+| **Sales of Service Premium** of **Growth** | – | Activiteitsmonitoren (SAINT) |
 
 ## Tips
 

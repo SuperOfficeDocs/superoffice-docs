@@ -55,7 +55,7 @@ Disse figurene fremhever hvilke kilder som genererer kvalifiserte leads og hvilk
 
 ## Eksempler på figurer for overlevering til markedsføring
 
-Hvis du bruker UTM-sporing (krever **Marketing Premium** (eldre) eller **Growth**-planen), gir flere figurer innsikt i kanal- og kampanjeytelse.
+Hvis du bruker UTM-sporing (krever **Marketing Premium** eller **Growth**-planen), gir flere figurer innsikt i kanal- og kampanjeytelse.
 
 * **Nye leads etter leadopprettelseskilde YTD:** Viser hvilke kanaler som skaper nye leads, som Google, LinkedIn, Facebook, nyhetsbrev eller andre sporbare kilder.
 

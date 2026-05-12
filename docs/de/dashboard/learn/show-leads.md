@@ -57,7 +57,7 @@ Diese Kacheln zeigen, welche Quellen qualifizierte Leads liefern und welche zu V
 
 ## Beispielkacheln für Marketingübergabe
 
-Wenn Sie UTM-Tracking (erfordert **Marketing Premium** (Legacy) oder den **Growth**-Plan) verwenden, helfen zusätzliche Kacheln bei der Bewertung der Kanal- und Kampagnenleistung für die Leadakquise.
+Wenn Sie UTM-Tracking (erfordert **Marketing Premium** oder den **Growth**-Plan) verwenden, helfen zusätzliche Kacheln bei der Bewertung der Kanal- und Kampagnenleistung für die Leadakquise.
 
 * **Neue Leads nach Lead-Erstellungsquelle seit Jahresbeginn:** Zeigt, welche Kanäle neue Leads generieren, wie z. B. Google, LinkedIn, Facebook, Newsletter oder andere nachverfolgbare Quellen.
 

@@ -57,7 +57,7 @@ Deze tegels benadrukken welke bronnen gekwalificeerde leads genereren en welke l
 
 ## Voorbeelden van tegels voor marketingoverdracht
 
-Als u UTM-tracking gebruikt (vereist **Marketing Premium** (verouderd) of het **Growth**-plan), helpen extra tegels u bij het evalueren van kanaal- en campagneprestaties voor leadacquisitie.
+Als u UTM-tracking gebruikt (vereist **Marketing Premium** of het **Growth**-plan), helpen extra tegels u bij het evalueren van kanaal- en campagneprestaties voor leadacquisitie.
 
 * **Nieuwe leads per leadcreatiebron YTD:** Toont welke kanalen nieuwe leads creëren, zoals Google, LinkedIn, Facebook, nieuwsbrieven of andere getraceerde bronnen.
 

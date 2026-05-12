@@ -57,7 +57,7 @@ Dessa paneler belyser vilka källor som genererar kvalificerade leads och vilka 
 
 ## Exempel på paneler för marknadsöverlämning
 
-Om du använder UTM-spårning (kräver **Marketing Premium** (äldre) eller **Growth**-planen) hjälper ytterligare paneler dig att utvärdera kanal- och kampanjprestanda för leadanskaffning.
+Om du använder UTM-spårning (kräver **Marketing Premium** eller **Growth**-planen) hjälper ytterligare paneler dig att utvärdera kanal- och kampanjprestanda för leadanskaffning.
 
 * **Nya leads per leadskapandekälla YTD:** Visar vilka kanaler som skapar nya leads, såsom Google, LinkedIn, Facebook, nyhetsbrev eller andra spårade källor.
 

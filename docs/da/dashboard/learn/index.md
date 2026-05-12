@@ -172,8 +172,8 @@ Kun **ejeren** af et dashboard kan slette det.
 | Alle CRM-planer | Status-dashboard med standardruder | Diagrammer, lister, store tal |
 | **Service** | Sager-dashboard | Ruder relateret til sager |
 | **Marketing** (Essentials eller højere) | – | Mails, formularindsendelser, chats |
-| **Sales Premium** | – | Prognoser, KPI'er, salgsmål, tilbud |
-| **Sales eller Service Premium** | – | Aktivitetsmonitorer (SAINT) |
+| **Sales Premium** eller **Growth** | – | Prognoser, KPI'er, salgsmål, tilbud |
+| **Sales eller Service Premium** eller **Growth** | – | Aktivitetsmonitorer (SAINT) |
 
 ## Tips
 

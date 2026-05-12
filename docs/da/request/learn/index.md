@@ -103,7 +103,6 @@ Fanen **Detaljer** indeholder en oversigt over alle felter til sagen.
 > [!NOTE]
 > Ændringslog kræver en **Service Premium**-licens eller **Growth**-planen.
 
-
 Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sagen med oplysninger om, hvornår de opstod, hvad der skete, og hvem der er ansvarlig.
 
 ![Ændringsloggen på en sag viser alle de forskellige ændringer, der er foretaget på sagen -screenshot][img2]

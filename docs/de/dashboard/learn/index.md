@@ -172,8 +172,8 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 | Alle CRM-Pläne | Status-Dashboard mit Standardkacheln | Diagramme, Listen, große Zahlen |
 | **Service** | Anfragen-Dashboard | Anfragebezogene Kacheln |
 | **Marketing** (Essentials oder höher) | – | Mailings, Formularantworten, Chats |
-| **Sales Premium** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
-| **Sales oder Service Premium** | – | Aktivitätsüberwachung (SAINT) |
+| **Sales Premium** oder **Growth** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
+| **Sales oder Service Premium** oder **Growth** | – | Aktivitätsüberwachung (SAINT) |
 
 ## Tipps
 

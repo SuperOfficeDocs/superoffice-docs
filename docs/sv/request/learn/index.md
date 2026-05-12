@@ -103,7 +103,6 @@ På fliken **Detaljer** visas en översikt över alla fält som finns registrera
 > [!NOTE]
 > Ändringsloggen kräver en **Service Premium**-licens eller **Growth**-planen.
 
-
 På denna skärm visas loggen för ärendet. Alla händelser registreras, inkl. när de inträffade, vad som hände och vem som var ansvarig.
 
 ![Ändringsloggen för ett ärende visar alla olika ändringar som gjorts för ärendet -screenshot][img2]

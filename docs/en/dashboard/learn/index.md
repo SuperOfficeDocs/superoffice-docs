@@ -172,8 +172,8 @@ Only the **owner** of a dashboard can delete it.
 | All CRM plans | Status dashboard with standard tiles | Charts, lists, big numbers |
 | **Service** | Requests dashboard | Request-related tiles |
 | **Marketing** (Essentials or higher) | – | Mailing, form submissions, chats |
-| **Sales Premium** | – | Product-level forecasts, KPIs, sales targets, quotes |
-| **Sales or Service Premium** | – | Activity monitors (SAINT) |
+| **Sales Premium** or **Growth** | – | Product-level forecasts, KPIs, sales targets, quotes |
+| **Sales or Service Premium** or **Growth** | – | Activity monitors (SAINT) |
 
 ## Tips
 

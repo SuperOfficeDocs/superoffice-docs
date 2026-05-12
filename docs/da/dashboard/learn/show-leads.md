@@ -57,7 +57,7 @@ Disse ruder fremhæver, hvilke kilder der genererer kvalificerede leads, og hvil
 
 ## Eksempler på ruder til marketingoverdragelse
 
-Hvis du bruger UTM-sporing (kræver **Marketing Premium** (ældre) eller **Growth**-planen), hjælper yderligere ruder dig med at evaluere kanal- og kampagnepraestationer for leadanskaffelse.
+Hvis du bruger UTM-sporing (kræver **Marketing Premium** eller **Growth**-planen), hjælper yderligere ruder dig med at evaluere kanal- og kampagnepraestationer for leadanskaffelse.
 
 * **Nye leads efter leadoprettelseskilde YTD:** Viser, hvilke kanaler der skaber nye leads, såsom Google, LinkedIn, Facebook, nyhedsbreve eller andre sporede kilder.
 
