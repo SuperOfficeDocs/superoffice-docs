@@ -80,12 +80,41 @@ The welcome message reads:
 
 "Hello [your name]. Welcome to SuperOffice for Teams! You can use the buttons below to log in, or choose Help if you want to know more." 
 
+## What the bot does
 
-### What the bot does
+The bot handles sign-in and sign-out only. It does not answer general "how do I?" questions.
 
-The bot handles sign-in and sign-out only. It won't answer general "how do I?" questions. In the bot chat, you'll see the following buttons:
+In the bot chat, you will see the available buttons, depending on your login status:
 
-* **Login** – starts the Supe
+- **Login** - Starts the SuperOffice sign-in flow.
+- **Logout** - Signs you out of SuperOffice for Teams.
+- **Help** - Shows a message with a link to the SuperOffice for Teams knowledge base and documentation.
+
+## Signing in
+
+You must be signed in before you can archive anything.
+
+Open **SuperOffice for Teams** from the left rail to start your bot chat, then select **Login**.
+
+Signing in is a two-step process:
+
+1. **Sign in with Microsoft**
+
+   This gives SuperOffice for Teams permission to read your Teams chats and channels on your behalf via Microsoft Graph.
+
+   This is separate from your Teams session and is required for the app to function.
+
+2. **Sign in with SuperOffice**
+
+   This connects your SuperOffice Online account, so the app knows where to save your archived content.
+
+Once both steps are complete, SuperOffice for Teams remembers your session, so you will not need to sign in again every time.
+
+## When you are not signed in
+
+If you try to use **SuperOffice for Teams** while signed out, you will see a message that you are not signed in.
+
+Select **Open Chat** to go to the **SuperOffice for Teams** bot, then select **Sign In**.
 
 <!-- Referenced images -->
 [img1]: media/teams-app-store-built-for-your-org.png
