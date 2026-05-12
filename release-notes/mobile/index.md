@@ -4,7 +4,7 @@ title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
 author: kirstiaa
-date: 03.17.2026
+date: 05.20.2026
 version: 11.1
 content_type: release-note
 platform: mobile
@@ -20,6 +20,8 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [Requests - Reply to a single message (11.1.12)][46]
+* [Activate biometric login for Mobile CRM (11.1.12)][46]
 * [Request - Summarize messages (11.1.10)][45]
 * [Company - Indicators for country and stop (11.1.9)][44]
 * [Lead categorization - Automatic update of category on sale sold or lost (11.1.9)][44]
@@ -108,5 +110,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [43]: 11.1.7-update.md
 [44]: 11.1.9-update.md
 [45]: 11.1.10-update.md
+[46]: 11.1.12-update.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
