@@ -21,7 +21,7 @@ redirect_from:
 
 Proaktiv zu sein bedeutet, eine erwartete Situation zu kontrollieren, bevor sie eintritt. Mit SuperOffice Sales Intelligence (SAINT) erhalten Sie die Möglichkeit, Ihre Kunden zum richtigen Zeitpunkt zu betreuen und die Kontrolle über jedes Szenario zu übernehmen. SAINT wurde entwickelt, um Ihre Datenbank zu überwachen und Ihnen zu helfen, proaktiv zu sein und Ereignisse zu antizipieren, die sich auf Ihre Branche auswirken könnten.
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Was ist SAINT und was kann es tun?
 

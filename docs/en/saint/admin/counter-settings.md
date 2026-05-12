@@ -19,7 +19,7 @@ redirect_from:
 
 # Counters and counter settings
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 A **counter** is a value such as the number of sales in a period or the date of the last completed sale. Counters can be used as search criteria to find companies, contacts, or projects.
 

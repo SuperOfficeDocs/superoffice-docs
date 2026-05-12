@@ -21,7 +21,7 @@ redirect_from:
 
 # Set up a new activity monitor
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 With an activity monitor, you easily see all the customers who need attention.
 

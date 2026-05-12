@@ -19,7 +19,7 @@ redirect_from:
 
 # Räknare och räknarinställningar
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 En **räknare** är ett värde som till exempel antalet försäljningar under en period eller datumet för den senast slutförda försäljningen. Räknare kan användas som sökkriterier för att hitta företag, kontakter eller projekt.
 

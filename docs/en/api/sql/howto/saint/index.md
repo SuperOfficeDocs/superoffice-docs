@@ -5,7 +5,7 @@ description: Working with SAINT in raw SQL.
 keywords: sale, SAINT, counter, API, SQL, statusvalue, countervalue
 author: digitaldiina
 date: 05.11.2026
-version: 10
+version: 11
 content_type: concept
 tier: growth
 redirect_from:
@@ -17,6 +17,8 @@ language: en
 # SAINT - raw SQL
 
 [!include[Requirement](../../../../includes/note-req-saint.md)]
+
+The administrator must also have defined one or more SAINT statuses and generated SAINT status values.
 
 When SAINT is enabled, whenever a contact or project is created, a set of rows are added to the `countervalue` table. There is always a row in the `countervalue` table corresponding to follow-up, document, or sale. The respective counter rows in the `countervalue` table will be updated whenever a follow-up, document, or sale is created.
 

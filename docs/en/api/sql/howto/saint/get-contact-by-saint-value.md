@@ -5,7 +5,7 @@ description: How to search for a contact with a given saint value with raw SQL.
 keywords: sale, SAINT, API, SQL, countervalue
 author: digitaldiina
 date: 05.11.2026
-version: 10
+version: 11
 content_type: howto
 tier: growth
 redirect_from:

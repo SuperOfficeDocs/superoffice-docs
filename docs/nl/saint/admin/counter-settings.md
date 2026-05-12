@@ -19,7 +19,7 @@ redirect_from:
 
 # Tellers en tellerinstellingen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Een **teller** is een waarde zoals het aantal verkopen in een periode of de datum van de laatst voltooide verkoop. Tellers kunnen worden gebruikt als zoekcriteria om bedrijven, personen of projecten te vinden.
 

@@ -27,7 +27,7 @@ redirect_from:
 
 # Opdater aktivitetsovervågning
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Åbn SAINT-skærmbilledet
 

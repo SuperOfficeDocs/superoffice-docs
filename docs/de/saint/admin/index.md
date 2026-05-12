@@ -25,7 +25,7 @@ Bevor Sie SAINT implementieren, ist es wichtig zu wissen, was Sie verbessern mö
 * Alle Kunden in der SAINT-Auswahl anrufen
 * Alle Anfragen nachverfolgen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Mit der Registerkarte **Statuskontrollen/SAINT** können Sie Statusangaben für Firmen, Personen und Projekte erstellen. Statuskontrollen stellen die Funktionalität hinter dem SAINT-Konzept (Sales Intelligence) dar. Dies erleichtert die Folgeaufgaben für Firmen, Personen und Projekte und das Bereitstellen von sinnvolleren Suchoptionen in SuperOffice CRM.
 

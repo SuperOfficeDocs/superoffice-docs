@@ -27,7 +27,7 @@ redirect_from:
 
 # Update activity monitors
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Open the SAINT screen
 

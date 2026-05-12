@@ -19,7 +19,7 @@ redirect_from: /sv/admin/lists/learn/sale-amount-class
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-Listan **Försäljning - Beloppsklass** är en del av funktionen för statusövervakningen (SAINT), vilken kräver en **Sales Premium** eller **Service Premium** användarlicens.
+Listan **Försäljning - Beloppsklass** är en del av funktionen för statusövervakningen (SAINT), vilken kräver en **Sales Premium** eller **Service Premium** användarlicens eller **Growth**-planen.
 
 En beloppsklass för en försäljning kan användas för att dela in försäljningar i olika kategorier, till exempel små, medelstora, stora och mycket stora. Specificera beloppsintervall för olika beloppsklasser i den valuta som ditt företag använder (och andra valutor om det behövs). Beloppsklasserna kan användas för att söka efter viktiga förlorade försäljningar under en period.
 
