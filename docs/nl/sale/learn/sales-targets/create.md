@@ -3,8 +3,8 @@ uid: help-nl-sales-targets-create
 title: Verkooptargets instellen
 description: Houd uw budgetten bij door verkooptargets in te stellen. Dit helpt u om de juiste verwachtingen te scheppen, uw groei te plannen, de motivatie te vergroten en tijd te besparen.
 keywords: verkooptargets
-author: SuperOffice Product and Engineering
-date: 05.04.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.13
 content_type: howto
 license: salespremium
@@ -32,7 +32,7 @@ Het is optioneel om het bedrijfstarget toe te voegen en om gebruikersspecifieke 
 
 ## Vereisten
 
-Als u alleen een Sales Premium-licentie heeft, kunt u één groep toevoegen voor het targettype **Alle verkopen – Bedrag**. Om meer dan één gebruikersgroep toe te voegen, heeft u ook de licentie Unlimited sales targets nodig.
+Als u alleen een **Sales Premium**-licentie of het **Growth**-plan heeft, kunt u één groep toevoegen voor het targettype **Alle verkopen – Bedrag**. Om meer dan één gebruikersgroep toe te voegen, heeft u ook de licentie **Unlimited sales targets** of het **Super**-plan nodig.
 
 ## Voor u begint
 

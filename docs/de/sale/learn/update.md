@@ -3,12 +3,12 @@ uid: help-de-sale-update
 title: Einen Verkauf aktualisieren
 description: So aktualisieren Sie bestehende Verkaufsinformationen, ändern die Verkaufsstufe (einschließlich Markierung als pausiert, gewonnen oder verloren) oder löschen einen Verkauf, wenn er nicht mehr relevant ist.
 keywords: Verkauf aktualisieren, Verkauf bearbeiten, Verkauf löschen, pausiert, verloren, gewonnen, Verkauf
-author: Bergfrid Dias
-date: 01.13.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.8
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

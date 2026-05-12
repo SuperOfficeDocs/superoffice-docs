@@ -26,8 +26,7 @@ När en offert har godkänts kan du generera en order med ett klick och skicka d
 
 SuperOffice Quote stöder hela processen från offert till order. Det hjälper dig att leverera nya eller uppdaterade offerter snabbare och snabbar på övergången från lead till affär.
 
-> [!NOTE]
-> Denna funktion kräver användarplanen Sales Premium.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Offert-skärmbild som visar en offert -screenshot][img1]
 

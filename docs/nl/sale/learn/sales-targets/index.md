@@ -3,8 +3,8 @@ uid: help-nl-sales-targets
 title: Verkooptargets
 description: De mogelijkheid om uw verkoopkansen te volgen is een van de belangrijkste functionaliteiten in SuperOffice CRM. Met behulp van onze functies voor verkooptargets kunt u uw werkelijke verkopen vergelijken met uw targets.
 keywords: verkooptargets
-author: SuperOffice Product and Engineering
-date: 05.04.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.13
 content_type: concept
 license: salespremium
@@ -18,7 +18,7 @@ language: nl
 # Verkooptargets
 
 > [!NOTE]
-> Voor deze functie is de licentie Sales Premium vereist. Om nieuwe targettypen toe te kunnen voegen, moet u de Sales Targets unlimited hebben. Zie details hieronder.
+> Voor deze functie is een **Sales Premium**-licentie of het **Growth**-plan vereist. Om nieuwe targettypen toe te voegen, hebt u ook de **Sales Targets Unlimited**-licentie of het **Super**-plan nodig. Zie details hieronder.
 
 De mogelijkheid om uw verkoopkansen te volgen is een van de belangrijkste functionaliteiten in SuperOffice CRM. Met behulp van onze functies voor verkooptargets kunt u uw werkelijke verkopen vergelijken met uw targets.
 
@@ -48,7 +48,7 @@ De toegang tot targets wordt ingesteld door uw beheerder in Instellingen en onde
 
 ### Licenties
 
-De volgende functies zijn alleen beschikbaar met de Sales Targets Unlimited-licentie naast de Sales Premium-licentie:
+De volgende functies zijn alleen beschikbaar met een **Sales Premium**-licentie of het **Growth**-plan en de **Sales Targets Unlimited**-add-on, of het **Super**-plan:
 
 * Extra targettypen (dimensies) toevoegen
 * Targets maken voor meerdere groepen/teams

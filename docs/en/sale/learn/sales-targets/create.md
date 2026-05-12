@@ -3,8 +3,8 @@ uid: help-en-sales-targets-create
 title: Set up sales targets
 description: Keep track of your budgets by setting up sales targets. This will help you to set the right expectations, plan your growth, increase motivation and save time.
 keywords: sales targets
-author: SuperOffice Product and Engineering
-date: 05.04.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.13
 content_type: howto
 license: salespremium
@@ -32,7 +32,7 @@ It is optional to add the company target and to have user specific targets (go t
 
 ## Requirements
 
-If you only have a Sales Premium license, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the Unlimited sales targets license.
+If you only have a **Sales Premium** user plan or the **Growth** plan, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the **Unlimited sales targets** license or the **Super** plan.
 
 ## Before you start
 

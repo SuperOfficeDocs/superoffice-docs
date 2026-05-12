@@ -3,12 +3,12 @@ uid: help-de-working-with-sales-guide
 title: Beispiel – Verkaufsleitfaden
 description: Arbeiten mit einem Verkaufsleitfaden
 keywords: Verkaufsleitfaden, Beispiel
-author: SuperOffice RnD
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

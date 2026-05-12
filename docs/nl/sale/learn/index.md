@@ -3,12 +3,12 @@ uid: help-nl-sale
 title: Verkoop
 description: SuperOffice Sales helpt verkoopteams grip te hebben op hun verkooppijplijnen en -processen.
 keywords: scherm Verkoop, verkoopkaart, verkoopkansen, verkoop
-author: Bergfrid Dias
-date: 06.26.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.5
 content_type: concept
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -48,9 +48,9 @@ Elk tabblad heeft een specifieke functie, zodat verkoopinformatie georganiseerd 
 Het onderste deel van het scherm **Verkoop** bestaat uit sectietabbladen.
 
 * [Activiteiten][14]
-* [Verkoopgids][16] (vereist Sales Premium)
-* [Belanghebbenden][15] (vereist Sales Premium)
-* [Offerte][17] (vereist Sales Premium)
+* [Verkoopgids][16] (vereist **Sales Premium** of **Growth**-plan)
+* [Belanghebbenden][15] (vereist **Sales Premium** of **Growth**-plan)
+* [Offerte][17] (vereist **Sales Premium** of **Growth**-plan)
 
 [Verkoopgidsen][3] worden alleen weergegeven voor specifieke verkooptypen (gedefinieerd in Instellingen en onderhoud). Als u een verkooptype selecteert waarvoor een verkoopgids is gedefinieerd, wordt het tabblad **Verkoopgids** weergegeven.
 

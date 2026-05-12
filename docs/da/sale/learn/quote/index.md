@@ -26,8 +26,7 @@ Når et tilbud er accepteret, kan du generere en ordre med ét klik og sende den
 
 SuperOffice Quote understøtter hele tilbud-til-ordre-processen. Det hjælper dig med at levere nye eller opdaterede tilbud hurtigere og fremskynder overgangen fra lead til lukket aftale.
 
-> [!NOTE]
-> Denne funktion kræver brugerplanen Sales Premium.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Tilbud-skærmbillede, der viser et tilbud -screenshot][img1]
 

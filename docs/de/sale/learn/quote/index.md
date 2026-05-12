@@ -26,8 +26,7 @@ Nach Annahme eines Angebots können Sie mit einem Klick einen Auftrag generieren
 
 SuperOffice Quote unterstützt den gesamten Angebot-zu-Auftrag-Prozess. Es hilft Ihnen, neue oder aktualisierte Angebote schneller bereitzustellen und beschleunigt die Umwandlung von einem Lead in einen abgeschlossenen Verkauf.
 
-> [!NOTE]
-> Diese Funktion erfordert den Benutzerplan Sales Premium.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Angebots-Bildschirm mit einem Angebot -screenshot][img1]
 

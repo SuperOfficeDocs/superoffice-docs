@@ -3,12 +3,12 @@ uid: help-da-sale
 title: Salg
 description: SuperOffice Salg hjælper salgsteams med at bevare kontrollen over deres salgspipelines og processer.
 keywords: salg, salgskort, salgsskærmbillede, tilbud, kundeemne
-author: SuperOffice RnD
-date: 06.26.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.5
 content_type: concept
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -48,9 +48,9 @@ Hver fane tjener et specifikt formål og sikrer, at salgsinformationen er organi
 Den nederste del af skærmbilledet Salg består af detaljekort.
 
 * [Aktiviteter][14]
-* [Salgsguide][16] (kræver Sales Premium)
-* [Interessenter][15] (kræver Sales Premium)
-* [Tilbud][17] (kræver Sales Premium)
+* [Salgsguide][16] (kræver **Sales Premium** eller **Growth**-plan)
+* [Interessenter][15] (kræver **Sales Premium** eller **Growth**-plan)
+* [Tilbud][17] (kræver **Sales Premium** eller **Growth**-plan)
 
 [Salgsguider][3] vises kun for specifikke salgstyper (defineret i Indstillinger og vedligeholdelse). Hvis du vælger en salgstype med en salgsguide, vises detaljekortet **Salgsguide**.
 

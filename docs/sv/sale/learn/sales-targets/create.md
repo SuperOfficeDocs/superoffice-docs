@@ -3,8 +3,8 @@ uid: help-sv-sales-targets-create
 title: Ställ in försäljningsmål
 description: Håll koll på dina budgetar genom att ställa in försäljningsmål. Det hjälper dig att skapa rätt förväntningar, planera tillväxt, öka motivationen och spara tid.
 keywords: försäljningsmål
-author: SuperOffice Product and Engineering
-date: 05.04.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.13
 content_type: howto
 license: salespremium
@@ -32,7 +32,7 @@ Det är valfritt att lägga till företagets mål och att ha användarspecifika 
 
 ## Krav
 
-Om du bara har en Sales Premium-licens kan du lägga till en grupp för måltypen **Alla försäljningar – Belopp**. För att lägga till mer än en användargrupp behöver du även licensen *Obegränsade försäljningsmål*.
+Om du bara har en **Sales Premium**-licens eller **Growth**-planen kan du lägga till en grupp för måltypen **Alla försäljningar – Belopp**. För att lägga till mer än en användargrupp behöver du även licensen *Obegränsade försäljningsmål*.
 
 ## Innan du börjar
 

@@ -23,8 +23,7 @@ index: true
 
 Op het scherm **Offerte/Synchroniseren** onder Instellingen en onderhoud configureert u alles wat nodig is om offertes en orders mogelijk te maken in SuperOffice CRM.
 
-> [!NOTE]
-> Deze functie vereist het **Sales Premium** gebruikersplan.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Producten en prijslijsten
 

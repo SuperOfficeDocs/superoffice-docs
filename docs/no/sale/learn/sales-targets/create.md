@@ -3,8 +3,8 @@ uid: help-no-sales-targets-create
 title: Sett opp salgsmål
 description: Hold oversikt over budsjettene dine ved å sette opp salgsmål. Dette vil hjelpe deg med å fastsette de riktige forventningene, planlegge veksten din, øke motivasjonen og spare tid.
 keywords: salgsmål
-author: SuperOffice Product and Engineering
-date: 05.04.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.13
 content_type: howto
 license: salespremium
@@ -32,7 +32,7 @@ Det er valgfritt å legge til firmamålet og ha brukerspesifikke mål (gå til M
 
 ## Krav
 
-Hvis du bare har en Sales Premium-lisens, kan du legge til en gruppe for måltypen **Alle salg – beløp**. For å legge til mer enn en brukergruppe, trenger du også lisensen Unlimited sales targets.
+Hvis du bare har en **Sales Premium**-lisens eller **Growth**-planen, kan du legge til en gruppe for måltypen **Alle salg – beløp**. For å legge til mer enn en brukergruppe, trenger du også lisensen **Unlimited sales targets** eller **Super**-planen.
 
 ## Før du begynner
 

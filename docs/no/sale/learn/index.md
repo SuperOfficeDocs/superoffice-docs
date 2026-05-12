@@ -3,12 +3,12 @@ uid: help-no-sale
 title: Salg
 description: SuperOffice Salg hjelper salgsteam med å holde kontroll over salgspipeliner og -prosesser.
 keywords: salg, salgskort, salgsskjerm
-author: Bergfrid Dias
-date: 06.26.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.5
 content_type: concept
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -48,9 +48,9 @@ Hver fane har en spesifikk funksjon for å holde salgsinformasjonen organisert o
 Den nedre delen av Salg-bildet består av detaljkort.
 
 * [Aktiviteter][14]
-* [Salgsguide][16] (krever Sales Premium)
-* [Interessenter][15] (krever Sales Premium)
-* [Tilbud][17] (krever Sales Premium)
+* [Salgsguide][16] (krever **Sales Premium** eller **Growth**-plan)
+* [Interessenter][15] (krever **Sales Premium** eller **Growth**-plan)
+* [Tilbud][17] (krever **Sales Premium** eller **Growth**-plan)
 
 [Salgsguider][3] vises kun for spesifikke salgstyper (definert i Innstillinger og vedlikehold). Hvis du velger en salgstype med en definert salgsguide, vises detaljkortet **Salgsguide**.
 

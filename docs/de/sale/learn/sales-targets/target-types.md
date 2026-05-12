@@ -27,7 +27,7 @@ Standardmäßig enthält SuperOffice einen Zieltyp: **Alle Verkäufe – Betrag*
 Sie müssen das funktionale Recht **Targets administrator** haben, um Zieltypen hinzuzufügen, zu bearbeiten oder zu löschen.
 
 > [!NOTE]
-> Um Zieltypen hinzuzufügen, benötigen Sie die Unlimited Sales Targets-Lizenz zusätzlich zur Sales Premium-Lizenz.
+> Um Zieltypen hinzuzufügen, benötigen Sie eine **Sales Premium**-Lizenz oder den **Growth**-Plan und das **Sales Targets Unlimited**-Add-on oder den **Super**-Plan.
 
 ## Verfügbare Zieltypen
 
