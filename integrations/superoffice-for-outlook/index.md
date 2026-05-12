@@ -61,7 +61,7 @@ Everything you need is integrated into your inbox, making your workflow smoother
 ## How to install
 
 1. Head to our [App Store][11] and check out the **How to Install** tab.
-2. Follow the simple steps to enable the add-in – no download required.
+1. Follow the simple steps to enable the add-in – no download required.
 
 > [!NOTE]
 > You need an active Microsoft 365 subscription and a SuperOffice CRM Online account or SuperOffice onsite to connect the add-in.
