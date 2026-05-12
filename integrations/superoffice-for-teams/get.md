@@ -30,6 +30,9 @@ If your admin has uploaded and approved SuperOffice for Teams but hasn't pushed 
 
 You can come back to this dialog at any time to add SuperOffice for Teams to more channels.
 
+![SuperOffice for Teams app tile under Built for your organisation in the Teams app store][img1]
+
+![SuperOffice for Teams app tile under Built for your organisation in the Teams app store][img2]
 
 ### Add SuperOffice for Teams to a channel later
 
@@ -44,6 +47,7 @@ If you've already installed the app for your personal chats and want to add it t
 
 Once added, SuperOffice for Teams becomes available in the channel you previously selected.
 
+![SuperOffice for Teams dialog with a selected channel and Go button][img3]
 
 ## Already have the app?
 
@@ -57,6 +61,8 @@ If you installed it yourself from **Built for your org**, go to **Manage your ap
 
 If the app was pushed by your admin, you won't be able to remove it yourself. Teams will show a message saying you don't have permission. Contact your Microsoft 365 administrator if you have any questions.
 
+![Uninstall option for SuperOffice for Teams in the Teams app menu][img4]
+
 ## The SuperOffice for Teams bot and user sign-in
 
 SuperOffice for Teams uses a simple bot in Teams to help you sign in and out. It is not a general help chatbot.
@@ -65,14 +71,25 @@ SuperOffice for Teams uses a simple bot in Teams to help you sign in and out. It
 
 After the app is added, you can find SuperOffice for Teams from the **...** menu in the left app rail. Once you click it, you can pin it for easy access (right-click the icon and select **Pin**). Unpinning works the same way.
 
+![Pin option for the SuperOffice for Teams bot in the Teams app menu][img5]
+
 You can also access the bot chat from your chat list. If you lose your bot chat, start a new conversation by selecting the **New message** icon and typing **teams** in the **To:** box. Then select **SuperOffice for Teams** from your contact list.
 
 As soon as the app is installed, the bot automatically opens a conversation and invites you to get started. You don't need to go looking for it – it comes to you.
+The welcome message reads: 
 
-![The bot welcome message showing the Login and Help buttons][img3]
+"Hello [your name]. Welcome to SuperOffice for Teams! You can use the buttons below to log in, or choose Help if you want to know more." 
+
 
 ### What the bot does
 
 The bot handles sign-in and sign-out only. It won't answer general "how do I?" questions. In the bot chat, you'll see the following buttons:
 
 * **Login** – starts the Supe
+
+<!-- Referenced images -->
+[img1]: media/teams-app-store-built-for-your-org.png
+[img2]: media/teams-app-added-successfully-open-or-select-channel.png
+[img3]: media/teams-select-channel-and-go-dialog.png
+[img4]: media/teams-uninstall-superoffice-for-teams-app.png
+[img5]: media/teams-pin-superoffice-for-teams-bot.png
