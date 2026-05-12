@@ -84,9 +84,9 @@ The welcome message reads:
 
 The bot handles sign-in and sign-out only. It does not answer general "how do I?" questions.
 
-In the bot chat, you will see the available buttons, depending on your login status:
+In the bot chat, you will see the available buttons, depending on your sign in status:
 
-- **Login** - Starts the SuperOffice sign-in flow.
+- **Sign In** - Starts the SuperOffice sign-in flow.
 - **Logout** - Signs you out of SuperOffice for Teams.
 - **Help** - Shows a message with a link to the SuperOffice for Teams knowledge base and documentation.
 
@@ -94,7 +94,7 @@ In the bot chat, you will see the available buttons, depending on your login sta
 
 You must be signed in before you can archive anything.
 
-Open **SuperOffice for Teams** from the left rail to start your bot chat, then select **Login**.
+Open **SuperOffice for Teams** from the left rail to start your bot chat, then select **Sign In**.
 
 Signing in is a two-step process:
 
