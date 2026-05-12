@@ -18,7 +18,7 @@ Save your Microsoft Teams conversations and files straight into SuperOffice – 
 
 ## What is SuperOffice for Teams?
 
-SuperOffice for Teams connects your Microsoft Teams conversations with your CRM. Instead of searching through channels and chats to find what a customer said last week, you save the conversations and standard-channel files to SuperOffice, right where it belongs.
+SuperOffice for Teams connects your Microsoft Teams conversations with your CRM. Instead of searching through channels and chats to find what a customer said last week, you save the conversations and channel files to SuperOffice, right where it belongs.
 
 With SuperOffice for Teams, you can:
 
