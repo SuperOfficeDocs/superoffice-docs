@@ -3,7 +3,7 @@ uid: sofo-get
 title: Get the add-in
 description: How to install SuperOffice for Outlook for your account (1 user).
 keywords: SuperOffice for Outlook, Outlook, email, get add-in, SOFO
-author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko
+author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko, Andrea Schilde
 date: 05.05.2026
 version_sofo: 6.3.0
 content_type: howto
@@ -85,7 +85,7 @@ The location of add-ins is different in classic Outlook for Windows and the new 
 
 * In new Outlook for Window, select **Apps** from the action bar of an email.
 
-## Pin or unpin SuperOffice for Outlook
+## <a id="pin"></a>Pin or unpin SuperOffice for Outlook
 
 After installing the add-in, you can pin it for quick access. We recommend pinning it for easier use.
 
@@ -97,15 +97,15 @@ After installing the add-in, you can pin it for quick access. We recommend pinni
 
 * To unpin SuperOffice, select the **Pin** symbol again.
 
-
 ### Pin SuperOffice for Outlook while composing a new email
 
 You can also pin the SuperOffice for Outlook panel while composing a new email. This keeps the panel open while you prepare the message, so you can review or adjust SuperOffice archiving details before sending.
 
 1. Select **New mail** in Outlook.
-2. Open SuperOffice for Outlook.
-3. Select the **Pin** icon in the SuperOffice panel.
-4. The panel remains available while you compose the email.
+1. Open SuperOffice for Outlook.
+1. Select the **Pin** icon in the SuperOffice panel.
+
+    The panel remains available while you compose the email.
 
 ![SuperOffice for Outlook, pin add-in -screenshot][img2]
 
@@ -122,7 +122,7 @@ You can also pin the SuperOffice for Outlook panel while composing a new email. 
 ![SuperOffice for Outlook, remove add-in -screenshot][img4]
 
 > [!NOTE]
-> If you cannot see the **Remove** option, the SuperOffice for Outlook add-in is likely required and managed by your administrator.
+> If you do not see the **Remove** option, the SuperOffice for Outlook add-in is likely required and managed by your administrator.
 
 ## Related content
 
