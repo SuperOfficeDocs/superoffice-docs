@@ -3,18 +3,20 @@ uid: help-da-selection-combine
 title: Oprettelse af kombinationsudvalg
 description: I denne vejledning lærer du, hvordan du opretter et kombinationsudvalg.
 keywords: kombinere udvalg, kombinationsudvalg, udvalg, 
-author: Bergfrid Dias
-date: 03.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: starter
+tier: growth
 language: da
 redirect_from: /da/search-options/selection/learn/create/combine
 ---
 
 # Oprettelse af kombinationsudvalg
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 De to udvalg, der kombineres, kan være statiske eller dynamiske. Der er dog begrænsninger for, hvad der kan kombineres:
 

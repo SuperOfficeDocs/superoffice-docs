@@ -3,8 +3,8 @@ uid: help-de-selection
 title: Selektion
 description: Selektion
 keywords: Selektion
-author: Bergfrid Dias
-date: 03.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.3
 content_type: concept
 audience: person
@@ -52,6 +52,8 @@ Verwenden Sie eine dynamische Selektion, wenn Sie eine stets aktuelle Liste von 
 **Beispiel:** Eine Echtzeit-Liste aller offenen Verkaufschancen im aktuellen Quartal, die automatisch aktualisiert wird, wenn neue Deals erstellt werden.
 
 ### Kombinierte Selektionen
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 Eine kombinierte Selektion ist eine Kombination aus zwei vorhandenen Selektionen (statisch oder dynamisch). Sie kann Datensätze enthalten, die beiden Selektionen gemeinsam sind, sich unterscheiden, nur in einer der Selektionen vorhanden sind oder alle Datensätze aus beiden Selektionen umfassen.
 
@@ -137,7 +139,7 @@ Eine Selektion mit allen Verkäufen, die Sie im ersten Quartal abgeschlossen hab
 
 * Eine Selektion mit allen Folgeaufgaben für den aktuellen Monat zeigt Ihnen, welche Meetings geplant sind und ob Sie weitere ansetzen sollten.
 
-### Produkte (erfordert eine Sales Premium-Lizenz)
+### Produkte (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
 
 * Eine Liste aller Kunden, die ein bestimmtes Produkt oder eine bestimmte Produktkategorie erworben haben.
 

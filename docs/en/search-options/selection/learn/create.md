@@ -3,9 +3,9 @@ uid: help-en-selection-create
 title: Create selection
 description: Work with dynamic and static selections
 keywords: add selection, create selection, new selection, save as selection, selection
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: howto
 tier: starter
 audience: person
@@ -82,7 +82,7 @@ When you click this button, a copy of the selection is created, with the text (c
 
 * Check **Completed** to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
 
-* With **SAINT** enabled (requires Sales-Premium or Service-Premium), you can use [activity monitors][14] as criteria for creating dynamic selections. This allows you to get an overview of companies, contacts, or projects that meet specific status criteria. SAINT criteria are located under **Counters (SAINT)** in the [list of criteria][9] on the **Find** screen.
+* With **SAINT** enabled (requires a **Sales Premium** or **Service Premium** license or the **Growth** plan), you can use [activity monitors][14] as criteria for creating dynamic selections. This allows you to get an overview of companies, contacts, or projects that meet specific status criteria. SAINT criteria are located under **Counters (SAINT)** in the [list of criteria][9] on the **Find** screen.
 
 ## Related content
 
