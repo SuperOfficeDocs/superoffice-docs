@@ -3,8 +3,8 @@ uid: help-sv-erp-admin
 title: Hantera ERP-synkronisering
 description: Introduktion till att konfigurera synkronisering mellan SuperOffice CRM och externa ERP-system.
 keywords: ERP-flik, ERP-system, ERP-aktör, Sync Connector, ERP-koppling, synk, connector, anslutning, Offert/Synk-fönstret, ERP
-author: Bergfrid Dias
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: concept
 license: development-tools
@@ -20,7 +20,7 @@ index: true
 
 Fliken **Synk** i fönstret Offert/Synk under **Inställningar och underhåll** visar Sync Connectors och ERP-kopplingar som möjliggör integration mellan SuperOffice CRM och externa ERP-system.
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 ## Terminologi
 

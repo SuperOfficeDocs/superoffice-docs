@@ -3,9 +3,9 @@ uid: help-en-erp
 title: ERP
 description: ERP
 keywords: ERP tab, ERP system, ERP
-author: SuperOffice RnD
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: concept
 license: development-tools
 tier: growth
@@ -23,7 +23,7 @@ If your organization uses an ERP system that is connected to SuperOffice CRM, yo
 
 ## The ERP tab
 
-The **ERP** tab appears on the **Company**, **Contact**, and **Project** screens if your organization has a license for [Development Tools][1].
+The **ERP** tab appears on the **Company**, **Contact**, and **Project** screens if your organization has a **Development Tools** license or the **Growth** plan.
 
 Use the **ERP** tab to:
 
