@@ -22,8 +22,6 @@ SuperOffice for Teams didn't detect any files in the selected conversation. Make
 
 Click the **Open Chat** button to go to the bot chat, then click **Login**. If the Login button is missing, type **Login** or **Help** in the bot chat to trigger it.
 
-![The "You are not signed in" message with the "Open Chat" button][img1]
-
 ## "Action was forbidden. Make sure to add SuperOffice for Teams to the apps of the Team."
 
 SuperOffice for Teams has to be added to a team (channel) to work. If the application was not found in the team, this message is shown.
