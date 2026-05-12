@@ -3,12 +3,12 @@ uid: help-no-request-transfer
 title: Be en annen saksbehandler om hjelp
 description: Be en annen saksbehandler om hjelp
 keywords: overføre sak, tildele sak, endre sakseier, delegere, Egenskaper for sak, saksbehandler, sak
-author: Bergfrid Dias
-date: 02.04.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

@@ -3,14 +3,14 @@ uid: help-nl-reply-template-edit
 title: Antwoordsjablonen bewerken of verwijderen
 description: Leer hoe u antwoordsjablonen kunt bewerken of verwijderen in SuperOffice Service.
 keywords: sjabloon
-author: SuperOffice Product and Engineering
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

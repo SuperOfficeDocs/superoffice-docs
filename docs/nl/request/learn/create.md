@@ -4,11 +4,11 @@ title: Een verzoek maken
 description: Een verzoek maken
 keywords: verzoek aanmaken, verzoek toevoegen, nieuw verzoek, verzoek eigenschappen, verzoekdetails, bericht
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

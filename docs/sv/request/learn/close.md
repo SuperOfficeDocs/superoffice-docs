@@ -3,12 +3,12 @@ uid: help-sv-request-close
 title: Stänga ett ärende
 description: Så här stänger du ett eller flera ärenden i SuperOffice.
 keywords: stäng ärende, sätt status stängt, stängt, massuppdatering, ärende
-author: digitaldiina, kirstiaa
-date: 04.08.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.12
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

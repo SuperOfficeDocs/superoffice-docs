@@ -4,13 +4,13 @@ title: Ärenderelationer
 description: Lär dig hur du kan länka relaterade ärenden med hjälp av överordnade, underordnade och relaterade relationer för att bättre spåra och hantera sammankopplade problem i SuperOffice Service.
 keywords: ärenderelationer, länka ärenden, överordnat ärende, underordnat ärende, relaterade ärenden
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: howto
 category: service
 topic: request
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

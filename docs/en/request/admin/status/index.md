@@ -3,12 +3,12 @@ uid: help-en-request-status
 title: Request status
 description: Request status
 keywords: request status, Request status tab, request, status
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

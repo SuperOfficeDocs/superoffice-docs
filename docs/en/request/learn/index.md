@@ -4,11 +4,11 @@ title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
@@ -99,6 +99,10 @@ At the top of the **Messages** tab, you can send replies and forward messages, a
 The **Details** tab contains an overview of all the fields for the request.
 
 ### <a id="log"></a>Change log
+
+> [!NOTE]
+> The Change log requires a **Service Premium** license or the **Growth** plan.
+
 
 This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
 

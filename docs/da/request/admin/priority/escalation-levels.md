@@ -3,12 +3,12 @@ uid: help-da-request-escalation
 title: Eskaleringsniveauer
 description: Eskaleringsniveauer
 keywords: eskaleringsniveau, tilføj eskaleringsniveau, nyt niveau, eskalere, fanen Eskaleringsniveauer, sagsprioritet, sag, prioritet
-author: Hanne Gunnarsson
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
-license: serviceessentials
-tier: core
+license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

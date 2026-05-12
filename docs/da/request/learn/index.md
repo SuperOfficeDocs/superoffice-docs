@@ -4,11 +4,11 @@ title: Sager
 description: Introduktion til sager i SuperOffice
 keywords: sag, ticket, service
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -99,6 +99,10 @@ Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>
 Fanen **Detaljer** indeholder en oversigt over alle felter til sagen.
 
 ### <a id="log"></a>Ændringslog
+
+> [!NOTE]
+> Ændringslog kræver en **Service Premium**-licens eller **Growth**-planen.
+
 
 Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sagen med oplysninger om, hvornår de opstod, hvad der skete, og hvem der er ansvarlig.
 

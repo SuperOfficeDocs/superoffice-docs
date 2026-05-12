@@ -3,12 +3,12 @@ uid: help-da-system-templates
 title: Systemskabeloner
 description: Systemskabeloner
 keywords: fanen Systemskabeloner, sager, Foretrukne
-author: Hanne Gunnarsson
-date: 03.29.2023
+author: digitaldiina
+date: 05.11.2026
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: da
 redirect_from: /da/request/learn/screen/system-templates
 index: true

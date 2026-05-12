@@ -3,13 +3,13 @@ uid: help-sv-request-priority-create
 title: Skapa prioritet
 description: Skapa prioritet
 keywords: skapa ärendeprioritet, lägg till prioritet, ny prioritet, ärendeprioritet, Prioriteter-fliken, eskaleringshändelser, eskaleringskedja, ärende, prioritet
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: sv
 redirect_from: /sv/request/learn/priority/create
 index: true

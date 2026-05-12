@@ -3,12 +3,12 @@ uid: help-de-request-message-edit
 title: Nachricht bearbeiten
 description: Wie man eine Nachricht in einer Anfrage in SuperOffice bearbeitet
 keywords: Nachricht bearbeiten, Nachrichteneigenschaften aktualisieren, Nachrichteneigenschaften ändern, Nachricht bearbeiten, Nachricht aktualisieren, Anfrage
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service

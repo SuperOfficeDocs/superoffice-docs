@@ -3,12 +3,12 @@ uid: help-en-request-tags
 title: Using tags in requests
 description: Learn how to create and edit request tags in this how-to guide.
 keywords: tag request, add tag, remove tag, tagging, tag, request
-author: Bergfrid Dias
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

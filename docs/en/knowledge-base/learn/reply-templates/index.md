@@ -3,14 +3,14 @@ uid: help-en-reply-template
 title: Work with reply templates
 description: Work with reply templates
 keywords: view reply template, find reply template, reply template, ready-made text, knowledge base
-author: Bergfrid Dias
-date: 01.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: concept
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

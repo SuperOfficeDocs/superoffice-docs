@@ -3,14 +3,14 @@ uid: help-no-reply-template-create
 title: Opprette svarmaler
 description: Lær hvordan du oppretter en svarmal i denne veiledningen.
 keywords: opprett svarmal, ny svarmal, kopier svarmal, svarmalegenskaper, kunnskapsbase, svarmal, mal
-author: Bergfrid Dias
-date: 02.04.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

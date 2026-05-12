@@ -3,13 +3,13 @@ uid: help-sv-system-templates
 title: Systemmallar
 description: Systemmallar
 keywords: systemmallar, systemmallar-fliken, ärende
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: sv
 redirect_from: /sv/request/learn/screen/system-templates
 index: true

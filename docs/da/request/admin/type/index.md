@@ -21,7 +21,7 @@ index: true
 Alle sager, der er registreret i SuperOffice, har en type. Standardtypen er "Request". For at se, tilføje, opdatere og slette sagstyper, gå til **Indstillinger og vedligeholdelse**.
 
 > [!NOTE]
-> Denne funktion kræver en Service Premium brugerplan (til at oprette og opdatere sagstyper) og en Development Tools licens for at definere skærmlayouts baseret på sagstyper i Screen Designer.
+> Denne funktion kræver en **Service Premium**-licens eller **Growth**-planen. Hvis du vil definere skærmlayouts baseret på sagstyper i Screen Designer, skal du også have **Development Tools**-licensen.
 
 ## Hvorfor bruge sagstyper?
 

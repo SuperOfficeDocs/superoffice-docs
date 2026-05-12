@@ -4,11 +4,11 @@ title: Opret sagskategori
 description: Opret sagskategori
 keywords: tilføj sagskategori, opret sagskategori, ny sagskategori, sagskategori, fanen Kategorier, sag, kategori
 author: digitaldiina
-date: 03.25.2026
+date: 05.11.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

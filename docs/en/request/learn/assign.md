@@ -3,12 +3,12 @@ uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
 keywords: automatic assignment, assignment method, assign request, request
-author: Hanne Gunnarsson, Christian Mogensen, digitaldiina
-date: 03.25.2026
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

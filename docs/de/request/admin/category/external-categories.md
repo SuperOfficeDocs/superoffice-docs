@@ -4,7 +4,7 @@ title: Mit externen Kategorien arbeiten
 description: Mit externen Kategorien arbeiten
 keywords: externe Kategorie, Kundensprache
 author: digitaldiina
-date: 10.09.2025
+date: 05.11.2026
 version: 11.5
 content_type: howto
 category: localization
@@ -12,7 +12,7 @@ topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /de/admin/options/learn/custlang/external-categories
-tier: core
+tier: starter
 language: de
 index: true
 ---

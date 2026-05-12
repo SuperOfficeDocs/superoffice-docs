@@ -4,10 +4,10 @@ title: Work with external categories
 description: Work with external categories
 keywords: external category, customer language
 author: digitaldiina
-date: 10.09.2025
+date: 05.11.2026
 version: 11.5
 content_type: howto
-tier: core
+tier: starter
 category: localization
 topic: language
 audience: settings

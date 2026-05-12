@@ -3,12 +3,12 @@ uid: help-nl-request-category-delete
 title: Verzoekcategorie verwijderen
 description: Verzoekcategorie verwijderen
 keywords: verzoekcategorie, categorie, verwijderen
-author: Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl

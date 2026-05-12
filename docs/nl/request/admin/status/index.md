@@ -3,13 +3,13 @@ uid: help-nl-request-status
 title: Verzoekstatus
 description: Verzoekstatus
 keywords: verzoek, status, verzoekstatus, tabblad Verzoekstatus
-author: Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: nl
 redirect_from: /nl/request/learn/status/index
 index: true

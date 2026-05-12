@@ -4,11 +4,11 @@ title: Svar til person
 description: I denne veiledningen lærer du hvordan du svarer på alle innkommende saker i SuperOffice.
 keywords: svare på sak, svare, svar til alle, legge til melding, legge til kommentar, kommentar, intern, ekstern, sak
 author: digitaldiina
-date: 11.28.2025
+date: 05.11.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

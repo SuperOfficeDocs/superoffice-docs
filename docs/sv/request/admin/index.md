@@ -4,12 +4,12 @@ title: Systeminställningar
 description: Systeminställningar
 keywords: systeminställningar, service
 author: digitaldiina
-date: 05.04.2026
+date: 05.11.2026
 version: 11.13
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: sv
 redirect_from: /sv/request/learn/admin/index
 index: true

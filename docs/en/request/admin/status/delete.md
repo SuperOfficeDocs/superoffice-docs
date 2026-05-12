@@ -3,12 +3,12 @@ uid: help-en-request-status-delete
 title: Delete request status
 description: Delete request status
 keywords: delete request status, transfer request status to, request status, request, status
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

@@ -4,11 +4,11 @@ title: Tilldelningsmetoder
 description: Tilldelningsmetoder för ärenden
 keywords: automatisk tilldelning, tilldelningsmetod, tilldela ärende, ärende
 author: digitaldiina
-date: 03.25.2026
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

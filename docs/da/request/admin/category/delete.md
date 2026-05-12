@@ -3,12 +3,12 @@ uid: help-da-request-category-delete
 title: Slet kategori
 description: Slet kategori
 keywords: sag, kategori
-author: Bergfrid Dias
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

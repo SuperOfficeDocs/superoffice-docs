@@ -3,12 +3,12 @@ uid: help-da-request-priority
 title: Sagsprioriteter
 description: Sagsprioriteter i SuperOffice bruges til at angive vigtigheden af en sag og styre eventuelle eskaleringer.
 keywords: sag, prioritet
-author: Hanne Gunnarsson
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
