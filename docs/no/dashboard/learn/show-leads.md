@@ -4,14 +4,14 @@ title: Dashbord for leads
 description: Opprett dashbord for salgsleads for å spore og analysere ytelse, trender og produktivitet på tvers av alle leadaktiviteter.
 keywords: dashbord, leads, salg, UTM-data, leadfigur
 author: digitaldiina
-date: 11.18.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: sale
 topic: lead
 audience: person
 audience_tooltip: SuperOffice Sales
-tier: core
+tier: growth
 language: no
 ---
 
@@ -55,7 +55,7 @@ Disse figurene fremhever hvilke kilder som genererer kvalifiserte leads og hvilk
 
 ## Eksempler på figurer for overlevering til markedsføring
 
-Hvis du bruker UTM-sporing (krever Marketing Premium), gir flere figurer innsikt i kanal- og kampanjeytelse.
+Hvis du bruker UTM-sporing (krever **Marketing Premium** (eldre) eller **Growth**-planen), gir flere figurer innsikt i kanal- og kampanjeytelse.
 
 * **Nye leads etter leadopprettelseskilde YTD:** Viser hvilke kanaler som skaper nye leads, som Google, LinkedIn, Facebook, nyhetsbrev eller andre sporbare kilder.
 

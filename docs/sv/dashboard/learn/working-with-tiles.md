@@ -4,7 +4,7 @@ title: Arbeta med paneler
 description: Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM.
 keywords: dashboard, panel, lägga till panel, redigera panel, kopiera panel, ta bort panel, dataset, layout
 author: digitaldiina
-date: 11.21.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 audience: person
@@ -18,6 +18,8 @@ redirect_from:
 ---
 
 # Arbeta med paneler
+
+[!include[License requirement](../../includes/req-core.md)]
 
 Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM. Paneler är visuella sammanfattningar baserade på CRM-data – perfekta för att följa upp ärenden, försäljning, aktiviteter eller marknadsföringsresultat.
 

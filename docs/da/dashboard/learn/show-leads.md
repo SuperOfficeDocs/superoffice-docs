@@ -4,18 +4,20 @@ title: Dashboard for leads
 description: Opret dashboards til dine salgsleads for at spore og analysere deres performance, tendenser og produktivitet på tværs af alle leadaktiviteter.
 keywords: dashboard, leads, salg, UTM-data, leadrude
 author: digitaldiina
-date: 11.18.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: sale
 topic: lead
 audience: person
 audience_tooltip: SuperOffice Sales
-tier: core
+tier: growth
 language: da
 ---
 
 # Dashboard for leads
+
+[!include[License requirement](../../includes/req-growth.md)]
 
 Dashboards hjælper dig med at overvåge leadvolumen, købsmodenhed, oprindelse og konverteringstendenser. Ved at kombinere ruder, der viser hvor leads kommer fra, hvordan de udvikler sig, og hvordan de konverterer, kan du vurdere effektiviteten af dine marketing- og salgsaktiviteter.
 
@@ -55,7 +57,7 @@ Disse ruder fremhæver, hvilke kilder der genererer kvalificerede leads, og hvil
 
 ## Eksempler på ruder til marketingoverdragelse
 
-Hvis du bruger UTM-sporing (kræver Marketing Premium), hjælper yderligere ruder dig med at evaluere kanal- og kampagnepraestationer for leadanskaffelse.
+Hvis du bruger UTM-sporing (kræver **Marketing Premium** (ældre) eller **Growth**-planen), hjælper yderligere ruder dig med at evaluere kanal- og kampagnepraestationer for leadanskaffelse.
 
 * **Nye leads efter leadoprettelseskilde YTD:** Viser, hvilke kanaler der skaber nye leads, såsom Google, LinkedIn, Facebook, nyhedsbreve eller andre sporede kilder.
 

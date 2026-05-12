@@ -4,18 +4,20 @@ title: Dashboard für Leads
 description: Erstellen Sie Dashboards für Ihre Verkaufsleads, um Leistung, Trends und Produktivität über alle Leadaktivitäten hinweg zu verfolgen und zu analysieren.
 keywords: Dashboard, Leads, Verkauf, UTM-Daten, Leadkachel
 author: digitaldiina
-date: 11.18.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: sale
 topic: lead
 audience: person
 audience_tooltip: SuperOffice Sales
-tier: core
+tier: growth
 language: de
 ---
 
 # Dashboard für Leads
+
+[!include[License requirement](../../includes/req-growth.md)]
 
 Dashboards helfen Ihnen, Leadvolumen, Kaufbereitschaft, Herkunft und Konversionstrends zu überwachen. Durch die Kombination von Kacheln, die zeigen, woher Leads stammen, wie sie sich entwickeln und wie sie konvertieren, können Sie die Effektivität Ihrer Marketing- und Vertriebsaktivitäten bewerten.
 
@@ -55,7 +57,7 @@ Diese Kacheln zeigen, welche Quellen qualifizierte Leads liefern und welche zu V
 
 ## Beispielkacheln für Marketingübergabe
 
-Wenn Sie UTM-Tracking (erfordert Marketing Premium) verwenden, helfen zusätzliche Kacheln bei der Bewertung der Kanal- und Kampagnenleistung für die Leadakquise.
+Wenn Sie UTM-Tracking (erfordert **Marketing Premium** (Legacy) oder den **Growth**-Plan) verwenden, helfen zusätzliche Kacheln bei der Bewertung der Kanal- und Kampagnenleistung für die Leadakquise.
 
 * **Neue Leads nach Lead-Erstellungsquelle seit Jahresbeginn:** Zeigt, welche Kanäle neue Leads generieren, wie z. B. Google, LinkedIn, Facebook, Newsletter oder andere nachverfolgbare Quellen.
 

@@ -4,18 +4,20 @@ title: Dashboard voor leads
 description: Maak dashboards voor uw salesleads om prestaties, trends en productiviteit over alle leadactiviteiten te volgen en te analyseren.
 keywords: dashboard, leads, sales, UTM-gegevens, leadtegel
 author: digitaldiina
-date: 11.18.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: sale
 topic: lead
 audience: person
 audience_tooltip: SuperOffice Sales
-tier: core
+tier: growth
 language: nl
 ---
 
 # Dashboard voor leads
+
+[!include[License requirement](../../includes/req-growth.md)]
 
 Dashboards helpen u bij het monitoren van leadvolume, koopbereidheid, herkomst en conversietrends. Door tegels te combineren die laten zien waar leads vandaan komen, hoe ze voortschrijden en hoe ze converteren, kunt u de effectiviteit van uw marketing- en salesactiviteiten evalueren.
 
@@ -55,7 +57,7 @@ Deze tegels benadrukken welke bronnen gekwalificeerde leads genereren en welke l
 
 ## Voorbeelden van tegels voor marketingoverdracht
 
-Als u UTM-tracking gebruikt (vereist Marketing Premium), helpen extra tegels u bij het evalueren van kanaal- en campagneprestaties voor leadacquisitie.
+Als u UTM-tracking gebruikt (vereist **Marketing Premium** (verouderd) of het **Growth**-plan), helpen extra tegels u bij het evalueren van kanaal- en campagneprestaties voor leadacquisitie.
 
 * **Nieuwe leads per leadcreatiebron YTD:** Toont welke kanalen nieuwe leads creëren, zoals Google, LinkedIn, Facebook, nieuwsbrieven of andere getraceerde bronnen.
 

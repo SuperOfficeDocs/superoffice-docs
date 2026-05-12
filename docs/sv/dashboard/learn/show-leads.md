@@ -4,18 +4,20 @@ title: Dashboard för leads
 description: Skapa dashboards för dina säljsleads för att spåra och analysera deras resultat, trender och produktivitet över alla leadaktiviteter.
 keywords: dashboard, leads, försäljning, UTM-data, leadpanel
 author: digitaldiina
-date: 11.18.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: sale
 topic: lead
 audience: person
 audience_tooltip: SuperOffice Sales
-tier: core
+tier: growth
 language: sv
 ---
 
 # Dashboard för leads
+
+[!include[License requirement](../../includes/req-growth.md)]
 
 Dashboards hjälper dig att övervaka leadvolym, köpmognad, källor och konverteringstrender. Genom att kombinera paneler som visar var leads kommer från, hur de utvecklas och hur de konverterar kan du utvärdera effekten av dina marknads- och säljaktiviteter.
 
@@ -55,7 +57,7 @@ Dessa paneler belyser vilka källor som genererar kvalificerade leads och vilka 
 
 ## Exempel på paneler för marknadsöverlämning
 
-Om du använder UTM-spårning (kräver Marketing Premium) hjälper ytterligare paneler dig att utvärdera kanal- och kampanjprestanda för leadanskaffning.
+Om du använder UTM-spårning (kräver **Marketing Premium** (äldre) eller **Growth**-planen) hjälper ytterligare paneler dig att utvärdera kanal- och kampanjprestanda för leadanskaffning.
 
 * **Nya leads per leadskapandekälla YTD:** Visar vilka kanaler som skapar nya leads, såsom Google, LinkedIn, Facebook, nyhetsbrev eller andra spårade källor.
 

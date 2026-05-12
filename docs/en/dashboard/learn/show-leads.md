@@ -4,10 +4,10 @@ title: Dashboard for leads
 description: Create dashboards for your sales leads to track and analyze their performance, trends and productivity across all lead activities.
 keywords: dashboard, leads, sales, UTM data, lead tile
 author: digitaldiina
-date: 11.18.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
-tier: core
+tier: growth
 category: sale
 topic: lead
 audience: person
@@ -16,6 +16,8 @@ language: en
 ---
 
 # Dashboard for leads
+
+[!include[License requirement](../../includes/req-growth.md)]
 
 Dashboards help you monitor lead volume, readiness, origin, and conversion trends. By combining tiles that show where leads come from, how they progress, and how they convert, you can evaluate the effectiveness of your marketing and sales activities.
 
@@ -55,7 +57,7 @@ These tiles highlight which sources generate qualified leads and which result in
 
 ## Example tiles for marketing handover
 
-If you use UTM tracking (requires Marketing Premium), additional tiles help you evaluate channel and campaign performance for lead acquisition.
+If you use UTM tracking (requires **Marketing Premium** (legacy) or the **Growth** plan), additional tiles help you evaluate channel and campaign performance for lead acquisition.
 
 * **New leads by lead creation source YTD:** Shows which channels create new leads, such as Google, LinkedIn, Facebook, newsletters, or other tracked sources.
 
