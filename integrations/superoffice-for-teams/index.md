@@ -76,4 +76,4 @@ A **guest** is an external user who has been invited to your team. Guests have a
 [7]: preferences.md
 [8]: security.md
 [9]: troubleshooting.md
-[10]: known-limitations.md
+[10]: limitations.md
