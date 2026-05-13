@@ -3,7 +3,7 @@ uid: teams-ai-summary
 title: AI summaries in SuperOffice for Teams
 description: How to generate and review an AI summary of a Teams conversation when archiving to SuperOffice.
 keywords: SuperOffice for Teams, Teams, AI, summary, AI Labs
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: howto
