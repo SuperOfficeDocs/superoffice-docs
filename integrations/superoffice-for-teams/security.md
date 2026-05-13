@@ -5,14 +5,13 @@ description: Microsoft Graph permissions requested by SuperOffice for Teams and 
 keywords: SuperOffice for Teams, Teams, permissions, security, Microsoft Graph, privacy
 author: schildea
 date: 07.05.2026
-version:
 content_type: reference
 category: integration
 topic: SuperOffice for Teams
 language: en
 ---
 
-# Permissions and security
+# Permissions and security in SuperOffice for Teams
 
 SuperOffice for Teams requests a limited set of Microsoft Graph permissions, following the principle of least privilege. Permissions are delegated, which means SuperOffice for Teams cannot access data autonomously. The app only asks for the minimum access it needs:
 
