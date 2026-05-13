@@ -57,6 +57,8 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 See all the [new or updated apps][2]
 
+* [Unimicro by Syncify][60] from Syncify AB (08.05.2026)
+* [SuperNotes][41] from SuperOffice AS (04.05.2026)
 * [Business NXT by Syncify][37] from Syncify AB (21.04.2026)
 * [ConnectERP for Business NXT][17] from SuperOffice AS (21.04.2026)
 * [ConnectERP for Fortnox][44] from SuperOffice AS (21.04.2026)
@@ -78,7 +80,6 @@ See all the [new or updated apps][2]
 * [SharePoint Documents][46] from SuperOffice AS (19.03.2026)
 * [DataBridge for SuperOffice][45] from SuperOffice AS (16.03.2026)
 * [Oneflow for SuperOffice][33] from Oneflow AB (04.03.2026)
-* [SuperNotes][41] from SuperOffice AS (04.02.2026)
 * [LeadX 360 AI][42] from LeadX Software GmbH (01.02.2026)
 * [Fortnox by Syncify][36] from Syncify AB (18.12.2025)
 * [Microsoft Business Central by Syncify][38] from Syncify AB (18.12.2025)
@@ -130,5 +131,6 @@ See all the [new or updated apps][2]
 [57]: https://appstore.superoffice.com/syncify-ab/poweroffice-by-syncify
 [58]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify
 [59]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=WebTools_MailLink_13.1.61
+[60]: https://appstore.superoffice.com/syncify-ab/unimicro-by-syncify
 
 <!-- Referenced images -->

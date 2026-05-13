@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [FEATURE (12.1)][1]
+* [Request relations - better control and overview (11.12)][0]
 
 <!-- Referenced links-->
-[1]: 12.1-update.md
+[0]: 12.0-update.md
