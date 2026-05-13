@@ -27,7 +27,7 @@ Use this when you want to capture a specific point in the conversation – a key
 1. Fill in the details to connect the archive to the right record in SuperOffice (see below).
 1. Click **Create**.
 
-![The right-click context menu on a Teams message, with the "SuperOffice for Teams" option highlighted][img1]
+![The right-click context menu on a Teams message, with the "SuperOffice for Teams" option highlighted -screenshot][img1]
 
 ## Option B – Start from the compose bar
 
@@ -44,7 +44,7 @@ Use this when you want to archive a range of messages – like Today, Yesterday,
 > [!NOTE]
 > Starting apps from the compose bar is blocked in direct chats with external users. You can still launch SuperOffice for Teams from the message menu if both users are managed by an organization.
 
-![The compose bar area with the "+" (apps) icon expanded, showing SuperOffice for Teams in the app picker][img2]
+![The compose bar area with the "+" (apps) icon expanded, showing SuperOffice for Teams in the app picker -screenshot][img2]
 
 ## Choosing what to include
 
@@ -65,11 +65,11 @@ Whether you're saving a chat or a file, you'll fill in a few details so the arch
 * **Document template (Type):** Choose the document template your organization has set up for Teams conversations or files.
 * **Completed:** Check this to mark the activity as completed in SuperOffice. If unchecked, it appears in your open activities.
 
-![The archive form showing title, contact, sale, project, template, and options fields][img3]
+![The archive form showing title, contact, sale, project, template, and options fields -screenshot][img3]
 
 When you're ready, click **Create**. After a successful save, SuperOffice for Teams shows an **Open in SuperOffice** link so you can jump straight to the new document.
 
-![The successfully archived chat confirmation with the Open in SuperOffice button][img4]
+![The successfully archived chat confirmation with the Open in SuperOffice button -screenshot][img4]
 
 <!-- Referenced links -->
 [1]: index.md
