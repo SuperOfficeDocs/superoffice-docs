@@ -5,14 +5,13 @@ description: How to register your tenant, upload the app package, grant admin co
 keywords: SuperOffice for Teams, Teams, deploy, admin, tenant registration, admin consent, setup policy
 author: schildea
 date: 07.05.2026
-version:
 content_type: howto
 category: integration
 topic: SuperOffice for Teams
 language: en
 ---
 
-# Getting started (for administrators)
+# Deploy SuperOffice for Teams
 
 These steps are done once per tenant by a Microsoft 365 or SuperOffice administrator.
 
@@ -26,10 +25,10 @@ Before users can archive content to SuperOffice, an administrator must register 
 To register the tenant:
 
 1. Go to the SuperOffice for Teams portal: [https://superofficeforteams.superofficeapps.com][1]
-2. Sign in with your SuperOffice account.
-3. Select the tenant you want to register.
-4. Accept the terms and privacy policy.
-5. Save the settings.
+1. Sign in with your SuperOffice account.
+1. Select the tenant you want to register.
+1. Accept the terms and privacy policy.
+1. Save the settings.
 
 After saving, you will be redirected to the main page. Scroll down to download the Teams app package (.zip file). You will need this file in the next step when uploading the app in the Teams admin center during the pilot.
 
@@ -42,9 +41,9 @@ During the pilot, the administrator uploads the SuperOffice for Teams app packag
 To upload the app during the pilot:
 
 1. Go to the Teams admin center: [https://admin.teams.microsoft.com/policies/manage-apps][2]
-2. Click **Actions** in the top right corner.
-3. Select **Upload new app**.
-4. Upload the SuperOffice for Teams app package (.zip file).
+1. Click **Actions** in the top right corner.
+1. Select **Upload new app**.
+1. Upload the SuperOffice for Teams app package (.zip file).
 
 ## Step 3 – Grant admin consent
 
@@ -53,11 +52,11 @@ After uploading the app, the administrator must grant admin consent in the Teams
 To grant admin consent:
 
 1. Go to the Teams admin center.
-2. Open **Teams apps > Manage apps**.
-3. Find and open **SuperOffice for Teams**.
-4. Go to the **Permissions** tab.
-5. Click the **Grant admin consent** link in the information message.
-6. Follow the Microsoft consent flow to approve the requested permissions.
+1. Open **Teams apps > Manage apps**.
+1. Find and open **SuperOffice for Teams**.
+1. Go to the **Permissions** tab.
+1. Click the **Grant admin consent** link in the information message.
+1. Follow the Microsoft consent flow to approve the requested permissions.
 
 > [!NOTE]
 > If admin consent is not granted at this stage, each individual user will need to request consent from the administrator when they first try to sign in. Granting consent during setup helps avoid extra approval steps for users later.
@@ -74,11 +73,11 @@ If you want the app to be ready for users without requiring them to install it t
 To push the app to users:
 
 1. Go to the Teams admin center.
-2. Open **Teams apps > Setup policies**.
-3. Select an existing policy or create a new one.
-4. Add **SuperOffice for Teams** under **Installed apps**.
-5. Optional: Pin the app to the app bar so users can find it more easily.
-6. Save and apply the policy to the relevant users.
+1. Open **Teams apps > Setup policies**.
+1. Select an existing policy or create a new one.
+1. Add **SuperOffice for Teams** under **Installed apps**.
+1. Optional: Pin the app to the app bar so users can find it more easily.
+1. Save and apply the policy to the relevant users.
 
 Keep in mind that apps installed this way are managed by the administrator. Users will not be able to remove the app themselves. Only an administrator can uninstall it or remove it from the setup policy.
 
