@@ -24,7 +24,7 @@ The summary is added to the **Description** field of the SuperOffice document. T
 
 Summaries currently use neutral, professional business language and are returned as a single block of text.
 
-![The Preview screen showing an AI-generated summary in the editable text area, before the user clicks Create][img1]
+![The Preview screen showing an AI-generated summary in the editable text area, before the user clicks Create -screenshot][img1]
 
 > [!NOTE]
 > If **Generate Summary** is unavailable, AI Labs is not activated for your SuperOffice tenant. Contact your SuperOffice administrator.
