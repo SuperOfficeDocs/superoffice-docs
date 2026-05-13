@@ -32,7 +32,7 @@ There is a file size limit of 94 MB.
 
 ## Choosing where it goes in SuperOffice
 
-Whether you're saving a chat or a file, you'll fill in a few details so the archive lands in the right place. See [Archive a conversation][1] for a full description of these fields.
+Whether you're saving a chat or a file, you'll fill in a few details so the archive lands in the correct place. See [Archive a conversation][1] for a full description of these fields.
 
 <!-- Referenced links -->
 [1]: archive-conversation.md
