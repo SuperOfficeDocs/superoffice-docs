@@ -3,7 +3,7 @@ uid: teams-deploy
 title: Deploy SuperOffice for Teams
 description: How to register your tenant, upload the app package, grant admin consent, and optionally push the app to users.
 keywords: SuperOffice for Teams, Teams, deploy, admin, tenant registration, admin consent, setup policy
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: howto
