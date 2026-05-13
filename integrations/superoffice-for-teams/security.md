@@ -3,7 +3,7 @@ uid: teams-security
 title: Permissions and security in SuperOffice for Teams
 description: Microsoft Graph permissions requested by SuperOffice for Teams and how they are used.
 keywords: SuperOffice for Teams, Teams, permissions, security, Microsoft Graph, privacy
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: reference
