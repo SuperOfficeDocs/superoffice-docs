@@ -3,7 +3,7 @@ uid: teams-archive-conversation
 title: Archive a Teams conversation
 description: How to save Teams chat messages and channel conversations to SuperOffice.
 keywords: SuperOffice for Teams, Teams, archive, save chat, conversation, messages
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: howto
