@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice Integrations
 keywords: integration, app, appstore
 author: kirstiaa
-date: 04.28.2026
+date: 05.26.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -29,15 +29,26 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 [Current released versions][6]
 
-* [ConnectERP][6] 156.0 (13.04.2026)
-* [DataBridge][6] 156.0 (13.04.2026)
+* [Activty folder][6] x.0 (?.2026)
+* [ConnectERP][6] 157.0 (11.05.2026)
+* [DataBridge][6] 157.0 (11.05.2026)
+* [Document viewer][6] x.0 (?.2026)
 * [Panels][6] 70.0 (14.04.2026)
+* [Places][6] x.0 (?.2026)
 * [SharePoint Documents][25] 3.7 (16.04.2026)
-* [SuperOffice Copilot][27] 1.9 (11.09.2025)
+* [Slack Notify][6] x.0 (?.2026)
+* [SuperOffice Copilot][27] 1.11 (17.09.2025)
 * [SuperOffice for Gmail][24] 3.0 (24.02.2026)
-* [SuperOffice for Outlook][23] 6.2.0 (22.04.2026)
-* [Synchronizer][6] 121.0 (21.04.2026)
-* [Video Meetings][22] 2.11 (16.03.2026)
+* [SuperOffice for Mailchimp][6] x.0 (?.2026)
+* [SuperOffice for Outlook][23] 6.3.0 (11.05.2026)
+* [SuperOffice for Teams][6] x.0 (?.2026)
+* [SuperOffice for Trello][6] x.0 (?.2026)
+* [SuperOffice for Wordpress][6] x.0 (?.2026)
+* [SuperOffice MailLink][59] 13.1.61 (30.01.2026)
+* [Synchronizer][6] 122.0 (11.05.2026)
+* [Teams Notify][6] x.0 (?.2026)
+* [Video Meetings][22] 2.12 (29.04.2026)
+* [Webex Notify][6] x.0 (?.2026)
 * [WebTools for Mac][21] 13.2 (30.11.2025)
 * [WebTools for Windows][21] 13.2.3 (08.04.2026)
 * [Zapier][20] 3.5.7 (16.5.2026)
@@ -88,7 +99,7 @@ See all the [new or updated apps][2]
 [21]: ../../integrations/webtools/index.md
 [22]: ../../integrations/video-meetings/index.md
 [23]: ../../integrations/superoffice-for-outlook/index.md
-[24]: ../../integrations/gmail-link/index.md
+[24]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_for_Gmail_3.0
 [25]: ../../integrations/sharepoint-documents/index.md
 [26]: ../../integrations/index.yml
 [27]: ../../docs/en/ai/learn/copilot.md
@@ -118,5 +129,6 @@ See all the [new or updated apps][2]
 [56]: https://appstore.superoffice.com/syncify-ab/e-conomic-by-syncify
 [57]: https://appstore.superoffice.com/syncify-ab/poweroffice-by-syncify
 [58]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify
+[59]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=WebTools_MailLink_13.1.61
 
 <!-- Referenced images -->

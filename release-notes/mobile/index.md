@@ -21,7 +21,8 @@ audience_tooltip: SuperOffice Mobile CRM
 ## Version 11.1
 
 * [Requests - Reply to a single message (11.1.12)][46]
-* [Activate biometric login for Mobile CRM (11.1.12)][46]
+* [Move the + button (New button) (11.1.12)][46]
+* [Biometric login for Mobile CRM (11.1.12)][46]
 * [Request - Summarize messages (11.1.10)][45]
 * [Company - Indicators for country and stop (11.1.9)][44]
 * [Lead categorization - Automatic update of category on sale sold or lost (11.1.9)][44]
