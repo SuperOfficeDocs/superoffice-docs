@@ -3,7 +3,7 @@ uid: teams-get
 title: Get SuperOffice for Teams
 description: How to install SuperOffice for Teams, find the bot, and sign in as a user.
 keywords: SuperOffice for Teams, Teams, install, sign in, bot, user
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: howto
