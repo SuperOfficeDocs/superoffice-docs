@@ -3,16 +3,15 @@ uid: teams-troubleshooting
 title: Troubleshooting SuperOffice for Teams
 description: Solutions to common issues in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, troubleshooting, errors, sign-in, consent
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
-version:
 content_type: troubleshooting
 category: integration
 topic: SuperOffice for Teams
 language: en
 ---
 
-# Troubleshooting
+# Troubleshooting SuperOffice for Teams
 
 ## "Save files" button is disabled
 
@@ -33,7 +32,6 @@ Teams blocks app usage in certain contexts, including private channels, shared c
 SuperOffice for Teams can also be hidden from the message menu when a message was sent as a reply to both a thread and the channel. If you right-click that message from the channel view, SuperOffice for Teams may not appear. This happens because the message is technically stored as a child message in the thread, not as a standalone channel message.
 
 To use SuperOffice for Teams in this case, open the thread and right-click the message from inside the thread instead.
-
 
 ## Consent or permission errors
 
