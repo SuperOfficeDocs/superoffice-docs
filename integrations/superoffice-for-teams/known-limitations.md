@@ -3,7 +3,7 @@ uid: teams-known-limitations
 title: Known limitations in SuperOffice for Teams
 description: Current known limitations in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, limitations, known issues
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: reference
