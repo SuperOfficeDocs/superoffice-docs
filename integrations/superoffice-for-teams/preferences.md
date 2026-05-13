@@ -25,7 +25,7 @@ Click the **Preferences** button in the bottom-left of the pop-up window to acce
 * Mark as completed by default.
 * Generate AI summary by default (requires AI Labs).
 
-![The Preferences screen showing all available default settings][img1]
+![The Preferences screen showing all available default settings -screenshot][img1]
 
 <!-- Referenced links -->
 
