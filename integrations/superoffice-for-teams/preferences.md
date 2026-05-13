@@ -5,14 +5,13 @@ description: How to set your default archiving options in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, preferences, defaults, settings
 author: schildea
 date: 07.05.2026
-version:
 content_type: reference
 category: integration
 topic: SuperOffice for Teams
 language: en
 ---
 
-# Setting your preferences
+# Preferences in SuperOffice for Teams
 
 Each user can set default options that prefill the archive forms. You can always change them per save.
 
