@@ -3,7 +3,7 @@ uid: teams-overview
 title: SuperOffice for Teams
 description: Save Microsoft Teams conversations and files straight into SuperOffice – so important customer chats don't get lost.
 keywords: SuperOffice for Teams, Teams, Microsoft Teams, archive, chat, integration
-author: Andrea Schilde
+author: schildea
 date: 07.05.2026
 version:
 content_type: overview
