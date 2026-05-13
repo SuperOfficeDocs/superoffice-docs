@@ -5,7 +5,6 @@ description: Save Microsoft Teams conversations and files straight into SuperOff
 keywords: SuperOffice for Teams, Teams, Microsoft Teams, archive, chat, integration
 author: schildea
 date: 07.05.2026
-version:
 content_type: overview
 category: integration
 topic: SuperOffice for Teams
@@ -52,4 +51,29 @@ A **managed user** has a Teams account provided by an organization, such as anna
 A **guest** is an external user who has been invited to your team. Guests have a "Guest" banner next to their name. Because guests are formally invited through your organization's tenant, SuperOffice for Teams can work with them in standard channels.
 
 > [!NOTE]
-> File archi
+> File archiving is only available in standard channels. SuperOffice for Teams disables file uploading and attaching in chat contexts.
+
+## Related topics
+
+* [Requirements][1]
+* [Deploy SuperOffice for Teams (administrators)][2]
+* [Get SuperOffice for Teams (users)][3]
+* [Archive a conversation][4]
+* [Save a file from a channel][5]
+* [AI summaries][6]
+* [Preferences][7]
+* [Permissions and security][8]
+* [Troubleshooting][9]
+* [Known limitations][10]
+
+<!-- Referenced links -->
+[1]: requirements.md
+[2]: deploy.md
+[3]: get.md
+[4]: archive-conversation.md
+[5]: archive-file.md
+[6]: ai-summary.md
+[7]: preferences.md
+[8]: security.md
+[9]: troubleshooting.md
+[10]: known-limitations.md
