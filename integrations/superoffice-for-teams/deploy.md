@@ -32,7 +32,7 @@ To register the tenant:
 
 After saving, you will be redirected to the main page. Scroll down to download the Teams app package (.zip file). You will need this file in the next step when uploading the app in the Teams admin center during the pilot.
 
-![SuperOffice for Teams portal showing the Get Started section and Download Teams app button][img1]
+![SuperOffice for Teams portal showing the Get Started section and Download Teams app button -screenshot][img1]
 
 ## Step 2 – Upload the app in the Teams admin center
 
@@ -40,7 +40,7 @@ During the pilot, the administrator uploads the SuperOffice for Teams app packag
 
 To upload the app during the pilot:
 
-1. Go to the Teams admin center: [https://admin.teams.microsoft.com/policies/manage-apps][2]
+1. Go to the Teams admin center: [https://admin.teams.microsoft.com/policies/manage-apps -screenshot][2]
 1. Click **Actions** in the top right corner.
 1. Select **Upload new app**.
 1. Upload the SuperOffice for Teams app package (.zip file).
