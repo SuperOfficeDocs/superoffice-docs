@@ -1,10 +1,11 @@
 ---
-title: SOAP
 uid: soap
+title: SOAP
 description: SuperOffice SOAP API endpoints
-author: Bergfrid Dias
-date: 12.02.2021
 keywords: API, web services, endpoints, SOAP, Agents, Services88
+author: digitaldiina
+date: 05.13.2026
+version: 11
 content_type: concept
 redirect_from: /en/api/netserver/web-services/endpoints/soap/index
 ---
@@ -15,17 +16,9 @@ Simple Object Access Protocol (SOAP) is a simple XML-based messaging protocol us
 
 Earlier versions of NetServer (ca. 7.0) used versioning to ensure that an applications targeting a specific API version would continue to work without issue til the end of time.
 
-As newer versions came out, each one needed a complete set of mapping strategies for older versions. It just became a lot of technical debt. Around 2020 SuperOffice decided to discard all versions older than Services84, with the introduction access token support.
+As newer versions came out, each one needed a complete set of mapping strategies for older versions. It just became a lot of technical debt. Around 2020 SuperOffice decided to discard all versions older than Services84, with the introduction of access token support.
 
-NetServer service API's only add functionality, so anyone transitioning from older versions would have minimal changes, depending on their choice of tooling, code generation and proxies.
-
-Today we support the following versioned services:
-
-* [Services88][1]
-* [Services87][2]
-* [Services86][3]
-* [Services85][4]
-* [Services84][5]
+NetServer service API's only add functionality, so anyone transitioning from older versions would have minimal changes, depending on their choice of tooling, code generation and proxies. [Services84 through Services87][8] remain supported but are no longer actively maintained or documented. We only publish and update documentation for [Services88][5].
 
 > [!NOTE]
 > The above services do not contain [SuperOffice Customer Service SOAP APIs][6] (customer, admin, and ticket).
@@ -167,10 +160,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 
 <!-- Referenced links -->
 [1]: ../../../entities/index.md
-[2]: ../../../reference/soap/Services87/index.md
-[3]: ../../../reference/soap/Services86/index.md
-[4]: ../../../reference/soap/Services85/index.md
-[5]: ../../../reference/soap/Services84/index.md
+[5]: ../../../reference/soap/Services88/index.md
 [6]: ../../../reference/soap/customer-service/index.md
 [7]: ../../proxies/index.md#soap-client-proxy
 [8]: ../../../reference/soap/index.md
