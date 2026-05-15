@@ -57,6 +57,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 See all the [new or updated apps][2]
 
+* [Lyyti & SuperOffice integration][61] from Lyyti (16.03.2026)
 * [Unimicro by Syncify][60] from Syncify AB (08.05.2026)
 * [SuperNotes][41] from SuperOffice AS (04.05.2026)
 * [Business NXT by Syncify][37] from Syncify AB (21.04.2026)
@@ -132,5 +133,6 @@ See all the [new or updated apps][2]
 [58]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify
 [59]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=WebTools_MailLink_13.1.61
 [60]: https://appstore.superoffice.com/syncify-ab/unimicro-by-syncify
+[61]: https://appstore.superoffice.com/lyyti/lyyti-superoffice-integration
 
 <!-- Referenced images -->
