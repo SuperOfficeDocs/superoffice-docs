@@ -4,7 +4,7 @@ title: What's new in SuperOffice for Outlook
 description: Release notes for the SuperOffice for Outlook integration.
 keywords: Outlook add-in, sofo
 author: SuperOffice AS – Product and Engineering
-date: 01.21.2025
+date: 05.11.2026
 version: 6.0
 content_type: release-note
 category: email
@@ -26,18 +26,24 @@ redirect_from:
 
 # What's new in SuperOffice for Outlook
 
-* [SuperOffice for Outlook update – Action required (6.0)][1]
-* [SuperOffice for Outlook - Onsite and Cloud installation (3.1)][2]
-* [Five new UI languages available – SuperOffice 10.0.6 (02.22.2022)][3]
-* [Filter on search when linking to sale and project (2.5)](#filter-on-search-when-linking-to-sale-and-project-25)
-* [Search for a company will show department (2.4)](#search-for-a-company-will-show-department-24)
-* [Saving contact details with more fields (2.3)](#saving-contact-details-with-more-fields-23)
+* SuperOffice for Outlook - version 6
+  * [Use SuperOffice for Outlook in a shared mailbox - 6.3.0 (11.05.2026)][4]
+  * [New e-mail - Pin the SuperOffice side panel - 6.3.0 (11.05.2026)][4]
+  * [Archive attachments - List does not contain images - 6.3.0 (11.05.2026)][4]
+  * [SuperOffice for Outlook update – Action required (6.0)][1]
+* SuperOffice for Outlook - version 3
+  * [SuperOffice for Outlook - Onsite and Cloud installation (3.1)][2]
+  * [Five new UI languages available – SuperOffice 10.0.6 (02.22.2022)][3]
+* SuperOffice for Outlook - version 2
+  * [Filter on search when linking to sale and project (2.5)](#filter-on-search-when-linking-to-sale-and-project-25)
+  * [Search for a company will show department (2.4)](#search-for-a-company-will-show-department-24)
+  * [Saving contact details with more fields (2.3)](#saving-contact-details-with-more-fields-23)
 
 ## Older releases
 
 ### Filter on search when linking to sale and project (2.5)
 
-When you link an email to a project or sale: The search list will show **projects** and **sales** that are linked to the company or contact. This is controlled with a preference in the **Settings** menu in SuperOffice for Outlook, or Settings and Maintenance in the client, section **E-mail**.
+When you link an e-mail to a project or sale: The search list will show **projects** and **sales** that are linked to the company or contact. This is controlled with a preference in the **Settings** menu in SuperOffice for Outlook, or Settings and Maintenance in the client, section **E-mail**.
 
 Show contextual projects and sales.
 
@@ -69,6 +75,7 @@ With the add-in, you can:
 [1]: 6.0-update.md
 [2]: 3.1-update.md
 [3]: ../../10.0/core-crm/10.0.6-update.md
+[4]: 6.3-update.md
 
 <!-- Referenced images -->
 [img1]: media/img100.jpg

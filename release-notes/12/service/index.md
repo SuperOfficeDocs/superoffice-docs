@@ -1,10 +1,10 @@
 ---
-uid: news-core-12
-title: What's new in SuperOffice 12
-description: Release notes. What's new in SuperOffice 12
-# keywords: 
+uid: news-service-12
+title: What's new in SuperOffice Service 12
+description: Release notes. What's new in SuperOffice Service 12
+keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests
 author: kirstiaa
-date: 
+date: 05.26.2026
 version: 12
 content_type: release-notes
 category: service
@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [Request relations - better control and overview (11.12)][0]
+* [Spam classification on requests (12.0)][0]
 
 <!-- Referenced links-->
 [0]: 12.0-update.md
