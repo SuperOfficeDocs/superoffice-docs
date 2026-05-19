@@ -17,41 +17,37 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 ## Office integrations
 
-* [SuperNotes integration guide][43]
-* [Zapier - Breaking changes and improvements (3.5)][15]
-* [Video meetings - Set configurations - Prefer direct link to Microsoft Teams (2.9)][13]
-* [SuperOffice for Outlook update – Action required (6.0)][1]
-
-> [!NOTE]
-> **Zapier - Breaking changes:** Starting from version 3.5, the API response structure changes because id, body, and attachments are now moved under the new message property.
+* [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images - 6.3.0 (11.05.2026)][3]
+* [SuperOffice WebTools guide (04.05.2026)][21]
+* [SuperNotes integration guide (04.02.2026)][43]
+* [Zapier - Breaking changes and improvements - 3.5 (09.10.2025)][15]
+* [Video meetings - Set configurations - Prefer direct link to Microsoft Teams - 2.9 (01.09.2025)][13]
+* [SuperOffice for Outlook update – Action required - 6.0 (21.01.2025)][1]
 
 ### Product releases
 
 [Current released versions][6]
 
-* [Activty folder][6] x.0 (?.2026)
-* [ConnectERP][6] 157.0 (11.05.2026)
-* [DataBridge][6] 157.0 (11.05.2026)
-* [Document viewer][6] x.0 (?.2026)
-* [Panels][6] 70.0 (14.04.2026)
-* [Places][6] x.0 (?.2026)
-* [SharePoint Documents][25] 3.7 (16.04.2026)
-* [Slack Notify][6] x.0 (?.2026)
-* [SuperOffice Copilot][27] 1.11 (17.09.2025)
-* [SuperOffice for Gmail][24] 3.0 (24.02.2026)
-* [SuperOffice for Mailchimp][6] x.0 (?.2026)
-* [SuperOffice for Outlook][23] 6.3.0 (11.05.2026)
-* [SuperOffice for Teams][6] x.0 (?.2026)
-* [SuperOffice for Trello][6] x.0 (?.2026)
-* [SuperOffice for Wordpress][6] x.0 (?.2026)
-* [SuperOffice MailLink][59] 13.1.61 (30.01.2026)
-* [Synchronizer][6] 122.0 (11.05.2026)
-* [Teams Notify][6] x.0 (?.2026)
-* [Video Meetings][22] 2.12 (29.04.2026)
-* [Webex Notify][6] x.0 (?.2026)
-* [WebTools for Mac][21] 13.2 (30.11.2025)
-* [WebTools for Windows][21] 13.2.3 (08.04.2026)
-* [Zapier][20] 3.5.7 (16.5.2026)
+* ConnectERP - 157.0 (11.05.2026)
+* DataBridge - 157.0 (11.05.2026)
+* Panels - 70.0 (14.04.2026)
+* SharePoint Documents - 3.7 (16.04.2026)
+* Slack Notify - 12.0 (21.05.2026)
+* SuperOffice Copilot - 1.11 (17.09.2025)
+* SuperOffice for Gmail - 3.0 (24.02.2026)
+* SuperOffice for Mailchimp - 12.0 (19.05.2026)
+* SuperOffice for Outlook - 6.3.0 (11.05.2026)
+* SuperOffice for Teams - 1.0.0 (19.05.2026)
+* SuperOffice for Trello - 11.0 (21.11.2025)
+* SuperOffice for Wordpress - 11.0 (21.11.20256)
+* SuperOffice MailLink - 13.1.61 (30.01.2026)
+* Synchronizer - 122.0 (11.05.2026)
+* Teams Notify - 12.0 (18.05.2026)
+* Video Meetings - 2.12 (29.04.2026)
+* Webex Notify - 12.0 (19.05.2026)
+* WebTools for Mac - 13.2 (30.11.2025)
+* WebTools for Windows - 13.2.3 (08.04.2026)
+* Zapier - 3.5.7 (16.5.2026)
 
 ## SuperOffice App Store
 
@@ -91,20 +87,15 @@ See all the [new or updated apps][2]
 <!-- Referenced links -->
 [1]: sofo/6.0-update.md
 [2]: https://appstore.superoffice.com/Category/new-and-updated
+[3]: sofo/6.3-update.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/
 [13]: video-meetings/2.9-update.md
 [15]: https://community.superoffice.com/en/support-faqs/faq/zapier-integration-version-3.5-changes-in-request-properties?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
 [16]: https://appstore.superoffice.com/superoffice-as/connecterp-for-visma-net
 [17]:https://appstore.superoffice.com/superoffice-as/connecterp-for-businessnxt
 [19]: https://appstore.superoffice.com/superoffice-as/connecterp-for-tripletex
-[20]: ../../integrations/zapier/index.md
 [21]: ../../integrations/webtools/index.md
-[22]: ../../integrations/video-meetings/index.md
-[23]: ../../integrations/superoffice-for-outlook/index.md
-[24]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_for_Gmail_3.0
-[25]: ../../integrations/sharepoint-documents/index.md
 [26]: ../../integrations/index.yml
-[27]: ../../docs/en/ai/learn/copilot.md
 [33]: https://appstore.superoffice.com/oneflow-ab/oneflow-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
 [34]: https://appstore.superoffice.com/salesscreen/salesscreen-integration?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
 [35]: https://appstore.superoffice.com/superoffice-as/panels-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.8
@@ -131,7 +122,6 @@ See all the [new or updated apps][2]
 [56]: https://appstore.superoffice.com/syncify-ab/e-conomic-by-syncify
 [57]: https://appstore.superoffice.com/syncify-ab/poweroffice-by-syncify
 [58]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify
-[59]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=WebTools_MailLink_13.1.61
 [60]: https://appstore.superoffice.com/syncify-ab/unimicro-by-syncify
 [61]: https://appstore.superoffice.com/lyyti/lyyti-superoffice-integration
 
