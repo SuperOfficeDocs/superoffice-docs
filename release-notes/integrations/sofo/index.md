@@ -27,13 +27,15 @@ redirect_from:
 # What's new in SuperOffice for Outlook
 
 * SuperOffice for Outlook - version 6
-  * [Use SuperOffice for Outlook in a shared mailbox - 6.3.0 (11.05.2026)][4]
-  * [New e-mail - Pin the SuperOffice side panel - 6.3.0 (11.05.2026)][4]
-  * [Archive attachments - List does not contain images - 6.3.0 (11.05.2026)][4]
-  * [SuperOffice for Outlook update – Action required (6.0)][1]
+  * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3.0 (11.05.2026)
+  * [New e-mail - Pin the SuperOffice side panel][4] - 6.3.0 (11.05.2026)
+  * [Archive attachments - List does not contain images][4] - 6.3.0 (11.05.2026)
+  * [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
+
 * SuperOffice for Outlook - version 3
-  * [SuperOffice for Outlook - Onsite and Cloud installation (3.1)][2]
-  * [Five new UI languages available – SuperOffice 10.0.6 (02.22.2022)][3]
+  * [SuperOffice for Outlook - Onsite and Cloud installation][2] - 3.1 (30.08.2023)
+  * [Five new UI languages available – SuperOffice][3] - 10.0.6 (02.22.2022)
+
 * SuperOffice for Outlook - version 2
   * [Filter on search when linking to sale and project (2.5)](#filter-on-search-when-linking-to-sale-and-project-25)
   * [Search for a company will show department (2.4)](#search-for-a-company-will-show-department-24)

@@ -17,12 +17,12 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 ## Office integrations
 
-* [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images - 6.3.0 (11.05.2026)][3]
-* [SuperOffice WebTools guide (04.05.2026)][21]
-* [SuperNotes integration guide (04.02.2026)][43]
-* [Zapier - Breaking changes and improvements - 3.5 (09.10.2025)][15]
-* [Video meetings - Set configurations - Prefer direct link to Microsoft Teams - 2.9 (01.09.2025)][13]
-* [SuperOffice for Outlook update – Action required - 6.0 (21.01.2025)][1]
+* [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3.0 (11.05.2026)
+* [SuperOffice WebTools guide][21] - (04.05.2026)
+* [SuperNotes integration guide][43] - (04.02.2026)
+* [Zapier - Breaking changes and improvements][15] - 3.5 (09.10.2025)
+* [Video meetings - Set configurations - Prefer direct link to Microsoft Teams][13] - 2.9 (01.09.2025)
+* [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
 
 ### Product releases
 
