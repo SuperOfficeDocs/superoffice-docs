@@ -28,9 +28,9 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 [Current released versions][6]
 
-* ConnectERP - 157.0 (11.05.2026)
-* DataBridge - 157.0 (11.05.2026)
-* Panels - 70.0 (14.04.2026)
+* ConnectERP - 157.0 (20.05.2026)
+* DataBridge - 157.0 (20.05.2026)
+* Panels - 71.0 (20.05.2026)
 * SharePoint Documents - 3.7 (16.04.2026)
 * Slack Notify - 12.0 (21.05.2026)
 * SuperOffice Copilot - 1.11 (17.09.2025)
@@ -41,7 +41,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * SuperOffice for Trello - 11.0 (21.11.2025)
 * SuperOffice for Wordpress - 11.0 (21.11.20256)
 * SuperOffice MailLink - 13.1.61 (30.01.2026)
-* Synchronizer - 122.0 (11.05.2026)
+* Synchronizer - 123.0 (20.05.2026)
 * Teams Notify - 12.0 (18.05.2026)
 * Video Meetings - 2.12 (29.04.2026)
 * Webex Notify - 12.0 (19.05.2026)
