@@ -2,13 +2,14 @@
 uid: release-notes-12
 title: What's new in SuperOffice 12
 description: Release notes. What's new in SuperOffice 12
-keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing,
+keywords: SuperOffice CRM 12
 author: kirstiaa
 date: 05.26.2026
 version: 12
 content_type: release-notes
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # What's new in SuperOffice 12

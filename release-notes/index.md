@@ -1,7 +1,7 @@
 ---
 uid: release-notes
 title: What's new in SuperOffice
-description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
+description: Release notes. Here you will find all the small and big changes that have been released for SuperOffice in the different versions.
 author: kirstiaa
 date: 05.26.2026
 content_type: release-note
@@ -12,7 +12,7 @@ language: en
 
 # What's new in SuperOffice
 
-Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
+Here you will find all the small and big changes that have been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
 
 ## SuperOffice CRM versions
 
@@ -20,7 +20,7 @@ The latest SuperOffice Online release is [**version 12.0**][9] - 26.05.2026.
 
 Recent versions:
 
-* [12.0 ->][9]
+* [12.0 and newer][9]
 * [11.1 - 11.13][11]
 * [10.5][10]
 
@@ -67,7 +67,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 ## User guides
 
-* [SuperOffice version 11 User guide][15] (available in six languages)
+* [SuperOffice version 12 User guide][15] (available in six languages)
 * [SuperOffice for Outlook User guide][13] (English only)
 * [SuperOffice Mobile CRM User guide][14] (English only)
 * [SuperNotes Integration][20] (English only)

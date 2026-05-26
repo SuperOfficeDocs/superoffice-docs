@@ -2,24 +2,24 @@
 uid: release-notes-integrations
 title: Product integration updates
 description: Release notes. What's new in SuperOffice Integrations
-keywords: integration, app, appstore, product releases
+keywords: integration, app, AppStore, product release
 author: kirstiaa
 date: 05.26.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # What's new in Product integration
 
 ## Product integrations updates
 
-* [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3.0 (11.05.2026)
+* [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3 (11.05.2026)
 * [SuperOffice WebTools guide][21] - (04.05.2026)
 * [SuperNotes integration guide][43] - (04.02.2026)
 * [Zapier - Breaking changes and improvements][15] - 3.5 (09.10.2025)
 * [Video meetings - Set configurations - Prefer direct link to Microsoft Teams][13] - 2.9 (01.09.2025)
-* [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
 
 Documentation for all SuperOffice integrations is available at [docs.superoffice.com/integrations][26].
 
@@ -84,14 +84,13 @@ See all the [new or updated apps][2]
 * [Panels for SuperOffice][35] from SuperOffice AS (01.12.2025)
 
 <!-- Referenced links -->
-[1]: sofo/6.0-update.md
 [2]: https://appstore.superoffice.com/Category/new-and-updated
 [3]: sofo/6.3-update.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/
 [13]: video-meetings/2.9-update.md
 [15]: https://community.superoffice.com/en/support-faqs/faq/zapier-integration-version-3.5-changes-in-request-properties?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
 [16]: https://appstore.superoffice.com/superoffice-as/connecterp-for-visma-net
-[17]:https://appstore.superoffice.com/superoffice-as/connecterp-for-businessnxt
+[17]: https://appstore.superoffice.com/superoffice-as/connecterp-for-businessnxt
 [19]: https://appstore.superoffice.com/superoffice-as/connecterp-for-tripletex
 [21]: ../../integrations/webtools/index.md
 [26]: ../../integrations/index.yml
