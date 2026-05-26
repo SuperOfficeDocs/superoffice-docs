@@ -28,7 +28,7 @@ redirect_from:
 
 * SuperOffice for Outlook - version 6
   * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3.0 (11.05.2026)
-  * [New e-mail - Pin the SuperOffice side panel][4] - 6.3.0 (11.05.2026)
+  * [New email - Pin the SuperOffice side panel][4] - 6.3.0 (11.05.2026)
   * [Archive attachments - List does not contain images][4] - 6.3.0 (11.05.2026)
   * [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
 
@@ -45,7 +45,7 @@ redirect_from:
 
 ### Filter on search when linking to sale and project (2.5)
 
-When you link an e-mail to a project or sale: The search list will show **projects** and **sales** that are linked to the company or contact. This is controlled with a preference in the **Settings** menu in SuperOffice for Outlook, or Settings and Maintenance in the client, section **E-mail**.
+When you link an email to a project or sale: The search list will show **projects** and **sales** that are linked to the company or contact. This is controlled with a preference in the **Settings** menu in SuperOffice for Outlook, or Settings and Maintenance in the client, section **E-mail**.
 
 Show contextual projects and sales.
 

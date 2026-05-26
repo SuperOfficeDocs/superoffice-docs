@@ -15,11 +15,7 @@ audience_tooltip: SuperOffice CRM
 
 ## Summary of highlights
 
-**SuperOffice 12** - a new main version of SuperOffice CRM where AI becomes part of how you work every day.
-
-This main version brings AI capabilities to all areas of SuperOffice, available to all customers. If you have been part of the AI Lab pilot program, many of these features will already be familiar - they will part of the standard product.
-
-SuperOffice 12 also introduces the CRM Suite - where the focus is to give a comprehensive solution for our product portfolio in different license packages.
+**SuperOffice 12** - a new main version of SuperOffice CRM where we focus on AI to become part of how you work every day.
 
 From this version, all feature updates are available to SuperOffice Online customers only. Onsite installations will receive security updates only.
 
