@@ -7,7 +7,13 @@ items:
 - name: SuperOffice 11
   href: 11/toc.yml
   topicHref: 11/index.md
-- name: SuperOffice 10
+- name: Mobile CRM (app)
+  href: mobile/toc.yml
+  topicHref: mobile/index.md
+- name: Integrations
+  href: integrations/toc.yml
+  topicHref: integrations/index.md
+- name: Older
   items:
   - name: SuperOffice 10.5
     href: 10.5/toc.yml
@@ -24,14 +30,6 @@ items:
   - name: SuperOffice 10.0
     href: 10.0/toc.yml
     topicHref: 10.0/index.md
-- name: Mobile CRM (app)
-  href: mobile/toc.yml
-  topicHref: mobile/index.md
-- name: Integrations
-  href: integrations/toc.yml
-  topicHref: integrations/index.md
-- name: Older
-  items:
   - name: SuperOffice 9.2
     href: 9.2/toc.yml
     topicHref: 9.2/index.md
