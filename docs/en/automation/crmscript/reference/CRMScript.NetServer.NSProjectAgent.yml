@@ -29,6 +29,7 @@ items:
   - CRMScript.NetServer.NSProjectAgent.GetNextProjectStatus(Integer)
   - CRMScript.NetServer.NSProjectAgent.GetProject(Integer)
   - CRMScript.NetServer.NSProjectAgent.GetProjectEntity(Integer)
+  - CRMScript.NetServer.NSProjectAgent.GetProjectEntityWithoutMembers(Integer)
   - CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
   - CRMScript.NetServer.NSProjectAgent.GetProjectEventEntity(Integer)
   - CRMScript.NetServer.NSProjectAgent.GetProjectEventEntityFromProjectId(Integer)
@@ -52,6 +53,7 @@ items:
   - CRMScript.NetServer.NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Integer)
   - CRMScript.NetServer.NSProjectAgent.SaveProjectEntity(NSProjectEntity)
   - CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
+  - CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntityWithoutMembers(NSProjectEventEntity)
   - CRMScript.NetServer.NSProjectAgent.SaveProjectMember(NSProjectMember)
   - CRMScript.NetServer.NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
   - CRMScript.NetServer.NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[])
@@ -544,6 +546,29 @@ items:
       type: CRMScript.NetServer.NSProjectEntity
   example: 
   - "\n<pre><code>NSProjectAgent agent;\nNSProjectEntity thing = agent.GetProjectEntity(123);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.GetProjectEntityWithoutMembers(Integer)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEntityWithoutMembers(Integer)
+  id: 'GetProjectEntityWithoutMembers(Integer)'
+  so.intellisense: NSProjectAgent.GetProjectEntityWithoutMembers
+  so.version: 7.0
+  langs:
+  - crmscript
+  name: 'GetProjectEntityWithoutMembers(Integer)'
+  nameWithType: NSProjectAgent.GetProjectEntityWithoutMembers(Integer)
+  fullName: CRMScript.NetServer.NSProjectAgent.GetProjectEntityWithoutMembers(Integer)
+  type: Method
+  summary: "\nGet a project entity with no project members. Project members property is always an empty array.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEntity GetProjectEntityWithoutMembers(Integer projectEntityId)
+    parameters:
+    - id: projectEntityId
+      type: CRMScript.Global.Integer
+      description: 
+    return:
+      type: CRMScript.NetServer.NSProjectEntity
+  example: 
+  - "\n<pre><code>NSProjectAgent agent;\nNSProjectEntity thing = agent.GetProjectEntityWithoutMembers(123);</code></pre>\n"
 - uid: CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEvent(Integer)
   id: 'GetProjectEvent(Integer)'
@@ -1064,6 +1089,30 @@ items:
       description: "New or updated NSProjectEntity."
   example: 
   - "\n<pre><code>NSProject  agent;\nNSProjectEntity thing = agent.CreateDefaultProjectEntity();\nthing = agent.SaveProjectEntity(thing);</code></pre>\n"
+- uid: CRMScript.NetServer.NSProjectAgent.SaveProjectEntityWithoutMembers(NSProjectEntity)
+  commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEntityWithoutMembers(NSProjectEntity)
+  id: 'SaveProjectEntityWithoutMembers(NSProjectEntity)'
+  so.intellisense: NSProjectAgent.SaveProjectEntityWithoutMembers
+  so.version: 7.0
+  langs:
+  - crmscript
+  name: 'SaveProjectEntityWithoutMembers(NSProjectEntity)'
+  nameWithType: NSProjectAgent.SaveProjectEntityWithoutMembers(NSProjectEntity)
+  fullName: CRMScript.NetServer.NSProjectAgent.SaveProjectEntityWithoutMembers(NSProjectEntity)
+  type: Method
+  summary: "\nSave or update a project entity, the project members are ignored.\n"
+  remarks: 
+  syntax: 
+    content: NSProjectEntity SaveProjectEntityWithoutMembers(NSProjectEntity projectEntity)
+    parameters:
+    - id: projectEntity
+      type: CRMScript.NetServer.NSProjectEntity
+      description: "The entity to save."
+    return:
+      type: CRMScript.NetServer.NSProjectEntity
+      description: "New or updated NSProjectEntity."
+  example: 
+  - "\n<pre><code>NSProject  agent;\nNSProjectEntity thing = agent.CreateDefaultProjectEntity();\nthing = agent.SaveProjectEntityWithoutMembers(thing);</code></pre>\n"
 - uid: CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
   commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity)
   id: 'SaveProjectEventEntity(NSProjectEventEntity)'
