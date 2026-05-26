@@ -2,7 +2,7 @@
 uid: release-notes-integrations
 title: Product integration updates
 description: Release notes. What's new in SuperOffice Integrations
-keywords: integration, app, appstore
+keywords: integration, app, appstore, product releases
 author: kirstiaa
 date: 05.26.2026
 content_type: release-note
@@ -10,12 +10,9 @@ audience: person
 audience_tooltip: SuperOffice CRM
 ---
 
-# Product integration updates
+# What's new in Product integration
 
-<!-- markdownlint-disable-next-line MD044 -->
-Documentation for all SuperOffice integrations is available at [docs.superoffice.com/integrations][26].
-
-## Office integrations
+## Product integrations updates
 
 * [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3.0 (11.05.2026)
 * [SuperOffice WebTools guide][21] - (04.05.2026)
@@ -24,9 +21,11 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * [Video meetings - Set configurations - Prefer direct link to Microsoft Teams][13] - 2.9 (01.09.2025)
 * [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
 
+Documentation for all SuperOffice integrations is available at [docs.superoffice.com/integrations][26].
+
 ### Product releases
 
-[Current released versions][6]
+Current version: For the latest version numbers and release details for all products, see [Product releases][6] on Community.
 
 * ConnectERP - 157.0 (20.05.2026)
 * DataBridge - 157.0 (20.05.2026)
@@ -39,7 +38,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * SuperOffice for Outlook - 6.3.0 (11.05.2026)
 * SuperOffice for Teams - 1.0.0 (19.05.2026)
 * SuperOffice for Trello - 11.0 (21.11.2025)
-* SuperOffice for Wordpress - 11.0 (21.11.20256)
+* SuperOffice for Wordpress - 11.0 (21.11.2026)
 * SuperOffice MailLink - 13.1.61 (30.01.2026)
 * Synchronizer - 123.0 (20.05.2026)
 * Teams Notify - 12.0 (18.05.2026)
@@ -47,7 +46,7 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * Webex Notify - 12.0 (19.05.2026)
 * WebTools for Mac - 13.2 (30.11.2025)
 * WebTools for Windows - 13.2.3 (08.04.2026)
-* Zapier - 3.5.7 (16.5.2026)
+* Zapier - 3.5.7 (16.05.2026)
 
 ## SuperOffice App Store
 
