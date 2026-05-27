@@ -36,7 +36,7 @@ Deze vragen zijn het uitgangspunt voor de beslissing om actie te ondernemen. Doo
 
 ## Statussen
 
-Als u een licentie voor SAINT ("SAles INTelligence") hebt aangeschaft, kunt u in Instellingen en onderhoud criteria opgeven voor statuscontroles voor bedrijven, personen en projecten. Statussen die op basis van deze criteria worden gegenereerd, kunnen worden gevisualiseerd als een afbeelding die op de bedrijfskaarten, persoonskaarten of projectkaarten wordt weergegeven. U kunt bijvoorbeeld een afbeelding van een waarschuwingsdriehoek weergeven voor een klant waarmee veel verkoopgesprekken zijn gevoerd maar waarvoor geen verkopen zijn geregistreerd, of een spinnenweb voor een klant waarmee gedurende meer dan drie maanden geen contact is opgenomen. Op deze manier krijgt u direct een goed overzicht van bepaalde statussen. Dit kan met name handig zijn voor de verkoopafdeling.
+In Instellingen en onderhoud kunt u criteria opgeven voor statuscontroles voor bedrijven, personen en projecten. Statussen die op basis van deze criteria worden gegenereerd, kunnen worden gevisualiseerd als een afbeelding die op de bedrijfskaarten, persoonskaarten of projectkaarten wordt weergegeven. U kunt bijvoorbeeld een afbeelding van een waarschuwingsdriehoek weergeven voor een klant waarmee veel verkoopgesprekken zijn gevoerd maar waarvoor geen verkopen zijn geregistreerd, of een spinnenweb voor een klant waarmee gedurende meer dan drie maanden geen contact is opgenomen. Op deze manier krijgt u direct een goed overzicht van bepaalde statussen. Dit kan met name handig zijn voor de verkoopafdeling.
 
 ## Een eenvoudig voorbeeld
 

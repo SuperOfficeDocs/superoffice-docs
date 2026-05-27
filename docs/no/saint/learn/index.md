@@ -36,7 +36,7 @@ Disse spørsmålene er utgangspunktet for beslutningen om å handle. Ved å hand
 
 ## Statuser
 
-Hvis du har kjøpt en lisens for SAINT ("SAles INTelligence"), kan du spesifisere kriterier for statusovervåking av firmaer, personer og prosjekter i Innstillinger og vedlikehold. Statuser som genereres fra disse kriteriene kan visualiseres som et bilde som vises på firmakort, personkort eller prosjektkort. Du kan for eksempel vise et bilde av en varseltrekant på en kunde som har krevd mange salgsmøter, men som ikke har generert noen salg, eller et spindelvev på en kunde som ikke har vært kontaktet på over tre måneder. Dette gir en tydelig og umiddelbar indikasjon på bestemte statuser, det kan for eksempel være nyttig for en salgsmedarbeider.
+Du kan spesifisere kriterier for statusovervåking av firmaer, personer og prosjekter i Innstillinger og vedlikehold. Statuser som genereres fra disse kriteriene kan visualiseres som et bilde som vises på firmakort, personkort eller prosjektkort. Du kan for eksempel vise et bilde av en varseltrekant på en kunde som har krevd mange salgsmøter, men som ikke har generert noen salg, eller et spindelvev på en kunde som ikke har vært kontaktet på over tre måneder. Dette gir en tydelig og umiddelbar indikasjon på bestemte statuser, det kan for eksempel være nyttig for en salgsmedarbeider.
 
 ## Et enkelt eksempel
 

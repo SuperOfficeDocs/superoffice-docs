@@ -36,7 +36,7 @@ Dessa frågor är utgångspunkten för beslutet att vidta åtgärder. Genom att 
 
 ## Status
 
-Om du har köpt licens till SAINT ("SAles INTelligence") kan du ange kriterier för statusövervakning av företag, kontakter och projekt i Inställningar och underhåll. Status som genereras efter sådana kriterier kan visualiseras som en bild på företags-. kontakt- eller projektkortet. Du kan till exempel visa en bild med en varningstriangel för en kund som har krävt många säljmöten men inte genererat någon försäljning, eller ett spindelnät för en kund som inte har kontaktats på över tre månader. På så sätt får du en tydlig och omedelbar indikation av vissa statuslägen, vilket till exempel en säljare kan ha stor nytta av.
+Du kan ange kriterier för statusövervakning av företag, kontakter och projekt i Inställningar och underhåll. Status som genereras efter sådana kriterier kan visualiseras som en bild på företags-. kontakt- eller projektkortet. Du kan till exempel visa en bild med en varningstriangel för en kund som har krävt många säljmöten men inte genererat någon försäljning, eller ett spindelnät för en kund som inte har kontaktats på över tre månader. På så sätt får du en tydlig och omedelbar indikation av vissa statuslägen, vilket till exempel en säljare kan ha stor nytta av.
 
 ## Ett enkelt exempel
 

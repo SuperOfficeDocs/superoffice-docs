@@ -36,7 +36,7 @@ Diese Fragen sind der Ausgangspunkt für die Entscheidung, aktiv zu werden. Durc
 
 ## Status
 
-Wenn Sie eine Lizenz für SAINT ("SAles INTelligence") erworben haben, können Sie in Einstellungen und Verwaltung Kriterien für Statuskontrollen von Firmen, Personen und Projekten festlegen. Von diesen Kriterien generierte Statusangaben können als Bild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Sie können z. B. ein Bild mit einem Warndreieck für einen Kunden anzeigen, mit dem zahlreiche Verkaufsgespräche geführt wurden, der jedoch keine Käufe zugesagt hat, oder ein Spinnennetz für einen Kunden, der seit über drei Monaten nicht kontaktiert wurde. Auf diese Weise sehen Sie sofort den Status, was für Vertriebsmitarbeiter äußerst hilfreich sein kann.
+In Einstellungen und Verwaltung können Sie Kriterien für Statuskontrollen von Firmen, Personen und Projekten festlegen. Von diesen Kriterien generierte Statusangaben können als Bild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Sie können z. B. ein Bild mit einem Warndreieck für einen Kunden anzeigen, mit dem zahlreiche Verkaufsgespräche geführt wurden, der jedoch keine Käufe zugesagt hat, oder ein Spinnennetz für einen Kunden, der seit über drei Monaten nicht kontaktiert wurde. Auf diese Weise sehen Sie sofort den Status, was für Vertriebsmitarbeiter äußerst hilfreich sein kann.
 
 ## Ein einfaches Beispiel
 
