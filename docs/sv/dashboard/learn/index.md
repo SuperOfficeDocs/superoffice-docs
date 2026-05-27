@@ -171,7 +171,8 @@ Endast **ägaren** av ett dashboard kan ta bort det.
 |---|---|---|
 | Alla CRM-planer | Status-dashboard med standardpaneler | Diagram, listor, stora siffror |
 | **Service** | Ärenden-dashboard | Paneler relaterade till ärenden |
-| **Marketing Essentials eller Premium**-licens eller **Core**-planen | – | Utskick, formulärsvar, chattar |
+| **Marketing Essentials**-licens eller **Core**-planen | – | Utskick, chattar |
+| **Marketing Premium**-licens eller **Plus**-planen | – | Formulärsvar |
 | **Sales Premium** eller **Growth** | – | Prognoser, nyckeltal, säljmål, offerter |
 | **Sales eller Service Premium** eller **Growth** | – | Aktivitetsövervakning (SAINT) |
 

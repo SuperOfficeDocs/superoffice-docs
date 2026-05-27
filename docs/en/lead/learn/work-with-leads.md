@@ -76,7 +76,7 @@ In the **Find** screen, add criteria such as:
 
     Use this to answer questions such as "List all my potential customers" or "List all my customers" (instead of adding multiple individual categories as criteria).
 
-* **Company** > **Lead** or **Contact** > **Lead** based on [UTM data][5] (requires Marketing Premium).
+* **Company** > **Lead** or **Contact** > **Lead** based on [UTM data][5] (requires a **Marketing Premium** license or the **Plus** plan).
 
 ![Filtering contacts by Lead status and Category group in the Find Contact criteria panel. -screenshot][img3]
 

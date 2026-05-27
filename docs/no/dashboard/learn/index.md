@@ -171,7 +171,8 @@ Bare **eieren** av et dashbord kan slette det.
 |---|---|---|
 | Alle CRM-planer | Status-dashbord med standardfigurer | Diagrammer, lister, store tall |
 | **Service** | Saker-dashbord | Sakrelaterte figurer |
-| **Marketing Essentials eller Premium**-lisens eller **Core**-planen | – | Utsendelser, skjemaer, chat |
+| **Marketing Essentials**-lisens eller **Core**-planen | – | Utsendelser, chat |
+| **Marketing Premium**-lisens eller **Plus**-planen | – | Skjemaer |
 | **Sales Premium** eller **Growth** | – | Prognoser, KPI-er, salgsmål, tilbud |
 | **Sales eller Service Premium** eller **Growth** | – | Aktivitetsmonitorer (SAINT) |
 

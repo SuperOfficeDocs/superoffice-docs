@@ -61,9 +61,9 @@ Category automation reduces manual work by updating company categories automatic
 
 For detailed steps, see [Automate lead categorization][6].
 
-## Step 4: (Optional) Extend with Marketing Premium
+## Step 4: (Optional) Extend with **Marketing Premium**
 
-If you use Marketing Premium, you can leverage additional tracking and automation features in your lead process:
+If you have the **Marketing Premium** license or the **Plus** plan, you can leverage additional tracking and automation features in your lead process:
 
 * **UTM tracking:** Capture the source of new leads from online forms.
     See [Track form UTM data][5].

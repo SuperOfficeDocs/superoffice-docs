@@ -171,7 +171,8 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 |---|---|---|
 | Alle CRM-Pläne | Status-Dashboard mit Standardkacheln | Diagramme, Listen, große Zahlen |
 | **Service** | Anfragen-Dashboard | Anfragebezogene Kacheln |
-| **Marketing Essentials oder Premium**-Lizenz oder den **Core**-Plan | – | Mailings, Formularantworten, Chats |
+| **Marketing Essentials**-Lizenz oder den **Core**-Plan | – | Mailings, Chats |
+| **Marketing Premium**-Lizenz oder den **Plus**-Plan | – | Formularantworten |
 | **Sales Premium** oder **Growth** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
 | **Sales oder Service Premium** oder **Growth** | – | Aktivitätsüberwachung (SAINT) |
 
