@@ -45,7 +45,7 @@ Caller ID uses numbers from:
 
 ## Requirements
 
-* SuperOffice CRM Online (any user plan)
+* SuperOffice CRM Online (any user plan, or CRM Suite Core)
 * Mobile CRM app version 10.1.9 or higher
 
 ## How to enable caller ID

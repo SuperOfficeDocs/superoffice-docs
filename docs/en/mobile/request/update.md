@@ -7,6 +7,7 @@ author: digitaldiina
 date: 05.11.2026
 version: 11.1
 content_type: howto
+license: serviceessentials
 tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/request/update
@@ -15,7 +16,8 @@ language: en
 
 # Update request
 
-A Service user plan is required to update a request. For details, see the [list of user plans][4].
+> [!NOTE]
+> Requires a **Service Essentials** license or the **Core** plan.
 
 ## Edit request fields
 
@@ -76,7 +78,6 @@ To update the owner:
 [1]: create.md
 [2]: ../../../en/request/learn/delete.md
 [3]: ../../../en/sale/learn/stages.md
-[4]: ../../../en/admin/license/user-plans.md
 [5]: ../../../en/request/learn/merge.md
 [6]: ../../../en/request/learn/split-request.md
 

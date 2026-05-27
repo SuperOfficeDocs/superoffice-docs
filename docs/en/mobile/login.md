@@ -16,10 +16,7 @@ index: true
 
 # First time use/log in
 
-The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher. It is distributed via the respective operating system's app store channels.
-
-> [!NOTE]
-> For older versions, install [Pocket CRM][5]. Check the [client requirements][4].
+The Mobile CRM app is available for SuperOffice CRM 9 or higher. It is distributed via the respective operating system's app store channels.
 
 ## Download the app
 
@@ -52,11 +49,11 @@ The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher. It
 
 * [Set up your email account][2]
 * [Enable caller ID][3]
+* For older versions, install [Pocket CRM][5]
 
 <!-- Referenced links -->
 [2]: set-up-email.md
 [3]: caller-id.md
-[4]: client-requirements.md
 [5]: ../onsite/pocket-crm/install.md
 [6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1

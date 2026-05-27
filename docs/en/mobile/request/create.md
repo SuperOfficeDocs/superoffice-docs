@@ -7,6 +7,7 @@ author: digitaldiina
 date: 05.11.2026
 version: 11.1
 content_type: howto
+license: serviceessentials
 tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/request/create
@@ -18,7 +19,7 @@ language: en
 You can register new requests directly from Mobile CRM.
 
 > [!NOTE]
-> Requires a Service user plan.
+> Requires a **Service Essentials** license or the **Core** plan.
 
 ## Create from the Requests screen
 

@@ -112,5 +112,3 @@ Already logged in? [Explore the interface][4] or [customize your settings][5].
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/mobile/3-screens.png
-
-<!--Old YT video: https://www.youtube.com/embed/IPJHqn0THTY-->
