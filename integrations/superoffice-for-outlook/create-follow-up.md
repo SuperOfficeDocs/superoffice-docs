@@ -3,7 +3,7 @@ uid: sofo-create-follow-up
 title: Create follow-up
 description: Create follow-up
 keywords: SuperOffice for Outlook, Outlook, email, create appointment, create task, follow-up, SOFO
-author: Erik Lebiko, Bergfrid Dias
+author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
 date: 10.29.2024
 version_sofo: 2024.8.12
 content_type: howto
@@ -45,11 +45,10 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
 
     ![SuperOffice for Outlook, Create follow-up -screenshot][img1]
 
-> [!TIP]
-> You can also create a sale or request directly from the email. If it is part of an ongoing issue, you can attach the message to a specific request.
+You can also create a sale or request directly from the email. If it is part of an ongoing issue, you can attach the message to a specific request.
 
 > [!NOTE]
-> The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
+> The **Visible for** drop-down is only available to users whose administrator has enabled the required license.
 > For more details, see [Settings and maintenance > User management > Visibility][2].
 
 <!-- Referenced links -->
@@ -57,4 +56,4 @@ To create a [follow-up][1] (appointment or task) in SuperOffice directly from Ou
 [2]: ../../docs/en/admin/user-management/index.md#visible
 
 <!-- Referenced images -->
-[img1]:  media/outlook-create-follow-up-new.png
+[img1]: media/outlook-create-follow-up-new.png

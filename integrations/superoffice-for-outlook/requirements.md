@@ -3,9 +3,9 @@ uid: sofo-requirements
 title: Requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
 keywords: SuperOffice for Outlook, Outlook, email, SOFO
-author: Frode B, Martin Pavlas
-date: 12.17.2025
-version_sofo: 2025.1.20
+author: Frode B, Martin Pavlas, Andrea Schilde
+date: 05.05.2026
+version_sofo: 6.3.0
 content_type: reference
 category: integration
 topic: SuperOffice for Outlook
@@ -15,7 +15,7 @@ audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 index: true
-redirect_from: 
+redirect_from:
   - /en/email/superoffice-for-outlook/requirements
   - /en/email/superoffice-for-outlook/learn/requirements
   - /da/email/superoffice-for-outlook/learn/requirements
@@ -49,15 +49,32 @@ redirect_from:
 * [Microsoft Outlook for Android][3]
 
 ## Supported browsers
+
 The latest version of the following browsers are supported for Outlook on the web:
+
 * Microsoft Edge
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari (macOS)
 
-## Limitations
+## Shared mailbox support
 
-SuperOffice for Outlook works only with the main account. Shared mailboxes are not supported.
+SuperOffice for Outlook supports shared mailboxes when the mailbox is available to the user in Outlook and the required Microsoft 365 permissions have been granted.
+
+Users may be asked to approve additional Microsoft permissions the first time they use SuperOffice for Outlook with a shared mailbox. In some organizations, an administrator must approve these permissions on behalf of all users before shared mailbox features can be used.
+
+Shared mailbox access is controlled by Microsoft 365. If a shared mailbox does not appear in Outlook, or if you cannot send from it, contact your Microsoft 365 administrator.
+
+See also: [SuperOffice for Outlook: Authorization guide][1]
+
+> [!NOTE]
+> SuperOffice for Outlook requires a Microsoft 365 or Exchange account. This is a Microsoft limitation — SuperOffice for Outlook uses Microsoft's Graph API, which only supports work or school accounts within Microsoft 365 or Exchange. Consumer email accounts from providers such as Gmail, Yahoo, Hotmail, iCloud, and AOL are not supported.
+>
+> If you use Gmail, SuperOffice offers a separate integration. See [SuperOffice for Gmail][4].
+
+## Attachment size limit
+
+Attachments saved to SuperOffice from SuperOffice for Outlook cannot exceed 28 MB. Attachments larger than this limit cannot be saved.
 
 ## Requirements for centralized deployment
 
@@ -66,6 +83,8 @@ Learn more about the requirements for [Centralized Deployment][5] from Microsof
 If an add-in update significantly increases the scope of data access, you must re-approve it before the update is deployed.
 
 <!-- Referenced links -->
+[1]: https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
+[4]: ../gmail-link/index.md
 [5]: https://aka.ms/centralized-deployment-guidance
