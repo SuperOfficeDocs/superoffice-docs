@@ -23,7 +23,7 @@ Then we'll create a custom screen in SuperOffice Service and finally make the ta
 ![Screen capture of edit Equipment][img2]
 
 > [!NOTE]
-> This requires a valid SuperOffice Expander Services license.
+> This requires a valid SuperOffice **Development Tools** license or the **Core** plan.
 
 ## Step 1: create the table
 
