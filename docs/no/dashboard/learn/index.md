@@ -22,7 +22,7 @@ Bruk dashbord for å følge opp aktiviteter, salg, saker og mer. Du kan bruke fo
 ![Saksdashbord -screenshot][img4]
 
 > [!NOTE]
-> Tilgang til dashbord og Figurdata avhenger av brukerplanen og tildelte rettigheter.
+> Tilgang til dashbord og Figurdata avhenger av planen og tildelte rettigheter.
 
 ## Hva er et dashbord?
 
@@ -45,7 +45,7 @@ Velg **Dashbord** i navigatoren for å åpne dashbordskjermbildet. Du har tilgan
 * **Favorittdashbord:** Merket med stjerne
 * **Egne dashbord:** Dashbord du selv har opprettet
 
-Som standard er et dashbord kalt **Status** tilgjengelig og festet. Det inneholder figurer med forhåndsdefinerte diagrammer og nøkkeltall. Hvis du har brukerplanen SuperOffice Service, er et annet dashbord kalt **Saker** også tilgjengelig.
+Som standard er et dashbord kalt **Status** tilgjengelig og festet. Det inneholder figurer med forhåndsdefinerte diagrammer og nøkkeltall. Hvis du har en **Service Essentials**-lisens eller **Starter**-planen, er et annet dashbord kalt **Saker** også tilgjengelig.
 
 Du kan opprette flere dashbord eller duplisere eksisterende for å tilpasse dem.
 
@@ -171,7 +171,7 @@ Bare **eieren** av et dashbord kan slette det.
 |---|---|---|
 | Alle CRM-planer | Status-dashbord med standardfigurer | Diagrammer, lister, store tall |
 | **Service** | Saker-dashbord | Sakrelaterte figurer |
-| **Marketing** (Essentials eller høyere) | – | Utsendelser, skjemaer, chat |
+| **Marketing Essentials eller Premium**-lisens eller **Core**-planen | – | Utsendelser, skjemaer, chat |
 | **Sales Premium** eller **Growth** | – | Prognoser, KPI-er, salgsmål, tilbud |
 | **Sales eller Service Premium** eller **Growth** | – | Aktivitetsmonitorer (SAINT) |
 

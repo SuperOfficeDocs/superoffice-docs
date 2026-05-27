@@ -22,7 +22,7 @@ Verwenden Sie Dashboards, um Aktivitäten, Verkäufe, Anfragen und mehr zu verfo
 ![Anfragendashboard -screenshot][img4]
 
 > [!NOTE]
-> Ihr Zugriff auf Dashboards und Kacheldaten hängt von Ihrem Benutzerplan und den zugewiesenen Rechten ab.
+> Ihr Zugriff auf Dashboards und Kacheldaten hängt von Ihrem Plan und den zugewiesenen Rechten ab.
 
 ## Was ist ein Dashboard?
 
@@ -45,7 +45,7 @@ Wählen Sie **Dashboard** im Navigator, um den Dashboard-Bildschirm zu öffnen. 
 * **Favoriten-Dashboards:** Mit einem Sternsymbol markiert
 * **Eigene Dashboards:** Von Ihnen erstellte Dashboards
 
-Standardmäßig ist ein Dashboard namens **Status** verfügbar und angeheftet. Es enthält Kacheln mit vordefinierten Diagrammen und Kennzahlen. Wenn Sie den SuperOffice Service-Plan haben, steht auch ein weiteres Dashboard namens **Anfragen** zur Verfügung.
+Standardmäßig ist ein Dashboard namens **Status** verfügbar und angeheftet. Es enthält Kacheln mit vordefinierten Diagrammen und Kennzahlen. Wenn Sie eine **Service Essentials**-Lizenz oder den **Starter**-Plan haben, steht auch ein weiteres Dashboard namens **Anfragen** zur Verfügung.
 
 Sie können zusätzliche Dashboards erstellen oder bestehende duplizieren, um diese anzupassen.
 
@@ -171,7 +171,7 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 |---|---|---|
 | Alle CRM-Pläne | Status-Dashboard mit Standardkacheln | Diagramme, Listen, große Zahlen |
 | **Service** | Anfragen-Dashboard | Anfragebezogene Kacheln |
-| **Marketing** (Essentials oder höher) | – | Mailings, Formularantworten, Chats |
+| **Marketing Essentials oder Premium**-Lizenz oder den **Core**-Plan | – | Mailings, Formularantworten, Chats |
 | **Sales Premium** oder **Growth** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
 | **Sales oder Service Premium** oder **Growth** | – | Aktivitätsüberwachung (SAINT) |
 
