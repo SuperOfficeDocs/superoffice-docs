@@ -25,7 +25,7 @@ redirect_from:
 
 Veelgestelde vragen (FAQ's) zijn een belangrijk onderdeel van de afhandeling van service-verzoeken. Aangezien veel vragen van klanten zich in de loop van de tijd herhalen, is het een goed idee om veelgestelde vragen te maken die antwoorden op dergelijke terugkerende vragen bevatten.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Voordelen van een bibliotheek met veelgestelde vragen
 

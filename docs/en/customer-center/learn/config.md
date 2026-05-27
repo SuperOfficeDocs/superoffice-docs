@@ -12,7 +12,7 @@ language: en
 
 # Configure Customer Centre <i class="ph ph-question" aria-label="Question mark"></i>
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 You can edit the styling and layout of your customer centre and preview the changes.
 

@@ -18,7 +18,7 @@ language: en
 
 # Customer languages
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 To offer great customer experience you need to support your customers in their local language when they visit your Customer centre and in the communication with the customer.
 

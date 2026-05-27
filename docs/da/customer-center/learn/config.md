@@ -12,7 +12,7 @@ language: da
 
 # Konfigurer kundecenter <i class="ph ph-question" aria-label="Question mark"></i>
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 Du kan redigere stylingen og layoutet af dit kundecenter og få en forhåndsvisning af ændringerne.
 

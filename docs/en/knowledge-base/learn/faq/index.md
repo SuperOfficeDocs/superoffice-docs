@@ -25,7 +25,7 @@ redirect_from:
 
 Frequently Asked Questions (FAQs) are an important part of service request handling. Since many customer inquiries repeat over time, it is a good idea to create FAQs that contain answers to such recurring questions.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Advantages to having an FAQ library
 

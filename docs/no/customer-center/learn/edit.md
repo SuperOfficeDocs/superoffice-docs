@@ -14,7 +14,7 @@ language: no
 
 Du kan oppdatere standardsidene i kundesenteret ved å redigere kildefilene.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Velg <i class="ph ph-list" aria-label="Main menu"></i> **Systeminnstillinger** > **Kundesenter, kildefiler**.
 
