@@ -70,7 +70,7 @@ Før du begynner å bruke salgsmål, må du konfigurere noen få ting i Innstill
 
 1. Klikk på **Lagre**.
 
-    * Gjenta trinn 3-10 for å legge til flere grupper eller firmaer. Dette krever Sales Targets Unlimited-lisensen.
+    * Gjenta trinn 3-10 for å legge til flere grupper eller firmaer. Dette krever **Sales Targets Unlimited**-lisensen.
 
     * Gå til trinn 2 for å legge til salgsmål for et annet år, eller klikk **Lagre og lukk** for å avslutte dette bildet.
 
@@ -127,7 +127,7 @@ For å vise revisjonshistorikken for et salgsmål (rad), klikk <i class="ph ph-l
 
 * Du kan sette opp mål for tidligere år, for å lage budsjettstatistikk bakover i tid.
 
-* Standard måltype er **Alle salg - Beløp**. Hvis du har Sales Targets Unlimited-lisensen, kan du opprette flere måltyper.
+* Standard måltype er **Alle salg - Beløp**. Hvis du har **Sales Targets Unlimited**-lisensen, kan du opprette flere måltyper.
 
 * Bruk feltet **Fritekstsøk** til å finne salgsmål for bestemte grupper og brukere i et bestemt år.
 

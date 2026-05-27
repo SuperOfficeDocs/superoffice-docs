@@ -48,9 +48,9 @@ Hver fane har en spesifikk funksjon for å holde salgsinformasjonen organisert o
 Den nedre delen av Salg-bildet består av detaljkort.
 
 * [Aktiviteter][14]
-* [Salgsguide][16] (krever **Sales Premium** eller **Growth**-plan)
-* [Interessenter][15] (krever **Sales Premium** eller **Growth**-plan)
-* [Tilbud][17] (krever **Sales Premium** eller **Growth**-plan)
+* [Salgsguide][16] (krever en **Sales Premium**-lisens eller **Growth**-planen)
+* [Interessenter][15] (krever en **Sales Premium**-lisens eller **Growth**-planen)
+* [Tilbud][17] (krever en **Sales Premium**-lisens eller **Growth**-planen)
 
 [Salgsguider][3] vises kun for spesifikke salgstyper (definert i Innstillinger og vedlikehold). Hvis du velger en salgstype med en definert salgsguide, vises detaljkortet **Salgsguide**.
 

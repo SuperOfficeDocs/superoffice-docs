@@ -48,9 +48,9 @@ Jede Registerkarte hat eine spezifische Funktion, um Verkaufsinformationen struk
 Der untere Bereich der Verkaufsansicht enthält Bereichsregisterkarten.
 
 * [Aktivitäten][14]
-* [Verkaufsleitfaden][16] (erfordert **Sales Premium** oder **Growth**-Plan)
-* [Beteiligte][15] (erfordert **Sales Premium** oder **Growth**-Plan)
-* [Angebot][17] (erfordert **Sales Premium** oder **Growth**-Plan)
+* [Verkaufsleitfaden][16] (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
+* [Beteiligte][15] (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
+* [Angebot][17] (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
 
 [Verkaufsleitfäden][3] werden nur für bestimmte Verkaufstypen angezeigt (definiert in Einstellungen und Verwaltung). Wenn Sie einen Verkaufstyp auswählen, für den ein Verkaufsleitfaden definiert ist, wird die Bereichsregisterkarte **Verkaufsleitfaden** angezeigt.
 

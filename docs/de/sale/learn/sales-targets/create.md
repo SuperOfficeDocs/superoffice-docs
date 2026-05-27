@@ -68,7 +68,7 @@ Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Ver
 
 1. Klicken Sie auf **Speichern**.
 
-    * Fügen Sie wie in den Schritten 3-10 erläutert weitere Gruppen oder Firmen hinzu. Dazu ist die Sales Targets Unlimited-Lizenz erforderlich.
+    * Fügen Sie wie in den Schritten 3-10 erläutert weitere Gruppen oder Firmen hinzu. Dazu ist die **Sales Targets Unlimited**-Lizenz erforderlich.
 
     * Fügen Sie wie in Schritt 2 erläutert Vertriebsziele für ein weiteres Jahr hinzu oder klicken Sie auf **Speichern und schließen**, um diese Ansicht zu schließen.
 
@@ -125,7 +125,7 @@ Zum Anzeigen des Revisionsverlaufs für ein Vertriebsziel (Zeile) klicken Sie au
 
 * Sie können auch Ziele für frühere Jahre definieren, um Budgetstatistiken für die Vergangenheit zu erstellen.
 
-* Der Standardzieltyp ist **Alle Verkäufe - Betrag**. Mit der Sales Targets Unlimited-Lizenz können Sie zusätzliche Zieltypen erstellen.
+* Der Standardzieltyp ist **Alle Verkäufe - Betrag**. Mit der **Sales Targets Unlimited**-Lizenz können Sie zusätzliche Zieltypen erstellen.
 
 * Sie können mit dem Feld **Volltextsuche** nach Vertriebszielen für bestimmte Gruppen und Benutzer in einem bestimmten Jahr suchen.
 

@@ -32,7 +32,7 @@ It is optional to add the company target and to have user specific targets (go t
 
 ## Requirements
 
-If you only have a **Sales Premium** user plan or the **Growth** plan, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the **Unlimited sales targets** license or the **Super** plan.
+If you only have a **Sales Premium** license or the **Growth** plan, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the **Unlimited sales targets** license or the **Super** plan.
 
 ## Before you start
 
@@ -70,7 +70,7 @@ Before you start using the sales targets feature, you must set up a few things i
 
 1. Click **Save**.
 
-    * Repeat steps 3-10 to add additional groups or companies. This requires the Sales Targets Unlimited licence.
+    * Repeat steps 3-10 to add additional groups or companies. This requires the **Sales Targets Unlimited** license.
 
     * Go to step 2 to add sales targets for another year, or click **Save and close** to exit this screen.
 
@@ -127,7 +127,7 @@ To view the revision history for a sales target (row), click <i class="ph ph-lis
 
 * Your can set up targets for previous years, to create budget statistics back in time.
 
-* The default target type is **All sales - Amount**. If you have the Sales Targets Unlimited licence, you can create additional target types.
+* The default target type is **All sales - Amount**. If you have the **Sales Targets Unlimited** license, you can create additional target types.
 
 * Use the **Free-text search** field to find sales targets for specific groups and users in a specific year.
 

@@ -8,7 +8,7 @@ date: 05.11.2026
 version: 11
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

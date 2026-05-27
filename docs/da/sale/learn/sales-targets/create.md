@@ -71,7 +71,7 @@ Før du begynder at bruge funktionen Salgsmål, skal du konfigurere nogle få ti
 
 1. Klik på **Gem**.
 
-    * Gentag trin 3-10 for at tilføje flere grupper eller virksomheder. Dette kræver Sales Targets Unlimited-licensen.
+    * Gentag trin 3-10 for at tilføje flere grupper eller virksomheder. Dette kræver **Sales Targets Unlimited**-licensen.
 
     * Gå til trin 2 for at tilføje salgsmål for endnu et år, eller klik på **Gem og luk** for at afslutte dette skærmbillede.
 

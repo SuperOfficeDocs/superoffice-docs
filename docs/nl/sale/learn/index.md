@@ -48,9 +48,9 @@ Elk tabblad heeft een specifieke functie, zodat verkoopinformatie georganiseerd 
 Het onderste deel van het scherm **Verkoop** bestaat uit sectietabbladen.
 
 * [Activiteiten][14]
-* [Verkoopgids][16] (vereist **Sales Premium** of **Growth**-plan)
-* [Belanghebbenden][15] (vereist **Sales Premium** of **Growth**-plan)
-* [Offerte][17] (vereist **Sales Premium** of **Growth**-plan)
+* [Verkoopgids][16] (vereist een **Sales Premium**-licentie of het **Growth**-plan)
+* [Belanghebbenden][15] (vereist een **Sales Premium**-licentie of het **Growth**-plan)
+* [Offerte][17] (vereist een **Sales Premium**-licentie of het **Growth**-plan)
 
 [Verkoopgidsen][3] worden alleen weergegeven voor specifieke verkooptypen (gedefinieerd in Instellingen en onderhoud). Als u een verkooptype selecteert waarvoor een verkoopgids is gedefinieerd, wordt het tabblad **Verkoopgids** weergegeven.
 

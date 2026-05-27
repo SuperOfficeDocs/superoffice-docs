@@ -49,9 +49,9 @@ Each tab serves a specific purpose, ensuring sales information is organized and 
 The lower part of the Sale screen consists of section tabs.
 
 * [Activities][14]
-* [Sales guide][16] (requires **Sales Premium** or **Growth** plan)
-* [Stakeholders][15] (requires **Sales Premium** or **Growth** plan)
-* [Quote][17] (requires **Sales Premium** or **Growth** plan)
+* [Sales guide][16] (requires a **Sales Premium** license or the **Growth** plan)
+* [Stakeholders][15] (requires a **Sales Premium** license or the **Growth** plan)
+* [Quote][17] (requires a **Sales Premium** license or the **Growth** plan)
 
 [Sales guides][3] are only shown for specific sale types (defined in Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 

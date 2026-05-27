@@ -48,9 +48,9 @@ Varje flik har ett specifikt syfte och hjälper till att organisera och göra f�
 Den nedre delen av fönstret Försäljning består av detaljkort.
 
 * [Aktiviteter][14]
-* [Säljguide][16] (kräver **Sales Premium** eller **Growth**-plan)
-* [Intressenter][15] (kräver **Sales Premium** eller **Growth**-plan)
-* [Offert][17] (kräver **Sales Premium** eller **Growth**-plan)
+* [Säljguide][16] (kräver en **Sales Premium**-licens eller **Growth**-planen)
+* [Intressenter][15] (kräver en **Sales Premium**-licens eller **Growth**-planen)
+* [Offert][17] (kräver en **Sales Premium**-licens eller **Growth**-planen)
 
 [Säljguider][3] visas endast för specifika försäljningstyper (definieras i Inställningar och underhåll). Om du väljer en försäljningstyp med en definierad säljguide visas detaljkortet **Säljguide**.
 

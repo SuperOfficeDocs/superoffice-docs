@@ -18,7 +18,7 @@ language: en
 # Sales targets
 
 > [!NOTE]
-> This feature requires a **Sales Premium** licence or the **Growth** plan. To add new target types, you also need the **Sales Targets Unlimited** license or the **Super** plan. See details below.
+> This feature requires a **Sales Premium** license or the **Growth** plan. To add new target types, you also need the **Sales Targets Unlimited** license or the **Super** plan. See details below.
 
 The possibility to keep track of your sales opportunities is one of the key functionalities in SuperOffice CRM. With the help of our sales target functionality, you can compare your actual sales to your targets.
 

@@ -18,7 +18,7 @@ language: sv
 # Försäljningsmål
 
 > [!NOTE]
-> Den här funktionen kräver en **Sales Premium**-licens eller **Growth**-planen. För att lägga till nya måltyper behöver du även licensen Sales Targets Unlimited. Läs mer nedan.
+> Den här funktionen kräver en **Sales Premium**-licens eller **Growth**-planen. För att lägga till nya måltyper behöver du även licensen **Sales Targets Unlimited**. Läs mer nedan.
 
 Möjligheten att hålla koll på dina försäljningsmöjligheter är en av de viktigaste funktionerna i SuperOffice CRM. Med hjälp av vår funktion för försäljningsmål kan du jämföra din faktiska försäljning med dina mål.
 

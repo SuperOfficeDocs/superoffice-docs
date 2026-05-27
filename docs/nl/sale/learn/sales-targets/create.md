@@ -127,7 +127,7 @@ Om de revisiegeschiedenis van een verkooptarget (rij) te bekijken, klikt u op <i
 
 * U kunt targets instellen voor voorgaande jaren om statistieken achteraf te creëren.
 
-* Het standaardtargettype is **Alle verkopen – Bedrag**. Met de licentie Unlimited sales targets kunt u extra targettypen aanmaken.
+* Het standaardtargettype is **Alle verkopen – Bedrag**. Met de **Unlimited sales targets**-licentie kunt u extra targettypen aanmaken.
 
 * Gebruik het veld **Vrije-tekst zoeken** om verkooptargets voor specifieke groepen en gebruikers in een bepaald jaar te vinden.
 

@@ -58,11 +58,11 @@ Each sale must have a type, and these types can be linked to specific [stages][1
 
 1. (Optional) Check **Suggest moving the sale into next stage automatically** to prompt users to move to the next stage when all activities for the current stage are completed.
 
-1. (Optional) Check **This sale type has stakeholders** to allow linking of [stakeholders][5] to sales of this type. *(Requires the SalesPremium license)*
+1. (Optional) Check **This sale type has stakeholders** to allow linking of [stakeholders][5] to sales of this type. *(requires a **Sales Premium** license or the **Growth** plan)*
 
 1. Add a description of the sale type in the **Description** field, if needed.
 
-1. For quote management, configure the fields in the **Quote attachments**, **Quote defaults**, and **Quote approval** tabs as described in [Quote fields explained](#quote-fields) below. *(Requires the SalesPremium license)*. These settings allow you to tailor quotes to match your organization's specific needs and processes.
+1. For quote management, configure the fields in the **Quote attachments**, **Quote defaults**, and **Quote approval** tabs as described in [Quote fields explained](#quote-fields) below. *(requires a **Sales Premium** license or the **Growth** plan)*. These settings allow you to tailor quotes to match your organization's specific needs and processes.
 
 1. Click **Save** to apply your changes or **Cancel** to discard them.
 
