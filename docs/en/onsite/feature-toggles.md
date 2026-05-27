@@ -103,7 +103,7 @@ To enable toggled features - you need to add two sections manually in your NetSe
 
  *2 = The ConfigurableSale and ConfigurableProject feature toggle is dependent on the SCILHostedArchives feature toggle
 
- *3 = The NSTicketType feature toggle is dependent on the NewServiceRequest feature toggle, and requires Service Premium and Developer tools
+ *3 = The NSTicketType feature toggle is dependent on the NewServiceRequest feature toggle, and requires Service Premium and Development Tools
 
  *4 = v3 features are added to the V2 tag
 
