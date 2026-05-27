@@ -20,7 +20,7 @@ index: true
 Alle verzoeken die zijn geregistreerd in SuperOffice hebben een type. De standaardtype is "Request". Om verzoektypes te bekijken, toe te voegen, bij te werken en te verwijderen, ga naar **Instellingen en onderhoud**.
 
 > [!NOTE]
-> Deze functie vereist een **Service Premium**-licentie of het **Growth**-plan. Om schermindelingen te definiëren op basis van verzoektypes in de Screen Designer, hebt u ook de **Development Tools**-licentie nodig.
+> Deze functie vereist een **Service Premium**-licentie of het **Growth**-plan. Om schermindelingen te definiëren op basis van verzoektypes in de Screen Designer, hebben **Service Premium**-gebruikers ook de **Development Tools**-licentie nodig (inbegrepen bij het **Core**-plan en hoger).
 
 ## Waarom verzoektypen gebruiken?
 

@@ -24,8 +24,7 @@ Du kan legge til dokumenter (inkludert bilder og andre filer) for å gjøre dem 
 
 Dette gjelder f.eks. når du bruker fanen **Melding** i forbindelse med [saksbehandling][1]. Her kan du skrive inn tekst på samme måte som i et tekstbehandlingsprogram. Du kan også sette inn bilder ved å klikke på **Bilde**-knappen på verktøylinjen, men da må bildet allerede ha vært lastet opp til **Eksterne dokumenter**. Når meldingen sendes, vil det genereres koblinger til filer under **Eksterne dokumenter**. Det samme gjelder f.eks. når du lager svarmaler og SuperOffice Markedsføring-meldinger.
 
-> [!NOTE]
-> Denne funksjonen krever brukerplanen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Vis dokument
 

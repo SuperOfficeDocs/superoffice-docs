@@ -24,8 +24,7 @@ You can add files to make them available to anyone using SuperOffice CRM, includ
 
 For example, when [answering requests][1], you can enter text in the **Message** tab the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 
-> [!NOTE]
-> This feature requires the Service-Premium user plan.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## View file
 

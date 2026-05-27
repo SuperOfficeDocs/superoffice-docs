@@ -24,8 +24,7 @@ redirect_from:
 
 You can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. For example, suppliers, partners, or product specialists. These addresses are accessible in most places where you send emails, such as in the **New request** and **Add message** screens.
 
-> [!NOTE]
-> This feature requires the Service-Premium user plan.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## List email addresses
 

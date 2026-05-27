@@ -27,7 +27,7 @@ Durch die Erstellung von FAQ-Einträgen kann Ihre Firma eine umfassende Sammlung
 
 ## Anforderungen
 
-* Sie benötigen eine Lizenz für **Service Premium** oder den **Growth**-Plan, um die Wissensdatenbank nutzen zu können.
+* Sie benötigen eine **Service Premium**-Lizenz, das **Customer Engagement Platform (CEP)**-Add-on oder den **Growth**-Plan, um die Wissensdatenbank nutzen zu können.
 * Wenn Sie diese Funktion nicht sehen, müssen Sie die *Wissensdatenbank* als funktionales Recht hinzufügen, um FAQs zu erstellen.
 
 ## FAQ-Einträge von einer Anfrage erstellen
