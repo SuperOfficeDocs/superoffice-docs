@@ -47,7 +47,7 @@ Du kan tilføje en person i SuperOffice CRM på flere måder:
 
     * Indtast vigtige oplysninger som **Stilling**, **Fødselsdato** og **Foretrukket sprog**.
     * Tilføj personens kommunikationsoplysninger: **Websted**, **Chat** og **Internettelefon** (for eksempel Skype eller Microsoft Teams).
-    * Hvis relevant, angiv serviceprioritet, og vælg en servicekontaktperson (kræver en SuperOffice Service- eller Customer Centre-licens).
+    * Hvis relevant, angiv serviceprioritet, og vælg en servicekontaktperson (kræver en **Service Premium**-licens, en **CEP**-licens eller **Growth**-planen).
 
     ![Fanen Detaljer med yderligere felter -screenshot][img2]
 
@@ -123,7 +123,7 @@ Følgende felter er tilgængelige i personkortet. Nogle felter udfyldes automati
 * **Internettelefon:** Tilføj en VOIP-adresse, såsom Skype eller en anden internetbaseret telefontjeneste.
 * **Direkte fax:** Indtast personens faxnummer.
 
-**Service-specifikke felter** *(kræver SuperOffice Service eller Customer Centre-licens)*
+**Service-specifikke felter** *(kræver en **Service Premium**-licens, en **CEP**-licens eller **Growth**-planen)*
 
 * **Foretrukket sprog:** Vælg personens foretrukne sprog for alle svarskabeloner.
 * **Tjenesteprioritet:** Angiv prioriteten for nye sager (for eksempel Lav, Middel, Høj eller brugerdefineret). Hvis ikke angivet, arves firmaets prioritet.
