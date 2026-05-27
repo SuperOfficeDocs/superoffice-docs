@@ -42,7 +42,7 @@ To enable this feature in NetServer make sure that the [Globalization section][1
 
 ## Client configuration - Setting up an email account
 
-To use and be able to send an email within Pocket CRM an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web client.
+To use and be able to send an email within Pocket CRM, an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web client.
 
 ## Admin configuration - Add a Template for incoming images (jpeg)
 

@@ -4,6 +4,7 @@ title: Deployment guide
 description: Pocket CRM installation and deployment
 keywords: deploy Pocket, connection path, Pocket license
 author: SuperOffice Product and Engineering
+date: 12.02.2021
 content_type: howto
 platform: pocket
 deployment: onsite
@@ -38,7 +39,7 @@ Common issues are the configuration of document archive (SO_ARC) and email serve
 > [!NOTE]
 > Do not use space or national characters. Use lowercase a-z characters and/or numbers 0-9.
 
-To access the NetServer from the Pocket CRM client, the NetServer needs to be accessible on the public internet that can be addressed and reached using HTTP over a designated port, by default port 80. Firewall and proxies must be properly configured so they don’t cause any problems related to communication between Pocket CRM client and NetServer.
+To access the NetServer from the Pocket CRM client, the NetServer needs to be accessible on the public internet that can be addressed and reached using HTTP over a designated port, by default port 80. Firewall and proxies must be properly configured so they don't cause any problems related to communication between Pocket CRM client and NetServer.
 
 Read more on [Deploy SuperOffice securely onsite][3]
 
@@ -69,7 +70,7 @@ All users must complete the [client installation][6].
 
 The user can set this URL either by typing the address manually or by clicking a SOProtocol link on the device.
 
-To make it easier to configure the URL for Pocket CRM, it is recommended that the installation address, `http://pocket.mydomain.com/pocketcrm/services80/` is sent as an SO protocol to the end-user using SMS or email that is accessible on the device they are to connect to.
+To make it easier to configure the URL for Pocket CRM, it is recommended that the installation address, `http://pocket.mydomain.com/pocketcrm/services84/` is sent as an SO protocol to the end-user using SMS or email that is accessible on the device they are to connect to.
 
 You can send a predefined email with this URL by clicking **Pocket CRM settings** from the SuperOffice Web client:
 
@@ -81,7 +82,7 @@ You can send a predefined email with this URL by clicking **Pocket CRM settings*
 ```xml
 <SoFormsAuthentication>
   <Pages>
-    <add key="PocketCrmServiceUrl" value="[https://my.server.com/SuperOffice/remote/Services80](https://my.server.com/SuperOffice/remote/Services80)" />
+    <add key="PocketCrmServiceUrl" value="https://my.server.com/SuperOffice/remote/Services84" />
 ```
 
 <!-- Referenced links -->

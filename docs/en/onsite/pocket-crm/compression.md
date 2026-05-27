@@ -2,10 +2,12 @@
 uid: zip-on-rest
 title: Compression
 description: ZIP compression on REST
-keywords:
+keywords: ZIP compression
 author: SuperOffice Product and Engineering
+date: 12.02.2021
 content_type: howto
 platform: pocket
+deployment: onsite
 legacy: true
 redirect_from: /en/mobile/pocket-crm/compression
 language: en
@@ -24,7 +26,7 @@ To be able to use IIS dynamic compression, you will need:
 
 Basic Authentication needs to be disabled on the IIS website. SuperOffice Web installer will do it for you since 8.1 R02.
 
-These new features should work in both online and onsite, and onsite remote installations as long as the site is correctly configured, and minimum versions are met.
+These new features work as long as the site is correctly configured, and minimum versions are met.
 
 ## How to enable Json compression on web servers
 

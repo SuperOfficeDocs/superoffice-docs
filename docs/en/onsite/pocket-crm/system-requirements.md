@@ -4,6 +4,7 @@ title: System requirements
 description: System requirements for Pocket CRM mobile client
 keywords: Pocket requirements
 author: SuperOffice Product and Engineering
+date: 12.02.2021
 content_type: reference
 platform: pocket
 deployment: onsite
@@ -33,7 +34,7 @@ These requirements are specific to Onsite installations of SuperOffice. They sup
 
 ## Business card scanner
 
-Business card scanner will work with all SuperOffice versions, both Onsite and Online. It requires the Pocket CRM client to be configured against NetServer (no Pocket server).
+Business card scanner will work with all SuperOffice onsite versions. It requires the Pocket CRM client to be configured against NetServer (no Pocket server).
 
 ## Which Services end-point to use?
 
