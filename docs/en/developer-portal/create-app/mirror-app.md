@@ -21,7 +21,7 @@ This template creates a [database mirroring][6] app configuration for one specif
 
 All custom apps using database mirroring must have a subscription to the **Database Mirroring Service** [Development product][5].
 
-Custom apps may only be used by a customer tenant who have the [Developer Tools license][4].
+Custom apps may only be used by a customer tenant who have the [Development Tools license][4] or CRM Suite Core or higher.
 
 ## Create app
 

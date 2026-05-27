@@ -34,7 +34,7 @@ Custom applications require a subscription to [Development Tools][7] (formerly E
   * Either a **new** integration to a solution you currently use and that is specific to you.
   * Or, a **customized version** of a standard application available in the App Store.
 
-Also, you can make extra tables and custom screens available to users of the Sales and Marketing [user plans][8] through web panels.
+You can also make extra tables and custom screens available to users of the **Sales** and **Marketing** plans, and custom objects available to users of the **Growth** plan, through web panels.
 
 When it is time to develop your application idea, you have 3 options:
 
@@ -69,4 +69,3 @@ Follow our [step-by-step guide][5], started by sending a request to publish in t
 [4]: ../getting-started/app-envir.md
 [5]: validate.md
 [7]: ../../admin/license/expander-services.md
-[8]: ../../admin/license/user-plans.md
