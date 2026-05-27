@@ -72,7 +72,7 @@ Når din mailing er sendt ud, kan du se i fanen **Oversigt**, hvordan den klared
 * **Administrere afviste udsendelser**: En oversigt over alle afviste e-mails. Brug handlingerne til at [rydde op i dine afviste mailadresser][1], enten ved at sætte kontakterne som tidligere ansatte eller ved at slette mailadresserne.
 
 > [!NOTE]
-> Fanerne **Rapporter** og **Sporede links** kræver brugerlicensen: Marketing. Nogle faner er ikke tilgængelige for SMS-forsendelser og dokumentforsendelser.
+> Fanerne **Rapporter** og **Sporede links** kræver en **Marketing Essentials**-licens eller **Growth**-planen. Nogle faner er ikke tilgængelige for SMS-forsendelser og dokumentforsendelser.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

@@ -122,9 +122,9 @@ Det er tilrådeligt for de fleste automatiserede flows at sætte succeskriterier
 
 ## <a id="req"></a>Krav
 
-* Marketing Premium licens (ny tier)
-* Sales essential eller premium - for at oprette et salg
-* Service essential eller premium - for at oprette en sag
+* **Marketing Premium**-licens eller **Plus**-planen
+* **Sales Essentials eller Premium**-licens for at oprette et salg
+* **Service Essentials eller Premium**-licens for at oprette en sag
 * SMS connector - for at sende SMS
 
 ### Funktionelle rettigheder

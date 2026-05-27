@@ -81,7 +81,7 @@ Der integrierte **UTM-Builder** erstellt einen Formularlink mit [UTM-Parametern]
 
 ### Voraussetzungen und Einschränkungen
 
-* Sie haben einen **Marketing Premium**-Benutzerplan.
+* Sie haben eine **Marketing Premium**-Lizenz oder den **Plus**-Plan.
 * Ein Administrator hat [die Übertragung von UTM-Daten für Formularübermittlungen aktiviert][6].
 * UTM-Tracking ist nur für die Option **Direkter Link** verfügbar. Es gilt nicht für eingebettete Formulare.
 

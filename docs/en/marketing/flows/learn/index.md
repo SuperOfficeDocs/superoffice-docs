@@ -122,9 +122,9 @@ It is advisable for most automated flows to set success criteria for enrolled pa
 
 ## <a id="req"></a>Requirements
 
-* Marketing Premium license (new tier)
-* Sales essential or premium - to create a sale
-* Service essential or premium - to create a request
+* **Marketing Premium** license or the **Plus** plan
+* **Sales Essentials or Premium** license to create a sale
+* **Service Essentials or Premium** license to create a request
 * SMS connector - to send SMS
 
 ### Functional rights
