@@ -12,7 +12,7 @@ redirect_from: /en/project/howto/crmscript/index
 
 # Projects
 
-[!include[License requirement](../../../../../../common/includes/req-for-project-mgt.md)]
+[!include[Requirement](../../../../includes/req-core.md)]
 
 ## CRMScript classes
 
