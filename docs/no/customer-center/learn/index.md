@@ -21,7 +21,7 @@ Kundesenteret er viktig for å skape en positiv kundeopplevelse. Kundesenteret e
 Kundesenterfunksjonen i Customer Engagement-plattformen er en frittstående portal som kan integreres i den eksisterende websiden. Kundesenteret kan inneholde elektroniske skjemaer, og du kan også tilby kundene en chattjeneste som lar dem stille spørsmål i senteret.
 
 > [!NOTE]
-> Kundesenteret er en av funksjonene du får med lisensen for Customer Engagement-plattformen.
+> Kundesenteret er en av funksjonene som er inkludert i tilleggsprogrammet **Customer Engagement Platform (CEP)**.
 
 ## Kundesenter-bildet
 

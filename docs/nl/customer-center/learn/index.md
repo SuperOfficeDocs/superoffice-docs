@@ -21,7 +21,7 @@ Klantportaal speelt een grote rol in het creëren van een allround positieve kla
 De functie Klantportaal in het Customer Engagement Platform is een zelfstandig portaal die kan worden geïntegreerd in uw bestaande website. Het Klantportaal kan online formulieren bevatten en u kunt klanten ook een chatservice aanbieden waarmee ze rechtstreeks in het centrum vragen kunnen stellen.
 
 > [!NOTE]
-> Klantportaal is een van de functies die u krijgt met de licentie voor het Customer Engagement-platform.
+> Klantportaal is een van de functies die zijn inbegrepen in de **Customer Engagement Platform (CEP)**-add-on.
 
 ## Het scherm Customer Center
 

@@ -21,7 +21,7 @@ Customer centre plays a big role in creating an all-around positive customer exp
 The Customer centre feature in the Customer Engagement Platform is a standalone portal that can be integrated into your existing website. The Customer centre may include online forms and you can also offer customers a chat service that allows them to ask questions directly in the centre.
 
 > [!NOTE]
-> Customer centre are one of the features you get with the license for Customer Engagement platform.
+> Customer Centre is one of the features included in the **Customer Engagement Platform (CEP)** add-on.
 
 ## The Customer Center screen
 

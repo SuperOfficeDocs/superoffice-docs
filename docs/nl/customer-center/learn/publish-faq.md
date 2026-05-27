@@ -16,7 +16,7 @@ Veelgestelde vragen gepubliceerd in het Klantportaal is een zeer handige manier 
 
 Het opnemen van veelgestelde vragen als zelfhulptool zal waarschijnlijk het aantal verzoeken dat u ontvangt verminderen. Wanneer antwoorden op typische en terugkerende vragen uit de weg zijn, kunnen uw ondersteuningsmedewerkers zich concentreren op meer urgente en gecompliceerde zaken.
 
-U kunt [veelgestelde vragen][1] maken waaruit uw servicemedewerkers kunnen kiezen bij het beantwoorden van vragen van klanten in verzoeken en chats. Vereist de Premium Service licentie.
+U kunt [veelgestelde vragen][1] maken waaruit uw servicemedewerkers kunnen kiezen bij het beantwoorden van vragen van klanten in verzoeken en chats. Vereist een **Service Premium**-licentie of het **Growth**-plan.
 
 ![Bewerk de Veelgestelde vragen-vermelding en selecteer Eigenschappen om de Veelgestelde vragen in SuperOffice Service te publiceren -screenshot][img1]
 

@@ -21,7 +21,7 @@ Kundcentret är också viktigt för att skapa en positiv kundupplevelse. Kundcen
 Kundcenterfunktionen på kundtjänstplattformen är en fristående portal som kan integreras på ditt företags befintliga webbplats. Kundcentret kan innehålla webbformulär och du kan också erbjuda kunderna en chattjänst där de kan ställa frågor direkt i centret.
 
 > [!NOTE]
-> Kundcenter är en av de funktioner som ingår i licensen för kundtjänstplattformen.
+> Kundcenter är en av de funktioner som ingår i tillägget **Customer Engagement Platform (CEP)**.
 
 ## Fönstret Kundcenter
 

@@ -16,7 +16,7 @@ FAQs (Frequently Asked Questions), die im Kundenzentrum veröffentlicht werden, 
 
 Wenn Sie FAQs als Selbsthilfe-Tool verwenden, ist die Anzahl der erhaltenen Anfragen wahrscheinlich geringer. Wenn Ihre Support-Mitarbeiter nicht mehr auf typische und wiederkehrende Fragen antworten müssen, können sie sich auf dringendere und kompliziertere Angelegenheiten konzentrieren.
 
-Sie können [FAQs erstellen][1], aus denen Ihre Service-Mitarbeiter auswählen können, ab wann sie Kundenfragen in Anfragen und Chats beantworten möchten. Dafür ist der Premium-Lizenz-Service erforderlich.
+Sie können [FAQs erstellen][1], aus denen Ihre Service-Mitarbeiter auswählen können, ab wann sie Kundenfragen in Anfragen und Chats beantworten möchten. Dafür ist eine **Service Premium**-Lizenz oder der **Growth**-Plan erforderlich.
 
 ![Bearbeiten Sie den FAQ-Eintrag und wählen Sie Eigenschaften aus, um die FAQ im SuperOffice-Service zu veröffentlichen -screenshot][img1]
 
