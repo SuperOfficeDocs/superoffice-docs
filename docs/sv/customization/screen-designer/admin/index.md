@@ -25,7 +25,7 @@ redirect_from: /sv/customization/screen-designer/index
 ![Skärmdesigner, företagskort, standard fältlayout -screenshot][img5]
 
 > [!NOTE]
-> Denna funktion kräver licensen Development Tools och funktionsrätten "Fältadministratör".
+> Denna funktion kräver licensen Development Tools eller Core-planen och funktionsrätten "Fältadministratör".
 
 ## Varför använda Skärmdesignern?
 
@@ -106,7 +106,7 @@ För att börja anpassa skärmar:
 
 ## Vad händer om jag inte använder Skärmdesignern?
 
-Om du inte har en licens för utvecklingsverktyg organiserar fliken **Mer** automatiskt alla anpassade fält i två kolumner. Detta standardupplägg ger fortfarande ett funktionellt gränssnitt, men utan de avancerade anpassningsalternativ som finns tillgängliga genom Skärmdesignern.
+Om du inte har en licens för utvecklingsverktyg eller Core-planen organiserar fliken **Mer** automatiskt alla anpassade fält i två kolumner. Detta standardupplägg ger fortfarande ett funktionellt gränssnitt, men utan de avancerade anpassningsalternativ som finns tillgängliga genom Skärmdesignern.
 
 ## Sammanfattning
 

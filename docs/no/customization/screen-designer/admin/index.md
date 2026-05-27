@@ -25,7 +25,7 @@ redirect_from: /no/customization/screen-designer/index
 ![Skjermdesigner, firmakort, standard feltoppsett -screenshot][img5]
 
 > [!NOTE]
-> Denne funksjonen krever lisensen Developer Tools og funksjonsrettigheten "Feltadministrator".
+> Denne funksjonen krever lisensen Development Tools eller Core-planen og funksjonsrettigheten "Feltadministrator".
 
 ## Hvorfor bruke Skjermdesigneren?
 
@@ -112,7 +112,7 @@ For å begynne å tilpasse skjermer:
 
 ## Hva hvis jeg ikke bruker Skjermdesigneren?
 
-Hvis du ikke har lisens for utviklingsverktøy, organiserer **Mer**-fanen automatisk alle tilpassede felt i to kolonner. Dette standardoppsettet gir fortsatt et funksjonelt grensesnitt, men uten de avanserte tilpasningsmulighetene som er tilgjengelige gjennom Skjermdesigneren.
+Hvis du ikke har lisens for utviklingsverktøy eller Core-planen, organiserer **Mer**-fanen automatisk alle tilpassede felt i to kolonner. Dette standardoppsettet gir fortsatt et funksjonelt grensesnitt, men uten de avanserte tilpasningsmulighetene som er tilgjengelige gjennom Skjermdesigneren.
 
 ## Oppsummering
 

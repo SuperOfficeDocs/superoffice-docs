@@ -25,7 +25,7 @@ Der **Ansichtsdesigner** in SuperOffice CRM ermöglicht es Ihnen, das Layout der
 ![Ansichtsdesigner, Firmenkarte, Standard-Feldlayout -screenshot][img5]
 
 > [!NOTE]
-> Diese Funktion erfordert die Lizenz Development Tools und das Funktionsrecht "Feldadministrator".
+> Diese Funktion erfordert die Lizenz Development Tools oder den Core-Plan und das Funktionsrecht "Feldadministrator".
 
 ## Warum den Ansichtsdesigner verwenden?
 
@@ -112,7 +112,7 @@ Um mit der Anpassung von Bildschirmen zu beginnen:
 
 ## Was, wenn ich den Ansichtsdesigner nicht benutze?
 
-Wenn Sie keine Development Tools Lizenz haben, organisiert der **Mehr**-Tab automatisch alle benutzerdefinierten Felder in zwei Spalten. Diese Standardkonfiguration bietet eine funktionale Ansicht, jedoch ohne die erweiterten Anpassungsoptionen des Ansichtsdesigners.
+Wenn Sie keine Development Tools Lizenz oder den Core-Plan haben, organisiert der **Mehr**-Tab automatisch alle benutzerdefinierten Felder in zwei Spalten. Diese Standardkonfiguration bietet eine funktionale Ansicht, jedoch ohne die erweiterten Anpassungsoptionen des Ansichtsdesigners.
 
 ## Zusammenfassung
 
