@@ -4,11 +4,11 @@ title: Request categories
 description: Request categories
 keywords: request category, Categories tab, request, category
 author: digitaldiina
-date: 03.25.2026
+date: 05.11.2026
 version: 10.5
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

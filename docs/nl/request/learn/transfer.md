@@ -3,13 +3,13 @@ uid: help-nl-request-transfer
 title: Andere verzoekbehandelaar om hulp vragen
 description: Leer hoe u een verzoek kunt overdragen aan een andere verzoekbehandelaar.
 keywords: verzoek, delegeren, verzoek overdragen, eigenaar wijzigen
-author: Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+tier: starter
 language: nl
 redirect_from: /nl/request/learn/howto/transfer
 ---

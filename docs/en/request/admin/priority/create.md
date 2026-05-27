@@ -3,12 +3,12 @@ uid: help-en-request-priority-create
 title: Create priority
 description: Create priority
 keywords: create request priority, add request priority, new request priority, request priority, Priorities tab, Escalation events, escalation chain, request, priority
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

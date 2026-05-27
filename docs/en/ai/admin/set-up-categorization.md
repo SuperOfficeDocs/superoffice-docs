@@ -4,11 +4,11 @@ title: Set up AI-based categorization
 description: How to train and configure categorization in SuperOffice AI
 keywords: AI, categorization, machine learning, training
 author: digitaldiina
-date: 10.15.2025
+date: 05.11.2026
 version: 11.5
 content_type: tutorial
 license: aiplatform, categorization
-tier: core
+tier: growth
 category: automation
 topic: ai
 deployment: online

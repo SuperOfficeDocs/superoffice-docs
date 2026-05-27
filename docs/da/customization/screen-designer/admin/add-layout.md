@@ -4,11 +4,11 @@ title: Tilføj layout
 description: Sådan tilføjes et nyt layout for en brugergruppe.
 keywords: tilføj layout, nyt layout, skærmlayout, Tildel layout til
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Tilføj layout
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Uanset om du tilføjer en personlig visning for en valgt brugergruppe eller designer et layout optimeret til specifikke projekt-, salgs-, sag- og opfølgningstyper eller dokumentskabeloner, skal du starte med at tilføje et nyt layout til en skærm i Skærmdesigneren.
 

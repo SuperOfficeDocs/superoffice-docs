@@ -70,7 +70,7 @@ Er zijn drie belangrijke gebieden waarop de AVG van invloed is op het werk van m
 ## Eisen
 
 > [!NOTE]
-> Voor functionaliteit als gevolgde koppelingen en rapporteren is de gebruikerslicentie Marketing vereist. U hebt ook functionele rechten nodig om mailings te bewerken en te verzenden.
+> Voor functionaliteit als gevolgde koppelingen en rapporteren is een **Marketing Essentials**-licentie of het **Growth**-plan vereist. U hebt ook functionele rechten nodig om mailings te bewerken en te verzenden.
 
 SMS-mailing is niet beschikbaar als u CRM Online gebruikt.
 

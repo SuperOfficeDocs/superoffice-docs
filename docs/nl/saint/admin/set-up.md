@@ -21,7 +21,7 @@ redirect_from:
 
 # Nieuwe activiteitsbewaking instellen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Met statusbewaking ziet u in één oogopslag alle klanten die aandacht nodig hebben.
 

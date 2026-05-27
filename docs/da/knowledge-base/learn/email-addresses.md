@@ -24,8 +24,7 @@ redirect_from:
 
 Du kan oprette en liste over e-mail-adresser, som du ofte har brug for, men som ikke er registreret på sagsbehandlere eller personer i SuperOffice Service. Dette kan for eksempel være underleverandører, samarbejdspartnere og produktspecialister. Disse adresser er tilgængelige de fleste steder, du har behov for at sende e-mails, f.eks. i skærmbillederne **Ny sag** og **Tilføj meddelelse**.
 
-> [!NOTE]
-> Denne funktion kræver brugerplanen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## E-mailadresser
 

@@ -4,11 +4,11 @@ title: Werken met sectietabbladen (archieven)
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
 keywords: sectietabblad toevoegen, nieuw sectietabblad, archieftabblad toevoegen, sectietabblad aanpassen, sectietabblad-opmaak
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -21,6 +21,8 @@ redirect_from:
 ---
 
 # Werken met sectietabbladen (archieven)
+
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 U kunt de opmaak aanpassen door sectietabbladen (ook wel archieven genoemd) toe te voegen of te verwijderen op de hoofdkaarten voor de schermen Bedrijf, Persoon, Verkoop, Project en Verzoek.
 

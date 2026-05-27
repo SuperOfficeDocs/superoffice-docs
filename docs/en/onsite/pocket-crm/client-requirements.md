@@ -7,6 +7,7 @@ author: SuperOffice Product and Engineering
 date: 09.12.2023
 content_type: reference
 platform: pocket
+deployment: onsite
 legacy: true
 redirect_from: /en/mobile/pocket-crm/client-requirements
 language: en
@@ -14,7 +15,7 @@ language: en
 
 # Requirements for Pocket CRM mobile client
 
-## Operation system
+## Operating system
 
 * iOS - Pocket CRM client (Available from Apple App Store)
 * Google Android - Pocket CRM client  (Available from Google Play)

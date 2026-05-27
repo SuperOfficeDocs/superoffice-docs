@@ -85,7 +85,7 @@ The [steps to update all App Store information][3] are the same.
 
 | Setting | Description | Read more |
 |---|---|---|
-| SuperOffice CRM plan | Which SuperOffice user plans are supported. | [How to install tab][4] |
+| SuperOffice CRM plan | Which SuperOffice plans are supported. | [How to install tab][4] |
 | Getting started | The steps needed to install and use the application. | [How to install tab][4] |
 | Additional requirements | All system requirements. | [How to install tab][4] |
 

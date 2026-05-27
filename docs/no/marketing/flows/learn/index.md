@@ -122,9 +122,9 @@ Det er tilrådelig for de fleste automatiserte flyter å sette suksesskriterier 
 
 ## <a id="req"></a>Krav
 
-* Marketing Premium-lisens (nytt nivå)
-* Sales essential eller premium - for å opprette et salg
-* Service essential eller premium - for å opprette en sak
+* **Marketing Premium**-lisens eller **Plus**-planen
+* **Sales Essentials eller Premium**-lisens for å opprette et salg
+* **Service Essentials eller Premium**-lisens for å opprette en sak
 * SMS-modul - for å sende SMS
 
 ### Funksjonelle rettigheter

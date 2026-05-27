@@ -3,12 +3,12 @@ uid: help-sv-sale
 title: Försäljning
 description: SuperOffice Sales hjälper säljteam att hålla koll på sina försäljningspipelines och processer.
 keywords: fönstret Försäljning, försäljningskort, försäljningsskärm, försäljning, affärsmöjlighet, sälj
-author: Bergfrid Dias
-date: 06.26.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.5
 content_type: concept
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -48,9 +48,9 @@ Varje flik har ett specifikt syfte och hjälper till att organisera och göra f�
 Den nedre delen av fönstret Försäljning består av detaljkort.
 
 * [Aktiviteter][14]
-* [Säljguide][16] (kräver Sales Premium)
-* [Intressenter][15] (kräver Sales Premium)
-* [Offert][17] (kräver Sales Premium)
+* [Säljguide][16] (kräver en **Sales Premium**-licens eller **Growth**-planen)
+* [Intressenter][15] (kräver en **Sales Premium**-licens eller **Growth**-planen)
+* [Offert][17] (kräver en **Sales Premium**-licens eller **Growth**-planen)
 
 [Säljguider][3] visas endast för specifika försäljningstyper (definieras i Inställningar och underhåll). Om du väljer en försäljningstyp med en definierad säljguide visas detaljkortet **Säljguide**.
 

@@ -4,11 +4,11 @@ title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -99,6 +99,9 @@ Längst upp på fliken **Meddelande** kan du skicka svar och vidarebefordra medd
 På fliken **Detaljer** visas en översikt över alla fält som finns registrerad för ärendet.
 
 ### <a id="log"></a>Ändringslogg
+
+> [!NOTE]
+> Ändringsloggen kräver en **Service Premium**-licens eller **Growth**-planen.
 
 På denna skärm visas loggen för ärendet. Alla händelser registreras, inkl. när de inträffade, vad som hände och vem som var ansvarig.
 

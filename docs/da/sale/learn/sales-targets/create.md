@@ -3,8 +3,8 @@ uid: help-da-sales-targets-create
 title: Opsæt salgsmål
 description: Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil hjælpe dig med at sætte de rigtige forventninger, planlægge din vækst, øge motivationen og spare tid.
 keywords: salgsmål
-author: SuperOffice Product and Engineering
-date: 05.04.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.13
 content_type: howto
 license: salespremium
@@ -33,7 +33,7 @@ Det er valgfrit at tilføje virksomhedens mål og have brugerspecifikke mål (g�
 ## Krav
 
 
-Hvis du kun har en Sales Premium-licens, kan du tilføje én gruppe for måltypen **Alle salg – Beløb**. For at tilføje mere end én brugergruppe skal du også have licensen Ubegrænsede salgsmål.
+Hvis du kun har en **Sales Premium**-licens eller **Growth**-planen, kan du tilføje én gruppe for måltypen **Alle salg – Beløb**. For at tilføje mere end én brugergruppe skal du også have licensen Ubegrænsede salgsmål.
 
 ## Før du starter
 
@@ -71,7 +71,7 @@ Før du begynder at bruge funktionen Salgsmål, skal du konfigurere nogle få ti
 
 1. Klik på **Gem**.
 
-    * Gentag trin 3-10 for at tilføje flere grupper eller virksomheder. Dette kræver Sales Targets Unlimited-licensen.
+    * Gentag trin 3-10 for at tilføje flere grupper eller virksomheder. Dette kræver **Sales Targets Unlimited**-licensen.
 
     * Gå til trin 2 for at tilføje salgsmål for endnu et år, eller klik på **Gem og luk** for at afslutte dette skærmbillede.
 

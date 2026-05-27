@@ -3,12 +3,12 @@ uid: help-de-request-accept
 title: Anfrage annehmen (Verantwortung übernehmen)
 description: So nehmen Sie eine Anfrage an, um zu vermeiden, dass mehrere Personen gleichzeitig auf dieselbe Anfrage antworten.
 keywords: Anfrage annehmen, übernehmen, Verantwortung, Anfrageeigentümer, nächste in Warteschlange, Anfrage, beantworten, annehmen, übernehment
-author: Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

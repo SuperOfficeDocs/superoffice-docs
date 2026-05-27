@@ -3,12 +3,12 @@ uid: help-da-request-split
 title: Opdel en sag
 description: Lær, hvordan du opdeler en sag i SuperOffice.
 keywords: opdel sag, sag
-author: Hanne Gunnarsson
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

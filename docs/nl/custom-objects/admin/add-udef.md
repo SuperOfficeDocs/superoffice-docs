@@ -38,7 +38,7 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 1. Als u klaar bent, klik op **Opslaan**. Het dialoogvenster sluit en het nieuwe veld wordt weergegeven in de lijst **Velden** en in het raster.
 
-1. [Optioneel, pas de positie van het veld aan][3]. Dit vereist een licentie voor Development Tools!
+1. [Optioneel, pas de positie van het veld aan][3]. Dit vereist een licentie voor Development Tools of het Core-plan.
 
 1. Ga door met het toevoegen van velden. Klik op **Publiceren** als u klaar bent om het veld beschikbaar te maken voor SuperOffice-gebruikers. Niet-gepubliceerde velden  en velden met niet-gepubliceerde wijzigingen worden vet weergegeven in de lijst **Velden**.
 

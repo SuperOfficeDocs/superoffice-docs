@@ -26,8 +26,7 @@ Nadat een offerte is geaccepteerd, kunt u met één klik een order genereren en 
 
 SuperOffice Quote ondersteunt de volledige offerte-naar-order-cyclus. Het helpt u om sneller nieuwe of bijgewerkte offertes op te stellen en versnelt de overgang van lead naar gesloten verkoop.
 
-> [!NOTE]
-> Deze functie vereist het Sales Premium-gebruikersplan.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Offertescherm met een offerte voor John Smith -screenshot][img1]
 

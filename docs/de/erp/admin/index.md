@@ -3,8 +3,8 @@ uid: help-de-erp-admin
 title: ERP-Synchronisierung verwalten
 description: Einführung in die Konfiguration der Synchronisation zwischen SuperOffice CRM und externen ERP-Systemen.
 keywords: ERP-Registerkarte, ERP-System, ERP-Akteur, Sync Connector, ERP-Verbindung, Synchronisation, Connector, Verbindung, Angebot/Sync-Bildschirm, ERP
-author: Bergfrid Dias
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: concept
 license: development-tools
@@ -20,7 +20,7 @@ index: true
 
 Die Registerkarte **Sync** im Bildschirm Angebot/Sync unter **Einstellungen und Verwaltung** listet Sync Connectors und ERP-Verbindungen auf, die die Integration zwischen SuperOffice CRM und externen ERP-Systemen ermöglichen.
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 ## Begriffserklärungen
 

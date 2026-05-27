@@ -19,7 +19,7 @@ redirect_from: /en/admin/lists/learn/sale-amount-class
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-The **Sale - Amount class** list is part of the activity monitor (SAINT) function, which requires a **Sales Premium** or **Service Premium** user plan.
+The **Sale - Amount class** list is part of the activity monitor (SAINT) function, which requires a **Sales Premium** or **Service Premium** license or the **Growth** plan.
 
 An amount class for a sale can be used to categorize sales into different classes, for example, small, medium, large and very large. You specify the amount range for the different amount classes in the currency your organization uses (and additional currencies if required). Amount classes can be used to search for substantial lost sales during a period.
 

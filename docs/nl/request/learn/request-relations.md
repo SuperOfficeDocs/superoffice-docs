@@ -4,13 +4,13 @@ title: Verzoekrelaties
 description: Leer hoe u gerelateerde verzoeken kunt koppelen met behulp van bovenliggende, onderliggende en gerelateerde relaties om verbonden problemen in SuperOffice Service beter te volgen en te beheren.
 keywords: verzoekrelaties, verzoeken koppelen, bovenliggend verzoek, onderliggend verzoek, gerelateerde verzoeken
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: howto
 category: service
 topic: request
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

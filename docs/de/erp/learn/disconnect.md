@@ -3,8 +3,8 @@ uid: help-de-erp-disconnect-actor
 title: ERP-Synchronisierung deaktivieren
 description: ERP-Synchronisierung deaktivieren
 keywords: ERP trennen, ERP-Registerkarte, Verbindung trennen, trennen, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: development-tools
@@ -17,7 +17,7 @@ redirect_from: /de/admin/erp/learn/erp-sync-disconnect
 
 # Synchronisierung deaktivieren
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 1. Gehen Sie zur Ansicht Firma, Person oder Projekt und wählen Sie die Registerkarte **ERP** aus.
 1. Klicken Sie auf **Bearbeiten**.

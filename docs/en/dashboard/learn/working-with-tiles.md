@@ -4,7 +4,7 @@ title: Working with tiles
 description: Learn how to add, customize, and manage tiles in your SuperOffice dashboards.
 keywords: add tile, edit tile, copy tile, duplicate tile, remove tile, customize tile, dataset, dashboard, tile
 author: digitaldiina
-date: 11.21.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 tier: core
@@ -18,6 +18,8 @@ redirect_from:
 ---
 
 # Working with tiles
+
+[!include[License requirement](../../includes/req-core.md)]
 
 Learn how to add, customize, and manage tiles in your SuperOffice dashboards. Tiles are visual summaries based on CRM data—ideal for tracking requests, sales, activities, or marketing results.
 

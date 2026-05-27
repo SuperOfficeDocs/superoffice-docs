@@ -122,9 +122,9 @@ Voor de meeste geautomatiseerde flows is het raadzaam om succescriteria voor ing
 
 ## <a id="req"></a>Vereisten
 
-* Marketing Premium licentie (nieuw niveau)
-* Sales essentieel of premium - om een verkoop te maken
-* Service essentieel of premium - om een verzoek te maken
+* **Marketing Premium**-licentie of het **Plus**-plan
+* **Sales Essentials of Premium**-licentie om een verkoop te maken
+* **Service Essentials of Premium**-licentie om een verzoek te maken
 * SMS connector - om SMS te verzenden
 
 ### Functionele rechten

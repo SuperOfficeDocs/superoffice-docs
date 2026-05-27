@@ -1,16 +1,20 @@
 ---
-title: Bulk update extra-fields
 uid: bulkupdate_extra_fields
+title: Bulk update extra-fields
 description: Bulk update extra-fields
-author: Tony Yates
-date: 06.23.2017
 keywords: bulk update, custom field, extra field
-topic: reference
+author: Tony Yates
+date: 05.11.2026
+tier: core
+content_type: reference
 envir: cloud
 client: online
+language: en
 ---
 
 # Bulk update extra-fields
+
+[!include[License requirement](../../../../includes/req-core.md)]
 
 <!-- markdownlint-disable-file MD033 -->
 <table>

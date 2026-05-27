@@ -3,13 +3,13 @@ uid: help-nl-request-delete
 title: Verzoeken verwijderen
 description: Hoe u een verzoek in SuperOffice kunt verwijderen
 keywords: verzoek verwijderen, verzoek
-author: Hanne Gunnarsson
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 functional_right: Service-beheer, Algemene beheerder
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

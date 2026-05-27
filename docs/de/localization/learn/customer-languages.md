@@ -18,7 +18,7 @@ language: de
 
 # Kundensprachen
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 Für ein großartiges Kundenerlebnis müssen Sie Ihre Kunden beim Besuch Ihres Kundenzentrums und bei der Kommunikation mit dem Kunden in ihrer Landessprache unterstützen.
 

@@ -3,16 +3,20 @@ uid: crmscript-quote
 title: Quotes
 description: Working with quotes in CRMScript
 keywords: sale, quote
-author: Bergfrid Dias
-date: 06.12.2023
+author: digitaldiina
+date: 05.11.2026
 version: 10
 content_type: concept
+tier: growth
 redirect_from:
   - /en/quote/howto/index
   - /en/quote/howto/crmscript/index
+language: en
 ---
 
 # Quotes
+
+[!include[License requirement](../../../../includes/req-growth-transition-sales.md)]
 
 For you as a CRMScript developer, working with quotes means that:
 

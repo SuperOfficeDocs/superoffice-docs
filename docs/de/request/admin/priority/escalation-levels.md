@@ -3,12 +3,12 @@ uid: help-de-request-escalation
 title: Eskalationsstufen
 description: Eskalationsstufen
 keywords: Eskalationsstufe, Eskalationsstufe hinzufügen, neue Stufe, eskalieren, Eskalationsstufen-Registerkarte, Anfragepriorität, Anfrage, Priorität
-author: Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
-license: serviceessentials
-tier: core
+license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

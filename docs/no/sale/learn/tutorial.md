@@ -3,12 +3,12 @@ uid: help-no-working-with-sales-guide
 title: Eksempel – salgsguide
 description: Arbeide med salgsguide
 keywords: salgsguide
-author: SuperOffice RnD
-date: 02.03.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

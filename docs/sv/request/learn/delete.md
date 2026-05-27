@@ -3,13 +3,13 @@ uid: help-sv-request-delete
 title: Ta bort ärenden
 description: Så här tar du bort ett ärende i SuperOffice
 keywords: ta bort ärende, ärende
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 functional_right: Service administration, General Administrator
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

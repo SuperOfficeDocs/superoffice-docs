@@ -22,7 +22,7 @@ redirect_from:
 
 Being proactive means to control an expected situation before it arises. With SuperOffice Sales Intelligence (SAINT) you get the opportunity to follow up on your customers at the right time and take control over any scenario. SAINT is designed to monitor your database and help you be proactive and anticipate events that may affect your business.
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## What is SAINT and what can it do
 
@@ -37,7 +37,7 @@ These questions are the starting point for the decision to take action. By takin
 
 ## Statuses
 
-If you have purchased a licence for SAINT ("SAles INTelligence"), you can specify criteria for status monitors of companies, contacts and projects in Settings and maintenance. Statuses generated from these criteria can be visualized as an image shown in the company cards, contact cards or project cards. For example, you can display an image of a warning triangle for a customer who has required a lot of sales meetings but who has not generated any sales, or a spider's web for a customer who has not been contacted in more than three months. This provides you with a clear and instant indication of particular statuses, which may be very useful to sales staff.
+You can specify criteria for status monitors of companies, contacts and projects in Settings and maintenance. Statuses generated from these criteria can be visualized as an image shown in the company cards, contact cards or project cards. For example, you can display an image of a warning triangle for a customer who has required a lot of sales meetings but who has not generated any sales, or a spider's web for a customer who has not been contacted in more than three months. This provides you with a clear and instant indication of particular statuses, which may be very useful to sales staff.
 
 ## A simple example
 

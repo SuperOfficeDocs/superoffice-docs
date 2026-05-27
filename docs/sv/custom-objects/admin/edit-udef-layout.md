@@ -3,7 +3,7 @@ uid: help-sv-udef-layout
 title: Anpassa användargränssnitt
 description: Anpassa användargränssnitt
 author: Bergfrid Dias
-date: 01.29.2024
+date: 05.11.2026
 version: 10
 keywords: udef, anpassa fält
 content_type: howto
@@ -16,7 +16,7 @@ index: true
 
 # Anpassa användargränssnitt
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 SuperOffice version 10 (utgiven i oktober 2021) introducerade [Skärmdesigner][1] med anpassningsbara skärmlayouter för specifika användargrupper. Eventuella anpassade skärmlayouter med skärmdesignern kan åsidosätta de inställningar som beskrivs nedan.
 

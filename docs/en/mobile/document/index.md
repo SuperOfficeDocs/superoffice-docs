@@ -4,9 +4,10 @@ title: Documents
 description: Learn about working with documents in SuperOffice Mobile CRM.
 keywords: mobile, document, email, activity
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: reference
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/document/index
 language: en

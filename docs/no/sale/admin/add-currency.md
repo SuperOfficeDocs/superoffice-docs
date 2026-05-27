@@ -4,12 +4,12 @@ title: Legge til forekomster på Valuta-listen
 description: Legge til forekomster på Valuta-listen
 keywords: valuta, listen Generelt – Valuta
 author: digitaldiina
-date: 10.28.2025
+date: 05.11.2026
 version: 10.5
 content_type: howto
 category: sale
 license: salesessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

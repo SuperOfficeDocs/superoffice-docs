@@ -3,12 +3,12 @@ uid: help-de-request-status
 title: Anfragestatus
 description: Anfragestatus
 keywords: Anfragestatus, Anfragestatus-Registerkarte, Anfrage, Status
-author: Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

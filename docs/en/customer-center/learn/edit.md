@@ -14,7 +14,7 @@ language: en
 
 You can update the default pages in your customer centre by editing the source files.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Select <i class="ph ph-list" aria-label="Main menu"></i> **System settings** > **Customer centre source files**.
 

@@ -3,12 +3,12 @@ uid: help-en-request-split
 title: Split requests
 description: Split requests
 keywords: split request, split, Properties of the new request, request
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

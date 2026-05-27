@@ -4,11 +4,11 @@ title: Skärmdesigner
 description: Lär dig hur du konfigurerar skärmar i den här guiden.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: concept
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -25,7 +25,7 @@ redirect_from: /sv/customization/screen-designer/index
 ![Skärmdesigner, företagskort, standard fältlayout -screenshot][img5]
 
 > [!NOTE]
-> Denna funktion kräver licensen Development Tools och funktionsrätten "Fältadministratör".
+> Denna funktion kräver licensen Development Tools eller Core-planen och funktionsrätten "Fältadministratör".
 
 ## Varför använda Skärmdesignern?
 
@@ -106,7 +106,7 @@ För att börja anpassa skärmar:
 
 ## Vad händer om jag inte använder Skärmdesignern?
 
-Om du inte har en licens för utvecklingsverktyg organiserar fliken **Mer** automatiskt alla anpassade fält i två kolumner. Detta standardupplägg ger fortfarande ett funktionellt gränssnitt, men utan de avancerade anpassningsalternativ som finns tillgängliga genom Skärmdesignern.
+Om du inte har en licens för utvecklingsverktyg eller Core-planen organiserar fliken **Mer** automatiskt alla anpassade fält i två kolumner. Detta standardupplägg ger fortfarande ett funktionellt gränssnitt, men utan de avancerade anpassningsalternativ som finns tillgängliga genom Skärmdesignern.
 
 ## Sammanfattning
 

@@ -3,8 +3,8 @@ uid: help-sv-erp-connect-actor
 title: Koppla till ERP
 description: Koppla till ERP
 keywords: koppla till ERP, koppla företag till ERP, koppla kontakt till ERP, koppla projekt till ERP, ingen träff i ERP, skapa aktör, skapa i ERP, ERP-aktör, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: development-tools
@@ -19,7 +19,7 @@ redirect_from:
 
 # Koppla till ERP
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 Du kan koppla ett SuperOffice-företag till en kund eller leverantör i ERP-systemet. Kontakter som är registrerade på SuperOffice-företaget kan därefter kopplas till kontakter i ERP-systemet. På motsvarande sätt kan SuperOffice-projekt kopplas till projekt i ERP-systemet. Data kommer då att synkroniseras mellan SuperOffice och ERP-systemet.
 

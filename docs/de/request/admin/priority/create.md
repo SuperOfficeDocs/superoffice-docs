@@ -3,12 +3,12 @@ uid: help-de-request-priority-create
 title: Priorität erstellen
 description: Priorität erstellen
 keywords: Anfragepriorität erstellen, Anfragepriorität hinzufügen, neue Anfragepriorität, Anfragepriorität, Prioritäten-Registerkarte, Eskalationsereignisse, Eskalationskette, Eskalationssequenz, Anfrage, Priorität
-author: Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

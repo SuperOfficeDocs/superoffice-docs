@@ -23,8 +23,7 @@ index: true
 
 Skærmbilledet **Tilbud/Sync** i Indstillinger og vedligeholdelse er det sted, hvor du konfigurerer alt, hvad der er nødvendigt for at aktivere tilbud og ordrer i SuperOffice CRM.
 
-> [!NOTE]
-> Denne funktion kræver brugerplanen **Sales Premium**.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Produkter og prislister
 

@@ -4,11 +4,11 @@ title: Edit the layout of a card
 description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
 keywords: screen layout, edit layout, change layout, delete layout, Reset to factory settings
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -23,7 +23,7 @@ redirect_from:
 
 # Edit the layout of a card
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 When you have [created a new layout][6], it is time to customize it. Personalize the layout for the main cards and archives to match your organization's information needs.
 

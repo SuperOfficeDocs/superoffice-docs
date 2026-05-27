@@ -4,11 +4,11 @@ title: Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
 keywords: add button, new button, add link, new link, label
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Add a button or link
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Custom buttons and links are added to the **Preview** pane when editing a layout. The URL is used to open a webpage in the current or new tab, run a CRMScript from the screen, or navigate to other parts of SuperOffice using [SoProtocol][3].
 

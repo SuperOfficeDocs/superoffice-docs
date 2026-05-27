@@ -19,7 +19,7 @@ redirect_from:
 
 # Tællere og tællerindstillinger
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 En **tæller** er en værdi såsom antallet af salg i en periode eller datoen for det senest fuldførte salg. Tællere kan bruges som søgekriterier til at finde firmaer, personer eller projekter.
 

@@ -59,7 +59,7 @@ The list of [platform features][6] available to a tenant is shown in the **Tenan
 ## Related content
 
 * [Check tenant status via State API][4]
-* [Licences in Settings and maintenance][6]
+* [Licenses in Settings and maintenance][6]
 
 <!-- Referenced links -->
 [4]: ../best-practices/tenant-status/check-status.md

@@ -4,11 +4,11 @@ title: Referentie
 description: Referentie van elementen beschikbaar in de Schermontwerper in Instellingen en onderhoud.
 keywords: Schermontwerper velden, standaardveld, standaardtabblad
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: reference
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization

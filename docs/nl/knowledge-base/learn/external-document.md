@@ -24,8 +24,7 @@ U kunt documenten toevoegen (inclusief afbeeldingen en andere bestanden) en besc
 
 Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoeken beantwoordt][1]. daar kunt u tekst invoeren zoals in een tekstverwerker. U kunt ook afbeeldingen invoegen door te klikken op het pictogram **Afbeelding** op de werkbalk. In dat geval moet de afbeelding wel al zijn geüpload naar **Externe documenten**. Wanneer het bericht is verzonden, worden koppelingen gegenereerd naar bestanden onder **Externe documenten**. Hetzelfde is van toepassing wanneer u bijvoorbeeld antwoordsjablonen en SuperOffice Marketing-berichten maakt.
 
-> [!NOTE]
-> Deze functie vereist de gebruikerslicentie Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Document bekijken
 

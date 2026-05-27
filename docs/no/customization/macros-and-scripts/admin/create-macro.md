@@ -4,7 +4,7 @@ title: Opprette en makro – eksempel fra SuperOffice
 description: Eksempel på hvordan du oppretter en makro i SuperOffice.
 keywords: skript, makro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -18,6 +18,8 @@ index: true
 ---
 
 # Opprette en makro – eksempel fra SuperOffice
+
+[!include[License requirement](../../../includes/req-core.md)]
 
 Mange bedrifter mottar ofte saker relatert til fakturering. Slike saker skal rett til regnskapsavdelingen. I stedet for å redigere hver sak og endre kategori og eier, kan vi opprette en makro som utfører alle disse handlingene. Makroen kan tilordnes til **Oppgave**-knappen i skjermbildet Sak. Fakturaspørsmål kan dermed delegeres til regnskapsavdelingen med bare ett klikk.
 

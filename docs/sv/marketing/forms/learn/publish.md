@@ -80,7 +80,7 @@ Den inbyggda **UTM-byggaren** skapar en formulärlänk med [UTM-parametrar][4], 
 
 ### Förutsättningar och begränsningar
 
-* Du har en **Marketing Premium**-användarplan.
+* Du har en **Marketing Premium**-licens eller **Plus**-planen.
 * En administratör har [aktiverat överföring av UTM-data för formulärinlämningar][6].
 * UTM-spårning är endast tillgänglig för alternativet **Direktlänk**. Den gäller inte för inbäddade formulär.
 

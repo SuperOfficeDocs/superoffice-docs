@@ -3,12 +3,12 @@ uid: help-de-sale-forecasting
 title: Pipeline überwachen und Umsatz prognostizieren
 description: Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe von Dashboards und Selektionen prognostiziert.
 keywords: Verkauf, Prognose, Pipeline
-author: Bergfrid Dias
-date: 09.19.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de

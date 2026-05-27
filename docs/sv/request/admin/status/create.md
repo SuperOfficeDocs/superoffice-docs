@@ -3,12 +3,12 @@ uid: help-sv-request-status-create
 title: Skapa ärendestatus
 description: Lär dig hur du skapar en ärendestatus i den här steg-för-steg-guiden.
 keywords: skapa ärendestatus, ny ärendestatus, lägga till ärendestatus, ärendestatus, intern status, köstatus, registrera tid, ärende, status
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

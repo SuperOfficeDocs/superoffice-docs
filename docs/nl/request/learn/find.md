@@ -3,12 +3,12 @@ uid: help-nl-request-find
 title: Zoek een verzoek
 description: In deze gids leert u hoe u aanvragen kunt vinden in SuperOffice
 keywords: verzoek, zoeken, zoeken
-author: Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

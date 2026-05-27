@@ -24,8 +24,7 @@ Du kan du lägga till dokument (inkl. bilder och andra filer) så att de blir ti
 
 Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på ett ärende][1]. Här kan du skriva text på samma sätt som i ett ordbehandlingsprogram. Du kan även infoga bilder genom att klicka på knappen **Bild** i verktygsfältet men då måste bilden redan vara uppladdad till **Externa dokument**. När meddelandet skickas skapas länkar till filer under **Externa dokument**. Samma sak gäller när du t.ex. skapar svarsmallar och meddelanden i SuperOffice Marketing.
 
-> [!NOTE]
-> Den här funktionen kräver användarlicensen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Visa dokument
 

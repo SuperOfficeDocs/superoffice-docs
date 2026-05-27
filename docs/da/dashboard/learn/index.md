@@ -22,7 +22,7 @@ Brug dashboards til at holde styr på aktiviteter, salg, sager og meget mere. Du
 ![Sags-dashboard -screenshot][img4]
 
 > [!NOTE]
-> Din adgang til dashboards og rudedata afhænger af din brugerplan og tildelte rettigheder.
+> Din adgang til dashboards og rudedata afhænger af din plan og tildelte rettigheder.
 
 ## Hvad er et dashboard?
 
@@ -45,7 +45,7 @@ Vælg **Dashboard** i navigatoren for at åbne dashboard-skærmbilledet. Du har 
 * **Favoritdashboards:** Markerede med en stjerne
 * **Egne dashboards:** Dashboards, du selv har oprettet
 
-Som standard er et dashboard kaldet **Status** tilgængeligt og fastgjort. Det indeholder ruder med foruddefinerede diagrammer og nøgletal. Hvis du har SuperOffice Service-brugerplanen, er et andet dashboard kaldet **Sager** også tilgængeligt.
+Som standard er et dashboard kaldet **Status** tilgængeligt og fastgjort. Det indeholder ruder med foruddefinerede diagrammer og nøgletal. Hvis du har en **Service Essentials**-licens eller **Starter**-planen, er et andet dashboard kaldet **Sager** også tilgængeligt.
 
 Du kan oprette flere dashboards eller duplikere eksisterende for at tilpasse dem.
 
@@ -171,9 +171,10 @@ Kun **ejeren** af et dashboard kan slette det.
 |---|---|---|
 | Alle CRM-planer | Status-dashboard med standardruder | Diagrammer, lister, store tal |
 | **Service** | Sager-dashboard | Ruder relateret til sager |
-| **Marketing** (Essentials eller højere) | – | Mails, formularindsendelser, chats |
-| **Sales Premium** | – | Prognoser, KPI'er, salgsmål, tilbud |
-| **Sales eller Service Premium** | – | Aktivitetsmonitorer (SAINT) |
+| **Marketing Essentials**-licens eller **Core**-planen | – | Mails, chats |
+| **Marketing Premium**-licens eller **Plus**-planen | – | Formularindsendelser |
+| **Sales Premium** eller **Growth** | – | Prognoser, KPI'er, salgsmål, tilbud |
+| **Sales eller Service Premium** eller **Growth** | – | Aktivitetsmonitorer (SAINT) |
 
 ## Tips
 

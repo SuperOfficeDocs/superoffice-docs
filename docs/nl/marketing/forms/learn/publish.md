@@ -81,7 +81,7 @@ De ingebouwde **UTM-builder** maakt een formulierlink met [UTM-parameters][4], z
 
 ### Vereisten en beperkingen
 
-* Je hebt een **Marketing Premium**-gebruikersplan.
+* Je hebt een **Marketing Premium**-licentie of het **Plus**-plan.
 * Een beheerder heeft [de overdracht van UTM-gegevens voor formulierinzendingen ingeschakeld][6].
 * UTM-tracking is alleen beschikbaar voor de optie **Directe link**. Het is niet van toepassing op ingesloten formulieren.
 

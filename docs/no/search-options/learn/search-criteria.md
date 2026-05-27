@@ -118,7 +118,7 @@ Hvis feltet du søker i er et felt som inneholder lister, for eksempel feltet **
 
 Hvis feltet du søker i er et statusfelt, velger du ønsket status.
 
-Statusene opprettes og vedlikeholdes i Innstillinger og vedlikehold. Statusfelt er bare aktuelle hvis du har kjøpt lisens for og aktivert statusovervåking.
+Statusene opprettes og vedlikeholdes i Innstillinger og vedlikehold. Statusfelt er bare aktuelle hvis du har kjøpt lisens for og [aktivert statusovervåking](../../saint/admin/set-up.md).
 
 ### <a id="counter"></a>Tellerfelt
 
@@ -136,7 +136,7 @@ Tellerfelt finner du under **Tellere (SAINT)** i listen med kriterier.
 
 1. Avhengig av hva du valgte ovenfor, vises en liste for et datofelt eller et tallfelt. Disse listeboksene fungerer som beskrevet ovenfor. Velg ønsket alternativ, og skriv inn ønsket tallverdi eller dato i tekstfeltet.
 
-Tellerne opprettes og vedlikeholdes i Innstillinger og vedlikehold. Tellerfelt er bare relevante hvis du har kjøpt lisens for og aktivert statusovervåking.
+Tellerne opprettes og vedlikeholdes i Innstillinger og vedlikehold. Tellerfelt er bare relevante hvis du har kjøpt lisens for og [aktivert statusovervåking](../../saint/admin/set-up.md).
 
 ## Arbeide med søkekriterier
 

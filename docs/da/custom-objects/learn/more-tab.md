@@ -4,7 +4,7 @@ title: Mere-fanen
 description: Lær hvordan du bruger Mere-fanen i SuperOffice CRM til at se og administrere brugerdefinerede felter for firmaer, personer, salg, projekter, opfølgninger og dokumenter.
 keywords: Mere-fane, fanen Mere, brugerdefineret felt, ekstra felt, tilpasset felt
 author: Bergfrid Skaara Dias
-date: 11.29.2024
+date: 05.11.2026
 version: 10.3.11
 content_type: howto
 audience: person
@@ -53,7 +53,7 @@ Klik på <i class="ph ph-pencil-simple" aria-label="Edit"></i> for at redigere o
 
 ## Yderligere tips
 
-* **Tilpas felterne**: Tilføjelse af brugerdefinerede felter eller justering af layout kræver administrativ adgang og i nogle tilfælde en licens til Development Tools.
+* **Tilpas felterne**: Tilføjelse af brugerdefinerede felter eller justering af layout kræver administrativ adgang og i nogle tilfælde en licens til Development Tools eller **Core**-planen.
 
 ## Relateret indhold
 

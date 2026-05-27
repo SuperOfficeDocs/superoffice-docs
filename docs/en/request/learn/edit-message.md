@@ -3,12 +3,12 @@ uid: help-en-request-message-edit
 title: Edit message
 description: How to edit a message in a request in SuperOffice
 keywords: edit message properties, update message properties, change message properties, edit message, update message, request
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: general administrator
 audience: person
 audience_tooltip: SuperOffice Service

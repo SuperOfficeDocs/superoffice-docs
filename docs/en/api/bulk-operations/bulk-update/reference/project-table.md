@@ -1,13 +1,15 @@
 ---
-title: Project table
 uid: bulkupdate_project_table
+title: Project table
 description: Bulk update project table
-author: Tony Yates
-date: 06.23.2017
 keywords: bulk update, project
-topic: reference
+author: Tony Yates
+date: 05.11.2026
+tier: core
+content_type: reference
 envir: cloud
 client: online
+language: en
 ---
 
 # Project table
@@ -15,7 +17,7 @@ client: online
 Project fields. Key constants are in `BulkUpdateSystem.ProjectFieldValueKeys`.
 
 > [!NOTE]
-> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][2].
+> Project management requires either a **Sales Premium**, **Service Premium**, or **Marketing Essentials** license, or the **Core** plan. For details, see the [list of user plans][2].
 
 <!-- markdownlint-disable-file MD033 -->
 <table>
@@ -70,7 +72,7 @@ Project fields. Key constants are in `BulkUpdateSystem.ProjectFieldValueKeys`.
         </tr>
         <tr>
             <td>
-                <p>Done&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>Done</p>
             </td>
             <td>
                 <p>Check, Toggle</p>
@@ -158,7 +160,7 @@ Project fields. Key constants are in `BulkUpdateSystem.ProjectFieldValueKeys`.
         </tr>
         <tr>
             <td>
-                <p>Published&nbsp;&nbsp;</p>
+                <p>Published</p>
             </td>
             <td>
                 <p>Check</p>

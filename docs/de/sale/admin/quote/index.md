@@ -23,8 +23,7 @@ index: true
 
 In der Ansicht **Angebot/Sync** unter Einstellungen und Verwaltung konfigurieren Sie alles, was Sie für die Angebots- und Auftragserstellung in SuperOffice CRM benötigen.
 
-> [!NOTE]
-> Diese Funktion erfordert die Benutzerlizenz **Sales Premium**.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Produkte und Preislisten
 

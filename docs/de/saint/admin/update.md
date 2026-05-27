@@ -27,7 +27,7 @@ redirect_from:
 
 # Aktivitätsüberwachung aktualisieren
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## SAINT-Bildschirm öffnen
 

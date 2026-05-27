@@ -51,7 +51,7 @@ Change the value for `reg_id = 320` in the table registry
 
 ![ How to enable cURL -screenshot][img1]
 
-This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to **Developer Tools**).
+This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to **Development Tools**).
 
 ### How to troubleshoot mail when using cURL
 

@@ -4,13 +4,13 @@ title: Tutorial - Flytt landfeltet til toppen
 description: I denne veiledningen vil du lære hvordan du flytter landfeltet på en firma- eller personskjerm.
 keywords: land felt, skjermdesigner
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: no
@@ -28,7 +28,7 @@ Når du er ferdig, bør det se slik ut:
 
 ![Firmakort -screenshot][img1]
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 ## Trinn 2: Åpne Skjermdesigneren
 

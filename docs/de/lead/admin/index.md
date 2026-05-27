@@ -59,9 +59,9 @@ Die Kategorieautomatisierung reduziert die manuelle Arbeit, indem Firmenkategori
 
 Detaillierte Schritte finden Sie unter [Lead-Kategorisierung automatisieren][6].
 
-## Schritt 4: (Optional) Mit Marketing Premium erweitern
+## Schritt 4: (Optional) Mit **Marketing Premium** erweitern
 
-Wenn Sie Marketing Premium verwenden, können Sie zusätzliche Nachverfolgungs- und Automatisierungsfunktionen in Ihrem Lead-Prozess nutzen:
+Wenn Sie die **Marketing Premium**-Lizenz oder den **Plus**-Plan haben, können Sie zusätzliche Nachverfolgungs- und Automatisierungsfunktionen in Ihrem Lead-Prozess nutzen:
 
 * **UTM-Tracking:** Erfassen Sie die Quelle neuer Leads aus Onlineformularen.
   Siehe [UTM-Daten aus Formularen verfolgen][5].

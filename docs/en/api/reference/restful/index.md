@@ -5,7 +5,7 @@ description: WebAPI reference
 author: Bergfrid Dias
 date: 11.19.2021
 keywords: API, web services, WebAPI, SOAP, REST
-topic: reference
+content_type: reference
 ---
 
 # WebAPI

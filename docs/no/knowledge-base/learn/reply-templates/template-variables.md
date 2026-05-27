@@ -3,15 +3,15 @@ uid: help-no-template-variables-service
 title: Malvariabler
 description: Malvariabler
 keywords: malvariabler, malvariabel
-author: SuperOffice Product and Engineering
-date: 06.29.2022
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: reference
 category: service
 topic: knowledge base
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+tier: starter
 language: no
 redirect_from: /no/request/reply-templates/learn/template-variables
 ---

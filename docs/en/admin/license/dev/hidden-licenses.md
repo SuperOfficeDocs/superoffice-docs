@@ -46,7 +46,7 @@ The fields in the [modulelicense fields][3]  are described separately.
     <OwnerName>SUPEROFFICE</OwnerName>
     <LicenseType>SiteLicense</LicenseType>
     <ModuleName>expander-services</ModuleName>
-    <ModuleDescription>Developer Tools</ModuleDescription>
+    <ModuleDescription>Development Tools</ModuleDescription>
     <ModuleTooltip>Activates CS Extra Tables, External Users, ERP Sync, Custom Apps</ModuleTooltip>
     <ModuleVersion>11.11</ModuleVersion>
     <NumberOfLicenses>1</NumberOfLicenses>

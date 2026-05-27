@@ -3,8 +3,8 @@ uid: help-nl-erp-connect-actor
 title: Verbinding maken met ERP
 description: Verbinding maken met ERP
 keywords: verbinding met ERP, bedrijf koppelen aan ERP, contactpersoon koppelen aan ERP, project koppelen aan ERP, kan geen overeenkomst vinden in ERP, maken in ERP, actor maken, ERP-actor, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: development-tools
@@ -19,7 +19,7 @@ redirect_from:
 
 # Verbinding maken met ERP
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 U kunt een SuperOffice-bedrijf koppelen aan een klant of leverancier in het ERP-systeem. Personen die zijn geregistreerd bij het SuperOffice-bedrijf kunnen vervolgens worden gekoppeld aan individuen in het ERP-systeem. Op dezelfde manier kunnen SuperOffice-projecten worden gekoppeld aan projecten in het ERP-systeem. De gegevens worden vervolgens gesynchroniseerd tussen SuperOffice en het ERP-systeem.
 

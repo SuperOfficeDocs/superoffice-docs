@@ -4,9 +4,10 @@ title: Sales
 description: Learn how to create, view, and update sales in SuperOffice Mobile CRM.
 keywords: opportunity, manage sales, sale, upcoming, closed, overdue
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: concept
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/sale/index
 language: en

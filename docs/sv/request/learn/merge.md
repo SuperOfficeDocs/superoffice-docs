@@ -3,12 +3,12 @@ uid: help-sv-request-merge
 title: Slå ihop ärenden
 description: Slå ihop ärenden i SuperOffice Service.
 keywords: slå ihop ärenden, ärende, sammanfoga ärenden
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

@@ -81,7 +81,7 @@ The built-in **UTM builder** generates a form link with [UTM parameters][4] so S
 
 ### Prerequisites and limitations
 
-* You have a **Marketing Premium** user plan.
+* You have a **Marketing Premium** license or the **Plus** plan.
 * An administrator has [enabled UTM data transfer for form submissions][6].
 * UTM tracking is available only for the **Direct link** option. It is not applicable for embedded forms.
 

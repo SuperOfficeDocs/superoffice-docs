@@ -1,20 +1,22 @@
 ---
-title: Sale table
 uid: bulkupdate_sale_table
+title: Sale table
 description: Bulk update sale table
-author: Tony Yates
-date: 06.23.2017
 keywords: bulk update, sale
-topic: reference
+author: Tony Yates
+date: 05.11.2026
+tier: starter
+content_type: reference
 envir: cloud
 client: online
+language: en
 ---
 
 # Sale table
 
 Sale fields. Key constants are in `BulkUpdateSystem.SaleFieldValueKeys`.
 
-[!include[ALT](../../../../../../common/includes/req-sales-essentials.md)]
+[!include[License requirement](../../../../includes/req-starter-transition-sales.md)]
 
 <!-- markdownlint-disable-file MD033 -->
 <table>

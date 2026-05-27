@@ -2,13 +2,13 @@
 uid: help-no-request-category-delete
 title: Slett sakskategori
 description: Slett sakskategori
-author: Hanne Gunnarsson
-date: 02.05.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 keywords: slett sakskategori, overfør saker til, sakskategori, sak, kategori
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

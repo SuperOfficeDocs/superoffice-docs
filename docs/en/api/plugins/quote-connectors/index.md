@@ -1,12 +1,14 @@
 ---
-title: ERP Quote Connector Interface
 uid: quote_connectors
+title: ERP Quote Connector Interface
 description: ERP Quote Connector Interface
-author: Eivind Fasting
-date: 01.31.2025
 keywords: quote, connector, setup
+author: Eivind Fasting
+date: 05.11.2026
 content_type: concept
+tier: growth
 redirect_from: /en/api/netserver/plugins/quote-connectors/index
+language: en
 ---
 
 # ERP Quote Connector Interface
@@ -20,7 +22,7 @@ The SuperOffice Quote Management system is based on an architecture that allows 
 
 ![quote database][img2]
 
-[!include[License requirement](../../../../../common/includes/req-sales-prem.md)]
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Architecture
 

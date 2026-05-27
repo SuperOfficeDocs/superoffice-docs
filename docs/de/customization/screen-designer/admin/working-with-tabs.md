@@ -4,11 +4,11 @@ title: Arbeiten mit Registerkarten
 description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Verwaltung.
 keywords: Layout, Registerkartenlayout, Registerkarte hinzufügen, Registerkarte entfernen, Registerkarte wiederherstellen, Felder gruppieren, Weitere Registerkarte, Überschrift hinzufügen, Beschriftung hinzufügen, Trennlinie hinzufügen
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /de/customization/screen-designer/working-with-tabs
 
 # Arbeiten mit Registerkarten
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 Diese Anleitung geht davon aus, dass Sie bereits [das Layout bearbeiten][2]. Die folgenden Abschnitte erklären, wie Sie Registerkarten in SuperOffice CRM organisieren und anpassen, um die Benutzeroberfläche an die Bedürfnisse Ihrer Organisation anzupassen.
 

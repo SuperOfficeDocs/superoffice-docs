@@ -24,8 +24,7 @@ redirect_from:
 
 Sie können eine Liste mit E-Mail-Adressen erstellen, die Sie häufig verwenden, die aber für Benutzer oder Personen in SuperOffice Service nicht erfasst wurden. Zum Beispiel Lieferanten, Partnern oder Produktspezialisten. Diese Adressen sind in den meisten Situationen verfügbar, in denen Sie eine E-Mail senden müssen, zum Beispiel in den Ansichten **Neue Anfrage** und **Mitteilung hinzufügen**.
 
-> [!NOTE]
-> Diese Funktion erfordert den Benutzerplan Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Liste der E-Mail-Adressen
 

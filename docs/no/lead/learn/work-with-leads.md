@@ -73,7 +73,7 @@ I **Søk**-skjermen kan du legge til kriterier som:
 * **Person** > **Leadstatus** – Er en av / Er ikke en av.
 * **Firma** > **Kategorigruppe** – Er en av / Er ikke en av.
     Bruk dette for å svare på spørsmål som «List alle mine potensielle kunder» eller «List alle mine kunder» (i stedet for å legge inn flere enkelkategorier som kriterier).
-* **Firma** > **Lead** eller **Person** > **Lead** basert på [UTM-data][5] (krever Marketing Premium).
+* **Firma** > **Lead** eller **Person** > **Lead** basert på [UTM-data][5] (krever en **Marketing Premium**-lisens eller **Plus**-planen).
 
 ![Filtrere personer etter Leadstatus og Kategorigruppe i Søk etter person-kriteriepanelet. -screenshot][img3]
 

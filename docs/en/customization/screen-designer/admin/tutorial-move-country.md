@@ -4,11 +4,11 @@ title: Tutorial - Front-load country
 description: In this tutorial, you will learn how to move the country field on a company or contact.
 keywords: country field, screen designer
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: tutorial
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -30,7 +30,7 @@ When you are done, it should look something like this:
 
 ![Company card -screenshot][img1]
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Step 2: Open the Screen Designer
 

@@ -3,12 +3,12 @@ uid: help-de-request-message-split
 title: Nachricht aufteilen
 description: Nachricht aufteilen
 keywords: Anfrage, Nachricht aufteilen, neue Anfrage erstellen, Nachrichten trennen
-author: Hanne Gunnarsson
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

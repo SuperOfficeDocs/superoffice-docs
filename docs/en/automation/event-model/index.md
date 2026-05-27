@@ -1,11 +1,13 @@
 ---
-title: Event model
 uid: event_model
+title: Event model
 description: CRMScript event model
-author:
-date:
-keywords:
+keywords: CRMScript, event model, HtmlPage
+author: digitaldiina
+date: 05.11.2026
 content_type: concept
+tier: core
+language: en
 ---
 
 # CRMScript event model
@@ -14,7 +16,7 @@ The event model was introduced in version 4.2. The scripts are connected to even
 
 Currently, only event scripts for pages are supported, which are in the `HtmlPage.` namespace. In the future, other events, such as database saving or loading may be supported by using other namespace areas.
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 ## Events
 

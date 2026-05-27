@@ -4,11 +4,11 @@ title: Berichten bijhouden
 description: Hoe u berichten in een verzoek kunt markeren en filteren
 keywords: verzoek, bericht, markeren, vlag
 author: digitaldiina
-date: 11.28.2025
+date: 05.11.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

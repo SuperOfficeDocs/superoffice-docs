@@ -4,11 +4,11 @@ title: Opmaak toewijzen aan groep, type of sjabloon
 description: Hoe u een opmaak toewijst aan een groep, verkooptype, projecttype of verzoektype met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: schermopmaak, opmaak toewijzen, opmaak
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /nl/customization/screen-designer/assign-layout
 
 # Opmaak toewijzen aan groep, type of sjabloon
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 ## Stappen
 

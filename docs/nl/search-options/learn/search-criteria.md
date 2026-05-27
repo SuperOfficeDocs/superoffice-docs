@@ -120,13 +120,13 @@ Klik buiten de lijst om de lijst te sluiten.
 
 Als het veld waarin u zoekt een statusveld is, selecteer dan de vereiste status.
 
-De statussen worden gemaakt en bijgehouden in Instellingen en onderhoud. Statusvelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en statuscontroles hebt ingeschakeld.
+De statussen worden gemaakt en bijgehouden in Instellingen en onderhoud. Statusvelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en [statuscontroles hebt ingeschakeld](../../saint/admin/set-up.md).
 
 ### <a id="counter"></a>Tellerveld
 
 [Tellers][3] kunnen bijvoorbeeld voor het aantal verkopen binnen een periode staan, of voor de datum van de laatst afgeronde verkoop.
 
-Tellervelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en statuscontroles hebt ingeschakeld.
+Tellervelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en [statuscontroles hebt ingeschakeld](../../saint/admin/set-up.md).
 
 1. U kunt rechts van de velden klikken op de koppelingen als u aanvullende criteria voor de tellers wilt opgeven. De beschikbare opties zijn afhankelijk van het type record en de teller waarmee u werkt.
 

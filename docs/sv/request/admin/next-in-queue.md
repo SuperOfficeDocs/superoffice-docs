@@ -3,13 +3,14 @@ uid: help-sv-request-next-in-queue
 title: Hämta nästa ärende i kön
 description: Hämta nästa ärende i kön
 keywords: hämta nästa ärende i kön, ärende, kösystem, tilldelningsmetod, tilldela inte, otilldelad, köstatus
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+license: servicepremium
+tier: growth
 language: sv
 redirect_from: /sv/request/learn/next-in-queue
 index: true

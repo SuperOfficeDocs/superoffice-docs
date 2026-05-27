@@ -3,12 +3,12 @@ uid: help-de-request-priority-delete
 title: Priorität löschen
 description: Priorität löschen
 keywords: Anfragepriorität löschen, Anfragepriorität, Anfrage, Priorität, Gelöschte Objekte anzeigen
-author: Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

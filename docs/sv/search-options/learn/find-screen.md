@@ -20,7 +20,7 @@ För att söka efter poster och data i SuperOffice CRM använder du fönstret **
 Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM. I slutet av det här avsnittet har vi inkluderat exempel för att ge dig tips kring hur man söker.
 
 > [!NOTE]
-> Om du har licens för Developer Tools kan du söka efter produkter i befintliga offerter. Om du har licens för SuperOffice Service kan du söka efter ärenden.
+> Om du har en Development Tools-licens eller Core-planen kan du söka efter produkter i befintliga offerter. Om du har en Service Essentials- eller Premium-licens kan du söka efter ärenden.
 
 ## Steg
 

@@ -59,9 +59,9 @@ Kategoriautomatisering reduserer manuelt arbeid ved å oppdatere firmakategorier
 
 For detaljerte trinn, se [Automatiser leadkategorisering][6].
 
-## Trinn 4: (Valgfritt) Utvid med Marketing Premium
+## Trinn 4: (Valgfritt) Utvid med **Marketing Premium**
 
-Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
+Hvis du har **Marketing Premium**-lisensen eller **Plus**-planen, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
 
 * **UTM-sporing:** Fange kilden til nye leads fra nettskjemaer.
     Se [Spor skjema-UTM-data][5].

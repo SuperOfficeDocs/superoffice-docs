@@ -4,7 +4,7 @@ title: Create or edit a script
 description: Create a script
 keywords: script, macro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 tier: core
@@ -20,6 +20,8 @@ index: true
 ---
 
 # Create or edit a script
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

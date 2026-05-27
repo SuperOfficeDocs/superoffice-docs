@@ -70,7 +70,7 @@ There are three key areas in which the GDPR affects the work of marketeers:
 ## Requirements
 
 > [!NOTE]
-> Tracked links and reporting features require the Marketing User licence. You also need functional rights to edit and send mailings.
+> Tracked links and reporting features require a **Marketing Essentials** license or the **Growth** plan. You also need functional rights to edit and send mailings.
 
 ## Necessary skills
 

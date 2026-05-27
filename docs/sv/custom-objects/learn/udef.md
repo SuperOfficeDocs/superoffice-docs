@@ -3,7 +3,7 @@ uid: help-sv-udef
 title: Användardefinierade fält
 description: Användardefinierade fält
 author: Bergfrid Dias
-date: 08.27.2024
+date: 05.11.2026
 version: 10.3.1
 keywords: udef, anpassa fält, användardefinierad fält
 content_type: concept
@@ -15,6 +15,8 @@ redirect_from: /sv/custom-objects/learn/udef/index
 ---
 
 # Användardefinierade fält
+
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Ett *användardefinierat* fält (udef) är ett anpassat fält som du lägger till i en standard SuperOffice-databastabell. Du kan utöka följande enheter:
 
@@ -28,7 +30,7 @@ Ett *användardefinierat* fält (udef) är ett anpassat fält som du lägger til
 Användardefinierade fält hanteras i Inställningar och underhåll, i **Fält**-skärmen. I applikationen är användardefinierade fält synliga på **Mer**-fliken för den enhet de lades till. Till exempel visas ett användardefinierat fält på ett företag på **Mer**-fliken i Företagsskärmen.
 
 > [!NOTE]
-> Alla kan **uppdatera** data lagrade i ett användardefinierat fält. Endast en administratör kan lägga till (eller ta bort) ett användardefinierat fält. Du behöver en Development Tools-licens för att anpassa layouten för **Mer**-fliken och använda sidan 1-fält.
+> Alla kan **uppdatera** data lagrade i ett användardefinierat fält. Endast en administratör kan lägga till (eller ta bort) ett användardefinierat fält. Du behöver **Core**-planen för att anpassa layouten för **Mer**-fliken och använda sidan 1-fält.
 
 ## <a id="field-types"></a>Fälttyper
 
@@ -78,7 +80,7 @@ Bland de användardefinierade fälten som visas på fliken **Mer** i SuperOffice
 * Fliken **Detaljer** i dialogrutan Dokument
 
 > [!NOTE]
-> Sida-1 fält kräver licensen Development Tools och är inte tillgängligt om organisationen använder en annan layout via [Skärmdesignern][8].
+> Sida-1 fält kräver **Core**-planen och är inte tillgängligt om organisationen använder en annan layout via [Skärmdesignern][8].
 
 ## Exempel
 

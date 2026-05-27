@@ -23,7 +23,6 @@ We have tested SuperOffice Web, Service, and WebTools for Mac 13.2.50.0 on MacOS
 
 <a href="../../../assets/downloads/compatibility/maclink---os-macos-tahoe.xlsx" download>Click to download report</a>
 
-
 ## Windows Server 2025
 
 ![Windows Server 2025][img22]

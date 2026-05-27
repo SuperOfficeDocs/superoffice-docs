@@ -4,11 +4,11 @@ title: Assign layout to group, type, or template
 description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
 keywords: screen layout, assign layout, layout
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Assign layout to group, type, or template
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

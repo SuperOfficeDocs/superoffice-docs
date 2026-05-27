@@ -4,21 +4,21 @@ title: Extratabeller
 description: Extratabeller
 keywords: extratabell
 author: Bergfrid Dias
-date: 08.27.2024
+date: 05.11.2026
 version: 10.3.8
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: sv
 redirect_from: /sv/custom-objects/learn/extra-table/index
 ---
 
 # Extratabeller
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
-SuperOffice Development Tools-licensen ger dig möjligheten att skapa extra tabeller i databasen.
+Development Tools-licensen eller Core-planen ger dig möjligheten att skapa extra tabeller i databasen.
 
 **Tabeller**-skärmen är ditt verktyg för anpassning av databasschemat.
 

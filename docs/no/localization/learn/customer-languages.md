@@ -18,7 +18,7 @@ language: no
 
 # Kundespråk
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 For å kunne tilby gode kundeopplevelser må du støtte kundene dine på deres eget språk når de besøker kundesenteret og i kommunikasjonen med kunden.
 

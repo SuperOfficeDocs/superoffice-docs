@@ -4,11 +4,11 @@ title: Legg til skjermlayout
 description: Slik legger du til et nytt oppsett for en brukergruppe ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: legg til layout, nytt layout, skjermoppsett, Tilordne layout til
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Legg til skjermlayout
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Enten du legger til en personlig visning for en valgt brukergruppe eller designer en layout som er optimalisert for spesifikke prosjekt-, salgs-, sak- og oppfølgingstyper eller dokumentmaler, starter du med å legge til en ny layout for en skjerm i Skjermdesigneren.
 

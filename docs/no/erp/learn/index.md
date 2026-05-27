@@ -3,8 +3,8 @@ uid: help-no-erp
 title: ERP
 description: ERP
 keywords: ERP-fane, ERP-system, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: concept
 license: development-tools
@@ -23,7 +23,7 @@ Hvis organisasjonen din bruker et ERP-system som er koblet til SuperOffice CRM, 
 
 ## ERP-fanen
 
-**ERP-fanen** vises på skjermbildene **Firma**, **Person** og **Prosjekt** dersom organisasjonen din har en lisens for [Development Tools][1].
+**ERP-fanen** vises på skjermbildene **Firma**, **Person** og **Prosjekt** dersom organisasjonen din har en **Development Tools**-lisens eller **Growth**-planen.
 
 Bruk **ERP-fanen** til å:
 

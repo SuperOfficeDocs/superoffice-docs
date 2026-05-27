@@ -120,7 +120,7 @@ Klicka utanför listan för att stänga den.
 
 Om fältet som du ska söka i är ett statusfält, välj en status.
 
-Statusarna skapas och administreras i Inställningar och underhåll. Statusfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
+Statusarna skapas och administreras i Inställningar och underhåll. Statusfält är bara aktuella om du har köpt licens för och [aktiverat statusövervakning](../../saint/admin/set-up.md).
 
 ### <a id="counter"></a>Räknarfält
 
@@ -138,7 +138,7 @@ Räknarfält finns under **Räknare (SAINT)** i listan över kriterier.
 
 1. Beroende på vad du har valt ovan så visas en listruta för datumfält eller sifferfält. Dessa listrutor fungerar som beskrivs ovan. Välj önskat alternativ och skriv ett siffervärde eller datum i textfältet.
 
-Räknarna skapas och administreras i Inställningar och underhåll. Räknarfält är bara aktuella om du har köpt licens för och aktiverat statusövervakning.
+Räknarna skapas och administreras i Inställningar och underhåll. Räknarfält är bara aktuella om du har köpt licens för och [aktiverat statusövervakning](../../saint/admin/set-up.md).
 
 ## Arbeta med sökkriterier
 

@@ -80,7 +80,7 @@ Den innebygde **UTM-byggeren** oppretter en skjemakoblingen med [UTM-parametere]
 
 ### Forutsetninger og begrensninger
 
-* Du har en **Marketing Premium**-brukerplan.
+* Du har en **Marketing Premium**-lisens eller **Plus**-planen.
 * En administrator har [aktivert overføring av UTM-data for skjemainnleveringer][6].
 * UTM-sporing er bare tilgjengelig for alternativet **Direktekobling**. Den gjelder ikke for innebygde skjemaer.
 

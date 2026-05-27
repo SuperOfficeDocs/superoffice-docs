@@ -3,9 +3,9 @@ uid: help-en-erp-disconnect-actor
 title: Disable ERP synchronization
 description: Disable ERP synchronization
 keywords: disconnect ERP, ERP tab, disconnect, ERP
-author: SuperOffice RnD
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: howto
 license: development-tools
 tier: growth
@@ -17,7 +17,7 @@ redirect_from: /en/admin/erp/learn/erp-sync-disconnect
 
 # Disable synchronization
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 1. Go to the Company screen, Contact screen, or Project screen, and select the **ERP** tab.
 1. Click **Edit**.

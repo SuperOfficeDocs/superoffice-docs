@@ -122,9 +122,9 @@ Für die meisten automatisierten Flows ist es ratsam, Erfolgskriterien für eing
 
 ## <a id="req"></a>Anforderungen
 
-* Marketing-Premium-Lizenz (neue Stufe)
-* Sales Essential oder Premium - um einen Verkauf zu erstellen
-* Service Essential oder Premium - um eine Anfrage zu erstellen
+* **Marketing Premium**-Lizenz oder den **Plus**-Plan
+* **Sales Essentials oder Premium**-Lizenz um einen Verkauf zu erstellen
+* **Service Essentials oder Premium**-Lizenz um eine Anfrage zu erstellen
 * SMS-Connector - zum Senden von SMS
 
 ### Funktionale Rechte
