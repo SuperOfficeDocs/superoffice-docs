@@ -20,7 +20,7 @@ redirect_from:
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
-SuperOffice Development Tools license gives you the possibility to create extra tables (custom objects) in the database.
+The Development Tools license or the Core plan gives you the possibility to create extra tables (custom objects) in the database.
 
 The **Tables** screen is your tool for customizing the database schema.
 

@@ -18,7 +18,7 @@ redirect_from: /de/custom-objects/learn/extra-table/index
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
-Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, Zusatztabellen (Zusatzobjekten) in der Datenbank zu erstellen.
+Die Development Tools-Lizenz oder der Core-Plan ermöglicht es Ihnen, Zusatztabellen (Zusatzobjekten) in der Datenbank zu erstellen.
 
 Die Ansicht Tabellen ist Ihr Werkzeug zur Anpassung des Datenbankschemas.
 

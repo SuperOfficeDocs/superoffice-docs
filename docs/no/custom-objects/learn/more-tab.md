@@ -53,7 +53,7 @@ Klikk <i class="ph ph-pencil-simple" aria-label="Edit"></i> for å redigere info
 
 ## Ytterligere tips
 
-* **Tilpass feltene**: Å legge til brukerdefinerte felt eller justere oppsett krever administrativ tilgang og i noen tilfeller en lisens for Development Tools / **Core**-planen.
+* **Tilpass feltene**: Å legge til brukerdefinerte felt eller justere oppsett krever administrativ tilgang og i noen tilfeller en lisens for Development Tools eller **Core**-planen.
 
 ## Relaterte emner
 

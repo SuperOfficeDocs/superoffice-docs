@@ -38,7 +38,7 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 1. När du är klar, klicka på **Spara**. Dialogen stängs och det nya fältet visas i **Fält**-listan och i rutnätet.
 
-1. [Valfritt, justera positionen för fältet][3]. Detta kräver en licens för Development Tools!
+1. [Valfritt, justera positionen för fältet][3]. Detta kräver en licens för Development Tools eller Core-planen.
 
 1. Fortsätt att lägga till fält. Klicka på **Publicera** när du är klar för att göra fältet tillgängligt för SuperOffice-användare. Opublicerade fält och fält med opublicerade ändringar visas i fetstil i listan **Fält**.
 

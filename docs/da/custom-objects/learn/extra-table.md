@@ -18,7 +18,7 @@ redirect_from: /da/custom-objects/learn/extra-table/index
 
 [!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
-SuperOffice Development Tools-licensen giver dig mulighed for at oprette ekstra tabeller (brugerdefinerede objekter) i databasen.
+Development Tools-licensen eller Core-planen giver dig mulighed for at oprette ekstra tabeller (brugerdefinerede objekter) i databasen.
 
 **Tabeller**-skærmen er dit værktøj til tilpasning af databaseskemaet.
 

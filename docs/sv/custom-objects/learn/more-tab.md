@@ -53,7 +53,7 @@ Klicka på <i class="ph ph-pencil-simple" aria-label="Edit"></i> för att redige
 
 ## Ytterligare tips
 
-* **Anpassa fält**: Att lägga till användardefinierade fält eller justera layout kräver administrativ tillgång och i vissa fall en licens för Development Tools / **Core**-planen.
+* **Anpassa fält**: Att lägga till användardefinierade fält eller justera layout kräver administrativ tillgång och i vissa fall en licens för Development Tools eller **Core**-planen.
 
 ## Relaterat innehåll
 

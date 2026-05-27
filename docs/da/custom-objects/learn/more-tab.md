@@ -53,7 +53,7 @@ Klik på <i class="ph ph-pencil-simple" aria-label="Edit"></i> for at redigere o
 
 ## Yderligere tips
 
-* **Tilpas felterne**: Tilføjelse af brugerdefinerede felter eller justering af layout kræver administrativ adgang og i nogle tilfælde en licens til Development Tools / **Core**-planen.
+* **Tilpas felterne**: Tilføjelse af brugerdefinerede felter eller justering af layout kræver administrativ adgang og i nogle tilfælde en licens til Development Tools eller **Core**-planen.
 
 ## Relateret indhold
 

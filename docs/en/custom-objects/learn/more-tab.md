@@ -54,7 +54,7 @@ Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> to update the inform
 
 ## Additional tips
 
-* **Customizing fields:** Adding custom defined fields or adjusting layouts requires administrative access and, in some cases, a Development Tools license / the Core plan.
+* **Customizing fields:** Adding custom defined fields or adjusting layouts requires administrative access and, in some cases, a Development Tools license or the Core plan.
 
 ## Related topics
 

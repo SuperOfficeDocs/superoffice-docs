@@ -53,7 +53,7 @@ Klik op <i class="ph ph-pencil-simple" aria-label="Edit"></i> om de informatie i
 
 ## Extra tips
 
-* **Velden aanpassen**: Het toevoegen van door de gebruiker gedefinieerde velden of het aanpassen van de lay-outs vereist administratieve toegang en in sommige gevallen een licentie voor **Development Tools** / het **Core**-plan.
+* **Velden aanpassen**: Het toevoegen van door de gebruiker gedefinieerde velden of het aanpassen van de lay-outs vereist administratieve toegang en in sommige gevallen een licentie voor **Development Tools** of het **Core**-plan.
 
 ## Gerelateerde inhoud
 

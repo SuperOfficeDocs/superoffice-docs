@@ -18,7 +18,7 @@ redirect_from: /no/custom-objects/learn/extra-table/index
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
-SuperOffice Development Tools-lisensen gir deg muligheten til å opprette ekstratabeller (tilpassede objekter) i databasen.
+Development Tools-lisensen eller Core-planen gir deg muligheten til å opprette ekstratabeller (tilpassede objekter) i databasen.
 
 **Tabeller**-skjermbildet er verktøyet ditt for tilpasning av databaseskjemaet.
 

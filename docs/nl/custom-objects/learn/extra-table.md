@@ -18,7 +18,7 @@ redirect_from: /nl/custom-objects/learn/extra-table/index
 
 [!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
-De SuperOffice Development Tools-licentie geeft je de mogelijkheid om extra tabellen in de database aan te maken.
+De Development Tools-licentie of het Core-plan geeft je de mogelijkheid om extra tabellen in de database aan te maken.
 
 Het **Tabellen**-scherm is jouw tool voor het aanpassen van het databaseschema.
 
