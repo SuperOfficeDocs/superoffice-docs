@@ -139,7 +139,7 @@ A selection of all sales you have achieved in the first quarter, or all your sal
 
 * A selection of all follow-ups you have this month, to see what follow-up you have and if you should set up more.
 
-### Products (requires a **Sales Premium** license or **Growth** plan)
+### Products (requires a **Sales Premium** license or the **Growth** plan)
 
 * A list of all customers who have purchased a specific product or a specific product category.
 

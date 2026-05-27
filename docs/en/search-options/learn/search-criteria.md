@@ -118,7 +118,7 @@ If the field you are searching in is a field containing lists, for example, the 
 
 If the field you are searching in is a status field, select the required status.
 
-The statuses are created and maintained in Settings and maintenance. Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
+The statuses are created and maintained in Settings and maintenance. Status fields are only relevant if you have purchased a license for and have [enabled status monitors](../../saint/admin/set-up.md).
 
 ### <a id="counter"></a>Counter field
 
@@ -136,7 +136,7 @@ Counter fields can be found under **Counters (SAINT)** in the list of criteria.
 
 1. Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
-The counters are created and maintained in Settings and maintenance. Counter fields are only relevant if you have purchased a licence for and have enabled status monitors.
+The counters are created and maintained in Settings and maintenance. Counter fields are only relevant if you have purchased a license for and have [enabled status monitors](../../saint/admin/set-up.md).
 
 ## Manage list of criteria
 

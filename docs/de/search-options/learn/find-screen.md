@@ -20,7 +20,7 @@ Verwenden Sie die Ansicht **Suchen**, um in SuperOffice CRM nach Datensätzen un
 Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am Ende dieses Bereichs haben wir Beispiele eingefügt, um Ihnen Tipps für die Suche zu geben.
 
 > [!NOTE]
-> Wenn Sie über eine Lizenz für den Developer Tools verfügen, können Sie in vorhandenen Angeboten nach Produkten suchen. Wenn Sie über eine Lizenz für SuperOffice Service verfügen, können Sie nach Anfragen suchen.
+> Wenn Sie über eine Development Tools-Lizenz oder den Core-Plan verfügen, können Sie in vorhandenen Angeboten nach Produkten suchen. Wenn Sie über eine Service Essentials- oder Premium-Lizenz verfügen, können Sie nach Anfragen suchen.
 
 ## Schritte
 
