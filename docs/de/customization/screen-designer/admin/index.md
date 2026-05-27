@@ -4,11 +4,11 @@ title: Ansichtsdesigner
 description: In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfigurieren.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, anpassen
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: concept
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -25,7 +25,7 @@ Der **Ansichtsdesigner** in SuperOffice CRM ermöglicht es Ihnen, das Layout der
 ![Ansichtsdesigner, Firmenkarte, Standard-Feldlayout -screenshot][img5]
 
 > [!NOTE]
-> Diese Funktion erfordert die Lizenz Development Tools und das Funktionsrecht "Feldadministrator".
+> Diese Funktion erfordert die Lizenz Development Tools oder den Core-Plan und das Funktionsrecht "Feldadministrator".
 
 ## Warum den Ansichtsdesigner verwenden?
 
@@ -112,7 +112,7 @@ Um mit der Anpassung von Bildschirmen zu beginnen:
 
 ## Was, wenn ich den Ansichtsdesigner nicht benutze?
 
-Wenn Sie keine Development Tools Lizenz haben, organisiert der **Mehr**-Tab automatisch alle benutzerdefinierten Felder in zwei Spalten. Diese Standardkonfiguration bietet eine funktionale Ansicht, jedoch ohne die erweiterten Anpassungsoptionen des Ansichtsdesigners.
+Wenn Sie keine Development Tools Lizenz oder den Core-Plan haben, organisiert der **Mehr**-Tab automatisch alle benutzerdefinierten Felder in zwei Spalten. Diese Standardkonfiguration bietet eine funktionale Ansicht, jedoch ohne die erweiterten Anpassungsoptionen des Ansichtsdesigners.
 
 ## Zusammenfassung
 

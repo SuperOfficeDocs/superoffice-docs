@@ -122,9 +122,9 @@ Det är tillrådligt för de flesta automatiserade flöden att sätta framgångs
 
 ## <a id="req"></a>Krav
 
-* Marketing premium-licens (ny nivå)
-* Sales essential eller premium - för att skapa en försäljning
-* Service essential eller premium - för att skapa ett ärende
+* **Marketing Premium**-licens eller **Plus**-planen
+* **Sales Essentials eller Premium**-licens för att skapa en försäljning
+* **Service Essentials eller Premium**-licens för att skapa ett ärende
 * SMS-kontakt - för att skicka SMS
 
 ### Funktionella rättigheter

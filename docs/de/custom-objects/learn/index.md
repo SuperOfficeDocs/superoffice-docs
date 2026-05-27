@@ -1,16 +1,16 @@
 ---
-title: Benutzerdefinierte Objekte
 uid: help-de-custom-objects
+title: Benutzerdefinierte Objekte
 description: Benutzerdefinierte Objekte
 keywords: benutzerdefiniertes Objekt, Felder, udef
 author: Bergfrid Dias
-date: 01.30.2024
+date: 05.11.2026
 version: 10
 content_type: concept
-tier: growth
-language: de
+tier: core
 audience: user
 audience_tooltip: SuperOffice CRM
+language: de
 ---
 
 # Benutzerdefinierte Objekte und Felder
@@ -29,21 +29,15 @@ SuperOffice CRM und Service waren einmal zwei separate Anwendungen mit unterschi
 
 ## Anforderungen
 
-| Anpassung | Lizenz | Kommentar |
-|---|---|---|
-| Benutzerdefiniertes Feld hinzufügen/entfernen | Keine | Wird automatisch auf der [Registerkarte Mehr][12] angezeigt. Benötigt Development Tools, um die Platzierung anzupassen. |
-| Layout der Registerkarte Mehr anpassen | Development Tools | |
-| Site-1-Felder verwalten | Development Tools | |
-| Zusatzfeld | Development Tools | |
-| Zusatztabelle | Development Tools | |
-| [Ansichtsdesigner][5] | Development Tools | SuperOffice Version 10 und neuer. |
-| [Benutzerdefinierte Ansichten][6] | Development Tools, Service | Neues Ansicht in Service erstellen. |
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
+
+Felder werden automatisch auf der [Registerkarte Mehr][12] angezeigt, sobald sie hinzugefügt wurden.
 
 ## Layout (Positionierung von Feldern)
 
-Die UI-Anpassung jeder Art erfordert die Development Tools-Lizenz. Alle benutzerdefinierten Ansichtlayouts (erstellt im Ansichtsdesigner) können die Einstellungen für individuelle benutzerdefinierte Felder außer Kraft setzen.
+Alle benutzerdefinierten Ansichtlayouts (erstellt im Ansichtsdesigner) können die Einstellungen für individuelle benutzerdefinierte Felder außer Kraft setzen.
 
-Wenn Sie keine Development Tools-Lizenz haben, verwenden Sie die Reihenfolge der verschiedenen Felder, um sie auf dem Tab **Mehr** zu sortieren.
+Wenn Sie keinen **Core**-Plan haben, verwenden Sie die Reihenfolge der verschiedenen Felder, um sie auf dem Tab **Mehr** zu sortieren.
 
 ## Zugehörige Inhalte
 

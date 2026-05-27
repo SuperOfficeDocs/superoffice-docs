@@ -70,7 +70,7 @@ Der er tre nøgleområder, hvor GDPR påvirker marketingfolks arbejde:
 ## Krav
 
 > [!NOTE]
-> Sporede links og rapporteringsfunktioner kræver brugerlicens til Marketing. Du skal også have brugsrettigheder for at kunne redigere og udsende mails.
+> Sporede links og rapporteringsfunktioner kræver en **Marketing Essentials**-licens eller **Growth**-planen. Du skal også have brugsrettigheder for at kunne redigere og udsende mails.
 
 SMS-udsendelse er ikke tilgængelig, hvis du bruger CRM Online.
 

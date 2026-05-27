@@ -3,12 +3,12 @@ uid: help-sv-request-accept
 title: Ta över ansvaret för ett ärende
 description: Hur du tar över ett ärende för att undvika att någon annan besvarar det samtidigt.
 keywords: ta över ärende, acceptera, ansvar, ärendeägare, hämta nästa i kön, ärende
-author: SuperOffice RnD
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

@@ -20,7 +20,7 @@ To search for records and data in SuperOffice CRM, use the **Find** screen.
 There are effectively no limits to what you can search for in SuperOffice CRM. At the end of this section, we have included examples to provide you with tips on searching.
 
 > [!NOTE]
-> If you have a licence for Development Tools, you can search for products in existing quotes. If you have a licence for SuperOffice Service, you can search for requests.
+> If you have a Development Tools license or the Core plan, you can search for products in existing quotes. If you have a Service Essentials or Premium license, you can search for requests.
 
 ## Search for information in SuperOffice CRM
 

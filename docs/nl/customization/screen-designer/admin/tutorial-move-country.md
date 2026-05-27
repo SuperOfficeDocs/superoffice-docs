@@ -4,13 +4,13 @@ title: Tutorial - Land vooraan plaatsen
 description: In deze tutorial leert u hoe u het veld land op een bedrijf- of persoonscherm kunt verplaatsen.
 keywords: land veld, schermontwerper
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: nl
@@ -28,7 +28,7 @@ Als u klaar bent, zou het er ongeveer zo uitzien:
 
 ![Bedrijfkaart -screenshot][img1]
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 ## Stap 2: Open de Schermontwerper
 

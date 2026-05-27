@@ -27,7 +27,7 @@ By creating FAQ entries, your organization can build up a comprehensive collecti
 
 ## Requirements
 
-* You need a license for Service premium or the Customer Engagement platform to use the knowledge base.
+* You need a **Service Premium** license, the **Customer Engagement Platform (CEP)** add-on, or the **Growth** plan to use the knowledge base.
 * If you do not see this feature, you need to add *Knowledge base* as functional right to create FAQ.
 
 ## Create FAQ entries from a request

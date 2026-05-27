@@ -3,8 +3,8 @@ uid: help-no-selection
 title: Utvalg
 description: Utvalg
 keywords: dynamisk utvalg, statisk utvalg, kombinert utvalg, kombinasjonsutvalg, Utvalg-skjermbildet, utvalgsmedlemmer, utvalg
-author: Bergfrid Dias
-date: 03.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.3
 content_type: concept
 audience: person
@@ -52,6 +52,8 @@ Bruk et dynamisk utvalg hvis du ønsker en alltid oppdatert liste over firmaer, 
 **Eksempel:** En sanntidsliste over alle åpne salgsavtaler i inneværende kvartal, automatisk oppdatert når nye avtaler opprettes.
 
 ### Kombinerte utvalg
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 Et kombinert utvalg er en kombinasjon av to eksisterende utvalg (statisk eller dynamisk). Det kan inneholde oppføringer som er felles for begge utvalgene, oppføringer som er forskjellige, oppføringer som kun finnes i ett av utvalgene, eller alle oppføringer fra begge utvalg.
 
@@ -137,7 +139,7 @@ Et utvalg av alle salg du har gjennomført i første kvartal, eller alle salg me
 
 * Et utvalg av alle oppfølginger du har denne måneden hjelper deg med å se hvilke avtaler du har og om du bør planlegge flere.
 
-### Produkter (krever en Sales Premium-lisens)
+### Produkter (krever en **Sales Premium**-lisens eller **Growth**-planen)
 
 * En liste over alle kunder som har kjøpt et bestemt produkt eller en bestemt produktkategori.
 

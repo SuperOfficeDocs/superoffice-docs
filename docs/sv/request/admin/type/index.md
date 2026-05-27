@@ -21,7 +21,7 @@ index: true
 Alla ärenden som registreras i SuperOffice har en typ. Standardtypen är "Request". För att se, lägga till, uppdatera och ta bort ärendetyper, gå till **Inställningar och underhåll**.
 
 > [!NOTE]
-> Den här funktionen kräver en Service Premium-användarplan (för att skapa och uppdatera ärendetyper) och en Development Tools-licens för att definiera skärmlayouter baserat på ärendetyper i Screen Designer.
+> Den här funktionen kräver en **Service Premium**-licens eller **Growth**-planen. För att definiera skärmlayouter baserat på ärendetyper i Screen Designer behöver **Service Premium**-användare också **Development Tools**-licensen (ingår i **Core**-planen och högre).
 
 ## Varför använda ärendetyper?
 

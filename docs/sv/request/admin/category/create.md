@@ -4,11 +4,11 @@ title: Skapa ärendekategori
 description: Skapa ärendekategori
 keywords: lägg till ärendekategori, skapa ärendekategori, ny ärendekategori, ärendekategori, Kategoriflik, ärende, kategori
 author: digitaldiina
-date: 03.25.2026
+date: 05.11.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

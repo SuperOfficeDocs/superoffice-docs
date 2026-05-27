@@ -3,9 +3,9 @@ uid: help-en-selection
 title: Selection
 description: Selection
 keywords: dynamic selection, static selection, combined selection, selection member, Selection screen, selection member, selection
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: concept
 tier: starter
 audience: person
@@ -52,6 +52,8 @@ Use a dynamic selection if you want an updated list of companies, contacts, sale
 Example: A real-time list of all open sales opportunities in the current quarter, automatically updated as new deals are created.
 
 ### Combined selections
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 A combined selection is a combination of two existing selections (static or dynamic). It can contain records that are common to the two existing selections, records that are different, records that are only in one of the selections or all records in the two selections.
 
@@ -137,7 +139,7 @@ A selection of all sales you have achieved in the first quarter, or all your sal
 
 * A selection of all follow-ups you have this month, to see what follow-up you have and if you should set up more.
 
-### Products (requires a Sales Premium license)
+### Products (requires a **Sales Premium** license or the **Growth** plan)
 
 * A list of all customers who have purchased a specific product or a specific product category.
 

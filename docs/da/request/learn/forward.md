@@ -3,12 +3,12 @@ uid: help-da-request-forward
 title: Videresend sag til ekstern kontakt
 description: Lær, hvordan du videresender en sag i denne vejledning.
 keywords: videresend sag, ekstern kontakt, sag
-author: Bergfrid Dias
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

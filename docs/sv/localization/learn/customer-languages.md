@@ -18,7 +18,7 @@ language: sv
 
 # Kundspråk
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 För att skapa en bra kundupplevelse måste du interagera med dina kunder på deras egna språk när de besöker ditt kundcenter och i övrig kommunikation.
 

@@ -15,7 +15,7 @@ redirect_from:
 
 # Projects
 
-[!include[License requirement](../../../../common/includes/req-for-project-mgt.md)]
+[!include[Requirement](../../includes/req-core.md)]
 
 ![Project card -screenshot][img1]
 

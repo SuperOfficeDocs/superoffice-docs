@@ -3,12 +3,12 @@ uid: help-de-sales-guide
 title: Verkaufsleitfaden
 description: Einführung in Verkaufsleitfäden in SuperOffice CRM.
 keywords: Verkaufsleitfaden, Leitfaden, Workflow, Bereichsregisterkarte Verkaufsleitfaden, Verkaufsprozess, Vertriebsprozess, Stufe, automatische Fortschreibung, Verkauf
-author: Bergfrid Dias
-date: 11.02.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -24,8 +24,7 @@ redirect_from:
 
 Verkaufsleitfäden in SuperOffice CRM sind leistungsstarke Tools, die den Vertriebsprozess vereinfachen und standardisieren, indem sie Verkaufstypen mit vordefinierten Stufen verknüpfen. Jede Stufe enthält vorgeschlagene Folgeaufgaben und Dokumente, die den Vertrieb durch eine strukturierte Verkaufspipeline führen. So wird sichergestellt, dass keine Verkaufschancen übersehen werden und ein konsistenter Prozess im gesamten Team eingehalten wird.
 
-> [!NOTE]
-> Diese Funktion erfordert eine Sales Premium-Lizenz.
+[!include[License requirement](../../includes/req-core-transition-sales.md)]
 
 ## Was ist ein Verkaufsleitfaden?
 

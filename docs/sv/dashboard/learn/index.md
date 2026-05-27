@@ -22,7 +22,7 @@ Använd dashboards för att följa upp aktiviteter, försäljning, ärenden med 
 ![Ärendedashboard -screenshot][img4]
 
 > [!NOTE]
-> Åtkomst till dashboards och paneldata beror på din användarplan och tilldelade rättigheter.
+> Åtkomst till dashboards och paneldata beror på din plan och tilldelade rättigheter.
 
 ## Vad är ett dashboard?
 
@@ -45,7 +45,7 @@ Välj **Dashboard** i navigatorn för att öppna dashboard-skärmen. Du har åtk
 * **Favoritdashboards:** Markerade med stjärnikon
 * **Egna dashboards:** Dashboards du själv har skapat
 
-Som standard finns ett dashboard som heter **Status** tillgängligt och fastnålat. Det innehåller paneler med fördefinierade diagram och nyckeltal. Om du har användarplanen SuperOffice Service är ett andra dashboard som heter **Ärenden** också tillgängligt.
+Som standard finns ett dashboard som heter **Status** tillgängligt och fastnålat. Det innehåller paneler med fördefinierade diagram och nyckeltal. Om du har en **Service Essentials**-licens eller **Starter**-planen är ett andra dashboard som heter **Ärenden** också tillgängligt.
 
 Du kan skapa fler dashboards eller duplicera befintliga för att anpassa dem.
 
@@ -171,9 +171,10 @@ Endast **ägaren** av ett dashboard kan ta bort det.
 |---|---|---|
 | Alla CRM-planer | Status-dashboard med standardpaneler | Diagram, listor, stora siffror |
 | **Service** | Ärenden-dashboard | Paneler relaterade till ärenden |
-| **Marketing** (Essentials eller högre) | – | Utskick, formulärsvar, chattar |
-| **Sales Premium** | – | Prognoser, nyckeltal, säljmål, offerter |
-| **Sales eller Service Premium** | – | Aktivitetsövervakning (SAINT) |
+| **Marketing Essentials**-licens eller **Core**-planen | – | Utskick, chattar |
+| **Marketing Premium**-licens eller **Plus**-planen | – | Formulärsvar |
+| **Sales Premium** eller **Growth** | – | Prognoser, nyckeltal, säljmål, offerter |
+| **Sales eller Service Premium** eller **Growth** | – | Aktivitetsövervakning (SAINT) |
 
 ## Tips
 

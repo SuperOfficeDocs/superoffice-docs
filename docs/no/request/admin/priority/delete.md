@@ -3,12 +3,12 @@ uid: help-no-request-priority-delete
 title: Slette saksprioritet
 description: Slette saksprioritet
 keywords: slette saksprioritet, fjerne saksprioritet, sak, prioritet
-author: Hanne Gunnarsson
-date: 02.05.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

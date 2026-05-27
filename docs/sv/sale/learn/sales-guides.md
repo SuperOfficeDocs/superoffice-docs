@@ -3,12 +3,12 @@ uid: help-sv-sales-guide
 title: Säljguide
 description: Introduktion till säljguider i SuperOffice.
 keywords: säljguide, guide, arbetsflöde, detaljkortet Säljguide, försäljningsprocessen, försäljningspipeline, försäljning, fas, föreslagna händelser, föreslagna dokument
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -24,8 +24,7 @@ redirect_from:
 
 Säljguider i SuperOffice CRM är kraftfulla verktyg som hjälper till att förenkla och standardisera försäljningsprocessen genom att koppla försäljningstyper till fördefinierade faser. Varje fas innehåller föreslagna händelser och dokument som guidar säljarna genom en strukturerad försäljningspipeline. Detta säkerställer att inga affärsmöjligheter missas och att hela teamet arbetar enhetligt.
 
-> [!NOTE]
-> Den här funktionen kräver licensen Sales Premium.
+[!include[License requirement](../../includes/req-core-transition-sales.md)]
 
 ## Vad är en säljguide?
 

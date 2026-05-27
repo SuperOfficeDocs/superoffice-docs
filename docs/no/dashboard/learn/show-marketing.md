@@ -3,13 +3,13 @@ uid: help-no-dashboard-tile-marketing
 title: Bruke utsendelse og skjemaer i figurer
 description: Opprett dashbord for markedsføringsoppgavene dine, for eksempel skjemainnsendinger og utsendelser, for å spore og analysere ytelse, trender og produktivitet på tvers av alle markedsføringsaktiviteter.
 keywords: dashbord, markedsføring
-author: SuperOffice Product and Engineering
-date: 11.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 11.6
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
-tier: growth
+tier: starter
 language: no
 ---
 
@@ -23,6 +23,9 @@ Når dashbordet er opprettet, må du legge til og redigere figurer.
 > [!Video https://www.youtube.com/embed/lz9rEZI_2SY]
 
 Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i dashbordet for utsendelse eller skjemainnsending.
+
+> [!NOTE]
+> Utsendelsesfliser er tilgjengelige fra **Starter**-planen. Skjemainnsendingsfliser krever **Growth**-planen.
 
 ## Eksempel på forskjellige figurer for utsendelser
 

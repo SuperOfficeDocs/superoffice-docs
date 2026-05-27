@@ -3,14 +3,14 @@ uid: help-da-reply-template
 title: Arbejd med svarskabeloner
 description: Organiser svarskabeloner ved hjælp af en tilpasselig mappestruktur for nem adgang og logisk gruppering. Opret undermapper og administrer skabeloner effektivt.
 keywords: vis svarskabelon, find svarskabelon, svarskabelon, færdig tekst, vidensbase
-author: Bergfrid Dias
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: concept
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

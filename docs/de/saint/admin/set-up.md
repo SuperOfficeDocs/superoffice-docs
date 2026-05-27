@@ -21,7 +21,7 @@ redirect_from:
 
 # Neue Aktivitätsüberwachung einrichten
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Mit der Statusüberwachung sehen Sie auf einen Blick alle Kunden, die Aufmerksamkeit benötigen.
 

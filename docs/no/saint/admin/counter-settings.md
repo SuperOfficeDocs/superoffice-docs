@@ -19,7 +19,7 @@ redirect_from:
 
 # Tellere og tellerinnstillinger
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 En **teller** er en verdi som for eksempel antall salg i en periode eller datoen for siste fullførte salg. Tellere kan brukes som søkekriterier for å finne firmaer, personer eller prosjekter.
 

@@ -19,7 +19,7 @@ redirect_from:
 
 # Zähler und Zählereinstellungen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Ein **Zähler** ist ein Wert wie die Anzahl der Verkäufe in einem Zeitraum oder das Datum des letzten erledigten Verkaufs. Zähler können als Suchkriterien verwendet werden, um Firmen, Personen oder Projekte zu finden.
 

@@ -4,11 +4,11 @@ title: Systemeinstellungen
 description: Systemeinstellungen
 keywords: Service
 author: digitaldiina
-date: 05.04.2026
+date: 05.11.2026
 version: 11.13
 content_type: reference
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

@@ -3,12 +3,12 @@ uid: help-en-working-with-sales-guide
 title: Example - sales guide
 description: Working with sales guide
 keywords: sales guide, example
-author: SuperOffice RnD
-date: 01.07.2025
-version: 10.5
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: howto
 license: salespremium
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

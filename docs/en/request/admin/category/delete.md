@@ -3,12 +3,12 @@ uid: help-en-request-category-delete
 title: Delete request category
 description: Delete request category
 keywords: delete request category, Transfer requests to, request category, request, category
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

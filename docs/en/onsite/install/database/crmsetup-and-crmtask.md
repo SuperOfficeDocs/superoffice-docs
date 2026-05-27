@@ -25,8 +25,8 @@ Document templates are installed when creating new and upgrading current install
 
 The HTML-based argument generators are also available online – no download required:
 
-- [CrmSetup argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmsetup.html)
-- [CrmTask argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmtask.html)
+* [CrmSetup argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmsetup.html)
+* [CrmTask argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmtask.html)
 
 Open the link, fill in your values, and copy the generated argument file content directly - or generate argument files for the command line tool.
 

@@ -3,12 +3,12 @@ uid: help-de-request-tags
 title: Verwenden von Tags in Anfragen
 description: In dieser Anleitung lernen Sie, wie Sie Anforderungs-Tags erstellen und bearbeiten.
 keywords: Tags erstellen, neuer Tags, Tags suchen, Tags, Anfrage
-author: Bergfrid Dias
-date: 02.11.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

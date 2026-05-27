@@ -3,12 +3,12 @@ uid: help-da-sale-forecasting
 title: Overvåg din pipeline, og forudsig salg
 description: Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards og udvalg.
 keywords: salg, prognose, pipeline
-author: Bergfrid Dias
-date: 09.19.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

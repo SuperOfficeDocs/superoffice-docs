@@ -3,12 +3,12 @@ uid: help-sv-working-with-sales-guide
 title: Exempel – säljguide
 description: Arbeta med säljguider
 keywords: säljguide, exempel
-author: SuperOffice RnD
-date: 02.25.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

@@ -27,7 +27,7 @@ Som standard innehåller SuperOffice en måltyp: **All försäljning – Belopp*
 Du måste ha funktionsrättigheten **Targets administrator** för att lägga till, redigera eller ta bort måltyper.
 
 > [!NOTE]
-> För att lägga till måltyper behöver du licensen Unlimited sales targets utöver Sales Premium-licensen.
+> För att lägga till måltyper behöver du en **Sales Premium**-licens eller **Growth**-planen och **Sales Targets Unlimited**-tillägget, eller **Super**-planen.
 
 ## Tillgängliga måltyper
 

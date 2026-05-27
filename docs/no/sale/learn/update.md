@@ -3,12 +3,12 @@ uid: help-no-sale-update
 title: Oppdater et salg
 description: Hvordan oppdatere eksisterende salgsinformasjon, endre salgsfase (inkludert å merke det som utsatt, vunnet eller tapt), eller slette et salg hvis det ikke lenger er relevant.
 keywords: oppdatere salg, redigere salg, slette salg, satt på vent, utsatt, tapt, vunnet, salg
-author: Bergfrid Dias
-date: 01.13.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.8
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no

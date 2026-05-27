@@ -3,8 +3,8 @@ uid: help-sv-erp
 title: ERP
 description: ERP
 keywords: ERP-flik, ERP-system, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: concept
 license: development-tools
@@ -23,7 +23,7 @@ Om din organisation använder ett ERP-system som är kopplat till SuperOffice CR
 
 ## Fliken ERP
 
-**ERP-fliken** visas på skärmbilderna **Företag**, **Kontakt** och **Projekt** om din organisation har en licens för [Development Tools][1].
+**ERP-fliken** visas på skärmbilderna **Företag**, **Kontakt** och **Projekt** om din organisation har en **Development Tools**-licens eller **Growth**-planen.
 
 Använd **ERP-fliken** för att:
 

@@ -3,12 +3,12 @@ uid: help-nl-sales-guide
 title: Verkoopgids
 description: Inleiding tot verkoopgidsen in SuperOffice.
 keywords: verkoopgids, gids, workflow, sectietabblad verkoopgids, verkoop
-author: Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -24,8 +24,7 @@ redirect_from:
 
 Verkoopgidsen in SuperOffice CRM zijn krachtige hulpmiddelen die het verkoopproces vereenvoudigen en standaardiseren door verkooptypen te koppelen aan vooraf gedefinieerde fasen. Elke fase bevat voorgestelde vervolgactiviteiten en documenten, waardoor verkoopmedewerkers een gestructureerde verkooppipeline kunnen volgen. Dit zorgt ervoor dat geen enkele verkoopkans wordt gemist en dat het hele team op een consistente manier werkt.
 
-> [!NOTE]
-> Deze functie vereist de **Sales Premium**-licentie.
+[!include[License requirement](../../includes/req-core-transition-sales.md)]
 
 ## Wat is een verkoopgids?
 

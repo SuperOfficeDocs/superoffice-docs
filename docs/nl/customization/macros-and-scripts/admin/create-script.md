@@ -4,7 +4,7 @@ title: Een script maken of bewerken
 description: Een script maken
 keywords: script, macro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -20,6 +20,8 @@ index: true
 ---
 
 # Een script maken of bewerken
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

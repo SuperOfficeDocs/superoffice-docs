@@ -3,12 +3,12 @@ uid: help-en-sale-update
 title: Update a sale
 description: How to update existing sale information, change its stage (including marking it as stalled, sold, or lost), or delete a sale if it is no longer relevant.
 keywords: update sale, edit sale, delete sale, stalled, lost, sold, sale
-author: Bergfrid Dias
-date: 01.13.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.8
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

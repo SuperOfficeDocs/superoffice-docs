@@ -18,7 +18,7 @@ language: nl
 
 # Klanttalen
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 Om een geweldige klantervaring te bieden, moet u uw klanten ondersteunen in hun lokale taal wanneer ze uw klantencentrum bezoeken en in de communicatie met de klant.
 

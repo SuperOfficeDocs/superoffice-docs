@@ -25,7 +25,7 @@ redirect_from:
 
 Vanliga frågor (FAQ) är en viktig del av hanteringen av service-ärenden. Eftersom många kundförfrågningar återkommer över tid är det en bra idé att skapa vanliga frågor som innehåller svar på sådana återkommande frågor.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Fördelar med att ha ett FAQ-bibliotek
 

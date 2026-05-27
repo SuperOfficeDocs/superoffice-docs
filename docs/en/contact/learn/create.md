@@ -47,7 +47,7 @@ You can add a contact to SuperOffice CRM in multiple ways:
 
     * Enter key details like **Position**, **Birth date**, and **Preferred language**.
     * Add contact-specific communication details: **Website**, **Chat**, and **Internet phone** (for example, Skype or Microsoft Teams).
-    * If applicable, set Service priority and select an Our service contact (requires a SuperOffice Service or Customer Centre license).
+    * If applicable, set Service priority and select an Our service contact (requires a **Service Premium** license, a **CEP** license, or the **Growth** plan).
 
     ![Contact Details tab with additional fields -screenshot][img2]
 
@@ -123,7 +123,7 @@ The following fields are available in the Contact card. Some fields are filled a
 * **Internet phone:** Add a VOIP address, such as Skype or another internet-based phone service.
 * **Direct fax:** Enter the contact's fax number.
 
-**Service-specific fields** *(requires SuperOffice Service or Customer Centre license)*
+**Service-specific fields** *(requires a **Service Premium** license, a **CEP** license, or the **Growth** plan)*
 
 * **Preferred language:** Select the contact's preferred language for all reply templates.
 * **Service priority:** Set the priority for new service requests (for example, Low, Medium, High, or custom). Defaults to company priority if not set.

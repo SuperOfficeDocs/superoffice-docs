@@ -4,11 +4,11 @@ title: Anfragekategorie erstellen
 description: Anfragekategorie erstellen
 keywords: Anfragekategorie hinzufügen, Anfragekategorie erstellen, neue Anfragekategorie, Anfragekategorie, Kategorien-Registerkarte, Anfrage, Kategorie
 author: digitaldiina
-date: 03.25.2026
+date: 05.11.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

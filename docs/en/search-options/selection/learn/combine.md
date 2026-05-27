@@ -3,11 +3,11 @@ uid: help-en-selection-combine
 title: Create a combined selection
 description: In this howto, you will learn how to create a combined selection.
 keywords: combine selections, selection
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: howto
-tier: starter
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -15,6 +15,8 @@ redirect_from: /en/search-options/selection/learn/create/combine
 ---
 
 # Create a combined selection
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 The two selections to be combined can be static or dynamic. There are however certain limitations on what can be combined:
 

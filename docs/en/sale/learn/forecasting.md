@@ -3,12 +3,12 @@ uid: help-en-sale-forecasting
 title: Monitor your pipeline and forecast sales
 description: How to monitor your sales pipeline and forecast your sales with the help of dashboards and selections.
 keywords: sale, forecast, pipeline
-author: Bergfrid Dias
-date: 09.19.2025
-version: 10.5
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -4,9 +4,10 @@ title: Create follow-up
 description: How to create follow-ups in SuperOffice Mobile CRM.
 keywords: create follow-up, new appointment, add appointment, New based on existing, create meeting, diary, follow-up
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: howto
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/diary/create-appointment
 language: en

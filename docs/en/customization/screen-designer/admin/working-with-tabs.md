@@ -4,11 +4,11 @@ title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 keywords: layout, tab layout, add tab, remove tab, restore tab, group fields, More tab, add heading, add label, add divider
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Working with tabs
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 This guide assumes you are already [editing the layout][2]. The following sections explain how to organize and customize tabs in SuperOffice CRM, helping you tailor the interface to meet your organization's needs.
 

@@ -3,11 +3,12 @@ uid: help-en-request-next-in-queue
 title: Get next request in the queue
 description: Get next request in the queue
 keywords: get next request in queue, request
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
-tier: core
+license: servicepremium
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

@@ -4,21 +4,21 @@ title: Extra tabellen
 description: Extra tabellen
 keywords: extra tabel, Scherm Tabellen
 author: Bergfrid Dias
-date: 08.27.2024
+date: 05.11.2026
 version: 10.3.8
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: nl
 redirect_from: /nl/custom-objects/learn/extra-table/index
 ---
 
 # Extra tabellen
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
-De SuperOffice Development Tools-licentie geeft je de mogelijkheid om extra tabellen in de database aan te maken.
+De Development Tools-licentie of het Core-plan geeft je de mogelijkheid om extra tabellen in de database aan te maken.
 
 Het **Tabellen**-scherm is jouw tool voor het aanpassen van het databaseschema.
 

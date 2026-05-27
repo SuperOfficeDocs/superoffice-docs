@@ -25,7 +25,7 @@ Voordat u SAINT implementeert, is het belangrijk om te weten wat u wilt verbeter
 * Alle klanten in de SAINT-selectie bellen
 * Alle verzoeken opvolgen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ![SAINT-scherm met statuslijst, beschrijving, afbeelding en criteria -screenshot][img1]
 

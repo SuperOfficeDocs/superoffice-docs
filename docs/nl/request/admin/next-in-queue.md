@@ -3,13 +3,14 @@ uid: help-nl-request-next-in-queue
 title: Volgend verzoek in de wachtrij ophalen
 description: Volgend verzoek in de wachtrij ophalen
 keywords: verzoek, wachtrij, volgende verzoek
-author: Hanne Gunnarsson
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+license: servicepremium
+tier: growth
 language: nl
 redirect_from: /nl/request/learn/next-in-queue
 index: true

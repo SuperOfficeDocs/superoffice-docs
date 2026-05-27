@@ -16,7 +16,7 @@ FAQs (frequently asked questions) published in the Customer centre is a very con
 
 Including FAQs as a self-help tool is likely to reduce the number of requests you receive. When answers to typical and recurrent questions are out of the way, your support agents can concentrate on more urgent and complicated matters.
 
-You can [create FAQs][1] that your service agents can choose from when answering customer questions in requests and chats. Requires the Service premium license.
+You can [create FAQs][1] that your service agents can choose from when answering customer questions in requests and chats. Requires a **Service Premium** license or the **Growth** plan.
 
 ![Edit the FAQ entry and select Properties to publish the FAQ in SuperOffice Service -screenshot][img1]
 

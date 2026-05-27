@@ -3,12 +3,12 @@ uid: help-da-sales-guide
 title: Salgsguide
 description: Introduktion til salgsguider i SuperOffice.
 keywords: salgsguide, guide, workflow, detaljekortet Salgsguide, salg
-author: SuperOffice RnD
-date: 04.03.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -24,8 +24,7 @@ redirect_from:
 
 Salgsguider i SuperOffice CRM er kraftfulde værktøjer, der forenkler og standardiserer salgsprocessen ved at knytte salgstyper til foruddefinerede faser. Hver fase indeholder foreslåede opfølgninger og dokumenter, som guider sælgerne gennem en struktureret salgsproces. Dette sikrer, at ingen muligheder overses, og at teamet arbejder ensartet.
 
-> [!NOTE]
-> Denne funktion kræver en Sales Premium-licens.
+[!include[License requirement](../../includes/req-core-transition-sales.md)]
 
 ## Hvad er en salgsguide?
 

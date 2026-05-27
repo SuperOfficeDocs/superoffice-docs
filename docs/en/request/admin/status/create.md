@@ -3,12 +3,12 @@ uid: help-en-request-status-create
 title: Create request status
 description: Create request status
 keywords: create request status, add request status, new request status, request status, Internal status, Queue status, track time, request, status
-author: Hanne Gunnarsson
-date: 01.15.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

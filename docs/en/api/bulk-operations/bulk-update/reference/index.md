@@ -4,7 +4,7 @@ uid: bulkupdate-reference
 description: Bulk Update API reference
 date: 01.27.2022
 keywords: bulk update
-topic: reference
+content_type: reference
 envir: cloud
 client: online
 ---

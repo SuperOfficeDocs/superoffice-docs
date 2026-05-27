@@ -70,7 +70,7 @@ Es gibt drei Schlüsselbereiche, in denen sich die DSGVO auf die Arbeit von Mark
 ## Anforderungen
 
 > [!NOTE]
-> Überwachte Links und Berichtsfunktionen erfordern die Marketing-Benutzerlizenz. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
+> Überwachte Links und Berichtsfunktionen erfordern eine **Marketing Essentials**-Lizenz oder den **Growth**-Plan. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
 
 ## Erforderliche Fähigkeiten
 

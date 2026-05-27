@@ -4,13 +4,13 @@ title: Anfragebeziehungen
 description: Erfahren Sie, wie Sie verwandte Anfragen mithilfe von übergeordneten, untergeordneten und verknüpften Beziehungen verknüpfen können, um verbundene Probleme in SuperOffice Service besser zu verfolgen und zu verwalten.
 keywords: Anfragebeziehungen, Anfragen verknüpfen, übergeordnete Anfrage, untergeordnete Anfrage, verknüpfte Anfragen
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: howto
 category: service
 topic: request
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de

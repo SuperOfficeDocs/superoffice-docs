@@ -4,9 +4,11 @@ title: Approve sale
 description: How to approve or reject a quote for a sale in SuperOffice Mobile CRM.
 keywords: quote, approve, sale
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1
 content_type: howto
+license: salespremium
+tier: growth
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/sale/approve-quote
 language: en
@@ -15,7 +17,8 @@ language: en
 # Approve sale
 
 > [!NOTE]
-> This feature requires SuperOffice 10.1.5 or newer and Mobile CRM 10.2.2 or newer.
+> Requires a **Sales Premium** license or the **Growth** plan.
+> Also requires SuperOffice 10.1.5 or newer and Mobile CRM 10.2.2 or newer.
 
 When working with sales and quotes, you may sometimes apply a higher discount rate that requires approval. Mobile CRM allows you to handle quote approvals seamlessly, whether you're a sales rep or a manager.
 

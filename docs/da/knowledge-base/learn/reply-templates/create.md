@@ -3,14 +3,14 @@ uid: help-da-reply-template-create
 title: Opret svarskabeloner
 description: Lær, hvordan du opretter en svarskabelon, i denne vejledning.
 keywords: opret svarskabelon, ny svarskabelon, kopiér svarskabelon, svarskabelon egenskaber, skabelon
-author: Bergfrid Dias
-date: 03.04.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

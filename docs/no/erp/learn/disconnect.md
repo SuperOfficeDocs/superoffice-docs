@@ -3,8 +3,8 @@ uid: help-no-erp-disconnect-actor
 title: Deaktiver ERP-synkronisering
 description: Deaktiver ERP-synkronisering
 keywords: koble fra ERP, ERP-fane, koble fra, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: development-tools
@@ -17,7 +17,7 @@ redirect_from: /no/admin/erp/learn/erp-sync-disconnect
 
 # Deaktiver synkronisering
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 1. Gå til skjermbildet Firma, Person eller Prosjekt, og deretter velg **ERP**-fanen.
 1. Klikk på **Rediger**.

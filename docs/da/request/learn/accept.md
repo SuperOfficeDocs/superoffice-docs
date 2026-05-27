@@ -3,12 +3,12 @@ uid: help-da-request-accept
 title: Overtag (tag ansvar for) sag
 description: Sådan overtager du en sag for at undgå, at andre svarer på sagen samtidigt.
 keywords: overtag sag, acceptér, ansvar, sagsbehandler, næste i køen, sag
-author: Bergfrid Dias
-date: 03.07.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

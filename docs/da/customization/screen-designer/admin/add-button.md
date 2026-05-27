@@ -4,11 +4,11 @@ title: Tilføj en knap eller et link
 description: Sådan tilføjer du en knap eller et link til et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: tilføj knap, ny knap, tilføj link, nyt link, label
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /da/customization/screen-designer/add-button
 
 # Tilføj en knap eller et link
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Brugerdefinerede knapper og links tilføjes i **Forhåndsvisning**-ruden, når du redigerer et layout. URL'en bruges til at åbne en webside i den aktuelle eller en ny fane, køre et CRMScript fra skærmen eller navigere til andre dele af SuperOffice ved hjælp af [SoProtocol][3].
 

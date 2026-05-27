@@ -4,11 +4,11 @@ title: Hold styr på meddelelser
 description: Hold styr på meddelelser
 keywords: sag, meddelelse, flag
 author: digitaldiina
-date: 11.28.2025
+date: 05.11.2026
 version: 11.7
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

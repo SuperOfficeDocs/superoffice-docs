@@ -3,12 +3,12 @@ uid: help-no-request-status
 title: Saksstatus
 description: Saksstatus
 keywords: saksstatus, Saksstatus-fanen, sak, status
-author: Hanne Gunnarsson
-date: 02.05.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

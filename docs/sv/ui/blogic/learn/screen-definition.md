@@ -2,16 +2,18 @@
 uid: help-sv-service-screen-definition
 title: Skärmdefinition
 description: Skärmdefinition
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: skärmdefinition
+author: digitaldiina
+date: 05.11.2026
+version: 11.11
 content_type: reference
+tier: core
 language: sv
 ---
 
 # Skärmdefinition
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Här visas information om den valda skärmen.
 

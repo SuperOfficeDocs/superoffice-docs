@@ -19,7 +19,7 @@ redirect_from: /de/admin/lists/learn/sale-amount-class
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-Die Liste **Verkauf - Betragsklasse** gehört zur Statuskontrollfunktion (SAINT), für die einen **Sales Premium** oder **Service Premium** Benutzerplan erforderlich ist.
+Die Liste **Verkauf - Betragsklasse** gehört zur Statuskontrollfunktion (SAINT), für die ein **Sales Premium**- oder **Service Premium**-Lizenz oder der **Growth**-Plan erforderlich ist.
 
 Mittels der Betragsklasse können Verkäufe in verschiedene Kategorien eingeteilt werden, wie zum Beispiel in kleine, mittlere, große und sehr große Verkäufe. Der Betragsbereich für die verschiedenen Betragsklassen wird in der von Ihrem Unternehmen verwendeten Währung (und ggf. weiterer Währungen) angegeben. Die Betragsklasse kann zum Beispiel als Suchkriterium für die Suche nach erheblichen Verkaufsverlusten innerhalb eines bestimmten Zeitraums verwendet werden.
 

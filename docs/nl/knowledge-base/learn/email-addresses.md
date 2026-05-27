@@ -24,8 +24,7 @@ redirect_from:
 
 U kunt een lijst maken met e-mailadressen die u vaak gebruikt, maar die niet in SuperOffice Service voor gebruikers of personen zijn geregistreerd. Bijvoorbeeld leveranciers, partners of productspecialisten. Deze adressen zijn toegankelijk op de meeste plaatsen waar u e-mails verzendt, zoals in de schermen **Nieuw verzoek** en **Bericht toevoegen**.
 
-> [!NOTE]
-> Deze functie vereist de gebruikerslicentie Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## E-mailadressen weergeven
 

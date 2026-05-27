@@ -73,7 +73,7 @@ I **Sök**-skärmen kan du lägga till kriterier som:
 * **Kontakt** > **Leadstatus** – Är en av / Är inte en av.
 * **Företag** > **Kategorigrupp** – Är en av / Är inte en av.
     Använd detta för att besvara frågor som ”Lista alla mina potentiella kunder” eller ”Lista alla mina kunder”.
-* **Företag** > **Lead** eller **Kontakt** > **Lead** baserat på [UTM-data][5] (kräver Marketing Premium).
+* **Företag** > **Lead** eller **Kontakt** > **Lead** baserat på [UTM-data][5] (kräver en **Marketing Premium**-licens eller **Plus**-planen).
 
 ![Filtrera kontakter efter Leadstatus och Kategorigrupp i Sök-kriterier. -screenshot][img3]
 

@@ -3,12 +3,12 @@ uid: help-nl-request-tags
 title: Labels gebruiken in verzoeken
 description: Meer informatie over het maken en bewerken van aanvraaglabels vindt u in deze gids.
 keywords: tag verzoek, tag toevoegen, tag verwijderen, tagging, tag, verzoek
-author: Bergfrid Dias
-date: 03.14.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.2
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl

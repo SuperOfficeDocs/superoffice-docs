@@ -4,7 +4,7 @@ title: Skapa eller redigera ett skript
 description: Skapa skript
 keywords: skript, makro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -20,6 +20,8 @@ index: true
 ---
 
 # Skapa eller redigera ett skript
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

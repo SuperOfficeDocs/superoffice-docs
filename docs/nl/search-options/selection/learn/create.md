@@ -3,8 +3,8 @@ uid: help-nl-selection-create
 title: Selectie maken
 description: Werken met dynamische en statische selecties
 keywords: selectie maken, nieuw selectie, opslaan als selectie, selectie
-author: Bergfrid Dias
-date: 03.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.3
 content_type: howto
 audience: person
@@ -82,7 +82,7 @@ Wanneer u op deze knop klinkt, wordt een kopie van de selectie gemaakt met de te
 
 * Schakel de optie **Voltooid** in om aan te geven dat de selectie inactief is. Als u de selectie actief wilt laten, schakelt u dit selectievakje niet in.
 
-* Met **SAINT** ingeschakeld (vereist Sales-Premium of Service-Premium) kun je [statussen][14] gebruiken als criteria voor het maken van dynamische selecties. Dit geeft je een overzicht van bedrijven, personen of projecten die voldoen aan specifieke statuscriteria. De SAINT-criteria vind je onder **Tellers (SAINT)** in de [criterialijst][9] op het scherm **Zoeken**.
+* Met **SAINT** ingeschakeld (vereist een **Sales Premium**- of **Service Premium**-licentie of het **Growth**-plan) kun je [statussen][14] gebruiken als criteria voor het maken van dynamische selecties. Dit geeft je een overzicht van bedrijven, personen of projecten die voldoen aan specifieke statuscriteria. De SAINT-criteria vind je onder **Tellers (SAINT)** in de [criterialijst][9] op het scherm **Zoeken**.
 
 ## Gerelateerde inhoud
 

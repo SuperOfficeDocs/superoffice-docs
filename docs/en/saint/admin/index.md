@@ -25,7 +25,7 @@ Before implementing SAINT, it is important to know what you want to improve and 
 * Call all customers in the SAINT selection
 * Follow up on all requests
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ![SAINT screen with status list, description, image, and criteria -screenshot][img1]
 

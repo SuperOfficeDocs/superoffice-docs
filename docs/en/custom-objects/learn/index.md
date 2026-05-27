@@ -3,11 +3,11 @@ uid: help-en-custom-objects
 title: Custom objects
 description: Introduction to database schema customizations in SuperOffice
 keywords: custom object, table, field, user-defined field, udef, custom field, extra field, extra table
-author: Bergfrid Dias
-date: 01.16.2024
-version: 10
+author: digitaldiina
+date: 05.11.2026
+version: 11
 content_type: concept
-tier: growth
+tier: core
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -29,21 +29,15 @@ SuperOffice CRM and Service were once two separate applications, with different 
 
 ## Requirements
 
-| Customization | License | Comment |
-|---|---|---|
-| Add/remove user-defined field | None | Automatically displayed on the [More tab][12]. Need Development Tools to customize placement. |
-| Customize layout of the More tab | Development Tools | |
-| Manage page 1 fields | Development Tools | |
-| Extra field | Development Tools | |
-| Extra table | Development Tools | |
-| [Screen Designer][5] | Development Tools | SuperOffice version 10 and newer. |
-| [Custom screens][6] | Development Tools, Service | Create new screens in Service. |
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
+
+Fields are automatically displayed on the [More tab][12] once added.
 
 ## Layout (positioning fields)
 
-UI customization of any type requires the Development Tools license. Any custom screen layouts (created in the Screen Designer) may override the settings on individual custom fields.
+Any custom screen layouts (created in the Screen Designer) may override the settings on individual custom fields.
 
-If you do not have a Development Tools license, use the rank of the different fields to sort them on the **More** tab.
+If you do not have the **Core** plan, use the rank of the different fields to sort them on the **More** tab.
 
 ## Related content
 
@@ -55,8 +49,6 @@ If you do not have a Development Tools license, use the rank of the different fi
 [1]: udef.md
 [2]: extra-field.md
 [3]: extra-table.md
-[5]: ../../customization/screen-designer/admin/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
 
 <!-- Referenced images -->

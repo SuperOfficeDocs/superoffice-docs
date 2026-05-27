@@ -3,8 +3,8 @@ uid: help-no-erp-connect-actor
 title: Knytte til ERP
 description: Knytte til ERP
 keywords: knytte til ERP, knytte firma til ERP, knytte person til ERP, knytte prosjekt til ERP, ingen treff i ERP, opprett i ERP, opprette aktør, ERP-aktør, ERP
-author: SuperOffice RnD
-date: 03.31.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 license: development-tools
@@ -19,7 +19,7 @@ redirect_from:
 
 # Knytte til ERP
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 Du kan knytte et SuperOffice-firma til en kunde eller leverandør i ERP-systemet. Personer som er registrert på SuperOffice-firmaet, kan deretter knyttes til personer i ERP-systemet. Tilsvarende kan SuperOffice-prosjekter knyttes til prosjekter i ERP-systemet. Deretter synkroniseres data mellom SuperOffice og ERP-systemet.
 

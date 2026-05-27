@@ -23,8 +23,7 @@ index: true
 
 **Tilbud/Sync**-bildet i Innstillinger og vedlikehold er der du konfigurerer alt som trengs for å aktivere tilbud og ordrebehandling i SuperOffice CRM.
 
-> [!NOTE]
-> Denne funksjonen krever brukerplanen **Sales Premium**.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Produkter og prislister
 

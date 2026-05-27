@@ -4,7 +4,7 @@ title: Makro erstellen - Beispiel aus SuperOffice
 description: Beispiel für die Erstellung eines Makros in SuperOffice.
 keywords: Skript, Makro
 author: digitaldiina
-date: 11.26.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 category: automation
@@ -18,6 +18,8 @@ index: true
 ---
 
 # Makro erstellen - Beispiel aus SuperOffice
+
+[!include[License requirement](../../../includes/req-core.md)]
 
 Viele Firmen erhalten oft Anfragen bezüglich der Rechnungslegung. Solche Anfragen sollten direkt an die Buchhaltungsabteilung weitergeleitet werden. Anstatt jede Anfrage einzeln zu bearbeiten und Kategorie und Eigentümer zu ändern, können wir ein Makro für diese Aktionen erstellen. Das Makro kann der Schaltfläche **Aufgabe** in der Ansicht Anfrage zugewiesen werden. Fragen zur Rechnungslegung können daher mit nur einem Klick an die Buchhaltungsabteilung weitergeleitet werden.
 

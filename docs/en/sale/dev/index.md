@@ -3,10 +3,11 @@ uid: sale-overview
 title: Sales
 description: Sales in SuperOffice
 keywords: sale process, base currency, currency, enable Stakeholders, stakeholder, suggested activities, stages, stalled, SaleTypeStageLink, quote connection, quote line, quote version, product, price list, sale, quote
-author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+author: digitaldiina
+date: 05.12.2026
+version: 11
 content_type: concept
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -19,8 +20,6 @@ redirect_from:
 # Sales
 
 A sale process typically consists of different stages. For each stage, you have certain activities and perhaps documents that need to be completed. With every activity and every stage completed, you will get closer to closing the sale.
-
-[!include[License requirement](../../../../common/includes/req-sales-essentials.md)]
 
 ## Key info
 
@@ -67,13 +66,13 @@ This will also make the sale visible on more than one company sales archive if *
 
 ![Enable stakeholders setting -screenshot][img2]
 
-[!include[License requirement](../../../../common/includes/req-sales-prem.md)]
+[!include[License requirement](../../includes/req-growth-transition-sales.md)]
 
 ## Sales guides
 
 Using a guide will simplify and structure the sales process for the sales staff with suggestions for which follow-ups to do and which documents to create at each stage.
 
-[!include[License requirement](../../../../common/includes/req-sales-prem.md)]
+[!include[License requirement](../../includes/req-growth-transition-sales.md)]
 
 ## Sale type
 
@@ -126,7 +125,7 @@ When this happens, the next activity changes to the re-open date. The seller sho
 
 ## <a id="quote"></a>Quote management
 
-[!include[License requirement](../../../../common/includes/req-sales-prem.md)]
+[!include[License requirement](../../includes/req-growth-transition-sales.md)]
 
 In sales, a quote allows a prospective buyer to see the **costs of selected products and/or services**. It can contain multiple **alternatives** for the customer to choose between.
 

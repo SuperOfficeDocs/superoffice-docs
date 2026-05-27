@@ -12,7 +12,7 @@ language: de
 
 # Kundenzentrum konfigurieren <i class="ph ph-question" aria-label="Question mark"></i>
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 Sie können das Design und das Layout Ihres Kundenzentrums bearbeiten und eine Vorschau der Änderungen anzeigen.
 

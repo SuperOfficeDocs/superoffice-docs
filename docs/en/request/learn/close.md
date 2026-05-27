@@ -3,12 +3,12 @@ uid: help-en-request-close
 title: Close a request
 description: How to close one or multiple request in SuperOffice.
 keywords: close request, set status closed, closed, bulk update, request
-author: digitaldiina, kirstiaa
-date: 04.08.2026
+author: digitaldiina
+date: 05.11.2026
 version: 11.12
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

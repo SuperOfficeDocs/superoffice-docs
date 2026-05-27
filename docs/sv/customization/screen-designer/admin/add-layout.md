@@ -4,11 +4,11 @@ title: Lägg till layout
 description: Så här lägger du till en ny layout för en användargrupp.
 keywords: lägg till layout, ny layout, skärmlayout, Tilldela layouter till
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Lägg till layout
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Oavsett om du lägger till en personlig vy för en utvald användargrupp eller designar en layout optimerad för specifika projekt-, försäljnings-, ärende- och händelsestyper eller dokumentmallar, börjar du med att lägga till en ny layout för en skärm i Skärmdesignern.
 

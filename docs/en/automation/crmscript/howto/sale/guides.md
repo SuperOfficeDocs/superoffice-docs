@@ -3,16 +3,18 @@ uid: crmscript-sale-guide
 title: Guides
 description: How to work with sales guides in CRMScript.
 keywords: sale, sales guide, sale type, stage, rank, ListAgent, suggested
-author: Bergfrid Dias
-date: 06.09.2023
+author: digitaldiina
+date: 05.11.2026
 version: 10
 content_type: howto
+tier: core
 redirect_from: /en/sale/howto/crmscript/guides
+language: en
 ---
 
 # Guides
 
-[!include[License requirement](../../../../../../common/includes/req-sales-prem.md)]
+[!include[License requirement](../../../../includes/req-core-transition-sales.md)]
 
 ## Stages
 

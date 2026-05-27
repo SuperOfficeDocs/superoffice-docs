@@ -4,9 +4,10 @@ title: Scan a business card
 description: How do I automatically create a new contact in the Mobile CRM app from a business card?
 keywords: business card, contact
 author: digitaldiina
-date: 02.26.2026
+date: 05.11.2026
 version: 11.1.3
 content_type: howto
+tier: core
 platform: mobile
 redirect_from:
   - /en/mobile/superoffice-mobile/company-contact/scan-business-card

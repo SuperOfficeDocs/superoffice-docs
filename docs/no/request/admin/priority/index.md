@@ -3,12 +3,12 @@ uid: help-no-request-priority
 title: Saksprioriteter
 description: Saksprioriteter
 keywords: saksprioritet, prioritet, eskalering, sak
-author: Hanne Gunnarsson
-date: 02.05.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

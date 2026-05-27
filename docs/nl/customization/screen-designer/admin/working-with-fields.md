@@ -4,11 +4,11 @@ title: Werken met velden
 description: Hoe u velden toevoegt, verplaatst en verwijdert in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: veld toevoegen, nieuw veld, veld verplaatsen, veld verwijderen, veld verbergen, opmaak bewerken, veldinstellingen
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /nl/customization/screen-designer/working-with-fields
 
 # Werken met velden
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 Labels en velden vertegenwoordigen de essentiële inhoud van een scherm. Of u nu een nieuwe opmaak maakt of een bestaande wijzigt, begin met klikken op <i class="ph ph-pencil-simple" aria-label="Opmaak bewerken"></i>. [Laat me de gedetailleerde stappen zien.][1] Wanneer u klaar bent, **sla het opmaak op of publiceer het**.
 

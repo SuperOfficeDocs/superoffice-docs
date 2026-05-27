@@ -14,7 +14,7 @@ language: sv
 
 Du kan uppdatera standardsidorna i ditt kundcenter genom att redigera källfilerna.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Välj <i class="ph ph-list" aria-label="Main menu"></i> **Systeminställningar** > **Kundcenter – källfiler**.
 

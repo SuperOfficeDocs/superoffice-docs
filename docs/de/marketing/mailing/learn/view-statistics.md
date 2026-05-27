@@ -72,7 +72,7 @@ Nachdem Ihre Kampagne fertiggestellt ist, können Sie auf der Registerkarte **Zu
 * **Nicht zustellbare verwalten**: Eine Übersicht über alle nicht zustellbaren E-Mails. Verwenden Sie die Aktionen, damit Sie [Ihre unzustellbaren E-Mail-Adressen bereinigen][1] können, indem Sie entweder die Personen als ausgeschiedene Mitarbeiter festlegen oder die E-Mail-Adressen löschen.
 
 > [!NOTE]
-> Für die Registerkarten **Berichte** und **Überwachte Links** ist die Lizenz Marketing User erforderlich. Einige Registerkarten stehen für SMS- und Dokumentenkampagnen nicht zur Verfügung.
+> Für die Registerkarten **Berichte** und **Überwachte Links** ist eine **Marketing Essentials**-Lizenz oder der **Growth**-Plan erforderlich. Einige Registerkarten stehen für SMS- und Dokumentenkampagnen nicht zur Verfügung.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

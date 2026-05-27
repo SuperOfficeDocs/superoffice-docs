@@ -27,7 +27,7 @@ Genom att skapa FAQ-poster kan ditt företag bygga upp en omfattande samling fr�
 
 ## Krav
 
-* Du behöver en licens för Service Premium eller Customer Engagement-plattformen för att använda kunskapsbasen.
+* Du behöver en **Service Premium**-licens, **Customer Engagement Platform (CEP)**-tillägget eller **Growth**-planen för att använda kunskapsbasen.
 * Om du inte ser den här funktionen måste du lägga till *Kunskapsbas* som funktionell rättighet för att skapa FAQ-artiklar.
 
 ## Skapa FAQ-poster från ett ärende

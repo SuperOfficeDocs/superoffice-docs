@@ -23,8 +23,7 @@ redirect_from:
 
 The **Quote/Sync** screen in Settings and maintenance is where you configure everything needed to enable quoting and ordering in SuperOffice CRM.
 
-> [!NOTE]
-> This feature requires the **Sales Premium** user plan.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Products and price lists
 

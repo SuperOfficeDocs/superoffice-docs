@@ -4,11 +4,11 @@ title: Opmaak toevoegen
 description: Een nieuwe opmaak toevoegen voor een gebruikersgroep.
 keywords: opmaak toevoegen, nieuwe opmaak, schermopmaak, Opmaken toewijzen aan
 author: digitaldiina
-date: 11.20.2025
+date: 05.11.2026
 version: 11.6
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Opmaak toevoegen
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 Of u nu een gepersonaliseerde weergave voor een geselecteerde gebruikersgroep toevoegt of een opmaak ontwerpt die geoptimaliseerd is voor specifieke project-, verkoop-, verzoek- en vervolgactiviteitstypen of documentsjablonen, begin met het toevoegen van een nieuwe opmaak voor een scherm in de Schermontwerper.
 

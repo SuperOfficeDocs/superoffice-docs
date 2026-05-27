@@ -4,7 +4,7 @@ title: The More tab
 description: Learn how to use the More tab in SuperOffice CRM to view and manage user-defined fields for companies, contacts, sales, projects, follow-ups, and documents.
 keywords: More tab, udef, user-defined field, extra field, custom field
 author: Bergfrid Skaara Dias
-date: 11.29.2024
+date: 05.11.2026
 version: 10.3.11
 content_type: howto
 tier: core
@@ -54,7 +54,7 @@ Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> to update the inform
 
 ## Additional tips
 
-* **Customizing fields:** Adding custom defined fields or adjusting layouts requires administrative access and, in some cases, a Development Tools license.
+* **Customizing fields:** Adding custom defined fields or adjusting layouts requires administrative access and, in some cases, a Development Tools license or the Core plan.
 
 ## Related topics
 

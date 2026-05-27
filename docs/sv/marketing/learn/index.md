@@ -70,7 +70,7 @@ Det finns tre nyckelområden där GDPR påverkar marknadsförarnas arbete:
 ## Krav
 
 > [!NOTE]
-> Spårade länkar och rapporteringsfunktionerna kräver licensen för användare av Marknadsföring. Du behöver även funktionella rättigheter för att redigera och skicka utskick.
+> Spårade länkar och rapporteringsfunktionerna kräver en **Marketing Essentials**-licens eller **Growth**-planen. Du behöver även funktionella rättigheter för att redigera och skicka utskick.
 
 SMS-utskick är inte tillgängligt om du använder CRM Online.
 

@@ -38,7 +38,7 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 1. Når du er færdig, klik på **Gem**. Dialogboksen lukkes, og det nye felt vises i **Felt**-listen og i gitteret.
 
-1. [Valgfrit, justér feltets placering][3]. Dette kræver licensen Development Tools!
+1. [Valgfrit, justér feltets placering][3]. Dette kræver licensen Development Tools eller Core-planen.
 
 1. Fortsæt med at tilføje felter. Klik på **Udgiv**, når du er færdig, for at gøre feltet tilgængeligt for SuperOffice-brugere. Upublicerede felter og felter med upublicerede ændringer vises i fed tekst i listen **Felt**.
 

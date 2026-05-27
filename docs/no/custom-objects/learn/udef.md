@@ -4,7 +4,7 @@ title: Brukerdefinerte felt
 description: Introduksjon til brukerdefinerte felt i SuperOffice
 keywords: udef, egendefinert, brukerdefinert, felt, felttype
 author: Bergfrid Dias
-date: 08.27.2024
+date: 05.11.2026
 version: 10.3.1
 content_type: concept
 audience: user
@@ -15,6 +15,8 @@ redirect_from: /no/custom-objects/learn/udef/index
 ---
 
 # Brukerdefinerte felt
+
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Et *brukerdefinert* felt (udef) er et tilpasset felt du legger til i en standard SuperOffice-databasetabell. Du kan utvide følgende enheter:
 
@@ -28,7 +30,7 @@ Et *brukerdefinert* felt (udef) er et tilpasset felt du legger til i en standard
 Brukerdefinerte felt administreres i Innstillinger og vedlikehold, i **Felter**-skjermen. I applikasjonen er brukerdefinerte felt synlige på **Mer**-fanen til enheten de ble lagt til. For eksempel vises et brukerdefinert felt på et firma på **Mer**-fanen i Firma-skjermen.
 
 > [!NOTE]
-> Alle kan **oppdatere** data lagret i et brukerdefinert felt. Bare en administrator kan legge til (eller fjerne) et brukerdefinert felt. Du trenger en Development Tools-lisens for å tilpasse utformingen av **Mer**-fanen og for å bruke [side 1-felt](#page-1).
+> Alle kan **oppdatere** data lagret i et brukerdefinert felt. Bare en administrator kan legge til (eller fjerne) et brukerdefinert felt. Du trenger **Core**-planen for å tilpasse utformingen av **Mer**-fanen og for å bruke [side 1-felt](#page-1).
 
 ## <a id="field-types"></a>Felttyper
 
@@ -78,7 +80,7 @@ Blant de brukerdefinerte feltene som vises i **Mer**-fanene i SuperOffice CRM, k
 * Fanen **Detaljer** i dialogboksen Dokument
 
 > [!NOTE]
-> Side-1 felt krever lisensen Development Tools, og er ikke tilgjengelig hvis organisasjonen bruker en annen layout via [Skjermdesigneren][8].
+> Side-1 felt krever **Core**-planen, og er ikke tilgjengelig hvis organisasjonen bruker en annen layout via [Skjermdesigneren][8].
 
 ## Eksempler
 

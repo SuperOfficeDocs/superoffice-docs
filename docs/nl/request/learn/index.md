@@ -4,11 +4,11 @@ title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 keywords: verzoek, ticket, service
 author: digitaldiina
-date: 04.08.2026
+date: 05.11.2026
 version: 11.12
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -99,6 +99,9 @@ Bovenaan het tabblad **Berichten** kunt u berichten beantwoorden en berichten do
 Het tabblad **Details** bevat een overzicht van alle velden voor het verzoek.
 
 ### <a id="log"></a>Logboek wijzigen
+
+> [!NOTE]
+> Voor het logboek is een **Service Premium**-licentie of het **Growth**-plan vereist.
 
 Dit scherm bevat het logboek voor dit verzoek. Alle gebeurtenissen worden vastgelegd, inclusief het tijdstip, wat er is gebeurd en wie dit heeft gedaan.
 

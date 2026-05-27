@@ -72,7 +72,7 @@ After your mailing is finished, you can see how your mailing performed in the **
 * **Manage bounces**: An overview of all bounced emails. Use the actions to [clean up your bouncing email addresses][1], either by setting the contacts as former employee or deleting the email addresses.
 
 > [!NOTE]
-> The **Reports** and **Tracked links** tabs require the Marketing User licence. Some tabs are not available for SMS mailings and document mailings.
+> The **Reports** and **Tracked links** tabs require a **Marketing Essentials** license or the **Growth** plan. Some tabs are not available for SMS mailings and document mailings.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

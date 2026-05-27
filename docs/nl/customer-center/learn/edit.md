@@ -14,7 +14,7 @@ language: nl
 
 U kunt de standaardpagina's in uw klantportaal bijwerken door de bronbestanden te bewerken.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Selecteer <i class="ph ph-list" aria-label="Main menu"></i> **Systeeminstellingen** > **Klantportaal-bronbestanden**.
 

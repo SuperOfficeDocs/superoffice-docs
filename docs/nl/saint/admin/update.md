@@ -25,7 +25,7 @@ redirect_from:
 
 # Activiteitsmonitoring bijwerken
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Open het SAINT-scherm
 

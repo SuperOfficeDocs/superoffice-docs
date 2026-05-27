@@ -3,12 +3,12 @@ uid: help-no-request-escalation
 title: Eskaleringsnivåer
 description: Eskaleringsnivåer
 keywords: eskaleringsnivå, legg til eskaleringsnivå, nytt nivå, eskalere, eskalering, saksprioritet, sak, prioritet
-author: Hanne Gunnarsson
-date: 02.05.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.1
 content_type: howto
-license: serviceessentials
-tier: core
+license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

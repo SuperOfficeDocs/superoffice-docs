@@ -4,12 +4,12 @@ title: Aangepaste objecten  en velden
 description: Aangepaste objecten en velden
 keywords: aangepast object, veld
 author: Bergfrid Dias
-date: 01.30.2024
+date: 05.11.2026
 version: 10
 content_type: concept
+tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
 language: nl
 ---
 
@@ -29,21 +29,15 @@ SuperOffice CRM en Service waren ooit twee aparte toepassingen met verschillende
 
 ## Vereisten
 
-| Aanpassing | Licentie | Opmerking |
-|---|---|---|
-| Voeg toe/verwijder gebruikersgedefinieerd veld | Geen | Wordt automatisch weergegeven op het [tabblad Meer][12]. Vereist Development Tools om de plaatsing aan te passen. |
-| Pas het layout van het Meer tabblad aan | Development Tools | |
-| Beheer pagina 1 velden | Development Tools | |
-| Extra veld | Development Tools | |
-| Extra tabel | Development Tools | |
-| [Schermontwerper][5] | Development Tools | SuperOffice versie 10 en nieuwer. |
-| [Aangepaste schermen][6] | Development Tools, Service | Maak nieuwe schermen in Service. |
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
+
+Velden worden automatisch weergegeven op het [tabblad Meer][12] zodra ze zijn toegevoegd.
 
 ## Layout (positionering van velden)
 
-UI-aanpassing van welk type dan ook vereist de Development Tools-licentie. Eventuele aangepaste schermindelingen (gemaakt in de Schermontwerper) kunnen de instellingen voor individuele aangepaste velden overschrijven.
+Eventuele aangepaste schermindelingen (gemaakt in de Schermontwerper) kunnen de instellingen voor individuele aangepaste velden overschrijven.
 
-Als u geen Development Tools-licentie heeft, gebruikt u de rang van de verschillende velden om ze te sorteren op het tabblad **Meer**.
+Als u geen **Core**-plan heeft, gebruikt u de rang van de verschillende velden om ze te sorteren op het tabblad **Meer**.
 
 ## Gerelateerde inhoud
 

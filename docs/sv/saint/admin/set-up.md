@@ -21,7 +21,7 @@ redirect_from:
 
 # Konfigurera ny aktivitetsövervakning
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Med statusövervakning ser du enkelt alla kunder som behöver uppmärksamhet.
 

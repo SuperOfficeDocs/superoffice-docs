@@ -72,7 +72,7 @@ Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Samme
 * **Behandle returmeldinger**: En oversikt over alle returnerte e-poster. Bruk handlingene til å [rydde opp i de returnerende e-postadressene dine][1], enten ved å angi personene som tidligere ansatt, eller ved å slette e-postadressene.
 
 > [!NOTE]
-> Fanene **Rapporter** og **Sporede koblinger** krever Marketing User-lisensen. Noen faner er ikke tilgjengelige for utsendelse av SMS og dokumenter.
+> Fanene **Rapporter** og **Sporede koblinger** krever en **Marketing Essentials**-lisens eller **Growth**-planen. Noen faner er ikke tilgjengelige for utsendelse av SMS og dokumenter.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

@@ -122,7 +122,7 @@ Hvis søgefeltet er et statusfelt, skal du blot vælge den ønskede status.
 
 Statusserne oprettes og vedligeholdes i Indstillinger og vedligeholdelse.
 
-Statusfelter er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
+Statusfelter er kun aktuelle, hvis du har købt licens til og [aktiveret statusovervågning](../../saint/admin/set-up.md).
 
 ### <a id="counter"></a>Tællerfelt
 
@@ -140,7 +140,7 @@ Tællerfelter kan findes under **Tællere (SAINT)** på listen over kriterier.
 
 1. Afhængigt af, hvad du har valgt ovenover, vises der en rullemenu for valg af datofelt eller talfelt. Disse rullemenuer fungerer som beskrevet nedenfor. Vælg den ønskede indstilling, og indtast den ønskede talværdi eller dato i tekstfeltet.
 
-Tællerne oprettes og vedligeholdes i Indstillinger og vedligeholdelse. Tællerværdier er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
+Tællerne oprettes og vedligeholdes i Indstillinger og vedligeholdelse. Tællerværdier er kun aktuelle, hvis du har købt licens til og [aktiveret statusovervågning](../../saint/admin/set-up.md).
 
 ## Arbejde med søgekriterier
 

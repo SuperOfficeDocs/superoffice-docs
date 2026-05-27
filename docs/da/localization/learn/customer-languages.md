@@ -18,7 +18,7 @@ language: da
 
 # Kundesprog
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 For at tilbyde en god kundeoplevelse skal du støtte dine kunder på deres lokale sprog, når de besøger dit kundecenter og i kommunikationen med kunden.
 

@@ -24,7 +24,7 @@ This information is shown on the **How to install** tab in the App Store.
 
 1. Go to the **How to install** tab of the application's **App Store information**.
 
-2. Indicate which SuperOffice user plans are supported. If all user plans are supported, specify "All user plans".
+2. Indicate which SuperOffice plans are supported. If all plans are supported, specify "All plans".
 
 3. How to get started with your app: Provide a numbered step-by-step description of all steps needed to install and use the application for the first time.
 

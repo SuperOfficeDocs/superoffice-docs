@@ -13,7 +13,7 @@ redirect_from: /en/request/overview
 
 # Requests
 
-[!include[License requirement](../../../../common/includes/req-service-essentials.md)]
+[!include[License requirement](../../includes/req-core.md)]
 
 * Manage requests and inquiries already in the system
 * Create internal and external requests
@@ -94,7 +94,7 @@ The escalation chain has multiple levels. Each level has its own settings, such 
 * If and who the ticket should be delegated to on escalation
 * The ID of a [CRMScript][1] to run when the ticket alert goes off
 
-[!include[License requirement](../../../../common/includes/req-service-prem.md)]
+[!include[License requirement](../../includes/req-growth-transition-service.md)]
 
 You can [define additional escalation levels][8] for each priority.
 

@@ -3,8 +3,8 @@ uid: help-de-selection-create
 title: Selektion erstellen
 description: Arbeiten mit dynamischen und statischen Selektionen
 keywords: Selektion erstellen, neue Selektion als Selektion speichern, Selektion
-author: Bergfrid Dias
-date: 03.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.3
 content_type: howto
 audience: person
@@ -82,7 +82,7 @@ Wenn Sie auf diese Schaltfläche klicken, wird eine Kopie der Selektion erstellt
 
 * Markieren Sie **Abgeschlossen**, um anzugeben, dass die Selektion inaktiv ist. Wenn Sie die Selektion aktivieren möchten, heben Sie die Markierung dieser Option auf.
 
-* Mit aktiviertem **SAINT** (erfordert Sales-Premium oder Service-Premium) können Sie [Statusangaben][14] als Kriterien für die Erstellung dynamischer Selektion verwenden. Dies ermöglicht Ihnen einen Überblick über Firmen, Personen oder Projekte, die bestimmten Statuskriterien entsprechen. Die SAINT-Kriterien finden Sie unter **Zähler (SAINT)** in der [Kriterienliste][9] in der Ansicht **Suchen**.
+* Mit aktiviertem **SAINT** (erfordert einen **Sales Premium**- oder **Service Premium**-Benutzerplan oder den **Growth**-Plan) können Sie [Statusangaben][14] als Kriterien für die Erstellung dynamischer Selektion verwenden. Dies ermöglicht Ihnen einen Überblick über Firmen, Personen oder Projekte, die bestimmten Statuskriterien entsprechen. Die SAINT-Kriterien finden Sie unter **Zähler (SAINT)** in der [Kriterienliste][9] in der Ansicht **Suchen**.
 
 ## Verwandte Inhalte
 

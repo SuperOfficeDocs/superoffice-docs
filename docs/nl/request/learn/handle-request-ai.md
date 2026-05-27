@@ -3,8 +3,9 @@ uid: help-nl-request-ai
 title: Efficiënte afhandeling van verzoeken met AI
 description: De introductie van kunstmatige intelligentie (AI) in SuperOffice 10 biedt verzoekbehandelaars/ondersteuningsagenten een nieuwe set slimme tools om hun werkdag efficiënter te maken.
 keywords: verzoek, ai, efficiënt
-author: Kirsti Aakerholt
-date: 04.19.2023
+author: digitaldiina
+date: 05.11.2026
+version: 11.11
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service

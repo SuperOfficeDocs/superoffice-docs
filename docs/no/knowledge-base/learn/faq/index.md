@@ -25,7 +25,7 @@ redirect_from:
 
 Ofte stilte spørsmål (FAQ) er en viktig del av håndteringen av service-saker. Siden mange kundehenvendelser gjentar seg over tid, er det en god idé å lage vanlige spørsmål som inneholder svar på slike tilbakevendende spørsmål.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Fordeler med å ha et FAQ-bibliotek
 

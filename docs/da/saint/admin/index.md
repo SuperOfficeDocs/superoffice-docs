@@ -25,7 +25,7 @@ Før du implementerer SAINT, er det vigtigt at vide, hvad du ønsker at forbedre
 * Ringe til alle kunder i SAINT-udvalget
 * Følge op på alle sager
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ![SAINT-skærm med statusliste, beskrivelse, billede og kriterier -screenshot][img1]
 

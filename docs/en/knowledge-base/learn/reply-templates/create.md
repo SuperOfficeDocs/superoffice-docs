@@ -3,14 +3,14 @@ uid: help-en-reply-template-create
 title: Create reply templates
 description: Learn how to create a reply template in this how-to guide.
 keywords: create reply template, new reply template, copy reply template, reply template properties
-author: Bergfrid Dias
-date: 01.13.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

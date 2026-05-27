@@ -16,7 +16,7 @@ My custom application is ready, what should I consider before I ask for a valida
 
 ## Development Tools subscription
 
-Access to a customer's tenant from a custom application requires an active [Development Tools subscription][1] license. The license is purchased by the customer.
+Access to a customer's tenant from a custom application requires an active [Development Tools subscription][1] license or the Core plan. The license is purchased by the customer.
 
 If the subscription is discontinued, any custom applications will lose access to that tenant.
 

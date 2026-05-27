@@ -22,7 +22,7 @@ Gebruik dashboards om activiteiten, verkoop, verzoeken en meer te volgen. U kunt
 ![Verzoekendashboard -screenshot][img4]
 
 > [!NOTE]
-> Uw toegang tot dashboards en tegelgegevens is afhankelijk van uw gebruikersplan en toegewezen rechten.
+> Uw toegang tot dashboards en tegelgegevens is afhankelijk van uw plan en toegewezen rechten.
 
 ## Wat is een dashboard?
 
@@ -45,7 +45,7 @@ Selecteer **Dashboard** in de navigator om het dashboardscherm te openen. U hebt
 * **Favoriete dashboards:** Gemarkeerd met een ster
 * **Eigen dashboards:** Door uzelf gemaakte dashboards
 
-Standaard is een dashboard met de naam **Status** beschikbaar en vastgemaakt. Dit bevat tegels met vooraf gedefinieerde grafieken en belangrijke cijfers. Als u het SuperOffice Service-plan hebt, is een tweede dashboard genaamd **Verzoeken** ook beschikbaar.
+Standaard is een dashboard met de naam **Status** beschikbaar en vastgemaakt. Dit bevat tegels met vooraf gedefinieerde grafieken en belangrijke cijfers. Als u een **Service Essentials**-licentie of het **Starter**-plan hebt, is een tweede dashboard genaamd **Verzoeken** ook beschikbaar.
 
 U kunt extra dashboards maken of bestaande dupliceren en aanpassen.
 
@@ -171,9 +171,10 @@ Alleen de **eigenaar** van een dashboard kan het verwijderen.
 |---|---|---|
 | Alle CRM-plannen | Status-dashboard met standaardtegels | Grafieken, lijsten, grote getallen |
 | **Service** | Verzoeken-dashboard | Verzoekgerelateerde tegels |
-| **Marketing** (Essentials of hoger) | – | Mailings, formulierinzendingen, chats |
-| **Sales Premium** | – | Prognoses, KPI's, verkoopdoelen, offertes |
-| **Sales of Service Premium** | – | Activiteitsmonitoren (SAINT) |
+| **Marketing Essentials**-licentie of het **Core**-plan | – | Mailings, chats |
+| **Marketing Premium**-licentie of het **Plus**-plan | – | Formulierinzendingen |
+| **Sales Premium** of **Growth** | – | Prognoses, KPI's, verkoopdoelen, offertes |
+| **Sales of Service Premium** of **Growth** | – | Activiteitsmonitoren (SAINT) |
 
 ## Tips
 

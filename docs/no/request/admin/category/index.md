@@ -3,12 +3,12 @@ uid: help-no-request-category
 title: Sakskategorier
 description: Sakskategorier
 author: digitaldiina
-date: 03.25.2026
+date: 05.11.2026
 version: 10.5.1
 keywords: sakskategori, fanen Kategorier, sak, kategori
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

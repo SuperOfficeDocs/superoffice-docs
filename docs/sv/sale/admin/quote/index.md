@@ -23,8 +23,7 @@ index: true
 
 I skärmen **Offert/Synk** i Inställningar och underhåll konfigurerar du allt som behövs för att aktivera offert- och orderhantering i SuperOffice CRM.
 
-> [!NOTE]
-> Den här funktionen kräver användarplanen **Sales Premium**.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Produkter och prislistor
 

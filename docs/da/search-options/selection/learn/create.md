@@ -3,8 +3,8 @@ uid: help-da-selection-create
 title: Opret udvalg
 description: Arbejd med dynamiske og statiske markeringer
 keywords: nyt udvalg, opret udvalg, kopier udvalg, gem som udvalg, udvalg
-author: Bergfrid Dias
-date: 03.21.2025
+author: digitaldiina
+date: 05.11.2026
 version: 10.5.3
 content_type: howto
 audience: person
@@ -82,7 +82,7 @@ Der bliver så oprettet en kopi af udvalget med teksten (kopi) bag udvalgsnavnet
 
 * Marker **Udført** for at angive, at udvalget er inaktivt. Hvis du ønsker, at udvalget skal være aktivt, lader du afkrydsningsfeltet være tomt.
 
-* Med **SAINT** aktiveret (kræver Sales-Premium eller Service-Premium) kan du bruge [aktivitetsmonitorer][14] som kriterier for at oprette dynamiske udvalg. Dette giver dig et overblik over firmaer, personer eller projekter, der opfylder bestemte statuskriterier. SAINT-kriterierne findes under **Tællere (SAINT)** i [kriterielisten][9] i skærmbilledet **Find**.
+* Med **SAINT** aktiveret (kræver en **Sales Premium**- eller **Service Premium**-licens eller **Growth**-planen) kan du bruge [aktivitetsmonitorer][14] som kriterier for at oprette dynamiske udvalg. Dette giver dig et overblik over firmaer, personer eller projekter, der opfylder bestemte statuskriterier. SAINT-kriterierne findes under **Tællere (SAINT)** i [kriterielisten][9] i skærmbilledet **Find**.
 
 ## Relateret indhold
 
