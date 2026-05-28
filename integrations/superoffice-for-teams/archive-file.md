@@ -24,7 +24,7 @@ The file picker lists files found based on the above, each with a status icon:
 * **File icon:** Not yet archived. Ready to save.
 * **Red warning:** File is too large to archive.
 
-![The file picker showing files with their status icons – a green check mark on an already-archived file, a standard file icon on a new file, and a red warning triangle on an oversized file][img1]
+![The file picker showing files with their status icons – a green check mark on an already-archived file, a standard file icon on a new file, and a red warning triangle on an oversized file -screenshot][img1]
 
 The file picker is single-select – you can choose one file at a time. Saving a file with the same name always creates a new document in SuperOffice (overwriting is not supported yet).
 
