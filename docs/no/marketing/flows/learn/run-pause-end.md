@@ -4,8 +4,8 @@ title: Kjør, pause og avslutt flyt
 description: Hvordan kjøre, pause, gjenoppta, avslutte og slette en SuperOffice-markedsføringsautomatiseringsflyt.
 keywords: flyt, markedsføring, automatisering, kjøre flyt, kjørende, pause flyt, gjenoppta flyt, avslutte flyt, slette flyt, flytstatus
 author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+date: 05.28.2026
+version: 11.12
 content_type: howto
 category: marketing
 topic: flows
@@ -24,7 +24,7 @@ language: no
 
 * **Kjørende:** Ingen endringer er tillatt mens flyten pågår. Automatiske triggere er aktive, og deltakere legges til i flyten.
 
-* **Pauset:** Triggere forblir aktive. Deltakere legges til i flyten, men venter før første trinn. Eksisterende deltakere forblir på gjeldende trinn når flyten er satt på pause. Denne statusen brukes når man gjør endringer eller forbedringer i en flyt.
+* **Pauset:** Triggere forblir aktive. Deltakere legges til i flyten, men venter før første trinn. Eksisterende deltakere forblir på gjeldende trinn når flyten er satt på pause. Denne statusen brukes når man gjør endringer eller forbedringer i en flyt. På **CRM Suite-planer** regnes en pauset flyt fortsatt som aktiv fordi den fortsetter å samle inn innkommende kontakter for senere behandling, og teller mot grensen for aktive flyter.
 
 ![Markedsføringsflyter med forskjellig status og statistikk -screenshot][img1]
 
@@ -92,11 +92,24 @@ Alle påkrevde innstillinger må være gyldige før flyten kan kjøres. For ekse
 
 Du kan ikke slette en kjørende flyt. Først må du sette flyten på pause. Deretter må du avslutte flyten, slik at statusen endres til **Stoppet**. Til slutt klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> og velger **Slett flyt**.
 
+### Grensen for aktive flyter er nådd (CRM Suite)
+
+På **Plus**-planen kan organisasjonen din ha maksimalt 10 aktive flyter om gangen. Både kjørende og pauserte flyter teller mot denne grensen.
+
+Når grensen er nådd:
+
+* Bryteren **Kjører** er ikke tilgjengelig for flyter som ikke kjører.
+* Flytens topptekst viser gjeldende antall, for eksempel *10 av 10 aktive flyter*.
+* Hvis du holder musepekeren over den utilgjengelige bryteren, vises: *Du har nådd grensen på 10 kjørende flyter som er tillatt på Plus-pakken. Stopp noen kjørende flyter før du starter andre, eller oppgrader til Super-pakken.*
+
+For å frigjøre kapasitet, avslutt noen flyter slik at statusen endres til **Stoppet**. Hvis du trenger flere aktive flyter, oppgrader til **Super**-planen. Se [Plangrenser][2].
+
 ## Relatert innhold
 
 * [Oppdater flyt][1]
 
 <!-- Referenced links -->
+[2]: ../../../admin/license/crm-suite.md
 [1]: update.md
 
 <!-- Referenced images -->

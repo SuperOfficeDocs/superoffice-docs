@@ -53,7 +53,24 @@ I **Status**-fanen i Lisenser-bildet finner du oppdatert informasjon om systemet
 
 #### Database
 
-Her vises databasens eier, serienummer og type, som angis ved installering. Det viser også om det er en sentral database eller en satellittdatabase. Du kan se neste utløpsdato og navnet til pålogget bruker.
+Her vises databasens eier, serienummer, abonnement og type, som angis ved installering. Du kan se neste utløpsdato og navnet til pålogget bruker.
+
+Hvis organisasjonen din har et **SuperOffice CRM Suite**-abonnement, viser **Database**-delen også:
+
+* **Plan:** planen som inngår i abonnementet ditt, for eksempel *SuperOffice Core Suite*
+* **Begrensninger:** gjeldende forbruk mot plangrensene dine, for eksempel *1 av 100 aktive prosjekter*
+
+Plangrenser hindrer organisasjonen din fra å overskride kapasiteten i gjeldende plan. Indikatoren **Begrensninger** viser hvor nær du er en grense:
+
+| Forbruk | Indikator | Betydning |
+|---|---|---|
+| Under 85 % | Antall vist i svart, for eksempel *1 av 100 aktive prosjekter* | Normal – ingen handling nødvendig |
+| 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antall vist i rødt | Nærmer seg grensen |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antall vist i rødt | Grense nådd – funksjonen er blokkert |
+
+Velg indikatoren for å åpne siden [Plangrenser][16] for mer informasjon.
+
+Hvis du er systemadministrator, vises en **Oppgrader**-knapp ved siden av advarsel- eller stoppindikatoren. Velg den for å åpne et kontaktskjema for å be om mer kapasitet eller planoppgradering.
 
 #### Forbruk
 
@@ -191,6 +208,7 @@ Samme SCIM-unntak gjelder: tell antall brukte brukerplaner, ikke totalen som er 
 * [Systemoperasjoner][3]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html

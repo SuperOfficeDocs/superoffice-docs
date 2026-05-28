@@ -4,8 +4,8 @@ title: Brugerdefinerede objekter og felter
 description: Brugerdefinerede objekter
 keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 05.28.2026
+version: 11
 content_type: concept
 tier: core
 audience: person
@@ -31,6 +31,9 @@ SuperOffice CRM og Service var engang to separate applikationer med forskellige 
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
+> [!NOTE]
+> **CRM Suite (Growth-plan):** Din plan inkluderer en grænse for antallet af brugerdefinerede objekter. Når grænsen er nået, er oprettelse af yderligere objekter blokeret. Se [Plangrænser][13] for detaljer.
+
 Felter vises automatisk på [fanen Mere][12], når de er tilføjet.
 
 ## Layout (placering af felter)
@@ -52,3 +55,4 @@ Hvis du ikke har **Core**-planen, skal du bruge rækkefølgen af de forskellige 
 [5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md

@@ -53,7 +53,24 @@ På fliken **Status** i fönstret Licenser finns uppdaterad information om syste
 
 #### Databas
 
-Här visas databasens ägare, serienummer och typ som anges vid installation. Här anges också om det är en central databas eller en satellitdatabas. Du kan även se nästa utgångsdatum och namnet på den inloggade användaren.
+Här visas databasens ägare, serienummer, abonnemang och typ som anges vid installation. Du kan även se nästa utgångsdatum och namnet på den inloggade användaren.
+
+Om din organisation har ett **SuperOffice CRM Suite**-abonnemang visas även följande i **Databas**-avsnittet:
+
+* **Plan:** den plan som ingår i ditt abonnemang, till exempel *SuperOffice Core Suite*
+* **Begränsningar:** din aktuella användning i förhållande till plangränserna, till exempel *1 av 100 aktiva projekt*
+
+Plangränser förhindrar din organisation från att överskrida kapaciteten i den aktuella planen. Indikatorn **Begränsningar** visar hur nära du är en gräns:
+
+| Användning | Indikator | Betydelse |
+|---|---|---|
+| Under 85 % | Antal visas i svart, till exempel *1 av 100 aktiva projekt* | Normalt – ingen åtgärd krävs |
+| 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antal visas i rött | Närmar sig gränsen |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal visas i rött | Gränsen nådd – funktionen är blockerad |
+
+Välj indikatorn för att öppna sidan [Plangränser][16] för mer information.
+
+Om du är systemadministratör visas en **Uppgradera**-knapp bredvid varnings- eller stoppindikatorn. Välj den för att öppna ett kontaktformulär för att begära mer kapacitet eller en planuppgradering.
 
 #### Tjänster med datapriser
 
@@ -181,6 +198,7 @@ Samma undantag gäller för SCIM: räkna antalet aktiva användarplaner – inte
 * [Systemhändelser][3]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/sv/admin/onsite/add-system-event.html

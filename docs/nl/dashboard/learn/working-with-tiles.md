@@ -132,6 +132,9 @@ Gebruik deze tegel om opgemaakte tekst in uw dashboard weer te geven, zoals een 
 1. Klik op <i class="ph ph-translate" aria-label="Translate"></i> om een [vertaling toe te voegen][7] aan de tegelnaam en labels.
 1. Klik op **Opslaan**.
 
+> [!NOTE]
+> **CRM Suite:** Voor het bewerken van de tegelopmaak (grafiektype, labels en andere visuele instellingen op het tabblad **Opmaak**) is het **Growth**-abonnement of hoger vereist. Op Starter- of Core-abonnementen zijn de velden op het tabblad Opmaak alleen-lezen en een bericht onderaan het dialoogvenster legt de beperking uit. Beheerders kunnen **Upgrade** selecteren om een contactformulier te openen.
+
 ## <a id="copy"></a>Een tegel dupliceren of kopiëren
 
 U kunt een bestaande tegel opnieuw gebruiken door deze te dupliceren in hetzelfde dashboard of te kopiëren naar een ander dashboard. U moet **bewerkingstoegang tot het doeldashboard** hebben om een tegel daarheen te kopiëren.
@@ -217,6 +220,10 @@ Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in de k
 
 * **Ik heb geen toegang tot het tabblad Opmaak of tot velden**
   * U hebt mogelijk niet de vereiste functionele rechten. Neem contact op met uw beheerder.
+  * **CRM Suite:** Op Starter- of Core-abonnementen zijn de velden op het tabblad Opmaak alleen-lezen. Voor het bewerken van de tegelopmaak is het **Growth**-abonnement of hoger vereist.
+
+* **Ik kan geen dashboard aanmaken of dupliceren**
+  * **CRM Suite (Starter-abonnement):** Het Starter-abonnement bevat maximaal 3 dashboards. Als deze limiet is bereikt, zijn **Dashboard aanmaken** en **Dashboard dupliceren** niet beschikbaar. Verwijder een bestaand dashboard of upgrade naar het Core-abonnement of hoger. Zie [Plangrenzen][8].
 
 * **Een selectie ontbreekt in het tabblad Selecties**
   * Zie [Over selectie-gebaseerde tegels](#selection-chart)
@@ -230,6 +237,7 @@ Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in de k
 * [Dashboards gebruiken om uw verkooppijplijn te beheren][2]
 
 <!-- Referenced links -->
+[8]: ../../admin/license/crm-suite.md
 [1]: create.md
 [2]: ../../search-options/selection/learn/howto/display-as-charts.md
 [3]: index.md#charts

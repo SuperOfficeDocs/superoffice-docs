@@ -4,8 +4,8 @@ title: Projekt
 description: Diese Anleitung zeigt Ihnen, wie Sie Projekte erstellen und verwenden, um den Überblick über Ihre Arbeit zu behalten.
 keywords: Projektkarte, Projektansicht, Prozessmanagement, Projekt
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 05.28.2026
+version: 11.12
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core
@@ -32,6 +32,9 @@ Die Projektansicht enthält Informationen über die in SuperOffice CRM eingegebe
 Sie können zwischen Projekten mit den Schaltflächen **Zurück** und **Weiter** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) im unteren rechten Bereich der Karten navigieren.
 
 Wenn Sie einen Projekttyp auswählen, für den ein [Projektleitfaden][1] definiert ist, wird die Registerkarte **Projektleitfaden** in den Bereichsregisterkarten angezeigt.
+
+> [!NOTE]
+> **CRM Suite (Core-Plan):** Ihr Plan umfasst bis zu 100 aktive Projekte. Wenn Sie sich diesem Limit nähern, erscheint eine Warnung in der Projektfußzeile während der Bearbeitung. Wenn das Limit erreicht ist, steht die Schaltfläche **Neu** nicht zur Verfügung, und eine Meldung erklärt, wie Sie Kapazität freigeben können (vorhandene Projekte als abgeschlossen markieren) oder auf den Growth-Plan upgraden. Siehe [Plangrenzen][21].
 
 ## Registerkarten auf der Projektkarte
 
@@ -83,6 +86,7 @@ Der untere Bereich der Projektansicht besteht aus mehreren Bereichsregisterkarte
 [18]: ../../learn/section-tabs/requests-tab.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
+[21]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

@@ -3,8 +3,8 @@ uid: help-sv-custom-objects
 title: Egendefinierade objekt och fält
 description: Egendefinierade objekt och fält
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 05.28.2026
+version: 11
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
 content_type: concept
 tier: core
@@ -31,6 +31,9 @@ SuperOffice CRM och Service var en gång två separata applikationer med olika m
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
+> [!NOTE]
+> **CRM Suite (Growth-plan):** Din plan inkluderar en gräns för antalet egendefinierade objekt. När gränsen nås är det inte möjligt att skapa fler objekt. Se [Plangränser][13] för mer information.
+
 Fält visas automatiskt på [fliken Mer][12] när de har lagts till.
 
 ## Layout (positionering av fält)
@@ -52,5 +55,6 @@ Om du inte har **Core**-planen, använd rangordningen av de olika fälten för a
 [5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->

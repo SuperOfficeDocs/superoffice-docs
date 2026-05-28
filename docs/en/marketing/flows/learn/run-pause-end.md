@@ -24,7 +24,7 @@ language: en
 
 * **Running:** No changes are permitted while the flow is in progress. Automated triggers are activated, and participants are added to the flow.
 
-* **Paused:** Triggers remain activated. Participants are added to the flow, but they await movement to the first step. Existing participants remain on their current step when the flow is paused. This status is used when making changes or improvements to a flow.
+* **Paused:** Triggers remain activated. Participants are added to the flow, but they await movement to the first step. Existing participants remain on their current step when the flow is paused. This status is used when making changes or improvements to a flow. On **CRM Suite plans**, a paused flow is still considered active because it continues collecting incoming contacts for later processing, and counts toward the active flow limit.
 
 ![Marketing flows with different status and stats -screenshot][img1]
 
@@ -92,11 +92,24 @@ All required settings must be valid before the flow can run. For example, a flow
 
 You cannot delete a running flow. First, pause the flow. Then, end the flow so the status changes to **Not running**. After that, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete flow**.
 
+### Active flow limit reached (CRM Suite)
+
+On the **Plus** plan, your organization can have a maximum of 10 active flows at the same time. Both running and paused flows count toward this limit.
+
+When the limit is reached:
+
+* The **Running** toggle is unavailable on flows that are not running.
+* The flow header shows the current count, for example, *10 of 10 active flows*.
+* Hovering over the unavailable toggle shows: *You have reached the limit for 10 running flows allowed on the Plus suite. Please stop some running flows before starting others, or upgrade to the Super suite.*
+
+To free up capacity, end some flows so their status changes to **Not running**. If you need more active flows, upgrade to the **Super** plan. See [Plan limits][2].
+
 ## Related content
 
 * [Update flow][1]
 
 <!-- Referenced links -->
+[2]: ../../../admin/license/crm-suite.md
 [1]: update.md
 
 <!-- Referenced images -->

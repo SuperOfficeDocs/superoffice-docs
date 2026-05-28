@@ -4,8 +4,8 @@ title: Benutzerdefinierte Objekte
 description: Benutzerdefinierte Objekte
 keywords: benutzerdefiniertes Objekt, Felder, udef
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 05.28.2026
+version: 11
 content_type: concept
 tier: core
 audience: user
@@ -31,6 +31,9 @@ SuperOffice CRM und Service waren einmal zwei separate Anwendungen mit unterschi
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
+> [!NOTE]
+> **CRM Suite (Growth-Plan):** Ihr Plan beinhaltet eine Begrenzung der Anzahl benutzerdefinierter Objekte. Wenn das Limit erreicht ist, ist die Erstellung weiterer Objekte gesperrt. Siehe [Plangrenzen][13] für Details.
+
 Felder werden automatisch auf der [Registerkarte Mehr][12] angezeigt, sobald sie hinzugefügt wurden.
 
 ## Layout (Positionierung von Feldern)
@@ -50,5 +53,6 @@ Wenn Sie keinen **Core**-Plan haben, verwenden Sie die Reihenfolge der verschied
 [5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->

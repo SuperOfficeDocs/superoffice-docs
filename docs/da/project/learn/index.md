@@ -4,8 +4,8 @@ title: Projekt
 description: Denne vejledning viser dig, hvordan du opretter og bruger projekter til at holde styr på dit arbejde.
 keywords: projekt
 author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+date: 05.28.2026
+version: 11.12
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core
@@ -32,6 +32,9 @@ Skærmbilledet **Projekt** indeholder informationer om de projekter, der er regi
 Du kan navigere mellem projekter ved at klikke på **Forrige** og **Næste**-knapperne (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til højre på kortene.
 
 Hvis du vælger en projekttype, hvor en [projektguide][1] er defineret, vises fanen **Projektguide** på detaljekortet.
+
+> [!NOTE]
+> **CRM Suite (Core-plan):** Din plan inkluderer op til 100 aktive projekter. Når du nærmer dig denne grænse, vises en advarsel i projektets sidefod under redigering. Når grænsen er nået, er knappen **Ny** ikke tilgængelig, og en besked forklarer, hvordan du kan frigøre kapacitet (markér eksisterende projekter som afsluttede) eller opgradere til Growth-planen. Se [Plangrænser][21].
 
 ## Faner på projektkortet
 
@@ -83,6 +86,7 @@ Den nederste del af skærmbilledet **Projekt** indeholder detaljekort, hvor du k
 [18]: ../../learn/section-tabs/requests-tab.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
+[21]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
