@@ -13,7 +13,7 @@ language: en
 
 # AI summaries in SuperOffice for Teams
 
-If your organization has AI Labs activated, you can ask SuperOffice for Teams to generate a summary of the conversation – so you (or a colleague) can quickly understand the outcome without reading every message.
+If your organization has [AI Labs][1] activated, you can ask SuperOffice for Teams to generate a summary of the conversation – so you (or a colleague) can quickly understand the outcome without reading every message.
 
 1. Check **Generate Summary** in the archive window.
 1. The **Create** button changes to **Preview** so you can review the summary first.
@@ -30,6 +30,7 @@ Summaries currently use neutral, professional business language and are returned
 > If **Generate Summary** is unavailable, AI Labs is not activated for your SuperOffice tenant. Contact your SuperOffice administrator.
 
 <!-- Referenced links -->
+[1]: https://docs.superoffice.com/en/ai/learn/index.html
 
 <!-- Referenced images -->
 [img1]: media/teams-ai-summary-preview.png
