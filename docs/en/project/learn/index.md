@@ -35,6 +35,9 @@ You can navigate between projects using the **Previous** and **Next** buttons (<
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
+> [!NOTE]
+> **CRM Suite (Core plan):** Your plan includes up to 100 active projects. When you approach this limit, a warning appears in the project footer while editing. When the limit is reached, the **New** button is unavailable and a message explains how to free up capacity (mark existing projects as completed) or upgrade to the Growth plan. See [Plan limits][21].
+
 ## Tabs on the Project card
 
 <!-- markdownlint-disable-file MD059 -->
@@ -70,6 +73,7 @@ The lower part of the Project screen consists of section tabs.
 * [See what our customers in different industries use Project for][20] - blog
 
 <!-- Referenced links -->
+[21]: ../../admin/license/crm-suite.md
 [1]: project-guides.md
 [2]: create.md
 [3]: edit.md
