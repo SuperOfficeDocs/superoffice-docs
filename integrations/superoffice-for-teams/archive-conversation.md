@@ -13,7 +13,7 @@ language: en
 
 # Archive a Teams conversation
 
-Archiving works in chats and standard channels – refer to the [compatibility overview][1] to see exactly what's supported where. You can start archiving in two ways. Both open the same archive window, where you choose your scope and fill in the details needed to save the content to the right place in SuperOffice.
+Archiving works in chats and standard channels – refer to the [compatibility overview][1] to see exactly what's supported where. You can start archiving in two ways. Both open the same archive window, where you choose your scope and fill in the details needed to save the content to the correct place in SuperOffice.
 
 ## Option A – Start from a specific message
 
@@ -24,7 +24,7 @@ Use this when you want to capture a specific point in the conversation – a key
 1. Choose **SuperOffice for Teams**.
 1. Click **Save Chat**.
 1. Choose your scope: **This message**, **This and later**, or **Custom**.
-1. Fill in the details to connect the archive to the right record in SuperOffice (see below).
+1. Fill in the details to connect the archive to the correct record in SuperOffice (see below).
 1. Click **Create**.
 
 ![The right-click context menu on a Teams message, with the "SuperOffice for Teams" option highlighted -screenshot][img1]
@@ -38,7 +38,7 @@ Use this when you want to archive a range of messages – like Today, Yesterday,
 1. Search for and select **SuperOffice for Teams**.
 1. Click **Save Chat** in the pop-up.
 1. Pick a date range or choose **Custom** to select start and end dates.
-1. Fill in the details to connect the archive to the right record in SuperOffice (see below).
+1. Fill in the details to connect the archive to the correct record in SuperOffice (see below).
 1. Click **Create**.
 
 > [!NOTE]
@@ -56,7 +56,7 @@ Before you save, you can decide what gets included.
 
 ## Choosing where it goes in SuperOffice
 
-Whether you're saving a chat or a file, you'll fill in a few details so the archive lands in the right place.
+Whether you're saving a chat or a file, you'll fill in a few details so the archive lands in the correct place.
 
 * **Title:** Prefilled based on your selection, but you can change it.
 * **Contact or Company:** SuperOffice will automatically pre-populate this field if it can match someone from the conversation to a contact in SuperOffice. If no match is found, pick a company or contact manually. You'll see recently used entries from SuperOffice, and you can search by name. Click the **Chat** icon to pick someone from the Teams conversation who also exists in SuperOffice.
