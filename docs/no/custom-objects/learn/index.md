@@ -4,8 +4,8 @@ title: Egendefinerte objekter og felt
 description: Egendefinerte objekter og felt
 keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstratabell
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 05.28.2026
+version: 11
 content_type: concept
 tier: core
 audience: user
@@ -31,6 +31,9 @@ SuperOffice CRM og Service var en gang to separate applikasjoner med ulike utvid
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
+> [!NOTE]
+> **CRM Suite (Growth-plan):** Planen din har en grense for antall egendefinerte objekter. Når grensen er nådd, er opprettelse av flere objekter blokkert. Se [Plangrenser][13] for detaljer.
+
 Felt vises automatisk på [fanen Mer][12] når de er lagt til.
 
 ## Oppsett (plassering av felt)
@@ -52,5 +55,6 @@ Hvis du ikke har **Core**-planen, bruk rangeringen av de forskjellige feltene fo
 [5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->

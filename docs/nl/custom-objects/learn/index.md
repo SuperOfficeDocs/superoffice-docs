@@ -4,8 +4,8 @@ title: Aangepaste objecten  en velden
 description: Aangepaste objecten en velden
 keywords: aangepast object, veld
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 05.28.2026
+version: 11
 content_type: concept
 tier: core
 audience: person
@@ -31,6 +31,9 @@ SuperOffice CRM en Service waren ooit twee aparte toepassingen met verschillende
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
+> [!NOTE]
+> **CRM Suite (Growth-abonnement):** Uw abonnement bevat een limiet op het aantal aangepaste objecten. Wanneer de limiet is bereikt, is het aanmaken van extra objecten geblokkeerd. Zie [Plangrenzen][13] voor meer informatie.
+
 Velden worden automatisch weergegeven op het [tabblad Meer][12] zodra ze zijn toegevoegd.
 
 ## Layout (positionering van velden)
@@ -52,5 +55,6 @@ Als u geen **Core**-plan heeft, gebruikt u de rang van de verschillende velden o
 [5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
