@@ -54,7 +54,24 @@ Updated information about the system is displayed in the **Status** tab in the L
 
 #### Database
 
-Shows the database owner, serial number, and type, which are specified on installation. It also shows if it is a central database or a satellite database. You can see the next expiry date and the name of the user currently logged in.
+Shows the database owner, serial number, subscription, and type, which are specified on installation. You can see the next expiry date and the name of the user currently logged in.
+
+If your organization is on a **SuperOffice CRM Suite** subscription, the **Database** section also shows:
+
+* **Plan:** the plan included in your subscription, for example, *SuperOffice Core Suite*
+* **Restrictions:** your current usage against one or more plan limits, for example, *1 of 100 active projects*
+
+Plan limits prevent your organization from exceeding the capacity included in your current plan. The **Restrictions** indicator reflects how close you are to a limit:
+
+| Usage | Indicator | Meaning |
+|---|---|---|
+| Below 85% | Count shown in black, for example, *1 of 100 active projects* | Normal – no action needed |
+| 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in red | Approaching the limit |
+| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Count shown in red | Limit reached – the feature is blocked |
+
+Select the indicator to open the [Plan limits][16] page for more information.
+
+If you are a system administrator, an **Upgrade** button appears next to the warning or stop indicator. Select it to open a contact form to request more capacity or a plan upgrade.
 
 #### Metered services
 
@@ -185,6 +202,7 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 * [Hidden licenses][15]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/en/admin/onsite/add-system-event.html
