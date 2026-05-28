@@ -4,8 +4,8 @@ title: Flow uitvoeren, pauzeren en beëindigen
 description: Hoe u een SuperOffice Marketing-automatiseringsflow start, pauzeert, hervat, beëindigt en verwijdert.
 keywords: Marketing, flow, flow uitvoeren, flow pauzeren, flow beëindigen, wordt uitgevoerd, gepauzeerd
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 10.5
+date: 05.28.2026
+version: 11.12
 content_type: howto
 category: marketing
 topic: flows
@@ -24,7 +24,7 @@ language: nl
 
 * **Wordt uitgevoerd:** Geen wijzigingen zijn toegestaan terwijl de flow bezig is. Geautomatiseerde triggers zijn geactiveerd en deelnemers worden aan de flow toegevoegd.
 
-* **Gepauzeerd:** Triggers blijven geactiveerd. Deelnemers worden aan de flow toegevoegd, maar wachten op beweging naar de eerste stap. Bestaande deelnemers blijven op hun huidige stap wanneer de flow is gepauzeerd. Deze status wordt gebruikt bij het maken van wijzigingen of verbeteringen aan een flow.
+* **Gepauzeerd:** Triggers blijven geactiveerd. Deelnemers worden aan de flow toegevoegd, maar wachten op beweging naar de eerste stap. Bestaande deelnemers blijven op hun huidige stap wanneer de flow is gepauzeerd. Deze status wordt gebruikt bij het maken van wijzigingen of verbeteringen aan een flow. Op **CRM Suite-plannen** wordt een gepauzeerde flow nog steeds beschouwd als actief, omdat het doorgaat met het verzamelen van inkomende contacten voor latere verwerking en meetelt voor het limiet van actieve flows.
 
 ![Marketingflows met verschillende statussen en statistieken -screenshot][img1]
 
@@ -92,11 +92,24 @@ Alle vereiste instellingen moeten geldig zijn voordat de flow kan worden gestart
 
 Je kunt geen actieve flow verwijderen. Pauzeer eerst de flow. Beëindig vervolgens de flow, zodat de status verandert naar **Wordt niet uitgevoerd**. Daarna klik je op <i class="ph ph-dots-three-circle-vertical" aria-label="Taakmenu"></i> en selecteer je **Flow verwijderen**.
 
+### Limiet voor actieve flows bereikt (CRM Suite)
+
+Op het **Plus**-plan kan uw organisatie maximaal 10 actieve flows tegelijkertijd hebben. Zowel actieve als gepauzeerde flows tellen mee voor dit limiet.
+
+Wanneer het limiet is bereikt:
+
+* De schakelaar **Wordt uitgevoerd** is niet beschikbaar voor flows die niet actief zijn.
+* De flow-koptekst toont het huidige aantal, bijvoorbeeld *10 van 10 actieve flows*.
+* Als u met de muis over de niet-beschikbare schakelaar beweegt, verschijnt: *U heeft het limiet van 10 actieve flows bereikt dat is toegestaan op het Plus-plan. Stop eerst enkele actieve flows voordat u andere start, of upgrade naar het Super-plan.*
+
+Beëindig om capaciteit vrij te maken enkele flows zodat hun status verandert naar **Wordt niet uitgevoerd**. Als u meer actieve flows nodig heeft, upgradet u naar het **Super**-plan. Zie [Plangrenzen][2].
+
 ## Gerelateerde inhoud
 
 * [Flow bijwerken][1]
 
 <!-- Referenced links -->
+[2]: ../../../admin/license/crm-suite.md
 [1]: update.md
 
 <!-- Referenced images -->

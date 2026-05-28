@@ -4,8 +4,8 @@ title: Kör, pausa och avsluta flöde
 description: Kör, pausa och avsluta flöde
 keywords: flöde, flödestatus, starta flöde, pausa flöde, körs
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 10.5
+date: 05.28.2026
+version: 11.12
 content_type: howto
 category: marketing
 topic: flows
@@ -24,7 +24,7 @@ language: sv
 
 * **Körs:** Inga ändringar är tillåtna medan flödet kör. Automatiska triggers är aktiverade och deltagare läggs till i flödet.
 
-* **Pausad:** Triggers förblir aktiverade. Deltagare läggs till i flödet, men de väntar på att skrida till första steget. Deltagare som redan finns i flödet förblir på sitt nuvarande steg när flödet är pausat. Den här statusen används vid ändringar eller förbättringar av ett flöde.
+* **Pausad:** Triggers förblir aktiverade. Deltagare läggs till i flödet, men de väntar på att skrida till första steget. Deltagare som redan finns i flödet förblir på sitt nuvarande steg när flödet är pausat. Den här statusen används vid ändringar eller förbättringar av ett flöde. På **CRM Suite-planer** anses ett pausat flöde fortfarande som aktivt eftersom det fortsätter att samla in inkommande kontakter för senare bearbetning och räknas mot gränsen för aktiva flöden.
 
 ![Marknadsföringsflöden med olika status och statistik -screenshot][img1]
 
@@ -92,11 +92,24 @@ Alla nödvändiga inställningar måste vara giltiga innan flödet kan köras. T
 
 Du kan inte ta bort ett körande flöde. Pausa först flödet. Avsluta sedan flödet så att statusen ändras till **Inte igång**. Därefter klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> och väljer **Ta bort flöde**.
 
+### Gränsen för aktiva flöden har nåtts (CRM Suite)
+
+På **Plus**-planen kan din organisation ha maximalt 10 aktiva flöden samtidigt. Både körande och pausade flöden räknas mot denna gräns.
+
+När gränsen nås:
+
+* Reglaget **Körs** är inte tillgängligt för flöden som inte kör.
+* Flödets rubrik visar det aktuella antalet, till exempel *10 av 10 aktiva flöden*.
+* Om du håller muspekaren över det otillgängliga reglaget visas: *Du har nått gränsen på 10 körande flöden som tillåts på Plus-paketet. Stoppa några körande flöden innan du startar andra, eller uppgradera till Super-paketet.*
+
+För att frigöra kapacitet, avsluta några flöden så att deras status ändras till **Inte igång**. Om du behöver fler aktiva flöden uppgraderar du till **Super**-planen. Se [Plangränser][2].
+
 ## Relaterat innehåll
 
 * [Uppdatera flöde][1]
 
 <!-- Referenced links -->
+[2]: ../../../admin/license/crm-suite.md
 [1]: update.md
 
 <!-- Referenced images -->
