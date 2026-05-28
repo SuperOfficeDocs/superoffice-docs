@@ -53,7 +53,24 @@ U vindt bijgewerkte informatie over het systeem in het tabblad **Status** op het
 
 #### Database
 
-Geeft informatie over de eigenaar, het serienummer en het type van de database (opgegeven tijdens de installatie). Hier wordt ook aangegeven of het gaat om een centrale database of een satellietdatabase. U kunt de volgende vervaldatum en de naam van de aangemelde gebruiker zien.
+Geeft informatie over de eigenaar, het serienummer, het abonnement en het type van de database (opgegeven tijdens de installatie). U kunt de volgende vervaldatum en de naam van de aangemelde gebruiker zien.
+
+Als uw organisatie een **SuperOffice CRM Suite**-abonnement heeft, worden in de sectie **Database** ook de volgende gegevens weergegeven:
+
+* **Plan:** het plan dat bij uw abonnement is inbegrepen, bijvoorbeeld *SuperOffice Core Suite*
+* **Beperkingen:** uw huidige gebruik ten opzichte van de plangrenzen, bijvoorbeeld *1 van 100 actieve projecten*
+
+Plangrenzen voorkomen dat uw organisatie de capaciteit van het huidige plan overschrijdt. De indicator **Beperkingen** geeft aan hoe dicht u bij een limiet bent:
+
+| Gebruik | Indicator | Betekenis |
+|---|---|---|
+| Minder dan 85% | Aantal in zwart weergegeven, bijvoorbeeld *1 van 100 actieve projecten* | Normaal – geen actie vereist |
+| 85% of meer | <i class="ph ph-warning" aria-label="Warning"></i> Aantal in rood weergegeven | Nadert de limiet |
+| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Aantal in rood weergegeven | Limiet bereikt – de functie is geblokkeerd |
+
+Selecteer de indicator om de pagina [Plangrenzen][16] te openen voor meer informatie.
+
+Als u systeembeheerder bent, verschijnt er naast de waarschuwings- of stopindicator een knop **Upgrade**. Selecteer deze om een contactformulier te openen voor het aanvragen van meer capaciteit of een planupgrade.
 
 #### Diensten met datalimiet
 
@@ -181,6 +198,7 @@ Zelfde SCIM-uitzondering: tel het aantal actieve gebruikersplannen – niet het 
 * [Systeemgebeurtenissen][3]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/nl/admin/onsite/add-system-event.html

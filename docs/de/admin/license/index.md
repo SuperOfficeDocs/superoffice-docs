@@ -53,7 +53,24 @@ Aktualisierte Informationen zum System werden auf der Registerkarte **Status** i
 
 #### Datenbank
 
-Zeigt den bei der Installation festgelegten Datenbankbesitzer, die Seriennummer und den Datenbanktyp an. Außerdem wird angezeigt, ob es eine zentrale DB oder eine Satelliten-Datenbank ist. Sie können das nächste Ablaufdatum und den Namen des derzeit angemeldeten Benutzers sehen.
+Zeigt den bei der Installation festgelegten Datenbankbesitzer, die Seriennummer, das Abonnement und den Datenbanktyp an. Sie können das nächste Ablaufdatum und den Namen des derzeit angemeldeten Benutzers sehen.
+
+Wenn Ihre Organisation über ein **SuperOffice CRM Suite**-Abonnement verfügt, werden im Abschnitt **Datenbank** auch folgende Informationen angezeigt:
+
+* **Plan:** der im Abonnement enthaltene Plan, zum Beispiel *SuperOffice Core Suite*
+* **Einschränkungen:** Ihre aktuelle Nutzung gegenüber den Plangrenzen, zum Beispiel *1 von 100 aktiven Projekten*
+
+Plangrenzen verhindern, dass Ihre Organisation die in Ihrem aktuellen Plan enthaltene Kapazität überschreitet. Der Indikator **Einschränkungen** zeigt, wie nah Sie an einer Grenze sind:
+
+| Nutzung | Indikator | Bedeutung |
+|---|---|---|
+| Unter 85 % | Anzahl in Schwarz angezeigt, zum Beispiel *1 von 100 aktiven Projekten* | Normal – keine Aktion erforderlich |
+| 85 % oder mehr | <i class="ph ph-warning" aria-label="Warning"></i> Anzahl in Rot angezeigt | Annäherung an die Grenze |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Anzahl in Rot angezeigt | Grenze erreicht – die Funktion ist gesperrt |
+
+Wählen Sie den Indikator aus, um die Seite [Plangrenzen][16] für weitere Informationen zu öffnen.
+
+Wenn Sie Systemadministrator sind, erscheint neben dem Warn- oder Stoppindikator die Schaltfläche **Upgrade**. Wählen Sie sie aus, um ein Kontaktformular zu öffnen und mehr Kapazität oder ein Plan-Upgrade anzufordern.
 
 #### Gemessene Dienstleistungen
 
@@ -191,6 +208,7 @@ Dasselbe gilt bei SCIM: Zähle die genutzten Benutzerpläne, nicht die Gesamtanz
 * [Systemereignisse][3]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/de/admin/onsite/add-system-event.html

@@ -31,6 +31,9 @@ SuperOffice CRM and Service were once two separate applications, with different 
 
 [!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
+> [!NOTE]
+> **CRM Suite (Growth plan):** Your plan includes a limit on the number of custom objects. When the limit is reached, creating additional ones is blocked. See [Plan limits][13] for details.
+
 Fields are automatically displayed on the [More tab][12] once added.
 
 ## Layout (positioning fields)
@@ -46,6 +49,7 @@ If you do not have the **Core** plan, use the rank of the different fields to so
 * [Extra tables][3]
 
 <!-- Referenced links -->
+[13]: ../../admin/license/crm-suite.md
 [1]: udef.md
 [2]: extra-field.md
 [3]: extra-table.md

@@ -53,7 +53,24 @@ Opdaterede oplysninger om systemet vises under fanen **Status** i skærmbilledet
 
 #### Database
 
-Her vises den ejer af databasen, det serienummer og den type, som angives ved installation. Derudover vises, om det er en central database eller en satellitdatabase. Du kan se den næste udløbsdato og navnet på den bruger, der er logget på.
+Her vises databasens ejer, serienummer, abonnement og type, som angives ved installation. Du kan se den næste udløbsdato og navnet på den bruger, der er logget på.
+
+Hvis din organisation er på et **SuperOffice CRM Suite**-abonnement, viser **Database**-sektionen også:
+
+* **Plan:** den plan, der er inkluderet i dit abonnement, f.eks. *SuperOffice Core Suite*
+* **Begrænsninger:** dit aktuelle forbrug i forhold til planens grænser, f.eks. *1 af 100 aktive projekter*
+
+Plangrænser forhindrer din organisation i at overskride kapaciteten i den aktuelle plan. Indikatoren **Begrænsninger** viser, hvor tæt du er på en grænse:
+
+| Forbrug | Indikator | Betydning |
+|---|---|---|
+| Under 85 % | Antal vist med sort, f.eks. *1 af 100 aktive projekter* | Normal – ingen handling nødvendig |
+| 85 % eller mere | <i class="ph ph-warning" aria-label="Warning"></i> Antal vist med rødt | Nærmer sig grænsen |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist med rødt | Grænse nået – funktionen er blokeret |
+
+Vælg indikatoren for at åbne siden [Plangrænser][16] for yderligere oplysninger.
+
+Hvis du er systemadministrator, vises en **Opgrader**-knap ud for advarsel- eller stopindikatoren. Vælg den for at åbne en kontaktformular for at anmode om mere kapacitet eller planopgradering.
 
 #### Forbrugstjenester
 
@@ -183,6 +200,7 @@ Samme SCIM-forbehold: Tell antall brukte brukerplaner, ikke total tilgjengelig m
 * [Systemhændelser][3]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/da/admin/onsite/add-system-event.html

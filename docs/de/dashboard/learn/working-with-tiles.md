@@ -132,6 +132,9 @@ Verwenden Sie diese Kachel, um formatierten Text in Ihrem Dashboard anzuzeigen, 
 1. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um eine [Übersetzung][7] für den Kacheltitel und die Beschriftungen hinzuzufügen.
 1. Klicken Sie auf **Speichern**.
 
+> [!NOTE]
+> **CRM Suite:** Das Bearbeiten des Kachel-Layouts (Diagrammtyp, Beschriftungen und andere visuelle Einstellungen auf der Registerkarte **Layout**) erfordert den **Growth**-Plan oder höher. Bei Starter- oder Core-Plänen sind die Felder auf der Registerkarte Layout schreibgeschützt, und eine Meldung am unteren Rand des Dialogs erklärt die Einschränkung. Administratoren können **Upgrade** wählen, um ein Kontaktformular zu öffnen.
+
 ## <a id="copy"></a>Eine Kachel duplizieren oder kopieren
 
 Sie können eine vorhandene Kachel wiederverwenden, indem Sie sie entweder im selben Dashboard duplizieren oder in ein anderes Dashboard kopieren. Um eine Kachel zu kopieren, benötigen Sie **Bearbeitungsrechte für das Ziel-Dashboard**.
@@ -217,6 +220,10 @@ Klicken Sie im Kopfbereich einer Kachel auf <i class="ph ph-dots-three-vertical"
 
 * **Ich kann die Registerkarte Layout oder Felder nicht öffnen**
   * Möglicherweise fehlen Ihnen die erforderlichen funktionellen Rechte. Wenden Sie sich an Ihren Administrator.
+  * **CRM Suite:** Bei Starter- oder Core-Plänen sind die Felder auf der Registerkarte Layout schreibgeschützt. Das Bearbeiten des Kachel-Layouts erfordert den **Growth**-Plan oder höher.
+
+* **Ich kann kein Dashboard erstellen oder duplizieren**
+  * **CRM Suite (Starter-Plan):** Der Starter-Plan umfasst bis zu 3 Dashboards. Wenn diese Grenze erreicht ist, sind **Dashboard erstellen** und **Dashboard duplizieren** nicht verfügbar. Löschen Sie ein vorhandenes Dashboard oder upgraden Sie auf den Core-Plan oder höher. Siehe [Plangrenzen][8].
 
 * **Eine Selektion fehlt auf der Registerkarte Selektionen**
   * Siehe [Über Kacheln auf Basis von Selektionen](#selection-chart)
@@ -230,6 +237,7 @@ Klicken Sie im Kopfbereich einer Kachel auf <i class="ph ph-dots-three-vertical"
 * [Verwenden Sie Dashboards, um Ihre Vertriebspipeline zu verwalten][2]
 
 <!-- Referenced links -->
+[8]: ../../admin/license/crm-suite.md
 [1]: create.md
 [2]: show-sales-targets.md
 [3]: index.md#charts
