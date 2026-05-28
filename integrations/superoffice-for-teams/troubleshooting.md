@@ -46,4 +46,3 @@ AI Labs must be activated for your SuperOffice tenant. Contact your SuperOffice 
 [2]: deploy.md
 
 <!-- Referenced images -->
-[img1]: media/teams-not-signed-in.png
