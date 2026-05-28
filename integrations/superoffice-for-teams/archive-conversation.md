@@ -29,7 +29,7 @@ Use this when you want to capture a specific point in the conversation – a key
 
 ![The right-click context menu on a Teams message, with the "SuperOffice for Teams" option highlighted -screenshot][img1]
 
-## Option B – Start from the compose bar 
+## Option B – Start from the compose bar
 
 Use this when you want to archive a range of messages – like Today, Yesterday, or the Last 7 days.
 
@@ -39,7 +39,7 @@ Use this when you want to archive a range of messages – like Today, Yesterday,
 1. Click **Save Chat** in the pop-up.
 1. Pick a date range or choose **Custom** to select start and end dates.
 1. Fill in the details to connect the archive to the correct record in SuperOffice (see below).
-1. Click **Create**. 
+1. Click **Create**.
 
 > [!NOTE]
 > Starting apps from the compose bar is blocked in direct chats with external users. You can still launch SuperOffice for Teams from the message menu if both users are managed by an organization.
