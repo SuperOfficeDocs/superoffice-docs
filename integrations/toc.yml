@@ -19,6 +19,9 @@ items:
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/toc.yml
   topicHref: superoffice-for-outlook/index.md
+- name: SuperOffice for Teams
+  href: superoffice-for-teams/toc.yml
+  topicHref: superoffice-for-teams/index.md
 - name: Video meetings
   href: video-meetings/toc.yml
   topicHref: video-meetings/index.md
