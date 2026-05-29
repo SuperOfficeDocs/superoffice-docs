@@ -1,15 +1,12 @@
 items:
 - name: Introduction
   href: index.md
+- name: SuperOffice 12
+  href: 12/toc.yml
+  topicHref: 12/index.md
 - name: SuperOffice 11
   href: 11/toc.yml
   topicHref: 11/index.md
-- name: SuperOffice 10.5
-  href: 10.5/toc.yml
-  topicHref: 10.5/index.md
-- name: SuperOffice 10.3
-  href: 10.3/toc.yml
-  topicHref: 10.3/index.md
 - name: Mobile CRM (app)
   href: mobile/toc.yml
   topicHref: mobile/index.md
@@ -18,6 +15,12 @@ items:
   topicHref: integrations/index.md
 - name: Older
   items:
+  - name: SuperOffice 10.5
+    href: 10.5/toc.yml
+    topicHref: 10.5/index.md
+  - name: SuperOffice 10.3
+    href: 10.3/toc.yml
+    topicHref: 10.3/index.md
   - name: SuperOffice 10.2
     href: 10.2/toc.yml
     topicHref: 10.2/index.md

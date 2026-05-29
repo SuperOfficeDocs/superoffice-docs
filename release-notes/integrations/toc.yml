@@ -9,6 +9,8 @@ items:
 - name: SuperOffice for Outlook
   href: sofo/index.md
   items:
+  - name: 6.3 update
+    href: sofo/6.3-update.md
   - name: 6.0 update
     href: sofo/6.0-update.md
   - name: 3.1 update

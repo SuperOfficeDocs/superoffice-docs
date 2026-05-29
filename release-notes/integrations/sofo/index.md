@@ -4,15 +4,15 @@ title: What's new in SuperOffice for Outlook
 description: Release notes for the SuperOffice for Outlook integration.
 keywords: Outlook add-in, sofo
 author: SuperOffice AS – Product and Engineering
-date: 01.21.2025
-version: 6.0
+date: 05.11.2026
+version: 6.3
 content_type: release-note
 category: email
 topic: outlook
 platform: outlook
 audience: person
 audience_tooltip: SuperOffice CRM
-redirect_from: 
+redirect_from:
   - /release-notes/10.5/office-integrations/
   - /release-notes/10.0/office-integrations/
   - /release-notes/10.0/office-integrations/10.0.6-update
@@ -26,12 +26,20 @@ redirect_from:
 
 # What's new in SuperOffice for Outlook
 
-* [SuperOffice for Outlook update – Action required (6.0)][1]
-* [SuperOffice for Outlook - Onsite and Cloud installation (3.1)][2]
-* [Five new UI languages available – SuperOffice 10.0.6 (02.22.2022)][3]
-* [Filter on search when linking to sale and project (2.5)](#filter-on-search-when-linking-to-sale-and-project-25)
-* [Search for a company will show department (2.4)](#search-for-a-company-will-show-department-24)
-* [Saving contact details with more fields (2.3)](#saving-contact-details-with-more-fields-23)
+* SuperOffice for Outlook - version 6
+  * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3 (11.05.2026)
+  * [New email - Pin the SuperOffice side panel][4] - 6.3 (11.05.2026)
+  * [Archive attachments - List does not contain images][4] - 6.3 (11.05.2026)
+  * [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
+
+* SuperOffice for Outlook - version 3
+  * [SuperOffice for Outlook - Onsite and Cloud installation][2] - 3.1 (30.08.2023)
+  * [Five new UI languages available – SuperOffice][3] - 10.0.6 (02.22.2022)
+
+* SuperOffice for Outlook - version 2
+  * [Filter on search when linking to sale and project (2.5)](#filter-on-search-when-linking-to-sale-and-project-25)
+  * [Search for a company will show department (2.4)](#search-for-a-company-will-show-department-24)
+  * [Saving contact details with more fields (2.3)](#saving-contact-details-with-more-fields-23)
 
 ## Older releases
 
@@ -69,6 +77,7 @@ With the add-in, you can:
 [1]: 6.0-update.md
 [2]: 3.1-update.md
 [3]: ../../10.0/core-crm/10.0.6-update.md
+[4]: 6.3-update.md
 
 <!-- Referenced images -->
 [img1]: media/img100.jpg
