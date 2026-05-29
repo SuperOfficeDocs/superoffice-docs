@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that have been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 05.26.2026
+date: 06.01.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,7 +16,7 @@ Here you will find all the small and big changes that have been released for Sup
 
 ## SuperOffice CRM versions
 
-The latest SuperOffice Online release is [**version 12.0**][9] - 26.05.2026.
+The latest SuperOffice Online release is [**version 12.0**][9] - 01.06.2026.
 
 Recent versions:
 

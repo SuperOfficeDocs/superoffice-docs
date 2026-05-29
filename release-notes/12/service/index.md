@@ -4,7 +4,7 @@ title: What's new in SuperOffice Service 12
 description: Release notes. What's new in SuperOffice Service 12
 keywords: SuperOffice Service, request
 author: kirstiaa
-date: 05.26.2026
+date: 06.01.2026
 version: 12
 content_type: release-notes
 category: service
