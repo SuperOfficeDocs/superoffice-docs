@@ -550,7 +550,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.GetProjectEntityWithoutMembers(Integer)
   id: 'GetProjectEntityWithoutMembers(Integer)'
   so.intellisense: NSProjectAgent.GetProjectEntityWithoutMembers
-  so.version: 7.0
+  so.version: 11.11
   langs:
   - crmscript
   name: 'GetProjectEntityWithoutMembers(Integer)'
@@ -1093,7 +1093,7 @@ items:
   commentId: M:CRMScript.NetServer.NSProjectAgent.SaveProjectEntityWithoutMembers(NSProjectEntity)
   id: 'SaveProjectEntityWithoutMembers(NSProjectEntity)'
   so.intellisense: NSProjectAgent.SaveProjectEntityWithoutMembers
-  so.version: 7.0
+  so.version: 11.11
   langs:
   - crmscript
   name: 'SaveProjectEntityWithoutMembers(NSProjectEntity)'
