@@ -4,10 +4,11 @@ title: Deploy SuperOffice for Teams
 description: How to register your tenant, upload the app package, grant admin consent, and optionally push the app to users.
 keywords: SuperOffice for Teams, Teams, deploy, admin, tenant registration, admin consent, setup policy
 author: schildea
-date: 07.05.2026
+date: 02.06.2026
 content_type: howto
 category: integration
 topic: SuperOffice for Teams
+pilot: yes
 language: en
 ---
 
@@ -16,7 +17,7 @@ language: en
 These steps are done once per tenant by a Microsoft 365 or SuperOffice administrator.
 
 > [!TIP]
-> Setting up for yourself only? [Go to the user guide][5].
+> Setting up for yourself only? [Go to the user guide][3].
 
 ## Step 1 – Register your tenant
 
@@ -40,8 +41,8 @@ During the pilot, the administrator uploads the SuperOffice for Teams app packag
 
 To upload the app during the pilot:
 
-1. Go to the Teams admin center: [https://admin.teams.microsoft.com/policies/manage-apps -screenshot][2]
-1. Click **Actions** in the top right corner.
+1. Go to the [Teams admin center][2].
+1. Click **Actions** in the upper-right corner.
 1. Select **Upload new app**.
 1. Upload the SuperOffice for Teams app package (.zip file).
 
@@ -52,10 +53,10 @@ After uploading the app, the administrator must grant admin consent in the Teams
 To grant admin consent:
 
 1. Go to the Teams admin center.
-1. Open **Teams apps > Manage apps**.
+1. Open **Teams apps** > **Manage apps**.
 1. Find and open **SuperOffice for Teams**.
 1. Go to the **Permissions** tab.
-1. Click the **Grant admin consent** link in the information message.
+1. Select the **Grant admin consent** link in the information message.
 1. Follow the Microsoft consent flow to approve the requested permissions.
 
 > [!NOTE]
@@ -73,7 +74,7 @@ If you want the app to be ready for users without requiring them to install it t
 To push the app to users:
 
 1. Go to the Teams admin center.
-1. Open **Teams apps > Setup policies**.
+1. Open **Teams apps** > **Setup policies**.
 1. Select an existing policy or create a new one.
 1. Add **SuperOffice for Teams** under **Installed apps**.
 1. Optional: Pin the app to the app bar so users can find it more easily.
@@ -91,7 +92,7 @@ If you want users to stay in control of their own installation, skip this step a
 <!-- Referenced links -->
 [1]: https://superofficeforteams.superofficeapps.com
 [2]: https://admin.teams.microsoft.com/policies/manage-apps
-[5]: get.md
+[3]: get.md
 
 <!-- Referenced images -->
 [img1]: media/superoffice-for-teams-portal-download-app.png

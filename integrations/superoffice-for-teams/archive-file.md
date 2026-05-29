@@ -4,10 +4,11 @@ title: Save a file from a Teams channel
 description: How to save a file from a standard Teams channel to SuperOffice.
 keywords: SuperOffice for Teams, Teams, archive, file, channel, save file
 author: schildea
-date: 07.05.2026
+date: 02.06.2026
 content_type: howto
 category: integration
 topic: SuperOffice for Teams
+pilot: yes
 language: en
 ---
 
@@ -24,7 +25,6 @@ The file picker lists files found based on the above, each with a status icon:
 * **File icon:** Not yet archived. Ready to save.
 * **Red warning:** File is too large to archive.
 
-
 The file picker is single-select – you can choose one file at a time. Saving a file with the same name always creates a new document in SuperOffice (overwriting is not supported yet).
 
 There is a file size limit of 94 MB.
@@ -35,5 +35,3 @@ Whether you're saving a chat or a file, you'll fill in a few details so the arch
 
 <!-- Referenced links -->
 [1]: archive-conversation.md
-
-<!-- Referenced images -->

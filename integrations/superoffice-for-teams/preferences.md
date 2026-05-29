@@ -4,10 +4,11 @@ title: Preferences in SuperOffice for Teams
 description: How to set your default archiving options in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, preferences, defaults, settings
 author: schildea
-date: 07.05.2026
+date: 02.06.2026
 content_type: reference
 category: integration
 topic: SuperOffice for Teams
+pilot: yes
 language: en
 ---
 
@@ -15,7 +16,7 @@ language: en
 
 Each user can set default options that prefill the archive forms. You can always change them per save.
 
-Click the **Preferences** button in the bottom-left of the pop-up window to access your defaults:
+Select **Preferences** in the lower-left of the pop-up window to access your defaults:
 
 * Default document template for chats.
 * Default document template for files.
@@ -26,8 +27,6 @@ Click the **Preferences** button in the bottom-left of the pop-up window to acce
 * Generate AI summary by default (requires AI Labs).
 
 ![The Preferences screen showing all available default settings -screenshot][img1]
-
-<!-- Referenced links -->
 
 <!-- Referenced images -->
 [img1]: media/teams-preferences.png

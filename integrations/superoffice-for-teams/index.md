@@ -4,10 +4,11 @@ title: SuperOffice for Teams
 description: Save Microsoft Teams conversations and files straight into SuperOffice – so important customer chats don't get lost.
 keywords: SuperOffice for Teams, Teams, Microsoft Teams, archive, chat, integration
 author: schildea
-date: 07.05.2026
-content_type: overview
+date: 02.06.2026
+content_type: concept
 category: integration
 topic: SuperOffice for Teams
+pilot: yes
 language: en
 ---
 
@@ -46,14 +47,14 @@ Microsoft controls where Teams apps can run. SuperOffice for Teams works in chat
 | Shared channel | Team members | No | No | Microsoft now supports this – not in current pilot. Share your feedback. |
 | 1:1 chat with unmanaged user | Managed user and an unmanaged user (@hotmail, @live, etc.) | No | No | Teams blocks app usage in direct chats with unmanaged accounts. |
 
-A **managed user** has a Teams account provided by an organization, such as anna@yourcompany.com. An **unmanaged user** has a personal account, such as anna@hotmail.com or anna@live.com. You can usually spot an unmanaged user by the "External" banner in Teams; hover over the banner for more information.
+A **managed user** has a Teams account provided by an organization, such as `anna@yourcompany.com`. An **unmanaged user** has a personal account, such as `anna@hotmail.com` or `anna@live.com`. You can usually spot an unmanaged user by the "External" banner in Teams; hover over the banner for more information.
 
 A **guest** is an external user who has been invited to your team. Guests have a "Guest" banner next to their name. Because guests are formally invited through your organization's tenant, SuperOffice for Teams can work with them in standard channels.
 
 > [!NOTE]
 > File archiving is only available in standard channels. SuperOffice for Teams disables file uploading and attaching in chat contexts.
 
-## Related topics
+## Related content
 
 * [Requirements][1]
 * [Deploy SuperOffice for Teams (administrators)][2]

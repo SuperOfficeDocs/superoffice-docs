@@ -4,10 +4,11 @@ title: Known limitations in SuperOffice for Teams
 description: Current known limitations in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, limitations, known issues
 author: schildea
-date: 07.05.2026
+date: 02.06.2026
 content_type: reference
 category: integration
 topic: SuperOffice for Teams
+pilot: yes
 language: en
 ---
 
@@ -23,5 +24,3 @@ language: en
 
 > [!NOTE]
 > This documentation reflects the current pilot version of SuperOffice for Teams. Features and behavior may change based on feedback and future releases.
-
-<!-- Referenced links -->

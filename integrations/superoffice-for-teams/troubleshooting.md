@@ -4,10 +4,11 @@ title: Troubleshooting SuperOffice for Teams
 description: Solutions to common issues in SuperOffice for Teams.
 keywords: SuperOffice for Teams, Teams, troubleshooting, errors, sign-in, consent
 author: schildea
-date: 07.05.2026
-content_type: troubleshooting
+date: 02.06.2026
+content_type: howto
 category: integration
 topic: SuperOffice for Teams
+pilot: yes
 language: en
 ---
 
@@ -19,7 +20,7 @@ SuperOffice for Teams didn't detect any files in the selected conversation. Make
 
 ## "You are not signed in"
 
-Click the **Open Chat** button to go to the bot chat, then click **Sign In**. If the sign in button is missing, type **Sign In** or **Help** in the bot chat to trigger it.
+Select **Open Chat** to go to the bot chat, then select **Sign In**. If the sign in button is missing, type **Sign In** or **Help** in the bot chat to trigger it.
 
 ## "Action was forbidden. Make sure to add SuperOffice for Teams to the apps of the Team."
 
@@ -44,5 +45,3 @@ AI Labs must be activated for your SuperOffice tenant. Contact your SuperOffice 
 <!-- Referenced links -->
 [1]: index.md
 [2]: deploy.md
-
-<!-- Referenced images -->
