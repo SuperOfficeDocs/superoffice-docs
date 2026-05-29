@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-license-activate
 title: Lizenz aktivieren
 description: Lizenz für SuperOffice aktivieren
@@ -18,6 +18,8 @@ redirect_from: /de/admin/license/learn/activate
 ---
 
 # Lizenz aktivieren
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Um Lizenzen verwalten zu können, müssen Sie als Administrator angemeldet sein.
 

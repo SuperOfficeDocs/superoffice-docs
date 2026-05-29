@@ -19,6 +19,8 @@ redirect_from: /en/admin/license/learn/activate
 
 # Activate license
 
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
+
 To manage licenses, you must be signed in as an administrator.
 
 ## <a id="buy"></a>Purchase
@@ -46,7 +48,7 @@ If the total number of new licenses is less than the number of licenses in use, 
 
 1. Click the **Activate** button in the dialog.
 
-1. Go to the Licences screen, select the **SuperOffice** tab, and check that the licence status is correct.
+1. Go to the Licences screen, select the **SuperOffice** tab, and check that the license status is correct.
 
 ## Tips and troubleshooting
 
@@ -61,7 +63,7 @@ If the total number of new licenses is less than the number of licenses in use, 
 
     1. Click the **Activate** button.
 
-* Go to the Users screen, and select the **User licences** tab to see which users are using the different licences. In the **Associates** and **Other users** tabs, you can filter the list by licence type.
+* Go to the Users screen, and select the **User licences** tab to see which users are using the different licenses. In the **Associates** and **Other users** tabs, you can filter the list by license type.
 
 * If you are using a **demo version** of SuperOffice CRM, you may be asked to enter a new serial number and license owner. You will be given this by SuperOffice when you purchase a SuperOffice license.
 

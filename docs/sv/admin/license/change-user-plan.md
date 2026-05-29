@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-user-change-plan
 title: Ändra användarplaner för aktiva användare
 description: I den här guiden förklarar vi hur du ändrar en användarplan för aktiva användare.
@@ -20,6 +20,8 @@ language: sv
 ---
 
 # Ändra användarplaner för aktiva användare
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 När medarbetare tar på sig nya uppgifter eller får en ny tjänst på företaget kan du behöva ändra deras användarplaner.
 

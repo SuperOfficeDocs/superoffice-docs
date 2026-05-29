@@ -21,7 +21,7 @@ language: nl
 
 Nadat uw SuperOffice CRM-oplossing is geconfigureerd en aangepast, is het tijd om uw gebruikers toegang te geven tot hun CRM-oplossing.
 
-Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met een gebruikersplan, een gebruikersnaam, een wachtwoord en de gebruikersgroep waartoe de gebruiker behoort. U kunt gebruikers toevoegen aan SuperOffice CRM in Instellingen en onderhoud.
+Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met een gebruikersnaam, een wachtwoord en de gebruikersgroep waartoe de gebruiker behoort. In **SuperOffice CRM Online** (het modulaire abonnement) omvat dit ook het toewijzen van een gebruikersplan. In **SuperOffice CRM Suite**-abonnementen geldt het bedrijfsplan voor alle gebruikers — schakel de optie **Kan aanmelden** in om toegang te verlenen. U kunt gebruikers toevoegen aan SuperOffice CRM in Instellingen en onderhoud.
 
 > [!NOTE]
 > Als u informatie over gebruikers hebt opgegeven toen u SuperOffice CRM bestelde, hoeft u geen gebruikers toe te voegen. Gebruikers hebben aanmeldingsgegevens van SuperOffice per e-mail ontvangen. Controleer of gebruikers zich in het systeem bevinden in het menu Gebruikers in Instellingen en onderhoud.
@@ -41,7 +41,8 @@ Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met 
 
 1. Klik op **Opslaan**. De naam van de nieuwe gebruiker wordt nu weergegeven in de lijst.
 
-    * Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
+    * **SuperOffice CRM Online:** Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
+    * **SuperOffice CRM Suite:** Beheer gebruikerstoegang door de optie **Kan aanmelden** in of uit te schakelen. Het bedrijfsplan bepaalt welke functies alle gebruikers kunnen openen. Zie [CRM Suite-plannen][5].
 
     * In het onderste deel van de gebruikerskaart kunt u aanmeldrechten van de geselecteerde gebruiker activeren of deactiveren door op de knop **Kan aanmelden** te klikken. Deze optie wordt standaard geactiveerd wanneer u een gebruikersplan voor de gebruiker selecteert.
 
@@ -65,7 +66,7 @@ Het tabblad **Details** bevat de volgende opties:
 
 * **Rol**: Selecteer de [rol][3] voor de gebruiker in de keuzelijst **Rol**. De rol bepaalt de gegevenstoegang en functionele rechten van de gebruiker. U kunt uw eigen rol niet wijzigen.
 
-* **Gebruikersplan**: Selecteer het relevante gebruikersplan voor de gebruiker. Dit bepaalt welke SuperOffice-functies de gebruiker kan openen.
+* **Gebruikersplan**: Selecteer het relevante gebruikersplan voor de gebruiker. Dit bepaalt welke SuperOffice-functies de gebruiker kan openen. (Alleen SuperOffice CRM Online. In SuperOffice CRM Suite-abonnementen geldt het bedrijfsplan voor alle gebruikers.)
 
 * **Voormalige werknemer**: Als een gebruiker geen toegang meer heeft tot SuperOffice, selecteert u deze optie om het gebruikersplan en de aanmeldingsrechten van de gebruiker te verwijderen.
 
@@ -111,6 +112,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
+[5]: ../license/crm-suite.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/nl/admin/user-management/add-associate.html

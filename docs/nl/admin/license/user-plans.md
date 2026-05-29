@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-user-plans
 title: Gebruikersplannen
 description: SuperOffice gebruikersplannen en abonnementen
@@ -19,6 +19,8 @@ language: nl
 ---
 
 # SuperOffice gebruikersplannen en abonnementen
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 U kunt kiezen uit drie zelfstandige **oplossingen** – Sales, Marketing en Service – gebaseerd op verschillende rollen binnen uw organisatie. Binnen elke oplossing zijn er twee niveaus: **Essential** en **Premium**. Kies het juiste plan waarop u uw toepassing baseert.
 

@@ -69,6 +69,8 @@ For at en person skal kunne defineres som SuperOffice CRM-bruger, skal den påg�
 
 > [!NOTE]
 > I skærmbilledet Brugere angiver du, hvilke licenser de forskellige brugere skal have. Hvis du vil tilføje nye systemlicenser eller øge/reducere antallet af licenser for et eller flere moduler, skal du kontakte SuperOffice for at [opdatere licensoplysningerne][16].
+>
+> I abonnementer på **SuperOffice CRM Suite** er der ingen tildeling af brugerplaner pr. bruger, og kolonnen **Brugerplan** vises ikke. Adgangen styres via pladstæller. Se [CRM Suite-planer][18].
 
 ## Brugergrupper
 
@@ -118,7 +120,7 @@ Listen under fanen **Medarbejdere** består som standard af følgende kolonner:
 > [!TIP]
 > Du kan vælge, hvilke kolonner der skal vises på listen. Højreklik på en kolonneoverskrift, og vælg de relevante kolonner på kolonnelisten. Hvis du vil ændre rækkefølgen af kolonnerne, skal du klikke og trække i en kolonneoverskrift.
 
-* **Søg efter brugere:** Brug denne dynamiske søgefunktion til hurtigt at finde bestemte brugere efter navn eller bruger-ID eller til at finde alle brugere, der tilhører bestemte roller, grupper eller brugerplaner. Du skal blot indtaste tekst i søgefeltet for at opdatere listen med tilsvarende brugere.
+* **Søg efter brugere:** Brug denne dynamiske søgefunktion til hurtigt at finde bestemte brugere efter navn eller bruger-ID eller til at finde alle brugere, der tilhører bestemte roller, grupper eller brugerplaner (SuperOffice CRM Online). Du skal blot indtaste tekst i søgefeltet for at opdatere listen med tilsvarende brugere.
 
 * **Vis kun brugere, der kan logge på:** Vælg denne indstilling for kun at få vist brugere, der er aktive (dvs. ikke er blevet deaktiveret).
 
@@ -140,7 +142,7 @@ Du kan filtrere listen over brugere efter en hvilken som helst af kolonneoverskr
 
 #### Gruppering af listen
 
-Du kan gruppere listen over brugere efter rolle, brugerplan, primær gruppe og lignende. Derudover kan du gruppere på flere niveauer.
+Du kan gruppere listen over brugere efter rolle, brugerplan (SuperOffice CRM Online), primær gruppe og lignende. Derudover kan du gruppere på flere niveauer.
 
 > [!NOTE]
 > Højreklik på en kolonne for at tilføje eventuelle yderligere kolonner, du vil filtrere efter (se også [Juster visninger][14]).
@@ -165,7 +167,7 @@ Det fulde navn, e-mailadresse og ejerfirma vises øverst. Nederst i dette afsnit
 
 Der er forskellige faner i brugeroversigten:
 
-* **Detaljer** - hovedoversigt over brugeroplysninger som **Bruger-ID**, **Rolle**, **Brugerplan**, **Primær gruppe** og **Service-kategorier**.
+* **Detaljer** - hovedoversigt over brugeroplysninger som **Bruger-ID**, **Rolle**, **Brugerplan** (SuperOffice CRM Online), **Primær gruppe** og **Service-kategorier**.
 * **Licenser** - ekstra licensoplysninger som **Fortrolige aktiviteter**, som vil give brugeren mulighed for at angive **synlig for** på opfølgingerr, dokumenter og valg.
 * **Mere** - fanen viser, om der er ekstra felter på personen.
 
@@ -191,6 +193,8 @@ Formålet med virksomhedslisten på fanen **Vores virksomheder**på skærmbilled
 
 På fanen **Brugerlicenser** på Brugerskærmen kan du se, hvor mange brugerlicenser der er i brug, og hvilke brugere der bruger de forskellige licenser.
 
+I abonnementer på **SuperOffice CRM Suite** viser denne fane det samlede antal købte pladser og pladser, der i øjeblikket er i brug. Der er ingen tildeling af brugerplaner pr. bruger.
+
 * Klik på en licens på listen **Brugerlicenser** for at få vist en liste over de brugere, der aktuelt bruger denne licens.
 
 * Hold musemarkøren over et licensnavn for at se detaljerede oplysninger om licensen.
@@ -205,6 +209,7 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 * [Tilføj en ny bruger][2]
 * [Opret brugergruppe][3]
 * [Ændre brugerplaner for aktive brugere][17]
+* [CRM Suite-planer][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -216,6 +221,7 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

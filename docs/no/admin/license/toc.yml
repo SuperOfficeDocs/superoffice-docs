@@ -1,6 +1,8 @@
-items:
+﻿items:
 - name: Introduksjon
   href: index.md
+- name: CRM Suite-planer
+  href: crm-suite.md
 - name: Aktivere lisens
   href: activate.md
 - name: Brukerplaner

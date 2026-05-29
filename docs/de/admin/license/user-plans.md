@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-user-plans
 title: Benutzerpläne
 description: SuperOffice Benutzerpläne und Abonnements
@@ -15,6 +15,8 @@ language: de
 ---
 
 # SuperOffice Benutzerpläne und Abonnements
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Sie können zwischen drei eigenständigen **Lösungen** wählen – Sales, Marketing und Service – basierend auf verschiedenen Rollen in Ihrem Unternehmen. Jede Lösung bietet zwei Stufen: **Essential** und **Premium**. Finden Sie die richtigen Pläne als Grundlage für Ihre Anwendung.
 

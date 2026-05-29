@@ -21,7 +21,7 @@ language: en
 
 After your SuperOffice CRM solution is configured and customized, it is time to give your users access to their CRM solution.
 
-Administrators are responsible for providing new users with a user plan, a username, a password and the user group the user belongs to. You can add users to SuperOffice CRM in Settings and maintenance.
+Administrators are responsible for providing new users with a username, a password, and the user group the user belongs to. In **SuperOffice CRM Online** (the module-based subscription), this also includes assigning a user plan. In **SuperOffice CRM Suite** subscriptions, the company plan applies to all users — enable the **Can log in** option to grant access. You can add users to SuperOffice CRM in Settings and maintenance.
 
 > [!NOTE]
 > If you provided information on users when you ordered SuperOffice CRM, you do not have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and maintenance.
@@ -41,7 +41,8 @@ Administrators are responsible for providing new users with a user plan, a usern
 
 1. Click **Save**. The name of the new user will now be displayed in the list.
 
-    * If active users need a different user plan, you can [assign user plans][4] in Settings and maintenance.
+    * **SuperOffice CRM Online:** If active users need a different user plan, you can [assign user plans][4] in Settings and maintenance.
+    * **SuperOffice CRM Suite:** Manage user access by enabling or disabling the **Can log in** option. The company's plan determines which features all users can access. See [CRM Suite plans][5].
 
     * In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the **Can log in** button. By default this option is activated when you select a user plan for the user.
 
@@ -65,7 +66,7 @@ In the **Details** tab, you have the following options:
 
 * **Role**: Specify the [role][3] the user should have in the **Role** list box. The role determines the user's data access and functional rights. You cannot change your own role.
 
-* **User plan**: Select the relevant user plan for the user. This determines which SuperOffice features the user can access.
+* **User plan**: Select the relevant user plan for the user. This determines which SuperOffice features the user can access. (SuperOffice CRM Online only. In SuperOffice CRM Suite subscriptions, the company's plan applies to all users.)
 
 * **Former employee**: If a user should no longer have access to SuperOffice, select this option to remove the user plan and login rights of the user.
 
@@ -137,10 +138,10 @@ There are two common situations when a new user cannot log in:
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
+[5]: ../license/crm-suite.md
 [6]: update-user.md
 [7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
-[9]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113003
 [10]: https://help.superoffice.com/docs/11/en/admin/user-management/add-associate.html
 
 <!-- Referenced images -->

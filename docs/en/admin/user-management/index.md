@@ -13,7 +13,7 @@ audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
-redirect_from: 
+redirect_from:
   - /en/admin/user-management/learn/index
   - /en/admin/user-management/learn/screen/index
   - /en/admin/user-management/learn/visibility
@@ -69,6 +69,8 @@ For a person to be registered as a SuperOffice CRM user, this person must be reg
 
 > [!NOTE]
 > In the Users screen you specify which licenses you want different users to have. To add new system licenses or increase/reduce the number of licenses for one or more modules, contact SuperOffice to [update the license information][16].
+>
+> In **SuperOffice CRM Suite** subscriptions, there are no per-user plan assignments and the **User plan** column is not shown. Access is managed through seat count. See [CRM Suite plans][18].
 
 ## User groups
 
@@ -118,7 +120,7 @@ By default, the list in the **Associates** tab consists of the following columns
 > [!TIP]
 > You can select which columns to display in the list. Just right-click a column heading, and select the relevant columns in the columns list. To change the order of the columns, click and drag a column heading.
 
-* **Search for users:** Use this dynamic search function to quickly locate specific users by name or user ID, or to find all users belonging to specific roles, groups or user plans. Simply enter text in the search field to update the list with matching users.
+* **Search for users:** Use this dynamic search function to quickly locate specific users by name or user ID, or to find all users belonging to specific roles, groups or user plans (SuperOffice CRM Online). Simply enter text in the search field to update the list with matching users.
 
 * **Show only users that can log in:** Select this option to show only users that are active (have not been deactivated).
 
@@ -140,7 +142,7 @@ You can filter the list of users by any of the column headers.
 
 #### Grouping the list
 
-You can group the list of users by role, user plan, primary group, and similar. In addition, you can group on multiple levels.
+You can group the list of users by role, user plan (SuperOffice CRM Online), primary group, and similar. In addition, you can group on multiple levels.
 
 > [!NOTE]
 > Right-click a column to add any additional columns you want to group by (see also [Adjust views][14]).
@@ -165,8 +167,8 @@ The full name, email address and owning company is displayed at the top. At the 
 
 There are different tabs in the User overview:
 
-* **Details** - main overview of user information like **User ID**, **Role**, **User plan**, **Primary group** and **Service categories**.
-* **Licences** - extra license information like **Condfidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
+* **Details** - main overview of user information like **User ID**, **Role**, **User plan** (SuperOffice CRM Online), **Primary group** and **Service categories**.
+* **Licences** - extra license information like **Confidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
 * **More** - the tab shows if there are any extra fields on person.
 
 ### <a id="our-companies"></a>Our companies
@@ -189,7 +191,9 @@ The object of the company list in the **Our companies** tab in the Users screen 
 
 ### User licenses
 
-On the **User licences** tab in the Users screen, you can get an overview of how many user licences are in use, and which users are using the various licences.
+On the **User licences** tab in the Users screen, you can get an overview of how many user licenses are in use, and which users are using the various licenses.
+
+In **SuperOffice CRM Suite** subscriptions, this tab shows the total number of seats purchased and seats currently in use. There are no per-user plan assignments.
 
 * Click a license in the **User licences** list to display a list of the users who are currently using this license.
 
@@ -205,6 +209,7 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 * [Add a new user][2]
 * [Create a user group][3]
 * [Change user plans for active users][17]
+* [CRM Suite plans][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -216,6 +221,7 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

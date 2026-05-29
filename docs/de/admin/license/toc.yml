@@ -1,6 +1,8 @@
-items:
+﻿items:
 - name: Einführung
   href: index.md
+- name: CRM Suite-Pläne
+  href: crm-suite.md
 - name: Lizenz aktivieren
   href: activate.md
 - name: Benutzerpläne

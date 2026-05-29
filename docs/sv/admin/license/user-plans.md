@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-user-plans
 description: SuperOffice användarplaner och prenumerationer
 keywords: användarplan, licens, essential, premium
@@ -18,6 +18,8 @@ language: sv
 ---
 
 # SuperOffice användarplaner och prenumerationer
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Du kan välja mellan tre fristående **lösningar** – Sales, Marketing och Service – anpassade efter olika roller i din organisation. Varje lösning finns i två nivåer: **Essential** och **Premium**. Hitta de planer som passar bäst för din applikation.
 

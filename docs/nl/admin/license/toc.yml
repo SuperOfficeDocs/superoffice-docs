@@ -1,6 +1,8 @@
-items:
+﻿items:
 - name: Inleiding
   href: index.md
+- name: CRM Suite-plannen
+  href: crm-suite.md
 - name: Licentie activeren
   href: activate.md
 - name: Gebruikersplannen

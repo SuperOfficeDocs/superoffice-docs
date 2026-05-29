@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-user-change-plan
 title: Gebruikersplannen voor actieve gebruikers wijzigen
 description: In deze handleiding leert u hoe u een gebruikersplan voor actieve gebruikers kunt wijzigen.
@@ -20,6 +20,8 @@ language: nl
 ---
 
 # Gebruikersplannen voor actieve gebruikers wijzigen
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Wanneer mensen nieuwe taken aannemen of een nieuwe baan in uw bedrijf krijgen, moet u mogelijk hun gebruikersplan wijzigen.
 

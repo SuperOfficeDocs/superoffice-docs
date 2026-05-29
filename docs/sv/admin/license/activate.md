@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-license-activate
 title: Aktivera licens
 description: Aktivera licens för SuperOffice
@@ -18,6 +18,8 @@ redirect_from: /sv/admin/license/learn/activate
 ---
 
 # Aktivera licens
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 För att kunna hantera licenser måste du vara inloggad som administratör.
 

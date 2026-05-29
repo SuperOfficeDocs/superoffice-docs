@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-no-license-activate
 title: Aktivere lisens
 description: Aktivere lisens for SuperOffice
@@ -18,6 +18,8 @@ redirect_from: /no/admin/license/learn/activate
 ---
 
 # Aktivere lisens
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Du må være logget på som administrator for å behandle lisenser.
 

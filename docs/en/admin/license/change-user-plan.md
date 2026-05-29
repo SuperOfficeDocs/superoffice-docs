@@ -21,6 +21,8 @@ redirect_from: /en/admin/user-management/learn/change-user-plan
 
 # Change user plans for active users
 
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
+
 When people take on new tasks or get a new job in your company, you may need to change their user plan.
 
 You can give users the access to new sets of functionalities by changing their user plan in the Settings and maintenance section.

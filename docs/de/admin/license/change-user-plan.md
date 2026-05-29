@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-user-change-plan
 title: Benutzerpläne für aktive Benutzer ändern
 description: In dieser Anleitung lernen Sie, wie Sie einen Benutzerplan für aktive Benutzer ändern.
@@ -20,6 +20,8 @@ language: de
 ---
 
 # Benutzerpläne für aktive Benutzer ändern
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Wenn Mitarbeiter neue Aufgaben übernehmen oder einen neuen Job in Ihrer Firma bekommen, müssen Sie vielleicht ihren Benutzerplan ändern.
 

@@ -21,7 +21,7 @@ language: no
 
 Når SuperOffice CRM-løsningen er konfigurert og tilpasset, er det på tide å gi brukerne tilgang til CRM-løsningen.
 
-Administratorer har ansvaret for å gi nye brukere en brukerplan, et brukernavn, et passord og brukergruppen brukeren tilhører. Du kan legge til brukere i SuperOffice CRM i Innstillinger og vedlikehold.
+Administratorer har ansvaret for å gi nye brukere et brukernavn, et passord og brukergruppen brukeren tilhører. I **SuperOffice CRM Online** (det modulbaserte abonnementet) inkluderer dette også tildeling av en brukerplan. I abonnementer på **SuperOffice CRM Suite** gjelder firmaets plan for alle brukere – aktiver alternativet **Kan logge inn** for å gi tilgang. Du kan legge til brukere i SuperOffice CRM i Innstillinger og vedlikehold.
 
 > [!NOTE]
 > Hvis du oppga informasjon om brukerne da du bestilte SuperOffice CRM, trenger du ikke å legge til brukere. Brukerne skal ha fått påloggingsinformasjon fra SuperOffice via e-post. Kontroller om brukerne er i systemet ved hjelp av menyen Brukere i Innstillinger og vedlikehold.
@@ -41,7 +41,8 @@ Administratorer har ansvaret for å gi nye brukere en brukerplan, et brukernavn,
 
 1. Klikk på **Lagre**. Navnet på den nye brukeren vises nå i listen.
 
-    * Hvis aktive brukere trenger en annen brukerplan, kan du [tilordne brukerplaner][4] i Innstillinger og vedlikehold.
+    * **SuperOffice CRM Online:** Hvis aktive brukere trenger en annen brukerplan, kan du [tilordne brukerplaner][4] i Innstillinger og vedlikehold.
+    * **SuperOffice CRM Suite:** Administrer brukertilgang ved å aktivere eller deaktivere alternativet **Kan logge inn**. Firmaets plan bestemmer hvilke funksjoner alle brukere kan få tilgang til. Se [CRM Suite-planer][5].
 
     * I den nedre delen av brukerkortet kan du aktivere eller deaktivere påloggingsrettighetene til den valgte brukeren ved å klikke på knappen **Kan logge inn**. Som standard aktiveres dette alternativet når du velger en brukerplan for brukeren.
 
@@ -65,7 +66,7 @@ I fanen **Detaljer** finner du følgende alternativer:
 
 * **Rolle**: I listeboksen **Rolle** velger du hvilken [rolle][3] brukeren skal ha. Rollen bestemmer datatilgang og funksjonelle rettigheter for brukeren. Du kan ikke endre din egen rolle.
 
-* **Brukerplan**: Velg den aktuelle brukerplanen for brukeren. Dette bestemmer hvilke SuperOffice-funksjoner brukeren kan få tilgang til.
+* **Brukerplan**: Velg den aktuelle brukerplanen for brukeren. Dette bestemmer hvilke SuperOffice-funksjoner brukeren kan få tilgang til. (Kun SuperOffice CRM Online. I abonnementer på SuperOffice CRM Suite gjelder firmaets plan for alle brukere.)
 
 * **Sluttet**: Hvis en bruker ikke lenger skal ha tilgang til SuperOffice, velger du dette alternativet for å fjerne brukerplanen og påloggingsrettighetene til brukeren.
 
@@ -111,6 +112,7 @@ Se denne demoen for å se hvordan du legger til en ny bruker i SuperOffice CRM.
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
+[5]: ../license/crm-suite.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/no/admin/user-management/add-associate.html

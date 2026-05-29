@@ -69,6 +69,8 @@ Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss sie bei
 
 > [!NOTE]
 > In der Ansicht Benutzer können Sie festlegen, welche Lizenzen Sie den verschiedenen Benutzern zuteilen wollen. Um neue Systemlizenzen hinzuzufügen oder für ein oder mehrere Module die Anzahl der Lizenzen erhöhen/reduzieren möchten, wenden Sie sich für [Lizenzinformationen aktualisieren][16] an SuperOffice.
+>
+> In **SuperOffice CRM Suite**-Abonnements werden keine Benutzerpläne pro Benutzer zugewiesen und die Spalte **Benutzerplan** wird nicht angezeigt. Der Zugriff wird über die Benutzerplatzanzahl verwaltet. Weitere Informationen finden Sie unter [CRM Suite-Plänen][18].
 
 ## Benutzergruppen
 
@@ -118,7 +120,7 @@ Standardmäßig enthält die Liste auf der Registerkarte **Mitarbeiter** die fol
 > [!TIP]
 > Sie können auswählen, welche Spalten in der Liste angezeigt werden sollen. Klicken Sie einfach mit der rechten Maustaste auf eine Spaltenüberschrift und wählen Sie die relevanten Spalten in der Spaltenliste aus. Um die Reihenfolge der Spalten zu ändern, klicken und ziehen Sie eine Spaltenüberschrift.
 
-* **Suche nach Benutzern:** Mit dieser dynamischen Suchfunktion können Sie bestimmte Benutzer schnell nach Namen oder Benutzer-ID suchen oder alle Benutzer suchen, die zu bestimmten Rollen, Gruppen oder Benutzerplänen gehören. Geben Sie einfach Text in das Suchfeld ein, um die Liste mit den entsprechenden Benutzern zu aktualisieren.
+* **Suche nach Benutzern:** Mit dieser dynamischen Suchfunktion können Sie bestimmte Benutzer schnell nach Namen oder Benutzer-ID suchen oder alle Benutzer suchen, die zu bestimmten Rollen, Gruppen oder Benutzerplänen (SuperOffice CRM Online) gehören. Geben Sie einfach Text in das Suchfeld ein, um die Liste mit den entsprechenden Benutzern zu aktualisieren.
 
 * **Nur Benutzer anzeigen, die sich anmelden können:** Mit dieser Option werden nur Benutzer angezeigt, die aktiv sind (nicht deaktiviert wurden).
 
@@ -140,7 +142,7 @@ Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
 
 #### Gruppieren der Liste
 
-Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und ähnlichem gruppieren. Darüber hinaus können Sie auf mehreren Ebenen gruppieren.
+Sie können die Liste der Benutzer nach Rolle, Benutzerplan (SuperOffice CRM Online), Primärgruppe und ähnlichem gruppieren. Darüber hinaus können Sie auf mehreren Ebenen gruppieren.
 
 > [!NOTE]
 > Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gruppiert werden soll (siehe auch [Ansichten anpassen][14]).
@@ -165,7 +167,7 @@ Der vollständige Name, die E-Mail-Adresse und die Zugehörigkeit: Firma werden 
 
 In der Übersicht Benutzer gibt es verschiedene Registerkarten:
 
-* **Details** - Hauptübersicht der Benutzerinformationen wie **Benutzer-ID**, **Rolle**, **Benutzerplan**, **Primärgruppe** und **Servicekategorien**.
+* **Details** - Hauptübersicht der Benutzerinformationen wie **Benutzer-ID**, **Rolle**, **Benutzerplan** (SuperOffice CRM Online), **Primärgruppe** und **Servicekategorien**.
 * **Lizenzen** - Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Folgeaufgabe, Dokumente und Selektionen **sichtbar zu machen**.
 * **Mehr** - Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
 
@@ -191,6 +193,8 @@ Die Firmenliste auf der Registerkarte **Unsere Firma** in der Ansicht Benutzer s
 
 Auf der Registerkarte **Benutzerlizenzen** in der Ansicht Benutzer erhalten Sie einen Überblick, wie viele Benutzerlizenzen verwendet werden und welche Benutzer die verschiedenen Lizenzen verwenden.
 
+In **SuperOffice CRM Suite**-Abonnements zeigt diese Registerkarte die Gesamtzahl der erworbenen Benutzerplätze und der derzeit verwendeten Benutzerplätze an. Es gibt keine Zuweisung von Benutzerplänen pro Benutzer.
+
 * Klicken Sie in der Liste **Benutzerlizenzen** auf eine Lizenz, um eine Liste der Benutzer anzuzeigen, die derzeit diese Lizenz verwenden.
 
 * Halten Sie den Mauszeiger über einen Lizenznamen, um detaillierte Informationen zur Lizenz anzuzeigen.
@@ -205,6 +209,7 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 * [Neuen Benutzer hinzufügen][2]
 * [Benutzergruppen erstellen][3]
 * [Benutzerpläne für aktive Benutzer ändern][17]
+* [CRM Suite-Pläne][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -216,6 +221,7 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

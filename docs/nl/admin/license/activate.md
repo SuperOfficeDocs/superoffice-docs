@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-license-activate
 title: Licentie activeren
 description: Licentie voor SuperOffice activeren
@@ -18,6 +18,8 @@ redirect_from: /nl/admin/license/learn/activate
 ---
 
 # Licentie activeren
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Als u licenties wilt beheren, moet u zijn aangemeld als beheerder.
 

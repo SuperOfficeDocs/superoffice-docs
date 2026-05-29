@@ -21,7 +21,7 @@ language: de
 
 Nachdem Ihre SuperOffice CRM-Lösung konfiguriert und personalisiert wurde, können Sie Ihren Benutzern Zugriff auf ihre CRM-Lösung gewähren.
 
-Administratoren sind dafür verantwortlich, neuen Benutzern einen Benutzerplan, einen Benutzernamen, ein Passwort zur Verfügung zu stellen und die Benutzergruppe mitzuteilen, zu welcher der Benutzer gehört. Sie können unter Einstellungen und Verwaltung Benutzer zu SuperOffice CRM hinzufügen.
+Administratoren sind dafür verantwortlich, neuen Benutzern einen Benutzernamen, ein Passwort und die Benutzergruppe mitzuteilen, zu welcher der Benutzer gehört. In **SuperOffice CRM Online** (dem modulbasierten Abonnement) umfasst dies auch die Zuweisung eines Benutzerplans. In **SuperOffice CRM Suite**-Abonnements gilt der Firmenplan für alle Benutzer – aktivieren Sie die Option **Anmelden möglich**, um Zugriff zu gewähren. Sie können unter Einstellungen und Verwaltung Benutzer zu SuperOffice CRM hinzufügen.
 
 > [!NOTE]
 > Wenn Sie bei der Bestellung von SuperOffice CRM Informationen über Benutzer angegeben haben, müssen Sie keine Benutzer hinzufügen. Die Benutzer haben die Zugangsdaten von SuperOffice per E-Mail erhalten. Überprüfen Sie im Menü Benutzer in Einstellungen und Verwaltung, ob sich Benutzer im System befinden.
@@ -41,7 +41,8 @@ Administratoren sind dafür verantwortlich, neuen Benutzern einen Benutzerplan, 
 
 1. Klicken Sie auf **Speichern**. Der Name des neuen Benutzers wird in der Liste angezeigt.
 
-    * Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
+    * **SuperOffice CRM Online:** Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
+    * **SuperOffice CRM Suite:** Verwalten Sie den Benutzerzugriff, indem Sie die Option **Anmelden möglich** aktivieren oder deaktivieren. Der Firmenplan bestimmt, auf welche Funktionen alle Benutzer zugreifen können. Weitere Informationen finden Sie unter [CRM Suite-Plänen][5].
 
     * Im unteren Bereich der Benutzerkarte können Sie die Login-Rechte des ausgewählten Benutzers aktivieren oder deaktivieren, indem Sie auf die Schaltfläche **Anmelden möglich** klicken. Standardmäßig wird diese Option aktiviert, wenn Sie einen Benutzerplan für den Benutzer auswählen.
 
@@ -65,7 +66,7 @@ Auf der Registerkarte **Details** stehen folgende Optionen zur Verfügung:
 
 * **Rolle**: Legen Sie im Listenfeld **Rolle** die [Rolle][3] für den Benutzer fest. Die Rolle bestimmt den Datenzugriff des Benutzers und die Rechte für die Funktionen. Sie können Ihre eigene Rolle nicht ändern.
 
-* **Benutzerplan**: Wählen Sie den relevanten Benutzerplan für den Benutzer aus. Damit wird festgelegt, auf welche SuperOffice-Funktionen der Benutzer zugreifen kann.
+* **Benutzerplan**: Wählen Sie den relevanten Benutzerplan für den Benutzer aus. Damit wird festgelegt, auf welche SuperOffice-Funktionen der Benutzer zugreifen kann. (Nur SuperOffice CRM Online. In SuperOffice CRM Suite-Abonnements gilt der Firmenplan für alle Benutzer.)
 
 * **Ausgeschiedener Mitarbeiter**: Wenn ein Benutzer keinen Zugriff mehr auf SuperOffice haben soll, wählen Sie diese Option aus, um den Benutzerplan und die Login-Rechte des Benutzers zu löschen.
 
@@ -111,6 +112,7 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../license/change-user-plan.md
+[5]: ../license/crm-suite.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/de/admin/user-management/add-associate.html

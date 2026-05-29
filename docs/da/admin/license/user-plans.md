@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-da-user-plans
 title: Brugerplaner
 description: SuperOffice brugerplaner og abonnementer
@@ -15,6 +15,8 @@ language: da
 ---
 
 # SuperOffice brugerplaner og abonnementer
+
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 Du kan vælge mellem 3 selvstændige **løsninger** – Sales, Marketing og Service – baseret på forskellige roller i din virksomhed. Hver løsning findes i to niveauer: **Essential** og **Premium**. Find de rigtige planer at basere din applikation på.
 

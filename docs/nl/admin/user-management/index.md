@@ -69,6 +69,8 @@ Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker al
 
 > [!NOTE]
 > In het scherm Gebruikers geeft u aan welke licenties kunnen worden gebruikt door de verschillende gebruikers. Als u nieuwe systeemlicenties wilt toevoegen of het aantal licenties voor een of meer modules wilt verhogen/verminderen, neemt u contact op met SuperOffice om [de licentiegegevensbij te werken][16].
+>
+> In **SuperOffice CRM Suite**-abonnementen zijn er geen gebruikersplantoewijzingen per gebruiker en wordt de kolom **Gebruikersplan** niet weergegeven. De toegang wordt beheerd via het aantal seats. Zie [CRM Suite-plannen][18].
 
 ## Gebruikersgroepen
 
@@ -118,7 +120,7 @@ De lijst op het tabblad **Medewerkers** bestaat standaard uit de volgende kolomm
 > [!TIP]
 > U kunt aangeven welke kolommen in de lijst moeten worden weergegeven. Klik met de rechtermuisknop op een kolomkop en selecteer de relevante kolommen in de kolomlijst. Als u de volgorde van de kolommen wilt wijzigen, klikt u op en sleept u een kolomkop.
 
-* **Zoeken naar gebruikers:** Gebruik deze dynamische zoekfunctie om specifieke gebruikers snel te vinden op naam of gebruikers-ID, of om alle gebruikers te vinden die behoren tot specifieke rollen, groepen of gebruikersplannen. Voer gewoon tekst in het zoekveld in om de lijst bij te werken met overeenkomende gebruikers.
+* **Zoeken naar gebruikers:** Gebruik deze dynamische zoekfunctie om specifieke gebruikers snel te vinden op naam of gebruikers-ID, of om alle gebruikers te vinden die behoren tot specifieke rollen, groepen of gebruikersplannen (SuperOffice CRM Online). Voer gewoon tekst in het zoekveld in om de lijst bij te werken met overeenkomende gebruikers.
 
 * **Alleen gebruikers weergeven die zich kunnen aanmelden:** Selecteer deze optie om alleen gebruikers weer te geven die actief zijn (die niet zijn gedeactiveerd).
 
@@ -140,7 +142,7 @@ U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
 
 #### De lijst groeperen
 
-U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep en soortgelijke. Bovendien kunt u op meerdere niveaus groeperen.
+U kunt de lijst met gebruikers groeperen op rol, gebruikersplan (SuperOffice CRM Online), primaire groep en soortgelijke. Bovendien kunt u op meerdere niveaus groeperen.
 
 > [!NOTE]
 > Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt groeperen (zie ook [Weergaven aanpassen][14]).
@@ -165,7 +167,7 @@ Bovenaan staan de volledige naam, het e-mailadres en het bedrijf dat eigenaar is
 
 Er zijn verschillende tabbladen in het gebruikersoverzicht:
 
-* **Details** - hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan**, **Primaire groep** en **Servicecategorieën**.
+* **Details** - hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan** (SuperOffice CRM Online), **Primaire groep** en **Servicecategorieën**.
 * **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor vervolgactiviteiten, documenten en selecties .
 * **Meer** - het tabblad laat zien of er extra velden op een persoon zijn.
 
@@ -191,6 +193,8 @@ Via de bedrijvenlijst op het tabblad **Onze bedrijven** in het scherm Gebruikers
 
 Op het tabblad **Gebruikerslicenties** in het scherm Gebruikers kunt u zien hoeveel gebruikerslicenties er in gebruik zijn en welke gebruikers de verschillende licenties gebruiken.
 
+In **SuperOffice CRM Suite**-abonnementen toont dit tabblad het totale aantal aangeschafte seats en seats die momenteel in gebruik zijn. Er zijn geen gebruikersplantoewijzingen per gebruiker.
+
 * Klik op een licentie in de lijst **Gebruikerslicenties** voor een lijst van gebruikers die momenteel deze licentie gebruiken.
 
 * Plaats de muisaanwijzer op een licentienaam voor gedetailleerde informatie over de licentie.
@@ -205,6 +209,7 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 * [Een nieuwe gebruiker toevoegen][2]
 * [Gebruikersgroepen maken][3]
 * [Gebruikersplannen voor actieve gebruikers wijzigen][17]
+* [CRM Suite-plannen][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -216,6 +221,7 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png
