@@ -3,8 +3,8 @@ uid: so-protocol-page-control
 title: Page control and cache
 description: SoProtocol page control and cache
 keywords: soprotocol, deeplinking, cache
-author: Tony Yates
-date: 10.03.2025
+author: Tony Yates, digitaldiina, MargretheR
+date: 29.05.2026
 content_type: reference
 category: customization
 topic: soprotocol
@@ -33,8 +33,27 @@ language: en
 
 ## Web only
 
-| Mode     | Description                              |
-|:---------|:-----------------------------------------|
-| Flush    | QueryString parameter (...?flush)        |
+| Mode | Description |
+|:--|:--|
+| Flush | Flushes the client cache (`?flush`) |
+| Refresh | Refreshes the current page (`?refresh`) |
 
-<!-- Referenced links -->
+### Service redirects
+
+Use `service.{program}?action={action}` to redirect to Customer Service screens:
+
+```html
+superoffice:service.ticket?action=listTickets&ticket_id=123
+```
+
+The `flush` command can also be used inline within a navigation path:
+
+```html
+contact[flush=true].main
+```
+
+### Examples
+
+* To flush the cache: `superoffice:contact.main?flush`
+* To refresh the current page: `superoffice:contact.main?refresh`
+* To navigate to a specific request in Customer Service: `superoffice:service.ticket?action=listTickets&ticket_id=123`
