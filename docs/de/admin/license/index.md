@@ -149,18 +149,6 @@ Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R
 
 ## <a id="dev"></a>Hinter den Kulissen – das Lizenzsystem
 
-Das Lizenzsystem verfügt über eigene Datenbanktabellen:
-
-* [ModuleOwner][11] – ein Lizenzanbieter
-  * In der Regel nur eine Zeile (SuperOffice).
-  * Enthält globale Ablaufdaten.
-
-* [ModuleLicense][12] – eine Zeile pro Lizenz
-  * Es gibt mehr Lizenzen, als im GUI sichtbar sind – einige sind ausgeblendet.
-  * Verschiedene Typen: System, Standort, Benutzer; ein-/ausschaltbar oder mit definierter Anzahl.
-  * Sichtbare Lizenzen (wie Benutzerpläne) werden in der Admin-Oberfläche angezeigt. Benutzerpläne haben `ExtraFlags = 1`.
-  * Versteckte Lizenzen (z. B. **user**-Anmeldung oder **web**-Clientlizenz) sind nicht sichtbar, werden aber im Code geprüft.
-
 | Lizenztyp | ModuleLicense.Type | Beschreibung |
 |---|---|---|
 | **Systemlizenzen** | 1 | Definieren, welche Funktionen systemweit verfügbar sind. <br />Beispiel: Die **saint**-Lizenz ist vorhanden, wenn Sales Intelligence aktiviert ist. Diese Lizenz ist verborgen (nicht auf der Preisliste) und wird implizit aktiviert. Der SuperOffice-Client prüft dies und aktiviert SAINT-Funktionen entsprechend. |
@@ -215,6 +203,4 @@ Dasselbe gilt bei SCIM: Zähle die genutzten Benutzerpläne, nicht die Gesamtanz
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
 [13]: ../../../en/database/tables/LicenseAssocLink.md

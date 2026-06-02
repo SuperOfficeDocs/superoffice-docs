@@ -149,17 +149,6 @@ Lisenser for SuperOffice CRM for Windows (siste release [SuperOffice G8 8.5 R17]
 
 ## <a id="dev"></a>Bak kulissene – lisenssystemet
 
-Lisenssystemet har egne sett med databasetabeller:
-
-* [ModuleOwner][11] – en utsteder av lisenser
-  * Vanligvis bare én rad (SuperOffice).
-  * Inneholder globale utløpsdatoer.
-
-* [ModuleLicense][12] – én rad per lisens
-  * Flere lisenser enn du ser – noen er skjult i GUI.
-  * Flere typer: System, sted, bruker; på/av eller med angitt antall.
-  * Synlige lisenser (som brukerplaner) vises i administrasjonsbildet. Brukerplaner har `ExtraFlags = 1`.
-  * Skjulte lisenser (som **user**-pålogging eller **web**-klientlisens) vises ikke i GUI, men sjekkes i koden for å verifisere at en funksjon er tilgjengelig for brukeren.
 
 | Lisens | ModuleLicense.Type | Beskrivelse |
 |---|---|---|
@@ -215,6 +204,4 @@ Samme SCIM-unntak gjelder: tell antall brukte brukerplaner, ikke totalen som er 
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
 [13]: ../../../en/database/tables/LicenseAssocLink.md

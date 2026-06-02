@@ -139,17 +139,6 @@ Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5
 
 ## <a id="dev"></a>Achter de schermen – het licentiesysteem
 
-Het licentiesysteem heeft een eigen set databasetabellen:
-
-* [ModuleOwner][11] – een uitgever van licenties
-  * Meestal slechts één rij (SuperOffice).
-  * Bevat globale vervaldatums.
-
-* [ModuleLicense][12] – één rij per licentie
-  * Er zijn meer licenties dan zichtbaar in de GUI – sommige zijn verborgen.
-  * Meerdere typen: Systeem, locatie, gebruiker; aan/uit of met een vastgesteld aantal.
-  * Zichtbare licenties (zoals gebruikersplannen) zijn zichtbaar in de Admin-interface. Gebruikersplannen hebben `ExtraFlags = 1`.
-  * Verborgen licenties (zoals **user** login of **web** webclientlicentie) worden niet weergegeven in de GUI, maar gecontroleerd in de code om functies te activeren.
 
 | Licentietype | ModuleLicense.Type | Beschrijving |
 |---|---|---|
@@ -205,6 +194,4 @@ Zelfde SCIM-uitzondering: tel het aantal actieve gebruikersplannen – niet het 
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
 [13]: ../../../en/database/tables/LicenseAssocLink.md

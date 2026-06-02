@@ -1,7 +1,7 @@
 ---
 uid: help-en-licenses
 title: CRM and licences
-description: CRM and licences
+description: CRM and licenses
 keywords: license, licence, user plan, metered service, database owner, status tab
 author: digitaldiina, xt1
 date: 05.04.2026
@@ -25,11 +25,11 @@ language: en
 
 To log in to SuperOffice CRM from a web client, you need login rights to SuperOffice CRM and an Essential or a Premium user plan.
 
-## View licence information
+## View license information
 
 1. In Settings and maintenance, go to the Licences screen.
 1. Select the **SuperOffice** tab.
-1. The list shows the licences you have [purchased and activated][1]. Click a licence name to view more information about it.
+1. The list shows the licenses you have [purchased and activated][1]. Click a license name to view more information about it.
 
 ## The Licences screen
 
@@ -110,9 +110,9 @@ Under **System notifications** you will find the following columns:
 
 ## <a id="types"></a>License types
 
-### System licences
+### System licenses
 
-| Licence | Description |
+| License | Description |
 |---|---|
 | System | Specifies which systems you have access to. |
 | SuperOffice Server | Required to use SuperOffice CRM. |
@@ -123,9 +123,9 @@ Under **System notifications** you will find the following columns:
 | Customer Centre | Allows use of the Customer Centre. |
 | Sales Quote Management | Allows use of quotes. |
 
-### User licences (plans)
+### User licenses (plans)
 
-Finally, there are user licences for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
+Finally, there are user licenses for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
 
 * Sales-Essentials
 * Sales-Premium
@@ -134,24 +134,11 @@ Finally, there are user licences for SuperOffice CRM, which are purchased for a 
 * Marketing-Essentials
 * Marketing-Premium
 
-### Site and User licences (Windows - End of Life)
+### Site and User licenses (Windows - End of Life)
 
-Licences for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][6]) are purchased for a specific number of users.
+Licenses for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][6]) are purchased for a specific number of users.
 
 ## <a id="dev"></a>Behind the scenes - the license system
-
-The license system has its own set of database tables:
-
-* [ModuleOwner][11] – an issuer of licenses
-  * Initially only one row (SuperOffice).
-  * Contains global expiration dates.
-
-* [ModuleLicense][12] – one row per license
-  * More than you see, some licenses are hidden from the GUI.
-  * Several types: System, site, associate; on/off or a defined number of licenses.
-  * Visible licenses (like user plans) show in the Admin UI. User plans have `ExtraFlags = 1`.
-  * Hidden licenses (like the **user** log-in right, or the **web** web-client license) don't show in the UI but are
-    checked in the code to verify that a feature is available to a given user.
 
 | License type | ModuleLicense.Type | Description |
 |---|---|---|
@@ -195,8 +182,8 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 ## Related content
 
 * [SuperOffice user plans and subscriptions][4]
-* [Buy and activate licences][1]
-* [Licences in earlier versions of SuperOffice][7]
+* [Buy and activate licenses][1]
+* [Licenses in earlier versions of SuperOffice][7]
 * [System events][3]
 * [Module licenses][14]
 * [Hidden licenses][15]
@@ -209,8 +196,6 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
 [13]: ../../../en/database/tables/LicenseAssocLink.md
 [14]: dev/module-licenses.md
 [15]: dev/hidden-licenses.md

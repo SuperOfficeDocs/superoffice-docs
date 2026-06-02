@@ -18,6 +18,14 @@ language: en
 
 # Module licenses
 
+## Database tables
+
+The license system uses three main database tables:
+
+* [ModuleOwner][4] — an issuer of licenses. Initially only one row (SuperOffice). Contains global expiration dates.
+* [ModuleLicense][5] — one row per license. The admin panel shows only a subset; many licenses are hidden. Field details are covered below.
+* [LicenseAssocLink][6] — assigns one module license to one associate.
+
 | Field | Description |
 | --- | --- |
 | ModuleName | Code name: the "user" part of "superoffice.user" |
@@ -108,5 +116,8 @@ The travel license is unrestricted, so it does not have a counter to disable it.
 <!-- Referenced links-->
 [2]: <xref:SuperOffice.License.SoLicenseNames>
 [3]: hidden-licenses.md
+[4]: ../../../database/tables/ModuleOwner.md
+[5]: ../../../database/tables/ModuleLicense.md
+[6]: ../../../database/tables/LicenseAssocLink.md
 
 [img1]: ../../../../media/loc/en/admin/licenses-prereq.png
