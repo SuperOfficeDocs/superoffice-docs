@@ -145,22 +145,6 @@ Licenser til SuperOffice CRM til Windows (sidste udgivelse [SuperOffice G8 8.5 R
 
 Summen av lisenser som er tildelt for en modul, må ikke overstige antallet i `moduleLicense`. En ny lisens fra SuperLicense blir avvist hvis det allerede er for mange tildelinger.
 
-### Telle brukere
-
-Det finnes to tilnærminger:
-
-#### 1: Hent lisens og les antall user/web-lisenser
-
-Brukere må ha både **user** og **web** for å logge inn i SuperOffice Web. Dette tallet er øvre grense, ikke antallet i bruk.
-
-Noen kunder har mange lisenser fordi de betaler etter bruk (SCIM). Da må du telle aktive brukere, ikke hvor mange lisenser som er tilgjengelige.
-
-#### 2: Hent lisens og summer antall brukte lisenser med ExtraFlags=1
-
-Brukerplanene er det kundene betaler for. De inkluderer flere implisitte, skjulte lisenser.
-
-Samme SCIM-forbehold: Tell antall brukte brukerplaner, ikke total tilgjengelig mengde.
-
 ## Relateret indhold
 
 * [SuperOffice brugerplaner og abonnementer][4]

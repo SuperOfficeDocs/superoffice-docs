@@ -146,22 +146,6 @@ Licenses for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][
 
 The sum of licenses assigned to any particular module is limited to the number in `moduleLicense`. A new license set from SuperLicense will not be accepted if more than the acquired number is already assigned.
 
-### Counting Users
-
-There are two approaches:
-
-#### 1: Get the license and read the number of user or web licenses
-
-Users must have both **user** and **web** to log in to the SuperOffice web application. This number is the upper bound. It does not tell you how many are in use.
-
-For some customers, the number of licenses is huge, because they are paying by use, using SCIM. To handle this, count the number of user licenses in use, rather than the total number of licenses available.
-
-#### 2: Get the license and sum the number of ExtraFlags=1 licenses in use
-
-User plans are what the user is paying for. They define multiple implied, hidden licenses.
-
-The same SCIM caveat applies: count the number of user plans in use, rather than the total number available.
-
 ## Related content
 
 * [SuperOffice user plans and subscriptions][4]

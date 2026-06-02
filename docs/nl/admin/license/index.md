@@ -145,22 +145,6 @@ Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5
 
 Het aantal toegekende licenties mag het aantal in `moduleLicense` niet overschrijden. Een nieuw licentiepakket van SuperLicense wordt geweigerd als het maximum al is bereikt.
 
-### Gebruikers tellen
-
-Er zijn twee methodes:
-
-#### 1: Licentie ophalen en aantal user/web-licenties lezen
-
-Gebruikers hebben zowel **user** als **web** nodig om in te loggen op de SuperOffice Web-client. Dit aantal is de bovengrens – het geeft niet aan hoeveel er in gebruik zijn.
-
-Sommige klanten hebben grote aantallen licenties omdat ze op gebruik betalen via SCIM. Tel daarom het werkelijke aantal actieve gebruikers, niet het totaal aantal beschikbare licenties.
-
-#### 2: Licentie ophalen en aantal actieve ExtraFlags = 1-licenties optellen
-
-Gebruikersplannen zijn waarvoor klanten betalen. Ze bevatten meerdere impliciete, verborgen licenties.
-
-Zelfde SCIM-uitzondering: tel het aantal actieve gebruikersplannen – niet het totaal beschikbare aantal.
-
 ## Gerelateerde inhoud
 
 * [SuperOffice gebruikersplannen en abonnementen][4]

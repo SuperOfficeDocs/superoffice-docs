@@ -148,6 +148,22 @@ So from this we can see we have a `superoffice.server` site license, and the cur
 
 The `currentPrincipal` also has useful information like the role function-rights.
 
+## Counting users
+
+There are two approaches:
+
+### 1: Get the license and read the number of user or web licenses
+
+Users must have both **user** and **web** to log in to the SuperOffice web application. This number is the upper bound. It does not tell you how many are in use.
+
+For some customers, the number of licenses is huge, because they are paying by use, using SCIM. To handle this, count the number of user licenses in use, rather than the total number of licenses available.
+
+### 2: Get the license and sum the number of ExtraFlags=1 licenses in use
+
+User plans are what the user is paying for. They define multiple implied, hidden licenses.
+
+The same SCIM caveat applies: count the number of user plans in use, rather than the total number available.
+
 ## License signing
 
 Licenses are signed using public/private keys.

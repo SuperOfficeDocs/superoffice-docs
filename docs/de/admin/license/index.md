@@ -155,22 +155,6 @@ Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R
 
 Die Summe der zugewiesenen Lizenzen darf den in `moduleLicense` definierten Wert nicht überschreiten. Ein neues Lizenzpaket von SuperLicense wird abgelehnt, wenn bereits zu viele Lizenzen vergeben wurden.
 
-### Benutzer zählen
-
-Es gibt zwei Ansätze:
-
-#### 1: Lizenz abrufen und Anzahl user/web-Lizenzen auslesen
-
-Benutzer benötigen sowohl **user**- als auch **web**-Lizenzen, um sich bei SuperOffice Web anzumelden. Diese Zahl ist die Obergrenze, nicht die Anzahl der tatsächlich verwendeten Lizenzen.
-
-Manche Kunden verfügen über viele Lizenzen, weil sie per Nutzung zahlen (SCIM). Zähle in solchen Fällen die aktiven Benutzer – nicht die verfügbaren Lizenzen.
-
-#### 2: Lizenz abrufen und Anzahl aktiver ExtraFlags = 1-Lizenzen summieren
-
-Benutzerpläne sind das, wofür der Kunde bezahlt. Sie enthalten mehrere implizite, versteckte Lizenzen.
-
-Dasselbe gilt bei SCIM: Zähle die genutzten Benutzerpläne, nicht die Gesamtanzahl.
-
 ## Verwandte Inhalte
 
 * [SuperOffice-Benutzerpläne und Abonnements][4]
