@@ -133,10 +133,6 @@ Slutligen finns det användarlicenser för SuperOffice CRM, som köps för ett s
 * Marketing-Essentials
 * Marketing-Premium
 
-### Platslicenser och Användarlicenser (Windows – äldre)
-
-Licenser för SuperOffice CRM för Windows (senaste versionen [SuperOffice G8 8.5 R17][6]) köps för ett specifikt antal användare.
-
 ## Relaterat innehåll
 
 * [SuperOffice användarplaner och abonnemang][4]
@@ -150,5 +146,4 @@ Licenser för SuperOffice CRM för Windows (senaste versionen [SuperOffice G8 8.
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/sv/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm

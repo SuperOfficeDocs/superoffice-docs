@@ -143,10 +143,6 @@ Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antal
 * Marketing-Essentials
 * Marketing-Premium
 
-## Sitelisenser og brukerlisenser (Windows – EOL)
-
-Lisenser for SuperOffice CRM for Windows (siste release [SuperOffice G8 8.5 R17][6]) kjøpes for et bestemt antall brukere.
-
 ## Relatert innhold
 
 * [SuperOffice-brukerplaner og abonnement][4]
@@ -160,5 +156,4 @@ Lisenser for SuperOffice CRM for Windows (siste release [SuperOffice G8 8.5 R17]
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm

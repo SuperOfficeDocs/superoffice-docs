@@ -143,10 +143,6 @@ Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bes
 * Marketing-Essentials
 * Marketing-Premium
 
-### Standortlizenzen und Benutzerlizenzen (Windows - Legacy)
-
-Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R17][6]) werden für eine bestimmte Anzahl von Benutzern erworben.
-
 ## Verwandte Inhalte
 
 * [SuperOffice-Benutzerpläne und Abonnements][4]
@@ -160,5 +156,4 @@ Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/de/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
