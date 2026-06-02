@@ -1,62 +1,91 @@
 ---
 title: SQL Server schema
 uid: mirroring_sql_server_schema
-description: SQL Server schema for database mirroring
+description: SQL Server schema used by the Database Mirroring replica.
 author: SuperOffice Product and Engineering
-keywords:
+date: 05.27.2026
+keywords: database mirroring, schema, crm7, dbo, _ReplicationState, TablePrefix
 content_type: concept
 deployment: online
 platform: web
 ---
 
-# SQL Server schema for database mirroring
+# SQL Server schema for Database Mirroring
 
-Microsoft SQL Server physical schemas are used on both the SuperOffice CRM Online and partner ends. This makes the mirroring independent of various functional complexities, such as dictionaries (CRM, Service extra tables).
+The replica database uses **Microsoft SQL Server** dialect end-to-end. Because the physical schema is what gets replicated, the client does not distinguish between *dictionary* and *normal* tables &mdash; or between tables belonging to Sales, Service, extra tables in Service, or partner-defined tables that might appear in the future.
 
-All tables **except** a blocked list will be [mirrored][1]. This is (at least initially) a fixed set. Because the physical schema is used, we don't distinguish between *dictionary* and *normal* tables. There is also no distinction between tables belonging to Sales, Service, extra-tables in Service, or any partner-defined tables that might appear in the future.
-
-Mirroring uses a **simplified table schema**. This means that foreign key constraints, collating sequences, and indexes are **not mirrored**.
+The schema is **simplified**: foreign key constraints, collating sequences, and indexes are **not** mirrored.
 
 > [!NOTE]
-> We don't support row- or column-level filtering: tables are either mirrored or not.
+> Row- and column-level filtering is not supported. Tables are either mirrored or not.
 
-## Default schema
+## Destination schema (`crm7` vs `dbo`)
 
-The schema/prefix is not mirrored. The mirror always uses the default schema. The connection string/login user can be used to influence the default schema.
+The client preserves the **source schema** by default &mdash; typically `crm7`. Most replicated tables therefore end up as `crm7.contact`, `crm7.person`, `crm7.sale`, and so on.
 
-## Metadata
+If your downstream applications expect tables in `dbo` (or another schema), you can override the destination with the `TablePrefix` setting in `appsettings.json`:
 
-The client must maintain 1 table in the target database for required metadata  The `<context identifier>_mirroring` table is automatically created the first time the mirroring task runs. For example, `Cust10195_mirroring`. For each named table, the client must store a schema hash and the Log Sequence Number.
+```json
+{
+  "ReplicaDatabase": {
+    "TablePrefix": "dbo"
+  }
+}
+```
 
-## Database index
+| `TablePrefix` value | Result |
+|---|---|
+| Empty or omitted (default) | Preserves source schema &mdash; typically `crm7` |
+| `"dbo"` (or any other name) | All replicated tables created in that schema |
 
-If you need database indexes, you should create and maintain them before or after each replication cycle.
+> [!IMPORTANT]
+> `TablePrefix` only takes effect during the **initial snapshot**. It must be set before you run `provision`. Changing it after provisioning **does not** move tables between schemas.
 
-In the NuGet implementation, you can do this in one of the event-handling methods in IMirrorAdmin:
+For details on choosing the right schema during a migration, see [Schema alignment](migrate.md#schema-alignment-dbo-vs-crm7).
 
-* In `OnBeforeReplicateTable`, which is called once for each table in each mirroring cycle
-* In `OnReplicationCompleted`, which is called once at the end of a complete cycle
+## Session state: the `_ReplicationState` table
 
-## Blocked list tables
+The client maintains one internal table in the replica database: **`_ReplicationState`**. It is created automatically during `provision` and stores:
 
-Database tables that fall into one of the following categories are not mirrored:
+* The session identifier and tenant context.
+* The encrypted access and refresh tokens (encrypted with Windows DPAPI, `LocalMachine` scope).
+* Replication progress offsets per Kafka topic and partition.
+* The schema hash per replicated table.
 
-* irrelevant (`travelgeneratedtransaction`)
-* not useful (`traveltransactionlog`, `countervalue`)
-* confidential (`credentials`)
+Because the session state lives **inside the replica database**, it follows the database through backups, restores, and renames. No re-provisioning is required as long as the database itself moves with the client.
 
-See the [list of blocked tables][2].
+> [!WARNING]
+> Do not edit, truncate, or drop `_ReplicationState` manually. If you need to start over, use [`resync-tables`](setup-guide.md#command-reference) or, in extreme cases, re-`provision` against an empty database.
 
-## When mirroring schema changes fails
+## Indexes and other auxiliary objects
 
-This might happen if a customer creates an extra table containing a character field through SuperOffice Service.
+The client creates and maintains only the **replicated tables themselves**. Any indexes, views, synonyms, or triggers you need on the replica must be created and maintained by you.
 
-1. A [mirroring cycle][3] is run and the table is created and populated in the mirror.
-2. Later, the customer drops the table, and re-creates it with the same name… and this time adds a DateTime field with the same name as the old character field. Farfetched, but possible.
-3. The mirroring system will only see that the schema has changed with one column changing the data type. **This change will fail!**
-4. The client code supplied by SuperOffice will react by dropping the table in the mirror database, creating it with the new schema, and request a full repopulation.
+Good places to do this in your own deployment:
 
-<!-- Referenced links -->
-[1]: overview.md
-[2]: blocked-tables.md
-[3]: mirroring-task.md
+* As part of an initial post-`provision` setup script.
+* After table changes detected through `update-schema`.
+
+## Blocked tables
+
+The replica contains a useful subset of the source database, not an exact copy. Tables that fall into one of the following categories are excluded:
+
+* **Irrelevant** &mdash; for example `travelgeneratedtransaction`.
+* **Not useful** for analytics &mdash; for example `traveltransactionlog`, `countervalue`.
+* **Confidential** &mdash; for example `credentials`.
+* **Binary blobs and dictionary cache** &mdash; the `binaryobject` table and dictionary information tables are excluded to keep the replica cleaner and faster.
+
+See the full [list of blocked tables](blocked-tables.md).
+
+## When schema changes fail
+
+This can happen if a customer creates an extra table containing a character field through SuperOffice Service, drops it, and re-creates it with the same name but a different data type for one of the columns.
+
+In that case the client reacts by dropping the affected table in the replica, re-creating it with the new schema, and triggering a full re-snapshot for that table.
+
+## Related
+
+* [Set up the Database Mirroring client](setup-guide.md)
+* [Schema alignment during migration](migrate.md#schema-alignment-dbo-vs-crm7)
+* [Blocked tables](blocked-tables.md)
+* [Force re-sync](force-resync.md)

@@ -1,16 +1,21 @@
 ---
-title: Conceptual overview
+title: Conceptual overview (legacy, 2016)
 uid: mirroring_conceptual_overview_2016
-description: Conceptual overview of database mirroring
+description: Conceptual overview of the legacy WCF-based Database Mirroring service (2016 design).
 author: Tony Yates
 date: 04.20.2016
-keywords:
+keywords: legacy, WCF, mirroring
 content_type: concept
 deployment: online
 platform: web
 ---
 
-# Conceptual overview
+# Conceptual overview (legacy)
+
+> [!IMPORTANT]
+> This page describes the original **2016 WCF-based** design of Database Mirroring, where SuperOffice pushed data to a partner-hosted endpoint that implemented `IMirrorClientService`. That design is now legacy.
+>
+> The current implementation is an outbound-only client that the customer runs &mdash; see [Overview](overview.md) and [Set up the Database Mirroring client](setup-guide.md). If you are migrating from the legacy service, see [Migrate from the legacy mirroring service](migrate.md).
 
 Imagine you are an online application vendor who has created the world's best trending software. You have created an application that can scan a database, mine it for patterns, and display trend reports. It would be nearly impossible to do this effectively with only web services.
 

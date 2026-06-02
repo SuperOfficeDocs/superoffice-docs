@@ -2,13 +2,13 @@
 
 yamlMime: SubCategory
 title: Database mirroring
-summary: This area contains relevant links to all things related to database mirroring.
+summary: Keep a customer-managed SQL Server replica in sync with your SuperOffice Online tenant for reporting, analytics, and offline processing.
 
 metadata:
   title: Database mirroring
   description: Database mirroring
   ms.topic: landing-page
-  ms.date: 03.27.2021
+  ms.date: 05.27.2026
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -16,44 +16,46 @@ metadata:
 landingContent:
 
   # Card
-  - title: Learn about mirroring
+  - title: Get started
     linkLists:
-      - itemType: school
-        typeDesc: learn
+      - itemType: get-started
+        typeDesc: get-started
         links:
-        - text: What is mirroring?
-          url: overview.md
-        - text: Conceptual overview
-          url: conceptual-overview-2016.md
-        - text: Mirroring task
-          url: mirroring-task.md
-        - text: Change tracking
-          url: change-tracking.md
-        - text: Blocked list
-          url: blocked-tables.md
+          - text: What is Database Mirroring?
+            url: overview.md
+          - text: Requirements
+            url: requirements.md
+          - text: Order Database Mirroring
+            url: order-database-mirroring.md
+      - itemType: deploy
+        typeDesc: deploy
+        links:
+          - text: Set up the client (step-by-step)
+            url: setup-guide.md
+
   # Card
-  - title: Getting started
+  - title: Migrate from legacy mirroring
+    linkLists:
+      - itemType: deploy
+        typeDesc: how-to-guide
+        links:
+          - text: Migration guide (parallel run + database rename)
+            url: migrate.md
+          - text: Schema alignment (dbo vs crm7)
+            url: migrate.md#schema-alignment-dbo-vs-crm7
+          - text: Rollback
+            url: migrate.md#rollback
+
+  # Card
+  - title: How-to
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-          - text: Where to begin
-            url: getting-started/index.md
-          - text: Create WFC
-            url: getting-started/create-wfc.md
-      - itemType: library_books
-        typeDesc: reference
-        links:
-          - text: IMirrorClientService interface
-            url: getting-started/i-mirror-client-service.md
-  # Card
-  - title: How to...
-    linkLists:
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-          - text: Force re-synchronization
+          - text: Force re-sync
             url: force-resync.md
+          - text: Troubleshooting
+            url: troubleshooting.md
 
   # Card
   - title: Reference
@@ -61,9 +63,34 @@ landingContent:
       - itemType: library_books
         typeDesc: reference
         links:
+          - text: Command reference
+            url: setup-guide.md#command-reference
+          - text: Configuration reference (appsettings.json)
+            url: setup-guide.md#configuration-reference
           - text: Scenarios
             url: scenarios.md
-          - text: Requirements
-            url: requirements.md
-          - text: SQL server schema
+          - text: SQL Server schema
             url: sql-server-schema.md
+          - text: Change tracking (CDC)
+            url: change-tracking.md
+          - text: Blocked tables
+            url: blocked-tables.md
+
+  # Card
+  - title: Legacy (WCF) mirroring
+    linkLists:
+      - itemType: list
+        typeDesc: reference
+        links:
+          - text: Conceptual overview (2016)
+            url: conceptual-overview-2016.md
+          - text: Mirroring Task (legacy)
+            url: mirroring-task.md
+          - text: Getting started (legacy)
+            url: getting-started/index.md
+          - text: Create a WCF service (legacy)
+            url: getting-started/create-wfc.md
+          - text: IMirrorClientService interface (legacy)
+            url: getting-started/i-mirror-client-service.md
+          - text: Skipped tables (obsolete from 10.1.8)
+            url: skip-tables.md

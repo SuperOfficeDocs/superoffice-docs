@@ -1,32 +1,39 @@
 items:
 - name: Overview
   href: overview.md
-- name: Scenarios
-  href: scenarios.md
 - name: Requirements
   href: requirements.md
 - name: Order Database Mirroring
   href: order-database-mirroring.md
-- name: Deep-dive and implementation overview
-  href: conceptual-overview-2016.md
-- name: Mirroring task
-  href: mirroring-task.md
-- name: Change tracking
-  href: change-tracking.md
-- name: Blocked tables
-  href: blocked-tables.md
-- name: SQL server schema
-  href: sql-server-schema.md
-- name: Getting started
-  href: getting-started/index.md
-  items:
-  - name: Create WFC
-    href: getting-started/create-wfc.md
-  - name: IMirrorClientService interface
-    href: getting-started/i-mirror-client-service.md
-- name: How to force resync
+- name: Set up the client
+  href: setup-guide.md
+- name: Migrate from legacy mirroring
+  href: migrate.md
+- name: How to force re-sync
   href: force-resync.md
 - name: Troubleshooting
   href: troubleshooting.md
-- name: (legacy) Skipped tables
-  href: skip-tables.md
+- name: Reference
+  items:
+  - name: Scenarios
+    href: scenarios.md
+  - name: SQL Server schema
+    href: sql-server-schema.md
+  - name: Change tracking (CDC)
+    href: change-tracking.md
+  - name: Blocked tables
+    href: blocked-tables.md
+- name: Legacy (WCF) mirroring
+  items:
+  - name: Conceptual overview (2016)
+    href: conceptual-overview-2016.md
+  - name: Mirroring Task (legacy)
+    href: mirroring-task.md
+  - name: Getting started (legacy)
+    href: getting-started/index.md
+  - name: Create a WCF service (legacy)
+    href: getting-started/create-wfc.md
+  - name: IMirrorClientService interface (legacy)
+    href: getting-started/i-mirror-client-service.md
+  - name: Skipped tables (obsolete from 10.1.8)
+    href: skip-tables.md

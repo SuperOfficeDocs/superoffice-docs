@@ -9,7 +9,12 @@ deployment: online
 platform: web
 ---
 
-# Get your mirroring service up and running in 10 minutes or less using NuGet
+# Get your mirroring service up and running in 10 minutes or less using NuGet (legacy)
+
+> [!IMPORTANT]
+> This walk-through covers the **legacy WCF-based** mirroring service. It uses the `SuperOffice.Crm.Online.Mirroring` NuGet package to implement a partner-hosted WCF endpoint.
+>
+> New deployments should use the outbound-only client instead &mdash; there is no NuGet package, no WCF service, and no certificate management. See [Set up the Database Mirroring client](../setup-guide.md). If you are migrating an existing legacy deployment, see [Migrate from the legacy mirroring service](../migrate.md).
 
 Although you are free to implement the mirroring service to support any database you prefer, SuperOffice provides a complete implementation of the database mirroring interface as a NuGet package.
 
