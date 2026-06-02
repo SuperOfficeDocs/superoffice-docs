@@ -140,12 +140,6 @@ Licenses for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][
 
 ## <a id="dev"></a>Behind the scenes - the license system
 
-| License type | ModuleLicense.Type | Description |
-|---|---|---|
-| **System licenses** | 1 | Define which features are available system-wide. <br />Example: The **saint** license is present if Sales Intelligence is enabled. This license is hidden (not on the price list) and implicitly activated. The SuperOffice client checks for it and enables SAINT features if present. |
-| **Site licenses** | 2 | Rarely used today. Historically used in satellite setups, where certain licenses were assigned to specific sites instead of being globally available. |
-| **User licenses** | 3 | Licenses assigned directly to users. The number of assigned users cannot exceed the number of available licenses. <br />Some user licenses may be hidden to simplify the UI. These are activated through user plans. <br />User plans have `ModuleLicense.ExtraFlags = 1` and define implied licenses via the `ExtraInfo` field, for example:<br>`"set=user,web,chat-cal"` assigns the **user**, **web**, and **chat-cal** licenses automatically. |
-
 ### User-license assignment
 
 [LicenseAssocLink][13] – assigns one particular `moduleLicense` to a certain associate. That is how John becomes a User and a Windows client user; this would be 2 records.

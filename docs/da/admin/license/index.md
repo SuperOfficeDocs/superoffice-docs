@@ -139,13 +139,6 @@ Licenser til SuperOffice CRM til Windows (sidste udgivelse [SuperOffice G8 8.5 R
 
 ## <a id="dev"></a>Bag kulissene - lisenssystemet
 
-
-| Lisens | ModuleLicense.Type | Beskrivelse |
-|---|---|---|
-| **Systemlisenser** | 1 | Definerer hvilke funksjoner som er tilgjengelige for hele systemet.  <br />Eksempel: **saint**-lisens er til stede hvis Sales Intelligence er aktivert. Denne lisensen er skjult og aktiveres implisitt. SuperOffice-klienten sjekker etter den og aktiverer SAINT-funksjoner hvis den finnes. |
-| **Stedslisenser** | 2 | Brukes sjelden i dag. Tidligere brukt i satelittmiljøer hvor noen lisenser var knyttet til bestemte steder. |
-| **Brukerlisenser** | 3 | Tildeles direkte til brukere. Antall tildelinger kan ikke overstige antall tilgjengelige lisenser.  <br />Noen brukerlisenser er skjult for å forenkle GUI. Disse aktiveres gjennom brukerplaner.  <br />Brukerplaner har `ModuleLicense.ExtraFlags = 1` og definerer implisitte lisenser i `ExtraInfo`-feltet, for eksempel: <br>`"set=user,web,chat-cal"` tildeler lisensene **user**, **web** og **chat-cal** automatisk. |
-
 ### Tilordne brukerlisenser
 
 [LicenseAssocLink][13] – kobler en spesifikk `moduleLicense` til en bestemt bruker. Dette er hvordan "John" blir en bruker og får Windows-klienttilgang: det blir 2 rader.

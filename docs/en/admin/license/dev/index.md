@@ -31,6 +31,16 @@ If the price list changes, we don't have to update all the checks - just update 
 
 The user sees a set of licenses in the admin panel, but the license server delivers a set of [hidden licenses][3] containing feature-specific licenses.
 
+## License types
+
+The `ModuleLicense.Type` field determines how a license is scoped and assigned:
+
+| License type | ModuleLicense.Type | Description |
+| --- | --- | --- |
+| **System licenses** | 1 | Define which features are available system-wide. <br />Example: The **saint** license is present if Sales Intelligence is enabled. This license is hidden (not on the price list) and implicitly activated. The SuperOffice client checks for it and enables SAINT features if present. |
+| **Site licenses** | 2 | Rarely used today. Historically used in satellite setups, where certain licenses were assigned to specific sites instead of being globally available. |
+| **User licenses** | 3 | Licenses assigned directly to users. The number of assigned users cannot exceed the number of available licenses. <br />Some user licenses may be hidden to simplify the UI. These are activated through user plans. <br />User plans have `ModuleLicense.ExtraFlags = 1` and define implied licenses via the `ExtraInfo` field, for example:<br>`"set=user,web,chat-cal"` assigns the **user**, **web**, and **chat-cal** licenses automatically. |
+
 ## CALs
 
 In the olden days we sold CALs (Client Access Licenses) directly. To use the web client, you would buy a "user" CAL to login, a "web" CAL to use the web client, and then an "remote-travel" CAL to use another module. Administrators would tick off the boxes per user, and the feature would be activated for that user.
