@@ -145,17 +145,6 @@ Licenser til SuperOffice CRM til Windows (sidste udgivelse [SuperOffice G8 8.5 R
 
 Summen av lisenser som er tildelt for en modul, må ikke overstige antallet i `moduleLicense`. En ny lisens fra SuperLicense blir avvist hvis det allerede er for mange tildelinger.
 
-### Signering av lisenser
-
-Lisenser signeres med offentlig/privat nøkkel.
-
-Privat nøkkel er strengt beskyttet, og uten den kan man ikke lage en fungerende lisenskodegenerator.
-
-Hver `moduleLicense`-rad signeres, og alle rader har hash-sjekk for å forhindre manipulering.
-
-**Oppsummert:** Endrer du dem, slutter de å virke. Kun SoAdmin og NetServer kan redigere dem. Ingen andre.
-Hackere kan hacke DLL-filer, men ikke lage fungerende lisensgeneratorer for bruk med uhacket kode.
-
 ### Telle brukere
 
 Det finnes to tilnærminger:

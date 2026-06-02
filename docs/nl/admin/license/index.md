@@ -145,17 +145,6 @@ Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5
 
 Het aantal toegekende licenties mag het aantal in `moduleLicense` niet overschrijden. Een nieuw licentiepakket van SuperLicense wordt geweigerd als het maximum al is bereikt.
 
-### Licentieondertekening
-
-Licenties worden ondertekend met een publieke/private sleutel.
-
-De private sleutel is strikt beveiligd. Zonder deze sleutel is het onmogelijk om een geldige keycodegenerator te maken.
-
-Elke rij in `moduleLicense` wordt ondertekend, en alle rijen worden geverifieerd met een hash om manipulatie te voorkomen.
-
-**Samenvatting:** Als je ze aanpast, werken ze niet meer. Alleen SoAdmin en NetServer kunnen ze bewerken.
-Hackers kunnen DLL-bestanden aanpassen, maar geen geldige licentiegenerator maken voor onaangetaste code.
-
 ### Gebruikers tellen
 
 Er zijn twee methodes:

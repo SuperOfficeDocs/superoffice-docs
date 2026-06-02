@@ -155,17 +155,6 @@ Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R
 
 Die Summe der zugewiesenen Lizenzen darf den in `moduleLicense` definierten Wert nicht überschreiten. Ein neues Lizenzpaket von SuperLicense wird abgelehnt, wenn bereits zu viele Lizenzen vergeben wurden.
 
-### Lizenzsignierung
-
-Lizenzen werden mit öffentlichen/privaten Schlüsseln signiert.
-
-Der private Schlüssel ist streng geschützt. Ohne ihn kann kein funktionierender Lizenzcode-Generator erstellt werden.
-
-Jede `moduleLicense`-Zeile wird signiert und alle Einträge werden mit einem Hash versehen, um Manipulationen zu erschweren.
-
-**Zusammenfassung:** Wenn du sie änderst, funktionieren sie nicht mehr. Nur SoAdmin und NetServer können sie bearbeiten.
-Hacker können DLLs manipulieren, aber keinen funktionierenden Keycode-Generator für unmodifizierten Code erstellen.
-
 ### Benutzer zählen
 
 Es gibt zwei Ansätze:

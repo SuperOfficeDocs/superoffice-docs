@@ -148,6 +148,17 @@ So from this we can see we have a `superoffice.server` site license, and the cur
 
 The `currentPrincipal` also has useful information like the role function-rights.
 
+## License signing
+
+Licenses are signed using public/private keys.
+
+The private key is a closely guarded secret and without it, you cannot make a keycode generator.
+
+Individual `moduleLicense` rows are also signed and all rows are also hash-checked to make tampering harder.
+
+**Summary:** You touch them, they stop working. SoAdmin and NetServer can edit them, no one else.
+Hackers can hack the DLLs, but not make a keycode generator that works with un-hacked code.
+
 <!-- Referenced links-->
 [1]: user-plans.md
 [2]: <xref:SuperOffice.License.SoLicenseNames>
