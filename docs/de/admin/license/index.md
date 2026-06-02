@@ -147,14 +147,6 @@ Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bes
 
 Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R17][6]) werden für eine bestimmte Anzahl von Benutzern erworben.
 
-## <a id="dev"></a>Hinter den Kulissen – das Lizenzsystem
-
-### Zuweisung von Benutzerlizenzen
-
-[LicenseAssocLink][13] – weist eine bestimmte `moduleLicense`-Zeile einem bestimmten Benutzer zu. So wird „Max“ Benutzer und Windows-Client-Benutzer – das ergibt zwei Einträge.
-
-Die Summe der zugewiesenen Lizenzen darf den in `moduleLicense` definierten Wert nicht überschreiten. Ein neues Lizenzpaket von SuperLicense wird abgelehnt, wenn bereits zu viele Lizenzen vergeben wurden.
-
 ## Verwandte Inhalte
 
 * [SuperOffice-Benutzerpläne und Abonnements][4]
@@ -170,4 +162,3 @@ Die Summe der zugewiesenen Lizenzen darf den in `moduleLicense` definierten Wert
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[13]: ../../../en/database/tables/LicenseAssocLink.md

@@ -137,14 +137,6 @@ Slutligen finns det användarlicenser för SuperOffice CRM, som köps för ett s
 
 Licenser för SuperOffice CRM för Windows (senaste versionen [SuperOffice G8 8.5 R17][6]) köps för ett specifikt antal användare.
 
-## <a id="dev"></a>Bakom kulisserna – licenssystemet
-
-### Tilldelning av användarlicenser
-
-[LicenseAssocLink][13] – kopplar en specifik `moduleLicense` till en viss användare. Det är så "Anna" blir användare och får åtkomst till Windows-klienten – två rader i tabellen.
-
-Summan av tilldelade licenser för en modul får inte överskrida antalet i `moduleLicense`. Ett nytt licenspaket från SuperLicense kommer att nekas om det redan finns för många tilldelningar.
-
 ## Relaterat innehåll
 
 * [SuperOffice användarplaner och abonnemang][4]
@@ -160,4 +152,3 @@ Summan av tilldelade licenser för en modul får inte överskrida antalet i `mod
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[13]: ../../../en/database/tables/LicenseAssocLink.md

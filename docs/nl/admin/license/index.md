@@ -137,14 +137,6 @@ Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangesch
 
 Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5 R17][6]) worden aangeschaft voor een specifiek aantal gebruikers.
 
-## <a id="dev"></a>Achter de schermen – het licentiesysteem
-
-### Gebruikerslicenties toewijzen
-
-[LicenseAssocLink][13] – wijst een specifieke `moduleLicense` toe aan een gebruiker. Zo wordt “Jan” een gebruiker en Windows-clientgebruiker: dit levert twee records op.
-
-Het aantal toegekende licenties mag het aantal in `moduleLicense` niet overschrijden. Een nieuw licentiepakket van SuperLicense wordt geweigerd als het maximum al is bereikt.
-
 ## Gerelateerde inhoud
 
 * [SuperOffice gebruikersplannen en abonnementen][4]
@@ -160,4 +152,3 @@ Het aantal toegekende licenties mag het aantal in `moduleLicense` niet overschri
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[13]: ../../../en/database/tables/LicenseAssocLink.md

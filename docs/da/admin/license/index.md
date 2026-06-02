@@ -137,14 +137,6 @@ Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal
 
 Licenser til SuperOffice CRM til Windows (sidste udgivelse [SuperOffice G8 8.5 R17][6]) købes til et bestemt antal brugere.
 
-## <a id="dev"></a>Bag kulissene - lisenssystemet
-
-### Tilordne brukerlisenser
-
-[LicenseAssocLink][13] – kobler en spesifikk `moduleLicense` til en bestemt bruker. Dette er hvordan "John" blir en bruker og får Windows-klienttilgang: det blir 2 rader.
-
-Summen av lisenser som er tildelt for en modul, må ikke overstige antallet i `moduleLicense`. En ny lisens fra SuperLicense blir avvist hvis det allerede er for mange tildelinger.
-
 ## Relateret indhold
 
 * [SuperOffice brugerplaner og abonnementer][4]
@@ -160,4 +152,3 @@ Summen av lisenser som er tildelt for en modul, må ikke overstige antallet i `m
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[13]: ../../../en/database/tables/LicenseAssocLink.md

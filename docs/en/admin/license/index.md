@@ -138,14 +138,6 @@ Finally, there are user licenses for SuperOffice CRM, which are purchased for a 
 
 Licenses for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][6]) are purchased for a specific number of users.
 
-## <a id="dev"></a>Behind the scenes - the license system
-
-### User-license assignment
-
-[LicenseAssocLink][13] – assigns one particular `moduleLicense` to a certain associate. That is how John becomes a User and a Windows client user; this would be 2 records.
-
-The sum of licenses assigned to any particular module is limited to the number in `moduleLicense`. A new license set from SuperLicense will not be accepted if more than the acquired number is already assigned.
-
 ## Related content
 
 * [SuperOffice user plans and subscriptions][4]
@@ -154,6 +146,7 @@ The sum of licenses assigned to any particular module is limited to the number i
 * [System events][3]
 * [Module licenses][14]
 * [Hidden licenses][15]
+* [License technical overview][17]
 
 <!-- Referenced links -->
 [16]: crm-suite.md
@@ -163,8 +156,8 @@ The sum of licenses assigned to any particular module is limited to the number i
 [4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[13]: ../../../en/database/tables/LicenseAssocLink.md
 [14]: dev/module-licenses.md
+[17]: dev/index.md
 [15]: dev/hidden-licenses.md
 
 <!-- Referenced images -->
