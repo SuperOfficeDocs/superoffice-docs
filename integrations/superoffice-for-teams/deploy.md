@@ -40,7 +40,8 @@ During the pilot, the administrator uploads the SuperOffice for Teams app packag
 
 To upload the app during the pilot:
 
-1. Go to the Teams admin center: [https://admin.teams.microsoft.com/policies/manage-apps -screenshot][2]
+1. Go to the Teams admin center: [https://admin.teams.microsoft.com][2]
+1. Open **Teams apps > Manage apps**.
 1. Click **Actions** in the top right corner.
 1. Select **Upload new app**.
 1. Upload the SuperOffice for Teams app package (.zip file).
@@ -90,7 +91,7 @@ If you want users to stay in control of their own installation, skip this step a
 
 <!-- Referenced links -->
 [1]: https://superofficeforteams.superofficeapps.com
-[2]: https://admin.teams.microsoft.com/policies/manage-apps
+[2]: https://admin.teams.microsoft.com/
 [5]: get.md
 
 <!-- Referenced images -->
