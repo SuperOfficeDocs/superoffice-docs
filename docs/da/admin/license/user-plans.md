@@ -22,8 +22,6 @@ Du kan vælge mellem 3 selvstændige **løsninger** – Sales, Marketing og Serv
 
 Alle løsninger kan have forskellige tilføjelser. En tilføjelse (add-on) er en softwareudvidelse, der giver ekstra funktioner. Den kan udvide bestemte funktioner i programmet eller tilføje ny funktionalitet.
 
-Brugerplaner identificeres ved, at `ExtraFlags` er sat til 1 i modullicensposten, og at `ExtraInfo`-feltet indeholder `"set="`.
-
 ## Fælles funktioner i alle planer og niveauer
 
 * Personoplysninger
@@ -178,20 +176,9 @@ Disse kan kombineres til:
 * [Expander Services][5]
 * [Kalendersynkronisering][6]
 
-## Hvordan påvirker brugerplaner min app?
+## Relateret indhold
 
-En kunde kan vælge én af følgende faktureringsperioder til deres CRM-løsning:
-
-* månedligt
-* kvartalsvis
-* halvårligt
-* årligt
-
-Kontraktperioden er 12 måneder. Efter de første 12 måneder fornyes den automatisk i henhold til den valgte faktureringsperiode.
-
-Kunder kan kombinere planer efter behov. De kan også tilføje eller ændre brugerplaner senere.
-
-Du bør tage højde for denne fleksibilitet, når du integrerer specifikke funktioner og fastlægger din prismodel.
+* [Sådan opbygges brugerplaner][9]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
@@ -201,3 +188,4 @@ Du bør tage højde for denne fleksibilitet, når du integrerer specifikke funkt
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md

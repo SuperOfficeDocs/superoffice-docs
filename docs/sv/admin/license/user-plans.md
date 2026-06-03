@@ -25,8 +25,6 @@ Du kan välja mellan tre fristående **lösningar** – Sales, Marketing och Ser
 
 Alla lösningar kan ha olika tillägg. Ett tillägg är en mjukvaru­utökning som lägger till extra funktionalitet. Det kan utöka vissa funktioner i gränssnittet eller tillföra helt ny kapacitet.
 
-Användarplaner identifieras genom att fältet `ExtraFlags` är satt till 1 i modullicensen och att `ExtraInfo` innehåller `"set="`.
-
 ## Gemensamma funktioner i alla planer och nivåer
 
 * Kontaktuppgifter
@@ -181,20 +179,9 @@ Dessa kan kombineras som:
 * [Expander Services][5]
 * [Kalendersynkronisering][6]
 
-## Hur påverkar användarplaner min app?
+## Relaterat innehåll
 
-En kund kan välja en av följande faktureringsperioder för sin CRM-lösning:
-
-* varje månad
-* var tredje månad
-* var sjätte månad
-* årligen
-
-Avtalstiden är 12 månader. Efter de första 12 månaderna förnyas den automatiskt enligt vald faktureringscykel.
-
-Kunder kan kombinera planer efter behov. De kan också lägga till eller ändra användarplaner senare.
-
-Du bör ta hänsyn till denna flexibilitet vid integration av funktioner och fastställande av din prismodell.
+* [Hur användarplaner är konstruerade][9]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
@@ -204,3 +191,4 @@ Du bör ta hänsyn till denna flexibilitet vid integration av funktioner och fas
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md

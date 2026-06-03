@@ -26,8 +26,6 @@ U kunt kiezen uit drie zelfstandige **oplossingen** – Sales, Marketing en Serv
 
 Alle oplossingen kunnen uitgebreid worden met add-ons. Een add-on is een software-uitbreiding die extra functies toevoegt aan een programma. Dit kan bestaande functionaliteit uitbreiden of geheel nieuwe mogelijkheden bieden.
 
-Gebruikersplannen worden geïdentificeerd door het veld `ExtraFlags = 1` in hun ModuleLicense-record en de `"set="`-waarde in het veld `ExtraInfo`.
-
 ## Gemeenschappelijke functies in alle plannen en niveaus
 
 * Contactbeheer
@@ -182,20 +180,9 @@ Deze kunnen worden gecombineerd tot:
 * [Expander Services][5]
 * [Agenda-synchronisatie][6]
 
-## Wat betekenen gebruikersplannen voor mijn app?
+## Gerelateerde inhoud
 
-Een klant kan één van de volgende factureringsperiodes kiezen voor zijn CRM-oplossing:
-
-* maandelijks
-* per kwartaal
-* halfjaarlijks
-* jaarlijks
-
-De contractduur bedraagt 12 maanden. Na de eerste 12 maanden wordt het contract automatisch verlengd volgens de gekozen factureringsperiode.
-
-Klanten kunnen plannen combineren die het beste bij hun behoeften passen. Ze kunnen ook later gebruikersplannen toevoegen of wijzigen.
-
-Houd bij integraties en prijsmodellen rekening met deze flexibiliteit.
+* [Hoe gebruikersplannen zijn opgebouwd][9]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
@@ -205,3 +192,4 @@ Houd bij integraties en prijsmodellen rekening met deze flexibiliteit.
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md

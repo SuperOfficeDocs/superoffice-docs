@@ -2,7 +2,7 @@
 uid: license-technical-overview
 title: License technical overview
 description: Overview of the SuperOffice licensing system.
-keywords: license server, license, LicenseAgent, Client Access Licenses
+keywords: license server, license, LicenseAgent, Client Access Licenses, site license
 author: xt1
 date: 04.20.2026
 version: 11.12

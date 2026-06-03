@@ -26,8 +26,6 @@ You can choose from 3 stand-alone **solutions** - Sales, Marketing, and Service 
 
 All solutions can have different add-ons. An add-on is a software extension that adds extra features to a program. It may extend certain functions within the program's interface, or give the program additional capabilities.
 
-User plans are identified by the `ExtraFlags` field being 1 on their module license records, and the `"set="` in their `ExtraInfo` field.
-
 ## Common features across all plans and tiers
 
 * Contact management
@@ -182,20 +180,9 @@ These can then be combined to produce:
 * [Expander Services][5]
 * [Calendar synchronization][6]
 
-## How do user plans affect my app?
+## Related content
 
-A customer can choose 1 of the following billing periods for their CRM solution:
-
-* once a month
-* very 3 months
-* every 6 months
-* annually
-
-The contract period is for 12 months. After the first 12 months, they are automatically renewed for another billing period, according to their choice.
-
-Customers can combine plans that best fit their needs. They can also add or change user plans later on.
-
-You should keep this flexibility in mind when integrating with specific features and deciding your pricing model.
+* [How user plans are constructed][9]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
@@ -205,3 +192,4 @@ You should keep this flexibility in mind when integrating with specific features
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: dev/user-plans.md
