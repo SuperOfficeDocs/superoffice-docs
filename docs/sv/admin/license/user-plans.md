@@ -14,6 +14,9 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 tier: starter
+redirect_from:
+  - /sv/admin/license/change-user-plan
+  - /sv/admin/user-management/learn/change-user-plan
 language: sv
 ---
 
@@ -179,16 +182,39 @@ Dessa kan kombineras som:
 * [Expander Services][5]
 * [Kalendersynkronisering][6]
 
+## <a id="change"></a>Ändra användarplaner för aktiva användare
+
+När medarbetare tar på sig nya uppgifter eller får en ny tjänst på företaget kan du behöva ändra deras användarplaner. mDu kan ge användarna åtkomst till nya funktioner genom att ändra deras användarplaner under Inställningar och underhåll.
+
+### Steg
+
+1. Klicka på **Användare** under Inställningar och underhåll.
+
+1. Välj den aktiva användare vars användarplan behöver ändras i fönstret för medarbetare.
+
+    Kontrollera att de har rätt Roll och tillhör rätt Primärgrupp.
+
+1. Välj önskad användarplan i fältet för Användarplan.
+
+1. Klicka på Spara. Nästa gång användaren loggar in i SuperOffice CRM kommer de nya funktionerna att vara tillgängliga.
+
+> [!TIP]
+> Ge användarna den utbildning de behöver och följ upp hur det går så att de snabbare kommer igång med de nya funktionerna.
+
 ## Relaterat innehåll
 
 * [Hur användarplaner är konstruerade][9]
+* [Lägg till ny användare][10]
+* [Rollöversikt][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
 [9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

@@ -1,7 +1,7 @@
 ---
 uid: help-en-user-plans
-title: User plans
-description: SuperOffice user plans and subscriptions
+title: User plans and subscriptions
+description: Learn about SuperOffice user plans and subscriptions, and how to change a user plan for active users in Settings and maintenance.
 keywords: user plan, license, essential, premium
 author: digitaldiina, xt1
 date: 10.22.2025
@@ -15,6 +15,9 @@ topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+redirect_from:
+  - /en/admin/license/change-user-plan
+  - /en/admin/user-management/learn/change-user-plan
 language: en
 ---
 
@@ -180,16 +183,39 @@ These can then be combined to produce:
 * [Expander Services][5]
 * [Calendar synchronization][6]
 
+## <a id="change"></a>Change user plans for active users
+
+When people take on new tasks or get a new job in your company, you may need to change their user plan. You can give users access to new sets of functionalities by changing their user plan in Settings and maintenance.
+
+### Steps
+
+1. In Settings and maintenance, click **Users**.
+
+1. In the window for associates, choose the active user whose user plan needs to be changed.
+
+    Make sure they have the right role and belong to the right primary group.
+
+1. In the **User plan** field, choose the desired user plan.
+
+1. Click **Save**. The next time the user logs in to SuperOffice CRM, they will have access to the new features.
+
+> [!TIP]
+> Provide the user with the necessary training and follow-up on their progress so they adopt the new features faster.
+
 ## Related content
 
 * [How user plans are constructed][9]
+* [Add new user][10]
+* [Roles overview][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
 [9]: dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

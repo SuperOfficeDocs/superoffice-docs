@@ -11,6 +11,9 @@ deployment: online
 platform: web
 index: true
 tier: starter
+redirect_from:
+  - /de/admin/license/change-user-plan
+  - /de/admin/user-management/learn/change-user-plan
 language: de
 ---
 
@@ -176,16 +179,39 @@ Mögliche Kombinationen:
 * [Expander Services][5]
 * [Kalendersynchronisierung][6]
 
+## <a id="change"></a>Benutzerpläne für aktive Benutzer ändern
+
+Wenn Mitarbeiter neue Aufgaben übernehmen oder einen neuen Job in Ihrer Firma bekommen, müssen Sie vielleicht ihren Benutzerplan ändern. Sie können Benutzern den Zugriff auf neue Funktionen gewähren, indem Sie ihren Benutzerplan im Bereich Einstellungen und Verwaltung ändern.
+
+### Schritte
+
+1. Klicken Sie in Einstellungen und Verwaltung auf **Benutzer**.
+
+1. Wählen Sie im Fenster für Mitarbeiter den aktiven Benutzer aus, dessen Benutzerplan geändert werden muss.
+
+    Stellen Sie sicher, dass sie die richtige Rolle haben und zur richtigen Primärgruppe gehören.
+
+1. Wählen Sie im Feld Benutzerplan den gewünschten Benutzerplan aus.
+
+1. Klicken Sie auf "Speichern". Wenn sich der Benutzer das nächste Mal bei SuperOffice CRM einloggt, wird er über die verfügbaren neuen Funktionen und Features auf informiert.
+
+> [!TIP]
+> Geben Sie dem Benutzer die notwendige Schulung und Folgeaufgabe für seiner Fortschritte, damit er die neuen Funktionen schneller übernimmt.
+
 ## Verwandte Inhalte
 
-* [Wie Benutzerpl�ne aufgebaut sind][9]
+* [Wie Benutzerpl�ne aufgebaut sind][9]
+* [Neuen Benutzer hinzuf�gen][10]
+* [Rollen�bersicht][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
 [9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

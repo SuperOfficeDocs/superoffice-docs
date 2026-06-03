@@ -15,6 +15,9 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 tier: starter
+redirect_from:
+  - /nl/admin/license/change-user-plan
+  - /nl/admin/user-management/learn/change-user-plan
 language: nl
 ---
 
@@ -180,16 +183,39 @@ Deze kunnen worden gecombineerd tot:
 * [Expander Services][5]
 * [Agenda-synchronisatie][6]
 
+## <a id="change"></a>Gebruikersplannen voor actieve gebruikers wijzigen
+
+Wanneer mensen nieuwe taken aannemen of een nieuwe baan in uw bedrijf krijgen, moet u mogelijk hun gebruikersplan wijzigen. U kunt gebruikers toegang geven tot nieuwe sets functionaliteiten door hun gebruikersplan te wijzigen in het gedeelte Instellingen en onderhoud.
+
+### Stappen
+
+1. Klik op **Gebruikers** in Instellingen en Onderhoud.
+
+1. Kies in het venster voor medewerkers de actieve gebruiker die zijn/haar gebruikersplan moet wijzigen.
+
+    Zorg ervoor dat zij de juiste rol hebben en tot de juiste Primaire groep behoren.
+
+1. Kies in het veld voor Gebruikersplan het gewenste gebruikersplan.
+
+1. Klik op Opslaan. De volgende keer dat de gebruiker zich aanmeldt bij SuperOffice CRM, wordt de gebruiker bijgewerkt met de nieuwe functies en functies die beschikbaar zijn.
+
+> [!TIP]
+> Geef de gebruiker de nodige training en follow-up van zijn voortgang, zodat hij de nieuwe functies sneller opnemen.
+
 ## Gerelateerde inhoud
 
 * [Hoe gebruikersplannen zijn opgebouwd][9]
+* [Nieuwe gebruiker toevoegen][10]
+* [Overzicht rollen][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
 [9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

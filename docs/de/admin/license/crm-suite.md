@@ -105,4 +105,3 @@ Wenn Sie mehrere Lizenzen hatten, folgt die Migration Ihrer aktuellen Lizenz.
 [1]: index.md
 [2]: user-plans.md
 [3]: activate.md
-

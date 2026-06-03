@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/admin/license/change-user-plan.html
+redirect_url: https://docs.superoffice.com/en/admin/license/user-plans.html#change
 ---

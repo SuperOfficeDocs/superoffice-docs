@@ -137,7 +137,7 @@ There are two common situations when a new user cannot log in:
 <!-- Referenced links -->
 [2]: index.md#visible
 [3]: role/index.md
-[4]: ../license/change-user-plan.md
+[4]: ../license/user-plans.md#change
 [5]: ../license/crm-suite.md
 [6]: update-user.md
 [7]: ../../learn/getting-started/login.md
