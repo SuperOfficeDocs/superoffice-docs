@@ -1,13 +1,14 @@
 ---
-title: Set up the Database Mirroring client
 uid: mirroring_setup_guide
+title: Set up the Database Mirroring client
 description: Step-by-step setup and provisioning of the SuperOffice Database Mirroring client (outbound-only Replication Client).
+keywords: database mirroring, replication, setup, provisioning, windows service, appsettings
 author: Margrethe Romnes
 date: 05.27.2026
-keywords: database mirroring, replication, setup, provisioning, windows service, appsettings
 content_type: howto
 deployment: online
 platform: web
+language: en
 ---
 
 # Set up the Database Mirroring client

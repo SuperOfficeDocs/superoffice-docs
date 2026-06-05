@@ -1,12 +1,14 @@
 ---
-title: Mirroring Task (legacy)
 uid: mirroring_task
+title: Mirroring Task (legacy)
 description: About the database Mirroring Task used by the legacy WCF-based mirroring service.
-author: SuperOffice Product and Engineering
 keywords: Mirroring Task, mirror, legacy
+author: SuperOffice Product and Engineering
+date: 06.05.2026
 content_type: concept
 deployment: online
 platform: web
+language: en
 ---
 
 # The database Mirroring Task (legacy)

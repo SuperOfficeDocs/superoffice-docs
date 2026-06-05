@@ -1,13 +1,14 @@
 ---
-title: Scenarios
 uid: mirroring_scenarios
+title: Scenarios
 description: How the Database Mirroring client handles common situations &mdash; new customers, backups, restores, downtime, schema changes.
+keywords: database mirroring, replication, scenarios, backup, restore, snapshot
 author: SuperOffice Product and Engineering
 date: 05.27.2026
-keywords: database mirroring, replication, scenarios, backup, restore, snapshot
 content_type: reference
 deployment: online
 platform: web
+language: en
 ---
 
 # Database Mirroring scenarios

@@ -1,13 +1,14 @@
 ---
-title: Troubleshooting Database Mirroring
 uid: mirroring_troubleshooting
+title: Troubleshooting Database Mirroring
 description: Diagnostic guidance for the Database Mirroring client &mdash; logs, service state, schema, and recovery.
+keywords: database mirroring, replication, troubleshooting, diagnostics, event log
 author: SuperOffice Product and Engineering
 date: 05.27.2026
-keywords: database mirroring, replication, troubleshooting, diagnostics, event log
 content_type: howto
 deployment: online
 platform: web
+language: en
 ---
 
 # Troubleshooting Database Mirroring

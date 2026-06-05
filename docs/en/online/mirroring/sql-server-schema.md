@@ -1,13 +1,14 @@
 ---
-title: SQL Server schema
 uid: mirroring_sql_server_schema
+title: SQL Server schema
 description: SQL Server schema used by the Database Mirroring replica.
+keywords: database mirroring, schema, crm7, dbo, _ReplicationState, TablePrefix
 author: SuperOffice Product and Engineering
 date: 05.27.2026
-keywords: database mirroring, schema, crm7, dbo, _ReplicationState, TablePrefix
 content_type: concept
 deployment: online
 platform: web
+language: en
 ---
 
 # SQL Server schema for Database Mirroring

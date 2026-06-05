@@ -1,12 +1,14 @@
 ---
-title: Introduction
 uid: mirroring_intro
+title: Introduction
 description: Database Mirroring service for SuperOffice CRM Online &mdash; outbound-only client architecture, near-real-time CDC, simplified security.
-author: SuperOffice Product and Engineering
 keywords: database mirroring, replication, CDC, Kafka, replica
+author: SuperOffice Product and Engineering
+date: 06.05.2026
 content_type: concept
 deployment: online
 platform: web
+language: en
 ---
 
 # Database mirroring

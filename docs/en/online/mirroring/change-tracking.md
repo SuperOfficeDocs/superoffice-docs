@@ -1,13 +1,14 @@
 ---
-title: Change tracking
 uid: mirroring_track_changes
+title: Change tracking
 description: How Database Mirroring detects and streams changes from the source CRM to the replica.
+keywords: database mirroring, change tracking, CDC, Debezium, Kafka, LSN
 author: SuperOffice Product and Engineering
 date: 05.27.2026
-keywords: database mirroring, change tracking, CDC, Debezium, Kafka, LSN
 content_type: concept
 deployment: online
 platform: web
+language: en
 ---
 
 # Change tracking

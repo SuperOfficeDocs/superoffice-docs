@@ -1,12 +1,14 @@
 ---
-title: Create WCF
 uid: create_mirroring_wfc
+title: Create WCF
 description: Get your mirroring service up and running in 10 minutes or less using NuGet
-author: SuperOffice Product and Engineering
 keywords: mirroring, WCF, appSettings
+author: SuperOffice Product and Engineering
+date: 06.05.2026
 content_type: howto
 deployment: online
 platform: web
+language: en
 ---
 
 # Get your mirroring service up and running in 10 minutes or less using NuGet (legacy)

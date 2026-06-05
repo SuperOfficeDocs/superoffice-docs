@@ -1,13 +1,14 @@
 ---
-title: Force re-sync
 uid: force_mirroring_resync
+title: Force re-sync
 description: How to force a re-synchronization of one or more tables in the Database Mirroring replica.
+keywords: database mirroring, replication, resync, snapshot, recovery
 author: SuperOffice Product and Engineering
 date: 05.27.2026
-keywords: database mirroring, replication, resync, snapshot, recovery
 content_type: howto
 deployment: online
 platform: web
+language: en
 ---
 
 # Force re-sync

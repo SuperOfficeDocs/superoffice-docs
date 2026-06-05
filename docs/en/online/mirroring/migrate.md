@@ -1,13 +1,14 @@
 ---
-title: Migrate from the legacy mirroring service
 uid: mirroring_migrate
+title: Migrate from the legacy mirroring service
 description: How to migrate from the legacy WCF-based Database Mirroring service to the new outbound-only client.
+keywords: database mirroring, replication, migration, cutover, legacy
 author: Margrethe Romnes
 date: 05.27.2026
-keywords: database mirroring, replication, migration, cutover, legacy
 content_type: howto
 deployment: online
 platform: web
+language: en
 ---
 
 # Migrate from the legacy mirroring service
