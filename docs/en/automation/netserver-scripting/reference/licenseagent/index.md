@@ -17,6 +17,7 @@ Service methods defined on <see cref='T:ILicenseAgent'>LicenseAgent</see> that c
 * [AssignThirdPartyLicensesAsync](assignthirdpartylicensesasync.md)
 * [ChangeSerialNumberAsync](changeserialnumberasync.md)
 * [GetCentralLicenseAsync](getcentrallicenseasync.md)
+* [GetFencingInfoAsync](getfencinginfoasync.md)
 * [GetLicenseForAllOwnersFromDBAsync](getlicenseforallownersfromdbasync.md)
 * [GetLicenseFromDBAsync](getlicensefromdbasync.md)
 * [GetLicenseFromFileAsync](getlicensefromfileasync.md)

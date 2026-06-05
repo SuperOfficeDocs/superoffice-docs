@@ -439,7 +439,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 | ---- | ----- | ------- | ------ |
 |projectMember/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -825,7 +825,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=projectAssociate/mrMrs,document/saleId,projectMember/personExtra/x_person_hidden_integer,projectMember/personExtra/x_person_boolean,projectMember/correspondingAssociate/contactDepartment
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=appointment/appointmentUdef/SuperOffice:7,appointment/associate/userName,projectMember/personAssociate/credentialType,projectMember/contactNoMail,projectMember/postAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

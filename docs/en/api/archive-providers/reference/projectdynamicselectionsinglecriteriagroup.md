@@ -437,7 +437,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -823,7 +823,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=projectAssociate/usergroup,projectMember/restrictionAddress/formattedAddress,projectMember/streetAddress/line3
+GET /api/v1/archive/ProjectDynamicSelectionSingleCriteriaGroup?$select=appointment/appointment/title,projectMember/personUdef/SuperOffice:3,projectMember/correspondingAssociate/contactFullName,projectMember/contactAssociate/personEmail,projectMember/contactExtra/x_contact_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

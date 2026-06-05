@@ -34,6 +34,8 @@ content_type: reference
 
 * [POST Agents/Dash/GetPossibleDashQuickFilters](v1DashAgent_GetPossibleDashQuickFilters.md)
 
+* [POST Agents/Dash/GetDashboardFencingInfo](v1DashAgent_GetDashboardFencingInfo.md)
+
 * [POST Agents/Dash/CreateDefaultDashCollection](v1DashAgent_CreateDefaultDashCollection.md)
 
 * [POST Agents/Dash/GetDashCollection](v1DashAgent_GetDashCollection.md)

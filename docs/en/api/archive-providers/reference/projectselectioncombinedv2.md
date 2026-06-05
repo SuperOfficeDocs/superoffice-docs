@@ -437,7 +437,7 @@ Implementation of the provider for the combined selection
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -822,7 +822,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectUrl/URLDescription,sale/time,sale/saleStatus,appointment/appointmentUdef/SuperOffice:1,appointment/associate/personEmail
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=appointment/associate/middleName,document/documentUdef/SuperOffice:3,projectMember/updatedByWorkflow,projectMember/personDirectFax/description,projectMember/correspondingAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

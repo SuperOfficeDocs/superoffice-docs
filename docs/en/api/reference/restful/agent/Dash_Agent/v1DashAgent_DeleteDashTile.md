@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | dashTileId | int32 | **Required** The identity of the DashTile |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTile?dashTileId=478
+POST /api/v1/Agents/Dash/DeleteDashTile?dashTileId=335
 ```
 
 

@@ -323,4 +323,5 @@ Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can tri
 * [SortListItemsAsync](sortlistitemsasync.md)
 * [UpdateCategoryMembershipsAsync](updatecategorymembershipsasync.md)
 * [UpdateHierarchyFromPathAsync](updatehierarchyfrompathasync.md)
+* [ValidateTicketRelationDefinitionAsync](validateticketrelationdefinitionasync.md)
 

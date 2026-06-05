@@ -32,6 +32,7 @@ Service methods defined on <see cref='T:IDashAgent'>DashAgent</see> that can tri
 * [DuplicateDashboardAsync](duplicatedashboardasync.md)
 * [DuplicateTileAsync](duplicatetileasync.md)
 * [GetDashAsync](getdashasync.md)
+* [GetDashboardFencingInfoAsync](getdashboardfencinginfoasync.md)
 * [GetDashCollectionAsync](getdashcollectionasync.md)
 * [GetDashListAsync](getdashlistasync.md)
 * [GetDashQuickFiltersAsync](getdashquickfiltersasync.md)

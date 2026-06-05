@@ -766,6 +766,33 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetDashboardFencingInfo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetDashboardFencingInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:FencingInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="FencingInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ActiveCount" type="xs:int" />
+              <xs:element minOccurs="0" name="Maximum" type="xs:int" />
+              <xs:element minOccurs="0" name="IsNearingMaximum" type="xs:boolean" />
+              <xs:element minOccurs="0" name="HasReachedMaximum" type="xs:boolean" />
+              <xs:element minOccurs="0" name="WarningMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="WarningTooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FencingInfo" nillable="true" type="tns:FencingInfo" />
       <xs:element name="GetDashCollection">
         <xs:complexType>
           <xs:sequence />
@@ -1475,6 +1502,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetDashboardFencingInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetDashboardFencingInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetDashboardFencingInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDashboardFencingInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetDashboardFencingInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDashboardFencingInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDashCollectionRequest">
     <wsdl:part name="parameters" element="tns:GetDashCollection" />
   </wsdl:message>
@@ -1856,6 +1900,10 @@ content_type: reference
     <wsdl:operation name="GetPossibleDashQuickFilters">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPossibleDashQuickFilters" name="GetPossibleDashQuickFiltersRequest" message="tns:GetPossibleDashQuickFiltersRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPossibleDashQuickFiltersResponse" name="GetPossibleDashQuickFiltersResponse" message="tns:GetPossibleDashQuickFiltersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDashboardFencingInfo">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashboardFencingInfo" name="GetDashboardFencingInfoRequest" message="tns:GetDashboardFencingInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashboardFencingInfoResponse" name="GetDashboardFencingInfoResponse" message="tns:GetDashboardFencingInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashCollection">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashCollection" name="GetDashCollectionRequest" message="tns:GetDashCollectionRequest" />
@@ -2293,6 +2341,22 @@ content_type: reference
         <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDashboardFencingInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashboardFencingInfo" style="document" />
+      <wsdl:input name="GetDashboardFencingInfoRequest">
+        <soap:header message="tns:GetDashboardFencingInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetDashboardFencingInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetDashboardFencingInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDashboardFencingInfoResponse">
+        <soap:header message="tns:GetDashboardFencingInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetDashboardFencingInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetDashboardFencingInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetDashboardFencingInfoResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

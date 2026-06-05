@@ -32,7 +32,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
 |categoryId|int|Category ID: ID of request category in database| x |
-|ticketTypeName|listAny|Request type: Request type| x |
+|ticketTypeName| *None* |Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -158,7 +158,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -796,7 +796,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=createdBy/contactFullName,ownedBy/assocType,person/personDirectFax/description,person/email/emailProtocol,person/email/emailId
+GET /api/v1/archive/FreetextTicket?$select=ticketStatusName,person/supportLanguage,person/restrictionAddress/addressId,contact/number,contact/email/emailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

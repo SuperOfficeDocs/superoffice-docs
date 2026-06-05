@@ -262,7 +262,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowAssociate/isActiveText
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/LastActivity,shipment/project/LastSale,shipment/emailFlow/workflowDefinitionStatusId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

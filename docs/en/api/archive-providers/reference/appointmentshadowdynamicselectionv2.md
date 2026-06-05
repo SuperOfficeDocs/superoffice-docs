@@ -264,7 +264,7 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -755,7 +755,7 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/hasInfoText,contact/contactAssociate/credentialDisplayValue,person/leadstatusRank,person/personDirectFax/description,person/personExtra/y_rental/id
+GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=appointmentId,contact/contactSource,person/restrictionAddress/formattedMultiLineAddress,associate/usergroupId,appointment/agendaHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

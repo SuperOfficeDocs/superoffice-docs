@@ -125,7 +125,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      </EMail:DuplicatePersonIds>
      <EMail:Name xsi:type="xsd:string"></EMail:Name>
     </EMail:From>
-    <EMail:Sent xsi:type="xsd:dateTime">2026-04-28T11:03:02Z</EMail:Sent>
+    <EMail:Sent xsi:type="xsd:dateTime">2026-05-27T01:24:13Z</EMail:Sent>
     <EMail:Size xsi:type="xsd:int">0</EMail:Size>
     <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
     <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
@@ -138,11 +138,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
      <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
      <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-     <EMail:ArchivedAt xsi:type="xsd:dateTime">2026-04-28T11:03:02Z</EMail:ArchivedAt>
+     <EMail:ArchivedAt xsi:type="xsd:dateTime">2026-05-27T01:24:13Z</EMail:ArchivedAt>
      <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
      <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
     </EMail:EMailSOInfo>
     <EMail:ServerId xsi:type="xsd:int">0</EMail:ServerId>
+    <EMail:ServerIdentifier xsi:type="xsd:string"></EMail:ServerIdentifier>
     <EMail:Attachments xsi:type="EMail:ArrayOfEMailAttachment">
      <EMail:EMailAttachment xsi:type="EMail:EMailAttachment">
       <EMail:Description xsi:type="xsd:string"></EMail:Description>
@@ -167,9 +168,10 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:FolderName xsi:type="xsd:string"></EMail:FolderName>
     <EMail:EmailItemId xsi:type="xsd:int">0</EMail:EmailItemId>
     <EMail:AccountId xsi:type="xsd:int">0</EMail:AccountId>
-    <EMail:ReceivedAt xsi:type="xsd:dateTime">2026-04-28T11:03:02Z</EMail:ReceivedAt>
+    <EMail:ReceivedAt xsi:type="xsd:dateTime">2026-05-27T01:24:13Z</EMail:ReceivedAt>
     <EMail:InReplyTo xsi:type="EMail:EMailEnvelope">
      <EMail:ServerId xsi:type="xsd:int">0</EMail:ServerId>
+     <EMail:ServerIdentifier xsi:type="xsd:string"></EMail:ServerIdentifier>
      <EMail:MessageId xsi:type="xsd:string"></EMail:MessageId>
      <EMail:Subject xsi:type="xsd:string"></EMail:Subject>
      <EMail:From xsi:type="EMail:EMailAddress">
@@ -200,7 +202,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <EMail:Name xsi:type="xsd:string"></EMail:Name>
       </EMail:EMailAddress>
      </EMail:To>
-     <EMail:Sent xsi:type="xsd:dateTime">2026-04-28T11:03:02Z</EMail:Sent>
+     <EMail:Sent xsi:type="xsd:dateTime">2026-05-27T01:24:13Z</EMail:Sent>
      <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
      <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
      <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -210,12 +212,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
       <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
       <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-      <EMail:ArchivedAt xsi:type="xsd:dateTime">2026-04-28T11:03:02Z</EMail:ArchivedAt>
+      <EMail:ArchivedAt xsi:type="xsd:dateTime">2026-05-27T01:24:13Z</EMail:ArchivedAt>
       <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
       <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
      </EMail:EMailSOInfo>
     </EMail:InReplyTo>
-    <EMail:RepliedAt xsi:type="xsd:dateTime">2026-04-28T11:03:02Z</EMail:RepliedAt>
+    <EMail:RepliedAt xsi:type="xsd:dateTime">2026-05-27T01:24:13Z</EMail:RepliedAt>
     <EMail:HasCalendarData xsi:type="xsd:boolean">false</EMail:HasCalendarData>
     <EMail:CalMethod xsi:type="EMail:CalMethod">Unknown</EMail:CalMethod>
     <EMail:CalReplyStatus xsi:type="EMail:CalReplyStatus">Unknown</EMail:CalReplyStatus>

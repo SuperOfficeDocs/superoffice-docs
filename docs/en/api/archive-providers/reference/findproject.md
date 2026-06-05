@@ -437,7 +437,7 @@ Provider for searching in projects
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -823,7 +823,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=eventId,sale/salePublish/publishedBy,document/associate/credentialType,projectMember/restrictionAddress/line1,projectMember/personUdef/SuperOffice:1
+GET /api/v1/archive/FindProject?$select=sale/associate/title,sale/associate/assocTooltip,projectMember/personUdef/SuperOffice:11,projectMember/personAssociate/ejDisplayName,projectMember/personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

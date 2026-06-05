@@ -16,6 +16,14 @@ Archive of CRMScripts. Returns script id + name of script as hierarchy.
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.CRMScriptProvider">CRMScriptProvider</see> class.
 The name of the MDO list is 'crmscript'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Only return scripts that have a non-empty include_id.| onlyWithIncludeId|False|
+|Return include_id instead of unique_identifier in ExtraInfo.| useIncludeId|False|
+
+
 
 
 

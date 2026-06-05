@@ -2408,10 +2408,162 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetTicketRelations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketRelationsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketRelationItem" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfTicketRelationItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketRelationItem" nillable="true" type="tns:TicketRelationItem" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTicketRelationItem" nillable="true" type="tns:ArrayOfTicketRelationItem" />
+      <xs:complexType name="TicketRelationItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TicketRelationId" type="xs:int" />
+          <xs:element minOccurs="0" name="RelationType" type="tns:TicketRelationType" />
+          <xs:element minOccurs="0" name="RelationComment" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HasParent" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ChildCount" type="xs:int" />
+          <xs:element minOccurs="0" name="RelatedCount" type="xs:int" />
+          <xs:element minOccurs="0" name="RelationCreatedAt" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+          <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CustId" type="xs:int" />
+          <xs:element minOccurs="0" name="PersonFullname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+          <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BaseStatus" type="tns:TicketBaseStatus" />
+          <xs:element minOccurs="0" name="TicketStatus" type="xs:int" />
+          <xs:element minOccurs="0" name="TicketStatusDisplayValue" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TicketCreatedAt" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketRelationItem" nillable="true" type="tns:TicketRelationItem" />
+      <xs:element name="GetTicketParentId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketParentIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetTicketParent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="ParentTicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetTicketParentResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateTicketRelations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SourceTicketIds" nillable="true" type="q41:ArrayOfint" xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DestinationTicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="RelationType" type="tns:TicketRelationType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateTicketRelationsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketRelationResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfTicketRelationResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketRelationResult" nillable="true" type="tns:TicketRelationResult" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTicketRelationResult" nillable="true" type="tns:ArrayOfTicketRelationResult" />
+      <xs:complexType name="TicketRelationResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SourceTicketId" type="xs:int" />
+          <xs:element minOccurs="0" name="IsValid" type="xs:boolean" />
+          <xs:element minOccurs="0" name="RelationError" type="tns:TicketRelationError" />
+          <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketRelationResult" nillable="true" type="tns:TicketRelationResult" />
+      <xs:simpleType name="TicketRelationError">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="ParentExists" />
+          <xs:enumeration value="RelationExists" />
+          <xs:enumeration value="SameTicket" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="TicketRelationError" nillable="true" type="tns:TicketRelationError" />
+      <xs:element name="CreateTicketRelations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SourceTicketIds" nillable="true" type="q42:ArrayOfint" xmlns:q42="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DestinationTicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="RelationType" type="tns:TicketRelationType" />
+            <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateTicketRelationsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketRelationResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketRelationActions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="ParentTicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="TicketTypeId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetTicketRelationActionsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:TicketRelationAction" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="TicketRelationAction">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TicketIdToClose" type="xs:int" />
+          <xs:element minOccurs="0" name="IsParentRequired" type="xs:boolean" />
+          <xs:element minOccurs="0" name="CanCloseCurrentTicket" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Children" nillable="true" type="q43:ArrayOfint" xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketRelationAction" nillable="true" type="tns:TicketRelationAction" />
       <xs:element name="GetTicketSummaries">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q41:ArrayOfint" xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketIds" nillable="true" type="q44:ArrayOfint" xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3742,6 +3894,108 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetTicketRelationsRequest">
+    <wsdl:part name="parameters" element="tns:GetTicketRelations" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationsResponse">
+    <wsdl:part name="parameters" element="tns:GetTicketRelationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketParentIdRequest">
+    <wsdl:part name="parameters" element="tns:GetTicketParentId" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketParentIdRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketParentIdResponse">
+    <wsdl:part name="parameters" element="tns:GetTicketParentIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketParentIdResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketParentRequest">
+    <wsdl:part name="parameters" element="tns:SetTicketParent" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketParentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketParentResponse">
+    <wsdl:part name="parameters" element="tns:SetTicketParentResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetTicketParentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationsRequest">
+    <wsdl:part name="parameters" element="tns:ValidateTicketRelations" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationsResponse">
+    <wsdl:part name="parameters" element="tns:ValidateTicketRelationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketRelationsRequest">
+    <wsdl:part name="parameters" element="tns:CreateTicketRelations" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketRelationsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketRelationsResponse">
+    <wsdl:part name="parameters" element="tns:CreateTicketRelationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateTicketRelationsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationActionsRequest">
+    <wsdl:part name="parameters" element="tns:GetTicketRelationActions" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationActionsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationActionsResponse">
+    <wsdl:part name="parameters" element="tns:GetTicketRelationActionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTicketRelationActionsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketSummariesRequest">
     <wsdl:part name="parameters" element="tns:GetTicketSummaries" />
   </wsdl:message>
@@ -4051,6 +4305,30 @@ content_type: reference
     <wsdl:operation name="GetTicketRelationEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelationEntity" name="GetTicketRelationEntityRequest" message="tns:GetTicketRelationEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelationEntityResponse" name="GetTicketRelationEntityResponse" message="tns:GetTicketRelationEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketRelations">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelations" name="GetTicketRelationsRequest" message="tns:GetTicketRelationsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelationsResponse" name="GetTicketRelationsResponse" message="tns:GetTicketRelationsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketParentId">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketParentId" name="GetTicketParentIdRequest" message="tns:GetTicketParentIdRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketParentIdResponse" name="GetTicketParentIdResponse" message="tns:GetTicketParentIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetTicketParent">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketParent" name="SetTicketParentRequest" message="tns:SetTicketParentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketParentResponse" name="SetTicketParentResponse" message="tns:SetTicketParentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateTicketRelations">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ValidateTicketRelations" name="ValidateTicketRelationsRequest" message="tns:ValidateTicketRelationsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ValidateTicketRelationsResponse" name="ValidateTicketRelationsResponse" message="tns:ValidateTicketRelationsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicketRelations">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateTicketRelations" name="CreateTicketRelationsRequest" message="tns:CreateTicketRelationsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateTicketRelationsResponse" name="CreateTicketRelationsResponse" message="tns:CreateTicketRelationsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketRelationActions">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelationActions" name="GetTicketRelationActionsRequest" message="tns:GetTicketRelationActionsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelationActionsResponse" name="GetTicketRelationActionsResponse" message="tns:GetTicketRelationActionsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketSummaries">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketSummaries" name="GetTicketSummariesRequest" message="tns:GetTicketSummariesRequest" />
@@ -5224,6 +5502,102 @@ content_type: reference
         <soap:header message="tns:GetTicketRelationEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetTicketRelationEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetTicketRelationEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketRelations">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelations" style="document" />
+      <wsdl:input name="GetTicketRelationsRequest">
+        <soap:header message="tns:GetTicketRelationsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTicketRelationsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTicketRelationsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTicketRelationsResponse">
+        <soap:header message="tns:GetTicketRelationsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTicketRelationsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTicketRelationsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTicketRelationsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketParentId">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketParentId" style="document" />
+      <wsdl:input name="GetTicketParentIdRequest">
+        <soap:header message="tns:GetTicketParentIdRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTicketParentIdRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTicketParentIdRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTicketParentIdResponse">
+        <soap:header message="tns:GetTicketParentIdResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTicketParentIdResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTicketParentIdResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTicketParentIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTicketParent">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/SetTicketParent" style="document" />
+      <wsdl:input name="SetTicketParentRequest">
+        <soap:header message="tns:SetTicketParentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetTicketParentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetTicketParentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetTicketParentResponse">
+        <soap:header message="tns:SetTicketParentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetTicketParentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetTicketParentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetTicketParentResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateTicketRelations">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/ValidateTicketRelations" style="document" />
+      <wsdl:input name="ValidateTicketRelationsRequest">
+        <soap:header message="tns:ValidateTicketRelationsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ValidateTicketRelationsResponse">
+        <soap:header message="tns:ValidateTicketRelationsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTicketRelations">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateTicketRelations" style="document" />
+      <wsdl:input name="CreateTicketRelationsRequest">
+        <soap:header message="tns:CreateTicketRelationsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateTicketRelationsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateTicketRelationsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateTicketRelationsResponse">
+        <soap:header message="tns:CreateTicketRelationsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateTicketRelationsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateTicketRelationsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateTicketRelationsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketRelationActions">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketRelationActions" style="document" />
+      <wsdl:input name="GetTicketRelationActionsRequest">
+        <soap:header message="tns:GetTicketRelationActionsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetTicketRelationActionsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetTicketRelationActionsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTicketRelationActionsResponse">
+        <soap:header message="tns:GetTicketRelationActionsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetTicketRelationActionsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetTicketRelationActionsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetTicketRelationActionsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

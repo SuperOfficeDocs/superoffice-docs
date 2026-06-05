@@ -85,7 +85,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/firstName|string|First name: Displays the contact's first name| x |
 |documentInstance/person/lastName|string|Last name: Displays the contact's last name| x |
 |documentInstance/person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|documentInstance/person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|documentInstance/person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |documentInstance/person/contactId|int|Company ID: Database ID of company| x |
 |documentInstance/person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |documentInstance/person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -750,7 +750,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/personId,documentInstance/person/birthMonth,documentInstance/person/personAssociate/role,documentInstance/person/correspondingAssociate/usergroupId,documentInstance/person/correspondingAssociate/portraitThumbnail
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/time,documentInstance/person/personAssociate/locationAddress,documentInstance/contact/streetAddress/wgs84latitude,documentInstance/contact/SaintStatus2,documentInstance/project/projectPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -275,7 +275,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/firstName|string|First name: Displays the contact's first name|  |
 |person/lastName|string|Last name: Displays the contact's last name|  |
 |person/middleName|string|Middle name: Displays the contact's middle name.|  |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked|  |
+|person/fullName|string|Contact: Displays the contact to which an item is linked|  |
 |person/contactId|int|Company ID: Database ID of company|  |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests|  |
@@ -820,7 +820,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/firstName|string|Stakeholder - First name: Displays the contact's first name|  |
 |saleStakeholder/person/lastName|string|Stakeholder - Last name: Displays the contact's last name|  |
 |saleStakeholder/person/middleName|string|Stakeholder - Middle name: Displays the contact's middle name.|  |
-|saleStakeholder/person/fullName|stringorPK|Stakeholder - Contact: Displays the contact to which an item is linked|  |
+|saleStakeholder/person/fullName|string|Stakeholder - Contact: Displays the contact to which an item is linked|  |
 |saleStakeholder/person/contactId|int|Stakeholder - Company ID: Database ID of company|  |
 |saleStakeholder/person/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |saleStakeholder/person/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests|  |
@@ -1445,7 +1445,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |firstName|string|First name: Displays the contact's first name|  |
 |lastName|string|Last name: Displays the contact's last name|  |
 |middleName|string|Middle name: Displays the contact's middle name.|  |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked|  |
+|fullName|string|Contact: Displays the contact to which an item is linked|  |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests|  |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
@@ -1533,7 +1533,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/hasInterests,contact/postAddress/wgs84latitude,contact/contactAssociate/firstName,contact/contactUdef/SuperOffice:4,contact/contactUdef/SuperOffice:10
+GET /api/v1/archive/Links?$select=contact/postAddress/city,contact/contactAssociate/lastName,contact/contactUdef/SuperOffice:7,person/personAddress/wgs84longitude,project/projectAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

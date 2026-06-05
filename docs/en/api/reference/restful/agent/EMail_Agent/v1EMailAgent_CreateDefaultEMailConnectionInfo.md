@@ -56,6 +56,7 @@ OK
 | Password | string | Password for the username |
 | Folder | string | Optional folder to set as current after logging in |
 | UseSSL | bool | Use a secure connection with the server |
+| UseGraphApi | bool | Use Graph API |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

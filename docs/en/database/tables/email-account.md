@@ -33,6 +33,7 @@ Email account information
 |error\_reason|Reason for last failure if available|String(254)| |
 |simple\_mode|Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience, if for instance you prefer Outlook or other for that.|Bool|&#x25CF;|
 |last\_fetch|When we last fetched email.|UtcDateTime|&#x25CF;|
+|use\_graph\_api|Use the GraphApi for this account|Bool| |
 
 
 ![email_account table relationship diagram](./media/email_account.png)

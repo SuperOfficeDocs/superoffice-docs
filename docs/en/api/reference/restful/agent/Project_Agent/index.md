@@ -62,6 +62,8 @@ content_type: reference
 
 * [POST Agents/Project/SaveProjectEntityWithoutMembers](v1ProjectAgent_SaveProjectEntityWithoutMembers.md)
 
+* [POST Agents/Project/GetProjectFencingInfo](v1ProjectAgent_GetProjectFencingInfo.md)
+
 * [POST Agents/Project/GetProjectEvent](v1ProjectAgent_GetProjectEvent.md)
 
 * [POST Agents/Project/GetProjectEventOnPerson](v1ProjectAgent_GetProjectEventOnPerson.md)

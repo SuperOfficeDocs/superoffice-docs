@@ -200,7 +200,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personHasInterests,emailLastSent,fullNameWithContact
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=icon,hasInfoText,fullNameWithContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

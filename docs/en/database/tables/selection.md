@@ -71,6 +71,7 @@ Selections
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[board\_view\_settings](board-view-settings.md)  |Settings for selection board view |
 |[dashboard\_tile\_definition](dashboard-tile-definition.md)  |Describes the contents of a tile |
+|[landing\_page](landing-page.md)  |Per-associate landing page configuration for a given entity type |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[SearchCat](searchcat.md)  |SearchCat list table |

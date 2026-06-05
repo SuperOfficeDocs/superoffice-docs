@@ -57,6 +57,7 @@ The EMailAccount that is saved
 | SentFolder | String | Sent email folder name if available in the db |
 | SimpleMode | Integer | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
 | LastFetch | String | When we last fetched email  in UTC. |
+| UseGraphApi | Integer | Use the GraphApi for this account |
 
 ## Response:
 
@@ -82,6 +83,7 @@ OK
 | SentFolder | string | Sent email folder name if available in the db |
 | SimpleMode | int32 | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
 | LastFetch | date-time | When we last fetched email  in UTC. |
+| UseGraphApi | int32 | Use the GraphApi for this account |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

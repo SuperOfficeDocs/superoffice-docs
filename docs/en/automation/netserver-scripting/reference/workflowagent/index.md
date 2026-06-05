@@ -31,6 +31,7 @@ Service methods defined on <see cref='T:IWorkflowAgent'>WorkflowAgent</see> that
 * [DeleteWorkflowTriggerAsync](deleteworkflowtriggerasync.md)
 * [DeleteWorkflowWaitForActionAsync](deleteworkflowwaitforactionasync.md)
 * [GetEmailFlowAsync](getemailflowasync.md)
+* [GetWorkflowFencingInfoAsync](getworkflowfencinginfoasync.md)
 * [GetWorkflowGoalAsync](getworkflowgoalasync.md)
 * [GetWorkflowStepAsync](getworkflowstepasync.md)
 * [GetWorkflowStepOptionAsync](getworkflowstepoptionasync.md)

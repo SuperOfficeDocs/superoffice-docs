@@ -58,6 +58,15 @@ content_type: reference
           <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
           <xs:element minOccurs="0" name="UpdatedAssociate" nillable="true" type="tns:Associate" />
           <xs:element minOccurs="0" name="ErrorsEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ErrorEmails" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="ErrorAssociates" nillable="true" type="tns:ArrayOfMDOListItem" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NotifyVia" type="tns:WebhookNotifyVia" />
+          <xs:element minOccurs="0" name="NotifyWhen" type="tns:WebhookNotifyWhen" />
+          <xs:element minOccurs="0" name="TotalCalls" type="xs:int" />
+          <xs:element minOccurs="0" name="TotalErrors" type="xs:int" />
+          <xs:element minOccurs="0" name="ConsecutiveErrors" type="xs:int" />
+          <xs:element minOccurs="0" name="LastError" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="Webhook" nillable="true" type="tns:Webhook" />
@@ -248,6 +257,65 @@ content_type: reference
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="tns:UserType" />
+      <xs:complexType name="ArrayOfMDOListItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="tns:MDOListItem" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfMDOListItem" nillable="true" type="tns:ArrayOfMDOListItem" />
+      <xs:complexType name="MDOListItem">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ToolTip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="tns:ArrayOfMDOListItem" />
+              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
+              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="StyleHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="MDOListItem" nillable="true" type="tns:MDOListItem" />
+      <xs:simpleType name="WebhookNotifyVia">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Email" />
+              <xs:enumeration value="InApp" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="WebhookNotifyVia" nillable="true" type="tns:WebhookNotifyVia" />
+      <xs:simpleType name="WebhookNotifyWhen">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="FirstFailure" />
+              <xs:enumeration value="Disabling" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="WebhookNotifyWhen" nillable="true" type="tns:WebhookNotifyWhen" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />

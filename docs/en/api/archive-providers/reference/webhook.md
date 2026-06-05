@@ -31,9 +31,9 @@ Lists all webhooks in the Webhook table.
 |targetUrl|string|Target URL: URL to call when event occurs| x |
 |type|string|Type: Webhook type (webhook, crmscript, etc.)| x |
 |eventCount|int|Event Count: Number of events this webhook subscribes to|  |
-|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
+|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |webhookUsage/totalCalls|int|Total Calls: Number of times webhook has been invoked| x |
 |webhookUsage/totalErrors|int|Total Errors: Number of times webhook has returned an error| x |
 |webhookUsage/consecutiveErrors|int|Consecutive Errors: Number of consecutive errors| x |
@@ -44,7 +44,7 @@ Lists all webhooks in the Webhook table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Webhook?$select=targetUrl,updatedByFullName
+GET /api/v1/archive/Webhook?$select=targetUrl,registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

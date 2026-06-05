@@ -20,6 +20,7 @@ Download [WSDL file for Services88/License](../Services88-License.md) if you nee
 * [AssignThirdPartyLicenses](AssignThirdPartyLicenses.md)
 * [ChangeSerialNumber](ChangeSerialNumber.md)
 * [GetCentralLicense](GetCentralLicense.md)
+* [GetFencingInfo](GetFencingInfo.md)
 * [GetLicenseForAllOwnersFromDB](GetLicenseForAllOwnersFromDB.md)
 * [GetLicenseFromDB](GetLicenseFromDB.md)
 * [GetLicenseFromFile](GetLicenseFromFile.md)

@@ -438,7 +438,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -824,7 +824,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=sale/recordType,sale/associate/credentialType,appointment/appointment/agenda,document/snum,document/documentUdef/SuperOffice:2
+GET /api/v1/archive/SaintProject?$select=projectUdef/SuperOffice:10,LastSale,sale/credited,appointment/associate/middleName,document/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -134,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonProjects?$select=projectAssociate/assocType,projectUdef/SuperOffice:4,projectEvent/hasSignOn
+GET /api/v1/archive/PersonProjects?$select=projectAssociate/assocName,projectEvent/hasSignOn,projectAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

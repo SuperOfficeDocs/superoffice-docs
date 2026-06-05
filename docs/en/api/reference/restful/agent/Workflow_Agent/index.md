@@ -36,6 +36,8 @@ content_type: reference
 
 * [POST Agents/Workflow/CopyEmailFlow](v1WorkflowAgent_CopyEmailFlow.md)
 
+* [POST Agents/Workflow/GetWorkflowFencingInfo](v1WorkflowAgent_GetWorkflowFencingInfo.md)
+
 * [POST Agents/Workflow/CreateDefaultWorkflowEvent](v1WorkflowAgent_CreateDefaultWorkflowEvent.md)
 
 * [POST Agents/Workflow/Run](v1WorkflowAgent_Run.md)

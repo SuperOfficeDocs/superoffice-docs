@@ -245,7 +245,7 @@ Archive of TargetValue - used by .
 |contact/contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contact/contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
 |contact/contactSupportPerson/middleName|string|User support contact - Middle name: Displays the contact's middle name.| x |
-|contact/contactSupportPerson/fullName|stringorPK|User support contact - Contact: Displays the contact to which an item is linked| x |
+|contact/contactSupportPerson/fullName|string|User support contact - Contact: Displays the contact to which an item is linked| x |
 |contact/contactSupportPerson/contactId|int|User support contact - Company ID: Database ID of company| x |
 |contact/contactSupportPerson/hasInfoText|bool|User support contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/contactSupportPerson/hasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -414,7 +414,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=associate/portraitThumbnail,contact/contactExtra/x_contact_dropdown,contact/NumberOfNotCompletedTicketsInPeriod,contact/saintDirection
+GET /api/v1/archive/TargetValueSub?$select=contact/contactSupportPerson/legalBaseEmarketing,contact/streetAddress/zip,contact/contactSupportAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

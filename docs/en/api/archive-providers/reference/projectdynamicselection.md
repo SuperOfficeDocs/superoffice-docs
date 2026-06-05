@@ -439,7 +439,7 @@ Project selection archive using the selectionId as criterionmapping.
 | ---- | ----- | ------- | ------ |
 |projectMember/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -825,7 +825,7 @@ Project selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelection?$select=projectAssociate/firstName,projectAssociate/credentialType,sale/saleType,appointment/associate/firstName,projectMember/personAddress/wgs84latitude
+GET /api/v1/archive/ProjectDynamicSelection?$select=document/saleId,projectMember/personRegisteredDate,projectMember/isStakeholder,projectMember/personAddress/wgs84latitude,projectMember/contactAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

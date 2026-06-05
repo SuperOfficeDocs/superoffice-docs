@@ -1,13 +1,3 @@
----
-uid: soap-services88
-title: SOAP Web Services - Services88
-description: SOAP request and response examples and WSDL files for Services88 agents.
-author: Bergfrid Dias
-date: 05.13.2026
-topic: reference
-keywords: web services, SOAP, API, WCF, WSDL, Services88
----
-
 # SOAP web services for Services88
 
 Agent listing contains request and response examples, and WSDL files for **Services88**
@@ -127,3 +117,4 @@ Agent listing contains request and response examples, and WSDL files for **Servi
 * [Webhook](Webhook/index.md)
 
 * [Workflow](Workflow/index.md)
+

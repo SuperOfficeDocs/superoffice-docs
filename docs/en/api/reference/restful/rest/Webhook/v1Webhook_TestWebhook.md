@@ -55,7 +55,16 @@ Webhook definition to ping. Must contain a valid TargetUrl.
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
-| ErrorsEmail | String | Email address to send error message to when this webhook state changes to too-many errors. |
+| ErrorsEmail | String | Obsolete, use ErrorEmails instead |
+| ErrorEmails | Array | Email addresses to notify when this webhook is disabled. |
+| ErrorAssociates | Array | Associates to notify when this webhook is disabled. |
+| Description | String | Human-readable description of what this webhook does. |
+| NotifyVia | String | How to notify recipients when this webhook changes state. 1=Email, 2=InApp. |
+| NotifyWhen | String | When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling. |
+| TotalCalls | Integer | Number of times webhook has been invoked since registered. For statistical purposes. |
+| TotalErrors | Integer | Number of times webhook has returned error since registered. For statistical purposes. |
+| ConsecutiveErrors | Integer | Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, webhook.state is changed to TooManyErrors(3) to deactivate webhook. |
+| LastError | String | Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks. |
 
 ## Response:
 

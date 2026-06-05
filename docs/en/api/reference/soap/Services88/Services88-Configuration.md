@@ -410,6 +410,86 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="CreateDefaultLandingPageEntity">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultLandingPageEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:LandingPageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="LandingPageEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="LandingPageId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="EntityTableName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SelectionId" type="xs:int" />
+              <xs:element minOccurs="0" name="PinnedSelections" nillable="true" type="tns:ArrayOfMDOListItem" />
+              <xs:element minOccurs="0" name="PinnedEntities" nillable="true" type="tns:ArrayOfMDOListItem" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="LandingPageEntity" nillable="true" type="tns:LandingPageEntity" />
+      <xs:complexType name="ArrayOfMDOListItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="tns:MDOListItem" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfMDOListItem" nillable="true" type="tns:ArrayOfMDOListItem" />
+      <xs:complexType name="MDOListItem">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ToolTip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="Rank" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="tns:ArrayOfMDOListItem" />
+              <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
+              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="StyleHint" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="MDOListItem" nillable="true" type="tns:MDOListItem" />
+      <xs:element name="SaveLandingPageEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="LandingPageEntity" nillable="true" type="tns:LandingPageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveLandingPageEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:LandingPageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteLandingPageEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="LandingPageEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteLandingPageEntityResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="CreateDefaultSystemEventEntity">
         <xs:complexType>
           <xs:sequence />
@@ -996,6 +1076,51 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetLandingPageEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="LandingPageEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetLandingPageEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:LandingPageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetLandingPage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetLandingPageResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:LandingPageEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetLandingPagePinForAssociate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Pin" type="xs:boolean" />
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            <xs:element minOccurs="0" name="EntityTableName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PinTableName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="RecordId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetLandingPagePinForAssociateResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetSystemEventEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1319,6 +1444,57 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:DeleteDiaryViewEntityResponse" />
   </wsdl:message>
   <wsdl:message name="DeleteDiaryViewEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultLandingPageEntityRequest">
+    <wsdl:part name="parameters" element="tns:CreateDefaultLandingPageEntity" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultLandingPageEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultLandingPageEntityResponse">
+    <wsdl:part name="parameters" element="tns:CreateDefaultLandingPageEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateDefaultLandingPageEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveLandingPageEntityRequest">
+    <wsdl:part name="parameters" element="tns:SaveLandingPageEntity" />
+  </wsdl:message>
+  <wsdl:message name="SaveLandingPageEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveLandingPageEntityResponse">
+    <wsdl:part name="parameters" element="tns:SaveLandingPageEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveLandingPageEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLandingPageEntityRequest">
+    <wsdl:part name="parameters" element="tns:DeleteLandingPageEntity" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLandingPageEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLandingPageEntityResponse">
+    <wsdl:part name="parameters" element="tns:DeleteLandingPageEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLandingPageEntityResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1970,6 +2146,57 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetLandingPageEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetLandingPageEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetLandingPageEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageRequest">
+    <wsdl:part name="parameters" element="tns:GetLandingPage" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageResponse">
+    <wsdl:part name="parameters" element="tns:GetLandingPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLandingPageResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetLandingPagePinForAssociateRequest">
+    <wsdl:part name="parameters" element="tns:SetLandingPagePinForAssociate" />
+  </wsdl:message>
+  <wsdl:message name="SetLandingPagePinForAssociateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetLandingPagePinForAssociateResponse">
+    <wsdl:part name="parameters" element="tns:SetLandingPagePinForAssociateResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetLandingPagePinForAssociateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetSystemEventEntityRequest">
     <wsdl:part name="parameters" element="tns:GetSystemEventEntity" />
   </wsdl:message>
@@ -2165,6 +2392,18 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteDiaryViewEntity" name="DeleteDiaryViewEntityRequest" message="tns:DeleteDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteDiaryViewEntityResponse" name="DeleteDiaryViewEntityResponse" message="tns:DeleteDiaryViewEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="CreateDefaultLandingPageEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultLandingPageEntity" name="CreateDefaultLandingPageEntityRequest" message="tns:CreateDefaultLandingPageEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultLandingPageEntityResponse" name="CreateDefaultLandingPageEntityResponse" message="tns:CreateDefaultLandingPageEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveLandingPageEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveLandingPageEntity" name="SaveLandingPageEntityRequest" message="tns:SaveLandingPageEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveLandingPageEntityResponse" name="SaveLandingPageEntityResponse" message="tns:SaveLandingPageEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLandingPageEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteLandingPageEntity" name="DeleteLandingPageEntityRequest" message="tns:DeleteLandingPageEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteLandingPageEntityResponse" name="DeleteLandingPageEntityResponse" message="tns:DeleteLandingPageEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultSystemEventEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultSystemEventEntity" name="CreateDefaultSystemEventEntityRequest" message="tns:CreateDefaultSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultSystemEventEntityResponse" name="CreateDefaultSystemEventEntityResponse" message="tns:CreateDefaultSystemEventEntityResponse" />
@@ -2317,6 +2556,18 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntity" name="GetDiaryViewEntityRequest" message="tns:GetDiaryViewEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntityResponse" name="GetDiaryViewEntityResponse" message="tns:GetDiaryViewEntityResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetLandingPageEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetLandingPageEntity" name="GetLandingPageEntityRequest" message="tns:GetLandingPageEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetLandingPageEntityResponse" name="GetLandingPageEntityResponse" message="tns:GetLandingPageEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLandingPage">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetLandingPage" name="GetLandingPageRequest" message="tns:GetLandingPageRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetLandingPageResponse" name="GetLandingPageResponse" message="tns:GetLandingPageResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetLandingPagePinForAssociate">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SetLandingPagePinForAssociate" name="SetLandingPagePinForAssociateRequest" message="tns:SetLandingPagePinForAssociateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SetLandingPagePinForAssociateResponse" name="SetLandingPagePinForAssociateResponse" message="tns:SetLandingPagePinForAssociateResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetSystemEventEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntity" name="GetSystemEventEntityRequest" message="tns:GetSystemEventEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSystemEventEntityResponse" name="GetSystemEventEntityResponse" message="tns:GetSystemEventEntityResponse" />
@@ -2453,6 +2704,54 @@ content_type: reference
         <soap:header message="tns:DeleteDiaryViewEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:DeleteDiaryViewEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:DeleteDiaryViewEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDefaultLandingPageEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/CreateDefaultLandingPageEntity" style="document" />
+      <wsdl:input name="CreateDefaultLandingPageEntityRequest">
+        <soap:header message="tns:CreateDefaultLandingPageEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateDefaultLandingPageEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateDefaultLandingPageEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateDefaultLandingPageEntityResponse">
+        <soap:header message="tns:CreateDefaultLandingPageEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultLandingPageEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateDefaultLandingPageEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateDefaultLandingPageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveLandingPageEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SaveLandingPageEntity" style="document" />
+      <wsdl:input name="SaveLandingPageEntityRequest">
+        <soap:header message="tns:SaveLandingPageEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveLandingPageEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveLandingPageEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveLandingPageEntityResponse">
+        <soap:header message="tns:SaveLandingPageEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveLandingPageEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveLandingPageEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveLandingPageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLandingPageEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/DeleteLandingPageEntity" style="document" />
+      <wsdl:input name="DeleteLandingPageEntityRequest">
+        <soap:header message="tns:DeleteLandingPageEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteLandingPageEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteLandingPageEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteLandingPageEntityResponse">
+        <soap:header message="tns:DeleteLandingPageEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteLandingPageEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteLandingPageEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteLandingPageEntityResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -3061,6 +3360,54 @@ content_type: reference
         <soap:header message="tns:GetDiaryViewEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetDiaryViewEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetDiaryViewEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLandingPageEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetLandingPageEntity" style="document" />
+      <wsdl:input name="GetLandingPageEntityRequest">
+        <soap:header message="tns:GetLandingPageEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetLandingPageEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetLandingPageEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetLandingPageEntityResponse">
+        <soap:header message="tns:GetLandingPageEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetLandingPageEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetLandingPageEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetLandingPageEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLandingPage">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetLandingPage" style="document" />
+      <wsdl:input name="GetLandingPageRequest">
+        <soap:header message="tns:GetLandingPageRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetLandingPageRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetLandingPageRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetLandingPageResponse">
+        <soap:header message="tns:GetLandingPageResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetLandingPageResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetLandingPageResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetLandingPageResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetLandingPagePinForAssociate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/SetLandingPagePinForAssociate" style="document" />
+      <wsdl:input name="SetLandingPagePinForAssociateRequest">
+        <soap:header message="tns:SetLandingPagePinForAssociateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetLandingPagePinForAssociateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetLandingPagePinForAssociateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetLandingPagePinForAssociateResponse">
+        <soap:header message="tns:SetLandingPagePinForAssociateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetLandingPagePinForAssociateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetLandingPagePinForAssociateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetLandingPagePinForAssociateResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

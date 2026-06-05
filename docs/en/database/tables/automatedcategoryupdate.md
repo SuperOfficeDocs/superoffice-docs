@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# AutomatedCategoryUpdate Table (542)
+# AutomatedCategoryUpdate Table (546)
 
 Info on how to autoupdate category when changing sale or leadstatus on person
 

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# workflow\_wait\_for\_action Table (528)
+# workflow\_wait\_for\_action Table (532)
 
 Some steps wait for actions, this is info about those actions
 

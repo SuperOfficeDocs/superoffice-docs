@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_flow Table (519)
+# email\_flow Table (523)
 
 A set of properties related to the email workflow.
 

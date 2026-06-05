@@ -284,7 +284,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/person/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|appointmentInstance/person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|appointmentInstance/person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |appointmentInstance/person/contactId|int|Company ID: Database ID of company| x |
 |appointmentInstance/person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |appointmentInstance/person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -775,7 +775,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contactId,appointmentInstance/contact/postAddress/city,appointmentInstance/contact/restrictionAddress/city,appointmentInstance/person/email/emailHasBounced,appointmentInstance/person/personAddress/state
+GET /api/v1/archive/ProjectGuideAppointment?$select=instanceItemText,appointmentInstance/priority,appointmentInstance/contact/searchPhone/formattedNumber,appointmentInstance/project/projectUdef/SuperOffice:4,appointmentInstance/sale/projectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

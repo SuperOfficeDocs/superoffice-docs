@@ -226,6 +226,7 @@ envir: onsite, online
 | [kbaccesslevel](kbaccesslevel.md) |MDO provider for the KbAccessLevel enum|
 | [kbentry](kbentry.md) ||
 | [kbworkflow](kbworkflow.md) |MDO list provider for KB Workflow.|
+| [landingpage](landingpage.md) ||
 | [language](language.md) ||
 | [leadstatus](leadstatus.md) |List provider for LeadStatus|
 | [legalbase](legalbase.md) |MDO list provider for Legal base|
@@ -464,6 +465,8 @@ envir: onsite, online
 | [visiblein](visiblein.md) |Visible in list for web panels.|
 | [visibleinmenu](visibleinmenu.md) |Visible in menu list: Toolbox menu, View menu|
 | [visibleintask](visibleintask.md) |Visible in list for tasks: places where task button can appear.|
+| [webhookentitylist](webhookentitylist.md) ||
+| [webhookeventlist](webhookeventlist.md) ||
 | [webpanel](webpanel.md) |List of WebPanels visible possible for use with groups and headings.|
 | [webpanelgroup](webpanelgroup.md) |List of WebPanels with visible for groups as commaseperated ids in extrainfo field|
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|

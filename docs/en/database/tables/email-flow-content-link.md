@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_flow\_content\_link Table (526)
+# email\_flow\_content\_link Table (530)
 
 Links content to an email workflow
 

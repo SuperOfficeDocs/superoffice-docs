@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:Password xsi:type="xsd:string"></EMail:Password>
      <EMail:Folder xsi:type="xsd:string"></EMail:Folder>
      <EMail:UseSSL xsi:type="xsd:boolean">false</EMail:UseSSL>
+     <EMail:UseGraphApi xsi:type="xsd:boolean">false</EMail:UseGraphApi>
     </EMail:ConnectionInfo>
     <EMail:MessageServerIds xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>

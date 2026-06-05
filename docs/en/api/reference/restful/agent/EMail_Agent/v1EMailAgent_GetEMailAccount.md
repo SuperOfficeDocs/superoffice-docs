@@ -32,7 +32,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=51
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=477
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -75,6 +75,7 @@ OK
 | SentFolder | string | Sent email folder name if available in the db |
 | SimpleMode | int32 | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
 | LastFetch | date-time | When we last fetched email  in UTC. |
+| UseGraphApi | int32 | Use the GraphApi for this account |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

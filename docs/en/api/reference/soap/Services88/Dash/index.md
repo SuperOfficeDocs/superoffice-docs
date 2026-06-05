@@ -35,6 +35,7 @@ Download [WSDL file for Services88/Dash](../Services88-Dash.md) if you need to g
 * [DuplicateDashboard](DuplicateDashboard.md)
 * [DuplicateTile](DuplicateTile.md)
 * [GetDash](GetDash.md)
+* [GetDashboardFencingInfo](GetDashboardFencingInfo.md)
 * [GetDashCollection](GetDashCollection.md)
 * [GetDashList](GetDashList.md)
 * [GetDashQuickFilters](GetDashQuickFilters.md)

@@ -191,7 +191,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
 |contactSupportPerson/middleName|string|User support contact - Middle name: Displays the contact's middle name.| x |
-|contactSupportPerson/fullName|stringorPK|User support contact - Contact: Displays the contact to which an item is linked| x |
+|contactSupportPerson/fullName|string|User support contact - Contact: Displays the contact to which an item is linked| x |
 |contactSupportPerson/contactId|int|User support contact - Company ID: Database ID of company| x |
 |contactSupportPerson/hasInfoText|bool|User support contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contactSupportPerson/hasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -364,7 +364,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=email/emailAddress,contactSupportPerson/personUdef/SuperOffice:1,contactSupportPerson/personExtra/x_person_boolean
+GET /api/v1/archive/SimpleContact?$select=contactSupportAssociate/ejDisplayName,NumberOfNotCompletedTickets,contactAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

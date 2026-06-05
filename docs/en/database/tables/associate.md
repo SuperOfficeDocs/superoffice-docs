@@ -188,6 +188,8 @@ Employees, resources and other users - except for External persons
 |[IntentGroupLink](intentgrouplink.md)  |User group link table for Intent, for MDO item hiding |
 |[IntentHeadingLink](intentheadinglink.md)  |Heading link table for Intent, for MDO headers |
 |[invitation](invitation.md)  |Invitations to events |
+|[landing\_page](landing-page.md)  |Per-associate landing page configuration for a given entity type |
+|[landing\_page\_pin](landing-page-pin.md)  |A pinned selection or entity record on a landing page |
 |[LanguageInfo](languageinfo.md)  |Information about languages, from ISO standards and related information |
 |[LanguageInfoCountry](languageinfocountry.md)  |Many-many link between countries and languages, to give intelligent choices for language |
 |[LegalBase](legalbase.md)  |Legal base for GDPR (Article 6) |
@@ -198,6 +200,7 @@ Employees, resources and other users - except for External persons
 |[MergeMoveLog](mergemovelog.md)  |Log of merge and move operations (person, contact, project) |
 |[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 |[MessageHandler](messagehandler.md)  |Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale |
+|[metering\_log](metering-log.md)  |Metering log table |
 |[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
 |[ModuleOwner](moduleowner.md)  |Unique owner of a set of licensed modules |
 |[MrMrs](mrmrs.md)  |MrMrs list table. List of salutations. |
@@ -404,6 +407,7 @@ Employees, resources and other users - except for External persons
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 |[WebAppUsage](webappusage.md)  |Usage statistics for web applications |
 |[Webhook](webhook.md)  |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics. |
+|[Webhook\_notify](webhook-notify.md)  |Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails. |
 |[Webhook\_usage](webhook-usage.md)  |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook. |
 |[WinPosSize](winpossize.md)  |Stores the position and size of each window, so they can be shown in the same place again |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |

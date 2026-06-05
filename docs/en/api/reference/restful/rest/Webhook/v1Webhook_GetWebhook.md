@@ -80,7 +80,16 @@ Webhook found.
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
-| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
+| ErrorsEmail | string | Obsolete, use ErrorEmails instead |
+| ErrorEmails | array | Email addresses to notify when this webhook is disabled. |
+| ErrorAssociates | array | Associates to notify when this webhook is disabled. |
+| Description | string | Human-readable description of what this webhook does. |
+| NotifyVia | string | How to notify recipients when this webhook changes state. 1=Email, 2=InApp. |
+| NotifyWhen | string | When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling. |
+| TotalCalls | int32 | Number of times webhook has been invoked since registered. For statistical purposes. |
+| TotalErrors | int32 | Number of times webhook has returned error since registered. For statistical purposes. |
+| ConsecutiveErrors | int32 | Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, webhook.state is changed to TooManyErrors(3) to deactivate webhook. |
+| LastError | string | Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks. |
 | _Links | object |  |
 
 ## Sample request

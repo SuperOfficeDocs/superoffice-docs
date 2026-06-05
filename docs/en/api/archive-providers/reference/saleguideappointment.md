@@ -281,7 +281,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/person/firstName|string|First name: Displays the contact's first name| x |
 |appointmentInstance/person/lastName|string|Last name: Displays the contact's last name| x |
 |appointmentInstance/person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|appointmentInstance/person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|appointmentInstance/person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |appointmentInstance/person/contactId|int|Company ID: Database ID of company| x |
 |appointmentInstance/person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |appointmentInstance/person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -772,7 +772,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/contact/contactAssociate/assocType,appointmentInstance/contact/contactExtra/x_contact_contact,appointmentInstance/person/useAsMailingAddress,appointmentInstance/person/personUdef/SuperOffice:3,appointmentInstance/person/personUdef/SuperOffice:11
+GET /api/v1/archive/SaleGuideAppointment?$select=completed,appointmentInstance/icon,appointmentInstance/date,appointmentInstance/contact/saintTicketStatus,appointmentInstance/person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

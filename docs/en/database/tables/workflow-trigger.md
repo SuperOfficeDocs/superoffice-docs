@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# workflow\_trigger Table (523)
+# workflow\_trigger Table (527)
 
 A set of triggers related to a workflow.
 

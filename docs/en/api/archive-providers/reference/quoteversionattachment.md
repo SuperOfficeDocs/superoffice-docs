@@ -112,7 +112,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=visibleFor,associate/mrMrs,name
+GET /api/v1/archive/QuoteVersionAttachment?$select=registeredBy,documentUdef/SuperOffice:4,name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
