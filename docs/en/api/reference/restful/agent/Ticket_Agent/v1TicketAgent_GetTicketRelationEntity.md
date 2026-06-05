@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketRelationEntity?ticketRelationEntityId=267
+POST /api/v1/Agents/Ticket/GetTicketRelationEntity?ticketRelationEntityId=828
 POST /api/v1/Agents/Ticket/GetTicketRelationEntity?$select=name,department,category/id
 ```
 
@@ -63,7 +63,7 @@ OK
 | TicketRelationId | int32 | Primary key |
 | SourceTicketId | int32 | Source ticket in this relation |
 | DestinationTicketId | int32 | Destination ticket in this relation |
-| RelationType | string | Ticket relation type |
+| RelationType | string | The type of relation between the two tickets. |
 | Comment | string | Comment for relation |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |

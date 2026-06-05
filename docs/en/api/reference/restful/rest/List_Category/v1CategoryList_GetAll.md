@@ -26,7 +26,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=False
+GET /api/v1/List/Category/Items?includeDeleted=True
 ```
 
 

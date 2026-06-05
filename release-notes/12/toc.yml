@@ -26,8 +26,15 @@ items:
 #  items:
 #  - name: 12.x update
 #    href: admin/12.x-update.md
-#- name: API
-#  href: api/index.md
-#  items:
-#  - name: 12.x update
-#    href: api/12.x-update.md
+- name: API
+  href: api/index.md
+  items:
+  - name: 12.0 update
+    href: api/12.0/12.0-update.md
+    items:
+    - name: NetServer Changes
+      href: api/12.0/12.0-netserver-update.md
+    - name: SuperOffice WebApi Changes
+      href: api/12.0/12.0-webapi-update.md
+    - name: Database changes 12.0
+      href: ../database/changes-12.0.342.md

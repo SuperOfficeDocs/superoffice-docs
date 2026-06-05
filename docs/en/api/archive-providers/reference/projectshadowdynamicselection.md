@@ -439,7 +439,7 @@ Shadow contact provider for the dynamic Project provider.
 | ---- | ----- | ------- | ------ |
 |projectMember/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -825,7 +825,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=sale/earning,sale/saleUdef/SuperOffice:5,appointment/visibleInDiary,document/who,projectMember/restrictionAddress/line3
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=NumberOfNotCompletedSalesInPeriod,sale/probPercent,appointment/associateId,appointment/appointmentPublish/publishedTo,document/associate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

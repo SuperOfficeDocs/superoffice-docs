@@ -1,0 +1,635 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  commentId: T:SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  id: TicketRelationDefinitionResult
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.#ctor
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString
+  - SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefinitionResult
+  nameWithType: TicketRelationDefinitionResult
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Validation result for a single source/destination ticket type combination in a relation definition.
+
+    <p></p>
+
+    Carrier object for TicketRelationDefinitionResult.
+
+    Services for the TicketRelationDefinitionResult Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
+
+      public class TicketRelationDefinitionResult
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
+
+      Public Class TicketRelationDefinitionResult
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketRelationDefinitionResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: TicketRelationDefinitionResult()
+  nameWithType: TicketRelationDefinitionResult.TicketRelationDefinitionResult()
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.TicketRelationDefinitionResult()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public TicketRelationDefinitionResult()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.#ctor*
+  nameWithType.vb: TicketRelationDefinitionResult.New()
+  fullName.vb: SuperOffice.CRM.Services.TicketRelationDefinitionResult.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketRelationDefinitionResult.ToString()
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString*
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: TicketRelationDefinitionResult.ToString(string)
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString*
+  nameWithType.vb: TicketRelationDefinitionResult.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId
+  id: SourceTicketTypeId
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: SourceTicketTypeId
+  nameWithType: TicketRelationDefinitionResult.SourceTicketTypeId
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The source ticket type id this result applies to.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int SourceTicketTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceTicketTypeId As Integer
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId
+  id: DestinationTicketTypeId
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: DestinationTicketTypeId
+  nameWithType: TicketRelationDefinitionResult.DestinationTicketTypeId
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The destination ticket type id this result applies to.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int DestinationTicketTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DestinationTicketTypeId As Integer
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid
+  id: IsValid
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: TicketRelationDefinitionResult.IsValid
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if no conflicting relation definition exists for this combination.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsValid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsValid As Boolean
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  commentId: P:SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  id: ExistingRelationDefinitionName
+  parent: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+  langs:
+  - csharp
+  - vb
+  name: ExistingRelationDefinitionName
+  nameWithType: TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Name of the conflicting relation definition if IsValid is false.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ExistingRelationDefinitionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExistingRelationDefinitionName As String
+  overload: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IListAgent.html
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionResult.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html#SuperOffice_CRM_Services_TicketRelationDefinitionResult__ctor
+  name: TicketRelationDefinitionResult
+  nameWithType: TicketRelationDefinitionResult.TicketRelationDefinitionResult
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.TicketRelationDefinitionResult
+  nameWithType.vb: TicketRelationDefinitionResult.New
+  fullName.vb: SuperOffice.CRM.Services.TicketRelationDefinitionResult.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html#SuperOffice_CRM_Services_TicketRelationDefinitionResult_ToString
+  name: ToString
+  nameWithType: TicketRelationDefinitionResult.ToString
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html#SuperOffice_CRM_Services_TicketRelationDefinitionResult_SourceTicketTypeId
+  name: SourceTicketTypeId
+  nameWithType: TicketRelationDefinitionResult.SourceTicketTypeId
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.SourceTicketTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html#SuperOffice_CRM_Services_TicketRelationDefinitionResult_DestinationTicketTypeId
+  name: DestinationTicketTypeId
+  nameWithType: TicketRelationDefinitionResult.DestinationTicketTypeId
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.DestinationTicketTypeId
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html#SuperOffice_CRM_Services_TicketRelationDefinitionResult_IsValid
+  name: IsValid
+  nameWithType: TicketRelationDefinitionResult.IsValid
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html#SuperOffice_CRM_Services_TicketRelationDefinitionResult_ExistingRelationDefinitionName
+  name: ExistingRelationDefinitionName
+  nameWithType: TicketRelationDefinitionResult.ExistingRelationDefinitionName
+  fullName: SuperOffice.CRM.Services.TicketRelationDefinitionResult.ExistingRelationDefinitionName

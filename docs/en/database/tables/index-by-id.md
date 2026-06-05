@@ -492,56 +492,60 @@ envir: onsite, online
 |495| [email\_item](email-item.md) |Email data|
 |496| [email\_attachment](email-attachment.md) |Attachment info related to an email_item|
 |497| [invitation](invitation.md) |Invitations to events|
-|498| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
-|499| [MailingDomains](mailingdomains.md) |List of allowed domains used in a Mailing|
-|500| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
-|501| [board\_view\_settings](board-view-settings.md) |Settings for selection board view|
-|502| [time\_keeping](time-keeping.md) |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state|
-|503| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
-|504| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
-|505| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
-|506| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
-|507| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
-|508| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
-|509| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
-|510| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
-|511| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
-|512| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
-|513| [target\_revision](target-revision.md) |One batch of changes made to targets|
-|514| [target\_change](target-change.md) |A single field change.|
-|515| [target\_dimension](target-dimension.md) |Defining target dimension|
-|516| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
-|517| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
-|518| [workflow](workflow.md) |SuperOffice specific info about a workflow|
-|519| [email\_flow](email-flow.md) |A set of properties related to the email workflow.|
-|520| [workflow\_instance](workflow-instance.md) |A set of properties related to the workflow instance of one participant going through the flow|
-|521| [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.|
-|522| [workflow\_step](workflow-step.md) |A set of steps related to a workflow.|
-|523| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
-|524| [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps|
-|525| [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options|
-|526| [email\_flow\_content\_link](email-flow-content-link.md) |Links content to an email workflow|
-|527| [temp\_db\_lock](temp-db-lock.md) |Represents a temporary lock on a resource identified by table_id and key|
-|528| [workflow\_wait\_for\_action](workflow-wait-for-action.md) |Some steps wait for actions, this is info about those actions|
-|529| [workflow\_root\_step\_link](workflow-root-step-link.md) |Link root steps to the workflow|
-|530| [form\_field\_value](form-field-value.md) |Form field values saved in a searchable format|
-|531| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|532| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
-|533| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
-|534| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
-|535| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
-|536| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
-|537| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
-|538| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
-|539| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
-|540| [utm\_parameters](utm-parameters.md) |Table for utm parameters collected from visits and formsubmissions|
-|541| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category|
-|542| [AutomatedCategoryUpdate](automatedcategoryupdate.md) |Info on how to autoupdate category when changing sale or leadstatus on person|
-|543| [available\_fonts](available-fonts.md) |This table contains all fonts selected to be available for external usage|
-|544| [ticket\_type](ticket-type.md) |A ticket (request) type|
-|545| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
-|546| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
-|547| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition|
-|548| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition|
-|549| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets|
+|498| [landing\_page](landing-page.md) |Per-associate landing page configuration for a given entity type|
+|499| [landing\_page\_pin](landing-page-pin.md) |A pinned selection or entity record on a landing page|
+|500| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
+|501| [MailingDomains](mailingdomains.md) |List of allowed domains used in a Mailing|
+|502| [metering\_log](metering-log.md) |Metering log table|
+|503| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
+|504| [board\_view\_settings](board-view-settings.md) |Settings for selection board view|
+|505| [time\_keeping](time-keeping.md) |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state|
+|506| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
+|507| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
+|508| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
+|509| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
+|510| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
+|511| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
+|512| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
+|513| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
+|514| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
+|515| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
+|516| [target\_revision](target-revision.md) |One batch of changes made to targets|
+|517| [target\_change](target-change.md) |A single field change.|
+|518| [target\_dimension](target-dimension.md) |Defining target dimension|
+|519| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
+|520| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
+|521| [Webhook\_notify](webhook-notify.md) |Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails.|
+|522| [workflow](workflow.md) |SuperOffice specific info about a workflow|
+|523| [email\_flow](email-flow.md) |A set of properties related to the email workflow.|
+|524| [workflow\_instance](workflow-instance.md) |A set of properties related to the workflow instance of one participant going through the flow|
+|525| [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.|
+|526| [workflow\_step](workflow-step.md) |A set of steps related to a workflow.|
+|527| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
+|528| [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps|
+|529| [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options|
+|530| [email\_flow\_content\_link](email-flow-content-link.md) |Links content to an email workflow|
+|531| [temp\_db\_lock](temp-db-lock.md) |Represents a temporary lock on a resource identified by table_id and key|
+|532| [workflow\_wait\_for\_action](workflow-wait-for-action.md) |Some steps wait for actions, this is info about those actions|
+|533| [workflow\_root\_step\_link](workflow-root-step-link.md) |Link root steps to the workflow|
+|534| [form\_field\_value](form-field-value.md) |Form field values saved in a searchable format|
+|535| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|536| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|537| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
+|538| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
+|539| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
+|540| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
+|541| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
+|542| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|543| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
+|544| [utm\_parameters](utm-parameters.md) |Table for utm parameters collected from visits and formsubmissions|
+|545| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category|
+|546| [AutomatedCategoryUpdate](automatedcategoryupdate.md) |Info on how to autoupdate category when changing sale or leadstatus on person|
+|547| [available\_fonts](available-fonts.md) |This table contains all fonts selected to be available for external usage|
+|548| [ticket\_type](ticket-type.md) |A ticket (request) type|
+|549| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
+|550| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
+|551| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition|
+|552| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition|
+|553| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets|
 

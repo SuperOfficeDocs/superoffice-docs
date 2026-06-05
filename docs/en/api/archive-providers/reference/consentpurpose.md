@@ -49,7 +49,7 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |consentPerson/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |consentPerson/person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
-|consentPerson/person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
+|consentPerson/person/fullName|string|Contact - Contact: Displays the contact to which an item is linked| x |
 |consentPerson/person/contactId|int|Contact - Company ID: Database ID of company| x |
 |consentPerson/person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |consentPerson/person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -187,7 +187,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/hasInterests,consentPerson/person/personRegisteredBy,consentPerson/person/personDirectPhone/description
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/birthYear,consentPerson/consentPurpose/tooltip,consentPerson/person/personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

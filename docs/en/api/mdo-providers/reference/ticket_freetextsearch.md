@@ -30,6 +30,7 @@ The name of the MDO list is 'ticket_freetextsearch'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |Indicates how to format item name| nameformat|includePersonAndCompany|
+|If true, merged tickets are excluded from ID search results| excludeMerged|false|
 
 
 

@@ -40,6 +40,7 @@ Service methods defined on <see cref='T:IProjectAgent'>ProjectAgent</see> that c
 * [GetProjectEventListAsync](getprojecteventlistasync.md)
 * [GetProjectEventOnPersonAsync](getprojecteventonpersonasync.md)
 * [GetProjectEventsOnPersonAsync](getprojecteventsonpersonasync.md)
+* [GetProjectFencingInfoAsync](getprojectfencinginfoasync.md)
 * [GetProjectImageAsync](getprojectimageasync.md)
 * [GetProjectListAsync](getprojectlistasync.md)
 * [GetProjectMemberAsync](getprojectmemberasync.md)

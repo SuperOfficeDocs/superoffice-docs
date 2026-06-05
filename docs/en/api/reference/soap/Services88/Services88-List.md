@@ -1521,6 +1521,38 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="ValidateTicketRelationDefinition">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketRelationDefinitionId" type="xs:int" />
+            <xs:element minOccurs="0" name="SourceTicketTypeIds" nillable="true" type="q13:ArrayOfint" xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DestinationTicketTypeIds" nillable="true" type="q14:ArrayOfint" xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="RelationType" type="tns:TicketRelationType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateTicketRelationDefinitionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketRelationDefinitionResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfTicketRelationDefinitionResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketRelationDefinitionResult" nillable="true" type="tns:TicketRelationDefinitionResult" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTicketRelationDefinitionResult" nillable="true" type="tns:ArrayOfTicketRelationDefinitionResult" />
+      <xs:complexType name="TicketRelationDefinitionResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SourceTicketTypeId" type="xs:int" />
+          <xs:element minOccurs="0" name="DestinationTicketTypeId" type="xs:int" />
+          <xs:element minOccurs="0" name="IsValid" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ExistingRelationDefinitionName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TicketRelationDefinitionResult" nillable="true" type="tns:TicketRelationDefinitionResult" />
       <xs:element name="GetTicketStatusEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1564,7 +1596,7 @@ content_type: reference
       <xs:element name="GetTicketStatusList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketStatusEntityIds" nillable="true" type="q13:ArrayOfint" xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketStatusEntityIds" nillable="true" type="q15:ArrayOfint" xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1617,9 +1649,9 @@ content_type: reference
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DefaultTicketStatus" type="xs:int" />
-              <xs:element minOccurs="0" name="TicketStatuses" nillable="true" type="q14:ArrayOfint" xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="TicketStatuses" nillable="true" type="q16:ArrayOfint" xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="DefaultTicketPriority" type="xs:int" />
-              <xs:element minOccurs="0" name="TicketPriorities" nillable="true" type="q15:ArrayOfint" xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="TicketPriorities" nillable="true" type="q17:ArrayOfint" xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ReplyTemplate" type="xs:int" />
               <xs:element minOccurs="0" name="IsExternalVisible" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
@@ -1627,7 +1659,7 @@ content_type: reference
               <xs:element minOccurs="0" name="ExcludeSignature" type="xs:boolean" />
               <xs:element minOccurs="0" name="ExcludeEmailRecipients" type="xs:boolean" />
               <xs:element minOccurs="0" name="ExternalAsDefault" type="xs:boolean" />
-              <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q16:ArrayOfint" xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="VisibleForGroups" nillable="true" type="q18:ArrayOfint" xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ReplyForwardNoSignature" type="xs:boolean" />
               <xs:element minOccurs="0" name="ReplyExternalAsDefault" type="xs:boolean" />
             </xs:sequence>
@@ -1664,7 +1696,7 @@ content_type: reference
       <xs:element name="GetTicketTypeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="TicketTypeEntityIds" nillable="true" type="q17:ArrayOfint" xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="TicketTypeEntityIds" nillable="true" type="q19:ArrayOfint" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1970,7 +2002,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="HeadingId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q18:ArrayOfint" xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q20:ArrayOfint" xmlns:q20="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1985,7 +2017,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionName" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="HeadingId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q19:ArrayOfint" xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q21:ArrayOfint" xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2000,7 +2032,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="ListItemId" type="xs:int" />
-            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q20:ArrayOfint" xmlns:q20="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q22:ArrayOfint" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2014,7 +2046,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
-            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q21:ArrayOfint" xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="HeadingIds" nillable="true" type="q23:ArrayOfint" xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2027,7 +2059,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q22:ArrayOfint" xmlns:q22="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q24:ArrayOfint" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2040,7 +2072,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q23:ArrayOfint" xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q25:ArrayOfint" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2053,7 +2085,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q24:ArrayOfint" xmlns:q24="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q26:ArrayOfint" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2066,7 +2098,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
-            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q25:ArrayOfint" xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ItemsIds" nillable="true" type="q27:ArrayOfint" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2562,7 +2594,7 @@ content_type: reference
       <xs:element name="GetLocalizedTextList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LocalizedTextIds" nillable="true" type="q26:ArrayOfint" xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LocalizedTextIds" nillable="true" type="q28:ArrayOfint" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2654,7 +2686,7 @@ content_type: reference
       <xs:element name="GetMrMrsList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="MrMrsIds" nillable="true" type="q27:ArrayOfint" xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="MrMrsIds" nillable="true" type="q29:ArrayOfint" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2800,7 +2832,7 @@ content_type: reference
       <xs:element name="GetPositionList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PositionIds" nillable="true" type="q28:ArrayOfint" xmlns:q28="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PositionIds" nillable="true" type="q30:ArrayOfint" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2858,7 +2890,7 @@ content_type: reference
       <xs:element name="GetPriorityList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PriorityIds" nillable="true" type="q29:ArrayOfint" xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PriorityIds" nillable="true" type="q31:ArrayOfint" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3060,7 +3092,7 @@ content_type: reference
       <xs:element name="GetProjectStatusList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectStatusIds" nillable="true" type="q30:ArrayOfint" xmlns:q30="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectStatusIds" nillable="true" type="q32:ArrayOfint" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3151,7 +3183,7 @@ content_type: reference
       <xs:element name="GetProjectTypeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectTypeIds" nillable="true" type="q31:ArrayOfint" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectTypeIds" nillable="true" type="q33:ArrayOfint" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3251,7 +3283,7 @@ content_type: reference
       <xs:element name="GetRatingList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="RatingIds" nillable="true" type="q32:ArrayOfint" xmlns:q32="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="RatingIds" nillable="true" type="q34:ArrayOfint" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3329,7 +3361,7 @@ content_type: reference
       <xs:element name="GetReasonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ReasonIds" nillable="true" type="q33:ArrayOfint" xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ReasonIds" nillable="true" type="q35:ArrayOfint" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3387,7 +3419,7 @@ content_type: reference
       <xs:element name="GetQuoteApproveReasonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteApproveReasonIds" nillable="true" type="q34:ArrayOfint" xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="QuoteApproveReasonIds" nillable="true" type="q36:ArrayOfint" xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3445,7 +3477,7 @@ content_type: reference
       <xs:element name="GetQuoteDenyReasonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteDenyReasonIds" nillable="true" type="q35:ArrayOfint" xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="QuoteDenyReasonIds" nillable="true" type="q37:ArrayOfint" xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3521,7 +3553,7 @@ content_type: reference
       <xs:element name="GetReasonSoldList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ReasonSoldIds" nillable="true" type="q36:ArrayOfint" xmlns:q36="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ReasonSoldIds" nillable="true" type="q38:ArrayOfint" xmlns:q38="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3634,7 +3666,7 @@ content_type: reference
       <xs:element name="GetCreditedList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CreditedIds" nillable="true" type="q37:ArrayOfint" xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CreditedIds" nillable="true" type="q39:ArrayOfint" xmlns:q39="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3774,7 +3806,7 @@ content_type: reference
       <xs:element name="GetCurrencyList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CurrencyIds" nillable="true" type="q38:ArrayOfint" xmlns:q38="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CurrencyIds" nillable="true" type="q40:ArrayOfint" xmlns:q40="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3852,7 +3884,7 @@ content_type: reference
       <xs:element name="GetCustomerLanguageList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CustomerLanguageIds" nillable="true" type="q39:ArrayOfint" xmlns:q39="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CustomerLanguageIds" nillable="true" type="q41:ArrayOfint" xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3998,7 +4030,7 @@ content_type: reference
       <xs:element name="GetDepartmentList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="DepartmentIds" nillable="true" type="q40:ArrayOfint" xmlns:q40="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DepartmentIds" nillable="true" type="q42:ArrayOfint" xmlns:q42="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4226,7 +4258,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateUsedInSalesStageResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q41:ArrayOfstring" xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q43:ArrayOfstring" xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4240,7 +4272,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateUsedInProjectStageResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q42:ArrayOfstring" xmlns:q42="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q44:ArrayOfstring" xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4264,7 +4296,7 @@ content_type: reference
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="DocumentTemplateId" type="xs:int" />
-            <xs:element minOccurs="0" name="RequestedProperties" nillable="true" type="q43:ArrayOfstring" xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="RequestedProperties" nillable="true" type="q45:ArrayOfstring" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4285,7 +4317,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateLanguagesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q44:ArrayOfstring" xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q46:ArrayOfstring" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4446,7 +4478,7 @@ content_type: reference
       <xs:element name="GetDocumentTemplateList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="DocumentTemplateIds" nillable="true" type="q45:ArrayOfint" xmlns:q45="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DocumentTemplateIds" nillable="true" type="q47:ArrayOfint" xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4808,7 +4840,7 @@ content_type: reference
       <xs:element name="GetLanguageInfoList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LanguageInfoIds" nillable="true" type="q46:ArrayOfint" xmlns:q46="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LanguageInfoIds" nillable="true" type="q48:ArrayOfint" xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4901,7 +4933,7 @@ content_type: reference
       <xs:element name="GetLegalBaseList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LegalBaseIds" nillable="true" type="q47:ArrayOfint" xmlns:q47="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LegalBaseIds" nillable="true" type="q49:ArrayOfint" xmlns:q49="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -4955,7 +4987,7 @@ content_type: reference
       <xs:element name="GetLinkList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="LinkIds" nillable="true" type="q48:ArrayOfint" xmlns:q48="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="LinkIds" nillable="true" type="q50:ArrayOfint" xmlns:q50="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -5174,7 +5206,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="ListItemId" type="xs:int" />
-            <xs:element minOccurs="0" name="UserGroupId" nillable="true" type="q49:ArrayOfint" xmlns:q49="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="UserGroupId" nillable="true" type="q51:ArrayOfint" xmlns:q51="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -5219,7 +5251,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionId" type="xs:int" />
             <xs:element minOccurs="0" name="UsergroupId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q50:ArrayOfint" xmlns:q50="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemIds" nillable="true" type="q52:ArrayOfint" xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -5234,7 +5266,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="UdListDefinitionName" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="UsergroupId" type="xs:int" />
-            <xs:element minOccurs="0" name="ListItemsID" nillable="true" type="q51:ArrayOfint" xmlns:q51="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ListItemsID" nillable="true" type="q53:ArrayOfint" xmlns:q53="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Enable" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -6226,7 +6258,7 @@ content_type: reference
       <xs:element name="GetBusinessList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="BusinessIds" nillable="true" type="q52:ArrayOfint" xmlns:q52="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="BusinessIds" nillable="true" type="q54:ArrayOfint" xmlns:q54="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -6302,7 +6334,7 @@ content_type: reference
       <xs:element name="GetCategoryList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CategoryIds" nillable="true" type="q53:ArrayOfint" xmlns:q53="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CategoryIds" nillable="true" type="q55:ArrayOfint" xmlns:q55="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -6360,7 +6392,7 @@ content_type: reference
       <xs:element name="GetCompetitorList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CompetitorIds" nillable="true" type="q54:ArrayOfint" xmlns:q54="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CompetitorIds" nillable="true" type="q56:ArrayOfint" xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -6522,7 +6554,7 @@ content_type: reference
       <xs:element name="GetConsentPurposeList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConsentPurposeIds" nillable="true" type="q55:ArrayOfint" xmlns:q55="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConsentPurposeIds" nillable="true" type="q57:ArrayOfint" xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -6616,7 +6648,7 @@ content_type: reference
       <xs:element name="GetConsentSourceList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConsentSourceIds" nillable="true" type="q56:ArrayOfint" xmlns:q56="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConsentSourceIds" nillable="true" type="q58:ArrayOfint" xmlns:q58="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -6682,7 +6714,7 @@ content_type: reference
       <xs:element name="GetCountryList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="CountryIds" nillable="true" type="q57:ArrayOfint" xmlns:q57="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="CountryIds" nillable="true" type="q59:ArrayOfint" xmlns:q59="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -7414,6 +7446,23 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:SetTicketRelationDefinitionSortOrderResponse" />
   </wsdl:message>
   <wsdl:message name="SetTicketRelationDefinitionSortOrderResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationDefinitionRequest">
+    <wsdl:part name="parameters" element="tns:ValidateTicketRelationDefinition" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationDefinitionRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationDefinitionResponse">
+    <wsdl:part name="parameters" element="tns:ValidateTicketRelationDefinitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTicketRelationDefinitionResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -12200,6 +12249,10 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetTicketRelationDefinitionSortOrder" name="SetTicketRelationDefinitionSortOrderRequest" message="tns:SetTicketRelationDefinitionSortOrderRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/SetTicketRelationDefinitionSortOrderResponse" name="SetTicketRelationDefinitionSortOrderResponse" message="tns:SetTicketRelationDefinitionSortOrderResponse" />
     </wsdl:operation>
+    <wsdl:operation name="ValidateTicketRelationDefinition">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ValidateTicketRelationDefinition" name="ValidateTicketRelationDefinitionRequest" message="tns:ValidateTicketRelationDefinitionRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ValidateTicketRelationDefinitionResponse" name="ValidateTicketRelationDefinitionResponse" message="tns:ValidateTicketRelationDefinitionResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTicketStatusEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketStatusEntity" name="GetTicketStatusEntityRequest" message="tns:GetTicketStatusEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketStatusEntityResponse" name="GetTicketStatusEntityResponse" message="tns:GetTicketStatusEntityResponse" />
@@ -13912,6 +13965,22 @@ content_type: reference
         <soap:header message="tns:SetTicketRelationDefinitionSortOrderResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetTicketRelationDefinitionSortOrderResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetTicketRelationDefinitionSortOrderResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateTicketRelationDefinition">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ValidateTicketRelationDefinition" style="document" />
+      <wsdl:input name="ValidateTicketRelationDefinitionRequest">
+        <soap:header message="tns:ValidateTicketRelationDefinitionRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationDefinitionRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationDefinitionRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ValidateTicketRelationDefinitionResponse">
+        <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

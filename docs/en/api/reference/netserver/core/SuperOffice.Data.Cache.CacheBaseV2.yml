@@ -69,15 +69,18 @@ items:
   - SuperOffice.CRM.Globalization.AddressFormatCache
   - SuperOffice.CRM.Globalization.CountryCache
   - SuperOffice.CRM.Rows.UDefFieldCacheBase
+  - SuperOffice.CRM.Security.DashboardFencingCache
   - SuperOffice.CRM.Security.EjCategoryCache
   - SuperOffice.CRM.Security.ErpConnectionAccessCache
   - SuperOffice.CRM.Security.FunctionRightCache
   - SuperOffice.CRM.Security.OwnerContactCache
+  - SuperOffice.CRM.Security.ProjectFencingCache
   - SuperOffice.CRM.Security.QuoteLineConfigurationCache
   - SuperOffice.CRM.Security.RefCountsPermissionCache
   - SuperOffice.CRM.Security.Sentry.DataRightCache
   - SuperOffice.CRM.Security.SentryPreferenceCache
   - SuperOffice.CRM.Security.UserGroupCache
+  - SuperOffice.CRM.Security.WorkflowFencingCache
   - SuperOffice.License.LicenseAssocLinkCache
   - SuperOffice.License.LicenseCache
   - SuperOffice.Security.Principal.PrincipalCacheInvalidator

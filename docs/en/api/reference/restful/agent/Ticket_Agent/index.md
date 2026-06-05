@@ -32,6 +32,18 @@ content_type: reference
 
 * [POST Agents/Ticket/GetTicketRelationEntity](v1TicketAgent_GetTicketRelationEntity.md)
 
+* [POST Agents/Ticket/GetTicketRelations](v1TicketAgent_GetTicketRelations.md)
+
+* [POST Agents/Ticket/GetTicketParentId](v1TicketAgent_GetTicketParentId.md)
+
+* [POST Agents/Ticket/SetTicketParent](v1TicketAgent_SetTicketParent.md)
+
+* [POST Agents/Ticket/ValidateTicketRelations](v1TicketAgent_ValidateTicketRelations.md)
+
+* [POST Agents/Ticket/CreateTicketRelations](v1TicketAgent_CreateTicketRelations.md)
+
+* [POST Agents/Ticket/GetTicketRelationActions](v1TicketAgent_GetTicketRelationActions.md)
+
 * [POST Agents/Ticket/GetTicketSummaries](v1TicketAgent_GetTicketSummaries.md)
 
 * [POST Agents/Ticket/CreateDefaultAttachmentEntity](v1TicketAgent_CreateDefaultAttachmentEntity.md)

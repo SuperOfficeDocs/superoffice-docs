@@ -26,6 +26,7 @@ items:
   - SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.WorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.WorkflowAgent.GetEmailFlowAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -991,6 +992,35 @@ items:
   nameWithType.vb: WorkflowAgent.CopyEmailFlowAsync(Integer, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.WorkflowAgent.CopyEmailFlowAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
   name.vb: CopyEmailFlowAsync(Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowFencingInfoAsync(RequestOptions)
+  nameWithType: WorkflowAgent.GetWorkflowFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the current Workflow fencing status for the tenant
+  example: []
+  syntax:
+    content: public Task<FencingInfo> GetWorkflowFencingInfoAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Public Function GetWorkflowFencingInfoAsync(requestOptions As RequestOptions = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync(SuperOffice.WebApi.RequestOptions)
   id: RunAsync(SuperOffice.WebApi.RequestOptions)
@@ -4279,6 +4309,78 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.WorkflowAgent.html#SuperOffice_WebApi_Agents_WorkflowAgent_GetWorkflowFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetWorkflowFencingInfoAsync
+  nameWithType: WorkflowAgent.GetWorkflowFencingInfoAsync
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent.GetWorkflowFencingInfoAsync
+- uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IWorkflowAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IWorkflowAgent.html#SuperOffice_WebApi_Agents_IWorkflowAgent_GetWorkflowFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetWorkflowFencingInfoAsync(RequestOptions)
+  nameWithType: IWorkflowAgent.GetWorkflowFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowFencingInfoAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IWorkflowAgent.html#SuperOffice_WebApi_Agents_IWorkflowAgent_GetWorkflowFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IWorkflowAgent.GetWorkflowFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetWorkflowFencingInfoAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IWorkflowAgent.html#SuperOffice_WebApi_Agents_IWorkflowAgent_GetWorkflowFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.WorkflowAgent.RunAsync

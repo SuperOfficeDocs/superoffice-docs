@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.Rows.EmailItemRow.SaleId
   - SuperOffice.CRM.Rows.EmailItemRow.SentAt
   - SuperOffice.CRM.Rows.EmailItemRow.ServerId
+  - SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
   - SuperOffice.CRM.Rows.EmailItemRow.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailItemRow.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.EmailItemRow.SetRowAsNew
@@ -87,6 +88,7 @@ items:
   - SuperOffice.CRM.Rows.EmailItemRow._currentSaleId
   - SuperOffice.CRM.Rows.EmailItemRow._currentSentAt
   - SuperOffice.CRM.Rows.EmailItemRow._currentServerId
+  - SuperOffice.CRM.Rows.EmailItemRow._currentServerIdentifier
   - SuperOffice.CRM.Rows.EmailItemRow._currentSize
   - SuperOffice.CRM.Rows.EmailItemRow._currentSubject
   - SuperOffice.CRM.Rows.EmailItemRow._currentTo
@@ -118,6 +120,7 @@ items:
   - SuperOffice.CRM.Rows.EmailItemRow._persistedSaleId
   - SuperOffice.CRM.Rows.EmailItemRow._persistedSentAt
   - SuperOffice.CRM.Rows.EmailItemRow._persistedServerId
+  - SuperOffice.CRM.Rows.EmailItemRow._persistedServerIdentifier
   - SuperOffice.CRM.Rows.EmailItemRow._persistedSize
   - SuperOffice.CRM.Rows.EmailItemRow._persistedSubject
   - SuperOffice.CRM.Rows.EmailItemRow._persistedTo
@@ -927,6 +930,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedCalData As String
+- uid: SuperOffice.CRM.Rows.EmailItemRow._persistedServerIdentifier
+  commentId: F:SuperOffice.CRM.Rows.EmailItemRow._persistedServerIdentifier
+  id: _persistedServerIdentifier
+  parent: SuperOffice.CRM.Rows.EmailItemRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedServerIdentifier
+  nameWithType: EmailItemRow._persistedServerIdentifier
+  fullName: SuperOffice.CRM.Rows.EmailItemRow._persistedServerIdentifier
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedServerIdentifier
+    return:
+      type: System.String
+    content.vb: Protected _persistedServerIdentifier As String
 - uid: SuperOffice.CRM.Rows.EmailItemRow._currentEmailItemId
   commentId: F:SuperOffice.CRM.Rows.EmailItemRow._currentEmailItemId
   id: _currentEmailItemId
@@ -1578,6 +1602,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentCalData As String
+- uid: SuperOffice.CRM.Rows.EmailItemRow._currentServerIdentifier
+  commentId: F:SuperOffice.CRM.Rows.EmailItemRow._currentServerIdentifier
+  id: _currentServerIdentifier
+  parent: SuperOffice.CRM.Rows.EmailItemRow
+  langs:
+  - csharp
+  - vb
+  name: _currentServerIdentifier
+  nameWithType: EmailItemRow._currentServerIdentifier
+  fullName: SuperOffice.CRM.Rows.EmailItemRow._currentServerIdentifier
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentServerIdentifier
+    return:
+      type: System.String
+    content.vb: Protected _currentServerIdentifier As String
 - uid: SuperOffice.CRM.Rows.EmailItemRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.EmailItemRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -3300,6 +3345,37 @@ items:
       type: System.String
     content.vb: Public Overridable Property CalData As String
   overload: SuperOffice.CRM.Rows.EmailItemRow.CalData*
+- uid: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
+  commentId: P:SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.CRM.Rows.EmailItemRow
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: EmailItemRow.ServerIdentifier
+  fullName: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: ".NET type: string. Server identifier of this email item (GraphApi uses string Id's)"
+  remarks: >-
+    Original type in dictionary:  String[1025].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string ServerIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ServerIdentifier As String
+  overload: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier*
 references:
 - uid: SuperOffice.CRM.Rows.EmailItemRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.EmailItemRow.CreateNew
@@ -6767,6 +6843,13 @@ references:
   name: CalData
   nameWithType: EmailItemRow.CalData
   fullName: SuperOffice.CRM.Rows.EmailItemRow.CalData
+- uid: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
+  commentId: P:SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailItemRow.html#SuperOffice_CRM_Rows_EmailItemRow_ServerIdentifier
+  name: ServerIdentifier
+  nameWithType: EmailItemRow.ServerIdentifier
+  fullName: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7893,3 +7976,10 @@ references:
   name: CalData
   nameWithType: EmailItemRow.CalData
   fullName: SuperOffice.CRM.Rows.EmailItemRow.CalData
+- uid: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailItemRow.html#SuperOffice_CRM_Rows_EmailItemRow_ServerIdentifier
+  name: ServerIdentifier
+  nameWithType: EmailItemRow.ServerIdentifier
+  fullName: SuperOffice.CRM.Rows.EmailItemRow.ServerIdentifier

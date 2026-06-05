@@ -899,6 +899,8 @@ items:
     href: dashagent/duplicatetileasync.md
   - name: GetDashAsync
     href: dashagent/getdashasync.md
+  - name: GetDashboardFencingInfoAsync
+    href: dashagent/getdashboardfencinginfoasync.md
   - name: GetDashCollectionAsync
     href: dashagent/getdashcollectionasync.md
   - name: GetDashListAsync
@@ -1283,6 +1285,8 @@ items:
     href: emailagent/deleteextendedasync.md
   - name: DeleteFolderAsync
     href: emailagent/deletefolderasync.md
+  - name: DeleteFromServerIdentifierAsync
+    href: emailagent/deletefromserveridentifierasync.md
   - name: EmptyFolderAsync
     href: emailagent/emptyfolderasync.md
   - name: FindAddressAsync
@@ -1295,6 +1299,8 @@ items:
     href: emailagent/getattachmentasync.md
   - name: GetAttachmentFromIdAsync
     href: emailagent/getattachmentfromidasync.md
+  - name: GetAttachmentFromServerIdentifierAsync
+    href: emailagent/getattachmentfromserveridentifierasync.md
   - name: GetCurrentAccountAsync
     href: emailagent/getcurrentaccountasync.md
   - name: GetCurrentAccountIdAsync
@@ -1311,12 +1317,16 @@ items:
     href: emailagent/getemailappointmentrecurrenceasync.md
   - name: GetEMailAsStreamAsync
     href: emailagent/getemailasstreamasync.md
+  - name: GetEMailAsStreamFromServerIdentifierAsync
+    href: emailagent/getemailasstreamfromserveridentifierasync.md
   - name: GetEMailAsync
     href: emailagent/getemailasync.md
   - name: GetEmailDocumentAsMimeStreamAsync
     href: emailagent/getemaildocumentasmimestreamasync.md
   - name: GetEMailEnvelopesAsync
     href: emailagent/getemailenvelopesasync.md
+  - name: GetEMailEnvelopesFromServerIdsAsync
+    href: emailagent/getemailenvelopesfromserveridsasync.md
   - name: GetEMailFromAttachmentIdAsync
     href: emailagent/getemailfromattachmentidasync.md
   - name: GetEMailFromDocumentAttachmentIdAsync
@@ -1327,6 +1337,8 @@ items:
     href: emailagent/getemailfromdocumentidwithoutattachmentstreamasync.md
   - name: GetEMailFromIdAsync
     href: emailagent/getemailfromidasync.md
+  - name: GetEMailFromServerIdentifierAsync
+    href: emailagent/getemailfromserveridentifierasync.md
   - name: GetEMailFromTempAsync
     href: emailagent/getemailfromtempasync.md
   - name: GetEmailMessageIdsAsync
@@ -1387,6 +1399,8 @@ items:
     href: emailagent/latestitemidbyfolderasync.md
   - name: MarkAsReadAsync
     href: emailagent/markasreadasync.md
+  - name: MarkAsReadFromServerIdentifiersAsync
+    href: emailagent/markasreadfromserveridentifiersasync.md
   - name: MarkEmailsAsReadAsync
     href: emailagent/markemailsasreadasync.md
   - name: MoveEmailsToFolderAsync
@@ -1395,6 +1409,8 @@ items:
     href: emailagent/moveemailstotrashasync.md
   - name: MoveToFolderAsync
     href: emailagent/movetofolderasync.md
+  - name: MoveToFolderFromServerIdentifierAsync
+    href: emailagent/movetofolderfromserveridentifierasync.md
   - name: RefreshFolderAsync
     href: emailagent/refreshfolderasync.md
   - name: RefreshFolderForAssociateAsync
@@ -1736,6 +1752,8 @@ items:
     href: licenseagent/changeserialnumberasync.md
   - name: GetCentralLicenseAsync
     href: licenseagent/getcentrallicenseasync.md
+  - name: GetFencingInfoAsync
+    href: licenseagent/getfencinginfoasync.md
   - name: GetLicenseForAllOwnersFromDBAsync
     href: licenseagent/getlicenseforallownersfromdbasync.md
   - name: GetLicenseFromDBAsync
@@ -2395,6 +2413,8 @@ items:
     href: listagent/updatecategorymembershipsasync.md
   - name: UpdateHierarchyFromPathAsync
     href: listagent/updatehierarchyfrompathasync.md
+  - name: ValidateTicketRelationDefinitionAsync
+    href: listagent/validateticketrelationdefinitionasync.md
 - name: MarketingAgent
   href: marketingagent/index.md
   items:
@@ -2844,6 +2864,8 @@ items:
     href: projectagent/getprojecteventonpersonasync.md
   - name: GetProjectEventsOnPersonAsync
     href: projectagent/getprojecteventsonpersonasync.md
+  - name: GetProjectFencingInfoAsync
+    href: projectagent/getprojectfencinginfoasync.md
   - name: GetProjectImageAsync
     href: projectagent/getprojectimageasync.md
   - name: GetProjectListAsync
@@ -3466,6 +3488,8 @@ items:
     href: ticketagent/createdefaultticketmessageentityasync.md
   - name: CreateDefaultTicketRelationEntityAsync
     href: ticketagent/createdefaultticketrelationentityasync.md
+  - name: CreateTicketRelationsAsync
+    href: ticketagent/createticketrelationsasync.md
   - name: DeleteMessageHeadersAsync
     href: ticketagent/deletemessageheadersasync.md
   - name: DeleteTicketEntityAsync
@@ -3518,8 +3542,14 @@ items:
     href: ticketagent/getticketmessagewithembeddeddataasync.md
   - name: GetTicketMessageWithOptionsAsync
     href: ticketagent/getticketmessagewithoptionsasync.md
+  - name: GetTicketParentIdAsync
+    href: ticketagent/getticketparentidasync.md
+  - name: GetTicketRelationActionsAsync
+    href: ticketagent/getticketrelationactionsasync.md
   - name: GetTicketRelationEntityAsync
     href: ticketagent/getticketrelationentityasync.md
+  - name: GetTicketRelationsAsync
+    href: ticketagent/getticketrelationsasync.md
   - name: GetTicketsAsync
     href: ticketagent/getticketsasync.md
   - name: GetTicketSummariesAsync
@@ -3572,6 +3602,8 @@ items:
     href: ticketagent/setspamstatusbyproviderasync.md
   - name: SetTicketMessageImportantAsync
     href: ticketagent/setticketmessageimportantasync.md
+  - name: SetTicketParentAsync
+    href: ticketagent/setticketparentasync.md
   - name: SetTicketReadByOwnerAsync
     href: ticketagent/setticketreadbyownerasync.md
   - name: SplitTicketAsync
@@ -3588,6 +3620,8 @@ items:
     href: ticketagent/uploadattachmentasync.md
   - name: ValidateAttachmentsAsync
     href: ticketagent/validateattachmentsasync.md
+  - name: ValidateTicketRelationsAsync
+    href: ticketagent/validateticketrelationsasync.md
 - name: TimeZoneAgent
   href: timezoneagent/index.md
   items:
@@ -3976,6 +4010,8 @@ items:
     href: workflowagent/deleteworkflowwaitforactionasync.md
   - name: GetEmailFlowAsync
     href: workflowagent/getemailflowasync.md
+  - name: GetWorkflowFencingInfoAsync
+    href: workflowagent/getworkflowfencinginfoasync.md
   - name: GetWorkflowGoalAsync
     href: workflowagent/getworkflowgoalasync.md
   - name: GetWorkflowStepAsync

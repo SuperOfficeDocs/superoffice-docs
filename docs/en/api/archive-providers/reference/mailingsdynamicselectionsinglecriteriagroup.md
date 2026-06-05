@@ -245,7 +245,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 |mailingAddr/person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |mailingAddr/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
-|mailingAddr/person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
+|mailingAddr/person/fullName|string|Contact - Contact: Displays the contact to which an item is linked| x |
 |mailingAddr/person/contactId|int|Contact - Company ID: Database ID of company| x |
 |mailingAddr/person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |mailingAddr/person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -671,7 +671,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/person/personExtra/x_person_request_relation,emailFlow/workflowAssociate/contactFullName,emailFlow/workflowAssociate/assocType,project/projectAssociate/associateDbId
+GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/mainContact,mailingAddr/contact/restrictionAddress/wgs84longitude,mailingAddr/contact/contactAssociate/title,mailingAddr/contact/saintTicketStatus,mailingAddr/person/hasCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

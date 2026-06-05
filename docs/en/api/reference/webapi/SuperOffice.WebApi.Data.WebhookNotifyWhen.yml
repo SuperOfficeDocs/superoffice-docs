@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.WebApi.Data.WebhookNotifyWhen
+  id: WebhookNotifyWhen
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WebhookNotifyWhen.Disabling
+  - SuperOffice.WebApi.Data.WebhookNotifyWhen.FirstFailure
+  - SuperOffice.WebApi.Data.WebhookNotifyWhen.None
+  langs:
+  - csharp
+  - vb
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyWhen
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    How to notify recipients when a webhook changes state
+
+    This Enum is used by:  Webhook.notify_when
+
+    This Enum consists of flag values that can be combined.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum WebhookNotifyWhen : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum WebhookNotifyWhen As Short
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WebhookNotifyWhen.None
+  commentId: F:SuperOffice.WebApi.Data.WebhookNotifyWhen.None
+  id: None
+  parent: SuperOffice.WebApi.Data.WebhookNotifyWhen
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WebhookNotifyWhen.None
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyWhen.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: 0: No notifications'
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.WebApi.Data.WebhookNotifyWhen
+- uid: SuperOffice.WebApi.Data.WebhookNotifyWhen.FirstFailure
+  commentId: F:SuperOffice.WebApi.Data.WebhookNotifyWhen.FirstFailure
+  id: FirstFailure
+  parent: SuperOffice.WebApi.Data.WebhookNotifyWhen
+  langs:
+  - csharp
+  - vb
+  name: FirstFailure
+  nameWithType: WebhookNotifyWhen.FirstFailure
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyWhen.FirstFailure
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: 1: Notify on first failure'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      FirstFailure = 1
+    return:
+      type: SuperOffice.WebApi.Data.WebhookNotifyWhen
+    content.vb: >-
+      <EnumMember>
+
+      FirstFailure = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.WebhookNotifyWhen.Disabling
+  commentId: F:SuperOffice.WebApi.Data.WebhookNotifyWhen.Disabling
+  id: Disabling
+  parent: SuperOffice.WebApi.Data.WebhookNotifyWhen
+  langs:
+  - csharp
+  - vb
+  name: Disabling
+  nameWithType: WebhookNotifyWhen.Disabling
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyWhen.Disabling
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: 2: Notify when webhook is disabled due to too many errors'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Disabling = 2
+    return:
+      type: SuperOffice.WebApi.Data.WebhookNotifyWhen
+    content.vb: >-
+      <EnumMember>
+
+      Disabling = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.WebApi.Data.WebhookNotifyWhen
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyWhen

@@ -437,7 +437,7 @@ This is the archive Provider for the Selection Project archive.
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -830,7 +830,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionV2?$select=projectAssociate/contactDepartment,sale/saleTypeId,sale/associate/usergroupId,sale/associate/credentialDisplayValue,appointment/createdByWorkflow
+GET /api/v1/archive/ProjectSelectionV2?$select=NumberOfActivitiesInPeriod,saintTicketCategory,sale/stage,sale/saleUdef/SuperOffice:7,appointment/icon
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

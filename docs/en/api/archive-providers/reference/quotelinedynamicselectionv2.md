@@ -186,7 +186,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 |alternative/version/quote/sale/person/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/middleName|string|Sale - Middle name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/person/fullName|stringorPK|Sale - Contact: Displays the contact to which an item is linked| x |
+|alternative/version/quote/sale/person/fullName|string|Sale - Contact: Displays the contact to which an item is linked| x |
 |alternative/version/quote/sale/person/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/person/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/person/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -776,7 +776,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/version/quote/sale/person/email/emailHasBounced,alternative/version/quote/sale/person/personUrl/URLAddress,alternative/version/quote/sale/person/personUdef/SuperOffice:3,alternative/version/quote/sale/person/correspondingAssociate/ejStatus,alternative/version/quote/sale/contact/contactPhone/formattedNumber
+GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/version/quote/sale/contact/country,alternative/version/quote/sale/contact/registeredByFullName,alternative/version/quote/sale/contact/restrictionAddress/addressId,alternative/version/quote/sale/project/imageThumbnail,alternative/version/quote/sale/project/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

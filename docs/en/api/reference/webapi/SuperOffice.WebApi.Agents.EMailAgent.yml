@@ -34,25 +34,30 @@ items:
   - SuperOffice.WebApi.Agents.EMailAgent.DeleteEmailsAsync(System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.DeleteExtendedAsync(SuperOffice.WebApi.Data.EMailConnectionInfoExtended,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.DeleteFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.EmptyFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.FindAddressAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.FindContactOrPersonByEmailNameAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.FindContactOrPersonByEmailNameWithLimitAsync(System.String,System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromIdAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetCurrentAccountAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetCurrentAccountIdAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailAccountAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailAccountFromEMailAddressAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailAddressesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromAttachmentIdAsync(System.Int32,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromDocumentAttachmentIdAsync(System.Int32,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromDocumentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromDocumentIdWithoutAttachmentStreamAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromIdAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromTempAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEMailSOInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.GetEmailAppointmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -86,10 +91,12 @@ items:
   - SuperOffice.WebApi.Agents.EMailAgent.HasSPFRecordAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.LatestItemIdByFolderAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.MarkEmailsAsReadAsync(System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.MoveEmailsToFolderAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.MoveEmailsToTrashAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.RefreshFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.RefreshFolderForAssociateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.EMailAgent.RelayMessageAsync(SuperOffice.WebApi.Data.EMailConnectionInfoExtended,System.String,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
@@ -1071,6 +1078,58 @@ items:
   nameWithType.vb: EMailAgent.GetEMailFromIdAsync(EMailConnectionInfo, Integer, Boolean, EMailFlags, Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromIdAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer, Boolean, SuperOffice.WebApi.Data.EMailFlags, Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: GetEMailFromIdAsync(EMailConnectionInfo, Integer, Boolean, EMailFlags, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, RequestOptions)
+  nameWithType: EMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string, bool, SuperOffice.WebApi.Data.EMailFlags, bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Get en e-mail based on its unique id string
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task<EMailEntity> GetEMailFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string messageServerId, bool lookupAddresses, EMailFlags flags, bool includeAttachments, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerId
+      type: System.String
+      description: Unique ID for the e-mail to retrieve
+    - id: lookupAddresses
+      type: System.Boolean
+      description: If true try to look up e-mail addresses in from/to/cc/bcc fields against superoffice contacts
+    - id: flags
+      type: SuperOffice.WebApi.Data.EMailFlags
+      description: 'Any flags to apply to the fetched item. Ex: Seen/Answered'
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should we retrieve attachments embedded in the e-mail from the server
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EMailEntity}
+      description: The e-mail
+    content.vb: Public Function GetEMailFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerId As String, lookupAddresses As Boolean, flags As EMailFlags, includeAttachments As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of EMailEntity)
+  overload: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String, Boolean, SuperOffice.WebApi.Data.EMailFlags, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.SendEMailsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailEntity[],SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.SendEMailsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailEntity[],SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
   id: SendEMailsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailEntity[],SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
@@ -1320,6 +1379,52 @@ items:
   nameWithType.vb: EMailAgent.GetAttachmentAsync(EMailConnectionInfo, Integer, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer, String, SuperOffice.WebApi.RequestOptions)
   name.vb: GetAttachmentAsync(EMailConnectionInfo, Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, RequestOptions)
+  nameWithType: EMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Retrieve an attachment from an e-mail
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task<EMailAttachment> GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string messageServerId, string attachmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerId
+      type: System.String
+      description: Unique ID for the e-mail to retrieve the attachment from
+    - id: attachmentId
+      type: System.String
+      description: Id of the attachment in the e-mail
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EMailAttachment}
+      description: The attachment
+    content.vb: Public Function GetAttachmentFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerId As String, attachmentId As String, requestOptions As RequestOptions = Nothing) As Task(Of EMailAttachment)
+  overload: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: MarkAsReadAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -1358,7 +1463,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MarkAsReadAsync(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), read As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync*
   implements:
@@ -1366,6 +1471,52 @@ items:
   nameWithType.vb: EMailAgent.MarkAsReadAsync(EMailConnectionInfo, Integer(), Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer(), Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: MarkAsReadAsync(EMailConnectionInfo, Integer(), Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, RequestOptions)
+  nameWithType: EMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Mark one or more e-mails as (un)read
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, bool read, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: The e-mails to handle
+    - id: read
+      type: System.Boolean
+      description: If true mails are marked as read. If false mails are marked as unread.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function MarkAsReadFromServerIdentifiersAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), read As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.GetFolderEMailCountAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.GetFolderEMailCountAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetFolderEMailCountAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -1447,7 +1598,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteAsync(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), moveToFolder As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.DeleteAsync*
   implements:
@@ -1455,6 +1606,52 @@ items:
   nameWithType.vb: EMailAgent.DeleteAsync(EMailConnectionInfo, Integer(), String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.DeleteAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer(), String, SuperOffice.WebApi.RequestOptions)
   name.vb: DeleteAsync(EMailConnectionInfo, Integer(), String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  id: DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  nameWithType: EMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Delete specified mail items
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task DeleteFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, string moveToFolder, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: The e-mails to handle
+    - id: moveToFolder
+      type: System.String
+      description: If set, move deleted items to this folder
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), moveToFolder As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), String, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
   id: MoveToFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
@@ -1493,7 +1690,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MoveToFolderAsync(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), targetFolder As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync*
   implements:
@@ -1501,6 +1698,52 @@ items:
   nameWithType.vb: EMailAgent.MoveToFolderAsync(EMailConnectionInfo, Integer(), String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer(), String, SuperOffice.WebApi.RequestOptions)
   name.vb: MoveToFolderAsync(EMailConnectionInfo, Integer(), String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  id: MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  nameWithType: EMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Moved specified items from current folder to targetFolder
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, string targetFolder, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: The e-mails to handle
+    - id: targetFolder
+      type: System.String
+      description: Name of folder to move items to
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function MoveToFolderFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), targetFolder As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), String, SuperOffice.WebApi.RequestOptions)
+  name.vb: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.EmptyFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.EmptyFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,SuperOffice.WebApi.RequestOptions)
   id: EmptyFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1536,7 +1779,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function EmptyFolderAsync(connectionInfo As EMailConnectionInfo, moveToFolder As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.EmptyFolderAsync*
   implements:
@@ -1593,6 +1836,55 @@ items:
   nameWithType.vb: EMailAgent.GetEMailAsStreamAsync(EMailConnectionInfo, Integer, Boolean, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer, Boolean, String, SuperOffice.WebApi.RequestOptions)
   name.vb: GetEMailAsStreamAsync(EMailConnectionInfo, Integer, Boolean, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, string, RequestOptions)
+  nameWithType: EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string, bool, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Retrieve an e-mail optionally stripping attachments as a stream
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task<byte[]> GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string messageServerId, bool stripAttachments, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerId
+      type: System.String
+      description: Unique ID for the e-mail to retrieve
+    - id: stripAttachments
+      type: System.Boolean
+      description: If true, do not include attachments in stream
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The attachment as a stream
+    content.vb: Public Function GetEMailAsStreamFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerId As String, stripAttachments As Boolean, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String, Boolean, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.FindAddressAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.FindAddressAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: FindAddressAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -1940,6 +2232,49 @@ items:
   nameWithType.vb: EMailAgent.GetEMailEnvelopesAsync(EMailConnectionInfo, Integer(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, Integer(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetEMailEnvelopesAsync(EMailConnectionInfo, Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], RequestOptions)
+  nameWithType: EMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Retrieve a set of e-mail envelopes
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: public Task<EMailEnvelope[]> GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: Unique identitifiers for the e-mails to retrieve envelopes for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EMailEnvelope[]}
+      description: The e-mail envelope objects
+    content.vb: Public Function GetEMailEnvelopesFromServerIdsAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), requestOptions As RequestOptions = Nothing) As Task(Of EMailEnvelope())
+  overload: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: EMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.EMailAgent.SetSubscriptionAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailFolder[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.EMailAgent.SetSubscriptionAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailFolder[],SuperOffice.WebApi.RequestOptions)
   id: SetSubscriptionAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailFolder[],SuperOffice.WebApi.RequestOptions)
@@ -1975,7 +2310,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function SetSubscriptionAsync(connectionInfo As EMailConnectionInfo, folders As EMailFolder(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.SetSubscriptionAsync*
   implements:
@@ -2015,7 +2350,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function CreateFolderAsync(connectionInfo As EMailConnectionInfo, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.CreateFolderAsync*
   implements:
@@ -2052,7 +2387,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteFolderAsync(connectionInfo As EMailConnectionInfo, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.DeleteFolderAsync*
   implements:
@@ -2516,7 +2851,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteExtendedAsync(connectionInfoExtended As EMailConnectionInfoExtended, messageIds As String(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.DeleteExtendedAsync*
   implements:
@@ -2563,7 +2898,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function RelayMessageAsync(connectionInfoExtended As EMailConnectionInfoExtended, rfc822 As String, from As String, recipients As String(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.RelayMessageAsync*
   implements:
@@ -2692,7 +3027,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MarkEmailsAsReadAsync(ids As Integer(), read As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.MarkEmailsAsReadAsync*
   implements:
@@ -2735,7 +3070,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteEmailsAsync(ids As Integer(), moveToFolder As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.DeleteEmailsAsync*
   implements:
@@ -2775,7 +3110,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MoveEmailsToTrashAsync(ids As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.MoveEmailsToTrashAsync*
   implements:
@@ -3171,7 +3506,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MoveEmailsToFolderAsync(folderId As Integer, emailItemIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.MoveEmailsToFolderAsync*
   implements:
@@ -3506,7 +3841,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function SetRepliedAtAsync(messageId As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.SetRepliedAtAsync*
   implements:
@@ -3890,7 +4225,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function ToggleSubscriptionAsync(folderId As Integer, subscriptionStatus As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.EMailAgent.ToggleSubscriptionAsync*
   implements:
@@ -7311,6 +7646,106 @@ references:
   name: EMailFlags
   nameWithType: EMailFlags
   fullName: SuperOffice.WebApi.Data.EMailFlags
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_GetEMailFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_SuperOffice_WebApi_Data_EMailFlags_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: GetEMailFromServerIdentifierAsync
+  nameWithType: EMailAgent.GetEMailFromServerIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetEMailFromServerIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_SuperOffice_WebApi_Data_EMailFlags_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, RequestOptions)
+  nameWithType: IEMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string, bool, SuperOffice.WebApi.Data.EMailFlags, bool, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String, Boolean, SuperOffice.WebApi.Data.EMailFlags, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetEMailFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_SuperOffice_WebApi_Data_EMailFlags_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.EMailFlags
+    name: EMailFlags
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailFlags.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.WebApi.Data.EMailFlags,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: GetEMailFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_SuperOffice_WebApi_Data_EMailFlags_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.EMailFlags
+    name: EMailFlags
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailFlags.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.SendEMailsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.SendEMailsAsync
   isExternal: true
@@ -7799,6 +8234,82 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_GetAttachmentFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetAttachmentFromServerIdentifierAsync
+  nameWithType: EMailAgent.GetAttachmentFromServerIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetAttachmentFromServerIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetAttachmentFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, RequestOptions)
+  nameWithType: IEMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetAttachmentFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetAttachmentFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetAttachmentFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetAttachmentFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadAsync
   isExternal: true
@@ -7900,6 +8411,109 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_MarkAsReadFromServerIdentifiersAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: MarkAsReadFromServerIdentifiersAsync
+  nameWithType: EMailAgent.MarkAsReadFromServerIdentifiersAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.MarkAsReadFromServerIdentifiersAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_MarkAsReadFromServerIdentifiersAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, RequestOptions)
+  nameWithType: IEMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], bool, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: MarkAsReadFromServerIdentifiersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_MarkAsReadFromServerIdentifiersAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: MarkAsReadFromServerIdentifiersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_MarkAsReadFromServerIdentifiersAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.GetFolderEMailCountAsync*
@@ -8046,6 +8660,86 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_DeleteFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  name: DeleteFromServerIdentifierAsync
+  nameWithType: EMailAgent.DeleteFromServerIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.DeleteFromServerIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_DeleteFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  name: DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  nameWithType: IEMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), String, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: DeleteFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_DeleteFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: DeleteFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_DeleteFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderAsync
   isExternal: true
@@ -8111,6 +8805,86 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_MoveToFolderFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  name: MoveToFolderFromServerIdentifierAsync
+  nameWithType: EMailAgent.MoveToFolderFromServerIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.MoveToFolderFromServerIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_MoveToFolderFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  name: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  nameWithType: IEMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), String, SuperOffice.WebApi.RequestOptions)
+  name.vb: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: MoveToFolderFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_MoveToFolderFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],System.String,SuperOffice.WebApi.RequestOptions)
+    name: MoveToFolderFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_MoveToFolderFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
   - name: ','
@@ -8316,6 +9090,94 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.byte
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_GetEMailAsStreamFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetEMailAsStreamFromServerIdentifierAsync
+  nameWithType: EMailAgent.GetEMailAsStreamFromServerIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailAsStreamFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, string, RequestOptions)
+  nameWithType: IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string, bool, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String, Boolean, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetEMailAsStreamFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailAsStreamFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+    name: GetEMailAsStreamFromServerIdentifierAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailAsStreamFromServerIdentifierAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String_System_Boolean_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.FindAddressAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.FindAddressAsync
@@ -8552,29 +9414,6 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-- uid: System.String[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
-  nameWithType.vb: String()
-  fullName.vb: String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
   - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.GetUnsanitizedEMailFromAttachmentIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.GetUnsanitizedEMailFromAttachmentIdAsync
@@ -8922,6 +9761,74 @@ references:
     href: SuperOffice.WebApi.Data.EMailEnvelope.html
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.EMailAgent.html#SuperOffice_WebApi_Agents_EMailAgent_GetEMailEnvelopesFromServerIdsAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___SuperOffice_WebApi_RequestOptions_
+  name: GetEMailEnvelopesFromServerIdsAsync
+  nameWithType: EMailAgent.GetEMailEnvelopesFromServerIdsAsync
+  fullName: SuperOffice.WebApi.Agents.EMailAgent.GetEMailEnvelopesFromServerIdsAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailEnvelopesFromServerIdsAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___SuperOffice_WebApi_RequestOptions_
+  name: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], RequestOptions)
+  nameWithType: IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, string[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo, String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+    name: GetEMailEnvelopesFromServerIdsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailEnvelopesFromServerIdsAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String[],SuperOffice.WebApi.RequestOptions)
+    name: GetEMailEnvelopesFromServerIdsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailEnvelopesFromServerIdsAsync_SuperOffice_WebApi_Data_EMailConnectionInfo_System_String___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.EMailAgent.SetSubscriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.EMailAgent.SetSubscriptionAsync

@@ -211,6 +211,8 @@ items:
   - SuperOffice.Data.TablesInfo.GetKbSolutionFinderTableInfo
   - SuperOffice.Data.TablesInfo.GetKbWorkflowAccessTableInfo
   - SuperOffice.Data.TablesInfo.GetKbWorkflowTableInfo
+  - SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  - SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
   - SuperOffice.Data.TablesInfo.GetLanguageInfoCountryTableInfo
   - SuperOffice.Data.TablesInfo.GetLanguageInfoTableInfo
   - SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
@@ -235,6 +237,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetMessageHeaderTableInfo
   - SuperOffice.Data.TablesInfo.GetMessageIdTableInfo
   - SuperOffice.Data.TablesInfo.GetMessageTableInfo
+  - SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
   - SuperOffice.Data.TablesInfo.GetModuleLicenseTableInfo
   - SuperOffice.Data.TablesInfo.GetModuleOwnerTableInfo
   - SuperOffice.Data.TablesInfo.GetMrMrsGroupLinkTableInfo
@@ -524,6 +527,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
   - SuperOffice.Data.TablesInfo.GetVisibleForTableInfo
   - SuperOffice.Data.TablesInfo.GetWebAppUsageTableInfo
+  - SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
   - SuperOffice.Data.TablesInfo.GetWebhookTableInfo
   - SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
   - SuperOffice.Data.TablesInfo.GetWinPosSizeTableInfo
@@ -553,6 +557,10 @@ items:
   example: []
   syntax:
     content: >-
+      [DatabaseStep]
+
+      [DatabaseStep]
+
       [DatabaseStep]
 
       [DatabaseStep]
@@ -675,6 +683,10 @@ items:
 
       <DatabaseStep>
 
+      <DatabaseStep>
+
+      <DatabaseStep>
+
       Public Module TablesInfo
   inheritance:
   - System.Object
@@ -687,6 +699,12 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   attributes:
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
   - type: SuperOffice.Data.DatabaseStepAttribute
     ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
     arguments: []
@@ -12702,6 +12720,56 @@ items:
       type: SuperOffice.CRM.Data.InvitationTableInfo
     content.vb: Public Shared Function GetInvitationTableInfo() As InvitationTableInfo
   overload: SuperOffice.Data.TablesInfo.GetInvitationTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+  id: GetLandingPageTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLandingPageTableInfo()
+  nameWithType: TablesInfo.GetLandingPageTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of LandingPageTableInfo:
+
+    Per-associate landing page configuration for a given entity type
+  example: []
+  syntax:
+    content: public static LandingPageTableInfo GetLandingPageTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.LandingPageTableInfo
+    content.vb: Public Shared Function GetLandingPageTableInfo() As LandingPageTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  id: GetLandingPagePinTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLandingPagePinTableInfo()
+  nameWithType: TablesInfo.GetLandingPagePinTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of LandingPagePinTableInfo:
+
+    A pinned selection or entity record on a landing page
+  example: []
+  syntax:
+    content: public static LandingPagePinTableInfo GetLandingPagePinTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    content.vb: Public Shared Function GetLandingPagePinTableInfo() As LandingPagePinTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
   id: GetSMessageblockTableInfo
@@ -12752,6 +12820,31 @@ items:
       type: SuperOffice.CRM.Data.MailingDomainsTableInfo
     content.vb: Public Shared Function GetMailingDomainsTableInfo() As MailingDomainsTableInfo
   overload: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+  id: GetMeteringLogTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetMeteringLogTableInfo()
+  nameWithType: TablesInfo.GetMeteringLogTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of MeteringLogTableInfo:
+
+    Metering log table
+  example: []
+  syntax:
+    content: public static MeteringLogTableInfo GetMeteringLogTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.MeteringLogTableInfo
+    content.vb: Public Shared Function GetMeteringLogTableInfo() As MeteringLogTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   id: GetTypicalSearchTableInfo
@@ -13202,6 +13295,31 @@ items:
       type: SuperOffice.CRM.Data.WebhookUsageTableInfo
     content.vb: Public Shared Function GetWebhookUsageTableInfo() As WebhookUsageTableInfo
   overload: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+  id: GetWebhookNotifyTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWebhookNotifyTableInfo()
+  nameWithType: TablesInfo.GetWebhookNotifyTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of WebhookNotifyTableInfo:
+
+    Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails.
+  example: []
+  syntax:
+    content: public static WebhookNotifyTableInfo GetWebhookNotifyTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    content.vb: Public Shared Function GetWebhookNotifyTableInfo() As WebhookNotifyTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
   id: GetWorkflowTableInfo
@@ -21602,6 +21720,36 @@ references:
   name: InvitationTableInfo
   nameWithType: InvitationTableInfo
   fullName: SuperOffice.CRM.Data.InvitationTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetLandingPageTableInfo
+  name: GetLandingPageTableInfo
+  nameWithType: TablesInfo.GetLandingPageTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  name: LandingPageTableInfo
+  nameWithType: LandingPageTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetLandingPagePinTableInfo
+  name: GetLandingPagePinTableInfo
+  nameWithType: TablesInfo.GetLandingPagePinTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPagePinTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  name: LandingPagePinTableInfo
+  nameWithType: LandingPagePinTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
   isExternal: true
@@ -21632,6 +21780,21 @@ references:
   name: MailingDomainsTableInfo
   nameWithType: MailingDomainsTableInfo
   fullName: SuperOffice.CRM.Data.MailingDomainsTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetMeteringLogTableInfo
+  name: GetMeteringLogTableInfo
+  nameWithType: TablesInfo.GetMeteringLogTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+- uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+  commentId: T:SuperOffice.CRM.Data.MeteringLogTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.MeteringLogTableInfo.html
+  name: MeteringLogTableInfo
+  nameWithType: MeteringLogTableInfo
+  fullName: SuperOffice.CRM.Data.MeteringLogTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   isExternal: true
@@ -21902,6 +22065,21 @@ references:
   name: WebhookUsageTableInfo
   nameWithType: WebhookUsageTableInfo
   fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetWebhookNotifyTableInfo
+  name: GetWebhookNotifyTableInfo
+  nameWithType: TablesInfo.GetWebhookNotifyTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  name: WebhookNotifyTableInfo
+  nameWithType: WebhookNotifyTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
   isExternal: true

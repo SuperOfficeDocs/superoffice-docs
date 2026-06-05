@@ -186,7 +186,7 @@ Shadow contact provider for the dynamic quoteline provider.
 |alternative/version/quote/sale/person/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/middleName|string|Sale - Middle name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/person/fullName|stringorPK|Sale - Contact: Displays the contact to which an item is linked| x |
+|alternative/version/quote/sale/person/fullName|string|Sale - Contact: Displays the contact to which an item is linked| x |
 |alternative/version/quote/sale/person/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/person/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/person/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -776,7 +776,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=alternative/version/quote/sale/person/personDeletedDate,alternative/version/quote/sale/person/personExtra/x_person_date,alternative/version/quote/sale/person/personAssociate/title,alternative/version/quote/sale/person/personAssociate/isLocation,alternative/version/quote/sale/person/correspondingAssociate/isActive
+GET /api/v1/archive/QuoteLineShadowDynamicSelection?$select=url,PriceUnitSubscriptionUnit,updatedDate,alternative/version/expiration,alternative/version/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

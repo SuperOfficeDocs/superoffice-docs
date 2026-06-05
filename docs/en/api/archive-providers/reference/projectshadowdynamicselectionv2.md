@@ -439,7 +439,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 | ---- | ----- | ------- | ------ |
 |projectMember/lastName|string|Last name: Displays the contact's last name| x |
 |projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -825,7 +825,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=document/associate/mrMrs,projectMember/supportLanguage,projectMember/registeredBy
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=projectAssociate/usergroup,sale/associate/title,sale/associate/usergroup,appointment/appointment/title,projectMember/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

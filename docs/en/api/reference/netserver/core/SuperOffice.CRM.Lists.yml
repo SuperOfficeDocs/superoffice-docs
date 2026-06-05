@@ -136,6 +136,7 @@ items:
   - SuperOffice.CRM.Lists.KbAccessLevelProvider
   - SuperOffice.CRM.Lists.KbEntryListProvider
   - SuperOffice.CRM.Lists.KbWorkflowProvider
+  - SuperOffice.CRM.Lists.LandingpageProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.LeadStatusListProvider
   - SuperOffice.CRM.Lists.LegalBaseListProvider
@@ -315,6 +316,8 @@ items:
   - SuperOffice.CRM.Lists.VisibleInTaskProvider
   - SuperOffice.CRM.Lists.WebPanelGroupProvider
   - SuperOffice.CRM.Lists.WebPanelProvider
+  - SuperOffice.CRM.Lists.WebhookEntityListProvider
+  - SuperOffice.CRM.Lists.WebhookEventListProvider
   - SuperOffice.CRM.Lists.WeekNumberProvider
   - SuperOffice.CRM.Lists.WeekdayProvider
   - SuperOffice.CRM.Lists.WildcardMDOProviderPluginAttribute
@@ -1323,6 +1326,13 @@ references:
   name: KbWorkflowProvider
   nameWithType: KbWorkflowProvider
   fullName: SuperOffice.CRM.Lists.KbWorkflowProvider
+- uid: SuperOffice.CRM.Lists.LandingpageProvider
+  commentId: T:SuperOffice.CRM.Lists.LandingpageProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.LandingpageProvider.html
+  name: LandingpageProvider
+  nameWithType: LandingpageProvider
+  fullName: SuperOffice.CRM.Lists.LandingpageProvider
 - uid: SuperOffice.CRM.Lists.LanguageProvider
   commentId: T:SuperOffice.CRM.Lists.LanguageProvider
   isExternal: true
@@ -2350,6 +2360,20 @@ references:
   name: VisibleInTaskProvider
   nameWithType: VisibleInTaskProvider
   fullName: SuperOffice.CRM.Lists.VisibleInTaskProvider
+- uid: SuperOffice.CRM.Lists.WebhookEntityListProvider
+  commentId: T:SuperOffice.CRM.Lists.WebhookEntityListProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.WebhookEntityListProvider.html
+  name: WebhookEntityListProvider
+  nameWithType: WebhookEntityListProvider
+  fullName: SuperOffice.CRM.Lists.WebhookEntityListProvider
+- uid: SuperOffice.CRM.Lists.WebhookEventListProvider
+  commentId: T:SuperOffice.CRM.Lists.WebhookEventListProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.WebhookEventListProvider.html
+  name: WebhookEventListProvider
+  nameWithType: WebhookEventListProvider
+  fullName: SuperOffice.CRM.Lists.WebhookEventListProvider
 - uid: SuperOffice.CRM.Lists.WebPanelGroupProvider
   commentId: T:SuperOffice.CRM.Lists.WebPanelGroupProvider
   isExternal: true

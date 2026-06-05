@@ -191,7 +191,7 @@ Shadow contact provider for the quoteline provider.
 |alternative/version/quote/sale/person/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/middleName|string|Sale - Middle name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/person/fullName|stringorPK|Sale - Contact: Displays the contact to which an item is linked| x |
+|alternative/version/quote/sale/person/fullName|string|Sale - Contact: Displays the contact to which an item is linked| x |
 |alternative/version/quote/sale/person/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/person/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/person/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -781,7 +781,7 @@ Shadow contact provider for the quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelection?$select=alternative/version/deliveryTerms,alternative/version/quote/sale/person/kanaFirstName,alternative/version/quote/sale/person/correspondingAssociate/contactCategory,alternative/version/quote/sale/associate/personId,alternative/version/quote/sale/project/projectAssociate/mrMrs
+GET /api/v1/archive/QuoteLineShadowSelection?$select=alternative/version/quote/sale/person/associateType,alternative/version/quote/sale/person/kanaFirstName,alternative/version/quote/sale/contact/email/emailDescription,alternative/version/quote/sale/contact/contactAssociate/firstName,alternative/version/quote/sale/contact/contactAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

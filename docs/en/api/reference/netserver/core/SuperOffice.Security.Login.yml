@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.Security.Login
   id: SuperOffice.Security.Login
   children:
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
   - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
   langs:
   - csharp
@@ -15,6 +16,13 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  commentId: T:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  isExternal: true
+  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  name: EmailConnectivityPostLoginPlugin
+  nameWithType: EmailConnectivityPostLoginPlugin
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
 - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
   commentId: T:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
   isExternal: true

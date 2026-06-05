@@ -437,7 +437,7 @@ Shadow contact provider for the Project provider.
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -830,7 +830,7 @@ Shadow contact provider for the Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowSelectionV2?$select=appointment/associate/portraitThumbnail,appointment/associate/locationAddress,appointment/appointment/agenda,document/associate/usergroupId,document/associate/role
+GET /api/v1/archive/ProjectShadowSelectionV2?$select=registeredDate,appointment/appointmentPublish/publishedTo,appointment/associate/personId,projectMember/personAssociate/personEmail,projectMember/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

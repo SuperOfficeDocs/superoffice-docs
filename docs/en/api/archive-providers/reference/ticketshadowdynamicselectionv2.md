@@ -33,7 +33,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
 |categoryId|int|Category ID: ID of request category in database| x |
-|ticketTypeName|listAny|Request type: Request type| x |
+|ticketTypeName| *None* |Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -159,7 +159,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -797,7 +797,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=person/personCategoryGroup,person/personAssociate/simultaneousEjUser,sale/associate/isActiveText
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=createdBy/associateDbId,person/personUdef/SuperOffice:2,person/correspondingAssociate/locationAddress,contact/contactUdef/SuperOffice:4,project/projectAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

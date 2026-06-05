@@ -167,6 +167,7 @@ items:
   - SuperOffice.WebApi.Data.ExportArchiveResult
   - SuperOffice.WebApi.Data.ExtAppEntity
   - SuperOffice.WebApi.Data.Favourite
+  - SuperOffice.WebApi.Data.FencingInfo
   - SuperOffice.WebApi.Data.FieldMetadata
   - SuperOffice.WebApi.Data.FieldValue
   - SuperOffice.WebApi.Data.FindResults
@@ -187,6 +188,7 @@ items:
   - SuperOffice.WebApi.Data.ImportLine
   - SuperOffice.WebApi.Data.IncomingMessage
   - SuperOffice.WebApi.Data.Installation
+  - SuperOffice.WebApi.Data.LandingPageEntity
   - SuperOffice.WebApi.Data.LanguageInfo
   - SuperOffice.WebApi.Data.LegalBase
   - SuperOffice.WebApi.Data.License

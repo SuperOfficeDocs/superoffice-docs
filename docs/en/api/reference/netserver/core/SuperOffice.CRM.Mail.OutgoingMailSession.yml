@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Mail
   children:
   - SuperOffice.CRM.Mail.OutgoingMailSession.SendEMailAsync(SuperOffice.CRM.Mail.MailItem,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogoutAsync
@@ -47,6 +48,51 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Mail.OutgoingMailSession.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Mail.OutgoingMailSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Mail.OutgoingMailSession
+  langs:
+  - csharp
+  - vb
+  name: ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  nameWithType: OutgoingMailSession.ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(string, string, string, bool, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  summary: Log on to the mail server
+  example: []
+  syntax:
+    content: protected override Task<ISoOutgoingMailInterface> ServerLoginAsync(string server, string userName, string password, bool useSSL, bool useGraphApi, CancellationToken cancellationToken)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Use SSL
+    - id: useGraphApi
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
+      description: Instance of interface to the mail plugin.
+    content.vb: Protected Overrides Function ServerLoginAsync(server As String, userName As String, password As String, useSSL As Boolean, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of ISoOutgoingMailInterface)
+  overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync*
+  nameWithType.vb: OutgoingMailSession.ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   id: ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
@@ -61,7 +107,7 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
-  summary: Log on to the mail server
+  summary: Implemented in sub classes to log on to the mail server.
   example: []
   syntax:
     content: protected override Task<ISoOutgoingMailInterface> ServerLoginAsync(string server, string userName, string password, bool useSSL, CancellationToken cancellationToken)
@@ -944,22 +990,22 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
-  definition: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
-  name: ServerLoginAsync(string, string, string, bool, CancellationToken)
-  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLoginAsync(string, string, string, bool, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLoginAsync(string, string, string, bool, System.Threading.CancellationToken)
-  nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).ServerLoginAsync(String, String, String, Boolean, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLoginAsync(String, String, String, Boolean, System.Threading.CancellationToken)
-  name.vb: ServerLoginAsync(String, String, String, Boolean, CancellationToken)
+  definition: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  name: ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLoginAsync(string, string, string, bool, bool, System.Threading.CancellationToken)
+  nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLoginAsync(String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
     name: ServerLoginAsync
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: string
@@ -985,16 +1031,22 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: ','
   - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
     name: ServerLoginAsync
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: String
@@ -1020,6 +1072,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: ','
   - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
@@ -1028,7 +1086,7 @@ references:
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync*
   commentId: Overload:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync
   isExternal: true
-  href: SuperOffice.CRM.Mail.OutgoingMailSession.html#SuperOffice_CRM_Mail_OutgoingMailSession_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Mail.OutgoingMailSession.html#SuperOffice_CRM_Mail_OutgoingMailSession_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   name: ServerLoginAsync
   nameWithType: OutgoingMailSession.ServerLoginAsync
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLoginAsync
@@ -1095,21 +1153,21 @@ references:
     name: ISoOutgoingMailInterface
     isExternal: true
   - name: )
-- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
-  name: ServerLoginAsync(string, string, string, bool, CancellationToken)
-  nameWithType: MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, System.Threading.CancellationToken)
-  nameWithType.vb: MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, System.Threading.CancellationToken)
-  name.vb: ServerLoginAsync(String, String, String, Boolean, CancellationToken)
+  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  name: ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  nameWithType: MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, bool, System.Threading.CancellationToken)
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
     name: ServerLoginAsync
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: string
@@ -1135,16 +1193,22 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: ','
   - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
     name: ServerLoginAsync
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: String
@@ -1162,6 +1226,12 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: ','
   - name: " "
   - uid: System.Boolean
@@ -1267,6 +1337,167 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: ServerLoginAsync(string, string, string, bool, CancellationToken)
+  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLoginAsync(string, string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLoginAsync(string, string, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).ServerLoginAsync(String, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLoginAsync(String, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: ServerLoginAsync(String, String, String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ServerLoginAsync
+    isExternal: true
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ServerLoginAsync
+    isExternal: true
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: ServerLoginAsync(string, string, string, bool, CancellationToken)
+  nameWithType: MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: ServerLoginAsync(String, String, String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ServerLoginAsync
+    isExternal: true
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: ServerLoginAsync
+    isExternal: true
+    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLoginAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLoginAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}

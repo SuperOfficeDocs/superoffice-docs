@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# Webhook Table (516)
+# Webhook Table (519)
 
 Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
 
@@ -32,6 +32,9 @@ Webhook URL to call when events occur in the client or in NetServer. Also tracks
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)| |
 |updatedCount|Number of updates made to this record|UShort| |
 |errors\_email|Email address to send error message to when this webhook state changes to too-many errors.|String(239)|&#x25CF;|
+|description|Human-readable description of what this webhook does.|String(4000)|&#x25CF;|
+|notify\_via|How to notify recipients when this webhook changes state. 1=Email, 2=InApp.|Enum [WebhookNotifyVia](enums/webhooknotifyvia.md)| |
+|notify\_when|When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.|Enum [WebhookNotifyWhen](enums/webhooknotifywhen.md)| |
 
 
 ![Webhook table relationship diagram](./media/Webhook.png)
@@ -48,6 +51,7 @@ Webhook URL to call when events occur in the client or in NetServer. Also tracks
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
+|[Webhook\_notify](webhook-notify.md)  |Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails. |
 
 
 ## Replication Flags

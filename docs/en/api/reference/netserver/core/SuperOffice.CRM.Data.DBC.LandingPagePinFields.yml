@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  id: DBC.LandingPagePinFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPageId
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPagePinId
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.RecordId
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.Registered
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.TableNumber
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.Updated
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.LandingPagePinFields
+  nameWithType: DBC.LandingPagePinFields
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for LandingPagePin, A pinned selection or entity record on a landing page
+  example: []
+  syntax:
+    content: public static class DBC.LandingPagePinFields
+    content.vb: Public Module DBC.LandingPagePinFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPagePinId
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPagePinId
+  id: LandingPagePinId
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: LandingPagePinId
+  nameWithType: DBC.LandingPagePinFields.LandingPagePinId
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPagePinId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.LandingPagePinId: Primary key'
+  example: []
+  syntax:
+    content: public const string LandingPagePinId = "landing_page_pin_id"
+    return:
+      type: System.String
+    content.vb: Public Const LandingPagePinId As String = "landing_page_pin_id"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPageId
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPageId
+  id: LandingPageId
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: LandingPageId
+  nameWithType: DBC.LandingPagePinFields.LandingPageId
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.LandingPageId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.LandingPageId: The landing page this pin belongs to'
+  example: []
+  syntax:
+    content: public const string LandingPageId = "landing_page_id"
+    return:
+      type: System.String
+    content.vb: Public Const LandingPageId As String = "landing_page_id"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.TableNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: DBC.LandingPagePinFields.TableNumber
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.TableNumber
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.TableNumber: Table number of the pinned record (selection table number, or entity table number such as contact, person, sale)'
+  example: []
+  syntax:
+    content: public const string TableNumber = "table_number"
+    return:
+      type: System.String
+    content.vb: Public Const TableNumber As String = "table_number"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.RecordId
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: DBC.LandingPagePinFields.RecordId
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.RecordId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.RecordId: The id of the pinned record in the referenced table'
+  example: []
+  syntax:
+    content: public const string RecordId = "record_id"
+    return:
+      type: System.String
+    content.vb: Public Const RecordId As String = "record_id"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.LandingPagePinFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.LandingPagePinFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.LandingPagePinFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.LandingPagePinFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.LandingPagePinFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

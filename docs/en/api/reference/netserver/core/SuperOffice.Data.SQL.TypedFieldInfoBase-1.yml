@@ -115,6 +115,8 @@ items:
   - SuperOffice.Data.SQL.LogEventFieldInfo
   - SuperOffice.Data.SQL.LoginFlagsFieldInfo
   - SuperOffice.Data.SQL.MailboxTypeFieldInfo
+  - SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+  - SuperOffice.Data.SQL.MeteringStatusFieldInfo
   - SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
   - SuperOffice.Data.SQL.NavigationFieldInfo
   - SuperOffice.Data.SQL.NotificationPlatformFieldInfo
@@ -184,6 +186,8 @@ items:
   - SuperOffice.Data.SQL.UrlEncodingFieldInfo
   - SuperOffice.Data.SQL.ValueOverrideFieldInfo
   - SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+  - SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  - SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
   - SuperOffice.Data.SQL.WebhookStateFieldInfo
   - SuperOffice.Data.SQL.WeekdayFieldInfo
   - SuperOffice.Data.SQL.WidgetRequiredFieldsFieldInfo

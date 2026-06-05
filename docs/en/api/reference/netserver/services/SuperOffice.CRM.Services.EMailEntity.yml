@@ -29,6 +29,7 @@ items:
   - SuperOffice.CRM.Services.EMailEntity.RepliedAt
   - SuperOffice.CRM.Services.EMailEntity.Sent
   - SuperOffice.CRM.Services.EMailEntity.ServerId
+  - SuperOffice.CRM.Services.EMailEntity.ServerIdentifier
   - SuperOffice.CRM.Services.EMailEntity.Size
   - SuperOffice.CRM.Services.EMailEntity.Subject
   - SuperOffice.CRM.Services.EMailEntity.To
@@ -55,11 +56,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
 
       public class EMailEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
 
       Public Class EMailEntity Inherits Carrier
   seealso:
@@ -74,7 +75,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.13.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
 - uid: SuperOffice.CRM.Services.EMailEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.EMailEntity.#ctor
   id: '#ctor'
@@ -645,6 +646,39 @@ items:
 
       Public Overridable Property ServerId As Integer
   overload: SuperOffice.CRM.Services.EMailEntity.ServerId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.EMailEntity.ServerIdentifier
+  commentId: P:SuperOffice.CRM.Services.EMailEntity.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.CRM.Services.EMailEntity
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: EMailEntity.ServerIdentifier
+  fullName: SuperOffice.CRM.Services.EMailEntity.ServerIdentifier
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Server identifier of this email item (GraphApi uses string Id's)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ServerIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ServerIdentifier As String
+  overload: SuperOffice.CRM.Services.EMailEntity.ServerIdentifier*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -1291,6 +1325,13 @@ references:
   name: ServerId
   nameWithType: EMailEntity.ServerId
   fullName: SuperOffice.CRM.Services.EMailEntity.ServerId
+- uid: SuperOffice.CRM.Services.EMailEntity.ServerIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEntity.ServerIdentifier
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailEntity.html#SuperOffice_CRM_Services_EMailEntity_ServerIdentifier
+  name: ServerIdentifier
+  nameWithType: EMailEntity.ServerIdentifier
+  fullName: SuperOffice.CRM.Services.EMailEntity.ServerIdentifier
 - uid: SuperOffice.CRM.Services.EMailEntity.Attachments*
   commentId: Overload:SuperOffice.CRM.Services.EMailEntity.Attachments
   isExternal: true

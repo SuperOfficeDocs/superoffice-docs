@@ -55,3 +55,5 @@ content_type: reference
 * [POST Agents/License/GetCentralLicense](v1LicenseAgent_GetCentralLicense.md)
 
 * [POST Agents/License/SaveCentralLicense](v1LicenseAgent_SaveCentralLicense.md)
+
+* [POST Agents/License/GetFencingInfo](v1LicenseAgent_GetFencingInfo.md)

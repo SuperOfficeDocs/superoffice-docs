@@ -191,7 +191,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/middleName|string|Sale - Middle name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/person/fullName|stringorPK|Sale - Contact: Displays the contact to which an item is linked| x |
+|alternative/version/quote/sale/person/fullName|string|Sale - Contact: Displays the contact to which an item is linked| x |
 |alternative/version/quote/sale/person/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/person/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/person/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -781,7 +781,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/quoteAlternativeId,alternative/subTotal,alternative/version/approvedText,alternative/version/quote/sale/amount,alternative/version/quote/sale/person/hasCompany
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=totalPriceIncVAT,alternative/version/quote/sale/person/personMobilePhone/description,alternative/version/quote/sale/person/correspondingAssociate/contactDepartment,alternative/version/quote/sale/person/correspondingAssociate/ejStatus,alternative/version/quote/sale/associate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

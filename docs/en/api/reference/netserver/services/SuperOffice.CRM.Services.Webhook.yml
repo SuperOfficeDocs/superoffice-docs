@@ -6,10 +6,17 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.Webhook.#ctor
+  - SuperOffice.CRM.Services.Webhook.ConsecutiveErrors
+  - SuperOffice.CRM.Services.Webhook.Description
+  - SuperOffice.CRM.Services.Webhook.ErrorAssociates
+  - SuperOffice.CRM.Services.Webhook.ErrorEmails
   - SuperOffice.CRM.Services.Webhook.ErrorsEmail
   - SuperOffice.CRM.Services.Webhook.Events
   - SuperOffice.CRM.Services.Webhook.Headers
+  - SuperOffice.CRM.Services.Webhook.LastError
   - SuperOffice.CRM.Services.Webhook.Name
+  - SuperOffice.CRM.Services.Webhook.NotifyVia
+  - SuperOffice.CRM.Services.Webhook.NotifyWhen
   - SuperOffice.CRM.Services.Webhook.Properties
   - SuperOffice.CRM.Services.Webhook.Registered
   - SuperOffice.CRM.Services.Webhook.RegisteredAssociate
@@ -18,6 +25,8 @@ items:
   - SuperOffice.CRM.Services.Webhook.TargetUrl
   - SuperOffice.CRM.Services.Webhook.ToString
   - SuperOffice.CRM.Services.Webhook.ToString(System.String)
+  - SuperOffice.CRM.Services.Webhook.TotalCalls
+  - SuperOffice.CRM.Services.Webhook.TotalErrors
   - SuperOffice.CRM.Services.Webhook.Type
   - SuperOffice.CRM.Services.Webhook.Updated
   - SuperOffice.CRM.Services.Webhook.UpdatedAssociate
@@ -57,11 +66,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
 
       public class Webhook
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
 
       Public Class Webhook
   seealso:
@@ -83,7 +92,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.13.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
 - uid: SuperOffice.CRM.Services.Webhook.#ctor
   commentId: M:SuperOffice.CRM.Services.Webhook.#ctor
   id: '#ctor'
@@ -607,7 +616,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Email address to send error message to when this webhook state changes to too-many errors.
+  summary: Obsolete, use ErrorEmails instead
   example: []
   syntax:
     content: >-
@@ -622,6 +631,303 @@ items:
 
       Public Overridable Property ErrorsEmail As String
   overload: SuperOffice.CRM.Services.Webhook.ErrorsEmail*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.ErrorEmails
+  commentId: P:SuperOffice.CRM.Services.Webhook.ErrorEmails
+  id: ErrorEmails
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorEmails
+  nameWithType: Webhook.ErrorEmails
+  fullName: SuperOffice.CRM.Services.Webhook.ErrorEmails
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Email addresses to notify when this webhook is disabled.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string[] ErrorEmails { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErrorEmails As String()
+  overload: SuperOffice.CRM.Services.Webhook.ErrorEmails*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.ErrorAssociates
+  commentId: P:SuperOffice.CRM.Services.Webhook.ErrorAssociates
+  id: ErrorAssociates
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorAssociates
+  nameWithType: Webhook.ErrorAssociates
+  fullName: SuperOffice.CRM.Services.Webhook.ErrorAssociates
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Associates to notify when this webhook is disabled.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual MDOListItem[] ErrorAssociates { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ErrorAssociates As MDOListItem()
+  overload: SuperOffice.CRM.Services.Webhook.ErrorAssociates*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.Description
+  commentId: P:SuperOffice.CRM.Services.Webhook.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Webhook.Description
+  fullName: SuperOffice.CRM.Services.Webhook.Description
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Human-readable description of what this webhook does.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.Webhook.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.NotifyVia
+  commentId: P:SuperOffice.CRM.Services.Webhook.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.CRM.Services.Webhook.NotifyVia
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: How to notify recipients when this webhook changes state. 1=Email, 2=InApp.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual WebhookNotifyVia NotifyVia { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WebhookNotifyVia
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NotifyVia As WebhookNotifyVia
+  overload: SuperOffice.CRM.Services.Webhook.NotifyVia*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.NotifyWhen
+  commentId: P:SuperOffice.CRM.Services.Webhook.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.CRM.Services.Webhook.NotifyWhen
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: 'When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.'
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual WebhookNotifyWhen NotifyWhen { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WebhookNotifyWhen
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NotifyWhen As WebhookNotifyWhen
+  overload: SuperOffice.CRM.Services.Webhook.NotifyWhen*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.TotalCalls
+  commentId: P:SuperOffice.CRM.Services.Webhook.TotalCalls
+  id: TotalCalls
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: TotalCalls
+  nameWithType: Webhook.TotalCalls
+  fullName: SuperOffice.CRM.Services.Webhook.TotalCalls
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of times webhook has been invoked since registered. For statistical purposes.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotalCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotalCalls As Integer
+  overload: SuperOffice.CRM.Services.Webhook.TotalCalls*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.TotalErrors
+  commentId: P:SuperOffice.CRM.Services.Webhook.TotalErrors
+  id: TotalErrors
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: TotalErrors
+  nameWithType: Webhook.TotalErrors
+  fullName: SuperOffice.CRM.Services.Webhook.TotalErrors
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of times webhook has returned error since registered. For statistical purposes.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int TotalErrors { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property TotalErrors As Integer
+  overload: SuperOffice.CRM.Services.Webhook.TotalErrors*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.ConsecutiveErrors
+  commentId: P:SuperOffice.CRM.Services.Webhook.ConsecutiveErrors
+  id: ConsecutiveErrors
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ConsecutiveErrors
+  nameWithType: Webhook.ConsecutiveErrors
+  fullName: SuperOffice.CRM.Services.Webhook.ConsecutiveErrors
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, webhook.state is changed to TooManyErrors(3) to deactivate webhook.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int ConsecutiveErrors { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ConsecutiveErrors As Integer
+  overload: SuperOffice.CRM.Services.Webhook.ConsecutiveErrors*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Webhook.LastError
+  commentId: P:SuperOffice.CRM.Services.Webhook.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Services.Webhook
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: Webhook.LastError
+  fullName: SuperOffice.CRM.Services.Webhook.LastError
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string LastError { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LastError As String
+  overload: SuperOffice.CRM.Services.Webhook.LastError*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -1103,3 +1409,101 @@ references:
   name: ErrorsEmail
   nameWithType: Webhook.ErrorsEmail
   fullName: SuperOffice.CRM.Services.Webhook.ErrorsEmail
+- uid: SuperOffice.CRM.Services.Webhook.ErrorEmails*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.ErrorEmails
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_ErrorEmails
+  name: ErrorEmails
+  nameWithType: Webhook.ErrorEmails
+  fullName: SuperOffice.CRM.Services.Webhook.ErrorEmails
+- uid: SuperOffice.CRM.Services.Webhook.ErrorAssociates*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.ErrorAssociates
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_ErrorAssociates
+  name: ErrorAssociates
+  nameWithType: Webhook.ErrorAssociates
+  fullName: SuperOffice.CRM.Services.Webhook.ErrorAssociates
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.MDOListItem.html
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.MDOListItem.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.Webhook.Description*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.Description
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_Description
+  name: Description
+  nameWithType: Webhook.Description
+  fullName: SuperOffice.CRM.Services.Webhook.Description
+- uid: SuperOffice.CRM.Services.Webhook.NotifyVia*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.NotifyVia
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_NotifyVia
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.CRM.Services.Webhook.NotifyVia
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: '!:SuperOffice.Data.WebhookNotifyVia'
+  isExternal: true
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.CRM.Services.Webhook.NotifyWhen*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.NotifyWhen
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_NotifyWhen
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.CRM.Services.Webhook.NotifyWhen
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: '!:SuperOffice.Data.WebhookNotifyWhen'
+  isExternal: true
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
+- uid: SuperOffice.CRM.Services.Webhook.TotalCalls*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.TotalCalls
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_TotalCalls
+  name: TotalCalls
+  nameWithType: Webhook.TotalCalls
+  fullName: SuperOffice.CRM.Services.Webhook.TotalCalls
+- uid: SuperOffice.CRM.Services.Webhook.TotalErrors*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.TotalErrors
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_TotalErrors
+  name: TotalErrors
+  nameWithType: Webhook.TotalErrors
+  fullName: SuperOffice.CRM.Services.Webhook.TotalErrors
+- uid: SuperOffice.CRM.Services.Webhook.ConsecutiveErrors*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.ConsecutiveErrors
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_ConsecutiveErrors
+  name: ConsecutiveErrors
+  nameWithType: Webhook.ConsecutiveErrors
+  fullName: SuperOffice.CRM.Services.Webhook.ConsecutiveErrors
+- uid: SuperOffice.CRM.Services.Webhook.LastError*
+  commentId: Overload:SuperOffice.CRM.Services.Webhook.LastError
+  isExternal: true
+  href: SuperOffice.CRM.Services.Webhook.html#SuperOffice_CRM_Services_Webhook_LastError
+  name: LastError
+  nameWithType: Webhook.LastError
+  fullName: SuperOffice.CRM.Services.Webhook.LastError

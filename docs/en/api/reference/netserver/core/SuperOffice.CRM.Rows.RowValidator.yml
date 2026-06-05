@@ -127,6 +127,8 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageActionType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItem@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MessageHeaderStdItemCol@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringEventType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ModifiedAppointmentFields@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Navigation@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
@@ -215,6 +217,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketPriorityStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketReadStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationError@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketSecurityLevel@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketStatusTimeCounter@,SuperOffice.Data.SQL.FieldInfo)
@@ -232,6 +235,8 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ValueOverride@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.VideoMeetingStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Visibility@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyVia@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyWhen@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WeekOfMonth@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Weekday@,SuperOffice.Data.SQL.FieldInfo)
@@ -5388,6 +5393,62 @@ items:
   nameWithType.vb: RowValidator.ValidateField(WebhookState, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookState, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(WebhookState, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyVia@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyVia@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WebhookNotifyVia@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WebhookNotifyVia, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WebhookNotifyVia, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WebhookNotifyVia, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WebhookNotifyVia field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WebhookNotifyVia
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As WebhookNotifyVia, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(WebhookNotifyVia, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyVia, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(WebhookNotifyVia, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyWhen@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyWhen@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.WebhookNotifyWhen@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref WebhookNotifyWhen, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref WebhookNotifyWhen, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.WebhookNotifyWhen, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref WebhookNotifyWhen field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.WebhookNotifyWhen
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As WebhookNotifyWhen, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(WebhookNotifyWhen, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WebhookNotifyWhen, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(WebhookNotifyWhen, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CommandAction@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CommandAction@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.CommandAction@,SuperOffice.Data.SQL.FieldInfo)
@@ -6508,6 +6569,62 @@ items:
   nameWithType.vb: RowValidator.ValidateField(FormFieldRestrictionType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.FormFieldRestrictionType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(FormFieldRestrictionType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringEventType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringEventType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.MeteringEventType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref MeteringEventType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref MeteringEventType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.MeteringEventType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref MeteringEventType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.MeteringEventType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As MeteringEventType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(MeteringEventType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringEventType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(MeteringEventType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringStatus@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringStatus@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.MeteringStatus@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref MeteringStatus, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref MeteringStatus, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.MeteringStatus, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref MeteringStatus field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.MeteringStatus
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As MeteringStatus, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(MeteringStatus, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringStatus, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(MeteringStatus, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -7208,6 +7325,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(TicketRelationType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(TicketRelationType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationError@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationError@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TicketRelationError@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TicketRelationError, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TicketRelationError, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TicketRelationError, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TicketRelationError field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TicketRelationError
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As TicketRelationError, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(TicketRelationError, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketRelationError, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(TicketRelationError, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
@@ -10658,6 +10803,22 @@ references:
   name: WebhookState
   nameWithType: WebhookState
   fullName: SuperOffice.Data.WebhookState
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: T:SuperOffice.Data.WebhookNotifyVia
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.Data.WebhookNotifyWhen
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
 - uid: SuperOffice.Data.CommandAction
   commentId: T:SuperOffice.Data.CommandAction
   parent: SuperOffice.Data
@@ -10978,6 +11139,22 @@ references:
   name: FormFieldRestrictionType
   nameWithType: FormFieldRestrictionType
   fullName: SuperOffice.Data.FormFieldRestrictionType
+- uid: SuperOffice.Data.MeteringEventType
+  commentId: T:SuperOffice.Data.MeteringEventType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.MeteringEventType.html
+  name: MeteringEventType
+  nameWithType: MeteringEventType
+  fullName: SuperOffice.Data.MeteringEventType
+- uid: SuperOffice.Data.MeteringStatus
+  commentId: T:SuperOffice.Data.MeteringStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.MeteringStatus.html
+  name: MeteringStatus
+  nameWithType: MeteringStatus
+  fullName: SuperOffice.Data.MeteringStatus
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -11178,6 +11355,14 @@ references:
   name: TicketRelationType
   nameWithType: TicketRelationType
   fullName: SuperOffice.Data.TicketRelationType
+- uid: SuperOffice.Data.TicketRelationError
+  commentId: T:SuperOffice.Data.TicketRelationError
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketRelationError.html
+  name: TicketRelationError
+  nameWithType: TicketRelationError
+  fullName: SuperOffice.Data.TicketRelationError
 - uid: SuperOffice.Data.NotifyType
   commentId: T:SuperOffice.Data.NotifyType
   parent: SuperOffice.Data

@@ -291,6 +291,8 @@ items:
   - SuperOffice.CRM.Data.DBC.KbSolutionFinderFields
   - SuperOffice.CRM.Data.DBC.KbWorkflowAccessFields
   - SuperOffice.CRM.Data.DBC.KbWorkflowFields
+  - SuperOffice.CRM.Data.DBC.LandingPageFields
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields
   - SuperOffice.CRM.Data.DBC.LanguageInfoCountryFields
   - SuperOffice.CRM.Data.DBC.LanguageInfoFields
   - SuperOffice.CRM.Data.DBC.LeadstatusFields
@@ -315,6 +317,7 @@ items:
   - SuperOffice.CRM.Data.DBC.MessageHandlerFields
   - SuperOffice.CRM.Data.DBC.MessageHeaderFields
   - SuperOffice.CRM.Data.DBC.MessageIdFields
+  - SuperOffice.CRM.Data.DBC.MeteringLogFields
   - SuperOffice.CRM.Data.DBC.ModuleLicenseFields
   - SuperOffice.CRM.Data.DBC.ModuleOwnerFields
   - SuperOffice.CRM.Data.DBC.MrMrsFields
@@ -600,6 +603,7 @@ items:
   - SuperOffice.CRM.Data.DBC.VisibleForFields
   - SuperOffice.CRM.Data.DBC.WebAppUsageFields
   - SuperOffice.CRM.Data.DBC.WebhookFields
+  - SuperOffice.CRM.Data.DBC.WebhookNotifyFields
   - SuperOffice.CRM.Data.DBC.WebhookUsageFields
   - SuperOffice.CRM.Data.DBC.WinPosSizeFields
   - SuperOffice.CRM.Data.DBC.WordRelationsFields
@@ -741,6 +745,8 @@ items:
   - SuperOffice.CRM.Data.KbSolutionFinderTableInfo
   - SuperOffice.CRM.Data.KbWorkflowAccessTableInfo
   - SuperOffice.CRM.Data.KbWorkflowTableInfo
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo
+  - SuperOffice.CRM.Data.LandingPageTableInfo
   - SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
   - SuperOffice.CRM.Data.LanguageInfoTableInfo
   - SuperOffice.CRM.Data.LeadstatusTableInfo
@@ -765,6 +771,7 @@ items:
   - SuperOffice.CRM.Data.MessageHeaderTableInfo
   - SuperOffice.CRM.Data.MessageIdTableInfo
   - SuperOffice.CRM.Data.MessageTableInfo
+  - SuperOffice.CRM.Data.MeteringLogTableInfo
   - SuperOffice.CRM.Data.ModuleLicenseTableInfo
   - SuperOffice.CRM.Data.ModuleOwnerTableInfo
   - SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
@@ -1049,6 +1056,7 @@ items:
   - SuperOffice.CRM.Data.UtmParametersTableInfo
   - SuperOffice.CRM.Data.VisibleForTableInfo
   - SuperOffice.CRM.Data.WebAppUsageTableInfo
+  - SuperOffice.CRM.Data.WebhookNotifyTableInfo
   - SuperOffice.CRM.Data.WebhookTableInfo
   - SuperOffice.CRM.Data.WebhookUsageTableInfo
   - SuperOffice.CRM.Data.WinPosSizeTableInfo
@@ -14680,6 +14688,60 @@ references:
     name: InvitationFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.InvitationFields.html
+- uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LandingPageFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.LandingPageFields
+  nameWithType: DBC.LandingPageFields
+  fullName: SuperOffice.CRM.Data.DBC.LandingPageFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+    name: LandingPageFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPageFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+    name: LandingPageFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPageFields.html
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.LandingPagePinFields
+  nameWithType: DBC.LandingPagePinFields
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+    name: LandingPagePinFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPagePinFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+    name: LandingPagePinFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPagePinFields.html
 - uid: SuperOffice.CRM.Data.DBC.SMessageblockFields
   commentId: T:SuperOffice.CRM.Data.DBC.SMessageblockFields
   isExternal: true
@@ -14734,6 +14796,33 @@ references:
     name: MailingDomainsFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.MailingDomainsFields.html
+- uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MeteringLogFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.MeteringLogFields
+  nameWithType: DBC.MeteringLogFields
+  fullName: SuperOffice.CRM.Data.DBC.MeteringLogFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+    name: MeteringLogFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.MeteringLogFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+    name: MeteringLogFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.MeteringLogFields.html
 - uid: SuperOffice.CRM.Data.DBC.TypicalSearchFields
   commentId: T:SuperOffice.CRM.Data.DBC.TypicalSearchFields
   isExternal: true
@@ -15220,6 +15309,33 @@ references:
     name: WebhookUsageFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.WebhookUsageFields.html
+- uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.WebhookNotifyFields
+  nameWithType: DBC.WebhookNotifyFields
+  fullName: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+    name: WebhookNotifyFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.WebhookNotifyFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+    name: WebhookNotifyFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.WebhookNotifyFields.html
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields
   commentId: T:SuperOffice.CRM.Data.DBC.WorkflowFields
   isExternal: true
@@ -17019,6 +17135,22 @@ references:
   name: KbWorkflowAccessTableInfo
   nameWithType: KbWorkflowAccessTableInfo
   fullName: SuperOffice.CRM.Data.KbWorkflowAccessTableInfo
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  name: LandingPageTableInfo
+  nameWithType: LandingPageTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPagePinTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  name: LandingPagePinTableInfo
+  nameWithType: LandingPagePinTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo
 - uid: SuperOffice.CRM.Data.LanguageInfoTableInfo
   commentId: T:SuperOffice.CRM.Data.LanguageInfoTableInfo
   parent: SuperOffice.CRM.Data
@@ -17211,6 +17343,14 @@ references:
   name: MessageIdTableInfo
   nameWithType: MessageIdTableInfo
   fullName: SuperOffice.CRM.Data.MessageIdTableInfo
+- uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+  commentId: T:SuperOffice.CRM.Data.MeteringLogTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.MeteringLogTableInfo.html
+  name: MeteringLogTableInfo
+  nameWithType: MeteringLogTableInfo
+  fullName: SuperOffice.CRM.Data.MeteringLogTableInfo
 - uid: SuperOffice.CRM.Data.ModuleLicenseTableInfo
   commentId: T:SuperOffice.CRM.Data.ModuleLicenseTableInfo
   parent: SuperOffice.CRM.Data
@@ -19491,6 +19631,14 @@ references:
   name: WebhookTableInfo
   nameWithType: WebhookTableInfo
   fullName: SuperOffice.CRM.Data.WebhookTableInfo
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  name: WebhookNotifyTableInfo
+  nameWithType: WebhookNotifyTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
   commentId: T:SuperOffice.CRM.Data.WebhookUsageTableInfo
   parent: SuperOffice.CRM.Data

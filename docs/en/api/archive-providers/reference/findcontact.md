@@ -575,7 +575,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
@@ -780,7 +780,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContact?$select=updatedByFullName,contactAssociate/userName,targetRelation/deletedDate,sale/associate/assocName,document/associate/userName
+GET /api/v1/archive/FindContact?$select=searchPhone/formattedNumber,appointment/time,document/document/textId,personAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

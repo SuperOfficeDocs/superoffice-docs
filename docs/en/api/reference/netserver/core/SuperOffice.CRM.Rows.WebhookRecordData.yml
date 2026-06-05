@@ -7,10 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   - SuperOffice.CRM.Rows.WebhookRecordData.ApplicationToken
+  - SuperOffice.CRM.Rows.WebhookRecordData.Description
   - SuperOffice.CRM.Rows.WebhookRecordData.ErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRecordData.Events
   - SuperOffice.CRM.Rows.WebhookRecordData.Headers
   - SuperOffice.CRM.Rows.WebhookRecordData.Name
+  - SuperOffice.CRM.Rows.WebhookRecordData.NotifyVia
+  - SuperOffice.CRM.Rows.WebhookRecordData.NotifyWhen
   - SuperOffice.CRM.Rows.WebhookRecordData.Properties
   - SuperOffice.CRM.Rows.WebhookRecordData.Registered
   - SuperOffice.CRM.Rows.WebhookRecordData.RegisteredAssociateId
@@ -400,6 +403,69 @@ items:
     return:
       type: System.String
     content.vb: Public ErrorsEmail As String
+- uid: SuperOffice.CRM.Rows.WebhookRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.WebhookRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: WebhookRecordData.Description
+  fullName: SuperOffice.CRM.Rows.WebhookRecordData.Description
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Human-readable description of what this webhook does.
+  example: []
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+- uid: SuperOffice.CRM.Rows.WebhookRecordData.NotifyVia
+  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.CRM.Rows.WebhookRecordData
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: WebhookRecordData.NotifyVia
+  fullName: SuperOffice.CRM.Rows.WebhookRecordData.NotifyVia
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: How to notify recipients when this webhook changes state. 1=Email, 2=InApp.
+  example: []
+  syntax:
+    content: public WebhookNotifyVia NotifyVia
+    return:
+      type: SuperOffice.Data.WebhookNotifyVia
+    content.vb: Public NotifyVia As WebhookNotifyVia
+- uid: SuperOffice.CRM.Rows.WebhookRecordData.NotifyWhen
+  commentId: F:SuperOffice.CRM.Rows.WebhookRecordData.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.CRM.Rows.WebhookRecordData
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: WebhookRecordData.NotifyWhen
+  fullName: SuperOffice.CRM.Rows.WebhookRecordData.NotifyWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: 'When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.'
+  example: []
+  syntax:
+    content: public WebhookNotifyWhen NotifyWhen
+    return:
+      type: SuperOffice.Data.WebhookNotifyWhen
+    content.vb: Public NotifyWhen As WebhookNotifyWhen
 - uid: SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   id: '#ctor'
@@ -1372,6 +1438,22 @@ references:
   nameWithType.vb: Short
   fullName.vb: Short
   name.vb: Short
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: T:SuperOffice.Data.WebhookNotifyVia
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.Data.WebhookNotifyWhen
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
 - uid: SuperOffice.CRM.Rows.WebhookRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.WebhookRecordData.#ctor
   isExternal: true

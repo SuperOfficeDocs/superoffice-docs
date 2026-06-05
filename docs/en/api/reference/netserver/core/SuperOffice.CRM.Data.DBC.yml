@@ -211,6 +211,8 @@ items:
   - SuperOffice.CRM.Data.DBC.KbSolutionFinderEntry
   - SuperOffice.CRM.Data.DBC.KbWorkflow
   - SuperOffice.CRM.Data.DBC.KbWorkflowAccess
+  - SuperOffice.CRM.Data.DBC.LandingPage
+  - SuperOffice.CRM.Data.DBC.LandingPagePin
   - SuperOffice.CRM.Data.DBC.LanguageInfo
   - SuperOffice.CRM.Data.DBC.LanguageInfoCountry
   - SuperOffice.CRM.Data.DBC.Leadstatus
@@ -235,6 +237,7 @@ items:
   - SuperOffice.CRM.Data.DBC.MessageHandler
   - SuperOffice.CRM.Data.DBC.MessageHeader
   - SuperOffice.CRM.Data.DBC.MessageId
+  - SuperOffice.CRM.Data.DBC.MeteringLog
   - SuperOffice.CRM.Data.DBC.ModuleLicense
   - SuperOffice.CRM.Data.DBC.ModuleOwner
   - SuperOffice.CRM.Data.DBC.MrMrs
@@ -520,6 +523,7 @@ items:
   - SuperOffice.CRM.Data.DBC.VisibleFor
   - SuperOffice.CRM.Data.DBC.WebAppUsage
   - SuperOffice.CRM.Data.DBC.Webhook
+  - SuperOffice.CRM.Data.DBC.WebhookNotify
   - SuperOffice.CRM.Data.DBC.WebhookUsage
   - SuperOffice.CRM.Data.DBC.WinPosSize
   - SuperOffice.CRM.Data.DBC.WordRelations
@@ -10576,6 +10580,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const Invitation As String = "invitation"
+- uid: SuperOffice.CRM.Data.DBC.LandingPage
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPage
+  id: LandingPage
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: LandingPage
+  nameWithType: DBC.LandingPage
+  fullName: SuperOffice.CRM.Data.DBC.LandingPage
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPage: Per-associate landing page configuration for a given entity type'
+  example: []
+  syntax:
+    content: public const string LandingPage = "landing_page"
+    return:
+      type: System.String
+    content.vb: Public Const LandingPage As String = "landing_page"
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePin
+  commentId: F:SuperOffice.CRM.Data.DBC.LandingPagePin
+  id: LandingPagePin
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: LandingPagePin
+  nameWithType: DBC.LandingPagePin
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePin
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'LandingPagePin: A pinned selection or entity record on a landing page'
+  example: []
+  syntax:
+    content: public const string LandingPagePin = "landing_page_pin"
+    return:
+      type: System.String
+    content.vb: Public Const LandingPagePin As String = "landing_page_pin"
 - uid: SuperOffice.CRM.Data.DBC.SMessageblock
   commentId: F:SuperOffice.CRM.Data.DBC.SMessageblock
   id: SMessageblock
@@ -10618,6 +10664,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const MailingDomains As String = "MailingDomains"
+- uid: SuperOffice.CRM.Data.DBC.MeteringLog
+  commentId: F:SuperOffice.CRM.Data.DBC.MeteringLog
+  id: MeteringLog
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: MeteringLog
+  nameWithType: DBC.MeteringLog
+  fullName: SuperOffice.CRM.Data.DBC.MeteringLog
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'MeteringLog: Metering log table'
+  example: []
+  syntax:
+    content: public const string MeteringLog = "metering_log"
+    return:
+      type: System.String
+    content.vb: Public Const MeteringLog As String = "metering_log"
 - uid: SuperOffice.CRM.Data.DBC.TypicalSearch
   commentId: F:SuperOffice.CRM.Data.DBC.TypicalSearch
   id: TypicalSearch
@@ -10996,6 +11063,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const WebhookUsage As String = "Webhook_usage"
+- uid: SuperOffice.CRM.Data.DBC.WebhookNotify
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookNotify
+  id: WebhookNotify
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: WebhookNotify
+  nameWithType: DBC.WebhookNotify
+  fullName: SuperOffice.CRM.Data.DBC.WebhookNotify
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'WebhookNotify: Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails.'
+  example: []
+  syntax:
+    content: public const string WebhookNotify = "Webhook_notify"
+    return:
+      type: System.String
+    content.vb: Public Const WebhookNotify As String = "Webhook_notify"
 - uid: SuperOffice.CRM.Data.DBC.Workflow
   commentId: F:SuperOffice.CRM.Data.DBC.Workflow
   id: Workflow

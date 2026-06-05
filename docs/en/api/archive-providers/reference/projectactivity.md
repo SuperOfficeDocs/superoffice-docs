@@ -247,7 +247,7 @@ Activity archive provider for the Project card
 |mailingAddr/person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |mailingAddr/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
-|mailingAddr/person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
+|mailingAddr/person/fullName|string|Contact - Contact: Displays the contact to which an item is linked| x |
 |mailingAddr/person/contactId|int|Contact - Company ID: Database ID of company| x |
 |mailingAddr/person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |mailingAddr/person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -698,7 +698,7 @@ Activity archive provider for the Project card
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -1268,7 +1268,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/associateId,mailingAddr/contact/postAddress/county,mailingAddr/contact/contactAssociate/isActiveText,mailingAddr/person/personExtra/x_person_float,mailingAddr/person/personAssociate/personId
+GET /api/v1/archive/ProjectActivity?$select=getNoRows,mailingAddr/contact/code,mailingAddr/person/kanaLastName,mailingAddr/person/personExtra/x_person_datetime,mailingAddr/person/correspondingAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

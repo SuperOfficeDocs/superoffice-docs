@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow.#ctor(SuperOffice.CRM.Rows.WebhookRow.WebhookRowIdxBase)
   - SuperOffice.CRM.Rows.WebhookRow.ApplicationToken
   - SuperOffice.CRM.Rows.WebhookRow.CreateNew
+  - SuperOffice.CRM.Rows.WebhookRow.Description
   - SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRow.Events
   - SuperOffice.CRM.Rows.WebhookRow.GetFromCustomSearch(SuperOffice.CRM.Rows.WebhookRow.CustomSearch)
@@ -25,6 +26,8 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.WebhookRow.Item(System.String)
   - SuperOffice.CRM.Rows.WebhookRow.Name
+  - SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  - SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
   - SuperOffice.CRM.Rows.WebhookRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.WebhookRow.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.WebhookRow.OnSavedAsync(System.Boolean)
@@ -48,10 +51,13 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow.WebhookId
   - SuperOffice.CRM.Rows.WebhookRow.WebhookTableInfo
   - SuperOffice.CRM.Rows.WebhookRow._currentApplicationToken
+  - SuperOffice.CRM.Rows.WebhookRow._currentDescription
   - SuperOffice.CRM.Rows.WebhookRow._currentErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRow._currentEvents
   - SuperOffice.CRM.Rows.WebhookRow._currentHeaders
   - SuperOffice.CRM.Rows.WebhookRow._currentName
+  - SuperOffice.CRM.Rows.WebhookRow._currentNotifyVia
+  - SuperOffice.CRM.Rows.WebhookRow._currentNotifyWhen
   - SuperOffice.CRM.Rows.WebhookRow._currentProperties
   - SuperOffice.CRM.Rows.WebhookRow._currentRegistered
   - SuperOffice.CRM.Rows.WebhookRow._currentRegisteredAssociateId
@@ -64,10 +70,13 @@ items:
   - SuperOffice.CRM.Rows.WebhookRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.WebhookRow._currentWebhookId
   - SuperOffice.CRM.Rows.WebhookRow._persistedApplicationToken
+  - SuperOffice.CRM.Rows.WebhookRow._persistedDescription
   - SuperOffice.CRM.Rows.WebhookRow._persistedErrorsEmail
   - SuperOffice.CRM.Rows.WebhookRow._persistedEvents
   - SuperOffice.CRM.Rows.WebhookRow._persistedHeaders
   - SuperOffice.CRM.Rows.WebhookRow._persistedName
+  - SuperOffice.CRM.Rows.WebhookRow._persistedNotifyVia
+  - SuperOffice.CRM.Rows.WebhookRow._persistedNotifyWhen
   - SuperOffice.CRM.Rows.WebhookRow._persistedProperties
   - SuperOffice.CRM.Rows.WebhookRow._persistedRegistered
   - SuperOffice.CRM.Rows.WebhookRow._persistedRegisteredAssociateId
@@ -567,6 +576,69 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedErrorsEmail As String
+- uid: SuperOffice.CRM.Rows.WebhookRow._persistedDescription
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedDescription
+  id: _persistedDescription
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedDescription
+  nameWithType: WebhookRow._persistedDescription
+  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedDescription
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.WebhookRow.Description" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedDescription
+    return:
+      type: System.String
+    content.vb: Protected _persistedDescription As String
+- uid: SuperOffice.CRM.Rows.WebhookRow._persistedNotifyVia
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedNotifyVia
+  id: _persistedNotifyVia
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedNotifyVia
+  nameWithType: WebhookRow._persistedNotifyVia
+  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedNotifyVia
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.WebhookRow.NotifyVia" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected WebhookNotifyVia _persistedNotifyVia
+    return:
+      type: SuperOffice.Data.WebhookNotifyVia
+    content.vb: Protected _persistedNotifyVia As WebhookNotifyVia
+- uid: SuperOffice.CRM.Rows.WebhookRow._persistedNotifyWhen
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._persistedNotifyWhen
+  id: _persistedNotifyWhen
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedNotifyWhen
+  nameWithType: WebhookRow._persistedNotifyWhen
+  fullName: SuperOffice.CRM.Rows.WebhookRow._persistedNotifyWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.WebhookRow.NotifyWhen" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected WebhookNotifyWhen _persistedNotifyWhen
+    return:
+      type: SuperOffice.Data.WebhookNotifyWhen
+    content.vb: Protected _persistedNotifyWhen As WebhookNotifyWhen
 - uid: SuperOffice.CRM.Rows.WebhookRow._currentWebhookId
   commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentWebhookId
   id: _currentWebhookId
@@ -903,6 +975,69 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentErrorsEmail As String
+- uid: SuperOffice.CRM.Rows.WebhookRow._currentDescription
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentDescription
+  id: _currentDescription
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _currentDescription
+  nameWithType: WebhookRow._currentDescription
+  fullName: SuperOffice.CRM.Rows.WebhookRow._currentDescription
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.WebhookRow.Description" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentDescription
+    return:
+      type: System.String
+    content.vb: Protected _currentDescription As String
+- uid: SuperOffice.CRM.Rows.WebhookRow._currentNotifyVia
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentNotifyVia
+  id: _currentNotifyVia
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _currentNotifyVia
+  nameWithType: WebhookRow._currentNotifyVia
+  fullName: SuperOffice.CRM.Rows.WebhookRow._currentNotifyVia
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.WebhookRow.NotifyVia" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected WebhookNotifyVia _currentNotifyVia
+    return:
+      type: SuperOffice.Data.WebhookNotifyVia
+    content.vb: Protected _currentNotifyVia As WebhookNotifyVia
+- uid: SuperOffice.CRM.Rows.WebhookRow._currentNotifyWhen
+  commentId: F:SuperOffice.CRM.Rows.WebhookRow._currentNotifyWhen
+  id: _currentNotifyWhen
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: _currentNotifyWhen
+  nameWithType: WebhookRow._currentNotifyWhen
+  fullName: SuperOffice.CRM.Rows.WebhookRow._currentNotifyWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.WebhookRow.NotifyWhen" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected WebhookNotifyWhen _currentNotifyWhen
+    return:
+      type: SuperOffice.Data.WebhookNotifyWhen
+    content.vb: Protected _currentNotifyWhen As WebhookNotifyWhen
 - uid: SuperOffice.CRM.Rows.WebhookRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.WebhookRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2160,6 +2295,99 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErrorsEmail As String
   overload: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail*
+- uid: SuperOffice.CRM.Rows.WebhookRow.Description
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: WebhookRow.Description
+  fullName: SuperOffice.CRM.Rows.WebhookRow.Description
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Human-readable description of what this webhook does.'
+  remarks: >-
+    Original type in dictionary:  String[4001].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Rows.WebhookRow.Description*
+- uid: SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: WebhookRow.NotifyVia
+  fullName: SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: WebhookNotifyVia. How to notify recipients when this webhook changes state. 1=Email, 2=InApp.'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual WebhookNotifyVia NotifyVia { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WebhookNotifyVia
+    content.vb: Public Overridable Property NotifyVia As WebhookNotifyVia
+  overload: SuperOffice.CRM.Rows.WebhookRow.NotifyVia*
+- uid: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.CRM.Rows.WebhookRow
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: WebhookRow.NotifyWhen
+  fullName: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: WebhookNotifyWhen. When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual WebhookNotifyWhen NotifyWhen { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WebhookNotifyWhen
+    content.vb: Public Overridable Property NotifyWhen As WebhookNotifyWhen
+  overload: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen*
 references:
 - uid: SuperOffice.CRM.Rows.WebhookRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.WebhookRow.CreateNew
@@ -5514,6 +5742,43 @@ references:
   name: ErrorsEmail
   nameWithType: WebhookRow.ErrorsEmail
   fullName: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
+- uid: SuperOffice.CRM.Rows.WebhookRow.Description
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.Description
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WebhookRow.html#SuperOffice_CRM_Rows_WebhookRow_Description
+  name: Description
+  nameWithType: WebhookRow.Description
+  fullName: SuperOffice.CRM.Rows.WebhookRow.Description
+- uid: SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WebhookRow.html#SuperOffice_CRM_Rows_WebhookRow_NotifyVia
+  name: NotifyVia
+  nameWithType: WebhookRow.NotifyVia
+  fullName: SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: T:SuperOffice.Data.WebhookNotifyVia
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+  commentId: P:SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WebhookRow.html#SuperOffice_CRM_Rows_WebhookRow_NotifyWhen
+  name: NotifyWhen
+  nameWithType: WebhookRow.NotifyWhen
+  fullName: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.Data.WebhookNotifyWhen
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6535,3 +6800,24 @@ references:
   name: ErrorsEmail
   nameWithType: WebhookRow.ErrorsEmail
   fullName: SuperOffice.CRM.Rows.WebhookRow.ErrorsEmail
+- uid: SuperOffice.CRM.Rows.WebhookRow.Description*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.Description
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WebhookRow.html#SuperOffice_CRM_Rows_WebhookRow_Description
+  name: Description
+  nameWithType: WebhookRow.Description
+  fullName: SuperOffice.CRM.Rows.WebhookRow.Description
+- uid: SuperOffice.CRM.Rows.WebhookRow.NotifyVia*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WebhookRow.html#SuperOffice_CRM_Rows_WebhookRow_NotifyVia
+  name: NotifyVia
+  nameWithType: WebhookRow.NotifyVia
+  fullName: SuperOffice.CRM.Rows.WebhookRow.NotifyVia
+- uid: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen*
+  commentId: Overload:SuperOffice.CRM.Rows.WebhookRow.NotifyWhen
+  isExternal: true
+  href: SuperOffice.CRM.Rows.WebhookRow.html#SuperOffice_CRM_Rows_WebhookRow_NotifyWhen
+  name: NotifyWhen
+  nameWithType: WebhookRow.NotifyWhen
+  fullName: SuperOffice.CRM.Rows.WebhookRow.NotifyWhen

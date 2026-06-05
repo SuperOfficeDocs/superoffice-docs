@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.Services.ProjectAgent.GetProjectEventListAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.GetProjectImageAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.GetProjectListAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.GetProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
@@ -1054,6 +1055,35 @@ items:
   overload: SuperOffice.CRM.Services.ProjectAgent.SaveProjectEntityWithoutMembersAsync*
   implements:
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  id: GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectFencingInfoAsync(CancellationToken)
+  nameWithType: ProjectAgent.GetProjectFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get the current project fencing status for the tenant
+  example: []
+  syntax:
+    content: public Task<FencingInfo> GetProjectFencingInfoAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Public Function GetProjectFencingInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync*
+  implements:
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.ProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
@@ -4376,6 +4406,76 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProjectAgent.html#SuperOffice_CRM_Services_ProjectAgent_GetProjectFencingInfoAsync_System_Threading_CancellationToken_
+  name: GetProjectFencingInfoAsync
+  nameWithType: ProjectAgent.GetProjectFencingInfoAsync
+  fullName: SuperOffice.CRM.Services.ProjectAgent.GetProjectFencingInfoAsync
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetProjectFencingInfoAsync(CancellationToken)
+  nameWithType: IProjectAgent.GetProjectFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+    name: GetProjectFencingInfoAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectFencingInfoAsync(System.Threading.CancellationToken)
+    name: GetProjectFencingInfoAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
   - name: )
 - uid: SuperOffice.CRM.Services.ProjectAgent.GetProjectEventAsync*
   commentId: Overload:SuperOffice.CRM.Services.ProjectAgent.GetProjectEventAsync

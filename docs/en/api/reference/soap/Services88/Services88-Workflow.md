@@ -1619,6 +1619,33 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetWorkflowFencingInfo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetWorkflowFencingInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:FencingInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="FencingInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ActiveCount" type="xs:int" />
+              <xs:element minOccurs="0" name="Maximum" type="xs:int" />
+              <xs:element minOccurs="0" name="IsNearingMaximum" type="xs:boolean" />
+              <xs:element minOccurs="0" name="HasReachedMaximum" type="xs:boolean" />
+              <xs:element minOccurs="0" name="WarningMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="WarningTooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FencingInfo" nillable="true" type="tns:FencingInfo" />
       <xs:element name="Run">
         <xs:complexType>
           <xs:sequence />
@@ -2229,6 +2256,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetWorkflowFencingInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetWorkflowFencingInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkflowFencingInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkflowFencingInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetWorkflowFencingInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkflowFencingInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="RunRequest">
     <wsdl:part name="parameters" element="tns:Run" />
   </wsdl:message>
@@ -2495,6 +2539,10 @@ content_type: reference
     <wsdl:operation name="CopyEmailFlow">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlow" name="CopyEmailFlowRequest" message="tns:CopyEmailFlowRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/CopyEmailFlowResponse" name="CopyEmailFlowResponse" message="tns:CopyEmailFlowResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkflowFencingInfo">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowFencingInfo" name="GetWorkflowFencingInfoRequest" message="tns:GetWorkflowFencingInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowFencingInfoResponse" name="GetWorkflowFencingInfoResponse" message="tns:GetWorkflowFencingInfoResponse" />
     </wsdl:operation>
     <wsdl:operation name="Run">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/Run" name="RunRequest" message="tns:RunRequest" />
@@ -2920,6 +2968,22 @@ content_type: reference
         <soap:header message="tns:CopyEmailFlowResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CopyEmailFlowResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CopyEmailFlowResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkflowFencingInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Workflow/GetWorkflowFencingInfo" style="document" />
+      <wsdl:input name="GetWorkflowFencingInfoRequest">
+        <soap:header message="tns:GetWorkflowFencingInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetWorkflowFencingInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetWorkflowFencingInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetWorkflowFencingInfoResponse">
+        <soap:header message="tns:GetWorkflowFencingInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetWorkflowFencingInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetWorkflowFencingInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetWorkflowFencingInfoResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

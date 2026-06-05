@@ -33,7 +33,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -437,7 +437,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/personMobilePhone/formattedNumber,person/restrictionAddress/formattedMultiLineAddress,contact/contactExtra/x_contact_contact_relation
+GET /api/v1/archive/SaleStakeholder?$select=person/personExtra/x_person_integer,contact/contactUdef/SuperOffice:5,contact/contactUdef/SuperOffice:9,contact/contactUdef/SuperOffice:13,contact/contactExtra/x_contact_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

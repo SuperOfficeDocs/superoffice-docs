@@ -91,7 +91,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -838,7 +838,7 @@ Sale selection archive using the selectionId as criterionmapping.
 |saleStakeholder/person/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
 |saleStakeholder/person/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
 |saleStakeholder/person/middleName|string|Stakeholder - Middle name: Displays the contact's middle name.| x |
-|saleStakeholder/person/fullName|stringorPK|Stakeholder - Contact: Displays the contact to which an item is linked| x |
+|saleStakeholder/person/fullName|string|Stakeholder - Contact: Displays the contact to which an item is linked| x |
 |saleStakeholder/person/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/person/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |saleStakeholder/person/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -1343,7 +1343,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=person/correspondingAssociate/fullName,contact/forceCompany,contact/contactFax/formattedNumber,contact/postAddress/line3,contact/streetAddress/line3
+GET /api/v1/archive/SaleDynamicSelectionSingleCriteriaGroup?$select=amountWeightedInBaseCurrency,contact/email/emailId,contact/LastDoByTicket,appointment/date,document/documentUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

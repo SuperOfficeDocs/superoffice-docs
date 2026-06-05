@@ -1096,6 +1096,8 @@ items:
     name: Configuration_GetFilterListRequest
   - uid: SuperOffice.WebApi.Data.Configuration_GetHelpDispatcherUrlRequest
     name: Configuration_GetHelpDispatcherUrlRequest
+  - uid: SuperOffice.WebApi.Data.Configuration_GetLandingPageRequest
+    name: Configuration_GetLandingPageRequest
   - uid: SuperOffice.WebApi.Data.Configuration_GetMyWindowPosSizesRequest
     name: Configuration_GetMyWindowPosSizesRequest
   - uid: SuperOffice.WebApi.Data.Configuration_GetObjectMappingRequest
@@ -1136,6 +1138,8 @@ items:
     name: Configuration_SaveWindowPosSizesRequest
   - uid: SuperOffice.WebApi.Data.Configuration_SetAppliesToKeyRequest
     name: Configuration_SetAppliesToKeyRequest
+  - uid: SuperOffice.WebApi.Data.Configuration_SetLandingPagePinForAssociateRequest
+    name: Configuration_SetLandingPagePinForAssociateRequest
   - uid: SuperOffice.WebApi.Data.ConsentInfo
     name: ConsentInfo
   - uid: SuperOffice.WebApi.Data.ConsentPerson
@@ -1396,6 +1400,8 @@ items:
     name: Dash_GetDashTileHtmlRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashTilesRequest
     name: Dash_GetDashTilesRequest
+  - uid: SuperOffice.WebApi.Data.Dash_GetDashboardFencingInfoRequest
+    name: Dash_GetDashboardFencingInfoRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest
     name: Dash_GetPossibleDashQuickFiltersRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
@@ -1802,6 +1808,8 @@ items:
     name: EMail_DeleteExtendedRequest
   - uid: SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
     name: EMail_DeleteFolderRequest
+  - uid: SuperOffice.WebApi.Data.EMail_DeleteFromServerIdentifierRequest
+    name: EMail_DeleteFromServerIdentifierRequest
   - uid: SuperOffice.WebApi.Data.EMail_DeleteRequest
     name: EMail_DeleteRequest
   - uid: SuperOffice.WebApi.Data.EMail_EmptyFolderRequest
@@ -1814,6 +1822,8 @@ items:
     name: EMail_FindContactOrPersonByEmailNameWithLimitRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetAttachmentFromIdRequest
     name: EMail_GetAttachmentFromIdRequest
+  - uid: SuperOffice.WebApi.Data.EMail_GetAttachmentFromServerIdentifierRequest
+    name: EMail_GetAttachmentFromServerIdentifierRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetAttachmentRequest
     name: EMail_GetAttachmentRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest
@@ -1824,8 +1834,12 @@ items:
     name: EMail_GetEMailAccountFromEMailAddressRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest
     name: EMail_GetEMailAddressesRequest
+  - uid: SuperOffice.WebApi.Data.EMail_GetEMailAsStreamFromServerIdentifierRequest
+    name: EMail_GetEMailAsStreamFromServerIdentifierRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailAsStreamRequest
     name: EMail_GetEMailAsStreamRequest
+  - uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesFromServerIdsRequest
+    name: EMail_GetEMailEnvelopesFromServerIdsRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
     name: EMail_GetEMailEnvelopesRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailFromAttachmentIdRequest
@@ -1838,6 +1852,8 @@ items:
     name: EMail_GetEMailFromDocumentIdWithoutAttachmentStreamRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
     name: EMail_GetEMailFromIdRequest
+  - uid: SuperOffice.WebApi.Data.EMail_GetEMailFromServerIdentifierRequest
+    name: EMail_GetEMailFromServerIdentifierRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailFromTempRequest
     name: EMail_GetEMailFromTempRequest
   - uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest
@@ -1902,6 +1918,8 @@ items:
     name: EMail_HasSPFRecordRequest
   - uid: SuperOffice.WebApi.Data.EMail_LatestItemIdByFolderRequest
     name: EMail_LatestItemIdByFolderRequest
+  - uid: SuperOffice.WebApi.Data.EMail_MarkAsReadFromServerIdentifiersRequest
+    name: EMail_MarkAsReadFromServerIdentifiersRequest
   - uid: SuperOffice.WebApi.Data.EMail_MarkAsReadRequest
     name: EMail_MarkAsReadRequest
   - uid: SuperOffice.WebApi.Data.EMail_MarkEmailsAsReadRequest
@@ -1910,6 +1928,8 @@ items:
     name: EMail_MoveEmailsToFolderRequest
   - uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToTrashRequest
     name: EMail_MoveEmailsToTrashRequest
+  - uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+    name: EMail_MoveToFolderFromServerIdentifierRequest
   - uid: SuperOffice.WebApi.Data.EMail_MoveToFolderRequest
     name: EMail_MoveToFolderRequest
   - uid: SuperOffice.WebApi.Data.EMail_RefreshFolderForAssociateRequest
@@ -2134,6 +2154,8 @@ items:
     name: Favourite_RemoveTicketsFromFavouritesByProviderRequest
   - uid: SuperOffice.WebApi.Data.Favourite_ToggleFavouriteRequest
     name: Favourite_ToggleFavouriteRequest
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
   - uid: SuperOffice.WebApi.Data.FieldAccess
     name: FieldAccess
   - uid: SuperOffice.WebApi.Data.FieldInfoAttachment
@@ -2398,6 +2420,8 @@ items:
     name: InvitationStatus
   - uid: SuperOffice.WebApi.Data.KbCategory
     name: KbCategory
+  - uid: SuperOffice.WebApi.Data.LandingPageEntity
+    name: LandingPageEntity
   - uid: SuperOffice.WebApi.Data.LanguageInfo
     name: LanguageInfo
   - uid: SuperOffice.WebApi.Data.LegalBase
@@ -2424,6 +2448,8 @@ items:
     name: License_ChangeSerialNumberRequest
   - uid: SuperOffice.WebApi.Data.License_GetCentralLicenseRequest
     name: License_GetCentralLicenseRequest
+  - uid: SuperOffice.WebApi.Data.License_GetFencingInfoRequest
+    name: License_GetFencingInfoRequest
   - uid: SuperOffice.WebApi.Data.License_GetLicenseForAllOwnersFromDBRequest
     name: License_GetLicenseForAllOwnersFromDBRequest
   - uid: SuperOffice.WebApi.Data.License_GetLicenseFromDBRequest
@@ -2792,6 +2818,8 @@ items:
     name: List_UpdateCategoryMembershipsRequest
   - uid: SuperOffice.WebApi.Data.List_UpdateHierarchyFromPathRequest
     name: List_UpdateHierarchyFromPathRequest
+  - uid: SuperOffice.WebApi.Data.List_ValidateTicketRelationDefinitionRequest
+    name: List_ValidateTicketRelationDefinitionRequest
   - uid: SuperOffice.WebApi.Data.LiveUiConfig
     name: LiveUiConfig
   - uid: SuperOffice.WebApi.Data.LocalizedField
@@ -3286,6 +3314,8 @@ items:
     name: Project_GetProjectEventOnPersonRequest
   - uid: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
     name: Project_GetProjectEventsOnPersonRequest
+  - uid: SuperOffice.WebApi.Data.Project_GetProjectFencingInfoRequest
+    name: Project_GetProjectFencingInfoRequest
   - uid: SuperOffice.WebApi.Data.Project_GetProjectImageRequest
     name: Project_GetProjectImageRequest
   - uid: SuperOffice.WebApi.Data.Project_GetProjectMembersByIdRequest
@@ -4136,10 +4166,20 @@ items:
     name: TicketPriorityStatus
   - uid: SuperOffice.WebApi.Data.TicketReadStatus
     name: TicketReadStatus
+  - uid: SuperOffice.WebApi.Data.TicketRelationAction
+    name: TicketRelationAction
   - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionEntity
     name: TicketRelationDefinitionEntity
+  - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionResult
+    name: TicketRelationDefinitionResult
   - uid: SuperOffice.WebApi.Data.TicketRelationEntity
     name: TicketRelationEntity
+  - uid: SuperOffice.WebApi.Data.TicketRelationError
+    name: TicketRelationError
+  - uid: SuperOffice.WebApi.Data.TicketRelationItem
+    name: TicketRelationItem
+  - uid: SuperOffice.WebApi.Data.TicketRelationResult
+    name: TicketRelationResult
   - uid: SuperOffice.WebApi.Data.TicketRelationType
     name: TicketRelationType
   - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
@@ -4174,6 +4214,8 @@ items:
     name: Ticket_CopyToTempFileRequest
   - uid: SuperOffice.WebApi.Data.Ticket_CreateDefaultForTicketTypeRequest
     name: Ticket_CreateDefaultForTicketTypeRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_CreateTicketRelationsRequest
+    name: Ticket_CreateTicketRelationsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_DeleteMessageHeadersRequest
     name: Ticket_DeleteMessageHeadersRequest
   - uid: SuperOffice.WebApi.Data.Ticket_DeleteTicketEntityRequest
@@ -4214,6 +4256,12 @@ items:
     name: Ticket_GetTicketMessageWithEmbeddedDataRequest
   - uid: SuperOffice.WebApi.Data.Ticket_GetTicketMessageWithOptionsRequest
     name: Ticket_GetTicketMessageWithOptionsRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_GetTicketParentIdRequest
+    name: Ticket_GetTicketParentIdRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_GetTicketRelationActionsRequest
+    name: Ticket_GetTicketRelationActionsRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_GetTicketRelationsRequest
+    name: Ticket_GetTicketRelationsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_GetTicketSummariesRequest
     name: Ticket_GetTicketSummariesRequest
   - uid: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest
@@ -4258,6 +4306,8 @@ items:
     name: Ticket_SetSpamStatusByProviderRequest
   - uid: SuperOffice.WebApi.Data.Ticket_SetTicketMessageImportantRequest
     name: Ticket_SetTicketMessageImportantRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_SetTicketParentRequest
+    name: Ticket_SetTicketParentRequest
   - uid: SuperOffice.WebApi.Data.Ticket_SetTicketReadByOwnerRequest
     name: Ticket_SetTicketReadByOwnerRequest
   - uid: SuperOffice.WebApi.Data.Ticket_SplitTicketMessageRequest
@@ -4274,6 +4324,8 @@ items:
     name: Ticket_UploadAttachmentRequest
   - uid: SuperOffice.WebApi.Data.Ticket_ValidateAttachmentsRequest
     name: Ticket_ValidateAttachmentsRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_ValidateTicketRelationsRequest
+    name: Ticket_ValidateTicketRelationsRequest
   - uid: SuperOffice.WebApi.Data.TileData
     name: TileData
   - uid: SuperOffice.WebApi.Data.TimeZoneData
@@ -4750,6 +4802,10 @@ items:
     name: WebPanelEntity
   - uid: SuperOffice.WebApi.Data.Webhook
     name: Webhook
+  - uid: SuperOffice.WebApi.Data.WebhookNotifyVia
+    name: WebhookNotifyVia
+  - uid: SuperOffice.WebApi.Data.WebhookNotifyWhen
+    name: WebhookNotifyWhen
   - uid: SuperOffice.WebApi.Data.WebhookResult
     name: WebhookResult
   - uid: SuperOffice.WebApi.Data.WebhookState
@@ -4874,6 +4930,8 @@ items:
     name: Workflow_CreateDefaultWorkflowStepOptionFromTypeRequest
   - uid: SuperOffice.WebApi.Data.Workflow_CreateEmailFlowContentRequest
     name: Workflow_CreateEmailFlowContentRequest
+  - uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowFencingInfoRequest
+    name: Workflow_GetWorkflowFencingInfoRequest
   - uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepOptionRequest
     name: Workflow_GetWorkflowStepOptionRequest
   - uid: SuperOffice.WebApi.Data.Workflow_GetWorkflowStepRequest

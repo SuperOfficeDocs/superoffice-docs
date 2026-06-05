@@ -749,6 +749,33 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetFencingInfo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetFencingInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:FencingInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="FencingInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ActiveCount" type="xs:int" />
+              <xs:element minOccurs="0" name="Maximum" type="xs:int" />
+              <xs:element minOccurs="0" name="IsNearingMaximum" type="xs:boolean" />
+              <xs:element minOccurs="0" name="HasReachedMaximum" type="xs:boolean" />
+              <xs:element minOccurs="0" name="WarningMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="WarningTooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="FencingInfo" nillable="true" type="tns:FencingInfo" />
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -1194,6 +1221,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetFencingInfoRequest">
+    <wsdl:part name="parameters" element="tns:GetFencingInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetFencingInfoRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetFencingInfoResponse">
+    <wsdl:part name="parameters" element="tns:GetFencingInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFencingInfoResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="License">
     <wsdl:operation name="GetLicenseForAllOwnersFromDB">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetLicenseForAllOwnersFromDB" name="GetLicenseForAllOwnersFromDBRequest" message="tns:GetLicenseForAllOwnersFromDBRequest" />
@@ -1282,6 +1326,10 @@ content_type: reference
     <wsdl:operation name="SaveCentralLicense">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/SaveCentralLicense" name="SaveCentralLicenseRequest" message="tns:SaveCentralLicenseRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/SaveCentralLicenseResponse" name="SaveCentralLicenseResponse" message="tns:SaveCentralLicenseResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFencingInfo">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetFencingInfo" name="GetFencingInfoRequest" message="tns:GetFencingInfoRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetFencingInfoResponse" name="GetFencingInfoResponse" message="tns:GetFencingInfoResponse" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_License" type="tns:License">
@@ -1635,6 +1683,22 @@ content_type: reference
         <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveCentralLicenseResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFencingInfo">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetFencingInfo" style="document" />
+      <wsdl:input name="GetFencingInfoRequest">
+        <soap:header message="tns:GetFencingInfoRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetFencingInfoRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetFencingInfoRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetFencingInfoResponse">
+        <soap:header message="tns:GetFencingInfoResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetFencingInfoResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetFencingInfoResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetFencingInfoResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

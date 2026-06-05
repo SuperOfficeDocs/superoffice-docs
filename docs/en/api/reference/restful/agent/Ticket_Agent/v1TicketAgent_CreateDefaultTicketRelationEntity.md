@@ -51,7 +51,7 @@ OK
 | TicketRelationId | int32 | Primary key |
 | SourceTicketId | int32 | Source ticket in this relation |
 | DestinationTicketId | int32 | Destination ticket in this relation |
-| RelationType | string | Ticket relation type |
+| RelationType | string | The type of relation between the two tickets. |
 | Comment | string | Comment for relation |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |

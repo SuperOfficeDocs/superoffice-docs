@@ -3955,6 +3955,10 @@ items:
     name: DBC.KbWorkflowAccessFields
   - uid: SuperOffice.CRM.Data.DBC.KbWorkflowFields
     name: DBC.KbWorkflowFields
+  - uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+    name: DBC.LandingPageFields
+  - uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+    name: DBC.LandingPagePinFields
   - uid: SuperOffice.CRM.Data.DBC.LanguageInfoCountryFields
     name: DBC.LanguageInfoCountryFields
   - uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields
@@ -4003,6 +4007,8 @@ items:
     name: DBC.MessageHeaderFields
   - uid: SuperOffice.CRM.Data.DBC.MessageIdFields
     name: DBC.MessageIdFields
+  - uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+    name: DBC.MeteringLogFields
   - uid: SuperOffice.CRM.Data.DBC.ModuleLicenseFields
     name: DBC.ModuleLicenseFields
   - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields
@@ -4573,6 +4579,8 @@ items:
     name: DBC.WebAppUsageFields
   - uid: SuperOffice.CRM.Data.DBC.WebhookFields
     name: DBC.WebhookFields
+  - uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+    name: DBC.WebhookNotifyFields
   - uid: SuperOffice.CRM.Data.DBC.WebhookUsageFields
     name: DBC.WebhookUsageFields
   - uid: SuperOffice.CRM.Data.DBC.WinPosSizeFields
@@ -4855,6 +4863,10 @@ items:
     name: KbWorkflowAccessTableInfo
   - uid: SuperOffice.CRM.Data.KbWorkflowTableInfo
     name: KbWorkflowTableInfo
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
   - uid: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
     name: LanguageInfoCountryTableInfo
   - uid: SuperOffice.CRM.Data.LanguageInfoTableInfo
@@ -4903,6 +4915,8 @@ items:
     name: MessageIdTableInfo
   - uid: SuperOffice.CRM.Data.MessageTableInfo
     name: MessageTableInfo
+  - uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+    name: MeteringLogTableInfo
   - uid: SuperOffice.CRM.Data.ModuleLicenseTableInfo
     name: ModuleLicenseTableInfo
   - uid: SuperOffice.CRM.Data.ModuleOwnerTableInfo
@@ -5471,6 +5485,8 @@ items:
     name: VisibleForTableInfo
   - uid: SuperOffice.CRM.Data.WebAppUsageTableInfo
     name: WebAppUsageTableInfo
+  - uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    name: WebhookNotifyTableInfo
   - uid: SuperOffice.CRM.Data.WebhookTableInfo
     name: WebhookTableInfo
   - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
@@ -6411,6 +6427,8 @@ items:
     name: KbEntryListProvider
   - uid: SuperOffice.CRM.Lists.KbWorkflowProvider
     name: KbWorkflowProvider
+  - uid: SuperOffice.CRM.Lists.LandingpageProvider
+    name: LandingpageProvider
   - uid: SuperOffice.CRM.Lists.LanguageProvider
     name: LanguageProvider
   - uid: SuperOffice.CRM.Lists.LeadStatusListProvider
@@ -6769,6 +6787,10 @@ items:
     name: WebPanelGroupProvider
   - uid: SuperOffice.CRM.Lists.WebPanelProvider
     name: WebPanelProvider
+  - uid: SuperOffice.CRM.Lists.WebhookEntityListProvider
+    name: WebhookEntityListProvider
+  - uid: SuperOffice.CRM.Lists.WebhookEventListProvider
+    name: WebhookEventListProvider
   - uid: SuperOffice.CRM.Lists.WeekNumberProvider
     name: WeekNumberProvider
   - uid: SuperOffice.CRM.Lists.WeekdayProvider
@@ -9416,6 +9438,8 @@ items:
     name: EmailItemRows.IdxMessageId
   - uid: SuperOffice.CRM.Rows.EmailItemRows.IdxServerId
     name: EmailItemRows.IdxServerId
+  - uid: SuperOffice.CRM.Rows.EmailItemRows.IdxServerIdentifier
+    name: EmailItemRows.IdxServerIdentifier
   - uid: SuperOffice.CRM.Rows.EmailRecordData
     name: EmailRecordData
   - uid: SuperOffice.CRM.Rows.EmailRecordDataExtensions
@@ -10884,6 +10908,44 @@ items:
     name: KbWorkflowRows.IdxNext
   - uid: SuperOffice.CRM.Rows.KbWorkflowRows.IdxPrevious
     name: KbWorkflowRows.IdxPrevious
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRecordData
+    name: LandingPagePinRecordData
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRecordDataExtensions
+    name: LandingPagePinRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRow
+    name: LandingPagePinRow
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRow.CustomSearch
+    name: LandingPagePinRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRow.IdxLandingPageIdTableNumberRecordId
+    name: LandingPagePinRow.IdxLandingPageIdTableNumberRecordId
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRow.IdxLandingPagePinId
+    name: LandingPagePinRow.IdxLandingPagePinId
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRows
+    name: LandingPagePinRows
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRows.CustomSearch
+    name: LandingPagePinRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRows.IdxLandingPageId
+    name: LandingPagePinRows.IdxLandingPageId
+  - uid: SuperOffice.CRM.Rows.LandingPagePinRows.IdxLandingPageIdTableNumber
+    name: LandingPagePinRows.IdxLandingPageIdTableNumber
+  - uid: SuperOffice.CRM.Rows.LandingPageRecordData
+    name: LandingPageRecordData
+  - uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+    name: LandingPageRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.LandingPageRow
+    name: LandingPageRow
+  - uid: SuperOffice.CRM.Rows.LandingPageRow.CustomSearch
+    name: LandingPageRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.LandingPageRow.IdxAssociateIdEntityTableNumber
+    name: LandingPageRow.IdxAssociateIdEntityTableNumber
+  - uid: SuperOffice.CRM.Rows.LandingPageRow.IdxLandingPageId
+    name: LandingPageRow.IdxLandingPageId
+  - uid: SuperOffice.CRM.Rows.LandingPageRows
+    name: LandingPageRows
+  - uid: SuperOffice.CRM.Rows.LandingPageRows.CustomSearch
+    name: LandingPageRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.LandingPageRows.IdxAssociateId
+    name: LandingPageRows.IdxAssociateId
   - uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordData
     name: LanguageInfoCountryRecordData
   - uid: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions
@@ -11298,6 +11360,26 @@ items:
     name: MessageRows.IdxAssociateId
   - uid: SuperOffice.CRM.Rows.MessageRows.IdxAssociateIdSystemMessageId
     name: MessageRows.IdxAssociateIdSystemMessageId
+  - uid: SuperOffice.CRM.Rows.MeteringLogRecordData
+    name: MeteringLogRecordData
+  - uid: SuperOffice.CRM.Rows.MeteringLogRecordDataExtensions
+    name: MeteringLogRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.MeteringLogRow
+    name: MeteringLogRow
+  - uid: SuperOffice.CRM.Rows.MeteringLogRow.CustomSearch
+    name: MeteringLogRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.MeteringLogRow.IdxMeteringLogId
+    name: MeteringLogRow.IdxMeteringLogId
+  - uid: SuperOffice.CRM.Rows.MeteringLogRow.IdxTableIdRecordIdEventType
+    name: MeteringLogRow.IdxTableIdRecordIdEventType
+  - uid: SuperOffice.CRM.Rows.MeteringLogRows
+    name: MeteringLogRows
+  - uid: SuperOffice.CRM.Rows.MeteringLogRows.CustomSearch
+    name: MeteringLogRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.MeteringLogRows.IdxTableId
+    name: MeteringLogRows.IdxTableId
+  - uid: SuperOffice.CRM.Rows.MeteringLogRows.IdxTableIdRecordId
+    name: MeteringLogRows.IdxTableIdRecordId
   - uid: SuperOffice.CRM.Rows.ModifyRules
     name: ModifyRules
   - uid: SuperOffice.CRM.Rows.ModuleLicenseRecordData
@@ -16766,6 +16848,24 @@ items:
     name: WebAppUsageRows.IdxViewStateTimestamp
   - uid: SuperOffice.CRM.Rows.WebAppUsageRows.IdxViewStateTimestampAssocId
     name: WebAppUsageRows.IdxViewStateTimestampAssocId
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRecordData
+    name: WebhookNotifyRecordData
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRecordDataExtensions
+    name: WebhookNotifyRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRow
+    name: WebhookNotifyRow
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRow.CustomSearch
+    name: WebhookNotifyRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRow.IdxWebhookNotifyId
+    name: WebhookNotifyRow.IdxWebhookNotifyId
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRows
+    name: WebhookNotifyRows
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRows.CustomSearch
+    name: WebhookNotifyRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRows.IdxAssociateId
+    name: WebhookNotifyRows.IdxAssociateId
+  - uid: SuperOffice.CRM.Rows.WebhookNotifyRows.IdxWebhookId
+    name: WebhookNotifyRows.IdxWebhookId
   - uid: SuperOffice.CRM.Rows.WebhookRecordData
     name: WebhookRecordData
   - uid: SuperOffice.CRM.Rows.WebhookRecordDataExtensions
@@ -17084,6 +17184,8 @@ items:
     name: CustomObjectSentry
   - uid: SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
     name: CustomObjectSentryQueryInfo
+  - uid: SuperOffice.CRM.Security.DashboardFencingCache
+    name: DashboardFencingCache
   - uid: SuperOffice.CRM.Security.DashboardSentry
     name: DashboardSentry
   - uid: SuperOffice.CRM.Security.DashboardSentryQueryInfo
@@ -17150,6 +17252,8 @@ items:
     name: PersonSentry
   - uid: SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
     name: PersonSentry.PersonSentryQueryInfo
+  - uid: SuperOffice.CRM.Security.ProjectFencingCache
+    name: ProjectFencingCache
   - uid: SuperOffice.CRM.Security.ProjectSentry
     name: ProjectSentry
   - uid: SuperOffice.CRM.Security.ProjectSentryQueryInfo
@@ -17316,6 +17420,8 @@ items:
     name: UserGroupCache.GroupRelation
   - uid: SuperOffice.CRM.Security.VisibleForSentryHelper
     name: VisibleForSentryHelper
+  - uid: SuperOffice.CRM.Security.WorkflowFencingCache
+    name: WorkflowFencingCache
   - uid: SuperOffice.CRM.Security.WorkflowSentry
     name: WorkflowSentry
   - uid: SuperOffice.CRM.Security.WorkflowSentryQueryInfo
@@ -18221,6 +18327,10 @@ items:
     name: MessageHeaderStdItemCol
   - uid: SuperOffice.Data.MessagingStatus
     name: MessagingStatus
+  - uid: SuperOffice.Data.MeteringEventType
+    name: MeteringEventType
+  - uid: SuperOffice.Data.MeteringStatus
+    name: MeteringStatus
   - uid: SuperOffice.Data.ModifiedAppointmentFields
     name: ModifiedAppointmentFields
   - uid: SuperOffice.Data.MoveMergeOperation
@@ -18521,6 +18631,8 @@ items:
     name: TicketPriorityStatus
   - uid: SuperOffice.Data.TicketReadStatus
     name: TicketReadStatus
+  - uid: SuperOffice.Data.TicketRelationError
+    name: TicketRelationError
   - uid: SuperOffice.Data.TicketRelationType
     name: TicketRelationType
   - uid: SuperOffice.Data.TicketSecurityLevel
@@ -18567,6 +18679,10 @@ items:
     name: VideoMeetingStatus
   - uid: SuperOffice.Data.Visibility
     name: Visibility
+  - uid: SuperOffice.Data.WebhookNotifyVia
+    name: WebhookNotifyVia
+  - uid: SuperOffice.Data.WebhookNotifyWhen
+    name: WebhookNotifyWhen
   - uid: SuperOffice.Data.WebhookState
     name: WebhookState
   - uid: SuperOffice.Data.WeekOfMonth
@@ -18999,6 +19115,10 @@ items:
     name: MathematicalExpression
   - uid: SuperOffice.Data.SQL.Max
     name: Max
+  - uid: SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+    name: MeteringEventTypeFieldInfo
+  - uid: SuperOffice.Data.SQL.MeteringStatusFieldInfo
+    name: MeteringStatusFieldInfo
   - uid: SuperOffice.Data.SQL.Min
     name: Min
   - uid: SuperOffice.Data.SQL.Minute
@@ -19231,6 +19351,10 @@ items:
     name: ValueOverrideFieldInfo
   - uid: SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
     name: VideoMeetingStatusFieldInfo
+  - uid: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+    name: WebhookNotifyViaFieldInfo
+  - uid: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
+    name: WebhookNotifyWhenFieldInfo
   - uid: SuperOffice.Data.SQL.WebhookStateFieldInfo
     name: WebhookStateFieldInfo
   - uid: SuperOffice.Data.SQL.WeekdayFieldInfo
@@ -19758,6 +19882,8 @@ items:
 - uid: SuperOffice.Security.Login
   name: SuperOffice.Security.Login
   items:
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
   - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
     name: VideoMeetingPostLoginPlugin
 - uid: SuperOffice.Security.Permissions

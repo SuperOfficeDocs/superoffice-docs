@@ -578,7 +578,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
@@ -783,7 +783,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=NumberOfNotCompletedSales,targetRelation/mainContact,appointment/text,appointment/registeredBy,appointment/associate/contactId
+GET /api/v1/archive/SaintContact?$select=contactAssociate/assocType,contactUdef/SuperOffice:7,contactUdef/SuperOffice:8,targetRelation/csRelation,sale/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

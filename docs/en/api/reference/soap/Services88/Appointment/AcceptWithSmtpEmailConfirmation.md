@@ -48,6 +48,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:Password xsi:type="xsd:string"></Appointment:Password>
      <Appointment:Folder xsi:type="xsd:string"></Appointment:Folder>
      <Appointment:UseSSL xsi:type="xsd:boolean">false</Appointment:UseSSL>
+     <Appointment:UseGraphApi xsi:type="xsd:boolean">false</Appointment:UseGraphApi>
     </Appointment:SmtpEMailConnectionInfo>
    </Appointment:AcceptWithSmtpEmailConfirmation>
 

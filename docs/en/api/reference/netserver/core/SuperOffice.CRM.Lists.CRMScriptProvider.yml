@@ -24,9 +24,17 @@ items:
     content: >-
       [MDOProviderPlugin("CRMScript")]
 
+      [MDOAdditionalInfo("onlyWithIncludeId", "Only return scripts that have a non-empty include_id.", false)]
+
+      [MDOAdditionalInfo("useIncludeId", "Return include_id instead of unique_identifier in ExtraInfo.", false)]
+
       public class CRMScriptProvider : LiteralsOnlyBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("CRMScript")>
+
+      <MDOAdditionalInfo("onlyWithIncludeId", "Only return scripts that have a non-empty include_id.", False)>
+
+      <MDOAdditionalInfo("useIncludeId", "Return include_id instead of unique_identifier in ExtraInfo.", False)>
 
       Public Class CRMScriptProvider Inherits LiteralsOnlyBase Implements ISoListProvider, ISoList
   inheritance:
@@ -70,6 +78,24 @@ items:
     arguments:
     - type: System.String
       value: CRMScript
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: onlyWithIncludeId
+    - type: System.String
+      value: Only return scripts that have a non-empty include_id.
+    - type: System.Boolean
+      value: false
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: useIncludeId
+    - type: System.String
+      value: Return include_id instead of unique_identifier in ExtraInfo.
+    - type: System.Boolean
+      value: false
 - uid: SuperOffice.CRM.Lists.CRMScriptProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.CRMScriptProvider.ProviderName
   id: ProviderName

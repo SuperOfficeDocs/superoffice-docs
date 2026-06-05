@@ -291,6 +291,8 @@ items:
   - SuperOffice.CRM.Rows.KbSolutionFinderRow
   - SuperOffice.CRM.Rows.KbWorkflowAccessRow
   - SuperOffice.CRM.Rows.KbWorkflowRow
+  - SuperOffice.CRM.Rows.LandingPagePinRow
+  - SuperOffice.CRM.Rows.LandingPageRow
   - SuperOffice.CRM.Rows.LanguageInfoCountryRow
   - SuperOffice.CRM.Rows.LanguageInfoRow
   - SuperOffice.CRM.Rows.LeadstatusRow
@@ -315,6 +317,7 @@ items:
   - SuperOffice.CRM.Rows.MessageHeaderRow
   - SuperOffice.CRM.Rows.MessageIdRow
   - SuperOffice.CRM.Rows.MessageRow
+  - SuperOffice.CRM.Rows.MeteringLogRow
   - SuperOffice.CRM.Rows.ModuleLicenseRow
   - SuperOffice.CRM.Rows.ModuleOwnerRow
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRow
@@ -599,6 +602,7 @@ items:
   - SuperOffice.CRM.Rows.UtmParametersRow
   - SuperOffice.CRM.Rows.VisibleForRow
   - SuperOffice.CRM.Rows.WebAppUsageRow
+  - SuperOffice.CRM.Rows.WebhookNotifyRow
   - SuperOffice.CRM.Rows.WebhookRow
   - SuperOffice.CRM.Rows.WebhookUsageRow
   - SuperOffice.CRM.Rows.WinPosSizeRow

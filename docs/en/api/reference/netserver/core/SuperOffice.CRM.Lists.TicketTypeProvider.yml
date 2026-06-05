@@ -35,6 +35,8 @@ items:
 
       [MDOAdditionalInfo("IgnoreGroupingAndHeadingsForAdmin", "Flag to indicate a call is coming from admin system")]
 
+      [MDOAdditionalInfo("IncludeAll", "Include all items regardless of ShowInNew or user group visibility")]
+
       public class TicketTypeProvider : AnyTableListProviderBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("TicketType")>
@@ -42,6 +44,8 @@ items:
       <MDOAdditionalInfo("onlyForMenu", "false")>
 
       <MDOAdditionalInfo("IgnoreGroupingAndHeadingsForAdmin", "Flag to indicate a call is coming from admin system")>
+
+      <MDOAdditionalInfo("IncludeAll", "Include all items regardless of ShowInNew or user group visibility")>
 
       Public Class TicketTypeProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
   inheritance:
@@ -105,6 +109,13 @@ items:
       value: IgnoreGroupingAndHeadingsForAdmin
     - type: System.String
       value: Flag to indicate a call is coming from admin system
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: IncludeAll
+    - type: System.String
+      value: Include all items regardless of ShowInNew or user group visibility
 - uid: SuperOffice.CRM.Lists.TicketTypeProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider.ProviderName
   id: ProviderName

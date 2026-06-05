@@ -437,7 +437,7 @@ Shadow contact provider for the static Project provider.
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -822,7 +822,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=sale/soldReason,sale/associate/ejUserId,sale/associate/isLocation,appointment/saleId,appointment/associate/usergroupId
+GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=registeredDate,projectPublish/isPublished,projectMember/leadStatus,projectMember/personAssociate/contactFullName,projectMember/correspondingAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

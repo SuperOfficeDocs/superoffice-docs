@@ -47,6 +47,7 @@ Email data
 |in\_reply\_to|In reply to, a message-id, used for threading|String(512)|&#x25CF;|
 |cc|Cc|String(4000)|&#x25CF;|
 |cal\_data|Calendar data|Clob|&#x25CF;|
+|server\_identifier|Server identifier of this email item (GraphApi uses string Id&apos;s)|String(1024)| |
 
 
 ![email_item table relationship diagram](./media/email_item.png)
@@ -62,6 +63,7 @@ Email data
 |account\_id, server\_id |FK, Int |Index |
 |messageId |String(512) |Index |
 |email\_folder\_id |FK |Index |
+|server\_identifier |String(1024) |Index |
 
 ## Relationships
 

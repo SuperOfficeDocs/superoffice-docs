@@ -65,7 +65,6 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.OutgoingInvitationIncludeRsvp
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.RemoveAfterArchive
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SaveLogonInfo
-  - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SaveSentInSentItems
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.Section
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SendFaxPrefix
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SendFaxProtocol
@@ -1754,27 +1753,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const MoveDeletedToDeletedItems As String = "MoveDeletedToDeletedItems"
-- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SaveSentInSentItems
-  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SaveSentInSentItems
-  id: SaveSentInSentItems
-  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
-  langs:
-  - csharp
-  - vb
-  name: SaveSentInSentItems
-  nameWithType: UserPreferenceStrings.Mail.SaveSentInSentItems
-  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SaveSentInSentItems
-  type: Field
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: If enabled sent e-mails are saved in the sent items folder
-  example: []
-  syntax:
-    content: public const string SaveSentInSentItems = "SaveSentInSentItems"
-    return:
-      type: System.String
-    content.vb: Public Const SaveSentInSentItems As String = "SaveSentInSentItems"
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.FontType
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.FontType
   id: FontType

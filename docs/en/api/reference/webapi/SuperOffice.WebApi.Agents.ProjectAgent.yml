@@ -35,6 +35,7 @@ items:
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1260,6 +1261,35 @@ items:
   overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityWithoutMembersAsync*
   implements:
   - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectFencingInfoAsync(RequestOptions)
+  nameWithType: ProjectAgent.GetProjectFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the current project fencing status for the tenant
+  example: []
+  syntax:
+    content: public Task<FencingInfo> GetProjectFencingInfoAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Public Function GetProjectFencingInfoAsync(requestOptions As RequestOptions = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -5548,6 +5578,78 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ProjectAgent.html#SuperOffice_WebApi_Agents_ProjectAgent_GetProjectFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetProjectFencingInfoAsync
+  nameWithType: ProjectAgent.GetProjectFencingInfoAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectFencingInfoAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetProjectFencingInfoAsync(RequestOptions)
+  nameWithType: IProjectAgent.GetProjectFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetProjectFencingInfoAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+    name: GetProjectFencingInfoAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync

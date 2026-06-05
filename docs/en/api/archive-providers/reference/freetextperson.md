@@ -42,7 +42,7 @@ as well as before any ORDER BY, are applied.
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
 |contactId|int|Company ID: Database ID of company| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
@@ -186,7 +186,7 @@ as well as before any ORDER BY, are applied.
 |personSourceRelation/firstName|string|Source - First name: Displays the contact's first name| x |
 |personSourceRelation/lastName|string|Source - Last name: Displays the contact's last name| x |
 |personSourceRelation/middleName|string|Source - Middle name: Displays the contact's middle name.| x |
-|personSourceRelation/fullName|stringorPK|Source - Contact: Displays the contact to which an item is linked| x |
+|personSourceRelation/fullName|string|Source - Contact: Displays the contact to which an item is linked| x |
 |personSourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |personSourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personSourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -248,7 +248,7 @@ as well as before any ORDER BY, are applied.
 |personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 |personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
-|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/fullName|string|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -543,7 +543,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |personContact/contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
 |personContact/contactSupportPerson/middleName|string|User support contact - Middle name: Displays the contact's middle name.| x |
-|personContact/contactSupportPerson/fullName|stringorPK|User support contact - Contact: Displays the contact to which an item is linked| x |
+|personContact/contactSupportPerson/fullName|string|User support contact - Contact: Displays the contact to which an item is linked| x |
 |personContact/contactSupportPerson/contactId|int|User support contact - Company ID: Database ID of company| x |
 |personContact/contactSupportPerson/hasInfoText|bool|User support contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personContact/contactSupportPerson/hasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -729,7 +729,7 @@ as well as before any ORDER BY, are applied.
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName|listAny|Request type: Request type| x |
+|request/ticketTypeName| *None* |Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -1085,7 +1085,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=rank,personUrl/URLAddress,personTargetRelation/createdByForm,personContact/contactSupportAssociate/personId,personContact/contactSupportPerson/contactId
+GET /api/v1/archive/FreetextPerson?$select=supportLanguage,email/emailId,personExtra/x_person_integer,personTargetRelation/personHasInterests,personContact/contactAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

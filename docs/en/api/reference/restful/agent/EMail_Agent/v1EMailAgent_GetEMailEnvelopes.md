@@ -71,6 +71,7 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | ServerId | int32 | Unique id for the e-mail on the server |
+| ServerIdentifier | string | Unique string id for the e-mail on the server (Graph API |
 | MessageId | string | Unique id of e-mails |
 | Subject | string | Subject of the e-mail |
 | From | EMailAddress | Who did the e-mail originate from |

@@ -261,7 +261,7 @@ Shadow contact provider for the appointment provider.
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -758,7 +758,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionV2?$select=contact/restrictionAddress/formattedAddress,contact/contactAssociate/title,contact/SaintStatus1,person/firstName,person/personUdef/SuperOffice:9
+GET /api/v1/archive/AppointmentShadowSelectionV2?$select=contact/postAddress/county,contact/streetAddress/line1,contact/NumberOfNotCompletedSalesInPeriod,person/contactId,person/personUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

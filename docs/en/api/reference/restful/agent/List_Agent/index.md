@@ -74,6 +74,8 @@ content_type: reference
 
 * [POST Agents/List/SetTicketRelationDefinitionSortOrder](v1ListAgent_SetTicketRelationDefinitionSortOrder.md)
 
+* [POST Agents/List/ValidateTicketRelationDefinition](v1ListAgent_ValidateTicketRelationDefinition.md)
+
 * [POST Agents/List/CreateDefaultTicketStatusEntity](v1ListAgent_CreateDefaultTicketStatusEntity.md)
 
 * [POST Agents/List/SaveTicketStatusEntity](v1ListAgent_SaveTicketStatusEntity.md)

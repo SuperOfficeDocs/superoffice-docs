@@ -1,0 +1,1743 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPagePinTableInfo
+  id: LandingPagePinTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId(System.Int32)
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber(System.Int32,System.Int16)
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: LandingPagePinTableInfo
+  nameWithType: LandingPagePinTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "Table 'landing_page_pin': A pinned selection or entity record on a landing page"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetLandingPagePinInfo().
+  example: []
+  syntax:
+    content: >-
+      [DatabaseTable("landing_page_pin")]
+
+      public class LandingPagePinTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("landing_page_pin")>
+
+      Public Class LandingPagePinTableInfo Inherits TableInfo Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: landing_page_pin
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: LandingPagePinTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Conceptual name of table LandingPagePin in the database dictionary: landing_page_pin'
+  example: []
+  syntax:
+    content: public const string DictionaryTableName = "landing_page_pin"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "landing_page_pin"
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId(System.Int32)
+  id: IdxLandingPageId(System.Int32)
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxLandingPageId(int)
+  nameWithType: LandingPagePinTableInfo.IdxLandingPageId(int)
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Shortcut method for looking up using the database index LandingPageId, which spans the following fields:
+
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">LandingPageId</td><td class="description">The landing page this pin belongs to</td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public Restriction IdxLandingPageId(int landingPageId)
+    parameters:
+    - id: landingPageId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxLandingPageId(landingPageId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId*
+  nameWithType.vb: LandingPagePinTableInfo.IdxLandingPageId(Integer)
+  fullName.vb: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId(Integer)
+  name.vb: IdxLandingPageId(Integer)
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber(System.Int32,System.Int16)
+  commentId: M:SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber(System.Int32,System.Int16)
+  id: IdxLandingPageIdTableNumber(System.Int32,System.Int16)
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxLandingPageIdTableNumber(int, short)
+  nameWithType: LandingPagePinTableInfo.IdxLandingPageIdTableNumber(int, short)
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber(int, short)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Shortcut method for looking up using the database index LandingPageIdTableNumber, which spans the following fields:
+
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">LandingPageId</td><td class="description">The landing page this pin belongs to</td></tr><tr><td class="term">TableNumber</td><td class="description">Table number of the pinned record (selection table number, or entity table number such as contact, person, sale)</td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public Restriction IdxLandingPageIdTableNumber(int landingPageId, short tableNumber)
+    parameters:
+    - id: landingPageId
+      type: System.Int32
+    - id: tableNumber
+      type: System.Int16
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxLandingPageIdTableNumber(landingPageId As Integer, tableNumber As Short) As Restriction
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber*
+  nameWithType.vb: LandingPagePinTableInfo.IdxLandingPageIdTableNumber(Integer, Short)
+  fullName.vb: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber(Integer, Short)
+  name.vb: IdxLandingPageIdTableNumber(Integer, Short)
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: LandingPagePinTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Table number for table LandingPagePin in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: LandingPagePinTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: LandingPagePinTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId
+  id: LandingPagePinId
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LandingPagePinId
+  nameWithType: LandingPagePinTableInfo.LandingPagePinId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'landing_page_pin_id' in table 'landing_page_pin': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
+  syntax:
+    content: public Int32FieldInfo LandingPagePinId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LandingPagePinId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId
+  id: LandingPageId
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LandingPageId
+  nameWithType: LandingPagePinTableInfo.LandingPageId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'landing_page_id' in table 'landing_page_pin': Dictionary type FK, target: LandingPage, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The landing page this pin belongs to
+  example: []
+  syntax:
+    content: public Int32FieldInfo LandingPageId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LandingPageId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: LandingPagePinTableInfo.TableNumber
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'table_number' in table 'landing_page_pin': Dictionary type TableNumber, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Table number of the pinned record (selection table number, or entity table number such as contact, person, sale)
+  example: []
+  syntax:
+    content: public UInt16FieldInfo TableNumber { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property TableNumber As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: LandingPagePinTableInfo.RecordId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'record_id' in table 'landing_page_pin': Dictionary type RecordId, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The id of the pinned record in the referenced table
+  example: []
+  syntax:
+    content: public Int32FieldInfo RecordId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RecordId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: LandingPagePinTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered' in table 'landing_page_pin': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: LandingPagePinTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered_associate_id' in table 'landing_page_pin': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: LandingPagePinTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated' in table 'landing_page_pin': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: LandingPagePinTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated_associate_id' in table 'landing_page_pin': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: LandingPagePinTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updatedCount' in table 'landing_page_pin': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  id: LandingPageId_InnerJoin_LandingPage
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LandingPageId_InnerJoin_LandingPage
+  nameWithType: LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key LandingPageId in this table, to its target table <xref href="SuperOffice.CRM.Data.LandingPageTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<LandingPageTableInfo> LandingPageId_InnerJoin_LandingPage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+    content.vb: Public ReadOnly Property LandingPageId_InnerJoin_LandingPage As TargetedInnerJoin(Of LandingPageTableInfo)
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<LandingPagePinTableInfo, To>(LandingPagePinTableInfo)
+  nameWithType: EnumUtil.MapEnums<LandingPagePinTableInfo, To>(LandingPagePinTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.LandingPagePinTableInfo, To>(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of LandingPagePinTableInfo, To)(LandingPagePinTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.LandingPagePinTableInfo, To)(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+  name.vb: MapEnums(Of LandingPagePinTableInfo, To)(LandingPagePinTableInfo)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<LandingPagePinTableInfo, To>(LandingPagePinTableInfo)
+  nameWithType: Converters.MapEnums<LandingPagePinTableInfo, To>(LandingPagePinTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.LandingPagePinTableInfo, To>(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of LandingPagePinTableInfo, To)(LandingPagePinTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.LandingPagePinTableInfo, To)(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+  name.vb: MapEnums(Of LandingPagePinTableInfo, To)(LandingPagePinTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.LandingPagePinTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_IdxLandingPageId_System_Int32_
+  name: IdxLandingPageId
+  nameWithType: LandingPagePinTableInfo.IdxLandingPageId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_IdxLandingPageIdTableNumber_System_Int32_System_Int16_
+  name: IdxLandingPageIdTableNumber
+  nameWithType: LandingPagePinTableInfo.IdxLandingPageIdTableNumber
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.IdxLandingPageIdTableNumber
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_DictionaryTableNumber
+  name: DictionaryTableNumber
+  nameWithType: LandingPagePinTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_RuntimeDefinition
+  name: RuntimeDefinition
+  nameWithType: LandingPagePinTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_Definition
+  name: Definition
+  nameWithType: LandingPagePinTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.Definition
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_LandingPagePinId
+  name: LandingPagePinId
+  nameWithType: LandingPagePinTableInfo.LandingPagePinId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPagePinId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_LandingPageId
+  name: LandingPageId
+  nameWithType: LandingPagePinTableInfo.LandingPageId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_TableNumber
+  name: TableNumber
+  nameWithType: LandingPagePinTableInfo.TableNumber
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.TableNumber
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_RecordId
+  name: RecordId
+  nameWithType: LandingPagePinTableInfo.RecordId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RecordId
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_Registered
+  name: Registered
+  nameWithType: LandingPagePinTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: LandingPagePinTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_Updated
+  name: Updated
+  nameWithType: LandingPagePinTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.Updated
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: LandingPagePinTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_UpdatedCount
+  name: UpdatedCount
+  nameWithType: LandingPagePinTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  name: LandingPageTableInfo
+  nameWithType: LandingPageTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_LandingPageId_InnerJoin_LandingPage
+  name: LandingPageId_InnerJoin_LandingPage
+  nameWithType: LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.LandingPageId_InnerJoin_LandingPage
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<LandingPageTableInfo>
+  nameWithType: TargetedInnerJoin<LandingPageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.LandingPageTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of LandingPageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.LandingPageTableInfo)
+  name.vb: TargetedInnerJoin(Of LandingPageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_RegisteredAssociateId_InnerJoin_Associate
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_UpdatedAssociateId_InnerJoin_Associate
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId_InnerJoin_Associate

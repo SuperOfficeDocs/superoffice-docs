@@ -44,7 +44,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/ticketStatusId|int|Request - Status ID: Status| x |
 |ticket/priorityId|int|Request - Priority ID: ID of priority in database| x |
 |ticket/categoryId|int|Request - Category ID: ID of request category in database| x |
-|ticket/ticketTypeName|listAny|Request - Request type: Request type| x |
+|ticket/ticketTypeName| *None* |Request - Request type: Request type| x |
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
 |ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
 |ticket/priorityName|listAny|Request - Priority: Service priority| x |
@@ -170,7 +170,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/firstName|string|Request - First name: Displays the contact's first name| x |
 |ticket/person/lastName|string|Request - Last name: Displays the contact's last name| x |
 |ticket/person/middleName|string|Request - Middle name: Displays the contact's middle name.| x |
-|ticket/person/fullName|stringorPK|Request - Contact: Displays the contact to which an item is linked| x |
+|ticket/person/fullName|string|Request - Contact: Displays the contact to which an item is linked| x |
 |ticket/person/contactId|int|Request - Company ID: Database ID of company| x |
 |ticket/person/hasInfoText|bool|Request - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |ticket/person/hasInterests|bool|Request - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -808,7 +808,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact - Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Contact - Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -876,7 +876,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/firstReadByUser,ticket/person/personCountryId,ticket/person/personExtra/y_rental/id
+GET /api/v1/archive/TicketMessage?$select=ticketMessageId,ticket/timeToClose,ticket/person/personExtra/y_car/id,ticket/person/correspondingAssociate/contactName,ticket/person/correspondingAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

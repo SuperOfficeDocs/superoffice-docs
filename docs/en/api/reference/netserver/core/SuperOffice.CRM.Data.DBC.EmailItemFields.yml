@@ -30,6 +30,7 @@ items:
   - SuperOffice.CRM.Data.DBC.EmailItemFields.SaleId
   - SuperOffice.CRM.Data.DBC.EmailItemFields.SentAt
   - SuperOffice.CRM.Data.DBC.EmailItemFields.ServerId
+  - SuperOffice.CRM.Data.DBC.EmailItemFields.ServerIdentifier
   - SuperOffice.CRM.Data.DBC.EmailItemFields.Size
   - SuperOffice.CRM.Data.DBC.EmailItemFields.Subject
   - SuperOffice.CRM.Data.DBC.EmailItemFields.To
@@ -712,6 +713,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const CalData As String = "cal_data"
+- uid: SuperOffice.CRM.Data.DBC.EmailItemFields.ServerIdentifier
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailItemFields.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.CRM.Data.DBC.EmailItemFields
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: DBC.EmailItemFields.ServerIdentifier
+  fullName: SuperOffice.CRM.Data.DBC.EmailItemFields.ServerIdentifier
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "EmailItem.ServerIdentifier: Server identifier of this email item (GraphApi uses string Id's)"
+  example: []
+  syntax:
+    content: public const string ServerIdentifier = "server_identifier"
+    return:
+      type: System.String
+    content.vb: Public Const ServerIdentifier As String = "server_identifier"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

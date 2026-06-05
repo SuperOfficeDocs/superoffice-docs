@@ -26,7 +26,7 @@ Gets all the PaymentType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentType/Items?includeDeleted=True
+GET /api/v1/List/PaymentType/Items?includeDeleted=False
 ```
 
 

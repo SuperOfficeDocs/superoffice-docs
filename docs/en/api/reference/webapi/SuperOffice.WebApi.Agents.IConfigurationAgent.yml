@@ -8,9 +8,11 @@ items:
   - SuperOffice.WebApi.Agents.IConfigurationAgent.ClearConfigurationCacheAsync(System.String,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultConfigurableScreenDeltaAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultDiaryViewEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultSystemEventEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteConfigurableScreenDeltaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteDiaryViewEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteSystemEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteWindowPosSizeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.ExistsSystemEventAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -33,6 +35,8 @@ items:
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetEmailNumberOfDaysAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetFilterListAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetHelpDispatcherUrlAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetMyWindowPosSizesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetObjectMappingAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.GetPageConfigurationAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -55,10 +59,12 @@ items:
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveAndPublishAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveConfigurableScreenDeltaAsync(SuperOffice.WebApi.Data.ConfigurableScreenDelta,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveDiaryViewEntityAsync(SuperOffice.WebApi.Data.DiaryViewEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync(SuperOffice.WebApi.Data.LandingPageEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveSystemEventEntityAsync(SuperOffice.WebApi.Data.SystemEventEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveWindowPosSizeAsync(SuperOffice.WebApi.Data.WindowPosSize,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SaveWindowPosSizesAsync(SuperOffice.WebApi.Data.WindowPosSize[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IConfigurationAgent.SetAppliesToKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync(System.Boolean,System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
   - vb
@@ -265,6 +271,98 @@ items:
   nameWithType.vb: IConfigurationAgent.DeleteDiaryViewEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteDiaryViewEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: DeleteDiaryViewEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultLandingPageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultLandingPageEntityAsync(RequestOptions)
+  nameWithType: IConfigurationAgent.CreateDefaultLandingPageEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new LandingPageEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: Task<LandingPageEntity> CreateDefaultLandingPageEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LandingPageEntity}
+      description: A blank LandingPageEntity
+    content.vb: Function CreateDefaultLandingPageEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of LandingPageEntity)
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync(SuperOffice.WebApi.Data.LandingPageEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync(SuperOffice.WebApi.Data.LandingPageEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveLandingPageEntityAsync(SuperOffice.WebApi.Data.LandingPageEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveLandingPageEntityAsync(LandingPageEntity, RequestOptions)
+  nameWithType: IConfigurationAgent.SaveLandingPageEntityAsync(LandingPageEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync(SuperOffice.WebApi.Data.LandingPageEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing LandingPageEntity or creates a new LandingPageEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<LandingPageEntity> SaveLandingPageEntityAsync(LandingPageEntity landingPageEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: landingPageEntity
+      type: SuperOffice.WebApi.Data.LandingPageEntity
+      description: The LandingPageEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LandingPageEntity}
+      description: New or updated LandingPageEntity
+    content.vb: Function SaveLandingPageEntityAsync(landingPageEntity As LandingPageEntity, requestOptions As RequestOptions = Nothing) As Task(Of LandingPageEntity)
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteLandingPageEntityAsync(int, RequestOptions)
+  nameWithType: IConfigurationAgent.DeleteLandingPageEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes the LandingPageEntity
+  example: []
+  syntax:
+    content: Task DeleteLandingPageEntityAsync(int landingPageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: landingPageEntityId
+      type: System.Int32
+      description: The identity of the LandingPageEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteLandingPageEntityAsync(landingPageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync*
+  nameWithType.vb: IConfigurationAgent.DeleteLandingPageEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteLandingPageEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultSystemEventEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultSystemEventEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultSystemEventEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -1476,6 +1574,120 @@ items:
   nameWithType.vb: IConfigurationAgent.GetDiaryViewEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IConfigurationAgent.GetDiaryViewEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetDiaryViewEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetLandingPageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLandingPageEntityAsync(int, RequestOptions)
+  nameWithType: IConfigurationAgent.GetLandingPageEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific LandingPageEntity object.
+  example: []
+  syntax:
+    content: Task<LandingPageEntity> GetLandingPageEntityAsync(int landingPageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: landingPageEntityId
+      type: System.Int32
+      description: The identifier of the LandingPageEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LandingPageEntity}
+      description: LandingPageEntity
+    content.vb: Function GetLandingPageEntityAsync(landingPageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of LandingPageEntity)
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync*
+  nameWithType.vb: IConfigurationAgent.GetLandingPageEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetLandingPageEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetLandingPageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLandingPageAsync(int, string, RequestOptions)
+  nameWithType: IConfigurationAgent.GetLandingPageAsync(int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the landing page configuration for an associate and entity table. Creates the landing page row if it does not exist.
+  example: []
+  syntax:
+    content: Task<LandingPageEntity> GetLandingPageAsync(int associateId, string tableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Id of the associate.
+    - id: tableName
+      type: System.String
+      description: Entity table name (contact, person, sale, ...), transformed to and from the numeric table number by the service layer.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LandingPageEntity}
+      description: The landing page for the given associate and entity table.
+    content.vb: Function GetLandingPageAsync(associateId As Integer, tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of LandingPageEntity)
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync*
+  nameWithType.vb: IConfigurationAgent.GetLandingPageAsync(Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetLandingPageAsync(Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync(System.Boolean,System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync(System.Boolean,System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetLandingPagePinForAssociateAsync(System.Boolean,System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetLandingPagePinForAssociateAsync(bool, int, string, string, int, RequestOptions)
+  nameWithType: IConfigurationAgent.SetLandingPagePinForAssociateAsync(bool, int, string, string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync(bool, int, string, string, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Pin or unpin an entity or selection on the landing page identified by associate and entity table. Creates the landing page row if it does not exist.
+  example: []
+  syntax:
+    content: Task SetLandingPagePinForAssociateAsync(bool pin, int associateId, string entityTableName, string pinTableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: pin
+      type: System.Boolean
+      description: True to pin the item, false to unpin it.
+    - id: associateId
+      type: System.Int32
+      description: Id of the associate that owns the landing page.
+    - id: entityTableName
+      type: System.String
+      description: Entity table name identifying which landing page (contact, person, sale, ...).
+    - id: pinTableName
+      type: System.String
+      description: Table name of the record being pinned (selection, contact, person, sale, ...).
+    - id: recordId
+      type: System.Int32
+      description: Id of the record to pin or unpin.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetLandingPagePinForAssociateAsync(pin As Boolean, associateId As Integer, entityTableName As String, pinTableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync*
+  nameWithType.vb: IConfigurationAgent.SetLandingPagePinForAssociateAsync(Boolean, Integer, String, String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync(Boolean, Integer, String, String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetLandingPagePinForAssociateAsync(Boolean, Integer, String, String, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetSystemEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IConfigurationAgent.GetSystemEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetSystemEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -2218,6 +2430,70 @@ references:
   name: DeleteDiaryViewEntityAsync
   nameWithType: IConfigurationAgent.DeleteDiaryViewEntityAsync
   fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteDiaryViewEntityAsync
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_CreateDefaultLandingPageEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultLandingPageEntityAsync
+  nameWithType: IConfigurationAgent.CreateDefaultLandingPageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultLandingPageEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LandingPageEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LandingPageEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<LandingPageEntity>
+  nameWithType: Task<LandingPageEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.LandingPageEntity>
+  nameWithType.vb: Task(Of LandingPageEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.LandingPageEntity)
+  name.vb: Task(Of LandingPageEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.LandingPageEntity
+    name: LandingPageEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.LandingPageEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.LandingPageEntity
+    name: LandingPageEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.LandingPageEntity.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_SaveLandingPageEntityAsync_SuperOffice_WebApi_Data_LandingPageEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveLandingPageEntityAsync
+  nameWithType: IConfigurationAgent.SaveLandingPageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.SaveLandingPageEntityAsync
+- uid: SuperOffice.WebApi.Data.LandingPageEntity
+  commentId: T:SuperOffice.WebApi.Data.LandingPageEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.LandingPageEntity.html
+  name: LandingPageEntity
+  nameWithType: LandingPageEntity
+  fullName: SuperOffice.WebApi.Data.LandingPageEntity
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_DeleteLandingPageEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteLandingPageEntityAsync
+  nameWithType: IConfigurationAgent.DeleteLandingPageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.DeleteLandingPageEntityAsync
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultSystemEventEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.CreateDefaultSystemEventEntityAsync
   isExternal: true
@@ -2752,6 +3028,27 @@ references:
   name: GetDiaryViewEntityAsync
   nameWithType: IConfigurationAgent.GetDiaryViewEntityAsync
   fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetDiaryViewEntityAsync
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_GetLandingPageEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetLandingPageEntityAsync
+  nameWithType: IConfigurationAgent.GetLandingPageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageEntityAsync
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_GetLandingPageAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetLandingPageAsync
+  nameWithType: IConfigurationAgent.GetLandingPageAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.GetLandingPageAsync
+- uid: SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IConfigurationAgent.html#SuperOffice_WebApi_Agents_IConfigurationAgent_SetLandingPagePinForAssociateAsync_System_Boolean_System_Int32_System_String_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetLandingPagePinForAssociateAsync
+  nameWithType: IConfigurationAgent.SetLandingPagePinForAssociateAsync
+  fullName: SuperOffice.WebApi.Agents.IConfigurationAgent.SetLandingPagePinForAssociateAsync
 - uid: SuperOffice.WebApi.Agents.IConfigurationAgent.GetSystemEventEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IConfigurationAgent.GetSystemEventEntityAsync
   isExternal: true

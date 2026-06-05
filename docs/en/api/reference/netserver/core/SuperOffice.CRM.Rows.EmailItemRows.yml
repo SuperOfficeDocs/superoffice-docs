@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxEmailFolderIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxMessageIdAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailItemRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EmailItemTableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailItemRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.EmailItemRows.Remove(SuperOffice.CRM.Rows.EmailItemRow)
@@ -490,6 +491,46 @@ items:
   nameWithType.vb: EmailItemRows.GetFromIdxEmailFolderIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxEmailFolderIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetFromIdxEmailFolderIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync(System.String,System.Threading.CancellationToken)
+  id: GetFromIdxServerIdentifierAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.EmailItemRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxServerIdentifierAsync(string, CancellationToken)
+  nameWithType: EmailItemRows.GetFromIdxServerIdentifierAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the EmailItemRow object, by querying the database table via the index 'IDXEmail_itemServer_identifier'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the EmailItem table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.EmailItemRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static Task<EmailItemRows> GetFromIdxServerIdentifierAsync(string serverIdentifier, CancellationToken cancellationToken = default)
+    parameters:
+    - id: serverIdentifier
+      type: System.String
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EmailItemRows}
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxServerIdentifierAsync(serverIdentifier As String, cancellationToken As CancellationToken = Nothing) As Task(Of EmailItemRows)
+  overload: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync*
+  nameWithType.vb: EmailItemRows.GetFromIdxServerIdentifierAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync(String, System.Threading.CancellationToken)
+  name.vb: GetFromIdxServerIdentifierAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Rows.EmailItemRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EmailItemTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.EmailItemRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EmailItemTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EmailItemTableInfo,System.Threading.CancellationToken)
@@ -3142,6 +3183,13 @@ references:
   name: GetFromIdxEmailFolderIdAsync
   nameWithType: EmailItemRows.GetFromIdxEmailFolderIdAsync
   fullName: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxEmailFolderIdAsync
+- uid: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailItemRows.html#SuperOffice_CRM_Rows_EmailItemRows_GetFromIdxServerIdentifierAsync_System_String_System_Threading_CancellationToken_
+  name: GetFromIdxServerIdentifierAsync
+  nameWithType: EmailItemRows.GetFromIdxServerIdentifierAsync
+  fullName: SuperOffice.CRM.Rows.EmailItemRows.GetFromIdxServerIdentifierAsync
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

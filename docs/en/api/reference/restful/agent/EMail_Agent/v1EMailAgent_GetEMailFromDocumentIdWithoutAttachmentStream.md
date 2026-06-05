@@ -84,6 +84,7 @@ OK
 | IsSent | bool | Is this a sent e-mail (not new) |
 | EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
 | ServerId | int32 | Unique id for the e-mail on the server |
+| ServerIdentifier | string | Server identifier of this email item (GraphApi uses string Id's) |
 | Attachments | array |  |
 | CustomHeaderList | array | Non standard e-mail headers |
 | FolderName | string | Name of folder the e-mail belongs in |

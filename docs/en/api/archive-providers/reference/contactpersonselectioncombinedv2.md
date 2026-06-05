@@ -581,7 +581,7 @@ Implementation of the provider for the combined selection
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
@@ -1264,7 +1264,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=companyCategoryRank,document/documentUdef/SuperOffice:8,personSourceRelation/portraitThumbnail,personSourceRelation/supportAssociate,correspondingAssociate/lastName
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=restrictionAddress/state,contactAssociate/locationAddress,LastDoBySale,targetRelation/restrictionContactId,personSourceRelation/createdByForm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

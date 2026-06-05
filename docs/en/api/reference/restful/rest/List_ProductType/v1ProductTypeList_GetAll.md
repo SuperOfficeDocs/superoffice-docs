@@ -26,7 +26,7 @@ Gets all the ProductType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductType/Items?includeDeleted=False
+GET /api/v1/List/ProductType/Items?includeDeleted=True
 ```
 
 

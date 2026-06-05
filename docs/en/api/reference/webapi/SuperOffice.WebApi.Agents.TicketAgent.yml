@@ -20,6 +20,7 @@ items:
   - SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.DeleteMessageHeadersAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -46,7 +47,10 @@ items:
   - SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageWithEmbeddedDataAsync(System.Int32,SuperOffice.WebApi.Data.ImageEmbedType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageWithOptionsAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -73,6 +77,7 @@ items:
   - SuperOffice.WebApi.Agents.TicketAgent.SetSpamStatusByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SetSpamStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SetTicketMessageImportantAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SetTicketReadByOwnerAsync(System.Int32,SuperOffice.WebApi.Data.TicketReadStatus,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SplitTicketAsync(System.Int32,System.Int32,System.DateTime,System.Int32[],SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.SplitTicketMessageAsync(SuperOffice.WebApi.Data.TicketMessageEntity,SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.Data.TicketMessageEntity,System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -81,6 +86,7 @@ items:
   - SuperOffice.WebApi.Agents.TicketAgent.UpdateTicketsReadStatusByProviderAsync(System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.Data.TicketReadStatus,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.ValidateAttachmentsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
   langs:
   - csharp
   - vb
@@ -2908,6 +2914,243 @@ items:
   nameWithType.vb: TicketAgent.GetTicketRelationEntityAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetTicketRelationEntityAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationsAsync(int, RequestOptions)
+  nameWithType: TicketAgent.GetTicketRelationsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get all relations for a ticket.
+  example: []
+  syntax:
+    content: public Task<TicketRelationItem[]> GetTicketRelationsAsync(int ticketId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket to get relations for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationItem[]}
+      description: All relations for the ticket. Each item carries its RelationType (Parent, Child, or Related).
+    content.vb: Public Function GetTicketRelationsAsync(ticketId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationItem())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.GetTicketRelationsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationsAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketParentIdAsync(int, RequestOptions)
+  nameWithType: TicketAgent.GetTicketParentIdAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the parent ticket id. Returns 0 if the ticket has no parent.
+  example: []
+  syntax:
+    content: public Task<int> GetTicketParentIdAsync(int ticketId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket to get the parent for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The id of the parent ticket, or 0 if there is no parent.
+    content.vb: Public Function GetTicketParentIdAsync(ticketId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.GetTicketParentIdAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketParentIdAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetTicketParentAsync(int, int, string, RequestOptions)
+  nameWithType: TicketAgent.SetTicketParentAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Set the parent of a ticket. If the ticket already has a parent, it will be overwritten.
+  example: []
+  syntax:
+    content: public Task SetTicketParentAsync(int ticketId, int parentTicketId, string comment, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket to set the parent on.
+    - id: parentTicketId
+      type: System.Int32
+      description: The id of the ticket to set as parent.
+    - id: comment
+      type: System.String
+      description: Optional comment to store on the relation.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetTicketParentAsync(ticketId As Integer, parentTicketId As Integer, comment As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.SetTicketParentAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetTicketParentAsync(Integer, Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+  id: ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateTicketRelationsAsync(int[], int, TicketRelationType, RequestOptions)
+  nameWithType: TicketAgent.ValidateTicketRelationsAsync(int[], int, TicketRelationType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync(int[], int, SuperOffice.WebApi.Data.TicketRelationType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Validate proposed ticket relations without saving them. Returns a result per source ticket indicating whether the relation is valid.
+  example: []
+  syntax:
+    content: public Task<TicketRelationResult[]> ValidateTicketRelationsAsync(int[] sourceTicketIds, int destinationTicketId, TicketRelationType relationType, RequestOptions requestOptions = null)
+    parameters:
+    - id: sourceTicketIds
+      type: System.Int32[]
+      description: The ids of the tickets to relate to the destination ticket.
+    - id: destinationTicketId
+      type: System.Int32
+      description: The id of the ticket that the source tickets will be related to.
+    - id: relationType
+      type: SuperOffice.WebApi.Data.TicketRelationType
+      description: The type of relation to create.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationResult[]}
+      description: Validation results, one per source ticket id.
+    content.vb: Public Function ValidateTicketRelationsAsync(sourceTicketIds As Integer(), destinationTicketId As Integer, relationType As TicketRelationType, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationResult())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.ValidateTicketRelationsAsync(Integer(), Integer, TicketRelationType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync(Integer(), Integer, SuperOffice.WebApi.Data.TicketRelationType, SuperOffice.WebApi.RequestOptions)
+  name.vb: ValidateTicketRelationsAsync(Integer(), Integer, TicketRelationType, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTicketRelationsAsync(int[], int, TicketRelationType, string, RequestOptions)
+  nameWithType: TicketAgent.CreateTicketRelationsAsync(int[], int, TicketRelationType, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync(int[], int, SuperOffice.WebApi.Data.TicketRelationType, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Create multiple ticket relations in a single call. Returns a result per source ticket indicating success or failure.
+  example: []
+  syntax:
+    content: public Task<TicketRelationResult[]> CreateTicketRelationsAsync(int[] sourceTicketIds, int destinationTicketId, TicketRelationType relationType, string comment, RequestOptions requestOptions = null)
+    parameters:
+    - id: sourceTicketIds
+      type: System.Int32[]
+      description: The ids of the tickets to relate to the destination ticket.
+    - id: destinationTicketId
+      type: System.Int32
+      description: The id of the ticket that the source tickets will be related to.
+    - id: relationType
+      type: SuperOffice.WebApi.Data.TicketRelationType
+      description: The type of relation to create.
+    - id: comment
+      type: System.String
+      description: Optional comment to store on each relation.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationResult[]}
+      description: Creation results, one per source ticket id.
+    content.vb: Public Function CreateTicketRelationsAsync(sourceTicketIds As Integer(), destinationTicketId As Integer, relationType As TicketRelationType, comment As String, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationResult())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.CreateTicketRelationsAsync(Integer(), Integer, TicketRelationType, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync(Integer(), Integer, SuperOffice.WebApi.Data.TicketRelationType, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTicketRelationsAsync(Integer(), Integer, TicketRelationType, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketRelationActionsAsync(int, int, int, RequestOptions)
+  nameWithType: TicketAgent.GetTicketRelationActionsAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the relation-driven actions that apply to a ticket, such as whether to offer closing the parent or whether open children are blocking the ticket from being closed.
+  example: []
+  syntax:
+    content: public Task<TicketRelationAction> GetTicketRelationActionsAsync(int ticketId, int parentTicketId, int ticketTypeId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket being evaluated.
+    - id: parentTicketId
+      type: System.Int32
+      description: The id of the parent ticket, if any. Pass 0 if there is no parent.
+    - id: ticketTypeId
+      type: System.Int32
+      description: The id of the ticket type.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationAction}
+      description: The relation-driven actions applicable to the ticket.
+    content.vb: Public Function GetTicketRelationActionsAsync(ticketId As Integer, parentTicketId As Integer, ticketTypeId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketRelationAction)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.GetTicketRelationActionsAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationActionsAsync(Integer, Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetTicketSummariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -9706,6 +9949,555 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_GetTicketRelationsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationsAsync
+  nameWithType: TicketAgent.GetTicketRelationsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationsAsync(int, RequestOptions)
+  nameWithType: ITicketAgent.GetTicketRelationsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.GetTicketRelationsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationsAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketRelationsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketRelationsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationItem[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationItem[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationItem[]>
+  nameWithType: Task<TicketRelationItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketRelationItem[]>
+  nameWithType.vb: Task(Of TicketRelationItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketRelationItem())
+  name.vb: Task(Of TicketRelationItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.TicketRelationItem
+    name: TicketRelationItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationItem.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationItem
+    name: TicketRelationItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationItem.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_GetTicketParentIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketParentIdAsync
+  nameWithType: TicketAgent.GetTicketParentIdAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketParentIdAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketParentIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketParentIdAsync(int, RequestOptions)
+  nameWithType: ITicketAgent.GetTicketParentIdAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.GetTicketParentIdAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketParentIdAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketParentIdAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketParentIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketParentIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketParentIdAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketParentIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_SetTicketParentAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: SetTicketParentAsync
+  nameWithType: TicketAgent.SetTicketParentAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SetTicketParentAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_SetTicketParentAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: SetTicketParentAsync(int, int, string, RequestOptions)
+  nameWithType: ITicketAgent.SetTicketParentAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.SetTicketParentAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetTicketParentAsync(Integer, Integer, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: SetTicketParentAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_SetTicketParentAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.SetTicketParentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+    name: SetTicketParentAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_SetTicketParentAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_ValidateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_SuperOffice_WebApi_RequestOptions_
+  name: ValidateTicketRelationsAsync
+  nameWithType: TicketAgent.ValidateTicketRelationsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.ValidateTicketRelationsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_ValidateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_SuperOffice_WebApi_RequestOptions_
+  name: ValidateTicketRelationsAsync(int[], int, TicketRelationType, RequestOptions)
+  nameWithType: ITicketAgent.ValidateTicketRelationsAsync(int[], int, TicketRelationType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(int[], int, SuperOffice.WebApi.Data.TicketRelationType, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.ValidateTicketRelationsAsync(Integer(), Integer, TicketRelationType, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(Integer(), Integer, SuperOffice.WebApi.Data.TicketRelationType, SuperOffice.WebApi.RequestOptions)
+  name.vb: ValidateTicketRelationsAsync(Integer(), Integer, TicketRelationType, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+    name: ValidateTicketRelationsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_ValidateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.ValidateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,SuperOffice.WebApi.RequestOptions)
+    name: ValidateTicketRelationsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_ValidateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.TicketRelationType
+  commentId: T:SuperOffice.WebApi.Data.TicketRelationType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TicketRelationType.html
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.WebApi.Data.TicketRelationType
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationResult[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationResult[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationResult[]>
+  nameWithType: Task<TicketRelationResult[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketRelationResult[]>
+  nameWithType.vb: Task(Of TicketRelationResult())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketRelationResult())
+  name.vb: Task(Of TicketRelationResult())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.TicketRelationResult
+    name: TicketRelationResult
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationResult.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationResult
+    name: TicketRelationResult
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationResult.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_CreateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateTicketRelationsAsync
+  nameWithType: TicketAgent.CreateTicketRelationsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateTicketRelationsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_CreateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateTicketRelationsAsync(int[], int, TicketRelationType, string, RequestOptions)
+  nameWithType: ITicketAgent.CreateTicketRelationsAsync(int[], int, TicketRelationType, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(int[], int, SuperOffice.WebApi.Data.TicketRelationType, string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.CreateTicketRelationsAsync(Integer(), Integer, TicketRelationType, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(Integer(), Integer, SuperOffice.WebApi.Data.TicketRelationType, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTicketRelationsAsync(Integer(), Integer, TicketRelationType, String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+    name: CreateTicketRelationsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_CreateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationType.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.CreateTicketRelationsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.Data.TicketRelationType,System.String,SuperOffice.WebApi.RequestOptions)
+    name: CreateTicketRelationsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_CreateTicketRelationsAsync_System_Int32___System_Int32_SuperOffice_WebApi_Data_TicketRelationType_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationType.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_GetTicketRelationActionsAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationActionsAsync
+  nameWithType: TicketAgent.GetTicketRelationActionsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketRelationActionsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationActionsAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetTicketRelationActionsAsync(int, int, int, RequestOptions)
+  nameWithType: ITicketAgent.GetTicketRelationActionsAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.GetTicketRelationActionsAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketRelationActionsAsync(Integer, Integer, Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketRelationActionsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationActionsAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetTicketRelationActionsAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetTicketRelationActionsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_GetTicketRelationActionsAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationAction}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketRelationAction}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationAction>
+  nameWithType: Task<TicketRelationAction>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketRelationAction>
+  nameWithType.vb: Task(Of TicketRelationAction)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketRelationAction)
+  name.vb: Task(Of TicketRelationAction)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.TicketRelationAction
+    name: TicketRelationAction
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationAction.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.TicketRelationAction
+    name: TicketRelationAction
+    isExternal: true
+    href: SuperOffice.WebApi.Data.TicketRelationAction.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketSummariesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketSummariesAsync

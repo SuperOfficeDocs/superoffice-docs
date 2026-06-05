@@ -245,7 +245,7 @@ Shadow contact provider for the dynamic Mailings provider.
 |mailingAddr/person/firstName|string|Contact - First name: Displays the contact's first name| x |
 |mailingAddr/person/lastName|string|Contact - Last name: Displays the contact's last name| x |
 |mailingAddr/person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
-|mailingAddr/person/fullName|stringorPK|Contact - Contact: Displays the contact to which an item is linked| x |
+|mailingAddr/person/fullName|string|Contact - Contact: Displays the contact to which an item is linked| x |
 |mailingAddr/person/contactId|int|Contact - Company ID: Database ID of company| x |
 |mailingAddr/person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |mailingAddr/person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -671,7 +671,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/streetAddress/zip,mailingAddr/contact/contactAssociate/credentialType,mailingAddr/person/mrMrs,mailingAddr/person/personDirectPhone/formattedNumber,mailingAddr/person/searchPhone/formattedNumber
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/orgnr,mailingAddr/contact/forceCompany,mailingAddr/contact/postAddress/addressId,mailingAddr/contact/postAddress/county,mailingAddr/contact/streetAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -34,6 +34,7 @@ Download [WSDL file for Services88/Workflow](../Services88-Workflow.md) if you n
 * [DeleteWorkflowTrigger](DeleteWorkflowTrigger.md)
 * [DeleteWorkflowWaitForAction](DeleteWorkflowWaitForAction.md)
 * [GetEmailFlow](GetEmailFlow.md)
+* [GetWorkflowFencingInfo](GetWorkflowFencingInfo.md)
 * [GetWorkflowGoal](GetWorkflowGoal.md)
 * [GetWorkflowStep](GetWorkflowStep.md)
 * [GetWorkflowStepOption](GetWorkflowStepOption.md)

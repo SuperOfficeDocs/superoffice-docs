@@ -43,6 +43,7 @@ Download [WSDL file for Services88/Project](../Services88-Project.md) if you nee
 * [GetProjectEventList](GetProjectEventList.md)
 * [GetProjectEventOnPerson](GetProjectEventOnPerson.md)
 * [GetProjectEventsOnPerson](GetProjectEventsOnPerson.md)
+* [GetProjectFencingInfo](GetProjectFencingInfo.md)
 * [GetProjectImage](GetProjectImage.md)
 * [GetProjectList](GetProjectList.md)
 * [GetProjectMember](GetProjectMember.md)

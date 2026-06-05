@@ -88,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
       </Webhook:StringObjectKeyValuePair>
      </Webhook:Properties>
-     <Webhook:Registered xsi:type="xsd:dateTime">2026-04-28T11:04:24Z</Webhook:Registered>
+     <Webhook:Registered xsi:type="xsd:dateTime">2026-05-27T01:25:36Z</Webhook:Registered>
      <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -115,7 +115,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        </Webhook:StringKeyValuePair>
       </Webhook:CustomFields>
      </Webhook:RegisteredAssociate>
-     <Webhook:Updated xsi:type="xsd:dateTime">2026-04-28T11:04:24Z</Webhook:Updated>
+     <Webhook:Updated xsi:type="xsd:dateTime">2026-05-27T01:25:36Z</Webhook:Updated>
      <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
       <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -143,6 +143,49 @@ Application tokens must be specified if calling an Online installation. Applicat
       </Webhook:CustomFields>
      </Webhook:UpdatedAssociate>
      <Webhook:ErrorsEmail xsi:type="xsd:string"></Webhook:ErrorsEmail>
+     <Webhook:ErrorEmails xsi:type="NetServerServices882:ArrayOfstring">
+      <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
+     </Webhook:ErrorEmails>
+     <Webhook:ErrorAssociates xsi:type="Webhook:ArrayOfMDOListItem">
+      <Webhook:MDOListItem xsi:type="Webhook:MDOListItem">
+       <Webhook:Id xsi:type="xsd:int">0</Webhook:Id>
+       <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
+       <Webhook:ToolTip xsi:type="xsd:string"></Webhook:ToolTip>
+       <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
+       <Webhook:Rank xsi:type="xsd:int">0</Webhook:Rank>
+       <Webhook:Type xsi:type="xsd:string"></Webhook:Type>
+       <Webhook:ChildItems xsi:type="Webhook:ArrayOfMDOListItem">
+        <Webhook:MDOListItem xsi:type="Webhook:MDOListItem">
+         <Webhook:Id xsi:type="xsd:int">0</Webhook:Id>
+         <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
+         <Webhook:ToolTip xsi:type="xsd:string"></Webhook:ToolTip>
+         <Webhook:Deleted xsi:type="xsd:boolean">false</Webhook:Deleted>
+         <Webhook:Rank xsi:type="xsd:int">0</Webhook:Rank>
+         <Webhook:Type xsi:type="xsd:string"></Webhook:Type>
+         <Webhook:ChildItems xsi:type="Webhook:ArrayOfMDOListItem">
+          <Webhook:MDOListItem xsi:nil="true"></Webhook:MDOListItem>
+         </Webhook:ChildItems>
+         <Webhook:IconHint xsi:type="xsd:string"></Webhook:IconHint>
+         <Webhook:ColorBlock xsi:type="xsd:int">0</Webhook:ColorBlock>
+         <Webhook:ExtraInfo xsi:type="xsd:string"></Webhook:ExtraInfo>
+         <Webhook:StyleHint xsi:type="xsd:string"></Webhook:StyleHint>
+         <Webhook:FullName xsi:type="xsd:string"></Webhook:FullName>
+        </Webhook:MDOListItem>
+       </Webhook:ChildItems>
+       <Webhook:IconHint xsi:type="xsd:string"></Webhook:IconHint>
+       <Webhook:ColorBlock xsi:type="xsd:int">0</Webhook:ColorBlock>
+       <Webhook:ExtraInfo xsi:type="xsd:string"></Webhook:ExtraInfo>
+       <Webhook:StyleHint xsi:type="xsd:string"></Webhook:StyleHint>
+       <Webhook:FullName xsi:type="xsd:string"></Webhook:FullName>
+      </Webhook:MDOListItem>
+     </Webhook:ErrorAssociates>
+     <Webhook:Description xsi:type="xsd:string"></Webhook:Description>
+     <Webhook:NotifyVia xsi:type="Webhook:WebhookNotifyVia">Email</Webhook:NotifyVia>
+     <Webhook:NotifyWhen xsi:type="Webhook:WebhookNotifyWhen">FirstFailure</Webhook:NotifyWhen>
+     <Webhook:TotalCalls xsi:type="xsd:int">0</Webhook:TotalCalls>
+     <Webhook:TotalErrors xsi:type="xsd:int">0</Webhook:TotalErrors>
+     <Webhook:ConsecutiveErrors xsi:type="xsd:int">0</Webhook:ConsecutiveErrors>
+     <Webhook:LastError xsi:type="xsd:string"></Webhook:LastError>
     </Webhook:Webhook>
    </Webhook:Response>
   </Webhook:GetAllWebhooksResponse>
