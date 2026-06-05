@@ -5,6 +5,8 @@ items:
   href: get.md
 - name: Save to SuperOffice
   href: save-to-superoffice.md
+- name: Email archive reminder
+  href: email-archive-reminder.md
 - name: Add contact to SuperOffice
   href: add-contact-to-superoffice.md
 - name: Create follow-up
@@ -15,6 +17,8 @@ items:
   href: create-request.md
 - name: Add CRM data to Outlook event
   href: add-crm-data-to-event.md
+- name: Settings
+  href: settings.md
 - name: Requirements
   href: requirements.md
 - name: Deploy centrally
