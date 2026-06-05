@@ -80,4 +80,3 @@ Your settings are saved automatically and sync across all your devices.
 <!-- Referenced links -->
 [1]: email-archive-reminder.md
 [2]: save-to-superoffice.md
-That's the full file. Once you've pasted both files in, do a final check that the two .md files and the updated toc.yml all appear in the VS Code Source Control panel as changed, then go ahead with the commit.
