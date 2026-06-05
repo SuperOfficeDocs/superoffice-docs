@@ -41,7 +41,7 @@ Sizing depends on the size of the source database and the throughput required:
 * No inbound ports.
 * No SuperOffice-issued TLS certificates.
 
-If you operate behind a strict outbound proxy, allow-list the SuperOffice replication endpoints (the exact URLs are shown in the terminal output after `provision` and in the [setup guide](setup-guide.md)).
+If you operate behind a strict outbound proxy, allow-list the SuperOffice replication endpoints (the exact URLs are shown in the terminal output after `provision` and in the [setup guide][1]).
 
 ## Backup
 
@@ -54,6 +54,11 @@ Back those up using your normal SQL Server backup process.
 
 ## Related
 
-* [Set up the Database Mirroring client](setup-guide.md)
-* [Overview](overview.md)
-* [SQL Server schema](sql-server-schema.md)
+* [Set up the Database Mirroring client][1]
+* [Overview][2]
+* [SQL Server schema][3]
+
+<!-- Referenced links -->
+[1]: setup-guide.md
+[2]: overview.md
+[3]: sql-server-schema.md

@@ -46,7 +46,7 @@ The customer runs a small **client** on a host of their choice. The client makes
 ```
 
 > [!NOTE]
-> An [earlier WCF-based implementation](conceptual-overview-2016.md) inverted these roles: the cloud pushed data into a partner-hosted endpoint. That implementation is now legacy. New customers should always use the outbound-only client. Existing customers should plan a [migration](migrate.md).
+> An [earlier WCF-based implementation][1] inverted these roles: the cloud pushed data into a partner-hosted endpoint. That implementation is now legacy. New customers should always use the outbound-only client. Existing customers should plan a [migration][2].
 
 ## What changed and why it matters
 
@@ -98,7 +98,7 @@ The schema is **Microsoft SQL Server dialect** end-to-end. Foreign key constrain
 
 No. You get a useful subset, not an exact copy. The replica contains more than enough data for what most applications need for offline processing.
 
-Primary key, data type, NULL/NOT NULL, and default value are mirrored, along with the table and column names. [Read more about the schema](sql-server-schema.md).
+Primary key, data type, NULL/NOT NULL, and default value are mirrored, along with the table and column names. [Read more about the schema][3].
 
 We exclude data that is irrelevant, that would incur unnecessary stress between systems, or that simply doesn't make sense to replicate:
 
@@ -110,7 +110,7 @@ We exclude data that is irrelevant, that would incur unnecessary stress between 
 * Sensitive information
 * Binary blobs and dictionary information tables (newly excluded with the new client)
 
-A complete list of tables both replicated and not replicated, with reasons, is in the [blocked tables list](blocked-tables.md).
+A complete list of tables both replicated and not replicated, with reasons, is in the [blocked tables list][4].
 
 You will **not** be able to connect to the mirror database using any SuperOffice client or API!
 
@@ -129,11 +129,11 @@ Database Mirroring is an **option** that can be activated or deactivated for any
 
 The customer must have a SuperOffice Online subscription that includes the Database Mirroring add-on. After that, the steps are:
 
-1. [Order Database Mirroring](order-database-mirroring.md) (if not already on the subscription).
+1. [Order Database Mirroring][5] (if not already on the subscription).
 2. Download the client from Operation Center.
-3. [Set up the client](setup-guide.md).
+3. [Set up the client][6].
 
-The legacy NuGet package, WCF service, `IMirrorClientService` interface, and partner-issued certificates are **not used** in the new model. [Existing legacy mirroring users should follow the migration guide](migrate.md).
+The legacy NuGet package, WCF service, `IMirrorClientService` interface, and partner-issued certificates are **not used** in the new model. [Existing legacy mirroring users should follow the migration guide][2].
 
 ## Responsibility
 
@@ -141,7 +141,17 @@ Whoever sets up Database Mirroring is responsible if it breaks or stops. If you 
 
 ## Next steps
 
-* [Requirements](requirements.md) &mdash; what you need on the host
-* [Set up the client](setup-guide.md) &mdash; step-by-step provisioning
-* [Migrate from legacy mirroring](migrate.md) &mdash; if you are already running the WCF service
-* [Troubleshooting](troubleshooting.md)
+* [Requirements][7] &mdash; what you need on the host
+* [Set up the client][6] &mdash; step-by-step provisioning
+* [Migrate from legacy mirroring][2] &mdash; if you are already running the WCF service
+* [Troubleshooting][8]
+
+<!-- Referenced links -->
+[1]: conceptual-overview-2016.md
+[2]: migrate.md
+[3]: sql-server-schema.md
+[4]: blocked-tables.md
+[5]: order-database-mirroring.md
+[6]: setup-guide.md
+[7]: requirements.md
+[8]: troubleshooting.md

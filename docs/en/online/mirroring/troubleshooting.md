@@ -13,7 +13,7 @@ platform: web
 # Troubleshooting Database Mirroring
 
 > [!NOTE]
-> This page covers the **new outbound-only client** (`SuperOffice.Online.Replication.Client.exe`). For the [legacy WCF-based mirroring service](#legacy-wcf-based-mirroring), see the bottom of the page.
+> This page covers the **new outbound-only client** (`SuperOffice.Online.Replication.Client.exe`). For the [legacy WCF-based mirroring service][1], see the bottom of the page.
 
 ## Quick first-aid checklist
 
@@ -67,14 +67,14 @@ Symptoms in the Event Log: `401 Unauthorized`, `403 Forbidden`, repeated "token 
 ## Data is not arriving (or is delayed)
 
 * Compare timestamps in the Event Log with what you expect. The client logs `Information` entries for each commit cycle.
-* If the client has been **offline for more than 7 days**, change events have been purged from Kafka. See [Force re-sync](force-resync.md#recover-from-extended-downtime-longer-than-7-days).
+* If the client has been **offline for more than 7 days**, change events have been purged from Kafka. See [Force re-sync][3].
 * If a single table is stale, use `resync-tables`:
 
     ```cmd
     SuperOffice.Online.Replication.Client.exe resync-tables crm7.<table>
     ```
 
-* If the Windows Service shows **Running** but you see no activity, raise the log level temporarily to `Debug` (see [Logging](setup-guide.md#logging-and-diagnostics)) and check the next cycle.
+* If the Windows Service shows **Running** but you see no activity, raise the log level temporarily to `Debug` (see [Logging][4]) and check the next cycle.
 
 ## Schema is out of date
 
@@ -122,7 +122,7 @@ When opening a support case, include:
 ## Legacy (WCF-based) mirroring
 
 > [!IMPORTANT]
-> The sections below apply **only** to the legacy WCF-based mirroring service. New deployments use the [outbound-only client](setup-guide.md).
+> The sections below apply **only** to the legacy WCF-based mirroring service. New deployments use the [outbound-only client][2].
 
 The most common problems during setup and configuration of legacy Database Mirroring were:
 
@@ -144,11 +144,11 @@ Please ensure that the address is correct and try accessing the service again la
 
 This is often observed in the log files as seen here:
 
-![unavailable wcf service error message -screenshot][wcf-unavailable]
+![unavailable wcf service error message -screenshot][img1]
 
 This problem is difficult to understand because viewing the web service in IIS delivers the expected WCF service web page:
 
-![iis wcf service page -screenshot][wcf-iis-page]
+![iis wcf service page -screenshot][img2]
 
 The error message in this case is misleading. When you view a WCF service in IIS, the page is served as a response to a GET request in the browser. The legacy Mirroring Task, however, sends POST requests to the customer's web server. Therein lies the difference.
 
@@ -178,7 +178,7 @@ SOAPAction: http://www.superoffice.com/online/mirroring/0.1/IMirroringClientServ
 
 The expected response is an HTTP 404:
 
-![iis 404 response -screenshot][wcf-404]
+![iis 404 response -screenshot][img3]
 
 If you see this, the connectivity issue is likely caused by permissions settings on the IIS server. When the legacy mirroring service is available to GET requests but unavailable to POST requests, the configuration likely requires the additional security element in the `basicHttpBinding` configuration:
 
@@ -208,13 +208,13 @@ If you see this, the connectivity issue is likely caused by permissions settings
 > [!NOTE]
 > If the WCF service returns a 404 when the security element is present, remove the security element from the `basicHttpBinding` binding section and try again.
 
-If your network infrastructure has more complex requirements, consult the Microsoft [WCF bindings and security](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/bindings-and-security) documentation, or review the [security transport](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/wcf/transport-of-basichttpbinding) documentation.
+If your network infrastructure has more complex requirements, consult the Microsoft [WCF bindings and security][5] documentation, or review the [security transport][6] documentation.
 
 ### Validation errors
 
 The legacy mirroring service initiates synchronization by passing a signed security token to the mirroring endpoint, which the endpoint validates. The endpoint then creates and signs its own security token, and sends it back to SuperOffice. Only after SuperOffice has validated the returned signed token does the mirroring service begin to send data.
 
-Assuming the endpoint uses the [SuperOffice.Crm.Online.Mirroring](https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring) NuGet library, a token-validation failure returns an error similar to:
+Assuming the endpoint uses the [SuperOffice.Crm.Online.Mirroring][7] NuGet library, a token-validation failure returns an error similar to:
 
 ```txt
 Exception:
@@ -277,7 +277,7 @@ The claims of interest are:
 * `aud` &mdash; audience
 * `nonce` &mdash; needed for the signed response
 
-![JWT claims -screenshot][authenticate-claims]
+![JWT claims -screenshot][img4]
 
 #### Validate the authentication request token
 
@@ -375,9 +375,16 @@ This indicates that the legacy SuperOffice mirroring service cannot validate the
 
 <!-- reference links -->
 [0]: ../../api/authentication/online/certificates/index.md
+[1]: #legacy-wcf-based-mirroring
+[2]: setup-guide.md
+[3]: force-resync.md#recover-from-extended-downtime-longer-than-7-days
+[4]: setup-guide.md#logging-and-diagnostics
+[5]: https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/bindings-and-security
+[6]: https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/wcf/transport-of-basichttpbinding
+[7]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 
 <!-- reference images -->
-[wcf-iis-page]: media/database-mirror-service-iis-page.png
-[wcf-unavailable]: media/database-mirror-unavailable.png
-[wcf-404]: media/database-mirror-404.png
-[authenticate-claims]: media/database-mirror-authenticate-jwt-claims.png
+[img1]: media/database-mirror-unavailable.png
+[img2]: media/database-mirror-service-iis-page.png
+[img3]: media/database-mirror-404.png
+[img4]: media/database-mirror-authenticate-jwt-claims.png

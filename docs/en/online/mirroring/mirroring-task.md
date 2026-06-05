@@ -14,7 +14,7 @@ platform: web
 > [!IMPORTANT]
 > This page describes the **legacy WCF-based mirroring service**, where SuperOffice scheduled a background task that pushed data to a customer-hosted endpoint on a fixed cadence.
 >
-> The current Database Mirroring implementation works very differently: a customer-hosted **client** long-polls SuperOffice for changes streamed through Kafka, and there is no scheduled push from the cloud. See [Overview](overview.md) and [Set up the Database Mirroring client](setup-guide.md) for the current model. If you are still running the legacy service, see [Migrate from the legacy mirroring service](migrate.md).
+> The current Database Mirroring implementation works very differently: a customer-hosted **client** long-polls SuperOffice for changes streamed through Kafka, and there is no scheduled push from the cloud. See [Overview][1] and [Set up the Database Mirroring client][6] for the current model. If you are still running the legacy service, see [Migrate from the legacy mirroring service][7].
 
 The Operation Center schedules the database Mirroring Task, running it periodically for each customer and application instance.
 
@@ -83,6 +83,8 @@ Batches can in principle be processed in parallel, but doing so would probably s
 [3]: getting-started/i-mirror-client-service.md
 [4]: skip-tables.md
 [5]: ../../admin/preferences/update.md#edit
+[6]: setup-guide.md
+[7]: migrate.md
 
 <!-- Referenced images -->
 [img1]: media/mirroringprinciplessequencediagram.png

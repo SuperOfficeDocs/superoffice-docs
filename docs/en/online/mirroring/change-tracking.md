@@ -15,7 +15,7 @@ platform: web
 The current Database Mirroring implementation uses **SQL Server Change Data Capture (CDC)** at the source database. Changes are read by a Debezium connector running in SuperOffice's infrastructure, published to per-tenant Kafka topics, and served to the client over a REST long-poll endpoint.
 
 > [!NOTE]
-> The [legacy WCF-based service](#legacy-sql-server-change-tracking) used SQL Server **Change Tracking** (a different and lighter-weight feature) with the Log Sequence Number (LSN) as the position marker. The mechanism described below replaces that approach for new deployments.
+> The [legacy WCF-based service][1] used SQL Server **Change Tracking** (a different and lighter-weight feature) with the Log Sequence Number (LSN) as the position marker. The mechanism described below replaces that approach for new deployments.
 
 ## How it works
 
@@ -34,7 +34,7 @@ End-to-end latency is normally measured in **seconds**: a row changes in the clo
 
 Change events are retained in Kafka for **7 days** by default. If the client is offline longer than that, events will have been purged from the topics and the client cannot fill the gap by replaying older events.
 
-To recover, you re-snapshot the affected tables. See [Force re-sync](force-resync.md).
+To recover, you re-snapshot the affected tables. See [Force re-sync][2].
 
 ## Schema-change detection
 
@@ -66,3 +66,7 @@ Using this method, rather than the internal `TravelTransactionLog`, avoided comp
 ### Legacy retention
 
 Change tracking data in SQL Server was kept for 7 days. If a mirroring client service was down for more than a week, change data would be missing and the next synchronization would cause a complete, automatic repopulation of the mirror.
+
+<!-- Referenced links -->
+[1]: #legacy-sql-server-change-tracking
+[2]: force-resync.md

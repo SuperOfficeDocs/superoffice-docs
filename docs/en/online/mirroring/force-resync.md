@@ -19,7 +19,7 @@ There is no GUI to inspect the replica &mdash; you must use **SQL Server Managem
 If a table is genuinely stale and the issue is not a transient connectivity problem, you can force a re-synchronization.
 
 > [!NOTE]
-> This page covers the new outbound-only client. For the legacy WCF-based mirroring service, see [the legacy procedure](#legacy-wcf-based-mirroring) at the bottom of this page.
+> This page covers the new outbound-only client. For the legacy WCF-based mirroring service, see [the legacy procedure][1] at the bottom of this page.
 
 ## When you need a re-sync
 
@@ -29,7 +29,7 @@ Common reasons:
 * You suspect schema drift between source and replica.
 * You want to revalidate a single table against the source after an incident.
 
-## Recover from extended downtime (longer than 7 days)
+## <a id="recover-from-extended-downtime-longer-than-7-days"></a>Recover from extended downtime (longer than 7 days)
 
 Change events are streamed through Kafka topics with a default retention of **7 days**. If the client is offline longer than that window, change events will have been purged from the topics. The client cannot fill the gap by replaying older events &mdash; it has to be re-snapshotted.
 
@@ -81,7 +81,7 @@ Once the snapshot completes:
 ## Legacy (WCF-based) mirroring
 
 > [!IMPORTANT]
-> This section applies **only** to the legacy WCF-based mirroring service. New deployments use the [outbound-only client](setup-guide.md) and follow the procedure above.
+> This section applies **only** to the legacy WCF-based mirroring service. New deployments use the [outbound-only client][2] and follow the procedure above.
 
 ### Restart synchronization for a single table
 
@@ -109,7 +109,14 @@ Once the snapshot completes:
 
 ## Related
 
-* [Set up the Database Mirroring client](setup-guide.md)
-* [Command reference](setup-guide.md#command-reference)
-* [Troubleshooting](troubleshooting.md)
-* [Migrate from the legacy mirroring service](migrate.md)
+* [Set up the Database Mirroring client][2]
+* [Command reference][3]
+* [Troubleshooting][4]
+* [Migrate from the legacy mirroring service][5]
+
+<!-- Referenced links -->
+[1]: #legacy-wcf-based-mirroring
+[2]: setup-guide.md
+[3]: setup-guide.md#command-reference
+[4]: troubleshooting.md
+[5]: migrate.md

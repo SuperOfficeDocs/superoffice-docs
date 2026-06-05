@@ -41,7 +41,7 @@ If your downstream applications expect tables in `dbo` (or another schema), you 
 > [!IMPORTANT]
 > `TablePrefix` only takes effect during the **initial snapshot**. It must be set before you run `provision`. Changing it after provisioning **does not** move tables between schemas.
 
-For details on choosing the right schema during a migration, see [Schema alignment](migrate.md#schema-alignment-dbo-vs-crm7).
+For details on choosing the right schema during a migration, see [Schema alignment][2].
 
 ## Session state: the `_ReplicationState` table
 
@@ -55,7 +55,7 @@ The client maintains one internal table in the replica database: **`_Replication
 Because the session state lives **inside the replica database**, it follows the database through backups, restores, and renames. No re-provisioning is required as long as the database itself moves with the client.
 
 > [!WARNING]
-> Do not edit, truncate, or drop `_ReplicationState` manually. If you need to start over, use [`resync-tables`](setup-guide.md#command-reference) or, in extreme cases, re-`provision` against an empty database.
+> Do not edit, truncate, or drop `_ReplicationState` manually. If you need to start over, use [`resync-tables`][5] or, in extreme cases, re-`provision` against an empty database.
 
 ## Indexes and other auxiliary objects
 
@@ -75,7 +75,7 @@ The replica contains a useful subset of the source database, not an exact copy. 
 * **Confidential** &mdash; for example `credentials`.
 * **Binary blobs and dictionary cache** &mdash; the `binaryobject` table and dictionary information tables are excluded to keep the replica cleaner and faster.
 
-See the full [list of blocked tables](blocked-tables.md).
+See the full [list of blocked tables][3].
 
 ## When schema changes fail
 
@@ -85,7 +85,14 @@ In that case the client reacts by dropping the affected table in the replica, re
 
 ## Related
 
-* [Set up the Database Mirroring client](setup-guide.md)
-* [Schema alignment during migration](migrate.md#schema-alignment-dbo-vs-crm7)
-* [Blocked tables](blocked-tables.md)
-* [Force re-sync](force-resync.md)
+* [Set up the Database Mirroring client][1]
+* [Schema alignment during migration][2]
+* [Blocked tables][3]
+* [Force re-sync][4]
+
+<!-- Referenced links -->
+[1]: setup-guide.md
+[2]: migrate.md#schema-alignment-dbo-vs-crm7
+[3]: blocked-tables.md
+[4]: force-resync.md
+[5]: setup-guide.md#command-reference

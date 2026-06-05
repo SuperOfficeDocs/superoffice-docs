@@ -41,7 +41,7 @@ The two implementations are **independent**. They do not share state, and there 
 4. Swap the database names so consuming applications keep using the original database name.
 
 > [!IMPORTANT]
-> Before you start, decide on the [destination schema](#schema-alignment-dbo-vs-crm7) for the new replica. Schema alignment is part of the contract with your downstream applications, and the setting that controls it must be in place **before** the first sync.
+> Before you start, decide on the [destination schema][2] for the new replica. Schema alignment is part of the contract with your downstream applications, and the setting that controls it must be in place **before** the first sync.
 
 ## Step-by-step migration
 
@@ -53,7 +53,7 @@ The database should be empty: the new client performs an initial CDC snapshot du
 
 ### 2. Provision the new client against the new database
 
-Follow the [setup guide](setup-guide.md). When you configure `appsettings.json`, point `ReplicaDatabase.ConnectionString` at `SuperOfficeReplica_new`. Then run:
+Follow the [setup guide][1]. When you configure `appsettings.json`, point `ReplicaDatabase.ConnectionString` at `SuperOfficeReplica_new`. Then run:
 
 ```cmd
 SuperOffice.Online.Replication.Client.exe provision
@@ -74,7 +74,7 @@ While both services are running:
 * Compare row counts on key tables.
 * Run representative application queries against both replicas and compare the results.
 * Confirm that schema changes pushed during the parallel period reach both replicas.
-* Verify that any auxiliary objects on the legacy replica (custom indexes, views, synonyms, triggers) have been re-created on the new replica. See [What does not carry over](#what-does-not-carry-over).
+* Verify that any auxiliary objects on the legacy replica (custom indexes, views, synonyms, triggers) have been re-created on the new replica. See [What does not carry over][7].
 
 ### 5. Cut over with a database rename
 
@@ -122,9 +122,9 @@ On the **SuperOffice side**, the legacy mirroring is delivered as an app registe
 > [!WARNING]
 > Until SuperOffice has confirmed the change, the cloud continues to attempt outbound calls to the (now offline) legacy mirroring endpoint and sends failure notifications by email to the technical contact.
 
-This step is intentionally last and is only carried out once the new setup has stabilised &mdash; it makes a fast [rollback](#rollback) possible.
+This step is intentionally last and is only carried out once the new setup has stabilised &mdash; it makes a fast [rollback][3] possible.
 
-## Schema alignment: `dbo` vs `crm7`
+## <a id="schema-alignment-dbo-vs-crm7"></a>Schema alignment: `dbo` vs `crm7`
 
 Legacy customers chose the schema for their replica database: some standardised on `crm7`, others on `dbo`. The application code that consumes the replica is written against whichever was chosen, so the schema is part of the contract between the replica and its consumers.
 
@@ -161,9 +161,9 @@ If schema alignment is not desirable (for example, you want to consolidate to a 
 
 * **Local schema customisations** in the existing replica (indexes, views, triggers, synonyms) must be re-applied to the new replica before cutover. The replicated tables are managed by the client; auxiliary objects are not.
 
-* **Excluded tables.** The new client uses the same base list of [blocked tables](blocked-tables.md) as the legacy service, with a few additions to keep the replica cleaner and faster &mdash; notably the `binaryobject` table and dictionary information tables.
+* **Excluded tables.** The new client uses the same base list of [blocked tables][4] as the legacy service, with a few additions to keep the replica cleaner and faster &mdash; notably the `binaryobject` table and dictionary information tables.
 
-## Rollback
+## <a id="rollback"></a>Rollback
 
 **Before the rename** (during the parallel period), no special action is needed. The legacy service is still running, applications are still pointed at the original replica, and the `_new` database can simply be dropped and re-created.
 
@@ -188,11 +188,18 @@ The legacy service resumes populating the restored replica on its next cycle &md
 
 ## Related
 
-* [Set up the Database Mirroring client](setup-guide.md)
-* [Overview](overview.md)
-* [SQL Server schema](sql-server-schema.md)
-* [Blocked tables](blocked-tables.md)
+* [Set up the Database Mirroring client][1]
+* [Overview][5]
+* [SQL Server schema][6]
+* [Blocked tables][4]
 * [How to turn off mirroring for an app][turn-off]
 
 <!-- Referenced links -->
+[1]: setup-guide.md
+[2]: #schema-alignment-dbo-vs-crm7
+[3]: #rollback
+[4]: blocked-tables.md
+[5]: overview.md
+[6]: sql-server-schema.md
+[7]: #what-does-not-carry-over
 [turn-off]: ../../developer-portal/faq/turn-off-mirroring.md

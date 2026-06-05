@@ -21,17 +21,17 @@ Unlike the legacy WCF-based Mirroring service, the new client is **outbound-only
 
 This guide walks you through the complete setup:
 
-* [Prerequisites](#prerequisites) - what you need before you start
-* [Step 1: Download the client](#step-1-download-the-client) from Operation Center
-* [Step 2: Configure appsettings.json](#step-2-configure-appsettingsjson)
-* [Step 3: Provision](#step-3-provision-authenticate-and-create-session) (authenticate and create session)
-* [Step 4: Run a manual sync](#step-4-run-a-manual-sync)
-* [Step 5: Install as a Windows Service](#step-5-install-as-a-windows-service)
-* [Step 6: Validate](#step-6-validate)
-* [Configuration reference](#configuration-reference)
-* [Command reference](#command-reference)
-* [Logging and diagnostics](#logging-and-diagnostics)
-* [Operating considerations](#operating-considerations)
+* [Prerequisites][1] - what you need before you start
+* [Step 1: Download the client][2] from Operation Center
+* [Step 2: Configure appsettings.json][3]
+* [Step 3: Provision][4] (authenticate and create session)
+* [Step 4: Run a manual sync][5]
+* [Step 5: Install as a Windows Service][6]
+* [Step 6: Validate][7]
+* [Configuration reference][8]
+* [Command reference][9]
+* [Logging and diagnostics][10]
+* [Operating considerations][11]
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ Make sure the following are in place before starting:
 
 ## Step 1: Download the client
 
-1. Sign in to **Operation Center (OC)** at [https://online.superoffice.com/OC2](https://online.superoffice.com/OC2).
+1. Sign in to **Operation Center (OC)** at [https://online.superoffice.com/OC2][12].
 
 2. If you have access to more than one tenant, navigate to the customer tenant and open the **Replication** tab.
 
@@ -74,7 +74,7 @@ Open `appsettings.json` in the extracted folder and update the connection string
 }
 ```
 
-For more examples, see [connectionstrings.com/sql-server](https://www.connectionstrings.com/sql-server/).
+For more examples, see [connectionstrings.com/sql-server][13].
 
 ### Choose the destination schema (optional)
 
@@ -90,9 +90,9 @@ By default the client preserves the source schema from SuperOffice &mdash; typic
 ```
 
 > [!WARNING]
-> `TablePrefix` only takes effect during the initial snapshot. Changing it after provisioning **does not** move tables between schemas. See [Schema alignment](migrate.md#schema-alignment-dbo-vs-crm7) in the migration guide for details.
+> `TablePrefix` only takes effect during the initial snapshot. Changing it after provisioning **does not** move tables between schemas. See [Schema alignment][14] in the migration guide for details.
 
-The defaults shown in the [configuration reference](#configuration-reference) suit most setups.
+The defaults shown in the [configuration reference][8] suit most setups.
 
 ## Step 3: Provision (authenticate and create session)
 
@@ -104,11 +104,11 @@ SuperOffice.Online.Replication.Client.exe provision
 
 This opens a browser. Follow the sub-steps below.
 
-### 3.1 Approve the Database Replication application
+### 3.1 Approve the Database Mirroring Service
 
-You are redirected to a SuperOffice consent page asking you to approve the **Database Replication** app by SuperOffice AS.
+You are redirected to a SuperOffice consent page asking you to approve the **Database Mirroring Service** by SuperOffice AS.
 
-![SuperOffice consent page &mdash; click "I approve" to grant access -screenshot][img-consent]
+![SuperOffice consent page &mdash; click "I approve" to grant access -screenshot][img1]
 
 Click **I approve** to continue.
 
@@ -116,7 +116,7 @@ Click **I approve** to continue.
 
 After approval you are taken to the **Provision Replication Session** page. Your tenant identity is shown automatically. Enter a **Session Name** and click **Create session**.
 
-![Provision Replication Session page &mdash; verify identity, enter session name, click "Create session" -screenshot][img-provision]
+![Provision Replication Session page &mdash; verify identity, enter session name, click "Create session" -screenshot][img2]
 
 > [!TIP]
 > Choose a descriptive session name (for example, **Production** or **MyMirror**). It becomes the **Replication ID** that is visible in Operation Center and forms part of the Windows Service name.
@@ -125,7 +125,7 @@ After approval you are taken to the **Provision Replication Session** page. Your
 
 Provisioning runs through five phases. It typically takes a few minutes, depending on database size.
 
-![Phase 3/5 Ensure Primary Keys -screenshot][img-progress]
+![Phase 3/5 Ensure Primary Keys -screenshot][img3]
 
 When you see the green **Provisioning complete** banner, the browser closes automatically and the terminal shows the results.
 
@@ -133,7 +133,7 @@ When you see the green **Provisioning complete** banner, the browser closes auto
 
 The terminal displays the provisioning summary:
 
-![Terminal showing "Provisioning completed successfully" with Tenant, Replication ID and Service URL -screenshot][img-terminal]
+![Terminal showing "Provisioning completed successfully" with Tenant, Replication ID and Service URL -screenshot][img4]
 
 Verify the output shows:
 
@@ -154,7 +154,7 @@ SuperOffice.Online.Replication.Client.exe sync
 
 The terminal shows tables being created and populated in the replica database:
 
-![Sync in progress &mdash; tables being created in the [crm7] schema of the replica database -screenshot][img-sync]
+![Sync in progress &mdash; tables being created in the [crm7] schema of the replica database -screenshot][img5]
 
 Wait until the sync completes. The initial sync can take several minutes for larger tenants. Subsequent syncs are near real-time (typically within seconds).
 
@@ -294,19 +294,40 @@ A few points worth knowing:
 
 * **Lifecycle events.** Database moves, restores, suspensions, and resumptions are handled by the standard tenant operations sagas on the SuperOffice side. They reset offsets and trigger a fresh snapshot, which the client absorbs as upserts. You do not normally need to intervene.
 
-* **Recovery from extended downtime.** Change events are retained for **7 days**. If the client is offline longer than that window, see [Force re-sync](force-resync.md).
+* **Recovery from extended downtime.** Change events are retained for **7 days**. If the client is offline longer than that window, see [Force re-sync][18].
 
 ## Related
 
-* [Requirements](requirements.md)
-* [Migrate from the legacy mirroring service](migrate.md)
-* [SQL Server schema](sql-server-schema.md)
-* [Force re-sync](force-resync.md)
-* [Troubleshooting](troubleshooting.md)
+* [Requirements][15]
+* [Migrate from the legacy mirroring service][16]
+* [SQL Server schema][17]
+* [Force re-sync][18]
+* [Troubleshooting][19]
+
+<!-- Referenced links -->
+[1]: #prerequisites
+[2]: #step-1-download-the-client
+[3]: #step-2-configure-appsettingsjson
+[4]: #step-3-provision-authenticate-and-create-session
+[5]: #step-4-run-a-manual-sync
+[6]: #step-5-install-as-a-windows-service
+[7]: #step-6-validate
+[8]: #configuration-reference
+[9]: #command-reference
+[10]: #logging-and-diagnostics
+[11]: #operating-considerations
+[12]: https://online.superoffice.com/OC2
+[13]: https://www.connectionstrings.com/sql-server/
+[14]: migrate.md#schema-alignment-dbo-vs-crm7
+[15]: requirements.md
+[16]: migrate.md
+[17]: sql-server-schema.md
+[18]: force-resync.md
+[19]: troubleshooting.md
 
 <!-- Referenced images (to be added later) -->
-[img-consent]: media/replication-consent.png
-[img-provision]: media/replication-provision-session.png
-[img-progress]: media/replication-provision-progress.png
-[img-terminal]: media/replication-provision-terminal.png
-[img-sync]: media/replication-sync-progress.png
+[img1]: media/replication-consent.png
+[img2]: media/replication-provision-session.png
+[img3]: media/replication-provision-progress.png
+[img4]: media/replication-provision-terminal.png
+[img5]: media/replication-sync-progress.png
