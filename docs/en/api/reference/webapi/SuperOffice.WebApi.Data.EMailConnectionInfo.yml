@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.EMailConnectionInfo.Folder
   - SuperOffice.WebApi.Data.EMailConnectionInfo.Password
   - SuperOffice.WebApi.Data.EMailConnectionInfo.ServerName
+  - SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi
   - SuperOffice.WebApi.Data.EMailConnectionInfo.UseSSL
   - SuperOffice.WebApi.Data.EMailConnectionInfo.UserName
   langs:
@@ -183,6 +184,29 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property UseSSL As Boolean
   overload: SuperOffice.WebApi.Data.EMailConnectionInfo.UseSSL*
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi
+  commentId: P:SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.WebApi.Data.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EMailConnectionInfo.UseGraphApi
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Use Graph API
+  example: []
+  syntax:
+    content: public virtual bool UseGraphApi { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseGraphApi As Boolean
+  overload: SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi*
 references:
 - uid: SuperOffice.WebApi.Agents.EMailAgent
   commentId: T:SuperOffice.WebApi.Agents.EMailAgent
@@ -556,3 +580,10 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailConnectionInfo.html#SuperOffice_WebApi_Data_EMailConnectionInfo_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EMailConnectionInfo.UseGraphApi
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo.UseGraphApi

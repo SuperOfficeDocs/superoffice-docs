@@ -24,6 +24,7 @@ items:
   - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,System.Threading.CancellationToken)
@@ -481,6 +482,32 @@ items:
   nameWithType.vb: IWorkflowAgent.CopyEmailFlowAsync(Integer, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowAsync(Integer, String, System.Threading.CancellationToken)
   name.vb: CopyEmailFlowAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  id: GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowFencingInfoAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.GetWorkflowFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get the current Workflow fencing status for the tenant
+  example: []
+  syntax:
+    content: Task<FencingInfo> GetWorkflowFencingInfoAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Function GetWorkflowFencingInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
   id: CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
@@ -1565,6 +1592,48 @@ references:
   name: CopyEmailFlowAsync
   nameWithType: IWorkflowAgent.CopyEmailFlowAsync
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetWorkflowFencingInfoAsync_System_Threading_CancellationToken_
+  name: GetWorkflowFencingInfoAsync
+  nameWithType: IWorkflowAgent.GetWorkflowFencingInfoAsync
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync
   isExternal: true

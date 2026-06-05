@@ -6,10 +6,13 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.DBC.WebhookFields.ApplicationToken
+  - SuperOffice.CRM.Data.DBC.WebhookFields.Description
   - SuperOffice.CRM.Data.DBC.WebhookFields.ErrorsEmail
   - SuperOffice.CRM.Data.DBC.WebhookFields.Events
   - SuperOffice.CRM.Data.DBC.WebhookFields.Headers
   - SuperOffice.CRM.Data.DBC.WebhookFields.Name
+  - SuperOffice.CRM.Data.DBC.WebhookFields.NotifyVia
+  - SuperOffice.CRM.Data.DBC.WebhookFields.NotifyWhen
   - SuperOffice.CRM.Data.DBC.WebhookFields.Properties
   - SuperOffice.CRM.Data.DBC.WebhookFields.Registered
   - SuperOffice.CRM.Data.DBC.WebhookFields.RegisteredAssociateId
@@ -382,6 +385,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const ErrorsEmail As String = "errors_email"
+- uid: SuperOffice.CRM.Data.DBC.WebhookFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.WebhookFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.WebhookFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Description
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Webhook.Description: Human-readable description of what this webhook does.'
+  example: []
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+- uid: SuperOffice.CRM.Data.DBC.WebhookFields.NotifyVia
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.CRM.Data.DBC.WebhookFields
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: DBC.WebhookFields.NotifyVia
+  fullName: SuperOffice.CRM.Data.DBC.WebhookFields.NotifyVia
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Webhook.NotifyVia: How to notify recipients when this webhook changes state. 1=Email, 2=InApp.'
+  example: []
+  syntax:
+    content: public const string NotifyVia = "notify_via"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyVia As String = "notify_via"
+- uid: SuperOffice.CRM.Data.DBC.WebhookFields.NotifyWhen
+  commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.CRM.Data.DBC.WebhookFields
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: DBC.WebhookFields.NotifyWhen
+  fullName: SuperOffice.CRM.Data.DBC.WebhookFields.NotifyWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Webhook.NotifyWhen: When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.'
+  example: []
+  syntax:
+    content: public const string NotifyWhen = "notify_when"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyWhen As String = "notify_when"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

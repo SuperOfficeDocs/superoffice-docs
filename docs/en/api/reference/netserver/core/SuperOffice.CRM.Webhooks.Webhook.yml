@@ -8,10 +8,15 @@ items:
   - SuperOffice.CRM.Webhooks.Webhook.#ctor(System.Int32,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Webhooks.Webhook.#ctor(System.Int32,System.String,System.String,System.String[],System.String)
   - SuperOffice.CRM.Webhooks.Webhook.ApplicationToken
+  - SuperOffice.CRM.Webhooks.Webhook.Description
+  - SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds
+  - SuperOffice.CRM.Webhooks.Webhook.ErrorEmails
   - SuperOffice.CRM.Webhooks.Webhook.ErrorsEmail
   - SuperOffice.CRM.Webhooks.Webhook.Events
   - SuperOffice.CRM.Webhooks.Webhook.Headers
   - SuperOffice.CRM.Webhooks.Webhook.Name
+  - SuperOffice.CRM.Webhooks.Webhook.NotifyVia
+  - SuperOffice.CRM.Webhooks.Webhook.NotifyWhen
   - SuperOffice.CRM.Webhooks.Webhook.Properties
   - SuperOffice.CRM.Webhooks.Webhook.Registered
   - SuperOffice.CRM.Webhooks.Webhook.RegisteredAssociateId
@@ -421,6 +426,121 @@ items:
       type: System.Int32
     content.vb: Public Property UpdatedAssociateId As Integer
   overload: SuperOffice.CRM.Webhooks.Webhook.UpdatedAssociateId*
+- uid: SuperOffice.CRM.Webhooks.Webhook.Description
+  commentId: P:SuperOffice.CRM.Webhooks.Webhook.Description
+  id: Description
+  parent: SuperOffice.CRM.Webhooks.Webhook
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Webhook.Description
+  fullName: SuperOffice.CRM.Webhooks.Webhook.Description
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Human-readable description of this webhook.
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.CRM.Webhooks.Webhook.Description*
+- uid: SuperOffice.CRM.Webhooks.Webhook.NotifyVia
+  commentId: P:SuperOffice.CRM.Webhooks.Webhook.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.CRM.Webhooks.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.CRM.Webhooks.Webhook.NotifyVia
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: How to notify recipients when this webhook changes state. 1=Email, 2=InApp.
+  example: []
+  syntax:
+    content: public WebhookNotifyVia NotifyVia { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WebhookNotifyVia
+    content.vb: Public Property NotifyVia As WebhookNotifyVia
+  overload: SuperOffice.CRM.Webhooks.Webhook.NotifyVia*
+- uid: SuperOffice.CRM.Webhooks.Webhook.NotifyWhen
+  commentId: P:SuperOffice.CRM.Webhooks.Webhook.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.CRM.Webhooks.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.CRM.Webhooks.Webhook.NotifyWhen
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: 'When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.'
+  example: []
+  syntax:
+    content: public WebhookNotifyWhen NotifyWhen { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.WebhookNotifyWhen
+    content.vb: Public Property NotifyWhen As WebhookNotifyWhen
+  overload: SuperOffice.CRM.Webhooks.Webhook.NotifyWhen*
+- uid: SuperOffice.CRM.Webhooks.Webhook.ErrorEmails
+  commentId: P:SuperOffice.CRM.Webhooks.Webhook.ErrorEmails
+  id: ErrorEmails
+  parent: SuperOffice.CRM.Webhooks.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorEmails
+  nameWithType: Webhook.ErrorEmails
+  fullName: SuperOffice.CRM.Webhooks.Webhook.ErrorEmails
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Email addresses to notify when this webhook is disabled.
+  example: []
+  syntax:
+    content: public string[] ErrorEmails { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ErrorEmails As String()
+  overload: SuperOffice.CRM.Webhooks.Webhook.ErrorEmails*
+- uid: SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds
+  commentId: P:SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds
+  id: ErrorAssociateIds
+  parent: SuperOffice.CRM.Webhooks.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorAssociateIds
+  nameWithType: Webhook.ErrorAssociateIds
+  fullName: SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: Associate IDs to notify when this webhook is disabled.
+  example: []
+  syntax:
+    content: public int[] ErrorAssociateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ErrorAssociateIds As Integer()
+  overload: SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds*
 - uid: SuperOffice.CRM.Webhooks.Webhook.ErrorsEmail
   commentId: P:SuperOffice.CRM.Webhooks.Webhook.ErrorsEmail
   id: ErrorsEmail
@@ -435,7 +555,10 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Where to send error notifications when webhook gets disabled.
+  summary: >-
+    Where to send error notifications when webhook gets disabled.
+
+    Maps to ErrorEmails[0] for backward compatibility.
   example: []
   syntax:
     content: public string ErrorsEmail { get; set; }
@@ -1267,6 +1390,107 @@ references:
   name: UpdatedAssociateId
   nameWithType: Webhook.UpdatedAssociateId
   fullName: SuperOffice.CRM.Webhooks.Webhook.UpdatedAssociateId
+- uid: SuperOffice.CRM.Webhooks.Webhook.Description*
+  commentId: Overload:SuperOffice.CRM.Webhooks.Webhook.Description
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.Webhook.html#SuperOffice_CRM_Webhooks_Webhook_Description
+  name: Description
+  nameWithType: Webhook.Description
+  fullName: SuperOffice.CRM.Webhooks.Webhook.Description
+- uid: SuperOffice.CRM.Webhooks.Webhook.NotifyVia*
+  commentId: Overload:SuperOffice.CRM.Webhooks.Webhook.NotifyVia
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.Webhook.html#SuperOffice_CRM_Webhooks_Webhook_NotifyVia
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.CRM.Webhooks.Webhook.NotifyVia
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: T:SuperOffice.Data.WebhookNotifyVia
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Webhooks.Webhook.NotifyWhen*
+  commentId: Overload:SuperOffice.CRM.Webhooks.Webhook.NotifyWhen
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.Webhook.html#SuperOffice_CRM_Webhooks_Webhook_NotifyWhen
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.CRM.Webhooks.Webhook.NotifyWhen
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.Data.WebhookNotifyWhen
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
+- uid: SuperOffice.CRM.Webhooks.Webhook.ErrorEmails*
+  commentId: Overload:SuperOffice.CRM.Webhooks.Webhook.ErrorEmails
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.Webhook.html#SuperOffice_CRM_Webhooks_Webhook_ErrorEmails
+  name: ErrorEmails
+  nameWithType: Webhook.ErrorEmails
+  fullName: SuperOffice.CRM.Webhooks.Webhook.ErrorEmails
+- uid: SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds*
+  commentId: Overload:SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.Webhook.html#SuperOffice_CRM_Webhooks_Webhook_ErrorAssociateIds
+  name: ErrorAssociateIds
+  nameWithType: Webhook.ErrorAssociateIds
+  fullName: SuperOffice.CRM.Webhooks.Webhook.ErrorAssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.Webhooks.Webhook.ErrorsEmail*
   commentId: Overload:SuperOffice.CRM.Webhooks.Webhook.ErrorsEmail
   isExternal: true

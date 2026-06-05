@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.Rows.EmailItemRecordData.SaleId
   - SuperOffice.CRM.Rows.EmailItemRecordData.SentAt
   - SuperOffice.CRM.Rows.EmailItemRecordData.ServerId
+  - SuperOffice.CRM.Rows.EmailItemRecordData.ServerIdentifier
   - SuperOffice.CRM.Rows.EmailItemRecordData.Size
   - SuperOffice.CRM.Rows.EmailItemRecordData.Subject
   - SuperOffice.CRM.Rows.EmailItemRecordData.To
@@ -730,6 +731,27 @@ items:
     return:
       type: System.String
     content.vb: Public CalData As String
+- uid: SuperOffice.CRM.Rows.EmailItemRecordData.ServerIdentifier
+  commentId: F:SuperOffice.CRM.Rows.EmailItemRecordData.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.CRM.Rows.EmailItemRecordData
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: EmailItemRecordData.ServerIdentifier
+  fullName: SuperOffice.CRM.Rows.EmailItemRecordData.ServerIdentifier
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Server identifier of this email item (GraphApi uses string Id's)
+  example: []
+  syntax:
+    content: public string ServerIdentifier
+    return:
+      type: System.String
+    content.vb: Public ServerIdentifier As String
 - uid: SuperOffice.CRM.Rows.EmailItemRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EmailItemRecordData.#ctor
   id: '#ctor'

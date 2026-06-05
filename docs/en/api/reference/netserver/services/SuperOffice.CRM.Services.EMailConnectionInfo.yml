@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
   - SuperOffice.CRM.Services.EMailConnectionInfo.ToString
   - SuperOffice.CRM.Services.EMailConnectionInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi
   - SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
   - SuperOffice.CRM.Services.EMailConnectionInfo.UserName
   langs:
@@ -34,11 +35,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
 
       public class EMailConnectionInfo : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.13.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
 
       Public Class EMailConnectionInfo Inherits Carrier
   seealso:
@@ -53,7 +54,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.13.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
 - uid: SuperOffice.CRM.Services.EMailConnectionInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.EMailConnectionInfo.#ctor
   id: '#ctor'
@@ -298,6 +299,39 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi
+  commentId: P:SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EMailConnectionInfo.UseGraphApi
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Use Graph API
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool UseGraphApi { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UseGraphApi As Boolean
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.IEMailAgent
   commentId: T:SuperOffice.CRM.Services.IEMailAgent
@@ -436,3 +470,10 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailConnectionInfo.html#SuperOffice_CRM_Services_EMailConnectionInfo_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EMailConnectionInfo.UseGraphApi
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.UseGraphApi

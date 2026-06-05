@@ -34,25 +34,30 @@ items:
   - SuperOffice.CRM.Services.EMailAgent.DeleteEmailsAsync(System.Int32[],System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.DeleteExtendedAsync(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.DeleteFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.EmptyFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.FindAddressAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.FindContactOrPersonByEmailNameAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.FindContactOrPersonByEmailNameWithLimitAsync(System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetAttachmentAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromIdAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetCurrentAccountIdAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailAccountAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailAccountFromEMailAddressAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailAddressesAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailFromAttachmentIdAsync(System.Int32,System.String[],System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentAttachmentIdAsync(System.Int32,System.String[],System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailFromDocumentIdWithoutAttachmentStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailFromIdAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailFromTempAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEMailSOInfoAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.GetEmailAppointmentAsync(System.Int32,System.Threading.CancellationToken)
@@ -86,10 +91,12 @@ items:
   - SuperOffice.CRM.Services.EMailAgent.HasSPFRecordAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.LatestItemIdByFolderAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.MarkEmailsAsReadAsync(System.Int32[],System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.MoveEmailsToFolderAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.MoveEmailsToTrashAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.RefreshFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.RefreshFolderForAssociateAsync(System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.EMailAgent.RelayMessageAsync(SuperOffice.CRM.Services.EMailConnectionInfoExtended,System.String,System.String,System.String[],System.Threading.CancellationToken)
@@ -902,6 +909,53 @@ items:
   nameWithType.vb: EMailAgent.GetEMailFromIdAsync(EMailConnectionInfo, Integer, Boolean, EMailFlags, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailFromIdAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer, Boolean, SuperOffice.Data.EMailFlags, Boolean, System.Threading.CancellationToken)
   name.vb: GetEMailFromIdAsync(EMailConnectionInfo, Integer, Boolean, EMailFlags, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  id: GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, CancellationToken)
+  nameWithType: EMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string, bool, SuperOffice.Data.EMailFlags, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get en e-mail based on its unique id string
+  example: []
+  syntax:
+    content: public Task<EMailEntity> GetEMailFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string messageServerId, bool lookupAddresses, EMailFlags flags, bool includeAttachments, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerId
+      type: System.String
+      description: Unique ID for the e-mail to retrieve
+    - id: lookupAddresses
+      type: System.Boolean
+      description: If true try to look up e-mail addresses in from/to/cc/bcc fields against superoffice contacts
+    - id: flags
+      type: SuperOffice.Data.EMailFlags
+      description: 'Any flags to apply to the fetched item. Ex: Seen/Answered'
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should we retrieve attachments embedded in the e-mail from the server
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EMailEntity}
+      description: The e-mail
+    content.vb: Public Function GetEMailFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerId As String, lookupAddresses As Boolean, flags As EMailFlags, includeAttachments As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of EMailEntity)
+  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String, Boolean, SuperOffice.Data.EMailFlags, Boolean, System.Threading.CancellationToken)
+  name.vb: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.SendEMailsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailEntity[],SuperOffice.CRM.Services.EMailConnectionInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.SendEMailsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailEntity[],SuperOffice.CRM.Services.EMailConnectionInfo,System.Threading.CancellationToken)
   id: SendEMailsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailEntity[],SuperOffice.CRM.Services.EMailConnectionInfo,System.Threading.CancellationToken)
@@ -1121,6 +1175,47 @@ items:
   nameWithType.vb: EMailAgent.GetAttachmentAsync(EMailConnectionInfo, Integer, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetAttachmentAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer, String, System.Threading.CancellationToken)
   name.vb: GetAttachmentAsync(EMailConnectionInfo, Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+  id: GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, CancellationToken)
+  nameWithType: EMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieve an attachment from an e-mail
+  example: []
+  syntax:
+    content: public Task<EMailAttachment> GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string messageServerId, string attachmentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerId
+      type: System.String
+      description: Unique ID for the e-mail to retrieve the attachment from
+    - id: attachmentId
+      type: System.String
+      description: Id of the attachment in the e-mail
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EMailAttachment}
+      description: The attachment
+    content.vb: Public Function GetAttachmentFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerId As String, attachmentId As String, cancellationToken As CancellationToken = Nothing) As Task(Of EMailAttachment)
+  overload: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String, String, System.Threading.CancellationToken)
+  name.vb: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Boolean,System.Threading.CancellationToken)
   id: MarkAsReadAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.Boolean,System.Threading.CancellationToken)
@@ -1154,7 +1249,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MarkAsReadAsync(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), read As Boolean, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync*
   implements:
@@ -1162,6 +1257,47 @@ items:
   nameWithType.vb: EMailAgent.MarkAsReadAsync(EMailConnectionInfo, Integer(), Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer(), Boolean, System.Threading.CancellationToken)
   name.vb: MarkAsReadAsync(EMailConnectionInfo, Integer(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+  id: MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, CancellationToken)
+  nameWithType: EMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Mark one or more e-mails as (un)read
+  example: []
+  syntax:
+    content: public Task MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, bool read, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: The e-mails to handle
+    - id: read
+      type: System.Boolean
+      description: If true mails are marked as read. If false mails are marked as unread.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function MarkAsReadFromServerIdentifiersAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), read As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), Boolean, System.Threading.CancellationToken)
+  name.vb: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.GetFolderEMailCountAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.GetFolderEMailCountAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Boolean,System.Threading.CancellationToken)
   id: GetFolderEMailCountAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Boolean,System.Threading.CancellationToken)
@@ -1233,7 +1369,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteAsync(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), moveToFolder As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.DeleteAsync*
   implements:
@@ -1241,6 +1377,47 @@ items:
   nameWithType.vb: EMailAgent.DeleteAsync(EMailConnectionInfo, Integer(), String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.DeleteAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer(), String, System.Threading.CancellationToken)
   name.vb: DeleteAsync(EMailConnectionInfo, Integer(), String, CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  id: DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  nameWithType: EMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Delete specified mail items
+  example: []
+  syntax:
+    content: public Task DeleteFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, string moveToFolder, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: The e-mails to handle
+    - id: moveToFolder
+      type: System.String
+      description: If set, move deleted items to this folder
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), moveToFolder As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), String, System.Threading.CancellationToken)
+  name.vb: DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.String,System.Threading.CancellationToken)
   id: MoveToFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.String,System.Threading.CancellationToken)
@@ -1274,7 +1451,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MoveToFolderAsync(connectionInfo As EMailConnectionInfo, messageServerIds As Integer(), targetFolder As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync*
   implements:
@@ -1282,6 +1459,47 @@ items:
   nameWithType.vb: EMailAgent.MoveToFolderAsync(EMailConnectionInfo, Integer(), String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer(), String, System.Threading.CancellationToken)
   name.vb: MoveToFolderAsync(EMailConnectionInfo, Integer(), String, CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  id: MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  nameWithType: EMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Moved specified items from current folder to targetFolder
+  example: []
+  syntax:
+    content: public Task MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, string targetFolder, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: The e-mails to handle
+    - id: targetFolder
+      type: System.String
+      description: Name of folder to move items to
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function MoveToFolderFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), targetFolder As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), String, System.Threading.CancellationToken)
+  name.vb: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.EmptyFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.EmptyFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Threading.CancellationToken)
   id: EmptyFolderAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Threading.CancellationToken)
@@ -1312,7 +1530,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function EmptyFolderAsync(connectionInfo As EMailConnectionInfo, moveToFolder As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.EmptyFolderAsync*
   implements:
@@ -1361,6 +1579,47 @@ items:
   nameWithType.vb: EMailAgent.GetEMailAsStreamAsync(EMailConnectionInfo, Integer, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer, Boolean, System.Threading.CancellationToken)
   name.vb: GetEMailAsStreamAsync(EMailConnectionInfo, Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, CancellationToken)
+  nameWithType: EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieve an e-mail optionally stripping attachments as a stream
+  example: []
+  syntax:
+    content: public Task<Stream> GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo connectionInfo, string messageServerId, bool stripAttachments, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerId
+      type: System.String
+      description: Unique ID for the e-mail to retrieve
+    - id: stripAttachments
+      type: System.Boolean
+      description: If true, do not include attachments in stream
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The attachment as a stream
+    content.vb: Public Function GetEMailAsStreamFromServerIdentifierAsync(connectionInfo As EMailConnectionInfo, messageServerId As String, stripAttachments As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.FindAddressAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.FindAddressAsync(System.String,System.Threading.CancellationToken)
   id: FindAddressAsync(System.String,System.Threading.CancellationToken)
@@ -1668,6 +1927,44 @@ items:
   nameWithType.vb: EMailAgent.GetEMailEnvelopesAsync(EMailConnectionInfo, Integer(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesAsync(SuperOffice.CRM.Services.EMailConnectionInfo, Integer(), System.Threading.CancellationToken)
   name.vb: GetEMailEnvelopesAsync(EMailConnectionInfo, Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+  id: GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.EMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], CancellationToken)
+  nameWithType: EMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Retrieve a set of e-mail envelopes
+  example: []
+  syntax:
+    content: public Task<EMailEnvelope[]> GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo connectionInfo, string[] messageServerIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: connectionInfo
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+      description: All information needed to connect to the mailserver
+    - id: messageServerIds
+      type: System.String[]
+      description: Unique identitifiers for the e-mails to retrieve envelopes for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EMailEnvelope[]}
+      description: The e-mail envelope objects
+    content.vb: Public Function GetEMailEnvelopesFromServerIdsAsync(connectionInfo As EMailConnectionInfo, messageServerIds As String(), cancellationToken As CancellationToken = Nothing) As Task(Of EMailEnvelope())
+  overload: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync*
+  implements:
+  - SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+  nameWithType.vb: EMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), System.Threading.CancellationToken)
+  name.vb: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), CancellationToken)
 - uid: SuperOffice.CRM.Services.EMailAgent.SetSubscriptionAsync(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailFolder[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.EMailAgent.SetSubscriptionAsync(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailFolder[],System.Threading.CancellationToken)
   id: SetSubscriptionAsync(SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailFolder[],System.Threading.CancellationToken)
@@ -1698,7 +1995,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function SetSubscriptionAsync(connectionInfo As EMailConnectionInfo, folders As EMailFolder(), cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.SetSubscriptionAsync*
   implements:
@@ -1733,7 +2030,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function CreateFolderAsync(connectionInfo As EMailConnectionInfo, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.CreateFolderAsync*
   implements:
@@ -1765,7 +2062,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteFolderAsync(connectionInfo As EMailConnectionInfo, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.DeleteFolderAsync*
   implements:
@@ -2179,7 +2476,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteExtendedAsync(connectionInfoExtended As EMailConnectionInfoExtended, messageIds As String(), cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.DeleteExtendedAsync*
   implements:
@@ -2223,7 +2520,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function RelayMessageAsync(connectionInfoExtended As EMailConnectionInfoExtended, rfc822 As String, from As String, recipients As String(), cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.RelayMessageAsync*
   implements:
@@ -2337,7 +2634,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MarkEmailsAsReadAsync(ids As Integer(), read As Boolean, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.MarkEmailsAsReadAsync*
   implements:
@@ -2375,7 +2672,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function DeleteEmailsAsync(ids As Integer(), moveToFolder As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.DeleteEmailsAsync*
   implements:
@@ -2410,7 +2707,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MoveEmailsToTrashAsync(ids As Integer(), cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.MoveEmailsToTrashAsync*
   implements:
@@ -2760,7 +3057,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function MoveEmailsToFolderAsync(folderId As Integer, emailItemIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.MoveEmailsToFolderAsync*
   implements:
@@ -3055,7 +3352,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function SetRepliedAtAsync(messageId As String, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.SetRepliedAtAsync*
   implements:
@@ -3394,7 +3691,7 @@ items:
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
-      description: ''
+      description: This method has no return value
     content.vb: Public Function ToggleSubscriptionAsync(folderId As Integer, subscriptionStatus As Boolean, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.EMailAgent.ToggleSubscriptionAsync*
   implements:
@@ -5887,6 +6184,100 @@ references:
   name: EMailFlags
   nameWithType: EMailFlags
   fullName: SuperOffice.Data.EMailFlags
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_GetEMailFromServerIdentifierAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String_System_Boolean_SuperOffice_Data_EMailFlags_System_Boolean_System_Threading_CancellationToken_
+  name: GetEMailFromServerIdentifierAsync
+  nameWithType: EMailAgent.GetEMailFromServerIdentifierAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailFromServerIdentifierAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, CancellationToken)
+  nameWithType: IEMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, string, bool, EMailFlags, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string, bool, SuperOffice.Data.EMailFlags, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String, Boolean, SuperOffice.Data.EMailFlags, Boolean, System.Threading.CancellationToken)
+  name.vb: GetEMailFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, EMailFlags, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+    name: GetEMailFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EMailFlags
+    name: EMailFlags
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,SuperOffice.Data.EMailFlags,System.Boolean,System.Threading.CancellationToken)
+    name: GetEMailFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EMailFlags
+    name: EMailFlags
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.SendEMailsAsync*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.SendEMailsAsync
   isExternal: true
@@ -6345,6 +6736,78 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_GetAttachmentFromServerIdentifierAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String_System_String_System_Threading_CancellationToken_
+  name: GetAttachmentFromServerIdentifierAsync
+  nameWithType: EMailAgent.GetAttachmentFromServerIdentifierAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetAttachmentFromServerIdentifierAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, CancellationToken)
+  nameWithType: IEMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String, String, System.Threading.CancellationToken)
+  name.vb: GetAttachmentFromServerIdentifierAsync(EMailConnectionInfo, String, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+    name: GetAttachmentFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetAttachmentFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.String,System.Threading.CancellationToken)
+    name: GetAttachmentFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.MarkAsReadAsync
   isExternal: true
@@ -6442,6 +6905,105 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_MarkAsReadFromServerIdentifiersAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String___System_Boolean_System_Threading_CancellationToken_
+  name: MarkAsReadFromServerIdentifiersAsync
+  nameWithType: EMailAgent.MarkAsReadFromServerIdentifiersAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.MarkAsReadFromServerIdentifiersAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, CancellationToken)
+  nameWithType: IEMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, string[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], bool, System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), Boolean, System.Threading.CancellationToken)
+  name.vb: MarkAsReadFromServerIdentifiersAsync(EMailConnectionInfo, String(), Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+    name: MarkAsReadFromServerIdentifiersAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.MarkAsReadFromServerIdentifiersAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Boolean,System.Threading.CancellationToken)
+    name: MarkAsReadFromServerIdentifiersAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetFolderEMailCountAsync*
@@ -6580,6 +7142,82 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_DeleteFromServerIdentifierAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String___System_String_System_Threading_CancellationToken_
+  name: DeleteFromServerIdentifierAsync
+  nameWithType: EMailAgent.DeleteFromServerIdentifierAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.DeleteFromServerIdentifierAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  nameWithType: IEMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], string, System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), String, System.Threading.CancellationToken)
+  name.vb: DeleteFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+    name: DeleteFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.DeleteFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+    name: DeleteFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.MoveToFolderAsync
   isExternal: true
@@ -6641,6 +7279,82 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_MoveToFolderFromServerIdentifierAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String___System_String_System_Threading_CancellationToken_
+  name: MoveToFolderFromServerIdentifierAsync
+  nameWithType: EMailAgent.MoveToFolderFromServerIdentifierAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.MoveToFolderFromServerIdentifierAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  nameWithType: IEMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, string[], string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], string, System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), String, System.Threading.CancellationToken)
+  name.vb: MoveToFolderFromServerIdentifierAsync(EMailConnectionInfo, String(), String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+    name: MoveToFolderFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.MoveToFolderFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.String,System.Threading.CancellationToken)
+    name: MoveToFolderFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
   - name: ','
@@ -6822,6 +7536,78 @@ references:
     name: Stream
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_GetEMailAsStreamFromServerIdentifierAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: GetEMailAsStreamFromServerIdentifierAsync
+  nameWithType: EMailAgent.GetEMailAsStreamFromServerIdentifierAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailAsStreamFromServerIdentifierAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, CancellationToken)
+  nameWithType: IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String, Boolean, System.Threading.CancellationToken)
+  name.vb: GetEMailAsStreamFromServerIdentifierAsync(EMailConnectionInfo, String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetEMailAsStreamFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
+    name: GetEMailAsStreamFromServerIdentifierAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.FindAddressAsync*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.FindAddressAsync
@@ -7050,29 +7836,6 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.String[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
-  nameWithType.vb: String()
-  fullName.vb: String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
   - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentIdAsync*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetUnsanitizedEMailFromAttachmentIdAsync
@@ -7410,6 +8173,70 @@ references:
     href: SuperOffice.CRM.Services.EMailEnvelope.html
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.EMailAgent.html#SuperOffice_CRM_Services_EMailAgent_GetEMailEnvelopesFromServerIdsAsync_SuperOffice_CRM_Services_EMailConnectionInfo_System_String___System_Threading_CancellationToken_
+  name: GetEMailEnvelopesFromServerIdsAsync
+  nameWithType: EMailAgent.GetEMailEnvelopesFromServerIdsAsync
+  fullName: SuperOffice.CRM.Services.EMailAgent.GetEMailEnvelopesFromServerIdsAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], CancellationToken)
+  nameWithType: IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, string[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo, string[], System.Threading.CancellationToken)
+  nameWithType.vb: IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo, String(), System.Threading.CancellationToken)
+  name.vb: GetEMailEnvelopesFromServerIdsAsync(EMailConnectionInfo, String(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+    name: GetEMailEnvelopesFromServerIdsAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailEnvelopesFromServerIdsAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String[],System.Threading.CancellationToken)
+    name: GetEMailEnvelopesFromServerIdsAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.EMailConnectionInfo
+    name: EMailConnectionInfo
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.Services.EMailAgent.SetSubscriptionAsync*
   commentId: Overload:SuperOffice.CRM.Services.EMailAgent.SetSubscriptionAsync

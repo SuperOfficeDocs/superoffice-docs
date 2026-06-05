@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FencingInfo
+  commentId: T:SuperOffice.CRM.Services.FencingInfo
+  id: FencingInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FencingInfo.#ctor
+  - SuperOffice.CRM.Services.FencingInfo.ActiveCount
+  - SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum
+  - SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum
+  - SuperOffice.CRM.Services.FencingInfo.Maximum
+  - SuperOffice.CRM.Services.FencingInfo.ToString
+  - SuperOffice.CRM.Services.FencingInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.FencingInfo.WarningMessage
+  - SuperOffice.CRM.Services.FencingInfo.WarningTooltip
+  langs:
+  - csharp
+  - vb
+  name: FencingInfo
+  nameWithType: FencingInfo
+  fullName: SuperOffice.CRM.Services.FencingInfo
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Information about entity fencing status, including current count and maximum active entities
+
+    <p></p>
+
+    Carrier object for FencingInfo.
+
+    Services for the FencingInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.ILicenseAgent?text=License+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
+
+      public class FencingInfo : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
+
+      Public Class FencingInfo Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ILicenseAgent
+    commentId: T:SuperOffice.CRM.Services.ILicenseAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
+- uid: SuperOffice.CRM.Services.FencingInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.FencingInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: FencingInfo()
+  nameWithType: FencingInfo.FencingInfo()
+  fullName: SuperOffice.CRM.Services.FencingInfo.FencingInfo()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public FencingInfo()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.FencingInfo.#ctor*
+  nameWithType.vb: FencingInfo.New()
+  fullName.vb: SuperOffice.CRM.Services.FencingInfo.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.FencingInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.FencingInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FencingInfo.ToString()
+  fullName: SuperOffice.CRM.Services.FencingInfo.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.FencingInfo.ToString*
+- uid: SuperOffice.CRM.Services.FencingInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FencingInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: FencingInfo.ToString(string)
+  fullName: SuperOffice.CRM.Services.FencingInfo.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.FencingInfo.ToString*
+  nameWithType.vb: FencingInfo.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.FencingInfo.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.FencingInfo.ActiveCount
+  commentId: P:SuperOffice.CRM.Services.FencingInfo.ActiveCount
+  id: ActiveCount
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: ActiveCount
+  nameWithType: FencingInfo.ActiveCount
+  fullName: SuperOffice.CRM.Services.FencingInfo.ActiveCount
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of active entities
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int ActiveCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ActiveCount As Integer
+  overload: SuperOffice.CRM.Services.FencingInfo.ActiveCount*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FencingInfo.Maximum
+  commentId: P:SuperOffice.CRM.Services.FencingInfo.Maximum
+  id: Maximum
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: Maximum
+  nameWithType: FencingInfo.Maximum
+  fullName: SuperOffice.CRM.Services.FencingInfo.Maximum
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Maximum number of active entities allowed
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int Maximum { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Maximum As Integer
+  overload: SuperOffice.CRM.Services.FencingInfo.Maximum*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum
+  commentId: P:SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum
+  id: IsNearingMaximum
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: IsNearingMaximum
+  nameWithType: FencingInfo.IsNearingMaximum
+  fullName: SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the active entity count is approaching the maximum
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsNearingMaximum { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsNearingMaximum As Boolean
+  overload: SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum
+  commentId: P:SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum
+  id: HasReachedMaximum
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: HasReachedMaximum
+  nameWithType: FencingInfo.HasReachedMaximum
+  fullName: SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: True if the active entity count has reached or exceeded the maximum
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool HasReachedMaximum { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property HasReachedMaximum As Boolean
+  overload: SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FencingInfo.WarningMessage
+  commentId: P:SuperOffice.CRM.Services.FencingInfo.WarningMessage
+  id: WarningMessage
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: WarningMessage
+  nameWithType: FencingInfo.WarningMessage
+  fullName: SuperOffice.CRM.Services.FencingInfo.WarningMessage
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Localized warning message to display when nearing or at the maximum
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string WarningMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WarningMessage As String
+  overload: SuperOffice.CRM.Services.FencingInfo.WarningMessage*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.FencingInfo.WarningTooltip
+  commentId: P:SuperOffice.CRM.Services.FencingInfo.WarningTooltip
+  id: WarningTooltip
+  parent: SuperOffice.CRM.Services.FencingInfo
+  langs:
+  - csharp
+  - vb
+  name: WarningTooltip
+  nameWithType: FencingInfo.WarningTooltip
+  fullName: SuperOffice.CRM.Services.FencingInfo.WarningTooltip
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Localized warning message to display as a tooltip when nearing or at the maximum
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string WarningTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property WarningTooltip As String
+  overload: SuperOffice.CRM.Services.FencingInfo.WarningTooltip*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.ILicenseAgent
+  commentId: T:SuperOffice.CRM.Services.ILicenseAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ILicenseAgent.html
+  name: ILicenseAgent
+  nameWithType: ILicenseAgent
+  fullName: SuperOffice.CRM.Services.ILicenseAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FencingInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo__ctor
+  name: FencingInfo
+  nameWithType: FencingInfo.FencingInfo
+  fullName: SuperOffice.CRM.Services.FencingInfo.FencingInfo
+  nameWithType.vb: FencingInfo.New
+  fullName.vb: SuperOffice.CRM.Services.FencingInfo.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.FencingInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_ToString
+  name: ToString
+  nameWithType: FencingInfo.ToString
+  fullName: SuperOffice.CRM.Services.FencingInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.FencingInfo.ActiveCount*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.ActiveCount
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_ActiveCount
+  name: ActiveCount
+  nameWithType: FencingInfo.ActiveCount
+  fullName: SuperOffice.CRM.Services.FencingInfo.ActiveCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.FencingInfo.Maximum*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.Maximum
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_Maximum
+  name: Maximum
+  nameWithType: FencingInfo.Maximum
+  fullName: SuperOffice.CRM.Services.FencingInfo.Maximum
+- uid: SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_IsNearingMaximum
+  name: IsNearingMaximum
+  nameWithType: FencingInfo.IsNearingMaximum
+  fullName: SuperOffice.CRM.Services.FencingInfo.IsNearingMaximum
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_HasReachedMaximum
+  name: HasReachedMaximum
+  nameWithType: FencingInfo.HasReachedMaximum
+  fullName: SuperOffice.CRM.Services.FencingInfo.HasReachedMaximum
+- uid: SuperOffice.CRM.Services.FencingInfo.WarningMessage*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.WarningMessage
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_WarningMessage
+  name: WarningMessage
+  nameWithType: FencingInfo.WarningMessage
+  fullName: SuperOffice.CRM.Services.FencingInfo.WarningMessage
+- uid: SuperOffice.CRM.Services.FencingInfo.WarningTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.FencingInfo.WarningTooltip
+  isExternal: true
+  href: SuperOffice.CRM.Services.FencingInfo.html#SuperOffice_CRM_Services_FencingInfo_WarningTooltip
+  name: WarningTooltip
+  nameWithType: FencingInfo.WarningTooltip
+  fullName: SuperOffice.CRM.Services.FencingInfo.WarningTooltip

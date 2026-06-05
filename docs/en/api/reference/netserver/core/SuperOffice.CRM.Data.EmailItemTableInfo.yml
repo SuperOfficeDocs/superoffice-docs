@@ -44,6 +44,7 @@ items:
   - SuperOffice.CRM.Data.EmailItemTableInfo.SaleId_InnerJoin_Sale
   - SuperOffice.CRM.Data.EmailItemTableInfo.SentAt
   - SuperOffice.CRM.Data.EmailItemTableInfo.ServerId
+  - SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier
   - SuperOffice.CRM.Data.EmailItemTableInfo.Size
   - SuperOffice.CRM.Data.EmailItemTableInfo.Subject
   - SuperOffice.CRM.Data.EmailItemTableInfo.To
@@ -1063,6 +1064,32 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CalData As StringFieldInfo
   overload: SuperOffice.CRM.Data.EmailItemTableInfo.CalData*
+- uid: SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier
+  commentId: P:SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.CRM.Data.EmailItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: EmailItemTableInfo.ServerIdentifier
+  fullName: SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'server_identifier' in table 'email_item': Dictionary type String[1025], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Server identifier of this email item (GraphApi uses string Id's)
+  example: []
+  syntax:
+    content: public StringFieldInfo ServerIdentifier { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ServerIdentifier As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier*
 - uid: SuperOffice.CRM.Data.EmailItemTableInfo.AccountId_InnerJoin_EmailAccount
   commentId: P:SuperOffice.CRM.Data.EmailItemTableInfo.AccountId_InnerJoin_EmailAccount
   id: AccountId_InnerJoin_EmailAccount
@@ -2548,6 +2575,13 @@ references:
   name: CalData
   nameWithType: EmailItemTableInfo.CalData
   fullName: SuperOffice.CRM.Data.EmailItemTableInfo.CalData
+- uid: SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier*
+  commentId: Overload:SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailItemTableInfo.html#SuperOffice_CRM_Data_EmailItemTableInfo_ServerIdentifier
+  name: ServerIdentifier
+  nameWithType: EmailItemTableInfo.ServerIdentifier
+  fullName: SuperOffice.CRM.Data.EmailItemTableInfo.ServerIdentifier
 - uid: SuperOffice.CRM.Data.EmailAccountTableInfo
   commentId: T:SuperOffice.CRM.Data.EmailAccountTableInfo
   parent: SuperOffice.CRM.Data

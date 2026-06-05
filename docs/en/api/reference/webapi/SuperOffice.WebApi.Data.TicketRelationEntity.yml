@@ -161,7 +161,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    Ticket relation type
+    The type of relation between the two tickets.
 
     Raw string enum value.
   example: []
@@ -202,7 +202,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   summary: >-
-    Ticket relation type
+    The type of relation between the two tickets.
 
     NULL if unknown enum value.
   example: []

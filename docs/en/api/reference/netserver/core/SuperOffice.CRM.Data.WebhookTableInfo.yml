@@ -7,12 +7,16 @@ items:
   children:
   - SuperOffice.CRM.Data.WebhookTableInfo.ApplicationToken
   - SuperOffice.CRM.Data.WebhookTableInfo.Definition
+  - SuperOffice.CRM.Data.WebhookTableInfo.Description
   - SuperOffice.CRM.Data.WebhookTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.WebhookTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.WebhookTableInfo.ErrorsEmail
   - SuperOffice.CRM.Data.WebhookTableInfo.Events
   - SuperOffice.CRM.Data.WebhookTableInfo.Headers
+  - SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
   - SuperOffice.CRM.Data.WebhookTableInfo.Name
+  - SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia
+  - SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen
   - SuperOffice.CRM.Data.WebhookTableInfo.Properties
   - SuperOffice.CRM.Data.WebhookTableInfo.Registered
   - SuperOffice.CRM.Data.WebhookTableInfo.RegisteredAssociateId
@@ -618,6 +622,84 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ErrorsEmail As StringFieldInfo
   overload: SuperOffice.CRM.Data.WebhookTableInfo.ErrorsEmail*
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.Description
+  commentId: P:SuperOffice.CRM.Data.WebhookTableInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.WebhookTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: WebhookTableInfo.Description
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.Description
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'description' in table 'Webhook': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Human-readable description of what this webhook does.
+  example: []
+  syntax:
+    content: public StringFieldInfo Description { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Description As StringFieldInfo
+  overload: SuperOffice.CRM.Data.WebhookTableInfo.Description*
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia
+  commentId: P:SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.CRM.Data.WebhookTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: WebhookTableInfo.NotifyVia
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'notify_via' in table 'Webhook': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.WebhookNotifyVia" data-throw-if-not-resolved="false"></xref><p></p>
+
+    How to notify recipients when this webhook changes state. 1=Email, 2=InApp.
+  example: []
+  syntax:
+    content: public WebhookNotifyViaFieldInfo NotifyVia { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+    content.vb: Public ReadOnly Property NotifyVia As WebhookNotifyViaFieldInfo
+  overload: SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia*
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen
+  commentId: P:SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.CRM.Data.WebhookTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: WebhookTableInfo.NotifyWhen
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'notify_when' in table 'Webhook': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.WebhookNotifyWhen" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.
+  example: []
+  syntax:
+    content: public WebhookNotifyWhenFieldInfo NotifyWhen { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
+    content.vb: Public ReadOnly Property NotifyWhen As WebhookNotifyWhenFieldInfo
+  overload: SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen*
 - uid: SuperOffice.CRM.Data.WebhookTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.WebhookTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -664,6 +746,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.WebhookTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+  commentId: P:SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+  id: LeftOuterJoin_WebhookNotify_WebhookId
+  parent: SuperOffice.CRM.Data.WebhookTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_WebhookNotify_WebhookId
+  nameWithType: WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key WebhookId on this table, to WebhookNotify.<xref href="SuperOffice.CRM.Data.WebhookNotifyTableInfo.WebhookId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<WebhookNotifyTableInfo> LeftOuterJoin_WebhookNotify_WebhookId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_WebhookNotify_WebhookId As TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  overload: SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1783,6 +1888,59 @@ references:
   name: ErrorsEmail
   nameWithType: WebhookTableInfo.ErrorsEmail
   fullName: SuperOffice.CRM.Data.WebhookTableInfo.ErrorsEmail
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Data.WebhookTableInfo.Description
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookTableInfo.html#SuperOffice_CRM_Data_WebhookTableInfo_Description
+  name: Description
+  nameWithType: WebhookTableInfo.Description
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.Description
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: T:SuperOffice.Data.WebhookNotifyVia
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia*
+  commentId: Overload:SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookTableInfo.html#SuperOffice_CRM_Data_WebhookTableInfo_NotifyVia
+  name: NotifyVia
+  nameWithType: WebhookTableInfo.NotifyVia
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.NotifyVia
+- uid: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo.html
+  name: WebhookNotifyViaFieldInfo
+  nameWithType: WebhookNotifyViaFieldInfo
+  fullName: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.Data.WebhookNotifyWhen
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen*
+  commentId: Overload:SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookTableInfo.html#SuperOffice_CRM_Data_WebhookTableInfo_NotifyWhen
+  name: NotifyWhen
+  nameWithType: WebhookTableInfo.NotifyWhen
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.NotifyWhen
+- uid: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo.html
+  name: WebhookNotifyWhenFieldInfo
+  nameWithType: WebhookNotifyWhenFieldInfo
+  fullName: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -1868,3 +2026,80 @@ references:
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: WebhookTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WebhookTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo.WebhookId
+  commentId: P:SuperOffice.CRM.Data.WebhookNotifyTableInfo.WebhookId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html#SuperOffice_CRM_Data_WebhookNotifyTableInfo_WebhookId
+  name: WebhookId
+  nameWithType: WebhookNotifyTableInfo.WebhookId
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo.WebhookId
+- uid: SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId*
+  commentId: Overload:SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookTableInfo.html#SuperOffice_CRM_Data_WebhookTableInfo_LeftOuterJoin_WebhookNotify_WebhookId
+  name: LeftOuterJoin_WebhookNotify_WebhookId
+  nameWithType: WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+  fullName: SuperOffice.CRM.Data.WebhookTableInfo.LeftOuterJoin_WebhookNotify_WebhookId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<WebhookNotifyTableInfo>
+  nameWithType: TargetedLeftOuterJoin<WebhookNotifyTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WebhookNotifyTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.WebhookNotifyTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    name: WebhookNotifyTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    name: WebhookNotifyTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )

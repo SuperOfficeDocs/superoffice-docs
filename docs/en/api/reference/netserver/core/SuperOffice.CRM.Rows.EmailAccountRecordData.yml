@@ -23,6 +23,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRecordData.Updated
   - SuperOffice.CRM.Rows.EmailAccountRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.EmailAccountRecordData.UseGraphApi
   langs:
   - csharp
   - vb
@@ -422,6 +423,27 @@ items:
     return:
       type: System.DateTime
     content.vb: Public LastFetch As Date
+- uid: SuperOffice.CRM.Rows.EmailAccountRecordData.UseGraphApi
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRecordData.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Rows.EmailAccountRecordData
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EmailAccountRecordData.UseGraphApi
+  fullName: SuperOffice.CRM.Rows.EmailAccountRecordData.UseGraphApi
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Use the GraphApi for this account
+  example: []
+  syntax:
+    content: public short UseGraphApi
+    return:
+      type: System.Int16
+    content.vb: Public UseGraphApi As Short
 - uid: SuperOffice.CRM.Rows.EmailAccountRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRecordData.#ctor
   id: '#ctor'

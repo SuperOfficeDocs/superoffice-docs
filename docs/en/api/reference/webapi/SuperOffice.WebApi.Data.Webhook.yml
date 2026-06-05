@@ -6,10 +6,19 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.Webhook.#ctor
+  - SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors
+  - SuperOffice.WebApi.Data.Webhook.Description
+  - SuperOffice.WebApi.Data.Webhook.ErrorAssociates
+  - SuperOffice.WebApi.Data.Webhook.ErrorEmails
   - SuperOffice.WebApi.Data.Webhook.ErrorsEmail
   - SuperOffice.WebApi.Data.Webhook.Events
   - SuperOffice.WebApi.Data.Webhook.Headers
+  - SuperOffice.WebApi.Data.Webhook.LastError
   - SuperOffice.WebApi.Data.Webhook.Name
+  - SuperOffice.WebApi.Data.Webhook.NotifyVia
+  - SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  - SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  - SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
   - SuperOffice.WebApi.Data.Webhook.Properties
   - SuperOffice.WebApi.Data.Webhook.Registered
   - SuperOffice.WebApi.Data.Webhook.RegisteredAssociate
@@ -17,6 +26,8 @@ items:
   - SuperOffice.WebApi.Data.Webhook.State
   - SuperOffice.WebApi.Data.Webhook.State_String
   - SuperOffice.WebApi.Data.Webhook.TargetUrl
+  - SuperOffice.WebApi.Data.Webhook.TotalCalls
+  - SuperOffice.WebApi.Data.Webhook.TotalErrors
   - SuperOffice.WebApi.Data.Webhook.Type
   - SuperOffice.WebApi.Data.Webhook.Updated
   - SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
@@ -453,7 +464,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Email address to send error message to when this webhook state changes to too-many errors.
+  summary: Obsolete, use ErrorEmails instead
   example: []
   syntax:
     content: public virtual string ErrorsEmail { get; set; }
@@ -462,6 +473,327 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErrorsEmail As String
   overload: SuperOffice.WebApi.Data.Webhook.ErrorsEmail*
+- uid: SuperOffice.WebApi.Data.Webhook.ErrorEmails
+  commentId: P:SuperOffice.WebApi.Data.Webhook.ErrorEmails
+  id: ErrorEmails
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorEmails
+  nameWithType: Webhook.ErrorEmails
+  fullName: SuperOffice.WebApi.Data.Webhook.ErrorEmails
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Email addresses to notify when this webhook is disabled.
+  example: []
+  syntax:
+    content: public virtual string[] ErrorEmails { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property ErrorEmails As String()
+  overload: SuperOffice.WebApi.Data.Webhook.ErrorEmails*
+- uid: SuperOffice.WebApi.Data.Webhook.ErrorAssociates
+  commentId: P:SuperOffice.WebApi.Data.Webhook.ErrorAssociates
+  id: ErrorAssociates
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ErrorAssociates
+  nameWithType: Webhook.ErrorAssociates
+  fullName: SuperOffice.WebApi.Data.Webhook.ErrorAssociates
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Associates to notify when this webhook is disabled.
+  example: []
+  syntax:
+    content: public virtual MDOListItem[] ErrorAssociates { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MDOListItem[]
+    content.vb: Public Overridable Property ErrorAssociates As MDOListItem()
+  overload: SuperOffice.WebApi.Data.Webhook.ErrorAssociates*
+- uid: SuperOffice.WebApi.Data.Webhook.Description
+  commentId: P:SuperOffice.WebApi.Data.Webhook.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Webhook.Description
+  fullName: SuperOffice.WebApi.Data.Webhook.Description
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Human-readable description of what this webhook does.
+  example: []
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Webhook.Description*
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  id: NotifyVia_String
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia_String
+  nameWithType: Webhook.NotifyVia_String
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    How to notify recipients when this webhook changes state. 1=Email, 2=InApp.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("NotifyVia")]
+
+      public string NotifyVia_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("NotifyVia")>
+
+      Public Property NotifyVia_String As String
+  overload: SuperOffice.WebApi.Data.Webhook.NotifyVia_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Webhook.NotifyVia
+    commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyVia
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: NotifyVia
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyVia
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyVia
+  id: NotifyVia
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyVia
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    How to notify recipients when this webhook changes state. 1=Email, 2=InApp.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public WebhookNotifyVia? NotifyVia { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WebhookNotifyVia}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property NotifyVia As WebhookNotifyVia?
+  overload: SuperOffice.WebApi.Data.Webhook.NotifyVia*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+    commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  id: NotifyWhen_String
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen_String
+  nameWithType: Webhook.NotifyWhen_String
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("NotifyWhen")]
+
+      public string NotifyWhen_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("NotifyWhen")>
+
+      Public Property NotifyWhen_String As String
+  overload: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Webhook.NotifyWhen
+    commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: NotifyWhen
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  id: NotifyWhen
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    When to notify recipients. Bitflag: 1=FirstFailure, 2=Disabling.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public WebhookNotifyWhen? NotifyWhen { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WebhookNotifyWhen}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property NotifyWhen As WebhookNotifyWhen?
+  overload: SuperOffice.WebApi.Data.Webhook.NotifyWhen*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+    commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.Webhook.TotalCalls
+  commentId: P:SuperOffice.WebApi.Data.Webhook.TotalCalls
+  id: TotalCalls
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: TotalCalls
+  nameWithType: Webhook.TotalCalls
+  fullName: SuperOffice.WebApi.Data.Webhook.TotalCalls
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Number of times webhook has been invoked since registered. For statistical purposes.
+  example: []
+  syntax:
+    content: public virtual int TotalCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TotalCalls As Integer
+  overload: SuperOffice.WebApi.Data.Webhook.TotalCalls*
+- uid: SuperOffice.WebApi.Data.Webhook.TotalErrors
+  commentId: P:SuperOffice.WebApi.Data.Webhook.TotalErrors
+  id: TotalErrors
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: TotalErrors
+  nameWithType: Webhook.TotalErrors
+  fullName: SuperOffice.WebApi.Data.Webhook.TotalErrors
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Number of times webhook has returned error since registered. For statistical purposes.
+  example: []
+  syntax:
+    content: public virtual int TotalErrors { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TotalErrors As Integer
+  overload: SuperOffice.WebApi.Data.Webhook.TotalErrors*
+- uid: SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors
+  commentId: P:SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors
+  id: ConsecutiveErrors
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: ConsecutiveErrors
+  nameWithType: Webhook.ConsecutiveErrors
+  fullName: SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Number of consecutive errors. Reset to 0 when an non-error is received. If too many errors, webhook.state is changed to TooManyErrors(3) to deactivate webhook.
+  example: []
+  syntax:
+    content: public virtual int ConsecutiveErrors { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ConsecutiveErrors As Integer
+  overload: SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors*
+- uid: SuperOffice.WebApi.Data.Webhook.LastError
+  commentId: P:SuperOffice.WebApi.Data.Webhook.LastError
+  id: LastError
+  parent: SuperOffice.WebApi.Data.Webhook
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: Webhook.LastError
+  fullName: SuperOffice.WebApi.Data.Webhook.LastError
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Most recent error message received from target. HTTP Headers + body. To help with debugging webhooks.
+  example: []
+  syntax:
+    content: public virtual string LastError { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LastError As String
+  overload: SuperOffice.WebApi.Data.Webhook.LastError*
 references:
 - uid: SuperOffice.WebApi.Agents.WebhookAgent
   commentId: T:SuperOffice.WebApi.Agents.WebhookAgent
@@ -1001,3 +1333,171 @@ references:
   name: ErrorsEmail
   nameWithType: Webhook.ErrorsEmail
   fullName: SuperOffice.WebApi.Data.Webhook.ErrorsEmail
+- uid: SuperOffice.WebApi.Data.Webhook.ErrorEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.ErrorEmails
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_ErrorEmails
+  name: ErrorEmails
+  nameWithType: Webhook.ErrorEmails
+  fullName: SuperOffice.WebApi.Data.Webhook.ErrorEmails
+- uid: SuperOffice.WebApi.Data.Webhook.ErrorAssociates*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.ErrorAssociates
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_ErrorAssociates
+  name: ErrorAssociates
+  nameWithType: Webhook.ErrorAssociates
+  fullName: SuperOffice.WebApi.Data.Webhook.ErrorAssociates
+- uid: SuperOffice.WebApi.Data.MDOListItem[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.MDOListItem.html
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.WebApi.Data.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.MDOListItem.html
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Data.Webhook.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.Description
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Description
+  name: Description
+  nameWithType: Webhook.Description
+  fullName: SuperOffice.WebApi.Data.Webhook.Description
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyVia
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyVia
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyVia
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyVia
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyVia_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyVia_String
+  name: NotifyVia_String
+  nameWithType: Webhook.NotifyVia_String
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyVia_String
+  name: NotifyVia_String
+  nameWithType: Webhook.NotifyVia_String
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyVia_String
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyVia*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.NotifyVia
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyVia
+  name: NotifyVia
+  nameWithType: Webhook.NotifyVia
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyVia
+- uid: System.Nullable{SuperOffice.WebApi.Data.WebhookNotifyVia}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WebhookNotifyVia}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia?
+  nameWithType: WebhookNotifyVia?
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyVia?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WebhookNotifyVia
+    name: WebhookNotifyVia
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WebhookNotifyVia.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WebhookNotifyVia
+    name: WebhookNotifyVia
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WebhookNotifyVia.html
+  - name: '?'
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyWhen
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyWhen
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyWhen_String
+  name: NotifyWhen_String
+  nameWithType: Webhook.NotifyWhen_String
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  commentId: P:SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyWhen_String
+  name: NotifyWhen_String
+  nameWithType: Webhook.NotifyWhen_String
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyWhen_String
+- uid: SuperOffice.WebApi.Data.Webhook.NotifyWhen*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.NotifyWhen
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_NotifyWhen
+  name: NotifyWhen
+  nameWithType: Webhook.NotifyWhen
+  fullName: SuperOffice.WebApi.Data.Webhook.NotifyWhen
+- uid: System.Nullable{SuperOffice.WebApi.Data.WebhookNotifyWhen}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WebhookNotifyWhen}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen?
+  nameWithType: WebhookNotifyWhen?
+  fullName: SuperOffice.WebApi.Data.WebhookNotifyWhen?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.WebhookNotifyWhen
+    name: WebhookNotifyWhen
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WebhookNotifyWhen.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.WebhookNotifyWhen
+    name: WebhookNotifyWhen
+    isExternal: true
+    href: SuperOffice.WebApi.Data.WebhookNotifyWhen.html
+  - name: '?'
+- uid: SuperOffice.WebApi.Data.Webhook.TotalCalls*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.TotalCalls
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_TotalCalls
+  name: TotalCalls
+  nameWithType: Webhook.TotalCalls
+  fullName: SuperOffice.WebApi.Data.Webhook.TotalCalls
+- uid: SuperOffice.WebApi.Data.Webhook.TotalErrors*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.TotalErrors
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_TotalErrors
+  name: TotalErrors
+  nameWithType: Webhook.TotalErrors
+  fullName: SuperOffice.WebApi.Data.Webhook.TotalErrors
+- uid: SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_ConsecutiveErrors
+  name: ConsecutiveErrors
+  nameWithType: Webhook.ConsecutiveErrors
+  fullName: SuperOffice.WebApi.Data.Webhook.ConsecutiveErrors
+- uid: SuperOffice.WebApi.Data.Webhook.LastError*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook.LastError
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_LastError
+  name: LastError
+  nameWithType: Webhook.LastError
+  fullName: SuperOffice.WebApi.Data.Webhook.LastError

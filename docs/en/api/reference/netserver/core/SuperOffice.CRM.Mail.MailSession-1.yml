@@ -7,12 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String)
   - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String)
-  - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.MailSession`1.DisposeAsync
   - SuperOffice.CRM.Mail.MailSession`1.GetMailInterfaceAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailSession`1.LogoutAsync
   - SuperOffice.CRM.Mail.MailSession`1.Password
   - SuperOffice.CRM.Mail.MailSession`1.Server
+  - SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.MailSession`1.ServerLogoutAsync
@@ -83,16 +84,16 @@ items:
   nameWithType.vb: MailSession(Of TMailInterface).New(String)
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).New(String)
   name.vb: New(String)
-- uid: SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean)
-  id: '#ctor(System.String,System.String,System.String,System.Boolean)'
+- uid: SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  id: '#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)'
   parent: SuperOffice.CRM.Mail.MailSession`1
   langs:
   - csharp
   - vb
-  name: MailSession(string, string, string, bool)
-  nameWithType: MailSession<TMailInterface>.MailSession(string, string, string, bool)
-  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailSession(string, string, string, bool)
+  name: MailSession(string, string, string, bool, bool)
+  nameWithType: MailSession<TMailInterface>.MailSession(string, string, string, bool, bool)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailSession(string, string, string, bool, bool)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
@@ -100,7 +101,7 @@ items:
   summary: Default constructor used when authentication is required.
   example: []
   syntax:
-    content: protected MailSession(string server, string userName, string password, bool useSSL)
+    content: protected MailSession(string server, string userName, string password, bool useSSL, bool useGraphApi)
     parameters:
     - id: server
       type: System.String
@@ -114,11 +115,13 @@ items:
     - id: useSSL
       type: System.Boolean
       description: Use SSL
-    content.vb: Protected Sub New(server As String, userName As String, password As String, useSSL As Boolean)
+    - id: useGraphApi
+      type: System.Boolean
+    content.vb: Protected Sub New(server As String, userName As String, password As String, useSSL As Boolean, useGraphApi As Boolean)
   overload: SuperOffice.CRM.Mail.MailSession`1.#ctor*
-  nameWithType.vb: MailSession(Of TMailInterface).New(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).New(String, String, String, Boolean)
-  name.vb: New(String, String, String, Boolean)
+  nameWithType.vb: MailSession(Of TMailInterface).New(String, String, String, Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).New(String, String, String, Boolean, Boolean)
+  name.vb: New(String, String, String, Boolean, Boolean)
 - uid: SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.#ctor(System.String,System.String,System.String)
   id: '#ctor(System.String,System.String,System.String)'
@@ -215,6 +218,51 @@ items:
   nameWithType.vb: MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, System.Threading.CancellationToken)
   name.vb: ServerLoginAsync(String, String, String, CancellationToken)
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Mail.MailSession`1
+  langs:
+  - csharp
+  - vb
+  name: ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  nameWithType: MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLoginAsync(string, string, string, bool, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  summary: Implemented in sub classes to log on to the mail server.
+  example: []
+  syntax:
+    content: protected abstract Task<TMailInterface> ServerLoginAsync(string server, string userName, string password, bool useSSL, bool useGraphApi, CancellationToken cancellationToken)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Use SSL
+    - id: useGraphApi
+      type: System.Boolean
+      description: Use the graph API, instead of imap/smtp protocols
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{{TMailInterface}}
+      description: Instance of interface to the mail plugin.
+    content.vb: Protected MustOverride Function ServerLoginAsync(server As String, userName As String, password As String, useSSL As Boolean, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of TMailInterface)
+  overload: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync*
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLoginAsync(String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: ServerLoginAsync(String, String, String, Boolean, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   id: ServerLoginAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)

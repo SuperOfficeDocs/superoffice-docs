@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  id: EMail_MoveToFolderFromServerIdentifierRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  - SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  - SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  langs:
+  - csharp
+  - vb
+  name: EMail_MoveToFolderFromServerIdentifierRequest
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public class EMail_MoveToFolderFromServerIdentifierRequest
+    content.vb: Public Class EMail_MoveToFolderFromServerIdentifierRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_MoveToFolderFromServerIdentifierRequest()
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.EMail_MoveToFolderFromServerIdentifierRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.EMail_MoveToFolderFromServerIdentifierRequest()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_MoveToFolderFromServerIdentifierRequest()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.#ctor*
+  nameWithType.vb: EMail_MoveToFolderFromServerIdentifierRequest.New()
+  fullName.vb: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo*
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  commentId: P:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  id: MessageServerIds
+  parent: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageServerIds
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string[] MessageServerIds { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property MessageServerIds As String()
+  overload: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds*
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  commentId: P:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  id: TargetFolder
+  parent: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetFolder
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public string TargetFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TargetFolder As String
+  overload: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder*
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.html#SuperOffice_WebApi_Data_EMail_MoveToFolderFromServerIdentifierRequest__ctor
+  name: EMail_MoveToFolderFromServerIdentifierRequest
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.EMail_MoveToFolderFromServerIdentifierRequest
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.EMail_MoveToFolderFromServerIdentifierRequest
+  nameWithType.vb: EMail_MoveToFolderFromServerIdentifierRequest.New
+  fullName.vb: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.html#SuperOffice_WebApi_Data_EMail_MoveToFolderFromServerIdentifierRequest_ConnectionInfo
+  name: ConnectionInfo
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailConnectionInfo.html
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.html#SuperOffice_WebApi_Data_EMail_MoveToFolderFromServerIdentifierRequest_MessageServerIds
+  name: MessageServerIds
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.MessageServerIds
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.html#SuperOffice_WebApi_Data_EMail_MoveToFolderFromServerIdentifierRequest_TargetFolder
+  name: TargetFolder
+  nameWithType: EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+  fullName: SuperOffice.WebApi.Data.EMail_MoveToFolderFromServerIdentifierRequest.TargetFolder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

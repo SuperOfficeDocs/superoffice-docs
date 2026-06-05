@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
   langs:
   - csharp
   - vb
@@ -650,6 +651,32 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property LastFetch As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch*
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Data.EmailAccountTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EmailAccountTableInfo.UseGraphApi
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'use_graph_api' in table 'email_account': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Use the GraphApi for this account
+  example: []
+  syntax:
+    content: public UInt16FieldInfo UseGraphApi { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UseGraphApi As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi*
 - uid: SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -1937,6 +1964,13 @@ references:
   name: LastFetch
   nameWithType: EmailAccountTableInfo.LastFetch
   fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi*
+  commentId: Overload:SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailAccountTableInfo.html#SuperOffice_CRM_Data_EmailAccountTableInfo_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EmailAccountTableInfo.UseGraphApi
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data

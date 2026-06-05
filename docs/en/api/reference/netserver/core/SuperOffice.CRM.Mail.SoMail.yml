@@ -8,7 +8,7 @@ items:
   - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String)
@@ -19,12 +19,14 @@ items:
   - SuperOffice.CRM.Mail.SoMail.GetFolderNameAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.GetLoginCredentialsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.GetLoginCredentialsAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync(System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(System.Threading.CancellationToken)
-  - SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -73,6 +75,34 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
     content.vb: Public Shared Function GetMailReaderAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ISoIncomingMailInterface)
   overload: SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync*
+- uid: SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync(System.Boolean,System.Threading.CancellationToken)
+  id: GetMailReaderAsync(System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: GetMailReaderAsync(bool, CancellationToken)
+  nameWithType: SoMail.GetMailReaderAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync(bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static Task<ISoIncomingMailInterface> GetMailReaderAsync(bool useGraphApi, CancellationToken cancellationToken = default)
+    parameters:
+    - id: useGraphApi
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+    content.vb: Public Shared Function GetMailReaderAsync(useGraphApi As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoIncomingMailInterface)
+  overload: SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync*
+  nameWithType.vb: SoMail.GetMailReaderAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.GetMailReaderAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: GetMailReaderAsync(Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(System.Threading.CancellationToken)
   id: GetMailSenderAsync(System.Threading.CancellationToken)
@@ -96,16 +126,44 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
     content.vb: Public Shared Function GetMailSenderAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ISoOutgoingMailInterface)
   overload: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync*
-- uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  id: LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(System.Boolean,System.Threading.CancellationToken)
+  id: GetMailSenderAsync(System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.SoMail
   langs:
   - csharp
   - vb
-  name: LoginIncomingExtendedAsync(string, string, int, string, string, string, bool, bool, CancellationToken)
-  nameWithType: SoMail.LoginIncomingExtendedAsync(string, string, int, string, string, string, bool, bool, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(string, string, int, string, string, string, bool, bool, System.Threading.CancellationToken)
+  name: GetMailSenderAsync(bool, CancellationToken)
+  nameWithType: SoMail.GetMailSenderAsync(bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static Task<ISoOutgoingMailInterface> GetMailSenderAsync(bool useGraphApi, CancellationToken cancellationToken = default)
+    parameters:
+    - id: useGraphApi
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
+    content.vb: Public Shared Function GetMailSenderAsync(useGraphApi As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of ISoOutgoingMailInterface)
+  overload: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync*
+  nameWithType.vb: SoMail.GetMailSenderAsync(Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync(Boolean, System.Threading.CancellationToken)
+  name.vb: GetMailSenderAsync(Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: LoginIncomingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: LoginIncomingExtendedAsync(string, string, int, string, string, string, bool, bool, bool, CancellationToken)
+  nameWithType: SoMail.LoginIncomingExtendedAsync(string, string, int, string, string, string, bool, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(string, string, int, string, string, string, bool, bool, bool, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
@@ -113,7 +171,7 @@ items:
   summary: Log in to an incoming mail server
   example: []
   syntax:
-    content: public static Task<ISoIncomingMailInterface> LoginIncomingExtendedAsync(string protocol, string server, int port, string username, string password, string folder, bool readOnly, bool createFolderIfNotFound, CancellationToken cancellationToken)
+    content: public static Task<ISoIncomingMailInterface> LoginIncomingExtendedAsync(string protocol, string server, int port, string username, string password, string folder, bool readOnly, bool createFolderIfNotFound, bool useGraphApi, CancellationToken cancellationToken)
     parameters:
     - id: protocol
       type: System.String
@@ -137,26 +195,28 @@ items:
     - id: createFolderIfNotFound
       type: System.Boolean
       description: Create the folder if it does not exist
+    - id: useGraphApi
+      type: System.Boolean
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
       description: Instance of the created mail connection
-    content.vb: Public Shared Function LoginIncomingExtendedAsync(protocol As String, server As String, port As Integer, username As String, password As String, folder As String, [readOnly] As Boolean, createFolderIfNotFound As Boolean, cancellationToken As CancellationToken) As Task(Of ISoIncomingMailInterface)
+    content.vb: Public Shared Function LoginIncomingExtendedAsync(protocol As String, server As String, port As Integer, username As String, password As String, folder As String, [readOnly] As Boolean, createFolderIfNotFound As Boolean, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of ISoIncomingMailInterface)
   overload: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync*
-  nameWithType.vb: SoMail.LoginIncomingExtendedAsync(String, String, Integer, String, String, String, Boolean, Boolean, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(String, String, Integer, String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
-  name.vb: LoginIncomingExtendedAsync(String, String, Integer, String, String, String, Boolean, Boolean, CancellationToken)
-- uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  id: LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: SoMail.LoginIncomingExtendedAsync(String, String, Integer, String, String, String, Boolean, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync(String, String, Integer, String, String, String, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: LoginIncomingExtendedAsync(String, String, Integer, String, String, String, Boolean, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: LoginIncomingAsync(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.SoMail
   langs:
   - csharp
   - vb
-  name: LoginIncomingAsync(string, string, string, bool, string, bool, bool, CancellationToken)
-  nameWithType: SoMail.LoginIncomingAsync(string, string, string, bool, string, bool, bool, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(string, string, string, bool, string, bool, bool, System.Threading.CancellationToken)
+  name: LoginIncomingAsync(string, string, string, bool, string, bool, bool, bool, CancellationToken)
+  nameWithType: SoMail.LoginIncomingAsync(string, string, string, bool, string, bool, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(string, string, string, bool, string, bool, bool, bool, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
@@ -164,7 +224,7 @@ items:
   summary: Log in to an incoming mail server
   example: []
   syntax:
-    content: public static Task<ISoIncomingMailInterface> LoginIncomingAsync(string server, string username, string password, bool useSSL, string folder, bool readOnly, bool createFolderIfNotFound, CancellationToken cancellationToken)
+    content: public static Task<ISoIncomingMailInterface> LoginIncomingAsync(string server, string username, string password, bool useSSL, string folder, bool readOnly, bool createFolderIfNotFound, bool useGraphApi, CancellationToken cancellationToken)
     parameters:
     - id: server
       type: System.String
@@ -187,27 +247,29 @@ items:
     - id: createFolderIfNotFound
       type: System.Boolean
       description: Create the folder if it does not exist
+    - id: useGraphApi
+      type: System.Boolean
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
       description: Instance of the created mail connection
-    content.vb: Public Shared Function LoginIncomingAsync(server As String, username As String, password As String, useSSL As Boolean, folder As String, [readOnly] As Boolean, createFolderIfNotFound As Boolean, cancellationToken As CancellationToken) As Task(Of ISoIncomingMailInterface)
+    content.vb: Public Shared Function LoginIncomingAsync(server As String, username As String, password As String, useSSL As Boolean, folder As String, [readOnly] As Boolean, createFolderIfNotFound As Boolean, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of ISoIncomingMailInterface)
   overload: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync*
-  nameWithType.vb: SoMail.LoginIncomingAsync(String, String, String, Boolean, String, Boolean, Boolean, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(String, String, String, Boolean, String, Boolean, Boolean, System.Threading.CancellationToken)
-  name.vb: LoginIncomingAsync(String, String, String, Boolean, String, Boolean, Boolean, CancellationToken)
-- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Threading.CancellationToken)
-  id: LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: SoMail.LoginIncomingAsync(String, String, String, Boolean, String, Boolean, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync(String, String, String, Boolean, String, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: LoginIncomingAsync(String, String, String, Boolean, String, Boolean, Boolean, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  id: LoginOutgoingExtendedAsync(System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.SoMail
   langs:
   - csharp
   - vb
-  name: LoginOutgoingExtendedAsync(string, string, int, string, string, CancellationToken)
-  nameWithType: SoMail.LoginOutgoingExtendedAsync(string, string, int, string, string, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(string, string, int, string, string, System.Threading.CancellationToken)
+  name: LoginOutgoingExtendedAsync(string, string, int, string, string, bool, CancellationToken)
+  nameWithType: SoMail.LoginOutgoingExtendedAsync(string, string, int, string, string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(string, string, int, string, string, bool, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
@@ -215,7 +277,7 @@ items:
   summary: Log in to an outgoing mail server
   example: []
   syntax:
-    content: public static Task<ISoOutgoingMailInterface> LoginOutgoingExtendedAsync(string protocol, string server, int port, string username, string password, CancellationToken cancellationToken)
+    content: public static Task<ISoOutgoingMailInterface> LoginOutgoingExtendedAsync(string protocol, string server, int port, string username, string password, bool useGraphApi, CancellationToken cancellationToken)
     parameters:
     - id: protocol
       type: System.String
@@ -230,26 +292,28 @@ items:
     - id: password
       type: System.String
       description: Account password
+    - id: useGraphApi
+      type: System.Boolean
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
       description: Instance of the created mail connection
-    content.vb: Public Shared Function LoginOutgoingExtendedAsync(protocol As String, server As String, port As Integer, username As String, password As String, cancellationToken As CancellationToken) As Task(Of ISoOutgoingMailInterface)
+    content.vb: Public Shared Function LoginOutgoingExtendedAsync(protocol As String, server As String, port As Integer, username As String, password As String, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of ISoOutgoingMailInterface)
   overload: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync*
-  nameWithType.vb: SoMail.LoginOutgoingExtendedAsync(String, String, Integer, String, String, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(String, String, Integer, String, String, System.Threading.CancellationToken)
-  name.vb: LoginOutgoingExtendedAsync(String, String, Integer, String, String, CancellationToken)
-- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  id: LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: SoMail.LoginOutgoingExtendedAsync(String, String, Integer, String, String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync(String, String, Integer, String, String, Boolean, System.Threading.CancellationToken)
+  name.vb: LoginOutgoingExtendedAsync(String, String, Integer, String, String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: LoginOutgoingAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.SoMail
   langs:
   - csharp
   - vb
-  name: LoginOutgoingAsync(string, string, string, bool, CancellationToken)
-  nameWithType: SoMail.LoginOutgoingAsync(string, string, string, bool, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(string, string, string, bool, System.Threading.CancellationToken)
+  name: LoginOutgoingAsync(string, string, string, bool, bool, CancellationToken)
+  nameWithType: SoMail.LoginOutgoingAsync(string, string, string, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(string, string, string, bool, bool, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
@@ -257,7 +321,7 @@ items:
   summary: Log in to an outgoing mail server
   example: []
   syntax:
-    content: public static Task<ISoOutgoingMailInterface> LoginOutgoingAsync(string server, string username, string password, bool useSSL, CancellationToken cancellationToken)
+    content: public static Task<ISoOutgoingMailInterface> LoginOutgoingAsync(string server, string username, string password, bool useSSL, bool useGraphApi, CancellationToken cancellationToken)
     parameters:
     - id: server
       type: System.String
@@ -271,17 +335,19 @@ items:
     - id: useSSL
       type: System.Boolean
       description: Use secure connection
+    - id: useGraphApi
+      type: System.Boolean
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
       description: Instance of the created mail connection
-    content.vb: Public Shared Function LoginOutgoingAsync(server As String, username As String, password As String, useSSL As Boolean, cancellationToken As CancellationToken) As Task(Of ISoOutgoingMailInterface)
+    content.vb: Public Shared Function LoginOutgoingAsync(server As String, username As String, password As String, useSSL As Boolean, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of ISoOutgoingMailInterface)
   overload: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync*
-  nameWithType.vb: SoMail.LoginOutgoingAsync(String, String, String, Boolean, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(String, String, String, Boolean, System.Threading.CancellationToken)
-  name.vb: LoginOutgoingAsync(String, String, String, Boolean, CancellationToken)
+  nameWithType.vb: SoMail.LoginOutgoingAsync(String, String, String, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync(String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: LoginOutgoingAsync(String, String, String, Boolean, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.SoMail.BeginReadAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
   id: BeginReadAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
@@ -484,16 +550,16 @@ items:
   nameWithType.vb: SoMail.BeginReadAsync(String, String, String, String, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(String, String, String, String, Boolean, System.Threading.CancellationToken)
   name.vb: BeginReadAsync(String, String, String, String, Boolean, CancellationToken)
-- uid: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
-  id: BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
+  id: BeginReadAsync(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.SoMail
   langs:
   - csharp
   - vb
-  name: BeginReadAsync(string, string, string, string, bool, bool, CancellationToken)
-  nameWithType: SoMail.BeginReadAsync(string, string, string, string, bool, bool, CancellationToken)
-  fullName: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(string, string, string, string, bool, bool, System.Threading.CancellationToken)
+  name: BeginReadAsync(string, string, string, string, bool, bool, bool, CancellationToken)
+  nameWithType: SoMail.BeginReadAsync(string, string, string, string, bool, bool, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(string, string, string, string, bool, bool, bool, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
@@ -501,7 +567,7 @@ items:
   summary: Obtain reference to session for incoming mail server/message store (i.e. IMAP).
   example: []
   syntax:
-    content: public static Task<MessageStoreSession> BeginReadAsync(string folderName, string server, string userName, string password, bool useSSL, bool readOnly, CancellationToken cancellationToken)
+    content: public static Task<MessageStoreSession> BeginReadAsync(string folderName, string server, string userName, string password, bool useSSL, bool readOnly, bool useGraphApi, CancellationToken cancellationToken)
     parameters:
     - id: folderName
       type: System.String
@@ -520,16 +586,18 @@ items:
     - id: readOnly
       type: System.Boolean
       description: Should folder be selected as readonly
+    - id: useGraphApi
+      type: System.Boolean
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.MessageStoreSession}
       description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
-    content.vb: Public Shared Function BeginReadAsync(folderName As String, server As String, userName As String, password As String, useSSL As Boolean, [readOnly] As Boolean, cancellationToken As CancellationToken) As Task(Of MessageStoreSession)
+    content.vb: Public Shared Function BeginReadAsync(folderName As String, server As String, userName As String, password As String, useSSL As Boolean, [readOnly] As Boolean, useGraphApi As Boolean, cancellationToken As CancellationToken) As Task(Of MessageStoreSession)
   overload: SuperOffice.CRM.Mail.SoMail.BeginReadAsync*
-  nameWithType.vb: SoMail.BeginReadAsync(String, String, String, String, Boolean, Boolean, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(String, String, String, String, Boolean, Boolean, System.Threading.CancellationToken)
-  name.vb: BeginReadAsync(String, String, String, String, Boolean, Boolean, CancellationToken)
+  nameWithType.vb: SoMail.BeginReadAsync(String, String, String, String, Boolean, Boolean, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.BeginReadAsync(String, String, String, String, Boolean, Boolean, Boolean, System.Threading.CancellationToken)
+  name.vb: BeginReadAsync(String, String, String, String, Boolean, Boolean, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.SoMail.BeginSendAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.SoMail.BeginSendAsync(System.Threading.CancellationToken)
   id: BeginSendAsync(System.Threading.CancellationToken)
@@ -1183,6 +1251,17 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync*
   commentId: Overload:SuperOffice.CRM.Mail.SoMail.GetMailSenderAsync
   isExternal: true
@@ -1226,7 +1305,7 @@ references:
 - uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync*
   commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync
   isExternal: true
-  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginIncomingExtendedAsync_System_String_System_String_System_Int32_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginIncomingExtendedAsync_System_String_System_String_System_Int32_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   name: LoginIncomingExtendedAsync
   nameWithType: SoMail.LoginIncomingExtendedAsync
   fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtendedAsync
@@ -1252,35 +1331,24 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync*
   commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync
   isExternal: true
-  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginIncomingAsync_System_String_System_String_System_String_System_Boolean_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginIncomingAsync_System_String_System_String_System_String_System_Boolean_System_String_System_Boolean_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   name: LoginIncomingAsync
   nameWithType: SoMail.LoginIncomingAsync
   fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingAsync
 - uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync*
   commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync
   isExternal: true
-  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginOutgoingExtendedAsync_System_String_System_String_System_Int32_System_String_System_String_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginOutgoingExtendedAsync_System_String_System_String_System_Int32_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
   name: LoginOutgoingExtendedAsync
   nameWithType: SoMail.LoginOutgoingExtendedAsync
   fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtendedAsync
 - uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync*
   commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync
   isExternal: true
-  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginOutgoingAsync_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_LoginOutgoingAsync_System_String_System_String_System_String_System_Boolean_System_Boolean_System_Threading_CancellationToken_
   name: LoginOutgoingAsync
   nameWithType: SoMail.LoginOutgoingAsync
   fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingAsync

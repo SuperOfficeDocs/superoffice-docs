@@ -15,6 +15,7 @@ items:
   - SuperOffice.WebApi.Data.EMailEnvelope.Priority_String
   - SuperOffice.WebApi.Data.EMailEnvelope.Sent
   - SuperOffice.WebApi.Data.EMailEnvelope.ServerId
+  - SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier
   - SuperOffice.WebApi.Data.EMailEnvelope.Size
   - SuperOffice.WebApi.Data.EMailEnvelope.Subject
   - SuperOffice.WebApi.Data.EMailEnvelope.To
@@ -98,6 +99,29 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ServerId As Integer
   overload: SuperOffice.WebApi.Data.EMailEnvelope.ServerId*
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier
+  commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.WebApi.Data.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: EMailEnvelope.ServerIdentifier
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Unique string id for the e-mail on the server (Graph API
+  example: []
+  syntax:
+    content: public virtual string ServerIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ServerIdentifier As String
+  overload: SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier*
 - uid: SuperOffice.WebApi.Data.EMailEnvelope.MessageId
   commentId: P:SuperOffice.WebApi.Data.EMailEnvelope.MessageId
   id: MessageId
@@ -753,13 +777,13 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.WebApi.Data.EMailEnvelope.MessageId*
-  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailEnvelope.html#SuperOffice_WebApi_Data_EMailEnvelope_MessageId
-  name: MessageId
-  nameWithType: EMailEnvelope.MessageId
-  fullName: SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  href: SuperOffice.WebApi.Data.EMailEnvelope.html#SuperOffice_WebApi_Data_EMailEnvelope_ServerIdentifier
+  name: ServerIdentifier
+  nameWithType: EMailEnvelope.ServerIdentifier
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.ServerIdentifier
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -771,6 +795,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.WebApi.Data.EMailEnvelope.MessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.MessageId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailEnvelope.html#SuperOffice_WebApi_Data_EMailEnvelope_MessageId
+  name: MessageId
+  nameWithType: EMailEnvelope.MessageId
+  fullName: SuperOffice.WebApi.Data.EMailEnvelope.MessageId
 - uid: SuperOffice.WebApi.Data.EMailEnvelope.Subject*
   commentId: Overload:SuperOffice.WebApi.Data.EMailEnvelope.Subject
   isExternal: true

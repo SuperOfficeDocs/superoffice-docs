@@ -33,6 +33,7 @@ items:
   - SuperOffice.WebApi.Data.EMailEntity.RepliedAt
   - SuperOffice.WebApi.Data.EMailEntity.Sent
   - SuperOffice.WebApi.Data.EMailEntity.ServerId
+  - SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier
   - SuperOffice.WebApi.Data.EMailEntity.Size
   - SuperOffice.WebApi.Data.EMailEntity.Subject
   - SuperOffice.WebApi.Data.EMailEntity.To
@@ -552,6 +553,29 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ServerId As Integer
   overload: SuperOffice.WebApi.Data.EMailEntity.ServerId*
+- uid: SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier
+  commentId: P:SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier
+  id: ServerIdentifier
+  parent: SuperOffice.WebApi.Data.EMailEntity
+  langs:
+  - csharp
+  - vb
+  name: ServerIdentifier
+  nameWithType: EMailEntity.ServerIdentifier
+  fullName: SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Server identifier of this email item (GraphApi uses string Id's)
+  example: []
+  syntax:
+    content: public virtual string ServerIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ServerIdentifier As String
+  overload: SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier*
 - uid: SuperOffice.WebApi.Data.EMailEntity.Attachments
   commentId: P:SuperOffice.WebApi.Data.EMailEntity.Attachments
   id: Attachments
@@ -1533,6 +1557,13 @@ references:
   name: ServerId
   nameWithType: EMailEntity.ServerId
   fullName: SuperOffice.WebApi.Data.EMailEntity.ServerId
+- uid: SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailEntity.html#SuperOffice_WebApi_Data_EMailEntity_ServerIdentifier
+  name: ServerIdentifier
+  nameWithType: EMailEntity.ServerIdentifier
+  fullName: SuperOffice.WebApi.Data.EMailEntity.ServerIdentifier
 - uid: SuperOffice.WebApi.Data.EMailEntity.Attachments*
   commentId: Overload:SuperOffice.WebApi.Data.EMailEntity.Attachments
   isExternal: true

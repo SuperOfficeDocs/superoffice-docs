@@ -1,0 +1,1058 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  id: LandingPageRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo})
+  - SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo})
+  - SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LandingPageRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LandingPageRow)
+  langs:
+  - csharp
+  - vb
+  name: LandingPageRecordDataExtensions
+  nameWithType: LandingPageRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.LandingPageRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
+  syntax:
+    content: public static class LandingPageRecordDataExtensions
+    content.vb: Public Module LandingPageRecordDataExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo},System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelectAsync(TargetedSelect<LandingPageTableInfo>, CancellationToken)
+  nameWithType: LandingPageRecordDataExtensions.FromSelectAsync(TargetedSelect<LandingPageTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LandingPageTableInfo>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;LandingPageTableInfo&gt;, execute it and return an IEnumerable&lt;LandingPageRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<LandingPageRecordData> FromSelectAsync(this TargetedSelect<LandingPageTableInfo> select, CancellationToken cancellationToken = default)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of LandingPageTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of LandingPageRecordData)
+  overload: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: LandingPageRecordDataExtensions.FromSelectAsync(TargetedSelect(Of LandingPageTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LandingPageTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of LandingPageTableInfo), CancellationToken)
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<LandingPageTableInfo>)
+  nameWithType: LandingPageRecordDataExtensions.FromRecord(TargetedDataRecord<LandingPageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.LandingPageTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedDataRecord&lt;LandingPageTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.LandingPageRecordData" data-throw-if-not-resolved="false"></xref> POCO object
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { LandingPageItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static LandingPageRecordData FromRecord(this TargetedDataRecord<LandingPageTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.LandingPageRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of LandingPageTableInfo)) As LandingPageRecordData
+  overload: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord*
+  nameWithType.vb: LandingPageRecordDataExtensions.FromRecord(TargetedDataRecord(Of LandingPageTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.LandingPageTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of LandingPageTableInfo))
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LandingPageRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LandingPageRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.LandingPageRecordData,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsertAsync(LandingPageRecordData, CancellationToken)
+  nameWithType: LandingPageRecordDataExtensions.ToInsertAsync(LandingPageRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LandingPageRecordData, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Task<Insert> ToInsertAsync(this LandingPageRecordData record, CancellationToken cancellationToken = default)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.LandingPageRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As LandingPageRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData},System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsertsAsync(IEnumerable<LandingPageRecordData>, CancellationToken)
+  nameWithType: LandingPageRecordDataExtensions.ToInsertsAsync(IEnumerable<LandingPageRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LandingPageRecordData>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<LandingPageRecordData> records, CancellationToken cancellationToken = default)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of LandingPageRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: LandingPageRecordDataExtensions.ToInsertsAsync(IEnumerable(Of LandingPageRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LandingPageRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of LandingPageRecordData), CancellationToken)
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LandingPageRow)
+  commentId: M:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LandingPageRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.LandingPageRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(LandingPageRow)
+  nameWithType: LandingPageRecordDataExtensions.ToRecordData(LandingPageRow)
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LandingPageRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static LandingPageRecordData ToRecordData(this LandingPageRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.LandingPageRow
+    return:
+      type: SuperOffice.CRM.Rows.LandingPageRecordData
+    content.vb: Public Shared Function ToRecordData(row As LandingPageRow) As LandingPageRecordData
+  overload: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData*
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<LandingPageTableInfo>)
+  nameWithType: LandingPageRecordDataExtensions.FromSelect(TargetedSelect<LandingPageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LandingPageTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;LandingPageTableInfo&gt;, execute it and return an IEnumerable&lt;LandingPageRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<LandingPageRecordData> FromSelect(this TargetedSelect<LandingPageTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of LandingPageTableInfo)) As IEnumerable(Of LandingPageRecordData)
+  overload: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect*
+  nameWithType.vb: LandingPageRecordDataExtensions.FromSelect(TargetedSelect(Of LandingPageTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LandingPageTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of LandingPageTableInfo))
+references:
+- uid: SuperOffice.CRM.Rows.LandingPageRecordData
+  commentId: T:SuperOffice.CRM.Rows.LandingPageRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordData.html
+  name: LandingPageRecordData
+  nameWithType: LandingPageRecordData
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.html#SuperOffice_CRM_Rows_LandingPageRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_LandingPageTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: LandingPageRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelectAsync
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LandingPageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<LandingPageTableInfo>
+  nameWithType: TargetedSelect<LandingPageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LandingPageTableInfo>
+  nameWithType.vb: TargetedSelect(Of LandingPageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LandingPageTableInfo)
+  name.vb: TargetedSelect(Of LandingPageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.LandingPageRecordData.html
+  name: IAsyncEnumerable<LandingPageRecordData>
+  nameWithType: IAsyncEnumerable<LandingPageRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.LandingPageRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of LandingPageRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.LandingPageRecordData)
+  name.vb: IAsyncEnumerable(Of LandingPageRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Rows.LandingPageRecordData
+    name: LandingPageRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LandingPageRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.LandingPageRecordData
+    name: LandingPageRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LandingPageRecordData.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.html#SuperOffice_CRM_Rows_LandingPageRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_LandingPageTableInfo__
+  name: FromRecord
+  nameWithType: LandingPageRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LandingPageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  name: TargetedDataRecord<LandingPageTableInfo>
+  nameWithType: TargetedDataRecord<LandingPageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.LandingPageTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of LandingPageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.LandingPageTableInfo)
+  name.vb: TargetedDataRecord(Of LandingPageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.html#SuperOffice_CRM_Rows_LandingPageRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_LandingPageRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: LandingPageRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.html#SuperOffice_CRM_Rows_LandingPageRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_LandingPageRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: LandingPageRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LandingPageRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<LandingPageRecordData>
+  nameWithType: IEnumerable<LandingPageRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LandingPageRecordData>
+  nameWithType.vb: IEnumerable(Of LandingPageRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LandingPageRecordData)
+  name.vb: IEnumerable(Of LandingPageRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.LandingPageRecordData
+    name: LandingPageRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LandingPageRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.LandingPageRecordData
+    name: LandingPageRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LandingPageRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.html#SuperOffice_CRM_Rows_LandingPageRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_LandingPageRow_
+  name: ToRecordData
+  nameWithType: LandingPageRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.LandingPageRow
+  commentId: T:SuperOffice.CRM.Rows.LandingPageRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRow.html
+  name: LandingPageRow
+  nameWithType: LandingPageRow
+  fullName: SuperOffice.CRM.Rows.LandingPageRow
+- uid: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.html#SuperOffice_CRM_Rows_LandingPageRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_LandingPageTableInfo__
+  name: FromSelect
+  nameWithType: LandingPageRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.LandingPageRecordDataExtensions.FromSelect

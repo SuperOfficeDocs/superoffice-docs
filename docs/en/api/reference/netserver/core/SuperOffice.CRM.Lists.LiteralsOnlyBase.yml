@@ -120,6 +120,7 @@ items:
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
   - SuperOffice.CRM.Lists.KbAccessLevelProvider
   - SuperOffice.CRM.Lists.KbWorkflowProvider
+  - SuperOffice.CRM.Lists.LandingpageProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.MailClientProvider
   - SuperOffice.CRM.Lists.MailingFavouriteListProvider
@@ -199,6 +200,8 @@ items:
   - SuperOffice.CRM.Lists.VisibleInMenuProvider
   - SuperOffice.CRM.Lists.VisibleInProvider
   - SuperOffice.CRM.Lists.VisibleInTaskProvider
+  - SuperOffice.CRM.Lists.WebhookEntityListProvider
+  - SuperOffice.CRM.Lists.WebhookEventListProvider
   - SuperOffice.CRM.Lists.WeekNumberProvider
   - SuperOffice.CRM.Lists.WeekdayProvider
   - SuperOffice.CRM.Lists.WorkflowDefinitionStatusProvider

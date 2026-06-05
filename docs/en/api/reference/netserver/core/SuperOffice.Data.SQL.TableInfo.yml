@@ -260,6 +260,8 @@ items:
   - SuperOffice.CRM.Data.KbSolutionFinderTableInfo
   - SuperOffice.CRM.Data.KbWorkflowAccessTableInfo
   - SuperOffice.CRM.Data.KbWorkflowTableInfo
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo
+  - SuperOffice.CRM.Data.LandingPageTableInfo
   - SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
   - SuperOffice.CRM.Data.LanguageInfoTableInfo
   - SuperOffice.CRM.Data.LeadstatusTableInfo
@@ -284,6 +286,7 @@ items:
   - SuperOffice.CRM.Data.MessageHeaderTableInfo
   - SuperOffice.CRM.Data.MessageIdTableInfo
   - SuperOffice.CRM.Data.MessageTableInfo
+  - SuperOffice.CRM.Data.MeteringLogTableInfo
   - SuperOffice.CRM.Data.ModuleLicenseTableInfo
   - SuperOffice.CRM.Data.ModuleOwnerTableInfo
   - SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
@@ -568,6 +571,7 @@ items:
   - SuperOffice.CRM.Data.UtmParametersTableInfo
   - SuperOffice.CRM.Data.VisibleForTableInfo
   - SuperOffice.CRM.Data.WebAppUsageTableInfo
+  - SuperOffice.CRM.Data.WebhookNotifyTableInfo
   - SuperOffice.CRM.Data.WebhookTableInfo
   - SuperOffice.CRM.Data.WebhookUsageTableInfo
   - SuperOffice.CRM.Data.WinPosSizeTableInfo

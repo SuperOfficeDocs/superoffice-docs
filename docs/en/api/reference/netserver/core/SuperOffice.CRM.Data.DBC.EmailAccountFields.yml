@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.Updated
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.EmailAccountFields.UseGraphApi
   langs:
   - csharp
   - vb
@@ -404,6 +405,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const LastFetch As String = "last_fetch"
+- uid: SuperOffice.CRM.Data.DBC.EmailAccountFields.UseGraphApi
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAccountFields.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Data.DBC.EmailAccountFields
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: DBC.EmailAccountFields.UseGraphApi
+  fullName: SuperOffice.CRM.Data.DBC.EmailAccountFields.UseGraphApi
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'EmailAccount.UseGraphApi: Use the GraphApi for this account'
+  example: []
+  syntax:
+    content: public const string UseGraphApi = "use_graph_api"
+    return:
+      type: System.String
+    content.vb: Public Const UseGraphApi As String = "use_graph_api"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

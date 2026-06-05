@@ -10,6 +10,7 @@ items:
   - SuperOffice.WebApi.Agents.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetCentralLicenseAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromFileAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -772,6 +773,33 @@ items:
   nameWithType.vb: ILicenseAgent.SaveCentralLicenseAsync(LicenseOwner(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ILicenseAgent.SaveCentralLicenseAsync(SuperOffice.WebApi.Data.LicenseOwner(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveCentralLicenseAsync(LicenseOwner(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFencingInfoAsync(RequestOptions)
+  nameWithType: ILicenseAgent.GetFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns fencinginfo if license fence is near or reached
+  example: []
+  syntax:
+    content: Task<FencingInfo> GetFencingInfoAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+      description: The info of which license fence that is reached or near
+    content.vb: Function GetFencingInfoAsync(requestOptions As RequestOptions = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync*
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -1649,4 +1677,46 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.LicenseOwner.html
   - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ILicenseAgent.html#SuperOffice_WebApi_Agents_ILicenseAgent_GetFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetFencingInfoAsync
+  nameWithType: ILicenseAgent.GetFencingInfoAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetFencingInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
   - name: )

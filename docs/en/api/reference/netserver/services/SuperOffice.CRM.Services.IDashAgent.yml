@@ -34,6 +34,7 @@ items:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
@@ -446,6 +447,32 @@ items:
   nameWithType.vb: IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPossibleDashQuickFiltersAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  id: GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardFencingInfoAsync(CancellationToken)
+  nameWithType: IDashAgent.GetDashboardFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get the current dashboard fencing status for the tenant
+  example: []
+  syntax:
+    content: Task<FencingInfo> GetDashboardFencingInfoAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Function GetDashboardFencingInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync*
 - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   id: CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
@@ -1797,6 +1824,48 @@ references:
   name: GetPossibleDashQuickFiltersAsync
   nameWithType: IDashAgent.GetPossibleDashQuickFiltersAsync
   fullName: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashboardFencingInfoAsync_System_Threading_CancellationToken_
+  name: GetDashboardFencingInfoAsync
+  nameWithType: IDashAgent.GetDashboardFencingInfoAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync
   isExternal: true

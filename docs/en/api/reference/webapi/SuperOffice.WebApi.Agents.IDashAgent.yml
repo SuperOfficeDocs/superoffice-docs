@@ -34,6 +34,7 @@ items:
   - SuperOffice.WebApi.Agents.IDashAgent.GetDashTileHtmlAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashAgent.GetDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashAgent.GetDashTilesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashAgent.GetPreviewDashAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -801,6 +802,33 @@ items:
   nameWithType.vb: IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetPossibleDashQuickFiltersAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetDashboardFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardFencingInfoAsync(RequestOptions)
+  nameWithType: IDashAgent.GetDashboardFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the current dashboard fencing status for the tenant
+  example: []
+  syntax:
+    content: Task<FencingInfo> GetDashboardFencingInfoAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Function GetDashboardFencingInfoAsync(requestOptions As RequestOptions = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync*
 - uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashAgent.GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
   id: GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
@@ -2234,6 +2262,48 @@ references:
   name: GetPossibleDashQuickFiltersAsync
   nameWithType: IDashAgent.GetPossibleDashQuickFiltersAsync
   fullName: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync
+- uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetDashboardFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetDashboardFencingInfoAsync
+  nameWithType: IDashAgent.GetDashboardFencingInfoAsync
+  fullName: SuperOffice.WebApi.Agents.IDashAgent.GetDashboardFencingInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashCollectionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashAgent.GetDashCollectionAsync
   isExternal: true

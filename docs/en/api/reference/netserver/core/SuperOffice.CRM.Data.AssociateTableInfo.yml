@@ -289,6 +289,11 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Intent_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Invitation_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Invitation_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LanguageInfoCountry_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LanguageInfoCountry_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LanguageInfo_RegisteredAssociateId
@@ -311,6 +316,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Message_AssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Message_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Message_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ModuleLicense_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ModuleLicense_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_ModuleOwner_RegisteredAssociateId
@@ -748,6 +755,9 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_VisibleFor_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_VisibleFor_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebAppUsage_AssocId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookUsage_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookUsage_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Webhook_RegisteredAssociateId
@@ -16750,6 +16760,121 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.InvitationTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Invitation_UpdatedAssociateId As TargetedLeftOuterJoin(Of InvitationTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Invitation_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  id: LeftOuterJoin_LandingPage_AssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LandingPage_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to LandingPage.<xref href="SuperOffice.CRM.Data.LandingPageTableInfo.AssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<LandingPageTableInfo> LeftOuterJoin_LandingPage_AssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LandingPage_AssociateId As TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  id: LeftOuterJoin_LandingPage_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LandingPage_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to LandingPage.<xref href="SuperOffice.CRM.Data.LandingPageTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<LandingPageTableInfo> LeftOuterJoin_LandingPage_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LandingPage_RegisteredAssociateId As TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+  id: LeftOuterJoin_LandingPage_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LandingPage_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to LandingPage.<xref href="SuperOffice.CRM.Data.LandingPageTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<LandingPageTableInfo> LeftOuterJoin_LandingPage_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LandingPage_UpdatedAssociateId As TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  id: LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to LandingPagePin.<xref href="SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<LandingPagePinTableInfo> LeftOuterJoin_LandingPagePin_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPagePinTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LandingPagePin_RegisteredAssociateId As TargetedLeftOuterJoin(Of LandingPagePinTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  id: LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to LandingPagePin.<xref href="SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<LandingPagePinTableInfo> LeftOuterJoin_LandingPagePin_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPagePinTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LandingPagePin_UpdatedAssociateId As TargetedLeftOuterJoin(Of LandingPagePinTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_SMessageblock_AssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_SMessageblock_AssociateId
   id: LeftOuterJoin_SMessageblock_AssociateId
@@ -16865,6 +16990,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MailingDomainsTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_MailingDomains_UpdatedAssociateId As TargetedLeftOuterJoin(Of MailingDomainsTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MailingDomains_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  id: LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to MeteringLog.<xref href="SuperOffice.CRM.Data.MeteringLogTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<MeteringLogTableInfo> LeftOuterJoin_MeteringLog_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MeteringLogTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_MeteringLog_RegisteredAssociateId As TargetedLeftOuterJoin(Of MeteringLogTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  id: LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to MeteringLog.<xref href="SuperOffice.CRM.Data.MeteringLogTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<MeteringLogTableInfo> LeftOuterJoin_MeteringLog_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MeteringLogTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_MeteringLog_UpdatedAssociateId As TargetedLeftOuterJoin(Of MeteringLogTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TypicalSearch_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TypicalSearch_RegisteredAssociateId
   id: LeftOuterJoin_TypicalSearch_RegisteredAssociateId
@@ -17785,6 +17956,75 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookUsageTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WebhookUsage_UpdatedAssociateId As TargetedLeftOuterJoin(Of WebhookUsageTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookUsage_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  id: LeftOuterJoin_WebhookNotify_AssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_WebhookNotify_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to WebhookNotify.<xref href="SuperOffice.CRM.Data.WebhookNotifyTableInfo.AssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<WebhookNotifyTableInfo> LeftOuterJoin_WebhookNotify_AssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_WebhookNotify_AssociateId As TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  id: LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to WebhookNotify.<xref href="SuperOffice.CRM.Data.WebhookNotifyTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<WebhookNotifyTableInfo> LeftOuterJoin_WebhookNotify_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_WebhookNotify_RegisteredAssociateId As TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  id: LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to WebhookNotify.<xref href="SuperOffice.CRM.Data.WebhookNotifyTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<WebhookNotifyTableInfo> LeftOuterJoin_WebhookNotify_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_WebhookNotify_UpdatedAssociateId As TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Workflow_AssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Workflow_AssociateId
   id: LeftOuterJoin_Workflow_AssociateId
@@ -40436,6 +40676,146 @@ references:
   name: LeftOuterJoin_Invitation_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_Invitation_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Invitation_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPageTableInfo.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html#SuperOffice_CRM_Data_LandingPageTableInfo_AssociateId
+  name: AssociateId
+  nameWithType: LandingPageTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo.AssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_LandingPage_AssociateId
+  name: LeftOuterJoin_LandingPage_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_AssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<LandingPageTableInfo>
+  nameWithType: TargetedLeftOuterJoin<LandingPageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.LandingPageTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.LandingPageTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPageTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html#SuperOffice_CRM_Data_LandingPageTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: LandingPageTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_LandingPage_RegisteredAssociateId
+  name: LeftOuterJoin_LandingPage_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPageTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html#SuperOffice_CRM_Data_LandingPageTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: LandingPageTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_LandingPage_UpdatedAssociateId
+  name: LeftOuterJoin_LandingPage_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPage_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: LandingPagePinTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  name: LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPagePinTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPagePinTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<LandingPagePinTableInfo>
+  nameWithType: TargetedLeftOuterJoin<LandingPagePinTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.LandingPagePinTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of LandingPagePinTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.LandingPagePinTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of LandingPagePinTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    name: LandingPagePinTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html#SuperOffice_CRM_Data_LandingPagePinTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: LandingPagePinTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  name: LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_LandingPagePin_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.SMessageblockTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.SMessageblockTableInfo.AssociateId
   isExternal: true
@@ -40576,6 +40956,69 @@ references:
   name: LeftOuterJoin_MailingDomains_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_MailingDomains_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MailingDomains_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.MeteringLogTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.MeteringLogTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.MeteringLogTableInfo.html#SuperOffice_CRM_Data_MeteringLogTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: MeteringLogTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.MeteringLogTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  name: LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MeteringLogTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.MeteringLogTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<MeteringLogTableInfo>
+  nameWithType: TargetedLeftOuterJoin<MeteringLogTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.MeteringLogTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of MeteringLogTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.MeteringLogTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of MeteringLogTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+    name: MeteringLogTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.MeteringLogTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+    name: MeteringLogTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.MeteringLogTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.MeteringLogTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.MeteringLogTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.MeteringLogTableInfo.html#SuperOffice_CRM_Data_MeteringLogTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: MeteringLogTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.MeteringLogTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  name: LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MeteringLog_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.TypicalSearchTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.TypicalSearchTableInfo.RegisteredAssociateId
   isExternal: true
@@ -41766,6 +42209,83 @@ references:
   name: LeftOuterJoin_WebhookUsage_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookUsage_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookUsage_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Data.WebhookNotifyTableInfo.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html#SuperOffice_CRM_Data_WebhookNotifyTableInfo_AssociateId
+  name: AssociateId
+  nameWithType: WebhookNotifyTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo.AssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_WebhookNotify_AssociateId
+  name: LeftOuterJoin_WebhookNotify_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_AssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WebhookNotifyTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<WebhookNotifyTableInfo>
+  nameWithType: TargetedLeftOuterJoin<WebhookNotifyTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WebhookNotifyTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.WebhookNotifyTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of WebhookNotifyTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    name: WebhookNotifyTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    name: WebhookNotifyTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.WebhookNotifyTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html#SuperOffice_CRM_Data_WebhookNotifyTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: WebhookNotifyTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  name: LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.WebhookNotifyTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html#SuperOffice_CRM_Data_WebhookNotifyTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: WebhookNotifyTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  name: LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_WebhookNotify_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
   isExternal: true

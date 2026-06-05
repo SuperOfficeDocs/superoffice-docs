@@ -1,0 +1,1405 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  commentId: T:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  id: EmailConnectivityPostLoginPlugin
+  parent: SuperOffice.Security.Login
+  children:
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.Name
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: EmailConnectivityPostLoginPlugin
+  nameWithType: EmailConnectivityPostLoginPlugin
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  summary: >-
+    Post-login plugin that automatically provisions a Microsoft (Office 365)
+
+    IMAP/SMTP inbox for users the first time they sign in,
+
+    using AccessGateway to obtain OAuth tokens.
+  example: []
+  syntax:
+    content: >-
+      [PostLoginPlugin("EmailConnectivity")]
+
+      public class EmailConnectivityPostLoginPlugin : IPostLoginPlugin
+    content.vb: >-
+      <PostLoginPlugin("EmailConnectivity")>
+
+      Public Class EmailConnectivityPostLoginPlugin Implements IPostLoginPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  attributes:
+  - type: SuperOffice.Security.Principal.PostLoginPluginAttribute
+    ctor: SuperOffice.Security.Principal.PostLoginPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EmailConnectivity
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.Name
+  commentId: F:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.Name
+  id: Name
+  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EmailConnectivityPostLoginPlugin.Name
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.Name
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public const string Name = "EmailConnectivity"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "EmailConnectivity"
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  id: IsRequiredAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: IsRequiredAsync(CancellationToken)
+  nameWithType: EmailConnectivityPostLoginPlugin.IsRequiredAsync(CancellationToken)
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  example: []
+  syntax:
+    content: public Task<bool> IsRequiredAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function IsRequiredAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync*
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  id: GetEndpointUri(System.String,System.String)
+  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: GetEndpointUri(string, string)
+  nameWithType: EmailConnectivityPostLoginPlugin.GetEndpointUri(string, string)
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri(string, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  summary: Obtain endpoint for external service where browser should be redirected
+  example: []
+  syntax:
+    content: public string GetEndpointUri(string callbackUri, string state)
+    parameters:
+    - id: callbackUri
+      type: System.String
+      description: contains uri back to LoginControllers POST endpoint, already encoded
+    - id: state
+      type: System.String
+      description: Must be returned by process callback and is url encoded
+    return:
+      type: System.String
+      description: url the browser can be redirected to
+    content.vb: Public Function GetEndpointUri(callbackUri As String, state As String) As String
+  overload: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri*
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  nameWithType.vb: EmailConnectivityPostLoginPlugin.GetEndpointUri(String, String)
+  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri(String, String)
+  name.vb: GetEndpointUri(String, String)
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: ProcessCallback(string, Dictionary<string, string>)
+  nameWithType: EmailConnectivityPostLoginPlugin.ProcessCallback(string, Dictionary<string, string>)
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback(string, System.Collections.Generic.Dictionary<string, string>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  summary: Handle payload and return state from external service
+  example: []
+  syntax:
+    content: public string ProcessCallback(string payload, Dictionary<string, string> args)
+    parameters:
+    - id: payload
+      type: System.String
+      description: Body from Http Post message from external service
+    - id: args
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: url arguments
+    return:
+      type: System.String
+      description: state as provided by GetEndpointUrl
+    content.vb: Public Function ProcessCallback(payload As String, args As Dictionary(Of String, String)) As String
+  overload: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback*
+  implements:
+  - SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  nameWithType.vb: EmailConnectivityPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback(String, System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: ProcessCallback(String, Dictionary(Of String, String))
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
+  commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: EmailConnectivityPostLoginPlugin()
+  nameWithType: EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin()
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public EmailConnectivityPostLoginPlugin()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor*
+  nameWithType.vb: EmailConnectivityPostLoginPlugin.New()
+  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.New()
+  name.vb: New()
+references:
+- uid: SuperOffice.Security.Login
+  commentId: N:SuperOffice.Security.Login
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Login
+  nameWithType: SuperOffice.Security.Login
+  fullName: SuperOffice.Security.Login
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Login
+    name: Login
+    isExternal: true
+    href: SuperOffice.Security.Login.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Login
+    name: Login
+    isExternal: true
+    href: SuperOffice.Security.Login.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin
+  commentId: T:SuperOffice.Security.Principal.IPostLoginPlugin
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.IPostLoginPlugin.html
+  name: IPostLoginPlugin
+  nameWithType: IPostLoginPlugin
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<EmailConnectivityPostLoginPlugin, To>(EmailConnectivityPostLoginPlugin)
+  nameWithType: EnumUtil.MapEnums<EmailConnectivityPostLoginPlugin, To>(EmailConnectivityPostLoginPlugin)
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, To>(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  nameWithType.vb: EnumUtil.MapEnums(Of EmailConnectivityPostLoginPlugin, To)(EmailConnectivityPostLoginPlugin)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, To)(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  name.vb: MapEnums(Of EmailConnectivityPostLoginPlugin, To)(EmailConnectivityPostLoginPlugin)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<EmailConnectivityPostLoginPlugin, To>(EmailConnectivityPostLoginPlugin)
+  nameWithType: Converters.MapEnums<EmailConnectivityPostLoginPlugin, To>(EmailConnectivityPostLoginPlugin)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, To>(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  nameWithType.vb: Converters.MapEnums(Of EmailConnectivityPostLoginPlugin, To)(EmailConnectivityPostLoginPlugin)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, To)(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  name.vb: MapEnums(Of EmailConnectivityPostLoginPlugin, To)(EmailConnectivityPostLoginPlugin)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin>(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  name.vb: AssignByReflection(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin,SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin,SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin)
+  nameWithType: ObjectExtensions.GraphCopy<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin>(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  name.vb: GraphCopy(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Security
+    name: Security
+    isExternal: true
+    href: SuperOffice.Security.html
+  - name: .
+  - uid: SuperOffice.Security.Principal
+    name: Principal
+    isExternal: true
+    href: SuperOffice.Security.Principal.html
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync*
+  commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync
+  isExternal: true
+  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html#SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin_IsRequiredAsync_System_Threading_CancellationToken_
+  name: IsRequiredAsync
+  nameWithType: EmailConnectivityPostLoginPlugin.IsRequiredAsync
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: IsRequiredAsync(CancellationToken)
+  nameWithType: IPostLoginPlugin.IsRequiredAsync(CancellationToken)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+    name: IsRequiredAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
+    name: IsRequiredAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri*
+  commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri
+  isExternal: true
+  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html#SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin_GetEndpointUri_System_String_System_String_
+  name: GetEndpointUri
+  nameWithType: EmailConnectivityPostLoginPlugin.GetEndpointUri
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetEndpointUri(string, string)
+  nameWithType: IPostLoginPlugin.GetEndpointUri(string, string)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(string, string)
+  nameWithType.vb: IPostLoginPlugin.GetEndpointUri(String, String)
+  fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(String, String)
+  name.vb: GetEndpointUri(String, String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+    name: GetEndpointUri
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
+    name: GetEndpointUri
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback*
+  commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback
+  isExternal: true
+  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html#SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin_ProcessCallback_System_String_System_Collections_Generic_Dictionary_System_String_System_String__
+  name: ProcessCallback
+  nameWithType: EmailConnectivityPostLoginPlugin.ProcessCallback
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback
+- uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Security.Principal.IPostLoginPlugin
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessCallback(string, Dictionary<string, string>)
+  nameWithType: IPostLoginPlugin.ProcessCallback(string, Dictionary<string, string>)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(string, System.Collections.Generic.Dictionary<string, string>)
+  nameWithType.vb: IPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(String, System.Collections.Generic.Dictionary(Of String, String))
+  name.vb: ProcessCallback(String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: ProcessCallback
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
+    name: ProcessCallback
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor*
+  commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
+  isExternal: true
+  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html#SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin__ctor
+  name: EmailConnectivityPostLoginPlugin
+  nameWithType: EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin
+  nameWithType.vb: EmailConnectivityPostLoginPlugin.New
+  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.New
+  name.vb: New

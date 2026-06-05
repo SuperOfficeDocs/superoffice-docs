@@ -14,10 +14,11 @@ items:
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.ColumnWebhookId
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colEventCount
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colEvents
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colName
-  - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredBy
+  - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredByFullName
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredDate
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colTargetUrl
   - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colType
@@ -86,7 +87,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetExtensionProviders
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetTableInfosFromExtensionProviders
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuppressTableResults(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuppressDeepTableResults(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddColumnNameOverride(System.String,System.String)
@@ -411,44 +411,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colEventCount As ArchiveColumnInfo
-- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colUpdatedByFullName
-  commentId: F:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colUpdatedByFullName
-  id: _colUpdatedByFullName
+- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredByFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredByFullName
+  id: _colRegisteredByFullName
   parent: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
   langs:
   - csharp
   - vb
-  name: _colUpdatedByFullName
-  nameWithType: WebhookExtenderBase._colUpdatedByFullName
-  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colUpdatedByFullName
+  name: _colRegisteredByFullName
+  nameWithType: WebhookExtenderBase._colRegisteredByFullName
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredByFullName
   type: Field
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected ArchiveColumnInfo _colUpdatedByFullName
+    content: protected ArchiveColumnInfo _colRegisteredByFullName
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    content.vb: Protected _colUpdatedByFullName As ArchiveColumnInfo
-- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredBy
-  commentId: F:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredBy
-  id: _colRegisteredBy
-  parent: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
-  langs:
-  - csharp
-  - vb
-  name: _colRegisteredBy
-  nameWithType: WebhookExtenderBase._colRegisteredBy
-  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredBy
-  type: Field
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: protected ArchiveColumnInfo _colRegisteredBy
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    content.vb: Protected _colRegisteredBy As ArchiveColumnInfo
+    content.vb: Protected _colRegisteredByFullName As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredDate
   commentId: F:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colRegisteredDate
   id: _colRegisteredDate
@@ -468,6 +449,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colRegisteredDate As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colUpdatedByFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colUpdatedByFullName
+  id: _colUpdatedByFullName
+  parent: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colUpdatedByFullName
+  nameWithType: WebhookExtenderBase._colUpdatedByFullName
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase._colUpdatedByFullName
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colUpdatedByFullName
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colUpdatedByFullName As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.#ctor
   id: '#ctor'
@@ -510,6 +510,35 @@ items:
     content.vb: Protected Overrides Sub InnerModifyQuery()
   overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.WebhookTableInfo}.InnerModifyQuery
   overload: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.InnerModifyQuery*
+- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  id: PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: PopulateRowFromReaderAsync(SoDataReader, ArchiveRow, CancellationToken)
+  nameWithType: WebhookExtenderBase.PopulateRowFromReaderAsync(SoDataReader, ArchiveRow, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  example: []
+  syntax:
+    content: public override Task PopulateRowFromReaderAsync(SoDataReader reader, ArchiveRow row, CancellationToken cancellationToken = default)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function PopulateRowFromReaderAsync(reader As SoDataReader, row As ArchiveRow, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync*
 - uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -1464,56 +1493,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_GetTableInfosFromExtensionProviders
   - name: (
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
-  name: PopulateRowFromReaderAsync(SoDataReader, ArchiveRow, CancellationToken)
-  nameWithType: ExtensibleColumnsBase.PopulateRowFromReaderAsync(SoDataReader, ArchiveRow, CancellationToken)
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
-    name: PopulateRowFromReaderAsync
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
-  - name: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
-    name: PopulateRowFromReaderAsync
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
-  - name: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuppressTableResults(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuppressTableResults(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
@@ -5237,6 +5216,186 @@ references:
     href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_InnerModifyQuery
   - name: (
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
+  name: PopulateRowFromReaderAsync(SoDataReader, ArchiveRow, CancellationToken)
+  nameWithType: ExtensibleColumnsBase.PopulateRowFromReaderAsync(SoDataReader, ArchiveRow, CancellationToken)
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+    name: PopulateRowFromReaderAsync
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+    name: PopulateRowFromReaderAsync
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.html#SuperOffice_CRM_ArchiveLists_WebhookExtenderBase_PopulateRowFromReaderAsync_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Threading_CancellationToken_
+  name: PopulateRowFromReaderAsync
+  nameWithType: WebhookExtenderBase.PopulateRowFromReaderAsync
+  fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.PopulateRowFromReaderAsync
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.SoDataReader.html
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.WebhookTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.WebhookTableInfo}.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.WebhookTableInfo}
@@ -5284,22 +5443,6 @@ references:
   name: InnerPopulateRowFromReader
   nameWithType: WebhookExtenderBase.InnerPopulateRowFromReader
   fullName: SuperOffice.CRM.ArchiveLists.WebhookExtenderBase.InnerPopulateRowFromReader
-- uid: SuperOffice.Data.SoDataReader
-  commentId: T:SuperOffice.Data.SoDataReader
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
-  name: SoDataReader
-  nameWithType: SoDataReader
-  fullName: SuperOffice.Data.SoDataReader
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRow.html
-  name: ArchiveRow
-  nameWithType: ArchiveRow
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
 - uid: SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.TableExtenderBase`1.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   isExternal: true
@@ -5339,30 +5482,3 @@ references:
     name: ArchiveRow
     isExternal: true
   - name: )
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html

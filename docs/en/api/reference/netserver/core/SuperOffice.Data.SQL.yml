@@ -135,6 +135,8 @@ items:
   - SuperOffice.Data.SQL.MailboxTypeFieldInfo
   - SuperOffice.Data.SQL.MathematicalExpression
   - SuperOffice.Data.SQL.Max
+  - SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+  - SuperOffice.Data.SQL.MeteringStatusFieldInfo
   - SuperOffice.Data.SQL.Min
   - SuperOffice.Data.SQL.Minute
   - SuperOffice.Data.SQL.MissingAll
@@ -251,6 +253,8 @@ items:
   - SuperOffice.Data.SQL.UrlEncodingFieldInfo
   - SuperOffice.Data.SQL.ValueOverrideFieldInfo
   - SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+  - SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  - SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
   - SuperOffice.Data.SQL.WebhookStateFieldInfo
   - SuperOffice.Data.SQL.WeekdayFieldInfo
   - SuperOffice.Data.SQL.WidgetRequiredFieldsFieldInfo
@@ -968,6 +972,22 @@ references:
   name: WebhookStateFieldInfo
   nameWithType: WebhookStateFieldInfo
   fullName: SuperOffice.Data.SQL.WebhookStateFieldInfo
+- uid: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo.html
+  name: WebhookNotifyViaFieldInfo
+  nameWithType: WebhookNotifyViaFieldInfo
+  fullName: SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+- uid: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
+  commentId: T:SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo.html
+  name: WebhookNotifyWhenFieldInfo
+  nameWithType: WebhookNotifyWhenFieldInfo
+  fullName: SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
 - uid: SuperOffice.Data.SQL.NotificationPlatformFieldInfo
   commentId: T:SuperOffice.Data.SQL.NotificationPlatformFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1104,6 +1124,22 @@ references:
   name: FormFieldRestrictionTypeFieldInfo
   nameWithType: FormFieldRestrictionTypeFieldInfo
   fullName: SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
+- uid: SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.MeteringEventTypeFieldInfo.html
+  name: MeteringEventTypeFieldInfo
+  nameWithType: MeteringEventTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+- uid: SuperOffice.Data.SQL.MeteringStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.MeteringStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.MeteringStatusFieldInfo.html
+  name: MeteringStatusFieldInfo
+  nameWithType: MeteringStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.MeteringStatusFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL

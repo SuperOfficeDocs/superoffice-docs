@@ -28,6 +28,7 @@ items:
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
+  - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_AddContactSelection
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_RemoveContactSelection
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SShipment_SelectionId
@@ -1478,6 +1479,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId As TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
   overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId*
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+  commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+  id: LeftOuterJoin_LandingPage_SelectionId
+  parent: SuperOffice.CRM.Data.SelectionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_LandingPage_SelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key SelectionId on this table, to LandingPage.<xref href="SuperOffice.CRM.Data.LandingPageTableInfo.SelectionId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<LandingPageTableInfo> LeftOuterJoin_LandingPage_SelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_LandingPage_SelectionId As TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId*
 - uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
   commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
   id: LeftOuterJoin_BoardViewSettings_SelectionId
@@ -3431,6 +3455,55 @@ references:
   name: LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
   nameWithType: SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
   fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo.SelectionId
+  commentId: P:SuperOffice.CRM.Data.LandingPageTableInfo.SelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html#SuperOffice_CRM_Data_LandingPageTableInfo_SelectionId
+  name: SelectionId
+  nameWithType: LandingPageTableInfo.SelectionId
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo.SelectionId
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SelectionTableInfo.html#SuperOffice_CRM_Data_SelectionTableInfo_LeftOuterJoin_LandingPage_SelectionId
+  name: LeftOuterJoin_LandingPage_SelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_LandingPage_SelectionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.LandingPageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<LandingPageTableInfo>
+  nameWithType: TargetedLeftOuterJoin<LandingPageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.LandingPageTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.LandingPageTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of LandingPageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LandingPageTableInfo
+    name: LandingPageTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
   commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
   isExternal: true

@@ -318,6 +318,7 @@ items:
   - SuperOffice.CRM.Services.ListAgent.SortListItemsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ListAgent.UpdateCategoryMembershipsAsync(System.Int32,SuperOffice.CRM.Services.TicketCategoryMembershipEntity[],SuperOffice.CRM.Services.TicketCategoryMembershipEntity[],SuperOffice.CRM.Services.TicketCategoryMembershipEntity[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ListAgent.UpdateHierarchyFromPathAsync(SuperOffice.Data.Domain,System.String,SuperOffice.CRM.Services.HierarchyEntity,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -10674,6 +10675,50 @@ items:
   nameWithType.vb: ListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ListAgent.SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, System.Threading.CancellationToken)
   name.vb: SetTicketRelationDefinitionSortOrderAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  id: ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ListAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateTicketRelationDefinitionAsync(int, int[], int[], TicketRelationType, CancellationToken)
+  nameWithType: ListAgent.ValidateTicketRelationDefinitionAsync(int, int[], int[], TicketRelationType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync(int, int[], int[], SuperOffice.Data.TicketRelationType, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Validate a ticket relation definition against combinations of source and destination ticket types. Returns one result per source/destination pair.
+  example: []
+  syntax:
+    content: public Task<TicketRelationDefinitionResult[]> ValidateTicketRelationDefinitionAsync(int ticketRelationDefinitionId, int[] sourceTicketTypeIds, int[] destinationTicketTypeIds, TicketRelationType relationType, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketRelationDefinitionId
+      type: System.Int32
+      description: The id of the relation definition being validated. Pass 0 when creating a new definition.
+    - id: sourceTicketTypeIds
+      type: System.Int32[]
+      description: The ticket type ids to use as source in the validation.
+    - id: destinationTicketTypeIds
+      type: System.Int32[]
+      description: The ticket type ids to use as destination in the validation.
+    - id: relationType
+      type: SuperOffice.Data.TicketRelationType
+      description: The relation type to validate.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionResult[]}
+      description: Validation results, one per source/destination ticket type combination.
+    content.vb: Public Function ValidateTicketRelationDefinitionAsync(ticketRelationDefinitionId As Integer, sourceTicketTypeIds As Integer(), destinationTicketTypeIds As Integer(), relationType As TicketRelationType, cancellationToken As CancellationToken = Nothing) As Task(Of TicketRelationDefinitionResult())
+  overload: SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync*
+  implements:
+  - SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  nameWithType.vb: ListAgent.ValidateTicketRelationDefinitionAsync(Integer, Integer(), Integer(), TicketRelationType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync(Integer, Integer(), Integer(), SuperOffice.Data.TicketRelationType, System.Threading.CancellationToken)
+  name.vb: ValidateTicketRelationDefinitionAsync(Integer, Integer(), Integer(), TicketRelationType, CancellationToken)
 - uid: SuperOffice.CRM.Services.ListAgent.CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ListAgent.CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultTicketStatusEntityAsync(System.Threading.CancellationToken)
@@ -32330,6 +32375,142 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ListAgent.html#SuperOffice_CRM_Services_ListAgent_ValidateTicketRelationDefinitionAsync_System_Int32_System_Int32___System_Int32___SuperOffice_Data_TicketRelationType_System_Threading_CancellationToken_
+  name: ValidateTicketRelationDefinitionAsync
+  nameWithType: ListAgent.ValidateTicketRelationDefinitionAsync
+  fullName: SuperOffice.CRM.Services.ListAgent.ValidateTicketRelationDefinitionAsync
+- uid: SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IListAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: ValidateTicketRelationDefinitionAsync(int, int[], int[], TicketRelationType, CancellationToken)
+  nameWithType: IListAgent.ValidateTicketRelationDefinitionAsync(int, int[], int[], TicketRelationType, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(int, int[], int[], SuperOffice.Data.TicketRelationType, System.Threading.CancellationToken)
+  nameWithType.vb: IListAgent.ValidateTicketRelationDefinitionAsync(Integer, Integer(), Integer(), TicketRelationType, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(Integer, Integer(), Integer(), SuperOffice.Data.TicketRelationType, System.Threading.CancellationToken)
+  name.vb: ValidateTicketRelationDefinitionAsync(Integer, Integer(), Integer(), TicketRelationType, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+    name: ValidateTicketRelationDefinitionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IListAgent.ValidateTicketRelationDefinitionAsync(System.Int32,System.Int32[],System.Int32[],SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
+    name: ValidateTicketRelationDefinitionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.TicketRelationType
+    name: TicketRelationType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Data.TicketRelationType
+  isExternal: true
+  name: TicketRelationType
+  nameWithType: TicketRelationType
+  fullName: SuperOffice.Data.TicketRelationType
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionResult[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketRelationDefinitionResult[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketRelationDefinitionResult[]>
+  nameWithType: Task<TicketRelationDefinitionResult[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketRelationDefinitionResult[]>
+  nameWithType.vb: Task(Of TicketRelationDefinitionResult())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketRelationDefinitionResult())
+  name.vb: Task(Of TicketRelationDefinitionResult())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+    name: TicketRelationDefinitionResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+    name: TicketRelationDefinitionResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketRelationDefinitionResult.html
+  - name: (
+  - name: )
   - name: )
 - uid: SuperOffice.CRM.Services.ListAgent.CreateDefaultTicketStatusEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ListAgent.CreateDefaultTicketStatusEntityAsync

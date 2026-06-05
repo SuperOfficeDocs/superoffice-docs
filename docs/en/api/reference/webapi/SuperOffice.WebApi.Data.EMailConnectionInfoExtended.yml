@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.Data.EMailConnectionInfoExtended.Port
   - SuperOffice.WebApi.Data.EMailConnectionInfoExtended.Protocol
   - SuperOffice.WebApi.Data.EMailConnectionInfoExtended.ServerName
+  - SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi
   - SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseSSL
   - SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UserName
   langs:
@@ -228,6 +229,29 @@ items:
       type: System.String
     content.vb: Public Overridable Property Folder As String
   overload: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.Folder*
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi
+  commentId: P:SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EMailConnectionInfoExtended.UseGraphApi
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Use Graph API
+  example: []
+  syntax:
+    content: public virtual bool UseGraphApi { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseGraphApi As Boolean
+  overload: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi*
 references:
 - uid: SuperOffice.WebApi.Agents.EMailAgent
   commentId: T:SuperOffice.WebApi.Agents.EMailAgent
@@ -626,3 +650,10 @@ references:
   name: Folder
   nameWithType: EMailConnectionInfoExtended.Folder
   fullName: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.Folder
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.html#SuperOffice_WebApi_Data_EMailConnectionInfoExtended_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EMailConnectionInfoExtended.UseGraphApi
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfoExtended.UseGraphApi

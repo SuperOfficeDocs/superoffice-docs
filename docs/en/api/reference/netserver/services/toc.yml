@@ -429,6 +429,8 @@ items:
     name: Favourite
   - uid: SuperOffice.CRM.Services.FavouriteAgent
     name: FavouriteAgent
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
   - uid: SuperOffice.CRM.Services.FieldInfoAttachment
     name: FieldInfoAttachment
   - uid: SuperOffice.CRM.Services.FieldInfoBase
@@ -1093,10 +1095,18 @@ items:
     name: TicketPriorityEntity
   - uid: SuperOffice.CRM.Services.TicketPriorityEscalationLevelEntity
     name: TicketPriorityEscalationLevelEntity
+  - uid: SuperOffice.CRM.Services.TicketRelationAction
+    name: TicketRelationAction
   - uid: SuperOffice.CRM.Services.TicketRelationDefinitionEntity
     name: TicketRelationDefinitionEntity
+  - uid: SuperOffice.CRM.Services.TicketRelationDefinitionResult
+    name: TicketRelationDefinitionResult
   - uid: SuperOffice.CRM.Services.TicketRelationEntity
     name: TicketRelationEntity
+  - uid: SuperOffice.CRM.Services.TicketRelationItem
+    name: TicketRelationItem
+  - uid: SuperOffice.CRM.Services.TicketRelationResult
+    name: TicketRelationResult
   - uid: SuperOffice.CRM.Services.TicketStatusEntity
     name: TicketStatusEntity
   - uid: SuperOffice.CRM.Services.TicketSummaryItem

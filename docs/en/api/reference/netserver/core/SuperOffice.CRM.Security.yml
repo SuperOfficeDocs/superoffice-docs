@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.Security.ContactSentryQueryInfo
   - SuperOffice.CRM.Security.CustomObjectSentry
   - SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
+  - SuperOffice.CRM.Security.DashboardFencingCache
   - SuperOffice.CRM.Security.DashboardSentry
   - SuperOffice.CRM.Security.DashboardSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileDefinitionSentry
@@ -45,6 +46,7 @@ items:
   - SuperOffice.CRM.Security.OwnerContactCache
   - SuperOffice.CRM.Security.PersonSentry
   - SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
+  - SuperOffice.CRM.Security.ProjectFencingCache
   - SuperOffice.CRM.Security.ProjectSentry
   - SuperOffice.CRM.Security.ProjectSentryQueryInfo
   - SuperOffice.CRM.Security.QuoteAlternativeSentry
@@ -128,6 +130,7 @@ items:
   - SuperOffice.CRM.Security.UserGroupCache
   - SuperOffice.CRM.Security.UserGroupCache.GroupRelation
   - SuperOffice.CRM.Security.VisibleForSentryHelper
+  - SuperOffice.CRM.Security.WorkflowFencingCache
   - SuperOffice.CRM.Security.WorkflowSentry
   - SuperOffice.CRM.Security.WorkflowSentryQueryInfo
   langs:
@@ -330,6 +333,13 @@ references:
   name: SentryQueryCustomObjectTableUpdater
   nameWithType: SentryQueryCustomObjectTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
+- uid: SuperOffice.CRM.Security.DashboardFencingCache
+  commentId: T:SuperOffice.CRM.Security.DashboardFencingCache
+  isExternal: true
+  href: SuperOffice.CRM.Security.DashboardFencingCache.html
+  name: DashboardFencingCache
+  nameWithType: DashboardFencingCache
+  fullName: SuperOffice.CRM.Security.DashboardFencingCache
 - uid: SuperOffice.CRM.Security.DashboardSentry
   commentId: T:SuperOffice.CRM.Security.DashboardSentry
   isExternal: true
@@ -635,6 +645,13 @@ references:
   name: SentryQueryPersonTableUpdater
   nameWithType: SentryQueryPersonTableUpdater
   fullName: SuperOffice.CRM.Security.SentryQueryPersonTableUpdater
+- uid: SuperOffice.CRM.Security.ProjectFencingCache
+  commentId: T:SuperOffice.CRM.Security.ProjectFencingCache
+  isExternal: true
+  href: SuperOffice.CRM.Security.ProjectFencingCache.html
+  name: ProjectFencingCache
+  nameWithType: ProjectFencingCache
+  fullName: SuperOffice.CRM.Security.ProjectFencingCache
 - uid: SuperOffice.CRM.Security.ProjectSentry
   commentId: T:SuperOffice.CRM.Security.ProjectSentry
   isExternal: true
@@ -1220,6 +1237,13 @@ references:
   name: VisibleForSentryHelper
   nameWithType: VisibleForSentryHelper
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper
+- uid: SuperOffice.CRM.Security.WorkflowFencingCache
+  commentId: T:SuperOffice.CRM.Security.WorkflowFencingCache
+  isExternal: true
+  href: SuperOffice.CRM.Security.WorkflowFencingCache.html
+  name: WorkflowFencingCache
+  nameWithType: WorkflowFencingCache
+  fullName: SuperOffice.CRM.Security.WorkflowFencingCache
 - uid: SuperOffice.CRM.Security.WorkflowSentry
   commentId: T:SuperOffice.CRM.Security.WorkflowSentry
   isExternal: true

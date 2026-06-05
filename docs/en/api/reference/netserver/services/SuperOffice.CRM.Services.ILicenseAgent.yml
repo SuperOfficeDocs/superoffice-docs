@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ILicenseAgent.GetCentralLicenseAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDBAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFileAsync(System.String,System.Threading.CancellationToken)
@@ -774,6 +775,32 @@ items:
   nameWithType.vb: ILicenseAgent.SaveCentralLicenseAsync(LicenseOwner(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ILicenseAgent.SaveCentralLicenseAsync(SuperOffice.CRM.Services.LicenseOwner(), System.Threading.CancellationToken)
   name.vb: SaveCentralLicenseAsync(LicenseOwner(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync(System.Threading.CancellationToken)
+  id: GetFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFencingInfoAsync(CancellationToken)
+  nameWithType: ILicenseAgent.GetFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns fencinginfo if license fence is near or reached
+  example: []
+  syntax:
+    content: Task<FencingInfo> GetFencingInfoAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+      description: The info of which license fence that is reached or near
+    content.vb: Function GetFencingInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1508,4 +1535,46 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.LicenseOwner.html
   - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ILicenseAgent.html#SuperOffice_CRM_Services_ILicenseAgent_GetFencingInfoAsync_System_Threading_CancellationToken_
+  name: GetFencingInfoAsync
+  nameWithType: ILicenseAgent.GetFencingInfoAsync
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetFencingInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
   - name: )
