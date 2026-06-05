@@ -1,9 +1,9 @@
----
+﻿---
 uid: version_12.0.342.0_changes
 date: 05.06.2026
 ---
 
-Changes from v11.13.921.0 and v12.0.342.0
+# Changes from v11.13.921.0 and v12.0.342.0
 
 ## Web API
 
@@ -191,7 +191,6 @@ The following represent changes to the core Web API assembly.
 * Deleted items
   * Field `.MailSaveSentInSentItems`
 
-
 #### SuperOffice.WebApi.Data.Webhook is Modified
 
 * New items
@@ -207,9 +206,6 @@ The following represent changes to the core Web API assembly.
   * Property `TotalCalls`
   * Property `TotalErrors`
 
-
 ## Web API Authorization
 
 The following represent changes to Web API authorization assemblies.
-
-

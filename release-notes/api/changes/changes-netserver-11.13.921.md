@@ -1,9 +1,9 @@
----
+﻿---
 uid: version_11.13.921_changes
 date: 29.04.2026
 ---
 
-Changes from v11.12.675 and v11.13.921
+# Changes from v11.12.675 and v11.13.921
 
 ## Web Services
 
@@ -60,7 +60,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Property `Claims`
-
 
 ### Assembly: SuperOffice.Services.Implementation
 
@@ -178,7 +177,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Method `ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, CancellationToken)`
-
 
 ## NetServer Core
 
@@ -320,7 +318,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `GetSanitizedCallstack(String)`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -334,7 +331,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `ToSql(Case)`
 
-#### SuperOffice.Data.QueryExectionExtensions is Modified
+#### SuperOffice.Data.QueryExecutionExtensions is Modified
 
 * New items
   * Method `ExecuteBatchedReaderAsync(SqlCommand, Boolean, Int32, CancellationToken)`
@@ -348,7 +345,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `.FieldExpressionCase()`
 
-
 #### SuperOffice.Util.AccessGateway is Modified
 
 * Modified items
@@ -357,7 +353,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Property `.TokenManagementInfoClaims`
-
 
 #### SuperOffice.Util.TrackEventNames is Modified
 
@@ -401,7 +396,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetXsrfValueAsync(CancellationToken)`
   * Method `SetXsrfValueAsync(String, CancellationToken)`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ### Assembly: SoLicense
@@ -428,6 +422,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `Spam`
-
-
-

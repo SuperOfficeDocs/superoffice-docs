@@ -1,9 +1,9 @@
----
+﻿---
 uid: version_11.13.921_changes
 date: 29.04.2026
 ---
 
-Changes from v11.12.675 and v11.13.921
+# Changes from v11.12.675 and v11.13.921
 
 ## Web API
 
@@ -135,9 +135,6 @@ The following represent changes to the core Web API assembly.
 * New items
   * Property `Claims`
 
-
 ## Web API Authorization
 
 The following represent changes to Web API authorization assemblies.
-
-

@@ -1,9 +1,9 @@
----
+﻿---
 uid: version_12.0.342.0_changes
 date: 05.06.2026
 ---
 
-Changes from v11.13.921.0 and v12.0.342.0
+# Changes from v11.13.921.0 and v12.0.342.0
 
 ## Web Services
 
@@ -104,7 +104,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Property `NotifyWhen`
   * Property `TotalCalls`
   * Property `TotalErrors`
-
 
 ### Assembly: SuperOffice.Services.Implementation
 
@@ -242,7 +241,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 
 * New items
   * Method `GetWorkflowFencingInfoAsync(CancellationToken)`
-
 
 ## NetServer Core
 
@@ -385,7 +383,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SR_WEBHOOK_DISABLED_TOO_MANY_FAILURES`
   * Field `SR_WEBHOOK_FAILURES_ACTIVE`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -451,12 +448,10 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Field `.EmailAccountFieldsUseGraphApi`
 
-
 ##### SuperOffice.CRM.Data.DBC.EmailItemFields is Modified
 
 * New items
   * Field `.EmailItemFieldsServerIdentifier`
-
 
 ##### SuperOffice.CRM.Data.DBC.WebhookFields is Modified
 
@@ -575,7 +570,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetMeteringLogTableInfo()`
   * Method `GetWebhookNotifyTableInfo()`
 
-
 ### Assembly: SoDatabase.BusinessLogic
 
 ### New Types
@@ -595,9 +589,7 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.CRM.Lists.CRMScriptProvider is Modified
 
-
 #### SuperOffice.CRM.Lists.TicketTypeProvider is Modified
-
 
 #### SuperOffice.CRM.Mail.MailCache is Modified
 
@@ -658,7 +650,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `QueueErrorEmailAsync(String, String, String, String, CancellationToken)`
   * Method `QueueInAppNotificationAsync(Int32, String, String, CancellationToken)`
 
-
 ## Continuous Database
 
 The following represent changes to SuperOffice database schema.
@@ -697,6 +688,3 @@ The following represent changes to SuperOffice database schema.
   * Field `Description`
   * Field `NotifyVia`
   * Field `NotifyWhen`
-
-
-
