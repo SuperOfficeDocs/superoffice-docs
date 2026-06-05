@@ -1,16 +1,22 @@
 ---
-title: Getting started
 uid: mirroring_getting_started
-description: Getting started with database mirroring
+title: Getting started (legacy)
+description: Getting started with the legacy WCF-based Database Mirroring service.
+keywords: legacy, WCF, mirroring
 author: Tony Yates
 date: 04.20.2016
-keywords:
 content_type: tutorial
 deployment: online
 platform: web
+language: en
 ---
 
-# Getting started with database mirroring
+# Getting started with Database Mirroring (legacy)
+
+> [!IMPORTANT]
+> This page describes how to get started with the **legacy WCF-based** mirroring service &mdash; building a partner-hosted endpoint that implements `IMirrorClientService`, hosting it on IIS, and managing SuperOffice-issued certificates.
+>
+> New deployments should use the outbound-only client instead. See [Set up the Database Mirroring client][12]. If you are migrating an existing legacy deployment, see [Migrate from the legacy mirroring service][13].
 
 Database Mirroring presents a new API capability for partners building online integrations. By mirroring a customer's database, it gives partners a tremendous about of flexibility to perform deep analysis on customer data; all without having to rely on web services subjected to latency or throughput issues.
 
@@ -79,3 +85,5 @@ If you believe you have a great case for an application, navigate to the [applic
 [9]: ../../../developer-portal/create-app/mirror-app.md
 [10]: ../../../developer-portal/create-app/index.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring
+[12]: ../setup-guide.md
+[13]: ../migrate.md

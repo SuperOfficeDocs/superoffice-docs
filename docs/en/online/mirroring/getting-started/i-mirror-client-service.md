@@ -1,15 +1,22 @@
 ---
-title: IMirrorClientService
 uid: i_mirror_client_service
+title: IMirrorClientService
 description: IMirrorClientService interface
+keywords: IMirrorClientService, mirroring, WCF, legacy
 author: SuperOffice Product and Engineering
-keywords:
+date: 06.05.2026
 content_type: reference
 deployment: online
 platform: web
+language: en
 ---
 
-# IMirrorClientService interface
+# IMirrorClientService interface (legacy)
+
+> [!IMPORTANT]
+> `IMirrorClientService` belongs to the **legacy WCF-based** mirroring service. It is the interface that a partner-hosted endpoint had to implement.
+>
+> The current Database Mirroring implementation does **not** use this interface, the `SuperOffice.Crm.Online.Mirroring` NuGet package, or any WCF service. See [Set up the Database Mirroring client][3] for the current model and [Migrate from the legacy mirroring service][4] for the cutover procedure.
 
 SuperOffice NuGet implementation of `IMirrorClientService` interface for Microsoft SQL Server.
 
@@ -118,6 +125,8 @@ Partner code can use this call when it needs to adjust its data, remove indexes,
 <!-- Referenced links -->
 [1]: ../overview.md
 [2]: ../mirroring-task.md
+[3]: ../setup-guide.md
+[4]: ../migrate.md
 
 <!-- Referenced images -->
 [img1]: media/imirroringclientservice.png

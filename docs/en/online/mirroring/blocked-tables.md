@@ -1,23 +1,27 @@
 ---
-title: Database mirroring blocked tables
 uid: mirroring_blocked_tables
+title: Database mirroring blocked tables
 description: Lists the tables that are not mirrored.
-author: AnthonyYates, Margrethe
-date: 01.11.2024
-version: 10.2
 keywords: mirroring, blocked tables, database, schema
+author: AnthonyYates, Margrethe
+date: 05.27.2026
+version: 10.2
 content_type: reference
 deployment: online
 platform: web
+language: en
 ---
 
 # Blocked tables list
 
-All tables, except those explicitly set as “blocked” below, will be mirrored. This means that new tables in new versions of SuperOffice, as well as any customer-defined tables made in the Service product, will automatically be added.
+All tables, **except** those explicitly listed as “blocked” below, are mirrored. New tables added in future versions of SuperOffice, as well as any customer-defined tables created in the Service product, are picked up automatically by the client on its next schema-check cycle.
 
-Note that customer-defined tables can be deleted. In beta, this is not propagated. In the released version deletions will be propagated; however it is possible to create, mirror, delete, recreate and mirror a table in such a way that the schema cannot be properly updated. If that happens then the mirror will drop the table entirely and request a full repopulation.
+Customer-defined tables that are deleted are propagated to the replica. If a table is created, mirrored, deleted, re-created, and mirrored again in a way that prevents an in-place schema update, the client drops the table and requests a fresh snapshot for it.
 
-Tables not mirrored might have a reason specified in the "reason” field. This is to help us understand why the table is not mirrored. If you have a table that is not mirrored, and you think it should be, please contact us.
+The **reason** column explains why a table is not mirrored. If you believe a table on this list should be mirrored, contact us.
+
+> [!NOTE]
+> The new client adds a few exclusions on top of the legacy list to keep the replica cleaner and faster &mdash; notably the `binaryobject` table (large binary content, not useful for analytics) and various dictionary information tables (internal metadata cache). These are listed below alongside the historical exclusions.
 
 | Table                          | Reason |
 |--------------------------------|--------|
@@ -131,3 +135,5 @@ Tables not mirrored might have a reason specified in the "reason” field. This 
 | webhook                        | Internal configuration, not user data       |
 | winpossize                     | Internal configuration, not user data       |
 | word_relations                 | Internal configuration, not user data       |
+| binaryobject                   | Large binary content and internal cache, not useful for a report database (excluded by the new client) |
+| dictionary information tables  | Internal schema/metadata cache, not user data (excluded by the new client) |

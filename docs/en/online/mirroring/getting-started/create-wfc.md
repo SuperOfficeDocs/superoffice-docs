@@ -1,15 +1,22 @@
 ---
-title: Create WFC
 uid: create_mirroring_wfc
+title: Create WCF
 description: Get your mirroring service up and running in 10 minutes or less using NuGet
+keywords: mirroring, WCF, appSettings
 author: SuperOffice Product and Engineering
-keywords: mirroring, WFC, appSettings
+date: 06.05.2026
 content_type: howto
 deployment: online
 platform: web
+language: en
 ---
 
-# Get your mirroring service up and running in 10 minutes or less using NuGet
+# Get your mirroring service up and running in 10 minutes or less using NuGet (legacy)
+
+> [!IMPORTANT]
+> This walk-through covers the **legacy WCF-based** mirroring service. It uses the `SuperOffice.Crm.Online.Mirroring` NuGet package to implement a partner-hosted WCF endpoint.
+>
+> New deployments should use the outbound-only client instead &mdash; there is no NuGet package, no WCF service, and no certificate management. See [Set up the Database Mirroring client][4]. If you are migrating an existing legacy deployment, see [Migrate from the legacy mirroring service][5].
 
 Although you are free to implement the mirroring service to support any database you prefer, SuperOffice provides a complete implementation of the database mirroring interface as a NuGet package.
 
@@ -169,6 +176,8 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 [1]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [2]: ../mirroring-task.md
 [3]: https://github.com/SuperOffice/devnet-database-mirroring
+[4]: ../setup-guide.md
+[5]: ../migrate.md
 
 <!-- Referenced images -->
 [img1]: media/createwcfservice.png
