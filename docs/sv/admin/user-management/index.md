@@ -41,14 +41,6 @@ Varje dataobjekt tillhör en användare som kan vara du själv (a), användare i
 
 Ägandet av olika dataobjekt ställs in via olika fält. Till exempel anger fältet **Vår kontakt** i företagskortet ägaren av posten. För händelser är det fältet **Ägare**, i projektet **Ansvarig**, och så vidare.
 
-## <a id="visible"></a>Synlighet
-
-Huruvida du kan se specifika dokument, försäljningar, händelser och urval beror inte enbart på vilken roll du har tilldelats. Det kan finnas enskilda informationsposter som du inte har tillgång till. I dialogrutorna dokument och händelser och i fönstren Försäljning och Urval finns en listruta med namnet **Synlig för**. I fönstret Försäljning kan du till exempel välja att göra en försäljning synlig för alla, endast synlig för primärgruppen som ägaren tillhör eller endast synlig för ägaren.
-
-Detta kräver att du har licensen **Konfidentiella aktiviteter**.
-
-Om du vill aktivera den här licensen lokaliserar du önskad användare, klickar på fliken **Licenser** och markerar sedan kryssrutan för **Konfidentiella aktiviteter**.
-
 ## Användartyper
 
 * **Medarbetare**: SuperOffice CRM-användare (i ditt företag)
@@ -203,6 +195,21 @@ I **SuperOffice CRM Suite**-abonnemang visar den här fliken det totala antalet 
 
 På fliken **Användargrupper** i fönstret Användare får du en översikt över användare och användargrupper. Klicka på ett gruppnamn i listan **Tillgängliga grupper** för att visa en lista över användare som tillhör gruppen.
 
+## <a id="visible"></a>Synlighet
+
+Huruvida du kan se specifika dokument, försäljningar, händelser och urval beror inte enbart på vilken roll du har tilldelats. Det kan finnas enskilda informationsposter som du inte har tillgång till. I dialogrutorna dokument och händelser och i fönstren Försäljning och Urval finns en listruta med namnet **Synlig för**. I fönstret Försäljning kan du till exempel välja att göra en försäljning synlig för alla, endast synlig för primärgruppen som ägaren tillhör eller endast synlig för ägaren.
+
+Detta kräver att du har licensen **Konfidentiella aktiviteter**. Så här anger du licensen:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Välj fliken **Medarbetare**.
+1. Dubbelklicka på den användare du vill ge åtkomst till konfidentiella aktiviteter.
+1. Välj fliken **Licenser** och markera kryssrutan **Konfidentiella aktiviteter**.
+
+    ![Användarhantering, kryssruta för Konfidentiella aktiviteter -screenshot][img9]
+
+1. Klicka på **Spara**.
+
 ## Relaterat innehåll
 
 * [Hantera dina roller][6]
@@ -220,7 +227,7 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
 [18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
@@ -231,3 +238,4 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
 [img7]: ../../../media/loc/en/admin/follow-up-type.png
 [img8]: ../../../media/loc/en/admin/sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

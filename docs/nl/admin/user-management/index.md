@@ -41,14 +41,6 @@ Elk gegevensobject behoort toe aan een gebruiker die onder u valt zelf (a), gebr
 
 Het eigenaarschap van verschillende gegevensobjecten wordt ingesteld in verschillende velden. Bijvoorbeeld in de bedrijfskaart geeft het veld **Onze Contactpersoon** de eigenaar van het record aan. Voor opvolgingen is dat het veld **Owner**, in het project **Verantwoordelijke**, enzovoort.
 
-## <a id="visible"></a>Zichtbaarheid
-
-Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de rol die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
-
-Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist.
-
-Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op het tabblad **Licenties** en klikt u vervolgens op het selectievakje voor **Vertrouwelijke activiteiten**.
-
 ## Soorten gebruikers
 
 * **Medewerkers**: SuperOffice CRM-gebruikers (in uw bedrijf)
@@ -203,6 +195,21 @@ In **SuperOffice CRM Suite**-abonnementen toont dit tabblad het totale aantal aa
 
 Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzicht krijgen van de gebruikers en gebruikersgroepen. Klik op een groepsnaam in de lijst **Beschikbare groepen** voor een lijst van gebruikers die momenteel zijn toegewezen aan de groep.
 
+## <a id="visible"></a>Zichtbaarheid
+
+Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de rol die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
+
+Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist. U stelt deze licentie als volgt in:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Selecteer het tabblad **Medewerkers**.
+1. Dubbelklik op de gebruiker aan wie u toegang tot vertrouwelijke activiteiten wilt verlenen.
+1. Selecteer het tabblad **Licenties** en schakel het selectievakje **Vertrouwelijke activiteiten** in.
+
+    ![Gebruikersbeheer, selectievakje Vertrouwelijke activiteiten -screenshot][img9]
+
+1. Klik op **Opslaan**.
+
 ## Gerelateerde inhoud
 
 * [Uw rollen beheren][6]
@@ -220,7 +227,7 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
 [18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
@@ -231,3 +238,4 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
 [img7]: ../../../media/loc/en/admin/follow-up-type.png
 [img8]: ../../../media/loc/en/admin/sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

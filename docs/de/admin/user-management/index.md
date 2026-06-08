@@ -41,14 +41,6 @@ Jedes Datenobjekt gehört einem Benutzer, der Sie selbst (a), Benutzer in Ihrer 
 
 Die Eigentümerschaft der verschiedenen Datenobjekte wird in verschiedenen Feldern festgelegt. Zum Beispiel legt im Firmen­satz das Feld **Unser Kontakt** den Eigentümer des Datensatzes fest. Bei Follow‑ups ist es das Feld **Owner**, im Projekt **Verantwortlich**, und so weiter.
 
-## <a id="visible"></a>Sichtbarkeit
-
-Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten Rolle ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
-
-Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich.
-
-Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf die Registerkarte **Lizenzen** und dann das Kontrollkästchen für **Vertrauliche Aktivitäten** anklicken.
-
 ## Benutzer-Typen
 
 * **Mitarbeiter**: SuperOffice CRM-Benutzer (in Ihrer Firma)
@@ -203,6 +195,21 @@ In **SuperOffice CRM Suite**-Abonnements zeigt diese Registerkarte die Gesamtzah
 
 Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie sich einen Überblick über Benutzer und Benutzergruppen verschaffen. Klicken Sie auf einen Gruppennamen in der Liste **Verfügbare Gruppen**, um eine Liste der Benutzer anzuzeigen, die momentan dieser Gruppe zugeordnet sind.
 
+## <a id="visible"></a>Sichtbarkeit
+
+Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten Rolle ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
+
+Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich. So legen Sie diese Lizenz fest:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Wählen Sie die Registerkarte **Mitarbeiter**.
+1. Doppelklicken Sie auf den Benutzer, dem Sie Zugriff auf vertrauliche Aktivitäten gewähren möchten.
+1. Wählen Sie die Registerkarte **Lizenzen** aus und aktivieren Sie das Kontrollkästchen **Vertrauliche Aktivitäten**.
+
+    ![Benutzerverwaltung, Kontrollkästchen Vertrauliche Aktivitäten -screenshot][img9]
+
+1. Klicken Sie auf **Speichern**.
+
 ## Verwandte Inhalte
 
 * [Ihre Rollen verwalten][6]
@@ -220,7 +227,7 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
 [18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
@@ -231,3 +238,4 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
 [img7]: ../../../media/loc/en/admin/follow-up-type.png
 [img8]: ../../../media/loc/en/admin/sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

@@ -41,14 +41,6 @@ Hvert dataobjekt tilhører en bruker som kan være deg selv (a), brukere i din p
 
 Eierskapet til forskjellige dataobjekter settes i ulike felt. For eksempel angir feltet **Vår kontakt** i bedriftskortet eieren av posten. For oppfølginger er det feltet **Eier**, i prosjektet **Ansvarlig**, og så videre.
 
-## <a id="visible"></a>Synlighet
-
-Om du kan vise spesifikke dokumenter, salg, oppfølginger og utvalg, avhenger ikke bare på rollen du er tildelt. Det kan også skyldes at den aktuelle informasjonen ikke er tilgjengelig for deg. I dialogboksene for dokumenter og oppfølginger og i Salg- og Utvalg- bildene finner du en listeboks som heter **Synlig for**. I Salg-bildet kan du for eksempel velge om salget skal være synlig for alle, synlig bare for primærgruppen som eieren tilhører eller synlig bare for eieren.
-
-Dette krever lisensen **Konfidensielle aktiviteter**.
-
-For å angi denne lisensen finner du ønsket bruker, klikker på fanen **Lisenser**, og deretter klikker du på avmerkingsboksen for **Konfidensielle aktiviteter**.
-
 ## Brukertyper
 
 * **Medarbeidere**: SuperOffice CRM-brukere (i ditt firma)
@@ -203,6 +195,21 @@ I abonnementer på **SuperOffice CRM Suite** viser denne fanen totalt antall kj�
 
 På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere og brukergrupper. Klikk på et gruppenavn i listen **Tilgjengelige grupper** for å vise en liste over brukerne som for tiden er tilordnet til denne gruppen.
 
+## <a id="visible"></a>Synlighet
+
+Om du kan vise spesifikke dokumenter, salg, oppfølginger og utvalg, avhenger ikke bare på rollen du er tildelt. Det kan også skyldes at den aktuelle informasjonen ikke er tilgjengelig for deg. I dialogboksene for dokumenter og oppfølginger og i Salg- og Utvalg- bildene finner du en listeboks som heter **Synlig for**. I Salg-bildet kan du for eksempel velge om salget skal være synlig for alle, synlig bare for primærgruppen som eieren tilhører eller synlig bare for eieren.
+
+Dette krever lisensen **Konfidensielle aktiviteter**. Slik angir du denne lisensen:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Velg fanen **Medarbeidere**.
+1. Dobbeltklikk på brukeren du vil gi tilgang til konfidensielle aktiviteter.
+1. Velg fanen **Lisenser** og merk av for **Konfidensielle aktiviteter**.
+
+    ![Brukeradministrasjon, avmerkingsboks for Konfidensielle aktiviteter -screenshot][img9]
+
+1. Klikk på **Lagre**.
+
 ## Aktuelt innhold
 
 * [Administrere rollene dine][6]
@@ -220,7 +227,7 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
 [18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
@@ -231,3 +238,4 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
 [img7]: ../../../media/loc/en/admin/follow-up-type.png
 [img8]: ../../../media/loc/en/admin/sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

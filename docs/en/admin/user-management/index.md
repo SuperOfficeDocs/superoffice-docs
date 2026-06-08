@@ -2,7 +2,7 @@
 uid: help-en-users
 title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
-keywords: Users screen, user, associate, our companies, visibility, visible for, available
+keywords: Users screen, user, associate, our companies, visibility, visible for, available, confidnetial activities
 author: digitaldiina
 date: 05.04.2026
 version: 11.13
@@ -40,14 +40,6 @@ Each data object belongs to a user who might be you yourself (a), users in your 
 ![The Roles - Associates screen, data rights tab -screenshot][img2]
 
 The ownership of different data objects is set in different fields. For example, in the Company card the field called **Our Contact** specifies the owner of the record. For follow-ups, it is the field **Owner**, in the project **Responsible**, and so on.
-
-## <a id="visible"></a>Visibility
-
-If you can view specific documents, sales, follow-ups and selections does not depend solely on the role you are assigned. Certain individual items of information may not be available to you. In the documents and follow-ups dialogs and in the Sale and Selection screens, there is a list box called **Visible for**. In the Sale screen, you can, for example, choose to make the sale visible to everyone, visible only to the primary group that the owner belongs to, or visible only to the owner.
-
-This requires the license **Confidential activities**.
-
-To set this license, find the wanted user, click the **Licences** tab and then mark the **Confidential activities** checkbox.
 
 ## User types
 
@@ -203,6 +195,21 @@ In **SuperOffice CRM Suite** subscriptions, this tab shows the total number of s
 
 On the **User groups** tab in the Users screen, you can get an overview of users and user groups. Click a group name in the **Available groups** list to display a list of the users who are currently assigned to this group.
 
+## <a id="visible"></a>Visibility
+
+Whether you can view specific documents, sales, follow-ups, and selections does not depend solely on the role you are assigned. Certain individual items of information may not be available to you. In some dialogs and screens, there is an option called **Visible for**. In the Sale screen, you can, for example, choose to make the sale visible to everyone, visible only to the primary group that the owner belongs to, or visible only to the owner.
+
+This requires the license **Confidential activities**. To set this license:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Select the **Associates** tab.
+1. Double-click the user you wish to grant confidential access.
+1. Select the **Licences** tab and mark the **Confidential activities** checkbox.
+
+    ![User management, Confidential activities checkbox -screenshot][img9]
+
+1. Click **Save**.
+
 ## Related content
 
 * [Manage your roles][6]
@@ -231,3 +238,4 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
 [img7]: ../../../media/loc/en/admin/follow-up-type.png
 [img8]: ../../../media/loc/en/admin/sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

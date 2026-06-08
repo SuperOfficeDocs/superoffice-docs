@@ -41,14 +41,6 @@ Hvert dataobjekt tilhører en bruger som kan være dig selv (a), brugere i din p
 
 Ejerskabet af forskellige dataobjekter er sat i forskellige felter. For eksempel angiver feltet **Vores kontakt** i firma‑kortet ejeren af posten. For opfølgninger er det feltet **Ejer**, i projektet **Ansvarlig**, og så videre.
 
-## <a id="visible"></a>Synlig for
-
-Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den rolle du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I dokumenter og opfølgningsdialogerne og på skærmene Salg og Udvalg er der et felt ved navn **Synlig for**. På skærmen Salg kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
-
-Dette kræver licensen **Fortrolige aktiviteter**.
-
-For at indstille denne licens skal du finde den ønskede bruger, klikke på fanen **Licenser** og derefter klikke på afkrydsningsfeltet for **Fortrolige aktiviteter**.
-
 ## Brugertyper
 
 * **Medarbejdere**: SuperOffice CRM-brugere (i dit firma)
@@ -203,6 +195,21 @@ I abonnementer på **SuperOffice CRM Suite** viser denne fane det samlede antal 
 
 På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik over brugere og brugergrupper. Klik på et gruppenavn på **listen Tilgængelige grupper** for at få vist en liste over de brugere, der aktuelt er tildelt denne gruppe.
 
+## <a id="visible"></a>Synlig for
+
+Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den rolle du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I dokumenter og opfølgningsdialogerne og på skærmene Salg og Udvalg er der et felt ved navn **Synlig for**. På skærmen Salg kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
+
+Dette kræver licensen **Fortrolige aktiviteter**. For at indstille denne licens:
+
+1. [!include[Gå til Brugere](includes/goto-users.md)]
+1. Vælg fanen **Medarbejdere**.
+1. Dobbeltklik på den bruger, du vil give adgang til fortrolige aktiviteter.
+1. Vælg fanen **Licenser**, og marker afkrydsningsfeltet **Fortrolige aktiviteter**.
+
+    ![Brugerstyring, afkrydsningsfelt for Fortrolige aktiviteter -screenshot][img9]
+
+1. Klik på **Gem**.
+
 ## Relateret indhold
 
 * [Administration af dine roller][6]
@@ -220,7 +227,7 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
 [18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
@@ -231,3 +238,4 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
 [img7]: ../../../media/loc/en/admin/follow-up-type.png
 [img8]: ../../../media/loc/en/admin/sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png
