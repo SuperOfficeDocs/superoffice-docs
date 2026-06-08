@@ -21,7 +21,7 @@ redirect_from:
 language: en
 ---
 
-# SuperOffice and licences
+# SuperOffice and licenses
 
 To log in to SuperOffice CRM from a web client, you need login rights to SuperOffice CRM and an Essential or a Premium user plan.
 
