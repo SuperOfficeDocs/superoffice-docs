@@ -59,11 +59,6 @@ Auf der Registerkarte **Mitarbeiter** der Ansicht **Benutzer** können Sie Benut
 
 Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss sie bei einer im Listenfeld **Firma** der Ansicht Benutzer angezeigten Firma registriert sein. Damit eine Firma im Listenfeld **Firma** der Ansicht Benutzer aufgeführt wird, muss sie als Firma in der Firmenliste auf der Registerkarte **Unsere Firmen** aufgeführt sein.
 
-> [!NOTE]
-> In der Ansicht Benutzer können Sie festlegen, welche Lizenzen Sie den verschiedenen Benutzern zuteilen wollen. Um neue Systemlizenzen hinzuzufügen oder für ein oder mehrere Module die Anzahl der Lizenzen erhöhen/reduzieren möchten, wenden Sie sich für [Lizenzinformationen aktualisieren][16] an SuperOffice.
->
-> In **SuperOffice CRM Suite**-Abonnements werden keine Benutzerpläne pro Benutzer zugewiesen und die Spalte **Benutzerplan** wird nicht angezeigt. Der Zugriff wird über die Benutzerplatzanzahl verwaltet. Weitere Informationen finden Sie unter [CRM Suite-Plänen][18].
-
 ## Benutzergruppen
 
 Eine **Gruppe** wird dem Benutzer zugewiesen und gewährt Zugriff auf Datenobjekte (4 im vorherigen Diagramm). Ein Benutzer muss eine **primäre Gruppe** haben und kann mehrere **andere Gruppen** haben.
@@ -216,6 +211,7 @@ Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich. So legen Sie
 * [Neuen Benutzer hinzufügen][2]
 * [Benutzergruppen erstellen][3]
 * [Benutzerpläne für aktive Benutzer ändern][17]
+* [Lizenzen aktivieren und aktualisieren][16]
 * [CRM Suite-Pläne][18]
 
 <!-- Referenced links -->

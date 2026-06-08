@@ -55,14 +55,9 @@ The ownership of different data objects is set in different fields. For example,
 
 **Associates** are SuperOffice users in your company (or a related company such as a subsidiary).
 
-In the **Associates** tab in the Users screen, you can add users of the type **Associate**, and assign them roles, groups and licenses, edit existing users and delete users.
+In the **Associates** tab in the Users screen, you can add users of the type **Associate** and assign them roles, groups, and licenses, edit existing users, and delete users.
 
 For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the Users screen. And for a company to be displayed in the **Company** list box in the Users screen, the company must appear on the company list in the **Our companies** tab.
-
-> [!NOTE]
-> In the Users screen you specify which licenses you want different users to have. To add new system licenses or increase/reduce the number of licenses for one or more modules, contact SuperOffice to [update the license information][16].
->
-> In **SuperOffice CRM Suite** subscriptions, there are no per-user plan assignments and the **User plan** column is not shown. Access is managed through seat count. See [CRM Suite plans][18].
 
 ## User groups
 
@@ -216,6 +211,7 @@ This requires the license **Confidential activities**. To set this license:
 * [Add a new user][2]
 * [Create a user group][3]
 * [Change user plans for active users][17]
+* [Activate and update licenses][16]
 * [CRM Suite plans][18]
 
 <!-- Referenced links -->

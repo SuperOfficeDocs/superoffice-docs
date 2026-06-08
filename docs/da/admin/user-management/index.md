@@ -59,11 +59,6 @@ Under fanen **Medarbejdere** i skærmbilledet Brugere kan du blandt andet tilfø
 
 For at en person skal kunne defineres som SuperOffice CRM-bruger, skal den pågældende være registreret hos et firma, som vises på listen **Firma** i skærmbilledet Brugere. Og for at et firma skal kunne vises på listen **Firma** i skærmbilledet Brugere, skal firmaet vises på firmalisten på fanen **Vores firmaer**.
 
-> [!NOTE]
-> I skærmbilledet Brugere angiver du, hvilke licenser de forskellige brugere skal have. Hvis du vil tilføje nye systemlicenser eller øge/reducere antallet af licenser for et eller flere moduler, skal du kontakte SuperOffice for at [opdatere licensoplysningerne][16].
->
-> I abonnementer på **SuperOffice CRM Suite** er der ingen tildeling af brugerplaner pr. bruger, og kolonnen **Brugerplan** vises ikke. Adgangen styres via pladstæller. Se [CRM Suite-planer][18].
-
 ## Brugergrupper
 
 En **gruppe** tildeles brugeren og giver adgang til dataobjekter (4 i forrige diagram). En bruger skal have en **primær gruppe** og kan have flere **andre grupper**.
@@ -216,6 +211,7 @@ Dette kræver licensen **Fortrolige aktiviteter**. For at indstille denne licens
 * [Tilføj en ny bruger][2]
 * [Opret brugergruppe][3]
 * [Ændre brugerplaner for aktive brugere][17]
+* [Aktivér og opdater licenser][16]
 * [CRM Suite-planer][18]
 
 <!-- Referenced links -->

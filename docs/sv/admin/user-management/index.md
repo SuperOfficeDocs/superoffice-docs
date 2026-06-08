@@ -59,11 +59,6 @@ På fliken **Medarbetare** i fönstret Användare kan du bland annat lägga till
 
 Innan en person kan registreras som SuperOffice CRM-användare måste hen ha registrerats på ett företag som finns med i listrutan **Företag** i fönstret Användare. Enligt samma princip måste ett företag finnas med i företagslistan på fliken **Våra företag** i fönstret Användare för att visas i listrutan **Företag**.
 
-> [!NOTE]
-> I fönstret Användare anger du vilka licenser de olika användarna ska ha. Om du vill lägga till nya systemlicenser eller öka/minska antalet licenser för en eller flera moduler kontaktar du SuperOffice och [uppdaterar licensinformationen][16].
->
-> I **SuperOffice CRM Suite**-abonnemang finns inga användarplantilldelningar per användare och kolumnen **Användarplan** visas inte. Åtkomsten hanteras via antalet platser. Se [CRM Suite-planer][18].
-
 ## Användargrupper
 
 En **grupp** tilldelas användaren och ger åtkomst till dataobjekt (4 i föregående diagram). En användare måste ha en **primär grupp** och kan ha flera **andra grupper**.
@@ -216,6 +211,7 @@ Detta kräver att du har licensen **Konfidentiella aktiviteter**. Så här anger
 * [Lägg till en ny användare][2]
 * [Skapa en användargrupp][3]
 * [Ändra användarplaner för aktiva användare][17]
+* [Aktivera och uppdatera licenser][16]
 * [CRM Suite-planer][18]
 
 <!-- Referenced links -->

@@ -59,11 +59,6 @@ Op het tabblad **Medewerkers** in het scherm Gebruikers kunt u gebruikers van he
 
 Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker als deze is geregistreerd bij een bedrijf dat wordt weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers. Een bedrijf wordt alleen weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers als het bedrijf wordt weergegeven in de lijst met bedrijven op het tabblad **Onze bedrijven**.
 
-> [!NOTE]
-> In het scherm Gebruikers geeft u aan welke licenties kunnen worden gebruikt door de verschillende gebruikers. Als u nieuwe systeemlicenties wilt toevoegen of het aantal licenties voor een of meer modules wilt verhogen/verminderen, neemt u contact op met SuperOffice om [de licentiegegevensbij te werken][16].
->
-> In **SuperOffice CRM Suite**-abonnementen zijn er geen gebruikersplantoewijzingen per gebruiker en wordt de kolom **Gebruikersplan** niet weergegeven. De toegang wordt beheerd via het aantal seats. Zie [CRM Suite-plannen][18].
-
 ## Gebruikersgroepen
 
 Een **groep** wordt toegewezen aan de gebruiker en geeft toegang tot gegevensobjecten (4 in het vorige diagram). Een gebruiker moet één **primaire groep** hebben en kan meerdere **andere groepen** hebben.
@@ -216,6 +211,7 @@ Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist. U stelt deze li
 * [Een nieuwe gebruiker toevoegen][2]
 * [Gebruikersgroepen maken][3]
 * [Gebruikersplannen voor actieve gebruikers wijzigen][17]
+* [Licenties activeren en bijwerken][16]
 * [CRM Suite-plannen][18]
 
 <!-- Referenced links -->
