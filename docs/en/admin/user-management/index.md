@@ -67,15 +67,13 @@ A **group** is assigned to the user and grants access to data objects (4 in the 
 
 In this example, user A has Marketing as the other group and user B has Marketing as the primary group. In this case, if User A wants to see data created by User B, User's A role has to have the right "Read" next to all data objects in the column *Other group*. It is because Marketing group is other group for user A and it is connecting them with records that user B creates.
 
-A group also can grant access to list items (5 in the diagram) in SuperOffice CRM. This is relevant only if you use the **Grouping and filtering** setting (a) on your lists. If this setting is not set up, all users will have access to all lists in SuperOffice CRM. Grouping and filtering are especially useful when many users with various responsibilities can access the system. This way you can avoid certain users accessing the information that they are not supposed to see.
+A group also can grant access to list items in SuperOffice CRM. This is relevant only if you use the **Grouping and filtering** setting on your lists. If this setting is not set up, all users will have access to all lists in SuperOffice CRM. Grouping and filtering are especially useful when many users with various responsibilities can access the system. This way you can avoid certain users accessing the information that they are not supposed to see.
 
 ![Grouping and filtering by user group for document template list -screenshot][img6]
 
-For example, if you want to make a particular list item visible only to some users, you need to go to the list, which stores these items (a), select the item (b) and in the box called "Visible for user groups", add a check next to the user groups which should see the list item (c).
+For example, if you want to make a particular list item visible only to some users, you need to go to the list, which stores these items, select the item and in the box called "Visible for user groups", add a check next to the user groups which should see the list item.
 
-![Select preference level group for follow-up -screenshot][img7]
-
-Having your users organized in groups is also convenient when you want to personalize SuperOffice settings, we call them [preferences][15] (6). Every preference can be set for one user, user group, or the entire system.
+Having your users organized in groups is also convenient when you want to personalize SuperOffice settings, we call them [preferences][15]. Every preference can be set for one user, user group, or the entire system.
 
 ![Preferences for Sales group -screenshot][img8]
 
@@ -84,8 +82,6 @@ Having your users organized in groups is also convenient when you want to person
 In the Users screen, you can add and edit different types of users.
 
 ![An overview of the User screen in Settings and maintenance -screenshot][img3]
-
-[**Our companies:**][2] For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list in the Users screen. And for a company to be displayed in the **Company** list in the Users screen, the company must appear on the company list in the **Our companies** tab.
 
 > [!NOTE]
 > Changes you make in the Users screen do not come into effect until you click **Save** at the bottom of the screen, and confirm that you want to save the changes in the dialog that then appears. If you click **Cancel**, you will lose all changes you have made in this screen  your last save.
@@ -102,21 +98,17 @@ By default, the list in the **Associates** tab consists of the following columns
 | Primary group | The primary group of the user. |
 | Role | The [role][6] assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. |
 | User plan | The user plan assigned to the user. |
-| Owning company | The name of the organization the user belongs to (defined as database owner). |
 
 > [!TIP]
-> You can select which columns to display in the list. Just right-click a column heading, and select the relevant columns in the columns list. To change the order of the columns, click and drag a column heading.
+> You can select which columns to display in the list. Right-click a column heading, and select the relevant columns in the columns list. To change the order of the columns, click and drag a column heading.
 
-* **Search for users:** Use this dynamic search function to quickly locate specific users by name or user ID, or to find all users belonging to specific roles, groups or user plans (SuperOffice CRM Online). Simply enter text in the search field to update the list with matching users.
+* **Search for users:** Use this dynamic search function to quickly locate specific users by name or user ID, or to find all users belonging to specific roles, groups, or user plans (SuperOffice CRM Online). Simply enter text in the search field to update the list with matching users.
 
 * **Show only users that can log in:** Select this option to show only users that are active (have not been deactivated).
 
 #### Filtering the list <i class="ph ph-funnel" aria-hidden="true"></i>
 
-You can filter the list of users by any of the column headers.
-
-> [!NOTE]
-> Right-click a column to add any additional columns you want to filter by.
+You can filter the list of users by any of the column headers. Right-click a column to add any additional columns you want to filter by.
 
 1. Go to the **Associates** tab.
 1. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the top-right corner of the list.
@@ -129,10 +121,7 @@ You can filter the list of users by any of the column headers.
 
 #### Grouping the list
 
-You can group the list of users by role, user plan (SuperOffice CRM Online), primary group, and similar. In addition, you can group on multiple levels.
-
-> [!NOTE]
-> Right-click a column to add any additional columns you want to group by (see also [Adjust views][14]).
+You can group the list of users by role, user plan (SuperOffice CRM Online), primary group, and similar. In addition, you can group on multiple levels. Right-click a column to add any additional columns you want to group by (see also [Adjust views][14]).
 
 1. Go to the **Associates** tab.
 1. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the top-right corner of the list.
@@ -154,17 +143,13 @@ The full name, email address and owning company is displayed at the top. At the 
 
 There are different tabs in the User overview:
 
-* **Details** - main overview of user information like **User ID**, **Role**, **User plan** (SuperOffice CRM Online), **Primary group** and **Service categories**.
-* **Licences** - extra license information like **Confidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
-* **More** - the tab shows if there are any extra fields on person.
+* **Details:** main overview of user information like **User ID**, **Role**, **User plan** (SuperOffice CRM Online), **Primary group** and **Service categories**.
+* **Licences:** extra license information like **Confidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
+* **More:** the tab shows if there are any extra fields on person.
 
 ### <a id="our-companies"></a>Our companies
 
-The object of the company list in the **Our companies** tab in the Users screen is to specify:
-
-* Who can be defined as users of SuperOffice CRM. For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the Users screen. And for a company to be displayed in the **Company** list box in the Users screen, the company must appear on the company list in the **Our companies** tab.
-
-* Which companies can be defined as owners of a satellite.
+The object of the company list in the **Our companies** tab in the Users screen is to specify who can be defined as users of SuperOffice CRM. For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the Users screen. And for a company to be displayed in the **Company** list box in the Users screen, the company must appear on the company list in the **Our companies** tab.
 
 #### Columns in the company list
 
@@ -176,17 +161,18 @@ The object of the company list in the **Our companies** tab in the Users screen 
 | Associates | How many associates have been created for the company. |
 | Active satellite | Whether the company is recorded as an active satellite. |
 
-### User licenses
+### User licenses tab
 
-On the **User licences** tab in the Users screen, you can get an overview of how many user licenses are in use, and which users are using the various licenses.
+On the **User licences** tab in the Users screen, you can see which licenses are in use and which users hold them.
 
-In **SuperOffice CRM Suite** subscriptions, this tab shows the total number of seats purchased and seats currently in use. There are no per-user plan assignments.
+* Click a license name in the **User licences** list to display the users currently assigned to it.
+* Hold the mouse pointer over a license name to see detailed information.
 
-* Click a license in the **User licences** list to display a list of the users who are currently using this license.
+In module-based subscriptions, the list shows each user plan license (such as Sales Premium or Service Essentials) with its seat count.
 
-* Hold the mouse-pointer over a license name to see detailed information about the license.
+In **SuperOffice CRM Suite** subscriptions, the list shows your active plan and total seat count — for example, *Core (20)*. There are no per-user plan assignments; all seats are included in your organization's plan.
 
-### User groups
+### User groups tab
 
 On the **User groups** tab in the Users screen, you can get an overview of users and user groups. Click a group name in the **Available groups** list to display a list of the users who are currently assigned to this group.
 
@@ -232,6 +218,5 @@ This requires the license **Confidential activities**. To set this license:
 [img3]: ../../../media/loc/en/admin/admin-users-overview.png
 [img5]: ../../../media/loc/en/admin/groups.png
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
-[img7]: ../../../media/loc/en/admin/follow-up-type.png
-[img8]: ../../../media/loc/en/admin/sales-group.png
+[img8]: ../../../media/loc/en/admin/diary-preferences-for-sales-group.png
 [img9]: ../../../media/loc/en/admin/confidential-activities.png
