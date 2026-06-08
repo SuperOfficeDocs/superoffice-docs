@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-role-create
 title: Rol maken
 description: Rol maken
@@ -18,6 +18,8 @@ language: nl
 ---
 
 # Een rol maken
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 > [!NOTE]
 > Er is slechts een enkele rol voor anonieme gebruikers en u kunt geen nieuwe rol maken.

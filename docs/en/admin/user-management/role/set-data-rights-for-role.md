@@ -19,6 +19,8 @@ language: en
 
 # Set data rights for a role
 
+[!include[Requirement](../../../includes/lim-starter.md)]
+
 You can set rights for data objects based on who owns the object. All users who belong to this [role][2] will be assigned rights based on the settings you make here.
 
 ## Steps

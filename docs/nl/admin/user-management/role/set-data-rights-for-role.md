@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-role-set-data-rights
 title: Gegevensrechten voor rol instellen
 description: Gegevensrechten voor rol instellen
@@ -18,6 +18,8 @@ language: nl
 ---
 
 # Gegevensrechten voor een rol instellen
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 U kunt rechten voor gegevensobjecten instellen op basis van wie de eigenaar van het object is. Aan alle gebruikers die tot deze [rol][2] behoren, worden rechten toegewezen op basis van de instellingen die u hier maakt.
 

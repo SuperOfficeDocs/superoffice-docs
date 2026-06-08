@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-role-set-data-rights
 title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
@@ -18,6 +18,8 @@ language: sv
 ---
 
 # Ange behörighet för roll
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan ange behörigheter för dataobjekt baserat på vem som äger objekten. Alla användare som tillhör den här [rollen][2] tilldelas behörigheter baserat på inställningarna du gör här.
 

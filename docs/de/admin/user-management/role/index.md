@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-role
 title: Rolle
 description: Rolle
@@ -59,6 +59,8 @@ Administratoren haben Zugriff auf den Abschnitt Einstellungen und Verwaltung. Hi
 Wenn Sie nicht möchten, dass Benutzer Zugriff auf Einstellungen und Verwaltung haben, weisen Sie ihnen je nach dem benötigten Zugriff die Benutzerebene 1 oder höher zu.
 
 ## Ihre Rollen verwalten
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Im Bereich Rollen können Sie den [Zugriffstyp festlegen][3], die Ihre Benutzer auf die verschiedenen Teile von SuperOffice CRM haben. Sie können auch jede Benutzerebene anpassen, indem Sie die Datenrechte und/oder die verschiedenen [Funktionsrechte][6] ändern.
 

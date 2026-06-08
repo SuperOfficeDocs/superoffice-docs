@@ -19,8 +19,9 @@ language: en
 
 # Create a role
 
-> [!NOTE]
-> There is only a single role for anonymous users and you cannot create a new one.
+[!include[Requirement](../../../includes/lim-starter.md)]
+
+There is only a single role for anonymous users and you cannot create a new one.
 
 ## Steps
 

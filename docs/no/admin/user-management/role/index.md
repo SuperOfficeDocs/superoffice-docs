@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-no-role
 title: Rolle
 description: Rolle
@@ -59,6 +59,8 @@ Administratorer har tilgang til delen Innstillinger og vedlikehold. Her kan man 
 Hvis du ikke vil at brukerne skal ha tilgang til Innstillinger og vedlikehold, gir du dem brukernivå 1 eller høyere, avhengig av tilgangen de trenger.
 
 ## Administrere rollene dine
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 I Roller-delen kan du [bestemme hvilken type tilgang][3] brukerne skal ha til de forskjellige delene av SuperOffice CRM. Du kan også tilpasse hvert brukernivå ved å endre Datarettigheter og/eller de forskjellige [funksjonelle rettighetene][6].
 

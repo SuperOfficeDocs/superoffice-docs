@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-da-role-edit
 title: Opdater rolle
 description: Sådan redigerer du en rolle.
@@ -20,6 +20,8 @@ language: da
 ---
 
 # Opdater rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Hvis du vil opdatere eller slette en [rolle][3], skal du starte med at vælge rollen under fanen **Medarbejdere**.
 

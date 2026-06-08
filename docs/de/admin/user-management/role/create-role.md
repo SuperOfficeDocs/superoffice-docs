@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-role-create
 title: Rolle erstellen
 description: Rolle erstellen
@@ -18,6 +18,8 @@ language: de
 ---
 
 # Rolle erstellen
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 > [!NOTE]
 > Für anonyme Benutzer ist nur eine einzige Rolle vorhanden. Sie können keine neue Rolle erstellen.

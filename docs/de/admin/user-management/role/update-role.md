@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-role-edit
 title: Rolle aktualisieren
 description: Wie man eine Rolle bearbeitet.
@@ -20,6 +20,8 @@ language: de
 ---
 
 # Rolle aktualisieren
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Um eine [Rolle][3] zu bearbeiten oder zu löschen, wählen Sie die Rolle zuerst auf der Registerkarte **Mitarbeiter** aus.
 

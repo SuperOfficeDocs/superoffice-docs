@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-role-edit
 title: Uppdatera roll
 description: Så redigerar du en roll.
@@ -20,6 +20,8 @@ language: sv
 ---
 
 # Uppdatera roll
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 För att uppdatera eller ta bort en [roll][3] börjar du med att välja rollen på fliken **Medarbetare**.
 
