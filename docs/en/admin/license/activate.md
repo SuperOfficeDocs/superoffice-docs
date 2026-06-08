@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-en-license-activate
 title: Activate license
 description: Activate license for SuperOffice
@@ -18,8 +18,6 @@ redirect_from: /en/admin/license/learn/activate
 ---
 
 # Activate license
-
-[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
 
 To manage licenses, you must be signed in as an administrator.
 
@@ -44,7 +42,7 @@ If the total number of new licenses is less than the number of licenses in use, 
     * **Activate new licence** – new license is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licenses.
 
     > [!CAUTION]
-    > If you have the wrong number of licenses or licenses for the wrong module, contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
+    > If the number of licenses is incorrect — or, in module-based subscriptions, if you have licenses for the wrong module — contact SuperOffice. DO NOT activate until the information is correct.
 
 1. Click the **Activate** button in the dialog.
 

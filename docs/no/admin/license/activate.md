@@ -19,8 +19,6 @@ redirect_from: /no/admin/license/learn/activate
 
 # Aktivere lisens
 
-[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
-
 Du må være logget på som administrator for å behandle lisenser.
 
 ## <a id="buy"></a>Kjøpe
@@ -44,7 +42,7 @@ Hvis det totale antallet nye lisenser er mindre enn antallet lisenser som er i b
     * **Aktiver ny lisens** – ny lisens er tilgjengelig, men den kan ikke aktiveres automatisk. Klikk på koblingen for å åpne dialogboksen **Aktiver ny lisens**. Listen viser bare endrede lisenser.
 
     > [!CAUTION]
-    > Hvis du har feil antall lisenser eller lisenser for feil modul, må du kontakte SuperOffice. IKKE aktiver lisensene hvis nummeret er feil.
+    > Hvis antallet lisenser er feil — eller for modulbaserte abonnementer, hvis du har lisenser for feil modul — kontakt SuperOffice. IKKE aktiver lisensene før informasjonen er korrekt.
 
 1. Klikk på **Aktiver**-knappen i dialogboksen.
 

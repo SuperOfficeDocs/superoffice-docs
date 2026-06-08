@@ -19,8 +19,6 @@ redirect_from: /da/admin/license/learn/activate
 
 # Aktivering af licens
 
-[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
-
 Hvis du vil administrere licenser, skal du være logget på som administrator.
 
 ## <a id="buy"></a>Køb
@@ -44,7 +42,7 @@ Hvis det samlede antal nye licenser er mindre end det antal licenser, der er i b
     * **Aktivér ny licens** – en ny licens er tilgængelig, men den kan ikke aktiveres automatisk. Klik på linket for at åbne dialogboksen **Aktivér ny licens**. Listen viser kun ændrede licenser.
 
     > [!CAUTION]
-    > Hvis du ikke har det rigtige antal licenser eller licens til et forkert modul, skal du kontakte SuperOffice. Aktivér IKKE licenserne, hvis antallet er forkert.
+    > Hvis antallet af licenser er forkert — eller, for modulbaserede abonnementer, hvis du har licenser til det forkerte modul — skal du kontakte SuperOffice. Aktivér IKKE, før oplysningerne er korrekte.
 
 1. Klik på knappen **Aktivér** i dialogboksen.
 
