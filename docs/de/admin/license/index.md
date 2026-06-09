@@ -177,6 +177,9 @@ Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bes
 * [Lizenz kaufen und aktivieren][1]
 * [Lizenzen in früheren Versionen von SuperOffice][7]
 * [Systemereignisse][3]
+* [Modullizenzen][14]
+* [Versteckte Lizenzen][15]
+* [Technische Lizenzübersicht][17]
 
 <!-- Referenced links -->
 [16]: crm-suite.md
@@ -185,6 +188,10 @@ Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bes
 [3]: https://help.superoffice.com/docs/11/de/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png

@@ -167,6 +167,9 @@ Slutligen finns det användarlicenser för SuperOffice CRM, som köps för ett s
 * [Köp och aktivera licenser][1]
 * [Licenser i tidigare versioner av SuperOffice][7]
 * [Systemhändelser][3]
+* [Modullicenser][14]
+* [Dolda licenser][15]
+* [Teknisk licensöversikt][17]
 
 <!-- Referenced links -->
 [16]: crm-suite.md
@@ -175,10 +178,9 @@ Slutligen finns det användarlicenser för SuperOffice CRM, som köps för ett s
 [3]: https://help.superoffice.com/docs/11/sv/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-
-[14]: dev/module-licenses.md
-[17]: dev/index.md
-[15]: dev/hidden-licenses.md
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png

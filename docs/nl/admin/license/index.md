@@ -167,6 +167,9 @@ Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangesch
 * [Licenties kopen activeren][1]
 * [Licenties in eerdere versies van SuperOffice][7]
 * [Systeemgebeurtenissen][3]
+* [Modulelicenties][14]
+* [Verborgen licenties][15]
+* [Technisch overzicht licenties][17]
 
 <!-- Referenced links -->
 [16]: crm-suite.md
@@ -175,10 +178,9 @@ Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangesch
 [3]: https://help.superoffice.com/docs/11/nl/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-
-[14]: dev/module-licenses.md
-[17]: dev/index.md
-[15]: dev/hidden-licenses.md
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png

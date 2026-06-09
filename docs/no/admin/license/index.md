@@ -177,6 +177,9 @@ Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antal
 * [Kjøpe og aktivere lisenser][1]
 * [Lisenser i tidligere versjoner av SuperOffice][7]
 * [Systemoperasjoner][3]
+* [Modullisenser][14]
+* [Skjulte lisenser][15]
+* [Teknisk lisensoversikt][17]
 
 <!-- Referenced links -->
 [16]: crm-suite.md
@@ -185,6 +188,10 @@ Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antal
 [3]: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png

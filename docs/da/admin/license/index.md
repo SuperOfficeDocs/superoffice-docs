@@ -167,6 +167,9 @@ Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal
 * [Køb og aktivering af licenser][1]
 * [Tidligere versioner af SuperOffice][7]
 * [Systemhændelser][3]
+* [Modullicenser][14]
+* [Skjulte licenser][15]
+* [Licens - teknisk oversigt][17]
 
 <!-- Referenced links -->
 [16]: crm-suite.md
@@ -175,10 +178,9 @@ Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal
 [3]: https://help.superoffice.com/docs/11/da/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-
-[14]: dev/module-licenses.md
-[17]: dev/index.md
-[15]: dev/hidden-licenses.md
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
