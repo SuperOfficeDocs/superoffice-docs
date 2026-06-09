@@ -15,6 +15,8 @@ language: en
 
 ## Product integrations updates
 
+* SuperOffice for Outlook - Might need approval in [Microsoft Admin Portal][65] - (03.06.2026)
+The features from 6.3may require an administrator to approve updated permissions (manifest changes) in the Microsoft Admin Portal. Once approved, it can take up to 72 hours for the feature to become fully available.
 * [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3 (11.05.2026)
 * [SuperOffice WebTools guide][21] - (04.05.2026)
 * [SuperNotes integration guide][43] - (04.02.2026)
@@ -27,31 +29,37 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 
 Current version: For the latest version numbers and release details for all products, see [Product releases][6] on Community.
 
-* ConnectERP - 157.0 (20.05.2026)
-* DataBridge - 157.0 (20.05.2026)
+* ConnectERP - 158.0 (28.05.2026)
+* DataBridge - 158.0 (28.05.2026)
 * Panels - 71.0 (20.05.2026)
-* SharePoint Documents - 3.7 (16.04.2026)
-* Slack Notify - 12.0 (21.05.2026)
+* SharePoint Documents - 3.8 (13.05.2026)
+* Slack Notify - 12.0 (27.05.2026)
 * SuperOffice Copilot - 1.11 (17.09.2025)
 * SuperOffice for Gmail - 3.0 (24.02.2026)
-* SuperOffice for Mailchimp - 12.0 (19.05.2026)
-* SuperOffice for Outlook - 6.3.0 (11.05.2026)
-* SuperOffice for Teams - 1.0.0 (19.05.2026)
+* SuperOffice for Mailchimp - 12.0 (27.05.2026)
+* SuperOffice for Outlook - 6.3.3 (03.06.2026)
+* SuperOffice for Teams - 1.0.0 (01.06.2026)
 * SuperOffice for Trello - 11.0 (21.11.2025)
-* SuperOffice for Wordpress - 11.0 (21.11.2026)
+* SuperOffice for Wordpress - 12.0 (27.05.2026)
 * SuperOffice MailLink - 13.1.61 (30.01.2026)
-* Synchronizer - 123.0 (20.05.2026)
+* Synchronizer - 124.0 (03.06.2026)
 * Teams Notify - 12.0 (18.05.2026)
-* Video Meetings - 2.12 (29.04.2026)
-* Webex Notify - 12.0 (19.05.2026)
-* WebTools for Mac - 13.2 (30.11.2025)
-* WebTools for Windows - 13.2.3 (08.04.2026)
-* Zapier - 3.5.7 (16.05.2026)
+* Video Meetings - 2.12 (26.05.2026)
+* Webex Notify - 12.0 (18.05.2026)
+* WebTools for Mac - 13.3.3.0 (06.06.2026)
+* WebTools for Windows - 13.2.3 (24.03.2026)
+* Zapier - 3.5.8 (25.05.2026)
 
 ## SuperOffice App Store
 
 See all the [new or updated apps][2]
 
+* [Database Mirroring Service][62] from SuperOffice AS (05.06.2026)
+* [SuperOffice for Teams][64] from SuperOffice AS (01.06.2026)
+* [DataBridge for SuperOffice][45] from SuperOffice AS (20.05.2026)
+* [Synchronizer for SuperOffice][47] from SuperOffice AS (20.05.2026)
+* [Panels for SuperOffice][35] from SuperOffice AS (20.05.2026)
+* [SuperOffice for Outlook][63] from SuperOffice AS (11.05.2026)
 * [Lyyti & SuperOffice integration][61] from Lyyti (16.03.2026)
 * [Unimicro by Syncify][60] from Syncify AB (08.05.2026)
 * [SuperNotes][41] from SuperOffice AS (04.05.2026)
@@ -72,16 +80,13 @@ See all the [new or updated apps][2]
 * [Visma Administration by Syncify][53] from Syncify AB (21.04.2026)
 * [Visma Global by Syncify][54] from Syncify AB (21.04.2026)
 * [Xledger by Syncify][40] from Syncify AB (21.04.2026)
-* [Synchronizer for SuperOffice][47] from SuperOffice AS (11.03.2026)
 * [SharePoint Documents][46] from SuperOffice AS (19.03.2026)
-* [DataBridge for SuperOffice][45] from SuperOffice AS (16.03.2026)
 * [Oneflow for SuperOffice][33] from Oneflow AB (04.03.2026)
 * [LeadX 360 AI][42] from LeadX Software GmbH (01.02.2026)
 * [Fortnox by Syncify][36] from Syncify AB (18.12.2025)
 * [Microsoft Business Central by Syncify][38] from Syncify AB (18.12.2025)
 * [SalesScreen Integration][34] from SalesScreen (12.12.2025)
 * [Activity folders for SuperOffice][39] from SuperOffice AS (01.12.2025)
-* [Panels for SuperOffice][35] from SuperOffice AS (01.12.2025)
 
 <!-- Referenced links -->
 [2]: https://appstore.superoffice.com/Category/new-and-updated
@@ -122,5 +127,9 @@ See all the [new or updated apps][2]
 [58]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify
 [60]: https://appstore.superoffice.com/syncify-ab/unimicro-by-syncify
 [61]: https://appstore.superoffice.com/lyyti/lyyti-superoffice-integration
+[62]: ttps://appstore.superoffice.com/superoffice-as/database-mirroring-service
+[63]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
+[64]: https://appstore.superoffice.com/superoffice-as/superoffice-for-teams
+[65]: https://admin.microsoft.com/Adminportal/Home#/homepage
 
 <!-- Referenced images -->
