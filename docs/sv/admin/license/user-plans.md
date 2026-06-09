@@ -1,5 +1,6 @@
 ﻿---
 uid: help-sv-user-plans
+title: Användarplaner och prenumerationer
 description: SuperOffice användarplaner och prenumerationer
 keywords: användarplan, licens, essential, premium
 author: digitaldiina, xt1
@@ -184,7 +185,7 @@ Dessa kan kombineras som:
 
 ## <a id="change"></a>Ändra användarplaner för aktiva användare
 
-När medarbetare tar på sig nya uppgifter eller får en ny tjänst på företaget kan du behöva ändra deras användarplaner. mDu kan ge användarna åtkomst till nya funktioner genom att ändra deras användarplaner under Inställningar och underhåll.
+När medarbetare tar på sig nya uppgifter eller får en ny tjänst på företaget kan du behöva ändra deras användarplaner. Du kan ge användarna åtkomst till nya funktioner genom att ändra deras användarplaner under Inställningar och underhåll.
 
 ### Steg
 

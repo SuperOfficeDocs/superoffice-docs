@@ -9,6 +9,10 @@ version: 10.3.5
 content_type: concept
 deployment: online
 platform: web
+category: Settings and maintenance
+topic: licenses
+audience: settings
+audience_tooltip: Settings and maintenance
 index: true
 tier: starter
 redirect_from:

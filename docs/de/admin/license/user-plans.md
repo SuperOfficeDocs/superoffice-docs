@@ -9,6 +9,10 @@ version: 10.3.5
 content_type: concept
 deployment: online
 platform: web
+category: Settings and maintenance
+topic: licenses
+audience: settings
+audience_tooltip: Settings and maintenance
 index: true
 tier: starter
 redirect_from:
@@ -200,9 +204,9 @@ Wenn Mitarbeiter neue Aufgaben übernehmen oder einen neuen Job in Ihrer Firma b
 
 ## Verwandte Inhalte
 
-* [Wie Benutzerpl�ne aufgebaut sind][9]
-* [Neuen Benutzer hinzuf�gen][10]
-* [Rollen�bersicht][11]
+* [Wie Benutzerpläne aufgebaut sind][9]
+* [Neuen Benutzer hinzufügen][10]
+* [Rollenübersicht][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
