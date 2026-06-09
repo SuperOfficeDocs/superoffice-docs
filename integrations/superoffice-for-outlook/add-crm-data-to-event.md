@@ -94,6 +94,13 @@ You can also work with calendar events from shared mailboxes in Outlook.
 1. Add or update CRM data.
 1. Press **Save**.
 
+### Type
+
+You can use the **Type** field to set the meeting type.
+
+- This value is saved with the event and synchronized to SuperOffice.
+- It can be used to categorize meetings for reporting and filtering.
+
 ### Notes
 
 * Calendar events synchronized from SuperOffice are view-only in Outlook, but CRM information is still available.
