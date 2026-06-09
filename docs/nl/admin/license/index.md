@@ -2,9 +2,9 @@
 uid: help-nl-licenses
 title: SuperOffice en licenties
 description: SuperOffice en licenties
-keywords: licentie, gebruikersplan, gemeten service, database-eigenaar, tabblad Status
+keywords: licentie, gebruikersplan, dienst met datalimiet, database-eigenaar, tabblad Status
 author: digitaldiina, xt1
-date: 05.04.2026
+date: 06.10.2026
 version: 11.13
 content_type: concept
 category: Settings and maintenance
@@ -28,13 +28,24 @@ Toegang tot SuperOffice CRM vanuit een webclient vereist aanmeldrechten voor Sup
 
 1. Ga in Instellingen en onderhoud naar het scherm Licenties.
 1. Selecteer het tabblad **SuperOffice**.
-1. De lijst toont de licenties die u hebt [gekocht en geactiveerd][1]. Klik op een licentienaam om meer informatie over de licentienaam weer te geven.
+1. De lijst toont de licenties die u hebt [gekocht en geactiveerd][1]. Klik op een licentienaam om meer informatie erover weer te geven.
 
 ## Het scherm Licenties
 
 ### Het tabblad SuperOffice
 
-In het tabblad **SuperOffice** in het scherm Licenties kunt u de licentiegegevens voor uw versie van SuperOffice CRM en de bijbehorende modules weergeven en bijwerken.
+Het tabblad **SuperOffice** toont licentiegegevens voor uw SuperOffice-abonnement.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Abonnementen op modulebasis](#tab/module-based)
+
+![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Als een uitbreiding van derden is geïnstalleerd, worden hier verschillende tabbladen weergegeven.
@@ -45,11 +56,24 @@ Bovenaan vindt u de bedrijfsnaam (uw bedrijf/organisatie) en het serienummer. Al
 
 #### Licentielijst
 
-De lijst onderin toont welke licenties in gebruik zijn en hoeveel er beschikbaar zijn. Klik op een licentienaam om informatie over een licentie weer te geven.
+De lijst onderin toont welke licenties in gebruik zijn en hoeveel er beschikbaar zijn.
 
 ### Het tabblad Status
 
-U vindt bijgewerkte informatie over het systeem in het tabblad **Status** op het scherm Licenties. Het scherm **Status** is verdeeld in de volgende hoofdonderdelen:
+Bijgewerkte informatie over het systeem wordt weergegeven op het tabblad **Status** in het scherm Licenties.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Abonnementen op modulebasis](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+Het scherm **Status** is verdeeld in de volgende hoofdonderdelen:
 
 #### Database
 
@@ -57,7 +81,7 @@ Geeft informatie over de eigenaar, het serienummer, het abonnement en het type v
 
 Als uw organisatie een **SuperOffice CRM Suite**-abonnement heeft, worden in de sectie **Database** ook de volgende gegevens weergegeven:
 
-* **Plan:** het plan dat bij uw abonnement is inbegrepen, bijvoorbeeld *SuperOffice Core Suite*
+* **Plan:** het plan dat bij uw abonnement is inbegrepen, bijvoorbeeld *Core*
 * **Beperkingen:** uw huidige gebruik ten opzichte van de plangrenzen, bijvoorbeeld *1 van 100 actieve projecten*
 
 Plangrenzen voorkomen dat uw organisatie de capaciteit van het huidige plan overschrijdt. De indicator **Beperkingen** geeft aan hoe dicht u bij een limiet bent:
@@ -66,13 +90,16 @@ Plangrenzen voorkomen dat uw organisatie de capaciteit van het huidige plan over
 |---|---|---|
 | Minder dan 85% | Aantal in zwart weergegeven, bijvoorbeeld *1 van 100 actieve projecten* | Normaal – geen actie vereist |
 | 85% of meer | <i class="ph ph-warning" aria-label="Warning"></i> Aantal in rood weergegeven | Nadert de limiet |
-| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Aantal in rood weergegeven | Limiet bereikt – de functie is geblokkeerd |
+| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Aantal in rood weergegeven | Limiet bereikt – de functie is beperkt |
 
 Selecteer de indicator om de pagina [Plangrenzen][16] te openen voor meer informatie.
 
 Als u systeembeheerder bent, verschijnt er naast de waarschuwings- of stopindicator een knop **Upgrade**. Selecteer deze om een contactformulier te openen voor het aanvragen van meer capaciteit of een planupgrade.
 
 #### Diensten met datalimiet
+
+> [!NOTE]
+> Alleen beschikbaar bij abonnementen op modulebasis. Bij CRM Suite-abonnementen opent de knop **Mijn apps** de SuperOffice App Store.
 
 Klik op deze knop om het dashboard voor uw diensten met een datalimiet te openen.
 
@@ -126,6 +153,7 @@ Onder **Systeemmeldingen** vindt u de volgende kolommen:
 
 Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangeschaft voor een specifiek aantal gebruikers. Dit geldt onder andere voor de volgende producten:
 
+* CRM Suite
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -147,3 +175,9 @@ Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangesch
 [3]: https://help.superoffice.com/docs/11/nl/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

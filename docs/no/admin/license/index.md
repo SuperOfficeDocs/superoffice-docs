@@ -2,9 +2,9 @@
 uid: help-no-licenses
 title: CRM og lisenser
 description: CRM og lisenser
-keywords: lisens, brukerplan, Windows, målt tjeneste, databaseeier, status-fane
+keywords: lisens, brukerplan, målt tjeneste, databaseeier, status-fane
 author: digitaldiina, xt1
-date: 05.04.2026
+date: 06.10.2026
 version: 11.13
 content_type: concept
 category: Settings and maintenance
@@ -22,19 +22,30 @@ redirect_from:
 
 # SuperOffice og lisenser
 
-For å logge på SuperOffice CRM fra en webklient trenger du påloggingsrettigheter til SuperOffice CRM og en Essential eller en Premium brukerplan
+For å logge på SuperOffice CRM fra en webklient trenger du påloggingsrettigheter til SuperOffice CRM og en Essential eller en Premium brukerplan.
 
 ## Vise lisensinformasjon
 
 1. Gå til skjermbildet Lisenser under Innstillinger og vedlikehold.
 1. Velg **SuperOffice**-fanen.
-1. Listen viser lisensene du har [kjøpt og aktivert.][1] Klikk et lisensnavn for å vise mer informasjon om den.
+1. Listen viser lisensene du har [kjøpt og aktivert][1]. Klikk på et lisensnavn for å vise mer informasjon om den.
 
 ## Lisenser-bildet
 
 ### SuperOffice-fanen
 
-I fanen **SuperOffice** i Lisenser-bildet kan du vise og oppdatere lisensinformasjonen for din versjon av SuperOffice CRM og tilhørende moduler.
+Fanen **SuperOffice** viser lisensinformasjon for ditt SuperOffice-abonnement.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserte abonnementer](#tab/module-based)
+
+![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Hvis et tillegg fra tredjepart er installert, vises det flere faner her.
@@ -45,11 +56,24 @@ I fanen **SuperOffice** i Lisenser-bildet kan du vise og oppdatere lisensinforma
 
 #### Lisensliste
 
-Listen nederst viser hvilke lisenser som er i bruk, og hvor mange som er tilgjengelige. Klikk på et lisensnavn for å vise informasjon om den.
+Listen nederst viser hvilke lisenser som er i bruk, og hvor mange som er tilgjengelige.
 
 ### Fanen Status
 
-I **Status**-fanen i Lisenser-bildet finner du oppdatert informasjon om systemet. **Status**-bildet er inndelt i følgende hoveddeler:
+Oppdatert informasjon om systemet vises i fanen **Status** i Lisenser-bildet.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserte abonnementer](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+**Status**-bildet er inndelt i følgende hoveddeler:
 
 #### Database
 
@@ -57,7 +81,7 @@ Her vises databasens eier, serienummer, abonnement og type, som angis ved instal
 
 Hvis organisasjonen din har et **SuperOffice CRM Suite**-abonnement, viser **Database**-delen også:
 
-* **Plan:** planen som inngår i abonnementet ditt, for eksempel *SuperOffice Core Suite*
+* **Plan:** planen som inngår i abonnementet ditt, for eksempel *Core*
 * **Begrensninger:** gjeldende forbruk mot plangrensene dine, for eksempel *1 av 100 aktive prosjekter*
 
 Plangrenser hindrer organisasjonen din fra å overskride kapasiteten i gjeldende plan. Indikatoren **Begrensninger** viser hvor nær du er en grense:
@@ -66,13 +90,16 @@ Plangrenser hindrer organisasjonen din fra å overskride kapasiteten i gjeldende
 |---|---|---|
 | Under 85 % | Antall vist i svart, for eksempel *1 av 100 aktive prosjekter* | Normal – ingen handling nødvendig |
 | 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antall vist i rødt | Nærmer seg grensen |
-| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antall vist i rødt | Grense nådd – funksjonen er blokkert |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antall vist i rødt | Grense nådd – funksjonen er begrenset |
 
 Velg indikatoren for å åpne siden [Plangrenser][16] for mer informasjon.
 
 Hvis du er systemadministrator, vises en **Oppgrader**-knapp ved siden av advarsel- eller stoppindikatoren. Velg den for å åpne et kontaktskjema for å be om mer kapasitet eller planoppgradering.
 
 #### Forbruk
+
+> [!NOTE]
+> Kun tilgjengelig med modulbaserte abonnementer. På CRM Suite-abonnementer åpner knappen **Mine apper** SuperOffice App Store.
 
 Klikk på denne knappen for å åpne dashbord for ditt forbruk.
 
@@ -136,6 +163,7 @@ Det finnes også såkalte sitelisenser. En *site* i SuperOffice-termer tilsvarer
 
 Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antall brukere. Dette gjelder blant annet følgende produkter:
 
+* CRM Suite
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -157,3 +185,9 @@ Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antal
 [3]: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

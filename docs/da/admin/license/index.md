@@ -34,7 +34,18 @@ For at du kan logge på SuperOffice CRM fra en webklient kræves logonrettighede
 
 ### Fanen SuperOffice
 
-Under fanen **SuperOffice** i skærmbilledet Licenser kan du se og opdatere licensinformationen til din version af SuperOffice CRM og tilhørende moduler.
+Fanen **SuperOffice** viser licensoplysninger for dit SuperOffice-abonnement.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserede abonnementer](#tab/module-based)
+
+![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Hvis der er installeret en tredjepartstilføjelse, vises der flere faner her.
@@ -45,11 +56,24 @@ Under fanen **SuperOffice** i skærmbilledet Licenser kan du se og opdatere lice
 
 #### Licensliste
 
-Listen nederst viser, hvilke licenser der er i brug, og hvor mange der er tilgængelige. Klik på et licensnavn for at få vist oplysninger om licensen.
+Listen nederst viser, hvilke licenser der er i brug, og hvor mange der er tilgængelige.
 
 ### Fanen Status
 
-Opdaterede oplysninger om systemet vises under fanen **Status** i skærmbilledet Licenser. Skærmbilledet **Status** er inddelt i følgende hoveddele:
+Opdaterede oplysninger om systemet vises under fanen **Status** i skærmbilledet Licenser.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserede abonnementer](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+Skærmbilledet **Status** er inddelt i følgende hoveddele:
 
 #### Database
 
@@ -57,7 +81,7 @@ Her vises databasens ejer, serienummer, abonnement og type, som angives ved inst
 
 Hvis din organisation er på et **SuperOffice CRM Suite**-abonnement, viser **Database**-sektionen også:
 
-* **Plan:** den plan, der er inkluderet i dit abonnement, f.eks. *SuperOffice Core Suite*
+* **Plan:** den plan, der er inkluderet i dit abonnement, f.eks. *Core*
 * **Begrænsninger:** dit aktuelle forbrug i forhold til planens grænser, f.eks. *1 af 100 aktive projekter*
 
 Plangrænser forhindrer din organisation i at overskride kapaciteten i den aktuelle plan. Indikatoren **Begrænsninger** viser, hvor tæt du er på en grænse:
@@ -66,13 +90,16 @@ Plangrænser forhindrer din organisation i at overskride kapaciteten i den aktue
 |---|---|---|
 | Under 85 % | Antal vist med sort, f.eks. *1 af 100 aktive projekter* | Normal – ingen handling nødvendig |
 | 85 % eller mere | <i class="ph ph-warning" aria-label="Warning"></i> Antal vist med rødt | Nærmer sig grænsen |
-| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist med rødt | Grænse nået – funktionen er blokeret |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist med rødt | Grænse nået – funktionen er begrænset |
 
 Vælg indikatoren for at åbne siden [Plangrænser][16] for yderligere oplysninger.
 
 Hvis du er systemadministrator, vises en **Opgrader**-knap ud for advarsel- eller stopindikatoren. Vælg den for at åbne en kontaktformular for at anmode om mere kapacitet eller planopgradering.
 
 #### Forbrugstjenester
+
+> [!NOTE]
+> Kun tilgængeligt med modulbaserede abonnementer. På CRM Suite-abonnementer åbner knappen **Mine apps** SuperOffice App Store.
 
 Klik på denne knap for at åbne dashboardet for dine forbrugsafregnede tjenester.
 
@@ -126,6 +153,7 @@ Under **Systemmeddelelser** finder du følgende kolonner:
 
 Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal brugere. Dette gælder blandt andet følgende produkter:
 
+* CRM Suite
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -147,3 +175,9 @@ Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal
 [3]: https://help.superoffice.com/docs/11/da/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

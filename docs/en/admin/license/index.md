@@ -23,19 +23,30 @@ language: en
 
 # SuperOffice and licenses
 
-To log in to SuperOffice CRM from a web client, you need login rights to SuperOffice CRM and an Essential or a Premium user plan.
+To log in to SuperOffice CRM from a browser, you need login rights to SuperOffice CRM and a user license.
 
 ## View license information
 
 1. In Settings and maintenance, go to the Licences screen.
 1. Select the **SuperOffice** tab.
-1. The list shows the licenses you have [purchased and activated][1]. Click a license name to view more information about it.
+1. The list shows the licenses your organization has [purchased and activated][1]. Click a license name to view more information about it.
 
 ## The Licences screen
 
 ### The SuperOffice tab
 
-In the **SuperOffice** tab in the Licences screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
+The **SuperOffice** tab shows licence information for your SuperOffice subscription.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Module-based subscriptions](#tab/module-based)
+
+![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > If a third-party add-on is installed, several tabs are displayed here.
@@ -46,11 +57,24 @@ At the top is the company name (your company/organization) and serial number. If
 
 #### License list
 
-The list at the bottom shows which licenses are in use and how many are available. Click a license name to view information about a license.
+The list at the bottom shows which licenses are in use and how many are available.
 
 ### The Status tab
 
-Updated information about the system is displayed in the **Status** tab in the Licences screen. The **Status** screen is divided into the following main sections:
+Updated information about the system is displayed in the **Status** tab in the Licences screen.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Module-based subscriptions](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+The **Status** screen is divided into the following sections:
 
 #### Database
 
@@ -58,7 +82,7 @@ Shows the database owner, serial number, subscription, and type, which are speci
 
 If your organization is on a **SuperOffice CRM Suite** subscription, the **Database** section also shows:
 
-* **Plan:** the plan included in your subscription, for example, *SuperOffice Core Suite*
+* **Plan:** the plan included in your subscription, for example, *Core*
 * **Restrictions:** your current usage against one or more plan limits, for example, *1 of 100 active projects*
 
 Plan limits prevent your organization from exceeding the capacity included in your current plan. The **Restrictions** indicator reflects how close you are to a limit:
@@ -67,13 +91,16 @@ Plan limits prevent your organization from exceeding the capacity included in yo
 |---|---|---|
 | Below 85% | Count shown in black, for example, *1 of 100 active projects* | Normal – no action needed |
 | 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in red | Approaching the limit |
-| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Count shown in red | Limit reached – the feature is blocked |
+| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Count shown in red | Limit reached – the feature is restricted |
 
 Select the indicator to open the [Plan limits][16] page for more information.
 
 If you are a system administrator, an **Upgrade** button appears next to the warning or stop indicator. Select it to open a contact form to request more capacity or a plan upgrade.
 
 #### Metered services
+
+> [!NOTE]
+> Available on module-based subscriptions only. On CRM Suite subscriptions, select **My Apps** to open the SuperOffice App Store.
 
 Click this button to open the dashboard for your metered services.
 
@@ -127,6 +154,7 @@ Under **System notifications** you will find the following columns:
 
 Finally, there are user licenses for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
 
+* CRM Suite
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -156,3 +184,7 @@ Finally, there are user licenses for SuperOffice CRM, which are purchased for a 
 [15]: dev/hidden-licenses.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png
