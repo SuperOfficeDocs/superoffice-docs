@@ -1,28 +1,28 @@
 ---
 uid: help-da-crm-suite
-title: SuperOffice CRM Suite-planer
-description: Oversigt over de fem SuperOffice CRM Suite-planer, styring af pladser, plangrænser og prismodel.
+title: SuperOffice CRM Suite
+description: Oversigt over de 5 SuperOffice CRM Suite-planer, styring af pladser, plangrænser og prismodel.
 keywords: CRM Suite, plan, Starter, Core, Growth, Plus, Super, plangrænser, fencing, skalering, plads, abonnement
 author: digitaldiina
-date: 05.29.2026
+date: 06.10.2026
 version: 12.0
 content_type: concept
 tier: starter
-category: Settings and maintenance
+category: Indstillinger og vedligehold
 topic: licenses
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Indstillinger og vedligehold
 index: true
 language: da
 ---
 
-# SuperOffice CRM Suite-planer
+# SuperOffice CRM Suite
 
-SuperOffice CRM Suite leverer én samlet CRM-platform, der dækker salg, marketing og service. Alle brugere i din organisation deler én plan, og planen bestemmer, hvilke funktioner der er tilgængelige i hele organisationen.
+SuperOffice CRM Suite er en samlet, integreret CRM-platform, der dækker salg, marketing og service. Alle brugere i din organisation deler én plan, og planen bestemmer, hvilke funktioner der er tilgængelige i hele organisationen.
 
 ## <a id="plans"></a>Planer
 
-Fem planer er tilgængelige. Planerne er kumulative – hver plan inkluderer alt fra planerne nedenfor.
+Fem planer er tilgængelige. Planerne er kumulative — hver plan inkluderer alt fra planerne nedenfor.
 
 | Plan | Beskrivelse |
 | --- | --- |
@@ -36,18 +36,20 @@ Fem planer er tilgængelige. Planerne er kumulative – hver plan inkluderer alt
 
 Alle brugere i organisationen deler den samme plan. En **plads** er en navngiven bruger med indstillingen **Kan logge på** aktiveret.
 
-* Hvis du vil give en bruger adgang, skal du aktivere **Kan logge på** på brugerens brugerkort i **Indstillinger og vedligeholdelse** > **Brugere**.
+* Hvis du vil give en bruger adgang, skal du aktivere **Kan logge på** på brugerens brugerkort i **Indstillinger og vedligehold** > **Brugere**.
 * Hvis du vil frigøre en plads uden at fjerne brugerens data og historik, skal du deaktivere **Kan logge på** i stedet for at slette brugeren. Sletning af en bruger er permanent.
 
-Du kan se pladsforbrug i **Indstillinger og vedligeholdelse** > **Licenser** > **SuperOffice-fanen**.
+Du kan se pladsforbrug i **Indstillinger og vedligehold** > **Licenser** > fanen **SuperOffice**.
 
 ## Prismodel
 
 Dit abonnement har tre komponenter:
 
 * **Grundpris:** Et gebyr pr. bruger, der giver adgang til den fulde CRM Suite.
+
 * **Skaleringsmålinger:** Forbrugsbaseret prissætning for områder med højt forbrug. Planen inkluderer en grundkvote; yderligere kapacitet kan købes i blokke ved behov.
-* **Plangrænser (fencing):** Faste niveaubaserede grænser, der differentierer planerne. Overskridelse af en plangrænse blokerer den relaterede funktion, indtil du frigør kapacitet eller opgraderer planen.
+
+* **Plangrænser (fencing):** Faste niveaubaserede grænser, der differentierer planerne. Overskridelse af en plangrænse begrænser den relaterede funktion, indtil du frigør kapacitet eller opgraderer planen.
 
 ### Skaleringsmålinger
 
@@ -59,7 +61,7 @@ Skaleringsmålinger sporer løbende forbrug. Når forbruget overstiger grundkvot
 
 ### <a id="plan-limits"></a>Plangrænser
 
-Plangrænser er faste pr. niveau. Når en grænse nås, blokeres den relaterede funktion, indtil du reducerer forbruget eller opgraderer.
+Plangrænser er faste pr. niveau. Når en grænse nås, begrænses den relaterede funktion, indtil du reducerer forbruget eller opgraderer.
 
 | Grænse | Starter | Core | Growth | Plus | Super |
 | --- | --- | --- | --- | --- | --- |
@@ -70,19 +72,21 @@ Plangrænser er faste pr. niveau. Når en grænse nås, blokeres den relaterede 
 
 Både **kørende** og **pausede** flows tæller mod grænsen for aktive flows i Plus-planen. Et pauset flow betragtes stadig som aktivt, fordi det fortsætter med at indsamle indkommende personer til senere behandling.
 
-Indikatoren **Begrænsninger** i **Indstillinger og vedligeholdelse** > **Licenser** > **Status-fanen** > **Database** viser dit aktuelle forbrug i forhold til de enkelte plangrænser.
+Indikatoren **Begrænsninger** i **Indstillinger og vedligehold** > **Licenser** > fanen **Status** > **Database** viser dit aktuelle forbrug i forhold til de enkelte plangrænser.
 
 | Forbrug | Indikator | Betydning |
 | --- | --- | --- |
-| Under 85 % | Antal vist i sort | Normal – ingen handling påkrævet |
+| Under 85 % | Antal vist i sort | Normal — ingen handling påkrævet |
 | 85 % eller mere | <i class="ph ph-warning" aria-label="Warning"></i> Antal vist i rødt | Nærmer sig grænsen |
-| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist i rødt | Grænsen nået – funktionen er blokeret |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist i rødt | Grænsen nået — funktionen er begrænset |
+
+![Licences Status tab showing a plan limit warning with an Upgrade button -screenshot][img1]
 
 Hvis du er administrator, vises en **Opgrader**-knap ud for en advarsels- eller stopindikator. Vælg den for at åbne en kontaktformular til at anmode om mere kapacitet eller en planopgradering.
 
 ## Overgang fra SuperOffice CRM Online
 
-Organisationer, der migrerer fra **SuperOffice CRM Online** (det modulbaserede abonnement), placeres i den CRM Suite-plan, der svarer til den aktuelle licens.
+Organisationer, der migrerer fra **SuperOffice CRM Online** (det modulbaserede abonnement), placeres på den CRM Suite-plan, der svarer til den aktuelle licens. Hvis du havde flere licenser, er din plan baseret på det højeste licensniveau. Overgangstidspunktet fastsættes individuelt pr. konto — du vil blive kontaktet.
 
 | Nuværende licens | CRM Suite-plan |
 | --- | --- |
@@ -92,8 +96,6 @@ Organisationer, der migrerer fra **SuperOffice CRM Online** (det modulbaserede a
 | Sales Premium | Growth |
 | Service Premium | Growth |
 | Marketing Premium | Plus |
-
-Hvis du havde flere licenser, følger migreringen din aktuelle licens.
 
 ## Relateret indhold
 
@@ -106,3 +108,4 @@ Hvis du havde flere licenser, følger migreringen din aktuelle licens.
 [2]: user-plans.md
 [3]: activate.md
 
+[img1]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

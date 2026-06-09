@@ -1,22 +1,22 @@
 ---
 uid: help-sv-crm-suite
-title: SuperOffice CRM Suite-planer
-description: Översikt av de fem SuperOffice CRM Suite-planerna, hantering av platser, plangränser och prismodell.
+title: SuperOffice CRM Suite
+description: Översikt av de 5 SuperOffice CRM Suite-planerna, hantering av platser, plangränser och prismodell.
 keywords: CRM Suite, plan, Starter, Core, Growth, Plus, Super, plangränser, fencing, skalering, plats, prenumeration
 author: digitaldiina
-date: 05.29.2026
+date: 06.10.2026
 version: 12.0
 content_type: concept
 tier: starter
-category: Settings and maintenance
+category: Inställningar och underhåll
 topic: licenses
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Inställningar och underhåll
 index: true
 language: sv
 ---
 
-# SuperOffice CRM Suite-planer
+# SuperOffice CRM Suite
 
 SuperOffice CRM Suite tillhandahåller en samlad CRM-plattform för försäljning, marknadsföring och service. Alla användare i din organisation delar en plan, och planen bestämmer vilka funktioner som är tillgängliga i hela organisationen.
 
@@ -39,15 +39,17 @@ Alla användare i din organisation delar samma plan. En **plats** är en namngiv
 * Om du vill ge en användare åtkomst aktiverar du **Kan logga in** på deras användarkort i **Inställningar och underhåll** > **Användare**.
 * Om du vill frigöra en plats utan att ta bort användarens data och historik inaktiverar du **Kan logga in** i stället för att ta bort användaren. Borttagning av en användare är permanent.
 
-Du kan visa platsanvändning i **Inställningar och underhåll** > **Licenser** > **SuperOffice-fliken**.
+Du kan visa platsanvändning i **Inställningar och underhåll** > **Licenser** > fliken **SuperOffice**.
 
 ## Prismodell
 
 Ditt abonnemang har tre komponenter:
 
 * **Grundavgift:** En avgift per användare som ger tillgång till hela CRM Suite.
+
 * **Skaleringsmått:** Användningsbaserad prissättning för områden med hög förbrukning. Din plan inkluderar en grundkvot; ytterligare kapacitet kan köpas i block vid behov.
-* **Plangränser (fencing):** Fasta nivåbaserade gränser som differentierar planer. Om en plangräns överskrids blockeras den relaterade funktionen tills du frigör kapacitet eller uppgraderar planen.
+
+* **Plangränser (fencing):** Fasta nivåbaserade gränser som differentierar planer. Om en plangräns överskrids begränsas den relaterade funktionen tills du frigör kapacitet eller uppgraderar planen.
 
 ### Skaleringsmått
 
@@ -59,7 +61,7 @@ Skaleringsmått spårar löpande förbrukning. När din användning överstiger 
 
 ### <a id="plan-limits"></a>Plangränser
 
-Plangränser är fasta per nivå. När en gräns nås blockeras den relaterade funktionen tills du minskar användningen eller uppgraderar.
+Plangränser är fasta per nivå. När en gräns nås begränsas den relaterade funktionen tills du minskar användningen eller uppgraderar.
 
 | Gräns | Starter | Core | Growth | Plus | Super |
 | --- | --- | --- | --- | --- | --- |
@@ -70,19 +72,21 @@ Plangränser är fasta per nivå. När en gräns nås blockeras den relaterade f
 
 Både **pågående** och **pausade** flöden räknas mot gränsen för aktiva flöden i Plus-planen. Ett pausat flöde betraktas fortfarande som aktivt eftersom det fortsätter att samla in inkommande kontakter för senare behandling.
 
-Indikatorn **Begränsningar** i **Inställningar och underhåll** > **Licenser** > **Statusfliken** > **Databas** visar din aktuella användning jämfört med varje plangräns.
+Indikatorn **Begränsningar** i **Inställningar och underhåll** > **Licenser** > fliken **Status** > **Databas** visar din aktuella användning jämfört med varje plangräns.
 
 | Användning | Indikator | Innebörd |
 | --- | --- | --- |
 | Under 85 % | Antal visas i svart | Normalt — ingen åtgärd krävs |
 | 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antal visas i rött | Närmar sig gränsen |
-| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal visas i rött | Gränsen nådd — funktionen är blockerad |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal visas i rött | Gränsen nådd — funktionen är begränsad |
+
+![Licences Status tab showing a plan limit warning with an Upgrade button -screenshot][img1]
 
 Om du är administratör visas en **Uppgradera**-knapp bredvid en varnings- eller stoppindikator. Välj den för att öppna ett kontaktformulär och begära mer kapacitet eller en planuppgradering.
 
 ## Övergång från SuperOffice CRM Online
 
-Organisationer som migrerar från **SuperOffice CRM Online** (det modulbaserade abonnemanget) placeras i den CRM Suite-plan som matchar deras aktuella licens.
+Organisationer som migrerar från **SuperOffice CRM Online** (det modulbaserade abonnemanget) placeras i den CRM Suite-plan som matchar deras aktuella licens. Om du hade flera licenser baseras din plan på den licens som är på den högsta nivån. Tidpunkten för övergången fastställs individuellt per konto — du kommer att bli kontaktad.
 
 | Aktuell licens | CRM Suite-plan |
 | --- | --- |
@@ -92,8 +96,6 @@ Organisationer som migrerar från **SuperOffice CRM Online** (det modulbaserade 
 | Sales Premium | Growth |
 | Service Premium | Growth |
 | Marketing Premium | Plus |
-
-Om du hade flera licenser följer migreringen din aktuella licens.
 
 ## Relaterat innehåll
 
@@ -106,3 +108,4 @@ Om du hade flera licenser följer migreringen din aktuella licens.
 [2]: user-plans.md
 [3]: activate.md
 
+[img1]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png
