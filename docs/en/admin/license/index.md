@@ -90,10 +90,10 @@ Plan limits prevent your organization from exceeding the capacity included in yo
 | Usage | Indicator | Meaning |
 |---|---|---|
 | Below 85% | Count shown in black, for example, *1 of 100 active projects* | Normal – no action needed |
-| 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in red | Approaching the limit |
+| 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in yellow | Approaching the limit |
 | 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Count shown in red | Limit reached – the feature is restricted |
 
-Select the indicator to open the [Plan limits][16] page for more information.
+Select the indicator to open the [SuperOffice CRM Suite][16] page for more information.
 
 If you are a system administrator, an **Upgrade** button appears next to the warning or stop indicator. Select it to open a contact form to request more capacity or a plan upgrade.
 
@@ -154,7 +154,7 @@ Under **System notifications** you will find the following columns:
 
 Finally, there are user licenses for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
 
-* CRM Suite
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials

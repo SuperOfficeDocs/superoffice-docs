@@ -89,10 +89,10 @@ Plangrænser forhindrer din organisation i at overskride kapaciteten i den aktue
 | Forbrug | Indikator | Betydning |
 |---|---|---|
 | Under 85 % | Antal vist med sort, f.eks. *1 af 100 aktive projekter* | Normal – ingen handling nødvendig |
-| 85 % eller mere | <i class="ph ph-warning" aria-label="Warning"></i> Antal vist med rødt | Nærmer sig grænsen |
+| 85 % eller mere | <i class="ph ph-warning" aria-label="Warning"></i> Antal vist med gult | Nærmer sig grænsen |
 | 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist med rødt | Grænse nået – funktionen er begrænset |
 
-Vælg indikatoren for at åbne siden [Plangrænser][16] for yderligere oplysninger.
+Vælg indikatoren for at åbne siden [SuperOffice CRM Suite][16] for yderligere oplysninger.
 
 Hvis du er systemadministrator, vises en **Opgrader**-knap ud for advarsel- eller stopindikatoren. Vælg den for at åbne en kontaktformular for at anmode om mere kapacitet eller planopgradering.
 
@@ -153,7 +153,7 @@ Under **Systemmeddelelser** finder du følgende kolonner:
 
 Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal brugere. Dette gælder blandt andet følgende produkter:
 
-* CRM Suite
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials

@@ -89,10 +89,10 @@ Plangrenser hindrer organisasjonen din fra å overskride kapasiteten i gjeldende
 | Forbruk | Indikator | Betydning |
 |---|---|---|
 | Under 85 % | Antall vist i svart, for eksempel *1 av 100 aktive prosjekter* | Normal – ingen handling nødvendig |
-| 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antall vist i rødt | Nærmer seg grensen |
+| 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antall vist i gult | Nærmer seg grensen |
 | 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antall vist i rødt | Grense nådd – funksjonen er begrenset |
 
-Velg indikatoren for å åpne siden [Plangrenser][16] for mer informasjon.
+Velg indikatoren for å åpne siden [SuperOffice CRM Suite][16] for mer informasjon.
 
 Hvis du er systemadministrator, vises en **Oppgrader**-knapp ved siden av advarsel- eller stoppindikatoren. Velg den for å åpne et kontaktskjema for å be om mer kapasitet eller planoppgradering.
 
@@ -163,7 +163,7 @@ Det finnes også såkalte sitelisenser. En *site* i SuperOffice-termer tilsvarer
 
 Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antall brukere. Dette gjelder blant annet følgende produkter:
 
-* CRM Suite
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials

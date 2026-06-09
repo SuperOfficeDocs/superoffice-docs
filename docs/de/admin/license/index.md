@@ -89,10 +89,10 @@ Plangrenzen verhindern, dass Ihre Organisation die in Ihrem aktuellen Plan entha
 | Nutzung | Indikator | Bedeutung |
 |---|---|---|
 | Unter 85 % | Anzahl in Schwarz angezeigt, zum Beispiel *1 von 100 aktiven Projekten* | Normal – keine Aktion erforderlich |
-| 85 % oder mehr | <i class="ph ph-warning" aria-label="Warning"></i> Anzahl in Rot angezeigt | Annäherung an die Grenze |
+| 85 % oder mehr | <i class="ph ph-warning" aria-label="Warning"></i> Anzahl in Gelb angezeigt | Annäherung an die Grenze |
 | 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Anzahl in Rot angezeigt | Grenze erreicht – die Funktion ist eingeschränkt |
 
-Wählen Sie den Indikator aus, um die Seite [Plangrenzen][16] für weitere Informationen zu öffnen.
+Wählen Sie den Indikator aus, um die Seite [SuperOffice CRM Suite][16] für weitere Informationen zu öffnen.
 
 Wenn Sie Systemadministrator sind, erscheint neben dem Warn- oder Stoppindikator die Schaltfläche **Upgrade**. Wählen Sie sie aus, um ein Kontaktformular zu öffnen und mehr Kapazität oder ein Plan-Upgrade anzufordern.
 
@@ -163,7 +163,7 @@ Es gibt auch so genannte Standortlizenzen. Ein *Standort* in SuperOffice entspri
 
 Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bestimmte Anzahl von Benutzern erworben werden. Dies betrifft u. a. folgende Produkte:
 
-* CRM Suite
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials

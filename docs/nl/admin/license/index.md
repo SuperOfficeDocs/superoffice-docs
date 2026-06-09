@@ -89,10 +89,10 @@ Plangrenzen voorkomen dat uw organisatie de capaciteit van het huidige plan over
 | Gebruik | Indicator | Betekenis |
 |---|---|---|
 | Minder dan 85% | Aantal in zwart weergegeven, bijvoorbeeld *1 van 100 actieve projecten* | Normaal – geen actie vereist |
-| 85% of meer | <i class="ph ph-warning" aria-label="Warning"></i> Aantal in rood weergegeven | Nadert de limiet |
+| 85% of meer | <i class="ph ph-warning" aria-label="Warning"></i> Aantal in geel weergegeven | Nadert de limiet |
 | 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Aantal in rood weergegeven | Limiet bereikt – de functie is beperkt |
 
-Selecteer de indicator om de pagina [Plangrenzen][16] te openen voor meer informatie.
+Selecteer de indicator om de pagina [SuperOffice CRM Suite][16] te openen voor meer informatie.
 
 Als u systeembeheerder bent, verschijnt er naast de waarschuwings- of stopindicator een knop **Upgrade**. Selecteer deze om een contactformulier te openen voor het aanvragen van meer capaciteit of een planupgrade.
 
@@ -153,7 +153,7 @@ Onder **Systeemmeldingen** vindt u de volgende kolommen:
 
 Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangeschaft voor een specifiek aantal gebruikers. Dit geldt onder andere voor de volgende producten:
 
-* CRM Suite
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
