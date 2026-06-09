@@ -18,6 +18,12 @@ language: en
 
 # Module licenses
 
+The license system uses three main database tables:
+
+* [ModuleOwner][4] — an issuer of licenses. Initially only one row (SuperOffice). Contains global expiration dates.
+* [ModuleLicense][5] — one row per license. The admin panel shows only a subset; many licenses are hidden. Field details are covered below.
+* [LicenseAssocLink][6] — assigns one module license to one associate.
+
 | Field | Description |
 | --- | --- |
 | ModuleName | Code name: the "user" part of "superoffice.user" |
@@ -105,8 +111,17 @@ You could not enable the windows license without first checking the user license
 
 The travel license is unrestricted, so it does not have a counter to disable it.
 
+## User-license assignment
+
+[LicenseAssocLink][6] assigns one particular module license to one associate. That is how a user gets both a **user** license and a **web** license — each assignment is one record.
+
+The sum of licenses assigned to any particular module is limited to the number in `ModuleLicense`. A new license set from SuperLicense will not be accepted if more than the acquired number is already assigned.
+
 <!-- Referenced links-->
 [2]: <xref:SuperOffice.License.SoLicenseNames>
 [3]: hidden-licenses.md
+[4]: ../../../database/tables/ModuleOwner.md
+[5]: ../../../database/tables/ModuleLicense.md
+[6]: ../../../database/tables/LicenseAssocLink.md
 
 [img1]: ../../../../media/loc/en/admin/licenses-prereq.png

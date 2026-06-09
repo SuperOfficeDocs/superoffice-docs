@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-role-create
 title: Skapa roll
 description: Skapa roll
@@ -18,6 +18,8 @@ language: sv
 ---
 
 # Skapa en roll
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 > [!NOTE]
 > Det finns bara en roll för anonyma användare och du kan inte skapa nya.

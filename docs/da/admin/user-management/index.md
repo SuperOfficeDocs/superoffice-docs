@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-da-users
 title: Brugere
 description: Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette brugerroller og grupper og hjælper brugerne med opsætning og WebTools.
@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
-redirect_from: 
+redirect_from:
   - /da/admin/user-management/learn/index
   - /da/admin/user-management/learn/screen/index
   - /da/admin/user-management/learn/visibility
@@ -41,14 +41,6 @@ Hvert dataobjekt tilhører en bruger som kan være dig selv (a), brugere i din p
 
 Ejerskabet af forskellige dataobjekter er sat i forskellige felter. For eksempel angiver feltet **Vores kontakt** i firma‑kortet ejeren af posten. For opfølgninger er det feltet **Ejer**, i projektet **Ansvarlig**, og så videre.
 
-## <a id="visible"></a>Synlig for
-
-Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den rolle du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I dokumenter og opfølgningsdialogerne og på skærmene Salg og Udvalg er der et felt ved navn **Synlig for**. På skærmen Salg kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
-
-Dette kræver licensen **Fortrolige aktiviteter**.
-
-For at indstille denne licens skal du finde den ønskede bruger, klikke på fanen **Licenser** og derefter klikke på afkrydsningsfeltet for **Fortrolige aktiviteter**.
-
 ## Brugertyper
 
 * **Medarbejdere**: SuperOffice CRM-brugere (i dit firma)
@@ -67,9 +59,6 @@ Under fanen **Medarbejdere** i skærmbilledet Brugere kan du blandt andet tilfø
 
 For at en person skal kunne defineres som SuperOffice CRM-bruger, skal den pågældende være registreret hos et firma, som vises på listen **Firma** i skærmbilledet Brugere. Og for at et firma skal kunne vises på listen **Firma** i skærmbilledet Brugere, skal firmaet vises på firmalisten på fanen **Vores firmaer**.
 
-> [!NOTE]
-> I skærmbilledet Brugere angiver du, hvilke licenser de forskellige brugere skal have. Hvis du vil tilføje nye systemlicenser eller øge/reducere antallet af licenser for et eller flere moduler, skal du kontakte SuperOffice for at [opdatere licensoplysningerne][16].
-
 ## Brugergrupper
 
 En **gruppe** tildeles brugeren og giver adgang til dataobjekter (4 i forrige diagram). En bruger skal have en **primær gruppe** og kan have flere **andre grupper**.
@@ -78,15 +67,13 @@ En **gruppe** tildeles brugeren og giver adgang til dataobjekter (4 i forrige di
 
 I dette eksempel har bruger A Marketing som anden gruppe og bruger B har Marketing som primær gruppe. I dette tilfælde, hvis bruger A vil se data oprettet af bruger B, skal bruger A’s rolle have rettigheden "Læs" ud for alle dataobjekter i kolonnen *Anden gruppe*. Det skyldes, at Marketing‑gruppen er anden gruppe for bruger A og forbinder dem til de poster, bruger B opretter.
 
-En gruppe kan også give adgang til listeelementer (5 i diagrammet) i SuperOffice CRM. Dette gælder kun, hvis du bruger indstillingen **Gruppering og filtrering** (a) på dine lister. Hvis denne indstilling ikke er oprettet, har alle brugere adgang til alle lister i SuperOffice CRM. Gruppering og filtrering er særligt nyttig, når mange brugere med forskellige ansvarsområder kan tilgå systemet. På denne måde kan du undgå, at visse brugere får adgang til information, de ikke bør se.
+En gruppe kan også give adgang til listeelementer i SuperOffice CRM. Dette gælder kun, hvis du bruger indstillingen **Gruppering og filtrering** på dine lister. Hvis denne indstilling ikke er oprettet, har alle brugere adgang til alle lister i SuperOffice CRM. Gruppering og filtrering er særligt nyttig, når mange brugere med forskellige ansvarsområder kan tilgå systemet. På denne måde kan du undgå, at visse brugere får adgang til information, de ikke bør se.
 
 ![Gruppering og filtrering efter brugergruppe for dokument­skabelon­lister –screenshot][img6]
 
-For eksempel, hvis du ønsker at gøre et bestemt listeelement synligt kun for nogle brugere, skal du gå til den liste, der gemmer disse elementer (a), vælge elementet (b) og i boksen kaldet "Synlig for brugergrupper", sætte et hak ved de brugergrupper, der skal se listeelementet (c).
+For eksempel, hvis du ønsker at gøre et bestemt listeelement synligt kun for nogle brugere, skal du gå til den liste, der gemmer disse elementer, vælge elementet og i boksen kaldet "Synlig for brugergrupper", sætte et hak ved de brugergrupper, der skal se listeelementet.
 
-![Vælg præference­niveau gruppe for opfølgning –screenshot][img7]
-
-At organisere dine brugere i grupper er også praktisk, når du ønsker at personalisere SuperOffice‑indstillinger, som vi kalder [præferencer][15] (6). Hver præference kan sættes for én bruger, brugergruppe eller for hele systemet.
+At organisere dine brugere i grupper er også praktisk, når du ønsker at personalisere SuperOffice‑indstillinger, som vi kalder [præferencer][15]. Hver præference kan sættes for én bruger, brugergruppe eller for hele systemet.
 
 ![Præferencer for Salgs‑gruppe –screenshot][img8]
 
@@ -95,8 +82,6 @@ At organisere dine brugere i grupper er også praktisk, når du ønsker at perso
 I skærmbilledet Brugere kan du tilføje og redigere forskellige brugertyper.
 
 ![En oversigt over brugerskærmen i Indstillinger og vedligeholdelse -screenshot][img3]
-
-[**vores virksomheder:**][2] For at en person skal kunne defineres som SuperOffice CRM-bruger, skal den pågældende være registreret hos et firma, som vises på listen **Firma** i skærmbilledet Brugere. Og for at et firma skal kunne vises på listen **Firma** i skærmbilledet Brugere, skal firmaet vises på firmalisten på fanen **Vores firmaer**.
 
 > [!NOTE]
 > Eventuelle ændringer, du foretager i skærmbilledet Brugere, træder ikke i kraft, før du klikker på **Gem** nederst i skærmbilledet, eller bekræfter, at du vil gemme ændringen/ændringerne, i dialogboksen som vises. Hvis du klikker på **Afbryd**, mister du alt det, du har foretaget i skærmbilledet, siden du gemte sidst.
@@ -113,21 +98,17 @@ Listen under fanen **Medarbejdere** består som standard af følgende kolonner:
 | Primærgruppe | Brugerens primære gruppe. |
 | Rolle | [Rollen][6], som er angivet for brugeren. Rollen definerer, hvilke adgangsrettigheder brugeren har til data i SuperOffice CRM. |
 | Brugerplan | Brugerplanen, som er tildelt brugeren. |
-| Ejerfirma | Navnet på den organisation, brugeren tilhører (defineret som databaseejer). |
 
 > [!TIP]
 > Du kan vælge, hvilke kolonner der skal vises på listen. Højreklik på en kolonneoverskrift, og vælg de relevante kolonner på kolonnelisten. Hvis du vil ændre rækkefølgen af kolonnerne, skal du klikke og trække i en kolonneoverskrift.
 
-* **Søg efter brugere:** Brug denne dynamiske søgefunktion til hurtigt at finde bestemte brugere efter navn eller bruger-ID eller til at finde alle brugere, der tilhører bestemte roller, grupper eller brugerplaner. Du skal blot indtaste tekst i søgefeltet for at opdatere listen med tilsvarende brugere.
+* **Søg efter brugere:** Brug denne dynamiske søgefunktion til hurtigt at finde bestemte brugere efter navn eller bruger-ID eller til at finde alle brugere, der tilhører bestemte roller, grupper eller brugerplaner (SuperOffice CRM Online). Du skal blot indtaste tekst i søgefeltet for at opdatere listen med tilsvarende brugere.
 
 * **Vis kun brugere, der kan logge på:** Vælg denne indstilling for kun at få vist brugere, der er aktive (dvs. ikke er blevet deaktiveret).
 
 #### Filtrering af listen <i class="ph ph-funnel" aria-hidden="true"></i>
 
-Du kan filtrere listen over brugere efter en hvilken som helst af kolonneoverskrifterne.
-
-> [!NOTE]
-> Højreklik på en kolonne for at tilføje eventuelle yderligere kolonner, du vil filtrere efter.
+Du kan filtrere listen over brugere efter en hvilken som helst af kolonneoverskrifterne. Højreklik på en kolonne for at tilføje eventuelle yderligere kolonner, du vil filtrere efter.
 
 1. Gå til fanen **Medarbejdere**.
 1. Højreklik på en kolonneoverskrift, eller klik på <i class="ph ph-gear" aria-label="Gear"></i> i øverste højre hjørne af listen.
@@ -140,10 +121,7 @@ Du kan filtrere listen over brugere efter en hvilken som helst af kolonneoverskr
 
 #### Gruppering af listen
 
-Du kan gruppere listen over brugere efter rolle, brugerplan, primær gruppe og lignende. Derudover kan du gruppere på flere niveauer.
-
-> [!NOTE]
-> Højreklik på en kolonne for at tilføje eventuelle yderligere kolonner, du vil filtrere efter (se også [Juster visninger][14]).
+Du kan gruppere listen over brugere efter rolle, brugerplan (SuperOffice CRM Online), primær gruppe og lignende. Derudover kan du gruppere på flere niveauer. Højreklik på en kolonne for at tilføje eventuelle yderligere kolonner, du vil filtrere efter (se også [Juster visninger][14]).
 
 1. Gå til fanen **Medarbejdere**.
 1. Højreklik på en kolonneoverskrift, eller klik på <i class="ph ph-gear" aria-label="Gear"></i> i øverste højre hjørne af listen.
@@ -165,17 +143,13 @@ Det fulde navn, e-mailadresse og ejerfirma vises øverst. Nederst i dette afsnit
 
 Der er forskellige faner i brugeroversigten:
 
-* **Detaljer** - hovedoversigt over brugeroplysninger som **Bruger-ID**, **Rolle**, **Brugerplan**, **Primær gruppe** og **Service-kategorier**.
-* **Licenser** - ekstra licensoplysninger som **Fortrolige aktiviteter**, som vil give brugeren mulighed for at angive **synlig for** på opfølgingerr, dokumenter og valg.
-* **Mere** - fanen viser, om der er ekstra felter på personen.
+* **Detaljer:** hovedoversigt over brugeroplysninger som **Bruger-ID**, **Rolle**, **Brugerplan** (SuperOffice CRM Online), **Primær gruppe** og **Service-kategorier**.
+* **Licenser:** ekstra licensoplysninger som **Fortrolige aktiviteter**, som vil give brugeren mulighed for at angive **synlig for** på opfølgingerr, dokumenter og valg.
+* **Mere:** fanen viser, om der er ekstra felter på personen.
 
 ### <a id="our-companies"></a>Vores virksomheder
 
-Formålet med virksomhedslisten på fanen **Vores virksomheder**på skærmbilledet Brugere er at angive:
-
-* Hvem kan defineres som brugere af SuperOffice CRM. For at en person skal kunne defineres som SuperOffice CRM-bruger, skal den pågældende være registreret hos et firma, som vises på listen **Firma** i skærmbilledet Brugere. Og for at et firma skal kunne vises på listen **Firma** i skærmbilledet Brugere, skal firmaet vises på firmalisten på fanen **Vores firmaer**.
-
-* Hvilke virksomheder kan defineres som ejere af en satellit.
+For at en person skal kunne defineres som SuperOffice CRM-bruger, skal den pågældende være registreret hos et firma, som vises på listen **Firma** i skærmbilledet Brugere. Og for at et firma skal kunne vises på listen **Firma** i skærmbilledet Brugere, skal firmaet vises på firmalisten på fanen **Vores firmaer**.
 
 #### Kolonner på virksomhedslisten
 
@@ -189,15 +163,33 @@ Formålet med virksomhedslisten på fanen **Vores virksomheder**på skærmbilled
 
 ### Brugerlicenser
 
-På fanen **Brugerlicenser** på Brugerskærmen kan du se, hvor mange brugerlicenser der er i brug, og hvilke brugere der bruger de forskellige licenser.
+På fanen **Brugerlicenser** på skærmbilledet Brugere kan du se, hvilke licenser der er i brug, og hvilke brugere der har dem.
 
-* Klik på en licens på listen **Brugerlicenser** for at få vist en liste over de brugere, der aktuelt bruger denne licens.
+* Klik på et licensnavn på listen **Brugerlicenser** for at få vist de brugere, der aktuelt er tildelt det.
+* Hold musemarkøren over et licensnavn for at se detaljerede oplysninger.
 
-* Hold musemarkøren over et licensnavn for at se detaljerede oplysninger om licensen.
+I modulbaserede abonnementer viser listen de enkelte brugerplanlicenser (f.eks. Sales Premium eller Service Essentials) med det tilhørende antal pladser.
+
+I abonnementer på **SuperOffice CRM Suite** viser listen din aktive plan og det samlede antal pladser – for eksempel *Core (20)*. Der er ingen tildeling af brugerplaner pr. bruger; alle pladser er inkluderet i din organisations plan.
 
 ### Brugergrupper
 
 På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik over brugere og brugergrupper. Klik på et gruppenavn på **listen Tilgængelige grupper** for at få vist en liste over de brugere, der aktuelt er tildelt denne gruppe.
+
+## <a id="visible"></a>Synlig for
+
+Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den rolle du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I dokumenter og opfølgningsdialogerne og på skærmene Salg og Udvalg er der et felt ved navn **Synlig for**. På skærmen Salg kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
+
+Dette kræver licensen **Fortrolige aktiviteter**. For at indstille denne licens:
+
+1. [!include[Gå til Brugere](includes/goto-users.md)]
+1. Vælg fanen **Medarbejdere**.
+1. Dobbeltklik på den bruger, du vil give adgang til fortrolige aktiviteter.
+1. Vælg fanen **Licenser**, og marker afkrydsningsfeltet **Fortrolige aktiviteter**.
+
+    ![Brugerstyring, afkrydsningsfelt for Fortrolige aktiviteter -screenshot][img9]
+
+1. Klik på **Gem**.
 
 ## Relateret indhold
 
@@ -205,6 +197,8 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 * [Tilføj en ny bruger][2]
 * [Opret brugergruppe][3]
 * [Ændre brugerplaner for aktive brugere][17]
+* [Aktivér og opdater licenser][16]
+* [CRM Suite-planer][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -215,7 +209,8 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png
@@ -223,5 +218,5 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [img3]: ../../../media/loc/en/admin/admin-users-overview.png
 [img5]: ../../../media/loc/en/admin/groups.png
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
-[img7]: ../../../media/loc/en/admin/follow-up-type.png
-[img8]: ../../../media/loc/en/admin/sales-group.png
+[img8]: ../../../media/loc/en/admin/diary-preferences-for-sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-no-role-create
 title: Opprette rolle
 description: Opprette rolle
@@ -18,6 +18,8 @@ language: no
 ---
 
 # Opprett en rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 > [!NOTE]
 > Det finnes bare én rolle for anonyme brukere, og du kan ikke opprette nye.

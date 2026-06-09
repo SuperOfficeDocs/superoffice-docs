@@ -34,7 +34,18 @@ Zum Einloggen bei SuperOffice CRM von einem Web-Client benötigen Sie Login-Rech
 
 ### Die Registerkarte SuperOffice
 
-In der Registerkarte **SuperOffice** können Sie in der Ansicht Lizenzen die Lizenzinformationen für Ihre SuperOffice CRM-Version und die dazugehörigen Module anzeigen und aktualisieren.
+Die Registerkarte **SuperOffice** zeigt Lizenzinformationen für Ihr SuperOffice-Abonnement an.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbasierte Abonnements](#tab/module-based)
+
+![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Wenn ein Add-on eines Drittanbieters installiert ist, werden hier mehrere Registerkarten angezeigt.
@@ -45,11 +56,24 @@ Oben finden Sie den Firmennamen (Ihre Firma/Organisation) und die Seriennummer. 
 
 #### Lizenzliste
 
-Die Liste unten zeigt an, welche Lizenzen belegt und wie viele Lizenzen verfügbar sind. Klicken Sie auf einen Lizenznamen, um Informationen über eine Lizenz anzuzeigen.
+Die Liste unten zeigt an, welche Lizenzen belegt und wie viele Lizenzen verfügbar sind.
 
 ### Registerkarte Status
 
-Aktualisierte Informationen zum System werden auf der Registerkarte **Status** in der Ansicht Lizenzen angezeigt. Die Ansicht **Status** ist in die folgenden Hauptbereiche unterteilt:
+Aktualisierte Informationen zum System werden auf der Registerkarte **Status** in der Ansicht Lizenzen angezeigt.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbasierte Abonnements](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+Die Ansicht **Status** ist in die folgenden Hauptbereiche unterteilt:
 
 #### Datenbank
 
@@ -57,7 +81,7 @@ Zeigt den bei der Installation festgelegten Datenbankbesitzer, die Seriennummer,
 
 Wenn Ihre Organisation über ein **SuperOffice CRM Suite**-Abonnement verfügt, werden im Abschnitt **Datenbank** auch folgende Informationen angezeigt:
 
-* **Plan:** der im Abonnement enthaltene Plan, zum Beispiel *SuperOffice Core Suite*
+* **Plan:** der im Abonnement enthaltene Plan, zum Beispiel *Core*
 * **Einschränkungen:** Ihre aktuelle Nutzung gegenüber den Plangrenzen, zum Beispiel *1 von 100 aktiven Projekten*
 
 Plangrenzen verhindern, dass Ihre Organisation die in Ihrem aktuellen Plan enthaltene Kapazität überschreitet. Der Indikator **Einschränkungen** zeigt, wie nah Sie an einer Grenze sind:
@@ -65,14 +89,17 @@ Plangrenzen verhindern, dass Ihre Organisation die in Ihrem aktuellen Plan entha
 | Nutzung | Indikator | Bedeutung |
 |---|---|---|
 | Unter 85 % | Anzahl in Schwarz angezeigt, zum Beispiel *1 von 100 aktiven Projekten* | Normal – keine Aktion erforderlich |
-| 85 % oder mehr | <i class="ph ph-warning" aria-label="Warning"></i> Anzahl in Rot angezeigt | Annäherung an die Grenze |
-| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Anzahl in Rot angezeigt | Grenze erreicht – die Funktion ist gesperrt |
+| 85 % oder mehr | <i class="ph ph-warning" aria-label="Warning"></i> Anzahl in Gelb angezeigt | Annäherung an die Grenze |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Anzahl in Rot angezeigt | Grenze erreicht – die Funktion ist eingeschränkt |
 
-Wählen Sie den Indikator aus, um die Seite [Plangrenzen][16] für weitere Informationen zu öffnen.
+Wählen Sie den Indikator aus, um die Seite [SuperOffice CRM Suite][16] für weitere Informationen zu öffnen.
 
 Wenn Sie Systemadministrator sind, erscheint neben dem Warn- oder Stoppindikator die Schaltfläche **Upgrade**. Wählen Sie sie aus, um ein Kontaktformular zu öffnen und mehr Kapazität oder ein Plan-Upgrade anzufordern.
 
 #### Gemessene Dienstleistungen
+
+> [!NOTE]
+> Nur bei modulbasierten Abonnements verfügbar. Bei CRM Suite-Abonnements öffnet die Schaltfläche **Meine Apps** den SuperOffice App Store.
 
 Klicken Sie auf diese Schaltfläche, um das Dashboard für Ihre gemessenen Dienstleistungen zu öffnen.
 
@@ -136,69 +163,13 @@ Es gibt auch so genannte Standortlizenzen. Ein *Standort* in SuperOffice entspri
 
 Schließlich gibt es noch Benutzerpläne für SuperOffice CRM, die für eine bestimmte Anzahl von Benutzern erworben werden. Dies betrifft u. a. folgende Produkte:
 
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
 * Service-Premium
 * Marketing-Essentials
 * Marketing-Premium
-
-### Standortlizenzen und Benutzerlizenzen (Windows - Legacy)
-
-Lizenzen für SuperOffice CRM für Windows (letzte Version [SuperOffice G8 8.5 R17][6]) werden für eine bestimmte Anzahl von Benutzern erworben.
-
-## <a id="dev"></a>Hinter den Kulissen – das Lizenzsystem
-
-Das Lizenzsystem verfügt über eigene Datenbanktabellen:
-
-* [ModuleOwner][11] – ein Lizenzanbieter
-  * In der Regel nur eine Zeile (SuperOffice).
-  * Enthält globale Ablaufdaten.
-
-* [ModuleLicense][12] – eine Zeile pro Lizenz
-  * Es gibt mehr Lizenzen, als im GUI sichtbar sind – einige sind ausgeblendet.
-  * Verschiedene Typen: System, Standort, Benutzer; ein-/ausschaltbar oder mit definierter Anzahl.
-  * Sichtbare Lizenzen (wie Benutzerpläne) werden in der Admin-Oberfläche angezeigt. Benutzerpläne haben `ExtraFlags = 1`.
-  * Versteckte Lizenzen (z. B. **user**-Anmeldung oder **web**-Clientlizenz) sind nicht sichtbar, werden aber im Code geprüft.
-
-| Lizenztyp | ModuleLicense.Type | Beschreibung |
-|---|---|---|
-| **Systemlizenzen** | 1 | Definieren, welche Funktionen systemweit verfügbar sind. <br />Beispiel: Die **saint**-Lizenz ist vorhanden, wenn Sales Intelligence aktiviert ist. Diese Lizenz ist verborgen (nicht auf der Preisliste) und wird implizit aktiviert. Der SuperOffice-Client prüft dies und aktiviert SAINT-Funktionen entsprechend. |
-| **Standortlizenzen** | 2 | Heute kaum noch verwendet. Ursprünglich für Satellitenlösungen genutzt, bei denen Lizenzen standortbasiert vergeben wurden. |
-| **Benutzerlizenzen** | 3 | Lizenzen, die einzelnen Benutzern zugewiesen werden. Die Anzahl der Zuweisungen darf die verfügbare Anzahl nicht überschreiten. <br />Einige Benutzerlizenzen sind ausgeblendet, um die Benutzeroberfläche zu vereinfachen. Diese werden über Benutzerpläne aktiviert. <br />Benutzerpläne haben `ModuleLicense.ExtraFlags = 1` und definieren implizite Lizenzen im Feld `ExtraInfo`, z. B.:<br>`"set=user,web,chat-cal"` weist automatisch die Lizenzen **user**, **web** und **chat-cal** zu. |
-
-### Zuweisung von Benutzerlizenzen
-
-[LicenseAssocLink][13] – weist eine bestimmte `moduleLicense`-Zeile einem bestimmten Benutzer zu. So wird „Max“ Benutzer und Windows-Client-Benutzer – das ergibt zwei Einträge.
-
-Die Summe der zugewiesenen Lizenzen darf den in `moduleLicense` definierten Wert nicht überschreiten. Ein neues Lizenzpaket von SuperLicense wird abgelehnt, wenn bereits zu viele Lizenzen vergeben wurden.
-
-### Lizenzsignierung
-
-Lizenzen werden mit öffentlichen/privaten Schlüsseln signiert.
-
-Der private Schlüssel ist streng geschützt. Ohne ihn kann kein funktionierender Lizenzcode-Generator erstellt werden.
-
-Jede `moduleLicense`-Zeile wird signiert und alle Einträge werden mit einem Hash versehen, um Manipulationen zu erschweren.
-
-**Zusammenfassung:** Wenn du sie änderst, funktionieren sie nicht mehr. Nur SoAdmin und NetServer können sie bearbeiten.
-Hacker können DLLs manipulieren, aber keinen funktionierenden Keycode-Generator für unmodifizierten Code erstellen.
-
-### Benutzer zählen
-
-Es gibt zwei Ansätze:
-
-#### 1: Lizenz abrufen und Anzahl user/web-Lizenzen auslesen
-
-Benutzer benötigen sowohl **user**- als auch **web**-Lizenzen, um sich bei SuperOffice Web anzumelden. Diese Zahl ist die Obergrenze, nicht die Anzahl der tatsächlich verwendeten Lizenzen.
-
-Manche Kunden verfügen über viele Lizenzen, weil sie per Nutzung zahlen (SCIM). Zähle in solchen Fällen die aktiven Benutzer – nicht die verfügbaren Lizenzen.
-
-#### 2: Lizenz abrufen und Anzahl aktiver ExtraFlags = 1-Lizenzen summieren
-
-Benutzerpläne sind das, wofür der Kunde bezahlt. Sie enthalten mehrere implizite, versteckte Lizenzen.
-
-Dasselbe gilt bei SCIM: Zähle die genutzten Benutzerpläne, nicht die Gesamtanzahl.
 
 ## Verwandte Inhalte
 
@@ -213,8 +184,10 @@ Dasselbe gilt bei SCIM: Zähle die genutzten Benutzerpläne, nicht die Gesamtanz
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/de/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
-[13]: ../../../en/database/tables/LicenseAssocLink.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-license-activate
 title: Lizenz aktivieren
 description: Lizenz für SuperOffice aktivieren
@@ -42,7 +42,7 @@ Wenn die Gesamtanzahl der neuen Lizenzen niedriger ist als die Anzahl der belegt
     * **Neue Lizenz aktivieren** – Eine neue Lizenz ist verfügbar, sie kann jedoch nicht automatisch aktiviert werden. Klicken Sie auf die Verknüpfung, um das Dialogfeld **Neue Lizenz aktivieren** zu öffnen. In der Liste werden nur geänderte Lizenzen angezeigt.
 
     > [!CAUTION]
-    > Wenn eine falsche Anzahl an Lizenzen oder Lizenzen für das falsche Modul angezeigt werden, kontaktieren Sie SuperOffice. Aktivieren Sie die Lizenzen NICHT, wenn deren Anzahl falsch ist.
+    > Wenn die Anzahl der Lizenzen falsch ist — oder bei modulbasierten Abonnements, wenn Sie Lizenzen für das falsche Modul haben — wenden Sie sich an SuperOffice. Aktivieren Sie die Lizenzen NICHT, bevor die Informationen korrekt sind.
 
 1. Klicken Sie im Dialogfeld auf die Schaltfläche **Aktivieren**.
 

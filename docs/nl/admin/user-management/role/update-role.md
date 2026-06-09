@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-role-edit
 title: Rol bijwerken
 description: Een rol bewerken.
@@ -20,6 +20,8 @@ language: nl
 ---
 
 # Rol bijwerken
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Om een [rol][3] bij te werken of te verwijderen, selecteer je eerst de rol op het tabblad **Medewerkers**.
 

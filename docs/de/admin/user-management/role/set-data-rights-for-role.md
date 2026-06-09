@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-role-set-data-rights
 title: Datenrechten für Rolle festlegen
 description: Datenrechten für Rolle festlegen
@@ -18,6 +18,8 @@ language: de
 ---
 
 # Datenrechte für eine Rolle festlegen
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Sie können Rechte für Datenobjekte festlegen, die davon abhängen, wer Eigentümer des Objekts ist. Alle Benutzer, die zu dieser [Rolle][2] gehören, werden je nach den hier vorgenommenen Einstellungen Rechte zugeordnet.
 

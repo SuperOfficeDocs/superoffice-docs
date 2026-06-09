@@ -1,5 +1,6 @@
----
+﻿---
 uid: help-sv-user-plans
+title: Användarplaner och prenumerationer
 description: SuperOffice användarplaner och prenumerationer
 keywords: användarplan, licens, essential, premium
 author: digitaldiina, xt1
@@ -14,16 +15,19 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 tier: starter
+redirect_from:
+  - /sv/admin/license/change-user-plan
+  - /sv/admin/user-management/learn/change-user-plan
 language: sv
 ---
 
 # SuperOffice användarplaner och prenumerationer
 
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
+
 Du kan välja mellan tre fristående **lösningar** – Sales, Marketing och Service – anpassade efter olika roller i din organisation. Varje lösning finns i två nivåer: **Essential** och **Premium**. Hitta de planer som passar bäst för din applikation.
 
 Alla lösningar kan ha olika tillägg. Ett tillägg är en mjukvaru­utökning som lägger till extra funktionalitet. Det kan utöka vissa funktioner i gränssnittet eller tillföra helt ny kapacitet.
-
-Användarplaner identifieras genom att fältet `ExtraFlags` är satt till 1 i modullicensen och att `ExtraInfo` innehåller `"set="`.
 
 ## Gemensamma funktioner i alla planer och nivåer
 
@@ -179,26 +183,39 @@ Dessa kan kombineras som:
 * [Expander Services][5]
 * [Kalendersynkronisering][6]
 
-## Hur påverkar användarplaner min app?
+## <a id="change"></a>Ändra användarplaner för aktiva användare
 
-En kund kan välja en av följande faktureringsperioder för sin CRM-lösning:
+När medarbetare tar på sig nya uppgifter eller får en ny tjänst på företaget kan du behöva ändra deras användarplaner. Du kan ge användarna åtkomst till nya funktioner genom att ändra deras användarplaner under Inställningar och underhåll.
 
-* varje månad
-* var tredje månad
-* var sjätte månad
-* årligen
+### Steg
 
-Avtalstiden är 12 månader. Efter de första 12 månaderna förnyas den automatiskt enligt vald faktureringscykel.
+1. Klicka på **Användare** under Inställningar och underhåll.
 
-Kunder kan kombinera planer efter behov. De kan också lägga till eller ändra användarplaner senare.
+1. Välj den aktiva användare vars användarplan behöver ändras i fönstret för medarbetare.
 
-Du bör ta hänsyn till denna flexibilitet vid integration av funktioner och fastställande av din prismodell.
+    Kontrollera att de har rätt Roll och tillhör rätt Primärgrupp.
+
+1. Välj önskad användarplan i fältet för Användarplan.
+
+1. Klicka på Spara. Nästa gång användaren loggar in i SuperOffice CRM kommer de nya funktionerna att vara tillgängliga.
+
+> [!TIP]
+> Ge användarna den utbildning de behöver och följ upp hur det går så att de snabbare kommer igång med de nya funktionerna.
+
+## Relaterat innehåll
+
+* [Hur användarplaner är konstruerade][9]
+* [Lägg till ny användare][10]
+* [Rollöversikt][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

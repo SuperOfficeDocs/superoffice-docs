@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-no-role-set-data-rights
 title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
@@ -18,6 +18,8 @@ language: no
 ---
 
 # Angi datarettigheter for rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan angi rettigheter for dataobjekter  basert på hvem som eier objektet. Alle brukere som tilhører denne [rollen][2], tilordnes rettigheter basert på innstillingene du gjør her.
 

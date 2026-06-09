@@ -13,7 +13,7 @@ audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: 
+redirect_from:
   - /en/online/identity/role/index
   - /en/admin/user-management/learn/role/index
 language: en
@@ -64,6 +64,8 @@ Administrators have access to the Settings and maintenance section. This is wher
 If you do not want users to have access to Settings and maintenance, assign user level 1 or higher, depending on the access they need.
 
 ## Manage your roles
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 In the Roles section, you can [determine what type of access][3] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the data rights and/or the different [functional rights][6].
 

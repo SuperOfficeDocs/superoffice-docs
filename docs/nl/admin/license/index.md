@@ -2,9 +2,9 @@
 uid: help-nl-licenses
 title: SuperOffice en licenties
 description: SuperOffice en licenties
-keywords: licentie, gebruikersplan, gemeten service, database-eigenaar, tabblad Status
+keywords: licentie, gebruikersplan, dienst met datalimiet, database-eigenaar, tabblad Status
 author: digitaldiina, xt1
-date: 05.04.2026
+date: 06.10.2026
 version: 11.13
 content_type: concept
 category: Settings and maintenance
@@ -28,13 +28,24 @@ Toegang tot SuperOffice CRM vanuit een webclient vereist aanmeldrechten voor Sup
 
 1. Ga in Instellingen en onderhoud naar het scherm Licenties.
 1. Selecteer het tabblad **SuperOffice**.
-1. De lijst toont de licenties die u hebt [gekocht en geactiveerd][1]. Klik op een licentienaam om meer informatie over de licentienaam weer te geven.
+1. De lijst toont de licenties die u hebt [gekocht en geactiveerd][1]. Klik op een licentienaam om meer informatie erover weer te geven.
 
 ## Het scherm Licenties
 
 ### Het tabblad SuperOffice
 
-In het tabblad **SuperOffice** in het scherm Licenties kunt u de licentiegegevens voor uw versie van SuperOffice CRM en de bijbehorende modules weergeven en bijwerken.
+Het tabblad **SuperOffice** toont licentiegegevens voor uw SuperOffice-abonnement.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Abonnementen op modulebasis](#tab/module-based)
+
+![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Als een uitbreiding van derden is geïnstalleerd, worden hier verschillende tabbladen weergegeven.
@@ -45,11 +56,24 @@ Bovenaan vindt u de bedrijfsnaam (uw bedrijf/organisatie) en het serienummer. Al
 
 #### Licentielijst
 
-De lijst onderin toont welke licenties in gebruik zijn en hoeveel er beschikbaar zijn. Klik op een licentienaam om informatie over een licentie weer te geven.
+De lijst onderin toont welke licenties in gebruik zijn en hoeveel er beschikbaar zijn.
 
 ### Het tabblad Status
 
-U vindt bijgewerkte informatie over het systeem in het tabblad **Status** op het scherm Licenties. Het scherm **Status** is verdeeld in de volgende hoofdonderdelen:
+Bijgewerkte informatie over het systeem wordt weergegeven op het tabblad **Status** in het scherm Licenties.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Abonnementen op modulebasis](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+Het scherm **Status** is verdeeld in de volgende hoofdonderdelen:
 
 #### Database
 
@@ -57,7 +81,7 @@ Geeft informatie over de eigenaar, het serienummer, het abonnement en het type v
 
 Als uw organisatie een **SuperOffice CRM Suite**-abonnement heeft, worden in de sectie **Database** ook de volgende gegevens weergegeven:
 
-* **Plan:** het plan dat bij uw abonnement is inbegrepen, bijvoorbeeld *SuperOffice Core Suite*
+* **Plan:** het plan dat bij uw abonnement is inbegrepen, bijvoorbeeld *Core*
 * **Beperkingen:** uw huidige gebruik ten opzichte van de plangrenzen, bijvoorbeeld *1 van 100 actieve projecten*
 
 Plangrenzen voorkomen dat uw organisatie de capaciteit van het huidige plan overschrijdt. De indicator **Beperkingen** geeft aan hoe dicht u bij een limiet bent:
@@ -65,14 +89,17 @@ Plangrenzen voorkomen dat uw organisatie de capaciteit van het huidige plan over
 | Gebruik | Indicator | Betekenis |
 |---|---|---|
 | Minder dan 85% | Aantal in zwart weergegeven, bijvoorbeeld *1 van 100 actieve projecten* | Normaal – geen actie vereist |
-| 85% of meer | <i class="ph ph-warning" aria-label="Warning"></i> Aantal in rood weergegeven | Nadert de limiet |
-| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Aantal in rood weergegeven | Limiet bereikt – de functie is geblokkeerd |
+| 85% of meer | <i class="ph ph-warning" aria-label="Warning"></i> Aantal in geel weergegeven | Nadert de limiet |
+| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Aantal in rood weergegeven | Limiet bereikt – de functie is beperkt |
 
-Selecteer de indicator om de pagina [Plangrenzen][16] te openen voor meer informatie.
+Selecteer de indicator om de pagina [SuperOffice CRM Suite][16] te openen voor meer informatie.
 
 Als u systeembeheerder bent, verschijnt er naast de waarschuwings- of stopindicator een knop **Upgrade**. Selecteer deze om een contactformulier te openen voor het aanvragen van meer capaciteit of een planupgrade.
 
 #### Diensten met datalimiet
+
+> [!NOTE]
+> Alleen beschikbaar bij abonnementen op modulebasis. Bij CRM Suite-abonnementen opent de knop **Mijn apps** de SuperOffice App Store.
 
 Klik op deze knop om het dashboard voor uw diensten met een datalimiet te openen.
 
@@ -126,69 +153,13 @@ Onder **Systeemmeldingen** vindt u de volgende kolommen:
 
 Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangeschaft voor een specifiek aantal gebruikers. Dit geldt onder andere voor de volgende producten:
 
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
 * Service-Premium
 * Marketing-Essentials
 * Marketing-Premium
-
-### Site- en gebruikerslicenties (Windows - verouderd)
-
-Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5 R17][6]) worden aangeschaft voor een specifiek aantal gebruikers.
-
-## <a id="dev"></a>Achter de schermen – het licentiesysteem
-
-Het licentiesysteem heeft een eigen set databasetabellen:
-
-* [ModuleOwner][11] – een uitgever van licenties
-  * Meestal slechts één rij (SuperOffice).
-  * Bevat globale vervaldatums.
-
-* [ModuleLicense][12] – één rij per licentie
-  * Er zijn meer licenties dan zichtbaar in de GUI – sommige zijn verborgen.
-  * Meerdere typen: Systeem, locatie, gebruiker; aan/uit of met een vastgesteld aantal.
-  * Zichtbare licenties (zoals gebruikersplannen) zijn zichtbaar in de Admin-interface. Gebruikersplannen hebben `ExtraFlags = 1`.
-  * Verborgen licenties (zoals **user** login of **web** webclientlicentie) worden niet weergegeven in de GUI, maar gecontroleerd in de code om functies te activeren.
-
-| Licentietype | ModuleLicense.Type | Beschrijving |
-|---|---|---|
-| **Systeemlicenties** | 1 | Bepalen welke functies beschikbaar zijn in het hele systeem. <br />Voorbeeld: De **saint**-licentie is aanwezig als Sales Intelligence is ingeschakeld. Deze licentie is verborgen (niet op de prijslijst) en wordt impliciet geactiveerd. De SuperOffice-client controleert op deze licentie om SAINT-functies in te schakelen. |
-| **Locatielicenties** | 2 | Worden tegenwoordig zelden gebruikt. In het verleden gebruikt in satellietomgevingen waarbij licenties aan specifieke locaties werden toegewezen. |
-| **Gebruikerslicenties** | 3 | Licenties die direct aan gebruikers worden toegewezen. Het aantal toewijzingen mag het beschikbare aantal niet overschrijden. <br />Sommige gebruikerslicenties zijn verborgen om de gebruikersinterface te vereenvoudigen. Deze worden geactiveerd via gebruikersplannen. <br />Gebruikersplannen hebben `ModuleLicense.ExtraFlags = 1` en bepalen impliciete licenties via het veld `ExtraInfo`, bijvoorbeeld:<br>`"set=user,web,chat-cal"` wijst automatisch de licenties **user**, **web** en **chat-cal** toe. |
-
-### Gebruikerslicenties toewijzen
-
-[LicenseAssocLink][13] – wijst een specifieke `moduleLicense` toe aan een gebruiker. Zo wordt “Jan” een gebruiker en Windows-clientgebruiker: dit levert twee records op.
-
-Het aantal toegekende licenties mag het aantal in `moduleLicense` niet overschrijden. Een nieuw licentiepakket van SuperLicense wordt geweigerd als het maximum al is bereikt.
-
-### Licentieondertekening
-
-Licenties worden ondertekend met een publieke/private sleutel.
-
-De private sleutel is strikt beveiligd. Zonder deze sleutel is het onmogelijk om een geldige keycodegenerator te maken.
-
-Elke rij in `moduleLicense` wordt ondertekend, en alle rijen worden geverifieerd met een hash om manipulatie te voorkomen.
-
-**Samenvatting:** Als je ze aanpast, werken ze niet meer. Alleen SoAdmin en NetServer kunnen ze bewerken.
-Hackers kunnen DLL-bestanden aanpassen, maar geen geldige licentiegenerator maken voor onaangetaste code.
-
-### Gebruikers tellen
-
-Er zijn twee methodes:
-
-#### 1: Licentie ophalen en aantal user/web-licenties lezen
-
-Gebruikers hebben zowel **user** als **web** nodig om in te loggen op de SuperOffice Web-client. Dit aantal is de bovengrens – het geeft niet aan hoeveel er in gebruik zijn.
-
-Sommige klanten hebben grote aantallen licenties omdat ze op gebruik betalen via SCIM. Tel daarom het werkelijke aantal actieve gebruikers, niet het totaal aantal beschikbare licenties.
-
-#### 2: Licentie ophalen en aantal actieve ExtraFlags = 1-licenties optellen
-
-Gebruikersplannen zijn waarvoor klanten betalen. Ze bevatten meerdere impliciete, verborgen licenties.
-
-Zelfde SCIM-uitzondering: tel het aantal actieve gebruikersplannen – niet het totaal beschikbare aantal.
 
 ## Gerelateerde inhoud
 
@@ -203,8 +174,10 @@ Zelfde SCIM-uitzondering: tel het aantal actieve gebruikersplannen – niet het 
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/nl/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
-[13]: ../../../en/database/tables/LicenseAssocLink.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

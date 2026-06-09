@@ -50,7 +50,7 @@ Administrators can disconnect a SuperID user from a partner in the SuperOffice D
 <!-- Referenced links -->
 [1]: manage-technical-contacts.md
 [2]: ../../admin/user-management/update-user.md#delete
-[3]: ../../admin/license/change-user-plan.md
+[3]: ../../admin/license/user-plans.md#change
 
 <!-- Referenced images -->
 [img1]: media/reassign-technical.png

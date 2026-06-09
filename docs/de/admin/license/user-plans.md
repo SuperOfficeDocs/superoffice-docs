@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-de-user-plans
 title: Benutzerpläne
 description: SuperOffice Benutzerpläne und Abonnements
@@ -9,18 +9,25 @@ version: 10.3.5
 content_type: concept
 deployment: online
 platform: web
+category: Settings and maintenance
+topic: licenses
+audience: settings
+audience_tooltip: Settings and maintenance
 index: true
 tier: starter
+redirect_from:
+  - /de/admin/license/change-user-plan
+  - /de/admin/user-management/learn/change-user-plan
 language: de
 ---
 
 # SuperOffice Benutzerpläne und Abonnements
 
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
+
 Sie können zwischen drei eigenständigen **Lösungen** wählen – Sales, Marketing und Service – basierend auf verschiedenen Rollen in Ihrem Unternehmen. Jede Lösung bietet zwei Stufen: **Essential** und **Premium**. Finden Sie die richtigen Pläne als Grundlage für Ihre Anwendung.
 
 Alle Lösungen können durch Add-ons erweitert werden. Ein Add-on ist eine Softwareerweiterung, die zusätzliche Funktionen bereitstellt. Es kann bestehende Funktionen im Programm ergänzen oder neue Funktionen hinzufügen.
-
-Benutzerpläne werden durch das Feld `ExtraFlags = 1` in der jeweiligen Modullizenz sowie dem `"set="`-Eintrag im Feld `ExtraInfo` identifiziert.
 
 ## Gemeinsame Funktionen in allen Plänen und Stufen
 
@@ -176,26 +183,39 @@ Mögliche Kombinationen:
 * [Expander Services][5]
 * [Kalendersynchronisierung][6]
 
-## Wie beeinflussen Benutzerpläne meine App?
+## <a id="change"></a>Benutzerpläne für aktive Benutzer ändern
 
-Ein Kunde kann eine der folgenden Abrechnungszeiträume für seine CRM-Lösung wählen:
+Wenn Mitarbeiter neue Aufgaben übernehmen oder einen neuen Job in Ihrer Firma bekommen, müssen Sie vielleicht ihren Benutzerplan ändern. Sie können Benutzern den Zugriff auf neue Funktionen gewähren, indem Sie ihren Benutzerplan im Bereich Einstellungen und Verwaltung ändern.
 
-* monatlich
-* vierteljährlich
-* halbjährlich
-* jährlich
+### Schritte
 
-Der Vertragszeitraum beträgt 12 Monate. Danach verlängert sich der Vertrag automatisch entsprechend der gewählten Abrechnungsperiode.
+1. Klicken Sie in Einstellungen und Verwaltung auf **Benutzer**.
 
-Kunden können Pläne kombinieren, die am besten zu ihren Anforderungen passen. Sie können Benutzerpläne auch später hinzufügen oder ändern.
+1. Wählen Sie im Fenster für Mitarbeiter den aktiven Benutzer aus, dessen Benutzerplan geändert werden muss.
 
-Diese Flexibilität sollten Sie bei der Integration und Preisgestaltung berücksichtigen.
+    Stellen Sie sicher, dass sie die richtige Rolle haben und zur richtigen Primärgruppe gehören.
+
+1. Wählen Sie im Feld Benutzerplan den gewünschten Benutzerplan aus.
+
+1. Klicken Sie auf "Speichern". Wenn sich der Benutzer das nächste Mal bei SuperOffice CRM einloggt, wird er über die verfügbaren neuen Funktionen und Features auf informiert.
+
+> [!TIP]
+> Geben Sie dem Benutzer die notwendige Schulung und Folgeaufgabe für seiner Fortschritte, damit er die neuen Funktionen schneller übernimmt.
+
+## Verwandte Inhalte
+
+* [Wie Benutzerpläne aufgebaut sind][9]
+* [Neuen Benutzer hinzufügen][10]
+* [Rollenübersicht][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

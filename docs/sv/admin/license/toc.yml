@@ -1,11 +1,11 @@
-items:
+﻿items:
 - name: Introduktion
   href: index.md
-- name: Aktivera licens
-  href: activate.md
+- name: CRM Suite-planer
+  href: crm-suite.md
 - name: Användarplaner
   href: user-plans.md
-- name: Ändra användarplan
-  href: change-user-plan.md
+- name: Aktivera licens
+  href: activate.md
 - name: Expander services
   href: expander-services.md

@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-license-activate
 title: Licentie activeren
 description: Licentie voor SuperOffice activeren
@@ -42,7 +42,7 @@ Als het totaal aantal nieuwe licenties minder is dan het aantal licenties in geb
     * **Nieuwe licentie activeren** – nieuwe licentie is beschikbaar maar kan niet automatisch worden geactiveerd. Klik op de koppeling om het dialoogvenster **Nieuwe licentie activeren** te openen. De lijst toont enkel gewijzigde licenties.
 
     > [!CAUTION]
-    > Als u het verkeerde aantal licenties hebt of licenties voor de verkeerde module, moet u contact opnemen met SuperOffice. Activeer de licenties NIET als het aantal onjuist is.
+    > Als het aantal licenties onjuist is — of bij modulegebaseerde abonnementen, als u licenties voor de verkeerde module hebt — neem dan contact op met SuperOffice. Activeer de licenties NIET voordat de informatie correct is.
 
 1. Klik op de knop **Activeren** in het dialoogvenster.
 

@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-nl-role
 title: Rol
 description: Rol
@@ -59,6 +59,8 @@ Beheerders hebben toegang tot de sectie Instellingen en onderhoud. Hier kunt u g
 Als u niet wilt dat gebruikers toegang hebben tot instellingen en onderhoud, wijst u gebruikersniveau 1 of hoger toe, afhankelijk van de toegang die ze nodig hebben.
 
 ## Uw rollen beheren
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 In de sectie Rollen kunt u [bepalen welk type toegang][3] uw gebruikers hebben tot de verschillende onderdelen van SuperOffice CRM. U kunt ook elk gebruikersniveau aanpassen door de gegevensrechten en/of de verschillende [functionele rechten][6] te wijzigen.
 

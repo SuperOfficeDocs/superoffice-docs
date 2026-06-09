@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-sv-role
 title: Roll
 description: Roll
@@ -59,6 +59,8 @@ Administratörer har åtkomst till sektionen Inställningar och underhåll. Där
 Om du inte vill att användaren ska ha tillgång till Inställningar och underhåll tilldelar du behörighet 1 eller högre beroende på vilken åtkomst de behöver.
 
 ## Hantera dina roller
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 I sektionen Roller kan du [definiera vilken typ av åtkomst][3] dina användare har till olika delar av SuperOffice CRM. Du kan också anpassa varje användarnivå genom att ändra databehörigheter och/eller [funktionella behörigheter][6].
 

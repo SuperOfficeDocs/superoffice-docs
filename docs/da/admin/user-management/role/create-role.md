@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-da-role-create
 title: Oprettelse af rolle
 description: Oprettelse af rolle
@@ -18,6 +18,8 @@ language: da
 ---
 
 # Oprettelse af en rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 > [!NOTE]
 > Der findes kun én rolle til anonyme brugere, og du kan ikke oprette nye.

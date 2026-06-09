@@ -1,4 +1,4 @@
----
+﻿---
 uid: help-da-role-set-data-rights
 title: Angiv datarettigheder for rolle
 description: Angiv datarettigheder for rolle
@@ -18,6 +18,8 @@ language: da
 ---
 
 # Angivelse af datarettigheder for rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan angive rettigheder for dataobjekter baseret på, hvem der ejer objektet. Alle brugere, der tilhører denne [rolle][2] tildeles rettigheder baseret på de indstillinger, du foretager her.
 

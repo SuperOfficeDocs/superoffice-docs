@@ -13,13 +13,15 @@ audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: 
+redirect_from:
   - /en/admin/user-management/learn/role/editing-role
   - /en/admin/user-management/learn/role/deleting-role
 language: en
 ---
 
 # Update role
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 To update or delete a [role][3], start by selecting the role from the **Associates** tab.
 

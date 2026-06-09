@@ -30,6 +30,6 @@ This involves:
 1. Download a license for a given serial number + company name.
 1. Install the downloaded license into the tenant using the Agent or REST API.
 
-At this point the new licenses will appear as a new panel in admin, alongside the SuperOffice tab.
+At this point the new licenses will appear as a new panel in Settings and maintenance, alongside the **SuperOffice** tab.
 
 You can check for your own licenses in the same way as SuperOffice licenses.
