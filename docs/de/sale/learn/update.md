@@ -4,8 +4,8 @@ title: Einen Verkauf aktualisieren
 description: So aktualisieren Sie bestehende Verkaufsinformationen, ändern die Verkaufsstufe (einschließlich Markierung als pausiert, gewonnen oder verloren) oder löschen einen Verkauf, wenn er nicht mehr relevant ist.
 keywords: Verkauf aktualisieren, Verkauf bearbeiten, Verkauf löschen, pausiert, verloren, gewonnen, Verkauf
 author: digitaldiina
-date: 05.11.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

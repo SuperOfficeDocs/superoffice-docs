@@ -4,8 +4,8 @@ title: Sales Intelligence (SAINT)
 description: I denne guide lærer du, hvordan SAINT kan skabe fremskridt i dine salgs- og kundeprocesser samt forbedre workflows.
 keywords: SAINT, statusovervågning
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

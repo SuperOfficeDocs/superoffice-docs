@@ -4,8 +4,8 @@ title: Create a new contact
 description: How to create contact in SuperOffice.
 keywords: create contact, add interest, Interests tab, contact image, preferred language, legal basis, contact, person
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: person
@@ -51,7 +51,7 @@ You can add a contact to SuperOffice CRM in multiple ways:
 
     ![Contact Details tab with additional fields -screenshot][img2]
 
-1. Go to the **Interests tab** to set interests and subscriptions:
+1. Go to the **Interests** tab to set interests and subscriptions:
 
     * Check the boxes for relevant interests (defined in Settings and maintenance).
     * Configure **E-marketing/subscriptions** for legal consent on email campaigns.
@@ -119,7 +119,7 @@ The following fields are available in the Contact card. Some fields are filled a
 **Communication details:**
 
 * **Website:** Enter a URL for the contact's website, LinkedIn, Facebook, or other pages. Include a title for clarity.
-* **Chat**: Add chat application addresses (such as, Microsoft Teams, Google Chat). Select a service provider from the list.
+* **Chat**: Add chat application addresses (such as Microsoft Teams or Google Chat). Select a service provider from the list.
 * **Internet phone:** Add a VOIP address, such as Skype or another internet-based phone service.
 * **Direct fax:** Enter the contact's fax number.
 

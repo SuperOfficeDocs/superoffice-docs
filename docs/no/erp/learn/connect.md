@@ -4,8 +4,8 @@ title: Knytte til ERP
 description: Knytte til ERP
 keywords: knytte til ERP, knytte firma til ERP, knytte person til ERP, knytte prosjekt til ERP, ingen treff i ERP, opprett i ERP, opprette aktør, ERP-aktør, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

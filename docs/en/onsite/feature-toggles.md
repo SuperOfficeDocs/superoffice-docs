@@ -4,7 +4,7 @@ title: Feature toggles
 description: Feature toggles
 keywords: feature toggle, FeatureToggles, feature_toggle, web.config, SuperOffice.config
 author: Bergfrid Dias, Frode Berntsen
-date: 03.19.2025
+date: 06.10.2026
 content_type: howto
 deployment: onsite
 platform: web

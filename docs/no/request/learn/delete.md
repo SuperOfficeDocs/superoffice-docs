@@ -4,8 +4,8 @@ title: Slette saker
 description: Slik sletter du en sak i SuperOffice
 keywords: sak, slette sak
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: howto
 functional_right: Service-administrasjon, Generell administrator
 license: serviceessentials

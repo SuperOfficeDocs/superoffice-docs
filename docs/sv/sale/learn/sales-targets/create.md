@@ -4,8 +4,8 @@ title: Ställ in försäljningsmål
 description: Håll koll på dina budgetar genom att ställa in försäljningsmål. Det hjälper dig att skapa rätt förväntningar, planera tillväxt, öka motivationen och spara tid.
 keywords: försäljningsmål
 author: digitaldiina
-date: 05.11.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth

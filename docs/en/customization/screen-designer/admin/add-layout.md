@@ -4,8 +4,8 @@ title: Add layout
 description: How to add a screen layout using the Screen Designer in Settings and maintenance.
 keywords: add layout, new layout, screen layout, Assign layouts to
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

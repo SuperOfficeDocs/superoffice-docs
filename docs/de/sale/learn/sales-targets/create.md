@@ -4,8 +4,8 @@ title: Verkaufsziele festlegen
 description: Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Dies wird Ihnen helfen, die richtigen Erwartungen zu setzen, Ihr Wachstum zu planen, die Motivation zu steigern und Zeit zu sparen.
 keywords: Vertriebsziele
 author: digitaldiina
-date: 05.11.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth

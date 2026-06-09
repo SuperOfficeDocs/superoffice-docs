@@ -4,8 +4,8 @@ title: Het tabblad Meer
 description: Leer hoe u het tabblad Meer in SuperOffice CRM gebruikt om door de gebruiker gedefinieerde velden voor bedrijven, personen, verkopen, projecten, vervolgactiviteiten en documenten te bekijken en te beheren.
 keywords: tabblad Meer, Meer-tabblad, udef, door de gebruiker gedefinieerd veld, extra veld, aangepast veld
 author: Bergfrid Skaara Dias
-date: 05.11.2026
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

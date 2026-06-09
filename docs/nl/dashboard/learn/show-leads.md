@@ -4,8 +4,8 @@ title: Dashboard voor leads
 description: Maak dashboards voor uw salesleads om prestaties, trends en productiviteit over alle leadactiviteiten te volgen en te analyseren.
 keywords: dashboard, leads, sales, UTM-gegevens, leadtegel
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead

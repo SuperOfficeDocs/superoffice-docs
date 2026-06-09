@@ -4,8 +4,8 @@ title: Database customizations
 description: There are 3 ways to customize the database schema - user-defined fields; extra fields; extra tables
 keywords: custom object, custom field, udef, extra table, extra field, user-defined field, UDefField, updatedCount, udefidentity
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: reference
 tier: core
 audience: api

@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-en-license-activate
 title: Activate license
 description: Activate license for SuperOffice
 keywords: activate license
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 category: Settings and maintenance
@@ -76,4 +76,4 @@ If the total number of new licenses is less than the number of licenses in use, 
 [1]: index.md
 [3]: index.md#types
 
-<!-- Referenced images -->
+

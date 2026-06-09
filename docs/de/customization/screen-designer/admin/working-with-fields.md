@@ -4,8 +4,8 @@ title: Arbeiten mit Feldern
 description: So fügen Sie Felder in einem Layout mit dem Ansichtsdesigner in Einstellungen und Verwaltung hinzu, verschieben und löschen sie.
 keywords: Feld hinzufügen, neues Feld, Feld verschieben, Feld entfernen, Feld ausblenden, Layout bearbeiten, Feldeinstellungen
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

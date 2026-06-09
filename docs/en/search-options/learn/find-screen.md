@@ -4,8 +4,8 @@ title: Find screen
 description: How to find all items of a specific type that match conditions, run a predefined search, or save a search as a selection.
 keywords: Find screen, typical search, search criteria, OR function
 author: SuperOffice Product and engineering
-date: 08.25.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: person

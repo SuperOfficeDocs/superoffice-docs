@@ -4,7 +4,7 @@ title: Update project
 description: How to update a project in SuperOffice Mobile CRM.
 keywords: edit project, update project, add project member, remove project member, change status, next status, previous status, project phase, project
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 tier: core

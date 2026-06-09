@@ -3,7 +3,7 @@ uid: help-sv-customer-centre
 title: Kundcenter
 description: Kundcenter
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundcenter
 content_type: concept
 tier: growth

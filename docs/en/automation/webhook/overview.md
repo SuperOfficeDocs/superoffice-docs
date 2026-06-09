@@ -4,7 +4,7 @@ title: SuperOffice Webhooks
 description: Introduction to SuperOffice Webhooks.
 keywords: automation, webhook
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 content_type: concept
 tier: core
 language: en

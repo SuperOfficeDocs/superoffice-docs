@@ -4,8 +4,8 @@ title: Layout hinzufügen
 description: Wie man ein neues Layout für eine Benutzergruppe hinzufügt.
 keywords: Layout hinzufügen, neues Layout, Bildschirmlayout, Layouts zuweisen zu
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

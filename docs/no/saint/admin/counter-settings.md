@@ -4,8 +4,8 @@ title: Tellere og tellerinnstillinger
 description: Definer og konfigurer tellere for SAINT
 keywords: SAINT, statusovervåking, teller, periode
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

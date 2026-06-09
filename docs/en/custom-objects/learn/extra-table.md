@@ -4,8 +4,8 @@ title: Third-party tables
 description: Introduction to SuperOffice extra tables
 keywords: database, extra table, custom object, 3rd-party table
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: core
 language: en

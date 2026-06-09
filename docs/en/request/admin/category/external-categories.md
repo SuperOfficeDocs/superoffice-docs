@@ -4,8 +4,8 @@ title: Work with external categories
 description: Work with external categories
 keywords: external category, customer language
 author: digitaldiina
-date: 05.11.2026
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 category: localization

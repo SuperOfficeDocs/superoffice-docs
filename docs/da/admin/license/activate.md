@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-da-license-activate
 title: Aktivering af licens
 description: Aktivere licens til SuperOffice
 keywords: aktiver licens
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: Settings and maintenance
 topic: licenses

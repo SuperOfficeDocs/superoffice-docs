@@ -4,8 +4,8 @@ title: Verkauf
 description: SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Vertriebspipelines und -prozesse zu behalten.
 keywords: Verkaufskarte, Verkaufsansicht, Verkauf, Lead
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salesessentials
 tier: starter

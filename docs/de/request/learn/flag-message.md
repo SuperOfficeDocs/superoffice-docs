@@ -4,8 +4,8 @@ title: Nachrichten nachverfolgen
 description: So behalten Sie den Überblick über Nachrichten in einer Anfrage
 keywords: Anfrage, Nachricht, Markierung, Kennzeichnung, Flagge
 author: digitaldiina
-date: 05.11.2026
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

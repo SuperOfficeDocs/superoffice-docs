@@ -4,8 +4,8 @@ title: Vertriebsziele
 description: Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu behalten, ist eine der wichtigsten Funktionen in SuperOffice CRM. Mit Hilfe unserer Verkaufsziel-Funktion können Sie Ihre tatsächlichen Verkäufe mit Ihren Zielen vergleichen.
 keywords: Vertriebsziele
 author: digitaldiina
-date: 05.11.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth

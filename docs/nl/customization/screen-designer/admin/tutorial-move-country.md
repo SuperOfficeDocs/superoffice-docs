@@ -4,8 +4,8 @@ title: Tutorial - Land vooraan plaatsen
 description: In deze tutorial leert u hoe u het veld land op een bedrijf- of persoonscherm kunt verplaatsen.
 keywords: land veld, schermontwerper
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance

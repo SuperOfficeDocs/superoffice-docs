@@ -4,8 +4,8 @@ title: Work with reply templates
 description: Work with reply templates
 keywords: view reply template, find reply template, reply template, ready-made text, knowledge base
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base

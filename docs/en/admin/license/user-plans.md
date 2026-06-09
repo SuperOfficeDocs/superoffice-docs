@@ -4,8 +4,8 @@ title: User plans and subscriptions
 description: Learn about SuperOffice user plans and subscriptions, and how to change a user plan for active users in Settings and maintenance.
 keywords: user plan, license, essential, premium
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 deployment: online
@@ -44,7 +44,7 @@ All solutions can have different add-ons. An add-on is a software extension that
   * Documents and templates
   * Language support
   * MS SharePoint documents
-  * Google Workplace documents
+  * Google Workspace documents
 * Email
   * SuperOffice inbox
   * SuperOffice for Outlook 365

@@ -4,8 +4,8 @@ title: Opret en sag
 description: Lær, hvordan du opretter en ny sag i SuperOffice.
 keywords: opret sag, ny sag, sagsdetaljer, sagsegenskaber, meddelelse, sagsbehandling
 author: digitaldiina
-date: 05.11.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

@@ -4,8 +4,8 @@ title: Uppdatera aktivitetsövervakning
 description: Uppdatera aktivitetsövervakning
 keywords: SAINT, aktivitetsövervakning, standardhändelsetyp, ta bort statusövervakning, återställ statusövervakning, kriterier, regenerera statusövervakning, regenerera räknare
 author: SuperOffice Product and Engineering
-date: 09.22.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll

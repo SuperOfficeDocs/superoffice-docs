@@ -3,7 +3,7 @@ title: Customer Centre
 uid: customer-center
 description: Customer Centre
 author: SuperOffice Product and Engineering
-date: 03.16.2023
+date: 06.10.2026
 keywords: Customer Center, CEP
 content_type: concept
 index: true

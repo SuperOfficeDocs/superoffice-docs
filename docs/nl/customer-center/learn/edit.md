@@ -4,7 +4,7 @@ title: Klantportaal-bronbestanden
 description: Klantportaal-bronbestanden
 keywords: Klantportaal, CEP
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: nl

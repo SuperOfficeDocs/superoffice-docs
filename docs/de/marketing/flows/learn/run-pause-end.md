@@ -4,8 +4,8 @@ title: Ausführen, pausieren und beenden des Flow
 description: Ausführen, pausieren und beenden des Flow
 keywords: Marketing, Flow, Ausführen, Pausieren, Beenden, Status
 author: Bergfrid Dias
-date: 05.28.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows

@@ -4,8 +4,8 @@ title: Arbeta med svarsmallar
 description: Arbeta med svarsmallar i SuperOffice. Visa, hitta och sök efter svarsmallar i kunskapsbasen för snabbare hantering av ärenden.
 keywords: visa svarsmall, hitta svarsmall, svarsmall, färdig text, kunskapsbas
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base

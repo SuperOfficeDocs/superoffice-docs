@@ -3,8 +3,8 @@ uid: help-no-request-category
 title: Sakskategorier
 description: Sakskategorier
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 keywords: sakskategori, fanen Kategorier, sak, kategori
 content_type: concept
 license: serviceessentials

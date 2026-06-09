@@ -4,8 +4,8 @@ title: Stakeholders
 description: How to look up sale stakeholders with raw SQL in SuperOffice.
 keywords: sale, stakeholder, hasStakeholders, API, saletype, salestakeholder
 author: digitaldiina
-date: 05.11.2026
-version: 7.1
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: growth
 redirect_from:

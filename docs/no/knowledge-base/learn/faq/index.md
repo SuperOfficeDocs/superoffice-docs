@@ -4,8 +4,8 @@ title: Arbeide med FAQ-oppføringer
 description: Arbeide med FAQ-oppføringer
 keywords: FAQ, kunnskapsbase
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq

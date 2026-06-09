@@ -4,8 +4,8 @@ title: Manage quote and order setup
 description: Learn how quotes, quote connectors, and ERP integration work in SuperOffice CRM and how to configure them in the Quote/Sync screen.
 keywords: quote connector, ERP connection, quote settings, price list, product, Quote/Sync screen, erp setup, quote connector settings, quoting integration, sales configuration, quote, sync
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth

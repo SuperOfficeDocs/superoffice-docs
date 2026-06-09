@@ -3,7 +3,7 @@ uid: help-en-customer-center-config
 title: Customer centre configuration
 description: Learn how to configure your Customer centre in this how-to guide.
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Service, Customer centre, CEP
 content_type: howto
 tier: growth

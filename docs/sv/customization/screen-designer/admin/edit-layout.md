@@ -4,8 +4,8 @@ title: Redigera layouten för ett kort
 description: I den här guiden förklarar vi hur du redigerar en layout.
 keywords: skärmlayout, redigera layout, ändra layout, ta bort layout, Återställ till fabriksinställningar
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

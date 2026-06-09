@@ -4,8 +4,8 @@ title: Overvåk salgstrakten og prognostiser salg
 description: Hvordan overvåke salgstrakten og prognostisere salget ditt ved hjelp av dashbord og utvalg.
 keywords: salg, prognose, pipeline
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

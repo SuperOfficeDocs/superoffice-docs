@@ -4,7 +4,7 @@ title: Accept and decline invitations
 description: How to accept and decline invitations in SuperOffice Mobile CRM.
 keywords: mobile, diary, calendar, appointment, follow-up, invitation, meeting, attendee, participant
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 tier: core

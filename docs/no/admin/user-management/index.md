@@ -1,23 +1,23 @@
-﻿---
+---
 uid: help-no-users
 title: Brukere
 description: Finn ut hvordan du legger til nye brukere, hvordan du tilordner de riktige brukerrollene og -gruppene, og hvordan du hjelper brukerne med oppsett og WebTools.
 keywords: Skjermbildet Brukere, bruker, medarbeider, våre firmaer, synlighet, tilgjengelig
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
+tier: starter
 redirect_from:
   - /no/admin/user-management/learn/index
   - /no/admin/user-management/learn/screen/index
   - /no/admin/user-management/learn/visibility
   - /no/admin/user-management/learn/associates-filter-group
-tier: starter
 language: no
 ---
 

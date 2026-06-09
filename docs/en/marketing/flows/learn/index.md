@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.24.2026
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 topic: flows

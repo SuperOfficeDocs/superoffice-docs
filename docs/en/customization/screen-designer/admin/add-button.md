@@ -4,8 +4,8 @@ title: Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
 keywords: add button, new button, add link, new link, label
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

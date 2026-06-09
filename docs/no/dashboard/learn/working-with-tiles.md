@@ -4,8 +4,8 @@ title: Arbeide med figurer
 description: Lær hvordan du legger til, tilpasser og administrerer figurer i SuperOffice-dashbordene dine.
 keywords: legg til figur, ny figur, rediger figurm kopier figur, dupliser figur, fjern figur, tilpass figur, datasett, figur, dashbord
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

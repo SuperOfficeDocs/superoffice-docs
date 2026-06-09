@@ -4,8 +4,8 @@ title: Inaktivera ERP-synkronisering
 description: Inaktivera ERP-synkronisering
 keywords: koppla från ERP, ERP-flik, koppla från, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

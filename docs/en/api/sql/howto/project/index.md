@@ -4,7 +4,7 @@ title: Project SQL howto
 description: Working with projects in raw SQL.
 keywords: project, project management, API, SQL, ProjType, type_idx, ProjStatus, status_idx
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 content_type: howto
 tier: core
 redirect_from:

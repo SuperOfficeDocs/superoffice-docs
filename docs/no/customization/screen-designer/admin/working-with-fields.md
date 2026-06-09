@@ -4,8 +4,8 @@ title: Arbeide med felt
 description: Hvordan legge til, flytte og fjerne felt i en layout ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: legg til felt, nytt felt, flytt felt, fjern felt, skjul felt, rediger layout, feltinnstillinger
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

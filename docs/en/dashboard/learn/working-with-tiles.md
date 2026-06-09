@@ -4,8 +4,8 @@ title: Working with tiles
 description: Learn how to add, customize, and manage tiles in your SuperOffice dashboards.
 keywords: add tile, edit tile, copy tile, duplicate tile, remove tile, customize tile, dataset, dashboard, tile
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 audience: person

@@ -4,8 +4,8 @@ title: Brugerdefinerede objekter og felter
 description: Brugerdefinerede objekter
 keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
 author: Bergfrid Dias
-date: 05.28.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: core
 audience: person
@@ -52,7 +52,5 @@ Hvis du ikke har **Core**-planen, skal du bruge rækkefølgen af de forskellige 
 [1]: udef.md
 [2]: extra-field.md
 [3]: extra-table.md
-[5]: ../../customization/screen-designer/admin/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
 [13]: ../../admin/license/crm-suite.md

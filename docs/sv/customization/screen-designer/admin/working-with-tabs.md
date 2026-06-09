@@ -4,8 +4,8 @@ title: Arbeta med flikar
 description: Hur du lägger till, organiserar, tar bort och återställer en flik i en layout och hur du organiserar informationen i logiska grupper med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: layout, flik layout, lägg till flik, ta bort flik, återställ flik, gruppera fält, Mer flik, lägg till rubrik, lägg till etikett, lägg till avdelare
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

@@ -4,8 +4,8 @@ title: Sales
 description: Sales in SuperOffice
 keywords: sale process, base currency, currency, enable Stakeholders, stakeholder, suggested activities, stages, stalled, SaleTypeStageLink, quote connection, quote line, quote version, product, price list, sale, quote
 author: digitaldiina
-date: 05.12.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: person

@@ -4,7 +4,7 @@ title: System templates
 description: System templates
 keywords: System templates tab, request
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 content_type: reference
 tier: starter
 audience: settings

@@ -4,8 +4,8 @@ title: Dashboard für Leads
 description: Erstellen Sie Dashboards für Ihre Verkaufsleads, um Leistung, Trends und Produktivität über alle Leadaktivitäten hinweg zu verfolgen und zu analysieren.
 keywords: Dashboard, Leads, Verkauf, UTM-Daten, Leadkachel
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead

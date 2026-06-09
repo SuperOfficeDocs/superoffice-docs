@@ -4,8 +4,8 @@ title: Ekstratabeller
 description: Introduksjon til ekstratabeller i SuperOffice,
 keywords: database, ekstratabell, tabellmappe, tredjepartstabell
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10.3.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM

@@ -4,8 +4,8 @@ title: Verkoopgids
 description: Inleiding tot verkoopgidsen in SuperOffice.
 keywords: verkoopgids, gids, workflow, sectietabblad verkoopgids, verkoop
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth

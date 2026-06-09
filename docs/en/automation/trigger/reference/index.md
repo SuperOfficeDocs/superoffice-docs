@@ -4,7 +4,7 @@ title: Trigger scripts
 description: Trigger scripts
 keywords: CRMScript, trigger, event
 author: Christian Mogensen
-date: 05.11.2026
+date: 06.10.2026
 content_type: concept
 tier: core
 language: en

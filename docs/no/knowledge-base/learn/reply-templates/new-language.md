@@ -4,8 +4,8 @@ title: Opprette ny språkversjon av svarmal
 description: Opprette ny språkversjon av svarmal
 keywords: oversett svarmal, ny språkversjon, svarmal, mal
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

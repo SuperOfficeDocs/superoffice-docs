@@ -3,7 +3,7 @@ uid: help-de-customer-centre
 title: Kundenzentrum
 description: Kundenzentrum
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundenzentrum
 content_type: concept
 tier: growth

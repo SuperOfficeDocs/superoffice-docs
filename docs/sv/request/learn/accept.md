@@ -4,8 +4,8 @@ title: Ta över ansvaret för ett ärende
 description: Hur du tar över ett ärende för att undvika att någon annan besvarar det samtidigt.
 keywords: ta över ärende, acceptera, ansvar, ärendeägare, hämta nästa i kön, ärende
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

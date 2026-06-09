@@ -4,7 +4,7 @@ title: Respond to requests on your mobile device
 description: In this how-to guide, you will learn how to reply to, forward, and comment on a request in Mobile CRM.
 keywords: reply to request, answer request, respond to customer, reply, message, comment, forward, request, ticket,
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 license: serviceessentials

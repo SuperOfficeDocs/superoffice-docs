@@ -4,8 +4,8 @@ title: Anfragestatus löschen
 description: Anfragestatus löschen
 keywords: Anfragestatus löschen, Anfragestatus verschieben nach, Anfragestatus, Anfrage, Status
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

@@ -4,8 +4,8 @@ title: Tutorial - Flyt land-feltet frem
 description: I denne tutorial lærer du, hvordan du flytter landfeltet på firma- eller personskærmen.
 keywords: landefelt, skærmdesigner
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 license: development-tools
 tier: core

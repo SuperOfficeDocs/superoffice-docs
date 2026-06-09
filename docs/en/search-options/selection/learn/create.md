@@ -4,8 +4,8 @@ title: Create selection
 description: Work with dynamic and static selections
 keywords: add selection, create selection, new selection, save as selection, selection
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: person

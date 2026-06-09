@@ -4,8 +4,8 @@ title: Arbejde med ruder
 description: Lær hvordan du tilføjer, tilpasser og administrerer ruder i dine SuperOffice dashboards.
 keywords: tilføj rude, rediger rude, kopier rude, dupliker rude, fjern rude, tilpas rude, datasæt, dashboard, rude
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

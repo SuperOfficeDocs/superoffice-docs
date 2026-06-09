@@ -4,8 +4,8 @@ title: Definisjon av skjerm
 description: Definisjon av skjerm
 keywords: definisjon av skjerm
 author: digitaldiina
-date: 05.11.2026
-version: 11.11
+date: 06.10.2026
+version: 12.0
 content_type: reference
 tier: core
 language: no

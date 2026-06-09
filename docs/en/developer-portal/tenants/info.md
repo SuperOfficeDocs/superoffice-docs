@@ -4,7 +4,7 @@ title: Look up tenant info
 description: Look up tenant info
 keywords: Developer Portal, app, customer, tenant
 author: digitaldiina, MargretheR
-date: 02.05.2026
+date: 06.10.2026
 version_devportal: 2.10.20
 content_type: howto
 deployment: online

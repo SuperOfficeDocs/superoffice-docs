@@ -3,8 +3,8 @@ uid: help-da-udef-layout
 title: Placering af felter
 description: Placering af felter
 author: Bergfrid Dias
-date: 05.11.2026
-version: 9
+date: 06.10.2026
+version: 12.0
 keywords: udef, tilpasset felt
 content_type: howto
 audience: settings

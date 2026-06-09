@@ -4,8 +4,8 @@ title: Oprettelse af kombinationsudvalg
 description: I denne vejledning lærer du, hvordan du opretter et kombinationsudvalg.
 keywords: kombinere udvalg, kombinationsudvalg, udvalg, 
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

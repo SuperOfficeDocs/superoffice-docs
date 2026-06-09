@@ -4,8 +4,8 @@ title: Effektiv behandling av saker ved bruk av AI
 description: Innføringen av kunstig intelligens (AI) i SuperOffice 10 gir saksbehandlere/brukerstøtteagenter et nytt sett med smarte verktøy for å effektivisere arbeidsdagen.
 keywords: sak, AI, effektiv
 author: digitaldiina
-date: 05.11.2026
-version: 11.11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Service

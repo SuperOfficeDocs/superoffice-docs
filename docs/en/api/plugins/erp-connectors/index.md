@@ -4,7 +4,7 @@ title: ERP Sync Connector Interface
 description: ERP Sync Connector Interface
 keywords: ERP, sync connector, integration
 author: SuperOffice Product and Engineering
-date: 05.11.2026
+date: 06.10.2026
 content_type: concept
 tier: growth
 redirect_from: /en/api/netserver/plugins/erp-connectors/index

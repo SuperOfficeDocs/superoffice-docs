@@ -4,8 +4,8 @@ title: Monitor your pipeline and forecast sales
 description: How to monitor your sales pipeline and forecast your sales with the help of dashboards and selections.
 keywords: sale, forecast, pipeline
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

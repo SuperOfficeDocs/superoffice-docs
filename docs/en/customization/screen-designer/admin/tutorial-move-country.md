@@ -4,8 +4,8 @@ title: Tutorial - Front-load country
 description: In this tutorial, you will learn how to move the country field on a company or contact.
 keywords: country field, screen designer
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 license: development-tools
 tier: core

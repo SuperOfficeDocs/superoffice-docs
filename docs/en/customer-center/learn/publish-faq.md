@@ -3,7 +3,7 @@ uid: help-en-customer-center-faq
 title: Publish FAQs to the Customer Center
 description: In this how-to guide, you will learn how to publish FAQs in the Customer Center.
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: FAQ, Customer Center
 content_type: howto
 tier: growth

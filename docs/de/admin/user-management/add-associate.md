@@ -1,19 +1,19 @@
-﻿---
+---
 uid: help-de-user-add
 title: Benutzer hinzufügen
 description: In dieser Anleitung lernen Sie, wie Sie einen neuen Benutzer zu SuperOffice CRM hinzufügen.
 keywords: Benutzer hinzufügen, Mitarbeiter
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
-redirect_from: /de/admin/user-management/learn/add-associate
 tier: starter
+redirect_from: /de/admin/user-management/learn/add-associate
 language: de
 ---
 
@@ -41,7 +41,6 @@ Administratoren sind dafür verantwortlich, jedem neuen Benutzer einen Benutzern
 
     * **SuperOffice CRM Online:** Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
     * **SuperOffice CRM Suite:** Verwalten Sie den Benutzerzugriff, indem Sie die Option **Anmelden möglich** aktivieren oder deaktivieren. Der Firmenplan bestimmt, auf welche Funktionen alle Benutzer zugreifen können. Weitere Informationen finden Sie unter [CRM Suite-Plänen][5].
-
 
 ## <a id="fields"></a>Erklärung wichtiger Felder
 
@@ -99,6 +98,31 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 
 (Videolänge - 1:46)
 
+## Fehlerbehebung
+
+### Ein neu erstellter Benutzer kann sich nicht bei SuperOffice anmelden
+
+Es gibt zwei häufige Situationen, in denen sich ein neuer Benutzer nicht anmelden kann:
+
+* Der Benutzername ist keine E-Mail-Adresse, oder die E-Mail-Adresse ist ungültig
+* Das Konto des neuen Benutzers ist nicht aktiviert
+
+1. [!include[Benutzer öffnen](includes/goto-users.md)]
+
+1. Wählen Sie in der Benutzerliste den Benutzer aus, der sich nicht anmelden kann.
+
+1. Stellen Sie sicher, dass der Benutzer eine gültige E-Mail-Adresse eingetragen hat, da die Aktivierungs-E-Mail an diese Adresse gesendet wird.
+
+    ![E-Mail-Adresse des Benutzers überprüfen -screenshot][img2]
+
+1. Stellen Sie sicher, dass der Benutzer die Aktivierungs-E-Mail erhalten hat und dass der Aktivierungslink innerhalb von 48 Stunden angeklickt wurde.
+
+    ![Aktivierungs-E-Mail -screenshot][img3]
+
+    Um die Willkommens-E-Mail erneut zu senden, gehen Sie zu **Einstellungen und Verwaltung** > **Benutzer**, wählen Sie Ihren Benutzer aus, klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Willkommens-E-Mail senden**.
+
+1. Stellen Sie sicher, dass der Benutzer die [Anleitung zur Anmeldung bei SuperOffice CRM][7] befolgt hat.
+
 ## Verwandte Inhalte
 
 * [Benutzer/Mitarbeiter bearbeiten][6]
@@ -111,8 +135,11 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 [4]: ../license/user-plans.md#change
 [5]: ../license/crm-suite.md
 [6]: update-user.md
+[7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/de/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
+[img2]: ../../../media/loc/en/admin/filled-in-email.png
+[img3]: ../../../media/loc/en/admin/activation-email.png
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

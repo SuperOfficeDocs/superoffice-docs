@@ -4,8 +4,8 @@ title: Køre, pause og afslutte flow
 description: Sådan kører, pauser, genoptager, afslutter og sletter en SuperOffice Marketing automation-strøm.
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 05.28.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows

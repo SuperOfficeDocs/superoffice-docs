@@ -4,8 +4,8 @@ title: Saksrelasjoner
 description: Lær hvordan du kan koble relaterte saker ved hjelp av overordnede, underordnede og relaterte relasjoner for bedre å spore og administrere tilknyttede problemer i SuperOffice Service.
 keywords: saksrelasjoner, koble saker, overordnet sak, underordnet sak, relaterte saker
 author: digitaldiina
-date: 05.11.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: request

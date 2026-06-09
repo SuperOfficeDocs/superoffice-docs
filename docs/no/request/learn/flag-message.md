@@ -4,8 +4,8 @@ title: Holde oversikt over meldinger
 description: Holde oversikt over meldinger
 keywords: sak, melding, flagg
 author: digitaldiina
-date: 05.11.2026
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

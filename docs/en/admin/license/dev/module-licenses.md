@@ -4,8 +4,8 @@ title: Module licenses
 description: Module license fields and types.
 keywords: module license, license
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -26,7 +26,7 @@ The license system uses three main database tables:
 
 | Field | Description |
 | --- | --- |
-| ModuleName | Code name: the "user" part of "superoffice.user" |
+| ModuleName | Code name: the "user" part of `superoffice.user` |
 | ModuleDescription | Display name, shown in admin |
 | ModuleTooltip | Tooltip shown in admin |
 | ModuleVersion | Product version license was issued to: "10.1" |
@@ -40,7 +40,7 @@ The license system uses three main database tables:
 
 Module licenses all have an owner, usually "SuperOffice" for us, but partners can define their own licenses, and run their own license servers.
 
-Module license names are often written "superoffice.something", but the ModuleName is just "something". The owner name is prefixed to distinguish licenses from different owners.
+Module license names are often written `superoffice.something`, but the ModuleName is just "something". The owner name is prefixed to distinguish licenses from different owners.
 
 The full list of licenses are in [SoLicenseNames][2].
 

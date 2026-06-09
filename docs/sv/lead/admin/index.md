@@ -4,8 +4,8 @@ title: Konfigurera leadhantering
 description: Lär dig hur du aktiverar, konfigurerar och utökar leadhantering i SuperOffice CRM.
 keywords: leadhantering, leadkonfiguration, leadstatus, potentiell kund, säljprocess
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead

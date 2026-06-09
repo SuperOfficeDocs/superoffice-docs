@@ -4,8 +4,8 @@ title: Rediger eller slet svarskabeloner
 description: Rediger eller slet svarskabeloner i SuperOffice Service. Lær, hvordan du ændrer skabelonteksten og administrerer svarskabeloner effektivt.
 keywords: skabelon
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

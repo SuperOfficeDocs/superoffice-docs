@@ -4,8 +4,8 @@ title: Update a sale
 description: How to update existing sale information, change its stage (including marking it as stalled, sold, or lost), or delete a sale if it is no longer relevant.
 keywords: update sale, edit sale, delete sale, stalled, lost, sold, sale
 author: digitaldiina
-date: 05.11.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

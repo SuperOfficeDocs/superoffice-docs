@@ -4,8 +4,8 @@ title: Salgsmål
 description: Muligheten til å holde oversikt over salgsmulighetene dine er en av de viktigste funksjonene i SuperOffice CRM. Ved hjelp av vår salgsmålsfunksjonalitet kan du sammenligne de reelle salgene dine med målene dine.
 keywords: salgsmål
 author: digitaldiina
-date: 05.11.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth

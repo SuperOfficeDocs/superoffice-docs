@@ -4,8 +4,8 @@ title: Skärmdesigner
 description: Lär dig hur du konfigurerar skärmar i den här guiden.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: core

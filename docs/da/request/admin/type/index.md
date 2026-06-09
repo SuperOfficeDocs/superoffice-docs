@@ -4,8 +4,8 @@ title: Sagstype
 description: Sagstype
 keywords: sag, sagstype, type
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
 tier: growth

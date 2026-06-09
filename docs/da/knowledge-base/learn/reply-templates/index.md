@@ -4,8 +4,8 @@ title: Arbejd med svarskabeloner
 description: Organiser svarskabeloner ved hjælp af en tilpasselig mappestruktur for nem adgang og logisk gruppering. Opret undermapper og administrer skabeloner effektivt.
 keywords: vis svarskabelon, find svarskabelon, svarskabelon, færdig tekst, vidensbase
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base

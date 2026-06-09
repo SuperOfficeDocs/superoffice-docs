@@ -4,8 +4,8 @@ title: Arbejde med detaljekort (arkiver)
 description: Skærmdesigner - arbejde med detaljekort (arkiver)
 keywords: tilføj sektionsfane, ny sektionsfane, tilføj arkivfane, tilpas sektionsfane, sektionsfanelayout
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

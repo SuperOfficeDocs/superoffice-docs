@@ -4,8 +4,8 @@ title: Anfrage schließen
 description: So schließen Sie eine oder mehrere Anfragen in SuperOffice.
 keywords: Anfrage schließen, Status auf geschlossen setzen, geschlossen, Massenaktualisierung, Anfrage
 author: digitaldiina
-date: 05.11.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

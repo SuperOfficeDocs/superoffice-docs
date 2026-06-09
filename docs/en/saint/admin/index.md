@@ -4,8 +4,8 @@ title: SAINT in Settings and maintenance
 description: Learn about the key concepts of SuperOffice SAINT, including criteria, images, counters, and default follow-ups.
 keywords: SAINT, activity monitor, status monitor
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: growth
 audience: settings

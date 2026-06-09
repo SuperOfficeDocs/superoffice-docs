@@ -4,8 +4,8 @@ title: Die Registerkarte Mehr
 description: Erfahren Sie, wie Sie die Registerkarte Mehr in SuperOffice CRM verwenden, um benutzerdefinierte Felder für Firmen, Personen, Verkäufe, Projekte, Folgeaufgabe und Dokumente anzuzeigen und zu verwalten.
 keywords: Registerkarte Mehr, Mehr-Registerkarte, udef, benutzerdefiniertes Feld, zusätzliches Feld, kundenspezifisches Feld
 author: Bergfrid Skaara Dias
-date: 05.11.2026
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

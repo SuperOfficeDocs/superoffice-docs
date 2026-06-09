@@ -4,7 +4,7 @@ title: How do I create and run CRMScripts?
 description: An overview of the CRMScript environment and the tools you need to create and run scripts.
 keywords: CRMScript, interpreter, run script, execute script, CRMScript editor
 author: Bergfrid Dias
-date: 04.15.2024
+date: 06.10.2026
 content_type: howto
 index: true
 ---

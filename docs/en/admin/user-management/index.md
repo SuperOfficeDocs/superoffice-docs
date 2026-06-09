@@ -2,10 +2,10 @@
 uid: help-en-users
 title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
-keywords: Users screen, user, associate, our companies, visibility, visible for, available, confidnetial activities
+keywords: Users screen, user, associate, our companies, visibility, visible for, available, confidential activities
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: settings
@@ -84,7 +84,7 @@ In the Users screen, you can add and edit different types of users.
 ![An overview of the User screen in Settings and maintenance -screenshot][img3]
 
 > [!NOTE]
-> Changes you make in the Users screen do not come into effect until you click **Save** at the bottom of the screen, and confirm that you want to save the changes in the dialog that then appears. If you click **Cancel**, you will lose all changes you have made in this screen  your last save.
+> Changes you make in the Users screen do not come into effect until you click **Save** at the bottom of the screen, and confirm that you want to save the changes in the dialog that then appears. If you click **Cancel**, you will lose all changes you have made in this screen since your last save.
 
 ### <a id="associates"></a>The associate list
 
@@ -111,7 +111,7 @@ By default, the list in the **Associates** tab consists of the following columns
 You can filter the list of users by any of the column headers. Right-click a column to add any additional columns you want to filter by.
 
 1. Go to the **Associates** tab.
-1. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the top-right corner of the list.
+1. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the upper-right corner of the list.
 1. Select **Enable filter**.
 1. Click **OK**. Filter buttons are added to each column header.
 1. Click <i class="ph ph-funnel" aria-label="Filter icon"></i> on the column you want to filter.
@@ -124,7 +124,7 @@ You can filter the list of users by any of the column headers. Right-click a col
 You can group the list of users by role, user plan (SuperOffice CRM Online), primary group, and similar. In addition, you can group on multiple levels. Right-click a column to add any additional columns you want to group by (see also [Adjust views][14]).
 
 1. Go to the **Associates** tab.
-1. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the top-right corner of the list.
+1. Right-click a column heading or click <i class="ph ph-gear" aria-label="Gear"></i> in the upper-right corner of the list.
 1. Select **Enable grouping**.
 1. Click **OK**.
 1. Click the column header for the value by which you want to group and drag it to the area above the columns ("Drag a column header and ..."). The list is now grouped by that value.
@@ -139,7 +139,7 @@ You can group the list of users by role, user plan (SuperOffice CRM Online), pri
 
 On the rightmost side of the window, there is detailed information about the user selected in the list of associates.
 
-The full name, email address and owning company is displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome emails and emails for resetting passwords.
+The full name, email address, and owning company are displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome emails and emails for resetting passwords.
 
 There are different tabs in the User overview:
 

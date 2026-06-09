@@ -4,8 +4,8 @@ title: Connect to ERP
 description: Connect to ERP
 keywords: connect to ERP, connect company to ERP, connect contact to ERP, connect project to ERP, can't find match in ERP, create in ERP, create actor, ERP actor, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

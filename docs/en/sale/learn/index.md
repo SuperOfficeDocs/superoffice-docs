@@ -4,8 +4,8 @@ title: Sale
 description: SuperOffice Sales helps sales teams stay in control of their sales pipelines and processes.
 keywords: Sale card, Sale screen, sale, lead
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salesessentials
 tier: starter

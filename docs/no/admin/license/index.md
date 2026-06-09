@@ -5,7 +5,7 @@ description: CRM og lisenser
 keywords: lisens, brukerplan, målt tjeneste, databaseeier, status-fane
 author: digitaldiina, xt1
 date: 06.10.2026
-version: 11.13
+version: 12.0
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -39,11 +39,11 @@ Fanen **SuperOffice** viser lisensinformasjon for ditt SuperOffice-abonnement.
 <!-- markdownlint-disable-file MD051 -->
 #### [Modulbaserte abonnementer](#tab/module-based)
 
-![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+![SuperOffice tab showing system licences and user licences for a module-based subscription -screenshot][img1]
 
 #### [CRM Suite](#tab/crm-suite)
 
-![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+![SuperOffice tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
 
 ***
 

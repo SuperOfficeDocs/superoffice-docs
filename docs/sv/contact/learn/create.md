@@ -4,8 +4,8 @@ title: Skapa en ny kontakt
 description: Så skapar du en kontakt i SuperOffice.
 keywords: skapa kontakt, lägga till kontakt, kontaktkort, kontakt
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

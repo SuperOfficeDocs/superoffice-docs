@@ -4,8 +4,8 @@ title: Dashbord for leads
 description: Opprett dashbord for salgsleads for å spore og analysere ytelse, trender og produktivitet på tvers av alle leadaktiviteter.
 keywords: dashbord, leads, salg, UTM-data, leadfigur
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead

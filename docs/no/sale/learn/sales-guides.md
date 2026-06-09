@@ -4,8 +4,8 @@ title: Salgsguide
 description: Introduksjon til salgsguider i SuperOffice. Hvordan strukturere og standardisere salgsrutinene. Salgsguiden leder deg gjennom de ulike fasene i en forhåndsdefinert salgsprosess, gir automatisk forslag og maler til dokumenter som må opprettes underveis, og fremhever oppfølgingsaktiviteter som må utføres.
 keywords: salgsguide, guide, arbeidsflyt, detaljkortet Salgsguide, salg
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth

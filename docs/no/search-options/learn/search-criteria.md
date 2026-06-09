@@ -4,8 +4,8 @@ title: Bruke søkekriterier
 description: Slik legger du til og endrer søkekriterier
 keywords: søk, kriterier, finn
 author: digitaldiina
-date: 12.05.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

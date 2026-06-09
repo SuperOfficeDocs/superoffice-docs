@@ -4,8 +4,8 @@ title: Udvalg
 description: Udvalg
 keywords: dynamisk udvalg, statisk udvalg, kombinationsudvalg, kombinerede udvalg, skærmbilledet Udvalg, udvalgsmedlemmer, udvalg
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.3
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

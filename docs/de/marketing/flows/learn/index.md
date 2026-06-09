@@ -4,8 +4,8 @@ title: Marketing-Automatisierung - Flows
 description: Einführung in die Marketing-Automatisierung und Flows von SuperOffice.
 keywords: Marketing, Flow, Automatisierung, Kampagne, Segmentieren, Kundenreise
 author: Bergfrid Dias
-date: 05.28.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows

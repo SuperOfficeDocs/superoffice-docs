@@ -4,8 +4,8 @@ title: How user plans are constructed
 description: How user plans are put together from module licenses.
 keywords: license, user plan
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance

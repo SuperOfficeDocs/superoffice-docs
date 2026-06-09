@@ -4,8 +4,8 @@ title: Rediger eller slett svarmaler
 description: Lær hvordan du redigerer eller sletter en svarmal.
 keywords: rediger svarmal, slett svarmal, svarmal, mal
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

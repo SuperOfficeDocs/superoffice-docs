@@ -4,8 +4,8 @@ title: Arbeide med faner
 description: Slik legger du til, organiserer, sletter og gjenoppretter en fane i et oppsett, og hvordan du organiserer informasjonen i logiske grupper ved hjelp av Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: layout, fane-layout, legg til fane, fjern fane, gjenopprett fane, grupper felter, Mer fane, legg til overskrift, legg til etikett, legg til skillelinje
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

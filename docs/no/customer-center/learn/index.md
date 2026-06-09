@@ -3,7 +3,7 @@ uid: help-no-customer-centre
 title: Kundesenter
 description: Kundesenter
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundesenter
 content_type: concept
 tier: growth

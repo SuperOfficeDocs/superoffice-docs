@@ -4,8 +4,8 @@ title: Opsæt salgsmål
 description: Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil hjælpe dig med at sætte de rigtige forventninger, planlægge din vækst, øge motivationen og spare tid.
 keywords: salgsmål
 author: digitaldiina
-date: 05.11.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth
@@ -31,7 +31,6 @@ Listen over mål kan indeholde følgende sektioner:
 Det er valgfrit at tilføje virksomhedens mål og have brugerspecifikke mål (gå til Målindstillinger for at ændre). Summen af alle mål i én brugergruppe er ikke redigerbar. Det viser summen for alle brugere i én brugergruppe og er en retningslinje for at gøre det lettere at oprette målet for hele brugergruppen. Du kan tilføje og redigere virksomhedens mål, fordi målet for hele firmaet ikke nødvendigvis er det samme som total af alle brugergrupper.
 
 ## Krav
-
 
 Hvis du kun har en **Sales Premium**-licens eller **Growth**-planen, kan du tilføje én gruppe for måltypen **Alle salg – Beløb**. For at tilføje mere end én brugergruppe skal du også have licensen Ubegrænsede salgsmål.
 

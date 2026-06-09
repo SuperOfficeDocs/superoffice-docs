@@ -4,7 +4,7 @@ title: Ärendeprioriteter
 description: Ärendeprioriteter
 keywords: ärendeprioritet, prioritet, eskalering, ärende
 author: digitaldiina
-version: 10.5.2
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

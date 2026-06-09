@@ -4,7 +4,7 @@ title: Deployment guide
 description: Pocket CRM installation and deployment
 keywords: deploy Pocket, connection path, Pocket license
 author: SuperOffice Product and Engineering
-date: 12.02.2021
+date: 06.10.2026
 content_type: howto
 platform: pocket
 deployment: onsite

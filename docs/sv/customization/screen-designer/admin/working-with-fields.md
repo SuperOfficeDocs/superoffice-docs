@@ -4,8 +4,8 @@ title: Arbeta med fält
 description: Hur du lägger till, flyttar och tar bort fält i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: lägg till fält, nytt fält, flytta fält, ta bort fält, dölj fält, redigera layout, fältinställningar
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

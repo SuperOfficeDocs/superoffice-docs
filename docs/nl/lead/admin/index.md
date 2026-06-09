@@ -4,8 +4,8 @@ title: Leadbeheer instellen
 description: Leer hoe u leadbeheer in SuperOffice CRM activeert, configureert en uitbreidt.
 keywords: leadbeheer, leadinstelling, leadstatus, potentiële klant, verkoopproces
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead

@@ -4,7 +4,7 @@ title: Add company
 description: How to register a company in SuperOffice Mobile CRM.
 keywords: company
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 tier: core

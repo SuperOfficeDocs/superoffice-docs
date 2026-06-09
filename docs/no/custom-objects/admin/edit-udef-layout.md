@@ -4,8 +4,8 @@ title: Grensesnitttilpasning
 description: Grensesnitttilpasning
 keywords: udef, egendefinert felt, side-1, TAB-rekkefølge, justere felt
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

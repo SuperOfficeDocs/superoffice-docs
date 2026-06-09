@@ -4,8 +4,8 @@ title: Project
 description: This how-to guide will show you how to create and use projects to stay on top of your work.
 keywords: Project card, Project screen, Image tab, project
 author: Bergfrid Dias
-date: 01.03.2025
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core

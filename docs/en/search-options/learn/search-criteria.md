@@ -4,8 +4,8 @@ title: Working with search criteria
 description: How to add and modify search criteria
 keywords: search, criteria, find
 author: digitaldiina
-date: 12.05.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: person

@@ -4,8 +4,8 @@ title: Arbejde med eksterne dokumenter
 description: Arbejde med eksterne dokumenter
 keywords: eksterne dokumenter
 author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

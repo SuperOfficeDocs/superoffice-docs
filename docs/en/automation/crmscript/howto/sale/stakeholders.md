@@ -4,8 +4,8 @@ title: Stakeholders
 description: Working with sale stakeholders in CRMScript.
 keywords: sale, stakeholder
 author: digitaldiina
-date: 05.11.2026
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 redirect_from: /en/sale/howto/crmscript/stakeholders

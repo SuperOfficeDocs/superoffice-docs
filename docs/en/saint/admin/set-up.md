@@ -4,8 +4,8 @@ title: Set up a new activity monitor
 description: Set up a new activity monitor
 keywords: SAINT, activity monitor, status monitor
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 audience: settings

@@ -4,8 +4,8 @@ title: Get next request in the queue
 description: Get next request in the queue
 keywords: get next request in queue, request
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: servicepremium
 tier: growth

@@ -4,8 +4,8 @@ title: Verwenden von Tags in Anfragen
 description: In dieser Anleitung lernen Sie, wie Sie Anforderungs-Tags erstellen und bearbeiten.
 keywords: Tags erstellen, neuer Tags, Tags suchen, Tags, Anfrage
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

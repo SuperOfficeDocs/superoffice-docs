@@ -4,8 +4,8 @@ title: Add user
 description: In this how-to guide, you will learn how to add a new user in SuperOffice CRM and what to do if a newly created user cannot log in.
 keywords: user, associate
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: settings
@@ -21,7 +21,7 @@ language: en
 
 After your SuperOffice CRM solution is configured and customized, it is time to give your users access. This guide describes how to add one user at a time.
 
-Administrators are responsible for assigning each new user a username, password, and primary group. In **SuperOffice CRM Online**, this also includes selecting a user plan. In **SuperOffice CRM Suite** subscriptions, the company's plan applies to all users — simply enable the **Can log in** option to grant access.
+Administrators are responsible for assigning each new user a username, password, and primary group. In **SuperOffice CRM Online**, this also includes selecting a user plan. In **SuperOffice CRM Suite** subscriptions, the company's plan applies to all users — enable the **Can log in** option to grant access.
 
 > [!NOTE]
 > If you provided user information when you ordered SuperOffice CRM, those users may already be in the system with login information sent to them by email. Check the **Users** screen before adding someone manually.
@@ -84,7 +84,7 @@ Joe also needs limited rights to documents from the marketing department and dev
 
 In the **Licences** tab, you can select additional licenses.
 
-**Confidential activities:** activates the **Visible for** list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone.
+**Confidential activities:** activates the **Visible for** list for follow-ups, documents, and sales, to make records visible only to the user, the user's primary group or everyone.
 
 ***
 

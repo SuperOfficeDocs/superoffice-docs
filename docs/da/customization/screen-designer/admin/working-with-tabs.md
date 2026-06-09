@@ -4,8 +4,8 @@ title: Arbejde med faner
 description: Sådan tilføjer, organiserer, sletter og gendanner du en fane i et layout, og hvordan du organiserer informationen i logiske grupper ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: layout, fane-layout, tilføj fane, fjern fane, gendan fane, grupper felter, Mere fane, tilføj overskrift, tilføj etiket, tilføj deler
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

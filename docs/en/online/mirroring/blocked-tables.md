@@ -4,7 +4,7 @@ title: Database mirroring blocked tables
 description: Lists the tables that are not mirrored.
 keywords: mirroring, blocked tables, database, schema
 author: AnthonyYates, Margrethe
-date: 05.27.2026
+date: 06.10.2026
 version: 10.2
 content_type: reference
 deployment: online

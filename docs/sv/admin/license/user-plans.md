@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-sv-user-plans
 title: Användarplaner och prenumerationer
 description: SuperOffice användarplaner och prenumerationer
 keywords: användarplan, licens, essential, premium
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
@@ -44,7 +44,7 @@ Alla lösningar kan ha olika tillägg. Ett tillägg är en mjukvaru­utökning s
   * Dokument och mallar
   * Språkstöd
   * MS SharePoint-dokument
-  * Google Workplace-dokument
+  * Google Workspace-dokument
 * E-post
   * SuperOffice-inkorg
   * SuperOffice för Outlook 365

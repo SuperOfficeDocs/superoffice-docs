@@ -4,8 +4,8 @@ title: Mit externen Dokumenten arbeiten
 description: Mit externen Dokumenten arbeiten
 keywords: Anfrage, Dokument
 author: Bergfrid Dias
-date: 10.29.2023
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: servicepremium
 tier: growth

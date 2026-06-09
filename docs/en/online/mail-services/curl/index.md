@@ -4,8 +4,8 @@ title: Email in Service and Marketing
 description: Email in Service and Marketing
 keywords: email, cURL, OAuth
 author: Frode B
-date: 12.04.2025
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: email
 topic: curl

@@ -4,7 +4,7 @@ title: Update follow-up
 description: How to update follow-ups in SuperOffice Mobile CRM.
 keywords: diary, follow-up, appointment, meeting
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 tier: core

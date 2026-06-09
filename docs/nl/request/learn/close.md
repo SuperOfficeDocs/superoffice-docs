@@ -4,8 +4,8 @@ title: Een verzoek sluiten
 description: Hoe u één of meerdere verzoeken in SuperOffice kunt sluiten.
 keywords: verzoek sluiten, status instellen op gesloten, gesloten, bulk update, verzoek
 author: digitaldiina
-date: 05.11.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

@@ -4,8 +4,8 @@ title: Anfrage annehmen (Verantwortung übernehmen)
 description: So nehmen Sie eine Anfrage an, um zu vermeiden, dass mehrere Personen gleichzeitig auf dieselbe Anfrage antworten.
 keywords: Anfrage annehmen, übernehmen, Verantwortung, Anfrageeigentümer, nächste in Warteschlange, Anfrage, beantworten, annehmen, übernehment
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

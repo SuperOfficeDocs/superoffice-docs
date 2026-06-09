@@ -4,8 +4,8 @@ title: Opprette saksstatus
 description: Opprette saksstatus
 keywords: opprett saksstatus, legg til saksstatus, ny saksstatus, saksstatus, intern status, køstatus, registrer tid, sak, status
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

@@ -4,8 +4,8 @@ title: Vidarebefordra ärende till extern kontakt
 description: Lär dig hur du vidarebefordrar ett ärende i den här guiden.
 keywords: vidarebefordra ärende, ärende, extern kontakt
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

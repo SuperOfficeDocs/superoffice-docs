@@ -4,8 +4,8 @@ title: Arbeiten mit Kacheln
 description: Erfahren Sie, wie Sie Kacheln in Ihren SuperOffice-Dashboards hinzufügen, anpassen und verwalten.
 keywords: Kachel hinzufügen, Kachel bearbeiten, Kachel kopieren, Kachel duplizieren, Kachel entfernen, Kachel anpassen, Datensatz, Dashboard, Kachel
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

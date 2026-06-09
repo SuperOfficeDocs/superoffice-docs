@@ -4,8 +4,8 @@ title: Selection
 description: Selection
 keywords: dynamic selection, static selection, combined selection, selection member, Selection screen, selection member, selection
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: person

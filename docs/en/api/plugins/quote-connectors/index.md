@@ -4,7 +4,7 @@ title: ERP Quote Connector Interface
 description: ERP Quote Connector Interface
 keywords: quote, connector, setup
 author: Eivind Fasting
-date: 05.11.2026
+date: 06.10.2026
 content_type: concept
 tier: growth
 redirect_from: /en/api/netserver/plugins/quote-connectors/index

@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-de-user-plans
 title: Benutzerpläne
 description: SuperOffice Benutzerpläne und Abonnements
 keywords: benutzerplan, lizenz, essential, premium
 author: Christian Mogensen, Bergfrid Dias
-date: 04.23.2024
-version: 10.3.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
@@ -44,7 +44,7 @@ Alle Lösungen können durch Add-ons erweitert werden. Ein Add-on ist eine Softw
   * Dokumente und Vorlagen
   * Mehrsprachige Unterstützung
   * MS SharePoint-Dokumente
-  * Google Workplace-Dokumente
+  * Google Workspace-Dokumente
 * E-Mail
   * SuperOffice-Posteingang
   * SuperOffice für Outlook 365

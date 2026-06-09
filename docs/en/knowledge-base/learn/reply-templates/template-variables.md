@@ -4,8 +4,8 @@ title: Template variables
 description: Template variables
 keywords: reply template variable, template variable
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: reference
 tier: starter
 category: service

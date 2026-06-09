@@ -4,7 +4,7 @@ title: Mobile CRM – Settings
 description: Reference for settings in SuperOffice Mobile CRM.
 keywords: mobile, settings, configuration, push notifications
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: reference
 tier: core

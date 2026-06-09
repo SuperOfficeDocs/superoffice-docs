@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-nl-user-plans
 title: Gebruikersplannen
 description: SuperOffice gebruikersplannen en abonnementen
 keywords: gebruikersplan, licentie, essential, premium
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
@@ -44,7 +44,7 @@ Alle oplossingen kunnen uitgebreid worden met add-ons. Een add-on is een softwar
   * Documenten en sjablonen
   * Taalondersteuning
   * MS SharePoint-documenten
-  * Google Workplace-documenten
+  * Google Workspace-documenten
 * E-mail
   * SuperOffice-inbox
   * SuperOffice voor Outlook 365

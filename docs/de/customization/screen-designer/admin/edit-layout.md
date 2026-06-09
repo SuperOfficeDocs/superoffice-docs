@@ -4,8 +4,8 @@ title: Hauptkartenlayout bearbeiten
 description: In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können.
 keywords: Bildschirmlayout, Layout bearbeiten, Layout ändern, Layout löschen, Auf Werkseinstellungen zurücksetzen
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

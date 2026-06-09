@@ -4,8 +4,8 @@ title: Formulare veröffentlichen
 description: Formulare veröffentlichen
 keywords: Formular, Formulare veröffentlichen, Felder vorausfüllen, vorausgefüllt, vorausgefüllts Feld, Feldidentifikator, Feldbezeichnung, Formular einbetten, Skript-Tag, veröffentlichen, UTM-Builder, UTM-Tracking hinzufügen
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms

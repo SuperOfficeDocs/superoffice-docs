@@ -4,17 +4,17 @@ title: Skapa eller redigera ett skript
 description: Skapa skript
 keywords: skript, makro
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 redirect_from:
   - /sv/automation/crmscript/learn/create-folder
   - /sv/automation/crmscript/learn/create-script
-tier: core
 language: sv
 index: true
 ---

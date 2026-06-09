@@ -4,8 +4,8 @@ title: Werken met externe documenten
 description: Werken met externe documenten
 keywords: verzoek, document
 author: Bergfrid Dias
-date: 10.29.2023
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

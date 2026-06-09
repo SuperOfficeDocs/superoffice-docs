@@ -4,7 +4,7 @@ title: Items in Veelgestelde vragen maken
 description: Items in Veelgestelde vragen maken
 keywords: Veelgestelde vragen
 author: Bergfrid Dias
-date: 03.14.2025
+date: 06.10.2026
 content_type: howto
 license: servicepremium
 tier: growth

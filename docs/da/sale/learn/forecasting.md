@@ -4,8 +4,8 @@ title: Overvåg din pipeline, og forudsig salg
 description: Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards og udvalg.
 keywords: salg, prognose, pipeline
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

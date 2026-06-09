@@ -5,7 +5,7 @@ description: SuperOffice en licenties
 keywords: licentie, gebruikersplan, dienst met datalimiet, database-eigenaar, tabblad Status
 author: digitaldiina, xt1
 date: 06.10.2026
-version: 11.13
+version: 12.0
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -39,11 +39,11 @@ Het tabblad **SuperOffice** toont licentiegegevens voor uw SuperOffice-abonnemen
 <!-- markdownlint-disable-file MD051 -->
 #### [Abonnementen op modulebasis](#tab/module-based)
 
-![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+![SuperOffice tab showing system licences and user licences for a module-based subscription -screenshot][img1]
 
 #### [CRM Suite](#tab/crm-suite)
 
-![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+![SuperOffice tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
 
 ***
 
@@ -175,6 +175,10 @@ Ten slotte zijn er gebruikerslicenties voor SuperOffice CRM, die worden aangesch
 [3]: https://help.superoffice.com/docs/11/nl/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+[14]: dev/module-licenses.md
+[17]: dev/index.md
+[15]: dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png

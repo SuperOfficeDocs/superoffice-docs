@@ -4,8 +4,8 @@ title: Salg
 description: SuperOffice Salg hjælper salgsteams med at bevare kontrollen over deres salgspipelines og processer.
 keywords: salg, salgskort, salgsskærmbillede, tilbud, kundeemne
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salesessentials
 tier: starter

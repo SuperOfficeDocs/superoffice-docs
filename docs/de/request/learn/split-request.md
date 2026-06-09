@@ -4,8 +4,8 @@ title: Anfrage aufteilen
 description: Anfrage aufteilen
 keywords: Anfrage, Anfrage aufteilen, neue Anfrage erstellen
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

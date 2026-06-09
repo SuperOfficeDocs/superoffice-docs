@@ -1,23 +1,23 @@
-﻿---
+---
 uid: help-de-users
 title: Benutzer
 description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
 keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
+tier: starter
 redirect_from: 
   - /de/admin/user-management/learn/index
   - /de/admin/user-management/learn/screen/index
   - /de/admin/user-management/learn/visibility
   - /de/admin/user-management/learn/associates-filter-group
-tier: starter
 language: de
 ---
 

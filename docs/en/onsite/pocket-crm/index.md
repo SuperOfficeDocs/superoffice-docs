@@ -4,7 +4,7 @@ title: Pocket CRM
 description: Introduction to the SuperOffice Pocket CRM mobile application
 keywords: Pocket CRM
 author: digitaldiina
-date: 12.02.2021
+date: 06.10.2026
 content_type: concept
 platform: pocket
 deployment: onsite

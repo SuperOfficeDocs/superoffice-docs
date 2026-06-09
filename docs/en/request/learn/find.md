@@ -4,8 +4,8 @@ title: Find a request
 description: In this how-to guide you will learn how to find requests in SuperOffice
 keywords: find request, locate request, last requests, own open requests, unassigned requests, show only own categories, search, find, request,
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

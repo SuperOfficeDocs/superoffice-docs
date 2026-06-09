@@ -3,8 +3,8 @@ uid: help-da-udef-add
 title: Tilføj brugerdefinerede felter
 description: Tilføj brugerdefinerede felter
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 keywords: udef, brugerdefineret, tilpasset felt
 content_type: howto
 audience: settings

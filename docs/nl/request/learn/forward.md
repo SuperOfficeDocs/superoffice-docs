@@ -4,8 +4,8 @@ title: Verzoek doorsturen naar externe contactpersoon
 description: Leer hoe u een verzoek kunt doorsturen naar een externe contactpersoon in SuperOffice.
 keywords: verzoek, doorsturen, externe contactpersoon
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service

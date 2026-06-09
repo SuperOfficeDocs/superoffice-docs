@@ -4,8 +4,8 @@ title: Anfrageprioritäten
 description: Anfrageprioritäten
 keywords: Anfragepriorität, Priorität, Eskalation, Anfrage
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
 tier: starter

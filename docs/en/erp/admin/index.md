@@ -4,8 +4,8 @@ title: Manage ERP synchronization
 description: Introduction to configuring synchronization between SuperOffice CRM and external ERP systems.
 keywords: ERP tab, ERP system, ERP actor, Sync connector, ERP connection, sync, connector, connection, Quote/Sync screen, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: growth

@@ -4,8 +4,8 @@ title: Arbeiten mit Registerkarten
 description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Verwaltung.
 keywords: Layout, Registerkartenlayout, Registerkarte hinzufügen, Registerkarte entfernen, Registerkarte wiederherstellen, Felder gruppieren, Weitere Registerkarte, Überschrift hinzufügen, Beschriftung hinzufügen, Trennlinie hinzufügen
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

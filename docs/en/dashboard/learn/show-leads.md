@@ -4,8 +4,8 @@ title: Dashboard for leads
 description: Create dashboards for your sales leads to track and analyze their performance, trends and productivity across all lead activities.
 keywords: dashboard, leads, sales, UTM data, lead tile
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 category: sale

@@ -4,15 +4,15 @@ title: Triggrar
 description: Triggrar
 keywords: CRMScript, utlösare
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /sv/automation/crmscript/learn/trigger
 tier: core
+redirect_from: /sv/automation/crmscript/learn/trigger
 language: sv
 index: true
 ---

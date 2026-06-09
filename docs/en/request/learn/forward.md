@@ -4,8 +4,8 @@ title: Forward request to external contact
 description: Learn how to forward a request in this how-to guide.
 keywords: forward request, request
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

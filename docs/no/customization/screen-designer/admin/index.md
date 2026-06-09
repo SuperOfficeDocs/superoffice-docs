@@ -4,8 +4,8 @@ title: Skjermdesigner
 description: Lær hvordan du konfigurerer skjermbilder i denne veiledningen.
 keywords: Skjermdesigner, brukergrensesnitt, skjerm, layout, oppsett, tilpasning
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: core

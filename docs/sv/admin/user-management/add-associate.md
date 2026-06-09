@@ -1,19 +1,19 @@
-﻿---
+---
 uid: help-sv-user-add
 title: Lägg till användare
 description: I den här guiden förklarar vi hur du lägger till en ny användare i SuperOffice CRM.
 keywords: lägg till användare, medarbetare
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
-redirect_from: /sv/admin/user-management/learn/add-associate
 tier: starter
+redirect_from: /sv/admin/user-management/learn/add-associate
 language: sv
 ---
 
@@ -41,7 +41,6 @@ Administratörerna ansvarar för att ge varje ny användare ett användarnamn, e
 
     * **SuperOffice CRM Online:** Om aktiva användare behöver en annan användarplan kan du [tilldela användarplaner][4] under Inställningar och underhåll.
     * **SuperOffice CRM Suite:** Hantera användaråtkomst genom att aktivera eller inaktivera alternativet **Kan logga in**. Företagets plan bestämmer vilka funktioner alla användare kan komma åt. Se [CRM Suite-planer][5].
-
 
 ## <a id="fields"></a>Nyckelfält förklarade
 
@@ -99,6 +98,31 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 
 (filmens längd: 1:46)
 
+## Felsökning
+
+### En nyskapad användare kan inte logga in på SuperOffice
+
+Det finns två vanliga situationer när en ny användare inte kan logga in:
+
+* Användarnamnet är inte en e-postadress, eller e-postadressen är inte giltig
+* Den nya användarens konto är inte aktiverat
+
+1. [!include[Klicka på Användare](includes/goto-users.md)]
+
+1. Välj den användare som inte kan logga in i listan över användare.
+
+1. Kontrollera att användaren har angett en giltig e-postadress, eftersom aktiveringsmeddelandet skickas till den adressen.
+
+    ![Verifiera användarens e-postadress -screenshot][img2]
+
+1. Kontrollera att användaren har fått aktiveringsmeddelandet och att aktiveringsländken klickades inom 48 timmar.
+
+    ![Aktiveringsmeddelande -screenshot][img3]
+
+    Om du vill skicka välkomstmeddelandet igen går du till **Inställningar och underhåll** > **Användare**, väljer din användare, klickar på knappen **Uppgift** och väljer **Skicka välkomstmeddelande**.
+
+1. Kontrollera att användaren har följt [instruktionerna för att logga in på SuperOffice CRM][7].
+
 ## Relaterat innhåll
 
 * [Redigera användare/medarbetare][6]
@@ -111,8 +135,11 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 [4]: ../license/user-plans.md#change
 [5]: ../license/crm-suite.md
 [6]: update-user.md
+[7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/sv/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
+[img2]: ../../../media/loc/en/admin/filled-in-email.png
+[img3]: ../../../media/loc/en/admin/activation-email.png
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

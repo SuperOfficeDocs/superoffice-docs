@@ -4,8 +4,8 @@ title: Rediger layout af et kort
 description: I denne vejledning lærer du, hvordan du redigerer et layout.
 keywords: skærmlayout, rediger layout, ændre layout, slet layout, Nulstil til fabriksindstillinger
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

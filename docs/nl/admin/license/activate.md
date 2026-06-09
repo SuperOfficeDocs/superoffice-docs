@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-nl-license-activate
 title: Licentie activeren
 description: Licentie voor SuperOffice activeren
 keywords: licentie activeren
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: Settings and maintenance
 topic: licenses

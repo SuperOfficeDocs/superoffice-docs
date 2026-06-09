@@ -4,8 +4,8 @@ title: Lägg till en knapp eller länk
 description: Hur du lägger till en knapp eller länk i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: lägg till knapp, ny knapp, lägg till länk, ny länk, etikett
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

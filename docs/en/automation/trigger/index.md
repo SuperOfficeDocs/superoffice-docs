@@ -4,7 +4,7 @@ title: Triggers
 description: Introduction to triggers
 keywords: CRMScript, trigger, automation, event
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 content_type: concept
 tier: core
 index: true

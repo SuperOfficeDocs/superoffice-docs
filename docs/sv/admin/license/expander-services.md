@@ -4,8 +4,8 @@ title: Expander Services
 description: Expander Services
 keywords: expander services, license, development tools
 author: digitaldiina
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: customization
 deployment: online

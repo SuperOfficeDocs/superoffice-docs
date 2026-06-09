@@ -4,8 +4,8 @@ title: SAINT i Inställningar och underhåll
 description: Lär dig om nyckelbegreppen i SuperOffice SAINT, inklusive kriterier, bilder, räknare och standarduppföljningar.
 keywords: SAINT, aktivitetsövervakning, statusövervakning
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

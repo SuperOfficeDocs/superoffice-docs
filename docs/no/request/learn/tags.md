@@ -4,8 +4,8 @@ title: Bruke emneknagger i saker
 description: Finn ut hvordan du oppretter og redigerer emneknagger, i denne veiledningen.
 keywords: emneknagg, legg til emneknagg, ny emneknagg, fjern emneknagg, sak
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

@@ -4,8 +4,8 @@ title: Kombinierte Selektion erstellen
 description: In dieser Anleitung lernen Sie, wie Sie eine kombinierte Selektion erstellen.
 keywords: Selektionen kombinieren, Kombinierte Selektion, Selektion
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

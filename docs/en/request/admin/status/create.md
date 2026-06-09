@@ -4,8 +4,8 @@ title: Create request status
 description: Create request status
 keywords: create request status, add request status, new request status, request status, Internal status, Queue status, track time, request, status
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

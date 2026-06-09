@@ -3,7 +3,7 @@ uid: help-nl-customer-centre
 title: Klantportaal
 description: Klantportaal
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Klantportaal
 content_type: concept
 tier: growth

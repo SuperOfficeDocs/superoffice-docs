@@ -4,15 +4,15 @@ title: Opprette en makro – eksempel fra SuperOffice
 description: Eksempel på hvordan du oppretter en makro i SuperOffice.
 keywords: skript, makro
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /no/automation/crmscript/learn/create-macro
 tier: core
+redirect_from: /no/automation/crmscript/learn/create-macro
 language: no
 index: true
 ---

@@ -4,8 +4,8 @@ title: Mit ERP verbinden
 description: Mit ERP verbinden
 keywords: mit ERP verbinden, Firma mit ERP verbinden, Person mit ERP verbinden, Projekt mit ERP verbinden, kein Treffer in ERP gefunden, in ERP erstellen, Akteur erstellen, ERP-Akteur, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

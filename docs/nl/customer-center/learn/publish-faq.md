@@ -3,7 +3,7 @@ uid: help-nl-customer-center-faq
 title: Veelgestelde vragen publiceren naar het Klantportaal
 description: In deze handleiding leert u hoe u veelgestelde vragen kunt publiceren in het Klantportaal.
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: Veelgestelde vragen, Klantportaal
 content_type: howto
 tier: growth

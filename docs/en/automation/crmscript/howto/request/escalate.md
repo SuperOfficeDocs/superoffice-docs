@@ -4,8 +4,8 @@ title: Priority and escalation
 description: Priority and escalation of requests in CRMScript
 keywords: Service, ticket, request, CRMScript, escalation, priority
 author: digitaldiina
-date: 05.11.2026
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 redirect_from: /en/request/howto/crmscript/escalate

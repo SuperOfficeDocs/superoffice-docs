@@ -4,8 +4,8 @@ title: SuperOffice og licenser
 description: SuperOffice og licenser
 keywords: licens, forbrugstjeneste, databaseejer, fanen status
 author: digitaldiina, xt1
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -39,11 +39,11 @@ Fanen **SuperOffice** viser licensoplysninger for dit SuperOffice-abonnement.
 <!-- markdownlint-disable-file MD051 -->
 #### [Modulbaserede abonnementer](#tab/module-based)
 
-![SUPEROFFICE tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+![SuperOffice tab showing system licences and user licences for a module-based subscription -screenshot][img1]
 
 #### [CRM Suite](#tab/crm-suite)
 
-![SUPEROFFICE tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+![SuperOffice tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
 
 ***
 
@@ -175,6 +175,10 @@ Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal
 [3]: https://help.superoffice.com/docs/11/da/admin/onsite/add-system-event.html
 [4]: user-plans.md
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
+
+[14]: dev/module-licenses.md
+[17]: dev/index.md
+[15]: dev/hidden-licenses.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png

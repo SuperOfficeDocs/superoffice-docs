@@ -4,7 +4,7 @@ title: Customization
 description: Overview of ways to customize SuperOffice Mobile CRM.
 keywords: shown in Mobile CRM, mobile, pocket, customization, CRMScript
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: concept
 tier: core

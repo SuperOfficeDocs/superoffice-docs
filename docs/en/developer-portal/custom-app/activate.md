@@ -3,7 +3,7 @@ title: First-time activation
 uid: custom-app-first-time-activation
 description: Description of the process of activating a valid custom application for the first-time.
 author: Margrethe
-date: 12.20.2023
+date: 06.10.2026
 keywords: activate, consent
 content_type: howto
 deployment: online

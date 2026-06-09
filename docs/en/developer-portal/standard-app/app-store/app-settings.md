@@ -4,7 +4,7 @@ title: Application settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal
 author: Bergfrid Dias
-date: 02.26.2025
+date: 06.10.2026
 version: 2.0
 version_devportal: 2.0
 content_type: reference

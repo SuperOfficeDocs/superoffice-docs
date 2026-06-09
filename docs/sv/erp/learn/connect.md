@@ -4,8 +4,8 @@ title: Koppla till ERP
 description: Koppla till ERP
 keywords: koppla till ERP, koppla företag till ERP, koppla kontakt till ERP, koppla projekt till ERP, ingen träff i ERP, skapa aktör, skapa i ERP, ERP-aktör, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

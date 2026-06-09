@@ -4,7 +4,7 @@ title: Install
 description: How to install and configure the CRM Pocket client
 keywords: install Pocket, configure Pocket
 author: SuperOffice Product and Engineering
-date: 12.02.2021
+date: 06.10.2026
 content_type: howto
 platform: pocket
 deployment: onsite

@@ -4,15 +4,15 @@ title: Arbejde med eksterne kategorier
 description: Arbejde med eksterne kategorier
 keywords: ekstern kategori, kundesprog
 author: digitaldiina
-date: 05.11.2026
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: localization
 topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /da/admin/options/learn/custlang/external-categories
 tier: starter
+redirect_from: /da/admin/options/learn/custlang/external-categories
 language: da
 index: true
 ---

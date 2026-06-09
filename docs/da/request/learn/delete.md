@@ -4,8 +4,8 @@ title: Slet sager
 description: Sådan sletter du en sag i SuperOffice.
 keywords: slet sag, sag
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 functional_right: Service administration, General Administrator
 license: serviceessentials

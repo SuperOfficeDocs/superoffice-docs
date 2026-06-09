@@ -4,15 +4,15 @@ title: Kundesprog
 description: Kundesprog
 keywords: sprog
 author: digitaldiina
-date: 10.09.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 category: localization
 topic: language
-redirect_from: /da/admin/options/learn/custlang/index
 tier: starter
+redirect_from: /da/admin/options/learn/custlang/index
 language: da
 ---
 

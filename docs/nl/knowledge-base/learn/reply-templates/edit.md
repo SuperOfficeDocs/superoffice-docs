@@ -4,8 +4,8 @@ title: Antwoordsjablonen bewerken of verwijderen
 description: Leer hoe u antwoordsjablonen kunt bewerken of verwijderen in SuperOffice Service.
 keywords: sjabloon
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

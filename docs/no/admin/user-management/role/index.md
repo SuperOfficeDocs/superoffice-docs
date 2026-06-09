@@ -1,19 +1,19 @@
-﻿---
+---
 uid: help-no-role
 title: Rolle
 description: Rolle
 keywords: rolle, dataobjekt, brukernivå
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /no/admin/user-management/learn/role/index
 tier: starter
+redirect_from: /no/admin/user-management/learn/role/index
 language: no
 ---
 

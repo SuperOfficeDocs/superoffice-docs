@@ -4,8 +4,8 @@ title: SAINT - raw SQL
 description: Working with SAINT in raw SQL.
 keywords: sale, SAINT, counter, API, SQL, statusvalue, countervalue
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: growth
 redirect_from:

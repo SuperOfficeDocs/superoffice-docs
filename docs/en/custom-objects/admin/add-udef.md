@@ -4,8 +4,8 @@ title: Add user-defined field
 description: How to add a user-defined field in Settings and maintenance
 keywords: udef, user-defined field, custom field, field properties
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 audience: settings

@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-da-user-plans
 title: Brugerplaner
 description: SuperOffice brugerplaner og abonnementer
 keywords: brugerplan, licens, essential, premium
 author: Christian Mogensen, Bergfrid Dias
-date: 04.23.2024
-version: 10.3.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
@@ -44,7 +44,7 @@ Alle løsninger kan have forskellige tilføjelser. En tilføjelse (add-on) er en
   * Dokumenter og skabeloner
   * Sprogunderstøttelse
   * MS SharePoint-dokumenter
-  * Google Workplace-dokumenter
+  * Google Workspace-dokumenter
 * E-mail
   * SuperOffice-indbakke
   * SuperOffice til Outlook 365

@@ -3,7 +3,7 @@ uid: help-sv-customer-center-faq
 title: Publicera FAQ i Kundcenter
 description: I den här guiden förklarar vi hur du publicerar FAQ-artiklar i kundcentret.
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: FAQ, Kundcenter
 content_type: howto
 tier: growth

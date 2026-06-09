@@ -4,8 +4,8 @@ title: Work with quotes
 description: Learn how to create, manage, and send quotes in SuperOffice CRM to streamline your sales process and minimize errors.
 keywords: Quote section tab, Quote tab, sales, proposal, quote alternative, quote-to-order, quote
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth

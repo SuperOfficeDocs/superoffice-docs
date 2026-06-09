@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-no-user-plans
 title: Brukerplaner
 description: SuperOffice brukerplaner og abonnementer
 keywords: brukerplan, lisens, essential, premium
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
@@ -44,7 +44,7 @@ Alle løsninger kan ha ulike tillegg. Et tillegg (add-on) er en programvareutvid
   * Dokumenter og maler
   * Språkstøtte
   * MS SharePoint-dokumenter
-  * Google Workplace-dokumenter
+  * Google Workspace-dokumenter
 * E-post
   * SuperOffice-innboks
   * SuperOffice for Outlook 365

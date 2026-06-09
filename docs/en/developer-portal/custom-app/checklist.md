@@ -3,7 +3,7 @@ title: Validation checklist
 uid: custom-app-checklist
 description: "The app validation checklist - what to consider before you ask for a validation test."
 author: Margrethe Romnes
-date: 12.20.2023
+date: 06.10.2026
 keywords: custom app, validation, checklist
 content_type: reference
 deployment: online

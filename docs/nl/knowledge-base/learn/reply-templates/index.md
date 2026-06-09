@@ -4,8 +4,8 @@ title: Werken met antwoordsjablonen
 description: Leer hoe u antwoordsjablonen kunt bekijken, zoeken en beheren in SuperOffice Service.
 keywords: antwoordsjabloon, kennisdatabase
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base

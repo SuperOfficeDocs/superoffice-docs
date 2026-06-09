@@ -4,8 +4,8 @@ title: Slette saksprioritet
 description: Slette saksprioritet
 keywords: slette saksprioritet, fjerne saksprioritet, sak, prioritet
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

@@ -1,19 +1,19 @@
-﻿---
+---
 uid: help-da-role-set-data-rights
 title: Angiv datarettigheder for rolle
 description: Angiv datarettigheder for rolle
 keywords: brugerstyring, rolle, adgang, rettigheder
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /da/admin/user-management/learn/role/set-data-rights-for-role
 tier: starter
+redirect_from: /da/admin/user-management/learn/role/set-data-rights-for-role
 language: da
 ---
 

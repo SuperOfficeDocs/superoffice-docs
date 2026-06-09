@@ -4,8 +4,8 @@ title: Project
 description: Deze how-to gids laat u zien hoe u projecten kunt maken en gebruiken om uw werk te organiseren.
 keywords: Projectkaart, Projectscherm, tabblad Afbeelding, project
 author: Bergfrid Dias
-date: 05.28.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core

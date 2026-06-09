@@ -4,8 +4,8 @@ title: Neue Person erstellen
 description: So erstellen Sie eine neue Person in SuperOffice.
 keywords: Person erstellen, Interessen hinzufügen, Registerkarte Interessen, Kontaktbild, bevorzugte Sprache, Rechtsgrundlage, Person, Kontaktperson
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -123,7 +123,7 @@ Die folgenden Felder sind in der Personenkarte verfügbar. Einige Felder werden 
 * **Internet-Telefon:** Geben Sie eine VOIP-Adresse ein, zum Beispiel für Skype oder einen anderen internetbasierten Telefondienst.
 * **Direktfax:** Erfassen Sie die Faxnummer der Person.
 
-### Service-spezifische Felder *(erfordert eine **Service Premium**-Lizenz, eine **CEP**-Lizenz oder den **Growth**-Plan)*
+**Service-spezifische Felder** *(erfordert eine **Service Premium**-Lizenz, eine **CEP**-Lizenz oder den **Growth**-Plan)*
 
 * **Bevorzugte Sprache:** Wählen Sie die bevorzugte Sprache der Person für alle Antwortvorlagen aus.
 * **Service-Priorität:** Legen Sie die Standardpriorität für neue Serviceanfragen fest (z. B. Niedrig, Mittel, Hoch oder individuell angepasst). Falls nicht festgelegt, wird die Priorität der verknüpften Firma verwendet.

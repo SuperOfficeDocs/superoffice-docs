@@ -4,8 +4,8 @@ title: Create a macro - example from SuperOffice
 description: Example of how to create a macro in SuperOffice.
 keywords: script, macro
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 category: automation

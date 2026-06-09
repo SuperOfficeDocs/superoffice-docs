@@ -4,8 +4,8 @@ title: Verkaufsleitfaden bearbeiten oder deaktivieren
 description: Erfahren Sie, wie Sie einen Verkaufsleitfaden in SuperOffice CRM bearbeiten oder deaktivieren können.
 keywords: Verkaufsleitfaden bearbeiten, Verkaufsleitfaden aktualisieren, Verkaufsleitfaden deaktivieren, Verkaufsleitfaden, Leitfaden, Workflow, Verkauf
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth

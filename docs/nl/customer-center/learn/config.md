@@ -4,7 +4,7 @@ title: Customer Centre-configuratie
 description: Lees in deze handleiding hoe u uw Customer Centre configureert.
 keywords: Service, Klantportaal, CEP
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: nl

@@ -4,8 +4,8 @@ title: Schaltfläche oder Link hinzufügen
 description: So fügen Sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung eine Schaltfläche oder einen Link zu einem Layout hinzu.
 keywords: Schaltfläche hinzufügen, neue Schaltfläche, Link hinzufügen, neuer Link, Beschriftung
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

@@ -4,8 +4,8 @@ title: Dashboards
 description: SuperOffice Dashboards zijn ideaal voor gebruikers en managers. Krijg een overzicht van uw werk of de prestaties van uw team met vooraf gedefinieerde tegels of maak uw eigen dashboards.
 keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel, snelfilter
 author: digitaldiina
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

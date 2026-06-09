@@ -4,8 +4,8 @@ title: Verzoekstatus
 description: Verzoekstatus
 keywords: verzoek, status, verzoekstatus, tabblad Verzoekstatus
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

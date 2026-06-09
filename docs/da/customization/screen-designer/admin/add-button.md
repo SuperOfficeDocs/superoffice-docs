@@ -4,8 +4,8 @@ title: Tilføj en knap eller et link
 description: Sådan tilføjer du en knap eller et link til et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: tilføj knap, ny knap, tilføj link, nyt link, label
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

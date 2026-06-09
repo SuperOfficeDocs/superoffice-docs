@@ -4,8 +4,8 @@ title: Add a sync connector and ERP connection
 description: Learn how to install a sync app, add a sync connector, and create ERP connections to enable synchronization between SuperOffice CRM and an ERP system.
 keywords: set up ERP sync, add sync connector, sync connector, add ERP connection, test ERP connection, ERP connection, connector, sync, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

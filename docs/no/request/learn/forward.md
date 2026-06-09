@@ -4,8 +4,8 @@ title: Videresend sak til ekstern person
 description: Lær hvordan du videresender en sak i denne veiledningen.
 keywords: videresend sak, sak
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

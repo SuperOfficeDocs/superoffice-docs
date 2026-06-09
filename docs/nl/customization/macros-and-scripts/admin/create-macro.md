@@ -4,15 +4,15 @@ title: Een macro maken - voorbeeld van SuperOffice
 description: Voorbeeld van het maken van een macro in SuperOffice.
 keywords: script, macro
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /nl/automation/crmscript/learn/create-macro
 tier: core
+redirect_from: /nl/automation/crmscript/learn/create-macro
 language: nl
 index: true
 ---

@@ -4,8 +4,8 @@ title: Skærmdesigner
 description: Få mere at vide om, hvordan du konfigurerer dine skærmbilleder i denne vejledning.
 keywords: Skærmdesigner, layout, skærmbillede, tilpasningsmulighed
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: core

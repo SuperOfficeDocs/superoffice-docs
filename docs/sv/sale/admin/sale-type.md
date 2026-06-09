@@ -4,8 +4,8 @@ title: Lägg till försäljningstyp
 description: Så här lägger du till och hanterar försäljningstyper i SuperOffice CRM. Definiera faser, säljguider och offerter för varje försäljningstyp i Inställningar och underhåll.
 keywords: lägg till försäljningstyp, Försäljning - Typ Faser Offert lista, Försäljning - Kategori lista, Offertbilagor, Standardvärden för offert, Offertgodkännande, försäljningstyp, försäljning, offert
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core

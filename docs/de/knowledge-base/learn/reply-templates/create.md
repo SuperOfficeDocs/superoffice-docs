@@ -4,8 +4,8 @@ title: Antwortvorlagen erstellen
 description: In dieser Anleitung erfahren Sie, wie Sie eine Antwortvorlage erstellen.
 keywords: Antwortvorlage erstellen, neue Antwortvorlage, Antwortvorlage kopieren, Antwortvorlageneigenschaften, Antwortvorlage, Vorlage, vorbereiteter Text, Wissensdatenbank
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

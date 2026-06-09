@@ -4,8 +4,8 @@ title: Update role
 description: How to edit a role.
 keywords: role, user management
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: settings

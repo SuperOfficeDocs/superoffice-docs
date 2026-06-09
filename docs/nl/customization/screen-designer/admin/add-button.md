@@ -4,8 +4,8 @@ title: Knop of koppeling toevoegen
 description: Hoe u een knop of link toevoegt aan een opmaak met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: knop toevoegen, nieuwe knop, koppeling toevoegen, nieuwe koppeling, label
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

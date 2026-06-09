@@ -4,8 +4,8 @@ title: Projekt
 description: Diese Anleitung zeigt Ihnen, wie Sie Projekte erstellen und verwenden, um den Überblick über Ihre Arbeit zu behalten.
 keywords: Projektkarte, Projektansicht, Prozessmanagement, Projekt
 author: Bergfrid Dias
-date: 05.28.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core

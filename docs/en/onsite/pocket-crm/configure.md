@@ -4,7 +4,7 @@ title: Configure
 description: Pocket CRM config
 keywords: configure Pocket CRM, Pocket Server, PocketCrmServiceUrl, AllwaysUseGsmPhoneStyle
 author: SuperOffice Product and Engineering
-date: 12.08.2021
+date: 06.10.2026
 content_type: howto
 platform: pocket
 deployment: onsite

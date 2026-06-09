@@ -4,7 +4,7 @@ title: Install and log in
 description: How to download the SuperOffice Mobile CRM app and sign in for the first time.
 keywords: mobile, install, login, log in, sign in, log out, download, app store, play store
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 tier: core

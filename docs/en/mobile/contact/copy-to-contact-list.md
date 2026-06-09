@@ -4,7 +4,7 @@ title: Copy contacts to your local address book
 description: How to copy contacts from SuperOffice Mobile CRM to the contact list on your device.
 keywords: contact list, address book, phone number, email, SMS, address, contact, person
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 tier: core

@@ -4,8 +4,8 @@ title: Overtag (tag ansvar for) sag
 description: Sådan overtager du en sag for at undgå, at andre svarer på sagen samtidigt.
 keywords: overtag sag, acceptér, ansvar, sagsbehandler, næste i køen, sag
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

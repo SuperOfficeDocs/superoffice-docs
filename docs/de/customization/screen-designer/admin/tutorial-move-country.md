@@ -4,8 +4,8 @@ title: Tutorial - Land nach vorne verschieben
 description: In diesem Tutorial lernen Sie, wie Sie das Länderfeld auf einem Firmen- oder Personbildschirm verschieben.
 keywords: Landesfeld, Ansichtsdesigner
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance

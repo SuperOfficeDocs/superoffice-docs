@@ -4,8 +4,8 @@ title: Run, pause, and end flow
 description: How to run, pause, resume, end, and delete a SuperOffice Marketing automation flow.
 keywords: flow, automation, run flow, running, pause flow, resume flow, end flow, delete flow, flow status
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows

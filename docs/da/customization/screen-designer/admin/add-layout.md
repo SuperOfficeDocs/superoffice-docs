@@ -4,8 +4,8 @@ title: Tilføj layout
 description: Sådan tilføjes et nyt layout for en brugergruppe.
 keywords: tilføj layout, nyt layout, skærmlayout, Tildel layout til
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

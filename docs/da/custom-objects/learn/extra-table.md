@@ -4,8 +4,8 @@ title: Ekstra tabeller
 description: Ekstra tabeller
 keywords: ekstra tabel, brugerdefinerede objekter
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10.3.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

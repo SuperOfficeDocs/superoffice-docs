@@ -4,8 +4,8 @@ title: Opmaak toevoegen
 description: Een nieuwe opmaak toevoegen voor een gebruikersgroep.
 keywords: opmaak toevoegen, nieuwe opmaak, schermopmaak, Opmaken toewijzen aan
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

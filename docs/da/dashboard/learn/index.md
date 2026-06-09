@@ -4,8 +4,8 @@ title: Dashboards
 description: SuperOffice Dashboard er ideelle for både brugere og ledere. Få overblik over dit eget arbejde eller dit teams præstationer med foruddefinerede ruder, eller opret dine egne.
 keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude, hurtigfilter
 author: digitaldiina
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,8 +4,8 @@ title: Verbinding maken met ERP
 description: Verbinding maken met ERP
 keywords: verbinding met ERP, bedrijf koppelen aan ERP, contactpersoon koppelen aan ERP, project koppelen aan ERP, kan geen overeenkomst vinden in ERP, maken in ERP, actor maken, ERP-actor, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

@@ -4,7 +4,7 @@ title: System requirements
 description: System requirements for Pocket CRM mobile client
 keywords: Pocket requirements
 author: SuperOffice Product and Engineering
-date: 12.02.2021
+date: 06.10.2026
 content_type: reference
 platform: pocket
 deployment: onsite

@@ -3,7 +3,7 @@ uid: help-en-customer-centre
 title: Customer centre
 description: Customer centre
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Customer Center
 content_type: concept
 tier: growth

@@ -4,8 +4,8 @@ title: Försäljning
 description: SuperOffice Sales hjälper säljteam att hålla koll på sina försäljningspipelines och processer.
 keywords: fönstret Försäljning, försäljningskort, försäljningsskärm, försäljning, affärsmöjlighet, sälj
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salesessentials
 tier: starter

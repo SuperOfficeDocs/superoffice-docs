@@ -1,23 +1,23 @@
-﻿---
+---
 uid: help-nl-users
 title: Gebruikers
 description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
 keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven, zichtbaarheid, beschikbaar
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
+tier: starter
 redirect_from: 
   - /nl/admin/user-management/learn/index
   - /nl/admin/user-management/learn/screen/index
   - /nl/admin/user-management/learn/visibility
   - /nl/admin/user-management/learn/associates-filter-group
-tier: starter
 language: nl
 ---
 

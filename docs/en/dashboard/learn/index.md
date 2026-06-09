@@ -4,8 +4,8 @@ title: Dashboards
 description: SuperOffice Dashboard are ideal for users and managers alike. Get an overview of your individual work or your team's performance with pre-defined tiles or create your own.
 keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile, quick filter
 author: digitaldiina, kirstiaa
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: person

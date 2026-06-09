@@ -3,7 +3,7 @@ uid: help-da-customer-centre
 title: Kundecenter
 description: Kundecenter
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundecenter
 content_type: concept
 tier: growth

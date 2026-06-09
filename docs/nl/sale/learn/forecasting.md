@@ -4,8 +4,8 @@ title: Bewaak je pijplijn en voorspel verkoop
 description: Hoe je je verkoop­pijplijn bewaakt en je verkoop prognosticeert met behulp van dashboards en selecties.
 keywords: verkoop, prognose, pipeline
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

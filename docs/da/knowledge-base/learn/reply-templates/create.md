@@ -4,8 +4,8 @@ title: Opret svarskabeloner
 description: Lær, hvordan du opretter en svarskabelon, i denne vejledning.
 keywords: opret svarskabelon, ny svarskabelon, kopiér svarskabelon, svarskabelon egenskaber, skabelon
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

@@ -4,8 +4,8 @@ title: Projekt
 description: Denne vejledning viser dig, hvordan du opretter og bruger projekter til at holde styr på dit arbejde.
 keywords: projekt
 author: Bergfrid Dias
-date: 05.28.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core

@@ -4,8 +4,8 @@ title: Create a combined selection
 description: In this howto, you will learn how to create a combined selection.
 keywords: combine selections, selection
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 audience: person

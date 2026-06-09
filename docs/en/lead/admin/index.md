@@ -4,8 +4,8 @@ title: Set up lead management
 description: Learn how to enable, configure, and extend lead management in SuperOffice CRM.
 keywords: lead management, lead setup, lead status, potential customer, sales process
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead

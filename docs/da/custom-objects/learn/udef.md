@@ -3,8 +3,8 @@ uid: help-da-udef
 title: Brugerdefinerede felter
 description: Brugerdefinerede felter
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10.3.1
+date: 06.10.2026
+version: 12.0
 keywords: udef, tilpasset felt, Brugerdefinered
 content_type: concept
 audience: person

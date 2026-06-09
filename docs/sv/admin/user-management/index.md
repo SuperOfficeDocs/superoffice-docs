@@ -1,23 +1,23 @@
-﻿---
+---
 uid: help-sv-users
 title: Användare
 description: Lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools.
 keywords: Fönstret Användare, användare, medarbetare, våra företag, synlighet, tillgängligt
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
+tier: starter
 redirect_from:
   - /sv/admin/user-management/learn/index
   - /sv/admin/user-management/learn/screen/index
   - /sv/admin/user-management/learn/visibility
   - /sv/admin/user-management/learn/associates-filter-group
-tier: starter
 language: sv
 ---
 

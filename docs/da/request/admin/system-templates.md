@@ -4,7 +4,7 @@ title: Systemskabeloner
 description: Systemskabeloner
 keywords: fanen Systemskabeloner, sager, Foretrukne
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance

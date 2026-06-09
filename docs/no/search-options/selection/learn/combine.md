@@ -4,8 +4,8 @@ title: Opprett et kombinasjonsutvalg
 description: I denne veiledningen lærer du hvordan du lager et kombinasjonsutvalg.
 keywords: kombiner utvalg, kombinasjonsutvalg, utvalg
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -4,7 +4,7 @@ title: Approve sale
 description: How to approve or reject a quote for a sale in SuperOffice Mobile CRM.
 keywords: quote, approve, sale
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
 license: salespremium

@@ -4,8 +4,8 @@ title: Søke-skjerm
 description: Søke-skjerm
 keywords: søk, finn
 author: SuperOffice RnD
-date: 08.25.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM

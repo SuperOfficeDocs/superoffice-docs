@@ -4,8 +4,8 @@ title: Work with leads in SuperOffice
 description: Learn how to view, update, and follow up leads in SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead

@@ -4,8 +4,8 @@ title: Pipeline überwachen und Umsatz prognostizieren
 description: Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe von Dashboards und Selektionen prognostiziert.
 keywords: Verkauf, Prognose, Pipeline
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

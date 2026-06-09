@@ -1,19 +1,19 @@
-﻿---
+---
 uid: help-da-user-add
 title: Tilføjelse af bruger
 description: I denne vejledning lærer du, hvordan du tilføjer en ny bruger til SuperOffice CRM.
 keywords: tilføj bruger, medarbejder
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
-redirect_from: /da/admin/user-management/learn/add-associate
 tier: starter
+redirect_from: /da/admin/user-management/learn/add-associate
 language: da
 ---
 
@@ -41,7 +41,6 @@ Administratorer er ansvarlige for at tildele hver ny bruger et brugernavn, en ad
 
     * **SuperOffice CRM Online:** Hvis aktive brugere har brug for en anden brugerplan, kan du [tildele brugerplaner][4] i Indstillinger og vedligeholdelse.
     * **SuperOffice CRM Suite:** Administrer brugeradgang ved at aktivere eller deaktivere indstillingen **Kan logge på**. Firmaets plan bestemmer, hvilke funktioner alle brugere har adgang til. Se [CRM Suite-planer][5].
-
 
 ## <a id="fields"></a>Vigtige felter forklaret
 
@@ -99,6 +98,31 @@ Se denne demo for at se, hvordan du kan tilføje en ny bruger i SuperOffice CRM.
 
 (videolængde – 1:46)
 
+## Fejlfinding
+
+### En nyoprettet bruger kan ikke logge på SuperOffice
+
+Der er to almindelige situationer, når en ny bruger ikke kan logge på:
+
+* Brugernavnet er ikke en e-mailadresse, eller e-mailadressen er ikke gyldig
+* Den nye brugers konto er ikke aktiveret
+
+1. [!include[Klik på Brugere](includes/goto-users.md)]
+
+1. Vælg den bruger, der ikke kan logge på, på listen over brugere.
+
+1. Sørg for, at brugeren har angivet en gyldig e-mailadresse, da aktiverings-e-mailen sendes til denne adresse.
+
+    ![Bekræft brugerens e-mailadresse -screenshot][img2]
+
+1. Sørg for, at brugeren har modtaget aktiverings-e-mailen, og at aktiveringslinket er klikket inden for 48 timer.
+
+    ![Aktiverings-e-mail -screenshot][img3]
+
+    Hvis du vil sende velkomst-e-mailen igen, skal du gå til **Indstillinger og vedligeholdelse** > **Brugere**, vælge din bruger, klikke på knappen **Opgave** og vælge **Send velkomst-e-mail**.
+
+1. Sørg for, at brugeren har fulgt [vejledningen til at logge på SuperOffice CRM][7].
+
 ## Relateret indhold
 
 * [Redigering af bruger/medarbejder][6]
@@ -111,8 +135,11 @@ Se denne demo for at se, hvordan du kan tilføje en ny bruger i SuperOffice CRM.
 [4]: ../license/user-plans.md#change
 [5]: ../license/crm-suite.md
 [6]: update-user.md
+[7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/da/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
+[img2]: ../../../media/loc/en/admin/filled-in-email.png
+[img3]: ../../../media/loc/en/admin/activation-email.png
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

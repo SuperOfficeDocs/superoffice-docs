@@ -4,8 +4,8 @@ title: Antwoordsjablonen maken
 description: Meer informatie over het maken van een antwoordsjabloon vindt u in deze gids.
 keywords: antwoordsjabloon maken, nieuwe antwoordsjabloon, eigenschappen antwoordsjabloon, beantwoorden, antwoordsjabloon, sjabloon
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

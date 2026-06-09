@@ -3,7 +3,7 @@ uid: help-de-customer-center-edit
 title: Kundenzentrum-Quelldateien
 description: Kundenzentrum-Quelldateien
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundenzentrum, CEP
 content_type: howto
 tier: growth

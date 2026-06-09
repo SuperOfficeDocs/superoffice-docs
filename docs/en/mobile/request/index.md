@@ -4,7 +4,7 @@ title: Request
 description: Learn about working with requests in SuperOffice Mobile CRM.
 keywords: mobile, request, ticket, Service, customer
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: concept
 license: serviceessentials

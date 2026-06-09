@@ -77,7 +77,7 @@ The **Restrictions** indicator in **Settings and maintenance** > **Licences** > 
 | Usage | Indicator | Meaning |
 | --- | --- | --- |
 | Below 85% | Count shown in black | Normal — no action needed |
-| 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in red | Approaching the limit |
+| 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in yellow | Approaching the limit |
 | 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Count shown in red | Limit reached — the feature is restricted |
 
 ![Licences Status tab showing a plan limit warning with an Upgrade button -screenshot][img1]

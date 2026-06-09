@@ -4,8 +4,8 @@ title: Arbeta med leads i SuperOffice
 description: Lär dig att visa, uppdatera och följa upp leads i SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead

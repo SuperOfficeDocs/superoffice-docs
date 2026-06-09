@@ -4,8 +4,8 @@ title: Tilføj en Sync Connector og ERP-forbindelse
 description: Lær, hvordan du installerer en sync-app, tilføjer en Sync Connector og opretter ERP-forbindelser for at aktivere synkronisering mellem SuperOffice CRM og et ERP-system.
 keywords: opsæt ERP-synk, tilføj Sync Connector, Sync Connector, tilføj ERP-forbindelse, test ERP-forbindelse, ERP-forbindelse, connector, synk, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

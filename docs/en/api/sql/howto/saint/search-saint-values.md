@@ -4,8 +4,8 @@ title: Search values
 description: How to search on SAINT values in raw SQL.
 keywords: sale, SAINT, API, SQL, counterValue, totalReg, totalRegInPeriod, notCompleted, notCompletedInPeriod
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 redirect_from:

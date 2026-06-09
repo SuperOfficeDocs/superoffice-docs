@@ -4,8 +4,8 @@ title: Mallvariabler
 description: Mallvariabler
 keywords: mallvariabler
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: reference
 category: service
 topic: knowledge base

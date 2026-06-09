@@ -4,8 +4,8 @@ title: Registrer et salg
 description: Registrer salg i SuperOffice Sales for at samle alle dine muligheder og kundeoplysninger ét sted. Denne vejledning viser, hvordan du registrerer salg.
 keywords: opret salg, nyt salg, tilføj salg, registrer salg, salg
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

@@ -4,8 +4,8 @@ title: Request categories
 description: Request categories
 keywords: request category, Categories tab, request, category
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
 tier: starter

@@ -4,8 +4,8 @@ title: Hantera offert- och orderinställningar
 description: Lär dig hur offerter, quote connectors och ERP-integration fungerar i SuperOffice CRM och hur du konfigurerar dem i skärmen Offert/Synk.
 keywords: quote connector, ERP-koppling, offertinställningar, prislista, produkt, Offert/Synk, ERP-inställningar, quote connector-inställningar, offertintegration, försäljningskonfiguration, offert, synk
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth

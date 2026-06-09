@@ -4,8 +4,8 @@ title: Legg til en knapp eller kobling
 description: Hvordan legge til en knapp eller kobling med Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: legg til knapp, ny knapp, legg til kobling, ny kobling, etikett
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

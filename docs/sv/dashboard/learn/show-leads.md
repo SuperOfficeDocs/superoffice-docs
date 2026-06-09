@@ -4,8 +4,8 @@ title: Dashboard för leads
 description: Skapa dashboards för dina säljsleads för att spåra och analysera deras resultat, trender och produktivitet över alla leadaktiviteter.
 keywords: dashboard, leads, försäljning, UTM-data, leadpanel
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead

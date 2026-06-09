@@ -3,8 +3,8 @@ uid: help-sv-udef-layout
 title: Anpassa användargränssnitt
 description: Anpassa användargränssnitt
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10
+date: 06.10.2026
+version: 12.0
 keywords: udef, anpassa fält
 content_type: howto
 audience: settings

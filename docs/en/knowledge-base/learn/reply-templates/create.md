@@ -4,8 +4,8 @@ title: Create reply templates
 description: Learn how to create a reply template in this how-to guide.
 keywords: create reply template, new reply template, copy reply template, reply template properties
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base

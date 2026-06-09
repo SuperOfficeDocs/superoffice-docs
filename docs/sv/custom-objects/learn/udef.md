@@ -3,8 +3,8 @@ uid: help-sv-udef
 title: Användardefinierade fält
 description: Användardefinierade fält
 author: Bergfrid Dias
-date: 05.11.2026
-version: 10.3.1
+date: 06.10.2026
+version: 12.0
 keywords: udef, anpassa fält, användardefinierad fält
 content_type: concept
 audience: person

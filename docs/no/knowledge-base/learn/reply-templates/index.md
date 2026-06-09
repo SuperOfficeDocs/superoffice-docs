@@ -4,8 +4,8 @@ title: Arbeide med svarmaler
 description: Lær hvordan du arbeider med svarmaler.
 keywords: vis svarmal, finn svarmal, svarmal, ferdig tekst, kunnskapsbase
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.1
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base

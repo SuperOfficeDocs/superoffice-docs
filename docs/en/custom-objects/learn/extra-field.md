@@ -4,8 +4,8 @@ title: Extra fields
 description: An extra field is a custom field that you add to an existing SuperOffice database table in Service.
 keywords: extra field, custom field, field types
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: core
 language: en

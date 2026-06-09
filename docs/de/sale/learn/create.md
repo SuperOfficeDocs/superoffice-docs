@@ -4,8 +4,8 @@ title: Verkauf erfassen
 description: Erfassen Sie Verkäufe in SuperOffice Sales, um alle Verkaufschancen und Kundeninformationen an einem Ort zu speichern. Diese Anleitung zeigt Ihnen, wie Sie Verkäufe erfassen.
 keywords: Verkauf erstellen, neuer Verkauf, Verkauf hinzufügen, Verkauf erfassen, Verkauf
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

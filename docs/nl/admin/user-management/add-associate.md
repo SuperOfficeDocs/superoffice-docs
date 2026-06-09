@@ -1,19 +1,19 @@
-﻿---
+---
 uid: help-nl-user-add
 title: Gebruiker toevoegen
 description: In deze handleiding leert u hoe u een nieuwe gebruiker toevoegt in SuperOffice CRM.
 keywords: gebruiker toevoegen, medewerker
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
-redirect_from: /nl/admin/user-management/learn/add-associate
 tier: starter
+redirect_from: /nl/admin/user-management/learn/add-associate
 language: nl
 ---
 
@@ -41,7 +41,6 @@ Beheerders zijn verantwoordelijk voor het toewijzen van een gebruikersnaam, wach
 
     * **SuperOffice CRM Online:** Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
     * **SuperOffice CRM Suite:** Beheer gebruikerstoegang door de optie **Kan aanmelden** in of uit te schakelen. Het bedrijfsplan bepaalt welke functies alle gebruikers kunnen openen. Zie [CRM Suite-plannen][5].
-
 
 ## <a id="fields"></a>Belangrijke velden uitgelegd
 
@@ -99,6 +98,31 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 
 (videolengte - 1:46)
 
+## Problemen oplossen
+
+### Een nieuw aangemaakte gebruiker kan niet inloggen op SuperOffice
+
+Er zijn twee veelvoorkomende situaties waarbij een nieuwe gebruiker niet kan inloggen:
+
+* De gebruikersnaam is geen e-mailadres, of het e-mailadres is niet geldig
+* Het account van de nieuwe gebruiker is niet geactiveerd
+
+1. [!include[Gebruikers openen](includes/goto-users.md)]
+
+1. Selecteer in de lijst met gebruikers de gebruiker die niet kan inloggen.
+
+1. Zorg ervoor dat de gebruiker een geldig e-mailadres heeft ingevuld, want dit e-mailadres ontvangt de activeringsmail.
+
+    ![E-mailadres van gebruiker verifiëren -screenshot][img2]
+
+1. Zorg ervoor dat de gebruiker de activeringsmail heeft ontvangen en dat er binnen 48 uur op de activeringslink is geklikt.
+
+    ![Activeringsmail -screenshot][img3]
+
+    Als u de welkomstmail opnieuw wilt verzenden, gaat u naar **Instellingen en onderhoud** > **Gebruikers**, selecteert u uw gebruiker, klikt u op de knop **Taak** en kiest u **Welkomstmail verzenden**.
+
+1. Zorg ervoor dat de gebruiker de [instructies voor het inloggen bij SuperOffice CRM][7] heeft gevolgd.
+
 ## Gerelateerde inhoud
 
 * [Gebruiker / medewerker bewerken][6]
@@ -111,8 +135,11 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 [4]: ../license/user-plans.md#change
 [5]: ../license/crm-suite.md
 [6]: update-user.md
+[7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
 [10]: https://help.superoffice.com/docs/11/nl/admin/user-management/add-associate.html
 
 <!-- Referenced images -->
+[img2]: ../../../media/loc/en/admin/filled-in-email.png
+[img3]: ../../../media/loc/en/admin/activation-email.png
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

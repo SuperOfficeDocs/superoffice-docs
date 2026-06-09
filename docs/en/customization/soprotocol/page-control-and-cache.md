@@ -4,7 +4,7 @@ title: Page control and cache
 description: SoProtocol page control and cache
 keywords: soprotocol, deeplinking, cache
 author: Tony Yates, digitaldiina, MargretheR
-date: 29.05.2026
+date: 06.10.2026
 content_type: reference
 category: customization
 topic: soprotocol

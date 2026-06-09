@@ -4,8 +4,8 @@ title: Publicera formulär
 description: Publicera formulär
 keywords: formulär, publicera, publicera formulär, förifyllda fält, fältidentifierare, skripttagg, direktlänk, UTM-byggare, lägg till UTM-spårning
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms

@@ -4,8 +4,8 @@ title: Using tags in requests
 description: Learn how to create and edit request tags in this how-to guide.
 keywords: tag request, add tag, remove tag, tagging, tag, request
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

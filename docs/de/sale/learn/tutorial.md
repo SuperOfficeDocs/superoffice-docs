@@ -4,8 +4,8 @@ title: Beispiel – Verkaufsleitfaden
 description: Arbeiten mit einem Verkaufsleitfaden
 keywords: Verkaufsleitfaden, Beispiel
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: starter

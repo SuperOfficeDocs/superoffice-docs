@@ -4,8 +4,8 @@ title: Set data rights for role
 description: Set data rights for role
 keywords: user management, role, access, rights
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: settings

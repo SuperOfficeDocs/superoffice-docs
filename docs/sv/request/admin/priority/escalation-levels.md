@@ -3,8 +3,8 @@ uid: help-sv-request-escalation
 title: Eskaleringsnivåer
 description: Eskaleringsnivåer
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 keywords: eskaleringsnivå, lägg till eskaleringsnivå, ny nivå, eskalera, fliken Eskaleringsnivåer, ärendeprioritet, ärende, prioritet
 content_type: howto
 audience: settings

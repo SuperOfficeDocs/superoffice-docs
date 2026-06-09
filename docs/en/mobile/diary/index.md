@@ -4,7 +4,7 @@ title: Diary
 description: Learn about the Diary in SuperOffice Mobile CRM.
 keywords: diary, calendar, appointment, follow-up, task, upcoming, go to today
 author: digitaldiina
-date: 05.11.2026
+date: 06.10.2026
 version: 11.1
 content_type: concept
 tier: core

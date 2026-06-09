@@ -4,8 +4,8 @@ title: Nachricht bearbeiten
 description: Wie man eine Nachricht in einer Anfrage in SuperOffice bearbeitet
 keywords: Nachricht bearbeiten, Nachrichteneigenschaften aktualisieren, Nachrichteneigenschaften ändern, Nachricht bearbeiten, Nachricht aktualisieren, Anfrage
 author: digitaldiina
-date: 05.11.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
 tier: starter

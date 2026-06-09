@@ -4,8 +4,8 @@ title: Publish form
 description: Publish form
 keywords: form, publish form, active form, embed form, pre-fill, pre-filled field, form identifier, field ID, UTM builder, Add UTM tracking
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms

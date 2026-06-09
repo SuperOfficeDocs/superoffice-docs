@@ -1,11 +1,11 @@
-﻿---
+---
 uid: help-no-license-activate
 title: Aktivere lisens
 description: Aktivere lisens for SuperOffice
 keywords: aktivere lisens
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: Settings and maintenance
 topic: licenses

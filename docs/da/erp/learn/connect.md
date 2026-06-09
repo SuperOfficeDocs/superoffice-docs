@@ -4,8 +4,8 @@ title: Knyt til ERP
 description: Knyt til ERP
 keywords: knyt til ERP, knyt firma til ERP, knyt person til ERP, knyt projekt til ERP, ingen hits i ERP, opret i ERP, opret aktør, ERP-aktør, ERP
 author: digitaldiina
-date: 05.11.2026
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth

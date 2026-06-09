@@ -3,7 +3,7 @@ uid: help-en-customer-center-edit
 title: Customer centre source files
 description: Customer centre source files
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: Customer Center, CEP
 content_type: howto
 tier: growth

@@ -4,8 +4,8 @@ title: Referens
 description: Referens över element som finns tillgängliga i Skärmdesignern i Inställningar och underhåll.
 keywords: Skärmdesigner fält, standardfält, standardflik
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: reference
 license: development-tools
 tier: core

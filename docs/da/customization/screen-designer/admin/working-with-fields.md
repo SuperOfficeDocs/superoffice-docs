@@ -4,8 +4,8 @@ title: Arbejde med felter
 description: Sådan tilføjer, flytter og sletter du felter i et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: tilføj felt, nyt felt, flyt felt, fjern felt, skjul felt, rediger layout, feltindstillinger
 author: digitaldiina
-date: 05.11.2026
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: core

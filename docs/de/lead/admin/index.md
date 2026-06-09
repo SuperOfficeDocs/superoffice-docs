@@ -4,8 +4,8 @@ title: Lead-Management einrichten
 description: Erfahren Sie, wie Sie Lead-Management in SuperOffice CRM aktivieren, konfigurieren und erweitern.
 keywords: Lead-Management, Lead-Einrichtung, Lead-Status, potenzieller Kunde, Verkaufsprozess
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead

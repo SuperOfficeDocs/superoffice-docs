@@ -4,8 +4,8 @@ title: Register a sale
 description: Register sales in SuperOffice Sales to have all your opportunities and customer information in one place. This how-to guide will show you how to register sales.
 keywords: create sale, new sale, add sale, register sale, sale
 author: digitaldiina
-date: 05.11.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: starter

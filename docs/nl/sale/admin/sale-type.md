@@ -4,8 +4,8 @@ title: Verkooptype toevoegen
 description: Leer hoe u verkooptypen kunt toevoegen en beheren in SuperOffice CRM. Definieer verkoopfasen, koppel verkoopgidsen en stel offerte-instellingen in voor een gestroomlijnd verkoopproces.
 keywords: verkooptype toevoegen, verkooptype, verkoop, offerte, fase, verkoopgids, lijst Verkoop - Type Fasen Offerte
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core
