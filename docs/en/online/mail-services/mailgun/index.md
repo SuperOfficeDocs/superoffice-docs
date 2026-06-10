@@ -151,7 +151,7 @@ Contact our support directly, and they will help you to get it configured.
 
 **Access to your SMTP server from Online servers:**
 
-It is a good idea to allow (whitelist) access to your own SMTP server from our Online environment based on IP address: 91.123.49.126, 91.123.49.180, 91.123.49.237
+It is a good idea to allow (whitelist) access to your own SMTP server from our Online environment based on IP address: 91.123.49.126, 91.123.49.180, 91.123.49.237, 135.116.144.4
 
 ### How to set up SPF and DKIM?
 
