@@ -15,8 +15,6 @@ language: en
 
 ## Product integrations updates
 
-* SuperOffice for Outlook - Might need approval in [Microsoft Admin Portal][65] - (03.06.2026)
-The features from 6.3may require an administrator to approve updated permissions (manifest changes) in the Microsoft Admin Portal. Once approved, it can take up to 72 hours for the feature to become fully available.
 * [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3 (11.05.2026)
 * [SuperOffice WebTools guide][21] - (04.05.2026)
 * [SuperNotes integration guide][43] - (04.02.2026)
@@ -130,6 +128,5 @@ See all the [new or updated apps][2]
 [62]: ttps://appstore.superoffice.com/superoffice-as/database-mirroring-service
 [63]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
 [64]: https://appstore.superoffice.com/superoffice-as/superoffice-for-teams
-[65]: https://admin.microsoft.com/Adminportal/Home#/homepage
 
 <!-- Referenced images -->
