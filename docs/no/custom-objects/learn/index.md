@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 06.10.2026
 version: 12.0
 content_type: concept
+license: devtools
 tier: core
 audience: user
 audience_tooltip: SuperOffice CRM

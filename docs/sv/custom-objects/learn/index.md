@@ -7,6 +7,7 @@ date: 06.10.2026
 version: 12.0
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
 content_type: concept
+license: devtools
 tier: core
 audience: settings
 audience_tooltip: Settings and maintenance

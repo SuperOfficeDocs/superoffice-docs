@@ -9,6 +9,7 @@ keywords: udef, tilpasset felt, Brugerdefinered
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
+license: devtools
 tier: core
 language: da
 redirect_from: /da/custom-objects/learn/udef/index

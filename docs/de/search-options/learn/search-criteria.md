@@ -118,7 +118,7 @@ Enthält das durchsuchte Feld Listen (zum Beispiel das Feld **Branche** in der A
 
 Handelt es sich bei dem zu durchsuchenden Feld um ein Statusfeld, müssen Sie den erforderlichen Status auswählen.
 
-Die Statusangaben werden in Einstellungen und Verwaltung erstellt und verwaltet. Statusfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und [aktiviert haben](../../saint/admin/set-up.md).
+Die Statusangaben werden in Einstellungen und Verwaltung erstellt und verwaltet. Statusfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und [aktiviert haben][5].
 
 ### <a id="counter"></a>Zählerfeld
 
@@ -136,7 +136,7 @@ Zählerfelder finden Sie unter **Zähler (SAINT)** in der Liste der Kriterien.
 
 1. Je nach der obigen Auswahl wird ein Listenfeld für ein Datumsfeld oder ein numerisches Feld angezeigt. Diese Listenfelder funktionieren wie oben beschrieben. Wählen Sie die erforderliche Option, und geben Sie im Textfeld den gewünschten numerischen Wert oder das Datum ein.
 
-Die Zähler werden in Einstellungen und Verwaltung erstellt und verwaltet. Zählerfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und [aktiviert haben](../../saint/admin/set-up.md).
+Die Zähler werden in Einstellungen und Verwaltung erstellt und verwaltet. Zählerfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und [aktiviert haben][5].
 
 ## Arbeiten mit Suchkriterien
 
@@ -168,3 +168,4 @@ Wenn Sie die Ansicht **Suchen** öffnen, enthält diese die Standardsuchkriterie
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
+[5]: ../../saint/admin/set-up.md
