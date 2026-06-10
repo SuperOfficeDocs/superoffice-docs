@@ -20,6 +20,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [Request - View request relations (11.1.13)][47]
 * [Requests - Reply to a single message (11.1.12)][46]
 * [Move the + button (New button) (11.1.12)][46]
 * [Biometric login for Mobile CRM (11.1.12)][46]
@@ -112,5 +113,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [44]: 11.1.9-update.md
 [45]: 11.1.10-update.md
 [46]: 11.1.12-update.md
+[47]: 11.1.13-update.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
