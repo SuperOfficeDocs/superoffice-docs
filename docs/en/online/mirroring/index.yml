@@ -18,7 +18,7 @@ landingContent:
   # Card
   - title: Get started
     linkLists:
-      - itemType: get-started
+      - itemType: power_settings_new
         typeDesc: get-started
         links:
           - text: What is Database Mirroring?
@@ -27,7 +27,7 @@ landingContent:
             url: requirements.md
           - text: Order Database Mirroring
             url: order-database-mirroring.md
-      - itemType: deploy
+      - itemType: cloud_upload
         typeDesc: deploy
         links:
           - text: Set up the client (step-by-step)
@@ -36,7 +36,7 @@ landingContent:
   # Card
   - title: Migrate from legacy mirroring
     linkLists:
-      - itemType: deploy
+      - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Migration guide (parallel run + database rename)
@@ -79,7 +79,7 @@ landingContent:
   # Card
   - title: Legacy (WCF) mirroring
     linkLists:
-      - itemType: list
+      - itemType: library_books
         typeDesc: reference
         links:
           - text: Conceptual overview (2016)
