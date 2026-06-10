@@ -9,7 +9,6 @@ keywords: udef, anpassa fält, användardefinierad fält
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
-license: devtools
 tier: core
 language: sv
 redirect_from: /sv/custom-objects/learn/udef/index
@@ -31,7 +30,7 @@ Ett *användardefinierat* fält (udef) är ett anpassat fält som du lägger til
 Användardefinierade fält hanteras i Inställningar och underhåll, i **Fält**-skärmen. I applikationen är användardefinierade fält synliga på **Mer**-fliken för den enhet de lades till. Till exempel visas ett användardefinierat fält på ett företag på **Mer**-fliken i Företagsskärmen.
 
 > [!NOTE]
-> Alla kan **uppdatera** data lagrade i ett användardefinierat fält. Endast en administratör kan lägga till (eller ta bort) ett användardefinierat fält. Du behöver **Core**-planen för att anpassa layouten för **Mer**-fliken och använda sidan 1-fält.
+> Alla kan **uppdatera** data lagrade i ett användardefinierat fält. Endast en administratör kan lägga till (eller ta bort) ett användardefinierat fält. Du behöver en Development Tools-licens eller **Core**-planen för att anpassa layouten för **Mer**-fliken och använda sidan 1-fält.
 
 ## <a id="field-types"></a>Fälttyper
 

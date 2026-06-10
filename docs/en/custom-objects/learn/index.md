@@ -7,7 +7,6 @@ author: digitaldiina
 date: 06.10.2026
 version: 12.0
 content_type: concept
-license: devtools
 tier: core
 language: en
 audience: person
@@ -41,7 +40,7 @@ Fields are automatically displayed on the [More tab][12] once added.
 
 Any custom screen layouts (created in the Screen Designer) may override the settings on individual custom fields.
 
-If you do not have the **Core** plan, use the rank of the different fields to sort them on the **More** tab.
+If you do not have a Development Tools license or the **Core** plan, use the rank of the different fields to sort them on the **More** tab.
 
 ## Related content
 

@@ -9,7 +9,6 @@ version: 12.0
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
-license: devtools
 tier: core
 language: de
 redirect_from: /de/custom-objects/learn/udef/index
@@ -31,7 +30,7 @@ Ein *benutzerdefiniertes* Feld (udef) ist ein anzupassendes Feld, das Sie einer 
 Benutzerdefinierte Felder werden in Einstellungen und Verwaltung im Ansicht **Felder** verwaltet. In der Anwendung sind benutzerdefinierte Felder im **Mehr**-Tab der Entität sichtbar, zu der sie hinzugefügt wurden. Zum Beispiel wird ein benutzerdefiniertes Feld in einer Firma im **Mehr**-Tab im Ansicht Firma angezeigt.
 
 > [!NOTE]
-> Jeder kann die in einem benutzerdefinierten Feld gespeicherten Daten **aktualisieren**. Nur ein Administrator kann ein benutzerdefiniertes Feld hinzufügen (oder entfernen). Sie benötigen den **Core**-Plan, um das Layout des **Mehr**-Tabs anzupassen und Seiten-1-Felder zu verwenden.
+> Jeder kann die in einem benutzerdefinierten Feld gespeicherten Daten **aktualisieren**. Nur ein Administrator kann ein benutzerdefiniertes Feld hinzufügen (oder entfernen). Sie benötigen eine Development Tools-Lizenz oder den **Core**-Plan, um das Layout des **Mehr**-Tabs anzupassen und Seiten-1-Felder zu verwenden.
 
 ## <a id="field-types"></a>Feldtypen
 

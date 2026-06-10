@@ -9,7 +9,6 @@ keywords: udef, tilpasset felt, Brugerdefinered
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
-license: devtools
 tier: core
 language: da
 redirect_from: /da/custom-objects/learn/udef/index
@@ -31,7 +30,7 @@ Et *brugerdefineret* felt (udef) er et tilpasset felt, du tilføjer til en stand
 Brugerdefinerede felter administreres i Indstillinger og vedligeholdelse, i **Felter**-skærmen. I applikationen er brugerdefinerede felter synlige på **Mere**-fanen for den enhed, de blev tilføjet til. For eksempel vises et brugerdefineret felt på et firma på **Mere**-fanen i Firma-skærmen.
 
 > [!NOTE]
-> Alle kan **opdatere** de data, der er gemt i et brugerdefineret felt. Kun en administrator kan tilføje (eller fjerne) et brugerdefineret felt. Du skal have **Core**-planen for at tilpasse layoutet af **Mere**-fanen og bruge side 1-felter.
+> Alle kan **opdatere** de data, der er gemt i et brugerdefineret felt. Kun en administrator kan tilføje (eller fjerne) et brugerdefineret felt. Du skal have en Development Tools-licens eller **Core**-planen for at tilpasse layoutet af **Mere**-fanen og bruge side 1-felter.
 
 ## <a id="field-types"></a>Felttyper
 

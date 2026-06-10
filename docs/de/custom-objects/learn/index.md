@@ -7,7 +7,6 @@ author: Bergfrid Dias
 date: 06.10.2026
 version: 12.0
 content_type: concept
-license: devtools
 tier: core
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -41,7 +40,7 @@ Felder werden automatisch auf der [Registerkarte Mehr][12] angezeigt, sobald sie
 
 Alle benutzerdefinierten Ansichtlayouts (erstellt im Ansichtsdesigner) können die Einstellungen für individuelle benutzerdefinierte Felder außer Kraft setzen.
 
-Wenn Sie keinen **Core**-Plan haben, verwenden Sie die Reihenfolge der verschiedenen Felder, um sie auf dem Tab **Mehr** zu sortieren.
+Wenn Sie keine Development Tools-Lizenz oder den **Core**-Plan haben, verwenden Sie die Reihenfolge der verschiedenen Felder, um sie auf dem Tab **Mehr** zu sortieren.
 
 ## Zugehörige Inhalte
 

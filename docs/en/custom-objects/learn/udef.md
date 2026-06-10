@@ -7,7 +7,6 @@ author: Bergfrid Dias
 date: 06.10.2026
 version: 12.0
 content_type: concept
-license: devtools
 tier: core
 language: en
 audience: person
@@ -33,7 +32,7 @@ A *user-defined* field (udef) is a custom field that you add to a standard Super
 User-defined fields are managed in Settings and maintenance, in the **Fields** screen. In the application, user-defined fields are visible in the **More** tab of the entity they were added to. For example, a user-defined field on a company is shown on the **More** tab in the Company screen.
 
 > [!NOTE]
-> Everyone can **update** the data stored in a user-defined field. Only an administrator can add (or remove) a user-defined field. You need the **Core** plan to customize the layout of the **More** tab and to use page 1 fields.
+> Everyone can **update** the data stored in a user-defined field. Only an administrator can add (or remove) a user-defined field. You need a Development Tools license or the **Core** plan to customize the layout of the **More** tab and to use page 1 fields.
 
 ## <a id="field-types"></a>Field types
 

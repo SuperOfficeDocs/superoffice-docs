@@ -9,7 +9,6 @@ version: 12.0
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
-license: devtools
 tier: core
 language: no
 redirect_from: /no/custom-objects/learn/udef/index
@@ -31,7 +30,7 @@ Et *brukerdefinert* felt (udef) er et tilpasset felt du legger til i en standard
 Brukerdefinerte felt administreres i Innstillinger og vedlikehold, i **Felter**-skjermen. I applikasjonen er brukerdefinerte felt synlige på **Mer**-fanen til enheten de ble lagt til. For eksempel vises et brukerdefinert felt på et firma på **Mer**-fanen i Firma-skjermen.
 
 > [!NOTE]
-> Alle kan **oppdatere** data lagret i et brukerdefinert felt. Bare en administrator kan legge til (eller fjerne) et brukerdefinert felt. Du trenger **Core**-planen for å tilpasse utformingen av **Mer**-fanen og for å bruke [side 1-felt](#page-1).
+> Alle kan **oppdatere** data lagret i et brukerdefinert felt. Bare en administrator kan legge til (eller fjerne) et brukerdefinert felt. Du trenger en Development Tools-lisens eller **Core**-planen for å tilpasse utformingen av **Mer**-fanen og for å bruke [side 1-felt](#page-1).
 
 ## <a id="field-types"></a>Felttyper
 

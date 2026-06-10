@@ -7,7 +7,6 @@ author: Bergfrid Dias
 date: 06.10.2026
 version: 12.0
 content_type: concept
-license: devtools
 tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -41,7 +40,7 @@ Velden worden automatisch weergegeven op het [tabblad Meer][12] zodra ze zijn to
 
 Eventuele aangepaste schermindelingen (gemaakt in de Schermontwerper) kunnen de instellingen voor individuele aangepaste velden overschrijven.
 
-Als u geen **Core**-plan heeft, gebruikt u de rang van de verschillende velden om ze te sorteren op het tabblad **Meer**.
+Als u geen Development Tools-licentie of het **Core**-plan heeft, gebruikt u de rang van de verschillende velden om ze te sorteren op het tabblad **Meer**.
 
 ## Gerelateerde inhoud
 

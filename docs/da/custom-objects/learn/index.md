@@ -7,7 +7,6 @@ author: Bergfrid Dias
 date: 06.10.2026
 version: 12.0
 content_type: concept
-license: devtools
 tier: core
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -41,7 +40,7 @@ Felter vises automatisk på [fanen Mere][12], når de er tilføjet.
 
 Eventuelle brugerdefinerede skærmlayouts (oprettet i Skærmdesigneren) kan tilsidesætte indstillingerne for individuelle brugerdefinerede felter.
 
-Hvis du ikke har **Core**-planen, skal du bruge rækkefølgen af de forskellige felter for at sortere dem på fanen **Mere**.
+Hvis du ikke har en Development Tools-licens eller **Core**-planen, skal du bruge rækkefølgen af de forskellige felter for at sortere dem på fanen **Mere**.
 
 ## Relateret indhold
 

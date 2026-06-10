@@ -7,7 +7,6 @@ date: 06.10.2026
 version: 12.0
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
 content_type: concept
-license: devtools
 tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -41,7 +40,7 @@ Fält visas automatiskt på [fliken Mer][12] när de har lagts till.
 
 Eventuella anpassade skärmlayouter (skapade i Skärmdesignern) kan åsidosätta inställningarna för enskilda anpassade fält.
 
-Om du inte har **Core**-planen, använd rangordningen av de olika fälten för att sortera dem på fliken **Mer**.
+Om du inte har en Development Tools-licens eller **Core**-planen, använd rangordningen av de olika fälten för att sortera dem på fliken **Mer**.
 
 ## Relaterat innehåll
 

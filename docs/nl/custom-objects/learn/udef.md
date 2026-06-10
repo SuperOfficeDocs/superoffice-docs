@@ -9,7 +9,6 @@ version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
-license: devtools
 tier: core
 language: nl
 redirect_from: /nl/custom-objects/learn/udef/index
@@ -31,7 +30,7 @@ Een *gebruikersgedefinieerd* veld (udef) is een aangepast veld dat u toevoegt aa
 Gebruikersgedefinieerde velden worden beheerd in Instellingen en onderhoud, in het scherm **Velden**. In de applicatie zijn gebruikersgedefinieerde velden zichtbaar op het **Meer**-tabblad van de entiteit waaraan ze zijn toegevoegd. Bijvoorbeeld wordt een gebruikersgedefinieerd veld op een bedrijf weergegeven op het **Meer**-tabblad in het scherm Bedrijf.
 
 > [!NOTE]
-> Iedereen kan de gegevens in een gebruikersgedefinieerd veld **bijwerken**. Alleen een beheerder kan een gebruikersgedefinieerd veld toevoegen (of verwijderen). U hebt het **Core**-plan nodig om het ontwerp van het **Meer**-tabblad aan te passen en pagina 1-velden te gebruiken.
+> Iedereen kan de gegevens in een gebruikersgedefinieerd veld **bijwerken**. Alleen een beheerder kan een gebruikersgedefinieerd veld toevoegen (of verwijderen). U hebt een Development Tools-licentie of het **Core**-plan nodig om het ontwerp van het **Meer**-tabblad aan te passen en pagina 1-velden te gebruiken.
 
 ## <a id="field-types"></a>Veldtypen
 
