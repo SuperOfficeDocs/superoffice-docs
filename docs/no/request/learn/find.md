@@ -3,12 +3,12 @@ uid: help-no-request-find
 title: Finn en sak
 description: I denne veiledningen lærer du hvordan du finner saker i SuperOffice
 keywords: siste saker, egne aktive saker, ufordelte saker, vis bare egne kategorier, sak, søk, finne
-author: Bergfrid Dias
-date: 02.04.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

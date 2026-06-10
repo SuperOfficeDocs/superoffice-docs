@@ -3,12 +3,12 @@ uid: help-da-working-with-sales-guide
 title: Eksempel – salgsguide
 description: Lær, hvordan du arbejder med en salgsguide i SuperOffice CRM.
 keywords: salgsguide, eksempel
-author: SuperOffice RnD
-date: 01.07.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

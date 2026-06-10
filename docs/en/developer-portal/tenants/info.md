@@ -4,7 +4,7 @@ title: Look up tenant info
 description: Look up tenant info
 keywords: Developer Portal, app, customer, tenant
 author: digitaldiina, MargretheR
-date: 02.05.2026
+date: 06.10.2026
 version_devportal: 2.10.20
 content_type: howto
 deployment: online
@@ -59,7 +59,7 @@ The list of [platform features][6] available to a tenant is shown in the **Tenan
 ## Related content
 
 * [Check tenant status via State API][4]
-* [Licences in Settings and maintenance][6]
+* [Licenses in Settings and maintenance][6]
 
 <!-- Referenced links -->
 [4]: ../best-practices/tenant-status/check-status.md

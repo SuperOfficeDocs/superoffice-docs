@@ -4,8 +4,8 @@ title: Arbejde med FAQ-poster
 description: Arbejde med FAQ-poster
 keywords: FAQ, vidensbase
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq
@@ -25,7 +25,7 @@ redirect_from:
 
 Ofte stillede spørgsmål (FAQ) er en vigtig del af håndteringen af servicesager. Eftersom en lang række kundeforespørgsler gentages over tid, er det en god ide at oprette ofte stillede spørgsmål, der indeholder svar på sådanne tilbagevendende spørgsmål.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Fordele ved at have et FAQ-bibliotek
 

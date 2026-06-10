@@ -4,7 +4,7 @@ title: Configure
 description: Pocket CRM config
 keywords: configure Pocket CRM, Pocket Server, PocketCrmServiceUrl, AllwaysUseGsmPhoneStyle
 author: SuperOffice Product and Engineering
-date: 12.08.2021
+date: 06.10.2026
 content_type: howto
 platform: pocket
 deployment: onsite
@@ -42,7 +42,7 @@ To enable this feature in NetServer make sure that the [Globalization section][1
 
 ## Client configuration - Setting up an email account
 
-To use and be able to send an email within Pocket CRM an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web client.
+To use and be able to send an email within Pocket CRM, an email account needs to be configured. This configuration needs to be performed in the SuperOffice 8.x Web client.
 
 ## Admin configuration - Add a Template for incoming images (jpeg)
 

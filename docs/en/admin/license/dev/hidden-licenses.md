@@ -4,8 +4,8 @@ title: Hidden licenses
 description: Hiding module licenses, showing user plans.
 keywords: hidden license, license package
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -46,7 +46,7 @@ The fields in the [modulelicense fields][3]  are described separately.
     <OwnerName>SUPEROFFICE</OwnerName>
     <LicenseType>SiteLicense</LicenseType>
     <ModuleName>expander-services</ModuleName>
-    <ModuleDescription>Developer Tools</ModuleDescription>
+    <ModuleDescription>Development Tools</ModuleDescription>
     <ModuleTooltip>Activates CS Extra Tables, External Users, ERP Sync, Custom Apps</ModuleTooltip>
     <ModuleVersion>11.11</ModuleVersion>
     <NumberOfLicenses>1</NumberOfLicenses>

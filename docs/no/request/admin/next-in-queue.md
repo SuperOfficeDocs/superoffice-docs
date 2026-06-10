@@ -3,13 +3,14 @@ uid: help-no-request-next-in-queue
 title: Hent neste sak i køen
 description: Hent neste sak i køen
 keywords: hent neste sak i køen, sak
-author: Hanne Gunnarsson
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+license: servicepremium
+tier: growth
 language: no
 redirect_from: /no/request/learn/next-in-queue
 index: true

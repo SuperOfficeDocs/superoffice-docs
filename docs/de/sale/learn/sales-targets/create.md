@@ -3,9 +3,9 @@ uid: help-de-sales-targets-create
 title: Verkaufsziele festlegen
 description: Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Dies wird Ihnen helfen, die richtigen Erwartungen zu setzen, Ihr Wachstum zu planen, die Motivation zu steigern und Zeit zu sparen.
 keywords: Vertriebsziele
-author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth
@@ -68,7 +68,7 @@ Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Ver
 
 1. Klicken Sie auf **Speichern**.
 
-    * Fügen Sie wie in den Schritten 3-10 erläutert weitere Gruppen oder Firmen hinzu. Dazu ist die Sales Targets Unlimited-Lizenz erforderlich.
+    * Fügen Sie wie in den Schritten 3-10 erläutert weitere Gruppen oder Firmen hinzu. Dazu ist die **Sales Targets Unlimited**-Lizenz erforderlich.
 
     * Fügen Sie wie in Schritt 2 erläutert Vertriebsziele für ein weiteres Jahr hinzu oder klicken Sie auf **Speichern und schließen**, um diese Ansicht zu schließen.
 
@@ -125,7 +125,7 @@ Zum Anzeigen des Revisionsverlaufs für ein Vertriebsziel (Zeile) klicken Sie au
 
 * Sie können auch Ziele für frühere Jahre definieren, um Budgetstatistiken für die Vergangenheit zu erstellen.
 
-* Der Standardzieltyp ist **Alle Verkäufe - Betrag**. Mit der Sales Targets Unlimited-Lizenz können Sie zusätzliche Zieltypen erstellen.
+* Der Standardzieltyp ist **Alle Verkäufe - Betrag**. Mit der **Sales Targets Unlimited**-Lizenz können Sie zusätzliche Zieltypen erstellen.
 
 * Sie können mit dem Feld **Volltextsuche** nach Vertriebszielen für bestimmte Gruppen und Benutzer in einem bestimmten Jahr suchen.
 

@@ -4,11 +4,11 @@ title: Opmaak hoofdkaarten bewerken
 description: In deze handleiding staat u hoe u een opmaak bewerkt.
 keywords: schermopmaak, opmaak bewerken, opmaak wijzigen, opmaak verwijderen, Terugzetten naar fabrieksinstellingen
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Opmaak van een kaart bewerken
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 Wanneer u een [nieuwe opmaak heeft gemaakt][6], is het tijd om deze aan te passen. Personaliseer het opmaak voor de hoofdkaarten en archieven zodat het voldoet aan de informatiebehoeften van uw organisatie.
 

@@ -3,12 +3,12 @@ uid: help-nl-working-with-sales-guide
 title: Werken met verkoopgids
 description: Een voorbeeld van werken met een verkoopgids in SuperOffice.
 keywords: verkoopgids, voorbeeld, verkoop
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

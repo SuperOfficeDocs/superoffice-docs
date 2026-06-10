@@ -3,10 +3,10 @@ uid: help-en-system-templates
 title: System templates
 description: System templates
 keywords: System templates tab, request
-author: Hanne Gunnarsson
-date: 03.29.2023
+author: digitaldiina
+date: 06.10.2026
 content_type: reference
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

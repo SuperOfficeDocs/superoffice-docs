@@ -4,13 +4,13 @@ title: Werken met rasters
 description: Hoe u rasters toevoegt en invult in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: schermopmaak, raster, tabelopmaak
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: nl
@@ -20,7 +20,7 @@ redirect_from: /nl/customization/screen-designer/working-with-grids
 
 # Werken met rasters
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 Als u veel velden heeft, kunt u een rasterelement gebruiken om ze nauwkeuriger te positioneren. Dit is een alternatief voor positioneren op basis van sorteervolgorde en kolommen.
 

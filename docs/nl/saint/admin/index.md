@@ -4,8 +4,8 @@ title: SAINT in Instellingen en onderhoud
 description: Leer de belangrijkste concepten van SuperOffice SAINT, inclusief criteria, afbeeldingen, tellers en standaard vervolgactiviteiten.
 keywords: SAINT, activiteitenbewaking, statusbewaking
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Voordat u SAINT implementeert, is het belangrijk om te weten wat u wilt verbeter
 * Alle klanten in de SAINT-selectie bellen
 * Alle verzoeken opvolgen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ![SAINT-scherm met statuslijst, beschrijving, afbeelding en criteria -screenshot][img1]
 

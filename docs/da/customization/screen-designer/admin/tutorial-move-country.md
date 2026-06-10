@@ -4,11 +4,11 @@ title: Tutorial - Flyt land-feltet frem
 description: I denne tutorial lærer du, hvordan du flytter landfeltet på firma- eller personskærmen.
 keywords: landefelt, skærmdesigner
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -28,7 +28,7 @@ Når du er færdig, skulle det se nogenlunde sådan ud:
 
 ![Firmakort -screenshot][img1]
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 ## Trin 2: Åbn Skærmdesigneren
 

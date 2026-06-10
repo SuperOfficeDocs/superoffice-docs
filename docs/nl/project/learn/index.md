@@ -4,8 +4,8 @@ title: Project
 description: Deze how-to gids laat u zien hoe u projecten kunt maken en gebruiken om uw werk te organiseren.
 keywords: Projectkaart, Projectscherm, tabblad Afbeelding, project
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core
@@ -32,6 +32,9 @@ Het scherm Project bevat informatie over de projecten die zijn ingevoerd in Supe
 U kunt tussen projecten navigeren met de knoppen **Vorige** en **Volgende** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) rechtsonder op de kaarten.
 
 Als u een projecttype selecteert waarvoor een [projectgids][1] is gedefinieerd, wordt het sectietabblad **Projectgids** weergegeven.
+
+> [!NOTE]
+> **CRM Suite (Core-abonnement):** Uw abonnement bevat maximaal 100 actieve projecten. Wanneer u deze limiet nadert, verschijnt er een waarschuwing in de projectvoettekst tijdens het bewerken. Wanneer de limiet is bereikt, is de knop **Nieuw** niet beschikbaar en legt een bericht uit hoe u capaciteit kunt vrijmaken (bestaande projecten als voltooid markeren) of kunt upgraden naar het Growth-abonnement. Zie [Plangrenzen][21].
 
 ## Tabbladen op de projectkaart
 
@@ -83,6 +86,7 @@ Het onderste deel van het scherm Project bestaat uit sectietabbladen.
 [18]: ../../learn/section-tabs/requests-tab.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
+[21]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

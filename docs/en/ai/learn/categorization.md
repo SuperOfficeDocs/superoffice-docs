@@ -4,11 +4,11 @@ title: Categorization
 description: Overview of AI-based request categorization in SuperOffice
 keywords: AI, machine learning, request automation
 author: digitaldiina
-date: 10.15.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: aiplatform, categorization
-tier: core
+tier: growth
 category: automation
 topic: ai
 deployment: online

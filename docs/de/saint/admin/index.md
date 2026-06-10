@@ -4,8 +4,8 @@ title: SAINT in Einstellungen und Verwaltung
 description: Lernen Sie die Schlüsselkonzepte von SuperOffice SAINT kennen, einschließlich Kriterien, Bilder, Zähler und Standard-Folgeaufgaben.
 keywords: SAINT, Aktivitätsüberwachung, Statusüberwachung
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Bevor Sie SAINT implementieren, ist es wichtig zu wissen, was Sie verbessern mö
 * Alle Kunden in der SAINT-Auswahl anrufen
 * Alle Anfragen nachverfolgen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Mit der Registerkarte **Statuskontrollen/SAINT** können Sie Statusangaben für Firmen, Personen und Projekte erstellen. Statuskontrollen stellen die Funktionalität hinter dem SAINT-Konzept (Sales Intelligence) dar. Dies erleichtert die Folgeaufgaben für Firmen, Personen und Projekte und das Bereitstellen von sinnvolleren Suchoptionen in SuperOffice CRM.
 

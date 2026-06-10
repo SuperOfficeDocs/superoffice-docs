@@ -3,9 +3,9 @@ uid: help-nl-erp-admin
 title: ERP-synchronisatie beheren
 description: Inleiding tot het configureren van synchronisatie tussen SuperOffice CRM en externe ERP-systemen.
 keywords: ERP-tabblad, ERP-systeem, ERP-actor, Sync Connector, ERP-verbinding, synchronisatie, connector, verbinding, Offerte/Synchroniseren-scherm, ERP
-author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: growth
@@ -20,7 +20,7 @@ index: true
 
 Het tabblad **Synchroniseren** in het scherm Offerte/Synchroniseren binnen **Instellingen en onderhoud** toont de Sync Connectors en ERP-verbindingen die integratie tussen SuperOffice CRM en externe ERP-systemen mogelijk maken.
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 ## Terminologie
 

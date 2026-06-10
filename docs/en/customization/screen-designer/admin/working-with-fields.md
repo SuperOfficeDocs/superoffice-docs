@@ -4,11 +4,11 @@ title: Working with fields
 description: How to add, move, and delete fields in a layout using the Screen Designer in Settings and maintenance.
 keywords: add field, new field, move field, remove field, hide field, edit layout, field settings
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Working with fields
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Labels and fields represent the essential contents of a screen. Whether creating a new layout or modify an existing one, start by clicking <i class="ph ph-pencil-simple" aria-label="Edit layout"></i>. [Show me the detailed steps.][1] When done, **save or publish** the layout.
 

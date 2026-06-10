@@ -4,8 +4,8 @@ title: Module licenses
 description: Module license fields and types.
 keywords: module license, license
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -18,9 +18,15 @@ language: en
 
 # Module licenses
 
+The license system uses three main database tables:
+
+* [ModuleOwner][4] — an issuer of licenses. Initially only one row (SuperOffice). Contains global expiration dates.
+* [ModuleLicense][5] — one row per license. The admin panel shows only a subset; many licenses are hidden. Field details are covered below.
+* [LicenseAssocLink][6] — assigns one module license to one associate.
+
 | Field | Description |
 | --- | --- |
-| ModuleName | Code name: the "user" part of "superoffice.user" |
+| ModuleName | Code name: the "user" part of `superoffice.user` |
 | ModuleDescription | Display name, shown in admin |
 | ModuleTooltip | Tooltip shown in admin |
 | ModuleVersion | Product version license was issued to: "10.1" |
@@ -34,7 +40,7 @@ language: en
 
 Module licenses all have an owner, usually "SuperOffice" for us, but partners can define their own licenses, and run their own license servers.
 
-Module license names are often written "superoffice.something", but the ModuleName is just "something". The owner name is prefixed to distinguish licenses from different owners.
+Module license names are often written `superoffice.something`, but the ModuleName is just "something". The owner name is prefixed to distinguish licenses from different owners.
 
 The full list of licenses are in [SoLicenseNames][2].
 
@@ -105,8 +111,17 @@ You could not enable the windows license without first checking the user license
 
 The travel license is unrestricted, so it does not have a counter to disable it.
 
+## User-license assignment
+
+[LicenseAssocLink][6] assigns one particular module license to one associate. That is how a user gets both a **user** license and a **web** license — each assignment is one record.
+
+The sum of licenses assigned to any particular module is limited to the number in `ModuleLicense`. A new license set from SuperLicense will not be accepted if more than the acquired number is already assigned.
+
 <!-- Referenced links-->
 [2]: <xref:SuperOffice.License.SoLicenseNames>
 [3]: hidden-licenses.md
+[4]: ../../../database/tables/ModuleOwner.md
+[5]: ../../../database/tables/ModuleLicense.md
+[6]: ../../../database/tables/LicenseAssocLink.md
 
 [img1]: ../../../../media/loc/en/admin/licenses-prereq.png

@@ -4,13 +4,13 @@ title: Arbeta med rutnät
 description: Hur du lägger till och fyller rutnät i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: skärmlayout, rutnät, tabell layout
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: sv
@@ -20,7 +20,7 @@ redirect_from: /sv/customization/screen-designer/working-with-grids
 
 # Arbeta med rutnät
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Om du har många fält kan du använda ett rutnätsobjekt för att positionera dem med större precision. Detta är ett alternativ till att positionera efter sorteringsordning och kolumner.
 

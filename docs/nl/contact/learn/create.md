@@ -4,8 +4,8 @@ title: Nieuwe persoon maken
 description: Hoe een persoon aanmaken in SuperOffice CRM.
 keywords: persoon maken, contact toevoegen, interesses, tabblad interesses, contactafbeelding, voorkeurstaal, rechtsgrondslag, persoon, persoon
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -47,7 +47,7 @@ U kunt op meerdere manieren een persoon toevoegen aan SuperOffice CRM:
 
     * Voer belangrijke details in zoals **Functie**, **Geboortedatum** en **Voorkeurstaal**.
     * Voeg contact-specifieke communicatiedetails toe: **Website**, **Chat** en **Internettelefoon** (bijvoorbeeld Skype of Microsoft Teams).
-    * Indien van toepassing, stel de **Serviceprioriteit** in en selecteer een **Onze servicemedewerker** (vereist een SuperOffice Service- of Klantencentrum-licentie).
+    * Indien van toepassing, stel de **Serviceprioriteit** in en selecteer een **Onze servicemedewerker** (vereist een **Service Premium**-licentie, een **CEP**-licentie of het **Growth**-plan).
 
     ![Tabblad Details met aanvullende velden -screenshot][img2]
 
@@ -123,7 +123,7 @@ De volgende velden zijn beschikbaar op de persoonskaart. Sommige worden automati
 * **Internettelefoon:** Voeg een VOIP-adres toe, zoals Skype of een andere internetgebaseerde telefoniedienst.
 * **Direct fax:** Voer het faxnummer van de persoon in.
 
-**Service-specifieke velden** *(vereist een SuperOffice Service- of Klantencentrum-licentie)*
+**Service-specifieke velden** *(vereist een **Service Premium**-licentie, een **CEP**-licentie of het **Growth**-plan)*
 
 * **Voorkeurstaal:** Selecteer de voorkeurstaal van de persoon voor alle antwoordsjablonen.
 * **Ondersteuningsprioriteit:** Stel de prioriteit in voor nieuwe servicetickets (bijvoorbeeld Laag, Normaal, Hoog of aangepast). Indien niet ingesteld, wordt de standaard prioriteit van het bedrijf gebruikt.

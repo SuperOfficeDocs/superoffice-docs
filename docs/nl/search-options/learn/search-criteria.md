@@ -4,8 +4,8 @@ title: Zoekcriteria gebruiken
 description: Zoekcriteria toevoegen en wijzigen
 keywords: zoeken, criteria, vinden
 author: digitaldiina
-date: 12.05.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -120,13 +120,13 @@ Klik buiten de lijst om de lijst te sluiten.
 
 Als het veld waarin u zoekt een statusveld is, selecteer dan de vereiste status.
 
-De statussen worden gemaakt en bijgehouden in Instellingen en onderhoud. Statusvelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en statuscontroles hebt ingeschakeld.
+De statussen worden gemaakt en bijgehouden in Instellingen en onderhoud. Statusvelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en [statuscontroles hebt ingeschakeld][5].
 
 ### <a id="counter"></a>Tellerveld
 
 [Tellers][3] kunnen bijvoorbeeld voor het aantal verkopen binnen een periode staan, of voor de datum van de laatst afgeronde verkoop.
 
-Tellervelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en statuscontroles hebt ingeschakeld.
+Tellervelden zijn alleen van belang als u een licentie voor statuscontroles hebt aangeschaft en [statuscontroles hebt ingeschakeld][5].
 
 1. U kunt rechts van de velden klikken op de koppelingen als u aanvullende criteria voor de tellers wilt opgeven. De beschikbare opties zijn afhankelijk van het type record en de teller waarmee u werkt.
 
@@ -170,3 +170,4 @@ Wanneer u het scherm **Zoeken** opent, bevat het de standaardzoekcriteria of de 
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
+[5]: ../../saint/admin/set-up.md

@@ -3,12 +3,12 @@ uid: help-en-sale
 title: Sale
 description: SuperOffice Sales helps sales teams stay in control of their sales pipelines and processes.
 keywords: Sale card, Sale screen, sale, lead
-author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -49,9 +49,9 @@ Each tab serves a specific purpose, ensuring sales information is organized and 
 The lower part of the Sale screen consists of section tabs.
 
 * [Activities][14]
-* [Sales guide][16] (requires Sales Premium)
-* [Stakeholders][15] (requires Sales Premium)
-* [Quote][17] (requires Sales Premium)
+* [Sales guide][16] (requires a **Sales Premium** license or the **Growth** plan)
+* [Stakeholders][15] (requires a **Sales Premium** license or the **Growth** plan)
+* [Quote][17] (requires a **Sales Premium** license or the **Growth** plan)
 
 [Sales guides][3] are only shown for specific sale types (defined in Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 

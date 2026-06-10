@@ -4,20 +4,22 @@ title: Skapa ett makro – exempel från SuperOffice
 description: Exempel på hur du skapar ett makro i SuperOffice.
 keywords: skript, makro
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /sv/automation/crmscript/learn/create-macro
 tier: core
+redirect_from: /sv/automation/crmscript/learn/create-macro
 language: sv
 index: true
 ---
 
 # Skapa ett makro – exempel från SuperOffice
+
+[!include[License requirement](../../../includes/req-core.md)]
 
 Många företag får ofta förfrågningar i samband med fakturering. Sådana ärenden bör gå rakt till redovisningsavdelningen. I stället för att redigera varje ärende och ändra dess kategori och ägare kan vi skapa ett makro som utför alla dessa åtgärder. Makrot kan tilldelas till knappen **Åtgärder** i fönstret Ärende. Fakturafrågor kan då delegeras till redovisningsavdelningen med ett enda klick.
 

@@ -4,8 +4,8 @@ title: Work with email addresses
 description: Work with email addresses
 keywords: email address
 author: Bergfrid Dias
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
@@ -24,8 +24,7 @@ redirect_from:
 
 You can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. For example, suppliers, partners, or product specialists. These addresses are accessible in most places where you send emails, such as in the **New request** and **Add message** screens.
 
-> [!NOTE]
-> This feature requires the Service-Premium user plan.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## List email addresses
 

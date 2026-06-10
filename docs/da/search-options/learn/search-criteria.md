@@ -4,8 +4,8 @@ title: Brug af søgekriterier
 description: Sådan tilføjes og redigeres søgekriterier
 keywords: søge, kriterier, finde
 author: digitaldiina
-date: 12.05.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -122,7 +122,7 @@ Hvis søgefeltet er et statusfelt, skal du blot vælge den ønskede status.
 
 Statusserne oprettes og vedligeholdes i Indstillinger og vedligeholdelse.
 
-Statusfelter er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
+Statusfelter er kun aktuelle, hvis du har købt licens til og [aktiveret statusovervågning][5].
 
 ### <a id="counter"></a>Tællerfelt
 
@@ -140,7 +140,7 @@ Tællerfelter kan findes under **Tællere (SAINT)** på listen over kriterier.
 
 1. Afhængigt af, hvad du har valgt ovenover, vises der en rullemenu for valg af datofelt eller talfelt. Disse rullemenuer fungerer som beskrevet nedenfor. Vælg den ønskede indstilling, og indtast den ønskede talværdi eller dato i tekstfeltet.
 
-Tællerne oprettes og vedligeholdes i Indstillinger og vedligeholdelse. Tællerværdier er kun aktuelle, hvis du har købt licens til og aktiveret statusovervågning.
+Tællerne oprettes og vedligeholdes i Indstillinger og vedligeholdelse. Tællerværdier er kun aktuelle, hvis du har købt licens til og [aktiveret statusovervågning][5].
 
 ## Arbejde med søgekriterier
 
@@ -172,3 +172,4 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
+[5]: ../../saint/admin/set-up.md

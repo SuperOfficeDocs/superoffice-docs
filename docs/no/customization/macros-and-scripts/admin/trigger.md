@@ -4,22 +4,22 @@ title: Triggere
 description: Triggere
 keywords: CRMScript, trigger
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /no/automation/crmscript/learn/trigger
 tier: core
+redirect_from: /no/automation/crmscript/learn/trigger
 language: no
 index: true
 ---
 
 # Triggere
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Triggere er skript som kjøres for bestemte hendelser i systemet, for eksempel når et nytt salg opprettes eller når en sak lukkes. Triggere kan reagere stille på hva som skjer, eller blokkere operasjonen og vise en forklaring for brukeren.
 

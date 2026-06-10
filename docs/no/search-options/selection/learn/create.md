@@ -3,9 +3,9 @@ uid: help-no-selection-create
 title: Opprett utvalg
 description: Arbeide med dynamiske og statiske utvalg
 keywords: opprett utvalg, nytt utvalg, lagre som utvalg, utvalg
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -82,7 +82,7 @@ Når du klikker på denne knappen, opprettes en kopi av utvalget med teksten (ko
 
 * Merk av for **Utført** for å angi at valget er inaktivt. Hvis du vil at utvalget skal være aktivt, lar du avmerkingsboksen stå tom.
 
-* Med **SAINT** aktivert (krever Sales-Premium eller Service-Premium) kan du bruke [statuser][14] som kriterier for å opprette dynamiske utvalg. Dette gir deg en oversikt over firmaer, personer eller prosjekter som oppfyller spesifikke statuskriterier. SAINT-kriteriene finnes under **Tellere (SAINT)** i [kriterielisten][9] på **Finn**-skjermen.
+* Med **SAINT** aktivert (krever en **Sales Premium**- eller **Service Premium**-lisens eller **Growth**-planen) kan du bruke [statuser][14] som kriterier for å opprette dynamiske utvalg. Dette gir deg en oversikt over firmaer, personer eller prosjekter som oppfyller spesifikke statuskriterier. SAINT-kriteriene finnes under **Tellere (SAINT)** i [kriterielisten][9] på **Finn**-skjermen.
 
 ## Relatert innhold
 

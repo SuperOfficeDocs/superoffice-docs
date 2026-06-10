@@ -4,9 +4,10 @@ title: Mobile CRM interface guide
 description: Learn how to use the navigation wheel, action bar, and other core features in SuperOffice Mobile CRM.
 keywords: mobile interface, menu, navigation, navigation wheel, thumb wheel, fan menu, action bar, user interface, UI
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: reference
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/interface-guide
 language: en
@@ -29,7 +30,7 @@ Tap the **Menu** button in the bottom center of the screen to open the navigatio
 | <i class="ph ph-buildings" aria-label="Company icon"></i> | Companies | Browse and manage company cards. |
 | <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sales | Track deals, update sales stages, and add new opportunities. |
 | <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | Projects | Manage project information and change status. |
-| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | Handle customer service tickets (coming soon). |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | Handle customer service tickets. |
 | <i class="ph ph-gauge" aria-label="Dashboard icon"></i> | Dashboards | Access your dashboards and drill down on metrics. |
 | <i class="ph ph-gear" aria-label="Gear icon"></i> | Settings | Access app settings like email, notifications, caller ID, and sync. |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Contacts | View and update contact records. |

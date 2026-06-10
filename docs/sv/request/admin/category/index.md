@@ -4,11 +4,11 @@ title: Ärendekategorier
 description: Ärendekategorier
 keywords: ärende, kategori
 author: digitaldiina
-date: 03.25.2026
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

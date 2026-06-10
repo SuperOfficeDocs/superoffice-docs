@@ -4,18 +4,18 @@ title: Zusatzfeld
 description: Zusatzfeld
 keywords: Zusatzfeld
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: de
 ---
 
 # Zusatzfeld
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Ein *Zusatzfeld* ist ein Feld, das Sie einer vorhandenen SuperOffice-Datenbanktabelle hinzufügen. Sie können die folgenden Entitäten erweitern:
 

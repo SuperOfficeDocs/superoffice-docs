@@ -4,8 +4,8 @@ title: CrmSetup and CrmTask utilities
 description: CrmSetup.exe and CrmTask.exe utilities
 keywords: crmsetup, crmsetup.exe, crmtask, crmtask.exe
 author: pavlas77
-date: 02.26.2026
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: onsite
 ---
@@ -25,8 +25,8 @@ Document templates are installed when creating new and upgrading current install
 
 The HTML-based argument generators are also available online – no download required:
 
-- [CrmSetup argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmsetup.html)
-- [CrmTask argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmtask.html)
+* [CrmSetup argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmsetup.html)
+* [CrmTask argument generator](https://fbhub2.github.io/so11configgenerators/so11config_gen_crmtask.html)
 
 Open the link, fill in your values, and copy the generated argument file content directly - or generate argument files for the command line tool.
 

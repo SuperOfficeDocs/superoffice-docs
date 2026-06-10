@@ -2,16 +2,18 @@
 uid: help-en-service-screen-definition
 title: Screen definition
 description: Screen definition
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: screen definition
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
+tier: core
 language: en
 ---
 
 # Screen definition
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Here you can view the details of the selected screen.
 

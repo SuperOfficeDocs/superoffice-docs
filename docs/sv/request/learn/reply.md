@@ -4,11 +4,11 @@ title: Svara kontakt
 description: I den här guiden får du lära dig hur du svarar på alla inkommande ärenden i SuperOffice.
 keywords: ärende, svara på ärende, svara, svara alla, lägga till meddelande, lägga till kommentar, kommentar, internt, externt, ärende,
 author: digitaldiina
-date: 11.28.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv

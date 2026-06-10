@@ -1,11 +1,11 @@
 ---
-uid: user plans-technical-details
+uid: user-plans-technical-details
 title: How user plans are constructed
 description: How user plans are put together from module licenses.
 keywords: license, user plan
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -112,8 +112,28 @@ These user licenses would be manually enabled for each user in admin.
 
 ![Nested series of checkboxes -screenshot][img1]
 
+## How do user plans affect my app?
+
+A customer can choose one of the following billing periods for their CRM solution:
+
+* Once a month
+* Every 3 months
+* Every 6 months
+* Annually
+
+The contract period is for 12 months. After the first 12 months, they are automatically renewed for another billing period, according to their choice.
+
+Customers can combine plans that best fit their needs. They can also add or change user plans later on.
+
+You should keep this flexibility in mind when integrating with specific features and deciding your pricing model.
+
+## Related content
+
+* [SuperOffice CRM Suite plans][3]
+
 <!-- References -->
 [1]: hidden-licenses.md
 [2]: module-licenses.md
+[3]: ../crm-suite.md
 
 [img1]: ../../../../media/loc/en/admin/licenses-prereq.png

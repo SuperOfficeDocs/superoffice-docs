@@ -4,8 +4,8 @@ title: Request type
 description: Request type
 keywords: request type, Request types tab, type, request
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
 tier: growth
@@ -21,7 +21,7 @@ redirect_from: /en/request/learn/type/index
 All requests that are registered in SuperOffice have a type. The default type is "Request". To view, add, update, and delete request types go to **Settings and maintenance**.
 
 > [!NOTE]
-> This feature requires a Service Premium user plan (to create and update request types) and a Development Tools site license to define screen layouts based on request types in the Screen Designer.
+> This feature requires a **Service Premium** license or the **Growth** plan. To define screen layouts based on request types in the Screen Designer, **Service Premium** users also need the **Development Tools** license (included with the **Core** plan and higher).
 
 ## Why use request types?
 

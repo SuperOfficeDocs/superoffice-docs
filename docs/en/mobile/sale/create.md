@@ -4,9 +4,10 @@ title: Create sale
 description: How to register sales in SuperOffice Mobile CRM.
 keywords: create sale, add sale, register sale, new sale, sale
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/sale/create
 language: en

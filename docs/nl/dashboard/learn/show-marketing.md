@@ -3,13 +3,13 @@ uid: help-nl-dashboard-tile-marketing
 title: Mailing en formulieren gebruiken in tegels
 description: Maak dashboards voor uw marketingtaken, zoals formulierverzendingen en mailings, om hun prestaties, trends en productiviteit bij alle marketingactiviteiten bij te houden en te analyseren.
 keywords: dashboard, marketing
-author: SuperOffice Product and Engineering
-date: 11.21.2025
-version: 11.6
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
-tier: growth
+tier: starter
 language: nl
 ---
 
@@ -23,6 +23,9 @@ Wanneer het dashboard is gemaakt, wilt u tegels toevoegen en bewerken.
 > [!Video https://www.youtube.com/embed/lz9rEZI_2SY]
 
 Bestudeer de onderstaande voorbeelden om ideeën op te doen voor tegels die u kunt toevoegen aan uw mailing- of formulierverzendingsdashboard.
+
+> [!NOTE]
+> Mailingtegels zijn beschikbaar vanaf het **Starter**-plan. Tegels voor formulierverzending vereisen het **Growth**-plan.
 
 ## Voorbeeld van verschillende tegels voor mailings
 

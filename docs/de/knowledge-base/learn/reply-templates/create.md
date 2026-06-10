@@ -3,14 +3,14 @@ uid: help-de-reply-template-create
 title: Antwortvorlagen erstellen
 description: In dieser Anleitung erfahren Sie, wie Sie eine Antwortvorlage erstellen.
 keywords: Antwortvorlage erstellen, neue Antwortvorlage, Antwortvorlage kopieren, Antwortvorlageneigenschaften, Antwortvorlage, Vorlage, vorbereiteter Text, Wissensdatenbank
-author: SuperOffice Product and Engineering
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

@@ -4,8 +4,8 @@ title: Gebruikersgedefinieerde velden
 description: Gebruikersgedefinieerde velden
 keywords: udef, aangepast veld, gebruikersgedefinieerd
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.1
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,6 +15,8 @@ redirect_from: /nl/custom-objects/learn/udef/index
 ---
 
 # Gebruikersgedefinieerde velden
+
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Een *gebruikersgedefinieerd* veld (udef) is een aangepast veld dat u toevoegt aan een standard SuperOffice-databasetabel. U kunt de volgende entiteiten uitbreiden:
 
@@ -28,7 +30,7 @@ Een *gebruikersgedefinieerd* veld (udef) is een aangepast veld dat u toevoegt aa
 Gebruikersgedefinieerde velden worden beheerd in Instellingen en onderhoud, in het scherm **Velden**. In de applicatie zijn gebruikersgedefinieerde velden zichtbaar op het **Meer**-tabblad van de entiteit waaraan ze zijn toegevoegd. Bijvoorbeeld wordt een gebruikersgedefinieerd veld op een bedrijf weergegeven op het **Meer**-tabblad in het scherm Bedrijf.
 
 > [!NOTE]
-> Iedereen kan de gegevens in een gebruikersgedefinieerd veld **bijwerken**. Alleen een beheerder kan een gebruikersgedefinieerd veld toevoegen (of verwijderen). U hebt een Development Tools-licentie nodig om het ontwerp van het **Meer**-tabblad aan te passen en pagina 1-velden te gebruiken.
+> Iedereen kan de gegevens in een gebruikersgedefinieerd veld **bijwerken**. Alleen een beheerder kan een gebruikersgedefinieerd veld toevoegen (of verwijderen). U hebt een Development Tools-licentie of het **Core**-plan nodig om het ontwerp van het **Meer**-tabblad aan te passen en pagina 1-velden te gebruiken.
 
 ## <a id="field-types"></a>Veldtypen
 
@@ -78,7 +80,7 @@ Uit de door gebruikers gedefinieerde velden die worden weergegeven op de tabblad
 * Het tabblad **Details** in het scherm Document
 
 > [!NOTE]
-> Pagina-1 veld vereist de licentie Development Tools en is niet beschikbaar als de organisatie een andere lay-out gebruikt via [Schermontwerper][8].
+> Pagina-1 veld vereist het **Core**-plan en is niet beschikbaar als de organisatie een andere lay-out gebruikt via [Schermontwerper][8].
 
 ## Voorbeelden
 

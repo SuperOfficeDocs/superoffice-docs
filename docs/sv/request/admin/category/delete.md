@@ -3,13 +3,13 @@ uid: help-sv-request-category-delete
 title: Ta bort ärendekategori
 description: Ta bort ärendekategori
 keywords: ta bort ärendekategori, överför ärenden till, ärendekategori, ärende, kategori
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: sv
 redirect_from: /sv/request/learn/category/delete
 index: true

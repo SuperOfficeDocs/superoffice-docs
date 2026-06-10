@@ -4,11 +4,11 @@ title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -99,6 +99,9 @@ Oben auf der Registerkarte **Nachrichten** können Sie Antworten senden und Nach
 Die Registerkarte **Details** enthält eine Übersicht über alle Felder für die Anfrage.
 
 ### <a id="log"></a>Änderungsprotokoll
+
+> [!NOTE]
+> Das Änderungsprotokoll erfordert eine **Service Premium**-Lizenz oder den **Growth**-Plan.
 
 In dieser Ansicht werden die Protokolleinträge für die Anfrage angezeigt. Zu sämtlichen Ereignissen werden der Zeitpunkt, die durchgeführte Aktion und der zuständige Benutzer eingetragen.
 

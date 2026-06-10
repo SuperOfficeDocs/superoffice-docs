@@ -3,7 +3,7 @@ uid: help-de-customer-center-edit
 title: Kundenzentrum-Quelldateien
 description: Kundenzentrum-Quelldateien
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundenzentrum, CEP
 content_type: howto
 tier: growth
@@ -14,7 +14,7 @@ language: de
 
 Sie können die Standardseiten in Ihrem Kundenzentrum aktualisieren, indem Sie die Quelldateien bearbeiten.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Wählen Sie <i class="ph ph-list" aria-label="Main menu"></i> **Systemeinstellungen** > **Kundenzentrum-Quelldateien** aus.
 

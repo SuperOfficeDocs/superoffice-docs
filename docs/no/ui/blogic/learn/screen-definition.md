@@ -2,16 +2,18 @@
 uid: help-no-service-screen-definition
 title: Definisjon av skjerm
 description: Definisjon av skjerm
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: definisjon av skjerm
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
+tier: core
 language: no
 ---
 
 # Definisjon av skjerm
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Her kan du vise detaljene for det valgte bildet.
 

@@ -4,8 +4,8 @@ title: Legge til salgstype
 description: Legge til salgstype
 keywords: legge til salgstype, Salg - Type Faser Tilbud, Salg - Kategori, tilbudsvedlegg, standardverdi for tilbud, Tilbudsgodkjenning, fanen Faser, Faser-fanen, salgstype, salg, tilbud
 author: Bergfrid Dias
-date: 02.03.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core
@@ -58,11 +58,11 @@ Alle salg må ha en salgstype, og disse typene kan knyttes til spesifikke [salgs
 
 1. *(Valgfritt)* Merk av for **Foreslå automatisk flytting av salget til neste fase** for å be brukere om å gå til neste fase når alle aktiviteter for gjeldende fase er utført.
 
-1. *(Valgfritt)* Merk av for **Denne salgstypen har interessenter** for å tillate knytning av [interessenter][5] til salg med denne typen. *(Krever SalesPremium-lisens)*
+1. *(Valgfritt)* Merk av for **Denne salgstypen har interessenter** for å tillate knytning av [interessenter][5] til salg med denne typen. *(krever en **Sales Premium**-lisens eller **Growth**-planen)*
 
 1. Legg til en beskrivelse av salgstypen i feltet **Beskrivelse**, om ønskelig.
 
-1. For tilbudshåndtering konfigurerer du feltene i fanene **Vedlegg**, **Standardverdier** og **Godkjenning**, som beskrevet i [Forklaring av tilbudsfelt](#quote-fields) nedenfor. *(Krever SalesPremium-lisens)*. Disse innstillingene lar deg tilpasse tilbud slik at de samsvarer med organisasjonens behov og prosesser.
+1. For tilbudshåndtering konfigurerer du feltene i fanene **Vedlegg**, **Standardverdier** og **Godkjenning**, som beskrevet i [Forklaring av tilbudsfelt](#quote-fields) nedenfor. *(krever en **Sales Premium**-lisens eller **Growth**-planen)*. Disse innstillingene lar deg tilpasse tilbud slik at de samsvarer med organisasjonens behov og prosesser.
 
 1. Klikk på **Lagre** for å lagre endringene eller **Avbryt** for å forkaste dem.
 

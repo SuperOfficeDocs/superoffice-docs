@@ -4,8 +4,8 @@ title: Opprett FAQ-oppføringer
 description: Opprett FAQ-oppføringer
 keywords: FAQ
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: faq
@@ -27,7 +27,7 @@ Ved å opprette FAQ-oppføringer kan organisasjonen bygge opp en omfattende saml
 
 ## Krav
 
-* Du trenger en lisens for Service premium eller Customer Engagement-plattformen for å bruke kunnskapsbasen.
+* Du trenger en **Service Premium**-lisens, **Customer Engagement Platform (CEP)**-tilleggsprogrammet eller **Growth**-planen for å bruke kunnskapsbasen.
 * Hvis du ikke ser denne funksjonen, må du legge til *kunnskapsbasen* som funksjonell rettighet for å opprette FAQ.
 
 ## Opprett FAQ-oppføringer fra en sak

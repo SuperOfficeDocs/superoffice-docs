@@ -2,14 +2,14 @@
 uid: help-sv-request-escalation
 title: Eskaleringsnivåer
 description: Eskaleringsnivåer
-author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 keywords: eskaleringsnivå, lägg till eskaleringsnivå, ny nivå, eskalera, fliken Eskaleringsnivåer, ärendeprioritet, ärende, prioritet
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: growth
 language: sv
 redirect_from: /sv/request/learn/priority/escalation-levels
 index: true

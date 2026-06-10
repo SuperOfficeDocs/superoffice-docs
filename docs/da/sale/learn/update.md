@@ -3,12 +3,12 @@ uid: help-da-sale-update
 title: Opdater et salg
 description: Sådan opdaterer du et salg i SuperOffice CRM. Lær, hvordan du redigerer et salg, ændrer fase (herunder markering som udsat, solgt eller tabt) eller sletter et salg, der ikke længere er relevant.
 keywords: opdater salg, rediger salg, slet salg, udsat, tabt, solgt, salg
-author: SuperOffice RnD
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

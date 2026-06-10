@@ -4,8 +4,8 @@ title: Email in Service and Marketing
 description: Email in Service and Marketing
 keywords: email, cURL, OAuth
 author: Frode B
-date: 12.04.2025
-version: 11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: email
 topic: curl
@@ -51,7 +51,7 @@ Change the value for `reg_id = 320` in the table registry
 
 ![ How to enable cURL -screenshot][img1]
 
-This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to **Developer Tools**).
+This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to **Development Tools**).
 
 ### How to troubleshoot mail when using cURL
 

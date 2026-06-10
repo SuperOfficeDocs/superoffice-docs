@@ -4,12 +4,12 @@ title: Egendefinerte objekter og felt
 description: Egendefinerte objekter og felt
 keywords: egendefinert objekt, felt, brukerdefinert, udef, ekstrafelt, ekstratabell
 author: Bergfrid Dias
-date: 01.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: concept
+tier: core
 audience: user
 audience_tooltip: SuperOffice CRM
-tier: growth
 language: no
 ---
 
@@ -29,21 +29,18 @@ SuperOffice CRM og Service var en gang to separate applikasjoner med ulike utvid
 
 ## Krav
 
-| Tilpasning | Lisens | Kommentar |
-|---|---|---|
-| Legg til/fjern brukerdefinert felt | Ingen | Vises automatisk på [fanen Mer][12]. Trenger Development Tools for å tilpasse plassering. |
-| Tilpass layouten for fanen Mer | Development Tools | |
-| Administrer side 1-felter | Development Tools | |
-| Ekstrafelt | Development Tools | |
-| Ekstratabell | Development Tools | |
-| [Skjermdesigner][5] | Development Tools | SuperOffice versjon 10 og nyere. |
-| [Egendefinerte skjermer][6] | Development Tools, Service | Opprett nye skjermer i Service. |
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
+
+> [!NOTE]
+> **CRM Suite (Growth-plan):** Planen din har en grense for antall egendefinerte objekter. Når grensen er nådd, er opprettelse av flere objekter blokkert. Se [Plangrenser][13] for detaljer.
+
+Felt vises automatisk på [fanen Mer][12] når de er lagt til.
 
 ## Oppsett (plassering av felt)
 
-Enhver form for grensesnitttilpasning krever en Development Tools-lisens. Eventuelle tilpassede skjermlayouter (opprettet i Skjermdesigneren) kan overstyre innstillingene for individuelle brukerdefinerte felt.
+Eventuelle tilpassede skjermlayouter (opprettet i Skjermdesigneren) kan overstyre innstillingene for individuelle brukerdefinerte felt.
 
-Hvis du ikke har en Development Tools-lisens, bruk rangeringen av de forskjellige feltene for å sortere dem på fanen **Mer**.
+Hvis du ikke har en Development Tools-lisens eller **Core**-planen, bruk rangeringen av de forskjellige feltene for å sortere dem på fanen **Mer**.
 
 ## Aktuelt innhold
 
@@ -55,8 +52,7 @@ Hvis du ikke har en Development Tools-lisens, bruk rangeringen av de forskjellig
 [1]: udef.md
 [2]: extra-field.md
 [3]: extra-table.md
-[5]: ../../customization/screen-designer/admin/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->

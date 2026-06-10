@@ -4,8 +4,8 @@ title: Werken met leads in SuperOffice
 description: Leer hoe u leads bekijkt, bijwerkt en opvolgt in SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead
@@ -73,7 +73,7 @@ In het **Zoeken**-scherm kunt u criteria toevoegen zoals:
 * **Persoon** > **Leadstatus** – Is één van / Is niet één van.
 * **Bedrijf** > **Categoriegroep** – Is één van / Is niet één van.
     Handig voor vragen als “Toon al mijn potentiële klanten” of “Toon al mijn klanten”.
-* **Bedrijf** > **Lead** of **Persoon** > **Lead** gebaseerd op [UTM-gegevens][5] (vereist Marketing Premium).
+* **Bedrijf** > **Lead** of **Persoon** > **Lead** gebaseerd op [UTM-gegevens][5] (vereist een **Marketing Premium**-licentie of het **Plus**-plan).
 
 ![Contactpersonen filteren op Leadstatus en Categoriegroep in zoekcriteria. -screenshot][img3]
 

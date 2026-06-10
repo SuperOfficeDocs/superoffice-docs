@@ -4,11 +4,11 @@ title: Opprette en sak
 description: Opprette en sak
 keywords: opprett sak, legg til sak, ny sak, saksdetaljer, melding, sak
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

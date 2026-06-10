@@ -4,8 +4,8 @@ title: Zähler und Zählereinstellungen
 description: Zähler für SAINT definieren und konfigurieren
 keywords: SAINT, Statuskontrollen, Zähler, Zeitraum
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ redirect_from:
 
 # Zähler und Zählereinstellungen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Ein **Zähler** ist ein Wert wie die Anzahl der Verkäufe in einem Zeitraum oder das Datum des letzten erledigten Verkaufs. Zähler können als Suchkriterien verwendet werden, um Firmen, Personen oder Projekte zu finden.
 

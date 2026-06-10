@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduktion til SuperOffice Marketing automatisering og flows.
 keywords: Marketing, flow, kundesegment, kunderejse, kommunikation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows
@@ -122,10 +122,13 @@ Det er tilrådeligt for de fleste automatiserede flows at sætte succeskriterier
 
 ## <a id="req"></a>Krav
 
-* Marketing Premium licens (ny tier)
-* Sales essential eller premium - for at oprette et salg
-* Service essential eller premium - for at oprette en sag
+* **Marketing Premium**-licens eller **Plus**-planen
+* **Sales Essentials eller Premium**-licens for at oprette et salg
+* **Service Essentials eller Premium**-licens for at oprette en sag
 * SMS connector - for at sende SMS
+
+> [!NOTE]
+> **CRM Suite (Plus-plan):** Din plan inkluderer maksimalt 10 aktive flows ad gangen. Både kørende og pausede flows tæller med i denne grænse. Når du nærmer dig grænsen, vises en advarsel i flowets sidehoved. Når grænsen er nået, er til/fra-knappen **I gang** ikke tilgængelig for inaktive flows. Se [Plangrænser][13] for detaljer.
 
 ### Funktionelle rettigheder
 
@@ -156,6 +159,7 @@ Adgang til flows og flowindhold styres af en brugers rolle og [funktionelle rett
 [9]: ../../forms/learn/tutorial-contact-me.md
 [11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
+[13]: ../../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png

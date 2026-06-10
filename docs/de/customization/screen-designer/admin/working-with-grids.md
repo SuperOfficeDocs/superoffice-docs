@@ -4,13 +4,13 @@ title: Arbeiten mit Gittern
 description: So fügen Sie Raster in ein Layout ein und befüllen sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung.
 keywords: Bildschirmlayout, Raster, Tabellenlayout
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: de
@@ -20,7 +20,7 @@ redirect_from: /de/customization/screen-designer/working-with-grids
 
 # Arbeiten mit Gittern
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 Wenn Sie viele Felder haben, können Sie ein Gitterelement verwenden, um sie präziser anzuordnen. Dies ist eine Alternative zur Positionierung basierend auf Sortierreihenfolge und Spalten.
 

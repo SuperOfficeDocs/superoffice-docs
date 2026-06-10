@@ -4,20 +4,20 @@ title: Gebruikers
 description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
 keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven, zichtbaarheid, beschikbaar
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
+tier: starter
 redirect_from: 
   - /nl/admin/user-management/learn/index
   - /nl/admin/user-management/learn/screen/index
   - /nl/admin/user-management/learn/visibility
   - /nl/admin/user-management/learn/associates-filter-group
-tier: starter
 language: nl
 ---
 
@@ -41,14 +41,6 @@ Elk gegevensobject behoort toe aan een gebruiker die onder u valt zelf (a), gebr
 
 Het eigenaarschap van verschillende gegevensobjecten wordt ingesteld in verschillende velden. Bijvoorbeeld in de bedrijfskaart geeft het veld **Onze Contactpersoon** de eigenaar van het record aan. Voor opvolgingen is dat het veld **Owner**, in het project **Verantwoordelijke**, enzovoort.
 
-## <a id="visible"></a>Zichtbaarheid
-
-Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de rol die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
-
-Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist.
-
-Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op het tabblad **Licenties** en klikt u vervolgens op het selectievakje voor **Vertrouwelijke activiteiten**.
-
 ## Soorten gebruikers
 
 * **Medewerkers**: SuperOffice CRM-gebruikers (in uw bedrijf)
@@ -67,9 +59,6 @@ Op het tabblad **Medewerkers** in het scherm Gebruikers kunt u gebruikers van he
 
 Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker als deze is geregistreerd bij een bedrijf dat wordt weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers. Een bedrijf wordt alleen weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers als het bedrijf wordt weergegeven in de lijst met bedrijven op het tabblad **Onze bedrijven**.
 
-> [!NOTE]
-> In het scherm Gebruikers geeft u aan welke licenties kunnen worden gebruikt door de verschillende gebruikers. Als u nieuwe systeemlicenties wilt toevoegen of het aantal licenties voor een of meer modules wilt verhogen/verminderen, neemt u contact op met SuperOffice om [de licentiegegevensbij te werken][16].
-
 ## Gebruikersgroepen
 
 Een **groep** wordt toegewezen aan de gebruiker en geeft toegang tot gegevensobjecten (4 in het vorige diagram). Een gebruiker moet één **primaire groep** hebben en kan meerdere **andere groepen** hebben.
@@ -78,15 +67,13 @@ Een **groep** wordt toegewezen aan de gebruiker en geeft toegang tot gegevensobj
 
 In dit voorbeeld heeft gebruiker A Marketing als andere groep en gebruiker B heeft Marketing als primaire groep. In dit geval, als gebruiker A gegevens wil zien die door gebruiker B zijn gemaakt, moet de rol van gebruiker A de rechten "Lezen" hebben naast alle gegevensobjecten in de kolom *Andere groep*. Dit komt doordat Marketing‑groep de andere groep is voor gebruiker A en hen verbindt met de records die gebruiker B aanmaakt.
 
-Een groep kan ook toegang geven tot lijstitems (5 in het diagram) in SuperOffice CRM. Dit is alleen van toepassing als u de instelling **Groepering en filtering** (a) op uw lijsten gebruikt. Als deze instelling niet geactiveerd is, hebben alle gebruikers toegang tot alle lijsten in SuperOffice CRM. Groepering en filtering zijn bijzonder handig wanneer veel gebruikers met verschillende verantwoordelijkheden toegang hebben tot het systeem. Op deze manier kunt u voorkomen dat bepaalde gebruikers toegang krijgen tot informatie die zij niet zouden moeten zien.
+Een groep kan ook toegang geven tot lijstitems in SuperOffice CRM. Dit is alleen van toepassing als u de instelling **Groepering en filtering** op uw lijsten gebruikt. Als deze instelling niet geactiveerd is, hebben alle gebruikers toegang tot alle lijsten in SuperOffice CRM. Groepering en filtering zijn bijzonder handig wanneer veel gebruikers met verschillende verantwoordelijkheden toegang hebben tot het systeem. Op deze manier kunt u voorkomen dat bepaalde gebruikers toegang krijgen tot informatie die zij niet zouden moeten zien.
 
 ![Groepering en filtering op basis van gebruikersgroep voor document‑sjabloonlijst –screenshot][img6]
 
-Bijvoorbeeld, als u een specifiek lijstitem alleen zichtbaar wilt maken voor bepaalde gebruikers, moet u naar de lijst gaan die deze items bevat (a), het item selecteren (b) en in het vak "Zichtbaar voor gebruikersgroepen", een vinkje zetten bij de gebruikersgroepen die het lijstitem moeten zien (c).
+Bijvoorbeeld, als u een specifiek lijstitem alleen zichtbaar wilt maken voor bepaalde gebruikers, moet u naar de lijst gaan die deze items bevat, het item selecteren en in het vak "Zichtbaar voor gebruikersgroepen", een vinkje zetten bij de gebruikersgroepen die het lijstitem moeten zien.
 
-![Selecteer voorkeur‑niveau groep voor opvolging –screenshot][img7]
-
-Het organiseren van uw gebruikers in groepen is ook handig als u de SuperOffice‑instellingen wilt personaliseren, wat wij [voorkeuren][15] (6) noemen. Elke voorkeur kan ingesteld worden voor één gebruiker, gebruikersgroep of voor het hele systeem.
+Het organiseren van uw gebruikers in groepen is ook handig als u de SuperOffice‑instellingen wilt personaliseren, wat wij [voorkeuren][15] noemen. Elke voorkeur kan ingesteld worden voor één gebruiker, gebruikersgroep of voor het hele systeem.
 
 ![Voorkeuren voor Verkoop‑groep –screenshot][img8]
 
@@ -95,8 +82,6 @@ Het organiseren van uw gebruikers in groepen is ook handig als u de SuperOffice�
 In het scherm Gebruikers kunt u verschillende typen gebruikers toevoegen en bewerken.
 
 ![Een overzicht van het gebruikersscherm in Instellingen en onderhoud -screenshot][img3]
-
-[**Onze bedrijven:**][2] Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker als deze is geregistreerd bij een bedrijf dat wordt weergegeven in de lijst **Bedrijf** in het scherm Gebruikers. Een bedrijf wordt alleen weergegeven in de lijst **Bedrijf** in het scherm Gebruikers als het bedrijf wordt weergegeven in de lijst met bedrijven op het tabblad **Onze bedrijven**.
 
 > [!NOTE]
 > Wijzigingen die u in het scherm Gebruikers aanbrengt, worden pas van kracht wanneer u onder aan het scherm op **Opslaan** klikt en vervolgens in het dialoogvenster dat wordt weergegeven, bevestigt dat u de wijzigingen wilt opslaan. Als u op **Annuleren** klikt, raakt u alle wijzigingen kwijt die u in het scherm hebt aangebracht sinds de laatste keer dat u de gegevens hebt opgeslagen.
@@ -113,21 +98,17 @@ De lijst op het tabblad **Medewerkers** bestaat standaard uit de volgende kolomm
 | Primaire groep | De primaire groep van de gebruiker. |
 | Rol | De [rol][6] die aan de medewerker is toegewezen. De rol bepaalt de toegangsniveaus van de gebruiker voor gegevens in SuperOffice CRM. |
 | Gebruikersplan | het gebruikersplan dat aan de gebruiker is toegewezen, |
-| Bedrijf eigenaar | De naam van de organisatie waartoe de gebruiker behoort (gedefinieerd als database-eigenaar). |
 
 > [!TIP]
 > U kunt aangeven welke kolommen in de lijst moeten worden weergegeven. Klik met de rechtermuisknop op een kolomkop en selecteer de relevante kolommen in de kolomlijst. Als u de volgorde van de kolommen wilt wijzigen, klikt u op en sleept u een kolomkop.
 
-* **Zoeken naar gebruikers:** Gebruik deze dynamische zoekfunctie om specifieke gebruikers snel te vinden op naam of gebruikers-ID, of om alle gebruikers te vinden die behoren tot specifieke rollen, groepen of gebruikersplannen. Voer gewoon tekst in het zoekveld in om de lijst bij te werken met overeenkomende gebruikers.
+* **Zoeken naar gebruikers:** Gebruik deze dynamische zoekfunctie om specifieke gebruikers snel te vinden op naam of gebruikers-ID, of om alle gebruikers te vinden die behoren tot specifieke rollen, groepen of gebruikersplannen (SuperOffice CRM Online). Voer gewoon tekst in het zoekveld in om de lijst bij te werken met overeenkomende gebruikers.
 
 * **Alleen gebruikers weergeven die zich kunnen aanmelden:** Selecteer deze optie om alleen gebruikers weer te geven die actief zijn (die niet zijn gedeactiveerd).
 
 #### De lijst filteren <i class="ph ph-funnel" aria-hidden="true"></i>
 
-U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
-
-> [!NOTE]
-> Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt filteren.
+U kunt de lijst met gebruikers filteren op een van de kolomkoppen. Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt filteren.
 
 1. Ga naar het tabblad **Medewerkers**.
 1. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
@@ -140,10 +121,7 @@ U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
 
 #### De lijst groeperen
 
-U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep en soortgelijke. Bovendien kunt u op meerdere niveaus groeperen.
-
-> [!NOTE]
-> Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt groeperen (zie ook [Weergaven aanpassen][14]).
+U kunt de lijst met gebruikers groeperen op rol, gebruikersplan (SuperOffice CRM Online), primaire groep en soortgelijke. Bovendien kunt u op meerdere niveaus groeperen. Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt groeperen (zie ook [Weergaven aanpassen][14]).
 
 1. Ga naar het tabblad **Medewerkers**.
 1. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
@@ -165,17 +143,13 @@ Bovenaan staan de volledige naam, het e-mailadres en het bedrijf dat eigenaar is
 
 Er zijn verschillende tabbladen in het gebruikersoverzicht:
 
-* **Details** - hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan**, **Primaire groep** en **Servicecategorieën**.
-* **Licenties** - extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor vervolgactiviteiten, documenten en selecties .
-* **Meer** - het tabblad laat zien of er extra velden op een persoon zijn.
+* **Details:** hoofdoverzicht van gebruikersinformatie zoals **Gebruikers-ID,**, **Rol**, **Gebruikersplan** (SuperOffice CRM Online), **Primaire groep** en **Servicecategorieën**.
+* **Licenties:** extra licentie-informatie zoals **Vertrouwelijke activiteiten** die de gebruiker de mogelijkheid geven om **zichtbaarvoor** in te stellen voor vervolgactiviteiten, documenten en selecties .
+* **Meer:** het tabblad laat zien of er extra velden op een persoon zijn.
 
 ### <a id="our-companies"></a>Onze bedrijven
 
-Via de bedrijvenlijst op het tabblad **Onze bedrijven** in het scherm Gebruikers kunt u het volgende opgeven:
-
-* De personen die kunnen worden gedefinieerd als gebruikers van SuperOffice CRM. Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker als deze is geregistreerd bij een bedrijf dat wordt weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers. Een bedrijf wordt alleen weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers als het bedrijf wordt weergegeven in de lijst met bedrijven op het tabblad **Onze bedrijven**.
-
-* De bedrijven die kunnen worden gedefinieerd als eigenaar van een satelliet.
+Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker als deze is geregistreerd bij een bedrijf dat wordt weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers. Een bedrijf wordt alleen weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers als het bedrijf wordt weergegeven in de lijst met bedrijven op het tabblad **Onze bedrijven**.
 
 #### Kolommen in de bedrijvenlijst
 
@@ -189,15 +163,33 @@ Via de bedrijvenlijst op het tabblad **Onze bedrijven** in het scherm Gebruikers
 
 ### Gebruikerslicenties
 
-Op het tabblad **Gebruikerslicenties** in het scherm Gebruikers kunt u zien hoeveel gebruikerslicenties er in gebruik zijn en welke gebruikers de verschillende licenties gebruiken.
+Op het tabblad **Gebruikerslicenties** in het scherm Gebruikers kunt u zien welke licenties er in gebruik zijn en welke gebruikers deze hebben.
 
-* Klik op een licentie in de lijst **Gebruikerslicenties** voor een lijst van gebruikers die momenteel deze licentie gebruiken.
+* Klik op een licentienaam in de lijst **Gebruikerslicenties** om de gebruikers weer te geven die er momenteel aan zijn toegewezen.
+* Houd de muisaanwijzer op een licentienaam voor gedetailleerde informatie.
 
-* Plaats de muisaanwijzer op een licentienaam voor gedetailleerde informatie over de licentie.
+Bij modulaire abonnementen toont de lijst elke gebruikersplanlicentie (zoals Sales Premium of Service Essentials) met het bijbehorende aantal seats.
+
+Bij **SuperOffice CRM Suite**-abonnementen toont de lijst uw actieve plan en het totale aantal seats — bijvoorbeeld *Core (20)*. Er zijn geen gebruikersplantoewijzingen per gebruiker; alle seats zijn inbegrepen in het plan van uw organisatie.
 
 ### Gebruikersgroepen
 
 Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzicht krijgen van de gebruikers en gebruikersgroepen. Klik op een groepsnaam in de lijst **Beschikbare groepen** voor een lijst van gebruikers die momenteel zijn toegewezen aan de groep.
+
+## <a id="visible"></a>Zichtbaarheid
+
+Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de rol die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
+
+Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist. U stelt deze licentie als volgt in:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Selecteer het tabblad **Medewerkers**.
+1. Dubbelklik op de gebruiker aan wie u toegang tot vertrouwelijke activiteiten wilt verlenen.
+1. Selecteer het tabblad **Licenties** en schakel het selectievakje **Vertrouwelijke activiteiten** in.
+
+    ![Gebruikersbeheer, selectievakje Vertrouwelijke activiteiten -screenshot][img9]
+
+1. Klik op **Opslaan**.
 
 ## Gerelateerde inhoud
 
@@ -205,6 +197,8 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 * [Een nieuwe gebruiker toevoegen][2]
 * [Gebruikersgroepen maken][3]
 * [Gebruikersplannen voor actieve gebruikers wijzigen][17]
+* [Licenties activeren en bijwerken][16]
+* [CRM Suite-plannen][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -215,7 +209,8 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png
@@ -223,5 +218,5 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [img3]: ../../../media/loc/en/admin/admin-users-overview.png
 [img5]: ../../../media/loc/en/admin/groups.png
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
-[img7]: ../../../media/loc/en/admin/follow-up-type.png
-[img8]: ../../../media/loc/en/admin/sales-group.png
+[img8]: ../../../media/loc/en/admin/diary-preferences-for-sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

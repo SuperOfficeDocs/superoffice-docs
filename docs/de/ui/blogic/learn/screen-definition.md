@@ -2,16 +2,18 @@
 uid: help-de-service-screen-definition
 title: Definition der Ansicht
 description: Definition der Ansicht
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Definition der Ansicht
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
+tier: core
 language: de
 ---
 
 # Definition der Ansicht
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Hier werden Details zur ausgewählten Ansicht angezeigt.
 

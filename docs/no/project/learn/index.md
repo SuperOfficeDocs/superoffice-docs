@@ -4,8 +4,8 @@ title: Prosjekt
 description: Denne veiledningen viser deg hvordan du oppretter og bruker prosjekter for å holde oversikt over arbeidet ditt.
 keywords: prosjektkort, Prosjekt-bilde, prosjekt
 author: Bergfrid Dias
-date: 01.30.2025
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core
@@ -32,6 +32,9 @@ Prosjekt-bildet viser informasjon om prosjektene som er opprettet i SuperOffice 
 Du kan navigere mellom prosjekter ved å bruke knappene **Forrige** og **Neste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til høyre på kortene.
 
 Hvis du velger en prosjekttype som har en [prosjektguide][1], vises fanen **Prosjektguide**.
+
+> [!NOTE]
+> **CRM Suite (Core-plan):** Planen din inkluderer opptil 100 aktive prosjekter. Når du nærmer deg denne grensen, vises en advarsel i prosjektets bunntekst under redigering. Når grensen er nådd, er knappen **Ny** ikke tilgjengelig, og en melding forklarer hvordan du kan frigjøre kapasitet (merk eksisterende prosjekter som fullførte) eller oppgradere til Growth-planen. Se [Plangrenser][21].
 
 ## Faner i prosjektkortet
 
@@ -83,6 +86,7 @@ Den nederste delen av Prosjekt-bildet består av flere detaljkort:
 [18]: ../../learn/section-tabs/requests-tab.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
+[21]: ../../admin/license/crm-suite.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/project/projects.png

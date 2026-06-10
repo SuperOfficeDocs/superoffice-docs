@@ -3,9 +3,9 @@ uid: help-en-sales-targets-create
 title: Set up sales targets
 description: Keep track of your budgets by setting up sales targets. This will help you to set the right expectations, plan your growth, increase motivation and save time.
 keywords: sales targets
-author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth
@@ -32,7 +32,7 @@ It is optional to add the company target and to have user specific targets (go t
 
 ## Requirements
 
-If you only have a Sales Premium license, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the Unlimited sales targets license.
+If you only have a **Sales Premium** license or the **Growth** plan, you can add one group for the **All sales – Amount** target type. To add more than one user group, you also need the **Unlimited sales targets** license or the **Super** plan.
 
 ## Before you start
 
@@ -70,7 +70,7 @@ Before you start using the sales targets feature, you must set up a few things i
 
 1. Click **Save**.
 
-    * Repeat steps 3-10 to add additional groups or companies. This requires the Sales Targets Unlimited licence.
+    * Repeat steps 3-10 to add additional groups or companies. This requires the **Sales Targets Unlimited** license.
 
     * Go to step 2 to add sales targets for another year, or click **Save and close** to exit this screen.
 
@@ -127,7 +127,7 @@ To view the revision history for a sales target (row), click <i class="ph ph-lis
 
 * Your can set up targets for previous years, to create budget statistics back in time.
 
-* The default target type is **All sales - Amount**. If you have the Sales Targets Unlimited licence, you can create additional target types.
+* The default target type is **All sales - Amount**. If you have the **Sales Targets Unlimited** license, you can create additional target types.
 
 * Use the **Free-text search** field to find sales targets for specific groups and users in a specific year.
 

@@ -4,12 +4,12 @@ title: Currency
 description: Adding items to the Currency list
 keywords: currency, General - Currency list
 author: digitaldiina
-date: 10.28.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 license: salesessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true

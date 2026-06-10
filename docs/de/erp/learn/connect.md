@@ -3,9 +3,9 @@ uid: help-de-erp-connect-actor
 title: Mit ERP verbinden
 description: Mit ERP verbinden
 keywords: mit ERP verbinden, Firma mit ERP verbinden, Person mit ERP verbinden, Projekt mit ERP verbinden, kein Treffer in ERP gefunden, in ERP erstellen, Akteur erstellen, ERP-Akteur, ERP
-author: SuperOffice RnD
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth
@@ -19,7 +19,7 @@ redirect_from:
 
 # Mit ERP verbinden
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 Sie können eine Firma aus SuperOffice mit einem Kunden oder Lieferanten im ERP-System verbinden. Personen, die bei einer Firma in SuperOffice erfasst sind, können anschließend mit passenden Objekten im ERP-System verknüpft werden. SuperOffice-Projekte können ebenfalls mit Projekten im ERP-System verbunden werden. Die Daten werden anschließend zwischen SuperOffice und dem ERP-System synchronisiert.
 

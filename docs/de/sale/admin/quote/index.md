@@ -4,8 +4,8 @@ title: Angebot und Auftrag einrichten
 description: Erfahren Sie, wie Angebote, Quote Connectors und ERP-Integration in SuperOffice CRM funktionieren und wie Sie diese in der Ansicht Angebot/Sync konfigurieren.
 keywords: quote connector, ERP-Verbindung, Angebotseinstellungen, Preisliste, Produkt, Angebot/Sync, ERP-Einrichtung, quote connector-Einstellungen, Angebotsintegration, Vertriebskonfiguration, Angebot, Sync
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -23,8 +23,7 @@ index: true
 
 In der Ansicht **Angebot/Sync** unter Einstellungen und Verwaltung konfigurieren Sie alles, was Sie für die Angebots- und Auftragserstellung in SuperOffice CRM benötigen.
 
-> [!NOTE]
-> Diese Funktion erfordert die Benutzerlizenz **Sales Premium**.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Produkte und Preislisten
 

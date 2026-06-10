@@ -4,8 +4,8 @@ title: Benutzerdefinierte Felder
 description: Benutzerdefinierte Felder
 keywords: udef, benutzerdefiniertes Feld
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.1
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
@@ -15,6 +15,8 @@ redirect_from: /de/custom-objects/learn/udef/index
 ---
 
 # Benutzerdefinierte Felder
+
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Ein *benutzerdefiniertes* Feld (udef) ist ein anzupassendes Feld, das Sie einer standard SuperOffice-Datenbanktabelle hinzufügen. Sie können die folgenden Entitäten erweitern:
 
@@ -28,7 +30,7 @@ Ein *benutzerdefiniertes* Feld (udef) ist ein anzupassendes Feld, das Sie einer 
 Benutzerdefinierte Felder werden in Einstellungen und Verwaltung im Ansicht **Felder** verwaltet. In der Anwendung sind benutzerdefinierte Felder im **Mehr**-Tab der Entität sichtbar, zu der sie hinzugefügt wurden. Zum Beispiel wird ein benutzerdefiniertes Feld in einer Firma im **Mehr**-Tab im Ansicht Firma angezeigt.
 
 > [!NOTE]
-> Jeder kann die in einem benutzerdefinierten Feld gespeicherten Daten **aktualisieren**. Nur ein Administrator kann ein benutzerdefiniertes Feld hinzufügen (oder entfernen). Sie benötigen eine Development Tools-Lizenz, um das Layout des **Mehr**-Tabs anzupassen und Seiten-1-Felder zu verwenden.
+> Jeder kann die in einem benutzerdefinierten Feld gespeicherten Daten **aktualisieren**. Nur ein Administrator kann ein benutzerdefiniertes Feld hinzufügen (oder entfernen). Sie benötigen eine Development Tools-Lizenz oder den **Core**-Plan, um das Layout des **Mehr**-Tabs anzupassen und Seiten-1-Felder zu verwenden.
 
 ## <a id="field-types"></a>Feldtypen
 
@@ -78,7 +80,7 @@ Unter den benutzerdefinierten Feldern, die in den Registerkarten **Mehr** in Sup
 * Die Registerkarte **Details** in dem Dialogfeld Dokument
 
 > [!NOTE]
-> Seite-1-Feld erfordert die Lizenz für Development Tools und ist nicht verfügbar, wenn Ihre Organisation ein anderes Layout über [Ansichtsdesigner][8] verwendet.
+> Seite-1-Feld erfordert den **Core**-Plan und ist nicht verfügbar, wenn Ihre Organisation ein anderes Layout über [Ansichtsdesigner][8] verwendet.
 
 ## Beispiele
 

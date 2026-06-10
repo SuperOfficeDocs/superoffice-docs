@@ -4,8 +4,8 @@ title: Een verkooptargettype met subtypen instellen
 description: Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u parameters en dimensies van uw verkooptargets definieert, wordt het beheren van uw doelen veel eenvoudiger.
 keywords: verkooptarget, dimensie
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium, Unlimited sales targets
 tier: growth
@@ -27,7 +27,7 @@ Standaard bevat SuperOffice één targettype: **Alle verkopen – Bedrag**. U ku
 U moet het functionele recht **Targets administrator** hebben om targettypen toe te voegen, te bewerken of te verwijderen.
 
 > [!NOTE]
-> Om targettypen toe te voegen, hebt u de Unlimited sales targets-licentie nodig naast de Sales Premium-licentie.
+> Om targettypen toe te voegen, hebt u een **Sales Premium**-licentie of het **Growth**-plan en de **Sales Targets Unlimited**-add-on nodig, of het **Super**-plan.
 
 ## Beschikbare targettypen
 

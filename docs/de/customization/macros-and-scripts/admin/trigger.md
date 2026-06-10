@@ -4,22 +4,22 @@ title: Auslöser
 description: Auslöser
 keywords: CRMScript, Auslöser
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /de/automation/crmscript/learn/trigger
 tier: core
+redirect_from: /de/automation/crmscript/learn/trigger
 language: de
 index: true
 ---
 
 # Auslöser
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Auslöser sind Skripts, die bei bestimmten Ereignissen im System ausgeführt werden, beispielsweise wenn ein neuer Verkauf erstellt oder eine Anfrage geschlossen wird. Auslöser können im Hintergrund auf das Geschehen reagieren oder den Vorgang blockieren und dem Benutzer eine Erklärung anzeigen.
 

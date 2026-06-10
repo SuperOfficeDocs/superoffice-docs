@@ -4,15 +4,15 @@ title: Projects
 description: Working with projects in CRMScript
 keywords: project, project management, CRMScript
 author: Bergfrid Dias
-date: 05.31.2023
-version: 9
+date: 06.10.2026
+version: 12.0
 content_type: howto
 redirect_from: /en/project/howto/crmscript/index
 ---
 
 # Projects
 
-[!include[License requirement](../../../../../../common/includes/req-for-project-mgt.md)]
+[!include[Requirement](../../../../includes/req-core.md)]
 
 ## CRMScript classes
 

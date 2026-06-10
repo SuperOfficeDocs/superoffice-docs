@@ -4,8 +4,8 @@ title: Customize layout of user-defined fields
 description: How to customize layout of user-defined fields without the Screen Designer.
 keywords: udef, user-defined field, custom field, page 1, align fields, move field
 author: Bergfrid Dias
-date: 01.16.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 audience: settings
@@ -16,7 +16,7 @@ index: true
 
 # Customize layout of user-defined fields
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 SuperOffice version 10 (released October 2021) introduced [Screen designer][1] with customizable screen layouts for specific user groups. Any custom screen layouts using screen designer may override the settings described below.
 

@@ -4,8 +4,8 @@ title: Set up a sale target type with sub-types
 description: Staying on top of your sales targets can be stressful. But if you define parameters and dimensions of your sales targets – managing your goals becomes much easier.
 keywords: sales target, dimension
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium, Unlimited sales targets
 tier: growth
@@ -27,7 +27,7 @@ By default, SuperOffice includes one target type: **All sales – Amount**. You 
 You must have the functional right **Targets administrator** to add, edit, or delete target types.
 
 > [!NOTE]
-> To add target types, you need the Unlimited sales targets license in addition to the Sales Premium license.
+> To add target types, you need a **Sales Premium** license or the **Growth** plan and the **Sales Targets Unlimited** add-on, or the **Super** plan.
 
 ## Available target types
 

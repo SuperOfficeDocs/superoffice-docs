@@ -3,9 +3,9 @@ uid: help-nl-selection
 title: Selectie
 description: Selectie
 keywords: statische selectie, dynamische selectie, gecombineerde selecties, scherm Selectie, selectieleden, selectie
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -52,6 +52,8 @@ Gebruik een dynamische selectie als u een altijd bijgewerkte lijst wilt van bedr
 **Voorbeeld:** Een real-time lijst van alle openstaande verkoopkansen in het huidige kwartaal, die automatisch wordt bijgewerkt wanneer er nieuwe deals worden gecreëerd.
 
 ### Gecombineerde selecties
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 Een gecombineerde selectie is een combinatie van twee bestaande selecties (statisch of dynamisch). De gecombineerde selectie kan records bevatten die in beide selecties voorkomen, records die verschillen, records die uniek zijn voor één van de selecties of alle records uit beide selecties.
 
@@ -137,7 +139,7 @@ Een selectie met alle verkopen die u in het eerste kwartaal hebt afgerond, of al
 
 * Een selectie van alle vervolgactiviteiten van deze maand helpt u om te zien welke afspraken u hebt en of u extra afspraken moet inplannen.
 
-### Producten (vereist een Sales Premium-licentie)
+### Producten (vereist een **Sales Premium**-licentie of het **Growth**-plan)
 
 * Een lijst van alle klanten die een specifiek product of een specifieke productcategorie hebben gekocht.
 

@@ -4,8 +4,8 @@ title: Work with external documents
 description: Work with external documents and files
 keywords: external document, knowledge base
 author: Kirsti Aakerholt, Bergfrid Dias
-date: 10.29.2023
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
@@ -24,8 +24,7 @@ You can add files to make them available to anyone using SuperOffice CRM, includ
 
 For example, when [answering requests][1], you can enter text in the **Message** tab the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 
-> [!NOTE]
-> This feature requires the Service-Premium user plan.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## View file
 

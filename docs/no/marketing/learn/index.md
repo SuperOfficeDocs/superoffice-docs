@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet.
 keywords: Markedsføring
 author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -70,7 +70,7 @@ Det er tre hovedområder der GDPR påvirker arbeidet til markedsførere:
 ## Krav
 
 > [!NOTE]
-> Sporede koblinger og rapporteringsfunksjoner krever Marketing User-lisensen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
+> Sporede koblinger og rapporteringsfunksjoner krever en **Marketing Essentials**-lisens eller **Growth**-planen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
 
 ## Nødvendige kunnskaper
 

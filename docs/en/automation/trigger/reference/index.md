@@ -1,11 +1,13 @@
 ---
-title: Trigger scripts
 uid: trigger_scripts
+title: Trigger scripts
 description: Trigger scripts
+keywords: CRMScript, trigger, event
 author: Christian Mogensen
-date: 11.11.2020
-keywords:
-topic: concept
+date: 06.10.2026
+content_type: concept
+tier: core
+language: en
 ---
 
 # Trigger scripts
@@ -16,7 +18,7 @@ Unlike webhooks, they are run as part of the user interface and can affect the w
 
 There can be many scripts hooked to the same event - in which case they are run in order of registration.
 
-[!include[License requirement](../../../includes/req-dev-tools.md)]
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 [Reference][1]
 

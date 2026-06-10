@@ -4,7 +4,7 @@ title: Kundcenter – källfiler
 description: Kundcenter – källfiler
 keywords: Kundcenter, CEP
 author: Bergfrid Dias
-date: 02.25.2025
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: sv
@@ -14,7 +14,7 @@ language: sv
 
 Du kan uppdatera standardsidorna i ditt kundcenter genom att redigera källfilerna.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Välj <i class="ph ph-list" aria-label="Main menu"></i> **Systeminställningar** > **Kundcenter – källfiler**.
 

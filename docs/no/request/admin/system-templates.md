@@ -3,13 +3,13 @@ uid: help-no-system-templates
 title: Systemmaler
 description: Systemmaler
 keywords: systemmaler, svarmaler, innstillinger
-author: Hanne Gunnarsson
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
-tier: core
+tier: starter
 language: no
 redirect_from: /no/request/learn/screen/system-templates
 index: true

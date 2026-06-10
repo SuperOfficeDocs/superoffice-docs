@@ -4,11 +4,11 @@ title: Werken met tabbladen
 description: Hoe u een tabblad in een lay-out toevoegt, organiseert, verwijdert en herstelt en hoe u de informatie organiseert in logische groepen met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: opmaak, tabblad opmaak, tabblad toevoegen, tabblad verwijderen, tabblad herstellen, velden groeperen, Meer tabblad, kop toevoegen, label toevoegen, scheidingslijn toevoegen
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /nl/customization/screen-designer/working-with-tabs
 
 # Werken met tabbladen
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 Deze gids gaat ervan uit dat u al [het opmaak aan het bewerken bent][2]. De volgende secties leggen uit hoe u tabbladen in SuperOffice CRM organiseert en aanpast, zodat de interface is afgestemd op de behoeften van uw organisatie.
 

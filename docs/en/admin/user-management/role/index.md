@@ -4,8 +4,8 @@ title: Role
 description: Role
 keywords: role, data object, user level
 author: digitaldiina, kirstiaa
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: settings
@@ -13,7 +13,7 @@ audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: 
+redirect_from:
   - /en/online/identity/role/index
   - /en/admin/user-management/learn/role/index
 language: en
@@ -59,11 +59,13 @@ Predefined roles are included with SuperOffice CRM. The **User levels 0–5** ro
 
 When giving access to someone new, you must specify their role – either a user or an administrator.
 
-Administrators have access to the Settings and maintenance section. This is where you can create users, adjust access rights and customize the CRM solution to your needs. If you want a user to have this access, give him or her user level 0.
+Administrators have access to the Settings and maintenance section. This is where you can create users, adjust access rights and customize the CRM solution to your needs. If you want a user to have this access, give them user level 0.
 
 If you do not want users to have access to Settings and maintenance, assign user level 1 or higher, depending on the access they need.
 
 ## Manage your roles
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 In the Roles section, you can [determine what type of access][3] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the data rights and/or the different [functional rights][6].
 

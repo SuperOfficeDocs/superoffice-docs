@@ -3,12 +3,12 @@ uid: help-en-request-forward
 title: Forward request to external contact
 description: Learn how to forward a request in this how-to guide.
 keywords: forward request, request
-author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

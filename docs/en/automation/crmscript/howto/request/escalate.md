@@ -2,15 +2,19 @@
 uid: crmscript-request-escalate
 title: Priority and escalation
 description: Priority and escalation of requests in CRMScript
-keywords: Service, ticket, request, CRMScript , escalation, priority
-author: Bergfrid Skaara Dias
-date: 05.26.2023
-version: 10
+keywords: Service, ticket, request, CRMScript, escalation, priority
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
+tier: growth
 redirect_from: /en/request/howto/crmscript/escalate
+language: en
 ---
 
 # Priority and escalation
+
+[!include[License requirement](../../../../includes/req-growth-transition-service.md)]
 
 ## Void checkEscalating(Integer action)
 

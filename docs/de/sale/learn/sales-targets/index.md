@@ -3,9 +3,9 @@ uid: help-de-sales-targets
 title: Vertriebsziele
 description: Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu behalten, ist eine der wichtigsten Funktionen in SuperOffice CRM. Mit Hilfe unserer Verkaufsziel-Funktion können Sie Ihre tatsächlichen Verkäufe mit Ihren Zielen vergleichen.
 keywords: Vertriebsziele
-author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -18,7 +18,7 @@ language: de
 # Vertriebsziele
 
 > [!NOTE]
-> Für diese Funktion ist die Sales Premium-Lizenz erforderlich. Um neue Zieltypen hinzufügen zu können, benötigen Sie die Sales Targets Unlimited-Lizenz. Für weitere Details siehe unten.
+> Für diese Funktion ist eine **Sales Premium**-Lizenz oder der **Growth**-Plan erforderlich. Um neue Zieltypen hinzuzufügen, benötigen Sie außerdem die **Sales Targets Unlimited**-Lizenz oder den **Super**-Plan. Für weitere Details siehe unten.
 
 Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu behalten, ist eine der wichtigsten Funktionen in SuperOffice CRM. Mit Hilfe unserer Verkaufsziel-Funktion können Sie Ihre tatsächlichen Verkäufe mit Ihren Zielen vergleichen.
 
@@ -48,7 +48,7 @@ Der Zugriff auf Ziele wird von Ihrem Administrator unter Einstellungen und Verwa
 
 ### Lizenzen
 
-Folgende Funktionen sind nur mit Sales Targets Unlimited-Lizenz zusätzlich zur Sales Premium-Lizenz verfügbar:
+Folgende Funktionen sind nur mit einer **Sales Premium**-Lizenz oder dem **Growth**-Plan und dem **Sales Targets Unlimited**-Add-on oder dem **Super**-Plan verfügbar:
 
 * Zusätzliche Zieltypen (Dimensionen) hinzufügen
 * Ziele für mehrere Gruppen/Teams erstellen

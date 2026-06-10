@@ -4,8 +4,8 @@ title: Arbeta med leads i SuperOffice
 description: Lär dig att visa, uppdatera och följa upp leads i SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead
@@ -73,7 +73,7 @@ I **Sök**-skärmen kan du lägga till kriterier som:
 * **Kontakt** > **Leadstatus** – Är en av / Är inte en av.
 * **Företag** > **Kategorigrupp** – Är en av / Är inte en av.
     Använd detta för att besvara frågor som ”Lista alla mina potentiella kunder” eller ”Lista alla mina kunder”.
-* **Företag** > **Lead** eller **Kontakt** > **Lead** baserat på [UTM-data][5] (kräver Marketing Premium).
+* **Företag** > **Lead** eller **Kontakt** > **Lead** baserat på [UTM-data][5] (kräver en **Marketing Premium**-licens eller **Plus**-planen).
 
 ![Filtrera kontakter efter Leadstatus och Kategorigrupp i Sök-kriterier. -screenshot][img3]
 

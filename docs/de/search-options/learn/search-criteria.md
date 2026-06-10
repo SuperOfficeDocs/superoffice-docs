@@ -4,8 +4,8 @@ title: Suchkriterien verwenden
 description: Suchkriterien hinzufügen und ändern
 keywords: Suchen, Kriterien, finden
 author: digitaldiina
-date: 12.05.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -118,7 +118,7 @@ Enthält das durchsuchte Feld Listen (zum Beispiel das Feld **Branche** in der A
 
 Handelt es sich bei dem zu durchsuchenden Feld um ein Statusfeld, müssen Sie den erforderlichen Status auswählen.
 
-Die Statusangaben werden in Einstellungen und Verwaltung erstellt und verwaltet. Statusfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und aktiviert haben.
+Die Statusangaben werden in Einstellungen und Verwaltung erstellt und verwaltet. Statusfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und [aktiviert haben][5].
 
 ### <a id="counter"></a>Zählerfeld
 
@@ -136,7 +136,7 @@ Zählerfelder finden Sie unter **Zähler (SAINT)** in der Liste der Kriterien.
 
 1. Je nach der obigen Auswahl wird ein Listenfeld für ein Datumsfeld oder ein numerisches Feld angezeigt. Diese Listenfelder funktionieren wie oben beschrieben. Wählen Sie die erforderliche Option, und geben Sie im Textfeld den gewünschten numerischen Wert oder das Datum ein.
 
-Die Zähler werden in Einstellungen und Verwaltung erstellt und verwaltet. Zählerfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und aktiviert haben.
+Die Zähler werden in Einstellungen und Verwaltung erstellt und verwaltet. Zählerfelder sind nur relevant, wenn Sie eine Lizenz für Statuskontrollen erworben und [aktiviert haben][5].
 
 ## Arbeiten mit Suchkriterien
 
@@ -168,3 +168,4 @@ Wenn Sie die Ansicht **Suchen** öffnen, enthält diese die Standardsuchkriterie
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
+[5]: ../../saint/admin/set-up.md

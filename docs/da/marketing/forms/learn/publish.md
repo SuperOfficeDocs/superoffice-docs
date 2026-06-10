@@ -4,8 +4,8 @@ title: Udgiv formularer
 description: Udgiv formularer
 keywords: formular, udgiv, udgiv formular, forudfyldt, forudfyldte felt, felt-id, feltidentifikator, scripttag, UTM-builder, tilføj UTM-sporing
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms
@@ -81,7 +81,7 @@ Den indbyggede **UTM-builder** opretter et formularlink med [UTM-parametre][4], 
 
 ### Forudsætninger og begrænsninger
 
-* Du har en **Marketing Premium**-brugerplan.
+* Du har en **Marketing Premium**-licens eller **Plus**-planen.
 * En administrator har [aktiveret overførsel af UTM-data for formularindsendelser][6].
 * UTM-sporing er kun tilgængelig for indstillingen **Direkte link**. Den gælder ikke for indlejrede formularer.
 

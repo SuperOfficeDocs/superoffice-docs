@@ -4,8 +4,8 @@ title: Arbejde med eksterne dokumenter
 description: Arbejde med eksterne dokumenter
 keywords: eksterne dokumenter
 author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
@@ -24,8 +24,7 @@ Du kan tilføje dokumenter (inklusive billeder og andre filer), der skal være t
 
 Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sager][1]. Hér kan du indtaste tekst på samme måde som i et tekstbehandlingsprogram. Du kan også tilføje billeder ved at klikke på knappen **Billede** på værktøjslinjen, men i så fald skal billedet først være uploadet til **Eksterne dokumenter**. Når meddelelsen sendes, genereres der links til filer, der ligger under **Eksterne dokumenter**. Det samme gælder, f.eks. når du opretter svarskabeloner og SuperOffice Marketing-meddelelser.
 
-> [!NOTE]
-> Denne funktion kræver brugerplanen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Vis dokument
 

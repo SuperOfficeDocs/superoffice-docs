@@ -4,8 +4,8 @@ title: Sales Intelligence (SAINT)
 description: In dieser Anleitung lernen Sie, wie SAINT Ihre Vertriebs- und Kundenprozesse vorantreiben und Arbeitsabläufe verbessern kann.
 keywords: SAINT, Statuskontrollen
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -21,7 +21,7 @@ redirect_from:
 
 Proaktiv zu sein bedeutet, eine erwartete Situation zu kontrollieren, bevor sie eintritt. Mit SuperOffice Sales Intelligence (SAINT) erhalten Sie die Möglichkeit, Ihre Kunden zum richtigen Zeitpunkt zu betreuen und die Kontrolle über jedes Szenario zu übernehmen. SAINT wurde entwickelt, um Ihre Datenbank zu überwachen und Ihnen zu helfen, proaktiv zu sein und Ereignisse zu antizipieren, die sich auf Ihre Branche auswirken könnten.
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Was ist SAINT und was kann es tun?
 
@@ -36,7 +36,7 @@ Diese Fragen sind der Ausgangspunkt für die Entscheidung, aktiv zu werden. Durc
 
 ## Status
 
-Wenn Sie eine Lizenz für SAINT ("SAles INTelligence") erworben haben, können Sie in Einstellungen und Verwaltung Kriterien für Statuskontrollen von Firmen, Personen und Projekten festlegen. Von diesen Kriterien generierte Statusangaben können als Bild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Sie können z. B. ein Bild mit einem Warndreieck für einen Kunden anzeigen, mit dem zahlreiche Verkaufsgespräche geführt wurden, der jedoch keine Käufe zugesagt hat, oder ein Spinnennetz für einen Kunden, der seit über drei Monaten nicht kontaktiert wurde. Auf diese Weise sehen Sie sofort den Status, was für Vertriebsmitarbeiter äußerst hilfreich sein kann.
+In Einstellungen und Verwaltung können Sie Kriterien für Statuskontrollen von Firmen, Personen und Projekten festlegen. Von diesen Kriterien generierte Statusangaben können als Bild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Sie können z. B. ein Bild mit einem Warndreieck für einen Kunden anzeigen, mit dem zahlreiche Verkaufsgespräche geführt wurden, der jedoch keine Käufe zugesagt hat, oder ein Spinnennetz für einen Kunden, der seit über drei Monaten nicht kontaktiert wurde. Auf diese Weise sehen Sie sofort den Status, was für Vertriebsmitarbeiter äußerst hilfreich sein kann.
 
 ## Ein einfaches Beispiel
 

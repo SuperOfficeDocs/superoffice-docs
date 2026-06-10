@@ -4,8 +4,8 @@ title: Sales Intelligence (SAINT)
 description: I denne guide lærer du, hvordan SAINT kan skabe fremskridt i dine salgs- og kundeprocesser samt forbedre workflows.
 keywords: SAINT, statusovervågning
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -21,7 +21,7 @@ redirect_from:
 
 At være proaktiv betyder at kontrollere en forventet situation, før den opstår. Med SuperOffice Sales Intelligence (SAINT) får du mulighed for at følge op på dine kunder rettidigt og tage kontrol over ethvert scenarie. SAINT er designet til at overvåge din database og hjælpe dig med at være proaktiv og forudse hændelser, der kan påvirke din branche.
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Hvad er SAINT, og hvad kan det gøre
 
@@ -36,7 +36,7 @@ Disse spørgsmål er udgangspunktet for beslutningen om at foretage en handling.
 
 ## Status
 
-Hvis du har købt en licens til SAINT ("SAles INTelligence"), kan du angive kriterier for statusovervågning af firmaer, personer og projekter i Indstillinger og vedligeholdelse. De statusser, som genereres via disse kriterier, kan visualiseres i form af et billede, der vises på firma-, person- eller projektkortet. Du kan for eksempel vise et billede af en advarselstrekant ved en kunde, som har krævet mange salgsmøder, men som ikke har genereret noget salg, eller et spindelvæv ved en kunde, som ikke er blevet kontaktet i tre måneder. På den måde får du en tydelig og umiddelbar indikation af bestemte statusser - noget som kan komme for eksempel en salgsmedarbejder til gode.
+Du kan angive kriterier for statusovervågning af firmaer, personer og projekter i Indstillinger og vedligeholdelse. De statusser, som genereres via disse kriterier, kan visualiseres i form af et billede, der vises på firma-, person- eller projektkortet. Du kan for eksempel vise et billede af en advarselstrekant ved en kunde, som har krævet mange salgsmøder, men som ikke har genereret noget salg, eller et spindelvæv ved en kunde, som ikke er blevet kontaktet i tre måneder. På den måde får du en tydelig og umiddelbar indikation af bestemte statusser - noget som kan komme for eksempel en salgsmedarbejder til gode.
 
 ## Et simpelt eksempel
 

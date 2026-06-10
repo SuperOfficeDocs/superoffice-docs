@@ -3,12 +3,12 @@ uid: help-sv-request-status-delete
 title: Ta bort ärendestatus
 description: Ta bort ärendestatus
 keywords: ta bort ärendestatus, överför ärendestatus till, ärendestatus, ärende, status
-author: Bergfrid Dias
-date: 03.06.2024
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

@@ -3,12 +3,12 @@ uid: help-da-request-find
 title: Find en sag
 description: I denne vejledning lærer du, hvordan du finder sager i SuperOffice.
 keywords: find sag, lokalisere sag, seneste sager, egne aktive sager, ufordelte sager, vis kun egne kategorier, søg, finde, sag
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

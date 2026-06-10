@@ -3,12 +3,12 @@ uid: help-no-request-forward
 title: Videresend sak til ekstern person
 description: Lær hvordan du videresender en sak i denne veiledningen.
 keywords: videresend sak, sak
-author: Bergfrid Dias
-date: 02.04.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

@@ -3,11 +3,11 @@ uid: help-en-template-variables-service
 title: Template variables
 description: Template variables
 keywords: reply template variable, template variable
-author: SuperOffice Product and Engineering
-date: 06.29.2022
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
-tier: core
+tier: starter
 category: service
 topic: knowledge base
 audience: person

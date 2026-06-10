@@ -4,9 +4,11 @@ title: Respond to requests on your mobile device
 description: In this how-to guide, you will learn how to reply to, forward, and comment on a request in Mobile CRM.
 keywords: reply to request, answer request, respond to customer, reply, message, comment, forward, request, ticket,
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
+license: serviceessentials
+tier: core
 platform: mobile
 redirect_from:
   - /de/mobile/superoffice-mobile/reply-to-request
@@ -23,7 +25,7 @@ language: en
 Response time is often a key metric for teams handling incoming requests.
 
 > [!NOTE]
-> A [Service user plan][6] is required to take action on a request.
+> A **Service Essentials** license or the **Core** plan is required to take action on a request.
 
 ## Accept
 
@@ -148,7 +150,6 @@ A [reply template][3] can help you respond faster with predefined content.
 [3]: ../../knowledge-base/learn/reply-templates/index.md
 [4]: ../../knowledge-base/learn/faq/index.md
 [5]: ../../knowledge-base/learn/faq/create.md
-[6]: ../../../en/admin/license/user-plans.md
 [7]: update.md
 
 <!-- Referenced images -->

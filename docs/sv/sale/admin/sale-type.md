@@ -4,8 +4,8 @@ title: Lägg till försäljningstyp
 description: Så här lägger du till och hanterar försäljningstyper i SuperOffice CRM. Definiera faser, säljguider och offerter för varje försäljningstyp i Inställningar och underhåll.
 keywords: lägg till försäljningstyp, Försäljning - Typ Faser Offert lista, Försäljning - Kategori lista, Offertbilagor, Standardvärden för offert, Offertgodkännande, försäljningstyp, försäljning, offert
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core
@@ -58,11 +58,11 @@ Varje försäljning måste ha en försäljningstyp. Dessa kan kopplas till speci
 
 1. *(Valfritt)* Markera **Föreslå automatisk flytt av försäljningen till nästa fas** om du vill att användarna ska uppmanas att gå vidare när alla aktiviteter för den aktuella fasen har slutförts.
 
-1. *(Valfritt)* Markera **Den här försäljningstypen har intressenter** om du vill tillåta koppling av [intressenter][5] till försäljningar av denna typ. *(Kräver SalesPremium-licens)*
+1. *(Valfritt)* Markera **Den här försäljningstypen har intressenter** om du vill tillåta koppling av [intressenter][5] till försäljningar av denna typ. *(kräver en **Sales Premium**-licens eller **Growth**-planen)*
 
 1. Lägg till en beskrivning av försäljningstypen i fältet **Beskrivning**, om det behövs.
 
-1. För offertinställningar, konfigurera fälten i flikarna **Bilaga**, **Standardvärden** och **Godkännande** enligt beskrivningen i [Offertfält förklarade](#quote-fields) nedan. *(Kräver SalesPremium-licens)* Dessa inställningar låter dig anpassa offerter för att matcha företagets processer.
+1. För offertinställningar, konfigurera fälten i flikarna **Bilaga**, **Standardvärden** och **Godkännande** enligt beskrivningen i [Offertfält förklarade](#quote-fields) nedan. *(kräver en **Sales Premium**-licens eller **Growth**-planen)* Dessa inställningar låter dig anpassa offerter för att matcha företagets processer.
 
 1. Klicka på **Spara** för att tillämpa dina ändringar eller **Avbryt** för att ignorera dem.
 

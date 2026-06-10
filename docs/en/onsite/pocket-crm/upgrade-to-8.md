@@ -24,9 +24,9 @@ To automatically move users from using Pocket Server to NetServer, you have to m
 
     `C:\Program Files (x86)\SuperOffice Pocket CRM\Tomcat 6.0\webapps\pocketcrm\WEB-INF\classes\server.properties`
 
-2. In the file, locate the server's hostname and the path to the */services80* folder. Added the following to the **netserverUrl** property. Adjust for your endpoint version.
+2. In the file, locate the server's hostname and the path to the */services84* folder. Added the following to the **netserverUrl** property. Adjust for your endpoint version.
 
-    `CLIENT_CONFIGURE=soprotocol://?netserverUrl=https://socrm.myoganization.com/netserver/services80`
+    `CLIENT_CONFIGURE=soprotocol://?netserverUrl=https://socrm.myorganization.com/netserver/services84`
 
 3. Restart Tomcat. Normally this can be done by restarting **PocketCRM** in Local services.
 

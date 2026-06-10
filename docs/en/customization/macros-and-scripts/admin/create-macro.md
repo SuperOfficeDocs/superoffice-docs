@@ -4,8 +4,8 @@ title: Create a macro - example from SuperOffice
 description: Example of how to create a macro in SuperOffice.
 keywords: script, macro
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 category: automation
@@ -18,6 +18,8 @@ index: true
 ---
 
 # Create a macro - example from SuperOffice
+
+[!include[License requirement](../../../includes/req-core.md)]
 
 Many companies often receive requests relating to invoicing. Such requests should go straight to the accounts department. Instead of editing every request and changing category and owner, we can create a macro that performs all these actions. The macro can be assigned to **Task** button in the Request screen. Invoice questions can thus be delegated to the accounts department with just one click.
 

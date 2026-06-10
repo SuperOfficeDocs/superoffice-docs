@@ -2,16 +2,18 @@
 uid: help-da-service-screen-definition
 title: Skærmbillede definition
 description: Skærmbillede definition
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: skærmbillede definition
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
+tier: core
 language: da
 ---
 
 # Skærmbillede definition
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Her finder du oplysninger om det valgte skærmbillede.
 

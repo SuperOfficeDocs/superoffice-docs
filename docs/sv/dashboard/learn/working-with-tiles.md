@@ -4,8 +4,8 @@ title: Arbeta med paneler
 description: Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM.
 keywords: dashboard, panel, lägga till panel, redigera panel, kopiera panel, ta bort panel, dataset, layout
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -18,6 +18,8 @@ redirect_from:
 ---
 
 # Arbeta med paneler
+
+[!include[License requirement](../../includes/req-core.md)]
 
 Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM. Paneler är visuella sammanfattningar baserade på CRM-data – perfekta för att följa upp ärenden, försäljning, aktiviteter eller marknadsföringsresultat.
 
@@ -130,6 +132,9 @@ Använd den här panelen för att visa formaterad text i dashboarden. Exempelvis
 1. Klicka på <i class="ph ph-translate" aria-label="Translate"></i> för att [lägga till en översättning][7] för panelens titel och etiketter.
 1. Klicka på **Spara**.
 
+> [!NOTE]
+> **CRM Suite:** Redigering av panelens layout (diagramtyp, etiketter och andra visuella inställningar på fliken **Layout**) kräver **Growth**-planen eller högre. På Starter- eller Core-planer är fälten på layoutfliken skrivskyddade och ett meddelande längst ned i dialogrutan förklarar begränsningen. Administratörer kan välja **Uppgradera** för att öppna ett kontaktformulär.
+
 ## <a id="copy"></a>Duplicera eller kopiera en panel
 
 Du kan återanvända en befintlig panel genom att antingen duplicera den i samma dashboard eller kopiera den till en annan dashboard. Du måste ha **redigeringsbehörighet till mål-dashboarden** för att kunna kopiera en panel dit.
@@ -215,6 +220,10 @@ Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i pa
 
 * **Jag har inte tillgång till layoutfliken eller fälten**
   * Du har kanske inte rätt funktionsbehörigheter. Kontakta administratören.
+  * **CRM Suite:** På Starter- eller Core-planer är fälten på layoutfliken skrivskyddade. Redigering av panelens layout kräver **Growth**-planen eller högre.
+
+* **Jag kan inte skapa eller duplicera en dashboard**
+  * **CRM Suite (Starter-plan):** Starter-planen inkluderar upp till 3 dashboards. När den här gränsen nås är **Skapa dashboard** och **Duplicera dashboard** inte tillgängliga. Ta bort en befintlig dashboard eller uppgradera till Core-planen eller högre. Se [Plangränser][8].
 
 * **Ett urval saknas i fliken Urval**
   * Se [Om paneler baserade på urval](#selection-chart)
@@ -228,6 +237,7 @@ Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i pa
 * [Använd dashboards för att hantera din säljpipeline][2]
 
 <!-- Referenced links -->
+[8]: ../../admin/license/crm-suite.md
 [1]: create.md
 [2]: show-sales-targets.md
 [3]: index.md#charts

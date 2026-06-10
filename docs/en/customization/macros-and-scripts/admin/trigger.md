@@ -4,8 +4,8 @@ title: Triggers
 description: Triggers
 keywords: CRMScript, trigger
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 category: automation
@@ -19,7 +19,7 @@ index: true
 
 # Triggers
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 

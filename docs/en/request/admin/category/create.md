@@ -4,11 +4,11 @@ title: Create request category
 description: Create request category
 keywords: add request category, create request category, new request category, request category, Categories tab, request, category
 author: digitaldiina
-date: 03.25.2026
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

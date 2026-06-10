@@ -3,7 +3,7 @@ uid: help-no-customer-center-faq
 title: Publisere FAQ-er til kundesenteret
 description: I denne guiden lærer du hvordan du publiserer FAQ-er i kundesenteret.
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: FAQ, Kundesenter
 content_type: howto
 tier: growth
@@ -16,7 +16,7 @@ FAQ-er (ofte stilte spørsmål) som publiseres i kundesenteret, er en veldig pra
 
 Hvis du inkluderer FAQ-er som et selvhjelpsverktøy, vil du sannsynligvis redusere antall saker du mottar. Når kundene enkelt kan finne svar på vanlige spørsmål, kan kundestøtteagentene dine konsentrere seg om saker som haster mer, og om mer kompliserte saker.
 
-Du kan [opprette FAQ-er][1] som kundeserviceagentene dine kan velge fra når de besvarer spørsmål fra kunder i saker og chatsamtaler. Krever Service premium-lisensen.
+Du kan [opprette FAQ-er][1] som kundeserviceagentene dine kan velge fra når de besvarer spørsmål fra kunder i saker og chatsamtaler. Krever en **Service Premium**-lisens eller **Growth**-planen.
 
 ![Rediger FAQ-oppføringen og velg Egenskaper for å publisere FAQ-en i SuperOffice Service -screenshot][img1]
 

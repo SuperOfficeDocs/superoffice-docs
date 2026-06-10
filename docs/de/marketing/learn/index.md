@@ -4,8 +4,8 @@ title: SuperOffice Marketing
 description: Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
@@ -70,7 +70,7 @@ Es gibt drei Schlüsselbereiche, in denen sich die DSGVO auf die Arbeit von Mark
 ## Anforderungen
 
 > [!NOTE]
-> Überwachte Links und Berichtsfunktionen erfordern die Marketing-Benutzerlizenz. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
+> Überwachte Links und Berichtsfunktionen erfordern eine **Marketing Essentials**-Lizenz oder den **Growth**-Plan. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
 
 ## Erforderliche Fähigkeiten
 

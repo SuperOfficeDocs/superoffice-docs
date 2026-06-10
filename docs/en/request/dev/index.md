@@ -4,8 +4,8 @@ title: Requests
 description: How to manage requests and enquiries in SuperOffice - create internal and external requests; respond to incoming enquiries; obtain an overview of the statuses of all requests in the CRM system.
 keywords: Service, ticket, request, inquiry, tag, category, priority, escalation, reply template, parse
 author: digitaldiina
-date: 11.28.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 index: true
 redirect_from: /en/request/overview
@@ -13,7 +13,7 @@ redirect_from: /en/request/overview
 
 # Requests
 
-[!include[License requirement](../../../../common/includes/req-service-essentials.md)]
+[!include[License requirement](../../includes/req-core.md)]
 
 * Manage requests and inquiries already in the system
 * Create internal and external requests
@@ -94,7 +94,7 @@ The escalation chain has multiple levels. Each level has its own settings, such 
 * If and who the ticket should be delegated to on escalation
 * The ID of a [CRMScript][1] to run when the ticket alert goes off
 
-[!include[License requirement](../../../../common/includes/req-service-prem.md)]
+[!include[License requirement](../../includes/req-growth-transition-service.md)]
 
 You can [define additional escalation levels][8] for each priority.
 

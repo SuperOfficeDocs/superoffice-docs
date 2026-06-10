@@ -2,16 +2,18 @@
 uid: help-nl-service-screen-definition
 title: Schermdefinitie
 description: Schermdefinitie
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: schermdefinitie
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
+tier: core
 language: nl
 ---
 
 # Schermdefinitie
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Hier kunt u de details van het geselecteerde scherm bekijken.
 

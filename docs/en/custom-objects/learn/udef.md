@@ -4,8 +4,8 @@ title: User-defined fields explained
 description: Introduction to user-defined fields in SuperOffice
 keywords: udef, custom object, custom field, user-defined field, Page 1-field, index
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.1
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: core
 language: en
@@ -17,6 +17,8 @@ redirect_from:
 ---
 
 # User-defined fields
+
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 A *user-defined* field (udef) is a custom field that you add to a standard SuperOffice database table. You can extend the following entities:
 
@@ -30,7 +32,7 @@ A *user-defined* field (udef) is a custom field that you add to a standard Super
 User-defined fields are managed in Settings and maintenance, in the **Fields** screen. In the application, user-defined fields are visible in the **More** tab of the entity they were added to. For example, a user-defined field on a company is shown on the **More** tab in the Company screen.
 
 > [!NOTE]
-> Everyone can **update** the data stored in a user-defined field. Only an administrator can add (or remove) a user-defined field. You need a Development Tools license to customize the layout of the **More** tab and to use page 1 fields.
+> Everyone can **update** the data stored in a user-defined field. Only an administrator can add (or remove) a user-defined field. You need a Development Tools license or the **Core** plan to customize the layout of the **More** tab and to use page 1 fields.
 
 ## <a id="field-types"></a>Field types
 
@@ -82,7 +84,7 @@ Among the user-defined fields that are displayed in the **More** tabs in SuperOf
 * The **Details** tab in the **Document** dialog
 
 > [!NOTE]
-> Page 1 fields require a Development Tools license and are not applicable if you are using another layout via the [Screen designer][8].
+> Page 1 fields require the **Core** plan and are not applicable if you are using another layout via the [Screen designer][8].
 
 ## Examples
 

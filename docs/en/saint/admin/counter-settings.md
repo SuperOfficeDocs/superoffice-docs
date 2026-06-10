@@ -4,8 +4,8 @@ title: Counters and counter settings
 description: Define and configure counters for SAINT
 keywords: SAINT, activity monitor, counter, period
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: growth
 audience: settings
@@ -19,7 +19,7 @@ redirect_from:
 
 # Counters and counter settings
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 A **counter** is a value such as the number of sales in a period or the date of the last completed sale. Counters can be used as search criteria to find companies, contacts, or projects.
 

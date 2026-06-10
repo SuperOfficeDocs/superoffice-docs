@@ -3,20 +3,22 @@ uid: saint-sql-get-contact-by-value
 title: Get contact by value
 description: How to search for a contact with a given saint value with raw SQL.
 keywords: sale, SAINT, API, SQL, countervalue
-author: Bergfrid Skaara Dias
-date: 06.09.2023
-version: 10
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
+tier: growth
 redirect_from:
   - /en/sale/saint/howto/sql/get-contact-by-saint-value
   - /en/api/netserver/sql/howto/saint/get-contact-by-saint-value
+language: en
 ---
 
 # Search for a contact with a given saint value
 
 The following example shows how we can retrieve a contact by using a SAINT value. Each `counterValue` row points to the `contact_id` or `project_id` it is linked to.
 
-[!include[ALT](../../../../../../common/includes/note-req-saint.md)]
+[!include[Requirement](../../../../includes/note-req-saint.md)]
 
 Some of the counter values for a contact:
 

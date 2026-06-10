@@ -3,12 +3,12 @@ uid: help-de-sale
 title: Verkauf
 description: SuperOffice Sales hilft Vertriebsteams, die Kontrolle über ihre Vertriebspipelines und -prozesse zu behalten.
 keywords: Verkaufskarte, Verkaufsansicht, Verkauf, Lead
-author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -48,9 +48,9 @@ Jede Registerkarte hat eine spezifische Funktion, um Verkaufsinformationen struk
 Der untere Bereich der Verkaufsansicht enthält Bereichsregisterkarten.
 
 * [Aktivitäten][14]
-* [Verkaufsleitfaden][16] (erfordert Sales Premium)
-* [Beteiligte][15] (erfordert Sales Premium)
-* [Angebot][17] (erfordert Sales Premium)
+* [Verkaufsleitfaden][16] (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
+* [Beteiligte][15] (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
+* [Angebot][17] (erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)
 
 [Verkaufsleitfäden][3] werden nur für bestimmte Verkaufstypen angezeigt (definiert in Einstellungen und Verwaltung). Wenn Sie einen Verkaufstyp auswählen, für den ein Verkaufsleitfaden definiert ist, wird die Bereichsregisterkarte **Verkaufsleitfaden** angezeigt.
 

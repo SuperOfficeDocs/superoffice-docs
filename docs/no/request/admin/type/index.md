@@ -4,8 +4,8 @@ title: Sakstype
 description: Sakstype
 keywords: sakstype, fanen Sakstyper, type, sak
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
 tier: growth
@@ -21,7 +21,7 @@ index: true
 Alle saker som er registrert i SuperOffice har en type. Standardtypen er "Sak". For å se, legge til, oppdatere og slette sakstyper, gå til **Innstillinger og vedlikehold**.
 
 > [!NOTE]
-> Denne funksjonen krever en Service Premium-brukerplan (for å opprette og oppdatere sakstyper) og en Development Tools-lisens for å definere layouter basert på sakstyper i Skjermdesigner.
+> Denne funksjonen krever en **Service Premium**-lisens eller **Growth**-planen. For å definere layouter basert på sakstyper i Screen Designer trenger **Service Premium**-brukere også **Development Tools**-lisensen (inkludert i **Core**-planen og høyere).
 
 ## Hvorfor bruke sakstyper?
 

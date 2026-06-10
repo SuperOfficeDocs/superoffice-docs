@@ -4,8 +4,8 @@ title: Markedsføringsautomatisering - flyter
 description: Introduksjon til markedsføringsautomatisering og flyter.
 keywords: flyt, markedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
-date: 09.26.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 topic: flows
@@ -122,10 +122,13 @@ Det er tilrådelig for de fleste automatiserte flyter å sette suksesskriterier 
 
 ## <a id="req"></a>Krav
 
-* Marketing Premium-lisens (nytt nivå)
-* Sales essential eller premium - for å opprette et salg
-* Service essential eller premium - for å opprette en sak
+* **Marketing Premium**-lisens eller **Plus**-planen
+* **Sales Essentials eller Premium**-lisens for å opprette et salg
+* **Service Essentials eller Premium**-lisens for å opprette en sak
 * SMS-modul - for å sende SMS
+
+> [!NOTE]
+> **CRM Suite (Plus-plan):** Planen din inkluderer maksimalt 10 aktive flyter om gangen. Både kjørende og pauserte flyter teller mot denne grensen. Når du nærmer deg grensen, vises en advarsel i flytens overskrift. Når grensen er nådd, er bryteren **Kjører** ikke tilgjengelig for inaktive flyter. Se [Plangrenser][13] for detaljer.
 
 ### Funksjonelle rettigheter
 
@@ -156,6 +159,7 @@ Tilgang til flyter og flytinnhold kontrolleres av en brukers rolle og [funksjone
 [9]: ../../forms/learn/tutorial-contact-me.md
 [11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
+[13]: ../../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png

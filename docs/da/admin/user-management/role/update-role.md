@@ -4,22 +4,24 @@ title: Opdater rolle
 description: Sådan redigerer du en rolle.
 keywords: rolle, brugerstyring
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
+tier: starter
 redirect_from: 
   - /da/admin/user-management/learn/role/editing-role
   - /da/admin/user-management/learn/role/deleting-role
-tier: starter
 language: da
 ---
 
 # Opdater rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Hvis du vil opdatere eller slette en [rolle][3], skal du starte med at vælge rollen under fanen **Medarbejdere**.
 

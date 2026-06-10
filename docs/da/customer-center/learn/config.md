@@ -4,7 +4,7 @@ title: Kundecenterkonfiguration
 description: Få mere at vide om, hvordan du konfigurerer dit kundecenter, i denne vejledning.
 keywords: Tjeneste, Kundecenter, CEP
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: da
@@ -12,7 +12,7 @@ language: da
 
 # Konfigurer kundecenter <i class="ph ph-question" aria-label="Question mark"></i>
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 Du kan redigere stylingen og layoutet af dit kundecenter og få en forhåndsvisning af ændringerne.
 

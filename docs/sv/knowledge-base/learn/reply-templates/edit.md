@@ -3,14 +3,14 @@ uid: help-sv-reply-template-edit
 title: Redigera eller ta bort svarsmallar
 description: Redigera eller ta bort svarsmallar i SuperOffice. Hantera egenskaper, redigera text eller radera mallar i kunskapsbasen.
 keywords: redigera svarsmall, ta bort svarsmall, svarsmall, färdig text, kunskapsbas
-author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

@@ -4,8 +4,8 @@ title: View statistics for mailing
 description: View statistics for mailing
 keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: mailing
@@ -72,7 +72,7 @@ After your mailing is finished, you can see how your mailing performed in the **
 * **Manage bounces**: An overview of all bounced emails. Use the actions to [clean up your bouncing email addresses][1], either by setting the contacts as former employee or deleting the email addresses.
 
 > [!NOTE]
-> The **Reports** and **Tracked links** tabs require the Marketing User licence. Some tabs are not available for SMS mailings and document mailings.
+> The **Reports** and **Tracked links** tabs require a **Marketing Essentials** license or the **Growth** plan. Some tabs are not available for SMS mailings and document mailings.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

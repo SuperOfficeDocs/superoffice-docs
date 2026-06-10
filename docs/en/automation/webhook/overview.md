@@ -1,16 +1,20 @@
 ---
-title: webhook
-description: "Introduction to SuperOffice Webhooks."
-author: Tony Yates
-date: 04.06.2018
-keywords: automation
+uid: webhook-overview
+title: SuperOffice Webhooks
+description: Introduction to SuperOffice Webhooks.
+keywords: automation, webhook
+author: digitaldiina
+date: 06.10.2026
+content_type: concept
+tier: core
+language: en
 ---
 
 # SuperOffice Webhooks
 
 No longer must integrations poll SuperOffice and ask for the latest changes. SuperOffice Webhooks actively send messages to subscribers when events occur in SuperOffice and provide an opportunity for applications to react accordingly.
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Webhooks are a means to broadcast events that happen inside SuperOffice as they occur. A webhook payload includes information that describes what has changed and is broadcast to all applications that have subscribed to a corresponding event.
 

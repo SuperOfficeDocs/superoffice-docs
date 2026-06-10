@@ -4,8 +4,8 @@ title: Marketing automatisering - flows
 description: Inleiding tot SuperOffice marketingautomatisering en flows.
 keywords: Marketing, flow, automatisering, klantsegment, klantreis, segment, campaign, succespercentage, succescriteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows
@@ -122,10 +122,13 @@ Voor de meeste geautomatiseerde flows is het raadzaam om succescriteria voor ing
 
 ## <a id="req"></a>Vereisten
 
-* Marketing Premium licentie (nieuw niveau)
-* Sales essentieel of premium - om een verkoop te maken
-* Service essentieel of premium - om een verzoek te maken
+* **Marketing Premium**-licentie of het **Plus**-plan
+* **Sales Essentials of Premium**-licentie om een verkoop te maken
+* **Service Essentials of Premium**-licentie om een verzoek te maken
 * SMS connector - om SMS te verzenden
+
+> [!NOTE]
+> **CRM Suite (Plus-plan):** Uw abonnement bevat maximaal 10 actieve flows tegelijk. Zowel actieve als gepauzeerde flows tellen mee voor deze limiet. Wanneer u de limiet nadert, verschijnt er een waarschuwing in de flow-koptekst. Wanneer de limiet is bereikt, is de schakelaar **Wordt uitgevoerd** niet beschikbaar voor inactieve flows. Zie [Plangrenzen][13] voor meer informatie.
 
 ### Functionele rechten
 
@@ -156,6 +159,7 @@ Toegang tot flows en flowinhoud wordt beheerd door de rol en [functionele rechte
 [9]: ../../forms/learn/tutorial-contact-me.md
 [11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
+[13]: ../../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png

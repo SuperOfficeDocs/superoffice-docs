@@ -4,21 +4,21 @@ title: Zusatztabellen
 description: Zusatztabellen
 keywords: Zusatztabelle
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: user
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: de
 redirect_from: /de/custom-objects/learn/extra-table/index
 ---
 
 # Zusatztabellen
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
-Die SuperOffice Development Tools-Lizenz ermöglicht es Ihnen, Zusatztabellen (Zusatzobjekten) in der Datenbank zu erstellen.
+Die Development Tools-Lizenz oder der Core-Plan ermöglicht es Ihnen, Zusatztabellen (Zusatzobjekten) in der Datenbank zu erstellen.
 
 Die Ansicht Tabellen ist Ihr Werkzeug zur Anpassung des Datenbankschemas.
 

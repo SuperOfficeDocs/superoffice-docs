@@ -4,8 +4,8 @@ title: Ställ in en typ av försäljningsmål med undertyper
 description: Att hålla koll på dina försäljningsmål kan vara stressande. Men om du definierar parametrar och dimensioner för dina försäljningsmål blir det mycket lättare att hantera dem.
 keywords: försäljningsmål, dimension
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium, Unlimited sales targets
 tier: growth
@@ -27,7 +27,7 @@ Som standard innehåller SuperOffice en måltyp: **All försäljning – Belopp*
 Du måste ha funktionsrättigheten **Targets administrator** för att lägga till, redigera eller ta bort måltyper.
 
 > [!NOTE]
-> För att lägga till måltyper behöver du licensen Unlimited sales targets utöver Sales Premium-licensen.
+> För att lägga till måltyper behöver du en **Sales Premium**-licens eller **Growth**-planen och **Sales Targets Unlimited**-tillägget, eller **Super**-planen.
 
 ## Tillgängliga måltyper
 

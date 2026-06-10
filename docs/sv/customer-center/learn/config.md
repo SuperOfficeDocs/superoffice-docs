@@ -4,7 +4,7 @@ title: Konfigurera kundcenter
 description: Den här guiden beskriver hur du konfigurerar ditt Kundcenter.
 keywords: Tjänst, Kundcenter, CEP
 author: SuperOffice RnD
-date: 02.25.2025
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: sv
@@ -12,7 +12,7 @@ language: sv
 
 # Konfigurera Kundcenter <i class="ph ph-question" aria-label="Question mark"></i>
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 Du kan redigera ditt kundcenters stilmall och layout och förhandsgranska ändringarna.
 

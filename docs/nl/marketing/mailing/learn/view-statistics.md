@@ -4,8 +4,8 @@ title: Statistieken voor mailings weergeven
 description: Statistieken voor mailings weergeven
 keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: mailing
@@ -72,7 +72,7 @@ Nadat uw mailing is voltooid, kunt u zien hoe uw mailing heeft gepresteerd op he
 * **Retourneringen beheren**: Een overzicht van alle geretourneerde e-mails. Gebruik de acties om [uw geretourneerde e-mailadressen op te schonen][1], door de contacten in te stellen als voormalige werknemer of door de e-mailadressen te verwijderen.
 
 > [!NOTE]
-> Voor de tabbladen **Rapporten** en **Gevolgde koppelingen** is de licentie Marketinggebruiker vereist. Sommige tabbladen zijn niet beschikbaar voor SMS-mailings en mailings met documenten.
+> Voor de tabbladen **Rapporten** en **Gevolgde koppelingen** is een **Marketing Essentials**-licentie of het **Growth**-plan vereist. Sommige tabbladen zijn niet beschikbaar voor SMS-mailings en mailings met documenten.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

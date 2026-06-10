@@ -4,11 +4,11 @@ title: Legg til en knapp eller kobling
 description: Hvordan legge til en knapp eller kobling med Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: legg til knapp, ny knapp, legg til kobling, ny kobling, etikett
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /no/customization/screen-designer/add-button
 
 # Legg til en knapp eller kobling
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Tilpassede knapper og koblingr legges til i **Forhåndsvisning**-panelet når du redigerer en layout. Nettadressen brukes til å åpne en nettside i gjeldende eller ny fane, kjøre et CRMScript fra skjermen eller navigere til andre deler av SuperOffice ved hjelp av [SoProtocol][3].
 

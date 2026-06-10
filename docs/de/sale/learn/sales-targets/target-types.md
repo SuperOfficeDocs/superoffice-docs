@@ -4,8 +4,8 @@ title: Verkaufszieltyp mit Untertypen einrichten
 description: Es kann stressig sein, den Überblick über Ihre Verkaufsziele zu behalten. Wenn Sie jedoch Parameter und Dimensionen Ihrer Verkaufsziele definieren, wird die Verwaltung Ihrer Ziele viel einfacher.
 keywords: Verkaufsziel, Dimension
 author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium, Unlimited sales targets
 tier: growth
@@ -27,7 +27,7 @@ Standardmäßig enthält SuperOffice einen Zieltyp: **Alle Verkäufe – Betrag*
 Sie müssen das funktionale Recht **Targets administrator** haben, um Zieltypen hinzuzufügen, zu bearbeiten oder zu löschen.
 
 > [!NOTE]
-> Um Zieltypen hinzuzufügen, benötigen Sie die Unlimited Sales Targets-Lizenz zusätzlich zur Sales Premium-Lizenz.
+> Um Zieltypen hinzuzufügen, benötigen Sie eine **Sales Premium**-Lizenz oder den **Growth**-Plan und das **Sales Targets Unlimited**-Add-on oder den **Super**-Plan.
 
 ## Verfügbare Zieltypen
 

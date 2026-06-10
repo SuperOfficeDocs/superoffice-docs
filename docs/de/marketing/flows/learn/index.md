@@ -4,8 +4,8 @@ title: Marketing-Automatisierung - Flows
 description: Einführung in die Marketing-Automatisierung und Flows von SuperOffice.
 keywords: Marketing, Flow, Automatisierung, Kampagne, Segmentieren, Kundenreise
 author: Bergfrid Dias
-date: 09.26.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows
@@ -122,10 +122,13 @@ Für die meisten automatisierten Flows ist es ratsam, Erfolgskriterien für eing
 
 ## <a id="req"></a>Anforderungen
 
-* Marketing-Premium-Lizenz (neue Stufe)
-* Sales Essential oder Premium - um einen Verkauf zu erstellen
-* Service Essential oder Premium - um eine Anfrage zu erstellen
+* **Marketing Premium**-Lizenz oder den **Plus**-Plan
+* **Sales Essentials oder Premium**-Lizenz um einen Verkauf zu erstellen
+* **Service Essentials oder Premium**-Lizenz um eine Anfrage zu erstellen
 * SMS-Connector - zum Senden von SMS
+
+> [!NOTE]
+> **CRM Suite (Plus-Plan):** Ihr Plan umfasst maximal 10 aktive Flows gleichzeitig. Sowohl laufende als auch angehaltene Flows werden auf dieses Limit angerechnet. Wenn Sie sich dem Limit nähern, erscheint eine Warnung in der Flow-Kopfzeile. Wenn das Limit erreicht ist, ist der Umschalter **Wird ausgeführt** für inaktive Flows nicht verfügbar. Siehe [Plangrenzen][13] für Details.
 
 ### Funktionale Rechte
 
@@ -156,6 +159,7 @@ Der Zugriff auf Flows und Flow-Inhalte wird durch die Rolle und die [funktionale
 [9]: ../../forms/learn/tutorial-contact-me.md
 [11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
+[13]: ../../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png

@@ -3,12 +3,12 @@ uid: help-nl-sale-forecasting
 title: Bewaak je pijplijn en voorspel verkoop
 description: Hoe je je verkoop­pijplijn bewaakt en je verkoop prognosticeert met behulp van dashboards en selecties.
 keywords: verkoop, prognose, pipeline
-author: Bergfrid Dias
-date: 09.19.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

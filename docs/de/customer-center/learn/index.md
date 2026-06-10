@@ -3,7 +3,7 @@ uid: help-de-customer-centre
 title: Kundenzentrum
 description: Kundenzentrum
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundenzentrum
 content_type: concept
 tier: growth
@@ -21,7 +21,7 @@ Das Kundenzentrum spielt eine große Rolle bei der Schaffung eines völlig posit
 Die Kundenzentrum-Funktion in der Customer Engagement Platform ist ein eigenständiges Portal, das in Ihre vorhandene Website integriert werden kann. Das Kundenzentrum kann Online-Formulare einbeziehen. Sie können den Kunden auch einen Chat-Service anbieten, über den sie ihre Fragen direkt im Zentrum stellen können.
 
 > [!NOTE]
-> Das Kundenzentrum ist eine der Funktionen, die Sie mit der Lizenz für die Customer Engagement Plattform erhalten.
+> Das Kundenzentrum ist eine der Funktionen, die im Add-on **Customer Engagement Platform (CEP)** enthalten sind.
 
 ## Die Ansicht Kundenzentrum
 

@@ -3,12 +3,12 @@ uid: help-no-request-close
 title: Avslutte en sak
 description: Hvordan avslutte én eller flere saker i SuperOffice.
 keywords: avslutte sak, lukke sak, sett status til avsluttet, lukket, masseredigering, sak
-author: digitaldiina, kirstiaa
-date: 04.08.2026
-version: 11.12
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

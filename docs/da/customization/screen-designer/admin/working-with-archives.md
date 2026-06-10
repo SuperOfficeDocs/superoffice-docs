@@ -4,11 +4,11 @@ title: Arbejde med detaljekort (arkiver)
 description: Skærmdesigner - arbejde med detaljekort (arkiver)
 keywords: tilføj sektionsfane, ny sektionsfane, tilføj arkivfane, tilpas sektionsfane, sektionsfanelayout
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -21,6 +21,8 @@ redirect_from:
 ---
 
 # Arbejde med detaljekort (arkiver)
+
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Du kan tilpasse layoutet ved at tilføje eller fjerne detaljekort (også kaldet arkiver) på hovedkortene for Firma, Person, Salg, Projekt og Sags-skærme.
 

@@ -3,9 +3,9 @@ uid: help-no-sales-targets
 title: Salgsmål
 description: Muligheten til å holde oversikt over salgsmulighetene dine er en av de viktigste funksjonene i SuperOffice CRM. Ved hjelp av vår salgsmålsfunksjonalitet kan du sammenligne de reelle salgene dine med målene dine.
 keywords: salgsmål
-author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -18,7 +18,7 @@ language: no
 # Salgsmål
 
 > [!NOTE]
-> Denne funksjonen krever Sales Premium-lisensen. For å kunne legge til nye måltyper må du ha lisensen Sales Targets Unlimited. Se detaljer nedenfor.
+> Denne funksjonen krever en **Sales Premium**-lisens eller **Growth**-planen. For å legge til nye måltyper trenger du også lisensen **Sales Targets Unlimited** eller **Super**-planen. Se detaljer nedenfor.
 
 Muligheten til å holde oversikt over salgsmulighetene dine er en av de viktigste funksjonene i SuperOffice CRM. Ved hjelp av vår salgsmålsfunksjonalitet kan du sammenligne de reelle salgene dine med målene dine.
 
@@ -48,7 +48,7 @@ Tilgangen til mål angis av administratoren din i Innstillinger og vedlikehold, 
 
 ### Lisenser
 
-Følgende funksjoner er bare tilgjengelige med Sales Targets Unlimited-lisensen i tillegg til Sales Premium-lisensen:
+Følgende funksjoner er bare tilgjengelige med en **Sales Premium**-lisens eller **Growth**-planen og **Sales Targets Unlimited**-tillegget, eller **Super**-planen:
 
 * Legge til flere måltyper (dimensjoner)
 * Opprette mål for flere grupper/team

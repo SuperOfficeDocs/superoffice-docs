@@ -3,12 +3,12 @@ uid: help-sv-sale-forecasting
 title: Övervaka din pipeline och prognostisera försäljning
 description: Hur du övervakar din försäljningspipeline och prognostiserar din försäljning med hjälp av instrumentpaneler och urval.
 keywords: försäljning, prognos, pipeline
-author: Bergfrid Dias
-date: 09.19.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

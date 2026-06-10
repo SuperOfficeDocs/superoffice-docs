@@ -4,9 +4,11 @@ title: Request
 description: Learn about working with requests in SuperOffice Mobile CRM.
 keywords: mobile, request, ticket, Service, customer
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: concept
+license: serviceessentials
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/request/index
 language: en
@@ -17,8 +19,8 @@ language: en
 From the **Requests** screen, you can follow up on customer tickets and collaborate with your team while on the go.
 
 > [!NOTE]
-> The **Requests** screen is available only if your company has a Service or Complete license.
-> Some users may be able to view requests without a service user plan, depending on their role and the request category. These users cannot reply or take action on the request.
+> The **Requests** screen requires a **Service Essentials** license or the **Core** plan.
+> Some users may be able to view requests without the required license or plan, depending on their role and the request category. These users cannot reply or take action on the request.
 
 ## Tabs in the main Requests screen
 

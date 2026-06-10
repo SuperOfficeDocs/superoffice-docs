@@ -4,8 +4,8 @@ title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.24.2026
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 topic: flows
@@ -122,10 +122,13 @@ It is advisable for most automated flows to set success criteria for enrolled pa
 
 ## <a id="req"></a>Requirements
 
-* Marketing Premium license (new tier)
-* Sales essential or premium - to create a sale
-* Service essential or premium - to create a request
+* **Marketing Premium** license or the **Plus** plan
+* **Sales Essentials or Premium** license to create a sale
+* **Service Essentials or Premium** license to create a request
 * SMS connector - to send SMS
+
+> [!NOTE]
+> **CRM Suite (Plus plan):** Your plan includes a maximum of 10 active flows at any one time. Both running and paused flows count toward this limit. When you approach the limit, a warning appears in the flow header. When the limit is reached, the **Running** toggle is unavailable for inactive flows. See [Plan limits][13] for details.
 
 ### Functional rights
 
@@ -146,6 +149,7 @@ Access to flows and flow content is controlled by a user's role and [functional 
 * [View statistics][3]
 
 <!-- Referenced links -->
+[13]: ../../../admin/license/crm-suite.md
 [1]: create.md
 [2]: run-pause-end.md
 [3]: view-statistics.md

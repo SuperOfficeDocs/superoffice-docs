@@ -4,8 +4,8 @@ title: Administrer tilbuds- og ordreopsætning
 description: Lær, hvordan tilbud, Quote Connectors og ERP-integration fungerer i SuperOffice CRM, og hvordan du konfigurerer det i skærmbilledet Tilbud/Sync.
 keywords: quote connector, ERP-link, tilbudsindstillinger, prisliste, produkt, Tilbud/Sync, ERP-opsætning, quote connector-indstillinger, tilbudsintegration, salgsopsætning, tilbud, sync
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -23,8 +23,7 @@ index: true
 
 Skærmbilledet **Tilbud/Sync** i Indstillinger og vedligeholdelse er det sted, hvor du konfigurerer alt, hvad der er nødvendigt for at aktivere tilbud og ordrer i SuperOffice CRM.
 
-> [!NOTE]
-> Denne funktion kræver brugerplanen **Sales Premium**.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Produkter og prislister
 

@@ -4,11 +4,11 @@ title: Arbejde med faner
 description: Sådan tilføjer, organiserer, sletter og gendanner du en fane i et layout, og hvordan du organiserer informationen i logiske grupper ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: layout, fane-layout, tilføj fane, fjern fane, gendan fane, grupper felter, Mere fane, tilføj overskrift, tilføj etiket, tilføj deler
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /da/customization/screen-designer/working-with-tabs
 
 # Arbejde med faner
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Denne guide går ud fra, at du allerede er i gang med at [redigere layoutet][2]. De følgende afsnit forklarer, hvordan du organiserer og tilpasser faner i SuperOffice CRM, så du kan skræddersy brugergrænsefladen til din organisations behov.
 

@@ -4,8 +4,8 @@ title: Ausführen, pausieren und beenden des Flow
 description: Ausführen, pausieren und beenden des Flow
 keywords: Marketing, Flow, Ausführen, Pausieren, Beenden, Status
 author: Bergfrid Dias
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows
@@ -24,7 +24,7 @@ language: de
 
 * **Wird ausgeführt:** Keine Änderungen sind während des laufenden Flows zulässig. Automatisierte Trigger sind aktiviert, und Teilnehmer werden dem Flow hinzugefügt.
 
-* **Pausiert:** Trigger bleiben aktiviert. Teilnehmer werden dem Flow hinzugefügt, aber sie warten auf Bewegung zum ersten Schritt. Bestehende Teilnehmer bleiben auf ihrem aktuellen Schritt, wenn der Flow angehalten ist. Dieser Status wird verwendet, um Änderungen oder Verbesserungen an einem Flow vorzunehmen.
+* **Pausiert:** Trigger bleiben aktiviert. Teilnehmer werden dem Flow hinzugefügt, aber sie warten auf Bewegung zum ersten Schritt. Bestehende Teilnehmer bleiben auf ihrem aktuellen Schritt, wenn der Flow angehalten ist. Dieser Status wird verwendet, um Änderungen oder Verbesserungen an einem Flow vorzunehmen. Bei **CRM Suite-Plänen** wird ein angehaltener Flow weiterhin als aktiv betrachtet, da er eingehende Kontakte zur späteren Verarbeitung sammelt und auf das Limit aktiver Flows angerechnet wird.
 
 ![Marketing-Flow mit unterschiedlichem Status und Statistiken -screenshot][img1]
 
@@ -92,11 +92,24 @@ Alle erforderlichen Einstellungen müssen gültig sein, bevor der Flow ausgefüh
 
 Sie können keinen laufenden Flow löschen. Pausieren Sie zuerst den Flow, damit sich der Status zu **Pausiert** ändert. Beenden Sie dann den Flow, damit sich der Status zu **Wird nicht ausgeführt** ändert. Danach klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabenmenü"></i> und wählen **Flow löschen**.
 
+### Limit für aktive Flows erreicht (CRM Suite)
+
+Beim **Plus**-Plan kann Ihre Organisation maximal 10 aktive Flows gleichzeitig haben. Sowohl laufende als auch angehaltene Flows werden auf dieses Limit angerechnet.
+
+Wenn das Limit erreicht ist:
+
+* Der Umschalter **Wird ausgeführt** ist für Flows, die nicht laufen, nicht verfügbar.
+* Die Kopfzeile des Flow zeigt die aktuelle Anzahl, zum Beispiel *10 von 10 aktive Flows*.
+* Wenn Sie mit der Maus über den nicht verfügbaren Umschalter fahren, wird Folgendes angezeigt: *Sie haben das Limit von 10 laufenden Flows für den Plus-Plan erreicht. Bitte stoppen Sie einige laufende Flows, bevor Sie andere starten, oder upgraden Sie auf den Super-Plan.*
+
+Um Kapazität freizugeben, beenden Sie einige Flows, damit ihr Status zu **Wird nicht ausgeführt** wechselt. Wenn Sie mehr aktive Flows benötigen, upgraden Sie auf den **Super**-Plan. Siehe [Plangrenzen][2].
+
 ## Verwandte Inhalte
 
 * [Flow aktualisieren][1]
 
 <!-- Referenced links -->
+[2]: ../../../admin/license/crm-suite.md
 [1]: update.md
 
 <!-- Referenced images -->

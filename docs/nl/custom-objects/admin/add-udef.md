@@ -4,8 +4,8 @@ title: Door gebruiker gedefinieerd veld toevoegen
 description: Door gebruiker gedefinieerd veld toevoegen
 keywords: udef, door gebruikers gedefinieerd, aangepast veld
 author: Bergfrid Dias
-date: 09.06.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,7 +38,7 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 1. Als u klaar bent, klik op **Opslaan**. Het dialoogvenster sluit en het nieuwe veld wordt weergegeven in de lijst **Velden** en in het raster.
 
-1. [Optioneel, pas de positie van het veld aan][3]. Dit vereist een licentie voor Development Tools!
+1. [Optioneel, pas de positie van het veld aan][3]. Dit vereist een licentie voor Development Tools of het Core-plan.
 
 1. Ga door met het toevoegen van velden. Klik op **Publiceren** als u klaar bent om het veld beschikbaar te maken voor SuperOffice-gebruikers. Niet-gepubliceerde velden  en velden met niet-gepubliceerde wijzigingen worden vet weergegeven in de lijst **Velden**.
 

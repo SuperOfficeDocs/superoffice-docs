@@ -4,18 +4,18 @@ title: Extrafält
 description: Extrafält
 keywords: extrafält, anpassead fält, Service
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: sv
 ---
 
 # Extrafält
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Ett *extrafält* är ett anpassat fält som du lägger till i en befintlig SuperOffice-databastabell. Du kan utvidga följande enheter:
 

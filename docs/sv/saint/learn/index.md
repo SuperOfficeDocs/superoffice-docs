@@ -4,8 +4,8 @@ title: Sales Intelligence (SAINT)
 description: I den här guiden lär du dig hur SAINT kan utveckla dina försäljnings- och kundprocesser, samt förbättra arbetsflöden.
 keywords: SAINT
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -21,7 +21,7 @@ redirect_from:
 
 Att vara proaktiv innebär att man kontrollerar en förväntad situation innan den uppstår. Med SuperOffice Sales Intelligence (SAINT) får du möjlighet att följa upp dina kunder vid rätt tidpunkt och ta kontroll över alla möjliga scenarier. SAINT är utformat för att övervaka din databas och hjälpa dig att vara proaktiv och förutse händelser som kan påverka ditt företag.
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Vad SAINT är och vad det kan göra
 
@@ -36,7 +36,7 @@ Dessa frågor är utgångspunkten för beslutet att vidta åtgärder. Genom att 
 
 ## Status
 
-Om du har köpt licens till SAINT ("SAles INTelligence") kan du ange kriterier för statusövervakning av företag, kontakter och projekt i Inställningar och underhåll. Status som genereras efter sådana kriterier kan visualiseras som en bild på företags-. kontakt- eller projektkortet. Du kan till exempel visa en bild med en varningstriangel för en kund som har krävt många säljmöten men inte genererat någon försäljning, eller ett spindelnät för en kund som inte har kontaktats på över tre månader. På så sätt får du en tydlig och omedelbar indikation av vissa statuslägen, vilket till exempel en säljare kan ha stor nytta av.
+Du kan ange kriterier för statusövervakning av företag, kontakter och projekt i Inställningar och underhåll. Status som genereras efter sådana kriterier kan visualiseras som en bild på företags-. kontakt- eller projektkortet. Du kan till exempel visa en bild med en varningstriangel för en kund som har krävt många säljmöten men inte genererat någon försäljning, eller ett spindelnät för en kund som inte har kontaktats på över tre månader. På så sätt får du en tydlig och omedelbar indikation av vissa statuslägen, vilket till exempel en säljare kan ha stor nytta av.
 
 ## Ett enkelt exempel
 

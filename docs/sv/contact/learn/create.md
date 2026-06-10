@@ -4,8 +4,8 @@ title: Skapa en ny kontakt
 description: Så skapar du en kontakt i SuperOffice.
 keywords: skapa kontakt, lägga till kontakt, kontaktkort, kontakt
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -47,7 +47,7 @@ Du kan lägga till en kontakt i SuperOffice CRM på flera olika sätt:
 
     * Ange viktiga detaljer såsom **Befattning**, **Födelsedatum** och **Supportspråk**.
     * Lägg till kontaktens specifika kommunikationsuppgifter: **Webbsida**, **Chatt** och **Internet-tel.** (exempelvis Skype eller Microsoft Teams).
-    * Om tillämpligt, ange **Supportprioritet** och välj en **Vår supportansvarige** (kräver en SuperOffice Service- eller Kundcenter-licens).
+    * Om tillämpligt, ange **Supportprioritet** och välj en **Vår supportansvarige** (kräver en **Service Premium**-licens, en **CEP**-licens eller **Growth**-planen).
 
     ![Fliken Detaljer på kontaktkortet med ytterligare fält. -screenshot][img2]
 
@@ -123,7 +123,7 @@ Följande fält finns på kontaktkortet. Vissa fält fylls i automatiskt, medan 
 * **Internet-tel.**: Lägg till en VOIP-adress, exempelvis Skype eller en annan internetbaserad telefonitjänst.
 * **Direktfax**: Ange kontaktens faxnummer.
 
-**Fält för Service-funktioner** *(kräver SuperOffice Service eller Kundcenter-licens)*
+**Fält för Service-funktioner** *(kräver en **Service Premium**-licens, en **CEP**-licens eller **Growth**-planen)*
 
 * **Supportspråk**: Välj kontaktens föredragna språk för alla svarsmallar.
 * **Supportprioritet**: Ange prioritet för nya serviceärenden (till exempel Låg, Medel, Hög eller anpassad). Standardvärdet hämtas från företaget om inget anges.

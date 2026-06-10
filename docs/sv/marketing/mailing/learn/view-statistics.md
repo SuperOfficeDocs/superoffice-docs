@@ -4,8 +4,8 @@ title: Visa statistik för utskick
 description: Visa statistik för utskick
 keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: mailing
@@ -72,7 +72,7 @@ När ditt utskick är klart kan du se hur vilket resultat ditt utskick gav på f
 * **Hantera studsar**: En översikt över alla returnerade e-postmeddelanden. Använd åtgärderna för att [rensa dina returnerade e-postadresser][1], antingen genom att ställa in kontakterna som tidigare anställd eller ta bort e-postadresserna .
 
 > [!NOTE]
-> Flikarna **Rapporter** och **Spårade länkar** kräver användarlicensen Marknadsföring. En del flikar finns inte tillgängliga för SMS-utskick och dokumentutskick.
+> Flikarna **Rapporter** och **Spårade länkar** kräver en **Marketing Essentials**-licens eller **Growth**-planen. En del flikar finns inte tillgängliga för SMS-utskick och dokumentutskick.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

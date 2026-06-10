@@ -4,8 +4,8 @@ title: Activiteitsmonitoring bijwerken
 description: Activiteitsmonitoring bijwerken
 keywords: SAINT, activiteitsmonitoring, standaard vervolgactiviteit, statusmonitoring verwijderen, statusmonitoring herstellen, criteria
 author: SuperOffice Product and Engineering
-date: 09.22.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Instellingen en onderhoud
@@ -25,7 +25,7 @@ redirect_from:
 
 # Activiteitsmonitoring bijwerken
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Open het SAINT-scherm
 

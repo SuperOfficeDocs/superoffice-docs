@@ -4,8 +4,8 @@ title: Neue Aktivitätsüberwachung einrichten
 description: Neue Aktivitätsüberwachung einrichten
 keywords: SAINT, Aktivitätsüberwachung, Statusüberwachung
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -21,7 +21,7 @@ redirect_from:
 
 # Neue Aktivitätsüberwachung einrichten
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Mit der Statusüberwachung sehen Sie auf einen Blick alle Kunden, die Aufmerksamkeit benötigen.
 

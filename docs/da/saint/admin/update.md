@@ -4,8 +4,8 @@ title: Opdater aktivitetsovervågning
 description: Opdater aktivitetsovervågning
 keywords: SAINT, aktivitetsovervågning, standardopfølgningstype, slet statusovervågning, gendan statusovervågning, kriterier, regenerer statusovervågning, regenerer tæller
 author: SuperOffice Product and Engineering
-date: 09.22.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
@@ -27,7 +27,7 @@ redirect_from:
 
 # Opdater aktivitetsovervågning
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Åbn SAINT-skærmbilledet
 

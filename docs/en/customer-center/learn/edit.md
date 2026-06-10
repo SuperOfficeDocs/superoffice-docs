@@ -3,7 +3,7 @@ uid: help-en-customer-center-edit
 title: Customer centre source files
 description: Customer centre source files
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: Customer Center, CEP
 content_type: howto
 tier: growth
@@ -14,7 +14,7 @@ language: en
 
 You can update the default pages in your customer centre by editing the source files.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Select <i class="ph ph-list" aria-label="Main menu"></i> **System settings** > **Customer centre source files**.
 

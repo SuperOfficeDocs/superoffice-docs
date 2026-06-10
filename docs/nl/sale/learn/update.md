@@ -3,12 +3,12 @@ uid: help-nl-sale-update
 title: Een verkoop bijwerken
 description: Hoe u bestaande verkoopinformatie kunt bijwerken, de fase kunt wijzigen (inclusief markeren als vastgelopen, verkocht of verloren), of een verkoop kunt verwijderen als deze niet langer relevant is.
 keywords: verkoop bijwerken, verkoop bewerken, verkoop verwijderen, vastgelopen, verloren, verkocht, verkoop
-author: Bergfrid Dias
-date: 01.13.2026
-version: 11.8
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl

@@ -4,11 +4,11 @@ title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, service
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
@@ -99,6 +99,9 @@ Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i
 Fanen **Detaljer** inneholder en oversikt over alle feltene for saken.
 
 ### <a id="log"></a>Endringslogg
+
+> [!NOTE]
+> Endringslogg krever en **Service Premium**-lisens eller **Growth**-planen.
 
 Dette bildet viser loggen for denne saken. Alle hendelser registreres, inkludert når de oppstod, hva som skjedde, og hvem som var ansvarlig.
 

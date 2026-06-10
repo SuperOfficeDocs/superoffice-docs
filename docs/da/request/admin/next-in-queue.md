@@ -3,13 +3,14 @@ uid: help-da-request-next-in-queue
 title: Hent næste sag i køen
 description: Hent næste sag i køen
 keywords: hent næste sag i køen, sag
-author: Hanne Gunnarsson
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+license: servicepremium
+tier: growth
 language: da
 redirect_from: /da/request/learn/next-in-queue
 index: true

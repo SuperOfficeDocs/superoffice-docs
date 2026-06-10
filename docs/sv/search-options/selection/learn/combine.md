@@ -3,18 +3,20 @@ uid: help-sv-selection-combine
 title: Skapa kombinationsurval
 description: I den här guiden lär du dig hur du skapar ett kombinerat urval.
 keywords: kombinera urval, kombinationsurval, urval
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: starter
+tier: growth
 language: sv
 redirect_from: /sv/search-options/selection/learn/create/combine
 ---
 
 # Skapa kombinationsurval
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 De två urvalen som kombineras kan vara statiska eller dynamiska. Det finns vissa emellertid begränsningar för vad som kan kombineras:
 

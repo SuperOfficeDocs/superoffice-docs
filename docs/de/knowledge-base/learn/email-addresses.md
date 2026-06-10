@@ -4,8 +4,8 @@ title: Mit E-Mail-Adressen arbeiten
 description: Mit E-Mail-Adressen arbeiten
 keywords: Wissensdatenbank
 author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
@@ -24,8 +24,7 @@ redirect_from:
 
 Sie können eine Liste mit E-Mail-Adressen erstellen, die Sie häufig verwenden, die aber für Benutzer oder Personen in SuperOffice Service nicht erfasst wurden. Zum Beispiel Lieferanten, Partnern oder Produktspezialisten. Diese Adressen sind in den meisten Situationen verfügbar, in denen Sie eine E-Mail senden müssen, zum Beispiel in den Ansichten **Neue Anfrage** und **Mitteilung hinzufügen**.
 
-> [!NOTE]
-> Diese Funktion erfordert den Benutzerplan Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Liste der E-Mail-Adressen
 

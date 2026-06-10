@@ -3,12 +3,12 @@ uid: help-no-request-status-delete
 title: Slette saksstatus
 description: Slette saksstatus
 keywords: slett saksstatus, overfør saksstatus til, saksstatus, sak, status
-author: Hanne Gunnarsson
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no

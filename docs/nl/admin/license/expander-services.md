@@ -4,8 +4,8 @@ title: Expander Services
 description: Expander Services
 keywords: expander services, licentie, ontwikkeltools
 author: digitaldiina
-date: 22.10.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: customization
 deployment: online
@@ -17,7 +17,7 @@ language: nl
 
 # Expander Services
 
-Je kunt SuperOffice aanpassen aan je bedrijfsmodel en -behoeften via de opties in de module **Instellingen en onderhoud**.
+Je kunt SuperOffice aanpassen aan je bedrijfsmodel en -behoeften via de opties in **Instellingen en onderhoud**.
 
 Maar soms heb je meer nodig dan wat standaard wordt meegeleverd. Voor die situaties bieden we Expander Services: een reeks tools en add-ons waarmee je eenmalige aanpassingen aan je SuperOffice CRM-oplossing kunt maken.
 
@@ -43,11 +43,13 @@ Ontwikkelproducten zijn **zelfstandige producten** die klanten helpen SuperOffic
 
 ## <a id="tools"></a>Ontwikkeltools
 
-Ontwikkeltools is een **sitebrede licentie** waarmee klanten en partners SuperOffice CRM kunnen uitbreiden, optimaliseren, configureren en automatiseren. Het is een **abonnementsgebaseerde** dienst beschikbaar voor alle SuperOffice CRM-klanten, zowel in de cloud als on-premises.
+Development Tools is een **sitebrede licentie** waarmee klanten en partners SuperOffice CRM kunnen uitbreiden, optimaliseren, configureren en automatiseren. Het is beschikbaar als **abonnement** voor alle SuperOffice CRM-klanten, zowel in de cloud als on-premises. In **CRM Suite** is Development Tools inbegrepen in het **Core-plan** en hoger — geen apart abonnement vereist.
+
+Applicatieontwikkelaars kunnen toegang krijgen tot een ontwikkel- en testomgeving door [zich te registreren in de Developer Portal][13].
 
 ### Belangrijkste mogelijkheden
 
-Met Ontwikkeltools kun je:
+Met Development Tools kun je:
 
 * Workflows en automatiseringen aanpassen via:
   * [CRMScript][2]: een flexibele scripttaal ingebouwd in SuperOffice.
@@ -64,45 +66,6 @@ Met Ontwikkeltools kun je:
 Deze tools zijn toegankelijk vanuit de client **Instellingen en onderhoud** en vereisen weinig tot matige technische kennis. Daarnaast kun je met de goed gedocumenteerde API's je eigen integraties en applicaties bouwen en testen in een sandbox-tenant.
 
 Alle aanpassingen die je met deze tools maakt, worden automatisch uitgerold en onderhouden binnen het platform — zo zijn je aanpassingen **robuust**, **duurzaam** en **toekomstbestendig**.
-
-### Hoe werkt Development Tools?
-
-Wanneer je je abonneert op Development Tools, worden er extra opties beschikbaar in de module **Instellingen en onderhoud**.
-
-De licentie wordt toegevoegd aan je [tenant][19] via het SuperOffice Operation Center en wordt maandelijks aan de klant gefactureerd.
-
-Je kunt Development Tools blijven gebruiken zo vaak als je wilt, totdat je het abonnement opzegt. Je kunt zoveel aanpassingen toevoegen als je wilt zonder dat dit invloed heeft op de abonnementsprijs.
-
-Geen enkele [aangepaste applicatie][16] wordt beschikbaar gemaakt in je SuperOffice CRM Online-oplossing tenzij er een abonnement actief is. Als de klant zijn abonnement opzegt, wordt de applicatie gedeactiveerd/niet beschikbaar.
-
-> [!NOTE]
-> API-gebruik (met gemeten kosten) wordt geactiveerd door het gebruik van sommige van deze tools.
-
-### Wanneer moet je Development Tools aanschaffen?
-
-Als je toegang nodig hebt tot de SuperOffice APIs of tot geavanceerde uitbreidingsmogelijkheden, moet je waarschijnlijk een abonnement nemen op Development Tools. De prijzen staan vermeld op [SuperOffice.com][20].
-
-| Scenario/omgeving | Online | On-premise |
-|---|---|---|
-| Gebruik aanpassingstools in Instellingen en onderhoud | nee | nee |
-| Publiceer standaardapplicatie | nee (ingebouwd) | ja |
-| Activeer aangepaste applicatie | ja | ja |
-
-Je bent vrij om je oplossing aan te passen via **Instellingen en onderhoud** met bijvoorbeeld je eigen lijstdefinities, privacyinstellingen, sjablonen, verkoop- en projectgidsen en gebruikersgedefinieerde velden.
-
-Verder heb je *geen* Development Tools-licentie nodig als je bedrijf SuperOffice CRM in de cloud draait en je gebruik wilt maken van de [standaardapplicaties][17] die beschikbaar zijn in de [SuperOffice App Store][21].
-
-Draait je bedrijf echter SuperOffice CRM on-premise, dan heb je *altijd* een Development Tools-licentie nodig om integraties of aanpassingen toe te voegen aan je oplossing, of deze nu specifiek voor jou zijn gemaakt of standaard add-ons zijn.
-
-Hetzelfde geldt voor alle [aangepaste SuperOffice CRM Online-applicaties][16]. Je kunt ze zelf bouwen of [rechtstreeks contact opnemen met leveranciers][24] om te kijken welke opties er zijn om een aangepaste versie van deze applicaties voor jouw bedrijf te laten maken. De leveranciers kunnen je vertellen of een applicatie beschikbaar is voor jouw omgeving als je SuperOffice CRM on-premise draait.
-
-### Hoe krijg ik toegang tot Development Tools?
-
-Applicatieontwikkelaars krijgen toegang tot Development Tools [door zich te registreren][13]. Klanten kunnen contact opnemen met hun lokale SuperOffice-partner of vertegenwoordiger om advies op maat te krijgen voor hun specifieke bedrijfsbehoeften.
-
-Welke van deze aanpassingstools je gebruikt, hangt af van je vereisten, de vaardigheden die je hebt om ze te gebruiken en je bereidheid om te betalen voor expertise.
-
-### Wat zit er in Development Tools?
 
 #### CRMScript: Pas uw workflows en automatiseringen aan
 
@@ -123,6 +86,7 @@ Sommige van de standaardtabellen zijn flexibel: u kunt definiëren welk type geg
 Als u meer tabellen nodig heeft, kunt u extra tabellen aan de database toevoegen wanneer u zich abonneert op Development Tools.
 
 * Gebruikers met een SuperOffice Service [gebruikersplan][1] hebben volledige toegang tot deze tabellen en kunnen gegevens bekijken, bewerken, zoeken en opnemen in gegevensrapporten.
+
 * Gebruikers met een Standard-, Sales- of Marketing-gebruikersplan hebben toegang tot extra tabellen via webpanelen (extra tabbladen). Deze gebruikers kunnen alleen informatie bekijken en bewerken. Ze kunnen geen extra tabellen doorzoeken (of selecties definiëren), en de gegevens kunnen niet worden opgenomen in dashboards.
 
 Het toevoegen van extra tabellen vereist technische kennis. Meestal worden extra tabellen gebruikt in combinatie met aangepaste schermen.
@@ -141,7 +105,7 @@ U heeft aanzienlijke technische kennis nodig om aangepaste schermen te maken.
 
 #### SuperOffice API's: Maak eenmalige aanpassingen
 
-Tot slot krijgt u ook toegang tot alle beschikbare SuperOffice API's:
+Met Development Tools krijgt u ook toegang tot alle beschikbare SuperOffice API's:
 
 * REST- en SOAP-webservices
 * WebHooks
@@ -152,7 +116,7 @@ De API's zijn gebundeld als [NuGet-pakketten][22]. SuperOffice Docs biedt SDK AP
 
 Softwarepartners van SuperOffice gebruiken de SDK doorgaans bij het ontwikkelen van standaardapplicaties en integraties die zij aanbieden als producten in de SuperOffice App Store.
 
-### Waarvoor kunnen Development Tools worden gebruikt?
+### Waarvoor kan Development Tools worden gebruikt?
 
 * U kunt aanpassen hoe gebruikers met SuperOffice CRM werken, in termen van wat ze kunnen zien of doen.
 * U kunt SuperOffice Service aanpassen door extra tabellen en schermen toe te voegen of nieuwe scripts en macro's te maken.
@@ -161,6 +125,50 @@ Softwarepartners van SuperOffice gebruiken de SDK doorgaans bij het ontwikkelen 
 * U kunt integraties toevoegen met andere bedrijfsapplicaties die niet beschikbaar zijn als standaardmodule of -applicatie in de SuperOffice App Store.
 
 Naarmate uw behoeften groeien, kunnen ook de mogelijkheden van uw CRM-oplossing worden uitgebreid.
+
+<!-- markdownlint-disable-file MD051 -->
+### Wanneer moet je Development Tools aanschaffen?
+
+#### [Abonnementen op modulebasis](#tab/module-based)
+
+Als je toegang nodig hebt tot de SuperOffice APIs of tot geavanceerde uitbreidingsmogelijkheden, moet je waarschijnlijk een abonnement nemen op Development Tools. De prijzen staan vermeld op [SuperOffice.com][20].
+
+| Scenario/omgeving | Online | On-premise |
+|----------------|--------|------------|
+| Gebruik aanpassingstools in Instellingen en onderhoud | nee | nee |
+| Publiceer standaardapplicatie | nee (ingebouwd) | ja |
+| Activeer aangepaste applicatie | ja | ja |
+
+Je bent vrij om je oplossing aan te passen via **Instellingen en onderhoud** met bijvoorbeeld je eigen lijstdefinities, privacyinstellingen, sjablonen, verkoop- en projectgidsen en gebruikersgedefinieerde velden.
+
+Verder heb je *geen* Development Tools-licentie nodig als je bedrijf SuperOffice CRM in de cloud draait en je gebruik wilt maken van de [standaardapplicaties][17] die beschikbaar zijn in de [SuperOffice App Store][21].
+
+Draait je bedrijf echter SuperOffice CRM on-premise, dan heb je *altijd* Development Tools nodig om integraties of aanpassingen toe te voegen aan je oplossing, of deze nu specifiek voor jou zijn gemaakt of standaard add-ons zijn.
+
+Hetzelfde geldt voor alle [aangepaste SuperOffice CRM Online-applicaties][16]. Je kunt ze zelf bouwen of [rechtstreeks contact opnemen met leveranciers][24] om te kijken welke opties er zijn om een aangepaste versie van deze applicaties voor jouw bedrijf te laten maken. De leveranciers kunnen je vertellen of een applicatie beschikbaar is voor jouw omgeving als je SuperOffice CRM on-premise draait.
+
+Klanten kunnen contact opnemen met hun lokale SuperOffice-partner of vertegenwoordiger om advies op maat te krijgen voor hun specifieke bedrijfsbehoeften.
+
+**Zo werkt het:**
+
+* Wanneer je je abonneert op Development Tools, worden er extra opties beschikbaar in **Instellingen en onderhoud**.
+
+* De licentie wordt toegevoegd aan je [tenant][19] via het SuperOffice Operation Center en wordt maandelijks aan de klant gefactureerd.
+
+* Je kunt Development Tools blijven gebruiken zo vaak als je wilt, totdat je het abonnement opzegt. Je kunt zoveel aanpassingen toevoegen als je wilt zonder dat dit invloed heeft op de abonnementsprijs.
+
+* Geen enkele [aangepaste applicatie][16] wordt beschikbaar gemaakt in je SuperOffice CRM Online-oplossing tenzij er een abonnement actief is. Als de klant zijn abonnement opzegt, wordt de applicatie gedeactiveerd/niet beschikbaar.
+
+> [!NOTE]
+> API-gebruik (met gemeten kosten) wordt geactiveerd door het gebruik van sommige van deze tools.
+
+#### [CRM Suite](#tab/suite)
+
+Development Tools is inbegrepen in het **Core-plan**. Er is geen apart abonnement of activering vereist — de functies zijn als onderdeel van uw plan beschikbaar in **Instellingen en onderhoud**.
+
+***
+
+Welke van deze aanpassingstools je gebruikt, hangt af van je vereisten, de vaardigheden die je hebt om ze te gebruiken en je bereidheid om te betalen voor expertise.
 
 <!-- Referenced links -->
 [1]: user-plans.md
@@ -172,10 +180,12 @@ Naarmate uw behoeften groeien, kunnen ook de mogelijkheden van uw CRM-oplossing 
 [7]: ../../../en/online/sandbox/index.md
 [8]: ../../../en/online/identity/scim/index.yml
 [9]: ../../../en/online/mirroring/index.yml
+
 [13]: ../../../en/developer-portal/getting-started/get-access-to-sod.md
 [16]: ../../../en/developer-portal/custom-app/index.md
 [17]: ../../../en/developer-portal/standard-app/index.md
 [19]: ../../../en/developer-portal/getting-started/index.md#tenant
+
 [20]: https://www.superoffice.com/pricing/
 [21]: https://online.superoffice.com/appstore/
 [22]: https://www.nuget.org/profiles/SuperOffice

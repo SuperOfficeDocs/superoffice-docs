@@ -4,11 +4,11 @@ title: Tilldela layout till grupp, typ eller mall
 description: Hur du tilldelar en layout till en grupp, säljtyp, projekttyp eller ärendetyp med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: skärmlayout, tilldela layout, layout
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /sv/customization/screen-designer/assign-layout
 
 # Tilldela layout till grupp, typ eller mall
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 ## Steg
 

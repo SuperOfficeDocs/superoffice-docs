@@ -4,11 +4,11 @@ title: Schaltfläche oder Link hinzufügen
 description: So fügen Sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung eine Schaltfläche oder einen Link zu einem Layout hinzu.
 keywords: Schaltfläche hinzufügen, neue Schaltfläche, Link hinzufügen, neuer Link, Beschriftung
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /de/customization/screen-designer/add-button
 
 # Schaltfläche oder Link hinzufügen
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 Benutzerdefinierte Schaltflächen und Links werden im **Vorschau**-Bereich hinzugefügt, wenn Sie ein Layout bearbeiten. Die URL wird verwendet, um eine Webseite im aktuellen oder neuer Registerkarte zu öffnen, ein CRMScript von der Ansicht auszuführen oder mit [SoProtocol][3] zu anderen Teilen von SuperOffice zu navigieren.
 

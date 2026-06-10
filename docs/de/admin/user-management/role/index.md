@@ -4,16 +4,16 @@ title: Rolle
 description: Rolle
 keywords: Rolle, Datenobjekt, Benutzerebene
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /de/admin/user-management/learn/role/index
 tier: starter
+redirect_from: /de/admin/user-management/learn/role/index
 language: de
 ---
 
@@ -59,6 +59,8 @@ Administratoren haben Zugriff auf den Abschnitt Einstellungen und Verwaltung. Hi
 Wenn Sie nicht möchten, dass Benutzer Zugriff auf Einstellungen und Verwaltung haben, weisen Sie ihnen je nach dem benötigten Zugriff die Benutzerebene 1 oder höher zu.
 
 ## Ihre Rollen verwalten
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Im Bereich Rollen können Sie den [Zugriffstyp festlegen][3], die Ihre Benutzer auf die verschiedenen Teile von SuperOffice CRM haben. Sie können auch jede Benutzerebene anpassen, indem Sie die Datenrechte und/oder die verschiedenen [Funktionsrechte][6] ändern.
 

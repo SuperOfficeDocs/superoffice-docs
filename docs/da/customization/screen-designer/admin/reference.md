@@ -4,11 +4,11 @@ title: Reference
 description: Reference over elementer, der er tilgængelige i Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: Skærmdesigner-felter, standardfelt, standardfane
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: reference
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization

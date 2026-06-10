@@ -4,8 +4,8 @@ title: FAQ-Einträge erstellen
 description: FAQ-Einträge erstellen
 keywords: FAQ
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: faq
@@ -27,7 +27,7 @@ Durch die Erstellung von FAQ-Einträgen kann Ihre Firma eine umfassende Sammlung
 
 ## Anforderungen
 
-* Sie benötigen eine Lizenz für Service Premium oder die Customer Engagement-Plattform, um die Wissensdatenbank nutzen zu können.
+* Sie benötigen eine **Service Premium**-Lizenz, das **Customer Engagement Platform (CEP)**-Add-on oder den **Growth**-Plan, um die Wissensdatenbank nutzen zu können.
 * Wenn Sie diese Funktion nicht sehen, müssen Sie die *Wissensdatenbank* als funktionales Recht hinzufügen, um FAQs zu erstellen.
 
 ## FAQ-Einträge von einer Anfrage erstellen

@@ -4,20 +4,22 @@ title: Rol maken
 description: Rol maken
 keywords: rol, gebruikersbeheer
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /nl/admin/user-management/learn/role/create-role
 tier: starter
+redirect_from: /nl/admin/user-management/learn/role/create-role
 language: nl
 ---
 
 # Een rol maken
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 > [!NOTE]
 > Er is slechts een enkele rol voor anonieme gebruikers en u kunt geen nieuwe rol maken.

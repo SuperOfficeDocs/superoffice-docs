@@ -3,9 +3,9 @@ uid: help-no-erp-add-connection
 title: Legge til Sync Connector og ERP-kobling
 description: Lær hvordan du installerer en sync-app, legger til en Sync Connector og oppretter ERP-koblinger for å aktivere synkronisering mellom SuperOffice CRM og et ERP-system.
 keywords: sette opp ERP-synk, legge til Sync Connector, ERP-kobling, test ERP-kobling, ERP-forbindelse, connector, synk, ERP
-author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth
@@ -20,7 +20,7 @@ index: true
 
 # Legge til Sync Connector og ERP-kobling
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 For å kunne synkronisere data mellom SuperOffice CRM og et ERP-system, må du først installere en sync-app. Deretter konfigurerer du en Sync Connector og én eller flere ERP-koblinger i Innstillinger og vedlikehold.
 

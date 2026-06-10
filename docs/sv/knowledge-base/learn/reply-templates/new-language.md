@@ -3,14 +3,14 @@ uid: help-sv-reply-template-language
 title: Skapa ny språkversion av svarsmall
 description: Skapa ny språkversion av svarsmall
 keywords: översätt svarsmall, ny språkversion, svarsmall
-author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

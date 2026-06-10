@@ -4,8 +4,8 @@ title: Work with leads in SuperOffice
 description: Learn how to view, update, and follow up leads in SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead
@@ -76,7 +76,7 @@ In the **Find** screen, add criteria such as:
 
     Use this to answer questions such as "List all my potential customers" or "List all my customers" (instead of adding multiple individual categories as criteria).
 
-* **Company** > **Lead** or **Contact** > **Lead** based on [UTM data][5] (requires Marketing Premium).
+* **Company** > **Lead** or **Contact** > **Lead** based on [UTM data][5] (requires a **Marketing Premium** license or the **Plus** plan).
 
 ![Filtering contacts by Lead status and Category group in the Find Contact criteria panel. -screenshot][img3]
 

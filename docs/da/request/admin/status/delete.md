@@ -3,12 +3,12 @@ uid: help-da-request-status-delete
 title: Slet sagsstatus
 description: Lær, hvordan du sletter en sagsstatus i Indstillinger og vedligeholdelse.
 keywords: sagsstatus, status, slet sagsstatus
-author: Hanne Gunnarsson
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

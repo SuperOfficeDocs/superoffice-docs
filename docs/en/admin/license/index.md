@@ -1,11 +1,11 @@
 ---
 uid: help-en-licenses
 title: CRM and licences
-description: CRM and licences
+description: CRM and licenses
 keywords: license, licence, user plan, metered service, database owner, status tab
 author: digitaldiina, xt1
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -21,21 +21,32 @@ redirect_from:
 language: en
 ---
 
-# SuperOffice and licences
+# SuperOffice and licenses
 
-To log in to SuperOffice CRM from a web client, you need login rights to SuperOffice CRM and an Essential or a Premium user plan.
+To log in to SuperOffice CRM from a browser, you need login rights to SuperOffice CRM and a user license.
 
-## View licence information
+## View license information
 
 1. In Settings and maintenance, go to the Licences screen.
 1. Select the **SuperOffice** tab.
-1. The list shows the licences you have [purchased and activated][1]. Click a licence name to view more information about it.
+1. The list shows the licenses your organization has [purchased and activated][1]. Click a license name to view more information about it.
 
 ## The Licences screen
 
 ### The SuperOffice tab
 
-In the **SuperOffice** tab in the Licences screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
+The **SuperOffice** tab shows licence information for your SuperOffice subscription.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Module-based subscriptions](#tab/module-based)
+
+![SuperOffice tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SuperOffice tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > If a third-party add-on is installed, several tabs are displayed here.
@@ -46,17 +57,50 @@ At the top is the company name (your company/organization) and serial number. If
 
 #### License list
 
-The list at the bottom shows which licenses are in use and how many are available. Click a license name to view information about a license.
+The list at the bottom shows which licenses are in use and how many are available.
 
 ### The Status tab
 
-Updated information about the system is displayed in the **Status** tab in the Licences screen. The **Status** screen is divided into the following main sections:
+Updated information about the system is displayed in the **Status** tab in the Licences screen.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Module-based subscriptions](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+The **Status** screen is divided into the following sections:
 
 #### Database
 
-Shows the database owner, serial number, and type, which are specified on installation. It also shows if it is a central database or a satellite database. You can see the next expiry date and the name of the user currently logged in.
+Shows the database owner, serial number, subscription, and type, which are specified on installation. You can see the next expiry date and the name of the user currently logged in.
+
+If your organization is on a **SuperOffice CRM Suite** subscription, the **Database** section also shows:
+
+* **Plan:** the plan included in your subscription, for example, *Core*
+* **Restrictions:** your current usage against one or more plan limits, for example, *1 of 100 active projects*
+
+Plan limits prevent your organization from exceeding the capacity included in your current plan. The **Restrictions** indicator reflects how close you are to a limit:
+
+| Usage | Indicator | Meaning |
+|---|---|---|
+| Below 85% | Count shown in black, for example, *1 of 100 active projects* | Normal – no action needed |
+| 85% or more | <i class="ph ph-warning" aria-label="Warning"></i> Count shown in yellow | Approaching the limit |
+| 100% | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Count shown in red | Limit reached – the feature is restricted |
+
+Select the indicator to open the [SuperOffice CRM Suite][16] page for more information.
+
+If you are a system administrator, an **Upgrade** button appears next to the warning or stop indicator. Select it to open a contact form to request more capacity or a plan upgrade.
 
 #### Metered services
+
+> [!NOTE]
+> Available on module-based subscriptions only. On CRM Suite subscriptions, select **My Apps** to open the SuperOffice App Store.
 
 Click this button to open the dashboard for your metered services.
 
@@ -93,9 +137,9 @@ Under **System notifications** you will find the following columns:
 
 ## <a id="types"></a>License types
 
-### System licences
+### System licenses
 
-| Licence | Description |
+| License | Description |
 |---|---|
 | System | Specifies which systems you have access to. |
 | SuperOffice Server | Required to use SuperOffice CRM. |
@@ -106,10 +150,11 @@ Under **System notifications** you will find the following columns:
 | Customer Centre | Allows use of the Customer Centre. |
 | Sales Quote Management | Allows use of quotes. |
 
-### User licences (plans)
+### User licenses (plans)
 
-Finally, there are user licences for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
+Finally, there are user licenses for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
 
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -117,84 +162,29 @@ Finally, there are user licences for SuperOffice CRM, which are purchased for a 
 * Marketing-Essentials
 * Marketing-Premium
 
-### Site and User licences (Windows - End of Life)
-
-Licences for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][6]) are purchased for a specific number of users.
-
-## <a id="dev"></a>Behind the scenes - the license system
-
-The license system has its own set of database tables:
-
-* [ModuleOwner][11] – an issuer of licenses
-  * Initially only one row (SuperOffice).
-  * Contains global expiration dates.
-
-* [ModuleLicense][12] – one row per license
-  * More than you see, some licenses are hidden from the GUI.
-  * Several types: System, site, associate; on/off or a defined number of licenses.
-  * Visible licenses (like user plans) show in the Admin UI. User plans have `ExtraFlags = 1`.
-  * Hidden licenses (like the **user** log-in right, or the **web** web-client license) don't show in the UI but are
-    checked in the code to verify that a feature is available to a given user.
-
-| License type | ModuleLicense.Type | Description |
-|---|---|---|
-| **System licenses** | 1 | Define which features are available system-wide. <br />Example: The **saint** license is present if Sales Intelligence is enabled. This license is hidden (not on the price list) and implicitly activated. The SuperOffice client checks for it and enables SAINT features if present. |
-| **Site licenses** | 2 | Rarely used today. Historically used in satellite setups, where certain licenses were assigned to specific sites instead of being globally available. |
-| **User licenses** | 3 | Licenses assigned directly to users. The number of assigned users cannot exceed the number of available licenses. <br />Some user licenses may be hidden to simplify the UI. These are activated through user plans. <br />User plans have `ModuleLicense.ExtraFlags = 1` and define implied licenses via the `ExtraInfo` field, for example:<br>`"set=user,web,chat-cal"` assigns the **user**, **web**, and **chat-cal** licenses automatically. |
-
-### User-license assignment
-
-[LicenseAssocLink][13] – assigns one particular `moduleLicense` to a certain associate. That is how John becomes a User and a Windows client user; this would be 2 records.
-
-The sum of licenses assigned to any particular module is limited to the number in `moduleLicense`. A new license set from SuperLicense will not be accepted if more than the acquired number is already assigned.
-
-### License signing
-
-Licenses are signed using public/private keys.
-
-The private key is a closely guarded secret and without it, you cannot make a keycode generator.
-
-Individual `moduleLicense` rows are also signed and all rows are also hash-checked to make tampering harder.
-
-**Summary:** You touch them, they stop working. SoAdmin and NetServer can edit them, no one else.
-Hackers can hack the DLLs, but not make a keycode generator that works with un-hacked code.
-
-### Counting Users
-
-There are two approaches:
-
-#### 1: Get the license and read the number of user or web licenses
-
-Users must have both **user** and **web** to log in to the SuperOffice web application. This number is the upper bound. It does not tell you how many are in use.
-
-For some customers, the number of licenses is huge, because they are paying by use, using SCIM. To handle this, count the number of user licenses in use, rather than the total number of licenses available.
-
-#### 2: Get the license and sum the number of ExtraFlags=1 licenses in use
-
-User plans are what the user is paying for. They define multiple implied, hidden licenses.
-
-The same SCIM caveat applies: count the number of user plans in use, rather than the total number available.
-
 ## Related content
 
 * [SuperOffice user plans and subscriptions][4]
-* [Buy and activate licences][1]
-* [Licences in earlier versions of SuperOffice][7]
+* [Buy and activate licenses][1]
+* [Licenses in earlier versions of SuperOffice][7]
 * [System events][3]
 * [Module licenses][14]
 * [Hidden licenses][15]
+* [License technical overview][17]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/en/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
-[13]: ../../../en/database/tables/LicenseAssocLink.md
 [14]: dev/module-licenses.md
+[17]: dev/index.md
 [15]: dev/hidden-licenses.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

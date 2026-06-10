@@ -3,9 +3,9 @@ uid: help-nl-erp
 title: ERP
 description: ERP
 keywords: ERP-tabblad, ERP-systeem, ERP
-author: SuperOffice RnD
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: growth
@@ -23,7 +23,7 @@ Als uw organisatie een ERP-systeem gebruikt dat is gekoppeld aan SuperOffice CRM
 
 ## Het tabblad ERP
 
-Het **ERP-tabblad** verschijnt op de schermen **Bedrijf**, **Persoon** en **Project** als uw organisatie een licentie heeft voor [Development Tools][1].
+Het **ERP-tabblad** verschijnt op de schermen **Bedrijf**, **Persoon** en **Project** als uw organisatie een **Development Tools**-licentie of het **Growth**-plan heeft.
 
 Gebruik het **ERP-tabblad** om:
 

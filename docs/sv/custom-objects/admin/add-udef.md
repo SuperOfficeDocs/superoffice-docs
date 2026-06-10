@@ -4,8 +4,8 @@ title: Lägg till användardefinierat fält
 description: Lägg till användardefinierat fält
 keywords: udef, användardefinierade, anpassa fält
 author: Bergfrid Dias
-date: 09.06.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,7 +38,7 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 1. När du är klar, klicka på **Spara**. Dialogen stängs och det nya fältet visas i **Fält**-listan och i rutnätet.
 
-1. [Valfritt, justera positionen för fältet][3]. Detta kräver en licens för Development Tools!
+1. [Valfritt, justera positionen för fältet][3]. Detta kräver en licens för Development Tools eller Core-planen.
 
 1. Fortsätt att lägga till fält. Klicka på **Publicera** när du är klar för att göra fältet tillgängligt för SuperOffice-användare. Opublicerade fält och fält med opublicerade ändringar visas i fetstil i listan **Fält**.
 

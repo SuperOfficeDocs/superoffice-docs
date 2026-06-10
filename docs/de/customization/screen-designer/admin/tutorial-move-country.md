@@ -4,13 +4,13 @@ title: Tutorial - Land nach vorne verschieben
 description: In diesem Tutorial lernen Sie, wie Sie das Länderfeld auf einem Firmen- oder Personbildschirm verschieben.
 keywords: Landesfeld, Ansichtsdesigner
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: de
@@ -28,7 +28,7 @@ Am Ende sollte es etwa so aussehen:
 
 ![Firmenkarte -screenshot][img1]
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 ## Schritt 2: Öffnen Sie den Ansichtsdesigner
 

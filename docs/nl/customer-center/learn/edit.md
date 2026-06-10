@@ -4,7 +4,7 @@ title: Klantportaal-bronbestanden
 description: Klantportaal-bronbestanden
 keywords: Klantportaal, CEP
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: nl
@@ -14,7 +14,7 @@ language: nl
 
 U kunt de standaardpagina's in uw klantportaal bijwerken door de bronbestanden te bewerken.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Selecteer <i class="ph ph-list" aria-label="Main menu"></i> **Systeeminstellingen** > **Klantportaal-bronbestanden**.
 

@@ -3,12 +3,12 @@ uid: help-da-request-close
 title: Luk en sag
 description: Sådan lukker du en eller flere sager i SuperOffice.
 keywords: luk sag, indstil status lukket, lukket, masseopdatering, sag
-author: digitaldiina, kirstiaa
-date: 04.08.2026
-version: 11.12
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

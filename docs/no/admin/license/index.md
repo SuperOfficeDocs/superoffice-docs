@@ -2,10 +2,10 @@
 uid: help-no-licenses
 title: CRM og lisenser
 description: CRM og lisenser
-keywords: lisens, brukerplan, Windows, målt tjeneste, databaseeier, status-fane
+keywords: lisens, brukerplan, målt tjeneste, databaseeier, status-fane
 author: digitaldiina, xt1
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -22,19 +22,30 @@ redirect_from:
 
 # SuperOffice og lisenser
 
-For å logge på SuperOffice CRM fra en webklient trenger du påloggingsrettigheter til SuperOffice CRM og en Essential eller en Premium brukerplan
+For å logge på SuperOffice CRM fra en webklient trenger du påloggingsrettigheter til SuperOffice CRM og en Essential eller en Premium brukerplan.
 
 ## Vise lisensinformasjon
 
 1. Gå til skjermbildet Lisenser under Innstillinger og vedlikehold.
 1. Velg **SuperOffice**-fanen.
-1. Listen viser lisensene du har [kjøpt og aktivert.][1] Klikk et lisensnavn for å vise mer informasjon om den.
+1. Listen viser lisensene du har [kjøpt og aktivert][1]. Klikk på et lisensnavn for å vise mer informasjon om den.
 
 ## Lisenser-bildet
 
 ### SuperOffice-fanen
 
-I fanen **SuperOffice** i Lisenser-bildet kan du vise og oppdatere lisensinformasjonen for din versjon av SuperOffice CRM og tilhørende moduler.
+Fanen **SuperOffice** viser lisensinformasjon for ditt SuperOffice-abonnement.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserte abonnementer](#tab/module-based)
+
+![SuperOffice tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SuperOffice tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Hvis et tillegg fra tredjepart er installert, vises det flere faner her.
@@ -45,17 +56,50 @@ I fanen **SuperOffice** i Lisenser-bildet kan du vise og oppdatere lisensinforma
 
 #### Lisensliste
 
-Listen nederst viser hvilke lisenser som er i bruk, og hvor mange som er tilgjengelige. Klikk på et lisensnavn for å vise informasjon om den.
+Listen nederst viser hvilke lisenser som er i bruk, og hvor mange som er tilgjengelige.
 
 ### Fanen Status
 
-I **Status**-fanen i Lisenser-bildet finner du oppdatert informasjon om systemet. **Status**-bildet er inndelt i følgende hoveddeler:
+Oppdatert informasjon om systemet vises i fanen **Status** i Lisenser-bildet.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserte abonnementer](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+**Status**-bildet er inndelt i følgende hoveddeler:
 
 #### Database
 
-Her vises databasens eier, serienummer og type, som angis ved installering. Det viser også om det er en sentral database eller en satellittdatabase. Du kan se neste utløpsdato og navnet til pålogget bruker.
+Her vises databasens eier, serienummer, abonnement og type, som angis ved installering. Du kan se neste utløpsdato og navnet til pålogget bruker.
+
+Hvis organisasjonen din har et **SuperOffice CRM Suite**-abonnement, viser **Database**-delen også:
+
+* **Plan:** planen som inngår i abonnementet ditt, for eksempel *Core*
+* **Begrensninger:** gjeldende forbruk mot plangrensene dine, for eksempel *1 av 100 aktive prosjekter*
+
+Plangrenser hindrer organisasjonen din fra å overskride kapasiteten i gjeldende plan. Indikatoren **Begrensninger** viser hvor nær du er en grense:
+
+| Forbruk | Indikator | Betydning |
+|---|---|---|
+| Under 85 % | Antall vist i svart, for eksempel *1 av 100 aktive prosjekter* | Normal – ingen handling nødvendig |
+| 85 % eller mer | <i class="ph ph-warning" aria-label="Warning"></i> Antall vist i gult | Nærmer seg grensen |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antall vist i rødt | Grense nådd – funksjonen er begrenset |
+
+Velg indikatoren for å åpne siden [SuperOffice CRM Suite][16] for mer informasjon.
+
+Hvis du er systemadministrator, vises en **Oppgrader**-knapp ved siden av advarsel- eller stoppindikatoren. Velg den for å åpne et kontaktskjema for å be om mer kapasitet eller planoppgradering.
 
 #### Forbruk
+
+> [!NOTE]
+> Kun tilgjengelig med modulbaserte abonnementer. På CRM Suite-abonnementer åpner knappen **Mine apper** SuperOffice App Store.
 
 Klikk på denne knappen for å åpne dashbord for ditt forbruk.
 
@@ -119,6 +163,7 @@ Det finnes også såkalte sitelisenser. En *site* i SuperOffice-termer tilsvarer
 
 Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antall brukere. Dette gjelder blant annet følgende produkter:
 
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -126,77 +171,30 @@ Sist er det brukerlisenser for SuperOffice CRM, som kjøpes for et bestemt antal
 * Marketing-Essentials
 * Marketing-Premium
 
-## Sitelisenser og brukerlisenser (Windows – EOL)
-
-Lisenser for SuperOffice CRM for Windows (siste release [SuperOffice G8 8.5 R17][6]) kjøpes for et bestemt antall brukere.
-
-## <a id="dev"></a>Bak kulissene – lisenssystemet
-
-Lisenssystemet har egne sett med databasetabeller:
-
-* [ModuleOwner][11] – en utsteder av lisenser
-  * Vanligvis bare én rad (SuperOffice).
-  * Inneholder globale utløpsdatoer.
-
-* [ModuleLicense][12] – én rad per lisens
-  * Flere lisenser enn du ser – noen er skjult i GUI.
-  * Flere typer: System, sted, bruker; på/av eller med angitt antall.
-  * Synlige lisenser (som brukerplaner) vises i administrasjonsbildet. Brukerplaner har `ExtraFlags = 1`.
-  * Skjulte lisenser (som **user**-pålogging eller **web**-klientlisens) vises ikke i GUI, men sjekkes i koden for å verifisere at en funksjon er tilgjengelig for brukeren.
-
-| Lisens | ModuleLicense.Type | Beskrivelse |
-|---|---|---|
-| **Systemlisenser** | 1 | Definerer hvilke funksjoner som er tilgjengelige for hele systemet. <br />Eksempel: **saint**-lisensen finnes hvis Sales Intelligence er aktivert. Lisensen er skjult (ikke på prisliste) og aktiveres implisitt. SuperOffice-klienten sjekker for den og aktiverer SAINT-funksjonene. |
-| **Stedslisenser** | 2 | Brukes sjelden i dag. Tidligere brukt i satellittoppsett, der enkelte lisenser var knyttet til spesifikke steder. |
-| **Brukerlisenser** | 3 | Lisenser som tildeles direkte til brukere. Antall tildelinger kan ikke overstige antallet tilgjengelige lisenser. <br />Noen brukerlisenser kan være skjult for å forenkle brukergrensesnittet. Disse aktiveres gjennom brukerplaner. <br />Brukerplaner har `ModuleLicense.ExtraFlags = 1` og definerer implisitte lisenser i feltet `ExtraInfo`, for eksempel:<br>`"set=user,web,chat-cal"` tildeler lisensene **user**, **web** og **chat-cal** automatisk. |
-
-### Tilordning av brukerlisenser
-
-[LicenseAssocLink][13] – tildeler en bestemt `moduleLicense` til en spesifikk bruker. Det er slik «John» blir en bruker og Windows-klientbruker – det blir to oppføringer.
-
-Summen av tildelte lisenser for en gitt modul kan ikke overstige verdien i `moduleLicense`. Et nytt lisenssett fra SuperLicense vil bli avvist dersom for mange allerede er tildelt.
-
-### Signering av lisenser
-
-Lisenser signeres med offentlig/privat nøkkel.
-
-Den private nøkkelen er strengt beskyttet – uten den er det ikke mulig å lage en fungerende lisenskodegenerator.
-
-Hver `moduleLicense`-rad signeres, og alle rader er hash-sjekket for å gjøre det vanskeligere å manipulere dem.
-
-**Oppsummert:** Hvis du tukler med dem, slutter de å virke. Bare SoAdmin og NetServer kan endre dem – ingen andre.
-Hackere kan manipulere DLL-filer, men ikke lage en fungerende lisensgenerator som virker med originalkode.
-
-### Telling av brukere
-
-Det finnes to tilnærminger:
-
-#### 1: Hent lisens og les antallet user/web-lisenser
-
-Brukere må ha både **user** og **web** for å logge inn i SuperOffice Web. Dette tallet er en øvre grense og viser ikke hvor mange som faktisk er i bruk.
-
-Noen kunder har svært mange lisenser fordi de betaler etter bruk via SCIM. Da må man telle aktive brukere, ikke totalt antall tilgjengelige lisenser.
-
-#### 2: Hent lisens og summer antallet lisenser i bruk med ExtraFlags = 1
-
-Brukerplaner er det brukeren faktisk betaler for. De inkluderer flere implisitte, skjulte lisenser.
-
-Samme SCIM-unntak gjelder: tell antall brukte brukerplaner, ikke totalen som er tilgjengelig.
-
 ## Relatert innhold
 
 * [SuperOffice-brukerplaner og abonnement][4]
 * [Kjøpe og aktivere lisenser][1]
 * [Lisenser i tidligere versjoner av SuperOffice][7]
 * [Systemoperasjoner][3]
+* [Modullisenser][14]
+* [Skjulte lisenser][15]
+* [Teknisk lisensoversikt][17]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/no/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
-[13]: ../../../en/database/tables/LicenseAssocLink.md
+
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

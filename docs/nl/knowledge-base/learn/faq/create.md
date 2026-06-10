@@ -4,7 +4,7 @@ title: Items in Veelgestelde vragen maken
 description: Items in Veelgestelde vragen maken
 keywords: Veelgestelde vragen
 author: Bergfrid Dias
-date: 03.14.2025
+date: 06.10.2026
 content_type: howto
 license: servicepremium
 tier: growth
@@ -24,7 +24,7 @@ Door items in Veelgestelde vragen te maken, kan uw organisatie een uitgebreide v
 
 ## Eisen
 
-* U hebt een licentie voor Service premium of het Customer Engagement-platform nodig om de kennisdatabase te gebruiken.
+* U hebt een **Service Premium**-licentie, de **Customer Engagement Platform (CEP)**-add-on of het **Growth**-plan nodig om de kennisdatabase te gebruiken.
 * Als u deze functie niet ziet, moet u *Kennisdatabase* toevoegen als functioneel recht om veelgestelde vragen te maken.
 
 ## Items in Veelgestelde vragen maken vanuit een verzoek

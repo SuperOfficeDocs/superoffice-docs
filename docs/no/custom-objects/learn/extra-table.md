@@ -4,21 +4,21 @@ title: Ekstratabeller
 description: Introduksjon til ekstratabeller i SuperOffice,
 keywords: database, ekstratabell, tabellmappe, tredjepartstabell
 author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: user
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: no
 redirect_from: /no/custom-objects/learn/extra-table/index
 ---
 
 # Ekstratabeller
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
-SuperOffice Development Tools-lisensen gir deg muligheten til å opprette ekstratabeller (tilpassede objekter) i databasen.
+Development Tools-lisensen eller Core-planen gir deg muligheten til å opprette ekstratabeller (tilpassede objekter) i databasen.
 
 **Tabeller**-skjermbildet er verktøyet ditt for tilpasning av databaseskjemaet.
 

@@ -4,8 +4,8 @@ title: Mit Leads in SuperOffice arbeiten
 description: Erfahren Sie, wie Sie Leads in SuperOffice CRM anzeigen, aktualisieren und nachverfolgen.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead
@@ -73,7 +73,7 @@ Im **Suchen**-Bildschirm können Sie Kriterien wie diese hinzufügen:
 * **Person** > **Lead-Status** – Ist einer von / Ist keiner von.
 * **Firma** > **Kategoriengruppe** – Ist eine von / Ist keine von.
     Verwenden Sie dies für Fragen wie "Liste alle meine potenziellen Kunden" oder "Liste alle meine Kunden" (anstelle vieler einzelner Kategorien).
-* **Firma** > **Lead** oder **Person** > **Lead** basierend auf [UTM-Daten][5] (erfordert Marketing Premium).
+* **Firma** > **Lead** oder **Person** > **Lead** basierend auf [UTM-Daten][5] (erfordert eine **Marketing Premium**-Lizenz oder den **Plus**-Plan).
 
 ![Filtern von Personen nach Lead-Status und Kategoriengruppe im Suchkriterienbereich. -screenshot][img3]
 

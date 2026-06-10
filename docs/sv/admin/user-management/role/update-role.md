@@ -4,22 +4,24 @@ title: Uppdatera roll
 description: Så redigerar du en roll.
 keywords: roll, administrera användare
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
+tier: starter
 redirect_from: 
   - /sv/admin/user-management/learn/role/editing-role
   - /sv/admin/user-management/learn/role/deleting-role
-tier: starter
 language: sv
 ---
 
 # Uppdatera roll
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 För att uppdatera eller ta bort en [roll][3] börjar du med att välja rollen på fliken **Medarbetare**.
 

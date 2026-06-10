@@ -4,11 +4,11 @@ title: Referenz
 description: Referenz der im Ansichtsdesigner in Einstellungen und Verwaltung verfügbaren Elemente.
 keywords: Ansichtsdesigner Felder, Standardfeld, Standard-Registerkarte
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: reference
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization

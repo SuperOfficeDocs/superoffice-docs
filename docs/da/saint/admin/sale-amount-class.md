@@ -4,8 +4,8 @@ title: Tilføjelse af salgsbeløbsklasse
 description: Tilføjelse af salgsbeløbsklasse
 keywords: salg, beløb
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ redirect_from: /da/admin/lists/learn/sale-amount-class
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-Listen **Salg - Beløbsklasse** er den del af funktionen Statusovervågning (SAINT), som kræver en **Sales Premium** eller **Service Premium** brugerplan.
+Listen **Salg - Beløbsklasse** er den del af funktionen Statusovervågning (SAINT), som kræver en **Sales Premium** eller **Service Premium**-licens eller **Growth**-planen.
 
 En beløbsklasse for et salg kan bruges til at kategorisere salg i forskellige klasser, f.eks. lille, mellemstort, stort og meget stort. Du angiver beløbsområdet for de forskellige beløbsklasser i den valuta, din organisation anvender (og yderligere valutaer, hvis det er nødvendigt). Beløbsklasser kan bruges til at søge efter betragtelige mistede salg i en periode.
 

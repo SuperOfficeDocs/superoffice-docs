@@ -4,8 +4,8 @@ title: Arbejd med leads i SuperOffice
 description: Lær at se, opdatere og følge op på leads i SuperOffice CRM.
 keywords: lead
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: sale
 topic: lead
@@ -73,7 +73,7 @@ I **Find**-skærmbilledet kan du tilføje kriterier som:
 * **Person** > **Leadstatus** – Er en af / Er ikke en af.
 * **Firma** > **Kategorigruppe** – Er en af / Er ikke en af.
     Brug dette til at besvare spørgsmål som "Vis alle mine potentielle kunder" eller "Vis alle mine kunder" (i stedet for at tilføje mange kategorier individuelt).
-* **Firma** > **Lead** eller **Person** > **Lead** baseret på [UTM-data][5] (kræver Marketing Premium).
+* **Firma** > **Lead** eller **Person** > **Lead** baseret på [UTM-data][5] (kræver en **Marketing Premium**-licens eller **Plus**-planen).
 
 ![Filtrering af personer efter Leadstatus og Kategorigruppe i Find person-kriteriepanelet. -screenshot][img3]
 

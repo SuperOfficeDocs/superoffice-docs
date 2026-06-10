@@ -4,7 +4,7 @@ title: Publicer ofte stillede spørgsmål i kundecenteret
 description: I denne vejledning lærer du, hvordan du publicerer ofte stillede spørgsmål i kundecenteret.
 keywords: FAQ, Kundecenter
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: da
@@ -16,7 +16,7 @@ FAQs (ofte stillede spørgsmål), der offentliggøres i kundecenteret, er en meg
 
 Inkludering af ofte stillede spørgsmål som et selvhjælpsværktøj vil sandsynligvis reducere antallet af anmodninger, du modtager. Når svar på typiske og tilbagevendende spørgsmål er af vejen, kan dine supportmedarbejdere koncentrere sig om mere presserende og komplicerede spørgsmål.
 
-Du kan [oprette ofte stillede spørgsmål][1] som dine servicemedarbejdere kan vælge imellem, når de besvarer kundespørgsmål i anmodninger og chats. Kræver Premium Service-licensen.
+Du kan [oprette ofte stillede spørgsmål][1] som dine servicemedarbejdere kan vælge imellem, når de besvarer kundespørgsmål i anmodninger og chats. Kræver en **Service Premium**-licens eller **Growth**-planen.
 
 ![Rediger posten med ofte stillede spørgsmål, og vælg Egenskaber for at publicere Ofte stillede spørgsmål i SuperOffice Service -screenshot][img1]
 

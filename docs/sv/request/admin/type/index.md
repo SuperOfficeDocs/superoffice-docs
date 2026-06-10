@@ -4,8 +4,8 @@ title: Ärendetyp
 description: Lär dig mer om ärendetyper i SuperOffice Service.
 keywords: ärendetyp, ärendetyper, fliken Ärendetyper, typ, ärende
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
 tier: growth
@@ -21,7 +21,7 @@ index: true
 Alla ärenden som registreras i SuperOffice har en typ. Standardtypen är "Request". För att se, lägga till, uppdatera och ta bort ärendetyper, gå till **Inställningar och underhåll**.
 
 > [!NOTE]
-> Den här funktionen kräver en Service Premium-användarplan (för att skapa och uppdatera ärendetyper) och en Development Tools-licens för att definiera skärmlayouter baserat på ärendetyper i Screen Designer.
+> Den här funktionen kräver en **Service Premium**-licens eller **Growth**-planen. För att definiera skärmlayouter baserat på ärendetyper i Screen Designer behöver **Service Premium**-användare också **Development Tools**-licensen (ingår i **Core**-planen och högre).
 
 ## Varför använda ärendetyper?
 

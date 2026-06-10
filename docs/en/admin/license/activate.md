@@ -4,8 +4,8 @@ title: Activate license
 description: Activate license for SuperOffice
 keywords: activate license
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 category: Settings and maintenance
@@ -42,11 +42,11 @@ If the total number of new licenses is less than the number of licenses in use, 
     * **Activate new licence** – new license is available, but it cannot be activated automatically. Click the link to open the **Activate new licence** dialog. The list will only show altered licenses.
 
     > [!CAUTION]
-    > If you have the wrong number of licenses or licenses for the wrong module, contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
+    > If the number of licenses is incorrect — or, in module-based subscriptions, if you have licenses for the wrong module — contact SuperOffice. DO NOT activate until the information is correct.
 
 1. Click the **Activate** button in the dialog.
 
-1. Go to the Licences screen, select the **SuperOffice** tab, and check that the licence status is correct.
+1. Go to the Licences screen, select the **SuperOffice** tab, and check that the license status is correct.
 
 ## Tips and troubleshooting
 
@@ -61,7 +61,7 @@ If the total number of new licenses is less than the number of licenses in use, 
 
     1. Click the **Activate** button.
 
-* Go to the Users screen, and select the **User licences** tab to see which users are using the different licences. In the **Associates** and **Other users** tabs, you can filter the list by licence type.
+* Go to the Users screen, and select the **User licences** tab to see which users are using the different licenses. In the **Associates** and **Other users** tabs, you can filter the list by license type.
 
 * If you are using a **demo version** of SuperOffice CRM, you may be asked to enter a new serial number and license owner. You will be given this by SuperOffice when you purchase a SuperOffice license.
 
@@ -76,4 +76,4 @@ If the total number of new licenses is less than the number of licenses in use, 
 [1]: index.md
 [3]: index.md#types
 
-<!-- Referenced images -->
+

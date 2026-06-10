@@ -4,11 +4,11 @@ title: Knop of koppeling toevoegen
 description: Hoe u een knop of link toevoegt aan een opmaak met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: knop toevoegen, nieuwe knop, koppeling toevoegen, nieuwe koppeling, label
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /nl/customization/screen-designer/add-button
 
 # Knop of koppeling toevoegen
 
-[!include[Vereiste](../../../includes/req-dev-tools.md)]
+[!include[Vereiste](../../../includes/req-dev-tools-transition.md)]
 
 Aangepaste knoppen en koppelingen worden toegevoegd aan het **Voorbeeldweergave**-venster bij het bewerken van een opmaak. De URL wordt gebruikt om een webpagina in het huidige of een nieuw tabblad te openen, een CRMScript uit te voeren vanaf het scherm of te navigeren naar andere delen van SuperOffice met behulp van [SoProtocol][3].
 

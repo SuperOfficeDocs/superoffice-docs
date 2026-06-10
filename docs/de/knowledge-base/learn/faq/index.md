@@ -4,8 +4,8 @@ title: Mit FAQ-Einträgen arbeiten
 description: Mit FAQ-Einträgen arbeiten
 keywords: FAQ, Wissensdatenbank
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq
@@ -25,7 +25,7 @@ redirect_from:
 
 Häufig gestellte Fragen (FAQs) sind ein wichtiger Bestandteil bei der Bearbeitung einer Service-Anfrage. Da sich viele Kundenanfragen im Laufe der Zeit wiederholen, wird empfohlen FAQs zu erstellen, die Antworten auf solche wiederkehrenden Fragen enthalten.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Vorteile einer FAQ-Bibliothek
 

@@ -4,8 +4,8 @@ title: Add user-defined field
 description: How to add a user-defined field in Settings and maintenance
 keywords: udef, user-defined field, custom field, field properties
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 audience: settings
@@ -38,7 +38,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 1. When you are done, click **Save**. The dialog closes and the new field is displayed in the **Fields** list and in the grid.
 
-1. [Optionally, adjust the position of the field][3]. This requires the Development Tools license!
+1. [Optionally, adjust the position of the field][3]. This requires the Development Tools license or the Core plan.
 
 1. Continue adding fields. Click **Publish** when you are done to make the field available to SuperOffice users. Unpublished fields and fields with unpublished changes are displayed in bold text in the **Fields** list.
 

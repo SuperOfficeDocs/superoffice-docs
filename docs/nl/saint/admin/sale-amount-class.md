@@ -4,8 +4,8 @@ title: Verkoopbedragklasse toevoegen
 description: Verkoopbedragklasse toevoegen
 keywords: verkoop, bedrag
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ redirect_from: /nl/admin/lists/learn/sale-amount-class
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-De lijst **Verkoop - Bedragklasse** is onderdeel van de statuscontrole-functie (SAINT) waarvoor een **Sales Premium** of **Service Premium** gebruikersplan is vereist.
+De lijst **Verkoop - Bedragklasse** is onderdeel van de statuscontrole-functie (SAINT) waarvoor een **Sales Premium** of **Service Premium** licentie of het **Growth**-plan is vereist.
 
 Een bedragklasse voor een verkoop kan worden gebruikt om verkopen te categoriseren in diverse klassen, bijvoorbeeld klein, gemiddeld, groot en zeer groot. U geeft het bedragbereik voor de diverse bedragklassen op in de valuta die uw organisatie gebruikt (en zonodig in andere valuta). U kunt bedragklassen gebruiken om te zoeken naar aanzienlijke verloren verkopen gedurende een periode.
 

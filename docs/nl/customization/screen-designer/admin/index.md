@@ -4,11 +4,11 @@ title: Schermontwerper
 description: Kom te weten hoe u uw kaarten configureert in deze gids.
 keywords: Schermontwerper, interface, opmaak, lay-out, aanpassen
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -25,7 +25,7 @@ De **Schermontwerper** in SuperOffice CRM stelt u in staat om de opmaak van bela
 ![Schermontwerper, bedrijfskaart, standaard veldopmaak -screenshot][img5]
 
 > [!NOTE]
-> Deze functie vereist de licentie voor Development Tools en de functierechten "Veldbeheerder".
+> Deze functie vereist de licentie voor Development Tools of het Core-plan en de functierechten "Veldbeheerder".
 
 ## Waarom de Schermontwerper gebruiken?
 
@@ -112,7 +112,7 @@ Om te beginnen met het aanpassen van schermen:
 
 ## Wat als ik de Schermontwerper niet gebruik?
 
-Als u geen licentie voor Development Tools hebt, organiseert het tabblad **Meer** automatisch alle aangepaste velden in twee kolommen. Deze standaardinstelling biedt nog steeds een functionele interface, maar zonder de geavanceerde aanpassingsopties van de Schermontwerper.
+Als u geen licentie voor Development Tools of het Core-plan hebt, organiseert het tabblad **Meer** automatisch alle aangepaste velden in twee kolommen. Deze standaardinstelling biedt nog steeds een functionele interface, maar zonder de geavanceerde aanpassingsopties van de Schermontwerper.
 
 ## Samenvatting
 

@@ -4,8 +4,8 @@ title: Leadbeheer instellen
 description: Leer hoe u leadbeheer in SuperOffice CRM activeert, configureert en uitbreidt.
 keywords: leadbeheer, leadinstelling, leadstatus, potentiële klant, verkoopproces
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead
@@ -59,9 +59,9 @@ Categorie-automatisering vermindert handmatig werk door bedrijfscategorieën aut
 
 Zie [Lead-categorisatie automatiseren][6] voor gedetailleerde stappen.
 
-## Stap 4: (Optioneel) Uitbreiden met Marketing Premium
+## Stap 4: (Optioneel) Uitbreiden met **Marketing Premium**
 
-Als u Marketing Premium gebruikt, kunt u extra tracking- en automatiseringsfuncties benutten in uw leadproces:
+Als u de **Marketing Premium**-licentie of het **Plus**-plan heeft, kunt u extra tracking- en automatiseringsfuncties benutten in uw leadproces:
 
 * **UTM-tracking:** Leg de bron van nieuwe leads vast via online formulieren.
   Zie [Formulier-UTM-gegevens volgen][5].

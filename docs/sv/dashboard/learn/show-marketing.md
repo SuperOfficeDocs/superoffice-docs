@@ -3,13 +3,13 @@ uid: help-sv-dashboard-tile-marketing
 title: Använda utskick och formulär i paneler
 description: Skapa dashboards för dina marknadsföringsuppgifter, till exempel formulärinlämningar och utskick, för att spåra och analysera resultat, trender och produktivitet i alla marknadsföringsaktiviteter.
 keywords: dashboard, marknadsföring
-author: SuperOffice Product and Engineering
-date: 11.21.2025
-version: 11.6
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
-tier: growth
+tier: starter
 language: sv
 ---
 
@@ -23,6 +23,9 @@ När dashboarden har skapats är det dags att lägga till och redigera paneler.
 > [!Video https://www.youtube.com/embed/lz9rEZI_2SY]
 
 I exemplen nedan hittar du förslag på paneler som du kan lägga till i dashboarden för utskick eller formulär.
+
+> [!NOTE]
+> Utskickspaneler är tillgängliga från **Starter**-planen. Paneler för formulärinlämningar kräver **Growth**-planen.
 
 ## Exempel på olika paneler för utskick
 

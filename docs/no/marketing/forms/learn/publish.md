@@ -4,8 +4,8 @@ title: Publisere skjemaer
 description: Publisere skjemaer
 keywords: skjema, publiser, publisere skjema, aktivere skjema, forhåndsutfylling av felt, forhåndsutfylt felt, ferdigutfylt, feltidentifikator, skriptkode, UTM-bygger, legg til UTM-sporing
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms
@@ -80,7 +80,7 @@ Den innebygde **UTM-byggeren** oppretter en skjemakoblingen med [UTM-parametere]
 
 ### Forutsetninger og begrensninger
 
-* Du har en **Marketing Premium**-brukerplan.
+* Du har en **Marketing Premium**-lisens eller **Plus**-planen.
 * En administrator har [aktivert overføring av UTM-data for skjemainnleveringer][6].
 * UTM-sporing er bare tilgjengelig for alternativet **Direktekobling**. Den gjelder ikke for innebygde skjemaer.
 

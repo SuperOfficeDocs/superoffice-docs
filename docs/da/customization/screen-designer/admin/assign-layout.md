@@ -4,11 +4,11 @@ title: Tildel layout til gruppe, type eller skabelon
 description: Sådan tildeler du et layout til en gruppe, salgstype, projekttype eller sagstype ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: skærmlayout, tildel layout, layout
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /da/customization/screen-designer/assign-layout
 
 # Tildel layout til gruppe, type eller skabelon
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 ## Trin
 

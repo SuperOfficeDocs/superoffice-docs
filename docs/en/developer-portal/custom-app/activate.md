@@ -3,7 +3,7 @@ title: First-time activation
 uid: custom-app-first-time-activation
 description: Description of the process of activating a valid custom application for the first-time.
 author: Margrethe
-date: 12.20.2023
+date: 06.10.2026
 keywords: activate, consent
 content_type: howto
 deployment: online
@@ -14,7 +14,7 @@ platform: web
 
 Congratulations, your custom application is ready!
 
-By activating a custom application, the owner of the tenant agrees to [subscribe to Development Tools][2] (formerly Expander Services).
+By activating a custom application, the owner of the tenant agrees to [subscribe to Development Tools][2] (formerly Expander Services) or the CRM Suite Core plan.
 
 ## First-time activation
 

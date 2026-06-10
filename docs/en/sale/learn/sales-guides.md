@@ -3,12 +3,12 @@ uid: help-en-sales-guide
 title: Sales guide
 description: Introduction to sales guides in SuperOffice.
 keywords: sales guide, guide, workflow, Sales guide section tab, sale
-author: Bergfrid Dias
-date: 01.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -24,8 +24,7 @@ redirect_from:
 
 Sales guides in SuperOffice CRM are powerful tools designed to simplify and standardize the sales process by linking sale types to predefined stages. Each stage includes suggested follow-ups and documents that guide sales staff through a structured sales pipeline, ensuring no opportunities are missed and maintaining consistency across your team.
 
-> [!NOTE]
-> This feature requires the Sales Premium licence.
+[!include[License requirement](../../includes/req-core-transition-sales.md)]
 
 ## What is a sales guide?
 

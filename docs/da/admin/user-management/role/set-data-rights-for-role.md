@@ -4,20 +4,22 @@ title: Angiv datarettigheder for rolle
 description: Angiv datarettigheder for rolle
 keywords: brugerstyring, rolle, adgang, rettigheder
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /da/admin/user-management/learn/role/set-data-rights-for-role
 tier: starter
+redirect_from: /da/admin/user-management/learn/role/set-data-rights-for-role
 language: da
 ---
 
 # Angivelse af datarettigheder for rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan angive rettigheder for dataobjekter baseret på, hvem der ejer objektet. Alle brugere, der tilhører denne [rolle][2] tildeles rettigheder baseret på de indstillinger, du foretager her.
 

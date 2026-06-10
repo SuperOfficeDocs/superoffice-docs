@@ -4,8 +4,8 @@ title: Verkaufstyp hinzufügen
 description: Erfahren Sie, wie Sie einen neuen Verkaufstyp in SuperOffice CRM hinzufügen. Definieren Sie Stufen, Angebote und Genehmigungen für verschiedene Verkaufsprozesse.
 keywords: neue Verkaufstyp, Verkaufstyp hinzufügen, Verkauf - Typ Stufen Angebot Liste, Verkauf - Kategorie Liste, Verkaufstypkonfiguration, Angebotsanhänge Registerkarte, Angebotsstandards, Angebotsgenehmigung, Verkaufstyp, Verkauf, Angebot
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core
@@ -58,11 +58,11 @@ Jeder Verkauf muss einen Typ haben, der mit bestimmten [Stufen][1] und optional 
 
 1. *(Optional)* Aktivieren Sie **Vorschlagen, den Verkauf automatisch in die nächste Stufe zu verschieben**, um Benutzer aufzufordern, nach Abschluss aller Aktivitäten zur nächsten Stufe zu wechseln.
 
-1. *(Optional)* Aktivieren Sie **Dieser Verkaufstyp hat Beteiligte**, um die Verknüpfung von [Beteiligten][5] mit Verkäufen dieses Typs zuzulassen. *(Erfordert die SalesPremium-Lizenz.)*
+1. *(Optional)* Aktivieren Sie **Dieser Verkaufstyp hat Beteiligte**, um die Verknüpfung von [Beteiligten][5] mit Verkäufen dieses Typs zuzulassen. *(erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)*
 
 1. Geben Sie eine Beschreibung des Verkaufstyps im Feld **Beschreibung** ein, falls erforderlich.
 
-1. Für die Angebotsverwaltung konfigurieren Sie die Felder in den Registerkarten **Angebotsanhänge**, **Angebotsstandards** und **Angebotsgenehmigung**, wie unter [Erklärung der Angebotsfelder](#quote-fields) beschrieben. *(Erfordert die SalesPremium-Lizenz.)* Diese Einstellungen ermöglichen eine individuelle Anpassung der Angebote an die Anforderungen Ihrer Organisation.
+1. Für die Angebotsverwaltung konfigurieren Sie die Felder in den Registerkarten **Angebotsanhänge**, **Angebotsstandards** und **Angebotsgenehmigung**, wie unter [Erklärung der Angebotsfelder](#quote-fields) beschrieben. *(erfordert eine **Sales Premium**-Lizenz oder den **Growth**-Plan)* Diese Einstellungen ermöglichen eine individuelle Anpassung der Angebote an die Anforderungen Ihrer Organisation.
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu übernehmen, oder auf **Abbrechen**, um sie zu verwerfen.
 

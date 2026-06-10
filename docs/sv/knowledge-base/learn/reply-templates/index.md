@@ -3,14 +3,14 @@ uid: help-sv-reply-template
 title: Arbeta med svarsmallar
 description: Arbeta med svarsmallar i SuperOffice. Visa, hitta och sök efter svarsmallar i kunskapsbasen för snabbare hantering av ärenden.
 keywords: visa svarsmall, hitta svarsmall, svarsmall, färdig text, kunskapsbas
-author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

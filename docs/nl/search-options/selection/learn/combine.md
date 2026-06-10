@@ -3,18 +3,20 @@ uid: help-nl-selection-combine
 title: Gecombineerde selectie maken
 description: In deze instructie leert u hoe u een gecombineerde selectie kunt maken.
 keywords: selecties combineren, gecombineerde selectie, selectie
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: starter
+tier: growth
 language: nl
 redirect_from: /nl/search-options/selection/learn/create/combine
 ---
 
 # Gecombineerde selectie maken
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 De twee selecties die moeten worden gecombineerd, kunnen statisch of dynamisch zijn. Er zijn echter bepaalde beperkingen met betrekking tot wat kan worden gecombineerd:
 

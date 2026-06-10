@@ -4,8 +4,8 @@ title: Oprettelse af FAQ-poster
 description: Oprettelse af FAQ-poster
 keywords: FAQ
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: faq
@@ -27,7 +27,7 @@ Ved at oprette FAQ-poster kan organisationen opbygge en omfattende samling spør
 
 ## Krav
 
-* Du skal have en licens til Service Premium eller Customer Engagement-platformen for at bruge videnbasen.
+* Du skal have en **Service Premium**-licens, **Customer Engagement Platform (CEP)**-tilføjelsesprogrammet eller **Growth**-planen for at bruge videnbasen.
 * Hvis du ikke kan se denne funktion, skal du tilføje *Knowledge base* som funktionel ret til at oprette ofte stillede spørgsmål.
 
 ## Oprettelse af FAQ-poster fra en sag

@@ -4,8 +4,8 @@ title: Arbeta med e-postadresser
 description: Arbeta med e-postadresser
 keywords: kunskapsbas
 author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
@@ -24,8 +24,7 @@ redirect_from:
 
 Du kan skapa en lista över e-postadresser som du använder ofta men som inte är registrerade för användare eller kontakter i SuperOffice Service. Till exempel leverantörer, partner eller produktspecialister. Dessa adresser blir tillgängliga på de flesta ställen där du skickar e-post, till exempel i fönstren **Nytt ärende** och **Lägg till meddelande**.
 
-> [!NOTE]
-> Den här funktionen kräver användarlicensen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Lista med e-postadresser
 

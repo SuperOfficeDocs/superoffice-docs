@@ -4,8 +4,8 @@ title: Legge til salgsbeløpsklasse
 description: Legge til salgsbeløpsklasse
 keywords: salg, beløp
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ redirect_from: /no/admin/lists/learn/sale-amount-class
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-Listen **Salg - Beløpsklasse** er en del av funksjonen statusovervåking (SAINT) og krever en **Sales Premium** eller **Service Premium** brukerplan.
+Listen **Salg - Beløpsklasse** er en del av funksjonen statusovervåking (SAINT) og krever en **Sales Premium** eller **Service Premium**-lisens eller **Growth**-planen.
 
 Beløpsklasse for salg kan brukes til å kategorisere salg i ulike klasser, for eksempel små, mellomstore, store og svært store salg. Du angir beløpsintervallet for de ulike beløpsklassene i valutaen firmaet ditt bruker (og flere valutaer, hvis du ønsker). Beløpsklasse kan for eksempel brukes til å søke etter store tapte salg innenfor en periode.
 

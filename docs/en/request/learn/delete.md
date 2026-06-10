@@ -3,13 +3,13 @@ uid: help-en-request-delete
 title: Delete requests
 description: How to delete a request in SuperOffice
 keywords: delete request, request
-author: Hanne Gunnarsson
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 functional_right: Service administration, General Administrator
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en

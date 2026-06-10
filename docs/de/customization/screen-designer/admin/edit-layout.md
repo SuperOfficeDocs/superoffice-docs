@@ -4,11 +4,11 @@ title: Hauptkartenlayout bearbeiten
 description: In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können.
 keywords: Bildschirmlayout, Layout bearbeiten, Layout ändern, Layout löschen, Auf Werkseinstellungen zurücksetzen
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Hauptkartenlayout bearbeiten
 
-[!include[Anforderung](../../../includes/req-dev-tools.md)]
+[!include[Anforderung](../../../includes/req-dev-tools-transition.md)]
 
 Wenn Sie ein [neues Layout erstellt haben][6], müssen Sie es anzupassen. Personalisieren Sie das Layout für die Hauptkarten und Archive, um die Informationsbedürfnisse Ihrer Organisation zu erfüllen.
 

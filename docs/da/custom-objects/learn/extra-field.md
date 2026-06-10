@@ -4,18 +4,18 @@ title: Ekstrafelt
 description: Et ekstrafelt er et tilpasset felt som du legger til i en eksisterende SuperOffice-databasetabell i Service.
 keywords: ekstrafelt, tilpasset felt, Service
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: da
 ---
 
 # Ekstrafelt
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Et *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende SuperOffice-databasetabel. Du kan udvide følgende enheder:
 

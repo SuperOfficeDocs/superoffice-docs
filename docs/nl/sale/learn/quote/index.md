@@ -4,8 +4,8 @@ title: Werken met offerten
 description: Leer hoe u offertes maakt, beheert en verzendt in SuperOffice CRM om uw verkoopproces te stroomlijnen en fouten te minimaliseren.
 keywords: Offerte-sectietabblad, Offerte-tabblad, verkoop, voorstel, offertealternatief, offerte-naar-order, offerte
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -26,8 +26,7 @@ Nadat een offerte is geaccepteerd, kunt u met één klik een order genereren en 
 
 SuperOffice Quote ondersteunt de volledige offerte-naar-order-cyclus. Het helpt u om sneller nieuwe of bijgewerkte offertes op te stellen en versnelt de overgang van lead naar gesloten verkoop.
 
-> [!NOTE]
-> Deze functie vereist het Sales Premium-gebruikersplan.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Offertescherm met een offerte voor John Smith -screenshot][img1]
 

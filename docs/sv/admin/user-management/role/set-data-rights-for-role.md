@@ -4,20 +4,22 @@ title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
 keywords: administrera användare, roll, åtkomst, behörigheter
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /sv/admin/user-management/learn/role/set-data-rights-for-role
 tier: starter
+redirect_from: /sv/admin/user-management/learn/role/set-data-rights-for-role
 language: sv
 ---
 
 # Ange behörighet för roll
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan ange behörigheter för dataobjekt baserat på vem som äger objekten. Alla användare som tillhör den här [rollen][2] tilldelas behörigheter baserat på inställningarna du gör här.
 

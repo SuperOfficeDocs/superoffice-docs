@@ -4,8 +4,8 @@ title: Jobbe med tilbud
 description: Lær hvordan du oppretter, administrerer og sender tilbud i SuperOffice CRM for å effektivisere salgsprosessen og redusere feil.
 keywords: Tilbud-detaljkort, Tilbud-fane, salg, forslag, tilbudsalternativ, tilbud-til-ordre, tilbud
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -26,8 +26,7 @@ Etter at et tilbud er akseptert, kan du generere en ordre med ett klikk og sende
 
 SuperOffice Quote støtter hele tilbud-til-ordre-prosessen. Det hjelper deg med å levere nye eller oppdaterte tilbud raskere og gir en smidig overgang fra lead til lukket salg.
 
-> [!NOTE]
-> Denne funksjonen krever brukerlisensen Sales Premium.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Tilbud-skjermbildet viser et tilbud -screenshot][img1]
 

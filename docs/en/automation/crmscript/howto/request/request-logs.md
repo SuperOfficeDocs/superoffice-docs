@@ -3,14 +3,18 @@ uid: crmscript-request-log
 title: Logs
 description: The system logs all noteworthy actions and changes pertaining to tickets. Learn how to write messages to the log and to search the log from CRMScript.
 keywords: CRMScript, Service, ticket, request, log
-author: Bergfrid Skaara Dias
-date: 11.02.2021
-version: 10
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
+tier: growth
 redirect_from: /en/request/howto/crmscript/request-logs
+language: en
 ---
 
 # Logs
+
+[!include[License requirement](../../../../includes/req-growth-transition-service.md)]
 
 The system logs all noteworthy actions and changes pertaining to tickets. You can also add your own log entries.
 

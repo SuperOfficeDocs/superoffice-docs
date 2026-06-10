@@ -3,12 +3,12 @@ uid: help-sv-request-priority
 title: Ärendeprioriteter
 description: Ärendeprioriteter
 keywords: ärendeprioritet, prioritet, eskalering, ärende
-author: Bergfrid Dias
-version: 10.5.2
+author: digitaldiina
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-tier: core
+tier: starter
 language: sv
 redirect_from: /sv/request/learn/priority/index
 index: true

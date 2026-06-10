@@ -4,15 +4,15 @@ title: Arbeta med externa kategorier
 description: Arbeta med externa kategorier
 keywords: extern kategori, kundspråk
 author: digitaldiina
-date: 10.09.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: localization
 topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: starter
 redirect_from: /sv/admin/options/learn/custlang/external-categories
-tier: core
 language: sv
 index: true
 ---

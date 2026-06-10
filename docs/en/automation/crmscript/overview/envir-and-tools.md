@@ -4,7 +4,7 @@ title: How do I create and run CRMScripts?
 description: An overview of the CRMScript environment and the tools you need to create and run scripts.
 keywords: CRMScript, interpreter, run script, execute script, CRMScript editor
 author: Bergfrid Dias
-date: 04.15.2024
+date: 06.10.2026
 content_type: howto
 index: true
 ---
@@ -29,7 +29,7 @@ However, we recommend using the built-in editor in the SuperOffice admin client.
 **Pre-requisites:**
 
 * An administrator account for the tenant or installation
-* A Development Tools (previously Expander Services) license
+* A Development Tools (previously Expander Services) license or the Core plan
 
 ### Where does CRMScript run?
 
@@ -58,7 +58,7 @@ For SuperOffice CRM Online, this is available in the Sales and Service admin cli
 5. Click **OK** to save and **Execute script** to run it.
 
 > [!TIP]
-> If you don't see the **New script** button, you probably lack a valid license for Expander Services.
+> If you don't see the **New script** button, you probably lack a Development Tools license or the Core plan.
 
 ### How to define which HTTP verbs are allowed
 

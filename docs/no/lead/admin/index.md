@@ -4,8 +4,8 @@ title: Konfigurer leadhåndtering
 description: Lær hvordan du aktiverer, konfigurerer og utvider leadhåndtering i SuperOffice CRM.
 keywords: leadhåndtering, leadoppsett, leadstatus, potensiell kunde, salgsprosess
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead
@@ -59,9 +59,9 @@ Kategoriautomatisering reduserer manuelt arbeid ved å oppdatere firmakategorier
 
 For detaljerte trinn, se [Automatiser leadkategorisering][6].
 
-## Trinn 4: (Valgfritt) Utvid med Marketing Premium
+## Trinn 4: (Valgfritt) Utvid med **Marketing Premium**
 
-Hvis du bruker Marketing Premium, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
+Hvis du har **Marketing Premium**-lisensen eller **Plus**-planen, kan du dra nytte av ekstra sporings- og automatiseringsfunksjoner i leadprosessen:
 
 * **UTM-sporing:** Fange kilden til nye leads fra nettskjemaer.
     Se [Spor skjema-UTM-data][5].

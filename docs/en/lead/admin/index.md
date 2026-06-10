@@ -4,8 +4,8 @@ title: Set up lead management
 description: Learn how to enable, configure, and extend lead management in SuperOffice CRM.
 keywords: lead management, lead setup, lead status, potential customer, sales process
 author: digitaldiina
-date: 01.13.2026
-version: 11.8
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: sale
 topic: lead
@@ -61,9 +61,9 @@ Category automation reduces manual work by updating company categories automatic
 
 For detailed steps, see [Automate lead categorization][6].
 
-## Step 4: (Optional) Extend with Marketing Premium
+## Step 4: (Optional) Extend with **Marketing Premium**
 
-If you use Marketing Premium, you can leverage additional tracking and automation features in your lead process:
+If you have the **Marketing Premium** license or the **Plus** plan, you can leverage additional tracking and automation features in your lead process:
 
 * **UTM tracking:** Capture the source of new leads from online forms.
     See [Track form UTM data][5].

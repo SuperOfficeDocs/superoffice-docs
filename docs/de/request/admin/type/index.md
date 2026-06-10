@@ -4,8 +4,8 @@ title: Anfragetyp
 description: Anfragetyp
 keywords: Anfragetyp, Anfragetypliste, Typ, Anfrage
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
 tier: growth
@@ -21,7 +21,7 @@ index: true
 Alle Anfragen, die in SuperOffice registriert sind, haben einen Typ. Der Standardtyp ist **Request**. Um Anfragetypen anzuzeigen, hinzuzufügen, zu aktualisieren oder zu löschen, wechseln Sie zu **Einstellungen und Verwaltung**.
 
 > [!NOTE]
-> Diese Funktion erfordert einen Service Premium-Benutzerplan (zum Erstellen und Aktualisieren von Anfragetypen) sowie eine Development Tools-Lizenz, um Ansichts-Layouts basierend auf Anfragetypen im **Screen Designer** zu definieren.
+> Diese Funktion erfordert eine **Service Premium**-Lizenz oder den **Growth**-Plan. Um Ansichts-Layouts basierend auf Anfragetypen im Screen Designer zu definieren, benötigen **Service Premium**-Benutzer außerdem die **Development Tools**-Lizenz (enthalten im **Core**-Plan und höher).
 
 ## Warum Anfragetypen verwenden?
 

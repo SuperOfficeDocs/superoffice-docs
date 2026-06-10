@@ -4,8 +4,8 @@ title: Verkooptype toevoegen
 description: Leer hoe u verkooptypen kunt toevoegen en beheren in SuperOffice CRM. Definieer verkoopfasen, koppel verkoopgidsen en stel offerte-instellingen in voor een gestroomlijnd verkoopproces.
 keywords: verkooptype toevoegen, verkooptype, verkoop, offerte, fase, verkoopgids, lijst Verkoop - Type Fasen Offerte
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core
@@ -58,11 +58,11 @@ Elke verkoop moet een verkooptype hebben, en deze types kunnen worden gekoppeld 
 
 1. *(Optioneel)* Vink **Voorstellen de verkoop automatisch naar de volgende fase te verplaatsen** aan om gebruikers te vragen naar de volgende fase te gaan zodra alle activiteiten in de huidige fase zijn voltooid.
 
-1. *(Optioneel)* Vink **Dit verkooptype heeft belanghebbenden** aan om [belanghebbenden][5] te kunnen koppelen aan verkopen van dit type. *(Vereist een SalesPremium-licentie.)*
+1. *(Optioneel)* Vink **Dit verkooptype heeft belanghebbenden** aan om [belanghebbenden][5] te kunnen koppelen aan verkopen van dit type. *(vereist een **Sales Premium**-licentie of het **Growth**-plan)*
 
 1. Voeg indien nodig een beschrijving van het verkooptype toe in het veld **Beschrijving**.
 
-1. Voor offertebeheer configureert u de velden in de tabbladen **Offertebijlagen**, **Offertestandaarden** en **Offertegoedkeuring**, zoals beschreven in [Toelichting op offertevelden](#quote-fields). *(Vereist een SalesPremium-licentie.)* Deze instellingen stellen u in staat offertes af te stemmen op de behoeften en processen van uw organisatie.
+1. Voor offertebeheer configureert u de velden in de tabbladen **Offertebijlagen**, **Offertestandaarden** en **Offertegoedkeuring**, zoals beschreven in [Toelichting op offertevelden](#quote-fields). *(vereist een **Sales Premium**-licentie of het **Growth**-plan)* Deze instellingen stellen u in staat offertes af te stemmen op de behoeften en processen van uw organisatie.
 
 1. Klik op **Opslaan** om de wijzigingen toe te passen of op **Annuleren** om ze te negeren.
 

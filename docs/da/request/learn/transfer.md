@@ -3,12 +3,12 @@ uid: help-da-request-transfer
 title: Bed en anden sagsbehandler om hjælp
 description: Lær, hvordan du beder en anden sagsbehandler om hjælp i SuperOffice.
 keywords: overfør sag, skift sagsbehandler, uddelegere, sag
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

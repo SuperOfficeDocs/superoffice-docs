@@ -4,8 +4,8 @@ title: Arbeta med FAQ-poster
 description: Arbeta med FAQ-poster
 keywords: FAQ, kunskapsbas
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq
@@ -25,7 +25,7 @@ redirect_from:
 
 Vanliga frågor (FAQ) är en viktig del av hanteringen av service-ärenden. Eftersom många kundförfrågningar återkommer över tid är det en bra idé att skapa vanliga frågor som innehåller svar på sådana återkommande frågor.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Fördelar med att ha ett FAQ-bibliotek
 

@@ -4,8 +4,8 @@ title: Working with search criteria
 description: How to add and modify search criteria
 keywords: search, criteria, find
 author: digitaldiina
-date: 12.05.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: starter
 audience: person
@@ -118,7 +118,7 @@ If the field you are searching in is a field containing lists, for example, the 
 
 If the field you are searching in is a status field, select the required status.
 
-The statuses are created and maintained in Settings and maintenance. Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
+The statuses are created and maintained in Settings and maintenance. Status fields are only relevant if you have purchased a license for and have [enabled status monitors][5].
 
 ### <a id="counter"></a>Counter field
 
@@ -136,7 +136,7 @@ Counter fields can be found under **Counters (SAINT)** in the list of criteria.
 
 1. Depending on what you selected above, a list box for a date field or a number field is displayed. These list boxes work as described above. Select the required option and enter the required numerical value or date in the text field.
 
-The counters are created and maintained in Settings and maintenance. Counter fields are only relevant if you have purchased a licence for and have enabled status monitors.
+The counters are created and maintained in Settings and maintenance. Counter fields are only relevant if you have purchased a license for and have [enabled status monitors][5].
 
 ## Manage list of criteria
 
@@ -168,3 +168,4 @@ When you open the **Find** screen, it contains default search criteria or the se
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
 [4]: ../selection/learn/index.md
+[5]: ../../saint/admin/set-up.md

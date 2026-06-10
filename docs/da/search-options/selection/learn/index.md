@@ -3,9 +3,9 @@ uid: help-da-selection
 title: Udvalg
 description: Udvalg
 keywords: dynamisk udvalg, statisk udvalg, kombinationsudvalg, kombinerede udvalg, skærmbilledet Udvalg, udvalgsmedlemmer, udvalg
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -52,6 +52,8 @@ Anvend et dynamisk udvalg, hvis du ønsker en opdateret oversigt over firmaer, p
 **Eksempel:** En realtidsliste over alle åbne salgsmuligheder i det aktuelle kvartal, der automatisk opdateres, når nye salgsmuligheder oprettes.
 
 ### Kombinerede udvalg
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 Et kombinationsudvalg er en kombination af to eksisterende udvalg (statisk eller dynamisk). Det kan indeholde poster, der er fælles for de to udvalg, poster der adskiller sig, poster der kun findes i ét af udvalgene eller alle poster fra begge udvalg.
 
@@ -137,7 +139,7 @@ Et udvalg af alle salg, du har gennemført i første kvartal, eller alle dine sa
 
 * Et udvalg af alle opfølgninger, du har denne måned, hjælper dig med at se, hvilke opfølgninger du har planlagt, og om du bør oprette flere.
 
-### Produkter (kræver en Sales Premium-licens)
+### Produkter (kræver en **Sales Premium**-licens eller **Growth**-planen)
 
 * En liste over alle kunder, der har købt et bestemt produkt eller en bestemt produktkategori.
 

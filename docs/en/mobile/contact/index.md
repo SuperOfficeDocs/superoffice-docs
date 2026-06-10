@@ -4,9 +4,10 @@ title: Contact
 description: Learn about working with contacts in SuperOffice Mobile CRM.
 keywords: contact, person, associate
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: reference
+tier: core
 platform: mobile
 redirect_from:
   - /en/mobile/superoffice-mobile/company-contact/

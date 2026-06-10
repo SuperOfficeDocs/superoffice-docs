@@ -3,9 +3,9 @@ uid: help-en-erp-connect-actor
 title: Connect to ERP
 description: Connect to ERP
 keywords: connect to ERP, connect company to ERP, connect contact to ERP, connect project to ERP, can't find match in ERP, create in ERP, create actor, ERP actor, ERP
-author: SuperOffice RnD
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth
@@ -19,7 +19,7 @@ redirect_from:
 
 # Connect to ERP
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 You can connect a SuperOffice company to a customer/supplier in the ERP system. Contacts who are registered on the SuperOffice company can then be linked to individuals in the ERP system. Similarly, SuperOffice projects can be linked to projects in the ERP system. Data will then be synchronized between SuperOffice and the ERP system.
 

@@ -4,8 +4,8 @@ title: Gebruikersplannen
 description: SuperOffice gebruikersplannen en abonnementen
 keywords: gebruikersplan, licentie, essential, premium
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
@@ -15,16 +15,19 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 tier: starter
+redirect_from:
+  - /nl/admin/license/change-user-plan
+  - /nl/admin/user-management/learn/change-user-plan
 language: nl
 ---
 
 # SuperOffice gebruikersplannen en abonnementen
 
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
+
 U kunt kiezen uit drie zelfstandige **oplossingen** – Sales, Marketing en Service – gebaseerd op verschillende rollen binnen uw organisatie. Binnen elke oplossing zijn er twee niveaus: **Essential** en **Premium**. Kies het juiste plan waarop u uw toepassing baseert.
 
 Alle oplossingen kunnen uitgebreid worden met add-ons. Een add-on is een software-uitbreiding die extra functies toevoegt aan een programma. Dit kan bestaande functionaliteit uitbreiden of geheel nieuwe mogelijkheden bieden.
-
-Gebruikersplannen worden geïdentificeerd door het veld `ExtraFlags = 1` in hun ModuleLicense-record en de `"set="`-waarde in het veld `ExtraInfo`.
 
 ## Gemeenschappelijke functies in alle plannen en niveaus
 
@@ -41,7 +44,7 @@ Gebruikersplannen worden geïdentificeerd door het veld `ExtraFlags = 1` in hun 
   * Documenten en sjablonen
   * Taalondersteuning
   * MS SharePoint-documenten
-  * Google Workplace-documenten
+  * Google Workspace-documenten
 * E-mail
   * SuperOffice-inbox
   * SuperOffice voor Outlook 365
@@ -180,26 +183,39 @@ Deze kunnen worden gecombineerd tot:
 * [Expander Services][5]
 * [Agenda-synchronisatie][6]
 
-## Wat betekenen gebruikersplannen voor mijn app?
+## <a id="change"></a>Gebruikersplannen voor actieve gebruikers wijzigen
 
-Een klant kan één van de volgende factureringsperiodes kiezen voor zijn CRM-oplossing:
+Wanneer mensen nieuwe taken aannemen of een nieuwe baan in uw bedrijf krijgen, moet u mogelijk hun gebruikersplan wijzigen. U kunt gebruikers toegang geven tot nieuwe sets functionaliteiten door hun gebruikersplan te wijzigen in het gedeelte Instellingen en onderhoud.
 
-* maandelijks
-* per kwartaal
-* halfjaarlijks
-* jaarlijks
+### Stappen
 
-De contractduur bedraagt 12 maanden. Na de eerste 12 maanden wordt het contract automatisch verlengd volgens de gekozen factureringsperiode.
+1. Klik op **Gebruikers** in Instellingen en Onderhoud.
 
-Klanten kunnen plannen combineren die het beste bij hun behoeften passen. Ze kunnen ook later gebruikersplannen toevoegen of wijzigen.
+1. Kies in het venster voor medewerkers de actieve gebruiker die zijn/haar gebruikersplan moet wijzigen.
 
-Houd bij integraties en prijsmodellen rekening met deze flexibiliteit.
+    Zorg ervoor dat zij de juiste rol hebben en tot de juiste Primaire groep behoren.
+
+1. Kies in het veld voor Gebruikersplan het gewenste gebruikersplan.
+
+1. Klik op Opslaan. De volgende keer dat de gebruiker zich aanmeldt bij SuperOffice CRM, wordt de gebruiker bijgewerkt met de nieuwe functies en functies die beschikbaar zijn.
+
+> [!TIP]
+> Geef de gebruiker de nodige training en follow-up van zijn voortgang, zodat hij de nieuwe functies sneller opnemen.
+
+## Gerelateerde inhoud
+
+* [Hoe gebruikersplannen zijn opgebouwd][9]
+* [Nieuwe gebruiker toevoegen][10]
+* [Overzicht rollen][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

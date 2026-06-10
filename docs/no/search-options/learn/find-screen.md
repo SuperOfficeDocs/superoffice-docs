@@ -4,8 +4,8 @@ title: Søke-skjerm
 description: Søke-skjerm
 keywords: søk, finn
 author: SuperOffice RnD
-date: 08.25.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,7 +20,7 @@ Hvis du vil søke etter poster og data i SuperOffice CRM, bruker du **Søk**-skj
 Det er i praksis ingen grenser for hva du kan søke etter i SuperOffice CRM. På slutten av denne delen har vi tatt med eksempler for å gi deg tips om søking.
 
 > [!NOTE]
-> Hvis du har lisens på Developer Tools, kan du søke etter produkter i eksisterende tilbud. Hvis du har lisens på SuperOffice Service, kan du søke etter forespørsler.
+> Hvis du har en Development Tools-lisens eller Core-planen, kan du søke etter produkter i eksisterende tilbud. Hvis du har en Service Essentials- eller Premium-lisens, kan du søke etter forespørsler.
 
 ## Søke etter informasjon i SuperOffice CRM
 

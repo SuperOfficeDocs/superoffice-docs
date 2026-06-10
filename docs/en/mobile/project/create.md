@@ -4,9 +4,10 @@ title: Create project
 description: How to create projects in SuperOffice Mobile CRM.
 keywords: create project, add project, new project, project
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/project/create
 language: en

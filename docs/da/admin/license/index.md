@@ -4,8 +4,8 @@ title: SuperOffice og licenser
 description: SuperOffice og licenser
 keywords: licens, forbrugstjeneste, databaseejer, fanen status
 author: digitaldiina, xt1
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: Settings and maintenance
 topic: licenses
@@ -34,7 +34,18 @@ For at du kan logge på SuperOffice CRM fra en webklient kræves logonrettighede
 
 ### Fanen SuperOffice
 
-Under fanen **SuperOffice** i skærmbilledet Licenser kan du se og opdatere licensinformationen til din version af SuperOffice CRM og tilhørende moduler.
+Fanen **SuperOffice** viser licensoplysninger for dit SuperOffice-abonnement.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserede abonnementer](#tab/module-based)
+
+![SuperOffice tab showing system licences and user licences for a module-based subscription -screenshot][img1]
+
+#### [CRM Suite](#tab/crm-suite)
+
+![SuperOffice tab showing system licences and Core user licences for a CRM Suite subscription -screenshot][img3]
+
+***
 
 > [!NOTE]
 > Hvis der er installeret en tredjepartstilføjelse, vises der flere faner her.
@@ -45,17 +56,50 @@ Under fanen **SuperOffice** i skærmbilledet Licenser kan du se og opdatere lice
 
 #### Licensliste
 
-Listen nederst viser, hvilke licenser der er i brug, og hvor mange der er tilgængelige. Klik på et licensnavn for at få vist oplysninger om licensen.
+Listen nederst viser, hvilke licenser der er i brug, og hvor mange der er tilgængelige.
 
 ### Fanen Status
 
-Opdaterede oplysninger om systemet vises under fanen **Status** i skærmbilledet Licenser. Skærmbilledet **Status** er inddelt i følgende hoveddele:
+Opdaterede oplysninger om systemet vises under fanen **Status** i skærmbilledet Licenser.
+
+<!-- markdownlint-disable-file MD051 -->
+#### [Modulbaserede abonnementer](#tab/module-based-status)
+
+![Status tab showing database information and Metered services button for a module-based subscription -screenshot][img2]
+
+#### [CRM Suite](#tab/crm-suite-status)
+
+![Status tab showing a plan limit warning with an Upgrade button for a CRM Suite subscription -screenshot][img4]
+
+***
+
+Skærmbilledet **Status** er inddelt i følgende hoveddele:
 
 #### Database
 
-Her vises den ejer af databasen, det serienummer og den type, som angives ved installation. Derudover vises, om det er en central database eller en satellitdatabase. Du kan se den næste udløbsdato og navnet på den bruger, der er logget på.
+Her vises databasens ejer, serienummer, abonnement og type, som angives ved installation. Du kan se den næste udløbsdato og navnet på den bruger, der er logget på.
+
+Hvis din organisation er på et **SuperOffice CRM Suite**-abonnement, viser **Database**-sektionen også:
+
+* **Plan:** den plan, der er inkluderet i dit abonnement, f.eks. *Core*
+* **Begrænsninger:** dit aktuelle forbrug i forhold til planens grænser, f.eks. *1 af 100 aktive projekter*
+
+Plangrænser forhindrer din organisation i at overskride kapaciteten i den aktuelle plan. Indikatoren **Begrænsninger** viser, hvor tæt du er på en grænse:
+
+| Forbrug | Indikator | Betydning |
+|---|---|---|
+| Under 85 % | Antal vist med sort, f.eks. *1 af 100 aktive projekter* | Normal – ingen handling nødvendig |
+| 85 % eller mere | <i class="ph ph-warning" aria-label="Warning"></i> Antal vist med gult | Nærmer sig grænsen |
+| 100 % | <i class="ph ph-prohibit" aria-label="Limit reached"></i> Antal vist med rødt | Grænse nået – funktionen er begrænset |
+
+Vælg indikatoren for at åbne siden [SuperOffice CRM Suite][16] for yderligere oplysninger.
+
+Hvis du er systemadministrator, vises en **Opgrader**-knap ud for advarsel- eller stopindikatoren. Vælg den for at åbne en kontaktformular for at anmode om mere kapacitet eller planopgradering.
 
 #### Forbrugstjenester
+
+> [!NOTE]
+> Kun tilgængeligt med modulbaserede abonnementer. På CRM Suite-abonnementer åbner knappen **Mine apps** SuperOffice App Store.
 
 Klik på denne knap for at åbne dashboardet for dine forbrugsafregnede tjenester.
 
@@ -109,6 +153,7 @@ Under **Systemmeddelelser** finder du følgende kolonner:
 
 Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal brugere. Dette gælder blandt andet følgende produkter:
 
+* [CRM Suite][16]
 * Sales-Essentials
 * Sales-Premium
 * Service-Essentials
@@ -116,79 +161,29 @@ Endelig er der brugerplaner til SuperOffice CRM, som købes til et bestemt antal
 * Marketing-Essentials
 * Marketing-Premium
 
-### Site-licenser og bruger-licenser (Windows - ældre)
-
-Licenser til SuperOffice CRM til Windows (sidste udgivelse [SuperOffice G8 8.5 R17][6]) købes til et bestemt antal brugere.
-
-## <a id="dev"></a>Bag kulissene - lisenssystemet
-
-Lisenssystemet har egne databaser:
-
-* [ModuleOwner][11] – en utsteder av lisenser
-
-  * Vanligvis bare én rad (SuperOffice).
-  * Inneholder globale utløpsdatoer.
-
-* [ModuleLicense][12] – én rad per lisens
-
-  * Det finnes flere lisenser enn det som vises i GUI.
-  * Flere typer: System, sted, bruker; av/på eller med angitt antall.
-  * Synlige lisenser (som brukerplaner) vises i Admin. Brukerplaner har `ExtraFlags = 1`.
-  * Skjulte lisenser (som **user**-pålogging eller **web**-klientlisens) vises ikke i GUI, men sjekkes i kode for å bekrefte at funksjonen er tilgjengelig for brukeren.
-
-| Lisens | ModuleLicense.Type | Beskrivelse |
-|---|---|---|
-| **Systemlisenser** | 1 | Definerer hvilke funksjoner som er tilgjengelige for hele systemet.  <br />Eksempel: **saint**-lisens er til stede hvis Sales Intelligence er aktivert. Denne lisensen er skjult og aktiveres implisitt. SuperOffice-klienten sjekker etter den og aktiverer SAINT-funksjoner hvis den finnes. |
-| **Stedslisenser** | 2 | Brukes sjelden i dag. Tidligere brukt i satelittmiljøer hvor noen lisenser var knyttet til bestemte steder. |
-| **Brukerlisenser** | 3 | Tildeles direkte til brukere. Antall tildelinger kan ikke overstige antall tilgjengelige lisenser.  <br />Noen brukerlisenser er skjult for å forenkle GUI. Disse aktiveres gjennom brukerplaner.  <br />Brukerplaner har `ModuleLicense.ExtraFlags = 1` og definerer implisitte lisenser i `ExtraInfo`-feltet, for eksempel: <br>`"set=user,web,chat-cal"` tildeler lisensene **user**, **web** og **chat-cal** automatisk. |
-
-### Tilordne brukerlisenser
-
-[LicenseAssocLink][13] – kobler en spesifikk `moduleLicense` til en bestemt bruker. Dette er hvordan "John" blir en bruker og får Windows-klienttilgang: det blir 2 rader.
-
-Summen av lisenser som er tildelt for en modul, må ikke overstige antallet i `moduleLicense`. En ny lisens fra SuperLicense blir avvist hvis det allerede er for mange tildelinger.
-
-### Signering av lisenser
-
-Lisenser signeres med offentlig/privat nøkkel.
-
-Privat nøkkel er strengt beskyttet, og uten den kan man ikke lage en fungerende lisenskodegenerator.
-
-Hver `moduleLicense`-rad signeres, og alle rader har hash-sjekk for å forhindre manipulering.
-
-**Oppsummert:** Endrer du dem, slutter de å virke. Kun SoAdmin og NetServer kan redigere dem. Ingen andre.
-Hackere kan hacke DLL-filer, men ikke lage fungerende lisensgeneratorer for bruk med uhacket kode.
-
-### Telle brukere
-
-Det finnes to tilnærminger:
-
-#### 1: Hent lisens og les antall user/web-lisenser
-
-Brukere må ha både **user** og **web** for å logge inn i SuperOffice Web. Dette tallet er øvre grense, ikke antallet i bruk.
-
-Noen kunder har mange lisenser fordi de betaler etter bruk (SCIM). Da må du telle aktive brukere, ikke hvor mange lisenser som er tilgjengelige.
-
-#### 2: Hent lisens og summer antall brukte lisenser med ExtraFlags=1
-
-Brukerplanene er det kundene betaler for. De inkluderer flere implisitte, skjulte lisenser.
-
-Samme SCIM-forbehold: Tell antall brukte brukerplaner, ikke total tilgjengelig mengde.
-
 ## Relateret indhold
 
 * [SuperOffice brugerplaner og abonnementer][4]
 * [Køb og aktivering af licenser][1]
 * [Tidligere versioner af SuperOffice][7]
 * [Systemhændelser][3]
+* [Modullicenser][14]
+* [Skjulte licenser][15]
+* [Licens - teknisk oversigt][17]
 
 <!-- Referenced links -->
+[16]: crm-suite.md
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: https://help.superoffice.com/docs/11/da/admin/onsite/add-system-event.html
 [4]: user-plans.md
-[6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
-[11]: ../../../en/database/tables/ModuleOwner.md
-[12]: ../../../en/database/tables/ModuleLicense.md
-[13]: ../../../en/database/tables/LicenseAssocLink.md
+[14]: ../../../en/admin/license/dev/module-licenses.md
+[17]: ../../../en/admin/license/dev/index.md
+[15]: ../../../en/admin/license/dev/hidden-licenses.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/licenses-online-superoffice-tab.png
+[img2]: ../../../media/loc/en/admin/licenses-online-status-tab.png
+[img3]: ../../../media/loc/en/admin/licenses-suite-superoffice-tab.png
+[img4]: ../../../media/loc/en/admin/licenses-suite-core-with-upgrade.png

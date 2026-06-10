@@ -4,8 +4,8 @@ title: Offertes en orders configureren
 description: Ontdek hoe offertes, quote connectors en ERP-integratie werken in SuperOffice CRM en hoe u deze configureert op het scherm Offerte/Synchroniseren.
 keywords: quote connector, ERP-verbinding, offerte-instellingen, prijslijst, product, Offerte/Synchroniseren, ERP-configuratie, quote connector-instellingen, offerte-integratie, verkoopconfiguratie, offerte, synchroniseren
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -23,8 +23,7 @@ index: true
 
 Op het scherm **Offerte/Synchroniseren** onder Instellingen en onderhoud configureert u alles wat nodig is om offertes en orders mogelijk te maken in SuperOffice CRM.
 
-> [!NOTE]
-> Deze functie vereist het **Sales Premium** gebruikersplan.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Producten en prijslijsten
 

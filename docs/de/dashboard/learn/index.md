@@ -4,8 +4,8 @@ title: Dashboards
 description: SuperOffice Dashboards sind ideal für Benutzer und Manager. Verschaffen Sie sich einen Überblick über Ihre Arbeit oder die Leistung Ihres Teams mit vordefinierten Kacheln oder erstellen Sie eigene.
 keywords: dashboard administrator, Diagramm, Bericht, Datensatz, große Zahl, Messanzeige, Dashboard, Kachel, Schnellfilter
 author: digitaldiina
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -22,7 +22,7 @@ Verwenden Sie Dashboards, um Aktivitäten, Verkäufe, Anfragen und mehr zu verfo
 ![Anfragendashboard -screenshot][img4]
 
 > [!NOTE]
-> Ihr Zugriff auf Dashboards und Kacheldaten hängt von Ihrem Benutzerplan und den zugewiesenen Rechten ab.
+> Ihr Zugriff auf Dashboards und Kacheldaten hängt von Ihrem Plan und den zugewiesenen Rechten ab.
 
 ## Was ist ein Dashboard?
 
@@ -45,7 +45,7 @@ Wählen Sie **Dashboard** im Navigator, um den Dashboard-Bildschirm zu öffnen. 
 * **Favoriten-Dashboards:** Mit einem Sternsymbol markiert
 * **Eigene Dashboards:** Von Ihnen erstellte Dashboards
 
-Standardmäßig ist ein Dashboard namens **Status** verfügbar und angeheftet. Es enthält Kacheln mit vordefinierten Diagrammen und Kennzahlen. Wenn Sie den SuperOffice Service-Plan haben, steht auch ein weiteres Dashboard namens **Anfragen** zur Verfügung.
+Standardmäßig ist ein Dashboard namens **Status** verfügbar und angeheftet. Es enthält Kacheln mit vordefinierten Diagrammen und Kennzahlen. Wenn Sie eine **Service Essentials**-Lizenz oder den **Starter**-Plan haben, steht auch ein weiteres Dashboard namens **Anfragen** zur Verfügung.
 
 Sie können zusätzliche Dashboards erstellen oder bestehende duplizieren, um diese anzupassen.
 
@@ -171,9 +171,10 @@ Nur der **Eigentümer** eines Dashboards kann es löschen.
 |---|---|---|
 | Alle CRM-Pläne | Status-Dashboard mit Standardkacheln | Diagramme, Listen, große Zahlen |
 | **Service** | Anfragen-Dashboard | Anfragebezogene Kacheln |
-| **Marketing** (Essentials oder höher) | – | Mailings, Formularantworten, Chats |
-| **Sales Premium** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
-| **Sales oder Service Premium** | – | Aktivitätsüberwachung (SAINT) |
+| **Marketing Essentials**-Lizenz oder den **Core**-Plan | – | Mailings, Chats |
+| **Marketing Premium**-Lizenz oder den **Plus**-Plan | – | Formularantworten |
+| **Sales Premium** oder **Growth** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
+| **Sales oder Service Premium** oder **Growth** | – | Aktivitätsüberwachung (SAINT) |
 
 ## Tipps
 

@@ -4,8 +4,8 @@ title: Werken met items in Veelgestelde vragen
 description: Werken met items in Veelgestelde vragen
 keywords: Veelgestelde vragen, kennisdatabase
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq
@@ -25,7 +25,7 @@ redirect_from:
 
 Veelgestelde vragen (FAQ's) zijn een belangrijk onderdeel van de afhandeling van service-verzoeken. Aangezien veel vragen van klanten zich in de loop van de tijd herhalen, is het een goed idee om veelgestelde vragen te maken die antwoorden op dergelijke terugkerende vragen bevatten.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Voordelen van een bibliotheek met veelgestelde vragen
 

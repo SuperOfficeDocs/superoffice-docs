@@ -4,8 +4,8 @@ title: Opret en salgsmåltype med undertyper
 description: Det kan være stressende at holde styr på dine salgsmål. Men hvis du definerer parametre og dimensioner for dine salgsmål, bliver det meget nemmere at holde styr på dine mål.
 keywords: salgsmål, dimension
 author: SuperOffice Product and Engineering
-date: 09.17.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium, Unlimited sales targets
 tier: growth
@@ -27,7 +27,7 @@ Som standard inkluderer SuperOffice én måltype: **Alle salg – Beløb**. Du k
 Du skal have den funktionelle ret **Targets administrator** for at tilføje, redigere eller slette måltyper.
 
 > [!NOTE]
-> For at tilføje måltyper har du brug for Unlimited sales targets-licensen ud over Sales Premium-licensen.
+> For at tilføje måltyper skal du have en **Sales Premium**-licens eller **Growth**-planen og **Sales Targets Unlimited**-tilføjelsen, eller **Super**-planen.
 
 ## Tilgængelige måltyper
 

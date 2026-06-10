@@ -3,12 +3,12 @@ uid: help-da-sale-create
 title: Registrer et salg
 description: Registrer salg i SuperOffice Sales for at samle alle dine muligheder og kundeoplysninger ét sted. Denne vejledning viser, hvordan du registrerer salg.
 keywords: opret salg, nyt salg, tilføj salg, registrer salg, salg
-author: SuperOffice RnD
-date: 06.26.2025
-version: 10.5.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da

@@ -4,11 +4,11 @@ title: Tilordne layout til gruppe, type eller mal
 description: Hvordan tilordne layout til gruppe eller type ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: skjermoppsett, tilordne oppsett, layout
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -20,7 +20,7 @@ redirect_from: /no/customization/screen-designer/assign-layout
 
 # Tilordne layout til gruppe, type eller mal
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 ## Trinn
 

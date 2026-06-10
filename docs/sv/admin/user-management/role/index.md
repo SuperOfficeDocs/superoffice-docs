@@ -4,16 +4,16 @@ title: Roll
 description: Roll
 keywords: roll, dataobjekt, användarnivå
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /sv/admin/user-management/learn/role/index
 tier: starter
+redirect_from: /sv/admin/user-management/learn/role/index
 language: sv
 ---
 
@@ -59,6 +59,8 @@ Administratörer har åtkomst till sektionen Inställningar och underhåll. Där
 Om du inte vill att användaren ska ha tillgång till Inställningar och underhåll tilldelar du behörighet 1 eller högre beroende på vilken åtkomst de behöver.
 
 ## Hantera dina roller
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 I sektionen Roller kan du [definiera vilken typ av åtkomst][3] dina användare har till olika delar av SuperOffice CRM. Du kan också anpassa varje användarnivå genom att ändra databehörigheter och/eller [funktionella behörigheter][6].
 

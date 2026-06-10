@@ -4,8 +4,8 @@ title: Working with tiles
 description: Learn how to add, customize, and manage tiles in your SuperOffice dashboards.
 keywords: add tile, edit tile, copy tile, duplicate tile, remove tile, customize tile, dataset, dashboard, tile
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 tier: core
 audience: person
@@ -18,6 +18,8 @@ redirect_from:
 ---
 
 # Working with tiles
+
+[!include[License requirement](../../includes/req-core.md)]
 
 Learn how to add, customize, and manage tiles in your SuperOffice dashboards. Tiles are visual summaries based on CRM data—ideal for tracking requests, sales, activities, or marketing results.
 
@@ -130,6 +132,9 @@ Use this tile to display formatted text in your dashboard. For example, a welcom
 1. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][7] to the tile title and labels.
 1. Click **Save**.
 
+> [!NOTE]
+> **CRM Suite:** Editing tile layout (chart type, labels, and other visual settings on the **Layout** tab) requires the **Growth** plan or higher. On Starter or Core plans, the Layout tab fields are read-only and a message at the bottom of the dialog explains the restriction. Administrators can click **Upgrade** to open a contact form.
+
 ## <a id="copy"></a>Duplicate or copy a tile
 
 You can reuse an existing tile by either duplicating it in the same dashboard or copying it to another dashboard. You must have **edit access to the target dashboard** to copy a tile to it.
@@ -215,6 +220,10 @@ Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in the he
 
 * **I cannot access the layout tab or fields**
   * You may not have the required functional rights. Contact your administrator.
+  * **CRM Suite:** On Starter or Core plans, the **Layout** tab fields are read-only. Editing tile layout requires the **Growth** plan or higher.
+
+* **I cannot create or duplicate a dashboard**
+  * **CRM Suite (Starter plan):** The Starter plan includes up to 3 dashboards. When this limit is reached, **Create dashboard** and **Duplicate dashboard** are unavailable. Delete an existing dashboard or upgrade to the Core plan or higher. See [Plan limits][8].
 
 * **A selection is missing from the Selections tab**
   * See [About selection-based tiles](#selection-chart)
@@ -228,6 +237,7 @@ Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in the he
 * [Use dashboards to manage your sales pipeline][2]
 
 <!-- Referenced links -->
+[8]: ../../admin/license/crm-suite.md
 [1]: create.md
 [2]: show-sales-targets.md
 [3]: index.md#charts

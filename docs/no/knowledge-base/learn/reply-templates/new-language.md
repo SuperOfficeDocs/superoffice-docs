@@ -3,14 +3,14 @@ uid: help-no-reply-template-language
 title: Opprette ny språkversjon av svarmal
 description: Opprette ny språkversjon av svarmal
 keywords: oversett svarmal, ny språkversjon, svarmal, mal
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

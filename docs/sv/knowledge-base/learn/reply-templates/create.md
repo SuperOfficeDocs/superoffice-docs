@@ -3,14 +3,14 @@ uid: help-sv-reply-template-create
 title: Skapa svarsmallar
 description: Lär dig hur du skapar en svarsmall i denna steg-för-steg-guide.
 keywords: skapa svarsmall, ny svarsmall, kopiera svarsmall, svarsmallsegenskaper, ny mall
-author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

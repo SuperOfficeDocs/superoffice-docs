@@ -4,9 +4,10 @@ title: Enable caller ID
 description: How to enable caller ID in SuperOffice Mobile CRM.
 keywords: mobile, caller ID, call identification, phone number
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: howto
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/caller-id
 language: en
@@ -44,7 +45,7 @@ Caller ID uses numbers from:
 
 ## Requirements
 
-* SuperOffice CRM Online (any user plan)
+* SuperOffice CRM Online (any user plan, or CRM Suite Core)
 * Mobile CRM app version 10.1.9 or higher
 
 ## How to enable caller ID

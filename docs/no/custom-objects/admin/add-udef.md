@@ -4,8 +4,8 @@ title: Legge til brukerdefinert felt
 description: Legge til brukerdefinert felt
 keywords: udef, brukerdefinert, egendefinert felt, feltegenskaper
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,7 +38,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 1. Når du er ferdig, klikk på **Lagre**. Dialogen lukkes, og det nye feltet vises i **Felt**-listen og i rutenettet.
 
-1. [Valgfritt, juster feltets posisjon][3]. Dette krever lisensen Development Tools!
+1. [Valgfritt, juster feltets posisjon][3]. Dette krever lisensen Development Tools eller Core-planen.
 
 1. Fortsett å legge til felt. Klikk på **Publiser** når du er ferdig for å gjøre feltet tilgjengelig for SuperOffice-brukere. Upubliserte felt og felt med upubliserte endringer vises i fet tekst i listen **Felt**.
 

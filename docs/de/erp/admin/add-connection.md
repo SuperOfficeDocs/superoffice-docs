@@ -3,9 +3,9 @@ uid: help-de-erp-add-connection
 title: Sync Connector und ERP-Verbindung hinzufügen
 description: Erfahren Sie, wie Sie eine Sync-App installieren, einen Sync Connector hinzufügen und ERP-Verbindungen erstellen, um die Synchronisation zwischen SuperOffice CRM und einem ERP-System zu ermöglichen.
 keywords: ERP-Synchronisation einrichten, Sync Connector hinzufügen, ERP-Verbindung hinzufügen, ERP-Verbindung testen, ERP-Verbindung, Connector, Synchronisation, ERP
-author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth
@@ -20,7 +20,7 @@ index: true
 
 # Sync Connector und ERP-Verbindung hinzufügen
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 Um Daten zwischen SuperOffice CRM und einem ERP-System zu synchronisieren, müssen Sie zunächst eine Sync-App installieren. Danach konfigurieren Sie in **Einstellungen und Verwaltung** einen Sync Connector und eine oder mehrere ERP-Verbindungen.
 

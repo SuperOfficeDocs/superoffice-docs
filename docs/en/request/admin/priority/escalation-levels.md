@@ -3,12 +3,12 @@ uid: help-en-request-escalation
 title: Escalation levels
 description: Escalation levels
 keywords: escalation level, add escalation level, new level, escalate, Escalation levels tab, request priority, request, priority
-author: Hanne Gunnarsson
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
-license: serviceessentials
-tier: core
+license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

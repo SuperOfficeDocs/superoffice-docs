@@ -3,7 +3,7 @@ uid: help-da-customer-centre
 title: Kundecenter
 description: Kundecenter
 author: SuperOffice RnD
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundecenter
 content_type: concept
 tier: growth
@@ -21,7 +21,7 @@ Kundecenter spiller en stor rolle i at skabe en positiv kundeoplevelse. Kundecen
 Kundecenterfunktionen i Customer Engagement-platformen er en enkeltstående portal, der kan integreres i dit eksisterende websted. Kundecentret kan indeholde onlineformularer, og du kan også tilbyde kunderne en chattjeneste, der giver dem mulighed for at stille spørgsmål direkte i centret.
 
 > [!NOTE]
-> Kundecenter er en af de funktioner, du får med licensen til Customer Engagement-platformen.
+> Kundecenter er en af de funktioner, der er inkluderet i tilføjelsesprogrammet **Customer Engagement Platform (CEP)**.
 
 ## Skærmbilledet Kundecenter
 

@@ -4,8 +4,8 @@ title: Arbejde med ruder
 description: Lær hvordan du tilføjer, tilpasser og administrerer ruder i dine SuperOffice dashboards.
 keywords: tilføj rude, rediger rude, kopier rude, dupliker rude, fjern rude, tilpas rude, datasæt, dashboard, rude
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -18,6 +18,8 @@ redirect_from:
 ---
 
 # Arbejde med ruder
+
+[!include[License requirement](../../includes/req-core.md)]
 
 Lær hvordan du tilføjer, tilpasser og administrerer ruder i dine SuperOffice dashboards. Ruder er visuelle oversigter baseret på CRM-data – ideelle til at holde styr på sager, salg, aktiviteter eller markedsføringsresultater.
 
@@ -130,6 +132,9 @@ Brug denne rude til at vise formateret tekst i dashboardet. Det kan for eksempel
 1. Klik på <i class="ph ph-translate" aria-label="Translate"></i> for at [tilføje en oversættelse][7] af rudens titel og etiketter.
 1. Klik på **Gem**.
 
+> [!NOTE]
+> **CRM Suite:** Redigering af rudelayout (diagramtype, etiketter og andre visuelle indstillinger i fanen **Layout**) kræver **Growth**-planen eller højere. På Starter- eller Core-planer er felterne på fanen Layout skrivebeskyttede, og en meddelelse i bunden af dialogen forklarer begrænsningen. Administratorer kan vælge **Opgrader** for at åbne en kontaktformular.
+
 ## <a id="copy"></a>Duplikér eller kopier en rude
 
 Du kan genbruge en eksisterende rude ved enten at duplikere den i samme dashboard eller kopiere den til et andet dashboard. Du skal have **redigeringstilladelse til måldashboardet** for at kunne kopiere en rude til det.
@@ -215,6 +220,10 @@ Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i rude
 
 * **Jeg har ikke adgang til fanen Layout eller felterne**
   * Du har muligvis ikke de nødvendige funktionelle rettigheder. Kontakt din administrator.
+  * **CRM Suite:** På Starter- eller Core-planer er felterne på fanen Layout skrivebeskyttede. Redigering af rudelayout kræver **Growth**-planen eller højere.
+
+* **Jeg kan ikke oprette eller duplikere et dashboard**
+  * **CRM Suite (Starter-plan):** Starter-planen inkluderer op til 3 dashboards. Når denne grænse er nået, er **Opret dashboard** og **Duplikér dashboard** utilgængelige. Slet et eksisterende dashboard, eller opgrader til Core-planen eller højere. Se [Plangrænser][8].
 
 * **Et udvalg mangler i fanen Udvalg**
   * Se [Om ruder baseret på udvalg](#selection-chart)
@@ -228,6 +237,7 @@ Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i rude
 * [Brug dashboards til at administrere din salgspipeline][2]
 
 <!-- Referenced links -->
+[8]: ../../admin/license/crm-suite.md
 [1]: create.md
 [2]: show-sales-targets.md
 [3]: index.md#charts

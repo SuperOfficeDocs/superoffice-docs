@@ -4,8 +4,8 @@ title: Projects
 description: Working with projects
 keywords: project, project management
 author: Bergfrid Dias
-date: 10.25.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 topic: concept
 redirect_from:
   - /en/project/overview
@@ -15,7 +15,7 @@ redirect_from:
 
 # Projects
 
-[!include[License requirement](../../../../common/includes/req-for-project-mgt.md)]
+[!include[Requirement](../../includes/req-core.md)]
 
 ![Project card -screenshot][img1]
 

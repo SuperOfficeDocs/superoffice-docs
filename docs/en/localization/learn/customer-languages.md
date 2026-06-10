@@ -4,8 +4,8 @@ title: Customer languages
 description: Customer languages
 keywords: language
 author: digitaldiina
-date: 10.09.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: person
@@ -18,7 +18,7 @@ language: en
 
 # Customer languages
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 To offer great customer experience you need to support your customers in their local language when they visit your Customer centre and in the communication with the customer.
 

@@ -1,9 +1,10 @@
 ---
-uid: install-pocket-online
-title: Install - online
+uid: install-pocket
+title: Install
 description: How to install and configure the CRM Pocket client
 keywords: install Pocket, configure Pocket
 author: SuperOffice Product and Engineering
+date: 06.10.2026
 content_type: howto
 platform: pocket
 deployment: onsite
@@ -43,10 +44,10 @@ Pocket CRM is included in Onsite Subscription and you can just download and ins
 
 ## Reset the Pocket CRM client
 
-If you need to either reset the settings or configure the client with another connection URL you can delete the settings by uninstalling the app then install it again - then you will be asked to choose how to connect (CRM Online / Onsite) once more.
+If you need to either reset the settings or configure the client with another connection URL you can delete the settings by uninstalling the app then install it again - then you will be asked to choose how to connect once more.
 
 <!-- Referenced links -->
-[1]: https://online.superoffice.com/mobile
+[1]: ../../mobile/index.md
 [2]: deploy.md
 [4]: https://play.google.com/store/apps/details?id=no.superoffice.pocket.j2me.SuperOffice
 [5]: http://itunes.apple.com/no/app/superoffice/ce/id445355343

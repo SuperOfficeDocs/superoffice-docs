@@ -4,8 +4,8 @@ title: Publicera formulär
 description: Publicera formulär
 keywords: formulär, publicera, publicera formulär, förifyllda fält, fältidentifierare, skripttagg, direktlänk, UTM-byggare, lägg till UTM-spårning
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms
@@ -80,7 +80,7 @@ Den inbyggda **UTM-byggaren** skapar en formulärlänk med [UTM-parametrar][4], 
 
 ### Förutsättningar och begränsningar
 
-* Du har en **Marketing Premium**-användarplan.
+* Du har en **Marketing Premium**-licens eller **Plus**-planen.
 * En administratör har [aktiverat överföring av UTM-data för formulärinlämningar][6].
 * UTM-spårning är endast tillgänglig för alternativet **Direktlänk**. Den gäller inte för inbäddade formulär.
 

@@ -4,22 +4,22 @@ title: Triggrar
 description: Triggrar
 keywords: CRMScript, utlösare
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /sv/automation/crmscript/learn/trigger
 tier: core
+redirect_from: /sv/automation/crmscript/learn/trigger
 language: sv
 index: true
 ---
 
 # Triggrar
 
-[!include[Requirement](../../../includes/req-dev-tools.md)]
+[!include[Requirement](../../../includes/req-dev-tools-transition.md)]
 
 Utlösare är skript som körs för specifika händelser i systemet, till exempel när en ny försäljning skapas eller ett ärende stängs. Utlösare kan reagera tyst på vad som händer, eller blockera åtgärden och visa en förklaring för användaren.
 

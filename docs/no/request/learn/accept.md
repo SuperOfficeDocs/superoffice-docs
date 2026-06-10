@@ -3,12 +3,12 @@ uid: help-no-request-accept
 title: Overta (ta ansvar for) en sak
 description: Hvordan overta en sak for å unngå at andre svarer på den samtidig.
 keywords: overta sak, godta, ansvar, saksbehandler, neste i køen, sak
-author: Bergfrid Dias
-date: 02.04.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

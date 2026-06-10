@@ -4,23 +4,30 @@ title: Brugerplaner
 description: SuperOffice brugerplaner og abonnementer
 keywords: brugerplan, licens, essential, premium
 author: Christian Mogensen, Bergfrid Dias
-date: 04.23.2024
-version: 10.3.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 deployment: online
 platform: web
+category: Settings and maintenance
+topic: licenses
+audience: settings
+audience_tooltip: Settings and maintenance
 index: true
 tier: starter
+redirect_from:
+  - /da/admin/license/change-user-plan
+  - /da/admin/user-management/learn/change-user-plan
 language: da
 ---
 
 # SuperOffice brugerplaner og abonnementer
 
+[!include[Applies to SuperOffice CRM Online](../../includes/req-2025-packaging.md)]
+
 Du kan vælge mellem 3 selvstændige **løsninger** – Sales, Marketing og Service – baseret på forskellige roller i din virksomhed. Hver løsning findes i to niveauer: **Essential** og **Premium**. Find de rigtige planer at basere din applikation på.
 
 Alle løsninger kan have forskellige tilføjelser. En tilføjelse (add-on) er en softwareudvidelse, der giver ekstra funktioner. Den kan udvide bestemte funktioner i programmet eller tilføje ny funktionalitet.
-
-Brugerplaner identificeres ved, at `ExtraFlags` er sat til 1 i modullicensposten, og at `ExtraInfo`-feltet indeholder `"set="`.
 
 ## Fælles funktioner i alle planer og niveauer
 
@@ -37,7 +44,7 @@ Brugerplaner identificeres ved, at `ExtraFlags` er sat til 1 i modullicensposten
   * Dokumenter og skabeloner
   * Sprogunderstøttelse
   * MS SharePoint-dokumenter
-  * Google Workplace-dokumenter
+  * Google Workspace-dokumenter
 * E-mail
   * SuperOffice-indbakke
   * SuperOffice til Outlook 365
@@ -176,26 +183,39 @@ Disse kan kombineres til:
 * [Expander Services][5]
 * [Kalendersynkronisering][6]
 
-## Hvordan påvirker brugerplaner min app?
+## <a id="change"></a>Ændring af brugerplaner for aktive brugere
 
-En kunde kan vælge én af følgende faktureringsperioder til deres CRM-løsning:
+Når folk påtager sig nye opgaver eller får et nyt job i dit firma, skal du muligvis ændre deres brugerplan. Du kan give brugerne adgang til nye funktioner ved at ændre deres brugerplan i afsnittet Indstillinger og vedligeholdelse.
 
-* månedligt
-* kvartalsvis
-* halvårligt
-* årligt
+### Trin
 
-Kontraktperioden er 12 måneder. Efter de første 12 måneder fornyes den automatisk i henhold til den valgte faktureringsperiode.
+1. I Indstillinger og vedligeholdelse skal du klikke på **Brugere**.
 
-Kunder kan kombinere planer efter behov. De kan også tilføje eller ændre brugerplaner senere.
+1. I vinduet for medarbejdere skal du vælge den aktive bruger, der har brug for at få ændret sin brugerplan.
 
-Du bør tage højde for denne fleksibilitet, når du integrerer specifikke funktioner og fastlægger din prismodel.
+    Sørg for, at de har den rette rolle og tilhører den rette primærgruppe.
+
+1. I feltet for Brugerplan skal du vælge den ønskede brugerplan.
+
+1. Klik på Gem. Næste gang brugeren logger på SuperOffice CRM, vil brugeren blive opdateret med de nye funktioner, der er tilgængelige.
+
+> [!TIP]
+> Giv brugerne den nødvendige træning og opfølgning på deres fremskridt, så de hurtigere tager de nye funktioner til sig.
+
+## Relateret indhold
+
+* [Sådan opbygges brugerplaner][9]
+* [Tilføj ny bruger][10]
+* [Oversigt over roller][11]
 
 <!-- Referenced links -->
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
 [5]: expander-services.md
-[6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
+[9]: ../../../en/admin/license/dev/user-plans.md
+[10]: ../user-management/add-associate.md
+[11]: ../user-management/role/index.md

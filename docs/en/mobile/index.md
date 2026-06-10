@@ -4,9 +4,10 @@ title: Mobile CRM - Access your CRM on the go
 description: Discover what's new in the refreshed Mobile CRM and how to get started on the go.
 keywords: mobile CRM app, SuperOffice mobile CRM, mobile, customer info, sales, on the go, refreshed interface
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: concept
+tier: core
 platform: mobile
 redirect_from:
  - /en/mobile/superoffice-mobile/index
@@ -111,5 +112,3 @@ Already logged in? [Explore the interface][4] or [customize your settings][5].
 
 <!-- Referenced images -->
 [img1]: ../../media/loc/en/mobile/3-screens.png
-
-<!--Old YT video: https://www.youtube.com/embed/IPJHqn0THTY-->

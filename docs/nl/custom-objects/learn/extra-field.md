@@ -4,18 +4,18 @@ title: Extra veld
 description: Extra veld
 keywords: extra veld, aangepast, databasetabel
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: growth
+tier: core
 language: nl
 ---
 
 # Extra veld
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 Een *extra veld* is een aangepast veld dat je toevoegt aan een bestaande SuperOffice-databasetabel. Je kunt de volgende entiteiten uitbreiden:
 

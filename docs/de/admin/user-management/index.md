@@ -4,20 +4,20 @@ title: Benutzer
 description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
 keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: user
 index: true
+tier: starter
 redirect_from: 
   - /de/admin/user-management/learn/index
   - /de/admin/user-management/learn/screen/index
   - /de/admin/user-management/learn/visibility
   - /de/admin/user-management/learn/associates-filter-group
-tier: starter
 language: de
 ---
 
@@ -41,14 +41,6 @@ Jedes Datenobjekt gehört einem Benutzer, der Sie selbst (a), Benutzer in Ihrer 
 
 Die Eigentümerschaft der verschiedenen Datenobjekte wird in verschiedenen Feldern festgelegt. Zum Beispiel legt im Firmen­satz das Feld **Unser Kontakt** den Eigentümer des Datensatzes fest. Bei Follow‑ups ist es das Feld **Owner**, im Projekt **Verantwortlich**, und so weiter.
 
-## <a id="visible"></a>Sichtbarkeit
-
-Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten Rolle ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
-
-Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich.
-
-Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf die Registerkarte **Lizenzen** und dann das Kontrollkästchen für **Vertrauliche Aktivitäten** anklicken.
-
 ## Benutzer-Typen
 
 * **Mitarbeiter**: SuperOffice CRM-Benutzer (in Ihrer Firma)
@@ -67,9 +59,6 @@ Auf der Registerkarte **Mitarbeiter** der Ansicht **Benutzer** können Sie Benut
 
 Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss sie bei einer im Listenfeld **Firma** der Ansicht Benutzer angezeigten Firma registriert sein. Damit eine Firma im Listenfeld **Firma** der Ansicht Benutzer aufgeführt wird, muss sie als Firma in der Firmenliste auf der Registerkarte **Unsere Firmen** aufgeführt sein.
 
-> [!NOTE]
-> In der Ansicht Benutzer können Sie festlegen, welche Lizenzen Sie den verschiedenen Benutzern zuteilen wollen. Um neue Systemlizenzen hinzuzufügen oder für ein oder mehrere Module die Anzahl der Lizenzen erhöhen/reduzieren möchten, wenden Sie sich für [Lizenzinformationen aktualisieren][16] an SuperOffice.
-
 ## Benutzergruppen
 
 Eine **Gruppe** wird dem Benutzer zugewiesen und gewährt Zugriff auf Datenobjekte (4 im vorherigen Diagramm). Ein Benutzer muss eine **primäre Gruppe** haben und kann mehrere **andere Gruppen** haben.
@@ -78,15 +67,13 @@ Eine **Gruppe** wird dem Benutzer zugewiesen und gewährt Zugriff auf Datenobjek
 
 In diesem Beispiel hat Benutzer A Marketing als andere Gruppe und Benutzer B hat Marketing als primäre Gruppe. In diesem Fall, wenn Benutzer A Daten sehen möchte, die von Benutzer B erstellt wurden, muss in der Rolle von Benutzer A die Rechte „Lesen" neben allen Datenobjekten in der Spalte *Andere Gruppe* vorhanden sein. Dies liegt daran, dass die Marketing‑Gruppe die andere Gruppe für Benutzer A ist und sie mit Datensätzen verknüpft, die Benutzer B erstellt.
 
-Eine Gruppe kann auch Zugriff auf Listenelemente (5 im Diagramm) in SuperOffice CRM gewähren. Dies ist nur relevant, wenn Sie die Einstellung **Gruppierung und Filterung** (a) für Ihre Listen verwenden. Ist diese Einstellung nicht aktiviert, haben alle Benutzer Zugriff auf alle Listen in SuperOffice CRM. Gruppierung und Filterung sind besonders nützlich, wenn viele Benutzer mit verschiedenen Verantwortlichkeiten Zugriff auf das System haben. Auf diese Weise können Sie vermeiden, dass bestimmte Benutzer auf Informationen zugreifen, die sie nicht sehen sollten.
+Eine Gruppe kann auch Zugriff auf Listenelemente in SuperOffice CRM gewähren. Dies ist nur relevant, wenn Sie die Einstellung **Gruppierung und Filterung** für Ihre Listen verwenden. Ist diese Einstellung nicht aktiviert, haben alle Benutzer Zugriff auf alle Listen in SuperOffice CRM. Gruppierung und Filterung sind besonders nützlich, wenn viele Benutzer mit verschiedenen Verantwortlichkeiten Zugriff auf das System haben. Auf diese Weise können Sie vermeiden, dass bestimmte Benutzer auf Informationen zugreifen, die sie nicht sehen sollten.
 
 ![Gruppierung und Filterung nach Benutzergruppe für Dokumentvorlagen‑Liste –screenshot][img6]
 
-Beispielsweise wenn Sie ein bestimmtes Listenelement nur für bestimmte Benutzer sichtbar machen möchten, gehen Sie zur Liste, die diese Elemente enthält (a), wählen das Element aus (b) und setzen im Feld „Sichtbar für Benutzergruppen" ein Häkchen bei den Benutzergruppen, die das Listenelement sehen sollen (c).
+Beispielsweise wenn Sie ein bestimmtes Listenelement nur für bestimmte Benutzer sichtbar machen möchten, gehen Sie zur Liste, die diese Elemente enthält, wählen das Element aus und setzen im Feld „Sichtbar für Benutzergruppen" ein Häkchen bei den Benutzergruppen, die das Listenelement sehen sollen.
 
-![Präferenz‑Ebene Auswahl Gruppe für Follow‑up –screenshot][img7]
-
-Wenn Sie Ihre Benutzer in Gruppen organisiert haben, ist das auch praktisch, wenn Sie SuperOffice‑Einstellungen personalisieren möchten, die wir [Präferenzen][15] (6) nennen. Jede Präferenz kann für einen einzelnen Benutzer, eine Benutzergruppe oder das gesamte System eingestellt werden.
+Wenn Sie Ihre Benutzer in Gruppen organisiert haben, ist das auch praktisch, wenn Sie SuperOffice‑Einstellungen personalisieren möchten, die wir [Präferenzen][15] nennen. Jede Präferenz kann für einen einzelnen Benutzer, eine Benutzergruppe oder das gesamte System eingestellt werden.
 
 ![Präferenzen für Vertriebs‑Gruppe –screenshot][img8]
 
@@ -95,8 +82,6 @@ Wenn Sie Ihre Benutzer in Gruppen organisiert haben, ist das auch praktisch, wen
 In der Ansicht Benutzer können Sie verschiedene Benutzertypen hinzufügen und bearbeiten.
 
 ![Übersicht über die Ansicht Benutzer in Einstellungen und Verwaltung -screenshot][img3]
-
-[**Unsere Firmen:**][2] Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss diese Person bei einer Firma in der Liste **Firma** auf der Ansicht Benutzer angezeigt werden. Damit eine Firma in der Liste **Firma** auf der Ansicht Benutzer angezeigt wird, muss die Firma in der Liste Firma in der Registerkarte **Unsere Firma** angezeigt werden.
 
 > [!NOTE]
 > Änderungen, die Sie in der Ansicht Benutzer vornehmen, werden erst wirksam, wenn Sie unten in der Ansicht auf **Speichern** klicken und im daraufhin angezeigten Dialogfeld bestätigen, dass Sie die Änderungen speichern möchten. Wenn Sie auf **Abbrechen** klicken, gehen alle in dieser Ansicht vorgenommenen Änderungen seit Ihrer letzten Speicherung verloren.
@@ -113,21 +98,17 @@ Standardmäßig enthält die Liste auf der Registerkarte **Mitarbeiter** die fol
 | Primärgruppe | Die Primärgruppe des Benutzers |
 | Rolle | Die [Rolle][6] die dem Benutzer zugewiesen wurde. Die Rolle bestimmt die Zugriffsrechte des Benutzers in SuperOffice CRM. |
 | Benutzerplan | Der Benutzerplan, der dem Benutzer zugewiesen wurde |
-| Zugehörigkeit: Firma | Der Name der Organisation, zu der der Benutzer gehört (definiert als Datenbankbesitzer). |
 
 > [!TIP]
 > Sie können auswählen, welche Spalten in der Liste angezeigt werden sollen. Klicken Sie einfach mit der rechten Maustaste auf eine Spaltenüberschrift und wählen Sie die relevanten Spalten in der Spaltenliste aus. Um die Reihenfolge der Spalten zu ändern, klicken und ziehen Sie eine Spaltenüberschrift.
 
-* **Suche nach Benutzern:** Mit dieser dynamischen Suchfunktion können Sie bestimmte Benutzer schnell nach Namen oder Benutzer-ID suchen oder alle Benutzer suchen, die zu bestimmten Rollen, Gruppen oder Benutzerplänen gehören. Geben Sie einfach Text in das Suchfeld ein, um die Liste mit den entsprechenden Benutzern zu aktualisieren.
+* **Suche nach Benutzern:** Mit dieser dynamischen Suchfunktion können Sie bestimmte Benutzer schnell nach Namen oder Benutzer-ID suchen oder alle Benutzer suchen, die zu bestimmten Rollen, Gruppen oder Benutzerplänen (SuperOffice CRM Online) gehören. Geben Sie einfach Text in das Suchfeld ein, um die Liste mit den entsprechenden Benutzern zu aktualisieren.
 
 * **Nur Benutzer anzeigen, die sich anmelden können:** Mit dieser Option werden nur Benutzer angezeigt, die aktiv sind (nicht deaktiviert wurden).
 
 #### Liste filtern <i class="ph ph-funnel" aria-hidden="true"></i>
 
-Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
-
-> [!NOTE]
-> Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gefiltert werden soll.
+Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern. Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gefiltert werden soll.
 
 1. Gehen Sie zur Registerkarte **Mitarbeiter**.
 1. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
@@ -140,10 +121,7 @@ Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
 
 #### Gruppieren der Liste
 
-Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und ähnlichem gruppieren. Darüber hinaus können Sie auf mehreren Ebenen gruppieren.
-
-> [!NOTE]
-> Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gruppiert werden soll (siehe auch [Ansichten anpassen][14]).
+Sie können die Liste der Benutzer nach Rolle, Benutzerplan (SuperOffice CRM Online), Primärgruppe und ähnlichem gruppieren. Darüber hinaus können Sie auf mehreren Ebenen gruppieren. Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gruppiert werden soll (siehe auch [Ansichten anpassen][14]).
 
 1. Gehen Sie zur Registerkarte **Mitarbeiter**.
 1. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
@@ -165,17 +143,13 @@ Der vollständige Name, die E-Mail-Adresse und die Zugehörigkeit: Firma werden 
 
 In der Übersicht Benutzer gibt es verschiedene Registerkarten:
 
-* **Details** - Hauptübersicht der Benutzerinformationen wie **Benutzer-ID**, **Rolle**, **Benutzerplan**, **Primärgruppe** und **Servicekategorien**.
-* **Lizenzen** - Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Folgeaufgabe, Dokumente und Selektionen **sichtbar zu machen**.
-* **Mehr** - Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
+* **Details:** Hauptübersicht der Benutzerinformationen wie **Benutzer-ID**, **Rolle**, **Benutzerplan** (SuperOffice CRM Online), **Primärgruppe** und **Servicekategorien**.
+* **Lizenzen:** Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Folgeaufgabe, Dokumente und Selektionen **sichtbar zu machen**.
+* **Mehr:** Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
 
 ### <a id="our-companies"></a>Unsere Firmen
 
-Die Firmenliste auf der Registerkarte **Unsere Firma** in der Ansicht Benutzer soll folgendes angeben:
-
-* Wer kann als Benutzer von SuperOffice CRM definiert werden? Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss sie bei einer im Listenfeld **Firma** der Ansicht Benutzer angezeigten Firma registriert sein. Damit eine Firma im Listenfeld **Firma** der Ansicht Benutzer aufgeführt wird, muss sie als Firma in der Firmenliste auf der Registerkarte **Unsere Firmen** aufgeführt sein.
-
-* Die Firmen, die als Besitzer eines Satelliten definiert werden können.
+Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss sie bei einer im Listenfeld **Firma** der Ansicht Benutzer angezeigten Firma registriert sein. Damit eine Firma im Listenfeld **Firma** der Ansicht Benutzer aufgeführt wird, muss sie als Firma in der Firmenliste auf der Registerkarte **Unsere Firmen** aufgeführt sein.
 
 #### Spalten in der Firmenliste
 
@@ -189,15 +163,33 @@ Die Firmenliste auf der Registerkarte **Unsere Firma** in der Ansicht Benutzer s
 
 ### Benutzerlizenzen
 
-Auf der Registerkarte **Benutzerlizenzen** in der Ansicht Benutzer erhalten Sie einen Überblick, wie viele Benutzerlizenzen verwendet werden und welche Benutzer die verschiedenen Lizenzen verwenden.
+Auf der Registerkarte **Benutzerlizenzen** in der Ansicht Benutzer sehen Sie, welche Lizenzen in Verwendung sind und welche Benutzer sie besitzen.
 
-* Klicken Sie in der Liste **Benutzerlizenzen** auf eine Lizenz, um eine Liste der Benutzer anzuzeigen, die derzeit diese Lizenz verwenden.
+* Klicken Sie in der Liste **Benutzerlizenzen** auf einen Lizenznamen, um die Benutzer anzuzeigen, die ihm derzeit zugeordnet sind.
+* Halten Sie den Mauszeiger über einen Lizenznamen, um detaillierte Informationen anzuzeigen.
 
-* Halten Sie den Mauszeiger über einen Lizenznamen, um detaillierte Informationen zur Lizenz anzuzeigen.
+In modulbasierten Abonnements zeigt die Liste die einzelnen Benutzerplanlizenzen (z. B. Sales Premium oder Service Essentials) mit der jeweiligen Platzanzahl.
+
+In **SuperOffice CRM Suite**-Abonnements zeigt die Liste Ihren aktiven Plan und die Gesamtzahl der Plätze – zum Beispiel *Core (20)*. Es gibt keine Zuweisung von Benutzerplänen pro Benutzer; alle Plätze sind im Plan Ihrer Organisation enthalten.
 
 ### Benutzergruppen
 
 Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie sich einen Überblick über Benutzer und Benutzergruppen verschaffen. Klicken Sie auf einen Gruppennamen in der Liste **Verfügbare Gruppen**, um eine Liste der Benutzer anzuzeigen, die momentan dieser Gruppe zugeordnet sind.
+
+## <a id="visible"></a>Sichtbarkeit
+
+Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten Rolle ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
+
+Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich. So legen Sie diese Lizenz fest:
+
+1. [!include[Go to Users](includes/goto-users.md)]
+1. Wählen Sie die Registerkarte **Mitarbeiter**.
+1. Doppelklicken Sie auf den Benutzer, dem Sie Zugriff auf vertrauliche Aktivitäten gewähren möchten.
+1. Wählen Sie die Registerkarte **Lizenzen** aus und aktivieren Sie das Kontrollkästchen **Vertrauliche Aktivitäten**.
+
+    ![Benutzerverwaltung, Kontrollkästchen Vertrauliche Aktivitäten -screenshot][img9]
+
+1. Klicken Sie auf **Speichern**.
 
 ## Verwandte Inhalte
 
@@ -205,6 +197,8 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 * [Neuen Benutzer hinzufügen][2]
 * [Benutzergruppen erstellen][3]
 * [Benutzerpläne für aktive Benutzer ändern][17]
+* [Lizenzen aktivieren und aktualisieren][16]
+* [CRM Suite-Pläne][18]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -215,7 +209,8 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [14]: ../adjusting-views.md
 [15]: ../preferences/index.md
 [16]: ../license/activate.md
-[17]: ../license/change-user-plan.md
+[17]: ../license/user-plans.md#change
+[18]: ../license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png
@@ -223,5 +218,5 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [img3]: ../../../media/loc/en/admin/admin-users-overview.png
 [img5]: ../../../media/loc/en/admin/groups.png
 [img6]: ../../../media/loc/en/admin/lists-grouping.png
-[img7]: ../../../media/loc/en/admin/follow-up-type.png
-[img8]: ../../../media/loc/en/admin/sales-group.png
+[img8]: ../../../media/loc/en/admin/diary-preferences-for-sales-group.png
+[img9]: ../../../media/loc/en/admin/confidential-activities.png

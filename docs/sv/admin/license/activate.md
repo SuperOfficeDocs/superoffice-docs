@@ -4,8 +4,8 @@ title: Aktivera licens
 description: Aktivera licens för SuperOffice
 keywords: aktivera licens
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: Settings and maintenance
 topic: licenses
@@ -42,7 +42,7 @@ Om det totala antalet nya licenser är mindre än antalet licenser som används 
     * **Aktivera ny licens** – en ny licens är tillgänglig, men den kan inte aktiveras automatiskt. Klicka på länken för att öppna dialogrutan **Aktivera ny licens**. Listan innehåller bara ändrade licenser.
 
     > [!CAUTION]
-    > Om du har fått fel antal licenser eller licenser för fel modul ska du kontakta SuperOffice. Aktivera INTE licenserna om antalet är fel.
+    > Om antalet licenser är fel — eller, för modulbaserade prenumerationer, om du har licenser för fel modul — kontakta SuperOffice. Aktivera INTE förrän informationen stämmer.
 
 1. Klicka på knappen **Aktivera** i dialogrutan.
 

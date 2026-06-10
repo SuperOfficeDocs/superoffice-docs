@@ -3,9 +3,9 @@ uid: help-en-erp-admin
 title: Manage ERP synchronization
 description: Introduction to configuring synchronization between SuperOffice CRM and external ERP systems.
 keywords: ERP tab, ERP system, ERP actor, Sync connector, ERP connection, sync, connector, connection, Quote/Sync screen, ERP
-author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: growth
@@ -20,7 +20,7 @@ redirect_from: /en/quote/learn/admin/sync/index
 
 The **Sync** tab in the Quote/Sync screen in Settings and maintenance lists Sync Connectors and ERP connections that enable integration between SuperOffice CRM and external ERP systems.
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 ## Terminology
 

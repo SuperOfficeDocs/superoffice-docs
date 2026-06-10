@@ -3,18 +3,20 @@ uid: help-de-selection-combine
 title: Kombinierte Selektion erstellen
 description: In dieser Anleitung lernen Sie, wie Sie eine kombinierte Selektion erstellen.
 keywords: Selektionen kombinieren, Kombinierte Selektion, Selektion
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: starter
+tier: growth
 language: de
 redirect_from: /de/search-options/selection/learn/create/combine
 ---
 
 # Kombinierte Selektion erstellen
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 Die zwei zu kombinierenden Selektionen können statisch oder dynamisch sein. Es gibt jedoch bestimmte Einschränkungen für Kombinationen:
 

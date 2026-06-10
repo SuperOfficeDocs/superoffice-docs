@@ -3,9 +3,9 @@ uid: help-nl-erp-add-connection
 title: Een Sync Connector en ERP-verbinding toevoegen
 description: Leer hoe u een synchronisatie-app installeert, een Sync Connector toevoegt en ERP-verbindingen aanmaakt om synchronisatie mogelijk te maken tussen SuperOffice CRM en een ERP-systeem.
 keywords: ERP-synchronisatie instellen, sync connector toevoegen, ERP-verbinding toevoegen, ERP-verbinding testen, connector, ERP, synchroniseren
-author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
 tier: growth
@@ -20,7 +20,7 @@ index: true
 
 # Een Sync Connector en ERP-verbinding toevoegen
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 Om gegevens te synchroniseren tussen SuperOffice CRM en een ERP-systeem, moet u eerst een synchronisatie-app installeren. Daarna kunt u in Instellingen en onderhoud een Sync Connector configureren en een of meer ERP-verbindingen aanmaken.
 

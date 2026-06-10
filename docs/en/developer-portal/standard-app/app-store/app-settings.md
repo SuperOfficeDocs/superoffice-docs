@@ -4,7 +4,7 @@ title: Application settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal
 author: Bergfrid Dias
-date: 02.26.2025
+date: 06.10.2026
 version: 2.0
 version_devportal: 2.0
 content_type: reference
@@ -85,7 +85,7 @@ The [steps to update all App Store information][3] are the same.
 
 | Setting | Description | Read more |
 |---|---|---|
-| SuperOffice CRM plan | Which SuperOffice user plans are supported. | [How to install tab][4] |
+| SuperOffice CRM plan | Which SuperOffice plans are supported. | [How to install tab][4] |
 | Getting started | The steps needed to install and use the application. | [How to install tab][4] |
 | Additional requirements | All system requirements. | [How to install tab][4] |
 

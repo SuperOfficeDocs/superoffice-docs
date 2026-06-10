@@ -3,12 +3,12 @@ uid: help-de-request-category-delete
 title: Anfragekategorie löschen
 description: Anfragekategorie löschen
 keywords: Anfragekategorie löschen, Anfragen übertragen an, Anfragekategorie, Anfrage, Kategorie
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de

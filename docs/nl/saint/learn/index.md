@@ -4,8 +4,8 @@ title: Sales Intelligence (SAINT)
 description: In deze gids staat hoe SAINT uw verkoop- en klantprocessen kan verbeteren en workflows kan verbeteren.
 keywords: SAINT, statuscontroles
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -21,7 +21,7 @@ redirect_from:
 
 Proactief zijn betekent een te verwachten situatie onder controle hebben voordat deze zich voordoet. Met SuperOffice Sales Intelligence (SAINT) krijgt u de mogelijkheid om uw klanten op het juiste moment op te volgen en controle te nemen over elk scenario. SAINT is ontworpen om uw database te bewaken en u te helpen proactief te zijn en te anticiperen op gebeurtenissen die van invloed kunnen zijn op uw bedrijf.
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ## Wat is SAINT en wat kan het doen
 
@@ -36,7 +36,7 @@ Deze vragen zijn het uitgangspunt voor de beslissing om actie te ondernemen. Doo
 
 ## Statussen
 
-Als u een licentie voor SAINT ("SAles INTelligence") hebt aangeschaft, kunt u in Instellingen en onderhoud criteria opgeven voor statuscontroles voor bedrijven, personen en projecten. Statussen die op basis van deze criteria worden gegenereerd, kunnen worden gevisualiseerd als een afbeelding die op de bedrijfskaarten, persoonskaarten of projectkaarten wordt weergegeven. U kunt bijvoorbeeld een afbeelding van een waarschuwingsdriehoek weergeven voor een klant waarmee veel verkoopgesprekken zijn gevoerd maar waarvoor geen verkopen zijn geregistreerd, of een spinnenweb voor een klant waarmee gedurende meer dan drie maanden geen contact is opgenomen. Op deze manier krijgt u direct een goed overzicht van bepaalde statussen. Dit kan met name handig zijn voor de verkoopafdeling.
+In Instellingen en onderhoud kunt u criteria opgeven voor statuscontroles voor bedrijven, personen en projecten. Statussen die op basis van deze criteria worden gegenereerd, kunnen worden gevisualiseerd als een afbeelding die op de bedrijfskaarten, persoonskaarten of projectkaarten wordt weergegeven. U kunt bijvoorbeeld een afbeelding van een waarschuwingsdriehoek weergeven voor een klant waarmee veel verkoopgesprekken zijn gevoerd maar waarvoor geen verkopen zijn geregistreerd, of een spinnenweb voor een klant waarmee gedurende meer dan drie maanden geen contact is opgenomen. Op deze manier krijgt u direct een goed overzicht van bepaalde statussen. Dit kan met name handig zijn voor de verkoopafdeling.
 
 ## Een eenvoudig voorbeeld
 

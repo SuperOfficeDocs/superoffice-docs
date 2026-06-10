@@ -3,9 +3,9 @@ uid: help-no-sales-targets-create
 title: Sett opp salgsmål
 description: Hold oversikt over budsjettene dine ved å sette opp salgsmål. Dette vil hjelpe deg med å fastsette de riktige forventningene, planlegge veksten din, øke motivasjonen og spare tid.
 keywords: salgsmål
-author: SuperOffice Product and Engineering
-date: 05.04.2026
-version: 11.13
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
 tier: growth
@@ -32,7 +32,7 @@ Det er valgfritt å legge til firmamålet og ha brukerspesifikke mål (gå til M
 
 ## Krav
 
-Hvis du bare har en Sales Premium-lisens, kan du legge til en gruppe for måltypen **Alle salg – beløp**. For å legge til mer enn en brukergruppe, trenger du også lisensen Unlimited sales targets.
+Hvis du bare har en **Sales Premium**-lisens eller **Growth**-planen, kan du legge til en gruppe for måltypen **Alle salg – beløp**. For å legge til mer enn en brukergruppe, trenger du også lisensen **Unlimited sales targets** eller **Super**-planen.
 
 ## Før du begynner
 
@@ -70,7 +70,7 @@ Før du begynner å bruke salgsmål, må du konfigurere noen få ting i Innstill
 
 1. Klikk på **Lagre**.
 
-    * Gjenta trinn 3-10 for å legge til flere grupper eller firmaer. Dette krever Sales Targets Unlimited-lisensen.
+    * Gjenta trinn 3-10 for å legge til flere grupper eller firmaer. Dette krever **Sales Targets Unlimited**-lisensen.
 
     * Gå til trinn 2 for å legge til salgsmål for et annet år, eller klikk **Lagre og lukk** for å avslutte dette bildet.
 
@@ -127,7 +127,7 @@ For å vise revisjonshistorikken for et salgsmål (rad), klikk <i class="ph ph-l
 
 * Du kan sette opp mål for tidligere år, for å lage budsjettstatistikk bakover i tid.
 
-* Standard måltype er **Alle salg - Beløp**. Hvis du har Sales Targets Unlimited-lisensen, kan du opprette flere måltyper.
+* Standard måltype er **Alle salg - Beløp**. Hvis du har **Sales Targets Unlimited**-lisensen, kan du opprette flere måltyper.
 
 * Bruk feltet **Fritekstsøk** til å finne salgsmål for bestemte grupper og brukere i et bestemt år.
 

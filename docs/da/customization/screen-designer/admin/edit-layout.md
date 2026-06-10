@@ -4,11 +4,11 @@ title: Rediger layout af et kort
 description: I denne vejledning lærer du, hvordan du redigerer et layout.
 keywords: skærmlayout, rediger layout, ændre layout, slet layout, Nulstil til fabriksindstillinger
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -22,7 +22,7 @@ redirect_from:
 
 # Rediger layout af et kort
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 Når du har [oprettet et nyt layout][6], er det tid til at tilpasse det. Tilpas layoutet for hovedkortene og arkiverne, så det passer til din organisations informationsbehov.
 

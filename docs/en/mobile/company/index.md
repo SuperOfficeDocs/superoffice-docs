@@ -4,9 +4,10 @@ title: Companies
 description: Learn about working with companies in SuperOffice Mobile CRM.
 keywords: company, companies
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: reference
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/company/index
 language: en

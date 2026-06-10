@@ -1,11 +1,14 @@
 ---
-title: ERP Sync Connector Interface
 uid: erp_connectors
+title: ERP Sync Connector Interface
 description: ERP Sync Connector Interface
+keywords: ERP, sync connector, integration
 author: SuperOffice Product and Engineering
-date: 05.11.2016
-keywords:
+date: 06.10.2026
+content_type: concept
+tier: growth
 redirect_from: /en/api/netserver/plugins/erp-connectors/index
+language: en
 ---
 
 # ERP Sync Connector Interface
@@ -16,7 +19,7 @@ SuperOffice’s ERP Integration server is designed to allow integration with any
 
 A SuperOffice installation can be connected to any number of external ERP systems, either several instances accessed through a single connector or different systems through different connectors. Partners will be relied on to create and distribute all Sync Connectors, and SuperOffice will not host connectors on its Cloud infrastructure. On-premise customers may host connectors as they please.
 
-[!include[License requirement](../../../../../common/includes/req-sales-prem.md)]
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ## Quick facts
 

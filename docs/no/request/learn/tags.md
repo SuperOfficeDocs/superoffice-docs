@@ -3,12 +3,12 @@ uid: help-no-request-tags
 title: Bruke emneknagger i saker
 description: Finn ut hvordan du oppretter og redigerer emneknagger, i denne veiledningen.
 keywords: emneknagg, legg til emneknagg, ny emneknagg, fjern emneknagg, sak
-author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no

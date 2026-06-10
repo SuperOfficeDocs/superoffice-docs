@@ -3,9 +3,9 @@ uid: help-de-erp
 title: ERP
 description: ERP
 keywords: ERP-Registerkarte, ERP-System, ERP
-author: SuperOffice RnD
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: growth
@@ -23,7 +23,7 @@ Wenn Ihre Organisation ein ERP-System verwendet, das mit SuperOffice CRM verbund
 
 ## Die Registerkarte ERP
 
-Die **ERP-Registerkarte** erscheint in den Ansichten **Firma**, **Person** und **Projekt**, wenn Ihre Organisation über eine Lizenz für [Development Tools][1] verfügt.
+Die **ERP-Registerkarte** erscheint in den Ansichten **Firma**, **Person** und **Projekt**, wenn Ihre Organisation über eine **Development Tools**-Lizenz oder den **Growth**-Plan verfügt.
 
 Verwenden Sie die **ERP-Registerkarte**, um:
 

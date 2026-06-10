@@ -3,9 +3,9 @@ uid: help-en-quote
 title: Work with quotes
 description: Learn how to create, manage, and send quotes in SuperOffice CRM to streamline your sales process and minimize errors.
 keywords: Quote section tab, Quote tab, sales, proposal, quote alternative, quote-to-order, quote
-author: Bergfrid Dias
-date: 04.25.2025
-version: 10.5.4
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -26,8 +26,7 @@ After a quote is accepted, you can generate an order with one click and send it 
 
 SuperOffice Quote supports the entire quote-to-order lifecycle. It helps you deliver new or updated quotes faster and speeds up the transition from a lead to a closed deal.
 
-> [!NOTE]
-> This feature requires the Sales Premium user plan.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Quote screen showing a quotation -screenshot][img1]
 

@@ -4,8 +4,8 @@ title: Dashboards
 description: SuperOffice Dashboard are ideal for users and managers alike. Get an overview of your individual work or your team's performance with pre-defined tiles or create your own.
 keywords: dashboard administrator, chart, report, dataset, big number, gauge, dashboard, tile, quick filter
 author: digitaldiina, kirstiaa
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 audience: person
@@ -22,7 +22,7 @@ Use dashboards to track activities, sales, requests, and more. You can view pre-
 ![Request dashboard -screenshot][img4]
 
 > [!NOTE]
-> Your access to dashboards and tile data depends on your user plan and assigned rights.
+> Your access to dashboards and tile data depends on your plan and assigned rights.
 
 ## What is a dashboard?
 
@@ -45,7 +45,7 @@ Select **Dashboard** in the navigator to open the dashboard screen. You can acce
 * **Favorite dashboards:** Marked with a star icon
 * **Own dashboards:** Dashboards you created yourself
 
-By default, a dashboard called **Status** is available and pinned. It contains tiles with pre-defined charts and key numbers. If you have the SuperOffice Service user plan, a second dashboard called **Requests** is also available.
+By default, a dashboard called **Status** is available and pinned. It contains tiles with pre-defined charts and key numbers. If you have a **Service Essentials** license or the **Starter** plan, a second dashboard called **Requests** is also available.
 
 You can create additional dashboards or duplicate existing ones to customize them.
 
@@ -171,9 +171,10 @@ Only the **owner** of a dashboard can delete it.
 |---|---|---|
 | All CRM plans | Status dashboard with standard tiles | Charts, lists, big numbers |
 | **Service** | Requests dashboard | Request-related tiles |
-| **Marketing** (Essentials or higher) | – | Mailing, form submissions, chats |
-| **Sales Premium** | – | Product-level forecasts, KPIs, sales targets, quotes |
-| **Sales or Service Premium** | – | Activity monitors (SAINT) |
+| **Marketing Essentials** license or the **Core** plan | – | Mailings, chats |
+| **Marketing Premium** license or the **Plus** plan | – | Form submissions |
+| **Sales Premium** or **Growth** | – | Product-level forecasts, KPIs, sales targets, quotes |
+| **Sales or Service Premium** or **Growth** | – | Activity monitors (SAINT) |
 
 ## Tips
 

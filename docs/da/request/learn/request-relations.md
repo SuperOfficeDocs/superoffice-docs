@@ -4,13 +4,13 @@ title: Sagsrelationer
 description: Lær hvordan du kan sammenkæde relaterede sager ved hjælp af overordnede, underordnede og relaterede relationer for bedre at spore og administrere forbundne problemer i SuperOffice Service.
 keywords: sagsrelationer, sammenkæde sager, overordnet sag, underordnet sag, relaterede sager
 author: digitaldiina
-date: 04.08.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: request
 license: serviceessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da

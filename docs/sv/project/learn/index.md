@@ -4,8 +4,8 @@ title: Projekt
 description: Den här guiden visar hur du skapar och använder projekt för att hålla koll på ditt arbete.
 keywords: projektkort, projekt-fönstret, fliken bild, projekt
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium, servicepremium, marketingessentials
 tier: core
@@ -32,6 +32,9 @@ All information du sparar i projektet taggas med ett datum och en ägare, vilket
 För att navigera mellan projekt klickar du på knapparna **Föregående** och **Nästa** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) längst ned till höger på korten.
 
 Om du har valt en projekttyp för vilken en [projektguide][1] har definierats, visas fliken **Projektguide** på detaljkortet.
+
+> [!NOTE]
+> **CRM Suite (Core-plan):** Din plan inkluderar upp till 100 aktiva projekt. När du närmar dig den här gränsen visas en varning i projektets sidfot under redigering. När gränsen nås är knappen **Ny** inte tillgänglig, och ett meddelande förklarar hur du kan frigöra kapacitet (markera befintliga projekt som slutförda) eller uppgradera till Growth-planen. Se [Plangränser][21].
 
 ## Flikar på projektkortet
 
@@ -83,6 +86,7 @@ Den nedre delen av **Projekt**-fönstret består av detaljkort.
 [18]: ../../learn/section-tabs/requests-tab.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
+[21]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

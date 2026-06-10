@@ -4,11 +4,11 @@ title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
 keywords: Screen designer, layout, UI, screen, customization, configurable screen
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
-tier: growth
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -28,7 +28,7 @@ The **Screen Designer** in SuperOffice CRM allows you to customize the layout of
 ![Screen designer, company card, default field layout -screenshot][img5]
 
 > [!NOTE]
-> This feature requires the Development Tools license and the "Field administrator" functional right.
+> This feature requires the Development Tools license or the Core plan, and the "Field administrator" functional right.
 
 ## Why use the Screen Designer?
 
@@ -113,7 +113,7 @@ To start customizing screens:
 
 ## What if I do not use the Screen Designer?
 
-If you do not have the Development Tools license, the **More** tab will automatically organize all custom fields into two columns. This default setup still provides a functional interface but without the advanced customization options available through the Screen Designer.
+If you do not have the Development Tools license or the Core plan, the **More** tab will automatically organize all custom fields into two columns. This default setup still provides a functional interface but without the advanced customization options available through the Screen Designer.
 
 ## Summary
 

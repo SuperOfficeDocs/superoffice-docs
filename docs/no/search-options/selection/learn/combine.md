@@ -3,18 +3,20 @@ uid: help-no-selection-combine
 title: Opprett et kombinasjonsutvalg
 description: I denne veiledningen lærer du hvordan du lager et kombinasjonsutvalg.
 keywords: kombiner utvalg, kombinasjonsutvalg, utvalg
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
-tier: starter
+tier: growth
 language: no
 redirect_from: /no/search-options/selection/learn/create/combine
 ---
 
 # Opprett et kombinasjonsutvalg
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 De to utvalgene som kombineres, kan være statiske eller dynamiske. Det er imidlertid visse begrensninger for hva som kan kombineres:
 

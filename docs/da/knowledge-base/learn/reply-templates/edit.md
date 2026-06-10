@@ -3,14 +3,14 @@ uid: help-da-reply-template-edit
 title: Rediger eller slet svarskabeloner
 description: Rediger eller slet svarskabeloner i SuperOffice Service. Lær, hvordan du ændrer skabelonteksten og administrerer svarskabeloner effektivt.
 keywords: skabelon
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: knowledge base
 license: serviceessentials
-tier: core
+tier: starter
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service

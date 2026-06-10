@@ -4,8 +4,8 @@ title: Create FAQ entries
 description: Create FAQ entries
 keywords: create FAQ
 author: Bergfrid Dias
-date: 03.14.2023
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: faq
@@ -27,7 +27,7 @@ By creating FAQ entries, your organization can build up a comprehensive collecti
 
 ## Requirements
 
-* You need a license for Service premium or the Customer Engagement platform to use the knowledge base.
+* You need a **Service Premium** license, the **Customer Engagement Platform (CEP)** add-on, or the **Growth** plan to use the knowledge base.
 * If you do not see this feature, you need to add *Knowledge base* as functional right to create FAQ.
 
 ## Create FAQ entries from a request

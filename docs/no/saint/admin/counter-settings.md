@@ -4,8 +4,8 @@ title: Tellere og tellerinnstillinger
 description: Definer og konfigurer tellere for SAINT
 keywords: SAINT, statusovervåking, teller, periode
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ redirect_from:
 
 # Tellere og tellerinnstillinger
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 En **teller** er en verdi som for eksempel antall salg i en periode eller datoen for siste fullførte salg. Tellere kan brukes som søkekriterier for å finne firmaer, personer eller prosjekter.
 

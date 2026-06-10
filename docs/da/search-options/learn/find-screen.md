@@ -4,8 +4,8 @@ title: Skærmbilledet Find
 description: Skærmbilledet Find
 keywords: søge, finde
 author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,7 +20,7 @@ Hvis du vil søge efter poster og data i SuperOffice CRM, skal du bruge skærmbi
 Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I slutningen af denne sektion har vi medtaget eksempler for at give dig tips om søgning.
 
 > [!NOTE]
-> Hvis du har licens til Developer Tools, kan du søge efter produkter i eksisterende tilbud. Hvis du har licens til SuperOffice Service, kan du søge efter sager.
+> Hvis du har en Development Tools-licens eller Core-planen, kan du søge efter produkter i eksisterende tilbud. Hvis du har en Service Essentials- eller Premium-licens, kan du søge efter sager.
 
 ## Trin
 

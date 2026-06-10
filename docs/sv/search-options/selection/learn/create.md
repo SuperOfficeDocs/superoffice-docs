@@ -3,9 +3,9 @@ uid: help-sv-selection-create
 title: Skapa urval
 description: Arbeta med dynamiska och statiska urval
 keywords: skapa urval, spara som urval, urval
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -82,7 +82,7 @@ Då skapas en kopia av urvalet med texten (kopia) bakom urvalsnamnet. Det vill s
 
 * Markera **Slutfört** för att ange att urvalet är inaktivt. Om du vill att urvalet ska vara aktivt låter du kryssrutan stå tom.
 
-* Med **SAINT** aktiverat (kräver Sales-Premium eller Service-Premium) kan du använda [statuslägen][14] som kriterier för att skapa dynamiska urval. Detta ger dig en översikt över företag, kontakter eller projekt som uppfyller specifika statuskriterier. SAINT-kriterierna finns under **Räknare (SAINT)** i [kriterielistan][9] i fönstret **Sök**.
+* Med **SAINT** aktiverat (kräver en **Sales Premium**- eller **Service Premium**-licens eller **Growth**-planen) kan du använda [statuslägen][14] som kriterier för att skapa dynamiska urval. Detta ger dig en översikt över företag, kontakter eller projekt som uppfyller specifika statuskriterier. SAINT-kriterierna finns under **Räknare (SAINT)** i [kriterielistan][9] i fönstret **Sök**.
 
 ## Relaterat innehåll
 

@@ -4,8 +4,8 @@ title: Vise statistikk for utsendelse
 description: Vise statistikk for utsendelse
 keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: mailing
@@ -72,7 +72,7 @@ Når utsendelsen er avsluttet, kan du se ytelsen til utsendelsen i fanen **Samme
 * **Behandle returmeldinger**: En oversikt over alle returnerte e-poster. Bruk handlingene til å [rydde opp i de returnerende e-postadressene dine][1], enten ved å angi personene som tidligere ansatt, eller ved å slette e-postadressene.
 
 > [!NOTE]
-> Fanene **Rapporter** og **Sporede koblinger** krever Marketing User-lisensen. Noen faner er ikke tilgjengelige for utsendelse av SMS og dokumenter.
+> Fanene **Rapporter** og **Sporede koblinger** krever en **Marketing Essentials**-lisens eller **Growth**-planen. Noen faner er ikke tilgjengelige for utsendelse av SMS og dokumenter.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

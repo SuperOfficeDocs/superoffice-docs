@@ -3,7 +3,7 @@ uid: help-sv-customer-center-faq
 title: Publicera FAQ i Kundcenter
 description: I den här guiden förklarar vi hur du publicerar FAQ-artiklar i kundcentret.
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: FAQ, Kundcenter
 content_type: howto
 tier: growth
@@ -16,7 +16,7 @@ I FAQ-artiklar (vanliga frågor) som publiceras i kundcentret kan dina kunder en
 
 Genom att publicera FAQ-artiklar som ett självhjälpsverktyg kan du troligtvis minska antalet inkommande ärenden. När typiska och återkommande frågor hanteras på annat sätt kan dina supporthandläggare koncentrera sig på mer brådskande och komplicerade frågor.
 
-Du kan skapa [FAQ-artiklar][1] som dina servicehandläggare kan välja bland när de svarar på kundfrågor i ärenden och chattar. Kräver Service Premium-licensen.
+Du kan skapa [FAQ-artiklar][1] som dina servicehandläggare kan välja bland när de svarar på kundfrågor i ärenden och chattar. Kräver **Service Premium**-licensen eller **Growth**-planen.
 
 ![Redigera FAQ-artikeln och välj Egenskaper för att publicera FAQ-artikeln i SuperOffice Service -screenshot][img1]
 

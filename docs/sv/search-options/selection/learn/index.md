@@ -3,9 +3,9 @@ uid: help-sv-selection
 title: Urval
 description: Urval
 keywords: dynamiskt urval, statiskt urval, kombinerat urval, urvalsskärmen, urvalsmedlemmar, urval
-author: Bergfrid Dias
-date: 03.21.2025
-version: 10.5.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -52,6 +52,8 @@ Använd ett dynamiskt urval om du vill ha en alltid uppdaterad lista över före
 **Exempel:** En realtidslista över alla öppna affärsmöjligheter under det aktuella kvartalet, som automatiskt uppdateras när nya affärer skapas.
 
 ### Kombinerade urval
+
+[!include[License requirement](../../../includes/req-growth.md)]
 
 Ett kombinerat urval är en kombination av två befintliga urval (statiska eller dynamiska). Det kan innehålla poster som är gemensamma för båda urvalen, poster som skiljer sig åt, poster som bara finns i ett av urvalen eller alla poster från båda urvalen.
 
@@ -137,7 +139,7 @@ Ett urval med alla försäljningar som du har genomfört under första kvartalet
 
 * Ett urval med alla händelser du har denna månad hjälper dig att se dina planerade möten och avgöra om fler behöver bokas in.
 
-### Produkter (kräver en Sales Premium-licens)
+### Produkter (kräver en **Sales Premium**-licens eller **Growth**-planen)
 
 * En lista över alla kunder som har köpt en viss produkt eller produktkategori.
 

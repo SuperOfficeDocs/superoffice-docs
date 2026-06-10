@@ -4,8 +4,8 @@ title: Mit externen Dokumenten arbeiten
 description: Mit externen Dokumenten arbeiten
 keywords: Anfrage, Dokument
 author: Bergfrid Dias
-date: 10.29.2023
-version: 10.3.11
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: servicepremium
 tier: growth
@@ -21,8 +21,7 @@ Sie können Dokumente hinzufügen (einschließlich Bilder und anderen Dateien), 
 
 Dies ist beispielsweise der Fall, wenn Sie die Registerkarte **Mitteilung** bei der [Beantwortung von Anfragen][1] einsetzen. Hier können Sie wie bei der Eingabe von Text in einem Textverarbeitungsprogramm vorgehen. Außerdem können Sie Bilder einfügen, indem Sie auf der Symbolleiste auf die Schaltfläche **Bild** klicken. Dafür muss das Bild aber vorher in **Externe Dokumente** hochgeladen worden sein. Beim Senden der Nachricht werden Verknüpfungen zu den Dateien unter **Externe Dokumente** erstellt. Dies ist zum Beispiel auch der Fall, wenn Sie eine Antwortvorlage und SuperOffice Marketing-Nachrichten erstellen.
 
-> [!NOTE]
-> Diese Funktion erfordert den Benutzerplan Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Dokument anzeigen
 

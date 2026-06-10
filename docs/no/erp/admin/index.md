@@ -3,9 +3,9 @@ uid: help-no-erp-admin
 title: Administrer ERP-synkronisering
 description: Introduksjon til konfigurasjon av synkronisering mellom SuperOffice CRM og eksterne ERP-systemer.
 keywords: ERP-fane, ERP-system, ERP-aktør, Sync Connector, ERP-kobling, synk, connector, kobling, Tilbud/Sync-bildet, ERP
-author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: development-tools
 tier: growth
@@ -20,7 +20,7 @@ index: true
 
 Fanen **Sync** i Tilbud/Sync-bildet under **Innstillinger og vedlikehold** viser Sync Connectors og ERP-koblinger som muliggjør integrasjon mellom SuperOffice CRM og eksterne ERP-systemer.
 
-[!include[Requirement](../../includes/req-dev-tools.md)]
+[!include[Requirement](../../includes/req-dev-tools-transition.md)]
 
 ## Terminologi
 

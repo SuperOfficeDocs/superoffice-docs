@@ -4,8 +4,8 @@ title: Mit Angeboten arbeiten
 description: Erfahren Sie, wie Sie Angebote in SuperOffice CRM erstellen, verwalten und versenden – um Ihren Verkaufsprozess zu optimieren und Fehler zu minimieren.
 keywords: Angebots-Registerkarte, Bereichsregisterkarte Angebot, Vorschlag, Angebotsalternative, Angebotsprozess, Angebot-zu-Auftrag, Angebot, Verkauf
 author: Bergfrid Dias
-date: 04.28.2025
-version: 10.5.4
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
 tier: growth
@@ -26,8 +26,7 @@ Nach Annahme eines Angebots können Sie mit einem Klick einen Auftrag generieren
 
 SuperOffice Quote unterstützt den gesamten Angebot-zu-Auftrag-Prozess. Es hilft Ihnen, neue oder aktualisierte Angebote schneller bereitzustellen und beschleunigt die Umwandlung von einem Lead in einen abgeschlossenen Verkauf.
 
-> [!NOTE]
-> Diese Funktion erfordert den Benutzerplan Sales Premium.
+[!include[License requirement](../../../includes/req-growth-transition-sales.md)]
 
 ![Angebots-Bildschirm mit einem Angebot -screenshot][img1]
 

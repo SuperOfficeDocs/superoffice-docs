@@ -3,11 +3,11 @@ uid: help-en-extra-table
 title: Third-party tables
 description: Introduction to SuperOffice extra tables
 keywords: database, extra table, custom object, 3rd-party table
-author: Bergfrid Dias
-date: 08.27.2024
-version: 10.3.8
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
-tier: growth
+tier: core
 language: en
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -18,9 +18,9 @@ redirect_from:
 
 # Third-party tables
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
-SuperOffice Development Tools license gives you the possibility to create extra tables (custom objects) in the database.
+The Development Tools license or the Core plan gives you the possibility to create extra tables (custom objects) in the database.
 
 The **Tables** screen is your tool for customizing the database schema.
 

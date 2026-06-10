@@ -4,8 +4,8 @@ title: Arbeide med figurer
 description: Lær hvordan du legger til, tilpasser og administrerer figurer i SuperOffice-dashbordene dine.
 keywords: legg til figur, ny figur, rediger figurm kopier figur, dupliser figur, fjern figur, tilpass figur, datasett, figur, dashbord
 author: digitaldiina
-date: 11.21.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -18,6 +18,8 @@ redirect_from:
 ---
 
 # Arbeide med figurer
+
+[!include[License requirement](../../includes/req-core.md)]
 
 Lær hvordan du legger til, tilpasser og administrerer figurer i SuperOffice-dashbordene dine. Figurer er visuelle sammendrag basert på CRM-data – ideelle for å følge opp saker, salg, aktiviteter eller markedsføringsresultater.
 
@@ -130,6 +132,9 @@ Bruk denne typen figur til å vise formatert tekst i dashbordet. For eksempel en
 5. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til oversettelser][7] av figurens tittel og etiketter.
 6. Klikk på **Lagre**.
 
+> [!NOTE]
+> **CRM Suite:** Redigering av figurlayout (diagramtype, etiketter og andre visuelle innstillinger i **Layout**-fanen) krever **Growth**-planen eller høyere. På Starter- eller Core-planer er feltene i Layout-fanen skrivebeskyttet, og en melding nederst i dialogen forklarer begrensningen. Administratorer kan velge **Oppgrader** for å åpne et kontaktskjema.
+
 ## <a id="copy"></a>Duplisere eller kopiere en figur
 
 Du kan gjenbruke en eksisterende figur ved å duplisere den i samme dashbord eller kopiere den til et annet. Du må ha **redigeringstilgang til måldashbordet** for å kunne kopiere figurer dit.
@@ -215,6 +220,10 @@ Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i ove
 
 * **Jeg har ikke tilgang til Layout-fanen eller felt**
   * Du har kanskje ikke nødvendige funksjonelle rettigheter. Kontakt systemansvarlig.
+  * **CRM Suite:** På Starter- eller Core-planer er feltene i Layout-fanen skrivebeskyttet. Redigering av figurlayout krever **Growth**-planen eller høyere.
+
+* **Jeg kan ikke opprette eller duplisere et dashbord**
+  * **CRM Suite (Starter-plan):** Starter-planen inkluderer opptil 3 dashbord. Når denne grensen er nådd, er **Opprett dashbord** og **Dupliser dashbord** ikke tilgjengelig. Slett et eksisterende dashbord, eller oppgrader til Core-planen eller høyere. Se [Plangrenser][8].
 
 * **Et utvalg mangler på fanen Utvalg**
   * Se [Om figurer basert på utvalg](#selection-chart)
@@ -228,6 +237,7 @@ Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i ove
 * [Bruke dashbord til å administrere salgspipelinen din][2]
 
 <!-- Referenced links -->
+[8]: ../../admin/license/crm-suite.md
 [1]: create.md
 [2]: show-sales-targets.md
 [3]: index.md#charts

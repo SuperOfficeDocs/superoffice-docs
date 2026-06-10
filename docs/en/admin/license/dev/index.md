@@ -2,10 +2,10 @@
 uid: license-technical-overview
 title: License technical overview
 description: Overview of the SuperOffice licensing system.
-keywords: license server, license, LicenseAgent, Client Access Licenses
+keywords: license server, license, LicenseAgent, Client Access Licenses, site license
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -30,6 +30,16 @@ If the price list changes, we don't have to update all the checks - just update 
 ## Visible vs hidden licenses
 
 The user sees a set of licenses in the admin panel, but the license server delivers a set of [hidden licenses][3] containing feature-specific licenses.
+
+## License types
+
+The `ModuleLicense.Type` field determines how a license is scoped and assigned:
+
+| License type | ModuleLicense.Type | Description |
+| --- | --- | --- |
+| **System licenses** | 1 | Define which features are available system-wide. <br />Example: The **saint** license is present if Sales Intelligence is enabled. This license is hidden (not on the price list) and implicitly activated. The SuperOffice client checks for it and enables SAINT features if present. |
+| **Site licenses** | 2 | Rarely used today. Historically used in satellite setups, where certain licenses were assigned to specific sites instead of being globally available. |
+| **User licenses** | 3 | Licenses assigned directly to users. The number of assigned users cannot exceed the number of available licenses. <br />Some user licenses may be hidden to simplify the UI. These are activated through user plans. <br />User plans have `ModuleLicense.ExtraFlags = 1` and define implied licenses via the `ExtraInfo` field, for example:<br>`"set=user,web,chat-cal"` assigns the **user**, **web**, and **chat-cal** licenses automatically. |
 
 ## CALs
 
@@ -137,6 +147,33 @@ So from this we can see we have a `superoffice.server` site license, and the cur
 > User licenses that are not assigned to the user do not appear in the payload. So if you want to know if the license exists, use the `/api/v1/License/ownername/modulename` endpoint to check.
 
 The `currentPrincipal` also has useful information like the role function-rights.
+
+## Counting users
+
+There are two approaches:
+
+### 1: Get the license and read the number of user or web licenses
+
+Users must have both **user** and **web** to log in to the SuperOffice web application. This number is the upper bound. It does not tell you how many are in use.
+
+For some customers, the number of licenses is huge, because they are paying by use, using SCIM. To handle this, count the number of user licenses in use, rather than the total number of licenses available.
+
+### 2: Get the license and sum the number of ExtraFlags=1 licenses in use
+
+User plans are what the user is paying for. They define multiple implied, hidden licenses.
+
+The same SCIM caveat applies: count the number of user plans in use, rather than the total number available.
+
+## License signing
+
+Licenses are signed using public/private keys.
+
+The private key is a closely guarded secret and without it, you cannot make a keycode generator.
+
+Individual `moduleLicense` rows are also signed and all rows are also hash-checked to make tampering harder.
+
+**Summary:** You touch them, they stop working. SoAdmin and NetServer can edit them, no one else.
+Hackers can hack the DLLs, but not make a keycode generator that works with un-hacked code.
 
 <!-- Referenced links-->
 [1]: user-plans.md

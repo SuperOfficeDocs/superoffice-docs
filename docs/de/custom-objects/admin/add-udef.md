@@ -4,8 +4,8 @@ title: Felder hinzufügen
 description: Felder hinzufügen
 keywords: udef, benutzerdefiniertes Feld, Feld-Eigenschaften
 author: Bergfrid Dias
-date: 09.06.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -38,7 +38,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**. Das Dialogfeld wird geschlossen und das neue Feld wird in der Liste **Felder** und im Raster angezeigt.
 
-1. [Optional können Sie die Position des Feldes anpassen][3]. Dies erfordert eine Lizenz für Development Tools!
+1. [Optional können Sie die Position des Feldes anpassen][3]. Dies erfordert eine Lizenz für Development Tools oder den Core-Plan.
 
 1. Fahren Sie fort, Felder hinzuzufügen. Klicken Sie auf **Veröffentlichen**, wenn Sie fertig sind, um das Feld für SuperOffice-Benutzer verfügbar zu machen. Nicht veröffentlichte Felder und Felder mit nicht veröffentlichten Änderungen werden in Fettschrift in der Liste **Felder** angezeigt.
 

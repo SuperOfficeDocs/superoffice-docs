@@ -4,13 +4,13 @@ title: Tutorial - Flytta landfältet till toppen
 description: I den här guiden lär du dig hur du flyttar landfältet på en företags- eller kontaktskärm.
 keywords: land fält, skärmdesigner
 author: digitaldiina
-date: 11.20.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
 license: development-tools
-tier: growth
+tier: core
 category: customization
 topic: screen designer
 language: sv
@@ -28,7 +28,7 @@ När du är klar ska det se ut ungefär så här:
 
 ![Företagskort -screenshot][img1]
 
-[!include[Krav](../../../includes/req-dev-tools.md)]
+[!include[Krav](../../../includes/req-dev-tools-transition.md)]
 
 ## Steg 2: Öppna Skärmdesignern
 

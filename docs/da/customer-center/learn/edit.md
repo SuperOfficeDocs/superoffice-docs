@@ -4,7 +4,7 @@ title: Kundecenter-kildefiler
 description: Kundecenter-kildefiler
 keywords: Kundecenter, CEP
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 content_type: howto
 tier: growth
 language: da
@@ -14,7 +14,7 @@ language: da
 
 Du kan opdatere standardsiderne i dit kundecenter ved at redigere kildefilerne.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Vælg <i class="ph ph-list" aria-label="Main menu"></i> **Systemindstillinger** > **Kundecenter-kildefiler**.
 

@@ -4,9 +4,10 @@ title: Project
 description: Learn about working with projects in SuperOffice Mobile CRM.
 keywords: project member, project
 author: digitaldiina
-date: 02.26.2026
+date: 06.10.2026
 version: 11.1
 content_type: concept
+tier: core
 platform: mobile
 redirect_from: /en/mobile/superoffice-mobile/project/index
 language: en

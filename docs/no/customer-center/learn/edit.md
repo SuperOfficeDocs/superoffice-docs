@@ -3,7 +3,7 @@ uid: help-no-customer-center-edit
 title: "Kundesenter, kildefiler"
 description: "Kundesenter, kildefiler"
 author: Bergfrid Dias
-date: 03.16.2023
+date: 06.10.2026
 keywords: Kundesenter, CEP
 content_type: howto
 tier: growth
@@ -14,7 +14,7 @@ language: no
 
 Du kan oppdatere standardsidene i kundesenteret ved å redigere kildefilene.
 
-[!include[Requirement](../../learn/includes/req-cep.md)]
+[!include[Requirement](../../includes/req-cep.md)]
 
 1. Velg <i class="ph ph-list" aria-label="Main menu"></i> **Systeminnstillinger** > **Kundesenter, kildefiler**.
 

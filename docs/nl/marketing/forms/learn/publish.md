@@ -4,8 +4,8 @@ title: Formulieren publiceren
 description: Formulieren publiceren
 keywords: formulier, publiceren, formulieren publiceren, vooraf ingevulde velden, veld-ID, veldidentificator, formulier insluiten, scriptcode, UTM-builder, UTM-tracking toevoegen
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms
@@ -81,7 +81,7 @@ De ingebouwde **UTM-builder** maakt een formulierlink met [UTM-parameters][4], z
 
 ### Vereisten en beperkingen
 
-* Je hebt een **Marketing Premium**-gebruikersplan.
+* Je hebt een **Marketing Premium**-licentie of het **Plus**-plan.
 * Een beheerder heeft [de overdracht van UTM-gegevens voor formulierinzendingen ingeschakeld][6].
 * UTM-tracking is alleen beschikbaar voor de optie **Directe link**. Het is niet van toepassing op ingesloten formulieren.
 

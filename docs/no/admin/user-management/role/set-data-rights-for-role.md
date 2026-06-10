@@ -4,20 +4,22 @@ title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
 author: digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
-redirect_from: /no/admin/user-management/learn/role/set-data-rights-for-role
 tier: starter
+redirect_from: /no/admin/user-management/learn/role/set-data-rights-for-role
 language: no
 ---
 
 # Angi datarettigheter for rolle
+
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan angi rettigheter for dataobjekter  basert på hvem som eier objektet. Alle brukere som tilhører denne [rollen][2], tilordnes rettigheter basert på innstillingene du gjør her.
 

@@ -4,11 +4,11 @@ title: Redigera eller inaktivera en säljguide
 description: Lär dig hur du redigerar eller inaktiverar en säljguide i SuperOffice CRM. Uppdatera faser, händelser och dokument, eller koppla bort guiden från en försäljningstyp med möjlighet att aktivera den igen vid behov.
 keywords: redigera säljguide, uppdatera säljguide, inaktivera säljguide, säljguide, guide, arbetsflöde, försäljning
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salespremium
-tier: core
+tier: growth
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv

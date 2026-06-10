@@ -4,8 +4,8 @@ title: Partner licenses
 description: Partners can issue their own licenses.
 keywords: partner license, license
 author: xt1
-date: 04.20.2026
-version: 11.12
+date: 06.10.2026
+version: 12.0
 content_type: concept
 tier: starter
 category: Settings and maintenance
@@ -30,6 +30,6 @@ This involves:
 1. Download a license for a given serial number + company name.
 1. Install the downloaded license into the tenant using the Agent or REST API.
 
-At this point the new licenses will appear as a new panel in admin, alongside the SuperOffice tab.
+At this point the new licenses will appear as a new panel in Settings and maintenance, alongside the **SuperOffice** tab.
 
 You can check for your own licenses in the same way as SuperOffice licenses.

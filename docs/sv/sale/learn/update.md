@@ -3,12 +3,12 @@ uid: help-sv-sale-update
 title: Uppdatera en försäljning
 description: Hur du uppdaterar befintlig försäljningsinformation, ändrar dess fas (inklusive att markera den som pausad, vunnen eller förlorad) eller raderar en försäljning om den inte längre är relevant.
 keywords: uppdatera försäljning, redigera försäljning, radera försäljning, pausad, förlorad, vunnen, försäljning
-author: Bergfrid Dias
-date: 01.13.2026
-version: 11.8
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
-tier: core
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv

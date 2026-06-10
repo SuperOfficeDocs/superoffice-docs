@@ -3,15 +3,15 @@ uid: help-da-template-variables-service
 title: Skabelonvariabler
 description: Skabelonvariabler
 keywords: skabelonvariabler
-author: SuperOffice Product and Engineering
-date: 06.29.2022
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
 category: service
 topic: knowledge base
 audience: person
 audience_tooltip: SuperOffice Service
-tier: core
+tier: starter
 language: da
 redirect_from: /da/request/reply-templates/learn/template-variables
 ---

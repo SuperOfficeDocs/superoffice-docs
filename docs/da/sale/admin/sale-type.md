@@ -4,8 +4,8 @@ title: Tilføj en salgstype
 description: Sådan tilføjer du en salgstype i SuperOffice CRM og konfigurerer faser, salgsguider og tilbudsindstillinger.
 keywords: tilføj salgstype, Salg – Type Faser Tilbud, Salg – Kategori, Tilbudsvedhæftninger, Tilbudsstandarder, Tilbudsgodkendelse, salgstype, salg, tilbud
 author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: salesessentials
 tier: core
@@ -58,11 +58,11 @@ Hvert salg skal have en salgstype, og disse typer kan knyttes til specifikke [sa
 
 1. (Valgfrit) Marker **Foreslå at flytte salget til næste fase automatisk**, hvis du ønsker, at brugere bliver bedt om at skifte fase, når alle aktiviteter for den aktuelle fase er gennemført.
 
-1. (Valgfrit) Marker **Denne salgstype har interessenter** for at tillade tilknytning af [interessenter][5] til salg af denne type. *(Kræver SalesPremium-licens)*
+1. (Valgfrit) Marker **Denne salgstype har interessenter** for at tillade tilknytning af [interessenter][5] til salg af denne type. *(kræver en **Sales Premium**-licens eller **Growth**-planen)*
 
 1. Indtast en beskrivelse af salgstypen i feltet **Beskrivelse**, hvis nødvendigt.
 
-1. For tilbudshåndtering kan du konfigurere indstillinger i fanerne **Tilbudsvedhæftninger**, **Tilbudsstandarder** og **Tilbudsgodkendelse** som beskrevet i [Tilbudsfelter forklaret](#quote-fields) nedenfor. *(Kræver SalesPremium-licens)* Disse indstillinger giver mulighed for at tilpasse tilbudsprocessen til virksomhedens behov.
+1. For tilbudshåndtering kan du konfigurere indstillinger i fanerne **Tilbudsvedhæftninger**, **Tilbudsstandarder** og **Tilbudsgodkendelse** som beskrevet i [Tilbudsfelter forklaret](#quote-fields) nedenfor. *(kræver en **Sales Premium**-licens eller **Growth**-planen)* Disse indstillinger giver mulighed for at tilpasse tilbudsprocessen til virksomhedens behov.
 
 1. Klik på **Gem** for at anvende ændringerne eller **Afbryd** for at kassere dem.
 
