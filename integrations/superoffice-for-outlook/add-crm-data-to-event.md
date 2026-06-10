@@ -98,8 +98,8 @@ You can also work with calendar events from shared mailboxes in Outlook.
 
 You can use the **Type** field to set the meeting type.
 
-- This value is saved with the event and synchronized to SuperOffice.
-- It can be used to categorize meetings for reporting and filtering.
+* This value is saved with the event and synchronized to SuperOffice.
+* It can be used to categorize meetings for reporting and filtering.
 
 ### Notes
 
