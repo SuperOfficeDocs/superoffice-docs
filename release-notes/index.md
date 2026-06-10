@@ -42,9 +42,10 @@ Different integration components are released on separate schedules. See the [in
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
+* [SuperOffice for Teams][16] (available from 02.06.2026)
 * [SuperOffice Online Replication: Stream CRM data to own infrastructure][16] (available from 13.02.2026)
 * [AI styling for Form][16] (available from 11.13 - 28.04.2026)
-* [SuperOffice Service - Custom objects][22] (available from 10.3.4 - 09.04.2024)
+* [Custom objects][22] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][21] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
 * [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
