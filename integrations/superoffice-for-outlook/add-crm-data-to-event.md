@@ -40,10 +40,8 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
     ![SuperOffice for Outlook, add CRM data to event -screenshot][img1]
 
     * If the email or contact is stored in SuperOffice, their contact information will appear, and the **Company** and **Contact** fields will auto-fill.
-    * If a contact is found but the **Contact** field is not auto-filled, multiple contacts with the same email exist in SuperOffice.
-        * Click **Select Contact** and choose the correct contact.
-    * If no contact is found, you can add a new contact to SuperOffice:
-        * Select **Click to add new contact** and enter the required details.
+    * If a contact is found but the **Contact** field is not auto-filled, multiple contacts with the same email exist in SuperOffice. Click **Select Contact** and choose the correct contact.
+    * If no contact is found, you can add a new contact to SuperOffice: Select **Click to add new contact** and enter the required details.
 
 1. Adjust the event details as needed.
 
