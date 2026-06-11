@@ -4,7 +4,7 @@ title: Upgrade to 11
 description: Upgrade to 11
 keywords: upgrade
 author: pavlas77
-date: 12.01.2025
+date: 06.11.2026
 version: 11
 content_type: howto
 deployment: onsite
@@ -73,6 +73,9 @@ To upgrade SuperOffice Web, run *Setup.exe* from *SnMWeb* installation file. The
 
 To upgrade SuperOffice Service, run the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded you need to run *upgrade.exe* to upgrade Service's database values.
 
+> [!NOTE]
+> SuperOffice Service v11 has a new dependency: Microsoft WebView2. It is not included in the Service installer. You must [download][3] it from the Microsoft website and install it before installing or upgrading SuperOffice Service.
+
 ### 4. Uninstall SuperOffice 8 Win clients
 
 The SuperOffice Win app has been discontinued since SuperOffice 9. If you used the SuperOffice 8 Win app, it needs to be uninstalled from all clients.
@@ -80,3 +83,4 @@ The SuperOffice Win app has been discontinued since SuperOffice 9. If you used t
 <!-- Referenced links -->
 [1]: ../to-81/index.md
 [2]: ../../install/database/crmsetup-and-crmtask.md
+[3]: https://developer.microsoft.com/en-us/microsoft-edge/webview2/?form=MA13LH
