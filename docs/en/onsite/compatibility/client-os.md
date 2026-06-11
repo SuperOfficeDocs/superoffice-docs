@@ -4,7 +4,7 @@ title: Tested client OS
 description: Tested client OS
 keywords: client operating system, Windows compatibility, MacOS compatibility, Windows 11
 author: Martin Pavlas
-date: 01.20.2026
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---

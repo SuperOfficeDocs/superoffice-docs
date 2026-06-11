@@ -3,7 +3,7 @@ title: Oracle versions
 uid: tested_oracle
 description: Tested Oracle versions
 author: SuperOffice Product and Engineering
-date: 09.12.2023
+date: 06.11.2026
 keywords:
 content_type: reference
 deployment: onsite

@@ -4,7 +4,7 @@ uid: tested_server_os
 description: Tested server operating system
 keywords: server operating system, supported OS, Windows Server
 author: SuperOffice Product and Engineering
-date: 10.07.2025
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---

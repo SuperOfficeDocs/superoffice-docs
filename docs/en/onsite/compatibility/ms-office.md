@@ -4,7 +4,7 @@ uid: tested_ms_office
 description: Tested Microsoft Office versions
 keywords: Microsoft Office, supported Office versions
 author: SuperOffice Product and Engineering
-date: 10.07.2025
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---

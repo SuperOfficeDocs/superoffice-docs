@@ -4,7 +4,7 @@ uid: tested_databases
 description: Tested databases
 keywords: MS SQL Server, Oracle, database version, supported databases
 author: SuperOffice Product and Engineering
-date: 10.07.2025
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
