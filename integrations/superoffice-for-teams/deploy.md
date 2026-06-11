@@ -25,7 +25,7 @@ Before users can archive content to SuperOffice, an administrator must register 
 
 To register the tenant:
 
-1. Go to the SuperOffice for Teams portal: [https://superofficeforteams.superofficeapps.com][1]
+1. Go to the [SuperOffice for Teams portal][1].
 1. Sign in with your SuperOffice account.
 1. Select the tenant you want to register.
 1. Accept the terms and privacy policy.
@@ -42,7 +42,8 @@ During the pilot, the administrator uploads the SuperOffice for Teams app packag
 To upload the app during the pilot:
 
 1. Go to the [Teams admin center][2].
-1. Click **Actions** in the upper-right corner.
+1. Open **Teams apps** > **Manage apps**.
+1. Click **Actions** in the top right corner.
 1. Select **Upload new app**.
 1. Upload the SuperOffice for Teams app package (.zip file).
 
@@ -52,7 +53,7 @@ After uploading the app, the administrator must grant admin consent in the Teams
 
 To grant admin consent:
 
-1. Go to the Teams admin center.
+1. Go to the [Teams admin center][2].
 1. Open **Teams apps** > **Manage apps**.
 1. Find and open **SuperOffice for Teams**.
 1. Go to the **Permissions** tab.
@@ -73,7 +74,7 @@ If you want the app to be ready for users without requiring them to install it t
 
 To push the app to users:
 
-1. Go to the Teams admin center.
+1. Go to the [Teams admin center][2].
 1. Open **Teams apps** > **Setup policies**.
 1. Select an existing policy or create a new one.
 1. Add **SuperOffice for Teams** under **Installed apps**.
@@ -91,7 +92,7 @@ If you want users to stay in control of their own installation, skip this step a
 
 <!-- Referenced links -->
 [1]: https://superofficeforteams.superofficeapps.com
-[2]: https://admin.teams.microsoft.com/policies/manage-apps
+[2]: https://admin.teams.microsoft.com/
 [3]: get.md
 
 <!-- Referenced images -->
