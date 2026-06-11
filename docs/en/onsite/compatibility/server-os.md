@@ -15,7 +15,7 @@ Currently tested server operating systems if running SuperOffice Onsite.
 
 Want to know if a newly released operating system is compatible? Check the [compatibility reports][1].
 
-[!include[legend](includes/onsite-phased-out.md)]
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 | Operating system       | 8.0, SR1 - SR3 | 8.0 SR4 - 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9 | 10 | 11 |
 |------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|

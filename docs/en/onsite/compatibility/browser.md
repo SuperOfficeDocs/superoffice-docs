@@ -15,7 +15,7 @@ Tested browsers to run both Win and Web applications.
 
 Want to know if a newly released browser is compatible? Check the [compatibility reports][1].
 
-[!include[legend](includes/onsite-phased-out.md)]
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 | Browsers             | 8.0 | 8.1 - 8.5 | 9 | 10 | 11 |
 |----------------------|:--:|:--:|:--:|:--:|:--:|

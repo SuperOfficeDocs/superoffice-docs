@@ -15,7 +15,7 @@ Currently tested client operating systems if running SuperOffice Onsite (for our
 
 Want to know if a newly released OS is compatible? Check the [compatibility reports][1].
 
-[!include[legend](includes/onsite-phased-out.md)]
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 ## Windows
 

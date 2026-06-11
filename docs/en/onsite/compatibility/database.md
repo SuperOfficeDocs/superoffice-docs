@@ -15,7 +15,7 @@ Our experience tells us that other configurations also should work but SuperOffi
 
 [!include[ODBC driver caution](./includes/caution-odbc-drivers.md)]
 
-[!include[legend](includes/onsite-phased-out.md)]
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 For database-specific system requirements, check the vendor [Microsoft][1] or [Oracle][2].
 
