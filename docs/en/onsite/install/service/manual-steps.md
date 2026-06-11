@@ -4,7 +4,7 @@ title: Manual steps
 description: Manual steps to install Service
 keywords: install, Service, CS, CustomerService, CustomerService.exe, ejTermSetup.exe
 author: Martin Pavlas
-date: 11.21.2025
+date: 06.11.2026
 content_type: howto
 deployment: onsite
 version: 8.1
@@ -28,6 +28,8 @@ If the website is created, then you may create the application first, and just p
 ![x -screenshot][img1]
 
 Run **SuperOffice.CustomerService.exe** to install the software on the server, the default location is *C:\SuperOffice*.
+
+[!include[Service WebView](../../includes/service-webview.md)]
 
 ![x -screenshot][img2]
 

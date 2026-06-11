@@ -4,7 +4,7 @@ title: Set-up guide
 description: Guide to installing SuperOffice Service and what to do before you start.
 keywords: install, Service, ejTermsetup.exe, CustomerService.exe, SymmetricKey, SymmetricSecret
 author: pavlas77
-date: 12.04.2025
+date: 06.11.2026
 version: 11
 content_type: howto
 deployment: onsite
@@ -26,6 +26,8 @@ You need to have a working SuperOffice web services installation before you proc
 ## Run the installer
 
 The installer will copy the necessary files to the Service program folder.
+
+[!include[Service WebView](../../includes/service-webview.md)]
 
 1. Run **SuperOffice.CustomerService.exe**.
 
