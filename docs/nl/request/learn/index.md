@@ -155,6 +155,7 @@ Een contactservicesysteem draait om het bieden van de antwoorden die uw personen
 * [Berichten of meerdere verzoeken doorsturen naar externe partijen][8]
 * [Verzoeken aan de lijst met favorieten toevoegen][18]
 * [Verzoeken sluiten][3]
+* [Verzoeken markeren als spam][27]
 
 Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en kunnen SuperOffice Service op verschillende manieren gebruiken. Hieronder staan twee praktijkgevallen die enkele van de beschikbare opties laten zien. Deze scenario's laten u zien hoe u efficiënt kunt antwoorden wanneer een persoon een verzoek per e-mail heeft ingediend en wanneer een persoon belt met een probleem of een vraag.
 
@@ -271,6 +272,7 @@ Enkele instellingen die ondersteuningsagenten beïnvloeden zijn:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

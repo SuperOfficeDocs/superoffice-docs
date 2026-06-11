@@ -4,8 +4,8 @@ title: Functional rights in SuperOffice
 description: What are all available functional rights in SuperOffice and what each of them mean?
 keywords: user management, role, access, rights
 author: PhilipYates, digitaldiina
-date: 05.04.2026
-version: 11.13
+date: 06.11.2026
+version: 12.0
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -35,6 +35,7 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 | Can export data to file | The user may export company and contact information to a file. | |
 | Can lock and unlock targets | The user may lock and unlock sale targets. | |
 | Can manage (move and merge) entities | The user may move, merge, and copy contacts, companies, and so on. | |
+| Can mark requests as Spam | The user may mark requests as spam. | |
 | Can modify interests for selection members | The user may modify the interests for all members of a selection. | |
 | Can override consent in mailings | The user may override the consent check when sending mailings. | |
 | Can override read-only fields | The user may modify read-only user-defined fields. | |

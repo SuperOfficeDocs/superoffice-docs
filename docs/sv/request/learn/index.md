@@ -155,6 +155,7 @@ Ett kontaktservicesystem handlar om att ge dina kunder de svar de söker på ett
 * [Vidarebefordra ärenden till externa parter][8]
 * [Lägga till ärenden i favoriter][18]
 * [Avsluta ärenden][3]
+* [Markera ärenden som skräppost][27]
 
 Olika företag har olika rutiner för ärendehantering och kan använda SuperOffice Service på varierande sätt beroende på sina behov och arbetsflöden. Nedan har vi beskrivit två verkliga scenarier som illustrerar några av de olika alternativ som finns tillgängliga. Dessa exempel visar hur du kan hantera och besvara kundförfrågningar effektivt, både när en kund skickar in ett ärende via e-post och när en kund ringer in med ett problem eller en fråga.
 
@@ -271,6 +272,7 @@ Några inställningar som påverkar supportagenter inkluderar:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

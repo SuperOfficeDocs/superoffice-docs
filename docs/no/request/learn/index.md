@@ -155,6 +155,7 @@ Et personservicesystem handler om å gi personer svarene de er ute etter, og å 
 * [Videresende meldinger eller flere saker til eksterne parter][8]
 * [Legge til saker i favorittlisten][18]
 * [Avslutte saker][3]
+* [Merk saker som spam][27]
 
 Ulike firmaer har ulike rutiner for saksbehandling og kan bruke SuperOffice Service på forskjellige måter. Nedenfor har vi satt opp to scenarioer fra virkeligheten som viser noen av mulighetene som finnes. Disse scenarioene viser deg hvordan du kan svare effektivt når en person har sendt inn en sak via e-post, og når en person ringer inn med et problem eller et spørsmål.
 
@@ -272,6 +273,7 @@ Noen innstillinger som påvirker kundestøtteagenter inkluderer:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

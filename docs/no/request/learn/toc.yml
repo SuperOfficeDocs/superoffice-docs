@@ -13,6 +13,8 @@ items:
   href: edit-message.md
 - name: Automatisk tilordning
   href: assign.md
+- name: Merk sak som spam
+  href: spam.md
 - name: Ta ansvar for sak
   href: accept.md
 - name: Be en annen saksbehandler om hjelp

@@ -13,6 +13,8 @@ items:
   href: edit-message.md
 - name: Automatische toewijzing
   href: assign.md
+- name: Verzoek markeren als spam
+  href: spam.md
 - name: Verantwoordelijkheid voor verzoeken opeisen
   href: accept.md
 - name: Andere verzoekbehandelaar om hulp vragen
