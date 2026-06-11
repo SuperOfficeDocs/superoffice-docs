@@ -14,7 +14,7 @@ language: en
 
 # New and improved Settings and maintenance
 
-* [System design - Webhook management panel (12.1)][1]
+* [System design - Webhooks management panel (12.1)][1]
 
 <!-- Referenced links -->
 [1]: 12.1-update.md

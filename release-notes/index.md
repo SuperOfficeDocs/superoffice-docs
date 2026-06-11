@@ -12,7 +12,11 @@ language: en
 
 # What's new in SuperOffice
 
-Here you will find all the small and big changes that have been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
+**SuperOffice 12** - a new version of SuperOffice CRM where AI becomes part of how you work every day.
+
+SuperOffice 12 introduces a new way to license SuperOffice for new customers, bringing Sales, Marketing, and Service together across [five plans - Starter, Core, Growth, Plus, and Super][23]. Sales, Marketing, and Service functionality is included in all plans. AI capabilities are also available across all areas of SuperOffice, included in the different plans.
+
+At SuperOffice, relationships are at the heart of everything we do — and we believe the right tools should make those relationships easier to build and maintain. We look forward to sharing what's ahead.
 
 ## SuperOffice CRM versions
 
@@ -108,6 +112,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [20]: ../integrations/supernotes/index.md
 [21]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/ai-lab/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
 [22]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/custom-objects/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
+[23]: https://www.superoffice.com/pricing/?utm_medium=docs&utm_source=release%20notes&utm_campaign=crmsuites
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

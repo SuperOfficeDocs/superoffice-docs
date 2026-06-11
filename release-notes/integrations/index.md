@@ -15,11 +15,12 @@ language: en
 
 ## Product integrations updates
 
-* [SuperOffice for Outlook - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images][3] - 6.3 (11.05.2026)
+* [SuperOffice for Outlook][3] - 6.3.0 (03.06.2026) - May require approval in the Microsoft Admin portal (see Note)
+* [SuperOffice for Outlook][3] - 6.3.0 (11.05.2026) - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images
 * [SuperOffice WebTools guide][21] - (04.05.2026)
 * [SuperNotes integration guide][43] - (04.02.2026)
-* [Zapier - Breaking changes and improvements][15] - 3.5 (09.10.2025)
-* [Video meetings - Set configurations - Prefer direct link to Microsoft Teams][13] - 2.9 (01.09.2025)
+* [Zapier][15] - 3.5 (09.10.2025) - Breaking changes and improvements
+* [Video meetings][13] - 2.9 (01.09.2025) - Set configurations - Prefer direct link to Microsoft Teams
 
 Documentation for all SuperOffice integrations is available at [docs.superoffice.com/integrations][26].
 
@@ -40,11 +41,11 @@ Current version: For the latest version numbers and release details for all prod
 * SuperOffice for Trello - 11.0 (21.11.2025)
 * SuperOffice for Wordpress - 12.0 (27.05.2026)
 * SuperOffice MailLink - 13.1.61 (30.01.2026)
-* Synchronizer - 124.0 (03.06.2026)
+* Synchronizer - 125.0 (05.06.2026)
 * Teams Notify - 12.0 (18.05.2026)
 * Video Meetings - 2.12 (26.05.2026)
 * Webex Notify - 12.0 (18.05.2026)
-* WebTools for Mac - 13.3.3.0 (06.06.2026)
+* WebTools for Mac - 13.3.3 (06.06.2026)
 * WebTools for Windows - 13.2.3 (24.03.2026)
 * Zapier - 3.5.8 (25.05.2026)
 

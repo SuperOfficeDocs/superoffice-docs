@@ -24,7 +24,7 @@ From this version, all feature updates are available to SuperOffice Online custo
 
 ### 12.1 (16.06.2026)
 
-* [System design - Webhook management panel][10] in Service
+* [System design - Webhooks management panel][10] in Setting and maintenance
 
 ### 12.0 (01.06.2026)
 

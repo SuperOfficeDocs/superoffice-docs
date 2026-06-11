@@ -27,7 +27,7 @@ redirect_from:
 # What's new in SuperOffice for Outlook
 
 * SuperOffice for Outlook - version 6
-  * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3 (11.05.2026)
+  * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3.0 (11.05.2026)
   * [New email - Pin the SuperOffice side panel][4] - 6.3 (11.05.2026)
   * [Archive attachments - List does not contain images][4] - 6.3 (11.05.2026)
   * [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
