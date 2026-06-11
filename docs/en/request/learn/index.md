@@ -155,6 +155,7 @@ A contact service system is all about providing your contacts the answers they a
 * [Forward messages or multiple requests to external parties][8]
 * [Add requests to the favorites list][18]
 * [Close requests][3]
+* [Mark requests as spam][27]
 
 Different companies have different routines for request handling and can use SuperOffice Service in different ways. Below we have set up two real-life scenarios showing some of the available options. These scenarios will show you how you can reply efficiently when a contact has submitted a request by email and when a contact calls in with a problem or a question.
 
@@ -270,6 +271,7 @@ Some settings that affect support agents include:
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 

@@ -13,6 +13,8 @@ items:
   href: edit-message.md
 - name: Automatisk tilldelning
   href: assign.md
+- name: Markera ärende som skräppost
+  href: spam.md
 - name: Ta över ansvaret för ärende
   href: accept.md
 - name: Be en annan ärendehandläggare om hjälp

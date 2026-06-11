@@ -13,6 +13,8 @@ items:
   href: edit-message.md
 - name: Automatische Zuordnung
   href: assign.md
+- name: Anfrage als Spam markieren
+  href: spam.md
 - name: Anfrage übernehmen
   href: accept.md
 - name: Einen anderen Bearbeiter um Hilfe bitten

@@ -155,6 +155,7 @@ SuperOffice Service hjælper dig med at give personer de svar, de har brug for, 
 * [Videresend meddelelser eller flere sager til eksterne parter][8]
 * [Tilføj sager til listen over favoritter][18]
 * [Luk sager][3]
+* [Markér sager som spam][27]
 
 Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge SuperOffice Service på forskellige måder. Nedenfor har vi sat to scenarier fra den virkelige verden op, der viser nogle af de muligheder, der findes. Disse scenarier viser dig, hvordan du kan svare effektivt, når en person har sendt en sag via e-mail, og når en person ringer ind med et problem eller et spørgsmål.
 
@@ -271,6 +272,7 @@ Nogle indstillinger, der påvirker supportagenter, inkluderer:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

@@ -155,6 +155,7 @@ Ein Kundenservicesystem dient dazu, Ihren Kunden die gesuchten Antworten bereitz
 * [Nachrichten oder mehrere Anfragen an externe Parteien weiterleiten][8]
 * [Anfragen zur Favoritenliste hinzufügen][18]
 * [Anfragen schließen][3]
+* [Anfragen als Spam markieren][27]
 
 Jedes Unternehmen hat eigene Abläufe zur Bearbeitung von Anfragen und nutzt SuperOffice Service auf unterschiedliche Weise. Nachfolgend zeigen zwei reale Szenarien, wie Anfragen effizient bearbeitet werden können.
 
@@ -270,6 +271,7 @@ Einige Einstellungen, die Support-Agenten betreffen, umfassen:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
