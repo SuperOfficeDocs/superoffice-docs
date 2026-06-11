@@ -12,6 +12,8 @@ deployment: onsite
 
 SuperOffice CRM has officially been tested on MS SQL Server versions listed below.
 
+[!include[legend](includes/onsite-phased-out.md)]
+
 | SQL Server | Server version | ODBC driver | Driver version |
 |------------|----------------|-------------|----------------|
 | SQL Server 2022 | 16.0.1000.6   | ODBC Driver 18 for SQL Server | 18.1.2.1 |

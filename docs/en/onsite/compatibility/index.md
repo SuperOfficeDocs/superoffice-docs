@@ -15,6 +15,8 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
+[!include[legend](includes/onsite-phased-out.md)]
+
 ## MacOS Tahoe
 
 ![macOS Tahoe][img23]

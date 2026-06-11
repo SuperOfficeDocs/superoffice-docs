@@ -15,6 +15,8 @@ Our experience tells us that other configurations also should work but SuperOffi
 
 [!include[ODBC driver caution](./includes/caution-odbc-drivers.md)]
 
+[!include[legend](includes/onsite-phased-out.md)]
+
 For database-specific system requirements, check the vendor [Microsoft][1] or [Oracle][2].
 
 | Database           | 8.0, SR1 | 8.0 SR2 - SR6 | 8.1 - 8.4 | 8.5 | 9 | 10 | 11 |

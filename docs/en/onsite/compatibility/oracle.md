@@ -13,6 +13,8 @@ deployment: onsite
 
 SuperOffice CRM has been officially tested on Oracle 11g, 12c, and 18c.
 
+[!include[legend](includes/onsite-phased-out.md)]
+
 | Server | Client | Version | ODBC driver |
 |---|---|---|---|
 | Oracle 18c | Oracle 18c Client | 18.3.0.0.0 | See Oracle 18c compatibility |
