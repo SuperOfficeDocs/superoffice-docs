@@ -4,7 +4,7 @@ uid: tested_browsers
 description: Tested browser versions
 keywords: browser support
 author: SuperOffice Product and Engineering
-date: 10.07.2025
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
@@ -14,6 +14,8 @@ deployment: onsite
 Tested browsers to run both Win and Web applications.
 
 Want to know if a newly released browser is compatible? Check the [compatibility reports][1].
+
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 | Browsers             | 8.0 | 8.1 - 8.5 | 9 | 10 | 11 |
 |----------------------|:--:|:--:|:--:|:--:|:--:|

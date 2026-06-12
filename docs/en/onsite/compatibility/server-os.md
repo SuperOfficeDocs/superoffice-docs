@@ -4,7 +4,7 @@ uid: tested_server_os
 description: Tested server operating system
 keywords: server operating system, supported OS, Windows Server
 author: SuperOffice Product and Engineering
-date: 10.07.2025
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
@@ -14,6 +14,8 @@ deployment: onsite
 Currently tested server operating systems if running SuperOffice Onsite.
 
 Want to know if a newly released operating system is compatible? Check the [compatibility reports][1].
+
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 | Operating system       | 8.0, SR1 - SR3 | 8.0 SR4 - 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9 | 10 | 11 |
 |------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|

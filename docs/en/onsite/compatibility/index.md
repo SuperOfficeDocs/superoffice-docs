@@ -4,7 +4,7 @@ title: Compatibility reports
 description: Compatibility test reports for SuperOffice onsite
 keywords: requirements, compatibility test, compatibility report, onsite compatibility
 author: Martin Pavlas
-date: 06.10.2026
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
@@ -14,6 +14,8 @@ deployment: onsite
 The published compatibility test reports. A **Test Passed** status is a 90% assurance that this product will work as intended in the environment tested.
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
+
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 ## MacOS Tahoe
 

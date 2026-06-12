@@ -3,7 +3,7 @@ title: Oracle versions
 uid: tested_oracle
 description: Tested Oracle versions
 author: SuperOffice Product and Engineering
-date: 09.12.2023
+date: 06.11.2026
 keywords:
 content_type: reference
 deployment: onsite
@@ -12,6 +12,8 @@ deployment: onsite
 # Tested Oracle versions
 
 SuperOffice CRM has been officially tested on Oracle 11g, 12c, and 18c.
+
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 | Server | Client | Version | ODBC driver |
 |---|---|---|---|

@@ -4,7 +4,7 @@ title: Tested client OS
 description: Tested client OS
 keywords: client operating system, Windows compatibility, MacOS compatibility, Windows 11
 author: Martin Pavlas
-date: 01.20.2026
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
@@ -15,7 +15,7 @@ Currently tested client operating systems if running SuperOffice Onsite (for our
 
 Want to know if a newly released OS is compatible? Check the [compatibility reports][1].
 
-[!include[legend](./includes/win-unavailable.md)]
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 ## Windows
 

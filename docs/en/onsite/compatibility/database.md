@@ -4,7 +4,7 @@ uid: tested_databases
 description: Tested databases
 keywords: MS SQL Server, Oracle, database version, supported databases
 author: SuperOffice Product and Engineering
-date: 10.07.2025
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
@@ -14,6 +14,8 @@ deployment: onsite
 Our experience tells us that other configurations also should work but SuperOffice will not guarantee any other configurations than the ones listed below.
 
 [!include[ODBC driver caution](./includes/caution-odbc-drivers.md)]
+
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
 
 For database-specific system requirements, check the vendor [Microsoft][1] or [Oracle][2].
 
