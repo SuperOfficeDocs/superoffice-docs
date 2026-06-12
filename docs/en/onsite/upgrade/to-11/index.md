@@ -4,7 +4,7 @@ title: Upgrade to 11
 description: Upgrade to 11
 keywords: upgrade
 author: pavlas77
-date: 12.01.2025
+date: 06.11.2026
 version: 11
 content_type: howto
 deployment: onsite
@@ -72,6 +72,8 @@ To upgrade SuperOffice Web, run *Setup.exe* from *SnMWeb* installation file. The
 ### 3. Upgrade SuperOffice Service
 
 To upgrade SuperOffice Service, run the *SuperOffice.CustomerService.exe* file from the *CS* installation folder. After the Service program files are upgraded you need to run *upgrade.exe* to upgrade Service's database values.
+
+[!include[Service WebView](../../includes/service-webview.md)]
 
 ### 4. Uninstall SuperOffice 8 Win clients
 
