@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice Integrations
 keywords: integration, app, AppStore, product release
 author: kirstiaa
-date: 06.03.2026
+date: 06.16.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,7 +15,6 @@ language: en
 
 ## Product integrations updates
 
-* [SuperOffice for Outlook][3] - 6.3.0 (03.06.2026) - May require approval in the Microsoft Admin portal (see Note)
 * [SuperOffice for Outlook][3] - 6.3.0 (11.05.2026) - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images
 * [SuperOffice WebTools guide][21] - (04.05.2026)
 * [SuperNotes integration guide][43] - (04.02.2026)
@@ -126,7 +125,7 @@ See all the [new or updated apps][2]
 [58]: https://appstore.superoffice.com/syncify-ab/microsoft-business-central-by-syncify
 [60]: https://appstore.superoffice.com/syncify-ab/unimicro-by-syncify
 [61]: https://appstore.superoffice.com/lyyti/lyyti-superoffice-integration
-[62]: ttps://appstore.superoffice.com/superoffice-as/database-mirroring-service
+[62]: https://appstore.superoffice.com/superoffice-as/database-mirroring-service
 [63]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
 [64]: https://appstore.superoffice.com/superoffice-as/superoffice-for-teams
 

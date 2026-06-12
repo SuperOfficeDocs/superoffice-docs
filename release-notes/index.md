@@ -57,7 +57,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 ## Developer Portal
 
-* 2.14 (17.06.2026): Messaging centre
+* 2.14 (17.06.2026): Messaging center
 * 2.13 (15.05.2026): LinkedIn link preview, Notify partners before tenant deletion
 * 2.11 (25.02.2026): App Store information visible with a standard application, Required Partner profile feedback before publish to stage
 * 2.9 (17.12.2025): Refactored log section, Export list of tenants

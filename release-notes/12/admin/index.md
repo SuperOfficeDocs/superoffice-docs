@@ -18,5 +18,3 @@ language: en
 
 <!-- Referenced links -->
 [1]: 12.1-update.md
-
-<!-- Referenced images -->
