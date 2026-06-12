@@ -4,7 +4,7 @@ title: What's new in SuperOffice for Outlook
 description: Release notes for the SuperOffice for Outlook integration.
 keywords: Outlook add-in, sofo
 author: SuperOffice AS – Product and Engineering
-date: 05.11.2026
+date: 06.16.2026
 version: 6.3
 content_type: release-note
 category: email
@@ -27,9 +27,9 @@ redirect_from:
 # What's new in SuperOffice for Outlook
 
 * SuperOffice for Outlook - version 6
-  * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3 (11.05.2026)
-  * [New email - Pin the SuperOffice side panel][4] - 6.3 (11.05.2026)
-  * [Archive attachments - List does not contain images][4] - 6.3 (11.05.2026)
+  * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3.0 (11.05.2026)
+  * [New email - Pin the SuperOffice side panel][4] - 6.3.0 (11.05.2026)
+  * [Archive attachments - List does not contain images][4] - 6.3.0 (11.05.2026)
   * [SuperOffice for Outlook update – Action required][1] - 6.0 (21.01.2025)
 
 * SuperOffice for Outlook - version 3

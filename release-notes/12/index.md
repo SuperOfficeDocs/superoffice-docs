@@ -4,7 +4,7 @@ title: What's new in SuperOffice 12
 description: Release notes. What's new in SuperOffice 12
 keywords: SuperOffice CRM 12
 author: kirstiaa
-date: 06.01.2026
+date: 06.16.2026
 version: 12
 content_type: release-notes
 audience: person
@@ -21,6 +21,10 @@ language: en
 From this version, all feature updates are available to SuperOffice Online customers only. Onsite installations will receive security updates only.
 
 ## Feature updates
+
+### 12.1 (16.06.2026)
+
+* [System design - Webhooks management panel][11] in **Settings and maintenance**
 
 ### 12.0 (01.06.2026)
 
@@ -46,5 +50,4 @@ Some features are available to selected customers as part of ongoing pilots. See
 [5]: https://appstore.superoffice.com/Category/new-and-updated
 [6]: https://community.superoffice.com/en/product-releases/release-notes/
 [10]: service/12.0-update.md
-
-<!-- Referenced images -->
+[11]: admin/12.1-update.md

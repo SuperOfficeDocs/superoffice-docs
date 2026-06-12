@@ -21,11 +21,11 @@ items:
 #  items:
 #  - name: 12.x update
 #    href: marketing/12.x-update.md
-#- name: Settings and Maintenance
-#  href: admin/index.md
-#  items:
-#  - name: 12.x update
-#    href: admin/12.x-update.md
+- name: Settings and Maintenance
+  href: admin/index.md
+  items:
+  - name: 12.1 update
+    href: admin/12.1-update.md
 - name: API
   href: api/index.md
   items:
