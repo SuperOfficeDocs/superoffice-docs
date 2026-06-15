@@ -27,7 +27,7 @@ public class  ExampleContextInitializer : IContextInitializer
         * See the following link for more information:
         * https://docs.superoffice.com/en/api/netserver/config/data.html
         */
-        
+
         var db = new DatabaseInstance();
         db.DatabaseMajor = "MSSQL";
         db.DatabaseMinor = "15";
@@ -63,7 +63,7 @@ public class  ExampleContextInitializer : IContextInitializer
 }
 ```
 
-### Bootstrap the application
+## Bootstrap the application
 
 The `Startup` class is then used to bootstrap the application. The `Startup` class is a convention used in ASP.NET Core applications. However, this explanation will not make any assumptions about the type of application you are building and will instead explicitly add an IStartup interface for demonstration purposes.
 
@@ -83,7 +83,7 @@ public class Program
         };
 
         startup.Configuration = new ConfigurationBuilder().AddInMemoryCollection(config);
-        
+
         var services = new ServiceCollection();
         services.AddSingleton<IContextInitializer, ExampleContextInitializer>();
         startup.Configure(services);
@@ -148,18 +148,6 @@ OSQL has the **best performance** of all NetServer API layers. When using OSQL, 
 [2]: ../../../rows/index.md
 [3]: ../../../entities/index.md
 [4]: ../../../archive-providers/index.md
-[5]: ../../../web-services/index.md
-[9]: ../../../../automation/webhook/index.md
-[12]: ../../../config/index.md
-[13]: ../../../authentication/overview.md
-[14]: ../../../plugins/document/soarc-document-plugin.md
-[15]: ../../../web-services/endpoints/index.md
-[16]: ../../../web-services/proxies/index.md
-[17]: ../../../mdo-providers/reference/index.md
-[18]: ../../../plugins/sentry/index.md
 [20]: <xref:SuperOffice.CRM.Entities>
 [21]: <xref:SuperOffice.CRM.Rows>
 [22]: https://www.nuget.org/packages/superoffice.netserver.core
-[23]: https://www.nuget.org/packages/superoffice.netserver.services
-[24]: https://www.nuget.org/packages/superoffice.webapi
-[25]: https://www.npmjs.com/package/@superoffice/webapi

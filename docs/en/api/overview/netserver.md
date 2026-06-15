@@ -105,7 +105,7 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [3]: ../entities/index.md
 [4]: ../archive-providers/index.md
 [5]: ../web-services/index.md
-[9]: ../../automation/webhook/index.md
+[9]: ../../automation/webhook/dev/index.md
 [12]: ../config/index.md
 [13]: ../authentication/overview.md
 [14]: ../plugins/document/soarc-document-plugin.md

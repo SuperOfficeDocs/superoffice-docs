@@ -9,7 +9,7 @@ version: 10
 content_type: howto
 deployment: online
 platform: web
-redirect_from: 
+redirect_from:
   - /en/ui/design/index
   - /en/ui/design/error-removal
   - /en/ui/design/info-hinting
@@ -335,7 +335,7 @@ Read about [effective visual design][6].
 [24]: ../provisioning/index.md
 
 [6]: ../../ui/design/index.md
-[16]: ../../automation/webhook/index.md
+[16]: ../../automation/webhook/dev/index.md
 
 [17]: ../../api/bulk-operations/index.md
 [21]: ../../api/search/odata/index.md

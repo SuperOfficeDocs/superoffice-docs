@@ -40,12 +40,12 @@ Mass Operation functions are intentionally generic and operate towards one table
 The number of columns on both *target columns* and *row columns* must be the same. That means when five target columns are defined, each data row is expected to contain exactly five columns as well. The following example demonstrates a `contact` table insert and specified the five fields: contact ID, name, country, business, and category. Notice the data input contains rows with matching five columns. An `SoMassOperationException` is thrown when the number of specified columns does not match the number of data row columns.
 
 ```csharp
-// specified column 
+// specified column
 string[] columns = { "contact_id", "name", "country_id", "business_idx", "category_idx" };
 
 // data rows and column data
 
-string[][] data = 
+string[][] data =
 {
     new [] { "0", "Red A",    "220", "6", "3" },
     new [] { "0", "Orange A", "98",  "1", "2" },
@@ -96,4 +96,4 @@ SuperOffice does not support [webhooks][6] or travel transaction logging for ext
 [3]: ../../../database/tables/index.md
 [4]: protected-tables.md
 [5]: ../../localization/culture/culturedataformatter.md
-[6]: ../../../automation/webhook/index.md
+[6]: ../../../automation/webhook/dev/index.md
