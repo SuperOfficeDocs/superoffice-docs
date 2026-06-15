@@ -71,7 +71,7 @@ SuperOffice kan du oprette webpaneler, der kan indeholde tabelinformation. Hvis 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../en/automation/webhook/overview.md
+[2]: ../../en/automation/webhook/dev/overview.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

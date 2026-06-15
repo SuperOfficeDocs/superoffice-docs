@@ -1,0 +1,60 @@
+items:
+- name: Introduction
+  href: index.md
+- name: For developers
+  href: dev/index.md
+  items:
+  - name: Event details
+    href: dev/event-details.md
+  - name: Subscription
+    href: dev/subscription.md
+  - name: Notifications and errors
+    href: dev/notification.md
+  - name: Security
+    href: dev/security.md
+  - name: CRMScript event handlers
+    href: dev/crmscript-handlers.md
+  - name: Register a webhook
+    href: dev/register.md
+  - name: Troubleshooting
+    href: dev/troubleshooting.md
+  - name: Tutorial - Add message to ticket with GitHub webhook
+    href: dev/tutorials/add-msg-to-ticket/index.md
+- name: Event reference
+  href: reference/index.md
+  items:
+  - name: Activity events
+    href: reference/activity-events.md
+  - name: Associate events
+    href: reference/associate-events.md
+  - name: Chat events
+    href: reference/chat-events.md
+  - name: Contact events
+    href: reference/contact-events.md
+  - name: Document events
+    href: reference/document-events.md
+  - name: ExtraTable events
+    href: reference/extratable-events.md
+  - name: List events
+    href: reference/list-events.md
+  - name: Person events
+    href: reference/person-events.md
+  - name: Project events
+    href: reference/project-events.md
+  - name: Project member events
+    href: reference/project-member-events.md
+  - name: Quote events
+    href: reference/quote-events.md
+  - name: Relation events
+    href: reference/relation-events.md
+  - name: Sale events
+    href: reference/sale-events.md
+  - name: Sale stakeholder events
+    href: reference/sale-stakeholder-events.md
+  - name: State change events
+    href: reference/state-events.md
+  - name: Test events
+    href: reference/test-event.md
+  - name: Ticket events
+    href: reference/ticket-events.md
+
