@@ -96,7 +96,7 @@ Notifikationsmodtagere ser en advarsel i SuperOffice, når en webhook automatisk
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../dev/index.md
+[2]: ../../../../en/automation/webhook/dev/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/admin/admin-system-design-webhook-overview.png

@@ -85,7 +85,7 @@ Efter lagring vises leveringsstatusoplysninger under **Aktiv**-knappen. Klik på
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../dev/register.md
+[2]: ../../../../en/automation/webhook/dev/register.md
 [3]: ../../../customization/macros-and-scripts/admin/create-script.md
 
 <!-- Referenced images -->
