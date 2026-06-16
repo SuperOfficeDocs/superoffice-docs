@@ -1,8 +1,8 @@
 ---
 uid: help-no-webhook-create
-title: Oprett webhook
+title: Opprett webhook
 description: Opprett en webhook i Innstillinger og vedlikehold uten å skrive kode eller kalle API-et.
-keywords: oprett webhook, rediger webhook, varsling, hendelse
+keywords: opprett webhook, rediger webhook, varsling, hendelse
 author: digitaldiina
 date: 06.16.2026
 version: 12.1
@@ -16,7 +16,7 @@ index: true
 language: no
 ---
 
-# Oprett webhook
+# Opprett webhook
 
 Du kan opprette og administrere webhook-abonnementer direkte i **Innstillinger og vedlikehold**, uten å skrive kode eller kalle APIet.
 
@@ -53,7 +53,7 @@ Du kan opprette og administrere webhook-abonnementer direkte i **Innstillinger o
 
     Angi hvem som skal varsles, hvordan de skal nås og når varslingen skal sendes.
 
-    * **Recipients:** Legg til CRM-brukere eller skriv inn eksterne e-postadresser. Mottakere vises som tags.
+    * **Mottakere:** Legg til CRM-brukere eller skriv inn eksterne e-postadresser. Mottakere vises som tags.
     * **Varsle via:** Velg varslingskanalen.
     * **Utløs varsel:** Velg ett eller begge alternativer:
       * **Ved første feil:** Sender et varsel første gang webhooken ikke klarer å levere.

@@ -38,8 +38,6 @@ Listen viser alle registrerte webhooks. Du kan sortere og filtrere etter hvilken
 | Påfølgende feil | Antall påfølgende leveringsfeil de siste 24 timene. |
 | Oppdatert av | Hvem som sist endret webhooken. |
 
-Hold musepekeren over en rad for å se fullt navn i kolonnen Oppdatert av.
-
 ## Statusmerker
 
 Hver webhook har et statusmerke som viser gjeldende tilstand.
@@ -93,7 +91,7 @@ Varslingsmottakere ser et varsel i SuperOffice når en webhook automatisk deakti
 
 ## Relatert innhold
 
-* [Oprett webhook][1]
+* [Opprett webhook][1]
 * [Utviklerveiledning for webhooks][2]
 
 <!-- Referenced links -->

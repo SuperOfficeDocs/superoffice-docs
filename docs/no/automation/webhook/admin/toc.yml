@@ -1,5 +1,5 @@
 items:
 - name: Webhooks-panel
   href: index.md
-- name: Oprett webhook
+- name: Opprett webhook
   href: create.md

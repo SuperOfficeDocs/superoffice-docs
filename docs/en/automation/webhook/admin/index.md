@@ -30,15 +30,13 @@ The list shows all registered webhooks. You can sort and filter by any column.
 
 | Column | Description |
 | --- | --- |
-| Name | The display name of the webhook. |
 | Status | Health badge showing the current state. |
-| Target | The destination URL or CRMScript name. |
-| Events | The number of event types the webhook subscribes to. |
-| Last delivery | Timestamp of the most recent delivery attempt. |
-| Last result | Outcome of the most recent delivery attempt. |
-| Failures (24 h) | Number of consecutive delivery failures in the last 24 hours. |
-
-To see who last modified a webhook, hover over its row or expand the Name column.
+| Name | The display name of the webhook. |
+| Event Count | The number of event types the webhook subscribes to. |
+| Target URL | The destination URL or CRMScript name. |
+| Last Event | Timestamp of the most recent delivery attempt. |
+| Consecutive Errors | Number of consecutive delivery failures. |
+| Updated by | Full name of the person who last modified the webhook. |
 
 ## Status badges
 
@@ -47,7 +45,7 @@ Each webhook has a status badge that shows its current health.
 | Status | Color | Meaning |
 | --- | --- | --- |
 | Active | Green | Running with no failures in the last 24 hours. |
-| Active with failures | Amber | Running but has had delivery failures in the last 24 hours. |
+| Active with failures | Yellow | Running but has had delivery failures in the last 24 hours. |
 | Stopped | Grey | Manually stopped by an administrator. |
 | Disabled | Red | Automatically deactivated by the system after 9 consecutive delivery failures. |
 

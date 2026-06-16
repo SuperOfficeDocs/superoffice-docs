@@ -53,7 +53,7 @@ Sie können Webhook-Abonnements direkt in **Einstellungen und Verwaltung** erste
 
     Geben Sie an, wen Sie benachrichtigen möchten, wie diese Personen erreichbar sind und wann die Benachrichtigung gesendet werden soll.
 
-    * **Recipients:** Fügen Sie CRM-Benutzer hinzu oder geben Sie externe E-Mail-Adressen ein. Empfänger werden als Tags angezeigt.
+    * **Empfänger:** Fügen Sie CRM-Benutzer hinzu oder geben Sie externe E-Mail-Adressen ein. Empfänger werden als Tags angezeigt.
     * **Benachrichtigen über:** Wählen Sie den Benachrichtigungskanal.
     * **Benachrichtigung auslösen:** Wählen Sie eine oder beide Optionen:
       * **Beim ersten Fehlversuch:** Sendet eine Benachrichtigung, wenn der Webhook zum ersten Mal die Lieferung nicht schafft.

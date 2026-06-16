@@ -38,8 +38,6 @@ Listan visar alla registrerade webhooks. Du kan sortera och filtrera efter valfr
 | Flera fel i rad | Antal på varandra följande leveransfel de senaste 24 timmarna. |
 | Uppdaterat av | Vem som senast ändrade webhook'en. |
 
-Håll muspekaren över en rad om du vill se hela namnet i kolumnen Uppdaterat av.
-
 ## Statusmärken
 
 Varje webhook har ett statusmärke som visar det aktuella tillståndet.

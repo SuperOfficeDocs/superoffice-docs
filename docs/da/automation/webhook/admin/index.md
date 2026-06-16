@@ -38,8 +38,6 @@ Listen viser alle registrerede webhooks. Du kan sortere og filtrere efter enhver
 | Flere på hinanden følgende fejl | Antal på hinanden følgende leveringsfejl i de seneste 24 timer. |
 | Opdateret af | Hvem der sidst ændrede webhook'en. |
 
-Hold musemarkøren over en række for at se det fulde navn i kolonnen Opdateret af.
-
 ## Statusmærker
 
 Hver webhook har et statusmærke, der viser den aktuelle tilstand.

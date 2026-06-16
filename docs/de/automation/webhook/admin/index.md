@@ -38,8 +38,6 @@ Die Liste zeigt alle registrierten Webhooks. Sie können nach jeder Spalte sorti
 | Aufeinanderfolgende Fehlversuche | Anzahl aufeinanderfolgender Lieferfehler in den letzten 24 Stunden. |
 | Aktualisiert von | Wer den Webhook zuletzt geändert hat. |
 
-Bewegen Sie den Mauszeiger über eine Zeile, um den vollständigen Namen in der Spalte Aktualisiert von zu sehen.
-
 ## Statusabzeichen
 
 Jeder Webhook hat ein Statusabzeichen, das den aktuellen Zustand anzeigt.

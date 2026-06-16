@@ -53,7 +53,7 @@ Du kan oprette og administrere webhook-abonnementer direkte i **Indstillinger og
 
     Angiv, hvem der skal adviseres, hvordan de nås, og hvornår beskeden skal sendes.
 
-    * **Recipients:** Tilføj CRM-brugere, eller skriv eksterne e-mailadresser. Modtagerne vises som tags.
+    * **Modtagere:** Tilføj CRM-brugere, eller skriv eksterne e-mailadresser. Modtagerne vises som tags.
     * **Giv besked via:** Vælg beskedkanalen.
     * **Udløs besked:** Vælg én eller begge indstillinger:
       * **Ved første fejl:** Sender en besked første gang webhook'en mislykkes med at levere.
@@ -63,7 +63,7 @@ Du kan oprette og administrere webhook-abonnementer direkte i **Indstillinger og
 
 1. (Valgfrit) Udvid **Sikkerhed og avancerede indstillinger**.
 
-    * **Delt hemmelighed:** Vælg **Generer** for at oprette en kryptografisk tilfældig værdi til signering af hvert payload. Hemmeligheten vises kun ved oprettelse — kopier den straks. For at erstatte den senere skal du vælge **Regenerer**.
+    * **Delt hemmelighed:** Vælg **Generer** for at oprette en kryptografisk tilfældig værdi til signering af hvert payload. Hemmeligheden vises kun ved oprettelse — kopier den straks. For at erstatte den senere skal du vælge **Regenerer**.
     * **Tilpassede overskrifter:** Nøgle-værdi-par, der tilføjes til hvert HTTP POST-kald. Kun tilgængelig for Ekstern URL-webhooks.
     * **Tilpassede egenskaber:** Ekstra data, der injiceres i hvert payload.
 

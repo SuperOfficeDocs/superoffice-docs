@@ -38,8 +38,6 @@ De lijst toont alle geregistreerde webhooks. U kunt op elke kolom sorteren en fi
 | Opeenvolgende fouten | Aantal opeenvolgende leveringsfouten in de afgelopen 24 uur. |
 | Bijgewerkt door | Wie de webhook het laatst heeft gewijzigd. |
 
-Houd de muisaanwijzer boven een rij om de volledige naam in de kolom Bijgewerkt door te zien.
-
 ## Statusbadges
 
 Elke webhook heeft een statusbadge die de huidige staat toont.

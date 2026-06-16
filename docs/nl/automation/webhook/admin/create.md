@@ -53,7 +53,7 @@ U kunt webhook-abonnementen direct aanmaken en beheren in **Instellingen en onde
 
     Geef aan wie u wilt waarschuwen, hoe u hen kunt bereiken en wanneer de melding moet worden verzonden.
 
-    * **Recipients:** Voeg CRM-gebruikers toe of typ externe e-mailadressen. Ontvangers verschijnen als tags.
+    * **Ontvangers:** Voeg CRM-gebruikers toe of typ externe e-mailadressen. Ontvangers verschijnen als tags.
     * **Melden via:** Selecteer het meldingskanaal.
     * **Melding activeren:** Selecteer een of beide opties:
       * **Bij de eerste fout:** Stuurt een melding de eerste keer dat de webhook er niet in slaagt te leveren.

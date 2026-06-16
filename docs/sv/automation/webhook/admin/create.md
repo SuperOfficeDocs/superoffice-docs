@@ -53,7 +53,7 @@ Du kan skapa och hantera webhook-prenumerationer direkt i **Inställningar och u
 
     Ange vem som ska aviseras, hur de nås och när aviseringen ska skickas.
 
-    * **Recipients:** Lägg till CRM-användare eller ange externa e-postadresser. Mottagare visas som taggar.
+    * **Mottagare:** Lägg till CRM-användare eller ange externa e-postadresser. Mottagare visas som taggar.
     * **Meddela via:** Välj aviseringskanal.
     * **Aktivera förvarning:** Välj ett eller båda alternativen:
       * **Vid första felet:** Skickar en avisering första gången webhook'en misslyckas med att leverera.

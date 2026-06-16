@@ -6,7 +6,7 @@ items:
   items:
   - name: Webhooks panel
     href: admin/index.md
-  - name: Create or edit a webhook
+  - name: Create webhook
     href: admin/create.md
 - name: For developers
   href: dev/index.md
