@@ -1,6 +1,8 @@
 items:
 - name: Introduction
   href: index.md
+- name: For administrators
+  topicHref: admin/index.md
 - name: For developers
   href: dev/index.md
   items:
@@ -57,4 +59,3 @@ items:
     href: reference/test-event.md
   - name: Ticket events
     href: reference/ticket-events.md
-
