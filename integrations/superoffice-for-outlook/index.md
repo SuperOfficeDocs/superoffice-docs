@@ -3,9 +3,9 @@ uid: sofo
 title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 keywords: email, SuperOffice for Outlook, Outlook, SOFO
-author: Andrea Schilde
-date: 05.05.2026
-version_sofo: 6.3.0
+author: Bergfrid Dias, Andrea Schilde
+date: 16.06.2026
+version_sofo: 2026.6.3
 content_type: concept
 category: integration
 topic: SuperOffice for Outlook
@@ -36,6 +36,9 @@ With the add-in, you can quickly:
 * Save new contacts, emails, sales, activities, or requests from Outlook.
 * Access contact, sale, and request details for anyone in the email thread.
 * Get instant context on who you are interacting with through the add-in panel.
+* Pin the add-in while reading or composing emails, so it stays available while you work.
+* Work from shared mailboxes and use the same SuperOffice actions, such as archiving emails, saving attachments, and creating sales, follow-ups, and requests.
+* Get reminded before sending emails that are not set to be archived in SuperOffice.
 
 You will have key information at your fingertips, right when you need it. Plus, it is fully cloud-based, so no installation is required – simply enable it from your browser, and you are ready to go.
 
@@ -45,9 +48,10 @@ You will have key information at your fingertips, right when you need it. Plus, 
 
 The SuperOffice for Outlook add-in lets you:
 
+* [View contact details and related CRM information][20]
 * [Save contacts and companies][7]
 * [Archive emails][3]
-* [Save attachments][3]
+* [Save attachments][4]
 * [Create appointments][8]
 * [Create tasks][8]
 * [Create sales][9]
@@ -91,7 +95,8 @@ Because the add-in is cloud-based, it is always up to date without any action on
 <!-- Referenced links -->
 [1]: requirements.md
 [2]: get.md
-[3]: save-to-superoffice.md
+[3]: archive-email.md
+[4]: save-attachments.md
 [5]: create-request.md
 [6]: add-crm-data-to-event.md
 [7]: add-contact-to-superoffice.md
@@ -102,6 +107,7 @@ Because the add-in is cloud-based, it is always up to date without any action on
 [17]: deploy.md
 [18]: ../../docs/en/email/inbox/learn/index.md
 [19]: ../../docs/en/document/library/learn/index.md
+[20]: view-contact-details.md
 
 <!-- Referenced images -->
 [img1]: media/user-superoffice-outlook-sidepanel.png

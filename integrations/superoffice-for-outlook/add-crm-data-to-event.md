@@ -3,8 +3,8 @@ uid: sofo-add-crm-data-to-event
 title: Add CRM data to Outlook event
 description: How to add CRM data to meetings and appointments in Outlook using SuperOffice for Outlook
 keywords: SuperOffice for Outlook, Outlook, email, event, calendar, CRM data, SOFO
-author: Erik Lebiko, Bergfrid Dias, schildea
-date: 06.05.2026
+author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
+date: 16.06.2026
 version_sofo: 2026.6.3
 content_type: howto
 category: integration
@@ -33,7 +33,7 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 
 1. Select **New event** in Outlook.
 
-1. [Open SuperOffice for Outlook][1].
+1. [Open SuperOffice for Outlook][1]
 
 1. Add persons to the **Invite attendees** field in Outlook.
 
@@ -51,7 +51,7 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 
 1. Open an existing event in Outlook.
 
-1. [Open SuperOffice for Outlook][1].
+1. [Open SuperOffice for Outlook][1]
 
 1. If SuperOffice CRM data exists for the attendees, it is displayed.
 

@@ -4,8 +4,8 @@ title: Email archive reminder
 description: How the email archive reminder works in SuperOffice for Outlook and what to do when the reminder appears.
 keywords: SuperOffice for Outlook, Outlook, archive reminder, Smart Alerts, archive email, SOFO
 author: schildea
-date: 06.05.2026
-version_sofo: 6.3.3
+date: 16.05.2026
+version_sofo: 2026.6.3
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
@@ -42,7 +42,7 @@ You have three options:
 > [!NOTE]
 > If you choose **Archive email** and turn the archive toggle on, then click **Send** again, the reminder will not appear a second time for that email.
 
-## When the reminder appears
+## When the archive reminder appears
 
 The reminder appears based on your personal settings. By default, it is shown for:
 

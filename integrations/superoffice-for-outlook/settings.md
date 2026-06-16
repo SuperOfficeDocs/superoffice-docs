@@ -4,8 +4,8 @@ title: Settings
 description: How to open and configure the settings menu in SuperOffice for Outlook.
 keywords: SuperOffice for Outlook, Outlook, settings, archive reminder, SOFO
 author: schildea
-date: 06.05.2026
-version_sofo: 6.3.3
+date: 16.05.2026
+version_sofo: 2026.6.3
 content_type: reference
 category: integration
 topic: SuperOffice for Outlook
@@ -25,7 +25,7 @@ The Settings menu lets you personalise how SuperOffice for Outlook behaves for y
 The gear icon (⚙) is available in both the **Action** panel and the **People** panel.
 
 1. Open the SuperOffice for Outlook side panel.
-2. Click the **gear icon** in the top-right corner of the panel.
+2. Click the **gear icon** towards the top-right corner of the panel.
 
 The Settings menu opens and shows:
 
@@ -40,10 +40,7 @@ The Settings menu opens and shows:
 |---|---|
 | Show contextual projects and sales | Displays related projects and sales when you open an email. |
 | Remove from inbox | Moves the email to deleted items after archiving. |
-| Default email type – Incoming | The document type used when archiving received emails. |
-| Default email type – Outgoing | The document type used when archiving sent emails. |
 | Archive reminder | Controls when you are reminded to archive before sending. See [Archive reminder](#archive-reminder) below. |
-| Already archived category | Tags emails in your mailbox that have already been archived in SuperOffice. |
 
 ## Archive reminder
 
@@ -70,7 +67,7 @@ When the main toggle is on, you can choose which types of outgoing emails trigge
 Your settings are saved automatically and sync across all your devices.
 
 > [!NOTE]
-> Smart Alerts requires mailbox requirement set 1.12 or later. On unsupported clients, the reminder is silently skipped and existing add-in behaviour is unchanged.
+> The Archive Reminder feature is only available in Outlook versions that support Microsoft Mailbox requirement set 1.12 or later. If it’s not supported, the reminder won’t appear and your email will be sent as usual.
 
 ## Related content
 

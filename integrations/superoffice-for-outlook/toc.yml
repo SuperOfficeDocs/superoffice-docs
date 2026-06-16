@@ -1,25 +1,34 @@
 items:
-- name: Overview
+- name: Overview / key features
   href: index.md
+- name: Requirements
+  href: requirements.md
 - name: Get the add-in
   href: get.md
+- name: Centralized deployment
+  href: deploy.md
+- name: Settings in SuperOffice for Outlook
+  href: settings.md
 - name: Save to SuperOffice
   href: save-to-superoffice.md
-- name: Email archive reminder
-  href: email-archive-reminder.md
+  items:
+  - name: Archive email to SuperOffice
+    href: archive-email.md
+  - name: Save attachments to SuperOffice
+    href: save-attachments.md
+  - name: Send and archive
+    href: send-and-archive.md
+  - name: Email Archive Reminder
+    href: email-archive-reminder.md
+- name: View contact details
+  href: view-contact-details.md
 - name: Add contact to SuperOffice
   href: add-contact-to-superoffice.md
 - name: Create follow-up
   href: create-follow-up.md
 - name: Create sale
   href: create-sale.md
-- name: Create request or add message
+- name: Add request or message
   href: create-request.md
 - name: Add CRM data to Outlook event
   href: add-crm-data-to-event.md
-- name: Settings
-  href: settings.md
-- name: Requirements
-  href: requirements.md
-- name: Deploy centrally
-  href: deploy.md
