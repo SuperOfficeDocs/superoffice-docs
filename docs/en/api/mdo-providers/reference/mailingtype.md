@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|E-mail|||
-|2|SMS|||
-|3|Document|||
+|1|[SR_ARCHIVE_MAILING_EMAIL]|||
+|2|[SR_ARCHIVE_MAILING_SMS]|||
+|3|[SR_ARCHIVE_MAILING_DOCUMENT]|||
 
 
 ## Related MDO Lists

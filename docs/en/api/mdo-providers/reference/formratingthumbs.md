@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Thumbs down|||
-|1|Thumbs up|||
+|0|[SR_FORMS_RATING_THUMBS_DOWN]|||
+|1|[SR_FORMS_RATING_THUMBS_UP]|||
 
 
 ## Related MDO Lists

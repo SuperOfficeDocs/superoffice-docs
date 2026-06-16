@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Not done|||
-|1|Completed|||
+|0|[SR_NOT_DONE]|||
+|1|[SR_DONE]|||
 
 
 ## Related MDO Lists

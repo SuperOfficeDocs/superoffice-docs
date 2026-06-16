@@ -22,243 +22,243 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|quoteLineId|int|Quote line ID: Database identity of the quote line| x |
-|quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
-|erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
-|rank|int|Rank: Shows the rank of a product| x |
-|quantity|decimal|Quantity: The quantity that is offered| x |
-|name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
-|description|string|Description: Description of the product that is offered| x |
-|code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
-|quantityUnit|string|Unit: The unit of the product that is offered.| x |
-|priceUnit|string|Price unit: What is the price unit defined in| x |
-|url|string|Web address: The web address of the product info.| x |
-|subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
-|subscriptionQuantity|decimal|Subscription quantity: Number of subscription units offered| x |
-|UnitListPriceSubscriptionQuantity| *None* |Subscription list price: Unit price * subscription quantity|  |
-|PriceUnitSubscriptionUnit| *None* |P/S Unit: Price unit/subscription unit|  |
-|PriceUnitSubscriptionQuantityUnit| *None* |Expanded unit: Price unit @ subscription quantity + unit|  |
-|vatInfo|string|VAT info: | x |
-|vat|decimal|VAT: May be filled out by the ERP system| x |
-|unitCost|decimal|Cost: Cost per item.| x |
-|unitMinimumPrice|decimal|Unit minimum price: Minimum price per item. Users are not allowed to send quotes with prices lower than the minimum price.| x |
-|unitListPrice|decimal|List price: List price of a unit| x |
-|totalPrice|decimal|Total: List price * Quantity - Discount Amount| x |
-|totalCost|decimal|Total cost|  |
-|quoteLineThumbnail| *None* |Thumbnail: A miniature version of the product picture|  |
-|quoteLineThumbnailLarge| *None* |Thumbnail: A miniature version of the product picture|  |
-|discountAmount|decimal|Discount: Discount amount given by salesperson| x |
-|discountPercent|decimal|Discount (%: Discount percent given by salesperson| x |
-|earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
-|earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|productCategoryKey|listExternal|Product category: The category the product is defined in|  |
-|productFamilyKey|listExternal|Product family: The family the product is defined in|  |
-|productTypeKey|listExternal|Product type: The type of product|  |
-|status|listAny|Quote status: Status field showing the status of each line.| x |
-|subTotal|decimal|Sum: Sum of Quantity * Unit list price| x |
-|vatAmount|decimal|VAT (amount: The calculated VAT amount| x |
-|totalPriceIncVAT|decimal|Total incl. VAT: Total including VAT| x |
-|totalPriceWithAlternativeDiscount|decimal|Total incl. alt. disc: Total, including any discount percentage set on the alternative| x |
-|alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
-|alternative/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
-|alternative/name|string|Name: Name of the quote alternative| x |
-|alternative/description|string|Description: Description of the quote alternative| x |
-|alternative/status|listAny|Quote status: Status field showing the status of each line.| x |
-|alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
-|alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
-|alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
-|alternative/discountPercent|decimal|Discount %: Enter discount in percent for entire alternative| x |
-|alternative/discountAmount|decimal|Discount: Enter total discount for entire alternative| x |
-|alternative/vatInfo|string|VAT Info: Information about value-added and other taxes| x |
-|alternative/vat|decimal|VAT: Value-added and other taxes, total amount| x |
-|alternative/earningPercent|decimal|Earnings %: Total Earnings as a percentage of the total price, of all lines in the quote alternative, including all discounts| x |
-|alternative/earningAmount|decimal|Earnings: Total Earnings for all lines in the quote alternative, including all discounts| x |
-|alternative/totalPrice|decimal|Total: Total price of all items in the quote alternative, including all discounts| x |
-|alternative/extraField1|string|Extra 1: Extra field 1 on the quote alternative| x |
-|alternative/extraField2|string|Extra 2: Extra field 2 on the quote alternative| x |
-|alternative/extraField3|string|Extra 3: Extra field 3on the quote alternative| x |
-|alternative/extraField4|string|Extra 4: Extra field 4 on the quote alternative| x |
-|alternative/extraField5|string|Extra 5: Extra field 5 on the quote alternative| x |
-|alternative/alternativeOrdering|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
-|alternative/subTotal|decimal|Total before discount: Total of all lines, before applying the Alternative discount| x |
-|alternative/totalPriceIncVAT|decimal|Total incl. VAT: Total of all lines, including VAT| x |
-|alternative/vatAmount|decimal|VAT: VAT (amount) for the alternative| x |
-|alternative/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
-|alternative/version/description|string|Description: Description of the quote version| x |
-|alternative/version/number|string|Number: Reference number for the quote version| x |
-|alternative/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
-|alternative/version/expiration|date|Expiry date: The last date that the quote is valid| x |
-|alternative/version/state|listAny|State: The current state the quote is in| x |
-|alternative/version/status|listAny|Quote status: Status field showing the status of each line.| x |
-|alternative/version/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
-|alternative/version/paymentTerms|listExternal|Payment terms: Payment terms|  |
-|alternative/version/paymentType|listExternal|Payment type: Payment type|  |
-|alternative/version/deliveryTerms|listExternal|Delivery terms: Delivery terms|  |
-|alternative/version/deliveryType|listExternal|Delivery type: Delivery type|  |
-|alternative/version/approvedBy|associate|Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|alternative/version/approvalRegisteredBy|associate|Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.| x |
-|alternative/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|alternative/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
-|alternative/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
-|alternative/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
-|alternative/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
-|alternative/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
-|alternative/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
-|alternative/version/quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
-|alternative/version/quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
-|alternative/version/quote/orderComment|string|Comment: Customer's comment| x |
-|alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
-|alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
-|alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
-|alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
-|alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
-|alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
+|quoteLineId|int|SR\_QUOTE\_QUOTELINE\_QUOTELINEID: SR\_QUOTE\_QUOTELINE\_QUOTELINEID\_TOOLTIP| x |
+|quoteAlternativeId|int|SR\_QUOTE\_QUOTELINE\_QUOTEALTERNATIVEID: SR\_QUOTE\_QUOTELINE\_QUOTEALTERNATIVEID\_TOOLTIP| x |
+|erpProductKey|string|SR\_QUOTE\_QUOTELINE\_PRODUCTKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTKEY\_TOOLTIP| x |
+|rank|int|SR\_QUOTE\_QUOTELINE\_RANK: SR\_QUOTE\_QUOTELINE\_RANK\_TOOLTIP| x |
+|quantity|decimal|SR\_QUOTE\_QUOTELINE\_QUANTITY: SR\_QUOTE\_QUOTELINE\_QUANTITY\_TOOLTIP| x |
+|name|string|SR\_QUOTE\_QUOTELINE\_NAME: SR\_QUOTE\_QUOTELINE\_NAME\_TOOLTIP| x |
+|description|string|SR\_QUOTE\_QUOTELINE\_DESCRIPTION: SR\_QUOTE\_QUOTELINE\_DESCRIPTION\_TOOLTIP| x |
+|code|string|SR\_QUOTE\_QUOTELINE\_CODE: SR\_QUOTE\_QUOTELINE\_CODE\_TOOLTIP| x |
+|quantityUnit|string|SR\_QUOTE\_QUOTELINE\_UNIT: SR\_QUOTE\_QUOTELINE\_UNIT\_TOOLTIP| x |
+|priceUnit|string|SR\_QUOTE\_QUOTELINE\_PRICEUNIT: SR\_QUOTE\_QUOTELINE\_PRICEUNIT\_TOOLTIP| x |
+|url|string|SR\_QUOTE\_QUOTELINE\_URL: SR\_QUOTE\_QUOTELINE\_URL\_TOOLTIP| x |
+|subscriptionUnit|string|SR\_QUOTE\_QUOTELINE\_SUBSCRIPTIONUNIT: SR\_QUOTE\_QUOTELINE\_SUBSCRIPTIONUNIT\_TOOLTIP| x |
+|subscriptionQuantity|decimal|SR\_QUOTE\_QUOTELINE\_SUBSCRIPTIONQUANTITY: SR\_QUOTE\_QUOTELINE\_SUBSCRIPTIONQUANTITY\_TOOLTIP| x |
+|UnitListPriceSubscriptionQuantity| *None* |SR\_SUBSCRIPTIONLISTPRICE: SR\_SUBSCRIPTIONLISTPRICE\_TOOLTIP|  |
+|PriceUnitSubscriptionUnit| *None* |SR\_PRICESUBUNIT: SR\_PRICESUBUNIT\_TOOLTIP|  |
+|PriceUnitSubscriptionQuantityUnit| *None* |SR\_EXPANDEDUNIT: SR\_EXPANDEDUNIT\_TOOLTIP|  |
+|vatInfo|string|SR\_QUOTE\_QUOTELINE\_VATINFO: SR\_QUOTE\_QUOTELINE\_VATINFO\_TOOLTIP| x |
+|vat|decimal|SR\_QUOTE\_QUOTELINE\_VAT: SR\_QUOTE\_QUOTELINE\_VAT\_TOOLTIP| x |
+|unitCost|decimal|SR\_QUOTE\_QUOTELINE\_UNITCOST: SR\_QUOTE\_QUOTELINE\_UNITCOST\_TOOLTIP| x |
+|unitMinimumPrice|decimal|SR\_QUOTE\_QUOTELINE\_UNITMINIMUMPRICE: SR\_QUOTE\_QUOTELINE\_UNITMINIMUMPRICE\_TOOLTIP| x |
+|unitListPrice|decimal|SR\_QUOTE\_QUOTELINE\_UNITLISTPRICE: SR\_QUOTE\_QUOTELINE\_UNITLISTPRICE\_TOOLTIP| x |
+|totalPrice|decimal|SR\_QUOTE\_QUOTELINE\_TOTALPRICE: SR\_QUOTE\_QUOTELINE\_TOTALPRICE\_TOOLTIP| x |
+|totalCost|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_TOTALCOST|  |
+|quoteLineThumbnail| *None* |SR\_QUOTE\_QUOTELINE\_THUMBNAIL: SR\_QUOTE\_QUOTELINE\_THUMBNAIL\_TOOLTIP|  |
+|quoteLineThumbnailLarge| *None* |SR\_QUOTE\_QUOTELINE\_THUMBNAIL: SR\_QUOTE\_QUOTELINE\_THUMBNAIL\_TOOLTIP|  |
+|discountAmount|decimal|SR\_QUOTE\_QUOTELINE\_DISCOUNTAMOUNT: SR\_QUOTE\_QUOTELINE\_DISCOUNTAMOUNT\_TOOLTIP| x |
+|discountPercent|decimal|SR\_QUOTE\_QUOTELINE\_DISCOUNTPERCENT: SR\_QUOTE\_QUOTELINE\_DISCOUNTPERCENT\_TOOLTIP| x |
+|earningAmount|decimal|SR\_QUOTE\_QUOTELINE\_EARNINGAMOUNT: SR\_QUOTE\_QUOTELINE\_EARNINGAMOUNT\_TOOLTIP| x |
+|earningPercent|decimal|SR\_QUOTE\_QUOTELINE\_EARNINGPERCENT: SR\_QUOTE\_QUOTELINE\_EARNINGPERCENT\_TOOLTIP| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedByFullName|associate|SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredByFullName|associate|SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|productCategoryKey|listExternal|SR\_QUOTE\_QUOTELINE\_PRODUCTCATEGORYKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTCATEGORYKEY\_TOOLTIP|  |
+|productFamilyKey|listExternal|SR\_QUOTE\_QUOTELINE\_PRODUCTFAMILYKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTFAMILYKEY\_TOOLTIP|  |
+|productTypeKey|listExternal|SR\_QUOTE\_QUOTELINE\_PRODUCTTYPEKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTTYPEKEY\_TOOLTIP|  |
+|status|listAny|SR\_QUOTE\_QUOTELINE\_QUOTESTATUS: SR\_QUOTE\_QUOTELINE\_QUOTESTATUS\_TOOLTIP| x |
+|subTotal|decimal|SR\_QUOTE\_QUOTELINE\_SUBTOTAL: SR\_QUOTE\_QUOTELINE\_SUBTOTAL\_TOOLTIP| x |
+|vatAmount|decimal|SR\_QUOTE\_QUOTELINE\_VATAMNT: SR\_QUOTE\_QUOTELINE\_VATAMNT\_TOOLTIP| x |
+|totalPriceIncVAT|decimal|SR\_QUOTE\_QUOTELINE\_TOTINCVAT: SR\_QUOTE\_QUOTELINE\_TOTINCVAT\_TOOLTIP| x |
+|totalPriceWithAlternativeDiscount|decimal|SR\_QUOTE\_QUOTELINE\_TOTINCALTDIS: SR\_QUOTE\_QUOTELINE\_TOTINCALTDIS\_TOOLTIP| x |
+|alternative/quoteAlternativeId|int|SR\_QUOTE\_QUOTEALTERNATIVE\_ID: SR\_QUOTE\_QUOTEALTERNATIVE\_ID\_TOOLTIP| x |
+|alternative/quoteVersionId|int|SR\_QUOTE\_QUOTEVERSION\_ID: SR\_QUOTE\_QUOTEVERSION\_ID\_TOOLTIP| x |
+|alternative/name|string|SR\_QUOTE\_QUOTEALTERNATIVE\_NAME: SR\_QUOTE\_QUOTEALTERNATIVE\_NAME\_TOOLTIP| x |
+|alternative/description|string|SR\_QUOTE\_QUOTEALTERNATIVE\_DESCRIPTION: SR\_QUOTE\_QUOTEALTERNATIVE\_DESCRIPTION\_TOOLTIP| x |
+|alternative/status|listAny|SR\_QUOTE\_QUOTELINE\_QUOTESTATUS: SR\_QUOTE\_QUOTELINE\_QUOTESTATUS\_TOOLTIP| x |
+|alternative/reason|string|SR\_QUOTE\_QUOTELINE\_QUOTEREASON: SR\_QUOTE\_QUOTELINE\_QUOTEREASON\_TOOLTIP| x |
+|alternative/erpDiscountPercent|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_ERPDISCOUNTPERCENT: SR\_QUOTE\_QUOTEALTERNATIVE\_ERPDISCOUNTPERCENT\_TOOLTIP| x |
+|alternative/erpDiscountAmount|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_ERPDISCOUNTAMOUNT: SR\_QUOTE\_QUOTEALTERNATIVE\_ERPDISCOUNTAMOUNT\_TOOLTIP| x |
+|alternative/discountPercent|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_DISCOUNTPERCENT: SR\_QUOTE\_QUOTEALTERNATIVE\_DISCOUNTPERCENT\_TOOLTIP| x |
+|alternative/discountAmount|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_DISCOUNTAMOUNT: SR\_QUOTE\_QUOTEALTERNATIVE\_DISCOUNTAMOUNT\_TOOLTIP| x |
+|alternative/vatInfo|string|SR\_QUOTE\_QUOTEALTERNATIVE\_VATINFO: SR\_QUOTE\_QUOTEALTERNATIVE\_VATINFO\_TOOLTIP| x |
+|alternative/vat|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_VAT: SR\_QUOTE\_QUOTEALTERNATIVE\_VAT\_TOOLTIP| x |
+|alternative/earningPercent|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_EARNINGSPERCENT: SR\_QUOTE\_QUOTEALTERNATIVE\_EARNINGSPERCENT\_TOOLTIP| x |
+|alternative/earningAmount|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_EARNINGSAMOUNT: SR\_QUOTE\_QUOTEALTERNATIVE\_EARNINGSAMOUNT\_TOOLTIP| x |
+|alternative/totalPrice|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_TOTAL: SR\_QUOTE\_QUOTEALTERNATIVE\_TOTAL\_TOOLTIP| x |
+|alternative/extraField1|string|SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD1: SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD1\_TOOLTIP| x |
+|alternative/extraField2|string|SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD2: SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD2\_TOOLTIP| x |
+|alternative/extraField3|string|SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD3: SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD3\_TOOLTIP| x |
+|alternative/extraField4|string|SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD4: SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD4\_TOOLTIP| x |
+|alternative/extraField5|string|SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD5: SR\_QUOTE\_QUOTEALTERNATIVE\_EXTRAFIELD5\_TOOLTIP| x |
+|alternative/alternativeOrdering|int|SR\_QUOTE\_QUOTEALTERNATIVE\_ID: SR\_QUOTE\_QUOTEALTERNATIVE\_ID\_TOOLTIP| x |
+|alternative/subTotal|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_SUBTOTAL: SR\_QUOTE\_QUOTEALTERNATIVE\_SUBTOTAL\_TOOLTIP| x |
+|alternative/totalPriceIncVAT|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_ALTTOTINCVAT: SR\_QUOTE\_QUOTEALTERNATIVE\_ALTTOTINCVAT\_TOOLTIP| x |
+|alternative/vatAmount|decimal|SR\_QUOTE\_QUOTEALTERNATIVE\_ALTVATAMT: SR\_QUOTE\_QUOTEALTERNATIVE\_ALTVATAMT\_TOOLTIP| x |
+|alternative/version/quoteVersionId|int|SR\_QUOTE\_QUOTEVERSION\_ID: SR\_QUOTE\_QUOTEVERSION\_ID\_TOOLTIP| x |
+|alternative/version/description|string|SR\_QUOTE\_QUOTEVERSION\_DESCRIPTION: SR\_QUOTE\_QUOTEVERSION\_DESCRIPTION\_TOOLTIP| x |
+|alternative/version/number|string|SR\_QUOTE\_QUOTEVERSION\_NUMBER: SR\_QUOTE\_QUOTEVERSION\_NUMBER\_TOOLTIP| x |
+|alternative/version/sent|date|SR\_QUOTE\_QUOTEVERSION\_SENT: SR\_QUOTE\_QUOTEVERSION\_SENT\_TOOLTIP| x |
+|alternative/version/expiration|date|SR\_QUOTE\_QUOTEVERSION\_EXPIRATION: SR\_QUOTE\_QUOTEVERSION\_EXPIRATION\_TOOLTIP| x |
+|alternative/version/state|listAny|SR\_QUOTE\_QUOTEVERSION\_STATE: SR\_QUOTE\_QUOTEVERSION\_STATE\_TOOLTIP| x |
+|alternative/version/status|listAny|SR\_QUOTE\_QUOTELINE\_QUOTESTATUS: SR\_QUOTE\_QUOTELINE\_QUOTESTATUS\_TOOLTIP| x |
+|alternative/version/reason|string|SR\_QUOTE\_QUOTELINE\_QUOTEREASON: SR\_QUOTE\_QUOTELINE\_QUOTEREASON\_TOOLTIP| x |
+|alternative/version/paymentTerms|listExternal|SR\_QUOTE\_QUOTEVERSION\_PAYMENTTERMS: SR\_QUOTE\_QUOTEVERSION\_PAYMENTTERMS\_TOOLTIP|  |
+|alternative/version/paymentType|listExternal|SR\_QUOTE\_QUOTEVERSION\_PAYMENTTYPE: SR\_QUOTE\_QUOTEVERSION\_PAYMENTTYPE\_TOOLTIP|  |
+|alternative/version/deliveryTerms|listExternal|SR\_QUOTE\_QUOTEVERSION\_DELIVERYTERMS: SR\_QUOTE\_QUOTEVERSION\_DELIVERYTERMS\_TOOLTIP|  |
+|alternative/version/deliveryType|listExternal|SR\_QUOTE\_QUOTEVERSION\_DELIVERYTYPE: SR\_QUOTE\_QUOTEVERSION\_DELIVERYTYPE\_TOOLTIP|  |
+|alternative/version/approvedBy|associate|SR\_QUOTE\_QUOTEVERSION\_APPROVEDBY: SR\_QUOTE\_QUOTEVERSION\_APPROVEDBY\_TOOLTIP| x |
+|alternative/version/approvalRegisteredBy|associate|SR\_QUOTE\_QUOTEVERSION\_APPROVALREGISTEREDBY: SR\_QUOTE\_QUOTEVERSION\_APPROVALREGISTEREDBY\_TOOLTIP| x |
+|alternative/version/approvedText|string|SR\_QUOTE\_QUOTEVERSION\_APPROVEDTEXT: SR\_QUOTE\_QUOTEVERSION\_APPROVEDTEXT\_TOOLTIP| x |
+|alternative/version/approvedDate|date|SR\_QUOTE\_QUOTEVERSION\_APPROVEDDATE: SR\_QUOTE\_QUOTEVERSION\_APPROVEDDATE\_TOOLTIP| x |
+|alternative/version/extraField1|string|SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD1: SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD1\_TOOLTIP| x |
+|alternative/version/extraField2|string|SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD2: SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD2\_TOOLTIP| x |
+|alternative/version/extraField3|string|SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD3: SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD3\_TOOLTIP| x |
+|alternative/version/extraField4|string|SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD4: SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD4\_TOOLTIP| x |
+|alternative/version/extraField5|string|SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD5: SR\_QUOTE\_QUOTEVERSION\_EXTRAFIELD5\_TOOLTIP| x |
+|alternative/version/quote/quoteId|int|SR\_QUOTE\_QUOTE\_ID: SR\_QUOTE\_QUOTE\_ID\_TOOLTIP| x |
+|alternative/version/quote/poNumber|string|SR\_QUOTE\_QUOTE\_PONUMBER: SR\_QUOTE\_QUOTE\_PONUMBER\_TOOLTIP| x |
+|alternative/version/quote/orderComment|string|SR\_QUOTE\_QUOTE\_ORDERCOMMENT: SR\_QUOTE\_QUOTE\_ORDERCOMMENT\_TOOLTIP| x |
+|alternative/version/quote/connectionId|int|SR\_QUOTE\_CONNECTIONID: SR\_QUOTE\_CONNECTIONID\_TOOLTIP| x |
+|alternative/version/quote/registeredDate|date|SR\_QUOTE\_QUOTE\_REGISTERED: SR\_QUOTE\_QUOTE\_REGISTERED\_TOOLTIP| x |
+|alternative/version/quote/sale/completed|bool|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP| x |
+|alternative/version/quote/sale/icon|listAny|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP| x |
+|alternative/version/quote/sale/date|date|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP| x |
+|alternative/version/quote/sale/time| *None* |SR\_SINGULAR\_SALE - SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
-|alternative/version/quote/sale/recordType|string|Sale - Record type: Shows the record type| x |
-|alternative/version/quote/sale/text|positiveString|Sale - Text: Displays a descriptive text for the item| x |
-|alternative/version/quote/sale/associateId|associate|Sale - ID: Displays the login ID of the associate who owns the activity.| x |
-|alternative/version/quote/sale/contactId|listAny|Sale - Company ID: Database ID of company| x |
-|alternative/version/quote/sale/personId|listAny|Sale - Contact ID: Database ID of the contact row| x |
-|alternative/version/quote/sale/projectId|listAny|Sale - Project ID: Database ID of project record| x |
-|alternative/version/quote/sale/saleId|int|Sale - Sale ID: The database ID of the sale record| x |
-|alternative/version/quote/sale/userGroup|userGroup|Sale - User group: The user group that owns the record| x |
-|alternative/version/quote/sale/who| *None* |Sale - Who: Contact and/or company|  |
-|alternative/version/quote/sale/updatedBy|associate|Sale - Updated by: The user who last updated the data| x |
-|alternative/version/quote/sale/updatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
-|alternative/version/quote/sale/updatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/sale/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
-|alternative/version/quote/sale/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
-|alternative/version/quote/sale/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/sale/currencyId|int|Sale - Currency ID: The currency list item ID| x |
-|alternative/version/quote/sale/currency|listAny|Sale - Currency: The currency of the sale| x |
-|alternative/version/quote/sale/credited|listAny|Sale - Credited: The user to be credited with the sale| x |
-|alternative/version/quote/sale/lossReason|listAny|Sale - Reason (lost): The reason for losing the sale| x |
-|alternative/version/quote/sale/source|listAny|Sale - Source: The source (lead) of the sale| x |
-|alternative/version/quote/sale/competitor|listAny|Sale - Competitor: The competitor who won the sale| x |
-|alternative/version/quote/sale/heading|stringorPK|Sale - Sale: The name of the sale| x |
-|alternative/version/quote/sale/amount|decimal|Sale - Amount: The gross sales total| x |
-|alternative/version/quote/sale/amountWeighted|decimal|Sale - Weighted amount: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
-|alternative/version/quote/sale/earningPercent|decimal|Sale - Profit as %: The profit as a percentage of the gross sales total| x |
-|alternative/version/quote/sale/probPercent|int|Sale - Probability as %: Probability as %| x |
-|alternative/version/quote/sale/originalStage|listAny|Sale - Stage when closed: Stage when closed| x |
-|alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
-|alternative/version/quote/sale/stageName| *None* |Sale - Stage name: Displays the stage of the sale| x |
-|alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
-|alternative/version/quote/sale/stageRank| *None* |Sale - Stage rank: Rank of the sale stage in the stage list| x |
-|alternative/version/quote/sale/saleType|listAny|Sale - Sale type: Sale type, from list| x |
-|alternative/version/quote/sale/saleTypeId| *None* |Sale - Sale type ID: Sale type, from list| x |
-|alternative/version/quote/sale/stageId| *None* |Sale - Sale stage ID: Displays the stage of the sale| x |
-|alternative/version/quote/sale/nextDueDate|date|Sale - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|alternative/version/quote/sale/reopenDate|date|Sale - Reopen date: Displays the reopen date for the sale| x |
-|alternative/version/quote/sale/stalledComment|listAny|Sale - Reason (stalled): The reason the sale has been stalled| x |
-|alternative/version/quote/sale/saleTypeCategory|listAny|Sale - Sale type category: Sale type category| x |
-|alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
-|alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
-|alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
-|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
-|alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
-|alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
-|alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
-|alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
-|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
-|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
-|alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
-|alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
-|alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
-|alternative/version/quote/sale/associate/firstName|string|Sale - First name: Displays the contact's first name| x |
-|alternative/version/quote/sale/associate/lastName|string|Sale - Last name: Displays the contact's last name| x |
-|alternative/version/quote/sale/associate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/associate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|alternative/version/quote/sale/associate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
-|alternative/version/quote/sale/associate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
-|alternative/version/quote/sale/associate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|alternative/version/quote/sale/associate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|alternative/version/quote/sale/associate/associateDbId|associate|Sale - ID| x |
-|alternative/version/quote/sale/associate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
-|alternative/version/quote/sale/associate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
-|alternative/version/quote/sale/associate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
-|alternative/version/quote/sale/associate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
-|alternative/version/quote/sale/associate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
-|alternative/version/quote/sale/associate/contactCategory|listAny|Sale - Category: Category| x |
-|alternative/version/quote/sale/associate/role|listAny|Sale - Role: Role| x |
-|alternative/version/quote/sale/associate/assocName|associate|Sale - User ID: User ID| x |
-|alternative/version/quote/sale/associate/assocTooltip|string|Sale - Description: Description|  |
-|alternative/version/quote/sale/associate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
-|alternative/version/quote/sale/associate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
-|alternative/version/quote/sale/associate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
-|alternative/version/quote/sale/associate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|alternative/version/quote/sale/associate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
-|alternative/version/quote/sale/associate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|alternative/version/quote/sale/associate/isActive|bool|Sale - Active: Is this user active, and should be able to log in?| x |
-|alternative/version/quote/sale/associate/isActiveText|bool|Sale - Active status: Is this user active, and should be able to log in?| x |
-|alternative/version/quote/sale/associate/portraitThumbnail| *None* |Sale - Person image: Person image|  |
-|alternative/version/quote/sale/associate/otherGroups|userGroup|Sale - Other groups: Other groups|  |
-|alternative/version/quote/sale/associate/userName|string|Sale - User name: User name| x |
-|alternative/version/quote/sale/associate/personEmail|string|Sale - E-mail| x |
-|alternative/version/quote/sale/associate/locationAddress|string|Sale - Location: Location| x |
-|alternative/version/quote/sale/associate/isLocation|bool|Sale - Is a location: Is a location| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:1|string|Sale - saleshorttext| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:2|string|Sale - salelongtext| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:3|int|Sale - salenumber| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:4|date|Sale - saledate| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:5|unlimitedDate|Sale - saleunlimiteddate| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:6|bool|Sale - salecheckbox| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:7|listAny|Sale - saledropdownlistbox| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:8|decimal|Sale - saledecimal| x |
-|alternative/version/quote/connection/quoteConnectionId|int|ERP connection - DB-ID: Database ID| x |
-|alternative/version/quote/connection/deleted|bool|ERP connection - Deleted: Column showing if the ERP connection has been marked as deleted| x |
-|alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
-|alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
+|alternative/version/quote/sale/type|listAny|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP| x |
+|alternative/version/quote/sale/recordType|string|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP| x |
+|alternative/version/quote/sale/text|positiveString|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|alternative/version/quote/sale/associateId|associate|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP| x |
+|alternative/version/quote/sale/contactId|listAny|SR\_SINGULAR\_SALE - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|alternative/version/quote/sale/personId|listAny|SR\_SINGULAR\_SALE - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP| x |
+|alternative/version/quote/sale/projectId|listAny|SR\_SINGULAR\_SALE - SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP| x |
+|alternative/version/quote/sale/saleId|int|SR\_SINGULAR\_SALE - SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP| x |
+|alternative/version/quote/sale/userGroup|userGroup|SR\_SINGULAR\_SALE - SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP| x |
+|alternative/version/quote/sale/who| *None* |SR\_SINGULAR\_SALE - SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|alternative/version/quote/sale/updatedBy|associate|SR\_SINGULAR\_SALE - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|alternative/version/quote/sale/updatedByFullName|associate|SR\_SINGULAR\_SALE - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|alternative/version/quote/sale/updatedDate|date|SR\_SINGULAR\_SALE - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|alternative/version/quote/sale/registeredBy|associate|SR\_SINGULAR\_SALE - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|alternative/version/quote/sale/registeredByFullName|associate|SR\_SINGULAR\_SALE - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|alternative/version/quote/sale/registeredDate|date|SR\_SINGULAR\_SALE - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|alternative/version/quote/sale/currencyId|int|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_CURRENCY\_ID: SR\_ARCHIVE\_SALE\_CURRENCY\_ID\_TOOLTIP| x |
+|alternative/version/quote/sale/currency|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_CURRENCY: SR\_SALE\_CURRENCY\_TOOLTIP| x |
+|alternative/version/quote/sale/credited|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_CREDITED: SR\_SALE\_CREDITED\_TOOLTIP| x |
+|alternative/version/quote/sale/lossReason|listAny|SR\_SINGULAR\_SALE - SR\_SALE\_REASON\_LOST: SR\_SALE\_LOSSREASON\_TOOLTIP| x |
+|alternative/version/quote/sale/source|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_SOURCE: SR\_SALE\_SOURCE\_TOOLTIP| x |
+|alternative/version/quote/sale/competitor|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_COMPETITOR: SR\_SALE\_COMPETITOR\_TOOLTIP| x |
+|alternative/version/quote/sale/heading|stringorPK|SR\_SINGULAR\_SALE - SR\_COMMON\_SALE: SR\_ARCHIVE\_SALE\_NAME\_TOOLTIP| x |
+|alternative/version/quote/sale/amount|decimal|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_AMOUNT: SR\_SALE\_AMOUNT\_TOOLTIP| x |
+|alternative/version/quote/sale/amountWeighted|decimal|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP| x |
+|alternative/version/quote/sale/earning|decimal|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_EARNING: SR\_EARNING\_AMOUNT\_TOOLTIP| x |
+|alternative/version/quote/sale/earningPercent|decimal|SR\_SINGULAR\_SALE - SR\_SDLG\_EARNINGP: SR\_SALE\_EARNINGPCT\_TOOLTIP| x |
+|alternative/version/quote/sale/probPercent|int|SR\_SINGULAR\_SALE - SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE: SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE\_TOOLTIP| x |
+|alternative/version/quote/sale/originalStage|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED: SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED| x |
+|alternative/version/quote/sale/stage|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_STAGE: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP| x |
+|alternative/version/quote/sale/stageName| *None* |SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_STAGE\_NAME: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP| x |
+|alternative/version/quote/sale/saleStatus|listAny|SR\_SINGULAR\_SALE - SR\_SALEDLG\_STATUS: SR\_SALE\_STATUS\_TOOLTIP| x |
+|alternative/version/quote/sale/stageRank| *None* |SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_STAGE\_RANK: SR\_ARCHIVE\_SALE\_STAGE\_RANK\_TOOLTIP| x |
+|alternative/version/quote/sale/saleType|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALETYPE: SR\_ARCHIVE\_SALETYPE\_TOOLTIP| x |
+|alternative/version/quote/sale/saleTypeId| *None* |SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALETYPE\_ID: SR\_ARCHIVE\_SALETYPE\_TOOLTIP| x |
+|alternative/version/quote/sale/stageId| *None* |SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_STAGE\_ID: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP| x |
+|alternative/version/quote/sale/nextDueDate|date|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_NEXTDUEDATE: SR\_ARCHIVE\_NEXTDUEDATE\_TOOLTIP| x |
+|alternative/version/quote/sale/reopenDate|date|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_REOPENDATE: SR\_ARCHIVE\_SALE\_REOPENDATE\_TOOLTIP| x |
+|alternative/version/quote/sale/stalledComment|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_STALLEDCOMMENT: SR\_ARCHIVE\_STALLEDCOMMENT\_TOOLTIP| x |
+|alternative/version/quote/sale/saleTypeCategory|listAny|SR\_SINGULAR\_SALE - SR\_ADMIN\_LIST\_SALE\_CAT: SR\_ADMIN\_LIST\_SALE\_CAT| x |
+|alternative/version/quote/sale/soldReason|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_REASON\_SOLD: SR\_ARCHIVE\_REASON\_SOLD\_TOOLTIP| x |
+|alternative/version/quote/sale/saleNumber|string|SR\_SINGULAR\_SALE - SR\_SALESARCHIVE\_NUMBER: SR\_SALESARCHIVE\_NUMBER| x |
+|alternative/version/quote/sale/hasStakeholders|bool|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_HAS\_STAKEHOLDERS: SR\_ARCHIVE\_HAS\_STAKEHOLDERS\_TOOLTIP| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED: SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED\_TOOLTIP| x |
+|alternative/version/quote/sale/hasQuote|bool|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_HAS\_QUOTE: SR\_ARCHIVE\_HAS\_QUOTE\_TOOLTIP| x |
+|alternative/version/quote/sale/hasGuide|bool|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP| x |
+|alternative/version/quote/sale/description|string|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALEDESCRIPTION: SR\_ARCHIVE\_SALEDESCRIPTION\_TOOLTIP|  |
+|alternative/version/quote/sale/activeErpLinks|bool|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|SR\_SINGULAR\_SALE - SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_AMOUNT (BaseCurrency: SR\_SALE\_AMOUNT\_TOOLTIP| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT (BaseCurrency: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP| x |
+|alternative/version/quote/sale/daysInStage|int|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE: SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE\_TOOLTIP| x |
+|alternative/version/quote/sale/visibleFor|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_VISIBLE\_FOR|  |
+|alternative/version/quote/sale/sale/textId|int|SR\_SINGULAR\_SALE - Text ID| x |
+|alternative/version/quote/sale/sale/description|positiveString|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/firstName|string|SR\_SINGULAR\_SALE - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/lastName|string|SR\_SINGULAR\_SALE - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/middleName|string|SR\_SINGULAR\_SALE - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/fullName|string|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/contactId|int|SR\_SINGULAR\_SALE - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|alternative/version/quote/sale/associate/personId|int|SR\_SINGULAR\_SALE - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|alternative/version/quote/sale/associate/mrMrs|string|SR\_SINGULAR\_SALE - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/title|string|SR\_SINGULAR\_SALE - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/associateDbId|associate|SR\_SINGULAR\_SALE - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|alternative/version/quote/sale/associate/contactName|string|SR\_SINGULAR\_SALE - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/contactDepartment|string|SR\_SINGULAR\_SALE - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/usergroup|userGroup|SR\_SINGULAR\_SALE - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/usergroupId|int|SR\_SINGULAR\_SALE - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/contactFullName|string|SR\_SINGULAR\_SALE - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/contactCategory|listAny|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|alternative/version/quote/sale/associate/role|listAny|SR\_SINGULAR\_SALE - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|alternative/version/quote/sale/associate/assocName|associate|SR\_SINGULAR\_SALE - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|alternative/version/quote/sale/associate/assocTooltip|string|SR\_SINGULAR\_SALE - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|alternative/version/quote/sale/associate/assocType|listAny|SR\_SINGULAR\_SALE - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/ejUserId|int|SR\_SINGULAR\_SALE - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|alternative/version/quote/sale/associate/simultaneousEjUser|bool|SR\_SINGULAR\_SALE - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|alternative/version/quote/sale/associate/ejDisplayName|string|SR\_SINGULAR\_SALE - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|alternative/version/quote/sale/associate/ejStatus|int|SR\_SINGULAR\_SALE - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|alternative/version/quote/sale/associate/credentialType| *None* |SR\_SINGULAR\_SALE - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/credentialDisplayValue| *None* |SR\_SINGULAR\_SALE - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/isActive|bool|SR\_SINGULAR\_SALE - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/isActiveText|bool|SR\_SINGULAR\_SALE - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/portraitThumbnail| *None* |SR\_SINGULAR\_SALE - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|alternative/version/quote/sale/associate/otherGroups|userGroup|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|alternative/version/quote/sale/associate/userName|string|SR\_SINGULAR\_SALE - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|alternative/version/quote/sale/associate/personEmail|string|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_EMAIL| x |
+|alternative/version/quote/sale/associate/locationAddress|string|SR\_SINGULAR\_SALE - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|alternative/version/quote/sale/associate/isLocation|bool|SR\_SINGULAR\_SALE - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:1|string|SR\_SINGULAR\_SALE - saleshorttext| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:2|string|SR\_SINGULAR\_SALE - salelongtext| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:3|int|SR\_SINGULAR\_SALE - salenumber| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:4|date|SR\_SINGULAR\_SALE - saledate| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:5|unlimitedDate|SR\_SINGULAR\_SALE - saleunlimiteddate| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:6|bool|SR\_SINGULAR\_SALE - salecheckbox| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:7|listAny|SR\_SINGULAR\_SALE - saledropdownlistbox| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:8|decimal|SR\_SINGULAR\_SALE - saledecimal| x |
+|alternative/version/quote/connection/quoteConnectionId|int|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONID: SR\_QUOTE\_CONNECTIONID\_TOOLTIP| x |
+|alternative/version/quote/connection/deleted|bool|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONDELETED: SR\_QUOTE\_CONNECTIONDELETED\_TOOLTIP| x |
+|alternative/version/quote/connection/allAccess|bool|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONALLACCESS: SR\_QUOTE\_CONNECTIONALLACCESS\_TOOLTIP| x |
+|alternative/version/quote/connection/erpName|int|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONERPNAME: SR\_QUOTE\_CONNECTIONERPNAME\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
-|alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
-|alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
-|alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
-|alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
-|alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
-|alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
-|alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
-|alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
-|alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
-|alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
-|alternative/version/quote/connection/erpConnection/mostRecent|string|ERP connection - ERP connections - Timestamp: The timestamp of the most recent synchronization on this ERP connection|  |
-|alternative/version/quote/connection/erpConnection/allAccess|bool|ERP connection - ERP connections - Unrestricted: There are no access restrictions on this ERP connection|  |
-|alternative/version/quote/connection/erpConnection/deleted|bool|ERP connection - ERP connections - Deleted: Column showing if the ERP connection has been marked as deleted|  |
-|alternative/version/quote/connection/erpConnection/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
-|alternative/version/quote/connection/erpConnection/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/connection/erpConnection/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
-|alternative/version/quote/connection/erpConnection/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/connection/erpConnection/connector/id|stringorPK|ERP connection - ERP connections - Connection ID: Database key for an ERP connection| x |
-|alternative/version/quote/connection/erpConnection/connector/url|string|ERP connection - ERP connections - URL of Sync Connector: The URL to the location where the Sync Connector is installed| x |
-|alternative/version/quote/connection/erpConnection/connector/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system| x |
-|alternative/version/quote/connection/erpConnection/connector/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
-|alternative/version/quote/connection/erpConnection/connector/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/connection/erpConnection/connector/registeredBy|associate|ERP connection - ERP connections - Registered by: The user who registered the data| x |
-|alternative/version/quote/connection/erpConnection/connector/registeredDate|date|ERP connection - ERP connections - Registered date: The date/time the data was registered in UTC.| x |
+|alternative/version/quote/connection/displayName|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONDISPLAYNAME: SR\_QUOTE\_CONNECTIONDISPLAYNAME\_TOOLTIP| x |
+|alternative/version/quote/connection/displayDescription|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONDISPLAYDESCRIPTION: SR\_QUOTE\_CONNECTIONDISPLAYDESCRIPTION\_TOOLTIP| x |
+|alternative/version/quote/connection/connectorName|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONCONNECTORNAME: SR\_QUOTE\_CONNECTIONCONNECTORNAME\_TOOLTIP| x |
+|alternative/version/quote/connection/extraData|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_QUOTE\_CONNECTIONEXTRADATA: SR\_QUOTE\_CONNECTIONEXTRADATA\_TOOLTIP| x |
+|alternative/version/quote/connection/updatedBy|associate|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|alternative/version/quote/connection/updatedDate|date|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|alternative/version/quote/connection/registeredBy|associate|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|alternative/version/quote/connection/registeredDate|date|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/id|int|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_ID: SR\_ERPCONN\_ID\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/name|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_NAME: SR\_ERPCONN\_NAME\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/description|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_DESCRIPTION: SR\_ERPCONN\_DESCRIPTION\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/active|bool|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_ACTIVE: SR\_ERPCONN\_ACTIVE\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/erpId|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_ERPID: SR\_ERPCONN\_ERPID\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/mostRecent|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_MOSTRECENT: SR\_ERPCONN\_MOSTRECENT\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/allAccess|bool|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_ALLACCESS: SR\_ERPCONN\_ALLACCESS\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/deleted|bool|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_CONNECTIONDELETED: SR\_ERPCONN\_CONNECTIONDELETED\_TOOLTIP|  |
+|alternative/version/quote/connection/erpConnection/updatedBy|associate|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/updatedDate|date|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/registeredBy|associate|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/registeredDate|date|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/id|stringorPK|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_ID: SR\_ERPCONN\_ID\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/url|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_URL: SR\_ERPCONN\_URL\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/name|string|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_ERPCONN\_NAME: SR\_ERPCONN\_NAME\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/updatedBy|associate|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/updatedDate|date|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/registeredBy|associate|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|alternative/version/quote/connection/erpConnection/connector/registeredDate|date|SR\_QUOTE\_SINGULAR\_QUOTECONNECTION - SR\_ERPCONN\_CONNECTIONS - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/activeErpLinks,alternative/version/quote/sale/associate/contactCategory,alternative/version/status
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/extraField2,alternative/version/quote/sale/soldReason,alternative/version/quote/sale/associate/assocTooltip,alternative/version/quote/connection/erpConnection/active
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

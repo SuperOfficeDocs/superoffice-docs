@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Active|||
-|3|Finished|||
-|4|Finished with success|||
-|5|Dropout|||
-|6|Cancelled|||
+|2|[SR_WORKFLOW_INSTANCE_STATUS_ACTIVE]|||
+|3|[SR_WORKFLOW_INSTANCE_STATUS_FINISHED]|||
+|4|[SR_WORKFLOW_INSTANCE_STATUS_FINISHEDWITHSUCCESS]|||
+|5|[SR_WORKFLOW_INSTANCE_STATUS_DROPOUT]|||
+|6|[SR_WORKFLOW_INSTANCE_STATUS_CANCELLED]|||
 
 
 ## Related MDO Lists

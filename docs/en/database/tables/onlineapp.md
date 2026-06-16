@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# OnlineApp Table (506)
+# OnlineApp Table (505)
 
 Echo and track information about Online Apps and their usage
 

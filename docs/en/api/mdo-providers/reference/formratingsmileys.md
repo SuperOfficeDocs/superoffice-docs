@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Sad|||
-|1|Neutral|||
-|2|Happy|||
+|0|[SR_FORMS_RATING_SMILEYS_SAD]|||
+|1|[SR_FORMS_RATING_SMILEYS_NEUTRAL]|||
+|2|[SR_FORMS_RATING_SMILEYS_HAPPY]|||
 
 
 ## Related MDO Lists

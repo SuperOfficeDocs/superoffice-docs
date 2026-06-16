@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Sale|||
+|1|[SR_ACTIVITYARCHIVE_SALE]|||
 
 
 ## Related MDO Lists

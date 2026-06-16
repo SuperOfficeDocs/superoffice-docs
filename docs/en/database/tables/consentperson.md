@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ConsentPerson Table (472)
+# ConsentPerson Table (471)
 
 Link table that defines who has which consents
 

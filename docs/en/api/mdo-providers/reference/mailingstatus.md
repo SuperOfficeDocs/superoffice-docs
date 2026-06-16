@@ -42,20 +42,20 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Under construction|||
-|1|Finished|||
-|2|Cancelled|||
-|3|Scheduled|||
-|4|Started|||
-|5|Finished|||
-|6|Retrying|||
-|7|Populating|||
-|8|Deleted|||
-|9|Preparing|||
-|10|Analyzing selections|||
-|11|Aborting|||
-|12|Recipient counting error|||
-|13|Too many recipients|||
+|0|[SR_SHIPMENT_STATUS_NONE]|||
+|1|[SR_SHIPMENT_STATUS_OK]|||
+|2|[SR_SHIPMENT_STATUS_CANCELED]|||
+|3|[SR_SHIPMENT_STATUS_WAITING]|||
+|4|[SR_SHIPMENT_STATUS_STARTED]|||
+|5|[SR_SHIPMENT_STATUS_STATUSFAILED]|||
+|6|[SR_SHIPMENT_STATUS_RETRY]|||
+|7|[SR_SHIPMENT_STATUS_POPULATING]|||
+|8|[SR_SHIPMENT_STATUS_DELETED]|||
+|9|[SR_SHIPMENT_STATUS_AWAITPOPULATE]|||
+|10|[SR_SHIPMENT_STATUS_POPULATINGONLY]|||
+|11|[SR_SHIPMENT_STATUS_POPULATEABORTED]|||
+|12|[SR_SHIPMENT_STATUS_POPULATEERROR]|||
+|13|[SR_SHIPMENT_STATUS_TOOMANYRECIPIENTS]|||
 
 
 ## Related MDO Lists

@@ -351,6 +351,22 @@ items:
     href: CRMScript/v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId.md
   - name: PUT CRMScript/{id}
     href: CRMScript/v1CRMScriptEntity_PutCRMScriptEntity.md
+- name: CustomObject
+  href: CustomObject/index.md
+  items:
+  - name: DEL CustomObject/{definitionName}/{id}
+    href: CustomObject/v1CustomObject_DeleteCustomObject.md
+  - name: GET CustomObject/{definitionName}/{id}
+    href: CustomObject/v1CustomObject_GetCustomObject.md
+  - name: PUT CustomObject/{definitionName}
+    href: CustomObject/v1CustomObject_SaveCustomObject.md
+- name: CustomObjectDefinition
+  href: CustomObjectDefinition/index.md
+  items:
+  - name: GET CustomObjectDefinition/{definitionName}
+    href: CustomObjectDefinition/v1CustomObjectDefinition_GetCustomObjectDefinition.md
+  - name: GET CustomObjectDefinition/{definitionName}/Screen
+    href: CustomObjectDefinition/v1CustomObjectDefinition_HasScreenChooser.md
 - name: Dash
   href: Dash/index.md
   items:

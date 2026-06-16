@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|SuperOffice CRM|||
-|2|Microsoft Outlook|||
+|1|[SR_MAIL_CLIENT_SUPEROFFICE]|||
+|2|[SR_MAIL_CLIENT_OUTLOOK]|||
 
 
 ## Related MDO Lists

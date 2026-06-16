@@ -28,6 +28,8 @@ Agent listing contains request and response examples, and WSDL files for **Servi
 
 * [CustomerService](CustomerService/index.md)
 
+* [CustomObject](CustomObject/index.md)
+
 * [Dash](Dash/index.md)
 
 * [Database](Database/index.md)

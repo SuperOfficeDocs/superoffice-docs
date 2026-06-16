@@ -23,14 +23,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
-|associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
+|associateId|associate|SR\_SINGULAR\_ASSOCIATE: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
 |originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |
 |updateType| *None* |!!updateType|  |
-|type|int|Type: The type of notification|  |
-|ownerContactId| *None* |Owner associate ID: The associate ID of the user who is the original owner of the notification|  |
-|updatedAssocId| *None* |Updated by: Displays the name of the associate who last updated the project|  |
+|type|int|SR\_ARCHIVE\_TICKETNOTIFICATION\_TYPE: SR\_ARCHIVE\_TICKETNOTIFICATION\_TYPE\_TOOLTIP|  |
+|ownerContactId| *None* |SR\_ARCHIVE\_TICKETNOTIFICATION\_OWNERASSOCIATEID: SR\_ARCHIVE\_TICKETNOTIFICATION\_OWNERASSOCIATEID\_TOOLTIP|  |
+|updatedAssocId| *None* |SR\_PROJECTARCHIVE\_LASTUPDATED\_BY: SR\_PROJECTARCHIVE\_LASTUPDATED\_BY\_TOOLTIP|  |
 |companyName| *None* |!!Company name: !!Company name tooltip|  |
 |personFirstName| *None* |!!Person first name: !!Person name tooltip|  |
 |personMiddleName| *None* |!!Person middle name: !!Person middle name tooltip|  |

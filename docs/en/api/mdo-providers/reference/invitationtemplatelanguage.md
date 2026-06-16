@@ -49,7 +49,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Default||DEFAULT|
+|0|[SR_DD_DEFAULT]||DEFAULT|
 
 
 ## Related MDO Lists

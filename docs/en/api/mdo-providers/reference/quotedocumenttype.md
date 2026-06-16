@@ -50,9 +50,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Template for Quote Document|||
-|3|Template for Quote Details|||
-|5|Template for Order Confirmations|||
+|2|[SR_QUOTE_DOCUMENT_TYPE_MAINDOC]|||
+|3|[SR_QUOTE_DOCUMENT_TYPE_DETAILS_DOCUMENT]|||
+|5|[SR_QUOTE_DOCUMENT_TYPE_CONFDETAILS_DOCUMENT]|||
 
 
 ## Related MDO Lists

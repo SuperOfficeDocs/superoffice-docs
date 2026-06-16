@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Dice 1|||
-|1|Dice 2|||
-|2|Dice 3|||
-|3|Dice 4|||
-|4|Dice 5|||
-|5|Dice 6|||
+|0|[SR_FORMS_RATING_1_DICE]|||
+|1|[SR_FORMS_RATING_2_DICE]|||
+|2|[SR_FORMS_RATING_3_DICE]|||
+|3|[SR_FORMS_RATING_4_DICE]|||
+|4|[SR_FORMS_RATING_5_DICE]|||
+|5|[SR_FORMS_RATING_6_DICE]|||
 
 
 ## Related MDO Lists

@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Name:|||
-|2|Code|||
-|3|Name + Code|||
+|1|[SR_IMPORT_NAME]|||
+|2|[SR_IMPORT_CODE]|||
+|3|[SR_IMPORT_NAMECODE]|||
 
 
 ## Related MDO Lists

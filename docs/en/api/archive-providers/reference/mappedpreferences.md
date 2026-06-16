@@ -20,22 +20,22 @@ Anything else needs to be coded!
 | Name | Description |
 | ---- | ----- |
 |"system"|system|
-|"user"|User|
+|"user"|[[SR_PREFERENCE_USER]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|userpreferenceId|int|Database ID: The database ID of the row in the userpreference table| x |
-|deflevel|int|Level: The level at which the preference is defined; closest-to-the-user wins| x |
-|deflevelname|string|Level: The type of the preference value (string, company, yes/no etc)| x |
-|maxlevel|int|Max level: The maximum (closest to the user) level this preference is allowed on| x |
-|maxlevelname|string|Max level: The maximum (closest to the user) level this preference is allowed on| x |
-|ownerId|int|Owner: The owner of the preference value| x |
-|owner|string|Who: Who is the owner of this preference value| x |
-|prefsection|string|Section: The prefsection field in the database| x |
-|prefkey|string|Key: The prefkey field in the database| x |
-|prefvalue|string|Raw value: The raw value as it is in the database| x |
-|value|string|Value: The value of the preference| x |
+|userpreferenceId|int|SR\_USERPREFERENCE\_ID: SR\_USERPREFERENCE\_ID\_TOOLTIP| x |
+|deflevel|int|SR\_USERPREFERENCE\_DEFLEVEL: SR\_USERPREFERENCE\_DEFLEVEL\_TOOLTIP| x |
+|deflevelname|string|SR\_PREFERENCE\_TYPE: SR\_PREFERENCE\_TYPE\_TOOLTIP| x |
+|maxlevel|int|SR\_USERPREFERENCE\_MAXLEVEL: SR\_USERPREFERENCE\_MAXLEVEL\_TOOLTIP| x |
+|maxlevelname|string|SR\_USERPREFERENCE\_MAXLEVELNAME: SR\_USERPREFERENCE\_MAXLEVELNAME\_TOOLTIP| x |
+|ownerId|int|SR\_USERPREFERENCE\_OWNERID: SR\_USERPREFERENCE\_OWNERID\_TOOLTIP| x |
+|owner|string|SR\_PREFERENCE\_WHO: SR\_PREFERENCE\_WHO\_TOOLTIP| x |
+|prefsection|string|SR\_USERPREFERENCE\_SECTION: SR\_USERPREFERENCE\_SECTION\_TOOLTIP| x |
+|prefkey|string|SR\_USERPREFERENCE\_KEY: SR\_USERPREFERENCE\_KEY\_TOOLTIP| x |
+|prefvalue|string|SR\_PREFERENCE\_RAWVALUE: SR\_PREFERENCE\_RAWVALUE\_TOOLTIP| x |
+|value|string|SR\_PREFERENCE\_VALUE: SR\_PREFERENCE\_VALUE\_TOOLTIP| x |
 
 ## Sample
 

@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Use SuperOffice WebTools|||
-|1|Manually uploading and downloading files|||
+|2|[SR_DOCEDIT_WEBTOOLS]|||
+|1|[SR_DOCEDIT_MANUAL_UPLOAD]|||
 
 
 ## Related MDO Lists

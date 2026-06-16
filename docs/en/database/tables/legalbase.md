@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# LegalBase Table (470)
+# LegalBase Table (469)
 
 Legal base for GDPR (Article 6)
 

@@ -19,25 +19,25 @@ the string in either subject, sender, recipient or date are returned
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"companies"|Companies|
-|"associates"|Associates|
-|"others"|Others|
+|"companies"|[[SR_INBOX_FROM_CONTACT]]|
+|"associates"|[[SR_INBOX_FROM_ASSOCIATE]]|
+|"others"|[[SR_INBOX_FROM_OTHER]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|id| *None* |ID: ID of the e-mail|  |
-|status| *None* |Status| x |
-|attachment| *None* |Attachment: Indicates whether the e-mail has one or more attachments| x |
-|from| *None* |From: The sender of the e-mail| x |
-|to| *None* |To: The recipient of the e-mail| x |
-|subject| *None* |Subject: The subject of the e-mail| x |
-|size| *None* |Size: The size of the e-mail| x |
-|archived| *None* |Archived: Indicates whether the e-mail has been archived in SuperOffice CRM|  |
-|priority| *None* |Priority: The e-mail's priority| x |
-|sent| *None* |Date : The time this e-mail was sent at| x |
-|company| *None* |Company: Company|  |
-|person| *None* |Contact: Contact|  |
+|id| *None* |SR\_MAIL\_ID: SR\_MAIL\_ID\_TOOLTIP|  |
+|status| *None* |SR\_INBOX\_STATUS| x |
+|attachment| *None* |SR\_INBOX\_ATTACHMENT: SR\_INBOX\_ATTACHMENT\_TOOLTIP| x |
+|from| *None* |SR\_ARCHIVE\_EMAIL\_FROM: SR\_MAIL\_PREVIEW\_FROM\_TOOLTIP| x |
+|to| *None* |SR\_ARCHIVE\_EMAIL\_TO: SR\_MAIL\_PREVIEW\_TO\_TOOLTIP| x |
+|subject| *None* |SR\_INBOX\_SUBJECT: SR\_INBOX\_SUBJECT\_TOOLTIP| x |
+|size| *None* |SR\_MAIL\_SIZE: SR\_MAIL\_SIZE\_TOOLTIP| x |
+|archived| *None* |SR\_MAIL\_ARCHIVED: SR\_MAIL\_ARCHIVED\_TOOLTIP|  |
+|priority| *None* |SR\_MAIL\_PRIORITY: SR\_MAIL\_PRIORITY\_TOOLTIP| x |
+|sent| *None* |SR\_DDLG\_DATO: SR\_INBOX\_SENT\_TOOLTIP| x |
+|company| *None* |SR\_SINGULAR\_COMPANY: SR\_SINGULAR\_COMPANY|  |
+|person| *None* |SR\_SINGULAR\_CONTACT: SR\_SINGULAR\_CONTACT|  |
 
 ## Sample
 

@@ -939,6 +939,27 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_TestSmtpServer.md
   - name: UpdateFeatureToggles
     href: CustomerService_Agent/v1CustomerServiceAgent_UpdateFeatureToggles.md
+- name: CustomObject
+  href: CustomObject_Agent/index.md
+  items:
+  - name: CreateDefaultCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_CreateDefaultCustomObject.md
+  - name: CreateDefaultCustomObjectDefinition
+    href: CustomObject_Agent/v1CustomObjectAgent_CreateDefaultCustomObjectDefinition.md
+  - name: DeleteCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_DeleteCustomObject.md
+  - name: GetCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObject.md
+  - name: GetCustomObjectDefinition
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectDefinition.md
+  - name: GetCustomObjectsIcons
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectsIcons.md
+  - name: GetCustomObjectsMetadata
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectsMetadata.md
+  - name: HasScreenChooser
+    href: CustomObject_Agent/v1CustomObjectAgent_HasScreenChooser.md
+  - name: SaveCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_SaveCustomObject.md
 - name: Dash
   href: Dash_Agent/index.md
   items:
@@ -2012,6 +2033,8 @@ items:
     href: List_Agent/v1ListAgent_GetAllTasks.md
   - name: GetAllTicketPriorities
     href: List_Agent/v1ListAgent_GetAllTicketPriorities.md
+  - name: GetAllTicketRelationDefinitionEntities
+    href: List_Agent/v1ListAgent_GetAllTicketRelationDefinitionEntities.md
   - name: GetAmountClassEntity
     href: List_Agent/v1ListAgent_GetAmountClassEntity.md
   - name: GetAppTaskMenus

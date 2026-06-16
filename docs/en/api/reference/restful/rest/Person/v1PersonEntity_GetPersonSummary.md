@@ -30,7 +30,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=968
+GET /api/v1/Person/{personId}/Summary?limit=258
 ```
 
 

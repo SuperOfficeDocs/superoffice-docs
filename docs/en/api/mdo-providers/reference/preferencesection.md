@@ -45,27 +45,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1000010|Customer Centre password policy||ccAuthentication|
-|1000007|Client||Client|
-|1000549|SuperOffice Copilot||Copilot|
-|1000020|Statistics||DataCollection|
-|1000032|Default values||Defaults|
-|1000067|Diary||DiaryView|
-|1000325|Notifications for e-mail||emailNotification|
-|1000094|Filter Dialog||FilterDialog|
-|1000096|Freetext search||Freetext|
-|1000104|Functions||Functions|
-|1000544|In-app communication||InApp|
-|1000159|E-mail||Mail|
-|1000222|Marketing||Mailing|
-|1000230|Grouped lists||MDOList|
-|1000541|Data mirroring||Mirroring|
-|1000301|Web Services||NetServices|
-|1000331|Notifications via popup||notification|
-|1000339|Notifications via e-mail||notificationEmail|
-|1000347|Notifications via SMS||notificationSms|
-|1000363|Contact||Person|
-|1000382|Mobile CRM||PocketTasks|
+|1000010|[SR_PD_ccAuthentication_NAME]||ccAuthentication|
+|1000007|[SR_PD_Client_NAME]||Client|
+|1000545|[SR_PD_Copilot_NAME]||Copilot|
+|1000020|[SR_PD_DataCollection_NAME]||DataCollection|
+|1000032|[SR_PD_Defaults_NAME]||Defaults|
+|1000067|[SR_PD_DiaryView_NAME]||DiaryView|
+|1000321|[SR_PD_emailNotification_NAME]||emailNotification|
+|1000094|[SR_PD_FilterDialog_NAME]||FilterDialog|
+|1000096|[SR_PD_Freetext_NAME]||Freetext|
+|1000100|[SR_PD_Functions_NAME]||Functions|
+|1000540|[SR_PD_InApp_NAME]||InApp|
+|1000155|[SR_PD_Mail_NAME]||Mail|
+|1000218|[SR_PD_Mailing_NAME]||Mailing|
+|1000226|[SR_PD_MDOList_NAME]||MDOList|
+|1000537|[SR_PD_Mirroring_NAME]||Mirroring|
+|1000297|[SR_PD_NetServices_NAME]||NetServices|
+|1000327|[SR_PD_notification_NAME]||notification|
+|1000335|[SR_PD_notificationEmail_NAME]||notificationEmail|
+|1000343|[SR_PD_notificationSms_NAME]||notificationSms|
+|1000359|[SR_PD_Person_NAME]||Person|
+|1000378|[SR_PD_PocketTasks_NAME]||PocketTasks|
 
 
 ## Related MDO Lists

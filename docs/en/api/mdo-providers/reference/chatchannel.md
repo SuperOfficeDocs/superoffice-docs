@@ -50,7 +50,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|All|||
+|0|[SR_VFC_ALL]|||
 
 
 ## Related MDO Lists

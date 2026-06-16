@@ -42,21 +42,21 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Send e-mail|||
-|2|Send SMS|||
-|3|Wait time|||
-|4|Wait for action|||
-|5|Split|||
-|6|Update contact|||
-|7|Add to selection/project|||
-|8|Remove from selection/project|||
-|15|Distribute to owner|||
-|9|Create request|||
-|10|Create follow-up|||
-|11|Create sale|||
-|14|Run script|||
-|12|Notify by e-mail|||
-|13|Notify by SMS|||
+|1|[SR_WORKFLOWSTEPTYPE_SEND_EMAIL]|||
+|2|[SR_WORKFLOWSTEPTYPE_SEND_SMS]|||
+|3|[SR_WORKFLOWSTEPTYPE_WAIT_FOR_TIME]|||
+|4|[SR_WORKFLOWSTEPTYPE_WAIT_FOR_ACTION]|||
+|5|[SR_WORKFLOWSTEPTYPE_SPLIT]|||
+|6|[SR_WORKFLOWSTEPTYPE_UPDATE_CONTACT]|||
+|7|[SR_WORKFLOWSTEPTYPE_ADD_TO_LIST]|||
+|8|[SR_WORKFLOWSTEPTYPE_REMOVE_FROM_LIST]|||
+|15|[SR_WORKFLOWSTEPTYPE_DISTRIBUTE_TO_OWNER]|||
+|9|[SR_WORKFLOWSTEPTYPE_CREATE_REQUEST]|||
+|10|[SR_WORKFLOWSTEPTYPE_CREATE_FOLLOWUP]|||
+|11|[SR_WORKFLOWSTEPTYPE_CREATE_SALE]|||
+|14|[SR_WORKFLOWSTEPTYPE_RUN_SCRIPT]|||
+|12|[SR_WORKFLOWSTEPTYPE_NOTIFY_BY_EMAIL]|||
+|13|[SR_WORKFLOWSTEPTYPE_NOTIFY_BY_SMS]|||
 
 
 ## Related MDO Lists

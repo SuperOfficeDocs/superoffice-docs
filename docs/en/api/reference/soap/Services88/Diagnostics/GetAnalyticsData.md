@@ -67,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Diagnostics:Email xsi:type="xsd:string"></Diagnostics:Email>
     <Diagnostics:Company xsi:type="xsd:string"></Diagnostics:Company>
     <Diagnostics:LicenseStatus xsi:type="Diagnostics:UserAndInstallationLicenceStatus">
-     <Diagnostics:AdminWarningDate xsi:type="xsd:dateTime">2026-05-27T01:23:58Z</Diagnostics:AdminWarningDate>
-     <Diagnostics:ExpiryDate xsi:type="xsd:dateTime">2026-05-27T01:23:58Z</Diagnostics:ExpiryDate>
-     <Diagnostics:GraceDate xsi:type="xsd:dateTime">2026-05-27T01:23:58Z</Diagnostics:GraceDate>
+     <Diagnostics:AdminWarningDate xsi:type="xsd:dateTime">2026-06-12T11:33:26Z</Diagnostics:AdminWarningDate>
+     <Diagnostics:ExpiryDate xsi:type="xsd:dateTime">2026-06-12T11:33:26Z</Diagnostics:ExpiryDate>
+     <Diagnostics:GraceDate xsi:type="xsd:dateTime">2026-06-12T11:33:26Z</Diagnostics:GraceDate>
      <Diagnostics:CompanyName xsi:type="xsd:string"></Diagnostics:CompanyName>
      <Diagnostics:SerialNr xsi:type="xsd:string"></Diagnostics:SerialNr>
      <Diagnostics:UserLicenses xsi:type="NetServerServices882:ArrayOfstring">

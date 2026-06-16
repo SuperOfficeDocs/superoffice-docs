@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Lost|||
-|2|Open|||
-|3|Sold|||
-|4|Stalled|||
+|1|[SR_SALE_LOST]|||
+|2|[SR_SALE_OPEN]|||
+|3|[SR_SALE_SOLD]|||
+|4|[SR_SALE_STALLED]|||
 
 
 ## Related MDO Lists

@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|OK|||
-|1|Not in sync|||
-|2|Not notified by e-mail|||
-|3|Repeating pattern not supported|||
-|4|This change of the repeating pattern is not supported|||
-|5|Date/time mismatch|||
+|0|[SR_APPOINTMENT_CAUTIONWARNING_OK]|||
+|1|[SR_APPOINTMENT_CAUTIONWARNING_NOTINSYNC]|||
+|2|[SR_APPOINTMENT_CAUTIONWARNING_NOTNOTIFIED]|||
+|3|[SR_APPOINTMENT_CAUTIONWARNING_NOTSUPPORTEDPATTERN]|||
+|4|[SR_APPOINTMENT_CAUTIONWARNING_RECURRENCECHANGENOTSUPPORTED]|||
+|5|[SR_APPOINTMENT_CAUTIONWARNING_DATETIMEMISMATCH]|||
 
 
 ## Related MDO Lists

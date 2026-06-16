@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Awaiting confirmation|||
-|3|Submitted|||
-|4|Processed|||
-|32767|Other|||
+|2|[SR_FORMSUBMISSION_STATUS_AWAITING_CONFIRMATION]|||
+|3|[SR_FORMSUBMISSION_STATUS_SUBMITTED]|||
+|4|[SR_FORMSUBMISSION_STATUS_PROCESSED]|||
+|32767|[SR_OTHER]|||
 
 
 ## Related MDO Lists

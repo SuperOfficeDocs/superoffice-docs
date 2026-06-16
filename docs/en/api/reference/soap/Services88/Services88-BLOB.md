@@ -350,20 +350,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetProjectImageAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetProjectImageAsStreamResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetPersonImage">
         <xs:complexType>
           <xs:sequence>
@@ -372,20 +358,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="GetPersonImageResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetPersonImageAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetPersonImageAsStreamResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
@@ -419,19 +391,6 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="SetProjectImageFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetProjectImageFromStreamResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="SetPersonImage">
         <xs:complexType>
           <xs:sequence>
@@ -441,19 +400,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="SetPersonImageResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetPersonImageFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetPersonImageFromStreamResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -480,19 +426,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveProjectImageResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveProjectImageFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveProjectImageFromStreamResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -725,22 +658,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="SaveImageStreamFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Type" type="tns:BlobLinkType" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-            <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SaveImageStreamFromStreamResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetProductImage">
         <xs:complexType>
           <xs:sequence>
@@ -749,20 +666,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProductImageResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetProductImageAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProductId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetProductImageAsStreamResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
@@ -782,19 +685,6 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
-      <xs:element name="SetProductImageFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProductId" type="xs:int" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetProductImageFromStreamResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetProductThumbnail">
         <xs:complexType>
           <xs:sequence>
@@ -803,20 +693,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProductThumbnailResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetProductThumbnailAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProductId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetProductThumbnailAsStreamResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
@@ -832,19 +708,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="SetProductThumbnailResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetProductThumbnailFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProductId" type="xs:int" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetProductThumbnailFromStreamResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -876,20 +739,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetQuoteLineImageAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="QuoteLineId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetQuoteLineImageAsStreamResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetPersonImageWithSize">
         <xs:complexType>
           <xs:sequence>
@@ -900,22 +749,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="GetPersonImageWithSizeResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetPersonImageWithSizeAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-            <xs:element minOccurs="0" name="Width" type="xs:int" />
-            <xs:element minOccurs="0" name="Height" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetPersonImageWithSizeAsStreamResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
@@ -938,22 +771,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetProjectImageWithSizeAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
-            <xs:element minOccurs="0" name="Width" type="xs:int" />
-            <xs:element minOccurs="0" name="Height" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetProjectImageWithSizeAsStreamResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetChatImageWithSize">
         <xs:complexType>
           <xs:sequence>
@@ -964,22 +781,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="GetChatImageWithSizeResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetChatImageWithSizeAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ChatTopicId" type="xs:int" />
-            <xs:element minOccurs="0" name="Width" type="xs:int" />
-            <xs:element minOccurs="0" name="Height" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetChatImageWithSizeAsStreamResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
@@ -1000,20 +801,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetContactImageAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetContactImageAsStreamResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="SetContactImage">
         <xs:complexType>
           <xs:sequence>
@@ -1023,19 +810,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="SetContactImageResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetContactImageFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetContactImageFromStreamResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -1077,22 +851,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="GetContactImageWithSizeResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetContactImageWithSizeAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="ContactId" type="xs:int" />
-            <xs:element minOccurs="0" name="Width" type="xs:int" />
-            <xs:element minOccurs="0" name="Height" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetContactImageWithSizeAsStreamResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
@@ -1287,23 +1045,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetProjectImageAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetProjectImageAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetProjectImageAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetProjectImageAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetProjectImageAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetProjectImageAsStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetPersonImageRequest">
     <wsdl:part name="parameters" element="tns:GetPersonImage" />
   </wsdl:message>
@@ -1316,23 +1057,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetPersonImageResponse" />
   </wsdl:message>
   <wsdl:message name="GetPersonImageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetPersonImageAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetPersonImageAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1372,23 +1096,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="SetProjectImageFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SetProjectImageFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SetProjectImageFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetProjectImageFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SetProjectImageFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetProjectImageFromStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="SetPersonImageRequest">
     <wsdl:part name="parameters" element="tns:SetPersonImage" />
   </wsdl:message>
@@ -1401,23 +1108,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:SetPersonImageResponse" />
   </wsdl:message>
   <wsdl:message name="SetPersonImageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SetPersonImageFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SetPersonImageFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1452,23 +1142,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:SaveProjectImageResponse" />
   </wsdl:message>
   <wsdl:message name="SaveProjectImageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveProjectImageFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SaveProjectImageFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SaveProjectImageFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveProjectImageFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SaveProjectImageFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveProjectImageFromStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1576,23 +1249,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="SaveImageStreamFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SaveImageStreamFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SaveImageStreamFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SaveImageStreamFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SaveImageStreamFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SaveImageStreamFromStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetProductImageRequest">
     <wsdl:part name="parameters" element="tns:GetProductImage" />
   </wsdl:message>
@@ -1605,23 +1261,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetProductImageResponse" />
   </wsdl:message>
   <wsdl:message name="GetProductImageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetProductImageAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetProductImageAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetProductImageAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetProductImageAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetProductImageAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetProductImageAsStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1644,23 +1283,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="SetProductImageFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SetProductImageFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SetProductImageFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetProductImageFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SetProductImageFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetProductImageFromStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetProductThumbnailRequest">
     <wsdl:part name="parameters" element="tns:GetProductThumbnail" />
   </wsdl:message>
@@ -1678,23 +1300,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetProductThumbnailAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetProductThumbnailAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetProductThumbnailAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetProductThumbnailAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetProductThumbnailAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetProductThumbnailAsStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="SetProductThumbnailRequest">
     <wsdl:part name="parameters" element="tns:SetProductThumbnail" />
   </wsdl:message>
@@ -1707,23 +1312,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:SetProductThumbnailResponse" />
   </wsdl:message>
   <wsdl:message name="SetProductThumbnailResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetProductThumbnailFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SetProductThumbnailFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SetProductThumbnailFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetProductThumbnailFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SetProductThumbnailFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetProductThumbnailFromStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1763,23 +1351,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetQuoteLineImageAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetQuoteLineImageAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteLineImageAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteLineImageAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetQuoteLineImageAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetQuoteLineImageAsStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetPersonImageWithSizeRequest">
     <wsdl:part name="parameters" element="tns:GetPersonImageWithSize" />
   </wsdl:message>
@@ -1792,23 +1363,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetPersonImageWithSizeResponse" />
   </wsdl:message>
   <wsdl:message name="GetPersonImageWithSizeResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageWithSizeAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetPersonImageWithSizeAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageWithSizeAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageWithSizeAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetPersonImageWithSizeAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageWithSizeAsStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1831,23 +1385,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetProjectImageWithSizeAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetProjectImageWithSizeAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetProjectImageWithSizeAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetProjectImageWithSizeAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetProjectImageWithSizeAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetProjectImageWithSizeAsStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="GetChatImageWithSizeRequest">
     <wsdl:part name="parameters" element="tns:GetChatImageWithSize" />
   </wsdl:message>
@@ -1860,23 +1397,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetChatImageWithSizeResponse" />
   </wsdl:message>
   <wsdl:message name="GetChatImageWithSizeResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetChatImageWithSizeAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetChatImageWithSizeAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetChatImageWithSizeAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetChatImageWithSizeAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetChatImageWithSizeAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetChatImageWithSizeAsStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1899,23 +1419,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetContactImageAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetContactImageAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetContactImageAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageAsStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="SetContactImageRequest">
     <wsdl:part name="parameters" element="tns:SetContactImage" />
   </wsdl:message>
@@ -1928,23 +1431,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:SetContactImageResponse" />
   </wsdl:message>
   <wsdl:message name="SetContactImageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetContactImageFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SetContactImageFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SetContactImageFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetContactImageFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SetContactImageFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetContactImageFromStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1996,23 +1482,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetContactImageWithSizeResponse" />
   </wsdl:message>
   <wsdl:message name="GetContactImageWithSizeResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageWithSizeAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetContactImageWithSizeAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageWithSizeAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageWithSizeAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetContactImageWithSizeAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetContactImageWithSizeAsStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2081,17 +1550,9 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImage" name="GetProjectImageRequest" message="tns:GetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageResponse" name="GetProjectImageResponse" message="tns:GetProjectImageResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetProjectImageAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageAsStream" name="GetProjectImageAsStreamRequest" message="tns:GetProjectImageAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageAsStreamResponse" name="GetProjectImageAsStreamResponse" message="tns:GetProjectImageAsStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetPersonImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImage" name="GetPersonImageRequest" message="tns:GetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageResponse" name="GetPersonImageResponse" message="tns:GetPersonImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetPersonImageAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageAsStream" name="GetPersonImageAsStreamRequest" message="tns:GetPersonImageAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageAsStreamResponse" name="GetPersonImageAsStreamResponse" message="tns:GetPersonImageAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetRawPersonImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetRawPersonImage" name="GetRawPersonImageRequest" message="tns:GetRawPersonImageRequest" />
@@ -2101,17 +1562,9 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImage" name="SetProjectImageRequest" message="tns:SetProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImageResponse" name="SetProjectImageResponse" message="tns:SetProjectImageResponse" />
     </wsdl:operation>
-    <wsdl:operation name="SetProjectImageFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImageFromStream" name="SetProjectImageFromStreamRequest" message="tns:SetProjectImageFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImageFromStreamResponse" name="SetProjectImageFromStreamResponse" message="tns:SetProjectImageFromStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="SetPersonImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetPersonImage" name="SetPersonImageRequest" message="tns:SetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetPersonImageResponse" name="SetPersonImageResponse" message="tns:SetPersonImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetPersonImageFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetPersonImageFromStream" name="SetPersonImageFromStreamRequest" message="tns:SetPersonImageFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetPersonImageFromStreamResponse" name="SetPersonImageFromStreamResponse" message="tns:SetPersonImageFromStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeProjectImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/ChangeProjectImage" name="ChangeProjectImageRequest" message="tns:ChangeProjectImageRequest" />
@@ -2120,10 +1573,6 @@ content_type: reference
     <wsdl:operation name="SaveProjectImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveProjectImage" name="SaveProjectImageRequest" message="tns:SaveProjectImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveProjectImageResponse" name="SaveProjectImageResponse" message="tns:SaveProjectImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SaveProjectImageFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveProjectImageFromStream" name="SaveProjectImageFromStreamRequest" message="tns:SaveProjectImageFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveProjectImageFromStreamResponse" name="SaveProjectImageFromStreamResponse" message="tns:SaveProjectImageFromStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetBlobEntityOnProject">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetBlobEntityOnProject" name="GetBlobEntityOnProjectRequest" message="tns:GetBlobEntityOnProjectRequest" />
@@ -2149,41 +1598,21 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveImageStream" name="SaveImageStreamRequest" message="tns:SaveImageStreamRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveImageStreamResponse" name="SaveImageStreamResponse" message="tns:SaveImageStreamResponse" />
     </wsdl:operation>
-    <wsdl:operation name="SaveImageStreamFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveImageStreamFromStream" name="SaveImageStreamFromStreamRequest" message="tns:SaveImageStreamFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveImageStreamFromStreamResponse" name="SaveImageStreamFromStreamResponse" message="tns:SaveImageStreamFromStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetProductImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductImage" name="GetProductImageRequest" message="tns:GetProductImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductImageResponse" name="GetProductImageResponse" message="tns:GetProductImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetProductImageAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductImageAsStream" name="GetProductImageAsStreamRequest" message="tns:GetProductImageAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductImageAsStreamResponse" name="GetProductImageAsStreamResponse" message="tns:GetProductImageAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="SetProductImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductImage" name="SetProductImageRequest" message="tns:SetProductImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductImageResponse" name="SetProductImageResponse" message="tns:SetProductImageResponse" />
     </wsdl:operation>
-    <wsdl:operation name="SetProductImageFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductImageFromStream" name="SetProductImageFromStreamRequest" message="tns:SetProductImageFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductImageFromStreamResponse" name="SetProductImageFromStreamResponse" message="tns:SetProductImageFromStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetProductThumbnail">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductThumbnail" name="GetProductThumbnailRequest" message="tns:GetProductThumbnailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductThumbnailResponse" name="GetProductThumbnailResponse" message="tns:GetProductThumbnailResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetProductThumbnailAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductThumbnailAsStream" name="GetProductThumbnailAsStreamRequest" message="tns:GetProductThumbnailAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductThumbnailAsStreamResponse" name="GetProductThumbnailAsStreamResponse" message="tns:GetProductThumbnailAsStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="SetProductThumbnail">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductThumbnail" name="SetProductThumbnailRequest" message="tns:SetProductThumbnailRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductThumbnailResponse" name="SetProductThumbnailResponse" message="tns:SetProductThumbnailResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetProductThumbnailFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductThumbnailFromStream" name="SetProductThumbnailFromStreamRequest" message="tns:SetProductThumbnailFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductThumbnailFromStreamResponse" name="SetProductThumbnailFromStreamResponse" message="tns:SetProductThumbnailFromStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeProductImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/ChangeProductImage" name="ChangeProductImageRequest" message="tns:ChangeProductImageRequest" />
@@ -2193,49 +1622,25 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImage" name="GetQuoteLineImageRequest" message="tns:GetQuoteLineImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImageResponse" name="GetQuoteLineImageResponse" message="tns:GetQuoteLineImageResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetQuoteLineImageAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImageAsStream" name="GetQuoteLineImageAsStreamRequest" message="tns:GetQuoteLineImageAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImageAsStreamResponse" name="GetQuoteLineImageAsStreamResponse" message="tns:GetQuoteLineImageAsStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetPersonImageWithSize">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSize" name="GetPersonImageWithSizeRequest" message="tns:GetPersonImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSizeResponse" name="GetPersonImageWithSizeResponse" message="tns:GetPersonImageWithSizeResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetPersonImageWithSizeAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSizeAsStream" name="GetPersonImageWithSizeAsStreamRequest" message="tns:GetPersonImageWithSizeAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSizeAsStreamResponse" name="GetPersonImageWithSizeAsStreamResponse" message="tns:GetPersonImageWithSizeAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectImageWithSize">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageWithSize" name="GetProjectImageWithSizeRequest" message="tns:GetProjectImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageWithSizeResponse" name="GetProjectImageWithSizeResponse" message="tns:GetProjectImageWithSizeResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetProjectImageWithSizeAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageWithSizeAsStream" name="GetProjectImageWithSizeAsStreamRequest" message="tns:GetProjectImageWithSizeAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageWithSizeAsStreamResponse" name="GetProjectImageWithSizeAsStreamResponse" message="tns:GetProjectImageWithSizeAsStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="GetChatImageWithSize">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetChatImageWithSize" name="GetChatImageWithSizeRequest" message="tns:GetChatImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetChatImageWithSizeResponse" name="GetChatImageWithSizeResponse" message="tns:GetChatImageWithSizeResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetChatImageWithSizeAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetChatImageWithSizeAsStream" name="GetChatImageWithSizeAsStreamRequest" message="tns:GetChatImageWithSizeAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetChatImageWithSizeAsStreamResponse" name="GetChatImageWithSizeAsStreamResponse" message="tns:GetChatImageWithSizeAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetContactImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImage" name="GetContactImageRequest" message="tns:GetContactImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageResponse" name="GetContactImageResponse" message="tns:GetContactImageResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetContactImageAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageAsStream" name="GetContactImageAsStreamRequest" message="tns:GetContactImageAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageAsStreamResponse" name="GetContactImageAsStreamResponse" message="tns:GetContactImageAsStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="SetContactImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetContactImage" name="SetContactImageRequest" message="tns:SetContactImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetContactImageResponse" name="SetContactImageResponse" message="tns:SetContactImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetContactImageFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetContactImageFromStream" name="SetContactImageFromStreamRequest" message="tns:SetContactImageFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetContactImageFromStreamResponse" name="SetContactImageFromStreamResponse" message="tns:SetContactImageFromStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="ChangeContactImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/ChangeContactImage" name="ChangeContactImageRequest" message="tns:ChangeContactImageRequest" />
@@ -2248,10 +1653,6 @@ content_type: reference
     <wsdl:operation name="GetContactImageWithSize">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSize" name="GetContactImageWithSizeRequest" message="tns:GetContactImageWithSizeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSizeResponse" name="GetContactImageWithSizeResponse" message="tns:GetContactImageWithSizeResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="GetContactImageWithSizeAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSizeAsStream" name="GetContactImageWithSizeAsStreamRequest" message="tns:GetContactImageWithSizeAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSizeAsStreamResponse" name="GetContactImageWithSizeAsStreamResponse" message="tns:GetContactImageWithSizeAsStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetOutputFromBatch">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetOutputFromBatch" name="GetOutputFromBatchRequest" message="tns:GetOutputFromBatchRequest" />
@@ -2376,22 +1777,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetProjectImageAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageAsStream" style="document" />
-      <wsdl:input name="GetProjectImageAsStreamRequest">
-        <soap:header message="tns:GetProjectImageAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetProjectImageAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetProjectImageAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetProjectImageAsStreamResponse">
-        <soap:header message="tns:GetProjectImageAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetProjectImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetProjectImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetProjectImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetPersonImage">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImage" style="document" />
       <wsdl:input name="GetPersonImageRequest">
@@ -2405,22 +1790,6 @@ content_type: reference
         <soap:header message="tns:GetPersonImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPersonImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPersonImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetPersonImageAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageAsStream" style="document" />
-      <wsdl:input name="GetPersonImageAsStreamRequest">
-        <soap:header message="tns:GetPersonImageAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetPersonImageAsStreamResponse">
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2456,22 +1825,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SetProjectImageFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProjectImageFromStream" style="document" />
-      <wsdl:input name="SetProjectImageFromStreamRequest">
-        <soap:header message="tns:SetProjectImageFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetProjectImageFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetProjectImageFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetProjectImageFromStreamResponse">
-        <soap:header message="tns:SetProjectImageFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetProjectImageFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetProjectImageFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetProjectImageFromStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="SetPersonImage">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetPersonImage" style="document" />
       <wsdl:input name="SetPersonImageRequest">
@@ -2485,22 +1838,6 @@ content_type: reference
         <soap:header message="tns:SetPersonImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetPersonImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetPersonImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetPersonImageFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetPersonImageFromStream" style="document" />
-      <wsdl:input name="SetPersonImageFromStreamRequest">
-        <soap:header message="tns:SetPersonImageFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetPersonImageFromStreamResponse">
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2533,22 +1870,6 @@ content_type: reference
         <soap:header message="tns:SaveProjectImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveProjectImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveProjectImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SaveProjectImageFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveProjectImageFromStream" style="document" />
-      <wsdl:input name="SaveProjectImageFromStreamRequest">
-        <soap:header message="tns:SaveProjectImageFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveProjectImageFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveProjectImageFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveProjectImageFromStreamResponse">
-        <soap:header message="tns:SaveProjectImageFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveProjectImageFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveProjectImageFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveProjectImageFromStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2648,22 +1969,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SaveImageStreamFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SaveImageStreamFromStream" style="document" />
-      <wsdl:input name="SaveImageStreamFromStreamRequest">
-        <soap:header message="tns:SaveImageStreamFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SaveImageStreamFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SaveImageStreamFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SaveImageStreamFromStreamResponse">
-        <soap:header message="tns:SaveImageStreamFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SaveImageStreamFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SaveImageStreamFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SaveImageStreamFromStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetProductImage">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductImage" style="document" />
       <wsdl:input name="GetProductImageRequest">
@@ -2677,22 +1982,6 @@ content_type: reference
         <soap:header message="tns:GetProductImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetProductImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetProductImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetProductImageAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductImageAsStream" style="document" />
-      <wsdl:input name="GetProductImageAsStreamRequest">
-        <soap:header message="tns:GetProductImageAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetProductImageAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetProductImageAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetProductImageAsStreamResponse">
-        <soap:header message="tns:GetProductImageAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetProductImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetProductImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetProductImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2712,22 +2001,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SetProductImageFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductImageFromStream" style="document" />
-      <wsdl:input name="SetProductImageFromStreamRequest">
-        <soap:header message="tns:SetProductImageFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetProductImageFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetProductImageFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetProductImageFromStreamResponse">
-        <soap:header message="tns:SetProductImageFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetProductImageFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetProductImageFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetProductImageFromStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetProductThumbnail">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductThumbnail" style="document" />
       <wsdl:input name="GetProductThumbnailRequest">
@@ -2744,22 +2017,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetProductThumbnailAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProductThumbnailAsStream" style="document" />
-      <wsdl:input name="GetProductThumbnailAsStreamRequest">
-        <soap:header message="tns:GetProductThumbnailAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetProductThumbnailAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetProductThumbnailAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetProductThumbnailAsStreamResponse">
-        <soap:header message="tns:GetProductThumbnailAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetProductThumbnailAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetProductThumbnailAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetProductThumbnailAsStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="SetProductThumbnail">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductThumbnail" style="document" />
       <wsdl:input name="SetProductThumbnailRequest">
@@ -2773,22 +2030,6 @@ content_type: reference
         <soap:header message="tns:SetProductThumbnailResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetProductThumbnailResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetProductThumbnailResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetProductThumbnailFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetProductThumbnailFromStream" style="document" />
-      <wsdl:input name="SetProductThumbnailFromStreamRequest">
-        <soap:header message="tns:SetProductThumbnailFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetProductThumbnailFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetProductThumbnailFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetProductThumbnailFromStreamResponse">
-        <soap:header message="tns:SetProductThumbnailFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetProductThumbnailFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetProductThumbnailFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetProductThumbnailFromStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2824,22 +2065,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetQuoteLineImageAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetQuoteLineImageAsStream" style="document" />
-      <wsdl:input name="GetQuoteLineImageAsStreamRequest">
-        <soap:header message="tns:GetQuoteLineImageAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetQuoteLineImageAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetQuoteLineImageAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetQuoteLineImageAsStreamResponse">
-        <soap:header message="tns:GetQuoteLineImageAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetQuoteLineImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetQuoteLineImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetQuoteLineImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetPersonImageWithSize">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSize" style="document" />
       <wsdl:input name="GetPersonImageWithSizeRequest">
@@ -2853,22 +2078,6 @@ content_type: reference
         <soap:header message="tns:GetPersonImageWithSizeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPersonImageWithSizeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPersonImageWithSizeResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetPersonImageWithSizeAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetPersonImageWithSizeAsStream" style="document" />
-      <wsdl:input name="GetPersonImageWithSizeAsStreamRequest">
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetPersonImageWithSizeAsStreamResponse">
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetPersonImageWithSizeAsStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2888,22 +2097,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetProjectImageWithSizeAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetProjectImageWithSizeAsStream" style="document" />
-      <wsdl:input name="GetProjectImageWithSizeAsStreamRequest">
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetProjectImageWithSizeAsStreamResponse">
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetProjectImageWithSizeAsStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="GetChatImageWithSize">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetChatImageWithSize" style="document" />
       <wsdl:input name="GetChatImageWithSizeRequest">
@@ -2917,22 +2110,6 @@ content_type: reference
         <soap:header message="tns:GetChatImageWithSizeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetChatImageWithSizeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetChatImageWithSizeResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetChatImageWithSizeAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetChatImageWithSizeAsStream" style="document" />
-      <wsdl:input name="GetChatImageWithSizeAsStreamRequest">
-        <soap:header message="tns:GetChatImageWithSizeAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetChatImageWithSizeAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetChatImageWithSizeAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetChatImageWithSizeAsStreamResponse">
-        <soap:header message="tns:GetChatImageWithSizeAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetChatImageWithSizeAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetChatImageWithSizeAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetChatImageWithSizeAsStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -2952,22 +2129,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetContactImageAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageAsStream" style="document" />
-      <wsdl:input name="GetContactImageAsStreamRequest">
-        <soap:header message="tns:GetContactImageAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetContactImageAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetContactImageAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetContactImageAsStreamResponse">
-        <soap:header message="tns:GetContactImageAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetContactImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetContactImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetContactImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="SetContactImage">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetContactImage" style="document" />
       <wsdl:input name="SetContactImageRequest">
@@ -2981,22 +2142,6 @@ content_type: reference
         <soap:header message="tns:SetContactImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetContactImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetContactImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetContactImageFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/SetContactImageFromStream" style="document" />
-      <wsdl:input name="SetContactImageFromStreamRequest">
-        <soap:header message="tns:SetContactImageFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetContactImageFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetContactImageFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetContactImageFromStreamResponse">
-        <soap:header message="tns:SetContactImageFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetContactImageFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetContactImageFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetContactImageFromStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -3045,22 +2190,6 @@ content_type: reference
         <soap:header message="tns:GetContactImageWithSizeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetContactImageWithSizeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetContactImageWithSizeResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetContactImageWithSizeAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/BLOB/GetContactImageWithSizeAsStream" style="document" />
-      <wsdl:input name="GetContactImageWithSizeAsStreamRequest">
-        <soap:header message="tns:GetContactImageWithSizeAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetContactImageWithSizeAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetContactImageWithSizeAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetContactImageWithSizeAsStreamResponse">
-        <soap:header message="tns:GetContactImageWithSizeAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetContactImageWithSizeAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetContactImageWithSizeAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetContactImageWithSizeAsStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

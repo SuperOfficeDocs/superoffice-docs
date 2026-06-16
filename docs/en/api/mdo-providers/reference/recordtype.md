@@ -43,20 +43,20 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Unknown|||
-|1|Appointment|||
-|2|Document|||
-|3|E-mail|||
-|4|Fax|||
-|5|Phone call|||
-|6|Task|||
-|7|Mail merge|||
-|8|Mail merge|||
-|9|Report|||
-|10|Sales Intelligence (SAINT)|||
-|100|Mailing|||
-|200|Chat session|||
-|300|Form submission|||
+|0|[SR_DASHBOARD_UNKNOWN]|||
+|1|[SR_COMMON_APPOINTMENT]|||
+|2|[SR_SINGULAR_DOCUMENT]|||
+|3|[SR_SINGULAR_MAIL]|||
+|4|[SR_ACTIVITY_FAX]|||
+|5|[SR_ACTIVITY_PHONE]|||
+|6|[SR_ACTIVITY_TODO]|||
+|7|[SR_ACTIVITY_MAILMERGE]|||
+|8|[SR_ACTIVITY_MAILMERGE]|||
+|9|[SR_SINGLE_REPORT]|||
+|10|[SR_ADMIN_SAINT]|||
+|100|[SR_SINGULAR_MAILING]|||
+|200|[SR_SINGULAR_CHATSESSION]|||
+|300|[SR_SINGULAR_FORMSUBMISSION]|||
 
 
 ## Related MDO Lists

@@ -42,27 +42,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|520|Company: companyshorttext||[SR_UDEF_TEXT_SHORT]|
-|521|Company: companylongtext||[SR_UDEF_TEXT_LONG]|
-|522|Company: companynumber||[SR_UDEF_NUMBER]|
-|523|Company: companydate||[SR_UDEF_DATE]|
-|524|Company: companyunlimiteddate||[SR_UDEF_UNLIMITEDDATE]|
-|525|Company: companycheckbox||[SR_UDEF_CHECKBOX]|
-|526|Company: companydropdownlistbox||[SR_UDEF_LIST]|
-|527|Company: companydecimal||[SR_UDEF_FLOAT]|
-|528|Company: page1saleonly||[SR_UDEF_TEXT_SHORT]|
-|529|Company: page1marketingonly||[SR_UDEF_TEXT_SHORT]|
-|530|Company: page1adminonly||[SR_UDEF_TEXT_SHORT]|
-|531|Company: Udlist one||[SR_UDEF_LIST]|
-|532|Company: Udlist two||[SR_UDEF_LIST]|
-|0|Company: Business|||
-|1|Company: Category|||
-|2|Company: Country|||
-|3|Company: Department|||
-|4|Company: Info|||
-|5|Company: Name|||
-|6|Company: E-mail||multiple|
-|7|Company: Telephone||multiple|
+|520|[SR_SINGULAR_COMPANY]: companyshorttext||[SR_UDEF_TEXT_SHORT]|
+|521|[SR_SINGULAR_COMPANY]: companylongtext||[SR_UDEF_TEXT_LONG]|
+|522|[SR_SINGULAR_COMPANY]: companynumber||[SR_UDEF_NUMBER]|
+|523|[SR_SINGULAR_COMPANY]: companydate||[SR_UDEF_DATE]|
+|524|[SR_SINGULAR_COMPANY]: companyunlimiteddate||[SR_UDEF_UNLIMITEDDATE]|
+|525|[SR_SINGULAR_COMPANY]: companycheckbox||[SR_UDEF_CHECKBOX]|
+|526|[SR_SINGULAR_COMPANY]: companydropdownlistbox||[SR_UDEF_LIST]|
+|527|[SR_SINGULAR_COMPANY]: companydecimal||[SR_UDEF_FLOAT]|
+|528|[SR_SINGULAR_COMPANY]: page1saleonly||[SR_UDEF_TEXT_SHORT]|
+|529|[SR_SINGULAR_COMPANY]: page1marketingonly||[SR_UDEF_TEXT_SHORT]|
+|530|[SR_SINGULAR_COMPANY]: page1adminonly||[SR_UDEF_TEXT_SHORT]|
+|531|[SR_SINGULAR_COMPANY]: Udlist one||[SR_UDEF_LIST]|
+|532|[SR_SINGULAR_COMPANY]: Udlist two||[SR_UDEF_LIST]|
+|0|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_BUSINESS]|||
+|1|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_CATEGORY]|||
+|2|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_COUNTRY]|||
+|3|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_DEPARTEMENT]|||
+|4|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_INFO]|||
+|5|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_CONTACT_NAME]|||
+|6|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_EMAIL]||multiple|
+|7|[SR_SINGULAR_COMPANY]: [SR_ADMIN_IMPORT_COLUMN_TELEPHONE]||multiple|
 
 
 ## Related MDO Lists

@@ -25,30 +25,30 @@ Lists all CRM Scripts in the ejScript table.
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|name|string|Name: Name of script. Can be used in file name.| x |
-|description|string|Description: Description of script| x |
-|uniqueIdentifier|string|UniqueIdentifier: An identifier that is globally unique, across all scripts and customers| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|path|string|Path: Full path that identifies the type of script| x |
-|type|int|Type: The type/language of this script| x |
-|ejscriptId|int|CRMScript ID: Primary key from the CRMScript table| x |
-|includeId|string|IncludeID: Name to be used when including this script in another script| x |
-|accessKey|string|Access key: Key to be used when calling this script externally| x |
-|htmlOutput|bool|HTML: Read the script output as HTML| x |
-|extraMenuId|int|ExtraMenuId: Foreign key to the extra\_menu table| x |
-|hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
+|name|string|SR\_SCRIPT\_NAME: SR\_SCRIPT\_NAME\_TOOLTIP| x |
+|description|string|SR\_SCRIPT\_DESCRIPTION: SR\_SCRIPT\_DESCRIPTION\_TOOLTIP| x |
+|uniqueIdentifier|string|SR\_SCRIPT\_UU: SR\_SCRIPT\_UU\_TOOLTIP| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|path|string|SR\_SCRIPT\_PATH: SR\_SCRIPT\_PATH\_TOOLTIP| x |
+|type|int|SR\_SCRIPT\_TYPE: SR\_SCRIPT\_TYPE\_TOOLTIP| x |
+|ejscriptId|int|SR\_EJSCRIPT\_ID: SR\_EJSCRIPT\_ID\_TOOLTIP| x |
+|includeId|string|SR\_EJSCRIPT\_INCLUDEID: SR\_EJSCRIPT\_INCLUDEID\_TOOLTIP| x |
+|accessKey|string|SR\_EJSCRIPT\_ACCESSKEY: SR\_EJSCRIPT\_ACCESSKEY\_TOOLTIP| x |
+|htmlOutput|bool|SR\_EJSCRIPT\_HTMLOUTPUT: SR\_EJSCRIPT\_HTMLOUTPUT\_TOOLTIP| x |
+|extraMenuId|int|SR\_EJSCRIPT\_EXTRAMENUID: SR\_EJSCRIPT\_EXTRAMENUID\_TOOLTIP| x |
+|hierarchyId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullname|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyName|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyParentId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullpathIds| *None* |SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS: SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS\_TOOLTIP|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ejscripts?$select=name,registeredBy,type
+GET /api/v1/archive/Ejscripts?$select=includeId,registeredBy,type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

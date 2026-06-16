@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Number of days/hours after previous step|||
-|2|Until specific date/time|||
+|1|[SR_WORKFLOWSTEP_WAIT_LISTITEM_NUMINTERVALS]|||
+|2|[SR_WORKFLOWSTEP_WAIT_LISTITEM_DATETIME]|||
 
 
 ## Related MDO Lists

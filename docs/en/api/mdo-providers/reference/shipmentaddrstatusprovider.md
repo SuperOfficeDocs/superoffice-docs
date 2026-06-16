@@ -42,18 +42,18 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Undefined|||
-|1|Ready to send|||
-|2|Duplicate|||
-|3|No consent|||
-|4|Sent|||
-|5|Bounced|||
-|6|Read by recipient|||
-|7|Test mailing|||
-|8|Soft bounced|||
-|9|No subscription|||
-|10|Recipient complained|||
-|11|Too many bounces|||
+|0|[SR_SHIPMENT_ADDR_STATUS_UNKNOWN]|||
+|1|[SR_SHIPMENT_ADDR_STATUS_READY]|||
+|2|[SR_SHIPMENT_ADDR_STATUS_DUPLICATE]|||
+|3|[SR_SHIPMENT_ADDR_STATUS_BLOCKED]|||
+|4|[SR_SHIPMENT_ADDR_STATUS_SENT]|||
+|5|[SR_SHIPMENT_ADDR_STATUS_BOUNCED]|||
+|6|[SR_SHIPMENT_ADDR_STATUS_OPENED]|||
+|7|[SR_SHIPMENT_ADDR_STATUS_CLICKED]|||
+|8|[SR_SHIPMENT_ADDR_STATUS_SOFTBOUNCED]|||
+|9|[SR_SHIPMENT_ADDR_STATUS_NOSUBSCRIPTION]|||
+|10|[SR_SHIPMENT_ADDR_STATUS_COMPLAINED]|||
+|11|[SR_SHIPMENT_ADDR_STATUS_TOOMANYBOUNCES]|||
 
 
 ## Related MDO Lists

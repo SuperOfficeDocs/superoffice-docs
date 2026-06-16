@@ -42,27 +42,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Day %d|replacekey=%d|1|
-|2|Day %d|replacekey=%d|2|
-|3|Day %d|replacekey=%d|3|
-|4|Day %d|replacekey=%d|4|
-|5|Day %d|replacekey=%d|5|
-|6|Day %d|replacekey=%d|6|
-|7|Day %d|replacekey=%d|7|
-|8|Day %d|replacekey=%d|8|
-|9|Day %d|replacekey=%d|9|
-|10|Day %d|replacekey=%d|10|
-|11|Day %d|replacekey=%d|11|
-|12|Day %d|replacekey=%d|12|
-|13|Day %d|replacekey=%d|13|
-|14|Day %d|replacekey=%d|14|
-|15|Day %d|replacekey=%d|15|
-|16|Day %d|replacekey=%d|16|
-|17|Day %d|replacekey=%d|17|
-|18|Day %d|replacekey=%d|18|
-|19|Day %d|replacekey=%d|19|
-|20|Day %d|replacekey=%d|20|
-|21|Day %d|replacekey=%d|21|
+|1|[SR_RECDLG_DAY_NR]|replacekey=%d|1|
+|2|[SR_RECDLG_DAY_NR]|replacekey=%d|2|
+|3|[SR_RECDLG_DAY_NR]|replacekey=%d|3|
+|4|[SR_RECDLG_DAY_NR]|replacekey=%d|4|
+|5|[SR_RECDLG_DAY_NR]|replacekey=%d|5|
+|6|[SR_RECDLG_DAY_NR]|replacekey=%d|6|
+|7|[SR_RECDLG_DAY_NR]|replacekey=%d|7|
+|8|[SR_RECDLG_DAY_NR]|replacekey=%d|8|
+|9|[SR_RECDLG_DAY_NR]|replacekey=%d|9|
+|10|[SR_RECDLG_DAY_NR]|replacekey=%d|10|
+|11|[SR_RECDLG_DAY_NR]|replacekey=%d|11|
+|12|[SR_RECDLG_DAY_NR]|replacekey=%d|12|
+|13|[SR_RECDLG_DAY_NR]|replacekey=%d|13|
+|14|[SR_RECDLG_DAY_NR]|replacekey=%d|14|
+|15|[SR_RECDLG_DAY_NR]|replacekey=%d|15|
+|16|[SR_RECDLG_DAY_NR]|replacekey=%d|16|
+|17|[SR_RECDLG_DAY_NR]|replacekey=%d|17|
+|18|[SR_RECDLG_DAY_NR]|replacekey=%d|18|
+|19|[SR_RECDLG_DAY_NR]|replacekey=%d|19|
+|20|[SR_RECDLG_DAY_NR]|replacekey=%d|20|
+|21|[SR_RECDLG_DAY_NR]|replacekey=%d|21|
 
 
 ## Related MDO Lists

@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Company|||
-|2|Project|||
-|3|Sale|||
-|4|Product|||
-|5|Activity|||
-|7|Web panel|||
+|1|[SR_CONTACT]|||
+|2|[SR_PROJECT]|||
+|3|[SR_COMMON_SALE]|||
+|4|[SR_SINGULAR_PRODUCT]|||
+|5|[SR_ACTIVITY]|||
+|7|[SR_COMMON_WEB_PANEL]|||
 
 
 ## Related MDO Lists

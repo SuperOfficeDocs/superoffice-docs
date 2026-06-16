@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# cust\_config Table (480)
+# cust\_config Table (479)
 
 This table contains JSON structures used for customizing the customer center
 

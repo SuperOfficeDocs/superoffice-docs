@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# SaintConfiguration Table (458)
+# SaintConfiguration Table (457)
 
 Configuration information for the Saint system
 

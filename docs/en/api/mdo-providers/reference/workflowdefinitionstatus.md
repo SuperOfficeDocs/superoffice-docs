@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Not running|||
-|2|Paused|||
-|3|Running|||
+|1|[SR_WORKFLOWDEFINITION_STATUS_STOPPED]|||
+|2|[SR_WORKFLOWDEFINITION_STATUS_PAUSED]|||
+|3|[SR_WORKFLOWDEFINITION_STATUS_RUNNING]|||
 
 
 ## Related MDO Lists

@@ -17,67 +17,67 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"productInAssortment"|Products|
+|"productInAssortment"|[[SR_PRODUCT_PLURAL_PRODUCTS]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|inAssortment|bool|In assortment : Is the product in the currently available assortment?| x |
-|productId|int|Database ID: A unique ID of the product| x |
-|priceListId|int|Price list ID : The database ID of the price list that the product is a part of.| x |
-|erpProductKey|string|ERP product key: The product key identifying the product in the ERP system| x |
-|name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
-|description|string|Description: Description of the product that is offered| x |
-|code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
-|quantityUnit| *None* |Unit: The unit of the product that is offered.| x |
-|priceUnit| *None* |Price unit: What is the price unit defined in| x |
-|subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
-|defaultSubscriptionQuantity|decimal|Subscription Quantity: Default number of subscription units to be used when adding this product to a quote| x |
-|isSubscription|bool|Subscription: Is this a subscription product? If yes, then the subscription unit and amount fields will be shown| x |
-|itemNumber|string|Item number: The item number in a hierarchy.| x |
-|url|string|Web address: The web address of the product info.| x |
-|productCategoryKey|listAny|Product category: The category the product is defined in| x |
-|productFamilyKey|listAny|Product family: The family the product is defined in| x |
-|productTypeKey|listAny|Product type: The type of product| x |
-|vatInfo|string|VAT info: | x |
-|vat|decimal|VAT: May be filled out by the ERP system| x |
-|cost|decimal|Cost: Cost per item.| x |
-|minimumPrice|decimal|Unit minimum price: Minimum price per item. Users are not allowed to send quotes with prices lower than the minimum price.| x |
-|listPrice|decimal|List price: List price of a unit| x |
-|thumbnail| *None* |Thumbnail: A miniature version of the product picture|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|extraField1|string|Extra field 1: Extra field 1 used by ERP system| x |
-|extraField2|string|Extra field 2: Extra field 2 used by ERP system| x |
-|extraField3|string|Extra field 3: Extra field 3 used by ERP system| x |
-|extraField4|string|Extra field 4: Extra field 4 used by ERP system| x |
-|extraField5|string|Extra field 5: Extra field 5 used by ERP system| x |
-|extraInfo|string|Extra info: Extra info| x |
-|supplier|string|Supplier: Supplier company| x |
-|supplierCode|string|Supplier's code: Supplier's code for the product.| x |
-|priceList/priceListId|int|Price list - Price list ID: The database ID of the price list that the product is a part of.| x |
-|priceList/erpPriceListKey|string|Price list - ERP product key: The product key identifying the product in the ERP system| x |
-|priceList/name|string|Price list - Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
-|priceList/description|string|Price list - Description: Description of the product that is offered| x |
-|priceList/quoteConnection|listAny|Price list - ERP connection| x |
-|priceList/currency|listAny|Price list - Currency: The currency of the sale| x |
-|priceList/validFrom|date|Price list - Valid from: Price list is valid from this date| x |
-|priceList/validTo|date|Price list - Valid to: Price list is valid until this date| x |
-|priceList/isERPCopy|bool|Price list - Is ERP copy?: Is the price list copied from ERP?| x |
-|priceList/isActive|bool|Price list - Active?: Is the price list active?| x |
-|priceList/updatedBy|associate|Price list - Updated by: The user who last updated the data| x |
-|priceList/updatedDate|date|Price list - Updated: The date/time the data was last updated in UTC.| x |
-|priceList/registeredBy|associate|Price list - Registered by: The user who registered the data| x |
-|priceList/registeredDate|date|Price list - Registered date: The date/time the data was registered in UTC.| x |
+|inAssortment|bool|SR\_QUOTE\_QUOTELINE\_INASSORTMENT: SR\_QUOTE\_QUOTELINE\_INASSORTMENT\_TOOLTIP| x |
+|productId|int|SR\_PRODUCT\_PRODUCTID: SR\_PRODUCT\_PRODUCTID\_TOOLTIP| x |
+|priceListId|int|SR\_QUOTE\_QUOTELINE\_PRICELISTID: SR\_QUOTE\_QUOTELINE\_PRICELISTID\_TOOLTIP| x |
+|erpProductKey|string|SR\_QUOTE\_QUOTELINE\_ERPPRODUCTKEY: SR\_QUOTE\_QUOTELINE\_ERPPRODUCTKEY\_TOOLTIP| x |
+|name|string|SR\_QUOTE\_QUOTELINE\_NAME: SR\_QUOTE\_QUOTELINE\_NAME\_TOOLTIP| x |
+|description|string|SR\_QUOTE\_QUOTELINE\_DESCRIPTION: SR\_QUOTE\_QUOTELINE\_DESCRIPTION\_TOOLTIP| x |
+|code|string|SR\_QUOTE\_QUOTELINE\_CODE: SR\_QUOTE\_QUOTELINE\_CODE\_TOOLTIP| x |
+|quantityUnit| *None* |SR\_QUOTE\_QUOTELINE\_UNIT: SR\_QUOTE\_QUOTELINE\_UNIT\_TOOLTIP| x |
+|priceUnit| *None* |SR\_QUOTE\_QUOTELINE\_PRICEUNIT: SR\_QUOTE\_QUOTELINE\_PRICEUNIT\_TOOLTIP| x |
+|subscriptionUnit|string|SR\_QUOTE\_QUOTELINE\_SUBSCRIPTIONUNIT: SR\_QUOTE\_QUOTELINE\_SUBSCRIPTIONUNIT\_TOOLTIP| x |
+|defaultSubscriptionQuantity|decimal|SR\_QUOTE\_PRODUCT\_DEFAULTSUBSCRIPTIONQUANTITY: SR\_QUOTE\_PRODUCT\_DEFAULTSUBSCRIPTIONQUANTITY\_TOOLTIP| x |
+|isSubscription|bool|SR\_QUOTE\_QUOTELINE\_ISSUBSCRIPTION: SR\_QUOTE\_QUOTELINE\_ISSUBSCRIPTION\_TOOLTIP| x |
+|itemNumber|string|SR\_QUOTE\_QUOTELINE\_ITEMNUMBER: SR\_QUOTE\_QUOTELINE\_ITEMNUMBER\_TOOLTIP| x |
+|url|string|SR\_QUOTE\_QUOTELINE\_URL: SR\_QUOTE\_QUOTELINE\_URL\_TOOLTIP| x |
+|productCategoryKey|listAny|SR\_QUOTE\_QUOTELINE\_PRODUCTCATEGORYKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTCATEGORYKEY\_TOOLTIP| x |
+|productFamilyKey|listAny|SR\_QUOTE\_QUOTELINE\_PRODUCTFAMILYKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTFAMILYKEY\_TOOLTIP| x |
+|productTypeKey|listAny|SR\_QUOTE\_QUOTELINE\_PRODUCTTYPEKEY: SR\_QUOTE\_QUOTELINE\_PRODUCTTYPEKEY\_TOOLTIP| x |
+|vatInfo|string|SR\_QUOTE\_QUOTELINE\_VATINFO: SR\_QUOTE\_QUOTELINE\_VATINFO\_TOOLTIP| x |
+|vat|decimal|SR\_QUOTE\_QUOTELINE\_VAT: SR\_QUOTE\_QUOTELINE\_VAT\_TOOLTIP| x |
+|cost|decimal|SR\_QUOTE\_QUOTELINE\_UNITCOST: SR\_QUOTE\_QUOTELINE\_UNITCOST\_TOOLTIP| x |
+|minimumPrice|decimal|SR\_QUOTE\_QUOTELINE\_UNITMINIMUMPRICE: SR\_QUOTE\_QUOTELINE\_UNITMINIMUMPRICE\_TOOLTIP| x |
+|listPrice|decimal|SR\_QUOTE\_QUOTELINE\_UNITLISTPRICE: SR\_QUOTE\_QUOTELINE\_UNITLISTPRICE\_TOOLTIP| x |
+|thumbnail| *None* |SR\_QUOTE\_QUOTELINE\_THUMBNAIL: SR\_QUOTE\_QUOTELINE\_THUMBNAIL\_TOOLTIP|  |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|extraField1|string|SR\_QUOTE\_QUOTELINE\_EXTRAFIELD1: SR\_QUOTE\_QUOTELINE\_EXTRAFIELD1\_TOOLTIP| x |
+|extraField2|string|SR\_QUOTE\_QUOTELINE\_EXTRAFIELD2: SR\_QUOTE\_QUOTELINE\_EXTRAFIELD2\_TOOLTIP| x |
+|extraField3|string|SR\_QUOTE\_QUOTELINE\_EXTRAFIELD3: SR\_QUOTE\_QUOTELINE\_EXTRAFIELD3\_TOOLTIP| x |
+|extraField4|string|SR\_QUOTE\_QUOTELINE\_EXTRAFIELD4: SR\_QUOTE\_QUOTELINE\_EXTRAFIELD4\_TOOLTIP| x |
+|extraField5|string|SR\_QUOTE\_QUOTELINE\_EXTRAFIELD5: SR\_QUOTE\_QUOTELINE\_EXTRAFIELD5\_TOOLTIP| x |
+|extraInfo|string|SR\_QUOTE\_QUOTELINE\_EXTRAINFO: SR\_QUOTE\_QUOTELINE\_EXTRAINFO\_TOOLTIP| x |
+|supplier|string|SR\_QUOTE\_QUOTELINE\_SUPPLIER: SR\_QUOTE\_QUOTELINE\_SUPPLIER\_TOOLTIP| x |
+|supplierCode|string|SR\_QUOTE\_QUOTELINE\_SUPPLIERCODE: SR\_QUOTE\_QUOTELINE\_SUPPLIERCODE\_TOOLTIP| x |
+|priceList/priceListId|int|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_QUOTE\_QUOTELINE\_PRICELISTID: SR\_QUOTE\_QUOTELINE\_PRICELISTID\_TOOLTIP| x |
+|priceList/erpPriceListKey|string|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_QUOTE\_QUOTELINE\_ERPPRODUCTKEY: SR\_QUOTE\_QUOTELINE\_ERPPRODUCTKEY\_TOOLTIP| x |
+|priceList/name|string|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_QUOTE\_QUOTELINE\_NAME: SR\_QUOTE\_QUOTELINE\_NAME\_TOOLTIP| x |
+|priceList/description|string|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_QUOTE\_QUOTELINE\_DESCRIPTION: SR\_QUOTE\_QUOTELINE\_DESCRIPTION\_TOOLTIP| x |
+|priceList/quoteConnection|listAny|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_QUOTE\_ERP\_CONNECTION| x |
+|priceList/currency|listAny|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_ARCHIVE\_SALE\_CURRENCY: SR\_SALE\_CURRENCY\_TOOLTIP| x |
+|priceList/validFrom|date|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_PRICELIST\_VALIDFROM: SR\_PRICELIST\_VALIDFROM\_TOOLTIP| x |
+|priceList/validTo|date|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_PRICELIST\_VALIDTO: SR\_PRICELIST\_VALIDTO\_TOOLTIP| x |
+|priceList/isERPCopy|bool|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_PRICELIST\_ISERPCOPY: SR\_PRICELIST\_ISERPCOPY\_TOOLTIP| x |
+|priceList/isActive|bool|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_PRICELIST\_ISACTIVE: SR\_PRICELIST\_ISACTIVE\_TOOLTIP| x |
+|priceList/updatedBy|associate|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|priceList/updatedDate|date|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|priceList/registeredBy|associate|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|priceList/registeredDate|date|SR\_PRODUCT\_LABEL\_PRICELIST - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Product?$select=extraField5,productFamilyKey,updatedBy
+GET /api/v1/archive/Product?$select=productFamilyKey,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

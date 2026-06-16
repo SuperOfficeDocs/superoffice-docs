@@ -49,12 +49,13 @@ POST /api/v1/Agents/CustomerService/CreateTicketFromMailData?$select=name,depart
 
 ## Request Body: request 
 
-MailboxId, Data 
+MailboxId, Data, PersonId 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | MailboxId | Integer |  |
 | Data | String |  |
+| PersonId | Integer |  |
 
 ## Response:
 

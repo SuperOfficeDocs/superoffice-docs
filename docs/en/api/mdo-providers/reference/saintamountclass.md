@@ -43,7 +43,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|All|||
+|-1|[SR_VFC_ALL]|||
 |4|Extra large|||
 |3|Large|||
 |2|Medium|||

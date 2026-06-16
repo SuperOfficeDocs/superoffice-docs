@@ -61,14 +61,14 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Number|||
-|2|Short text|||
-|3|Long text|||
-|4|Date|||
-|5|Unlimited date|||
-|6|Checkbox|||
-|7|List|||
-|8|Decimal|||
+|1|[SR_UDEF_NUMBER]|||
+|2|[SR_UDEF_TEXT_SHORT]|||
+|3|[SR_UDEF_TEXT_LONG]|||
+|4|[SR_UDEF_DATE]|||
+|5|[SR_UDEF_UNLIMITEDDATE]|||
+|6|[SR_UDEF_CHECKBOX]|||
+|7|[SR_UDEF_LIST]|||
+|8|[SR_UDEF_FLOAT]|||
 
 
 ## Related MDO Lists

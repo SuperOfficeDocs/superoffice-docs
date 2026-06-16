@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# Tags Table (459)
+# Tags Table (458)
 
 Tags MDO list item table.
 MDO List of tags for Service entities

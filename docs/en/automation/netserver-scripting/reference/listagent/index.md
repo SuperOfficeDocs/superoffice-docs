@@ -81,6 +81,7 @@ Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can tri
 * [GetAllSelectionCategoryAsync](getallselectioncategoryasync.md)
 * [GetAllTasksAsync](getalltasksasync.md)
 * [GetAllTicketPrioritiesAsync](getallticketprioritiesasync.md)
+* [GetAllTicketRelationDefinitionEntitiesAsync](getallticketrelationdefinitionentitiesasync.md)
 * [GetAmountClassEntityAsync](getamountclassentityasync.md)
 * [GetAppTaskMenusAsync](getapptaskmenusasync.md)
 * [GetAppWebPanelsAsync](getappwebpanelsasync.md)

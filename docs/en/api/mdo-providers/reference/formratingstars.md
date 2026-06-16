@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|1 Star|||
-|1|2 Star|||
-|2|3 Star|||
-|3|4 Star|||
-|4|5 Star|||
+|0|[SR_FORMS_RATING_1_STARS]|||
+|1|[SR_FORMS_RATING_2_STARS]|||
+|2|[SR_FORMS_RATING_3_STARS]|||
+|3|[SR_FORMS_RATING_4_STARS]|||
+|4|[SR_FORMS_RATING_5_STARS]|||
 
 
 ## Related MDO Lists

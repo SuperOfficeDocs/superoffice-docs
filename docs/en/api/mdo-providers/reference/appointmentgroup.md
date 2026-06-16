@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Appointment|||
-|5|Phone|||
-|6|Task|||
+|1|[SR_COMMON_APPOINTMENT]|||
+|5|[SR_PHONE]|||
+|6|[SR_SINGULAR_SELECTION_TASK]|||
 
 
 ## Related MDO Lists

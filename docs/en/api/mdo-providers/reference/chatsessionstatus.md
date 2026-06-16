@@ -42,18 +42,18 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Invalid||Invalid|
-|1|Pre-chat form||PreChatForm|
-|2|FAQ link||Faq|
-|3|Offline form||OfflineForm|
-|4|Waiting||InQueue|
-|5|Waiting for agent||CustomerLast|
-|6|Waiting for customer||UserLast|
-|7|Finished||Finished|
-|8|Deleted||Deleted|
-|9|Closed||Closed|
-|10|Request posted||RequestPosted|
-|11|Closed in queue||ClosedFromQueue|
+|0|[SR_CHAT_STATUSVAL_0]||Invalid|
+|1|[SR_CHAT_STATUSVAL_1]||PreChatForm|
+|2|[SR_CHAT_STATUSVAL_2]||Faq|
+|3|[SR_CHAT_STATUSVAL_3]||OfflineForm|
+|4|[SR_CHAT_STATUSVAL_4]||InQueue|
+|5|[SR_CHAT_STATUSVAL_5]||CustomerLast|
+|6|[SR_CHAT_STATUSVAL_6]||UserLast|
+|7|[SR_CHAT_STATUSVAL_7]||Finished|
+|8|[SR_CHAT_STATUSVAL_8]||Deleted|
+|9|[SR_CHAT_STATUSVAL_9]||Closed|
+|10|[SR_CHAT_STATUSVAL_10]||RequestPosted|
+|11|[SR_CHAT_STATUSVAL_11]||ClosedFromQueue|
 
 
 ## Related MDO Lists

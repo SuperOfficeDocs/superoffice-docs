@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Toolbox menu|||
-|3|View menu|||
+|1|[SR_ADMIN_LIST_SHOW_TOOLBOX]|||
+|3|[SR_ADMIN_LIST_SHOW_MENU]|||
 
 
 ## Related MDO Lists

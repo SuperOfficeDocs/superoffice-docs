@@ -19,201 +19,201 @@ This provider is a trivial aggregation of the Appointment and Document providers
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"suggestedAppointment"|Follow-ups|
-|"appointment"|Follow-ups|
-|"suggestedDocument"|Documents|
-|"document"|Documents|
+|"suggestedAppointment"|[[SR_ARCHIVE_SALEGUIDEAPPNT_DESC]]|
+|"appointment"|[[SR_AA_FOLLOWUPS]]|
+|"suggestedDocument"|[[SR_ARCHIVE_SALEGUIDEDOC_DESC]]|
+|"document"|[[SR_AA_DOCUMENTS]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|saleId|int|Sale ID: The database ID of the sale record| x |
-|completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|text|string|Text: Displays a descriptive text for the item| x |
-|stageName|string|Stage: Name of sale stages| x |
-|stageId|int|Stage ID: Database ID of a sale stage.| x |
-|stageOrderBy|int|Sort order for stages: Sort algorithm for sales stages| x |
-|suggestedItemId|int|Database ID (suggestion: The database ID of an entity (follow-up or document) that originates in a suggestion| x |
-|suggestedItemText|string|Name of entity (suggestion: The name of an entity (follow-up or document) that originates in a suggestion| x |
-|suggestedItemOrderBy|int|Sort order for suggestions: Sort algorithm for suggestions| x |
-|suggestedItemTooltip|string|Description: Description of a suggested item| x |
-|instanceItemId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion|  |
-|instanceItemText| *None* |Instance name (suggestion: Description of a follow-up or heading in a document that originates in a suggestion|  |
-|hasInstance| *None* |Has instance: Does this suggested item have an instance?|  |
-|deleted|bool|Deleted: Has this suggestion been deleted by the administrator?| x |
-|isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones|  |
-|appointmentInstance/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
-|appointmentInstance/icon| *None* |Category: Displays the icon for an activity type|  |
-|appointmentInstance/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
-|appointmentInstance/time| *None* |Time: Time|  |
-|appointmentInstance/type| *None* |Type: Displays the type of an activity|  |
-|appointmentInstance/recordType| *None* |Record type : Shows the record type|  |
-|appointmentInstance/text| *None* |Text: Displays a descriptive text for the item|  |
-|appointmentInstance/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
-|appointmentInstance/contactId| *None* |Company ID: Database ID of company|  |
-|appointmentInstance/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/projectId| *None* |Project ID: Database ID of project record|  |
-|appointmentInstance/saleId| *None* |Sale ID: The database ID of the sale record|  |
-|appointmentInstance/userGroup| *None* |User group : The user group that owns the record|  |
-|appointmentInstance/who| *None* |Who: Contact and/or company|  |
-|appointmentInstance/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|appointmentInstance/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|appointmentInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|appointmentInstance/registeredBy| *None* |Registered by: The user who registered the data|  |
-|appointmentInstance/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|appointmentInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|appointmentInstance/appointmentId| *None* |DB ID: Displays the database ID of a row|  |
-|appointmentInstance/endDate| *None* |End date: Displays the deadline for a follow-up/sale|  |
-|appointmentInstance/priority| *None* |Priority: Displays the priority of the activity|  |
-|appointmentInstance/alarm| *None* |Has alarm: Displays the alarm state of a follow-up|  |
-|appointmentInstance/isFree| *None* |Is free: Displays whether the appointment should be considered free or busy|  |
-|appointmentInstance/recurring| *None* |Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up|  |
-|appointmentInstance/booking| *None* |Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.|  |
-|appointmentInstance/intention| *None* |Intention: Displays the intention of the follow-up type|  |
-|appointmentInstance/location| *None* |Location: Display the location where the follow-up will take place.|  |
-|appointmentInstance/recurrenceRuleId| *None* |RR-ID: Repetition rule ID of follow-up|  |
-|appointmentInstance/rawType| *None* |Type: Type field for appointment, not decoded or formatted|  |
-|appointmentInstance/rawStatus| *None* |Status: Status field for the follow-up, not decoded or formatted|  |
-|appointmentInstance/cautionWarning| *None* |Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.|  |
-|appointmentInstance/visibleInDiary| *None* |ExcludeBook: Is the activity visible in the diary?|  |
-|appointmentInstance/endTime| *None* |End time: End time of an activity|  |
-|appointmentInstance/suggestedAppointmentId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion|  |
-|appointmentInstance/completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed|  |
-|appointmentInstance/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones|  |
-|appointmentInstance/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
-|appointmentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
-|appointmentInstance/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
-|appointmentInstance/duration| *None* |Duration: The duration of the chat session|  |
-|appointmentInstance/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|appointmentInstance/visibleFor| *None* |Visible for|  |
-|appointmentInstance/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|appointmentInstance/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|appointmentInstance/appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|appointmentInstance/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
-|appointmentInstance/contact/contactId| *None* |Company ID: Database ID of company|  |
-|appointmentInstance/contact/name| *None* |Company name|  |
-|appointmentInstance/contact/department| *None* |Department|  |
-|appointmentInstance/contact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
-|appointmentInstance/contact/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
-|appointmentInstance/contact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
-|appointmentInstance/contact/associateId| *None* |Our contact: Displays our contact|  |
-|appointmentInstance/contact/category| *None* |Category|  |
-|appointmentInstance/contact/categoryGroup| *None* |Category group|  |
+|saleId|int|SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP| x |
+|completed|bool|SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP| x |
+|date|date|SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP| x |
+|text|string|SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|stageName|string|SR\_ARCHIVE\_STAGENAME: SR\_ARCHIVE\_STAGENAME\_TOOLTIP| x |
+|stageId|int|SR\_ARCHIVE\_STAGEID: SR\_ARCHIVE\_STAGEID\_TOOLTIP| x |
+|stageOrderBy|int|SR\_ARCHIVE\_STAGEORDERBY: SR\_ARCHIVE\_STAGEORDERBY\_TOOLTIP| x |
+|suggestedItemId|int|SR\_ARCHIVE\_SUGGESTEDITEMID: SR\_ARCHIVE\_SUGGESTEDITEMID\_TOOLTIP| x |
+|suggestedItemText|string|SR\_ARCHIVE\_SUGGESTEDITEMTEXT: SR\_ARCHIVE\_SUGGESTEDITEMTEXT\_TOOLTIP| x |
+|suggestedItemOrderBy|int|SR\_ARCHIVE\_SUGGESTEDITEMORDERBY: SR\_ARCHIVE\_SUGGESTEDITEMORDERBY\_TOOLTIP| x |
+|suggestedItemTooltip|string|SR\_ARCHIVE\_SUGGESTEDITEM\_TOOLTIP: SR\_ARCHIVE\_SUGGESTEDITEM\_TOOLTIP\_TOOLTIP| x |
+|instanceItemId| *None* |SR\_ARCHIVE\_INSTANCEITEMID: SR\_ARCHIVE\_INSTANCEITEMID\_TOOLTIP|  |
+|instanceItemText| *None* |SR\_ARCHIVE\_INSTANCEITEMTEXT: SR\_ARCHIVE\_INSTANCEITEMTEXT\_TOOLTIP|  |
+|hasInstance| *None* |SR\_ARCHIVE\_HASINSTANCE: SR\_ARCHIVE\_HASINSTANCE\_TOOLTIP|  |
+|deleted|bool|SR\_ARCHIVE\_DELETED: SR\_ARCHIVE\_DELETED\_TOOLTIP| x |
+|isMilestone| *None* |SR\_ARCHIVE\_MILESTONE: SR\_ARCHIVE\_MILESTONE\_TOOLTIP|  |
+|appointmentInstance/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP|  |
+|appointmentInstance/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|appointmentInstance/date| *None* |SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP|  |
+|appointmentInstance/time| *None* |SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
+|appointmentInstance/type| *None* |SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP|  |
+|appointmentInstance/recordType| *None* |SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP|  |
+|appointmentInstance/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/associateId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|appointmentInstance/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/projectId| *None* |SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP|  |
+|appointmentInstance/saleId| *None* |SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP|  |
+|appointmentInstance/userGroup| *None* |SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP|  |
+|appointmentInstance/who| *None* |SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|appointmentInstance/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|appointmentInstance/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|appointmentInstance/appointmentId| *None* |SR\_ACTIVITYARCHIVE\_RECORDID: SR\_ACTIVITYARCHIVE\_RECORDID\_TOOLTIP|  |
+|appointmentInstance/endDate| *None* |SR\_ACTIVITYARCHIVE\_ENDDATE: SR\_ACTIVITYARCHIVE\_ENDDATE\_TOOLTIP|  |
+|appointmentInstance/priority| *None* |SR\_DIARYARCHIVE\_PRIORITY: SR\_DIARYARCHIVE\_PRIORITY\_TOOLTIP|  |
+|appointmentInstance/alarm| *None* |SR\_DIARYARCHIVE\_ALARM: SR\_DIARYARCHIVE\_ALARM\_TOOLTIP|  |
+|appointmentInstance/isFree| *None* |SR\_DIARYARCHIVE\_ISFREE: SR\_DIARYARCHIVE\_ISFREE\_TOOLTIP|  |
+|appointmentInstance/recurring| *None* |SR\_DIARYARCHIVE\_RECURRING: SR\_DIARYARCHIVE\_RECURRING\_TOOLTIP|  |
+|appointmentInstance/booking| *None* |SR\_DIARYARCHIVE\_BOOKING: SR\_DIARYARCHIVE\_BOOKING\_TOOLTIP|  |
+|appointmentInstance/intention| *None* |SR\_DIARYARCHIVE\_INTENTION: SR\_DIARYARCHIVE\_INTENTION\_TOOLTIP|  |
+|appointmentInstance/location| *None* |SR\_ACTIVITYARCHIVE\_LOCATION: SR\_ACTIVITYARCHIVE\_LOCATION\_TOOLTIP|  |
+|appointmentInstance/recurrenceRuleId| *None* |SR\_DIARYARCHIVE\_RRID: SR\_DIARYARCHIVE\_RRID\_TOOLTIP|  |
+|appointmentInstance/rawType| *None* |SR\_DIARYARCHIVE\_RAWTYPE: SR\_DIARYARCHIVE\_RAWTYPE\_TOOLTIP|  |
+|appointmentInstance/rawStatus| *None* |SR\_DIARYARCHIVE\_RAWSTATUS: SR\_DIARYARCHIVE\_RAWSTATUS\_TOOLTIP|  |
+|appointmentInstance/cautionWarning| *None* |SR\_ACTIVITYARCHIVE\_CAUTIONWARNING: SR\_ACTIVITYARCHIVE\_CAUTIONWARNING\_TOOLTIP|  |
+|appointmentInstance/visibleInDiary| *None* |SR\_FINDACTIVITY\_SKIPTENT: SR\_FINDACTIVITY\_SKIPTENT\_TOOLTIP|  |
+|appointmentInstance/endTime| *None* |SR\_ACTIVITYARCHIVE\_ENDTIME: SR\_ACTIVITYARCHIVE\_ENDTIME\_TOOLTIP|  |
+|appointmentInstance/suggestedAppointmentId| *None* |SR\_ARCHIVE\_SUGGESTEDAPPNTID: SR\_ARCHIVE\_SUGGESTEDAPPNTID\_TOOLTIP|  |
+|appointmentInstance/completedDate| *None* |SR\_ACTIVITYARCHIVE\_COMPLETEDDATE: SR\_ACTIVITYARCHIVE\_COMPLETEDDATE\_TOOLTIP|  |
+|appointmentInstance/isMilestone| *None* |SR\_ARCHIVE\_MILESTONE: SR\_ARCHIVE\_MILESTONE\_TOOLTIP|  |
+|appointmentInstance/invitedPersonId| *None* |SR\_ACTIVITYARCHIVE\_INVITEDPERSONID: SR\_ACTIVITYARCHIVE\_INVITEDPERSONID\_TOOLTIP|  |
+|appointmentInstance/recordTypeText| *None* |SR\_ARCHIVE\_RECORDTYPETEXT: SR\_ARCHIVE\_RECORDTYPETEXT\_TOOLTIP|  |
+|appointmentInstance/joinVideomeetUrl| *None* |SR\_ACTIVITYARCHIVE\_VIDEOMEETURL: SR\_ACTIVITYARCHIVE\_VIDEOMEETURL\_TOOLTIP|  |
+|appointmentInstance/duration| *None* |SR\_CHATARCHIVE\_DURATION: SR\_CHATARCHIVE\_DURATION\_TOOLTIP|  |
+|appointmentInstance/createdByWorkflow| *None* |SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP|  |
+|appointmentInstance/visibleFor| *None* |SR\_ARCHIVE\_VISIBLE\_FOR|  |
+|appointmentInstance/appointmentPublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|appointmentInstance/appointmentPublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|appointmentInstance/appointmentPublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|appointmentInstance/appointmentPublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|appointmentInstance/contact/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/contact/name| *None* |SR\_COMPANY\_NAME|  |
+|appointmentInstance/contact/department| *None* |SR\_ARCHIVE\_DEPARTEMENT|  |
+|appointmentInstance/contact/nameDepartment| *None* |SR\_ACTIVITYARCHIVE\_CONTACT: SR\_ACTIVITYARCHIVE\_CONTACT\_TOOLTIP|  |
+|appointmentInstance/contact/hasInfoText| *None* |SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP|  |
+|appointmentInstance/contact/hasInterests| *None* |SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP|  |
+|appointmentInstance/contact/associateId| *None* |SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP|  |
+|appointmentInstance/contact/category| *None* |SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/contact/categoryGroup| *None* |SR\_ADMIN\_LISTS\_CATEGORYGROUP|  |
 |appointmentInstance/contact/companyCategoryRank| *None* |Category rank|  |
-|appointmentInstance/contact/business| *None* |Business|  |
-|appointmentInstance/contact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
-|appointmentInstance/contact/countryId| *None* |Country ID: Country ID|  |
-|appointmentInstance/contact/number| *None* |Number|  |
-|appointmentInstance/contact/code| *None* |Code|  |
+|appointmentInstance/contact/business| *None* |SR\_ARCHIVE\_BUSINESS|  |
+|appointmentInstance/contact/country| *None* |SR\_SEARCH\_COUNTRY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTRY\_TOOLTIP|  |
+|appointmentInstance/contact/countryId| *None* |SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP|  |
+|appointmentInstance/contact/number| *None* |SR\_ARCHIVE\_NUMBER|  |
+|appointmentInstance/contact/code| *None* |SR\_ARCHIVE\_CODE|  |
 |appointmentInstance/contact/orgnr| *None* |VAT No.|  |
-|appointmentInstance/contact/stop| *None* |Stop|  |
-|appointmentInstance/contact/contactNoMail| *None* |No mailings (company|  |
-|appointmentInstance/contact/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|appointmentInstance/contact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|appointmentInstance/contact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|appointmentInstance/contact/registeredBy| *None* |Registered by: The user who registered the data|  |
-|appointmentInstance/contact/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|appointmentInstance/contact/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|appointmentInstance/contact/contactSource| *None* |Source: Source (Company)|  |
-|appointmentInstance/contact/contactDeleted| *None* |Deleted: Deleted|  |
-|appointmentInstance/contact/phone/formattedNumber| *None* |Phone : Displays phone number|  |
-|appointmentInstance/contact/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/contact/deletedDate| *None* |Deleted date: Deleted date|  |
-|appointmentInstance/contact/mainContact| *None* |Main contact: Main contact for this company|  |
+|appointmentInstance/contact/stop| *None* |SR\_CC\_STOPX|  |
+|appointmentInstance/contact/contactNoMail| *None* |SR\_NO\_MAIL\_COMPANY|  |
+|appointmentInstance/contact/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/contact/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/contact/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|appointmentInstance/contact/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/contact/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/contact/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|appointmentInstance/contact/contactSource| *None* |SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_COMPANY)|  |
+|appointmentInstance/contact/contactDeleted| *None* |SR\_ARCHIVE\_DELETED: SR\_ARCHIVE\_DELETED|  |
+|appointmentInstance/contact/phone/formattedNumber| *None* |SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/contact/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|appointmentInstance/contact/deletedDate| *None* |SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|appointmentInstance/contact/mainContact| *None* |SR\_COMPANY\_MAIN\_CONTACT: SR\_COMPANY\_MAIN\_CONTACT\_TOOLTIP|  |
 |appointmentInstance/contact/forceCompany| *None* |Dummy: Dummy|  |
-|appointmentInstance/contact/contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
-|appointmentInstance/contact/contactPhone/description| *None* |Telephone - Description: Phone number description|  |
+|appointmentInstance/contact/contactPhone/formattedNumber| *None* |SR\_CONTACTARCHIVE\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/contact/contactPhone/description| *None* |SR\_CONTACTARCHIVE\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentInstance/contact/contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
-|appointmentInstance/contact/contactFax/description| *None* |Fax - Description: Phone number description|  |
-|appointmentInstance/contact/searchPhone/formattedNumber| *None* |Searchphone - Phone: Displays phone number|  |
-|appointmentInstance/contact/searchPhone/description| *None* |Searchphone - Description: Phone number description|  |
-|appointmentInstance/contact/email/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
-|appointmentInstance/contact/email/emailAddress| *None* |E-mail|  |
-|appointmentInstance/contact/email/emailDescription| *None* |Description|  |
+|appointmentInstance/contact/contactFax/formattedNumber| *None* |SR\_CONTACTARCHIVE\_FAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/contact/contactFax/description| *None* |SR\_CONTACTARCHIVE\_FAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/contact/searchPhone/formattedNumber| *None* |SR\_RESTRICTION\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/contact/searchPhone/description| *None* |SR\_RESTRICTION\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/contact/email/emailProtocol| *None* |SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP|  |
+|appointmentInstance/contact/email/emailAddress| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/contact/email/emailDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
 |appointmentInstance/contact/email/emailId| *None* |ID|  |
-|appointmentInstance/contact/email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
-|appointmentInstance/contact/email/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
-|appointmentInstance/contact/email/emailLastBounce| *None* |Last bounce: Date and time for last bounce to this e-mail address|  |
-|appointmentInstance/contact/email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
-|appointmentInstance/contact/postAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
-|appointmentInstance/contact/postAddress/line1| *None* |Postal address - Address 1: First line of the address|  |
-|appointmentInstance/contact/postAddress/line2| *None* |Postal address - Address 2: Second line of the address|  |
-|appointmentInstance/contact/postAddress/line3| *None* |Postal address - Address 3: Third line of the address|  |
-|appointmentInstance/contact/postAddress/county| *None* |Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|appointmentInstance/contact/postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
-|appointmentInstance/contact/postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|appointmentInstance/contact/postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|appointmentInstance/contact/postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
-|appointmentInstance/contact/postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
-|appointmentInstance/contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/contact/streetAddress/addressId| *None* |Street address - Address ID: Database ID for the address record|  |
-|appointmentInstance/contact/streetAddress/line1| *None* |Street address - Address 1: First line of the address|  |
-|appointmentInstance/contact/streetAddress/line2| *None* |Street address - Address 2: Second line of the address|  |
-|appointmentInstance/contact/streetAddress/line3| *None* |Street address - Address 3: Third line of the address|  |
-|appointmentInstance/contact/streetAddress/county| *None* |Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|appointmentInstance/contact/streetAddress/city| *None* |Street address - City: This criterion corresponds to the City field on the Company card.|  |
-|appointmentInstance/contact/streetAddress/zip| *None* |Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|appointmentInstance/contact/streetAddress/state| *None* |Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|appointmentInstance/contact/streetAddress/wgs84latitude| *None* |Street address - Latitude: Latitude|  |
-|appointmentInstance/contact/streetAddress/wgs84longitude| *None* |Street address - Longitude: Longitude|  |
-|appointmentInstance/contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/contact/restrictionAddress/addressId| *None* |Search address - Address ID: Database ID for the address record|  |
-|appointmentInstance/contact/restrictionAddress/line1| *None* |Search address - Address 1: First line of the address|  |
-|appointmentInstance/contact/restrictionAddress/line2| *None* |Search address - Address 2: Second line of the address|  |
-|appointmentInstance/contact/restrictionAddress/line3| *None* |Search address - Address 3: Third line of the address|  |
-|appointmentInstance/contact/restrictionAddress/county| *None* |Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|appointmentInstance/contact/restrictionAddress/city| *None* |Search address - City: This criterion corresponds to the City field on the Company card.|  |
-|appointmentInstance/contact/restrictionAddress/zip| *None* |Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|appointmentInstance/contact/restrictionAddress/state| *None* |Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|appointmentInstance/contact/restrictionAddress/wgs84latitude| *None* |Search address - Latitude: Latitude|  |
-|appointmentInstance/contact/restrictionAddress/wgs84longitude| *None* |Search address - Longitude: Longitude|  |
-|appointmentInstance/contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/contact/url/URLAddress| *None* |URL|  |
-|appointmentInstance/contact/url/URLDescription| *None* |Description|  |
-|appointmentInstance/contact/contactAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/contact/contactAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/contact/contactAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|appointmentInstance/contact/contactAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|appointmentInstance/contact/contactAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|appointmentInstance/contact/contactAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/contact/contactAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/contact/contactAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/contact/contactAssociate/associateDbId| *None* |ID|  |
-|appointmentInstance/contact/contactAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|appointmentInstance/contact/contactAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|appointmentInstance/contact/contactAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|appointmentInstance/contact/contactAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|appointmentInstance/contact/contactAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|appointmentInstance/contact/contactAssociate/contactCategory| *None* |Category: Category|  |
-|appointmentInstance/contact/contactAssociate/role| *None* |Role : Role|  |
-|appointmentInstance/contact/contactAssociate/assocName| *None* |User ID : User ID|  |
-|appointmentInstance/contact/contactAssociate/assocTooltip| *None* |Description : Description|  |
-|appointmentInstance/contact/contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|appointmentInstance/contact/contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|appointmentInstance/contact/contactAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/contact/contactAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|appointmentInstance/contact/contactAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|appointmentInstance/contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|appointmentInstance/contact/contactAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|appointmentInstance/contact/contactAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|appointmentInstance/contact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/contact/contactAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|appointmentInstance/contact/contactAssociate/userName| *None* |User name: User name|  |
-|appointmentInstance/contact/contactAssociate/personEmail| *None* |E-mail|  |
-|appointmentInstance/contact/contactAssociate/locationAddress| *None* |Location: Location|  |
-|appointmentInstance/contact/contactAssociate/isLocation| *None* |Is a location: Is a location|  |
-|appointmentInstance/contact/contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|appointmentInstance/contact/email/emailLastSent| *None* |SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP|  |
+|appointmentInstance/contact/email/emailBounceCount| *None* |SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP|  |
+|appointmentInstance/contact/email/emailLastBounce| *None* |SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP|  |
+|appointmentInstance/contact/email/emailHasBounced| *None* |SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/addressId| *None* |SR\_AL\_POSTAL - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/line1| *None* |SR\_AL\_POSTAL - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/line2| *None* |SR\_AL\_POSTAL - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/line3| *None* |SR\_AL\_POSTAL - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/county| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/city| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/zip| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/state| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|appointmentInstance/contact/postAddress/wgs84latitude| *None* |SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|appointmentInstance/contact/postAddress/wgs84longitude| *None* |SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|appointmentInstance/contact/postAddress/formattedAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/contact/postAddress/formattedMultiLineAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/contact/streetAddress/addressId| *None* |SR\_AL\_STREET - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/line1| *None* |SR\_AL\_STREET - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/line2| *None* |SR\_AL\_STREET - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/line3| *None* |SR\_AL\_STREET - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/county| *None* |SR\_AL\_STREET - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/city| *None* |SR\_AL\_STREET - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/zip| *None* |SR\_AL\_STREET - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/state| *None* |SR\_AL\_STREET - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|appointmentInstance/contact/streetAddress/wgs84latitude| *None* |SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|appointmentInstance/contact/streetAddress/wgs84longitude| *None* |SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|appointmentInstance/contact/streetAddress/formattedAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/contact/streetAddress/formattedMultiLineAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/contact/restrictionAddress/addressId| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/line1| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/line2| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/line3| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/county| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/city| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/zip| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/state| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|appointmentInstance/contact/restrictionAddress/wgs84latitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|appointmentInstance/contact/restrictionAddress/wgs84longitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|appointmentInstance/contact/restrictionAddress/formattedAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/contact/restrictionAddress/formattedMultiLineAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/contact/url/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|appointmentInstance/contact/url/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|appointmentInstance/contact/contactAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|appointmentInstance/contact/contactAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/contact/contactAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|appointmentInstance/contact/contactAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|appointmentInstance/contact/contactAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|appointmentInstance/contact/contactAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|appointmentInstance/contact/contactAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|appointmentInstance/contact/contactAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|appointmentInstance/contact/contactAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/contact/contactAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|appointmentInstance/contact/contactAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|appointmentInstance/contact/contactAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/contact/contactAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|appointmentInstance/contact/contactAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|appointmentInstance/contact/contactInterestIds| *None* |SR\_SEARCH\_CONTACT\_INTEREST: SR\_SEARCH\_CRITERION\_CONTACT\_INTEREST\_TOOLTIP|  |
 |appointmentInstance/contact/contactUdef/SuperOffice:1| *None* |companyshorttext: tooltipshorttext|  |
 |appointmentInstance/contact/contactUdef/SuperOffice:2| *None* |companylongtext: tooltiplongtext|  |
 |appointmentInstance/contact/contactUdef/SuperOffice:3| *None* |companynumber|  |
@@ -248,144 +248,144 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/contact/contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
 |appointmentInstance/contact/contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
 |appointmentInstance/contact/contactExtra/y\_organization/x\_name| *None* |Organization - Name: Name|  |
-|appointmentInstance/contact/NumberOfActivities| *None* |Number of activities|  |
-|appointmentInstance/contact/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
-|appointmentInstance/contact/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
-|appointmentInstance/contact/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-|appointmentInstance/contact/LastActivity| *None* |Date of last activity|  |
-|appointmentInstance/contact/LastCompletedActivity| *None* |Date of last completed activity|  |
-|appointmentInstance/contact/LastDoByActivity| *None* |Date of last non-completed activity|  |
-|appointmentInstance/contact/NumberOfSales| *None* |Number of sales|  |
-|appointmentInstance/contact/NumberOfSalesInPeriod| *None* |Number of sales in last 90 days|  |
-|appointmentInstance/contact/NumberOfNotCompletedSales| *None* |Number of non-completed sales|  |
-|appointmentInstance/contact/NumberOfNotCompletedSalesInPeriod| *None* |Number of non-completed sales in last 90 days|  |
-|appointmentInstance/contact/LastSale| *None* |Date of last sale|  |
-|appointmentInstance/contact/LastCompletedSale| *None* |Date of last completed sale|  |
-|appointmentInstance/contact/LastDoBySale| *None* |Date of last non-completed sale|  |
-|appointmentInstance/contact/NumberOfTickets| *None* |Number of requests|  |
-|appointmentInstance/contact/NumberOfTicketsInPeriod| *None* |Number of requests in last 90 days|  |
-|appointmentInstance/contact/NumberOfNotCompletedTickets| *None* |Number of non-completed requests|  |
-|appointmentInstance/contact/NumberOfNotCompletedTicketsInPeriod| *None* |Number of non-completed requests in last 90 days|  |
-|appointmentInstance/contact/LastTicket| *None* |Date of last request|  |
-|appointmentInstance/contact/LastCompletedTicket| *None* |Date of last completed request|  |
-|appointmentInstance/contact/LastDoByTicket| *None* |Date of last non-completed request|  |
+|appointmentInstance/contact/NumberOfActivities| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|appointmentInstance/contact/NumberOfActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/contact/NumberOfNotCompletedActivities| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|appointmentInstance/contact/NumberOfNotCompletedActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/contact/LastActivity| *None* |SR\_ROU\_LAST\_ACTIVITY|  |
+|appointmentInstance/contact/LastCompletedActivity| *None* |SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|appointmentInstance/contact/LastDoByActivity| *None* |SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|appointmentInstance/contact/NumberOfSales| *None* |SR\_ROU\_NUMBER\_OF\_SALES|  |
+|appointmentInstance/contact/NumberOfSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/contact/NumberOfNotCompletedSales| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|appointmentInstance/contact/NumberOfNotCompletedSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/contact/LastSale| *None* |SR\_ROU\_LAST\_SALE|  |
+|appointmentInstance/contact/LastCompletedSale| *None* |SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|appointmentInstance/contact/LastDoBySale| *None* |SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
+|appointmentInstance/contact/NumberOfTickets| *None* |SR\_ROU\_NUMBER\_OF\_TICKETS|  |
+|appointmentInstance/contact/NumberOfTicketsInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/contact/NumberOfNotCompletedTickets| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS|  |
+|appointmentInstance/contact/NumberOfNotCompletedTicketsInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/contact/LastTicket| *None* |SR\_ROU\_LAST\_TICKET|  |
+|appointmentInstance/contact/LastCompletedTicket| *None* |SR\_ROU\_LAST\_COMPLETED\_TICKET|  |
+|appointmentInstance/contact/LastDoByTicket| *None* |SR\_ROU\_LAST\_INCOMPLETE\_TICKET|  |
 |appointmentInstance/contact/SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |appointmentInstance/contact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
-|appointmentInstance/contact/saintSaleStatus| *None* |With status|  |
-|appointmentInstance/contact/saintAmountClass| *None* |Amount class|  |
-|appointmentInstance/contact/saintActivityType| *None* |SAINT type|  |
-|appointmentInstance/contact/saintDirection| *None* |Direction|  |
-|appointmentInstance/contact/saintIntention| *None* |Intention|  |
-|appointmentInstance/contact/saintTicketStatus| *None* |Status|  |
-|appointmentInstance/contact/saintTicketCategory| *None* |Category|  |
-|appointmentInstance/person/personId| *None* |DB ID: Displays the database ID of a contact|  |
-|appointmentInstance/person/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/person/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/person/middleName| *None* |Middle name: Displays the contact's middle name.|  |
-|appointmentInstance/person/fullName| *None* |Contact: Displays the contact to which an item is linked|  |
-|appointmentInstance/person/contactId| *None* |Company ID: Database ID of company|  |
-|appointmentInstance/person/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
-|appointmentInstance/person/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
-|appointmentInstance/person/personHasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
-|appointmentInstance/person/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/person/position| *None* |Position|  |
-|appointmentInstance/person/personNumber| *None* |Number: Displays the contact's number|  |
-|appointmentInstance/person/title| *None* |Title: Displays the contact's job title|  |
-|appointmentInstance/person/personCountry| *None* |Country: Country|  |
-|appointmentInstance/person/personCountryId| *None* |Country ID: Country ID|  |
-|appointmentInstance/person/personNoMail| *None* |No Mailings: Displays the contact's No Mailings checkbox|  |
-|appointmentInstance/person/rank| *None* |Rank: Displays a contact's current rank|  |
-|appointmentInstance/person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
-|appointmentInstance/person/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|appointmentInstance/person/useAsMailingAddress| *None* |Use as postal address: Use as postal address|  |
-|appointmentInstance/person/personSource| *None* |Source: Source (Contact)|  |
-|appointmentInstance/person/retired| *None* |Former employee: Indicates whether the contact has retired/left the company|  |
-|appointmentInstance/person/birthYear| *None* |Birth year: Displays contact's birth year|  |
-|appointmentInstance/person/birthMonth| *None* |Birth month: Displays contact's birth month|  |
-|appointmentInstance/person/birthDay| *None* |Birth day: Displays contact's birth day (day of month)|  |
-|appointmentInstance/person/kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
-|appointmentInstance/person/kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
-|appointmentInstance/person/personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
-|appointmentInstance/person/personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|appointmentInstance/person/personUpdatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|appointmentInstance/person/personRegisteredBy| *None* |Registered by: The user who registered the data|  |
-|appointmentInstance/person/personRegisteredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|appointmentInstance/person/personRegisteredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|appointmentInstance/person/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/person/personActiveErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/person/ticketPriority| *None* |Service priority: Default service priority for this contact|  |
-|appointmentInstance/person/supportLanguage| *None* |Preferred language: Preferred language used for reply templates and more|  |
-|appointmentInstance/person/supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
-|appointmentInstance/person/supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
-|appointmentInstance/person/personAssociateId| *None* |Our contact: Displays our contact|  |
-|appointmentInstance/person/personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
-|appointmentInstance/person/personCategory| *None* |Category|  |
-|appointmentInstance/person/personCategoryGroup| *None* |Category group|  |
+|appointmentInstance/contact/saintSaleStatus| *None* |SR\_WITH\_STATUS|  |
+|appointmentInstance/contact/saintAmountClass| *None* |SR\_AMOUNT\_CLASS|  |
+|appointmentInstance/contact/saintActivityType| *None* |SR\_ARCHIVE\_SAINT\_TYPE|  |
+|appointmentInstance/contact/saintDirection| *None* |SR\_ARCHIVE\_DIRECTION|  |
+|appointmentInstance/contact/saintIntention| *None* |SR\_ACTIVITY\_INTENTION|  |
+|appointmentInstance/contact/saintTicketStatus| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|appointmentInstance/contact/saintTicketCategory| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
+|appointmentInstance/person/personId| *None* |SR\_PERSONARCHIVE\_RECORDID: SR\_PERSONARCHIVE\_RECORDID\_TOOLTIP|  |
+|appointmentInstance/person/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/person/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/person/middleName| *None* |SR\_PERSONARCHIVE\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/person/fullName| *None* |SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP|  |
+|appointmentInstance/person/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/person/hasInfoText| *None* |SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP|  |
+|appointmentInstance/person/hasInterests| *None* |SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP|  |
+|appointmentInstance/person/personHasInterests| *None* |SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP|  |
+|appointmentInstance/person/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/person/position| *None* |SR\_ARCHIVE\_POSITION|  |
+|appointmentInstance/person/personNumber| *None* |SR\_PERSONARCHIVE\_NUMBER: SR\_PERSONARCHIVE\_NUMBER\_TOOLTIP|  |
+|appointmentInstance/person/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_JOBTITLE\_TOOLTIP|  |
+|appointmentInstance/person/personCountry| *None* |SR\_SEARCH\_COUNTRY: SR\_SEARCH\_COUNTRY\_TOOLTIP|  |
+|appointmentInstance/person/personCountryId| *None* |SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP|  |
+|appointmentInstance/person/personNoMail| *None* |SR\_PERSONARCHIVE\_NOMAILINGS: SR\_PERSONARCHIVE\_NOMAILINGS\_TOOLTIP|  |
+|appointmentInstance/person/rank| *None* |SR\_PERSONARCHIVE\_RANK: SR\_PERSONARCHIVE\_RANK\_TOOLTIP|  |
+|appointmentInstance/person/birthdate| *None* |SR\_PERSONARCHIVE\_BIRTHDATE: SR\_PERSONARCHIVE\_BIRTHDATE\_TOOLTIP|  |
+|appointmentInstance/person/associateType| *None* |SR\_PERSONARCHIVE\_ASSOCIATETYPE: SR\_PERSONARCHIVE\_ASSOCIATETYPE\_TOOLTIP|  |
+|appointmentInstance/person/useAsMailingAddress| *None* |SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS: SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS\_TOOLTIP|  |
+|appointmentInstance/person/personSource| *None* |SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_CONTACT)|  |
+|appointmentInstance/person/retired| *None* |SR\_PDLG\_RETIRED: SR\_RETIRED\_TOOLTIP|  |
+|appointmentInstance/person/birthYear| *None* |SR\_ARCHIVE\_BIRTHYEAR: SR\_ARCHIVE\_BIRTHYEAR\_TOOLTIP|  |
+|appointmentInstance/person/birthMonth| *None* |SR\_ARCHIVE\_BIRTHMONTH: SR\_ARCHIVE\_BIRTHMONTH\_TOOLTIP|  |
+|appointmentInstance/person/birthDay| *None* |SR\_ARCHIVE\_BIRTHDAY: SR\_ARCHIVE\_BIRTHDAY\_TOOLTIP|  |
+|appointmentInstance/person/kanaFirstName| *None* |SR\_ARCHIVE\_KANAFIRST: SR\_ARCHIVE\_KANAFIRST\_TOOLTIP|  |
+|appointmentInstance/person/kanaLastName| *None* |SR\_ARCHIVE\_KANALAST: SR\_ARCHIVE\_KANALAST\_TOOLTIP|  |
+|appointmentInstance/person/personUpdatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/person/personUpdatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/person/personUpdatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|appointmentInstance/person/personRegisteredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/person/personRegisteredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/person/personRegisteredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|appointmentInstance/person/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/person/personActiveErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|appointmentInstance/person/ticketPriority| *None* |SR\_ARCHIVE\_TICKET\_PRIORITY: SR\_ARCHIVE\_TICKET\_PRIORITY\_TOOLTIP|  |
+|appointmentInstance/person/supportLanguage| *None* |SR\_FIELD\_PERSON\_SUPPORT\_LANGUAGE\_ID\_NAME: SR\_ARCHIVE\_SUPPORT\_LANGUAGE\_TOOLTIP|  |
+|appointmentInstance/person/supportAssociate| *None* |SR\_ARCHIVE\_SUPPORT\_ASSOCIATE: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP|  |
+|appointmentInstance/person/supportAssociateFullName| *None* |SR\_ARCHIVE\_SUPPORT\_ASSOCIATE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP|  |
+|appointmentInstance/person/personAssociateId| *None* |SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP|  |
+|appointmentInstance/person/personAssociateFullName| *None* |SR\_ARCHIVE\_OUR\_CONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP|  |
+|appointmentInstance/person/personCategory| *None* |SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/person/personCategoryGroup| *None* |SR\_ADMIN\_LISTS\_CATEGORYGROUP|  |
 |appointmentInstance/person/personCategoryRank| *None* |!!Category rank|  |
-|appointmentInstance/person/personBusiness| *None* |Business|  |
-|appointmentInstance/person/leadStatus| *None* |Lead status|  |
+|appointmentInstance/person/personBusiness| *None* |SR\_ARCHIVE\_BUSINESS|  |
+|appointmentInstance/person/leadStatus| *None* |SR\_LABEL\_LEADSTATUS|  |
 |appointmentInstance/person/leadstatusRank| *None* |!!Lead status RANK|  |
-|appointmentInstance/person/personDeletedDate| *None* |Deleted date: Deleted date|  |
-|appointmentInstance/person/hasCompany| *None* |Has company: The contact is associated with a company|  |
-|appointmentInstance/person/isProjectMember| *None* |Is project member: This person is a project member|  |
-|appointmentInstance/person/isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
-|appointmentInstance/person/updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|appointmentInstance/person/whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
-|appointmentInstance/person/createdByForm| *None* |Created by form: Created by form|  |
-|appointmentInstance/person/phone/formattedNumber| *None* |Phone : Displays phone number|  |
-|appointmentInstance/person/personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
+|appointmentInstance/person/personDeletedDate| *None* |SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|appointmentInstance/person/hasCompany| *None* |SR\_HAS\_COMPANY: SR\_HAS\_COMPANY\_TOOLTIP|  |
+|appointmentInstance/person/isProjectMember| *None* |SR\_IS\_PROJECT\_MEMBER: SR\_IS\_PROJECT\_MEMBER\_TOOLTIP|  |
+|appointmentInstance/person/isStakeholder| *None* |SR\_IS\_STAKEHOLDER: SR\_IS\_STAKEHOLDER\_TOOLTIP|  |
+|appointmentInstance/person/updatedByWorkflow| *None* |SR\_ARCHIVE\_UPDATED\_BY\_FLOW: SR\_ARCHIVE\_UPDATED\_BY\_FLOW|  |
+|appointmentInstance/person/whenUpdatedByWorkflow| *None* |SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN: SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN|  |
+|appointmentInstance/person/createdByForm| *None* |SR\_ARCHIVE\_CREATED\_BY\_FORM: SR\_ARCHIVE\_CREATED\_BY\_FORM|  |
+|appointmentInstance/person/phone/formattedNumber| *None* |SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/person/personDirectPhone/formattedNumber| *None* |SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentInstance/person/personDirectPhone/description| *None* |Direct - Description: Phone number description|  |
-|appointmentInstance/person/personMobilePhone/formattedNumber| *None* |Mobile - Phone: Displays phone number|  |
-|appointmentInstance/person/personMobilePhone/description| *None* |Mobile - Description: Phone number description|  |
-|appointmentInstance/person/personPrivate/formattedNumber| *None* |Private - Phone: Displays phone number|  |
-|appointmentInstance/person/personPrivate/description| *None* |Private - Description: Phone number description|  |
-|appointmentInstance/person/personPager/formattedNumber| *None* |Other - Phone: Displays phone number|  |
-|appointmentInstance/person/personPager/description| *None* |Other - Description: Phone number description|  |
-|appointmentInstance/person/personDirectFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
-|appointmentInstance/person/personDirectFax/description| *None* |Fax - Description: Phone number description|  |
-|appointmentInstance/person/searchPhone/formattedNumber| *None* |Phone : Displays phone number|  |
-|appointmentInstance/person/searchPhone/description| *None* |Description: Phone number description|  |
+|appointmentInstance/person/personDirectPhone/description| *None* |SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/person/personMobilePhone/formattedNumber| *None* |SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/person/personMobilePhone/description| *None* |SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/person/personPrivate/formattedNumber| *None* |SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/person/personPrivate/description| *None* |SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/person/personPager/formattedNumber| *None* |SR\_PERSONARCHIVE\_OTHERPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/person/personPager/description| *None* |SR\_PERSONARCHIVE\_OTHERPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/person/personDirectFax/formattedNumber| *None* |SR\_PERSONARCHIVE\_DIRECTFAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/person/personDirectFax/description| *None* |SR\_PERSONARCHIVE\_DIRECTFAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|appointmentInstance/person/searchPhone/formattedNumber| *None* |SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|appointmentInstance/person/searchPhone/description| *None* |SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
 |appointmentInstance/person/personInfo/textId| *None* |Text ID|  |
-|appointmentInstance/person/personInfo/infoText| *None* |Information: Displays the text entered in the description field|  |
-|appointmentInstance/person/email/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
-|appointmentInstance/person/email/emailAddress| *None* |E-mail|  |
-|appointmentInstance/person/email/emailDescription| *None* |Description|  |
+|appointmentInstance/person/personInfo/infoText| *None* |SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/person/email/emailProtocol| *None* |SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP|  |
+|appointmentInstance/person/email/emailAddress| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/person/email/emailDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
 |appointmentInstance/person/email/emailId| *None* |ID|  |
-|appointmentInstance/person/email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
-|appointmentInstance/person/email/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
-|appointmentInstance/person/email/emailLastBounce| *None* |Last bounce: Date and time for last bounce to this e-mail address|  |
-|appointmentInstance/person/email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
-|appointmentInstance/person/personUrl/URLAddress| *None* |URL|  |
-|appointmentInstance/person/personUrl/URLDescription| *None* |Description|  |
-|appointmentInstance/person/personAddress/addressId| *None* |Contact address - Address ID: Database ID for the address record|  |
-|appointmentInstance/person/personAddress/line1| *None* |Contact address - Address 1: First line of the address|  |
-|appointmentInstance/person/personAddress/line2| *None* |Contact address - Address 2: Second line of the address|  |
-|appointmentInstance/person/personAddress/line3| *None* |Contact address - Address 3: Third line of the address|  |
-|appointmentInstance/person/personAddress/county| *None* |Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|appointmentInstance/person/personAddress/city| *None* |Contact address - City: This criterion corresponds to the City field on the Company card.|  |
-|appointmentInstance/person/personAddress/zip| *None* |Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|appointmentInstance/person/personAddress/state| *None* |Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|appointmentInstance/person/personAddress/wgs84latitude| *None* |Contact address - Latitude: Latitude|  |
-|appointmentInstance/person/personAddress/wgs84longitude| *None* |Contact address - Longitude: Longitude|  |
-|appointmentInstance/person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/person/restrictionAddress/addressId| *None* |Search address - Address ID: Database ID for the address record|  |
-|appointmentInstance/person/restrictionAddress/line1| *None* |Search address - Address 1: First line of the address|  |
-|appointmentInstance/person/restrictionAddress/line2| *None* |Search address - Address 2: Second line of the address|  |
-|appointmentInstance/person/restrictionAddress/line3| *None* |Search address - Address 3: Third line of the address|  |
-|appointmentInstance/person/restrictionAddress/county| *None* |Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|appointmentInstance/person/restrictionAddress/city| *None* |Search address - City: This criterion corresponds to the City field on the Company card.|  |
-|appointmentInstance/person/restrictionAddress/zip| *None* |Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|appointmentInstance/person/restrictionAddress/state| *None* |Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|appointmentInstance/person/restrictionAddress/wgs84latitude| *None* |Search address - Latitude: Latitude|  |
-|appointmentInstance/person/restrictionAddress/wgs84longitude| *None* |Search address - Longitude: Longitude|  |
-|appointmentInstance/person/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/person/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|appointmentInstance/person/personInterestIds| *None* |Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
+|appointmentInstance/person/email/emailLastSent| *None* |SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP|  |
+|appointmentInstance/person/email/emailBounceCount| *None* |SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP|  |
+|appointmentInstance/person/email/emailLastBounce| *None* |SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP|  |
+|appointmentInstance/person/email/emailHasBounced| *None* |SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP|  |
+|appointmentInstance/person/personUrl/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|appointmentInstance/person/personUrl/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|appointmentInstance/person/personAddress/addressId| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/line1| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/line2| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/line3| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/county| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/city| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/zip| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/state| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|appointmentInstance/person/personAddress/wgs84latitude| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|appointmentInstance/person/personAddress/wgs84longitude| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|appointmentInstance/person/personAddress/formattedAddress| *None* |SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/person/personAddress/formattedMultiLineAddress| *None* |SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/person/restrictionAddress/addressId| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/line1| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/line2| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/line3| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/county| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/city| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/zip| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/state| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|appointmentInstance/person/restrictionAddress/wgs84latitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|appointmentInstance/person/restrictionAddress/wgs84longitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|appointmentInstance/person/restrictionAddress/formattedAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/person/restrictionAddress/formattedMultiLineAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|appointmentInstance/person/personInterestIds| *None* |SR\_SEARCH\_PERSON\_INTEREST: SR\_SEARCH\_CRITERION\_PERSON\_INTERESTS\_TOOLTIP|  |
 |appointmentInstance/person/personUdef/SuperOffice:1| *None* |contactshorttext: tooltipshorttext|  |
 |appointmentInstance/person/personUdef/SuperOffice:2| *None* |contactlongtext: tooltiplongtext|  |
 |appointmentInstance/person/personUdef/SuperOffice:3| *None* |contactnumber|  |
@@ -414,93 +414,93 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/person/personExtra/x\_person\_request\_relation| *None* |Extra request relation: Request relation on contact|  |
 |appointmentInstance/person/personExtra/x\_person\_appointment\_relation| *None* |Extra appointment relation: Appointment relation on person|  |
 |appointmentInstance/person/personExtra/x\_person\_contact\_relation| *None* |Extra company relation: Company relation on contact|  |
-|appointmentInstance/person/personExtra/y\_rental/id| *None* |Rental - id: Displays the row's primary key (y\_rental)|  |
+|appointmentInstance/person/personExtra/y\_rental/id| *None* |Rental - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_rental)|  |
 |appointmentInstance/person/personExtra/y\_rental/x\_start| *None* |Rental - Start rental: Start rental|  |
 |appointmentInstance/person/personExtra/y\_rental/x\_end| *None* |Rental - End: End|  |
 |appointmentInstance/person/personExtra/y\_rental/x\_amount| *None* |Rental - Amount: Number to rent. Default = 1|  |
 |appointmentInstance/person/personExtra/y\_rental/x\_contact| *None* |Rental - Renter: Company that rents equipment|  |
 |appointmentInstance/person/personExtra/y\_rental/y\_equipment/x\_name| *None* |Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
-|appointmentInstance/person/personExtra/y\_car/id| *None* |Car - id: Displays the row's primary key (y\_car)|  |
-|appointmentInstance/person/personAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/person/personAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/person/personAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|appointmentInstance/person/personAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|appointmentInstance/person/personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|appointmentInstance/person/personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/person/personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/person/personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/person/personAssociate/associateDbId| *None* |ID|  |
-|appointmentInstance/person/personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|appointmentInstance/person/personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|appointmentInstance/person/personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|appointmentInstance/person/personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|appointmentInstance/person/personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|appointmentInstance/person/personAssociate/contactCategory| *None* |Category: Category|  |
-|appointmentInstance/person/personAssociate/role| *None* |Role : Role|  |
-|appointmentInstance/person/personAssociate/assocName| *None* |User ID : User ID|  |
+|appointmentInstance/person/personExtra/y\_car/id| *None* |Car - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_car)|  |
+|appointmentInstance/person/personAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|appointmentInstance/person/personAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/person/personAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|appointmentInstance/person/personAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentInstance/person/personAssociate/assocTooltip| *None* |Description : Description|  |
-|appointmentInstance/person/personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|appointmentInstance/person/personAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|appointmentInstance/person/personAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/person/personAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|appointmentInstance/person/personAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|appointmentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|appointmentInstance/person/personAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|appointmentInstance/person/personAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|appointmentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/person/personAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|appointmentInstance/person/personAssociate/userName| *None* |User name: User name|  |
-|appointmentInstance/person/personAssociate/personEmail| *None* |E-mail|  |
-|appointmentInstance/person/personAssociate/locationAddress| *None* |Location: Location|  |
-|appointmentInstance/person/personAssociate/isLocation| *None* |Is a location: Is a location|  |
-|appointmentInstance/person/correspondingAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/person/correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/person/correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|appointmentInstance/person/correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|appointmentInstance/person/correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|appointmentInstance/person/correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/person/correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/person/correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/person/correspondingAssociate/associateDbId| *None* |ID|  |
-|appointmentInstance/person/correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|appointmentInstance/person/correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|appointmentInstance/person/correspondingAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|appointmentInstance/person/correspondingAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|appointmentInstance/person/correspondingAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|appointmentInstance/person/correspondingAssociate/contactCategory| *None* |Category: Category|  |
-|appointmentInstance/person/correspondingAssociate/role| *None* |Role : Role|  |
-|appointmentInstance/person/correspondingAssociate/assocName| *None* |User ID : User ID|  |
-|appointmentInstance/person/correspondingAssociate/assocTooltip| *None* |Description : Description|  |
-|appointmentInstance/person/correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|appointmentInstance/person/correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|appointmentInstance/person/correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/person/correspondingAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|appointmentInstance/person/correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|appointmentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|appointmentInstance/person/correspondingAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|appointmentInstance/person/correspondingAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|appointmentInstance/person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/person/correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|appointmentInstance/person/correspondingAssociate/userName| *None* |User name: User name|  |
-|appointmentInstance/person/correspondingAssociate/personEmail| *None* |E-mail|  |
-|appointmentInstance/person/correspondingAssociate/locationAddress| *None* |Location: Location|  |
-|appointmentInstance/person/correspondingAssociate/isLocation| *None* |Is a location: Is a location|  |
-|appointmentInstance/person/isMailingRecipient| *None* |Is mailing recipient: isMailingRecipient|  |
-|appointmentInstance/person/hasStoreConsent| *None* |Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|appointmentInstance/person/withdrawnStoreConsent| *None* |Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|appointmentInstance/person/hasEmarketingConsent| *None* |Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|appointmentInstance/person/withdrawnEmarketingConsent| *None* |Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|appointmentInstance/person/subscription| *None* |Subscription: Subscription for marketing|  |
-|appointmentInstance/person/legalBaseStore| *None* |Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|appointmentInstance/person/legalBaseEmarketing| *None* |Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|appointmentInstance/person/consentSourceStore| *None* |Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|appointmentInstance/person/consentSourceEmarketing| *None* |Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|appointmentInstance/person/personAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|appointmentInstance/person/personAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|appointmentInstance/person/personAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|appointmentInstance/person/personAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|appointmentInstance/person/personAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/person/personAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|appointmentInstance/person/personAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|appointmentInstance/person/personAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/person/personAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|appointmentInstance/person/personAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|appointmentInstance/person/correspondingAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|appointmentInstance/person/correspondingAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/person/correspondingAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|appointmentInstance/person/correspondingAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|appointmentInstance/person/correspondingAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|appointmentInstance/person/correspondingAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|appointmentInstance/person/correspondingAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|appointmentInstance/person/correspondingAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|appointmentInstance/person/correspondingAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/person/correspondingAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|appointmentInstance/person/correspondingAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|appointmentInstance/person/correspondingAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/person/correspondingAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|appointmentInstance/person/correspondingAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|appointmentInstance/person/isMailingRecipient| *None* |SR\_DASHBOARD\_MAILINGS\_RECIPIENT: isMailingRecipient|  |
+|appointmentInstance/person/hasStoreConsent| *None* |SR\_TOOLTIP\_CONSENTHAS - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|appointmentInstance/person/withdrawnStoreConsent| *None* |SR\_TOOLTIP\_CONSENTWITHDRAWN - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|appointmentInstance/person/hasEmarketingConsent| *None* |SR\_TOOLTIP\_CONSENTHAS - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|appointmentInstance/person/withdrawnEmarketingConsent| *None* |SR\_TOOLTIP\_CONSENTWITHDRAWN - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|appointmentInstance/person/subscription| *None* |SR\_SUBSCRIPTION: SR\_SUBSCRIPTION\_TOOLTIP|  |
+|appointmentInstance/person/legalBaseStore| *None* |SR\_LEGALBASE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|appointmentInstance/person/legalBaseEmarketing| *None* |SR\_LEGALBASE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|appointmentInstance/person/consentSourceStore| *None* |SR\_CONSENTSOURCE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|appointmentInstance/person/consentSourceEmarketing| *None* |SR\_CONSENTSOURCE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |appointmentInstance/appointmentUdef/SuperOffice:1| *None* |followupshorttext|  |
 |appointmentInstance/appointmentUdef/SuperOffice:2| *None* |followuplongtext|  |
 |appointmentInstance/appointmentUdef/SuperOffice:3| *None* |followupnumber|  |
@@ -509,78 +509,78 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/appointmentUdef/SuperOffice:6| *None* |followupcheckbox|  |
 |appointmentInstance/appointmentUdef/SuperOffice:7| *None* |followupdropdownlistbox|  |
 |appointmentInstance/appointmentUdef/SuperOffice:8| *None* |followupdecimal|  |
-|appointmentInstance/project/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
-|appointmentInstance/project/projectId| *None* |DB ID: Displays the database ID for a project row|  |
-|appointmentInstance/project/name| *None* |Project name: Displays the Project's name|  |
-|appointmentInstance/project/number| *None* |Number: Displays the project's number|  |
-|appointmentInstance/project/type| *None* |Project type: Displays the project's type|  |
-|appointmentInstance/project/status| *None* |Status: Displays the project's status|  |
-|appointmentInstance/project/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
-|appointmentInstance/project/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
-|appointmentInstance/project/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
-|appointmentInstance/project/icon| *None* |Category: Displays the icon for an activity type|  |
-|appointmentInstance/project/text| *None* |Text: Displays a descriptive text for the item|  |
-|appointmentInstance/project/description| *None* |Description : Description|  |
-|appointmentInstance/project/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|appointmentInstance/project/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|appointmentInstance/project/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|appointmentInstance/project/registeredBy| *None* |Registered by: The user who registered the data|  |
-|appointmentInstance/project/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|appointmentInstance/project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|appointmentInstance/project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
-|appointmentInstance/project/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
-|appointmentInstance/project/endDate| *None* |End date: End date of project|  |
-|appointmentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|appointmentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/project/eventId| *None* |Event ID: Event ID|  |
-|appointmentInstance/project/startDate| *None* |Start date: Project start date|  |
-|appointmentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|appointmentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|appointmentInstance/project/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|appointmentInstance/project/projectPublish/publishedBy| *None* |Published by: Published by|  |
-|appointmentInstance/project/projectEvent/isExternalEvent| *None* |Event: Is this an external event|  |
-|appointmentInstance/project/projectEvent/eventDate| *None* |Event date: Event date|  |
-|appointmentInstance/project/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled|  |
-|appointmentInstance/project/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled|  |
+|appointmentInstance/project/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_PROJECTARCHIVE\_COMPLETED\_TOOLTIP|  |
+|appointmentInstance/project/projectId| *None* |SR\_PROJECTARCHIVE\_RECORDID: SR\_PROJECTARCHIVE\_RECORDID\_TOOLTIP|  |
+|appointmentInstance/project/name| *None* |SR\_PROJECTARCHIVE\_NAME: SR\_PROJECTARCHIVE\_NAME\_TOOLTIP|  |
+|appointmentInstance/project/number| *None* |SR\_PROJECTARCHIVE\_NUMBER: SR\_PROJECTARCHIVE\_NUMBER\_TOOLTIP|  |
+|appointmentInstance/project/type| *None* |SR\_PROJECTARCHIVE\_TYPE: SR\_PROJECTARCHIVE\_TYPE\_TOOLTIP|  |
+|appointmentInstance/project/status| *None* |SR\_PROJECTARCHIVE\_STATUS: SR\_PROJECTARCHIVE\_STATUS\_TOOLTIP|  |
+|appointmentInstance/project/statusRank| *None* |SR\_PROJECTARCHIVE\_STATUS\_RANK: SR\_PROJECTARCHIVE\_STATUS\_RANK\_TOOLTIP|  |
+|appointmentInstance/project/associateId| *None* |SR\_PROJECTARCHIVE\_ASSOCIATEID: SR\_PROJECTARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|appointmentInstance/project/hasInfoText| *None* |SR\_PROJECTARCHIVE\_HASINFO: SR\_PROJECTARCHIVE\_HASINFO\_TOOLTIP|  |
+|appointmentInstance/project/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|appointmentInstance/project/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/project/description| *None* |SR\_LABEL\_DESCRIPTION: SR\_LABEL\_DESCRIPTION|  |
+|appointmentInstance/project/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/project/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/project/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|appointmentInstance/project/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/project/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/project/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|appointmentInstance/project/hasGuide| *None* |SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP|  |
+|appointmentInstance/project/nextMilestone| *None* |SR\_ARCHIVE\_NEXTMILESTONE: SR\_ARCHIVE\_NEXTMILESTONE\_TOOLTIP|  |
+|appointmentInstance/project/endDate| *None* |SR\_ARCHIVE\_ENDDATE: SR\_ARCHIVE\_ENDDATE\_TOOLTIP|  |
+|appointmentInstance/project/imageThumbnail| *None* |SR\_PROJECTARCHIVE\_THUMBNAIL: SR\_PROJECTARCHIVE\_THUMBNAIL\_TOOLTIP|  |
+|appointmentInstance/project/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|appointmentInstance/project/eventId| *None* |SR\_FIELD\_PROJECT\_EVENT\_ID: SR\_FIELD\_PROJECT\_EVENT\_ID|  |
+|appointmentInstance/project/startDate| *None* |SR\_ARCHIVE\_STARTDATE: SR\_ARCHIVE\_STARTDATE\_TOOLTIP|  |
+|appointmentInstance/project/projectPublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|appointmentInstance/project/projectPublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|appointmentInstance/project/projectPublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|appointmentInstance/project/projectPublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|appointmentInstance/project/projectEvent/isExternalEvent| *None* |SR\_EXTERNAL\_EVENT: SR\_EXTERNAL\_EVENT\_TOOLTIP|  |
+|appointmentInstance/project/projectEvent/eventDate| *None* |SR\_PROJECT\_EVENT\_DATE: SR\_PUBLISHED\_EVENT\_DATE\_TOOLTIP|  |
+|appointmentInstance/project/projectEvent/hasSignOn| *None* |SR\_EVENT\_HASSIGNON: SR\_EVENT\_HASSIGNON\_TOOLTIP|  |
+|appointmentInstance/project/projectEvent/hasSignOff| *None* |SR\_EVENT\_HASSIGNOFF: SR\_EVENT\_HASSIGNOFF\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentInstance/project/projectUrl/URLAddress| *None* |URL|  |
-|appointmentInstance/project/projectUrl/URLDescription| *None* |Description|  |
-|appointmentInstance/project/projectAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/project/projectAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/project/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|appointmentInstance/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|appointmentInstance/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|appointmentInstance/project/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/project/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/project/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/project/projectAssociate/associateDbId| *None* |ID|  |
-|appointmentInstance/project/projectAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|appointmentInstance/project/projectAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|appointmentInstance/project/projectAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|appointmentInstance/project/projectAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|appointmentInstance/project/projectAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|appointmentInstance/project/projectAssociate/contactCategory| *None* |Category: Category|  |
-|appointmentInstance/project/projectAssociate/role| *None* |Role : Role|  |
-|appointmentInstance/project/projectAssociate/assocName| *None* |User ID : User ID|  |
-|appointmentInstance/project/projectAssociate/assocTooltip| *None* |Description : Description|  |
-|appointmentInstance/project/projectAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|appointmentInstance/project/projectAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|appointmentInstance/project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|appointmentInstance/project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|appointmentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|appointmentInstance/project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|appointmentInstance/project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|appointmentInstance/project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|appointmentInstance/project/projectAssociate/userName| *None* |User name: User name|  |
-|appointmentInstance/project/projectAssociate/personEmail| *None* |E-mail|  |
-|appointmentInstance/project/projectAssociate/locationAddress| *None* |Location: Location|  |
-|appointmentInstance/project/projectAssociate/isLocation| *None* |Is a location: Is a location|  |
+|appointmentInstance/project/projectUrl/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|appointmentInstance/project/projectUrl/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|appointmentInstance/project/projectAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|appointmentInstance/project/projectAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/project/projectAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|appointmentInstance/project/projectAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|appointmentInstance/project/projectAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|appointmentInstance/project/projectAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|appointmentInstance/project/projectAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|appointmentInstance/project/projectAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|appointmentInstance/project/projectAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/project/projectAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|appointmentInstance/project/projectAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|appointmentInstance/project/projectAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/project/projectAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|appointmentInstance/project/projectAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
 |appointmentInstance/project/projectUdef/SuperOffice:1| *None* |projectshorttext|  |
 |appointmentInstance/project/projectUdef/SuperOffice:2| *None* |projectlongtext|  |
 |appointmentInstance/project/projectUdef/SuperOffice:3| *None* |projectnumber|  |
@@ -591,130 +591,130 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/project/projectUdef/SuperOffice:8| *None* |projectdecimal|  |
 |appointmentInstance/project/projectUdef/SuperOffice:9| *None* |page1saleandmarketing|  |
 |appointmentInstance/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
-|appointmentInstance/project/NumberOfActivities| *None* |Number of activities|  |
-|appointmentInstance/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
-|appointmentInstance/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
-|appointmentInstance/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-|appointmentInstance/project/LastActivity| *None* |Date of last activity|  |
-|appointmentInstance/project/LastCompletedActivity| *None* |Date of last completed activity|  |
-|appointmentInstance/project/LastDoByActivity| *None* |Date of last non-completed activity|  |
-|appointmentInstance/project/NumberOfSales| *None* |Number of sales|  |
-|appointmentInstance/project/NumberOfSalesInPeriod| *None* |Number of sales in last 90 days|  |
-|appointmentInstance/project/NumberOfNotCompletedSales| *None* |Number of non-completed sales|  |
-|appointmentInstance/project/NumberOfNotCompletedSalesInPeriod| *None* |Number of non-completed sales in last 90 days|  |
-|appointmentInstance/project/LastSale| *None* |Date of last sale|  |
-|appointmentInstance/project/LastCompletedSale| *None* |Date of last completed sale|  |
-|appointmentInstance/project/LastDoBySale| *None* |Date of last non-completed sale|  |
+|appointmentInstance/project/NumberOfActivities| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|appointmentInstance/project/NumberOfActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/project/NumberOfNotCompletedActivities| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|appointmentInstance/project/NumberOfNotCompletedActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/project/LastActivity| *None* |SR\_ROU\_LAST\_ACTIVITY|  |
+|appointmentInstance/project/LastCompletedActivity| *None* |SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|appointmentInstance/project/LastDoByActivity| *None* |SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|appointmentInstance/project/NumberOfSales| *None* |SR\_ROU\_NUMBER\_OF\_SALES|  |
+|appointmentInstance/project/NumberOfSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/project/NumberOfNotCompletedSales| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|appointmentInstance/project/NumberOfNotCompletedSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|appointmentInstance/project/LastSale| *None* |SR\_ROU\_LAST\_SALE|  |
+|appointmentInstance/project/LastCompletedSale| *None* |SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|appointmentInstance/project/LastDoBySale| *None* |SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
 |appointmentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|appointmentInstance/project/saintSaleStatus| *None* |With status|  |
-|appointmentInstance/project/saintAmountClass| *None* |Amount class|  |
-|appointmentInstance/project/saintActivityType| *None* |SAINT type|  |
-|appointmentInstance/project/saintDirection| *None* |Direction|  |
-|appointmentInstance/project/saintIntention| *None* |Intention|  |
-|appointmentInstance/project/saintTicketStatus| *None* |Status|  |
-|appointmentInstance/project/saintTicketCategory| *None* |Category|  |
+|appointmentInstance/project/saintSaleStatus| *None* |SR\_WITH\_STATUS|  |
+|appointmentInstance/project/saintAmountClass| *None* |SR\_AMOUNT\_CLASS|  |
+|appointmentInstance/project/saintActivityType| *None* |SR\_ARCHIVE\_SAINT\_TYPE|  |
+|appointmentInstance/project/saintDirection| *None* |SR\_ARCHIVE\_DIRECTION|  |
+|appointmentInstance/project/saintIntention| *None* |SR\_ACTIVITY\_INTENTION|  |
+|appointmentInstance/project/saintTicketStatus| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|appointmentInstance/project/saintTicketCategory| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
 |appointmentInstance/project/project/textId| *None* |Text ID|  |
-|appointmentInstance/project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
-|appointmentInstance/sale/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
-|appointmentInstance/sale/icon| *None* |Category: Displays the icon for an activity type|  |
-|appointmentInstance/sale/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
-|appointmentInstance/sale/time| *None* |Time: Time|  |
-|appointmentInstance/sale/type| *None* |Type: Displays the type of an activity|  |
-|appointmentInstance/sale/recordType| *None* |Record type : Shows the record type|  |
-|appointmentInstance/sale/text| *None* |Text: Displays a descriptive text for the item|  |
-|appointmentInstance/sale/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
-|appointmentInstance/sale/contactId| *None* |Company ID: Database ID of company|  |
-|appointmentInstance/sale/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/sale/projectId| *None* |Project ID: Database ID of project record|  |
-|appointmentInstance/sale/saleId| *None* |Sale ID: The database ID of the sale record|  |
-|appointmentInstance/sale/userGroup| *None* |User group : The user group that owns the record|  |
-|appointmentInstance/sale/who| *None* |Who: Contact and/or company|  |
-|appointmentInstance/sale/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|appointmentInstance/sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|appointmentInstance/sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|appointmentInstance/sale/registeredBy| *None* |Registered by: The user who registered the data|  |
-|appointmentInstance/sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|appointmentInstance/sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|appointmentInstance/sale/currencyId| *None* |Currency ID: The currency list item ID|  |
-|appointmentInstance/sale/currency| *None* |Currency: The currency of the sale|  |
-|appointmentInstance/sale/credited| *None* |Credited: The user to be credited with the sale|  |
-|appointmentInstance/sale/lossReason| *None* |Reason (lost: The reason for losing the sale|  |
-|appointmentInstance/sale/source| *None* |Source: The source (lead) of the sale|  |
-|appointmentInstance/sale/competitor| *None* |Competitor: The competitor who won the sale|  |
-|appointmentInstance/sale/heading| *None* |Sale: The name of the sale|  |
-|appointmentInstance/sale/amount| *None* |Amount: The gross sales total|  |
-|appointmentInstance/sale/amountWeighted| *None* |Weighted amount: Virtual field calculated from amount * probability percent.|  |
-|appointmentInstance/sale/earning| *None* |Profit: Gross profit (gross sales total - cost) for the sale|  |
-|appointmentInstance/sale/earningPercent| *None* |Profit as % : The profit as a percentage of the gross sales total|  |
+|appointmentInstance/project/project/infoText| *None* |SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/sale/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP|  |
+|appointmentInstance/sale/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|appointmentInstance/sale/date| *None* |SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP|  |
+|appointmentInstance/sale/time| *None* |SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
+|appointmentInstance/sale/type| *None* |SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP|  |
+|appointmentInstance/sale/recordType| *None* |SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP|  |
+|appointmentInstance/sale/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/sale/associateId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|appointmentInstance/sale/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/projectId| *None* |SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/saleId| *None* |SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/userGroup| *None* |SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP|  |
+|appointmentInstance/sale/who| *None* |SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|appointmentInstance/sale/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/sale/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|appointmentInstance/sale/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|appointmentInstance/sale/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/sale/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|appointmentInstance/sale/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|appointmentInstance/sale/currencyId| *None* |SR\_ARCHIVE\_SALE\_CURRENCY\_ID: SR\_ARCHIVE\_SALE\_CURRENCY\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/currency| *None* |SR\_ARCHIVE\_SALE\_CURRENCY: SR\_SALE\_CURRENCY\_TOOLTIP|  |
+|appointmentInstance/sale/credited| *None* |SR\_ARCHIVE\_SALE\_CREDITED: SR\_SALE\_CREDITED\_TOOLTIP|  |
+|appointmentInstance/sale/lossReason| *None* |SR\_SALE\_REASON\_LOST: SR\_SALE\_LOSSREASON\_TOOLTIP|  |
+|appointmentInstance/sale/source| *None* |SR\_ARCHIVE\_SALE\_SOURCE: SR\_SALE\_SOURCE\_TOOLTIP|  |
+|appointmentInstance/sale/competitor| *None* |SR\_ARCHIVE\_SALE\_COMPETITOR: SR\_SALE\_COMPETITOR\_TOOLTIP|  |
+|appointmentInstance/sale/heading| *None* |SR\_COMMON\_SALE: SR\_ARCHIVE\_SALE\_NAME\_TOOLTIP|  |
+|appointmentInstance/sale/amount| *None* |SR\_ARCHIVE\_SALE\_AMOUNT: SR\_SALE\_AMOUNT\_TOOLTIP|  |
+|appointmentInstance/sale/amountWeighted| *None* |SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP|  |
+|appointmentInstance/sale/earning| *None* |SR\_ARCHIVE\_SALE\_EARNING: SR\_EARNING\_AMOUNT\_TOOLTIP|  |
+|appointmentInstance/sale/earningPercent| *None* |SR\_SDLG\_EARNINGP: SR\_SALE\_EARNINGPCT\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentInstance/sale/probPercent| *None* |Probability as %: Probability as %|  |
-|appointmentInstance/sale/originalStage| *None* |Stage when closed: Stage when closed|  |
-|appointmentInstance/sale/stage| *None* |Stage: Displays the stage of the sale|  |
-|appointmentInstance/sale/stageName| *None* |Stage name: Displays the stage of the sale|  |
-|appointmentInstance/sale/saleStatus| *None* |Status: The status of the sale - open, lost or sold|  |
-|appointmentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list|  |
-|appointmentInstance/sale/saleType| *None* |Sale type: Sale type, from list|  |
-|appointmentInstance/sale/saleTypeId| *None* |Sale type ID: Sale type, from list|  |
-|appointmentInstance/sale/stageId| *None* |Sale stage ID: Displays the stage of the sale|  |
-|appointmentInstance/sale/nextDueDate| *None* |Next activity: Date for next activity for a sale, updated live from the sale's activities|  |
-|appointmentInstance/sale/reopenDate| *None* |Reopen date: Displays the reopen date for the sale|  |
-|appointmentInstance/sale/stalledComment| *None* |Reason (stalled: The reason the sale has been stalled|  |
-|appointmentInstance/sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
-|appointmentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
-|appointmentInstance/sale/saleNumber| *None* |Number: Number|  |
-|appointmentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
-|appointmentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale|  |
-|appointmentInstance/sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
-|appointmentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
-|appointmentInstance/sale/description| *None* |Description: The long description field on Sale|  |
-|appointmentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|appointmentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
-|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
-|appointmentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
-|appointmentInstance/sale/visibleFor| *None* |Visible for|  |
+|appointmentInstance/sale/probPercent| *None* |SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE: SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE\_TOOLTIP|  |
+|appointmentInstance/sale/originalStage| *None* |SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED: SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED|  |
+|appointmentInstance/sale/stage| *None* |SR\_ARCHIVE\_SALE\_STAGE: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP|  |
+|appointmentInstance/sale/stageName| *None* |SR\_ARCHIVE\_SALE\_STAGE\_NAME: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP|  |
+|appointmentInstance/sale/saleStatus| *None* |SR\_SALEDLG\_STATUS: SR\_SALE\_STATUS\_TOOLTIP|  |
+|appointmentInstance/sale/stageRank| *None* |SR\_ARCHIVE\_SALE\_STAGE\_RANK: SR\_ARCHIVE\_SALE\_STAGE\_RANK\_TOOLTIP|  |
+|appointmentInstance/sale/saleType| *None* |SR\_ARCHIVE\_SALETYPE: SR\_ARCHIVE\_SALETYPE\_TOOLTIP|  |
+|appointmentInstance/sale/saleTypeId| *None* |SR\_ARCHIVE\_SALETYPE\_ID: SR\_ARCHIVE\_SALETYPE\_TOOLTIP|  |
+|appointmentInstance/sale/stageId| *None* |SR\_ARCHIVE\_SALE\_STAGE\_ID: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP|  |
+|appointmentInstance/sale/nextDueDate| *None* |SR\_ARCHIVE\_NEXTDUEDATE: SR\_ARCHIVE\_NEXTDUEDATE\_TOOLTIP|  |
+|appointmentInstance/sale/reopenDate| *None* |SR\_ARCHIVE\_SALE\_REOPENDATE: SR\_ARCHIVE\_SALE\_REOPENDATE\_TOOLTIP|  |
+|appointmentInstance/sale/stalledComment| *None* |SR\_ARCHIVE\_STALLEDCOMMENT: SR\_ARCHIVE\_STALLEDCOMMENT\_TOOLTIP|  |
+|appointmentInstance/sale/saleTypeCategory| *None* |SR\_ADMIN\_LIST\_SALE\_CAT: SR\_ADMIN\_LIST\_SALE\_CAT|  |
+|appointmentInstance/sale/soldReason| *None* |SR\_ARCHIVE\_REASON\_SOLD: SR\_ARCHIVE\_REASON\_SOLD\_TOOLTIP|  |
+|appointmentInstance/sale/saleNumber| *None* |SR\_SALESARCHIVE\_NUMBER: SR\_SALESARCHIVE\_NUMBER|  |
+|appointmentInstance/sale/hasStakeholders| *None* |SR\_ARCHIVE\_HAS\_STAKEHOLDERS: SR\_ARCHIVE\_HAS\_STAKEHOLDERS\_TOOLTIP|  |
+|appointmentInstance/sale/stakeholdersEnabled| *None* |SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED: SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED\_TOOLTIP|  |
+|appointmentInstance/sale/hasQuote| *None* |SR\_ARCHIVE\_HAS\_QUOTE: SR\_ARCHIVE\_HAS\_QUOTE\_TOOLTIP|  |
+|appointmentInstance/sale/hasGuide| *None* |SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP|  |
+|appointmentInstance/sale/description| *None* |SR\_ARCHIVE\_SALEDESCRIPTION: SR\_ARCHIVE\_SALEDESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/sale/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|appointmentInstance/sale/createdByWorkflow| *None* |SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP|  |
+|appointmentInstance/sale/amountInBaseCurrency| *None* |SR\_ARCHIVE\_SALE\_AMOUNT (BaseCurrency: SR\_SALE\_AMOUNT\_TOOLTIP|  |
+|appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT (BaseCurrency: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP|  |
+|appointmentInstance/sale/daysInStage| *None* |SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE: SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE\_TOOLTIP|  |
+|appointmentInstance/sale/visibleFor| *None* |SR\_ARCHIVE\_VISIBLE\_FOR|  |
 |appointmentInstance/sale/sale/textId| *None* |Text ID|  |
-|appointmentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
-|appointmentInstance/sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|appointmentInstance/sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|appointmentInstance/sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|appointmentInstance/sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|appointmentInstance/sale/associate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/sale/associate/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/sale/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|appointmentInstance/sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|appointmentInstance/sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|appointmentInstance/sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/sale/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/sale/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/sale/associate/associateDbId| *None* |ID|  |
-|appointmentInstance/sale/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|appointmentInstance/sale/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|appointmentInstance/sale/associate/usergroup| *None* |Primary group: The user's primary user group|  |
-|appointmentInstance/sale/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|appointmentInstance/sale/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|appointmentInstance/sale/associate/contactCategory| *None* |Category: Category|  |
-|appointmentInstance/sale/associate/role| *None* |Role : Role|  |
-|appointmentInstance/sale/associate/assocName| *None* |User ID : User ID|  |
-|appointmentInstance/sale/associate/assocTooltip| *None* |Description : Description|  |
-|appointmentInstance/sale/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|appointmentInstance/sale/associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|appointmentInstance/sale/associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/sale/associate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|appointmentInstance/sale/associate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|appointmentInstance/sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|appointmentInstance/sale/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|appointmentInstance/sale/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|appointmentInstance/sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/sale/associate/otherGroups| *None* |Other groups: Other groups|  |
-|appointmentInstance/sale/associate/userName| *None* |User name: User name|  |
-|appointmentInstance/sale/associate/personEmail| *None* |E-mail|  |
-|appointmentInstance/sale/associate/locationAddress| *None* |Location: Location|  |
-|appointmentInstance/sale/associate/isLocation| *None* |Is a location: Is a location|  |
+|appointmentInstance/sale/sale/description| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/sale/salePublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|appointmentInstance/sale/salePublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|appointmentInstance/sale/salePublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|appointmentInstance/sale/salePublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|appointmentInstance/sale/associate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/sale/associate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/sale/associate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/sale/associate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|appointmentInstance/sale/associate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/associate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/sale/associate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/sale/associate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/sale/associate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|appointmentInstance/sale/associate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|appointmentInstance/sale/associate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|appointmentInstance/sale/associate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/sale/associate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/sale/associate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|appointmentInstance/sale/associate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/sale/associate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|appointmentInstance/sale/associate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|appointmentInstance/sale/associate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|appointmentInstance/sale/associate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|appointmentInstance/sale/associate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|appointmentInstance/sale/associate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|appointmentInstance/sale/associate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|appointmentInstance/sale/associate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|appointmentInstance/sale/associate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|appointmentInstance/sale/associate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|appointmentInstance/sale/associate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|appointmentInstance/sale/associate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|appointmentInstance/sale/associate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/sale/associate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|appointmentInstance/sale/associate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|appointmentInstance/sale/associate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/sale/associate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|appointmentInstance/sale/associate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
 |appointmentInstance/sale/saleUdef/SuperOffice:1| *None* |saleshorttext|  |
 |appointmentInstance/sale/saleUdef/SuperOffice:2| *None* |salelongtext|  |
 |appointmentInstance/sale/saleUdef/SuperOffice:3| *None* |salenumber|  |
@@ -723,198 +723,199 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |appointmentInstance/sale/saleUdef/SuperOffice:6| *None* |salecheckbox|  |
 |appointmentInstance/sale/saleUdef/SuperOffice:7| *None* |saledropdownlistbox|  |
 |appointmentInstance/sale/saleUdef/SuperOffice:8| *None* |saledecimal|  |
-|appointmentInstance/associate/firstName| *None* |First name: Displays the contact's first name|  |
-|appointmentInstance/associate/lastName| *None* |Last name: Displays the contact's last name|  |
-|appointmentInstance/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|appointmentInstance/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|appointmentInstance/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|appointmentInstance/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|appointmentInstance/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|appointmentInstance/associate/associateDbId| *None* |ID|  |
-|appointmentInstance/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|appointmentInstance/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|appointmentInstance/associate/usergroup| *None* |Primary group: The user's primary user group|  |
-|appointmentInstance/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|appointmentInstance/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|appointmentInstance/associate/contactCategory| *None* |Category: Category|  |
-|appointmentInstance/associate/role| *None* |Role : Role|  |
-|appointmentInstance/associate/assocName| *None* |User ID : User ID|  |
-|appointmentInstance/associate/assocTooltip| *None* |Description : Description|  |
-|appointmentInstance/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|appointmentInstance/associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|appointmentInstance/associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointmentInstance/associate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|appointmentInstance/associate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|appointmentInstance/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|appointmentInstance/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|appointmentInstance/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|appointmentInstance/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
+|appointmentInstance/associate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|appointmentInstance/associate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|appointmentInstance/associate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|appointmentInstance/associate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|appointmentInstance/associate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|appointmentInstance/associate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|appointmentInstance/associate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/associate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|appointmentInstance/associate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|appointmentInstance/associate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|appointmentInstance/associate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|appointmentInstance/associate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/associate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|appointmentInstance/associate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|appointmentInstance/associate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|appointmentInstance/associate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|appointmentInstance/associate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|appointmentInstance/associate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|appointmentInstance/associate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|appointmentInstance/associate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|appointmentInstance/associate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|appointmentInstance/associate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|appointmentInstance/associate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|appointmentInstance/associate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|appointmentInstance/associate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|appointmentInstance/associate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|appointmentInstance/associate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|appointmentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|appointmentInstance/associate/otherGroups| *None* |Other groups: Other groups|  |
-|appointmentInstance/associate/userName| *None* |User name: User name|  |
-|appointmentInstance/associate/personEmail| *None* |E-mail|  |
-|appointmentInstance/associate/locationAddress| *None* |Location: Location|  |
-|appointmentInstance/associate/isLocation| *None* |Is a location: Is a location|  |
-|appointmentInstance/appointment/description| *None* |Text: Displays the text entered in the description field|  |
-|appointmentInstance/appointment/title| *None* |Title|  |
+|appointmentInstance/associate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|appointmentInstance/associate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|appointmentInstance/associate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|appointmentInstance/associate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|appointmentInstance/associate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|appointmentInstance/associate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|appointmentInstance/appointment/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/appointment/description| *None* |SR\_DIARYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|appointmentInstance/appointment/title| *None* |SR\_TICKETARCHIVE\_TITLE|  |
 |appointmentInstance/appointment/titleHtml| *None* |!!Title Html|  |
-|appointmentInstance/appointment/agenda| *None* |Agenda|  |
+|appointmentInstance/appointment/agenda| *None* |SR\_APPOINTMENT\_AGENDA|  |
 |appointmentInstance/appointment/agendaHtml| *None* |!!Agenda Html|  |
 |appointmentInstance/appointment/isConverted| *None* |!!Is Converted|  |
 |appointmentInstance/appointment/textId| *None* |Text ID|  |
-|appointmentInstance/appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
+|appointmentInstance/appointment/internalNotes| *None* |SR\_APPOINTMENT\_INTERNAL\_NOTES: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
 |appointmentInstance/appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
-|documentInstance/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
-|documentInstance/icon| *None* |Category: Displays the icon for an activity type|  |
-|documentInstance/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
-|documentInstance/time| *None* |Time: Time|  |
-|documentInstance/type| *None* |Type: Displays the type of an activity|  |
-|documentInstance/recordType| *None* |Record type : Shows the record type|  |
-|documentInstance/text| *None* |Text: Displays a descriptive text for the item|  |
-|documentInstance/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
-|documentInstance/contactId| *None* |Company ID: Database ID of company|  |
-|documentInstance/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/projectId| *None* |Project ID: Database ID of project record|  |
-|documentInstance/saleId| *None* |Sale ID: The database ID of the sale record|  |
-|documentInstance/userGroup| *None* |User group : The user group that owns the record|  |
-|documentInstance/who| *None* |Who: Contact and/or company|  |
-|documentInstance/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|documentInstance/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|documentInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|documentInstance/registeredBy| *None* |Registered by: The user who registered the data|  |
-|documentInstance/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|documentInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|documentInstance/documentId| *None* |Document ID: Database ID of document record|  |
-|documentInstance/keywords| *None* |Keywords |  |
-|documentInstance/ourref| *None* |Our ref.|  |
-|documentInstance/yourref| *None* |Your ref.|  |
-|documentInstance/attention| *None* |Salutation|  |
-|documentInstance/subject| *None* |Subject|  |
-|documentInstance/name| *None* |File name |  |
-|documentInstance/mailMergeDraft| *None* |Mail merge draft : Indicates whether the document is a mail merge template|  |
-|documentInstance/snum| *None* |Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.|  |
-|documentInstance/isReport| *None* |Report: Is this document a saved report run?|  |
-|documentInstance/suggestedDocumentId| *None* |Document ID (suggestion: The database ID of a document that originates in a suggestion|  |
-|documentInstance/isMail| *None* |E-mail|  |
-|documentInstance/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
-|documentInstance/visibleFor| *None* |Visible for|  |
-|documentInstance/documentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|documentInstance/documentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|documentInstance/documentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|documentInstance/documentPublish/publishedBy| *None* |Published by: Published by|  |
-|documentInstance/person/personId| *None* |DB ID: Displays the database ID of a contact|  |
-|documentInstance/person/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/person/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/person/middleName| *None* |Middle name: Displays the contact's middle name.|  |
-|documentInstance/person/fullName| *None* |Contact: Displays the contact to which an item is linked|  |
-|documentInstance/person/contactId| *None* |Company ID: Database ID of company|  |
-|documentInstance/person/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
-|documentInstance/person/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
-|documentInstance/person/personHasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
-|documentInstance/person/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/person/position| *None* |Position|  |
-|documentInstance/person/personNumber| *None* |Number: Displays the contact's number|  |
-|documentInstance/person/title| *None* |Title: Displays the contact's job title|  |
-|documentInstance/person/personCountry| *None* |Country: Country|  |
-|documentInstance/person/personCountryId| *None* |Country ID: Country ID|  |
-|documentInstance/person/personNoMail| *None* |No Mailings: Displays the contact's No Mailings checkbox|  |
-|documentInstance/person/rank| *None* |Rank: Displays a contact's current rank|  |
-|documentInstance/person/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
-|documentInstance/person/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|documentInstance/person/useAsMailingAddress| *None* |Use as postal address: Use as postal address|  |
-|documentInstance/person/personSource| *None* |Source: Source (Contact)|  |
-|documentInstance/person/retired| *None* |Former employee: Indicates whether the contact has retired/left the company|  |
-|documentInstance/person/birthYear| *None* |Birth year: Displays contact's birth year|  |
-|documentInstance/person/birthMonth| *None* |Birth month: Displays contact's birth month|  |
-|documentInstance/person/birthDay| *None* |Birth day: Displays contact's birth day (day of month)|  |
-|documentInstance/person/kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
-|documentInstance/person/kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
-|documentInstance/person/personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
-|documentInstance/person/personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|documentInstance/person/personUpdatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|documentInstance/person/personRegisteredBy| *None* |Registered by: The user who registered the data|  |
-|documentInstance/person/personRegisteredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|documentInstance/person/personRegisteredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|documentInstance/person/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/person/personActiveErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/person/ticketPriority| *None* |Service priority: Default service priority for this contact|  |
-|documentInstance/person/supportLanguage| *None* |Preferred language: Preferred language used for reply templates and more|  |
-|documentInstance/person/supportAssociate| *None* |Our service contact: Default service contact for this contact|  |
-|documentInstance/person/supportAssociateFullName| *None* |Our service contact - Full name: Default service contact for this contact|  |
-|documentInstance/person/personAssociateId| *None* |Our contact: Displays our contact|  |
-|documentInstance/person/personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
-|documentInstance/person/personCategory| *None* |Category|  |
-|documentInstance/person/personCategoryGroup| *None* |Category group|  |
+|documentInstance/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP|  |
+|documentInstance/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|documentInstance/date| *None* |SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP|  |
+|documentInstance/time| *None* |SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
+|documentInstance/type| *None* |SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP|  |
+|documentInstance/recordType| *None* |SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP|  |
+|documentInstance/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|documentInstance/associateId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|documentInstance/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|documentInstance/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/projectId| *None* |SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP|  |
+|documentInstance/saleId| *None* |SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP|  |
+|documentInstance/userGroup| *None* |SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP|  |
+|documentInstance/who| *None* |SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|documentInstance/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|documentInstance/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|documentInstance/documentId| *None* |SR\_DOCUMENT\_ID: SR\_DOCUMENT\_ID\_TOOLTIP|  |
+|documentInstance/keywords| *None* |SR\_KEYWORDS|  |
+|documentInstance/ourref| *None* |SR\_AA\_OURREF|  |
+|documentInstance/yourref| *None* |SR\_ARCHIVE\_YOURREF|  |
+|documentInstance/attention| *None* |SR\_ARCHIVE\_SALUTATION|  |
+|documentInstance/subject| *None* |SR\_COMMON\_SUBJECT|  |
+|documentInstance/name| *None* |SR\_FILENAME|  |
+|documentInstance/mailMergeDraft| *None* |SR\_MAILMERGEDRAFT: SR\_DOCUMENT\_MMD\_TOOLTIP|  |
+|documentInstance/snum| *None* |SR\_ARCHIVE\_DOCUMENT\_SNUM: SR\_ARCHIVE\_DOCUMENT\_SNUM\_TOOLTIP|  |
+|documentInstance/isReport| *None* |SR\_DOCUMENTISREPORT: SR\_DOCUMENTISREPORT\_TOOLTIP|  |
+|documentInstance/suggestedDocumentId| *None* |SR\_ARCHIVE\_SUGGESTEDDOCID: SR\_ARCHIVE\_SUGGESTEDDOCID\_TOOLTIP|  |
+|documentInstance/isMail| *None* |SR\_SINGULAR\_MAIL|  |
+|documentInstance/recordTypeText| *None* |SR\_ARCHIVE\_RECORDTYPETEXT: SR\_ARCHIVE\_RECORDTYPETEXT\_TOOLTIP|  |
+|documentInstance/visibleFor| *None* |SR\_ARCHIVE\_VISIBLE\_FOR|  |
+|documentInstance/documentPublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|documentInstance/documentPublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|documentInstance/documentPublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|documentInstance/documentPublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|documentInstance/person/personId| *None* |SR\_PERSONARCHIVE\_RECORDID: SR\_PERSONARCHIVE\_RECORDID\_TOOLTIP|  |
+|documentInstance/person/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/person/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/person/middleName| *None* |SR\_PERSONARCHIVE\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/person/fullName| *None* |SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP|  |
+|documentInstance/person/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|documentInstance/person/hasInfoText| *None* |SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP|  |
+|documentInstance/person/hasInterests| *None* |SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP|  |
+|documentInstance/person/personHasInterests| *None* |SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP|  |
+|documentInstance/person/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/person/position| *None* |SR\_ARCHIVE\_POSITION|  |
+|documentInstance/person/personNumber| *None* |SR\_PERSONARCHIVE\_NUMBER: SR\_PERSONARCHIVE\_NUMBER\_TOOLTIP|  |
+|documentInstance/person/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_JOBTITLE\_TOOLTIP|  |
+|documentInstance/person/personCountry| *None* |SR\_SEARCH\_COUNTRY: SR\_SEARCH\_COUNTRY\_TOOLTIP|  |
+|documentInstance/person/personCountryId| *None* |SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP|  |
+|documentInstance/person/personNoMail| *None* |SR\_PERSONARCHIVE\_NOMAILINGS: SR\_PERSONARCHIVE\_NOMAILINGS\_TOOLTIP|  |
+|documentInstance/person/rank| *None* |SR\_PERSONARCHIVE\_RANK: SR\_PERSONARCHIVE\_RANK\_TOOLTIP|  |
+|documentInstance/person/birthdate| *None* |SR\_PERSONARCHIVE\_BIRTHDATE: SR\_PERSONARCHIVE\_BIRTHDATE\_TOOLTIP|  |
+|documentInstance/person/associateType| *None* |SR\_PERSONARCHIVE\_ASSOCIATETYPE: SR\_PERSONARCHIVE\_ASSOCIATETYPE\_TOOLTIP|  |
+|documentInstance/person/useAsMailingAddress| *None* |SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS: SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS\_TOOLTIP|  |
+|documentInstance/person/personSource| *None* |SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_CONTACT)|  |
+|documentInstance/person/retired| *None* |SR\_PDLG\_RETIRED: SR\_RETIRED\_TOOLTIP|  |
+|documentInstance/person/birthYear| *None* |SR\_ARCHIVE\_BIRTHYEAR: SR\_ARCHIVE\_BIRTHYEAR\_TOOLTIP|  |
+|documentInstance/person/birthMonth| *None* |SR\_ARCHIVE\_BIRTHMONTH: SR\_ARCHIVE\_BIRTHMONTH\_TOOLTIP|  |
+|documentInstance/person/birthDay| *None* |SR\_ARCHIVE\_BIRTHDAY: SR\_ARCHIVE\_BIRTHDAY\_TOOLTIP|  |
+|documentInstance/person/kanaFirstName| *None* |SR\_ARCHIVE\_KANAFIRST: SR\_ARCHIVE\_KANAFIRST\_TOOLTIP|  |
+|documentInstance/person/kanaLastName| *None* |SR\_ARCHIVE\_KANALAST: SR\_ARCHIVE\_KANALAST\_TOOLTIP|  |
+|documentInstance/person/personUpdatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/person/personUpdatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/person/personUpdatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|documentInstance/person/personRegisteredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/person/personRegisteredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/person/personRegisteredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|documentInstance/person/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/person/personActiveErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|documentInstance/person/ticketPriority| *None* |SR\_ARCHIVE\_TICKET\_PRIORITY: SR\_ARCHIVE\_TICKET\_PRIORITY\_TOOLTIP|  |
+|documentInstance/person/supportLanguage| *None* |SR\_FIELD\_PERSON\_SUPPORT\_LANGUAGE\_ID\_NAME: SR\_ARCHIVE\_SUPPORT\_LANGUAGE\_TOOLTIP|  |
+|documentInstance/person/supportAssociate| *None* |SR\_ARCHIVE\_SUPPORT\_ASSOCIATE: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP|  |
+|documentInstance/person/supportAssociateFullName| *None* |SR\_ARCHIVE\_SUPPORT\_ASSOCIATE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP|  |
+|documentInstance/person/personAssociateId| *None* |SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP|  |
+|documentInstance/person/personAssociateFullName| *None* |SR\_ARCHIVE\_OUR\_CONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP|  |
+|documentInstance/person/personCategory| *None* |SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/person/personCategoryGroup| *None* |SR\_ADMIN\_LISTS\_CATEGORYGROUP|  |
 |documentInstance/person/personCategoryRank| *None* |!!Category rank|  |
-|documentInstance/person/personBusiness| *None* |Business|  |
-|documentInstance/person/leadStatus| *None* |Lead status|  |
-|documentInstance/person/leadstatusRank| *None* |!!Lead status RANK|  |
+|documentInstance/person/personBusiness| *None* |SR\_ARCHIVE\_BUSINESS|  |
+|documentInstance/person/leadStatus| *None* |SR\_LABEL\_LEADSTATUS|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|documentInstance/person/personDeletedDate| *None* |Deleted date: Deleted date|  |
-|documentInstance/person/hasCompany| *None* |Has company: The contact is associated with a company|  |
-|documentInstance/person/isProjectMember| *None* |Is project member: This person is a project member|  |
-|documentInstance/person/isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
-|documentInstance/person/updatedByWorkflow| *None* |Updated by flow: Updated by flow|  |
-|documentInstance/person/whenUpdatedByWorkflow| *None* |When updated by flow: When updated by flow|  |
-|documentInstance/person/createdByForm| *None* |Created by form: Created by form|  |
-|documentInstance/person/phone/formattedNumber| *None* |Phone : Displays phone number|  |
-|documentInstance/person/personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
-|documentInstance/person/personDirectPhone/description| *None* |Direct - Description: Phone number description|  |
-|documentInstance/person/personMobilePhone/formattedNumber| *None* |Mobile - Phone: Displays phone number|  |
-|documentInstance/person/personMobilePhone/description| *None* |Mobile - Description: Phone number description|  |
-|documentInstance/person/personPrivate/formattedNumber| *None* |Private - Phone: Displays phone number|  |
-|documentInstance/person/personPrivate/description| *None* |Private - Description: Phone number description|  |
-|documentInstance/person/personPager/formattedNumber| *None* |Other - Phone: Displays phone number|  |
-|documentInstance/person/personPager/description| *None* |Other - Description: Phone number description|  |
-|documentInstance/person/personDirectFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
-|documentInstance/person/personDirectFax/description| *None* |Fax - Description: Phone number description|  |
-|documentInstance/person/searchPhone/formattedNumber| *None* |Phone : Displays phone number|  |
-|documentInstance/person/searchPhone/description| *None* |Description: Phone number description|  |
+|documentInstance/person/leadstatusRank| *None* |!!Lead status RANK|  |
+|documentInstance/person/personDeletedDate| *None* |SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|documentInstance/person/hasCompany| *None* |SR\_HAS\_COMPANY: SR\_HAS\_COMPANY\_TOOLTIP|  |
+|documentInstance/person/isProjectMember| *None* |SR\_IS\_PROJECT\_MEMBER: SR\_IS\_PROJECT\_MEMBER\_TOOLTIP|  |
+|documentInstance/person/isStakeholder| *None* |SR\_IS\_STAKEHOLDER: SR\_IS\_STAKEHOLDER\_TOOLTIP|  |
+|documentInstance/person/updatedByWorkflow| *None* |SR\_ARCHIVE\_UPDATED\_BY\_FLOW: SR\_ARCHIVE\_UPDATED\_BY\_FLOW|  |
+|documentInstance/person/whenUpdatedByWorkflow| *None* |SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN: SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN|  |
+|documentInstance/person/createdByForm| *None* |SR\_ARCHIVE\_CREATED\_BY\_FORM: SR\_ARCHIVE\_CREATED\_BY\_FORM|  |
+|documentInstance/person/phone/formattedNumber| *None* |SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/personDirectPhone/formattedNumber| *None* |SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/personDirectPhone/description| *None* |SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/person/personMobilePhone/formattedNumber| *None* |SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/personMobilePhone/description| *None* |SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/person/personPrivate/formattedNumber| *None* |SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/personPrivate/description| *None* |SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/person/personPager/formattedNumber| *None* |SR\_PERSONARCHIVE\_OTHERPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/personPager/description| *None* |SR\_PERSONARCHIVE\_OTHERPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/person/personDirectFax/formattedNumber| *None* |SR\_PERSONARCHIVE\_DIRECTFAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/personDirectFax/description| *None* |SR\_PERSONARCHIVE\_DIRECTFAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/person/searchPhone/formattedNumber| *None* |SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/person/searchPhone/description| *None* |SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
 |documentInstance/person/personInfo/textId| *None* |Text ID|  |
-|documentInstance/person/personInfo/infoText| *None* |Information: Displays the text entered in the description field|  |
-|documentInstance/person/email/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
-|documentInstance/person/email/emailAddress| *None* |E-mail|  |
-|documentInstance/person/email/emailDescription| *None* |Description|  |
+|documentInstance/person/personInfo/infoText| *None* |SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|documentInstance/person/email/emailProtocol| *None* |SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP|  |
+|documentInstance/person/email/emailAddress| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/person/email/emailDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
 |documentInstance/person/email/emailId| *None* |ID|  |
-|documentInstance/person/email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
-|documentInstance/person/email/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
-|documentInstance/person/email/emailLastBounce| *None* |Last bounce: Date and time for last bounce to this e-mail address|  |
-|documentInstance/person/email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
-|documentInstance/person/personUrl/URLAddress| *None* |URL|  |
-|documentInstance/person/personUrl/URLDescription| *None* |Description|  |
-|documentInstance/person/personAddress/addressId| *None* |Contact address - Address ID: Database ID for the address record|  |
-|documentInstance/person/personAddress/line1| *None* |Contact address - Address 1: First line of the address|  |
-|documentInstance/person/personAddress/line2| *None* |Contact address - Address 2: Second line of the address|  |
-|documentInstance/person/personAddress/line3| *None* |Contact address - Address 3: Third line of the address|  |
-|documentInstance/person/personAddress/county| *None* |Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|documentInstance/person/personAddress/city| *None* |Contact address - City: This criterion corresponds to the City field on the Company card.|  |
-|documentInstance/person/personAddress/zip| *None* |Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|documentInstance/person/personAddress/state| *None* |Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|documentInstance/person/personAddress/wgs84latitude| *None* |Contact address - Latitude: Latitude|  |
-|documentInstance/person/personAddress/wgs84longitude| *None* |Contact address - Longitude: Longitude|  |
-|documentInstance/person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/person/restrictionAddress/addressId| *None* |Search address - Address ID: Database ID for the address record|  |
-|documentInstance/person/restrictionAddress/line1| *None* |Search address - Address 1: First line of the address|  |
-|documentInstance/person/restrictionAddress/line2| *None* |Search address - Address 2: Second line of the address|  |
-|documentInstance/person/restrictionAddress/line3| *None* |Search address - Address 3: Third line of the address|  |
-|documentInstance/person/restrictionAddress/county| *None* |Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|documentInstance/person/restrictionAddress/city| *None* |Search address - City: This criterion corresponds to the City field on the Company card.|  |
-|documentInstance/person/restrictionAddress/zip| *None* |Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|documentInstance/person/restrictionAddress/state| *None* |Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|documentInstance/person/restrictionAddress/wgs84latitude| *None* |Search address - Latitude: Latitude|  |
-|documentInstance/person/restrictionAddress/wgs84longitude| *None* |Search address - Longitude: Longitude|  |
-|documentInstance/person/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/person/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/person/personInterestIds| *None* |Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
+|documentInstance/person/email/emailLastSent| *None* |SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP|  |
+|documentInstance/person/email/emailBounceCount| *None* |SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP|  |
+|documentInstance/person/email/emailLastBounce| *None* |SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP|  |
+|documentInstance/person/email/emailHasBounced| *None* |SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP|  |
+|documentInstance/person/personUrl/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|documentInstance/person/personUrl/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|documentInstance/person/personAddress/addressId| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|documentInstance/person/personAddress/line1| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|documentInstance/person/personAddress/line2| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|documentInstance/person/personAddress/line3| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|documentInstance/person/personAddress/county| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|documentInstance/person/personAddress/city| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|documentInstance/person/personAddress/zip| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|documentInstance/person/personAddress/state| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|documentInstance/person/personAddress/wgs84latitude| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|documentInstance/person/personAddress/wgs84longitude| *None* |SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|documentInstance/person/personAddress/formattedAddress| *None* |SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/person/personAddress/formattedMultiLineAddress| *None* |SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/person/restrictionAddress/addressId| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/line1| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/line2| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/line3| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/county| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/city| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/zip| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/state| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|documentInstance/person/restrictionAddress/wgs84latitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|documentInstance/person/restrictionAddress/wgs84longitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|documentInstance/person/restrictionAddress/formattedAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/person/restrictionAddress/formattedMultiLineAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/person/personInterestIds| *None* |SR\_SEARCH\_PERSON\_INTEREST: SR\_SEARCH\_CRITERION\_PERSON\_INTERESTS\_TOOLTIP|  |
 |documentInstance/person/personUdef/SuperOffice:1| *None* |contactshorttext: tooltipshorttext|  |
 |documentInstance/person/personUdef/SuperOffice:2| *None* |contactlongtext: tooltiplongtext|  |
 |documentInstance/person/personUdef/SuperOffice:3| *None* |contactnumber|  |
@@ -943,214 +944,214 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/person/personExtra/x\_person\_request\_relation| *None* |Extra request relation: Request relation on contact|  |
 |documentInstance/person/personExtra/x\_person\_appointment\_relation| *None* |Extra appointment relation: Appointment relation on person|  |
 |documentInstance/person/personExtra/x\_person\_contact\_relation| *None* |Extra company relation: Company relation on contact|  |
-|documentInstance/person/personExtra/y\_rental/id| *None* |Rental - id: Displays the row's primary key (y\_rental)|  |
+|documentInstance/person/personExtra/y\_rental/id| *None* |Rental - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_rental)|  |
 |documentInstance/person/personExtra/y\_rental/x\_start| *None* |Rental - Start rental: Start rental|  |
 |documentInstance/person/personExtra/y\_rental/x\_end| *None* |Rental - End: End|  |
 |documentInstance/person/personExtra/y\_rental/x\_amount| *None* |Rental - Amount: Number to rent. Default = 1|  |
 |documentInstance/person/personExtra/y\_rental/x\_contact| *None* |Rental - Renter: Company that rents equipment|  |
 |documentInstance/person/personExtra/y\_rental/y\_equipment/x\_name| *None* |Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
-|documentInstance/person/personExtra/y\_car/id| *None* |Car - id: Displays the row's primary key (y\_car)|  |
-|documentInstance/person/personAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/person/personAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/person/personAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|documentInstance/person/personAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|documentInstance/person/personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/person/personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/person/personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/person/personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
+|documentInstance/person/personExtra/y\_car/id| *None* |Car - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_car)|  |
+|documentInstance/person/personAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/person/personAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/person/personAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/person/personAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|documentInstance/person/personAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|documentInstance/person/personAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/person/personAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|documentInstance/person/personAssociate/associateDbId| *None* |ID|  |
-|documentInstance/person/personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|documentInstance/person/personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|documentInstance/person/personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|documentInstance/person/personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|documentInstance/person/personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|documentInstance/person/personAssociate/contactCategory| *None* |Category: Category|  |
-|documentInstance/person/personAssociate/role| *None* |Role : Role|  |
-|documentInstance/person/personAssociate/assocName| *None* |User ID : User ID|  |
-|documentInstance/person/personAssociate/assocTooltip| *None* |Description : Description|  |
-|documentInstance/person/personAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|documentInstance/person/personAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|documentInstance/person/personAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/person/personAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|documentInstance/person/personAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|documentInstance/person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|documentInstance/person/personAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|documentInstance/person/personAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|documentInstance/person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/person/personAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|documentInstance/person/personAssociate/userName| *None* |User name: User name|  |
-|documentInstance/person/personAssociate/personEmail| *None* |E-mail|  |
-|documentInstance/person/personAssociate/locationAddress| *None* |Location: Location|  |
-|documentInstance/person/personAssociate/isLocation| *None* |Is a location: Is a location|  |
-|documentInstance/person/correspondingAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/person/correspondingAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/person/correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|documentInstance/person/correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|documentInstance/person/correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/person/correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/person/correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/person/correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/person/correspondingAssociate/associateDbId| *None* |ID|  |
-|documentInstance/person/correspondingAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|documentInstance/person/correspondingAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|documentInstance/person/correspondingAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|documentInstance/person/correspondingAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|documentInstance/person/correspondingAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|documentInstance/person/correspondingAssociate/contactCategory| *None* |Category: Category|  |
-|documentInstance/person/correspondingAssociate/role| *None* |Role : Role|  |
-|documentInstance/person/correspondingAssociate/assocName| *None* |User ID : User ID|  |
-|documentInstance/person/correspondingAssociate/assocTooltip| *None* |Description : Description|  |
-|documentInstance/person/correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|documentInstance/person/correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|documentInstance/person/correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/person/correspondingAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|documentInstance/person/correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|documentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|documentInstance/person/correspondingAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|documentInstance/person/correspondingAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|documentInstance/person/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/person/correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|documentInstance/person/correspondingAssociate/userName| *None* |User name: User name|  |
-|documentInstance/person/correspondingAssociate/personEmail| *None* |E-mail|  |
-|documentInstance/person/correspondingAssociate/locationAddress| *None* |Location: Location|  |
-|documentInstance/person/correspondingAssociate/isLocation| *None* |Is a location: Is a location|  |
-|documentInstance/person/isMailingRecipient| *None* |Is mailing recipient: isMailingRecipient|  |
-|documentInstance/person/hasStoreConsent| *None* |Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|documentInstance/person/withdrawnStoreConsent| *None* |Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|documentInstance/person/hasEmarketingConsent| *None* |Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|documentInstance/person/withdrawnEmarketingConsent| *None* |Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|documentInstance/person/subscription| *None* |Subscription: Subscription for marketing|  |
-|documentInstance/person/legalBaseStore| *None* |Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|documentInstance/person/legalBaseEmarketing| *None* |Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|documentInstance/person/consentSourceStore| *None* |Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|documentInstance/person/consentSourceEmarketing| *None* |Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|documentInstance/contact/contactId| *None* |Company ID: Database ID of company|  |
-|documentInstance/contact/name| *None* |Company name|  |
-|documentInstance/contact/department| *None* |Department|  |
-|documentInstance/contact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
-|documentInstance/contact/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
-|documentInstance/contact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
-|documentInstance/contact/associateId| *None* |Our contact: Displays our contact|  |
-|documentInstance/contact/category| *None* |Category|  |
-|documentInstance/contact/categoryGroup| *None* |Category group|  |
+|documentInstance/person/personAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/person/personAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|documentInstance/person/personAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|documentInstance/person/personAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|documentInstance/person/personAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/person/personAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/person/personAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|documentInstance/person/personAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/person/personAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|documentInstance/person/personAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|documentInstance/person/personAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|documentInstance/person/personAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|documentInstance/person/personAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|documentInstance/person/personAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|documentInstance/person/personAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|documentInstance/person/personAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|documentInstance/person/personAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|documentInstance/person/personAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|documentInstance/person/personAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|documentInstance/person/personAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|documentInstance/person/personAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/person/personAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|documentInstance/person/personAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|documentInstance/person/personAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/person/personAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|documentInstance/person/personAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|documentInstance/person/correspondingAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|documentInstance/person/correspondingAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/person/correspondingAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|documentInstance/person/correspondingAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|documentInstance/person/correspondingAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|documentInstance/person/correspondingAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|documentInstance/person/correspondingAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|documentInstance/person/correspondingAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|documentInstance/person/correspondingAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/person/correspondingAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|documentInstance/person/correspondingAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|documentInstance/person/correspondingAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/person/correspondingAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|documentInstance/person/correspondingAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|documentInstance/person/isMailingRecipient| *None* |SR\_DASHBOARD\_MAILINGS\_RECIPIENT: isMailingRecipient|  |
+|documentInstance/person/hasStoreConsent| *None* |SR\_TOOLTIP\_CONSENTHAS - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|documentInstance/person/withdrawnStoreConsent| *None* |SR\_TOOLTIP\_CONSENTWITHDRAWN - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|documentInstance/person/hasEmarketingConsent| *None* |SR\_TOOLTIP\_CONSENTHAS - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|documentInstance/person/withdrawnEmarketingConsent| *None* |SR\_TOOLTIP\_CONSENTWITHDRAWN - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|documentInstance/person/subscription| *None* |SR\_SUBSCRIPTION: SR\_SUBSCRIPTION\_TOOLTIP|  |
+|documentInstance/person/legalBaseStore| *None* |SR\_LEGALBASE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|documentInstance/person/legalBaseEmarketing| *None* |SR\_LEGALBASE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|documentInstance/person/consentSourceStore| *None* |SR\_CONSENTSOURCE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|documentInstance/person/consentSourceEmarketing| *None* |SR\_CONSENTSOURCE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|documentInstance/contact/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|documentInstance/contact/name| *None* |SR\_COMPANY\_NAME|  |
+|documentInstance/contact/department| *None* |SR\_ARCHIVE\_DEPARTEMENT|  |
+|documentInstance/contact/nameDepartment| *None* |SR\_ACTIVITYARCHIVE\_CONTACT: SR\_ACTIVITYARCHIVE\_CONTACT\_TOOLTIP|  |
+|documentInstance/contact/hasInfoText| *None* |SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP|  |
+|documentInstance/contact/hasInterests| *None* |SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP|  |
+|documentInstance/contact/associateId| *None* |SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP|  |
+|documentInstance/contact/category| *None* |SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/contact/categoryGroup| *None* |SR\_ADMIN\_LISTS\_CATEGORYGROUP|  |
 |documentInstance/contact/companyCategoryRank| *None* |Category rank|  |
-|documentInstance/contact/business| *None* |Business|  |
-|documentInstance/contact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
-|documentInstance/contact/countryId| *None* |Country ID: Country ID|  |
-|documentInstance/contact/number| *None* |Number|  |
-|documentInstance/contact/code| *None* |Code|  |
+|documentInstance/contact/business| *None* |SR\_ARCHIVE\_BUSINESS|  |
+|documentInstance/contact/country| *None* |SR\_SEARCH\_COUNTRY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTRY\_TOOLTIP|  |
+|documentInstance/contact/countryId| *None* |SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP|  |
+|documentInstance/contact/number| *None* |SR\_ARCHIVE\_NUMBER|  |
+|documentInstance/contact/code| *None* |SR\_ARCHIVE\_CODE|  |
 |documentInstance/contact/orgnr| *None* |VAT No.|  |
-|documentInstance/contact/stop| *None* |Stop|  |
-|documentInstance/contact/contactNoMail| *None* |No mailings (company|  |
-|documentInstance/contact/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|documentInstance/contact/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|documentInstance/contact/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|documentInstance/contact/registeredBy| *None* |Registered by: The user who registered the data|  |
-|documentInstance/contact/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|documentInstance/contact/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|documentInstance/contact/contactSource| *None* |Source: Source (Company)|  |
-|documentInstance/contact/contactDeleted| *None* |Deleted: Deleted|  |
-|documentInstance/contact/phone/formattedNumber| *None* |Phone : Displays phone number|  |
-|documentInstance/contact/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/contact/deletedDate| *None* |Deleted date: Deleted date|  |
-|documentInstance/contact/mainContact| *None* |Main contact: Main contact for this company|  |
+|documentInstance/contact/stop| *None* |SR\_CC\_STOPX|  |
+|documentInstance/contact/contactNoMail| *None* |SR\_NO\_MAIL\_COMPANY|  |
+|documentInstance/contact/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/contact/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/contact/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|documentInstance/contact/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/contact/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/contact/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|documentInstance/contact/contactSource| *None* |SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_COMPANY)|  |
+|documentInstance/contact/contactDeleted| *None* |SR\_ARCHIVE\_DELETED: SR\_ARCHIVE\_DELETED|  |
+|documentInstance/contact/phone/formattedNumber| *None* |SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/contact/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|documentInstance/contact/deletedDate| *None* |SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|documentInstance/contact/mainContact| *None* |SR\_COMPANY\_MAIN\_CONTACT: SR\_COMPANY\_MAIN\_CONTACT\_TOOLTIP|  |
 |documentInstance/contact/forceCompany| *None* |Dummy: Dummy|  |
-|documentInstance/contact/contactPhone/formattedNumber| *None* |Telephone - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|documentInstance/contact/contactPhone/description| *None* |Telephone - Description: Phone number description|  |
-|documentInstance/contact/contactFax/formattedNumber| *None* |Fax - Phone: Displays phone number|  |
-|documentInstance/contact/contactFax/description| *None* |Fax - Description: Phone number description|  |
-|documentInstance/contact/searchPhone/formattedNumber| *None* |Searchphone - Phone: Displays phone number|  |
-|documentInstance/contact/searchPhone/description| *None* |Searchphone - Description: Phone number description|  |
-|documentInstance/contact/email/emailProtocol| *None* |Protocol: E-mail protocol, such as SMTP|  |
-|documentInstance/contact/email/emailAddress| *None* |E-mail|  |
-|documentInstance/contact/email/emailDescription| *None* |Description|  |
+|documentInstance/contact/contactPhone/formattedNumber| *None* |SR\_CONTACTARCHIVE\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/contact/contactPhone/description| *None* |SR\_CONTACTARCHIVE\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/contact/contactFax/formattedNumber| *None* |SR\_CONTACTARCHIVE\_FAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/contact/contactFax/description| *None* |SR\_CONTACTARCHIVE\_FAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/contact/searchPhone/formattedNumber| *None* |SR\_RESTRICTION\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|documentInstance/contact/searchPhone/description| *None* |SR\_RESTRICTION\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP|  |
+|documentInstance/contact/email/emailProtocol| *None* |SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP|  |
+|documentInstance/contact/email/emailAddress| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/contact/email/emailDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
 |documentInstance/contact/email/emailId| *None* |ID|  |
-|documentInstance/contact/email/emailLastSent| *None* |Last sent: The date and time an e-mail was last sent to this address|  |
-|documentInstance/contact/email/emailBounceCount| *None* |Bounce count: Bounce count for this e-mail address|  |
-|documentInstance/contact/email/emailLastBounce| *None* |Last bounce: Date and time for last bounce to this e-mail address|  |
-|documentInstance/contact/email/emailHasBounced| *None* |Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
-|documentInstance/contact/postAddress/addressId| *None* |Postal address - Address ID: Database ID for the address record|  |
-|documentInstance/contact/postAddress/line1| *None* |Postal address - Address 1: First line of the address|  |
-|documentInstance/contact/postAddress/line2| *None* |Postal address - Address 2: Second line of the address|  |
-|documentInstance/contact/postAddress/line3| *None* |Postal address - Address 3: Third line of the address|  |
-|documentInstance/contact/postAddress/county| *None* |Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|documentInstance/contact/postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
-|documentInstance/contact/postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|documentInstance/contact/postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|documentInstance/contact/postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
-|documentInstance/contact/postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
-|documentInstance/contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/streetAddress/addressId| *None* |Street address - Address ID: Database ID for the address record|  |
-|documentInstance/contact/streetAddress/line1| *None* |Street address - Address 1: First line of the address|  |
-|documentInstance/contact/streetAddress/line2| *None* |Street address - Address 2: Second line of the address|  |
-|documentInstance/contact/streetAddress/line3| *None* |Street address - Address 3: Third line of the address|  |
-|documentInstance/contact/streetAddress/county| *None* |Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|documentInstance/contact/streetAddress/city| *None* |Street address - City: This criterion corresponds to the City field on the Company card.|  |
-|documentInstance/contact/streetAddress/zip| *None* |Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|documentInstance/contact/streetAddress/state| *None* |Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|documentInstance/contact/streetAddress/wgs84latitude| *None* |Street address - Latitude: Latitude|  |
-|documentInstance/contact/streetAddress/wgs84longitude| *None* |Street address - Longitude: Longitude|  |
-|documentInstance/contact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/restrictionAddress/addressId| *None* |Search address - Address ID: Database ID for the address record|  |
-|documentInstance/contact/restrictionAddress/line1| *None* |Search address - Address 1: First line of the address|  |
-|documentInstance/contact/restrictionAddress/line2| *None* |Search address - Address 2: Second line of the address|  |
-|documentInstance/contact/restrictionAddress/line3| *None* |Search address - Address 3: Third line of the address|  |
-|documentInstance/contact/restrictionAddress/county| *None* |Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|documentInstance/contact/restrictionAddress/city| *None* |Search address - City: This criterion corresponds to the City field on the Company card.|  |
-|documentInstance/contact/restrictionAddress/zip| *None* |Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|documentInstance/contact/restrictionAddress/state| *None* |Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|documentInstance/contact/restrictionAddress/wgs84latitude| *None* |Search address - Latitude: Latitude|  |
-|documentInstance/contact/restrictionAddress/wgs84longitude| *None* |Search address - Longitude: Longitude|  |
-|documentInstance/contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|documentInstance/contact/url/URLAddress| *None* |URL|  |
-|documentInstance/contact/url/URLDescription| *None* |Description|  |
-|documentInstance/contact/contactAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/contact/contactAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/contact/contactAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|documentInstance/contact/contactAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|documentInstance/contact/contactAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/contact/contactAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/contact/contactAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/contact/contactAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/contact/contactAssociate/associateDbId| *None* |ID|  |
-|documentInstance/contact/contactAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|documentInstance/contact/contactAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|documentInstance/contact/contactAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|documentInstance/contact/contactAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|documentInstance/contact/contactAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|documentInstance/contact/contactAssociate/contactCategory| *None* |Category: Category|  |
-|documentInstance/contact/contactAssociate/role| *None* |Role : Role|  |
-|documentInstance/contact/contactAssociate/assocName| *None* |User ID : User ID|  |
-|documentInstance/contact/contactAssociate/assocTooltip| *None* |Description : Description|  |
-|documentInstance/contact/contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|documentInstance/contact/contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|documentInstance/contact/contactAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/contact/contactAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|documentInstance/contact/contactAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/contact/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|documentInstance/contact/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|documentInstance/contact/contactAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|documentInstance/contact/contactAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|documentInstance/contact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/contact/contactAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|documentInstance/contact/contactAssociate/userName| *None* |User name: User name|  |
-|documentInstance/contact/contactAssociate/personEmail| *None* |E-mail|  |
-|documentInstance/contact/contactAssociate/locationAddress| *None* |Location: Location|  |
-|documentInstance/contact/contactAssociate/isLocation| *None* |Is a location: Is a location|  |
-|documentInstance/contact/contactInterestIds| *None* |Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|documentInstance/contact/email/emailLastSent| *None* |SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP|  |
+|documentInstance/contact/email/emailBounceCount| *None* |SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP|  |
+|documentInstance/contact/email/emailLastBounce| *None* |SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP|  |
+|documentInstance/contact/email/emailHasBounced| *None* |SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP|  |
+|documentInstance/contact/postAddress/addressId| *None* |SR\_AL\_POSTAL - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|documentInstance/contact/postAddress/line1| *None* |SR\_AL\_POSTAL - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|documentInstance/contact/postAddress/line2| *None* |SR\_AL\_POSTAL - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|documentInstance/contact/postAddress/line3| *None* |SR\_AL\_POSTAL - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|documentInstance/contact/postAddress/county| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|documentInstance/contact/postAddress/city| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|documentInstance/contact/postAddress/zip| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|documentInstance/contact/postAddress/state| *None* |SR\_AL\_POSTAL - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|documentInstance/contact/postAddress/wgs84latitude| *None* |SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|documentInstance/contact/postAddress/wgs84longitude| *None* |SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|documentInstance/contact/postAddress/formattedAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/postAddress/formattedMultiLineAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/streetAddress/addressId| *None* |SR\_AL\_STREET - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/line1| *None* |SR\_AL\_STREET - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/line2| *None* |SR\_AL\_STREET - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/line3| *None* |SR\_AL\_STREET - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/county| *None* |SR\_AL\_STREET - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/city| *None* |SR\_AL\_STREET - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/zip| *None* |SR\_AL\_STREET - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/state| *None* |SR\_AL\_STREET - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|documentInstance/contact/streetAddress/wgs84latitude| *None* |SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|documentInstance/contact/streetAddress/wgs84longitude| *None* |SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|documentInstance/contact/streetAddress/formattedAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/streetAddress/formattedMultiLineAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/restrictionAddress/addressId| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/line1| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/line2| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/line3| *None* |SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/county| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/city| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/zip| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/state| *None* |SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP|  |
+|documentInstance/contact/restrictionAddress/wgs84latitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE|  |
+|documentInstance/contact/restrictionAddress/wgs84longitude| *None* |SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE|  |
+|documentInstance/contact/restrictionAddress/formattedAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/restrictionAddress/formattedMultiLineAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|documentInstance/contact/url/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|documentInstance/contact/url/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|documentInstance/contact/contactAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|documentInstance/contact/contactAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/contact/contactAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|documentInstance/contact/contactAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|documentInstance/contact/contactAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|documentInstance/contact/contactAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|documentInstance/contact/contactAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|documentInstance/contact/contactAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|documentInstance/contact/contactAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/contact/contactAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|documentInstance/contact/contactAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|documentInstance/contact/contactAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/contact/contactAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|documentInstance/contact/contactAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|documentInstance/contact/contactInterestIds| *None* |SR\_SEARCH\_CONTACT\_INTEREST: SR\_SEARCH\_CRITERION\_CONTACT\_INTEREST\_TOOLTIP|  |
 |documentInstance/contact/contactUdef/SuperOffice:1| *None* |companyshorttext: tooltipshorttext|  |
 |documentInstance/contact/contactUdef/SuperOffice:2| *None* |companylongtext: tooltiplongtext|  |
 |documentInstance/contact/contactUdef/SuperOffice:3| *None* |companynumber|  |
@@ -1165,11 +1166,11 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/contactUdef/SuperOffice:12| *None* |Udlist one: Static tooltip for udlist one|  |
 |documentInstance/contact/contactUdef/SuperOffice:13| *None* |Udlist two: Static tooltip for udlist two|  |
 |documentInstance/contact/contactExtra/x\_contact\_integer| *None* |Extra Integer: Custom integer field|  |
-|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactExtra/x\_contact\_hidden\_integer| *None* |Extra hidden integer: Custom integer field - hidden|  |
 |documentInstance/contact/contactExtra/x\_contact\_default\_integer| *None* |Extra Default Integer: Custom integer field with default value 123.|  |
 |documentInstance/contact/contactExtra/x\_contact\_float| *None* |Extra Float: Custom float field with 3 decimals|  |
 |documentInstance/contact/contactExtra/x\_contact\_longtext| *None* |Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
@@ -1185,108 +1186,108 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/contact/contactExtra/x\_contact\_request\_relation| *None* |Extra Request relation: Request relation on company|  |
 |documentInstance/contact/contactExtra/x\_contact\_contact| *None* |Extra contact relation: Contact relation on company|  |
 |documentInstance/contact/contactExtra/y\_organization/x\_name| *None* |Organization - Name: Name|  |
-|documentInstance/contact/NumberOfActivities| *None* |Number of activities|  |
-|documentInstance/contact/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
-|documentInstance/contact/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
-|documentInstance/contact/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-|documentInstance/contact/LastActivity| *None* |Date of last activity|  |
-|documentInstance/contact/LastCompletedActivity| *None* |Date of last completed activity|  |
-|documentInstance/contact/LastDoByActivity| *None* |Date of last non-completed activity|  |
-|documentInstance/contact/NumberOfSales| *None* |Number of sales|  |
-|documentInstance/contact/NumberOfSalesInPeriod| *None* |Number of sales in last 90 days|  |
-|documentInstance/contact/NumberOfNotCompletedSales| *None* |Number of non-completed sales|  |
-|documentInstance/contact/NumberOfNotCompletedSalesInPeriod| *None* |Number of non-completed sales in last 90 days|  |
-|documentInstance/contact/LastSale| *None* |Date of last sale|  |
-|documentInstance/contact/LastCompletedSale| *None* |Date of last completed sale|  |
-|documentInstance/contact/LastDoBySale| *None* |Date of last non-completed sale|  |
-|documentInstance/contact/NumberOfTickets| *None* |Number of requests|  |
-|documentInstance/contact/NumberOfTicketsInPeriod| *None* |Number of requests in last 90 days|  |
-|documentInstance/contact/NumberOfNotCompletedTickets| *None* |Number of non-completed requests|  |
-|documentInstance/contact/NumberOfNotCompletedTicketsInPeriod| *None* |Number of non-completed requests in last 90 days|  |
-|documentInstance/contact/LastTicket| *None* |Date of last request|  |
-|documentInstance/contact/LastCompletedTicket| *None* |Date of last completed request|  |
-|documentInstance/contact/LastDoByTicket| *None* |Date of last non-completed request|  |
+|documentInstance/contact/NumberOfActivities| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|documentInstance/contact/NumberOfActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/contact/NumberOfNotCompletedActivities| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|documentInstance/contact/NumberOfNotCompletedActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/contact/LastActivity| *None* |SR\_ROU\_LAST\_ACTIVITY|  |
+|documentInstance/contact/LastCompletedActivity| *None* |SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|documentInstance/contact/LastDoByActivity| *None* |SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|documentInstance/contact/NumberOfSales| *None* |SR\_ROU\_NUMBER\_OF\_SALES|  |
+|documentInstance/contact/NumberOfSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/contact/NumberOfNotCompletedSales| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|documentInstance/contact/NumberOfNotCompletedSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/contact/LastSale| *None* |SR\_ROU\_LAST\_SALE|  |
+|documentInstance/contact/LastCompletedSale| *None* |SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|documentInstance/contact/LastDoBySale| *None* |SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
+|documentInstance/contact/NumberOfTickets| *None* |SR\_ROU\_NUMBER\_OF\_TICKETS|  |
+|documentInstance/contact/NumberOfTicketsInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/contact/NumberOfNotCompletedTickets| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS|  |
+|documentInstance/contact/NumberOfNotCompletedTicketsInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/contact/LastTicket| *None* |SR\_ROU\_LAST\_TICKET|  |
+|documentInstance/contact/LastCompletedTicket| *None* |SR\_ROU\_LAST\_COMPLETED\_TICKET|  |
+|documentInstance/contact/LastDoByTicket| *None* |SR\_ROU\_LAST\_INCOMPLETE\_TICKET|  |
 |documentInstance/contact/SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |documentInstance/contact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
-|documentInstance/contact/saintSaleStatus| *None* |With status|  |
-|documentInstance/contact/saintAmountClass| *None* |Amount class|  |
-|documentInstance/contact/saintActivityType| *None* |SAINT type|  |
-|documentInstance/contact/saintDirection| *None* |Direction|  |
-|documentInstance/contact/saintIntention| *None* |Intention|  |
-|documentInstance/contact/saintTicketStatus| *None* |Status|  |
-|documentInstance/contact/saintTicketCategory| *None* |Category|  |
-|documentInstance/project/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
-|documentInstance/project/projectId| *None* |DB ID: Displays the database ID for a project row|  |
-|documentInstance/project/name| *None* |Project name: Displays the Project's name|  |
-|documentInstance/project/number| *None* |Number: Displays the project's number|  |
-|documentInstance/project/type| *None* |Project type: Displays the project's type|  |
-|documentInstance/project/status| *None* |Status: Displays the project's status|  |
-|documentInstance/project/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
-|documentInstance/project/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
-|documentInstance/project/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
-|documentInstance/project/icon| *None* |Category: Displays the icon for an activity type|  |
-|documentInstance/project/text| *None* |Text: Displays a descriptive text for the item|  |
-|documentInstance/project/description| *None* |Description : Description|  |
-|documentInstance/project/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|documentInstance/project/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|documentInstance/project/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|documentInstance/project/registeredBy| *None* |Registered by: The user who registered the data|  |
-|documentInstance/project/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|documentInstance/project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|documentInstance/project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
-|documentInstance/project/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
-|documentInstance/project/endDate| *None* |End date: End date of project|  |
-|documentInstance/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|documentInstance/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/project/eventId| *None* |Event ID: Event ID|  |
-|documentInstance/project/startDate| *None* |Start date: Project start date|  |
-|documentInstance/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|documentInstance/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|documentInstance/project/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|documentInstance/project/projectPublish/publishedBy| *None* |Published by: Published by|  |
-|documentInstance/project/projectEvent/isExternalEvent| *None* |Event: Is this an external event|  |
-|documentInstance/project/projectEvent/eventDate| *None* |Event date: Event date|  |
-|documentInstance/project/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled|  |
-|documentInstance/project/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled|  |
-|documentInstance/project/projectUrl/URLAddress| *None* |URL|  |
-|documentInstance/project/projectUrl/URLDescription| *None* |Description|  |
-|documentInstance/project/projectAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/project/projectAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/project/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|documentInstance/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|documentInstance/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/project/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/project/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/project/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/project/projectAssociate/associateDbId| *None* |ID|  |
-|documentInstance/project/projectAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|documentInstance/project/projectAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|documentInstance/project/projectAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|documentInstance/project/projectAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|documentInstance/project/projectAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|documentInstance/project/projectAssociate/contactCategory| *None* |Category: Category|  |
-|documentInstance/project/projectAssociate/role| *None* |Role : Role|  |
-|documentInstance/project/projectAssociate/assocName| *None* |User ID : User ID|  |
-|documentInstance/project/projectAssociate/assocTooltip| *None* |Description : Description|  |
-|documentInstance/project/projectAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|documentInstance/project/projectAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
+|documentInstance/contact/saintSaleStatus| *None* |SR\_WITH\_STATUS|  |
+|documentInstance/contact/saintAmountClass| *None* |SR\_AMOUNT\_CLASS|  |
+|documentInstance/contact/saintActivityType| *None* |SR\_ARCHIVE\_SAINT\_TYPE|  |
+|documentInstance/contact/saintDirection| *None* |SR\_ARCHIVE\_DIRECTION|  |
+|documentInstance/contact/saintIntention| *None* |SR\_ACTIVITY\_INTENTION|  |
+|documentInstance/contact/saintTicketStatus| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|documentInstance/contact/saintTicketCategory| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
+|documentInstance/project/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_PROJECTARCHIVE\_COMPLETED\_TOOLTIP|  |
+|documentInstance/project/projectId| *None* |SR\_PROJECTARCHIVE\_RECORDID: SR\_PROJECTARCHIVE\_RECORDID\_TOOLTIP|  |
+|documentInstance/project/name| *None* |SR\_PROJECTARCHIVE\_NAME: SR\_PROJECTARCHIVE\_NAME\_TOOLTIP|  |
+|documentInstance/project/number| *None* |SR\_PROJECTARCHIVE\_NUMBER: SR\_PROJECTARCHIVE\_NUMBER\_TOOLTIP|  |
+|documentInstance/project/type| *None* |SR\_PROJECTARCHIVE\_TYPE: SR\_PROJECTARCHIVE\_TYPE\_TOOLTIP|  |
+|documentInstance/project/status| *None* |SR\_PROJECTARCHIVE\_STATUS: SR\_PROJECTARCHIVE\_STATUS\_TOOLTIP|  |
+|documentInstance/project/statusRank| *None* |SR\_PROJECTARCHIVE\_STATUS\_RANK: SR\_PROJECTARCHIVE\_STATUS\_RANK\_TOOLTIP|  |
+|documentInstance/project/associateId| *None* |SR\_PROJECTARCHIVE\_ASSOCIATEID: SR\_PROJECTARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|documentInstance/project/hasInfoText| *None* |SR\_PROJECTARCHIVE\_HASINFO: SR\_PROJECTARCHIVE\_HASINFO\_TOOLTIP|  |
+|documentInstance/project/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|documentInstance/project/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|documentInstance/project/description| *None* |SR\_LABEL\_DESCRIPTION: SR\_LABEL\_DESCRIPTION|  |
+|documentInstance/project/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/project/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/project/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|documentInstance/project/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/project/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/project/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|documentInstance/project/hasGuide| *None* |SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP|  |
+|documentInstance/project/nextMilestone| *None* |SR\_ARCHIVE\_NEXTMILESTONE: SR\_ARCHIVE\_NEXTMILESTONE\_TOOLTIP|  |
+|documentInstance/project/endDate| *None* |SR\_ARCHIVE\_ENDDATE: SR\_ARCHIVE\_ENDDATE\_TOOLTIP|  |
+|documentInstance/project/imageThumbnail| *None* |SR\_PROJECTARCHIVE\_THUMBNAIL: SR\_PROJECTARCHIVE\_THUMBNAIL\_TOOLTIP|  |
+|documentInstance/project/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|documentInstance/project/eventId| *None* |SR\_FIELD\_PROJECT\_EVENT\_ID: SR\_FIELD\_PROJECT\_EVENT\_ID|  |
+|documentInstance/project/startDate| *None* |SR\_ARCHIVE\_STARTDATE: SR\_ARCHIVE\_STARTDATE\_TOOLTIP|  |
+|documentInstance/project/projectPublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|documentInstance/project/projectPublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|documentInstance/project/projectPublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|documentInstance/project/projectPublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|documentInstance/project/projectEvent/isExternalEvent| *None* |SR\_EXTERNAL\_EVENT: SR\_EXTERNAL\_EVENT\_TOOLTIP|  |
+|documentInstance/project/projectEvent/eventDate| *None* |SR\_PROJECT\_EVENT\_DATE: SR\_PUBLISHED\_EVENT\_DATE\_TOOLTIP|  |
+|documentInstance/project/projectEvent/hasSignOn| *None* |SR\_EVENT\_HASSIGNON: SR\_EVENT\_HASSIGNON\_TOOLTIP|  |
+|documentInstance/project/projectEvent/hasSignOff| *None* |SR\_EVENT\_HASSIGNOFF: SR\_EVENT\_HASSIGNOFF\_TOOLTIP|  |
+|documentInstance/project/projectUrl/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|documentInstance/project/projectUrl/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|documentInstance/project/projectAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|documentInstance/project/projectAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/project/projectAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|documentInstance/project/projectAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|documentInstance/project/projectAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|documentInstance/project/projectAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|documentInstance/project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|documentInstance/project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|documentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|documentInstance/project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|documentInstance/project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|documentInstance/project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|documentInstance/project/projectAssociate/userName| *None* |User name: User name|  |
-|documentInstance/project/projectAssociate/personEmail| *None* |E-mail|  |
-|documentInstance/project/projectAssociate/locationAddress| *None* |Location: Location|  |
-|documentInstance/project/projectAssociate/isLocation| *None* |Is a location: Is a location|  |
+|documentInstance/project/projectAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|documentInstance/project/projectAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|documentInstance/project/projectAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|documentInstance/project/projectAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/project/projectAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|documentInstance/project/projectAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|documentInstance/project/projectAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/project/projectAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|documentInstance/project/projectAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
 |documentInstance/project/projectUdef/SuperOffice:1| *None* |projectshorttext|  |
 |documentInstance/project/projectUdef/SuperOffice:2| *None* |projectlongtext|  |
 |documentInstance/project/projectUdef/SuperOffice:3| *None* |projectnumber|  |
@@ -1297,63 +1298,63 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/project/projectUdef/SuperOffice:8| *None* |projectdecimal|  |
 |documentInstance/project/projectUdef/SuperOffice:9| *None* |page1saleandmarketing|  |
 |documentInstance/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
-|documentInstance/project/NumberOfActivities| *None* |Number of activities|  |
-|documentInstance/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
-|documentInstance/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
-|documentInstance/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-|documentInstance/project/LastActivity| *None* |Date of last activity|  |
-|documentInstance/project/LastCompletedActivity| *None* |Date of last completed activity|  |
-|documentInstance/project/LastDoByActivity| *None* |Date of last non-completed activity|  |
-|documentInstance/project/NumberOfSales| *None* |Number of sales|  |
-|documentInstance/project/NumberOfSalesInPeriod| *None* |Number of sales in last 90 days|  |
-|documentInstance/project/NumberOfNotCompletedSales| *None* |Number of non-completed sales|  |
-|documentInstance/project/NumberOfNotCompletedSalesInPeriod| *None* |Number of non-completed sales in last 90 days|  |
-|documentInstance/project/LastSale| *None* |Date of last sale|  |
-|documentInstance/project/LastCompletedSale| *None* |Date of last completed sale|  |
-|documentInstance/project/LastDoBySale| *None* |Date of last non-completed sale|  |
+|documentInstance/project/NumberOfActivities| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|documentInstance/project/NumberOfActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/project/NumberOfNotCompletedActivities| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|documentInstance/project/NumberOfNotCompletedActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/project/LastActivity| *None* |SR\_ROU\_LAST\_ACTIVITY|  |
+|documentInstance/project/LastCompletedActivity| *None* |SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|documentInstance/project/LastDoByActivity| *None* |SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|documentInstance/project/NumberOfSales| *None* |SR\_ROU\_NUMBER\_OF\_SALES|  |
+|documentInstance/project/NumberOfSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/project/NumberOfNotCompletedSales| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|documentInstance/project/NumberOfNotCompletedSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|documentInstance/project/LastSale| *None* |SR\_ROU\_LAST\_SALE|  |
+|documentInstance/project/LastCompletedSale| *None* |SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|documentInstance/project/LastDoBySale| *None* |SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
 |documentInstance/project/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|documentInstance/project/saintSaleStatus| *None* |With status|  |
-|documentInstance/project/saintAmountClass| *None* |Amount class|  |
-|documentInstance/project/saintActivityType| *None* |SAINT type|  |
-|documentInstance/project/saintDirection| *None* |Direction|  |
-|documentInstance/project/saintIntention| *None* |Intention|  |
-|documentInstance/project/saintTicketStatus| *None* |Status|  |
-|documentInstance/project/saintTicketCategory| *None* |Category|  |
+|documentInstance/project/saintSaleStatus| *None* |SR\_WITH\_STATUS|  |
+|documentInstance/project/saintAmountClass| *None* |SR\_AMOUNT\_CLASS|  |
+|documentInstance/project/saintActivityType| *None* |SR\_ARCHIVE\_SAINT\_TYPE|  |
+|documentInstance/project/saintDirection| *None* |SR\_ARCHIVE\_DIRECTION|  |
+|documentInstance/project/saintIntention| *None* |SR\_ACTIVITY\_INTENTION|  |
+|documentInstance/project/saintTicketStatus| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|documentInstance/project/saintTicketCategory| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
 |documentInstance/project/project/textId| *None* |Text ID|  |
-|documentInstance/project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
-|documentInstance/associate/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/associate/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|documentInstance/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|documentInstance/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/associate/associateDbId| *None* |ID|  |
-|documentInstance/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|documentInstance/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|documentInstance/associate/usergroup| *None* |Primary group: The user's primary user group|  |
-|documentInstance/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|documentInstance/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|documentInstance/associate/contactCategory| *None* |Category: Category|  |
-|documentInstance/associate/role| *None* |Role : Role|  |
-|documentInstance/associate/assocName| *None* |User ID : User ID|  |
-|documentInstance/associate/assocTooltip| *None* |Description : Description|  |
-|documentInstance/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|documentInstance/associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|documentInstance/associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/associate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|documentInstance/associate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|documentInstance/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|documentInstance/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|documentInstance/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|documentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/associate/otherGroups| *None* |Other groups: Other groups|  |
-|documentInstance/associate/userName| *None* |User name: User name|  |
-|documentInstance/associate/personEmail| *None* |E-mail|  |
-|documentInstance/associate/locationAddress| *None* |Location: Location|  |
-|documentInstance/associate/isLocation| *None* |Is a location: Is a location|  |
+|documentInstance/project/project/infoText| *None* |SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|documentInstance/associate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/associate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/associate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/associate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|documentInstance/associate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|documentInstance/associate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/associate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/associate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/associate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|documentInstance/associate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|documentInstance/associate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|documentInstance/associate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/associate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/associate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|documentInstance/associate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/associate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|documentInstance/associate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|documentInstance/associate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|documentInstance/associate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|documentInstance/associate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|documentInstance/associate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|documentInstance/associate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|documentInstance/associate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|documentInstance/associate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|documentInstance/associate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|documentInstance/associate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|documentInstance/associate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|documentInstance/associate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/associate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|documentInstance/associate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|documentInstance/associate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/associate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|documentInstance/associate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
 |documentInstance/documentUdef/SuperOffice:1| *None* |documentshorttext|  |
 |documentInstance/documentUdef/SuperOffice:2| *None* |documentlongtext|  |
 |documentInstance/documentUdef/SuperOffice:3| *None* |documentnumber|  |
@@ -1362,106 +1363,106 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/documentUdef/SuperOffice:6| *None* |documentcheckbox|  |
 |documentInstance/documentUdef/SuperOffice:7| *None* |documentdropdownlistbox|  |
 |documentInstance/documentUdef/SuperOffice:8| *None* |documentdecimal|  |
-|documentInstance/sale/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
-|documentInstance/sale/icon| *None* |Category: Displays the icon for an activity type|  |
-|documentInstance/sale/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
-|documentInstance/sale/time| *None* |Time: Time|  |
-|documentInstance/sale/type| *None* |Type: Displays the type of an activity|  |
-|documentInstance/sale/recordType| *None* |Record type : Shows the record type|  |
-|documentInstance/sale/text| *None* |Text: Displays a descriptive text for the item|  |
-|documentInstance/sale/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
-|documentInstance/sale/contactId| *None* |Company ID: Database ID of company|  |
-|documentInstance/sale/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/sale/projectId| *None* |Project ID: Database ID of project record|  |
-|documentInstance/sale/saleId| *None* |Sale ID: The database ID of the sale record|  |
+|documentInstance/sale/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP|  |
+|documentInstance/sale/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|documentInstance/sale/date| *None* |SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP|  |
+|documentInstance/sale/time| *None* |SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
+|documentInstance/sale/type| *None* |SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP|  |
+|documentInstance/sale/recordType| *None* |SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP|  |
+|documentInstance/sale/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|documentInstance/sale/associateId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|documentInstance/sale/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|documentInstance/sale/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/sale/projectId| *None* |SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|documentInstance/sale/userGroup| *None* |User group : The user group that owns the record|  |
-|documentInstance/sale/who| *None* |Who: Contact and/or company|  |
-|documentInstance/sale/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|documentInstance/sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|documentInstance/sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|documentInstance/sale/registeredBy| *None* |Registered by: The user who registered the data|  |
-|documentInstance/sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|documentInstance/sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|documentInstance/sale/currencyId| *None* |Currency ID: The currency list item ID|  |
-|documentInstance/sale/currency| *None* |Currency: The currency of the sale|  |
-|documentInstance/sale/credited| *None* |Credited: The user to be credited with the sale|  |
-|documentInstance/sale/lossReason| *None* |Reason (lost: The reason for losing the sale|  |
-|documentInstance/sale/source| *None* |Source: The source (lead) of the sale|  |
-|documentInstance/sale/competitor| *None* |Competitor: The competitor who won the sale|  |
-|documentInstance/sale/heading| *None* |Sale: The name of the sale|  |
-|documentInstance/sale/amount| *None* |Amount: The gross sales total|  |
-|documentInstance/sale/amountWeighted| *None* |Weighted amount: Virtual field calculated from amount * probability percent.|  |
-|documentInstance/sale/earning| *None* |Profit: Gross profit (gross sales total - cost) for the sale|  |
-|documentInstance/sale/earningPercent| *None* |Profit as % : The profit as a percentage of the gross sales total|  |
-|documentInstance/sale/probPercent| *None* |Probability as %: Probability as %|  |
-|documentInstance/sale/originalStage| *None* |Stage when closed: Stage when closed|  |
-|documentInstance/sale/stage| *None* |Stage: Displays the stage of the sale|  |
-|documentInstance/sale/stageName| *None* |Stage name: Displays the stage of the sale|  |
-|documentInstance/sale/saleStatus| *None* |Status: The status of the sale - open, lost or sold|  |
-|documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list|  |
-|documentInstance/sale/saleType| *None* |Sale type: Sale type, from list|  |
-|documentInstance/sale/saleTypeId| *None* |Sale type ID: Sale type, from list|  |
-|documentInstance/sale/stageId| *None* |Sale stage ID: Displays the stage of the sale|  |
-|documentInstance/sale/nextDueDate| *None* |Next activity: Date for next activity for a sale, updated live from the sale's activities|  |
-|documentInstance/sale/reopenDate| *None* |Reopen date: Displays the reopen date for the sale|  |
-|documentInstance/sale/stalledComment| *None* |Reason (stalled: The reason the sale has been stalled|  |
-|documentInstance/sale/saleTypeCategory| *None* |Sale type category: Sale type category|  |
-|documentInstance/sale/soldReason| *None* |Reason (sold: Reason (sold)|  |
-|documentInstance/sale/saleNumber| *None* |Number: Number|  |
-|documentInstance/sale/hasStakeholders| *None* |Has stakeholders: Does this sale have stakeholders|  |
-|documentInstance/sale/stakeholdersEnabled| *None* |Stakeholders enabled: Possibility to add stakeholders to the sale|  |
-|documentInstance/sale/hasQuote| *None* |Has quote?: Does the sale have a quote attached?|  |
-|documentInstance/sale/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
-|documentInstance/sale/description| *None* |Description: The long description field on Sale|  |
-|documentInstance/sale/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|documentInstance/sale/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
-|documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
-|documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
-|documentInstance/sale/visibleFor| *None* |Visible for|  |
+|documentInstance/sale/saleId| *None* |SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP|  |
+|documentInstance/sale/userGroup| *None* |SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP|  |
+|documentInstance/sale/who| *None* |SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|documentInstance/sale/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/sale/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|documentInstance/sale/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|documentInstance/sale/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/sale/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|documentInstance/sale/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|documentInstance/sale/currencyId| *None* |SR\_ARCHIVE\_SALE\_CURRENCY\_ID: SR\_ARCHIVE\_SALE\_CURRENCY\_ID\_TOOLTIP|  |
+|documentInstance/sale/currency| *None* |SR\_ARCHIVE\_SALE\_CURRENCY: SR\_SALE\_CURRENCY\_TOOLTIP|  |
+|documentInstance/sale/credited| *None* |SR\_ARCHIVE\_SALE\_CREDITED: SR\_SALE\_CREDITED\_TOOLTIP|  |
+|documentInstance/sale/lossReason| *None* |SR\_SALE\_REASON\_LOST: SR\_SALE\_LOSSREASON\_TOOLTIP|  |
+|documentInstance/sale/source| *None* |SR\_ARCHIVE\_SALE\_SOURCE: SR\_SALE\_SOURCE\_TOOLTIP|  |
+|documentInstance/sale/competitor| *None* |SR\_ARCHIVE\_SALE\_COMPETITOR: SR\_SALE\_COMPETITOR\_TOOLTIP|  |
+|documentInstance/sale/heading| *None* |SR\_COMMON\_SALE: SR\_ARCHIVE\_SALE\_NAME\_TOOLTIP|  |
+|documentInstance/sale/amount| *None* |SR\_ARCHIVE\_SALE\_AMOUNT: SR\_SALE\_AMOUNT\_TOOLTIP|  |
+|documentInstance/sale/amountWeighted| *None* |SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP|  |
+|documentInstance/sale/earning| *None* |SR\_ARCHIVE\_SALE\_EARNING: SR\_EARNING\_AMOUNT\_TOOLTIP|  |
+|documentInstance/sale/earningPercent| *None* |SR\_SDLG\_EARNINGP: SR\_SALE\_EARNINGPCT\_TOOLTIP|  |
+|documentInstance/sale/probPercent| *None* |SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE: SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE\_TOOLTIP|  |
+|documentInstance/sale/originalStage| *None* |SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED: SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED|  |
+|documentInstance/sale/stage| *None* |SR\_ARCHIVE\_SALE\_STAGE: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP|  |
+|documentInstance/sale/stageName| *None* |SR\_ARCHIVE\_SALE\_STAGE\_NAME: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP|  |
+|documentInstance/sale/saleStatus| *None* |SR\_SALEDLG\_STATUS: SR\_SALE\_STATUS\_TOOLTIP|  |
+|documentInstance/sale/stageRank| *None* |SR\_ARCHIVE\_SALE\_STAGE\_RANK: SR\_ARCHIVE\_SALE\_STAGE\_RANK\_TOOLTIP|  |
+|documentInstance/sale/saleType| *None* |SR\_ARCHIVE\_SALETYPE: SR\_ARCHIVE\_SALETYPE\_TOOLTIP|  |
+|documentInstance/sale/saleTypeId| *None* |SR\_ARCHIVE\_SALETYPE\_ID: SR\_ARCHIVE\_SALETYPE\_TOOLTIP|  |
+|documentInstance/sale/stageId| *None* |SR\_ARCHIVE\_SALE\_STAGE\_ID: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP|  |
+|documentInstance/sale/nextDueDate| *None* |SR\_ARCHIVE\_NEXTDUEDATE: SR\_ARCHIVE\_NEXTDUEDATE\_TOOLTIP|  |
+|documentInstance/sale/reopenDate| *None* |SR\_ARCHIVE\_SALE\_REOPENDATE: SR\_ARCHIVE\_SALE\_REOPENDATE\_TOOLTIP|  |
+|documentInstance/sale/stalledComment| *None* |SR\_ARCHIVE\_STALLEDCOMMENT: SR\_ARCHIVE\_STALLEDCOMMENT\_TOOLTIP|  |
+|documentInstance/sale/saleTypeCategory| *None* |SR\_ADMIN\_LIST\_SALE\_CAT: SR\_ADMIN\_LIST\_SALE\_CAT|  |
+|documentInstance/sale/soldReason| *None* |SR\_ARCHIVE\_REASON\_SOLD: SR\_ARCHIVE\_REASON\_SOLD\_TOOLTIP|  |
+|documentInstance/sale/saleNumber| *None* |SR\_SALESARCHIVE\_NUMBER: SR\_SALESARCHIVE\_NUMBER|  |
+|documentInstance/sale/hasStakeholders| *None* |SR\_ARCHIVE\_HAS\_STAKEHOLDERS: SR\_ARCHIVE\_HAS\_STAKEHOLDERS\_TOOLTIP|  |
+|documentInstance/sale/stakeholdersEnabled| *None* |SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED: SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED\_TOOLTIP|  |
+|documentInstance/sale/hasQuote| *None* |SR\_ARCHIVE\_HAS\_QUOTE: SR\_ARCHIVE\_HAS\_QUOTE\_TOOLTIP|  |
+|documentInstance/sale/hasGuide| *None* |SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP|  |
+|documentInstance/sale/description| *None* |SR\_ARCHIVE\_SALEDESCRIPTION: SR\_ARCHIVE\_SALEDESCRIPTION\_TOOLTIP|  |
+|documentInstance/sale/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|documentInstance/sale/createdByWorkflow| *None* |SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP|  |
+|documentInstance/sale/amountInBaseCurrency| *None* |SR\_ARCHIVE\_SALE\_AMOUNT (BaseCurrency: SR\_SALE\_AMOUNT\_TOOLTIP|  |
+|documentInstance/sale/amountWeightedInBaseCurrency| *None* |SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT (BaseCurrency: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP|  |
+|documentInstance/sale/daysInStage| *None* |SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE: SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE\_TOOLTIP|  |
+|documentInstance/sale/visibleFor| *None* |SR\_ARCHIVE\_VISIBLE\_FOR|  |
 |documentInstance/sale/sale/textId| *None* |Text ID|  |
-|documentInstance/sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
-|documentInstance/sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|documentInstance/sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|documentInstance/sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|documentInstance/sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|documentInstance/sale/associate/firstName| *None* |First name: Displays the contact's first name|  |
-|documentInstance/sale/associate/lastName| *None* |Last name: Displays the contact's last name|  |
-|documentInstance/sale/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|documentInstance/sale/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|documentInstance/sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|documentInstance/sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|documentInstance/sale/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/sale/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|documentInstance/sale/associate/associateDbId| *None* |ID|  |
-|documentInstance/sale/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|documentInstance/sale/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|documentInstance/sale/associate/usergroup| *None* |Primary group: The user's primary user group|  |
-|documentInstance/sale/associate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|documentInstance/sale/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|documentInstance/sale/associate/contactCategory| *None* |Category: Category|  |
-|documentInstance/sale/associate/role| *None* |Role : Role|  |
-|documentInstance/sale/associate/assocName| *None* |User ID : User ID|  |
-|documentInstance/sale/associate/assocTooltip| *None* |Description : Description|  |
-|documentInstance/sale/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|documentInstance/sale/associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|documentInstance/sale/associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|documentInstance/sale/associate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|documentInstance/sale/associate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|documentInstance/sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|documentInstance/sale/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|documentInstance/sale/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|documentInstance/sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|documentInstance/sale/associate/otherGroups| *None* |Other groups: Other groups|  |
-|documentInstance/sale/associate/userName| *None* |User name: User name|  |
-|documentInstance/sale/associate/personEmail| *None* |E-mail|  |
-|documentInstance/sale/associate/locationAddress| *None* |Location: Location|  |
-|documentInstance/sale/associate/isLocation| *None* |Is a location: Is a location|  |
+|documentInstance/sale/sale/description| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|documentInstance/sale/salePublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|documentInstance/sale/salePublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|documentInstance/sale/salePublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|documentInstance/sale/salePublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|documentInstance/sale/associate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|documentInstance/sale/associate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|documentInstance/sale/associate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|documentInstance/sale/associate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|documentInstance/sale/associate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|documentInstance/sale/associate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|documentInstance/sale/associate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/sale/associate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|documentInstance/sale/associate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|documentInstance/sale/associate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|documentInstance/sale/associate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|documentInstance/sale/associate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/sale/associate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|documentInstance/sale/associate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|documentInstance/sale/associate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|documentInstance/sale/associate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|documentInstance/sale/associate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|documentInstance/sale/associate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|documentInstance/sale/associate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|documentInstance/sale/associate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|documentInstance/sale/associate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|documentInstance/sale/associate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|documentInstance/sale/associate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|documentInstance/sale/associate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|documentInstance/sale/associate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|documentInstance/sale/associate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|documentInstance/sale/associate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|documentInstance/sale/associate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|documentInstance/sale/associate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|documentInstance/sale/associate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|documentInstance/sale/associate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|documentInstance/sale/associate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|documentInstance/sale/associate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
 |documentInstance/sale/saleUdef/SuperOffice:1| *None* |saleshorttext|  |
 |documentInstance/sale/saleUdef/SuperOffice:2| *None* |salelongtext|  |
 |documentInstance/sale/saleUdef/SuperOffice:3| *None* |salenumber|  |
@@ -1471,12 +1472,12 @@ This provider is a trivial aggregation of the Appointment and Document providers
 |documentInstance/sale/saleUdef/SuperOffice:7| *None* |saledropdownlistbox|  |
 |documentInstance/sale/saleUdef/SuperOffice:8| *None* |saledecimal|  |
 |documentInstance/document/textId| *None* |Text ID|  |
-|documentInstance/document/description| *None* |Text: Displays the text entered in the description field|  |
+|documentInstance/document/description| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuide?$select=appointmentInstance/contact/country,appointmentInstance/contact/contactAssociate/personId,appointmentInstance/contact/contactAssociate/mrMrs,appointmentInstance/person/consentSourceEmarketing,appointmentInstance/project/projectEvent/hasSignOn
+GET /api/v1/archive/SaleGuide?$select=stageName,appointmentInstance/contact/registeredBy,appointmentInstance/contact/restrictionAddress/wgs84latitude,appointmentInstance/contact/NumberOfTickets,appointmentInstance/project/projectAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

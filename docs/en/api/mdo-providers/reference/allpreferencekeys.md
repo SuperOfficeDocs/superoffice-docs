@@ -44,27 +44,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1000105|Use academic title||[SR_PD_Functions_NAME]|
-|1000525|Enable sounds|bold|[SR_PD_Visual_NAME]|
-|1000161|Address separator|bold|[SR_PD_Mail_NAME]|
-|1000080|Alarm on follow-up||[SR_PD_DiaryView_NAME]|
-|1000068|All-day end time|bold|[SR_PD_DiaryView_NAME]|
-|1000069|All-day start time|bold|[SR_PD_DiaryView_NAME]|
-|1000550|Allow Copilot access to the web.||[SR_PD_Copilot_NAME]|
-|1000448|Anonymise users on reply||[SR_PD_serviceSettings_NAME]|
-|1000162|Archive sent follow-ups||[SR_PD_Mail_NAME]|
-|1000163|Archive sent documents||[SR_PD_Mail_NAME]|
-|1000164|Archive forwarded e-mail||[SR_PD_Mail_NAME]|
-|1000106|Archive page size||[SR_PD_Functions_NAME]|
-|1000165|Archive replies||[SR_PD_Mail_NAME]|
-|1000166|Archive all e-mail|bold|[SR_PD_Mail_NAME]|
-|1000167|Auto-archive e-mails sent from e-mail client.||[SR_PD_Mail_NAME]|
-|1000168|Archive e-mail to associates||[SR_PD_Mail_NAME]|
-|1000107|Ask to edit or read||[SR_PD_Functions_NAME]|
-|1000169|Use iCalendar attachment||[SR_PD_Mail_NAME]|
-|1000390|Automatically close tab when adding a message to request|bold|[SR_PD_request_NAME]|
-|1000445|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
-|1000552|Automatically generate reply to a message||[SR_PD_Copilot_NAME]|
+|1000105|[SR_PD_Functions_AcademicTitle_NAME]||[SR_PD_Functions_NAME]|
+|1000525|[SR_PD_Visual_ActiveSound_NAME]|bold|[SR_PD_Visual_NAME]|
+|1000161|[SR_PD_Mail_AddressSeparator_NAME]|bold|[SR_PD_Mail_NAME]|
+|1000080|[SR_PD_DiaryView_AlarmOnFollowUp_NAME]||[SR_PD_DiaryView_NAME]|
+|1000068|[SR_PD_DiaryView_AllDayEndTime_NAME]|bold|[SR_PD_DiaryView_NAME]|
+|1000069|[SR_PD_DiaryView_AllDayStartTime_NAME]|bold|[SR_PD_DiaryView_NAME]|
+|1000550|[SR_PD_Copilot_allowWebAccess_NAME]||[SR_PD_Copilot_NAME]|
+|1000448|[SR_PD_serviceSettings_anonymizeUsersOnReply_NAME]||[SR_PD_serviceSettings_NAME]|
+|1000162|[SR_PD_Mail_ArchiveAppointments_NAME]||[SR_PD_Mail_NAME]|
+|1000163|[SR_PD_Mail_ArchiveDocuments_NAME]||[SR_PD_Mail_NAME]|
+|1000164|[SR_PD_Mail_ArchiveForwards_NAME]||[SR_PD_Mail_NAME]|
+|1000106|[SR_PD_Functions_ArchivePageSize_NAME]||[SR_PD_Functions_NAME]|
+|1000165|[SR_PD_Mail_ArchiveReplies_NAME]||[SR_PD_Mail_NAME]|
+|1000166|[SR_PD_Mail_ArchiveSentMsg_NAME]|bold|[SR_PD_Mail_NAME]|
+|1000167|[SR_PD_Mail_ArchiveSentMsgFromMailClient_NAME]||[SR_PD_Mail_NAME]|
+|1000168|[SR_PD_Mail_ArchiveToAssocs_NAME]||[SR_PD_Mail_NAME]|
+|1000107|[SR_PD_Functions_AskToEditOrRead_NAME]||[SR_PD_Functions_NAME]|
+|1000169|[SR_PD_Mail_AttachiCal_NAME]||[SR_PD_Mail_NAME]|
+|1000390|[SR_PD_request_autoCloseTab_NAME]|bold|[SR_PD_request_NAME]|
+|1000445|[SR_PD_serviceSettings_autoCreatePerson_NAME]||[SR_PD_serviceSettings_NAME]|
+|1000552|[SR_PD_Copilot_autoGenerateReply_NAME]||[SR_PD_Copilot_NAME]|
 
 
 ## Related MDO Lists

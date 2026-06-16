@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"all"|All|
+|"all"|[[SR_VFC_ALL]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -25,19 +25,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |id| *None* ||  |
 |isActive| *None* || x |
 |flag| *None* || x |
-|timeZone|string|Time zone| x |
-|country|string|Country| x |
-|region|string|Region| x |
-|cities|string|Cities| x |
-|offset| *None* |Offset|  |
-|daylight| *None* |Daylight|  |
-|offsetRaw| *None* |Offset|  |
-|daylightRaw| *None* |Daylight|  |
+|timeZone|string|SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_TZ| x |
+|country|string|SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_COUNTRY| x |
+|region|string|SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_REGION| x |
+|cities|string|SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_CITIES| x |
+|offset| *None* |SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_OFFSET|  |
+|daylight| *None* |SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_DAYLIGHT|  |
+|offsetRaw| *None* |SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_OFFSET|  |
+|daylightRaw| *None* |SR\_ADMIN\_SYSTEM\_TIMEZONE\_COLUMN\_DAYLIGHT|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/TimeZones?$select=flag,country
+GET /api/v1/archive/TimeZones?$select=offset,flag,country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -42,18 +42,18 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|5|Company/contact||contact|
-|6|Company/contact||person|
-|9|Follow-ups||appointment|
-|13|Sales||sale|
-|11|Projects||project|
-|23|Selections||selection|
-|10|Documents||document|
-|127|Products||QuoteLine|
-|262|Requests||ticket|
-|332|Chat conversations||chat_session|
-|485|Form submissions||form_submission|
-|334|Mailings||s_shipment|
+|5|[SR_COMPANY_AND_PERSON]||contact|
+|6|[SR_COMPANY_AND_PERSON]||person|
+|9|[SR_SELECTION_FOLLOWUPS]||appointment|
+|13|[SR_BULKUPDATE_PLURAL_SALES]||sale|
+|11|[SR_BULKUPDATE_PLURAL_PROJECTS]||project|
+|23|[SR_BULKUPDATE_PLURAL_SELECTIONS]||selection|
+|10|[SR_BULKUPDATE_PLURAL_DOCUMENTS]||document|
+|127|[SR_BULKUPDATE_PLURAL_PRODUCTS]||QuoteLine|
+|262|[SR_PLURAL_TICKETS]||ticket|
+|332|[SR_PL_CHAT_CONVERSATION]||chat_session|
+|485|[SR_PL_FORM_SUBMISSION]||form_submission|
+|334|[SR_PL_MAILINGS]||s_shipment|
 
 
 ## Related MDO Lists

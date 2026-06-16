@@ -27,20 +27,20 @@ is an MDO provider for supported entities.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"freetextcount"|Number of matches|
+|"freetextcount"|[[SR_FT_COUNTENTITY]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ownerEntityName|listAny|Owner: Owner (type) of freetext match| x |
-|count| *None* |Count: Number of matches for a certain owner entity| x |
-|entityLocalizedName| *None* |Owner: Owner of freetext match| x |
-|searchwords|string|Search word: One or more words to be used in free text search|  |
+|ownerEntityName|listAny|SR\_FT\_OWNERENTITY: SR\_FT\_OWNERENTITY\_TOOLTIP| x |
+|count| *None* |SR\_FT\_OWNERCOUNT: SR\_FT\_OWNERCOUNT\_TOOLTIP| x |
+|entityLocalizedName| *None* |SR\_FT\_OWNERLOCALIZEDENTITY: SR\_FT\_OWNERLOCALIZEDENTITY\_TOOLTIP| x |
+|searchwords|string|SR\_FT\_SEARCHWORD: SR\_FT\_SEARCHWORD\_TOOLTIP|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextCount?$select=searchwords,count,entityLocalizedName
+GET /api/v1/archive/FreetextCount?$select=ownerEntityName,count,entityLocalizedName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

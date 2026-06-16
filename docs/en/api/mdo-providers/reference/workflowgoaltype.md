@@ -42,16 +42,16 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Contact updated|||
-|2|Sale created on contact|||
-|3|Sale created on company|||
-|4|Appointment created|||
-|5|Added to project|||
-|6|Added to selection|||
-|7|Form submitted|||
-|8|Had chat|||
-|9|Link clicked|||
-|10|Request created|||
+|1|[SR_WORKFLOWGOALTYPE_CONTACTUPDATED]|||
+|2|[SR_WORKFLOWGOALTYPE_SALECREATEDONCONTACT]|||
+|3|[SR_WORKFLOWGOALTYPE_SALECREATEDONCOMPANY]|||
+|4|[SR_WORKFLOWGOALTYPE_APPOINTMENTCREATED]|||
+|5|[SR_WORKFLOWGOALTYPE_ADDEDTOPROJECT]|||
+|6|[SR_WORKFLOWGOALTYPE_ADDEDTOSELECTION]|||
+|7|[SR_WORKFLOWGOALTYPE_FORMSUBMITTED]|||
+|8|[SR_WORKFLOWGOALTYPE_HADCHAT]|||
+|9|[SR_WORKFLOWGOALTYPE_LINKCLICKED]|||
+|10|[SR_WORKFLOWGOALTYPE_REQUESTCREATED]|||
 
 
 ## Related MDO Lists

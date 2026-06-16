@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ConsentSource Table (471)
+# ConsentSource Table (470)
 
 Consent source for GDPR
 

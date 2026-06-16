@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|(No Selection)|||
-|1|Customer|||
-|2|Potential Customer|||
-|3|Partner|||
-|4|Lost|||
-|5|Other|||
+|0|[SR_NO_SELECTION]|||
+|1|[SR_CATEGORYGROUP_CUSTOMER]|||
+|2|[SR_CATEGORYGROUP_POTENTIAL]|||
+|3|[SR_CATEGORYGROUP_PARTNER]|||
+|4|[SR_CATEGORYGROUP_LOST]|||
+|5|[SR_OTHER]|||
 
 
 ## Related MDO Lists

@@ -23,6 +23,7 @@ The following endpoint interfaces define all web service methods that serve even
 * [ContactAgent](contactagent/index.md)
 * [CRMScriptAgent](crmscriptagent/index.md)
 * [CustomerServiceAgent](customerserviceagent/index.md)
+* [CustomObjectAgent](customobjectagent/index.md)
 * [DashAgent](dashagent/index.md)
 * [DatabaseAgent](databaseagent/index.md)
 * [DatabaseTableAgent](databasetableagent/index.md)

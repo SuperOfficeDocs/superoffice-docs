@@ -43,9 +43,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Static|||
-|1|Dynamic|||
-|2|Combined|||
+|0|[SR_SELECTION_STATIC]|||
+|1|[SR_SELECTION_DYNAMIC]|||
+|2|[SR_SELECTION_UNION]|||
 
 
 ## Related MDO Lists

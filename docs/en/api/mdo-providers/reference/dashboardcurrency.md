@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|None|||
-|-1|Base (NOK)|||
-|-2|Own (NOK)|||
+|0|[SR_DASHBOARD_TILE_CURRENCY_NONE]|||
+|-1|[SR_DASHBOARD_TILE_CURRENCY_BASE] (NOK)|||
+|-2|[SR_DASHBOARD_TILE_CURRENCY_OWN] (NOK)|||
 |1|ADF|||
 |2|AED|||
 |3|AFA|||

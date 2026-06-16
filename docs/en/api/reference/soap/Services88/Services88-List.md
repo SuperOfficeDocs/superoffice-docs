@@ -1553,6 +1553,24 @@ content_type: reference
         </xs:sequence>
       </xs:complexType>
       <xs:element name="TicketRelationDefinitionResult" nillable="true" type="tns:TicketRelationDefinitionResult" />
+      <xs:element name="GetAllTicketRelationDefinitionEntities">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAllTicketRelationDefinitionEntitiesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfTicketRelationDefinitionEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfTicketRelationDefinitionEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TicketRelationDefinitionEntity" nillable="true" type="tns:TicketRelationDefinitionEntity" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfTicketRelationDefinitionEntity" nillable="true" type="tns:ArrayOfTicketRelationDefinitionEntity" />
       <xs:element name="GetTicketStatusEntity">
         <xs:complexType>
           <xs:sequence>
@@ -7468,6 +7486,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetAllTicketRelationDefinitionEntitiesRequest">
+    <wsdl:part name="parameters" element="tns:GetAllTicketRelationDefinitionEntities" />
+  </wsdl:message>
+  <wsdl:message name="GetAllTicketRelationDefinitionEntitiesRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetAllTicketRelationDefinitionEntitiesResponse">
+    <wsdl:part name="parameters" element="tns:GetAllTicketRelationDefinitionEntitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllTicketRelationDefinitionEntitiesResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketStatusEntityRequest">
     <wsdl:part name="parameters" element="tns:GetTicketStatusEntity" />
   </wsdl:message>
@@ -12253,6 +12288,10 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ValidateTicketRelationDefinition" name="ValidateTicketRelationDefinitionRequest" message="tns:ValidateTicketRelationDefinitionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/ValidateTicketRelationDefinitionResponse" name="ValidateTicketRelationDefinitionResponse" message="tns:ValidateTicketRelationDefinitionResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetAllTicketRelationDefinitionEntities">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketRelationDefinitionEntities" name="GetAllTicketRelationDefinitionEntitiesRequest" message="tns:GetAllTicketRelationDefinitionEntitiesRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketRelationDefinitionEntitiesResponse" name="GetAllTicketRelationDefinitionEntitiesResponse" message="tns:GetAllTicketRelationDefinitionEntitiesResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetTicketStatusEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketStatusEntity" name="GetTicketStatusEntityRequest" message="tns:GetTicketStatusEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetTicketStatusEntityResponse" name="GetTicketStatusEntityResponse" message="tns:GetTicketStatusEntityResponse" />
@@ -13981,6 +14020,22 @@ content_type: reference
         <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ValidateTicketRelationDefinitionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTicketRelationDefinitionEntities">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/List/GetAllTicketRelationDefinitionEntities" style="document" />
+      <wsdl:input name="GetAllTicketRelationDefinitionEntitiesRequest">
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAllTicketRelationDefinitionEntitiesResponse">
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetAllTicketRelationDefinitionEntitiesResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

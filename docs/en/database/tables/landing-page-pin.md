@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# landing\_page\_pin Table (499)
+# landing\_page\_pin Table (498)
 
 A pinned selection or entity record on a landing page
 

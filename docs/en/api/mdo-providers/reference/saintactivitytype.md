@@ -44,14 +44,14 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|All|||
-|1|Follow-up|||
-|5|Phone call|||
-|6|Task|||
-|2|Document|||
-|4|Fax|||
-|3|E-mail|||
-|8|Mail merge|||
+|-1|[SR_ACTIVITY_TYPE_ALL]|||
+|1|[SR_SINGULAR_ACTIVITY]|||
+|5|[SR_ACTIVITY_PHONE]|||
+|6|[SR_ACTIVITY_TODO]|||
+|2|[SR_SINGULAR_DOCUMENT]|||
+|4|[SR_ACTIVITY_FAX]|||
+|3|[SR_SINGULAR_MAIL]|||
+|8|[SR_ACTIVITY_MAILMERGE]|||
 
 
 ## Related MDO Lists

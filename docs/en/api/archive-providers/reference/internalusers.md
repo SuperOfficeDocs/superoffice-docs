@@ -18,81 +18,69 @@ the actual functionality of the provider.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"all"|All|
-|"superoffice_admin-system-user"|System user administrator|
-|"superoffice_admin-extern-user"|External user administrator|
+|"all"|[[SR_VFC_ALL]]|
 |"superoffice_visible-for"|Confidential activities|
-|"superoffice_reporter-studio-user"|Reporter Studio|
-|"superoffice_admin-anonymous-user"|Anonymous user admin|
-|"superoffice_publish"|Publish to external|
 |"superoffice_superlicense-no-selection"|(No Selection)|
 |"superoffice_ten-sales"|Sales Premium|
 |"superoffice_ten-service"|Service Premium|
 |"superoffice_ten-marketing"|Marketing Premium|
 |"superoffice_ten-salesservicemarketing"|SalesPremiumServicePremiumMarketingPremium|
-|"superoffice_outlook-synchronizer"|Outlook Synchronizer|
-|"potential"|Potential users|
-|"retired"|Former employee|
-|"loggedOnWin"|Logged-on to Windows client|
-|"expired"|Expired|
+|"potential"|[[SR_USERS_POTENTIAL_USERS]]|
+|"retired"|[[SR_ADMIN_RETIRED]]|
+|"loggedOnWin"|[[SR_ADMIN_LOGGEDON]]|
+|"expired"|[[SR_ADMIN_EXPIRED]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|userplan| *None* |User plan: User plan (licence)|  |
-|canLogin|bool|Can log in: Can log in|  |
-|superoffice\_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
-|superoffice\_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
+|userplan| *None* |SR\_ASSOC\_USERPLAN: SR\_ASSOC\_USERPLAN\_TOOLTIP|  |
+|canLogin|bool|SR\_CAN\_USER\_LOG\_IN: SR\_CAN\_USER\_LOG\_IN|  |
 |superoffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
-|superoffice\_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
-|superoffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
-|superoffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
 |superoffice\_superlicense-no-selection| *None* |No Selection: User Plan: License Not in Use.|  |
 |superoffice\_ten-sales| *None* |Sales Premium: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
 |superoffice\_ten-service| *None* |Service Premium: User Plan: Can edit Requests|  |
 |superoffice\_ten-marketing| *None* |Marketing Premium: User Plan: Can send Mailings, Combined Selections|  |
 |superoffice\_ten-salesservicemarketing| *None* |SalesPremiumServicePremiumMarketingPremium: User Plan: Can edit sales, requests, mailings.|  |
-|superoffice\_outlook-synchronizer| *None* |Outlook Synchronizer: Enables Outlook client sync (??)|  |
-|firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle Name : Displays the contact's middle name.| x |
-|fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|personId|int|Contact ID: Database ID of the contact row|  |
-|mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|associateDbId|associate|ID| x |
-|contactName|string|Owning company: Name of the company the user belongs to| x |
-|contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|usergroup|userGroup|Primary group: The user's primary user group| x |
-|usergroupId|int|Group ID: The user's primary user group| x |
-|contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|contactCategory|listAny|Category: Category| x |
-|role|listAny|Role : Role| x |
-|assocName|associate|User ID : User ID| x |
-|assocTooltip|string|Description : Description|  |
-|assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|ejUserId|int|Service user ID: The database ID of a Service user|  |
-|simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ejDisplayName|string|Nickname: User's nickname in Service| x |
-|ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|portraitThumbnail| *None* |Person image: Person image|  |
-|otherGroups|userGroup|Other groups: Other groups|  |
-|userName|string|User name: User name| x |
-|personEmail|string|E-mail| x |
-|locationAddress|string|Location: Location| x |
-|isLocation|bool|Is a location: Is a location| x |
+|firstName|string|SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|lastName|string|SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|middleName|string|SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|fullName|string|SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|contactId|int|SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|personId|int|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|mrMrs|string|SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|title|string|SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|associateDbId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|contactName|string|SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|contactDepartment|string|SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|usergroup|userGroup|SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|usergroupId|int|SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|contactFullName|string|SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|contactCategory|listAny|SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|role|listAny|SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|assocName|associate|SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|assocTooltip|string|SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|assocType|listAny|SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ejUserId|int|SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|simultaneousEjUser|bool|SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ejDisplayName|string|SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ejStatus|int|SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|isActive|bool|SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|isActiveText|bool|SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|otherGroups|userGroup|SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|userName|string|SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|personEmail|string|SR\_ARCHIVE\_EMAIL| x |
+|locationAddress|string|SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|isLocation|bool|SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=superoffice_admin-anonymous-user,firstName,associateDbId
+GET /api/v1/archive/InternalUsers?$select=contactId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Everyone can read and edit||Full|
-|2|Everyone can read, but only you can edit||Read|
-|3|Only you can read or edit||None|
+|1|[SR_ENUM_REPLYTEMPLATE_ACCESS_FULL]||Full|
+|2|[SR_ENUM_REPLYTEMPLATE_ACCESS_READ]||Read|
+|3|[SR_ENUM_REPLYTEMPLATE_ACCESS_NONE]||None|
 
 
 ## Related MDO Lists

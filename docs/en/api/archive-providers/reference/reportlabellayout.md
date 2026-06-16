@@ -25,11 +25,11 @@ This archive provider enables access to the information regarding report label l
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |labelLayoutId| *None* |labelLayoutId|  |
-|name| *None* |Name|  |
-|description| *None* |Description|  |
-|layout| *None* |Layout|  |
-|papersize| *None* |Paper size|  |
-|orientation| *None* |Orientation|  |
+|name| *None* |SR\_REPORTER\_NAME|  |
+|description| *None* |SR\_REPORTER\_DESCRIPTION\_SHORT|  |
+|layout| *None* |SR\_REPORTER\_LAYOUT|  |
+|papersize| *None* |SR\_REPORTER\_PAPER\_SIZE|  |
+|orientation| *None* |SR\_REPORTER\_ORIENTATION|  |
 
 ## Sample
 

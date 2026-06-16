@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Unknown|||
-|1|Read|||
-|2|Changed|||
-|3|Unread|||
+|0|[SR_ORIGIN_UNKNOWN]|||
+|1|[SR_TICKET_READSTATUS_READ]|||
+|2|[SR_TICKET_READSTATUS_CHANGED]|||
+|3|[SR_TICKET_READSTATUS_UNREAD]|||
 
 
 ## Related MDO Lists

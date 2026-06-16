@@ -45,13 +45,13 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|5|Company||contact|
-|6|Contact||person|
-|11|Project||project|
-|9|Follow-up||appointment|
-|10|Document||document|
-|13|Sale||sale|
-|23|Selection||selection|
+|5|[SR_SINGULAR_COMPANY]||contact|
+|6|[SR_SINGULAR_CONTACT]||person|
+|11|[SR_SINGULAR_PROJECT]||project|
+|9|[SR_SINGULAR_ACTIVITY]||appointment|
+|10|[SR_SINGULAR_DOCUMENT]||document|
+|13|[SR_SINGULAR_SALE]||sale|
+|23|[SR_SINGULAR_SELECTION]||selection|
 
 
 ## Related MDO Lists

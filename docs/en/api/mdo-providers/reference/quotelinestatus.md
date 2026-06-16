@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|OK|||
-|1|OK with information|||
-|2|Warning|||
-|3|Error|||
+|0|[SR_QUOTE_QUOTELINE_RESPONSE_OK]|||
+|1|[SR_QUOTE_QUOTELINE_RESPONSE_OKWITHINFO]|||
+|2|[SR_QUOTE_QUOTELINE_RESPONSE_WARNING]|||
+|3|[SR_QUOTE_QUOTELINE_RESPONSE_ERROR]|||
 
 
 ## Related MDO Lists

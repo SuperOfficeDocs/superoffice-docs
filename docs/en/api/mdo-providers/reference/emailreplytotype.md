@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Always use:|||
-|1|Use our contact where specified, otherwise use:|||
-|2|Use our support contact where specified, otherwise use:|||
-|3|Use 'From' as 'Reply' address|||
+|0|[REPLY_TO_ALWAYS_FORWARD]|||
+|1|[REPLY_TO_SALES_CONTACT]|||
+|2|[REPLY_TO_SUPPORT_CONTACT]|||
+|3|[REPLY_TO_EMPTY]|||
 
 
 ## Related MDO Lists

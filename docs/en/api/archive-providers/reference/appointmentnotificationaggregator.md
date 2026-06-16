@@ -15,12 +15,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"appointmentNew"|Appointment|
-|"appointmentUpdated"|Appointment|
-|"appointmentCancelled"|Appointment|
-|"appointmentAccepted"|Appointment|
-|"appointmentRejected"|Appointment|
-|"appointmentRejectedByAssociate"|Appointment|
+|"appointmentNew"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentUpdated"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentCancelled"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentAccepted"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentRejected"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentRejectedByAssociate"|[[SR_COMMON_APPOINTMENT]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -28,7 +28,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
-|associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
+|associateId|associate|SR\_SINGULAR\_ASSOCIATE: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
 |originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |
@@ -50,7 +50,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotificationAggregator?$select=getAllRows,updateType,location
+GET /api/v1/archive/AppointmentNotificationAggregator?$select=updateType,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

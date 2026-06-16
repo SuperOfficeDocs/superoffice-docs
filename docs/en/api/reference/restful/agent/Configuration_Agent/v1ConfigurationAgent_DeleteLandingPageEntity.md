@@ -28,7 +28,7 @@ NsApiSlow threshold: 5000 ms.
 | landingPageEntityId | int32 | **Required** The identity of the LandingPageEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteLandingPageEntity?landingPageEntityId=439
+POST /api/v1/Agents/Configuration/DeleteLandingPageEntity?landingPageEntityId=111
 ```
 
 

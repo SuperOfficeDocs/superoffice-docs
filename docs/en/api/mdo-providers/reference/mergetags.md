@@ -52,27 +52,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Name||[[customer.name]]|
-|2|First name||[[customer.firstname]]|
-|3|Last name||[[customer.lastname]]|
-|4|Salutation||[[makeSalutation(customer.id)]]|
-|5|E-mail||[[customer.email]]|
-|6|Title||[[customer.title]]|
-|7|Mobile phone||[[customer.cellphone]]|
-|8|Direct phone||[[customer.direct]]|
-|9|Category||[[customer.category]]|
-|10|Business||[[customer.business]]|
-|11|Number||[[customer.number]]|
-|12|Position||[[customer.position]]|
-|13|Name||[[company.name]]|
-|14|Department||[[company.department]]|
-|15|Country||[[company.country]]|
-|16|Phone||[[company.phone]]|
-|17|Web page||[[company.url]]|
-|18|Category||[[company.category]]|
-|19|Business||[[company.business]]|
-|20|Number||[[company.number2]]|
-|21|City||[[company.city]]|
+|1|[SR_EJPARSER_NAME]||[[customer.name]]|
+|2|[SR_EJPARSER_FIRSTNAME]||[[customer.firstname]]|
+|3|[SR_EJPARSER_LASTNAME]||[[customer.lastname]]|
+|4|[SR_ARCHIVE_SALUTATION]||[[makeSalutation(customer.id)]]|
+|5|[SR_EJPARSER_EMAIL]||[[customer.email]]|
+|6|[SR_PERSON_TITLE]||[[customer.title]]|
+|7|[SR_RELATIONARCHIVE_PERSONMOBILEPHONE]||[[customer.cellphone]]|
+|8|[SR_RELATIONARCHIVE_PERSONDIRECTPHONE]||[[customer.direct]]|
+|9|[SR_ARCHIVE_CATEGORY]||[[customer.category]]|
+|10|[SR_LIST_BUSINESS]||[[customer.business]]|
+|11|[SR_PERSONARCHIVE_NUMBER]||[[customer.number]]|
+|12|[SR_PERSONARCHIVE_POSITION]||[[customer.position]]|
+|13|[SR_EJPARSER_NAME]||[[company.name]]|
+|14|[SR_PERSONARCHIVE_DEPARTMENT]||[[company.department]]|
+|15|[SR_PERSONARCHIVE_COUNTRYNAME]||[[company.country]]|
+|16|[SR_PHONE]||[[company.phone]]|
+|17|[SR_WEB_PAGE]||[[company.url]]|
+|18|[SR_ARCHIVE_CATEGORY]||[[company.category]]|
+|19|[SR_LIST_BUSINESS]||[[company.business]]|
+|20|[SR_PERSONARCHIVE_NUMBER]||[[company.number2]]|
+|21|[SR_PERSONARCHIVE_CITY]||[[company.city]]|
 
 
 ## Related MDO Lists

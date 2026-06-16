@@ -52,9 +52,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Amount|||
-|2|Count|||
-|3|Profit|||
+|1|[SR_TARGETS_MEASUREMENT_AMOUNT]|||
+|2|[SR_TARGETS_MEASUREMENT_COUNT]|||
+|3|[SR_TARGETS_MEASUREMENT_PROFIT]|||
 
 
 ## Related MDO Lists

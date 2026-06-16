@@ -28,7 +28,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=qui
+GET /api/v1/List/Business/MDOItems?query=ut
 ```
 
 
