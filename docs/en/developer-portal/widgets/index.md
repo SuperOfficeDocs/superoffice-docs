@@ -2,10 +2,10 @@
 uid: dp-widgets
 title: Widgets
 description: About the SuperOffice Developer Portal home page and how to manage widgets.
-keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding
+keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding, messaging center
 author: Bergfrid Dias
-date: 04.30.2025
-version_devportal: 2.2
+date: 06.16.2026
+version_devportal: 2.14
 content_type: concept
 deployment: online
 platform: web
@@ -25,7 +25,7 @@ Each widget represents distinctive features.
 | Widget | Purpose |
 |---|---|
 | Application Failures | Monitors problems with API calls. |
-| Messaging Center | Provides quick information on communication related to requests. |
+| Messaging Center | Provides quick information on communication related to requests, including tickets awaiting your response. |
 | New Customers | Provides quick information on new customers signed up to use your standard applications. |
 | Onboarding | Aids users getting started. |
 | Publish Status | Explore pending requests to publish app configuration, App Store information, and partner profile. |
@@ -84,13 +84,15 @@ The Onboarding widget is a hub of useful links when starting out, such as to the
 
 ### Messaging Center
 
-This widget shows real-time statistics from the [Messaging Center][1]. Click a tile for details.
+This widget shows real-time statistics from the [Messaging Center][1]. Click a tile to open the Messaging Center filtered to that category.
 
-| Stats | Description |
+From version 2.14 the widget mirrors the categories you see in the Messaging Center sidebar, so the **Open** tile makes it obvious when something needs your attention — without having to open the Messaging Center first.
+
+| Stat | Description |
 |---|---|
-| New open requests | The number of newly received open requests. |
-| Pending/waiting requests | The number of requests that are awaiting action. |
-| Message status changes | Notification of any status change in the messaging center. |
+| Waiting for SuperOffice | The number of tickets you have replied to and routed back to SuperOffice. |
+| Open | The number of tickets where the next action is yours. |
+| Closed | The number of tickets that have been resolved. |
 
 ### New Customers
 
