@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Ticket
   children:
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.#ctor
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo.BaseStatus
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.ChildCount
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.ContactId
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.ContactName
@@ -14,9 +15,14 @@ items:
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.PersonId
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.PersonName
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.RelatedCount
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationComment
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationCreatedAt
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationId
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationType
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketCreatedAt
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketId
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatus
+  - SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatusDisplayValue
   - SuperOffice.CRM.Ticket.RelatedTicketInfo.Title
   langs:
   - csharp
@@ -84,6 +90,44 @@ items:
     return:
       type: SuperOffice.Data.TicketRelationType
     content.vb: Public RelationType As TicketRelationType
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationComment
+  commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationComment
+  id: RelationComment
+  parent: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  langs:
+  - csharp
+  - vb
+  name: RelationComment
+  nameWithType: RelatedTicketInfo.RelationComment
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationComment
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public string RelationComment
+    return:
+      type: System.String
+    content.vb: Public RelationComment As String
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationCreatedAt
+  commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationCreatedAt
+  id: RelationCreatedAt
+  parent: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  langs:
+  - csharp
+  - vb
+  name: RelationCreatedAt
+  nameWithType: RelatedTicketInfo.RelationCreatedAt
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo.RelationCreatedAt
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public DateTime RelationCreatedAt
+    return:
+      type: System.DateTime
+    content.vb: Public RelationCreatedAt As Date
 - uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketId
   commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketId
   id: TicketId
@@ -274,6 +318,82 @@ items:
     return:
       type: System.Int32
     content.vb: Public RelatedCount As Integer
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.BaseStatus
+  commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.BaseStatus
+  id: BaseStatus
+  parent: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  langs:
+  - csharp
+  - vb
+  name: BaseStatus
+  nameWithType: RelatedTicketInfo.BaseStatus
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo.BaseStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public TicketBaseStatus BaseStatus
+    return:
+      type: SuperOffice.Data.TicketBaseStatus
+    content.vb: Public BaseStatus As TicketBaseStatus
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatus
+  commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: RelatedTicketInfo.TicketStatus
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public int TicketStatus
+    return:
+      type: System.Int32
+    content.vb: Public TicketStatus As Integer
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatusDisplayValue
+  commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatusDisplayValue
+  id: TicketStatusDisplayValue
+  parent: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusDisplayValue
+  nameWithType: RelatedTicketInfo.TicketStatusDisplayValue
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketStatusDisplayValue
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public string TicketStatusDisplayValue
+    return:
+      type: System.String
+    content.vb: Public TicketStatusDisplayValue As String
+- uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketCreatedAt
+  commentId: F:SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketCreatedAt
+  id: TicketCreatedAt
+  parent: SuperOffice.CRM.Ticket.RelatedTicketInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketCreatedAt
+  nameWithType: RelatedTicketInfo.TicketCreatedAt
+  fullName: SuperOffice.CRM.Ticket.RelatedTicketInfo.TicketCreatedAt
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public DateTime TicketCreatedAt
+    return:
+      type: System.DateTime
+    content.vb: Public TicketCreatedAt As Date
 - uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.#ctor
   commentId: M:SuperOffice.CRM.Ticket.RelatedTicketInfo.#ctor
   id: '#ctor'
@@ -1080,6 +1200,25 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.Data.TicketBaseStatus
+  commentId: T:SuperOffice.Data.TicketBaseStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketBaseStatus.html
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.Data.TicketBaseStatus
 - uid: SuperOffice.CRM.Ticket.RelatedTicketInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Ticket.RelatedTicketInfo.#ctor
   isExternal: true

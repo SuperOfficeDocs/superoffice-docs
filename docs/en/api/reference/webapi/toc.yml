@@ -53,6 +53,8 @@ items:
     name: ConfigurationAgent
   - uid: SuperOffice.WebApi.Agents.ContactAgent
     name: ContactAgent
+  - uid: SuperOffice.WebApi.Agents.CustomObjectAgent
+    name: CustomObjectAgent
   - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
     name: CustomerServiceAgent
   - uid: SuperOffice.WebApi.Agents.DashAgent
@@ -107,6 +109,8 @@ items:
     name: IConfigurationAgent
   - uid: SuperOffice.WebApi.Agents.IContactAgent
     name: IContactAgent
+  - uid: SuperOffice.WebApi.Agents.ICustomObjectAgent
+    name: ICustomObjectAgent
   - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent
     name: ICustomerServiceAgent
   - uid: SuperOffice.WebApi.Agents.IDashAgent
@@ -1276,6 +1280,32 @@ items:
     name: CustomCommand
   - uid: SuperOffice.WebApi.Data.CustomFieldType
     name: CustomFieldType
+  - uid: SuperOffice.WebApi.Data.CustomObject
+    name: CustomObject
+  - uid: SuperOffice.WebApi.Data.CustomObjectDefinition
+    name: CustomObjectDefinition
+  - uid: SuperOffice.WebApi.Data.CustomObjectField
+    name: CustomObjectField
+  - uid: SuperOffice.WebApi.Data.CustomObjectMetadata
+    name: CustomObjectMetadata
+  - uid: SuperOffice.WebApi.Data.CustomObjectRelation
+    name: CustomObjectRelation
+  - uid: SuperOffice.WebApi.Data.CustomObject_CreateDefaultCustomObjectRequest
+    name: CustomObject_CreateDefaultCustomObjectRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_DeleteCustomObjectRequest
+    name: CustomObject_DeleteCustomObjectRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectDefinitionRequest
+    name: CustomObject_GetCustomObjectDefinitionRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectRequest
+    name: CustomObject_GetCustomObjectRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsIconsRequest
+    name: CustomObject_GetCustomObjectsIconsRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsMetadataRequest
+    name: CustomObject_GetCustomObjectsMetadataRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_HasScreenChooserRequest
+    name: CustomObject_HasScreenChooserRequest
+  - uid: SuperOffice.WebApi.Data.CustomObject_SaveCustomObjectRequest
+    name: CustomObject_SaveCustomObjectRequest
   - uid: SuperOffice.WebApi.Data.CustomerCenterConfig
     name: CustomerCenterConfig
   - uid: SuperOffice.WebApi.Data.CustomerLanguage
@@ -2418,6 +2448,8 @@ items:
     name: InterRestrictionOperator
   - uid: SuperOffice.WebApi.Data.InvitationStatus
     name: InvitationStatus
+  - uid: SuperOffice.WebApi.Data.KbAccessLevel
+    name: KbAccessLevel
   - uid: SuperOffice.WebApi.Data.KbCategory
     name: KbCategory
   - uid: SuperOffice.WebApi.Data.LandingPageEntity
@@ -2560,6 +2592,8 @@ items:
     name: List_GetAllTasksRequest
   - uid: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
     name: List_GetAllTicketPrioritiesRequest
+  - uid: SuperOffice.WebApi.Data.List_GetAllTicketRelationDefinitionEntitiesRequest
+    name: List_GetAllTicketRelationDefinitionEntitiesRequest
   - uid: SuperOffice.WebApi.Data.List_GetAppTaskMenusRequest
     name: List_GetAppTaskMenusRequest
   - uid: SuperOffice.WebApi.Data.List_GetAppWebPanelsRequest
@@ -4518,6 +4552,8 @@ items:
     name: UserPreferenceStrings.HugoAI
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
     name: UserPreferenceStrings.InApp
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.License
+    name: UserPreferenceStrings.License
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
     name: UserPreferenceStrings.MDOList
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
@@ -4538,8 +4574,6 @@ items:
     name: UserPreferenceStrings.Numbering
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Person
     name: UserPreferenceStrings.Person
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
-    name: UserPreferenceStrings.Phone
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection
     name: UserPreferenceStrings.PocketSection
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Project
@@ -4562,8 +4596,6 @@ items:
     name: UserPreferenceStrings.SalesNotification
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
     name: UserPreferenceStrings.Selection
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
-    name: UserPreferenceStrings.SentryAddonNames
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
     name: UserPreferenceStrings.Sorting
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions

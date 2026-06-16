@@ -20,8 +20,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.MainTableName
-  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery
-  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessRestrictions
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.RequiredPhaseOneFields
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -123,6 +121,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.CompletedTooltipHint(System.String,System.Int32)
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.ActivityExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.PopulateRowFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.SetJoin
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.StyleHintPrefix
@@ -191,6 +190,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtractRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtractRestriction(System.String)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ExtractRestriction(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateSimpleFieldsAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.CalculateOrderbyValue(System.String,SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData,SuperOffice.Data.SQL.FieldInfo)
@@ -1037,55 +1037,6 @@ items:
   overload: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.AcceptRow*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtenderAccept.AcceptRow(SuperOffice.Data.SoDataReader)
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery
-  id: ModifyQuery
-  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
-  langs:
-  - csharp
-  - vb
-  name: ModifyQuery()
-  nameWithType: AppointmentExtenderBase.ModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery()
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: Interface implementation, called from outer query provider to build the query
-  example: []
-  syntax:
-    content: public override void ModifyQuery()
-    content.vb: Public Overrides Sub ModifyQuery()
-  overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
-  overload: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery*
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy
-  commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy
-  id: ProcessOrderBy
-  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
-  langs:
-  - csharp
-  - vb
-  name: ProcessOrderBy()
-  nameWithType: AppointmentExtenderBase.ProcessOrderBy()
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy()
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Process order by information during query modification. For each order by column that
-
-    matches a known database binding, add the orderby clause to the query. If the column has
-
-    a separate fieldinfo specified for its orderby (as specified by <xref href="SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapOrderByField(SuperOffice.Data.SQL.FieldInfo%2cSuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)" data-throw-if-not-resolved="false"></xref>,
-
-    this field is used, otherwise the display field is used).
-  example: []
-  syntax:
-    content: protected override void ProcessOrderBy()
-    content.vb: Protected Overrides Sub ProcessOrderBy()
-  overridden: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
-  overload: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy*
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -1821,6 +1772,30 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}
+  definition: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
+  href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
+  name: ModifyQuery()
+  nameWithType: ExtenderBase<AppointmentTableInfo>.ModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.AppointmentTableInfo>.ModifyQuery()
+  nameWithType.vb: ExtenderBase(Of AppointmentTableInfo).ModifyQuery()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.AppointmentTableInfo).ModifyQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
+    name: ModifyQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
+    name: ModifyQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
+  - name: (
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.SetJoin
@@ -4197,6 +4172,28 @@ references:
     name: ArchiveColumnInfo
     isExternal: true
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_ProcessOrderBy
+  name: ProcessOrderBy()
+  nameWithType: ExtensibleColumnsBase.ProcessOrderBy()
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
+    name: ProcessOrderBy
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_ProcessOrderBy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
+    name: ProcessOrderBy
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_ProcessOrderBy
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateSimpleFieldsAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.PopulateSimpleFieldsAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -6071,6 +6068,29 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
+  name: ModifyQuery()
+  nameWithType: ExtenderBase<MainTableInfo>.ModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<MainTableInfo>.ModifyQuery()
+  nameWithType.vb: ExtenderBase(Of MainTableInfo).ModifyQuery()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of MainTableInfo).ModifyQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
+    name: ModifyQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
+    name: ModifyQuery
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
+  - name: (
+  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase`1.SetJoin
   isExternal: true
@@ -6558,29 +6578,6 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
-- uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
-  name: ModifyQuery()
-  nameWithType: ExtenderBase<MainTableInfo>.ModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<MainTableInfo>.ModifyQuery()
-  nameWithType.vb: ExtenderBase(Of MainTableInfo).ModifyQuery()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of MainTableInfo).ModifyQuery()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
-    name: ModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
-    name: ModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}
@@ -6774,66 +6771,6 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.Data.html
-- uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
-  parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}
-  definition: SuperOffice.CRM.ArchiveLists.ExtenderBase`1.ModifyQuery
-  href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
-  name: ModifyQuery()
-  nameWithType: ExtenderBase<AppointmentTableInfo>.ModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.AppointmentTableInfo>.ModifyQuery()
-  nameWithType.vb: ExtenderBase(Of AppointmentTableInfo).ModifyQuery()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.AppointmentTableInfo).ModifyQuery()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
-    name: ModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AppointmentTableInfo}.ModifyQuery
-    name: ModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtenderBase-1.html#SuperOffice_CRM_ArchiveLists_ExtenderBase_1_ModifyQuery
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.html#SuperOffice_CRM_ArchiveLists_AppointmentExtenderBase_ModifyQuery
-  name: ModifyQuery
-  nameWithType: AppointmentExtenderBase.ModifyQuery
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ModifyQuery
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_ProcessOrderBy
-  name: ProcessOrderBy()
-  nameWithType: ExtensibleColumnsBase.ProcessOrderBy()
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
-    name: ProcessOrderBy
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_ProcessOrderBy
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.ProcessOrderBy
-    name: ProcessOrderBy
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_ProcessOrderBy
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.html#SuperOffice_CRM_ArchiveLists_AppointmentExtenderBase_ProcessOrderBy
-  name: ProcessOrderBy
-  nameWithType: AppointmentExtenderBase.ProcessOrderBy
-  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.ProcessOrderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

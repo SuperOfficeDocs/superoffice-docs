@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  - SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -48,6 +49,45 @@ items:
   nameWithType.vb: INSAuthenticator.Authenticate(IEnumerable(Of ClaimsIdentity))
   fullName.vb: SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
   name.vb: Authenticate(IEnumerable(Of ClaimsIdentity))
+- uid: SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Threading.CancellationToken)
+  id: AuthenticateAsync(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},System.Threading.CancellationToken)
+  parent: SuperOffice.Security.Principal.INSAuthenticator
+  langs:
+  - csharp
+  - vb
+  name: AuthenticateAsync(IEnumerable<ClaimsIdentity>, CancellationToken)
+  nameWithType: INSAuthenticator.AuthenticateAsync(IEnumerable<ClaimsIdentity>, CancellationToken)
+  fullName: SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: >-
+    Async variant of <xref href="SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable%7bSystem.Security.Claims.ClaimsIdentity%7d)" data-throw-if-not-resolved="false"></xref>. Yields the calling thread during identity
+
+    resolution, cache warm-up and authorization instead of blocking.
+
+    <p></p>
+
+    NOTE: any ambient AsyncLocal state set inside this call (e.g. sign-in) does not propagate
+
+    back to the awaiting caller; callers must apply the returned principal themselves.
+  example: []
+  syntax:
+    content: Task<ClaimsPrincipal> AuthenticateAsync(IEnumerable<ClaimsIdentity> identities, CancellationToken cancellationToken = default)
+    parameters:
+    - id: identities
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Security.Claims.ClaimsPrincipal}
+    content.vb: Function AuthenticateAsync(identities As IEnumerable(Of ClaimsIdentity), cancellationToken As CancellationToken = Nothing) As Task(Of ClaimsPrincipal)
+  overload: SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync*
+  nameWithType.vb: INSAuthenticator.AuthenticateAsync(IEnumerable(Of ClaimsIdentity), CancellationToken)
+  fullName.vb: SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), System.Threading.CancellationToken)
+  name.vb: AuthenticateAsync(IEnumerable(Of ClaimsIdentity), CancellationToken)
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -476,3 +516,191 @@ references:
     name: Claims
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  commentId: M:SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSAuthenticator.html#SuperOffice_Security_Principal_INSAuthenticator_Authenticate_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__
+  name: Authenticate(IEnumerable<ClaimsIdentity>)
+  nameWithType: INSAuthenticator.Authenticate(IEnumerable<ClaimsIdentity>)
+  fullName: SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>)
+  nameWithType.vb: INSAuthenticator.Authenticate(IEnumerable(Of ClaimsIdentity))
+  fullName.vb: SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity))
+  name.vb: Authenticate(IEnumerable(Of ClaimsIdentity))
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+    name: Authenticate
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSAuthenticator.html#SuperOffice_Security_Principal_INSAuthenticator_Authenticate_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.INSAuthenticator.Authenticate(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity})
+    name: Authenticate
+    isExternal: true
+    href: SuperOffice.Security.Principal.INSAuthenticator.html#SuperOffice_Security_Principal_INSAuthenticator_Authenticate_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: )
+  - name: )
+- uid: SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync*
+  commentId: Overload:SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync
+  isExternal: true
+  href: SuperOffice.Security.Principal.INSAuthenticator.html#SuperOffice_Security_Principal_INSAuthenticator_AuthenticateAsync_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__System_Threading_CancellationToken_
+  name: AuthenticateAsync
+  nameWithType: INSAuthenticator.AuthenticateAsync
+  fullName: SuperOffice.Security.Principal.INSAuthenticator.AuthenticateAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Security.Claims.ClaimsPrincipal}
+  commentId: T:System.Threading.Tasks.Task{System.Security.Claims.ClaimsPrincipal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ClaimsPrincipal>
+  nameWithType: Task<ClaimsPrincipal>
+  fullName: System.Threading.Tasks.Task<System.Security.Claims.ClaimsPrincipal>
+  nameWithType.vb: Task(Of ClaimsPrincipal)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Security.Claims.ClaimsPrincipal)
+  name.vb: Task(Of ClaimsPrincipal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

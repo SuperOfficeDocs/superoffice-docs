@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition
+  commentId: T:SuperOffice.CRM.Services.CustomObjectDefinition
+  id: CustomObjectDefinition
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CustomObjectDefinition.#ctor
+  - SuperOffice.CRM.Services.CustomObjectDefinition.Description
+  - SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField
+  - SuperOffice.CRM.Services.CustomObjectDefinition.Fields
+  - SuperOffice.CRM.Services.CustomObjectDefinition.Flags
+  - SuperOffice.CRM.Services.CustomObjectDefinition.IconId
+  - SuperOffice.CRM.Services.CustomObjectDefinition.Id
+  - SuperOffice.CRM.Services.CustomObjectDefinition.Name
+  - SuperOffice.CRM.Services.CustomObjectDefinition.Title
+  - SuperOffice.CRM.Services.CustomObjectDefinition.ToString
+  - SuperOffice.CRM.Services.CustomObjectDefinition.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Schema definition for a Custom Object: the underlying table and its fields.
+
+    <p></p>
+
+    Carrier object for CustomObjectDefinition.
+
+    Services for the CustomObjectDefinition Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomObjectAgent?text=CustomObject+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.1.0.0")]
+
+      public class CustomObjectDefinition : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.1.0.0")>
+
+      Public Class CustomObjectDefinition Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ICustomObjectAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomObjectAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/12.1.0.0
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.#ctor
+  commentId: M:SuperOffice.CRM.Services.CustomObjectDefinition.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectDefinition()
+  nameWithType: CustomObjectDefinition.CustomObjectDefinition()
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.CustomObjectDefinition()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public CustomObjectDefinition()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.#ctor*
+  nameWithType.vb: CustomObjectDefinition.New()
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectDefinition.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.ToString
+  commentId: M:SuperOffice.CRM.Services.CustomObjectDefinition.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CustomObjectDefinition.ToString()
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.ToString*
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectDefinition.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: CustomObjectDefinition.ToString(string)
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.ToString*
+  nameWithType.vb: CustomObjectDefinition.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectDefinition.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Id
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CustomObjectDefinition.Id
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Id
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Primary key in the extra-tables table.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.Id*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Name
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CustomObjectDefinition.Name
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Name
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Database table name of the Custom Object, e.g. 'y_equipment'.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.Name*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Title
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CustomObjectDefinition.Title
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Title
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: User-visible title of the Custom Object.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.Title*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField
+  id: DisplayField
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: DisplayField
+  nameWithType: CustomObjectDefinition.DisplayField
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Name of the field used to represent a row in lists and previews.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string DisplayField { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property DisplayField As String
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Description
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CustomObjectDefinition.Description
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Description
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Description of the Custom Object.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.IconId
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.IconId
+  id: IconId
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: IconId
+  nameWithType: CustomObjectDefinition.IconId
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.IconId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Icon binary-object id used in the UI.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int IconId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IconId As Integer
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.IconId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Flags
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: CustomObjectDefinition.Flags
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Flags
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Bitmask of ExtraTableFlag values.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Flags As Integer
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.Flags*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Fields
+  commentId: P:SuperOffice.CRM.Services.CustomObjectDefinition.Fields
+  id: Fields
+  parent: SuperOffice.CRM.Services.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: CustomObjectDefinition.Fields
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Fields
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Field definitions for this Custom Object.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual CustomObjectField[] Fields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.CustomObjectField[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Fields As CustomObjectField()
+  overload: SuperOffice.CRM.Services.CustomObjectDefinition.Fields*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomObjectAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomObjectAgent.html
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition__ctor
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition.CustomObjectDefinition
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.CustomObjectDefinition
+  nameWithType.vb: CustomObjectDefinition.New
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectDefinition.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_ToString
+  name: ToString
+  nameWithType: CustomObjectDefinition.ToString
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Id*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.Id
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_Id
+  name: Id
+  nameWithType: CustomObjectDefinition.Id
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Name*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.Name
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_Name
+  name: Name
+  nameWithType: CustomObjectDefinition.Name
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Name
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Title*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.Title
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_Title
+  name: Title
+  nameWithType: CustomObjectDefinition.Title
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Title
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_DisplayField
+  name: DisplayField
+  nameWithType: CustomObjectDefinition.DisplayField
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.DisplayField
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Description*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.Description
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_Description
+  name: Description
+  nameWithType: CustomObjectDefinition.Description
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Description
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.IconId*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.IconId
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_IconId
+  name: IconId
+  nameWithType: CustomObjectDefinition.IconId
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.IconId
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Flags*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.Flags
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_Flags
+  name: Flags
+  nameWithType: CustomObjectDefinition.Flags
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Flags
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition.Fields*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectDefinition.Fields
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html#SuperOffice_CRM_Services_CustomObjectDefinition_Fields
+  name: Fields
+  nameWithType: CustomObjectDefinition.Fields
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition.Fields
+- uid: SuperOffice.CRM.Services.CustomObjectField[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectField.html
+  name: CustomObjectField[]
+  nameWithType: CustomObjectField[]
+  fullName: SuperOffice.CRM.Services.CustomObjectField[]
+  nameWithType.vb: CustomObjectField()
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectField()
+  name.vb: CustomObjectField()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.CustomObjectField
+    name: CustomObjectField
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObjectField.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.CustomObjectField
+    name: CustomObjectField
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObjectField.html
+  - name: (
+  - name: )

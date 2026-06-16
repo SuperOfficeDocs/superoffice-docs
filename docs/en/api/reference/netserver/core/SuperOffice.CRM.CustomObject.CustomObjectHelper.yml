@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.CRM.CustomObject
   children:
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName(System.String)
+  - SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+  - SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.String)
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldNameAsync(SuperOffice.Data.Dictionary.SoField,System.Threading.CancellationToken)
@@ -112,6 +114,78 @@ items:
       type: System.String
     content.vb: Public Shared Function ResolveProviderName(field As SoField) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName*
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+  commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+  id: CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+  parent: SuperOffice.CRM.CustomObject.CustomObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: CurrentUserHasAtLeastReadOnExtraTable(int)
+  nameWithType: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(int)
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(int)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.CustomObject
+  summary: >-
+    Returns <code>true</code> if the current logged-on user has at least Read data right on the
+
+    custom object (extra) table with the given table number. When no data right row is
+
+    configured for the table, the user has full access (returns <code>true</code>); only an
+
+    explicitly configured "None" right for the CustomObjects relation returns <code>false</code>.
+
+    If the current principal's role cannot be resolved (<xref href="SuperOffice.Exceptions.SoSentryException" data-throw-if-not-resolved="false"></xref>),
+
+    access cannot be confirmed so the table is hidden (fail closed).
+  example: []
+  syntax:
+    content: public static bool CurrentUserHasAtLeastReadOnExtraTable(int tableNumber)
+    parameters:
+    - id: tableNumber
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CurrentUserHasAtLeastReadOnExtraTable(tableNumber As Integer) As Boolean
+  overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable*
+  nameWithType.vb: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(Integer)
+  fullName.vb: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(Integer)
+  name.vb: CurrentUserHasAtLeastReadOnExtraTable(Integer)
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.String)
+  commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.String)
+  id: CurrentUserHasAtLeastReadOnExtraTable(System.String)
+  parent: SuperOffice.CRM.CustomObject.CustomObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: CurrentUserHasAtLeastReadOnExtraTable(string)
+  nameWithType: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(string)
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.CustomObject
+  summary: >-
+    Name-based overload of <xref href="SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)" data-throw-if-not-resolved="false"></xref>. Resolves
+
+    the extra table definition by name. Returns <code>true</code> for unknown / non-extra names so
+
+    that non-custom-object UI items are never hidden.
+  example: []
+  syntax:
+    content: public static bool CurrentUserHasAtLeastReadOnExtraTable(string extraTableName)
+    parameters:
+    - id: extraTableName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CurrentUserHasAtLeastReadOnExtraTable(extraTableName As String) As Boolean
+  overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable*
+  nameWithType.vb: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(String)
+  fullName.vb: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(String)
+  name.vb: CurrentUserHasAtLeastReadOnExtraTable(String)
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   id: MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
@@ -591,6 +665,74 @@ references:
   name: ResolveProviderName
   nameWithType: CustomObjectHelper.ResolveProviderName
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName
+- uid: SuperOffice.Exceptions.SoSentryException
+  commentId: T:SuperOffice.Exceptions.SoSentryException
+  isExternal: true
+  href: SuperOffice.Exceptions.SoSentryException.html
+  name: SoSentryException
+  nameWithType: SoSentryException
+  fullName: SuperOffice.Exceptions.SoSentryException
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable*
+  commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable
+  isExternal: true
+  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_CurrentUserHasAtLeastReadOnExtraTable_System_Int32_
+  name: CurrentUserHasAtLeastReadOnExtraTable
+  nameWithType: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+  commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+  isExternal: true
+  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_CurrentUserHasAtLeastReadOnExtraTable_System_Int32_
+  name: CurrentUserHasAtLeastReadOnExtraTable(int)
+  nameWithType: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(int)
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(int)
+  nameWithType.vb: CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(Integer)
+  fullName.vb: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(Integer)
+  name.vb: CurrentUserHasAtLeastReadOnExtraTable(Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+    name: CurrentUserHasAtLeastReadOnExtraTable
+    isExternal: true
+    href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_CurrentUserHasAtLeastReadOnExtraTable_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.CurrentUserHasAtLeastReadOnExtraTable(System.Int32)
+    name: CurrentUserHasAtLeastReadOnExtraTable
+    isExternal: true
+    href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_CurrentUserHasAtLeastReadOnExtraTable_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType
   isExternal: true

@@ -6,9 +6,9 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.#ctor(System.Object,System.IntPtr)
-  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
-  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
   langs:
   - csharp
   - vb
@@ -20,7 +20,7 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public delegate void AppointmentMatrix.SendMails(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, params MailItem[] mail)
+    content: public delegate void AppointmentMatrix.SendMails(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, bool useGraphApi, params MailItem[] mail)
     parameters:
     - id: smtpServer
       type: System.String
@@ -40,9 +40,11 @@ items:
       type: System.Boolean
     - id: sentFolder
       type: System.String
+    - id: useGraphApi
+      type: System.Boolean
     - id: mail
       type: SuperOffice.CRM.Mail.MailItem[]
-    content.vb: Public Delegate Sub AppointmentMatrix.SendMails(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, ParamArray mail As MailItem())
+    content.vb: Public Delegate Sub AppointmentMatrix.SendMails(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, useGraphApi As Boolean, ParamArray mail As MailItem())
   extensionMethods:
   - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -72,22 +74,22 @@ items:
   nameWithType.vb: AppointmentMatrix.SendMails.New(Object, IntPtr)
   fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.New(Object, System.IntPtr)
   name.vb: New(Object, IntPtr)
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
-  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
-  id: Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  id: Invoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
   parent: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
   langs:
   - csharp
   - vb
-  name: Invoke(string, string, string, bool, string, string, string, bool, string, params MailItem[])
-  nameWithType: AppointmentMatrix.SendMails.Invoke(string, string, string, bool, string, string, string, bool, string, params MailItem[])
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(string, string, string, bool, string, string, string, bool, string, params SuperOffice.CRM.Mail.MailItem[])
+  name: Invoke(string, string, string, bool, string, string, string, bool, string, bool, params MailItem[])
+  nameWithType: AppointmentMatrix.SendMails.Invoke(string, string, string, bool, string, string, string, bool, string, bool, params MailItem[])
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(string, string, string, bool, string, string, string, bool, string, bool, params SuperOffice.CRM.Mail.MailItem[])
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public virtual void Invoke(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, params MailItem[] mail)
+    content: public virtual void Invoke(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, bool useGraphApi, params MailItem[] mail)
     parameters:
     - id: smtpServer
       type: System.String
@@ -107,29 +109,31 @@ items:
       type: System.Boolean
     - id: sentFolder
       type: System.String
+    - id: useGraphApi
+      type: System.Boolean
     - id: mail
       type: SuperOffice.CRM.Mail.MailItem[]
-    content.vb: Public Overridable Sub Invoke(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, ParamArray mail As MailItem())
+    content.vb: Public Overridable Sub Invoke(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, useGraphApi As Boolean, ParamArray mail As MailItem())
   overload: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke*
-  nameWithType.vb: AppointmentMatrix.SendMails.Invoke(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray MailItem())
-  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray SuperOffice.CRM.Mail.MailItem())
-  name.vb: Invoke(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray MailItem())
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
-  id: BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  nameWithType.vb: AppointmentMatrix.SendMails.Invoke(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray MailItem())
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray SuperOffice.CRM.Mail.MailItem())
+  name.vb: Invoke(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray MailItem())
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[],System.AsyncCallback,System.Object)
   parent: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
   langs:
   - csharp
   - vb
-  name: BeginInvoke(string, string, string, bool, string, string, string, bool, string, MailItem[], AsyncCallback, object)
-  nameWithType: AppointmentMatrix.SendMails.BeginInvoke(string, string, string, bool, string, string, string, bool, string, MailItem[], AsyncCallback, object)
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(string, string, string, bool, string, string, string, bool, string, SuperOffice.CRM.Mail.MailItem[], System.AsyncCallback, object)
+  name: BeginInvoke(string, string, string, bool, string, string, string, bool, string, bool, MailItem[], AsyncCallback, object)
+  nameWithType: AppointmentMatrix.SendMails.BeginInvoke(string, string, string, bool, string, string, string, bool, string, bool, MailItem[], AsyncCallback, object)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(string, string, string, bool, string, string, string, bool, string, bool, SuperOffice.CRM.Mail.MailItem[], System.AsyncCallback, object)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, MailItem[] mail, AsyncCallback callback, object @object)
+    content: public virtual IAsyncResult BeginInvoke(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, bool useGraphApi, MailItem[] mail, AsyncCallback callback, object @object)
     parameters:
     - id: smtpServer
       type: System.String
@@ -149,6 +153,8 @@ items:
       type: System.Boolean
     - id: sentFolder
       type: System.String
+    - id: useGraphApi
+      type: System.Boolean
     - id: mail
       type: SuperOffice.CRM.Mail.MailItem[]
     - id: callback
@@ -157,11 +163,11 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, mail As MailItem(), callback As AsyncCallback, [object] As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, useGraphApi As Boolean, mail As MailItem(), callback As AsyncCallback, [object] As Object) As IAsyncResult
   overload: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke*
-  nameWithType.vb: AppointmentMatrix.SendMails.BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem(), AsyncCallback, Object)
-  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, SuperOffice.CRM.Mail.MailItem(), System.AsyncCallback, Object)
-  name.vb: BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, MailItem(), AsyncCallback, Object)
+  nameWithType.vb: AppointmentMatrix.SendMails.BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, MailItem(), AsyncCallback, Object)
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, SuperOffice.CRM.Mail.MailItem(), System.AsyncCallback, Object)
+  name.vb: BeginInvoke(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, MailItem(), AsyncCallback, Object)
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -540,14 +546,14 @@ references:
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke
   isExternal: true
-  href: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.html#SuperOffice_CRM_Entities_AppointmentMatrix_SendMails_Invoke_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_SuperOffice_CRM_Mail_MailItem___
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.html#SuperOffice_CRM_Entities_AppointmentMatrix_SendMails_Invoke_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_Boolean_SuperOffice_CRM_Mail_MailItem___
   name: Invoke
   nameWithType: AppointmentMatrix.SendMails.Invoke
   fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.Invoke
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke
   isExternal: true
-  href: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.html#SuperOffice_CRM_Entities_AppointmentMatrix_SendMails_BeginInvoke_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_SuperOffice_CRM_Mail_MailItem___System_AsyncCallback_System_Object_
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.html#SuperOffice_CRM_Entities_AppointmentMatrix_SendMails_BeginInvoke_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_Boolean_SuperOffice_CRM_Mail_MailItem___System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: AppointmentMatrix.SendMails.BeginInvoke
   fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails.BeginInvoke

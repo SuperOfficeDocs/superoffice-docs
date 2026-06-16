@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.ProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.CRM.Services.ProjectMember[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.CreateDefaultProjectEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
@@ -58,7 +58,7 @@ items:
   - SuperOffice.CRM.Services.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.CRM.Services.DuplicateRule[],System.Threading.CancellationToken)
-  - SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.UpdateProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.UpdateProjectMembersAsync(System.Int32,SuperOffice.CRM.Services.ProjectMember[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ProjectAgent.ValidateProjectEntityAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
@@ -135,22 +135,22 @@ items:
   nameWithType.vb: ProjectAgent.New(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ProjectAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.ProjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.ProjectAgent
   langs:
   - csharp
   - vb
-  name: ProjectAgent(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: ProjectAgent.ProjectAgent(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.ProjectAgent.ProjectAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: ProjectAgent(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: ProjectAgent.ProjectAgent(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.ProjectAgent.ProjectAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ProjectAgent(IProjectImplementation projectImplementation, IProjectEntityImplementation projectEntityImplementation, IProjectEventImplementation projectEventImplementation, IProjectEventEntityImplementation projectEventEntityImplementation, IProjectEventListImplementation projectEventListImplementation, IProjectListImplementation projectListImplementation, IProjectMemberImplementation projectMemberImplementation, IProjectMemberListImplementation projectMemberListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public ProjectAgent(IProjectImplementation projectImplementation, IProjectEntityImplementation projectEntityImplementation, IProjectEventImplementation projectEventImplementation, IProjectEventEntityImplementation projectEventEntityImplementation, IProjectEventListImplementation projectEventListImplementation, IProjectListImplementation projectListImplementation, IProjectMemberImplementation projectMemberImplementation, IProjectMemberListImplementation projectMemberListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: projectImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation
@@ -174,15 +174,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(projectImplementation As IProjectImplementation, projectEntityImplementation As IProjectEntityImplementation, projectEventImplementation As IProjectEventImplementation, projectEventEntityImplementation As IProjectEventEntityImplementation, projectEventListImplementation As IProjectEventListImplementation, projectListImplementation As IProjectListImplementation, projectMemberImplementation As IProjectMemberImplementation, projectMemberListImplementation As IProjectMemberListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(projectImplementation As IProjectImplementation, projectEntityImplementation As IProjectEntityImplementation, projectEventImplementation As IProjectEventImplementation, projectEventEntityImplementation As IProjectEventEntityImplementation, projectEventListImplementation As IProjectEventListImplementation, projectListImplementation As IProjectListImplementation, projectMemberImplementation As IProjectMemberImplementation, projectMemberListImplementation As IProjectMemberListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.ProjectAgent.#ctor*
-  nameWithType.vb: ProjectAgent.New(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.ProjectAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: ProjectAgent.New(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.ProjectAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectEventListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProjectMemberListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IProjectImplementation, IProjectEntityImplementation, IProjectEventImplementation, IProjectEventEntityImplementation, IProjectEventListImplementation, IProjectListImplementation, IProjectMemberImplementation, IProjectMemberListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.ProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectAsync(System.Int32,System.Threading.CancellationToken)
@@ -442,7 +438,7 @@ items:
   summary: Returns the project image that is displayed in the CRM application.
   example: []
   syntax:
-    content: public Task<Image> GetProjectImageAsync(int projectId, CancellationToken cancellationToken = default)
+    content: public Task<Stream> GetProjectImageAsync(int projectId, CancellationToken cancellationToken = default)
     parameters:
     - id: projectId
       type: System.Int32
@@ -451,25 +447,25 @@ items:
       type: System.Threading.CancellationToken
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
-      type: System.Threading.Tasks.Task{System.Drawing.Image}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
-    content.vb: Public Function GetProjectImageAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Image)
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The project image.
+    content.vb: Public Function GetProjectImageAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
   overload: SuperOffice.CRM.Services.ProjectAgent.GetProjectImageAsync*
   implements:
   - SuperOffice.CRM.Services.IProjectAgent.GetProjectImageAsync(System.Int32,System.Threading.CancellationToken)
   nameWithType.vb: ProjectAgent.GetProjectImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ProjectAgent.GetProjectImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetProjectImageAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  id: SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ProjectAgent
   langs:
   - csharp
   - vb
-  name: SetProjectImageAsync(int, Image, CancellationToken)
-  nameWithType: ProjectAgent.SetProjectImageAsync(int, Image, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(int, System.Drawing.Image, System.Threading.CancellationToken)
+  name: SetProjectImageAsync(int, Stream, CancellationToken)
+  nameWithType: ProjectAgent.SetProjectImageAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(int, System.IO.Stream, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SuperOffice.Services.Implementation
@@ -477,27 +473,27 @@ items:
   summary: Stores the project image that is displayed in the CRM application.
   example: []
   syntax:
-    content: public Task SetProjectImageAsync(int projectId, Image image, CancellationToken cancellationToken = default)
+    content: public Task SetProjectImageAsync(int projectId, Stream image, CancellationToken cancellationToken = default)
     parameters:
     - id: projectId
       type: System.Int32
       description: The project id of the project the image belongs to.
     - id: image
-      type: System.Drawing.Image
-      description: The image that is stored on the project (System.Drawing.Image)
+      type: System.IO.Stream
+      description: The project image.
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Public Function SetProjectImageAsync(projectId As Integer, image As Image, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Public Function SetProjectImageAsync(projectId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync*
   implements:
-  - SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  nameWithType.vb: ProjectAgent.SetProjectImageAsync(Integer, Image, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
-  name.vb: SetProjectImageAsync(Integer, Image, CancellationToken)
+  - SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  nameWithType.vb: ProjectAgent.SetProjectImageAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetProjectImageAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],System.Threading.CancellationToken)
   id: DeleteProjectMemberByIdsAsync(System.Int32[],System.Threading.CancellationToken)
@@ -2519,16 +2515,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.ProjectAgent.GetProjectAsync*
   commentId: Overload:SuperOffice.CRM.Services.ProjectAgent.GetProjectAsync
   isExternal: true
@@ -3182,27 +3168,27 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Threading.Tasks.Task{System.Drawing.Image}
-  commentId: T:System.Threading.Tasks.Task{System.Drawing.Image}
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Image>
-  nameWithType: Task<Image>
-  fullName: System.Threading.Tasks.Task<System.Drawing.Image>
-  nameWithType.vb: Task(Of Image)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Drawing.Image)
-  name.vb: Task(Of Image)
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: System.Drawing.Image
-    name: Image
+  - uid: System.IO.Stream
+    name: Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -3212,31 +3198,31 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: System.Drawing.Image
-    name: Image
+  - uid: System.IO.Stream
+    name: Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
 - uid: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectAgent.html#SuperOffice_CRM_Services_ProjectAgent_SetProjectImageAsync_System_Int32_System_Drawing_Image_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Services.ProjectAgent.html#SuperOffice_CRM_Services_ProjectAgent_SetProjectImageAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
   name: SetProjectImageAsync
   nameWithType: ProjectAgent.SetProjectImageAsync
   fullName: SuperOffice.CRM.Services.ProjectAgent.SetProjectImageAsync
-- uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IProjectAgent
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: SetProjectImageAsync(int, Image, CancellationToken)
-  nameWithType: IProjectAgent.SetProjectImageAsync(int, Image, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(int, System.Drawing.Image, System.Threading.CancellationToken)
-  nameWithType.vb: IProjectAgent.SetProjectImageAsync(Integer, Image, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
-  name.vb: SetProjectImageAsync(Integer, Image, CancellationToken)
+  name: SetProjectImageAsync(int, Stream, CancellationToken)
+  nameWithType: IProjectAgent.SetProjectImageAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(int, System.IO.Stream, System.Threading.CancellationToken)
+  nameWithType.vb: IProjectAgent.SetProjectImageAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetProjectImageAsync(Integer, Stream, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
     name: SetProjectImageAsync
     isExternal: true
   - name: (
@@ -3246,10 +3232,10 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
-  - uid: System.Drawing.Image
-    name: Image
+  - uid: System.IO.Stream
+    name: Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken
@@ -3258,7 +3244,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
     name: SetProjectImageAsync
     isExternal: true
   - name: (
@@ -3268,10 +3254,10 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
-  - uid: System.Drawing.Image
-    name: Image
+  - uid: System.IO.Stream
+    name: Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken
@@ -3279,41 +3265,41 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Drawing.Image
-  commentId: T:System.Drawing.Image
-  parent: System.Drawing
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
-  name: Image
-  nameWithType: Image
-  fullName: System.Drawing.Image
-- uid: System.Drawing
-  commentId: N:System.Drawing
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
   spec.csharp:
   - uid: System
     name: System
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system
   - name: .
-  - uid: System.Drawing
-    name: Drawing
+  - uid: System.IO
+    name: IO
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
+    href: https://learn.microsoft.com/dotnet/api/system.io
   spec.vb:
   - uid: System
     name: System
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system
   - name: .
-  - uid: System.Drawing
-    name: Drawing
+  - uid: System.IO
+    name: IO
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
+    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.CRM.Services.ProjectAgent.DeleteProjectMemberByIdsAsync*
   commentId: Overload:SuperOffice.CRM.Services.ProjectAgent.DeleteProjectMemberByIdsAsync
   isExternal: true

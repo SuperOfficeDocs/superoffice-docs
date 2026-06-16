@@ -12,6 +12,7 @@ items:
   - SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
   - SuperOffice.Data.SQL.FieldInfo.GetHashCode
   - SuperOffice.Data.SQL.FieldInfo.GetMainField
+  - SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
   - SuperOffice.Data.SQL.FieldInfo.HasNoDefinition
   - SuperOffice.Data.SQL.FieldInfo.IsPrimaryKey
   - SuperOffice.Data.SQL.FieldInfo.IsSameField(SuperOffice.Data.SQL.FieldInfo)
@@ -46,6 +47,7 @@ items:
   - SuperOffice.Data.SQL.QueryElement
   - SuperOffice.Data.SQL.Argument
   derivedClasses:
+  - SuperOffice.Data.SQL.ArgumentField
   - SuperOffice.Data.SQL.TypedFieldInfoBase`1
   implements:
   - System.ICloneable
@@ -360,6 +362,37 @@ items:
     content.vb: Public Overrides Function GetMainField() As FieldInfo
   overridden: SuperOffice.Data.SQL.Argument.GetMainField
   overload: SuperOffice.Data.SQL.FieldInfo.GetMainField*
+- uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  id: GetReferencedFields
+  parent: SuperOffice.Data.SQL.FieldInfo
+  langs:
+  - csharp
+  - vb
+  name: GetReferencedFields()
+  nameWithType: FieldInfo.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: Enumerate every <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> referenced inside this argument, recursively.
+  remarks: >-
+    Used by Select.GetTableInfos to anchor joins for compound arguments
+
+    (CASE, CONCAT, math, aggregations, function calls) that wrap fields from multiple
+
+    tables. Unlike <xref href="SuperOffice.Data.SQL.Argument.GetMainField" data-throw-if-not-resolved="false"></xref>, which returns at most one representative
+
+    field, this enumerates them all so every referenced table is discovered.
+  example: []
+  syntax:
+    content: public override IEnumerable<FieldInfo> GetReferencedFields()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Public Overrides Function GetReferencedFields() As IEnumerable(Of FieldInfo)
+  overridden: SuperOffice.Data.SQL.Argument.GetReferencedFields
+  overload: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields*
 - uid: SuperOffice.Data.SQL.FieldInfo.Parent
   commentId: P:SuperOffice.Data.SQL.FieldInfo.Parent
   id: Parent
@@ -2268,6 +2301,135 @@ references:
   name: GetMainField
   nameWithType: FieldInfo.GetMainField
   fullName: SuperOffice.Data.SQL.FieldInfo.GetMainField
+- uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Argument.GetReferencedFields
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: Argument.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Argument.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields*
+  commentId: Overload:SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
+  name: GetReferencedFields
+  nameWithType: FieldInfo.GetReferencedFields
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<FieldInfo>
+  nameWithType: IEnumerable<FieldInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: IEnumerable(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: IEnumerable(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Data.SQL.FieldInfo.Parent*
   commentId: Overload:SuperOffice.Data.SQL.FieldInfo.Parent
   isExternal: true

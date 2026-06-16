@@ -10,6 +10,7 @@ items:
   - SuperOffice.Data.SQL.Case.Else(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Case.ElseArgument
   - SuperOffice.Data.SQL.Case.GetMainField
+  - SuperOffice.Data.SQL.Case.GetReferencedFields
   - SuperOffice.Data.SQL.Case.HasElse
   - SuperOffice.Data.SQL.Case.When(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Case.WhenClauses
@@ -262,6 +263,37 @@ items:
     content.vb: Public Overrides Function GetMainField() As FieldInfo
   overridden: SuperOffice.Data.SQL.Argument.GetMainField
   overload: SuperOffice.Data.SQL.Case.GetMainField*
+- uid: SuperOffice.Data.SQL.Case.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Case.GetReferencedFields
+  id: GetReferencedFields
+  parent: SuperOffice.Data.SQL.Case
+  langs:
+  - csharp
+  - vb
+  name: GetReferencedFields()
+  nameWithType: Case.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Case.GetReferencedFields()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: Enumerate every field referenced by any THEN result or the ELSE branch.
+  remarks: >-
+    Fields referenced only inside WHEN conditions (Restrictions) are not walked here:
+
+    a Restriction tree has its own hierarchy and is not an <xref href="SuperOffice.Data.SQL.Argument" data-throw-if-not-resolved="false"></xref>. In
+
+    practice every table touched by a CASE condition is also touched by at least one
+
+    of its result branches, so anchoring via results is sufficient for join discovery.
+  example: []
+  syntax:
+    content: public override IEnumerable<FieldInfo> GetReferencedFields()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Public Overrides Function GetReferencedFields() As IEnumerable(Of FieldInfo)
+  overridden: SuperOffice.Data.SQL.Argument.GetReferencedFields
+  overload: SuperOffice.Data.SQL.Case.GetReferencedFields*
 - uid: SuperOffice.Data.SQL.Case.WhenClauses
   commentId: P:SuperOffice.Data.SQL.Case.WhenClauses
   id: WhenClauses
@@ -2270,6 +2302,135 @@ references:
   name: GetMainField
   nameWithType: Case.GetMainField
   fullName: SuperOffice.Data.SQL.Case.GetMainField
+- uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Argument.GetReferencedFields
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: Argument.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Argument.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.Case.GetReferencedFields*
+  commentId: Overload:SuperOffice.Data.SQL.Case.GetReferencedFields
+  isExternal: true
+  href: SuperOffice.Data.SQL.Case.html#SuperOffice_Data_SQL_Case_GetReferencedFields
+  name: GetReferencedFields
+  nameWithType: Case.GetReferencedFields
+  fullName: SuperOffice.Data.SQL.Case.GetReferencedFields
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<FieldInfo>
+  nameWithType: IEnumerable<FieldInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: IEnumerable(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: IEnumerable(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Data.SQL.Case.WhenClauses*
   commentId: Overload:SuperOffice.Data.SQL.Case.WhenClauses
   isExternal: true
@@ -2380,43 +2541,6 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Data.SQL.Case.ElseArgument*
   commentId: Overload:SuperOffice.Data.SQL.Case.ElseArgument
   isExternal: true

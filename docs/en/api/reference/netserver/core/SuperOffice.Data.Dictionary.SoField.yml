@@ -8,6 +8,7 @@ items:
   - SuperOffice.Data.Dictionary.SoField.AdditionalValues
   - SuperOffice.Data.Dictionary.SoField.AutoGenerateGuid
   - SuperOffice.Data.Dictionary.SoField.ConceptualType
+  - SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType(SuperOffice.Data.FieldDataType)
   - SuperOffice.Data.Dictionary.SoField.DbName
   - SuperOffice.Data.Dictionary.SoField.DefaultActiveUser
   - SuperOffice.Data.Dictionary.SoField.DefaultNow
@@ -148,6 +149,29 @@ items:
       type: System.Int32
     content.vb: Public Function GetEffectiveTextLength() As Integer
   overload: SuperOffice.Data.Dictionary.SoField.GetEffectiveTextLength*
+- uid: SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType(SuperOffice.Data.FieldDataType)
+  commentId: M:SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType(SuperOffice.Data.FieldDataType)
+  id: ConvertFieldDataTypeToDictFieldType(SuperOffice.Data.FieldDataType)
+  parent: SuperOffice.Data.Dictionary.SoField
+  langs:
+  - csharp
+  - vb
+  name: ConvertFieldDataTypeToDictFieldType(FieldDataType)
+  nameWithType: SoField.ConvertFieldDataTypeToDictFieldType(FieldDataType)
+  fullName: SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType(SuperOffice.Data.FieldDataType)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  syntax:
+    content: public static DictFieldType ConvertFieldDataTypeToDictFieldType(FieldDataType fieldDataType)
+    parameters:
+    - id: fieldDataType
+      type: SuperOffice.Data.FieldDataType
+    return:
+      type: SuperOffice.CD.DSL.V1.StepModel.DictFieldType
+    content.vb: Public Shared Function ConvertFieldDataTypeToDictFieldType(fieldDataType As FieldDataType) As DictFieldType
+  overload: SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType*
 - uid: SuperOffice.Data.Dictionary.SoField.Equals(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.Dictionary.SoField.Equals(SuperOffice.Data.Dictionary.SoField)
   id: Equals(SuperOffice.Data.Dictionary.SoField)
@@ -1889,6 +1913,53 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html#SuperOffice_Data_Dictionary_SoField_ConvertFieldDataTypeToDictFieldType_SuperOffice_Data_FieldDataType_
+  name: ConvertFieldDataTypeToDictFieldType
+  nameWithType: SoField.ConvertFieldDataTypeToDictFieldType
+  fullName: SuperOffice.Data.Dictionary.SoField.ConvertFieldDataTypeToDictFieldType
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.FieldDataType.html
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType
+- uid: SuperOffice.CD.DSL.V1.StepModel.DictFieldType
+  isExternal: true
+  name: DictFieldType
+  nameWithType: DictFieldType
+  fullName: SuperOffice.CD.DSL.V1.StepModel.DictFieldType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.Dictionary.SoField.Equals*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.Equals
   isExternal: true
@@ -2338,12 +2409,6 @@ references:
   name: ConceptualType
   nameWithType: SoField.ConceptualType
   fullName: SuperOffice.Data.Dictionary.SoField.ConceptualType
-- uid: SuperOffice.CD.DSL.V1.StepModel.DictFieldType
-  commentId: '!:SuperOffice.CD.DSL.V1.StepModel.DictFieldType'
-  isExternal: true
-  name: DictFieldType
-  nameWithType: DictFieldType
-  fullName: SuperOffice.CD.DSL.V1.StepModel.DictFieldType
 - uid: SuperOffice.Data.Dictionary.SoField.Length*
   commentId: Overload:SuperOffice.Data.Dictionary.SoField.Length
   isExternal: true

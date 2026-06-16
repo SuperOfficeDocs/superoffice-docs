@@ -34,6 +34,7 @@ items:
   - System.ICloneable
   inheritedMembers:
   - SuperOffice.Data.SQL.ArgumentFunction.GetMainField
+  - SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
   - SuperOffice.Data.SQL.ArgumentFunction.ArgumentObject
   - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
@@ -206,6 +207,28 @@ references:
     name: GetMainField
     isExternal: true
     href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+  parent: SuperOffice.Data.SQL.ArgumentFunction
+  isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: ArgumentFunction.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetReferencedFields
   - name: (
   - name: )
 - uid: SuperOffice.Data.SQL.ArgumentFunction.ArgumentObject

@@ -65,6 +65,7 @@ items:
   - SuperOffice.WebApi.Agents.ChatAgent
   - SuperOffice.WebApi.Agents.ConfigurationAgent
   - SuperOffice.WebApi.Agents.ContactAgent
+  - SuperOffice.WebApi.Agents.CustomObjectAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
   - SuperOffice.WebApi.Agents.DashboardAgent

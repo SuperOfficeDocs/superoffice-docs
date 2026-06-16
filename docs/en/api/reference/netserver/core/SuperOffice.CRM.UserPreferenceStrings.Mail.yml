@@ -71,6 +71,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
   - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowConfirmationDialog
   - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowInlineImages
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerName
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPass
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPort
@@ -129,6 +130,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "Mail"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
+  id: ShowMyEmails
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ShowMyEmails
+  nameWithType: UserPreferenceStrings.Mail.ShowMyEmails
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: >-
+    Download my e-mails to SuperOffice and show the Inbox button in the Navigator pane.
+
+    When off, only invitation/calendar related e-mails are fetched and saved
+
+    (the "simple mode" experience, e.g. when the user prefers Outlook for their inbox).
+
+    <p></p>Control type: Bool, access: Crm, Wizard
+  example: []
+  syntax:
+    content: public const string ShowMyEmails = "ShowMyEmails"
+    return:
+      type: System.String
+    content.vb: Public Const ShowMyEmails As String = "ShowMyEmails"
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
   id: EmailBounceThreshold

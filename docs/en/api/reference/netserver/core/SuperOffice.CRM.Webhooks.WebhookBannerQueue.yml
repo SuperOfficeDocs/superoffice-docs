@@ -1,0 +1,498 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  id: WebhookBannerQueue
+  parent: SuperOffice.CRM.Webhooks
+  children:
+  - SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue(System.String,System.Int32,SuperOffice.CRM.Webhooks.WebhookBannerNotification)
+  - SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll(System.String,System.Int32)
+  - SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: WebhookBannerQueue
+  nameWithType: WebhookBannerQueue
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: >-
+    Thread-safe in-memory queue of pending webhook banner notifications per associate.
+
+    Populated by SuperOffice.CRM.Webhooks.DefaultWebhookPlugin on a background
+
+    thread; drained by SoWebhookNotificationServerEventPlugin on the next
+
+    server-event poll for the associate's session.
+  example: []
+  syntax:
+    content: public static class WebhookBannerQueue
+    content.vb: Public Module WebhookBannerQueue
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue(System.String,System.Int32,SuperOffice.CRM.Webhooks.WebhookBannerNotification)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue(System.String,System.Int32,SuperOffice.CRM.Webhooks.WebhookBannerNotification)
+  id: Enqueue(System.String,System.Int32,SuperOffice.CRM.Webhooks.WebhookBannerNotification)
+  parent: SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  langs:
+  - csharp
+  - vb
+  name: Enqueue(string, int, WebhookBannerNotification)
+  nameWithType: WebhookBannerQueue.Enqueue(string, int, WebhookBannerNotification)
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue(string, int, SuperOffice.CRM.Webhooks.WebhookBannerNotification)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public static void Enqueue(string contextIdentifier, int associateId, WebhookBannerNotification notification)
+    parameters:
+    - id: contextIdentifier
+      type: System.String
+    - id: associateId
+      type: System.Int32
+    - id: notification
+      type: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+    content.vb: Public Shared Sub Enqueue(contextIdentifier As String, associateId As Integer, notification As WebhookBannerNotification)
+  overload: SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue*
+  nameWithType.vb: WebhookBannerQueue.Enqueue(String, Integer, WebhookBannerNotification)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue(String, Integer, SuperOffice.CRM.Webhooks.WebhookBannerNotification)
+  name.vb: Enqueue(String, Integer, WebhookBannerNotification)
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll(System.String,System.Int32)
+  id: PeekAll(System.String,System.Int32)
+  parent: SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  langs:
+  - csharp
+  - vb
+  name: PeekAll(string, int)
+  nameWithType: WebhookBannerQueue.PeekAll(string, int)
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll(string, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: >-
+    Returns a snapshot of all pending notifications without removing them.
+
+    Returns an empty array when there is nothing pending.
+  example: []
+  syntax:
+    content: public static WebhookBannerNotification[] PeekAll(string contextIdentifier, int associateId)
+    parameters:
+    - id: contextIdentifier
+      type: System.String
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Webhooks.WebhookBannerNotification[]
+    content.vb: Public Shared Function PeekAll(contextIdentifier As String, associateId As Integer) As WebhookBannerNotification()
+  overload: SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll*
+  nameWithType.vb: WebhookBannerQueue.PeekAll(String, Integer)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll(String, Integer)
+  name.vb: PeekAll(String, Integer)
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne(System.String,System.Int32)
+  id: TryDequeueOne(System.String,System.Int32)
+  parent: SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  langs:
+  - csharp
+  - vb
+  name: TryDequeueOne(string, int)
+  nameWithType: WebhookBannerQueue.TryDequeueOne(string, int)
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne(string, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  summary: >-
+    Removes a single notification from the front of the queue.
+
+    Used by SoWebhookNotificationServerEventPlugin.EndExecute to drain exactly
+
+    the items that were peeked, leaving any that arrived after the peek for the next poll.
+  example: []
+  syntax:
+    content: public static bool TryDequeueOne(string contextIdentifier, int associateId)
+    parameters:
+    - id: contextIdentifier
+      type: System.String
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryDequeueOne(contextIdentifier As String, associateId As Integer) As Boolean
+  overload: SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne*
+  nameWithType.vb: WebhookBannerQueue.TryDequeueOne(String, Integer)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne(String, Integer)
+  name.vb: TryDequeueOne(String, Integer)
+references:
+- uid: SuperOffice.CRM.Webhooks
+  commentId: N:SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Webhooks
+  nameWithType: SuperOffice.CRM.Webhooks
+  fullName: SuperOffice.CRM.Webhooks
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Webhooks
+    name: Webhooks
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Webhooks
+    name: Webhooks
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerQueue.html#SuperOffice_CRM_Webhooks_WebhookBannerQueue_Enqueue_System_String_System_Int32_SuperOffice_CRM_Webhooks_WebhookBannerNotification_
+  name: Enqueue
+  nameWithType: WebhookBannerQueue.Enqueue
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue.Enqueue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookBannerNotification
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerNotification.html
+  name: WebhookBannerNotification
+  nameWithType: WebhookBannerNotification
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerQueue.html#SuperOffice_CRM_Webhooks_WebhookBannerQueue_PeekAll_System_String_System_Int32_
+  name: PeekAll
+  nameWithType: WebhookBannerQueue.PeekAll
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue.PeekAll
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerNotification[]
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerNotification.html
+  name: WebhookBannerNotification[]
+  nameWithType: WebhookBannerNotification[]
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerNotification[]
+  nameWithType.vb: WebhookBannerNotification()
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookBannerNotification()
+  name.vb: WebhookBannerNotification()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+    name: WebhookBannerNotification
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookBannerNotification.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+    name: WebhookBannerNotification
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookBannerNotification.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerQueue.html#SuperOffice_CRM_Webhooks_WebhookBannerQueue_TryDequeueOne_System_String_System_Int32_
+  name: TryDequeueOne
+  nameWithType: WebhookBannerQueue.TryDequeueOne
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue.TryDequeueOne
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

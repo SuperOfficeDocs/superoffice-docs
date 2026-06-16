@@ -32,6 +32,7 @@ items:
   - System.ICloneable
   inheritedMembers:
   - SuperOffice.Data.SQL.Aggregation.GetMainField
+  - SuperOffice.Data.SQL.Aggregation.GetReferencedFields
   - SuperOffice.Data.SQL.Aggregation.ArgumentObject
   - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
@@ -247,6 +248,28 @@ references:
     name: GetMainField
     isExternal: true
     href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+  parent: SuperOffice.Data.SQL.Aggregation
+  isExternal: true
+  href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: Aggregation.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Aggregation.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetReferencedFields
   - name: (
   - name: )
 - uid: SuperOffice.Data.SQL.Aggregation.ArgumentObject

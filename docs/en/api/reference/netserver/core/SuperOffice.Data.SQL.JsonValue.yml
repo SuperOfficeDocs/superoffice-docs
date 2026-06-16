@@ -42,6 +42,7 @@ items:
   inheritedMembers:
   - SuperOffice.Data.SQL.DatabaseFunctions.GetMainField
   - SuperOffice.Data.SQL.DatabaseFunctions.Field
+  - SuperOffice.Data.SQL.Argument.GetReferencedFields
   - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
@@ -291,6 +292,28 @@ references:
   name: Field
   nameWithType: DatabaseFunctions.Field
   fullName: SuperOffice.Data.SQL.DatabaseFunctions.Field
+- uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Argument.GetReferencedFields
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: Argument.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Argument.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument

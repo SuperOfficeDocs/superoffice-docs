@@ -492,6 +492,19 @@ items:
   - SuperOffice.WebApi.Data.CurrencyEntity
   - SuperOffice.WebApi.Data.CustomCommand
   - SuperOffice.WebApi.Data.CustomFieldType
+  - SuperOffice.WebApi.Data.CustomObject
+  - SuperOffice.WebApi.Data.CustomObjectDefinition
+  - SuperOffice.WebApi.Data.CustomObjectField
+  - SuperOffice.WebApi.Data.CustomObjectMetadata
+  - SuperOffice.WebApi.Data.CustomObjectRelation
+  - SuperOffice.WebApi.Data.CustomObject_CreateDefaultCustomObjectRequest
+  - SuperOffice.WebApi.Data.CustomObject_DeleteCustomObjectRequest
+  - SuperOffice.WebApi.Data.CustomObject_GetCustomObjectDefinitionRequest
+  - SuperOffice.WebApi.Data.CustomObject_GetCustomObjectRequest
+  - SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsIconsRequest
+  - SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsMetadataRequest
+  - SuperOffice.WebApi.Data.CustomObject_HasScreenChooserRequest
+  - SuperOffice.WebApi.Data.CustomObject_SaveCustomObjectRequest
   - SuperOffice.WebApi.Data.CustomerCenterConfig
   - SuperOffice.WebApi.Data.CustomerLanguage
   - SuperOffice.WebApi.Data.CustomerServiceConfig
@@ -1063,6 +1076,7 @@ items:
   - SuperOffice.WebApi.Data.IntStringDictionary
   - SuperOffice.WebApi.Data.InterRestrictionOperator
   - SuperOffice.WebApi.Data.InvitationStatus
+  - SuperOffice.WebApi.Data.KbAccessLevel
   - SuperOffice.WebApi.Data.KbCategory
   - SuperOffice.WebApi.Data.LandingPageEntity
   - SuperOffice.WebApi.Data.LanguageInfo
@@ -1134,6 +1148,7 @@ items:
   - SuperOffice.WebApi.Data.List_GetAllSaleTypeRequest
   - SuperOffice.WebApi.Data.List_GetAllTasksRequest
   - SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+  - SuperOffice.WebApi.Data.List_GetAllTicketRelationDefinitionEntitiesRequest
   - SuperOffice.WebApi.Data.List_GetAppTaskMenusRequest
   - SuperOffice.WebApi.Data.List_GetAppWebPanelsRequest
   - SuperOffice.WebApi.Data.List_GetBaseCurrencyRequest
@@ -2113,6 +2128,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Gdpr
   - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
   - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.License
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
@@ -2123,7 +2139,6 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Person
-  - SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
   - SuperOffice.WebApi.Data.UserPreferenceStrings.PocketSection
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Project
   - SuperOffice.WebApi.Data.UserPreferenceStrings.QuickLaunchBar
@@ -2135,7 +2150,6 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SaleFilterDialog
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
-  - SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
   - SuperOffice.WebApi.Data.UserPreferenceStrings.StandardStartupScreenOptions
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SuperMode
@@ -8473,6 +8487,13 @@ references:
   name: List_ValidateTicketRelationDefinitionRequest
   nameWithType: List_ValidateTicketRelationDefinitionRequest
   fullName: SuperOffice.WebApi.Data.List_ValidateTicketRelationDefinitionRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllTicketRelationDefinitionEntitiesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllTicketRelationDefinitionEntitiesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.List_GetAllTicketRelationDefinitionEntitiesRequest.html
+  name: List_GetAllTicketRelationDefinitionEntitiesRequest
+  nameWithType: List_GetAllTicketRelationDefinitionEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllTicketRelationDefinitionEntitiesRequest
 - uid: SuperOffice.WebApi.Data.TicketRelationDefinitionResult
   commentId: T:SuperOffice.WebApi.Data.TicketRelationDefinitionResult
   isExternal: true
@@ -15834,6 +15855,98 @@ references:
   name: DatabaseTable_DeleteRequest
   nameWithType: DatabaseTable_DeleteRequest
   fullName: SuperOffice.WebApi.Data.DatabaseTable_DeleteRequest
+- uid: SuperOffice.WebApi.Data.CustomObject
+  commentId: T:SuperOffice.WebApi.Data.CustomObject
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject.html
+  name: CustomObject
+  nameWithType: CustomObject
+  fullName: SuperOffice.WebApi.Data.CustomObject
+- uid: SuperOffice.WebApi.Data.CustomObject_CreateDefaultCustomObjectRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_CreateDefaultCustomObjectRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_CreateDefaultCustomObjectRequest.html
+  name: CustomObject_CreateDefaultCustomObjectRequest
+  nameWithType: CustomObject_CreateDefaultCustomObjectRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_CreateDefaultCustomObjectRequest
+- uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_GetCustomObjectRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectRequest.html
+  name: CustomObject_GetCustomObjectRequest
+  nameWithType: CustomObject_GetCustomObjectRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectRequest
+- uid: SuperOffice.WebApi.Data.CustomObject_SaveCustomObjectRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_SaveCustomObjectRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_SaveCustomObjectRequest.html
+  name: CustomObject_SaveCustomObjectRequest
+  nameWithType: CustomObject_SaveCustomObjectRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_SaveCustomObjectRequest
+- uid: SuperOffice.WebApi.Data.CustomObject_DeleteCustomObjectRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_DeleteCustomObjectRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_DeleteCustomObjectRequest.html
+  name: CustomObject_DeleteCustomObjectRequest
+  nameWithType: CustomObject_DeleteCustomObjectRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_DeleteCustomObjectRequest
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition
+  commentId: T:SuperOffice.WebApi.Data.CustomObjectDefinition
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition
+- uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectDefinitionRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_GetCustomObjectDefinitionRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectDefinitionRequest.html
+  name: CustomObject_GetCustomObjectDefinitionRequest
+  nameWithType: CustomObject_GetCustomObjectDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectDefinitionRequest
+- uid: SuperOffice.WebApi.Data.CustomObject_HasScreenChooserRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_HasScreenChooserRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_HasScreenChooserRequest.html
+  name: CustomObject_HasScreenChooserRequest
+  nameWithType: CustomObject_HasScreenChooserRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_HasScreenChooserRequest
+- uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsMetadataRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsMetadataRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsMetadataRequest.html
+  name: CustomObject_GetCustomObjectsMetadataRequest
+  nameWithType: CustomObject_GetCustomObjectsMetadataRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsMetadataRequest
+- uid: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsIconsRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsIconsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsIconsRequest.html
+  name: CustomObject_GetCustomObjectsIconsRequest
+  nameWithType: CustomObject_GetCustomObjectsIconsRequest
+  fullName: SuperOffice.WebApi.Data.CustomObject_GetCustomObjectsIconsRequest
+- uid: SuperOffice.WebApi.Data.CustomObjectField
+  commentId: T:SuperOffice.WebApi.Data.CustomObjectField
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectField.html
+  name: CustomObjectField
+  nameWithType: CustomObjectField
+  fullName: SuperOffice.WebApi.Data.CustomObjectField
+- uid: SuperOffice.WebApi.Data.CustomObjectMetadata
+  commentId: T:SuperOffice.WebApi.Data.CustomObjectMetadata
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectMetadata.html
+  name: CustomObjectMetadata
+  nameWithType: CustomObjectMetadata
+  fullName: SuperOffice.WebApi.Data.CustomObjectMetadata
+- uid: SuperOffice.WebApi.Data.CustomObjectRelation
+  commentId: T:SuperOffice.WebApi.Data.CustomObjectRelation
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectRelation.html
+  name: CustomObjectRelation
+  nameWithType: CustomObjectRelation
+  fullName: SuperOffice.WebApi.Data.CustomObjectRelation
 - uid: SuperOffice.WebApi.Data.ChatBotSettings
   commentId: T:SuperOffice.WebApi.Data.ChatBotSettings
   parent: SuperOffice.WebApi.Data
@@ -18492,6 +18605,14 @@ references:
   name: TicketAlertAction
   nameWithType: TicketAlertAction
   fullName: SuperOffice.WebApi.Data.TicketAlertAction
+- uid: SuperOffice.WebApi.Data.KbAccessLevel
+  commentId: T:SuperOffice.WebApi.Data.KbAccessLevel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.KbAccessLevel.html
+  name: KbAccessLevel
+  nameWithType: KbAccessLevel
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel
 - uid: SuperOffice.WebApi.Data.BadgeType
   commentId: T:SuperOffice.WebApi.Data.BadgeType
   parent: SuperOffice.WebApi.Data
@@ -19093,33 +19214,6 @@ references:
     name: Numbering
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.html
-- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
-  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
-  isExternal: true
-  href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
-  name: UserPreferenceStrings.Phone
-  nameWithType: UserPreferenceStrings.Phone
-  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
-    name: Phone
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.html
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
-    name: Phone
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.html
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
   commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Sorting
   isExternal: true
@@ -19471,33 +19565,6 @@ references:
     name: DuplicateSystem
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.DuplicateSystem.html
-- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
-  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
-  isExternal: true
-  href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
-  name: UserPreferenceStrings.SentryAddonNames
-  nameWithType: UserPreferenceStrings.SentryAddonNames
-  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
-    name: SentryAddonNames
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames.html
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
-    name: SentryAddonNames
-    isExternal: true
-    href: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames.html
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DocPluginNames
   commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.DocPluginNames
   isExternal: true
@@ -20335,6 +20402,33 @@ references:
     name: Mailing
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing.html
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.License
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.License
+  isExternal: true
+  href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  name: UserPreferenceStrings.License
+  nameWithType: UserPreferenceStrings.License
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.License
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.License
+    name: License
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.License.html
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.License
+    name: License
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.License.html
 - uid: SuperOffice.WebApi.Data.FunctionRightStrings
   commentId: T:SuperOffice.WebApi.Data.FunctionRightStrings
   isExternal: true

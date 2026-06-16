@@ -308,7 +308,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: If true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on Oracle which thinks it has to reparse everything if a comment changes
+  summary: If true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on databases that reparse everything if a comment changes
   example: []
   syntax:
     content: bool DisableSqlTrackingComments { get; set; }
@@ -331,7 +331,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: If true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on Oracle which thinks it has to reparse everything if a comment changes
+  summary: If true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on databases that reparse everything if a comment changes
   example: []
   syntax:
     content: bool DisableUserInSqlTrackingComments { get; set; }

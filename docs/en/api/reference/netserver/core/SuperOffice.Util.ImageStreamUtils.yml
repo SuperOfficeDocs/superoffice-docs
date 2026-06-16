@@ -6,7 +6,11 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
   - SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+  - SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng
+  - SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng
   langs:
   - csharp
   - vb
@@ -89,6 +93,138 @@ items:
       type: System.Threading.Tasks.Task{System.String}
     content.vb: Public Shared Function GetDefaultMimeTypeAsync(imageStream As Stream, cancellationToken As CancellationToken) As Task(Of String)
   overload: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync*
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  id: FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ImageStreamUtils
+  langs:
+  - csharp
+  - vb
+  name: FitToPngBytes(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPngBytes(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, int, int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Synchronous companion to <xref href="SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream%2cSystem.Int32%2cSystem.Int32%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>. Resizes the input image to fit within the
+
+    given bounds while preserving aspect ratio, and returns the result as PNG-encoded bytes.
+
+    Always re-encodes as PNG regardless of the input format. Returns null if input is null.
+  example: []
+  syntax:
+    content: public static byte[] FitToPngBytes(this Stream imageStream, int width, int height)
+    parameters:
+    - id: imageStream
+      type: System.IO.Stream
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function FitToPngBytes(imageStream As Stream, width As Integer, height As Integer) As Byte()
+  overload: SuperOffice.Util.ImageStreamUtils.FitToPngBytes*
+  nameWithType.vb: ImageStreamUtils.FitToPngBytes(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPngBytes(Stream, Integer, Integer)
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  id: FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ImageStreamUtils
+  langs:
+  - csharp
+  - vb
+  name: FitToPng(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPng(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream, int, int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Convenience wrapper around <xref href="SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> that returns a positioned-at-zero
+
+    <xref href="System.IO.MemoryStream" data-throw-if-not-resolved="false"></xref> wrapping the resulting bytes.
+  example: []
+  syntax:
+    content: public static Stream FitToPng(this Stream imageStream, int width, int height)
+    parameters:
+    - id: imageStream
+      type: System.IO.Stream
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function FitToPng(imageStream As Stream, width As Integer, height As Integer) As Stream
+  overload: SuperOffice.Util.ImageStreamUtils.FitToPng*
+  nameWithType.vb: ImageStreamUtils.FitToPng(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPng(Stream, Integer, Integer)
+- uid: SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng
+  commentId: M:SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng
+  id: GetTransparentPixelPng
+  parent: SuperOffice.Util.ImageStreamUtils
+  langs:
+  - csharp
+  - vb
+  name: GetTransparentPixelPng()
+  nameWithType: ImageStreamUtils.GetTransparentPixelPng()
+  fullName: SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Returns a 1×1 fully transparent PNG as bytes. Useful as a fallback for missing or invalid
+
+    images. A fresh copy is returned on every call, so callers may freely mutate the result
+
+    without affecting the process-wide cached source.
+  example: []
+  syntax:
+    content: public static byte[] GetTransparentPixelPng()
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function GetTransparentPixelPng() As Byte()
+  overload: SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng*
+- uid: SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng
+  commentId: M:SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng
+  id: GetNoPhotoPng
+  parent: SuperOffice.Util.ImageStreamUtils
+  langs:
+  - csharp
+  - vb
+  name: GetNoPhotoPng()
+  nameWithType: ImageStreamUtils.GetNoPhotoPng()
+  fullName: SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Returns the product-wide "no photo" placeholder (a person silhouette) as PNG bytes,
+
+    loaded once from an embedded resource and cached. Used as the visible fallback for the
+
+    <code>SrNoPhoto</code> / <code>SrNoPhotoWithBorder</code> strategies on the cross-platform image path,
+
+    replacing the GDI+-rendered "NO PHOTO" text image. A fresh copy is returned on every call,
+
+    so callers may freely mutate the result without affecting the process-wide cached source.
+  example: []
+  syntax:
+    content: public static byte[] GetNoPhotoPng()
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function GetNoPhotoPng() As Byte()
+  overload: SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng*
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -584,3 +720,186 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: FitToAsync(Stream, int, int, CancellationToken)
+  nameWithType: ImageStreamUtils.FitToAsync(Stream, int, int, CancellationToken)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: ImageStreamUtils.FitToAsync(Stream, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: FitToAsync(Stream, Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: FitToAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: FitToAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes*
+  commentId: Overload:SuperOffice.Util.ImageStreamUtils.FitToPngBytes
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPngBytes
+  nameWithType: ImageStreamUtils.FitToPngBytes
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPngBytes
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPngBytes(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPngBytes(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, int, int)
+  nameWithType.vb: ImageStreamUtils.FitToPngBytes(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPngBytes(Stream, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPngBytes
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPngBytes
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.IO.MemoryStream
+  commentId: T:System.IO.MemoryStream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.memorystream
+  name: MemoryStream
+  nameWithType: MemoryStream
+  fullName: System.IO.MemoryStream
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPng*
+  commentId: Overload:SuperOffice.Util.ImageStreamUtils.FitToPng
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPng
+  nameWithType: ImageStreamUtils.FitToPng
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPng
+- uid: SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng*
+  commentId: Overload:SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetTransparentPixelPng
+  name: GetTransparentPixelPng
+  nameWithType: ImageStreamUtils.GetTransparentPixelPng
+  fullName: SuperOffice.Util.ImageStreamUtils.GetTransparentPixelPng
+- uid: SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng*
+  commentId: Overload:SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetNoPhotoPng
+  name: GetNoPhotoPng
+  nameWithType: ImageStreamUtils.GetNoPhotoPng
+  fullName: SuperOffice.Util.ImageStreamUtils.GetNoPhotoPng

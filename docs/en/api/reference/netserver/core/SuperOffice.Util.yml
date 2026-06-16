@@ -40,6 +40,7 @@ items:
   - SuperOffice.Util.HttpHelper.RequestType
   - SuperOffice.Util.IAppointmentUtility
   - SuperOffice.Util.ICalendarUtility
+  - SuperOffice.Util.IStructurePatchingHelper
   - SuperOffice.Util.ITextEncodingDetector
   - SuperOffice.Util.ITrackEventDispatcher
   - SuperOffice.Util.IWebAppUsageRecorder
@@ -82,8 +83,7 @@ items:
   - SuperOffice.Util.SoMapper
   - SuperOffice.Util.StackTracer
   - SuperOffice.Util.StringHelper
-  - SuperOffice.Util.StructurePatchingHelper
-  - SuperOffice.Util.StructurePatchingHelper.TypeAction
+  - SuperOffice.Util.StructurePatchingTypeCache
   - SuperOffice.Util.TSRandom
   - SuperOffice.Util.TargetHelper
   - SuperOffice.Util.TemporaryConfigOverride
@@ -101,6 +101,7 @@ items:
   - SuperOffice.Util.TrackEventSender
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
+  - SuperOffice.Util.TypeAction
   - SuperOffice.Util.TypeHelper
   - SuperOffice.Util.UrlHelper
   - SuperOffice.Util.UsedPrefKeysUtils
@@ -516,6 +517,20 @@ references:
   name: InjectionHelper
   nameWithType: InjectionHelper
   fullName: SuperOffice.Util.InjectionHelper
+- uid: SuperOffice.Util.TypeAction
+  commentId: T:SuperOffice.Util.TypeAction
+  isExternal: true
+  href: SuperOffice.Util.TypeAction.html
+  name: TypeAction
+  nameWithType: TypeAction
+  fullName: SuperOffice.Util.TypeAction
+- uid: SuperOffice.Util.IStructurePatchingHelper
+  commentId: T:SuperOffice.Util.IStructurePatchingHelper
+  isExternal: true
+  href: SuperOffice.Util.IStructurePatchingHelper.html
+  name: IStructurePatchingHelper
+  nameWithType: IStructurePatchingHelper
+  fullName: SuperOffice.Util.IStructurePatchingHelper
 - uid: SuperOffice.Util.IWebAppUsageRecorder
   commentId: T:SuperOffice.Util.IWebAppUsageRecorder
   parent: SuperOffice.Util
@@ -785,40 +800,13 @@ references:
   name: StringHelper
   nameWithType: StringHelper
   fullName: SuperOffice.Util.StringHelper
-- uid: SuperOffice.Util.StructurePatchingHelper
-  commentId: T:SuperOffice.Util.StructurePatchingHelper
+- uid: SuperOffice.Util.StructurePatchingTypeCache
+  commentId: T:SuperOffice.Util.StructurePatchingTypeCache
   isExternal: true
-  href: SuperOffice.Util.StructurePatchingHelper.html
-  name: StructurePatchingHelper
-  nameWithType: StructurePatchingHelper
-  fullName: SuperOffice.Util.StructurePatchingHelper
-- uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
-  commentId: T:SuperOffice.Util.StructurePatchingHelper.TypeAction
-  isExternal: true
-  href: SuperOffice.Util.StructurePatchingHelper.html
-  name: StructurePatchingHelper.TypeAction
-  nameWithType: StructurePatchingHelper.TypeAction
-  fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction
-  spec.csharp:
-  - uid: SuperOffice.Util.StructurePatchingHelper
-    name: StructurePatchingHelper
-    isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.html
-  - name: .
-  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
-    name: TypeAction
-    isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
-  spec.vb:
-  - uid: SuperOffice.Util.StructurePatchingHelper
-    name: StructurePatchingHelper
-    isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.html
-  - name: .
-  - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
-    name: TypeAction
-    isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
+  href: SuperOffice.Util.StructurePatchingTypeCache.html
+  name: StructurePatchingTypeCache
+  nameWithType: StructurePatchingTypeCache
+  fullName: SuperOffice.Util.StructurePatchingTypeCache
 - uid: SuperOffice.Util.TemporaryValue`1
   commentId: T:SuperOffice.Util.TemporaryValue`1
   isExternal: true

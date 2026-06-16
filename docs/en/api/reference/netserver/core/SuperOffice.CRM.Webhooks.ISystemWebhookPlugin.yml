@@ -10,7 +10,7 @@ items:
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastErrorAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhookAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.RecordResultAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -112,16 +112,16 @@ items:
   nameWithType.vb: ISystemWebhookPlugin.GetWebhookAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhookAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetWebhookAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
-  commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
-  id: SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+- uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
+  commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
+  id: SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
   parent: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
   langs:
   - csharp
   - vb
-  name: SaveWebhookAsync(Webhook)
-  nameWithType: ISystemWebhookPlugin.SaveWebhookAsync(Webhook)
-  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  name: SaveWebhookAsync(Webhook, bool)
+  nameWithType: ISystemWebhookPlugin.SaveWebhookAsync(Webhook, bool)
+  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, bool)
   type: Method
   assemblies:
   - SoDataBase
@@ -129,16 +129,35 @@ items:
   summary: Store/Create a webhook.
   example: []
   syntax:
-    content: Task<Webhook> SaveWebhookAsync(Webhook webhook)
+    content: Task<Webhook> SaveWebhookAsync(Webhook webhook, bool restart = false)
     parameters:
     - id: webhook
       type: SuperOffice.CRM.Webhooks.Webhook
       description: webhook to store. Create new hook if id=0
+    - id: restart
+      type: System.Boolean
+      description: >-
+        When <code>true</code>, resets the webhook's consecutive-error counter and last-error message in
+
+        both the database and the in-memory usage cache, giving it a clean slate.
+
+        This flag is derived by the caller: it is set when an existing webhook is saved with
+
+        <code>ConsecutiveErrors == 0</code> and an empty <code>LastError</code> while the persisted record
+
+        still carries errors — matching the explicit "Restart" action in the UI.
+
+        Third-party API callers that send a carrier without errors will implicitly trigger the same
+
+        reset, which is intentional (they are effectively requesting an Active, error-free state).
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.Webhook}
       description: Updated webhook, with primary key set.
-    content.vb: Function SaveWebhookAsync(webhook As Webhook) As Task(Of Webhook)
+    content.vb: Function SaveWebhookAsync(webhook As Webhook, restart As Boolean = False) As Task(Of Webhook)
   overload: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync*
+  nameWithType.vb: ISystemWebhookPlugin.SaveWebhookAsync(Webhook, Boolean)
+  fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, Boolean)
+  name.vb: SaveWebhookAsync(Webhook, Boolean)
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
   id: DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
@@ -882,7 +901,7 @@ references:
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_SaveWebhookAsync_SuperOffice_CRM_Webhooks_Webhook_
+  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_SaveWebhookAsync_SuperOffice_CRM_Webhooks_Webhook_System_Boolean_
   name: SaveWebhookAsync
   nameWithType: ISystemWebhookPlugin.SaveWebhookAsync
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhookAsync
@@ -894,6 +913,17 @@ references:
   name: Webhook
   nameWithType: Webhook
   fullName: SuperOffice.CRM.Webhooks.Webhook
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhookAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhookAsync
   isExternal: true

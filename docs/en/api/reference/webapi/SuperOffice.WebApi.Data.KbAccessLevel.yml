@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.KbAccessLevel
+  commentId: T:SuperOffice.WebApi.Data.KbAccessLevel
+  id: KbAccessLevel
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.KbAccessLevel.Internal
+  - SuperOffice.WebApi.Data.KbAccessLevel.Private
+  - SuperOffice.WebApi.Data.KbAccessLevel.Public
+  - SuperOffice.WebApi.Data.KbAccessLevel.PublicAuthenticated
+  langs:
+  - csharp
+  - vb
+  name: KbAccessLevel
+  nameWithType: KbAccessLevel
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Describes access level to get FAQs
+  example: []
+  syntax:
+    content: public enum KbAccessLevel
+    content.vb: Public Enum KbAccessLevel
+- uid: SuperOffice.WebApi.Data.KbAccessLevel.Private
+  commentId: F:SuperOffice.WebApi.Data.KbAccessLevel.Private
+  id: Private
+  parent: SuperOffice.WebApi.Data.KbAccessLevel
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: KbAccessLevel.Private
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel.Private
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Private'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Private = 1
+    return:
+      type: SuperOffice.WebApi.Data.KbAccessLevel
+    content.vb: >-
+      <EnumMember>
+
+      Private = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.KbAccessLevel.Internal
+  commentId: F:SuperOffice.WebApi.Data.KbAccessLevel.Internal
+  id: Internal
+  parent: SuperOffice.WebApi.Data.KbAccessLevel
+  langs:
+  - csharp
+  - vb
+  name: Internal
+  nameWithType: KbAccessLevel.Internal
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel.Internal
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Accessible to internal users'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Internal = 2
+    return:
+      type: SuperOffice.WebApi.Data.KbAccessLevel
+    content.vb: >-
+      <EnumMember>
+
+      Internal = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.KbAccessLevel.PublicAuthenticated
+  commentId: F:SuperOffice.WebApi.Data.KbAccessLevel.PublicAuthenticated
+  id: PublicAuthenticated
+  parent: SuperOffice.WebApi.Data.KbAccessLevel
+  langs:
+  - csharp
+  - vb
+  name: PublicAuthenticated
+  nameWithType: KbAccessLevel.PublicAuthenticated
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel.PublicAuthenticated
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Accessible to registered customers'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      PublicAuthenticated = 3
+    return:
+      type: SuperOffice.WebApi.Data.KbAccessLevel
+    content.vb: >-
+      <EnumMember>
+
+      PublicAuthenticated = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.KbAccessLevel.Public
+  commentId: F:SuperOffice.WebApi.Data.KbAccessLevel.Public
+  id: Public
+  parent: SuperOffice.WebApi.Data.KbAccessLevel
+  langs:
+  - csharp
+  - vb
+  name: Public
+  nameWithType: KbAccessLevel.Public
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel.Public
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: Accessible to everyone'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Public = 4
+    return:
+      type: SuperOffice.WebApi.Data.KbAccessLevel
+    content.vb: >-
+      <EnumMember>
+
+      Public = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.KbAccessLevel
+  commentId: T:SuperOffice.WebApi.Data.KbAccessLevel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.KbAccessLevel.html
+  name: KbAccessLevel
+  nameWithType: KbAccessLevel
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel

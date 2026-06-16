@@ -557,135 +557,135 @@ items:
   example: []
   syntax:
     content: >-
-      [DatabaseStep]
+      [DatabaseStep("ai", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("chat", 22)]
 
-      [DatabaseStep]
+      [DatabaseStep("CollaborationMeeting", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("configurablescreens", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("Copilot", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("CRMScript", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("dashboard", 24)]
 
-      [DatabaseStep]
+      [DatabaseStep("ExternalOwner", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("forms", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("inbox", 13)]
 
-      [DatabaseStep]
+      [DatabaseStep("invitation", 6)]
 
-      [DatabaseStep]
+      [DatabaseStep("LandingPage", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Mailings", 16)]
 
-      [DatabaseStep]
+      [DatabaseStep("Metering", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewFollowupDialog", 4)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewSelection", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("Notifications", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("Online", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Optimization", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("Pocket", 6)]
 
-      [DatabaseStep]
+      [DatabaseStep("R_Service", 3)]
 
-      [DatabaseStep]
+      [DatabaseStep("SubscriptionMgmt", 7)]
 
-      [DatabaseStep]
+      [DatabaseStep("SuperId", 3)]
 
-      [DatabaseStep]
+      [DatabaseStep("targets", 8)]
 
-      [DatabaseStep]
+      [DatabaseStep("TechnicalDebt", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("UserPreference", 4)]
 
-      [DatabaseStep]
+      [DatabaseStep("Webhooks", 5)]
 
-      [DatabaseStep]
+      [DatabaseStep("Workflows", 22)]
 
-      [DatabaseStep]
+      [DatabaseStep("SuperOffice", 149)]
 
-      [DatabaseStep]
+      [DatabaseStep("ConsentManagement", 23)]
 
-      [DatabaseStep]
+      [DatabaseStep("CS", 72)]
 
-      [DatabaseStep]
+      [DatabaseStep("customerCenter", 28)]
 
       public static class TablesInfo
     content.vb: >-
-      <DatabaseStep>
+      <DatabaseStep("ai", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("chat", 22)>
 
-      <DatabaseStep>
+      <DatabaseStep("CollaborationMeeting", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("configurablescreens", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("Copilot", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("CRMScript", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("dashboard", 24)>
 
-      <DatabaseStep>
+      <DatabaseStep("ExternalOwner", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("forms", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("inbox", 13)>
 
-      <DatabaseStep>
+      <DatabaseStep("invitation", 6)>
 
-      <DatabaseStep>
+      <DatabaseStep("LandingPage", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Mailings", 16)>
 
-      <DatabaseStep>
+      <DatabaseStep("Metering", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewFollowupDialog", 4)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewSelection", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("Notifications", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("Online", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Optimization", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("Pocket", 6)>
 
-      <DatabaseStep>
+      <DatabaseStep("R_Service", 3)>
 
-      <DatabaseStep>
+      <DatabaseStep("SubscriptionMgmt", 7)>
 
-      <DatabaseStep>
+      <DatabaseStep("SuperId", 3)>
 
-      <DatabaseStep>
+      <DatabaseStep("targets", 8)>
 
-      <DatabaseStep>
+      <DatabaseStep("TechnicalDebt", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("UserPreference", 4)>
 
-      <DatabaseStep>
+      <DatabaseStep("Webhooks", 5)>
 
-      <DatabaseStep>
+      <DatabaseStep("Workflows", 22)>
 
-      <DatabaseStep>
+      <DatabaseStep("SuperOffice", 149)>
 
-      <DatabaseStep>
+      <DatabaseStep("ConsentManagement", 23)>
 
-      <DatabaseStep>
+      <DatabaseStep("CS", 72)>
 
-      <DatabaseStep>
+      <DatabaseStep("customerCenter", 28)>
 
       Public Module TablesInfo
   inheritance:
@@ -700,101 +700,229 @@ items:
   - System.Object.MemberwiseClone
   attributes:
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ai
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: chat
+    - type: System.Int32
+      value: 22
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CollaborationMeeting
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: configurablescreens
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Copilot
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CRMScript
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: dashboard
+    - type: System.Int32
+      value: 24
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ExternalOwner
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: forms
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: inbox
+    - type: System.Int32
+      value: 13
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: invitation
+    - type: System.Int32
+      value: 6
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: LandingPage
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Mailings
+    - type: System.Int32
+      value: 16
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Metering
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewFollowupDialog
+    - type: System.Int32
+      value: 4
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewSelection
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Notifications
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Online
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Optimization
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Pocket
+    - type: System.Int32
+      value: 6
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: R_Service
+    - type: System.Int32
+      value: 3
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SubscriptionMgmt
+    - type: System.Int32
+      value: 7
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SuperId
+    - type: System.Int32
+      value: 3
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: targets
+    - type: System.Int32
+      value: 8
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: TechnicalDebt
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: UserPreference
+    - type: System.Int32
+      value: 4
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Webhooks
+    - type: System.Int32
+      value: 5
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Workflows
+    - type: System.Int32
+      value: 22
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SuperOffice
+    - type: System.Int32
+      value: 149
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ConsentManagement
+    - type: System.Int32
+      value: 23
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CS
+    - type: System.Int32
+      value: 72
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: customerCenter
+    - type: System.Int32
+      value: 28
 - uid: SuperOffice.Data.TablesInfo.GetSequenceTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetSequenceTableInfo
   id: GetSequenceTableInfo

@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Security.RelationsSentry.AssociateId
   - SuperOffice.CRM.Security.RelationsSentry.ComputeFieldRights
   - SuperOffice.CRM.Security.RelationsSentry.ComputeTableRights
+  - SuperOffice.CRM.Security.RelationsSentry.GetMainRight
   - SuperOffice.CRM.Security.RelationsSentry.GetRowSentry
   - SuperOffice.CRM.Security.RelationsSentry.GroupId
   - SuperOffice.CRM.Security.RelationsSentry.IsGhostRow
@@ -52,7 +53,6 @@ items:
   implements:
   - System.ICloneable
   inheritedMembers:
-  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
   - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.RoleTableRights
   - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.VisibleForRights
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
@@ -79,7 +79,6 @@ items:
   - SuperOffice.CRM.Security.Sentry._tableRights
   - SuperOffice.CRM.Security.Sentry._fieldRights
   - SuperOffice.CRM.Security.Sentry._lookups
-  - SuperOffice.CRM.Security.Sentry.DemandPlugins
   - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
@@ -205,6 +204,42 @@ items:
   nameWithType.vb: RelationsSentry.New(RelationsTableInfo)
   fullName.vb: SuperOffice.CRM.Security.RelationsSentry.New(SuperOffice.CRM.Data.RelationsTableInfo)
   name.vb: New(RelationsTableInfo)
+- uid: SuperOffice.CRM.Security.RelationsSentry.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.RelationsSentry.GetMainRight
+  id: GetMainRight
+  parent: SuperOffice.CRM.Security.RelationsSentry
+  langs:
+  - csharp
+  - vb
+  name: GetMainRight()
+  nameWithType: RelationsSentry.GetMainRight()
+  fullName: SuperOffice.CRM.Security.RelationsSentry.GetMainRight()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: >-
+    Get the main table right for this relation.
+
+    <p></p>
+
+    For links between objects other than contacts/persons the access decision is made by the
+
+    linked objects, not by the relation data-rights (which are keyed on the relation owner).
+
+    Such links therefore get the full relations table right here; the linked objects are still
+
+    protected by their own sentries when the owning entity is saved. Contact/person relations
+
+    keep the normal role/data-right based calculation.
+  example: []
+  syntax:
+    content: public override ETableRight GetMainRight()
+    return:
+      type: SuperOffice.Data.ETableRight
+    content.vb: Public Overrides Function GetMainRight() As ETableRight
+  overridden: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+  overload: SuperOffice.CRM.Security.RelationsSentry.GetMainRight*
 - uid: SuperOffice.CRM.Security.RelationsSentry.ComputeTableRights
   commentId: M:SuperOffice.CRM.Security.RelationsSentry.ComputeTableRights
   id: ComputeTableRights
@@ -639,30 +674,6 @@ references:
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
-  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
-  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
-  definition: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
-  href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
-  name: GetMainRight()
-  nameWithType: RoleRightsSentry<RelationsTableInfo>.GetMainRight()
-  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>.GetMainRight()
-  nameWithType.vb: RoleRightsSentry(Of RelationsTableInfo).GetMainRight()
-  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetMainRight()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
-    name: GetMainRight
-    isExternal: true
-    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
-    name: GetMainRight
-    isExternal: true
-    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.RoleTableRights
   commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.RoleTableRights
   parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
@@ -1257,28 +1268,6 @@ references:
   name: _lookups
   nameWithType: Sentry._lookups
   fullName: SuperOffice.CRM.Security.Sentry._lookups
-- uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-  commentId: M:SuperOffice.CRM.Security.Sentry.DemandPlugins
-  parent: SuperOffice.CRM.Security.Sentry
-  isExternal: true
-  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  name: DemandPlugins()
-  nameWithType: Sentry.DemandPlugins()
-  fullName: SuperOffice.CRM.Security.Sentry.DemandPlugins()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-    name: DemandPlugins
-    isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-    name: DemandPlugins
-    isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Sentry
@@ -2827,29 +2816,6 @@ references:
   - name: " "
   - name: TMainTable
   - name: )
-- uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
-  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
-  isExternal: true
-  href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
-  name: GetMainRight()
-  nameWithType: RoleRightsSentry<TMainTable>.GetMainRight()
-  fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>.GetMainRight()
-  nameWithType.vb: RoleRightsSentry(Of TMainTable).GetMainRight()
-  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable).GetMainRight()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
-    name: GetMainRight
-    isExternal: true
-    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
-    name: GetMainRight
-    isExternal: true
-    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.RoleTableRights
   commentId: P:SuperOffice.CRM.Security.RoleRightsSentry`1.RoleTableRights
   isExternal: true
@@ -3586,6 +3552,95 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  definition: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+  href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
+  name: GetMainRight()
+  nameWithType: RoleRightsSentry<RelationsTableInfo>.GetMainRight()
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>.GetMainRight()
+  nameWithType.vb: RoleRightsSentry(Of RelationsTableInfo).GetMainRight()
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetMainRight()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+    name: GetMainRight
+    isExternal: true
+    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+    name: GetMainRight
+    isExternal: true
+    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Security.RelationsSentry.GetMainRight*
+  commentId: Overload:SuperOffice.CRM.Security.RelationsSentry.GetMainRight
+  isExternal: true
+  href: SuperOffice.CRM.Security.RelationsSentry.html#SuperOffice_CRM_Security_RelationsSentry_GetMainRight
+  name: GetMainRight
+  nameWithType: RelationsSentry.GetMainRight
+  fullName: SuperOffice.CRM.Security.RelationsSentry.GetMainRight
+- uid: SuperOffice.Data.ETableRight
+  commentId: T:SuperOffice.Data.ETableRight
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ETableRight.html
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.Data.ETableRight
+- uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+  isExternal: true
+  href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
+  name: GetMainRight()
+  nameWithType: RoleRightsSentry<TMainTable>.GetMainRight()
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>.GetMainRight()
+  nameWithType.vb: RoleRightsSentry(Of TMainTable).GetMainRight()
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable).GetMainRight()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+    name: GetMainRight
+    isExternal: true
+    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+    name: GetMainRight
+    isExternal: true
+    href: SuperOffice.CRM.Security.RoleRightsSentry-1.html#SuperOffice_CRM_Security_RoleRightsSentry_1_GetMainRight
+  - name: (
+  - name: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.ComputeTableRights
   commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.ComputeTableRights
   parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}

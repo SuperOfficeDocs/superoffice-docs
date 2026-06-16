@@ -17,6 +17,7 @@ items:
   - SuperOffice.WebApi.Agents.ChatAgent
   - SuperOffice.WebApi.Agents.ConfigurationAgent
   - SuperOffice.WebApi.Agents.ContactAgent
+  - SuperOffice.WebApi.Agents.CustomObjectAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
   - SuperOffice.WebApi.Agents.DashboardAgent
@@ -44,6 +45,7 @@ items:
   - SuperOffice.WebApi.Agents.IChatAgent
   - SuperOffice.WebApi.Agents.IConfigurationAgent
   - SuperOffice.WebApi.Agents.IContactAgent
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent
   - SuperOffice.WebApi.Agents.IDashAgent
   - SuperOffice.WebApi.Agents.IDashboardAgent
@@ -355,6 +357,21 @@ references:
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.ICustomObjectAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent
+- uid: SuperOffice.WebApi.Agents.CustomObjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomObjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CustomObjectAgent.html
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent
+  fullName: SuperOffice.WebApi.Agents.CustomObjectAgent
 - uid: SuperOffice.WebApi.Agents.IDashAgent
   commentId: T:SuperOffice.WebApi.Agents.IDashAgent
   parent: SuperOffice.WebApi.Agents

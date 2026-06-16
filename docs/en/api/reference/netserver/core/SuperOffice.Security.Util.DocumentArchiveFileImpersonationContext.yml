@@ -18,19 +18,22 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: Helper class for impersonation.
-  example:
-  - >-
-    <pre><code class="lang-csharp">new DocumentArchiveFileImpersonationContext().Execute(() =&gt; {
-        // in here we are the correct user to access the document archive files, log folder etc
-        // do something as the configured Document Archive user (if not configured the original NetServer user will be used).
-    });
+  summary: Executes an action that needs access to the document archive files.
+  remarks: >-
+    Historically this type impersonated a configured Windows user
 
-    // we are now back to the original NetServer user</code></pre>
+    (<code>Documents/ImpersonateUser</code>) before touching the on-disk document
 
-    This way of impersonation is guaranteed to return to the original user, also
+    archive, log folder etc. SuperOffice Online is cloud/Linux only and never
 
-    during exception handling - thereby avoiding a potential security hole.
+    uses Windows impersonation, so this is now a transparent pass-through that
+
+    simply invokes the supplied delegate as the current process identity. The
+
+    type and its <code>Execute</code> signatures are deliberately retained so the
+
+    many existing call sites remain unchanged.
+  example: []
   syntax:
     content: public sealed class DocumentArchiveFileImpersonationContext
     content.vb: Public NotInheritable Class DocumentArchiveFileImpersonationContext
