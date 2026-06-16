@@ -3,11 +3,6 @@ items:
   href: index.md
 - name: For administrators
   topicHref: admin/index.md
-  items:
-  - name: Webhooks panel
-    href: admin/index.md
-  - name: Create webhook
-    href: admin/create.md
 - name: For developers
   href: dev/index.md
   items:
