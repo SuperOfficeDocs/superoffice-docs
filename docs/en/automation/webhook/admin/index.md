@@ -4,7 +4,7 @@ title: Webhooks panel
 description: View, manage, and monitor webhooks from Settings and maintenance.
 keywords: webhook panel, webhook status, deactivated webhook, restart webhook, monitor webhooks
 author: digitaldiina
-date: 06.15.2026
+date: 06.16.2026
 version: 12.1
 content_type: concept
 tier: core
@@ -87,9 +87,9 @@ To recover a deactivated webhook:
 
 The webhook returns to Active status and resumes normal delivery.
 
-## In-app notifications
+## Notifications in SuperOffice
 
-Notification recipients see an in-app alert when a webhook is automatically deactivated. Select the alert to open the Webhooks panel.
+Notification recipients see an alert in SuperOffice when a webhook is automatically deactivated. Select the alert to open the Webhooks panel.
 
 ## Related content
 

@@ -22,3 +22,6 @@ items:
   href: add-items-to-task-menu.md
 - name: Legge til applikasjon
   href: other-applications.md
+- name: Webhooks
+  href: ../../automation/webhook/admin/toc.yml
+  topicHref: ../../automation/webhook/admin/index.md

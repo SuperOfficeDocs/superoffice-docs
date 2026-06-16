@@ -4,7 +4,7 @@ title: Create webhook
 description: Create a webhook in Settings and maintenance without writing code or calling the API.
 keywords: create webhook, edit webhook, notification, event
 author: digitaldiina
-date: 06.15.2026
+date: 06.16.2026
 version: 12.1
 content_type: howto
 tier: core
