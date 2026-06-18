@@ -9,17 +9,14 @@ items:
   href: deploy.md
 - name: Settings in SuperOffice for Outlook
   href: settings.md
-- name: Save to SuperOffice
-  href: save-to-superoffice.md
-  items:
-  - name: Archive email to SuperOffice
-    href: archive-email.md
-  - name: Save attachments to SuperOffice
-    href: save-attachments.md
-  - name: Send and archive
-    href: send-and-archive.md
-  - name: Email Archive Reminder
-    href: email-archive-reminder.md
+- name: Archive email to SuperOffice
+  href: archive-email.md
+- name: Save attachments to SuperOffice
+  href: save-attachments.md
+- name: Send and archive
+  href: send-and-archive.md
+- name: Email Archive Reminder
+  href: email-archive-reminder.md
 - name: View contact details
   href: view-contact-details.md
 - name: Add contact to SuperOffice
