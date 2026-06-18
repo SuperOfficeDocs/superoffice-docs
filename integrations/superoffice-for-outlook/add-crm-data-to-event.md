@@ -51,7 +51,7 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 
 1. Open an existing event in Outlook.
 
-1. [Open SuperOffice for Outlook][1]
+1. [Open SuperOffice for Outlook][1].
 
 1. If SuperOffice CRM data exists for the attendees, it is displayed.
 
