@@ -896,7 +896,7 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false,&quot;4&quot;,&quot;5&quot;);</code></pre>\n"
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addTextarea(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false, 4, 5);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
   id: 'addTime(String,String)'
