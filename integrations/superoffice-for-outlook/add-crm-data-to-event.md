@@ -33,7 +33,7 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 
 1. Select **New event** in Outlook.
 
-1. [Open SuperOffice for Outlook][1]
+1. [Open SuperOffice for Outlook][1].
 
 1. Add persons to the **Invite attendees** field in Outlook.
 
