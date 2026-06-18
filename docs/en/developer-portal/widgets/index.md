@@ -2,13 +2,13 @@
 uid: dp-widgets
 title: Widgets
 description: About the SuperOffice Developer Portal home page and how to manage widgets.
-keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding
+keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding, messaging center
 author: Bergfrid Dias
-date: 04.30.2025
-version_devportal: 2.2
+date: 06.16.2026
+version_devportal: 2.14
 content_type: concept
-deployment: online
 platform: web
+deployment: online
 language: en
 ---
 
@@ -18,14 +18,14 @@ The new dashboard offers an intuitive, centralized location for at-a-glance info
 
 ![Developer Portal Home dashboard -screenshot][img5]
 
-The contents and card-style layout of the dashboard is customizable - each user chooses which widgets to show and how they appear.
+The contents and card-style layout of the dashboard are customizable - each user chooses which widgets to show and how they appear.
 
 Each widget represents distinctive features.
 
 | Widget | Purpose |
 |---|---|
 | Application Failures | Monitors problems with API calls. |
-| Messaging Center | Provides quick information on communication related to requests. |
+| Messaging Center | Provides quick information on communication related to requests, including tickets awaiting your response. |
 | New Customers | Provides quick information on new customers signed up to use your standard applications. |
 | Onboarding | Aids users getting started. |
 | Publish Status | Explore pending requests to publish app configuration, App Store information, and partner profile. |
@@ -62,7 +62,7 @@ Organize your dashboard based on your specific needs and preferences.
 
 1. On the dashboard, click **Edit Widgets**.
 
-2. Select which widget to remove and then save the changes.
+1. Select which widget to remove and then save the changes.
 
     ![Developer Portal remove widgets -screenshot][img4]
 
@@ -84,17 +84,19 @@ The Onboarding widget is a hub of useful links when starting out, such as to the
 
 ### Messaging Center
 
-This widget shows real-time statistics from the [Messaging Center][1]. Click a tile for details.
+This widget shows real-time statistics from the [Messaging Center][1]. Click a tile to open the Messaging Center filtered to that category.
 
-| Stats | Description |
+From version 2.14, the widget mirrors the categories you see in the Messaging Center sidebar, so the **Open** tile makes it obvious when something needs your attention — without having to open the Messaging Center first.
+
+| Stat | Description |
 |---|---|
-| New open requests | The number of newly received open requests. |
-| Pending/waiting requests | The number of requests that are awaiting action. |
-| Message status changes | Notification of any status change in the messaging center. |
+| Waiting for SuperOffice | The number of tickets you have replied to and routed back to SuperOffice. |
+| Open | The number of tickets where the next action is yours. |
+| Closed | The number of tickets that have been resolved. |
 
 ### New Customers
 
-All customers within a specified timerange, those who have signed in and given consent to allow your application, will appear in the New Customers widget.
+All customers within a specified time range, those who have signed in and given consent to allow your application, will appear in the New Customers widget.
 
 The available timeframes are:
 
@@ -108,13 +110,13 @@ The available timeframes are:
 
 The Publish status widget displays open requests related to application publishing. These include app configuration, App Store information, and partner profile submissions.
 
-Each card represents an application or partner profile, along with its current publishing status. Use this widget to track what is pending, where it is in the workflow, and if any action is required from you.
+Each card represents an application or partner profile, along with its current publishing status. Use this widget to track what is pending, where it is in the workflow, and whether any action is required from you.
 
 Key interactions and indicators:
 
 * <i class="ph ph-shield" aria-label="Security audit pending"></i> / <i class="ph ph-shield-check" aria-label="Security audit ok"></i> Security audit pending or approved.
 * <i class="ph ph-seal" aria-label="Certification pending"></i> / <i class="ph ph-seal-check" aria-label="Certification ok"></i> Certification pending or approved.
-* Hover over workflow steps to see its current status.
+* Hover over workflow steps to see their current status.
 * Click any step with a red dot to view error details or required actions.
 * Click the **partner name**/**app name** link to open the partner or app page.
 * Click the **oval label** (for example, *v3* or *New redirect URL*) to view the version submitted for publishing.
