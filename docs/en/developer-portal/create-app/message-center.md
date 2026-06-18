@@ -1,14 +1,15 @@
 ---
-title: Messaging Center
 uid: messaging-center
+title: Messaging Center
 description: Read, filter, and reply to support tickets in the SuperOffice Developer Portal Messaging Center.
+keywords: Developer Portal, Messaging Center, support tickets, reply, attachments, mark as answered, return to SuperOffice
 author: Anthony Yates, Bergfrid Dias
 date: 06.16.2026
-keywords: Developer Portal, Messaging Center, support tickets, reply, attachments, mark as answered, return to SuperOffice
 version_devportal: 2.14
-content_type: conceptual
-deployment: online
+content_type: concept
 platform: web
+deployment: online
+language: en
 ---
 
 # Messaging Center
@@ -35,7 +36,7 @@ It collects messages from:
 
 ## At a glance
 
-The Messaging Center is located in the upper right-hand corner of the Developer Portal.
+The Messaging Center is located in the upper-right corner of the Developer Portal.
 
 ![Messaging Center icon -screenshot][img1]
 
@@ -72,7 +73,7 @@ Open a ticket to see its full history. You can compose a reply in two places, an
 * **Reply All**, at the top of the ticket — pre-fills the editor with the ticket's full recipient list (everyone currently on the conversation).
 * **Reply**, at the bottom of an individual message — pre-fills the editor with only the recipients of that specific message. Useful when you want to respond to one branch of a long conversation without including everyone.
 
-In both cases, the recipients are only a starting point. You can adjust the **To**, **Cc**, and **Bcc** fields freely before sending, and the chip behaviour is the same in both editors.
+In both cases, the recipients are only a starting point. You can adjust the **To**, **Cc**, and **Bcc** fields freely before sending, and the chip behavior is the same in both editors.
 
 1. Click **Reply All** at the top of the ticket, or **Reply** at the bottom of an individual message.
 2. (Optional) Expand **Cc** or **Bcc** to add more recipients, or click the X on a chip to drop someone from the reply.
