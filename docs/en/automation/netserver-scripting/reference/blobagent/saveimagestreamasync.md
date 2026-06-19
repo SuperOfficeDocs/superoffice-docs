@@ -15,7 +15,7 @@ Scripting events called on the <see cref='M:IBLOBAgent.SaveImageStreamAsync'>Sav
 ```cs
     static void BeforeSaveImageStreamAsync(
        BlobLinkType  type,
-       Image  image,
+       Stream  image,
        String  description,
        CancellationToken  cancellationToken,
        ref object  eventState
@@ -29,7 +29,7 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterSaveImageStreamAsync(
        BlobLinkType  type,
-       Image  image,
+       Stream  image,
        String  description,
        CancellationToken  cancellationToken,
        ref Task`1  returnValue,
@@ -43,7 +43,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterSaveImageStreamAsyncAsync(
        BlobLinkType  type,
-       Image  image,
+       Stream  image,
        String  description,
        CancellationToken  cancellationToken,
        ref Task`1  returnValue,

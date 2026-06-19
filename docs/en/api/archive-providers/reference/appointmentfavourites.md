@@ -15,63 +15,63 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"appointment"|Favourite appointment|
+|"appointment"|[[SR_FAVOURITE_APPOINTMENT]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|icon|listAny|Category: Displays the icon for an activity type| x |
-|date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|time| *None* |Time: Time|  |
-|type|listAny|Type: Displays the type of an activity| x |
-|recordType|string|Record type : Shows the record type| x |
-|text|positiveString|Favourite: Displays a descriptive text for the item| x |
-|associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|contactId|listAny|Company ID: Database ID of company| x |
-|personId|listAny|Contact ID: Database ID of the contact row| x |
-|projectId|listAny|Project ID: Database ID of project record| x |
-|saleId|int|Sale ID: The database ID of the sale record| x |
-|userGroup|userGroup|User group : The user group that owns the record| x |
-|who| *None* |Who: Contact and/or company|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|appointmentId|int|DB ID: Displays the database ID of a row| x |
-|endDate|date|End date: Displays the deadline for a follow-up/sale| x |
-|priority|listAny|Priority: Displays the priority of the activity| x |
-|alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
-|isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
-|recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
-|booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
-|intention|listAny|Intention: Displays the intention of the follow-up type| x |
-|location|string|Location: Display the location where the follow-up will take place.| x |
-|recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
-|rawType|int|Type: Type field for appointment, not decoded or formatted| x |
-|rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
-|cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
-|visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
-|endTime| *None* |End time: End time of an activity|  |
-|suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
-|completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
-|isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
-|invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
-|recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
-|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
-|duration|timeSpan|Duration: The duration of the chat session|  |
-|createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|entityIcon| *None* |Row specific icon: Row specific icon| x |
-|favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|visibleFor|listAny|Visible for|  |
-|appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|appointmentPublish/publishedBy| *None* |Published by: Published by|  |
+|completed|bool|SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP| x |
+|icon|listAny|SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP| x |
+|date|date|SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP| x |
+|time| *None* |SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
+|type|listAny|SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP| x |
+|recordType|string|SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP| x |
+|text|positiveString|SR\_SINGULAR\_FAVOURITE: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|associateId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP| x |
+|contactId|listAny|SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|personId|listAny|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP| x |
+|projectId|listAny|SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP| x |
+|saleId|int|SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP| x |
+|userGroup|userGroup|SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP| x |
+|who| *None* |SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedByFullName|associate|SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredByFullName|associate|SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|appointmentId|int|SR\_ACTIVITYARCHIVE\_RECORDID: SR\_ACTIVITYARCHIVE\_RECORDID\_TOOLTIP| x |
+|endDate|date|SR\_ACTIVITYARCHIVE\_ENDDATE: SR\_ACTIVITYARCHIVE\_ENDDATE\_TOOLTIP| x |
+|priority|listAny|SR\_DIARYARCHIVE\_PRIORITY: SR\_DIARYARCHIVE\_PRIORITY\_TOOLTIP| x |
+|alarm|bool|SR\_DIARYARCHIVE\_ALARM: SR\_DIARYARCHIVE\_ALARM\_TOOLTIP| x |
+|isFree|bool|SR\_DIARYARCHIVE\_ISFREE: SR\_DIARYARCHIVE\_ISFREE\_TOOLTIP| x |
+|recurring|bool|SR\_DIARYARCHIVE\_RECURRING: SR\_DIARYARCHIVE\_RECURRING\_TOOLTIP| x |
+|booking|bool|SR\_DIARYARCHIVE\_BOOKING: SR\_DIARYARCHIVE\_BOOKING\_TOOLTIP| x |
+|intention|listAny|SR\_DIARYARCHIVE\_INTENTION: SR\_DIARYARCHIVE\_INTENTION\_TOOLTIP| x |
+|location|string|SR\_ACTIVITYARCHIVE\_LOCATION: SR\_ACTIVITYARCHIVE\_LOCATION\_TOOLTIP| x |
+|recurrenceRuleId|int|SR\_DIARYARCHIVE\_RRID: SR\_DIARYARCHIVE\_RRID\_TOOLTIP| x |
+|rawType|int|SR\_DIARYARCHIVE\_RAWTYPE: SR\_DIARYARCHIVE\_RAWTYPE\_TOOLTIP| x |
+|rawStatus|int|SR\_DIARYARCHIVE\_RAWSTATUS: SR\_DIARYARCHIVE\_RAWSTATUS\_TOOLTIP| x |
+|cautionWarning|listAny|SR\_ACTIVITYARCHIVE\_CAUTIONWARNING: SR\_ACTIVITYARCHIVE\_CAUTIONWARNING\_TOOLTIP| x |
+|visibleInDiary|bool|SR\_FINDACTIVITY\_SKIPTENT: SR\_FINDACTIVITY\_SKIPTENT\_TOOLTIP| x |
+|endTime| *None* |SR\_ACTIVITYARCHIVE\_ENDTIME: SR\_ACTIVITYARCHIVE\_ENDTIME\_TOOLTIP|  |
+|suggestedAppointmentId|int|SR\_ARCHIVE\_SUGGESTEDAPPNTID: SR\_ARCHIVE\_SUGGESTEDAPPNTID\_TOOLTIP| x |
+|completedDate|date|SR\_ACTIVITYARCHIVE\_COMPLETEDDATE: SR\_ACTIVITYARCHIVE\_COMPLETEDDATE\_TOOLTIP| x |
+|isMilestone|bool|SR\_ARCHIVE\_MILESTONE: SR\_ARCHIVE\_MILESTONE\_TOOLTIP| x |
+|invitedPersonId|int|SR\_ACTIVITYARCHIVE\_INVITEDPERSONID: SR\_ACTIVITYARCHIVE\_INVITEDPERSONID\_TOOLTIP| x |
+|recordTypeText|listAny|SR\_ARCHIVE\_RECORDTYPETEXT: SR\_ARCHIVE\_RECORDTYPETEXT\_TOOLTIP| x |
+|joinVideomeetUrl| *None* |SR\_ACTIVITYARCHIVE\_VIDEOMEETURL: SR\_ACTIVITYARCHIVE\_VIDEOMEETURL\_TOOLTIP| x |
+|duration|timeSpan|SR\_CHATARCHIVE\_DURATION: SR\_CHATARCHIVE\_DURATION\_TOOLTIP|  |
+|createdByWorkflow|listAny|SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP| x |
+|entityIcon| *None* |SR\_FAVOURITE\_ITEMICON: SR\_FAVOURITE\_ITEMICON| x |
+|favouriteAssociateId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP| x |
+|visibleFor|listAny|SR\_ARCHIVE\_VISIBLE\_FOR|  |
+|appointmentPublish/isPublished|bool|SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP| x |
+|appointmentPublish/publishedFrom|date|SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP| x |
+|appointmentPublish/publishedTo|date|SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP| x |
+|appointmentPublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
 |appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |appointmentUdef/SuperOffice:3|int|followupnumber| x |
@@ -80,57 +80,58 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|associate/firstName|string|First name: Displays the contact's first name| x |
-|associate/lastName|string|Last name: Displays the contact's last name| x |
-|associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|associate/personId|int|Contact ID: Database ID of the contact row|  |
-|associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|associate/associateDbId|associate|ID| x |
-|associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|associate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|associate/usergroupId|int|Group ID: The user's primary user group| x |
-|associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|associate/contactCategory|listAny|Category: Category| x |
-|associate/role|listAny|Role : Role| x |
-|associate/assocName|associate|User ID : User ID| x |
-|associate/assocTooltip|string|Description : Description|  |
-|associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
-|associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|associate/portraitThumbnail| *None* |Person image: Person image|  |
-|associate/otherGroups|userGroup|Other groups: Other groups|  |
-|associate/userName|string|User name: User name| x |
-|associate/personEmail|string|E-mail| x |
-|associate/locationAddress|string|Location: Location| x |
-|associate/isLocation|bool|Is a location: Is a location| x |
-|appointment/description|positiveString|Text: Displays the text entered in the description field| x |
-|appointment/title|positiveString|Title| x |
+|associate/firstName|string|SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|associate/lastName|string|SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|associate/middleName|string|SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|associate/fullName|string|SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|associate/contactId|int|SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|associate/personId|int|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|associate/mrMrs|string|SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|associate/title|string|SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|associate/associateDbId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|associate/contactName|string|SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|associate/contactDepartment|string|SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|associate/usergroup|userGroup|SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|associate/usergroupId|int|SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|associate/contactFullName|string|SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|associate/contactCategory|listAny|SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|associate/role|listAny|SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|associate/assocName|associate|SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|associate/assocTooltip|string|SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|associate/assocType|listAny|SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|associate/ejUserId|int|SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|associate/simultaneousEjUser|bool|SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|associate/ejDisplayName|string|SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|associate/ejStatus|int|SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|associate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|associate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|associate/isActive|bool|SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|associate/isActiveText|bool|SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|associate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|associate/otherGroups|userGroup|SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|associate/userName|string|SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|associate/personEmail|string|SR\_ARCHIVE\_EMAIL| x |
+|associate/locationAddress|string|SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|associate/isLocation|bool|SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|appointment/text|positiveString|SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|appointment/description|positiveString|SR\_DIARYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|appointment/title|positiveString|SR\_TICKETARCHIVE\_TITLE| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
-|appointment/agenda|positiveString|Agenda| x |
+|appointment/agenda|positiveString|SR\_APPOINTMENT\_AGENDA| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
-|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId|int|Text ID| x |
-|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotes|positiveString|SR\_APPOINTMENT\_INTERNAL\_NOTES: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/appointmentfavourites?$select=contactId,cautionWarning,appointmentPublish/publishedBy
+GET /api/v1/archive/appointmentfavourites?$select=getNoRows,cautionWarning,appointmentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

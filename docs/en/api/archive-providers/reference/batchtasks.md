@@ -40,10 +40,10 @@ Lists all batch tasks
 |LastStarted|date|Last Start: Task Last Started| x |
 |ProgressPercent|int|Progress: Progress Percent| x |
 |ProgressDescription|string|Progress Description: Progress Description|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 
 ## Sample
 

@@ -15,146 +15,146 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ticket"|Favourite request|
+|"ticket"|[[SR_FAVOURITE_TICKET]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|contactId|int|Company ID: Database ID of company| x |
-|personId|int|Contact ID: Database ID of the contact row| x |
-|saleId|int|Sale ID: The database ID of the sale record| x |
-|projectId|int|Project ID: Database ID of project record| x |
-|ticketStatusId|int|Status ID: Status| x |
-|priorityId|int|Priority ID: ID of priority in database| x |
-|categoryId|int|Category ID: ID of request category in database| x |
-|ticketTypeName| *None* |Request type: Request type| x |
-|ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|ejCategory|Category: Request category| x |
-|priorityName|listAny|Priority: Service priority| x |
-|ownedBy|ejUser|Owner: The owner of the request| x |
-|ticketId|int|ID: Displays request ID| x |
-|title|string|Title: Displays the request title| x |
-|createdAt|datetime|Created: Displays when the request was created| x |
-|createdDate|date|Created date: Created date| x |
-|lastChanged|datetime|Last changed: Displays when the request was last changed| x |
-|author|string|Author: Displays the author of the request| x |
-|readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
-|firstReadByOwner|datetime|First read by owner: Displays when the request was read by owner for the first time| x |
-|firstReadByUser|datetime|First read by user: Displays when the request was read by user for the first time| x |
-|readByCustomer|datetime|Read by contact: Displays when the request was read by the contact| x |
-|status|listAny|Internal status: Shows only system defined statuses for a request| x |
-|origin|listAny|Origin: Origin| x |
-|slevel|listAny|Access level: Access level| x |
-|numberOfMessages|int|Number of messages: Number of messages| x |
-|numberOfReplies|int|Number of replies: Number of replies| x |
-|connectId|int|Merged with request: Merged with request| x |
-|readStatus|listAny|Read: Read| x |
-|realTimeSpentQueue|timeSpan|Real time in queue: Real time in queue| x |
-|realTimeSpentExternally|timeSpan|Real time externally: Real time externally| x |
-|realTimeSpentInternally|timeSpan|Real time internally: Real time internally| x |
-|timeSpentQueue|timeSpan|Time spent in queue: Time spent in queue| x |
-|timeSpentExternally|timeSpan|Time spent externally: Time spent externally| x |
-|timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
-|timeSpent|timeSpan|Time spent: Time spent| x |
-|timeToReply|timeSpan|Time to reply: Time to reply| x |
-|timeToClose|timeSpan|Time to close: Time to close| x |
-|realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
-|realTimeToClose|timeSpan|Real time to close: Real time to close| x |
-|repliedAt|datetime|Replied at: Replied at| x |
-|closedAt|datetime|Closed at: Closed at| x |
-|activated|datetime|Postponed to: Postponed to| x |
-|deadline|datetime|Deadline: Deadline| x |
-|has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
-|tags|intArray|Tags: Tags connected to a request| x |
-|createdBy|ejUser|Created by: Created by| x |
-|content|string|Content: Search for content in messages related to requests| x |
-|messageLanguage|listAny|Language: Recognized language in messages|  |
-|sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
-|sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
-|suggestedCategory|listAny|Suggested category: Suggested service category|  |
-|createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|entityIcon| *None* |Row specific icon: Row specific icon| x |
-|icon| *None* |Category: Displays the icon for an activity type| x |
-|text|positiveString|Favourite: Displays a descriptive text for the item| x |
-|favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
-|createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
-|createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
-|createdBy/fullName|string|Created by - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
-|createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
-|createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|createdBy/associateDbId|associate|Created by - ID| x |
-|createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
-|createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
-|createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
-|createdBy/usergroupId|int|Created by - Group ID: The user's primary user group| x |
-|createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
-|createdBy/contactCategory|listAny|Created by - Category: Category| x |
-|createdBy/role|listAny|Created by - Role: Role| x |
-|createdBy/assocName|associate|Created by - User ID: User ID| x |
-|createdBy/assocTooltip|string|Created by - Description: Description|  |
-|createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
-|createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
-|createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|createdBy/ejDisplayName|string|Created by - Nickname: User's nickname in Service| x |
-|createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
-|createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
-|createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
-|createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
-|createdBy/otherGroups|userGroup|Created by - Other groups: Other groups|  |
-|createdBy/userName|string|Created by - User name: User name| x |
-|createdBy/personEmail|string|Created by - E-mail| x |
-|createdBy/locationAddress|string|Created by - Location: Location| x |
-|createdBy/isLocation|bool|Created by - Is a location: Is a location| x |
-|ownedBy/firstName|string|Owner - First name: Displays the contact's first name| x |
-|ownedBy/lastName|string|Owner - Last name: Displays the contact's last name| x |
-|ownedBy/middleName|string|Owner - Middle Name: Displays the contact's middle name.| x |
-|ownedBy/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
-|ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
-|ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|contactId|int|SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|personId|int|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP| x |
+|saleId|int|SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP| x |
+|projectId|int|SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP| x |
+|ticketStatusId|int|SR\_TICKET\_STATUS\_ID: SR\_TICKET\_STATUS| x |
+|priorityId|int|SR\_TICKET\_PRIORITY\_ID: SR\_TICKET\_PRIORITY\_ID\_TOOLTIP| x |
+|categoryId|int|SR\_TICKET\_CATEGORY\_ID: SR\_TICKET\_CATEGORY\_ID\_TOOLTIP| x |
+|ticketTypeName|listAny|SR\_TICKETARCHIVE\_TICKET\_TYPE: SR\_TICKETARCHIVE\_TICKET\_TYPE\_TOOLTIP| x |
+|ticketStatusName|listAny|SR\_TICKETARCHIVE\_TICKETSTATUS: SR\_TICKETARCHIVE\_TICKETSTATUS\_TOOLTIP| x |
+|categoryFullName|ejCategory|SR\_TICKETARCHIVE\_EJCATEGORY: SR\_TICKETARCHIVE\_EJCATEGORY\_TOOLTIP| x |
+|priorityName|listAny|SR\_TICKETARCHIVE\_PRIORITY: SR\_TICKETARCHIVE\_PRIORITY\_TOOLTIP| x |
+|ownedBy|ejUser|SR\_TICKETARCHIVE\_OWNEDBY: SR\_TICKETARCHIVE\_OWNEDBY\_TOOLTIP| x |
+|ticketId|int|SR\_TICKETARCHIVE\_TICKETID: SR\_TICKETARCHIVE\_TICKETID\_TOOLTIP| x |
+|title|string|SR\_TICKETARCHIVE\_TITLE: SR\_TICKETARCHIVE\_TITLE\_TOOLTIP| x |
+|createdAt|datetime|SR\_TICKETARCHIVE\_CREATEDAT: SR\_TICKETARCHIVE\_CREATEDAT\_TOOLTIP| x |
+|createdDate|date|SR\_TICKETARCHIVE\_CREATEDDATE: SR\_TICKETARCHIVE\_CREATEDDATE| x |
+|lastChanged|datetime|SR\_TICKETARCHIVE\_LASTCHANGED: SR\_TICKETARCHIVE\_LASTCHANGED\_TOOLTIP| x |
+|author|string|SR\_TICKETARCHIVE\_AUTHOR: SR\_TICKETARCHIVE\_AUTHOR\_TOOLTIP| x |
+|readByOwner|datetime|SR\_TICKETARCHIVE\_READBYOWNER: SR\_TICKETARCHIVE\_READBYOWNER\_TOOLTIP| x |
+|firstReadByOwner|datetime|SR\_TICKETARCHIVE\_FIRSTREADBYOWNER: SR\_TICKETARCHIVE\_FIRSTREADBYOWNER\_TOOLTIP| x |
+|firstReadByUser|datetime|SR\_TICKETARCHVE\_FIRSTREADBYUSER: SR\_TICKETARCHVE\_FIRSTREADBYUSER\_TOOLTIP| x |
+|readByCustomer|datetime|SR\_TICKETARCHIVE\_READBYCUSTOMER: SR\_TICKETARCHIVE\_READBYCUSTOMER\_TOOLTIP| x |
+|status|listAny|SR\_TICKETARCHIVE\_INTERNAL\_STATUS: SR\_TICKETARCHIVE\_INTERNAL\_STATUS\_TOOLTIP| x |
+|origin|listAny|SR\_TICKETARCHIVE\_ORIGIN: SR\_TICKETARCHIVE\_ORIGIN| x |
+|slevel|listAny|SR\_TICKETARCHIVE\_SLEVEL: SR\_TICKETARCHIVE\_SLEVEL| x |
+|numberOfMessages|int|SR\_TICKETARCHIVE\_NUMBER\_OF\_MESSAGES: SR\_TICKETARCHIVE\_NUMBER\_OF\_MESSAGES| x |
+|numberOfReplies|int|SR\_TICKETARCHIVE\_NUMBER\_OF\_REPLIES: SR\_TICKETARCHIVE\_NUMBER\_OF\_REPLIES| x |
+|connectId|int|SR\_TICKETARCHIVE\_CONNECTID: SR\_TICKETARCHIVE\_CONNECTID| x |
+|readStatus|listAny|SR\_TICKETARCHIVE\_READSTATUS: SR\_TICKETARCHIVE\_READSTATUS| x |
+|realTimeSpentQueue|timeSpan|SR\_TICKETARCHIVE\_REAL\_TIME\_IN\_QUEUE: SR\_TICKETARCHIVE\_REAL\_TIME\_IN\_QUEUE| x |
+|realTimeSpentExternally|timeSpan|SR\_TICKETARCHIVE\_REAL\_TIME\_EXTERNAL: SR\_TICKETARCHIVE\_REAL\_TIME\_EXTERNAL| x |
+|realTimeSpentInternally|timeSpan|SR\_TICKETARCHIVE\_REAL\_TIME\_INTERNAL: SR\_TICKETARCHIVE\_REAL\_TIME\_INTERNAL| x |
+|timeSpentQueue|timeSpan|SR\_TICKETARCHIVE\_TIME\_IN\_QUEUE: SR\_TICKETARCHIVE\_TIME\_IN\_QUEUE| x |
+|timeSpentExternally|timeSpan|SR\_TICKETARCHIVE\_TIME\_EXTERNAL: SR\_TICKETARCHIVE\_TIME\_EXTERNAL| x |
+|timeSpentInternally|timeSpan|SR\_TICKETARCHIVE\_TIME\_INTERNAL: SR\_TICKETARCHIVE\_TIME\_INTERNAL| x |
+|timeSpent|timeSpan|SR\_TICKETARCHIVE\_TIME\_SPENT: SR\_TICKETARCHIVE\_TIME\_SPENT| x |
+|timeToReply|timeSpan|SR\_TICKETARCHIVE\_TIME\_TO\_REPLY: SR\_TICKETARCHIVE\_TIME\_TO\_REPLY| x |
+|timeToClose|timeSpan|SR\_TICKETARCHIVE\_TIME\_TO\_CLOSE: SR\_TICKETARCHIVE\_TIME\_TO\_CLOSE| x |
+|realTimeToReply|timeSpan|SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_REPLY: SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_REPLY| x |
+|realTimeToClose|timeSpan|SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_CLOSE: SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_CLOSE| x |
+|repliedAt|datetime|SR\_TICKETARCHIVE\_REPLIED\_AT: SR\_TICKETARCHIVE\_REPLIED\_AT| x |
+|closedAt|datetime|SR\_TICKETARCHIVE\_CLOSED\_AT: SR\_TICKETARCHIVE\_CLOSED\_AT| x |
+|activated|datetime|SR\_TICKETARCHIVE\_POSTPONED\_TO: SR\_TICKETARCHIVE\_POSTPONED\_TO| x |
+|deadline|datetime|SR\_TICKETARCHIVE\_DEADLINE: SR\_TICKETARCHIVE\_DEADLINE| x |
+|has\_attachment|bool|SR\_TICKETARCHIVE\_HAS\_ATTACHMENT: SR\_INBOX\_ATTACHMENT\_TOOLTIP| x |
+|tags|intArray|SR\_TICKETARCHIVE\_TAGS: SR\_TICKETARCHIVE\_TAGS\_TOOLTIP| x |
+|createdBy|ejUser|SR\_TICKETARCHIVE\_CREATEDBY: SR\_TICKETARCHIVE\_CREATEDBY| x |
+|content|string|SR\_ARCHIVE\_CONTENT: SR\_ARCHIVE\_CONTENT\_TOOLTIP| x |
+|messageLanguage|listAny|SR\_TICKETARCHIVE\_LANGUAGE: SR\_TICKETARCHIVE\_LANGUAGE\_TOOLTIP|  |
+|sentimentScore|listAny|SR\_TICKETARCHIVE\_SENTIMENT: SR\_TICKETARCHIVE\_SENTIMENT\_TOOLTIP|  |
+|sentimentConfidence|int|SR\_TICKETARCHIVE\_SENTIMENT\_CONFIDENCE: SR\_TICKETARCHIVE\_SENTIMENT\_CONFIDENCE| x |
+|suggestedCategory|listAny|SR\_TICKETARCHIVE\_SUGGESTED\_CATEGORY: SR\_TICKETARCHIVE\_SUGGESTED\_CATEGORY\_TOOLTIP|  |
+|createdByWorkflow|listAny|SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP| x |
+|entityIcon| *None* |SR\_FAVOURITE\_ITEMICON: SR\_FAVOURITE\_ITEMICON| x |
+|icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP| x |
+|text|positiveString|SR\_SINGULAR\_FAVOURITE: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|favouriteAssociateId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP| x |
+|createdBy/firstName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|createdBy/lastName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|createdBy/middleName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|createdBy/fullName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|createdBy/contactId|int|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|createdBy/personId|int|SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|createdBy/mrMrs|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|createdBy/title|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|createdBy/associateDbId|associate|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|createdBy/contactName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|createdBy/contactDepartment|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|createdBy/usergroup|userGroup|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|createdBy/usergroupId|int|SR\_TICKETARCHIVE\_CREATEDBY - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|createdBy/contactFullName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|createdBy/contactCategory|listAny|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|createdBy/role|listAny|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|createdBy/assocName|associate|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|createdBy/assocTooltip|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|createdBy/assocType|listAny|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|createdBy/ejUserId|int|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|createdBy/simultaneousEjUser|bool|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|createdBy/ejDisplayName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|createdBy/ejStatus|int|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|createdBy/credentialType| *None* |SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|createdBy/credentialDisplayValue| *None* |SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|createdBy/isActive|bool|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|createdBy/isActiveText|bool|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|createdBy/portraitThumbnail| *None* |SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|createdBy/otherGroups|userGroup|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|createdBy/userName|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|createdBy/personEmail|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_EMAIL| x |
+|createdBy/locationAddress|string|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|createdBy/isLocation|bool|SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ownedBy/firstName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ownedBy/lastName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ownedBy/middleName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ownedBy/fullName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ownedBy/contactId|int|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ownedBy/personId|int|SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ownedBy/mrMrs|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ownedBy/associateDbId|associate|Owner - ID| x |
-|ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
-|ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
-|ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
-|ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
-|ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
-|ownedBy/contactCategory|listAny|Owner - Category: Category| x |
-|ownedBy/role|listAny|Owner - Role: Role| x |
-|ownedBy/assocName|associate|Owner - User ID: User ID| x |
-|ownedBy/assocTooltip|string|Owner - Description: Description|  |
-|ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
-|ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ownedBy/ejDisplayName|string|Owner - Nickname: User's nickname in Service| x |
-|ownedBy/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ownedBy/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
-|ownedBy/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ownedBy/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
-|ownedBy/isActiveText|bool|Owner - Active status: Is this user active, and should be able to log in?| x |
-|ownedBy/portraitThumbnail| *None* |Owner - Person image: Person image|  |
-|ownedBy/otherGroups|userGroup|Owner - Other groups: Other groups|  |
-|ownedBy/userName|string|Owner - User name: User name| x |
-|ownedBy/personEmail|string|Owner - E-mail| x |
-|ownedBy/locationAddress|string|Owner - Location: Location| x |
-|ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
-|ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
-|ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
-|ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
-|ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
-|ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
+|ownedBy/title|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ownedBy/associateDbId|associate|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ownedBy/contactName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ownedBy/contactDepartment|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ownedBy/usergroup|userGroup|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ownedBy/usergroupId|int|SR\_TICKETARCHIVE\_OWNEDBY - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ownedBy/contactFullName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ownedBy/contactCategory|listAny|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ownedBy/role|listAny|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ownedBy/assocName|associate|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ownedBy/assocTooltip|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ownedBy/assocType|listAny|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ownedBy/ejUserId|int|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ownedBy/simultaneousEjUser|bool|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ownedBy/ejDisplayName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ownedBy/ejStatus|int|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ownedBy/credentialType| *None* |SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ownedBy/credentialDisplayValue| *None* |SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ownedBy/isActive|bool|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ownedBy/isActiveText|bool|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ownedBy/portraitThumbnail| *None* |SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ownedBy/otherGroups|userGroup|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ownedBy/userName|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ownedBy/personEmail|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_EMAIL| x |
+|ownedBy/locationAddress|string|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ownedBy/isLocation|bool|SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticketStatus/ticketStatusId|int|SR\_TICKETARCHIVE\_STATUS - SR\_TICKETARCHIVE\_TICKETSTATUS\_ID: SR\_TICKETARCHIVE\_TICKETSTATUS\_ID\_TOOLTIP| x |
+|ticketStatus/name|string|SR\_TICKETARCHIVE\_STATUS - SR\_TICKETARCHIVE\_TICKETSTATUS\_NAME: SR\_TICKETARCHIVE\_TICKETSTATUS\_NAME\_TOOLTIP| x |
+|ticketStatus/rank|int|SR\_TICKETARCHIVE\_STATUS - SR\_TICKETARCHIVE\_TICKETSTATUS\_RANK: SR\_TICKETARCHIVE\_TICKETSTATUS\_RANK\_TOOLTIP| x |
+|ticketPriority/ticketPriorityId|int|SR\_TICKETARCHIVE\_PRIORITY - SR\_TICKETARCHIVE\_PRIORITY\_ID: SR\_TICKETARCHIVE\_PRIORITY\_ID\_TOOLTIP| x |
+|ticketPriority/name|string|SR\_TICKETARCHIVE\_PRIORITY - SR\_TICKETARCHIVE\_PRIORITY\_NAME: SR\_TICKETARCHIVE\_PRIORITY\_NAME\_TOOLTIP| x |
+|ticketPriority/rank|int|SR\_TICKETARCHIVE\_PRIORITY - SR\_TICKETARCHIVE\_PRIORITY\_RANK: SR\_TICKETARCHIVE\_PRIORITY\_RANK\_TOOLTIP| x |
 |extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -170,12 +170,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 |extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|extra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
+|extra/y\_car/id|int|Car - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_car)| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=createdBy,createdBy/contactCategory,content
+GET /api/v1/archive/ticketfavourites?$select=timeToClose,ownedBy/lastName,content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

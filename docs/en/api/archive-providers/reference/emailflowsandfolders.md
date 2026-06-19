@@ -26,71 +26,71 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow|  |
-|emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
-|overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
-|thumbnail| *None* |Thumbnail|  |
-|mediumThumbnail| *None* |Thumbnail|  |
-|workflowId| *None* |Flow id: Id of a flow definition|  |
-|name|string|Name: Name of the flow definition| x |
-|workflowDescription| *None* |Description: Description of flow definition|  |
-|workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
-|workflowDefinitionStatusId| *None* |Status: Status of the flow definition|  |
-|jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
-|startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
-|workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
-|workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
-|workflowCompletedCount| *None* |Completed: How many participants are completed|  |
-|workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
-|workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
-|updatedBy| *None* |Updated by: The user who last updated the data|  |
-|updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|registeredBy| *None* |Registered by: The user who registered the data|  |
-|registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|workflowAssociate/firstName| *None* |Owner - First name: Displays the contact's first name|  |
-|workflowAssociate/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
-|workflowAssociate/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
-|workflowAssociate/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|workflowAssociate/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
-|workflowAssociate/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
-|workflowAssociate/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|workflowAssociate/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
-|workflowAssociate/associateDbId| *None* |Owner - ID|  |
-|workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
-|workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
-|workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
-|workflowAssociate/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
-|workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
-|workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
-|workflowAssociate/role| *None* |Owner - Role: Role|  |
-|workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
-|workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
-|workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
-|workflowAssociate/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
-|workflowAssociate/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|workflowAssociate/ejDisplayName| *None* |Owner - Nickname: User's nickname in Service|  |
-|workflowAssociate/ejStatus| *None* |Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
-|workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|workflowAssociate/isActive| *None* |Owner - Active: Is this user active, and should be able to log in?|  |
-|workflowAssociate/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?|  |
-|workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
-|workflowAssociate/otherGroups| *None* |Owner - Other groups: Other groups|  |
-|workflowAssociate/userName| *None* |Owner - User name: User name|  |
-|workflowAssociate/personEmail| *None* |Owner - E-mail|  |
-|workflowAssociate/locationAddress| *None* |Owner - Location: Location|  |
-|workflowAssociate/isLocation| *None* |Owner - Is a location: Is a location|  |
-|hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
-|hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
-|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
+|emailFlowId| *None* |SR\_ARCHIVE\_EMAILFLOW\_ID: SR\_ARCHIVE\_EMAILFLOW\_ID\_TOOLTIP|  |
+|emailFlowHierarchyId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|shipmentType| *None* |SR\_ARCHIVE\_EMAILFLOW\_MAILING\_TYPE: SR\_ARCHIVE\_EMAILFLOW\_MAILING\_TYPE\_TOOLTIP|  |
+|overrideConsentSubscription| *None* |SR\_ARCHIVE\_EMAILFLOW\_OVERRIDE\_CONSENT\_SUBSCRIPTION: SR\_ARCHIVE\_EMAILFLOW\_OVERRIDE\_CONSENT\_SUBSCRIPTION\_TOOLTIP|  |
+|thumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|mediumThumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|workflowId| *None* |SR\_ARCHIVE\_WORKFLOW\_ID: SR\_ARCHIVE\_WORKFLOW\_ID\_TOOLTIP|  |
+|name|string|SR\_ARCHIVE\_WORKFLOW\_NAME: SR\_ARCHIVE\_WORKFLOW\_NAME\_TOOLTIP| x |
+|workflowDescription| *None* |SR\_ARCHIVE\_WORKFLOW\_DESC: SR\_ARCHIVE\_WORKFLOW\_DESC\_TOOLTIP|  |
+|workflowDefinitionStatus| *None* |SR\_ARCHIVE\_WORKFLOW\_DEFINITION\_STATUS: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_STATUS\_TOOLTIP|  |
+|workflowDefinitionStatusId| *None* |SR\_ARCHIVE\_WORKFLOW\_DEFINITION\_STATUS: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_STATUS\_TOOLTIP|  |
+|jumpToFinish| *None* |SR\_ARCHIVE\_WORKFLOW\_JUMP\_TO\_FINISH: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_JUMP\_TO\_FINISH\_TOOLTIP|  |
+|startOnlyOnce| *None* |SR\_ARCHIVE\_WORKFLOW\_START\_ONLY\_ONCE: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_START\_ONLY\_ONCE\_TOOLTIP|  |
+|workflowEnrolledCount| *None* |SR\_ARCHIVE\_WORKFLOW\_ENROLLED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_ENROLLED\_COUNT\_TOOLTIP|  |
+|workflowInProgressCount| *None* |SR\_ARCHIVE\_WORKFLOW\_IN\_PROGRESS\_COUNT: SR\_ARCHIVE\_WORKFLOW\_IN\_PROGRESS\_COUNT\_TOOLTIP|  |
+|workflowCompletedCount| *None* |SR\_ARCHIVE\_WORKFLOW\_COMPLETED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_COMPLETED\_COUNT\_TOOLTIP|  |
+|workflowSucceededCount| *None* |SR\_ARCHIVE\_WORKFLOW\_SUCCEEDED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_SUCCEEDED\_COUNT\_TOOLTIP|  |
+|workflowSuccessRate| *None* |SR\_ARCHIVE\_WORKFLOW\_SUCCESS\_RATE: SR\_ARCHIVE\_WORKFLOW\_SUCCESS\_RATE\_TOOLTIP|  |
+|updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|workflowAssociate/firstName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|workflowAssociate/lastName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|workflowAssociate/middleName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|workflowAssociate/fullName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|workflowAssociate/contactId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|workflowAssociate/personId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|workflowAssociate/mrMrs| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|workflowAssociate/title| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|workflowAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|workflowAssociate/contactName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|workflowAssociate/contactDepartment| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|workflowAssociate/usergroup| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|workflowAssociate/usergroupId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|workflowAssociate/contactFullName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|workflowAssociate/contactCategory| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|workflowAssociate/role| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|workflowAssociate/assocName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|workflowAssociate/assocTooltip| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|workflowAssociate/assocType| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|workflowAssociate/ejUserId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|workflowAssociate/simultaneousEjUser| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|workflowAssociate/ejDisplayName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|workflowAssociate/ejStatus| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|workflowAssociate/credentialType| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|workflowAssociate/credentialDisplayValue| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|workflowAssociate/isActive| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|workflowAssociate/isActiveText| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|workflowAssociate/portraitThumbnail| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|workflowAssociate/otherGroups| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|workflowAssociate/userName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|workflowAssociate/personEmail| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_EMAIL|  |
+|workflowAssociate/locationAddress| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|workflowAssociate/isLocation| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|hierarchyId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullname|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyName| *None* |SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP|  |
+|hierarchyParentId| *None* |SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP|  |
+|hierarchyFullpathIds| *None* |SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS: SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS\_TOOLTIP|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/title
+GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowAssociate/contactId,updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

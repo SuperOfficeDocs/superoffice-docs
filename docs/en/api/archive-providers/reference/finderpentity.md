@@ -15,15 +15,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.ErpSync.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ErpEntity"|ERP entity|
+|"ErpEntity"|[[SR_CONNECTION_ERP_ENTITY]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ConnectionId| *None* |ERP connection ID: ERP connection ID| x |
-|SearchText| *None* |Search text: Search text| x |
-|ErpActorType| *None* |Actor type: Actor type| x |
-|Connected| *None* |Connected: Connected| x |
+|ConnectionId| *None* |SR\_CONNECTION\_ID: SR\_CONNECTION\_ID| x |
+|SearchText| *None* |SR\_EIS\_ERP\_SEARCH\_TEXT: SR\_EIS\_ERP\_SEARCH\_TEXT| x |
+|ErpActorType| *None* |SR\_EIS\_ERP\_ACTOR\_TYPE: SR\_EIS\_ERP\_ACTOR\_TYPE| x |
+|Connected| *None* |SR\_EIS\_CONNECTED: SR\_EIS\_CONNECTED| x |
 |OnlyParentConnected| *None* |OnlyParentConnected: OnlyParentConnected| x |
 |ErpKey| *None* |ErpKey: ErpKey| x |
 

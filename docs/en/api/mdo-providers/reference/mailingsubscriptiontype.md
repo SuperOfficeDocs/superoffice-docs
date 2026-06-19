@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|(Unspecified)|||
+|0|[SR_ARCHIVE_MAILING_UNSPECIFIED]|||
 |1|Invitations|||
 |2|News|||
 |3|Promotions|||

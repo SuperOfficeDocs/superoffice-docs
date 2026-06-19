@@ -16,18 +16,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 | Name | Description |
 | ---- | ----- |
 |"ProjectMember"|ProjectMember|
-|"hideConflict"|Hide conflict|
+|"hideConflict"|[[SR_HIDE_CONFLICT]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|conflictStatus| *None* |Status: Shows any conflicts with other follow-ups|  |
-|function|listAny|Function: Displays the project member's function in the project| x |
-|fullName|string|Contact: Displays the contact to which an item is linked| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
-|projectId|int|Project ID: Project ID| x |
+|conflictStatus| *None* |SR\_BOOKING\_CONFLICT: SR\_BOOKING\_CONFLICT\_TOOLTIP|  |
+|function|listAny|SR\_PROJECTMEMBERARCHIVE\_FUNCTION: SR\_PROJECTMEMBERARCHIVE\_FUNCTION\_TOOLTIP| x |
+|fullName|string|SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP| x |
+|nameDepartment|string|SR\_ACTIVITYARCHIVE\_CONTACT: SR\_ACTIVITYARCHIVE\_CONTACT\_TOOLTIP| x |
+|projectId|int|SR\_PROJECT\_ID: SR\_PROJECT\_ID| x |
 
 ## Sample
 

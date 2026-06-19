@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|(None)||None|
-|1|Internally||Internally|
-|2|Externally||Externally|
-|3|In queue||Queue|
+|0|[SR_NONE_WITH_CAPITAL_LETTER]||None|
+|1|[SR_TICKETSTATUS_TIMECOUNTER_INTERNALLY]||Internally|
+|2|[SR_TICKETSTATUS_TIMECOUNTER_EXTERNALLY]||Externally|
+|3|[SR_TICKETSTATUS_TIMECOUNTER_QUEUE]||Queue|
 
 
 ## Related MDO Lists

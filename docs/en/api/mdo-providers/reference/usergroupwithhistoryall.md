@@ -50,8 +50,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|History|||
-|-2|All users|||
+|-1|[SR_MISC_HISTORY]|||
+|-2|[SR_USERS_ALL_USERS]|||
 |0||||
 |2|Salg|||
 |4|Tjenester|||

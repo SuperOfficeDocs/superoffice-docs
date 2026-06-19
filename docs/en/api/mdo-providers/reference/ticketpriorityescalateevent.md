@@ -49,9 +49,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Stop||Stop|
-|1|Continue||Continue|
-|2|Restart||Restart|
+|0|[SR_COMMON_PRIORITYACTION_STOP]||Stop|
+|1|[SR_COMMON_PRIORITYACTION_CONTINUE]||Continue|
+|2|[SR_COMMON_PRIORITYACTION_RESTART]||Restart|
 
 
 ## Related MDO Lists

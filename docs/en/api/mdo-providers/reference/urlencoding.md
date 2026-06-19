@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|None||None|
-|2|ANSI||ANSI|
-|3|Unicode||Unicode|
+|1|[SR_ADMIN_ROLE_CRUD_NONE]||None|
+|2|[SR_ADMIN_LIST_ANSI]||ANSI|
+|3|[SR_ADMIN_LIST_UNICODE]||Unicode|
 
 
 ## Related MDO Lists

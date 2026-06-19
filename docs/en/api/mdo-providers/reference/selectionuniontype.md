@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Only in Selection 1|||
-|2|Only in Selection 2|||
-|3|Common|||
-|4|Difference|||
-|5|All|||
+|1|[SR_SELECTION_LEFTMINUSRIGHT]|||
+|2|[SR_SELECTION_RIGHTMINUSLEFT]|||
+|3|[SR_SELECTION_INTERSECT]|||
+|4|[SR_SELECTION_DIFF]|||
+|5|[SR_SELECTION_LEFTPLUSRIGHT]|||
 
 
 ## Related MDO Lists

@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Private||Private|
-|2|Accessible to internal users||Internal|
-|3|Accessible to registered customers||PublicAuthenticated|
-|4|Accessible to everyone||Public|
+|1|[SR_ENUM_KB_ACCESS_PRIVATE]||Private|
+|2|[SR_ENUM_KB_ACCESS_INTERNAL]||Internal|
+|3|[SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED]||PublicAuthenticated|
+|4|[SR_ENUM_KB_ACCESS_PUBLIC]||Public|
 
 
 ## Related MDO Lists

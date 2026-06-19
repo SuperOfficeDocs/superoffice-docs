@@ -63,8 +63,8 @@ foreach (var item in listProvider.RootItems) {
 |5|Andre møte||IsDeleted=False&Probability=50&SaleTypeStageLinkId=3&|
 |2|Sluttforhandlinger||IsDeleted=False&Probability=80&SaleTypeStageLinkId=4&|
 |3|Muntlig aksept||IsDeleted=False&Probability=90&SaleTypeStageLinkId=5&|
-|-2|Sold||Probability=100|
-|-1|Lost||Probability=0|
+|-2|[SR_SDLG_SOLD]||Probability=100|
+|-1|[SR_SDLG_LOST]||Probability=0|
 
 
 ## Related MDO Lists

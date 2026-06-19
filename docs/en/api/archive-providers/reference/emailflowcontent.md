@@ -26,198 +26,198 @@ Lists all email flow content
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|contentId|int|ID: ID| x |
-|shipmentMessagePictureFolderId| *None* |Folder: Folder|  |
-|contentThumbnail| *None* |Thumbnail|  |
-|shipmentMessageSubject| *None* |Subject: Subject|  |
-|shipmentMessageDescription| *None* |Description : Description|  |
-|nameOrDescription| *None* |Description : Description|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy| *None* |Registered by: The user who registered the data|  |
-|registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
-|emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
-|emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
-|emailFlow/thumbnail| *None* |Thumbnail|  |
-|emailFlow/mediumThumbnail| *None* |Thumbnail|  |
-|emailFlow/workflowId|int|Flow id: Id of a flow definition| x |
-|emailFlow/workflowName|string|Name: Name of the flow definition| x |
-|emailFlow/workflowDescription|string|Description: Description of flow definition| x |
-|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the flow definition| x |
-|emailFlow/workflowDefinitionStatusId|listAny|Status: Status of the flow definition| x |
-|emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
-|emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the flow only once?| x |
-|emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
-|emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
-|emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
-|emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
-|emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
-|emailFlow/updatedBy|associate|Updated by: The user who last updated the data| x |
-|emailFlow/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
-|emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|shipment/mailingId| *None* |ID: Displays the ID of the mailing|  |
-|shipment/mailingSelectionId| *None* |Selection ID: The database ID of the selection|  |
-|shipment/mailingSent| *None* |Sent: Displays the sent status of the mailing|  |
-|shipment/mailingSimpleStatus| *None* |Status: Status|  |
-|shipment/mailingEndDate| *None* |Date sent: Displays the date when the mailing was sent (completed)|  |
-|shipment/mailingType| *None* |Type: Display the type of the mailing|  |
-|shipment/mailingSubscriptionType| *None* |Subscription type: The subscription type for a mailing|  |
-|shipment/mailingSentTo| *None* |Sent to: Displays to whom the mailing was sent|  |
-|shipment/mailingOwner| *None* |Owner: Displays the owner of the mailing|  |
-|shipment/mailingFrom| *None* |From: Mailing from|  |
-|shipment/mailingReplyTo| *None* |To: To|  |
-|shipment/mailingSentCount| *None* |Number sent: Number of sent mailings|  |
-|shipment/mailingOpenRate| *None* |Open rate: The open rate for a mailing|  |
-|shipment/mailingClickRate| *None* |Click-through rate: Mailing click-through rate|  |
-|shipment/mailingBounceRate| *None* |Bounce rate: Mailing bounce rate|  |
-|shipment/mailingDeleted| *None* |Deleted: Deleted|  |
-|shipment/recipientStatus| *None* |Recipient status: Status of mailing recipient|  |
-|shipment/icon| *None* |Category: Displays the icon for an activity type|  |
-|shipment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
-|shipment/type| *None* |Type: Displays the type of an activity|  |
-|shipment/text| *None* |Text: Displays a descriptive text for the item|  |
-|shipment/associateId| *None* |ID: Displays the login ID of the associate who owns the activity.|  |
-|shipment/contactId| *None* |Company ID: Database ID of company|  |
-|shipment/personId| *None* |Contact ID: Database ID of the contact row|  |
-|shipment/projectId| *None* |Project ID: Database ID of project record|  |
-|shipment/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|shipment/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|shipment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
-|shipment/emailFlow/emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow|  |
-|shipment/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
-|shipment/emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
-|shipment/emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
-|shipment/emailFlow/thumbnail| *None* |Thumbnail|  |
-|shipment/emailFlow/mediumThumbnail| *None* |Thumbnail|  |
-|shipment/emailFlow/workflowId| *None* |Flow id: Id of a flow definition|  |
-|shipment/emailFlow/workflowName| *None* |Name: Name of the flow definition|  |
-|shipment/emailFlow/workflowDescription| *None* |Description: Description of flow definition|  |
-|shipment/emailFlow/workflowDefinitionStatus| *None* |Status: Status of the flow definition|  |
-|shipment/emailFlow/workflowDefinitionStatusId| *None* |Status: Status of the flow definition|  |
-|shipment/emailFlow/jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
-|shipment/emailFlow/startOnlyOnce| *None* |Start only once: Should the participant enter the flow only once?|  |
-|shipment/emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this flow?|  |
-|shipment/emailFlow/workflowInProgressCount| *None* |In progress: How many participants are in progress|  |
-|shipment/emailFlow/workflowCompletedCount| *None* |Completed: How many participants are completed|  |
-|shipment/emailFlow/workflowSucceededCount| *None* |Succeeded: How many participants have successfully completed the flow (goal criteria met)?|  |
-|shipment/emailFlow/workflowSuccessRate| *None* |Success rate: Success rate, based on goals criteria met|  |
-|shipment/emailFlow/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|shipment/emailFlow/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|shipment/emailFlow/registeredBy| *None* |Registered by: The user who registered the data|  |
-|shipment/emailFlow/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|shipment/emailFlow/workflowAssociate/firstName| *None* |Owner - First name: Displays the contact's first name|  |
-|shipment/emailFlow/workflowAssociate/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
-|shipment/emailFlow/workflowAssociate/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
-|shipment/emailFlow/workflowAssociate/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|shipment/emailFlow/workflowAssociate/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
-|shipment/emailFlow/workflowAssociate/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
-|shipment/emailFlow/workflowAssociate/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|shipment/emailFlow/workflowAssociate/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
-|shipment/emailFlow/workflowAssociate/associateDbId| *None* |Owner - ID|  |
-|shipment/emailFlow/workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
-|shipment/emailFlow/workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
-|shipment/emailFlow/workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
-|shipment/emailFlow/workflowAssociate/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
-|shipment/emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
-|shipment/emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
+|contentId|int|SR\_LISTITEMARCHIVE\_ID: SR\_LISTITEMARCHIVE\_ID\_TOOLTIP| x |
+|shipmentMessagePictureFolderId| *None* |SR\_FORMS\_FOLDER: SR\_FORMS\_FOLDER|  |
+|contentThumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|shipmentMessageSubject| *None* |SR\_COMMON\_SUBJECT: SR\_COMMON\_SUBJECT|  |
+|shipmentMessageDescription| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|nameOrDescription| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|emailFlow/emailFlowId|int|SR\_ARCHIVE\_EMAILFLOW\_ID: SR\_ARCHIVE\_EMAILFLOW\_ID\_TOOLTIP| x |
+|emailFlow/emailFlowHierarchyId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|emailFlow/shipmentType|listAny|SR\_ARCHIVE\_EMAILFLOW\_MAILING\_TYPE: SR\_ARCHIVE\_EMAILFLOW\_MAILING\_TYPE\_TOOLTIP| x |
+|emailFlow/overrideConsentSubscription|bool|SR\_ARCHIVE\_EMAILFLOW\_OVERRIDE\_CONSENT\_SUBSCRIPTION: SR\_ARCHIVE\_EMAILFLOW\_OVERRIDE\_CONSENT\_SUBSCRIPTION\_TOOLTIP| x |
+|emailFlow/thumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|emailFlow/mediumThumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|emailFlow/workflowId|int|SR\_ARCHIVE\_WORKFLOW\_ID: SR\_ARCHIVE\_WORKFLOW\_ID\_TOOLTIP| x |
+|emailFlow/workflowName|string|SR\_ARCHIVE\_WORKFLOW\_NAME: SR\_ARCHIVE\_WORKFLOW\_NAME\_TOOLTIP| x |
+|emailFlow/workflowDescription|string|SR\_ARCHIVE\_WORKFLOW\_DESC: SR\_ARCHIVE\_WORKFLOW\_DESC\_TOOLTIP| x |
+|emailFlow/workflowDefinitionStatus|listAny|SR\_ARCHIVE\_WORKFLOW\_DEFINITION\_STATUS: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_STATUS\_TOOLTIP| x |
+|emailFlow/workflowDefinitionStatusId|listAny|SR\_ARCHIVE\_WORKFLOW\_DEFINITION\_STATUS: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_STATUS\_TOOLTIP| x |
+|emailFlow/jumpToFinish|bool|SR\_ARCHIVE\_WORKFLOW\_JUMP\_TO\_FINISH: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_JUMP\_TO\_FINISH\_TOOLTIP| x |
+|emailFlow/startOnlyOnce|bool|SR\_ARCHIVE\_WORKFLOW\_START\_ONLY\_ONCE: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_START\_ONLY\_ONCE\_TOOLTIP| x |
+|emailFlow/workflowEnrolledCount| *None* |SR\_ARCHIVE\_WORKFLOW\_ENROLLED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_ENROLLED\_COUNT\_TOOLTIP|  |
+|emailFlow/workflowInProgressCount| *None* |SR\_ARCHIVE\_WORKFLOW\_IN\_PROGRESS\_COUNT: SR\_ARCHIVE\_WORKFLOW\_IN\_PROGRESS\_COUNT\_TOOLTIP|  |
+|emailFlow/workflowCompletedCount| *None* |SR\_ARCHIVE\_WORKFLOW\_COMPLETED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_COMPLETED\_COUNT\_TOOLTIP|  |
+|emailFlow/workflowSucceededCount| *None* |SR\_ARCHIVE\_WORKFLOW\_SUCCEEDED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_SUCCEEDED\_COUNT\_TOOLTIP|  |
+|emailFlow/workflowSuccessRate| *None* |SR\_ARCHIVE\_WORKFLOW\_SUCCESS\_RATE: SR\_ARCHIVE\_WORKFLOW\_SUCCESS\_RATE\_TOOLTIP|  |
+|emailFlow/updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|emailFlow/updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|emailFlow/registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|emailFlow/registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|shipment/mailingId| *None* |SR\_ARCHIVE\_MAILING\_ID: SR\_ARCHIVE\_MAILING\_ID\_TOOLTIP|  |
+|shipment/mailingSelectionId| *None* |SR\_SELECTION\_ID: SR\_SELECTION\_ID\_TOOLTIP|  |
+|shipment/mailingSent| *None* |SR\_ARCHIVE\_MAILING\_SENT: SR\_ARCHIVE\_MAILING\_SENT\_TOOLTIP|  |
+|shipment/mailingSimpleStatus| *None* |SR\_ARCHIVE\_MAILING\_STATUS: SR\_ARCHIVE\_MAILING\_STATUS|  |
+|shipment/mailingEndDate| *None* |SR\_ARCHIVE\_MAILING\_END\_DATE: SR\_ARCHIVE\_MAILING\_END\_DATE\_TOOLTIP|  |
+|shipment/mailingType| *None* |SR\_ARCHIVE\_MAILING\_TYPE: SR\_ARCHIVE\_MAILING\_TYPE\_TOOLTIP|  |
+|shipment/mailingSubscriptionType| *None* |SR\_ARCHIVE\_MAILING\_SUBSCRIPTION\_TYPE: SR\_ARCHIVE\_MAILING\_SUBSCRIPTION\_TYPE\_TOOLTIP|  |
+|shipment/mailingSentTo| *None* |SR\_ARCHIVE\_MAILING\_SENTTO: SR\_ARCHIVE\_MAILING\_SENTTO\_TOOLTIP|  |
+|shipment/mailingOwner| *None* |SR\_ARCHIVE\_MAILING\_OWNER: SR\_ARCHIVE\_MAILING\_OWNER\_TOOLTIP|  |
+|shipment/mailingFrom| *None* |SR\_ARCHIVE\_MAILING\_FROM: SR\_ARCHIVE\_MAILING\_FROM\_TOOLTIP|  |
+|shipment/mailingReplyTo| *None* |SR\_ARCHIVE\_MAILING\_REPLY\_TO: SR\_ARCHIVE\_MAILING\_REPLY\_TO|  |
+|shipment/mailingSentCount| *None* |SR\_ARCHIVE\_MAILING\_SENT\_COUNT: SR\_ARCHIVE\_MAILING\_SENT\_COUNT\_TOOLTIP|  |
+|shipment/mailingOpenRate| *None* |SR\_ARCHIVE\_MAILING\_OPEN\_RATE: SR\_ARCHIVE\_MAILING\_OPEN\_RATE\_TOOLTIP|  |
+|shipment/mailingClickRate| *None* |SR\_ARCHIVE\_MAILING\_CLICK\_THROUGH\_RATE: SR\_ARCHIVE\_MAILING\_CLICK\_THROUGH\_RATE\_TOOLTIP|  |
+|shipment/mailingBounceRate| *None* |SR\_ARCHIVE\_MAILING\_BOUNCE\_RATE: SR\_ARCHIVE\_MAILING\_BOUNCE\_RATE\_TOOLTIP|  |
+|shipment/mailingDeleted| *None* |SR\_LISTITEMARCHIVE\_DELETED: SR\_LISTITEMARCHIVE\_DELETED\_TOOLTIP|  |
+|shipment/recipientStatus| *None* |SR\_ARCHIVE\_RECIPIENT\_STATUS: SR\_ARCHIVE\_RECIPIENT\_STATUS\_TOOLTIP|  |
+|shipment/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|shipment/date| *None* |SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP|  |
+|shipment/type| *None* |SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP|  |
+|shipment/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|shipment/associateId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|shipment/contactId| *None* |SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP|  |
+|shipment/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|shipment/projectId| *None* |SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP|  |
+|shipment/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|shipment/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|shipment/recordTypeText| *None* |SR\_ARCHIVE\_RECORDTYPETEXT: SR\_ARCHIVE\_RECORDTYPETEXT\_TOOLTIP|  |
+|shipment/emailFlow/emailFlowId| *None* |SR\_ARCHIVE\_EMAILFLOW\_ID: SR\_ARCHIVE\_EMAILFLOW\_ID\_TOOLTIP|  |
+|shipment/emailFlow/emailFlowHierarchyId| *None* |SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP|  |
+|shipment/emailFlow/shipmentType| *None* |SR\_ARCHIVE\_EMAILFLOW\_MAILING\_TYPE: SR\_ARCHIVE\_EMAILFLOW\_MAILING\_TYPE\_TOOLTIP|  |
+|shipment/emailFlow/overrideConsentSubscription| *None* |SR\_ARCHIVE\_EMAILFLOW\_OVERRIDE\_CONSENT\_SUBSCRIPTION: SR\_ARCHIVE\_EMAILFLOW\_OVERRIDE\_CONSENT\_SUBSCRIPTION\_TOOLTIP|  |
+|shipment/emailFlow/thumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|shipment/emailFlow/mediumThumbnail| *None* |SR\_ARCHIVE\_EMAILFLOW\_THUMBNAIL|  |
+|shipment/emailFlow/workflowId| *None* |SR\_ARCHIVE\_WORKFLOW\_ID: SR\_ARCHIVE\_WORKFLOW\_ID\_TOOLTIP|  |
+|shipment/emailFlow/workflowName| *None* |SR\_ARCHIVE\_WORKFLOW\_NAME: SR\_ARCHIVE\_WORKFLOW\_NAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowDescription| *None* |SR\_ARCHIVE\_WORKFLOW\_DESC: SR\_ARCHIVE\_WORKFLOW\_DESC\_TOOLTIP|  |
+|shipment/emailFlow/workflowDefinitionStatus| *None* |SR\_ARCHIVE\_WORKFLOW\_DEFINITION\_STATUS: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_STATUS\_TOOLTIP|  |
+|shipment/emailFlow/workflowDefinitionStatusId| *None* |SR\_ARCHIVE\_WORKFLOW\_DEFINITION\_STATUS: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_STATUS\_TOOLTIP|  |
+|shipment/emailFlow/jumpToFinish| *None* |SR\_ARCHIVE\_WORKFLOW\_JUMP\_TO\_FINISH: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_JUMP\_TO\_FINISH\_TOOLTIP|  |
+|shipment/emailFlow/startOnlyOnce| *None* |SR\_ARCHIVE\_WORKFLOW\_START\_ONLY\_ONCE: SR\_ARCHIVE\_WORKFLOW\_\_DEFINITION\_START\_ONLY\_ONCE\_TOOLTIP|  |
+|shipment/emailFlow/workflowEnrolledCount| *None* |SR\_ARCHIVE\_WORKFLOW\_ENROLLED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_ENROLLED\_COUNT\_TOOLTIP|  |
+|shipment/emailFlow/workflowInProgressCount| *None* |SR\_ARCHIVE\_WORKFLOW\_IN\_PROGRESS\_COUNT: SR\_ARCHIVE\_WORKFLOW\_IN\_PROGRESS\_COUNT\_TOOLTIP|  |
+|shipment/emailFlow/workflowCompletedCount| *None* |SR\_ARCHIVE\_WORKFLOW\_COMPLETED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_COMPLETED\_COUNT\_TOOLTIP|  |
+|shipment/emailFlow/workflowSucceededCount| *None* |SR\_ARCHIVE\_WORKFLOW\_SUCCEEDED\_COUNT: SR\_ARCHIVE\_WORKFLOW\_SUCCEEDED\_COUNT\_TOOLTIP|  |
+|shipment/emailFlow/workflowSuccessRate| *None* |SR\_ARCHIVE\_WORKFLOW\_SUCCESS\_RATE: SR\_ARCHIVE\_WORKFLOW\_SUCCESS\_RATE\_TOOLTIP|  |
+|shipment/emailFlow/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|shipment/emailFlow/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|shipment/emailFlow/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|shipment/emailFlow/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/firstName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/lastName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/middleName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/fullName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/contactId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/personId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/mrMrs| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/title| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|shipment/emailFlow/workflowAssociate/contactName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/contactDepartment| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/usergroup| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/usergroupId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/contactFullName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/contactCategory| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|shipment/emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
-|shipment/emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
-|shipment/emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
-|shipment/emailFlow/workflowAssociate/assocType| *None* |Owner - Type: Type of user: associate, external user, system user, anonymous account|  |
-|shipment/emailFlow/workflowAssociate/ejUserId| *None* |Owner - Service user ID: The database ID of a Service user|  |
-|shipment/emailFlow/workflowAssociate/simultaneousEjUser| *None* |Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|shipment/emailFlow/workflowAssociate/ejDisplayName| *None* |Owner - Nickname: User's nickname in Service|  |
-|shipment/emailFlow/workflowAssociate/ejStatus| *None* |Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|shipment/emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in|  |
-|shipment/emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|shipment/emailFlow/workflowAssociate/isActive| *None* |Owner - Active: Is this user active, and should be able to log in?|  |
-|shipment/emailFlow/workflowAssociate/isActiveText| *None* |Owner - Active status: Is this user active, and should be able to log in?|  |
-|shipment/emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
-|shipment/emailFlow/workflowAssociate/otherGroups| *None* |Owner - Other groups: Other groups|  |
-|shipment/emailFlow/workflowAssociate/userName| *None* |Owner - User name: User name|  |
-|shipment/emailFlow/workflowAssociate/personEmail| *None* |Owner - E-mail|  |
-|shipment/emailFlow/workflowAssociate/locationAddress| *None* |Owner - Location: Location|  |
-|shipment/emailFlow/workflowAssociate/isLocation| *None* |Owner - Is a location: Is a location|  |
-|shipment/emailFlow/hierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
-|shipment/emailFlow/hierarchyFullname| *None* |Hierarchy name: The full name/path from table hierarchy|  |
-|shipment/emailFlow/hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
-|shipment/emailFlow/hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
-|shipment/emailFlow/hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
-|shipment/project/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
-|shipment/project/projectId| *None* |DB ID: Displays the database ID for a project row|  |
-|shipment/project/name| *None* |Project name: Displays the Project's name|  |
-|shipment/project/number| *None* |Number: Displays the project's number|  |
-|shipment/project/type| *None* |Project type: Displays the project's type|  |
-|shipment/project/status| *None* |Status: Displays the project's status|  |
-|shipment/project/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
-|shipment/project/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
-|shipment/project/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
-|shipment/project/icon| *None* |Category: Displays the icon for an activity type|  |
-|shipment/project/text| *None* |Text: Displays a descriptive text for the item|  |
-|shipment/project/description| *None* |Description : Description|  |
-|shipment/project/updatedBy| *None* |Updated by: The user who last updated the data|  |
-|shipment/project/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|shipment/project/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|shipment/project/registeredBy| *None* |Registered by: The user who registered the data|  |
-|shipment/project/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
-|shipment/project/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|shipment/project/hasGuide| *None* |Guided: Does this sale have a Sales Guide|  |
-|shipment/project/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
-|shipment/project/endDate| *None* |End date: End date of project|  |
-|shipment/project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-|shipment/project/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?|  |
-|shipment/project/eventId| *None* |Event ID: Event ID|  |
-|shipment/project/startDate| *None* |Start date: Project start date|  |
-|shipment/project/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
-|shipment/project/projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
-|shipment/project/projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
-|shipment/project/projectPublish/publishedBy| *None* |Published by: Published by|  |
-|shipment/project/projectEvent/isExternalEvent| *None* |Event: Is this an external event|  |
-|shipment/project/projectEvent/eventDate| *None* |Event date: Event date|  |
-|shipment/project/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled|  |
-|shipment/project/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled|  |
-|shipment/project/projectUrl/URLAddress| *None* |URL|  |
-|shipment/project/projectUrl/URLDescription| *None* |Description|  |
-|shipment/project/projectAssociate/firstName| *None* |First name: Displays the contact's first name|  |
-|shipment/project/projectAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
-|shipment/project/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|shipment/project/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|shipment/project/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|shipment/project/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|shipment/project/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|shipment/project/projectAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
-|shipment/project/projectAssociate/associateDbId| *None* |ID|  |
-|shipment/project/projectAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|shipment/project/projectAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
-|shipment/project/projectAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
-|shipment/project/projectAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|shipment/project/projectAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|shipment/project/projectAssociate/contactCategory| *None* |Category: Category|  |
-|shipment/project/projectAssociate/role| *None* |Role : Role|  |
-|shipment/project/projectAssociate/assocName| *None* |User ID : User ID|  |
-|shipment/project/projectAssociate/assocTooltip| *None* |Description : Description|  |
-|shipment/project/projectAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|shipment/project/projectAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
-|shipment/project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|shipment/project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
-|shipment/project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|shipment/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|shipment/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|shipment/project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|shipment/project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|shipment/project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|shipment/project/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
-|shipment/project/projectAssociate/userName| *None* |User name: User name|  |
-|shipment/project/projectAssociate/personEmail| *None* |E-mail|  |
-|shipment/project/projectAssociate/locationAddress| *None* |Location: Location|  |
-|shipment/project/projectAssociate/isLocation| *None* |Is a location: Is a location|  |
+|shipment/emailFlow/workflowAssociate/role| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|shipment/emailFlow/workflowAssociate/assocName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|shipment/emailFlow/workflowAssociate/assocTooltip| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|shipment/emailFlow/workflowAssociate/assocType| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/ejUserId| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|shipment/emailFlow/workflowAssociate/simultaneousEjUser| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/ejDisplayName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|shipment/emailFlow/workflowAssociate/ejStatus| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|shipment/emailFlow/workflowAssociate/credentialType| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/credentialDisplayValue| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/isActive| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/isActiveText| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/portraitThumbnail| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|shipment/emailFlow/workflowAssociate/otherGroups| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|shipment/emailFlow/workflowAssociate/userName| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|shipment/emailFlow/workflowAssociate/personEmail| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_EMAIL|  |
+|shipment/emailFlow/workflowAssociate/locationAddress| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|shipment/emailFlow/workflowAssociate/isLocation| *None* |SR\_ACTIVITYARCHIVE\_OWNER - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
+|shipment/emailFlow/hierarchyId| *None* |SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP|  |
+|shipment/emailFlow/hierarchyFullname| *None* |SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP|  |
+|shipment/emailFlow/hierarchyName| *None* |SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP|  |
+|shipment/emailFlow/hierarchyParentId| *None* |SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP|  |
+|shipment/emailFlow/hierarchyFullpathIds| *None* |SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS: SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS\_TOOLTIP|  |
+|shipment/project/completed| *None* |SR\_ACTIVITYARCHIVE\_ISDONE: SR\_PROJECTARCHIVE\_COMPLETED\_TOOLTIP|  |
+|shipment/project/projectId| *None* |SR\_PROJECTARCHIVE\_RECORDID: SR\_PROJECTARCHIVE\_RECORDID\_TOOLTIP|  |
+|shipment/project/name| *None* |SR\_PROJECTARCHIVE\_NAME: SR\_PROJECTARCHIVE\_NAME\_TOOLTIP|  |
+|shipment/project/number| *None* |SR\_PROJECTARCHIVE\_NUMBER: SR\_PROJECTARCHIVE\_NUMBER\_TOOLTIP|  |
+|shipment/project/type| *None* |SR\_PROJECTARCHIVE\_TYPE: SR\_PROJECTARCHIVE\_TYPE\_TOOLTIP|  |
+|shipment/project/status| *None* |SR\_PROJECTARCHIVE\_STATUS: SR\_PROJECTARCHIVE\_STATUS\_TOOLTIP|  |
+|shipment/project/statusRank| *None* |SR\_PROJECTARCHIVE\_STATUS\_RANK: SR\_PROJECTARCHIVE\_STATUS\_RANK\_TOOLTIP|  |
+|shipment/project/associateId| *None* |SR\_PROJECTARCHIVE\_ASSOCIATEID: SR\_PROJECTARCHIVE\_ASSOCIATEID\_TOOLTIP|  |
+|shipment/project/hasInfoText| *None* |SR\_PROJECTARCHIVE\_HASINFO: SR\_PROJECTARCHIVE\_HASINFO\_TOOLTIP|  |
+|shipment/project/icon| *None* |SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP|  |
+|shipment/project/text| *None* |SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|shipment/project/description| *None* |SR\_LABEL\_DESCRIPTION: SR\_LABEL\_DESCRIPTION|  |
+|shipment/project/updatedBy| *None* |SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|shipment/project/updatedByFullName| *None* |SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|shipment/project/updatedDate| *None* |SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|shipment/project/registeredBy| *None* |SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|shipment/project/registeredByFullName| *None* |SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|shipment/project/registeredDate| *None* |SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
+|shipment/project/hasGuide| *None* |SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP|  |
+|shipment/project/nextMilestone| *None* |SR\_ARCHIVE\_NEXTMILESTONE: SR\_ARCHIVE\_NEXTMILESTONE\_TOOLTIP|  |
+|shipment/project/endDate| *None* |SR\_ARCHIVE\_ENDDATE: SR\_ARCHIVE\_ENDDATE\_TOOLTIP|  |
+|shipment/project/imageThumbnail| *None* |SR\_PROJECTARCHIVE\_THUMBNAIL: SR\_PROJECTARCHIVE\_THUMBNAIL\_TOOLTIP|  |
+|shipment/project/activeErpLinks| *None* |SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP|  |
+|shipment/project/eventId| *None* |SR\_FIELD\_PROJECT\_EVENT\_ID: SR\_FIELD\_PROJECT\_EVENT\_ID|  |
+|shipment/project/startDate| *None* |SR\_ARCHIVE\_STARTDATE: SR\_ARCHIVE\_STARTDATE\_TOOLTIP|  |
+|shipment/project/projectPublish/isPublished| *None* |SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP|  |
+|shipment/project/projectPublish/publishedFrom| *None* |SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP|  |
+|shipment/project/projectPublish/publishedTo| *None* |SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP|  |
+|shipment/project/projectPublish/publishedBy| *None* |SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|shipment/project/projectEvent/isExternalEvent| *None* |SR\_EXTERNAL\_EVENT: SR\_EXTERNAL\_EVENT\_TOOLTIP|  |
+|shipment/project/projectEvent/eventDate| *None* |SR\_PROJECT\_EVENT\_DATE: SR\_PUBLISHED\_EVENT\_DATE\_TOOLTIP|  |
+|shipment/project/projectEvent/hasSignOn| *None* |SR\_EVENT\_HASSIGNON: SR\_EVENT\_HASSIGNON\_TOOLTIP|  |
+|shipment/project/projectEvent/hasSignOff| *None* |SR\_EVENT\_HASSIGNOFF: SR\_EVENT\_HASSIGNOFF\_TOOLTIP|  |
+|shipment/project/projectUrl/URLAddress| *None* |SR\_PROJECTARCHIVE\_URL|  |
+|shipment/project/projectUrl/URLDescription| *None* |SR\_ARCHIVE\_DESCRIPTION|  |
+|shipment/project/projectAssociate/firstName| *None* |SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP|  |
+|shipment/project/projectAssociate/lastName| *None* |SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP|  |
+|shipment/project/projectAssociate/middleName| *None* |SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP|  |
+|shipment/project/projectAssociate/fullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
+|shipment/project/projectAssociate/contactId| *None* |SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|shipment/project/projectAssociate/personId| *None* |SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|shipment/project/projectAssociate/mrMrs| *None* |SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|shipment/project/projectAssociate/title| *None* |SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP|  |
+|shipment/project/projectAssociate/associateDbId| *None* |SR\_ACTIVITYARCHIVE\_ASSOCIATEID|  |
+|shipment/project/projectAssociate/contactName| *None* |SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP|  |
+|shipment/project/projectAssociate/contactDepartment| *None* |SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP|  |
+|shipment/project/projectAssociate/usergroup| *None* |SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|shipment/project/projectAssociate/usergroupId| *None* |SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP|  |
+|shipment/project/projectAssociate/contactFullName| *None* |SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP|  |
+|shipment/project/projectAssociate/contactCategory| *None* |SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY|  |
+|shipment/project/projectAssociate/role| *None* |SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE|  |
+|shipment/project/projectAssociate/assocName| *None* |SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID|  |
+|shipment/project/projectAssociate/assocTooltip| *None* |SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|shipment/project/projectAssociate/assocType| *None* |SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP|  |
+|shipment/project/projectAssociate/ejUserId| *None* |SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|shipment/project/projectAssociate/simultaneousEjUser| *None* |SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|shipment/project/projectAssociate/ejDisplayName| *None* |SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8|  |
+|shipment/project/projectAssociate/ejStatus| *None* |SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|shipment/project/projectAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP|  |
+|shipment/project/projectAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP|  |
+|shipment/project/projectAssociate/isActive| *None* |SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP|  |
+|shipment/project/projectAssociate/isActiveText| *None* |SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP|  |
+|shipment/project/projectAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|shipment/project/projectAssociate/otherGroups| *None* |SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|shipment/project/projectAssociate/userName| *None* |SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP|  |
+|shipment/project/projectAssociate/personEmail| *None* |SR\_ARCHIVE\_EMAIL|  |
+|shipment/project/projectAssociate/locationAddress| *None* |SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION|  |
+|shipment/project/projectAssociate/isLocation| *None* |SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION|  |
 |shipment/project/projectUdef/SuperOffice:1| *None* |projectshorttext|  |
 |shipment/project/projectUdef/SuperOffice:2| *None* |projectlongtext|  |
 |shipment/project/projectUdef/SuperOffice:3| *None* |projectnumber|  |
@@ -232,38 +232,38 @@ Lists all email flow content
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |shipment/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
-|shipment/project/NumberOfActivities| *None* |Number of activities|  |
-|shipment/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
-|shipment/project/NumberOfNotCompletedActivities| *None* |Number of non-completed activities|  |
-|shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |Number of non-completed activities in last 90 days|  |
-|shipment/project/LastActivity| *None* |Date of last activity|  |
-|shipment/project/LastCompletedActivity| *None* |Date of last completed activity|  |
-|shipment/project/LastDoByActivity| *None* |Date of last non-completed activity|  |
-|shipment/project/NumberOfSales| *None* |Number of sales|  |
-|shipment/project/NumberOfSalesInPeriod| *None* |Number of sales in last 90 days|  |
-|shipment/project/NumberOfNotCompletedSales| *None* |Number of non-completed sales|  |
-|shipment/project/NumberOfNotCompletedSalesInPeriod| *None* |Number of non-completed sales in last 90 days|  |
-|shipment/project/LastSale| *None* |Date of last sale|  |
-|shipment/project/LastCompletedSale| *None* |Date of last completed sale|  |
-|shipment/project/LastDoBySale| *None* |Date of last non-completed sale|  |
+|shipment/project/NumberOfActivities| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|shipment/project/NumberOfActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|shipment/project/NumberOfNotCompletedActivities| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|shipment/project/NumberOfNotCompletedActivitiesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|shipment/project/LastActivity| *None* |SR\_ROU\_LAST\_ACTIVITY|  |
+|shipment/project/LastCompletedActivity| *None* |SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|shipment/project/LastDoByActivity| *None* |SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|shipment/project/NumberOfSales| *None* |SR\_ROU\_NUMBER\_OF\_SALES|  |
+|shipment/project/NumberOfSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|shipment/project/NumberOfNotCompletedSales| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|shipment/project/NumberOfNotCompletedSalesInPeriod| *None* |SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|shipment/project/LastSale| *None* |SR\_ROU\_LAST\_SALE|  |
+|shipment/project/LastCompletedSale| *None* |SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|shipment/project/LastDoBySale| *None* |SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
 |shipment/project/SaintStatus3| *None* |Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|shipment/project/saintSaleStatus| *None* |With status|  |
-|shipment/project/saintAmountClass| *None* |Amount class|  |
-|shipment/project/saintActivityType| *None* |SAINT type|  |
-|shipment/project/saintDirection| *None* |Direction|  |
-|shipment/project/saintIntention| *None* |Intention|  |
-|shipment/project/saintTicketStatus| *None* |Status|  |
-|shipment/project/saintTicketCategory| *None* |Category|  |
+|shipment/project/saintSaleStatus| *None* |SR\_WITH\_STATUS|  |
+|shipment/project/saintAmountClass| *None* |SR\_AMOUNT\_CLASS|  |
+|shipment/project/saintActivityType| *None* |SR\_ARCHIVE\_SAINT\_TYPE|  |
+|shipment/project/saintDirection| *None* |SR\_ARCHIVE\_DIRECTION|  |
+|shipment/project/saintIntention| *None* |SR\_ACTIVITY\_INTENTION|  |
+|shipment/project/saintTicketStatus| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|shipment/project/saintTicketCategory| *None* |SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
 |shipment/project/project/textId| *None* |Text ID|  |
-|shipment/project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
-|contentDescription| *None* |Description: Form description|  |
-|contentIcon| *None* |Icon: Icon| x |
-|contentType| *None* |Type : Type| x |
+|shipment/project/project/infoText| *None* |SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP|  |
+|contentDescription| *None* |SR\_FORMARCHIVE\_FORMDESCRIPTION: SR\_FORMARCHIVE\_FORMDESCRIPTION\_TOOLTIP|  |
+|contentIcon| *None* |SR\_ASN\_LIST\_ICON: SR\_ASN\_LIST\_ICON| x |
+|contentType| *None* |SR\_LABEL\_TYPE: SR\_LABEL\_TYPE| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/project/projectAssociate/simultaneousEjUser,shipment/emailFlow/workflowEnrolledCount,shipment/emailFlow/workflowAssociate/userName
+GET /api/v1/archive/EmailFlowContent?$select=shipment/date,shipment/emailFlow/workflowAssociate/assocName,shipment/emailFlow/workflowAssociate/isActive,shipment/emailFlow/hierarchyId,shipment/project/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

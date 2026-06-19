@@ -15,285 +15,285 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"contact"|Company|
+|"contact"|[[SR_SINGULAR_COMPANY]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|contactId|int|Company ID: Database ID of company| x |
-|name|stringorPK|Company name| x |
-|department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
-|hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
-|associateId|associate|Our contact: Displays our contact| x |
-|category|listAny|Category| x |
-|categoryGroup|listAny|Category group| x |
+|contactId|int|SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|name|stringorPK|SR\_COMPANY\_NAME| x |
+|department|string|SR\_ARCHIVE\_DEPARTEMENT| x |
+|nameDepartment|string|SR\_ACTIVITYARCHIVE\_CONTACT: SR\_ACTIVITYARCHIVE\_CONTACT\_TOOLTIP| x |
+|hasInfoText|bool|SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|hasInterests|bool|SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|associateId|associate|SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|category|listAny|SR\_ARCHIVE\_CATEGORY| x |
+|categoryGroup|listAny|SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
 |companyCategoryRank|int|Category rank| x |
-|business|listAny|Business| x |
-|country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
-|countryId|int|Country ID: Country ID| x |
-|number|string|Number| x |
-|code|string|Code| x |
+|business|listAny|SR\_ARCHIVE\_BUSINESS| x |
+|country|listAny|SR\_SEARCH\_COUNTRY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTRY\_TOOLTIP| x |
+|countryId|int|SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|number|string|SR\_ARCHIVE\_NUMBER| x |
+|code|string|SR\_ARCHIVE\_CODE| x |
 |orgnr|string|VAT No.| x |
-|stop|bool|Stop| x |
-|contactNoMail|bool|No mailings (company| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|contactSource|listAny|Source: Source (Company)| x |
-|contactDeleted|bool|Deleted: Deleted| x |
-|phone/formattedNumber|string|Phone : Displays phone number|  |
-|activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|deletedDate|datetime|Deleted date: Deleted date|  |
-|mainContact| *None* |Main contact: Main contact for this company| x |
+|stop|bool|SR\_CC\_STOPX| x |
+|contactNoMail|bool|SR\_NO\_MAIL\_COMPANY| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedByFullName|associate|SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredByFullName|associate|SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|contactSource|listAny|SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_COMPANY)| x |
+|contactDeleted|bool|SR\_ARCHIVE\_DELETED: SR\_ARCHIVE\_DELETED| x |
+|phone/formattedNumber|string|SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|activeErpLinks|bool|SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|deletedDate|datetime|SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|mainContact| *None* |SR\_COMPANY\_MAIN\_CONTACT: SR\_COMPANY\_MAIN\_CONTACT\_TOOLTIP| x |
 |forceCompany|bool|Dummy: Dummy|  |
-|contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contactPhone/description|string|Telephone - Description: Phone number description| x |
-|contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|contactFax/description|string|Fax - Description: Phone number description| x |
-|searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
-|searchPhone/description|string|Searchphone - Description: Phone number description| x |
-|email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|email/emailAddress|string|E-mail| x |
-|email/emailDescription|string|Description| x |
+|contactPhone/formattedNumber|string|SR\_CONTACTARCHIVE\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|contactPhone/description|string|SR\_CONTACTARCHIVE\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|contactFax/formattedNumber|string|SR\_CONTACTARCHIVE\_FAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|contactFax/description|string|SR\_CONTACTARCHIVE\_FAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|searchPhone/formattedNumber|string|SR\_RESTRICTION\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|searchPhone/description|string|SR\_RESTRICTION\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|email/emailProtocol|string|SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP| x |
+|email/emailAddress|string|SR\_ARCHIVE\_EMAIL| x |
+|email/emailDescription|string|SR\_ARCHIVE\_DESCRIPTION| x |
 |email/emailId|int|ID| x |
-|email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
-|email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
-|email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
-|postAddress/line1|string|Postal address - Address 1: First line of the address| x |
-|postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
-|postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
-|postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
-|postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|restrictionPostalAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
-|restrictionPostalAddress/line1|string|Postal address - Address 1: First line of the address| x |
-|restrictionPostalAddress/line2|string|Postal address - Address 2: Second line of the address| x |
-|restrictionPostalAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|restrictionPostalAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|restrictionPostalAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|restrictionPostalAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|restrictionPostalAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|restrictionPostalAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
-|restrictionPostalAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
-|restrictionPostalAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|restrictionPostalAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
-|streetAddress/line1|string|Street address - Address 1: First line of the address| x |
-|streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
-|streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
-|streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
-|streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
-|streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
-|streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
-|restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
-|restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
-|restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
-|restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
-|restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
-|restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|url/URLAddress|string|URL| x |
-|url/URLDescription|string|Description| x |
-|contactAssociate/firstName|string|First name: Displays the contact's first name| x |
-|contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|email/emailLastSent|datetime|SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP| x |
+|email/emailBounceCount|int|SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP| x |
+|email/emailLastBounce|datetime|SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP| x |
+|email/emailHasBounced|bool|SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP| x |
+|postAddress/addressId|int|SR\_AL\_POSTAL - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|postAddress/line1|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|postAddress/line2|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|postAddress/line3|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|postAddress/county|string|SR\_AL\_POSTAL - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|postAddress/city|string|SR\_AL\_POSTAL - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|postAddress/zip|string|SR\_AL\_POSTAL - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|postAddress/state|string|SR\_AL\_POSTAL - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|postAddress/wgs84latitude|decimal|SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|postAddress/wgs84longitude|decimal|SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|postAddress/formattedAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|postAddress/formattedMultiLineAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|restrictionPostalAddress/addressId|int|SR\_AL\_POSTAL - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|restrictionPostalAddress/line1|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|restrictionPostalAddress/line2|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|restrictionPostalAddress/line3|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|restrictionPostalAddress/county|string|SR\_AL\_POSTAL - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|restrictionPostalAddress/city|string|SR\_AL\_POSTAL - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|restrictionPostalAddress/zip|string|SR\_AL\_POSTAL - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|restrictionPostalAddress/state|string|SR\_AL\_POSTAL - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|restrictionPostalAddress/wgs84latitude|decimal|SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|restrictionPostalAddress/wgs84longitude|decimal|SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|restrictionPostalAddress/formattedAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|restrictionPostalAddress/formattedMultiLineAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|streetAddress/addressId|int|SR\_AL\_STREET - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|streetAddress/line1|string|SR\_AL\_STREET - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|streetAddress/line2|string|SR\_AL\_STREET - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|streetAddress/line3|string|SR\_AL\_STREET - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|streetAddress/county|string|SR\_AL\_STREET - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|streetAddress/city|string|SR\_AL\_STREET - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|streetAddress/zip|string|SR\_AL\_STREET - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|streetAddress/state|string|SR\_AL\_STREET - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|streetAddress/wgs84latitude|decimal|SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|streetAddress/wgs84longitude|decimal|SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|streetAddress/formattedAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|streetAddress/formattedMultiLineAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|restrictionAddress/addressId|int|SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|restrictionAddress/line1|string|SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|restrictionAddress/line2|string|SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|restrictionAddress/line3|string|SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|restrictionAddress/county|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|restrictionAddress/city|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|restrictionAddress/zip|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|restrictionAddress/state|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|restrictionAddress/wgs84latitude|decimal|SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|restrictionAddress/wgs84longitude|decimal|SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|restrictionAddress/formattedAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|restrictionAddress/formattedMultiLineAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|url/URLAddress|string|SR\_PROJECTARCHIVE\_URL| x |
+|url/URLDescription|string|SR\_ARCHIVE\_DESCRIPTION| x |
+|contactAssociate/firstName|string|SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|contactAssociate/lastName|string|SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|contactAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|contactAssociate/associateDbId|associate|ID| x |
-|contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|contactAssociate/contactCategory|listAny|Category: Category| x |
-|contactAssociate/role|listAny|Role : Role| x |
-|contactAssociate/assocName|associate|User ID : User ID| x |
-|contactAssociate/assocTooltip|string|Description : Description|  |
-|contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
-|contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|contactAssociate/userName|string|User name: User name| x |
-|contactAssociate/personEmail|string|E-mail| x |
-|contactAssociate/locationAddress|string|Location: Location| x |
-|contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contactSupportAssociate/firstName|string|Our service contact - First name: Displays the contact's first name| x |
-|contactSupportAssociate/lastName|string|Our service contact - Last name: Displays the contact's last name| x |
-|contactSupportAssociate/middleName|string|Our service contact - Middle Name: Displays the contact's middle name.| x |
-|contactSupportAssociate/fullName|string|Our service contact - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|contactSupportAssociate/contactId|int|Our service contact - Company ID: Database ID of the company the user belongs to|  |
-|contactSupportAssociate/personId|int|Our service contact - Contact ID: Database ID of the contact row|  |
-|contactSupportAssociate/mrMrs|string|Our service contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|contactSupportAssociate/title|string|Our service contact - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|contactSupportAssociate/associateDbId|associate|Our service contact - ID| x |
-|contactSupportAssociate/contactName|string|Our service contact - Owning company: Name of the company the user belongs to| x |
-|contactSupportAssociate/contactDepartment|string|Our service contact - Owning department: Name of the department at the company the user belongs to| x |
-|contactSupportAssociate/usergroup|userGroup|Our service contact - Primary group: The user's primary user group| x |
-|contactSupportAssociate/usergroupId|int|Our service contact - Group ID: The user's primary user group| x |
-|contactSupportAssociate/contactFullName|string|Our service contact - Owner: Name and department of the company the user belongs to| x |
-|contactSupportAssociate/contactCategory|listAny|Our service contact - Category: Category| x |
-|contactSupportAssociate/role|listAny|Our service contact - Role: Role| x |
-|contactSupportAssociate/assocName|associate|Our service contact - User ID: User ID| x |
-|contactSupportAssociate/assocTooltip|string|Our service contact - Description: Description|  |
-|contactSupportAssociate/assocType|listAny|Our service contact - Type: Type of user: associate, external user, system user, anonymous account| x |
-|contactSupportAssociate/ejUserId|int|Our service contact - Service user ID: The database ID of a Service user|  |
-|contactSupportAssociate/simultaneousEjUser|bool|Our service contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|contactSupportAssociate/ejDisplayName|string|Our service contact - Nickname: User's nickname in Service| x |
-|contactSupportAssociate/ejStatus|int|Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in| x |
-|contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|contactSupportAssociate/isActive|bool|Our service contact - Active: Is this user active, and should be able to log in?| x |
-|contactSupportAssociate/isActiveText|bool|Our service contact - Active status: Is this user active, and should be able to log in?| x |
-|contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
-|contactSupportAssociate/otherGroups|userGroup|Our service contact - Other groups: Other groups|  |
-|contactSupportAssociate/userName|string|Our service contact - User name: User name| x |
-|contactSupportAssociate/personEmail|string|Our service contact - E-mail| x |
-|contactSupportAssociate/locationAddress|string|Our service contact - Location: Location| x |
-|contactSupportAssociate/isLocation|bool|Our service contact - Is a location: Is a location| x |
-|contactSupportPerson/personId|int|User support contact - DB ID: Displays the database ID of a contact| x |
-|contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
-|contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
-|contactSupportPerson/middleName|string|User support contact - Middle name: Displays the contact's middle name.| x |
-|contactSupportPerson/fullName|string|User support contact - Contact: Displays the contact to which an item is linked| x |
-|contactSupportPerson/contactId|int|User support contact - Company ID: Database ID of company| x |
-|contactSupportPerson/hasInfoText|bool|User support contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|contactSupportPerson/hasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|contactSupportPerson/personHasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|contactSupportPerson/mrMrs|string|User support contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|contactSupportPerson/position|listAny|User support contact - Position| x |
-|contactSupportPerson/personNumber|string|User support contact - Number: Displays the contact's number| x |
-|contactSupportPerson/title|string|User support contact - Title: Displays the contact's job title| x |
-|contactSupportPerson/personCountry|listAny|User support contact - Country: Country| x |
-|contactSupportPerson/personCountryId|int|User support contact - Country ID: Country ID| x |
-|contactSupportPerson/personNoMail|bool|User support contact - No Mailings: Displays the contact's No Mailings checkbox| x |
-|contactSupportPerson/rank|int|User support contact - Rank: Displays a contact's current rank| x |
-|contactSupportPerson/birthdate| *None* |User support contact - Birthdate: Displays the contact's date of birth|  |
-|contactSupportPerson/associateType| *None* |User support contact - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|contactSupportPerson/useAsMailingAddress|bool|User support contact - Use as postal address: Use as postal address| x |
-|contactSupportPerson/personSource|listAny|User support contact - Source: Source (Contact)| x |
-|contactSupportPerson/retired|bool|User support contact - Former employee: Indicates whether the contact has retired/left the company| x |
-|contactSupportPerson/birthYear|int|User support contact - Birth year: Displays contact's birth year| x |
-|contactSupportPerson/birthMonth|int|User support contact - Birth month: Displays contact's birth month| x |
-|contactSupportPerson/birthDay|int|User support contact - Birth day: Displays contact's birth day (day of month)| x |
-|contactSupportPerson/kanaFirstName|string|User support contact - First name, kana: Contact's first name, in kana alphabet| x |
-|contactSupportPerson/kanaLastName|string|User support contact - Last name, kana: Contact's last name, in kana alphabet| x |
-|contactSupportPerson/personUpdatedBy|associate|User support contact - Updated by: The user who last updated the data| x |
-|contactSupportPerson/personUpdatedByFullName|associate|User support contact - Updated by - Full name: The user who last updated the data| x |
-|contactSupportPerson/personUpdatedDate|date|User support contact - Updated: The date/time the data was last updated in UTC.| x |
-|contactSupportPerson/personRegisteredBy|associate|User support contact - Registered by: The user who registered the data| x |
-|contactSupportPerson/personRegisteredByFullName|associate|User support contact - Registered by - Full name: The user who registered the data| x |
-|contactSupportPerson/personRegisteredDate|date|User support contact - Registered date: The date/time the data was registered in UTC.| x |
-|contactSupportPerson/portraitThumbnail| *None* |User support contact - Person image: Person image|  |
-|contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
-|contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
+|contactAssociate/middleName|string|SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|contactAssociate/fullName|string|SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|contactAssociate/contactId|int|SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|contactAssociate/personId|int|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|contactAssociate/mrMrs|string|SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|contactAssociate/title|string|SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|contactAssociate/associateDbId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|contactAssociate/contactName|string|SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|contactAssociate/contactDepartment|string|SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|contactAssociate/usergroup|userGroup|SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|contactAssociate/usergroupId|int|SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|contactAssociate/contactFullName|string|SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|contactAssociate/contactCategory|listAny|SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|contactAssociate/role|listAny|SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|contactAssociate/assocName|associate|SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|contactAssociate/assocTooltip|string|SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|contactAssociate/assocType|listAny|SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|contactAssociate/ejUserId|int|SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|contactAssociate/simultaneousEjUser|bool|SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|contactAssociate/ejDisplayName|string|SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|contactAssociate/ejStatus|int|SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|contactAssociate/credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|contactAssociate/credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|contactAssociate/isActive|bool|SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|contactAssociate/isActiveText|bool|SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|contactAssociate/portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|contactAssociate/otherGroups|userGroup|SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|contactAssociate/userName|string|SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|contactAssociate/personEmail|string|SR\_ARCHIVE\_EMAIL| x |
+|contactAssociate/locationAddress|string|SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|contactAssociate/isLocation|bool|SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|contactSupportAssociate/firstName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|contactSupportAssociate/lastName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|contactSupportAssociate/middleName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|contactSupportAssociate/fullName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|contactSupportAssociate/contactId|int|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|contactSupportAssociate/personId|int|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|contactSupportAssociate/mrMrs|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|contactSupportAssociate/title|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|contactSupportAssociate/associateDbId|associate|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|contactSupportAssociate/contactName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|contactSupportAssociate/contactDepartment|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|contactSupportAssociate/usergroup|userGroup|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|contactSupportAssociate/usergroupId|int|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|contactSupportAssociate/contactFullName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|contactSupportAssociate/contactCategory|listAny|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|contactSupportAssociate/role|listAny|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|contactSupportAssociate/assocName|associate|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|contactSupportAssociate/assocTooltip|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|contactSupportAssociate/assocType|listAny|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|contactSupportAssociate/ejUserId|int|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|contactSupportAssociate/simultaneousEjUser|bool|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|contactSupportAssociate/ejDisplayName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|contactSupportAssociate/ejStatus|int|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|contactSupportAssociate/credentialType| *None* |SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|contactSupportAssociate/credentialDisplayValue| *None* |SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|contactSupportAssociate/isActive|bool|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|contactSupportAssociate/isActiveText|bool|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|contactSupportAssociate/portraitThumbnail| *None* |SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|contactSupportAssociate/otherGroups|userGroup|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|contactSupportAssociate/userName|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|contactSupportAssociate/personEmail|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ARCHIVE\_EMAIL| x |
+|contactSupportAssociate/locationAddress|string|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|contactSupportAssociate/isLocation|bool|SR\_ARCHIVE\_OURSUPPORTCONTACT - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|contactSupportPerson/personId|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_RECORDID: SR\_PERSONARCHIVE\_RECORDID\_TOOLTIP| x |
+|contactSupportPerson/firstName|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|contactSupportPerson/lastName|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|contactSupportPerson/middleName|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|contactSupportPerson/fullName|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP| x |
+|contactSupportPerson/contactId|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|contactSupportPerson/hasInfoText|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|contactSupportPerson/hasInterests|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|contactSupportPerson/personHasInterests|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|contactSupportPerson/mrMrs|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|contactSupportPerson/position|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_POSITION| x |
+|contactSupportPerson/personNumber|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_NUMBER: SR\_PERSONARCHIVE\_NUMBER\_TOOLTIP| x |
+|contactSupportPerson/title|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_JOBTITLE\_TOOLTIP| x |
+|contactSupportPerson/personCountry|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_SEARCH\_COUNTRY: SR\_SEARCH\_COUNTRY\_TOOLTIP| x |
+|contactSupportPerson/personCountryId|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|contactSupportPerson/personNoMail|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_NOMAILINGS: SR\_PERSONARCHIVE\_NOMAILINGS\_TOOLTIP| x |
+|contactSupportPerson/rank|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_RANK: SR\_PERSONARCHIVE\_RANK\_TOOLTIP| x |
+|contactSupportPerson/birthdate| *None* |SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_BIRTHDATE: SR\_PERSONARCHIVE\_BIRTHDATE\_TOOLTIP|  |
+|contactSupportPerson/associateType| *None* |SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_ASSOCIATETYPE: SR\_PERSONARCHIVE\_ASSOCIATETYPE\_TOOLTIP|  |
+|contactSupportPerson/useAsMailingAddress|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS: SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS\_TOOLTIP| x |
+|contactSupportPerson/personSource|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_CONTACT)| x |
+|contactSupportPerson/retired|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_PDLG\_RETIRED: SR\_RETIRED\_TOOLTIP| x |
+|contactSupportPerson/birthYear|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_BIRTHYEAR: SR\_ARCHIVE\_BIRTHYEAR\_TOOLTIP| x |
+|contactSupportPerson/birthMonth|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_BIRTHMONTH: SR\_ARCHIVE\_BIRTHMONTH\_TOOLTIP| x |
+|contactSupportPerson/birthDay|int|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_BIRTHDAY: SR\_ARCHIVE\_BIRTHDAY\_TOOLTIP| x |
+|contactSupportPerson/kanaFirstName|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_KANAFIRST: SR\_ARCHIVE\_KANAFIRST\_TOOLTIP| x |
+|contactSupportPerson/kanaLastName|string|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_KANALAST: SR\_ARCHIVE\_KANALAST\_TOOLTIP| x |
+|contactSupportPerson/personUpdatedBy|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|contactSupportPerson/personUpdatedByFullName|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|contactSupportPerson/personUpdatedDate|date|SR\_ARCHIVE\_SUPPORTPERSON - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|contactSupportPerson/personRegisteredBy|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|contactSupportPerson/personRegisteredByFullName|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|contactSupportPerson/personRegisteredDate|date|SR\_ARCHIVE\_SUPPORTPERSON - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|contactSupportPerson/portraitThumbnail| *None* |SR\_ARCHIVE\_SUPPORTPERSON - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|contactSupportPerson/personActiveErpLinks|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|contactSupportPerson/ticketPriority|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_TICKET\_PRIORITY: SR\_ARCHIVE\_TICKET\_PRIORITY\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
-|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
-|contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
-|contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
-|contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
-|contactSupportPerson/personCategory|listAny|User support contact - Category| x |
-|contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
-|contactSupportPerson/personCategoryRank|int|User support contact - !!Category rank| x |
-|contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
-|contactSupportPerson/leadStatus|listAny|User support contact - Lead status| x |
-|contactSupportPerson/leadstatusRank|int|User support contact - !!Lead status RANK| x |
-|contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
-|contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
-|contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
-|contactSupportPerson/isStakeholder|bool|User support contact - Is stakeholder: This person is a sale stakeholder| x |
-|contactSupportPerson/updatedByWorkflow|listAny|User support contact - Updated by flow: Updated by flow| x |
-|contactSupportPerson/whenUpdatedByWorkflow|datetime|User support contact - When updated by flow: When updated by flow| x |
-|contactSupportPerson/createdByForm|listAny|User support contact - Created by form: Created by form| x |
-|contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.| x |
-|contactSupportPerson/personInfo/textId|int|User support contact - Text ID| x |
-|contactSupportPerson/personInfo/infoText|positiveString|User support contact - Information: Displays the text entered in the description field| x |
-|contactSupportPerson/personUdef/SuperOffice:1|string|User support contact - contactshorttext: tooltipshorttext| x |
-|contactSupportPerson/personUdef/SuperOffice:2|string|User support contact - contactlongtext: tooltiplongtext| x |
-|contactSupportPerson/personUdef/SuperOffice:3|int|User support contact - contactnumber| x |
-|contactSupportPerson/personUdef/SuperOffice:4|date|User support contact - contactdate| x |
-|contactSupportPerson/personUdef/SuperOffice:5|unlimitedDate|User support contact - contactunlimiteddate: tooltipunlimiteddate| x |
-|contactSupportPerson/personUdef/SuperOffice:6|bool|User support contact - contactcheckbox| x |
-|contactSupportPerson/personUdef/SuperOffice:7|listAny|User support contact - contactdropdownlistbox| x |
-|contactSupportPerson/personUdef/SuperOffice:8|decimal|User support contact - contactdecimal| x |
-|contactSupportPerson/personUdef/SuperOffice:9|string|User support contact - page1saleonly| x |
-|contactSupportPerson/personUdef/SuperOffice:10|string|User support contact - page1marketingonly| x |
-|contactSupportPerson/personUdef/SuperOffice:11|string|User support contact - page1adminonly| x |
-|contactSupportPerson/personExtra/x\_person\_integer|int|User support contact - Extra Integer: Custom person integer| x |
-|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|User support contact - Extra hidden integer: Custom integer field that is hidden| x |
-|contactSupportPerson/personExtra/x\_person\_float|decimal|User support contact - Extra float: Custom float field| x |
-|contactSupportPerson/personExtra/x\_person\_longtext|string|User support contact - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
-|contactSupportPerson/personExtra/x\_person\_date|date|User support contact - Extra date: Custom date field on person. Default value = 28.03.2019| x |
-|contactSupportPerson/personExtra/x\_person\_datetime|datetime|User support contact - Extra DateTime: Custom person date and time field. No default| x |
-|contactSupportPerson/personExtra/x\_person\_time| *None* |User support contact - Extra time: Custom time field on person. Current time as default| x |
-|contactSupportPerson/personExtra/x\_person\_boolean|bool|User support contact - Extra Boolean: Custom boolean field on person. Default checked| x |
-|contactSupportPerson/personExtra/x\_person\_timespan|timeSpan|User support contact - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
-|contactSupportPerson/personExtra/x\_person\_shorttext|string|User support contact - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
-|contactSupportPerson/personExtra/x\_person\_shorttext\_list|listAny|User support contact - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
-|contactSupportPerson/personExtra/x\_person\_user\_relation|associate|User support contact - Extra user relation: Custom person-user relation field| x |
-|contactSupportPerson/personExtra/x\_person\_category\_relation|listAny|User support contact - Extra category relation: Custom person-category relation| x |
-|contactSupportPerson/personExtra/x\_person\_priority\_relation|listAny|User support contact - Extra priority relation: Custom person-priority relation| x |
-|contactSupportPerson/personExtra/x\_person\_request\_relation|stringorPK|User support contact - Extra request relation: Request relation on contact| x |
-|contactSupportPerson/personExtra/x\_person\_appointment\_relation|stringorPK|User support contact - Extra appointment relation: Appointment relation on person| x |
-|contactSupportPerson/personExtra/x\_person\_contact\_relation|stringorPK|User support contact - Extra company relation: Company relation on contact| x |
-|contactSupportPerson/personExtra/y\_rental/id|int|User support contact - Rental - id: Displays the row's primary key (y\_rental)| x |
-|contactSupportPerson/personExtra/y\_rental/x\_start|date|User support contact - Rental - Start rental: Start rental| x |
-|contactSupportPerson/personExtra/y\_rental/x\_end|date|User support contact - Rental - End: End| x |
-|contactSupportPerson/personExtra/y\_rental/x\_amount|int|User support contact - Rental - Amount: Number to rent. Default = 1| x |
-|contactSupportPerson/personExtra/y\_rental/x\_contact|stringorPK|User support contact - Rental - Renter: Company that rents equipment| x |
-|contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name|string|User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|contactSupportPerson/personExtra/y\_car/id|int|User support contact - Car - id: Displays the row's primary key (y\_car)| x |
-|contactSupportPerson/isMailingRecipient|bool|User support contact - Is mailing recipient: isMailingRecipient| x |
-|contactSupportPerson/hasStoreConsent|bool|User support contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|contactSupportPerson/withdrawnStoreConsent|bool|User support contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|contactSupportPerson/hasEmarketingConsent|bool|User support contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|contactSupportPerson/withdrawnEmarketingConsent|bool|User support contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|contactSupportPerson/subscription|listAny|User support contact - Subscription: Subscription for marketing| x |
-|contactSupportPerson/legalBaseStore|listAny|User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|contactSupportPerson/legalBaseEmarketing|listAny|User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|contactSupportPerson/consentSourceStore|listAny|User support contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|contactSupportPerson/consentSourceEmarketing|listAny|User support contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|contactSupportPerson/supportLanguage|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_FIELD\_PERSON\_SUPPORT\_LANGUAGE\_ID\_NAME: SR\_ARCHIVE\_SUPPORT\_LANGUAGE\_TOOLTIP| x |
+|contactSupportPerson/supportAssociate|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_SUPPORT\_ASSOCIATE: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|contactSupportPerson/supportAssociateFullName|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_SUPPORT\_ASSOCIATE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|contactSupportPerson/personAssociateId|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|contactSupportPerson/personAssociateFullName|associate|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_OUR\_CONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|contactSupportPerson/personCategory|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_CATEGORY| x |
+|contactSupportPerson/personCategoryGroup|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
+|contactSupportPerson/personCategoryRank|int|SR\_ARCHIVE\_SUPPORTPERSON - !!Category rank| x |
+|contactSupportPerson/personBusiness|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_BUSINESS| x |
+|contactSupportPerson/leadStatus|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_LABEL\_LEADSTATUS| x |
+|contactSupportPerson/leadstatusRank|int|SR\_ARCHIVE\_SUPPORTPERSON - !!Lead status RANK| x |
+|contactSupportPerson/personDeletedDate|datetime|SR\_ARCHIVE\_SUPPORTPERSON - SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|contactSupportPerson/hasCompany|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_HAS\_COMPANY: SR\_HAS\_COMPANY\_TOOLTIP| x |
+|contactSupportPerson/isProjectMember|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_IS\_PROJECT\_MEMBER: SR\_IS\_PROJECT\_MEMBER\_TOOLTIP| x |
+|contactSupportPerson/isStakeholder|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_IS\_STAKEHOLDER: SR\_IS\_STAKEHOLDER\_TOOLTIP| x |
+|contactSupportPerson/updatedByWorkflow|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_UPDATED\_BY\_FLOW: SR\_ARCHIVE\_UPDATED\_BY\_FLOW| x |
+|contactSupportPerson/whenUpdatedByWorkflow|datetime|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN: SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN| x |
+|contactSupportPerson/createdByForm|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_ARCHIVE\_CREATED\_BY\_FORM: SR\_ARCHIVE\_CREATED\_BY\_FORM| x |
+|contactSupportPerson/who| *None* |SR\_ARCHIVE\_SUPPORTPERSON - SR\_CONTACTSELECTIONARCHIVE\_PERSONFULLNAME: SR\_CONTACTSELECTIONARCHIVE\_PERSONFULLNAME\_TOOLTIP| x |
+|contactSupportPerson/personInfo/textId|int|SR\_ARCHIVE\_SUPPORTPERSON - Text ID| x |
+|contactSupportPerson/personInfo/infoText|positiveString|SR\_ARCHIVE\_SUPPORTPERSON - SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|contactSupportPerson/personUdef/SuperOffice:1|string|SR\_ARCHIVE\_SUPPORTPERSON - contactshorttext: tooltipshorttext| x |
+|contactSupportPerson/personUdef/SuperOffice:2|string|SR\_ARCHIVE\_SUPPORTPERSON - contactlongtext: tooltiplongtext| x |
+|contactSupportPerson/personUdef/SuperOffice:3|int|SR\_ARCHIVE\_SUPPORTPERSON - contactnumber| x |
+|contactSupportPerson/personUdef/SuperOffice:4|date|SR\_ARCHIVE\_SUPPORTPERSON - contactdate| x |
+|contactSupportPerson/personUdef/SuperOffice:5|unlimitedDate|SR\_ARCHIVE\_SUPPORTPERSON - contactunlimiteddate: tooltipunlimiteddate| x |
+|contactSupportPerson/personUdef/SuperOffice:6|bool|SR\_ARCHIVE\_SUPPORTPERSON - contactcheckbox| x |
+|contactSupportPerson/personUdef/SuperOffice:7|listAny|SR\_ARCHIVE\_SUPPORTPERSON - contactdropdownlistbox| x |
+|contactSupportPerson/personUdef/SuperOffice:8|decimal|SR\_ARCHIVE\_SUPPORTPERSON - contactdecimal| x |
+|contactSupportPerson/personUdef/SuperOffice:9|string|SR\_ARCHIVE\_SUPPORTPERSON - page1saleonly| x |
+|contactSupportPerson/personUdef/SuperOffice:10|string|SR\_ARCHIVE\_SUPPORTPERSON - page1marketingonly| x |
+|contactSupportPerson/personUdef/SuperOffice:11|string|SR\_ARCHIVE\_SUPPORTPERSON - page1adminonly| x |
+|contactSupportPerson/personExtra/x\_person\_integer|int|SR\_ARCHIVE\_SUPPORTPERSON - Extra Integer: Custom person integer| x |
+|contactSupportPerson/personExtra/x\_person\_hidden\_integer|int|SR\_ARCHIVE\_SUPPORTPERSON - Extra hidden integer: Custom integer field that is hidden| x |
+|contactSupportPerson/personExtra/x\_person\_float|decimal|SR\_ARCHIVE\_SUPPORTPERSON - Extra float: Custom float field| x |
+|contactSupportPerson/personExtra/x\_person\_longtext|string|SR\_ARCHIVE\_SUPPORTPERSON - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|contactSupportPerson/personExtra/x\_person\_date|date|SR\_ARCHIVE\_SUPPORTPERSON - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|contactSupportPerson/personExtra/x\_person\_datetime|datetime|SR\_ARCHIVE\_SUPPORTPERSON - Extra DateTime: Custom person date and time field. No default| x |
+|contactSupportPerson/personExtra/x\_person\_time| *None* |SR\_ARCHIVE\_SUPPORTPERSON - Extra time: Custom time field on person. Current time as default| x |
+|contactSupportPerson/personExtra/x\_person\_boolean|bool|SR\_ARCHIVE\_SUPPORTPERSON - Extra Boolean: Custom boolean field on person. Default checked| x |
+|contactSupportPerson/personExtra/x\_person\_timespan|timeSpan|SR\_ARCHIVE\_SUPPORTPERSON - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|contactSupportPerson/personExtra/x\_person\_shorttext|string|SR\_ARCHIVE\_SUPPORTPERSON - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|contactSupportPerson/personExtra/x\_person\_shorttext\_list|listAny|SR\_ARCHIVE\_SUPPORTPERSON - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|contactSupportPerson/personExtra/x\_person\_user\_relation|associate|SR\_ARCHIVE\_SUPPORTPERSON - Extra user relation: Custom person-user relation field| x |
+|contactSupportPerson/personExtra/x\_person\_category\_relation|listAny|SR\_ARCHIVE\_SUPPORTPERSON - Extra category relation: Custom person-category relation| x |
+|contactSupportPerson/personExtra/x\_person\_priority\_relation|listAny|SR\_ARCHIVE\_SUPPORTPERSON - Extra priority relation: Custom person-priority relation| x |
+|contactSupportPerson/personExtra/x\_person\_request\_relation|stringorPK|SR\_ARCHIVE\_SUPPORTPERSON - Extra request relation: Request relation on contact| x |
+|contactSupportPerson/personExtra/x\_person\_appointment\_relation|stringorPK|SR\_ARCHIVE\_SUPPORTPERSON - Extra appointment relation: Appointment relation on person| x |
+|contactSupportPerson/personExtra/x\_person\_contact\_relation|stringorPK|SR\_ARCHIVE\_SUPPORTPERSON - Extra company relation: Company relation on contact| x |
+|contactSupportPerson/personExtra/y\_rental/id|int|SR\_ARCHIVE\_SUPPORTPERSON - Rental - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_rental)| x |
+|contactSupportPerson/personExtra/y\_rental/x\_start|date|SR\_ARCHIVE\_SUPPORTPERSON - Rental - Start rental: Start rental| x |
+|contactSupportPerson/personExtra/y\_rental/x\_end|date|SR\_ARCHIVE\_SUPPORTPERSON - Rental - End: End| x |
+|contactSupportPerson/personExtra/y\_rental/x\_amount|int|SR\_ARCHIVE\_SUPPORTPERSON - Rental - Amount: Number to rent. Default = 1| x |
+|contactSupportPerson/personExtra/y\_rental/x\_contact|stringorPK|SR\_ARCHIVE\_SUPPORTPERSON - Rental - Renter: Company that rents equipment| x |
+|contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name|string|SR\_ARCHIVE\_SUPPORTPERSON - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|contactSupportPerson/personExtra/y\_car/id|int|SR\_ARCHIVE\_SUPPORTPERSON - Car - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_car)| x |
+|contactSupportPerson/isMailingRecipient|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_DASHBOARD\_MAILINGS\_RECIPIENT: isMailingRecipient| x |
+|contactSupportPerson/hasStoreConsent|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_TOOLTIP\_CONSENTHAS - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|contactSupportPerson/withdrawnStoreConsent|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_TOOLTIP\_CONSENTWITHDRAWN - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|contactSupportPerson/hasEmarketingConsent|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_TOOLTIP\_CONSENTHAS - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|contactSupportPerson/withdrawnEmarketingConsent|bool|SR\_ARCHIVE\_SUPPORTPERSON - SR\_TOOLTIP\_CONSENTWITHDRAWN - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|contactSupportPerson/subscription|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_SUBSCRIPTION: SR\_SUBSCRIPTION\_TOOLTIP| x |
+|contactSupportPerson/legalBaseStore|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_LEGALBASE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+|contactSupportPerson/legalBaseEmarketing|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_LEGALBASE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|contactSupportPerson/consentSourceStore|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_CONSENTSOURCE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+|contactSupportPerson/consentSourceEmarketing|listAny|SR\_ARCHIVE\_SUPPORTPERSON - SR\_CONSENTSOURCE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|contactInterestIds|listInterest|SR\_SEARCH\_CONTACT\_INTEREST: SR\_SEARCH\_CRITERION\_CONTACT\_INTEREST\_TOOLTIP|  |
 |contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contactUdef/SuperOffice:3|int|companynumber| x |
@@ -324,47 +324,47 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
-|NumberOfActivities|int|Number of activities|  |
-|NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|NumberOfActivities|int|SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|NumberOfActivitiesInPeriod|int|SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|NumberOfNotCompletedActivities|int|SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|LastActivity|date|Date of last activity|  |
-|LastCompletedActivity|date|Date of last completed activity|  |
-|LastDoByActivity|date|Date of last non-completed activity|  |
-|NumberOfSales|int|Number of sales|  |
-|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|LastSale|date|Date of last sale|  |
-|LastCompletedSale|date|Date of last completed sale|  |
-|LastDoBySale|date|Date of last non-completed sale|  |
-|NumberOfTickets|int|Number of requests|  |
-|NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
-|NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
-|NumberOfNotCompletedTicketsInPeriod|int|Number of non-completed requests in last 90 days|  |
-|LastTicket|date|Date of last request|  |
-|LastCompletedTicket|date|Date of last completed request|  |
-|LastDoByTicket|date|Date of last non-completed request|  |
+|NumberOfNotCompletedActivitiesInPeriod|int|SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|LastActivity|date|SR\_ROU\_LAST\_ACTIVITY|  |
+|LastCompletedActivity|date|SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|LastDoByActivity|date|SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|NumberOfSales|int|SR\_ROU\_NUMBER\_OF\_SALES|  |
+|NumberOfSalesInPeriod|int|SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|NumberOfNotCompletedSales|int|SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|NumberOfNotCompletedSalesInPeriod|int|SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|LastSale|date|SR\_ROU\_LAST\_SALE|  |
+|LastCompletedSale|date|SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|LastDoBySale|date|SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
+|NumberOfTickets|int|SR\_ROU\_NUMBER\_OF\_TICKETS|  |
+|NumberOfTicketsInPeriod|int|SR\_ROU\_NUMBER\_OF\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|NumberOfNotCompletedTickets|int|SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS|  |
+|NumberOfNotCompletedTicketsInPeriod|int|SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|LastTicket|date|SR\_ROU\_LAST\_TICKET|  |
+|LastCompletedTicket|date|SR\_ROU\_LAST\_COMPLETED\_TICKET|  |
+|LastDoByTicket|date|SR\_ROU\_LAST\_INCOMPLETE\_TICKET|  |
 |SaintStatus1|saintStatus|Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |SaintStatus2|saintStatus|C-company: Kundens navn starter med bokstaven C|  |
-|saintSaleStatus|listAny|With status|  |
-|saintAmountClass|listAny|Amount class|  |
-|saintActivityType|listAny|SAINT type|  |
-|saintDirection|listAny|Direction|  |
-|saintIntention|listAny|Intention|  |
-|saintTicketStatus|listAny|Status|  |
-|saintTicketCategory|listAny|Category|  |
-|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
-|selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
+|saintSaleStatus|listAny|SR\_WITH\_STATUS|  |
+|saintAmountClass|listAny|SR\_AMOUNT\_CLASS|  |
+|saintActivityType|listAny|SR\_ARCHIVE\_SAINT\_TYPE|  |
+|saintDirection|listAny|SR\_ARCHIVE\_DIRECTION|  |
+|saintIntention|listAny|SR\_ACTIVITY\_INTENTION|  |
+|saintTicketStatus|listAny|SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|saintTicketCategory|listAny|SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
+|selectionMemberId|int|SR\_SELECTIONMEMBER\_ID: SR\_SELECTIONMEMBER\_ID\_TOOLTIP|  |
+|selectionIdRequest|int|SR\_RESTRICTION\_SELECTIONID: SR\_RESTRICTION\_SELECTIONID\_TOOLTIP|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=contactSupportAssociate/ejDisplayName,NumberOfNotCompletedTickets,contactAssociate/usergroupId
+GET /api/v1/archive/SimpleContact?$select=getAllRows,mainContact,email/emailLastBounce,contactSupportAssociate/middleName,LastDoByTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# script\_trace\_run Table (478)
+# script\_trace\_run Table (477)
 
 Traces of executed scripts
 

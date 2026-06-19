@@ -25,16 +25,16 @@ Lists all triggers in screenchooser table with screenType &gt;= 100.
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|name|string|Name: Name of script. Can be used in file name.| x |
-|uniqueIdentifier|string|UniqueIdentifier: An identifier that is globally unique, across all scripts and customers| x |
-|path|string|Path: Full path that identifies the type of script| x |
-|screenChooserId|int|ScreenChooser ID: Primary key for table ScreenChooser| x |
-|screenType|string|ScreenType: Determines type of ScreenChooser| x |
-|enabled|bool|Enabled: Enables or disables this ScreenChooser| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|name|string|SR\_SCRIPT\_NAME: SR\_SCRIPT\_NAME\_TOOLTIP| x |
+|uniqueIdentifier|string|SR\_SCRIPT\_UU: SR\_SCRIPT\_UU\_TOOLTIP| x |
+|path|string|SR\_SCRIPT\_PATH: SR\_SCRIPT\_PATH\_TOOLTIP| x |
+|screenChooserId|int|SR\_SCREENCHOOSER\_ID: SR\_SCREENCHOOSER\_ID\_TOOLTIP| x |
+|screenType|string|SR\_SCREENCHOOSER\_SCREENTYPE: SR\_SCREENCHOOSER\_SCREENTYPE\_TOOLTIP| x |
+|enabled|bool|SR\_SCREENCHOOSER\_ENABLED: SR\_SCREENCHOOSER\_ENABLED\_TOOLTIP| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 
 ## Sample
 

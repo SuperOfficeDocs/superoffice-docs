@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|No Login|||
-|2|No Freetext|||
-|3|No Travel|||
-|4|Message of the Day|||
+|1|[SR_SE_MENU_NOLOGIN]|||
+|2|[SR_SE_MENU_NOFREETEXT]|||
+|3|[SR_SE_MENU_NOTRAVEL]|||
+|4|[SR_SE_MESSAGEOFDAY]|||
 
 
 ## Related MDO Lists

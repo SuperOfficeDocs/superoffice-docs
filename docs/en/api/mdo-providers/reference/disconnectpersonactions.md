@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Do not move activities|||
-|2|Move all activities|||
-|3|Move all activities starting after|||
+|1|[SR_BULKUPDATE_ACTION_LEAVEALLACTIVITIES]|||
+|2|[SR_BULKUPDATE_ACTION_MOVEALLACTIVITIES]|||
+|3|[SR_BULKUPDATE_ACTION_MOVEALLACTIVITIESSTARTINGAFTER]|||
 
 
 ## Related MDO Lists

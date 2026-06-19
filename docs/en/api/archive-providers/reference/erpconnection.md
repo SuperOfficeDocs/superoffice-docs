@@ -17,33 +17,33 @@ Archive of ERP Connections, used by the ERP Integration Server
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"erpConnection"|ERP connections|
-|"deleted"|Deleted|
+|"erpConnection"|[[SR_ERPCONN_CONNECTIONS]]|
+|"deleted"|[[SR_ARCHIVE_DELETED]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|id|int|Connection ID: Database key for an ERP connection|  |
-|name|string|Name: Name of the ERP connection in the CRM system|  |
-|description|string|Description: The description of the ERP connection in the CRM system|  |
-|active|bool|Active: Is the ERP connection currently active?|  |
-|erpId|string|ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
-|mostRecent|string|Timestamp: The timestamp of the most recent synchronization on this ERP connection|  |
-|allAccess|bool|Unrestricted: There are no access restrictions on this ERP connection|  |
-|deleted|bool|Deleted: Column showing if the ERP connection has been marked as deleted|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|connector/id|stringorPK|Connection ID: Database key for an ERP connection| x |
-|connector/url|string|URL of Sync Connector: The URL to the location where the Sync Connector is installed| x |
-|connector/name|string|Name: Name of the ERP connection in the CRM system| x |
-|connector/updatedBy|associate|Updated by: The user who last updated the data| x |
-|connector/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|connector/registeredBy|associate|Registered by: The user who registered the data| x |
-|connector/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|id|int|SR\_ERPCONN\_ID: SR\_ERPCONN\_ID\_TOOLTIP|  |
+|name|string|SR\_ERPCONN\_NAME: SR\_ERPCONN\_NAME\_TOOLTIP|  |
+|description|string|SR\_ERPCONN\_DESCRIPTION: SR\_ERPCONN\_DESCRIPTION\_TOOLTIP|  |
+|active|bool|SR\_ERPCONN\_ACTIVE: SR\_ERPCONN\_ACTIVE\_TOOLTIP|  |
+|erpId|string|SR\_ERPCONN\_ERPID: SR\_ERPCONN\_ERPID\_TOOLTIP|  |
+|mostRecent|string|SR\_ERPCONN\_MOSTRECENT: SR\_ERPCONN\_MOSTRECENT\_TOOLTIP|  |
+|allAccess|bool|SR\_ERPCONN\_ALLACCESS: SR\_ERPCONN\_ALLACCESS\_TOOLTIP|  |
+|deleted|bool|SR\_ERPCONN\_CONNECTIONDELETED: SR\_ERPCONN\_CONNECTIONDELETED\_TOOLTIP|  |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|connector/id|stringorPK|SR\_ERPCONN\_ID: SR\_ERPCONN\_ID\_TOOLTIP| x |
+|connector/url|string|SR\_ERPCONN\_URL: SR\_ERPCONN\_URL\_TOOLTIP| x |
+|connector/name|string|SR\_ERPCONN\_NAME: SR\_ERPCONN\_NAME\_TOOLTIP| x |
+|connector/updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|connector/updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|connector/registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|connector/registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 
 ## Sample
 

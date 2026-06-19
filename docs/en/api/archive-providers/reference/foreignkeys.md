@@ -38,10 +38,10 @@ Lists all foreign apps, and outer joins any devices + keys associated with the a
 |keyValue|string|Key value: ForeignKeyValue| x |
 |tableId|int|Table id: ForeignKeyTable id| x |
 |recordId|int|Record id: ForeignKeyRecordId| x |
-|keyUpdatedBy|associate|Updated by: The user who last updated the data|  |
-|keyUpdatedDate|date|Updated: The date/time the data was last updated in UTC.|  |
-|keyRegisteredBy|associate|Registered by: The user who registered the data|  |
-|keyRegisteredDate|date|Registered date: The date/time the data was registered in UTC.|  |
+|keyUpdatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP|  |
+|keyUpdatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP|  |
+|keyRegisteredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP|  |
+|keyRegisteredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP|  |
 
 ## Sample
 

@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Contact data|||
-|2|Form submission yes/no|||
-|6|Form data|||
-|3|Link clicked|||
-|4|Project membership|||
-|5|Selection membership|||
+|1|[SR_FLOW_SPLIT_PERSONDATA]|||
+|2|[SR_FLOW_SPLIT_FORMSUBMISSION]|||
+|6|[SR_FLOW_SPLIT_FORMDATA]|||
+|3|[SR_FLOW_SPLIT_LINKCLICKED]|||
+|4|[SR_FLOW_SPLIT_PROJECTMEMBERSHIP]|||
+|5|[SR_FLOW_SPLIT_SELECTIONMEMBERSHIP]|||
 
 
 ## Related MDO Lists

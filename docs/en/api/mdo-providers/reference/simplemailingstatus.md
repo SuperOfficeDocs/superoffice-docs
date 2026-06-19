@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Under construction|||
-|1|Finished|||
-|2|Cancelled|||
-|3|Scheduled|||
-|8|Deleted|||
-|13|Too many recipients|||
+|0|[SR_SHIPMENT_STATUS_NONE]|||
+|1|[SR_SHIPMENT_STATUS_OK]|||
+|2|[SR_SHIPMENT_STATUS_CANCELED]|||
+|3|[SR_SHIPMENT_STATUS_WAITING]|||
+|8|[SR_SHIPMENT_STATUS_DELETED]|||
+|13|[SR_SHIPMENT_STATUS_TOOMANYRECIPIENTS]|||
 
 
 ## Related MDO Lists

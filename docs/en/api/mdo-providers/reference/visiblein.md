@@ -42,25 +42,25 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|19|Side panel|||
-|23|Toolbar|||
-|2|Navigator button|||
-|5|Panel - Company card|||
-|10|Panel - Contact card|||
-|7|Panel - Project card|||
-|9|Panel - Sale card|||
-|46|Panel - Selection card|||
-|13|Panel - Web panel on SuperOffice button|||
-|6|Panel - Company screen section tab|||
-|67|Panel - Contact screen section tab|||
-|8|Panel - Project screen section tab|||
-|29|Panel - Sale screen section tab|||
-|11|Dialog - Dialog for follow-ups|||
-|12|Dialog - Document dialog|||
-|48|Dialog - Quote dialog|||
-|52|Dialog - Product dialog|||
-|1|Menu - Toolbox menu|||
-|3|Menu - View menu|||
+|19|[SR_ADMIN_LIST_MINICARD]|||
+|23|[SR_ADMIN_LIST_WWW_TOOLBAR]|||
+|2|[SR_ADMIN_LIST_SHOW_NAVBUTTON]|||
+|5|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_CONTACTCARD]|||
+|10|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_PERSONCARD]|||
+|7|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_PROJECTCARD]|||
+|9|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_SALEDIALOG]|||
+|46|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_SELECTIONCARD]|||
+|13|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_BROWSERPANEL]|||
+|6|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_CONTACTARCHIVE]|||
+|67|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_PERSONARCHIVE]|||
+|8|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_PROJECTARCHIVE]|||
+|29|[SR_PANEL] - [SR_ADMIN_LIST_SHOW_SALEARCHIVE]|||
+|11|[SR_DIALOG] - [SR_ADMIN_LIST_SHOW_ACTIVITYDIALOG]|||
+|12|[SR_DIALOG] - [SR_ADMIN_LIST_SHOW_DOCUMENTDIALOG]|||
+|48|[SR_DIALOG] - [SR_TASKS_TARGET_QUOTEDIALOG]|||
+|52|[SR_DIALOG] - [SR_TASKS_TARGET_QUOTELINEDIALOG]|||
+|1|[SR_MENU] - [SR_ADMIN_LIST_SHOW_TOOLBOX]|||
+|3|[SR_MENU] - [SR_ADMIN_LIST_SHOW_MENU]|||
 
 
 ## Related MDO Lists

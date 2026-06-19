@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|E-mail|||
-|2|Document|||
+|1|[SR_TT_EMAIL]|||
+|2|[SR_CRITERIONTYPE_DOCUMENT]|||
 
 
 ## Related MDO Lists

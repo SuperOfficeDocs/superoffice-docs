@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type\_priority Table (549)
+# ticket\_type\_priority Table (548)
 
 Link table defining what Priorities are relevant to a particular Ticket type
 

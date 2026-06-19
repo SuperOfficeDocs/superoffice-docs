@@ -64,7 +64,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |17|Sal0||17|
 |-2|Salg||2|
-|-2147483648|All||-2147483648|
+|-2147483648|[SR_VFC_ALL]||-2147483648|
 
 
 ## Related MDO Lists

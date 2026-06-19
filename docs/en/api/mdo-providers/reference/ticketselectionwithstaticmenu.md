@@ -44,10 +44,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Last requests||soprotocol:last&provider:LastTickets|
-|2|Own open requests||soprotocol:open&provider:UserOpenTickets|
-|3|Unassigned requests||soprotocol:unassigned&provider:UnassignedTickets|
-|4|My favourites||soprotocol:favourites&provider:FavouriteTickets|
+|1|[SR_TICKET_LAST_TICKETS]||soprotocol:last&provider:LastTickets|
+|2|[SR_TICKET_OWN_ACTIVE_TICKETS]||soprotocol:open&provider:UserOpenTickets|
+|3|[SR_TICKET_UNASSIGNED_TICKETS]||soprotocol:unassigned&provider:UnassignedTickets|
+|4|[SR_TICKET_OWN_FAVOURITES]||soprotocol:favourites&provider:FavouriteTickets|
 |6||separatorLine||
 
 

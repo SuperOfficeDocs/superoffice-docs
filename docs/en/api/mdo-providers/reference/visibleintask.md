@@ -42,27 +42,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|14|Company selection|||
-|59|Company selection (mailings)|||
-|40|Company selection (external)|||
-|16|Sale selection (Sales)|||
-|31|Sale selection (Companies)|||
-|61|Sale selection (mailings)|||
-|42|Sale selection (external)|||
-|18|Project selection (Projects)|||
-|33|Project selection (Companies)|||
-|63|Project selection (mailings)|||
-|44|Project selection (external)|||
-|15|Follow-up selection (Follow-ups)|||
-|30|Follow-up selection  (Companies)|||
-|60|Follow-up selection (mailings)|||
-|41|Follow-up selection (external)|||
-|17|Document selection (Documents)|||
-|32|Document selection (Companies)|||
-|62|Document selection (mailings)|||
-|43|Document selection (external)|||
-|53|Product selection (products)|||
-|54|Product selection (companies)|||
+|14|[SR_TASKS_TARGET_SELECTION_CONTACT]|||
+|59|[SR_TASKS_TARGET_SELECTION_CONTACT_MAILINGS]|||
+|40|[SR_TASKS_TARGET_SELECTION_CONTACT_EXTERNAL]|||
+|16|[SR_TASKS_TARGET_SELECTION_SALE_MAIN]|||
+|31|[SR_TASKS_TARGET_SELECTION_SALE_SHADOW]|||
+|61|[SR_TASKS_TARGET_SELECTION_SALE_MAILINGS]|||
+|42|[SR_TASKS_TARGET_SELECTION_SALE_EXTERNAL]|||
+|18|[SR_TASKS_TARGET_SELECTION_PROJECT_MAIN]|||
+|33|[SR_TASKS_TARGET_SELECTION_PROJECT_SHADOW]|||
+|63|[SR_TASKS_TARGET_SELECTION_PROJECT_MAILINGS]|||
+|44|[SR_TASKS_TARGET_SELECTION_PROJECT_EXTERNAL]|||
+|15|[SR_TASKS_TARGET_SELECTION_APPOINTMENT_MAIN]|||
+|30|[SR_TASKS_TARGET_SELECTION_APPOINTMENT_SHADOW]|||
+|60|[SR_TASKS_TARGET_SELECTION_APPOINTMENT_MAILINGS]|||
+|41|[SR_TASKS_TARGET_SELECTION_APPOINTMENT_EXTERNAL]|||
+|17|[SR_TASKS_TARGET_SELECTION_DOCUMENT_MAIN]|||
+|32|[SR_TASKS_TARGET_SELECTION_DOCUMENT_SHADOW]|||
+|62|[SR_TASKS_TARGET_SELECTION_DOCUMENT_MAILINGS]|||
+|43|[SR_TASKS_TARGET_SELECTION_DOCUMENT_EXTERNAL]|||
+|53|[SR_TASKS_TARGET_SELECTION_QUOTELINE_MAIN]|||
+|54|[SR_TASKS_TARGET_SELECTION_QUOTELINE_SHADOW]|||
 
 
 ## Related MDO Lists

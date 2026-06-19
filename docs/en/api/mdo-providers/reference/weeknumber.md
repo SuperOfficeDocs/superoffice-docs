@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|The First||First|
-|2|The Second||Second|
-|3|The Third||Third|
-|4|The Fourth||Fourth|
-|5|The Last||Last|
+|1|[SR_RECDLG_THE_FIRST]||First|
+|2|[SR_RECDLG_THE_SECOND]||Second|
+|3|[SR_RECDLG_THE_THIRD]||Third|
+|4|[SR_RECDLG_THE_FOURTH]||Fourth|
+|5|[SR_RECDLG_THE_LAST]||Last|
 
 
 ## Related MDO Lists

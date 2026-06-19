@@ -44,11 +44,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|+3 Months||90|
-|2|+4 Months||120|
-|3|+6 Months||180|
-|4|+1 Year||365|
-|5|+2 Years||730|
+|1|[SR_DATE_RANGE_3MONTHS]||90|
+|2|[SR_DATE_RANGE_4MONTHS]||120|
+|3|[SR_DATE_RANGE_6MONTHS]||180|
+|4|[SR_DATE_RANGE_1YEAR]||365|
+|5|[SR_DATE_RANGE_2YEAR]||730|
 
 
 ## Related MDO Lists

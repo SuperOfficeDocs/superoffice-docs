@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|Unpublished||previous=-1&next=-2|
-|-2|Published||previous=-1&next=-2|
-|-3|Expired||previous=-2&next=-3|
+|-1|[SR_KB_WORKFLOW_UNPUBLISHED]||previous=-1&next=-2|
+|-2|[SR_KB_WORKFLOW_PUBLISHED]||previous=-1&next=-2|
+|-3|[SR_KB_WORKFLOW_EXPIRED]||previous=-2&next=-3|
 
 
 ## Related MDO Lists

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# Webhook\_usage Table (520)
+# Webhook\_usage Table (519)
 
 Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.
 

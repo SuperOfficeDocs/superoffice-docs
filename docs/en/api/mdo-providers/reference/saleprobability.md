@@ -44,13 +44,13 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|Lost||0|
+|-1|[SR_SDLG_LOST]||0|
 |5|Andre møte (50%)||50|
 |4|Første møte (20%)||20|
 |3|Muntlig aksept (90%)||90|
 |1|Sendt tilbud (30%)||30|
 |2|Sluttforhandlinger (80%)||80|
-|-2|Sold||100|
+|-2|[SR_SDLG_SOLD]||100|
 
 
 ## Related MDO Lists

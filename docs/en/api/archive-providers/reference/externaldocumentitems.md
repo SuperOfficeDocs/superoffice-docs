@@ -18,28 +18,28 @@ can be added to messages. They are a special kind of attachment, and conencted t
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"item"|Items|
+|"item"|[[SR_ARCHIVE_EXTDOC_ITEMS]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|title|string|Title: Title of an External Document| x |
-|description|string|Description: Description of an External Document| x |
-|createdBy|listAny|Created by| x |
-|created|date|Created: Displays when the request was created| x |
-|createdFullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|title|string|SR\_ARCHIVE\_EXTDOC\_TITLE: SR\_ARCHIVE\_EXTDOC\_TITLE\_TOOLTIP| x |
+|description|string|SR\_ARCHIVE\_EXTDOC\_DESCRIPTION: SR\_ARCHIVE\_EXTDOC\_DESCRIPTION\_TOOLTIP| x |
+|createdBy|listAny|SR\_TICKETARCHIVE\_CREATEDBY| x |
+|created|date|SR\_TICKETARCHIVE\_CREATEDAT: SR\_TICKETARCHIVE\_CREATEDAT\_TOOLTIP| x |
+|createdFullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
 |ownerHierarchyId|int|HierarchyId| x |
 |isInHistory|bool|IsInHistory: Restriction only: in order to retrieve items that have relation in history table|  |
-|contentType|string|Content type: SR\_ARCHIVE\_ATTACHMENT\_CONTENTTYPE\_TOOLTIP| x |
-|name|string|Name: SR\_ARCHIVE\_ATTACHMENT\_NAME\_TOOLTIP| x |
-|size|int|Size: SR\_ARCHIVE\_ATTACHMENT\_SIZE\_TOOLTIP| x |
-|hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
+|contentType|string|SR\_ARCHIVE\_ATTACHMENT\_CONTENTTYPE: SR\_ARCHIVE\_ATTACHMENT\_CONTENTTYPE\_TOOLTIP| x |
+|name|string|SR\_ARCHIVE\_ATTACHMENT\_NAME: SR\_ARCHIVE\_ATTACHMENT\_NAME\_TOOLTIP| x |
+|size|int|SR\_ARCHIVE\_ATTACHMENT\_SIZE: SR\_ARCHIVE\_ATTACHMENT\_SIZE\_TOOLTIP| x |
+|hierarchyId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullname|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyName|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyParentId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullpathIds| *None* |SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS: SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS\_TOOLTIP|  |
 
 ## Sample
 

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# landing\_page Table (498)
+# landing\_page Table (497)
 
 Per-associate landing page configuration for a given entity type
 

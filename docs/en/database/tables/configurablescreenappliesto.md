@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ConfigurableScreenAppliesTo Table (465)
+# ConfigurableScreenAppliesTo Table (464)
 
 Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on
 

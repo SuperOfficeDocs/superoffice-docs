@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Create company using contact name|||
-|2|Skip – do not create company or contact|||
+|1|[SR_IMPORT_USE_PERSON_NAME]|||
+|2|[SR_IMPORT_NO_NEW]|||
 
 
 ## Related MDO Lists

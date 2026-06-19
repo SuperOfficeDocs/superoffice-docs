@@ -25,17 +25,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |Id|stringorPK|Id: Id| x |
 |ErpConnectionActorTypeId|int|ErpConnectionActorTypeId: ErpConnectionActorTypeId| x |
 |ErpFieldKey|string|ErpFieldKey: ErpFieldKey| x |
-|DisplayName|string|ERP field: ERP field| x |
-|DisplayDescription|string|Description: Description| x |
+|DisplayName|string|SR\_ADMIN\_EIS\_ERPFIELD: SR\_ADMIN\_EIS\_ERPFIELD| x |
+|DisplayDescription|string|SR\_ADMIN\_ERP\_SYNC\_DESCRIPTION: SR\_ADMIN\_ERP\_SYNC\_DESCRIPTION| x |
 |FieldType|int|FieldType: FieldType| x |
 |ListName|string|ListName: ListName| x |
 |DefaultValue|string|DefaultValue: DefaultValue| x |
 |MaxLength|int|MaxLength: MaxLength| x |
 |Access|int|Access: Access| x |
 |HasFirstSyncDefaultValue|int|HasFirstSyncDefaultValue: HasFirstSyncDefaultValue| x |
-|FirstSyncDefaultValue|string|Default value: Default value| x |
-|PromptUser|bool|Ask user: Ask user| x |
-|Mandatory|bool|Mandatory: Mandatory| x |
+|FirstSyncDefaultValue|string|SR\_ADMIN\_ERP\_SYNC\_DEFAULT\_VALUE: SR\_ADMIN\_ERP\_SYNC\_DEFAULT\_VALUE| x |
+|PromptUser|bool|SR\_ADMIN\_ERP\_SYNC\_ASK\_USER: SR\_ADMIN\_ERP\_SYNC\_ASK\_USER| x |
+|Mandatory|bool|SR\_ADMIN\_ERP\_SYNC\_MANDATORY\_1: SR\_ADMIN\_ERP\_SYNC\_MANDATORY\_1| x |
 |CrmFieldKey|string|CrmFieldKey: CrmFieldKey| x |
 |SyncToCrm|int|SyncToCrm: SyncToCrm| x |
 |SyncToErp|int|SyncToErp: SyncToErp| x |
@@ -44,10 +44,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |Rank|int|Rank: Rank| x |
 |ListReference|string|ListReference: ListReference| x |
 |MissingInERP|int|MissingInERP: MissingInERP| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 |ConnectionId|int|ConnectionId: ConnectionId| x |
 |ActorTypeErp|string|ActorTypeErp: ActorTypeErp| x |
 |PromptOrHasDefault|bool|PromptOrHasDefault: PromptOrHasDefault| x |

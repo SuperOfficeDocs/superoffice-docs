@@ -24,7 +24,7 @@ the email_id.
 | Name | Description |
 | ---- | ----- |
 |"email"|email|
-|"person"|Contacts|
+|"person"|[[SR_PL_PERSONS]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -32,171 +32,171 @@ the email_id.
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |emailMatch|string|emailMatch: Restriction only: (partial) email / person / contact to match|  |
-|emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|emailAddress|string|E-mail| x |
-|emailDescription|string|Description| x |
+|emailProtocol|string|SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP| x |
+|emailAddress|string|SR\_ARCHIVE\_EMAIL| x |
+|emailDescription|string|SR\_ARCHIVE\_DESCRIPTION| x |
 |emailId|int|ID| x |
-|emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
-|emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
-|emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|personId|int|DB ID: Displays the database ID of a contact| x |
-|firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|string|Contact: Displays the contact to which an item is linked| x |
-|fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
-|contactId|int|Company ID: Database ID of company| x |
-|hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
-|personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
-|mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|position|listAny|Position| x |
-|personNumber|string|Number: Displays the contact's number| x |
-|title|string|Title: Displays the contact's job title| x |
-|personCountry|listAny|Country: Country| x |
-|personCountryId|int|Country ID: Country ID| x |
-|personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
-|rank|int|Rank: Displays a contact's current rank| x |
-|birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
-|associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
-|personSource|listAny|Source: Source (Contact)| x |
-|retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
-|birthYear|int|Birth year: Displays contact's birth year| x |
-|birthMonth|int|Birth month: Displays contact's birth month| x |
-|birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
-|kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
-|kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
-|personUpdatedBy|associate|Updated by: The user who last updated the data| x |
-|personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|personRegisteredBy|associate|Registered by: The user who registered the data| x |
-|personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|portraitThumbnail| *None* |Person image: Person image|  |
-|personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|ticketPriority|listAny|Service priority: Default service priority for this contact| x |
-|supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|supportAssociate|associate|Our service contact: Default service contact for this contact| x |
-|supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
-|personAssociateId|associate|Our contact: Displays our contact| x |
-|personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
-|personCategory|listAny|Category| x |
-|personCategoryGroup|listAny|Category group| x |
+|emailLastSent|datetime|SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP| x |
+|emailBounceCount|int|SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP| x |
+|emailLastBounce|datetime|SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP| x |
+|emailHasBounced|bool|SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP| x |
+|personId|int|SR\_PERSONARCHIVE\_RECORDID: SR\_PERSONARCHIVE\_RECORDID\_TOOLTIP| x |
+|firstName|string|SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|lastName|string|SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|middleName|string|SR\_PERSONARCHIVE\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|fullName|string|SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP| x |
+|fullNameWithContact| *None* |SR\_PERSON\_NAMEWITHCONT: SR\_PERSON\_NAMEWITHCONT\_TOOLTIP| x |
+|contactId|int|SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|hasInfoText|bool|SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|hasInterests|bool|SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|personHasInterests|bool|SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|mrMrs|string|SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|position|listAny|SR\_ARCHIVE\_POSITION| x |
+|personNumber|string|SR\_PERSONARCHIVE\_NUMBER: SR\_PERSONARCHIVE\_NUMBER\_TOOLTIP| x |
+|title|string|SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_JOBTITLE\_TOOLTIP| x |
+|personCountry|listAny|SR\_SEARCH\_COUNTRY: SR\_SEARCH\_COUNTRY\_TOOLTIP| x |
+|personCountryId|int|SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|personNoMail|bool|SR\_PERSONARCHIVE\_NOMAILINGS: SR\_PERSONARCHIVE\_NOMAILINGS\_TOOLTIP| x |
+|rank|int|SR\_PERSONARCHIVE\_RANK: SR\_PERSONARCHIVE\_RANK\_TOOLTIP| x |
+|birthdate| *None* |SR\_PERSONARCHIVE\_BIRTHDATE: SR\_PERSONARCHIVE\_BIRTHDATE\_TOOLTIP|  |
+|associateType| *None* |SR\_PERSONARCHIVE\_ASSOCIATETYPE: SR\_PERSONARCHIVE\_ASSOCIATETYPE\_TOOLTIP|  |
+|useAsMailingAddress|bool|SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS: SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS\_TOOLTIP| x |
+|personSource|listAny|SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_CONTACT)| x |
+|retired|bool|SR\_PDLG\_RETIRED: SR\_RETIRED\_TOOLTIP| x |
+|birthYear|int|SR\_ARCHIVE\_BIRTHYEAR: SR\_ARCHIVE\_BIRTHYEAR\_TOOLTIP| x |
+|birthMonth|int|SR\_ARCHIVE\_BIRTHMONTH: SR\_ARCHIVE\_BIRTHMONTH\_TOOLTIP| x |
+|birthDay|int|SR\_ARCHIVE\_BIRTHDAY: SR\_ARCHIVE\_BIRTHDAY\_TOOLTIP| x |
+|kanaFirstName|string|SR\_ARCHIVE\_KANAFIRST: SR\_ARCHIVE\_KANAFIRST\_TOOLTIP| x |
+|kanaLastName|string|SR\_ARCHIVE\_KANALAST: SR\_ARCHIVE\_KANALAST\_TOOLTIP| x |
+|personUpdatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|personUpdatedByFullName|associate|SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|personUpdatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|personRegisteredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|personRegisteredByFullName|associate|SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|personRegisteredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|personActiveErpLinks|bool|SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|ticketPriority|listAny|SR\_ARCHIVE\_TICKET\_PRIORITY: SR\_ARCHIVE\_TICKET\_PRIORITY\_TOOLTIP| x |
+|supportLanguage|listAny|SR\_FIELD\_PERSON\_SUPPORT\_LANGUAGE\_ID\_NAME: SR\_ARCHIVE\_SUPPORT\_LANGUAGE\_TOOLTIP| x |
+|supportAssociate|associate|SR\_ARCHIVE\_SUPPORT\_ASSOCIATE: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|supportAssociateFullName|associate|SR\_ARCHIVE\_SUPPORT\_ASSOCIATE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|personAssociateId|associate|SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|personAssociateFullName|associate|SR\_ARCHIVE\_OUR\_CONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|personCategory|listAny|SR\_ARCHIVE\_CATEGORY| x |
+|personCategoryGroup|listAny|SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
 |personCategoryRank|int|!!Category rank| x |
-|personBusiness|listAny|Business| x |
-|leadStatus|listAny|Lead status| x |
+|personBusiness|listAny|SR\_ARCHIVE\_BUSINESS| x |
+|leadStatus|listAny|SR\_LABEL\_LEADSTATUS| x |
 |leadstatusRank|int|!!Lead status RANK| x |
-|personDeletedDate|datetime|Deleted date: Deleted date|  |
-|hasCompany|bool|Has company: The contact is associated with a company| x |
-|isProjectMember|bool|Is project member: This person is a project member| x |
-|isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
-|updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
-|createdByForm|listAny|Created by form: Created by form| x |
-|phone/formattedNumber|string|Phone : Displays phone number|  |
-|who| *None* |Full name: Displays the contact's full name.| x |
-|personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
-|personDirectPhone/description|string|Direct - Description: Phone number description| x |
-|personMobilePhone/formattedNumber|string|Mobile - Phone: Displays phone number|  |
-|personMobilePhone/description|string|Mobile - Description: Phone number description| x |
-|personPrivate/formattedNumber|string|Private - Phone: Displays phone number|  |
-|personPrivate/description|string|Private - Description: Phone number description| x |
-|personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
-|personPager/description|string|Other - Description: Phone number description| x |
-|personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|personDirectFax/description|string|Fax - Description: Phone number description| x |
-|personAddress/addressId|int|Contact address - Address ID: Database ID for the address record| x |
-|personAddress/line1|string|Contact address - Address 1: First line of the address| x |
-|personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
-|personAddress/line3|string|Contact address - Address 3: Third line of the address| x |
-|personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
-|personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
-|personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
-|personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|personContact/contactId|int|Company ID: Database ID of company| x |
-|personContact/name|stringorPK|Company name| x |
-|personContact/department|string|Department| x |
-|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
-|personContact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
-|personContact/associateId|associate|Our contact: Displays our contact| x |
-|personContact/category|listAny|Category| x |
-|personContact/categoryGroup|listAny|Category group| x |
+|personDeletedDate|datetime|SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|hasCompany|bool|SR\_HAS\_COMPANY: SR\_HAS\_COMPANY\_TOOLTIP| x |
+|isProjectMember|bool|SR\_IS\_PROJECT\_MEMBER: SR\_IS\_PROJECT\_MEMBER\_TOOLTIP| x |
+|isStakeholder|bool|SR\_IS\_STAKEHOLDER: SR\_IS\_STAKEHOLDER\_TOOLTIP| x |
+|updatedByWorkflow|listAny|SR\_ARCHIVE\_UPDATED\_BY\_FLOW: SR\_ARCHIVE\_UPDATED\_BY\_FLOW| x |
+|whenUpdatedByWorkflow|datetime|SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN: SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN| x |
+|createdByForm|listAny|SR\_ARCHIVE\_CREATED\_BY\_FORM: SR\_ARCHIVE\_CREATED\_BY\_FORM| x |
+|phone/formattedNumber|string|SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|who| *None* |SR\_CONTACTSELECTIONARCHIVE\_PERSONFULLNAME: SR\_CONTACTSELECTIONARCHIVE\_PERSONFULLNAME\_TOOLTIP| x |
+|personDirectPhone/formattedNumber|string|SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personDirectPhone/description|string|SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|personMobilePhone/formattedNumber|string|SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personMobilePhone/description|string|SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|personPrivate/formattedNumber|string|SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personPrivate/description|string|SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|personPager/formattedNumber|string|SR\_PERSONARCHIVE\_OTHERPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personPager/description|string|SR\_PERSONARCHIVE\_OTHERPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|personDirectFax/formattedNumber|string|SR\_PERSONARCHIVE\_DIRECTFAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personDirectFax/description|string|SR\_PERSONARCHIVE\_DIRECTFAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|personAddress/addressId|int|SR\_PREFIX\_PERSONADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|personAddress/line1|string|SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|personAddress/line2|string|SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|personAddress/line3|string|SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|personAddress/county|string|SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|personAddress/city|string|SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|personAddress/zip|string|SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|personAddress/state|string|SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|personAddress/wgs84latitude|decimal|SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|personAddress/wgs84longitude|decimal|SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|personAddress/formattedAddress| *None* |SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|personAddress/formattedMultiLineAddress| *None* |SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|personContact/contactId|int|SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|personContact/name|stringorPK|SR\_COMPANY\_NAME| x |
+|personContact/department|string|SR\_ARCHIVE\_DEPARTEMENT| x |
+|personContact/nameDepartment|string|SR\_ACTIVITYARCHIVE\_CONTACT: SR\_ACTIVITYARCHIVE\_CONTACT\_TOOLTIP| x |
+|personContact/hasInfoText|bool|SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|personContact/hasInterests|bool|SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|personContact/associateId|associate|SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|personContact/category|listAny|SR\_ARCHIVE\_CATEGORY| x |
+|personContact/categoryGroup|listAny|SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |personContact/companyCategoryRank|int|Category rank| x |
-|personContact/business|listAny|Business| x |
-|personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
-|personContact/countryId|int|Country ID: Country ID| x |
-|personContact/number|string|Number| x |
-|personContact/code|string|Code| x |
+|personContact/business|listAny|SR\_ARCHIVE\_BUSINESS| x |
+|personContact/country|listAny|SR\_SEARCH\_COUNTRY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTRY\_TOOLTIP| x |
+|personContact/countryId|int|SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|personContact/number|string|SR\_ARCHIVE\_NUMBER| x |
+|personContact/code|string|SR\_ARCHIVE\_CODE| x |
 |personContact/orgnr|string|VAT No.| x |
-|personContact/stop|bool|Stop| x |
-|personContact/contactNoMail|bool|No mailings (company| x |
-|personContact/updatedBy|associate|Updated by: The user who last updated the data| x |
-|personContact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|personContact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|personContact/registeredBy|associate|Registered by: The user who registered the data| x |
-|personContact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|personContact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|personContact/contactSource|listAny|Source: Source (Company)| x |
-|personContact/contactDeleted|bool|Deleted: Deleted| x |
-|personContact/phone/formattedNumber|string|Phone : Displays phone number|  |
-|personContact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|personContact/deletedDate|datetime|Deleted date: Deleted date|  |
-|personContact/mainContact| *None* |Main contact: Main contact for this company| x |
+|personContact/stop|bool|SR\_CC\_STOPX| x |
+|personContact/contactNoMail|bool|SR\_NO\_MAIL\_COMPANY| x |
+|personContact/updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|personContact/updatedByFullName|associate|SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|personContact/updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|personContact/registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|personContact/registeredByFullName|associate|SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|personContact/registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|personContact/contactSource|listAny|SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_COMPANY)| x |
+|personContact/contactDeleted|bool|SR\_ARCHIVE\_DELETED: SR\_ARCHIVE\_DELETED| x |
+|personContact/phone/formattedNumber|string|SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personContact/activeErpLinks|bool|SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|personContact/deletedDate|datetime|SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|personContact/mainContact| *None* |SR\_COMPANY\_MAIN\_CONTACT: SR\_COMPANY\_MAIN\_CONTACT\_TOOLTIP| x |
 |personContact/forceCompany|bool|Dummy: Dummy|  |
-|personContact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|personContact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|personContact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
-|personContact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
-|personContact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
-|personContact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|personContact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|personContact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|personContact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|personContact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|personContact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
-|personContact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
-|personContact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|personContact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|personContact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
-|personContact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
-|personContact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
-|personContact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
-|personContact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|personContact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
-|personContact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|personContact/streetAddress/state|string|Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|personContact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
-|personContact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
-|personContact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|personContact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
-|personContact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
-|personContact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
-|personContact/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
-|personContact/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
-|personContact/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|personContact/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|personContact/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|personContact/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|personContact/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
-|personContact/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
-|personContact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|personContact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+|personContact/contactPhone/formattedNumber|string|SR\_CONTACTARCHIVE\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|personContact/contactPhone/description|string|SR\_CONTACTARCHIVE\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|personContact/postAddress/addressId|int|SR\_AL\_POSTAL - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|personContact/postAddress/line1|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|personContact/postAddress/line2|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|personContact/postAddress/line3|string|SR\_AL\_POSTAL - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|personContact/postAddress/county|string|SR\_AL\_POSTAL - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|personContact/postAddress/city|string|SR\_AL\_POSTAL - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|personContact/postAddress/zip|string|SR\_AL\_POSTAL - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|personContact/postAddress/state|string|SR\_AL\_POSTAL - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|personContact/postAddress/wgs84latitude|decimal|SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|personContact/postAddress/wgs84longitude|decimal|SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|personContact/postAddress/formattedAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|personContact/postAddress/formattedMultiLineAddress| *None* |SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|personContact/streetAddress/addressId|int|SR\_AL\_STREET - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|personContact/streetAddress/line1|string|SR\_AL\_STREET - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|personContact/streetAddress/line2|string|SR\_AL\_STREET - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|personContact/streetAddress/line3|string|SR\_AL\_STREET - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|personContact/streetAddress/county|string|SR\_AL\_STREET - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|personContact/streetAddress/city|string|SR\_AL\_STREET - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|personContact/streetAddress/zip|string|SR\_AL\_STREET - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|personContact/streetAddress/state|string|SR\_AL\_STREET - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|personContact/streetAddress/wgs84latitude|decimal|SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|personContact/streetAddress/wgs84longitude|decimal|SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|personContact/streetAddress/formattedAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|personContact/streetAddress/formattedMultiLineAddress| *None* |SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|personContact/restrictionAddress/addressId|int|SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|personContact/restrictionAddress/line1|string|SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|personContact/restrictionAddress/line2|string|SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|personContact/restrictionAddress/line3|string|SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|personContact/restrictionAddress/county|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|personContact/restrictionAddress/city|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|personContact/restrictionAddress/zip|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|personContact/restrictionAddress/state|string|SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|personContact/restrictionAddress/wgs84latitude|decimal|SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|personContact/restrictionAddress/wgs84longitude|decimal|SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|personContact/restrictionAddress/formattedAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|personContact/restrictionAddress/formattedMultiLineAddress| *None* |SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=personContact/updatedByFullName,personCategory,personAddress/line1
+GET /api/v1/archive/emailpersonaddress?$select=rank,personCategory,personAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

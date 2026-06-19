@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# dashboard Table (482)
+# dashboard Table (481)
 
 Describes a dashboard
 

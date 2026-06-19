@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# metering\_log Table (502)
+# metering\_log Table (501)
 
 Metering log table
 

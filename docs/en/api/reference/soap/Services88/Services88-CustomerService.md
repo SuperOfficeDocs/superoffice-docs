@@ -1624,11 +1624,45 @@ content_type: reference
               <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Question" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Answer" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AccessLevel" type="tns:KbAccessLevel" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="PreviewFaqEntry" nillable="true" type="tns:PreviewFaqEntry" />
+      <xs:simpleType name="KbAccessLevel">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Private">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Internal">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="PublicAuthenticated">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="Public">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="KbAccessLevel" nillable="true" type="tns:KbAccessLevel" />
       <xs:element name="GetPreviewQuickReply">
         <xs:complexType>
           <xs:sequence>
@@ -2006,6 +2040,7 @@ content_type: reference
           <xs:sequence>
             <xs:element minOccurs="0" name="MailboxId" type="xs:int" />
             <xs:element minOccurs="0" name="Data" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

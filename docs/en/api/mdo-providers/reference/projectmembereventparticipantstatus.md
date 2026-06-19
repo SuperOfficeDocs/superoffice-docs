@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Unknown|||
-|1|Not reacted|||
-|2|Declined|||
-|3|Registered|||
-|4|Attending|||
-|5|No-show|||
+|0|[SR_PROJECT_MEMBER_EVENT_STATUS_NOT_AN_EVENT]|||
+|1|[SR_PROJECT_MEMBER_EVENT_STATUS_NOT_REACTED]|||
+|2|[SR_PROJECT_MEMBER_EVENT_STATUS_REACTED_NO]|||
+|3|[SR_PROJECT_MEMBER_EVENT_STATUS_REACTED_YES]|||
+|4|[SR_PROJECT_MEMBER_EVENT_STATUS_SHOW]|||
+|5|[SR_PROJECT_MEMBER_EVENT_STATUS_NO_SHOW]|||
 
 
 ## Related MDO Lists

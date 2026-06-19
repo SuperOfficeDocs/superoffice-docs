@@ -20,13 +20,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|name| *None* |Name: Name (from code) of the Quote Connector| x |
-|className| *None* |Class name (C#: The name of C# type that implements the Quote Connector| x |
-|assemblyName| *None* |Assembly name: Name of the DLL ('assembly') the Quote Connector has been loaded from| x |
-|location| *None* |Source: The source that the Quote Connector was loaded from| x |
-|filename| *None* |File name | x |
-|version| *None* |Version: Version of module| x |
-|licensed|bool|Licensed: A valid license exists for this module, or it does not need a license| x |
+|name| *None* |SR\_CONNECTOR\_NAME: SR\_CONNECTOR\_NAME\_TOOLTIP| x |
+|className| *None* |SR\_CLASS\_NAME: SR\_CLASS\_NAME\_TOOLTIP| x |
+|assemblyName| *None* |SR\_ASSEMBLY\_NAME: SR\_ASSEMBLY\_NAME\_TOOLTIP| x |
+|location| *None* |SR\_CONNECTOR\_LOCATION: SR\_CONNECTOR\_LOCATION\_TOOLTIP| x |
+|filename| *None* |SR\_SINGULAR\_FILENAME| x |
+|version| *None* |SR\_TRAYAPP\_ABOUT\_VERSION: SR\_TRAYAPP\_ABOUT\_VERSION\_TOOLTIP| x |
+|licensed|bool|SR\_QUOTE\_HASERPLICENSE: SR\_QUOTE\_HASERPLICENSE\_TOOLTIP| x |
 
 ## Sample
 

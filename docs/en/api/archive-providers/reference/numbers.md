@@ -24,60 +24,60 @@ Archive provider for the list of numbers, for the number allocation system. Not 
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|RefCounts\_id|int|ID: Primary key of counter| x |
-|fieldId|int|Field ID: Referenced field ID| x |
-|icon|int|Icon: Icon denoting counter type| x |
-|recordId|int|Record ID: Referenced record ID| x |
-|currentvalue|int|Value: Current value| x |
-|travelprefix|int|Travel prefix: Prefix of Travel instance| x |
-|satprefix|int|Prefix of referenced satellite| x |
-|flags|int|Flags: Flags for boolean properties| x |
-|active|bool|Allocate: Counter is active| x |
-|unique|bool|Unique: Counter is unique| x |
-|readonly|bool|Read-only: Counter is read-only| x |
-|blankallowed|bool|Allow blank: Counter permits blanks| x |
-|name|string|Counter: Counter name| x |
-|updated|date|Last used: Last update time| x |
-|nextnum|int|Next: Next number| x |
+|RefCounts\_id|int|SR\_ASN\_LIST\_ID: SR\_ASN\_LIST\_ID\_TOOLTIP| x |
+|fieldId|int|SR\_ASN\_LIST\_FIELD\_ID: SR\_ASN\_LIST\_FIELD\_ID\_TOOLTIP| x |
+|icon|int|SR\_ASN\_LIST\_ICON: SR\_ASN\_LIST\_ICON\_TOOLTIP| x |
+|recordId|int|SR\_ASN\_LIST\_RECORDID: SR\_ASN\_LIST\_RECORDID\_TOOLTIP| x |
+|currentvalue|int|SR\_ASN\_LIST\_CURRENTVALUE: SR\_ASN\_LIST\_CURRENTVALUE\_TOOLTIP| x |
+|travelprefix|int|SR\_ASN\_LIST\_TRAVELPREFIX: SR\_ASN\_LIST\_TRAVELPREFIX\_TOOLTIP| x |
+|satprefix|int|SR\_ASN\_LIST\_SATPREFIX\_TOOLTIP| x |
+|flags|int|SR\_ASN\_LIST\_FLAGS: SR\_ASN\_LIST\_FLAGS\_TOOLTIP| x |
+|active|bool|SR\_ASN\_LIST\_ALLOC: SR\_ASN\_LIST\_ALLOC\_TOOLTIP| x |
+|unique|bool|SR\_ASN\_LIST\_UNIQUE: SR\_ASN\_LIST\_UNIQUE\_TOOLTIP| x |
+|readonly|bool|SR\_ASN\_LIST\_READONLY: SR\_ASN\_LIST\_READONLY\_TOOLTIP| x |
+|blankallowed|bool|SR\_ASN\_LIST\_BLANKS: SR\_ASN\_LIST\_BLANKS\_TOOLTIP| x |
+|name|string|SR\_ASN\_LIST\_COUNTER: SR\_ASN\_LIST\_COUNTER\_TOOLTIP| x |
+|updated|date|SR\_ASN\_LIST\_LASTUSED: SR\_ASN\_LIST\_LASTUSED\_TOOLTIP| x |
+|nextnum|int|SR\_ASN\_LIST\_NEXT: SR\_ASN\_LIST\_NEXT\_TOOLTIP| x |
 |field|string|Field: Field Tooltip|  |
-|updated\_associate/firstName|string|By - First name: Displays the contact's first name| x |
-|updated\_associate/lastName|string|By - Last name: Displays the contact's last name| x |
-|updated\_associate/middleName|string|By - Middle Name: Displays the contact's middle name.| x |
-|updated\_associate/fullName|string|By - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|updated\_associate/contactId|int|By - Company ID: Database ID of the company the user belongs to|  |
-|updated\_associate/personId|int|By - Contact ID: Database ID of the contact row|  |
-|updated\_associate/mrMrs|string|By - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|updated\_associate/title|string|By - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|updated\_associate/associateDbId|associate|By - ID| x |
-|updated\_associate/contactName|string|By - Owning company: Name of the company the user belongs to| x |
-|updated\_associate/contactDepartment|string|By - Owning department: Name of the department at the company the user belongs to| x |
-|updated\_associate/usergroup|userGroup|By - Primary group: The user's primary user group| x |
-|updated\_associate/usergroupId|int|By - Group ID: The user's primary user group| x |
-|updated\_associate/contactFullName|string|By - Owner: Name and department of the company the user belongs to| x |
-|updated\_associate/contactCategory|listAny|By - Category: Category| x |
-|updated\_associate/role|listAny|By - Role: Role| x |
-|updated\_associate/assocName|associate|By - User ID: User ID| x |
-|updated\_associate/assocTooltip|string|By - Description: Description|  |
-|updated\_associate/assocType|listAny|By - Type: Type of user: associate, external user, system user, anonymous account| x |
-|updated\_associate/ejUserId|int|By - Service user ID: The database ID of a Service user|  |
-|updated\_associate/simultaneousEjUser|bool|By - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|updated\_associate/ejDisplayName|string|By - Nickname: User's nickname in Service| x |
-|updated\_associate/ejStatus|int|By - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|updated\_associate/credentialType| *None* |By - Auth. type: What type of credentials to use when this user logs in| x |
-|updated\_associate/credentialDisplayValue| *None* |By - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|updated\_associate/isActive|bool|By - Active: Is this user active, and should be able to log in?| x |
-|updated\_associate/isActiveText|bool|By - Active status: Is this user active, and should be able to log in?| x |
-|updated\_associate/portraitThumbnail| *None* |By - Person image: Person image|  |
-|updated\_associate/otherGroups|userGroup|By - Other groups: Other groups|  |
-|updated\_associate/userName|string|By - User name: User name| x |
-|updated\_associate/personEmail|string|By - E-mail| x |
-|updated\_associate/locationAddress|string|By - Location: Location| x |
-|updated\_associate/isLocation|bool|By - Is a location: Is a location| x |
+|updated\_associate/firstName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|updated\_associate/lastName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|updated\_associate/middleName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|updated\_associate/fullName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|updated\_associate/contactId|int|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|updated\_associate/personId|int|SR\_ASN\_LIST\_LASTUSEDBY - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|updated\_associate/mrMrs|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|updated\_associate/title|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|updated\_associate/associateDbId|associate|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|updated\_associate/contactName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|updated\_associate/contactDepartment|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|updated\_associate/usergroup|userGroup|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|updated\_associate/usergroupId|int|SR\_ASN\_LIST\_LASTUSEDBY - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|updated\_associate/contactFullName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|updated\_associate/contactCategory|listAny|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|updated\_associate/role|listAny|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|updated\_associate/assocName|associate|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|updated\_associate/assocTooltip|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|updated\_associate/assocType|listAny|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|updated\_associate/ejUserId|int|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|updated\_associate/simultaneousEjUser|bool|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|updated\_associate/ejDisplayName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|updated\_associate/ejStatus|int|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|updated\_associate/credentialType| *None* |SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|updated\_associate/credentialDisplayValue| *None* |SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|updated\_associate/isActive|bool|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|updated\_associate/isActiveText|bool|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|updated\_associate/portraitThumbnail| *None* |SR\_ASN\_LIST\_LASTUSEDBY - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|updated\_associate/otherGroups|userGroup|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|updated\_associate/userName|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|updated\_associate/personEmail|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ARCHIVE\_EMAIL| x |
+|updated\_associate/locationAddress|string|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|updated\_associate/isLocation|bool|SR\_ASN\_LIST\_LASTUSEDBY - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=field,updated_associate/title
+GET /api/v1/archive/Numbers?$select=satprefix,updated_associate/ejDisplayName,field
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

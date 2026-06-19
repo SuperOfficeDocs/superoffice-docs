@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Open||Active|
-|2|Closed||Closed|
-|3|Postponed||Postponed|
-|4|Deleted||Deleted|
-|5|Merged||Merged|
+|1|[SR_TICKETARCHIVE_STATUS_OPEN]||Active|
+|2|[SR_TICKETARCHIVE_STATUS_CLOSED]||Closed|
+|3|[SR_TICKETARCHIVE_STATUS_INACTIVE]||Postponed|
+|4|[SR_TICKETARCHIVE_STATUS_DELETED]||Deleted|
+|5|[SR_TICKETARCHIVE_STATUS_CONNECTED]||Merged|
 
 
 ## Related MDO Lists

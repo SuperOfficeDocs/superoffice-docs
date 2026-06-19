@@ -26,17 +26,17 @@ Lists all Roles in table.
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |roleId|int|RoleId| x |
-|name|string|Role name | x |
+|name|string|SR\_ADMIN\_ROLE\_ROLENAME| x |
 |description|string|Description| x |
 |roleTypeId|int|Role Type Id| x |
 |roleTypeName| *None* |Role Type|  |
 |useCategories|bool|Use Categories| x |
 |rank|int|Rank| x |
 |isDeleted|bool|Is Deleted| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|updatedBy|associate|SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|updatedDate|date|SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|registeredBy|associate|SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|registeredDate|date|SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
 
 ## Sample
 

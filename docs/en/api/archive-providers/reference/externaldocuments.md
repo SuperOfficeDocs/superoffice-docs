@@ -15,30 +15,30 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"item"|Items|
-|"folder"|Folder|
+|"item"|[[SR_ARCHIVE_EXTDOC_ITEMS]]|
+|"folder"|[[SR_ARCHIVE_EXTDOC_FOLDERS]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|nodeType|string|Type| x |
+|nodeType|string|SR\_ARCHIVE\_EXTDOC\_NODETYPE| x |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|title|string|Title: Title of an External Document| x |
-|description|string|Description: Description of an External Document| x |
-|createdBy| *None* |Created by|  |
-|created|date|Created: Displays when the request was created| x |
-|createdFullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|title|string|SR\_ARCHIVE\_EXTDOC\_TITLE: SR\_ARCHIVE\_EXTDOC\_TITLE\_TOOLTIP| x |
+|description|string|SR\_ARCHIVE\_EXTDOC\_DESCRIPTION: SR\_ARCHIVE\_EXTDOC\_DESCRIPTION\_TOOLTIP| x |
+|createdBy| *None* |SR\_TICKETARCHIVE\_CREATEDBY|  |
+|created|date|SR\_TICKETARCHIVE\_CREATEDAT: SR\_TICKETARCHIVE\_CREATEDAT\_TOOLTIP| x |
+|createdFullName| *None* |SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP|  |
 |ownerHierarchyId|int|HierarchyId| x |
 |isInHistory| *None* |IsInHistory: Restriction only: in order to retrieve items that have relation in history table|  |
-|contentType| *None* |Content type: SR\_ARCHIVE\_ATTACHMENT\_CONTENTTYPE\_TOOLTIP|  |
-|name| *None* |Name: SR\_ARCHIVE\_ATTACHMENT\_NAME\_TOOLTIP|  |
-|size| *None* |Size: SR\_ARCHIVE\_ATTACHMENT\_SIZE\_TOOLTIP|  |
-|hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
-|hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
-|hierarchyFullpathIds| *None* |Folder path IDs: An integer array of nodes leading to a hierarchy/folder item, in root => leaf order|  |
+|contentType| *None* |SR\_ARCHIVE\_ATTACHMENT\_CONTENTTYPE: SR\_ARCHIVE\_ATTACHMENT\_CONTENTTYPE\_TOOLTIP|  |
+|name| *None* |SR\_ARCHIVE\_ATTACHMENT\_NAME: SR\_ARCHIVE\_ATTACHMENT\_NAME\_TOOLTIP|  |
+|size| *None* |SR\_ARCHIVE\_ATTACHMENT\_SIZE: SR\_ARCHIVE\_ATTACHMENT\_SIZE\_TOOLTIP|  |
+|hierarchyId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullname|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyName|string|SR\_HIERARCHY\_FULLNAME: SR\_HIERARCHY\_FULLNAME\_TOOLTIP| x |
+|hierarchyParentId|int|SR\_HIERARCHY\_ID: SR\_HIERARCHY\_ID\_TOOLTIP| x |
+|hierarchyFullpathIds| *None* |SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS: SR\_ARCHIVE\_HIERARCHY\_FULLPATHIDS\_TOOLTIP|  |
 
 ## Sample
 

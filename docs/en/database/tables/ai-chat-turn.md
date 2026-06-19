@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ai\_chat\_turn Table (462)
+# ai\_chat\_turn Table (461)
 
 Contains AI Chatbot history - contains whole chat, not just what is sent to the chatbot. History is ready ordered by timestamp
 

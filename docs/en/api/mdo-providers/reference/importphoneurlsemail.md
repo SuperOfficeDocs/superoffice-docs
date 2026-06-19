@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Add new - keep existing|||
-|2|Replace - overwrite existing|||
-|3|Ignore - keep existing|||
+|1|[SR_IMPORT_ADD_TO_LIST]|||
+|2|[SR_IMPORT_REPLACE]|||
+|3|[SR_IMPORT_IGNORE_KEEP_EXISTING]|||
 
 
 ## Related MDO Lists

@@ -15,7 +15,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ticketNew"|Request|
+|"ticketNew"|[[SR_CRITERIONTYPE_TICKET]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -23,7 +23,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
-|associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
+|associateId|associate|SR\_SINGULAR\_ASSOCIATE: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
 |originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |

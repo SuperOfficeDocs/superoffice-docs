@@ -42,15 +42,15 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Draft|||
-|2|Draft - not calculated|||
-|3|Needs Approval|||
-|4|Approved|||
-|5|Not Approved|||
-|6|Sent|||
-|7|Archived|||
-|8|Lost|||
-|9|Sold|||
+|1|[SR_QUOTE_QUOTEVERSION_DRAFT]|||
+|2|[SR_QUOTE_QUOTEVERSION_DRAFT_NOTCALCULATED]|||
+|3|[SR_QUOTE_QUOTEVERSION_NEEDSAPPROVAL]|||
+|4|[SR_QUOTE_QUOTEVERSION_APPROVED]|||
+|5|[SR_QUOTE_QUOTEVERSION_DISAPPROVED]|||
+|6|[SR_QUOTE_QUOTEVERSION_SENT]|||
+|7|[SR_QUOTE_QUOTEVERSION_ARCHIVED]|||
+|8|[SR_QUOTE_QUOTEVERSION_REJECTED]|||
+|9|[SR_QUOTE_QUOTEVERSION_SOLD]|||
 
 
 ## Related MDO Lists

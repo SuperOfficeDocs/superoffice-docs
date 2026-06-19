@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Add new item to list|||
-|3|Ignore - set to blank|||
+|1|[SR_IMPORT_ADD_ITEM]|||
+|3|[SR_IMPORT_SET_TO_BLANK]|||
 
 
 ## Related MDO Lists

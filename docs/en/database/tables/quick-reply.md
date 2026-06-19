@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# quick\_reply Table (463)
+# quick\_reply Table (462)
 
 Personal quick reply text fragments
 

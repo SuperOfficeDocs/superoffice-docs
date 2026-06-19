@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Name:|||
-|2|E-mail address|||
-|3|Mobile phone|||
-|4|Number|||
-|5|None - do not import contact|||
-|6|ID|||
+|1|[SR_IMPORT_NAME]|||
+|2|[SR_IMPORT_EMAIL_ADDRESS]|||
+|3|[SR_IMPORT_MOBILE_PHONE]|||
+|4|[SR_IMPORT_NUMBER]|||
+|5|[SR_IMPORT_NONE]|||
+|6|[SR_ADMIN_IMPORT_COLUMN_ID]|||
 
 
 ## Related MDO Lists

@@ -42,25 +42,25 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Norwegian||no|
-|2|English||en|
-|3|Swedish||sv|
-|4|Danish||da|
-|5|German||de|
-|6|Dutch||nl|
-|7|Czech||cs|
-|8|French||fr|
-|9|Italian||it|
-|10|Spanish||es|
-|11|Finnish||fi|
-|12|Polish||pl|
-|13|Russian||ru|
-|14|Chinese||zh|
-|15|Ukrainian||uk|
-|16|Korean||ko|
-|17|Brazilian Portuguese ||br|
-|18|Vietnamese||vi|
-|19|Swiss German||ch|
+|1|[SR_NORWEGIAN]||no|
+|2|[SR_ENGLISH]||en|
+|3|[SR_SWEDISH]||sv|
+|4|[SR_DANISH]||da|
+|5|[SR_GERMAN]||de|
+|6|[SR_DUTCH]||nl|
+|7|[SR_CZECH]||cs|
+|8|[SR_FRENCH]||fr|
+|9|[SR_ITALIAN]||it|
+|10|[SR_SPANISH]||es|
+|11|[SR_FINNISH]||fi|
+|12|[SR_POLISH]||pl|
+|13|[SR_RUSSIAN]||ru|
+|14|[SR_CHINESE]||zh|
+|15|[SR_UKRAINIAN]||uk|
+|16|[SR_KOREAN]||ko|
+|17|[SR_PORTOGUESEBRAZILIAN]||br|
+|18|[SR_VIETNAMESE]||vi|
+|19|[SR_SWISSGERMAN]||ch|
 
 
 ## Related MDO Lists

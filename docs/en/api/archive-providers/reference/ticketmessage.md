@@ -24,12 +24,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|searchTitle|string|Title| x |
+|searchTitle|string|SR\_TICKETARCHIVE\_TITLE| x |
 |header|string|Header| x |
 |ticketId|int|TicketId| x |
 |ticketMessageId|int|TicketMessageId| x |
-|author|string|Author: Displays the author of the request| x |
-|createdAt|datetime|Created: Displays when the request was created| x |
+|author|string|SR\_TICKETARCHIVE\_AUTHOR: SR\_TICKETARCHIVE\_AUTHOR\_TOOLTIP| x |
+|createdAt|datetime|SR\_TICKETARCHIVE\_CREATEDAT: SR\_TICKETARCHIVE\_CREATEDAT\_TOOLTIP| x |
 |body|string|TextBody|  |
 |htmlBody|string|HtmlBody|  |
 |messageId|string|MessageId| x |
@@ -37,831 +37,831 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |important|bool|Important?| x |
 |slevel|listAny|SLevel| x |
 |timeSpent|int|TimeSpent: Time in minutes.| x |
-|ticket/contactId|int|Request - Company ID: Database ID of company| x |
-|ticket/personId|int|Request - Contact ID: Database ID of the contact row| x |
-|ticket/saleId|int|Request - Sale ID: The database ID of the sale record| x |
-|ticket/projectId|int|Request - Project ID: Database ID of project record| x |
-|ticket/ticketStatusId|int|Request - Status ID: Status| x |
-|ticket/priorityId|int|Request - Priority ID: ID of priority in database| x |
-|ticket/categoryId|int|Request - Category ID: ID of request category in database| x |
-|ticket/ticketTypeName| *None* |Request - Request type: Request type| x |
-|ticket/ticketStatusName|listAny|Request - Status: Request status| x |
-|ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
-|ticket/priorityName|listAny|Request - Priority: Service priority| x |
-|ticket/ownedBy|ejUser|Request - Owner: The owner of the request| x |
-|ticket/ticketId|int|Request - ID: Displays request ID| x |
-|ticket/title|string|Request - Title: Displays the request title| x |
-|ticket/createdAt|datetime|Request - Created: Displays when the request was created| x |
-|ticket/createdDate|date|Request - Created date: Created date| x |
-|ticket/lastChanged|datetime|Request - Last changed: Displays when the request was last changed| x |
-|ticket/author|string|Request - Author: Displays the author of the request| x |
-|ticket/readByOwner|datetime|Request - Read by owner: Displays when the request was read by the owner| x |
-|ticket/firstReadByOwner|datetime|Request - First read by owner: Displays when the request was read by owner for the first time| x |
-|ticket/firstReadByUser|datetime|Request - First read by user: Displays when the request was read by user for the first time| x |
-|ticket/readByCustomer|datetime|Request - Read by contact: Displays when the request was read by the contact| x |
-|ticket/status|listAny|Request - Internal status: Shows only system defined statuses for a request| x |
-|ticket/origin|listAny|Request - Origin: Origin| x |
-|ticket/slevel|listAny|Request - Access level: Access level| x |
-|ticket/numberOfMessages|int|Request - Number of messages: Number of messages| x |
-|ticket/numberOfReplies|int|Request - Number of replies: Number of replies| x |
-|ticket/connectId|int|Request - Merged with request: Merged with request| x |
-|ticket/readStatus|listAny|Request - Read: Read| x |
-|ticket/realTimeSpentQueue|timeSpan|Request - Real time in queue: Real time in queue| x |
-|ticket/realTimeSpentExternally|timeSpan|Request - Real time externally: Real time externally| x |
-|ticket/realTimeSpentInternally|timeSpan|Request - Real time internally: Real time internally| x |
-|ticket/timeSpentQueue|timeSpan|Request - Time spent in queue: Time spent in queue| x |
-|ticket/timeSpentExternally|timeSpan|Request - Time spent externally: Time spent externally| x |
-|ticket/timeSpentInternally|timeSpan|Request - Time spent internally: Time spent internally| x |
-|ticket/timeSpent|timeSpan|Request - Time spent: Time spent| x |
-|ticket/timeToReply|timeSpan|Request - Time to reply: Time to reply| x |
-|ticket/timeToClose|timeSpan|Request - Time to close: Time to close| x |
-|ticket/realTimeToReply|timeSpan|Request - Real time to reply: Real time to reply| x |
-|ticket/realTimeToClose|timeSpan|Request - Real time to close: Real time to close| x |
-|ticket/repliedAt|datetime|Request - Replied at: Replied at| x |
-|ticket/closedAt|datetime|Request - Closed at: Closed at| x |
-|ticket/activated|datetime|Request - Postponed to: Postponed to| x |
-|ticket/deadline|datetime|Request - Deadline: Deadline| x |
-|ticket/has\_attachment|bool|Request - Has attachment: Indicates whether the e-mail has one or more attachments| x |
-|ticket/tags|intArray|Request - Tags: Tags connected to a request| x |
-|ticket/createdBy|ejUser|Request - Created by: Created by| x |
-|ticket/content|string|Request - Content: Search for content in messages related to requests| x |
-|ticket/messageLanguage|listAny|Request - Language: Recognized language in messages|  |
-|ticket/sentimentScore|listAny|Request - Sentiment: Sentiment score, -100 to +100|  |
-|ticket/sentimentConfidence|int|Request - Sentiment confidence: Sentiment confidence| x |
-|ticket/suggestedCategory|listAny|Request - Suggested category: Suggested service category|  |
-|ticket/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
-|ticket/createdBy/firstName|string|Request - Created by - First name: Displays the contact's first name| x |
-|ticket/createdBy/lastName|string|Request - Created by - Last name: Displays the contact's last name| x |
-|ticket/createdBy/middleName|string|Request - Created by - Middle Name: Displays the contact's middle name.| x |
-|ticket/createdBy/fullName|string|Request - Created by - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/createdBy/contactId|int|Request - Created by - Company ID: Database ID of the company the user belongs to|  |
-|ticket/createdBy/personId|int|Request - Created by - Contact ID: Database ID of the contact row|  |
-|ticket/createdBy/mrMrs|string|Request - Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/createdBy/title|string|Request - Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/createdBy/associateDbId|associate|Request - Created by - ID| x |
-|ticket/createdBy/contactName|string|Request - Created by - Owning company: Name of the company the user belongs to| x |
-|ticket/createdBy/contactDepartment|string|Request - Created by - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/createdBy/usergroup|userGroup|Request - Created by - Primary group: The user's primary user group| x |
-|ticket/createdBy/usergroupId|int|Request - Created by - Group ID: The user's primary user group| x |
-|ticket/createdBy/contactFullName|string|Request - Created by - Owner: Name and department of the company the user belongs to| x |
-|ticket/createdBy/contactCategory|listAny|Request - Created by - Category: Category| x |
-|ticket/createdBy/role|listAny|Request - Created by - Role: Role| x |
-|ticket/createdBy/assocName|associate|Request - Created by - User ID: User ID| x |
-|ticket/createdBy/assocTooltip|string|Request - Created by - Description: Description|  |
-|ticket/createdBy/assocType|listAny|Request - Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/createdBy/ejUserId|int|Request - Created by - Service user ID: The database ID of a Service user|  |
-|ticket/createdBy/simultaneousEjUser|bool|Request - Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/createdBy/ejDisplayName|string|Request - Created by - Nickname: User's nickname in Service| x |
-|ticket/createdBy/ejStatus|int|Request - Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/createdBy/credentialType| *None* |Request - Created by - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/createdBy/credentialDisplayValue| *None* |Request - Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/createdBy/isActive|bool|Request - Created by - Active: Is this user active, and should be able to log in?| x |
-|ticket/createdBy/isActiveText|bool|Request - Created by - Active status: Is this user active, and should be able to log in?| x |
-|ticket/createdBy/portraitThumbnail| *None* |Request - Created by - Person image: Person image|  |
-|ticket/createdBy/otherGroups|userGroup|Request - Created by - Other groups: Other groups|  |
-|ticket/createdBy/userName|string|Request - Created by - User name: User name| x |
-|ticket/createdBy/personEmail|string|Request - Created by - E-mail| x |
+|ticket/contactId|int|SR\_SINGUALR\_TICKET - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|ticket/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP| x |
+|ticket/saleId|int|SR\_SINGUALR\_TICKET - SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP| x |
+|ticket/projectId|int|SR\_SINGUALR\_TICKET - SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP| x |
+|ticket/ticketStatusId|int|SR\_SINGUALR\_TICKET - SR\_TICKET\_STATUS\_ID: SR\_TICKET\_STATUS| x |
+|ticket/priorityId|int|SR\_SINGUALR\_TICKET - SR\_TICKET\_PRIORITY\_ID: SR\_TICKET\_PRIORITY\_ID\_TOOLTIP| x |
+|ticket/categoryId|int|SR\_SINGUALR\_TICKET - SR\_TICKET\_CATEGORY\_ID: SR\_TICKET\_CATEGORY\_ID\_TOOLTIP| x |
+|ticket/ticketTypeName|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TICKET\_TYPE: SR\_TICKETARCHIVE\_TICKET\_TYPE\_TOOLTIP| x |
+|ticket/ticketStatusName|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TICKETSTATUS: SR\_TICKETARCHIVE\_TICKETSTATUS\_TOOLTIP| x |
+|ticket/categoryFullName|ejCategory|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_EJCATEGORY: SR\_TICKETARCHIVE\_EJCATEGORY\_TOOLTIP| x |
+|ticket/priorityName|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_PRIORITY: SR\_TICKETARCHIVE\_PRIORITY\_TOOLTIP| x |
+|ticket/ownedBy|ejUser|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY: SR\_TICKETARCHIVE\_OWNEDBY\_TOOLTIP| x |
+|ticket/ticketId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TICKETID: SR\_TICKETARCHIVE\_TICKETID\_TOOLTIP| x |
+|ticket/title|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TITLE: SR\_TICKETARCHIVE\_TITLE\_TOOLTIP| x |
+|ticket/createdAt|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDAT: SR\_TICKETARCHIVE\_CREATEDAT\_TOOLTIP| x |
+|ticket/createdDate|date|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDDATE: SR\_TICKETARCHIVE\_CREATEDDATE| x |
+|ticket/lastChanged|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_LASTCHANGED: SR\_TICKETARCHIVE\_LASTCHANGED\_TOOLTIP| x |
+|ticket/author|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_AUTHOR: SR\_TICKETARCHIVE\_AUTHOR\_TOOLTIP| x |
+|ticket/readByOwner|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_READBYOWNER: SR\_TICKETARCHIVE\_READBYOWNER\_TOOLTIP| x |
+|ticket/firstReadByOwner|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_FIRSTREADBYOWNER: SR\_TICKETARCHIVE\_FIRSTREADBYOWNER\_TOOLTIP| x |
+|ticket/firstReadByUser|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHVE\_FIRSTREADBYUSER: SR\_TICKETARCHVE\_FIRSTREADBYUSER\_TOOLTIP| x |
+|ticket/readByCustomer|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_READBYCUSTOMER: SR\_TICKETARCHIVE\_READBYCUSTOMER\_TOOLTIP| x |
+|ticket/status|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_INTERNAL\_STATUS: SR\_TICKETARCHIVE\_INTERNAL\_STATUS\_TOOLTIP| x |
+|ticket/origin|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_ORIGIN: SR\_TICKETARCHIVE\_ORIGIN| x |
+|ticket/slevel|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_SLEVEL: SR\_TICKETARCHIVE\_SLEVEL| x |
+|ticket/numberOfMessages|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_NUMBER\_OF\_MESSAGES: SR\_TICKETARCHIVE\_NUMBER\_OF\_MESSAGES| x |
+|ticket/numberOfReplies|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_NUMBER\_OF\_REPLIES: SR\_TICKETARCHIVE\_NUMBER\_OF\_REPLIES| x |
+|ticket/connectId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CONNECTID: SR\_TICKETARCHIVE\_CONNECTID| x |
+|ticket/readStatus|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_READSTATUS: SR\_TICKETARCHIVE\_READSTATUS| x |
+|ticket/realTimeSpentQueue|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_REAL\_TIME\_IN\_QUEUE: SR\_TICKETARCHIVE\_REAL\_TIME\_IN\_QUEUE| x |
+|ticket/realTimeSpentExternally|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_REAL\_TIME\_EXTERNAL: SR\_TICKETARCHIVE\_REAL\_TIME\_EXTERNAL| x |
+|ticket/realTimeSpentInternally|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_REAL\_TIME\_INTERNAL: SR\_TICKETARCHIVE\_REAL\_TIME\_INTERNAL| x |
+|ticket/timeSpentQueue|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TIME\_IN\_QUEUE: SR\_TICKETARCHIVE\_TIME\_IN\_QUEUE| x |
+|ticket/timeSpentExternally|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TIME\_EXTERNAL: SR\_TICKETARCHIVE\_TIME\_EXTERNAL| x |
+|ticket/timeSpentInternally|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TIME\_INTERNAL: SR\_TICKETARCHIVE\_TIME\_INTERNAL| x |
+|ticket/timeSpent|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TIME\_SPENT: SR\_TICKETARCHIVE\_TIME\_SPENT| x |
+|ticket/timeToReply|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TIME\_TO\_REPLY: SR\_TICKETARCHIVE\_TIME\_TO\_REPLY| x |
+|ticket/timeToClose|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TIME\_TO\_CLOSE: SR\_TICKETARCHIVE\_TIME\_TO\_CLOSE| x |
+|ticket/realTimeToReply|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_REPLY: SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_REPLY| x |
+|ticket/realTimeToClose|timeSpan|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_CLOSE: SR\_TICKETARCHIVE\_REAL\_TIME\_TO\_CLOSE| x |
+|ticket/repliedAt|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_REPLIED\_AT: SR\_TICKETARCHIVE\_REPLIED\_AT| x |
+|ticket/closedAt|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CLOSED\_AT: SR\_TICKETARCHIVE\_CLOSED\_AT| x |
+|ticket/activated|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_POSTPONED\_TO: SR\_TICKETARCHIVE\_POSTPONED\_TO| x |
+|ticket/deadline|datetime|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_DEADLINE: SR\_TICKETARCHIVE\_DEADLINE| x |
+|ticket/has\_attachment|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_HAS\_ATTACHMENT: SR\_INBOX\_ATTACHMENT\_TOOLTIP| x |
+|ticket/tags|intArray|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_TAGS: SR\_TICKETARCHIVE\_TAGS\_TOOLTIP| x |
+|ticket/createdBy|ejUser|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY: SR\_TICKETARCHIVE\_CREATEDBY| x |
+|ticket/content|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CONTENT: SR\_ARCHIVE\_CONTENT\_TOOLTIP| x |
+|ticket/messageLanguage|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_LANGUAGE: SR\_TICKETARCHIVE\_LANGUAGE\_TOOLTIP|  |
+|ticket/sentimentScore|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_SENTIMENT: SR\_TICKETARCHIVE\_SENTIMENT\_TOOLTIP|  |
+|ticket/sentimentConfidence|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_SENTIMENT\_CONFIDENCE: SR\_TICKETARCHIVE\_SENTIMENT\_CONFIDENCE| x |
+|ticket/suggestedCategory|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_SUGGESTED\_CATEGORY: SR\_TICKETARCHIVE\_SUGGESTED\_CATEGORY\_TOOLTIP|  |
+|ticket/createdByWorkflow|listAny|SR\_SINGUALR\_TICKET - SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP| x |
+|ticket/createdBy/firstName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/createdBy/lastName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/createdBy/middleName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/createdBy/fullName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/createdBy/contactId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/createdBy/personId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/createdBy/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/createdBy/title|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/createdBy/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/createdBy/contactName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/createdBy/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/createdBy/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/createdBy/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/createdBy/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/createdBy/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/createdBy/role|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/createdBy/assocName|associate|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/createdBy/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/createdBy/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/createdBy/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ticket/createdBy/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/createdBy/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/createdBy/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/createdBy/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/createdBy/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/createdBy/isActive|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/createdBy/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/createdBy/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/createdBy/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/createdBy/userName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/createdBy/personEmail|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_EMAIL| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/createdBy/locationAddress|string|Request - Created by - Location: Location| x |
-|ticket/createdBy/isLocation|bool|Request - Created by - Is a location: Is a location| x |
-|ticket/ownedBy/firstName|string|Request - Owner - First name: Displays the contact's first name| x |
-|ticket/ownedBy/lastName|string|Request - Owner - Last name: Displays the contact's last name| x |
-|ticket/ownedBy/middleName|string|Request - Owner - Middle Name: Displays the contact's middle name.| x |
-|ticket/ownedBy/fullName|string|Request - Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/ownedBy/contactId|int|Request - Owner - Company ID: Database ID of the company the user belongs to|  |
-|ticket/ownedBy/personId|int|Request - Owner - Contact ID: Database ID of the contact row|  |
-|ticket/ownedBy/mrMrs|string|Request - Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/ownedBy/title|string|Request - Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/ownedBy/associateDbId|associate|Request - Owner - ID| x |
-|ticket/ownedBy/contactName|string|Request - Owner - Owning company: Name of the company the user belongs to| x |
-|ticket/ownedBy/contactDepartment|string|Request - Owner - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/ownedBy/usergroup|userGroup|Request - Owner - Primary group: The user's primary user group| x |
-|ticket/ownedBy/usergroupId|int|Request - Owner - Group ID: The user's primary user group| x |
-|ticket/ownedBy/contactFullName|string|Request - Owner - Owner: Name and department of the company the user belongs to| x |
-|ticket/ownedBy/contactCategory|listAny|Request - Owner - Category: Category| x |
-|ticket/ownedBy/role|listAny|Request - Owner - Role: Role| x |
-|ticket/ownedBy/assocName|associate|Request - Owner - User ID: User ID| x |
-|ticket/ownedBy/assocTooltip|string|Request - Owner - Description: Description|  |
-|ticket/ownedBy/assocType|listAny|Request - Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/ownedBy/ejUserId|int|Request - Owner - Service user ID: The database ID of a Service user|  |
-|ticket/ownedBy/simultaneousEjUser|bool|Request - Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/ownedBy/ejDisplayName|string|Request - Owner - Nickname: User's nickname in Service| x |
-|ticket/ownedBy/ejStatus|int|Request - Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/ownedBy/credentialType| *None* |Request - Owner - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/ownedBy/credentialDisplayValue| *None* |Request - Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/ownedBy/isActive|bool|Request - Owner - Active: Is this user active, and should be able to log in?| x |
-|ticket/ownedBy/isActiveText|bool|Request - Owner - Active status: Is this user active, and should be able to log in?| x |
-|ticket/ownedBy/portraitThumbnail| *None* |Request - Owner - Person image: Person image|  |
-|ticket/ownedBy/otherGroups|userGroup|Request - Owner - Other groups: Other groups|  |
-|ticket/ownedBy/userName|string|Request - Owner - User name: User name| x |
-|ticket/ownedBy/personEmail|string|Request - Owner - E-mail| x |
-|ticket/ownedBy/locationAddress|string|Request - Owner - Location: Location| x |
-|ticket/ownedBy/isLocation|bool|Request - Owner - Is a location: Is a location| x |
-|ticket/ticketStatus/ticketStatusId|int|Request - Status - ID: Displays request status ID| x |
-|ticket/ticketStatus/name|string|Request - Status - Name: Displays the name of the request status| x |
-|ticket/ticketStatus/rank|int|Request - Status - Status rank: Sort order of the status in the request status list| x |
-|ticket/ticketPriority/ticketPriorityId|int|Request - Priority - ID: Displays the ID of the priority| x |
-|ticket/ticketPriority/name|string|Request - Priority - Name: Displays the name of the priority| x |
-|ticket/ticketPriority/rank|int|Request - Priority - Priority rank: Sort order of priority in the priority list| x |
-|ticket/person/personId|int|Request - DB ID: Displays the database ID of a contact| x |
-|ticket/person/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/person/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/person/middleName|string|Request - Middle name: Displays the contact's middle name.| x |
-|ticket/person/fullName|string|Request - Contact: Displays the contact to which an item is linked| x |
-|ticket/person/contactId|int|Request - Company ID: Database ID of company| x |
-|ticket/person/hasInfoText|bool|Request - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|ticket/person/hasInterests|bool|Request - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|ticket/person/personHasInterests|bool|Request - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|ticket/person/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/person/position|listAny|Request - Position| x |
-|ticket/person/personNumber|string|Request - Number: Displays the contact's number| x |
-|ticket/person/title|string|Request - Title: Displays the contact's job title| x |
-|ticket/person/personCountry|listAny|Request - Country: Country| x |
-|ticket/person/personCountryId|int|Request - Country ID: Country ID| x |
-|ticket/person/personNoMail|bool|Request - No Mailings: Displays the contact's No Mailings checkbox| x |
-|ticket/person/rank|int|Request - Rank: Displays a contact's current rank| x |
-|ticket/person/birthdate| *None* |Request - Birthdate: Displays the contact's date of birth|  |
-|ticket/person/associateType| *None* |Request - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|ticket/person/useAsMailingAddress|bool|Request - Use as postal address: Use as postal address| x |
-|ticket/person/personSource|listAny|Request - Source: Source (Contact)| x |
-|ticket/person/retired|bool|Request - Former employee: Indicates whether the contact has retired/left the company| x |
-|ticket/person/birthYear|int|Request - Birth year: Displays contact's birth year| x |
-|ticket/person/birthMonth|int|Request - Birth month: Displays contact's birth month| x |
-|ticket/person/birthDay|int|Request - Birth day: Displays contact's birth day (day of month)| x |
-|ticket/person/kanaFirstName|string|Request - First name, kana: Contact's first name, in kana alphabet| x |
-|ticket/person/kanaLastName|string|Request - Last name, kana: Contact's last name, in kana alphabet| x |
-|ticket/person/personUpdatedBy|associate|Request - Updated by: The user who last updated the data| x |
-|ticket/person/personUpdatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
-|ticket/person/personUpdatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
-|ticket/person/personRegisteredBy|associate|Request - Registered by: The user who registered the data| x |
-|ticket/person/personRegisteredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
-|ticket/person/personRegisteredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
-|ticket/person/portraitThumbnail| *None* |Request - Person image: Person image|  |
-|ticket/person/personActiveErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/person/ticketPriority|listAny|Request - Service priority: Default service priority for this contact| x |
-|ticket/person/supportLanguage|listAny|Request - Preferred language: Preferred language used for reply templates and more| x |
-|ticket/person/supportAssociate|associate|Request - Our service contact: Default service contact for this contact| x |
-|ticket/person/supportAssociateFullName|associate|Request - Our service contact - Full name: Default service contact for this contact| x |
-|ticket/person/personAssociateId|associate|Request - Our contact: Displays our contact| x |
-|ticket/person/personAssociateFullName|associate|Request - Our contact - Full name: Displays our contact| x |
-|ticket/person/personCategory|listAny|Request - Category| x |
-|ticket/person/personCategoryGroup|listAny|Request - Category group| x |
-|ticket/person/personCategoryRank|int|Request - !!Category rank| x |
-|ticket/person/personBusiness|listAny|Request - Business| x |
-|ticket/person/leadStatus|listAny|Request - Lead status| x |
-|ticket/person/leadstatusRank|int|Request - !!Lead status RANK| x |
-|ticket/person/personDeletedDate|datetime|Request - Deleted date: Deleted date|  |
-|ticket/person/hasCompany|bool|Request - Has company: The contact is associated with a company| x |
-|ticket/person/isProjectMember|bool|Request - Is project member: This person is a project member| x |
-|ticket/person/isStakeholder|bool|Request - Is stakeholder: This person is a sale stakeholder| x |
-|ticket/person/updatedByWorkflow|listAny|Request - Updated by flow: Updated by flow| x |
-|ticket/person/whenUpdatedByWorkflow|datetime|Request - When updated by flow: When updated by flow| x |
-|ticket/person/createdByForm|listAny|Request - Created by form: Created by form| x |
-|ticket/person/phone/formattedNumber|string|Request - Phone: Displays phone number|  |
-|ticket/person/personDirectPhone/formattedNumber|string|Request - Direct - Phone: Displays phone number|  |
-|ticket/person/personDirectPhone/description|string|Request - Direct - Description: Phone number description| x |
-|ticket/person/personMobilePhone/formattedNumber|string|Request - Mobile - Phone: Displays phone number|  |
-|ticket/person/personMobilePhone/description|string|Request - Mobile - Description: Phone number description| x |
+|ticket/createdBy/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/createdBy/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_CREATEDBY - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/ownedBy/firstName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/ownedBy/lastName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/ownedBy/middleName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/ownedBy/fullName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/ownedBy/contactId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/ownedBy/personId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/ownedBy/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/ownedBy/title|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/ownedBy/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/ownedBy/contactName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/ownedBy/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/ownedBy/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/ownedBy/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/ownedBy/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/ownedBy/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/ownedBy/role|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/ownedBy/assocName|associate|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/ownedBy/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/ownedBy/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/ownedBy/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ticket/ownedBy/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/ownedBy/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/ownedBy/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/ownedBy/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/ownedBy/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/ownedBy/isActive|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/ownedBy/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/ownedBy/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/ownedBy/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/ownedBy/userName|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/ownedBy/personEmail|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_EMAIL| x |
+|ticket/ownedBy/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/ownedBy/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_OWNEDBY - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/ticketStatus/ticketStatusId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_STATUS - SR\_TICKETARCHIVE\_TICKETSTATUS\_ID: SR\_TICKETARCHIVE\_TICKETSTATUS\_ID\_TOOLTIP| x |
+|ticket/ticketStatus/name|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_STATUS - SR\_TICKETARCHIVE\_TICKETSTATUS\_NAME: SR\_TICKETARCHIVE\_TICKETSTATUS\_NAME\_TOOLTIP| x |
+|ticket/ticketStatus/rank|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_STATUS - SR\_TICKETARCHIVE\_TICKETSTATUS\_RANK: SR\_TICKETARCHIVE\_TICKETSTATUS\_RANK\_TOOLTIP| x |
+|ticket/ticketPriority/ticketPriorityId|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_PRIORITY - SR\_TICKETARCHIVE\_PRIORITY\_ID: SR\_TICKETARCHIVE\_PRIORITY\_ID\_TOOLTIP| x |
+|ticket/ticketPriority/name|string|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_PRIORITY - SR\_TICKETARCHIVE\_PRIORITY\_NAME: SR\_TICKETARCHIVE\_PRIORITY\_NAME\_TOOLTIP| x |
+|ticket/ticketPriority/rank|int|SR\_SINGUALR\_TICKET - SR\_TICKETARCHIVE\_PRIORITY - SR\_TICKETARCHIVE\_PRIORITY\_RANK: SR\_TICKETARCHIVE\_PRIORITY\_RANK\_TOOLTIP| x |
+|ticket/person/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_RECORDID: SR\_PERSONARCHIVE\_RECORDID\_TOOLTIP| x |
+|ticket/person/firstName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/person/lastName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/person/middleName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/person/fullName|string|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP| x |
+|ticket/person/contactId|int|SR\_SINGUALR\_TICKET - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|ticket/person/hasInfoText|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|ticket/person/hasInterests|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|ticket/person/personHasInterests|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|ticket/person/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/person/position|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_POSITION| x |
+|ticket/person/personNumber|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_NUMBER: SR\_PERSONARCHIVE\_NUMBER\_TOOLTIP| x |
+|ticket/person/title|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_JOBTITLE\_TOOLTIP| x |
+|ticket/person/personCountry|listAny|SR\_SINGUALR\_TICKET - SR\_SEARCH\_COUNTRY: SR\_SEARCH\_COUNTRY\_TOOLTIP| x |
+|ticket/person/personCountryId|int|SR\_SINGUALR\_TICKET - SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|ticket/person/personNoMail|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_NOMAILINGS: SR\_PERSONARCHIVE\_NOMAILINGS\_TOOLTIP| x |
+|ticket/person/rank|int|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_RANK: SR\_PERSONARCHIVE\_RANK\_TOOLTIP| x |
+|ticket/person/birthdate| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_BIRTHDATE: SR\_PERSONARCHIVE\_BIRTHDATE\_TOOLTIP|  |
+|ticket/person/associateType| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_ASSOCIATETYPE: SR\_PERSONARCHIVE\_ASSOCIATETYPE\_TOOLTIP|  |
+|ticket/person/useAsMailingAddress|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS: SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS\_TOOLTIP| x |
+|ticket/person/personSource|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_CONTACT)| x |
+|ticket/person/retired|bool|SR\_SINGUALR\_TICKET - SR\_PDLG\_RETIRED: SR\_RETIRED\_TOOLTIP| x |
+|ticket/person/birthYear|int|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_BIRTHYEAR: SR\_ARCHIVE\_BIRTHYEAR\_TOOLTIP| x |
+|ticket/person/birthMonth|int|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_BIRTHMONTH: SR\_ARCHIVE\_BIRTHMONTH\_TOOLTIP| x |
+|ticket/person/birthDay|int|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_BIRTHDAY: SR\_ARCHIVE\_BIRTHDAY\_TOOLTIP| x |
+|ticket/person/kanaFirstName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_KANAFIRST: SR\_ARCHIVE\_KANAFIRST\_TOOLTIP| x |
+|ticket/person/kanaLastName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_KANALAST: SR\_ARCHIVE\_KANALAST\_TOOLTIP| x |
+|ticket/person/personUpdatedBy|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/person/personUpdatedByFullName|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/person/personUpdatedDate|date|SR\_SINGUALR\_TICKET - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|ticket/person/personRegisteredBy|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/person/personRegisteredByFullName|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/person/personRegisteredDate|date|SR\_SINGUALR\_TICKET - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|ticket/person/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/person/personActiveErpLinks|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|ticket/person/ticketPriority|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_TICKET\_PRIORITY: SR\_ARCHIVE\_TICKET\_PRIORITY\_TOOLTIP| x |
+|ticket/person/supportLanguage|listAny|SR\_SINGUALR\_TICKET - SR\_FIELD\_PERSON\_SUPPORT\_LANGUAGE\_ID\_NAME: SR\_ARCHIVE\_SUPPORT\_LANGUAGE\_TOOLTIP| x |
+|ticket/person/supportAssociate|associate|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SUPPORT\_ASSOCIATE: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|ticket/person/supportAssociateFullName|associate|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SUPPORT\_ASSOCIATE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|ticket/person/personAssociateId|associate|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|ticket/person/personAssociateFullName|associate|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OUR\_CONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|ticket/person/personCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY| x |
+|ticket/person/personCategoryGroup|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
+|ticket/person/personCategoryRank|int|SR\_SINGUALR\_TICKET - !!Category rank| x |
+|ticket/person/personBusiness|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_BUSINESS| x |
+|ticket/person/leadStatus|listAny|SR\_SINGUALR\_TICKET - SR\_LABEL\_LEADSTATUS| x |
+|ticket/person/leadstatusRank|int|SR\_SINGUALR\_TICKET - !!Lead status RANK| x |
+|ticket/person/personDeletedDate|datetime|SR\_SINGUALR\_TICKET - SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|ticket/person/hasCompany|bool|SR\_SINGUALR\_TICKET - SR\_HAS\_COMPANY: SR\_HAS\_COMPANY\_TOOLTIP| x |
+|ticket/person/isProjectMember|bool|SR\_SINGUALR\_TICKET - SR\_IS\_PROJECT\_MEMBER: SR\_IS\_PROJECT\_MEMBER\_TOOLTIP| x |
+|ticket/person/isStakeholder|bool|SR\_SINGUALR\_TICKET - SR\_IS\_STAKEHOLDER: SR\_IS\_STAKEHOLDER\_TOOLTIP| x |
+|ticket/person/updatedByWorkflow|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_UPDATED\_BY\_FLOW: SR\_ARCHIVE\_UPDATED\_BY\_FLOW| x |
+|ticket/person/whenUpdatedByWorkflow|datetime|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN: SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN| x |
+|ticket/person/createdByForm|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CREATED\_BY\_FORM: SR\_ARCHIVE\_CREATED\_BY\_FORM| x |
+|ticket/person/phone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/personDirectPhone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/personDirectPhone/description|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_DIRECTPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/person/personMobilePhone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/personMobilePhone/description|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MOBILEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/person/personPrivate/formattedNumber|string|Request - Private - Phone: Displays phone number|  |
-|ticket/person/personPrivate/description|string|Request - Private - Description: Phone number description| x |
-|ticket/person/personPager/formattedNumber|string|Request - Other - Phone: Displays phone number|  |
-|ticket/person/personPager/description|string|Request - Other - Description: Phone number description| x |
-|ticket/person/personDirectFax/formattedNumber|string|Request - Fax - Phone: Displays phone number|  |
-|ticket/person/personDirectFax/description|string|Request - Fax - Description: Phone number description| x |
-|ticket/person/searchPhone/formattedNumber|string|Request - Phone: Displays phone number|  |
-|ticket/person/searchPhone/description|string|Request - Description: Phone number description| x |
-|ticket/person/personInfo/textId|int|Request - Text ID| x |
-|ticket/person/personInfo/infoText|positiveString|Request - Information: Displays the text entered in the description field| x |
-|ticket/person/email/emailProtocol|string|Request - Protocol: E-mail protocol, such as SMTP| x |
-|ticket/person/email/emailAddress|string|Request - E-mail| x |
-|ticket/person/email/emailDescription|string|Request - Description| x |
-|ticket/person/email/emailId|int|Request - ID| x |
-|ticket/person/email/emailLastSent|datetime|Request - Last sent: The date and time an e-mail was last sent to this address| x |
-|ticket/person/email/emailBounceCount|int|Request - Bounce count: Bounce count for this e-mail address| x |
-|ticket/person/email/emailLastBounce|datetime|Request - Last bounce: Date and time for last bounce to this e-mail address| x |
-|ticket/person/email/emailHasBounced|bool|Request - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|ticket/person/personUrl/URLAddress|string|Request - URL| x |
-|ticket/person/personUrl/URLDescription|string|Request - Description| x |
-|ticket/person/personAddress/addressId|int|Request - Contact address - Address ID: Database ID for the address record| x |
-|ticket/person/personAddress/line1|string|Request - Contact address - Address 1: First line of the address| x |
-|ticket/person/personAddress/line2|string|Request - Contact address - Address 2: Second line of the address| x |
-|ticket/person/personAddress/line3|string|Request - Contact address - Address 3: Third line of the address| x |
-|ticket/person/personAddress/county|string|Request - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|ticket/person/personAddress/city|string|Request - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
-|ticket/person/personAddress/zip|string|Request - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|ticket/person/personAddress/state|string|Request - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|ticket/person/personAddress/wgs84latitude|decimal|Request - Contact address - Latitude: Latitude| x |
-|ticket/person/personAddress/wgs84longitude|decimal|Request - Contact address - Longitude: Longitude| x |
-|ticket/person/personAddress/formattedAddress| *None* |Request - Contact address - {formattedAddress}: {formattedAddress}|  |
-|ticket/person/personAddress/formattedMultiLineAddress| *None* |Request - Contact address - {formattedAddress}: {formattedAddress}|  |
-|ticket/person/restrictionAddress/addressId|int|Request - Search address - Address ID: Database ID for the address record| x |
-|ticket/person/restrictionAddress/line1|string|Request - Search address - Address 1: First line of the address| x |
-|ticket/person/restrictionAddress/line2|string|Request - Search address - Address 2: Second line of the address| x |
-|ticket/person/restrictionAddress/line3|string|Request - Search address - Address 3: Third line of the address| x |
-|ticket/person/restrictionAddress/county|string|Request - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|ticket/person/restrictionAddress/city|string|Request - Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|ticket/person/restrictionAddress/zip|string|Request - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|ticket/person/restrictionAddress/state|string|Request - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|ticket/person/restrictionAddress/wgs84latitude|decimal|Request - Search address - Latitude: Latitude| x |
-|ticket/person/restrictionAddress/wgs84longitude|decimal|Request - Search address - Longitude: Longitude| x |
-|ticket/person/restrictionAddress/formattedAddress| *None* |Request - Search address - {formattedAddress}: {formattedAddress}|  |
-|ticket/person/restrictionAddress/formattedMultiLineAddress| *None* |Request - Search address - {formattedAddress}: {formattedAddress}|  |
-|ticket/person/personInterestIds|listInterest|Request - Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
-|ticket/person/personUdef/SuperOffice:1|string|Request - contactshorttext: tooltipshorttext| x |
-|ticket/person/personUdef/SuperOffice:2|string|Request - contactlongtext: tooltiplongtext| x |
-|ticket/person/personUdef/SuperOffice:3|int|Request - contactnumber| x |
-|ticket/person/personUdef/SuperOffice:4|date|Request - contactdate| x |
-|ticket/person/personUdef/SuperOffice:5|unlimitedDate|Request - contactunlimiteddate: tooltipunlimiteddate| x |
-|ticket/person/personUdef/SuperOffice:6|bool|Request - contactcheckbox| x |
-|ticket/person/personUdef/SuperOffice:7|listAny|Request - contactdropdownlistbox| x |
-|ticket/person/personUdef/SuperOffice:8|decimal|Request - contactdecimal| x |
-|ticket/person/personUdef/SuperOffice:9|string|Request - page1saleonly| x |
-|ticket/person/personUdef/SuperOffice:10|string|Request - page1marketingonly| x |
-|ticket/person/personUdef/SuperOffice:11|string|Request - page1adminonly| x |
-|ticket/person/personExtra/x\_person\_integer|int|Request - Extra Integer: Custom person integer| x |
-|ticket/person/personExtra/x\_person\_hidden\_integer|int|Request - Extra hidden integer: Custom integer field that is hidden| x |
-|ticket/person/personExtra/x\_person\_float|decimal|Request - Extra float: Custom float field| x |
-|ticket/person/personExtra/x\_person\_longtext|string|Request - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
-|ticket/person/personExtra/x\_person\_date|date|Request - Extra date: Custom date field on person. Default value = 28.03.2019| x |
-|ticket/person/personExtra/x\_person\_datetime|datetime|Request - Extra DateTime: Custom person date and time field. No default| x |
-|ticket/person/personExtra/x\_person\_time| *None* |Request - Extra time: Custom time field on person. Current time as default| x |
-|ticket/person/personExtra/x\_person\_boolean|bool|Request - Extra Boolean: Custom boolean field on person. Default checked| x |
-|ticket/person/personExtra/x\_person\_timespan|timeSpan|Request - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
-|ticket/person/personExtra/x\_person\_shorttext|string|Request - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
-|ticket/person/personExtra/x\_person\_shorttext\_list|listAny|Request - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
-|ticket/person/personExtra/x\_person\_user\_relation|associate|Request - Extra user relation: Custom person-user relation field| x |
-|ticket/person/personExtra/x\_person\_category\_relation|listAny|Request - Extra category relation: Custom person-category relation| x |
-|ticket/person/personExtra/x\_person\_priority\_relation|listAny|Request - Extra priority relation: Custom person-priority relation| x |
-|ticket/person/personExtra/x\_person\_request\_relation|stringorPK|Request - Extra request relation: Request relation on contact| x |
-|ticket/person/personExtra/x\_person\_appointment\_relation|stringorPK|Request - Extra appointment relation: Appointment relation on person| x |
-|ticket/person/personExtra/x\_person\_contact\_relation|stringorPK|Request - Extra company relation: Company relation on contact| x |
-|ticket/person/personExtra/y\_rental/id|int|Request - Rental - id: Displays the row's primary key (y\_rental)| x |
-|ticket/person/personExtra/y\_rental/x\_start|date|Request - Rental - Start rental: Start rental| x |
-|ticket/person/personExtra/y\_rental/x\_end|date|Request - Rental - End: End| x |
-|ticket/person/personExtra/y\_rental/x\_amount|int|Request - Rental - Amount: Number to rent. Default = 1| x |
-|ticket/person/personExtra/y\_rental/x\_contact|stringorPK|Request - Rental - Renter: Company that rents equipment| x |
-|ticket/person/personExtra/y\_rental/y\_equipment/x\_name|string|Request - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|ticket/person/personExtra/y\_car/id|int|Request - Car - id: Displays the row's primary key (y\_car)| x |
-|ticket/person/personAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/person/personAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/person/personAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
-|ticket/person/personAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/person/personAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
-|ticket/person/personAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
-|ticket/person/personAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/person/personAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/person/personAssociate/associateDbId|associate|Request - ID| x |
-|ticket/person/personAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
-|ticket/person/personAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/person/personAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
-|ticket/person/personAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
-|ticket/person/personAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
-|ticket/person/personAssociate/contactCategory|listAny|Request - Category: Category| x |
-|ticket/person/personAssociate/role|listAny|Request - Role: Role| x |
-|ticket/person/personAssociate/assocName|associate|Request - User ID: User ID| x |
-|ticket/person/personAssociate/assocTooltip|string|Request - Description: Description|  |
-|ticket/person/personAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/person/personAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
+|ticket/person/personPrivate/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/personPrivate/description|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_PRIVATEPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/person/personPager/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_OTHERPHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/personPager/description|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_OTHERPHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/person/personDirectFax/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_DIRECTFAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/personDirectFax/description|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_DIRECTFAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/person/searchPhone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/person/searchPhone/description|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/person/personInfo/textId|int|SR\_SINGUALR\_TICKET - Text ID| x |
+|ticket/person/personInfo/infoText|positiveString|SR\_SINGUALR\_TICKET - SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|ticket/person/email/emailProtocol|string|SR\_SINGUALR\_TICKET - SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP| x |
+|ticket/person/email/emailAddress|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/person/email/emailDescription|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DESCRIPTION| x |
+|ticket/person/email/emailId|int|SR\_SINGUALR\_TICKET - ID| x |
+|ticket/person/email/emailLastSent|datetime|SR\_SINGUALR\_TICKET - SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP| x |
+|ticket/person/email/emailBounceCount|int|SR\_SINGUALR\_TICKET - SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP| x |
+|ticket/person/email/emailLastBounce|datetime|SR\_SINGUALR\_TICKET - SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP| x |
+|ticket/person/email/emailHasBounced|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP| x |
+|ticket/person/personUrl/URLAddress|string|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_URL| x |
+|ticket/person/personUrl/URLDescription|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DESCRIPTION| x |
+|ticket/person/personAddress/addressId|int|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|ticket/person/personAddress/line1|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|ticket/person/personAddress/line2|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|ticket/person/personAddress/line3|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|ticket/person/personAddress/county|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|ticket/person/personAddress/city|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|ticket/person/personAddress/zip|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|ticket/person/personAddress/state|string|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|ticket/person/personAddress/wgs84latitude|decimal|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|ticket/person/personAddress/wgs84longitude|decimal|SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|ticket/person/personAddress/formattedAddress| *None* |SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|ticket/person/personAddress/formattedMultiLineAddress| *None* |SR\_SINGUALR\_TICKET - SR\_PREFIX\_PERSONADDRESS - {formattedAddress}: {formattedAddress}|  |
+|ticket/person/restrictionAddress/addressId|int|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|ticket/person/restrictionAddress/line1|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|ticket/person/restrictionAddress/line2|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|ticket/person/restrictionAddress/line3|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|ticket/person/restrictionAddress/county|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|ticket/person/restrictionAddress/city|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|ticket/person/restrictionAddress/zip|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|ticket/person/restrictionAddress/state|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|ticket/person/restrictionAddress/wgs84latitude|decimal|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|ticket/person/restrictionAddress/wgs84longitude|decimal|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|ticket/person/restrictionAddress/formattedAddress| *None* |SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|ticket/person/restrictionAddress/formattedMultiLineAddress| *None* |SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|ticket/person/personInterestIds|listInterest|SR\_SINGUALR\_TICKET - SR\_SEARCH\_PERSON\_INTEREST: SR\_SEARCH\_CRITERION\_PERSON\_INTERESTS\_TOOLTIP|  |
+|ticket/person/personUdef/SuperOffice:1|string|SR\_SINGUALR\_TICKET - contactshorttext: tooltipshorttext| x |
+|ticket/person/personUdef/SuperOffice:2|string|SR\_SINGUALR\_TICKET - contactlongtext: tooltiplongtext| x |
+|ticket/person/personUdef/SuperOffice:3|int|SR\_SINGUALR\_TICKET - contactnumber| x |
+|ticket/person/personUdef/SuperOffice:4|date|SR\_SINGUALR\_TICKET - contactdate| x |
+|ticket/person/personUdef/SuperOffice:5|unlimitedDate|SR\_SINGUALR\_TICKET - contactunlimiteddate: tooltipunlimiteddate| x |
+|ticket/person/personUdef/SuperOffice:6|bool|SR\_SINGUALR\_TICKET - contactcheckbox| x |
+|ticket/person/personUdef/SuperOffice:7|listAny|SR\_SINGUALR\_TICKET - contactdropdownlistbox| x |
+|ticket/person/personUdef/SuperOffice:8|decimal|SR\_SINGUALR\_TICKET - contactdecimal| x |
+|ticket/person/personUdef/SuperOffice:9|string|SR\_SINGUALR\_TICKET - page1saleonly| x |
+|ticket/person/personUdef/SuperOffice:10|string|SR\_SINGUALR\_TICKET - page1marketingonly| x |
+|ticket/person/personUdef/SuperOffice:11|string|SR\_SINGUALR\_TICKET - page1adminonly| x |
+|ticket/person/personExtra/x\_person\_integer|int|SR\_SINGUALR\_TICKET - Extra Integer: Custom person integer| x |
+|ticket/person/personExtra/x\_person\_hidden\_integer|int|SR\_SINGUALR\_TICKET - Extra hidden integer: Custom integer field that is hidden| x |
+|ticket/person/personExtra/x\_person\_float|decimal|SR\_SINGUALR\_TICKET - Extra float: Custom float field| x |
+|ticket/person/personExtra/x\_person\_longtext|string|SR\_SINGUALR\_TICKET - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
+|ticket/person/personExtra/x\_person\_date|date|SR\_SINGUALR\_TICKET - Extra date: Custom date field on person. Default value = 28.03.2019| x |
+|ticket/person/personExtra/x\_person\_datetime|datetime|SR\_SINGUALR\_TICKET - Extra DateTime: Custom person date and time field. No default| x |
+|ticket/person/personExtra/x\_person\_time| *None* |SR\_SINGUALR\_TICKET - Extra time: Custom time field on person. Current time as default| x |
+|ticket/person/personExtra/x\_person\_boolean|bool|SR\_SINGUALR\_TICKET - Extra Boolean: Custom boolean field on person. Default checked| x |
+|ticket/person/personExtra/x\_person\_timespan|timeSpan|SR\_SINGUALR\_TICKET - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|ticket/person/personExtra/x\_person\_shorttext|string|SR\_SINGUALR\_TICKET - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|ticket/person/personExtra/x\_person\_shorttext\_list|listAny|SR\_SINGUALR\_TICKET - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|ticket/person/personExtra/x\_person\_user\_relation|associate|SR\_SINGUALR\_TICKET - Extra user relation: Custom person-user relation field| x |
+|ticket/person/personExtra/x\_person\_category\_relation|listAny|SR\_SINGUALR\_TICKET - Extra category relation: Custom person-category relation| x |
+|ticket/person/personExtra/x\_person\_priority\_relation|listAny|SR\_SINGUALR\_TICKET - Extra priority relation: Custom person-priority relation| x |
+|ticket/person/personExtra/x\_person\_request\_relation|stringorPK|SR\_SINGUALR\_TICKET - Extra request relation: Request relation on contact| x |
+|ticket/person/personExtra/x\_person\_appointment\_relation|stringorPK|SR\_SINGUALR\_TICKET - Extra appointment relation: Appointment relation on person| x |
+|ticket/person/personExtra/x\_person\_contact\_relation|stringorPK|SR\_SINGUALR\_TICKET - Extra company relation: Company relation on contact| x |
+|ticket/person/personExtra/y\_rental/id|int|SR\_SINGUALR\_TICKET - Rental - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_rental)| x |
+|ticket/person/personExtra/y\_rental/x\_start|date|SR\_SINGUALR\_TICKET - Rental - Start rental: Start rental| x |
+|ticket/person/personExtra/y\_rental/x\_end|date|SR\_SINGUALR\_TICKET - Rental - End: End| x |
+|ticket/person/personExtra/y\_rental/x\_amount|int|SR\_SINGUALR\_TICKET - Rental - Amount: Number to rent. Default = 1| x |
+|ticket/person/personExtra/y\_rental/x\_contact|stringorPK|SR\_SINGUALR\_TICKET - Rental - Renter: Company that rents equipment| x |
+|ticket/person/personExtra/y\_rental/y\_equipment/x\_name|string|SR\_SINGUALR\_TICKET - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|ticket/person/personExtra/y\_car/id|int|SR\_SINGUALR\_TICKET - Car - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_car)| x |
+|ticket/person/personAssociate/firstName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/person/personAssociate/lastName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/person/personAssociate/middleName|string|SR\_SINGUALR\_TICKET - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/person/personAssociate/fullName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/person/personAssociate/contactId|int|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/person/personAssociate/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/person/personAssociate/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/person/personAssociate/title|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/person/personAssociate/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/person/personAssociate/contactName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/person/personAssociate/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/person/personAssociate/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/person/personAssociate/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/person/personAssociate/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/person/personAssociate/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/person/personAssociate/role|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/person/personAssociate/assocName|associate|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/person/personAssociate/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/person/personAssociate/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/person/personAssociate/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/person/personAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/person/personAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
-|ticket/person/personAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/person/personAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/person/personAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/person/personAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
-|ticket/person/personAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
-|ticket/person/personAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
-|ticket/person/personAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
-|ticket/person/personAssociate/userName|string|Request - User name: User name| x |
-|ticket/person/personAssociate/personEmail|string|Request - E-mail| x |
-|ticket/person/personAssociate/locationAddress|string|Request - Location: Location| x |
-|ticket/person/personAssociate/isLocation|bool|Request - Is a location: Is a location| x |
-|ticket/person/correspondingAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/person/correspondingAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/person/correspondingAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
-|ticket/person/correspondingAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/person/correspondingAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
-|ticket/person/correspondingAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
-|ticket/person/correspondingAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/person/correspondingAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/person/correspondingAssociate/associateDbId|associate|Request - ID| x |
-|ticket/person/correspondingAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
-|ticket/person/correspondingAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/person/correspondingAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
-|ticket/person/correspondingAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
-|ticket/person/correspondingAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
-|ticket/person/correspondingAssociate/contactCategory|listAny|Request - Category: Category| x |
-|ticket/person/correspondingAssociate/role|listAny|Request - Role: Role| x |
-|ticket/person/correspondingAssociate/assocName|associate|Request - User ID: User ID| x |
-|ticket/person/correspondingAssociate/assocTooltip|string|Request - Description: Description|  |
-|ticket/person/correspondingAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/person/correspondingAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
-|ticket/person/correspondingAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/person/correspondingAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
-|ticket/person/correspondingAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/person/correspondingAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/person/correspondingAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/person/correspondingAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
-|ticket/person/correspondingAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
-|ticket/person/correspondingAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
-|ticket/person/correspondingAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
-|ticket/person/correspondingAssociate/userName|string|Request - User name: User name| x |
-|ticket/person/correspondingAssociate/personEmail|string|Request - E-mail| x |
-|ticket/person/correspondingAssociate/locationAddress|string|Request - Location: Location| x |
-|ticket/person/correspondingAssociate/isLocation|bool|Request - Is a location: Is a location| x |
-|ticket/person/isMailingRecipient|bool|Request - Is mailing recipient: isMailingRecipient| x |
-|ticket/person/hasStoreConsent|bool|Request - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|ticket/person/withdrawnStoreConsent|bool|Request - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|ticket/person/hasEmarketingConsent|bool|Request - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|ticket/person/withdrawnEmarketingConsent|bool|Request - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|ticket/person/subscription|listAny|Request - Subscription: Subscription for marketing| x |
-|ticket/person/legalBaseStore|listAny|Request - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|ticket/person/legalBaseEmarketing|listAny|Request - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|ticket/person/consentSourceStore|listAny|Request - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|ticket/person/consentSourceEmarketing|listAny|Request - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|ticket/contact/contactId|int|Request - Company ID: Database ID of company| x |
-|ticket/contact/name|stringorPK|Request - Company name| x |
-|ticket/contact/department|string|Request - Department| x |
-|ticket/contact/nameDepartment| *None* |Request - Company: Displays the company an activity is linked to| x |
-|ticket/contact/hasInfoText|bool|Request - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|ticket/contact/hasInterests|bool|Request - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|ticket/contact/associateId|associate|Request - Our contact: Displays our contact| x |
-|ticket/contact/category|listAny|Request - Category| x |
-|ticket/contact/categoryGroup|listAny|Request - Category group| x |
-|ticket/contact/companyCategoryRank|int|Request - Category rank| x |
-|ticket/contact/business|listAny|Request - Business| x |
-|ticket/contact/country|listAny|Request - Country: This criterion corresponds to the Country field on the Company card.| x |
-|ticket/contact/countryId|int|Request - Country ID: Country ID| x |
-|ticket/contact/number|string|Request - Number| x |
-|ticket/contact/code|string|Request - Code| x |
-|ticket/contact/orgnr|string|Request - VAT No.| x |
-|ticket/contact/stop|bool|Request - Stop| x |
-|ticket/contact/contactNoMail|bool|Request - No mailings (company)| x |
-|ticket/contact/updatedBy|associate|Request - Updated by: The user who last updated the data| x |
-|ticket/contact/updatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
-|ticket/contact/updatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
-|ticket/contact/registeredBy|associate|Request - Registered by: The user who registered the data| x |
-|ticket/contact/registeredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
-|ticket/contact/registeredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
-|ticket/contact/contactSource|listAny|Request - Source: Source (Company)| x |
-|ticket/contact/contactDeleted|bool|Request - Deleted: Deleted| x |
-|ticket/contact/phone/formattedNumber|string|Request - Phone: Displays phone number|  |
-|ticket/contact/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/contact/deletedDate|datetime|Request - Deleted date: Deleted date|  |
-|ticket/contact/mainContact| *None* |Request - Main contact: Main contact for this company| x |
-|ticket/contact/forceCompany|bool|Request - Dummy: Dummy|  |
-|ticket/contact/contactPhone/formattedNumber|string|Request - Telephone - Phone: Displays phone number|  |
-|ticket/contact/contactPhone/description|string|Request - Telephone - Description: Phone number description| x |
-|ticket/contact/contactFax/formattedNumber|string|Request - Fax - Phone: Displays phone number|  |
-|ticket/contact/contactFax/description|string|Request - Fax - Description: Phone number description| x |
-|ticket/contact/searchPhone/formattedNumber|string|Request - Searchphone - Phone: Displays phone number|  |
-|ticket/contact/searchPhone/description|string|Request - Searchphone - Description: Phone number description| x |
-|ticket/contact/email/emailProtocol|string|Request - Protocol: E-mail protocol, such as SMTP| x |
-|ticket/contact/email/emailAddress|string|Request - E-mail| x |
-|ticket/contact/email/emailDescription|string|Request - Description| x |
-|ticket/contact/email/emailId|int|Request - ID| x |
-|ticket/contact/email/emailLastSent|datetime|Request - Last sent: The date and time an e-mail was last sent to this address| x |
-|ticket/contact/email/emailBounceCount|int|Request - Bounce count: Bounce count for this e-mail address| x |
-|ticket/contact/email/emailLastBounce|datetime|Request - Last bounce: Date and time for last bounce to this e-mail address| x |
+|ticket/person/personAssociate/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/person/personAssociate/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/person/personAssociate/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/person/personAssociate/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/person/personAssociate/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/person/personAssociate/isActive|bool|SR\_SINGUALR\_TICKET - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/person/personAssociate/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/person/personAssociate/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/person/personAssociate/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/person/personAssociate/userName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/person/personAssociate/personEmail|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/person/personAssociate/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/person/personAssociate/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/person/correspondingAssociate/firstName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/lastName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/middleName|string|SR\_SINGUALR\_TICKET - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/fullName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/contactId|int|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/person/correspondingAssociate/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/person/correspondingAssociate/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/title|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/person/correspondingAssociate/contactName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/person/correspondingAssociate/role|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/person/correspondingAssociate/assocName|associate|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/person/correspondingAssociate/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/person/correspondingAssociate/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ticket/person/correspondingAssociate/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/person/correspondingAssociate/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/person/correspondingAssociate/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/person/correspondingAssociate/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/isActive|bool|SR\_SINGUALR\_TICKET - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/person/correspondingAssociate/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/person/correspondingAssociate/userName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/person/correspondingAssociate/personEmail|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/person/correspondingAssociate/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/person/correspondingAssociate/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/person/isMailingRecipient|bool|SR\_SINGUALR\_TICKET - SR\_DASHBOARD\_MAILINGS\_RECIPIENT: isMailingRecipient| x |
+|ticket/person/hasStoreConsent|bool|SR\_SINGUALR\_TICKET - SR\_TOOLTIP\_CONSENTHAS - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|ticket/person/withdrawnStoreConsent|bool|SR\_SINGUALR\_TICKET - SR\_TOOLTIP\_CONSENTWITHDRAWN - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|ticket/person/hasEmarketingConsent|bool|SR\_SINGUALR\_TICKET - SR\_TOOLTIP\_CONSENTHAS - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|ticket/person/withdrawnEmarketingConsent|bool|SR\_SINGUALR\_TICKET - SR\_TOOLTIP\_CONSENTWITHDRAWN - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|ticket/person/subscription|listAny|SR\_SINGUALR\_TICKET - SR\_SUBSCRIPTION: SR\_SUBSCRIPTION\_TOOLTIP| x |
+|ticket/person/legalBaseStore|listAny|SR\_SINGUALR\_TICKET - SR\_LEGALBASE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+|ticket/person/legalBaseEmarketing|listAny|SR\_SINGUALR\_TICKET - SR\_LEGALBASE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|ticket/person/consentSourceStore|listAny|SR\_SINGUALR\_TICKET - SR\_CONSENTSOURCE - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+|ticket/person/consentSourceEmarketing|listAny|SR\_SINGUALR\_TICKET - SR\_CONSENTSOURCE - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|ticket/contact/contactId|int|SR\_SINGUALR\_TICKET - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|ticket/contact/name|stringorPK|SR\_SINGUALR\_TICKET - SR\_COMPANY\_NAME| x |
+|ticket/contact/department|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DEPARTEMENT| x |
+|ticket/contact/nameDepartment|string|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_CONTACT: SR\_ACTIVITYARCHIVE\_CONTACT\_TOOLTIP| x |
+|ticket/contact/hasInfoText|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|ticket/contact/hasInterests|bool|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|ticket/contact/associateId|associate|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|ticket/contact/category|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY| x |
+|ticket/contact/categoryGroup|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
+|ticket/contact/companyCategoryRank|int|SR\_SINGUALR\_TICKET - Category rank| x |
+|ticket/contact/business|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_BUSINESS| x |
+|ticket/contact/country|listAny|SR\_SINGUALR\_TICKET - SR\_SEARCH\_COUNTRY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTRY\_TOOLTIP| x |
+|ticket/contact/countryId|int|SR\_SINGUALR\_TICKET - SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|ticket/contact/number|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_NUMBER| x |
+|ticket/contact/code|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CODE| x |
+|ticket/contact/orgnr|string|SR\_SINGUALR\_TICKET - VAT No.| x |
+|ticket/contact/stop|bool|SR\_SINGUALR\_TICKET - SR\_CC\_STOPX| x |
+|ticket/contact/contactNoMail|bool|SR\_SINGUALR\_TICKET - SR\_NO\_MAIL\_COMPANY| x |
+|ticket/contact/updatedBy|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/contact/updatedByFullName|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/contact/updatedDate|date|SR\_SINGUALR\_TICKET - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|ticket/contact/registeredBy|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/contact/registeredByFullName|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/contact/registeredDate|date|SR\_SINGUALR\_TICKET - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|ticket/contact/contactSource|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_COMPANY)| x |
+|ticket/contact/contactDeleted|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DELETED: SR\_ARCHIVE\_DELETED| x |
+|ticket/contact/phone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/contact/activeErpLinks|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|ticket/contact/deletedDate|datetime|SR\_SINGUALR\_TICKET - SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|ticket/contact/mainContact| *None* |SR\_SINGUALR\_TICKET - SR\_COMPANY\_MAIN\_CONTACT: SR\_COMPANY\_MAIN\_CONTACT\_TOOLTIP| x |
+|ticket/contact/forceCompany|bool|SR\_SINGUALR\_TICKET - Dummy: Dummy|  |
+|ticket/contact/contactPhone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_CONTACTARCHIVE\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/contact/contactPhone/description|string|SR\_SINGUALR\_TICKET - SR\_CONTACTARCHIVE\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/contact/contactFax/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_CONTACTARCHIVE\_FAX - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/contact/contactFax/description|string|SR\_SINGUALR\_TICKET - SR\_CONTACTARCHIVE\_FAX - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/contact/searchPhone/formattedNumber|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_PHONE - SR\_CC\_PHONE: SR\_ARCHIVE\_PHONE\_TOOLTIP|  |
+|ticket/contact/searchPhone/description|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_PHONE - SR\_ARCHIVE\_DESCRIPTION: SR\_PHONE\_DESC\_TOOLTIP| x |
+|ticket/contact/email/emailProtocol|string|SR\_SINGUALR\_TICKET - SR\_EMAIL\_PROTOCOL: SR\_EMAIL\_PROTOCOL\_TOOLTIP| x |
+|ticket/contact/email/emailAddress|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/contact/email/emailDescription|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DESCRIPTION| x |
+|ticket/contact/email/emailId|int|SR\_SINGUALR\_TICKET - ID| x |
+|ticket/contact/email/emailLastSent|datetime|SR\_SINGUALR\_TICKET - SR\_EMAIL\_LAST\_SENT: SR\_EMAIL\_LAST\_SENT\_TOOLTIP| x |
+|ticket/contact/email/emailBounceCount|int|SR\_SINGUALR\_TICKET - SR\_EMAIL\_BOUNCE\_COUNT: SR\_EMAIL\_BOUNCE\_COUNT\_TOOLTIP| x |
+|ticket/contact/email/emailLastBounce|datetime|SR\_SINGUALR\_TICKET - SR\_EMAIL\_LAST\_BOUNCE: SR\_EMAIL\_LAST\_BOUNCE\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/contact/email/emailHasBounced|bool|Request - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|ticket/contact/postAddress/addressId|int|Request - Postal address - Address ID: Database ID for the address record| x |
-|ticket/contact/postAddress/line1|string|Request - Postal address - Address 1: First line of the address| x |
-|ticket/contact/postAddress/line2|string|Request - Postal address - Address 2: Second line of the address| x |
-|ticket/contact/postAddress/line3|string|Request - Postal address - Address 3: Third line of the address| x |
-|ticket/contact/postAddress/county|string|Request - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|ticket/contact/postAddress/city|string|Request - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|ticket/contact/postAddress/zip|string|Request - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|ticket/contact/postAddress/state|string|Request - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|ticket/contact/postAddress/wgs84latitude|decimal|Request - Postal address - Latitude: Latitude| x |
-|ticket/contact/postAddress/wgs84longitude|decimal|Request - Postal address - Longitude: Longitude| x |
-|ticket/contact/postAddress/formattedAddress| *None* |Request - Postal address - {formattedAddress}: {formattedAddress}|  |
-|ticket/contact/postAddress/formattedMultiLineAddress| *None* |Request - Postal address - {formattedAddress}: {formattedAddress}|  |
-|ticket/contact/streetAddress/addressId|int|Request - Street address - Address ID: Database ID for the address record| x |
-|ticket/contact/streetAddress/line1|string|Request - Street address - Address 1: First line of the address| x |
-|ticket/contact/streetAddress/line2|string|Request - Street address - Address 2: Second line of the address| x |
-|ticket/contact/streetAddress/line3|string|Request - Street address - Address 3: Third line of the address| x |
-|ticket/contact/streetAddress/county|string|Request - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|ticket/contact/streetAddress/city|string|Request - Street address - City: This criterion corresponds to the City field on the Company card.| x |
-|ticket/contact/streetAddress/zip|string|Request - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|ticket/contact/streetAddress/state|string|Request - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|ticket/contact/streetAddress/wgs84latitude|decimal|Request - Street address - Latitude: Latitude| x |
-|ticket/contact/streetAddress/wgs84longitude|decimal|Request - Street address - Longitude: Longitude| x |
-|ticket/contact/streetAddress/formattedAddress| *None* |Request - Street address - {formattedAddress}: {formattedAddress}|  |
-|ticket/contact/streetAddress/formattedMultiLineAddress| *None* |Request - Street address - {formattedAddress}: {formattedAddress}|  |
-|ticket/contact/restrictionAddress/addressId|int|Request - Search address - Address ID: Database ID for the address record| x |
-|ticket/contact/restrictionAddress/line1|string|Request - Search address - Address 1: First line of the address| x |
-|ticket/contact/restrictionAddress/line2|string|Request - Search address - Address 2: Second line of the address| x |
-|ticket/contact/restrictionAddress/line3|string|Request - Search address - Address 3: Third line of the address| x |
-|ticket/contact/restrictionAddress/county|string|Request - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|ticket/contact/restrictionAddress/city|string|Request - Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|ticket/contact/restrictionAddress/zip|string|Request - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|ticket/contact/restrictionAddress/state|string|Request - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|ticket/contact/restrictionAddress/wgs84latitude|decimal|Request - Search address - Latitude: Latitude| x |
-|ticket/contact/restrictionAddress/wgs84longitude|decimal|Request - Search address - Longitude: Longitude| x |
-|ticket/contact/restrictionAddress/formattedAddress| *None* |Request - Search address - {formattedAddress}: {formattedAddress}|  |
-|ticket/contact/restrictionAddress/formattedMultiLineAddress| *None* |Request - Search address - {formattedAddress}: {formattedAddress}|  |
-|ticket/contact/url/URLAddress|string|Request - URL| x |
-|ticket/contact/url/URLDescription|string|Request - Description| x |
-|ticket/contact/contactAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/contact/contactAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/contact/contactAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
-|ticket/contact/contactAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/contact/contactAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
-|ticket/contact/contactAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
-|ticket/contact/contactAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/contact/contactAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/contact/contactAssociate/associateDbId|associate|Request - ID| x |
-|ticket/contact/contactAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
-|ticket/contact/contactAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/contact/contactAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
-|ticket/contact/contactAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
-|ticket/contact/contactAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
-|ticket/contact/contactAssociate/contactCategory|listAny|Request - Category: Category| x |
-|ticket/contact/contactAssociate/role|listAny|Request - Role: Role| x |
-|ticket/contact/contactAssociate/assocName|associate|Request - User ID: User ID| x |
-|ticket/contact/contactAssociate/assocTooltip|string|Request - Description: Description|  |
-|ticket/contact/contactAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/contact/contactAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
-|ticket/contact/contactAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/contact/contactAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
-|ticket/contact/contactAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/contact/contactAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/contact/contactAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/contact/contactAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
-|ticket/contact/contactAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
-|ticket/contact/contactAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
-|ticket/contact/contactAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
-|ticket/contact/contactAssociate/userName|string|Request - User name: User name| x |
-|ticket/contact/contactAssociate/personEmail|string|Request - E-mail| x |
-|ticket/contact/contactAssociate/locationAddress|string|Request - Location: Location| x |
-|ticket/contact/contactAssociate/isLocation|bool|Request - Is a location: Is a location| x |
-|ticket/contact/contactInterestIds|listInterest|Request - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
-|ticket/contact/contactUdef/SuperOffice:1|string|Request - companyshorttext: tooltipshorttext| x |
-|ticket/contact/contactUdef/SuperOffice:2|string|Request - companylongtext: tooltiplongtext| x |
-|ticket/contact/contactUdef/SuperOffice:3|int|Request - companynumber| x |
-|ticket/contact/contactUdef/SuperOffice:4|date|Request - companydate| x |
-|ticket/contact/contactUdef/SuperOffice:5|unlimitedDate|Request - companyunlimiteddate: tooltipunlimiteddate| x |
-|ticket/contact/contactUdef/SuperOffice:6|bool|Request - companycheckbox| x |
-|ticket/contact/contactUdef/SuperOffice:7|listAny|Request - companydropdownlistbox| x |
-|ticket/contact/contactUdef/SuperOffice:8|decimal|Request - companydecimal| x |
-|ticket/contact/contactUdef/SuperOffice:9|string|Request - page1saleonly| x |
-|ticket/contact/contactUdef/SuperOffice:10|string|Request - page1marketingonly| x |
-|ticket/contact/contactUdef/SuperOffice:11|string|Request - page1adminonly| x |
-|ticket/contact/contactUdef/SuperOffice:12|listAny|Request - Udlist one: Static tooltip for udlist one| x |
-|ticket/contact/contactUdef/SuperOffice:13|listAny|Request - Udlist two: Static tooltip for udlist two| x |
-|ticket/contact/contactExtra/x\_contact\_integer|int|Request - Extra Integer: Custom integer field| x |
-|ticket/contact/contactExtra/x\_contact\_hidden\_integer|int|Request - Extra hidden integer: Custom integer field - hidden| x |
-|ticket/contact/contactExtra/x\_contact\_default\_integer|int|Request - Extra Default Integer: Custom integer field with default value 123.| x |
-|ticket/contact/contactExtra/x\_contact\_float|decimal|Request - Extra Float: Custom float field with 3 decimals| x |
-|ticket/contact/contactExtra/x\_contact\_longtext|string|Request - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|ticket/contact/contactExtra/x\_contact\_dropdown|listAny|Request - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
-|ticket/contact/contactExtra/x\_contact\_date|date|Request - Extra date: Custom date field. User current as default.| x |
-|ticket/contact/contactExtra/x\_contact\_datetime|datetime|Request - Extra DateTime: Custom Date Time field. No default value. External| x |
-|ticket/contact/contactExtra/x\_contact\_time| *None* |Request - Extra time: Custom time field.| x |
-|ticket/contact/contactExtra/x\_contact\_boolean|bool|Request - Extra boolean: Custom boolean field.| x |
-|ticket/contact/contactExtra/x\_contact\_timespan|timeSpan|Request - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|ticket/contact/contactExtra/x\_contact\_shorttext|string|Request - Extra short text: Custom short text field. Keep HTML tags.| x |
-|ticket/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Request - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
-|ticket/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Request - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+|ticket/contact/email/emailHasBounced|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_HASBOUNCED: SR\_ARCHIVE\_HASBOUNCED\_TOOLTIP| x |
+|ticket/contact/postAddress/addressId|int|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|ticket/contact/postAddress/line1|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|ticket/contact/postAddress/line2|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|ticket/contact/postAddress/line3|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|ticket/contact/postAddress/county|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|ticket/contact/postAddress/city|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|ticket/contact/postAddress/zip|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|ticket/contact/postAddress/state|string|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|ticket/contact/postAddress/wgs84latitude|decimal|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|ticket/contact/postAddress/wgs84longitude|decimal|SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|ticket/contact/postAddress/formattedAddress| *None* |SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|ticket/contact/postAddress/formattedMultiLineAddress| *None* |SR\_SINGUALR\_TICKET - SR\_AL\_POSTAL - {formattedAddress}: {formattedAddress}|  |
+|ticket/contact/streetAddress/addressId|int|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|ticket/contact/streetAddress/line1|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|ticket/contact/streetAddress/line2|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|ticket/contact/streetAddress/line3|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|ticket/contact/streetAddress/county|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|ticket/contact/streetAddress/city|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|ticket/contact/streetAddress/zip|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|ticket/contact/streetAddress/state|string|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|ticket/contact/streetAddress/wgs84latitude|decimal|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|ticket/contact/streetAddress/wgs84longitude|decimal|SR\_SINGUALR\_TICKET - SR\_AL\_STREET - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|ticket/contact/streetAddress/formattedAddress| *None* |SR\_SINGUALR\_TICKET - SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|ticket/contact/streetAddress/formattedMultiLineAddress| *None* |SR\_SINGUALR\_TICKET - SR\_AL\_STREET - {formattedAddress}: {formattedAddress}|  |
+|ticket/contact/restrictionAddress/addressId|int|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_ADDRESS\_ID: SR\_ADDRESS\_ID\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/line1|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS1: SR\_ADDRESS\_LINE1\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/line2|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS2: SR\_ADDRESS\_LINE2\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/line3|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_AL\_ADDRESS3: SR\_ADDRESS\_LINE3\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/county|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_COUNTY: SR\_SEARCH\_CRITERION\_CONTACT\_COUNTY\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/city|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_CITY: SR\_SEARCH\_CRITERION\_CONTACT\_CITY\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/zip|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_ZIP: SR\_SEARCH\_CRITERION\_CONTACT\_ZIP\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/state|string|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_SEARCH\_STATE: SR\_SEARCH\_CRITERION\_CONTACT\_STATE\_TOOLTIP| x |
+|ticket/contact/restrictionAddress/wgs84latitude|decimal|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LATITUDE| x |
+|ticket/contact/restrictionAddress/wgs84longitude|decimal|SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE: SR\_ADMIN\_IMPORT\_COLUMN\_WGS84LONGITUDE| x |
+|ticket/contact/restrictionAddress/formattedAddress| *None* |SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|ticket/contact/restrictionAddress/formattedMultiLineAddress| *None* |SR\_SINGUALR\_TICKET - SR\_RESTRICTION\_ADDRESS - {formattedAddress}: {formattedAddress}|  |
+|ticket/contact/url/URLAddress|string|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_URL| x |
+|ticket/contact/url/URLDescription|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DESCRIPTION| x |
+|ticket/contact/contactAssociate/firstName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/contact/contactAssociate/lastName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/contact/contactAssociate/middleName|string|SR\_SINGUALR\_TICKET - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/contact/contactAssociate/fullName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/contact/contactAssociate/contactId|int|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/contact/contactAssociate/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/contact/contactAssociate/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/contact/contactAssociate/title|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/contact/contactAssociate/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/contact/contactAssociate/contactName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/contact/contactAssociate/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/contact/contactAssociate/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/contact/contactAssociate/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/contact/contactAssociate/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/contact/contactAssociate/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/contact/contactAssociate/role|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/contact/contactAssociate/assocName|associate|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/contact/contactAssociate/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/contact/contactAssociate/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/contact/contactAssociate/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ticket/contact/contactAssociate/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/contact/contactAssociate/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/contact/contactAssociate/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/contact/contactAssociate/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/contact/contactAssociate/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/contact/contactAssociate/isActive|bool|SR\_SINGUALR\_TICKET - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/contact/contactAssociate/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/contact/contactAssociate/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/contact/contactAssociate/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/contact/contactAssociate/userName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/contact/contactAssociate/personEmail|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/contact/contactAssociate/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/contact/contactAssociate/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/contact/contactInterestIds|listInterest|SR\_SINGUALR\_TICKET - SR\_SEARCH\_CONTACT\_INTEREST: SR\_SEARCH\_CRITERION\_CONTACT\_INTEREST\_TOOLTIP|  |
+|ticket/contact/contactUdef/SuperOffice:1|string|SR\_SINGUALR\_TICKET - companyshorttext: tooltipshorttext| x |
+|ticket/contact/contactUdef/SuperOffice:2|string|SR\_SINGUALR\_TICKET - companylongtext: tooltiplongtext| x |
+|ticket/contact/contactUdef/SuperOffice:3|int|SR\_SINGUALR\_TICKET - companynumber| x |
+|ticket/contact/contactUdef/SuperOffice:4|date|SR\_SINGUALR\_TICKET - companydate| x |
+|ticket/contact/contactUdef/SuperOffice:5|unlimitedDate|SR\_SINGUALR\_TICKET - companyunlimiteddate: tooltipunlimiteddate| x |
+|ticket/contact/contactUdef/SuperOffice:6|bool|SR\_SINGUALR\_TICKET - companycheckbox| x |
+|ticket/contact/contactUdef/SuperOffice:7|listAny|SR\_SINGUALR\_TICKET - companydropdownlistbox| x |
+|ticket/contact/contactUdef/SuperOffice:8|decimal|SR\_SINGUALR\_TICKET - companydecimal| x |
+|ticket/contact/contactUdef/SuperOffice:9|string|SR\_SINGUALR\_TICKET - page1saleonly| x |
+|ticket/contact/contactUdef/SuperOffice:10|string|SR\_SINGUALR\_TICKET - page1marketingonly| x |
+|ticket/contact/contactUdef/SuperOffice:11|string|SR\_SINGUALR\_TICKET - page1adminonly| x |
+|ticket/contact/contactUdef/SuperOffice:12|listAny|SR\_SINGUALR\_TICKET - Udlist one: Static tooltip for udlist one| x |
+|ticket/contact/contactUdef/SuperOffice:13|listAny|SR\_SINGUALR\_TICKET - Udlist two: Static tooltip for udlist two| x |
+|ticket/contact/contactExtra/x\_contact\_integer|int|SR\_SINGUALR\_TICKET - Extra Integer: Custom integer field| x |
+|ticket/contact/contactExtra/x\_contact\_hidden\_integer|int|SR\_SINGUALR\_TICKET - Extra hidden integer: Custom integer field - hidden| x |
+|ticket/contact/contactExtra/x\_contact\_default\_integer|int|SR\_SINGUALR\_TICKET - Extra Default Integer: Custom integer field with default value 123.| x |
+|ticket/contact/contactExtra/x\_contact\_float|decimal|SR\_SINGUALR\_TICKET - Extra Float: Custom float field with 3 decimals| x |
+|ticket/contact/contactExtra/x\_contact\_longtext|string|SR\_SINGUALR\_TICKET - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|ticket/contact/contactExtra/x\_contact\_dropdown|listAny|SR\_SINGUALR\_TICKET - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|ticket/contact/contactExtra/x\_contact\_date|date|SR\_SINGUALR\_TICKET - Extra date: Custom date field. User current as default.| x |
+|ticket/contact/contactExtra/x\_contact\_datetime|datetime|SR\_SINGUALR\_TICKET - Extra DateTime: Custom Date Time field. No default value. External| x |
+|ticket/contact/contactExtra/x\_contact\_time| *None* |SR\_SINGUALR\_TICKET - Extra time: Custom time field.| x |
+|ticket/contact/contactExtra/x\_contact\_boolean|bool|SR\_SINGUALR\_TICKET - Extra boolean: Custom boolean field.| x |
+|ticket/contact/contactExtra/x\_contact\_timespan|timeSpan|SR\_SINGUALR\_TICKET - Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|ticket/contact/contactExtra/x\_contact\_shorttext|string|SR\_SINGUALR\_TICKET - Extra short text: Custom short text field. Keep HTML tags.| x |
+|ticket/contact/contactExtra/x\_contact\_short\_dropdown|listAny|SR\_SINGUALR\_TICKET - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|ticket/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|SR\_SINGUALR\_TICKET - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Request - Extra Request relation: Request relation on company| x |
-|ticket/contact/contactExtra/x\_contact\_contact|stringorPK|Request - Extra contact relation: Contact relation on company| x |
-|ticket/contact/contactExtra/y\_organization/x\_name|string|Request - Organization - Name: Name| x |
-|ticket/contact/NumberOfActivities|int|Request - Number of activities|  |
-|ticket/contact/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
-|ticket/contact/NumberOfNotCompletedActivities|int|Request - Number of non-completed activities|  |
-|ticket/contact/NumberOfNotCompletedActivitiesInPeriod|int|Request - Number of non-completed activities in last 90 days|  |
-|ticket/contact/LastActivity|date|Request - Date of last activity|  |
-|ticket/contact/LastCompletedActivity|date|Request - Date of last completed activity|  |
-|ticket/contact/LastDoByActivity|date|Request - Date of last non-completed activity|  |
-|ticket/contact/NumberOfSales|int|Request - Number of sales|  |
-|ticket/contact/NumberOfSalesInPeriod|int|Request - Number of sales in last 90 days|  |
-|ticket/contact/NumberOfNotCompletedSales|int|Request - Number of non-completed sales|  |
-|ticket/contact/NumberOfNotCompletedSalesInPeriod|int|Request - Number of non-completed sales in last 90 days|  |
-|ticket/contact/LastSale|date|Request - Date of last sale|  |
-|ticket/contact/LastCompletedSale|date|Request - Date of last completed sale|  |
-|ticket/contact/LastDoBySale|date|Request - Date of last non-completed sale|  |
-|ticket/contact/NumberOfTickets|int|Request - Number of requests|  |
-|ticket/contact/NumberOfTicketsInPeriod|int|Request - Number of requests in last 90 days|  |
-|ticket/contact/NumberOfNotCompletedTickets|int|Request - Number of non-completed requests|  |
-|ticket/contact/NumberOfNotCompletedTicketsInPeriod|int|Request - Number of non-completed requests in last 90 days|  |
-|ticket/contact/LastTicket|date|Request - Date of last request|  |
-|ticket/contact/LastCompletedTicket|date|Request - Date of last completed request|  |
-|ticket/contact/LastDoByTicket|date|Request - Date of last non-completed request|  |
-|ticket/contact/SaintStatus1|saintStatus|Request - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|ticket/contact/SaintStatus2|saintStatus|Request - C-company: Kundens navn starter med bokstaven C|  |
-|ticket/contact/saintSaleStatus|listAny|Request - With status|  |
-|ticket/contact/saintAmountClass|listAny|Request - Amount class|  |
-|ticket/contact/saintActivityType|listAny|Request - SAINT type|  |
-|ticket/contact/saintDirection|listAny|Request - Direction|  |
-|ticket/contact/saintIntention|listAny|Request - Intention|  |
-|ticket/contact/saintTicketStatus|listAny|Request - Status|  |
-|ticket/contact/saintTicketCategory|listAny|Request - Category|  |
-|ticket/extra/x\_ticket\_integer|int|Request - Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
-|ticket/extra/x\_ticket\_float|decimal|Request - Extra float: Custom float on Request. 2 decimal places| x |
-|ticket/extra/x\_ticket\_longtext|string|Request - Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
-|ticket/extra/x\_ticket\_date|date|Request - Extra date: Custom date field on Request. No default value| x |
-|ticket/extra/x\_ticket\_datetime|datetime|Request - Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
-|ticket/extra/x\_ticket\_time| *None* |Request - Extra time: Custom time field on Request. Default = 13min Display for new.| x |
-|ticket/extra/x\_ticket\_boolean|bool|Request - Extra boolean: Custom boolean on Ticket.| x |
-|ticket/extra/x\_ticket\_timespan|timeSpan|Request - Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
-|ticket/extra/x\_ticket\_short\_text|string|Request - Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
-|ticket/extra/x\_ticket\_shorttext\_list|listAny|Request - Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
-|ticket/extra/x\_ticket\_timestamp|datetime|Request - Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
-|ticket/extra/x\_ticket\_project\_relation|stringorPK|Request - Extra project: Custom project relation on Request| x |
-|ticket/extra/x\_ticket\_faq|stringorPK|Request - Extra FAQ Relation: Extra FAQ Relation| x |
-|ticket/extra/x\_ticket\_category\_relation|listAny|Request - Extra category relation: Category relation on request| x |
-|ticket/extra/y\_equipment/x\_name|string|Request - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|ticket/extra/y\_car/id|int|Request - Car - id: Displays the row's primary key (y\_car)| x |
-|ticket/sale/completed|bool|Request - Completed: Displays a checkbox showing if an appointment is completed| x |
-|ticket/sale/icon|listAny|Request - Category: Displays the icon for an activity type| x |
-|ticket/sale/date|date|Request - Date: Displays start date of a follow-up / sale date of a sale| x |
-|ticket/sale/time| *None* |Request - Time: Time|  |
-|ticket/sale/type|listAny|Request - Type: Displays the type of an activity| x |
-|ticket/sale/recordType|string|Request - Record type: Shows the record type| x |
-|ticket/sale/text|positiveString|Request - Text: Displays a descriptive text for the item| x |
-|ticket/sale/associateId|associate|Request - ID: Displays the login ID of the associate who owns the activity.| x |
-|ticket/sale/contactId|listAny|Request - Company ID: Database ID of company| x |
-|ticket/sale/personId|listAny|Request - Contact ID: Database ID of the contact row| x |
-|ticket/sale/projectId|listAny|Request - Project ID: Database ID of project record| x |
-|ticket/sale/saleId|int|Request - Sale ID: The database ID of the sale record| x |
-|ticket/sale/userGroup|userGroup|Request - User group: The user group that owns the record| x |
-|ticket/sale/who| *None* |Request - Who: Contact and/or company|  |
-|ticket/sale/updatedBy|associate|Request - Updated by: The user who last updated the data| x |
-|ticket/sale/updatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
-|ticket/sale/updatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
-|ticket/sale/registeredBy|associate|Request - Registered by: The user who registered the data| x |
-|ticket/sale/registeredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
-|ticket/sale/registeredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
-|ticket/sale/currencyId|int|Request - Currency ID: The currency list item ID| x |
-|ticket/sale/currency|listAny|Request - Currency: The currency of the sale| x |
-|ticket/sale/credited|listAny|Request - Credited: The user to be credited with the sale| x |
-|ticket/sale/lossReason|listAny|Request - Reason (lost): The reason for losing the sale| x |
-|ticket/sale/source|listAny|Request - Source: The source (lead) of the sale| x |
-|ticket/sale/competitor|listAny|Request - Competitor: The competitor who won the sale| x |
-|ticket/sale/heading|stringorPK|Request - Sale: The name of the sale| x |
-|ticket/sale/amount|decimal|Request - Amount: The gross sales total| x |
-|ticket/sale/amountWeighted|decimal|Request - Weighted amount: Virtual field calculated from amount * probability percent.| x |
-|ticket/sale/earning|decimal|Request - Profit: Gross profit (gross sales total - cost) for the sale| x |
-|ticket/sale/earningPercent|decimal|Request - Profit as %: The profit as a percentage of the gross sales total| x |
-|ticket/sale/probPercent|int|Request - Probability as %: Probability as %| x |
-|ticket/sale/originalStage|listAny|Request - Stage when closed: Stage when closed| x |
-|ticket/sale/stage|listAny|Request - Stage: Displays the stage of the sale| x |
-|ticket/sale/stageName| *None* |Request - Stage name: Displays the stage of the sale| x |
-|ticket/sale/saleStatus|listAny|Request - Status: The status of the sale - open, lost or sold| x |
-|ticket/sale/stageRank| *None* |Request - Stage rank: Rank of the sale stage in the stage list| x |
-|ticket/sale/saleType|listAny|Request - Sale type: Sale type, from list| x |
-|ticket/sale/saleTypeId| *None* |Request - Sale type ID: Sale type, from list| x |
-|ticket/sale/stageId| *None* |Request - Sale stage ID: Displays the stage of the sale| x |
-|ticket/sale/nextDueDate|date|Request - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|ticket/sale/reopenDate|date|Request - Reopen date: Displays the reopen date for the sale| x |
-|ticket/sale/stalledComment|listAny|Request - Reason (stalled): The reason the sale has been stalled| x |
-|ticket/sale/saleTypeCategory|listAny|Request - Sale type category: Sale type category| x |
-|ticket/sale/soldReason|listAny|Request - Reason (sold): Reason (sold)| x |
-|ticket/sale/saleNumber|string|Request - Number: Number| x |
-|ticket/sale/hasStakeholders|bool|Request - Has stakeholders: Does this sale have stakeholders| x |
-|ticket/sale/stakeholdersEnabled|bool|Request - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
-|ticket/sale/hasQuote|bool|Request - Has quote?: Does the sale have a quote attached?| x |
-|ticket/sale/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
-|ticket/sale/description|string|Request - Description: The long description field on Sale|  |
+|ticket/contact/contactExtra/x\_contact\_request\_relation|stringorPK|SR\_SINGUALR\_TICKET - Extra Request relation: Request relation on company| x |
+|ticket/contact/contactExtra/x\_contact\_contact|stringorPK|SR\_SINGUALR\_TICKET - Extra contact relation: Contact relation on company| x |
+|ticket/contact/contactExtra/y\_organization/x\_name|string|SR\_SINGUALR\_TICKET - Organization - Name: Name| x |
+|ticket/contact/NumberOfActivities|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|ticket/contact/NumberOfActivitiesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/contact/NumberOfNotCompletedActivities|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|ticket/contact/NumberOfNotCompletedActivitiesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/contact/LastActivity|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_ACTIVITY|  |
+|ticket/contact/LastCompletedActivity|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|ticket/contact/LastDoByActivity|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|ticket/contact/NumberOfSales|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_SALES|  |
+|ticket/contact/NumberOfSalesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/contact/NumberOfNotCompletedSales|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|ticket/contact/NumberOfNotCompletedSalesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/contact/LastSale|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_SALE|  |
+|ticket/contact/LastCompletedSale|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|ticket/contact/LastDoBySale|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
+|ticket/contact/NumberOfTickets|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_TICKETS|  |
+|ticket/contact/NumberOfTicketsInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/contact/NumberOfNotCompletedTickets|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS|  |
+|ticket/contact/NumberOfNotCompletedTicketsInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_TICKETS\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/contact/LastTicket|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_TICKET|  |
+|ticket/contact/LastCompletedTicket|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_COMPLETED\_TICKET|  |
+|ticket/contact/LastDoByTicket|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_INCOMPLETE\_TICKET|  |
+|ticket/contact/SaintStatus1|saintStatus|SR\_SINGUALR\_TICKET - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|ticket/contact/SaintStatus2|saintStatus|SR\_SINGUALR\_TICKET - C-company: Kundens navn starter med bokstaven C|  |
+|ticket/contact/saintSaleStatus|listAny|SR\_SINGUALR\_TICKET - SR\_WITH\_STATUS|  |
+|ticket/contact/saintAmountClass|listAny|SR\_SINGUALR\_TICKET - SR\_AMOUNT\_CLASS|  |
+|ticket/contact/saintActivityType|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SAINT\_TYPE|  |
+|ticket/contact/saintDirection|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DIRECTION|  |
+|ticket/contact/saintIntention|listAny|SR\_SINGUALR\_TICKET - SR\_ACTIVITY\_INTENTION|  |
+|ticket/contact/saintTicketStatus|listAny|SR\_SINGUALR\_TICKET - SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|ticket/contact/saintTicketCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
+|ticket/extra/x\_ticket\_integer|int|SR\_SINGUALR\_TICKET - Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
+|ticket/extra/x\_ticket\_float|decimal|SR\_SINGUALR\_TICKET - Extra float: Custom float on Request. 2 decimal places| x |
+|ticket/extra/x\_ticket\_longtext|string|SR\_SINGUALR\_TICKET - Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
+|ticket/extra/x\_ticket\_date|date|SR\_SINGUALR\_TICKET - Extra date: Custom date field on Request. No default value| x |
+|ticket/extra/x\_ticket\_datetime|datetime|SR\_SINGUALR\_TICKET - Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
+|ticket/extra/x\_ticket\_time| *None* |SR\_SINGUALR\_TICKET - Extra time: Custom time field on Request. Default = 13min Display for new.| x |
+|ticket/extra/x\_ticket\_boolean|bool|SR\_SINGUALR\_TICKET - Extra boolean: Custom boolean on Ticket.| x |
+|ticket/extra/x\_ticket\_timespan|timeSpan|SR\_SINGUALR\_TICKET - Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
+|ticket/extra/x\_ticket\_short\_text|string|SR\_SINGUALR\_TICKET - Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
+|ticket/extra/x\_ticket\_shorttext\_list|listAny|SR\_SINGUALR\_TICKET - Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
+|ticket/extra/x\_ticket\_timestamp|datetime|SR\_SINGUALR\_TICKET - Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
+|ticket/extra/x\_ticket\_project\_relation|stringorPK|SR\_SINGUALR\_TICKET - Extra project: Custom project relation on Request| x |
+|ticket/extra/x\_ticket\_faq|stringorPK|SR\_SINGUALR\_TICKET - Extra FAQ Relation: Extra FAQ Relation| x |
+|ticket/extra/x\_ticket\_category\_relation|listAny|SR\_SINGUALR\_TICKET - Extra category relation: Category relation on request| x |
+|ticket/extra/y\_equipment/x\_name|string|SR\_SINGUALR\_TICKET - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|ticket/extra/y\_car/id|int|SR\_SINGUALR\_TICKET - Car - id: SR\_ARCHIVEROW\_PRIMARYKEY\_TOOLTIP (y\_car)| x |
+|ticket/sale/completed|bool|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ISDONE: SR\_ACTIVITYARCHIVE\_ISDONE\_TOOLTIP| x |
+|ticket/sale/icon|listAny|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP| x |
+|ticket/sale/date|date|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_STARTDATE: SR\_ACTIVITYARCHIVE\_STARTDATE\_TOOLTIP| x |
+|ticket/sale/time| *None* |SR\_SINGUALR\_TICKET - SR\_INVITE\_TIME: SR\_INVITE\_TIME|  |
+|ticket/sale/type|listAny|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_TYPE: SR\_ACTIVITYARCHIVE\_TYPE\_TOOLTIP| x |
+|ticket/sale/recordType|string|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_RECORDTYPE: SR\_ACTIVITYARCHIVE\_RECORDTYPE\_TOOLTIP| x |
+|ticket/sale/text|positiveString|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|ticket/sale/associateId|associate|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ASSOCIATEID: SR\_ACTIVITYARCHIVE\_ASSOCIATEID\_TOOLTIP| x |
+|ticket/sale/contactId|listAny|SR\_SINGUALR\_TICKET - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|ticket/sale/personId|listAny|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP| x |
+|ticket/sale/projectId|listAny|SR\_SINGUALR\_TICKET - SR\_PROJECT\_ID: SR\_PROJECT\_ID\_TOOLTIP| x |
+|ticket/sale/saleId|int|SR\_SINGUALR\_TICKET - SR\_SALE\_ID: SR\_SALE\_ID\_TOOLTIP| x |
+|ticket/sale/userGroup|userGroup|SR\_SINGUALR\_TICKET - SR\_FT\_USERGROUP: SR\_USERGROUP\_TOOLTIP| x |
+|ticket/sale/who| *None* |SR\_SINGUALR\_TICKET - SR\_WHO: SR\_WHO\_TOOLTIP|  |
+|ticket/sale/updatedBy|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/sale/updatedByFullName|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/sale/updatedDate|date|SR\_SINGUALR\_TICKET - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|ticket/sale/registeredBy|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/sale/registeredByFullName|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/sale/registeredDate|date|SR\_SINGUALR\_TICKET - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|ticket/sale/currencyId|int|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_CURRENCY\_ID: SR\_ARCHIVE\_SALE\_CURRENCY\_ID\_TOOLTIP| x |
+|ticket/sale/currency|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_CURRENCY: SR\_SALE\_CURRENCY\_TOOLTIP| x |
+|ticket/sale/credited|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_CREDITED: SR\_SALE\_CREDITED\_TOOLTIP| x |
+|ticket/sale/lossReason|listAny|SR\_SINGUALR\_TICKET - SR\_SALE\_REASON\_LOST: SR\_SALE\_LOSSREASON\_TOOLTIP| x |
+|ticket/sale/source|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_SOURCE: SR\_SALE\_SOURCE\_TOOLTIP| x |
+|ticket/sale/competitor|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_COMPETITOR: SR\_SALE\_COMPETITOR\_TOOLTIP| x |
+|ticket/sale/heading|stringorPK|SR\_SINGUALR\_TICKET - SR\_COMMON\_SALE: SR\_ARCHIVE\_SALE\_NAME\_TOOLTIP| x |
+|ticket/sale/amount|decimal|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_AMOUNT: SR\_SALE\_AMOUNT\_TOOLTIP| x |
+|ticket/sale/amountWeighted|decimal|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP| x |
+|ticket/sale/earning|decimal|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_EARNING: SR\_EARNING\_AMOUNT\_TOOLTIP| x |
+|ticket/sale/earningPercent|decimal|SR\_SINGUALR\_TICKET - SR\_SDLG\_EARNINGP: SR\_SALE\_EARNINGPCT\_TOOLTIP| x |
+|ticket/sale/probPercent|int|SR\_SINGUALR\_TICKET - SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE: SR\_LIST\_PROBABILITY\_AS\_PERCENTAGE\_TOOLTIP| x |
+|ticket/sale/originalStage|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED: SR\_ARCHIVE\_SALE\_STAGE\_WHEN\_CLOSED| x |
+|ticket/sale/stage|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_STAGE: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP| x |
+|ticket/sale/stageName| *None* |SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_STAGE\_NAME: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP| x |
+|ticket/sale/saleStatus|listAny|SR\_SINGUALR\_TICKET - SR\_SALEDLG\_STATUS: SR\_SALE\_STATUS\_TOOLTIP| x |
+|ticket/sale/stageRank| *None* |SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_STAGE\_RANK: SR\_ARCHIVE\_SALE\_STAGE\_RANK\_TOOLTIP| x |
+|ticket/sale/saleType|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALETYPE: SR\_ARCHIVE\_SALETYPE\_TOOLTIP| x |
+|ticket/sale/saleTypeId| *None* |SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALETYPE\_ID: SR\_ARCHIVE\_SALETYPE\_TOOLTIP| x |
+|ticket/sale/stageId| *None* |SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_STAGE\_ID: SR\_ARCHIVE\_SALE\_STAGE\_TOOLTIP| x |
+|ticket/sale/nextDueDate|date|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_NEXTDUEDATE: SR\_ARCHIVE\_NEXTDUEDATE\_TOOLTIP| x |
+|ticket/sale/reopenDate|date|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_REOPENDATE: SR\_ARCHIVE\_SALE\_REOPENDATE\_TOOLTIP| x |
+|ticket/sale/stalledComment|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_STALLEDCOMMENT: SR\_ARCHIVE\_STALLEDCOMMENT\_TOOLTIP| x |
+|ticket/sale/saleTypeCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_SALE\_CAT: SR\_ADMIN\_LIST\_SALE\_CAT| x |
+|ticket/sale/soldReason|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_REASON\_SOLD: SR\_ARCHIVE\_REASON\_SOLD\_TOOLTIP| x |
+|ticket/sale/saleNumber|string|SR\_SINGUALR\_TICKET - SR\_SALESARCHIVE\_NUMBER: SR\_SALESARCHIVE\_NUMBER| x |
+|ticket/sale/hasStakeholders|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_HAS\_STAKEHOLDERS: SR\_ARCHIVE\_HAS\_STAKEHOLDERS\_TOOLTIP| x |
+|ticket/sale/stakeholdersEnabled|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED: SR\_ARCHIVE\_STAKEHOLDERS\_ENABLED\_TOOLTIP| x |
+|ticket/sale/hasQuote|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_HAS\_QUOTE: SR\_ARCHIVE\_HAS\_QUOTE\_TOOLTIP| x |
+|ticket/sale/hasGuide|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP| x |
+|ticket/sale/description|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALEDESCRIPTION: SR\_ARCHIVE\_SALEDESCRIPTION\_TOOLTIP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/sale/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/sale/createdByWorkflow|listAny|Request - Created by flow: Created by flow| x |
-|ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency: The gross sales total| x |
-|ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|ticket/sale/daysInStage|int|Request - Days in stage: Total number of days in this stage| x |
-|ticket/sale/visibleFor|listAny|Request - Visible for|  |
-|ticket/sale/sale/textId|int|Request - Text ID| x |
-|ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
-|ticket/sale/salePublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
-|ticket/sale/salePublish/publishedFrom|date|Request - From date: Start date for publishing. The record will not be visible prior to this date| x |
-|ticket/sale/salePublish/publishedTo|date|Request - To date: End date for publishing. The record will not be visible after this date| x |
-|ticket/sale/salePublish/publishedBy| *None* |Request - Published by: Published by|  |
-|ticket/sale/associate/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/sale/associate/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/sale/associate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
-|ticket/sale/associate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/sale/associate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
-|ticket/sale/associate/personId|int|Request - Contact ID: Database ID of the contact row|  |
-|ticket/sale/associate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/sale/associate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/sale/associate/associateDbId|associate|Request - ID| x |
-|ticket/sale/associate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
-|ticket/sale/associate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/sale/associate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
-|ticket/sale/associate/usergroupId|int|Request - Group ID: The user's primary user group| x |
-|ticket/sale/associate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
-|ticket/sale/associate/contactCategory|listAny|Request - Category: Category| x |
-|ticket/sale/associate/role|listAny|Request - Role: Role| x |
-|ticket/sale/associate/assocName|associate|Request - User ID: User ID| x |
-|ticket/sale/associate/assocTooltip|string|Request - Description: Description|  |
-|ticket/sale/associate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/sale/associate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
-|ticket/sale/associate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/sale/associate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
-|ticket/sale/associate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/sale/associate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/sale/associate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/sale/associate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
-|ticket/sale/associate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
-|ticket/sale/associate/portraitThumbnail| *None* |Request - Person image: Person image|  |
-|ticket/sale/associate/otherGroups|userGroup|Request - Other groups: Other groups|  |
-|ticket/sale/associate/userName|string|Request - User name: User name| x |
-|ticket/sale/associate/personEmail|string|Request - E-mail| x |
-|ticket/sale/associate/locationAddress|string|Request - Location: Location| x |
-|ticket/sale/associate/isLocation|bool|Request - Is a location: Is a location| x |
-|ticket/sale/saleUdef/SuperOffice:1|string|Request - saleshorttext| x |
-|ticket/sale/saleUdef/SuperOffice:2|string|Request - salelongtext| x |
-|ticket/sale/saleUdef/SuperOffice:3|int|Request - salenumber| x |
-|ticket/sale/saleUdef/SuperOffice:4|date|Request - saledate| x |
-|ticket/sale/saleUdef/SuperOffice:5|unlimitedDate|Request - saleunlimiteddate| x |
-|ticket/sale/saleUdef/SuperOffice:6|bool|Request - salecheckbox| x |
-|ticket/sale/saleUdef/SuperOffice:7|listAny|Request - saledropdownlistbox| x |
-|ticket/sale/saleUdef/SuperOffice:8|decimal|Request - saledecimal| x |
-|ticket/project/completed|bool|Request - Completed: Displays a check mark indicating if the project has been completed.| x |
-|ticket/project/projectId|int|Request - DB ID: Displays the database ID for a project row| x |
-|ticket/project/name|stringorPK|Request - Project name: Displays the Project's name| x |
-|ticket/project/number|string|Request - Number: Displays the project's number| x |
-|ticket/project/type|listAny|Request - Project type: Displays the project's type| x |
-|ticket/project/status|listAny|Request - Status: Displays the project's status| x |
-|ticket/project/statusRank| *None* |Request - Status rank: Rank of the project status in the status list| x |
-|ticket/project/associateId|associate|Request - ID: Displays login ID of the associate who owns the project| x |
-|ticket/project/hasInfoText|bool|Request - Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
-|ticket/project/icon| *None* |Request - Category: Displays the icon for an activity type| x |
-|ticket/project/text|string|Request - Text: Displays a descriptive text for the item| x |
-|ticket/project/description|string|Request - Description: Description| x |
-|ticket/project/updatedBy|associate|Request - Updated by: The user who last updated the data| x |
-|ticket/project/updatedByFullName|associate|Request - Updated by - Full name: The user who last updated the data| x |
-|ticket/project/updatedDate|date|Request - Updated: The date/time the data was last updated in UTC.| x |
-|ticket/project/registeredBy|associate|Request - Registered by: The user who registered the data| x |
-|ticket/project/registeredByFullName|associate|Request - Registered by - Full name: The user who registered the data| x |
-|ticket/project/registeredDate|date|Request - Registered date: The date/time the data was registered in UTC.| x |
-|ticket/project/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
-|ticket/project/nextMilestone|date|Request - Next milestone: Date of next non-completed activity that is marked as a milestone| x |
-|ticket/project/endDate|date|Request - End date: End date of project| x |
-|ticket/project/imageThumbnail| *None* |Request - Thumbnail: Scaled-down image of project image|  |
-|ticket/project/activeErpLinks|bool|Request - ERP connected: Is there an active ERP Sync?| x |
-|ticket/project/eventId|int|Request - Event ID: Event ID| x |
-|ticket/project/startDate|date|Request - Start date: Project start date| x |
-|ticket/project/projectPublish/isPublished|bool|Request - Published: Displays an icon indicating if the project or sale has been published| x |
-|ticket/project/projectPublish/publishedFrom|date|Request - From date: Start date for publishing. The record will not be visible prior to this date| x |
-|ticket/project/projectPublish/publishedTo|date|Request - To date: End date for publishing. The record will not be visible after this date| x |
-|ticket/project/projectPublish/publishedBy| *None* |Request - Published by: Published by|  |
-|ticket/project/projectEvent/isExternalEvent|bool|Request - Event: Is this an external event| x |
-|ticket/project/projectEvent/eventDate|date|Request - Event date: Event date| x |
-|ticket/project/projectEvent/hasSignOn|bool|Request - Sign On: Does this event have the Sign On function enabled| x |
-|ticket/project/projectEvent/hasSignOff|bool|Request - Sign Off: Does this event have the Sign Off function enabled| x |
-|ticket/project/projectUrl/URLAddress|string|Request - URL| x |
-|ticket/project/projectUrl/URLDescription|string|Request - Description| x |
-|ticket/project/projectAssociate/firstName|string|Request - First name: Displays the contact's first name| x |
-|ticket/project/projectAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
-|ticket/project/projectAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
-|ticket/project/projectAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/project/projectAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
-|ticket/project/projectAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
-|ticket/project/projectAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/project/projectAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|ticket/project/projectAssociate/associateDbId|associate|Request - ID| x |
-|ticket/project/projectAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
-|ticket/project/projectAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/project/projectAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
+|ticket/sale/activeErpLinks|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|ticket/sale/createdByWorkflow|listAny|SR\_SINGUALR\_TICKET - SR\_CREATED\_BY\_WORKFLOW: SR\_CREATED\_BY\_WORKFLOW\_TOOLTIP| x |
+|ticket/sale/amountInBaseCurrency| *None* |SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_AMOUNT (BaseCurrency: SR\_SALE\_AMOUNT\_TOOLTIP| x |
+|ticket/sale/amountWeightedInBaseCurrency| *None* |SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT (BaseCurrency: SR\_ARCHIVE\_SALE\_WEIGHTEDAMOUNT\_TOOLTIP| x |
+|ticket/sale/daysInStage|int|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE: SR\_ARCHIVE\_SALE\_DAYS\_IN\_STAGE\_TOOLTIP| x |
+|ticket/sale/visibleFor|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_VISIBLE\_FOR|  |
+|ticket/sale/sale/textId|int|SR\_SINGUALR\_TICKET - Text ID| x |
+|ticket/sale/sale/description|positiveString|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|ticket/sale/salePublish/isPublished|bool|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP| x |
+|ticket/sale/salePublish/publishedFrom|date|SR\_SINGUALR\_TICKET - SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP| x |
+|ticket/sale/salePublish/publishedTo|date|SR\_SINGUALR\_TICKET - SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP| x |
+|ticket/sale/salePublish/publishedBy| *None* |SR\_SINGUALR\_TICKET - SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|ticket/sale/associate/firstName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/sale/associate/lastName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/sale/associate/middleName|string|SR\_SINGUALR\_TICKET - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/sale/associate/fullName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/sale/associate/contactId|int|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/sale/associate/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/sale/associate/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/sale/associate/title|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/sale/associate/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/sale/associate/contactName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/sale/associate/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/sale/associate/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/sale/associate/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/sale/associate/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/sale/associate/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/sale/associate/role|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/sale/associate/assocName|associate|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/sale/associate/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/sale/associate/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/sale/associate/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ticket/sale/associate/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/sale/associate/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/sale/associate/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/sale/associate/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/sale/associate/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/sale/associate/isActive|bool|SR\_SINGUALR\_TICKET - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/sale/associate/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/sale/associate/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/sale/associate/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/sale/associate/userName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/sale/associate/personEmail|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/sale/associate/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/sale/associate/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/sale/saleUdef/SuperOffice:1|string|SR\_SINGUALR\_TICKET - saleshorttext| x |
+|ticket/sale/saleUdef/SuperOffice:2|string|SR\_SINGUALR\_TICKET - salelongtext| x |
+|ticket/sale/saleUdef/SuperOffice:3|int|SR\_SINGUALR\_TICKET - salenumber| x |
+|ticket/sale/saleUdef/SuperOffice:4|date|SR\_SINGUALR\_TICKET - saledate| x |
+|ticket/sale/saleUdef/SuperOffice:5|unlimitedDate|SR\_SINGUALR\_TICKET - saleunlimiteddate| x |
+|ticket/sale/saleUdef/SuperOffice:6|bool|SR\_SINGUALR\_TICKET - salecheckbox| x |
+|ticket/sale/saleUdef/SuperOffice:7|listAny|SR\_SINGUALR\_TICKET - saledropdownlistbox| x |
+|ticket/sale/saleUdef/SuperOffice:8|decimal|SR\_SINGUALR\_TICKET - saledecimal| x |
+|ticket/project/completed|bool|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ISDONE: SR\_PROJECTARCHIVE\_COMPLETED\_TOOLTIP| x |
+|ticket/project/projectId|int|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_RECORDID: SR\_PROJECTARCHIVE\_RECORDID\_TOOLTIP| x |
+|ticket/project/name|stringorPK|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_NAME: SR\_PROJECTARCHIVE\_NAME\_TOOLTIP| x |
+|ticket/project/number|string|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_NUMBER: SR\_PROJECTARCHIVE\_NUMBER\_TOOLTIP| x |
+|ticket/project/type|listAny|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_TYPE: SR\_PROJECTARCHIVE\_TYPE\_TOOLTIP| x |
+|ticket/project/status|listAny|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_STATUS: SR\_PROJECTARCHIVE\_STATUS\_TOOLTIP| x |
+|ticket/project/statusRank| *None* |SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_STATUS\_RANK: SR\_PROJECTARCHIVE\_STATUS\_RANK\_TOOLTIP| x |
+|ticket/project/associateId|associate|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_ASSOCIATEID: SR\_PROJECTARCHIVE\_ASSOCIATEID\_TOOLTIP| x |
+|ticket/project/hasInfoText|bool|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_HASINFO: SR\_PROJECTARCHIVE\_HASINFO\_TOOLTIP| x |
+|ticket/project/icon| *None* |SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_CATEGORY: SR\_ACTIVITYARCHIVE\_CATEGORY\_TOOLTIP| x |
+|ticket/project/text|string|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_DESCRIPTION: SR\_ACTIVITYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|ticket/project/description|string|SR\_SINGUALR\_TICKET - SR\_LABEL\_DESCRIPTION: SR\_LABEL\_DESCRIPTION| x |
+|ticket/project/updatedBy|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/project/updatedByFullName|associate|SR\_SINGUALR\_TICKET - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|ticket/project/updatedDate|date|SR\_SINGUALR\_TICKET - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|ticket/project/registeredBy|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/project/registeredByFullName|associate|SR\_SINGUALR\_TICKET - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|ticket/project/registeredDate|date|SR\_SINGUALR\_TICKET - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|ticket/project/hasGuide|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_HAS\_GUIDE: SR\_ARCHIVE\_HAS\_GUIDE\_TOOLTIP| x |
+|ticket/project/nextMilestone|date|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_NEXTMILESTONE: SR\_ARCHIVE\_NEXTMILESTONE\_TOOLTIP| x |
+|ticket/project/endDate|date|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ENDDATE: SR\_ARCHIVE\_ENDDATE\_TOOLTIP| x |
+|ticket/project/imageThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_THUMBNAIL: SR\_PROJECTARCHIVE\_THUMBNAIL\_TOOLTIP|  |
+|ticket/project/activeErpLinks|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|ticket/project/eventId|int|SR\_SINGUALR\_TICKET - SR\_FIELD\_PROJECT\_EVENT\_ID: SR\_FIELD\_PROJECT\_EVENT\_ID| x |
+|ticket/project/startDate|date|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_STARTDATE: SR\_ARCHIVE\_STARTDATE\_TOOLTIP| x |
+|ticket/project/projectPublish/isPublished|bool|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_ISPUBLISHED: SR\_ARCHIVE\_ISPUBLISHED\_TOOLTIP| x |
+|ticket/project/projectPublish/publishedFrom|date|SR\_SINGUALR\_TICKET - SR\_FROM\_DATE: SR\_PUBLISHED\_FROM\_DATE\_TOOLTIP| x |
+|ticket/project/projectPublish/publishedTo|date|SR\_SINGUALR\_TICKET - SR\_TO\_DATE: SR\_PUBLISHED\_TO\_DATE\_TOOLTIP| x |
+|ticket/project/projectPublish/publishedBy| *None* |SR\_SINGUALR\_TICKET - SR\_PUBLISHED\_BY: SR\_PUBLISHED\_BY|  |
+|ticket/project/projectEvent/isExternalEvent|bool|SR\_SINGUALR\_TICKET - SR\_EXTERNAL\_EVENT: SR\_EXTERNAL\_EVENT\_TOOLTIP| x |
+|ticket/project/projectEvent/eventDate|date|SR\_SINGUALR\_TICKET - SR\_PROJECT\_EVENT\_DATE: SR\_PUBLISHED\_EVENT\_DATE\_TOOLTIP| x |
+|ticket/project/projectEvent/hasSignOn|bool|SR\_SINGUALR\_TICKET - SR\_EVENT\_HASSIGNON: SR\_EVENT\_HASSIGNON\_TOOLTIP| x |
+|ticket/project/projectEvent/hasSignOff|bool|SR\_SINGUALR\_TICKET - SR\_EVENT\_HASSIGNOFF: SR\_EVENT\_HASSIGNOFF\_TOOLTIP| x |
+|ticket/project/projectUrl/URLAddress|string|SR\_SINGUALR\_TICKET - SR\_PROJECTARCHIVE\_URL| x |
+|ticket/project/projectUrl/URLDescription|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DESCRIPTION| x |
+|ticket/project/projectAssociate/firstName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|ticket/project/projectAssociate/lastName|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|ticket/project/projectAssociate/middleName|string|SR\_SINGUALR\_TICKET - SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|ticket/project/projectAssociate/fullName|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|ticket/project/projectAssociate/contactId|int|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|ticket/project/projectAssociate/personId|int|SR\_SINGUALR\_TICKET - SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|ticket/project/projectAssociate/mrMrs|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/project/projectAssociate/title|string|SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|ticket/project/projectAssociate/associateDbId|associate|SR\_SINGUALR\_TICKET - SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|ticket/project/projectAssociate/contactName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|ticket/project/projectAssociate/contactDepartment|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|ticket/project/projectAssociate/usergroup|userGroup|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|ticket/project/projectAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
-|ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
-|ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
-|ticket/project/projectAssociate/role|listAny|Request - Role: Role| x |
-|ticket/project/projectAssociate/assocName|associate|Request - User ID: User ID| x |
-|ticket/project/projectAssociate/assocTooltip|string|Request - Description: Description|  |
-|ticket/project/projectAssociate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
-|ticket/project/projectAssociate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
-|ticket/project/projectAssociate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ticket/project/projectAssociate/ejDisplayName|string|Request - Nickname: User's nickname in Service| x |
-|ticket/project/projectAssociate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|ticket/project/projectAssociate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
-|ticket/project/projectAssociate/credentialDisplayValue| *None* |Request - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|ticket/project/projectAssociate/isActive|bool|Request - Active: Is this user active, and should be able to log in?| x |
-|ticket/project/projectAssociate/isActiveText|bool|Request - Active status: Is this user active, and should be able to log in?| x |
-|ticket/project/projectAssociate/portraitThumbnail| *None* |Request - Person image: Person image|  |
-|ticket/project/projectAssociate/otherGroups|userGroup|Request - Other groups: Other groups|  |
-|ticket/project/projectAssociate/userName|string|Request - User name: User name| x |
-|ticket/project/projectAssociate/personEmail|string|Request - E-mail| x |
-|ticket/project/projectAssociate/locationAddress|string|Request - Location: Location| x |
-|ticket/project/projectAssociate/isLocation|bool|Request - Is a location: Is a location| x |
-|ticket/project/projectUdef/SuperOffice:1|string|Request - projectshorttext| x |
-|ticket/project/projectUdef/SuperOffice:2|string|Request - projectlongtext| x |
-|ticket/project/projectUdef/SuperOffice:3|int|Request - projectnumber| x |
-|ticket/project/projectUdef/SuperOffice:4|date|Request - projectdate| x |
-|ticket/project/projectUdef/SuperOffice:5|unlimitedDate|Request - projectunlimiteddate| x |
-|ticket/project/projectUdef/SuperOffice:6|bool|Request - projectcheckbox| x |
-|ticket/project/projectUdef/SuperOffice:7|listAny|Request - projectdropdownlistbox| x |
-|ticket/project/projectUdef/SuperOffice:8|decimal|Request - projectdecimal| x |
-|ticket/project/projectUdef/SuperOffice:9|int|Request - page1saleandmarketing| x |
-|ticket/project/projectUdef/SuperOffice:10|int|Request - page1saleandadmin| x |
-|ticket/project/NumberOfActivities|int|Request - Number of activities|  |
-|ticket/project/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
-|ticket/project/NumberOfNotCompletedActivities|int|Request - Number of non-completed activities|  |
-|ticket/project/NumberOfNotCompletedActivitiesInPeriod|int|Request - Number of non-completed activities in last 90 days|  |
-|ticket/project/LastActivity|date|Request - Date of last activity|  |
-|ticket/project/LastCompletedActivity|date|Request - Date of last completed activity|  |
-|ticket/project/LastDoByActivity|date|Request - Date of last non-completed activity|  |
-|ticket/project/NumberOfSales|int|Request - Number of sales|  |
-|ticket/project/NumberOfSalesInPeriod|int|Request - Number of sales in last 90 days|  |
-|ticket/project/NumberOfNotCompletedSales|int|Request - Number of non-completed sales|  |
-|ticket/project/NumberOfNotCompletedSalesInPeriod|int|Request - Number of non-completed sales in last 90 days|  |
-|ticket/project/LastSale|date|Request - Date of last sale|  |
-|ticket/project/LastCompletedSale|date|Request - Date of last completed sale|  |
-|ticket/project/LastDoBySale|date|Request - Date of last non-completed sale|  |
-|ticket/project/SaintStatus3|saintStatus|Request - Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|ticket/project/saintSaleStatus|listAny|Request - With status|  |
-|ticket/project/saintAmountClass|listAny|Request - Amount class|  |
-|ticket/project/saintActivityType|listAny|Request - SAINT type|  |
-|ticket/project/saintDirection|listAny|Request - Direction|  |
-|ticket/project/saintIntention|listAny|Request - Intention|  |
-|ticket/project/saintTicketStatus|listAny|Request - Status|  |
-|ticket/project/saintTicketCategory|listAny|Request - Category|  |
-|ticket/project/project/textId|int|Request - Text ID| x |
-|ticket/project/project/infoText|positiveString|Request - Information: Displays the text entered in the description field| x |
-|person/personId|int|Contact - DB ID: Displays the database ID of a contact| x |
-|person/firstName|string|Contact - First name: Displays the contact's first name| x |
-|person/lastName|string|Contact - Last name: Displays the contact's last name| x |
-|person/middleName|string|Contact - Middle name: Displays the contact's middle name.| x |
-|person/fullName|string|Contact - Contact: Displays the contact to which an item is linked| x |
-|person/contactId|int|Contact - Company ID: Database ID of company| x |
-|person/hasInfoText|bool|Contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|person/hasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|person/personHasInterests|bool|Contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
-|person/mrMrs|string|Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|person/position|listAny|Contact - Position| x |
-|person/personNumber|string|Contact - Number: Displays the contact's number| x |
-|person/title|string|Contact - Title: Displays the contact's job title| x |
-|person/personCountry|listAny|Contact - Country: Country| x |
-|person/personCountryId|int|Contact - Country ID: Country ID| x |
-|person/personNoMail|bool|Contact - No Mailings: Displays the contact's No Mailings checkbox| x |
-|person/rank|int|Contact - Rank: Displays a contact's current rank| x |
-|person/birthdate| *None* |Contact - Birthdate: Displays the contact's date of birth|  |
-|person/associateType| *None* |Contact - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|person/useAsMailingAddress|bool|Contact - Use as postal address: Use as postal address| x |
-|person/personSource|listAny|Contact - Source: Source (Contact)| x |
-|person/retired|bool|Contact - Former employee: Indicates whether the contact has retired/left the company| x |
-|person/birthYear|int|Contact - Birth year: Displays contact's birth year| x |
-|person/birthMonth|int|Contact - Birth month: Displays contact's birth month| x |
-|person/birthDay|int|Contact - Birth day: Displays contact's birth day (day of month)| x |
-|person/kanaFirstName|string|Contact - First name, kana: Contact's first name, in kana alphabet| x |
-|person/kanaLastName|string|Contact - Last name, kana: Contact's last name, in kana alphabet| x |
-|person/personUpdatedBy|associate|Contact - Updated by: The user who last updated the data| x |
-|person/personUpdatedByFullName|associate|Contact - Updated by - Full name: The user who last updated the data| x |
-|person/personUpdatedDate|date|Contact - Updated: The date/time the data was last updated in UTC.| x |
-|person/personRegisteredBy|associate|Contact - Registered by: The user who registered the data| x |
-|person/personRegisteredByFullName|associate|Contact - Registered by - Full name: The user who registered the data| x |
-|person/personRegisteredDate|date|Contact - Registered date: The date/time the data was registered in UTC.| x |
-|person/portraitThumbnail| *None* |Contact - Person image: Person image|  |
-|person/personActiveErpLinks|bool|Contact - ERP connected: Is there an active ERP Sync?| x |
-|person/ticketPriority|listAny|Contact - Service priority: Default service priority for this contact| x |
-|person/supportLanguage|listAny|Contact - Preferred language: Preferred language used for reply templates and more| x |
-|person/supportAssociate|associate|Contact - Our service contact: Default service contact for this contact| x |
-|person/supportAssociateFullName|associate|Contact - Our service contact - Full name: Default service contact for this contact| x |
-|person/personAssociateId|associate|Contact - Our contact: Displays our contact| x |
-|person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
-|person/personCategory|listAny|Contact - Category| x |
-|person/personCategoryGroup|listAny|Contact - Category group| x |
-|person/personCategoryRank|int|Contact - !!Category rank| x |
-|person/personBusiness|listAny|Contact - Business| x |
+|ticket/project/projectAssociate/usergroupId|int|SR\_SINGUALR\_TICKET - SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|ticket/project/projectAssociate/contactFullName|string|SR\_SINGUALR\_TICKET - SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|ticket/project/projectAssociate/contactCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|ticket/project/projectAssociate/role|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|ticket/project/projectAssociate/assocName|associate|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|ticket/project/projectAssociate/assocTooltip|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|ticket/project/projectAssociate/assocType|listAny|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|ticket/project/projectAssociate/ejUserId|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJUSERID\_8: SR\_ADMIN\_EJUSERID\_TOOLTIP\_8|  |
+|ticket/project/projectAssociate/simultaneousEjUser|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_SIMEJUSER\_8: SR\_ADMIN\_SIMEJUSER\_TOOLTIP|  |
+|ticket/project/projectAssociate/ejDisplayName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJDISPLAYNAME\_8: SR\_ADMIN\_EJDISPLAYNAME\_TOOLTIP\_8| x |
+|ticket/project/projectAssociate/ejStatus|int|SR\_SINGUALR\_TICKET - SR\_ADMIN\_EJSTATUS\_8: SR\_ADMIN\_EJSTATUS\_TOOLTIP\_8|  |
+|ticket/project/projectAssociate/credentialType| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|ticket/project/projectAssociate/credentialDisplayValue| *None* |SR\_SINGUALR\_TICKET - SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|ticket/project/projectAssociate/isActive|bool|SR\_SINGUALR\_TICKET - SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|ticket/project/projectAssociate/isActiveText|bool|SR\_SINGUALR\_TICKET - SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|ticket/project/projectAssociate/portraitThumbnail| *None* |SR\_SINGUALR\_TICKET - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|ticket/project/projectAssociate/otherGroups|userGroup|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|ticket/project/projectAssociate/userName|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|ticket/project/projectAssociate/personEmail|string|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_EMAIL| x |
+|ticket/project/projectAssociate/locationAddress|string|SR\_SINGUALR\_TICKET - SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|ticket/project/projectAssociate/isLocation|bool|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
+|ticket/project/projectUdef/SuperOffice:1|string|SR\_SINGUALR\_TICKET - projectshorttext| x |
+|ticket/project/projectUdef/SuperOffice:2|string|SR\_SINGUALR\_TICKET - projectlongtext| x |
+|ticket/project/projectUdef/SuperOffice:3|int|SR\_SINGUALR\_TICKET - projectnumber| x |
+|ticket/project/projectUdef/SuperOffice:4|date|SR\_SINGUALR\_TICKET - projectdate| x |
+|ticket/project/projectUdef/SuperOffice:5|unlimitedDate|SR\_SINGUALR\_TICKET - projectunlimiteddate| x |
+|ticket/project/projectUdef/SuperOffice:6|bool|SR\_SINGUALR\_TICKET - projectcheckbox| x |
+|ticket/project/projectUdef/SuperOffice:7|listAny|SR\_SINGUALR\_TICKET - projectdropdownlistbox| x |
+|ticket/project/projectUdef/SuperOffice:8|decimal|SR\_SINGUALR\_TICKET - projectdecimal| x |
+|ticket/project/projectUdef/SuperOffice:9|int|SR\_SINGUALR\_TICKET - page1saleandmarketing| x |
+|ticket/project/projectUdef/SuperOffice:10|int|SR\_SINGUALR\_TICKET - page1saleandadmin| x |
+|ticket/project/NumberOfActivities|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_ACTIVITIES|  |
+|ticket/project/NumberOfActivitiesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/project/NumberOfNotCompletedActivities|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES|  |
+|ticket/project/NumberOfNotCompletedActivitiesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_ACTIVITIES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/project/LastActivity|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_ACTIVITY|  |
+|ticket/project/LastCompletedActivity|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_COMPLETED\_ACTIVITY|  |
+|ticket/project/LastDoByActivity|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_INCOMPLETE\_ACTIVITY|  |
+|ticket/project/NumberOfSales|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_SALES|  |
+|ticket/project/NumberOfSalesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/project/NumberOfNotCompletedSales|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES|  |
+|ticket/project/NumberOfNotCompletedSalesInPeriod|int|SR\_SINGUALR\_TICKET - SR\_ROU\_NUMBER\_OF\_NOT\_COMPLETED\_SALES\_IN\_PERIOD 90 SR\_ROU\_DAYS|  |
+|ticket/project/LastSale|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_SALE|  |
+|ticket/project/LastCompletedSale|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_COMPLETED\_SALE|  |
+|ticket/project/LastDoBySale|date|SR\_SINGUALR\_TICKET - SR\_ROU\_LAST\_INCOMPLETE\_SALE|  |
+|ticket/project/SaintStatus3|saintStatus|SR\_SINGUALR\_TICKET - Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
+|ticket/project/saintSaleStatus|listAny|SR\_SINGUALR\_TICKET - SR\_WITH\_STATUS|  |
+|ticket/project/saintAmountClass|listAny|SR\_SINGUALR\_TICKET - SR\_AMOUNT\_CLASS|  |
+|ticket/project/saintActivityType|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_SAINT\_TYPE|  |
+|ticket/project/saintDirection|listAny|SR\_SINGUALR\_TICKET - SR\_ARCHIVE\_DIRECTION|  |
+|ticket/project/saintIntention|listAny|SR\_SINGUALR\_TICKET - SR\_ACTIVITY\_INTENTION|  |
+|ticket/project/saintTicketStatus|listAny|SR\_SINGUALR\_TICKET - SR\_ARHCIVE\_SAINT\_TICKET\_STATUS|  |
+|ticket/project/saintTicketCategory|listAny|SR\_SINGUALR\_TICKET - SR\_ARHCIVE\_SAINT\_TICKET\_CATEGORY|  |
+|ticket/project/project/textId|int|SR\_SINGUALR\_TICKET - Text ID| x |
+|ticket/project/project/infoText|positiveString|SR\_SINGUALR\_TICKET - SR\_SINGULAR\_INFO: SR\_DIARYARCHIVE\_DESCRIPTION\_TOOLTIP| x |
+|person/personId|int|SR\_PERSON - SR\_PERSONARCHIVE\_RECORDID: SR\_PERSONARCHIVE\_RECORDID\_TOOLTIP| x |
+|person/firstName|string|SR\_PERSON - SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|person/lastName|string|SR\_PERSON - SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|person/middleName|string|SR\_PERSON - SR\_PERSONARCHIVE\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|person/fullName|string|SR\_PERSON - SR\_ACTIVITYARCHIVE\_PERSON: SR\_ACTIVITYARCHIVE\_PERSON\_TOOLTIP| x |
+|person/contactId|int|SR\_PERSON - SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|person/hasInfoText|bool|SR\_PERSON - SR\_PERSONARCHIVE\_HASINFO: SR\_PERSONARCHIVE\_HASINFO\_TOOLTIP| x |
+|person/hasInterests|bool|SR\_PERSON - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|person/personHasInterests|bool|SR\_PERSON - SR\_PERSONARCHIVE\_HASINTERESTS: SR\_PERSONARCHIVE\_HASINTERESTS\_TOOLTIP| x |
+|person/mrMrs|string|SR\_PERSON - SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|person/position|listAny|SR\_PERSON - SR\_ARCHIVE\_POSITION| x |
+|person/personNumber|string|SR\_PERSON - SR\_PERSONARCHIVE\_NUMBER: SR\_PERSONARCHIVE\_NUMBER\_TOOLTIP| x |
+|person/title|string|SR\_PERSON - SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_JOBTITLE\_TOOLTIP| x |
+|person/personCountry|listAny|SR\_PERSON - SR\_SEARCH\_COUNTRY: SR\_SEARCH\_COUNTRY\_TOOLTIP| x |
+|person/personCountryId|int|SR\_PERSON - SR\_SEARCH\_COUNTRYID: SR\_SEARCH\_COUNTRYID\_TOOLTIP| x |
+|person/personNoMail|bool|SR\_PERSON - SR\_PERSONARCHIVE\_NOMAILINGS: SR\_PERSONARCHIVE\_NOMAILINGS\_TOOLTIP| x |
+|person/rank|int|SR\_PERSON - SR\_PERSONARCHIVE\_RANK: SR\_PERSONARCHIVE\_RANK\_TOOLTIP| x |
+|person/birthdate| *None* |SR\_PERSON - SR\_PERSONARCHIVE\_BIRTHDATE: SR\_PERSONARCHIVE\_BIRTHDATE\_TOOLTIP|  |
+|person/associateType| *None* |SR\_PERSON - SR\_PERSONARCHIVE\_ASSOCIATETYPE: SR\_PERSONARCHIVE\_ASSOCIATETYPE\_TOOLTIP|  |
+|person/useAsMailingAddress|bool|SR\_PERSON - SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS: SR\_PERSONARCHIVE\_USE\_AS\_MAILINGADDRESS\_TOOLTIP| x |
+|person/personSource|listAny|SR\_PERSON - SR\_ARCHIVE\_SALE\_SOURCE: SR\_ARCHIVE\_SALE\_SOURCE (SR\_SINGULAR\_CONTACT)| x |
+|person/retired|bool|SR\_PERSON - SR\_PDLG\_RETIRED: SR\_RETIRED\_TOOLTIP| x |
+|person/birthYear|int|SR\_PERSON - SR\_ARCHIVE\_BIRTHYEAR: SR\_ARCHIVE\_BIRTHYEAR\_TOOLTIP| x |
+|person/birthMonth|int|SR\_PERSON - SR\_ARCHIVE\_BIRTHMONTH: SR\_ARCHIVE\_BIRTHMONTH\_TOOLTIP| x |
+|person/birthDay|int|SR\_PERSON - SR\_ARCHIVE\_BIRTHDAY: SR\_ARCHIVE\_BIRTHDAY\_TOOLTIP| x |
+|person/kanaFirstName|string|SR\_PERSON - SR\_ARCHIVE\_KANAFIRST: SR\_ARCHIVE\_KANAFIRST\_TOOLTIP| x |
+|person/kanaLastName|string|SR\_PERSON - SR\_ARCHIVE\_KANALAST: SR\_ARCHIVE\_KANALAST\_TOOLTIP| x |
+|person/personUpdatedBy|associate|SR\_PERSON - SR\_UPDATEDASSOC: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|person/personUpdatedByFullName|associate|SR\_PERSON - SR\_UPDATEDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_UPDATEDASSOC\_TOOLTIP| x |
+|person/personUpdatedDate|date|SR\_PERSON - SR\_UPDATEDDATE: SR\_UPDATEDDATE\_TOOLTIP| x |
+|person/personRegisteredBy|associate|SR\_PERSON - SR\_REGISTEREDASSOC: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|person/personRegisteredByFullName|associate|SR\_PERSON - SR\_REGISTEREDASSOC - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_REGISTEREDASSOC\_TOOLTIP| x |
+|person/personRegisteredDate|date|SR\_PERSON - SR\_REGISTEREDDATE: SR\_REGISTEREDDATE\_TOOLTIP| x |
+|person/portraitThumbnail| *None* |SR\_PERSON - SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|person/personActiveErpLinks|bool|SR\_PERSON - SR\_ARCHIVE\_ACTIVEERPLINKS: SR\_ARCHIVE\_ACTIVEERPLINKS\_TOOLTIP| x |
+|person/ticketPriority|listAny|SR\_PERSON - SR\_ARCHIVE\_TICKET\_PRIORITY: SR\_ARCHIVE\_TICKET\_PRIORITY\_TOOLTIP| x |
+|person/supportLanguage|listAny|SR\_PERSON - SR\_FIELD\_PERSON\_SUPPORT\_LANGUAGE\_ID\_NAME: SR\_ARCHIVE\_SUPPORT\_LANGUAGE\_TOOLTIP| x |
+|person/supportAssociate|associate|SR\_PERSON - SR\_ARCHIVE\_SUPPORT\_ASSOCIATE: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|person/supportAssociateFullName|associate|SR\_PERSON - SR\_ARCHIVE\_SUPPORT\_ASSOCIATE - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_SUPPORT\_ASSOCIATE\_TOOLTIP| x |
+|person/personAssociateId|associate|SR\_PERSON - SR\_ARCHIVE\_OUR\_CONTACT: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|person/personAssociateFullName|associate|SR\_PERSON - SR\_ARCHIVE\_OUR\_CONTACT - SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_OUR\_CONTACT\_TOOLTIP| x |
+|person/personCategory|listAny|SR\_PERSON - SR\_ARCHIVE\_CATEGORY| x |
+|person/personCategoryGroup|listAny|SR\_PERSON - SR\_ADMIN\_LISTS\_CATEGORYGROUP| x |
+|person/personCategoryRank|int|SR\_PERSON - !!Category rank| x |
+|person/personBusiness|listAny|SR\_PERSON - SR\_ARCHIVE\_BUSINESS| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|person/leadStatus|listAny|Contact - Lead status| x |
-|person/leadstatusRank|int|Contact - !!Lead status RANK| x |
-|person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
-|person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
-|person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
-|person/isStakeholder|bool|Contact - Is stakeholder: This person is a sale stakeholder| x |
-|person/updatedByWorkflow|listAny|Contact - Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|Contact - When updated by flow: When updated by flow| x |
-|person/createdByForm|listAny|Contact - Created by form: Created by form| x |
+|person/leadStatus|listAny|SR\_PERSON - SR\_LABEL\_LEADSTATUS| x |
+|person/leadstatusRank|int|SR\_PERSON - !!Lead status RANK| x |
+|person/personDeletedDate|datetime|SR\_PERSON - SR\_DELETEDDATE: SR\_DELETEDDATE\_TOOLTIP|  |
+|person/hasCompany|bool|SR\_PERSON - SR\_HAS\_COMPANY: SR\_HAS\_COMPANY\_TOOLTIP| x |
+|person/isProjectMember|bool|SR\_PERSON - SR\_IS\_PROJECT\_MEMBER: SR\_IS\_PROJECT\_MEMBER\_TOOLTIP| x |
+|person/isStakeholder|bool|SR\_PERSON - SR\_IS\_STAKEHOLDER: SR\_IS\_STAKEHOLDER\_TOOLTIP| x |
+|person/updatedByWorkflow|listAny|SR\_PERSON - SR\_ARCHIVE\_UPDATED\_BY\_FLOW: SR\_ARCHIVE\_UPDATED\_BY\_FLOW| x |
+|person/whenUpdatedByWorkflow|datetime|SR\_PERSON - SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN: SR\_ARCHIVE\_UPDATED\_BY\_FLOW\_WHEN| x |
+|person/createdByForm|listAny|SR\_PERSON - SR\_ARCHIVE\_CREATED\_BY\_FORM: SR\_ARCHIVE\_CREATED\_BY\_FORM| x |
 |ticketMessageExtra/x\_message\_integer|int|Extra integer: Custom integer on message. Hidden. Default 123| x |
 |ticketMessageExtra/x\_message\_float|decimal|Extra float: Custom float on message. Hidden| x |
 |ticketMessageExtra/x\_message\_longtext|string|Extra long text: Custom long text on Message. Hidden, do not keep HTML| x |
@@ -876,7 +876,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticketMessageId,ticket/timeToClose,ticket/person/personExtra/y_car/id,ticket/person/correspondingAssociate/contactName,ticket/person/correspondingAssociate/usergroupId
+GET /api/v1/archive/TicketMessage?$select=ticket/createdBy/mrMrs,ticket/ownedBy/mrMrs,ticket/person/personExtra/y_rental/x_amount,ticket/person/personAssociate/firstName,ticket/contact/contactAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

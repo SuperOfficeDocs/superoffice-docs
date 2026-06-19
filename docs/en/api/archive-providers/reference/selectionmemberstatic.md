@@ -27,13 +27,13 @@ It will only return fields from the SelectionMember table.
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|selectionId|int|Selection ID: The database ID of the selection|  |
-|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
-|rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
+|selectionId|int|SR\_SELECTION\_ID: SR\_SELECTION\_ID\_TOOLTIP|  |
+|selectionMemberId|int|SR\_SELECTIONMEMBER\_ID: SR\_SELECTIONMEMBER\_ID\_TOOLTIP|  |
+|rowKind| *None* |SR\_SELECTION\_ROWKIND: SR\_SELECTION\_ROWKIND\_TOOLTIP|  |
 |targetTableNumber|int|TargetTableNumber: TargetTableNumber| x |
 |targetRecordId|int|TargetRecordId: TargetRecordId| x |
-|contactId|int|Company ID: Database ID of company| x |
-|personId|int|Contact ID: Database ID of the contact row| x |
+|contactId|int|SR\_CONTACT\_ID: SR\_CONTACT\_ID\_TOOLTIP| x |
+|personId|int|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP| x |
 
 ## Sample
 

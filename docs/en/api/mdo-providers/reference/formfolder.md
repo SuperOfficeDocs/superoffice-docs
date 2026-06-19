@@ -51,7 +51,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|(No Selection)|||
+|-1|[SR_NO_SELECTION]|||
 
 
 ## Related MDO Lists

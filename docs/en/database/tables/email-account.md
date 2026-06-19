@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_account Table (492)
+# email\_account Table (491)
 
 Email account information
 

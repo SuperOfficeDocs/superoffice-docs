@@ -42,9 +42,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|SuperOffice CRM starts|||
-|2|SuperOffice CRM exits|||
-|3|Local Update|||
+|1|[SR_ADMIN_LIST_RUNWHEN_SUPEROFFICESTARTS]|||
+|2|[SR_ADMIN_LIST_RUNWHEN_SUPEROFFICESHUTDOWN]|||
+|3|[SR_MENU_FILE_TRA_LUPD]|||
 
 
 ## Related MDO Lists

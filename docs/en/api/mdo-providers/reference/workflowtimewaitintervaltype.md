@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|2|Minute(s)|||
-|3|Hour(s)|||
-|5|Day(s)|||
-|4|Working day(s)|||
-|6|Week(s)|||
+|2|[SR_WORKFLOWSTEP_WAIT_LISTITEM_MINUNTES]|||
+|3|[SR_WORKFLOWSTEP_WAIT_LISTITEM_HOURS]|||
+|5|[SR_WORKFLOWSTEP_WAIT_LISTITEM_DAYS]|||
+|4|[SR_WORKFLOWSTEP_WAIT_LISTITEM_WORKINGDAYS]|||
+|6|[SR_WORKFLOWSTEP_WAIT_LISTITEM_WEEKS]|||
 
 
 ## Related MDO Lists

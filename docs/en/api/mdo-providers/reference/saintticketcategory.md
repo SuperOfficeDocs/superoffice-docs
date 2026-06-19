@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|-1|All|||
+|-1|[SR_ACTIVITY_DIRECTION_ALL]|||
 |1|Support|||
 |2|Administration|||
 |3|Sale|||

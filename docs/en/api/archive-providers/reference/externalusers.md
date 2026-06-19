@@ -18,46 +18,46 @@ the actual functionality of the provider.
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"all"|All|
-|"potential"|Potential users|
-|"expired"|Expired|
+|"all"|[[SR_VFC_ALL]]|
+|"potential"|[[SR_USERS_POTENTIAL_USERS]]|
+|"expired"|[[SR_ADMIN_EXPIRED]]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|userplan| *None* |User plan: User plan (licence)|  |
-|canLogin|bool|Can log in: Can log in|  |
-|firstName|string|First name: Displays the contact's first name| x |
-|lastName|string|Last name: Displays the contact's last name| x |
-|middleName|string|Middle Name : Displays the contact's middle name.| x |
-|fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|personId|int|Contact ID: Database ID of the contact row|  |
-|mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|associateDbId|associate|ID| x |
-|contactName|string|Owning company: Name of the company the user belongs to| x |
-|contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|usergroup|userGroup|Primary group: The user's primary user group| x |
-|usergroupId|int|Group ID: The user's primary user group| x |
-|contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|contactCategory|listAny|Category: Category| x |
-|role|listAny|Role : Role| x |
-|assocName|associate|User ID : User ID| x |
-|assocTooltip|string|Description : Description|  |
-|assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|portraitThumbnail| *None* |Person image: Person image|  |
-|otherGroups|userGroup|Other groups: Other groups|  |
-|userName|string|User name: User name| x |
-|personEmail|string|E-mail| x |
-|locationAddress|string|Location: Location| x |
-|isLocation|bool|Is a location: Is a location| x |
+|userplan| *None* |SR\_ASSOC\_USERPLAN: SR\_ASSOC\_USERPLAN\_TOOLTIP|  |
+|canLogin|bool|SR\_CAN\_USER\_LOG\_IN: SR\_CAN\_USER\_LOG\_IN|  |
+|firstName|string|SR\_PERSONARCHIVE\_FIRSTNAME: SR\_PERSONARCHIVE\_FIRSTNAME\_TOOLTIP| x |
+|lastName|string|SR\_PERSONARCHIVE\_LASTNAME: SR\_PERSONARCHIVE\_LASTNAME\_TOOLTIP| x |
+|middleName|string|SR\_LABEL\_MIDDLENAME: SR\_PERSONARCHIVE\_MIDDLENAME\_TOOLTIP| x |
+|fullName|string|SR\_ARCHIVE\_ASSOC\_FULLNAME: SR\_ARCHIVE\_ASSOC\_FULLNAME\_TOOLTIP| x |
+|contactId|int|SR\_ASSOCCONTACT\_ID: SR\_ASSOCCONTACT\_ID\_TOOLTIP|  |
+|personId|int|SR\_PERSON\_ID: SR\_PERSON\_ID\_TOOLTIP|  |
+|mrMrs|string|SR\_PERSONARCHIVE\_MRMSS: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|title|string|SR\_PERSONARCHIVE\_JOBTITLE: SR\_PERSONARCHIVE\_MRMSS\_TOOLTIP| x |
+|associateDbId|associate|SR\_ACTIVITYARCHIVE\_ASSOCIATEID| x |
+|contactName|string|SR\_ASSOCCONTACT\_NAME: SR\_ASSOCCONTACT\_NAME\_TOOLTIP| x |
+|contactDepartment|string|SR\_ASSOCCONTACT\_DEPT: SR\_ASSOCCONTACT\_DEPT\_TOOLTIP| x |
+|usergroup|userGroup|SR\_ADMIN\_USERS\_LIST\_GROUP: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|usergroupId|int|SR\_FIELD\_PERSON\_GROUP\_ID\_NAME: SR\_ADMIN\_USERS\_LIST\_GROUP\_TOOLTIP| x |
+|contactFullName|string|SR\_ASSOCCONTACT\_NAMEDEPT: SR\_ASSOCCONTACT\_NAMEDEPT\_TOOLTIP| x |
+|contactCategory|listAny|SR\_ARCHIVE\_CATEGORY: SR\_ARCHIVE\_CATEGORY| x |
+|role|listAny|SR\_ADMIN\_USERS\_ROLE: SR\_ADMIN\_USERS\_ROLE| x |
+|assocName|associate|SR\_ADMIN\_USERS\_ID: SR\_ADMIN\_USERS\_ID| x |
+|assocTooltip|string|SR\_ADMIN\_LIST\_DESCRIPTION: SR\_ADMIN\_LIST\_DESCRIPTION|  |
+|assocType|listAny|SR\_ADMIN\_USERS\_LIST\_TYPE: SR\_ADMIN\_USERS\_LIST\_TYPE\_TOOLTIP| x |
+|credentialType| *None* |SR\_ADMIN\_CREDTYPE: SR\_ADMIN\_CREDTYPE\_TOOLTIP| x |
+|credentialDisplayValue| *None* |SR\_ADMIN\_CREDVALUE: SR\_ADMIN\_CREDVALUE\_TOOLTIP| x |
+|isActive|bool|SR\_ASOWW\_ACTIVE: SR\_ASOWW\_ACTIVE\_TOOLTIP| x |
+|isActiveText|bool|SR\_ADMIN\_ACTIVESTATUS: SR\_ADMIN\_ACTIVESTATUS\_TOOLTIP| x |
+|portraitThumbnail| *None* |SR\_PERSONARCHIVE\_THUMBNAIL: SR\_PERSONARCHIVE\_THUMBNAIL|  |
+|otherGroups|userGroup|SR\_ARCHIVE\_OTHERGROUPS: SR\_ARCHIVE\_OTHERGROUPS|  |
+|userName|string|SR\_ADMIN\_USERS\_NAME: SR\_ADMIN\_USERS\_NAME\_TOOLTIP| x |
+|personEmail|string|SR\_ARCHIVE\_EMAIL| x |
+|locationAddress|string|SR\_ADMIN\_LIST\_LOCATION: SR\_ADMIN\_LIST\_LOCATION| x |
+|isLocation|bool|SR\_ARCHIVE\_ISLOCATION: SR\_ARCHIVE\_ISLOCATION| x |
 
 ## Sample
 

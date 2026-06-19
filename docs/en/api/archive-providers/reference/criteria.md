@@ -20,12 +20,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|key| *None* |Key: Unique key, based on criterion name and any subcriteria| x |
-|active| *None* |Enabled: Specifies whether the criterion is enabled| x |
-|icon| *None* |Icon: Criterion icon, based on icon of current column| x |
-|criterion| *None* |Name: The name of the search criterion| x |
-|operator| *None* |Operator: The operator used by this search criterion| x |
-|value| *None* |Value: The value used by the search criterion.| x |
+|key| *None* |SR\_CRITERION\_KEY: SR\_CRITERION\_KEY\_TOOLTIP| x |
+|active| *None* |SR\_CRITERION\_ACTIVE: SR\_CRITERION\_ACTIVE\_TOOLTIP| x |
+|icon| *None* |SR\_CRITERION\_ICON: SR\_CRITERION\_ICON\_TOOLTIP| x |
+|criterion| *None* |SR\_CRITERION\_NAME: SR\_CRITERION\_NAME\_TOOLTIP| x |
+|operator| *None* |SR\_CRITERION\_OPERATOR: SR\_CRITERION\_OPERATOR\_TOOLTIP| x |
+|value| *None* |SR\_CRITERION\_VALUE: SR\_CRITERION\_VALUE\_TOOLTIP| x |
 
 ## Sample
 

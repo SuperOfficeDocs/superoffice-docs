@@ -72,18 +72,18 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:AssociateId xsi:type="xsd:int">0</Project:AssociateId>
     <Project:AssociateFullName xsi:type="xsd:string"></Project:AssociateFullName>
     <Project:TypeId xsi:type="xsd:int">0</Project:TypeId>
-    <Project:Updated xsi:type="xsd:dateTime">2026-05-27T01:24:55Z</Project:Updated>
+    <Project:Updated xsi:type="xsd:dateTime">2026-06-12T11:34:24Z</Project:Updated>
     <Project:StatusId xsi:type="xsd:int">0</Project:StatusId>
     <Project:Status xsi:type="xsd:string"></Project:Status>
     <Project:TextId xsi:type="xsd:int">0</Project:TextId>
-    <Project:PublishTo xsi:type="xsd:dateTime">2026-05-27T01:24:55Z</Project:PublishTo>
-    <Project:PublishFrom xsi:type="xsd:dateTime">2026-05-27T01:24:55Z</Project:PublishFrom>
+    <Project:PublishTo xsi:type="xsd:dateTime">2026-06-12T11:34:24Z</Project:PublishTo>
+    <Project:PublishFrom xsi:type="xsd:dateTime">2026-06-12T11:34:24Z</Project:PublishFrom>
     <Project:IsPublished xsi:type="xsd:boolean">false</Project:IsPublished>
     <Project:URLName xsi:type="xsd:string"></Project:URLName>
     <Project:ProjectNumber xsi:type="xsd:string"></Project:ProjectNumber>
     <Project:ActiveErpLinks xsi:type="xsd:int">0</Project:ActiveErpLinks>
     <Project:EventId xsi:type="xsd:int">0</Project:EventId>
-    <Project:StartDate xsi:type="xsd:dateTime">2026-05-27T01:24:55Z</Project:StartDate>
+    <Project:StartDate xsi:type="xsd:dateTime">2026-06-12T11:34:24Z</Project:StartDate>
    </Project:Response>
   </Project:GetProjectResponse>
  </SOAP-ENV:Body>

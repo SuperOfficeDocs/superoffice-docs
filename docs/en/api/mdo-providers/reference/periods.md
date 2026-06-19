@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Day(s)|||
-|2|Week(s)|||
-|3|Month(s)|||
-|4|Quarter(s)|||
-|5|Half year(s)|||
-|6|Year(s)|||
+|1|[SR_CRITERION_PERIOD_DAYS]|||
+|2|[SR_CRITERION_PERIOD_WEEKS]|||
+|3|[SR_CRITERION_PERIOD_MONTHS]|||
+|4|[SR_CRITERION_PERIOD_QUARTERS]|||
+|5|[SR_CRITERION_PERIOD_HALF_YEARS]|||
+|6|[SR_CRITERION_PERIOD_YEARS]|||
 
 
 ## Related MDO Lists

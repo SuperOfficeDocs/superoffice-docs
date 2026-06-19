@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# TemporaryKey Table (510)
+# TemporaryKey Table (509)
 
 Temporary keys for lightweight authentications such as changing ones subscriptions
 

@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Positive|||
-|2|Negative|||
-|3|Neutral|||
-|4|Unknown|||
+|1|[SR_TICKET_SENTIMENT_POSITIVE]|||
+|2|[SR_TICKET_SENTIMENT_NEGATIVE]|||
+|3|[SR_TICKET_SENTIMENT_NEUTRAL]|||
+|4|[SR_TICKET_SENTIMENT_UNKNOWN]|||
 
 
 ## Related MDO Lists

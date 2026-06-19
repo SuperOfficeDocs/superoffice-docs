@@ -42,13 +42,13 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Monday||Monday|
-|2|Tuesday||Tuesday|
-|3|Wednesday||Wednesday|
-|4|Thursday||Thursday|
-|5|Friday||Friday|
-|6|Saturday||Saturday|
-|7|Sunday||Sunday|
+|1|[SR_DATE_MONDAY]||Monday|
+|2|[SR_DATE_TUESDAY]||Tuesday|
+|3|[SR_DATE_WEDNESDAY]||Wednesday|
+|4|[SR_DATE_THURSDAY]||Thursday|
+|5|[SR_DATE_FRIDAY]||Friday|
+|6|[SR_DATE_SATURDAY]||Saturday|
+|7|[SR_DATE_SUNDAY]||Sunday|
 
 
 ## Related MDO Lists

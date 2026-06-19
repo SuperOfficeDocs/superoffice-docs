@@ -42,12 +42,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|None||EnumName=None|
-|6|Count||EnumName =Count|
-|2|Sum||EnumName=Sum|
-|3|Average||EnumName=Average|
-|4|Max||EnumName=Max|
-|5|Min||EnumName=Min|
+|0|[SR_DASHBOARD_MEASURE_NONE]||EnumName=None|
+|6|[SR_DASHBOARD_MEASURE_COUNT]||EnumName =Count|
+|2|[SR_DASHBOARD_MEASURE_SUM]||EnumName=Sum|
+|3|[SR_DASHBOARD_MEASURE_AVERAGE]||EnumName=Average|
+|4|[SR_DASHBOARD_MEASURE_MAX]||EnumName=Max|
+|5|[SR_DASHBOARD_MEASURE_MIN]||EnumName=Min|
 
 
 ## Related MDO Lists

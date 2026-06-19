@@ -42,8 +42,8 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Incoming|||
-|2|Outgoing|||
+|1|[SR_ACTIVITY_INCOMING]|||
+|2|[SR_ACTIVITY_OUTGOING]|||
 
 
 ## Related MDO Lists

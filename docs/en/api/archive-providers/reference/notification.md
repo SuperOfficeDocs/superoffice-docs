@@ -15,19 +15,19 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"appointmentNew"|Appointment|
-|"appointmentUpdated"|Appointment|
-|"appointmentCancelled"|Appointment|
-|"appointmentAccepted"|Appointment|
-|"appointmentRejected"|Appointment|
-|"appointmentRejectedByAssociate"|Appointment|
-|"ticketNew"|Request|
-|"ticketNewMessage"|Request|
-|"ticketEscalated"|Request|
-|"ticketActivated"|Request|
-|"ticketTransferred"|Request|
-|"ticketCustomMessage"|Request|
-|"ticketFavouriteUpdated"|Request|
+|"appointmentNew"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentUpdated"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentCancelled"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentAccepted"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentRejected"|[[SR_COMMON_APPOINTMENT]]|
+|"appointmentRejectedByAssociate"|[[SR_COMMON_APPOINTMENT]]|
+|"ticketNew"|[[SR_CRITERIONTYPE_TICKET]]|
+|"ticketNewMessage"|[[SR_CRITERIONTYPE_TICKET]]|
+|"ticketEscalated"|[[SR_CRITERIONTYPE_TICKET]]|
+|"ticketActivated"|[[SR_CRITERIONTYPE_TICKET]]|
+|"ticketTransferred"|[[SR_CRITERIONTYPE_TICKET]]|
+|"ticketCustomMessage"|[[SR_CRITERIONTYPE_TICKET]]|
+|"ticketFavouriteUpdated"|[[SR_CRITERIONTYPE_TICKET]]|
 |"assignmentCompany"|!!Company assignment|
 |"assignmentPerson"|!!Person assignment|
 
@@ -37,7 +37,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
-|associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
+|associateId|associate|SR\_SINGULAR\_ASSOCIATE: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
 |originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |
@@ -58,9 +58,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ticketId| *None* |!!ticketId|  |
 |category| *None* |!!category|  |
 |customUrl| *None* |!!customUrl|  |
-|type| *None* |Type: The type of notification|  |
-|ownerContactId| *None* |Owner associate ID: The associate ID of the user who is the original owner of the notification|  |
-|updatedAssocId| *None* |Updated by: Displays the name of the associate who last updated the project|  |
+|type| *None* |SR\_ARCHIVE\_TICKETNOTIFICATION\_TYPE: SR\_ARCHIVE\_TICKETNOTIFICATION\_TYPE\_TOOLTIP|  |
+|ownerContactId| *None* |SR\_ARCHIVE\_TICKETNOTIFICATION\_OWNERASSOCIATEID: SR\_ARCHIVE\_TICKETNOTIFICATION\_OWNERASSOCIATEID\_TOOLTIP|  |
+|updatedAssocId| *None* |SR\_PROJECTARCHIVE\_LASTUPDATED\_BY: SR\_PROJECTARCHIVE\_LASTUPDATED\_BY\_TOOLTIP|  |
 |companyName| *None* |!!Company name: !!Company name tooltip|  |
 |personFirstName| *None* |!!Person first name: !!Person name tooltip|  |
 |personMiddleName| *None* |!!Person middle name: !!Person middle name tooltip|  |
@@ -71,7 +71,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=isRecurring,recurrencePattern
+GET /api/v1/archive/Notification?$select=startDateTime,isRecurring,recurrencePattern
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -42,18 +42,18 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|January|||
-|2|February|||
-|3|March|||
-|4|April|||
-|5|May|||
-|6|June|||
-|7|July|||
-|8|August|||
-|9|September|||
-|10|October|||
-|11|November|||
-|12|December|||
+|1|[SR_MONTH_JANUARY]|||
+|2|[SR_MONTH_FEBRUARY]|||
+|3|[SR_MONTH_MARCH]|||
+|4|[SR_MONTH_APRIL]|||
+|5|[SR_MONTH_MAY]|||
+|6|[SR_MONTH_JUNE]|||
+|7|[SR_MONTH_JULY]|||
+|8|[SR_MONTH_AUGUST]|||
+|9|[SR_MONTH_SEPTEMBER]|||
+|10|[SR_MONTH_OCTOBER]|||
+|11|[SR_MONTH_NOVEMBER]|||
+|12|[SR_MONTH_DECEMBER]|||
 
 
 ## Related MDO Lists

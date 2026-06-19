@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_revision\_history Table (515)
+# target\_revision\_history Table (514)
 
 Revision history info in case the original target group or assignment info was deleted
 

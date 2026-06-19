@@ -42,19 +42,19 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Unknown|||
-|1|E-mail|||
-|2|SMS|||
-|3|Fax|||
-|4|Phone|||
-|5|Facebook|||
-|6|Twitter|||
-|7|Internal|||
-|8|Customer Centre|||
-|9|eMarketing|||
-|10|Automatic|||
-|11|Chat|||
-|12|Form|||
+|0|[SR_ORIGIN_UNKNOWN]|||
+|1|[SR_ORIGIN_EMAIL]|||
+|2|[SR_ORIGIN_SMS]|||
+|3|[SR_ORIGIN_FAX]|||
+|4|[SR_ORIGIN_PHONE]|||
+|5|[SR_ORIGIN_FACEBOOK]|||
+|6|[SR_ORIGIN_TWITTER]|||
+|7|[SR_ORIGIN_INTERNAL]|||
+|8|[SR_ORIGIN_CUSTCTR]|||
+|9|[SR_ORIGIN_EMARKETING]|||
+|10|[SR_ORIGIN_AUTOMATIC]|||
+|11|[SR_ORIGIN_CHAT]|||
+|12|[SR_ORIGIN_FORM]|||
 
 
 ## Related MDO Lists

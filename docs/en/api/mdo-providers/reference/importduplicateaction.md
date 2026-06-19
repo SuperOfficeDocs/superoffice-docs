@@ -42,10 +42,10 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Add always|||
-|2|Merge - update empty fields|||
-|3|Replace - overwrite existing|||
-|4|Skip - do not import|||
+|1|[SR_IMPORT_ADD]|||
+|2|[SR_IMPORT_MERGE_BLANK]|||
+|3|[SR_IMPORT_REPLACE]|||
+|4|[SR_IMPORT_SKIP]|||
 
 
 ## Related MDO Lists

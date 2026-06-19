@@ -42,11 +42,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Product category||productCategoryKey|
-|2|Product family||productFamilyKey|
-|3|Product type||productTypeKey|
-|4|Subscription||isSubscription|
-|5|VAT info||vatInfo|
+|1|[SR_QUOTE_QUOTELINE_PRODUCTCATEGORYKEY]||productCategoryKey|
+|2|[SR_QUOTE_QUOTELINE_PRODUCTFAMILYKEY]||productFamilyKey|
+|3|[SR_QUOTE_QUOTELINE_PRODUCTTYPEKEY]||productTypeKey|
+|4|[SR_QUOTE_QUOTELINE_ISSUBSCRIPTION]||isSubscription|
+|5|[SR_QUOTE_QUOTELINE_VATINFO]||vatInfo|
 
 
 ## Related MDO Lists
