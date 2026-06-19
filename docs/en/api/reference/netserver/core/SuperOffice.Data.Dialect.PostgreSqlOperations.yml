@@ -42,6 +42,7 @@ items:
   - SuperOffice.Data.Dialect.DatabaseOperations.TruncateTableAsync(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.TruncateOptions,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IAsyncEnumerable{System.Object[]},System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]},System.Threading.CancellationToken)
+  - SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.ImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IAsyncEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.BulkDeleteAsync(SuperOffice.Data.SQL.Select,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.BulkDeleteAsync(SuperOffice.Data.Dictionary.SoTable,System.Int32[])
@@ -649,6 +650,46 @@ references:
   - name: (
   - name: )
   - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  name: UpdateStatisticsAsync(SoTable, CancellationToken)
+  nameWithType: DatabaseOperations.UpdateStatisticsAsync(SoTable, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+    name: UpdateStatisticsAsync
+    isExternal: true
+    href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+    name: UpdateStatisticsAsync
+    isExternal: true
+    href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken

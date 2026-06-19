@@ -10,10 +10,12 @@ items:
   - SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials,System.Security.Principal.WindowsIdentity)
   - SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity,System.Security.Claims.Claim[])
   - SuperOffice.SoSession.Authenticate(System.String,System.String)
+  - SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
   - SuperOffice.SoSession.Close
   - SuperOffice.SoSession.Dispose
   - SuperOffice.SoSession.IsOpen
   - SuperOffice.SoSession.Principal
+  - SuperOffice.SoSession.SignInToCurrentContext
   langs:
   - csharp
   - vb
@@ -190,6 +192,57 @@ items:
   nameWithType.vb: SoSession.Authenticate(ClaimsIdentity, ParamArray Claim())
   fullName.vb: SuperOffice.SoSession.Authenticate(System.Security.Claims.ClaimsIdentity, ParamArray System.Security.Claims.Claim())
   name.vb: Authenticate(ClaimsIdentity, ParamArray Claim())
+- uid: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+  commentId: M:SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+  id: AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+  parent: SuperOffice.SoSession
+  langs:
+  - csharp
+  - vb
+  name: AuthenticateAsync(ClaimsIdentity, CancellationToken, params Claim[])
+  nameWithType: SoSession.AuthenticateAsync(ClaimsIdentity, CancellationToken, params Claim[])
+  fullName: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity, System.Threading.CancellationToken, params System.Security.Claims.Claim[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  summary: >-
+    Authenticate the user from an <xref href="System.Security.Claims.ClaimsIdentity" data-throw-if-not-resolved="false"></xref> object, asynchronously.
+
+    The calling thread yields during identity resolution, authorization-cache warm-up and
+
+    license validation, instead of blocking.
+
+    <p></p>
+
+    IMPORTANT: the ambient sign-in performed during authentication does not survive the
+
+    await boundary (AsyncLocal copy-on-write semantics). After awaiting, call
+
+    <xref href="SuperOffice.SoSession.SignInToCurrentContext" data-throw-if-not-resolved="false"></xref> on the returned session to make the principal
+
+    current for the remainder of the request flow.
+  example: []
+  syntax:
+    content: public static Task<SoSession> AuthenticateAsync(ClaimsIdentity identity, CancellationToken cancellationToken = default, params Claim[] additionalClaims)
+    parameters:
+    - id: identity
+      type: System.Security.Claims.ClaimsIdentity
+      description: The identity of an authenticated user that can be processed and mapped to an associate.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token, e.g. the request-aborted token.
+    - id: additionalClaims
+      type: System.Security.Claims.Claim[]
+      description: Additional claims to add to the identity.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.SoSession}
+      description: SoSession object representing the session if succeeded; throws on failure.
+    content.vb: Public Shared Function AuthenticateAsync(identity As ClaimsIdentity, cancellationToken As CancellationToken = Nothing, ParamArray additionalClaims As Claim()) As Task(Of SoSession)
+  overload: SuperOffice.SoSession.AuthenticateAsync*
+  nameWithType.vb: SoSession.AuthenticateAsync(ClaimsIdentity, CancellationToken, ParamArray Claim())
+  fullName.vb: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity, System.Threading.CancellationToken, ParamArray System.Security.Claims.Claim())
+  name.vb: AuthenticateAsync(ClaimsIdentity, CancellationToken, ParamArray Claim())
 - uid: SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials)
   commentId: M:SuperOffice.SoSession.Authenticate(SuperOffice.Security.Principal.SoCredentials)
   id: Authenticate(SuperOffice.Security.Principal.SoCredentials)
@@ -275,6 +328,38 @@ items:
       description: SoSession object representing the session if succeeded, and null if failed.
     content.vb: Public Shared Function Authenticate() As SoSession
   overload: SuperOffice.SoSession.Authenticate*
+- uid: SuperOffice.SoSession.SignInToCurrentContext
+  commentId: M:SuperOffice.SoSession.SignInToCurrentContext
+  id: SignInToCurrentContext
+  parent: SuperOffice.SoSession
+  langs:
+  - csharp
+  - vb
+  name: SignInToCurrentContext()
+  nameWithType: SoSession.SignInToCurrentContext()
+  fullName: SuperOffice.SoSession.SignInToCurrentContext()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  summary: Apply this session's principal to the ambient context (sign in).
+  remarks: >-
+    Must be called from the frame that owns the remainder of the request (e.g. a middleware's
+
+    InvokeAsync) after awaiting <xref href="SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity%2cSystem.Threading.CancellationToken%2cSystem.Security.Claims.Claim%5b%5d)" data-throw-if-not-resolved="false"></xref>: the AsyncLocal sign-in
+
+    performed inside the async authenticate call does not propagate back across the await,
+
+    so the principal has to be applied again in the caller's context. This method is
+
+    intentionally synchronous so the AsyncLocal write lands in the caller's execution
+
+    context and flows down into the rest of the pipeline.
+  example: []
+  syntax:
+    content: public void SignInToCurrentContext()
+    content.vb: Public Sub SignInToCurrentContext()
+  overload: SuperOffice.SoSession.SignInToCurrentContext*
 - uid: SuperOffice.SoSession.Close
   commentId: M:SuperOffice.SoSession.Close
   id: Close
@@ -1011,6 +1096,169 @@ references:
     name: Claims
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.security.claims
+- uid: SuperOffice.SoSession.SignInToCurrentContext
+  commentId: M:SuperOffice.SoSession.SignInToCurrentContext
+  isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_SignInToCurrentContext
+  name: SignInToCurrentContext()
+  nameWithType: SoSession.SignInToCurrentContext()
+  fullName: SuperOffice.SoSession.SignInToCurrentContext()
+  spec.csharp:
+  - uid: SuperOffice.SoSession.SignInToCurrentContext
+    name: SignInToCurrentContext
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_SignInToCurrentContext
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.SoSession.SignInToCurrentContext
+    name: SignInToCurrentContext
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_SignInToCurrentContext
+  - name: (
+  - name: )
+- uid: SuperOffice.SoSession.AuthenticateAsync*
+  commentId: Overload:SuperOffice.SoSession.AuthenticateAsync
+  isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_AuthenticateAsync_System_Security_Claims_ClaimsIdentity_System_Threading_CancellationToken_System_Security_Claims_Claim___
+  name: AuthenticateAsync
+  nameWithType: SoSession.AuthenticateAsync
+  fullName: SuperOffice.SoSession.AuthenticateAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.SoSession}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.SoSession}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SoSession>
+  nameWithType: Task<SoSession>
+  fullName: System.Threading.Tasks.Task<SuperOffice.SoSession>
+  nameWithType.vb: Task(Of SoSession)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.SoSession)
+  name.vb: Task(Of SoSession)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.SoSession
+    name: SoSession
+    isExternal: true
+    href: SuperOffice.SoSession.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: System.Security.Principal.WindowsIdentity
   commentId: T:System.Security.Principal.WindowsIdentity
   parent: System.Security.Principal
@@ -1056,6 +1304,77 @@ references:
     name: Principal
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.security.principal
+- uid: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+  commentId: M:SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+  isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_AuthenticateAsync_System_Security_Claims_ClaimsIdentity_System_Threading_CancellationToken_System_Security_Claims_Claim___
+  name: AuthenticateAsync(ClaimsIdentity, CancellationToken, params Claim[])
+  nameWithType: SoSession.AuthenticateAsync(ClaimsIdentity, CancellationToken, params Claim[])
+  fullName: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity, System.Threading.CancellationToken, params System.Security.Claims.Claim[])
+  nameWithType.vb: SoSession.AuthenticateAsync(ClaimsIdentity, CancellationToken, ParamArray Claim())
+  fullName.vb: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity, System.Threading.CancellationToken, ParamArray System.Security.Claims.Claim())
+  name.vb: AuthenticateAsync(ClaimsIdentity, CancellationToken, ParamArray Claim())
+  spec.csharp:
+  - uid: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+    name: AuthenticateAsync
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_AuthenticateAsync_System_Security_Claims_ClaimsIdentity_System_Threading_CancellationToken_System_Security_Claims_Claim___
+  - name: (
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.SoSession.AuthenticateAsync(System.Security.Claims.ClaimsIdentity,System.Threading.CancellationToken,System.Security.Claims.Claim[])
+    name: AuthenticateAsync
+    isExternal: true
+    href: SuperOffice.SoSession.html#SuperOffice_SoSession_AuthenticateAsync_System_Security_Claims_ClaimsIdentity_System_Threading_CancellationToken_System_Security_Claims_Claim___
+  - name: (
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claim
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.SoSession.SignInToCurrentContext*
+  commentId: Overload:SuperOffice.SoSession.SignInToCurrentContext
+  isExternal: true
+  href: SuperOffice.SoSession.html#SuperOffice_SoSession_SignInToCurrentContext
+  name: SignInToCurrentContext
+  nameWithType: SoSession.SignInToCurrentContext
+  fullName: SuperOffice.SoSession.SignInToCurrentContext
 - uid: SuperOffice.SoSession.Close*
   commentId: Overload:SuperOffice.SoSession.Close
   isExternal: true

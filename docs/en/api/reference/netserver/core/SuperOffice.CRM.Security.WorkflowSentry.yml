@@ -70,7 +70,6 @@ items:
   - SuperOffice.CRM.Security.Sentry._tableRights
   - SuperOffice.CRM.Security.Sentry._fieldRights
   - SuperOffice.CRM.Security.Sentry._lookups
-  - SuperOffice.CRM.Security.Sentry.DemandPlugins
   - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry
@@ -1186,28 +1185,6 @@ references:
   name: _lookups
   nameWithType: Sentry._lookups
   fullName: SuperOffice.CRM.Security.Sentry._lookups
-- uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-  commentId: M:SuperOffice.CRM.Security.Sentry.DemandPlugins
-  parent: SuperOffice.CRM.Security.Sentry
-  isExternal: true
-  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  name: DemandPlugins()
-  nameWithType: Sentry.DemandPlugins()
-  fullName: SuperOffice.CRM.Security.Sentry.DemandPlugins()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-    name: DemandPlugins
-    isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-    name: DemandPlugins
-    isExternal: true
-    href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Sentry

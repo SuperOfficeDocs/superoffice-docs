@@ -11,7 +11,7 @@ items:
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateSessionAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlerExistsAsync(SuperOffice.WebApi.Data.EventHandlerType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
@@ -1177,16 +1177,16 @@ items:
       description: Updated system template settings
     content.vb: Function SaveSystemTemplateSettingsAsync(systemTemplateSettings As SystemTemplateSettings, requestOptions As RequestOptions = Nothing) As Task(Of SystemTemplateSettings)
   overload: SuperOffice.WebApi.Agents.ICustomerServiceAgent.SaveSystemTemplateSettingsAsync*
-- uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
-  id: CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateTicketFromMailDataAsync(System.Int32,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.ICustomerServiceAgent
   langs:
   - csharp
   - vb
-  name: CreateTicketFromMailDataAsync(int, string, RequestOptions)
-  nameWithType: ICustomerServiceAgent.CreateTicketFromMailDataAsync(int, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  name: CreateTicketFromMailDataAsync(int, string, int, RequestOptions)
+  nameWithType: ICustomerServiceAgent.CreateTicketFromMailDataAsync(int, string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(int, string, int, SuperOffice.WebApi.RequestOptions)
   type: Method
   assemblies:
   - SuperOffice.WebApi
@@ -1194,7 +1194,7 @@ items:
   summary: This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data
   example: []
   syntax:
-    content: Task<TicketInfo> CreateTicketFromMailDataAsync(int mailboxId, string data, RequestOptions requestOptions = null)
+    content: Task<TicketInfo> CreateTicketFromMailDataAsync(int mailboxId, string data, int personId, RequestOptions requestOptions = null)
     parameters:
     - id: mailboxId
       type: System.Int32
@@ -1202,17 +1202,20 @@ items:
     - id: data
       type: System.String
       description: RFC822 formatted data to import as a ticket
+    - id: personId
+      type: System.Int32
+      description: Optional. If greater than 0, the new ticket is attached to this person as the primary customer and the email's From header is not used to resolve the customer; the supplied person must exist and not be retired or the call throws a validation error. If 0 (default), the customer is resolved from the email as before.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketInfo}
       description: An object containing some meta data for the created ticket
-    content.vb: Function CreateTicketFromMailDataAsync(mailboxId As Integer, data As String, requestOptions As RequestOptions = Nothing) As Task(Of TicketInfo)
+    content.vb: Function CreateTicketFromMailDataAsync(mailboxId As Integer, data As String, personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketInfo)
   overload: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync*
-  nameWithType.vb: ICustomerServiceAgent.CreateTicketFromMailDataAsync(Integer, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: CreateTicketFromMailDataAsync(Integer, String, RequestOptions)
+  nameWithType.vb: ICustomerServiceAgent.CreateTicketFromMailDataAsync(Integer, String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync(Integer, String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateTicketFromMailDataAsync(Integer, String, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.AddMessageFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.AddMessageFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: AddMessageFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -2661,7 +2664,7 @@ references:
 - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ICustomerServiceAgent.html#SuperOffice_WebApi_Agents_ICustomerServiceAgent_CreateTicketFromMailDataAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  href: SuperOffice.WebApi.Agents.ICustomerServiceAgent.html#SuperOffice_WebApi_Agents_ICustomerServiceAgent_CreateTicketFromMailDataAsync_System_Int32_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: CreateTicketFromMailDataAsync
   nameWithType: ICustomerServiceAgent.CreateTicketFromMailDataAsync
   fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.CreateTicketFromMailDataAsync

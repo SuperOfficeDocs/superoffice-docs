@@ -27,7 +27,7 @@ items:
 
     of the phonetic properties of the string. Similar source strings will result in identical codes. More documentation can be found here:
 
-    <table><tbody><tr><td class="term">Sybase</td><td class="description">http://dcx.sybase.com/1200/en/uladmin_en12/soundex-function.html</td></tr><tr><td class="term">Oracle</td><td class="description">http://docs.oracle.com/cd/B19306_01/server.102/b14200/functions148.htm</td></tr><tr><td class="term">SQL Server</td><td class="description">http://msdn.microsoft.com/en-us/library/ms187384.aspx</td></tr></tbody></table>
+    <table><tbody><tr><td class="term">SQL Server</td><td class="description">http://msdn.microsoft.com/en-us/library/ms187384.aspx</td></tr></tbody></table>
 
     Typical usage is to compare the soundex'es of two fields within a query. If they match, then the fields are the same or phonetically very close.
   example: []
@@ -43,6 +43,7 @@ items:
   - System.ICloneable
   inheritedMembers:
   - SuperOffice.Data.SQL.ArgumentFunction.GetMainField
+  - SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
   - SuperOffice.Data.SQL.ArgumentFunction.ArgumentObject
   - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
@@ -256,6 +257,28 @@ references:
     name: GetMainField
     isExternal: true
     href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+  parent: SuperOffice.Data.SQL.ArgumentFunction
+  isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: ArgumentFunction.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.ArgumentFunction.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.ArgumentFunction.html#SuperOffice_Data_SQL_ArgumentFunction_GetReferencedFields
   - name: (
   - name: )
 - uid: SuperOffice.Data.SQL.ArgumentFunction.ArgumentObject

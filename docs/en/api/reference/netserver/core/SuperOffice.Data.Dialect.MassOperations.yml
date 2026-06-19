@@ -36,7 +36,6 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
-  - SuperOffice.Data.Dialect.OracleMassOperations
   - SuperOffice.Data.Dialect.PostgreSqlMassOperations
   - SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2
   - SuperOffice.Data.Dialect.SqlServerMassOperations

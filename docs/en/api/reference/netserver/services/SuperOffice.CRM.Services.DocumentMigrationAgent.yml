@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DocumentMigrationAgent.GetForAllDocumentsAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
@@ -82,22 +82,22 @@ items:
   nameWithType.vb: DocumentMigrationAgent.New(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.DocumentMigrationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.DocumentMigrationAgent
   langs:
   - csharp
   - vb
-  name: DocumentMigrationAgent(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: DocumentMigrationAgent.DocumentMigrationAgent(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.DocumentMigrationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: DocumentMigrationAgent(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: DocumentMigrationAgent.DocumentMigrationAgent(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.DocumentMigrationAgent.DocumentMigrationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DocumentMigrationAgent(IDocumentMigrationItemListImplementation documentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation documentTemplateMigrationListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public DocumentMigrationAgent(IDocumentMigrationItemListImplementation documentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation documentTemplateMigrationListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: documentMigrationItemListImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation
@@ -109,15 +109,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(documentMigrationItemListImplementation As IDocumentMigrationItemListImplementation, documentTemplateMigrationListImplementation As IDocumentTemplateMigrationListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(documentMigrationItemListImplementation As IDocumentMigrationItemListImplementation, documentTemplateMigrationListImplementation As IDocumentTemplateMigrationListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.DocumentMigrationAgent.#ctor*
-  nameWithType.vb: DocumentMigrationAgent.New(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.DocumentMigrationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: DocumentMigrationAgent.New(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.DocumentMigrationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentMigrationItemListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentTemplateMigrationListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IDocumentMigrationItemListImplementation, IDocumentTemplateMigrationListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync(System.Threading.CancellationToken)
   id: CreateDefaultDocumentMigrationItemListAsync(System.Threading.CancellationToken)
@@ -870,16 +866,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync*
   commentId: Overload:SuperOffice.CRM.Services.DocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync
   isExternal: true

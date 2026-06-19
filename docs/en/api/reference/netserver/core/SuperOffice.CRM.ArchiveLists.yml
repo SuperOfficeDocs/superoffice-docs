@@ -416,8 +416,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
   - SuperOffice.CRM.ArchiveLists.IArchiverProviderHasRowsExtensions
   - SuperOffice.CRM.ArchiveLists.IFreetextMatchCalculator
-  - SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-  - SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
   - SuperOffice.CRM.ArchiveLists.IRowNavigationHint
   - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
@@ -702,8 +700,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
   - SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper
   - SuperOffice.CRM.ArchiveLists.RestrictionStorageBase
-  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-  - SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
   - SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculator
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorAttribute
@@ -5222,23 +5218,9 @@ references:
   name: SaintTicketCategoryProvider
   nameWithType: SaintTicketCategoryProvider
   fullName: SuperOffice.CRM.ArchiveLists.SaintTicketCategoryProvider
-- uid: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-  commentId: T:SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IRestrictionStorage.html
-  name: IRestrictionStorage
-  nameWithType: IRestrictionStorage
-  fullName: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-- uid: SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
-  commentId: T:SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration.html
-  name: IRestrictionStorageMappingConfiguration
-  nameWithType: IRestrictionStorageMappingConfiguration
-  fullName: SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
   commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
+  parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
   href: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.html
   name: RestrictionCriteriaStorage
@@ -5252,21 +5234,6 @@ references:
   name: RestrictionStorageBase
   nameWithType: RestrictionStorageBase
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageBase
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
-  name: RestrictionStorageFactory
-  nameWithType: RestrictionStorageFactory
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
-  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute.html
-  name: RestrictionStoragePluginAttribute
-  nameWithType: RestrictionStoragePluginAttribute
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   parent: SuperOffice.CRM.ArchiveLists

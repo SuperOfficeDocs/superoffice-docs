@@ -19,6 +19,7 @@ items:
   - SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
   - SuperOffice.Data.SQL.Argument
   - SuperOffice.Data.SQL.ArgumentCollection
+  - SuperOffice.Data.SQL.ArgumentField
   - SuperOffice.Data.SQL.ArgumentFunction
   - SuperOffice.Data.SQL.ArgumentParameterCollection
   - SuperOffice.Data.SQL.ArrayCompare
@@ -42,6 +43,7 @@ items:
   - SuperOffice.Data.SQL.ChatStatusFieldInfo
   - SuperOffice.Data.SQL.ChatTopicFlagFieldInfo
   - SuperOffice.Data.SQL.Compare
+  - SuperOffice.Data.SQL.Concat
   - SuperOffice.Data.SQL.ConfigTypeFieldInfo
   - SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
   - SuperOffice.Data.SQL.Count
@@ -1559,6 +1561,14 @@ references:
   name: Compare
   nameWithType: Compare
   fullName: SuperOffice.Data.SQL.Compare
+- uid: SuperOffice.Data.SQL.Concat
+  commentId: T:SuperOffice.Data.SQL.Concat
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Concat.html
+  name: Concat
+  nameWithType: Concat
+  fullName: SuperOffice.Data.SQL.Concat
 - uid: SuperOffice.Data.SQL.Count
   commentId: T:SuperOffice.Data.SQL.Count
   parent: SuperOffice.Data.SQL
@@ -1858,6 +1868,14 @@ references:
   name: DoubleFieldInfo
   nameWithType: DoubleFieldInfo
   fullName: SuperOffice.Data.SQL.DoubleFieldInfo
+- uid: SuperOffice.Data.SQL.ArgumentField
+  commentId: T:SuperOffice.Data.SQL.ArgumentField
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentField.html
+  name: ArgumentField
+  nameWithType: ArgumentField
+  fullName: SuperOffice.Data.SQL.ArgumentField
 - uid: SuperOffice.Data.SQL.FieldInfoCollection
   commentId: T:SuperOffice.Data.SQL.FieldInfoCollection
   parent: SuperOffice.Data.SQL

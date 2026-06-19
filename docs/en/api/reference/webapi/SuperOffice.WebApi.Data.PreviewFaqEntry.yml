@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.PreviewFaqEntry.#ctor
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  - SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
   - SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
   - SuperOffice.WebApi.Data.PreviewFaqEntry.Question
   - SuperOffice.WebApi.Data.PreviewFaqEntry.RegisteredByFullName
@@ -183,6 +185,86 @@ items:
       type: System.String
     content.vb: Public Overridable Property Answer As String
   overload: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer*
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  id: AccessLevel_String
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel_String
+  nameWithType: PreviewFaqEntry.AccessLevel_String
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The access level for this entry (enum).
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("AccessLevel")]
+
+      public string AccessLevel_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("AccessLevel")>
+
+      Public Property AccessLevel_String As String
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+    commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AccessLevel
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  id: AccessLevel
+  parent: SuperOffice.WebApi.Data.PreviewFaqEntry
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel
+  nameWithType: PreviewFaqEntry.AccessLevel
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The access level for this entry (enum).
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public KbAccessLevel? AccessLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.KbAccessLevel}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property AccessLevel As KbAccessLevel?
+  overload: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+    commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
   commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
@@ -556,3 +638,79 @@ references:
   name: Answer
   nameWithType: PreviewFaqEntry.Answer
   fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.Answer
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PreviewFaqEntry.html#SuperOffice_WebApi_Data_PreviewFaqEntry_AccessLevel
+  name: AccessLevel
+  nameWithType: PreviewFaqEntry.AccessLevel
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PreviewFaqEntry.html#SuperOffice_WebApi_Data_PreviewFaqEntry_AccessLevel_String
+  name: AccessLevel_String
+  nameWithType: PreviewFaqEntry.AccessLevel_String
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PreviewFaqEntry.html#SuperOffice_WebApi_Data_PreviewFaqEntry_AccessLevel_String
+  name: AccessLevel_String
+  nameWithType: PreviewFaqEntry.AccessLevel_String
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel_String
+- uid: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PreviewFaqEntry.html#SuperOffice_WebApi_Data_PreviewFaqEntry_AccessLevel
+  name: AccessLevel
+  nameWithType: PreviewFaqEntry.AccessLevel
+  fullName: SuperOffice.WebApi.Data.PreviewFaqEntry.AccessLevel
+- uid: System.Nullable{SuperOffice.WebApi.Data.KbAccessLevel}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.KbAccessLevel}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.KbAccessLevel.html
+  name: KbAccessLevel?
+  nameWithType: KbAccessLevel?
+  fullName: SuperOffice.WebApi.Data.KbAccessLevel?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.KbAccessLevel
+    name: KbAccessLevel
+    isExternal: true
+    href: SuperOffice.WebApi.Data.KbAccessLevel.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.KbAccessLevel
+    name: KbAccessLevel
+    isExternal: true
+    href: SuperOffice.WebApi.Data.KbAccessLevel.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Mail
   children:
   - SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
   - SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])
   langs:
   - csharp
@@ -123,6 +124,50 @@ items:
   nameWithType.vb: SendMailQueue.SendMail(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray MailItem())
   fullName.vb: SuperOffice.CRM.Mail.SendMailQueue.SendMail(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray SuperOffice.CRM.Mail.MailItem())
   name.vb: SendMail(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray MailItem())
+- uid: SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  id: SendMail(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  parent: SuperOffice.CRM.Mail.SendMailQueue
+  langs:
+  - csharp
+  - vb
+  name: SendMail(string, string, string, bool, string, string, string, bool, string, bool, params MailItem[])
+  nameWithType: SendMailQueue.SendMail(string, string, string, bool, string, string, string, bool, string, bool, params MailItem[])
+  fullName: SuperOffice.CRM.Mail.SendMailQueue.SendMail(string, string, string, bool, string, string, string, bool, string, bool, params SuperOffice.CRM.Mail.MailItem[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static void SendMail(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, bool useGraphApi, params MailItem[] mail)
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: smtpSSL
+      type: System.Boolean
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: imapSSL
+      type: System.Boolean
+    - id: sentFolder
+      type: System.String
+    - id: useGraphApi
+      type: System.Boolean
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public Shared Sub SendMail(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, useGraphApi As Boolean, ParamArray mail As MailItem())
+  overload: SuperOffice.CRM.Mail.SendMailQueue.SendMail*
+  nameWithType.vb: SendMailQueue.SendMail(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray MailItem())
+  fullName.vb: SuperOffice.CRM.Mail.SendMailQueue.SendMail(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray SuperOffice.CRM.Mail.MailItem())
+  name.vb: SendMail(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray MailItem())
 references:
 - uid: SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])
   commentId: M:SuperOffice.CRM.Mail.SendMailQueue.SendMail(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])

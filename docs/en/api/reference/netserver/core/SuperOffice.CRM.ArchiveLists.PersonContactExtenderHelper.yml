@@ -8,15 +8,20 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider``1(``0,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.C_NameDepartmentColumnBaseName
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
-  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ColumnHelper)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo(SuperOffice.CRM.Data.ContactTableInfo)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo(SuperOffice.CRM.Data.PersonTableInfo)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colAddressId
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCity
   - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCounty
@@ -188,6 +193,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colZip As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.C_NameDepartmentColumnBaseName
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.C_NameDepartmentColumnBaseName
+  id: C_NameDepartmentColumnBaseName
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: C_NameDepartmentColumnBaseName
+  nameWithType: PersonContactExtenderHelper.C_NameDepartmentColumnBaseName
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.C_NameDepartmentColumnBaseName
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string C_NameDepartmentColumnBaseName = "nameDepartment"
+    return:
+      type: System.String
+    content.vb: Public Const C_NameDepartmentColumnBaseName As String = "nameDepartment"
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
   id: '#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)'
@@ -233,6 +257,27 @@ items:
       type: SuperOffice.CRM.Data.PersonTableInfo
     content.vb: Public Sub SetPersonTableInfo(ourTable As PersonTableInfo)
   overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo*
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo(SuperOffice.CRM.Data.ContactTableInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo(SuperOffice.CRM.Data.ContactTableInfo)
+  id: SetContactTableInfo(SuperOffice.CRM.Data.ContactTableInfo)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetContactTableInfo(ContactTableInfo)
+  nameWithType: PersonContactExtenderHelper.SetContactTableInfo(ContactTableInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo(SuperOffice.CRM.Data.ContactTableInfo)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetContactTableInfo(ContactTableInfo contactTable)
+    parameters:
+    - id: contactTable
+      type: SuperOffice.CRM.Data.ContactTableInfo
+    content.vb: Public Sub SetContactTableInfo(contactTable As ContactTableInfo)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo*
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
   id: GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
@@ -299,36 +344,6 @@ items:
   nameWithType.vb: PersonContactExtenderHelper.GetFullNameWithContact(SoDataReader, ArchiveRow, Boolean, ContactExtenderBase)
   fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, Boolean, SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
   name.vb: GetFullNameWithContact(SoDataReader, ArchiveRow, Boolean, ContactExtenderBase)
-- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
-  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
-  id: GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
-  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
-  langs:
-  - csharp
-  - vb
-  name: GetNameAndDepartment(SoDataReader, ContactTableInfo, bool)
-  nameWithType: PersonContactExtenderHelper.GetNameAndDepartment(SoDataReader, ContactTableInfo, bool)
-  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.ContactTableInfo, bool)
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public static ArchiveColumnData GetNameAndDepartment(SoDataReader reader, ContactTableInfo contactInfo, bool wantNavLinks)
-    parameters:
-    - id: reader
-      type: SuperOffice.Data.SoDataReader
-    - id: contactInfo
-      type: SuperOffice.CRM.Data.ContactTableInfo
-    - id: wantNavLinks
-      type: System.Boolean
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-    content.vb: Public Shared Function GetNameAndDepartment(reader As SoDataReader, contactInfo As ContactTableInfo, wantNavLinks As Boolean) As ArchiveColumnData
-  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment*
-  nameWithType.vb: PersonContactExtenderHelper.GetNameAndDepartment(SoDataReader, ContactTableInfo, Boolean)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.ContactTableInfo, Boolean)
-  name.vb: GetNameAndDepartment(SoDataReader, ContactTableInfo, Boolean)
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
   id: SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
@@ -389,6 +404,127 @@ items:
       description: ''
     content.vb: Public Sub ProcessFullNameRestriction(restriction As ArchiveRestrictionInfo, targetQuery As ArchiveSelect)
   overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction*
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn
+  id: StandardNameDepartmentColumn
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: StandardNameDepartmentColumn()
+  nameWithType: PersonContactExtenderHelper.StandardNameDepartmentColumn()
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnInfo StandardNameDepartmentColumn()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared Function StandardNameDepartmentColumn() As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn*
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: CreateNameAndDepartmentArgumentField(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateNameAndDepartmentArgumentField(ArchiveSelect, ArchiveColumnInfo)
+  nameWithType: PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField(ArchiveSelect, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField(SuperOffice.CRM.ArchiveLists.ArchiveSelect, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    Sets up an ArgumentField on the query for the name and department combination, and maps it to the provided column. Call from ModifyQuery when you see the column in the desired columns.
+
+    Pair it with <xref href="SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader%2cSuperOffice.CRM.ArchiveLists.ArchiveRow%2cSystem.Boolean%2cSuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)" data-throw-if-not-resolved="false"></xref> in InnerPopulateRowFromReader for populating the column data.
+  example: []
+  syntax:
+    content: public void CreateNameAndDepartmentArgumentField(ArchiveSelect query, ArchiveColumnInfo column)
+    parameters:
+    - id: query
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+      description: ''
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+      description: ''
+    content.vb: Public Sub CreateNameAndDepartmentArgumentField(query As ArchiveSelect, column As ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField*
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: GetNameAndDepartment(SuperOffice.Data.SoDataReader,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNameAndDepartment(SoDataReader, bool, ArchiveColumnInfo)
+  nameWithType: PersonContactExtenderHelper.GetNameAndDepartment(SoDataReader, bool, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader, bool, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveColumnData GetNameAndDepartment(SoDataReader reader, bool wantNavLinks, ArchiveColumnInfo column)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: wantNavLinks
+      type: System.Boolean
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Function GetNameAndDepartment(reader As SoDataReader, wantNavLinks As Boolean, column As ArchiveColumnInfo) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment*
+  nameWithType.vb: PersonContactExtenderHelper.GetNameAndDepartment(SoDataReader, Boolean, ArchiveColumnInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader, Boolean, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: GetNameAndDepartment(SoDataReader, Boolean, ArchiveColumnInfo)
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, bool, ArchiveColumnInfo)
+  nameWithType: PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, bool, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, bool, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: >-
+    Populate the row column under the actual prefixed column key the extender registered.
+
+    In navigation/prefixed contexts (e.g. DotSyntax 'contact.associate_id.person_id.contact_id.
+
+    nameDepartment' or NamePrefix '&lt;prefix&gt;/nameDepartment'), the extender's
+
+    <code>_colNameAndDepartment.Name</code> is the prefixed form; callers pass the column itself
+
+    so the row column key matches the desired-column key the consumer looks up by.
+  example: []
+  syntax:
+    content: public void PopulateNameAndDepartmentFromReader(SoDataReader reader, ArchiveRow row, bool wantNavLinks, ArchiveColumnInfo column)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    - id: wantNavLinks
+      type: System.Boolean
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Sub PopulateNameAndDepartmentFromReader(reader As SoDataReader, row As ArchiveRow, wantNavLinks As Boolean, column As ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader*
+  nameWithType.vb: PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, Boolean, ArchiveColumnInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, Boolean, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, Boolean, ArchiveColumnInfo)
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
   id: InitializeAddressExtenders
@@ -1070,6 +1206,17 @@ references:
   name: ArchiveColumnInfo
   nameWithType: ArchiveColumnInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor
   isExternal: true
@@ -1140,6 +1287,21 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_SetContactTableInfo_SuperOffice_CRM_Data_ContactTableInfo_
+  name: SetContactTableInfo
+  nameWithType: PersonContactExtenderHelper.SetContactTableInfo
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetContactTableInfo
+- uid: SuperOffice.CRM.Data.ContactTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html
+  name: ContactTableInfo
+  nameWithType: ContactTableInfo
+  fullName: SuperOffice.CRM.Data.ContactTableInfo
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName
   isExternal: true
@@ -1224,21 +1386,6 @@ references:
   name: ContactExtenderBase
   nameWithType: ContactExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
-- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_GetNameAndDepartment_SuperOffice_Data_SoDataReader_SuperOffice_CRM_Data_ContactTableInfo_System_Boolean_
-  name: GetNameAndDepartment
-  nameWithType: PersonContactExtenderHelper.GetNameAndDepartment
-  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment
-- uid: SuperOffice.CRM.Data.ContactTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ContactTableInfo.html
-  name: ContactTableInfo
-  nameWithType: ContactTableInfo
-  fullName: SuperOffice.CRM.Data.ContactTableInfo
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy
   isExternal: true
@@ -1269,6 +1416,96 @@ references:
   name: ArchiveSelect
   nameWithType: ArchiveSelect
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_StandardNameDepartmentColumn
+  name: StandardNameDepartmentColumn
+  nameWithType: PersonContactExtenderHelper.StandardNameDepartmentColumn
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.StandardNameDepartmentColumn
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_PopulateNameAndDepartmentFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Boolean_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_
+  name: PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, bool, ArchiveColumnInfo)
+  nameWithType: PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, bool, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, bool, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  nameWithType.vb: PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, Boolean, ArchiveColumnInfo)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, Boolean, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: PopulateNameAndDepartmentFromReader(SoDataReader, ArchiveRow, Boolean, ArchiveColumnInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: PopulateNameAndDepartmentFromReader
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_PopulateNameAndDepartmentFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Boolean_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: PopulateNameAndDepartmentFromReader
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_PopulateNameAndDepartmentFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Boolean_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    isExternal: true
+  - name: )
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_CreateNameAndDepartmentArgumentField_SuperOffice_CRM_ArchiveLists_ArchiveSelect_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_
+  name: CreateNameAndDepartmentArgumentField
+  nameWithType: PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.CreateNameAndDepartmentArgumentField
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_GetNameAndDepartment_SuperOffice_Data_SoDataReader_System_Boolean_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_
+  name: GetNameAndDepartment
+  nameWithType: PersonContactExtenderHelper.GetNameAndDepartment
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.html#SuperOffice_CRM_ArchiveLists_PersonContactExtenderHelper_PopulateNameAndDepartmentFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_ArchiveLists_ArchiveRow_System_Boolean_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo_
+  name: PopulateNameAndDepartmentFromReader
+  nameWithType: PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateNameAndDepartmentFromReader
 - uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
   isExternal: true
@@ -1334,17 +1571,6 @@ references:
   name: ExtenderType
   nameWithType: ExtenderType
   fullName: ExtenderType
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: ExtenderType
   name: ExtenderType
   nameWithType: ExtenderType

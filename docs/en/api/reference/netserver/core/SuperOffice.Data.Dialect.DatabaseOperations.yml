@@ -28,6 +28,7 @@ items:
   - SuperOffice.Data.Dialect.DatabaseOperations.SetOptions(System.Boolean,SuperOffice.Data.TtlFlags)
   - SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
   - SuperOffice.Data.Dialect.DatabaseOperations.TruncateTableAsync(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.TruncateOptions,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IAsyncEnumerable{System.Object[]},System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]},System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRowsAsync(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo,System.Threading.CancellationToken)
@@ -52,7 +53,6 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
-  - SuperOffice.Data.Dialect.OracleOperations
   - SuperOffice.Data.Dialect.PostgreSqlOperations
   - SuperOffice.Data.Dialect.SqlServerOperations
   implements:
@@ -289,9 +289,9 @@ items:
 
     should generally not be used on tables that are subject to replication.
   remarks: >-
-    On Oracle, it requires the DROP ANY TABLE privilege. On DB/2 DELETE, CONTROL and DATACCESS are required.
+    Truncate table is prohibited on tables that have Change Data Capture set up in SQL Server. Our
 
-    Any DELETE triggers are generally <b>not</b> executed, though this might vary with database and access.
+    Replication functionality uses CDC, so any table that is replicated, cannot be Truncated.
   example: []
   syntax:
     content: public virtual Task<int> TruncateTableAsync(SoTable table, TruncateOptions options = TruncateOptions.DeallocateStorage, bool resetSequence = false, CancellationToken cancellationToken = default)
@@ -407,6 +407,42 @@ items:
   nameWithType.vb: DatabaseOperations.WipeAndImportTableAsync(SoTable, IEnumerable(Of Object()), CancellationToken)
   fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTableAsync(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable(Of Object()), System.Threading.CancellationToken)
   name.vb: WipeAndImportTableAsync(SoTable, IEnumerable(Of Object()), CancellationToken)
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  id: UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: UpdateStatisticsAsync(SoTable, CancellationToken)
+  nameWithType: DatabaseOperations.UpdateStatisticsAsync(SoTable, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  summary: >-
+    Refresh database statistics for the given table. Called after a wipe-and-import, where the complete
+
+    replacement of the table contents can leave the query optimizer working from stale statistics and
+
+    thus producing poor execution plans.
+  remarks: >-
+    The base implementation does nothing. Subclasses override it where the database has a practical
+
+    mechanism for refreshing statistics (currently SQL Server only).
+  example: []
+  syntax:
+    content: protected virtual Task UpdateStatisticsAsync(SoTable table, CancellationToken cancellationToken = default)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function UpdateStatisticsAsync(table As SoTable, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync*
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.ImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IAsyncEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.ImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IAsyncEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
   id: ImportTableAsync(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IAsyncEnumerable{System.Object[]},System.Collections.Generic.List{System.Int32},System.Threading.CancellationToken)
@@ -451,11 +487,7 @@ items:
 
     The classes that actually implement Bulk Copy have the same syntax, more or less, but no common inheritance. <br />
 
-    http://docs.oracle.com/html/E10927_01/OracleBulkCopyClass.htm <br />
-
     http://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlbulkcopy.aspx <br />
-
-    http://dcx.sybase.com/1201/en/dbprogramming/programming-api-sabulkcopy-cla.html <br />
   example: []
   syntax:
     content: public virtual Task<long> ImportTableAsync(SoTable table, IAsyncEnumerable<object[]> rows, List<int> actualPrimaryKeys = null, CancellationToken cancellationToken = default)
@@ -2313,6 +2345,13 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  name: UpdateStatisticsAsync
+  nameWithType: DatabaseOperations.UpdateStatisticsAsync
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.ImportTableAsync*
   commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.ImportTableAsync
   isExternal: true

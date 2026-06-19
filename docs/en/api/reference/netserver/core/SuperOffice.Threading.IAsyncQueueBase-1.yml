@@ -5,6 +5,8 @@ items:
   id: IAsyncQueueBase`1
   parent: SuperOffice.Threading
   children:
+  - SuperOffice.Threading.IAsyncQueueBase`1.Count
+  - SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
   - SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue
   - SuperOffice.Threading.IAsyncQueueBase`1.ProcessItemsAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0},System.Threading.CancellationToken)
   - SuperOffice.Threading.IAsyncQueueBase`1.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0},System.Threading.CancellationToken)
@@ -167,6 +169,52 @@ items:
   nameWithType.vb: IAsyncQueueBase(Of TItem).ToArray(Boolean)
   fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).ToArray(Boolean)
   name.vb: ToArray(Boolean)
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+  commentId: M:SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+  id: DrainQueue
+  parent: SuperOffice.Threading.IAsyncQueueBase`1
+  langs:
+  - csharp
+  - vb
+  name: DrainQueue()
+  nameWithType: IAsyncQueueBase<TItem>.DrainQueue()
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.DrainQueue()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: >-
+    Discard all items currently waiting in the queue without processing them.
+
+    Each discarded item's completion task is transitioned to the Canceled state, so
+
+    callers awaiting an individual item or <xref href="SuperOffice.Threading.IAsyncQueueBase%601.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>
+
+    observe cancellation rather than hanging.
+  remarks: >-
+    Items already in flight (handed to a worker via <xref href="SuperOffice.Threading.IAsyncQueueBase%601.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync%7b%600%7d%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>)
+
+    are NOT canceled by this method — they finish naturally. Intended for shutdown
+
+    and test-isolation scenarios where the caller has given up on waiting for the
+
+    remaining backlog and wants to leave the queue in a clean state for subsequent
+
+    work. Workers blocked on the inner signaling primitive may observe a small,
+
+    bounded number of spurious wake-ups (one per drained item) and will exit those
+
+    iterations immediately when they find the queue empty.
+  example: []
+  syntax:
+    content: int DrainQueue()
+    return:
+      type: System.Int32
+      description: Number of items that were discarded.
+    content.vb: Function DrainQueue() As Integer
+  overload: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue*
+  nameWithType.vb: IAsyncQueueBase(Of TItem).DrainQueue()
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).DrainQueue()
 - uid: SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue
   commentId: P:SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue
   id: HasItemsInTheQueue
@@ -192,6 +240,44 @@ items:
   overload: SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue*
   nameWithType.vb: IAsyncQueueBase(Of TItem).HasItemsInTheQueue
   fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).HasItemsInTheQueue
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.Count
+  commentId: P:SuperOffice.Threading.IAsyncQueueBase`1.Count
+  id: Count
+  parent: SuperOffice.Threading.IAsyncQueueBase`1
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IAsyncQueueBase<TItem>.Count
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.Count
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  summary: >-
+    Approximate count of items currently waiting in the queue
+
+    (NOT including items currently being processed).
+  remarks: >-
+    Designed to be cheap (O(1) or O(segments)) so it is safe to call on hot paths
+
+    such as per-event diagnostic or auto-scaling decisions. Specifically does NOT
+
+    materialize a snapshot array — prefer this over <code>ToArray(...).Length</code>.
+
+    May read slightly stale values when other threads concurrently enqueue or
+
+    dequeue; acceptable for thresholding / metrics purposes.
+  example: []
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: SuperOffice.Threading.IAsyncQueueBase`1.Count*
+  nameWithType.vb: IAsyncQueueBase(Of TItem).Count
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).Count
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
@@ -711,6 +797,109 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.IAsyncQueueBase`1.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_WaitForItemsInQueueToBeProcessedAsync_System_Threading_CancellationToken_
+  name: WaitForItemsInQueueToBeProcessedAsync(CancellationToken)
+  nameWithType: IAsyncQueueBase<TItem>.WaitForItemsInQueueToBeProcessedAsync(CancellationToken)
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+  nameWithType.vb: IAsyncQueueBase(Of TItem).WaitForItemsInQueueToBeProcessedAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueBase`1.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+    name: WaitForItemsInQueueToBeProcessedAsync
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_WaitForItemsInQueueToBeProcessedAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueBase`1.WaitForItemsInQueueToBeProcessedAsync(System.Threading.CancellationToken)
+    name: WaitForItemsInQueueToBeProcessedAsync
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_WaitForItemsInQueueToBeProcessedAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.IAsyncQueueBase`1.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0},System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_ProcessNextItemAsync_SuperOffice_Threading_AsyncQueueProcessItemAsync__0__System_Threading_CancellationToken_
+  name: ProcessNextItemAsync(AsyncQueueProcessItemAsync<TItem>, CancellationToken)
+  nameWithType: IAsyncQueueBase<TItem>.ProcessNextItemAsync(AsyncQueueProcessItemAsync<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: IAsyncQueueBase(Of TItem).ProcessNextItemAsync(AsyncQueueProcessItemAsync(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync(Of TItem), System.Threading.CancellationToken)
+  name.vb: ProcessNextItemAsync(AsyncQueueProcessItemAsync(Of TItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueBase`1.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0},System.Threading.CancellationToken)
+    name: ProcessNextItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_ProcessNextItemAsync_SuperOffice_Threading_AsyncQueueProcessItemAsync__0__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueBase`1.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{`0},System.Threading.CancellationToken)
+    name: ProcessNextItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_ProcessNextItemAsync_SuperOffice_Threading_AsyncQueueProcessItemAsync__0__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.AsyncQueueProcessItemAsync`1
+    name: AsyncQueueProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessItemAsync-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue*
+  commentId: Overload:SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  name: DrainQueue
+  nameWithType: IAsyncQueueBase<TItem>.DrainQueue
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.DrainQueue
+  nameWithType.vb: IAsyncQueueBase(Of TItem).DrainQueue
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).DrainQueue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue*
   commentId: Overload:SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue
   isExternal: true
@@ -720,3 +909,12 @@ references:
   fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.HasItemsInTheQueue
   nameWithType.vb: IAsyncQueueBase(Of TItem).HasItemsInTheQueue
   fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).HasItemsInTheQueue
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.Count*
+  commentId: Overload:SuperOffice.Threading.IAsyncQueueBase`1.Count
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_Count
+  name: Count
+  nameWithType: IAsyncQueueBase<TItem>.Count
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.Count
+  nameWithType.vb: IAsyncQueueBase(Of TItem).Count
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).Count

@@ -89,6 +89,8 @@ items:
   - System.IO.Stream.StreamExtensions.ToByteArray(System.Int32)
   - System.IO.Stream.StreamExtensions.WriteInChunksTo(System.IO.Stream)
   - System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToPng(System.Int32,System.Int32)
+  - System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.Int32,System.Int32)
   - System.IO.Stream.SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.Threading.CancellationToken)
   - System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
 - uid: SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
@@ -2392,6 +2394,120 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToPng(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  parent: SuperOffice.Util.ImageStreamUtils
+  definition: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPng(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPng(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream, int, int)
+  nameWithType.vb: ImageStreamUtils.FitToPng(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPng(Stream, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPng
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPng
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  parent: SuperOffice.Util.ImageStreamUtils
+  definition: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPngBytes(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPngBytes(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, int, int)
+  nameWithType.vb: ImageStreamUtils.FitToPngBytes(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPngBytes(Stream, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPngBytes
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPngBytes
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: System.IO.Stream.SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.Util.ImageStreamUtils
@@ -2902,6 +3018,118 @@ references:
   name: ImageStreamUtils
   nameWithType: ImageStreamUtils
   fullName: SuperOffice.Util.ImageStreamUtils
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPng(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPng(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream, int, int)
+  nameWithType.vb: ImageStreamUtils.FitToPng(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPng(Stream, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPng
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPng(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPng
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPng_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  name: FitToPngBytes(Stream, int, int)
+  nameWithType: ImageStreamUtils.FitToPngBytes(Stream, int, int)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, int, int)
+  nameWithType.vb: ImageStreamUtils.FitToPngBytes(Stream, Integer, Integer)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream, Integer, Integer)
+  name.vb: FitToPngBytes(Stream, Integer, Integer)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPngBytes
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToPngBytes(System.IO.Stream,System.Int32,System.Int32)
+    name: FitToPngBytes
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToPngBytes_System_IO_Stream_System_Int32_System_Int32_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
   isExternal: true

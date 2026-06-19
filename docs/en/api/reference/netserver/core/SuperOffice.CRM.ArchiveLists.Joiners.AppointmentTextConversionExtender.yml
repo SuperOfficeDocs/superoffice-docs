@@ -8,19 +8,17 @@ items:
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.AgendaTableInfo
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.DescriptionTableInfo
-  - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetTexts(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.IsConverted(SuperOffice.Data.SoDataReader,System.String@,System.String@)
-  - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription
-  - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.SetJoin
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.TitleTableInfo
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colAgenda
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colAgendaHtml
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colDescription
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colIsConverted
+  - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colText
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colTitle
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colTitleHtml
   langs:
@@ -175,6 +173,25 @@ items:
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colText
+  commentId: F:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colText
+  id: _colText
+  parent: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
+  langs:
+  - csharp
+  - vb
+  name: _colText
+  nameWithType: AppointmentTextConversionExtender._colText
+  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colText
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists.Joiners
+  syntax:
+    content: protected ArchiveColumnInfo _colText
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colText As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colDescription
   commentId: F:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender._colDescription
   id: _colDescription
@@ -390,65 +407,6 @@ items:
     content.vb: Protected Overrides Function SetJoin() As TextTableInfo
   overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.TextTableInfo}.SetJoin
   overload: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.SetJoin*
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription
-  commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription
-  id: RequestDescription
-  parent: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
-  langs:
-  - csharp
-  - vb
-  name: RequestDescription()
-  nameWithType: AppointmentTextConversionExtender.RequestDescription()
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription()
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists.Joiners
-  syntax:
-    content: public void RequestDescription()
-    content.vb: Public Sub RequestDescription()
-  overload: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription*
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction
-  commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction
-  id: RequestDescriptionForRestriction
-  parent: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
-  langs:
-  - csharp
-  - vb
-  name: RequestDescriptionForRestriction()
-  nameWithType: AppointmentTextConversionExtender.RequestDescriptionForRestriction()
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction()
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists.Joiners
-  syntax:
-    content: public void RequestDescriptionForRestriction()
-    content.vb: Public Sub RequestDescriptionForRestriction()
-  overload: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction*
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription(SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription(SuperOffice.Data.SoDataReader)
-  id: GetDescription(SuperOffice.Data.SoDataReader)
-  parent: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
-  langs:
-  - csharp
-  - vb
-  name: GetDescription(SoDataReader)
-  nameWithType: AppointmentTextConversionExtender.GetDescription(SoDataReader)
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription(SuperOffice.Data.SoDataReader)
-  type: Method
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists.Joiners
-  syntax:
-    content: public ArchiveColumnData GetDescription(SoDataReader reader)
-    parameters:
-    - id: reader
-      type: SuperOffice.Data.SoDataReader
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-    content.vb: Public Function GetDescription(reader As SoDataReader) As ArchiveColumnData
-  overload: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription*
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetTexts(SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetTexts(SuperOffice.Data.SoDataReader)
   id: GetTexts(SuperOffice.Data.SoDataReader)
@@ -5487,35 +5445,6 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.html#SuperOffice_CRM_ArchiveLists_Joiners_AppointmentTextConversionExtender_RequestDescription
-  name: RequestDescription
-  nameWithType: AppointmentTextConversionExtender.RequestDescription
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescription
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.html#SuperOffice_CRM_ArchiveLists_Joiners_AppointmentTextConversionExtender_RequestDescriptionForRestriction
-  name: RequestDescriptionForRestriction
-  nameWithType: AppointmentTextConversionExtender.RequestDescriptionForRestriction
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.RequestDescriptionForRestriction
-- uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.html#SuperOffice_CRM_ArchiveLists_Joiners_AppointmentTextConversionExtender_GetDescription_SuperOffice_Data_SoDataReader_
-  name: GetDescription
-  nameWithType: AppointmentTextConversionExtender.GetDescription
-  fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetDescription
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.html
-  name: ArchiveColumnData
-  nameWithType: ArchiveColumnData
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetTexts*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.GetTexts
   isExternal: true

@@ -22,10 +22,6 @@ items:
   - SuperOffice.Data.Dialect.MassOperations.ERowStatus
   - SuperOffice.Data.Dialect.MassOperations.RowInfo
   - SuperOffice.Data.Dialect.MassResult
-  - SuperOffice.Data.Dialect.Oracle12
-  - SuperOffice.Data.Dialect.OracleCommon
-  - SuperOffice.Data.Dialect.OracleMassOperations
-  - SuperOffice.Data.Dialect.OracleOperations
   - SuperOffice.Data.Dialect.PostgreSqlDialect
   - SuperOffice.Data.Dialect.PostgreSqlMassOperations
   - SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2
@@ -218,35 +214,6 @@ references:
     name: RowInfo
     isExternal: true
     href: SuperOffice.Data.Dialect.MassOperations.RowInfo.html
-- uid: SuperOffice.Data.Dialect.Oracle12
-  commentId: T:SuperOffice.Data.Dialect.Oracle12
-  isExternal: true
-  href: SuperOffice.Data.Dialect.Oracle12.html
-  name: Oracle12
-  nameWithType: Oracle12
-  fullName: SuperOffice.Data.Dialect.Oracle12
-- uid: SuperOffice.Data.Dialect.OracleCommon
-  commentId: T:SuperOffice.Data.Dialect.OracleCommon
-  parent: SuperOffice.Data.Dialect
-  isExternal: true
-  href: SuperOffice.Data.Dialect.OracleCommon.html
-  name: OracleCommon
-  nameWithType: OracleCommon
-  fullName: SuperOffice.Data.Dialect.OracleCommon
-- uid: SuperOffice.Data.Dialect.OracleMassOperations
-  commentId: T:SuperOffice.Data.Dialect.OracleMassOperations
-  isExternal: true
-  href: SuperOffice.Data.Dialect.OracleMassOperations.html
-  name: OracleMassOperations
-  nameWithType: OracleMassOperations
-  fullName: SuperOffice.Data.Dialect.OracleMassOperations
-- uid: SuperOffice.Data.Dialect.OracleOperations
-  commentId: T:SuperOffice.Data.Dialect.OracleOperations
-  isExternal: true
-  href: SuperOffice.Data.Dialect.OracleOperations.html
-  name: OracleOperations
-  nameWithType: OracleOperations
-  fullName: SuperOffice.Data.Dialect.OracleOperations
 - uid: SuperOffice.Data.Dialect.PostgreSqlDialect
   commentId: T:SuperOffice.Data.Dialect.PostgreSqlDialect
   isExternal: true

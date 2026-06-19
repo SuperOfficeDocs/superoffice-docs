@@ -71,6 +71,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowAllTemplates
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowConfirmationDialog
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowInlineImages
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowMyEmails
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SmtpServerName
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SmtpServerPass
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.SmtpServerPort
@@ -129,6 +130,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "Mail"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowMyEmails
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowMyEmails
+  id: ShowMyEmails
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ShowMyEmails
+  nameWithType: UserPreferenceStrings.Mail.ShowMyEmails
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.ShowMyEmails
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Download my e-mails to SuperOffice and show the Inbox button in the Navigator pane.
+
+    When off, only invitation/calendar related e-mails are fetched and saved
+
+    (the "simple mode" experience, e.g. when the user prefers Outlook for their inbox).
+
+    <p></p>Control type: Bool, access: Crm, Wizard
+  example: []
+  syntax:
+    content: public const string ShowMyEmails = "ShowMyEmails"
+    return:
+      type: System.String
+    content.vb: Public Const ShowMyEmails As String = "ShowMyEmails"
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EmailBounceThreshold
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Mail.EmailBounceThreshold
   id: EmailBounceThreshold

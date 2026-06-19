@@ -75,6 +75,7 @@ items:
   - SuperOffice.CRM.Entities.IAppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
   - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean)
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
@@ -1423,6 +1424,62 @@ items:
   nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipantsAsync(Boolean, Boolean)
   fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipantsAsync(Boolean, Boolean)
   name.vb: SetSendMailToParticipantsAsync(Boolean, Boolean)
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  id: SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Set if e-mails are going to be sent to participants that are marked receive mails, with provided mail server options.
+  example: []
+  syntax:
+    content: void SetSendMailToParticipants(bool sendEmailToParticipants, string imapServer, string imapUser, string imapPassword, bool imapSSL, string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, bool useGraphApi, string sentFolder)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: True if e-mails are going to be sent to participants that are marked receive mails.
+    - id: imapServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the IMAP server for storing e-mail in the sent items folder.
+    - id: imapUser
+      type: System.String
+      description: User-name to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapPassword
+      type: System.String
+      description: Password to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: smtpServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the SMTP server for sending e-mail.
+    - id: smtpUser
+      type: System.String
+      description: User-name to use when authenticating against the SMTP server for sending e-mail.
+    - id: smtpPassword
+      type: System.String
+      description: Password to use when authenticating against the SMT server for sending e-mail.
+    - id: smtpSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: useGraphApi
+      type: System.Boolean
+      description: Use graph api.
+    - id: sentFolder
+      type: System.String
+    content.vb: Sub SetSendMailToParticipants(sendEmailToParticipants As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, useGraphApi As Boolean, sentFolder As String)
+  overload: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants*
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
 - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
   commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
   id: SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)

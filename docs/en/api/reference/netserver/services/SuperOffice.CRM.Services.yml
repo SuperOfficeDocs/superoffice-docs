@@ -112,6 +112,12 @@ items:
   - SuperOffice.CRM.Services.Currency
   - SuperOffice.CRM.Services.CurrencyEntity
   - SuperOffice.CRM.Services.CustomCommand
+  - SuperOffice.CRM.Services.CustomObject
+  - SuperOffice.CRM.Services.CustomObjectAgent
+  - SuperOffice.CRM.Services.CustomObjectDefinition
+  - SuperOffice.CRM.Services.CustomObjectField
+  - SuperOffice.CRM.Services.CustomObjectMetadata
+  - SuperOffice.CRM.Services.CustomObjectRelation
   - SuperOffice.CRM.Services.CustomerCenterConfig
   - SuperOffice.CRM.Services.CustomerLanguage
   - SuperOffice.CRM.Services.CustomerServiceAgent
@@ -246,6 +252,7 @@ items:
   - SuperOffice.CRM.Services.IChatAgent
   - SuperOffice.CRM.Services.IContactAgent
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  - SuperOffice.CRM.Services.ICustomObjectAgent
   - SuperOffice.CRM.Services.ICustomerServiceAgent
   - SuperOffice.CRM.Services.IDashAgent
   - SuperOffice.CRM.Services.IDatabaseAgent
@@ -710,6 +717,14 @@ references:
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomObjectAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomObjectAgent.html
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent
 - uid: SuperOffice.CRM.Services.IDashAgent
   commentId: T:SuperOffice.CRM.Services.IDashAgent
   parent: SuperOffice.CRM.Services
@@ -1850,6 +1865,42 @@ references:
   name: CustomerServiceStartup
   nameWithType: CustomerServiceStartup
   fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+- uid: SuperOffice.CRM.Services.CustomObject
+  commentId: T:SuperOffice.CRM.Services.CustomObject
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObject.html
+  name: CustomObject
+  nameWithType: CustomObject
+  fullName: SuperOffice.CRM.Services.CustomObject
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition
+  commentId: T:SuperOffice.CRM.Services.CustomObjectDefinition
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition
+- uid: SuperOffice.CRM.Services.CustomObjectField
+  commentId: T:SuperOffice.CRM.Services.CustomObjectField
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectField.html
+  name: CustomObjectField
+  nameWithType: CustomObjectField
+  fullName: SuperOffice.CRM.Services.CustomObjectField
+- uid: SuperOffice.CRM.Services.CustomObjectMetadata
+  commentId: T:SuperOffice.CRM.Services.CustomObjectMetadata
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectMetadata.html
+  name: CustomObjectMetadata
+  nameWithType: CustomObjectMetadata
+  fullName: SuperOffice.CRM.Services.CustomObjectMetadata
+- uid: SuperOffice.CRM.Services.CustomObjectRelation
+  commentId: T:SuperOffice.CRM.Services.CustomObjectRelation
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectRelation.html
+  name: CustomObjectRelation
+  nameWithType: CustomObjectRelation
+  fullName: SuperOffice.CRM.Services.CustomObjectRelation
 - uid: SuperOffice.CRM.Services.Dash
   commentId: T:SuperOffice.CRM.Services.Dash
   parent: SuperOffice.CRM.Services
@@ -4783,6 +4834,13 @@ references:
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.CustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.CustomObjectAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent
 - uid: SuperOffice.CRM.Services.DashAgent
   commentId: T:SuperOffice.CRM.Services.DashAgent
   isExternal: true

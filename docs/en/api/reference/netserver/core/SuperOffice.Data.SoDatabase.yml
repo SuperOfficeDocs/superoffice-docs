@@ -42,7 +42,6 @@ items:
   - SuperOffice.Data.SoDatabase.ExpirationDate
   - SuperOffice.Data.SoDatabase.GetCurrent
   - SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
-  - SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
   - SuperOffice.Data.SoDatabase.IsInitialized
   - SuperOffice.Data.SoDatabase.IsOnTravel
   - SuperOffice.Data.SoDatabase.IsSatellite
@@ -1132,7 +1131,7 @@ items:
     parameters: []
     return:
       type: System.String
-      description: MSSQL | Oracle
+      description: MSSQL | ...
     content.vb: Public ReadOnly Property DatabaseMajor As String
   overload: SuperOffice.Data.SoDatabase.DatabaseMajor*
 - uid: SuperOffice.Data.SoDatabase.DatabaseMinor
@@ -1245,7 +1244,7 @@ items:
   summary: The connection string formated as a "template".
   remarks: <ul><li><span class="term"><code>[@Server]</code></span>The server where the database is located.</li><li><span class="term"><code>[@Database]</code></span>The name of the database. Also used for destinct service name.</li><li><span class="term"><code>[@User]</code></span>The user to be used for the connection.</li><li><span class="term"><code>[@Password]</code></span>The password to be used for the connection.</li></ul>
   example:
-  - <ul><li><span class="term">MSSQL</span><code>Server=[@Server];Database=[@Database];User ID=[@User];Password=[@Password]</code></li><li><span class="term">Oracle</span><code>Data Source=[@Database];User ID=[@User];PASSWORD=[@Password];</code></li></ul>
+  - <ul><li><span class="term">MSSQL</span><code>Server=[@Server];Database=[@Database];User ID=[@User];Password=[@Password]</code></li></ul>
   syntax:
     content: public string ConnectionString { get; }
     parameters: []
@@ -1438,29 +1437,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property SaleDocumentRelationDefinitionId As Integer
   overload: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId*
-- uid: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
-  commentId: P:SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
-  id: IgnoreADUsernameAuthentication
-  parent: SuperOffice.Data.SoDatabase
-  langs:
-  - csharp
-  - vb
-  name: IgnoreADUsernameAuthentication
-  nameWithType: SoDatabase.IgnoreADUsernameAuthentication
-  fullName: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: Ignore Username and Password authentication with Active Directory
-  example: []
-  syntax:
-    content: public bool IgnoreADUsernameAuthentication { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property IgnoreADUsernameAuthentication As Boolean
-  overload: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication*
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiBin
   commentId: P:SuperOffice.Data.SoDatabase.EJconfigCgiBin
   id: EJconfigCgiBin
@@ -2832,13 +2808,6 @@ references:
   name: SaleDocumentRelationDefinitionId
   nameWithType: SoDatabase.SaleDocumentRelationDefinitionId
   fullName: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId
-- uid: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication*
-  commentId: Overload:SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
-  isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_IgnoreADUsernameAuthentication
-  name: IgnoreADUsernameAuthentication
-  nameWithType: SoDatabase.IgnoreADUsernameAuthentication
-  fullName: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiBin*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJconfigCgiBin
   isExternal: true

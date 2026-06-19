@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Cache.MDOPreferenceCache.GetShowAssociatesInPrimaryGroupOnly
   - SuperOffice.CRM.Cache.MDOPreferenceCache.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   - SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(System.String)
+  - SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(System.String,System.String)
   - SuperOffice.CRM.Cache.MDOPreferenceCache.MDOSectionName
   - SuperOffice.CRM.Cache.MDOPreferenceCache.OnLoad
   - SuperOffice.CRM.Cache.MDOPreferenceCache.OnLoadAsync(System.Threading.CancellationToken)
@@ -226,6 +227,42 @@ items:
   nameWithType.vb: MDOPreferenceCache.IsGroupingAllowed(String)
   fullName.vb: SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(String)
   name.vb: IsGroupingAllowed(String)
+- uid: SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(System.String,System.String)
+  id: IsGroupingAllowed(System.String,System.String)
+  parent: SuperOffice.CRM.Cache.MDOPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: IsGroupingAllowed(string, string)
+  nameWithType: MDOPreferenceCache.IsGroupingAllowed(string, string)
+  fullName: SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(string, string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: >-
+    Get whether grouping is turned on for a specific list, with a fallback list name used when the primary has no preference set.
+
+    Lets UD-list providers prefer a per-id key (e.g. <code>udlist123</code>) and fall back to the table-level key (<code>udlist</code>) for backward compatibility.
+  example: []
+  syntax:
+    content: public bool IsGroupingAllowed(string listName, string fallbackListName)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Primary list name, case insensitive
+    - id: fallbackListName
+      type: System.String
+      description: Fallback list name used when <code class="paramref">listName</code> has no preference, case insensitive
+    return:
+      type: System.Boolean
+      description: True if list is grouped
+    content.vb: Public Function IsGroupingAllowed(listName As String, fallbackListName As String) As Boolean
+  overload: SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed*
+  nameWithType.vb: MDOPreferenceCache.IsGroupingAllowed(String, String)
+  fullName.vb: SuperOffice.CRM.Cache.MDOPreferenceCache.IsGroupingAllowed(String, String)
+  name.vb: IsGroupingAllowed(String, String)
 - uid: SuperOffice.CRM.Cache.MDOPreferenceCache.GetGroupingLowerLimit(System.String)
   commentId: M:SuperOffice.CRM.Cache.MDOPreferenceCache.GetGroupingLowerLimit(System.String)
   id: GetGroupingLowerLimit(System.String)
