@@ -4,7 +4,7 @@ title: Settings
 description: How to open and configure the settings menu in SuperOffice for Outlook.
 keywords: SuperOffice for Outlook, Outlook, settings, archive reminder, SOFO
 author: schildea
-date: 16.05.2026
+date: 06.16.2026
 version_sofo: 2026.6.3
 content_type: reference
 category: integration
@@ -18,7 +18,7 @@ index: true
 ---
 # Settings
 
-The Settings menu lets you personalise how SuperOffice for Outlook behaves for you. From here you can review your profile, manage archiving preferences, and control when you are reminded to archive emails.
+The Settings menu lets you personalize how SuperOffice for Outlook behaves for you. From here you can review your profile, manage archiving preferences, and control when you are reminded to archive emails.
 
 ## Open Settings
 
@@ -62,7 +62,7 @@ When the main toggle is on, you can choose which types of outgoing emails trigge
 | New emails | On | Reminder appears when sending a new email. |
 | Replies | On | Reminder appears when replying to an email. |
 | Forwards | On | Reminder appears when forwarding an email. |
-| External recipients only | Off | When enabled, the reminder only appears for emails sent outside your organisation. |
+| External recipients only | Off | When enabled, the reminder only appears for emails sent outside your organization. |
 
 Your settings are saved automatically and sync across all your devices.
 
