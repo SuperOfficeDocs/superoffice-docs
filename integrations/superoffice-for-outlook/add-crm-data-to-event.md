@@ -4,7 +4,7 @@ title: Add CRM data to Outlook event
 description: How to add CRM data to meetings and appointments in Outlook using SuperOffice for Outlook
 keywords: SuperOffice for Outlook, Outlook, email, event, calendar, CRM data, SOFO
 author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
-date: 16.06.2026
+date: 06.16.2026
 version_sofo: 2026.6.3
 content_type: howto
 category: integration
