@@ -4,7 +4,7 @@ title: Email archive reminder
 description: How the email archive reminder works in SuperOffice for Outlook and what to do when the reminder appears.
 keywords: SuperOffice for Outlook, Outlook, archive reminder, Smart Alerts, archive email, SOFO
 author: schildea
-date: 16.05.2026
+date: 05.16.2026
 version_sofo: 2026.6.3
 content_type: howto
 category: integration
@@ -50,7 +50,7 @@ The reminder appears based on your personal settings. By default, it is shown fo
 - Replies
 - Forwards
 
-You can adjust these preferences – for example, to only be reminded when sending to recipients outside your organisation. See [Settings][1] for details.
+You can adjust these preferences – for example, to only be reminded when sending to recipients outside your organization. See [Settings][1] for details.
 
 The reminder does **not** appear if:
 
