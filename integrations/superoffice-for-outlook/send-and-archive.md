@@ -4,7 +4,7 @@ title: Send and archive
 description: Send an email and automatically archive it to SuperOffice using the SuperOffice for Outlook add-in.
 keywords: SuperOffice for Outlook, Outlook, send and archive, archive email, SOFO
 author: Erik Lebiko, Bergfrid Dias, schildea
-date: 16.06.2026
+date: 06.16.2026
 version_sofo: 2026.6.3
 content_type: howto
 category: integration
