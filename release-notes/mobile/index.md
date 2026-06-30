@@ -20,6 +20,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* Mobile: AI Better Person image, where background can be removed.
 * [Request - View request relations (11.1.13)][47]
 * [Requests - Reply to a single message (11.1.12)][46]
 * [Move the + button (New button) (11.1.12)][46]
