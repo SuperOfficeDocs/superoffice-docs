@@ -20,11 +20,11 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
-* Mobile: AI Better Person image, where background can be removed.
 * [Request - View request relations (11.1.13)][47]
 * [Requests - Reply to a single message (11.1.12)][46]
 * [Move the + button (New button) (11.1.12)][46]
 * [Biometric login for Mobile CRM (11.1.12)][46]
+* [Image background remover (11.1.11)][48]
 * [Request - Summarize messages (11.1.10)][45]
 * [Company - Indicators for country and stop (11.1.9)][44]
 * [Lead categorization - Automatic update of category on sale sold or lost (11.1.9)][44]
@@ -115,5 +115,6 @@ audience_tooltip: SuperOffice Mobile CRM
 [45]: 11.1.10-update.md
 [46]: 11.1.12-update.md
 [47]: 11.1.13-update.md
+[48]: 11.1.11-update.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
