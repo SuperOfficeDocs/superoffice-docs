@@ -15,7 +15,9 @@ language: en
 
 # New and improved Core CRM and Sales
 
-* [Selection - Board view for sales (12.2)][2]
+* [Dashboard - Measure of Sale cycle (12.2)][2]
+* [Find - Sale cycle as criteria and column (12.2)][2]
+* [E-mail and Document - Download the e-mail or document file (12.2)][2]
 
 <!-- Referenced links-->
 [2]: 12.2-update.md
