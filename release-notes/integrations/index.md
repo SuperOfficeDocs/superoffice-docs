@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice Integrations
 keywords: integration, app, AppStore, product release
 author: kirstiaa
-date: 06.16.2026
+date: 07.07.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,6 +15,7 @@ language: en
 
 ## Product integrations updates
 
+* [SuperOffice for Outlook][3] - 6.3.5 (23.06.2026) - Search in the same field for company and contact
 * [SuperOffice for Outlook][3] - 6.3.0 (11.05.2026) - Shared mailbox, Pin the SuperOffice side panel, Archive attachments does not contain images
 * [SuperOffice WebTools guide][21] - (04.05.2026)
 * [SuperNotes integration guide][43] - (04.02.2026)
@@ -30,12 +31,12 @@ Current version: For the latest version numbers and release details for all prod
 * ConnectERP - 158.0 (28.05.2026)
 * DataBridge - 158.0 (28.05.2026)
 * Panels - 71.0 (20.05.2026)
-* SharePoint Documents - 3.8 (13.05.2026)
+* SharePoint Documents - 3.9 (24.06.2026)
 * Slack Notify - 12.0 (27.05.2026)
 * SuperOffice Copilot - 1.11 (17.09.2025)
 * SuperOffice for Gmail - 3.0 (24.02.2026)
 * SuperOffice for Mailchimp - 12.0 (27.05.2026)
-* SuperOffice for Outlook - 6.3.3 (03.06.2026)
+* SuperOffice for Outlook - 6.3.6 (26.06.2026)
 * SuperOffice for Teams - 1.0.0 (01.06.2026)
 * SuperOffice for Trello - 11.0 (21.11.2025)
 * SuperOffice for Wordpress - 12.0 (27.05.2026)
@@ -52,12 +53,13 @@ Current version: For the latest version numbers and release details for all prod
 
 See all the [new or updated apps][2]
 
+* [InZynk for SuperOffice][65] from InZynk (12.06.2026)
+* [SuperOffice for Outlook][63] from SuperOffice AS (03.06.2026)
 * [Database Mirroring Service][62] from SuperOffice AS (05.06.2026)
 * [SuperOffice for Teams][64] from SuperOffice AS (01.06.2026)
 * [DataBridge for SuperOffice][45] from SuperOffice AS (20.05.2026)
 * [Synchronizer for SuperOffice][47] from SuperOffice AS (20.05.2026)
 * [Panels for SuperOffice][35] from SuperOffice AS (20.05.2026)
-* [SuperOffice for Outlook][63] from SuperOffice AS (11.05.2026)
 * [Lyyti & SuperOffice integration][61] from Lyyti (16.03.2026)
 * [Unimicro by Syncify][60] from Syncify AB (08.05.2026)
 * [SuperNotes][41] from SuperOffice AS (04.05.2026)
@@ -128,5 +130,6 @@ See all the [new or updated apps][2]
 [62]: https://appstore.superoffice.com/superoffice-as/database-mirroring-service
 [63]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
 [64]: https://appstore.superoffice.com/superoffice-as/superoffice-for-teams
+[65]: https://appstore.superoffice.com/inzynk/inzynk-for-superoffice
 
 <!-- Referenced images -->
