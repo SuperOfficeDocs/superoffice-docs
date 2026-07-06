@@ -27,7 +27,7 @@ redirect_from:
 # What's new in SuperOffice for Outlook
 
 * SuperOffice for Outlook - version 6
-  * [Search in the same field for company and contact][4] - 6.3.5 (23.06.2026)
+  * [Grouped company and contact search field][4] - 6.3.5 (23.06.2026)
   * [Use SuperOffice for Outlook in a shared mailbox][4] - 6.3.0 (11.05.2026)
   * [New email - Pin the SuperOffice side panel][4] - 6.3.0 (11.05.2026)
   * [Archive attachments - List does not contain images][4] - 6.3.0 (11.05.2026)
