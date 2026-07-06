@@ -17,15 +17,17 @@ redirect_from:
 * [Get persons PersonAgent][2]
 * [Update person][3]
 * [Get person image (REST)][4]
-* [Update person image (REST)][5]
-* [Display person image (ImageUtility)][6]
-* [Display image from BLOB table][7]
+* [Get person image (other options)][5]
+* [Update person image (REST)][6]
+* [Display person image (ImageUtility)][7]
+* [Display image from BLOB table][8]
 
 <!-- Referenced links -->
 [1]: get-persons-contactagent.md
 [2]: get-persons-personagent.md
 [3]: update-person-services.md
 [4]: get-person-image-rest.md
-[5]: update-person-image-rest.md
-[6]: display-person-image-ws.md
-[7]: display-image-from-blob-table-services.md
+[5]: get-person-image-options.md
+[6]: update-person-image-rest.md
+[7]: display-person-image-ws.md
+[8]: display-image-from-blob-table-services.md
