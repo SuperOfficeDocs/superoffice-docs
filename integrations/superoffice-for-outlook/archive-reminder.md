@@ -108,7 +108,7 @@ See [Settings – Archive reminder][2] for a full description of each option.
 <!-- Referenced links -->
 [1]: settings.md
 [2]: settings.md#archive-reminder
-[3]: save-to-superoffice.md
+[3]: archive-email.md
 
 <!-- Referenced images -->
 [img1]: media/email-archive-reminder-dialog.png
