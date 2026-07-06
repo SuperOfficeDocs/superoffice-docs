@@ -76,4 +76,4 @@ Your settings are saved automatically and sync across all your devices.
 
 <!-- Referenced links -->
 [1]: email-archive-reminder.md
-[2]: save-to-superoffice.md
+[2]: archive-email.md
