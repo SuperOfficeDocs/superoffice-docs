@@ -326,6 +326,8 @@ items:
                 href: web-services/howto/contact/update-person-services.md
               - name: Get person image (REST)
                 href: web-services/howto/contact/get-person-image-rest.md
+              - name: Get person image (other options)
+                href: web-services/howto/contact/get-person-image-options.md
               - name: Update person image (REST)
                 href: web-services/howto/contact/update-person-image-rest.md
               - name: Display person image (ImageUtility)
