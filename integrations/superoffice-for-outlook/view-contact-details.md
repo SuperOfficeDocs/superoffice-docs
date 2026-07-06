@@ -49,8 +49,8 @@ The contact details open in the sidebar, together with related CRM information s
 
 If SuperOffice for Outlook does not recognize the contact, you can add the person to SuperOffice or link the email address to an existing contact.
 
-For more information, see [Save to SuperOffice][2].
+For more information, see [Archive Email][2].
 
 <!-- Referenced links -->
 [1]: get.md#open
-[2]: save-to-superoffice.md
+[2]: archive-email.md
