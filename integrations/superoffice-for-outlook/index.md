@@ -38,7 +38,7 @@ With the add-in, you can quickly:
 * Get instant context on who you are interacting with through the add-in panel.
 * Pin the add-in while reading or composing emails, so it stays available while you work.
 * Work from shared mailboxes and use the same SuperOffice actions, such as archiving emails, saving attachments, and creating sales, follow-ups, and requests.
-* Get reminded before sending emails that are not set to be archived in SuperOffice.
+* Get reminded before sending emails or appointments that are not set to be archived in SuperOffice.
 
 You will have key information at your fingertips, right when you need it. Plus, it is fully cloud-based, so no installation is required – simply enable it from your browser, and you are ready to go.
 
