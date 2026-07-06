@@ -4,8 +4,8 @@ title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 author: digitaldiina
-date: 05.05.2026
-version: 11.13
+date: 07.06.2026
+version: 12.2
 content_type: release-note
 language: en
 ---
@@ -33,6 +33,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 |---|---|---|---|
 | [SOAP proxy client and web service endpoints][13] | Phase-out initiated | Version 13 | Switch to [SuperOffice.WebApi][23] (REST). |
 | Exchange Online Synchronizer (onsite) | Phase-out initiated | Version 3.x | Switch to [Synchronizer for SuperOffice][6] (REST). |
+| Business Card Scanner for Mobile CRM (onsite) | Phase-out initiated | September 1, 2026 | The underlying Microsoft technology is being deprecated. Switch to the new AI-powered Business Card Scanner in Mobile CRM Online. |
 
 ## Archived end-of-life notices
 
