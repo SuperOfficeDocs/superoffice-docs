@@ -4,7 +4,7 @@ title: What's new in SuperOffice 12
 description: Release notes. What's new in SuperOffice 12
 keywords: SuperOffice CRM 12
 author: kirstiaa
-date: 07.07.2026
+date: 07.09.2026
 version: 12
 content_type: release-notes
 audience: person
@@ -22,7 +22,7 @@ From this version, all feature updates are available to SuperOffice Online custo
 
 ## Feature updates
 
-### 12.2 (07.07.2026)
+### 12.2 (09.07.2026)
 
 * [Dashboard - Measure of Sale cycle (12.2)][12] in Core CRM and Sales
 * [Find - Sale cycle as criteria and column (12.2)][12] in Core CRM and Sales

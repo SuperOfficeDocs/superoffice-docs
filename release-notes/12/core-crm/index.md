@@ -4,7 +4,7 @@ title: What's new in SuperOffice Core CRM 12
 description: Release notes. What's new in SuperOffice Core CRM 12
 keywords: new UI, lead management
 author: kirstiaa
-date: 07.07.2026
+date: 07.09.2026
 version: 11
 content_type: release-note
 category: core-crm

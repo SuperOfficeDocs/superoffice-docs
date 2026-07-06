@@ -4,7 +4,7 @@ title: Product integration updates
 description: Release notes. What's new in SuperOffice Integrations
 keywords: integration, app, AppStore, product release
 author: kirstiaa
-date: 07.07.2026
+date: 07.09.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
