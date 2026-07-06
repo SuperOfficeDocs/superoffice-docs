@@ -4,7 +4,7 @@ title: What's new in SuperOffice 12
 description: Release notes. What's new in SuperOffice 12
 keywords: SuperOffice CRM 12
 author: kirstiaa
-date: 06.16.2026
+date: 07.07.2026
 version: 12
 content_type: release-notes
 audience: person

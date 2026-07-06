@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that have been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 06.16.2026
+date: 07.07.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
