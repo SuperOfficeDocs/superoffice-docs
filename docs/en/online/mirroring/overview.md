@@ -9,6 +9,7 @@ content_type: concept
 deployment: online
 platform: web
 language: en
+redirect_from: /en/developer-portal/create-app/mirror-app
 ---
 
 # Database mirroring

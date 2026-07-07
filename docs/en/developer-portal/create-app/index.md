@@ -3,23 +3,23 @@ uid: dp-register-app
 title: Register an app
 description: Registering a new app in the SuperOffice Developer Portal.
 keywords: Developer Portal, app
-author: Bergfrid Dias
-date: 02.26.2025
+author: digitaldiina
+date: 07.07.2026
 version: 2.0
-version_devportal: 2.0
+version_devportal: 2.15
 content_type: howto
 deployment: online
 ---
 
 # Register an application
 
-![Partner overview -screenshot][img1]
+![Applications page in the SuperOffice Developer Portal -screenshot][img1]
 
 ## Overview
 
-1. In the [Developer Portal][19], go to your partner page.
+1. In the [Developer Portal][19], go to your partner page and select **Applications** in the left menu.
 
-2. In the **Applications** section, click **Create App**.
+2. Click **Create App**.
 
 3. Choose a template and whether this is a custom or standard app. Click **Next**.
 
@@ -60,26 +60,24 @@ Watch the walk-through on YouTube:
 
 ## Types of apps
 
-When registering an application, you can choose from five predefined templates that will prompt you for the required settings. Alternatively, you can choose to start with an empty set and fill in what you need.
+When registering an application, you can choose from four predefined templates that will prompt you for the required settings. Alternatively, you can choose to start with an empty set and fill in what you need.
 
 * [Web application][12]
 * [Native application][13]
 * [Server-to-server application][14]
-* [Custom database mirroring application][15]
 * [Standard ERP sync and quote application][16]
 * [Empty application configuration (DIY)][17]
 
 ### Default config
 
-| | Web app | Native app | Server-to-server | Mirroring | ERP sync, quote | Empty (DIY) |
-|---|:-:|:-:|:-:|:-:|:-:|:-:|
-| WebAPI | x | x | x | | x | x |
-| Services88 | | | x | | x | x |
-| Webhook agent | x | x | x | | x | x |
-| SystemToken claim | | | x | | x | |
-| ERPSync agent | | | | | x | |
-| Redirect URL (`^http://127.0.0.1\:\d{4,10}$`) | | x | | | | |
-| Is native or mobile | | x | | | | |
+| | Web app | Native app | Server-to-server | ERP sync, quote | Empty (DIY) |
+|---|:-:|:-:|:-:|:-:|:-:|
+| WebAPI | x | x | x | x | x |
+| Webhook agent | x | x | x | x | x |
+| SystemToken claim | | | x | x | |
+| ERPSync agent | | | | x | |
+| Redirect URL (`^http://127.0.0.1\:\d{4,10}$`) | | x | | | |
+| Is native or mobile | | x | | | |
 
 ## Get keys
 
@@ -114,7 +112,6 @@ If you have registered the application but lost the keys, you need to [look up y
 [12]: web-app.md
 [13]: native-app.md
 [14]: server-to-server-app.md
-[15]: mirror-app.md
 [16]: sync-app.md
 [17]: empty-app.md
 [18]: request-to-publish.md
@@ -128,7 +125,7 @@ If you have registered the application but lost the keys, you need to [look up y
 [27]: ../../api/overview/index.md
 
 <!-- Referenced images -->
-[img1]: ../media/partner-overview.png
+[img1]: media/applications-page.png
 [img2]: media/create-app-wizard.png
 [img3]: media/enter-app-name.png
 [img4]: media/enter-redirect-urls.png
