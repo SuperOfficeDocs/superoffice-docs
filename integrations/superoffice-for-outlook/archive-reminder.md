@@ -30,11 +30,11 @@ The reminder is only shown if **Archive reminder** is enabled in your SuperOffic
 
 The archive reminder can appear when sending emails or meeting invites.
 
-### Emails
+## Emails
 
 When you click **Send** on a new email, reply, or forward, and the email is not configured to be archived in SuperOffice, an archive reminder appears.
 
-![Email Archive reminder dialog in SuperOffice for Outlook - screenshot][img1]
+![Email archive reminder dialog in SuperOffice for Outlook -screenshot][img1]
 
 The dialog reads:
 
@@ -77,33 +77,36 @@ You have three options:
 
 The reminder appears based on your personal settings. By default, it is shown for:
 
-- New emails
-- Replies
-- Forwards
-- Meetings
+* New emails
+* Replies
+* Forwards
+* Meetings
 
 You can adjust these preferences – for example, to only be reminded when sending to recipients outside your organization. See [Settings][1] for details.
 
 The reminder does **not** appear if:
 
-- The email or meeting already contains the required SuperOffice information.
-- The main **Remind me before sending emails** or **Remind me before sending meetings** toggle is turned off in Settings.
-- Your Outlook client does not meet the minimum requirement (mailbox requirement set 1.12).
+* The email or meeting already contains the required SuperOffice information.
+* The main **Remind me before sending emails** or **Remind me before sending meetings** toggle is turned off in Settings.
+* Your Outlook client does not meet the minimum requirement (mailbox requirement set 1.12).
 
 ## Configure the reminder
 
 You can turn the reminder on or off and configure which actions trigger it. 
 
 1. Open the SuperOffice for Outlook side panel.
-2. Click the **gear icon** to open Settings.
-3. Scroll to the **Archive reminder** section and adjust your preferences.
+
+1. Click the **gear icon** to open Settings.
+
+1. Scroll to the **Archive reminder** section and adjust your preferences.
 
 See [Settings – Archive reminder][2] for a full description of each option.
 
 ## Related content
 
-- [Settings][1]
-- [Archive email][3]
+* [Settings][1]
+* [Archive email][3]
+* [Send and archive][4]
 
 <!-- Referenced links -->
 [1]: settings.md

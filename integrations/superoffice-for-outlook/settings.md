@@ -18,9 +18,9 @@ index: true
 ---
 # Settings
 
-The Settings menu lets you personalize how SuperOffice for Outlook behaves for you. From here you can review your profile, manage archiving preferences, and control when you are reminded to archive emails.
+The Settings menu lets you personalize how SuperOffice for Outlook behaves for you. From here you can review your profile, manage archiving preferences, and control when you are reminded to archive emails and meetings.
 
-## Open Settings
+## Open settings
 
 The gear icon (⚙) is available in both the **Action** panel and the **People** panel.
 
@@ -29,33 +29,40 @@ The gear icon (⚙) is available in both the **Action** panel and the **People**
 
 The Settings menu opens and shows:
 
-- Your user profile (name and tenant)
-- All user-configurable options
-- The add-in version number
-- A **Disconnect Outlook from SuperOffice** button
+* Your user profile (name and tenant)
+* All user-configurable options
+* The add-in version number
+* A **Disconnect Outlook from SuperOffice** button
 
 ## Settings overview
 
 | Setting | Description |
 |---|---|
-| Show contextual projects and sales | Displays related projects and sales when you open an email. |
+| Show contextual projects and sales | Displays projects and sales registered to the selected company or contact. |
 | Remove from inbox | Moves the email to deleted items after archiving. |
-| Archive reminder | Controls when you are reminded to archive before sending. See [Archive reminder](#archive-reminder) below. |
+| Archive reminder | Controls when you are reminded to archive before sending an email or meeting. See [Archive reminder](#archive-reminder) below. |
 
 ## Archive reminder
 
-The **Archive reminder** section lets you control whether SuperOffice for Outlook prompts you to archive an email before you send it.
+The **Archive reminder** section lets you control whether SuperOffice for Outlook prompts you to archive an email or meeting before you send it.
+
+![Archive reminder settings showing toggles for emails and meetings -screenshot][img1]
+
 
 ### Enable or disable the reminder
 
-Toggle **Remind me before sending emails** on or off.
+Two separate toggles control reminders for emails and meetings:
 
-- **On (default):** You will be reminded to archive emails that are not yet set to be archived in SuperOffice.
-- **Off:** No reminder is shown. All sub-settings are disabled and greyed out.
+* **Remind me before sending emails**
+    * On (default): you are reminded to archive emails that are not yet set to be archived in SuperOffice.
+    * Off: no email reminder is shown, and all email sub-settings are disabled and greyed out.
+* **Remind me before sending meetings**
+    * On (default): you are reminded to archive meetings that are not yet set to be archived in SuperOffice. This applies to appointments with at least one attendee.
+    * Off: no meeting reminder is shown.
 
 ### Configure which emails trigger a reminder
 
-When the main toggle is on, you can choose which types of outgoing emails trigger the reminder:
+When **Remind me before sending emails** is on, you can choose which types of outgoing emails trigger the reminder:
 
 | Sub-setting | Default | Description |
 |---|---|---|
@@ -64,16 +71,21 @@ When the main toggle is on, you can choose which types of outgoing emails trigge
 | Forwards | On | Reminder appears when forwarding an email. |
 | External recipients only | Off | When enabled, the reminder only appears for emails sent outside your organization. |
 
+The **Remind me before sending meetings** toggle doesn't have additional sub-settings. When it's on, you're reminded to archive any meeting with at least one attendee that isn't yet archived in SuperOffice.
+
 Your settings are saved automatically and sync across all your devices.
 
 > [!NOTE]
-> The Archive Reminder feature is only available in Outlook versions that support Microsoft Mailbox requirement set 1.12 or later. If it’s not supported, the reminder won’t appear and your email will be sent as usual.
+> The archive reminder feature is only available in Outlook versions that support Microsoft Mailbox requirement set 1.12 or later. If it's not supported, the reminder won't appear and your email or meeting will be sent as usual.
 
 ## Related content
 
-- [Email archive reminder][1]
-- [Archive emails][2]
+* [Archive reminder][1]
+* [Archive emails][2]
 
 <!-- Referenced links -->
-[1]: email-archive-reminder.md
+[1]: archive-reminder.md
 [2]: archive-email.md
+
+<!-- Referenced images -->
+[img1]: media/outlook-settings-archive-reminder.png

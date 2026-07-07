@@ -9,23 +9,25 @@ items:
   href: deploy.md
 - name: Settings in SuperOffice for Outlook
   href: settings.md
-- name: Archive email to SuperOffice
-  href: archive-email.md
-- name: Save attachments to SuperOffice
-  href: save-attachments.md
-- name: Send and archive
-  href: send-and-archive.md
-- name: Archive Reminder
-  href: archive-reminder.md
-- name: View contact details
-  href: view-contact-details.md
 - name: Add contact to SuperOffice
   href: add-contact-to-superoffice.md
-- name: Create follow-up
+- name: View contact details
+  href: view-contact-details.md
+- name: Archive emails to SuperOffice
+  items:
+  - name: Archive an existing email
+    href: archive-email.md
+  - name: Send and archive a new email
+    href: send-and-archive.md
+  - name: Save attachments to SuperOffice
+    href: save-attachments.md
+- name: Add CRM data to Outlook calendar events
+  href: add-crm-data-to-event.md
+- name: Archive reminder
+  href: archive-reminder.md
+- name: Create an appointment or task
   href: create-follow-up.md
-- name: Create sale
-  href: create-sale.md
 - name: Add request or message
   href: create-request.md
-- name: Add CRM data to Outlook event
-  href: add-crm-data-to-event.md
+- name: Create sale
+  href: create-sale.md

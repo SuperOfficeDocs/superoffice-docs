@@ -23,7 +23,7 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 1. Open or select the email you want to archive.
 
-1. [Open SuperOffice for Outlook][1] (if not pinned)​.
+1. [Open SuperOffice for Outlook][1] (if not already [pinned][3]).
 
 1. Choose the appropriate action in the SuperOffice sidebar.
 
@@ -37,9 +37,15 @@ To archive information from an email in Outlook and save it to SuperOffice:
 > The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
 > For more details, see [**Admin - User Management - Visibility**][2].
 
+## Related content
+
+* [Archive reminder][4]
+
 <!-- Referenced links -->
 [1]: get.md#open
 [2]: ../../docs/en/admin/user-management/index.md#visible
+[3]: get.md#pin
+[4]: archive-reminder.md
 
 <!-- Referenced images -->
 [img1]: media/outlook-save-to-superoffice.png
