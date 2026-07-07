@@ -19,6 +19,10 @@ index: true
 
 # Archive reminder
 
+<!-- TODO: Remove this note when the archive reminder feature ships. See issue #2986. -->
+> [!NOTE]
+> The archive reminder feature is not yet available. This feature is expected to roll out in late July or early August 2026.
+
 The archive reminder helps ensure that emails and meetings are connected to the correct company, contact, or other SuperOffice records before they are sent. When SuperOffice for Outlook detects that the required information is missing, it displays a reminder and lets you decide how to proceed.
 
 The reminder is only shown if **Archive reminder** is enabled in your SuperOffice for Outlook profile settings.
@@ -48,8 +52,7 @@ You have three options:
 | **Archive and send** | SuperOffice for Outlook opens so you can select the company, contact, sale, project and other information before sending the email. |
 | **Send anyway** | The email is sent without being archived in SuperOffice. |
 
-> [!NOTE]
-> If you choose **Archive and send**, complete the archive information in SuperOffice for Outlook, and then send the email, the reminder will not appear again for that email.
+ If you choose **Archive and send**, complete the archive information in SuperOffice for Outlook, and then send the email, the reminder will not appear again for that email.
 
 ## Meetings
 
