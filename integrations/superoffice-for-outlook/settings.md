@@ -81,11 +81,13 @@ Your settings are saved automatically and sync across all your devices.
 ## Related content
 
 * [Archive reminder][1]
-* [Archive emails][2]
+* [Send and archive][2]
+* [Add CRM data to Outlook calendar events][3]
 
 <!-- Referenced links -->
 [1]: archive-reminder.md
-[2]: archive-email.md
+[2]: send-and-archive.md
+[3]: add-crm-data-to-event.md
 
 <!-- Referenced images -->
 [img1]: media/outlook-settings-archive-reminder.png

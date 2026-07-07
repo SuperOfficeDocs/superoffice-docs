@@ -108,13 +108,14 @@ See [Settings – Archive reminder][2] for a full description of each option.
 ## Related content
 
 * [Settings][1]
-* [Archive email][3]
-* [Send and archive][4]
+* [Send and archive][3]
+* [Add CRM data to Outlook calendar events][4]
 
 <!-- Referenced links -->
 [1]: settings.md
 [2]: settings.md#archive-reminder
-[3]: archive-email.md
+[3]: send-and-archive.md
+[4]: add-crm-data-to-event.md
 
 <!-- Referenced images -->
 [img1]: media/outlook-email-archive-reminder-dialog.png
