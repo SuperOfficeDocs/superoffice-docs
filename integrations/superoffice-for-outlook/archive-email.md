@@ -25,7 +25,7 @@ To archive information from an email in Outlook and save it to SuperOffice:
 
 1. [Open SuperOffice for Outlook][1] (if not already [pinned][3]).
 
-1. Choose the appropriate action in the SuperOffice sidebar.
+1. Choose Save to SuperOffice in the SuperOffice sidebar.
 
 1. Make any necessary changes to the fields.
 
