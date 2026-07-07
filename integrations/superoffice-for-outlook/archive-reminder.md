@@ -36,7 +36,7 @@ When you click **Send** on a new email, reply, or forward, and the email is not 
 
 The dialog reads:
 
-*This email is ready to send, but it is not set to be archived in SuperOffice. Archive it now so the email is saved with the right company or contact, or send it without archiving.*
+*This email is ready to send, but it is not set to be archived in SuperOffice. Archive it now so the communication is saved with the right company or contact, or send it without archiving.*
 
 ![Email archive reminder dialog in SuperOffice for Outlook -screenshot][img1]
 
