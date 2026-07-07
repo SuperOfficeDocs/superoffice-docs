@@ -98,7 +98,7 @@ After installing the add-in, you can pin it for quick access while reading or wr
 * To unpin SuperOffice, select the **Pin** symbol again.
 
 > [!NOTE]
-> Selecting the **X** doesn't just close the SuperOffice panel — it also cancels the pin. This is Microsoft's default behavior for Outlook add-ins and cannot be changed by SuperOffice.
+> Selecting the **X** doesn't just close the SuperOffice panel — it also unpins it. This is Microsoft's default behavior for Outlook add-ins and cannot be changed by SuperOffice.
 
 ### Pin SuperOffice for Outlook while composing a new email
 

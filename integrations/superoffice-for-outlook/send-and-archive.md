@@ -25,14 +25,14 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 
 1. [Open SuperOffice for Outlook][1] (if not already [pinned][3]).
 
-1. Ensure the **Archive email in SuperOffice** slider is enabled.
+1. Ensure the **Archive email in SuperOffice** toggle is enabled.
 
     ![SuperOffice for Outlook, send and archive -screenshot][img2]
 
     > [!NOTE]
     > Bcc to **SuperOffice Mail Archive** is required to ensure the email is archived in SuperOffice.
 
-1. Add recipients to the **To** field. If their email is known to SuperOffice, the Company and Contact fields will auto-fill.
+1. Add recipients to the **To** field. If the first recipient's email is known to SuperOffice, the Company and Contact field will auto-fill.
 
 1. Fill in any missing information or make adjustments as needed.
 

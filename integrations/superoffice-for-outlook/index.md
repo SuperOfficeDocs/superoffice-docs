@@ -43,7 +43,7 @@ With the add-in, you can quickly:
 * Access contact, sale, and request details for anyone in the email thread.
 * Get instant context on who you are interacting with through the add-in panel.
 * Pin the add-in while reading or composing emails, so it stays available while you work.
-* [Work from shared mailboxes][21] and use the same SuperOffice actions, such as archiving emails, saving attachments, and creating sales, follow-ups, and requests.
+* [Work from shared mailboxes][21] and use the same SuperOffice actions, such as archiving emails, saving attachments, and creating requests.
 * Get reminded before sending emails or appointments that are not set to be [archived][14] in SuperOffice.
 
 You will have key information at your fingertips, right when you need it. Plus, it is fully cloud-based, so no installation is required – simply enable it from your browser, and you are ready to go.

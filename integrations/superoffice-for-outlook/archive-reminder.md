@@ -19,7 +19,6 @@ index: true
 
 # Archive reminder
 
-<!-- TODO: Remove this note when the archive reminder feature ships. See issue #2986. -->
 > [!NOTE]
 > The archive reminder feature is not yet available. This feature is expected to roll out in late July or early August 2026.
 

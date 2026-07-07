@@ -52,7 +52,7 @@ You can compose a new email from a shared mailbox and archive it to SuperOffice 
 > Always check the **From** address before sending from a shared mailbox.
 
 1. Select **New mail** in Outlook.
-1. Open and, if needed, [pin][2] SuperOffice for Outlook.
+1. Open SuperOffice for Outlook.
 1. Select the shared mailbox address in the **From** field. If the **From** field is not visible, enable it in Outlook first.
 1. Add recipients and write the email.
 1. Keep **Archive email in SuperOffice** turned on to archive the email.

@@ -22,7 +22,7 @@ The Settings menu lets you personalize how SuperOffice for Outlook behaves for y
 
 ## Open settings
 
-The gear icon (⚙) is available in both the **Action** panel and the **People** panel.
+The gear icon is available in both the **Action** panel and the **People** panel.
 
 1. Open the SuperOffice for Outlook side panel.
 2. Click the **gear icon** towards the top-right corner of the panel.
@@ -73,7 +73,7 @@ When **Remind me before sending emails** is on, you can choose which types of ou
 
 The **Remind me before sending meetings** toggle doesn't have additional sub-settings. When it's on, you're reminded to archive any meeting with at least one attendee that isn't yet archived in SuperOffice.
 
-Your settings are saved automatically and sync across all your devices.
+Your settings are saved automatically and synchronized across all your devices.
 
 > [!NOTE]
 > The archive reminder feature is only available in Outlook versions that support Microsoft Mailbox requirement set 1.12 or later. If it's not supported, the reminder won't appear and your email or meeting will be sent as usual.
