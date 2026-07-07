@@ -57,6 +57,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 ## Developer Portal
 
+* 2.15 (30.06.2026): Messages (reply to shared customers and get notified about support requests you need to answer), renamed from Messaging Center; partner Support emails
 * 2.14 (17.06.2026): Messaging center
 * 2.13 (15.05.2026): LinkedIn link preview, Notify partners before tenant deletion
 * 2.11 (25.02.2026): App Store information visible with a standard application, Required Partner profile feedback before publish to stage

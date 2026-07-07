@@ -4,7 +4,7 @@ title: Error reporting emails
 description: How to subscribe to error emails in the SuperOffice Developer Portal.
 keywords: Developer Portal, app, notification, error, tenant status
 author: Bergfrid Dias
-date: 01.30.2025
+date: 07.07.2026
 version: 1.30
 version_devportal: 1.30
 content_type: howto
@@ -79,4 +79,4 @@ For other errors, such as when a customer reports a problem from the App Store, 
 [8]: ../faq/update-contact-person.md
 
 <!-- Referenced images -->
-[img3]: ../media/error-reporting-emails.png
+[img3]: ../media/application-settings.png

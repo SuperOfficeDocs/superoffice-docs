@@ -2,10 +2,10 @@
 uid: dp-widgets
 title: Widgets
 description: About the SuperOffice Developer Portal home page and how to manage widgets.
-keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding, messaging center
+keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding, messages
 author: Bergfrid Dias
-date: 06.16.2026
-version_devportal: 2.14
+date: 07.07.2026
+version_devportal: 2.15
 content_type: concept
 platform: web
 deployment: online
@@ -25,7 +25,7 @@ Each widget represents distinctive features.
 | Widget | Purpose |
 |---|---|
 | Application Failures | Monitors problems with API calls. |
-| Messaging Center | Provides quick information on communication related to requests, including tickets awaiting your response. |
+| Messages | Provides quick information on communication related to requests, including tickets awaiting your response. |
 | New Customers | Provides quick information on new customers signed up to use your standard applications. |
 | Onboarding | Aids users getting started. |
 | Publish Status | Explore pending requests to publish app configuration, App Store information, and partner profile. |
@@ -82,11 +82,11 @@ Filter failures by:
 
 The Onboarding widget is a hub of useful links when starting out, such as to the Developer Portal documentation and the YouTube video archive.
 
-### Messaging Center
+### Messages
 
-This widget shows real-time statistics from the [Messaging Center][1]. Click a tile to open the Messaging Center filtered to that category.
+This widget shows real-time statistics from [Messages][1]. Click a tile to open Messages filtered to that category.
 
-From version 2.14, the widget mirrors the categories you see in the Messaging Center sidebar, so the **Open** tile makes it obvious when something needs your attention — without having to open the Messaging Center first.
+The widget mirrors the categories you see in the Messages sidebar, so the **Open** tile makes it obvious when something needs your attention — without having to open Messages first.
 
 | Stat | Description |
 |---|---|
@@ -120,7 +120,7 @@ Key interactions and indicators:
 * Click any step with a red dot to view error details or required actions.
 * Click the **partner name**/**app name** link to open the partner or app page.
 * Click the **oval label** (for example, *v3* or *New redirect URL*) to view the version submitted for publishing.
-* Click the **request ID** to open the request in the [Messaging Center][1].
+* Click the **request ID** to open the request in [Messages][1].
 
 ![Publish status widget showing various app configurations and statuses -screenshot][img6]
 
