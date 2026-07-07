@@ -19,7 +19,7 @@ index: true
 
 # Work with shared mailboxes
 
-If you have access to a shared mailbox in Outlook, you can use SuperOffice for Outlook to archive emails, send and archive emails and save attachments from that mailbox, in the same way as your personal mailbox.
+If you have access to a shared mailbox in Outlook, you can use SuperOffice for Outlook to take the same actions from that mailbox as you would from your personal mailbox.
 
 > [!NOTE]
 > The first time you use SuperOffice for Outlook with a shared mailbox, you might be asked to [approve additional Microsoft permissions][3]. If you do not have sufficient rights to approve these yourself, contact your Microsoft 365 administrator.

@@ -3,7 +3,7 @@ uid: sofo-save-attachments
 title: Save attachments to SuperOffice
 description: Save email attachments directly to SuperOffice using the SuperOffice for Outlook add-in.
 keywords: SuperOffice for Outlook, Outlook, save attachment, attachment, SOFO
-author: Erik Lebiko, Bergfrid Dias
+author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
 date: 12.18.2025
 version_sofo: 2024.8.12
 content_type: howto
