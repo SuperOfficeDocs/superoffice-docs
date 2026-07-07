@@ -39,7 +39,7 @@ items:
     href: config/app-config.md
 - name: Request to publish
   href: request-to-publish.md
-- name: Messaging Center
+- name: Messages
   href: message-center.md
 - name: Helper for private applications
   href: helper-application.md
