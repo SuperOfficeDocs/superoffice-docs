@@ -3,9 +3,9 @@ uid: sofo-archive-email
 title: Archive email to SuperOffice
 description: Archive emails from Outlook to SuperOffice using the SuperOffice for Outlook add-in.
 keywords: SuperOffice for Outlook, Outlook, archive email, email, save to SuperOffice, SOFO
-author: Erik Lebiko, Bergfrid Dias
-date: 12.18.2025
-version_sofo: 2024.8.12
+author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
+date: 07.06.2026
+version_sofo: 2026.6.3
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
