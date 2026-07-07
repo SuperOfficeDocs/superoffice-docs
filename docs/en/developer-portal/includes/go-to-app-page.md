@@ -3,5 +3,5 @@
 
     To see the list of all apps:
 
-    * Select **Apps** from the top menu, or
-    * Go to your partner overview page.
+    * Select **Apps** from the top menu to see all apps across every partner you have access to, or
+    * Go to the **Applications** section of your partner page to see that partner's apps.

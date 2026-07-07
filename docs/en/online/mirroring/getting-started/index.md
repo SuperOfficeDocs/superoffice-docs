@@ -82,7 +82,7 @@ If you believe you have a great case for an application, navigate to the [applic
 [7]: ../order-database-mirroring.md
 [6]: ../../../developer-portal/getting-started/get-access-to-sod.md
 [8]: ../../../developer-portal/faq/update-app.md
-[9]: ../../../developer-portal/create-app/mirror-app.md
+[9]: ../../../developer-portal/create-app/index.md
 [10]: ../../../developer-portal/create-app/index.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring
 [12]: ../setup-guide.md

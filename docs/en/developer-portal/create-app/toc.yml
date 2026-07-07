@@ -10,8 +10,6 @@ items:
     href: native-app.md
   - name: Server-to-server app
     href: server-to-server-app.md
-  - name: Mirroring app
-    href: mirror-app.md
   - name: ERP sync and quote app
     href: sync-app.md
   - name: Blank config, DIY

@@ -4,7 +4,7 @@ title: Application configuration
 description: Reference of application configuration in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal, authentication, integration settings
 author: Bergfrid Dias
-date: 02.26.2025
+date: 07.07.2026
 version: 2.0
 version_devportal: 2.0
 content_type: reference
@@ -35,7 +35,7 @@ deployment: online
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (off/on) | [Manage notifications][14] | [About tenant status][11] |
 | ERP sync | For integration with an ERP system. | [Create sync app][26] | [ERP connector API][28] |
-| Mirroring | For local processing when real-time data is not the most important consideration. | [Create mirror app][25] | [About mirroring][12] |
+| Mirroring | For local processing when real-time data is not the most important consideration. | | [About mirroring][12] |
 | Quote connector | | [Create sync app][26] | [Quote connector API][27] |
 
 For each of the above:
@@ -108,7 +108,6 @@ These settings except "Support dark mode" and "Remove remember me" must be chang
 [21]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
 [23]: update-endpoints.md
 [24]: ../../../api/authentication/online/certificates/index.md
-[25]: ../mirror-app.md
 [26]: ../sync-app.md
 [27]: ../../../api/plugins/quote-connectors/index.md
 [28]: ../../../api/plugins/erp-connectors/index.md

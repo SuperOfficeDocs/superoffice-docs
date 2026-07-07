@@ -4,9 +4,9 @@ uid: dp-register-web-app
 description: Describes how to register a new web application in the SuperOffice Developer Portal.
 keywords: Developer Portal, app
 author: Bergfrid Dias
-date: 02.26.2025
+date: 07.07.2026
 version: 2.0
-version_devportal: 2.0
+version_devportal: 2.15
 content_type: howto
 deployment: online
 ---
@@ -24,9 +24,9 @@ This template creates a web app configuration that uses [interactive OIDC authen
 
 ## Create app
 
-1. In the Developer Portal, go to your partner page.
+1. In the Developer Portal, go to your partner page and select **Applications** in the left navigator.
 
-2. In the **Applications** section, click **Create App**.
+2. Click **Create App**.
 
 3. Choose the **Web app** template. Then select whether this is a custom or standard application. Click **Next**.
 
