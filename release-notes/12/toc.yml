@@ -1,11 +1,11 @@
 items:
 - name: Introduction
   href: index.md
-#- name: Core CRM
-#  href: core-crm/index.md
-#  items:
-#  - name: 12.x update
-#    href: core-crm/12.x-update.md
+- name: Core CRM
+  href: core-crm/index.md
+  items:
+  - name: 12.2 update
+    href: core-crm/12.2-update.md
 #- name: Sales
 #  href: sale/index.md
 #  items:

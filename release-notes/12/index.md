@@ -4,7 +4,7 @@ title: What's new in SuperOffice 12
 description: Release notes. What's new in SuperOffice 12
 keywords: SuperOffice CRM 12
 author: kirstiaa
-date: 06.16.2026
+date: 07.09.2026
 version: 12
 content_type: release-notes
 audience: person
@@ -21,6 +21,12 @@ language: en
 From this version, all feature updates are available to SuperOffice Online customers only. Onsite installations will receive security updates only.
 
 ## Feature updates
+
+### 12.2 (09.07.2026)
+
+* [Dashboard - Measure sale cycles (12.2)][12] in Core CRM and Sales
+* [Find - Sale cycle as criteria and column (12.2)][12] in Core CRM and Sales
+* [Email and Document - Download the email or document file (12.2)][12] in Core CRM and Sales
 
 ### 12.1 (16.06.2026)
 
@@ -51,3 +57,4 @@ Some features are available to selected customers as part of ongoing pilots. See
 [6]: https://community.superoffice.com/en/product-releases/release-notes/
 [10]: service/12.0-update.md
 [11]: admin/12.1-update.md
+[12]: core-crm/12.2-update.md
