@@ -34,7 +34,7 @@ If you have access to a shared mailbox in Outlook, you can use SuperOffice for O
 
 1. SuperOffice matches the sender to a contact. If the email address matches multiple contacts, select the correct one — the **Company** and **Contact** field fills in automatically.
 
-1. Choose the appropriate action in the SuperOffice sidebar.
+1. Choose Save to SuperOffice in the SuperOffice sidebar.
 
 1. Make any necessary changes to the fields.
 
