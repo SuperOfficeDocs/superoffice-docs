@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Rows.SaleHistRecordData.Registered
   - SuperOffice.CRM.Rows.SaleHistRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.SaleHistRecordData.ReopenDate
+  - SuperOffice.CRM.Rows.SaleHistRecordData.SaleCycle
   - SuperOffice.CRM.Rows.SaleHistRecordData.SaleId
   - SuperOffice.CRM.Rows.SaleHistRecordData.SaleTypeCatId
   - SuperOffice.CRM.Rows.SaleHistRecordData.SaleTypeId
@@ -994,6 +995,27 @@ items:
     return:
       type: System.Int32
     content.vb: Public StageWhenClosedId As Integer
+- uid: SuperOffice.CRM.Rows.SaleHistRecordData.SaleCycle
+  commentId: F:SuperOffice.CRM.Rows.SaleHistRecordData.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Rows.SaleHistRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: SaleHistRecordData.SaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleHistRecordData.SaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Snapshot of sale.sale_cycle at the time this history row was written.
+  example: []
+  syntax:
+    content: public int SaleCycle
+    return:
+      type: System.Int32
+    content.vb: Public SaleCycle As Integer
 - uid: SuperOffice.CRM.Rows.SaleHistRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SaleHistRecordData.#ctor
   id: '#ctor'

@@ -34,6 +34,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SaleFields.Registered
   - SuperOffice.CRM.Data.DBC.SaleFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.SaleFields.ReopenDate
+  - SuperOffice.CRM.Data.DBC.SaleFields.SaleCycle
   - SuperOffice.CRM.Data.DBC.SaleFields.SaleId
   - SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeCatId
   - SuperOffice.CRM.Data.DBC.SaleFields.SaleTypeId
@@ -998,6 +999,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const StageWhenClosedId As String = "stage_when_closed_id"
+- uid: SuperOffice.CRM.Data.DBC.SaleFields.SaleCycle
+  commentId: F:SuperOffice.CRM.Data.DBC.SaleFields.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Data.DBC.SaleFields
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: DBC.SaleFields.SaleCycle
+  fullName: SuperOffice.CRM.Data.DBC.SaleFields.SaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Sale.SaleCycle: Number of days from sale registered until the sale entered its current closed (Sold or Lost) state. 0/empty while the sale is open.'
+  example: []
+  syntax:
+    content: public const string SaleCycle = "sale_cycle"
+    return:
+      type: System.String
+    content.vb: Public Const SaleCycle As String = "sale_cycle"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

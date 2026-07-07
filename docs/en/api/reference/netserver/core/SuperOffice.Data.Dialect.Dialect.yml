@@ -52,7 +52,6 @@ items:
   - SuperOffice.Data.Dialect.Dialect.EncodedArraySearch(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[],SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType,SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch)
   - SuperOffice.Data.Dialect.Dialect.FieldIsClob(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.Dialect.Dialect.FieldIsString(SuperOffice.Data.SQL.Argument)
-  - SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.String)
   - SuperOffice.Data.Dialect.Dialect.GenerateSql(SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.Dialect.Dialect.GetDefaultTransaction(SuperOffice.Data.SoConnection,SuperOffice.Data.SQL.SqlCommand)
   - SuperOffice.Data.Dialect.Dialect.GetFieldDbDataType(System.Int32)
@@ -80,6 +79,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ParseJoinClause(SuperOffice.Data.SQL.JoinRestriction)
   - SuperOffice.Data.Dialect.Dialect.ParseMathematicalArguments(SuperOffice.Data.SQL.MathematicalExpression,System.String)
   - SuperOffice.Data.Dialect.Dialect.PreParseUnion(SuperOffice.Data.SQL.TableExpression)
+  - SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded(System.String)
   - SuperOffice.Data.Dialect.Dialect.ReturnDBFields
   - SuperOffice.Data.Dialect.Dialect.ReturnFieldsIndexer
   - SuperOffice.Data.Dialect.Dialect.SelectSql(SuperOffice.Data.SQL.PrivateSelect)
@@ -94,8 +94,10 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Alias)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.And)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.ArgumentField)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Between)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Case)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Concat)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Count)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.CountAll)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.DateAdd)
@@ -204,7 +206,6 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
-  - SuperOffice.Data.Dialect.OracleCommon
   - SuperOffice.Data.Dialect.PostgreSqlDialect
   - SuperOffice.Data.Dialect.SqlServerCommon
   inheritedMembers:
@@ -459,7 +460,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   summary: >-
-    Some databases (ORACLE!!) are unable to do DISTINCT over the datatype we use for our 2k text strings; in those cases
+    Some databases might be unable to do DISTINCT over the datatype we use for our 4k text strings; in those cases
 
     we need to 'fake' a distinct. This method is called from the <xref href="SuperOffice.Data.SoDataReader" data-throw-if-not-resolved="false"></xref> to determine if the current
 
@@ -491,7 +492,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   summary: >-
-    Some databases (ORACLE!!) are unable to do DISTINCT over the datatype we use for our 2k text strings; in those cases
+    Some databases might be unable to do DISTINCT over the datatype we use for our 4k text strings; in those cases
 
     we need to 'fake' a distinct. This method is called when generating the SQL text, and controls whether we should
 
@@ -616,45 +617,6 @@ items:
       description: Schema complient with internal NetServer types.
     content.vb: Public Overridable Function GetUpdatedSchemaTable(dbSchemaTable As DataTable) As DataTable
   overload: SuperOffice.Data.Dialect.Dialect.GetUpdatedSchemaTable*
-- uid: SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.String)
-  commentId: M:SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.String)
-  id: GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.String)
-  parent: SuperOffice.Data.Dialect.Dialect
-  langs:
-  - csharp
-  - vb
-  name: GenerateCaseInsensitivity(FieldInfo, Parameter, string)
-  nameWithType: Dialect.GenerateCaseInsensitivity(FieldInfo, Parameter, string)
-  fullName: SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Parameter, string)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.Dialect
-  summary: >-
-    Oracle treats string a bit differently than other databases. Oracle is Case-sensitive. 
-
-    This function takes care of this without risking a full table scan.
-  example: []
-  syntax:
-    content: protected virtual string GenerateCaseInsensitivity(FieldInfo left, Parameter right, string sqloper)
-    parameters:
-    - id: left
-      type: SuperOffice.Data.SQL.FieldInfo
-      description: FieldInfo
-    - id: right
-      type: SuperOffice.Data.SQL.Parameter
-      description: Parameter
-    - id: sqloper
-      type: System.String
-      description: string sql operator
-    return:
-      type: System.String
-      description: The generated case-insensitive string
-    content.vb: Protected Overridable Function GenerateCaseInsensitivity(left As FieldInfo, right As Parameter, sqloper As String) As String
-  overload: SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity*
-  nameWithType.vb: Dialect.GenerateCaseInsensitivity(FieldInfo, Parameter, String)
-  fullName.vb: SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Parameter, String)
-  name.vb: GenerateCaseInsensitivity(FieldInfo, Parameter, String)
 - uid: SuperOffice.Data.Dialect.Dialect.GetOriginAsComment(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.Dialect.Dialect.GetOriginAsComment(SuperOffice.Data.SQL.SqlCommand)
   id: GetOriginAsComment(SuperOffice.Data.SQL.SqlCommand)
@@ -750,6 +712,40 @@ items:
   nameWithType.vb: Dialect.TimeToVarchar(String)
   fullName.vb: SuperOffice.Data.Dialect.Dialect.TimeToVarchar(String)
   name.vb: TimeToVarchar(String)
+- uid: SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded(System.String)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded(System.String)
+  id: QuoteAliasIfNeeded(System.String)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: QuoteAliasIfNeeded(string)
+  nameWithType: Dialect.QuoteAliasIfNeeded(string)
+  fullName: SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded(string)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: >-
+    Date and Time (as separate types, not DateTime) are handled by in-database-conversions, on the fly;
+
+    create the syntax for that, in case we happen to be dealing with them (the syntax is VERY db-dependent
+
+    and implemented by virtual methods in the different dialects)
+  example: []
+  syntax:
+    content: protected virtual string QuoteAliasIfNeeded(string alias)
+    parameters:
+    - id: alias
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: Protected Overridable Function QuoteAliasIfNeeded([alias] As String) As String
+  overload: SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded*
+  nameWithType.vb: Dialect.QuoteAliasIfNeeded(String)
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded(String)
+  name.vb: QuoteAliasIfNeeded(String)
 - uid: SuperOffice.Data.Dialect.Dialect.HandleDateAndTimeWrapping(System.String,SuperOffice.Data.FieldDataType)
   commentId: M:SuperOffice.Data.Dialect.Dialect.HandleDateAndTimeWrapping(System.String,SuperOffice.Data.FieldDataType)
   id: HandleDateAndTimeWrapping(System.String,SuperOffice.Data.FieldDataType)
@@ -764,25 +760,15 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: >-
-    Date and Time (as separate types, not DateTime) are handled by in-database-conversions, on the fly;
-
-    create the syntax for that, in case we happen to be dealing with them (the syntax is VERY db-dependent
-
-    and implemented by virtual methods in the different dialects)
-  example: []
   syntax:
     content: protected string HandleDateAndTimeWrapping(string innerValue, FieldDataType fieldType)
     parameters:
     - id: innerValue
       type: System.String
-      description: ''
     - id: fieldType
       type: SuperOffice.Data.FieldDataType
-      description: ''
     return:
       type: System.String
-      description: ''
     content.vb: Protected Function HandleDateAndTimeWrapping(innerValue As String, fieldType As FieldDataType) As String
   overload: SuperOffice.Data.Dialect.Dialect.HandleDateAndTimeWrapping*
   nameWithType.vb: Dialect.HandleDateAndTimeWrapping(String, FieldDataType)
@@ -1402,24 +1388,9 @@ items:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   summary: >-
-    The not in-operator (NOT IN) is used when you want to get data that 
+    Generate an IN clause. If there are too many arguments, generate multiple IN clauses with OR between them
 
-    corresponds with the restriction-clause but does not contain the values 
-
-    described in the not in-clause. 
-
-    <pre><code class="lang-csharp">SELECT T0.associate_id
-
-    FROM associate TO
-
-    WHERE associate_id BETWEEN 10 AND 100
-
-    AND T0.associate_id NOT IN (20, 30, 40, 50, 60, 70, 80, 90);</code></pre>
-
-    This example will give you all the associate_id's between 10 and 100 but the ones
-
-    described  in the not in-clause.
-  remarks: This operator temporarily supports int[] fields, with HAS_ALL semantics
+    and parenthesis around
   example: []
   syntax:
     content: protected virtual string ToSql(In arg)
@@ -1759,6 +1730,36 @@ items:
       description: Name of the table like <code>crm5."contact"</code>.
     content.vb: Protected Overridable Function ToSql(tableInfo As TableInfo) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.ArgumentField)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.ArgumentField)
+  id: ToSql(SuperOffice.Data.SQL.ArgumentField)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(ArgumentField)
+  nameWithType: Dialect.ToSql(ArgumentField)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.ArgumentField)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: >-
+    Will return the Field's name together with the generated table-alias.
+
+    <pre><code class="lang-csharp">T1."contact"</code></pre>
+  example: []
+  syntax:
+    content: protected virtual string ToSql(ArgumentField arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.ArgumentField
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Protected Overridable Function ToSql(arg As ArgumentField) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
 - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   id: ToSql(SuperOffice.Data.SQL.FieldInfo)
@@ -1773,20 +1774,13 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: >-
-    Will return the Field's name together with the generated table-alias.
-
-    <pre><code class="lang-csharp">T1."contact"</code></pre>
-  example: []
   syntax:
     content: protected virtual string ToSql(FieldInfo arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.FieldInfo
-      description: ''
     return:
       type: System.String
-      description: ''
     content.vb: Protected Overridable Function ToSql(arg As FieldInfo) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
 - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Parameter)
@@ -2693,12 +2687,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: >-
-    Trim in sybase: http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38151.1510/html/iqrefbb/Trim.htm
-
-    Trim in mysql: http://www.w3resource.com/mysql/string-functions/mysql-trim-function.php
-
-    Oracle doc: http://www.techonthenet.com/oracle/functions/trim.php
+  summary: TRIM spaces at the ends of strings
   example: []
   syntax:
     content: protected virtual string ToSql(Trim arg)
@@ -3025,6 +3014,29 @@ items:
     return:
       type: System.String
     content.vb: Protected Overridable Function ToSql(arg As [Case]) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Concat)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Concat)
+  id: ToSql(SuperOffice.Data.SQL.Concat)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(Concat)
+  nameWithType: Dialect.ToSql(Concat)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Concat)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected virtual string ToSql(Concat arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Concat
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function ToSql(arg As Concat) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
 - uid: SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
   commentId: M:SuperOffice.Data.Dialect.Dialect.TableOptions(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.SqlType)
@@ -4859,7 +4871,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
-  summary: Oracle has a hard limit of 1000 on the number of items allowed in an IN clause. Bigger IN clauses are partitioned using an OR construct
+  summary: See the file "Server\Source\SoDataBase\Database limits on large IN parameter lists.md"
   example: []
   syntax:
     content: protected virtual int MaxInSize { get; }
@@ -6156,29 +6168,13 @@ references:
   name: GetUpdatedSchemaTable
   nameWithType: Dialect.GetUpdatedSchemaTable
   fullName: SuperOffice.Data.Dialect.Dialect.GetUpdatedSchemaTable
-- uid: SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity*
-  commentId: Overload:SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity
+- uid: SuperOffice.Data.Dialect.Dialect.GetOriginAsComment*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.GetOriginAsComment
   isExternal: true
-  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_GenerateCaseInsensitivity_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_Parameter_System_String_
-  name: GenerateCaseInsensitivity
-  nameWithType: Dialect.GenerateCaseInsensitivity
-  fullName: SuperOffice.Data.Dialect.Dialect.GenerateCaseInsensitivity
-- uid: SuperOffice.Data.SQL.FieldInfo
-  commentId: T:SuperOffice.Data.SQL.FieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: SuperOffice.Data.SQL.FieldInfo
-- uid: SuperOffice.Data.SQL.Parameter
-  commentId: T:SuperOffice.Data.SQL.Parameter
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.Parameter.html
-  name: Parameter
-  nameWithType: Parameter
-  fullName: SuperOffice.Data.SQL.Parameter
+  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_GetOriginAsComment_SuperOffice_Data_SQL_SqlCommand_
+  name: GetOriginAsComment
+  nameWithType: Dialect.GetOriginAsComment
+  fullName: SuperOffice.Data.Dialect.Dialect.GetOriginAsComment
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -6190,13 +6186,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.Data.Dialect.Dialect.GetOriginAsComment*
-  commentId: Overload:SuperOffice.Data.Dialect.Dialect.GetOriginAsComment
-  isExternal: true
-  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_GetOriginAsComment_SuperOffice_Data_SQL_SqlCommand_
-  name: GetOriginAsComment
-  nameWithType: Dialect.GetOriginAsComment
-  fullName: SuperOffice.Data.Dialect.Dialect.GetOriginAsComment
 - uid: SuperOffice.Data.Dialect.Dialect.DateToVarchar*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.DateToVarchar
   isExternal: true
@@ -6211,6 +6200,13 @@ references:
   name: TimeToVarchar
   nameWithType: Dialect.TimeToVarchar
   fullName: SuperOffice.Data.Dialect.Dialect.TimeToVarchar
+- uid: SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded
+  isExternal: true
+  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_QuoteAliasIfNeeded_System_String_
+  name: QuoteAliasIfNeeded
+  nameWithType: Dialect.QuoteAliasIfNeeded
+  fullName: SuperOffice.Data.Dialect.Dialect.QuoteAliasIfNeeded
 - uid: SuperOffice.Data.Dialect.Dialect.HandleDateAndTimeWrapping*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.HandleDateAndTimeWrapping
   isExternal: true
@@ -6290,6 +6286,14 @@ references:
   name: GetFieldInfoFromIndex
   nameWithType: Dialect.GetFieldInfoFromIndex
   fullName: SuperOffice.Data.Dialect.Dialect.GetFieldInfoFromIndex
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.Dialect.Dialect.CheckForAlias*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.CheckForAlias
   isExternal: true
@@ -6679,6 +6683,52 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL.ArgumentField
+  commentId: T:SuperOffice.Data.SQL.ArgumentField
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentField.html
+  name: ArgumentField
+  nameWithType: ArgumentField
+  fullName: SuperOffice.Data.SQL.ArgumentField
+- uid: SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ReturnFieldsCollection)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ReturnFieldsCollection)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_ToSqlField_SuperOffice_Data_SQL_ReturnFieldsCollection_
+  name: ToSqlField(ReturnFieldsCollection)
+  nameWithType: Dialect.ToSqlField(ReturnFieldsCollection)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ReturnFieldsCollection)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ReturnFieldsCollection)
+    name: ToSqlField
+    isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_ToSqlField_SuperOffice_Data_SQL_ReturnFieldsCollection_
+  - name: (
+  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
+    name: ReturnFieldsCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSqlField(SuperOffice.Data.SQL.ReturnFieldsCollection)
+    name: ToSqlField
+    isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_ToSqlField_SuperOffice_Data_SQL_ReturnFieldsCollection_
+  - name: (
+  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
+    name: ReturnFieldsCollection
+    isExternal: true
+    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
+  - name: )
+- uid: SuperOffice.Data.SQL.Parameter
+  commentId: T:SuperOffice.Data.SQL.Parameter
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Parameter.html
+  name: Parameter
+  nameWithType: Parameter
+  fullName: SuperOffice.Data.SQL.Parameter
 - uid: SuperOffice.Data.SQL.NotLike
   commentId: T:SuperOffice.Data.SQL.NotLike
   parent: SuperOffice.Data.SQL
@@ -7021,6 +7071,14 @@ references:
   name: Case
   nameWithType: Case
   fullName: SuperOffice.Data.SQL.Case
+- uid: SuperOffice.Data.SQL.Concat
+  commentId: T:SuperOffice.Data.SQL.Concat
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Concat.html
+  name: Concat
+  nameWithType: Concat
+  fullName: SuperOffice.Data.SQL.Concat
 - uid: SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ComposeSelect(System.String,System.String,System.String,System.String,System.Text.StringBuilder,SuperOffice.Data.SQL.PrivateSelect)
   parent: SuperOffice.Data.Dialect.Dialect

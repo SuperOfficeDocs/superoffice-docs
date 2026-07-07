@@ -6,8 +6,10 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl(SuperOffice.Data.Dictionary.SoField,System.Int32)
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.EnforceRequiredFields
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.GetValue(System.String)
+  - SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink(SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.OnSavedAsync
   - SuperOffice.CRM.Rows.ExtraFieldsHelper.Reset
@@ -188,6 +190,71 @@ items:
       description: table reference identifying columns
     content.vb: Public Sub OnLoad(reader As SoDataReader, tableInfo As TableInfo)
   overload: SuperOffice.CRM.Rows.ExtraFieldsHelper.OnLoad*
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink(SuperOffice.Data.Dictionary.SoField)
+  id: IsDynamicLink(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.CRM.Rows.ExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: IsDynamicLink(SoField)
+  nameWithType: ExtraFieldsHelper.IsDynamicLink(SoField)
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink(SuperOffice.Data.Dictionary.SoField)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    True if the field is a Dynamic Link custom field (a legacy int id flagged as a "Link").
+
+    Its clickable value is a CS redirect URL, not the stored int.
+  example: []
+  syntax:
+    content: public static bool IsDynamicLink(SoField definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.Data.Dictionary.SoField
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsDynamicLink(definition As SoField) As Boolean
+  overload: SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink*
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl(SuperOffice.Data.Dictionary.SoField,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl(SuperOffice.Data.Dictionary.SoField,System.Int32)
+  id: BuildDynamicLinkUrl(SuperOffice.Data.Dictionary.SoField,System.Int32)
+  parent: SuperOffice.CRM.Rows.ExtraFieldsHelper
+  langs:
+  - csharp
+  - vb
+  name: BuildDynamicLinkUrl(SoField, int)
+  nameWithType: ExtraFieldsHelper.BuildDynamicLinkUrl(SoField, int)
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl(SuperOffice.Data.Dictionary.SoField, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Builds the CS redirect URL for a Dynamic Link field. The host is resolved per request via
+
+    CustomerService.GetBaseUrl(string) (environment-correct - never hardcoded),
+
+    and the params use a plain '&amp;' separator. This is the single source of truth, shared by
+
+    <xref href="SuperOffice.CRM.Rows.ExtraFieldsHelper.FixValue(System.Object%2cSuperOffice.Data.Dictionary.SoField%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> (legacy Row API) and the entity-read path.
+  example: []
+  syntax:
+    content: public static string BuildDynamicLinkUrl(SoField definition, int rowId)
+    parameters:
+    - id: definition
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: rowId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function BuildDynamicLinkUrl(definition As SoField, rowId As Integer) As String
+  overload: SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl*
+  nameWithType.vb: ExtraFieldsHelper.BuildDynamicLinkUrl(SoField, Integer)
+  fullName.vb: SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl(SuperOffice.Data.Dictionary.SoField, Integer)
+  name.vb: BuildDynamicLinkUrl(SoField, Integer)
 - uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.ToString
   commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.ToString
   id: ToString
@@ -913,6 +980,90 @@ references:
     name: SQL
     isExternal: true
     href: SuperOffice.Data.SQL.html
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink*
+  commentId: Overload:SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExtraFieldsHelper.html#SuperOffice_CRM_Rows_ExtraFieldsHelper_IsDynamicLink_SuperOffice_Data_Dictionary_SoField_
+  name: IsDynamicLink
+  nameWithType: ExtraFieldsHelper.IsDynamicLink
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.IsDynamicLink
+- uid: SuperOffice.Data.Dictionary.SoField
+  commentId: T:SuperOffice.Data.Dictionary.SoField
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
+  name: SoField
+  nameWithType: SoField
+  fullName: SuperOffice.Data.Dictionary.SoField
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.FixValue(System.Object,SuperOffice.Data.Dictionary.SoField,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.FixValue(System.Object,SuperOffice.Data.Dictionary.SoField,System.Int32)
+  isExternal: true
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl*
+  commentId: Overload:SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExtraFieldsHelper.html#SuperOffice_CRM_Rows_ExtraFieldsHelper_BuildDynamicLinkUrl_SuperOffice_Data_Dictionary_SoField_System_Int32_
+  name: BuildDynamicLinkUrl
+  nameWithType: ExtraFieldsHelper.BuildDynamicLinkUrl
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.BuildDynamicLinkUrl
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -951,14 +1102,3 @@ references:
   name: EnforceRequiredFields
   nameWithType: ExtraFieldsHelper.EnforceRequiredFields
   fullName: SuperOffice.CRM.Rows.ExtraFieldsHelper.EnforceRequiredFields
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean

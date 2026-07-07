@@ -350,7 +350,7 @@ items:
   summary: Verify SSL certificate is ok, deny bogus SSL certs
   example: []
   syntax:
-    content: protected static bool ServerCertificateCustomValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+    content: protected bool ServerCertificateCustomValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
     parameters:
     - id: sender
       type: System.Object
@@ -367,7 +367,7 @@ items:
     return:
       type: System.Boolean
       description: True if SSL cert is ok
-    content.vb: Protected Shared Function ServerCertificateCustomValidationCallback(sender As Object, certificate As X509Certificate, chain As X509Chain, sslPolicyErrors As SslPolicyErrors) As Boolean
+    content.vb: Protected Function ServerCertificateCustomValidationCallback(sender As Object, certificate As X509Certificate, chain As X509Chain, sslPolicyErrors As SslPolicyErrors) As Boolean
   overload: SuperOffice.CRM.Webhooks.WebhookTransmitter.ServerCertificateCustomValidationCallback*
   nameWithType.vb: WebhookTransmitter.ServerCertificateCustomValidationCallback(Object, X509Certificate, X509Chain, SslPolicyErrors)
   fullName.vb: SuperOffice.CRM.Webhooks.WebhookTransmitter.ServerCertificateCustomValidationCallback(Object, System.Security.Cryptography.X509Certificates.X509Certificate, System.Security.Cryptography.X509Certificates.X509Chain, System.Net.Security.SslPolicyErrors)

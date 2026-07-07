@@ -1135,7 +1135,7 @@ items:
     of currently desired columns
   example: []
   syntax:
-    content: protected bool WantColumnForOutput(params string[] names)
+    content: public bool WantColumnForOutput(params string[] names)
     parameters:
     - id: names
       type: System.String[]
@@ -1143,7 +1143,7 @@ items:
     return:
       type: System.Boolean
       description: true if at least one of the names is in the desired column list, otherwise false
-    content.vb: Protected Function WantColumnForOutput(ParamArray names As String()) As Boolean
+    content.vb: Public Function WantColumnForOutput(ParamArray names As String()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForOutput(ParamArray String())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput(ParamArray String())
@@ -1168,7 +1168,7 @@ items:
     of currently desired columns
   example: []
   syntax:
-    content: protected bool WantColumnForOutput(params ArchiveColumnInfo[] columns)
+    content: public bool WantColumnForOutput(params ArchiveColumnInfo[] columns)
     parameters:
     - id: columns
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
@@ -1176,7 +1176,7 @@ items:
     return:
       type: System.Boolean
       description: true if at least one of the names is in the desired column list, otherwise false
-    content.vb: Protected Function WantColumnForOutput(ParamArray columns As ArchiveColumnInfo()) As Boolean
+    content.vb: Public Function WantColumnForOutput(ParamArray columns As ArchiveColumnInfo()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForOutput(ParamArray ArchiveColumnInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
@@ -1201,7 +1201,7 @@ items:
     of currently desired columns
   example: []
   syntax:
-    content: protected bool WantColumnForOutput(List<ArchiveColumnInfo> columns)
+    content: public bool WantColumnForOutput(List<ArchiveColumnInfo> columns)
     parameters:
     - id: columns
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
@@ -1209,7 +1209,7 @@ items:
     return:
       type: System.Boolean
       description: true if at least one of the names is in the desired column list, otherwise false
-    content.vb: Protected Function WantColumnForOutput(columns As List(Of ArchiveColumnInfo)) As Boolean
+    content.vb: Public Function WantColumnForOutput(columns As List(Of ArchiveColumnInfo)) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForOutput(List(Of ArchiveColumnInfo))
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOutput(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
@@ -1231,7 +1231,7 @@ items:
   summary: Determine whether at least one of the given columns is wanted as a restriction
   example: []
   syntax:
-    content: protected bool WantColumnForRestriction(params string[] names)
+    content: public bool WantColumnForRestriction(params string[] names)
     parameters:
     - id: names
       type: System.String[]
@@ -1239,7 +1239,7 @@ items:
     return:
       type: System.Boolean
       description: true if at least one column is wanted as a restriction at this level
-    content.vb: Protected Function WantColumnForRestriction(ParamArray names As String()) As Boolean
+    content.vb: Public Function WantColumnForRestriction(ParamArray names As String()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForRestriction*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForRestriction(ParamArray String())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForRestriction(ParamArray String())
@@ -1261,14 +1261,14 @@ items:
   summary: Determine whether at least one of the given columns is wanted as a restriction
   example: []
   syntax:
-    content: protected bool WantColumnForRestriction(params ArchiveColumnInfo[] columns)
+    content: public bool WantColumnForRestriction(params ArchiveColumnInfo[] columns)
     parameters:
     - id: columns
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
     return:
       type: System.Boolean
       description: true if at least one column is wanted as a restriction at this level
-    content.vb: Protected Function WantColumnForRestriction(ParamArray columns As ArchiveColumnInfo()) As Boolean
+    content.vb: Public Function WantColumnForRestriction(ParamArray columns As ArchiveColumnInfo()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForRestriction*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForRestriction(ParamArray ArchiveColumnInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
@@ -1288,13 +1288,13 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected bool WantColumnForOrderBy(params string[] names)
+    content: public bool WantColumnForOrderBy(params string[] names)
     parameters:
     - id: names
       type: System.String[]
     return:
       type: System.Boolean
-    content.vb: Protected Function WantColumnForOrderBy(ParamArray names As String()) As Boolean
+    content.vb: Public Function WantColumnForOrderBy(ParamArray names As String()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOrderBy*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForOrderBy(ParamArray String())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOrderBy(ParamArray String())
@@ -1340,13 +1340,13 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected bool WantColumnForOrderBy(params ArchiveColumnInfo[] columns)
+    content: public bool WantColumnForOrderBy(params ArchiveColumnInfo[] columns)
     parameters:
     - id: columns
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
     return:
       type: System.Boolean
-    content.vb: Protected Function WantColumnForOrderBy(ParamArray columns As ArchiveColumnInfo()) As Boolean
+    content.vb: Public Function WantColumnForOrderBy(ParamArray columns As ArchiveColumnInfo()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOrderBy*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForOrderBy(ParamArray ArchiveColumnInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForOrderBy(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
@@ -1366,13 +1366,13 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected bool WantColumnForAnything(params string[] names)
+    content: public bool WantColumnForAnything(params string[] names)
     parameters:
     - id: names
       type: System.String[]
     return:
       type: System.Boolean
-    content.vb: Protected Function WantColumnForAnything(ParamArray names As String()) As Boolean
+    content.vb: Public Function WantColumnForAnything(ParamArray names As String()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForAnything*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForAnything(ParamArray String())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForAnything(ParamArray String())
@@ -1392,13 +1392,13 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: protected bool WantColumnForAnything(params ArchiveColumnInfo[] columns)
+    content: public bool WantColumnForAnything(params ArchiveColumnInfo[] columns)
     parameters:
     - id: columns
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
     return:
       type: System.Boolean
-    content.vb: Protected Function WantColumnForAnything(ParamArray columns As ArchiveColumnInfo()) As Boolean
+    content.vb: Public Function WantColumnForAnything(ParamArray columns As ArchiveColumnInfo()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForAnything*
   nameWithType.vb: ExtensibleColumnsBase.WantColumnForAnything(ParamArray ArchiveColumnInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForAnything(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
@@ -1894,7 +1894,7 @@ items:
     <ul><li>The RootQuery is to be modified</li><li>The row population should be handled by this base class</li><li>This is not a list field</li></ul>
   example: []
   syntax:
-    content: protected void MapSimpleCustomField(FieldInfo fieldInfo, params ArchiveColumnInfo[] columns)
+    content: public void MapSimpleCustomField(FieldInfo fieldInfo, params ArchiveColumnInfo[] columns)
     parameters:
     - id: fieldInfo
       type: SuperOffice.Data.SQL.FieldInfo
@@ -1904,7 +1904,7 @@ items:
       description: >-
         One or more columns; the first is the bound definition, additional
                     column definitions will also trigger the addition of this fieldInfo to the query.
-    content.vb: Protected Sub MapSimpleCustomField(fieldInfo As FieldInfo, ParamArray columns As ArchiveColumnInfo())
+    content.vb: Public Sub MapSimpleCustomField(fieldInfo As FieldInfo, ParamArray columns As ArchiveColumnInfo())
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapSimpleCustomField*
   nameWithType.vb: ExtensibleColumnsBase.MapSimpleCustomField(FieldInfo, ParamArray ArchiveColumnInfo())
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.MapSimpleCustomField(SuperOffice.Data.SQL.FieldInfo, ParamArray SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())

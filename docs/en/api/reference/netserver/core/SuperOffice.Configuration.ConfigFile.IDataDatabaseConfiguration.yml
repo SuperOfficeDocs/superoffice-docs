@@ -14,10 +14,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableUserInSqlTrackingComments
-  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ForceCacheRefreshInterval
-  - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.Server
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.TablePrefix
   langs:
@@ -202,52 +199,6 @@ items:
       type: System.Int32
     content.vb: Property CommandTimeout As Integer
   overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.CommandTimeout*
-- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-  id: DynamicLoadedDataBaseDriver
-  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
-  langs:
-  - csharp
-  - vb
-  name: DynamicLoadedDataBaseDriver
-  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Returns the name of the ADO.NET driver to load.
-  example: []
-  syntax:
-    content: string DynamicLoadedDataBaseDriver { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Property DynamicLoadedDataBaseDriver As String
-  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver*
-- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  id: DynamicLoadedConnectionType
-  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
-  langs:
-  - csharp
-  - vb
-  name: DynamicLoadedConnectionType
-  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Returns the type of connection to open.
-  example: []
-  syntax:
-    content: string DynamicLoadedConnectionType { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Property DynamicLoadedConnectionType As String
-  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType*
 - uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
   commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
   id: DefaultReadUncommitted
@@ -271,29 +222,6 @@ items:
       type: System.Boolean
     content.vb: Property DefaultReadUncommitted As Boolean
   overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted*
-- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
-  commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
-  id: ImpersonateDatabaseUser
-  parent: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
-  langs:
-  - csharp
-  - vb
-  name: ImpersonateDatabaseUser
-  nameWithType: ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
-  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Should the DbUser be logged in with windows and impersonated when connecting to the database in order to support database integrated authentication.
-  example: []
-  syntax:
-    content: bool ImpersonateDatabaseUser { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Property ImpersonateDatabaseUser As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser*
 - uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
   commentId: P:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
   id: DisableSqlTrackingComments
@@ -308,7 +236,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: If true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on Oracle which thinks it has to reparse everything if a comment changes
+  summary: If true, then comments that usually precede generated SQL to identify the operation and user will not be generated at all; may help performance on databases that reparse everything if a comment changes
   example: []
   syntax:
     content: bool DisableSqlTrackingComments { get; set; }
@@ -331,7 +259,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: If true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on Oracle which thinks it has to reparse everything if a comment changes
+  summary: If true, then comments that usually precede generated SQL to identify the operation will not contain associate information; may help performance on databases that reparse everything if a comment changes
   example: []
   syntax:
     content: bool DisableUserInSqlTrackingComments { get; set; }
@@ -730,20 +658,6 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataDatabaseConfiguration_DynamicLoadedDataBaseDriver
-  name: DynamicLoadedDataBaseDriver
-  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedDataBaseDriver
-- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataDatabaseConfiguration_DynamicLoadedConnectionType
-  name: DynamicLoadedConnectionType
-  nameWithType: ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
-  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DynamicLoadedConnectionType
 - uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DefaultReadUncommitted
   isExternal: true
@@ -762,13 +676,6 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.html#SuperOffice_Configuration_ConfigFile_IDataDatabaseConfiguration_ImpersonateDatabaseUser
-  name: ImpersonateDatabaseUser
-  nameWithType: ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
-  fullName: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.ImpersonateDatabaseUser
 - uid: SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration.DisableSqlTrackingComments
   isExternal: true

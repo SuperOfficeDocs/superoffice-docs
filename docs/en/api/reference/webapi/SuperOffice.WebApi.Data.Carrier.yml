@@ -105,6 +105,8 @@ items:
   - SuperOffice.WebApi.Data.Currency
   - SuperOffice.WebApi.Data.CurrencyEntity
   - SuperOffice.WebApi.Data.CustomCommand
+  - SuperOffice.WebApi.Data.CustomObject
+  - SuperOffice.WebApi.Data.CustomObjectDefinition
   - SuperOffice.WebApi.Data.CustomerCenterConfig
   - SuperOffice.WebApi.Data.CustomerLanguage
   - SuperOffice.WebApi.Data.CustomerServiceConfig

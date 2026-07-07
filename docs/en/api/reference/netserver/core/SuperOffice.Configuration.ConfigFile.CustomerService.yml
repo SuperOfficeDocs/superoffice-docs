@@ -8,10 +8,6 @@ items:
   - SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
   - SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
   - SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
-  - SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
-  - SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
-  - SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
-  - SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
   - SuperOffice.Configuration.ConfigFile.CustomerService.MailDomain
   langs:
   - csharp
@@ -38,98 +34,6 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
-  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
-  id: ImpersonateCsUser
-  parent: SuperOffice.Configuration.ConfigFile.CustomerService
-  langs:
-  - csharp
-  - vb
-  name: ImpersonateCsUser
-  nameWithType: ConfigFile.CustomerService.ImpersonateCsUser
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Impersonate a specific (Windows Domain) user when using Customer Service API
-  example: []
-  syntax:
-    content: public static bool ImpersonateCsUser { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Property ImpersonateCsUser As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser*
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
-  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
-  id: CsUserName
-  parent: SuperOffice.Configuration.ConfigFile.CustomerService
-  langs:
-  - csharp
-  - vb
-  name: CsUserName
-  nameWithType: ConfigFile.CustomerService.CsUserName
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: The username to impersonate
-  example: []
-  syntax:
-    content: public static string CsUserName { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Shared Property CsUserName As String
-  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName*
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
-  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
-  id: CsPassword
-  parent: SuperOffice.Configuration.ConfigFile.CustomerService
-  langs:
-  - csharp
-  - vb
-  name: CsPassword
-  nameWithType: ConfigFile.CustomerService.CsPassword
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: The password
-  example: []
-  syntax:
-    content: public static string CsPassword { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Shared Property CsPassword As String
-  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword*
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
-  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
-  id: CsDomain
-  parent: SuperOffice.Configuration.ConfigFile.CustomerService
-  langs:
-  - csharp
-  - vb
-  name: CsDomain
-  nameWithType: ConfigFile.CustomerService.CsDomain
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: The Active Directory Domain this user belongs to
-  example: []
-  syntax:
-    content: public static string CsDomain { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Shared Property CsDomain As String
-  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain*
 - uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
   commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
   id: CsCgiUrl
@@ -487,31 +391,13 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.CustomerService.html#SuperOffice_Configuration_ConfigFile_CustomerService_ImpersonateCsUser
-  name: ImpersonateCsUser
-  nameWithType: ConfigFile.CustomerService.ImpersonateCsUser
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.CustomerService.html#SuperOffice_Configuration_ConfigFile_CustomerService_CsUserName
-  name: CsUserName
-  nameWithType: ConfigFile.CustomerService.CsUserName
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+  href: SuperOffice.Configuration.ConfigFile.CustomerService.html#SuperOffice_Configuration_ConfigFile_CustomerService_CsCgiUrl
+  name: CsCgiUrl
+  nameWithType: ConfigFile.CustomerService.CsCgiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -523,27 +409,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.CustomerService.html#SuperOffice_Configuration_ConfigFile_CustomerService_CsPassword
-  name: CsPassword
-  nameWithType: ConfigFile.CustomerService.CsPassword
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.CustomerService.html#SuperOffice_Configuration_ConfigFile_CustomerService_CsDomain
-  name: CsDomain
-  nameWithType: ConfigFile.CustomerService.CsDomain
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
-- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.CustomerService.html#SuperOffice_Configuration_ConfigFile_CustomerService_CsCgiUrl
-  name: CsCgiUrl
-  nameWithType: ConfigFile.CustomerService.CsCgiUrl
-  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
 - uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
   isExternal: true

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Data.Cache.CacheBlockLogger.#ctor
   - SuperOffice.Data.Cache.CacheBlockLogger.Dispose
+  - SuperOffice.Data.Cache.CacheBlockLogger.KeepAll
   - SuperOffice.Data.Cache.CacheBlockLogger.Register(System.String)
   langs:
   - csharp
@@ -83,6 +84,24 @@ items:
   overload: SuperOffice.Data.Cache.CacheBlockLogger.Dispose*
   implements:
   - System.IDisposable.Dispose
+- uid: SuperOffice.Data.Cache.CacheBlockLogger.KeepAll
+  commentId: M:SuperOffice.Data.Cache.CacheBlockLogger.KeepAll
+  id: KeepAll
+  parent: SuperOffice.Data.Cache.CacheBlockLogger
+  langs:
+  - csharp
+  - vb
+  name: KeepAll()
+  nameWithType: CacheBlockLogger.KeepAll()
+  fullName: SuperOffice.Data.Cache.CacheBlockLogger.KeepAll()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public void KeepAll()
+    content.vb: Public Sub KeepAll()
+  overload: SuperOffice.Data.Cache.CacheBlockLogger.KeepAll*
 - uid: SuperOffice.Data.Cache.CacheBlockLogger.#ctor
   commentId: M:SuperOffice.Data.Cache.CacheBlockLogger.#ctor
   id: '#ctor'
@@ -887,6 +906,13 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
   - name: (
   - name: )
+- uid: SuperOffice.Data.Cache.CacheBlockLogger.KeepAll*
+  commentId: Overload:SuperOffice.Data.Cache.CacheBlockLogger.KeepAll
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBlockLogger.html#SuperOffice_Data_Cache_CacheBlockLogger_KeepAll
+  name: KeepAll
+  nameWithType: CacheBlockLogger.KeepAll
+  fullName: SuperOffice.Data.Cache.CacheBlockLogger.KeepAll
 - uid: SuperOffice.Data.Cache.CacheBlockLogger.#ctor*
   commentId: Overload:SuperOffice.Data.Cache.CacheBlockLogger.#ctor
   isExternal: true

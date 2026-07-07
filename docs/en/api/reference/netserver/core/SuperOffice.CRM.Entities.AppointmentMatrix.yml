@@ -83,6 +83,7 @@ items:
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
@@ -348,6 +349,64 @@ items:
   nameWithType.vb: AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
   fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
   name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  id: SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType: AppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Set if e-mails are going to be sent to participants that are marked receive mails, with provided mail server options.
+  example: []
+  syntax:
+    content: public void SetSendMailToParticipants(bool sendEmailToParticipants, string imapServer, string imapUser, string imapPassword, bool imapSSL, string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, bool useGraphApi, string sentFolder)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: True if e-mails are going to be sent to participants that are marked receive mails.
+    - id: imapServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the IMAP server for storing e-mail in the sent items folder.
+    - id: imapUser
+      type: System.String
+      description: User-name to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapPassword
+      type: System.String
+      description: Password to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: smtpServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the SMTP server for sending e-mail.
+    - id: smtpUser
+      type: System.String
+      description: User-name to use when authenticating against the SMTP server for sending e-mail.
+    - id: smtpPassword
+      type: System.String
+      description: Password to use when authenticating against the SMT server for sending e-mail.
+    - id: smtpSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: useGraphApi
+      type: System.Boolean
+      description: Use graph api.
+    - id: sentFolder
+      type: System.String
+    content.vb: Public Sub SetSendMailToParticipants(sendEmailToParticipants As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, useGraphApi As Boolean, sentFolder As String)
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants*
+  implements:
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  nameWithType.vb: AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
   commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
   id: HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
@@ -3721,6 +3780,159 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_
+  name: SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+    name: SetSendMailToParticipants
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+    name: SetSendMailToParticipants
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: ','
   - name: " "
   - uid: System.Boolean

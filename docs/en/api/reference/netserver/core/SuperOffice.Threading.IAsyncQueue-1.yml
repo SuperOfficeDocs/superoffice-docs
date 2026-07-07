@@ -27,7 +27,9 @@ items:
   - SuperOffice.Threading.IAsyncQueueBase{{TItem}}.ProcessItemsAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{{TItem}},System.Threading.CancellationToken)
   - SuperOffice.Threading.IAsyncQueueBase{{TItem}}.ProcessNextItemAsync(SuperOffice.Threading.AsyncQueueProcessItemAsync{{TItem}},System.Threading.CancellationToken)
   - SuperOffice.Threading.IAsyncQueueBase{{TItem}}.ToArray(System.Boolean)
+  - SuperOffice.Threading.IAsyncQueueBase{{TItem}}.DrainQueue
   - SuperOffice.Threading.IAsyncQueueBase{{TItem}}.HasItemsInTheQueue
+  - SuperOffice.Threading.IAsyncQueueBase{{TItem}}.Count
   extensionMethods:
   - SuperOffice.Threading.IAsyncQueue`1.EnumUtil.MapEnums``2
   - SuperOffice.Threading.IAsyncQueue`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -296,6 +298,30 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+- uid: SuperOffice.Threading.IAsyncQueueBase{{TItem}}.DrainQueue
+  commentId: M:SuperOffice.Threading.IAsyncQueueBase{`0}.DrainQueue
+  parent: SuperOffice.Threading.IAsyncQueueBase{{TItem}}
+  definition: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  name: DrainQueue()
+  nameWithType: IAsyncQueueBase<TItem>.DrainQueue()
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.DrainQueue()
+  nameWithType.vb: IAsyncQueueBase(Of TItem).DrainQueue()
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).DrainQueue()
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueBase{`0}.DrainQueue
+    name: DrainQueue
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueBase{`0}.DrainQueue
+    name: DrainQueue
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  - name: (
+  - name: )
 - uid: SuperOffice.Threading.IAsyncQueueBase{{TItem}}.HasItemsInTheQueue
   commentId: P:SuperOffice.Threading.IAsyncQueueBase{`0}.HasItemsInTheQueue
   parent: SuperOffice.Threading.IAsyncQueueBase{{TItem}}
@@ -306,6 +332,16 @@ references:
   fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.HasItemsInTheQueue
   nameWithType.vb: IAsyncQueueBase(Of TItem).HasItemsInTheQueue
   fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).HasItemsInTheQueue
+- uid: SuperOffice.Threading.IAsyncQueueBase{{TItem}}.Count
+  commentId: P:SuperOffice.Threading.IAsyncQueueBase{`0}.Count
+  parent: SuperOffice.Threading.IAsyncQueueBase{{TItem}}
+  definition: SuperOffice.Threading.IAsyncQueueBase`1.Count
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_Count
+  name: Count
+  nameWithType: IAsyncQueueBase<TItem>.Count
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.Count
+  nameWithType.vb: IAsyncQueueBase(Of TItem).Count
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).Count
 - uid: SuperOffice.Threading.IAsyncQueue`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
@@ -640,6 +676,29 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+  commentId: M:SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  name: DrainQueue()
+  nameWithType: IAsyncQueueBase<TItem>.DrainQueue()
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.DrainQueue()
+  nameWithType.vb: IAsyncQueueBase(Of TItem).DrainQueue()
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).DrainQueue()
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+    name: DrainQueue
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueBase`1.DrainQueue
+    name: DrainQueue
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_DrainQueue
+  - name: (
+  - name: )
 - uid: SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue
   commentId: P:SuperOffice.Threading.IAsyncQueueBase`1.HasItemsInTheQueue
   isExternal: true
@@ -649,6 +708,15 @@ references:
   fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.HasItemsInTheQueue
   nameWithType.vb: IAsyncQueueBase(Of TItem).HasItemsInTheQueue
   fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).HasItemsInTheQueue
+- uid: SuperOffice.Threading.IAsyncQueueBase`1.Count
+  commentId: P:SuperOffice.Threading.IAsyncQueueBase`1.Count
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueBase-1.html#SuperOffice_Threading_IAsyncQueueBase_1_Count
+  name: Count
+  nameWithType: IAsyncQueueBase<TItem>.Count
+  fullName: SuperOffice.Threading.IAsyncQueueBase<TItem>.Count
+  nameWithType.vb: IAsyncQueueBase(Of TItem).Count
+  fullName.vb: SuperOffice.Threading.IAsyncQueueBase(Of TItem).Count
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true

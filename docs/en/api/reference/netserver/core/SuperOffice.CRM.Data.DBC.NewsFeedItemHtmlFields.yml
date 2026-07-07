@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  id: DBC.NewsFeedItemHtmlFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.HtmlContent
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.Iso2Lang
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsFeedItemHtmlId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsfeeditemId
+  langs:
+  - csharp
+  - vb
+  name: DBC.NewsFeedItemHtmlFields
+  nameWithType: DBC.NewsFeedItemHtmlFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for NewsFeedItemHtml, Detailed description of the news item, in a specific language.
+  example: []
+  syntax:
+    content: public static class DBC.NewsFeedItemHtmlFields
+    content.vb: Public Module DBC.NewsFeedItemHtmlFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsFeedItemHtmlId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsFeedItemHtmlId
+  id: NewsFeedItemHtmlId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemHtmlId
+  nameWithType: DBC.NewsFeedItemHtmlFields.NewsFeedItemHtmlId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsFeedItemHtmlId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemHtml.NewsFeedItemHtmlId: Primary key'
+  example: []
+  syntax:
+    content: public const string NewsFeedItemHtmlId = "newsfeeditemhtml_id"
+    return:
+      type: System.String
+    content.vb: Public Const NewsFeedItemHtmlId As String = "newsfeeditemhtml_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsfeeditemId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsfeeditemId
+  id: NewsfeeditemId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  langs:
+  - csharp
+  - vb
+  name: NewsfeeditemId
+  nameWithType: DBC.NewsFeedItemHtmlFields.NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.NewsfeeditemId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemHtml.NewsfeeditemId: Foreign key to NewsFeedItem that this description belongs to.'
+  example: []
+  syntax:
+    content: public const string NewsfeeditemId = "newsfeeditem_id"
+    return:
+      type: System.String
+    content.vb: Public Const NewsfeeditemId As String = "newsfeeditem_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.Iso2Lang
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.Iso2Lang
+  id: Iso2Lang
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  langs:
+  - csharp
+  - vb
+  name: Iso2Lang
+  nameWithType: DBC.NewsFeedItemHtmlFields.Iso2Lang
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.Iso2Lang
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemHtml.Iso2Lang: ISO 2 letter Language code for the content. "en", "us", "no"'
+  example: []
+  syntax:
+    content: public const string Iso2Lang = "Iso2Lang"
+    return:
+      type: System.String
+    content.vb: Public Const Iso2Lang As String = "Iso2Lang"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.HtmlContent
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.HtmlContent
+  id: HtmlContent
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  langs:
+  - csharp
+  - vb
+  name: HtmlContent
+  nameWithType: DBC.NewsFeedItemHtmlFields.HtmlContent
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.HtmlContent
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemHtml.HtmlContent: The HTML content for the news feed item in the specified language. Styling through pre-defined CSS classes. No SCRIPT or STYLE tags allowed'
+  example: []
+  syntax:
+    content: public const string HtmlContent = "HtmlContent"
+    return:
+      type: System.String
+    content.vb: Public Const HtmlContent As String = "HtmlContent"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

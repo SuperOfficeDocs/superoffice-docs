@@ -36,13 +36,17 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingDescription
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSelectionId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingDescription
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSent
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSimpleStatus
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingEndDate
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingType
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSubscriptionType
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSentTo
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingOwner
@@ -54,6 +58,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingBounceRate
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colDeleted
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colRecipientStatus
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colIcon
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colDate
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colType
@@ -458,6 +463,14 @@ references:
   name: ColMailingDescription
   nameWithType: MailingsExtenderBase.ColMailingDescription
   fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingDescription
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.html#SuperOffice_CRM_ArchiveLists_MailingsExtenderBase_ColMailingFolderId
+  name: ColMailingFolderId
+  nameWithType: MailingsExtenderBase.ColMailingFolderId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
   parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
@@ -466,6 +479,14 @@ references:
   name: _colMailingId
   nameWithType: MailingsExtenderBase._colMailingId
   fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.html#SuperOffice_CRM_ArchiveLists_MailingsExtenderBase__colMailingFolderId
+  name: _colMailingFolderId
+  nameWithType: MailingsExtenderBase._colMailingFolderId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSelectionId
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSelectionId
   parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
@@ -514,6 +535,22 @@ references:
   name: _colMailingType
   nameWithType: MailingsExtenderBase._colMailingType
   fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingType
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.html#SuperOffice_CRM_ArchiveLists_MailingsExtenderBase__colMailingTypeId
+  name: _colMailingTypeId
+  nameWithType: MailingsExtenderBase._colMailingTypeId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.html#SuperOffice_CRM_ArchiveLists_MailingsExtenderBase__colMailingStatusId
+  name: _colMailingStatusId
+  nameWithType: MailingsExtenderBase._colMailingStatusId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSubscriptionType
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSubscriptionType
   parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
@@ -602,6 +639,14 @@ references:
   name: _colRecipientStatus
   nameWithType: MailingsExtenderBase._colRecipientStatus
   fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colRecipientStatus
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.html#SuperOffice_CRM_ArchiveLists_MailingsExtenderBase__colThumbnail
+  name: _colThumbnail
+  nameWithType: MailingsExtenderBase._colThumbnail
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colIcon
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colIcon
   parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase

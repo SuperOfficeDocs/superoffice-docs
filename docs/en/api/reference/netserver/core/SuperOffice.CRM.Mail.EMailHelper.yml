@@ -13,7 +13,7 @@ items:
   - SuperOffice.CRM.Mail.EMailHelper.PopulateEnvelopesArchivedInfoAsync(SuperOffice.CRM.Mail.MailEnvelope[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.EMailHelper.PopulateEnvelopesCompanyPersonInfoAsync(SuperOffice.CRM.Mail.MailEnvelope[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.Int32[],System.Threading.CancellationToken)
-  - SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.String,System.Threading.CancellationToken,System.Boolean)
+  - SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.EMailHelper.ResolveAddressesAsync(SuperOffice.CRM.Mail.MailItem,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.EMailHelper.ResolveAddressesAsync(System.Collections.Generic.List{SuperOffice.CRM.Mail.MailAddress},System.Threading.CancellationToken)
   langs:
@@ -210,16 +210,16 @@ items:
   nameWithType.vb: EMailHelper.PopulateEnvelopesArchivedInfoAsync(MailEnvelope(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Mail.EMailHelper.PopulateEnvelopesArchivedInfoAsync(SuperOffice.CRM.Mail.MailEnvelope(), System.Threading.CancellationToken)
   name.vb: PopulateEnvelopesArchivedInfoAsync(MailEnvelope(), CancellationToken)
-- uid: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.String,System.Threading.CancellationToken,System.Boolean)
-  commentId: M:SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.String,System.Threading.CancellationToken,System.Boolean)
-  id: ResolveAddressAsync(System.String,System.Threading.CancellationToken,System.Boolean)
+- uid: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: ResolveAddressAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Mail.EMailHelper
   langs:
   - csharp
   - vb
-  name: ResolveAddressAsync(string, CancellationToken, bool)
-  nameWithType: EMailHelper.ResolveAddressAsync(string, CancellationToken, bool)
-  fullName: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(string, System.Threading.CancellationToken, bool)
+  name: ResolveAddressAsync(string, bool, CancellationToken)
+  nameWithType: EMailHelper.ResolveAddressAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(string, bool, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
@@ -227,25 +227,25 @@ items:
   summary: Search database for a single e-mail address, and return list with matched data
   example: []
   syntax:
-    content: public static Task<MailAddress[]> ResolveAddressAsync(string address, CancellationToken cancellationToken, bool onlyEmail = false)
+    content: public static Task<MailAddress[]> ResolveAddressAsync(string address, bool onlyEmail = false, CancellationToken cancellationToken = default)
     parameters:
     - id: address
       type: System.String
       description: Address to look for
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-      description: ''
     - id: onlyEmail
       type: System.Boolean
       description: Bool we only want to search for EmailType.Email
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Mail.MailAddress[]}
       description: List of MailAddress instances with matched data
-    content.vb: Public Shared Function ResolveAddressAsync(address As String, cancellationToken As CancellationToken, onlyEmail As Boolean = False) As Task(Of MailAddress())
+    content.vb: Public Shared Function ResolveAddressAsync(address As String, onlyEmail As Boolean = False, cancellationToken As CancellationToken = Nothing) As Task(Of MailAddress())
   overload: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync*
-  nameWithType.vb: EMailHelper.ResolveAddressAsync(String, CancellationToken, Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(String, System.Threading.CancellationToken, Boolean)
-  name.vb: ResolveAddressAsync(String, CancellationToken, Boolean)
+  nameWithType.vb: EMailHelper.ResolveAddressAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: ResolveAddressAsync(String, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync(System.Int32[],System.Threading.CancellationToken)
   id: ResolveAddressAsync(System.Int32[],System.Threading.CancellationToken)
@@ -1071,7 +1071,7 @@ references:
 - uid: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync*
   commentId: Overload:SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync
   isExternal: true
-  href: SuperOffice.CRM.Mail.EMailHelper.html#SuperOffice_CRM_Mail_EMailHelper_ResolveAddressAsync_System_String_System_Threading_CancellationToken_System_Boolean_
+  href: SuperOffice.CRM.Mail.EMailHelper.html#SuperOffice_CRM_Mail_EMailHelper_ResolveAddressAsync_System_String_System_Boolean_System_Threading_CancellationToken_
   name: ResolveAddressAsync
   nameWithType: EMailHelper.ResolveAddressAsync
   fullName: SuperOffice.CRM.Mail.EMailHelper.ResolveAddressAsync

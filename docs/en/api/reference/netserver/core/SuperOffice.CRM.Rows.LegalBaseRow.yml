@@ -1525,7 +1525,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. The list item'
+  summary: '.NET type: string. Name of legal base'
   remarks: >-
     Original type in dictionary:  String[4001].
 
@@ -1556,7 +1556,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: short. Rank order'
+  summary: '.NET type: short. Rank of this legal base'
   remarks: >-
     Original type in dictionary:  UShort.
 
@@ -1587,7 +1587,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. The tooltip for the list item'
+  summary: '.NET type: string. Tooltip for this legal base'
   remarks: >-
     Original type in dictionary:  String[4001].
 
@@ -1649,7 +1649,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. The list item key, to be recognized by application logic'
+  summary: '.NET type: string. The key used to uniquely identify this legal base'
   remarks: >-
     Original type in dictionary:  String[256].
 

@@ -53,6 +53,7 @@ items:
   - SuperOffice.CRM.Data.SaleHistTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.SaleHistTableInfo.ReopenDate
   - SuperOffice.CRM.Data.SaleHistTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle
   - SuperOffice.CRM.Data.SaleHistTableInfo.SaleId
   - SuperOffice.CRM.Data.SaleHistTableInfo.SaleId_InnerJoin_Sale
   - SuperOffice.CRM.Data.SaleHistTableInfo.SaleTypeCatId
@@ -121,12 +122,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -1371,6 +1370,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property StageWhenClosedId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId*
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle
+  commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Data.SaleHistTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: SaleHistTableInfo.SaleCycle
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sale_cycle' in table 'SaleHist': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Snapshot of sale.sale_cycle at the time this history row was written.
+  example: []
+  syntax:
+    content: public Int32FieldInfo SaleCycle { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SaleCycle As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle*
 - uid: SuperOffice.CRM.Data.SaleHistTableInfo.SaleId_InnerJoin_Sale
   commentId: P:SuperOffice.CRM.Data.SaleHistTableInfo.SaleId_InnerJoin_Sale
   id: SaleId_InnerJoin_Sale
@@ -2212,14 +2237,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -2252,14 +2269,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -3331,6 +3340,13 @@ references:
   name: StageWhenClosedId
   nameWithType: SaleHistTableInfo.StageWhenClosedId
   fullName: SuperOffice.CRM.Data.SaleHistTableInfo.StageWhenClosedId
+- uid: SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle*
+  commentId: Overload:SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleHistTableInfo.html#SuperOffice_CRM_Data_SaleHistTableInfo_SaleCycle
+  name: SaleCycle
+  nameWithType: SaleHistTableInfo.SaleCycle
+  fullName: SuperOffice.CRM.Data.SaleHistTableInfo.SaleCycle
 - uid: SuperOffice.CRM.Data.SaleTableInfo
   commentId: T:SuperOffice.CRM.Data.SaleTableInfo
   parent: SuperOffice.CRM.Data

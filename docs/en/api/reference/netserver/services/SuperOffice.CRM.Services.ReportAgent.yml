@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -70,22 +70,22 @@ items:
   nameWithType.vb: ReportAgent.New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ReportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.ReportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.ReportAgent
   langs:
   - csharp
   - vb
-  name: ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: ReportAgent.ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: ReportAgent.ReportAgent(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.ReportAgent.ReportAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ReportAgent(IReportLabelLayoutEntityImplementation reportLabelLayoutEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public ReportAgent(IReportLabelLayoutEntityImplementation reportLabelLayoutEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: reportLabelLayoutEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation
@@ -95,15 +95,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(reportLabelLayoutEntityImplementation As IReportLabelLayoutEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(reportLabelLayoutEntityImplementation As IReportLabelLayoutEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.ReportAgent.#ctor*
-  nameWithType.vb: ReportAgent.New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.ReportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: ReportAgent.New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.ReportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IReportLabelLayoutEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IReportLabelLayoutEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultReportLabelLayoutEntityAsync(System.Threading.CancellationToken)
@@ -626,16 +622,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
   isExternal: true

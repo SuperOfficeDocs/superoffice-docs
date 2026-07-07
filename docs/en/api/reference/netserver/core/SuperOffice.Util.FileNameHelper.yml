@@ -5,6 +5,9 @@ items:
   id: FileNameHelper
   parent: SuperOffice.Util
   children:
+  - SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform(System.String)
+  - SuperOffice.Util.FileNameHelper.InvalidFileNameChars
+  - SuperOffice.Util.FileNameHelper.InvalidFileNameCharsPattern
   - SuperOffice.Util.FileNameHelper.MakeLegalFileName(System.String)
   langs:
   - csharp
@@ -31,6 +34,53 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+- uid: SuperOffice.Util.FileNameHelper.InvalidFileNameChars
+  commentId: F:SuperOffice.Util.FileNameHelper.InvalidFileNameChars
+  id: InvalidFileNameChars
+  parent: SuperOffice.Util.FileNameHelper
+  langs:
+  - csharp
+  - vb
+  name: InvalidFileNameChars
+  nameWithType: FileNameHelper.InvalidFileNameChars
+  fullName: SuperOffice.Util.FileNameHelper.InvalidFileNameChars
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    The Windows set of invalid filename characters, applied on every platform.
+
+    Path.GetInvalidFileNameChars() is OS-dependent (on Linux it is only '/' and NUL), but the
+
+    document archive keeps Windows filename rules everywhere so that names are portable.
+  example: []
+  syntax:
+    content: public static readonly char[] InvalidFileNameChars
+    return:
+      type: System.Char[]
+    content.vb: Public Shared ReadOnly InvalidFileNameChars As Char()
+- uid: SuperOffice.Util.FileNameHelper.InvalidFileNameCharsPattern
+  commentId: F:SuperOffice.Util.FileNameHelper.InvalidFileNameCharsPattern
+  id: InvalidFileNameCharsPattern
+  parent: SuperOffice.Util.FileNameHelper
+  langs:
+  - csharp
+  - vb
+  name: InvalidFileNameCharsPattern
+  nameWithType: FileNameHelper.InvalidFileNameCharsPattern
+  fullName: SuperOffice.Util.FileNameHelper.InvalidFileNameCharsPattern
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Regex character-class pattern matching <xref href="SuperOffice.Util.FileNameHelper.InvalidFileNameChars" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static readonly string InvalidFileNameCharsPattern
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly InvalidFileNameCharsPattern As String
 - uid: SuperOffice.Util.FileNameHelper.MakeLegalFileName(System.String)
   commentId: M:SuperOffice.Util.FileNameHelper.MakeLegalFileName(System.String)
   id: MakeLegalFileName(System.String)
@@ -61,6 +111,41 @@ items:
   nameWithType.vb: FileNameHelper.MakeLegalFileName(String)
   fullName.vb: SuperOffice.Util.FileNameHelper.MakeLegalFileName(String)
   name.vb: MakeLegalFileName(String)
+- uid: SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform(System.String)
+  commentId: M:SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform(System.String)
+  id: GetFileNameAnyPlatform(System.String)
+  parent: SuperOffice.Util.FileNameHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFileNameAnyPlatform(string)
+  nameWithType: FileNameHelper.GetFileNameAnyPlatform(string)
+  fullName: SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Get the file name (last segment) of a path, treating both '/' and '\' as directory separators
+
+    regardless of host OS. Path.GetFileName does not strip Windows-style directories on Linux,
+
+    but Windows clients send such paths to Linux servers.
+  example: []
+  syntax:
+    content: public static string GetFileNameAnyPlatform(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: A file name, optionally prefixed by a path in either separator style
+    return:
+      type: System.String
+      description: The file name without any directory or drive designator
+    content.vb: Public Shared Function GetFileNameAnyPlatform(path As String) As String
+  overload: SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform*
+  nameWithType.vb: FileNameHelper.GetFileNameAnyPlatform(String)
+  fullName.vb: SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform(String)
+  name.vb: GetFileNameAnyPlatform(String)
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -326,13 +411,36 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Util.FileNameHelper.MakeLegalFileName*
-  commentId: Overload:SuperOffice.Util.FileNameHelper.MakeLegalFileName
+- uid: System.Char[]
   isExternal: true
-  href: SuperOffice.Util.FileNameHelper.html#SuperOffice_Util_FileNameHelper_MakeLegalFileName_System_String_
-  name: MakeLegalFileName
-  nameWithType: FileNameHelper.MakeLegalFileName
-  fullName: SuperOffice.Util.FileNameHelper.MakeLegalFileName
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
+  nameWithType.vb: Char()
+  fullName.vb: Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.FileNameHelper.InvalidFileNameChars
+  commentId: F:SuperOffice.Util.FileNameHelper.InvalidFileNameChars
+  isExternal: true
+  href: SuperOffice.Util.FileNameHelper.html#SuperOffice_Util_FileNameHelper_InvalidFileNameChars
+  name: InvalidFileNameChars
+  nameWithType: FileNameHelper.InvalidFileNameChars
+  fullName: SuperOffice.Util.FileNameHelper.InvalidFileNameChars
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -344,3 +452,17 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.Util.FileNameHelper.MakeLegalFileName*
+  commentId: Overload:SuperOffice.Util.FileNameHelper.MakeLegalFileName
+  isExternal: true
+  href: SuperOffice.Util.FileNameHelper.html#SuperOffice_Util_FileNameHelper_MakeLegalFileName_System_String_
+  name: MakeLegalFileName
+  nameWithType: FileNameHelper.MakeLegalFileName
+  fullName: SuperOffice.Util.FileNameHelper.MakeLegalFileName
+- uid: SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform*
+  commentId: Overload:SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform
+  isExternal: true
+  href: SuperOffice.Util.FileNameHelper.html#SuperOffice_Util_FileNameHelper_GetFileNameAnyPlatform_System_String_
+  name: GetFileNameAnyPlatform
+  nameWithType: FileNameHelper.GetFileNameAnyPlatform
+  fullName: SuperOffice.Util.FileNameHelper.GetFileNameAnyPlatform

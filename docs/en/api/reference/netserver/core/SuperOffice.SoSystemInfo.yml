@@ -514,7 +514,7 @@ items:
     parameters: []
     return:
       type: System.String
-      description: MSSQL | Oracle
+      description: MSSQL | (PostgreSQL, maybe)
     content.vb: Public ReadOnly Property DatabaseType As String
   overload: SuperOffice.SoSystemInfo.DatabaseType*
 - uid: SuperOffice.SoSystemInfo.DatabaseMinor

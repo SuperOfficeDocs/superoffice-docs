@@ -1,0 +1,897 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.ICustomObjectAgent
+  id: ICustomObjectAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.WebApi.Data.CustomObject,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  type: Interface
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: 'Agent for working with Custom Objects (extra tables): read schema and full CRUD over rows. Purpose-built replacement for using DatabaseTableAgent against custom objects.'
+  example: []
+  syntax:
+    content: 'public interface ICustomObjectAgent : IAgentBase, IDisposable'
+    content.vb: Public Interface ICustomObjectAgent Inherits IAgentBase, IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  - SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  - System.IDisposable.Dispose
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultCustomObjectDefinitionAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCustomObjectDefinitionAsync(RequestOptions)
+  nameWithType: ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new CustomObjectDefinition.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: Task<CustomObjectDefinition> CreateDefaultCustomObjectDefinitionAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectDefinition}
+      description: A blank CustomObjectDefinition
+    content.vb: Function CreateDefaultCustomObjectDefinitionAsync(requestOptions As RequestOptions = Nothing) As Task(Of CustomObjectDefinition)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync*
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultCustomObjectAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCustomObjectAsync(string, RequestOptions)
+  nameWithType: ICustomObjectAgent.CreateDefaultCustomObjectAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns a new Custom Object row pre-populated with the default values declared by the Custom Object Definition. The row is not yet persisted.
+  example: []
+  syntax:
+    content: Task<CustomObject> CreateDefaultCustomObjectAsync(string definitionName, RequestOptions requestOptions = null)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObject}
+      description: A new Custom Object row pre-populated with default values. Not yet persisted.
+    content.vb: Function CreateDefaultCustomObjectAsync(definitionName As String, requestOptions As RequestOptions = Nothing) As Task(Of CustomObject)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync*
+  nameWithType.vb: ICustomObjectAgent.CreateDefaultCustomObjectAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateDefaultCustomObjectAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectAsync(string, int, RequestOptions)
+  nameWithType: ICustomObjectAgent.GetCustomObjectAsync(string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns a single Custom Object row by definition name and primary key.
+  example: []
+  syntax:
+    content: Task<CustomObject> GetCustomObjectAsync(string definitionName, int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: id
+      type: System.Int32
+      description: Primary key of the row to fetch.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObject}
+      description: The Custom Object row, or null if no row with that id exists.
+    content.vb: Function GetCustomObjectAsync(definitionName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of CustomObject)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync*
+  nameWithType.vb: ICustomObjectAgent.GetCustomObjectAsync(String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCustomObjectAsync(String, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.WebApi.Data.CustomObject,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.WebApi.Data.CustomObject,SuperOffice.WebApi.RequestOptions)
+  id: SaveCustomObjectAsync(System.String,SuperOffice.WebApi.Data.CustomObject,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCustomObjectAsync(string, CustomObject, RequestOptions)
+  nameWithType: ICustomObjectAgent.SaveCustomObjectAsync(string, CustomObject, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync(string, SuperOffice.WebApi.Data.CustomObject, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Saves a Custom Object row. If the row has a primary key set it will be updated, otherwise a new row is inserted.
+  example: []
+  syntax:
+    content: Task<CustomObject> SaveCustomObjectAsync(string definitionName, CustomObject row, RequestOptions requestOptions = null)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: row
+      type: SuperOffice.WebApi.Data.CustomObject
+      description: The Custom Object row to save.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObject}
+      description: The saved Custom Object row, with any server-assigned values (e.g. primary key) filled in.
+    content.vb: Function SaveCustomObjectAsync(definitionName As String, row As CustomObject, requestOptions As RequestOptions = Nothing) As Task(Of CustomObject)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync*
+  nameWithType.vb: ICustomObjectAgent.SaveCustomObjectAsync(String, CustomObject, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync(String, SuperOffice.WebApi.Data.CustomObject, SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveCustomObjectAsync(String, CustomObject, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteCustomObjectAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCustomObjectAsync(string, int, RequestOptions)
+  nameWithType: ICustomObjectAgent.DeleteCustomObjectAsync(string, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes a single Custom Object row by primary key.
+  example: []
+  syntax:
+    content: Task DeleteCustomObjectAsync(string definitionName, int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: id
+      type: System.Int32
+      description: Primary key of the row to delete.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteCustomObjectAsync(definitionName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync*
+  nameWithType.vb: ICustomObjectAgent.DeleteCustomObjectAsync(String, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteCustomObjectAsync(String, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetCustomObjectDefinitionAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectDefinitionAsync(string, RequestOptions)
+  nameWithType: ICustomObjectAgent.GetCustomObjectDefinitionAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns the schema (table + field definitions) for a Custom Object Definition by its database table name.
+  example: []
+  syntax:
+    content: Task<CustomObjectDefinition> GetCustomObjectDefinitionAsync(string definitionName, RequestOptions requestOptions = null)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectDefinition}
+      description: The Custom Object Definition, or null if no definition with that name exists.
+    content.vb: Function GetCustomObjectDefinitionAsync(definitionName As String, requestOptions As RequestOptions = Nothing) As Task(Of CustomObjectDefinition)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync*
+  nameWithType.vb: ICustomObjectAgent.GetCustomObjectDefinitionAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCustomObjectDefinitionAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: HasScreenChooserAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: HasScreenChooserAsync(string, bool, RequestOptions)
+  nameWithType: ICustomObjectAgent.HasScreenChooserAsync(string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync(string, bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns true if a screen chooser is configured for the given Custom Object Definition and mode.
+  example: []
+  syntax:
+    content: Task<bool> HasScreenChooserAsync(string definitionName, bool edit, RequestOptions requestOptions = null)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition.
+    - id: edit
+      type: System.Boolean
+      description: True to check for a custom edit screen; false to check for a custom view screen.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if a screen chooser (view or edit) is configured for this Custom Object.
+    content.vb: Function HasScreenChooserAsync(definitionName As String, edit As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync*
+  nameWithType.vb: ICustomObjectAgent.HasScreenChooserAsync(String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: HasScreenChooserAsync(String, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetCustomObjectsMetadataAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectsMetadataAsync(RequestOptions)
+  nameWithType: ICustomObjectAgent.GetCustomObjectsMetadataAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns bootstrap metadata for all Custom Object tables.
+  example: []
+  syntax:
+    content: Task<CustomObjectMetadata[]> GetCustomObjectsMetadataAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectMetadata[]}
+      description: Metadata for all custom object tables.
+    content.vb: Function GetCustomObjectsMetadataAsync(requestOptions As RequestOptions = Nothing) As Task(Of CustomObjectMetadata())
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync*
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetCustomObjectsIconsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectsIconsAsync(RequestOptions)
+  nameWithType: ICustomObjectAgent.GetCustomObjectsIconsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns SVG icon data for all Custom Object tables, keyed by table name.
+  example: []
+  syntax:
+    content: Task<StringDictionary> GetCustomObjectsIconsAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Map of table name to SVG icon data URI.
+    content.vb: Function GetCustomObjectsIconsAsync(requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  name: CancelRequest()
+  nameWithType: IAgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_Configuration
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_CreateDefaultCustomObjectDefinitionAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCustomObjectDefinitionAsync
+  nameWithType: ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectDefinition}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectDefinition}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomObjectDefinition>
+  nameWithType: Task<CustomObjectDefinition>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CustomObjectDefinition>
+  nameWithType.vb: Task(Of CustomObjectDefinition)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CustomObjectDefinition)
+  name.vb: Task(Of CustomObjectDefinition)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.CustomObjectDefinition
+    name: CustomObjectDefinition
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObjectDefinition.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.CustomObjectDefinition
+    name: CustomObjectDefinition
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObjectDefinition.html
+  - name: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_CreateDefaultCustomObjectAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCustomObjectAsync
+  nameWithType: ICustomObjectAgent.CreateDefaultCustomObjectAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.CreateDefaultCustomObjectAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObject}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObject}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomObject>
+  nameWithType: Task<CustomObject>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CustomObject>
+  nameWithType.vb: Task(Of CustomObject)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CustomObject)
+  name.vb: Task(Of CustomObject)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.CustomObject
+    name: CustomObject
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObject.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.CustomObject
+    name: CustomObject
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObject.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_GetCustomObjectAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetCustomObjectAsync
+  nameWithType: ICustomObjectAgent.GetCustomObjectAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_SaveCustomObjectAsync_System_String_SuperOffice_WebApi_Data_CustomObject_SuperOffice_WebApi_RequestOptions_
+  name: SaveCustomObjectAsync
+  nameWithType: ICustomObjectAgent.SaveCustomObjectAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.SaveCustomObjectAsync
+- uid: SuperOffice.WebApi.Data.CustomObject
+  commentId: T:SuperOffice.WebApi.Data.CustomObject
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObject.html
+  name: CustomObject
+  nameWithType: CustomObject
+  fullName: SuperOffice.WebApi.Data.CustomObject
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_DeleteCustomObjectAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteCustomObjectAsync
+  nameWithType: ICustomObjectAgent.DeleteCustomObjectAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.DeleteCustomObjectAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_GetCustomObjectDefinitionAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetCustomObjectDefinitionAsync
+  nameWithType: ICustomObjectAgent.GetCustomObjectDefinitionAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectDefinitionAsync
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_HasScreenChooserAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: HasScreenChooserAsync
+  nameWithType: ICustomObjectAgent.HasScreenChooserAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.HasScreenChooserAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_GetCustomObjectsMetadataAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetCustomObjectsMetadataAsync
+  nameWithType: ICustomObjectAgent.GetCustomObjectsMetadataAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsMetadataAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectMetadata[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomObjectMetadata[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomObjectMetadata[]>
+  nameWithType: Task<CustomObjectMetadata[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CustomObjectMetadata[]>
+  nameWithType.vb: Task(Of CustomObjectMetadata())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CustomObjectMetadata())
+  name.vb: Task(Of CustomObjectMetadata())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.CustomObjectMetadata
+    name: CustomObjectMetadata
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObjectMetadata.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.CustomObjectMetadata
+    name: CustomObjectMetadata
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObjectMetadata.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html#SuperOffice_WebApi_Agents_ICustomObjectAgent_GetCustomObjectsIconsAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetCustomObjectsIconsAsync
+  nameWithType: ICustomObjectAgent.GetCustomObjectsIconsAsync
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent.GetCustomObjectsIconsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    isExternal: true
+    href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    isExternal: true
+    href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: )

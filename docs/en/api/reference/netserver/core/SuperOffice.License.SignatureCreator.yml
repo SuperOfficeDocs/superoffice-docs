@@ -21,10 +21,6 @@ items:
   - SoLicense
   namespace: SuperOffice.License
   summary: Create signatures for module licenses - requires a public and private key to create signature hashes.
-  remarks: >-
-    Requires a full user-profile to work.  The .net 4 version of <xref href="System.Security.Cryptography.DSACryptoServiceProvider" data-throw-if-not-resolved="false"></xref> does not support
-
-    mandatory or temporary user profiles, as found on Citrix installations and in the NETWORKSVC user.
   example: []
   syntax:
     content: 'public class SignatureCreator : SignatureValidator'
@@ -199,14 +195,6 @@ items:
     content.vb: Public Sub Sign(change As SerialNumberChange)
   overload: SuperOffice.License.SignatureCreator.Sign*
 references:
-- uid: System.Security.Cryptography.DSACryptoServiceProvider
-  commentId: T:System.Security.Cryptography.DSACryptoServiceProvider
-  parent: System.Security.Cryptography
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.security.cryptography.dsacryptoserviceprovider
-  name: DSACryptoServiceProvider
-  nameWithType: DSACryptoServiceProvider
-  fullName: System.Security.Cryptography.DSACryptoServiceProvider
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
@@ -1004,43 +992,6 @@ references:
     isExternal: true
     href: SuperOffice.License.SignatureCreator.html
   - name: )
-- uid: System.Security.Cryptography
-  commentId: N:System.Security.Cryptography
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Security.Cryptography
-  nameWithType: System.Security.Cryptography
-  fullName: System.Security.Cryptography
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Security
-    name: Security
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security
-  - name: .
-  - uid: System.Security.Cryptography
-    name: Cryptography
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Security
-    name: Security
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security
-  - name: .
-  - uid: System.Security.Cryptography
-    name: Cryptography
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1197,6 +1148,51 @@ references:
   name: SignedPublicKey
   nameWithType: SignedPublicKey
   fullName: SuperOffice.License.SignedPublicKey
+- uid: System.Security.Cryptography.DSACryptoServiceProvider
+  commentId: T:System.Security.Cryptography.DSACryptoServiceProvider
+  parent: System.Security.Cryptography
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.security.cryptography.dsacryptoserviceprovider
+  name: DSACryptoServiceProvider
+  nameWithType: DSACryptoServiceProvider
+  fullName: System.Security.Cryptography.DSACryptoServiceProvider
+- uid: System.Security.Cryptography
+  commentId: N:System.Security.Cryptography
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+  fullName: System.Security.Cryptography
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Cryptography
+    name: Cryptography
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Security
+    name: Security
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security
+  - name: .
+  - uid: System.Security.Cryptography
+    name: Cryptography
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
 - uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator}
   commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator}
   parent: Microsoft.Extensions.Logging

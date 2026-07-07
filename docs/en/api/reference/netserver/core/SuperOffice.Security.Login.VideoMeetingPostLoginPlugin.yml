@@ -5,7 +5,7 @@ items:
   id: VideoMeetingPostLoginPlugin
   parent: SuperOffice.Security.Login
   children:
-  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
+  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin})
   - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.GetEndpointUri(System.String,System.String)
   - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.Name
@@ -44,8 +44,6 @@ items:
   extensionMethods:
   - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.EnumUtil.MapEnums``2
   - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-  - SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   attributes:
   - type: SuperOffice.Security.Principal.PostLoginPluginAttribute
     ctor: SuperOffice.Security.Principal.PostLoginPluginAttribute.#ctor(System.String)
@@ -71,6 +69,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const Name As String = "VideoMeetings"
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin})
+  commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin})'
+  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingPostLoginPlugin(ILogger<VideoMeetingPostLoginPlugin>)
+  nameWithType: VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin(ILogger<VideoMeetingPostLoginPlugin>)
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin(Microsoft.Extensions.Logging.ILogger<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public VideoMeetingPostLoginPlugin(ILogger<VideoMeetingPostLoginPlugin> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin}
+    content.vb: Public Sub New(logger As ILogger(Of VideoMeetingPostLoginPlugin))
+  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor*
+  nameWithType.vb: VideoMeetingPostLoginPlugin.New(ILogger(Of VideoMeetingPostLoginPlugin))
+  fullName.vb: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin))
+  name.vb: New(ILogger(Of VideoMeetingPostLoginPlugin))
 - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   id: IsRequiredAsync(System.Threading.CancellationToken)
@@ -172,27 +194,6 @@ items:
   nameWithType.vb: VideoMeetingPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
   fullName.vb: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.ProcessCallback(String, System.Collections.Generic.Dictionary(Of String, String))
   name.vb: ProcessCallback(String, Dictionary(Of String, String))
-- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
-  commentId: M:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
-  id: '#ctor'
-  parent: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-  langs:
-  - csharp
-  - vb
-  name: VideoMeetingPostLoginPlugin()
-  nameWithType: VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin()
-  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin()
-  type: Constructor
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Security.Login
-  syntax:
-    content: public VideoMeetingPostLoginPlugin()
-    content.vb: Public Sub New()
-  overload: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor*
-  nameWithType.vb: VideoMeetingPostLoginPlugin.New()
-  fullName.vb: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.Security.Login
   commentId: N:SuperOffice.Security.Login
@@ -575,112 +576,6 @@ references:
     isExternal: true
     href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
   - name: )
-- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<VideoMeetingPostLoginPlugin>(VideoMeetingPostLoginPlugin, VideoMeetingPostLoginPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<VideoMeetingPostLoginPlugin>(VideoMeetingPostLoginPlugin, VideoMeetingPostLoginPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of VideoMeetingPostLoginPlugin)(VideoMeetingPostLoginPlugin, VideoMeetingPostLoginPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin, SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-  name.vb: AssignByReflection(Of VideoMeetingPostLoginPlugin)(VideoMeetingPostLoginPlugin, VideoMeetingPostLoginPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin,SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin,SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: )
-- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<VideoMeetingPostLoginPlugin>(VideoMeetingPostLoginPlugin)
-  nameWithType: ObjectExtensions.GraphCopy<VideoMeetingPostLoginPlugin>(VideoMeetingPostLoginPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of VideoMeetingPostLoginPlugin)(VideoMeetingPostLoginPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-  name.vb: GraphCopy(Of VideoMeetingPostLoginPlugin)(VideoMeetingPostLoginPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
-    name: VideoMeetingPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -820,88 +715,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -939,33 +752,6 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -977,6 +763,116 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor*
+  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
+  isExternal: true
+  href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html#SuperOffice_Security_Login_VideoMeetingPostLoginPlugin__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Security_Login_VideoMeetingPostLoginPlugin__
+  name: VideoMeetingPostLoginPlugin
+  nameWithType: VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin
+  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin
+  nameWithType.vb: VideoMeetingPostLoginPlugin.New
+  fullName.vb: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.VideoMeetingPostLoginPlugin}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<VideoMeetingPostLoginPlugin>
+  nameWithType: ILogger<VideoMeetingPostLoginPlugin>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Security.Login.VideoMeetingPostLoginPlugin>
+  nameWithType.vb: ILogger(Of VideoMeetingPostLoginPlugin)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Security.Login.VideoMeetingPostLoginPlugin)
+  name.vb: ILogger(Of VideoMeetingPostLoginPlugin)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+    name: VideoMeetingPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
+    name: VideoMeetingPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequiredAsync*
   commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.IsRequiredAsync
   isExternal: true
@@ -1391,13 +1287,3 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor*
-  commentId: Overload:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.#ctor
-  isExternal: true
-  href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html#SuperOffice_Security_Login_VideoMeetingPostLoginPlugin__ctor
-  name: VideoMeetingPostLoginPlugin
-  nameWithType: VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin
-  fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.VideoMeetingPostLoginPlugin
-  nameWithType.vb: VideoMeetingPostLoginPlugin.New
-  fullName.vb: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.New
-  name.vb: New

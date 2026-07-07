@@ -5,7 +5,7 @@ items:
   id: SoArc2
   parent: SuperOffice.CRM.Documents
   children:
-  - SuperOffice.CRM.Documents.SoArc2.#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})
+  - SuperOffice.CRM.Documents.SoArc2.#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})
   - SuperOffice.CRM.Documents.SoArc2.AssociateRename(System.String,System.String)
   - SuperOffice.CRM.Documents.SoArc2.CheckinDocumentAsync(SuperOffice.CRM.IDocumentInfo,System.String[],System.String,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.SoArc2.CheckoutDocumentAsync(SuperOffice.CRM.IDocumentInfo,System.String[],System.Threading.CancellationToken)
@@ -148,16 +148,16 @@ items:
   nameWithType.vb: SoArc2.AssociateRename(String, String)
   fullName.vb: SuperOffice.CRM.Documents.SoArc2.AssociateRename(String, String)
   name.vb: AssociateRename(String, String)
-- uid: SuperOffice.CRM.Documents.SoArc2.#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})
-  commentId: M:SuperOffice.CRM.Documents.SoArc2.#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})
-  id: '#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})'
+- uid: SuperOffice.CRM.Documents.SoArc2.#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})
+  commentId: M:SuperOffice.CRM.Documents.SoArc2.#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})
+  id: '#ctor(SuperOffice.CRM.IConfiguration,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2})'
   parent: SuperOffice.CRM.Documents.SoArc2
   langs:
   - csharp
   - vb
-  name: SoArc2(IConfiguration, ILogger<SoArc2>)
-  nameWithType: SoArc2.SoArc2(IConfiguration, ILogger<SoArc2>)
-  fullName: SuperOffice.CRM.Documents.SoArc2.SoArc2(SuperOffice.CRM.IConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Documents.SoArc2>)
+  name: SoArc2(IConfiguration, IConfiguration, ILogger<SoArc2>)
+  nameWithType: SoArc2.SoArc2(IConfiguration, IConfiguration, ILogger<SoArc2>)
+  fullName: SuperOffice.CRM.Documents.SoArc2.SoArc2(SuperOffice.CRM.IConfiguration, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Documents.SoArc2>)
   type: Constructor
   assemblies:
   - SoDataBase
@@ -170,18 +170,20 @@ items:
      &lt;SuperOffice&gt;&lt;Documents&gt;&lt;add key="CanCreateDocumentTemplates" value="false" /&gt;
   example: []
   syntax:
-    content: public SoArc2(IConfiguration config, ILogger<SoArc2> logger)
+    content: public SoArc2(IConfiguration soConfig, IConfiguration configuration, ILogger<SoArc2> logger)
     parameters:
-    - id: config
+    - id: soConfig
       type: SuperOffice.CRM.IConfiguration
       description: configuration settings
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2}
-    content.vb: Public Sub New(config As IConfiguration, logger As ILogger(Of SoArc2))
+    content.vb: Public Sub New(soConfig As IConfiguration, configuration As IConfiguration, logger As ILogger(Of SoArc2))
   overload: SuperOffice.CRM.Documents.SoArc2.#ctor*
-  nameWithType.vb: SoArc2.New(IConfiguration, ILogger(Of SoArc2))
-  fullName.vb: SuperOffice.CRM.Documents.SoArc2.New(SuperOffice.CRM.IConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Documents.SoArc2))
-  name.vb: New(IConfiguration, ILogger(Of SoArc2))
+  nameWithType.vb: SoArc2.New(IConfiguration, IConfiguration, ILogger(Of SoArc2))
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2.New(SuperOffice.CRM.IConfiguration, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Documents.SoArc2))
+  name.vb: New(IConfiguration, IConfiguration, ILogger(Of SoArc2))
 - uid: SuperOffice.CRM.Documents.SoArc2.GetPluginCapabilities
   commentId: M:SuperOffice.CRM.Documents.SoArc2.GetPluginCapabilities
   id: GetPluginCapabilities
@@ -2595,7 +2597,7 @@ references:
 - uid: SuperOffice.CRM.Documents.SoArc2.#ctor*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Documents.SoArc2.html#SuperOffice_CRM_Documents_SoArc2__ctor_SuperOffice_CRM_IConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Documents_SoArc2__
+  href: SuperOffice.CRM.Documents.SoArc2.html#SuperOffice_CRM_Documents_SoArc2__ctor_SuperOffice_CRM_IConfiguration_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Documents_SoArc2__
   name: SoArc2
   nameWithType: SoArc2.SoArc2
   fullName: SuperOffice.CRM.Documents.SoArc2.SoArc2
@@ -2610,6 +2612,14 @@ references:
   name: IConfiguration
   nameWithType: IConfiguration
   fullName: SuperOffice.CRM.IConfiguration
+- uid: Microsoft.Extensions.Configuration.IConfiguration
+  commentId: T:Microsoft.Extensions.Configuration.IConfiguration
+  parent: Microsoft.Extensions.Configuration
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
 - uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2}
   commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.SoArc2}
   parent: Microsoft.Extensions.Logging
@@ -2672,6 +2682,43 @@ references:
     name: CRM
     isExternal: true
     href: SuperOffice.CRM.html
+- uid: Microsoft.Extensions.Configuration
+  commentId: N:Microsoft.Extensions.Configuration
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Configuration
+  nameWithType: Microsoft.Extensions.Configuration
+  fullName: Microsoft.Extensions.Configuration
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Configuration
+    name: Configuration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Configuration
+    name: Configuration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration
 - uid: Microsoft.Extensions.Logging.ILogger`1
   commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true

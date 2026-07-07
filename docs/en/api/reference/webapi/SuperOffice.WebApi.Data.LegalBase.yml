@@ -134,7 +134,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Tooltip for this consent source
+  summary: Tooltip for this legal base
   example: []
   syntax:
     content: public virtual string Tooltip { get; set; }
@@ -157,7 +157,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Rank of this consent source
+  summary: Rank of this legal base
   example: []
   syntax:
     content: public virtual short Rank { get; set; }

@@ -65,6 +65,7 @@ items:
   - SuperOffice.WebApi.Agents.ChatAgent
   - SuperOffice.WebApi.Agents.ConfigurationAgent
   - SuperOffice.WebApi.Agents.ContactAgent
+  - SuperOffice.WebApi.Agents.CustomObjectAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
   - SuperOffice.WebApi.Agents.DashboardAgent
@@ -86,6 +87,7 @@ items:
   - SuperOffice.WebApi.Agents.MarketingAgent
   - SuperOffice.WebApi.Agents.MessagingAgent
   - SuperOffice.WebApi.Agents.NavigatorAgent
+  - SuperOffice.WebApi.Agents.NewsFeedAgent
   - SuperOffice.WebApi.Agents.NumberAllocationAgent
   - SuperOffice.WebApi.Agents.PersonAgent
   - SuperOffice.WebApi.Agents.PhoneListAgent

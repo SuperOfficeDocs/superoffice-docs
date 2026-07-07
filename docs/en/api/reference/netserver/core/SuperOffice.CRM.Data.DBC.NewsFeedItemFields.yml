@@ -1,0 +1,780 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  id: DBC.NewsFeedItemFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ApplicationId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ContactId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ExpiresAt
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromCategoryName
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromName
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ImageLink
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.NewsFeedItemId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PersonId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PreviewHint
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Priority
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ProjectId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Registered
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SaleId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SourceLink
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Status
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Summary
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Title
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Updated
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.NewsFeedItemFields
+  nameWithType: DBC.NewsFeedItemFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for NewsFeedItem, Contains news feed items - published to one or more users, with one or more language descriptions
+  example: []
+  syntax:
+    content: public static class DBC.NewsFeedItemFields
+    content.vb: Public Module DBC.NewsFeedItemFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.NewsFeedItemId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.NewsFeedItemId
+  id: NewsFeedItemId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemId
+  nameWithType: DBC.NewsFeedItemFields.NewsFeedItemId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.NewsFeedItemId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.NewsFeedItemId: Primary key'
+  example: []
+  syntax:
+    content: public const string NewsFeedItemId = "newsfeeditem_id"
+    return:
+      type: System.String
+    content.vb: Public Const NewsFeedItemId As String = "newsfeeditem_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Title
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: DBC.NewsFeedItemFields.Title
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Title
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "NewsFeedItem.Title: Short, descriptive headline. Plain text title. Multi-language string supported: 'US:\"english\";NO:\"norsk\"'."
+  example: []
+  syntax:
+    content: public const string Title = "Title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "Title"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Summary
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Summary
+  id: Summary
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: DBC.NewsFeedItemFields.Summary
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Summary
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "NewsFeedItem.Summary: Short, descriptive summary. Plain text summary. Multi-language string supported: 'US:\"english\";NO:\"norsk\"'."
+  example: []
+  syntax:
+    content: public const string Summary = "Summary"
+    return:
+      type: System.String
+    content.vb: Public Const Summary As String = "Summary"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ImageLink
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ImageLink
+  id: ImageLink
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: ImageLink
+  nameWithType: DBC.NewsFeedItemFields.ImageLink
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ImageLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.ImageLink: URL Link to an image associated with the news item.'
+  example: []
+  syntax:
+    content: public const string ImageLink = "ImageLink"
+    return:
+      type: System.String
+    content.vb: Public Const ImageLink As String = "ImageLink"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SourceLink
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SourceLink
+  id: SourceLink
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: SourceLink
+  nameWithType: DBC.NewsFeedItemFields.SourceLink
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SourceLink
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.SourceLink: URL Link to the source of the news item, or an SOProtocol link to a SuperOffice item'
+  example: []
+  syntax:
+    content: public const string SourceLink = "SourceLink"
+    return:
+      type: System.String
+    content.vb: Public Const SourceLink As String = "SourceLink"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PreviewHint
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PreviewHint
+  id: PreviewHint
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: PreviewHint
+  nameWithType: DBC.NewsFeedItemFields.PreviewHint
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PreviewHint
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.PreviewHint: Preview hint for the news item. e.g. `{contact_id=123}`'
+  example: []
+  syntax:
+    content: public const string PreviewHint = "PreviewHint"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewHint As String = "PreviewHint"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromName
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromName
+  id: FromName
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: DBC.NewsFeedItemFields.FromName
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.FromName: Name of the instance that published this item. e.g. `Pete the prospector`'
+  example: []
+  syntax:
+    content: public const string FromName = "FromName"
+    return:
+      type: System.String
+    content.vb: Public Const FromName As String = "FromName"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromCategoryName
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromCategoryName
+  id: FromCategoryName
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: FromCategoryName
+  nameWithType: DBC.NewsFeedItemFields.FromCategoryName
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.FromCategoryName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.FromCategoryName: Type of the instance that published this item. e.g. `Prospector Agent`'
+  example: []
+  syntax:
+    content: public const string FromCategoryName = "FromCategoryName"
+    return:
+      type: System.String
+    content.vb: Public Const FromCategoryName As String = "FromCategoryName"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Priority
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DBC.NewsFeedItemFields.Priority
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Priority
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.Priority: Importance of the news item. Low to High. Higher priority items may be shown more prominently in the feed.'
+  example: []
+  syntax:
+    content: public const string Priority = "Priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "Priority"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ExpiresAt
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ExpiresAt
+  id: ExpiresAt
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: ExpiresAt
+  nameWithType: DBC.NewsFeedItemFields.ExpiresAt
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ExpiresAt
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.ExpiresAt: When the news item expires and should no longer be shown in feeds (UTC)'
+  example: []
+  syntax:
+    content: public const string ExpiresAt = "ExpiresAt"
+    return:
+      type: System.String
+    content.vb: Public Const ExpiresAt As String = "ExpiresAt"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.NewsFeedItemFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Status
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.Status: Indicates if the item is being handled by a CTA. (normal, processing, processed)'
+  example: []
+  syntax:
+    content: public const string Status = "Status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "Status"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.NewsFeedItemFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ContactId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.ContactId: Related contact id - 0 if not related to a contact'
+  example: []
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.NewsFeedItemFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.PersonId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.PersonId: Related person id - 0 if not related to a person'
+  example: []
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ProjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: DBC.NewsFeedItemFields.ProjectId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ProjectId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.ProjectId: Related project id - 0 if not related to a project'
+  example: []
+  syntax:
+    content: public const string ProjectId = "project_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectId As String = "project_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SaleId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: DBC.NewsFeedItemFields.SaleId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.SaleId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.SaleId: Related sale id - 0 if not related to a sale'
+  example: []
+  syntax:
+    content: public const string SaleId = "sale_id"
+    return:
+      type: System.String
+    content.vb: Public Const SaleId As String = "sale_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ApplicationId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ApplicationId
+  id: ApplicationId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: ApplicationId
+  nameWithType: DBC.NewsFeedItemFields.ApplicationId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.ApplicationId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.ApplicationId: The id of the application that registered this news item. Used to resolve where any CTA should be posted when clicked.'
+  example: []
+  syntax:
+    content: public const string ApplicationId = "ApplicationId"
+    return:
+      type: System.String
+    content.vb: Public Const ApplicationId As String = "ApplicationId"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.NewsFeedItemFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.NewsFeedItemFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.NewsFeedItemFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.NewsFeedItemFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.NewsFeedItemFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

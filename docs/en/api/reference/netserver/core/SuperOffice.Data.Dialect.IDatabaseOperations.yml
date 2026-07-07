@@ -114,10 +114,6 @@ items:
     It is also <b>not logged</b> in the superoffice traveltransactionlog, so it is not replicated, and
 
     should generally not be used on tables that are subject to replication.
-  remarks: >-
-    On Oracle, it requires the DROP ANY TABLE privilege. On DB/2 DELETE, CONTROL and DATACCESS are required.
-
-    Any DELETE triggers are generally <b>not</b> executed, though this might vary with database and access.
   example: []
   syntax:
     content: Task<int> TruncateTableAsync(SoTable table, TruncateOptions options = TruncateOptions.DeallocateStorage, bool resetSequence = false, CancellationToken cancellationToken = default)
@@ -184,11 +180,7 @@ items:
 
     The classes that actually implement Bulk Copy have the same syntax, more or less, but no common inheritance. <br />
 
-    http://docs.oracle.com/html/E10927_01/OracleBulkCopyClass.htm <br />
-
     http://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlbulkcopy.aspx <br />
-
-    http://dcx.sybase.com/1201/en/dbprogramming/programming-api-sabulkcopy-cla.html <br />
   example: []
   syntax:
     content: Task<long> ImportTableAsync(SoTable table, IAsyncEnumerable<object[]> rows, List<int> actualPrimaryKeys = null, CancellationToken cancellationToken = default)

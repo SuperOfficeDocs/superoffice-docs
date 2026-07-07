@@ -71,9 +71,13 @@ items:
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
   - SuperOffice.CRM.ArchiveLists.LegalBaseExtender
+  - SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  - SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender
   - SuperOffice.CRM.ArchiveLists.ModuleLicenceExtenderBase
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
   - SuperOffice.CRM.ArchiveLists.NumbersExtenderBase
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase

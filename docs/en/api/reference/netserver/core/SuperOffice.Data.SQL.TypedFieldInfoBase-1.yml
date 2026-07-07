@@ -75,6 +75,8 @@ items:
   - SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
   - SuperOffice.Data.SQL.CrmActorTypeFieldInfo
+  - SuperOffice.Data.SQL.CtaFlavorFieldInfo
+  - SuperOffice.Data.SQL.CtaTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
   - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
@@ -119,6 +121,7 @@ items:
   - SuperOffice.Data.SQL.MeteringStatusFieldInfo
   - SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
   - SuperOffice.Data.SQL.NavigationFieldInfo
+  - SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
   - SuperOffice.Data.SQL.NotificationPlatformFieldInfo
   - SuperOffice.Data.SQL.PhoneTypeFieldInfo
   - SuperOffice.Data.SQL.PrefDescAccessFlagsFieldInfo
@@ -210,6 +213,7 @@ items:
   - SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
   - SuperOffice.Data.SQL.FieldInfo.GetHashCode
   - SuperOffice.Data.SQL.FieldInfo.GetMainField
+  - SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
   - SuperOffice.Data.SQL.FieldInfo.Parent
   - SuperOffice.Data.SQL.FieldInfo.Name
   - SuperOffice.Data.SQL.FieldInfo.DbName
@@ -1128,6 +1132,28 @@ references:
     name: GetMainField
     isExternal: true
     href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  parent: SuperOffice.Data.SQL.FieldInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: FieldInfo.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
   - name: (
   - name: )
 - uid: SuperOffice.Data.SQL.FieldInfo.Parent

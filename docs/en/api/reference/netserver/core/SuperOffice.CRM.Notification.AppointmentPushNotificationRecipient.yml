@@ -1,0 +1,956 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  commentId: T:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  id: AppointmentPushNotificationRecipient
+  parent: SuperOffice.CRM.Notification
+  children:
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.#ctor
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPushNotificationRecipient
+  nameWithType: AppointmentPushNotificationRecipient
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: >-
+    Snapshot of a single push notification recipient, captured from the appointment matrix while
+
+    its rows are still valid. Holds only primitive values so it can safely outlive the request.
+  example: []
+  syntax:
+    content: public sealed class AppointmentPushNotificationRecipient
+    content.vb: Public NotInheritable Class AppointmentPushNotificationRecipient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  extensionMethods:
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.#ctor
+  commentId: M:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPushNotificationRecipient()
+  nameWithType: AppointmentPushNotificationRecipient.AppointmentPushNotificationRecipient()
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentPushNotificationRecipient()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public AppointmentPushNotificationRecipient()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.#ctor*
+  nameWithType.vb: AppointmentPushNotificationRecipient.New()
+  fullName.vb: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type
+  commentId: P:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type
+  id: Type
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: AppointmentPushNotificationRecipient.Type
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: The kind of appointment change to notify about.
+  example: []
+  syntax:
+    content: public NotificationEventType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.NotificationEventType
+    content.vb: Public Property Type As NotificationEventType
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type*
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId
+  commentId: P:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AppointmentPushNotificationRecipient.AppointmentId
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: The participant's own appointment row id (used as the message record/deep-link).
+  example: []
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId*
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate
+  commentId: P:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate
+  id: ActiveDate
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  langs:
+  - csharp
+  - vb
+  name: ActiveDate
+  nameWithType: AppointmentPushNotificationRecipient.ActiveDate
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: The active date of the participant's appointment row.
+  example: []
+  syntax:
+    content: public DateTime ActiveDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ActiveDate As Date
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate*
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId
+  commentId: P:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: AppointmentPushNotificationRecipient.AssociateId
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: The associate to notify.
+  example: []
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId*
+references:
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Notification
+    name: Notification
+    isExternal: true
+    href: SuperOffice.CRM.Notification.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Notification
+    name: Notification
+    isExternal: true
+    href: SuperOffice.CRM.Notification.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AppointmentPushNotificationRecipient, To>(AppointmentPushNotificationRecipient)
+  nameWithType: EnumUtil.MapEnums<AppointmentPushNotificationRecipient, To>(AppointmentPushNotificationRecipient)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, To>(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentPushNotificationRecipient, To)(AppointmentPushNotificationRecipient)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, To)(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  name.vb: MapEnums(Of AppointmentPushNotificationRecipient, To)(AppointmentPushNotificationRecipient)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AppointmentPushNotificationRecipient, To>(AppointmentPushNotificationRecipient)
+  nameWithType: Converters.MapEnums<AppointmentPushNotificationRecipient, To>(AppointmentPushNotificationRecipient)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, To>(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  nameWithType.vb: Converters.MapEnums(Of AppointmentPushNotificationRecipient, To)(AppointmentPushNotificationRecipient)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, To)(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  name.vb: MapEnums(Of AppointmentPushNotificationRecipient, To)(AppointmentPushNotificationRecipient)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<AppointmentPushNotificationRecipient>(AppointmentPushNotificationRecipient, AppointmentPushNotificationRecipient)
+  nameWithType: ObjectExtensions.AssignByReflection<AppointmentPushNotificationRecipient>(AppointmentPushNotificationRecipient, AppointmentPushNotificationRecipient)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient>(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentPushNotificationRecipient)(AppointmentPushNotificationRecipient, AppointmentPushNotificationRecipient)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  name.vb: AssignByReflection(Of AppointmentPushNotificationRecipient)(AppointmentPushNotificationRecipient, AppointmentPushNotificationRecipient)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient,SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient,SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<AppointmentPushNotificationRecipient>(AppointmentPushNotificationRecipient)
+  nameWithType: ObjectExtensions.GraphCopy<AppointmentPushNotificationRecipient>(AppointmentPushNotificationRecipient)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient>(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentPushNotificationRecipient)(AppointmentPushNotificationRecipient)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+  name.vb: GraphCopy(Of AppointmentPushNotificationRecipient)(AppointmentPushNotificationRecipient)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    name: AppointmentPushNotificationRecipient
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.#ctor*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html#SuperOffice_CRM_Notification_AppointmentPushNotificationRecipient__ctor
+  name: AppointmentPushNotificationRecipient
+  nameWithType: AppointmentPushNotificationRecipient.AppointmentPushNotificationRecipient
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentPushNotificationRecipient
+  nameWithType.vb: AppointmentPushNotificationRecipient.New
+  fullName.vb: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.New
+  name.vb: New
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html#SuperOffice_CRM_Notification_AppointmentPushNotificationRecipient_Type
+  name: Type
+  nameWithType: AppointmentPushNotificationRecipient.Type
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.Type
+- uid: SuperOffice.Data.NotificationEventType
+  commentId: T:SuperOffice.Data.NotificationEventType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.NotificationEventType.html
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: SuperOffice.Data.NotificationEventType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html#SuperOffice_CRM_Notification_AppointmentPushNotificationRecipient_AppointmentId
+  name: AppointmentId
+  nameWithType: AppointmentPushNotificationRecipient.AppointmentId
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html#SuperOffice_CRM_Notification_AppointmentPushNotificationRecipient_ActiveDate
+  name: ActiveDate
+  nameWithType: AppointmentPushNotificationRecipient.ActiveDate
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.ActiveDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html#SuperOffice_CRM_Notification_AppointmentPushNotificationRecipient_AssociateId
+  name: AssociateId
+  nameWithType: AppointmentPushNotificationRecipient.AssociateId
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.AssociateId

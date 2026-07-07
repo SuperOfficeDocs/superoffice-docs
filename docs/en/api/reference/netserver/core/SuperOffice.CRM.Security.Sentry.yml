@@ -16,7 +16,6 @@ items:
   - SuperOffice.CRM.Security.Sentry.ClearRights
   - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select,SuperOffice.Data.SoCommand)
   - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
-  - SuperOffice.CRM.Security.Sentry.DemandPlugins
   - SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate(System.Int32)
@@ -217,51 +216,6 @@ items:
     return:
       type: SuperOffice.CRM.Security.LookupCollection
     content.vb: Protected _lookups As LookupCollection
-- uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
-  commentId: M:SuperOffice.CRM.Security.Sentry.DemandPlugins
-  id: DemandPlugins
-  parent: SuperOffice.CRM.Security.Sentry
-  langs:
-  - csharp
-  - vb
-  name: DemandPlugins()
-  nameWithType: Sentry.DemandPlugins()
-  fullName: SuperOffice.CRM.Security.Sentry.DemandPlugins()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Security
-  summary: >-
-    Demand that all required sentry plugins are present. See <xref href="SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames" data-throw-if-not-resolved="false"></xref> and <xref href="SuperOffice.CRM.Security.SentryPluginAttribute" data-throw-if-not-resolved="false"></xref> for further details.
-
-    Called by NetServer during user authentication.
-  remarks: >-
-    These user-preferences all mean the same thing:<p></p>
-
-    [section] key = val
-
-    <pre><code class="lang-csharp">[SentryAddonNames] prog.id = prog.id
-
-    [SentryAddonNames] 1 = prog.id
-
-    [SentryAddonNames] foo bar = prog.id</code></pre>
-
-    They all mean that the config file must load a sentry plug-in that declares itself as the "prog.id" plug-in.
-
-    If the plug-in with this prog.id attribute is not loaded according to the principal plug-in configuration, an exception will be thrown.
-
-    <p></p>
-
-    To disable a sentry preference, change its value to 0 or to blank.
-  example: []
-  syntax:
-    content: public static void DemandPlugins()
-    content.vb: Public Shared Sub DemandPlugins()
-  overload: SuperOffice.CRM.Security.Sentry.DemandPlugins*
-  exceptions:
-  - type: SuperOffice.Exceptions.SoSentryException
-    commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: Thrown if there are any sentry plugins missing and Sentry is enabled.
 - uid: SuperOffice.CRM.Security.Sentry.#ctor(SuperOffice.CRM.Security.SentryQueryInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry.#ctor(SuperOffice.CRM.Security.SentryQueryInfo)
   id: '#ctor(SuperOffice.CRM.Security.SentryQueryInfo)'
@@ -2385,54 +2339,6 @@ references:
   name: LookupCollection
   nameWithType: LookupCollection
   fullName: SuperOffice.CRM.Security.LookupCollection
-- uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-  commentId: T:SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-  isExternal: true
-  href: SuperOffice.CRM.UserPreferenceStrings.html
-  name: UserPreferenceStrings.SentryAddonNames
-  nameWithType: UserPreferenceStrings.SentryAddonNames
-  fullName: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-  spec.csharp:
-  - uid: SuperOffice.CRM.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-    name: SentryAddonNames
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.html
-  spec.vb:
-  - uid: SuperOffice.CRM.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-    name: SentryAddonNames
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.html
-- uid: SuperOffice.CRM.Security.SentryPluginAttribute
-  commentId: T:SuperOffice.CRM.Security.SentryPluginAttribute
-  isExternal: true
-  href: SuperOffice.CRM.Security.SentryPluginAttribute.html
-  name: SentryPluginAttribute
-  nameWithType: SentryPluginAttribute
-  fullName: SuperOffice.CRM.Security.SentryPluginAttribute
-- uid: SuperOffice.Exceptions.SoSentryException
-  commentId: T:SuperOffice.Exceptions.SoSentryException
-  isExternal: true
-  href: SuperOffice.Exceptions.SoSentryException.html
-  name: SoSentryException
-  nameWithType: SoSentryException
-  fullName: SuperOffice.Exceptions.SoSentryException
-- uid: SuperOffice.CRM.Security.Sentry.DemandPlugins*
-  commentId: Overload:SuperOffice.CRM.Security.Sentry.DemandPlugins
-  isExternal: true
-  href: SuperOffice.CRM.Security.Sentry.html#SuperOffice_CRM_Security_Sentry_DemandPlugins
-  name: DemandPlugins
-  nameWithType: Sentry.DemandPlugins
-  fullName: SuperOffice.CRM.Security.Sentry.DemandPlugins
 - uid: SuperOffice.CRM.Security.Sentry.#ctor*
   commentId: Overload:SuperOffice.CRM.Security.Sentry.#ctor
   isExternal: true

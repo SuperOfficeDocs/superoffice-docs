@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.SQL.Argument.DataType
   - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.GetMainField
+  - SuperOffice.Data.SQL.Argument.GetReferencedFields
   - SuperOffice.Data.SQL.Argument.GetSubElements
   - SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
@@ -59,6 +60,7 @@ items:
   - SuperOffice.Data.SQL.Aggregation
   - SuperOffice.Data.SQL.ArgumentFunction
   - SuperOffice.Data.SQL.Case
+  - SuperOffice.Data.SQL.Concat
   - SuperOffice.Data.SQL.DatabaseFunctions
   - SuperOffice.Data.SQL.FieldInfo
   - SuperOffice.Data.SQL.MathematicalExpression
@@ -131,6 +133,36 @@ items:
       description: Information about the database field
     content.vb: Public MustOverride Function GetMainField() As FieldInfo
   overload: SuperOffice.Data.SQL.Argument.GetMainField*
+- uid: SuperOffice.Data.SQL.Argument.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Argument.GetReferencedFields
+  id: GetReferencedFields
+  parent: SuperOffice.Data.SQL.Argument
+  langs:
+  - csharp
+  - vb
+  name: GetReferencedFields()
+  nameWithType: Argument.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Argument.GetReferencedFields()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: Enumerate every <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> referenced inside this argument, recursively.
+  remarks: >-
+    Used by Select.GetTableInfos to anchor joins for compound arguments
+
+    (CASE, CONCAT, math, aggregations, function calls) that wrap fields from multiple
+
+    tables. Unlike <xref href="SuperOffice.Data.SQL.Argument.GetMainField" data-throw-if-not-resolved="false"></xref>, which returns at most one representative
+
+    field, this enumerates them all so every referenced table is discovered.
+  example: []
+  syntax:
+    content: public virtual IEnumerable<FieldInfo> GetReferencedFields()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Public Overridable Function GetReferencedFields() As IEnumerable(Of FieldInfo)
+  overload: SuperOffice.Data.SQL.Argument.GetReferencedFields*
 - uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   id: Equal(SuperOffice.Data.SQL.Argument)
@@ -148,7 +180,7 @@ items:
   summary: returns a new instance of the Equal operator, based on the argument provided.
   example: []
   syntax:
-    content: public Equal Equal(Argument argument)
+    content: public virtual Equal Equal(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -156,7 +188,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.Equal
       description: a new instance of the Equal operator, based on the argument provided
-    content.vb: Public Function Equal(argument As Argument) As Equal
+    content.vb: Public Overridable Function Equal(argument As Argument) As Equal
   overload: SuperOffice.Data.SQL.Argument.Equal*
 - uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
@@ -175,7 +207,7 @@ items:
   summary: returns a new instance of the UnEqual operator, based on the argument provided.
   example: []
   syntax:
-    content: public UnEqual UnEqual(Argument argument)
+    content: public virtual UnEqual UnEqual(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -183,7 +215,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.UnEqual
       description: a new instance of the UnEqual operator, based on the argument provided
-    content.vb: Public Function UnEqual(argument As Argument) As UnEqual
+    content.vb: Public Overridable Function UnEqual(argument As Argument) As UnEqual
   overload: SuperOffice.Data.SQL.Argument.UnEqual*
 - uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
@@ -202,7 +234,7 @@ items:
   summary: returns a new instance of the LessThan operator, based on the argument provided.
   example: []
   syntax:
-    content: public LessThan LessThan(Argument argument)
+    content: public virtual LessThan LessThan(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -210,7 +242,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.LessThan
       description: a new instance of the LessThan operator, based on the argument provided
-    content.vb: Public Function LessThan(argument As Argument) As LessThan
+    content.vb: Public Overridable Function LessThan(argument As Argument) As LessThan
   overload: SuperOffice.Data.SQL.Argument.LessThan*
 - uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
@@ -229,7 +261,7 @@ items:
   summary: returns a new instance of the LessThan operator, based on the argument provided.
   example: []
   syntax:
-    content: public LessThanOrEqual LessThanOrEqual(Argument argument)
+    content: public virtual LessThanOrEqual LessThanOrEqual(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -237,7 +269,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.LessThanOrEqual
       description: a new instance of the LessThanOrEqual operator, based on the argument provided
-    content.vb: Public Function LessThanOrEqual(argument As Argument) As LessThanOrEqual
+    content.vb: Public Overridable Function LessThanOrEqual(argument As Argument) As LessThanOrEqual
   overload: SuperOffice.Data.SQL.Argument.LessThanOrEqual*
 - uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
@@ -256,7 +288,7 @@ items:
   summary: returns a new instance of the GreaterThan operator, based on the argument provided.
   example: []
   syntax:
-    content: public GreaterThan GreaterThan(Argument argument)
+    content: public virtual GreaterThan GreaterThan(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -264,7 +296,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.GreaterThan
       description: a new instance of the GreaterThan operator, based on the argument provided
-    content.vb: Public Function GreaterThan(argument As Argument) As GreaterThan
+    content.vb: Public Overridable Function GreaterThan(argument As Argument) As GreaterThan
   overload: SuperOffice.Data.SQL.Argument.GreaterThan*
 - uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
@@ -283,7 +315,7 @@ items:
   summary: returns a new instance of the GreaterThanOrEqual operator, based on the argument provided.
   example: []
   syntax:
-    content: public GreaterThanOrEqual GreaterThanOrEqual(Argument argument)
+    content: public virtual GreaterThanOrEqual GreaterThanOrEqual(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -291,7 +323,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.GreaterThanOrEqual
       description: a new instance of the GreaterThanOrEqual operator, based on the argument provided
-    content.vb: Public Function GreaterThanOrEqual(argument As Argument) As GreaterThanOrEqual
+    content.vb: Public Overridable Function GreaterThanOrEqual(argument As Argument) As GreaterThanOrEqual
   overload: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual*
 - uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
@@ -310,7 +342,7 @@ items:
   summary: returns a new instance of the Like operator, based on the argument provided.
   example: []
   syntax:
-    content: public Like Like(Argument argument)
+    content: public virtual Like Like(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -318,7 +350,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.Like
       description: a new instance of the Like operator, based on the argument provided
-    content.vb: Public Function [Like](argument As Argument) As [Like]
+    content.vb: Public Overridable Function [Like](argument As Argument) As [Like]
   overload: SuperOffice.Data.SQL.Argument.Like*
 - uid: SuperOffice.Data.SQL.Argument.Like(System.String)
   commentId: M:SuperOffice.Data.SQL.Argument.Like(System.String)
@@ -337,14 +369,14 @@ items:
   summary: returns a new instance of the Like operator, based on the argument provided.
   example: []
   syntax:
-    content: public Like Like(string value)
+    content: public virtual Like Like(string value)
     parameters:
     - id: value
       type: System.String
     return:
       type: SuperOffice.Data.SQL.Like
       description: a new instance of the Like operator, based on the argument provided
-    content.vb: Public Function [Like](value As String) As [Like]
+    content.vb: Public Overridable Function [Like](value As String) As [Like]
   overload: SuperOffice.Data.SQL.Argument.Like*
   nameWithType.vb: Argument.Like(String)
   fullName.vb: SuperOffice.Data.SQL.Argument.Like(String)
@@ -366,7 +398,7 @@ items:
   summary: returns a new instance of the NotLike operator, based on the argument provided.
   example: []
   syntax:
-    content: public NotLike NotLike(Argument argument)
+    content: public virtual NotLike NotLike(Argument argument)
     parameters:
     - id: argument
       type: SuperOffice.Data.SQL.Argument
@@ -374,7 +406,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.NotLike
       description: a new instance of the NotLike operator, based on the argument provided
-    content.vb: Public Function NotLike(argument As Argument) As NotLike
+    content.vb: Public Overridable Function NotLike(argument As Argument) As NotLike
   overload: SuperOffice.Data.SQL.Argument.NotLike*
 - uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
@@ -393,7 +425,7 @@ items:
   summary: returns a new instance of the NotBetween operator, based on the arguments provided.
   example: []
   syntax:
-    content: public NotBetween NotBetween(Argument min, Argument max)
+    content: public virtual NotBetween NotBetween(Argument min, Argument max)
     parameters:
     - id: min
       type: SuperOffice.Data.SQL.Argument
@@ -404,7 +436,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.NotBetween
       description: a new instance of the NotBetween operator, based on the argument provided.
-    content.vb: Public Function NotBetween(min As Argument, max As Argument) As NotBetween
+    content.vb: Public Overridable Function NotBetween(min As Argument, max As Argument) As NotBetween
   overload: SuperOffice.Data.SQL.Argument.NotBetween*
 - uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
@@ -423,7 +455,7 @@ items:
   summary: returns a new instance of the Between operator, based on the arguments provided.
   example: []
   syntax:
-    content: public Between Between(Argument min, Argument max)
+    content: public virtual Between Between(Argument min, Argument max)
     parameters:
     - id: min
       type: SuperOffice.Data.SQL.Argument
@@ -434,7 +466,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.Between
       description: a new instance of the Between operator, based on the argument provided.
-    content.vb: Public Function Between(min As Argument, max As Argument) As Between
+    content.vb: Public Overridable Function Between(min As Argument, max As Argument) As Between
   overload: SuperOffice.Data.SQL.Argument.Between*
 - uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
@@ -453,7 +485,7 @@ items:
   summary: returns a new instance of the In operator, based on the argument array provided.
   example: []
   syntax:
-    content: public In In(params Argument[] arg)
+    content: public virtual In In(params Argument[] arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument[]
@@ -461,7 +493,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.In
       description: a new instance of the Between operator, based on the argument array provided.
-    content.vb: Public Function [In](ParamArray arg As Argument()) As [In]
+    content.vb: Public Overridable Function [In](ParamArray arg As Argument()) As [In]
   overload: SuperOffice.Data.SQL.Argument.In*
   nameWithType.vb: Argument.In(ParamArray Argument())
   fullName.vb: SuperOffice.Data.SQL.Argument.In(ParamArray SuperOffice.Data.SQL.Argument())
@@ -483,7 +515,7 @@ items:
   summary: returns a new instance of the <xref href="SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument%5b%5d)" data-throw-if-not-resolved="false"></xref> operator, based on the argument array provided.
   example: []
   syntax:
-    content: public HasAny HasAny(params Argument[] arg)
+    content: public virtual HasAny HasAny(params Argument[] arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument[]
@@ -491,7 +523,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.HasAny
       description: a new instance of the Between operator, based on the argument array provided.
-    content.vb: Public Function HasAny(ParamArray arg As Argument()) As HasAny
+    content.vb: Public Overridable Function HasAny(ParamArray arg As Argument()) As HasAny
   overload: SuperOffice.Data.SQL.Argument.HasAny*
   nameWithType.vb: Argument.HasAny(ParamArray Argument())
   fullName.vb: SuperOffice.Data.SQL.Argument.HasAny(ParamArray SuperOffice.Data.SQL.Argument())
@@ -513,7 +545,7 @@ items:
   summary: returns a new instance of the <xref href="SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument%5b%5d)" data-throw-if-not-resolved="false"></xref> operator, based on the argument array provided.
   example: []
   syntax:
-    content: public HasAll HasAll(params Argument[] arg)
+    content: public virtual HasAll HasAll(params Argument[] arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument[]
@@ -521,7 +553,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.HasAll
       description: a new instance of the Between operator, based on the argument array provided.
-    content.vb: Public Function HasAll(ParamArray arg As Argument()) As HasAll
+    content.vb: Public Overridable Function HasAll(ParamArray arg As Argument()) As HasAll
   overload: SuperOffice.Data.SQL.Argument.HasAll*
   nameWithType.vb: Argument.HasAll(ParamArray Argument())
   fullName.vb: SuperOffice.Data.SQL.Argument.HasAll(ParamArray SuperOffice.Data.SQL.Argument())
@@ -543,7 +575,7 @@ items:
   summary: returns a new instance of the <xref href="SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument%5b%5d)" data-throw-if-not-resolved="false"></xref> operator, based on the argument array provided.
   example: []
   syntax:
-    content: public MissingAny MissingAny(params Argument[] arg)
+    content: public virtual MissingAny MissingAny(params Argument[] arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument[]
@@ -551,7 +583,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.MissingAny
       description: a new instance of the Between operator, based on the argument array provided.
-    content.vb: Public Function MissingAny(ParamArray arg As Argument()) As MissingAny
+    content.vb: Public Overridable Function MissingAny(ParamArray arg As Argument()) As MissingAny
   overload: SuperOffice.Data.SQL.Argument.MissingAny*
   nameWithType.vb: Argument.MissingAny(ParamArray Argument())
   fullName.vb: SuperOffice.Data.SQL.Argument.MissingAny(ParamArray SuperOffice.Data.SQL.Argument())
@@ -573,7 +605,7 @@ items:
   summary: returns a new instance of the <xref href="SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument%5b%5d)" data-throw-if-not-resolved="false"></xref> operator, based on the argument array provided.
   example: []
   syntax:
-    content: public MissingAll MissingAll(params Argument[] arg)
+    content: public virtual MissingAll MissingAll(params Argument[] arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument[]
@@ -581,7 +613,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.MissingAll
       description: a new instance of the Between operator, based on the argument array provided.
-    content.vb: Public Function MissingAll(ParamArray arg As Argument()) As MissingAll
+    content.vb: Public Overridable Function MissingAll(ParamArray arg As Argument()) As MissingAll
   overload: SuperOffice.Data.SQL.Argument.MissingAll*
   nameWithType.vb: Argument.MissingAll(ParamArray Argument())
   fullName.vb: SuperOffice.Data.SQL.Argument.MissingAll(ParamArray SuperOffice.Data.SQL.Argument())
@@ -603,11 +635,11 @@ items:
   summary: returns a new instance of the IsNull operator, that determines whether this instance is null.
   example: []
   syntax:
-    content: public IsNull IsNull()
+    content: public virtual IsNull IsNull()
     return:
       type: SuperOffice.Data.SQL.IsNull
       description: a new instance of the IsNull operator.
-    content.vb: Public Function IsNull() As IsNull
+    content.vb: Public Overridable Function IsNull() As IsNull
   overload: SuperOffice.Data.SQL.Argument.IsNull*
 - uid: SuperOffice.Data.SQL.Argument.IsNotNull
   commentId: M:SuperOffice.Data.SQL.Argument.IsNotNull
@@ -626,11 +658,11 @@ items:
   summary: returns a new instance of the IsNotNull operator, that determines whether this instance is not null.
   example: []
   syntax:
-    content: public IsNotNull IsNotNull()
+    content: public virtual IsNotNull IsNotNull()
     return:
       type: SuperOffice.Data.SQL.IsNotNull
       description: a new instance of the IsNotNull operator.
-    content.vb: Public Function IsNotNull() As IsNotNull
+    content.vb: Public Overridable Function IsNotNull() As IsNotNull
   overload: SuperOffice.Data.SQL.Argument.IsNotNull*
 - uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
@@ -649,7 +681,7 @@ items:
   summary: returns a new instance of the NotIn operator, based on the argument array provided.
   example: []
   syntax:
-    content: public NotIn NotIn(params Argument[] arg)
+    content: public virtual NotIn NotIn(params Argument[] arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument[]
@@ -657,7 +689,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.NotIn
       description: a new instance of the NotIn operator, based on the argument array provided.
-    content.vb: Public Function NotIn(ParamArray arg As Argument()) As NotIn
+    content.vb: Public Overridable Function NotIn(ParamArray arg As Argument()) As NotIn
   overload: SuperOffice.Data.SQL.Argument.NotIn*
   nameWithType.vb: Argument.NotIn(ParamArray Argument())
   fullName.vb: SuperOffice.Data.SQL.Argument.NotIn(ParamArray SuperOffice.Data.SQL.Argument())
@@ -679,7 +711,7 @@ items:
   summary: returns a new instance of the HasFlag operator, based on the argument provided.
   example: []
   syntax:
-    content: public HasFlag HasFlag(Argument arg)
+    content: public virtual HasFlag HasFlag(Argument arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument
@@ -687,7 +719,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.HasFlag
       description: a new instance of the HasFlag operator, based on the argument provided.
-    content.vb: Public Function HasFlag(arg As Argument) As HasFlag
+    content.vb: Public Overridable Function HasFlag(arg As Argument) As HasFlag
   overload: SuperOffice.Data.SQL.Argument.HasFlag*
 - uid: SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
@@ -706,7 +738,7 @@ items:
   summary: returns a new instance of the HasNoFlag operator, based on the argument provided.
   example: []
   syntax:
-    content: public HasNoFlag HasNoFlag(Argument arg)
+    content: public virtual HasNoFlag HasNoFlag(Argument arg)
     parameters:
     - id: arg
       type: SuperOffice.Data.SQL.Argument
@@ -714,7 +746,7 @@ items:
     return:
       type: SuperOffice.Data.SQL.HasNoFlag
       description: a new instance of the HasNoFlag operator, based on the argument provided.
-    content.vb: Public Function HasNoFlag(arg As Argument) As HasNoFlag
+    content.vb: Public Overridable Function HasNoFlag(arg As Argument) As HasNoFlag
   overload: SuperOffice.Data.SQL.Argument.HasNoFlag*
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
   commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
@@ -1504,6 +1536,135 @@ references:
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL.Argument.GetMainField
+  commentId: M:SuperOffice.Data.SQL.Argument.GetMainField
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetMainField
+  name: GetMainField()
+  nameWithType: Argument.GetMainField()
+  fullName: SuperOffice.Data.SQL.Argument.GetMainField()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.GetMainField
+    name: GetMainField
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetMainField
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.GetMainField
+    name: GetMainField
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.Argument.GetReferencedFields*
+  commentId: Overload:SuperOffice.Data.SQL.Argument.GetReferencedFields
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetReferencedFields
+  name: GetReferencedFields
+  nameWithType: Argument.GetReferencedFields
+  fullName: SuperOffice.Data.SQL.Argument.GetReferencedFields
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<FieldInfo>
+  nameWithType: IEnumerable<FieldInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: IEnumerable(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: IEnumerable(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.Data.SQL.Argument.Equal*
   commentId: Overload:SuperOffice.Data.SQL.Argument.Equal
   isExternal: true

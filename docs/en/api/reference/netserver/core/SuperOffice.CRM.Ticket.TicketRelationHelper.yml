@@ -12,7 +12,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketParentRelationDataAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationDataAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationDefId(System.Int32,System.Int32,SuperOffice.Data.TicketRelationType,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.InverseRelation(SuperOffice.Data.TicketRelationType)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.IsParentRequiredAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketRelationHelper.UpdateTicketRelationDefIdForTicketRelationAsync(System.Int32)
@@ -135,40 +135,34 @@ items:
   nameWithType.vb: TicketRelationHelper.GetChildTicketIdsToCloseAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetChildTicketIdsToCloseAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetChildTicketIdsToCloseAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
-  id: GetTicketRelationsInfoAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketRelationsInfoAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Ticket.TicketRelationHelper
   langs:
   - csharp
   - vb
-  name: GetTicketRelationsInfoAsync(int, int, int, int, CancellationToken)
-  nameWithType: TicketRelationHelper.GetTicketRelationsInfoAsync(int, int, int, int, CancellationToken)
-  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(int, int, int, int, System.Threading.CancellationToken)
+  name: GetTicketRelationsInfoAsync(int, CancellationToken)
+  nameWithType: TicketRelationHelper.GetTicketRelationsInfoAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(int, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static Task<MainTicketInfo> GetTicketRelationsInfoAsync(int ticketId, int relatedLimit, int parentLimit, int childLimit, CancellationToken cancellationToken)
+    content: public static Task<MainTicketInfo> GetTicketRelationsInfoAsync(int ticketId, CancellationToken cancellationToken)
     parameters:
     - id: ticketId
-      type: System.Int32
-    - id: relatedLimit
-      type: System.Int32
-    - id: parentLimit
-      type: System.Int32
-    - id: childLimit
       type: System.Int32
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Ticket.MainTicketInfo}
-    content.vb: Public Shared Function GetTicketRelationsInfoAsync(ticketId As Integer, relatedLimit As Integer, parentLimit As Integer, childLimit As Integer, cancellationToken As CancellationToken) As Task(Of MainTicketInfo)
+    content.vb: Public Shared Function GetTicketRelationsInfoAsync(ticketId As Integer, cancellationToken As CancellationToken) As Task(Of MainTicketInfo)
   overload: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync*
-  nameWithType.vb: TicketRelationHelper.GetTicketRelationsInfoAsync(Integer, Integer, Integer, Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(Integer, Integer, Integer, Integer, System.Threading.CancellationToken)
-  name.vb: GetTicketRelationsInfoAsync(Integer, Integer, Integer, Integer, CancellationToken)
+  nameWithType.vb: TicketRelationHelper.GetTicketRelationsInfoAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTicketRelationsInfoAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Ticket.TicketRelationHelper.UpdateTicketRelationDefIdForTicketRelationAsync(System.Int32)
   commentId: M:SuperOffice.CRM.Ticket.TicketRelationHelper.UpdateTicketRelationDefIdForTicketRelationAsync(System.Int32)
   id: UpdateTicketRelationDefIdForTicketRelationAsync(System.Int32)
@@ -979,7 +973,7 @@ references:
 - uid: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_GetTicketRelationsInfoAsync_System_Int32_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Ticket.TicketRelationHelper.html#SuperOffice_CRM_Ticket_TicketRelationHelper_GetTicketRelationsInfoAsync_System_Int32_System_Threading_CancellationToken_
   name: GetTicketRelationsInfoAsync
   nameWithType: TicketRelationHelper.GetTicketRelationsInfoAsync
   fullName: SuperOffice.CRM.Ticket.TicketRelationHelper.GetTicketRelationsInfoAsync

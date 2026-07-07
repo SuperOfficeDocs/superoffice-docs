@@ -265,6 +265,18 @@ items:
     name: CurrencyEntity
   - uid: SuperOffice.CRM.Services.CustomCommand
     name: CustomCommand
+  - uid: SuperOffice.CRM.Services.CustomObject
+    name: CustomObject
+  - uid: SuperOffice.CRM.Services.CustomObjectAgent
+    name: CustomObjectAgent
+  - uid: SuperOffice.CRM.Services.CustomObjectDefinition
+    name: CustomObjectDefinition
+  - uid: SuperOffice.CRM.Services.CustomObjectField
+    name: CustomObjectField
+  - uid: SuperOffice.CRM.Services.CustomObjectMetadata
+    name: CustomObjectMetadata
+  - uid: SuperOffice.CRM.Services.CustomObjectRelation
+    name: CustomObjectRelation
   - uid: SuperOffice.CRM.Services.CustomerCenterConfig
     name: CustomerCenterConfig
   - uid: SuperOffice.CRM.Services.CustomerLanguage
@@ -533,6 +545,8 @@ items:
     name: IContactAgent
   - uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
     name: IContactPersonRelationEntityCarrier
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent
+    name: ICustomObjectAgent
   - uid: SuperOffice.CRM.Services.ICustomerServiceAgent
     name: ICustomerServiceAgent
   - uid: SuperOffice.CRM.Services.IDashAgent
@@ -577,6 +591,8 @@ items:
     name: IMarketingAgent
   - uid: SuperOffice.CRM.Services.IMessagingAgent
     name: IMessagingAgent
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent
+    name: INewsFeedAgent
   - uid: SuperOffice.CRM.Services.INumberAllocationAgent
     name: INumberAllocationAgent
   - uid: SuperOffice.CRM.Services.IPersonAgent
@@ -709,6 +725,12 @@ items:
     name: MultiAlarmData
   - uid: SuperOffice.CRM.Services.NaturalLanguageSearch
     name: NaturalLanguageSearch
+  - uid: SuperOffice.CRM.Services.NewsFeedAgent
+    name: NewsFeedAgent
+  - uid: SuperOffice.CRM.Services.NewsFeedCTA
+    name: NewsFeedCTA
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
   - uid: SuperOffice.CRM.Services.NextAvailableTime
     name: NextAvailableTime
   - uid: SuperOffice.CRM.Services.NotificationEvent

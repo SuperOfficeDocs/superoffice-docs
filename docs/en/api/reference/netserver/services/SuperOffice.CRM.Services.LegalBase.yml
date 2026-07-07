@@ -45,11 +45,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")]
 
       public class LegalBase : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")>
 
       Public Class LegalBase Inherits Carrier
   seealso:
@@ -64,7 +64,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.2.0.0
 - uid: SuperOffice.CRM.Services.LegalBase.#ctor
   commentId: M:SuperOffice.CRM.Services.LegalBase.#ctor
   id: '#ctor'
@@ -224,7 +224,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip for this consent source
+  summary: Tooltip for this legal base
   example: []
   syntax:
     content: >-
@@ -257,7 +257,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank of this consent source
+  summary: Rank of this legal base
   example: []
   syntax:
     content: >-

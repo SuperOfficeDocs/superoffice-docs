@@ -45,8 +45,14 @@ items:
   summary: Summary description for SoLogger.
   example: []
   syntax:
-    content: public sealed class SoLogger
-    content.vb: Public NotInheritable Class SoLogger
+    content: >-
+      [Obsolete("Use Microsoft.Extensions.Logging.ILogger instead")]
+
+      public sealed class SoLogger
+    content.vb: >-
+      <Obsolete("Use Microsoft.Extensions.Logging.ILogger instead")>
+
+      Public NotInheritable Class SoLogger
   inheritance:
   - System.Object
   inheritedMembers:
@@ -59,6 +65,12 @@ items:
   extensionMethods:
   - SuperOffice.Diagnostics.SoLogger.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.SoLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Microsoft.Extensions.Logging.ILogger instead
 - uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
   commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
   id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory)'

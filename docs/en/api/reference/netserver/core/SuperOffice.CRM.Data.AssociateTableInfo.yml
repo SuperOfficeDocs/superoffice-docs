@@ -328,6 +328,9 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MrMrsHeadingLink_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MrMrs_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_MrMrs_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Notify_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_UpdatedAssociateId
@@ -847,12 +850,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -17197,6 +17198,75 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TimeKeepingTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TimeKeeping_UpdatedAssociateId As TargetedLeftOuterJoin(Of TimeKeepingTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  id: LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to NewsFeedItem.<xref href="SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemTableInfo> LeftOuterJoin_NewsFeedItem_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItem_RegisteredAssociateId As TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  id: LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to NewsFeedItem.<xref href="SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemTableInfo> LeftOuterJoin_NewsFeedItem_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItem_UpdatedAssociateId As TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  id: LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to NewsFeedItemRecipient.<xref href="SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.AssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemRecipientTableInfo> LeftOuterJoin_NewsFeedItemRecipient_AssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItemRecipient_AssociateId As TargetedLeftOuterJoin(Of NewsFeedItemRecipientTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   id: LeftOuterJoin_OnlineApp_RegisteredAssociateId
@@ -19579,14 +19649,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -19619,14 +19681,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -41222,6 +41276,118 @@ references:
   name: LeftOuterJoin_TimeKeeping_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: NewsFeedItemTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  name: LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: NewsFeedItemTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  name: LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItem_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemRecipientTableInfo_AssociateId
+  name: AssociateId
+  nameWithType: NewsFeedItemRecipientTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.AssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  name: LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_NewsFeedItemRecipient_AssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemRecipientTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemRecipientTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemRecipientTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemRecipientTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+    name: NewsFeedItemRecipientTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+    name: NewsFeedItemRecipientTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.OnlineAppTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.OnlineAppTableInfo.RegisteredAssociateId
   isExternal: true

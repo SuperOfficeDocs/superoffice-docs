@@ -5,7 +5,6 @@ items:
   id: ConfigFile.WebApi
   parent: SuperOffice.Configuration
   children:
-  - SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
   - SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
   - SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
   - SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
@@ -82,29 +81,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property AuthorizeWithTicket As Boolean
   overload: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket*
-- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
-  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
-  id: AuthorizeWithImplicit
-  parent: SuperOffice.Configuration.ConfigFile.WebApi
-  langs:
-  - csharp
-  - vb
-  name: AuthorizeWithImplicit
-  nameWithType: ConfigFile.WebApi.AuthorizeWithImplicit
-  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Allow WebAPI to authorize with implicit identity from IIS. Default true.
-  example: []
-  syntax:
-    content: public static bool AuthorizeWithImplicit { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Property AuthorizeWithImplicit As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit*
 - uid: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
   commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
   id: CORSEnable
@@ -464,13 +440,6 @@ references:
   name: AuthorizeWithTicket
   nameWithType: ConfigFile.WebApi.AuthorizeWithTicket
   fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
-- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.WebApi.html#SuperOffice_Configuration_ConfigFile_WebApi_AuthorizeWithImplicit
-  name: AuthorizeWithImplicit
-  nameWithType: ConfigFile.WebApi.AuthorizeWithImplicit
-  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
 - uid: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
   isExternal: true

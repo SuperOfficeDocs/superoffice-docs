@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSlowDispatcher})
   - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests
   - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete(System.Threading.CancellationToken)
   langs:
   - csharp
@@ -102,6 +103,33 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Function WaitForAllToComplete(cancellationToken As CancellationToken) As Task
   overload: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.WaitForAllToComplete*
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests
+  id: ResetWorkerScalingForTests
+  parent: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ResetWorkerScalingForTests()
+  nameWithType: WebhookSlowDispatcher.ResetWorkerScalingForTests()
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Webhooks
+  summary: >-
+    Reset the adaptive worker-scaling counters back to their initial values. These counters
+
+    only ever grow at runtime (by design); on the cached singleton they accumulate across an
+
+    entire test assembly run and make per-test concurrency behaviour depend on execution order.
+
+    <b>Note</b> - test-isolation only; see <xref href="SuperOffice.CRM.Webhooks.WebhookManager.ResetWorkerScalingForTests" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void ResetWorkerScalingForTests()
+    content.vb: Public Sub ResetWorkerScalingForTests()
+  overload: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests*
 - uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
   id: ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{System.ValueTuple{SuperOffice.CRM.Webhooks.ICustomWebhookPlugin,SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload}},System.Threading.CancellationToken)
@@ -1609,6 +1637,34 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.ResetWorkerScalingForTests
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.ResetWorkerScalingForTests
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager_ResetWorkerScalingForTests
+  name: ResetWorkerScalingForTests()
+  nameWithType: WebhookManager.ResetWorkerScalingForTests()
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.ResetWorkerScalingForTests()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Webhooks.WebhookManager.ResetWorkerScalingForTests
+    name: ResetWorkerScalingForTests
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager_ResetWorkerScalingForTests
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Webhooks.WebhookManager.ResetWorkerScalingForTests
+    name: ResetWorkerScalingForTests
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager_ResetWorkerScalingForTests
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.html#SuperOffice_CRM_Webhooks_WebhookSlowDispatcher_ResetWorkerScalingForTests
+  name: ResetWorkerScalingForTests
+  nameWithType: WebhookSlowDispatcher.ResetWorkerScalingForTests
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ResetWorkerScalingForTests
 - uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.ProcessItemAsync
   isExternal: true

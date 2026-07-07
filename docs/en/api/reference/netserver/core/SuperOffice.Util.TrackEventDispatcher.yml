@@ -7,6 +7,9 @@ items:
   children:
   - SuperOffice.Util.TrackEventDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEventItem},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventDispatcher})
   - SuperOffice.Util.TrackEventDispatcher.GetInstance
+  - SuperOffice.Util.TrackEventDispatcher.LastEvent
+  - SuperOffice.Util.TrackEventDispatcher.LastEventName
+  - SuperOffice.Util.TrackEventDispatcher.Testing
   - SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String,System.ValueTuple{System.String,System.Object}[])
   - SuperOffice.Util.TrackEventDispatcher.TrackUser(System.String,System.ValueTuple{System.String,System.Object}[])
   - SuperOffice.Util.TrackEventDispatcher.WaitForTrackersToCompleteAsync(System.Threading.CancellationToken)
@@ -183,6 +186,84 @@ items:
   nameWithType.vb: TrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
   fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackUser(String, ParamArray (argName As String, argVal As Object)())
   name.vb: TrackUser(String, ParamArray (argName As String, argVal As Object)())
+- uid: SuperOffice.Util.TrackEventDispatcher.Testing
+  commentId: P:SuperOffice.Util.TrackEventDispatcher.Testing
+  id: Testing
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Testing
+  nameWithType: TrackEventDispatcher.Testing
+  fullName: SuperOffice.Util.TrackEventDispatcher.Testing
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Enables LastEvent and LastEventName properties to be set for testing purposes. Should be set to true in test environments, and false in production to avoid unnecessary overhead.
+  example: []
+  syntax:
+    content: public bool Testing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Testing As Boolean
+  overload: SuperOffice.Util.TrackEventDispatcher.Testing*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.Testing
+- uid: SuperOffice.Util.TrackEventDispatcher.LastEvent
+  commentId: P:SuperOffice.Util.TrackEventDispatcher.LastEvent
+  id: LastEvent
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: LastEvent
+  nameWithType: TrackEventDispatcher.LastEvent
+  fullName: SuperOffice.Util.TrackEventDispatcher.LastEvent
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: >-
+    Return the last event that was tracked as a string.
+
+    Used for testing purposes to verify that events are being tracked correctly.
+  example: []
+  syntax:
+    content: public string LastEvent { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LastEvent As String
+  overload: SuperOffice.Util.TrackEventDispatcher.LastEvent*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.LastEvent
+- uid: SuperOffice.Util.TrackEventDispatcher.LastEventName
+  commentId: P:SuperOffice.Util.TrackEventDispatcher.LastEventName
+  id: LastEventName
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: LastEventName
+  nameWithType: TrackEventDispatcher.LastEventName
+  fullName: SuperOffice.Util.TrackEventDispatcher.LastEventName
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: Return the name of the last event that was tracked. Used for testing purposes to verify that events are being tracked correctly.
+  example: []
+  syntax:
+    content: public string LastEventName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LastEventName As String
+  overload: SuperOffice.Util.TrackEventDispatcher.LastEventName*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.LastEventName
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -1301,3 +1382,59 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.Util.TrackEventDispatcher.Testing*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.Testing
+  isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_Testing
+  name: Testing
+  nameWithType: TrackEventDispatcher.Testing
+  fullName: SuperOffice.Util.TrackEventDispatcher.Testing
+- uid: SuperOffice.Util.ITrackEventDispatcher.Testing
+  commentId: P:SuperOffice.Util.ITrackEventDispatcher.Testing
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_Testing
+  name: Testing
+  nameWithType: ITrackEventDispatcher.Testing
+  fullName: SuperOffice.Util.ITrackEventDispatcher.Testing
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.Util.TrackEventDispatcher.LastEvent*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.LastEvent
+  isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_LastEvent
+  name: LastEvent
+  nameWithType: TrackEventDispatcher.LastEvent
+  fullName: SuperOffice.Util.TrackEventDispatcher.LastEvent
+- uid: SuperOffice.Util.ITrackEventDispatcher.LastEvent
+  commentId: P:SuperOffice.Util.ITrackEventDispatcher.LastEvent
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_LastEvent
+  name: LastEvent
+  nameWithType: ITrackEventDispatcher.LastEvent
+  fullName: SuperOffice.Util.ITrackEventDispatcher.LastEvent
+- uid: SuperOffice.Util.TrackEventDispatcher.LastEventName*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.LastEventName
+  isExternal: true
+  href: SuperOffice.Util.TrackEventDispatcher.html#SuperOffice_Util_TrackEventDispatcher_LastEventName
+  name: LastEventName
+  nameWithType: TrackEventDispatcher.LastEventName
+  fullName: SuperOffice.Util.TrackEventDispatcher.LastEventName
+- uid: SuperOffice.Util.ITrackEventDispatcher.LastEventName
+  commentId: P:SuperOffice.Util.ITrackEventDispatcher.LastEventName
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  href: SuperOffice.Util.ITrackEventDispatcher.html#SuperOffice_Util_ITrackEventDispatcher_LastEventName
+  name: LastEventName
+  nameWithType: ITrackEventDispatcher.LastEventName
+  fullName: SuperOffice.Util.ITrackEventDispatcher.LastEventName

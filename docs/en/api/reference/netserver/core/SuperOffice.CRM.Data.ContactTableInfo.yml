@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_FreeTextIndex_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_InvoiceSum_CompanyId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Invoice_CompanyId
+  - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_OwnerContactLink_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Person_ContactId
@@ -136,12 +137,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -2230,6 +2229,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailItemTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_EmailItem_ContactId As TargetedLeftOuterJoin(Of EmailItemTableInfo)
   overload: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_EmailItem_ContactId*
+- uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+  commentId: P:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+  id: LeftOuterJoin_NewsFeedItem_ContactId
+  parent: SuperOffice.CRM.Data.ContactTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItem_ContactId
+  nameWithType: ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key ContactId on this table, to NewsFeedItem.<xref href="SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemTableInfo> LeftOuterJoin_NewsFeedItem_ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItem_ContactId As TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  overload: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId*
 - uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_TargetAssignmentInfo_ContactId
   commentId: P:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_TargetAssignmentInfo_ContactId
   id: LeftOuterJoin_TargetAssignmentInfo_ContactId
@@ -2565,14 +2587,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -2605,14 +2619,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -5519,6 +5525,55 @@ references:
     name: EmailItemTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.EmailItemTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ContactId
+  name: ContactId
+  nameWithType: NewsFeedItemTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html#SuperOffice_CRM_Data_ContactTableInfo_LeftOuterJoin_NewsFeedItem_ContactId
+  name: LeftOuterJoin_NewsFeedItem_ContactId
+  nameWithType: ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_NewsFeedItem_ContactId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo.ContactId
   commentId: P:SuperOffice.CRM.Data.TargetAssignmentInfoTableInfo.ContactId

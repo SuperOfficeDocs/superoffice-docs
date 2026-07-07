@@ -71,6 +71,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.RequiredPhaseOneFields
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
@@ -749,6 +750,14 @@ references:
   name: _colDaysInStage
   nameWithType: SaleExtenderBase._colDaysInStage
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase__colSaleCycle
+  name: _colSaleCycle
+  nameWithType: SaleExtenderBase._colSaleCycle
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.AcceptRow(SuperOffice.Data.SoDataReader)
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase

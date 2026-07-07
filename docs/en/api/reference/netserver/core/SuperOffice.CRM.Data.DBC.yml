@@ -247,6 +247,10 @@ items:
   - SuperOffice.CRM.Data.DBC.MsFilterMail
   - SuperOffice.CRM.Data.DBC.MsSubstitute
   - SuperOffice.CRM.Data.DBC.MsTrashbin
+  - SuperOffice.CRM.Data.DBC.NewsFeedItem
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemCta
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtml
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemRecipient
   - SuperOffice.CRM.Data.DBC.NoticeFrame
   - SuperOffice.CRM.Data.DBC.Notify
   - SuperOffice.CRM.Data.DBC.OnlineApp
@@ -10748,6 +10752,90 @@ items:
     return:
       type: System.String
     content.vb: Public Const TimeKeeping As String = "time_keeping"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItem
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItem
+  id: NewsFeedItem
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItem
+  nameWithType: DBC.NewsFeedItem
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItem
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItem: Contains news feed items - published to one or more users, with one or more language descriptions'
+  example: []
+  syntax:
+    content: public const string NewsFeedItem = "NewsFeedItem"
+    return:
+      type: System.String
+    content.vb: Public Const NewsFeedItem As String = "NewsFeedItem"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtml
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemHtml
+  id: NewsFeedItemHtml
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemHtml
+  nameWithType: DBC.NewsFeedItemHtml
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtml
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemHtml: Detailed description of the news item, in a specific language.'
+  example: []
+  syntax:
+    content: public const string NewsFeedItemHtml = "NewsFeedItemHtml"
+    return:
+      type: System.String
+    content.vb: Public Const NewsFeedItemHtml As String = "NewsFeedItemHtml"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCta
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemCta
+  id: NewsFeedItemCta
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemCta
+  nameWithType: DBC.NewsFeedItemCta
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemCta
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemCta: List of Calls-to-Action buttons to attach to a given news item. One item may have multiple CTAs (e.g. Approve + Reject).'
+  example: []
+  syntax:
+    content: public const string NewsFeedItemCta = "NewsFeedItemCta"
+    return:
+      type: System.String
+    content.vb: Public Const NewsFeedItemCta As String = "NewsFeedItemCta"
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipient
+  commentId: F:SuperOffice.CRM.Data.DBC.NewsFeedItemRecipient
+  id: NewsFeedItemRecipient
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemRecipient
+  nameWithType: DBC.NewsFeedItemRecipient
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipient
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'NewsFeedItemRecipient: Recipients of the news feed item. One news feed item may be sent to multiple recipients (users).'
+  example: []
+  syntax:
+    content: public const string NewsFeedItemRecipient = "NewsFeedItemRecipient"
+    return:
+      type: System.String
+    content.vb: Public Const NewsFeedItemRecipient As String = "NewsFeedItemRecipient"
 - uid: SuperOffice.CRM.Data.DBC.OnlineApp
   commentId: F:SuperOffice.CRM.Data.DBC.OnlineApp
   id: OnlineApp

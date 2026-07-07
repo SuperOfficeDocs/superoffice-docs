@@ -1,0 +1,724 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.ResourceStringFormat
+  commentId: T:SuperOffice.Globalization.ResourceStringFormat
+  id: ResourceStringFormat
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  - SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  - SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  langs:
+  - csharp
+  - vb
+  name: ResourceStringFormat
+  nameWithType: ResourceStringFormat
+  fullName: SuperOffice.Globalization.ResourceStringFormat
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: Enumeration used to decide the formatting of the resource string
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ResourceStringFormat
+    content.vb: >-
+      <Flags>
+
+      Public Enum ResourceStringFormat
+  extensionMethods:
+  - SuperOffice.Globalization.ResourceStringFormat.EnumUtil.MapEnums``2
+  - SuperOffice.Globalization.ResourceStringFormat.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Globalization.ResourceStringFormat.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Globalization.ResourceStringFormat)
+  - SuperOffice.Globalization.ResourceStringFormat.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  - System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  commentId: F:SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  id: UnFormatted
+  parent: SuperOffice.Globalization.ResourceStringFormat
+  langs:
+  - csharp
+  - vb
+  name: UnFormatted
+  nameWithType: ResourceStringFormat.UnFormatted
+  fullName: SuperOffice.Globalization.ResourceStringFormat.UnFormatted
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: Unformatted string
+  example: []
+  syntax:
+    content: UnFormatted = 0
+    return:
+      type: SuperOffice.Globalization.ResourceStringFormat
+- uid: SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  commentId: F:SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  id: IncludeTrailingColon
+  parent: SuperOffice.Globalization.ResourceStringFormat
+  langs:
+  - csharp
+  - vb
+  name: IncludeTrailingColon
+  nameWithType: ResourceStringFormat.IncludeTrailingColon
+  fullName: SuperOffice.Globalization.ResourceStringFormat.IncludeTrailingColon
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: Semicolon is included at the end
+  example: []
+  syntax:
+    content: IncludeTrailingColon = 1
+    return:
+      type: SuperOffice.Globalization.ResourceStringFormat
+- uid: SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  commentId: F:SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  id: RemoveTrailingColon
+  parent: SuperOffice.Globalization.ResourceStringFormat
+  langs:
+  - csharp
+  - vb
+  name: RemoveTrailingColon
+  nameWithType: ResourceStringFormat.RemoveTrailingColon
+  fullName: SuperOffice.Globalization.ResourceStringFormat.RemoveTrailingColon
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: Semicolon is removed at the end
+  example: []
+  syntax:
+    content: RemoveTrailingColon = 2
+    return:
+      type: SuperOffice.Globalization.ResourceStringFormat
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.Globalization.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Globalization
+    name: Globalization
+    isExternal: true
+    href: SuperOffice.Globalization.html
+- uid: SuperOffice.Globalization.ResourceStringFormat.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ResourceStringFormat, To>(ResourceStringFormat)
+  nameWithType: EnumUtil.MapEnums<ResourceStringFormat, To>(ResourceStringFormat)
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.ResourceStringFormat, To>(SuperOffice.Globalization.ResourceStringFormat)
+  nameWithType.vb: EnumUtil.MapEnums(Of ResourceStringFormat, To)(ResourceStringFormat)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.ResourceStringFormat, To)(SuperOffice.Globalization.ResourceStringFormat)
+  name.vb: MapEnums(Of ResourceStringFormat, To)(ResourceStringFormat)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.ResourceStringFormat)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.ResourceStringFormat)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+- uid: SuperOffice.Globalization.ResourceStringFormat.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ResourceStringFormat, To>(ResourceStringFormat)
+  nameWithType: Converters.MapEnums<ResourceStringFormat, To>(ResourceStringFormat)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.ResourceStringFormat, To>(SuperOffice.Globalization.ResourceStringFormat)
+  nameWithType.vb: Converters.MapEnums(Of ResourceStringFormat, To)(ResourceStringFormat)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.ResourceStringFormat, To)(SuperOffice.Globalization.ResourceStringFormat)
+  name.vb: MapEnums(Of ResourceStringFormat, To)(ResourceStringFormat)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.ResourceStringFormat)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.ResourceStringFormat)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+- uid: SuperOffice.Globalization.ResourceStringFormat.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Globalization.ResourceStringFormat)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ResourceStringFormat>(ResourceStringFormat, ResourceStringFormat)
+  nameWithType: ObjectExtensions.AssignByReflection<ResourceStringFormat>(ResourceStringFormat, ResourceStringFormat)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Globalization.ResourceStringFormat>(SuperOffice.Globalization.ResourceStringFormat, SuperOffice.Globalization.ResourceStringFormat)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ResourceStringFormat)(ResourceStringFormat, ResourceStringFormat)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Globalization.ResourceStringFormat)(SuperOffice.Globalization.ResourceStringFormat, SuperOffice.Globalization.ResourceStringFormat)
+  name.vb: AssignByReflection(Of ResourceStringFormat)(ResourceStringFormat, ResourceStringFormat)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Globalization.ResourceStringFormat,SuperOffice.Globalization.ResourceStringFormat)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Globalization.ResourceStringFormat,SuperOffice.Globalization.ResourceStringFormat)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+- uid: SuperOffice.Globalization.ResourceStringFormat.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ResourceStringFormat>(ResourceStringFormat)
+  nameWithType: ObjectExtensions.GraphCopy<ResourceStringFormat>(ResourceStringFormat)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Globalization.ResourceStringFormat>(SuperOffice.Globalization.ResourceStringFormat)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ResourceStringFormat)(ResourceStringFormat)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Globalization.ResourceStringFormat)(SuperOffice.Globalization.ResourceStringFormat)
+  name.vb: GraphCopy(Of ResourceStringFormat)(ResourceStringFormat)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Globalization.ResourceStringFormat)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Globalization.ResourceStringFormat)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceStringFormat.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  parent: ExtensionMethods.ResourceManagerExt
+  definition: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: ExtensionMethods.ResourceManagerExt
+  commentId: T:ExtensionMethods.ResourceManagerExt
+  parent: ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html
+  name: ResourceManagerExt
+  nameWithType: ResourceManagerExt
+  fullName: ExtensionMethods.ResourceManagerExt
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: ExtensionMethods
+  commentId: N:ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: ExtensionMethods
+- uid: SuperOffice.Globalization.ResourceStringFormat
+  commentId: T:SuperOffice.Globalization.ResourceStringFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  href: SuperOffice.Globalization.ResourceStringFormat.html
+  name: ResourceStringFormat
+  nameWithType: ResourceStringFormat
+  fullName: SuperOffice.Globalization.ResourceStringFormat

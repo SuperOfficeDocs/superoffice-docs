@@ -1558,7 +1558,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: int. Legal base'
+  summary: '.NET type: int. Consent purpose'
   remarks: >-
     Original type in dictionary:  FK.
 

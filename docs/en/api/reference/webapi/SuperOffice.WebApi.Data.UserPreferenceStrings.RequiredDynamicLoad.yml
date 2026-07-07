@@ -18,7 +18,7 @@ items:
   namespace: SuperOffice.WebApi.Data
   summary: 'Required dynamic load:  Add new preference section for NetServer only [RequiredDynamicLoad] name = regexp'
   remarks: >-
-    This mechanism is more general than [SentryAddonNames] - it applies to all dynamic loaded
+    This mechanism applies to all dynamic loaded
 
     assemblies in NetServer.
 

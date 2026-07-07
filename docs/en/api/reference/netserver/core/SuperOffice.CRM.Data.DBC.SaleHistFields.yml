@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SaleHistFields.Registered
   - SuperOffice.CRM.Data.DBC.SaleHistFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.SaleHistFields.ReopenDate
+  - SuperOffice.CRM.Data.DBC.SaleHistFields.SaleCycle
   - SuperOffice.CRM.Data.DBC.SaleHistFields.SaleId
   - SuperOffice.CRM.Data.DBC.SaleHistFields.SaleTypeCatId
   - SuperOffice.CRM.Data.DBC.SaleHistFields.SaleTypeId
@@ -976,6 +977,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const StageWhenClosedId As String = "stage_when_closed_id"
+- uid: SuperOffice.CRM.Data.DBC.SaleHistFields.SaleCycle
+  commentId: F:SuperOffice.CRM.Data.DBC.SaleHistFields.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Data.DBC.SaleHistFields
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: DBC.SaleHistFields.SaleCycle
+  fullName: SuperOffice.CRM.Data.DBC.SaleHistFields.SaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SaleHist.SaleCycle: Snapshot of sale.sale_cycle at the time this history row was written.'
+  example: []
+  syntax:
+    content: public const string SaleCycle = "sale_cycle"
+    return:
+      type: System.String
+    content.vb: Public Const SaleCycle As String = "sale_cycle"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(SuperOffice.CRM.Mail.MailItem[])
   - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
   - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])
   - SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
   - SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
@@ -20,6 +21,7 @@ items:
   - SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
   - SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
   - SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi
   langs:
   - csharp
   - vb
@@ -177,6 +179,50 @@ items:
   nameWithType.vb: SendMailQueueArgument.New(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray MailItem())
   fullName.vb: SuperOffice.CRM.Mail.SendMailQueueArgument.New(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray SuperOffice.CRM.Mail.MailItem())
   name.vb: New(String, String, String, Boolean, String, String, String, Boolean, String, ParamArray MailItem())
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])
+  id: '#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,SuperOffice.CRM.Mail.MailItem[])'
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SendMailQueueArgument(string, string, string, bool, string, string, string, bool, string, bool, params MailItem[])
+  nameWithType: SendMailQueueArgument.SendMailQueueArgument(string, string, string, bool, string, string, string, bool, string, bool, params MailItem[])
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(string, string, string, bool, string, string, string, bool, string, bool, params SuperOffice.CRM.Mail.MailItem[])
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public SendMailQueueArgument(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, bool useGraphApi, params MailItem[] mail)
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: smtpSSL
+      type: System.Boolean
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: imapSSL
+      type: System.Boolean
+    - id: sentFolder
+      type: System.String
+    - id: useGraphApi
+      type: System.Boolean
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public Sub New(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, useGraphApi As Boolean, ParamArray mail As MailItem())
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor*
+  nameWithType.vb: SendMailQueueArgument.New(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray MailItem())
+  fullName.vb: SuperOffice.CRM.Mail.SendMailQueueArgument.New(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray SuperOffice.CRM.Mail.MailItem())
+  name.vb: New(String, String, String, Boolean, String, String, String, Boolean, String, Boolean, ParamArray MailItem())
 - uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
   commentId: M:SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
   id: ToString
@@ -408,6 +454,29 @@ items:
       type: System.Boolean
     content.vb: Public Property ImapSSL As Boolean
   overload: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL*
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: SendMailQueueArgument.UseGraphApi
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
+  summary: Should we use graph API
+  example: []
+  syntax:
+    content: public bool UseGraphApi { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseGraphApi As Boolean
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi*
 - uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
   commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
   id: SentFolder
@@ -1117,6 +1186,13 @@ references:
   name: ImapSSL
   nameWithType: SendMailQueueArgument.ImapSSL
   fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi
+  isExternal: true
+  href: SuperOffice.CRM.Mail.SendMailQueueArgument.html#SuperOffice_CRM_Mail_SendMailQueueArgument_UseGraphApi
+  name: UseGraphApi
+  nameWithType: SendMailQueueArgument.UseGraphApi
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.UseGraphApi
 - uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder*
   commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
   isExternal: true

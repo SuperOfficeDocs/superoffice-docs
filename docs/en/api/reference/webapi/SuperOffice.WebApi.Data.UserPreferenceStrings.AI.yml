@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  id: UserPreferenceStrings.AI
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AI.AllowLeadFeeder
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAI
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAgents
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AI.LeadFeederApiKey
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.AI.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.AI
+  nameWithType: UserPreferenceStrings.AI
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: AI - Artificial Intelligence
+  example: []
+  syntax:
+    content: public static class UserPreferenceStrings.AI
+    content.vb: Public Module UserPreferenceStrings.AI
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AI.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.AI.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.Section
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Section heading
+  example: []
+  syntax:
+    content: public const string Section = "AI"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "AI"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAI
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAI
+  id: EnableAI
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  langs:
+  - csharp
+  - vb
+  name: EnableAI
+  nameWithType: UserPreferenceStrings.AI.EnableAI
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAI
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Allow AI functions? Hide AI buttons/panels if false.
+  example: []
+  syntax:
+    content: public const string EnableAI = "EnableAI"
+    return:
+      type: System.String
+    content.vb: Public Const EnableAI As String = "EnableAI"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAgents
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAgents
+  id: EnableAgents
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  langs:
+  - csharp
+  - vb
+  name: EnableAgents
+  nameWithType: UserPreferenceStrings.AI.EnableAgents
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.EnableAgents
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Allow Agents? Hide Agent nav-button/panel if false.  Can be set per-user during testing (when Feature toggle Agents99x is on)
+  example: []
+  syntax:
+    content: public const string EnableAgents = "EnableAgents"
+    return:
+      type: System.String
+    content.vb: Public Const EnableAgents As String = "EnableAgents"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.AllowLeadFeeder
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AI.AllowLeadFeeder
+  id: AllowLeadFeeder
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  langs:
+  - csharp
+  - vb
+  name: AllowLeadFeeder
+  nameWithType: UserPreferenceStrings.AI.AllowLeadFeeder
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.AllowLeadFeeder
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Allow users to enable the Leadfeeder integration?
+  example: []
+  syntax:
+    content: public const string AllowLeadFeeder = "AllowLeadFeeder"
+    return:
+      type: System.String
+    content.vb: Public Const AllowLeadFeeder As String = "AllowLeadFeeder"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.LeadFeederApiKey
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.AI.LeadFeederApiKey
+  id: LeadFeederApiKey
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.AI
+  langs:
+  - csharp
+  - vb
+  name: LeadFeederApiKey
+  nameWithType: UserPreferenceStrings.AI.LeadFeederApiKey
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.AI.LeadFeederApiKey
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Own Leadfeeder API key for AI functions. If empty, the system will use the SuperOffice API key (and charge extra)
+  example: []
+  syntax:
+    content: public const string LeadFeederApiKey = "LeadFeederApiKey"
+    return:
+      type: System.String
+    content.vb: Public Const LeadFeederApiKey As String = "LeadFeederApiKey"
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

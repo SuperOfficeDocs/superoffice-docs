@@ -5,9 +5,9 @@ items:
   id: TicketMessageHelper
   parent: SuperOffice.CRM.TicketMessage
   children:
+  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.DateTime,System.String,System.String,System.String,System.String,SuperOffice.Data.TicketMessageType,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetDefaultMessageContentAsync(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,System.Threading.CancellationToken)
-  - SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.TicketMessage.TicketMessageHelper.Html2Text(System.String)
   langs:
   - csharp
@@ -128,36 +128,48 @@ items:
   nameWithType.vb: TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(String, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.FindAndInsertInlineAttachmentsAsync(String, Integer, System.Threading.CancellationToken)
   name.vb: FindAndInsertInlineAttachmentsAsync(String, Integer, CancellationToken)
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
-  id: GetQuotedMessageContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.DateTime,System.String,System.String,System.String,System.String,SuperOffice.Data.TicketMessageType,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.DateTime,System.String,System.String,System.String,System.String,SuperOffice.Data.TicketMessageType,System.String,System.Threading.CancellationToken)
+  id: BuildQuotedMessageAsync(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.DateTime,System.String,System.String,System.String,System.String,SuperOffice.Data.TicketMessageType,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.TicketMessage.TicketMessageHelper
   langs:
   - csharp
   - vb
-  name: GetQuotedMessageContentAsync(int, int, CancellationToken)
-  nameWithType: TicketMessageHelper.GetQuotedMessageContentAsync(int, int, CancellationToken)
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(int, int, System.Threading.CancellationToken)
+  name: BuildQuotedMessageAsync(IEnumerable<KeyValuePair<string, string>>, DateTime, string, string, string, string, TicketMessageType, string, CancellationToken)
+  nameWithType: TicketMessageHelper.BuildQuotedMessageAsync(IEnumerable<KeyValuePair<string, string>>, DateTime, string, string, string, string, TicketMessageType, string, CancellationToken)
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>>, System.DateTime, string, string, string, string, SuperOffice.Data.TicketMessageType, string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.TicketMessage
   syntax:
-    content: public static Task<string> GetQuotedMessageContentAsync(int ticketId, int ticketMessageId, CancellationToken cancellationToken = default)
+    content: public static Task<string> BuildQuotedMessageAsync(IEnumerable<KeyValuePair<string, string>> messageHeaders, DateTime createdAt, string author, string emailHeader, string body, string htmlBody, TicketMessageType messageType, string ticketTitle, CancellationToken cancellationToken = default)
     parameters:
-    - id: ticketId
-      type: System.Int32
-    - id: ticketMessageId
-      type: System.Int32
+    - id: messageHeaders
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+    - id: createdAt
+      type: System.DateTime
+    - id: author
+      type: System.String
+    - id: emailHeader
+      type: System.String
+    - id: body
+      type: System.String
+    - id: htmlBody
+      type: System.String
+    - id: messageType
+      type: SuperOffice.Data.TicketMessageType
+    - id: ticketTitle
+      type: System.String
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.String}
-    content.vb: Public Shared Function GetQuotedMessageContentAsync(ticketId As Integer, ticketMessageId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of String)
-  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync*
-  nameWithType.vb: TicketMessageHelper.GetQuotedMessageContentAsync(Integer, Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync(Integer, Integer, System.Threading.CancellationToken)
-  name.vb: GetQuotedMessageContentAsync(Integer, Integer, CancellationToken)
+    content.vb: Public Shared Function BuildQuotedMessageAsync(messageHeaders As IEnumerable(Of KeyValuePair(Of String, String)), createdAt As Date, author As String, emailHeader As String, body As String, htmlBody As String, messageType As TicketMessageType, ticketTitle As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync*
+  nameWithType.vb: TicketMessageHelper.BuildQuotedMessageAsync(IEnumerable(Of KeyValuePair(Of String, String)), Date, String, String, String, String, TicketMessageType, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, String)), Date, String, String, String, String, SuperOffice.Data.TicketMessageType, String, System.Threading.CancellationToken)
+  name.vb: BuildQuotedMessageAsync(IEnumerable(Of KeyValuePair(Of String, String)), Date, String, String, String, String, TicketMessageType, String, CancellationToken)
 references:
 - uid: SuperOffice.CRM.TicketMessage
   commentId: N:SuperOffice.CRM.TicketMessage
@@ -665,13 +677,93 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync*
-  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync
+- uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync*
+  commentId: Overload:SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync
   isExternal: true
-  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html#SuperOffice_CRM_TicketMessage_TicketMessageHelper_GetQuotedMessageContentAsync_System_Int32_System_Int32_System_Threading_CancellationToken_
-  name: GetQuotedMessageContentAsync
-  nameWithType: TicketMessageHelper.GetQuotedMessageContentAsync
-  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.GetQuotedMessageContentAsync
+  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html#SuperOffice_CRM_TicketMessage_TicketMessageHelper_BuildQuotedMessageAsync_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___System_DateTime_System_String_System_String_System_String_System_String_SuperOffice_Data_TicketMessageType_System_String_System_Threading_CancellationToken_
+  name: BuildQuotedMessageAsync
+  nameWithType: TicketMessageHelper.BuildQuotedMessageAsync
+  fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper.BuildQuotedMessageAsync
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string, string>>
+  nameWithType: IEnumerable<KeyValuePair<string, string>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, String))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, String))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.Data.TicketMessageType
+  commentId: T:SuperOffice.Data.TicketMessageType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketMessageType.html
+  name: TicketMessageType
+  nameWithType: TicketMessageType
+  fullName: SuperOffice.Data.TicketMessageType
 - uid: System.Threading.Tasks.Task{System.String}
   commentId: T:System.Threading.Tasks.Task{System.String}
   parent: System.Threading.Tasks
@@ -707,3 +799,68 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -97,9 +97,11 @@ items:
   - SuperOffice.CRM.ArchiveLists.LinksByDestinationProviderBase`1
   - SuperOffice.CRM.ArchiveLists.LinksBySourceProviderBase`1
   - SuperOffice.CRM.ArchiveLists.MailingFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.MailingFolderProvider
   - SuperOffice.CRM.ArchiveLists.MailingsProviderBase
   - SuperOffice.CRM.ArchiveLists.MemberProvider`1
   - SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider
   - SuperOffice.CRM.ArchiveLists.NumbersProviderBase
   - SuperOffice.CRM.ArchiveLists.OwnerContactsProvider
   - SuperOffice.CRM.ArchiveLists.PersonFavouritesProvider

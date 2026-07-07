@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CtaFlavor
+  commentId: T:SuperOffice.WebApi.Data.CtaFlavor
+  id: CtaFlavor
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CtaFlavor.Accept
+  - SuperOffice.WebApi.Data.CtaFlavor.Error
+  - SuperOffice.WebApi.Data.CtaFlavor.Info
+  - SuperOffice.WebApi.Data.CtaFlavor.Normal
+  - SuperOffice.WebApi.Data.CtaFlavor.Reject
+  - SuperOffice.WebApi.Data.CtaFlavor.Warning
+  langs:
+  - csharp
+  - vb
+  name: CtaFlavor
+  nameWithType: CtaFlavor
+  fullName: SuperOffice.WebApi.Data.CtaFlavor
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    News feed CTA flavor
+
+    This Enum is used by:  NewsFeedItemCta.CtaFlavor
+  example: []
+  syntax:
+    content: 'public enum CtaFlavor : short'
+    content.vb: Public Enum CtaFlavor As Short
+- uid: SuperOffice.WebApi.Data.CtaFlavor.Normal
+  commentId: F:SuperOffice.WebApi.Data.CtaFlavor.Normal
+  id: Normal
+  parent: SuperOffice.WebApi.Data.CtaFlavor
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: CtaFlavor.Normal
+  fullName: SuperOffice.WebApi.Data.CtaFlavor.Normal
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Plain - no special style'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Normal = 0
+    return:
+      type: SuperOffice.WebApi.Data.CtaFlavor
+    content.vb: >-
+      <EnumMember>
+
+      Normal = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaFlavor.Info
+  commentId: F:SuperOffice.WebApi.Data.CtaFlavor.Info
+  id: Info
+  parent: SuperOffice.WebApi.Data.CtaFlavor
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: CtaFlavor.Info
+  fullName: SuperOffice.WebApi.Data.CtaFlavor.Info
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Blue info icon'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Info = 1
+    return:
+      type: SuperOffice.WebApi.Data.CtaFlavor
+    content.vb: >-
+      <EnumMember>
+
+      Info = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaFlavor.Warning
+  commentId: F:SuperOffice.WebApi.Data.CtaFlavor.Warning
+  id: Warning
+  parent: SuperOffice.WebApi.Data.CtaFlavor
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: CtaFlavor.Warning
+  fullName: SuperOffice.WebApi.Data.CtaFlavor.Warning
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Yellow warning icon'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Warning = 2
+    return:
+      type: SuperOffice.WebApi.Data.CtaFlavor
+    content.vb: >-
+      <EnumMember>
+
+      Warning = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaFlavor.Error
+  commentId: F:SuperOffice.WebApi.Data.CtaFlavor.Error
+  id: Error
+  parent: SuperOffice.WebApi.Data.CtaFlavor
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: CtaFlavor.Error
+  fullName: SuperOffice.WebApi.Data.CtaFlavor.Error
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Red error icon'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Error = 3
+    return:
+      type: SuperOffice.WebApi.Data.CtaFlavor
+    content.vb: >-
+      <EnumMember>
+
+      Error = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaFlavor.Accept
+  commentId: F:SuperOffice.WebApi.Data.CtaFlavor.Accept
+  id: Accept
+  parent: SuperOffice.WebApi.Data.CtaFlavor
+  langs:
+  - csharp
+  - vb
+  name: Accept
+  nameWithType: CtaFlavor.Accept
+  fullName: SuperOffice.WebApi.Data.CtaFlavor.Accept
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: Green check icon'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Accept = 4
+    return:
+      type: SuperOffice.WebApi.Data.CtaFlavor
+    content.vb: >-
+      <EnumMember>
+
+      Accept = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaFlavor.Reject
+  commentId: F:SuperOffice.WebApi.Data.CtaFlavor.Reject
+  id: Reject
+  parent: SuperOffice.WebApi.Data.CtaFlavor
+  langs:
+  - csharp
+  - vb
+  name: Reject
+  nameWithType: CtaFlavor.Reject
+  fullName: SuperOffice.WebApi.Data.CtaFlavor.Reject
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '5: Red x icon'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Reject = 5
+    return:
+      type: SuperOffice.WebApi.Data.CtaFlavor
+    content.vb: >-
+      <EnumMember>
+
+      Reject = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.CtaFlavor
+  commentId: T:SuperOffice.WebApi.Data.CtaFlavor
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CtaFlavor.html
+  name: CtaFlavor
+  nameWithType: CtaFlavor
+  fullName: SuperOffice.WebApi.Data.CtaFlavor

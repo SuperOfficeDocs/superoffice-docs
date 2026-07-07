@@ -416,8 +416,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveTypedProvider`1
   - SuperOffice.CRM.ArchiveLists.IArchiverProviderHasRowsExtensions
   - SuperOffice.CRM.ArchiveLists.IFreetextMatchCalculator
-  - SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-  - SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
   - SuperOffice.CRM.ArchiveLists.IRowNavigationHint
   - SuperOffice.CRM.ArchiveLists.IUserPreferenceArchiveHelper
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
@@ -499,12 +497,17 @@ items:
   - SuperOffice.CRM.ArchiveLists.MailingAddrPersonExtender
   - SuperOffice.CRM.ArchiveLists.MailingAssociateExtender
   - SuperOffice.CRM.ArchiveLists.MailingFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase
+  - SuperOffice.CRM.ArchiveLists.MailingFolderMailingFolderExtender
+  - SuperOffice.CRM.ArchiveLists.MailingFolderProvider
   - SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
   - SuperOffice.CRM.ArchiveLists.MailingProjectExtender
   - SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
+  - SuperOffice.CRM.ArchiveLists.MailingsAndFoldersProvider
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.Features
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBaseConstants
+  - SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender
   - SuperOffice.CRM.ArchiveLists.MailingsMailingsExtender
   - SuperOffice.CRM.ArchiveLists.MailingsProviderBase
   - SuperOffice.CRM.ArchiveLists.MailingsProviderBaseConstants
@@ -517,6 +520,14 @@ items:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.AddProviderInfo
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
   - SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemContactExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemNewsFeedItemExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemPersonExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemProjectExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemSaleExtender
   - SuperOffice.CRM.ArchiveLists.NoAggregationAttribute
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
   - SuperOffice.CRM.ArchiveLists.NotificationProvider
@@ -702,8 +713,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
   - SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper
   - SuperOffice.CRM.ArchiveLists.RestrictionStorageBase
-  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-  - SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
   - SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculator
   - SuperOffice.CRM.ArchiveLists.ReturnFieldsCalculatorAttribute
@@ -3214,6 +3223,20 @@ references:
   name: ListItemsProvider
   nameWithType: ListItemsProvider
   fullName: SuperOffice.CRM.ArchiveLists.ListItemsProvider
+- uid: SuperOffice.CRM.ArchiveLists.MailingFolderProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingFolderProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingFolderProvider.html
+  name: MailingFolderProvider
+  nameWithType: MailingFolderProvider
+  fullName: SuperOffice.CRM.ArchiveLists.MailingFolderProvider
+- uid: SuperOffice.CRM.ArchiveLists.MailingsAndFoldersProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingsAndFoldersProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsAndFoldersProvider.html
+  name: MailingsAndFoldersProvider
+  nameWithType: MailingsAndFoldersProvider
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsAndFoldersProvider
 - uid: SuperOffice.CRM.ArchiveLists.MailingsProviderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingsProviderBase
   isExternal: true
@@ -3221,6 +3244,13 @@ references:
   name: MailingsProviderBase
   nameWithType: MailingsProviderBase
   fullName: SuperOffice.CRM.ArchiveLists.MailingsProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider.html
+  name: NewsFeedItemProvider
+  nameWithType: NewsFeedItemProvider
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
   isExternal: true
@@ -5222,23 +5252,9 @@ references:
   name: SaintTicketCategoryProvider
   nameWithType: SaintTicketCategoryProvider
   fullName: SuperOffice.CRM.ArchiveLists.SaintTicketCategoryProvider
-- uid: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-  commentId: T:SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IRestrictionStorage.html
-  name: IRestrictionStorage
-  nameWithType: IRestrictionStorage
-  fullName: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
-- uid: SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
-  commentId: T:SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration.html
-  name: IRestrictionStorageMappingConfiguration
-  nameWithType: IRestrictionStorageMappingConfiguration
-  fullName: SuperOffice.CRM.ArchiveLists.IRestrictionStorageMappingConfiguration
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
   commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
+  parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
   href: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.html
   name: RestrictionCriteriaStorage
@@ -5252,21 +5268,6 @@ references:
   name: RestrictionStorageBase
   nameWithType: RestrictionStorageBase
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageBase
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.html
-  name: RestrictionStorageFactory
-  nameWithType: RestrictionStorageFactory
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
-  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute.html
-  name: RestrictionStoragePluginAttribute
-  nameWithType: RestrictionStoragePluginAttribute
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStoragePluginAttribute
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   parent: SuperOffice.CRM.ArchiveLists
@@ -5986,6 +5987,14 @@ references:
   name: LegalBaseExtender
   nameWithType: LegalBaseExtender
   fullName: SuperOffice.CRM.ArchiveLists.LegalBaseExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase.html
+  name: MailingFolderExtenderBase
+  nameWithType: MailingFolderExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -6038,6 +6047,21 @@ references:
   name: ModuleLicenceExtenderBase
   nameWithType: ModuleLicenceExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.ModuleLicenceExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase.html
+  name: NewsFeedItemExtenderBase
+  nameWithType: NewsFeedItemExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender.html
+  name: NewsFeedItemRecipientExtender
+  nameWithType: NewsFeedItemRecipientExtender
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender
 - uid: SuperOffice.CRM.ArchiveLists.NumbersExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.NumbersExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -7926,6 +7950,13 @@ references:
   name: MailingAssociateExtender
   nameWithType: MailingAssociateExtender
   fullName: SuperOffice.CRM.ArchiveLists.MailingAssociateExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingFolderMailingFolderExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingFolderMailingFolderExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingFolderMailingFolderExtender.html
+  name: MailingFolderMailingFolderExtender
+  nameWithType: MailingFolderMailingFolderExtender
+  fullName: SuperOffice.CRM.ArchiveLists.MailingFolderMailingFolderExtender
 - uid: SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingMailingAddrExtender
   isExternal: true
@@ -7940,6 +7971,13 @@ references:
   name: MailingProjectExtender
   nameWithType: MailingProjectExtender
   fullName: SuperOffice.CRM.ArchiveLists.MailingProjectExtender
+- uid: SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender.html
+  name: MailingsHistoryExtender
+  nameWithType: MailingsHistoryExtender
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender
 - uid: SuperOffice.CRM.ArchiveLists.MailingsMailingsExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.MailingsMailingsExtender
   isExternal: true
@@ -7961,6 +7999,41 @@ references:
   name: ModuleLicenceModuleLicenseExtender
   nameWithType: ModuleLicenceModuleLicenseExtender
   fullName: SuperOffice.CRM.ArchiveLists.ModuleLicenceModuleLicenseExtender
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemContactExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemContactExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemContactExtender.html
+  name: NewsFeedItemContactExtender
+  nameWithType: NewsFeedItemContactExtender
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemContactExtender
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemNewsFeedItemExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemNewsFeedItemExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemNewsFeedItemExtender.html
+  name: NewsFeedItemNewsFeedItemExtender
+  nameWithType: NewsFeedItemNewsFeedItemExtender
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemNewsFeedItemExtender
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemPersonExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemPersonExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemPersonExtender.html
+  name: NewsFeedItemPersonExtender
+  nameWithType: NewsFeedItemPersonExtender
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemPersonExtender
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemProjectExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemProjectExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemProjectExtender.html
+  name: NewsFeedItemProjectExtender
+  nameWithType: NewsFeedItemProjectExtender
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemProjectExtender
+- uid: SuperOffice.CRM.ArchiveLists.NewsFeedItemSaleExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.NewsFeedItemSaleExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.NewsFeedItemSaleExtender.html
+  name: NewsFeedItemSaleExtender
+  nameWithType: NewsFeedItemSaleExtender
+  fullName: SuperOffice.CRM.ArchiveLists.NewsFeedItemSaleExtender
 - uid: SuperOffice.CRM.ArchiveLists.NumbersNumbersExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.NumbersNumbersExtender
   isExternal: true

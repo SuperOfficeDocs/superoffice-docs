@@ -1,0 +1,674 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition
+  commentId: T:SuperOffice.WebApi.Data.CustomObjectDefinition
+  id: CustomObjectDefinition
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.#ctor
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.Description
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.Fields
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.Flags
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.IconId
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.Id
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.Name
+  - SuperOffice.WebApi.Data.CustomObjectDefinition.Title
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for CustomObjectDefinition.
+
+    Schema definition for a Custom Object: the underlying table and its fields.
+  example: []
+  syntax:
+    content: 'public class CustomObjectDefinition : Carrier'
+    content.vb: Public Class CustomObjectDefinition Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomObjectAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomObjectAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomObjectDefinition.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectDefinition()
+  nameWithType: CustomObjectDefinition.CustomObjectDefinition()
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.CustomObjectDefinition()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public CustomObjectDefinition()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.#ctor*
+  nameWithType.vb: CustomObjectDefinition.New()
+  fullName.vb: SuperOffice.WebApi.Data.CustomObjectDefinition.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Id
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CustomObjectDefinition.Id
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Id
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Primary key in the extra-tables table.
+  example: []
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.Id*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Name
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CustomObjectDefinition.Name
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Name
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Database table name of the Custom Object, e.g. 'y_equipment'.
+  example: []
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.Name*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Title
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CustomObjectDefinition.Title
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Title
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: User-visible title of the Custom Object.
+  example: []
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.Title*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField
+  id: DisplayField
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: DisplayField
+  nameWithType: CustomObjectDefinition.DisplayField
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Name of the field used to represent a row in lists and previews.
+  example: []
+  syntax:
+    content: public virtual string DisplayField { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayField As String
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Description
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CustomObjectDefinition.Description
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Description
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Description of the Custom Object.
+  example: []
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.Description*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.IconId
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.IconId
+  id: IconId
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: IconId
+  nameWithType: CustomObjectDefinition.IconId
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.IconId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Icon binary-object id used in the UI.
+  example: []
+  syntax:
+    content: public virtual int IconId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property IconId As Integer
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.IconId*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Flags
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.Flags
+  id: Flags
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: CustomObjectDefinition.Flags
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Flags
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Bitmask of ExtraTableFlag values.
+  example: []
+  syntax:
+    content: public virtual int Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Flags As Integer
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.Flags*
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Fields
+  commentId: P:SuperOffice.WebApi.Data.CustomObjectDefinition.Fields
+  id: Fields
+  parent: SuperOffice.WebApi.Data.CustomObjectDefinition
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: CustomObjectDefinition.Fields
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Fields
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Field definitions for this Custom Object.
+  example: []
+  syntax:
+    content: public virtual CustomObjectField[] Fields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CustomObjectField[]
+    content.vb: Public Overridable Property Fields As CustomObjectField()
+  overload: SuperOffice.WebApi.Data.CustomObjectDefinition.Fields*
+references:
+- uid: SuperOffice.WebApi.Agents.CustomObjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomObjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CustomObjectAgent.html
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent
+  fullName: SuperOffice.WebApi.Agents.CustomObjectAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition__ctor
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition.CustomObjectDefinition
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.CustomObjectDefinition
+  nameWithType.vb: CustomObjectDefinition.New
+  fullName.vb: SuperOffice.WebApi.Data.CustomObjectDefinition.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.Id
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_Id
+  name: Id
+  nameWithType: CustomObjectDefinition.Id
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.Name
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_Name
+  name: Name
+  nameWithType: CustomObjectDefinition.Name
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.Title
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_Title
+  name: Title
+  nameWithType: CustomObjectDefinition.Title
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Title
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_DisplayField
+  name: DisplayField
+  nameWithType: CustomObjectDefinition.DisplayField
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.DisplayField
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.Description
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_Description
+  name: Description
+  nameWithType: CustomObjectDefinition.Description
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Description
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.IconId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.IconId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_IconId
+  name: IconId
+  nameWithType: CustomObjectDefinition.IconId
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.IconId
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.Flags
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_Flags
+  name: Flags
+  nameWithType: CustomObjectDefinition.Flags
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Flags
+- uid: SuperOffice.WebApi.Data.CustomObjectDefinition.Fields*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomObjectDefinition.Fields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectDefinition.html#SuperOffice_WebApi_Data_CustomObjectDefinition_Fields
+  name: Fields
+  nameWithType: CustomObjectDefinition.Fields
+  fullName: SuperOffice.WebApi.Data.CustomObjectDefinition.Fields
+- uid: SuperOffice.WebApi.Data.CustomObjectField[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomObjectField.html
+  name: CustomObjectField[]
+  nameWithType: CustomObjectField[]
+  fullName: SuperOffice.WebApi.Data.CustomObjectField[]
+  nameWithType.vb: CustomObjectField()
+  fullName.vb: SuperOffice.WebApi.Data.CustomObjectField()
+  name.vb: CustomObjectField()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CustomObjectField
+    name: CustomObjectField
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObjectField.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CustomObjectField
+    name: CustomObjectField
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CustomObjectField.html
+  - name: (
+  - name: )

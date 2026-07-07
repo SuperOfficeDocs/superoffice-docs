@@ -32,7 +32,7 @@ items:
     IMPORTANT:<p></p>
 
     Avoid reading directly from configurationfile like this;
-    	<pre><code class="lang-csharp">_values = (NameValueCollection)ConfigurationSettings.GetConfig("SuperOffice/Security/Sentry");</code></pre>
+    	<pre><code class="lang-csharp">_values = (NameValueCollection)ConfigurationSettings.GetConfig("SuperOffice/Diagnostics");</code></pre>
 
     Instead use this;
     	<pre><code class="lang-csharp">_values = (NameValueCollection)ConfigFile.GetConfig("SuperOffice/Diagnostics");</code></pre>

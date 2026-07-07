@@ -82,6 +82,27 @@ items:
   - SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper)
   - SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: RestrictionParsingHelper()
+  nameWithType: RestrictionParsingHelper.RestrictionParsingHelper()
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.RestrictionParsingHelper()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public RestrictionParsingHelper()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor*
+  nameWithType.vb: RestrictionParsingHelper.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.GenerateSqlRestrictionFromExpansions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.Restriction})
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.GenerateSqlRestrictionFromExpansions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.Restriction})
   id: GenerateSqlRestrictionFromExpansions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.Restriction})
@@ -118,27 +139,6 @@ items:
   nameWithType.vb: RestrictionParsingHelper.GenerateSqlRestrictionFromExpansions(ArchiveRestrictionInfo(), Dictionary(Of ArchiveRestrictionInfo, Restriction))
   fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.GenerateSqlRestrictionFromExpansions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Collections.Generic.Dictionary(Of SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.Data.SQL.Restriction))
   name.vb: GenerateSqlRestrictionFromExpansions(ArchiveRestrictionInfo(), Dictionary(Of ArchiveRestrictionInfo, Restriction))
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper
-  langs:
-  - csharp
-  - vb
-  name: RestrictionParsingHelper()
-  nameWithType: RestrictionParsingHelper.RestrictionParsingHelper()
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.RestrictionParsingHelper()
-  type: Constructor
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public RestrictionParsingHelper()
-    content.vb: Public Sub New()
-  overload: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor*
-  nameWithType.vb: RestrictionParsingHelper.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.Data.SQL.Restriction
   commentId: T:SuperOffice.Data.SQL.Restriction
@@ -912,6 +912,16 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.html#SuperOffice_CRM_ArchiveLists_RestrictionParsingHelper__ctor
+  name: RestrictionParsingHelper
+  nameWithType: RestrictionParsingHelper.RestrictionParsingHelper
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.RestrictionParsingHelper
+  nameWithType.vb: RestrictionParsingHelper.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.New
+  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.GenerateSqlRestrictionFromExpansions*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.GenerateSqlRestrictionFromExpansions
   isExternal: true
@@ -1056,13 +1066,3 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.#ctor
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.html#SuperOffice_CRM_ArchiveLists_RestrictionParsingHelper__ctor
-  name: RestrictionParsingHelper
-  nameWithType: RestrictionParsingHelper.RestrictionParsingHelper
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.RestrictionParsingHelper
-  nameWithType.vb: RestrictionParsingHelper.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionParsingHelper.New
-  name.vb: New

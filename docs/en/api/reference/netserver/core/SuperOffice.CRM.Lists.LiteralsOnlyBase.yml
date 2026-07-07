@@ -86,6 +86,7 @@ items:
   - SuperOffice.CRM.Lists.DocumentGroupProvider
   - SuperOffice.CRM.Lists.DocumentHandlerProvider
   - SuperOffice.CRM.Lists.DocumentTypesListProvider
+  - SuperOffice.CRM.Lists.EMailPriorityProvider
   - SuperOffice.CRM.Lists.EjUserProvider
   - SuperOffice.CRM.Lists.EmailFromTypeProvider
   - SuperOffice.CRM.Lists.EmailReplyToTypeProvider
@@ -128,6 +129,7 @@ items:
   - SuperOffice.CRM.Lists.MailingTypeProvider
   - SuperOffice.CRM.Lists.MergeTagsProvider
   - SuperOffice.CRM.Lists.MonthProvider
+  - SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
   - SuperOffice.CRM.Lists.OfMonthProvider
   - SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   - SuperOffice.CRM.Lists.PeriodProvider

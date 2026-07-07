@@ -21,7 +21,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'This Enum is used by:  email_item.priority'
+  summary: 'This Enum is used by:  email_item.priority; NewsFeedItem.Priority'
   example: []
   syntax:
     content: 'public enum EMailPriority : short'

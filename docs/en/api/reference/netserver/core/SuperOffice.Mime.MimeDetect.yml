@@ -17,6 +17,17 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Mime
+  summary: >-
+    Detects the MIME type of binary content from its leading "magic" bytes, with a
+
+    best-effort text/HTML heuristic for content that has no binary signature.
+
+    Fully managed and platform independent. (Previously this P/Invoked
+
+    <code>urlmon.dll!FindMimeFromData</code>, which only worked on Windows and left
+
+    non-Windows callers with no detection at all.)
+  example: []
   syntax:
     content: public class MimeDetect
     content.vb: Public Class MimeDetect
@@ -49,13 +60,24 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Mime
+  summary: >-
+    Determines the MIME type of <code class="paramref">dataBytes</code> from its leading bytes.
+
+    Recognizes a set of binary signatures, and falls back to a best-effort text/HTML
+
+    heuristic for signature-less content. If nothing can be determined, the caller's
+
+    <code class="paramref">mimeProposed</code> is returned unchanged.
+  example: []
   syntax:
     content: public static string MimeTypeFrom(byte[] dataBytes, string mimeProposed)
     parameters:
     - id: dataBytes
       type: System.Byte[]
+      description: Content to inspect. May be null or shorter than a signature.
     - id: mimeProposed
       type: System.String
+      description: Fallback MIME type used when no signature or text is detected.
     return:
       type: System.String
     content.vb: Public Shared Function MimeTypeFrom(dataBytes As Byte(), mimeProposed As String) As String

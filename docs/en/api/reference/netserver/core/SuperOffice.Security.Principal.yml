@@ -8,7 +8,6 @@ items:
   - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
   - SuperOffice.Security.Principal.AuthorizationState
   - SuperOffice.Security.Principal.ClaimsIdentityExtensions
-  - SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
   - SuperOffice.Security.Principal.DefaultTokenContextResolver
   - SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver
   - SuperOffice.Security.Principal.IContextInitializer
@@ -80,13 +79,6 @@ references:
   name: IContextResolver
   nameWithType: IContextResolver
   fullName: SuperOffice.Security.Principal.IContextResolver
-- uid: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
-  commentId: T:SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
-  isExternal: true
-  href: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier.html
-  name: CurrentWindowsIdentitySupplier
-  nameWithType: CurrentWindowsIdentitySupplier
-  fullName: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
 - uid: SuperOffice.Security.Principal.INSAuthenticator
   commentId: T:SuperOffice.Security.Principal.INSAuthenticator
   isExternal: true
