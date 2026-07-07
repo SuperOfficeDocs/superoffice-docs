@@ -23,12 +23,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |mailingId|int|ID: Displays the ID of the mailing| x |
+|mailingFolderId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
 |mailingSent|listAny|Sent: Displays the sent status of the mailing| x |
 |mailingSimpleStatus|listAny|Status: Status| x |
 |mailingEndDate|date|Date sent: Displays the date when the mailing was sent (completed)| x |
 |mailingType|listAny|Type: Display the type of the mailing| x |
+|mailingTypeId| *None* |Type: Display the type of the mailing|  |
+|mailingStatusId|int|Status: Status|  |
 |mailingSubscriptionType|listAny|Subscription type: The subscription type for a mailing| x |
 |mailingSentTo|int|Sent to: Displays to whom the mailing was sent| x |
 |mailingOwner|associate|Owner: Displays the owner of the mailing| x |
@@ -40,6 +43,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |mailingBounceRate|decimal|Bounce rate: Mailing bounce rate| x |
 |mailingDeleted|bool|Deleted: Deleted|  |
 |recipientStatus|listAny|Recipient status: Status of mailing recipient|  |
+|thumbnail| *None* |Thumbnail|  |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |type|listAny|Type: Displays the type of an activity| x |
@@ -115,14 +119,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectAssociate/locationAddress|string|Location: Location| x |
@@ -161,11 +165,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|historyRank|int|Rank: Rank of list item, if available| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=project/text,project/projectUrl/URLAddress
+GET /api/v1/archive/mailingfavourites?$select=updatedDate,project/projectAssociate/ejStatus,project/hasInfoText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -71,7 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:HasParent xsi:type="xsd:boolean">false</Ticket:HasParent>
      <Ticket:ChildCount xsi:type="xsd:int">0</Ticket:ChildCount>
      <Ticket:RelatedCount xsi:type="xsd:int">0</Ticket:RelatedCount>
-     <Ticket:RelationCreatedAt xsi:type="xsd:dateTime">2026-05-27T01:25:26Z</Ticket:RelationCreatedAt>
+     <Ticket:RelationCreatedAt xsi:type="xsd:dateTime">2026-07-02T01:24:05Z</Ticket:RelationCreatedAt>
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
      <Ticket:IconHint xsi:type="xsd:string"></Ticket:IconHint>
@@ -82,7 +82,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:BaseStatus xsi:type="Ticket:TicketBaseStatus">Unknown</Ticket:BaseStatus>
      <Ticket:TicketStatus xsi:type="xsd:int">0</Ticket:TicketStatus>
      <Ticket:TicketStatusDisplayValue xsi:type="xsd:string"></Ticket:TicketStatusDisplayValue>
-     <Ticket:TicketCreatedAt xsi:type="xsd:dateTime">2026-05-27T01:25:26Z</Ticket:TicketCreatedAt>
+     <Ticket:TicketCreatedAt xsi:type="xsd:dateTime">2026-07-02T01:24:05Z</Ticket:TicketCreatedAt>
     </Ticket:TicketRelationItem>
    </Ticket:Response>
   </Ticket:GetTicketRelationsResponse>

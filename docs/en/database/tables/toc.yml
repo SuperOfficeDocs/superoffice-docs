@@ -483,6 +483,14 @@ items:
   href: ms-substitute.md
 - name: ms_trashbin
   href: ms-trashbin.md
+- name: NewsFeedItem
+  href: newsfeeditem.md
+- name: NewsFeedItemCta
+  href: newsfeeditemcta.md
+- name: NewsFeedItemHtml
+  href: newsfeeditemhtml.md
+- name: NewsFeedItemRecipient
+  href: newsfeeditemrecipient.md
 - name: notice_frame
   href: notice-frame.md
 - name: notify
@@ -1131,6 +1139,10 @@ items:
     href: enums/criterionoperator.md
   - name: CrmActorType
     href: enums/crmactortype.md
+  - name: CtaFlavor
+    href: enums/ctaflavor.md
+  - name: CtaType
+    href: enums/ctatype.md
   - name: DashTileCurrencyMode
     href: enums/dashtilecurrencymode.md
   - name: DashTileEntityType
@@ -1211,6 +1223,8 @@ items:
     href: enums/modifiedappointmentfields.md
   - name: Navigation
     href: enums/navigation.md
+  - name: NewsFeedItemStatus
+    href: enums/newsfeeditemstatus.md
   - name: NotificationPlatform
     href: enums/notificationplatform.md
   - name: OfficialLanguage

@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=269
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=507
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
 
@@ -62,8 +62,8 @@ OK
 |----------------|------|--------------|
 | LegalBaseId | int32 | Primary key |
 | Name | string | Name of legal base |
-| Tooltip | string | Tooltip for this consent source |
-| Rank | int32 | Rank of this consent source |
+| Tooltip | string | Tooltip for this legal base |
+| Rank | int32 | Rank of this legal base |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
 | TableRight | TableRight | The carrier's table right |

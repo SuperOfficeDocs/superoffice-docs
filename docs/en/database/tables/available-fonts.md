@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# available\_fonts Table (547)
+# available\_fonts Table (550)
 
 This table contains all fonts selected to be available for external usage
 

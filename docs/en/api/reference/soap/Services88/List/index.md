@@ -84,6 +84,7 @@ Download [WSDL file for Services88/List](../Services88-List.md) if you need to g
 * [GetAllSelectionCategory](GetAllSelectionCategory.md)
 * [GetAllTasks](GetAllTasks.md)
 * [GetAllTicketPriorities](GetAllTicketPriorities.md)
+* [GetAllTicketRelationDefinitionEntities](GetAllTicketRelationDefinitionEntities.md)
 * [GetAmountClassEntity](GetAmountClassEntity.md)
 * [GetAppTaskMenus](GetAppTaskMenus.md)
 * [GetAppWebPanels](GetAppWebPanels.md)

@@ -184,6 +184,7 @@ Implementation of the provider for the combined selection
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -224,11 +225,11 @@ Implementation of the provider for the combined selection
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
 |sale/associate/isLocation|bool|Is a location: Is a location| x |
-|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
@@ -325,14 +326,15 @@ Implementation of the provider for the combined selection
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
-|appointment/appointment/titleHtml| *None* |!!Title Html| x |
-|appointment/appointment/agenda|positiveString|Agenda| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
@@ -431,12 +433,12 @@ Implementation of the provider for the combined selection
 |projectMember/textId|int|Text ID| x |
 |projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
-|projectMember/lastName|string|Last name: Displays the contact's last name| x |
-|projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/lastName|string|Last name: Displays the contact's last name| x |
+|projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
 |projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -535,12 +537,12 @@ Implementation of the provider for the combined selection
 |projectMember/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |projectMember/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |projectMember/personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
-|projectMember/personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
-|projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
+|projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
 |projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
 |projectMember/personUdef/SuperOffice:4|date|contactdate| x |
 |projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
@@ -639,12 +641,12 @@ Implementation of the provider for the combined selection
 |projectMember/correspondingAssociate/userName|string|User name: User name| x |
 |projectMember/correspondingAssociate/personEmail|string|E-mail| x |
 |projectMember/correspondingAssociate/locationAddress|string|Location: Location| x |
-|projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
-|projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
+|projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -656,7 +658,7 @@ Implementation of the provider for the combined selection
 |projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/name|stringorPK|Company name| x |
 |projectMember/department|string|Department| x |
-|projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|projectMember/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
 |projectMember/category|listAny|Category| x |
 |projectMember/categoryGroup|listAny|Category group| x |
@@ -743,12 +745,12 @@ Implementation of the provider for the combined selection
 |projectMember/contactAssociate/userName|string|User name: User name| x |
 |projectMember/contactAssociate/personEmail|string|E-mail| x |
 |projectMember/contactAssociate/locationAddress|string|Location: Location| x |
-|projectMember/contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|projectMember/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactAssociate/isLocation|bool|Is a location: Is a location| x |
+|projectMember/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
@@ -822,7 +824,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=sale/personId,sale/salePublish/publishedFrom,appointment/text,appointment/who,appointment/appointment/description
+GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=projectId,projectAssociate/portraitThumbnail,projectUdef/SuperOffice:10,sale/associate/userName,projectMember/personAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

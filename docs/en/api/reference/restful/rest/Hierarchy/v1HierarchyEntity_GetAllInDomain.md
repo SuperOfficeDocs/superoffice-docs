@@ -30,7 +30,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
 
 

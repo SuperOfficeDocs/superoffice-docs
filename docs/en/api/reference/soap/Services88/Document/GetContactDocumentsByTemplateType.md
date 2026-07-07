@@ -41,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Document:GetContactDocumentsByTemplateType>
     <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
-    <Document:StartTime xsi:type="xsd:dateTime">2026-05-27T01:24:08Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2026-05-27T01:24:08Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2026-07-02T01:22:47Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2026-07-02T01:22:47Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
     <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
    </Document:GetContactDocumentsByTemplateType>

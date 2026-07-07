@@ -28,7 +28,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=facere
+GET /api/v1/List/ConsentPurpose/MDOItems?query=distinctio
 ```
 
 

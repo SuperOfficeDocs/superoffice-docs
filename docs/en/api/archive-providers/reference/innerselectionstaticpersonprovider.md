@@ -103,7 +103,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personEmail/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
@@ -507,7 +507,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName| *None* |Request type: Request type| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -846,11 +846,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
-|personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
@@ -863,7 +864,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personUpdatedBy,personAddress/formattedMultiLineAddress,consentSourceEmarketing,request/ownedBy/firstName,personAppointment/appointmentUdef/SuperOffice:4
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personPager/description,contactAssociate/portraitThumbnail,contactUdef/SuperOffice:1,request/ticketId,request/createdBy/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

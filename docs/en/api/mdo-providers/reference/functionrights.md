@@ -64,7 +64,6 @@ foreach (var item in listProvider.RootItems) {
 |35|Show projects marked as events||ext-see-event-projects|
 |36|Use data rights for My company||ext-use-my-company-rights|
 |37|Use data rights for Same project||ext-use-same-project-rights|
-|38|Audience Administrator||admin-audience|
 |39|SuperOffice Intellisync Server Maintenance||syncadmin-all|
 |40|Edit own synchronisation settings||syncadmin-user|
 |41|Can manage (move and merge) entities||allow-manage-entities|
@@ -75,6 +74,7 @@ foreach (var item in listProvider.RootItems) {
 |46|Script Administrator||admin-script|
 |47|Quote administrator||admin-quote|
 |48|Can approve quotes||quote-can-approve|
+|49|List requests in own categories||cs-listown|
 
 
 ## Related MDO Lists

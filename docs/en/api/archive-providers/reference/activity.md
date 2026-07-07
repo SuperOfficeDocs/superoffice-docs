@@ -289,7 +289,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -678,6 +678,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -745,11 +746,11 @@ Activity archive provider that performs no filtering. This archive is not presen
 |visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
 |endTime| *None* |End time: End time of an activity|  |
 |suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
-|completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
@@ -767,6 +768,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 |appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
 |appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
+|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
@@ -780,7 +782,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/correspondingAssociate/simultaneousEjUser,sale/saleUdef/SuperOffice:8,appointmentPublish/publishedFrom
+GET /api/v1/archive/Activity?$select=subject,person/lastName,contact/postAddress/zip,contact/streetAddress/wgs84longitude,contact/LastCompletedTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

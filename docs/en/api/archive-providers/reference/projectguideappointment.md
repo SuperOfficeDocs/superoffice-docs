@@ -98,7 +98,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/contact/contactId|int|Company ID: Database ID of company| x |
 |appointmentInstance/contact/name|stringorPK|Company name| x |
 |appointmentInstance/contact/department|string|Department| x |
-|appointmentInstance/contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|appointmentInstance/contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |appointmentInstance/contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |appointmentInstance/contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |appointmentInstance/contact/associateId|associate|Our contact: Displays our contact| x |
@@ -677,6 +677,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |appointmentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |appointmentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|appointmentInstance/sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |appointmentInstance/sale/visibleFor|listAny|Visible for|  |
 |appointmentInstance/sale/sale/textId|int|Text ID| x |
 |appointmentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -750,11 +751,11 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |appointmentInstance/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointmentInstance/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|appointmentInstance/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointmentInstance/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |appointmentInstance/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |appointmentInstance/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |appointmentInstance/associate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -762,6 +763,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/associate/personEmail|string|E-mail| x |
 |appointmentInstance/associate/locationAddress|string|Location: Location| x |
 |appointmentInstance/associate/isLocation|bool|Is a location: Is a location| x |
+|appointmentInstance/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointmentInstance/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointmentInstance/appointment/title|positiveString|Title| x |
 |appointmentInstance/appointment/titleHtml| *None* |!!Title Html| x |
@@ -775,7 +777,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideAppointment?$select=instanceItemText,appointmentInstance/priority,appointmentInstance/contact/searchPhone/formattedNumber,appointmentInstance/project/projectUdef/SuperOffice:4,appointmentInstance/sale/projectId
+GET /api/v1/archive/ProjectGuideAppointment?$select=appointmentInstance/contact/postAddress/addressId,appointmentInstance/contact/postAddress/line3,appointmentInstance/associate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

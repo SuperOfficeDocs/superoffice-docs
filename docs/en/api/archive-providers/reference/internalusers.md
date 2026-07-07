@@ -19,18 +19,12 @@ the actual functionality of the provider.
 | Name | Description |
 | ---- | ----- |
 |"all"|All|
-|"superoffice_admin-system-user"|System user administrator|
-|"superoffice_admin-extern-user"|External user administrator|
 |"superoffice_visible-for"|Confidential activities|
-|"superoffice_reporter-studio-user"|Reporter Studio|
-|"superoffice_admin-anonymous-user"|Anonymous user admin|
-|"superoffice_publish"|Publish to external|
 |"superoffice_superlicense-no-selection"|(No Selection)|
 |"superoffice_ten-sales"|Sales Premium|
 |"superoffice_ten-service"|Service Premium|
 |"superoffice_ten-marketing"|Marketing Premium|
 |"superoffice_ten-salesservicemarketing"|SalesPremiumServicePremiumMarketingPremium|
-|"superoffice_outlook-synchronizer"|Outlook Synchronizer|
 |"potential"|Potential users|
 |"retired"|Former employee|
 |"loggedOnWin"|Logged-on to Windows client|
@@ -43,18 +37,12 @@ the actual functionality of the provider.
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
-|superoffice\_admin-system-user| *None* |System user administrator: Allows user to admin system user in SOADMIN user panel.|  |
-|superoffice\_admin-extern-user| *None* |External user administrator: Allows user to admin external user in CRM client|  |
 |superoffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
-|superoffice\_reporter-studio-user| *None* |Reporter Studio: Allows user to log in to Reporter Studio.|  |
-|superoffice\_admin-anonymous-user| *None* |Anonymous user admin: Allows user to admin anonymous user in SOADMIN user panel.|  |
-|superoffice\_publish| *None* |Publish to external: Enables Publish checkbox in CRM client. Requires Extern-user|  |
 |superoffice\_superlicense-no-selection| *None* |No Selection: User Plan: License Not in Use.|  |
 |superoffice\_ten-sales| *None* |Sales Premium: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
 |superoffice\_ten-service| *None* |Service Premium: User Plan: Can edit Requests|  |
 |superoffice\_ten-marketing| *None* |Marketing Premium: User Plan: Can send Mailings, Combined Selections|  |
 |superoffice\_ten-salesservicemarketing| *None* |SalesPremiumServicePremiumMarketingPremium: User Plan: Can edit sales, requests, mailings.|  |
-|superoffice\_outlook-synchronizer| *None* |Outlook Synchronizer: Enables Outlook client sync (??)|  |
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -92,7 +80,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=superoffice_admin-anonymous-user,firstName,associateDbId
+GET /api/v1/archive/InternalUsers?$select=contactId,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

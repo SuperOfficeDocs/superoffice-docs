@@ -939,6 +939,27 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_TestSmtpServer.md
   - name: UpdateFeatureToggles
     href: CustomerService_Agent/v1CustomerServiceAgent_UpdateFeatureToggles.md
+- name: CustomObject
+  href: CustomObject_Agent/index.md
+  items:
+  - name: CreateDefaultCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_CreateDefaultCustomObject.md
+  - name: CreateDefaultCustomObjectDefinition
+    href: CustomObject_Agent/v1CustomObjectAgent_CreateDefaultCustomObjectDefinition.md
+  - name: DeleteCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_DeleteCustomObject.md
+  - name: GetCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObject.md
+  - name: GetCustomObjectDefinition
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectDefinition.md
+  - name: GetCustomObjectsIcons
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectsIcons.md
+  - name: GetCustomObjectsMetadata
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectsMetadata.md
+  - name: HasScreenChooser
+    href: CustomObject_Agent/v1CustomObjectAgent_HasScreenChooser.md
+  - name: SaveCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_SaveCustomObject.md
 - name: Dash
   href: Dash_Agent/index.md
   items:
@@ -1400,6 +1421,8 @@ items:
     href: EMail_Agent/v1EMailAgent_GetEmailAppointment.md
   - name: GetEmailAppointmentRecurrence
     href: EMail_Agent/v1EMailAgent_GetEmailAppointmentRecurrence.md
+  - name: GetEMailAsEmlStream
+    href: EMail_Agent/v1EMailAgent_GetEMailAsEmlStream.md
   - name: GetEMailAsStream
     href: EMail_Agent/v1EMailAgent_GetEMailAsStream.md
   - name: GetEMailAsStreamFromServerIdentifier
@@ -2012,6 +2035,8 @@ items:
     href: List_Agent/v1ListAgent_GetAllTasks.md
   - name: GetAllTicketPriorities
     href: List_Agent/v1ListAgent_GetAllTicketPriorities.md
+  - name: GetAllTicketRelationDefinitionEntities
+    href: List_Agent/v1ListAgent_GetAllTicketRelationDefinitionEntities.md
   - name: GetAmountClassEntity
     href: List_Agent/v1ListAgent_GetAmountClassEntity.md
   - name: GetAppTaskMenus
@@ -2612,6 +2637,27 @@ items:
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanies.md
   - name: GetNavigatorCompanyList
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanyList.md
+- name: NewsFeed
+  href: NewsFeed_Agent/index.md
+  items:
+  - name: CreateDefaultNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_CreateDefaultNewsFeedItem.md
+  - name: DeleteNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_DeleteNewsFeedItem.md
+  - name: GetNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_GetNewsFeedItem.md
+  - name: GetNewsFeedItemsById
+    href: NewsFeed_Agent/v1NewsFeedAgent_GetNewsFeedItemsById.md
+  - name: GetNewsItemsForUser
+    href: NewsFeed_Agent/v1NewsFeedAgent_GetNewsItemsForUser.md
+  - name: MarkAsHandled
+    href: NewsFeed_Agent/v1NewsFeedAgent_MarkAsHandled.md
+  - name: MarkAsRead
+    href: NewsFeed_Agent/v1NewsFeedAgent_MarkAsRead.md
+  - name: PostNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_PostNewsFeedItem.md
+  - name: StartHandling
+    href: NewsFeed_Agent/v1NewsFeedAgent_StartHandling.md
 - name: NumberAllocation
   href: NumberAllocation_Agent/index.md
   items:

@@ -31,7 +31,7 @@ Shadow contact provider for the dynamic ticket provider.
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
 |categoryId|int|Category ID: ID of request category in database| x |
-|ticketTypeName| *None* |Request type: Request type| x |
+|ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -379,7 +379,7 @@ Shadow contact provider for the dynamic ticket provider.
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -633,6 +633,7 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -640,11 +641,11 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -744,11 +745,11 @@ Shadow contact provider for the dynamic ticket provider.
 |project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -795,7 +796,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=ticketStatusName,createdBy/portraitThumbnail,person/correspondingAssociate/usergroupId,contact/updatedByFullName,contact/contactUdef/SuperOffice:4
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=sale/updatedBy,sale/stalledComment,person/personExtra/x_person_datetime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

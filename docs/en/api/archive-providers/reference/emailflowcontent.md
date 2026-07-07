@@ -59,11 +59,14 @@ Lists all email flow content
 |emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
 |emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |shipment/mailingId| *None* |ID: Displays the ID of the mailing|  |
+|shipment/mailingFolderId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |shipment/mailingSelectionId| *None* |Selection ID: The database ID of the selection|  |
 |shipment/mailingSent| *None* |Sent: Displays the sent status of the mailing|  |
 |shipment/mailingSimpleStatus| *None* |Status: Status|  |
 |shipment/mailingEndDate| *None* |Date sent: Displays the date when the mailing was sent (completed)|  |
 |shipment/mailingType| *None* |Type: Display the type of the mailing|  |
+|shipment/mailingTypeId| *None* |Type: Display the type of the mailing|  |
+|shipment/mailingStatusId| *None* |Status: Status|  |
 |shipment/mailingSubscriptionType| *None* |Subscription type: The subscription type for a mailing|  |
 |shipment/mailingSentTo| *None* |Sent to: Displays to whom the mailing was sent|  |
 |shipment/mailingOwner| *None* |Owner: Displays the owner of the mailing|  |
@@ -75,6 +78,7 @@ Lists all email flow content
 |shipment/mailingBounceRate| *None* |Bounce rate: Mailing bounce rate|  |
 |shipment/mailingDeleted| *None* |Deleted: Deleted|  |
 |shipment/recipientStatus| *None* |Recipient status: Status of mailing recipient|  |
+|shipment/thumbnail| *None* |Thumbnail|  |
 |shipment/icon| *None* |Category: Displays the icon for an activity type|  |
 |shipment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
 |shipment/type| *None* |Type: Displays the type of an activity|  |
@@ -119,14 +123,14 @@ Lists all email flow content
 |shipment/emailFlow/workflowAssociate/associateDbId| *None* |Owner - ID|  |
 |shipment/emailFlow/workflowAssociate/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |shipment/emailFlow/workflowAssociate/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
-|shipment/emailFlow/workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
-|shipment/emailFlow/workflowAssociate/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
-|shipment/emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
-|shipment/emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
+|shipment/emailFlow/workflowAssociate/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
+|shipment/emailFlow/workflowAssociate/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
+|shipment/emailFlow/workflowAssociate/contactCategory| *None* |Owner - Category: Category|  |
 |shipment/emailFlow/workflowAssociate/role| *None* |Owner - Role: Role|  |
 |shipment/emailFlow/workflowAssociate/assocName| *None* |Owner - User ID: User ID|  |
 |shipment/emailFlow/workflowAssociate/assocTooltip| *None* |Owner - Description: Description|  |
@@ -223,14 +227,14 @@ Lists all email flow content
 |shipment/project/projectUdef/SuperOffice:3| *None* |projectnumber|  |
 |shipment/project/projectUdef/SuperOffice:4| *None* |projectdate|  |
 |shipment/project/projectUdef/SuperOffice:5| *None* |projectunlimiteddate|  |
-|shipment/project/projectUdef/SuperOffice:6| *None* |projectcheckbox|  |
-|shipment/project/projectUdef/SuperOffice:7| *None* |projectdropdownlistbox|  |
-|shipment/project/projectUdef/SuperOffice:8| *None* |projectdecimal|  |
-|shipment/project/projectUdef/SuperOffice:9| *None* |page1saleandmarketing|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectUdef/SuperOffice:6| *None* |projectcheckbox|  |
+|shipment/project/projectUdef/SuperOffice:7| *None* |projectdropdownlistbox|  |
+|shipment/project/projectUdef/SuperOffice:8| *None* |projectdecimal|  |
+|shipment/project/projectUdef/SuperOffice:9| *None* |page1saleandmarketing|  |
 |shipment/project/projectUdef/SuperOffice:10| *None* |page1saleandadmin|  |
 |shipment/project/NumberOfActivities| *None* |Number of activities|  |
 |shipment/project/NumberOfActivitiesInPeriod| *None* |Number of activities in last 90 days|  |
@@ -256,6 +260,7 @@ Lists all email flow content
 |shipment/project/saintTicketCategory| *None* |Category|  |
 |shipment/project/project/textId| *None* |Text ID|  |
 |shipment/project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
+|shipment/historyRank| *None* |Rank: Rank of list item, if available|  |
 |contentDescription| *None* |Description: Form description|  |
 |contentIcon| *None* |Icon: Icon| x |
 |contentType| *None* |Type : Type| x |
@@ -263,7 +268,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=shipment/project/projectAssociate/simultaneousEjUser,shipment/emailFlow/workflowEnrolledCount,shipment/emailFlow/workflowAssociate/userName
+GET /api/v1/archive/EmailFlowContent?$select=shipment/emailFlow/workflowAssociate/mrMrs,shipment/project/updatedBy,shipment/emailFlow/jumpToFinish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

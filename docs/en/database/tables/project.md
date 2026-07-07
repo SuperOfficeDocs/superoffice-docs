@@ -69,6 +69,7 @@ Projects
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[Email](email.md)  |Email addresses for contacts, projects and persons |
+|[NewsFeedItem](newsfeeditem.md)  |Contains news feed items - published to one or more users, with one or more language descriptions |
 |[projectmember](projectmember.md)  |Project members. Link-table between person and project |
 |[ProjStatus](projstatus.md)  |ProjStatus list table. Project status |
 |[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |

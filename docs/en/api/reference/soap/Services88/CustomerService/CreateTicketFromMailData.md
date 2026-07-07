@@ -42,6 +42,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <CustomerService:CreateTicketFromMailData>
     <CustomerService:MailboxId xsi:type="xsd:int">0</CustomerService:MailboxId>
     <CustomerService:Data xsi:type="xsd:string"></CustomerService:Data>
+    <CustomerService:PersonId xsi:type="xsd:int">0</CustomerService:PersonId>
    </CustomerService:CreateTicketFromMailData>
 
  </SOAP-ENV:Body>

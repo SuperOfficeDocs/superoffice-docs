@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# LegalBase Table (470)
+# LegalBase Table (469)
 
 Legal base for GDPR (Article 6)
 
@@ -17,11 +17,11 @@ Legal base for GDPR (Article 6)
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |legalbase\_id|Primary key|PK| |
-|name|The list item|String(4000)| |
-|rank|Rank order|UShort|&#x25CF;|
-|tooltip|The tooltip for the list item|String(4000)|&#x25CF;|
+|name|Name of legal base|String(4000)| |
+|rank|Rank of this legal base|UShort|&#x25CF;|
+|tooltip|Tooltip for this legal base|String(4000)|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
-|key|The list item key, to be recognized by application logic|String(255)|&#x25CF;|
+|key|The key used to uniquely identify this legal base|String(255)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |
 |updated|Last updated when|UtcDateTime| |

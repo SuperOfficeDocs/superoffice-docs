@@ -54,6 +54,7 @@ Service methods defined on <see cref='T:IEMailAgent'>EMailAgent</see> that can t
 * [GetEMailAddressesAsync](getemailaddressesasync.md)
 * [GetEmailAppointmentAsync](getemailappointmentasync.md)
 * [GetEmailAppointmentRecurrenceAsync](getemailappointmentrecurrenceasync.md)
+* [GetEMailAsEmlStreamAsync](getemailasemlstreamasync.md)
 * [GetEMailAsStreamAsync](getemailasstreamasync.md)
 * [GetEMailAsStreamFromServerIdentifierAsync](getemailasstreamfromserveridentifierasync.md)
 * [GetEMailAsync](getemailasync.md)

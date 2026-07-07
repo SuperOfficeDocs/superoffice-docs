@@ -184,6 +184,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/saleCycle|int|Sale - Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -224,11 +225,11 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personActiveErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/person/ticketPriority|listAny|Sale - Service priority: Default service priority for this contact| x |
 |alternative/version/quote/sale/person/supportLanguage|listAny|Sale - Preferred language: Preferred language used for reply templates and more| x |
-|alternative/version/quote/sale/person/supportAssociate|associate|Sale - Our service contact: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/supportAssociate|associate|Sale - Our service contact: Default service contact for this contact| x |
 |alternative/version/quote/sale/person/supportAssociateFullName|associate|Sale - Our service contact - Full name: Default service contact for this contact| x |
 |alternative/version/quote/sale/person/personAssociateId|associate|Sale - Our contact: Displays our contact| x |
 |alternative/version/quote/sale/person/personAssociateFullName|associate|Sale - Our contact - Full name: Displays our contact| x |
@@ -328,11 +329,11 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_end|date|Sale - Rental - End: End| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_amount|int|Sale - Rental - Amount: Number to rent. Default = 1| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_contact|stringorPK|Sale - Rental - Renter: Company that rents equipment| x |
-|alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |alternative/version/quote/sale/person/personExtra/y\_car/id|int|Sale - Car - id: Displays the row's primary key (y\_car)| x |
 |alternative/version/quote/sale/person/personAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/personAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
@@ -413,7 +414,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/contact/name|stringorPK|Sale - Company name| x |
 |alternative/version/quote/sale/contact/department|string|Sale - Department| x |
-|alternative/version/quote/sale/contact/nameDepartment| *None* |Sale - Company: Displays the company an activity is linked to| x |
+|alternative/version/quote/sale/contact/nameDepartment|string|Sale - Company: Displays the company an activity is linked to| x |
 |alternative/version/quote/sale/contact/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/contact/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |alternative/version/quote/sale/contact/associateId|associate|Sale - Our contact: Displays our contact| x |
@@ -432,11 +433,11 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/updatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/contact/updatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/contact/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
-|alternative/version/quote/sale/contact/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/contact/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/contact/contactSource|listAny|Sale - Source: Source (Company)| x |
 |alternative/version/quote/sale/contact/contactDeleted|bool|Sale - Deleted: Deleted| x |
@@ -536,11 +537,11 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:3|int|Sale - companynumber| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:4|date|Sale - companydate| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:5|unlimitedDate|Sale - companyunlimiteddate: tooltipunlimiteddate| x |
-|alternative/version/quote/sale/contact/contactUdef/SuperOffice:6|bool|Sale - companycheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/contactUdef/SuperOffice:6|bool|Sale - companycheckbox| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:7|listAny|Sale - companydropdownlistbox| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:8|decimal|Sale - companydecimal| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:9|string|Sale - page1saleonly| x |
@@ -640,11 +641,11 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/projectId|int|Sale - Project - DB ID: Displays the database ID for a project row| x |
 |alternative/version/quote/sale/project/name|stringorPK|Sale - Project - Project name: Displays the Project's name| x |
 |alternative/version/quote/sale/project/number|string|Sale - Project - Number: Displays the project's number| x |
-|alternative/version/quote/sale/project/type|listAny|Sale - Project - Project type: Displays the project's type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/type|listAny|Sale - Project - Project type: Displays the project's type| x |
 |alternative/version/quote/sale/project/status|listAny|Sale - Project - Status: Displays the project's status| x |
 |alternative/version/quote/sale/project/statusRank| *None* |Sale - Project - Status rank: Rank of the project status in the status list| x |
 |alternative/version/quote/sale/project/associateId|associate|Sale - Project - ID: Displays login ID of the associate who owns the project| x |
@@ -744,11 +745,11 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/project/infoText|positiveString|Sale - Project - Information: Displays the text entered in the description field| x |
 |alternative/version/quote/connection/quoteConnectionId|int|ERP connection - DB-ID: Database ID| x |
 |alternative/version/quote/connection/deleted|bool|ERP connection - Deleted: Column showing if the ERP connection has been marked as deleted| x |
-|alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
 |alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 |alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
@@ -781,7 +782,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=alternative/version/deliveryType,alternative/version/quote/sale/person/birthDay,alternative/version/quote/sale/person/searchPhone/formattedNumber,alternative/version/quote/sale/person/personAddress/wgs84longitude,alternative/version/quote/sale/person/personAssociate/contactCategory
+GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=subscriptionUnit,alternative/totalPriceIncVAT,alternative/version/quote/sale/description,alternative/version/quote/sale/person/personExtra/x_person_contact_relation,alternative/version/quote/sale/person/consentSourceStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

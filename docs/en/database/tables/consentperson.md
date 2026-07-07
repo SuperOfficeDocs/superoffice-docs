@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ConsentPerson Table (472)
+# ConsentPerson Table (471)
 
 Link table that defines who has which consents
 
@@ -18,7 +18,7 @@ Link table that defines who has which consents
 |------|-------------|------|:----:|
 |consentperson\_id|Primary key|PK| |
 |person\_id|Person who gave consent|FK [person](person.md)|&#x25CF;|
-|consentPurpose\_id|Legal base|FK [ConsentPurpose](consentpurpose.md)|&#x25CF;|
+|consentPurpose\_id|Consent purpose|FK [ConsentPurpose](consentpurpose.md)|&#x25CF;|
 |legalBase\_id|Legal base|FK [LegalBase](legalbase.md)|&#x25CF;|
 |consentSource\_id|Consent source|FK [ConsentSource](consentsource.md)|&#x25CF;|
 |comment|A comment describing why this GDPR change was made|String(255)|&#x25CF;|

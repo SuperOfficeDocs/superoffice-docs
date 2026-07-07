@@ -366,7 +366,7 @@ table data; this will also pull in contact udef and related fields.
 |personContact/contactId|int|Company ID: Database ID of company| x |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
-|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|personContact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |personContact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
@@ -495,7 +495,7 @@ table data; this will also pull in contact udef and related fields.
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName| *None* |Request type: Request type| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -834,6 +834,7 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -847,7 +848,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=firstName,personSourceRelation/birthdate,personSourceRelation/personUpdatedDate,correspondingAssociate/otherGroups,personContact/number
+GET /api/v1/archive/Person?$select=firstName,personInfo/textId,personSourceRelation/firstName,correspondingAssociate/lastName,personContact/contactAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_relation Table (553)
+# ticket\_relation Table (556)
 
 A relation between 2 tickets
 

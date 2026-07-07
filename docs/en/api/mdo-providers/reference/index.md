@@ -160,6 +160,7 @@ envir: onsite, online
 | [emailfolder](emailfolder.md) |EmailFolderProvider gives you the folder hierarchy of a given mail account|
 | [emailfromtype](emailfromtype.md) |MDO provider for the EmailFromType enum|
 | [emailphone](emailphone.md) |List of e-mail addresses and phone numbers matching the search valu|
+| [emailpriorityprovider](emailpriorityprovider.md) |MDO List provider for email priority: Highest, High, Normal, Low, Lowest, No Priority|
 | [emailreplytotype](emailreplytotype.md) |MDO provider for the EmailReplyToType enum|
 | [enrichcontact](enrichcontact.md) |List of possible contacts to import from outside sources.|
 | [erpactortype](erpactortype.md) ||
@@ -249,6 +250,7 @@ envir: onsite, online
 | [mergetags](mergetags.md) ||
 | [month](month.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [mrmrs](mrmrs.md) |GenericMDOProvider reads MDO lists with default settings|
+| [newsfeeditemstatusprovider](newsfeeditemstatusprovider.md) |MDO List provider for news feed item status: Normal, Handling, Handled|
 | [ofmonth](ofmonth.md) |MDO provider for the hard-coded list of "of" months in the recurrence dialog.|
 | [onlinefontlibrary](onlinefontlibrary.md) |MDO provider for the available fonts from the Online Template Library.|
 | [ownercontact](ownercontact.md) |MDO provider for listing owner contacts.|

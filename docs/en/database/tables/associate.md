@@ -206,6 +206,8 @@ Employees, resources and other users - except for External persons
 |[MrMrs](mrmrs.md)  |MrMrs list table. List of salutations. |
 |[MrMrsGroupLink](mrmrsgrouplink.md)  |User group link table for MrMrs, for MDO item hiding |
 |[MrMrsHeadingLink](mrmrsheadinglink.md)  |Heading link table for MrMrs, for MDO headers |
+|[NewsFeedItem](newsfeeditem.md)  |Contains news feed items - published to one or more users, with one or more language descriptions |
+|[NewsFeedItemRecipient](newsfeeditemrecipient.md)  |Recipients of the news feed item. One news feed item may be sent to multiple recipients (users). |
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[OnlineApp](onlineapp.md)  |Echo and track information about Online Apps and their usage |
 |[outgoing\_message](outgoing-message.md)  |Delivery of outgoing messages to messageplugins, updated with status asynchroneously |

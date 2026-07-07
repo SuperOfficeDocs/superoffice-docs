@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# TagsGroupLink Table (460)
+# TagsGroupLink Table (459)
 
 User group link table for Tags, for MDO item hiding
 

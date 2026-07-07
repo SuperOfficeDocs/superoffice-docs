@@ -60,8 +60,8 @@ OK
 |----------------|------|--------------|
 | LegalBaseId | int32 | Primary key |
 | Name | string | Name of legal base |
-| Tooltip | string | Tooltip for this consent source |
-| Rank | int32 | Rank of this consent source |
+| Tooltip | string | Tooltip for this legal base |
+| Rank | int32 | Rank of this legal base |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
 | TableRight | TableRight | The carrier's table right |

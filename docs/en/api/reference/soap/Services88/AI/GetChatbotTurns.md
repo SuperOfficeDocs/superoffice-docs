@@ -65,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <AI:GetChatbotTurnsResponse>
    <AI:Response xsi:type="AI:ArrayOfChatbotTurn">
     <AI:ChatbotTurn xsi:type="AI:ChatbotTurn">
-     <AI:Timestamp xsi:type="xsd:dateTime">2026-05-27T01:23:07Z</AI:Timestamp>
+     <AI:Timestamp xsi:type="xsd:dateTime">2026-07-02T01:21:46Z</AI:Timestamp>
      <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
      <AI:UserDisplayText xsi:type="xsd:string"></AI:UserDisplayText>
      <AI:BotResponse xsi:type="xsd:string"></AI:BotResponse>

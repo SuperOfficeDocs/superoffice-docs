@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# copilot\_data\_source Table (475)
+# copilot\_data\_source Table (474)
 
 Stores data sources for each copilot
 

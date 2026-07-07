@@ -43,7 +43,8 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |0|None||EnumName=None|
-|6|Count||EnumName =Count|
+|1|Count all||EnumName=CountAll|
+|6|Count unique||EnumName=Count|
 |2|Sum||EnumName=Sum|
 |3|Average||EnumName=Average|
 |4|Max||EnumName=Max|

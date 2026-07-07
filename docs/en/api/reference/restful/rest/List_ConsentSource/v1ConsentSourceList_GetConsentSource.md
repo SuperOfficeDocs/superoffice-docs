@@ -58,7 +58,7 @@ OK
 | Tooltip | string | Tooltip for this consent source |
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this consent source |
-| MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
+| MailTemplateId | int32 | The document template to be used for sending 'You have been added to our system, is this ok' emails when a new person is registered using this source |
 | Deleted | bool | true if the ConsentSource is deleted |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |

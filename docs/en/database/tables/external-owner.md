@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# external\_owner Table (488)
+# external\_owner Table (487)
 
 Owner of external data imported into the system
 

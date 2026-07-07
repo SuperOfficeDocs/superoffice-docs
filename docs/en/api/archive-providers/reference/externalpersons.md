@@ -378,7 +378,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName| *None* |Request type: Request type| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -717,6 +717,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -730,7 +731,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=title,searchPhone/description,personTargetRelation/hasInfoText,request/realTimeSpentExternally,request/createdBy/assocName
+GET /api/v1/archive/ExternalPersons?$select=restrictionAddress/county,personExtra/y_rental/id,personTargetRelation/personHasInterests,personTargetRelation/personUpdatedByFullName,personAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

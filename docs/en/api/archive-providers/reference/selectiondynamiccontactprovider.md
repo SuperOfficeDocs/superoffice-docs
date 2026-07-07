@@ -25,7 +25,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -207,7 +207,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |sourceRelation/name|stringorPK|Source - Company name| x |
 |sourceRelation/department|string|Source - Department| x |
-|sourceRelation/nameDepartment| *None* |Source - Company: Displays the company an activity is linked to| x |
+|sourceRelation/nameDepartment|string|Source - Company: Displays the company an activity is linked to| x |
 |sourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |sourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |sourceRelation/associateId|associate|Source - Our contact: Displays our contact| x |
@@ -244,7 +244,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |targetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |targetRelation/name|stringorPK|Target - Company name| x |
 |targetRelation/department|string|Target - Department| x |
-|targetRelation/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
+|targetRelation/nameDepartment|string|Target - Company: Displays the company an activity is linked to| x |
 |targetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |targetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |targetRelation/associateId|associate|Target - Our contact: Displays our contact| x |
@@ -336,6 +336,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
@@ -477,6 +478,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -533,12 +535,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
-|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -637,12 +639,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personInfo/textId|int|Text ID| x |
 |personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personEmail/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|personEmail/emailAddress|string|E-mail| x |
-|personEmail/emailDescription|string|Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personEmail/emailAddress|string|E-mail| x |
+|personEmail/emailDescription|string|Description| x |
 |personEmail/emailId|int|ID| x |
 |personEmail/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |personEmail/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
@@ -741,12 +743,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
 |personSourceRelation/personCategory|listAny|Source - Category| x |
 |personSourceRelation/personCategoryGroup|listAny|Source - Category group| x |
-|personSourceRelation/personCategoryRank|int|Source - !!Category rank| x |
-|personSourceRelation/personBusiness|listAny|Source - Business| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/personCategoryRank|int|Source - !!Category rank| x |
+|personSourceRelation/personBusiness|listAny|Source - Business| x |
 |personSourceRelation/leadStatus|listAny|Source - Lead status| x |
 |personSourceRelation/leadstatusRank|int|Source - !!Lead status RANK| x |
 |personSourceRelation/personDeletedDate|datetime|Source - Deleted date: Deleted date|  |
@@ -845,12 +847,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |personAssociate/userName|string|User name: User name| x |
@@ -907,7 +909,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName| *None* |Request type: Request type| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -949,12 +951,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
-|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
-|request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
 |request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
@@ -1053,12 +1055,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/status|listAny|Status: Displays the project's status| x |
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
-|projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
+|projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
 |projectMembers/description|string|Description : Description| x |
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
@@ -1157,12 +1159,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
-|personAppointment/type|listAny|Type: Displays the type of an activity| x |
-|personAppointment/recordType|string|Record type : Shows the record type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/type|listAny|Type: Displays the type of an activity| x |
+|personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
@@ -1246,6 +1248,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -1259,7 +1262,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactAssociate/personId,sourceRelation/nameDepartment,targetRelation/country,sale/createdByWorkflow,sale/associate/isActive
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactExtra/x_contact_longtext,targetRelation/updatedBy,sale/associate/personEmail,appointment/alarm,retired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -103,7 +103,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personEmail/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
@@ -596,7 +596,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName| *None* |Request type: Request type| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -935,6 +935,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -952,11 +953,11 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/recordType|string|Record type : Shows the record type| x |
 |sale/text|positiveString|Text: Displays a descriptive text for the item| x |
 |sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|sale/contactId|listAny|Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/contactId|listAny|Company ID: Database ID of company| x |
 |sale/personId|listAny|Contact ID: Database ID of the contact row| x |
 |sale/projectId|listAny|Project ID: Database ID of project record| x |
 |sale/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -1004,6 +1005,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1055,12 +1057,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
 |sale/quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
 |sale/quote/orderComment|string|Comment: Customer's comment| x |
-|sale/quote/connectionId|int|DB-ID: Database ID| x |
-|sale/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/connectionId|int|DB-ID: Database ID| x |
+|sale/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |sale/quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |sale/quote/version/description|string|Description: Description of the quote version| x |
 |sale/quote/version/number|string|Number: Reference number for the quote version| x |
@@ -1153,7 +1155,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personAddress/wgs84latitude,personUdef/SuperOffice:11,personSourceRelation/rank,formSubmission/contactId,projectMembers/projectUdef/SuperOffice:9
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personEmail/emailHasBounced,personInterestIds,correspondingAssociate/role,contactUdef/SuperOffice:13,chatSession/status
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

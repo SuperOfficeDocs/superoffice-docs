@@ -71,6 +71,7 @@ OK
 | Updated | date-time | Date/time this faq entry was last updated. |
 | Question | string | The question for this entry. |
 | Answer | string | The answer for this entry. |
+| AccessLevel | string | The access level for this entry (enum). |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 

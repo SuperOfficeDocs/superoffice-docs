@@ -308,7 +308,7 @@ ChatSession provider for Find
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -494,7 +494,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=person/personUdef/SuperOffice:6,person/correspondingAssociate/contactDepartment,contact/contactPhone/formattedNumber,contact/saintTicketCategory
+GET /api/v1/archive/FindChatSession?$select=recordTypeText,person/personDirectFax/formattedNumber,contact/NumberOfSalesInPeriod,contact/NumberOfNotCompletedTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

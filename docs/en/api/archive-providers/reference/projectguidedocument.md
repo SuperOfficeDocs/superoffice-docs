@@ -308,7 +308,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactId|int|Company ID: Database ID of company| x |
 |documentInstance/contact/name|stringorPK|Company name| x |
 |documentInstance/contact/department|string|Department| x |
-|documentInstance/contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|documentInstance/contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |documentInstance/contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |documentInstance/contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |documentInstance/contact/associateId|associate|Our contact: Displays our contact| x |
@@ -697,6 +697,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|documentInstance/sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -751,7 +752,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/project/projectAssociate/isLocation,documentInstance/project/projectUdef/SuperOffice:9,documentInstance/sale/type,documentInstance/sale/saleUdef/SuperOffice:3
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/contactId,documentInstance/person/personExtra/x_person_float,documentInstance/person/personExtra/x_person_shorttext,documentInstance/person/personAssociate/mrMrs,documentInstance/contact/contactExtra/x_contact_contact_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

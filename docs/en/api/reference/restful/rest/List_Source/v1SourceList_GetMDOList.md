@@ -28,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=cum
+GET /api/v1/List/Source/MDOItems?query=recusandae
 ```
 
 

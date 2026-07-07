@@ -301,7 +301,7 @@ Shadow contact provider for the FormSubmission provider.
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -492,7 +492,7 @@ Shadow contact provider for the FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=associate/firstName,person/correspondingAssociate/ejUserId,person/restrictionAddress/zip
+GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=person/personAddress/zip,contact/contactFax/description,contact/contactAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

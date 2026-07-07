@@ -377,7 +377,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactId|int|Company ID: Database ID of company| x |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
-|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|personContact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |personContact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
@@ -729,7 +729,7 @@ as well as before any ORDER BY, are applied.
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
 |request/categoryId|int|Category ID: ID of request category in database| x |
-|request/ticketTypeName| *None* |Request type: Request type| x |
+|request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -1068,12 +1068,13 @@ as well as before any ORDER BY, are applied.
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
-|personAppointment/appointment/title|positiveString|Title| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
@@ -1085,7 +1086,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=supportLanguage,email/emailId,personExtra/x_person_integer,personTargetRelation/personHasInterests,personContact/contactAssociate/usergroupId
+GET /api/v1/archive/FreetextPerson?$select=personDirectFax/formattedNumber,personAddress/line1,personSourceRelation/createdByForm,correspondingAssociate/assocType,personContact/postAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
