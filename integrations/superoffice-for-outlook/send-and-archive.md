@@ -45,12 +45,14 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 ## Related content
 
 * [Archive reminder][4]
+* [Work with shared mailboxes][5]
 
 <!-- Referenced links -->
 [1]: get.md#open
 [2]: ../../docs/en/admin/user-management/index.md#visible
 [3]: get.md#pin
 [4]: archive-reminder.md
+[5]: shared-mailboxes.md
 
 <!-- Referenced images -->
 [img2]: media/outlook-send-and-archive.png

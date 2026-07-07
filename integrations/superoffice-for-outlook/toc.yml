@@ -21,6 +21,8 @@ items:
     href: send-and-archive.md
   - name: Save attachments to SuperOffice
     href: save-attachments.md
+  - name: Work with shared mailboxes
+    href: shared-mailboxes.md
 - name: Add CRM data to Outlook calendar events
   href: add-crm-data-to-event.md
 - name: Archive reminder
