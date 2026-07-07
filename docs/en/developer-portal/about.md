@@ -3,7 +3,7 @@ title: Developer Portal
 uid: developer-portal-overview
 description: Introduction to the SuperOffice Online Developer Portal.
 keywords: developer, Developer Portal, apps, app-store, navigation
-author: AnthonyYates, Bergfrid Dias
+author: AnthonyYates, digitaldiina
 date: 07.07.2026
 version: 2.0
 version_devportal: 2.15
@@ -82,7 +82,7 @@ When you sign in to the Developer Portal, you either represent SuperOffice or a 
 
 [!include[Standard vs. custom apps](includes/std-vs-custom-app.md)]
 
-Each partner's applications are listed in the **Applications** section of the partner Navigator, where you also find the **Create App** button. The **Apps** menu in the Top bar lists all applications across every partner you have access to.
+Each partner's applications are listed in the **Applications** section of the partner's left menu, where you also find the **Create App** button. The **Apps** menu in the Top bar lists all applications across every partner you have access to.
 
 [Learn more about applications][3]
 
@@ -91,7 +91,7 @@ Each partner's applications are listed in the **Applications** section of the pa
 A partner may own and/or develop applications.
 
 > [!NOTE]
-> A partner's applications are listed in the **Applications** section of the partner Navigator, shown as tiles. If there are more than eight applications by a partner, you'll instead see a list that can be filtered and grouped.
+> A partner's applications are listed in the **Applications** section of the partner's left menu, shown as tiles. If there are more than eight applications by a partner, you'll instead see a list that can be filtered and grouped.
 
 Anyone may [register as a CRM Online developer][1] and the first person who register for a new company will trigger the creation of a partner.
 
@@ -132,10 +132,10 @@ If your company develops custom applications only, you can ignore the **App Stor
 The **App Store information** section is visible only if your partner account has created at least one standard application.
 If no standard application exists, the section will not appear in the portal. This ensures that App Store configuration is shown only when it is relevant and actionable.
 
-Compare a partner with no standard applications, where **App Store information** is hidden from the Navigator, with a partner that has at least one standard application, where the section is shown:
+Compare a partner with no standard applications, where **App Store information** is hidden from the left menu, with a partner that has at least one standard application, where the section is shown:
 
-![Partner Overview without standard applications, App Store information hidden from the Navigator -screenshot][img8]
-![Partner Overview with standard applications, App Store information shown in the Navigator -screenshot][img9]
+![Partner Overview without standard applications, App Store information hidden from the left menu -screenshot][img8]
+![Partner Overview with standard applications, App Store information shown in the left menu -screenshot][img9]
 
 [Read more about App Store information.][5]
 

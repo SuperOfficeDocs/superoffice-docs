@@ -3,7 +3,7 @@ uid: dp-register-app
 title: Register an app
 description: Registering a new app in the SuperOffice Developer Portal.
 keywords: Developer Portal, app
-author: Bergfrid Dias
+author: digitaldiina
 date: 07.07.2026
 version: 2.0
 version_devportal: 2.15
@@ -17,7 +17,7 @@ deployment: online
 
 ## Overview
 
-1. In the [Developer Portal][19], go to your partner page and select **Applications** in the left navigator.
+1. In the [Developer Portal][19], go to your partner page and select **Applications** in the left menu.
 
 2. Click **Create App**.
 

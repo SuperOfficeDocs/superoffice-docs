@@ -27,7 +27,7 @@ This template creates an app configuration where you just need to add in the app
 
 ## Create app
 
-1. In the Developer Portal, go to your partner page and select **Applications** in the left navigator.
+1. In the Developer Portal, go to your partner page and select **Applications** in the left menu.
 
 2. Click **Create App**.
 

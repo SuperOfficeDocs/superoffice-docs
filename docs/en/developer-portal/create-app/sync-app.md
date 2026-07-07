@@ -3,7 +3,7 @@ uid: dp-register-sync-app
 title: Register an ERP and quote sync app
 description: Describes how to register a new ERP and quote sync app in the SuperOffice Developer Portal.
 keywords: Developer Portal, app, ERP
-author: Bergfrid Dias
+author: digitaldiina
 date: 07.07.2026
 version: 2.0
 version_devportal: 2.15
@@ -27,7 +27,7 @@ This template creates an app configuration for a standard app and asks for the E
 
 ## Create app
 
-1. In the Developer Portal, go to your partner page and select **Applications** in the left navigator.
+1. In the Developer Portal, go to your partner page and select **Applications** in the left menu.
 
 2. Click **Create App**.
 

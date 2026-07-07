@@ -29,7 +29,7 @@ Data Mirroring Service is a copy of your data stored at a location of your choic
 * [Order Database Mirroring][7] as a standalone application
 
 * Get Database Mirror capability on an existing or new app
-  * [Register a new application][9]
+  * [Register a new application][10]
   * [Update existing application][8]
 
 ## Where to begin
@@ -82,7 +82,6 @@ If you believe you have a great case for an application, navigate to the [applic
 [7]: ../order-database-mirroring.md
 [6]: ../../../developer-portal/getting-started/get-access-to-sod.md
 [8]: ../../../developer-portal/faq/update-app.md
-[9]: ../../../developer-portal/create-app/index.md
 [10]: ../../../developer-portal/create-app/index.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring
 [12]: ../setup-guide.md
