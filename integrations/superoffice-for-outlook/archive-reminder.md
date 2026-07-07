@@ -4,7 +4,7 @@ title: Archive reminder
 description: How the archive reminder works in SuperOffice for Outlook and what to do when the reminder appears.
 keywords: SuperOffice for Outlook, Outlook, archive reminder, Smart Alerts, archive email, archive appointment, SOFO
 author: schildea
-date: 05.16.2026
+date: 07.07.2026
 version_sofo: 2026.6.3
 content_type: howto
 category: integration
