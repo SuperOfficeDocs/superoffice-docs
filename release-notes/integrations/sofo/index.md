@@ -4,7 +4,7 @@ title: What's new in SuperOffice for Outlook
 description: Release notes for the SuperOffice for Outlook integration.
 keywords: Outlook add-in, sofo
 author: SuperOffice AS – Product and Engineering
-date: 07.07.2026
+date: 07.09.2026
 version: 6.3
 content_type: release-note
 category: email

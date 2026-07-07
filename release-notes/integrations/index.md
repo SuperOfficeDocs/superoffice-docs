@@ -54,8 +54,8 @@ Current version: For the latest version numbers and release details for all prod
 See all the [new or updated apps][2]
 
 * [InZynk for SuperOffice][65] from InZynk (12.06.2026)
-* [SuperOffice for Outlook][63] from SuperOffice AS (03.06.2026)
 * [Database Mirroring Service][62] from SuperOffice AS (05.06.2026)
+* [SuperOffice for Outlook][63] from SuperOffice AS (03.06.2026)
 * [SuperOffice for Teams][64] from SuperOffice AS (01.06.2026)
 * [DataBridge for SuperOffice][45] from SuperOffice AS (20.05.2026)
 * [Synchronizer for SuperOffice][47] from SuperOffice AS (20.05.2026)

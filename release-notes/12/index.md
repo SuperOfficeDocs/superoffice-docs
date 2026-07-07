@@ -24,9 +24,9 @@ From this version, all feature updates are available to SuperOffice Online custo
 
 ### 12.2 (09.07.2026)
 
-* [Dashboard - Measure of Sale cycle (12.2)][12] in Core CRM and Sales
+* [Dashboard - Measure sale cycles (12.2)][12] in Core CRM and Sales
 * [Find - Sale cycle as criteria and column (12.2)][12] in Core CRM and Sales
-* [E-mail and Document - Download the e-mail or document file (12.2)][12] in Core CRM and Sales
+* [Email and Document - Download the email or document file (12.2)][12] in Core CRM and Sales
 
 ### 12.1 (16.06.2026)
 

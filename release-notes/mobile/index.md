@@ -4,7 +4,7 @@ title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
 author: kirstiaa
-date: 07.09.2026
+date: 06.17.2026
 version: 11.1
 content_type: release-note
 platform: mobile
