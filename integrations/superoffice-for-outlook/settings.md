@@ -29,7 +29,7 @@ The gear icon (⚙) is available in both the **Action** panel and the **People**
 
 The Settings menu opens and shows:
 
-* Your user profile (name and tenant)
+* Your user profile (email and tenant)
 * All user-configurable options
 * The add-in version number
 * A **Disconnect Outlook from SuperOffice** button
