@@ -71,7 +71,7 @@ I SuperOffice CRM kan du opprette nettleserfaner som kan inneholde tabellinforma
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../../en/automation/webhook/dev/overview.md
+[2]: ../../../en/automation/webhook/dev/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

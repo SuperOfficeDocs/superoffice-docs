@@ -16,7 +16,7 @@ index: true
 
 # Redigera användardefinierade fält
 
-1. [!inkludera[Gå till Fält och välj flik](includes/goto-fields.md)]
+1. [!include[Gå till Fält och välj flik](includes/goto-fields.md)]
 
 1. Dubbelklicka på det nödvändiga fältet i listan **Fält**.
 

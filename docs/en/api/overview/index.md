@@ -313,7 +313,7 @@ Assistance and guidance are available:
 [31]: ../../mobile/index.md
 [32]: netserver.md#domain-level-apis-netserver-core
 [33]: ../config/services.md
-[34]: ../../automation/webhook/dev/overview.md
+[34]: ../../automation/webhook/dev/index.md
 [35]: ../plugins/document/soarc-document-plugin.md
 [36]: ../plugins/sentry/index.md
 [37]: ../tutorials/sem-batch-processing/index.md
