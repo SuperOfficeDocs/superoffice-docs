@@ -267,7 +267,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * Deleted items
   * Field `.MailSaveSentInSentItems`
 
-
 #### SuperOffice.Globalization.RC is Modified
 
 * Deleted items

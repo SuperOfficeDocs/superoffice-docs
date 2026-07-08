@@ -1,5 +1,5 @@
 ---
-uid: version_12.2.2072.0_changes
+uid: version_12.2.2072.0_changes_webapi
 date: 07.07.2026
 ---
 
@@ -68,7 +68,6 @@ The following represent changes to the core Web API assembly.
 * New items
   * Field `.CopilotCompanyPurpose`
 
-
 ##### SuperOffice.WebApi.Data.UserPreferenceStrings.Mail is Modified
 
 * Modified items
@@ -87,9 +86,6 @@ The following represent changes to the core Web API assembly.
 
 ##### SuperOffice.WebApi.Data.UserPreferenceStrings.AI is New
 
-
 ## Web API Authorization
 
 The following represent changes to Web API authorization assemblies.
-
-

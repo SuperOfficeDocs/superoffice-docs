@@ -1,5 +1,5 @@
 ﻿---
-uid: version_12.0.342.0_changes
+uid: version_12.0.342.0_changes_webapi
 date: 05.06.2026
 ---
 

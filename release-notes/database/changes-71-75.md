@@ -15,7 +15,7 @@ category: database
 
 | Table no | 7.1 | 7.5 |
 |---|---|---|
-| 25 | `obsolete_1` | [SORPublishGroupLink](../../docs/en/database/tables/sorpublishgrouplink.md) |
+| 25 | `obsolete_1` | SORPublishGroupLink |
 | 26 | `obsolete_2` | [QuoteConnection](../../docs/en/database/tables/quoteconnection.md) |
 | 27 | `obsolete_3` | [QuoteConnectionAccess](../../docs/en/database/tables/quoteconnectionaccess.md) |
 | 34 | `obsolete_4` | [Quote](../../docs/en/database/tables/quote.md) |

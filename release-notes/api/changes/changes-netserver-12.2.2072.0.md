@@ -24,7 +24,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
 * New items
   * Method `GetEMailAsEmlStreamAsync(Int32, Boolean, CancellationToken)`
 
-
 ### Assembly: SuperOffice.Services.Implementation
 
 ### New Types
@@ -63,7 +62,6 @@ These changes are observed in both NetServer SOAP and WebAPI (REST) APIs.
   * Method `PreferredTimeZoneImplementation(IPreferenceAgent)`
 * New items
   * Method `PreferredTimeZoneImplementation()`
-
 
 ## NetServer Core
 
@@ -109,7 +107,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.CustomerServiceCsUserName`
   * Property `.CustomerServiceImpersonateCsUser`
 
-
 ##### SuperOffice.Configuration.ConfigFile.Data is Modified
 
 * Modified items
@@ -120,8 +117,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.DatabaseDynamicLoadedConnectionType`
   * Property `.DatabaseDynamicLoadedDataBaseDriver`
   * Property `.DatabaseImpersonateDatabaseUser`
-
-
 
 ##### SuperOffice.Configuration.ConfigFile.Diagnostics is Modified
 
@@ -144,7 +139,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.DiagnosticsLongQueryRows`
   * Property `.DiagnosticsLongQueryThreshold`
 
-
 ##### SuperOffice.Configuration.ConfigFile.Documents is Modified
 
 * Deleted items
@@ -152,7 +146,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.DocumentsArchivePassword`
   * Property `.DocumentsArchiveUser`
   * Property `.DocumentsImpersonateUser`
-
 
 ##### SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration is Modified
 
@@ -162,14 +155,12 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.ICustomerServiceConfigurationCsUserName`
   * Property `.ICustomerServiceConfigurationImpersonateCsUser`
 
-
 ##### SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration is Modified
 
 * Deleted items
   * Property `.IDataDatabaseConfigurationDynamicLoadedConnectionType`
   * Property `.IDataDatabaseConfigurationDynamicLoadedDataBaseDriver`
   * Property `.IDataDatabaseConfigurationImpersonateDatabaseUser`
-
 
 ##### SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration is Modified
 
@@ -192,7 +183,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.IDiagnosticsConfigurationLongQueryRows`
   * Property `.IDiagnosticsConfigurationLongQueryThreshold`
 
-
 ##### SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration is Modified
 
 * Deleted items
@@ -201,18 +191,15 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `.IDocumentsConfigurationArchiveUser`
   * Property `.IDocumentsConfigurationImpersonateUser`
 
-
 ##### SuperOffice.Configuration.ConfigFile.IWebApiConfiguration is Modified
 
 * Deleted items
   * Property `.IWebApiConfigurationAuthorizeWithImplicit`
 
-
 ##### SuperOffice.Configuration.ConfigFile.WebApi is Modified
 
 * Deleted items
   * Property `.WebApiAuthorizeWithImplicit`
-
 
 #### SuperOffice.CRM.UserPreferenceStrings is Modified
 
@@ -222,7 +209,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.CopilotCompanyPurpose`
-
 
 ##### SuperOffice.CRM.UserPreferenceStrings.Mail is Modified
 
@@ -243,7 +229,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 ##### SuperOffice.CRM.UserPreferenceStrings.AI is New
 
 #### SuperOffice.Diagnostics.SoLogger is Modified
-
 
 #### SuperOffice.Globalization.RC is Modified
 
@@ -365,7 +350,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Method `GetThumbnailImage(Stream, Int32, Int32)`
   * Method `GetThumbnailImage(String, Int32, Int32)`
 
-
 ### Assembly: SoDatabase
 
 ### New Types
@@ -431,7 +415,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 * New items
   * Field `.SaleFieldsSaleCycle`
-
 
 ##### SuperOffice.CRM.Data.DBC.SaleHistFields is Modified
 
@@ -548,7 +531,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 
 #### SuperOffice.Data.Cache.CacheBaseV2 is Modified
 
-
 #### SuperOffice.Data.SoDatabase is Modified
 
 * Deleted items
@@ -590,7 +572,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `LastEventName`
   * Property `Testing`
 
-
 ### Assembly: SoDatabase.BusinessLogic
 
 ### New Types
@@ -622,7 +603,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `ColMailingFolderId`
 
 #### SuperOffice.CRM.ArchiveLists.SaleExtenderBase is Modified
-
 
 #### SuperOffice.CRM.Webhooks.WebhookManager is Modified
 
@@ -660,7 +640,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
 * New items
   * Method `VideoMeetingPostLoginPlugin(ILogger<VideoMeetingPostLoginPlugin>)`
 
-
 ### Assembly: SuperOffice.Plugins
 
 ## Continuous Database
@@ -686,7 +665,6 @@ The following represent changes to SuperOffice database schema.
 
 #### SuperOffice.CD.DSL.Database.Steps_SuperOffice.SuperOffice_141_NewFontsSorted is Modified
 
-
 #### SuperOffice.CD.DSL.Database.T_Sale is Modified
 
 * New items
@@ -696,6 +674,3 @@ The following represent changes to SuperOffice database schema.
 
 * New items
   * Field `SaleCycle`
-
-
-

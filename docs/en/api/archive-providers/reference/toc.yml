@@ -713,8 +713,6 @@ items:
   href: timezones.md
 - name: UnassignedTickets
   href: unassignedtickets.md
-- name: UsageStats
-  href: usagestats.md
 - name: UserOpenTickets
   href: useropentickets.md
 - name: UserPreferences
