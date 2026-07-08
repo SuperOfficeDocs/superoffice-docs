@@ -67,7 +67,7 @@ landingContent:
           - text: Deploy centrally
             url: ../../../integrations/superoffice-for-outlook/deploy.md
           - text: Save to SuperOffice
-            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+            url: ../../../integrations/superoffice-for-outlook/archive-email.md
           - text: Add contact to SuperOffice
             url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
           - text: Create follow-up

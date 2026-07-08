@@ -67,7 +67,7 @@ landingContent:
           - text: Implementér centralt
             url: ../../../integrations/superoffice-for-outlook/deploy.md
           - text: Gem til SuperOffice
-            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+            url: ../../../integrations/superoffice-for-outlook/archive-email.md
           - text: Tilføj person til SuperOffice
             url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
           - text: Opret opfølgning
