@@ -5,7 +5,7 @@ description: What's new in database version 12.0.342.0.
 generated: true
 keywords: database
 content_type: reference
-envir: onsite, online
+envir: online
 ---
 
 # Released database changes in version 12.0.342.0
@@ -26,18 +26,15 @@ foreignKey
 Upgrade Oracle databases from 8.0 to 8.1: We are no longer using the CLOB datatype for fields shorter than 4k.
 For other databases this is a no-op. On large customers this will take quite some time!
 
-
 **Step 12**
 
-This step will add two new functional rights to the system. One for controlling wheter a user can manage consents for a customer, and one for controlling wheter a user can override consent/subscription checks in Mailings.
+This step will add two new functional rights to the system. One for controlling whether a user can manage consents for a customer, and one for controlling whether a user can override consent/subscription checks in Mailings.
 In addition, this step will give these two rights to all roles with the general admin right.
-
 
 **Step 14**
 
-<b>NB: Due to a Merge/RedAlert f...up, the functionality in this step has been moved to the Optimization name; and should properly live there!</b>
+NB: Due to a Merge/RedAlert f...up, the functionality in this step has been moved to the Optimization name; and should properly live there!
 Modify indexes that have a major impact on performance in Online
-
 
 **Step 18**
 
@@ -68,7 +65,6 @@ generationStart, lastGenerated
 Priming step for upgrading databases from whatever earlier 8.0 version
 We must handle upgrade from 8.0 RC2, since that is the version Online database migration uses.
 
-
 **Step 23**
 
 Add UserName to Associate
@@ -81,12 +77,10 @@ userName
 Priming step for upgrading databases from whatever earlier 8.0 version
 We must handle upgrade from 8.0 RC2, since that is the version Online database migration uses.
 
-
 **Step 25**
 
 Priming step for upgrading databases from whatever earlier 8.0 version
 We must handle upgrade from 8.0 RC2, since that is the version Online database migration uses.
-
 
 **Step 26**
 
@@ -95,7 +89,6 @@ Minor update in ZipCity; update of preference descriptions; update of FI address
 Priming step for upgrading databases from whatever earlier 8.0 version
 We must handle upgrade from 8.0 RC2, since that is the version Online database migration uses.
 NB When this step was submitted, some updated imp files for new databases were also submitted.
-
 
 **Step 27**
 
@@ -116,7 +109,6 @@ Add the Tags MDO list, a new Function Right to directly define tags, and assign 
 
 Reload the CacheTabs table, to add new lists
 
-
 **Step 30**
 
 It is now possible to turn off trailing-whitespace trimming of string fields in the database; and specify this and TimeZone processing in a generic manner
@@ -132,11 +124,9 @@ name
 
 Preference descriptions for the R project
 
-
 **Step 32**
 
 Transfer any password rules set in the now-obsolete preference System/PasswordPolicy into the password_rules table with id=1
-
 
 **Step 33**
 
@@ -149,11 +139,9 @@ includeSignature, showCurrents, senderEmailMode, senderEmailAddress
 
 Re-add the Tags MDO list in UdListDefinition table.
 
-
 **Step 35**
 
 Preference descriptions for the R project
-
 
 **Step 36**
 
@@ -166,36 +154,29 @@ ownerTable, ownerRecord, group\_id, configurationName
 
 Preference descriptions for invitation support
 
-
 **Step 38**
 
 Preference descriptions for invitation support and cleanup of UserPreference table
-
 
 **Step 39**
 
 New preference: default appointment type for incoming invitations
 
-
 **Step 40**
 
 This step has been made obsolete by later changes
-
 
 **Step 41**
 
 This step has been made obsolete by later changes
 
-
 **Step 42**
 
 Updated preferences, and translated name of functional right to create Tags
 
-
 **Step 43**
 
 Updated ZipCity for Norway
-
 
 **Step 44**
 
@@ -215,7 +196,6 @@ cautionWarning
 **Step 46**
 
 Updated preferences
-
 
 **Step 47**
 
@@ -243,7 +223,6 @@ suggestedCategory\_id
 
 Fix inconsistent Main Contact (supportPersonId) after bug in Sales.Web GUI
 
-
 **Step 51**
 
 Add a virtual field on contact (dotsyntax)
@@ -262,7 +241,6 @@ invitationDocType, privacyDocType
 
 Update Red Letter Days, table is overwritten, adding Red days for 2005-2030 for 23 countries
 
-
 **Step 54**
 
 Add a virtual field on person and contact (dotsyntax): emailLastBounce
@@ -276,10 +254,9 @@ emailLastBounce
 
 Reset bounceCount and lastBounce on the Email table for rows where lastBounce is before the start of year 2020
 
-
 **Step 56**
 
-Remove several sections and some individual preferences, that were only relevant to the Windows client. 
+Remove several sections and some individual preferences, that were only relevant to the Windows client.
 Remove never-used fields in searchcriterionvalue and replace with a string field for valueType
 
 * Modify table searchcriterionvalue
@@ -289,7 +266,7 @@ valueType
 
 **Step 57**
 
-Add TimeSpan=Minutes markers to relevant fields on the ticket, ej_message, invoice and ticket_priority tables; controls behaviour in Archives including Selection
+Add TimeSpan=Minutes markers to relevant fields on the ticket, ej_message, invoice and ticket_priority tables; controls behavior in Archives including Selection
 
 * Modify table ticket
 * Modify table ej\_message
@@ -308,7 +285,6 @@ updatedCount
 **Step 58**
 
 Update SOCompany information for new Online databases based on what is in the template and what data is wanted spring 2020
-
 
 **Step 60**
 
@@ -330,41 +306,33 @@ contact\_id
 
 New preference for disabling Image editor in Unlayer mailings editor
 
-
 **Step 63**
 
 New functional right for hiding Service and Mailings button and screen
-
 
 **Step 64**
 
 New preference for invitations, no tentative appointments for others
 
-
 **Step 65**
 
 New preference for mailing, disable image library for royalty-free images
-
 
 **Step 66**
 
 Add starting 0 to german zipcodes where it missed. Update N_List for US, remove duplicate MrMrs.
 
-
 **Step 67**
 
 , Remove duplicate of LowerLimitsaletypecat, new preference for mailing, disable image library for royalty-free images, translations
-
 
 **Step 68**
 
 New preference for document dialog in SOFO (and possible later OML, GmailLink and WEB)
 
-
 **Step 69**
 
-Update some languageinfo and languageinfocountry for correct detecting of language for GDPR confirmation mail. Update RedLetterDay and SOCompany address for Germany. Add a zipcode for DK: Orø. Set group for quote documents for new dbs. 
-
+Update some languageinfo and languageinfocountry for correct detecting of language for GDPR confirmation mail. Update RedLetterDay and SOCompany address for Germany. Add a zipcode for DK: Orø. Set group for quote documents for new dbs.
 
 **Step 70**
 
@@ -377,7 +345,6 @@ FileName
 
 New preference for Mailing, DisableFormsPoweredBy. Rename Mailing header to Marketing. Some fixes of quotes to single quotes.
 
-
 **Step 72**
 
 New field in Document-table for URL to external documents. Should be used internally by DocPlugins only!
@@ -389,7 +356,6 @@ ExtUrl
 
 Turn on freetext index in online.
 
-
 **Step 74**
 
 * Add table CacheInvalidation
@@ -398,52 +364,42 @@ Turn on freetext index in online.
 
 New preference: disable export of tile data
 
-
 **Step 76**
 
 Cleanup LocaleText - Reinsert all data
-
 
 **Step 77**
 
 Cleanup Prefdesc and prefdescline: Only partner-added rows are left, all SuperOffice-maintained preferences are now described in code
 
-
 **Step 78**
 
 Updated ZipToCity for Norway and Sweden
-
 
 **Step 79**
 
 New complete LocaleText - with new ticket notifications
 
-
 **Step 80**
 
-LocaleText - with LanguageRows for detection of supported GUI languages 
-
+LocaleText - with LanguageRows for detection of supported GUI languages
 
 **Step 81**
 
-Add functional right 'Lock / Unlock Target Assignment' 
-
+Add functional right 'Lock / Unlock Target Assignment'
 
 **Step 82**
 
 Index names for extrafields need to be as the Service code creates them; SDB import did not conform. This step will locate and rename any wrongly-named physical indexes (only applicable to databases that have been SDB-imported).
 There was also another bug where index-creation logic for extrafields was inverted, such that a field would get an index when it should not have, and vice versa. This is also corrected, both ways.
 
-
 **Step 83**
 
 Historically, extra-fields of type 'long text' where 'ntext' in Sql Server. This data type is obsolete and such steps will be converted to 'nvarchar(max)', though without reallocating storage space as that might take a long time depending on the amount of data
 
-
 **Step 84**
 
 Update translations for functional right 'Can lock and unlock target assignment'
-
 
 **Step 85**
 
@@ -467,11 +423,9 @@ New list tables to define quote approval and quote denied reasons
 
 Add quote approval push notification texts
 
-
 **Step 88**
 
-Add functional right 'Targets Administrator' 
-
+Add functional right 'Targets Administrator'
 
 **Step 89**
 
@@ -484,7 +438,6 @@ description, searchPhoneNumber
 
 Reset possible flag that says TAGS list is MDO grouped - not supported and should always be off
 
-
 **Step 91**
 
 Change code-generation flags for the ticket and ej_message tables, to give a custome Row implementation in NetServer. No changes to physical DB schema.
@@ -496,21 +449,17 @@ Change code-generation flags for the ticket and ej_message tables, to give a cus
 
 Add invitation declined push notification texts
 
-
 **Step 93**
 
-Update userpreference for Mirroring rows.Technical update of some imp files. 
-
+Update userpreference for Mirroring rows.Technical update of some imp files.
 
 **Step 95**
 
 Correct a red date for UK.
 
-
 **Step 96**
 
 Update SOCompany information for new Online databases based on data wanted december 2022
-
 
 **Step 97**
 
@@ -529,11 +478,9 @@ This table will contain the number of different entities an associate has create
 
 Repair missing ForeignKey relations for person.associate_id and person.group_id
 
-
 **Step 100**
 
 Update SOCompany information for new Online databases based on data wanted april 2023
-
 
 **Step 101**
 
@@ -556,11 +503,9 @@ Mark udef number fields as freetext index sources.
 
 Correct spelling for danish city Aarhus
 
-
 **Step 104**
 
 FreetextWords and FreetextIndex tables used random primary keys during incremental indexing. This is now changing to ordinary PK's from the sequence table. During the transition we need to "make room at the top" of the id space, to ensure we avoid collisions until the next full reindexing
-
 
 **Step 105**
 
@@ -579,11 +524,9 @@ Add new index on freetext index table to improve query performance.
 
 (No longer valid) Remove old index on freetext index table so we can create new fresh indexes.
 
-
 **Step 108**
 
 (No longer valid) Create new clustered index on freetext index table to improve query performance.
-
 
 **Step 109**
 
@@ -598,16 +541,13 @@ ns\_secret
 
 Workflow add 2 functional rights, moved from workflows
 
-
 **Step 111**
 
 Remove user-specific unsafe file types. It should only be settable on the group level.
 
-
 **Step 112**
 
 Clear bit 22 in ejUser.flags. It will be reused for storing 'includeOwnTicketsInGetNext'.
-
 
 **Step 113**
 
@@ -617,8 +557,7 @@ Modify Message table to support new yellow banner messaging system
 
 **Step 114**
 
-Update requiredModule for cs-listextratablecontent and cs-editextratablecontent to 'superoffice.expander-services'
-
+Update requiredModule for cs-listextratablecontent and cs-editextratablecontent to 'SuperOffice.expander-services'
 
 **Step 115**
 
@@ -631,11 +570,9 @@ contentSetCount
 
 As reporter is removed, customers with saved report documents want an easy way to retrieve them, so we give them a dynamic selection to do that
 
-
 **Step 117**
 
 Update ejuser.num_expanded_messages
-
 
 **Step 118**
 
@@ -656,11 +593,9 @@ owned\_externally
 
 Copy SR_ARCHIVE_NUMBER to SR_SALESARCHIVE_NUMBER and SR_PL_INTERESTS_PERSON to SR_PL_INTERESTS_1 in resourceoverride table to make different labelsubstitution possible for those two resources
 
-
 **Step 121**
 
 Update RedLetterDays for Denmark, remove Store Bededag as red day from 2024, but keep it as named day
-
 
 **Step 122**
 
@@ -707,11 +642,9 @@ leadstatus\_id
 
 Corrects the DatabaseModel for three indexes that were incorrectly marked as unique after a previous upgrade. This step inspects the model for indexes on 'target_revision_history.target_group_id', 'email_account.email_address', and 'email_folder.account_id' and sets their IsUnique property to false if found to be true.
 
-
 **Step 129**
 
 Remove ServiceAssociates rows from history. They are redundant and not used anymore.
-
 
 **Step 130**
 
@@ -723,7 +656,6 @@ stage\_when\_closed\_id
 **Step 131**
 
 Adding values for category_group, enable_lead_status in category table. (For new customers only)
-
 
 **Step 132**
 
@@ -782,11 +714,9 @@ deleted
 
 Add fonts for use in forms
 
-
 **Step 141**
 
 Add fonts for use in forms, this time sorted alphabetically
-
 
 **Step 142**
 
@@ -821,7 +751,6 @@ event\_participant\_status
 
 Remove eventual Reporter specific preferences from the UserPreference table
 
-
 **Step 145**
 
 Remove unique index on productversion.(ownername, codename, version) that no longer makes sense
@@ -832,7 +761,6 @@ Remove unique index on productversion.(ownername, codename, version) that no lon
 
 Remove obsolete (and empty) backup tables that only exists in One, after an earlier GDPR cleaning process that is no longer in use
 
-
 **Step 147**
 
 Remove obsolete table 'usagestats', that contains usage statistics from the discontinued Windows Desktop client
@@ -841,13 +769,11 @@ Remove obsolete table 'usagestats', that contains usage statistics from the disc
 
 **Step 148**
 
-Add functional right 'Can mark requests as Spam' 
-
+Add functional right 'Can mark requests as Spam'
 
 **Step 149**
 
 Update translations for functional right 'Can mark requests as Spam'
-
 
 ## ai
 
@@ -1015,7 +941,6 @@ deltaState
 
 Clear out all rows in SystemEvent, in preparation for a unique index to be defined
 
-
 **Step 4**
 
 Create unique index on SystemEvent, to support multi-user-safe event locking
@@ -1024,7 +949,7 @@ Create unique index on SystemEvent, to support multi-user-safe event locking
 
 **Step 5**
 
-This table will contain a mapping on which type of data (appliesToKey) will be used to differ between layouts in the given recipeId 
+This table will contain a mapping on which type of data (appliesToKey) will be used to differ between layouts in the given recipeId
 
 * Add table ConfigurableScreenAppliesTo
 
@@ -1047,21 +972,17 @@ encoding
 
 Move webpanels that are actually task menu items to new table taskmenu
 
-
 **Step 9**
 
 Update Ticket tab pane container ID from 'CardPanes' to 'TicketTabPanes'
-
 
 **Step 10**
 
 Remove reference to FeatureToggle:NSTicketType
 
-
 **Step 11**
 
 Update existing ticket status related CONFIGURABLESCREENDELTA because of the new TicketStatusComponent
-
 
 ## ConsentManagement
 
@@ -1097,7 +1018,6 @@ rfc822\_content
 **Step 9**
 
 One-time "migration" from person.nomailing and s_shipment_addr to become ConsentPerson rows
-
 
 **Step 10**
 
@@ -1135,21 +1055,17 @@ ConsentSourceId, LegalBaseId
 
 Set the #STORE consent on all person records that do not already have it; we assume that all persons in the customers database are there for a legitimate reason
 
-
 **Step 16**
 
 As we now set the #STORE consent on all person records that do not already have it, we also set a default consent and legal base for new persons, thus we set the Default legal base preference.
-
 
 **Step 22**
 
 Remove confirmation mail links for consent sources where SuperOffice does not send privacy confirmation email by design.
 
-
 **Step 23**
 
 Update document template to sync emailmode with privacytype
-
 
 ## Copilot
 
@@ -1162,7 +1078,6 @@ Add tables for Copilot
 **Step 2**
 
 Add initial Copilot
-
 
 ## CRMScript
 
@@ -1211,7 +1126,6 @@ autosave
 **Step 7**
 
 Fix triggers with screen_type = 130. Set to 113 and disable.
-
 
 **Step 8**
 
@@ -1290,11 +1204,9 @@ tags, contact\_id
 
 Transfer mobile phone from ticket to person if no phone on person
 
-
 **Step 10**
 
 Set ticket.contact_id to be consistent with ticket.cust_id.contact_id; and copy the person classifiers (associate_id, group_id, business_idx, category_idx) from contact to person unless person.contact_id = 0
-
 
 **Step 11**
 
@@ -1314,7 +1226,6 @@ attachment\_location\_id
 **Step 13**
 
 Create and enable password rules if they have not been changed from the default
-
 
 **Step 14**
 
@@ -1343,7 +1254,6 @@ suggestedCategory\_id, origHumanCategory\_id
 **Step 17**
 
 Add details clob to ticket_log_action table for JSON logging
-
 
 **Step 18**
 
@@ -1383,7 +1293,6 @@ ai\_suggest\_category, ai\_text\_analysis
 **Step 23**
 
 Change ticket notification expiry from 10 minutes to 24 hours
-
 
 **Step 24**
 
@@ -1496,7 +1405,6 @@ ticket\_type, request\_type
 
 Remove priming data for RequestType list that we wish to move to another table
 
-
 **Step 41**
 
 Remove tables for never-implemented TicketType functionality. The motivation is to clear out junk, as well as keep a consistent naming scheme for ticket functionality
@@ -1544,7 +1452,6 @@ time\_spent
 
 Remove primary key constraint from now-obsolete tables, to prevent faults during Database Mirroring. Only relevant for Online
 
-
 **Step 46**
 
 Add ticket_type.is_default column and insert the first, default, request type
@@ -1565,7 +1472,6 @@ new\_ticket\_type
 
 This step has been superseded by a later step
 
-
 **Step 49**
 
 Update ticket_type.icon column with default icon value
@@ -1577,11 +1483,9 @@ icon
 
 Ticket type priming data used to set default tooltip. We remove it by setting tooltip empty where ticket_type_id = 1
 
-
 **Step 51**
 
 Change CreatedBy criteria to be based on EjUser instead of Associate
-
 
 **Step 52**
 
@@ -1664,26 +1568,21 @@ table\_number
 
 Fill extra_tables.table_number
 
-
 **Step 64**
 
 Recalculate Model.NextTableNumber
-
 
 **Step 65**
 
 Recalculate Model.NextTableNumber
 
-
 **Step 66**
 
 Generate Dataright rows for CustomObjects for all applicable roles
 
-
 **Step 67**
 
 Updates custom object selection table number to correct one
-
 
 **Step 68**
 
@@ -1722,7 +1621,6 @@ Drop tables previously made obsolete (we couldn't delete them in earlier version
 
 Insert new default status for TicketBaseStatus.Spam. Insert new registry row
 
-
 ## customerCenter
 
 Create new table for storing customer center styling and configuration options
@@ -1732,7 +1630,6 @@ Create new table for storing customer center styling and configuration options
 **Step 2**
 
 Prime in default Customer Center Config
-
 
 **Step 3**
 
@@ -1751,121 +1648,97 @@ payload
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 6**
 
 Upgrade cc_template formFrame2.html
-
 
 **Step 7**
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 8**
 
 Upgrade cc_template formFrame2.html
-
 
 **Step 9**
 
 Upgrade cc_template formFrame2.html, form.js
 
-
 **Step 10**
 
 Delete cc_template formFrame2.html, form.js with type=1
-
 
 **Step 11**
 
 Upgrade cc_template formFrame2.html, form.js
 
-
 **Step 12**
 
 Upgrade cc_template formFrame2.html, form.js
-
 
 **Step 13**
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 14**
 
 Upgrade cc_template formFrame2.html
-
 
 **Step 15**
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 16**
 
 Upgrade cc_template updateSubscriptionsFrame2.html
-
 
 **Step 17**
 
 Upgrade cc_template updateSubscriptionsFrame2.html
 
-
 **Step 18**
 
 Upgrade cc_template updateSubscriptionsFrame2.html
-
 
 **Step 19**
 
 Upgrade cc_template updateSubscriptionsFrame2.html
 
-
 **Step 20**
 
 Upgrade cc_template formFrame2.html
-
 
 **Step 21**
 
 Upgrade cc_template updateSubscriptionsFrame2.html
 
-
 **Step 22**
 
 Upgrade cc_template updateSubscriptionsFrame2.html
-
 
 **Step 23**
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 24**
 
 Upgrade cc_template formFrame2.html
-
 
 **Step 25**
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 26**
 
 Upgrade cc_template formFrame2.html
-
 
 **Step 27**
 
 Upgrade cc_template formFrame2.html
 
-
 **Step 28**
 
 Upgrade cc_template formFrame2.html
-
 
 ## dashboard
 
@@ -1910,7 +1783,6 @@ rank
 **Step 6**
 
 Add functional right
-
 
 **Step 7**
 
@@ -1974,11 +1846,9 @@ Set the required attributes to activate Sentry functionality on dashboard, dashb
 
 Update dashboard theme data with fixed IDs
 
-
 **Step 16**
 
 Generate Dataright rows for the new Dashboard, in the data right matrix in Admin
-
 
 **Step 17**
 
@@ -1991,7 +1861,6 @@ style
 
 Update big number colors in dark mode for built-in dashboard themes
 
-
 **Step 19**
 
 Update DashboardTileDefinition with information about where it can be used
@@ -2003,11 +1872,9 @@ usage
 
 Update colors for stalled and open sales in dashboards.
 
-
 **Step 21**
 
 Update DashboardTheme with resource symbols.
-
 
 **Step 22**
 
@@ -2019,11 +1886,9 @@ Add table for QuickFilters
 
 Superseded by DashboardStep24_DefaultDashboardNoOwner
 
-
 **Step 24**
 
 Change associate_id of existing default dashboards to -1.
-
 
 ## ExternalOwner
 
@@ -2156,7 +2021,6 @@ cal\_data
 
 Ensure all email-IDs used as foreignkeys in the foreignkey-table are enclosed in tags. Update all rows as needed, in one operation
 
-
 **Step 12**
 
 * Modify table email\_account
@@ -2189,7 +2053,6 @@ organizer\_email, organizer\_fullname, recurring\_end\_date
 **Step 3**
 
 Set preference "Diary sync active" if Infobridge synchronizer seem to be in use.
-
 
 **Step 4**
 
@@ -2240,7 +2103,6 @@ flags
 **Step 3**
 
 Remove the old SOEditor mailing templates for new Online installations
-
 
 **Step 4**
 
@@ -2379,7 +2241,6 @@ html\_text
 
 The typical search table is an owner of a set of predefined selection criteria
 
-
 **Step 2**
 
 Cleanup after initial (obsolete) table definition
@@ -2410,11 +2271,9 @@ chartKey, lastLoaded, lastLoadedBy, lastMembershipChange, lastMembershipChangeBy
 
 SelectionForFind creates a dynamic selection for each entity/associate as needed; they were missing the required VisibleFor row; those are added here
 
-
 **Step 7**
 
 Update targetTableNumber to 5 where it was 0, and reset membercounts to -1 where we have no recent data
-
 
 **Step 8**
 
@@ -2472,7 +2331,6 @@ Add table OnlineApp, to echo information about authorizations and usage. Optimiz
 
 Deleting obsolete counter-preferences
 
-
 ## Pocket
 
 * Add table PushNotificationService
@@ -2512,11 +2370,9 @@ flags
 
 Change value of registry entry for maximum width of components
 
-
 **Step 3**
 
 Make sure the row with id=1 in ejuser contains the '(System)' user
-
 
 ## SubscriptionMgmt
 
@@ -2571,7 +2427,6 @@ waiting\_for\_approval
 
 Add tables for Targets (Sales, Project, Selection....
 
-
 **Step 2**
 
 Some further normalization
@@ -2587,7 +2442,6 @@ Some further normalization
 **Step 3**
 
 Generate Dataright rows for Targets, in the data right matrix in Admin
-
 
 **Step 4**
 
@@ -2638,26 +2492,21 @@ dimension\_list
 
 In this step we would like to remove userpreference entries with duplicate primary key!
 
-
 ## UserPreference
 
 Migrate EjUser.num_expanded_messaged to UserPreference table
-
 
 **Step 2**
 
 Migrate EjUser default_status_new_ticket, default_status_add_message, default_category, default_user to UserPreference table
 
-
 **Step 3**
 
 Migrate EjUser flags to UserPreference table
 
-
 **Step 4**
 
 Migrate EjUser NotifyMask to UserPreference table
-
 
 ## Webhooks
 
@@ -2781,7 +2630,6 @@ Email flow content (connected message assets)
 
 Store datetimes as UTC and disable automatic time zone conversion
 
-
 **Step 10**
 
 Locking system for concurrency control needed by workflows (and others)
@@ -2832,7 +2680,6 @@ WorkflowWaitForAction new table
 
 Workflow add 2 functional rights (obsolete)
 
-
 **Step 18**
 
 Email flow content (more assets)
@@ -2879,4 +2726,3 @@ created\_by\_workflow\_id
 created\_by\_workflow\_id
 * Modify table appointment
 created\_by\_workflow\_id
-

@@ -1,14 +1,14 @@
 ---
-uid: database-whats-new-12.2.2072.0
-title: What's new in version 12.2.2072.0
-description: What's new in database version 12.2.2072.0.
+uid: database-whats-new-12.1.1412.0
+title: What's new in version 12.1.1412.0
+description: What's new in database version 12.1.1412.0.
 generated: true
 keywords: database
 content_type: reference
 envir: online
 ---
 
-# Released database changes in version 12.2.2072.0
+# Released database changes in version 12.1.1412.0
 
 ## SuperOffice
 
@@ -32,7 +32,7 @@ In addition, this step will give these two rights to all roles with the general 
 
 **Step 14**
 
-NB: Due to a Merge/RedAlert f...up, the functionality in this step has been moved to the Optimization name; and should properly live there!
+<b>NB: Due to a Merge/RedAlert f...up, the functionality in this step has been moved to the Optimization name; and should properly live there!</b>
 Modify indexes that have a major impact on performance in Online
 
 **Step 18**
@@ -265,7 +265,7 @@ valueType
 
 **Step 57**
 
-Add TimeSpan=Minutes markers to relevant fields on the ticket, ej_message, invoice and ticket_priority tables; controls behaviour in Archives including Selection
+Add TimeSpan=Minutes markers to relevant fields on the ticket, ej_message, invoice and ticket_priority tables; controls behavior in Archives including Selection
 
 * Modify table ticket
 * Modify table ej\_message
@@ -774,28 +774,11 @@ Add functional right 'Can mark requests as Spam'
 
 Update translations for functional right 'Can mark requests as Spam'
 
-**Step 150**
-
-Updated ZipToCity for Norway
-
-**Step 151**
-
-Add `sale.sale_cycle` and the mirroring `sale_hist.sale_cycle`. Number of days from a sale being registered until it entered its current closed (Sold or Lost) state; 0/empty while open. Back-fills existing closed sales from salehist. Save-time maintenance lives in SaleRowImplementation.OnSaveAsync.
-
-* Modify table sale
-sale\_cycle
-* Modify table SaleHist
-sale\_cycle
-
 ## ai
 
 The `ai_chat_turn` table contains chat history for user's chatbot sessions with GPT. Chats are keyed by the chat_id and associate_id, and ordered by timestamp. Chat Messages are automatically added to the history as the bot generates answers.
 
 * Add table ai\_chat\_turn
-
-**Step 2**
-
-Set default values for AI preferences.
 
 ## chat
 
@@ -1091,17 +1074,6 @@ Remove confirmation mail links for consent sources where SuperOffice does not se
 **Step 23**
 
 Update document template to sync emailmode with privacytype
-
-**Step 24**
-
-Improve GDPR field descriptions: adopt the more meaningful list-specific text for LegalBase and ConsentSource (name/rank/tooltip/key), and fix the copy/paste ConsentPerson.consentPurpose_id description ('Legal base' -> 'Consent purpose').
-
-* Modify table LegalBase
-name, tooltip, rank, key
-* Modify table ConsentSource
-name, tooltip, rank, key
-* Modify table ConsentPerson
-consentPurpose\_id
 
 ## Copilot
 
@@ -2336,30 +2308,6 @@ Making time_keeping table compatible with our standard generated code, easier cl
 
 * Modify table time\_keeping
 ownerTable, ownerRecord, entity\_id
-
-**Step 12**
-
-Bug 105828: migrate the 'Owned by user group' criterion from '<prefix>/otherGroups' (matched any group membership via usergrouplink) to '<prefix>/usergroup' (the owner's primary group, associate.group_idx) for the associate, contactAssociate, contactSupportAssociate, personAssociate and projectAssociate prefixes. Only the stored criterion column name changes; operators and values are unaffected. Bare 'otherGroups' is not migrated.
-
-Bug 105828: the "Owned by user group" criterion must filter on the owner's current PRIMARY group.
-It used to be bound to the '.../otherGroups' column, which restricts via the usergrouplink table
-and therefore also matched owners that merely had the group as a secondary group. The criterion is
-now bound to '.../usergroup' (associate.group_idx, the owner's primary group).
-
-This step migrates every already-saved criterion, rewriting the stored criterion column from
-'&lt;prefix&gt;/otherGroups' to '&lt;prefix&gt;/usergroup' for each associate-owner prefix used by the
-archive providers. Both columns use the same UserGroup operators and store a user-group id as the
-value, so only the column name changes - operators, operatorId and the SearchCriterionValue rows
-are untouched. The bare 'otherGroups' column is intentionally NOT migrated.
-
-## NewsFeed
-
-The `NewsFeedItem` and related tables allow agents and other systems to post news items to a user-oriented feed that can be rendered in start pages and dashboards.
-
-* Add table NewsFeedItem
-* Add table NewsFeedItemHtml
-* Add table NewsFeedItemCta
-* Add table NewsFeedItemRecipient
 
 ## Notifications
 
