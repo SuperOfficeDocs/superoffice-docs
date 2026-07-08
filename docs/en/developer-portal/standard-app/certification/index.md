@@ -45,4 +45,4 @@ Follow our [step-by-step guide][6], started by sending a request to publish in t
 [5]: ../requirements/index.md
 [6]: certify-app.md
 [7]: initial-security-eval.md#does-it-cost-anything
-[8]: initial-security-eval
+[8]: initial-security-eval.md

@@ -72,7 +72,7 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 <!-- Referenced links -->
 [1]: ../index.md
 [2]: ../certification/certify-app.md
-[3]: ../certification/initial-security-eval
+[3]: ../certification/initial-security-eval.md
 [4]: ../publish.md#beta
 [5]: ../../custom-app/index.md
 [6]: ../../custom-app/validate.md
